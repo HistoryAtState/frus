@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
+    <title>FRUS TEI Rules</title>
+    
+    <p>FRUS TEI Rules Schematron file</p>
+    
+    <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema file.  FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI files.</p>
+    
+    <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+    
+    <!-- Define variables used by other patterns -->
+    <let name="xml-ids" value="//*/@xml:id"/>
+    <let name="vol-ids" value="if (doc-available('http://history.state.gov/services/volume-ids')) then doc('http://history.state.gov/services/volume-ids')//volume-id else doc('volume-ids-snapshot.xml')//volume-id"/>
+    <let name="persName-ids" value="//tei:persName/@xml:id"/>
+    <let name="term-ids" value="//tei:term/@xml:id"/>
+    <let name="documents" value="//tei:div[@type='document']"/>
+    
+    <pattern id="tei-header-checks">
+        <title>TEI Header Checks</title>
+        <rule context="tei:fileDesc">
+            <assert test="count(tei:titleStmt) eq 1">fileDesc needs exactly one titleStmt</assert>
+            <assert test="count(tei:publicationStmt) eq 1">fileDesc needs exactly one publicationStmt</assert>
+            <assert test="count(tei:sourceDesc) eq 1">fileDesc needs exactly one sourceDesc</assert>
+            <assert test="count(child::element()) eq 3">fileDesc can only have three child elements: titleStmt, publicationStmt, and sourceDesc</assert>
+        </rule>
+        <rule context="tei:title[parent::tei:titleStmt]">
+            <assert test="./@type = ('complete', 'series', 'subseries', 'volumenumber', 'volume')">title/@type='<value-of select="@type"/>' is an invalid value.  Only the following values are allowed: complete, series, subseries, volumenumber, volume</assert>
+            <assert test="not(./element())">titleStmt/title cannot contain child elements, only a single text node</assert>
+        </rule>
+        <rule context="tei:titleStmt">
+            <assert test="count(tei:title[@type='complete']) = 1">titleStmt needs exactly one title of @type 'complete'</assert>
+            <assert test="count(tei:title[@type='series']) = 1">titleStmt needs exactly one title of @type 'series'</assert>
+            <assert test="count(tei:title[@type='subseries']) = 1">titleStmt needs exactly one title of @type 'subseries'</assert>
+            <assert test="count(tei:title[@type='volumenumber']) = 1">titleStmt needs exactly one title of @type 'volumenumber'</assert>
+            <assert test="count(tei:title[@type='volume']) = 1">titleStmt needs exactly one title of @type 'volume'</assert>
+            <assert test="count(distinct-values(tei:title/@type)) = count(tei:title)">There can only be one of each @type of title</assert>
+            <assert test="count(tei:editor[@role='primary']) >= 1">titleStmt needs at least one editor of @role 'primary'</assert>
+            <assert test="count(tei:editor[@role='general']) = 1">titleStmt needs exactly one editor of @role 'general'</assert>
+        </rule>
+        <rule context="tei:publicationStmt">
+            <assert test="count(tei:publisher) = 1">publicationStmt needs exactly one publisher</assert>
+            <assert test="count(tei:pubPlace) = 1">publicationStmt needs exactly one pubPlace</assert>
+            <assert test="count(tei:date) = 1">publicationStmt needs exactly one date</assert>
+            <assert test="tei:idno/@type = ('dospubno', 'frus', 'isbn-13', 'isbn-10')">idno/@type='<value-of select="@type"/>' is an invalid value.  Only the following values are allowed: dospubno, frus, isbn-13, isbn-10</assert>
+            <assert test="count(tei:idno[@type='frus']) = 1 and tei:idno[@type='frus'] = $vol-ids">publicationStmt needs exactly one idno of type 'frus', and it must be a defined volume ID</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="list-checks">
+        <title>List Checks</title>
+        <rule context="tei:list">
+            <assert test="./@type = ('participants', 'subject', 'index', 'terms', 'names', 'toc', 'references', 'to', 'simple', 'sources', 'from') or not(./@type)">list/@type='<value-of select="@type"/>' is an invalid value.  Only the following values are allowed: participants, subject, index, terms, names, toc, references, to, simple, sources</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="att-rend-checks">
+        <title>Rend Attribute Value Checks</title>
+        <rule context="tei:hi">
+            <assert test="./@rend = ('strong', 'italic', 'smallcaps', 'roman', 'underline', 'sub', 'superscript')">hi/@rend='<value-of select="@rend"/>' is an invalid value.  Only the following values are allowed: strong, italic, smallcaps, roman, underline, sub, superscript</assert>
+        </rule>
+        <rule context="tei:p">
+            <!-- note that the 4th entry here lets quite a few known "invalid" values pass this test; we will perform this pass of checks at a later stage. TODO. -->
+            <assert test="./@rend = ('strong', 'italic') or 
+                ./@rend = ('sectiontitleital') or
+                ./@rend = ('center', 'right', 'flushleft') or
+                ./@rend = ('sourceparagraphspaceafter', 'sourceparagraphfullindent', 'sourceparagraphtightspacing', 'sourceheadcenterboldbig', 'sourcearchiveboldbig') or
+                not(./@rend)">p/@rend='<value-of select="@rend"/>' is an invalid value.  Only the following values are allowed: strong, italic, sectiontitleital, center, right, flushleft</assert>
+        </rule>
+        <rule context="tei:del">
+            <assert test="./@rend = 'strikethrough'">del/@rend='<value-of select="@rend"/>' is an invalid value.  Only the following value is allowed: strikethrough</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="div-checks">
+        <title>Div Type Attribute Value Checks</title>
+        <rule context="tei:div">
+            <assert test="./@type = ('document', 'chapter', 'subchapter', 'subsubchapter', 'document-group', 'compilation', 'section', 'toc')">div/@type='<value-of select="@type"/>' is an invalid value.  Only the following values are allowed: document, chapter, subchapter, subsubchapter, compilation, section, toc</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="numbering-checks">
+        <title>Document Div Numbering Checks</title>
+        <rule context="tei:div[@type='document']">
+            <assert test="not(./preceding::tei:div[@type='document']) or 
+                ./@n = (./preceding::tei:div[@n][1]/@n + 1)">Document numbering mismatch.  Document div/@n numbering must be consecutive.</assert>
+        </rule>
+        <rule context="tei:body">
+            <assert test="count($documents) = 0 or count($documents) = $documents[last()]/@n - $documents[1]/@n + 1">Document numbering mismatch.  The total number of documents should equal the difference between the first and final documents' numbers, or the number of documents must be 0 (indicating a volume not yet digitized).</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="pointer-checks">
+        <title>Ref and Pointer Checks</title>
+        <rule context="tei:ref[starts-with(@target, '#')]">
+            <assert test="substring-after(@target, '#') = $xml-ids">ref/@target='<value-of select="@target"/>' is an invalid value.  No element's @xml:id corresponds to this value.</assert>
+        </rule>
+        <rule context="tei:ref[starts-with(@target, 'frus')]">
+            <assert test="if (contains(@target, '#')) then substring-before(@target, '#') = $vol-ids else @target = $vol-ids">ref/@target='<value-of select="if (contains(@target, '#')) then substring-before(@target, '#') else @target"/>' is an invalid value.  No volume's ID corresponds to this ref/@target value.</assert>
+        </rule>
+        <rule context="tei:persName[@corresp]">
+            <assert test="substring-after(@corresp, '#') = $persName-ids">persName/@corresp='<value-of select="@corresp"/>' is an invalid value.  No persName has been defined with an @xml:id corresponding to this value.</assert>
+        </rule>
+        <rule context="tei:gloss[@target]">
+            <assert test="substring-after(@target, '#') = $term-ids">gloss/@target='<value-of select="@target"/>' is an invalid value.  No term has been defined with an @xml:id corresponding to this value.</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="empty-content-checks">
+        <title>Empty Content Checks</title>
+        <rule context="tei:p">
+            <assert test="count(./node()) gt 0">paragraphs cannot be empty.</assert>
+        </rule>
+        <rule context="tei:div">
+            <assert test="count(tei:head) = 1">A div must have a head child.</assert>
+        </rule>
+        <rule context="tei:div">
+            <assert test="./@xml:id">A div must have an @xml:id attribute.</assert>
+        </rule>
+        <rule context="tei:head">
+            <assert test="count(preceding-sibling::tei:head) = 0">There can only be one head element.</assert>
+        </rule>
+    </pattern>
+    
+</schema>
