@@ -9,7 +9,7 @@ website.
 In keeping with the spirit of the
 [Digital Government Strategy's goals](http://www.whitehouse.gov/sites/default/files/omb/egov/digital-government/digital-government.html)
 to provide the public with access to high-quality digital government information and services 
-and help unlock the power of government data to spur innovation, the Office of the Historian  
+and help unlock the power of government data to spur innovation, the Office of the Historian 
 is releasing the source files for the online edition of the *Foreign Relations* series.  These source files 
 are encoded in XML.  The text is identical to that found on the Office of the Historian website. 
 
