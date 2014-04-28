@@ -2,7 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
     <title>FRUS TEI Rules</title>
     
-    <p>FRUS TEI Rules Schematron file</p>
+    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 2801 2014-03-20 17:53:23Z joewiz $)</p>
     
     <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema file.  FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI files.</p>
     
@@ -13,7 +13,7 @@
     <let name="vol-ids" value="if (doc-available('http://history.state.gov/services/volume-ids')) then doc('http://history.state.gov/services/volume-ids')//volume-id else doc('volume-ids-snapshot.xml')//volume-id"/>
     <let name="persName-ids" value="//tei:persName/@xml:id"/>
     <let name="term-ids" value="//tei:term/@xml:id"/>
-    <let name="documents" value="//tei:div[@type='document']"/>
+    <let name="documents" value="//tei:div[@xml:id and @type='document']"/>
     
     <pattern id="tei-header-checks">
         <title>TEI Header Checks</title>
@@ -74,18 +74,36 @@
     <pattern id="div-checks">
         <title>Div Type Attribute Value Checks</title>
         <rule context="tei:div">
-            <assert test="./@type = ('document', 'chapter', 'subchapter', 'subsubchapter', 'document-group', 'compilation', 'section', 'toc')">div/@type='<value-of select="@type"/>' is an invalid value.  Only the following values are allowed: document, chapter, subchapter, subsubchapter, compilation, section, toc</assert>
+            <assert test="./@type = ('document', 'chapter', 'subchapter', 'document-group', 'compilation', 'section', 'toc')">div/@type='<value-of select="@type"/>' is an invalid value.  Only the following values are allowed: document, chapter, subchapter, compilation, section, toc</assert>
         </rule>
     </pattern>
     
-    <pattern id="numbering-checks">
+    <pattern id="div-numbering-checks">
         <title>Document Div Numbering Checks</title>
-        <rule context="tei:div[@type='document']">
-            <assert test="not(./preceding::tei:div[@type='document']) or 
+        <rule context="tei:div[@xml:id and @type='document']">
+            <assert test="not(./preceding::tei:div[@xml:id and @type='document']) or 
                 ./@n = (./preceding::tei:div[@n][1]/@n + 1)">Document numbering mismatch.  Document div/@n numbering must be consecutive.</assert>
         </rule>
         <rule context="tei:body">
             <assert test="count($documents) = 0 or count($documents) = $documents[last()]/@n - $documents[1]/@n + 1">Document numbering mismatch.  The total number of documents should equal the difference between the first and final documents' numbers, or the number of documents must be 0 (indicating a volume not yet digitized).</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="footnote-id-checks">
+        <title>Footnote ID Checks</title>
+        <rule context="tei:note[@xml:id and ancestor::tei:div/@type='document']">
+            <assert test="substring-before(./@xml:id, 'fn') = ./ancestor::tei:div[@xml:id][1]/@xml:id">Footnote ID mismatch.  Document ID portion of footnote @xml:id '<value-of select="./@xml:id"/>' must match its document's @xml:id '<value-of select="./ancestor::tei:div[@xml:id][1]/@xml:id"/>'.</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="element-nesting-checks">
+        <title>Element Nesting Checks</title>
+        <rule context="tei:note">
+            <assert test="count(descendant::tei:note) = 0">A footnote cannot be nested inside another footnote, see note/@xml:id='<value-of select="./@xml:id"/>'.</assert>
+        </rule>
+        <rule context="tei:list">
+            <assert test="count(./tei:p) = 0">A list element cannot contain a direct child paragraph element.</assert>
+            <assert test="count(.//tei:table) = 0">A list element cannot contain a table element.</assert>
         </rule>
     </pattern>
     
