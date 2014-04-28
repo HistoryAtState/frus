@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="brown_odds.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="brown_odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:rng="http://relaxng.org/ns/structure/1.0"
+    xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>FRUS TEI Guidelines</title>
+                <author><persName xml:id="Mandy">Mandy Chalou</persName></author>
+                <author><persName xml:id="Joe">Joe Wicentowski</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <availability>
+                    <p>This document is currently for internal use only</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This ODD was born digitally in August 2011 at a TEI Customization seminar held by
+                    Syd Bauman and Julia Flanders at Brown University in Providence, RI.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="#Mandy" when="2011-08-30">Established modules required for FRUS elements
+                &amp; attributes</change>
+            <change who="#Joe" when="2011-08-31">Added frus:classification</change>
+            <change who="#Mandy" when="2011-08-31">Added frus:attachment</change>
+            <change who="#Joe" when="2011-08-31">Constrained @type values for list and div, and
+                @rend values for p and hi</change>
+            <change who="#Joe" when="2012-01-24">Started prose documentation and culled elements
+                from the transcr and linking modules and various attribute classes</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="introduction">
+                <head>Introduction</head>
+                <p>This document is a set of encoding guidelines for the digital edition of the <hi
+                        rend="italic">Foreign Relations of the United States</hi> (<hi rend="italic"
+                        >FRUS</hi>) series, the official documentary history of U.S. foreign
+                    relations. The basis for encoding <hi rend="italic">FRUS</hi> is the Text
+                    Encoding Initiative (see <ref target="http://www.tei-c.org/">tei-c.org</ref> for
+                    the complete TEI P5 Guidelines). This document describes the project-specific
+                    subset of the TEI standard and practices used for encoding <hi rend="italic"
+                        >FRUS</hi>, hereafter called FRUS TEI. The primary purpose of FRUS TEI is to
+                    accurately and canonically encode the text of the publication and capture its
+                    core structural features, including document headings, datelines, paragraphs,
+                    footnotes, page numbers, tables, figures, and indexes. Besides capturing these
+                    structural features, each volume is enhanced with by identifying all cross
+                    references within the series and encoding them as hyperlinks to facilitate
+                    reading. Once encoded according to these guidelines, a FRUS TEI document should
+                    validate against the FRUS TEI schema without errors and thus will be compatible
+                    with tools for electronically publishing and analyzing the FRUS digital archive,
+                    including the Office of the Historian website, ebook catalogs, data feeds, and
+                    APIs. These guidelines, written in TEI using the ODD (One Document Does it all)
+                    format, provide the following information:</p>
+                <list type="simple">
+                    <item>Prose descriptions, supplemented with visual aids, of how to encode every
+                        feature of <hi rend="italic">FRUS</hi> volumes</item>
+                    <item>An appendix containing full documentation for every TEI element and
+                        attribute that is allowed FRUS TEI</item>
+                    <item>A set of XML schema derived from this document that can be used to
+                        validate that a given file is valid FRUS TEI, or if not, where the problems
+                        lie</item>
+                </list>
+                <p>Although this guide cannot anticipate every situation encoders will encounter,
+                    its design allows for new sections or examples to be added as circumstances
+                    demand. The discretion to add to or alter this guide lies solely with the Chief
+                    of the Division of Publishing.</p>
+            </div>
+
+            <divGen type="toc"/>
+
+            <div xml:id="terminology">
+                <head>Terminology</head>
+                <list>
+                    <item><term xml:id="frus-series">The <hi rend="italic">Foreign Relations of the
+                                United States</hi> (<hi rend="italic">FRUS</hi>) Series</term>:
+                            <gloss target="#frus-series">An official U.S. Government serial
+                            publication started in 1861 and published more-or-less continuously
+                            since then, with nearly 500 books to date, constituting the official
+                            documentary history of U.S. foreign relations. While the first books
+                            were titled variously, e.g., "Message of the President of the United
+                            States to the Two Houses of Congress," "Papers Relating to Foreign
+                            Affairs, Accompanying the Annual Message of the President," and "Papers
+                            Relating to the Foreign Relations of the United States," the series
+                            acquired its current name with the publications in the late 1940s
+                            covering the 1930s. While the early volumes were published the year
+                            following the events described in the book, the series gradually fell
+                            behind current events. Now, under a law passed in 1991, volumes must be
+                            published 30 years after the events they describe. Another important
+                            change was the transition from an annual (in the 1861-1951 volumes) to a
+                            triennial (in the 1952-1960 volumes) to a presidential
+                            administration-based organization (since 1961).</gloss></item>
+                    <item><term xml:id="volume">Volume</term>: <gloss target="#volume">A book in the
+                                <hi rend="italic">Foreign Relations</hi> series, consisting of a
+                            title page and typically organized into front matter, a body containing
+                            several hundred transcribed primary source documents, and a back-of-book
+                            index. Bound between two covers or released as a digital-only
+                            publication. While some book titles contain units of division such as
+                            "Volume II Part I" or even "Part II Volume III," we will, for the
+                            purposes of the digitization of the series, refer to each discrete book
+                            as a volume.</gloss></item>
+                    <item><term xml:id="document">Document</term>: <gloss target="#document">A
+                            primary source selected by an editor for inclusion in a <hi
+                                rend="italic">Foreign Relations</hi> volume. Documents typically
+                            have a title, a dateline, a source note, a body, and other annotations,
+                            primarily in the form of footnotes. Recent volumes (since ____) assign a
+                            number to each document, incremented sequentially; the document number,
+                            rather than page number, is the primary unit for cross references.
+                            Before document numbering, page numbers were the unit for cross
+                            references. Occasionally, a document is titled "Editorial Note", which
+                            are not primary source documents but rather are narrative interventions
+                            by the editor. The editor can use editorial notes to summarize a long
+                            document or series of documents that could not be printed because of
+                            space constraints, or provide important context.</gloss></item>
+                </list>
+            </div>
+
+            <div xml:id="structure">
+                <head>The Structure of a FRUS TEI file</head>
+                <p>FRUS TEI files, like all TEI files consist of a root <gi>TEI</gi> element, with
+                    one child <gi>teiHeader</gi>, which contains metadata about the publication, and
+                    one child <gi>text</gi> element, which contains the content of the volume.</p>
+
+                <div xml:id="header">
+                    <head>teiHeader</head>
+                    <p>FRUS-TEI stores several pieces of metadata about a volume in the
+                            <gi>teiHeader</gi> element: <list>
+                            <item><code>fileDesc/titleStmt/title</code>: The volume's complete title
+                                and its components (series, subseries, volume number, and volume
+                                title)</item>
+                            <item><code>fileDesc/titleStmt/editor</code>: Names of the editors
+                                (leave empty if no editors are listed)</item>
+                            <item><code>fileDesc/publicationStmt/publisher, pubPlace, date</code>:
+                                Publication details (publisher, location, date)</item>
+                            <item><code>fileDesc/publicationStmt/idno</code>: Identifiers (DOS
+                                Publication Number, ISBN-10, ISBN-13, FRUS Volume ID, and
+                                OCLC)</item>
+                            <item><code>fileDesc/sourceDesc</code>: A description of the source
+                                information used in the creation of the FRUS-TEI edition</item>
+                            <item><code>encodingDesc/editorialDecl/correction</code>: Corrections
+                                made to the source text and known issues</item>
+                            <item><code>revisionDesc/change</code>: A log of major revisions</item>
+                        </list>
+                    </p>
+                    <p>The Office of the Historian provides vendors with a shell document containing
+                        the volume's complete <gi>teiHeader</gi>. The vendor should only add a
+                            <gi>change</gi> tag in the <gi>revisionDesc</gi> section to indicate the
+                        delivery date for a volume, and supply a list of any corrections made to the
+                        text and unresolved issues, in the form of <gi>correction</gi> elements in
+                        the <gi>encodingDesc</gi> section.</p>
+                    <p>A sample <gi>teiHeader</gi> element:</p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <teiHeader>
+                            <fileDesc>
+                                <titleStmt>
+                                    <title type="complete">Foreign Relations of the United States,
+                                        1969–1976, Volume II, Organization and Management of U.S.
+                                        Foreign Policy, 1969–1972</title>
+                                    <title type="series">Foreign Relations of the United
+                                        States</title>
+                                    <title type="subseries">1969–1976</title>
+                                    <title type="volumenumber">Volume II</title>
+                                    <title type="volume">Organization and Management of U.S. Foreign
+                                        Policy, 1969–1972</title>
+                                    <editor role="primary">David C. Humphrey</editor>
+                                    <editor role="general">Edward C. Keefer</editor>
+                                </titleStmt>
+                                <publicationStmt>
+                                    <publisher>United States Government Printing Office</publisher>
+                                    <pubPlace>Washington</pubPlace>
+                                    <date>2006</date>
+                                    <idno type="dospubno">11374</idno>
+                                    <idno type="isbn-10">0160725100</idno>
+                                    <idno type="isbn-13">9780160725104</idno>
+                                    <idno type="frus">frus1969-76v02</idno>
+                                </publicationStmt>
+                                <sourceDesc>
+                                    <p>Released in 2006 as printed book and online at state.gov</p>
+                                </sourceDesc>
+                            </fileDesc>
+                            <encodingDesc>
+                                <editorialDecl>
+                                    <correction>
+                                        <p>The following errors in the original edition have been
+                                            corrected: <list>
+                                                <item>2008-12-04 HCL SB - An incorrectly numbered
+                                                  document "353" was changed to "350" to reflect the
+                                                  actual document order. See <ref target="#pg_770"
+                                                  >Page 770</ref> or <ref target="#d350">Document
+                                                  350</ref>.</item>
+                                            </list>
+                                        </p>
+                                    </correction>
+                                </editorialDecl>
+                            </encodingDesc>
+                            <revisionDesc>
+                                <change>2008-11-06 PA/HO JW: Created volume shell for HCL</change>
+                            </revisionDesc>
+                        </teiHeader>
+                    </egXML>
+                </div>
+                <div xml:id="text">
+                    <head>Text</head>
+                    <p>Most <hi rend="italic">FRUS</hi> volumes consist of a three-part structure:
+                        front matter (<gi>front</gi>), a body (<gi>body</gi>), and back matter
+                            (<gi>back</gi>). Major divisions within these sections are marked by
+                        nested <gi>div</gi> elements. Footnotes are captured with <gi>note</gi>
+                        elements. Page breaks are captured with the <gi>pb</gi> element.</p>
+                    <p>A simplified overview of structure within the <gi>text</gi> element</p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <text>
+                            <front/>
+                            <body/>
+                            <back/>
+                        </text>
+                    </egXML>
+                    <div xml:id="front">
+                        <head>Front Matter</head>
+                        <p>Front matter consists of the title page (<gi>titlePage</gi>) and
+                            typically the following sections: Preface, Table of Contents, Note on
+                            Sources, List of Terms and Abbreviations, List of Persons.</p>
+                        <p>A simplified overview of the <gi>front</gi> element:</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <front>
+                                <titlePage/>
+                                <div/>
+                                <div/>
+                                <div/>
+                            </front>
+                        </egXML>
+                        <div xml:id="titlePage">
+                            <head>titlePage</head>
+                            <p>The contents of the original printed title page are captured in the
+                                    <gi>titlePage</gi> element.</p>
+                            <p>A sample <gi>titlePage</gi>:</p>
+                            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                <titlePage>
+                                    <docTitle>
+                                        <figure>
+                                            <graphic url="department-seal"/>
+                                        </figure>
+                                        <titlePart>Foreign Relations of the United States,
+                                            1969–1976</titlePart>
+                                        <milestone unit="section" rend="hr"/>
+                                        <titlePart>Volume II</titlePart>
+                                        <titlePart>Organization and Management of U.S. Foreign
+                                            Policy, 1969–1972</titlePart>
+                                    </docTitle>
+                                    <byline>
+                                        <hi rend="italic">Editor</hi>
+                                        <docAuthor>David C. Humphrey</docAuthor>
+                                    </byline>
+                                    <byline>
+                                        <hi rend="italic">General Editor</hi>
+                                        <docAuthor>Edward C. Keefer</docAuthor>
+                                    </byline>
+                                    <milestone unit="section" rend="hr"/>
+                                    <docImprint> United States Government Printing Office
+                                        <lb/>Washington <lb/>2006 </docImprint>
+                                </titlePage>
+                                <pb n="[II]" xml:id="pg_II" facs="0003"/>
+                                <titlePage>
+                                    <docImprint> DEPARTMENT OF STATE PUBLICATION 11374 <lb/>Office
+                                        of the Historian <lb/>Bureau of Public Affairs </docImprint>
+                                    <milestone unit="section" rend="hr"/>
+                                    <docImprint> For sale by the U.S. Government Printing Office
+                                        <lb/>Superintendent of Documents, Mail Stop SSOP,
+                                        Washington, DC 20402-9328 </docImprint>
+                                </titlePage>
+                            </egXML>
+                        </div>
+                        <div xml:id="front-matter-divisions">
+                            <head>Front Matter Divs</head>
+                            <p>After the <gi>titlePage</gi>, there are typically a number of
+                                sections, such as the Preface, Table of Contents, etc. Each
+                                    <gi>div</gi> requires <att>xml:id</att> and <att>type</att>
+                                attributes and a child <gi>head</gi>element.</p>
+                            <egXML xmlns="http://www.tei-c.org/ns/Examples"><front>
+                                    <titlePage/>
+                                    <div xml:id="preface" type="section">
+                                        <head>Preface</head>
+                                        <p>This volume...</p>
+                                    </div>
+                                    <div xml:id="toc" type="toc">
+                                        <head>Contents</head>
+                                        <list>
+                                            <item>
+                                                <ref target="#comp1">China</ref>
+                                                <ref target="#pg_1">1</ref>
+                                            </item>
+                                            <item>
+                                                <ref target="#comp2">Japan</ref>
+                                                <ref target="#pg_250">250</ref>
+                                            </item>
+                                        </list>
+                                    </div>
+                                </front></egXML>
+                            <p>Lengthy tables of contents appear in many pre-1945 volumes. These
+                                should be encoded as they appear, as tables. When tables are
+                                interrupted by a page break, let the table span across the
+                                pages.</p>
+                            <p>Most, but not all, volumes have the following front matter divisions,
+                                so these values are allowed:</p>
+                            <list>
+                                <item>Table of Contents: <att>type</att>=<ident>toc</ident>,
+                                        <att>xml:id</att>=<ident>toc</ident></item>
+                                <item>List of Persons: <att>type</att>=<ident>section</ident>,
+                                        <att>xml:id</att>=<ident>persons</ident></item>
+                                <item>List of Terms &amp; Abbreviations:
+                                        <att>type</att>=<ident>section</ident>,
+                                        <att>xml:id</att>=<ident>terms</ident></item>
+                                <item>Preface: <att>type</att>=<ident>section</ident>,
+                                        <att>xml:id</att>=<ident>preface</ident></item>
+                                <item>Sources: <att>type</att>=<ident>section</ident>,
+                                        <att>xml:id</att>=<ident>sources</ident></item>
+                            </list>
+                        </div>
+                        <div xml:id="body">
+                            <head>Body</head>
+                            <p>The <gi>body</gi> of the volume contains primary source documents,
+                                nested within divisions known as "compilations", "chapters", and
+                                sometimes deeper subdivisions. Each of these divisions, and the
+                                documents contained within, are wrapped in <gi>div</gi> elements.
+                                These <gi>div</gi> elements require <att>xml:id</att> and
+                                    <att>type</att> attributes and a child <gi>head</gi> element.
+                                Within these general guidelines are practices for each type of
+                                    <gi>div</gi>:</p>
+                            <p>Compilation <gi>div</gi>s are always the top level division for the
+                                body of a volume. They are given a <att>type</att> value of
+                                    <ident>compilation</ident> and an <att>xml:id</att> value
+                                consisting of a <ident>comp</ident> prefix and a sequential number
+                                relative to the entire volume, e.g., <ident>comp1</ident>,
+                                    <ident>comp2</ident>, <ident>comp3</ident>.</p>
+                            <p>Chapter <gi>div</gi>s are given a <att>type</att> value of
+                                    <ident>chapter</ident> and an <att>xml:id</att> value consisting
+                                of a <ident>ch</ident> prefix and a sequential number relative to
+                                the entire volume, e.g., <ident>ch1</ident>, <ident>ch2</ident>,
+                                    <ident>ch3</ident>.</p>
+                            <p>Document <gi>div</gi>s are given a <att>type</att> value of
+                                    <ident>document</ident> and an <att>xml:id</att> value
+                                consisting of a <ident>d</ident> prefix and a sequential number
+                                relative to the entire volume, e.g., <ident>d1</ident>,
+                                    <ident>d2</ident>, <ident>d3</ident>. Not all volumes contain
+                                explicit document numbers; in this case, sequential document
+                                identifiers should be assigned and used for the <att>xml:id</att>
+                                attribute, and the <att>n</att> attribute should contain the number
+                                in square brackets (e.g., <ident>[3]</ident>).</p>
+                            <p>This example demonstrates the nesting of compilation, chapter, and
+                                document divisions. Note that the nesting must reflect the hierarchy
+                                shown in the table of contents, so use the table of contents as a
+                                guide to ensure the nesting structure is correct.</p>
+                            <egXML xmlns="http://www.tei-c.org/ns/Examples"><body>
+                                    <div xml:id="comp1" type="compilation">
+                                        <head>China</head>
+                                        <div xml:id="ch1" type="chapter">
+                                            <head>October-November 1969</head>
+                                            <div n="1" xml:id="d1" type="document">
+                                                <head>1. Memorandum of Conversation<note n="1"
+                                                  xml:id="d1fn1">Source: Nixon Library</note></head>
+                                                <p>In my meeting today...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div xml:id="comp2" type="compilation">
+                                        <head>Japan</head>
+                                        <div xml:id="ch4" type="chapter">
+                                            <head>October-November 1969</head>
+                                            <div n="50" xml:id="d50" type="document">
+                                                <head>1. Memorandum of Conversation<note n="1"
+                                                  xml:id="d1fn1">Source: Nixon Library</note></head>
+                                                <p>In my meeting today...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </body></egXML>
+                            <p>(See below for more information on other the features shown here,
+                                such as <ref target="#cross-references">cross-references and
+                                    footnotes</ref> and <ref target="#datelines"
+                                >datelines</ref>.)</p>
+                            <p>In cases where chapters have further subdivisions around documents,
+                                these should be marked with a <att>type</att> attribute carrying a
+                                value of <ident>subchapter</ident> and an <att>xml:id</att>
+                                attribute composed of the pattern: parent chapter's
+                                    <att>xml:id</att> value + <ident>subch</ident> + a sequential
+                                number (e.g., <ident>ch3subch1</ident>.</p>
+                            <p>Subdivisions that are not listed in the main table of contents should
+                                be marked with a <att>type</att> attribute carrying a value of
+                                    <ident>document-group</ident> and an <att>xml:id</att> attribute
+                                composed of the pattern: parent <gi>div</gi> element's
+                                    <att>xml:id</att> value + <ident>dg</ident> + sequential number
+                                (e.g., <ident>ch4subch4dg2</ident>).</p>
+                        </div>
+                        <div xml:id="back">
+                            <head>Back</head>
+                            <p>Back matter typically consists of an index and occasionally
+                                appendices.</p>
+                            <div xml:id="index">
+                                <head>Index</head>
+                                <p>Indexes are wrapped in a <gi>div</gi> with a <att>type</att>
+                                    value of <ident>section</ident> and an <att>xml:id</att> value
+                                    of <ident>index</ident>. The <gi>head</gi> element should be
+                                    drawn from the text but is typically simply, "Index." The entire
+                                    index should be wrapped in a single <gi>list</gi> element, with
+                                    contents consisting of nested <gi>list</gi> and <gi>item</gi>
+                                    elements. Special care should be taken to identify whether cross
+                                    references refer to document numbers or page numbers. Some
+                                    index</p>
+                                <egXML xmlns="http://www.tei-c.org/ns/Examples"><back>
+                                        <div xml:id="index" type="section">
+                                            <head>Index</head>
+                                            <list>
+                                                <item>Abramowitz, Nathan <ref target="#d1"
+                                                  >1</ref></item>
+                                                <item>China <list>
+                                                  <item>Bilateral negotiations, <ref target="#d1"
+                                                  >1</ref></item>
+                                                  </list></item>
+                                            </list>
+                                        </div>
+                                    </back></egXML>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div xml:id="global-features">
+                    <head>Global features</head>
+                    <div xml:id="characters-encoding">
+                        <head>Characters and encoding</head>
+                        <p>The text of the file should be submitted as Unicode (UTF-8).</p>
+                        <p>Unicode characters should be used directly, not the escaped entity form.
+                            The only acceptable entity is &amp; for ampersand.</p>
+                        <p>Single and double quotation marks should preserve the original curly or
+                            straight quality.</p>
+                        <p>Hyphens, em, and en dashes should be preserved in their original
+                            form.</p>
+                    </div>
+                    <div xml:id="divisions">
+                        <head>Divisions</head>
+                        <p>Every <gi>div</gi> element must an <att>xml:id</att> attribute carrying a
+                            value unique in the document.</p>
+                    </div>
+                    <div xml:id="headings">
+                        <head>Headings</head>
+                        <p>Every <gi>div</gi> element must have one and only one child <gi>head</gi>
+                            element.</p>
+                    </div>
+                    <div xml:id="paragraphs">
+                        <head>Paragraphs</head>
+                        <p>Paragraphs are wrapped in a <gi>p</gi> element. By default, a paragraph
+                            is left-aligned, roman text, and its first line will be indented, but
+                            these properties can be overriden with an optional <att>rend</att>
+                            attribute carrying one of the following values: <list>
+                                <item><ident>flushleft</ident>: the paragraph's first line is flush
+                                    left, that is, not indented.</item>
+                                <item><ident>strong</ident>: the entire paragraph is bold</item>
+                                <item><ident>italic</ident>: the entire paragraph is italic</item>
+                                <item><ident>sectiontitleital</ident>: the "paragraph" is actually a
+                                    flush left, italicized section heading within a front matter or
+                                    document <gi>div</gi></item>
+                                <item><ident>center</ident>: the "paragraph" is actually a centered
+                                    section heading within a document <gi>div</gi></item>
+                                <item><ident>right</ident>: the "paragraph" is actually a
+                                    right-aligned span of text</item>
+                                <item><ident>center</ident>: the "paragraph" is actually a centered
+                                    section heading within a document <gi>div</gi></item>
+
+                            </list>
+                        </p>
+                        <p>Paragraphs may not be empty.</p>
+                    </div>
+                    <div xml:id="inline-styles">
+                        <head>Inline Styles</head>
+                        <p>The styles of inline spans of text can be marked as italic, bold, etc.
+                            with the <gi>hi</gi> element and a <att>rend</att> attribute carrying
+                            one of the following values:<list>
+                                <item><ident>strong</ident></item>
+                                <item><ident>italic</ident></item>
+                                <item><ident>smallcaps</ident></item>
+                                <item><ident>roman</ident></item>
+                                <item><ident>underline</ident></item>
+                                <item><ident>sub</ident></item>
+                                <item><ident>superscript</ident></item>
+                            </list>
+                        </p>
+                    </div>
+                    <div xml:id="lists">
+                        <head>Lists</head>
+                        <p>Lists are wrapped in a <gi>list</gi> element, and individual items are
+                            wrapped in an <gi>item</gi> element. Lists receive no automatic
+                            numbering or bullet points. The list label should be entered as a
+                                <gi>label</gi> element preceding the <gi>item</gi> element. Nested
+                            lists begin at the end of, but inside, an <gi>item</gi> element. </p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <list>
+                                <label>3.</label>
+                                <item>The search of American vessels for German and Austrian
+                                    subjects— <list>
+                                        <label>
+                                            <hi rend="italic">(a)</hi>
+                                        </label>
+                                        <item>On the high seas;</item>
+                                        <label>
+                                            <hi rend="italic">(b)</hi>
+                                        </label>
+                                        <item>In territorial waters of a belligerent.</item>
+                                    </list>
+                                </item>
+                            </list>
+                        </egXML>
+                        <p>Note: In <hi rend="italic">FRUS</hi>, not all numbered or bulleted blocks
+                            of text are coded as <gi>list</gi>. For example, section headings within
+                            a document or section may sometimes be numbered; these should be coded
+                            as <gi>p</gi> elements with <att>rend</att> attributes carrying a value
+                            of <ident>sectiontitleital</ident>. Paragraphs may be numbered; these
+                            can be distinguished from lists by their indentation: their first line
+                            is indented, but subsequent lines are flush left.</p>
+                        <p>Certain specialized lists take the following <att>type</att>
+                            attributes:</p>
+                        <list>
+                            <item><ident>participants</ident>: Used for a list of participants at
+                                the beginning of a document describing a meeting or a
+                                conversation</item>
+                            <item><ident>subject</ident>: Used for a list of participants at the
+                                beginning of a document describing a meeting or a
+                                conversation</item>
+                            <item><ident>from</ident> or <ident>from</ident>: Used for a list of
+                                authors or recipients at the beginning of a document</item>
+                        </list>
+                        <p>Participants and subject lists often have a heading, which should be
+                            wrapped in a <gi>head</gi> element inside the parent <gi>list</gi>
+                            element.</p>
+                        <p>A <gi>list</gi> element may not contain direct <gi>table</gi> or
+                                <gi>paragraph</gi> elements.</p>
+                    </div>
+                    <div xml:id="cross-references">
+                        <head>Cross references</head>
+                        <p>Cross references are wrapped in a <gi>ref</gi> element with the target
+                            specified in a <att>target</att> attribute. We tag all cross references
+                            within a volume (most commonly, to documents in the volume), as well as
+                            cross references to other volumes in the <hi rend="italic">FRUS</hi>
+                            series.</p>
+                        <p>Cross references to elements within the same XML document use the
+                            standard TEI method: target's <att>xml:id</att> value, prepended with a
+                                <ident>#</ident>. For instance, if document 1's <att>xml:id</att> is
+                                <ident>d1</ident>, then a cross reference to this document uses the
+                                <ident>target</ident> of <ident>#d1</ident>.</p>
+                        <p>Cross references to other volumes in the <hi rend="italic">FRUS</hi>
+                            series come in a few varieties: References to the volumes themselves use
+                            the target volume's ID:</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <ref target="frus1969-76v18"><em>Foreign Relations</em> 1969–1976,
+                                Volume XVIII, China, 1973–1976</ref></egXML>
+                        <p>Cross references to items in other volumes are composed of the volume ID
+                            and the xml:id of the target element:</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <em>Foreign Relations</em> 1969–1976, Volume XVIII, China, 1973–1976,
+                                <ref target="frus1969-76v18#d1">Document 1</ref></egXML>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <em>Foreign Relations</em> 1969–1976, Volume XVIII, China, 1973–1976,
+                            Documents <ref target="frus1969-76v18#d31">31</ref>, <ref
+                                target="frus1969-76v18#d42">42</ref>, and <ref
+                                target="frus1969-76v18#d53">53</ref></egXML>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <em>Foreign Relations</em> 1969–1976, Volume XVIII, China, 1973–1976,
+                            Documents <ref target="frus1969-76v18#d31">31</ref>–<ref
+                                target="frus1969-76v18#d53">53</ref></egXML>
+                    </div>
+                    <div xml:id="page-breaks">
+                        <head>Page breaks</head>
+                        <p>Page breaks are marked with a <gi>pb</gi> element. The following
+                            attributes are required:</p>
+                        <list>
+                            <item><att>n</att>: the page number of the page beginning where the
+                                    <gi>element</gi> appears, as it appears on the page. If a page
+                                is not numbered, place the apparent page number in square brackets,
+                                e.g., <ident>[30]</ident>.</item>
+                            <item><att>xml:id</att>: a unique identifier for the page, composed of
+                                the pattern <ident>pg_</ident> followed by the value of the
+                                    <ident>n</ident> attribute</item>
+                            <item><att>facs</att>: the basename of the scanned image of the original
+                                printed page. For example, if page 32 is captured on 0053.tif, the
+                                value should be <ident>0053</ident></item>
+                        </list>
+                    </div>
+                    <div xml:id="footnotes">
+                        <head>Footnotes</head>
+                        <p>Footnotes are wrapped with a <gi>note</gi> element, and are placed in the
+                            text where the footnote reference appears, rather than where the
+                            footnote text appears on the page. The following attributes are
+                            required:</p>
+                        <list>
+                            <item><att>n</att>: the footnote reference number or symbol, as it
+                                appears on the page.</item>
+                            <item><att>xml:id</att>: a unique identifier for the footnote, composed
+                                of the pattern parent <gi>div</gi> element's <att>xml:id</att> + the
+                                literal string <ident>fn</ident> + the value of the <ident>n</ident>
+                                attribute. If additional information is required to derive a unique
+                                value, add a sequential identifier, e.g., <ident>_1</ident></item>
+                        </list>
+                        <p>The following attributes are required in some circumstances:</p>
+                        <list>
+                            <item><att>type</att>: A value of <ident>source</ident> is required for
+                                notes that contain the archival source of the document (the "source
+                                note").</item>
+                            <item><att>rend</att>: In cases where the source note appears in the
+                                body text of a page rather than in a footnote, the <gi>note</gi>
+                                element requires this attribute to carry the value of
+                                    <ident>inline</ident>.</item>
+                        </list>
+                    </div>
+                    <div xml:id="datelines">
+                        <head>Datelines</head>
+                        <p>A dateline appears at the beginning of every <hi rend="italic">FRUS</hi>
+                            document, containing the location and date of the document's origin. The
+                            dateline is wrapped in a <gi>dateline</gi> element. The location is
+                            wrapped in a <gi>placeName</gi> element, and the date is wrapped in a
+                                <gi>date</gi> element, with a <att>when</att> attribute with the
+                            date expressed in XML Schema date (xs:date) or date time (xs:dateTime)
+                            notation.</p>
+                    </div>
+                    <div xml:id="signatures">
+                        <head>Signatures</head>
+                        <p>Signatures are wrapped in the <gi>closer</gi> and <gi>signed</gi>
+                            elements. The typical right-aligned signature block appears as
+                            follows:</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <closer rend="right">
+                                <signed>Tyler Dennett <lb/><hi rend="italic">Chief, Division of
+                                        Publications</hi>
+                                </signed>
+                            </closer>
+                        </egXML>
+                    </div>
+                    <!--<div xml:id="people">
+                        <head>People</head>
+                        <p></p>
+                    </div>
+                    <div xml:id="terms">
+                        <head>Terms</head>
+                        <p></p>
+                    </div>-->
+                </div>
+            </div>
+
+            <div xml:id="working-with-oxygen-and-exist-db">
+                <head>Working with oXygen and eXist-db</head>
+                <list>
+                    <item>Set up your system <list>
+                            <item>Install oXygen XML Editor (oxygenxml.com)</item>
+                            <item>Checkout the repository from Subversion (assembla.com)</item>
+                            <item>Open the project file in oXygen</item>
+                            <item>Start eXist-db</item>
+                            <item>Configure Data Sources to show servers</item>
+                            <item>Configure Save to URL to show servers</item>
+                        </list>
+                    </item>
+                    <item>Prepare eXist-db with a full copy of history.state.gov <list>
+                            <item>Run prepare-for-development</item>
+                            <item>Start eXist-db</item>
+                            <item>Run populate all</item>
+                        </list></item>
+                    <item/>
+                    <item>Edit and commit files <list>
+                            <item>Be sure you're working with the latest files (update and
+                                repopulate)</item>
+                            <item>Edit file in working copy or on localhost</item>
+                            <item>Save changes to working copy</item>
+                            <item>Commit changes to subversion server</item>
+                        </list></item>
+                </list>
+            </div>
+
+            <div xml:id="review-procedures">
+                <head>Review Procedures</head>
+                <p>First, check that you're working with the latest files.</p>
+                <list>
+                    <item>Web-based review <list>
+                            <item>Open volume in web browser</item>
+                            <item>Note mistakes and issues, and fix in XML</item>
+                        </list>
+                    </item>
+                    <item>XML-based review <list>
+                            <item>Open volume in oXygen</item>
+                            <item>Apply schema files and validate the file</item>
+                            <item>Fix validation errors</item>
+                            <item>Review structure</item>
+                            <item>Silent corrections vs. Errata</item>
+                        </list></item>
+                </list>
+            </div>
+
+
+            <div>
+                <head>Appendix of TEI Elements, etc.</head>
+                <!-- The <schemaSpec> element is in effect the root element for the schema
+                specification portion of the ODD. The @ident is required. The @start 
+                says what element(s) are allowed as the root element of documents 
+                conforming to this schema. There is no official default, but Roma 
+                behave as if the default is "teiCorpus TEI".-->
+                <schemaSpec ident="frus" start="TEI" source="tei:2.5.0">
+
+
+
+                    <!-- The <moduleRef> elements specify which TEI modules (which
+                    correspond directly to chapters in the Guidelines) will be included 
+                    in the schema. The value of the @key attribute is the name of the 
+                    module. For any element, you can find the name of the module containing 
+                    it in the reference documentation for that element. A complete list of 
+                    modules is available at
+                    http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ST.html#STMA.
+                    The first four listed here are required: core, tei, header, 
+                    textstructure. -->
+                    <moduleRef key="core"
+                        include="p hi gloss term name date time ref list item head note 
+                        graphic pb lb editor title publisher pubPlace label gap quote"/>
+                    <moduleRef key="tei"/>
+                    <moduleRef key="header"
+                        include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc 
+                        encodingDesc editorialDecl correction revisionDesc change"/>
+                    <moduleRef key="textstructure"
+                        include="TEI text body div byline dateline opener salute closer signed postscript titlePage 
+                        docTitle titlePart docImprint docDate front back"/>
+                    <moduleRef key="namesdates" include="persName placeName"/>
+                    <moduleRef key="figures" include="table row cell figure"/>
+                    <!-- including the linking module gives us @corresp -->
+                    <moduleRef key="linking" include="anchor"/>
+                    <!-- including the transcr module gives us @facs -->
+                    <moduleRef key="transcr" include="facsimile space"> </moduleRef>
+                    
+                    
+                    <!-- remove all transcr attributes except for @facs -->
+                    <classSpec type="atts" module="linking" ident="att.global.linking" mode="change">
+                        <attList>
+                            <attDef ident="synch" mode="delete"/>
+                            <attDef ident="sameAs" mode="delete"/>
+                            <attDef ident="copyOf" mode="delete"/>
+                            <attDef ident="next" mode="delete"/>
+                            <attDef ident="prev" mode="delete"/>
+                            <attDef ident="exclude" mode="delete"/>
+                            <attDef ident="select" mode="delete"/>
+                        </attList>
+                    </classSpec>
+
+                    <!-- remove a few attrs from a class (selective thinning):  -->
+                    <classSpec type="atts" ident="att.global" mode="change">
+                        <attList>
+                            <attDef ident="rendition" mode="delete"/>
+                            <attDef ident="xml:space" mode="delete"/>
+                            <attDef ident="xml:base" mode="delete"/>
+                        </attList>
+                    </classSpec>
+
+                    <!-- kill a few more -->
+                    <classSpec type="atts" ident="att.breaking" mode="delete"/>
+                    <classSpec type="atts" ident="att.declarable" mode="delete"/>
+                    <classSpec type="atts" ident="att.declaring" mode="delete"/>
+                    <classSpec type="atts" ident="att.divLike" mode="change">
+                        <attList>
+                            <attDef ident="org" mode="delete"/>
+                            <attDef ident="sample" mode="delete"/>
+                            <attDef ident="part" mode="delete"/>
+                        </attList>
+                    </classSpec>
+                    <classSpec type="atts" ident="att.docStatus" mode="delete"/>
+                    <classSpec type="atts" ident="att.editLike" mode="delete"/>
+                    <classSpec type="atts" ident="att.internetMedia" mode="delete"/>
+                    <classSpec type="atts" ident="att.fragmentable" mode="delete"/>
+                    <classSpec type="atts" ident="att.naming" mode="change">
+                        <attList>
+                            <attDef ident="nymRef" mode="delete"/>
+                        </attList>
+                    </classSpec>
+                    <classSpec type="atts" ident="att.personal" mode="delete"/>
+                    
+                    <!-- 
+                    remove attributes from <gap>, but ensure @quantity and @unit are available from att.dimensions
+                    -->
+                    <elementSpec module="core" ident="gap" mode="change">
+                        <classes>
+                            <memberOf key="att.global"/>
+                            <memberOf key="model.global.edit"/>
+                            <memberOf key="att.dimensions"/>
+                        </classes>
+                        <attList>
+                            <attDef ident="hand" mode="delete"/>
+                            <attDef ident="agent" mode="delete"/>
+                        </attList>
+                    </elementSpec>
+                    <classSpec type="atts" ident="att.dimensions" mode="change">
+                        <attList>
+                            <attDef ident="extent" mode="delete"/>
+                            <attDef ident="precision" mode="delete"/>
+                            <attDef ident="scope" mode="delete"/>
+                        </attList>                        
+                    </classSpec>
+                    
+                    <!-- 
+                    add frus:classification 
+                    -->
+                    <elementSpec mode="add" ident="classification"
+                        ns="http://history.state.gov/frus/ns/1.0">
+                        <desc>provides structured information about a classification marking</desc>
+                        <classes mode="change">
+                            <memberOf key="model.hiLike"/>
+                            <memberOf key="att.global"/>
+                        </classes>
+                        <content>
+                            <rng:ref name="macro.paraContent"/>
+                        </content>
+                        <attList>
+                            <attDef ident="level">
+                                <valList type="closed">
+                                    <valItem ident="ts">
+                                        <gloss>Top Secret (TS)</gloss>
+                                    </valItem>
+                                    <valItem ident="s">
+                                        <gloss>Secret (S)</gloss>
+                                    </valItem>
+                                    <valItem ident="u">
+                                        <gloss>Unclassified (U)</gloss>
+                                    </valItem>
+                                    <valItem ident="sbu">
+                                        <gloss>Sensitive But Unclassified (SBU)</gloss>
+                                    </valItem>
+                                    <valItem ident="c">
+                                        <gloss>Confidential (C)</gloss>
+                                    </valItem>
+                                    <valItem ident="sci">
+                                        <gloss>Secure Compartmentalized Information (SCI)</gloss>
+                                    </valItem>
+                                    <valItem ident="na">
+                                        <gloss>No Classification Marking</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                        <exemplum>
+                            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                <p>Source: National Archives, Nixon Presidential Materials, NSC
+                                    Files, Box 725, Country Files, Europe, USSR–Memcon's,
+                                    Dobrynin/Richardson, April 1969. <frus:classification level="c"
+                                        >Confidential</frus:classification>. Part I of II. Drafted
+                                    by Dubs.</p>
+                            </egXML>
+                        </exemplum>
+                    </elementSpec>
+
+                    <!-- 
+                    add frus:attachment
+                -->
+                    <elementSpec mode="add" ident="attachment"
+                        ns="http://history.state.gov/frus/ns/1.0">
+                        <desc>Indicates the segment of a document where an attachment begins. To be
+                            used for attachments, tabs, enclosures, etc. Like closer, may only be
+                            used at the end of a div.</desc>
+                        <classes mode="change">
+                            <memberOf key="model.divBottomPart"/>
+                            <memberOf key="att.global"/>
+                        </classes>
+                        <content>
+                            <!-- adapted from <div> -->
+                            <rng:group>
+                                <rng:zeroOrMore>
+                                    <rng:choice>
+                                        <rng:ref name="model.divTop"/>
+                                        <rng:ref name="model.global"/>
+                                    </rng:choice>
+                                </rng:zeroOrMore>
+                                <rng:optional>
+                                    <rng:choice>
+                                        <rng:group>
+                                            <rng:oneOrMore>
+                                                <rng:choice>
+                                                  <rng:ref name="model.divLike"/>
+                                                  <rng:ref name="model.divGenLike"/>
+                                                </rng:choice>
+                                                <rng:zeroOrMore>
+                                                  <rng:ref name="model.global"/>
+                                                </rng:zeroOrMore>
+                                            </rng:oneOrMore>
+                                        </rng:group>
+                                        <rng:group>
+                                            <rng:oneOrMore>
+                                                <rng:group>
+                                                  <rng:ref name="model.common"/>
+                                                </rng:group>
+                                                <rng:zeroOrMore>
+                                                  <rng:ref name="model.global"/>
+                                                </rng:zeroOrMore>
+                                            </rng:oneOrMore>
+                                            <rng:zeroOrMore>
+                                                <rng:choice>
+                                                  <rng:ref name="model.divLike"/>
+                                                  <rng:ref name="model.divGenLike"/>
+                                                </rng:choice>
+                                                <rng:zeroOrMore>
+                                                  <rng:ref name="model.global"/>
+                                                </rng:zeroOrMore>
+                                            </rng:zeroOrMore>
+                                        </rng:group>
+                                    </rng:choice>
+                                    <rng:zeroOrMore>
+                                        <rng:group>
+                                            <rng:ref name="model.divBottom"/>
+                                        </rng:group>
+                                        <rng:zeroOrMore>
+                                            <rng:ref name="model.global"/>
+                                        </rng:zeroOrMore>
+                                    </rng:zeroOrMore>
+                                </rng:optional>
+                            </rng:group>
+                        </content>
+                    </elementSpec>
+
+                    <!-- 
+                    constrain tei:list/@type
+                -->
+                    <elementSpec ident="list" module="core" mode="change">
+                        <desc>Restrict @type values for tei:list elements</desc>
+                        <attList>
+                            <attDef ident="type" usage="opt" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="participants">
+                                        <gloss>A list of participants, attendees, recipients (appears at the beginning of a document)</gloss>
+                                    </valItem>
+                                    <valItem ident="subject">
+                                        <gloss>A subject heading (appears at the beginning of a document)</gloss>
+                                    </valItem>
+                                    <valItem ident="index">
+                                        <gloss>Back of book Index</gloss>
+                                    </valItem>
+                                    <valItem ident="terms">
+                                        <gloss>Front matter List of Terms &amp;
+                                            Abbreviations</gloss>
+                                    </valItem>
+                                    <valItem ident="names">
+                                        <gloss>Front matter List of Persons</gloss>
+                                    </valItem>
+                                    <valItem ident="toc">
+                                        <gloss>Front matter Table of Contents</gloss>
+                                    </valItem>
+                                    <valItem ident="sources">
+                                        <gloss>Front matter List of Sources</gloss>
+                                    </valItem>
+                                    <valItem ident="to">
+                                        <gloss>Document Recipients List</gloss>
+                                    </valItem>
+                                    <valItem ident="simple">
+                                        <gloss>Demarcates tightly-spaced text</gloss>
+                                        <!-- TEI supplies this definition for "simple": -->
+                                    </valItem>
+                                    <valItem ident="references">
+                                        <gloss>Document References heading</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
+
+                    <!-- 
+                    constrain tei:div/@type
+                -->
+                    <elementSpec ident="div" module="core" mode="change">
+                        <desc>Restrict @type values for tei:div elements</desc>
+                        <attList>
+                            <attDef ident="type" usage="req" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="document">
+                                        <gloss>Document</gloss>
+                                    </valItem>
+                                    <valItem ident="section">
+                                        <gloss>Section</gloss>
+                                    </valItem>
+                                    <valItem ident="compilation">
+                                        <gloss>Compilation</gloss>
+                                    </valItem>
+                                    <valItem ident="chapter">
+                                        <gloss>Chapter</gloss>
+                                    </valItem>
+                                    <valItem ident="subchapter">
+                                        <gloss>Sub-chapter</gloss>
+                                    </valItem>
+                                    <valItem ident="toc">
+                                        <gloss>Table of Contents</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+
+                    <!-- 
+                    constrain tei:hi/@rend
+                -->
+                    <elementSpec ident="hi" module="core" mode="change">
+                        <desc>Restrict @rend values for tei:hi elements</desc>
+                        <attList>
+                            <attDef ident="rend" usage="req" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="strong">
+                                        <gloss>Strong, bold</gloss>
+                                    </valItem>
+                                    <valItem ident="italic">
+                                        <gloss>Italic, oblique</gloss>
+                                    </valItem>
+                                    <valItem ident="smallcaps">
+                                        <gloss>Small caps</gloss>
+                                    </valItem>
+                                    <valItem ident="roman">
+                                        <gloss>Roman</gloss>
+                                    </valItem>
+                                    <valItem ident="underline">
+                                        <gloss>Underline</gloss>
+                                    </valItem>
+                                    <valItem ident="sub">
+                                        <gloss>Subscript</gloss>
+                                    </valItem>
+                                    <valItem ident="superscript">
+                                        <gloss>Superscript</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+
+                    <!-- 
+                    constrain tei:p/@rend
+                -->
+                    <elementSpec ident="p" module="core" mode="change">
+                        <desc>Restrict @rend values for tei:p elements</desc>
+                        <attList>
+                            <attDef ident="rend" usage="opt" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="flushleft">
+                                        <gloss>Flush left</gloss>
+                                    </valItem>
+                                    <valItem ident="strong">
+                                        <gloss>Strong, bold</gloss>
+                                    </valItem>
+                                    <valItem ident="italic">
+                                        <gloss>Italic, oblique</gloss>
+                                    </valItem>
+                                    <valItem ident="sectiontitleital">
+                                        <gloss>Italicized section titles</gloss>
+                                    </valItem>
+                                    <valItem ident="center">
+                                        <gloss>Centered</gloss>
+                                    </valItem>
+                                    <valItem ident="right">
+                                        <gloss>Right-aligned</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+
+                </schemaSpec>
+            </div>
+        </body>
+    </text>
+</TEI>
