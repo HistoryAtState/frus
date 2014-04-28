@@ -20,8 +20,9 @@ of GitHub as a platform for publishing this data.  Updates will be posted here.
 Organization and Format
 -----------------------
 Each volume is a single file in the `volumes` directory.  These files have been prepared according to 
-the [Text Encoding Initiative](http://www.tei-c.org/) (TEI) P5 Guidelines.  We have also supplied a schematron 
-file containing markup rules specific to this collection in the `schema` directory.
+the [Text Encoding Initiative](http://www.tei-c.org/) (TEI) P5 Guidelines.  In the `schema` directory we have 
+supplied the TEI [ODD](http://www.tei-c.org/Guidelines/Customization/odds.xml) that documents our encoding 
+guidelines and validating conformance thereto, as well as schematron file used for additional conformance checks.
 
 Feedback
 --------
