@@ -13,7 +13,7 @@ and help unlock the power of government data to spur innovation, the Office of t
 is releasing the source files for the online edition of the *Foreign Relations* series.  These source files 
 are encoded in XML.  The text is identical to that found on the Office of the Historian website. 
 
-The present release contains a representative set of volumes from the 1969-76 subseries — volumes I through X. 
+The present release contains a representative set of volumes from the 1969-76 subseries. 
 The repository's location and organization should be considered experimental as we evaluate the feasibility
 of GitHub as a platform for publishing this data.  Updates will be posted here.
 
