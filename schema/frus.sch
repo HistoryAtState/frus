@@ -2,7 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
     <title>FRUS TEI Rules</title>
     
-    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 2801 2014-03-20 17:53:23Z joewiz $)</p>
+    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 2942 2014-04-25 21:26:28Z joewiz $)</p>
     
     <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema file.  FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI files.</p>
     
@@ -86,6 +86,13 @@
         </rule>
         <rule context="tei:body">
             <assert test="count($documents) = 0 or count($documents) = $documents[last()]/@n - $documents[1]/@n + 1">Document numbering mismatch.  The total number of documents should equal the difference between the first and final documents' numbers, or the number of documents must be 0 (indicating a volume not yet digitized).</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="table-rows-cols-checks">
+        <rule context="tei:table[@rows and @cols]">
+            <assert test="./@rows = count(child::tei:row)">Rows in table <value-of select="./@rows"/> which is not equal to total no. of row tags <value-of select="count(child::tei:row)"/> </assert>
+            <assert test="sum(./@rows * ./@cols)=count(descendant::tei:cell)">Cols in table element <value-of select="sum(./@rows * ./@cols)"/> but no. of cells are <value-of select="count(descendant::tei:cell)"/></assert>       
         </rule>
     </pattern>
     
