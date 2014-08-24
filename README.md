@@ -28,25 +28,26 @@ URLs for FRUS on history.state.gov all follow this pattern:
 * where `{VOLUME_ID}` is the volume identifier and corresponds to the base name of the files in the `volumes` directory. 
 * and `{ELEMENT_ID}` is the identifier for an element within the volume's XML file and corresponds to the value of an `@xml:id` attribute on a TEI element, e.g., `<div xml:id="ch1" type="chapter">`.  
 
-Volume identifiers generally follow this convention:
+Volume identifiers generally follow this hierarchical convention:
 
 * `frus`
 * + `{SUBSERIES}`
 * + `{VOLUME_NUMBER}`
 * + `{PART_NUMBER}`
 
-For example, `frus1969-76v19p1` is Volume XIX, Part 1 of the Nixon-Ford subseries (1969–76). 
+For example, `frus1969-76v19p1` is Volume XIX, Part 1 of the Nixon-Ford subseries (1969–76), within the *Foreign Relations* series. 
 
 Element identifiers generally fall into one of these types:
 
 * `ch{NUMBER}` or `comp{NUMBER}`: a chapter or compilation number
 * `d{NUMBER}`: a document number
 * `d{NUMBER}fn{NUMBER}`: a footnote within a document
-* `{NAME}`: a section title, e.g., Preface
+* `p_{PERSON_ID}` or `t_{TERM_ID}`: an entry for a person or term in the List of Persons or List of Terms & Abbreviations
+* `{SECTION_ID}`: a section title, e.g., `preface` corresponds to the Preface
 
-For example, if you want to locate the source for `http://history.state.gov/historicaldocuments/frus1969-76v24/d176`, you should locate `frus1969-76v24.xml` in the `volumes` directory and search for a TEI element whose `@xml:id` attribute value is `d176`.  You can safely assume that `d176` is the `<div>` for Document 176 of this volume.
+For example, to locate the source data for `http://history.state.gov/historicaldocuments/frus1969-76v24/d176`, you should locate `frus1969-76v24.xml` in the `volumes` directory and search for a TEI element whose `@xml:id` attribute value is `d176`.  You can safely assume that `d176` is the `<div>` for Document 176 of this volume.
 
-Not all information found at a given URL from history.state.gov necessarily comes from the element identifier in the URL. For example, in this [Document 176](http://history.state.gov/historicaldocuments/frus1969-76v24/d176), the left sidebar contains a table of contents for the entire volume (derived from the compilationa and chapter `<div>` elements), and the right sidebar contains a listing of the people and terms & abbreviations used in the document (derived from the `persons` and `terms` glossaries in the front matter).
+Not all information found at a given URL from history.state.gov necessarily comes from the element identifier in the URL. For example, in this [Document 176](http://history.state.gov/historicaldocuments/frus1969-76v24/d176), the left sidebar contains a table of contents for the entire volume (derived from the compilation and chapter `<div>` elements), and the right sidebar contains a listing of the people and terms & abbreviations used in the document (derived from the `persons` and `terms` glossaries in the front matter).
 
 Release Schedule
 ----------------
