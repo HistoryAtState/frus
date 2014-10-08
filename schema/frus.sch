@@ -2,7 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
     <title>FRUS TEI Rules</title>
     
-    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 2942 2014-04-25 21:26:28Z joewiz $)</p>
+    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3188 2014-09-24 14:11:36Z joewiz $)</p>
     
     <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema file.  FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI files.</p>
     
@@ -35,7 +35,7 @@
             <assert test="count(tei:title[@type='volume']) = 1">titleStmt needs exactly one title of @type 'volume'</assert>
             <assert test="count(distinct-values(tei:title/@type)) = count(tei:title)">There can only be one of each @type of title</assert>
             <assert test="count(tei:editor[@role='primary']) >= 1">titleStmt needs at least one editor of @role 'primary'</assert>
-            <assert test="count(tei:editor[@role='general']) = 1">titleStmt needs exactly one editor of @role 'general'</assert>
+            <assert test="count(tei:editor[@role='general']) >= 1">titleStmt needs at least one editor of @role 'general'</assert>
         </rule>
         <rule context="tei:publicationStmt">
             <assert test="count(tei:publisher) = 1">publicationStmt needs exactly one publisher</assert>
@@ -91,8 +91,9 @@
     
     <pattern id="table-rows-cols-checks">
         <rule context="tei:table[@rows and @cols]">
-            <assert test="./@rows = count(child::tei:row)">Rows in table <value-of select="./@rows"/> which is not equal to total no. of row tags <value-of select="count(child::tei:row)"/> </assert>
-            <assert test="sum(./@rows * ./@cols)=count(descendant::tei:cell)">Cols in table element <value-of select="sum(./@rows * ./@cols)"/> but no. of cells are <value-of select="count(descendant::tei:cell)"/></assert>       
+            <assert test="./@rows = count(child::tei:row)">The number of rows asserted in the table element, <value-of select="./@rows"/>, does not equal the total number of row tags, <value-of select="count(child::tei:row)"/> </assert>
+            <!-- this test relies on the XPath 3.0 simple map operator (!) and is waiting on oXygen support. until then, the test will fail in the case of row-spanning cells. -->
+            <!--<assert test="sum(./@rows * ./@cols)=count(descendant::tei:cell)">The number of cells asserted in the table element (<value-of select="./@rows"/> rows * <value-of select="./@cols"/> columns means there should be <value-of select="sum(./@rows * ./@cols)"/> cells), does not equal the total number of cells in the table, <value-of select="count(descendant::tei:cell[not(@rows)]) + descendant::tei:cell ! ./@rows"/></assert>-->
         </rule>
     </pattern>
     
