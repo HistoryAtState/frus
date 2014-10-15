@@ -643,6 +643,45 @@
                         <head>Terms</head>
                         <p></p>
                     </div>-->
+                    <div xml:id="tables">
+                        <head>Tables</head>
+                        <p>Tables are marked with a <gi>table</gi> element, containing one or more
+                                <gi>row</gi> elements, which in turn contain one or more
+                                <gi>cell</gi> elements. The following attributes are required on the
+                                <gi>table</gi> element:</p>
+                        <list>
+                            <item><att>rows</att> and <att>cols</att>: The number of rows and
+                                columns in the table should be specified using the <att>rows</att>
+                                and <att>cols</att> attributes.</item>
+                        </list>
+                        <p>The following attributes are optional on the <gi>table</gi> element:</p>
+                        <list>
+                            <item>A bordered table can be marked with a <att>rend</att> attribute of
+                                    <ident>bordered</ident>.</item>
+                        </list>
+                        <p>The following attributes may be used on <gi>row</gi> and <gi>cell</gi>
+                            elements:</p>
+                        <list>
+                            <item><att>role</att>=<ident>label</ident>: Entire rows or individual
+                                cells can be marked as headings by using the <att>role</att>
+                                attribute with a value of <ident>label</ident>.</item>
+                        </list>
+                        <p>The following attributes may be used on <gi>cell</gi> elements:</p>
+                        <list>
+                            <item><att>rows</att> or <att>cols</att>: A cell whose content spans
+                                multiple rows or columns can be marked using the <att>rows</att> or
+                                    <att>cols</att> attributes.</item>
+                            <item><att>role</att>=<ident>brace</ident>: Cells whose sole content is
+                                a brace should be tagged with a <att>role</att> attribute with a
+                                value of <ident>brace</ident>.</item>
+                            <item><att>role</att>=<ident>num</ident>: Cells with exclusively
+                                numerical content, such as dollar amounts or counts, can be marked
+                                using with a <att>role</att> attribute with a value of
+                                    <ident>num</ident>; this will result in the text being
+                                right-aligned.</item>
+                        </list>
+
+                    </div>
                 </div>
             </div>
 
@@ -701,7 +740,7 @@
                 says what element(s) are allowed as the root element of documents 
                 conforming to this schema. There is no official default, but Roma 
                 behave as if the default is "teiCorpus TEI".-->
-                <schemaSpec ident="frus" start="TEI" source="tei:2.5.0">
+                <schemaSpec ident="frus" start="TEI" source="tei:2.7.0">
 
 
 
@@ -716,18 +755,18 @@
                     textstructure. -->
                     <moduleRef key="core"
                         include="p hi gloss term name date time ref list item head note 
-                        graphic pb lb editor title publisher pubPlace label gap unclear quote del"/>
+                        graphic pb lb editor title publisher pubPlace label gap unclear quote del l lg"/>
                     <moduleRef key="tei"/>
                     <moduleRef key="header"
                         include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc 
-                        encodingDesc editorialDecl correction revisionDesc change"/>
+                        encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change"/>
                     <moduleRef key="textstructure"
                         include="TEI text body div byline dateline opener salute closer signed postscript titlePage 
                         docTitle titlePart docImprint docDate front back"/>
                     <moduleRef key="namesdates" include="persName placeName affiliation orgName"/>
                     <moduleRef key="figures" include="table row cell figure"/>
                     <!-- including the linking module gives us @corresp -->
-                    <moduleRef key="linking" include="anchor"/>
+                    <moduleRef key="linking" include="anchor seg"/>
                     <!-- including the transcr module gives us @facs -->
                     <moduleRef key="transcr" include="facsimile space"> </moduleRef>
                     
@@ -748,7 +787,6 @@
                     <!-- remove a few attrs from a class (selective thinning):  -->
                     <classSpec type="atts" ident="att.global" mode="change">
                         <attList>
-                            <attDef ident="rendition" mode="delete"/>
                             <attDef ident="xml:space" mode="delete"/>
                             <attDef ident="xml:base" mode="delete"/>
                         </attList>
