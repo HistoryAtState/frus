@@ -2,7 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
     <title>FRUS TEI Rules</title>
     
-    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3188 2014-09-24 14:11:36Z joewiz $)</p>
+    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3452 2015-01-26 23:06:09Z joewiz $)</p>
     
     <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema file.  FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI files.</p>
     
@@ -50,6 +50,12 @@
         <title>List Checks</title>
         <rule context="tei:list">
             <assert test="./@type = ('participants', 'subject', 'index', 'terms', 'names', 'toc', 'references', 'to', 'simple', 'sources', 'from') or not(./@type)">list/@type='<value-of select="@type"/>' is an invalid value.  Only the following values are allowed: participants, subject, index, terms, names, toc, references, to, simple, sources</assert>
+        </rule>
+        <rule context="tei:item[parent::tei:list/@type = 'terms']">
+            <assert test="not(tei:term/tei:hi/@rend = 'strong') and not(ends-with(tei:term, ','))">Improper nesting of hi and term elements (the hi/@rend=strong tag must surround the term element), and/or improper placement of trailing punctuation mark (the trailing comma must lie outside the term element)</assert>
+        </rule>
+        <rule context="tei:item[parent::tei:list/@type = 'persons']">
+            <assert test="tei:persName/tei:hi/@rend = 'strong' or ends-with(tei:persName, ',')">Improper nesting of hi and persName (the hi/@rend=strong tag must surround the persName element), and/or improper placement of trailing punctuation mark (the trailing comma must lie outside the persName element)</assert>
         </rule>
     </pattern>
     
