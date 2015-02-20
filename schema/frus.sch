@@ -2,7 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
     <title>FRUS TEI Rules</title>
     
-    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3502 2015-02-18 21:57:26Z joewiz $)</p>
+    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3512 2015-02-20 17:12:29Z joewiz $)</p>
     
     <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema file.  FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI files.</p>
     
@@ -14,6 +14,18 @@
     <let name="persName-ids" value="//tei:persName/@xml:id"/>
     <let name="term-ids" value="//tei:term/@xml:id"/>
     <let name="documents" value="//tei:div[@xml:id and @type='document']"/>
+    
+    <pattern id="filename-id-check">
+        <rule context="/tei:TEI">
+            <assert test="@xml:id">Volume's root element is missing an @xml:id; it should correspond to the volume ID.</assert>
+        </rule>
+        <rule context="/tei:TEI/@xml:id">
+            <let name="basename" value="replace(base-uri(.), '^.*/(.*?)$', '$1')"/>
+            <assert test="$basename = concat(., '.xml')">volume id <value-of select="."/> does
+                not match filename <value-of select="$basename"/></assert>
+            <assert test=". = $vol-ids">Invalid TEI/@xml:id: <value-of select="."/>. No known volume ID corresponds to this volume's @xml:id.</assert>
+        </rule>
+    </pattern>
     
     <pattern id="tei-header-checks">
         <title>TEI Header Checks</title>
