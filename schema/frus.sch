@@ -2,7 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
     <title>FRUS TEI Rules</title>
     
-    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3452 2015-01-26 23:06:09Z joewiz $)</p>
+    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3502 2015-02-18 21:57:26Z joewiz $)</p>
     
     <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema file.  FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI files.</p>
     
@@ -123,6 +123,9 @@
     
     <pattern id="pointer-checks">
         <title>Ref and Pointer Checks</title>
+        <rule context="tei:ref[starts-with(@target, '#pg') and ./preceding-sibling::node()[1] = '–' and ./preceding-sibling::node()[2]/self::tei:ref]">
+            <assert test="xs:integer(substring-after(@target, '#pg_')) gt xs:integer(substring-after(preceding-sibling::node()[2]/@target, '#pg_'))">Invalid page range: <value-of select="preceding-sibling::node()[2]/@target"/>–<value-of select="@target"/> (see #<value-of select="./ancestor::tei:div[@xml:id][1]/@xml:id"/> <value-of select="if (./ancestor::tei:div[@xml:id][1]/@xml:id = 'index') then concat(' under ', string-join(subsequence(tokenize(./ancestor::tei:item[1], '\s+'), 1, 2), ' '), ',') else ()"/> and <value-of select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
+        </rule>
         <rule context="tei:ref[starts-with(@target, '#')]">
             <assert test="substring-after(@target, '#') = $xml-ids">ref/@target='<value-of select="@target"/>' is an invalid value.  No element's @xml:id corresponds to this value.</assert>
         </rule>
