@@ -2,7 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
     <title>FRUS TEI Rules</title>
     
-    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3512 2015-02-20 17:12:29Z joewiz $)</p>
+    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3530 2015-02-22 08:29:07Z joewiz $)</p>
     
     <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema file.  FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI files.</p>
     
@@ -14,6 +14,8 @@
     <let name="persName-ids" value="//tei:persName/@xml:id"/>
     <let name="term-ids" value="//tei:term/@xml:id"/>
     <let name="documents" value="//tei:div[@xml:id and @type='document']"/>
+    <let name="vol-id" value="/tei:TEI/@xml:id"/>
+    <let name="available-images" value="doc(concat('http://history.state.gov/services/volume-images?volume=', $vol-id))//image"/>
     
     <pattern id="filename-id-check">
         <rule context="/tei:TEI">
@@ -138,11 +140,15 @@
         <rule context="tei:ref[starts-with(@target, '#pg') and ./preceding-sibling::node()[1] = '–' and ./preceding-sibling::node()[2]/self::tei:ref]">
             <assert test="xs:integer(substring-after(@target, '#pg_')) gt xs:integer(substring-after(preceding-sibling::node()[2]/@target, '#pg_'))">Invalid page range: <value-of select="preceding-sibling::node()[2]/@target"/>–<value-of select="@target"/> (see #<value-of select="./ancestor::tei:div[@xml:id][1]/@xml:id"/> <value-of select="if (./ancestor::tei:div[@xml:id][1]/@xml:id = 'index') then concat(' under ', string-join(subsequence(tokenize(./ancestor::tei:item[1], '\s+'), 1, 2), ' '), ',') else ()"/> and <value-of select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
         </rule>
+        <rule context="tei:ref[starts-with(@target, 'frus')]">
+            <assert test="if (contains(@target, '#')) then substring-before(@target, '#') = $vol-ids else @target = $vol-ids">ref/@target='<value-of select="if (contains(@target, '#')) then substring-before(@target, '#') else @target"/>' is an invalid value.  No volume's ID corresponds to this ref/@target value.</assert>
+        </rule>
         <rule context="tei:ref[starts-with(@target, '#')]">
             <assert test="substring-after(@target, '#') = $xml-ids">ref/@target='<value-of select="@target"/>' is an invalid value.  No element's @xml:id corresponds to this value.</assert>
         </rule>
-        <rule context="tei:ref[starts-with(@target, 'frus')]">
-            <assert test="if (contains(@target, '#')) then substring-before(@target, '#') = $vol-ids else @target = $vol-ids">ref/@target='<value-of select="if (contains(@target, '#')) then substring-before(@target, '#') else @target"/>' is an invalid value.  No volume's ID corresponds to this ref/@target value.</assert>
+        <rule context="tei:ref">
+            <assert test="starts-with(@target, '#')">Invalid ref/@target='<value-of select="@target"/>'. If this is an internal cross-reference, it needs a "#" prefix.</assert>
+            <assert test="not(following-sibling::node()[1]/self::tei:hi = 'n')">Please italicized 'n' inside the ref.</assert>
         </rule>
         <rule context="tei:persName[@corresp]">
             <assert test="substring-after(@corresp, '#') = $persName-ids">persName/@corresp='<value-of select="@corresp"/>' is an invalid value.  No persName has been defined with an @xml:id corresponding to this value.</assert>
@@ -154,8 +160,8 @@
     
     <pattern id="empty-content-checks">
         <title>Empty Content Checks</title>
-        <rule context="tei:p">
-            <assert test="count(./node()) gt 0">paragraphs cannot be empty.</assert>
+        <rule context="tei:p | tei:gloss | tei:persName">
+            <assert test="count(./node()) gt 0"><value-of select="name(.)"/> elements cannot be empty.</assert>
         </rule>
         <rule context="tei:div">
             <assert test="count(tei:head) = 1">A div must have a head child.</assert>
@@ -168,4 +174,14 @@
         </rule>
     </pattern>
     
+    <pattern id="image-checks">
+        <title>Image Checks</title>
+        <rule context="tei:graphic[@url]">
+            <assert test="not(matches(@url, '\..{3,4}$'))">File extensions not allowed: <value-of select="@url"/></assert>
+        </rule>
+        <rule context="tei:graphic[@url][not(ancestor::tei:titlePage)]">
+            <assert test="concat(@url, '.png') = $available-images">PNG missing for <value-of select="@url"/></assert>
+            <assert test="concat(@url, '.tif') = $available-images">TIFF missing for <value-of select="@url"/></assert>
+        </rule>
+    </pattern>
 </schema>
