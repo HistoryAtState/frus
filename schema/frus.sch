@@ -2,7 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
     <title>FRUS TEI Rules</title>
     
-    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3530 2015-02-22 08:29:07Z joewiz $)</p>
+    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3576 2015-02-26 11:26:02Z joewiz $)</p>
     
     <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema file.  FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI files.</p>
     
@@ -48,8 +48,8 @@
             <assert test="count(tei:title[@type='volumenumber']) = 1">titleStmt needs exactly one title of @type 'volumenumber'</assert>
             <assert test="count(tei:title[@type='volume']) = 1">titleStmt needs exactly one title of @type 'volume'</assert>
             <assert test="count(distinct-values(tei:title/@type)) = count(tei:title)">There can only be one of each @type of title</assert>
-            <assert test="count(tei:editor[@role='primary']) >= 1">titleStmt needs at least one editor of @role 'primary'</assert>
-            <assert test="count(tei:editor[@role='general']) >= 1">titleStmt needs at least one editor of @role 'general'</assert>
+            <assert test="tei:editor ne '' and tei:editor/@role ne ''">editor and editor @role can not be empty</assert>
+            <assert test="tei:editor/@role = ('primary', 'general')">editor @role value must be either primary or general</assert>
         </rule>
         <rule context="tei:publicationStmt">
             <assert test="count(tei:publisher) = 1">publicationStmt needs exactly one publisher</assert>
@@ -174,14 +174,20 @@
         </rule>
     </pattern>
     
-    <pattern id="image-checks">
+    <pattern id="image-url-checks">
         <title>Image Checks</title>
-        <rule context="tei:graphic[@url]">
+        <rule context="tei:graphic">
+            <assert test="@url">Missing @url attribute</assert>
             <assert test="not(matches(@url, '\..{3,4}$'))">File extensions not allowed: <value-of select="@url"/></assert>
         </rule>
+    </pattern>
+    
+    <pattern id="image-s3-checks">
+        <title>Image Checks</title>
         <rule context="tei:graphic[@url][not(ancestor::tei:titlePage)]">
-            <assert test="concat(@url, '.png') = $available-images">PNG missing for <value-of select="@url"/></assert>
-            <assert test="concat(@url, '.tif') = $available-images">TIFF missing for <value-of select="@url"/></assert>
+            <assert test="concat(@url, '.png') = $available-images">PNG version of '<value-of select="@url"/>' not found on static.history.state.gov</assert>
+            <assert test="concat(@url, '.tif') = $available-images">TIFF version of '<value-of select="@url"/>' not found on static.history.state.gov</assert>
         </rule>
     </pattern>
+    
 </schema>
