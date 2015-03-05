@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
+<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ckbk="http://www.oreilly.com/XSLTCookbook">
     <title>FRUS TEI Rules</title>
     
-    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3576 2015-02-26 11:26:02Z joewiz $)</p>
+    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3604 2015-03-05 21:42:29Z joewiz $)</p>
     
     <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema file.  FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI files.</p>
     
     <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+    <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
+    <ns prefix="ckbk" uri="http://www.oreilly.com/XSLTCookbook"/>
     
     <!-- Define variables used by other patterns -->
     <let name="xml-ids" value="//*/@xml:id"/>
@@ -48,7 +50,6 @@
             <assert test="count(tei:title[@type='volumenumber']) = 1">titleStmt needs exactly one title of @type 'volumenumber'</assert>
             <assert test="count(tei:title[@type='volume']) = 1">titleStmt needs exactly one title of @type 'volume'</assert>
             <assert test="count(distinct-values(tei:title/@type)) = count(tei:title)">There can only be one of each @type of title</assert>
-            <assert test="tei:editor ne '' and tei:editor/@role ne ''">editor and editor @role can not be empty</assert>
             <assert test="tei:editor/@role = ('primary', 'general')">editor @role value must be either primary or general</assert>
         </rule>
         <rule context="tei:publicationStmt">
@@ -109,6 +110,19 @@
         </rule>
     </pattern>
     
+    <pattern id="frus-attachment-checks">
+        <title>frus:attachment Checks</title>
+        <rule context="frus:attachment">
+            <assert test="not(tei:div)">A frus:attachment element must not contain a child tei:div</assert>
+            <assert test="not(.//tei:head = 'Editorial Note')">Treat editorial notes as full documents, not as attachments</assert>
+            <!-- experimental frus:attachment @xml:id -->
+            <!--
+            <assert test="@xml:id">Missing @xml:id for frus:attachment</assert>
+            <assert test="matches(@xml:id, concat('^', ./ancestor::tei:div[@xml:id][1]/@xml:id, 'at', index-of(./ancestor::tei:div[@xml:id][1]/frus:attachment, .)))">Incorrectly formed @xml:id '<value-of select="@xml:id"/>'</assert>
+            -->
+        </rule>
+    </pattern>
+    
     <pattern id="table-rows-cols-checks">
         <rule context="tei:table[@rows and @cols]">
             <assert test="./@rows = count(child::tei:row)">The number of rows asserted in the table element, <value-of select="./@rows"/>, does not equal the total number of row tags, <value-of select="count(child::tei:row)"/> </assert>
@@ -137,8 +151,11 @@
     
     <pattern id="pointer-checks">
         <title>Ref and Pointer Checks</title>
-        <rule context="tei:ref[starts-with(@target, '#pg') and ./preceding-sibling::node()[1] = '–' and ./preceding-sibling::node()[2]/self::tei:ref]">
+        <rule context="tei:ref[starts-with(@target, '#pg') and substring-after(@target, 'pg_') castable as xs:integer and ./preceding-sibling::node()[1] = '–' and ./preceding-sibling::node()[2]/self::tei:ref]">
             <assert test="xs:integer(substring-after(@target, '#pg_')) gt xs:integer(substring-after(preceding-sibling::node()[2]/@target, '#pg_'))">Invalid page range: <value-of select="preceding-sibling::node()[2]/@target"/>–<value-of select="@target"/> (see #<value-of select="./ancestor::tei:div[@xml:id][1]/@xml:id"/> <value-of select="if (./ancestor::tei:div[@xml:id][1]/@xml:id = 'index') then concat(' under ', string-join(subsequence(tokenize(./ancestor::tei:item[1], '\s+'), 1, 2), ' '), ',') else ()"/> and <value-of select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
+        </rule>
+        <rule context="tei:ref[starts-with(@target, '#pg') and not(substring-after(@target, 'pg_') castable as xs:integer) and ./preceding-sibling::node()[1] = '–' and ./preceding-sibling::node()[2]/self::tei:ref]">
+            <assert test="ckbk:roman-to-number(substring-after(@target, '#pg_')) gt ckbk:roman-to-number(substring-after(preceding-sibling::node()[2]/@target, '#pg_'))">Invalid page range: <value-of select="preceding-sibling::node()[2]/@target"/>–<value-of select="@target"/> (see #<value-of select="./ancestor::tei:div[@xml:id][1]/@xml:id"/> <value-of select="if (./ancestor::tei:div[@xml:id][1]/@xml:id = 'index') then concat(' under ', string-join(subsequence(tokenize(./ancestor::tei:item[1], '\s+'), 1, 2), ' '), ',') else ()"/> and <value-of select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
         </rule>
         <rule context="tei:ref[starts-with(@target, 'frus')]">
             <assert test="if (contains(@target, '#')) then substring-before(@target, '#') = $vol-ids else @target = $vol-ids">ref/@target='<value-of select="if (contains(@target, '#')) then substring-before(@target, '#') else @target"/>' is an invalid value.  No volume's ID corresponds to this ref/@target value.</assert>
@@ -148,7 +165,6 @@
         </rule>
         <rule context="tei:ref">
             <assert test="starts-with(@target, '#')">Invalid ref/@target='<value-of select="@target"/>'. If this is an internal cross-reference, it needs a "#" prefix.</assert>
-            <assert test="not(following-sibling::node()[1]/self::tei:hi = 'n')">Please italicized 'n' inside the ref.</assert>
         </rule>
         <rule context="tei:persName[@corresp]">
             <assert test="substring-after(@corresp, '#') = $persName-ids">persName/@corresp='<value-of select="@corresp"/>' is an invalid value.  No persName has been defined with an @xml:id corresponding to this value.</assert>
@@ -158,10 +174,20 @@
         </rule>
     </pattern>
     
+    <pattern id="ref-to-page-footnote-check">
+        <title>Ref to Page Footnote Check</title>
+        <rule context="tei:ref[contains(@target, '#pg_')]">
+            <assert test="not(following-sibling::node()[1]/self::tei:hi = 'n')">Please italicized 'n' inside the ref.</assert>
+        </rule>
+    </pattern>
+    
     <pattern id="empty-content-checks">
         <title>Empty Content Checks</title>
-        <rule context="tei:p | tei:gloss | tei:persName">
+        <rule context="tei:p | tei:gloss | tei:persName | tei:editor">
             <assert test="count(./node()) gt 0"><value-of select="name(.)"/> elements cannot be empty.</assert>
+        </rule>
+        <rule context="tei:editor/@role">
+            <assert test="string-length(.) gt 0"><value-of select="name(.)"/> attributes cannot be empty.</assert>
         </rule>
         <rule context="tei:div">
             <assert test="count(tei:head) = 1">A div must have a head child.</assert>
@@ -189,5 +215,73 @@
             <assert test="concat(@url, '.tif') = $available-images">TIFF version of '<value-of select="@url"/>' not found on static.history.state.gov</assert>
         </rule>
     </pattern>
+    
+    <!-- XSL Helper Functions -->
+    
+    <!-- Function to convert from Roman Numerals to Numbers. Adapted from Sal Mangano, XSLT Cookbook 2nd Ed (O'Reilly 2006), pp. 70-72 -->
+    <ckbk:romans>
+        <ckbk:roman value="1">i</ckbk:roman>
+        <ckbk:roman value="1">I</ckbk:roman>
+        <ckbk:roman value="5">v</ckbk:roman>
+        <ckbk:roman value="5">V</ckbk:roman>
+        <ckbk:roman value="10">x</ckbk:roman>
+        <ckbk:roman value="10">X</ckbk:roman>
+        <ckbk:roman value="50">l</ckbk:roman>
+        <ckbk:roman value="50">L</ckbk:roman>
+        <ckbk:roman value="100">c</ckbk:roman>
+        <ckbk:roman value="100">C</ckbk:roman>
+        <ckbk:roman value="500">d</ckbk:roman>
+        <ckbk:roman value="500">D</ckbk:roman>
+        <ckbk:roman value="1000">m</ckbk:roman>
+        <ckbk:roman value="1000">M</ckbk:roman>
+    </ckbk:romans>
+    <xsl:variable name="ckbk:roman-nums" select="document('')/*/*/ckbk:roman"/>
+    <xsl:function name="ckbk:roman-to-number">
+        <xsl:param name="roman"/>
+        <xsl:variable name="valid-roman-chars">
+            <xsl:value-of select="document('')/*/ckbk:romans"/>
+        </xsl:variable>
+        <xsl:choose>
+            <!-- returns true if there are any non-Roman characters in the string -->
+            <xsl:when test="translate($roman,$valid-roman-chars,'')">NaN</xsl:when>
+            <xsl:otherwise>
+                <xsl:call-template name="ckbk:roman-to-number-impl">
+                    <xsl:with-param name="roman" select="$roman"/>
+                </xsl:call-template>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    <xsl:template name="ckbk:roman-to-number-impl">
+        <xsl:param name="roman"/>
+        <xsl:param name="value" select="0"/>
+        <xsl:variable name="len" select="string-length($roman)"/>
+        <xsl:choose>
+            <xsl:when test="not($len)">
+                <xsl:value-of select="$value"/>
+            </xsl:when>
+            <xsl:when test="$len = 1">
+                <xsl:value-of select="$value + $ckbk:roman-nums[. = $roman]/@value"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:variable name="roman-num"
+                    select="$ckbk:roman-nums[. = substring($roman, 1, 1)]"/>
+                <xsl:choose>
+                    <xsl:when test="$roman-num/following-sibling::ckbk:roman =
+                        substring($roman, 2, 1)">
+                        <xsl:call-template name="ckbk:roman-to-number-impl">
+                            <xsl:with-param name="roman" select="substring($roman,2,$len - 1)"/>
+                            <xsl:with-param name="value" select="$value - $roman-num/@value"/>
+                        </xsl:call-template>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:call-template name="ckbk:roman-to-number-impl">
+                            <xsl:with-param name="roman" select="substring($roman,2,$len - 1)"/>
+                            <xsl:with-param name="value" select="$value + $roman-num/@value"/>
+                        </xsl:call-template>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
     
 </schema>
