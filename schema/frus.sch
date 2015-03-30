@@ -2,7 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ckbk="http://www.oreilly.com/XSLTCookbook">
     <title>FRUS TEI Rules</title>
     
-    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3606 2015-03-06 14:27:11Z joewiz $)</p>
+    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3676 2015-03-30 21:29:36Z joewiz $)</p>
     
     <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema file.  FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI files.</p>
     
@@ -15,7 +15,7 @@
     <let name="vol-ids" value="if (doc-available('http://history.state.gov/services/volume-ids')) then doc('http://history.state.gov/services/volume-ids')//volume-id else doc('volume-ids-snapshot.xml')//volume-id"/>
     <let name="persName-ids" value="//tei:persName/@xml:id"/>
     <let name="term-ids" value="//tei:term/@xml:id"/>
-    <let name="documents" value="//tei:div[@xml:id and @type='document']"/>
+    <let name="documents" value="//tei:div[@type='document']"/>
     <let name="vol-id" value="/tei:TEI/@xml:id"/>
     <let name="available-images" value="doc(concat('http://history.state.gov/services/volume-images?volume=', $vol-id))//image"/>
     
@@ -101,8 +101,8 @@
     
     <pattern id="div-numbering-checks">
         <title>Document Div Numbering Checks</title>
-        <rule context="tei:div[@xml:id and @type='document']">
-            <assert test="not(./preceding::tei:div[@xml:id and @type='document']) or 
+        <rule context="tei:div[@type='document']">
+            <assert test="not(./preceding::tei:div[@type='document']) or 
                 ./@n = (./preceding::tei:div[@n][1]/@n + 1)">Document numbering mismatch.  Document div/@n numbering must be consecutive.</assert>
         </rule>
         <rule context="tei:body">
@@ -134,7 +134,7 @@
     <pattern id="footnote-id-checks">
         <title>Footnote ID Checks</title>
         <rule context="tei:note[@xml:id and ancestor::tei:div/@type='document']">
-            <assert test="substring-before(./@xml:id, 'fn') = ./ancestor::tei:div[@xml:id][1]/@xml:id">Footnote ID mismatch.  Document ID portion of footnote @xml:id '<value-of select="./@xml:id"/>' must match its document's @xml:id '<value-of select="./ancestor::tei:div[@xml:id][1]/@xml:id"/>'.</assert>
+            <assert test="substring-before(./@xml:id, 'fn') = ./ancestor::tei:div[1]/@xml:id">Footnote ID mismatch.  Document ID portion of footnote @xml:id '<value-of select="./@xml:id"/>' must match its document's @xml:id '<value-of select="./ancestor::tei:div[1]/@xml:id"/>'.</assert>
         </rule>
     </pattern>
     
@@ -152,10 +152,10 @@
     <pattern id="pointer-checks">
         <title>Ref and Pointer Checks</title>
         <rule context="tei:ref[starts-with(@target, '#pg') and substring-after(@target, 'pg_') castable as xs:integer and ./preceding-sibling::node()[1] = '–' and ./preceding-sibling::node()[2]/self::tei:ref]">
-            <assert test="xs:integer(substring-after(@target, '#pg_')) gt xs:integer(substring-after(preceding-sibling::node()[2]/@target, '#pg_'))">Invalid page range: <value-of select="preceding-sibling::node()[2]/@target"/>–<value-of select="@target"/> (see #<value-of select="./ancestor::tei:div[@xml:id][1]/@xml:id"/> <value-of select="if (./ancestor::tei:div[@xml:id][1]/@xml:id = 'index') then concat(' under ', string-join(subsequence(tokenize(./ancestor::tei:item[1], '\s+'), 1, 2), ' '), ',') else ()"/> and <value-of select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
+            <assert test="xs:integer(substring-after(@target, '#pg_')) gt xs:integer(substring-after(preceding-sibling::node()[2]/@target, '#pg_'))">Invalid page range: <value-of select="preceding-sibling::node()[2]/@target"/>–<value-of select="@target"/> (see #<value-of select="./ancestor::tei:div[1]/@xml:id"/> <value-of select="if (./ancestor::tei:div[1]/@xml:id = 'index') then concat(' under ', string-join(subsequence(tokenize(./ancestor::tei:item[1], '\s+'), 1, 2), ' '), ',') else ()"/> and <value-of select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
         </rule>
         <rule context="tei:ref[starts-with(@target, '#pg') and not(substring-after(@target, 'pg_') castable as xs:integer) and ./preceding-sibling::node()[1] = '–' and ./preceding-sibling::node()[2]/self::tei:ref]">
-            <assert test="xs:integer(ckbk:roman-to-number(substring-after(@target, '#pg_'))) gt xs:integer(ckbk:roman-to-number(substring-after(preceding-sibling::node()[2]/@target, '#pg_')))">Invalid page range: <value-of select="preceding-sibling::node()[2]/@target"/>–<value-of select="@target"/> (<value-of select="ckbk:roman-to-number(substring-after(preceding-sibling::node()[2]/@target, '#pg_'))"/>–<value-of select="ckbk:roman-to-number(substring-after(@target, '#pg_'))"/>; see #<value-of select="./ancestor::tei:div[@xml:id][1]/@xml:id"/> <value-of select="if (./ancestor::tei:div[@xml:id][1]/@xml:id = 'index') then concat(' under ', string-join(subsequence(tokenize(./ancestor::tei:item[1], '\s+'), 1, 2), ' '), ',') else ()"/> and <value-of select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
+            <assert test="xs:integer(ckbk:roman-to-number(substring-after(@target, '#pg_'))) gt xs:integer(ckbk:roman-to-number(substring-after(preceding-sibling::node()[2]/@target, '#pg_')))">Invalid page range: <value-of select="preceding-sibling::node()[2]/@target"/>–<value-of select="@target"/> (<value-of select="ckbk:roman-to-number(substring-after(preceding-sibling::node()[2]/@target, '#pg_'))"/>–<value-of select="ckbk:roman-to-number(substring-after(@target, '#pg_'))"/>; see #<value-of select="./ancestor::tei:div[1]/@xml:id"/> <value-of select="if (./ancestor::tei:div[1]/@xml:id = 'index') then concat(' under ', string-join(subsequence(tokenize(./ancestor::tei:item[1], '\s+'), 1, 2), ' '), ',') else ()"/> and <value-of select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
         </rule>
         <rule context="tei:ref[starts-with(@target, 'frus')]">
             <assert test="if (contains(@target, '#')) then substring-before(@target, '#') = $vol-ids else @target = $vol-ids">ref/@target='<value-of select="if (contains(@target, '#')) then substring-before(@target, '#') else @target"/>' is an invalid value.  No volume's ID corresponds to this ref/@target value.</assert>
@@ -181,25 +181,25 @@
         </rule>
     </pattern>
     
-    <pattern id="empty-content-checks">
-        <title>Empty Content Checks</title>
-        <rule context="tei:p | tei:gloss | tei:persName | tei:editor">
+    <pattern id="empty-missing-content-checks">
+        <title>Empty/Missing Content Checks</title>
+        <rule context="tei:p | tei:gloss | tei:persName">
             <assert test="count(./node()) gt 0"><value-of select="name(.)"/> elements cannot be empty.</assert>
         </rule>
-        <rule context="tei:editor/@role">
-            <assert test="string-length(.) gt 0"><value-of select="name(.)"/> attributes cannot be empty.</assert>
+        <rule context="tei:editor">
+            <assert test="count(./node()) gt 0"><value-of select="name(.)"/> elements cannot be empty.</assert>
+            <assert test="./@role">An editor element needs a @role attribute.</assert>
+            <assert test="string-length(./@role) gt 0">An editor/@role attribute cannot be empty.</assert>
         </rule>
         <rule context="tei:div">
             <assert test="count(tei:head) = 1">A div must have a head child.</assert>
-        </rule>
-        <rule context="tei:div">
             <assert test="./@xml:id">A div must have an @xml:id attribute.</assert>
         </rule>
         <rule context="tei:head">
             <assert test="count(preceding-sibling::tei:head) = 0">There can only be one head element.</assert>
         </rule>
     </pattern>
-    
+
     <pattern id="image-url-checks">
         <title>Image Checks</title>
         <rule context="tei:graphic">
