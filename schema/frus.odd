@@ -31,6 +31,7 @@
                 @rend values for p and hi</change>
             <change who="#Joe" when="2012-01-24">Started prose documentation and culled elements
                 from the transcr and linking modules and various attribute classes</change>
+            <change who="#Joe" when="2015-06-14">Began transition to TEI Simple</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -740,7 +741,7 @@
                 says what element(s) are allowed as the root element of documents 
                 conforming to this schema. There is no official default, but Roma 
                 behave as if the default is "teiCorpus TEI".-->
-                <schemaSpec ident="frus" start="TEI" source="tei:2.7.0">
+                <schemaSpec ident="frus" start="TEI" source="teisimple.odd">
 
 
 
@@ -1094,6 +1095,13 @@
                                 </valList>
                             </attDef>
                         </attList>
+                    </elementSpec>
+                    
+                    <!-- begin TEI Simple Processing Model -->
+                    <elementSpec mode="change" ident="dateline">
+                        <model behaviour="block">
+                            <outputRendition>text-align: right;</outputRendition>
+                        </model>
                     </elementSpec>
 
                 </schemaSpec>
