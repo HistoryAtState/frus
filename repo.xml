@@ -8,7 +8,7 @@
     <copyright/>
     <type>application</type>
     <target>frus</target>
-    <prepare/>
+    <prepare>pre-install.xql</prepare>
     <finish/>
     <permissions password="" user="hsg" group="hsg" mode="rw-rw-r--"/>
 </meta>

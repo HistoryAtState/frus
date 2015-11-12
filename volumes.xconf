@@ -1,0 +1,35 @@
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:tei="http://www.tei-c.org/ns/1.0">
+        
+        <!-- Disable the legacy full text index -->
+        <fulltext default="none" attributes="false"/>
+        
+        <!-- Lucene index configuration -->
+        <lucene>
+            <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
+            <text qname="tei:div"/>
+        </lucene>
+        
+        <!-- Range index configuration -->
+        <create qname="@target" type="xs:string"/>
+        <create qname="@corresp" type="xs:string"/>
+        <create qname="@type" type="xs:string"/>
+        <create qname="@xml:id" type="xs:string"/>
+        <create qname="@id" type="xs:string"/>
+        <create qname="@rend" type="xs:string"/>
+        <create qname="@n" type="xs:string"/>
+        <create qname="tei:idno" type="xs:string"/>
+        <!-- Note on @xml:id: When using the dedicated fn:id() 
+            function, eXist will use its default xml:id index, 
+            so you don't need an extra index. However, if you use 
+            a general comparison as in //node[@xml:id = 'abc'], then 
+            an additional range index will be required -->
+        <!--create qname="@when" type="xs:date"/-->
+        <!-- Note on @when: "eXist can only use a range index 
+            if all values within that index are valid instances 
+            of the defined index type. So every date has to be 
+            an xs:date and if there's just one exception, the 
+            index will no longer be used."  Until we've normalized
+            our dates, there's no point in using this range index. -->
+    </index>
+</collection>
