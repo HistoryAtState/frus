@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1969-76v38p1">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -295,7 +295,7 @@
                     <orgName>Bureau of Public Affairs</orgName><lb/> August 2012<lb/>
                 </closer>
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
-                <gap extent="1" unit="pages" reason="convenience"/>
+                <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
             <div type="section" xml:id="toc">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
@@ -328,7 +328,7 @@
                 </list>
             </div>
             <pb n="X" facs="0011" xml:id="pg_X"/>
-            <gap extent="1" unit="pages" reason="convenience"/>
+            <gap quantity="1" unit="pages" reason="convenience"/>
             <div type="section" xml:id="sources">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Sources</head>
@@ -1879,7 +1879,7 @@
                         June 29, 1974</item>
                 </list>
                 <pb n="XXX" facs="0031" xml:id="pg_XXX"/>
-                <gap extent="1" unit="pages" reason="convenience"/>
+                <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
         </front>
         <body>
@@ -16969,7 +16969,7 @@
             </div>
             <div type="document" n="63" xml:id="d63">
                 <head>63. Briefing Memorandum From the Director of the Policy Planning Staff
-                        (<persName corresp="#p_LW_1"/>Lord) and the Assistant Secretary of State for
+                    (<persName corresp="#p_LW_1">Lord</persName>) and the Assistant Secretary of State for
                     Inter-American Affairs (<persName corresp="#p_RWP_1">Rogers</persName>) to
                     Secretary of State <persName corresp="#p_KHA_1">Kissinger</persName><note n="1" type="source"
                         xml:id="d63fn1">Source: National Archives, <gloss target="#t_RG_1"
@@ -22796,7 +22796,7 @@
                     confidence and that those of us who have seen this process have an obligation to
                     help build that confidence. That is what I would most like to do.</p>
                 <pb n="482" facs="0513" xml:id="pg_482"/>
-                <gap extent="1" unit="pages" reason="convenience"/>
+                <gap quantity="1" unit="pages" reason="convenience"/>
             </div></div>
         </body>
         <back>

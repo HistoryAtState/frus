@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1952-54Guat">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -775,12 +775,12 @@
             </div>
             <div type="section" xml:id="persons">
                 <head>Persons and Pseudonyms</head>
+                <p>
+                    <hi rend="italic">
+                        <hi rend="strong">Note:</hi>
+                    </hi> Pseudonyms are in parentheses following real names. Pseudonyms whose
+                    identities have not been released are so indicated.</p>
                 <list type="names">
-                    <item>
-                        <hi rend="italic">
-                            <hi rend="strong">Note:</hi>
-                        </hi> Pseudonyms are in parentheses following real names. Pseudonyms whose
-                        identities have not been released are so indicated.</item>
                     <item>
                         <hi rend="strong">
                             <persName xml:id="p_ADG1">Acheson, Dean G.</persName>,</hi> Secretary of

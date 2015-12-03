@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../schemas/frus.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1952-54v01p1">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -2372,16 +2371,15 @@
                             paper has not been found.</note> It is understood that that paper will
                         deal more specifically with force programs, and their relationship to the
                         U.S. budgetary program for fiscal ’54.</p>
-                    <p rend="center">[Attachment]</p>
-                    <p rend="center">
+                   <frus:attachment> <note rend="inline" type="source">[Attachment]</note>
+                    <head>
                         <hi rend="italic">Paper Prepared in the Office of European Regional
                             Affairs</hi>
                         <note n="4" xml:id="d6fn4">Source text indicates J. Graham Parsons as
                             drafting officer.</note>
-                    </p>
-                    <p>Secret</p>
-                    <dateline>[<placeName>Washington</placeName>,] <date when="1952-11-14">November
-                            14, 1952</date>.</dateline>
+                    </head>
+                   <dateline>[<placeName>Washington</placeName>,] <date when="1952-11-14">November
+                            14, 1952</date>.</dateline> <p>Secret</p>
                     <p rend="center">Immediate Problems Facing U.S. in <gloss target="#t_NATO1"
                             >NATO</gloss>
                     </p>
@@ -2556,7 +2554,7 @@
                             target="#t_NATO1">NATO</gloss> countries will press for an earlier
                         interim meeting in the late spring to review progress, deal with political
                         and economic questions and pave the way for the completion in the autumn of
-                        the 1953 Annual Review.</p>
+                        the 1953 Annual Review.</p></frus:attachment>
                 </div>
                 <div type="document" xml:id="d7" n="7">
                     <note rend="inline" type="source">PPS files, lot 64 D 563, “Administrative
@@ -3073,13 +3071,13 @@
                             n="6" xml:id="d8fn6">Attachment 3 below.</note>
                     </p>
                     <p>The meeting concluded at 3:15 p.m.</p>
-                    <p rend="center">[Attachment 1]</p>
-                    <p rend="center">
+                   <frus:attachment> <note rend="inline" type="source">[Attachment 1]</note>
+                    <head>
                         <hi rend="italic">Memorandum for the President by the Secretary of the
                             Treasury (Snyder)</hi>
                         <note n="7" xml:id="d8fn7">Identity of the drafting officer(s) is not
                             indicated on the source text.</note>
-                    </p>
+                    </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     <p>In the Treasury Department there is a wide range of matters relating to the
@@ -3135,13 +3133,13 @@
                         any time. These advisers may wish to receive also the briefing given the
                         Treasury’s advisory committees of bankers who consult with the Treasury
                         regularly on current financing and debt management problems.</p>
-                    <pb xml:id="pg_31" n="31" facs="0057"/>
-                    <p rend="center">[Attachment 2]</p>
-                    <p>
+                    <pb xml:id="pg_31" n="31" facs="0057"/></frus:attachment>
+                  <frus:attachment>  <note rend="inline" type="source">[Attachment 2]</note>
+                    <head>
                         <hi rend="italic">Proposed Statement on Korea Prepared by the Secretary of
                             State for the Meeting Between the President and President-elect
                             Eisenhower, November 18, 1952</hi>
-                    </p>
+                    </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     <p>The American people earnestly want peace in Korea. They insist, however, on
@@ -3154,13 +3152,13 @@
                         driven back. They cannot be held in indefinite captivity. They must be
                         released as free men.</p>
                     <p>I hope that the General Assembly of the United Nations will take a firm stand
-                        on these matters.</p>
-                    <p rend="center">[Attachment 3]</p>
-                    <p>
+                        on these matters.</p></frus:attachment>
+                  <frus:attachment>  <note rend="inline" type="source">[Attachment 3]</note>
+                    <head>
                         <hi rend="italic">Joint Statement Issued by the President and
                             President-elect Eisenhower at the Close of Their Meeting at the White
                             House, November 18, 1952</hi>
-                    </p>
+                    </head>
                     <p>President Truman and General Eisenhower met today at the White House. After
                         conferring together by themselves, they met with the Secretaries of State,
                         Defense and Treasury, the Director of Mutual Security, and General
@@ -3186,7 +3184,7 @@
                         today for liaison and cooperation between the present Administration and the
                         new Administration furnish additional proof of the ability of the people of
                         this country to manage their affairs with a sense of continuity and with
-                        responsibility.”</p>
+                        responsibility.”</p></frus:attachment>
                 </div>
                 <div type="document" xml:id="d9" n="9">
                     <note rend="inline" type="source">Truman Library, Acheson papers</note>
@@ -4053,12 +4051,12 @@
                     <closer>
                         <signed>Walter B. Smith</signed>
                     </closer>
-                    <p rend="center">
+                   <frus:attachment> <note rend="inline" type="source">
                         <hi rend="strong">[Attachment]</hi>
-                    </p>
-                    <p rend="center">
+                    </note>
+                    <head>
                         <hi rend="strong">Comments on Specific Recommendations</hi>
-                    </p>
+                    </head>
                     <p>1. Page 8. <hi rend="italic">Economic aid.</hi> The Department feels that, in
                         practice, the recommendations with respect to economic aid will need
                         amplification in order to provide a somewhat clearer basis for actual
@@ -4319,7 +4317,7 @@
                         commodities eligible for duty-free entry as “works of art”.</p>
                     <closer>
                         <signed>Walter B. Smith</signed>
-                    </closer>
+                    </closer></frus:attachment>
                 </div>
                 <div type="document" xml:id="d19" n="19">
                     <note rend="inline" type="source">
@@ -9847,9 +9845,9 @@
                     <closer>
                         <signed>James S. Lay, Jr.</signed>
                     </closer>
-                    <p rend="center">
+                   <frus:attachment> <note rend="inline" type="source">
                         <hi rend="strong">[Enclosure I]</hi>
-                    </p>
+                    </note>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1954-03-23">March 23,
                             1954</date>.</dateline>
@@ -9908,10 +9906,10 @@
                         or loan, agricultural surpluses to a country suffering from conditions such
                         as famine, disaster, and unrest, where such action would promote the
                         security interests of the United States.</p>
-                    <pb xml:id="pg_177" n="177" facs="0203"/>
-                    <p rend="center">
+                    <pb xml:id="pg_177" n="177" facs="0203"/></frus:attachment>
+                   <frus:attachment> <note rend="inline" type="source">
                         <hi rend="strong">[Enclosure II]</hi>
-                    </p>
+                    </note>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1954-03-09">March 9,
                             1954</date>.</dateline>
@@ -10004,7 +10002,7 @@
                     <p>15. U.S. trade with the Soviet Bloc in relation to total U.S. trade is
                         illustrated by the following table:</p>
                     <p>(In millions of dollars)</p>
-                    <table rows="4" cols="5">
+                    <table rows="5" cols="5">
                         <row>
                             <cell/>
                             <cell>
@@ -10306,14 +10304,14 @@
                     <p>47. On balance, and depending on the circumstances and facts relevant to each
                         particular transaction which must be reviewed on their merits, some exports
                         for dollars or gold of some Government-owned surplus perishable agricultural
-                        products to the Soviet Bloc might be defensible.</p>
-                    <p rend="center">
+                        products to the Soviet Bloc might be defensible.</p></frus:attachment>
+                   <frus:attachment> <note rend="inline" type="source">
                         <hi rend="strong">[Attachment]</hi>
-                    </p>
-                    <p rend="center">Table I</p>
+                    </note>
+                    <head>Table I</head>
                     <p>Free World Exports of Dairy Products to the Soviet Bloc During Year 1952 and
                         First Half 1953</p>
-                    <table rows="15" cols="5">
+                    <table rows="17" cols="5">
                         <row role="label">
                             <cell role="label"/>
                             <cell role="label">
@@ -10452,13 +10450,13 @@
                         Argentina. Australia data shows none in 1952, but for January–June 1953 5,
                         000 lbs. of butter valued at $3, 000 is reported as exported to China. Data
                         for Uruguay is not available.</p>
-                    <pb xml:id="pg_186" n="186" facs="0212"/>
-                    <p rend="center">
+                    <pb xml:id="pg_186" n="186" facs="0212"/></frus:attachment>
+                   <frus:attachment> <note rend="inline" type="source">
                         <hi rend="strong">[Attachment]</hi>
-                    </p>
-                    <p rend="center">Table II</p>
+                    </note>
+                    <head>Table II</head>
                     <p>Recent Soviet Bloc Purchase Contracts for Butter from Free World</p>
-                    <table rows="7" cols="3">
+                    <table rows="8" cols="3">
                         <row role="label">
                             <cell role="label">
                                 <hi rend="italic">Contract Country</hi>
@@ -10513,7 +10511,7 @@
                     <p rend="center">Table III</p>
                     <p>Principal Commodities Entering into U.S.-Soviet Bloc Trade in 1938 and 1947
                         ($1,000)</p>
-                    <table rows="29" cols="3">
+                    <table rows="30" cols="3">
                         <row role="label">
                             <cell role="label"/>
                             <cell role="label">
@@ -10669,11 +10667,11 @@
                             <cell>92, 928</cell>
                             <cell>108, 200</cell>
                         </row>
-                    </table>
-                    <p rend="center">
+                    </table></frus:attachment>
+                    <frus:attachment><note rend="inline" type="source">
                         <hi rend="strong">[Attachment]</hi>
-                    </p>
-                    <p rend="center">Intelligence Estimate</p>
+                    </note>
+                    <head>Intelligence Estimate</head>
                     <p rend="center">Psychological Implications of Proposal to Exchange Certain
                         Surplus Commodities With Bloc Governments</p>
                     <p rend="center">Problem</p>
@@ -10759,7 +10757,7 @@
                         gain some net propaganda advantage by initiating proposals for such
                         transactions. On the other hand, if the USSR initiated the proposals, we
                         believe that the U.S. would not derive much advantage from accepting them,
-                        and would probably suffer some disadvantage from refusing them.</p>
+                        and would probably suffer some disadvantage from refusing them.</p></frus:attachment>
                 </div>
                 <div type="document" xml:id="d54" n="54">
                     <note rend="inline" type="source">Eisenhower Library, Whitman file</note>
@@ -12689,10 +12687,10 @@
                         officers in the Department are informed regarding the line that will be
                         taken on the problem at <gloss target="#t_ECOSOC1">ECOSOC</gloss> and the
                         subsequent <gloss target="#t_UN1">UN</gloss> meetings.</p>
-                    <p rend="center">[Attachment]</p>
-                    <p>Confidential</p>
+                   <frus:attachment> <note rend="inline" type="source">[Attachment]</note>
+                    
                     <dateline>[<placeName>Washington</placeName>,] <date when="1952-05-02">May 2,
-                            1952</date>.</dateline>
+                            1952</date>.</dateline><p>Confidential</p>
                     <p>SM D–2</p>
                     <p rend="center">Position Paper on General Assembly Resolution to Establish
                         Grant Fund for Economic Development<note n="2" xml:id="d71fn2">Drafted by
@@ -12925,7 +12923,7 @@
                         the United States representative on the Economic Committee or working party
                         on such matters as the nature of the contributions, the relations of grants
                         to loans, of management to members, the extent of local participation,
-                        etc.</p>
+                        etc.</p></frus:attachment>
                 </div>
                 <div type="document" xml:id="d72" n="72">
                     <note rend="inline" type="source">Secretary’s Memoranda, lot 53 D 444,
@@ -16030,14 +16028,14 @@
                         and is prepared to exercise leadership in an important area of U.N. concern;
                         namely, measures to encourage private enterprise and the international flow
                         of private capital.</p>
-                    <p rend="center">[Tab A]</p>
-                    <p rend="center">
+                    <frus:attachment><note rend="inline" type="source">[Tab A]</note>
+                    <head>
                         <hi rend="italic">Paper Prepared in the Department of the Treasury</hi>
                         <note n="4" xml:id="d94fn4">The Treasury Department submitted this paper to
                             the National Advisory Council for consideration at its Nov. 3, 1954,
                             meeting, the minutes of which are printed <ref target="#d95"><hi
                                     rend="italic">infra</hi></ref>.</note>
-                    </p>
+                    </head>
                     <dateline>[<placeName>Washington</placeName>,] <date when="1954-11-02">November
                             2, 1954</date>.</dateline>
                     <p>
@@ -16088,7 +16086,7 @@
                         some of the earlier proposals for an International Finance Corporation. It
                         is the view of the President of the International Bank that the features of
                         actual ownership and voting power can be eliminated without seriously
-                        handicapping the Corporation.</p>
+                        handicapping the Corporation.</p></frus:attachment>
                 </div>
                 <pb xml:id="pg_302" n="302" facs="0328"/>
                 <div type="document" xml:id="d95" n="95">
@@ -17898,7 +17896,7 @@
                     <p rend="center">
                         <hi rend="italic">Alternative Proposal Three Brackets</hi>
                     </p>
-                    <table rows="10" cols="7">
+                    <table rows="12" cols="7">
                         <row role="label">
                             <cell role="label">Period of use</cell>
                             <cell role="label">Variable Charges</cell>
@@ -18013,7 +18011,7 @@
                     <pb xml:id="pg_340" n="340" facs="0366"/>
                     <p rend="center">Attachment II</p>
                     <p rend="center">Effective Rates‡ </p>
-                    <table rows="10" cols="8">
+                    <table rows="12" cols="8">
                         <row role="label">
                             <cell role="label">Time Period</cell>
                             <cell role="label">Present</cell>
@@ -18826,11 +18824,11 @@
                     <closer>
                         <signed>George</signed>
                     </closer>
-                    <p rend="center">[Attachment 1]</p>
+                   <frus:attachment> <note rend="inline" type="source">[Attachment 1]</note>
                     <dateline>[<placeName>Washington</placeName>,] <date when="1954-01-07">January
                             7, 1954</date>.</dateline>
-                    <p rend="center">Action for Consideration of the National Advisory Council on
-                        International Monetary and Financial Problems</p>
+                    <head>Action for Consideration of the National Advisory Council on
+                        International Monetary and Financial Problems</head>
                     <p>1. The Black–Edgerton statement relative to coordination of activities of the
                         Export-Import Bank and the International Bank is approved in principle.
                         (Statement attached)</p>
@@ -18840,9 +18838,9 @@
                         Export-Import Bank should be short or medium term in duration, except in
                         unusual cases such as referred to in Paragraph 2 in the attached statement,
                         or in other very exceptional circumstances, and in these cases should be in
-                        harmony with the foregoing policy.</p>
+                        harmony with the foregoing policy.</p></frus:attachment>
                     <pb xml:id="pg_356" n="356" facs="0382"/>
-                    <p rend="center">[Attachment 2]</p>
+                    <frus:attachment><note rend="inline" type="source">[Attachment 2]</note>
                     <dateline>[<placeName>Washington</placeName>,] <date when="1953-09-24">September
                             24, 1953</date>.</dateline>
                     <p>Statement of Principles Governing the United States Position in Respect to
@@ -18882,7 +18880,7 @@
                         Bank is planning its lending activities.</p>
                     <p>7. Loans in countries not members of the International Bank, whether
                         governmental or private, may be considered by the Export-Import Bank on
-                        their merits.</p>
+                        their merits.</p></frus:attachment>
                 </div>
                 <pb xml:id="pg_357" n="357" facs="0383"/>
                 <div type="document" xml:id="d112" n="112">
@@ -18915,7 +18913,7 @@
                     <closer>
                         <signed>George M. Humphrey</signed>
                     </closer>
-                    <p rend="center">[Enclosure]</p>
+                   <frus:attachment> <note rend="inline" type="source">[Enclosure]</note>
                     <dateline>[<placeName>Washington</placeName>,] <date when="1954-01-14">January
                             14, 1954</date>.</dateline>
                     <p rend="center">Action for Consideration of the National Advisory Council on
@@ -18945,8 +18943,8 @@
                             before the matter was referred to the <gloss target="#t_NAC1"
                                 >NAC</gloss> for final determination. (Secretary’s Letters, lot 56 D
                             459, “Humphrey, G.”) No record of such a meeting was found, however, in
-                            Department of State files.</note>
-                    </p>
+                            Department of State files.</note></p></frus:attachment>
+                   
                 </div>
                 <div type="document" xml:id="d113" n="113">
                     <note rend="inline" type="source">
@@ -19658,7 +19656,7 @@
                         agreement into negotiable bonds in convenient denominations for sales to
                         investors.</p>
                     <p>Loans will be offered in the following approximate amounts:</p>
-                    <table rows="5" cols="2">
+                    <table rows="6" cols="2">
                         <row role="label">
                             <cell>
                                 <hi rend="italic">Development Assistance Loans</hi> ($ and $
@@ -19686,7 +19684,7 @@
                             <cell>107</cell>
                         </row>
                     </table>
-                    <table rows="7" cols="2">
+                    <table rows="8" cols="2">
                         <row role="label">
                             <cell>
                                 <hi rend="italic">Defense Support Loans</hi>
@@ -19722,7 +19720,7 @@
                             <cell>149</cell>
                         </row>
                     </table>
-                    <table rows="2" cols="2">
+                    <table rows="3" cols="2">
                         <row role="label">
                             <cell>
                                 <hi rend="italic">Military Assistance Loans</hi>
@@ -22099,10 +22097,10 @@
                         report this information to <gloss target="#t_PBOS1">PBOS</gloss>, does not
                         suffice in view of the anxieties expressed in the Permanent
                         Representatives.</item></list>
-                    <p rend="center">[Tab B]<note n="4" xml:id="d132fn4">Tab A, a paper describing
+                   <frus:attachment> <note rend="inline" type="source">[Tab B]<note n="4" xml:id="d132fn4">Tab A, a paper describing
                             the background and history of the <gloss target="#t_PBOS1">PBOS</gloss>,
                             was not found with the source text.</note>
-                    </p>
+                    </note>
                     <dateline>[<date>Undated</date>.]</dateline>
                     <p>Secret</p>
                     <p>Likely Principal Defense Points Concerning Their Need to Have Exclusive
@@ -22156,7 +22154,7 @@
                         Invasion in World War II).</p>
                     <p>The <gloss target="#t_PBOS1">PBOS</gloss> plans to allow “bloc allocations”
                         as opposed to singlevoyage allocations whenever military exigencies require
-                        it.</p>
+                        it.</p></frus:attachment>
                 </div>
                 <pb xml:id="pg_426" n="426" facs="0452"/>
                 <div type="document" xml:id="d133" n="133">
@@ -22948,16 +22946,16 @@
                     <closer>
                         <signed>Ralph L. Clark</signed>
                     </closer>
-                    <p rend="center">[Attachment]</p>
-                    <p rend="center">
+                  <frus:attachment>  <note rend="inline" type="source">[Attachment]</note>
+                    <head>
                         <hi rend="italic">Draft Report of the Cabinet Committee on
                             Telecommunications Policy and Organization</hi>
                         <note n="1" xml:id="d140fn1">The source text bears the following typewritten
                             statement: “Staff Draft No. 2, 20 December 1954, as revised January 3,
                             1955.” Discussion concerning domestic telecommunications matters in the
                             draft report is omitted.</note>
-                    </p>
-                    <p rend="center">[Extract]</p>
+                    </head>
+                    <note rend="inline" type="source">[Extract]</note>
                     <p>Secret &amp; Privileged</p>
                     <p rend="sectiontitleital">Introduction</p>
                     <p>The President, by letter of August 26, 1954,<note n="2" xml:id="d140fn2">Not
@@ -23491,7 +23489,7 @@
                     <p>4. Provide authority for Government communications facilities and systems to
                         carry public traffic where such is in the national interest.</p>
                     <p>Legislation along other lines may be found to be desirable or necessary as
-                        action programs progress and new circumstances come into being.</p>
+                        action programs progress and new circumstances come into being.</p></frus:attachment>
                 </div>
                 <pb xml:id="pg_455" n="455" facs="0481"/>
                 <div type="document" xml:id="d141" n="141">
@@ -24060,12 +24058,12 @@
                         <signed>Lincoln Gordon</signed>
                     </closer>
                     <pb xml:id="pg_467" n="467" facs="0493"/>
-                    <p rend="center">Annex A</p>
+                   <frus:attachment> <note rend="inline" type="source">Annex A</note>
                     <dateline>[<placeName>Washington</placeName>, <date>undated</date>.]</dateline>
                     <p>Secret</p>
                     <p rend="center">Aid Distribution For <gloss target="#t_FY1">FY</gloss> 1953</p>
                     <p rend="center">(In Millions of Dollars)</p>
-                    <table rows="25" cols="2">
+                    <table rows="26" cols="2">
                         <row role="label">
                             <cell role="label">Area, Country of Type of Aid</cell>
                             <cell role="label"/>
@@ -24186,7 +24184,7 @@
                             target="#t_NATO1">NATO</gloss> figure. [Footnote in the source
                         text.]</p>
                     <p>(‡)Does not include any specific allowance for economic aid to Spain.
-                        [Footnote in the source text.]</p>
+                        [Footnote in the source text.]</p></frus:attachment>
                 </div>
                 <pb xml:id="pg_468" n="468" facs="0494"/>
                 <div type="document" xml:id="d146" n="146">
@@ -24258,13 +24256,13 @@
                     <closer>
                         <signed>John H. Ohly</signed>
                     </closer>
-                    <p rend="center">Annex A (Revised)</p>
+                    <frus:attachment><note rend="inline" type="source">Annex A (Revised)</note>
                     <dateline>[<placeName>Washington</placeName>,] <date when="1952-02-25">February
                             25, 1952</date>.</dateline>
                     <p>Secret</p>
                     <p rend="center">Aid Distribution For <gloss target="#t_FY1">FY</gloss> 1953</p>
                     <p rend="center">(In Millions of Dollars)</p>
-                    <table rows="24" cols="2">
+                    <table rows="25" cols="2">
                         <row role="label">
                             <cell role="label">Area, Country of Type of Aid</cell>
                             <cell role="label"/>
@@ -24378,7 +24376,7 @@
                             target="#t_NATO1">NATO</gloss> figure. [Footnote in the source
                         text.]</p>
                     <p>(‡)Does not include any specific allowance for economic aid to Spain.
-                        [Footnote in the source text.]</p>
+                        [Footnote in the source text.]</p></frus:attachment>
                 </div>
                 <pb xml:id="pg_470" n="470" facs="0496"/>
                 <div type="document" xml:id="d147" n="147">
@@ -25128,9 +25126,9 @@
                     <closer>
                         <signed>Theodore Tannenwald, Jr.</signed>
                     </closer>
-                    <p rend="center">[Attachment]</p>
-                    <p>Restricted</p>
-                    <dateline>[<placeName>Washington</placeName>, <date>Undated</date>.]</dateline>
+                  <frus:attachment> <note rend="inline" type="source">[Attachment]</note>
+                 
+                    <dateline>[<placeName>Washington</placeName>, <date>Undated</date>.]</dateline>   <p>Restricted</p>
                     <p rend="center">Points of Concern to Members of Congressional Committees on
                         1953 Mutual Security Program<note n="2" xml:id="d149fn2">Copies were sent to
                             Gordon, Wood, Ohly, and Eichholz.</note>
@@ -25384,7 +25382,7 @@
                     <item>b. Sale of surplus ships rather than subsidizing of European
                         shipbuilding.</item>
                     <item>c. Foreign competition arising from increased European productive
-                        capacity.</item></list>
+                        capacity.</item></list></frus:attachment>
                 </div>
                 <div type="document" xml:id="d150" n="150">
                     <note rend="inline" type="source">700.5 <gloss target="#t_MSP1"
@@ -25572,12 +25570,12 @@
                     <p>[Here follows item 3, “Legislative authorization for information media
                         guarantees”.]</p>
                     <pb xml:id="pg_494" n="494" facs="0520"/>
-                    <p rend="center">
+                    <frus:attachment><note rend="inline" type="source">
                         <hi rend="strong">Attachment A</hi>
-                    </p>
-                    <p rend="center">
+                    </note>
+                    <head>
                         <hi rend="italic">Draft Executive Order</hi>
-                    </p>
+                    </head>
                     <dateline>[<placeName>Washington</placeName>,] <date when="1952-02-15">February
                             15, 1952</date>.</dateline>
                     <p rend="center">Overseas Coordination Procedures Under Section 507 of the
@@ -25722,7 +25720,7 @@
                     <item>(c) Executive Orders Nos. 9857, 9862, 9864, 9914, 9944, 9960, 10208, and
                         10259 of May 22, 1947, May 31, 1947, May 31, 1947, December 26, 1947, April
                         9, 1948, May 19, 1948, June 13, 1949, January 25, 1951, and June 27, 1951,
-                        respectively, are hereby revoked.</item></list>
+                        respectively, are hereby revoked.</item></list></frus:attachment>
                 </div>
                 <pb xml:id="pg_497" n="497" facs="0523"/>
                 <div type="document" xml:id="d152" n="152">
@@ -25881,10 +25879,10 @@
                             1952, signed by President Truman on June 20, 1952.</note>
                     </p>
                     <pb xml:id="pg_500" n="500" facs="0526"/>
-                    <p rend="center">
+                   <frus:attachment> <note rend="inline" type="source">
                         <hi rend="strong">[Enclosure]</hi>
-                    </p>
-                    <p>
+                    </note>
+                    <head>
                         <hi rend="italic">Memorandum Prepared by Ridgway Knight of the Office of
                             Western European Affairs and William Nunley of the Office of European
                             Regional Affairs<note n="5" xml:id="d155fn5">The source text is
@@ -25911,7 +25909,7 @@
                                 expressing the sympathy of the United States with the aspirations
                                 for independence of colonial peoples.”</note>
                         </hi>
-                    </p>
+                    </head>
                     <dateline>[<placeName>Washington</placeName>, <date when="1952-04-09">April 9,
                             1952</date>.]</dateline>
                     <p>Secret</p>
@@ -26039,7 +26037,7 @@
                         defense program. As a minimum, it would make the task of the existing
                         governments in these countries far more difficult, by permitting the
                         political opposition to play on chauvinist sentiments and to accuse the
-                        government of being subservient to American pressure.</p>
+                        government of being subservient to American pressure.</p></frus:attachment>
                 </div>
                 <div type="document" xml:id="d156" n="156">
                     <note rend="inline" type="source">700.5 <gloss target="#t_MSP1"
@@ -26487,13 +26485,13 @@
                         urged that any <pb xml:id="pg_513" n="513" facs="0539"/>major differences of
                         view be brought promptly to the attention of <gloss target="#t_SMSA1"
                             >S/MSA</gloss> so that we can be of assistance in resolving them.</p>
-                    <p rend="center">
+                   <frus:attachment> <note rend="inline" type="source">
                         <hi rend="strong">[Annex]</hi>
-                    </p>
-                    <p rend="center">
+                    </note>
+                    <head>
                         <hi rend="italic">Paper Prepared by the Special Assistant to the Secretary
                             of State for Mutual Security Affairs (Martin)</hi>
-                    </p>
+                    </head>
                     <dateline>[<placeName>Washington</placeName>, <date when="1952-07-02">July 2,
                             1952</date>.]</dateline>
                     <p>Secret</p>
@@ -26587,7 +26585,7 @@
                                 Part 1</ref>. For documentation on the abortive efforts to create a
                             Middle East Defense Organization, see <ref target="frus1952-54v09p1">volume IX</ref>.</note> This might of
                         course change prior to submittal of appropriation requests for <gloss
-                            target="#t_FY1">FY</gloss> 1954.</p>
+                            target="#t_FY1">FY</gloss> 1954.</p></frus:attachment>
                 </div>
                 <div type="document" xml:id="d161" n="161">
                     <note rend="inline" type="source">
@@ -27608,7 +27606,7 @@
                         critical categories of interceptors and fighter-bombers and amounts to
                         nearly 16% of the Lisbon goal for Interceptor Day Fighters-Fighter Bombers
                         (IDF/FB). The situation in summary is as follows:</p>
-                    <table rows="9" cols="5">
+                    <table rows="10" cols="5">
                         <row role="label">
                             <cell/>
                             <cell>Effective 30 June 1952</cell>
@@ -27893,7 +27891,7 @@
                         major reservations indicated above.</p>
                     <p>Defense Expenditures of European <gloss target="#t_NATO1">NATO</gloss>
                         Countries (in $ Millions)</p>
-                    <table rows="9" cols="5">
+                    <table rows="10" cols="5">
                         <row role="label">
                             <cell/>
                             <cell>Fiscal 1951 (Actual)</cell>
@@ -28134,7 +28132,7 @@
                     </p>
                     <p>Summary of <gloss target="#t_MDAP1">MDAP</gloss> Programs, <gloss
                             target="#t_FY1">FY</gloss> 1950–52 (In millions of dollars)</p>
-                    <table rows="4" cols="4">
+                    <table rows="5" cols="4">
                         <row role="label">
                             <cell/>
                             <cell>Program <gloss target="#t_FY1">FY</gloss> 50–52</cell>
@@ -28219,7 +28217,7 @@
                     </p>
                     <p>Summary of <gloss target="#t_MDAP1">MDAP</gloss> Programs, <gloss
                             target="#t_FY1">FY</gloss> 1950–52 (In millions of dollars)</p>
-                    <table rows="4" cols="4">
+                    <table rows="5" cols="4">
                         <row role="label">
                             <cell/>
                             <cell>Program <gloss target="#t_FY1">FY</gloss> 50–52</cell>
@@ -28336,7 +28334,7 @@
                     <pb xml:id="pg_550" n="550" facs="0576"/>
                     <p>Summary of <gloss target="#t_MDAP1">MDAP</gloss> Program, <gloss
                             target="#t_FY1">FY</gloss> 1950–52 (In millions of dollars)</p>
-                    <table rows="4" cols="4">
+                    <table rows="5" cols="4">
                         <row role="label">
                             <cell/>
                             <cell>Program <gloss target="#t_FY1">FY</gloss> 50– 52</cell>
@@ -28516,7 +28514,7 @@
                     <p>2. <hi rend="italic">Economic Aid and Defense Support.</hi> Programs of
                         general economic aid, including the financing of substantial consumer and
                         capital goods imports, were carried on in the following countries:</p>
-                    <table rows="5" cols="2">
+                    <table rows="6" cols="2">
                         <row role="label">
                             <cell>Country</cell>
                             <cell>Approved Programs</cell>
@@ -28552,7 +28550,7 @@
                     </p>
                     <p>Summary of <gloss target="#t_MDAP1">MDAP</gloss> Programs, <gloss
                             target="#t_FY1">FY</gloss> 1950–52‡ (In millions of dollars)</p>
-                    <table rows="4" cols="4">
+                    <table rows="5" cols="4">
                         <row role="label">
                             <cell/>
                             <cell>Program <gloss target="#t_FY1">FY</gloss> 50–52</cell>
@@ -28589,7 +28587,7 @@
                         1952. [Footnote in the source text.]</p>
                     <p>Present Army Strengths in Relation to <gloss target="#t_JCS1">JCS</gloss>
                         Goals</p>
-                    <table rows="11" cols="4">
+                    <table rows="12" cols="4">
                         <row role="label">
                             <cell>Force</cell>
                             <cell>Men, % of Goal</cell>
@@ -28711,7 +28709,7 @@
                     </p>
                     <p>Summary of <gloss target="#t_MDAP1">MDAP</gloss> Programs, <gloss
                             target="#t_FY1">FY</gloss> 1950–52 (In millions of dollars)</p>
-                    <table rows="4" cols="4">
+                    <table rows="5" cols="4">
                         <row role="label">
                             <cell/>
                             <cell>Program <gloss target="#t_FY1">FY</gloss> 1950–52</cell>
@@ -28902,7 +28900,7 @@
                     <p rend="center">1952 Budgeted Expenditures for Defense by Certain Latin
                         American Countries</p>
                     <p rend="center">(Millions of U.S. dollars)</p>
-                    <table rows="9" cols="4">
+                    <table rows="10" cols="4">
                         <row role="label">
                             <cell>Country</cell>
                             <cell>Total Expenditures</cell>
@@ -30067,11 +30065,11 @@
                             to George S. Newman of <gloss target="#t_SMSA1">S/MSA</gloss>.</note>
                     </p>
                     <pb xml:id="pg_583" n="583" facs="0609"/>
-                    <p rend="center">[Annex A]</p>
-                    <p rend="center">
+                    <frus:attachment><note rend="inline" type="source">[Annex A]</note>
+                    <head>
                         <hi rend="italic">Paper Prepared in the Office of the Special Assistant to
                             the Secretary of State for Mutual Security Affairs (Martin)</hi>
-                    </p>
+                    </head>
                     <dateline>[<placeName>Washington</placeName>, <date>undated</date>.]</dateline>
                     <p>Secret</p>
                     <p rend="sectiontitleital">Title II—Near East and Africa:</p>
@@ -30122,7 +30120,7 @@
                     <p>It is anticipated that there may be a need for famine relief for Pakistan but
                         the amount is not currently known. By the time the bill goes to Congress we
                         must know whether we want more money or can take care of the problem if
-                        given adequate flexibility in shifting funds between objects and areas.</p>
+                        given adequate flexibility in shifting funds between objects and areas.</p></frus:attachment>
                 </div>
                 <div type="document" xml:id="d171" n="171">
                     <note rend="inline" type="source">103 <gloss target="#t_MSA1"
@@ -30252,16 +30250,16 @@
                         <signed>John Foster Dulles</signed>
                     </closer>
                     <pb xml:id="pg_587" n="587" facs="0613"/>
-                    <p rend="center">[Enclosure]</p>
-                    <p rend="center">
+                   <frus:attachment> <note rend="inline" type="source">[Enclosure]</note>
+                    <head>
                         <hi rend="italic">Table of Funds Requests Drafted in the Department of
                             State</hi>
-                    </p>
+                    </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     <p>Secret</p>
                     <p>(In $ millions)</p>
-                    <table rows="19" cols="3">
+                    <table rows="20" cols="3">
                         <row role="label">
                             <cell role="label"/>
                             <cell role="label">Previous <gloss target="#t_FY1">FY</gloss> 1954
@@ -30375,7 +30373,7 @@
                         </row>
                     </table>
                     <p>*Will require an authorization of funds but no appropriation. [Footnote in
-                        the source text.]</p>
+                        the source text.]</p></frus:attachment>
                 </div>
                 <pb xml:id="pg_588" n="588" facs="0614"/>
                 <div type="document" xml:id="d172" n="172">
@@ -30458,7 +30456,7 @@
                             target="#t_DOT1">DOT</gloss>’s; and that the expenditures allowed will
                         be distributed among the remaining programs as follows (figures in millions
                         of dollars including local currency requirements):</p>
-                    <table rows="8" cols="4">
+                    <table rows="9" cols="4">
                         <row role="label">
                             <cell role="label"/>
                             <cell role="label">
@@ -30534,7 +30532,7 @@
                             >DOT</gloss>’s; and that the expenditures allowed will be distributed
                         among the remaining programs as follows (figures in millions of dollars and
                         including local currency requirements):</p>
-                    <table rows="11" cols="4">
+                    <table rows="12" cols="4">
                         <row role="label">
                             <cell role="label"/>
                             <cell role="label">
@@ -30630,7 +30628,7 @@
                             <gloss target="#t_DOT1">DOT</gloss>’s; and that the expenditures allowed
                         will be distributed among the remaining programs as follows (figures in
                         millions of dollars and including local currency):</p>
-                    <table rows="12" cols="4">
+                    <table rows="13" cols="4">
                         <row role="label">
                             <cell role="label"/>
                             <cell role="label">
@@ -31294,7 +31292,7 @@
                     <p rend="center">(All figures are in millions of dollars. Unbracketed figures
                         relate to <gloss target="#t_FY1">FY</gloss> 1954; bracketed to <gloss
                             target="#t_FY1">FY</gloss> 1955)</p>
-                    <table rows="26" cols="8">
+                    <table rows="28" cols="8">
                         <row role="label">
                             <cell role="label"/>
                             <cell role="label">Planned Expenditures (Special Budget Review)</cell>
@@ -32915,7 +32913,7 @@
                         billion is new money and $2.1 billion represents unobligated balances
                         remaining from previous appropriations which may be used in the 1954
                         program. The breakdown of the program, as finally passed, follows:</p>
-                    <table rows="37" cols="3">
+                    <table rows="38" cols="3">
                         <row role="label">
                             <cell/>
                             <cell role="label">New Funds</cell>
@@ -33531,11 +33529,11 @@
                         <signed>W. K. Scott</signed>
                     </closer>
                     <pb xml:id="pg_644" n="644" facs="0670"/>
-                    <p rend="center">[Tab A]</p>
-                    <p rend="center">
+                  <frus:attachment>  <note rend="inline" type="source">[Tab A]</note>
+                    <head>
                         <hi rend="italic">Memorandum of Conversation, by Walter Trulock of the Staff
                             Operations Section of the Executive Secretariat</hi>
-                    </p>
+                    </head>
                     <dateline>[<placeName>Washington</placeName>,] <date when="1953-09-04">September
                             4, 1953</date>.</dateline>
                     <p>Top Secret</p>
@@ -33766,12 +33764,12 @@
                     <p>The Secretary said that this discussion had been useful for preliminary
                         thinking. He added that it would probably be necessary to scale down, and
                         perhaps shift the form of, the <gloss target="#t_NEA1">NEA</gloss>
-                        preliminary proposals.</p>
-                    <p rend="center">[Tab B]</p>
-                    <p rend="center">
+                        preliminary proposals.</p></frus:attachment>
+                    <frus:attachment><note rend="inline">[Tab B]</note>
+                    <head>
                         <hi rend="italic">Memorandum of Conversation, by J. Stewart Cottman of the
                             Staff Operations Section of the Executive Secretariat</hi>
-                    </p>
+                    </head>
                     <dateline>[<placeName>Washington</placeName>,] <date when="1953-09-04">September
                             4, 1953</date>.</dateline>
                     <p>Top Secret</p>
@@ -33927,7 +33925,7 @@
                         request any money for Indo-China not approved by Defense. It was generally
                         agreed that political considerations over and above purely military ones
                         would probably limit the effective implementation of this approach at this
-                        time.</p>
+                        time.</p></frus:attachment>
                 </div>
                 <pb xml:id="pg_653" n="653" facs="0679"/>
                 <div type="document" xml:id="d186" n="186">
@@ -34297,12 +34295,12 @@
                         recommendations on each. I hope that it may serve as a basis for meeting
                         with you early next week in order that the State Department position can be
                         firmed up on these matters.</p>
-                    <p rend="center">[Tab A]</p>
-                    <p rend="center">
+                   <frus:attachment> <note rend="inline" type="source">[Tab A]</note>
+                    <head>
                         <hi rend="italic">Staff Memorandum by the <gloss type="from">Acting Special
                                 Assistant</gloss> to the Secretary of State for Mutual Security
                             Affairs (<persName type="to">Nolting</persName>)</hi>
-                    </p>
+                    </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1953-11-24">November 24,
                             1953</date>.</dateline>
@@ -34510,7 +34508,7 @@
                             substituted for most grant economic aid. Under these conditions, the
                             remaining aid activities would be comparatively small and would not
                             justify maintaining a separate agency).</item>
-                    </list>
+                    </list></frus:attachment>
                 </div>
                 <div type="document" xml:id="d190" n="190">
                     <note rend="inline" type="source">700.5 <gloss target="#t_MSP1"
@@ -34773,7 +34771,7 @@
                     <p>The Department recommends a total program of $152.8 million for economic and
                         technical assistance in South Asia distributed as follows:</p>
                     <p rend="center">($ millions)</p>
-                    <table rows="5" cols="4">
+                    <table rows="6" cols="4">
                         <row role="label">
                             <cell/>
                             <cell role="label">Tech. Asst.</cell>
@@ -35837,7 +35835,7 @@
                     <p rend="center">
                         <gloss target="#t_NATO1">NATO</gloss> Force Goals (excluding U.S. and
                         Canada)</p>
-                    <table rows="5" cols="6">
+                    <table rows="6" cols="6">
                         <row role="label">
                             <cell/>
                             <cell>Goal 12/31 1953</cell>
@@ -35953,7 +35951,7 @@
                         supported by the <gloss target="#t_FY1">FY</gloss> 1950–54 <gloss
                             target="#t_MDA1">MDA</gloss> programs. These programs are geared to
                         support the following:</p>
-                    <table rows="4" cols="3">
+                    <table rows="5" cols="3">
                         <row role="label">
                             <cell/>
                             <cell>
@@ -36191,7 +36189,7 @@
                         placed and expenditures were as follows, with orders placed in 15 countries
                         for items such as vessels, aircraft, tanks, artillery, ammunition, and
                         electronics:</p>
-                    <table rows="3" cols="3">
+                    <table rows="4" cols="3">
                         <row role="label">
                             <cell/>
                             <cell>Contracts Placed</cell>
@@ -36362,7 +36360,7 @@
                     <p>The <gloss target="#t_MDA1">MDA</gloss> matériel programs through <gloss
                             target="#t_FY1">FY</gloss> 1954 are geared to support the following
                         forces:</p>
-                    <table rows="5" cols="4">
+                    <table rows="4" cols="4">
                         <row role="label">
                             <cell/>
                             <cell>Yugoslavia</cell>
@@ -36515,7 +36513,7 @@
                         table:</p>
                     <p rend="center">U.S. Extraordinary Expenditures in Western Europe†</p>
                     <p rend="center">(billion dollars)</p>
-                    <table rows="5" cols="5">
+                    <table rows="7" cols="5">
                         <row role="label">
                             <cell/>
                             <cell>Actuals</cell>
@@ -37301,7 +37299,7 @@
                         Government expenditures other than grants and loans). The following summary
                         table indicates <pb xml:id="pg_715" n="715" facs="0741"/>the magnitude and
                         composition of the imbalance (figures in millions of dollars):</p>
-                    <table rows="10" cols="3">
+                    <table rows="11" cols="3">
                         <row role="label">
                             <cell/>
                             <cell>
@@ -37390,7 +37388,7 @@
                         war. Thus, US assistance programs will directly or indirectly provide a
                         total of about $787 million to meet the Far East trade and payments gap in
                             <gloss target="#t_FY1">FY</gloss> 1954.</p>
-                    <table rows="7" cols="2">
+                    <table rows="8" cols="2">
                         <row role="label">
                             <cell/>
                             <cell>
@@ -38690,10 +38688,10 @@
                     <closer>
                         <signed>Robert Cutler</signed>
                     </closer>
-                    <p rend="center">Annex C</p>
-                    <p rend="center">
+                   <frus:attachment> <note rend="inline" type="source">Annex C</note>
+                    <head>
                         <hi rend="italic">Paper Prepared in the Bureau of the Budget</hi>
-                    </p>
+                    </head>
                     <dateline>[<placeName>Washington</placeName>, <date>undated</date>.]</dateline>
                     <p rend="center">Explanatory Statement on Major Points in the Mutual Security
                         Program Executive Order</p>
@@ -38762,7 +38760,7 @@
                     <p>12. The Office of Small Business is to be continued in <gloss
                             target="#t_FOA1">FOA</gloss>, and <gloss target="#t_FOA1">FOA</gloss>
                         will continue to cooperate with other agencies in carrying out this
-                        program.</p>
+                        program.</p></frus:attachment>
                 </div>
                 <div type="document" xml:id="d206" n="206">
                     <note rend="inline" type="source">
@@ -39001,15 +38999,15 @@
                         <signed>Thruston B. Morton</signed>
                     </closer>
                     <pb xml:id="pg_749" n="749" facs="0775"/>
-                    <p rend="center">[Attachment 1]</p>
-                    <p rend="center">
+                   <frus:attachment> <note rend="inline" type="source">[Attachment 1]</note>
+                    <head>
                         <hi rend="italic">Memorandum by the <gloss type="from">Special
                                 Assistant</gloss> to the Secretary of State for Mutual Security
                             Affairs (<persName type="to">Nolting</persName>) to the Secretary of
                             State</hi>
                         <note n="4" xml:id="d208fn4">Sent through Charles Saltzman, Under Secretary
                             of State for Administration.</note>
-                    </p>
+                    </head>
                     <dateline>[<placeName>Washington</placeName>,] <date when="1954-09-09">September
                             9, 1954</date>.</dateline>
                     <p>Confidential</p>
@@ -39100,9 +39098,9 @@
                     <p>
                         <gloss target="#t_H1">H</gloss>—Mr. Morton</p>
                     <p>
-                        <gloss target="#t_A1">A</gloss>—Mr. Carpenter</p>
-                    <p rend="center">[Attachment 2]</p>
-                    <p rend="center">
+                        <gloss target="#t_A1">A</gloss>—Mr. Carpenter</p></frus:attachment>
+                    <frus:attachment><note rend="inline" type="source">[Attachment 2]</note>
+                    <head>
                         <hi rend="italic">Draft Memorandum for the President Prepared by the Special
                             Assistant to the Assistant Secretary of State for Congressional
                             Relations (Claxton)</hi>
@@ -39113,7 +39111,7 @@
                             apparently was not transmitted to the President; see the memorandum by
                             Under Secretary Smith to Secretary Dulles, <ref target="#d209"><hi
                                     rend="italic">infra</hi></ref>.</note>
-                    </p>
+                    </head>
                     <dateline>[<placeName>Washington</placeName>,] <date when="1954-09-09">September
                             9, 1954</date>.</dateline>
                     <p>Officialy Use Only</p>
@@ -39152,7 +39150,7 @@
                         order to get the necessary planning under way at once, I suggest that you
                         authorize Secretary Wilson, Mr. Stassen, and me (or our representatives) to
                         begin work at once on the necessary plans, coordinating with Mr. Hughes and
-                        other interested agencies as necessary.</p>
+                        other interested agencies as necessary.</p></frus:attachment>
                 </div>
                 <div type="document" xml:id="d209" n="209">
                     <note rend="inline" type="source">
@@ -39690,7 +39688,7 @@
                         the Department of State and <gloss target="#t_FOA1">FOA</gloss>, are hereby
                         established for the military assistance program (exclusive of
                         infrastructure) (figures in billions of dollars):</p>
-                    <table rows="10" cols="5">
+                    <table rows="11" cols="5">
                         <row role="label">
                             <cell role="label">
                                 <gloss target="#t_FY1">FY</gloss>
@@ -42018,7 +42016,7 @@
                         the Congress.</p>
                     <p>The President has also approved for presentation in the budget the following
                         expenditure estimates:</p>
-                    <table rows="6" cols="3">
+                    <table rows="7" cols="3">
                         <row role="label">
                             <cell/>
                             <cell>1955</cell>
@@ -42416,11 +42414,11 @@
                     <closer>
                         <signed>Harold E. Stassen</signed>
                     </closer>
-                    <p rend="center">[Enclosure]</p>
-                    <p rend="center">
+                   <frus:attachment> <note rend="inline" type="source">[Enclosure]</note>
+                    <head>
                         <hi rend="italic">Paper Prepared by the Director of Foreign Operations
                             (Stassen)</hi>
-                    </p>
+                    </head>
                     <dateline>[<placeName>Washington</placeName>, <date>Undated</date>.]</dateline>
                     <p>Confidential</p>
                     <p rend="center">Suggested Draft for Budget Message of the President</p>
@@ -42451,7 +42449,7 @@
                         so that the week-to-week work can be conducted in the national interest with
                         a minimum of disruption, and the status of the career employees who are
                         serving with loyalty and devotion around the world can be fairly and
-                        adequately safeguarded.</p>
+                        adequately safeguarded.</p></frus:attachment>
                 </div>
             </div>
             <pb xml:id="pg_817" n="817" facs="0843"/>

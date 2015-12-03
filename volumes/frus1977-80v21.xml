@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1977-80v21">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -389,7 +389,7 @@
                         <ref target="#pg_XXV">XXV</ref>
                     </item>
                     <item>
-                        <ref target="comp1">Cyprus; Turkey; Greece</ref>
+                        <ref target="#comp1">Cyprus; Turkey; Greece</ref>
                         <list>
                             <item><ref target="#ch1">Eastern Mediterranean Region</ref>
                                 <ref target="#pg_1">1</ref></item>

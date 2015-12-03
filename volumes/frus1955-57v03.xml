@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1955-57v03">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -1084,16 +1084,16 @@
             <pb xml:id="pg_XIX" n="XIX" facs="0023"/>
             <div type="section" xml:id="persons">
                 <head>List of Persons</head>
+                <p>
+                    <hi rend="italic">Editor’s Note</hi>. This list is designed to provide ready
+                    reference for identification of those persons mentioned most frequently. The
+                    identification of the persons on this list is generally limited to positions and
+                    circumstances under reference in the volume and is confined to the years
+                    1955–1957. All titles and positions are American unless otherwise indicated.
+                    Where no dates are given, the individual usually held the position throughout
+                    the period covered by the volume. Chinese names are spelled according to
+                    contemporary usage.</p>
                 <list type="names">
-                    <item>
-                        <hi rend="italic">Editor’s Note</hi>. This list is designed to provide ready
-                        reference for identification of those persons mentioned most frequently. The
-                        identification of the persons on this list is generally limited to positions
-                        and circumstances under reference in the volume and is confined to the years
-                        1955–1957. All titles and positions are American unless otherwise indicated.
-                        Where no dates are given, the individual usually held the position
-                        throughout the period covered by the volume. Chinese names are spelled
-                        according to contemporary usage.</item>
                     <item>
                         <hi rend="strong">
                             <persName xml:id="p_AWW1">Aldrich, Winthrop W.</persName>,</hi>
@@ -1837,7 +1837,7 @@
                             irritated them in spite <persName corresp="#p_MVKK1">Menon</persName>’s
                             warnings to us. What Secretary and <pb xml:id="pg_4" n="4" facs="0032"/>President had said at time of release<note n="3" xml:id="d2fn3">A May
                                 30 statement by a Department of State spokesman is summarized in
-                                vol. II, <ref target="#d261fn2">Document 261, footnote 2</ref>. At
+                                vol. II, <ref target="frus1955-57v02#d261fn2">Document 261, footnote 2</ref>. At
                                 President <persName corresp="#p_EDD1">Eisenhower</persName>’s press
                                 conference of May 31, he stated in response to a question that the
                                 release of the fliers appeared to be a “token” on the part of the
@@ -2341,7 +2341,7 @@
                             progress and will be completed in the near future despite
                             representations against the move by Chief, <gloss target="#t_MAAG1">MAAG</gloss> Formosa, and despite <persName corresp="#p_CK1">Chiang
                                 Kai Shek</persName>’s statement of 27 June 1955 to General <persName corresp="#p_CMGWC1">Chase</persName> that he did not plan to move
-                            the division immediately.<note n="4" xml:id="d7fn4">See vol. II, <ref target="#d279">Document 279</ref>.</note>
+                            the division immediately.<note n="4" xml:id="d7fn4">See vol. II, <ref target="frus1955-57v02#d279">Document 279</ref>.</note>
                         </p>
                         <p>In view of this, and of the opinion of the Joint Chiefs of Staff
                             expressed above, there appears to be no military basis for further <pb xml:id="pg_14" n="14" facs="0042"/>representations to <persName corresp="#p_CK1">Chiang Kai Shek</persName> on the movement of one
@@ -2487,10 +2487,10 @@
                             with their areas. However, we had made clear that we would not be
                             acquiescent in <persName corresp="#p_RS1">Rhee</persName>’s use of force
                             for this purpose.</p>
-                        <p>This was the general line I had taken in my breakfast talk with <persName corresp="#p_ESA1">Eden</persName> at Geneva<note n="3" xml:id="d9fn3">On July 22; see vol. II, <ref target="#d314">Document
+                        <p>This was the general line I had taken in my breakfast talk with <persName corresp="#p_ESA1">Eden</persName> at Geneva<note n="3" xml:id="d9fn3">On July 22; see vol. II, <ref target="frus1955-57v02#d314">Document
                                     314</ref>.</note> and it was a line which I had taken in my last
-                            two press conferences<note n="4" xml:id="d9fn4">On July 26 (see <hi rend="italic">ibid</hi>., <ref target="#d319">Document
-                                319</ref>) and August 2 (see <ref target="#d3">Document
+                            two press conferences<note n="4" xml:id="d9fn4">On July 26 (see <hi rend="italic">ibid</hi>., <ref target="frus1955-57v02#d319">Document
+                                319</ref>) and August 2 (see <ref target="frus1955-57v02#d3">Document
                                 3</ref>).</note> and I felt that we were making some headway.</p>
                         <p>As to the talks at Geneva, I said that we were not anxious to push them
                             to a conclusion except as to getting out our civilians who are being
@@ -2852,7 +2852,7 @@
                                 <persName corresp="#p_JUA1">Johnson</persName> for the talks at
                                 Geneva.<note n="3" xml:id="d14fn3">Telegram 78 to Taipei, August 3,
                                 transmitted a summary of the Secretary’s instructions to <persName corresp="#p_JUA1">Johnson</persName> set forth in his letter of
-                                July 29 (vol. II, <ref target="#d323">Document 323</ref>), omitting
+                                    July 29 (vol. II, <ref target="frus1955-57v02#d323">Document 323</ref>), omitting
                                 numbered paragraphs 5, 13, 17, and 18, for transmittal to Foreign
                                 Minister <persName corresp="#p_YGKCYK1">Yeh</persName> and stated
                                 that on July 29 <persName>Robertson</persName> had informed the
@@ -2939,7 +2939,7 @@
                             that he associated himself with the statement of the Secretary of
                                 State.<note n="5" xml:id="d14fn5">It is not clear which statements
                                 by the Secretary and the President are referred to here, but see
-                                vol. II, <ref target="#d319">Document 319</ref> and <ref target="#d3">Document 3</ref> in this volume.</note> But any
+                                vol. II, <ref target="frus1955-57v02#d319">Document 319</ref> and <ref target="#d3">Document 3</ref> in this volume.</note> But any
                             doubt on this score would adversely affect the psychology of the problem
                             on Taiwan.</p>
                         <p>Mr. <persName>Robertson</persName> said the President and the Secretary
@@ -4395,7 +4395,7 @@
                                 efforts to secure a de facto cease fire are not apt to be disturbed
                                 by Mainland raids of any size to an extent that outweighs their
                                 marginal intelligence value”. (<hi rend="italic">Ibid.</hi>) For the
-                                President’s January 13 authorization, see vol. II, <ref target="#d9">Document 9</ref>.</note> which tabulates ground, naval and air
+                                President’s January 13 authorization, see vol. II, <ref target="frus1955-57v02#d9">Document 9</ref>.</note> which tabulates ground, naval and air
                             activity by the <gloss target="#t_ChiNat1">ChiNat</gloss>s and <gloss target="#t_ChiCom1">ChiCom</gloss>s in the Formosa Straits during
                             July and August.</p>
                         <p>From this report, two points seem to me to stand out:</p>
@@ -5394,7 +5394,7 @@
                             “cease-fire” upon the Chinese Communists.<note n="3" xml:id="d43fn3">Reference is to Foreign Minister <persName corresp="#p_YGKCYK1">Yeh</persName>’s message to Secretary
                                     <persName>Dulles</persName> transmitted with a note of July 28
                                 from Ambassador <persName corresp="#p_KVKW1">Koo</persName>; see
-                                vol. II, <ref target="#d322fn2">Document 322, footnote
+                                vol. II, <ref target="frus1955-57v02#d322fn2">Document 322, footnote
                                 2</ref>.</note>
                         </p>
                         <closer>
@@ -5661,7 +5661,7 @@
                                 <persName corresp="#p_JUA1">Johnson</persName> commented in
                                     letter No. 6 to <persName corresp="#p_MCWP1">McConaughy</persName>, August 31, that he felt he had been
                                     required to “back up a long way” from the drafts sent to him in
-                                    telegrams 466 (<ref target="#d18">Document 18</ref>) and <ref target="#d492">492</ref> (see <ref target="#d23fn2">footnote
+                                    telegrams 466 (<ref target="#d18">Document 18</ref>) and 492 (see <ref target="#d23fn2">footnote
                                         2, Document 23</ref>) to Geneva, particularly with respect
                                     to the question of “nationals”. He further commented:
                                 <p>“I also have a feeling that we are becoming increasingly
@@ -6202,7 +6202,7 @@
                             keenly alive to the 1951 resolution labeling Communist China as an
                             aggressor four years ago,<note n="4" xml:id="d51fn4">For text of
                                 Resolution 498(V), adopted by the General Assembly on February 1,
-                                1951, see <ref target="#t_frus1951v07p1">
+                                1951, see <ref target="frus1951v07p1#pg_150">
                                     <hi rend="italic">Foreign Relations</hi>, 1951, vol. VII, Part
                                     1</ref>, p. 150.</note> but now there is a certain amount of
                             tranquility.</p>
@@ -7502,7 +7502,7 @@
                             side-stepped the question but had likewise refrained from using a
                             categorical “no”.<note n="2" xml:id="d67fn2">Reference is apparently to
                                 the Secretary’s press conference of July 26 and the President’s
-                                press conference of July 27; see vol. II, <ref target="#d319">Document 319</ref>. The President also referred to this subject
+                                press conference of July 27; see vol. II, <ref target="frus1955-57v02#d319">Document 319</ref>. The President also referred to this subject
                                 at his August 4 press conference; see <ref target="#d3">Document
                                     3</ref>.</note> Correspondents had read too much into the
                             refusal to rule out the possibility altogether, and the speculation had
@@ -11690,7 +11690,7 @@
                             March 3 conversation with President <persName>Chiang</persName>.<note n="4" xml:id="d107fn4">
                                    Reference is apparently to the record of conversation prepared by
                                         <persName>Chiang</persName>’s secretary, Sampson C. Shen;
-                                    see vol. II, <ref target="#d138fn3">Document 138, footnote
+                                    see vol. II, <ref target="frus1955-57v02#d138fn3">Document 138, footnote
                                         3</ref>. According to <persName>Shen</persName>’s record,
                                         <persName>Chiang</persName>’s comments to
                                         <persName>Dulles</persName> included the following:
@@ -12802,7 +12802,7 @@
                                 5429/5)<note n="2" xml:id="d116fn2">Dated December 22, 1954, but the
                                 portion relevant to this discussion, subparagraph 7–c, received
                                     <gloss target="#t_NSC1">NSC</gloss> approval on January 5, 1955;
-                                see vol. II, <ref target="#d2">Document 2</ref> and <hi rend="italic">Ibid</hi>., Tab B to <ref target="#d1">Document
+                                see vol. II, <ref target="frus1955-57v02#d2">Document 2</ref> and <hi rend="italic">Ibid</hi>., Tab B to <ref target="#d1">Document
                                     1</ref>.</note>
                         </p>
                         <p>In the course of the discussion of the previous item on this agenda, the
@@ -15076,7 +15076,7 @@
                             dish which US would find difficult to repudiate in likely event <gloss target="#t_GRC1">GRC</gloss> considered it indigestible. No reason
                             believe <gloss target="#t_GRC1">GRC</gloss> position has softened since
                             my telegrams 799 and 800 of May 9;<note n="4" xml:id="d127fn4">See vol.
-                                II, <ref target="#d245fn2">Document 245 and footnote 2
+                                II, <ref target="frus1955-57v02#d245fn2">Document 245 and footnote 2
                                 thereto</ref>.</note> if anything contrary is true. Moreover I doubt
                             wisdom of further meetings between US and Red China unless and until we
                             believe net accomplishments both desirable and substantial are in
@@ -16383,7 +16383,7 @@
                                     <persName corresp="#p_RKL1">Rankin</persName>’s message to
                                     <persName corresp="#p_SAFB1">Stump</persName> stated that he had
                                 been pressing Foreign Minister <persName corresp="#p_YGKCYK1">Yeh</persName> for a reply to the U.S. proposals of August 2
-                                (see <ref target="#d275fn6">footnote 6, vol. II, Document
+                            (see <ref target="frus1955-57v02#d275fn6">footnote 6, vol. II, Document
                                 275</ref>). He noted that the question of jurisdiction was a very
                                 delicate one for the Chinese, since the Legislative Yuan was very
                                 sensitive to anything suggestive of extraterritoriality, but
@@ -20734,8 +20734,8 @@
                             Announcement of Projected Reduction in Armed Force Levels”.]</p>
                         <p>
                             <hi rend="italic">8. Chinese Nationalist Offshore Islands</hi> (<gloss target="#t_NSC1">NSC</gloss> 5503;<note n="3" xml:id="d179fn3">See
-                                vol. II, <ref target="#d12">Document 12</ref>.</note>
-                            <gloss target="#t_NSC1">NSC</gloss> Action No. 1312<note n="4" xml:id="d179fn4">See <hi rend="italic">ibid</hi>., <ref target="#d26fn12">Document 26, footnote 12</ref>.</note>)</p>
+                                vol. II, <ref target="frus1955-57v02#d12">Document 12</ref>.</note>
+                            <gloss target="#t_NSC1">NSC</gloss> Action No. 1312<note n="4" xml:id="d179fn4">See <hi rend="italic">ibid</hi>., <ref target="frus1955-57v02#d26fn12">Document 26, footnote 12</ref>.</note>)</p>
                         <p>In the course of the discussion of the previous item, the President
                             announced that he wished at the next meeting of the National Security
                             Council to hear precisely what this Government was going to say and to
@@ -25922,7 +25922,7 @@
                                 <gloss target="#t_OCB1">OCB</gloss> Progress Report<note n="2" xml:id="d228fn2">Dated November 21, 1956, not printed. (<hi rend="italic">Ibid</hi>., <gloss target="#t_SP1">S/P</gloss>–<gloss target="#t_NSC1">NSC</gloss> Files: Lot
                                     61 D 167)</note> on U.S. Policy Toward Taiwan and the Government
                                 of the Republic of China (<gloss target="#t_NSC1">NSC</gloss>
-                                    5503<note n="3" xml:id="d228fn3">See vol. II, <ref target="#d12">Document 12</ref>.</note>)</item>
+                                    5503<note n="3" xml:id="d228fn3">See vol. II, <ref target="frus1955-57v02#d12">Document 12</ref>.</note>)</item>
                         </list>
                         <p>The <gloss target="#t_OCB1">OCB</gloss> Progress Report on U.S. Policy
                             Toward Taiwan for the period from April 12 through November 21, 1956
@@ -27174,7 +27174,7 @@
                         <p>Mr. <persName>Robertson</persName> reminded General
                                 <persName>Yu</persName> that the President was fully empowered under
                             the Joint Resolution of January 29, 1955<note n="2" xml:id="d239fn2">See
-                                vol. II, <ref target="#d56">Document 56</ref>.</note> to make this
+                                vol. II, <ref target="frus1955-57v02#d56">Document 56</ref>.</note> to make this
                             decision, and the President alone could make it. The President would
                             have to make a decision in the light of all the circumstances at the
                             time as to whether an attack of that sort were related to the security
@@ -32179,14 +32179,14 @@
                         </list>
                         <list type="references">
                             <head>REFERENCES</head>
-                            <item>A. <gloss target="#t_NSC1">NSC</gloss> 5503<note n="2" xml:id="d281fn2">See vol. II, <ref target="#d12">Document
+                            <item>A. <gloss target="#t_NSC1">NSC</gloss> 5503<note n="2" xml:id="d281fn2">See vol. II, <ref target="frus1955-57v02#d12">Document
                                         12</ref>.</note>
                             </item>
                             <item>B. Memo for <gloss target="#t_NSC1">NSC</gloss> from Executive
                                 Secretary, subject: “Report by the Interdepartmental Committee on
                                 Certain U.S. Aid Programs”, dated December 5, 1956<note n="3" xml:id="d281fn3">Not printed. (Department of State, <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss> Files: Lot 63 D 351, <gloss target="#t_NSC1">NSC</gloss> 5610 Series)</note>
                             </item>
-                            <item>C. <gloss target="#t_NSC1">NSC</gloss> Actions Nos. 1312–e<note n="4" xml:id="d281fn4">See vol. II, <ref target="#d26fn10">Document 26, footnote 10</ref>.</note> and 1624–c<note n="5" xml:id="d281fn5">
+                            <item>C. <gloss target="#t_NSC1">NSC</gloss> Actions Nos. 1312–e<note n="4" xml:id="d281fn4">See vol. II, <ref target="frus1955-57v02#d26fn10">Document 26, footnote 10</ref>.</note> and 1624–c<note n="5" xml:id="d281fn5">
                                     <gloss target="#t_NSC1">NSC</gloss> Action 1624–c was taken at
                                     the 301st meeting of the <gloss target="#t_NSC1">NSC</gloss> on
                                     October 26, 1956, during discussion on a “Report by the
@@ -33123,7 +33123,7 @@
                             Certain U.S. Aid Programs”, dated December 5, 1956; <gloss target="#t_NSC1">NSC</gloss> Actions Nos. 1312–e–(2) and 1624–c ;
                                 <gloss target="#t_NIE1">NIE</gloss> 43–2–57; Memos for <gloss target="#t_NSC1">NSC</gloss> from Executive Secretary, subject:
                             “U.S. Policy Toward Formosa and the Government of the Republic of
-                            China”, dated September 9 and 19, 1957; <gloss target="#t_NSC1">NSC</gloss> Action No. 1790<note n="2" xml:id="d287fn2">See <ref target="#d280fn5">footnote 5</ref>, <hi rend="italic">supra</hi>.</note>)</p>
+                            China”, dated September 9 and 19, 1957; <gloss target="#t_NSC1">NSC</gloss> Action No. 1790<note n="2" xml:id="d287fn2">See <ref target="#d286fn5">footnote 5</ref>, <hi rend="italic">supra</hi>.</note>)</p>
                         <p>In view of the length of his briefing of the Council on this subject at
                             last week’s Council meeting, Mr. <persName corresp="#p_CR1">Cutler</persName>’s briefing note (which is included in the minutes
                             of the meeting) was somewhat shorter in length. He also pointed out that
@@ -33154,7 +33154,7 @@
                             carrying out our policy in Taiwan. If, because of such limitations, any
                             reductions have to be made in our assistance to Taiwan, such reductions
                             should be made in a world-wide context and in terms of the Congressional
-                            Resolution (Public Law 4,<note n="3" xml:id="d287fn3">See vol. II, <ref target="#d56">Document 56</ref>.</note> 84th Congress). The
+                            Resolution (Public Law 4,<note n="3" xml:id="d287fn3">See vol. II, <ref target="frus1955-57v02#d56">Document 56</ref>.</note> 84th Congress). The
                             Nationalists, continued Mr. <persName corresp="#p_RJP1">Richards</persName>, had urged on him the view that discontent in
                             mainland China might offer the opportunity for armed intervention by the
                             Nationalists at some future time. Mr. <persName corresp="#p_RJP1">Richards</persName> thought that we should take this view into
@@ -33207,7 +33207,7 @@
                             President what the issues were. Mr. <persName corresp="#p_CR1">Cutler</persName> followed with a fuller explanation, in terms of
                             the past history of our policies toward Taiwan. He cited paragraph 3 of
                             existing U.S. policy toward Formosa, which set forth the missions of the
-                                <gloss target="#t_GRC1">GRC</gloss> armed forces as follows:<note n="4" xml:id="d287fn4">The following is paragraph 3 of <gloss target="#t_NSC1">NSC</gloss> 5503, vol. II, <ref target="#d12">Document 12</ref>.</note>
+                                <gloss target="#t_GRC1">GRC</gloss> armed forces as follows:<note n="4" xml:id="d287fn4">The following is paragraph 3 of <gloss target="#t_NSC1">NSC</gloss> 5503, vol. II, <ref target="frus1955-57v02#d12">Document 12</ref>.</note>
                         </p>
                         <p>“3. Continued development of the military potential of <gloss target="#t_GRC1">GRC</gloss> armed forces (a) to assist in the
                             defense of Formosa and the Pescadores and (b) to take action in defense
@@ -33382,7 +33382,7 @@
                             follow Public Law 4 verbatim, because the statement of intention set
                             forth in the text of Public Law 4 was more authoritative than the
                             President’s statement to the Congress<note n="6" xml:id="d287fn6">See
-                                vol. II, <ref target="#d34">Document 34</ref>.</note> as to how he
+                                vol. II, <ref target="frus1955-57v02#d34">Document 34</ref>.</note> as to how he
                             would administer Public Law 4. There was no reason needlessly to curtail
                             the President’s authority, and there was much in the legislative history
                             of Public Law 4 to justify his argument.</p>
@@ -36807,7 +36807,7 @@
                     </item>
                     <item>Downey, Mary, <ref target="#pg_635">635</ref>
                     </item>
-                    <item xml:id="in">
+                    <item xml:id="in10">
                         <persName corresp="#p_DVAAK1">Doyle, Vice Adm. Austin K.</persName>, <ref target="#pg_627">627</ref>, <ref target="#pg_645">645</ref>, <ref target="#pg_646">646</ref>
                         <hi rend="italic">n</hi>, <ref target="#pg_647">647</ref>
                         <hi rend="italic">n</hi>, <ref target="#pg_648">648</ref>

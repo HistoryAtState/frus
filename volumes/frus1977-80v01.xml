@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../schemas/frus.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../../schemas/frus.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1977-80v01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19289,9 +19287,9 @@
                     <p>Foremost among those steps we will be taking shortly is the <persName
                             corresp="#p_VCR_1">Vance</persName> mission to Moscow<note n="2"
                             xml:id="d73fn2"><persName corresp="#p_VCR_1">Vance</persName> met with
-                            Brezhnev in Moscow April 19–23; see <ref target="frus1977-80v06#99"><hi
+                            Brezhnev in Moscow April 19–23; see <ref target="frus1977-80v06#d99"><hi
                                     rend="italic">Foreign Relations,</hi> 1977–1980, vol. VI, Soviet
-                                Union, Documents 99</ref>–<ref target="frus1977-80v06#103"
+                                Union, Documents 99</ref>–<ref target="frus1977-80v06#d103"
                             >103</ref>.</note> and the possibility of significant progress in <gloss
                             target="#t_SALT_1">SALT</gloss>. That visit, to be successful, needs to
                         be part of a broader effort on a number of fronts. It is important that the
