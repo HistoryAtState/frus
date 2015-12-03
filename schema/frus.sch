@@ -2,7 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ckbk="http://www.oreilly.com/XSLTCookbook">
     <title>FRUS TEI Rules</title>
     
-    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 3676 2015-03-30 21:29:36Z joewiz $)</p>
+    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 4189 2015-10-07 18:32:44Z joewiz $)</p>
     
     <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema file.  FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI files.</p>
     
@@ -50,7 +50,6 @@
             <assert test="count(tei:title[@type='volumenumber']) = 1">titleStmt needs exactly one title of @type 'volumenumber'</assert>
             <assert test="count(tei:title[@type='volume']) = 1">titleStmt needs exactly one title of @type 'volume'</assert>
             <assert test="count(distinct-values(tei:title/@type)) = count(tei:title)">There can only be one of each @type of title</assert>
-            <assert test="tei:editor/@role = ('primary', 'general')">editor @role value must be either primary or general</assert>
         </rule>
         <rule context="tei:publicationStmt">
             <assert test="count(tei:publisher) = 1">publicationStmt needs exactly one publisher</assert>
@@ -102,11 +101,14 @@
     <pattern id="div-numbering-checks">
         <title>Document Div Numbering Checks</title>
         <rule context="tei:div[@type='document']">
+            <assert test="./@n castable as xs:integer">Non-number component found in document number <value-of select="@n"/></assert>
+        </rule>
+        <rule context="tei:div[@type='document'][@n castable as xs:integer]">
             <assert test="not(./preceding::tei:div[@type='document']) or 
                 ./@n = (./preceding::tei:div[@n][1]/@n + 1)">Document numbering mismatch.  Document div/@n numbering must be consecutive.</assert>
         </rule>
         <rule context="tei:body">
-            <assert test="count($documents) = 0 or count($documents) = $documents[last()]/@n - $documents[1]/@n + 1">Document numbering mismatch.  The total number of documents should equal the difference between the first and final documents' numbers, or the number of documents must be 0 (indicating a volume not yet digitized).</assert>
+            <assert test="count($documents) = 0 or count($documents) = $documents[last()]/@n - $documents[@n castable as xs:integer][1]/@n + 1">Document numbering mismatch.  The total number of documents should equal the difference between the first and final documents' numbers, or the number of documents must be 0 (indicating a volume not yet digitized).</assert>
         </rule>
     </pattern>
     
@@ -140,7 +142,7 @@
     
     <pattern id="element-nesting-checks">
         <title>Element Nesting Checks</title>
-        <rule context="tei:note">
+        <rule context="tei:note[not(@rend='inline')]">
             <assert test="count(descendant::tei:note) = 0">A footnote cannot be nested inside another footnote, see note/@xml:id='<value-of select="./@xml:id"/>'.</assert>
         </rule>
         <rule context="tei:list">
@@ -158,13 +160,27 @@
             <assert test="xs:integer(ckbk:roman-to-number(substring-after(@target, '#pg_'))) gt xs:integer(ckbk:roman-to-number(substring-after(preceding-sibling::node()[2]/@target, '#pg_')))">Invalid page range: <value-of select="preceding-sibling::node()[2]/@target"/>–<value-of select="@target"/> (<value-of select="ckbk:roman-to-number(substring-after(preceding-sibling::node()[2]/@target, '#pg_'))"/>–<value-of select="ckbk:roman-to-number(substring-after(@target, '#pg_'))"/>; see #<value-of select="./ancestor::tei:div[1]/@xml:id"/> <value-of select="if (./ancestor::tei:div[1]/@xml:id = 'index') then concat(' under ', string-join(subsequence(tokenize(./ancestor::tei:item[1], '\s+'), 1, 2), ' '), ',') else ()"/> and <value-of select="./preceding::tei:pb[1]/@facs"/>.tif).</assert>
         </rule>
         <rule context="tei:ref[starts-with(@target, 'frus')]">
-            <assert test="if (contains(@target, '#')) then substring-before(@target, '#') = $vol-ids else @target = $vol-ids">ref/@target='<value-of select="if (contains(@target, '#')) then substring-before(@target, '#') else @target"/>' is an invalid value.  No volume's ID corresponds to this ref/@target value.</assert>
+            <assert test="
+                if (contains(@target, '#') and substring-before(@target, '#') = $vol-ids) then
+                    (
+                    substring-before(@target, '#') = $vol-ids 
+                    and 
+                        (
+                        if (doc-available(concat('../data/frus-volumes/', substring-before(@target, '#') , '.xml'))) then
+                            doc(concat('../data/frus-volumes/', substring-before(@target, '#') , '.xml'))//*/@xml:id = substring-after(@target, '#')
+                        else 
+                        true()
+                        )
+                    )
+                else 
+                    @target = $vol-ids
+                ">ref/@target='<value-of select="@target"/>' is an invalid value.  No volume's ID and/or target element corresponds to this ref/@target value (or, possibly, the volume has not yet been published).</assert>
         </rule>
         <rule context="tei:ref[starts-with(@target, '#')]">
             <assert test="substring-after(@target, '#') = $xml-ids">ref/@target='<value-of select="@target"/>' is an invalid value.  No element's @xml:id corresponds to this value.</assert>
         </rule>
         <rule context="tei:ref">
-            <assert test="starts-with(@target, '#')">Invalid ref/@target='<value-of select="@target"/>'. If this is an internal cross-reference, it needs a "#" prefix.</assert>
+            <assert test="starts-with(@target, '#') or starts-with(@target, 'http') or starts-with(@target, 'mailto')">Invalid ref/@target='<value-of select="@target"/>'. If this is an internal cross-reference, it needs a "#" prefix.</assert>
         </rule>
         <rule context="tei:persName[@corresp]">
             <assert test="substring-after(@corresp, '#') = $persName-ids">persName/@corresp='<value-of select="@corresp"/>' is an invalid value.  No persName has been defined with an @xml:id corresponding to this value.</assert>
@@ -183,13 +199,15 @@
     
     <pattern id="empty-missing-content-checks">
         <title>Empty/Missing Content Checks</title>
-        <rule context="tei:p | tei:gloss | tei:persName">
+        <rule context="tei:p | tei:gloss | tei:persName | tei:placeName">
             <assert test="count(./node()) gt 0"><value-of select="name(.)"/> elements cannot be empty.</assert>
         </rule>
         <rule context="tei:editor">
-            <assert test="count(./node()) gt 0"><value-of select="name(.)"/> elements cannot be empty.</assert>
+            <assert test="./parent::tei:titleStmt">An editor element is allowed only in the tei:titleStmt element.</assert>
+            <assert test="count(./node()) gt 0">An editor element cannot be empty.</assert>
             <assert test="./@role">An editor element needs a @role attribute.</assert>
             <assert test="string-length(./@role) gt 0">An editor/@role attribute cannot be empty.</assert>
+            <assert test="@role = ('primary', 'general')">The value of editor/@role must be: primary or general</assert>
         </rule>
         <rule context="tei:div">
             <assert test="count(tei:head) = 1">A div must have a head child.</assert>
@@ -197,6 +215,7 @@
         </rule>
         <rule context="tei:head">
             <assert test="count(preceding-sibling::tei:head) = 0">There can only be one head element.</assert>
+            <assert test="string-length(normalize-space(.)) gt 0">Head elements cannot be empty.</assert>
         </rule>
     </pattern>
 

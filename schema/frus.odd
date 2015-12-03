@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="brown_odds.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="brown_odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:rng="http://relaxng.org/ns/structure/1.0"
     xmlns:frus="http://history.state.gov/frus/ns/1.0"
@@ -9,13 +7,11 @@
         <fileDesc>
             <titleStmt>
                 <title>FRUS TEI Guidelines</title>
-                <author><persName xml:id="Mandy">Mandy Chalou</persName></author>
-                <author><persName xml:id="Joe">Joe Wicentowski</persName></author>
+                <author xml:id="Mandy">Mandy Chalou</author>
+                <author xml:id="Joe">Joe Wicentowski</author>
             </titleStmt>
             <publicationStmt>
-                <availability>
-                    <p>This document is currently for internal use only</p>
-                </availability>
+                <ab>Published on GitHub.com</ab>
             </publicationStmt>
             <sourceDesc>
                 <p>This ODD was born digitally in August 2011 at a TEI Customization seminar held by
@@ -31,7 +27,6 @@
                 @rend values for p and hi</change>
             <change who="#Joe" when="2012-01-24">Started prose documentation and culled elements
                 from the transcr and linking modules and various attribute classes</change>
-            <change who="#Joe" when="2015-06-14">Began transition to TEI Simple</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -471,6 +466,9 @@
 
                             </list>
                         </p>
+                        <p><specList>
+                            <specDesc key="p" atts="rend"/>
+                        </specList></p>
                         <p>Paragraphs may not be empty.</p>
                     </div>
                     <div xml:id="inline-styles">
@@ -741,7 +739,7 @@
                 says what element(s) are allowed as the root element of documents 
                 conforming to this schema. There is no official default, but Roma 
                 behave as if the default is "teiCorpus TEI".-->
-                <schemaSpec ident="frus" start="TEI" source="teisimple.odd">
+                <schemaSpec ident="frus" start="TEI" source="tei:2.7.0">
 
 
 
@@ -1071,6 +1069,12 @@
                 -->
                     <elementSpec ident="p" module="core" mode="change">
                         <desc>Restrict @rend values for tei:p elements</desc>
+                        <constraintSpec ident="check-not-empty" scheme="isoschematron">
+                            <constraint>
+                                <assert xmlns="http://purl.oclc.org/dsdl/schematron"
+                                    test="count(./node()) gt 0">Paragraphs cannot be empty</assert>
+                            </constraint>
+                        </constraintSpec>
                         <attList>
                             <attDef ident="rend" usage="opt" mode="replace">
                                 <valList type="closed">
@@ -1097,11 +1101,15 @@
                         </attList>
                     </elementSpec>
                     
-                    <!-- begin TEI Simple Processing Model -->
-                    <elementSpec mode="change" ident="dateline">
-                        <model behaviour="block">
-                            <outputRendition>text-align: right;</outputRendition>
-                        </model>
+                    <elementSpec ident="ref" module="core" mode="change">
+                        <constraintSpec ident="check-target" scheme="isoschematron">
+                            <constraint>
+                                <rule xmlns="http://purl.oclc.org/dsdl/schematron">
+                                    <let name="vol-ids" value="doc('http://history.state.gov/services/volume-ids')//volume-id"/>
+                                    <assert test="@target = $vol-ids">Target is not a valid ID</assert>
+                                </rule>
+                            </constraint>
+                        </constraintSpec>
                     </elementSpec>
 
                 </schemaSpec>
