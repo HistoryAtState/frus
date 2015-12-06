@@ -8,4 +8,11 @@
         <mkdir dir="${build.dir}"/>
         <zip basedir="." destfile="${build.dir}/${project.app}-${project.version}.xar" excludes="${build.dir}/*"/>
     </target>
+    <target name="clean">
+        <delete>
+            <fileset dir="${build.dir}">
+                <include name="*.xar"/>
+            </fileset>
+        </delete>
+    </target>
 </project>
