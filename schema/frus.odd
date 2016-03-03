@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="brown_odds.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="brown_odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:rng="http://relaxng.org/ns/structure/1.0"
     xmlns:frus="http://history.state.gov/frus/ns/1.0"
@@ -466,9 +468,6 @@
 
                             </list>
                         </p>
-                        <p><specList>
-                            <specDesc key="p" atts="rend"/>
-                        </specList></p>
                         <p>Paragraphs may not be empty.</p>
                     </div>
                     <div xml:id="inline-styles">
@@ -1069,12 +1068,6 @@
                 -->
                     <elementSpec ident="p" module="core" mode="change">
                         <desc>Restrict @rend values for tei:p elements</desc>
-                        <constraintSpec ident="check-not-empty" scheme="isoschematron">
-                            <constraint>
-                                <assert xmlns="http://purl.oclc.org/dsdl/schematron"
-                                    test="count(./node()) gt 0">Paragraphs cannot be empty</assert>
-                            </constraint>
-                        </constraintSpec>
                         <attList>
                             <attDef ident="rend" usage="opt" mode="replace">
                                 <valList type="closed">
@@ -1099,17 +1092,6 @@
                                 </valList>
                             </attDef>
                         </attList>
-                    </elementSpec>
-                    
-                    <elementSpec ident="ref" module="core" mode="change">
-                        <constraintSpec ident="check-target" scheme="isoschematron">
-                            <constraint>
-                                <rule xmlns="http://purl.oclc.org/dsdl/schematron">
-                                    <let name="vol-ids" value="doc('http://history.state.gov/services/volume-ids')//volume-id"/>
-                                    <assert test="@target = $vol-ids">Target is not a valid ID</assert>
-                                </rule>
-                            </constraint>
-                        </constraintSpec>
                     </elementSpec>
 
                 </schemaSpec>
