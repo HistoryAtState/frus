@@ -2,7 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ckbk="http://www.oreilly.com/XSLTCookbook">
     <title>FRUS TEI Rules</title>
     
-    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 4189 2015-10-07 18:32:44Z joewiz $)</p>
+    <p>FRUS TEI Rules Schematron file ($Id: frus.sch 4528 2016-02-22 21:33:23Z joewiz $)</p>
     
     <p>This schematron adds FRUS TEI-specific rules to the more generic tei-all.rng RelaxNG Schema file.  FRUS TEI files that validate against *both* schema files are considered valid FRUS TEI files.</p>
     
@@ -12,12 +12,12 @@
     
     <!-- Define variables used by other patterns -->
     <let name="xml-ids" value="//*/@xml:id"/>
-    <let name="vol-ids" value="if (doc-available('http://history.state.gov/services/volume-ids')) then doc('http://history.state.gov/services/volume-ids')//volume-id else doc('volume-ids-snapshot.xml')//volume-id"/>
+    <let name="vol-ids" value="if (doc-available('https://history.state.gov/services/volume-ids')) then doc('https://history.state.gov/services/volume-ids')//volume-id else doc('volume-ids-snapshot.xml')//volume-id"/>
     <let name="persName-ids" value="//tei:persName/@xml:id"/>
     <let name="term-ids" value="//tei:term/@xml:id"/>
     <let name="documents" value="//tei:div[@type='document']"/>
     <let name="vol-id" value="/tei:TEI/@xml:id"/>
-    <let name="available-images" value="doc(concat('http://history.state.gov/services/volume-images?volume=', $vol-id))//image"/>
+    <let name="available-images" value="doc(concat('https://history.state.gov/services/volume-images?volume=', $vol-id))//image"/>
     
     <pattern id="filename-id-check">
         <rule context="/tei:TEI">
@@ -100,15 +100,16 @@
     
     <pattern id="div-numbering-checks">
         <title>Document Div Numbering Checks</title>
-        <rule context="tei:div[@type='document']">
-            <assert test="./@n castable as xs:integer">Non-number component found in document number <value-of select="@n"/></assert>
-        </rule>
         <rule context="tei:div[@type='document'][@n castable as xs:integer]">
             <assert test="not(./preceding::tei:div[@type='document']) or 
-                ./@n = (./preceding::tei:div[@n][1]/@n + 1)">Document numbering mismatch.  Document div/@n numbering must be consecutive.</assert>
+                ./@n = (./preceding::tei:div[@n castable as xs:integer][1]/@n + 1)">Document numbering mismatch.  Document div/@n numbering must be consecutive.</assert>
+        </rule>
+        <rule context="tei:div[@type='document']">
+            <assert test="not(matches(./@n, '^\[.+?\]$'))" role="warning">Document's @n is encased in square brackets: "[]". Only use in the rare circumstance that the volume has a block of unnumbered documents outside the normal stream of numbered documents.</assert>
+            <assert test="matches(./@n, '^\[.+?\]$') or ./@n castable as xs:integer">Non-number component found in document number "<value-of select="@n"/>"</assert>
         </rule>
         <rule context="tei:body">
-            <assert test="count($documents) = 0 or count($documents) = $documents[last()]/@n - $documents[@n castable as xs:integer][1]/@n + 1">Document numbering mismatch.  The total number of documents should equal the difference between the first and final documents' numbers, or the number of documents must be 0 (indicating a volume not yet digitized).</assert>
+            <assert test="count($documents[@n castable as xs:integer]) = 0 or count($documents[@n castable as xs:integer]) = $documents[last()]/@n[. castable as xs:integer] - $documents[@n castable as xs:integer][1]/@n + 1">Document numbering mismatch.  The total number of documents with integer-@n values (<value-of select="count($documents[@n castable as xs:integer])"/>) should equal the difference between the first and final documents' numbers (<value-of select="$documents[@n castable as xs:integer][last()]/@n"/> - <value-of select="$documents[@n castable as xs:integer][1]/@n"/> + 1 = <value-of select="$documents[@n castable as xs:integer][last()]/@n[. castable as xs:integer] - $documents[@n castable as xs:integer][1]/@n + 1"/>), or the number of documents must be 0 (indicating a volume not yet digitized).</assert>
         </rule>
     </pattern>
     
@@ -188,6 +189,9 @@
         <rule context="tei:gloss[@target]">
             <assert test="substring-after(@target, '#') = $term-ids">gloss/@target='<value-of select="@target"/>' is an invalid value.  No term has been defined with an @xml:id corresponding to this value.</assert>
         </rule>
+        <rule context="@xml:id">
+            <assert test="count(index-of($xml-ids, .)) eq 1">@xml:id=<value-of select="."/>. Two elements cannot have the same xml:id attribute.</assert>
+        </rule>
     </pattern>
     
     <pattern id="ref-to-page-footnote-check">
@@ -227,13 +231,13 @@
         </rule>
     </pattern>
     
-    <pattern id="image-s3-checks">
+    <!--<pattern id="image-s3-checks">
         <title>Image Checks</title>
         <rule context="tei:graphic[@url][not(ancestor::tei:titlePage)]">
             <assert test="concat(@url, '.png') = $available-images">PNG version of '<value-of select="@url"/>' not found on static.history.state.gov</assert>
             <assert test="concat(@url, '.tif') = $available-images">TIFF version of '<value-of select="@url"/>' not found on static.history.state.gov</assert>
         </rule>
-    </pattern>
+    </pattern> -->
     
     <!-- XSL Helper Functions -->
     
