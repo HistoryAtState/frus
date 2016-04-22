@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+  <!-- Replication -->
+  <triggers>
+      <trigger class="org.exist.jms.replication.publish.ReplicationTrigger">
+
+          <!--
+              Class name of the initial context provider, default value
+              for ActiveMQ
+              see javax.naming.Context#INITIAL_CONTEXT_FACTORY
+          -->
+          <parameter name="java.naming.factory.initial" value="org.apache.activemq.jndi.ActiveMQInitialContextFactory"/>
+
+          <!--
+              URL of the message broker, default value for ActiveMQ
+              see javax.naming.Context#PROVIDER_URL
+          -->
+          <parameter name="java.naming.provider.url" value="failover:(tcp://10.0.1.131:61616,tcp://10.0.2.236:61616)"/>
+
+          <!--
+              Lookup connection factory
+              see javax.naming.InitialContext#lookup(String)
+          -->
+          <parameter name="connection-factory" value="ConnectionFactory"/>
+
+          <!--
+              Lookup destination (topic)
+              see javax.naming.InitialContext#lookup(String)
+          -->
+          <parameter name="destination" value="dynamicTopics/hsg-replication"/>
+      </trigger>
+  </triggers>
+</collection>
