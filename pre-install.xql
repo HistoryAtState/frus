@@ -1,4 +1,4 @@
-xquery version "1.0";
+xquery version "3.0";
 
 import module namespace xdb="http://exist-db.org/xquery/xmldb";
 
