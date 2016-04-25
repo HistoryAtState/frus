@@ -9,11 +9,13 @@
         <fileDesc>
             <titleStmt>
                 <title>FRUS TEI Guidelines</title>
-                <author xml:id="Mandy">Mandy Chalou</author>
-                <author xml:id="Joe">Joe Wicentowski</author>
+                <author><persName xml:id="Mandy">Mandy Chalou</persName></author>
+                <author><persName xml:id="Joe">Joe Wicentowski</persName></author>
             </titleStmt>
             <publicationStmt>
-                <ab>Published on GitHub.com</ab>
+                <availability>
+                    <p>This document is currently for internal use only</p>
+                </availability>
             </publicationStmt>
             <sourceDesc>
                 <p>This ODD was born digitally in August 2011 at a TEI Customization seminar held by

@@ -6,10 +6,10 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2014-10-15T11:25:45Z. 
-# Edition: Version 2.7.0. Last updated on
+# Schema generated from ODD source 2016-03-03T12:36:07Z. .
+# TEI Edition: Version 2.7.0. Last updated on
 #	16th September 2014, revision 13036
-# Edition Location: http://www.tei-c.org/Vault/P5/Version 2.7.0/
+# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.7.0/
 #
 
 # This document is currently for internal use only
@@ -221,11 +221,7 @@ att.datcat.attribute.valueDatcat =
   attribute ns1:valueDatcat {
     list { data.pointer+ }
   }?
-att.divLike.attributes = att.divLike.attribute.part
-att.divLike.attribute.part =
-  
-  ##
-  attribute part { text }?
+att.divLike.attributes = empty
 att.responsibility.attributes =
   att.source.attributes,
   att.responsibility.attribute.cert,
