@@ -1,0 +1,77 @@
+default namespace = ""
+namespace tei = "http://www.tei-c.org/ns/1.0"
+
+start =
+    element volume {
+        attribute id { text },
+        element title {
+            attribute n { text }?,
+            attribute type { text },
+            text
+        }+,
+        element editor {
+            attribute role { text },
+            text
+        }+,
+        element location {
+            attribute loc { text },
+            xsd:anyURI
+        }+,
+        element isbn10 { text },
+        element isbn13 { text },
+        element media {
+            attribute type { text }
+        },
+        element publication-status { text },
+        element public-target-publication-year { text },
+        element published-year { text },
+        element published-date { text },
+        element administration { text }+,
+        element grouping {
+            attribute administration { text },
+            text
+        },
+        element coverage {
+            attribute type { text }?,
+            xsd:integer
+        }+,
+        element length {
+            element span {
+                attribute part { text },
+                attribute unit { text },
+                text
+            }+
+        },
+        element summary {
+            element tei:p {
+                (text
+                 | element tei:hi {
+                       attribute rend { text },
+                       text
+                   }
+                 | element tei:ref {
+                       attribute target { xsd:anyURI },
+                       text
+                   }
+                 | element tei:ref {
+                       attribute target { xsd:anyURI },
+                       (text
+                        | element tei:hi {
+                              attribute rend { text },
+                              text
+                          }
+                        | element tei:em { text })+
+                   })+
+            }*
+        }?,
+        element index-cross-reference-unit { text }?,
+        element created-by { text },
+        element created-datetime { xsd:dateTime },
+        element last-modified-by { text },
+        element last-modified-datetime { xsd:dateTime },
+        element release-status-code { text },
+        element released-by { text },
+        element release-datetime { empty | xsd:dateTime },
+        element recalled-by { text },
+        element recall-datetime { empty | xsd:dateTime }
+    }
