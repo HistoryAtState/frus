@@ -13,7 +13,16 @@
                 <title type="subseries">1937</title>
                 <title type="volumenumber">Volume V</title>
                 <title type="volume">The American Republics</title>
-                <editor role="primary"/>
+                <editor role="primary">Matilda F. Axton</editor>
+                <editor role="primary">Rogers P. Churchill</editor>
+                <editor role="primary">N. O. Sappington</editor>
+                <editor role="primary">John G. Reid</editor>
+                <editor role="primary">Francis C. Prescott</editor>
+                <editor role="primary">Louis E. Gates</editor>
+                <editor role="primary">Shirley L. Phillips</editor>
+                <editor role="general">G. Bernard Noble</editor>
+                <editor role="general">E. R. Perkins</editor>
+                <editor role="general">Gustave A. Nuermberger</editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
@@ -5170,7 +5179,7 @@
                                 pleasure in tendering its good offices to the Governments of
                                 Honduras and Nicaragua with the hope that this friendly step might
                                 facilitate a peaceful solution of the boundary controversy<note
-                                    n="47a" xml:id="d101fn47a">> In a note of November 20, 1952, to
+                                    n="47a" xml:id="d101fn47a"> In a note of November 20, 1952, to
                                     the American Embassy at Tegucigalpa, the Honduran Ministry for
                                     Foreign Affairs explained that “the phrase boundary controversy
                                     was established by the Honduran Delegation before the Mediating
@@ -6625,7 +6634,7 @@
                             correspondence were furnished to the Legation by the parties thereto
                             which were transmitted to the Department under cover of the despatches
                             indicated below:<note n="2" xml:id="d143fn2">None printed.</note>
-                            <table rows="7" cols="2">
+                            <table rows="7" cols="2" rendition="#center-block" rend="width:75%">
                                 <row>
                                     <cell><hi rend="italic">Despatches</hi></cell>
                                     <cell><hi rend="italic">Date</hi></cell>
@@ -18093,7 +18102,7 @@
                         <p>Mr. Clark stated that he is sending a copy of the telegram to the
                             Department today, and that in the covering letter is expressing the
                             opinion that the changed political situation in Brazil will raise the
-                            question of recognition,<note n="42a" xml:id="d379fn42a">> For
+                            question of recognition,<note n="42a" xml:id="d379fn42a"> For
                                 correspondence relating to recognition following abrogation of
                                 Brazilian Constitution and promulgation of a new one, see <ref
                                     target="#pg_312">pp. 312</ref> ff.</note> and that he hopes that
@@ -25886,20 +25895,19 @@
                                     based on the Present Tariff, that is, including the amendments
                                     made on June 30, 1937 (<hi rend="italic">Registro Oficial</hi>
                                     No. 531, July 5, 1937);</p>
-                                <label>2.</label>
                                 <p>2. —A reduction is granted in item No. 274 (prepared paints, in
                                     liquid, etc.) from 70 centavos to 60 centavos per gross
                                     kilogram;</p>
                                 <p>3.— In item No. 362 (<hi rend="italic">c</hi>) (pharmaceutical
                                     preparations and specialties), the duties are reduced from 1.50
                                     sucres to 1.20 sucres per legal kilogram;</p>
-                                <p>4.— In item No. 684: <table rows="4" cols="8">
+                                <p>4.— In item No. 684: <table rows="4" cols="8" rendition="#center-block" rend="width:99%">
                                         <row>
                                             <cell>(<hi rend="italic">a</hi>)</cell>
                                             <cell>(Automobiles),</cell>
                                             <cell>reduced</cell>
                                             <cell>from</cell>
-                                            <cell>45%</cell>
+                                            <cell role="num">45%</cell>
                                             <cell>ad</cell>
                                             <cell>valorem</cell>
                                             <cell>to 35% ad valorem</cell>
@@ -25909,7 +25917,7 @@
                                             <cell>. . . . . . .</cell>
                                             <cell>“</cell>
                                             <cell>“</cell>
-                                            <cell>60%</cell>
+                                            <cell role="num">60%</cell>
                                             <cell>“</cell>
                                             <cell>“</cell>
                                             <cell>to 45% ad valorem</cell>
@@ -25919,7 +25927,7 @@
                                             <cell>. . . . . . .</cell>
                                             <cell>“</cell>
                                             <cell>“</cell>
-                                            <cell>100%</cell>
+                                            <cell role="num">100%</cell>
                                             <cell>“</cell>
                                             <cell>“</cell>
                                             <cell>to 85% ad valorem</cell>
@@ -25929,7 +25937,7 @@
                                             <cell>. . . . . . .</cell>
                                             <cell>“</cell>
                                             <cell>“</cell>
-                                            <cell>35%</cell>
+                                            <cell role="num">35%</cell>
                                             <cell>“</cell>
                                             <cell>“</cell>
                                             <cell>to 25% ad valorem</cell>
@@ -25937,135 +25945,146 @@
                                     </table></p>
                             <pb n="510" xml:id="pg_510" facs="0520"/>
                             <p>Summarizing the preceding concessions, Ecuador would grant to the
-                                United States the following reductions: <table rows="14" cols="3">
+                                United States the following reductions: <table rows="14" cols="3" rendition="#center-block" rend="width:99%">
                                     <row>
-                                        <cell><hi rend="italic">Ecuadorean Tariff Item
+                                        <cell><hi rend="italic">Ecuadorean<lb/>Tariff Item<lb/>
                                             Number</hi></cell>
                                         <cell/>
-                                        <cell><hi rend="italic">Percentage of deduction</hi></cell>
+                                        <cell><hi rend="italic">Percentage of<lb/>Reduction</hi></cell>
                                     </row>
                                     <row>
-                                        <cell>13–a</cell>
-                                        <cell>Hog Lard</cell>
-                                        <cell role="num">50%</cell>
+                                        <cell rendition="#nowrap">13–a</cell>
+                                        <cell rendition="#hanging">Hog Lard</cell>
+                                        <cell role="num" rendition="#bottom">50%</cell>
                                     </row>
                                     <row>
-                                        <cell>87</cell>
-                                        <cell>Pure wheat flour</cell>
-                                        <cell role="num">50%</cell>
+                                        <cell rendition="#nowrap">87</cell>
+                                        <cell rendition="#hanging">Pure wheat flour</cell>
+                                        <cell role="num" rendition="#bottom">50%</cell>
                                     </row>
                                     <row>
-                                        <cell>153</cell>
-                                        <cell>Lubricating oils for machinery and vehicles in
+                                        <cell rendition="#nowrap">153</cell>
+                                        <cell rendition="#hanging">Lubricating oils for machinery and vehicles in
                                             general</cell>
-                                        <cell role="num">30%</cell>
+                                        <cell role="num" rendition="#bottom">30%</cell>
                                     </row>
                                     <row>
-                                        <cell>274</cell>
-                                        <cell>All prepared liquid paints, etc., (actually pay 70
+                                        <cell rendition="#nowrap">274</cell>
+                                        <cell rendition="#hanging">All prepared liquid paints, etc., (actually pay 70
                                             centavos, the United States would pay 60
                                             centavos)</cell>
                                         <cell/>
                                     </row>
                                     <row>
-                                        <cell>290</cell>
-                                        <cell>Paste, powder, or any other preparation for Dental
+                                        <cell rendition="#nowrap">290</cell>
+                                        <cell rendition="#hanging">Paste, powder, or any other preparation for Dental
                                             hygiene</cell>
-                                        <cell role="num">30%</cell>
+                                        <cell role="num" rendition="#bottom">30%</cell>
                                     </row>
                                     <row>
-                                        <cell>372–c</cell>
-                                        <cell>Pharmaceutical preparations and specialties (actually
+                                        <cell rendition="#nowrap">372–c</cell>
+                                        <cell rendition="#hanging">Pharmaceutical preparations and specialties (actually
                                             pay 1.50 sucres, the United States Would pay 1.20
                                             sucres)</cell>
                                         <cell/>
                                     </row>
                                     <row>
-                                        <cell>525</cell>
-                                        <cell>Machetes, hoes, pickaxes, shovels, etc</cell>
-                                        <cell role="num">30%</cell>
+                                        <cell rendition="#nowrap">525</cell>
+                                        <cell rendition="#hanging">Machetes, hoes, pickaxes, shovels, etc</cell>
+                                        <cell role="num" rendition="#bottom">30%</cell>
                                     </row>
                                     <row>
-                                        <cell>676</cell>
-                                        <cell>Electric batteries in general</cell>
-                                        <cell role="num">30%</cell>
+                                        <cell rendition="#nowrap">676</cell>
+                                        <cell rendition="#hanging">Electric batteries in general</cell>
+                                        <cell role="num" rendition="#bottom">30%</cell>
                                     </row>
                                     <row>
-                                        <cell>684–a</cell>
-                                        <cell>Automobiles up to 600 dollars</cell>
-                                        <cell role="num">10%</cell>
+                                        <cell rendition="#nowrap">684–a</cell>
+                                        <cell rendition="#hanging">Automobiles up to 600 dollars</cell>
+                                        <cell role="num" rendition="#bottom">10%</cell>
                                     </row>
                                     <row>
-                                        <cell>684–b</cell>
-                                        <cell>“from 601 to 900 dollars</cell>
-                                        <cell role="num">15%</cell>
+                                        <cell rendition="#nowrap">684–b</cell>
+                                        <cell rendition="#hanging">“&#x2003;&#x2003;&#x2003;from 601 to 900 dollars</cell>
+                                        <cell role="num" rendition="#bottom">15%</cell>
                                     </row>
                                     <row>
-                                        <cell>684–c</cell>
-                                        <cell>“from 901 dollars and above</cell>
-                                        <cell role="num">15%</cell>
+                                        <cell rendition="#nowrap">684–c</cell>
+                                        <cell rendition="#hanging">“&#x2003;&#x2003;&#x2003;from 901 dollars and above</cell>
+                                        <cell role="num" rendition="#bottom">15%</cell>
                                     </row>
                                     <row>
-                                        <cell>684–d</cell>
-                                        <cell>Omnibusses and similar vehicles</cell>
-                                        <cell role="num">5%</cell>
+                                        <cell rendition="#nowrap">684–d</cell>
+                                        <cell rendition="#hanging">Omnibusses and similar vehicles</cell>
+                                        <cell role="num" rendition="#bottom">5%</cell>
                                     </row>
                                     <row>
-                                        <cell>684–e</cell>
-                                        <cell>Parts, loose pieces and replacement parts for
+                                        <cell rendition="#nowrap">684–e</cell>
+                                        <cell rendition="#hanging">Parts, loose pieces and replacement parts for
                                             Automobiles, omnibusses and trucks, etc.</cell>
-                                        <cell role="num">10%</cell>
+                                        <cell role="num" rendition="#bottom">10%</cell>
                                     </row>
                                 </table></p>
                             <p>The United States will also enjoy the 30% of the Preferential Tariff
-                                from the following products: <table rows="11" cols="2">
+                                from the following products: <table rows="11" cols="2" rendition="#center-block" rend="width:95%">
                                     <row>
-                                        <cell>31</cell>
-                                        <cell>Sardines in any form;</cell>
+                                        <cell role="num" rendition="#top">31</cell>
+                                        <cell></cell>
+                                        <cell rendition="#hanging">Sardines in any form;</cell>
                                     </row>
                                     <row>
-                                        <cell>32</cell>
-                                        <cell>Edible oils in general;</cell>
+                                        <cell role="num" rendition="#top">32</cell>
+                                        <cell></cell>
+                                        <cell rendition="#hanging">Edible oils in general;</cell>
                                     </row>
                                     <row>
-                                        <cell>222–a</cell>
-                                        <cell>Table glassware which has a thickness of 1.20
+                                        <cell role="num" rendition="#top">222</cell>
+                                        <cell rendition="#nowrap #top">–a</cell>
+                                        <cell rendition="#hanging">Table glassware which has a thickness of 1.20
                                             millimeters or more in its thinnest part;</cell>
                                     </row>
                                     <row>
-                                        <cell>647</cell>
-                                        <cell>Sewing machines, with or without cover;</cell>
+                                        <cell role="num" rendition="#top">647</cell>
+                                        <cell></cell>
+                                        <cell rendition="#hanging">Sewing machines, with or without cover;</cell>
                                     </row>
                                     <row>
-                                        <cell>688</cell>
-                                        <cell>Inner tubes for tires of vehicles;</cell>
+                                        <cell role="num" rendition="#top">688</cell>
+                                        <cell></cell>
+                                        <cell rendition="#hanging">Inner tubes for tires of vehicles;</cell>
                                     </row>
                                     <row>
-                                        <cell>703</cell>
-                                        <cell>Tires or covers for automobile wheels, solid, hollow,
+                                        <cell role="num" rendition="#top">703</cell>
+                                        <cell></cell>
+                                        <cell rendition="#hanging">Tires or covers for automobile wheels, solid, hollow,
                                             etc;</cell>
                                     </row>
                                     <row>
-                                        <cell>837</cell>
-                                        <cell>Writing paper;</cell>
+                                        <cell role="num" rendition="#top">837</cell>
+                                        <cell></cell>
+                                        <cell rendition="#hanging">Writing paper;</cell>
                                     </row>
                                     <row>
-                                        <cell>889</cell>
-                                        <cell>Oilcloth with a base of cotton or other vegetable
+                                        <cell role="num" rendition="#top">889</cell>
+                                        <cell></cell>
+                                        <cell rendition="#hanging">Oilcloth with a base of cotton or other vegetable
                                             fibers;</cell>
                                     </row>
                                     <row>
-                                        <cell>1076–b</cell>
-                                        <cell>Stockings and socks for men and women;</cell>
+                                        <cell role="num" rendition="#top">1076</cell>
+                                        <cell rendition="#nowrap #top">–b</cell>
+                                        <cell rendition="#hanging">Stockings and socks for men and women;</cell>
                                     </row>
                                     <row>
-                                        <cell>1144</cell>
-                                        <cell>Disks, etc., for phonographs and talking
+                                        <cell role="num" rendition="#top">1144</cell>
+                                        <cell></cell>
+                                        <cell rendition="#hanging">Disks, etc., for phonographs and talking
                                             machines;</cell>
                                     </row>
                                     <row>
-                                        <cell>1148</cell>
-                                        <cell>Phonographs in general, talking machines and
+                                        <cell role="num" rendition="#top">1148</cell>
+                                        <cell></cell>
+                                        <cell rendition="#hanging">Phonographs in general, talking machines and
                                             apparatuses.</cell>
                                     </row>
                                 </table></p>
@@ -39869,156 +39888,184 @@
                                     States May Request Concessions From Venezuela</hi> (<hi
                                     rend="italic">Subject to Modification as a Result of Public
                                     Hearings</hi>)</head>
-                            <table rows="74" cols="3">
+                            <table rows="75" cols="4">
                                 <row>
-                                    <cell cols="2"><hi rend="italic">Venezuelan Tariff
+                                    <cell cols="3"><hi rend="italic">Venezuelan Tariff
                                         Item</hi></cell>
                                     <cell/>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>3–D</cell>
-                                    <cell>Canned salmon</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">3</cell>
+                                    <cell>–D</cell>
+                                    <cell rendition="#hanging #bottom">Canned salmon</cell>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>3–H</cell>
-                                    <cell>Canned mackerel</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">3</cell>
+                                    <cell>–H</cell>
+                                    <cell rendition="#hanging #bottom">Canned mackerel</cell>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>3–E</cell>
-                                    <cell>Sardines, canned in oil, except in olive oil</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">3</cell>
+                                    <cell>–E</cell>
+                                    <cell rendition="#hanging #bottom">Sardines, canned in oil, except in olive oil</cell>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>3–E</cell>
-                                    <cell>Sardines, canned in sauce (including tomato sauce) or in
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">3</cell>
+                                    <cell>–E</cell>
+                                    <cell rendition="#hanging #bottom">Sardines, canned in sauce (including tomato sauce) or in
                                         their own juice</cell>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>3–F</cell>
-                                    <cell>Shellfish, canned</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">3</cell>
+                                    <cell>–F</cell>
+                                    <cell rendition="#hanging #bottom">Shellfish, canned</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>4</cell>
-                                    <cell>Hog lard</cell>
+                                    <cell role="num">4</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Hog lard</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>7</cell>
-                                    <cell>Bacon</cell>
+                                    <cell role="num">7</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Bacon</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>8</cell>
-                                    <cell>Eggs in the shell</cell>
+                                    <cell role="num">8</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Eggs in the shell</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>9</cell>
-                                    <cell>Prepared milk (evaporated, condensed, dried whole, dried
+                                    <cell role="num">9</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Prepared milk (evaporated, condensed, dried whole, dried
                                         skimmed)</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>12–A</cell>
-                                    <cell>Potatoes (except seed potatoes)</cell>
+                                    <cell role="num">12</cell>
+                                    <cell>–A</cell>
+                                    <cell rendition="#hanging #bottom">Potatoes (except seed potatoes)</cell>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>12–C</cell>
-                                    <cell>Canned vegetables, soups and sauces</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">12</cell>
+                                    <cell>–C</cell>
+                                    <cell rendition="#hanging #bottom">Canned vegetables, soups and sauces</cell>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>13–B</cell>
-                                    <cell>Apples, pears and grapes (fresh)</cell>
-                                </row>
-                                <row>
-                                    <cell/>
-                                    <cell>14–C</cell>
-                                    <cell>Dried fruits</cell>
-                                </row>
-                                <row>
-                                    <cell/>
-                                    <cell>15–A and B</cell>
-                                    <cell>Canned fruit, in juice or in syrup</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">13</cell>
+                                    <cell>–B</cell>
+                                    <cell rendition="#hanging #bottom">Apples, pears and grapes (fresh)</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>22–B</cell>
-                                    <cell>Oatmeal and rolled oats</cell>
+                                    <cell role="num">14</cell>
+                                    <cell>–C</cell>
+                                    <cell rendition="#hanging #bottom">Dried fruits</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>27–A</cell>
-                                    <cell>Wheat flour</cell>
+                                    <cell role="num">15</cell>
+                                    <cell>–A and B</cell>
+                                    <cell rendition="#hanging #bottom">Canned fruit, in juice or in syrup</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>36–A</cell>
-                                    <cell>Hams</cell>
+                                    <cell role="num">22</cell>
+                                    <cell>–B</cell>
+                                    <cell rendition="#hanging #bottom">Oatmeal and rolled oats</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>36–C</cell>
-                                    <cell>Canned pork, including canned sausage</cell>
+                                    <cell role="num">27</cell>
+                                    <cell>–A</cell>
+                                    <cell rendition="#hanging #bottom">Wheat flour</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>37</cell>
-                                    <cell>Infants’ food, malted milk, etc., including cacao content
+                                    <cell role="num">36</cell>
+                                    <cell>–A</cell>
+                                    <cell rendition="#hanging #bottom">Hams</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell role="num">36</cell>
+                                    <cell>–C</cell>
+                                    <cell rendition="#hanging #bottom">Canned pork, including canned sausage</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell role="num">37</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Infants’ food, malted milk, etc., including cacao content
                                         up to 20%</cell>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>44</cell>
-                                    <cell>Crackers and biscuits (unsweetened)</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">44</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Crackers and biscuits (unsweetened)</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>86–A</cell>
-                                    <cell>Cotton canvas, over 250 grams per square meter, not
+                                    <cell role="num">86</cell>
+                                    <cell>–A</cell>
+                                    <cell rendition="#hanging #bottom">Cotton canvas, over 250 grams per square meter, not
                                         rubberized</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>92</cell>
-                                    <cell>Rubberized cotton cloth</cell>
+                                    <cell role="num">92</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Rubberized cotton cloth</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>99–C</cell>
-                                    <cell>Cotton shirts and shirt fronts</cell>
+                                    <cell role="num">99</cell>
+                                    <cell>–C</cell>
+                                    <cell rendition="#hanging #bottom">Cotton shirts and shirt fronts</cell>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>143–A</cell>
-                                    <cell>Silk hosiery</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">143</cell>
+                                    <cell>–A</cell>
+                                    <cell rendition="#hanging #bottom">Silk hosiery</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>156–A, B, C, and D</cell>
-                                    <cell>Oilcloth</cell>
+                                    <cell role="num">156</cell>
+                                    <cell>–A, B, C, and D</cell>
+                                    <cell rendition="#hanging #bottom">Oilcloth</cell>
                                 </row>
                                 <pb n="790" xml:id="pg_790" facs="0800"/>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>186–C</cell>
-                                    <cell>Upperleather, including patent leather</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">186</cell>
+                                    <cell>–C</cell>
+                                    <cell rendition="#hanging #bottom">Upperleather, including patent leather</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>229, and internal tax</cell>
-                                    <cell>Cigarettes</cell>
+                                    <cell role="num">229</cell>
+                                    <cell>, and internal tax</cell>
+                                    <cell rendition="#hanging #bottom">Cigarettes</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>230–B</cell>
-                                    <cell>Sawn timber and rough lumber, measuring 25 centimeters or
+                                    <cell role="num">230</cell>
+                                    <cell>–B</cell>
+                                    <cell rendition="#hanging #bottom">Sawn timber and rough lumber, measuring 25 centimeters or
                                         less in thickness at both ends, including pitch pine,<note
                                             n="*" xml:id="d772fn1">Sometimes called American
                                             southern pine.</note> Ponderosa pine,<note n="†"
@@ -40031,239 +40078,290 @@
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>243</cell>
-                                    <cell>Writing paper, not printed or lithographed, unlined, not
+                                    <cell role="num">243</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Writing paper, not printed or lithographed, unlined, not
                                         in pads</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>270–B</cell>
-                                    <cell>Lubricating oils</cell>
+                                    <cell role="num">270</cell>
+                                    <cell>–B</cell>
+                                    <cell rendition="#hanging #bottom">Lubricating oils</cell>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>270–M</cell>
-                                    <cell>Lubricating greases</cell>
-                                </row>
-                                <row>
-                                    <cell/>
-                                    <cell>270–D</cell>
-                                    <cell>Paraffin</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">270</cell>
+                                    <cell>–M</cell>
+                                    <cell rendition="#hanging #bottom">Lubricating greases</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>298–J</cell>
-                                    <cell>Iron and steel sheets, galvanized</cell>
+                                    <cell role="num">270</cell>
+                                    <cell>–D</cell>
+                                    <cell rendition="#hanging #bottom">Paraffin</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>298–L</cell>
-                                    <cell>Tin plate</cell>
-                                </row>
-                                <row>
-                                    <cell>Ex—</cell>
-                                    <cell>319–D and 306–B</cell>
-                                    <cell>Metal filing cabinets and safes</cell>
-                                </row>
-                                <row>
-                                    <cell>Ex—</cell>
-                                    <cell>319–A, B, C and E</cell>
-                                    <cell>Metal furniture and fixtures</cell>
-                                </row>
-                                <row>
-                                    <cell>Ex—</cell>
-                                    <cell>319–E</cell>
-                                    <cell>Metal beds, springs, etc.</cell>
+                                    <cell role="num">298</cell>
+                                    <cell>–J</cell>
+                                    <cell rendition="#hanging #bottom">Iron and steel sheets, galvanized</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>320–A</cell>
-                                    <cell>Chassis for motor trucks and busses</cell>
+                                    <cell role="num">298</cell>
+                                    <cell>–L</cell>
+                                    <cell rendition="#hanging #bottom">Tin plate</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">319</cell>
+                                    <cell>–D and</cell>
+                                    <cell></cell>
+                                    </row>
+                                <row>
+                                    <cell></cell>
+                                    <cell role="num">306</cell>
+                                    <cell>–B</cell>
+                                    <cell rendition="#hanging #bottom">Metal filing cabinets and safes</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">319</cell>
+                                    <cell>–A, B, C and E</cell>
+                                    <cell rendition="#hanging #bottom">Metal furniture and fixtures</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">319</cell>
+                                    <cell>–E</cell>
+                                    <cell rendition="#hanging #bottom">Metal beds, springs, etc.</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>321</cell>
-                                    <cell>Passenger automobiles, crated and uncrated</cell>
+                                    <cell role="num">320</cell>
+                                    <cell>–A</cell>
+                                    <cell rendition="#hanging #bottom">Chassis for motor trucks and busses</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>322–A, D, E, F, G, H and K</cell>
-                                    <cell>Automobile parts and accessories</cell>
+                                    <cell role="num">321</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Passenger automobiles, crated and uncrated</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>322–B and C</cell>
-                                    <cell>Tires and tubes</cell>
-                                </row>
-                                <row>
-                                    <cell>Ex—</cell>
-                                    <cell>330–A, B, C and D</cell>
-                                    <cell>Radio receiving sets</cell>
+                                    <cell role="num">322</cell>
+                                    <cell>–A, D, E, F, G, H and K</cell>
+                                    <cell rendition="#hanging #bottom">Automobile parts and accessories</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>330–E</cell>
-                                    <cell>Radio receiving set parts, including tubes</cell>
+                                    <cell role="num">322</cell>
+                                    <cell>–B and C</cell>
+                                    <cell rendition="#hanging #bottom">Tires and tubes</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">330</cell>
+                                    <cell>–A, B, C and D</cell>
+                                    <cell rendition="#hanging #bottom">Radio receiving sets</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>332–A and B</cell>
-                                    <cell>Motion picture film (silent and sound), printed and
+                                    <cell role="num">330</cell>
+                                    <cell>–E</cell>
+                                    <cell rendition="#hanging #bottom">Radio receiving set parts, including tubes</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell role="num">332</cell>
+                                    <cell>–A and B</cell>
+                                    <cell rendition="#hanging #bottom">Motion picture film (silent and sound), printed and
                                         unprinted</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>333–A, B, C and D</cell>
-                                    <cell>Electric refrigerators and parts (household and
+                                    <cell role="num">333</cell>
+                                    <cell>–A, B, C and D</cell>
+                                    <cell rendition="#hanging #bottom">Electric refrigerators and parts (household and
                                         commercial)</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>338–A and</cell>
+                                    <cell role="num">338</cell>
+                                    <cell>–A and</cell>
                                     <cell/>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>356</cell>
-                                    <cell>Sewing machines and parts</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">356</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Sewing machines and parts</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>344</cell>
-                                    <cell>Typewriters, and accessories, including parts, stands,
+                                    <cell role="num">344</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Typewriters, and accessories, including parts, stands,
                                         covers, and cases</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>345</cell>
-                                    <cell>Calculating, adding and accounting machines, electrical
+                                    <cell role="num">345</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Calculating, adding and accounting machines, electrical
                                         and non-electrical, and parts, stands, and
                                         accessories</cell>
                                 </row>
                                 <pb n="791" xml:id="pg_791" facs="0801"/>
                                 <row>
                                     <cell/>
-                                    <cell>346</cell>
-                                    <cell>Cash registers, including those with printing devices, and
+                                    <cell role="num">346</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Cash registers, including those with printing devices, and
                                         parts, stands and accessories</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>347</cell>
-                                    <cell>Scales and balances, except precision and laboratory
+                                    <cell role="num">347</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Scales and balances, except precision and laboratory
                                         scales</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>348 and</cell>
+                                    <cell role="num">348</cell>
+                                    <cell>and</cell>
                                     <cell/>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>356</cell>
-                                    <cell>Internal combustion engines, and parts</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">356</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Internal combustion engines, and parts</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>349</cell>
-                                    <cell>Spark plugs</cell>
+                                    <cell role="num">349</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Spark plugs</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>357</cell>
-                                    <cell>Pharmaceutical specialties, including proprietary
+                                    <cell role="num">357</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Pharmaceutical specialties, including proprietary
                                         medicines, not specified</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>358–C</cell>
-                                    <cell>Absorbent or medicinal cotton (not including
+                                    <cell role="num">358</cell>
+                                    <cell>–C</cell>
+                                    <cell rendition="#hanging #bottom">Absorbent or medicinal cotton (not including
                                         bandages)</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>358–D</cell>
-                                    <cell>Pharmaceutical preparations, not specified</cell>
+                                    <cell role="num">358</cell>
+                                    <cell>–D</cell>
+                                    <cell rendition="#hanging #bottom">Pharmaceutical preparations, not specified</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>359</cell>
-                                    <cell>Dentifrices</cell>
+                                    <cell role="num">359</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Dentifrices</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>364–A</cell>
-                                    <cell>Chewing gum</cell>
+                                    <cell role="num">364</cell>
+                                    <cell>–A</cell>
+                                    <cell rendition="#hanging #bottom">Chewing gum</cell>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>367–B</cell>
-                                    <cell>Shaving soap, in any form</cell>
-                                </row>
-                                <row>
-                                    <cell/>
-                                    <cell>367–C and</cell>
-                                    <cell/>
-                                </row>
-                                <row>
-                                    <cell>Ex—</cell>
-                                    <cell>367–D</cell>
-                                    <cell>Medicated soap (perfumed or unperfumed)</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">367</cell>
+                                    <cell>–B</cell>
+                                    <cell rendition="#hanging #bottom">Shaving soap, in any form</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>370</cell>
-                                    <cell>Varnishes and lacquers</cell>
+                                    <cell role="num">367</cell>
+                                    <cell>–C and</cell>
+                                    <cell/>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>371–A</cell>
-                                    <cell>Ready-mixed paints, in oil, liquid</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">367</cell>
+                                    <cell>–D</cell>
+                                    <cell rendition="#hanging #bottom">Medicated soap (perfumed or unperfumed)</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>371–B</cell>
-                                    <cell>Varnish-paints and enamels</cell>
+                                    <cell role="num">370</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Varnishes and lacquers</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">371</cell>
+                                    <cell>–A</cell>
+                                    <cell rendition="#hanging #bottom">Ready-mixed paints, in oil, liquid</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>385</cell>
-                                    <cell>Ferments, including yeast</cell>
+                                    <cell role="num">371</cell>
+                                    <cell>–B</cell>
+                                    <cell rendition="#hanging #bottom">Varnish-paints and enamels</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>405</cell>
-                                    <cell>Dry batteries, including flashlight batteries</cell>
+                                    <cell role="num">385</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Ferments, including yeast</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>406</cell>
-                                    <cell>Storage batteries</cell>
-                                </row>
-                                <row>
-                                    <cell>Ex—</cell>
-                                    <cell>422</cell>
-                                    <cell>Transmission belting, leather and rubber</cell>
-                                </row>
-                                <row>
-                                    <cell>Ex—</cell>
-                                    <cell>424</cell>
-                                    <cell>Gauze and sterilized bandages</cell>
+                                    <cell role="num">405</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Dry batteries, including flashlight batteries</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>442</cell>
-                                    <cell>Toilet paper</cell>
+                                    <cell role="num">406</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Storage batteries</cell>
                                 </row>
                                 <row>
-                                    <cell>Ex—</cell>
-                                    <cell>451</cell>
-                                    <cell>Tractors and parts (wheel and track-laying)</cell>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">422</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Transmission belting, leather and rubber</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">424</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Gauze and sterilized bandages</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>472</cell>
-                                    <cell>Lumber of white pine,<note n="§" xml:id="d772fn4"
+                                    <cell role="num">442</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Toilet paper</cell>
+                                </row>
+                                <row>
+                                    <cell rendition="#nowrap">Ex—</cell>
+                                    <cell role="num">451</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Tractors and parts (wheel and track-laying)</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell role="num">472</cell>
+                                    <cell></cell>
+                                    <cell rendition="#hanging #bottom">Lumber of white pine,<note n="§" xml:id="d772fn4"
                                             >Sometimes called American southern yellow pine.</note>
                                         pitch pine, Douglas fir,<note n="║" xml:id="d772fn5"
                                             >Sometimes called Oregon pine. [Footnotes in the
