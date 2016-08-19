@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <volume id="frus1952-54Guat">
     <title type="complete">Foreign Relations of the United States, 1952–1954, Guatemala</title>
-    <title type="sub-series" n="1952–guatemala">Foreign Relations of the United States</title>
-    <title type="volumenumber"/>
+    <title type="series">Foreign Relations of the United States</title>
+    <title type="sub-series" n="1952–guatemala"/>
     <title type="volume">Guatemala, 1952–1954</title>
-    <location loc="state">http://2001-2009.state.gov/r/pa/ho/frus/ike/guat/</location>
-    <location loc="db">frus1952-54Guat</location>
+    <title type="volume-number"/>
+    <editor role="primary">Susan Holly</editor>
+    <editor role="general">David S. Patterson</editor>
+    <external-location loc="state">http://2001-2009.state.gov/r/pa/ho/frus/ike/guat/</external-location>
     <isbn10/>
     <isbn13/>
     <media type="print"/>
@@ -16,10 +18,12 @@
     <administration>truman</administration>
     <administration>eisenhower</administration>
     <grouping administration="truman eisenhower">retrospective</grouping>
-    <editor role="primary">Susan Holly</editor>
-    <editor role="general">David S. Patterson</editor>
     <coverage type="from">1952</coverage>
     <coverage type="to">1954</coverage>
+    <length>
+        <span part="front" unit="pages">26</span>
+        <span part="body" unit="pages">461</span>
+    </length>
     <summary>
         <tei:p xmlns:tei="http://www.tei-c.org/ns/1.0">This volume is part of a sub-series of volumes of the Foreign Relations series
                 that documents the foreign policy of the administration of Dwight D. Eisenhower. It
@@ -41,10 +45,6 @@
                 volumes complement each other and should be read together for a full and
                 comprehensive account.</tei:p>
     </summary>
-    <length>
-        <span part="front" unit="pages">26</span>
-        <span part="body" unit="pages">461</span>
-    </length>
     <created-by>joewiz</created-by>
     <created-datetime>2010-04-26T10:35:00.418-05:00</created-datetime>
     <last-modified-by>wicentowskijc</last-modified-by>

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <volume id="frus1961-63v10">
     <title type="complete">Foreign Relations of the United States, 1961–1963, Volume X, Cuba, January 1961–September 1962</title>
-    <title type="sub-series" n="1961–63">Foreign Relations of the United States, 1961–1963</title>
-    <title type="volumenumber">Volume X</title>
+    <title type="series">Foreign Relations of the United States</title>
+    <title type="sub-series" n="1961–63">1961–1963</title>
     <title type="volume">Cuba, January 1961–September 1962</title>
-    <location loc="statearchived">http://www.state.gov/www/about_state/history/frusX/index.html</location>
-    <location loc="db">frus1961-63v10</location>
+    <title type="volume-number">Volume X</title>
+    <editor role="primary">Louis J. Smith</editor>
+    <editor role="general">David S. Patterson</editor>
+    <external-location loc="statearchived">http://www.state.gov/www/about_state/history/frusX/index.html</external-location>
     <isbn10/>
     <isbn13/>
     <media type="print"/>
@@ -15,10 +17,12 @@
     <published-date/>
     <administration>kennedy</administration>
     <grouping administration="kennedy">regular</grouping>
-    <editor role="primary">Louis J. Smith</editor>
-    <editor role="general">David S. Patterson</editor>
     <coverage type="from">1961</coverage>
     <coverage type="to">1963</coverage>
+    <length>
+        <span part="front" unit="pages">31</span>
+        <span part="body" unit="pages">1120</span>
+    </length>
     <summary>
         <tei:p xmlns:tei="http://www.tei-c.org/ns/1.0">In the first months of the Kennedy administration a crisis arose over the final
                 planning and launching of the failed invasion of the Bay of Pigs. The failure of the
@@ -46,10 +50,6 @@
                 of such weapons into Cuba would precipitate a major crisis in U.S.-Soviet relations.
             </tei:p>
     </summary>
-    <length>
-        <span part="front" unit="pages">31</span>
-        <span part="body" unit="pages">1120</span>
-    </length>
     <created-by>joewiz</created-by>
     <created-datetime>2010-04-26T10:35:00.418-05:00</created-datetime>
     <last-modified-by>joewiz</last-modified-by>

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <volume id="frus1969-76v11">
     <title type="complete">Foreign Relations of the United States, 1969–1976, Volume XI, South Asia Crisis, 1971</title>
-    <title type="sub-series" n="1969–76">Foreign Relations of the United States, 1969–1976</title>
-    <title type="volumenumber">Volume XI</title>
+    <title type="series">Foreign Relations of the United States</title>
+    <title type="sub-series" n="1969–76">1969–1976</title>
     <title type="volume">South Asia Crisis, 1971</title>
-    <location loc="state">http://2001-2009.state.gov/r/pa/ho/frus/nixon/xi/index.htm</location>
-    <location loc="db">frus1969-76v11</location>
+    <title type="volume-number">Volume XI</title>
+    <editor role="primary">Louis J. Smith</editor>
+    <editor role="general">Edward C. Keefer</editor>
+    <external-location loc="state">http://2001-2009.state.gov/r/pa/ho/frus/nixon/xi/index.htm</external-location>
     <isbn10/>
     <isbn13/>
     <media type="print"/>
@@ -15,10 +17,12 @@
     <published-date/>
     <administration>nixon-ford</administration>
     <grouping administration="nixon-ford">regular</grouping>
-    <editor role="primary">Louis J. Smith</editor>
-    <editor role="general">Edward C. Keefer</editor>
     <coverage type="from">1969</coverage>
     <coverage type="to">1976</coverage>
+    <length>
+        <span part="front" unit="pages">33</span>
+        <span part="body" unit="pages">900</span>
+    </length>
     <summary>
         <tei:p xmlns:tei="http://www.tei-c.org/ns/1.0">The scope of this volume is limited to the political crisis that began in
                 Pakistan in March 1971 with the government's efforts to suppress Bengali demands for
@@ -45,10 +49,6 @@
                 1969-1976, volume XVII, China, 1969-1972; volume XIII, Soviet Union, October 1970-
                 October 1971; and volume XIV, Soviet Union, October 1971-May 1971.</tei:p>
     </summary>
-    <length>
-        <span part="front" unit="pages">33</span>
-        <span part="body" unit="pages">900</span>
-    </length>
     <created-by>joewiz</created-by>
     <created-datetime>2010-04-26T10:35:00.418-05:00</created-datetime>
     <last-modified-by>joewiz</last-modified-by>
