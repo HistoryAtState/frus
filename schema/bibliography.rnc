@@ -5,15 +5,32 @@ start =
     element volume {
         attribute id { text },
         element title {
-            attribute n { text }?,
-            attribute type { text },
+            attribute type { "complete" },
             text
-        }+,
+        },
+        element title {
+            attribute n { text }?,
+            attribute type { "series" },
+            text
+        },
+        element title {
+            attribute n { text }?,
+            attribute type { "sub-series" },
+            text?
+        },
+        element title {
+            attribute type { "volume" },
+            text?
+        },
+        element title {
+            attribute type { "volume-number" },
+            text?
+        },
         element editor {
             attribute role { text },
             text
         }+,
-        element location {
+        element external-location {
             attribute loc { text },
             xsd:anyURI
         }+,
@@ -30,7 +47,7 @@ start =
         element grouping {
             attribute administration { text },
             text
-        },
+        }+,
         element coverage {
             attribute type { text }?,
             xsd:integer
