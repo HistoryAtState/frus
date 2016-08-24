@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <volume id="frus1961-63v21">
     <title type="complete">Foreign Relations of the United States, 1961–1963, Volume XXI, Africa</title>
-    <title type="sub-series" n="1961–63">Foreign Relations of the United States, 1961–1963</title>
-    <title type="volumenumber">Volume XXI</title>
+    <title type="series">Foreign Relations of the United States</title>
+    <title type="sub-series" n="1961–63">1961–1963</title>
     <title type="volume">Africa</title>
-    <location loc="state">http://2001-2009.state.gov/r/pa/ho/frus/kennedyjf/c15449.htm</location>
-    <location loc="db">frus1961-63v21</location>
+    <title type="volume-number">Volume XXI</title>
+    <editor role="primary">Nina Davis Howland</editor>
+    <editor role="general">Glen W. LaFantasie</editor>
+    <external-location loc="state">http://2001-2009.state.gov/r/pa/ho/frus/kennedyjf/c15449.htm</external-location>
     <isbn10/>
     <isbn13/>
     <media type="print"/>
@@ -15,10 +17,12 @@
     <published-date/>
     <administration>kennedy</administration>
     <grouping administration="kennedy">regular</grouping>
-    <editor role="primary">Nina Davis Howland</editor>
-    <editor role="general">Glen W. LaFantasie</editor>
     <coverage type="from">1961</coverage>
     <coverage type="to">1963</coverage>
+    <length>
+        <span part="front" unit="pages">28</span>
+        <span part="body" unit="pages">682</span>
+    </length>
     <summary>
         <tei:p xmlns:tei="http://www.tei-c.org/ns/1.0">The documentation printed in this volume focuses on U.S. policy toward Africa,
                 the formulation of U.S. policy, and on the most significant aspects of U.S.
@@ -67,10 +71,6 @@
                 opposition to the policy of apartheid and the unilateral U.S. embargo on arms
                 shipments to South Africa announced in August 1963. </tei:p>
     </summary>
-    <length>
-        <span part="front" unit="pages">28</span>
-        <span part="body" unit="pages">682</span>
-    </length>
     <created-by>joewiz</created-by>
     <created-datetime>2010-04-26T10:35:00.418-05:00</created-datetime>
     <last-modified-by>joewiz</last-modified-by>

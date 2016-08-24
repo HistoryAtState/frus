@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <volume id="frus1961-63v25">
     <title type="complete">Foreign Relations of the United States, 1961–1963, Volume XXV, Organization of Foreign Policy; Information Policy; United Nations; Scientific Matters</title>
-    <title type="sub-series" n="1961–63">Foreign Relations of the United States, 1961–1963</title>
-    <title type="volumenumber">Volume XXV</title>
+    <title type="series">Foreign Relations of the United States</title>
+    <title type="sub-series" n="1961–63">1961–1963</title>
     <title type="volume">Organization of Foreign Policy; Information Policy; United Nations; Scientific Matters</title>
-    <location loc="state">http://2001-2009.state.gov/r/pa/ho/frus/kennedyjf/xxv/index.htm</location>
-    <location loc="db">frus1961-63v25</location>
+    <title type="volume-number">Volume XXV</title>
+    <editor role="primary">Paul Claussen</editor>
+    <editor role="primary">Evan M. Duncan</editor>
+    <editor role="primary">Jeffrey A. Soukup</editor>
+    <editor role="general">David S. Patterson</editor>
+    <external-location loc="state">http://2001-2009.state.gov/r/pa/ho/frus/kennedyjf/xxv/index.htm</external-location>
     <isbn10/>
     <isbn13/>
     <media type="print"/>
@@ -15,12 +19,12 @@
     <published-date/>
     <administration>kennedy</administration>
     <grouping administration="kennedy">regular</grouping>
-    <editor role="primary">Paul Claussen</editor>
-    <editor role="primary">Evan M. Duncan</editor>
-    <editor role="primary">Jeffrey A. Soukup</editor>
-    <editor role="general">David S. Patterson</editor>
     <coverage type="from">1961</coverage>
     <coverage type="to">1963</coverage>
+    <length>
+        <span part="front" unit="pages">40</span>
+        <span part="body" unit="pages">1155</span>
+    </length>
     <summary>
         <tei:p xmlns:tei="http://www.tei-c.org/ns/1.0">The editors of the volume sought to present documentation illuminating
                 responsibility for major foreign policy decisions in the U.S. Government, with
@@ -63,10 +67,6 @@
                 the Department's role in the organization of space-based communications
                 systems.</tei:p>
     </summary>
-    <length>
-        <span part="front" unit="pages">40</span>
-        <span part="body" unit="pages">1155</span>
-    </length>
     <created-by>joewiz</created-by>
     <created-datetime>2010-04-26T10:35:00.418-05:00</created-datetime>
     <last-modified-by>joewiz</last-modified-by>

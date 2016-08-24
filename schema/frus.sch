@@ -40,14 +40,14 @@
             <assert test="count(child::element()) eq 3">fileDesc can only have three child elements: titleStmt, publicationStmt, and sourceDesc</assert>
         </rule>
         <rule context="tei:title[parent::tei:titleStmt]">
-            <assert test="./@type = ('complete', 'series', 'subseries', 'volumenumber', 'volume')">title/@type='<value-of select="@type"/>' is an invalid value.  Only the following values are allowed: complete, series, subseries, volumenumber, volume</assert>
+            <assert test="./@type = ('complete', 'series', 'sub-series', 'volume-number', 'volume')">title/@type='<value-of select="@type"/>' is an invalid value.  Only the following values are allowed: complete, series, sub-series, volume-number, volume</assert>
             <assert test="not(./element())">titleStmt/title cannot contain child elements, only a single text node</assert>
         </rule>
         <rule context="tei:titleStmt">
             <assert test="count(tei:title[@type='complete']) = 1">titleStmt needs exactly one title of @type 'complete'</assert>
             <assert test="count(tei:title[@type='series']) = 1">titleStmt needs exactly one title of @type 'series'</assert>
-            <assert test="count(tei:title[@type='subseries']) = 1">titleStmt needs exactly one title of @type 'subseries'</assert>
-            <assert test="count(tei:title[@type='volumenumber']) = 1">titleStmt needs exactly one title of @type 'volumenumber'</assert>
+            <assert test="count(tei:title[@type='sub-series']) = 1">titleStmt needs exactly one title of @type 'sub-series'</assert>
+            <assert test="count(tei:title[@type='volume-number']) = 1">titleStmt needs exactly one title of @type 'volume-number'</assert>
             <assert test="count(tei:title[@type='volume']) = 1">titleStmt needs exactly one title of @type 'volume'</assert>
             <assert test="count(distinct-values(tei:title/@type)) = count(tei:title)">There can only be one of each @type of title</assert>
         </rule>

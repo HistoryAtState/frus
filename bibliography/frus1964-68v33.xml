@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <volume id="frus1964-68v33">
     <title type="complete">Foreign Relations of the United States, 1964–1968, Volume XXXIII, Organization and Management of Foreign Policy; United Nations</title>
-    <title type="sub-series" n="1964–68">Foreign Relations of the United States, 1964–1968</title>
-    <title type="volumenumber">Volume XXXIII</title>
+    <title type="series">Foreign Relations of the United States</title>
+    <title type="sub-series" n="1964–68">1964–1968</title>
     <title type="volume">Organization and Management of Foreign Policy; United Nations</title>
-    <location loc="state">http://2001-2009.state.gov/r/pa/ho/frus/johnsonlb/xxxiii/index.htm</location>
-    <location loc="db">frus1964-68v33</location>
+    <title type="volume-number">Volume XXXIII</title>
+    <editor role="primary">David C. Humphrey</editor>
+    <editor role="primary">James E. Miller</editor>
+    <editor role="general">Edward C. Keefer</editor>
+    <external-location loc="state">http://2001-2009.state.gov/r/pa/ho/frus/johnsonlb/xxxiii/index.htm</external-location>
     <isbn10/>
     <isbn13/>
     <media type="print"/>
@@ -15,11 +18,12 @@
     <published-date/>
     <administration>johnson</administration>
     <grouping administration="johnson">regular</grouping>
-    <editor role="primary">David C. Humphrey</editor>
-    <editor role="primary">James E. Miller</editor>
-    <editor role="general">Edward C. Keefer</editor>
     <coverage type="from">1964</coverage>
     <coverage type="to">1968</coverage>
+    <length>
+        <span part="front" unit="pages">33</span>
+        <span part="body" unit="pages">1054</span>
+    </length>
     <summary>
         <tei:p xmlns:tei="http://www.tei-c.org/ns/1.0">The volume focuses on the issues that primarily engaged high-level U.S.
                 policymakers. The portion of the volume concerning the Organization and Management
@@ -41,10 +45,6 @@
                 Control and Disarmament, volume XI; the Arab-Israeli Crisis and 1967 War, volume
                 XIX; South Asia, volume XXV; and China, volume XXX.</tei:p>
     </summary>
-    <length>
-        <span part="front" unit="pages">33</span>
-        <span part="body" unit="pages">1054</span>
-    </length>
     <created-by>joewiz</created-by>
     <created-datetime>2010-04-26T10:35:00.418-05:00</created-datetime>
     <last-modified-by>joewiz</last-modified-by>

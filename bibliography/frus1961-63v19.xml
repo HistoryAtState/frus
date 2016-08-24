@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <volume id="frus1961-63v19">
     <title type="complete">Foreign Relations of the United States, 1961–1963, Volume XIX, South Asia</title>
-    <title type="sub-series" n="1961–63">Foreign Relations of the United States, 1961–1963</title>
-    <title type="volumenumber">Volume XIX</title>
+    <title type="series">Foreign Relations of the United States</title>
+    <title type="sub-series" n="1961–63">1961–1963</title>
     <title type="volume">South Asia</title>
-    <location loc="state">http://2001-2009.state.gov/r/pa/ho/frus/kennedyjf/c14994.htm</location>
-    <location loc="db">frus1961-63v19</location>
+    <title type="volume-number">Volume XIX</title>
+    <editor role="primary">Louis J. Smith</editor>
+    <editor role="general">Glenn W. LaFantasie</editor>
+    <external-location loc="state">http://2001-2009.state.gov/r/pa/ho/frus/kennedyjf/c14994.htm</external-location>
     <isbn10/>
     <isbn13/>
     <media type="print"/>
@@ -15,10 +17,12 @@
     <published-date/>
     <administration>kennedy</administration>
     <grouping administration="kennedy">regular</grouping>
-    <editor role="primary">Louis J. Smith</editor>
-    <editor role="general">Glenn W. LaFantasie</editor>
     <coverage type="from">1961</coverage>
     <coverage type="to">1963</coverage>
+    <length>
+        <span part="front" unit="pages">25</span>
+        <span part="body" unit="pages">759</span>
+    </length>
     <summary>
         <tei:p xmlns:tei="http://www.tei-c.org/ns/1.0">The volume focuses upon the Kennedy administration's efforts to reorient U.S.
                 policy with respect to South Asia by improving relations with India while
@@ -38,10 +42,6 @@
                 presentation of the relevant documentation than a division of the official record
                 according to bilateral relations with particular governments. </tei:p>
     </summary>
-    <length>
-        <span part="front" unit="pages">25</span>
-        <span part="body" unit="pages">759</span>
-    </length>
     <created-by>joewiz</created-by>
     <created-datetime>2010-04-26T10:35:00.418-05:00</created-datetime>
     <last-modified-by>joewiz</last-modified-by>
