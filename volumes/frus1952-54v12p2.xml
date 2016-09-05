@@ -21639,20 +21639,20 @@
                             <p rend="center">Expenditures</p>
                             <table rows="4" cols="2">
                                 <row>
-                                    <cell>1952</cell>
-                                    <cell>5.9</cell>
+                                    <cell role="num">1952</cell>
+                                    <cell role="num">5.9</cell>
                                 </row>
                                 <row>
-                                    <cell>1953</cell>
-                                    <cell>3.3</cell>
+                                    <cell role="num">1953</cell>
+                                    <cell role="num">3.3</cell>
                                 </row>
                                 <row>
-                                    <cell>1954 (estimated)</cell>
-                                    <cell>7.0</cell>
+                                    <cell role="num">1954 (estimated)</cell>
+                                    <cell role="num">7.0</cell>
                                 </row>
                                 <row>
-                                    <cell>1955 (tentative estimate)</cell>
-                                    <cell>6.0</cell>
+                                    <cell role="num">1955 (tentative estimate)</cell>
+                                    <cell role="num">6.0</cell>
                                 </row>
                             </table>
                             <p>The above figures do not include the following: (a) In February 1950
@@ -39949,7 +39949,7 @@
                     <item>Buddhism, <ref target="#pg_698">698</ref></item>
                     <item>Budiardjo, Ali, <ref target="#pg_256">256</ref>, <ref target="#pg_337"
                                 >337<hi rend="italic">n</hi></ref></item>
-                    <item>Burma <hi rend="italic">(see also Burmese subheadings under other
+                    <item xml:id="in8">Burma <hi rend="italic">(see also Burmese subheadings under other
                             subjects</hi>): <list>
                             <item>Agreements with the United States:<list>
                                     <item>Economic Cooperation Agreement, <ref target="#pg_74">74<hi
@@ -39999,7 +39999,7 @@
                             <item><gloss target="#t_KNDO1">KNDO</gloss>, <ref target="#pg_51"
                                     >51</ref>, <ref target="#pg_201">201</ref>, <ref
                                     target="#pg_207">207</ref></item>
-                            <item>Kuomintang troops in:<list>
+                            <item xml:id="in13">Kuomintang troops in:<list>
                                     <item>Airstrip construction, <ref target="#pg_187"
                                             >187</ref>–<ref target="#pg_188">188</ref></item>
                                     <item>Background, <ref target="#pg_10">10</ref>, <ref
@@ -40463,7 +40463,7 @@
                                     <item>Mutual Defense Assistance Act, <ref target="#pg_217"
                                             >217</ref></item>
                                     <pb n="754" xml:id="pg_754" facs="0774"/>
-                                    <item>Mutual Defense Assistance Control Act of <hi rend="italic"
+                                    <item xml:id="in2">Mutual Defense Assistance Control Act of <hi rend="italic"
                                             >1951</hi>, <ref target="#pg_83">83</ref>, <ref
                                             target="#pg_259">259</ref>, <ref target="#pg_265"
                                             >265</ref>–<ref target="#pg_266">266</ref>, <ref
@@ -41074,7 +41074,7 @@
                             <item>United States, relations with, <ref target="#pg_195">195</ref>,
                                     <ref target="#pg_270">270</ref></item>
                         </list></item>
-                    <item>Indochina (<hi rend="italic">see also</hi>
+                    <item xml:id="in1">Indochina (<hi rend="italic">see also</hi>
                         <ref target="#in5">Associated States</ref>), <ref target="#pg_5">5</ref>,
                             <ref target="#pg_402">402</ref>, <ref target="#pg_433">433</ref>–<ref
                             target="#pg_434">434</ref>, <ref target="#pg_689">689</ref>
@@ -41113,7 +41113,7 @@
                                             >466</ref></item>
                                 </list></item>
                         </list></item>
-                    <item>Indonesia, <ref target="#pg_260">260</ref>, <ref target="#pg_376"
+                    <item xml:id="in7">Indonesia, <ref target="#pg_260">260</ref>, <ref target="#pg_376"
                             >376</ref>, <ref target="#pg_419">419</ref>, <ref target="#pg_442"
                             >442</ref>, <ref target="#pg_474">474</ref>
                         <list>
@@ -41170,7 +41170,7 @@
                                     target="#pg_383">383</ref></item>
                             <item>Neutrality of, <ref target="#pg_472">472<hi rend="italic"
                                     >n</hi></ref></item>
-                            <item>New Guinea dispute: <list>
+                            <item xml:id="in6">New Guinea dispute: <list>
                                     <item>British position, <ref target="#pg_360">360</ref>–<ref
                                             target="#pg_361">361</ref></item>
                                     <item>Indonesian position, <ref target="#pg_251">251</ref>–<ref
@@ -42181,7 +42181,7 @@
                             target="#pg_744">744</ref>–<ref target="#pg_747">747</ref></item>
                     <item>Phibun Songkhram. <hi rend="italic">See</hi>
                         <ref target="#in15">Pibulsonggram, Field Marshal P.</ref></item>
-                    <item>Philippines (<hi rend="italic">see also Philippine subheadings under other
+                    <item xml:id="in9">Philippines (<hi rend="italic">see also Philippine subheadings under other
                             subjects</hi>):<list>
                             <item>Agreements with the United States:<list>
                                     <item>Double taxation agreement, <ref target="#pg_595"
@@ -43043,7 +43043,7 @@
                             >588</ref></item>
                     <item>Taruc, Luis, <ref target="#pg_547">547</ref>, <ref target="#pg_590">590<hi
                                 rend="italic">n</hi></ref></item>
-                    <item>Technical Cooperation Administration, <ref target="#pg_74">74</ref>–<ref
+                    <item xml:id="in16">Technical Cooperation Administration, <ref target="#pg_74">74</ref>–<ref
                             target="#pg_77">77</ref>, <ref target="#pg_80">80</ref>–<ref
                             target="#pg_81">81</ref>, <ref target="#pg_291">291</ref>–<ref
                             target="#pg_307">307</ref>, <ref target="#pg_309">309</ref>–<ref
@@ -43051,7 +43051,7 @@
                             target="#pg_319">319</ref>, <ref target="#pg_321">321</ref>–<ref
                             target="#pg_322">322</ref></item>
                     <item>Thach, Rear Adm. J.H., Jr., <ref target="#pg_601">601</ref></item>
-                    <item>Thailand, <ref target="#pg_231">231</ref>
+                    <item xml:id="in21">Thailand, <ref target="#pg_231">231</ref>
                         <list>
                             <item>Chiengmai, <ref target="#pg_22">22</ref>, <ref target="#pg_114"
                                     >114</ref>, <ref target="#pg_132">132</ref>, <ref
@@ -43094,7 +43094,7 @@
                                     <item>Military role in, <ref target="#pg_650">650</ref>–<ref
                                             target="#pg_651">651</ref></item>
                                 </list></item>
-                            <item>Regional defense, <ref target="#pg_504">504</ref>, <ref
+                            <item xml:id="in20">Regional defense, <ref target="#pg_504">504</ref>, <ref
                                     target="#pg_505">505<hi rend="italic">n</hi></ref>, <ref
                                     target="#pg_706">706</ref>–<ref target="#pg_708">708</ref>, <ref
                                     target="#pg_716">716</ref>, <ref target="#pg_721"
