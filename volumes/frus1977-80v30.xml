@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
     xml:id="frus1977-80v30">
     <teiHeader>
         <fileDesc>
@@ -343,7 +343,7 @@
                         <ref target="#pg_XXI">XXI</ref>
                     </item>
                     <item>
-                        <ref target="#Persons">Persons</ref>
+                        <ref target="#persons">Persons</ref>
                         <ref target="#pg_XXXI">XXXI</ref>
                     </item>
                     <item>
@@ -4931,11 +4931,11 @@
                     <p>This effort has been a long and arduous one, but the patience and
                         contributions of all those who have participated is very much appreciated.
                         Now let’s continue to flesh out the system and make it work.</p>
-                    <p><hi rend="strong">Attachment</hi></p>
-                    <p><hi rend="strong">Paper Prepared in the Bureau of Educational and Cultural
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Attachment</hi></note>
+                    <head><hi rend="strong">Paper Prepared in the Bureau of Educational and Cultural
                                 Affairs<note n="3" xml:id="d10fn3">No classification
-                            marking.</note></hi></p>
-                    <p rend="right">Washington, February 1977</p>
+                            marking.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, <date when="1977-02-01">February 1977</date></dateline>
                     <p rend="center"><hi rend="italic"><gloss target="#t_CU_1">CU</gloss> Program
                             Objectives</hi></p>
                     <p>Activities of the Bureau of Educational and Cultural Affairs seek to foster
@@ -4985,7 +4985,7 @@
                     <pb n="30" facs="0079" xml:id="pg_30"/>
                     <p>In implementing all of these objectives <gloss target="#t_CU_1">CU</gloss>
                         programs are designed to reflect the rich diversity of American society,
-                        representing all significant groups of our citizenry.</p>
+                        representing all significant groups of our citizenry.</p></frus:attachment>
                 </div>
 
                 <div type="document" n="11" xml:id="d11">
@@ -5112,11 +5112,11 @@
                         quotations to indicate the substance of articles. Henceforth we will prepare
                         substantive summaries and use only the most striking, revealing
                         quotations.</p>
-                    <p><hi rend="strong">Attachment</hi></p>
-                    <p><hi rend="strong">Paper Prepared in the United States Information Agency<note
-                                n="2" xml:id="d12fn2">No classification marking.</note></hi></p>
-                    <p rend="right"><placeName>Washington</placeName>, <date when="1977-02-18"
-                            >February 18, 1977</date></p>
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Attachment</hi></note>
+                    <head><hi rend="strong">Paper Prepared in the United States Information Agency<note
+                                n="2" xml:id="d12fn2">No classification marking.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, <date when="1977-02-18"
+                            >February 18, 1977</date></dateline>
                     <p rend="center"><hi rend="italic">Foreign Media Reaction: Selected Foreign
                             Affairs Issues</hi></p>
                     <p rend="sectiontitleital"><gloss target="#t_SALT_1">SALT</gloss> OUTLOOK</p>
@@ -5381,7 +5381,7 @@
                             Agriculture beginning at 11:40 a.m. For the text of the President’s
                             remarks and responses to questions posed by Department of Agriculture
                             employees, see <hi rend="italic">Public Papers: Carter, 1977</hi>, Book
-                            I, pp. 167–175.</note></p>
+                            I, pp. 167–175.</note></p></frus:attachment>
                 </div>
                 <pb n="38" facs="0087" xml:id="pg_38"/>
                 <div type="document" n="13" xml:id="d13">
@@ -7282,11 +7282,11 @@
                         that meeting. I should appreciate your calling the text to the attention of
                         your staff and placing it in an appropriate place where all those interested
                         may also read it.</p>
-                    <p><hi rend="strong">Attachment</hi></p>
-                    <p><hi rend="strong">Notes Prepared in the United States Information Agency<note
-                                n="3" xml:id="d30fn3">No classification marking.</note></hi></p>
-                    <p rend="right"><placeName>Washington</placeName>, <date>March 30,
-                        1977</date></p>
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Attachment</hi></note>
+                    <head><hi rend="strong">Notes Prepared in the United States Information Agency<note
+                                n="3" xml:id="d30fn3">No classification marking.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, <date>March 30,
+                        1977</date></dateline>
                     <p rend="center">NOTES FROM DIRECTOR’S STAFF MEETING</p>
                     <p rend="center">March 30, 1977</p>
                     <p>I am delighted to be here for the first time. This time three months ago I
@@ -7704,7 +7704,7 @@
                     <p>On personnel assignments made en masse previously, I’m not sure we can do
                         much about them. All of them may not hold as we attempt to position
                         ourselves from a personnel point of view to achieve maximum results. But
-                        probably 95 percent will remain as announced.</p>
+                        probably 95 percent will remain as announced.</p></frus:attachment>
                 </div>
                 <pb n="84" facs="0133" xml:id="pg_84"/>
                 <div type="document" n="31" xml:id="d31">
@@ -8273,13 +8273,13 @@
                                 >Reinhardt</persName>’s memorandum].” Below it, <persName
                                 corresp="#p_HPB_1">Henze</persName> wrote, “Done. <gloss
                                 target="#t_PH_1">PH</gloss> 18 Apr 77.”</note></p>
-                    <p><hi rend="strong">Tab A</hi></p>
-                    <p><hi rend="strong">Memorandum From the Director of the United States
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Tab A</hi></note>
+                    <head><hi rend="strong">Memorandum From the Director of the United States
                             Information Agency (<persName corresp="#p_RJE_1">Reinhardt</persName>)
                             to the President’s Assistant for National Security Affairs (<persName
                                 corresp="#p_BZ_1">Brzezinski</persName>)<note n="4" xml:id="d35fn4"
-                                >No classification marking.</note></hi></p>
-                    <p rend="right">Washington, April 11, 1977</p>
+                                >No classification marking.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, <date when="1977-04-11">April 11, 1977</date></dateline>
                     <p>Now that the hurdle of my confirmation has been cleared,<note n="5"
                             xml:id="d35fn5">See <ref target="#d21fn2">footnote 2, Document 21</ref>
                             and <ref target="#d29">Document 29</ref>.</note> I would like to meet
@@ -8407,7 +8407,7 @@
                             target="#t_USIA_1">USIA</gloss>’s capabilities to inform influential
                         foreign audiences and to understand their attitudes and behavior can be of
                         direct assist<pb n="97" facs="0146" xml:id="pg_97"/>ance to you. I will seek
-                        an early appointment with you to discuss how we might do this.</p>
+                        an early appointment with you to discuss how we might do this.</p></frus:attachment>
                 </div>
 
                 <div type="document" n="36" xml:id="d36">
@@ -10184,11 +10184,11 @@
                         issue. But we found strong support for the general principle of speaking out
                         on human rights.</p>
                     <pb n="133" facs="0182" xml:id="pg_133"/>
-                    <p><hi rend="strong">Attachment</hi></p>
-                    <p><hi rend="strong">Briefing Note Prepared in the Office of Research, United
+                    <frus:attachment><note rend="inline"><hi rend="strong">Attachment</hi></note>
+                    <head><hi rend="strong">Briefing Note Prepared in the Office of Research, United
                             States Information Agency<note n="2" xml:id="d48fn2">No classification
-                                marking.</note></hi></p>
-                    <p rend="right">Washington, April 29, 1977</p>
+                                marking.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, <date when="1977-04-29">April 29, 1977</date></dateline>
                     <p rend="center">FOREIGN PUBLIC OPINION ON U.S. ADVOCACY OF HUMAN RIGHTS</p>
                     <p>In mid-April, a majority in Germany (63%) and roughly half of the general
                         public in four other major industrial democracies were aware of “statements
@@ -10225,7 +10225,7 @@
                         advocacy of human rights by “other Western leaders” would also be a good
                         thing. In Japan, the level of those expressing an opinion was
                         characteristically much lower, but the margin of approval for other leaders
-                        speaking out on the issue was better than two-to-one (36% vs. 15%).</p>
+                        speaking out on the issue was better than two-to-one (36% vs. 15%).</p></frus:attachment>
                 </div>
                 <pb n="134" facs="0183" xml:id="pg_134"/>
                 <div type="document" n="49" xml:id="d49">
@@ -12624,12 +12624,12 @@
                         do I want their comments on the proposal itself but I want them to begin
                         thinking now about specific plans for <gloss target="#t_USIS_1">USIS</gloss>
                         support of the Department’s human-rights plan for their country.</p>
-                    <p><hi rend="strong">Attachment</hi></p>
-                    <p><hi rend="strong">Memorandum From the Deputy Director of the United States
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Attachment</hi></note>
+                    <head><hi rend="strong">Memorandum From the Deputy Director of the United States
                             Information Agency (<persName corresp="#p_BCW_1">Bray</persName>) to all
                                 <gloss target="#t_USIA_1">USIA</gloss> Public Affairs Officers<note
-                                n="3" xml:id="d67fn3">Confidential.</note></hi></p>
-                    <p rend="right">Washington, June 17, 1977</p>
+                                n="3" xml:id="d67fn3">Confidential.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, <date when="1977-06-17">June 17, 1977</date></dateline>
                     <p>Dear <gloss target="#t_PAO_1">PAO</gloss>:</p>
                     <p>I am enclosing, for your information and comments, the <gloss
                             target="#t_USIA_1">USIA</gloss> Human Rights Action Proposals which we
@@ -12696,14 +12696,14 @@
                         circumstances—personnel transfers, for instance—I would like to get your
                         initial comments by July 30.</p>
                     <p>Sincerely,</p>
-                    <p rend="right"><hi rend="strong"><persName corresp="#p_BCW_1">Charles W.
-                                Bray</persName> III</hi></p>
-                    <p rend="right"><hi rend="italic">Deputy Director</hi></p>
+                    <closer><signed><persName corresp="#p_BCW_1">Charles W.
+                                Bray</persName> III</signed>
+                        <hi rend="italic">Deputy Director</hi></closer></frus:attachment>
                     <pb n="183" facs="0232" xml:id="pg_183"/>
-                    <p><hi rend="strong">Enclosure</hi></p>
-                    <p><hi rend="strong">Paper Prepared in the United States Information Agency<note
-                                n="5" xml:id="d67fn5">Confidential.</note></hi></p>
-                    <p rend="right">Washington, undated</p>
+                    <frus:attachment><note rend="inline"><hi rend="strong">Enclosure</hi></note>
+                    <head><hi rend="strong">Paper Prepared in the United States Information Agency<note
+                                n="5" xml:id="d67fn5">Confidential.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, undated</dateline>
                     <p rend="center"><gloss target="#t_USIA_1">USIA</gloss> HUMAN RIGHTS ACTION
                         PROPOSALS</p>
                     <p rend="center">—objectives, themes, treatment—</p>
@@ -13247,7 +13247,7 @@
                         Charter relevant to human rights as well as copies of human rights covenants
                         and conventions. The background papers presented information and guidance on
                         human rights provisions of U.S. security assistance legislation and the role
-                        of human rights in U.S. foreign policy.</p>
+                        of human rights in U.S. foreign policy.</p></frus:attachment>
                 </div>
                 <pb n="195" facs="0244" xml:id="pg_195"/>
                 <div type="document" n="68" xml:id="d68">
@@ -13303,14 +13303,14 @@
                     <pb n="196" facs="0245" xml:id="pg_196"/>
                     <p>I welcome the full participation of all personnel in this process.</p>
                     <p>Sincerely,</p>
-                    <p rend="right"><hi rend="strong"><persName corresp="#p_RJE_1">John E.
-                                Reinhardt</persName></hi></p>
-                    <p rend="right"><hi rend="italic">Director</hi></p>
-                    <p><hi rend="strong">Enclosure</hi></p>
-                    <p><hi rend="strong">Report Prepared in the United States Information
+                   <closer><signed><persName corresp="#p_RJE_1">John E.
+                                Reinhardt</persName></signed>
+                   <hi rend="italic">Director</hi></closer>
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Enclosure</hi></note>
+                    <head><hi rend="strong">Report Prepared in the United States Information
                                 Agency<note n="2" xml:id="d68fn2">No classification
-                            marking.</note></hi></p>
-                    <p rend="right">Washington, undated</p>
+                            marking.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, undated</dateline>
                     <p rend="center">INTRODUCTION</p>
                     <p>The following is a report on a series of meetings that the Director and the
                         Deputy Director held with all <gloss target="#t_USIA_1">USIA</gloss> element
@@ -13797,7 +13797,7 @@
                         that he or she is also expected to manifest an up-to-date, thorough
                         grounding in communications theories, techniques and practices. The two
                         elements—communications skills fused with substantive policy knowledge—go
-                        hand-in-hand for an <gloss target="#t_FSIO_1">FSIO</gloss>.</p>
+                        hand-in-hand for an <gloss target="#t_FSIO_1">FSIO</gloss>.</p></frus:attachment>
                 </div>
                 <pb n="207" facs="0256" xml:id="pg_207"/>
                 <div type="document" n="69" xml:id="d69">
@@ -19016,8 +19016,8 @@
                             at a December 15 news conference. For the text of the news conference,
                             see <hi rend="italic">Public Papers: Carter, 1977</hi>, Book II, pp.
                             2115–2124.</note></p>
-                    <p><hi rend="strong">Tab B</hi></p>
-                    <p><hi rend="strong">Memorandum From the Director of the United States
+                  <frus:attachment>  <note rend="inline"><hi rend="strong">Tab B</hi></note>
+                    <head><hi rend="strong">Memorandum From the Director of the United States
                             Information Agency (<persName corresp="#p_RJE_1">Reinhardt</persName>)
                             to the President’s Assistant for National Security Affairs (<persName
                                 corresp="#p_BZ_1">Brzezinski</persName>)<note n="6" xml:id="d107fn6"
@@ -19037,8 +19037,8 @@
                                 National Security Affairs, <persName corresp="#p_BZ_1"
                                     >Brzezinski</persName> Material, <persName corresp="#p_BZ_1"
                                     >Brzezinski</persName> Office File, Subject Chron File, Box 94,
-                                Human Rights: 1977)</note></hi></p>
-                    <p rend="right">Washington, November 16, 1977</p>
+                                Human Rights: 1977)</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, <date when="1977-11-16">November 16, 1977</date></dateline>
                     <p>As the end of the <persName corresp="#p_CJE_1">Carter</persName>
                         administration’s first year in office approaches, I have engaged in some
                         preliminary New Year’s ruminations and reflections on the experiences of
@@ -19104,7 +19104,7 @@
                             agencies” from 2:01 until 3:40, 3:42 until 4:07, and 4:15 until 5:10
                             p.m. (Carter Library, Presidential Materials)</note> I would like to
                         send you background material and a few informal proposals before that
-                        meeting.</p>
+                        meeting.</p></frus:attachment>
                 </div>
 
                 <div type="document" n="108" xml:id="d108">
@@ -19277,11 +19277,11 @@
                         be able to help with one or more officers on detail, but let’s consider that
                         separate issue separately.</p>
                     <pb n="315" facs="0364" xml:id="pg_315"/>
-                    <p><hi rend="strong">Attachment</hi></p>
-                    <p><hi rend="strong">Paper Prepared by the Director of the Policy Planning Staff
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Attachment</hi></note>
+                    <head><hi rend="strong">Paper Prepared by the Director of the Policy Planning Staff
                                 (<persName corresp="#p_LWA_1">Lake</persName>)<note n="2"
-                                xml:id="d110fn2">No classification marking.</note></hi></p>
-                    <p rend="right">Washington, undated</p>
+                                xml:id="d110fn2">No classification marking.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, undated</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item><gloss target="#t_USIA_1">USIA</gloss> Slot on <gloss target="#t_SP_1"
@@ -19313,7 +19313,7 @@
                     <p>Depending on subject matter and Staff needs, the <gloss target="#t_USIA_1"
                             >USIA</gloss> incumbent would be expected to serve as co-drafter or
                         principal drafter of papers, as well as participate in planning meetings and
-                        discussions with other members of the Staff.</p>
+                        discussions with other members of the Staff.</p></frus:attachment>
                 </div>
                 <pb n="316" facs="0365" xml:id="pg_316"/>
                 <div type="document" n="111" xml:id="d111">
@@ -21257,13 +21257,13 @@
                             memorandum attached at Tab I. See <ref target="#d123fn8">footnote
                                 8</ref>, below.</note></p>
                     <pb n="356" facs="0405" xml:id="pg_356"/>
-                    <p><hi rend="strong">Tab I</hi></p>
-                    <p><hi rend="strong">Memorandum From the President’s Assistant for
-                            NationalSecurity Affairs (<persName corresp="#p_BZ_1"
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Tab I</hi></note>
+                    <head><hi rend="strong">Memorandum From the President’s Assistant for
+                            National Security Affairs (<persName corresp="#p_BZ_1"
                                 >Brzezinski</persName>) to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="5" xml:id="d123fn5">No classification
-                                marking. Sent for action.</note></hi></p>
-                    <p rend="right">Washington, undated</p>
+                                marking. Sent for action.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, undated</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>North-South Scholars: A Tribute to Senator <persName
@@ -21333,7 +21333,7 @@
                             right-hand corner of the first page of the memorandum: “Zbig—I like the
                                 <gloss target="#t_HHH_1">HHH</gloss> scholarship idea—We should
                             leave the details until later. More staff work is needed.
-                        JC.”</note></p>
+                        JC.”</note></p></frus:attachment>
                 </div>
                 <pb n="358" facs="0407" xml:id="pg_358"/>
                 <div type="document" n="124" xml:id="d124">
@@ -22362,11 +22362,11 @@
                         of this concept is attached.</p>
                     <p>I hope the enclosed paper can be circulated to the other participants before
                         Monday afternoon’s meeting.<note n="4" xml:id="d129fn4">April 24.</note></p>
-                    <p><hi rend="strong">Enclosure</hi></p>
-                    <p><hi rend="strong">Paper Prepared in the International Communication
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Enclosure</hi></note>
+                    <head><hi rend="strong">Paper Prepared in the International Communication
                                 Agency<note n="5" xml:id="d129fn5">No classification
-                            marking.</note></hi></p>
-                    <p rend="right">Washington, undated</p>
+                            marking.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, undated</dateline>
                     <p rend="sectiontitleital">Option #4: Specialized Education for the Public
                         Service</p>
                     <p>We take it as given that our purposes (as articulated in the April 17 memo)
@@ -22433,7 +22433,7 @@
                         peers in foreign governmental structures;</p>
                     <p>(f) There presently exist mechanisms in the <gloss target="#t_US_1"
                             >US</gloss> Government and associated entities (binational Commissions
-                        and experienced contract agencies) to administer this program.</p>
+                        and experienced contract agencies) to administer this program.</p></frus:attachment>
                 </div>
 
                 <div type="document" n="130" xml:id="d130">
@@ -22785,13 +22785,13 @@
                         </row>
                     </table>
 
-                    <p><hi rend="strong">Tab A</hi></p>
-                    <p><hi rend="strong">Memorandum From the Director of the International
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Tab A</hi></note>
+                    <head><hi rend="strong">Memorandum From the Director of the International
                             Communication Agency (<persName corresp="#p_RJE_1">Reinhardt</persName>)
                             to the President’s Assistant for National Security Affairs (<persName
                                 corresp="#p_BZ_1">Brzezinski</persName>)<note n="5" xml:id="d133fn5"
-                                >No classification marking.</note></hi></p>
-                    <p rend="right">Washington, June 1, 1978</p>
+                                >No classification marking.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, <date when="1978-06-01">June 1, 1978</date></dateline>
 
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -22831,7 +22831,7 @@
                         overseas.</p>
                     <p>Since annual shifts in correspondent assignments begin early in July, I
                         believe it would be helpful to have the guidelines issued, with Department
-                        support, by mid-June.</p>
+                        support, by mid-June.</p></frus:attachment>
                 </div>
                 <pb n="389" facs="0438" xml:id="pg_389"/>
                 <div type="document" n="134" xml:id="d134">
@@ -23121,16 +23121,16 @@
                         should come forward with them. What is not acceptable in my view is
                         continuing in the same old comfortable way which adds up to an infinitesimal
                         product in terms of the present and potential need.</p>
-                    <p><hi rend="strong">Attachment</hi></p>
-                    <p><hi rend="strong">Decision Memorandum From the Associate Director for
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Attachment</hi></note>
+                    <head><hi rend="strong">Decision Memorandum From the Associate Director for
                             Planning and Program Direction, United States Information Agency
                                 (<persName corresp="#p_SHF_1">Schneidman</persName>) to the Director
                                 (<persName corresp="#p_RJE_1">Reinhardt</persName>)<note n="2"
                                 xml:id="d136fn2">No classification marking. A copy was sent to
                                     <persName corresp="#p_BCW_1">Bray</persName>. <persName
                                     corresp="#p_RJE_1">Reinhardt</persName> and Miller initialed the
-                                memorandum, indicating that they saw it.</note></hi></p>
-                    <p rend="right">Washington, January 23, 1978</p>
+                                memorandum, indicating that they saw it.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, <date when="1978-01-23">January 23, 1978</date></dateline>
 
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -23189,7 +23189,7 @@
                             xml:id="d136fn5">An unknown hand, presumably <persName
                                 corresp="#p_RJE_1">Reinhardt</persName>’s, crossed out <persName
                                 corresp="#p_SP_2">Solmssen</persName>’s name and placed a check mark
-                            next to this option. _______</note></p>
+                            next to this option. _______</note></p></frus:attachment>
                 </div>
                 <pb n="396" facs="0445" xml:id="pg_396"/>
                 <div type="document" n="137" xml:id="d137">
@@ -25937,16 +25937,16 @@
                             <gloss target="#t_ICA_1">ICA</gloss>’s exchange programs.<note n="3"
                             xml:id="d155fn3">The President approved this recommendation and
                             initialed “J” below it.</note></p>
-                    <p><hi rend="strong">Tab A</hi></p>
-                    <p><hi rend="strong">Memorandum From the Director of the International
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Tab A</hi></note>
+                    <head><hi rend="strong">Memorandum From the Director of the International
                             Communication Agency (<persName corresp="#p_RJE_1">Reinhardt</persName>)
                             to President <persName corresp="#p_CJE_1">Carter</persName><note n="4"
                                 xml:id="d155fn4">No classification marking. A copy was sent to
                                     <persName corresp="#p_VCR_1">Vance</persName>. The President
                                 wrote “good J” in the top right-hand corner of the
-                                memorandum.</note></hi></p>
-                    <p rend="right"><placeName>Washington</placeName>, <date>October 5,
-                        1978</date></p>
+                                memorandum.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, <date when="1978-10-05">October 5,
+                        1978</date></dateline>
                     <p>Since October 1 marked the end of the first six months of the International
                         Communication Agency’s existence, this seems an appropriate time to give you
                         the first of the periodic accountings called for in your March 13
@@ -26017,7 +26017,7 @@
                         correctly, this accords well with your own sense of priorities. It is <gloss
                             target="#t_ICA_1">ICA</gloss>’s essential work. At the end of our first
                         six months, I believe we can carry this work forward from a position of
-                        strength and confidence.</p>
+                        strength and confidence.</p></frus:attachment>
                 </div>
 
                 <div type="document" n="156" xml:id="d156">
@@ -26964,8 +26964,8 @@
                             of which <persName corresp="#p_RJE_1">Reinhardt</persName> also attached
                             to his November 30 memorandum to the President.</note></p>
                     <pb n="474" facs="0523" xml:id="pg_474"/>
-                    <p><hi rend="strong">Tab I</hi></p>
-                    <p><hi rend="strong">Memorandum From the President’s Assistant for National
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Tab I</hi></note>
+                    <head><hi rend="strong">Memorandum From the President’s Assistant for National
                             Security Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="5"
                                 xml:id="d160fn5">No classification marking. Sent for action.
@@ -26974,8 +26974,8 @@
                                 under a December 15 memorandum in which he summarized the
                                 President’s comments. (Carter Library, White House Central Files,
                                 Subject File, Foreign Affairs, Information-Exchange Activities,
-                                Executive, Box FO–35, FO 5 7/1/78–1/20/81)</note></hi></p>
-                    <p rend="right">Washington, December 14, 1978</p>
+                                Executive, Box FO–35, FO 5 7/1/78–1/20/81)</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, <date when="1978-12-14">December 14, 1978</date></dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Expansion of <gloss target="#t_ICA_1">ICA</gloss> Exchange
@@ -27021,7 +27021,7 @@
                             approve or disapprove the recommendation but wrote: “No recomm in <gloss
                                 target="#t_FY_1">FY</gloss> 80—<gloss target="#t_HHH_1">HHH</gloss>
                             Scholarships a good step. Ok to keep idea alive. J.”</note></p>
-                    <p>AGREE _______ DISAGREE _______</p>
+                    <p>AGREE _______ DISAGREE _______</p></frus:attachment>
                 </div>
 
 
@@ -28398,12 +28398,12 @@
                         deal with the arts in this paper. Such suggestions will derive from your
                         content decisions.</p>
                     <pb n="503" facs="0552" xml:id="pg_503"/>
-                    <p><hi rend="strong">Attachment</hi></p>
-                    <p><hi rend="strong">Proposal Prepared in the Associate Directorate for
+                    <frus:attachment><note rend="inline"><hi rend="strong">Attachment</hi></note>
+                    <head><hi rend="strong">Proposal Prepared in the Associate Directorate for
                             Programs, International Communication Agency<note n="5" xml:id="d174fn5"
                                 >No classification marking. An unknown hand wrote “Attached to July
-                                13 memo” at the top of the plan.</note></hi></p>
-                    <p><placeName>Washington</placeName>, undated</p>
+                                13 memo” at the top of the plan.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, undated</dateline>
                     <p>[Omitted here is the Table of Contents.]</p>
                     <p rend="center"><hi rend="italic">RATIONALE</hi></p>
                     <p>The reasons for integrated and coordinated programming on the arts in America
@@ -28499,7 +28499,7 @@
                         the Arts in America;” “ARTS AMERICA: Precepts and Sample Table of Contents;”
                         “Sample Size and Paper for ARTS AMERICA Magazine;” “Proposal for Outside
                         Support for the Agency’s Cultural Programs;” and “Summary of Current Agency
-                        Programming in the Arts.”]</p>
+                        Programming in the Arts.”]</p></frus:attachment>
                 </div>
 
                 <div type="document" n="175" xml:id="d175">
@@ -30010,13 +30010,13 @@
                                 corresp="#p_WG_1">Winkler</persName> forwarded the memorandum and
                             the attached paper to <persName corresp="#p_RJE_1"
                             >Reinhardt</persName>.</note></p>
-                    <p><hi rend="strong">Attachment</hi></p>
-                    <p><hi rend="strong">Paper Prepared in the Europe Research Division, Office of
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Attachment</hi></note>
+                    <head><hi rend="strong">Paper Prepared in the Europe Research Division, Office of
                             Research, Directorate for Programs, International Communication
                                 Agency<note n="6" xml:id="d182fn6">No classification marking.
                                 Drafted by <persName corresp="#p_RL_1"
-                        >Reddy</persName>.</note></hi></p>
-                    <p rend="right">Washington, undated</p>
+                        >Reddy</persName>.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, undated</dateline>
                     <p rend="center"><hi rend="italic">Why Study the General Public</hi>?</p>
                     <p>The current discussion within <gloss target="#t_ICA_1">USICA</gloss> over the
                         selection of foreign publics to be sampled in opinion surveys poses basic
@@ -30408,7 +30408,7 @@
                             >VOA</gloss>, <gloss target="#t_TV_1">TV</gloss> placement, films) are
                         aimed at the general public. Research on general public attitudes is the
                         backbone of the Agency’s listening function and can be an important aid to
-                        developing effective programs for two-way communication.</p>
+                        developing effective programs for two-way communication.</p></frus:attachment>
                 </div>
                 <pb n="545" facs="0594" xml:id="pg_545"/>
                 <div type="document" n="183" xml:id="d183">
@@ -33577,13 +33577,13 @@
                     <p>At the end of the report is an assessment of the opportunities seized (and
                         missed) in implementing the project.</p>
                     <pb n="613" facs="0662" xml:id="pg_613"/>
-                    <p><hi rend="strong">Attachment</hi></p>
-                    <p><hi rend="strong">Assessment Prepared in the Associate Directorate for
+                   <frus:attachment> <note rend="inline"><hi rend="strong">Attachment</hi></note>
+                    <head><hi rend="strong">Assessment Prepared in the Associate Directorate for
                             Educational and Cultural Affairs, International Communication
                                 Agency<note n="2" xml:id="d209fn2">No classification marking.
                                 Drafted by <persName corresp="#p__VM1"
-                            >Villarreal</persName>.</note></hi></p>
-                    <p rend="right">Washington, undated</p>
+                            >Villarreal</persName>.</note></hi></head>
+                    <dateline><placeName>Washington</placeName>, undated</dateline>
                     <p rend="center">AN ASSESSMENT OF <gloss target="#t_ICA_1">USICA</gloss>’S ROLE
                         IN “BOOKS AND BROADCASTING FOR CHILDREN”—AN INTERNATIONAL SYMPOSIUM</p>
                     <p>What became <gloss target="#t_ICA_1">USICA</gloss>’s major program effort for
@@ -34193,7 +34193,7 @@
                         especially for educational broadcasters.</p>
                     <p>There is every reason to be optimistic that another project, similarly
                         conceived and executed, could be even more successful with the basis of
-                        experience gained on this project.</p>
+                        experience gained on this project.</p></frus:attachment>
                 </div>
                 <pb n="626" facs="0675" xml:id="pg_626"/>
                 <div type="document" n="210" xml:id="d210">
