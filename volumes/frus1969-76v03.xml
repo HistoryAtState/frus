@@ -5990,8 +5990,8 @@
                         <p>I am sending copies of this letter and the enclosed statement to the
                             other participants in tomorrow's meeting.</p>
                         <p>Sincerely,</p>
-                        <p rend="right"><hi rend="strong">Bill</hi></p>
-                        <p><hi rend="strong">Enclosure</hi></p>
+                        <closer><signed>Bill</signed></closer>
+                       <frus:attachment> <note rend="inline"><hi rend="strong">Enclosure</hi></note>
                         <p>1. For almost two years foreign monetary authorities as a group have
                             experienced a drain on their dollar holdings. Despite the worsening in
                             the structure of the U.S. balance of payments, the inflow of short-term
@@ -6074,7 +6074,7 @@
                         <p>5. All these considerations point to the desirability not only of
                             minimizing the extent to which the Commerce and Federal Reserve programs
                             are relaxed for 1970 but also of continuing to press toward equilibrium
-                            in the U.S. balance of payments.</p>
+                            in the U.S. balance of payments.</p></frus:attachment>
                     </div>
                     <div type="document" xml:id="d30" n="30">
                         <head>30. Editorial Note</head>
@@ -8029,11 +8029,11 @@
                                 negotiations.”</note>
                         </p>
                         <pb n="117" xml:id="pg_117" facs="0145"/>
-                        <p><hi rend="strong">Tab A</hi></p>
-                        <p><hi rend="strong">Memorandum From Acting Secretary of State Irwin to
+                      <frus:attachment>  <note rend="inline"><hi rend="strong">Tab A</hi></note>
+                        <head><hi rend="strong">Memorandum From Acting Secretary of State Irwin to
                                 President <persName corresp="#p_NRM1">Nixon</persName></hi>
-                        </p>
-                        <p>Washington, October 29, 1970.</p>
+                        </head>
+                        <dateline><placeName>Washington</placeName>, <date when="1970-10-29">October 29, 1970</date>.</dateline>
                         <p>SUBJECT</p>
                         <p>US-<gloss target="#t_EC1">EC</gloss> Consultation October 15-16</p>
                         <p>
@@ -8127,7 +8127,7 @@
                             compromising the question of principle, the US and the <gloss
                                 target="#t_EC1">EC</gloss> would jointly try to determine the damage
                             to us resulting from these agreements.</p>
-                        <closer><signed>John N. Irwin II</signed></closer>
+                        <closer><signed>John N. Irwin II</signed></closer></frus:attachment>
                     </div>
                     <pb n="119" xml:id="pg_119" facs="0147"/>
                     <div type="document" xml:id="d48" n="48">
@@ -8584,8 +8584,8 @@
                             argument is irrelevant and, in view of the undoubted costs, the programs
                             should be abandoned. Material presented in the attached memorandum leads
                             me to that point of view.</p>
-                        <p rend="right"><hi rend="strong">George P. Shultz</hi></p>
-                        <p><hi rend="strong">Attachment</hi></p>
+                        <closer><signed>George P. Shultz</signed></closer>
+                        <frus:attachment><note rend="inline">Attachment</note>
                         <p rend="center">CAPITAL CONTROLS: QUESTIONABLE RESULTS AND</p>
                         <p rend="center">UNDOUBTED COSTS</p>
                         <p>Controls on capital outflows from the United States were designed as
@@ -8735,7 +8735,7 @@
                             stem the net outflow of U.S. official reserve assets by obstructing
                             American investments and loans to foreigners. All available evidence
                             suggests that these programs cannot and have not accomplished or even
-                            worked towards this purpose.</p>
+                            worked towards this purpose.</p></frus:attachment>
                     </div>
                     <div type="document" xml:id="d55" n="55">
                         <head>55. <gloss target="#t_CIEP1">CIEP</gloss> Study Memorandum No. 1<note
@@ -9378,7 +9378,7 @@
                                 been found.</note> I would also hope we could discuss some ideas on
                             how to go about the work, and what outside inputs we might use.</p>
                         <pb n="145" xml:id="pg_145" facs="0173"/>
-                        <p><hi rend="strong">Attachment</hi></p>
+                       <frus:attachment> <note rend="inline"><hi rend="strong">Attachment</hi></note>
                         <p>1. What should be the objective of U.S. balance of payments policy, both
                             in the short term and over the long run? Do we need to adopt a balance
                             of payments target at all? If so, how should such a target be
@@ -9402,7 +9402,7 @@
                             monetary framework?</p>
                         <p>I would hope we could discuss these ideas, and others which you might
                             suggest for our work agenda, at our first meeting on March 31 at 9
-                            AM.</p>
+                            AM.</p></frus:attachment>
                     </div>
                     <pb n="146" xml:id="pg_146" facs="0174"/>
                     <div type="document" xml:id="d60" n="60">
@@ -13888,11 +13888,11 @@
                             working out in <gloss target="#t_OECD1">OECD</gloss>, <gloss
                                 target="#t_IMF1">IMF</gloss> and <gloss target="#t_GATT1"
                                 >GATT</gloss> during the rest of this year and beyond.</p>
-                        <p>
+                       <frus:attachment> <note rend="inline">
                             <pb n="228" xml:id="pg_228" facs="0256"/>
                             <hi rend="strong">Attachment 2</hi>
-                        </p>
-                        <p>Brussels, June 1, 1972.</p>
+                        </note>
+                        <dateline><placeName>Brussels</placeName>, <date when="1972-06-01">June 1, 1972</date>.</dateline>
                         <p rend="sectiontitleital">Conversation with <gloss target="#t_EC1"
                                 >EC</gloss> Commission President <persName corresp="#p_MSL2">Sicco
                                 Mansholt</persName>
@@ -14052,7 +14052,7 @@
                                     xml:id="d91fn5">Printed from a copy that bears this typed
                                     signature.</note>
                             </signed>
-                        </closer>
+                        </closer></frus:attachment>
                     </div>
                     <div type="document" xml:id="d92" n="92">
                         <head>92. Memorandum of Conversation<note n="1" xml:id="d92fn1"
@@ -15109,7 +15109,7 @@
                             temperament in a position to use such leverage.</p>
                         <p>[Omitted here are sections on Participants, Press Plans, and the
                             Schedule.]</p>
-                        <p>
+                        <frus:attachment><note rend="inline">
                             <hi rend="strong">Tab C</hi><note n="2" xml:id="d98fn2">Secret;
                                 Sensitive. Tabs A-I are attached to <persName corresp="#p_KHA1"
                                     >Kissinger</persName>'s memorandum. The others are: A. Talking
@@ -15118,7 +15118,7 @@
                                 Presence in Japan; G. Biography of <persName corresp="#p_TK2"
                                     >Tanaka</persName>; H. Memorandum to you from Secretary Rogers;
                                 and I. Memorandum to You from Secretary Laird.</note>
-                        </p>
+                        </note>
                         <p rend="center">
                             <hi rend="italic">Economic Issues</hi>
                         </p>
@@ -15249,7 +15249,7 @@
                             the future. [George Shultz' attached memorandum explains this position
                             in detail.]<note n="8" xml:id="d98fn8">See <ref target="#d97">Document
                                     97</ref>. Brackets in the source text.</note>
-                        </p>
+                        </p></frus:attachment>
                     </div>
                     <div type="document" xml:id="d99" n="99">
                         <head>99. Memorandum of Conversation<note n="1" xml:id="d99fn1"
@@ -18857,8 +18857,8 @@
                             were to develop and further U. S. action were needed, and assure him of
                             your personal intervention if and when needed.</p>
                         <pb n="327" xml:id="pg_327" facs="0355"/>
-                        <p><hi rend="strong">Attachment</hi></p>
-                        <p>Memorandum From Secretary of the Treasury Kennedy to President <persName
+                       <frus:attachment> <note rend="inline"><hi rend="strong">Attachment</hi></note>
+                        <head>Memorandum From Secretary of the Treasury Kennedy to President <persName
                                 corresp="#p_NRM1">Nixon</persName><note n="5" xml:id="d123fn5"
                                 >Secret. <persName corresp="#p_VPA1">Volcker</persName>, <persName
                                     corresp="#p_BCF1">Bergsten</persName>, <persName
@@ -18871,8 +18871,8 @@
                                 Deputy to the Assistant Secretary for International Affairs: <gloss
                                     target="#t_FRC1">FRC</gloss> 56 83 26, Contingency Planning,
                                 Current Problems and Contingency Planning 4-10/69)</note>
-                        </p>
-                        <p rend="right">Washington, May 1, 1969.</p>
+                        </head>
+                        <dateline><placeName>Washington</placeName>, <date when="1969-05-01">May 1, 1969</date>.</dateline>
                         <p>The unsettling effects of the French election on the exchange markets
                             were greatly aggravated yesterday by statements of German Finance
                             Minister Strauss openly raising the possibility of an early German
@@ -18932,7 +18932,7 @@
                             <signed>
                                 <persName corresp="#p_KDM1">David M. Kennedy</persName>
                             </signed>
-                        </closer>
+                        </closer></frus:attachment>
                     </div>
                     <div type="document" xml:id="d124" n="124">
                         <head>124. Action Memorandum From the President's Assistant for National
@@ -19702,13 +19702,13 @@
                         </p>
                         <p>Budget Director <persName corresp="#p_MRP1">Mayo</persName>
                         </p>
-                        <p rend="right">
-                            <hi rend="strong"><persName corresp="#p_KDM1">David M.
-                                    Kennedy</persName></hi>
-                        </p>
-                        <p><hi rend="strong">Attachment A</hi><note n="5" xml:id="d130fn5"
+                        <closer>
+                            <signed><persName corresp="#p_KDM1">David M.
+                                    Kennedy</persName></signed>
+                        </closer>
+                        <frus:attachment><note rend="inline"><hi rend="strong">Attachment A</hi><note n="5" xml:id="d130fn5"
                                 >Confidential; Limdis.</note>
-                        </p>
+                        </note>
                         <p rend="center">SUMMARY OF BASIC OPTIONS</p>
                         <p>[Paragraph notations refer to the basic document (Annex I)]<note n="6"
                                 xml:id="d130fn6">Brackets in the source text.</note>
@@ -19775,7 +19775,7 @@
                             countries. Progress toward the more basic monetary reforms under Option
                             I would be shelved indefinitely, and any added financing flexibility
                             could be short-lived. For these reasons, this option had no support in
-                            the “Volcker Group.”</p>
+                            the “Volcker Group.”</p></frus:attachment>
                     </div>
                     <pb n="345" xml:id="pg_345" facs="0373"/>
                     <div type="document" xml:id="d131" n="131">
@@ -21153,12 +21153,12 @@
                             of anti-inflation policies domestically. I am now working on a draft
                             speech for the Bank/Fund Meetings which I trust will make these points
                             clear.</p>
-                        <p rend="right">
-                            <hi rend="strong"><persName corresp="#p_KDM1">David M.
-                                    Kennedy</persName></hi>
-                        </p>
+                        <closer>
+                            <signed><persName corresp="#p_KDM1">David M.
+                                    Kennedy</persName></signed>
+                        </closer>
                         <pb n="371" xml:id="pg_371" facs="0399"/>
-                        <p><hi rend="strong">Attachment</hi></p>
+                       <frus:attachment> <note rend="inline"><hi rend="strong">Attachment</hi></note>
                         <table rows="10" cols="2">
                             <row role="label">
                                 <cell>
@@ -21218,7 +21218,7 @@
                                 <cell>Strongly opposed</cell>
                                 <cell>Yes</cell>
                             </row>
-                        </table>
+                        </table></frus:attachment>
                     </div>
                     <div type="document" xml:id="d139" n="139">
                         <head>139. Memorandum From the President's Assistant for National Security
@@ -23644,9 +23644,9 @@
                                 <gloss target="#t_SDR1">SDR</gloss> allocation—both of them by
                             virtue of international agreement—might not be so wholly
                             unrealistic.</p>
-                        <p>
+                       <frus:attachment> <note rend="inline">
                             <hi rend="strong">Attachment</hi>
-                        </p>
+                        </note>
                         <p rend="center">A Rationale for a Major Exchange Rate Realignment<note
                                 n="3" xml:id="d150fn3">A substantially expanded version of this
                                 paper, dated January 28, 1971, entitled “Scenario III—Exchange Rate
@@ -23744,7 +23744,7 @@
                             allocations to the <gloss target="#t_LDC1">LDC</gloss>'s could be in the
                             range of at least three-quarters of a billion dollars per year, an
                             amount of no mean importance when compared with <gloss target="#t_IDA1"
-                                >IDA</gloss> plans.</p>
+                                >IDA</gloss> plans.</p></frus:attachment>
                     </div>
                     <div type="document" xml:id="d151" n="151">
                         <head>151. Editorial Note </head>
@@ -27856,8 +27856,8 @@
                             and the forthcoming <gloss target="#t_IMF1">IMF</gloss> meetings, I felt
                             that your looking at this might at least give you a preliminary glance
                             of where we stand.</p>
-                        <p rend="right"><hi rend="strong">P</hi></p>
-                        <p><hi rend="strong">Attachment</hi></p>
+                        <closer><signed>P</signed></closer>
+                        <frus:attachment><note rend="inline"><hi rend="strong">Attachment</hi></note>
                         <p rend="center">SUMMARY<note n="5" xml:id="d179fn5">This is the summary of
                                 a 23-page paper, which is not printed.</note>
                         </p>
@@ -27972,7 +27972,7 @@
                             scenario. How do we coordinate bilateral trade, defense, and monetary
                             negotiations with the general multilateral discussions of questions
                             involving the payments and trading systems? What is the proper role of
-                            various departments and individuals in Phase I? Phase II?</p>
+                            various departments and individuals in Phase I? Phase II?</p></frus:attachment>
                     </div>
                     <div type="document" xml:id="d180" n="180">
                         <head>180. Memorandum From <persName corresp="#p_BLH1" type="from">Lawrence
@@ -29605,15 +29605,15 @@
                         <p>This is, of course, only for your personal information.</p>
                         <p>With best regards,</p>
                         <p>sincerely</p>
-                        <p rend="right">
-                            <hi rend="strong"><persName corresp="#p_EO1">Otmar
-                                Emminger</persName></hi>
-                        </p>
+                        <closer>
+                            <signed><persName corresp="#p_EO1">Otmar
+                                Emminger</persName></signed>
+                        </closer>
                         <pb n="534" xml:id="pg_534" facs="0562"/>
-                        <p><hi rend="strong">Attachment</hi><note n="2" xml:id="d192fn2">No
+                        <frus:attachment><note rend="inline"><hi rend="strong">Attachment</hi><note n="2" xml:id="d192fn2">No
                                 classification marking.</note>
-                        </p>
-                        <p rend="right">November 11, 1971.</p>
+                        </note>
+                        <dateline><date when="1971-11-11">November 11, 1971</date>.</dateline>
                         <p rend="center">The strategic situation on re-alignment</p>
                         <p>After the meeting of the Finance Ministers of the Six in Versailles on
                             November 4, the situation regarding further progress has become much
@@ -29664,7 +29664,7 @@
                             latter. Ideally, the time sequence should be reversed: If the G 10
                             meeting should end in visible failure, then a subsequent German-French
                             meeting might perhaps lay the foundation for a regional (European)
-                            monetary set-up.</p>
+                            monetary set-up.</p></frus:attachment>
                     </div>
                     <div type="document" xml:id="d193" n="193">
                         <head>193. Telegram From the <gloss type="from">Embassy in the United
