@@ -167,10 +167,12 @@
                     substring-before(@target, '#') = $vol-ids 
                     and 
                         (
-                        if (doc-available(concat('../data/frus-volumes/', substring-before(@target, '#') , '.xml'))) then
-                            doc(concat('../data/frus-volumes/', substring-before(@target, '#') , '.xml'))//*/@xml:id = substring-after(@target, '#')
+                        if (doc-available(concat('../volumes/', substring-before(@target, '#') , '.xml'))) then
+                            doc(concat('../volumes/', substring-before(@target, '#') , '.xml'))//*/@xml:id = substring-after(@target, '#')
+                        else if (doc-available(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@target, '#') , '.xml'))) then
+                            doc(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@target, '#') , '.xml'))//*/@xml:id = substring-after(@target, '#')
                         else 
-                        true()
+                            false()
                         )
                     )
                 else 
@@ -183,8 +185,22 @@
         <rule context="tei:ref">
             <assert test="starts-with(@target, '#') or starts-with(@target, 'http') or starts-with(@target, 'mailto')">Invalid ref/@target='<value-of select="@target"/>'. If this is an internal cross-reference, it needs a "#" prefix.</assert>
         </rule>
-        <rule context="tei:persName[@corresp]">
+        <rule context="tei:persName[starts-with(@corresp, '#')]">
             <assert test="substring-after(@corresp, '#') = $persName-ids">persName/@corresp='<value-of select="@corresp"/>' is an invalid value.  No persName has been defined with an @xml:id corresponding to this value.</assert>
+        </rule>
+        <rule context="tei:persName[starts-with(@corresp, 'frus')]">
+            <assert test="
+                substring-before(@corresp, '#') = $vol-ids 
+                and 
+                (
+                    if (doc-available(concat('../volumes/', substring-before(@corresp, '#') , '.xml'))) then
+                        doc(concat('../volumes/', substring-before(@corresp, '#') , '.xml'))//*/@xml:id = substring-after(@corresp, '#')
+                    else if (doc-available(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@corresp, '#') , '.xml'))) then
+                        doc(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@corresp, '#') , '.xml'))//*/@xml:id = substring-after(@corresp, '#')
+                    else
+                        false()
+                )
+                ">persName/@corresp='<value-of select="@corresp"/>' is an invalid value.  No persName has been defined in that volume with an @xml:id corresponding to this value.</assert>
         </rule>
         <rule context="tei:gloss[@target]">
             <assert test="substring-after(@target, '#') = $term-ids">gloss/@target='<value-of select="@target"/>' is an invalid value.  No term has been defined with an @xml:id corresponding to this value.</assert>
