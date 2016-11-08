@@ -13,6 +13,7 @@
     <!-- Define variables used by other patterns -->
     <let name="xml-ids" value="//*/@xml:id"/>
     <let name="vol-ids" value="if (doc-available('https://history.state.gov/services/volume-ids')) then doc('https://history.state.gov/services/volume-ids')//volume-id else doc('volume-ids-snapshot.xml')//volume-id"/>
+    <let name="category-ids" value="//tei:category/@xml:id"/>
     <let name="persName-ids" value="//tei:persName/@xml:id"/>
     <let name="term-ids" value="//tei:term/@xml:id"/>
     <let name="documents" value="//tei:div[@type='document']"/>
@@ -204,6 +205,9 @@
         </rule>
         <rule context="tei:gloss[@target]">
             <assert test="substring-after(@target, '#') = $term-ids">gloss/@target='<value-of select="@target"/>' is an invalid value.  No term has been defined with an @xml:id corresponding to this value.</assert>
+        </rule>
+        <rule context="tei:date[@ana]">
+            <assert test="substring-after(@ana, '#') = $category-ids">date/@ana='<value-of select="@ana"/>' is an invalid value.  No category has been defined with an @xml:id corresponding to this value.</assert>
         </rule>
         <rule context="@xml:id">
             <assert test="count(index-of($xml-ids, .)) eq 1">@xml:id=<value-of select="."/>. Two elements cannot have the same xml:id attribute.</assert>

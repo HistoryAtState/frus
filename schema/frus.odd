@@ -4,13 +4,18 @@
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:rng="http://relaxng.org/ns/structure/1.0"
     xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+    xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>FRUS TEI Guidelines</title>
-                <author><persName xml:id="Mandy">Mandy Chalou</persName></author>
-                <author><persName xml:id="Joe">Joe Wicentowski</persName></author>
+                <author>
+                    <persName xml:id="Mandy">Mandy Chalou</persName>
+                </author>
+                <author>
+                    <persName xml:id="Joe">Joe Wicentowski</persName>
+                </author>
             </titleStmt>
             <publicationStmt>
                 <availability>
@@ -143,6 +148,8 @@
                                 information used in the creation of the FRUS-TEI edition</item>
                             <item><code>encodingDesc/editorialDecl/correction</code>: Corrections
                                 made to the source text and known issues</item>
+                            <item><code>encodingDesc/classDecl/taxonomy</code>: Any taxonomies
+                                referenced by the volume</item>
                             <item><code>revisionDesc/change</code>: A log of major revisions</item>
                         </list>
                     </p>
@@ -196,6 +203,10 @@
                                         </p>
                                     </correction>
                                 </editorialDecl>
+                                <classDecl>
+                                    <xi:include href="../shared/frus-dates.xml"
+                                        xpointer="frus-dates"/>
+                                </classDecl>
                             </encodingDesc>
                             <revisionDesc>
                                 <change>2008-11-06 PA/HO JW: Created volume shell for HCL</change>
@@ -279,7 +290,8 @@
                                 sections, such as the Preface, Table of Contents, etc. Each
                                     <gi>div</gi> requires <att>xml:id</att> and <att>type</att>
                                 attributes and a child <gi>head</gi>element.</p>
-                            <egXML xmlns="http://www.tei-c.org/ns/Examples"><front>
+                            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                <front>
                                     <titlePage/>
                                     <div xml:id="preface" type="section">
                                         <head>Preface</head>
@@ -298,7 +310,8 @@
                                             </item>
                                         </list>
                                     </div>
-                                </front></egXML>
+                                </front>
+                            </egXML>
                             <p>Lengthy tables of contents appear in many pre-1945 volumes. These
                                 should be encoded as they appear, as tables. When tables are
                                 interrupted by a page break, let the table span across the
@@ -353,7 +366,8 @@
                                 document divisions. Note that the nesting must reflect the hierarchy
                                 shown in the table of contents, so use the table of contents as a
                                 guide to ensure the nesting structure is correct.</p>
-                            <egXML xmlns="http://www.tei-c.org/ns/Examples"><body>
+                            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                <body>
                                     <div xml:id="comp1" type="compilation">
                                         <head>China</head>
                                         <div xml:id="ch1" type="chapter">
@@ -376,7 +390,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </body></egXML>
+                                </body>
+                            </egXML>
                             <p>(See below for more information on other the features shown here,
                                 such as <ref target="#cross-references">cross-references and
                                     footnotes</ref> and <ref target="#datelines"
@@ -409,7 +424,8 @@
                                     elements. Special care should be taken to identify whether cross
                                     references refer to document numbers or page numbers. Some
                                     index</p>
-                                <egXML xmlns="http://www.tei-c.org/ns/Examples"><back>
+                                <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                                    <back>
                                         <div xml:id="index" type="section">
                                             <head>Index</head>
                                             <list>
@@ -421,7 +437,8 @@
                                                   </list></item>
                                             </list>
                                         </div>
-                                    </back></egXML>
+                                    </back>
+                                </egXML>
                             </div>
                         </div>
                     </div>
@@ -466,9 +483,7 @@
                                 <item><ident>right</ident>: the "paragraph" is actually a
                                     right-aligned span of text</item>
                                 <item><ident>center</ident>: the "paragraph" is actually a centered
-                                    section heading within a document <gi>div</gi></item>
-
-                            </list>
+                                    section heading within a document <gi>div</gi></item> </list>
                         </p>
                         <p>Paragraphs may not be empty.</p>
                     </div>
@@ -553,7 +568,8 @@
                             the target volume's ID:</p>
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                             <ref target="frus1969-76v18"><em>Foreign Relations</em> 1969–1976,
-                                Volume XVIII, China, 1973–1976</ref></egXML>
+                                Volume XVIII, China, 1973–1976</ref>
+                        </egXML>
                         <p>Cross references to items in other volumes are composed of the volume ID
                             and the xml:id of the target element:</p>
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -759,7 +775,8 @@
                     <moduleRef key="tei"/>
                     <moduleRef key="header"
                         include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc 
-                        encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change"/>
+                        encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change 
+                        classDecl taxonomy category catDesc"/>
                     <moduleRef key="textstructure"
                         include="TEI text body div byline dateline opener salute closer signed postscript titlePage 
                         docTitle titlePart docImprint docDate front back"/>
@@ -768,9 +785,10 @@
                     <!-- including the linking module gives us @corresp -->
                     <moduleRef key="linking" include="anchor seg"/>
                     <!-- including the transcr module gives us @facs -->
-                    <moduleRef key="transcr" include="facsimile space"> </moduleRef>
-                    
-                    
+                    <moduleRef key="transcr" include="facsimile space"/> 
+                    <!-- including the analysis module gives us @ana -->
+                    <moduleRef key="analysis" include="ana"/> 
+
                     <!-- remove all transcr attributes except for @facs -->
                     <classSpec type="atts" module="linking" ident="att.global.linking" mode="change">
                         <attList>
@@ -783,16 +801,8 @@
                             <attDef ident="select" mode="delete"/>
                         </attList>
                     </classSpec>
-
-                    <!-- remove a few attrs from a class (selective thinning):  -->
-                    <classSpec type="atts" ident="att.global" mode="change">
-                        <attList>
-                            <attDef ident="xml:space" mode="delete"/>
-                            <attDef ident="xml:base" mode="delete"/>
-                        </attList>
-                    </classSpec>
-
-                    <!-- kill a few more -->
+                    
+                    <!-- remove a few attributes (selective thinning): -->
                     <classSpec type="atts" ident="att.breaking" mode="delete"/>
                     <classSpec type="atts" ident="att.declarable" mode="delete"/>
                     <classSpec type="atts" ident="att.declaring" mode="delete"/>
@@ -813,7 +823,7 @@
                         </attList>
                     </classSpec>
                     <classSpec type="atts" ident="att.personal" mode="delete"/>
-                    
+
                     <!-- 
                     remove attributes from <gap>, but ensure @quantity and @unit are available from att.dimensions
                     -->
@@ -833,9 +843,9 @@
                             <attDef ident="extent" mode="delete"/>
                             <attDef ident="precision" mode="delete"/>
                             <attDef ident="scope" mode="delete"/>
-                        </attList>                        
+                        </attList>
                     </classSpec>
-                    
+
                     <!-- 
                     add frus:classification 
                     -->
@@ -963,10 +973,12 @@
                             <attDef ident="type" usage="opt" mode="replace">
                                 <valList type="closed">
                                     <valItem ident="participants">
-                                        <gloss>A list of participants, attendees, recipients (appears at the beginning of a document)</gloss>
+                                        <gloss>A list of participants, attendees, recipients
+                                            (appears at the beginning of a document)</gloss>
                                     </valItem>
                                     <valItem ident="subject">
-                                        <gloss>A subject heading (appears at the beginning of a document)</gloss>
+                                        <gloss>A subject heading (appears at the beginning of a
+                                            document)</gloss>
                                     </valItem>
                                     <valItem ident="index">
                                         <gloss>Back of book Index</gloss>
@@ -998,7 +1010,7 @@
                             </attDef>
                         </attList>
                     </elementSpec>
-                    
+
 
                     <!-- 
                     constrain tei:div/@type
@@ -1095,7 +1107,109 @@
                             </attDef>
                         </attList>
                     </elementSpec>
+                    
+                    <!-- 
+                    constrain tei:date/@ana
+                    -->
+                    <elementSpec ident="date" module="core" mode="change">
+                        <desc>Restrict @ana values for tei:date elements</desc>
+                        <attList>
+                            <attDef ident="ana" usage="opt" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="#date_apparent-typo-based-on-sibling-dates">
+                                        <gloss>The recorded date was determined to be an error by
+                                            typo based on nearest dated siblings and corrected date
+                                            value(s) were inferred from nearest dated
+                                            siblings</gloss>
+                                    </valItem>
+                                    <valItem ident="#date_undated-inferred-from-sibling-dates">
+                                        <gloss>Date value(s) for undated document were inferred from
+                                            nearest dated siblings</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
 
+                    <!-- support xinclude, copied from http://www.tei-c.org/Guidelines/Customization/odds.xml -->
+                    <elementSpec 
+                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                        ident="include" 
+                        ns="http://www.w3.org/2001/XInclude" 
+                        mode="add">
+                        <desc  xml:lang="en" versionDate="2014-01-12">The W3C XInclude element</desc>
+                        <classes>
+                            <memberOf key="model.common"/>
+                            <memberOf key="model.teiHeaderPart"/>
+                        </classes>
+                        <content>
+                            <rng:optional>
+                                <rng:ref name="fallback"/>
+                            </rng:optional>
+                        </content>
+                        <attList>
+                            <attDef ident="href">
+                                <desc  xml:lang="en" versionDate="2014-01-12">pointer to the resource being included</desc>
+                                <datatype>
+                                    <rng:ref name="data.pointer"/>
+                                </datatype>
+                            </attDef>
+                            
+                            <attDef ident="parse"  usage="opt">
+                                <defaultVal>xml</defaultVal>
+                                <valList type="closed">
+                                    <valItem ident="xml"/>
+                                    <valItem ident="text"/>
+                                </valList>
+                            </attDef>
+                            
+                            <attDef ident="xpointer" usage="opt">
+                                <datatype>
+                                    <rng:text/>
+                                </datatype>
+                            </attDef>
+                            
+                            <attDef ident="encoding"  usage="opt">
+                                <datatype>
+                                    <rng:text/>
+                                </datatype>
+                            </attDef>
+                            
+                            <attDef ident="accept" usage="opt">
+                                <datatype>
+                                    <rng:text/>
+                                </datatype>
+                            </attDef>
+                            
+                            <attDef ident="accept-charset"  usage="opt">
+                                <datatype>
+                                    <rng:text/>
+                                </datatype>
+                            </attDef>
+                            
+                            <attDef ident="accept-language"  usage="opt">
+                                <datatype>
+                                    <rng:text/>
+                                </datatype>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
+                    <elementSpec 
+                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                        ident="fallback" 
+                        ns="http://www.w3.org/2001/XInclude" 
+                        mode="add">
+                        <desc  xml:lang="en" versionDate="2014-01-12">Wrapper for fallback elements if an XInclude fails</desc>
+                        <content>
+                            <oneOrMore xmlns="http://relaxng.org/ns/structure/1.0">
+                                <choice>
+                                    <text/>
+                                    <ref name="macro.anyThing"/>
+                                </choice>
+                            </oneOrMore>
+                        </content>
+                    </elementSpec>
                 </schemaSpec>
             </div>
         </body>
