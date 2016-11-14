@@ -1126,6 +1126,10 @@
                                         <gloss>Date value(s) for undated document were inferred from
                                             nearest dated siblings</gloss>
                                     </valItem>
+                                    <valItem ident="#date_undated-inferred-from-document-content">
+                                        <gloss>Date value(s) for undated document were inferred from
+                                            the content of the document</gloss>
+                                    </valItem>
                                 </valList>
                             </attDef>
                         </attList>
