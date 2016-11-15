@@ -1061,6 +1061,9 @@ date =
       ##                                             siblings) 
       "#date_apparent-typo-based-on-sibling-dates"
       | 
+        ## (Date value(s) were corrected based on compiler/editor notation.) 
+        "#date_editorial-correction"
+      | 
         ## (Date value(s) for undated document were inferred from
         ##                                             nearest dated siblings) 
         "#date_undated-inferred-from-sibling-dates"
