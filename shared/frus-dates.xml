@@ -20,9 +20,19 @@
                             nearest dated siblings and corrected date value(s) were inferred from
                             nearest dated siblings</catDesc>
                     </category>
+                    <category xml:id="date_editorial-correction">
+                        <catDesc>The recorded date was determined to be an error by the FRUS 
+                            compiler/editor, who indicated the corrected date at the time of 
+                            original publication. Date value(s) were corrected based on 
+                            compiler/editor notation.</catDesc>
+                    </category>
                     <category xml:id="date_undated-inferred-from-sibling-dates">
                         <catDesc>Date value(s) for undated document were inferred from nearest dated
                             siblings</catDesc>
+                    </category>
+                    <category xml:id="date_undated-inferred-from-document-content">
+                        <catDesc>Date value(s) for undated document were inferred from the content
+                            of the document</catDesc>
                     </category>
                     <!-- other categories -->
                 </taxonomy>
