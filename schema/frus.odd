@@ -1119,6 +1119,11 @@
                         <attList>
                             <attDef ident="ana" usage="opt" mode="replace">
                                 <valList type="closed">
+                                    <valItem ident="#date_apparent-typo-based-on-outside-research">
+                                        <gloss>The recorded date was determined to be an error via
+                                            outside research and corrected date value(s) were inferred 
+                                            from related sources</gloss>
+                                    </valItem>
                                     <valItem ident="#date_apparent-typo-based-on-sibling-dates">
                                         <gloss>The recorded date was determined to be an error by
                                             typo based on nearest dated siblings and corrected date

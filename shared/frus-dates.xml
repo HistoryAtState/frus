@@ -15,6 +15,11 @@
         <encodingDesc>
             <classDecl>
                 <taxonomy xml:id="frus-dates">
+                    <category xml:id="date_apparent-typo-based-on-outside-research">
+                        <catDesc>The recorded date was determined to be an error via
+                            outside research and corrected date value(s) were inferred 
+                            from related sources</catDesc>
+                    </category>
                     <category xml:id="date_apparent-typo-based-on-sibling-dates">
                         <catDesc>The recorded date was determined to be an error by typo based on
                             nearest dated siblings and corrected date value(s) were inferred from

@@ -1055,13 +1055,18 @@ date =
     ##
     attribute ana {
       
-      ## (The recorded date was determined to be an error by
-      ##                                             typo based on nearest dated siblings and corrected date
-      ##                                             value(s) were inferred from nearest dated
-      ##                                             siblings) 
-      "#date_apparent-typo-based-on-sibling-dates"
+        ## (The recorded date was determined to be an error via 
+        ##                                             outside research and corrected date value(s) were
+        ##                                             inferred from related sources) 
+        "#date_apparent-typo-based-on-outside-research"
+      |         
+        ## (The recorded date was determined to be an error by
+        ##                                             typo based on nearest dated siblings and corrected date
+        ##                                             value(s) were inferred from nearest dated
+        ##                                             siblings) 
+        "#date_apparent-typo-based-on-sibling-dates"
       | 
-        ## (Date value(s) were corrected based on compiler/editor notation.) 
+        ## (Date value(s) were corrected based on compiler/editor notation) 
         "#date_editorial-correction"
       | 
         ## (Date value(s) for undated document were inferred from
