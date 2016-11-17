@@ -16,6 +16,9 @@
                 <author>
                     <persName xml:id="Joe">Joe Wicentowski</persName>
                 </author>
+                <contributor>
+                    <persName xml:id="Amanda">Amanda Ross</persName>
+                </contributor>
             </titleStmt>
             <publicationStmt>
                 <availability>
@@ -1116,15 +1119,30 @@
                         <attList>
                             <attDef ident="ana" usage="opt" mode="replace">
                                 <valList type="closed">
+                                    <valItem ident="#date_apparent-typo-based-on-outside-research">
+                                        <gloss>The recorded date was determined to be an error via
+                                            outside research and corrected date value(s) were inferred 
+                                            from related sources</gloss>
+                                    </valItem>
                                     <valItem ident="#date_apparent-typo-based-on-sibling-dates">
                                         <gloss>The recorded date was determined to be an error by
                                             typo based on nearest dated siblings and corrected date
                                             value(s) were inferred from nearest dated
                                             siblings</gloss>
                                     </valItem>
+                                    <valItem ident="#date_editorial-correction">
+                                        <gloss>The recorded date was determined to be an error by the FRUS compiler/editor, 
+                                            who indicated the corrected date at the time of original publication.
+                                            Date value(s) were corrected based on compiler/editor notation.
+                                        </gloss>
+                                    </valItem>
                                     <valItem ident="#date_undated-inferred-from-sibling-dates">
                                         <gloss>Date value(s) for undated document were inferred from
                                             nearest dated siblings</gloss>
+                                    </valItem>
+                                    <valItem ident="#date_undated-inferred-from-document-content">
+                                        <gloss>Date value(s) for undated document were inferred from
+                                            the content of the document</gloss>
                                     </valItem>
                                 </valList>
                             </attDef>

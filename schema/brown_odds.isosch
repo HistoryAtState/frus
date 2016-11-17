@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
+   <title>ISO Schematron rules</title>
+   <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+   <ns prefix="rng" uri="http://relaxng.org/ns/structure/1.0"/>
+   <ns prefix="s" uri="http://www.ascc.net/xml/schematron"/>
+   <ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
+   <pattern id="ptr-constraint-ptrAtts">
+      <rule context="tei:ptr">
+         <report test="@target and @cRef">Only one of the
+	attributes 'target' and 'cRef' may be supplied.</report>
+      </rule>
+   </pattern>
+   <pattern id="ref-constraint-refAtts">
+      <rule context="tei:ref">
+         <report test="@target and @cRef">Only one of the
+	attributes 'target' and 'cRef' may be supplied.</report>
+      </rule>
+   </pattern>
+   <pattern id="relatedItem-constraint-targetorcontent1">
+      <rule context="tei:relatedItem">
+         <report test="@target and count( child::* ) &gt; 0">If the 'target' attribute is used, the
+        relatedItem element must be empty</report>
+         <assert test="@target or child::*">A relatedItem element should have either a 'target' attribute
+        or a child element to indicate the related bibliographic item</assert>
+      </rule>
+   </pattern>
+   <pattern id="moduleRef-constraint-not-key-and-url">
+      <rule context="tei:moduleRef">
+                <report test="@url and @key">
+                  only the key= OR the url= attribute of ﹤moduleRef﹥ should be supplied, not both
+                </report>
+              </rule>
+   </pattern>
+   <pattern id="moduleRef-constraint-not-include-and-except">
+      <rule context="tei:moduleRef">
+                <report test="@except and @include">
+                  only the exclude= OR the include= attribute of ﹤moduleRef﹥ should be supplied, not both
+                </report>
+              </rule>
+   </pattern>
+   <pattern id="moduleRef-constraint-modref">
+      <rule context="tei:moduleRef">
+        <report test="* and @key">
+	  child elements of moduleRef are only allowed when an external module
+	  is being loaded
+	</report>
+      </rule>
+   </pattern>
+   <pattern id="schemaSpec-constraint-nc-prefix">
+      <rule context="tei:schemaSpec">
+         <report test="contains(@prefix,':')">
+                the colon in the value of the prefix= attribute of ﹤schemaSpec﹥ will cause your schema to be invalid.
+              </report>
+      </rule>
+   </pattern>
+   <pattern id="schemaSpec-constraint-required-modules">
+      <rule context="tei:schemaSpec">
+         <assert test="tei:moduleRef[@key='tei']       and                   tei:moduleRef[@key='core']      and     tei:moduleRef[@key='header']    and     tei:moduleRef[@key='textstructure']">
+                missing one or more of the required modules (tei, core, header, textstructure).
+              </assert>
+      </rule>
+   </pattern>
+   <pattern id="elementSpec-constraint-module-except-when-add">
+      <rule context="tei:elementSpec">
+                <assert test="@mode">in a customization ODD, the mode= attribute of ﹤elementSpec﹥ should be specified</assert>
+                <report test="not( @module ) and not( @mode='add' )">
+                  the module= attribute of ﹤elementSpec﹥ must be specified anytime the mode= is not 'add'
+                </report>
+              </rule>
+   </pattern>
+   <pattern id="altIdent-constraint-altIdent-only-NCName">
+      <rule context="tei:altIdent">
+                <assert test="(  parent::tei:attDef       or parent::tei:classSpec       or parent::tei:constraintSpec       or parent::tei:elementSpec       or parent::tei:macroSpec       or parent::tei:moduleSpec       or parent::tei:schemaSpec       ) and       (normalize-space(.) castable as xs:NCName)">
+		  The content of ﹤altIdent﹥ should be an XML Name
+		  (w/o a namespace prefix), unless a child of
+		  ﹤valItem﹥ (and even then, it's not a bad idea :-)</assert>
+              </rule>
+   </pattern>
+   <pattern id="constraintSpec-constraint-sch">
+      <rule context="tei:constraintSpec">
+         <report test="tei:constraint/s:* and    not(@scheme='schematron')">
+	Rules in the Schematron 1.* language must be inside
+	a constraint with a value of 'schematron' on the scheme attribute
+      </report>
+      </rule>
+   </pattern>
+   <pattern id="constraintSpec-constraint-isosch">
+      <rule context="tei:constraintSpec">
+         <report test="tei:constraint/sch:* and    not(@scheme='isoschematron')">
+	Rules in the ISO Schematron language must be inside
+	a constraint with a value of 'isoschematron' on the scheme attribute
+      </report>
+      </rule>
+   </pattern>
+</schema>
