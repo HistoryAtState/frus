@@ -32,6 +32,12 @@
         </rule>
     </pattern>
     
+    <pattern id="processing-instruction-check">
+        <rule context="/processing-instruction()">
+            <assert test="not(.)">Please remove root level processing instructions before delivery.</assert>
+        </rule>
+    </pattern>
+    
     <pattern id="tei-header-checks">
         <title>TEI Header Checks</title>
         <rule context="tei:fileDesc">
