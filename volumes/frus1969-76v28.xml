@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1969-76v28">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="frus1969-76v28">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,6 +25,11 @@
                 <p>Released in 2011 as PDF online at history.state.gov</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <front>
@@ -2236,7 +2244,7 @@
                                 Helsinki, Madrid, Lusaka, Taipei, Dakar, Dar es Salaam, Addis Ababa,
                                 and Monrovia.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1969-02-17T21:12:00">February 17, 1969,
+                                when="1969-02-17T21:12:00+00:00">February 17, 1969,
                             2112Z</date>.</dateline>
                         <p>25151. Capetown for Embassy.<note n="2" xml:id="d2fn2">The primary
                                 location of the U.S. Embassy was Pretoria, where the majority of the
@@ -2392,7 +2400,7 @@
                                 Mbabane, Stockholm, Bonn, Helsinki, Madrid, Lusaka, Taipei, Dakar,
                                 Dar es Salaam, Addis Ababa, Nairobi, Tokyo, Durban, and
                                 Johannesburg.</note></head>
-                        <dateline><placeName>Cape Town</placeName>, <date when="1969-02-19T15:43:00"
+                        <dateline><placeName>Cape Town</placeName>, <date when="1969-02-19T15:43:00+00:00"
                                 >February 19, 1969, 1543Z</date>.</dateline>
                         <p>242. Subj: Protest on South West Africa Bill. Ref: State 025151.<note
                                 n="2" xml:id="d4fn2"><ref target="#d2">Document 2</ref>.</note></p>
@@ -2581,7 +2589,7 @@
                                 to Pretoria, Helsinki, Lusaka, London, Stockholm, Geneva, Durban,
                                 and Johannesburg.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1969-05-02T21:41:00">May 2, 1969, 2141Z</date>.</dateline>
+                                when="1969-05-02T21:41:00+00:00">May 2, 1969, 2141Z</date>.</dateline>
                         <p>69050. Subj: <gloss target="#t_SWA_1">SWA</gloss> 10. Ref: Cape Town
                                 1488.<note n="2" xml:id="d7fn2">“1488” is an error; reference is to
                                 telegram 639 from Cape Town, May 1. In that telegram, <persName
@@ -2999,7 +3007,7 @@
                                 Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Files
                                 1967–69, PPT Ashe, Arthur. Confidential. Repeated to
                             London.</note></head>
-                        <dateline><placeName>Pretoria</placeName>, <date when="1969-07-24T15:59:00"
+                        <dateline><placeName>Pretoria</placeName>, <date when="1969-07-24T15:59:00+00:00"
                                 >July 24, 1969, 1559Z</date>.</dateline>
                         <p>2094. Subject: Ashe Visa. Ref: State 121981.<note n="2" xml:id="d12fn2"
                                 >In telegram 121981 to Pretoria, July 23, the Department asked the
@@ -3216,7 +3224,7 @@
                                 Geneva, <gloss target="#t_USUN_1">USUN</gloss>, Cape Town, Durban,
                                 and Johannesburg.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1969-08-01T22:46:00">August 1, 1969, 2246Z</date>.</dateline>
+                                when="1969-08-01T22:46:00+00:00">August 1, 1969, 2246Z</date>.</dateline>
                         <p>129016. Subj: <gloss target="#t_SWA_1">SWA</gloss>, <gloss
                                 target="#t_BOSS_1">BOSS</gloss>, <gloss target="#t_TA_1">TA</gloss>
                             Trial II.</p>
@@ -4767,7 +4775,7 @@
                                 1967–69, PPT Ashe, Arthur. Confidential; <gloss target="#t_Limdis_1"
                                     >Limdis</gloss>. Repeated to Cape Town, Durban, and
                                 Johannesburg.</note></head>
-                        <dateline><placeName>Pretoria</placeName>, <date when="1969-12-16T10:30:00"
+                        <dateline><placeName>Pretoria</placeName>, <date when="1969-12-16T10:30:00+00:00"
                                 >December 16, 1969, 1030Z</date>.</dateline>
                         <p>3471. Subj: Ashe Visa. Ref: State 206809.<note n="2" xml:id="d19fn2">In
                                 telegram 206809 to Pretoria, December 12, the Department outlined
@@ -5161,7 +5169,7 @@
                                 1967–69, PPT Ashe, Arthur. Confidential; <gloss target="#t_Limdis_1"
                                     >Limdis</gloss>. Repeated to Cape Town, Durban, and
                                 Johannesburg.</note></head>
-                        <dateline><placeName>Pretoria</placeName>, <date when="1969-12-19T17:38:00"
+                        <dateline><placeName>Pretoria</placeName>, <date when="1969-12-19T17:38:00+00:00"
                                 >December 19, 1969, 1738Z</date>.</dateline>
                         <p>3498. Subject: Ashe Visa.</p>
                         <p>1. As reported Pretoria <gloss target="#t_reftel_1">reftel</gloss>,<note
@@ -5618,7 +5626,7 @@
                                 Cape Town, Lusaka, and <gloss target="#t_USUN_1"
                                 >USUN</gloss>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1970-02-28T22:33:00">February 28, 1970,
+                                when="1970-02-28T22:33:00+00:00">February 28, 1970,
                             2233Z</date>.</dateline>
                         <p>30186. Conakry for Asst Sec <persName corresp="#p_ND_1"
                             >Newsom</persName>. Subj: British Démarche on AmConGen Salisbury. Ref:
@@ -7048,7 +7056,7 @@
                                 Minister <persName corresp="#p_HERG_1">Heath</persName> and Foreign
                                 Secretary <persName corresp="#p_DSA_1"
                                 >Douglas-Home</persName>.</note></head>
-                        <dateline><placeName>London</placeName>, <date when="1970-07-12T09:30:00"
+                        <dateline><placeName>London</placeName>, <date when="1970-07-12T09:30:00+00:00"
                                 >July 12, 1970, 0930Z</date>.</dateline>
                         <p><gloss target="#t_Secto_1">Secto</gloss> 96/5481. Uncleared, FYI only.
                             Subject to revision on review.</p>
@@ -7114,7 +7122,7 @@
                                 diplomatic posts, Paris, and <gloss target="#t_USUN_1"
                                 >USUN</gloss>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1970-07-22T23:16:00">July 22, 1970, 2316Z</date>.</dateline>
+                                when="1970-07-22T23:16:00+00:00">July 22, 1970, 2316Z</date>.</dateline>
                         <p>117924. Subj: U.S. Reaction to U.K. Arms Sales to South Africa. Ref:
                             State 116834.<note n="2" xml:id="d36fn2">In telegram 116834 to London,
                                 July 21, the Department transmitted a statement to be delivered July
@@ -7470,7 +7478,7 @@
                                 Repeated to Cape Town, Pretoria, London, Paris, Lisbon, Algiers, and
                                 Khartoum.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1970-07-24T00:45:00">July 24, 1970, 0045Z</date>.</dateline>
+                                when="1970-07-24T00:45:00+00:00">July 24, 1970, 0045Z</date>.</dateline>
                         <p>118846. Subject: Arms Sales to South Africa and the Security Council.
                             Ref: State 116834 and 117924.<note n="2" xml:id="d38fn2">For telegram
                                 116834, see <ref target="#d36fn2">footnote 2, Document 36</ref>.
@@ -7719,7 +7727,7 @@
                                 Lisbon, Lusaka, Pretoria, Cape Town, and <gloss target="#t_USUN_1"
                                     >USUN</gloss>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1970-09-10T23:49:00">September 10, 1970,
+                                when="1970-09-10T23:49:00+00:00">September 10, 1970,
                             2349Z</date>.</dateline>
                         <p>148716. Subject: Rhodesia. Ref.: <gloss target="#t_CA_1">CA</gloss> 4706,
                             September 4, 1970(<gloss target="#t_Notal_1">Notal</gloss>).<note n="2"
@@ -7909,7 +7917,7 @@
                                     >Newsom</persName>, and approved by Curran. The text was
                                 initially received from the White House.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1971-01-21T22:00:00">January 21, 1971,
+                                when="1971-01-21T22:00:00+00:00">January 21, 1971,
                             2200Z</date>.</dateline>
                         <p>11057. 1. Please pass the following message from the President to
                             President <persName corresp="#p_KK_1">Kaunda</persName>.</p>
@@ -8361,7 +8369,7 @@
                                     <persName corresp="#p_ETL_1">Eliot</persName>, and approved by
                                 Rogers. A handwritten note reads: “Inform Consuls.”</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1971-04-02T17:38:00">April 2, 1971, 1738Z</date>.</dateline>
+                                when="1971-04-02T17:38:00+00:00">April 2, 1971, 1738Z</date>.</dateline>
                         <p>55581. Subj: African Contacts with South Africa.</p>
                         <p>1. In view of current movement and direction relating to black African
                             contacts with South Africa, it is important that all posts have <pb
@@ -8395,7 +8403,7 @@
                                     corresp="#p_JUA_1">Johnson</persName>. Repeated to Addis Ababa,
                                 Pretoria, Tananarive, Durban, and Johannesburg.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1971-05-01T20:02:00">May 1, 1971, 2002Z</date>.</dateline>
+                                when="1971-05-01T20:02:00+00:00">May 1, 1971, 2002Z</date>.</dateline>
                         <p>75658. Cape Town for Ambassador. Addis for <persName corresp="#p_ND_1"
                                 >Newsom</persName>.</p>
                         <p>Subject: Attendance at Opera House Opening. Ref: Tananarive 673.<note
@@ -8464,7 +8472,7 @@
                                 to Pretoria, Durban, and Johannesburg. A handwritten note reads:
                                 “Cape Town for Embassy.” </note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1971-05-14T01:36:00">May 14, 1971, 0136Z</date>.</dateline>
+                                when="1971-05-14T01:36:00+00:00">May 14, 1971, 0136Z</date>.</dateline>
                         <p>83977. Subject: <persName corresp="#p_DCC_1">Diggs</persName> Rejoinder
                             on Segregated Facilities in South Africa. Ref: State 72440 and 75658;
                             Tananarive 673.<note n="2" xml:id="d50fn2">Telegram 75658 is printed as
@@ -8519,7 +8527,7 @@
                                 Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Files
                                 1970–73, SOC 14 S AFR. Confidential; Priority; <gloss
                                     target="#t_Limdis_1">Limdis</gloss>.</note></head>
-                        <dateline><placeName>Yaounde</placeName>, <date when="1971-05-16T12:30:00"
+                        <dateline><placeName>Yaounde</placeName>, <date when="1971-05-16T12:30:00+00:00"
                                 >May 16, 1971, 1230Z</date>.</dateline>
                         <p>1406. No distribution outside Department. Subject: US Diplomatic Policy
                             in South Africa. Ref: State 085175, 085174.<note n="2" xml:id="d51fn2"
@@ -8737,7 +8745,7 @@
                                 L and <gloss target="#t_IO_1">IO</gloss>; and approved by <persName
                                     corresp="#p_ND_1">Newsom</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1971-09-22T19:52:00">September 22, 1971,
+                                when="1971-09-22T19:52:00+00:00">September 22, 1971,
                             1952Z</date>.</dateline>
                         <p>174301. Subj: South West Africa.</p>
                         <p>1. Clifford J. Hynning, Washington attorney for South African Government
@@ -8855,7 +8863,7 @@
                             of State<note n="1" xml:id="d55fn1" type="source">Source: National
                                 Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Files
                                 1970–73, INCO–CHROME 17 US–RHOD. Unclassified.</note></head>
-                        <dateline><placeName>New York</placeName>, <date when="1971-09-24T21:38:00"
+                        <dateline><placeName>New York</placeName>, <date when="1971-09-24T21:38:00+00:00"
                                 >September 24, 1971, 2138Z</date>.</dateline>
                         <p>2843. Dept pass SecState for <persName corresp="#p_RWP_1"
                                 >Rogers</persName>, White House for President and <persName
@@ -9448,7 +9456,7 @@
                                     >Newsom</persName> on October 6, cleared in AF/S, and approved
                                 by <persName corresp="#p_ND_1">Newsom</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1971-10-07T01:20:00">October 7, 1971, 0120Z</date>.</dateline>
+                                when="1971-10-07T01:20:00+00:00">October 7, 1971, 0120Z</date>.</dateline>
                         <p>184166. Subj: South West Africa.</p>
                         <p>1. Following up Secretary’s talk with FonMin <persName corresp="#p_MH_1"
                                 >Muller</persName> of South Africa,<note n="2" xml:id="d60fn2"
@@ -9850,7 +9858,7 @@
                                     corresp="#p_KHA_1">Kissinger</persName>; and approved by
                                     <persName corresp="#p_MCR_1">Moore</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1971-11-23T03:05:00">November 23, 1971,
+                                when="1971-11-23T03:05:00+00:00">November 23, 1971,
                             0305Z</date>.</dateline>
                         <p>212392. Eyes only for Ambassador <persName corresp="#p_HJ_2"
                                 >Hurd</persName>.</p>
@@ -9991,7 +9999,7 @@
                                     target="#t_AF_1">AF</gloss>; and approved by <persName
                                     corresp="#p_IJN_1">Irwin</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1971-11-29T12:15:00">November 29, 1971,
+                                when="1971-11-29T12:15:00+00:00">November 29, 1971,
                             1215Z</date>.</dateline>
                         <p>215061. Lome for <persName corresp="#p_ND_1">Newsom</persName>. Subj:
                             Rhodesia: Godber Visit.</p>
@@ -10726,7 +10734,7 @@
                                 and AF/RA; and approved by Herz. Repeated to London, Pretoria, and
                                 Paris.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1972-11-27T22:00:00">November 27, 1972,
+                                when="1972-11-27T22:00:00+00:00">November 27, 1972,
                             2200Z</date>.</dateline>
                         <p>214498. Subject Escher Report on Namibia.<note n="2" xml:id="d73fn2">In
                                 an effort to continue contacts between the U.N. Secretary General
@@ -10823,7 +10831,7 @@
                                     target="#t_Limdis_1">Limdis</gloss>. Repeated Immediate to
                                     <gloss target="#t_USUN_1">USUN</gloss> and also repeated to
                                 Pretoria.</note></head>
-                        <dateline>Cape Town, <date when="1973-05-07T10:35:00">May 7, 1973,
+                        <dateline>Cape Town, <date when="1973-05-07T10:35:00+00:00">May 7, 1973,
                                 1035Z</date>.</dateline>
                         <p>345. Subj: Namibia in <gloss target="#t_SC_1">SC</gloss>: <gloss
                                 target="#t_SAG_1">SAG</gloss> Position. Ref: <gloss
@@ -11072,7 +11080,7 @@
                                     corresp="#p_BLI_1">Brezhnev</persName>, <persName
                                     corresp="#p_GAA_1">Gromyko</persName>, and other Soviet
                                 officials.</note></head>
-                        <dateline><placeName>Moscow</placeName>, <date when="1974-10-24T16:31:00"
+                        <dateline><placeName>Moscow</placeName>, <date when="1974-10-24T16:31:00+00:00"
                                 >October 24, 1974, 1631Z</date>.</dateline>
                         <p><gloss target="#t_Hakto_1">Hakto</gloss> 4. 1. The Department has asked
                             me to send a memo to the White House on the South African question at
@@ -11759,7 +11767,7 @@
                                     target="#t_IO_1">IO</gloss>; and approved by <persName
                                     corresp="#p_KHA_1">Kissinger</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-08-26T15:58:00">August 26, 1976, 1558Z</date>.</dateline>
+                                when="1976-08-26T15:58:00+00:00">August 26, 1976, 1558Z</date>.</dateline>
                         <p>212140. Subject: Message from the Secretary to Foreign Secretary
                                 <persName corresp="#p_CA_1">Crosland</persName>.</p>
                         <p>1. Please deliver the following message from Secretary <persName
@@ -14641,7 +14649,7 @@
                                     <persName corresp="#p_MEW_1">Mulcahy</persName> (AF/S). Repeated
                                 Immediate to London and Lourenco Marques.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1975-06-16T23:00:00">June 16, 1975, 2300Z</date>.</dateline>
+                                when="1975-06-16T23:00:00+00:00">June 16, 1975, 2300Z</date>.</dateline>
                         <p>140867. Subject: Secretary’s Message to <persName corresp="#p_MS_2"
                                 >Machel</persName>. London for Asst Secy <persName corresp="#p_DN_1"
                                 >Davis</persName>. Refs: Lourenco Marques 636, Dar 2108.<note n="2"
@@ -16385,7 +16393,7 @@
                                     corresp="#p_SJL_1">Sisco</persName> and approved by <persName
                                     corresp="#p_KHA_1">Kissinger</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1975-07-23T00:03:00">July 23, 1975, 0003Z</date>.</dateline>
+                                when="1975-07-23T00:03:00+00:00">July 23, 1975, 0003Z</date>.</dateline>
                         <p>172996. Subject: Zaire Aid Package. References: (A) Kinshasa 6755, (B)
                             Kinshasa 6798.<note n="2" xml:id="d119fn2">In telegram 6755 from
                                 Kinshasa, July 22, <persName corresp="#p_VSB_1">Vance</persName>
@@ -16437,7 +16445,7 @@
                                 Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Foreign
                                 Policy Files, P840178–1917. Secret; Cherokee; Niact Immediate;
                                     <gloss target="#t_Nodis_1">Nodis</gloss>.</note></head>
-                        <dateline><placeName>Kinshasa</placeName>, <date when="1975-07-24T13:35:00"
+                        <dateline><placeName>Kinshasa</placeName>, <date when="1975-07-24T13:35:00+00:00"
                                 >July 24, 1975, 1335Z</date>.</dateline>
                         <p>6877. Subject <persName corresp="#p_VSB_1">Vance</persName> Mission:
                             Fourth Meeting with <persName corresp="#p_MSS_1">Mobutu</persName> July
@@ -17063,7 +17071,7 @@
                                     >CINCLANT</gloss> for <gloss target="#t_POLAD_1">POLAD</gloss>,
                                 and <gloss target="#t_CINCEUR_1">CINCEUR</gloss>.</note></head>
                         <dateline><placeName>Lourenco Marques</placeName>, <date
-                                when="1975-08-20T10:30:00">August 20, 1975, 1030Z</date>.</dateline>
+                                when="1975-08-20T10:30:00+00:00">August 20, 1975, 1030Z</date>.</dateline>
                         <p>899. Subject: Mozambique–U.S. Relations. Ref: Lourenco Marques 860.<note
                                 n="2" xml:id="d124fn2">In telegram 860 from Lourenco Marques, August
                                 12, Consul General <persName corresp="#p_WPC_1">Peter
@@ -17997,7 +18005,7 @@
                                     target="#t_INR_1">INR</gloss>, AF/C, and S; and approved by
                                     <persName corresp="#p_HA_1">Hartman</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1975-09-17T03:46:00">September 17, 1975,
+                                when="1975-09-17T03:46:00+00:00">September 17, 1975,
                             0346Z</date>.</dateline>
                         <p>221159. Subject: Portuguese Policy in Angola. For the Ambassador.</p>
                         <p>1. As Secretary directed during your consultations here, we want you to
@@ -18127,7 +18135,7 @@
                                     target="#t_Exdis_1">Exdis</gloss> (2). Confidential; Immediate;
                                     <gloss target="#t_Exdis_1">Exdis</gloss>. Repeated to
                                 Luanda.</note></head>
-                        <dateline><placeName>Lisbon</placeName>, <date when="1975-09-19T18:12:00"
+                        <dateline><placeName>Lisbon</placeName>, <date when="1975-09-19T18:12:00+00:00"
                                 >September 19, 1975, 1812Z</date>.</dateline>
                         <p>5542. Subject: <gloss target="#t_GOP_1">GOP</gloss> Policy in Luanda.</p>
                         <pb n="317" facs="0356" xml:id="pg_317"/>
@@ -18244,7 +18252,7 @@
                                 Policy Files. Secret; Immediate; <gloss target="#t_Exdis_1"
                                     >Exdis</gloss>. Repeated to Kinshasa, Lisbon, Lusaka, Pretoria,
                                 and <gloss target="#t_USUN_1">USUN</gloss>.</note></head>
-                        <dateline><placeName>Luanda</placeName>, <date when="1975-09-25T17:00:00"
+                        <dateline><placeName>Luanda</placeName>, <date when="1975-09-25T17:00:00+00:00"
                                 >September 25, 1975, 1700Z</date>.</dateline>
                         <p>1430. Subject: Portuguese Will Not Accede to <gloss target="#t_UDI_1"
                                 >UDI</gloss> by <gloss target="#t_MPLA_1">MPLA</gloss>.</p>
@@ -18774,7 +18782,7 @@
                                 approved by <persName corresp="#p_MEW_1">Mulcahy</persName>.
                                 Repeated Immediate to Lisbon.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1975-11-02T00:20:00">November 2, 1975,
+                                when="1975-11-02T00:20:00+00:00">November 2, 1975,
                             0020Z</date>.</dateline>
                         <p>259582. Subject: Angolan Contingency Planning. Ref: Luanda 1720 <gloss
                                 target="#t_Notal_1">Notal</gloss>.<note n="2" xml:id="d133fn2">In
@@ -18838,7 +18846,7 @@
                                 Adviser, Presidential Country Files for Africa, Box 2, Angola (2).
                                 Secret; Niact Immediate; <gloss target="#t_Nodis_1"
                                 >Nodis</gloss>.</note></head>
-                        <dateline><placeName>Luanda</placeName>, <date when="1975-11-02T18:15:00"
+                        <dateline><placeName>Luanda</placeName>, <date when="1975-11-02T18:15:00+00:00"
                                 >November 2, 1975, 1815Z</date>.</dateline>
                         <p>1721. For <persName corresp="#p_MEW_1">Mulcahy</persName> from <persName
                                 corresp="#p_KT_1">Killoran</persName>. Subj: Closing of Consulate.
@@ -19030,7 +19038,7 @@
                                     corresp="#p_MEW_1">Mulcahy</persName>. Repeated to Lourenco
                                 Marques.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1975-11-13T23:07:00">November 13, 1975,
+                                when="1975-11-13T23:07:00+00:00">November 13, 1975,
                             2307Z</date>.</dateline>
                         <p>269496. Subject: Angolan Recognition Update. Ref: A) State 265503;<note
                                 n="2" xml:id="d136fn2"><ref target="#d135">Document
@@ -20219,7 +20227,7 @@
                                 Subject File, France, General (4). Secret; Sensitive. Written on
                                 November 24.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1975-11-25T02:00:00">November 25, 1975,
+                                when="1975-11-25T02:00:00+00:00">November 25, 1975,
                             0200Z</date>.</dateline>
                         <p><gloss target="#t_WH_1">WH</gloss> 52262. Deliver at opening of
                             business.</p>
@@ -22079,7 +22087,7 @@
                                     corresp="#p_KHA_1">Kissinger</persName> was in Paris to attend
                                 the Conference on International Economic Cooperation.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1975-12-17T23:16:00">December 17, 1975,
+                                when="1975-12-17T23:16:00+00:00">December 17, 1975,
                             2316Z</date>.</dateline>
                         <p>Tohak 57/WH 52526. 1. We are working two angles at the present time on
                             Angola. The first is to avoid a vote in the Senate today.<note n="2"
@@ -22558,7 +22566,7 @@
                                 Subject File, France, General (4). Secret; Sensitive. Written on
                                 December 18.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1975-12-19T03:14:00">December 19, 1975,
+                                when="1975-12-19T03:14:00+00:00">December 19, 1975,
                             0314Z</date>.</dateline>
                         <p><gloss target="#t_WH_1">WH</gloss> 52530. Deliver at opening of
                             business.</p>
@@ -22868,7 +22876,7 @@
                                 Box 12, General Subject File, France, General (4). Top Secret;
                                 Operational Immediate.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1975-12-20T02:17:00">December 20, 1975,
+                                when="1975-12-20T02:17:00+00:00">December 20, 1975,
                             0217Z</date>.</dateline>
                         <p><gloss target="#t_WH_1">WH</gloss> 52536. Deliver at opening of
                             business.</p>
@@ -22917,7 +22925,7 @@
                                 299944, December 20, and to Lusaka in telegram 299947, December 20.
                                 (Both ibid.)</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1975-12-20T03:32:00">December 20, 1975,
+                                when="1975-12-20T03:32:00+00:00">December 20, 1975,
                             0332Z</date>.</dateline>
                         <p>299943. Subject: Angola: Holding the Line. For Ambassador from the
                             Secretary.</p>
@@ -23076,7 +23084,7 @@
                                 C, and approved by <persName corresp="#p_KHA_1"
                                 >Kissinger</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1975-12-21T01:26:00">December 21, 1975,
+                                when="1975-12-21T01:26:00+00:00">December 21, 1975,
                             0126Z</date>.</dateline>
                         <p>300231. Subject: Angola. Ref: Lisbon 7514.<note n="2" xml:id="d160fn2">In
                                 telegram 7514 from Lisbon, December 18, the Embassy reported on a
@@ -23152,7 +23160,7 @@
                                     <persName corresp="#p_KHA_1">Kissinger</persName> Papers, Box CL
                                 103, Geopolitical File, Angola Chronological File. Secret;
                                 Immediate.</note></head>
-                        <dateline><placeName>Tehran</placeName>, <date when="1975-12-21T18:34:00"
+                        <dateline><placeName>Tehran</placeName>, <date when="1975-12-21T18:34:00+00:00"
                                 >December 21, 1975, 1834Z</date>.</dateline>
                         <p>244. Reference <gloss target="#t_WH_1">WH</gloss> 52538.<note n="2"
                                 xml:id="d161fn2"><ref target="#d159">Document 159</ref>.</note></p>
@@ -23209,7 +23217,7 @@
                                 Manuscript Division, <persName corresp="#p_KHA_1"
                                     >Kissinger</persName> Papers, Box CL 103, Geopolitical File,
                                 Angola Chronological File. Secret; Sensitive.</note></head>
-                        <dateline><placeName>Jidda</placeName>, <date when="1975-12-21T14:41:00"
+                        <dateline><placeName>Jidda</placeName>, <date when="1975-12-21T14:41:00+00:00"
                                 >December 21, 1975, 1441Z</date>.</dateline>
                         <p>6. Ref: <gloss target="#t_WH_1">WH</gloss> 2537.<note n="2"
                                 xml:id="d162fn2">See <ref target="#d159fn2">footnote 2, Document
@@ -23363,7 +23371,7 @@
                                 Geopolitical File, Angola Chronological File. Secret;
                                 Sensitive.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1975-12-23T04:43:00">December 23, 1975,
+                                when="1975-12-23T04:43:00+00:00">December 23, 1975,
                             0443Z</date>.</dateline>
                         <p><gloss target="#t_WH_1">WH</gloss> 52556. Deliver at opening of
                             business.</p>
@@ -23447,7 +23455,7 @@
                                 Department Telegrams, To SecState—<gloss target="#t_Nodis_1"
                                     >Nodis</gloss>. Secret; Niact Immediate; <gloss
                                     target="#t_Nodis_1">Nodis</gloss>.</note></head>
-                        <dateline><placeName>Kinshasa</placeName>, <date when="1975-12-27T19:15:00"
+                        <dateline><placeName>Kinshasa</placeName>, <date when="1975-12-27T19:15:00+00:00"
                                 >December 27, 1975, 1915Z</date>.</dateline>
                         <p>11014. For the Secretary and <persName corresp="#p_MEW_1"
                                 >Mulcahy</persName> from <persName corresp="#p_SWE_1"
@@ -23745,7 +23753,7 @@
                                     >Kissinger</persName>. Sent to Kinshasa, Lusaka, Libreville,
                                 Dakar, and Abidjan.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-01-03T01:47:00">January 3, 1976, 0147Z</date>.</dateline>
+                                when="1976-01-03T01:47:00+00:00">January 3, 1976, 0147Z</date>.</dateline>
                         <p>1374. Subject: Presidential Message on Angola.</p>
                         <p>Please deliver following letter from President <persName
                                 corresp="#p_FGR_1">Ford</persName> to head of host government as
@@ -23959,7 +23967,7 @@
                                     corresp="#p_KHA_1">Kissinger</persName>. Sent to Rabat,
                                 Monrovia, Bangui, Libreville, Nairobi, and Yaounde.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-01-15T02:12:00">January 15, 1976,
+                                when="1976-01-15T02:12:00+00:00">January 15, 1976,
                             0212Z</date>.</dateline>
                         <p>10166. Subject: Angola and the <gloss target="#t_OAU_1">OAU</gloss>
                                 Summit.<note n="2" xml:id="d171fn2">The <gloss target="#t_OAU_1"
@@ -24994,7 +25002,7 @@
                                 P840086–1506. Secret; Immediate; <gloss target="#t_Nodis_1"
                                     >Nodis</gloss>. Repeated to the Department. The Secretary was in
                                 Boston while his wife had surgery.</note></head>
-                        <dateline><placeName>Boston</placeName>, <date when="1976-02-14T22:15:00"
+                        <dateline><placeName>Boston</placeName>, <date when="1976-02-14T22:15:00+00:00"
                                 >February 14, 1976, 2215Z</date>.</dateline>
                         <p><gloss target="#t_Secto_1">Secto</gloss> 3022. For the Ambassador from
                             the Secretary. Subj: France Plans to Recognize <gloss target="#t_MPLA_1"
@@ -25118,7 +25126,7 @@
                                 Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Foreign
                                 Policy Files, P840090–1675. Secret; Immediate; <gloss
                                     target="#t_Nodis_1">Nodis</gloss>.</note></head>
-                        <dateline><placeName>Paris</placeName>, <date when="1976-02-16T15:58:00"
+                        <dateline><placeName>Paris</placeName>, <date when="1976-02-16T15:58:00+00:00"
                                 >February 16, 1976, 1558Z</date>.</dateline>
                         <p>4652. For the Secretary from the Ambassador. Subject: France Plans to
                             Recognize <gloss target="#t_MPLA_1">MPLA</gloss>. Ref: <gloss
@@ -25275,7 +25283,7 @@
                                 Henry, 10 December 1975–17 February 1976.
                             Confidential.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-02-17T23:00:00">February 17, 1976,
+                                when="1976-02-17T23:00:00+00:00">February 17, 1976,
                             2300Z</date>.</dateline>
                         <p><gloss target="#t_WH_1">WH</gloss> 60214. Deliver at opening of
                             business.</p>
@@ -25315,7 +25323,7 @@
                                     >Secto</gloss> 4013), and approved by <persName
                                     corresp="#p_SWE_1">Schaufele</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-02-18T04:00:00">February 18, 1976,
+                                when="1976-02-18T04:00:00+00:00">February 18, 1976,
                             0400Z</date>.</dateline>
                         <p>38732. For Chargé <persName corresp="#p_WPC_1">Walker</persName> from
                             Ambassador <persName corresp="#p_SWE_1">Schaufele</persName>. Subject:
@@ -25408,7 +25416,7 @@
                                     >Secto</gloss> 4013), and approved by <persName
                                     corresp="#p_SWE_1">Schaufele</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-02-18T04:01:00">February 18, 1976,
+                                when="1976-02-18T04:01:00+00:00">February 18, 1976,
                             0401Z</date>.</dateline>
                         <p>38733. For Ambassador from <persName corresp="#p_SWE_1"
                                 >Schaufele</persName>. Subject: Message to <persName
@@ -26047,7 +26055,7 @@
                                     <persName corresp="#p_KHA_1">Kissinger</persName>. Repeated
                                 Immediate to <gloss target="#t_USUN_1">USUN</gloss> and repeated to
                                 London.</note></head>
-                        <dateline><placeName>Washington</placeName>, <date when="1976-03-19">March
+                        <dateline><placeName>Washington</placeName>, <date ana="#date_apparent-typo-based-on-document-content" when="1976-03-19T00:00:53+00:00">March
                                 19, 1976, 0063Z</date>.</dateline>
                         <p>66402. Cape Town for Embassy. Subject: South African withdrawal from
                             Angola.</p>
@@ -26761,7 +26769,7 @@
                                 Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Foreign
                                 Policy Files. Secret; Priority; <gloss target="#t_Exdis_1"
                                     >Exdis</gloss>.</note></head>
-                        <dateline><placeName>Stockholm</placeName>, <date when="1976-09-01T09:55:00"
+                        <dateline><placeName>Stockholm</placeName>, <date when="1976-09-01T09:55:00+00:00"
                                 >September 1, 1976, 0955Z</date>.</dateline>
                         <p>4734. Subject: Message from President <persName corresp="#p_NA_1"
                                 >Neto</persName> of Angola. Ref: Stockholm 4731.<note n="2"
@@ -26820,7 +26828,7 @@
                                     <persName corresp="#p_NJ_2">Nyerere</persName> regarding
                                 Rhodesia and Namibia.</note></head>
                         <dateline>En route to <placeName>Tanzania</placeName>, <date
-                                when="1976-09-13T15:25:00">September 13, 1976,
+                                when="1976-09-13T15:25:00+00:00">September 13, 1976,
                             1525Z</date>.</dateline>
                         <p><gloss target="#t_Secto_1">Secto</gloss> 27003. Subject: Suggested Reply
                             to Angolan President <persName corresp="#p_NA_1">Neto</persName> (S/S
@@ -26948,7 +26956,7 @@
                                     <gloss target="#t_AF_1">AF</gloss>; and approved by <persName
                                     corresp="#p_KHA_1">Kissinger</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-03-21T02:52:00">March 21, 1976, 0252Z</date>.</dateline>
+                                when="1976-03-21T02:52:00+00:00">March 21, 1976, 0252Z</date>.</dateline>
                         <p>68649. For the Ambassador from the Secretary. Subject: Message to Foreign
                             Secretary <persName corresp="#p_CJ_1">Callaghan</persName>.</p>
                         <p>1. Please have the following message from me to Foreign Secretary
@@ -27028,7 +27036,7 @@
                                 and approved by <persName corresp="#p_SH_1"
                                 >Sonnenfeldt</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-03-23T22:59:00">March 23, 1976, 2259Z</date>.</dateline>
+                                when="1976-03-23T22:59:00+00:00">March 23, 1976, 2259Z</date>.</dateline>
                         <p>70264. Subject: <persName corresp="#p_CJ_1">Callaghan</persName>’s
                             Message to the Secretary on Southern Africa.</p>
                         <p>1. Following is summary of long message from Foreign Secretary <persName
@@ -31830,7 +31838,7 @@
                                     >Kissinger</persName> was presumably en route to Lusaka (see
                                     <ref target="#d207fn2">footnote 2, Document
                             207</ref>).</note></head>
-                        <dateline><date when="1976-09-20T07:45:00">September 20, 1976,
+                        <dateline><date when="1976-09-20T07:45:00+00:00">September 20, 1976,
                             0745Z</date>.</dateline>
                         <p><gloss target="#t_Hakto_1">Hakto</gloss> 22. Deliver in sealed envelope;
                             retain no file copies; destroy all tapes.</p>
@@ -31941,7 +31949,7 @@
                                 Sensitive; Exclusively Eyes Only. <persName corresp="#p_KHA_1"
                                     >Kissinger</persName> was presumably en route to Dar es
                                 Salaam.</note></head>
-                        <dateline><date when="1976-09-21T07:20:00">September 21, 1976,
+                        <dateline><date when="1976-09-21T07:20:00+00:00">September 21, 1976,
                             0720Z</date>.</dateline>
                         <p><gloss target="#t_Hakto_1">Hakto</gloss> 27. 1. Please pass following
                             report to President.</p>
@@ -32625,7 +32633,7 @@
                                 Africa, Chronological File, September 24–25, 1976. Confidential;
                                 Cherokee; Flash; <gloss target="#t_Nodis_1"
                             >Nodis</gloss>.</note></head>
-                        <dateline><placeName>Pretoria</placeName>, <date when="1976-09-24T18:10:00"
+                        <dateline><placeName>Pretoria</placeName>, <date when="1976-09-24T18:10:00+00:00"
                                 >September 24, 1976, 1810Z</date>.</dateline>
                         <p>4367. Subj: <persName corresp="#p_SID_1">Smith</persName>’s Speech.</p>
                         <p>Following is text of <persName corresp="#p_SID_1">Ian Smith</persName>’s
@@ -32878,7 +32886,7 @@
                                 93, Geopolitical File, Africa, Chronological File, September 24–25,
                                 1976. Secret.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-09-24T23:31:00">September 24, 1976,
+                                when="1976-09-24T23:31:00+00:00">September 24, 1976,
                             2331Z</date>.</dateline>
                         <p><gloss target="#t_WH_1">WH</gloss> 61359. Deliver at opening of
                             business.</p>
@@ -32928,7 +32936,7 @@
                                     >Wisner</persName>, cleared by Rogers, and approved by <persName
                                     corresp="#p_KHA_1">Kissinger</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-09-25T20:56:00">September 25, 1976,
+                                when="1976-09-25T20:56:00+00:00">September 25, 1976,
                             2056Z</date>.</dateline>
                         <p>239414. Subject: Message for President <persName corresp="#p_KK_1"
                                 >Kaunda</persName>.</p>
@@ -33025,7 +33033,7 @@
                                     target="#t_Nodis_1">Nodis</gloss>. A typed note at the end of
                                 the telegram requests that it be passed to Gaborone for <persName
                                     corresp="#p_SWE_1">Schaufele</persName>.</note></head>
-                        <dateline><placeName>Lusaka</placeName>, <date when="1976-09-27T18:42:00"
+                        <dateline><placeName>Lusaka</placeName>, <date when="1976-09-27T18:42:00+00:00"
                                 >September 27, 1976, 1842Z</date>.</dateline>
                         <p>2599. Subj: Letter to Secretary from President <persName
                                 corresp="#p_KK_1">Kaunda</persName>.</p>
@@ -33149,7 +33157,7 @@
                                 Africa—State Department Telegrams, To SecState—<gloss
                                     target="#t_Nodis_1">Nodis</gloss>. Secret; Cherokee; Niact
                                 Immediate; <gloss target="#t_Nodis_1">Nodis</gloss>.</note></head>
-                        <dateline><placeName>Pretoria</placeName>, <date when="1976-09-30T16:29:00"
+                        <dateline><placeName>Pretoria</placeName>, <date when="1976-09-30T16:29:00+00:00"
                                 >September 30, 1976, 1629Z</date>.</dateline>
                         <p>4458. Subj: Personal Message from <persName corresp="#p_SID_1">Ian
                                 Smith</persName>.</p>
@@ -33298,7 +33306,7 @@
                                     <persName corresp="#p_STW_1">Seelye</persName> and approved by
                                     <persName corresp="#p_CJP_1">Covey</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-10-01T05:15:00">October 1, 1976, 0515Z</date>.</dateline>
+                                when="1976-10-01T05:15:00+00:00">October 1, 1976, 0515Z</date>.</dateline>
                         <p>243197. Subject: Secretary’s Response to Personal Message from <persName
                                 corresp="#p_SID_1">Ian Smith</persName>. Ref: Pretoria 4458.<note
                                 n="2" xml:id="d214fn2"><ref target="#d213">Document
@@ -33504,7 +33512,7 @@
                                 talks on Rhodesia began in Geneva on October 24. The conference
                                 formally convened on October 28.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-10-26T22:28:00">October 26, 1976,
+                                when="1976-10-26T22:28:00+00:00">October 26, 1976,
                             2228Z</date>.</dateline>
                         <p>264172. For <persName corresp="#p_WFG_1">Wisner</persName> only. Subject:
                             Smith’s Comments about Annex C.</p>
@@ -33565,7 +33573,7 @@
                                     corresp="#p_STW_1">Seelye</persName>, and approved by <persName
                                     corresp="#p_KHA_1">Kissinger</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-10-27T15:43:00">October 27, 1976,
+                                when="1976-10-27T15:43:00+00:00">October 27, 1976,
                             1543Z</date>.</dateline>
                         <p>264569. For <persName corresp="#p_WFG_1">Wisner</persName> only. Subject:
                             Rhodesia Conf: Five Points. Ref: State 264351.<note n="2"
@@ -33620,7 +33628,7 @@
                                 Switzerland—State Department Telegrams, To SecState—<gloss
                                     target="#t_Nodis_1">Nodis</gloss> (9). Secret; Immediate; <gloss
                                     target="#t_Nodis_1">Nodis</gloss>.</note></head>
-                        <dateline><placeName>Geneva</placeName>, <date when="1976-10-27T16:06:00"
+                        <dateline><placeName>Geneva</placeName>, <date when="1976-10-27T16:06:00+00:00"
                                 >October 27, 1976, 1606Z</date>.</dateline>
                         <p>8428. For <persName corresp="#p_SWE_1">Schaufele</persName> from
                                 <persName corresp="#p_WFG_1">Wisner</persName>. Subj: Rhodesian
@@ -33743,7 +33751,7 @@
                                     target="#t_Nodis_1">Nodis</gloss>. Drafted and approved by
                                     <persName corresp="#p_SWE_1">Schaufele</persName>.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-10-27T22:45:00">October 27, 1976,
+                                when="1976-10-27T22:45:00+00:00">October 27, 1976,
                             2245Z</date>.</dateline>
                         <p>265403. For <persName corresp="#p_WFG_1">Frank Wisner</persName> only.
                             Subject: Annex C.</p>
@@ -33915,7 +33923,7 @@
                                 Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Foreign
                                 Policy Files. Secret; Cherokee; Immediate; <gloss
                                     target="#t_Nodis_1">Nodis</gloss>.</note></head>
-                        <dateline><placeName>Geneva</placeName>, <date when="1976-11-03T17:32:00"
+                        <dateline><placeName>Geneva</placeName>, <date when="1976-11-03T17:32:00+00:00"
                                 >November 3, 1976, 1732Z</date>.</dateline>
                         <p>8710. For the Secretary from <persName corresp="#p_SWE_1"
                                 >Schaufele</persName>. Subject: Rhodesian Conference: British Game
@@ -33997,7 +34005,7 @@
                                 Switzerland—State Department Telegrams, To SecState—<gloss
                                     target="#t_Nodis_1">Nodis</gloss> (15). Secret; Immediate;
                                     <gloss target="#t_Nodis_1">Nodis</gloss>.</note></head>
-                        <dateline><placeName>Geneva</placeName>, <date when="1976-11-12T18:21:00"
+                        <dateline><placeName>Geneva</placeName>, <date when="1976-11-12T18:21:00+00:00"
                                 >November 12, 1976, 1821Z</date>.</dateline>
                         <p>9051.Dept pass London. For <persName corresp="#p_SWE_1"
                                 >Schaufele</persName> from <persName corresp="#p_WFG_1"
@@ -34260,7 +34268,7 @@
                                 Switzerland—State Department Telegrams, To SecState—<gloss
                                     target="#t_Nodis_1">Nodis</gloss> (16). Secret; Immediate;
                                     <gloss target="#t_Nodis_1">Nodis</gloss>.</note></head>
-                        <dateline><placeName>Geneva</placeName>, <date when="1976-11-15T12:56:00"
+                        <dateline><placeName>Geneva</placeName>, <date when="1976-11-15T12:56:00+00:00"
                                 >November 15, 1976, 1256Z</date>.</dateline>
                         <p>9068. For <persName corresp="#p_SWE_1">Schaufele</persName> from
                                 <persName corresp="#p_WFG_1">Wisner</persName>. Dept pass London.
@@ -34334,7 +34342,7 @@
                                 Switzerland—State Department Telegrams, To SecState—<gloss
                                     target="#t_Nodis_1">Nodis</gloss> (18). Secret; Cherokee;
                                 Immediate; <gloss target="#t_Nodis_1">Nodis</gloss>.</note></head>
-                        <dateline><placeName>Geneva</placeName>, <date when="1976-11-19T17:36:00"
+                        <dateline><placeName>Geneva</placeName>, <date when="1976-11-19T17:36:00+00:00"
                                 >November 19, 1976, 1736Z</date>.</dateline>
                         <p>9269. For the Secretary from <persName corresp="#p_RJE_1"
                                 >Reinhardt</persName>.<note n="2" xml:id="d223fn2"><persName
@@ -34626,7 +34634,7 @@
                                     <persName corresp="#p_KHA_1">Kissinger</persName>. Repeated to
                                 Geneva.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-11-21T20:40:00">November 21, 1976,
+                                when="1976-11-21T20:40:00+00:00">November 21, 1976,
                             2040Z</date>.</dateline>
                         <p>285850. London for Ambassador, Geneva for <persName corresp="#p_WFG_1"
                                 >Wisner</persName>. Subject: Consulting British on Rhodesia
@@ -34745,7 +34753,7 @@
                                 Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Foreign
                                 Policy Files. Secret; Immediate; <gloss target="#t_Nodis_1"
                                     >Nodis</gloss>.</note></head>
-                        <dateline><placeName>London</placeName>, <date when="1976-11-22T16:59:00"
+                        <dateline><placeName>London</placeName>, <date when="1976-11-22T16:59:00+00:00"
                                 >November 22, 1976, 1659Z</date>.</dateline>
                         <p>18821. Department pass Geneva for <persName corresp="#p_WFG_1"
                                 >Wisner</persName> and Nairobi for <persName corresp="#p_RJE_1"
@@ -34864,7 +34872,7 @@
                                 Switzerland—State Department Telegrams, To SecState—<gloss
                                     target="#t_Nodis_1">Nodis</gloss> (20). Secret; <gloss
                                     target="#t_Nodis_1">Nodis</gloss>.</note></head>
-                        <dateline><placeName>Geneva</placeName>, <date when="1976-11-27T11:00:00"
+                        <dateline><placeName>Geneva</placeName>, <date when="1976-11-27T11:00:00+00:00"
                                 >November 27, 1976, 1100Z</date>.</dateline>
                         <p>9460. For <persName corresp="#p_SWE_1">Schaufele</persName> from
                                 <persName corresp="#p_WFG_1">Wisner</persName>. Dept pass London.
@@ -34958,7 +34966,7 @@
                                     target="#t_RG_1">RG</gloss> 59, Central Foreign Policy
                                 Files)</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-12-06T18:19:00">December 6, 1976,
+                                when="1976-12-06T18:19:00+00:00">December 6, 1976,
                             1819Z</date>.</dateline>
                         <p>296386. For the Ambassador from the Secretary. Subject: Rhodesia
                             Conference: Message to President <persName corresp="#p_KK_1"
@@ -35160,7 +35168,7 @@
                                 Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Foreign
                                 Policy Files. Secret; Immediate; <gloss target="#t_Nodis_1"
                                     >Nodis</gloss>.</note></head>
-                        <dateline><placeName>Geneva</placeName>, <date when="1976-11-18T19:25:00"
+                        <dateline><placeName>Geneva</placeName>, <date when="1976-11-18T19:25:00+00:00"
                                 >December 8, 1976, 1925Z</date>.</dateline>
                         <p>9779. For Amb <persName corresp="#p_SWE_1">Schaufele</persName> from
                                 <persName corresp="#p_WFG_1">Wisner</persName>. Dept pass London for
@@ -35260,7 +35268,7 @@
                                 Policy Files. Secret; Niact Immediate; <gloss target="#t_Nodis_1"
                                     >Nodis</gloss>.</note></head>
                         <dateline><placeName>Dar es Salaam</placeName>, <date
-                                when="1976-12-09T20:00:00">December 9, 1976,
+                                when="1976-12-09T20:00:00+00:00">December 9, 1976,
                             2000Z</date>.</dateline>
                         <p>4533. Department pass Secretary. Subject: Rhodesia and Namibia: President
                                 <persName corresp="#p_NJ_2">Nyerere</persName>’s Reply to
@@ -35566,7 +35574,7 @@
                                 Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Foreign
                                 Policy Files. Secret; Cherokee; Niact Immediate; <gloss
                                     target="#t_Nodis_1">Nodis</gloss>.</note></head>
-                        <dateline><placeName>Lusaka</placeName>, <date when="1976-12-09T21:35:00"
+                        <dateline><placeName>Lusaka</placeName>, <date when="1976-12-09T21:35:00+00:00"
                                 >December 9, 1976, 2135Z</date>.</dateline>
                         <p>3292. Department pass Secretary. Department of State for <persName
                                 corresp="#p_SWE_1">Schaufele</persName>. Subj: <persName
@@ -35775,7 +35783,7 @@
                                 Switzerland—State Department Telegrams, To SecState—<gloss
                                     target="#t_Nodis_1">Nodis</gloss> (26). Secret; Niact Immediate;
                                     <gloss target="#t_Nodis_1">Nodis</gloss>.</note></head>
-                        <dateline><placeName>Geneva</placeName>, <date when="1976-12-09T22:55:00"
+                        <dateline><placeName>Geneva</placeName>, <date when="1976-12-09T22:55:00+00:00"
                                 >December 9, 1976, 2255Z</date>.</dateline>
                         <p>9825. For Amb <persName corresp="#p_SWE_1">Schaufele</persName> from
                                 <persName corresp="#p_WFG_1">Wisner</persName>. Subj: Status of
@@ -36582,7 +36590,7 @@
                                 Tehran, Dublin, and Stockholm. Repeated Immediate to London, Geneva,
                                 Ottawa, Canberra, and Wellington.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1976-12-17T23:06:00">December 17, 1976,
+                                when="1976-12-17T23:06:00+00:00">December 17, 1976,
                             2306Z</date>.</dateline>
                         <p>306303. Subject: Texts of Letters and Documentation on Zimbabwe
                             Development Fund. Ref: State 304674.<note n="2" xml:id="d234fn2">In
@@ -38258,7 +38266,7 @@
                                     corresp="#p_KHA_1">Kissinger</persName>. Repeated Immediate to
                                 Dar es Salaam.</note></head>
                         <dateline><placeName>Washington</placeName>, <date
-                                when="1977-01-07T02:20:00">January 7, 1977, 0220Z</date>.</dateline>
+                                when="1977-01-07T02:20:00+00:00">January 7, 1977, 0220Z</date>.</dateline>
                         <p>3466. Lusaka for Ambassador only, Dar for <persName corresp="#p_EWB_1"
                                 >Edmondson</persName> only. Subject: Message to President <persName
                                 corresp="#p_KK_1">Kaunda</persName>.</p>
