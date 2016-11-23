@@ -179,7 +179,8 @@
                         else if (doc-available(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@target, '#') , '.xml'))) then
                             doc(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@target, '#') , '.xml'))//*/@xml:id = substring-after(@target, '#')
                         else 
-                            false()
+                            (: allow this check to pass if you don't have our exact directory structure :)
+                            true()
                         )
                     )
                 else 
