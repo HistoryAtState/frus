@@ -32,12 +32,6 @@
         </rule>
     </pattern>
     
-    <pattern id="processing-instruction-check">
-        <rule context="/processing-instruction()">
-            <assert test="not(.)">Please remove root level processing instructions before delivery.</assert>
-        </rule>
-    </pattern>
-    
     <pattern id="tei-header-checks">
         <title>TEI Header Checks</title>
         <rule context="tei:fileDesc">
@@ -179,8 +173,7 @@
                         else if (doc-available(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@target, '#') , '.xml'))) then
                             doc(concat('../../frus-not-yet-reviewed/volumes/', substring-before(@target, '#') , '.xml'))//*/@xml:id = substring-after(@target, '#')
                         else 
-                            (: allow this check to pass if you don't have our exact directory structure :)
-                            true()
+                            false()
                         )
                     )
                 else 
