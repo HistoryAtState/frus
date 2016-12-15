@@ -1075,6 +1075,14 @@ date =
       | 
         ## (Date value(s) for undated document were inferred from
         ##                                             nearest dated siblings) 
+        "#date_imprecise-inferred-from-sibling-dates"
+      | 
+        ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
+        ##                                    inferred from nearest dated siblings) 
+        "#date_imprecise-inferred-from-document-content"
+        | 
+        ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
+        ##                               inferred from the content of the document) 
         "#date_undated-inferred-from-sibling-dates"
       | 
         ## (Date value(s) for undated document were inferred from

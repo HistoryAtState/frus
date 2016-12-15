@@ -36,6 +36,14 @@
                             original publication. Date value(s) were corrected based on 
                             compiler/editor notation.</catDesc>
                     </category>
+                    <category xml:id="date_imprecise-inferred-from-sibling-dates">
+                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter 
+                            inferred from nearest dated siblings</catDesc>
+                    </category>
+                    <category xml:id="date_imprecise-inferred-from-document-content">
+                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter 
+                            inferred from the content of the document</catDesc>
+                    </category>
                     <category xml:id="date_undated-inferred-from-sibling-dates">
                         <catDesc>Date value(s) for undated document were inferred from nearest dated
                             siblings</catDesc>
