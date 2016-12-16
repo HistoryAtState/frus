@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
     xml:id="frus1969-76ve05p1">
     <teiHeader>
         <fileDesc>
@@ -36,6 +38,9 @@
                         </list>
                     </p>
                 </correction>
+                <classDecl>
+                    <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+                </classDecl>
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
@@ -41967,7 +41972,7 @@
                                 corresp="#p_HSI1" type="from">Haile Selassie</persName> at Blair
                             House on 9 July, 0900 Hours</head>
                         <dateline>
-                            <date>July, 9 0900 Hours</date>
+                            <date when="1969-07-09T09:00:00" ana="#date_imprecise-inferred-from-sibling-dates">July, 9 0900 Hours</date>
                         </dateline>
                         <pb n="1" xml:id="d274-01" facs="d274-01"/>
                         <p>ASSISTANT SECRETARY OF DEFENSE<lb/>WASHINGTON, D. C. 20301<lb/>7 JUL
