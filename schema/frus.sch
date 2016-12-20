@@ -221,6 +221,34 @@
         </rule>
     </pattern>
     
+    <pattern id="dateline-date-checks">
+        <title>Dateline Date Checks</title>
+        <rule context="tei:dateline[matches(., 'undated', 'i')]">
+            <assert test="exists(.//tei:date)">Please tag "undated" in this dateline with a &lt;date&gt; element.</assert>
+        </rule>
+        <rule context="tei:date[ancestor::tei:dateline]">
+            <assert test="
+                (@from and @to) 
+                or 
+                (not(@from) and not(@to))
+                ">Dateline date @from must have a matching @to.</assert>
+            <assert test="
+                (@notBefore and @notAfter) 
+                or 
+                (not(@notBefore) and not(@notAfter))
+                ">Dateline date @notBefore must have a matching @notAfter.</assert>
+            <assert test="
+                every $date in (@from, @to, @notBefore, @notAfter) 
+                satisfies 
+                (
+                    $date castable as xs:date 
+                    or 
+                    $date castable as xs:dateTime
+                )
+                ">Dateline date @from/@to/@notBefore/@notAfter must be valid xs:date or xs:dateTime values.</assert>
+        </rule>
+    </pattern>
+    
     <pattern id="ref-to-page-footnote-check">
         <title>Ref to Page Footnote Check</title>
         <rule context="tei:ref[contains(@target, '#pg_')]">
