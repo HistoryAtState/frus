@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1964-68v12">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="frus1964-68v12">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -38,6 +41,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
@@ -7877,7 +7883,7 @@
                         <head>165. Letter from Foreign Minister <persName corresp="#p_NAF1" type="from">Nogueira</persName> to the Ambassador to Portugal (<persName type="to">Anderson</persName>)<note n="1" xml:id="d165fn1" type="source">Source: National Archives and Records Administration, <gloss target="#t_RG1">RG</gloss> 59, Central Files 1964-66, <gloss target="#t_POL1">POL</gloss> 10 PORT. Confidential; Personal. Transmitted to the Department of State as enclosure 2 to airgram A-131 from Lisbon, October 6.</note>
                         </head>
                         <dateline>
-                            <placeName>Lisbon</placeName>, <date when="1965-09">September 1965</date>.</dateline>
+                            <placeName>Lisbon</placeName>, <date when="1965-09" notBefore="1965-09-24" notAfter="1965-09-30" ana="#date_apparent-typo-based-on-sibling-dates">September 1965</date>.</dateline>
                         <p rend="flushleft">My dear <persName corresp="#p_BGW1">George</persName>:</p>
                         <p>It will be recalled that during our conversation on September 2,<note n="2" xml:id="d165fn2">See <ref target="#d163">Document 163</ref>.</note> the Ambassador outlined to me the terms of a proposal related to the Portuguese Overseas in which, among other aspects, the possibility of a plebiscite was mentioned. It will also be remembered that for my part, when I commented then on the idea, I said that from the Afro-Asian point of view a plebiscite would only be valid and acceptable if Portugal were to satisfy the following conditions: withdrawal of all the armed and police forces whose presence in the territories would certainly be taken as an obstacle to the freedom of the voter; authorization for the entry into the territories of those whom the <gloss target="#t_UN1">UN</gloss> and the Africans might consider to be the “chiefs” who represent the populations, and therefore a prior amnesty would be required; and lastly, since the <gloss target="#t_UN1">UN</gloss> requires a “democratic process”, political debate would have to be permitted and even stimulated, and in this matter there would be imposed a complete freedom of political parties, headed by the “chiefs” referred to above, and inspired by any and all foreign governments.</p>
                         <p>I recall the preceding because the Senegalese delegation at the last conference of Plenipotentiaries of the International Telecommunications Union, which took place in Montreaux,<note n="3" xml:id="d165fn3">September 14-November 12, 1965.</note> presented a resolution on the 15th of this month in which it practically repeated what I had said in our conversation on the 2nd. I enclose a copy of the pertinent passages containing the “conditions” which Senegal wishes Portugal to obey.</p>
