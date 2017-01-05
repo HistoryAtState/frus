@@ -36,10 +36,6 @@
                             original publication. Date value(s) were corrected based on 
                             compiler/editor notation.</catDesc>
                     </category>
-                    <category xml:id="date_imprecise-inferred-from-sibling-dates">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter 
-                            inferred from nearest dated siblings</catDesc>
-                    </category>
                     <category xml:id="date_imprecise-inferred-from-date-rules">
                         <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter 
                             inferred based on date rules  (e.g. yyyy has @notBefore="yyyy-01-01"
@@ -54,6 +50,10 @@
                     <category xml:id="date_imprecise-inferred-from-document-content-and-sibling-dates">
                         <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter 
                             inferred from the content of the document and nearest dated siblings</catDesc>
+                    </category>
+                    <category xml:id="date_imprecise-inferred-from-sibling-dates">
+                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter 
+                            inferred from nearest dated siblings</catDesc>
                     </category>
                     <category xml:id="date_undated-inferred-from-sibling-dates">
                         <catDesc>Date value(s) for undated document were inferred from nearest dated
