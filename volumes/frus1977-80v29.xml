@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
     xml:id="frus1977-80v29">
     <teiHeader>
         <fileDesc>
@@ -22,6 +24,11 @@
                 <p>Released in 2016 as printed book.</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
 
@@ -19434,8 +19441,7 @@
                                 Personal.</note></head>
                         <opener>
                             <dateline rendition="#inline-float-right">
-                                <placeName>Washington</placeName>, <date when="1977-10">October
-                                    1977</date></dateline>
+                                <placeName>Washington</placeName>, <date notBefore="1977-10-14T00:00:00" notAfter="1977-10-17T11:47:00" ana="#date_imprecise-inferred-from-document-content-and-sibling-dates" when="1977-10">October 1977</date></dateline>
                         </opener>
                         <list type="subject">
                             <item><gloss target="#t_RE_1">RE</gloss>: UPDATE ON PANAMA CANAL/REVISED
@@ -27000,7 +27006,7 @@
                             <head><hi rend="strong">Draft Language</hi><note n="9" xml:id="d188fn9"
                                     >No classification marking.</note></head>
                             <dateline rendition="#inline-float-right">
-                                <placeName>Washington, undated</placeName></dateline>
+                                <placeName>Washington, <date>undated</date></placeName></dateline>
                             <p rend="center">PROPOSED LANGUAGE ON ROLE OF THE <gloss
                                     target="#t_US_2">U.S.</gloss> AMBASSADOR</p>
                             <p rend="sectiontitleital">Section 102. Authority of Ambassador</p>
