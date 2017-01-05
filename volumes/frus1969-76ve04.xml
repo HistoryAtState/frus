@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1969-76ve04">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="frus1969-76ve04">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -36,6 +39,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2009-01-15 PA/HO JW: Created volume shell for HCL</change>
@@ -18129,7 +18135,7 @@
                                 deal, Iran was likely to continue deficit spending.</note>
                         </head>
                         <dateline>
-                            <date when="1971-03">March 1971</date>
+                            <date notBefore="1971-03-01T00:00:00" notAfter="1971-03-03T23:59:59" ana="#date_imprecise-inferred-from-sibling-dates" when="1971-03">March 1971</date>
                         </dateline>
                         <pb n="1" xml:id="d117-01" facs="d117-01"/>
                         <p>CENTRAL INTELLIGENCE AGENCY<lb/> Directorate of Intelligence<lb/> March
@@ -24351,7 +24357,7 @@
                                 of recent oil consortium concessions on the Iranian economy.</note>
                         </head>
                         <dateline>
-                            <date when="1972-02">February, 1972</date>
+                            <date notBefore="1972-02-01T00:00:00" notAfter="1972-02-22T23:59:59" ana="#date_imprecise-inferred-from-sibling-dates" when="1972-02">February, 1972</date>
                         </dateline>
                         <pb n="1" xml:id="d165-01" facs="d165-01"/>
                         <pb n="2" xml:id="d165-02" facs="d165-02"/>
@@ -26775,7 +26781,7 @@
                                 political structure of Iran.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-05">May 1972</date>
+                            <placeName>Washington</placeName>, <date notBefore="1972-05-01T00:00:00" notAfter="1972-05-31T23:59:59" ana="#date_imprecise-inferred-from-date-rules" when="1972-05">May 1972</date>
                         </dateline>
                         <pb n="1" xml:id="d180-01" facs="d180-01"/>
                         <pb n="2" xml:id="d180-02" facs="d180-02"/>
@@ -27667,7 +27673,7 @@
                                 supply.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-05">May 1972</date>
+                            <placeName>Washington</placeName>, <date notBefore="1972-05-01T00:00:00" notAfter="1972-05-31T23:59:59" ana="#date_imprecise-inferred-from-date-rules" when="1972-05">May 1972</date>
                         </dateline>
                         <pb n="1" xml:id="d181-01" facs="d181-01"/>
                         <p>CENTRAL INTELLIGENCE AGENCY<lb/> Directorate of Intelligence<lb/> May
@@ -45574,7 +45580,7 @@
                                 drop in Iraqi oil revenues.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-06">June 1972</date>
+                            <placeName>Washington</placeName>, <date notBefore="1972-06-02T00:00:00" notAfter="1972-06-05T23:59:59" ana="#date_imprecise-inferred-from-document-content-and-sibling-dates" when="1972-06">June 1972</date>
                         </dateline>
                         <pb n="1" xml:id="d311-01" facs="d311-01"/>
                         <p>CENTRAL INTELLIGENCE AGENCY<lb/> Directorate of Intelligence<lb/> June
