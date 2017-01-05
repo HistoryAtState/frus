@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1969-76ve14p1">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="frus1969-76ve14p1">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,6 +35,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2008-12-18 PA/HO JW: Created volume shell based on Document List and
@@ -16522,8 +16528,7 @@
                     </div>
                     <div n="80" xml:id="d80" type="document">
                         <head>80. Research Study OPR 405 Prepared in the Central Intelligence
-                            Agency, <placeName>Washington</placeName>, <date when="1975-08">August
-                                1975</date>.<note n="1" xml:id="d80fn1" type="source">Source:
+                            Agency, <placeName>Washington</placeName>, <date notBefore="1975-08-01T00:00:00" notAfter="1975-08-31T23:59:59" ana="#date_imprecise-inferred-from-date-rules" when="1975-08">August 1975</date>.<note n="1" xml:id="d80fn1" type="source">Source:
                                 Department of State, <gloss target="#t_INRSEEFP1">INR/SEE/FP</gloss>
                                 Files: Lot 92 D 403, General. Official Use Only. Only the
                                 Introduction and Key Judgments section of the 21-page study is
@@ -20987,8 +20992,7 @@
                     <div n="119" xml:id="d119" type="document">
                         <head>119. Summary Report From the National Commission for the Observance of
                             the World Population Year to President Ford,
-                                <placeName>Washington</placeName>, <date when="1975-06">June
-                                1975</date>.<note n="1" xml:id="d119fn1" type="source">Source: Ford
+                            <placeName>Washington</placeName>, <date notBefore="1975-06-01T00:00:00" notAfter="1975-06-15T23:59:59" ana="#date_imprecise-inferred-from-document-content-and-sibling-dates" when="1975-06">June 1975</date>.<note n="1" xml:id="d119fn1" type="source">Source: Ford
                                 Library, White House Central Files, Subject Files, FG 373, Box 195,
                                 4/1/17–1/20/77. No classification marking. The entire report,
                                 including appendices, is not published. Committee Chairman Clifford
@@ -24971,8 +24975,7 @@
                     </div>
                     <div n="144" xml:id="d144" type="document">
                         <head>144. Analytical Study OPR–401 Prepared in the Central Intelligence
-                            Agency, <placeName>Washington</placeName>, <date when="1974-08">August
-                                1974</date>.<note n="1" xml:id="d144fn1" type="source">Source:
+                            Agency, <placeName>Washington</placeName>, <date notBefore="1974-08-01T00:00:00" notAfter="1974-08-17T23:59:59" ana="#date_imprecise-inferred-from-sibling-dates" when="1974-08">August 1974</date>.<note n="1" xml:id="d144fn1" type="source">Source:
                                 Department of State, <gloss target="#t_SWF2">S/WF</gloss> Files, Lot
                                 90 D 313, world food situation—general background—Spring 1974. No
                                 classification marking. Only the Key Judgments section is
@@ -26234,8 +26237,7 @@
                     </div>
                     <div n="153" xml:id="d153" type="document">
                         <head>153. Report of the Delegation to the World Food Conference,
-                                <placeName>Washington</placeName>, <date when="1974-12">December
-                                1974</date>.<note n="1" xml:id="d153fn1" type="source">Source:
+                            <placeName>Washington</placeName>, <date notBefore="1974-12-01T00:00:00" notAfter="1974-12-14T23:59:59" ana="#date_imprecise-inferred-from-document-content-and-sibling-dates" when="1974-12">December 1974</date>.<note n="1" xml:id="d153fn1" type="source">Source:
                                 Department of State, <gloss target="#t_IODAGR1">IO/D/AGR</gloss>
                                 Files, Lot 88 D 305, U.N. World Food Conference, U.S. Delegation
                                 Report, Kissinger speech, November 5–16, 1974. No classification
