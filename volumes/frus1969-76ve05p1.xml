@@ -38,10 +38,10 @@
                         </list>
                     </p>
                 </correction>
-                <classDecl>
-                    <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
-                </classDecl>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2009-01-15 PA/HO JW: Created volume shell for HCL</change>
@@ -47080,7 +47080,7 @@
                                 and restriction of Soviet efforts in the area.</note>
                         </head>
                         <dateline>
-                            <date when="1971-05">May, 1971</date>
+                            <date notBefore="1971-05-01T00:00:00" notAfter="1971-05-31T23:59:59" ana="#date_imprecise-inferred-from-date-rules" when="1971-05">May, 1971</date>
                         </dateline>
                         <pb n="1" xml:id="d314-01" facs="d314-01"/>
                         <p>SOMALIA: Policy Planning Paper<lb/>Approved by <gloss target="#t_NSC1"
