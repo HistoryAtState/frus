@@ -1063,30 +1063,43 @@ date =
         ##                                             outside research and corrected date value(s) were
         ##                                             inferred from related sources) 
         "#date_apparent-typo-based-on-outside-research"
-      |         
+        |         
         ## (The recorded date was determined to be an error by
         ##                                             typo based on nearest dated siblings and corrected date
         ##                                             value(s) were inferred from nearest dated
         ##                                             siblings) 
         "#date_apparent-typo-based-on-sibling-dates"
-      | 
+        | 
         ## (Date value(s) were corrected based on compiler/editor notation) 
         "#date_editorial-correction"
-      | 
-        ## (Date value(s) for undated document were inferred from
-        ##                                             nearest dated siblings) 
-        "#date_imprecise-inferred-from-sibling-dates"
-      | 
+        | 
         ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
-        ##                                    inferred from nearest dated siblings) 
+        ##                                             inferred based on date rules [e.g. yyyy has 
+        ##                                             @notBefore="yyyy-01-01" and @notAfter="yyyy-12-31"; 
+        ##                                             yyyy-mm has @notBefore="yyyy-mm-01" and 
+        ##                                             @notAfter="yyyy-mm-dd" where dd is either 28, 
+        ##                                             29, 30, or 31 based on month and year]) 
+        "#date_imprecise-inferred-from-date-rules"
+        | 
+        ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
+        ##                                             inferred from the content of the document) 
         "#date_imprecise-inferred-from-document-content"
         | 
         ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
-        ##                               inferred from the content of the document) 
+        ##                                              inferred from nearest dated siblings) 
+        "#date_imprecise-inferred-from-document-content-and-sibling-dates"
+        | 
+        ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
+        ##                                              inferred from the content of the document
+        ##                                              and nearest dated siblings) 
+        "#date_imprecise-inferred-from-sibling-dates"
+        | 
+        ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
+        ##                                              were inferred from nearest dated siblings) 
         "#date_undated-inferred-from-sibling-dates"
-      | 
-        ## (Date value(s) for undated document were inferred from
-        ##                                             the content of the document) 
+        | 
+        ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
+        ##                                              were inferred from the content of the document) 
         "#date_undated-inferred-from-document-content"
     }?,
     empty

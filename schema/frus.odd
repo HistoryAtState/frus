@@ -1144,9 +1144,20 @@
                                         <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
                                             inferred from nearest dated siblings</gloss>
                                     </valItem>
+                                    <valItem ident="#date_imprecise-inferred-from-date-rules">
+                                        <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
+                                            inferred based on date rules (e.g. yyyy has @notBefore="yyyy-01-01"
+                                            and @notAfter="yyyy-12-31"; yyyy-mm has @notBefore="yyyy-mm-01" and 
+                                            @notAfter="yyyy-mm-dd" where dd is either 28, 29, 30, or 31 based 
+                                            on month and year)</gloss>
+                                    </valItem>
                                     <valItem ident="#date_imprecise-inferred-from-document-content">
                                         <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
                                             inferred from the content of the document</gloss>
+                                    </valItem>
+                                    <valItem ident="#date_imprecise-inferred-from-document-content-and-sibling-dates">
+                                        <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
+                                            inferred from the content of the document and nearest dated siblings</gloss>
                                     </valItem>
                                     <valItem ident="#date_undated-inferred-from-sibling-dates">
                                         <gloss>Date value(s) for undated document were inferred from
