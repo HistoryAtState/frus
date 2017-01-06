@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
     xml:id="frus1961-63v03">
     <teiHeader>
         <fileDesc>
@@ -35,6 +37,9 @@
                         </list></p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
@@ -2312,8 +2317,7 @@
                                     <persName corresp="#p_KJE1">Kennedy</persName> Library,
                                     <persName corresp="#p_HR1">Hilsman</persName> Papers, Country
                                 Series-Vietnam.</note></head>
-                        <dateline><hi rend="italic"><placeName>Saigon</placeName>, <date
-                                    when="1963-01">January 1963</date></hi>.</dateline>
+                        <dateline><hi rend="italic"><placeName>Saigon</placeName>, <date notBefore="1963-01-01T00:00:00" notAfter="1963-01-02T23:59:59" ana="#date_imprecise-inferred-from-sibling-dates" when="1963-01">January 1963</date></hi>.</dateline>
                         <p rend="center">CONVERSATION WITH PRESIDENT <persName corresp="#p_DIEM1"
                                 >DIEM</persName></p>
                         <p><persName corresp="#p_FMV1">Forrestal</persName> and I spent four and a
@@ -2418,8 +2422,7 @@
                                     <persName corresp="#p_KJE1">Kennedy</persName> Library,
                                     <persName corresp="#p_HR1">Hilsman</persName> Papers, Country
                                 Series-Vietnam.</note></head>
-                        <dateline><hi rend="italic"><placeName>Saigon</placeName>, <date
-                                    when="1963-01">January 1963</date></hi>.</dateline>
+                        <dateline><hi rend="italic"><placeName>Saigon</placeName>, <date notBefore="1963-01-02T00:00:00" notAfter="1963-01-10T23:59:59" ana="#date_imprecise-inferred-from-sibling-dates" when="1963-01">January 1963</date></hi>.</dateline>
                         <p>The following are notes on the situation here.</p>
                         <list>
                             <label>1.</label>
@@ -5946,8 +5949,7 @@
                                 xml:id="d26fn1" type="source">Source: National Defense University,
                                     <persName corresp="#p_TGMD1">Taylor</persName> Papers, T-181-69.
                                 Top Secret.</note></head>
-                        <dateline><placeName>Washington</placeName>, <date when="1963-01">January
-                                1963</date>.<note n="2" xml:id="d26fn2">The source text does not
+                        <dateline><placeName>Washington</placeName>, <date notBefore="1963-01-21T00:00:00" notAfter="1963-01-30T23:59:59" ana="#date_imprecise-inferred-from-document-content" when="1963-01">January 1963</date>.<note n="2" xml:id="d26fn2">The source text does not
                                 provide a more specific date. According to telegram MACJ00 433 from
                                 General <persName corresp="#p_WGEG1">Wheeler</persName> at MAC/V
                                 headquarters to the Chairman of the <gloss target="#t_JCS1"
@@ -12899,8 +12901,7 @@
                                     Bundy</persName>, <persName corresp="#p_BWP1">William
                                     Bundy</persName>, and <persName corresp="#p_FMV1"
                                     >Forrestal</persName>.</note></head>
-                        <dateline><placeName>Washington</placeName>, <date when="1963-04">April
-                                1963</date>.<note n="2" xml:id="d72fn2">The source text is undated,
+                        <dateline><placeName>Washington</placeName>, <date notBefore="1963-04-01T00:00:00" notAfter="1963-04-30T23:59:59" ana="#date_imprecise-inferred-from-date-rules" when="1963-04">April 1963</date>.<note n="2" xml:id="d72fn2">The source text is undated,
                                 but it appears to have been drafted shortly after <persName
                                     corresp="#p_HR1">Hilsman</persName> assumed the duties of
                                 Assistant Secretary for Far Eastern Affairs in
