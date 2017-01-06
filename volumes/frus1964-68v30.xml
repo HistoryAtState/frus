@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1964-68v30">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="frus1964-68v30">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,6 +36,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
@@ -8155,7 +8161,7 @@
                         </note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1966-06">June 1966</date>.</dateline>
+                        <placeName>Washington</placeName>, <date notBefore="1966-06-29T00:00:00" notAfter="1966-06-30T23:59:59" ana="#date_imprecise-inferred-from-sibling-dates" when="1966-06">June 1966</date>.</dateline>
                     <p rend="center">COMMUNIST CHINA: LONG RANGE STUDY</p>
                     <p rend="center">[Here follow a foreword, table of contents, and introduction.]</p>
                     <p rend="center">Abstract</p>
