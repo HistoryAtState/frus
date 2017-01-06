@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1964-68v32">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="frus1964-68v32">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,6 +29,11 @@
                 <p>Released in 2007 as printed version and PDF online</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
+        </encodingDesc>
         <revisionDesc>
             <change>2008-10-07 Joe Wicentowski (PA/HO): Created TEI shell for HCL</change>
         </revisionDesc>
@@ -19637,7 +19645,7 @@ National Congress (<gloss target="#t_PNC1">PNC</gloss>) won 40.5 percent of the 
                             <note n="1" xml:id="d422fn1" type="source">Source: Department of State,<gloss target="#t_INRIL1">INR/IL</gloss> Historical Files, <persName corresp="#p_CDR1">Carlson</persName>–Department Messages, Vol. 4, 1965–69. Secret. The date is handwritten on the bottom of page 1 of the telegram.</note>
                         </head>
                         <dateline>
-                            <placeName>Georgetown</placeName>, <date when="1967-06">June 1967</date>.</dateline>
+                            <placeName>Georgetown</placeName>, <date notBefore="1967-06-01T00:00:00" notAfter="1967-06-30T23:59:59" ana="#date_imprecise-inferred-from-date-rules" when="1967-06">June 1967</date>.</dateline>
                         <p>Following message for <gloss target="#t_ARA1">ARA</gloss>/NC <persName corresp="#p_CWB1">Cobb</persName> from Ambassador <persName corresp="#p_CDR1">Carlson</persName>.</p>
                         <list>
                             <label>1.</label>
