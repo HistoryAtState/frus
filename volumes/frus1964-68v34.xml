@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1964-68v34">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="frus1964-68v34">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,6 +37,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
@@ -3757,7 +3763,7 @@
                         <head>55. Department of State Policy Paper<note n="1" xml:id="d55fn1" type="source">Source: National Archives and Records Administration, RG 59, Records of the Department of State, Central Files, 1964–66, SP 1 US. Secret. Prepared by the Policy Planning Council. A typed note on the cover page reads: “The Secretary of State believes the attached paper may be of interest to Members of the Space Council. The Secretary, however, reserves his own position pending discussion in the Council.” Only the summary (pages i-iii) of the 23-page report is printed here.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-10">October 1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date notBefore="1966-10-01T00:00:00" notAfter="1966-10-31T23:59:59" ana="#date_imprecise-inferred-from-date-rules" when="1966-10">October 1966</date>.</dateline>
                         <p rend="center">SPACE GOALS AFTER THE LUNAR LANDING</p>
                         <p rend="center">Summary</p>
                         <p>Even before the outcome of the moon race has been decided, we face the question of whether to commit ourselves to still more ambitious <pb n="109" xml:id="pg_109" facs="0139"/>programs—proceeding with manned exploration of the moon after the initial landing; mounting large-scale scientific investigations with unmanned planetary and solar probes; projecting man through space to the planets.</p>
