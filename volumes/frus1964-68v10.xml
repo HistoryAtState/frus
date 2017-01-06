@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1964-68v10">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="frus1964-68v10">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -38,6 +41,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
@@ -14508,7 +14514,7 @@
                     <head>179. Intelligence Memorandum<note n="1" xml:id="d179fn1" type="source">Source: Johnson Library, National Security File, Intelligence File, TKH, August 66–July 67, Box 1. Top Secret; Ruff; Handle Via Talent–Keyhole Control System Only; No Foreign Dissem. An attached memorandum from <persName>R.J. Smith</persName>, Deputy Director of Intelligence, to <persName corresp="#p_RWW1">Rostow</persName>, May 18, offers a one–paragraph summary of the intelligence memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1967-05">May 1967</date>.</dateline>
+                        <placeName>Washington</placeName>, <date notBefore="1967-05-01T00:00:00" notAfter="1967-05-18T23:59:59" ana="#date_imprecise-inferred-from-document-content" when="1967-05">May 1967</date>.</dateline>
                     <p rend="flushleft">RR IM 67–24</p>
                     <p rend="flushleft">TCS–7036/67</p>
                     <p rend="center">NEW TREND IN SOVIET <gloss target="#t_ICBM1">ICBM</gloss> DEPLOYMENT PROGRAM<note n="2" xml:id="d179fn2">This memorandum was produced solely by <gloss target="#t_CIA1">CIA</gloss>. It was prepared by the Office of Research and Reports and coordinated with the Office of National Estimates, the Foreign Missile and Space Analysis Center, and the Office of Current Intelligence; the estimates and conclusions represent the best judgment of the Directorate of Intelligence as of 1 May 1967. [Footnote in the source text.]</note>
