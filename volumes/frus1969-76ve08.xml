@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1969-76ve08">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="frus1969-76ve08">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -35,6 +38,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2009-01-15 PA/HO JW: Created volume shell for HCL</change>
@@ -1903,7 +1909,7 @@
                     </div>
                     <pb n="1" xml:id="d15-01" facs="d15-01"/>
                     <div type="document" xml:id="d15" n="15">
-                        <head>15. Memorandum of Conversation, <persName type="from">Kabul</persName>, November 1, 1974, 10:10-11:30a.m. <note n="1" xml:id="d15fn1" type="source">Source: National Archives, <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73, Entry 5463, Records of <persName corresp="#p_KHA1">Henry Kissinger</persName>, Box 5, <gloss target="#t_NODIS1">Nodis</gloss> Memoranda of Conversations, November 1974 (2). Secret; <gloss target="#t_NODIS1">Nodis</gloss>. The meeting took place at the Foreign Ministry. All brackets in the original.</note>
+                        <head>15. Memorandum of Conversation, <persName type="from">Kabul</persName>, November 1, 1974, 10:10-11:30 a.m.<note n="1" xml:id="d15fn1" type="source">Source: National Archives, <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73, Entry 5463, Records of <persName corresp="#p_KHA1">Henry Kissinger</persName>, Box 5, <gloss target="#t_NODIS1">Nodis</gloss> Memoranda of Conversations, November 1974 (2). Secret; <gloss target="#t_NODIS1">Nodis</gloss>. The meeting took place at the Foreign Ministry. All brackets in the original.</note>
                             <note n="2" xml:id="d15fn2" type="summary">Deputy Minister of Foreign Affairs <persName corresp="#p_ASW1">Sayed Waheed <persName corresp="p_ASW1">ABDULLAH</persName>
                                 </persName> and <persName corresp="#p_NMA2">Mohammad Naim</persName> discussed U.S.-Afghan relations with Secretary of State <persName corresp="#p_KHA1">Kissinger</persName>, concentrating on development issues and the importance of U.S. good offices concerning Afghanistan's dispute with Pakistan. <persName corresp="#p_KHA1">Kissinger</persName> responded that the United States would consider Afghan ideas on the Pushtunistan issue.</note>
                         </head>
@@ -5332,7 +5338,7 @@
                             <note n="2" xml:id="d50fn2" type="summary">The Department summarized the July 1 meeting between Deputy Chief Martial Law Administrator Rear Admiral <persName>Khan</persName> and <gloss target="#t_USAID1">USAID</gloss> Administrator Daniel Parker, on Bangladesh's need for helicopters, military equipment, increased PL-480 aid, and questions of trade and development. PARKER indicated the constraints limiting additional U.S. aid to Bangladesh, particularly military aid.</note>
                         </head>
                         <dateline>
-                            <placeName>Bangladesh</placeName>, <date when="1976-07-10T18:38:00+00:00">July 10, 1976, 1838Z</date>.</dateline>
+                            <placeName>Bangladesh</placeName>, <date when="1976-07-09T18:38:00+00:00" ana="#date_apparent-typo-based-on-document-scan">July 10, 1976, 1838Z</date>.</dateline>
                         <pb n="1" xml:id="d50-01" facs="d50-01"/>
                         <p>TELEGRAM</p>
                         <p>DEPARTMENT OF STATE 170354</p>
@@ -5453,7 +5459,7 @@
                             <note n="2" xml:id="d52fn2" type="summary">The Department reported on the meeting between Rear Admiral <persName>Khan</persName> and Assistant Secretary Atherton and Undersecretary of State for Political Affairs <persName corresp="#p_HPC1">Philip Habib</persName> regarding military assistance for Bangladesh. <persName corresp="#p_AALRJ1">Atherton</persName> and <persName corresp="#p_HPC1">Habib</persName> clarified the limitations of U.S. policy regarding military sales to countries receiving significant food and development aid and offered to establish a military training program for Bangladeshi officers.</note>
                         </head>
                         <dateline>
-                            <placeName>Bangladesh</placeName>, <date when="1976-10-12T20:13:00+00:00">October 12, 1976, 2013Z</date>.</dateline>
+                            <placeName>Bangladesh</placeName>, <date when="1976-10-11T20:13:00+00:00" ana="#date_apparent-typo-based-on-document-scan">October 12, 1976, 2013Z</date>.</dateline>
                         <p>TELEGRAM</p>
                         <p>DEPARTMENT OF STATE 252346</p>
                         <p>ACTION: <gloss target="#t_POL1">POL</gloss>
@@ -5568,7 +5574,7 @@
                             <note n="2" xml:id="d54fn2" type="summary">The Embassy reported that the Government of Sri Lanka had elected not to pursue a <gloss target="#t_MAP1">MAP</gloss> program with the United States. The Embassy believed that the reason for the rejection of U.S. training was related to non-alignment: specifically, the Sri Lankan Government's desire to avoid accepting Soviet aid to balance that of the United States.</note>
                         </head>
                         <dateline>
-                            <date when="1973-02-09T11:40:00+00:00">February 9, 1973, 1140Z</date>.</dateline>
+                            <date when="1973-02-09T17:15:00+00:00" ana="#date_apparent-typo-based-on-document-scan">February 9, 1973, 1140Z</date>.</dateline>
                         <pb n="1" xml:id="d54-01" facs="d54-01"/>
                         <p>TELEGRAM</p>
                         <p>Department of State</p>
@@ -6781,7 +6787,7 @@
                             <note n="2" xml:id="d71fn2" type="summary">Secretary of State <persName corresp="#p_KHA1">Henry Kissinger</persName> and Deputy to the Assistant to the President for National Security Affairs <persName corresp="#p_SB3">BRENT SCOWCROFT</persName> discussed the arrangements for the Diego Garcia expansion and its announcement with Sir John Hunt and Ambassador Sir Peter Ramsbotham.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1974-04-26T13:25:00">April 26, 1974, 1:25 p.m.</date>
+                            <placeName>Washington</placeName>, <date from="1974-04-26T13:25:00" to="1974-04-26T14:45:00" ana="#date_imprecise-inferred-from-document-scan">April 26, 1974, 1:25 p.m.</date>
                         </dateline>
                         <pb n="1" xml:id="d71-01" facs="d71-01"/>
                         <p>THE WHITE HOUSE</p>
@@ -8477,7 +8483,7 @@
                             <note n="2" xml:id="d85fn2" type="summary">In a conversation with U.S. Secretary of the Treasury William Simon, Prime Minister <persName corresp="#p_BSRD1">Bandaranaike</persName> thanked the United States for 100,000 tons of wheat flour and $8 million in loans for fertilizer. They also discussed general economic topics and the 1971 insurrection in Sri Lanka.</note>
                         </head>
                         <dateline>
-                            <date when="1975-04-22T13:15:00+00:00">April 22, 1975, 1315Z</date>.</dateline>
+                            <date when="1975-04-22T18:15:00+00:00" ana="#date_apparent-typo-based-on-document-scan">April 22, 1975, 1315Z</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Treasury Secretary SIMON's Meeting with Prime Minister</item>
@@ -10031,7 +10037,7 @@
                             <note n="2" xml:id="d96fn2" type="summary">Secretary of State <persName corresp="#p_KHA1">Kissinger</persName> and Ambassador <persName corresp="#p_KN2">Kanakaratne</persName> met and discussed issues related to the Non-Aligned Conference, the Middle East, and voting in the United Nations.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1976-07-14T12:00:00">July 14, 1976, noon</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1976-07-13T12:00:00" ana="#date_apparent-typo-based-on-document-scan">July 14, 1976, noon</date>.</dateline>
                         <pb n="1" xml:id="d96-01" facs="d96-01"/>
                         <list type="subject">
                             <head>SUBJECT:</head>
@@ -12241,7 +12247,7 @@
                                 <persName corresp="#p_NRM1">Nixon</persName> and <persName corresp="#p_KHA1">Kissinger</persName> met with <persName corresp="#p_JLK1">Jha</persName> before his departure from Washington to discuss the state of United States-Indian relations.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1973-03-30">March 30, 1973</date>.</dateline>
+                            <placeName>Washington</placeName>, <date notBefore="1973-03-30T11:39:00-05:00" notAfter="1973-03-30T11:56:00-05:00" ana="#date_imprecise-inferred-from-document-content" when="1973-03-30">March 30, 1973</date>.</dateline>
                         <p>
                             <persName corresp="#p_NRM1">Nixon</persName>: I've never been to Kashmir, you came and told me it's beautiful. Mr. Nehru, you know, he had this great feeling in his heart for Kashmir, and, of course, he was from there. But I wanted to say to you as you go that we—that I, as <persName>Henry</persName> has probably told you, I normally can't see—I usually see ambassadors when they come, I don't get to see them very often when they leave. I would like to see every one, but I wanted to see you and welcome the opportunity for reasons that are obvious. One, because the country you represent and what it means to the world; and it's a major country, a very major country; the number of people; the place that it is geographically; the role it can play. Second, also because I think you personally have worked so hard under very difficult circumstances for a good relationship between the U.S. and India. We've had some rocky times, the war thing, and now this last little blip about cleaning up that Pakistan aid thing and so forth and so on. I must say, incidentally, that I have appreciated the restraint that has been shown on that. It's a hard decision for us. It was, as you know, not one that was in any way designed to create any threat to India. And it does not. The important thing now though is that the suspicions and this constant confrontation and so forth, which seems to get into the public press, between India and the U.., that we try to dampen down, because for better or worse, let's face it, we are the two biggest democracies in the world, yours and ours. Each of us has much to give to the other. Each of us has an enormous interest in maintaining our freedom and in working towards a more peaceful world. And for us to be in a position that we are with India, I mean in the minds of many people, many people in the world, that India and the U.S. are always opposed is not healthy, not a good thing for you. It isn't good for us. Now, what we do about it? It isn't just a state visit, the tipping of glasses, the nice, little speeches which we've had, but it's hard, day-to-day work on some of these things. But, I want you to convey to the Prime Minister that I sent <persName corresp="#p_MDP1">Moynihan</persName> there because he's a very close, personal associate. He deeply wanted to go. He loves America, but he loves also your country, and he—And I sent him there because I wanted to have a positive, a more positive development in the relations between our countries. The, uh—We must not allow, now with Pakistan divided, I mean with sincerity, we must not allow differences about that, or differences about other things, to blind us to the overall interest that we have in a continuing, healthy, constructive relationship. Now, let me say this: not so much in this country, although there are some, but in your country, as you well know, as there are in most countries in the world it's—there's a considerable number, a body of opinion, some in the press, some in the Parliament, and the rest who sort of make a profession out of being anti-U.S. I understand that. It's true in Latin America. It's true in Europe and so forth and so on, and the Soviet [Union]. I have no—And I understand it, but the point is that I simply want to say without any sentimentality—although some sentiment might be involved in this—but, basically, not based on that, but based on the interests we share, the interests of the world for people, the interests in the maintenance of the great, free nations requires that India and the United States have a better relationship. And you, you had to take it over a rocky period, and we hope your successor will come here and, perhaps, work cooperatively toward that end because if it goes the other way then each of us will have to look another way, in other directions. And you don't want that, and we don't want it either. That's the way I would like to—So, I've tried to speak quite frankly about it and I think. Another thing that I did is to say, finally, is this that you get the impression that—which I—from some reports, some speeches that have been made, that—and I realize a lot of this throughout the war in Vietnam, which fortunately is now over and the rest, but none of this—but you get it, and a lot of it throughout India, it reminds us of the India-Pakistan flare up, that President <persName corresp="#p_NRM1">Nixon</persName> is anti-Indian and anti-Mrs. <persName corresp="#p_GI2">Gandhi</persName> sort of thing. That's baloney. That is not true. I have never been and never will be, because I want good relations. So, and the impression that whoever is president of the United States is basically against the biggest democracy in the world is not a healthy one to have. It's just [unclear]It's not healthy for the other—for the superpowers to think that, it isn't healthy for your neighbors to think that, it isn't healthy, certainly, for people in this country to think that. And finally, apart from its not being healthy, it's just not true. So, these are some of the things that I hope you take with you, and I hope you take some pleasant memories, too.</p>
                         <p>
