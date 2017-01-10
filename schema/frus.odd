@@ -1124,6 +1124,11 @@
                                             content of the document and corrected Date value(s) 
                                             were inferred from the content of the document</gloss>
                                     </valItem>
+                                    <valItem ident="#date_apparent-typo-based-on-document-scan">
+                                        <gloss>The recorded date was determined to be an error via the
+                                            scanned version of the original document and corrected Date value(s) 
+                                            were inferred from the content of the scanned document</gloss>
+                                    </valItem>
                                     <valItem ident="#date_apparent-typo-based-on-outside-research">
                                         <gloss>The recorded date was determined to be an error via
                                             outside research and corrected date value(s) were inferred 
@@ -1155,6 +1160,10 @@
                                         <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
                                             inferred from the content of the document</gloss>
                                     </valItem>
+                                    <valItem ident="#date_imprecise-inferred-from-document-scan">
+                                        <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
+                                            inferred from the content of the scanned version of the original document</gloss>
+                                    </valItem>
                                     <valItem ident="#date_imprecise-inferred-from-document-content-and-sibling-dates">
                                         <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
                                             inferred from the content of the document and nearest dated siblings</gloss>
@@ -1166,6 +1175,10 @@
                                     <valItem ident="#date_undated-inferred-from-document-content">
                                         <gloss>Date value(s) for undated document were inferred from
                                             the content of the document</gloss>
+                                    </valItem>
+                                    <valItem ident="#date_undated-inferred-from-document-scan">
+                                        <gloss>Date value(s) for undated document were inferred from
+                                            the content of the scanned version of the original document</gloss>
                                     </valItem>
                                 </valList>
                             </attDef>
