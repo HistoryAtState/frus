@@ -16,5 +16,10 @@
             <assert test=". ne ''">Published date must be entered for published volumes</assert>
         </rule>
     </pattern>
-    
+    <pattern id="common-errors">
+        <title>Checks text of bibliography entries for common errors</title>
+        <rule context="title[@type='volume-number']">
+            <assert test="starts-with(., 'Volume')">title/@type="volume-number" must start with "Volume"</assert>
+        </rule>
+    </pattern>
 </schema>
