@@ -19,7 +19,7 @@
     <pattern id="common-errors">
         <title>Checks text of bibliography entries for common errors</title>
         <rule context="title[@type='volume-number']">
-            <assert test="starts-with(., 'Volume')">title/@type="volume-number" must start with "Volume"</assert>
+            <assert test="starts-with(., 'Volume') or .=''">title/@type="volume-number" must start with "Volume" or be empty</assert>
         </rule>
     </pattern>
 </schema>
