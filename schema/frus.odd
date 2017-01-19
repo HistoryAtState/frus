@@ -1168,6 +1168,10 @@
                                         <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
                                             inferred from the content of the document and nearest dated siblings</gloss>
                                     </valItem>
+                                    <valItem ident="#date_imprecise-inferred-from-outside-research">
+                                        <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
+                                            inferred from related sources</gloss>
+                                    </valItem>
                                     <valItem ident="#date_undated-inferred-from-sibling-dates">
                                         <gloss>Date value(s) for undated document were inferred from
                                             nearest dated siblings</gloss>
@@ -1176,9 +1180,17 @@
                                         <gloss>Date value(s) for undated document were inferred from
                                             the content of the document</gloss>
                                     </valItem>
+                                    <valItem ident="#date_undated-inferred-from-document-content-and-sibling-dates">
+                                        <gloss>Date value(s) for undated document were inferred from the 
+                                            content of the document and nearest dated siblings</gloss>
+                                    </valItem>
                                     <valItem ident="#date_undated-inferred-from-document-scan">
                                         <gloss>Date value(s) for undated document were inferred from
                                             the content of the scanned version of the original document</gloss>
+                                    </valItem>
+                                    <valItem ident="#date_undated-inferred-from-outside-research">
+                                        <gloss>Date value(s) for undated document were inferred from
+                                           related sources</gloss>
                                     </valItem>
                                 </valList>
                             </attDef>

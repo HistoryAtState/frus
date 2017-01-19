@@ -1096,26 +1096,39 @@ date =
         "#date_imprecise-inferred-from-document-scan"
         | 
         ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
-        ##                                              inferred from nearest dated siblings) 
+        ##                                              inferred from the content of the document
+        ##                                              and nearest dated siblings) 
         "#date_imprecise-inferred-from-document-content-and-sibling-dates"
         | 
         ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
-        ##                                              inferred from the content of the document
-        ##                                              and nearest dated siblings) 
+        ##                                             inferred from related sources) 
+        "#date_imprecise-inferred-from-outside-research"
+        | 
+        ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
+        ##                                              inferred from nearest dated siblings) 
         "#date_imprecise-inferred-from-sibling-dates"
-        | 
-        ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
-        ##                                              were inferred from nearest dated siblings) 
-        "#date_undated-inferred-from-sibling-dates"
-        | 
+        |
         ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
         ##                                              were inferred from the content of the document) 
         "#date_undated-inferred-from-document-content"
         | 
         ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
+        ##                                              were inferred from the content of the document
+        ##                                              and nearest dated siblings) 
+        "#date_undated-inferred-from-document-content-and-sibling-dates"
+        | 
+        ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
         ##                                              were inferred from the content of the 
         ##                                              scanned version of the original document) 
         "#date_undated-inferred-from-document-scan"
+        |
+        ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
+        ##                                              were inferred from related sources) 
+        "#date_undated-inferred-from-outside-research"
+        |
+        ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
+        ##                                              were inferred from nearest dated siblings) 
+        "#date_undated-inferred-from-sibling-dates"
     }?,
     empty
   }
