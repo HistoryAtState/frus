@@ -80,6 +80,10 @@
                         <catDesc>Date value(s) for undated document were inferred from the content
                             of the document and nearest dated siblings</catDesc>
                     </category>
+                    <category xml:id="date_undated-inferred-from-document-head">
+                        <catDesc>Date value(s) for undated document were inferred from dates in 
+                            document header, using an XQuery script to find date patterns</catDesc>
+                    </category>
                     <category xml:id="date_undated-inferred-from-document-scan">
                         <catDesc>Date value(s) for undated document were inferred from the content
                             of the scanned version of the document</catDesc>

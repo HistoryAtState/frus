@@ -1184,6 +1184,10 @@
                                         <gloss>Date value(s) for undated document were inferred from the 
                                             content of the document and nearest dated siblings</gloss>
                                     </valItem>
+                                    <valItem ident="#date_undated-inferred-from-document-head">
+                                        <gloss>Date value(s) for undated document were inferred from dates in 
+                                            document header, using an XQuery script to find date patterns</gloss>
+                                    </valItem>
                                     <valItem ident="#date_undated-inferred-from-document-scan">
                                         <gloss>Date value(s) for undated document were inferred from
                                             the content of the scanned version of the original document</gloss>
