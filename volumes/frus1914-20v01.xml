@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1914-20v01">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="frus1914-20v01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -58,6 +61,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2014-04-22 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC submission</change>
@@ -5320,12 +5326,11 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1870</ref>.<note n="1" xml:id="d1fn1">
                                 <ref target="#pg_396">pp. 396</ref>–<ref target="#pg_398">398</ref>.</note>
                         </p>
-                        <p>
-                            <placeName>
-                                <hi rend="smallcaps">Washington</hi>
-                            </placeName>, <date when="1914-08-03">
-                                <hi rend="italic">August 3, 1914</hi>.</date>
-                        </p>
+
+                        <dateline>
+                            <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1914-08-03"><hi rend="italic">August 3, 1914</hi>.</date>
+                        </dateline>
+                        
                     </div>
                     <div type="document" xml:id="d2" n="2">
                         <note rend="inline" type="source">763.72111/35½</note>
@@ -5378,11 +5383,11 @@
                             </signed>
                         </closer>
                         <postscript>
-                            <p>[<placeName>
-                                    <hi rend="smallcaps">Washington</hi>
-                                </placeName>,] <date when="1914-08-07">
-                                    <hi rend="italic">August 7, 1914</hi>.</date>
-                            </p>
+                            <dateline>[<placeName>
+                                <hi rend="smallcaps">Washington</hi>
+                            </placeName>,]<date when="1914-08-07">
+                                <hi rend="italic">August 7, 1914</hi>.</date>
+                            </dateline>
                         </postscript>
                     </div>
                     <div type="document" xml:id="d3" n="3">
@@ -5911,6 +5916,9 @@
                             <hi rend="italic">Memorandum by President Wilson</hi>
                             <note n="15" xml:id="d21fn1">This paper bears the notation: “Handed me by Prest Feby 7, 1917 RL.”</note>
                         </head>
+                        <dateline>
+                            <date notBefore="1917-01-01T00:00:00" notAfter="1917-02-07T23:59:59" ana="#date_undated-inferred-from-document-content-and-sibling-dates">undated</date>
+                        </dateline>
                         <p rend="center">
                             <hi rend="smallcaps">Bases of Peace</hi>
                         </p>
@@ -6293,7 +6301,7 @@
                             <hi rend="italic">Memorandum by the Counselor for the Department of State</hi> (<hi rend="italic">Lansing</hi>)</head>
                         <opener><dateline rendition="#right">[<placeName>
                                 <hi rend="smallcaps">Washington</hi>
-                            </placeName>, <hi rend="italic">undated</hi>.]</dateline></opener>
+                            </placeName>, <hi rend="italic"><date notBefore="1914-09-04T00:00:00-05:00" notAfter="1914-08-08T23:59:59-05:00">undated</date></hi>.]</dateline></opener>
                         <p rend="center">
                             <hi rend="smallcaps">Reception of Belgian Delegation</hi>
                         </p>
@@ -8112,7 +8120,10 @@
                     <div type="document" xml:id="d82" n="82">
                         <note rend="inline" type="source">701.6211/333</note>
                         <head>
-                            <hi rend="italic">Memorandum by the Secretary of State of a Conversation With the German Ambassador</hi> (<hi rend="italic">Bernstorff</hi>), <hi rend="italic">December 10, 1915, 4:30 p. m</hi>.</head>
+                            <hi rend="italic">Memorandum by the Secretary of State of a Conversation With the German Ambassador</hi> (<hi rend="italic">Bernstorff</hi>), <hi rend="italic">December 10, 1915, 4:30 p.m.</hi></head>
+                        <dateline>
+                            <date when="1915-12-10T16:30:00" ana="#date_undated-inferred-from-document-head">December 10, 1915, 4:30 p.m.</date>
+                        </dateline>
                         <p>The German Ambassador called on me this afternoon and handed me the attached note.<note n="23" xml:id="d82fn1">
                                 <ref target="frus1915Supp#pg_951">
                                     <hi rend="italic">Foreign Relations</hi>, 1915, supp., p. 951</ref>.</note> He stated that he did so in person because he had received my letter of today<note n="24" xml:id="d82fn2">
@@ -8156,7 +8167,10 @@
                         <note rend="inline" type="source">701.6211/369½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conversation With the German Ambassador</hi> (<hi rend="italic">Bernstorff</hi>),
-<hi rend="italic">April 19, 1916, 11:30 a. m</hi>.</head>
+<hi rend="italic">April 19, 1916, 11:30 a.m.</hi></head>
+                        <dateline>
+                            <date when="1916-04-19T11:30:00" ana="#date_undated-inferred-from-document-head">April 19, 1916, 11:30 a.m.</date>
+                        </dateline>
                         <p>L Good morning, Mr. Ambassador.</p>
                         <p>B Good morning. I came to see you about a very unpleasant affair. By order of the District Attorney of New York the officers went to the office of our Military Attaché and arrested von Igel by force and by force took away and kept papers.<note n="28" xml:id="d84fn1">For correspondence previously printed concerning the arrest of von Igel and the seizure of his papers, see <ref target="frus1915Supp#pg_807">
                                     <hi rend="italic">ibid.</hi>, 1916, supp., pp. 807 ff</ref>.</note> I wish to ask if you will request the return of the papers and the release of von Igel.</p>
@@ -10142,11 +10156,11 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                             </signed>
                         </closer>
                         <postscript>
-                            <p>[<placeName>
-                                    <hi rend="smallcaps">Washington</hi>
-                                </placeName>,] <date when="1914-08-09">
-                                    <hi rend="italic">August 9, 1914</hi>.</date>
-                            </p>
+                            <dateline>[<placeName>
+                                <hi rend="smallcaps">Washington</hi>
+                            </placeName>,]<date when="1914-08-09">
+                                <hi rend="italic">August 9, 1914</hi>.</date>
+                            </dateline>
                             <p>August 10, 1914, the Secy informed me that he had sent the foregoing to the Pres’t with certain verbal changes which he (the Secy) had suggested.</p>
                             <closer>
                                 <signed>R. L.</signed>
@@ -12034,12 +12048,12 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                             </signed>
                         </closer>
                         <postscript>
-                            <p>
+                            <dateline>
                                 <placeName>
                                     <hi rend="smallcaps">Washington</hi>
-                                </placeName>, <date when="1916-09-25">
+                                </placeName>,<date when="1916-09-25">
                                     <hi rend="italic">25 September, 1916</hi>.</date>
-                            </p>
+                            </dateline>
                         </postscript>
                     </div>
                     <div type="document" xml:id="d210" n="210">
@@ -12094,7 +12108,7 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                             <opener><dateline rendition="#right">
                                 <placeName>
                                     <hi rend="smallcaps">Washington</hi>
-                                </placeName> [<hi rend="italic">undated</hi>].</dateline></opener>
+                                </placeName> [<hi rend="italic"><date notBefore="1916-11-01T00:00:00-05:00" notAfter="1916-11-23T23:59:59-05:00" ana="#date_undated-inferred-from-document-content">undated</date></hi>].</dateline></opener>
                             <p>At the beginning of September last the following communication was, by agreement between Sweden, Norway and Denmark, confidentially made to the Ministers of Foreign Affairs at The Hague, Madrid and Berne through the Legations of the three northern countries:</p>
                             <quote rend="blockquote">
                                 <p>“At the meeting of the Ministers of Foreign Affairs of Sweden, Norway and Denmark at Copenhagen in March, 1916, the question of cooperation with other neutral powers for the safeguarding of common interest, jeopardized by the World War, was the object of <pb n="226" xml:id="pg_226" facs="0294"/>preliminary deliberations. It is the intention to prosecute this scheme on [<hi rend="italic">in</hi>] the forthcoming meeting at Christiania by bringing up the question of issuing invitations to a conference to be held by neutral powers in order to consider common interests especially with regard to commerce, neutrality rules and the application of these rules. In choosing the subjects for discussion it is a leading principle to avoid even appearance of taking sides with either of the belligerent parties. The question, of mediation is excluded from the program.”</p>
@@ -12136,6 +12150,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conversation With the Swedish Minister</hi> (<hi rend="italic">Ekengren</hi>), <hi rend="italic">December 1, 1916</hi>
                         </head>
+                        <dateline>
+                            <date when="1916-12-01" ana="#date_undated-inferred-from-document-head">December 1, 1916</date>
+                        </dateline>
                         <p>I told the Minister that I had requested him to come to the Department in regard to the Memorandum which he left with me on November 23d in which was outlined a plan for a conference of neutrals regarding certain subjects mentioned in the memorandum, and which proposed to invite Holland, Spain and Switzerland to join with Sweden, Norway and Denmark in such conferences, stating that it was decided to afford an opportunity to the United States Government to take part in these deliberations.</p>
                         <p>I informed the Minister that after very careful consideration of the subject, and after a conference with the President in regard to the proposed meeting, we had reached the conclusion that it would be inadvisable for this Government to participate in a neutral conference at this time; that the reasons for this decision were that on account of our geographical location our problems in regard to the subjects proposed for discussion were so different from those of countries contiguous to the belligerents that there would be no common ground for discussion; that, furthermore, we were peculiarly related to the American Republics and they were not included as possible conferees; and that it had been our policy heretofore, and seemed to be a wise one, to act independently of other countries although, as far as possible, obtaining identic action with them.</p>
                         <p>The Minister said that he appreciated our attitude in regard to the proposed conference and would communicate our decision to his Government.</p>
@@ -12665,7 +12682,7 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                         <opener><dateline rendition="#right">
                             <placeName>
                                 <hi rend="smallcaps">Washington</hi>
-                            </placeName> [<hi rend="italic">undated</hi>].</dateline></opener>
+                            </placeName> [<hi rend="italic"><date when="1914-10-24" ana="#date_undated-inferred-from-document-content">undated</date></hi>].</dateline></opener>
                             <p>
                             <hi rend="smallcaps">Telegram From Sir E. Grey to Sir C. Spring Rice, Dated October</hi> 24, 1914</p>
                         <p>I am very glad that the United States Government no longer insist upon the Declaration of London in its entirety: this decision will smooth the path very much. I am very sensible of the friendly spirit shown by the President and my conversations with Mr. Page have been most pleasant.</p>
@@ -13035,6 +13052,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                             <hi rend="italic">Newspaper Text of the British Order in Council of March 11, 1915, With Comments by the Counselor for the Department of State</hi> (<hi rend="italic">Lansing</hi>)<note n="49" xml:id="d238fn1">Mr. Lansing’s comments are here printed in brackets following quotations from the newspaper text of the Order in Council. For official text of the Order, see <ref target="frus1915Supp#pg_144">
                                     <hi rend="italic">ibid.</hi>, p. 144</ref>.</note>
                         </head>
+                        <dateline>
+                            <date when="1915-03-15" ana="#date_undated-inferred-from-document-content">March 15, 1915</date>
+                        </dateline>
                         <p>
                             <hi rend="smallcaps">London</hi>, <hi rend="italic">March 15</hi>[, <hi rend="italic">1915</hi>].—The text of Great Britain’s order in council declaring war on German commerce was made public today. The order reads:</p>
                         <quote rend="blockquote">
@@ -13467,6 +13487,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                         <head>
                             <hi rend="italic">Memorandum by the Counselor for the Department of State</hi> (<hi rend="italic">Lansing</hi>) <hi rend="italic">of an Interview With Mr. Samuel K. Ratcliffe, March 25, 1915</hi>
                         </head>
+                        <dateline>
+                            <date when="1915-03-25" ana="#date_undated-inferred-from-document-head">March 25, 1915</date>
+                        </dateline>
                         <p>Samuel K. Ratcliffe is a prominent journalist of London and came with a letter of introduction from Louis F. Post.</p>
                         <p>Mr. Ratcliffe stated that, with Lord Bryce, Arthur Ponsonby, M. P., and others who were in frequent conferences, he was deeply interested in the attitude of the American and British peoples toward each other in the present situation, and that he had come to this country the latter part of January to get into personal touch with American sentiment.</p>
                         <p>He said there had been a very wide-spread change of public opinion in Great Britain toward the United States, that in fact it was almost universal, and included professional men as well as those engaged in trade. The attitude of the British public from the beginning of the war, he said, had been most friendly up to the time of the receipt of our “contraband note” of December 26th,<note n="63" xml:id="d249fn1">
@@ -14801,12 +14824,12 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                         <p rend="flushleft">J. Nr. A 627</p>
                         <p>The Imperial German Embassy presents its compliments to the United States Department of State and has the honor to enclose herewith one wireless cipher message, in duplicate, to the Foreign Office in Berlin for kind transmission to the Tuckerton Station.</p>
                         <p>Duplicate copies of the message in plain English are likewise enclosed.</p>
-                        <p rend="flushleft">
+                        <dateline rend="flushleft">
                             <placeName>
                                 <hi rend="smallcaps">Washington</hi>
-                            </placeName>, <date when="1916-01-26">
+                            </placeName>,<date when="1916-01-26">
                                 <hi rend="italic">January 26, 1916</hi>.</date>
-                        </p>
+                        </dateline>
                         <frus:attachment>
                             <opener><seg rendition="#center">[Enclosure—Telegram]</seg></opener>
                             <head>
@@ -14964,6 +14987,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                                 <hi rend="italic">Zwiedinek</hi>
                             </persName>), <hi rend="italic">February 9, 1916</hi>
                         </head>
+                        <dateline>
+                            <date when="1916-02-09" ana="#date_undated-inferred-from-document-head">February 9, 1916</date>
+                        </dateline>
                         <p>Baron Zwiedinek brought and showed me a wireless telegram, dated February 6th,<note n="20" xml:id="d303fn1">
                                 <hi rend="italic">Ante</hi>, <ref target="#pg_339">p. 339</ref>.</note> in reply to his wireless of January 26th,<note n="21" xml:id="d303fn2">Apparently No. 34, <ref target="#pg_337">p. 337</ref>.</note> although it appeared to be addressed to the German Embassy. After reading the telegram I pointed out to Zwiedinek that, when it used the words “welcomed by Mr. Lansing” in reference to the declaration which Germany and Austria-Hungary proposed to publish, the Governments were unwarranted in doing so as I had not intended to convey any such meaning in our previous conversation.</p>
                         <p>The Chargé replied that I had had the opportunity to see the telegram which he sent to his Government on the subject and must recall that he reported I would “welcome” a declaration.</p>
@@ -15388,6 +15414,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                             <note n="2" xml:id="d318fn1">Mr. Lansing’s comments are here printed in brackets following quotations from the newspaper text of the note. For official text of the note, see <ref target="frus1915Supp#pg_112">
                                     <hi rend="italic">Foreign Relations</hi>, 1915, supp., p. 112</ref>.</note>
                         </head>
+                        <dateline>
+                            <date when="1915-02-18" ana="#date_undated-inferred-from-document-content">February 18, 1915</date>
+                        </dateline>
                         <p>
                             <hi rend="smallcaps">Berlin</hi>, via <hi rend="smallcaps">London</hi>, <hi rend="italic">Thursday</hi>.—Following is the text of the German government’s answer to the American note<note n="3" xml:id="d318fn2">
                                 <ref target="frus1915Supp#pg_98">
@@ -16546,7 +16575,7 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                         <opener><dateline rendition="#right">
                             <placeName>
                                 <hi rend="smallcaps">Washington</hi>
-                            </placeName> [, <hi rend="italic">undated</hi>].</dateline></opener>
+                            </placeName> [, <hi rend="italic"><date notBefore="1915-05-12T00:00:00-05:00" notAfter="1915-05-12T23:59:59-05:00" ana="#date_imprecise-inferred-from-document-content-and-sibling-dates">undated</date></hi>].</dateline></opener>
                             <p>
                             <hi rend="smallcaps">My Dear Mr. President</hi>: Your more than generous note received with draft of protest to Germany.<note n="43" xml:id="d348fn1">For this draft, embodying Mr. Lansing’s suggested changes, see <ref target="#pg_395">p. 395</ref>; for text of the note as sent, see <ref target="frus1915Supp#pg_393">
                                     <hi rend="italic">Foreign Relations</hi>, 1915, supp., p. 393</ref>.</note> I have gone over it very carefully and will give it to Mr. Lansing at once, for I agree with you that it is well to act without delay in order to give direction to public opinion. I do not see that you could have stated your position more clearly or more forcibly. In one sentence I suggest “as the last few weeks have shown” so that it will read: “Submarines, we respectfully submit, cannot be used against Merchantmen, as the last few weeks have shown, without an inevitable violation of many sacred principles of justice and humanity.”<note n="44" xml:id="d348fn2">See <ref target="#pg_397">p. 397</ref>, 1. 7.</note> The only other amendment that occurs to me relates to the <hi rend="italic">Cushing</hi> and <hi rend="italic">Gulflight</hi>. Would it not be wise to make some reference to the rules sent us and the offer to apologize and make reparation in case a neutral ship was sunk by mistake? I suggest something like this: “Apology and reparation for destruction of neutral ships, sunk by mistake, while they may <pb n="393" xml:id="pg_393" facs="0461"/>satisfy international obligation, if no loss of life results, can not justify or excuse a practice, the natural and almost necessary effect of which is to subject neutral nations to new and innumerable risks, for it must be remembered that peace, not war, is the normal state and that nations that resort to war for a settlement of international disputes are not at liberty to subordinate the rights of neutrals to the supposed or even actual needs of belligerents.”<note n="45" xml:id="d348fn3">See <ref target="#pg_398">p. 398</ref>, paragraph beginning, “Expressions of regret.”</note> I am in doubt of the propriety of referring to the note published by Bernstorff.<note n="46" xml:id="d348fn4">The advertisement warning travelers against sailing on Allied vessels through the German war zone, <ref target="#pg_382">p. 382</ref>.</note>
@@ -16563,6 +16592,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                                 <hi rend="italic">Lansing</hi>
                             </persName>)<note n="47" xml:id="d349fn1">This paper is undated; it bears the following notation in Lansing’s hand: “May 12/15 RL.”</note>
                         </head>
+                        <dateline>
+                            <date when="1915-05-12" ana="#date_imprecise-inferred-from-document-content">undated</date>
+                        </dateline>
                         <p>
                             <hi rend="smallcaps">My Dear Mr. Lansing</hi>: I enclose a draft of note to Germany drawn by the President.<note n="48" xml:id="d349fn2">See footnote 43, <ref target="#pg_392">p. 392</ref>.</note> He asks for our suggestions. I wish you would prepare <hi rend="underline">at once</hi> a draft embodying yours—I will submit mine in a letter to accompany the draft when sent back to the President. I shall be detained here for a while but will be down before your draft is completed.</p>
                         <p>Yours</p>
@@ -19548,8 +19580,11 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                     <div type="document" xml:id="d437" n="437">
                         <note rend="inline" type="source">841.857 Ar 1/106½</note>
                         <head>
-                            <hi rend="italic">Memorandum by the Secretary of State of an Interview With the German Ambassador</hi> (<hi rend="italic">Bernstorff</hi>), <hi rend="italic">October 5, 1915, 10: 30 a. m.</hi>
+                            <hi rend="italic">Memorandum by the Secretary of State of an Interview With the German Ambassador</hi> (<hi rend="italic">Bernstorff</hi>), <hi rend="italic">October 5, 1915, 10:30 a.m.</hi>
                         </head>
+                        <dateline>
+                            <date when="1915-10-05T10:30:00" ana="#date_undated-inferred-from-document-head">October 5, 1915, 10:30 a.m.</date>
+                        </dateline>
                         <p>The German Ambassador called at my request in regard to the note which he had submitted to me, dated October 2d, concerning the <hi rend="italic">Arabic</hi> case.<note n="62" xml:id="d437fn1">
                                 <hi rend="italic">Ante</hi>, <ref target="#pg_483">p. 483</ref>.</note>
                         </p>
@@ -20119,6 +20154,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conversation With the Austro-Hungarian Chargé</hi> (<hi rend="italic">Zwiedinek</hi>), <hi rend="italic">December 18, 1915</hi>
                         </head>
+                        <dateline>
+                            <date when="1915-12-18" ana="#date_undated-inferred-from-document-head">December 18, 1915</date>
+                        </dateline>
                         <p>Baron Zwiedinek called this morning for the purpose, apparently, of finding out what the attitude of this Government was to be in regard to the Austrian reply.</p>
                         <p>He asked me first what impression the reply had made upon this Government and I told him it had made a very bad impression; that I considered it to be more or less frivolous and I was surprised that the Austrian Government supposed for a moment that such a reply would be acceptable to the United States.</p>
                         <p>He seemed much disturbed at what I said and entered into an argument to show that there might be a question as to the rule of international law when a merchant vessel sought to escape from an enemy even though she subsequently ceased the attempt. I told him that I could not conceive of such a technicality as that being a subject of discussion and that if the Austrian Government sought to advance it I feared that it would irritate rather than help the situation. I went on to say that ever since there had been naval warfare a vessel, unarmed, which was attacked by a warship sought to escape, but that I did not see that the warship obtained the right to destroy people on board after the vessel had practically surrendered. I likened the case to the flight of troops who were finally compelled to surrender and that I thought the murderous attack upon a vessel at rest was very similar to the indefensible slaughter of prisoners.</p>
@@ -20186,6 +20224,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                             <hi rend="italic">Memorandum by the Secretary of State of a Conversation With the Austro-Hungarian Chargé</hi> (<hi rend="italic">Zwiedinek</hi>), <hi rend="italic">December 21, 1915</hi>
                             <note n="79" xml:id="d463fn1">Copy transmitted to President Wilson on the same day.</note>
                         </head>
+                        <dateline>
+                            <date when="1915-12-21" ana="#date_undated-inferred-from-document-head">December 21, 1915</date>
+                        </dateline>
                         <p>Baron Zwiedinek called and said he had received two telegrams from his Government which he desired to communicate to me. He then read the telegrams, copies of which are annexed. In commenting on them he said he felt very hopeful that his Government would be able to find a satisfactory way to meet the desires of the United States; that he knew they were anxious to preserve friendly relations. I said to him that he must realize that we had taken a position from which we could not recede. He said he knew that; that he thought it was possible that the Austrian Government would be willing to acknowledge that our attitude as to the principle involved should be accepted and that he thought that the difficulty would lie in our demand for the punishment of the commander. I told him it seemed to me that the Commander not only was bound by his instructions, but also by the law and principles of humanity, and that if he violated these he was as guilty as if he had violated his instructions. He replied that if his Government had held a different view as to the principle involved which they now held and had issued instructions in accordance with their former view, that the Commander would certainly not be to blame for following such instructions.</p>
                         <p>To this I said: “Either the Commander is guilty, or your Government is guilty. If your Government desires to take the responsibility they should frankly say so, exonerating the Commander, but they should assume his guilt.” He replied that that was a very difficult thing for a Government to do. I said I realized that but it seemed to me the only alternative and if it did assume such responsibility it would be necessary for the Austrian Government to apologize, in addition to denouncing the act and offering to indemnify the sufferers.</p>
                         <p>He said that he would take the matter up immediately with his Government and hoped that they could reach a satisfactory conclusion. He also said that he was very sorry that they had not received his telegrams before they answered our first note, because he thought it would have made a difference in the tone of their reply.</p>
@@ -20521,6 +20562,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conversation With the German Ambassador</hi> (<hi rend="italic">Bernstorff</hi>), <hi rend="italic">December 31, 1915</hi>
                         </head>
+                        <dateline>
+                            <date when="1915-12-31" ana="#date_undated-inferred-from-document-head">December 31, 1915</date>
+                        </dateline>
                         <p>The German Ambassador called upon me and handed me the annexed paper, which is the substance of a telegram which he had received from Berlin. He said that this did not complete his instructions in the matter as the telegram said—“to be continued.”</p>
                         <p>The Ambassador said that he appreciated this was going over the ground which we had traversed many times, but he thought that while his Government suggested arbitration he had received an intimation that they would like to know the reasons why we were unwilling to submit the case to arbitration. He added that he believed that his Government, if a fairly good case could be made out against arbitration, would follow the course which had been adopted apparently by Austria in their <hi rend="italic">Ancona</hi> case.</p>
                         <pb n="511" xml:id="pg_511" facs="0579"/>
@@ -20541,6 +20585,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                                 </hi>
                                 <note n="87" xml:id="d476fn2">This paper bears the notation: “The substance of a telegram recd from Berlin. Handed me by German Amb. Dec. 31/15. RL.”</note>
                             </head>
+                            <dateline>
+                                <date when="1915-12-31" ana="#date_undated-inferred-from-document-head">December 31, 1915</date>
+                            </dateline>
                             <p>The German submarine war against England’s commerce at sea, as announced on February 4, 1915,<note n="87a" xml:id="d476fn3">See <ref target="frus1915Supp#pg_96">
                                         <hi rend="italic">Foreign Relations</hi>, 1915, supp., p. 96</ref>.</note> is conducted in retaliation of England’s inhuman war against Germany’s commercial and industrial life. It is an acknowledged rule of international law that retaliation may be employed against acts committed in contravention of the law of nations. Germany is enacting such a retaliation, for it is England’s endeavor to cut off all imports from Germany by preventing even legal commerce of the neutrals with her and thereby subjecting the German population to starvation. In answer to these acts Germany is making efforts to destroy England’s commerce at sea, at least as far as it is carried on by enemy vessels.</p>
                             <p>The question whether neutral interests may in any way be injured by retaliatory measures should, in this instance, be answered in the affirmative. The neutrals by allowing the crippling of their commerce with Germany contrary to international law which is an established <pb n="512" xml:id="pg_512" facs="0580"/>fact, cannot object to the retaliatory steps of Germany for reasons of neutrality. Besides, the German measures, announced in time, are such that neutrals easily could have avoided harmful consequences by not using enemy vessels employed in commerce with England. If Germany has notwithstanding limited her submarine warfare, this was done in view of her long standing friendship with the United States and in the expectation that the steps taken by the American Government in the meantime aiming at the restoration of the freedom of the seas would be successful.</p>
@@ -20690,6 +20737,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                             </hi>
                             <note n="95" xml:id="d482fn1">This paper bears the notation: “Handed me by German Amb. Jany 10/16 RL.”</note>
                         </head>
+                        <dateline>
+                            <date notBefore="1916-01-10T00:00:00" notAfter="1916-01-10T23:59:59" ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <p>We have modified submarine war, waged in retaliation against illegal English starvation policy, to meet American wishes. Result was that submarine war lost considerably in efficiency. This was done in consideration of valued friendly relations which Germany desires continued with America. In return we expected that U. S. Government would contend with us for freedom of seas and obtain from England reestablishment of legitimate neutral trade with Germany. The United States on November fifth sent note to England<note n="96" xml:id="d482fn2">Apparently the note of Oct. 21, 1915, <ref target="frus1915Supp#pg_578">
                                     <hi rend="italic">Foreign Relations</hi>, 1915, supp., p. 578</ref>.</note> to which apparently no reply has been made, at any rate no concessions obtained from England. Instead, British Government recently published White Paper enumerating all measures which tend to cut off Germany from legitimate commerce and to control neutrals. American Note which was very much to the point exposed the illegality of these measures.</p>
                         <p>Since August last and, even before Germany modified submarine war, if incidents happened they were regrettable mistakes for which due reparation has been made. Germany showed good will by making concessions seriously affecting efficiency of submarine war. England has conceded nothing but instead boasts of more and more success in strangling Germany. We therefore may expect and should be grateful if America at last takes energetic steps to establish real freedom of seas.</p>
@@ -20921,6 +20971,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conversation With the German Ambassador</hi> (<hi rend="italic">Bernstorff</hi>), <hi rend="italic">January 26, 1916</hi>
                         </head>
+                        <dateline>
+                            <date when="1916-01-26" ana="#date_undated-inferred-from-document-head">January 26, 1916</date>
+                        </dateline>
                         <p>The German Ambassador called at 11:45 this morning and handed me a memorandum which he proposed to communicate to his Government for their approval. In the memorandum was the admission of liability of the German Government for the lives of American citizens lost on the <hi rend="italic">Lusitania</hi> but no admission of the illegality of the act of the submarine commander in sinking the vessel.</p>
                         <p>After reading the memorandum I told the Ambassador that I did not think it would be satisfactory but that I would submit it to the President if he so desired. He asked me in what particulars I would have it changed. I told him in the particular as to the admission of illegality so far as neutrals were concerned. He then made several changes in the memorandum and after we went over them together he dictated them to Mr. Sweet. The result was the annexed memorandum which the Ambassador will send today to Berlin for the approval of his Government.<note n="4" xml:id="d491fn1">Quoted in telegram, <hi rend="italic">infra</hi>.</note>
                         </p>
@@ -20994,10 +21047,10 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                                 <hi rend="italic">Ibid.</hi>, 1916, supp., <ref target="frus1915Supp#pg_144">p. 144</ref>.</note> justified this hope and expectation. The Government of the United States found further encouragement in the fact that your Excellency’s Government by declaring that the sinking of the <hi rend="italic">Lusitania</hi> was in retaliation for alleged breaches of international law by Great Britain admitted substantially that the act of the commander of the submarine was illegal. I have not failed to point out repeatedly to your Excellency that an act of admitted illegality is unjustifiable where it impairs neutral rights and imposes upon the perpetrator a full measure of liability, whatever justification may be urged for it as an act of retaliation against persons of enemy nationality. As this assertion has remained practically unchallenged my Government has patiently and hopefully awaited its acceptance by the Imperial Government and an acknowledgment of liability for the illegal and culpable conduct of its officer. But it seems now that the patience of the Government of the United States was in vain, and its hope unwarranted.</p>
                         <p>I need not impress upon your Excellency the critical stage which the controversy has reached, as I know that you appreciate as fully as I do, that a direct issue can no longer be avoided. My Government, while it views this situation with the gravest concern and would <pb n="529" xml:id="pg_529" facs="0597"/>deplore a severance of those relations with your Government which have always been characterized by sincerity and cordiality, cannot recede from the position which it has taken, or lessen the demands which it has made.</p>
                         <p>The Government of the United States feels that the time has come when it should know whether the Imperial German Government purposes to recognize the justice of the contention of the United States and is willing to rectify as far as possible the wrongs done to its citizens. After the very full exchange of views which have taken place, the Government of the United States does not consider the subject is open to further discussion; and it, therefore, requests that the Imperial Government reply categorically to the demands which have been presented and that in doing so it bear in mind that upon it rests the responsibility for the future relations between the two countries, which the Government of the United States most earnestly and sincerely desires should continue to be inspired by cordial friendship and esteem and by a due regard for the rights of their respective citizens and subjects.</p>
-                        <p rend="flushleft">
+                        <dateline rend="flushleft">
                             <date when="1916-01-26">
-                                <hi rend="smallcaps">January</hi> 26, 1916</date>
-                        </p>
+                                <hi rend="smallcaps">January</hi>26, 1916</date>
+                        </dateline>
                     </div>
                     <div type="document" xml:id="d494" n="494">
                         <note rend="inline" type="source">763.72/2364</note>
@@ -21400,6 +21453,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                                 <hi rend="italic">Gerard</hi>
                             </persName>)<note n="23" xml:id="d509fn1">This paper bears the notation: “Original handed to Prest for his consideration 2:30 pm April 6/16. RL.” See also footnote 34, <ref target="#pg_546">p. 546</ref>.</note>
                         </head>
+                        <dateline>
+                            <date when="1916-04-06T14:30:00" ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <p>You are instructed to deliver to the Secretary of Foreign Affairs a note reading as follows:</p>
                         <quote rend="blockquote">
                             <p>On March 24, 1916, at two-fifty p. m. the unarmed steamer <hi rend="italic">Sussex</hi>, with three hundred and fifty to four hundred passengers on board, among whom were a number of American citizens, was torpedoed in the English Channel en route from Folkestone to Dieppe. Eighty of the passengers, which consisted of non-combatants of all ages and sexes, were killed or injured.</p>
@@ -21468,6 +21524,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conversation With the German Ambassador</hi> (<hi rend="italic">Bernstorff</hi>), <hi rend="italic">April 10, 1916, 3 p. m.</hi>
                         </head>
+                        <dateline>
+                            <date when="1916-04-10" ana="#date_undated-inferred-from-document-head">April 10, 1916</date>
+                        </dateline>
                         <p>B I did not come to see you the last days because I thought you had no information, but today I hear that you had received information and I wanted to ask if I could be of any service. Anything I could do in the matter would be pleased to do.</p>
                         <p>L Not yet. As I understand it Mr. Gerard was to receive the note today.</p>
                         <p>B I understood it had come, but I only got a telegram that he would get it.</p>
@@ -21788,6 +21847,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                                 <hi rend="italic">Bernstorff</hi>
                             </persName>), <hi rend="italic">April 18, 1916</hi>
                         </head>
+                        <dateline>
+                            <date when="1916-04-18" ana="#date_undated-inferred-from-document-head">April 18, 1916</date>
+                        </dateline>
                         <p>B My Government wants me to talk over with you once more the submarine question, and the instruction which I have received. I thought it would be better if I would give you confidentially a copy of the telegram.<note n="42" xml:id="d523fn1">
                                 <hi rend="italic">Infra</hi>.</note> I had the telegram Friday but I had to put it in order. * * *<note n="43" xml:id="d523fn2">This form of punctuation appears in the original.</note>
                         </p>
@@ -21834,6 +21896,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                             </hi>
                             <note n="45" xml:id="d524fn1">This paper bears the notation: “Handed me by German Amb., April 18/16 4 pm RL.”</note>
                         </head>
+                        <dateline>
+                            <date when="1916-04-18T16:00:00" ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <p rend="flushleft">J. No. A 2813/16</p>
                         <p>We are now conducting submarine war absolutely in accordance with general principles of International Law. Only exception is commerce war against enemy freight ships in English war-zone. This is only aimed at destruction of ships but we try to save human lives as far as possible. This retaliatory step against English starvation policy does not touch interests of neutrals as neutral passengers on enemy freight ships manifestly try to render futile German war measure and as neutral members of crew are brought into relation of dependents on state whose flag ship flies; consequently both neutral passengers and crew on enemy freight ships lose neutral character. We, therefore, never gave any promises regarding enemy freight ships in war-zone.</p>
                         <p>Instructions to submarine commanders regarding their proceeding and observance of all our assurances are so precise that according to human foresight errors are excluded and certainly not more possible than in ordinary naval war; furthermore submarine commanders are instructed not to attack ships when in doubt. A ruthless submarine war would certainly have greatly increased loss in enemy ships; for this reason alone all doubts whether our instructions are meant seriously and strictly carried out bona fide are without foundation.</p>
@@ -21849,6 +21914,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                                 <hi rend="italic">Bernstorff</hi>
                             </persName>), <hi rend="italic">April 20, 1916</hi>
                         </head>
+                        <dateline>
+                            <date when="1916-04-20" ana="#date_undated-inferred-from-document-head">April 20, 1916</date>
+                        </dateline>
                         <p>L Good morning.</p>
                         <p>B Good morning, Sir. You handed me a copy of the note yesterday,<note n="46" xml:id="d525fn1">Note of Apr. 18, 1916, on the <hi rend="italic">Sussex</hi> case, <ref target="frus1916Supp#pg_232">
                                     <hi rend="italic">Foreign Relations</hi>, 1916, supp., p. 232</ref>.</note> and in the present state of affairs of course my chief object is to find a way how this break can be avoided, because I hope it can be avoided. My idea is to find a way out of it, but of course I had to telegraph my Government that this Government seemed to offer little opportunity for settlement. If it means the entire stopping of the use of submarines, I am afraid that it cannot be arranged.</p>
@@ -22467,6 +22535,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                             <hi rend="italic">Memorandum by Colonel E. M. House of a Conversation With the German Ambassador</hi> (<hi rend="italic">Bernstorff</hi>), <hi rend="italic">November 20, 1916</hi>
                             <note n="64" xml:id="d544fn1">This paper bears the notation: “Handed me by Mr. Polk, Nov. 23/16 RL.”</note>
                         </head>
+                        <dateline>
+                            <date when="1916-11-20" ana="#date_undated-inferred-from-document-head">November 20, 1916</date>
+                        </dateline>
                         <p>I told the Ambassador that we were on the ragged edge and brought to his mind the fact that no more notes could be exchanged: that the next move was to break diplomatic relations. He appreciates this and will urge his Government again to be more careful. He said they would make an apology and reparation for the <hi rend="italic">Marina</hi> and that it would be forthcoming tomorrow or next day.</p>
                         <p>I told him the President would move for peace at the first opportunity. He said that peace was on the floor waiting to be picked up. He does not believe a belligerent government could refuse to parley, particularly since Germany is willing to evacuate both France and Belgium and any refusal to negotiate would be an admission that they would continue the war for conquest.</p>
                         <p>The Ambassador seems thoroughly alive to the danger of the situation and what the participation of this country in the war would mean and I think he will do everything possible to prevent it.</p>
@@ -23127,6 +23198,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                         <head>
                             <hi rend="italic">Memorandum by The Secretary of State on the Sailing of American Ships for European Ports</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-02-06T18:45:00" ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <p>The Government cannot give advice to private persons as to whether or not their merchant vessels should sail on voyages to European ports by which they would be compelled to pass through waters delimited in the declaration issued by the German Government on January 31, 1917.<note n="95" xml:id="d565fn1">
                                 <ref target="frus1917Supp01v01#pg_101">
                                     <hi rend="italic">Ibid.</hi>, p. 101</ref>.</note>
@@ -24045,12 +24119,12 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                         <p>There is so much to be done and so little time in which to do it that it might be prudent not to declare war until we have more nearly gotten ready. Haste in this direction is what I believe is most to be desired. If the President would outline such a policy to you and to <pb n="630" xml:id="pg_630" facs="0698"/>the Army and Navy Departments and let it be known what was being done, it would satisfy public opinion and be more effective than if actual war was declared before having taken the necessary precautions.</p>
                         <p>I hope nothing will prevent your coming on Saturday for we not only have invited some twenty odd people to meet Mrs. Lansing and you, but I am anxious to have a talk which we can do better here than in Washington.</p>
                         <p>Sincerely yours,</p>
-                        <p rend="flushleft">
+                        <dateline rend="flushleft">
                             <placeName>
                                 <hi rend="smallcaps">New York</hi>
-                            </placeName>, <date when="1917-03-20">
+                            </placeName>,<date when="1917-03-20">
                                 <hi rend="italic">March 20, 1917</hi>.</date>
-                            <lb/>[Received March 21.]</p>
+                            <lb/>[Received March 21.]</dateline>
                         <closer>
                             <signed>
                                 <hi rend="smallcaps">E. M. House</hi>
@@ -24245,6 +24319,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                             <note n="31" xml:id="d597fn1">Bracketed words represent amendments. This paper bears the notation: “Thus amended after talks April 2, 1917, with Senators Swanson and Knox and Rep. Flood. Original approved by President April 2, 11.30 am. Amendments approved by President April 2, 5 pm RL.” For text of the resolution as introduced, see <ref target="frus1917Supp01v01#pg_195">
                                     <hi rend="italic">Foreign Relations</hi>, 1917, supp. 1, p. 195</ref>.</note>
                         </head>
+                        <dateline>
+                            <date when="1917-04-02" ana="#date_undated-inferred-from-document-head">April 2, 1917</date>
+                        </dateline>
                         <p>
                             <hi rend="italic">Whereas</hi>, The recent course [<hi rend="italic">acts</hi>] of the Imperial German Government is [<hi rend="italic">are</hi>] in fact nothing less than [<hi rend="italic">acts of</hi>]<note n="32" xml:id="d597fn2">This bracketed expression is apparently intended to replace the phrase “nothing less than,” which has been crossed out in the original.</note> war against the Government and people of the United States,</p>
                         <p>
@@ -24401,12 +24478,12 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                             </signed>
                         </closer>
                         <postscript>
-                            <p rend="flushleft">
+                            <dateline rend="flushleft">
                                 <placeName>
                                     <hi rend="smallcaps">New York</hi>
-                                </placeName>, <date when="1917-04-05">
+                                </placeName>,<date when="1917-04-05">
                                     <hi rend="italic">April 5, 1917</hi>.</date>
-                                <lb/>[Received April 6.]</p>
+                                <lb/>[Received April 6.]</dateline>
                         </postscript>
                     </div>
                 </div>
@@ -26376,10 +26453,10 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                                 <item>I venture to suggest that we go over the whole list of differences and disputes to see if there be not some items on which we can <pb n="713" xml:id="pg_713" facs="0781"/>yield, without in the least yielding any principle, and other items about which we can ask a similar yielding by the British Government. If I had authority to undertake such a negotiation, under the President’s direction and guidance, I believe a great change could be wrought in the present dangerous tension.</item>
                             </list>
                             <p>I believe, too, that these recommendations, if they were undertaken by us, would produce reciprocal action by the British Government. The gravest danger in our relations comes not from large differences on important principles but from mistakes in the method and in misunderstandings that grow out of ignorance of facts and out of suspicions of purposes.</p>
-                            <p rend="flushleft">
+                            <dateline rend="flushleft">
                                 <date when="1916-09-15">
-                                    <hi rend="smallcaps">September</hi> 15, 1916.</date>
-                            </p>
+                                    <hi rend="smallcaps">September</hi>15, 1916.</date>
+                            </dateline>
                         </div>
                         <div type="document" xml:id="d669" n="669">
                             <note rend="inline" type="source">763.72111/4468</note>
@@ -26879,12 +26956,12 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                                 </signed>
                             </closer>
                             <postscript>
-                                <p rend="flushleft">
+                                <dateline rend="flushleft">
                                     <placeName>
                                         <hi rend="smallcaps">New York</hi>
-                                    </placeName>, <date when="1916-04-20">
+                                    </placeName>,<date when="1916-04-20">
                                         <hi rend="italic">April 20, 1916</hi>.</date>
-                                    <lb/>[Received April 21.]</p>
+                                    <lb/>[Received April 21.]</dateline>
                             </postscript>
                         </div>
                         <pb n="737" xml:id="pg_737" facs="0805"/>
@@ -26931,6 +27008,9 @@ Substance of above conveyed to R. L. Farnham<note n="9" xml:id="d141fn1">Represe
                                 </persName>) <hi rend="italic">to the <gloss type="to">Secretary of State</gloss>
                                 </hi>
                             </head>
+                            <dateline>
+                                <date notBefore="1916-08-28T20:00:00+02:00" notAfter="1916-09-01T23:59:59+02:00" ana="#date_undated-inferred-from-outside-research">undated</date>
+                            </dateline>
                             <p>
                                 <hi rend="smallcaps">My Dear Mr. Secretary</hi>: As I have telegraphed you,<note n="59" xml:id="d687fn1">
                                     <ref target="frus1916Supp#pg_47">
