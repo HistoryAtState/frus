@@ -1118,7 +1118,8 @@ date =
         "#date_undated-inferred-from-document-content-and-sibling-dates"
         | 
         ## (Date value(s) for undated document were inferred from dates in
-        ##                                  document header, using an XQuery script to find date patterns)
+        ##                                              document header, using an XQuery script to find 
+        ##                                              date patterns)
         "#date_undated-inferred-from-document-head"
         |
         ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
