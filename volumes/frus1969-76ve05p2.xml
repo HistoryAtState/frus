@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
     xml:id="frus1969-76ve05p2">
     <teiHeader>
         <fileDesc>
@@ -36,6 +38,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2009-01-15 PA/HO JW: Created volume shell for HCL</change>
@@ -15745,6 +15750,9 @@
                             <note n="2" xml:id="d66fn2" type="summary">This meeting discussed Libya
                                 and examined certain aspects of Option 1A.</note>
                         </head>
+                        <dateline>
+                            <date when="1970-08-19" ana="#date_undated-inferred-from-document-head">August 19, 1970</date>
+                        </dateline>
                         <p>19 August 1970</p>
                         <list type="to">
                             <head>MEMORANDUM FOR</head>
