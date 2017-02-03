@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
     xml:id="frus1969-76ve05p1">
     <teiHeader>
         <fileDesc>
@@ -37,6 +39,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2009-01-15 PA/HO JW: Created volume shell for HCL</change>
@@ -21466,6 +21471,9 @@
                                 >Source: Central Intelligence Agency Files. Top Secret;
                                 Umbra.</note>
                         </head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1969-08-12" ana="#date_undated-inferred-from-document-head">August 12, 1969</date>
+                        </dateline>
                         <p>[10 pages not declassified.]</p>
                     </div>
                     <div type="document" xml:id="d105" n="105">
@@ -22435,6 +22443,9 @@
                                 writing--official involvement would come when there were potential
                                 areas of agreement.</note>
                         </head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1969-09-02" ana="#date_undated-inferred-from-document-head">September 2, 1969</date>
+                        </dateline>
                         <pb n="1" xml:id="d112-01" facs="d112-01"/>
                         <p>Telecon<lb/>Normal <persName corresp="#p_CN3">Cousins</persName>
                             <lb/>9:25 a.m. 9/2/69</p>
@@ -34036,6 +34047,9 @@
                                 asylum in the United States, which could do much harm to relations
                                 with Nigeria.</note>
                         </head>
+                        <dateline>
+                            <placeName>Abidjan</placeName>, <date when="1970-10-29">October 29, 1970</date>
+                        </dateline>
                         <pb n="1" xml:id="d200-01" facs="d200-01"/>
                         <p>TELEGRAM<lb/>Department of State 177998<lb/>29 October 70</p>
                         <list type="to">
@@ -35329,6 +35343,9 @@
                                 to express unhappiness over issuance of a visa to <persName
                                     corresp="#p_MCC1">C.C. MOJEKWU</persName>.</note>
                         </head>
+                        <dateline>
+                            <placeName>Lagos</placeName>, <date notBefore="1971-04-08T00:00:00+01:00" notAfter="1971-05-27T23:59:59+01:00" ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                        </dateline>
                         <pb n="1" xml:id="d206-01" facs="d206-01"/>
                         <p>TELEGRAM<lb/>Department of State 3902</p>
                         <list>
@@ -35423,6 +35440,9 @@
                                 Sales Act, but the <gloss target="#t_FMG1">FMG</gloss> should be
                                 encouraged to focus primarily on the purchase of training.</note>
                         </head>
+                        <dateline>
+                            <placeName>Lagos</placeName>, <date notBefore="1971-04-08T00:00:00+01:00" notAfter="1971-05-27T23:59:59+01:00" ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                        </dateline>
                         <pb n="1" xml:id="d207-01" facs="d207-01"/>
                         <p>TELEGRAM<lb/>Department of State 74799</p>
                         <list type="to">
@@ -35859,6 +35879,9 @@
                                 African countries. He requested a new visit date, perhaps in
                                 1972.</note>
                         </head>
+                        <dateline>
+                            <placeName>Lagos</placeName>, <date when="1971-09-18">September 18, 1971</date>
+                        </dateline>
                         <pb n="1" xml:id="d210-01" facs="d210-01"/>
                         <p>STATE HOUSE<lb/>DODAN BARRACKS<lb/>LAGOS, NIGERIA<lb/>18th September,
                             1971.</p>
@@ -50379,6 +50402,9 @@
                                 Top Secret; [<hi rend="italic">codeword not
                                 declassified</hi>].</note>
                         </head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1972-02-18" ana="#date_undated-inferred-from-document-head">February 18, 1972</date>
+                        </dateline>
                         <p>[1 page not declassified.]</p>
                     </div>
                     <div type="document" xml:id="d327" n="327">
