@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
- xml:id="frus1958-60v11">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+  xmlns:frus="http://history.state.gov/frus/ns/1.0"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xml:id="frus1958-60v11">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -32,6 +34,9 @@
      <p>The following errors in the original edition have been corrected:</p>
     </correction>
    </editorialDecl>
+    <classDecl>
+      <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+    </classDecl>
   </encodingDesc>
   <revisionDesc>
    <change>2009-03-23 PA/HO JW: Created volume shell for HCL</change>
@@ -32567,7 +32572,7 @@
        >Herter</hi></persName></signed></closer>
      </div>
      <div type="document" xml:id="d414" n="414">
-      <head>414. Memorandum of a Conversation, White House, Washington, October 7, I960<note n="1"
+      <head>414. Memorandum of a Conversation, White House, Washington, October 7, 1960<note n="1"
         xml:id="d414fn1" type="source">Source: Eisenhower Library, <persName>Whitman</persName>
         File, <persName corresp="#p_EDD1">Eisenhower</persName> Diaries. Secret. Drafted by
          <persName corresp="#p_HPT1">Hart</persName> on October 10. Hussein, who was head of the
@@ -32576,6 +32581,9 @@
         to Washington to meet with <persName corresp="#p_EDD1">Eisenhower</persName>. (Memoranda of
         conversation, October 3 and 6; Department of State, Secretary’s Memoranda of Conversation:
         Lot 64 D 199; both included in the microfiche supplement)</note></head>
+       <dateline>
+         <date when="1960-10-07" ana="#date_undated-inferred-from-document-head">October 7, 1960</date>
+       </dateline>
       <list type="subject">
        <head>SUBJECT</head>
        <item>King Hussein’s Call on the President</item>
