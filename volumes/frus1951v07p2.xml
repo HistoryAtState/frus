@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:frus="http://history.state.gov/frus/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
      xml:id="frus1951v07p2">
     <teiHeader>
         <fileDesc>
@@ -61,6 +62,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2014-09-09 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -32370,6 +32374,9 @@
                                         Czechoslovakia, Poland, the Ukrainian SSR, and the
                                         USSR).</note>
                             </head>
+                        <dateline>
+                            <date when="1951-05-18" ana="#date_undated-inferred-from-document-head">May 18, 1951</date>
+                        </dateline>                        
                             <p rend="flushleft">
                                 <hi rend="italic">The General Assembly</hi>,</p>
                             <p>
