@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:frus="http://history.state.gov/frus/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
      xml:id="frus1949v07p2">
     <teiHeader>
         <fileDesc>
@@ -59,6 +60,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2014-09-09 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -19058,8 +19062,12 @@
                                 Eastern Commission.</p>
                             <p>Copies of this note are being transmitted to the Ambassadors of
                                 Pakistan and Burma.</p>
-                            <p>
-                                <hi rend="smallcaps">Washington</hi>, October 28, 1949.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1949-10-28">October 28, 1949</date>.</dateline>
+                            </closer>
+
+                                
                         </div>
                         <div type="document" xml:id="d156" n="156">
                             <note rend="inline" type="source">740.00119 FEAC/10–3149:
@@ -20466,8 +20474,10 @@
                                 unnecessary legal difficulties or run a future security risk by
                                 resolving in a piece-meal fashion matters which should properly be
                                 decided by a Peace Conference.</p>
-                            <p>
-                                <hi rend="smallcaps">Washington</hi>, November 30, 1949.</p>
+                            <closer>
+                            <dateline>
+                                <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1949-11-30">November 30, 1949</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d172" n="172">
                             <note rend="inline" type="source">740.00119 FEAC/12–149: Telegram</note>
@@ -32334,6 +32344,9 @@
                                             34</ref>.</p>
                                     </note>
                                 </head>
+                            <dateline>
+                                <date when="1949-10-21" ana="#date_undated-inferred-from-document-head">October 21, 1949</date>
+                            </dateline>
                                 <p rend="center">
                                     <hi rend="smallcaps">The Problem of the Independence of
                                         Korea</hi>
@@ -35381,7 +35394,10 @@
                                 Middle East, do our utmost to encourage a spirit of co-operation and
                                 self-reliance in South East Asia with a view to the creation of a
                                 common front against Russian expansion in that area.</p>
-                            <p>[<hi rend="smallcaps">Washington</hi>,] 2 April, 1949.</p>
+                            <closer>
+                                <dateline>
+                                    [<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date when="1949-04-02">2 April, 1949</date>.</dateline>
+                            </closer>
                         </div>
                         <pb n="1138" xml:id="pg_1138" facs="0552"/>
                         <div type="document" xml:id="d320" n="320">
