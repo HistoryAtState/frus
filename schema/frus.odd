@@ -19,6 +19,9 @@
                 <contributor>
                     <persName xml:id="Amanda">Amanda Ross</persName>
                 </contributor>
+		<contributor>
+                    <persName xml:id=“Virginia”>Virginia Kinniburgh</persName>
+                </contributor>
             </titleStmt>
             <publicationStmt>
                 <availability>
@@ -1195,6 +1198,24 @@
                                     <valItem ident="#date_undated-inferred-from-outside-research">
                                         <gloss>Date value(s) for undated document were inferred from
                                            related sources</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+
+                    <!-- 
+                    constrain tei:head/@ana
+                    -->
+
+                    <elementSpec ident=“head” module="core" mode="change">
+                        <desc>Restrict @ana values for tei:head elements</desc>
+                        <attList>
+                            <attDef ident="ana" usage="opt" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="#head_untitled-inferred-from-preceding-sibling-head">
+                                        <gloss>The author and recipient were not included by the FRUS editor/compiler
+                            as they were determined to be the same as those of the preceding document.</gloss>
                                     </valItem>
                                 </valList>
                             </attDef>

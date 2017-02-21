@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>FRUS Heads Taxonomy</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="frus-heads">
+                    <category xml:id="head_untitled-inferred-from-preceding-sibling-head">
+                        <catDesc>The author and recipient were not included by the FRUS editor/compiler
+                            as they were determined to be the same as those of the preceding document.</catDesc>
+                    </category>
+                    <!-- other categories -->
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>This TEI document contains a taxonomy for use in analyzing FRUS head content.</p>
+        </body>
+    </text>
+</TEI>
+
