@@ -1208,7 +1208,7 @@
                     constrain tei:head/@ana
                     -->
 
-                    <elementSpec ident=“head” module="core" mode="change">
+                    <elementSpec ident="head" module="core" mode="change">
                         <desc>Restrict @ana values for tei:head elements</desc>
                         <attList>
                             <attDef ident="ana" usage="opt" mode="replace">
