@@ -790,7 +790,7 @@
                     <!-- including the transcr module gives us @facs -->
                     <moduleRef key="transcr" include="facsimile space"/> 
                     <!-- including the analysis module gives us @ana -->
-                    <moduleRef key="analysis"/>
+                    <moduleRef key="analysis" include=""/>
 
                     <!-- remove all transcr attributes except for @facs -->
                     <classSpec type="atts" module="linking" ident="att.global.linking" mode="change">

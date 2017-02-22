@@ -8,13 +8,13 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-11-14T22:02:58Z. .
+# Schema generated from ODD source 2017-02-22T21:31:09Z. .
 # TEI Edition: Version 2.7.0. Last updated on
 #	16th September 2014, revision 13036
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.7.0/
 #
 
-# This document is currently for internal use only
+#
 macro.paraContent =
   (text | model.gLike | model.phrase | model.inter | model.global | lg)*
 macro.limitedContent = (text | model.limitedPhrase | model.inter)*
@@ -184,7 +184,7 @@ att.datable.attribute.calendar =
   ## indicates the system or calendar to which the date represented by the content of this element belongs.
   attribute calendar { data.pointer }?
 sch:pattern [
-  id = "frus-att.datable-calendar-calendar-constraint-1"
+  id = "frus-att.datable-calendar-calendar-constraint-rule-1"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -374,7 +374,7 @@ att.typed.attribute.subtype =
   ## provides a sub-categorization of the element, if needed
   attribute subtype { data.enumerated }?
 sch:pattern [
-  id = "frus-att.typed-subtypeTyped-constraint-2"
+  id = "frus-att.typed-subtypeTyped-constraint-rule-2"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -403,7 +403,7 @@ att.pointing.attribute.targetLang =
   ## specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.
   attribute targetLang { data.language }?
 sch:pattern [
-  id = "frus-att.pointing-targetLang-targetLang-constraint-3"
+  id = "frus-att.pointing-targetLang-targetLang-constraint-rule-3"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -471,7 +471,7 @@ att.spanning.attribute.spanTo =
   ## indicates the end of a span initiated by the element bearing this attribute.
   attribute spanTo { data.pointer }?
 sch:pattern [
-  id = "frus-att.spanning-spanTo-spanTo-2-constraint-4"
+  id = "frus-att.spanning-spanTo-spanTo-2-constraint-rule-4"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -520,7 +520,7 @@ att.styleDef.attribute.schemeVersion =
   attribute schemeVersion { data.versionNumber }?
 sch:pattern [
   id =
-    "frus-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-5"
+    "frus-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-rule-5"
   "\x{a}" ~
   "      "
   sch:rule [
@@ -1054,86 +1054,83 @@ date =
     
     ##
     attribute ana {
-        ## (The recorded date was determined to be an error via 
-        ##                                             content of the document and corrected Date value(s) 
-        ##                                             were inferred from the content of the document)   
-        "#date_apparent-typo-based-on-document-content"
-        |
-        ## (The recorded date was determined to be an error via 
-        ##                                             scanned version of the original document and corrected  
-        ##                                             Date value(s) were inferred from the content of the scanned document)   
+      
+      ## (The recorded date was determined to be an error via
+      ##                                             content of the document and corrected Date value(s) 
+      ##                                             were inferred from the content of the document) 
+      "#date_apparent-typo-based-on-document-content"
+      | 
+        ## (The recorded date was determined to be an error via the
+        ##                                             scanned version of the original document and corrected Date value(s) 
+        ##                                             were inferred from the content of the scanned document) 
         "#date_apparent-typo-based-on-document-scan"
-        |
-        ## (The recorded date was determined to be an error via 
-        ##                                             outside research and corrected date value(s) were
-        ##                                             inferred from related sources) 
+      | 
+        ## (The recorded date was determined to be an error via
+        ##                                             outside research and corrected date value(s) were inferred 
+        ##                                             from related sources) 
         "#date_apparent-typo-based-on-outside-research"
-        |         
+      | 
         ## (The recorded date was determined to be an error by
         ##                                             typo based on nearest dated siblings and corrected date
         ##                                             value(s) were inferred from nearest dated
         ##                                             siblings) 
         "#date_apparent-typo-based-on-sibling-dates"
-        | 
-        ## (Date value(s) were corrected based on compiler/editor notation) 
+      | 
+        ## (The recorded date was determined to be an error by the FRUS compiler/editor, 
+        ##                                             who indicated the corrected date at the time of original publication.
+        ##                                             Date value(s) were corrected based on compiler/editor notation.) 
         "#date_editorial-correction"
-        | 
+      | 
         ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
-        ##                                             inferred based on date rules [e.g. yyyy has 
-        ##                                             @notBefore="yyyy-01-01" and @notAfter="yyyy-12-31"; 
-        ##                                             yyyy-mm has @notBefore="yyyy-mm-01" and 
-        ##                                             @notAfter="yyyy-mm-dd" where dd is either 28, 
-        ##                                             29, 30, or 31 based on month and year]) 
+        ##                                             inferred from nearest dated siblings) 
+        "#date_imprecise-inferred-from-sibling-dates"
+      | 
+        ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
+        ##                                             inferred based on date rules (e.g. yyyy has @notBefore="yyyy-01-01"
+        ##                                             and @notAfter="yyyy-12-31"; yyyy-mm has @notBefore="yyyy-mm-01" and 
+        ##                                             @notAfter="yyyy-mm-dd" where dd is either 28, 29, 30, or 31 based 
+        ##                                             on month and year)) 
         "#date_imprecise-inferred-from-date-rules"
-        | 
+      | 
         ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
         ##                                             inferred from the content of the document) 
         "#date_imprecise-inferred-from-document-content"
-        | 
+      | 
         ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
-        ##                                             inferred from the content of the scanned version of 
-        ##                                             the original document) 
+        ##                                             inferred from the content of the scanned version of the original document) 
         "#date_imprecise-inferred-from-document-scan"
-        | 
+      | 
         ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
-        ##                                              inferred from the content of the document
-        ##                                              and nearest dated siblings) 
+        ##                                             inferred from the content of the document and nearest dated siblings) 
         "#date_imprecise-inferred-from-document-content-and-sibling-dates"
-        | 
+      | 
         ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
         ##                                             inferred from related sources) 
         "#date_imprecise-inferred-from-outside-research"
-        | 
-        ## (Imprecise date value(s) augmented with @notBefore and @notAfter 
-        ##                                              inferred from nearest dated siblings) 
-        "#date_imprecise-inferred-from-sibling-dates"
-        |
-        ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
-        ##                                              were inferred from the content of the document) 
-        "#date_undated-inferred-from-document-content"
-        | 
-        ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
-        ##                                              were inferred from the content of the document
-        ##                                              and nearest dated siblings) 
-        "#date_undated-inferred-from-document-content-and-sibling-dates"
-        | 
-        ## (Date value(s) for undated document were inferred from dates in
-        ##                                              document header, using an XQuery script to find 
-        ##                                              date patterns)
-        "#date_undated-inferred-from-document-head"
-        |
-        ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
-        ##                                              were inferred from the content of the 
-        ##                                              scanned version of the original document) 
-        "#date_undated-inferred-from-document-scan"
-        |
-        ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
-        ##                                              were inferred from related sources) 
-        "#date_undated-inferred-from-outside-research"
-        |
-        ## (Date value(s) augmented with @when or @notBefore|@notAfter for undated document 
-        ##                                              were inferred from nearest dated siblings) 
+      | 
+        ## (Date value(s) for undated document were inferred from
+        ##                                             nearest dated siblings) 
         "#date_undated-inferred-from-sibling-dates"
+      | 
+        ## (Date value(s) for undated document were inferred from
+        ##                                             the content of the document) 
+        "#date_undated-inferred-from-document-content"
+      | 
+        ## (Date value(s) for undated document were inferred from the 
+        ##                                             content of the document and nearest dated siblings) 
+        "#date_undated-inferred-from-document-content-and-sibling-dates"
+      | 
+        ## (Date value(s) for undated document were inferred from dates in 
+        ##                                             document header, using an XQuery script to find date patterns) 
+        "#date_undated-inferred-from-document-head"
+      | 
+        ## (Date value(s) for undated document were inferred from
+        ##                                             the content of the scanned version of the original document) 
+        "#date_undated-inferred-from-document-scan"
+      | 
+        ## (Date value(s) for undated document were inferred from
+        ##                                            related sources) 
+        "#date_undated-inferred-from-outside-research"
     }?,
     empty
   }
@@ -1153,7 +1150,7 @@ ref =
   element ref {
     macro.paraContent
     >> sch:pattern [
-         id = "frus-ref-refAtts-constraint-1"
+         id = "frus-ref-refAtts-constraint-report-1"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1251,7 +1248,7 @@ label =
   }
 head =
   
-  ## (heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. [4.2.1. ]
+  ## (heading) Restrict @ana values for tei:head elements [4.2.1. ]
   element head {
     (text
      | lg
@@ -1260,8 +1257,26 @@ head =
      | model.inter
      | model.lLike
      | model.global)*,
-    att.global.attributes,
+    att.global.attribute.xmlid,
+    att.global.attribute.n,
+    att.global.attribute.xmllang,
+    att.global.attribute.rend,
+    att.global.attribute.style,
+    att.global.attribute.rendition,
+    att.global.attribute.xmlbase,
+    att.global.attribute.xmlspace,
+    att.global.linking.attribute.corresp,
+    att.global.facs.attribute.facs,
+    att.global.change.attribute.change,
     att.typed.attributes,
+    
+    ##
+    attribute ana {
+      
+      ## (The author and recipient were not included by the FRUS editor/compiler
+      ##                             as they were determined to be the same as those of the preceding document.) 
+      "#head_untitled-inferred-from-preceding-sibling-head"
+    }?,
     empty
   }
 note =
@@ -1382,7 +1397,7 @@ lg =
       | lg)*,
      (model.divBottom, model.global*)*)
     >> sch:pattern [
-         id = "frus-lg-atleast1oflggapl-constraint-6"
+         id = "frus-lg-atleast1oflggapl-constraint-assert-6"
          "\x{a}" ~
          "            "
          sch:rule [
