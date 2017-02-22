@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="brown_odds.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="brown_odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="odd4odds.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="odd4odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:rng="http://relaxng.org/ns/structure/1.0"
     xmlns:frus="http://history.state.gov/frus/ns/1.0"
@@ -16,17 +16,15 @@
                 <author>
                     <persName xml:id="Joe">Joe Wicentowski</persName>
                 </author>
-                <contributor>
+                <author role="contributor">
                     <persName xml:id="Amanda">Amanda Ross</persName>
-                </contributor>
-		<contributor>
+                </author>
+                <author role="contributor">
                     <persName xml:id="Virginia">Virginia Kinniburgh</persName>
-                </contributor>
+                </author>
             </titleStmt>
             <publicationStmt>
-                <availability>
-                    <p>This document is currently for internal use only</p>
-                </availability>
+                <p>Released online as the prose and schema guidelines for the FRUS digital archive</p>
             </publicationStmt>
             <sourceDesc>
                 <p>This ODD was born digitally in August 2011 at a TEI Customization seminar held by
@@ -48,14 +46,13 @@
         <body>
             <div xml:id="introduction">
                 <head>Introduction</head>
-                <p>This document is a set of encoding guidelines for the digital edition of the <hi
-                        rend="italic">Foreign Relations of the United States</hi> (<hi rend="italic"
-                        >FRUS</hi>) series, the official documentary history of U.S. foreign
-                    relations. The basis for encoding <hi rend="italic">FRUS</hi> is the Text
+                <p>This document is a set of encoding guidelines for the digital edition of the <title level="s">Foreign Relations of the United States</title> (<title level="s"
+                        >FRUS</title>) series, the official documentary history of U.S. foreign
+                    relations. The basis for encoding <title level="s">FRUS</title> is the Text
                     Encoding Initiative (see <ref target="http://www.tei-c.org/">tei-c.org</ref> for
                     the complete TEI P5 Guidelines). This document describes the project-specific
-                    subset of the TEI standard and practices used for encoding <hi rend="italic"
-                        >FRUS</hi>, hereafter called FRUS TEI. The primary purpose of FRUS TEI is to
+                    subset of the TEI standard and practices used for encoding <title level="s"
+                        >FRUS</title>, hereafter called FRUS TEI. The primary purpose of FRUS TEI is to
                     accurately and canonically encode the text of the publication and capture its
                     core structural features, including document headings, datelines, paragraphs,
                     footnotes, page numbers, tables, figures, and indexes. Besides capturing these
@@ -69,7 +66,7 @@
                     format, provide the following information:</p>
                 <list type="simple">
                     <item>Prose descriptions, supplemented with visual aids, of how to encode every
-                        feature of <hi rend="italic">FRUS</hi> volumes</item>
+                        feature of <title level="s">FRUS</title> volumes</item>
                     <item>An appendix containing full documentation for every TEI element and
                         attribute that is allowed FRUS TEI</item>
                     <item>A set of XML schema derived from this document that can be used to
@@ -87,8 +84,8 @@
             <div xml:id="terminology">
                 <head>Terminology</head>
                 <list>
-                    <item><term xml:id="frus-series">The <hi rend="italic">Foreign Relations of the
-                                United States</hi> (<hi rend="italic">FRUS</hi>) Series</term>:
+                    <item><term xml:id="frus-series">The <title level="s">Foreign Relations of the
+                                United States</title> (<title level="s">FRUS</title>) Series</term>:
                             <gloss target="#frus-series">An official U.S. Government serial
                             publication started in 1861 and published more-or-less continuously
                             since then, with nearly 500 books to date, constituting the official
@@ -106,7 +103,7 @@
                             triennial (in the 1952-1960 volumes) to a presidential
                             administration-based organization (since 1961).</gloss></item>
                     <item><term xml:id="volume">Volume</term>: <gloss target="#volume">A book in the
-                                <hi rend="italic">Foreign Relations</hi> series, consisting of a
+                                <title level="s">Foreign Relations</title> series, consisting of a
                             title page and typically organized into front matter, a body containing
                             several hundred transcribed primary source documents, and a back-of-book
                             index. Bound between two covers or released as a digital-only
@@ -115,8 +112,8 @@
                             purposes of the digitization of the series, refer to each discrete book
                             as a volume.</gloss></item>
                     <item><term xml:id="document">Document</term>: <gloss target="#document">A
-                            primary source selected by an editor for inclusion in a <hi
-                                rend="italic">Foreign Relations</hi> volume. Documents typically
+                        primary source selected by an editor for inclusion in a <title
+                                level="s">Foreign Relations</title> volume. Documents typically
                             have a title, a dateline, a source note, a body, and other annotations,
                             primarily in the form of footnotes. Recent volumes (since ____) assign a
                             number to each document, incremented sequentially; the document number,
@@ -210,8 +207,8 @@
                                     </correction>
                                 </editorialDecl>
                                 <classDecl>
-                                    <xi:include href="../shared/frus-dates.xml"
-                                        xpointer="frus-dates"/>
+                                    &lt;xi:include href="../shared/frus-dates.xml"
+                                        xpointer="frus-dates"/&gt;
                                 </classDecl>
                             </encodingDesc>
                             <revisionDesc>
@@ -222,7 +219,7 @@
                 </div>
                 <div xml:id="text">
                     <head>Text</head>
-                    <p>Most <hi rend="italic">FRUS</hi> volumes consist of a three-part structure:
+                    <p>Most <title level="s">FRUS</title> volumes consist of a three-part structure:
                         front matter (<gi>front</gi>), a body (<gi>body</gi>), and back matter
                             (<gi>back</gi>). Major divisions within these sections are marked by
                         nested <gi>div</gi> elements. Footnotes are captured with <gi>note</gi>
@@ -268,11 +265,11 @@
                                             Policy, 1969–1972</titlePart>
                                     </docTitle>
                                     <byline>
-                                        <hi rend="italic">Editor</hi>
+                                        <title level="s">Editor</title>
                                         <docAuthor>David C. Humphrey</docAuthor>
                                     </byline>
                                     <byline>
-                                        <hi rend="italic">General Editor</hi>
+                                        <title level="s">General Editor</title>
                                         <docAuthor>Edward C. Keefer</docAuthor>
                                     </byline>
                                     <milestone unit="section" rend="hr"/>
@@ -521,18 +518,18 @@
                                 <item>The search of American vessels for German and Austrian
                                     subjects— <list>
                                         <label>
-                                            <hi rend="italic">(a)</hi>
+                                            <title level="s">(a)</title>
                                         </label>
                                         <item>On the high seas;</item>
                                         <label>
-                                            <hi rend="italic">(b)</hi>
+                                            <title level="s">(b)</title>
                                         </label>
                                         <item>In territorial waters of a belligerent.</item>
                                     </list>
                                 </item>
                             </list>
                         </egXML>
-                        <p>Note: In <hi rend="italic">FRUS</hi>, not all numbered or bulleted blocks
+                        <p>Note: In <title level="s">FRUS</title>, not all numbered or bulleted blocks
                             of text are coded as <gi>list</gi>. For example, section headings within
                             a document or section may sometimes be numbered; these should be coded
                             as <gi>p</gi> elements with <att>rend</att> attributes carrying a value
@@ -562,14 +559,14 @@
                         <p>Cross references are wrapped in a <gi>ref</gi> element with the target
                             specified in a <att>target</att> attribute. We tag all cross references
                             within a volume (most commonly, to documents in the volume), as well as
-                            cross references to other volumes in the <hi rend="italic">FRUS</hi>
+                            cross references to other volumes in the <title level="s">FRUS</title>
                             series.</p>
                         <p>Cross references to elements within the same XML document use the
                             standard TEI method: target's <att>xml:id</att> value, prepended with a
                                 <ident>#</ident>. For instance, if document 1's <att>xml:id</att> is
                                 <ident>d1</ident>, then a cross reference to this document uses the
                                 <ident>target</ident> of <ident>#d1</ident>.</p>
-                        <p>Cross references to other volumes in the <hi rend="italic">FRUS</hi>
+                        <p>Cross references to other volumes in the <title level="s">FRUS</title>
                             series come in a few varieties: References to the volumes themselves use
                             the target volume's ID:</p>
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -636,7 +633,7 @@
                     </div>
                     <div xml:id="datelines">
                         <head>Datelines</head>
-                        <p>A dateline appears at the beginning of every <hi rend="italic">FRUS</hi>
+                        <p>A dateline appears at the beginning of every <title level="s">FRUS</title>
                             document, containing the location and date of the document's origin. The
                             dateline is wrapped in a <gi>dateline</gi> element. The location is
                             wrapped in a <gi>placeName</gi> element, and the date is wrapped in a
@@ -793,7 +790,7 @@
                     <!-- including the transcr module gives us @facs -->
                     <moduleRef key="transcr" include="facsimile space"/> 
                     <!-- including the analysis module gives us @ana -->
-                    <moduleRef key="analysis" include="ana"/> 
+                    <moduleRef key="analysis"/>
 
                     <!-- remove all transcr attributes except for @facs -->
                     <classSpec type="atts" module="linking" ident="att.global.linking" mode="change">
