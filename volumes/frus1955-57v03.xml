@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
     xml:id="frus1955-57v03">
     <teiHeader>
         <fileDesc>
@@ -36,6 +38,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
@@ -1838,6 +1843,9 @@
                                     <persName corresp="#p_DJF1">Dulles</persName> Papers, General
                                 Memoranda of Conversation. Drafted by <persName corresp="#p_DJF1"
                                     >Dulles</persName> on August 3.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-08-02" ana="#date_undated-inferred-from-document-head">August 2, 1955</date>
+                        </dateline>
                         <p>Congressman <persName corresp="#p_RJP1">Richards</persName> and his wife
                             and daughter had dinner with Mrs. <persName corresp="#p_DJF1"
                                 >Dulles</persName> and me. After dinner Congressman <persName
@@ -2135,6 +2143,9 @@
                                     >Murphy</persName>, <persName corresp="#p_RWS1"
                                     >Robertson</persName>, <persName corresp="#p_BRR1"
                                     >Bowie</persName>, and Morton.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-08-05T12:30:00-04:00" ana="#date_undated-inferred-from-document-head">August 5, 1955, 12:30 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>China</item>
@@ -2525,6 +2536,9 @@
                                 U.S. officials, are in the <persName corresp="#p_KVKW1">Wellington
                                     Koo</persName> Papers, Rare Book and Manuscript Library,
                                 Columbia University, Box 195.</note></head>
+                        <dateline>
+                            <placeName>Washington Wellington</placeName>, <date when="1955-08-09" ana="#date_undated-inferred-from-document-head">August 9, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Negotiations with Chinese Communists</item>
@@ -5926,6 +5940,9 @@
                                 Department of State, Central Files, 793.02/9–955. Secret. Drafted by
                                 Dennis and initialed by <persName corresp="#p_HHJ1"
                                     >Hoover</persName>, indicating his approval.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-09-09" ana="#date_undated-inferred-from-document-head">September 9, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Possible Belgian Recognition of Chinese Communist Regime.</item>
@@ -7472,6 +7489,9 @@
                                 on October 7 by <persName corresp="#p_MCWP1">McConaughy</persName>.
                                 See also the memorandum, <ref target="#d68"><hi rend="italic"
                                         >infra</hi></ref>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-10-04" ana="#date_undated-inferred-from-document-head">October 4, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Formal call of Chinese Foreign Minister <persName
@@ -7655,6 +7675,9 @@
                                     >Bowie</persName>, <persName corresp="#p_MADII1"
                                     >MacArthur</persName>, and <persName corresp="#p_RWS1"
                                     >Robertson</persName> on an eyes only basis.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-10-04" ana="#date_undated-inferred-from-document-head">October 4, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Chinese Communist Intentions and the Continuation of the Geneva
@@ -8730,6 +8753,9 @@
                             October 15, 1955<note n="1" xml:id="d78fn1" type="source">Source:
                                 Department of State, Central Files, 611.91/10–1555. Secret. Extract.
                                 Drafted by Jones.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-10-15" ana="#date_undated-inferred-from-document-head">October 15, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Various International Questions<note n="2" xml:id="d78fn2">The
@@ -8861,6 +8887,9 @@
                                 xml:id="d79fn1" type="source">Source: Department of State/Central
                                 Files, 611.93/10–1955. Drafted by <persName corresp="#p_RWS1"
                                     >Robertson</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-10-19" ana="#date_undated-inferred-from-document-head">October 19, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item><persName corresp="#p_JUA1">Johnson</persName>–<persName
@@ -11168,6 +11197,9 @@
                                 November 17. The portion of the document not printed here is
                                 scheduled for inclusion in the compilation on the Geneva Foreign
                                 Ministers Conference in a forthcoming volume.</note></head>
+                        <dateline>
+                            <placeName>Geneva</placeName>, <date from="1955-11-13T10:00:00+01:00" to="1955-11-13T12:00:00+01:00" ana="#date_undated-inferred-from-document-head">November 13, 1955, 10 a.m. to noon</date>
+                        </dateline>
                         <p rend="flushleft">USDel/MC/45</p>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -11625,6 +11657,9 @@
                                 conversation on November 19 between <persName corresp="#p_RKL1"
                                     >Rankin</persName> and Governor <persName corresp="#p_YGKCYK1"
                                     >Yen</persName>; neither printed.</note></head>
+                        <dateline>
+                            <placeName>Taipei</placeName>, <date when="1955-11-21" ana="#date_undated-inferred-from-document-head">November 21, 1955</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>President <persName corresp="#p_CK1">Chiang
@@ -12816,6 +12851,9 @@
                                 Department of State, Central Files, 793.5/12–655. Secret. Drafted by
                                     <persName corresp="#p_MCWP1"
                             >McConaughy</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-12-06" ana="#date_undated-inferred-from-document-head">December 6, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Chinese Communist Capabilities for Attack on Off-shore Islands and
@@ -13294,6 +13332,9 @@
                                 File, <gloss target="#t_NSC1">NSC</gloss> Records. Top Secret.
                                 Prepared by <persName corresp="#p_GSE1">Gleason</persName> on
                                 December 9.</note></head>
+                        <dateline>
+                            <placeName>Camp David</placeName>, <date when="1955-12-08" ana="#date_undated-inferred-from-document-head">December 8, 1955</date>
+                        </dateline>
                         <p>Present at the 269th <gloss target="#t_NSC1">NSC</gloss> meeting were the
                             President of the United States, presiding; the Vice President of the
                             United States; the Secretary of State; the Secretary of Defense; and the
@@ -14056,9 +14097,12 @@
                                     corresp="#p_DJF1">Dulles</persName> was in Paris for a
                                 ministerial-level meeting of the North Atlantic
                             Council.</note></head>
-                        <dateline><placeName><hi rend="italic">Geneva</hi></placeName>, <date
-                                when="1955-12-15T15:00:00"><hi rend="italic">December 15, 1955—3
-                                    p.m.</hi></date></dateline>
+                        <dateline>
+                            <placeName>
+                                <hi rend="italic">Geneva</hi></placeName>, <date
+                                when="1955-12-15T15:00:00+01:00"><hi rend="italic">December 15, 1955—3
+                                    p.m.</hi></date>
+                        </dateline>
                         <p>1286. 1. Four hour meeting this morning devoted entirely to
                                 implementation.<note n="2" xml:id="d122fn2"><persName
                                     corresp="#p_JUA1">Johnson</persName> commented in letter No. 19
@@ -14213,6 +14257,9 @@
                                 File, <gloss target="#t_NSC1">NSC</gloss> Records. Top Secret.
                                 Prepared by <persName corresp="#p_GSE1">Gleason</persName> on
                                 December 23.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-12-22" ana="#date_undated-inferred-from-document-head">December 22, 1955</date>
+                        </dateline>
                         <p>Present at the 271st Council meeting were the President of the United
                             States, presiding; the Vice President of the United States; the
                             Secretary of State; the Acting Secretary of Defense; the Director,
@@ -17352,6 +17399,9 @@
                                     Secretary of the Treasury; and apparently Sir <persName>John
                                         Coulson</persName>, British Minister at
                                 Washington.</p></note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date from="1956-01-31T10:30:00-05:00" to="1956-01-31T12:30:00-05:00" ana="#date_undated-inferred-from-document-head">January 31, 1956, 10:30 a.m. to 12:30 p.m.</date>
+                        </dateline>
                         <p rend="flushleft">ETW MC–3</p>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -17689,6 +17739,9 @@
                                     >Robertson</persName>. (<hi rend="italic">Ibid</hi>., ROC Files:
                                 Lot 71 D 517, Offshore Islands, 1956) The conversation took place
                                 during a luncheon.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1956-01-31T13:00:00-05:00" ana="#date_undated-inferred-from-document-head">January 31, 1956, 1 p.m.</date>
+                        </dateline>
                         <p rend="flushleft">ETW MC–4</p>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -17804,6 +17857,9 @@
                                 subject “<persName corresp="#p_ESA1">Eden</persName> Talks”, is not
                                 printed. (<hi rend="italic">Ibid</hi>., Conference Files: Lot 62 D
                                 181, CF 648B)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1956-02-01" ana="#date_undated-inferred-from-document-head">February 1, 1956</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Reaction of Chinese Government to <persName corresp="#p_JUA1"
@@ -19449,6 +19505,9 @@
                                 p.m.<note n="1" xml:id="d158fn1" type="source">Source: Department of
                                 State, Secretary’s Memoranda of Conversation: Lot 64 D 199. Secret.
                                 Drafted by Meyer on March 18.</note></head>
+                        <dateline>
+                            <placeName>Taipei</placeName>, <date when="1956-03-16T16:30:00+08:00" ana="#date_undated-inferred-from-document-head">March 16, 1956, 4:30 p.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>President <persName corresp="#p_CK1">Chiang
@@ -19622,6 +19681,9 @@
                                 p.m.<note n="1" xml:id="d159fn1" type="source">Source: Department of
                                 State, Secretary’s Memoranda of Conversation: Lot 62 D 181. Secret.
                                 Drafted by Meyer on March 18.</note></head>
+                        <dateline>
+                            <placeName>Taipei</placeName>, <date when="1956-03-16T21:30:00+08:00" ana="#date_undated-inferred-from-document-head">March 16, 1956, 9:30 p.m.</date>
+                        </dateline>
                         <p rend="flushleft">PST/MC/7/1</p>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -19834,6 +19896,9 @@
                                 p.m.<note n="1" xml:id="d160fn1" type="source">Source: Department of
                                 State, PPS Files: Lot 66 D 487, China. Secret. Drafted by Meyer on
                                 March 18.</note></head>
+                        <dateline>
+                            <placeName>Taipei</placeName>, <date when="1956-03-16T23:00:00+08:00" ana="#date_undated-inferred-from-document-head">March 16, 1956, 11 p.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>President <persName corresp="#p_CK1">Chiang
@@ -20774,6 +20839,9 @@
                                 xml:id="d170fn1" type="source">Source: Department of State, PPS
                                 Files: Lot 66 D 487, China. Confidential. Drafted by <persName
                                     corresp="#p_RKL1">Rankin</persName>.</note></head>
+                        <dateline>
+                            <placeName>Taipei</placeName>, <date when="1956-04-16" ana="#date_undated-inferred-from-document-head">April 16, 1956</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>President <persName corresp="#p_CK1">Chiang
@@ -21600,6 +21668,9 @@
                                 File, <gloss target="#t_NSC1">NSC</gloss> Records. Top Secret.
                                 Drafted by <persName corresp="#p_GSE1">Gleason</persName> on May
                                 18.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1956-05-17" ana="#date_undated-inferred-from-document-head">May 17, 1956</date>
+                        </dateline>
                         <p>Present at the 285th Council meeting were the President of the United
                             States, presiding; the Vice President of the United States; the
                             Secretary of State; the Secretary of Defense; and the Director, Office
@@ -22033,6 +22104,9 @@
                                 File, <gloss target="#t_NSC1">NSC</gloss> Records. Top Secret.
                                 Drafted by <persName corresp="#p_GSE1">Gleason</persName> on June
                                 1.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1956-05-31" ana="#date_undated-inferred-from-document-head">May 31, 1956</date>
+                        </dateline>
                         <p>Present at the 286th Council meeting were the President of the United
                             States, presiding; the Vice President of the United States; the Acting
                             Secretary of State; the Secretary of Defense; and the Director, Office
@@ -23524,6 +23598,9 @@
                                 xml:id="d192fn1" type="source">Source: Department of State, Central
                                 Files, 793.5/7–756. Secret. Drafted by <persName corresp="#p_RKL1"
                                     >Rankin</persName>.</note></head>
+                        <dateline>
+                            <placeName>Taipei</placeName>, <date when="1956-07-07" ana="#date_undated-inferred-from-document-head">July 7, 1956</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>President <persName corresp="#p_CK1">Chiang
@@ -23668,6 +23745,9 @@
                                 conversation had begun and had to rely on the notes taken by Colonel
                                     <persName>Hu</persName> for the first part of the
                                 conversation.</note></head>
+                        <dateline>
+                            <placeName>Taipei</placeName>, <date when="1956-07-08" ana="#date_undated-inferred-from-document-head">July 8, 1956</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>President <persName corresp="#p_CK1">Chiang
@@ -24392,6 +24472,9 @@
                                 memorandum of conversation from those notes. (<hi rend="italic"
                                     >Ibid</hi>., <persName corresp="#p_RKL1">Rankin</persName>
                                 Files: Lot 66 D 84)</note></head>
+                        <dateline>
+                            <placeName>Colon</placeName>, <date when="1956-08-01T10:00:00-05:00" ana="#date_undated-inferred-from-document-head">August 1, 1956, 10 a.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>President <persName corresp="#p_CK1">Chiang
@@ -24727,6 +24810,9 @@
                                     >Eisenhower</persName> Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers, White House Telephone Conversations.
                                 Transcribed by <persName>Phyllis D. Bernau</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1956-08-07T15:14:00-04:00" ana="#date_undated-inferred-from-document-head">August 7, 1956, 3:14 p.m.</date>
+                        </dateline>
                         <p>The Pres. returned the call, and the Sec referred to the problem re the
                             invitation for correspondents to go to Red China. The Sec said he feels
                             we should oppose it and read the statement.<note n="2" xml:id="d200fn2"
@@ -25162,6 +25248,9 @@
                                 cleared with any of participants”. Drafted by the Deputy Under
                                 Secretary’s Special Assistant, <persName>W. Tapley
                                     Bennett</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1956-08-31T11:30:00-04:00" ana="#date_undated-inferred-from-document-head">August 31, 1956, 11:30 a.m.</date>
+                        </dateline>
                         <p>[Here follows a list of 25 persons present, including Joint Chiefs of
                             Staff <persName corresp="#p_RAAW1">Admiral Radford</persName>, <persName
                                 corresp="#p_TGMD1">General Taylor</persName>, and <persName
@@ -26813,6 +26902,9 @@
                                 January 2, 1957. The conversation took place in the Shihlin
                                 residence of President <persName corresp="#p_CK1"
                                 >Chiang</persName>.</note></head>
+                        <dateline>
+                            <placeName>Taipei</placeName>, <date when="1956-12-17T22:00:00+08:00" ana="#date_undated-inferred-from-document-head">December 17, 1956, 10 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>U.S. Leadership in Present World Situation</item>
@@ -26958,6 +27050,9 @@
                                 Papers, Memos for the Record. Secret. Drafted by Admiral
                                     <persName>Charles D. Griffin</persName> of the Office of the
                                 Joint Chiefs of Staff.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1956-12-18T15:00:00-05:00" ana="#date_undated-inferred-from-document-head">December 18, 1956, 3 p.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PRESENT</head>
                             <item><persName corresp="#p_RAAW1">Admiral Radford</persName></item>
@@ -28017,6 +28112,9 @@
                                 Drafted by <persName corresp="#p_HF1">Howe</persName>. A note on the
                                 source text, in an unknown hand, reads: “For record, no
                                 distr.”</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-02-12" ana="#date_undated-inferred-from-document-head">February 12, 1957</date>
+                        </dateline>
                         <list type="participants">
                             <head>PRESENT</head>
                             <item>The Secretary</item>
@@ -28107,6 +28205,9 @@
                                     corresp="#p_DJF1">Dulles</persName> Papers, White House
                                 Telephone Conversations. Drafted by <persName corresp="#p_DJF1"
                                     >Dulles</persName> on February 14.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-02-13T21:30:00-05:00" ana="#date_undated-inferred-from-document-head">February 13, 1957, 9:30 p.m.</date>
+                        </dateline>
                         <p>The President called me at my home at 9:30 p.m., saying that he had been
                             having a talk with some of his associates there, including Mr.
                                 <persName>Robinson</persName>,<note n="2" xml:id="d235fn2">An
@@ -28248,6 +28349,9 @@
                                 Secretary’s Memoranda of Conversation: Lot 64 D 199. Official Use
                                 Only; Limited Distribution. Drafted by <persName corresp="#p_HF1"
                                     >Howe</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-02-18" ana="#date_undated-inferred-from-document-head">February 18, 1957</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item><hi rend="italic">State Department</hi></item>
@@ -28620,6 +28724,9 @@
                                 March 5 by <persName corresp="#p_MCWP1">McConaughy</persName> and
                                 approved by <persName corresp="#p_RWS1"
                             >Robertson</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-02-27" ana="#date_undated-inferred-from-document-head">February 27, 1957</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Military Problems on Taiwan</item>
@@ -28847,6 +28954,9 @@
                                     <persName corresp="#p_DJF1">Dulles</persName> Papers, General
                                 Memoranda of Conversation. Official Use Only. Drafted by <persName
                                     corresp="#p_DJF1">Dulles</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-03-03" ana="#date_undated-inferred-from-document-head">March 3, 1957</date>
+                        </dateline>
                         <p>At the Gridiron Club Dinner I sat next to the head of the UP. He spoke to
                             me about the ban on newspaper people to China. He suggested the
                             possibility that some arrangement might be made whereby one or possibly
@@ -29933,6 +30043,9 @@
                                 >Source: Department of State, Central Files, 911.6293/3–2857.
                                 Confidential. Prepared on March 28 by <persName corresp="#p_HF1"
                                     >Howe</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-03-27T11:00:00-05:00" ana="#date_undated-inferred-from-document-head">March 27, 1957, 11 a.m.</date>
+                        </dateline>
                         <p rend="flushleft"><hi rend="italic">Travel of Newsmen to Communist
                                 China</hi></p>
                         <list type="participants">
@@ -30674,6 +30787,9 @@
                                     <persName>Phyllis D. Bernau</persName>, is scheduled for
                                 inclusion in the Japan compilation in a forthcoming
                             volume.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-05-24T08:35:00-04:00" ana="#date_undated-inferred-from-document-head">May 24, 1957, 8:35 a.m.</date>
+                        </dateline>
                         <p>Secy. <persName corresp="#p_DJF1">Dulles</persName>. The incident in
                             Formosa, following acquittal of the man involved in shooting. This
                             morning our Embassy is completely wrecked, crowds are demonstrating in
@@ -30721,6 +30837,9 @@
                                 Department of State, Central Files, 611.93/5–2457. Official Use
                                 Only. Drafted by <persName corresp="#p_MCWP1"
                                 >McConaughy</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-05-24" ana="#date_undated-inferred-from-document-head">May 24, 1957</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Anti-American Riot in Taipei</item>
@@ -31200,6 +31319,9 @@
                                     <persName corresp="#p_RKL1">Rankin</persName> Files: Lot 66 D
                                 84. Confidential. Drafted by <persName corresp="#p_RKL1"
                                     >Rankin</persName>.</note></head>
+                        <dateline>
+                            <placeName>Taipei</placeName>, <date when="1957-05-27" ana="#date_undated-inferred-from-document-head">May 27, 1957</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>President <persName corresp="#p_CK1">Chiang
@@ -31319,6 +31441,9 @@
                                 File, <gloss target="#t_NSC1">NSC</gloss> Records. Top Secret; Eyes
                                 Only. Drafted by <persName corresp="#p_GSE1">Gleason</persName> on
                                 May 28.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-05-27" ana="#date_undated-inferred-from-document-head">May 27, 1957</date>
+                        </dateline>
                         <p>Present at the 325th <gloss target="#t_NSC1">NSC</gloss> meeting were the
                             President of the United States, presiding; the Vice President of the
                             United States; the Secretary of State; the Secretary of Defense; and the
@@ -32000,6 +32125,9 @@
                                 File, <gloss target="#t_NSC1">NSC</gloss> Records. Top Secret.
                                 Drafted by <persName corresp="#p_GSE1">Gleason</persName> on June
                                 21.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-06-20" ana="#date_undated-inferred-from-document-head">June 20, 1957</date>
+                        </dateline>
                         <p>Present at the 327th Council meeting were the President of the United
                             States, presiding; the Under Secretary of State; the Acting Secretary of
                             Defense; and the Director, Office of Defense Mobilization. Also present
@@ -32090,6 +32218,9 @@
                                 File, <gloss target="#t_NSC1">NSC</gloss> Records. Top Secret; Eyes
                                 Only. Drafted by <persName corresp="#p_GSE1">Gleason</persName> on
                                 June 27.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-06-26" ana="#date_undated-inferred-from-document-head">June 26, 1957</date>
+                        </dateline>
                         <p>Present at the 328th <gloss target="#t_NSC1">NSC</gloss> meeting were the
                             President of the United States, presiding; the Secretary of State; the
                             Secretary of Defense; and the Director, Office of Defense Mobilization.
@@ -32204,6 +32335,9 @@
                                     State–<gloss target="#t_JCS1">JCS</gloss> Meetings: Lot 61 D
                                 417. Top Secret. Drafted by W. Tapley Bennett, Special Assistant to
                                 the Deputy Under Secretary for Political Affairs.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-06-27T11:00:00-04:00" ana="#date_undated-inferred-from-document-head">June 27, 1957, 11 a.m.</date>
+                        </dateline>
                         <p>[Here follows a list of 26 persons present, including <persName
                                 corresp="#p_RAAW1">Admiral Radford</persName>, <persName
                                 corresp="#p_TGNF1">General Twining</persName>, and General
@@ -32265,6 +32399,9 @@
                                 Columbia Broadcasting System, and by the television network of the
                                 Columbia Broadcasting System. (Department of State <hi rend="italic"
                                     >Bulletin</hi>, July 15, 1957, pp. 91–95)</note></head>
+                        <dateline>
+                            <placeName>San Francisco</placeName>, <date when="1957-06-28T10:30:00-07:00" ana="#date_undated-inferred-from-document-head">June 28, 1957, 10:30 a.m.</date>
+                        </dateline>
                         <p rend="center">OUR POLICIES TOWARD COMMUNISM IN CHINA<note n="2"
                                 xml:id="d268fn2">The speech was drafted by <persName
                                     corresp="#p_DJF1">Dulles</persName>, who explained in a
@@ -33100,6 +33237,9 @@
                             July 18, 1957<note n="1" xml:id="d273fn1" type="source">Source:
                                 Department of State, Central Files, 911.6293/7–1857. Prepared by
                                     <persName>Berding\</persName> on July 22.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-07-18" ana="#date_undated-inferred-from-document-head">July 18, 1957</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Meeting with Press and Radio Representatives</item>
@@ -33564,6 +33704,9 @@
                                     >Eisenhower</persName> Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers, White House Telephone Conversations.
                                 Prepared by <persName>Phyllis D. Bernau</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-08-21" ana="#date_undated-inferred-from-document-head">August 21, 1957</date>
+                        </dateline>
                         <p>Re Red China—about a week ago he [the President] saw Mrs.
                                 <persName>Downey</persName><note n="2" xml:id="d278fn2">The mother
                                 of <persName>John Downey</persName>, one of the six remaining
@@ -35151,6 +35294,9 @@
                                 Files, <gloss target="#t_NSC1">NSC</gloss> Records. Top Secret; Eyes
                                 Only. Drafted by <persName corresp="#p_GSE1">Gleason</persName> on
                                 September 24.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-09-23" ana="#date_undated-inferred-from-document-head">September 23, 1957</date>
+                        </dateline>
                         <p>Present at the 337th Council meeting were the President of the United
                             States, presiding; the Vice President of the United States; the
                             Secretary of State; the Acting Secretary of Defense; and the Director,
@@ -35290,6 +35436,9 @@
                                 File, <gloss target="#t_NSC1">NSC</gloss> Records. Top Secret; Eyes
                                 Only. Drafted by <persName corresp="#p_GSE1">Gleason</persName> on
                                 October 3.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-10-02" ana="#date_undated-inferred-from-document-head">October 2, 1957</date>
+                        </dateline>
                         <p>Present at the 338th <gloss target="#t_NSC1">NSC</gloss> meeting were the
                             President of the United States, presiding; the Vice President of the
                             United States; the Secretary of State; the Secretary of Defense; and the
@@ -36795,6 +36944,9 @@
                                 Department of State, Central Files, 793.5–<gloss target="#t_MSP1"
                                     >MSP</gloss>/11–2057. Official Use Only. Drafted by <persName
                                     corresp="#p_CRN1">Clough</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-11-20" ana="#date_undated-inferred-from-document-head">November 20, 1957</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Economic Aid Program for <gloss target="#t_GRC1"
@@ -36921,6 +37073,9 @@
                                     >Dulles</persName> Papers, General Telephone Conversations.
                                 Prepared by <persName corresp="#p_DJF1">Dulles</persName>’ personal
                                 assistant, <persName>Phyllis D. Bernau</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-11-20T10:00:00-05:00" ana="#date_undated-inferred-from-document-head">November 20, 1957, 10 a.m.</date>
+                        </dateline>
                         <p><persName corresp="#p_RWS1">R[obertson]</persName> wondered re
                             downgrading the Geneva talks from the Ambassadorial level<note n="2"
                                 xml:id="d296fn2">In a telephone conversation on November 19,
@@ -37709,6 +37864,9 @@
                             December 9, 1957<note n="1" xml:id="d303fn1" type="source">Source:
                                 Department of State, Central Files, 793.5/12–857. Secret. Drafted by
                                     <persName corresp="#p_CRN1">Clough</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1957-12-09" ana="#date_undated-inferred-from-document-head">December 9, 1957</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>Minister <persName corresp="#p_YT1">Yu Ta-Wei</persName></item>
