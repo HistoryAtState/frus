@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:frus="http://history.state.gov/frus/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
      xml:id="frus1948v05p1">
     <teiHeader>
         <fileDesc>
@@ -59,6 +60,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2014-12-04 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -10425,6 +10429,9 @@
                                             <hi rend="italic">Bulletin</hi>, June 13, 1948, p.
                                         780.</note>
                                 </head>
+                            <dateline>
+                                <date when="1948-05-28" ana="#date_undated-inferred-from-document-head">May 28, 1948</date>
+                            </dateline>
                                 <opener>
                                     <seg rendition="#center">[Extracts]</seg>
                                 </opener>
@@ -11740,6 +11747,9 @@
                                             <hi rend="italic">Bulletin</hi>, August 15, 1948, p.
                                         211.</note>
                                 </head>
+                            <dateline>
+                                <date when="1948-07-29" ana="#date_undated-inferred-from-document-head">July 29, 1948</date>
+                            </dateline>
                                 <p>An agreement under which the United States extended a credit to
                                     the Iranian Government for the purchase of 10,000,000 dollars’
                                     worth of surplus military equipment and a credit not to exceed
@@ -12674,8 +12684,10 @@
                                 would, seem advisable for the British and American Governments to
                                 arrive at a final decision concerning the question of Bahrein at the
                                 earliest possible date.</p>
-                            <p>
-                                <hi rend="smallcaps">Washington</hi>, [September 17, 1948.]</p>
+                            <closer>
+                                <dateline>
+                                    <placeName><hi rend="smallcaps">Washington</hi></placeName>, [<date when="1948-09-17">September 17, 1948</date>.]</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d133" n="133">
                             <note rend="inline" type="source">891.20 Mission/9–2148: Telegram</note>
