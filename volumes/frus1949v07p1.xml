@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1949v07p1">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="frus1949v07p1">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -56,6 +59,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2014-09-09 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -11777,6 +11783,9 @@
                                     Netherlands Embassy (Schiff) to the Deputy Director of the
                                     Office of European Affairs (Thompson) on January 17.</note>
                             </head>
+                            <dateline>
+                                <date notBefore="1949-01-14T10:15:00-05:00" notAfter="1949-01-17T23:59:59-05:00" ana="#date_undated-inferred-from-document-content">undated</date>
+                            </dateline>
                             <p>Adoption of the United States working paper<note n="2"
                                     xml:id="d121fn2">See footnote 1, <ref target="#pg_146">p.
                                         146</ref>.</note> would mean increased intervention by the
@@ -17904,8 +17913,10 @@
                                 only by this means that the Government of the United States can
                                 discern an end to the increasing difficulties to which this
                                 unfortunate situation has given rise for all parties concerned.</p>
-                            <p>
-                                <hi rend="smallcaps">Washington</hi>, February 23, 1949.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1949-02-23">February 23, 1949</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d180" n="180">
                             <note rend="inline" type="source">501.BC Indonesia/2–2349:
@@ -20677,8 +20688,10 @@
                                     Resolution [of January 28] or reached independently by the
                                     parties of the dispute.” (856d.00/3–349)</note>
                             </p>
-                            <p>
-                                <hi rend="smallcaps">Washington</hi>, March 2, 1949.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1949-03-02">March 2, 1949</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d205" n="205">
                             <note rend="inline" type="source">501.BC Indonesia/3–149:
@@ -21345,8 +21358,10 @@
                                 Council can avoid being faced with a clear case of Netherlands
                                 non-compliance with its resolutions, with consequences of the most
                                 unwelcome nature, whatever form they take.</p>
-                            <p>
-                                <hi rend="smallcaps">Washington</hi>, March 4, 1949.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1949-03-04">March 4, 1949</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d209" n="209">
                             <note rend="inline" type="source">501.BC Indonesia/3–449:
@@ -22757,8 +22772,10 @@
                                 authorities with requisite flexibility; and in this assurance, this
                                 Government is confident that the issues can be resolved and the main
                                 objective of a successful conference at The Hague be achieved.</p>
-                            <p>
-                                <hi rend="smallcaps">Washington</hi>, March 12, 1949.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1949-03-12">March 12, 1949</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d226" n="226">
                             <note rend="inline" type="source">501.BC Indonesia/3–1249:
@@ -34661,7 +34678,9 @@
                                 delegation. It is doubtful whether this arrangement offers adequate
                                 guarantees to prevent chaos, but less than this would lead in a few
                                 months to Burmese conditions.</p>
-                            <p>[<hi rend="smallcaps">Washington</hi>,] September 16, 1949.</p>
+                            <closer>
+                                <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date when="1949-09-16">September 16, 1949</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d341" n="341">
                             <note rend="inline" type="source">856d.00/9–1649: Telegram</note>
