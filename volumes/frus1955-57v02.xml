@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
     xml:id="frus1955-57v02">
     <teiHeader>
         <fileDesc>
@@ -39,6 +41,9 @@
                         </list></p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>HCL's submission of the original volume</change>
@@ -1450,6 +1455,9 @@
                                 Drafted by <gloss target="#t_NSC1">NSC</gloss> Deputy Executive
                                 Secretary <persName corresp="#p_GSE1">Gleason</persName> on January
                                 6.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-05" ana="#date_undated-inferred-from-document-head">January 5, 1955</date>
+                        </dateline>
                         <p>Present at the 230th meeting of the Council were the President of the
                             United States, presiding; the Vice President of the United States; the
                             Secretary of State; the Secretary of Defense; the Director, Foreign
@@ -1604,6 +1612,9 @@
                                 listed among the participants of the meeting. Approved with minor
                                 revisions by Secretary <persName corresp="#p_DJF1"
                                 >Dulles</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-07">January 7, 1955</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>The Secretary</item>
@@ -1756,6 +1767,9 @@
                                 time of the meeting is indicated in the President’s appointment
                                 diary. (<hi rend="italic">Ibid.</hi>, President’s Daily
                                 Appointments)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-10T12:05:00-05:00" ana="#date_undated-inferred-from-document-head">January 10, 1955, 12:05 p.m.</date>
+                        </dateline>
                         <p>1. I reported what <persName corresp="#p_LHC1">Cabot Lodge</persName> had
                             told me as to the messages from <persName corresp="#p_HD1"
                                 >Hammarskjold</persName>.<note n="2" xml:id="d5fn2"><persName
@@ -2084,6 +2098,9 @@
                                 U.S. officials during 1955, are in the <persName corresp="#p_KVKW1"
                                     >Wellington Koo</persName> Papers, Rare Book and Manuscript
                                 Library, Columbia University, Box 195.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-12" ana="#date_undated-inferred-from-document-head">January 12, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Defense of Tachen Islands</item>
@@ -2292,6 +2309,9 @@
                                     target="#t_NSC1">NSC</gloss> Records. Top Secret. Drafted by
                                     <persName corresp="#p_GSE1">Gleason</persName> on January
                                 14.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-13" ana="#date_undated-inferred-from-document-head">January 13, 1955</date>
+                        </dateline>
                         <p>Present at this meeting were the President of the United States,
                             presiding (except for Item 8, when the Vice President presided); the
                             Vice President of the United States; the Secretary of State (for Items 1
@@ -3360,6 +3380,9 @@
                                     corresp="#p_DJF1">Dulles</persName> Papers, Meetings with the
                                 President. Secret; Personal and Private. Drafted by <persName
                                     corresp="#p_DJF1">Dulles</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date from="1955-01-17T17:00:00-05:00" to="1955-01-17T18:00:00-05:00" ana="#date_undated-inferred-from-document-head">January 17, 1955, 6 p.m.</date>
+                        </dateline>
                         <list>
                             <label>1.</label>
                             <item>The President had the ticker report on <persName
@@ -3564,6 +3587,9 @@
                                 prepared by Phyllis Bernau. (<hi rend="italic">Ibid.</hi>, <persName
                                     corresp="#p_DJF1">Dulles</persName> Papers, White House
                                 Telephone Conversations)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-18T10:06:00-05:00" ana="#date_undated-inferred-from-document-head">January 18, 1955, 10:06 a.m.</date>
+                        </dateline>
                         <p>Called Secy. <persName corresp="#p_DJF1">Dulles</persName> to remind him
                             he wanted to talk to Pres. about “that message to <persName
                                 corresp="#p_HJC1">Jim Hagerty</persName>”<note n="2" xml:id="d15fn2"
@@ -3645,6 +3671,9 @@
                                         (<persName corresp="#p_EDD1">Eisenhower</persName> Library,
                                         <persName corresp="#p_DJF1">Dulles</persName> Papers, White
                                     House Memoranda)</p></note></head>
+                        <dateline>
+                            <date when="1955-01-19T12:45:00-05:00" ana="#date_undated-inferred-from-document-head">January 19, 1955, 12:45 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Situation of Off-shore Islands</item>
@@ -3803,6 +3832,9 @@
                                 the meeting is from <persName corresp="#p_DJF1">Dulles</persName>’
                                 appointment diary. (Princeton University Library, <persName
                                     corresp="#p_DJF1">Dulles</persName> Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-19T13:15:00-05:00" ana="#date_undated-inferred-from-document-head">January 19, 1955, 1:15 p.m.</date>
+                        </dateline>
                         <p>Admiral <persName corresp="#p_RAAW1">Radford</persName> and I lunched
                             with the President at my suggestion. I told the President that I was
                             becoming increasingly concerned <pb n="42" xml:id="pg_42" facs="0070"
@@ -3935,6 +3967,9 @@
                                 >Source: Department of State, Central Files, 793.00/1–1955. Top
                                 Secret. Drafted by Assistant Secretary of State for European Affairs
                                     <persName corresp="#p_MLT1">Merchant</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-19T15:45:00-05:00" ana="#date_undated-inferred-from-document-head">January 19, 1955, 3:45 p.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>The Secretary</item>
@@ -4261,6 +4296,9 @@
                                     >Knowland</persName> at 4:58 p.m. (Princeton University Library,
                                     <persName corresp="#p_DJF1">Dulles</persName>
                             Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date from="1955-01-19T16:45:00-05:00" to="1955-01-19T16:58:00-05:00" ana="#date_undated-inferred-from-document-head">January 19, 1955, 4:45 p.m. to 4:58 p.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>CONFERENCE</head>
                             <item>Sec/State, Under Sec/State, Mr. <persName corresp="#p_BRR1"
@@ -4593,6 +4631,9 @@
                                         corresp="#p_MCCW1">Carl</persName> Vinson of Georgia,
                                     Chairman of the House Armed Services
                             Committee.</p></note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-20T09:00:00-05:00" ana="#date_undated-inferred-from-document-head">January 20, 1955, 9 a.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>ATTENDING</head>
                             <item><hi rend="italic">The Department</hi></item>
@@ -5283,6 +5324,9 @@
                                 President’s appointment diary, the meeting took place at 10 a.m.
                                     (<hi rend="italic">Ibid.</hi>, President’s Daily
                                 Appointments)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-20" ana="#date_undated-inferred-from-document-head">January 20, 1955</date>
+                        </dateline>
                         <p>The following were present at this meeting of the Council: The President
                             of the United States, presiding; the Vice President of the United
                             States; the Secretary of State (for Item 5); the Secretary of Defense;
@@ -6151,6 +6195,9 @@
                                     >Dulles</persName>. Filed with a memorandum of August 29, 1958,
                                 from <persName corresp="#p_HF1">Fisher Howe</persName>, Director of
                                 the Executive Secretariat, to the Acting Secretary.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-20T18:30:00-05:00" ana="#date_undated-inferred-from-document-head">January 20, 1955, 6:30 p.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>The Secretary</item>
@@ -6340,6 +6387,9 @@
                                 The time of the meeting is from <persName corresp="#p_EDD1"
                                     >Eisenhower</persName>’s appointment diary. (<hi rend="italic"
                                     >Ibid.</hi>, President’s Daily Appointments)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-21T09:00:00-05:00" ana="#date_undated-inferred-from-document-head">January 21, 1955, 9 a.m.</date>
+                        </dateline>
                         <p>Present at the 233rd meeting of the Council were the President of the
                             United States, presiding; the Vice President of the United States; the
                             Secretary of State; the Secretary of Defense; the Director, Foreign
@@ -6723,6 +6773,9 @@
                                 Nonsubstantive revisions in Secretary <persName corresp="#p_DJF1"
                                     >Dulles</persName>’ handwriting appear on the source
                                 text.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-21T10:30:00-05:00" ana="#date_undated-inferred-from-document-head">January 21, 1955, 10:30 a.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>The Secretary</item>
@@ -6877,6 +6930,9 @@
                                 Offshore Islands. Top Secret. Drafted by <persName>Martin</persName>
                                 initialed by <persName corresp="#p_RWS1">Robertson</persName>,
                                 indicating his approval.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-21T11:45:00-05:00" ana="#date_undated-inferred-from-document-head">January 21, 1955, 11:45 a.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Defense of the Off-shore Islands</item>
@@ -7132,6 +7188,9 @@
                                 Whitman File, Administration Series. Top Secret. Drafted by
                                     <persName>Ann C. Whitman</persName>, the President’s personal
                                 secretary.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-21T16:00:00-05:00" ana="#date_undated-inferred-from-document-head">January 21, 1955, 4 p.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PRESENT</head>
                             <item>Admiral <persName corresp="#p_RAAW1">Arthur
@@ -7271,6 +7330,9 @@
                                 Drafted by <persName corresp="#p_MCWP1">McConaughy</persName> and
                                 initialed by <persName corresp="#p_RWS1">Robertson</persName>,
                                 indicating his approval.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-22" ana="#date_undated-inferred-from-document-head">January 22, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Defense of the Off-Shore Islands</item>
@@ -7805,6 +7867,9 @@
                                     of the Presidents of the United States: <persName
                                         corresp="#p_EDD1">Dwight D. Eisenhower</persName>,
                                 1955</hi>, pp. 207–211.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-24" ana="#date_undated-inferred-from-document-head">January 24, 1955</date>
+                        </dateline>
                         <p><hi rend="italic">To the Congress of the United States:</hi></p>
                         <p>The most important objective of our nation’s foreign policy is to
                             safeguard the security of the United States by establishing and
@@ -8007,6 +8072,9 @@
                                 (Princeton University Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers), the meeting took place at 12:52
                                 p.m.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-25T12:52:00-05:00" ana="#date_undated-inferred-from-document-head">January 25, 1955, 12:52 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Operation <hi rend="smallcaps">Oracle</hi></item>
@@ -8547,6 +8615,9 @@
                             January 26, 1955<note n="1" xml:id="d42fn1" type="source">Source:
                                 Department of State, ROC Files: Lot 71 D 517, 1954–1955, Offshore
                                 Islands. Secret. Drafted by <persName>Bond</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-26" ana="#date_undated-inferred-from-document-head">January 26, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Submission to <gloss target="#t_UN1">UN</gloss> Security Council
@@ -8870,6 +8941,9 @@
                                     target="#t_NSC1">NSC</gloss> Records. Top Secret. Drafted by
                                     <persName corresp="#p_GSE1">Gleason</persName> on January
                                 28.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-27" ana="#date_undated-inferred-from-document-head">January 27, 1955</date>
+                        </dateline>
                         <p>Present at the 234th Council meeting were the President of the United
                             States, presiding; the Vice President of the United States; the
                             Secretary of State; the Secretary of Defense; the Director, Foreign
@@ -9175,6 +9249,9 @@
                                 Department of State, Central Files, 793.5411/1–2755. Top Secret.
                                 Drafted by <persName corresp="#p_CR1"
                             >Cutler</persName>,</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-27T12:30:00-05:00" ana="#date_undated-inferred-from-document-head">January 27, 1955, 12:30 p.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>The President, Secretary of State, Assistant Secretary <persName
@@ -9328,6 +9405,9 @@
                                 Drafted by <persName corresp="#p_MCWP1">McConaughy</persName> and
                                 initialed by <persName corresp="#p_RWS1">Robertson</persName>,
                                 indicating his approval.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-27T17:30:00-05:00" ana="#date_undated-inferred-from-document-head">January 27, 1955, 5:30 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>1. Off-shore Island Situation</item>
@@ -9819,6 +9899,9 @@
                                 time of the meeting is from the Secretary’s appointment diary.
                                 (Princeton University Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-28T11:25:00-05:00" ana="#date_undated-inferred-from-document-head">January 28, 1955, 11:25 a.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Situation of Off-shore Islands</item>
@@ -10292,6 +10375,9 @@
                                     >FE</gloss>/FA Files: Lot 62 D 225, Relations with the British
                                 Commonwealth. Top Secret. Drafted by <persName corresp="#p_DJF1"
                                     >Dulles</persName> on January 29.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-28" ana="#date_undated-inferred-from-document-head">January 28, 1955</date>
+                        </dateline>
                         <p>At the dinner with <persName corresp="#p_MSRM1">Makins</persName> I
                             brought him up to date on the China question. We discussed the
                             situation. He said that the United Kingdom was prepared to stand firmly
@@ -10730,6 +10816,9 @@
                                 State, Central Files, 293.9322/1–3055. Top Secret; Eyes Only.
                                 Drafted by <persName corresp="#p_SSRH1">Scott</persName>, Director
                                 of the Executive Secretariat.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-30T10:45:00-05:00" ana="#date_undated-inferred-from-document-head">January 30, 1955, 10:45 a.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Evacuation of Tachen Islands</item>
@@ -11049,6 +11138,9 @@
                                 Series) His handwritten notes of the conversation are <hi
                                     rend="italic">ibid.</hi>, Miscellaneous Series, Formosa
                                 Area.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-30T18:30:00-05:00" ana="#date_undated-inferred-from-document-head">January 30, 1955, 6:30 p.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>The President</item>
@@ -11639,6 +11731,9 @@
                                 A note on the source text indicates that this conversation took
                                 place at the Chinese Ambassador’s residence after
                             dinner.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-01-31T21:45:00-05:00" ana="#date_undated-inferred-from-document-head">January 31, 1955, 9:45 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Off-shore Islands</item>
@@ -12182,6 +12277,9 @@
                             February 2, 1955<note n="1" xml:id="d73fn1" type="source">Source:
                                 Department of State, Central Files, 793.00/2–255. Secret. Drafted by
                                     <persName corresp="#p_MLT1">Merchant</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-02-02" ana="#date_undated-inferred-from-document-head">February 2, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Formosa</item>
@@ -12656,6 +12754,9 @@
                                 Secret. Drafted by Martin and initialed by <persName
                                     corresp="#p_RWS1">Robertson</persName>, indicating his
                                 approval.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-02-03T16:30:00-05:00" ana="#date_undated-inferred-from-document-head">February 3, 1955, 4:30 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Off-shore Islands Situation</item>
@@ -13608,6 +13709,9 @@
                                 Whitman File, Miscellaneous Series, Conference on Formosa. Top
                                 Secret. Drafted by <persName corresp="#p_GCAJ1"
                                     >Goodpaster</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-02-05T12:30:00-05:00" ana="#date_undated-inferred-from-document-head">February 5, 1955, 12:30 p.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>OTHERS PRESENT</head>
                             <item>Secretary <persName corresp="#p_HHJ1">Hoover</persName></item>
@@ -13736,6 +13840,9 @@
                                 memorandum, cited in <ref target="#d89fn6">footnote 6</ref>, <ref
                                     target="#d88"><hi rend="italic"><ref target="#d90"
                                         >supra</ref></hi></ref>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-02-05T13:00:00-05:00" ana="#date_undated-inferred-from-document-head">February 5, 1955, 1 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Formosa</item>
@@ -14450,6 +14557,9 @@
                                 >Source: Department of State, Central Files, 793.00/2–755. Top
                                 Secret. Drafted by <persName corresp="#p_MLT1"
                                 >Merchant</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-02-07T11:30:00-05:00" ana="#date_undated-inferred-from-document-head">February 7, 1955, 11:30 a.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>The Secretary</item>
@@ -15024,6 +15134,9 @@
                                     <persName corresp="#p_DJF1">Dulles</persName>’ appointment
                                 diary. (Princeton University Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-02-09T14:58:00-05:00" ana="#date_undated-inferred-from-document-head">February 9, 1955, 2:58 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Off-Shore Islands</item>
@@ -15325,6 +15438,9 @@
                                 xml:id="d102fn1" type="source">Source: Department of State, Central
                                 Files, 793.00/2–1055. Top Secret. Drafted by <persName
                                     corresp="#p_MCWP1">McConaughy</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-02-10">February 10, 1955</date>
+                        </dateline>
                         <list type="to">
                             <head>MEMORANDUM OF CONVERSATION WITH</head>
                             <item>Admiral <persName>Anderson</persName></item>
@@ -15430,6 +15546,9 @@
                                     >Dulles</persName>’ appointment diary. (Princeton University
                                 Library, <persName corresp="#p_DJF1">Dulles</persName>
                                 Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-02-10T14:08:00-05:00" ana="#date_undated-inferred-from-document-head">February 10, 1955, 2:08 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Farewell Call: The Prospects for the Government of the Republic of
@@ -15967,6 +16086,9 @@
                                     corresp="#p_DJF1">Dulles</persName>’ appointment diary.
                                 (Princeton University Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-02-11T10:39:00-05:00" ana="#date_undated-inferred-from-document-head">February 11, 1955, 10:39 a.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>The Area of Formosa</item>
@@ -16731,6 +16853,9 @@
                                 based. (<hi rend="italic">Ibid.</hi>, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers, White House Telephone
                                 Conversations)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-02-16T08:55:00-05:00" ana="#date_undated-inferred-from-document-head">February 16, 1955, 8:55 a.m.</date>
+                        </dateline>
                         <p>Returned Secy <persName corresp="#p_DJF1">Dulles</persName>’ call.</p>
                         <p><persName corresp="#p_DJF1">Dulles</persName> will take [<persName
                                 corresp="#p_CSWS1">Churchill</persName>’s letter] with him to N.Y.,
@@ -16905,6 +17030,9 @@
                                 18. The portion of the memorandum printed here was drafted by
                                 Bromley Smith, Senior Member of the <gloss target="#t_NSC1"
                                     >NSC</gloss> Special Staff.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-02-17" ana="#date_undated-inferred-from-document-head">February 17, 1955</date>
+                        </dateline>
                         <p>Present at this meeting of the Council were the President of the United
                             States, presiding; the Secretary of State; the Secretary of Defense; <pb
                                 n="280" xml:id="pg_280" facs="0308"/>the Director, Foreign
@@ -17248,6 +17376,9 @@
                                     corresp="#p_DJF1">Dulles</persName>’ appointment diary.
                                 (Princeton University Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-02-17T14:34:00-05:00" ana="#date_undated-inferred-from-document-head">February 17, 1955, 2:34 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Further Security Council Proceedings on Offshore Islands</item>
@@ -17865,6 +17996,9 @@
                                     >Goodpaster</persName>. The time of the meeting is from the
                                 President’s appointment diary. (<hi rend="italic">Ibid.</hi>,
                                 President’s Daily Appointments)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-02-19T11:00:00-05:00" ana="#date_undated-inferred-from-document-head">February 19, 1955, 11 a.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>OTHERS PRESENT</head>
                             <item>Admiral <persName corresp="#p_RAAW1">Radford</persName></item>
@@ -20018,6 +20152,9 @@
                                     >Eisenhower</persName> Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers, Meetings with the President. Top
                                 Secret. Drafted on March 7.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-06T17:15:00-05:00" ana="#date_undated-inferred-from-document-head">March 6, 1955, 5:15 p.m.</date>
+                        </dateline>
                         <p>I reported to the President the conclusions from my trip.</p>
                         <p>With reference to Quemoy and Matsu, I said I did not think that as things
                             now stood we could sit by and watch the Nationalist forces there be
@@ -20063,6 +20200,9 @@
                                     <persName corresp="#p_GSWF1">Walter George</persName>. Top
                                 Secret. A notation on the source text indicates that this
                                 conversation took place at breakfast.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-07" ana="#date_undated-inferred-from-document-head">March 7, 1955</date>
+                        </dateline>
                         <p>I reviewed briefly the impressions of my trip, the overriding impression
                             of the danger from Communist subversion and aggression, and the
                             importance of our standing firm. I said that I felt that under present
@@ -20186,6 +20326,9 @@
                                 >Source: Department of State, Central Files, 793.5/3–955. Secret.
                                 Drafted by <persName corresp="#p_MCWP1"
                                 >McConaughy</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-09T10:30:00-05:00" ana="#date_undated-inferred-from-document-head">March 9, 1955, 10:30 a.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>“Operation <hi rend="smallcaps">Oracle</hi>”</item>
@@ -20414,6 +20557,9 @@
                                 >Dulles</persName>’ appointment diary. (Princeton University
                                 Library, <persName corresp="#p_DJF1">Dulles</persName>
                                 Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-09T12:30:00-05:00" ana="#date_undated-inferred-from-document-head">March 9, 1955, 12:30 p.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>The Secretary</item>
@@ -20480,6 +20626,9 @@
                                     target="#t_NSC1">NSC</gloss> Records. Top Secret. Drafted by
                                     <persName corresp="#p_GSE1">Gleason</persName> on March
                                 11.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-10" ana="#date_undated-inferred-from-document-head">March 10, 1955</date>
+                        </dateline>
                         <p>Present at the 240th meeting of the Council were the President of the
                             United States, presiding; the Vice President of the United States; the
                             Secretary of State; the Secretary of Defense; Brig. Gen. R.W. Porter,
@@ -20817,6 +20966,9 @@
                             11, 1955, 9–10:05 a.m.<note n="1" xml:id="d148fn1" type="source">Source:
                                     <persName corresp="#p_EDD1">Eisenhower</persName> Library,
                                 Whitman File, Cabinet Papers. Confidential.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-11T10:05:00-05:00" ana="#date_undated-inferred-from-document-head">March 11, 1955, 10:05 a.m.</date>
+                        </dateline>
                         <p>[Here follows a list of those present, including the President, the Vice
                             President; Secretaries <persName corresp="#p_DJF1">Dulles</persName> and
                                 <persName corresp="#p_HGM1">Humphrey</persName>; Attorney General
@@ -20913,6 +21065,9 @@
                                     >Eisenhower</persName> Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers, Meetings with the President. Top
                                 Secret; Personal and Private.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-11T10:45:00-05:00" ana="#date_undated-inferred-from-document-head">March 11, 1955, 10:45 a.m.</date>
+                        </dateline>
                         <p>The President had the draft of a possible communication to President
                                 Coty<note n="2" xml:id="d149fn2">President René Coty of
                                 France.</note> which we went over together and which, after making
@@ -21570,6 +21725,9 @@
                                     >Dulles</persName>’ appointment diary. (Princeton University
                                 Library, <persName corresp="#p_DJF1">Dulles</persName>
                                 Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-14T08:43:00-05:00" ana="#date_undated-inferred-from-document-head">March 14, 1955, 8:43 a.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item><hi rend="smallcaps">Oracle</hi></item>
@@ -21768,6 +21926,9 @@
                                     corresp="#p_DJF1">Dulles</persName>’ appointment diary.
                                 (Princeton University Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-14T15:05:00-05:00" ana="#date_undated-inferred-from-document-head">March 14, 1955, 3:05 p.m.</date>
+                        </dateline>
                         <p rend="flushleft">MTW MC–3</p>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -22012,6 +22173,9 @@
                             March 16, 1955<note n="1" xml:id="d156fn1" type="source">Source:
                                 Department of State, Central Files, 793.5/3–1655. Secret. Drafted by
                                     <persName corresp="#p_MLT1">Merchant</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-16" ana="#date_undated-inferred-from-document-head">March 16, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item><hi rend="smallcaps">Oracle</hi></item>
@@ -22948,6 +23112,9 @@
                                     target="#t_NSC1">NSC</gloss> Records. Top Secret. Drafted by
                                     <persName corresp="#p_GSE1">Gleason</persName> on March
                                 25.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-24" ana="#date_undated-inferred-from-document-head">March 24, 1955</date>
+                        </dateline>
                         <p>Present at the 242nd Council meeting were: The President of the United
                             States, presiding; the Vice President of the United States; the
                             Secretary of State; the Secretary of Defense; the Director, Foreign
@@ -23086,6 +23253,9 @@
                                     corresp="#p_DJF1">Dulles</persName>’ appointment diary.
                                 (Princeton University Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-24T15:30:00-05:00" ana="#date_undated-inferred-from-document-head">March 24, 1955, 3:30 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Visit of Mr. <persName corresp="#p_MVKK1">Krishna
@@ -23449,6 +23619,9 @@
                                     >Dulles</persName>’ appointment diary. (University Library,
                                     <persName corresp="#p_DJF1">Dulles</persName>
                             Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-25T17:34:00-05:00" ana="#date_undated-inferred-from-document-head">March 25, 1955, 5:34 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Operation <hi rend="smallcaps">Oracle</hi></item>
@@ -23534,6 +23707,9 @@
                                 793.00/3–2855) The time of the meeting is from <persName
                                     corresp="#p_RCB1">Randall</persName>’s memorandum of
                                 conversation.</note></head>
+                        <dateline>
+                            <placeName>Washington Colon</placeName>, <date when="1955-03-26T11:30:00-05:00" ana="#date_undated-inferred-from-document-head">March 26, 1955, 11:30 a.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Situation in the Far East.</item>
@@ -24086,6 +24262,9 @@
                                 this is <persName>Richard M. Bissell</persName>, Jr., Special
                                 Assistant (for Plans and Programs) to the Director of Central
                                 Intelligence.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-28T16:30:00-05:00" ana="#date_undated-inferred-from-document-head">March 28, 1955, 4:30 p.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PRESENT</head>
                             <item>The Secretary</item>
@@ -24858,6 +25037,9 @@
                                 prepared the memorandum from notes supplied by the office of Major
                                 General <persName>Wilton B. Persons</persName>, USA (retired),
                                 Deputy Assistant to the President.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-30T12:30:00-05:00" ana="#date_undated-inferred-from-document-head">March 30, 1955, 12:30 p.m.</date>
+                        </dateline>
                         <p rend="center">BIPARTISAN CONGRESSIONAL LUNCHEON MEETING<note n="2"
                                 xml:id="d179fn2"><p>A similar luncheon meeting with Senate leaders,
                                     held on March 31, was recorded in a memorandum of conversation
@@ -25126,6 +25308,9 @@
                                     >Dulles</persName>’ appointment diary. (Princeton University
                                 Library, <persName corresp="#p_DJF1">Dulles</persName>
                                 Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-30T15:35:00-05:00" ana="#date_undated-inferred-from-document-head">March 30, 1955, 3:35 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Operation <hi rend="smallcaps">Oracle</hi></item>
@@ -25208,6 +25393,9 @@
                                     target="#t_NSC1">NSC</gloss> Records. Top Secret. Drafted by
                                     <persName corresp="#p_GSE1">Gleason</persName> on April
                                 1.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-03-31" ana="#date_undated-inferred-from-document-head">March 31, 1955</date>
+                        </dateline>
                         <p>Present at this meeting of the Council were the President of the United
                             States, presiding; the Vice President of the United States; the
                             Secretary of State; the Secretary of Defense; the Director, Foreign
@@ -25896,6 +26084,9 @@
                                     >Dulles</persName> Papers, Meetings with the President. Secret.
                                 Drafted by <persName corresp="#p_DJF1"
                             >Dulles</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-04-04T15:30:00-05:00" ana="#date_undated-inferred-from-document-head">April 4, 1955, 3:30 p.m.</date>
+                        </dateline>
                         <p>[Here follows discussion concerning Vietnam and other unrelated
                             matters.]</p>
                         <p>5. We discussed at great length the Formosa situation and related coastal
@@ -26307,6 +26498,9 @@
                             April 5, 1955<note n="1" xml:id="d191fn1" type="source">Source:
                                 Department of State, Central Files, 793.5/4–555. Secret. Drafted by
                                     <persName>Young</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-04-05" ana="#date_undated-inferred-from-document-head">April 5, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Remarks of Soviet Ambassador to Washington on Quemoy and
@@ -26401,6 +26595,9 @@
                                 Drafted by <persName corresp="#p_MADII1">MacArthur</persName>.
                                 Approved in draft by the Secretary, according to a marginal notation
                                 on the source text.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-04-07" ana="#date_undated-inferred-from-document-head">April 7, 1955</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>The Secretary</item>
@@ -27001,6 +27198,9 @@
                                 is from <persName corresp="#p_DJF1">Dulles</persName>’ appointment
                                 diary. (Princeton University Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-04-08T14:35:00-05:00" ana="#date_undated-inferred-from-document-head">April 8, 1955, 2:35 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Asian-African Conference</item>
@@ -27704,6 +27904,9 @@
                                     >Eisenhower</persName> Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers, Meetings with the President. Top
                                 Secret; Personal and Private.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-04-11" ana="#date_undated-inferred-from-document-head">April 11, 1955</date>
+                        </dateline>
                         <p>[Here follows discussion concerning a Presidential appointment.]</p>
                         <p>2. I discussed at length with the President communications received by
                             the Defense Department from Admiral <persName corresp="#p_SAFB1"
@@ -27833,6 +28036,9 @@
                             April 14, 1955<note n="1" xml:id="d203fn1" type="source">Source:
                                 Department of State, Central Files, 793.5/4–1455. Secret. Drafted by
                                     <persName corresp="#p_MLT1">Merchant</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-04-14" ana="#date_undated-inferred-from-document-head">April 14, 1955</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item><persName corresp="#p_SSPC1">Sir Percy Spender</persName></item>
@@ -28619,6 +28825,9 @@
                                     corresp="#p_DJF1">Dulles</persName> Papers, Meetings with the
                                 President. Top Secret; Personal and Private. Drafted by <persName
                                     corresp="#p_DJF1">Dulles</persName> on April 18.</note></head>
+                        <dateline>
+                            <placeName>Augusta, Georgia</placeName>, <date when="1955-04-17T12:30:00-05:00" ana="#date_undated-inferred-from-document-head">April 17, 1955, 12:30 p.m.</date>
+                        </dateline>
                         <p>I showed the President a draft of a statement of position with reference
                             to the defense of Formosa. The paper which I gave him was a copy of the
                             annexed paper marked “A”.<note n="2" xml:id="d207fn2">Of the five
@@ -28894,6 +29103,9 @@
                                 Department of State, Central Files, 793.00/4–2055. Top Secret.
                                 Drafted by <persName corresp="#p_MLT1"
                             >Merchant</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-04-20T12:00:00-05:00" ana="#date_undated-inferred-from-document-head">April 20, 1955, noon</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item><persName corresp="#p_SSRH1">Sir Robert Scott</persName></item>
@@ -29323,6 +29535,9 @@
                                 Whitman File, Miscellaneous Series, Conferences on Formosa. Top
                                 Secret. Drafted and initialed by <persName corresp="#p_GCAJ1"
                                     >Goodpaster</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-04-22T16:25:00-05:00" ana="#date_undated-inferred-from-document-head">April 22, 1955, 4:25 p.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>OTHERS PRESENT</head>
                             <item>Under Secretary <persName corresp="#p_HHJ1"
@@ -30139,6 +30354,9 @@
                                     >Dulles</persName> Papers, Meetings with the President. Secret;
                                 Personal and Private. Drafted by <persName corresp="#p_DJF1"
                                     >Dulles</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-04-25T17:15:00-05:00" ana="#date_undated-inferred-from-document-head">April 25, 1955, 5:15 p.m.</date>
+                        </dateline>
                         <p>I brought to the President the four-part message from <persName
                                 corresp="#p_RWS1">Walter Robertson</persName>.<note n="2"
                                 xml:id="d220fn2"><ref target="#d219"><hi rend="italic"><ref
@@ -30681,6 +30899,9 @@
                                     corresp="#p_DJF1">Dulles</persName> Papers, General Memoranda of
                                 Conversation. Top Secret; Personal and Private. Drafted by <persName
                                     corresp="#p_DJF1">Dulles</persName> on April 28.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-04-27T18:00:00-05:00" ana="#date_undated-inferred-from-document-head">April 27, 1955, 6 p.m.</date>
+                        </dateline>
                         <p>I met at my house with Senators <persName corresp="#p_KSWF1"
                                 >Knowland</persName>, Hickenlooper<note n="2" xml:id="d228fn2"
                                 >Senator Bourke B. Hickenlooper of Iowa, member of the Senate
@@ -31380,6 +31601,9 @@
                             May 3, 1955<note n="1" xml:id="d235fn1" type="source">Source: Department
                                 of State, Central Files, 793.00/5–155. Secret. Drafted by
                                     <persName>Elbrick</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-05-03" ana="#date_undated-inferred-from-document-head">May 3, 1955</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item><persName corresp="#p_MSRM1">Sir Roger Makins</persName>, British
@@ -31427,6 +31651,9 @@
                                     >Robertson</persName> as an enclosure to his letter of May 5,
                                 cited in <ref target="#d230fn1">footnote 1, Document
                                 230</ref>.</note></head>
+                        <dateline>
+                            <placeName>Taipei</placeName>, <date when="1955-05-04" ana="#date_undated-inferred-from-document-head">May 4, 1955</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>President <persName corresp="#p_CKG1">Chiang
@@ -31778,6 +32005,9 @@
                                 May 10 by <persName corresp="#p_MCWP1">McConaughy</persName>.
                                 Initialed by <persName corresp="#p_RWS1">Robertson</persName>,
                                 indicating his approval.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-05-05T16:00:00-04:00" ana="#date_undated-inferred-from-document-head">May 5, 1955, 4 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>1. Prospective Cease-Fire Talks with Chinese Communists.</item>
@@ -32199,6 +32429,9 @@
                                 a.m.<note n="1" xml:id="d241fn1" type="source">Source: Department of
                                 State, Central Files, 793.00/5–655. Top Secret. Drafted by <persName
                                     corresp="#p_DJF1">Dulles</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-05-06T10:30:00-04:00" ana="#date_undated-inferred-from-document-head">May 6, 1955, 10:30 a.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>The President</item>
@@ -32285,6 +32518,9 @@
                                     <persName corresp="#p_DJF1">Dulles</persName>’ appointment
                                 diary. (Princeton University Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-05-06T15:08:00-04:00" ana="#date_undated-inferred-from-document-head">May 6, 1955, 3:08 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>1) Clarification <persName corresp="#p_CE1">Chou En-lai</persName>
@@ -32424,6 +32660,9 @@
                                 from <persName corresp="#p_DJF1">Dulles</persName>’ appointment
                                 diary. (Princeton University Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-05-06T15:37:00-04:00" ana="#date_undated-inferred-from-document-head">May 6, 1955, 3:37 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Further discussions of Ambassador <persName>Malik</persName>’s
@@ -32835,6 +33074,9 @@
                                     target="#t_Dulte1">Dulte</gloss> 46 from Vienna, May 15,
                                 scheduled for publication in documentation on U.S. relations with
                                 Austria in a forthcoming volume.</note></head>
+                        <dateline>
+                            <placeName>Vienna</placeName>, <date when="1955-05-14" ana="#date_undated-inferred-from-document-head">May 14, 1955</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>Secretary <persName corresp="#p_DJF1">Dulles</persName>, <persName
@@ -33907,6 +34149,9 @@
                                     <persName corresp="#p_HHJ1">Hoover</persName> to <persName
                                     corresp="#p_DJF1">Dulles</persName>. (<hi rend="italic"
                                     >Ibid.</hi>, 793.00/5–3055)</note></head>
+                        <dateline>
+                            <placeName>Peking</placeName>, <date when="1955-05-26" ana="#date_undated-inferred-from-document-head">May 26, 1955</date>
+                        </dateline>
                         <p>On May 26 <persName corresp="#p_CE1">Chou En-lai</persName> gave Mr.
                                 <persName corresp="#p_TH1">Trevelyan</persName> his reply to
                                 <persName corresp="#p_ESA1">Sir A. Eden</persName>’s message.<note
@@ -34359,6 +34604,9 @@
                                     >Eisenhower</persName> Library, <persName corresp="#p_DJF1"
                                     >Dulles</persName> Papers, Meetings with the President.
                                 Confidential; Personal and Private.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-06-10" ana="#date_undated-inferred-from-document-head">June 10, 1955</date>
+                        </dateline>
                         <p>[Here follows a brief discussion concerning two scheduled speeches by the
                             President.]</p>
                         <p>I gave the President to read the memorandum which <persName
@@ -34565,6 +34813,9 @@
                                 Department of State, Central Files, 793.00/6–1355. Confidential.
                                 Drafted by Young. Initialed by <persName corresp="#p_MRD1"
                                     >Murphy</persName>, indicating his approval.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-06-13" ana="#date_undated-inferred-from-document-head">June 13, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Conversation between Prime Minister <persName corresp="#p_AM1"
@@ -34722,6 +34973,9 @@
                                 carbon copy. A transcript of the President’s remarks during the
                                 conversation are <hi rend="italic">Ibid.</hi>, Whitman File,
                                 International Series.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-06-14T10:30:00-04:00" ana="#date_undated-inferred-from-document-head">June 14, 1955, 10:30 a.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PRESENT</head>
                             <item>The Indian Ambassador, Mr. <persName corresp="#p_MGL1"
@@ -34777,6 +35031,9 @@
                                     >Dulles</persName>’ appointment diary. (Princeton University
                                 Library, <persName corresp="#p_DJF1">Dulles</persName>
                                 Papers)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-06-14T15:10:00-04:00" ana="#date_undated-inferred-from-document-head">June 14, 1955, 3:10 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item><persName corresp="#p_MVKK1">Menon</persName>’s Trip to
@@ -35215,6 +35472,9 @@
                                     corresp="#p_EDD1">Eisenhower</persName> Library, <persName
                                     corresp="#p_DJF1">Dulles</persName> Papers, General Memoranda of
                                 Conversation. Secret; Personal and Private.</note></head>
+                        <dateline>
+                            <placeName>New York</placeName>, <date when="1955-06-15T18:15:00-04:00" ana="#date_undated-inferred-from-document-head">June 15, 1955, 6:15 p.m.</date>
+                        </dateline>
                         <p>I saw Mr. <persName corresp="#p_MVKK1">Menon</persName> alone. He said he
                             would assure me that he would not quote or attribute to me anything I
                             said to him privately. He made four points: <list>
@@ -35321,6 +35581,9 @@
                                     <persName corresp="#p_DJF1">Dulles</persName> Papers, General
                                 Memoranda of Conversation. Secret; Personal and Private. Drafted by
                                     <persName corresp="#p_DJF1">Dulles</persName>.</note></head>
+                        <dateline>
+                            <placeName>San Francisco</placeName>, <date when="1955-06-20T16:45:00-07:00" ana="#date_undated-inferred-from-document-head">June 20, 1955, 4:45 p.m.</date>
+                        </dateline>
                         <p>Mr. <persName corresp="#p_MH1">Macmillan</persName> raised the question
                             of China. He said he felt that <persName corresp="#p_MVKK1"
                                 >Menon</persName> was messing things up and perhaps giving the
@@ -35608,6 +35871,9 @@
                                 Francisco meetings in Hillsborough, California. The other subjects
                                 of discussion related to the forthcoming conference at Geneva and to
                                 the United Nations.</note></head>
+                        <dateline>
+                            <placeName>San Francisco</placeName>, <date when="1955-06-23T13:15:00-07:00" ana="#date_undated-inferred-from-document-head">June 23, 1955, 1:15 p.m.</date>
+                        </dateline>
                         <p rend="flushleft">PMCG (SF) MC–10</p>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -35669,6 +35935,9 @@
                                 interest, and a Chinese request for supplemental defense support
                                 funds. (<hi rend="italic">Ibid.</hi>, 711.56393/6–2355 and
                                 793.5/6–2355, respectively)</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-06-23" ana="#date_undated-inferred-from-document-head">June 23, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Constancy of U.S. China Policy</item>
@@ -36113,6 +36382,9 @@
                                     >Dulles</persName> Papers) For the one revision made on the
                                 source text by the Secretary, see <ref target="#d282fn3">footnote 3
                                     below</ref>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-07-01T14:27:00-04:00" ana="#date_undated-inferred-from-document-head">July 1, 1955, 2:27 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>1. <gloss target="#t_MDAP1">MDAP</gloss> Agreement with
@@ -36285,6 +36557,9 @@
                                     corresp="#p_DJF1">Dulles</persName> Papers) The source text
                                 bears a notation which indicates it was seen by the
                                 Secretary.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-07-01T16:10:00-04:00" ana="#date_undated-inferred-from-document-head">July 1, 1955, 4:10 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Far Eastern Situation</item>
@@ -36663,6 +36938,9 @@
                                 withheld forever” and that he suggested to <persName
                                     corresp="#p_DJF1">Dulles</persName> raising the consular-level
                                 talks with the Chinese to the ambassadorial level.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-07-03T07:00:00-04:00" ana="#date_undated-inferred-from-document-head">July 3, 1955, 7 a.m.</date>
+                        </dateline>
                         <p>I said that following our talk at the State Department on Friday,<note
                                 n="2" xml:id="d286fn2">July 1; see <ref target="#d282">Document
                                     282</ref>.</note> I had talked at length with Mr. <persName
@@ -36809,6 +37087,9 @@
                             July 6, 1955<note n="1" xml:id="d288fn1" type="source">Source:
                                 Department of State, Central Files, 790.00/7–655. Secret. Drafted by
                                     <persName corresp="#p_AGV1">Allen</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-07-06" ana="#date_undated-inferred-from-document-head">July 6, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Far Eastern Situation</item>
@@ -38581,6 +38862,9 @@
                                 China, see <persName corresp="#p_ESA1">Anthony Eden</persName>, <hi
                                     rend="italic">Full Circle</hi> (Boston: Houghton Mifflin
                                 Company, 1960), pp. 342–345.</note></head>
+                        <dateline>
+                            <placeName>Geneva</placeName>, <date when="1955-07-17" ana="#date_undated-inferred-from-document-head">July 17, 1955</date>
+                        </dateline>
                         <p><hi rend="italic">About Quemoy and the Matsus</hi>. <persName
                                 corresp="#p_ESA1">Eden</persName> expressed himself as very much
                             alarmed that this was going to lead into real conflict and stated that
@@ -39095,6 +39379,9 @@
                                     >Dulles</persName>. The conversations took place during and
                                 after a dinner given by the Swiss Government for the four
                                 delegations at Geneva.</note></head>
+                        <dateline>
+                            <placeName>Geneva</placeName>, <date when="1955-07-21" ana="#date_undated-inferred-from-document-head">July 21, 1955</date>
+                        </dateline>
                         <p>At dinner, I discussed with <persName corresp="#p_BMNA1">Marshal
                                 Bulganin</persName> a number of matters about China. He spoke of his
                             visit there with Krushchev a year ago and made some comments about the
@@ -39155,6 +39442,9 @@
                                     corresp="#p_PH1">Phleger</persName>. Headed “Memorandum of
                                 Breakfast Conversation—<persName corresp="#p_ESA1">Sir Anthony
                                     Eden</persName>’s Villa at Geneva.”</note></head>
+                        <dateline>
+                            <placeName>Geneva</placeName>, <date when="1955-07-22T08:30:00+01:00" ana="#date_undated-inferred-from-document-head">July 22, 1955, 8:30 a.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>Secretary <persName corresp="#p_DJF1">Dulles</persName></item>
@@ -39270,6 +39560,9 @@
                                 Drafted by <persName corresp="#p_BCE1">Bohlen</persName>. The
                                 complete text is scheduled for publication in the compilation on the
                                 Geneva Conference in a forthcoming volume.</note></head>
+                        <dateline>
+                            <placeName>Geneva</placeName>, <date when="1955-07-23T09:30:00+01:00" ana="#date_undated-inferred-from-document-head">July 23, 1955, 9:30 a.m.</date>
+                        </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>The President</item>
@@ -39421,6 +39714,9 @@
                                 >Source: Department of State, Central Files, 396.1–GE/7–2455. Top
                                 Secret. Drafted by <persName corresp="#p_MCWP1"
                                     >McConaughy</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-07-24" ana="#date_undated-inferred-from-document-head">July 24, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Proposed Talks with Chinese Communists at Geneva.</item>
@@ -39680,6 +39976,9 @@
                                     corresp="#p_WP1">Wang</persName>–<persName corresp="#p_JUA1"
                                     >Johnson</persName> Talks. Top Secret; Personal and Private.
                                 Drafted by Barbour.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-07-27" ana="#date_undated-inferred-from-document-head">July 27, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>China—Negotiations Beginning at Geneva on August 1st.</item>
@@ -39783,6 +40082,9 @@
                                 by <persName corresp="#p_CRN1">Clough</persName> on July 29 and
                                 initialed by <persName corresp="#p_RWS1">Robertson</persName>,
                                 indicating his approval.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1955-07-28" ana="#date_undated-inferred-from-document-head">July 28, 1955</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Forthcoming Negotiations Between American and Chinese Communist
