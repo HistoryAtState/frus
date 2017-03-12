@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
     xml:id="frus1952-54v01p1">
     <teiHeader>
         <fileDesc>
@@ -42,6 +44,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2009-09-29 PA/HO JW: Created volume shell for HCL</change>
@@ -6536,6 +6541,9 @@
                         file</note>
                     <head><hi rend="italic">Notes on the Legislative Leadership Meeting, Held at the
                             White House, 8:30 a.m., December 14, 1954</hi></head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1954-12-14T08:30:00-05:00" ana="#date_undated-inferred-from-document-head">December 14, 1954, 8:30 a.m.</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
                         <item>The following were present:</item>
@@ -10441,6 +10449,9 @@
                     <note rend="inline" type="source">Eisenhower Library, Whitman file</note>
                     <head><hi rend="italic">Memorandum of Discussion at the 191st Meeting of the
                             National Security Council on Thursday, April 1, 1954</hi></head>
+                    <dateline>
+                        <date when="1954-04-01" ana="#date_undated-inferred-from-document-head">April 1, 1954</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <p rend="flushleft"><hi rend="smallcaps">eyes only</hi></p>
                     <p>The following were present at the 191st meeting of the Council: The President
@@ -11798,6 +11809,9 @@
                             extracts of the notes on the Legislative Meeting held Dec. 14, 1954, as
                             a continuation of this meeting, see <ref target="#pg_111">pp. 111</ref>
                             and <ref target="#pg_811">811</ref>.</note></head>
+                    <dateline>
+                        <date when="1954-12-13" ana="#date_undated-inferred-from-document-head">December 13, 1954</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
                         <item>The following were present:</item>
@@ -12081,6 +12095,9 @@
                         file, Administration series</note>
                     <head><hi rend="italic">Minutes of the Cabinet Meeting Held at the White House,
                             9:05 a.m., December 17, 1954</hi></head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1954-12-17T09:05:00-05:00" ana="#date_undated-inferred-from-document-head">December 17, 1954, 9:05 a.m.</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
                         <item>The following were present:</item>
@@ -12732,6 +12749,9 @@
                             more times a week, were generally attended by the Under Secretary, the
                             Assistant Secretaries, and members of the Secretary’s staff. Topics
                             discussed included a wide range of policy issues.</note></head>
+                    <dateline>
+                        <date when="1952-05-13T09:30:00-04:00" ana="#date_undated-inferred-from-document-head">May 13, 1952, 9:30 a.m.</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft">SM N–31</p>
                     <p>[Here follows discussion of the Korean military situation, Communist
@@ -14961,6 +14981,9 @@
                     <head><hi rend="italic">Minutes of the 211th Meeting of the National Advisory
                             Council on International Monetary and Financial Problems, Held at
                             Washington, June 1, 1954</hi></head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1954-06-01" ana="#date_undated-inferred-from-document-head">June 1, 1954</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">Mr. W. Randolph Burgess (Acting Chairman), Treasury
                         Department <list>
@@ -15981,6 +16004,9 @@
                     <head><hi rend="italic">Minutes of the 218th Meeting of the National Advisory
                             Council on International Monetary and Financial Problems, Held at
                             Washington, November 3, 1954</hi></head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1954-11-03" ana="#date_undated-inferred-from-document-head">November 3, 1954</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps"><gloss target="#t_NAC1">nac</gloss> use
                             only</hi></p>
                     <p rend="flushleft">Mr. W. Randolph Burgess (Acting Chairman), Treasury
@@ -16560,6 +16586,9 @@
                     <head><hi rend="italic">Minutes of the 196th Meeting of the National Advisory
                             Council on International Monetary and Financial Problems, Held at
                             Washington, August 26, 1952</hi></head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1952-08-26" ana="#date_undated-inferred-from-document-head">August 26, 1952</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">Secretary John W. Snyder (Chairman), Treasury Department</p>
                     <p rend="flushleft">Mr. David K. E. Bruce, State Department</p>
@@ -16916,6 +16945,9 @@
                     <head><hi rend="italic">Minutes of the 198th Meeting of the National Advisory
                             Council on International Monetary and Financial Problems, Held at
                             Washington, May 18, 1953</hi></head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1953-05-18" ana="#date_undated-inferred-from-document-head">May 18, 1953</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">Secretary G. M. Humphrey (Chairman), Treasury Department</p>
                     <p rend="flushleft">Mr. W. Randolph Burgess, Treasury Department <list>
@@ -17311,6 +17343,9 @@
                     <head><hi rend="italic">Minutes of the 200th Meeting of the National Advisory
                             Council on International Monetary and Financial Problems, Held at
                             Washington, June 15, 1953</hi></head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1953-06-15" ana="#date_undated-inferred-from-document-head">June 15, 1953</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">Mr. Andrew N. Overby (Acting Chairman), Treasury Department <list>
                             <item>Mr. William L. Hebbard</item>
@@ -18923,6 +18958,9 @@
                     <head><hi rend="italic">Minutes of the 206th Meeting of the National Advisory
                             Council on International Monetary and Financial Problems, Held at
                             Washington, January 22, 1954</hi></head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1954-01-22" ana="#date_undated-inferred-from-document-head">January 22, 1954</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">for use of <gloss target="#t_NAC1"
                                 >nac</gloss> agencies only</hi></p>
                     <p rend="flushleft">Secretary G. M. Humphrey (Chairman), Treasury Department <list>
@@ -19233,6 +19271,9 @@
                     <head><hi rend="italic">Minutes of the 212th Meeting of the National Advisory
                             Council on International Monetary and Financial Problems, Held at
                             Washington, July 2, 1954</hi></head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1954-07-02" ana="#date_undated-inferred-from-document-head">July 2, 1954</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">for <gloss target="#t_NAC1">nac</gloss>
                             use only</hi></p>
                     <p rend="flushleft">Mr. W. Randolph Burgess (Acting Chairman), Treasury
@@ -19761,6 +19802,9 @@
                     <head><hi rend="italic">Minutes of the 216th Meeting of the National Advisory
                             Council on International Monetary and Financial Problems, Held at
                             Washington, October 11, 1954</hi></head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1954-10-11" ana="#date_undated-inferred-from-document-head">October 11, 1954</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">for <gloss target="#t_NAC1">nac</gloss>
                             use only</hi></p>
                     <p rend="flushleft">Mr. W. Randolph Burgess (Acting Chairman), Treasury
@@ -20113,6 +20157,9 @@
                     <head><hi rend="italic">Minutes of the 219th Meeting of the National Advisory
                             Council on International Monetary and Financial Problems, Held at
                             Washington, November 5, 1954</hi></head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1954-11-05" ana="#date_undated-inferred-from-document-head">November 5, 1954</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">for <gloss target="#t_NAC1">nac</gloss>
                             use only</hi></p>
                     <p rend="flushleft">Mr. W. Randolph Burgess (Acting Chairman), Treasury
@@ -26751,6 +26798,9 @@
                         “Documents Jan–Aug 1952”</note>
                     <head><hi rend="italic">Notes on the Secretary’s Staff Meeting, Held at the
                             Department of State, 9:30 a.m., Tuesday, June 24, 1952</hi></head>
+                    <dateline>
+                        <date when="1952-06-24T09:30:00-04:00" ana="#date_undated-inferred-from-document-head">June 24, 1952, 9:30 a.m.</date>
+                    </dateline>
                     <note rend="inline" type="source">[Extract]</note>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft">SM N–43</p>
@@ -31312,6 +31362,9 @@
                             xml:id="d173fn1">This memorandum was drawn up by Deputy Executive
                             Secretary of the <gloss target="#t_NSC1">NSC</gloss> Gleason on Mar.
                             19.</note></head>
+                    <dateline>
+                        <date when="1953-03-18" ana="#date_undated-inferred-from-document-head">March 18, 1953</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <p rend="flushleft"><hi rend="smallcaps">eyes only</hi></p>
                     <p>Present at the 137th meeting of the Council were the President of the United
@@ -38741,6 +38794,9 @@
                             the memorandum from Dodge to Smith, Humphrey, Kyes, and Stassen, Mar.
                             24, <ref target="#d200"><hi rend="italic"
                         >supra</hi></ref>.</note></head>
+                    <dateline>
+                        <date when="1954-04-06" ana="#date_undated-inferred-from-document-head">April 6, 1954</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
                         <item>Present: Secretary George H. Humphrey and Deputy Secretary W. Randolph
@@ -41428,6 +41484,9 @@
                             xml:id="d213fn1">This memorandum was drawn up by Deputy Executive
                             Secretary of the <gloss target="#t_NSC1">NSC</gloss> Gleason on Oct.
                             15.</note></head>
+                    <dateline>
+                        <date when="1954-10-14" ana="#date_undated-inferred-from-document-head">October 14, 1954</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <p>Present at the 217th Council meeting were the Acting Secretary of State,
                         presiding; the Acting Secretary of Defense; the Director, Foreign Operations
@@ -42938,6 +42997,9 @@
                             by Assistant Staff Secretary to the President, L. Arthur Minnich, Jr.
                             The source text indicates the meeting was held from 8:30 a.m. to noon
                             and resumed at 2:30 p.m. to 5:45 p.m.</note></head>
+                    <dateline>
+                        <date from="1954-12-13T08:30:00-05:00" to="1954-12-13T17:45:00-05:00" ana="#date_undated-inferred-from-document-head">December 13, 1954, 8:30 a.m. to noon and 2:30 p.m. to 5:45 p.m.</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
                         <item>The following were present:</item>
@@ -43044,6 +43106,9 @@
                             by Assistant Staff Secretary to the President, L. Arthur Minnich, Jr.
                             The source text indicates the meeting was held from 8:30 a.m. to 11:45
                             a.m.</note></head>
+                    <dateline>
+                        <date from="1954-12-14T08:30:00-05:00" to="1954-12-14T11:45:00-05:00" ana="#date_undated-inferred-from-document-head">December 14, 1954, 8:30 a.m. to 11:45 a.m.</date>
+                    </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
                         <item>The following were present:</item>
