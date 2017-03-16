@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1948v01p2">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="frus1948v01p2">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -59,6 +62,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2014-12-04 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -2982,6 +2988,9 @@
                             of the United States with Respect to Soviet-Directed World
                             Communism</hi>
                     </head>
+                    <dateline>
+                        <date notBefore="1948-03-30T00:00:00-05:00" notAfter="1948-04-01T23:59:59-05:00" ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                    </dateline>
                     <p rend="center">
                         <hi rend="smallcaps">the problem</hi>
                     </p>
@@ -3274,6 +3283,9 @@
                             Intelligence Committee, American Embassy, Moscow, U.S.S.R., April 1,
                             1948</hi>
                     </head>
+                    <dateline>
+                        <placeName>Moscow</placeName>, <date when="1948-04-01" ana="#date_undated-inferred-from-document-head">April 1, 1948</date>
+                    </dateline>
                     <p rend="center">
                         <hi rend="smallcaps">i. the problem</hi>
                     </p>
@@ -8013,6 +8025,9 @@
                         <hi rend="smallcaps">Draft Report by the National Security Council on United
                             States Policy on Atomic Warfare</hi>
                     </head>
+                    <dateline>
+                        <date notBefore="1948-09-10T00:00:00-04:00" notAfter="1948-09-14T23:59:59-04:00" ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                    </dateline>
                     <p rend="flushleft">References: <gloss target="#t_NSC1">NSC</gloss> Actions Nos.
                         51, 62 and 75</p>
                     <p rend="center">
@@ -8853,6 +8868,9 @@
                     <head>
                         <hi rend="italic">Memorandum Prepared in the Department of State</hi>
                     </head>
+                    <dateline>
+                        <date notBefore="1948-10-13T00:00:00-05:00" notAfter="1948-10-31T23:59:59-05:00" ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                    </dateline>
                     <p rend="center">
                         <hi rend="smallcaps">Basic Factors in Soviet Far Eastern Policy</hi>
                     </p>
@@ -12001,6 +12019,9 @@
                             other version of the Under Secretary’s testimony has been found in the
                             files of the Department of State.</note>
                     </head>
+                    <dateline>
+                        <date when="1948-01-21" ana="#date_undated-inferred-from-document-head">January 21, 1948</date>
+                    </dateline>
                     <opener>
                         <seg rendition="#left">
                             <hi rend="smallcaps">top secret</hi>
@@ -13059,8 +13080,10 @@
                         who will attend could discuss with the designated United States engineers,
                         arrangements with respect to compilation of data essential to the success of
                         the investigations.</p>
-                    <p>
-                        <hi rend="smallcaps">Washington</hi>, April 13, 1948.</p>
+                    <closer>
+                        <dateline>
+                            <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1948-04-13">April 13, 1948</date>.</dateline>
+                    </closer>
                 </div>
                 <div type="document" xml:id="d79" n="79">
                     <note rend="inline" type="source">711.329/4–1348: Telegram</note>
@@ -13131,6 +13154,9 @@
                         <hi rend="italic">Minutes of the Meeting of the American Members of the
                             Combined Policy Committee, Washington, May 28, 1948</hi>
                     </head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1948-05-28" ana="#date_undated-inferred-from-document-head">May 28, 1948</date>
+                    </dateline>
                     <opener>
                         <seg rendition="#left">
                             <hi rend="smallcaps">top secret</hi>
@@ -13825,6 +13851,9 @@
                         <hi rend="italic">Minutes of the Meeting of the American Members of the
                             Combined Policy Committee, Washington, July 6, 1948</hi>
                     </head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1948-07-06" ana="#date_undated-inferred-from-document-head">July 6, 1948</date>
+                    </dateline>
                     <opener>
                         <seg rendition="#left">
                             <hi rend="smallcaps">top secret</hi>
@@ -15444,7 +15473,9 @@
                         already in fact available from public sources.</p>
                     <p>6. London would be grateful for the comments of the American authorities on
                         the foregoing.</p>
-                    <p>[<hi rend="smallcaps">Washington</hi>,] August 20, 1948.</p>
+                    <closer>
+                        <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date when="1948-08-20">August 20, 1948</date>.</dateline>
+                    </closer>
                 </div>
                 <pb n="746" xml:id="pg_746" facs="0256"/>
                 <div type="document" xml:id="d95" n="95">
@@ -15487,7 +15518,9 @@
                         done there.</p>
                     <p>5. London wish to know whether the U.S. authorities agree with their
                         view.</p>
-                    <p>[<hi rend="smallcaps">Washington</hi>,] August 20, 1948.</p>
+                    <closer>
+                        <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date when="1948-08-20">August 20, 1948</date>.</dateline>
+                    </closer>
                 </div>
                 <div type="document" xml:id="d96" n="96">
                     <head>
@@ -17365,8 +17398,10 @@
                             for the two week conference of Commonwealth nations which ended on
                             October 22.</note>
                     </p>
-                    <p>
-                        <hi rend="smallcaps">Washington</hi>, 20th October, 1948.</p>
+                    <closer>
+                        <dateline>
+                            <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1948-10-20">20th October, 1948</date>.</dateline>
+                    </closer>
                 </div>
                 <div type="document" xml:id="d108" n="108">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
@@ -17844,8 +17879,10 @@
                         developments. The British Government would therefore be grateful if the
                         State Department could give this subject urgent attention so as to enable
                         them to give a favourable reply to the Norwegians.</p>
-                    <p>
-                        <hi rend="smallcaps">Washington</hi>, November 16, 1948.</p>
+                    <closer>
+                        <dateline>
+                            <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1948-11-16">November 16, 1948</date>.</dateline>
+                    </closer>
                 </div>
                 <div type="document" xml:id="d113" n="113">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
@@ -18023,8 +18060,10 @@
                         the Norwegians and that they ought now to make them the relatively
                         encouraging response indicated above. They propose to approach the
                         Norwegians this week.</p>
-                    <p>
-                        <hi rend="smallcaps">Washington</hi>, December 2, 1948.</p>
+                    <closer>
+                        <dateline>
+                            <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1948-12-02">December 2, 1948</date>.</dateline>
+                    </closer>
                 </div>
                 <div type="document" xml:id="d116" n="116">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
@@ -24663,6 +24702,9 @@
                             Conference to the <gloss type="to">Secretary of State</gloss>
                         </hi>
                     </head>
+                    <dateline>
+                        <date when="1948-03-24" ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                    </dateline>
                     <p rend="center">. . . . . . . . . . . . . .</p>
                     <p rend="flushleft">3. <hi rend="italic">Accomplishments of Special Interest to
                             the United States</hi>
@@ -25012,6 +25054,9 @@
                     <head>
                         <hi rend="italic">United States Delegation Paper</hi> (<hi rend="italic"
                             >First Session of the Contracting Parties</hi>)</head>
+                    <dateline>
+                        <date when="1948-03-24" ana="#date_undated-inferred-from-document-content">undated</date>
+                    </dateline>
                     <p rend="center">
                         <hi rend="smallcaps">Habana Meeting of the Parties to the General Agreement
                             on Tariffs and Trade</hi>
@@ -26287,6 +26332,9 @@
                         <hi rend="italic">Press Release No. 420 of the European Office of the United
                             Nations, Issued at Geneva, Switzerland, August 11, 1948</hi>
                     </head>
+                    <dateline>
+                        <placeName>Geneva</placeName>, <date when="1948-08-11" ana="#date_undated-inferred-from-document-head">August 11, 1948</date>
+                    </dateline>
                     <p rend="flushleft">
                         <hi rend="smallcaps">United Nations</hi>
                         <gloss target="#t_ITO1">ITO</gloss>
@@ -27420,6 +27468,9 @@
                         <hi rend="italic">Department of State Press Release No. 766 Issued at
                             Washington September 22, 1948</hi>
                     </head>
+                    <dateline>
+                        <placeName>Washington</placeName>, <date when="1948-09-22" ana="#date_undated-inferred-from-document-head">September 22, 1948</date>
+                    </dateline>
                     <p>The second session of the contracting parties to the General Agreement on
                         Tariffs and Trade, which opened in Geneva on August 16, completed its work
                         on September 14. It has laid plans designed to increase further the value of
@@ -28018,6 +28069,9 @@
                         <head>
                             <hi rend="italic">Extract From Bulletin No. 151, May 17, 1948</hi>
                         </head>
+                        <dateline>
+                            <date when="1948-05-17" ana="#date_undated-inferred-from-document-head">May 17, 1948</date>
+                        </dateline>
                         <opener>
                             <seg rendition="#left">
                                 <hi rend="smallcaps">secret</hi>
@@ -28104,6 +28158,9 @@
                         <head>
                             <hi rend="italic">Extract From Bulletin No. 165, August 23, 1948</hi>
                         </head>
+                        <dateline>
+                            <date when="1948-08-23" ana="#date_undated-inferred-from-document-head">August 23, 1948</date>
+                        </dateline>
                         <opener>
                             <seg rendition="#left">
                                 <hi rend="smallcaps">confidential</hi>
@@ -28146,6 +28203,9 @@
                         <head>
                             <hi rend="italic">Extract From Bulletin No. 174, October 25, 1948</hi>
                         </head>
+                        <dateline>
+                            <date when="1948-10-25" ana="#date_undated-inferred-from-document-head">October 25, 1948</date>
+                        </dateline>
                         <opener>
                             <seg rendition="#left">
                                 <hi rend="smallcaps">secret</hi>
@@ -30869,8 +30929,10 @@
                         Antarctic phenomena. It would facilitate the correlation of meteorological
                         observations of practical significance in long range weather forecast,
                         particularly for countries of the Southern Hemisphere.</p>
-                    <p>
-                        <hi rend="smallcaps">Washington</hi>, June 25, 1948.</p>
+                    <closer>
+                        <dateline>
+                            <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1948-06-25">June 25, 1948</date>.</dateline>
+                    </closer>
                 </div>
                 <pb n="989" xml:id="pg_989" facs="0499"/>
                 <div type="document" xml:id="d241" n="241">
@@ -31991,8 +32053,10 @@
                         the French Government’s willingness to enter upon discussions seeking a
                         solution of the Antarctic problem. The Department of State will welcome any
                         observations or suggestions from the French Government on the subject.</p>
-                    <p>
-                        <hi rend="smallcaps">Washington</hi>, September 28, 1948.</p>
+                    <closer>
+                        <dateline>
+                            <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1948-09-28">September 28, 1948</date>.</dateline>
+                    </closer>
                 </div>
                 <div type="document" xml:id="d258" n="258">
                     <note rend="inline" type="source">800.014 Antarctic/10–148</note>
@@ -32342,8 +32406,10 @@
                         Peter I’s Island and the territory between the 45 degree east longitude and
                         the 20 degree west longitude (Queen Maud Land) would thus not contribute
                         effectively to the establishment of peace and harmony in the Antarctic.</p>
-                    <p>
-                        <hi rend="smallcaps">Washington</hi>, November 15, 1948.</p>
+                    <closer>
+                        <dateline>
+                            <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date when="1948-11-15">November 15, 1948</date>.</dateline>
+                    </closer>
                 </div>
                 <div type="document" xml:id="d263" n="263">
                     <note rend="inline" type="source">800.014 Antarctic/11–2448: Telegram</note>
