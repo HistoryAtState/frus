@@ -73,16 +73,18 @@
         <rule context="tei:list">
             <assert test="./@type = ('participants', 'subject', 'index', 'terms', 'names', 'toc', 'references', 'to', 'simple', 'sources', 'from') or not(./@type)">list/@type='<value-of select="@type"/>' is an invalid value.  Only the following values are allowed: participants, subject, index, terms, names, toc, references, to, simple, sources</assert>
         </rule>
-        <rule context="tei:item[parent::tei:list/@type = 'terms']">
+        <rule context="tei:item[ancestor::tei:div/@xml:id = 'terms' and not(child::tei:list)]">
             <assert test=".//tei:term/@xml:id" sqf:fix="add-term add-xml-id">Missing term element with @xml:id attribute. Entries in the list of terms &amp; abbreviations must have an @xml:id attribute</assert>
-            <let name="term" value="if (ends-with(.//tei:hi[1], ',')) then replace(.//tei:hi[1], ',$', '') else .//tei:hi[1]"/>
+            <let name="first-hi" value="(.//tei:hi)[1]"/>
+            <let name="term" value="if (ends-with($first-hi, ',')) then replace($first-hi, ',$', '') else .//tei:hi[1]"/>
             <let name="id" value="concat('t_', replace($term, '\W', ''), '_1')"/>
-            <!-- the fix takes two passes. hopefully we'll find a way to do this in a single pass -->
+            <!-- the fix takes two passes. hopefully we'll find a way to do this in a single pass 
+                 see https://www.oxygenxml.com/forum/topic14270.html. -->
             <sqf:fix id="add-term" use-when="not(.//tei:term)">
                 <sqf:description>
                     <sqf:title>Add a missing term element</sqf:title>
                 </sqf:description>
-                <sqf:replace match="tei:hi[1]">
+                <sqf:replace match="(.//tei:hi)[1]">
                     <xsl:element name="tei:hi">
                         <xsl:attribute name="rend" select="./@rend"/>
                         <xsl:element name="tei:term">
