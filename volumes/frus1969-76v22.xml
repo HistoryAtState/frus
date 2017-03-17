@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1969-76v22">
+    xml:id="frus1969-76v22" xmlns:xml="http://www.w3.org/XML/1998/namespace">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -661,7 +661,7 @@
                     <item><hi rend="strong"><term xml:id="t_CZ_1">CZ</term>,</hi> Canal Zone</item>
                     <item><hi rend="strong"><term xml:id="t_CZG_1">CZG</term>,</hi> Canal Zone
                         Group</item>
-                    <item><hi rend="strong">D,</hi> Democrat; or Deputy Secretary of State</item>
+                    <item><hi rend="strong"><term xml:id="t_D_1">D</term>,</hi> Democrat; or Deputy Secretary of State</item>
                     <item><hi rend="strong"><term xml:id="t_DCI_1">DCI</term>,</hi> Director of
                         Central Intelligence</item>
                     <item><hi rend="strong"><term xml:id="t_DCM_1">DCM</term>,</hi> Deputy Chief of
@@ -729,10 +729,10 @@
                         Group</item>
                     <item><hi rend="strong"><term xml:id="t_PCNWG_1">PCNWG</term>,</hi> Panama Canal
                         Negotiations Working Group</item>
-                    <item><hi rend="strong">R,</hi> Republican</item>
+                    <item><hi rend="strong"><term xml:id="t_R_1">R</term>,</hi> Republican</item>
                     <item><hi rend="strong"><term xml:id="t_RG_1">RG</term>,</hi> Record
                         Group</item>
-                    <item><hi rend="strong">S,</hi> Office of the Secretary</item>
+                    <item><hi rend="strong"><term xml:id="t_S_1">S</term>,</hi> Office of the Secretary</item>
                     <item><hi rend="strong"><term xml:id="t_SS_1">S/S</term>,</hi> Executive
                         Secretariat, Department of State</item>
                     <item><hi rend="strong"><term xml:id="t_SAL_1">S/AL</term>,</hi> Office of
