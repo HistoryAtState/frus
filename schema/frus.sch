@@ -76,7 +76,7 @@
         <rule context="tei:item[ancestor::tei:div/@xml:id = 'terms' and not(child::tei:list)]">
             <assert test=".//tei:term/@xml:id" sqf:fix="add-term add-xml-id">Missing term element with @xml:id attribute. Entries in the list of terms &amp; abbreviations must have an @xml:id attribute</assert>
             <let name="first-hi" value="(.//tei:hi)[1]"/>
-            <let name="term" value="if (ends-with($first-hi, ',')) then replace($first-hi, ',$', '') else .//tei:hi[1]"/>
+            <let name="term" value="if (ends-with($first-hi, ',')) then replace($first-hi, ',$', '') else $first-hi"/>
             <let name="id" value="concat('t_', replace($term, '\W', ''), '_1')"/>
             <!-- the fix takes two passes. hopefully we'll find a way to do this in a single pass 
                  see https://www.oxygenxml.com/forum/topic14270.html. -->
