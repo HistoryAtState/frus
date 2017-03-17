@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt3" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ckbk="http://www.oreilly.com/XSLTCookbook">
+<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt3" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ckbk="http://www.oreilly.com/XSLTCookbook" xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     <title>FRUS TEI Rules</title>
     
     <p>FRUS TEI Rules Schematron file ($Id: frus.sch 4528 2016-02-22 21:33:23Z joewiz $)</p>
@@ -9,6 +9,7 @@
     <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
     <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
     <ns prefix="ckbk" uri="http://www.oreilly.com/XSLTCookbook"/>
+    <ns prefix="xml" uri="http://www.w3.org/XML/1998/namespace"/>
     
     <!-- Define variables used by other patterns -->
     <let name="xml-ids" value="//*/@xml:id"/>
@@ -73,7 +74,30 @@
             <assert test="./@type = ('participants', 'subject', 'index', 'terms', 'names', 'toc', 'references', 'to', 'simple', 'sources', 'from') or not(./@type)">list/@type='<value-of select="@type"/>' is an invalid value.  Only the following values are allowed: participants, subject, index, terms, names, toc, references, to, simple, sources</assert>
         </rule>
         <rule context="tei:item[parent::tei:list/@type = 'terms']">
-            <assert test=".//tei:term/@xml:id">Missing term element with @xml:id attribute. Entries in the list of terms &amp; abbreviations must have an @xml:id attribute</assert>
+            <assert test=".//tei:term/@xml:id" sqf:fix="add-term add-xml-id">Missing term element with @xml:id attribute. Entries in the list of terms &amp; abbreviations must have an @xml:id attribute</assert>
+            <let name="term" value="if (ends-with(.//tei:hi[1], ',')) then replace(.//tei:hi[1], ',$', '') else .//tei:hi[1]"/>
+            <let name="id" value="concat('t_', replace($term, '\W', ''), '_1')"/>
+            <!-- the fix takes two passes. hopefully we'll find a way to do this in a single pass -->
+            <sqf:fix id="add-term" use-when="not(.//tei:term)">
+                <sqf:description>
+                    <sqf:title>Add a missing term element</sqf:title>
+                </sqf:description>
+                <sqf:replace match="tei:hi[1]">
+                    <xsl:element name="tei:hi">
+                        <xsl:attribute name="rend" select="./@rend"/>
+                        <xsl:element name="tei:term">
+                            <xsl:value-of select="$term"/>
+                        </xsl:element>
+                        <xsl:text>,</xsl:text>
+                    </xsl:element>
+                </sqf:replace>
+            </sqf:fix>
+            <sqf:fix id="add-xml-id" use-when="exists(.//tei:term)">
+                <sqf:description>
+                    <sqf:title>Add a missing @xml:id</sqf:title>
+                </sqf:description>
+                <sqf:add match=".//tei:term" target="xml:id" node-type="attribute" select="$id"/>
+            </sqf:fix>
             <assert test="not(tei:term/tei:hi/@rend = 'strong') and not(ends-with(tei:term, ','))">Improper nesting of hi and term elements (the hi/@rend=strong tag must surround the term element), and/or improper placement of trailing punctuation mark (the trailing comma must lie outside the term element)</assert>
         </rule>
         <rule context="tei:item[parent::tei:list/@type = 'persons']">
