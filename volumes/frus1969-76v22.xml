@@ -25,6 +25,13 @@
                 <p>Released in 2015 as printed book.</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <styleDefDecl scheme="css" schemeVersion="2.1"/>
+            <tagsDecl>
+                <rendition xml:id="left">display: inline; float: left;</rendition>
+                <rendition xml:id="right">display: inline; float: right;</rendition>
+            </tagsDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <front>
@@ -1297,7 +1304,7 @@
                             Secret; Immediate. Repeated Immediate for information to Panama City and
                                 <gloss target="#t_USCINCSO_1">USCINCSO</gloss>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Caracas</placeName>, <date when="1973-01-15T16:45:00+00:00">January
                                 15, 1973, 1645Z</date>.</dateline>
                     </opener>
@@ -1347,7 +1354,7 @@
                                 target="#t_Exdis_1">Exdis</gloss>. Drafted by <persName
                                 corresp="#p_HR_2">Hurwitch</persName> on January 15.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-01-17">January 17,
                                 1973</date>.</dateline>
                     </opener>
@@ -1528,7 +1535,7 @@
                                 target="#t_NSC_1">NSC</gloss> Unfiled Material, 1973 [9 of 12].
                             Secret; Sensitive. Sent for action.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-02-23">February 23,
                                 1973</date>.</dateline>
                     </opener>
@@ -1748,7 +1755,7 @@
                                 >Kissinger</persName> wrote on the first page of the memorandum,
                             “Good work Bill,” and initialed.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-02-28">February 28,
                                 1973</date>.</dateline>
                     </opener>
@@ -1828,7 +1835,7 @@
                                 corresp="#p_ARB_1">Anderson</persName> Correspondence.
                             Confidential.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1973-03-12">March 12,
                                 1973</date>.</dateline>
                         <salute>Dear Mr. President:</salute>
@@ -2061,7 +2068,7 @@
                             1974. Secret; Immediate; <gloss target="#t_Nodis_1"
                             >Nodis</gloss>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1973-03-19T03:07:00+00:00"
                                 >March 19, 1973, 0307Z</date>.</dateline>
                     </opener>
@@ -2199,7 +2206,7 @@
                             Latin America, Panama, Vol. 3, January 1972–August 1974. Confidential.
                             Sent for information.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-03-22">March 22,
                                 1973</date>.</dateline>
                     </opener>
@@ -2295,7 +2302,7 @@
                                 target="#t_RG_1">RG</gloss> 59, Central Files 1970–73, POL PAN–US.
                             Secret; <gloss target="#t_Exdis_1">Exdis</gloss>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1973-04-06">April 6,
                                 1973</date>.</dateline>
                         <salute>Dear Mr. Secretary:</salute>
@@ -2498,7 +2505,7 @@
                                 corresp="#p_KHLT_1">Koren</persName> at
                         11:58—4/11/73.”</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Balboa Heights, Panama Canal Zone</placeName>, <date
                                 when="1973-04-11">April 11, 1973</date>.</dateline>
                     </opener>
@@ -2621,7 +2628,7 @@
                             inauguration of President <persName corresp="#p_CDHJ_1"
                                 >Campora</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Buenos Aires</placeName>, <date when="1973-05-26T19:26:00+00:00"
                                 >May 26, 1973, 1926Z</date>.</dateline>
                     </opener>
@@ -2747,7 +2754,7 @@
                             Treaties, Lot 75D457, Congressional Correspondence (Letters).
                             Confidential.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-06-06">June 6,
                                 1973</date>.</dateline>
                     </opener>
@@ -2835,7 +2842,7 @@
                                 corresp="#p_ARB_1">Anderson</persName> Correspondence. No
                             classification marking.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1973-06-20">June 20,
                                 1973</date>.</dateline>
                         <salute>Dear Mr. President:</salute>
@@ -2918,7 +2925,7 @@
                                 corresp="#p_BE_1">Ellsworth Bunker</persName> in charge.
                             WPM.”</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-06-28">June 28,
                                 1973</date>.</dateline>
                     </opener>
@@ -3411,10 +3418,10 @@
                             by George C. Denney in <gloss target="#t_INR_1"
                         >INR</gloss>.</note></head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">RAAN–20</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-07-05">July 5,
                                 1973</date>.</dateline>
                     </opener>
@@ -3519,7 +3526,7 @@
                             File, [no film number]. Confidential. Repeated to Panama
                         City.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1973-08-01T00:31:00+00:00">August
                                 1, 1973, 0031Z</date>.</dateline>
                     </opener>
@@ -3580,7 +3587,7 @@
                             the letter. (National Archives, <gloss target="#t_RG_1">RG</gloss> 59,
                             Central Foreign Policy File, P840114–1805)</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-08-06">August 6,
                                 1973</date>.</dateline>
                         <salute>Dear Mr. Minister:</salute>
@@ -3652,7 +3659,7 @@
                                 >Nodis</gloss>; <gloss target="#t_Stadis_1"
                         >Stadis</gloss>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1973-08-17T16:04:00+00:00"
                                 >August 17, 1973, 1604Z</date>.</dateline>
                     </opener>
@@ -3737,7 +3744,7 @@
                                 corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
                             Box 3, General. Secret.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-08-23">August 23,
                                 1973</date>.</dateline>
                     </opener>
@@ -3866,7 +3873,7 @@
                                 target="#t_ARAPAN_1">ARA/PAN</gloss> Deputy Director <persName
                                 corresp="#p_MPF_1">Patrick F. Morris</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-10-02">October 2,
                                 1973</date>.</dateline>
                     </opener>
@@ -4059,7 +4066,7 @@
                                 corresp="#p_BE_1">Bunker</persName>’s office at the Department of
                             State.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-10-04T10:20:00"
                                 >October 4, 1973, 10:20 a.m.</date></dateline>
                     </opener>
@@ -4136,7 +4143,7 @@
                                 >Kissinger</persName>, who became Secretary of State on September
                             22, was attending the U.N. General Assembly session.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1973-10-05T16:30:00"
                                 >October 5, 1973, 4:30 p.m.</date></dateline>
                     </opener>
@@ -4317,7 +4324,7 @@
                             Drafted by Bell. The meeting took place is <persName corresp="#p_FDB_1"
                                 >Fascell</persName>’s office.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-10-11">October 11,
                                 1973</date>.</dateline>
                     </opener>
@@ -4391,7 +4398,7 @@
                             Drafted by Bell. The meeting took place in <persName corresp="#p_HHH_1"
                                 >Humphrey</persName>’s office.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-11-06">November 6,
                                 1973</date>.</dateline>
                     </opener>
@@ -4440,7 +4447,7 @@
                             P840114–1819. Confidential; <gloss target="#t_Nodis_1"
                             >Nodis</gloss>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1973-11-13T21:35:00+00:00"
                                 >November 13, 1973, 2135Z</date>.</dateline>
                     </opener>
@@ -4606,7 +4613,7 @@
                             Confidential; <gloss target="#t_Stadis_1">Stadis</gloss>; <gloss
                                 target="#t_Nodis_1">Nodis</gloss>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-11-20">November 20,
                                 1973</date>.</dateline>
                     </opener>
@@ -4717,7 +4724,7 @@
                                 >RG</gloss> 59, Central Files 1970–73, POL PAN–US. Secret. Drafted
                             by <persName corresp="#p_HRB_1">Howard</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-12-04">December 4,
                                 1973</date>.</dateline>
                     </opener>
@@ -4833,7 +4840,7 @@
                                 >Kissinger</persName> was en route to Geneva to attend the Middle
                             East Peace Conference.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1973-12-19">December 19,
                                 1973</date>.</dateline>
                     </opener>
@@ -4984,7 +4991,7 @@
                             Committee U/SM 136 [1 of 3]. Secret. Sent for action. A stamped notation
                             on the first page reads: “The President has seen.”</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-12-24">December 24,
                                 1973</date>.</dateline>
                     </opener>
@@ -5064,7 +5071,7 @@
                                 <gloss target="#t_USUN_1">USUN</gloss>, and the Mission in
                             Geneva.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1974-01-08T17:00:00+00:00"
                                 >January 8, 1974, 1700Z</date>.</dateline>
                     </opener>
@@ -5297,7 +5304,7 @@
                             principles.” Another note in an unknown hand indicates the memorandum
                             was redone on January 26.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-01-23">January 23,
                                 1974</date>.</dateline>
                     </opener>
@@ -5381,7 +5388,7 @@
                                 >Morris</persName>; Bell and <persName corresp="#p_BWG_1"
                                 >Bowdler</persName> concurred.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-02-05">February 5,
                                 1974</date></dateline>
                     </opener>
@@ -5544,8 +5551,8 @@
                                 target="#t_OSD_1">OSD</gloss> Files, FRC 330–78–0011, Panama 821
                             1974. Secret.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
-                            <seg rendition="#inline-float-left">
+                        <dateline rendition="#right">
+                            <seg rendition="#left">
                                 <idno type="document-identifier">JCSM–46–74</idno>
                             </seg>
                             <placeName>Washington</placeName>, <date when="1974-02-13">February 13,
@@ -5608,7 +5615,7 @@
                                 <persName corresp="#p_MJO_1">Marsh</persName>. The meeting took
                             place in the Old Executive Office Building</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-03-14T15:15:00"
                                 >March 14, 1974, 3:15 p.m.</date></dateline>
                     </opener>
@@ -5676,7 +5683,7 @@
                                 >Marsh</persName>. The meeting took place in the Old Executive
                             Office Building.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-03-21T14:00:00"
                                 >March 21, 1974, 2 p.m.</date></dateline>
                     </opener>
@@ -5747,7 +5754,7 @@
                                 >RG</gloss> 59, Treaties, Lot 77D14, Box 1, Public Relations—Public
                             Opinions and Inquiries—General Letters—1974. Confidential.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-03-22">March 22,
                                 1974</date>.</dateline>
                         <salute>Dear Tony:</salute>
@@ -5822,7 +5829,7 @@
                             in the Vice President’s office in the Executive Office
                         Building</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1974-04-15T10:45:00"
                                 to="1974-04-15T11:15:00">April 15, 1974, 10:45–11:15
                             a.m.</date></dateline>
@@ -5986,7 +5993,7 @@
                             1974. Secret; Eyes Only; Completely Outside the System. Sent for
                             action.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-04-22">April 22,
                                 1974</date>.</dateline>
                     </opener>
@@ -6074,7 +6081,7 @@
                             791, Country Files, Latin America, Panama, Vol. 3, January 1972–August
                             1974. Confidential; Eyes Only.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-04-22">April 22,
                                 1974</date>.</dateline>
                         <salute>Dear Strom:</salute>
@@ -6131,7 +6138,7 @@
                                 corresp="#p_BSM_1">Bell</persName>. The meeting was held in the
                             Secretary’s office. Brackets are in the original.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1974-04-23T18:00:00"
                                 to="1974-04-23T18:30:00">April 23, 1974, 6–6:30
                             p.m.</date></dateline>
@@ -6449,7 +6456,7 @@
                             The meeting took place in <persName corresp="#p_CWP_1"
                                 >Clements</persName>’ conference room.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1974-05-10T10:45:00"
                                 to="1974-05-10T11:30:00">May 10, 1974, 10:45–11:30
                             a.m.</date></dateline>
@@ -6685,7 +6692,7 @@
                                 <gloss target="#t_USCINCSO_1">USCINCSO</gloss>, and the Secretary of
                             the Panama Canal Company.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Balboa Heights, Panama Canal Zone</placeName>, <date
                                 when="1974-05-22">May 22, 1974</date>.</dateline>
                     </opener>
@@ -6771,7 +6778,7 @@
                             at the Department of State. A list of participants was not attached.
                         </note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-05-28T17:00:00">May
                                 28, 1974, 5 p.m.</date></dateline>
                     </opener>
@@ -7167,7 +7174,7 @@
                             an unknown hand wrote: “EPS— [illegible]—. Given to me by <persName
                                 corresp="#p_KMG_1">Mike Kozak</persName>. P.”</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-06-06">June 6,
                                 1974</date>.</dateline>
                     </opener>
@@ -7415,7 +7422,7 @@
                             21 covering memorandum from <persName corresp="#p_BE_1"
                                 >Bunker</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-06-20T14:10:00">June
                                 20, 1974, 2:10 p.m.</date></dateline>
                     </opener>
@@ -7478,10 +7485,10 @@
                                 target="#t_OSD_1">OSD</gloss> Files, FRC 330–78–0011, Panama 821
                             1974. Secret.</note></head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">JCSM–272–74</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-06-28">June 28,
                                 1974</date>.</dateline>
                     </opener>
@@ -7567,7 +7574,7 @@
                                 <persName corresp="#p_PDS_1">Parker</persName> and <gloss
                                 target="#t_USCINCSO_1">USCINCSO</gloss>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1974-06-30T14:20:00+00:00"
                                 >June 30, 1974, 1420Z</date>.</dateline>
                     </opener>
@@ -7683,7 +7690,7 @@
                             July–Oct 1974. Confidential. Published from an unsigned
                         copy.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Balboa Heights, Panama Canal Zone</placeName>, <date
                                 when="1974-07-03">July 3, 1974</date>.</dateline>
                     </opener>
@@ -7726,7 +7733,7 @@
                             meeting was held in <persName corresp="#p_SJR_1"
                             >Schlesinger</persName>’s dining room.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1974-07-09T14:35:00"
                                 to="1974-07-09T15:20:00">July 9, 1974, 2:35–3:20
                             p.m.</date></dateline>
@@ -8111,7 +8118,7 @@
                             meeting took place in <persName corresp="#p_ER_1">Ellsworth</persName>’s
                             office.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1974-07-25T10:30:00"
                                 to="1974-07-25T10:45:00">July 25, 1974, 10:30–10:45
                             a.m.</date></dateline>
@@ -8291,7 +8298,7 @@
                                 >S/S</gloss>; approved by <persName corresp="#p_KHA_1"
                                 >Kissinger</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-08-09T17:27:00+00:00"
                                 >August 9, 1974, 1727Z</date>.</dateline>
                     </opener>
@@ -8340,7 +8347,7 @@
                             P860119–0832. Secret; <gloss target="#t_Nodis_1">Nodis</gloss>. Drafted
                             by <persName corresp="#p_BWG_1">Bowdler</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-08-23">August 23,
                                 1974</date>.</dateline>
                     </opener>
@@ -8428,7 +8435,7 @@
                             answer indicate appreciation of his concern and interest,
                         etc.”’</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-09-11">September 11,
                                 1974</date>.</dateline>
                         <salute>Dear Mr. President:</salute>
@@ -8496,7 +8503,7 @@
                             Box 3, General. Official–Informal; Confidential. A copy was sent to
                             Bell.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1974-09-26">September
                                 26, 1974</date>.</dateline>
                     </opener>
@@ -8637,7 +8644,7 @@
                                 corresp="#p_JWJ_1">Jorden</persName> received it on October
                             15.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-10-11">October 11,
                                 1974</date>.</dateline>
                     </opener>
@@ -8771,7 +8778,7 @@
                             Staff Files, 1974–77, Box 6, Panama—Political, Military (1).
                             Confidential.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-10-29">October 29,
                                 1974</date>.</dateline>
                     </opener>
@@ -8848,7 +8855,7 @@
                                 target="#t_USCINCSO_1">USCINCSO</gloss>, Governor <persName
                                 corresp="#p_PDS_1">Parker</persName>, and Quito.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1974-11-07T17:58:00+00:00"
                                 >November 7, 1974, 1758Z</date>.</dateline>
                     </opener>
@@ -9018,7 +9025,7 @@
                                 corresp="#p_BSM_1">Bell</persName>, and <persName corresp="#p_GRN_1"
                                 >Gonzalez-Revilla</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-11-21">November 21,
                                 1974</date>.</dateline>
                     </opener>
@@ -9147,7 +9154,7 @@
                                 >Stadis</gloss>; <gloss target="#t_Nodis_1"
                         >Nodis</gloss>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-12-03">December 3,
                                 1974</date>.</dateline>
                     </opener>
@@ -9285,7 +9292,7 @@
                             groundwork for a future dialogue with them on treaty
                         matters.”</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-12-06">December 6,
                                 1974</date>.</dateline>
                     </opener>
@@ -9447,7 +9454,7 @@
                             Treaty Planning Group, Box 5, Messages Jul to Dec 19 74. Confidential;
                             Priority; Eyes Only.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Balboa Heights, Panama Canal Zone</placeName>, <date
                                 when="1974-12-13">December 13, 1974</date>.</dateline>
                     </opener>
@@ -9502,7 +9509,7 @@
                                 corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
                             Box 4, Employees. Confidential.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-12-17">December 17,
                                 1974</date>.</dateline>
                     </opener>
@@ -9617,7 +9624,7 @@
                                 >Bunker</persName>’s December 3 memorandum is <ref target="#d59"
                                 >Document 59</ref>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     </opener>
                     <p rend="center">LATIN AMERICA</p>
@@ -9792,7 +9799,7 @@
                             10/11/74–7/26/75. Confidential. Sent through the Lieutenant Governor.
                         </note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Balboa Heights, Panama Canal Zone</placeName>, <date
                                 when="1975-01-31">January 31, 1975</date>.</dateline>
                     </opener>
@@ -9848,7 +9855,7 @@
                             Regarding the coordination with the Defense Department, see <ref
                                 target="#d66fn1">footnote 1, Document 66</ref>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     </opener>
                     <list type="subject">
@@ -10130,7 +10137,7 @@
                                 >OASD</gloss>/<gloss target="#t_ISA_1">ISA</gloss> Files, FRC
                             330–77–0043, BDM Panama Canal—FY 75)</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1975-02-12T15:30:00"
                                 to="1975-02-12T16:00:00">February 12, 1975 3:30–4
                             p.m.</date></dateline>
@@ -10352,7 +10359,7 @@
                                 corresp="#p_WRR_1">Wyrough</persName>. The meeting was held at the
                             Pentagon.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-02-21">February 21,
                                 1975</date>.</dateline>
                     </opener>
@@ -10486,7 +10493,7 @@
                             330, <gloss target="#t_OSD_1">OSD</gloss> Files, FRC 330–78–0058, Panama
                             821 (Jan–July 1975). Secret.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-02-27">February 27,
                                 1975</date>.</dateline>
                     </opener>
@@ -10560,7 +10567,7 @@
                             Panama Canal—Treaty Negotiations (2). Confidential. Sent for
                             information.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-03-21">March 21,
                                 1975</date>.</dateline>
                     </opener>
@@ -10654,7 +10661,7 @@
                                 rend="italic">The New York Times,</hi> March 26, 1975, p.
                         24)</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1975-03-24">March 24,
                                 1975</date>.</dateline>
                         <salute>Dear Mr. President:</salute>
@@ -10843,7 +10850,7 @@
                             Etc, 1974–1977 (3). Secret; <gloss target="#t_Nodis_1">Nodis</gloss>.
                             Drafted by <persName corresp="#p_BE_1">Bunker</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-04-03">April 3,
                                 1975</date>.</dateline>
                     </opener>
@@ -10907,7 +10914,7 @@
                             1973–1977, Lot 78D443, Box 6, Secretary’s Staff Meetings, April 14,
                             1975. Secret.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-04-14T08:15:00"
                                 >April 14, 1975, 8:15 a.m.</date></dateline>
                     </opener>
@@ -11028,7 +11035,7 @@
                                 >Ford</persName> may refer to <ref target="#d65">Document
                             65</ref>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1975-04-22T11:55:00"
                                 to="1975-04-22T12:21:00">April 22, 1975, 11:55 a.m.–12:21
                                 p.m.</date></dateline>
@@ -11304,10 +11311,10 @@
                             Foreign Dissem; <gloss target="#t_CD_1">Controlled Dissem</gloss>;
                                 <gloss target="#t_NDA_1">No Dissem Abroad</gloss>.</note></head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">TDFIR DB–315/05042–75</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-04-25">April 25,
                                 1975</date>.</dateline>
                     </opener>
@@ -11432,7 +11439,7 @@
                                 >RG</gloss> 59, Central Foreign Policy File, P770102–0101. Secret;
                             Sensitive.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-05-02">May 2,
                                 1975</date>.</dateline>
                     </opener>
@@ -11534,7 +11541,7 @@
                                 >Nodis</gloss>. Drafted by Bell. Brackets are in the
                             original.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-05-12">May 12,
                                 1975</date>.</dateline>
                     </opener>
@@ -11639,7 +11646,7 @@
                             concerns the Middle East. The meeting was held in the White House
                             Cabinet Room</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1975-05-15T16:30:00"
                                 to="1975-05-15T17:30:00">May 15, 1975, 4:30–5:30
                             p.m.</date></dateline>
@@ -12128,7 +12135,7 @@
                                 target="#t_Stadis_1">Stadis</gloss>; <gloss target="#t_Nodis_1"
                                 >Nodis</gloss>.</note></head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1975-05-20">May 20,
                             1975</date>.</dateline>
 
@@ -12242,7 +12249,7 @@
                             821 (Jan–Jul) 1975. Secret. A copy was sent to <persName
                                 corresp="#p_IRS_1">Ingersoll</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-05-23">May 23,
                                 1975</date>.</dateline>
                     </opener>
@@ -12337,7 +12344,7 @@
                             1973–1977, Lot 78D443, Box 7, Secretary’s Staff Meeting, June 9, 1975.
                             Secret. The minutes are mistakenly dated May 9.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-06-09">June 9,
                                 1975</date>.</dateline>
                     </opener>
@@ -12436,7 +12443,7 @@
                                 corresp="#p_PHR_1">Harold R. Parfitt</persName> assumed his duties
                             as Canal Zone Governor on April 1.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Balboa Heights, Panama Canal Zone</placeName>, <date
                                 when="1975-06-13">June 13, 1975</date>.</dateline>
                         <salute>Dear Mr. Secretary:</salute>
@@ -12515,7 +12522,7 @@
                                 <persName corresp="#p_CWP_1">Clements</persName> approved the
                             distribution on June 20.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-06-20">June 20,
                                 1975</date>.</dateline>
                     </opener>
@@ -12583,7 +12590,7 @@
                             33.3–2/Jurisdiction, 1975. No classification marking. Drafted by
                                 <persName corresp="#p_MPF_1">Morris</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-06-20">June 20,
                                 1975</date>.</dateline>
                     </opener>
@@ -12639,7 +12646,7 @@
                                 B.</persName> concurred. Sent through <persName corresp="#p_IRS_1"
                                 >Ingersoll</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-06-25">June 25,
                                 1975</date>.</dateline>
                     </opener>
@@ -12710,7 +12717,7 @@
                                 >Richardson</persName>. McClellan was Chairman of the Senate
                             Appropriations Committee.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-06-26">June 26,
                                 1975</date>.</dateline>
                     </opener>
@@ -12761,7 +12768,7 @@
                             Secret. The minutes list both an 8 a.m. and a 9:10 a.m. start time for
                             the meeting.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-06-27">June 27,
                                 1975</date>.</dateline>
                     </opener>
@@ -12904,7 +12911,7 @@
                             Secret. The minutes list both an 8 a.m. and a 9:10 a.m. start time for
                             the meeting.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-07-07">July 7,
                                 1975</date>.</dateline>
                     </opener>
@@ -12992,7 +12999,7 @@
                             No classification marking. Both Senators were on the Senate Foreign
                             Relations Committee.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-07-08">July 8,
                                 1975</date>.</dateline>
                         <salute>Dear Mr. President:</salute>
@@ -13058,7 +13065,7 @@
                             information to USCINCSO and <gloss target="#t_PANCANAL_1"
                                 >PANCANAL</gloss>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1975-07-17T22:56:00+00:00"
                                 >July 17, 1975, 2256Z</date>.</dateline>
                     </opener>
@@ -13158,7 +13165,7 @@
                                 target="#t_NSC_1">NSC</gloss> Meeting, July 23, 1975. Top Secret;
                             Sensitive. The meeting took place in the Cabinet Room.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1975-07-23T16:50:00"
                                 to="1975-07-23T17:45:00">July 23, 1975, 4:50–5:45
                             p.m.</date></dateline>
@@ -13491,7 +13498,7 @@
                                 >Walters</persName>. A copy was sent to <persName corresp="#p_ML_1"
                                 >Marengo</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-07-24">July 24,
                                 1975</date>.</dateline>
                     </opener>
@@ -13605,7 +13612,7 @@
                             P760137–1359. Confidential. Sent through <gloss target="#t_SS_1"
                                 >S/S</gloss>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-08-05">August 5,
                                 1975</date>.</dateline>
                     </opener>
@@ -13647,7 +13654,7 @@
                             1973–1977, Lot 78D443, ES177, Secretary’s Staff Meeting, August 7, 1975.
                             Secret.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-08-07T08:00:00"
                                 >August 7, 1975, 8 a.m.</date></dateline>
                     </opener>
@@ -13765,7 +13772,7 @@
                                 target="#t_OSD_1">OSD</gloss> Files, FRC 330–78–0058, Panama 821
                             (Aug–Dec) 1975. Secret.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-08-07">August 7,
                                 1975</date>.</dateline>
                     </opener>
@@ -13886,7 +13893,7 @@
                                 corresp="#p_BGS_1">Brown</persName>, Colby, and <persName
                                 corresp="#p_BE_1">Bunker</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-08-18">August 18,
                                 1975</date>.</dateline>
                     </opener>
@@ -13988,7 +13995,7 @@
                             the upper right margin reads: “[illegible] did come back—[illegible]
                             9/9.”</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-08-29">August 29,
                                 1975</date>.</dateline>
                     </opener>
@@ -14053,7 +14060,7 @@
                             Panama (3). Secret; Outside the System. Sent for
                         information.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-09-05">September 5,
                                 1975</date>.</dateline>
                     </opener>
@@ -14138,7 +14145,7 @@
                                 corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
                             Box 3, Congress. No classification marking. </note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-09-18">September 18,
                                 1975</date>.</dateline>
                     </opener>
@@ -14176,7 +14183,7 @@
                                 corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
                             Box 8, Chron July–Dec 1975. Secret.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-09-23">September 23,
                                 1975</date>.</dateline>
                     </opener>
@@ -14287,7 +14294,7 @@
                             the Oval Office. All brackets except those that indicate omitted text
                             are in the original.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-09-25T11:17:00"
                                 >September 25, 1975, 11:17 a.m.–12:17 p.m.</date></dateline>
                     </opener>
@@ -14408,7 +14415,7 @@
                                 >Maynes</persName>. Drafted by [<hi rend="italic">name not
                                 declassified</hi>], the Liaison Officer.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1975-10-05">October 5,
                                 1975</date>.</dateline>
                     </opener>
@@ -14488,7 +14495,7 @@
                                 <persName corresp="#p_HRB_1">Howard</persName>; cleared by <persName
                                 corresp="#p_BE_1">Bunker</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-10-20">October 20,
                                 1975</date>.</dateline>
                     </opener>
@@ -14649,7 +14656,7 @@
                             sent Priority to CINCSO and the Panama Canal Zone
                         Governor.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-11-10T19:45:00+00:00"
                                 >November 10, 1975, 1945Z</date>.</dateline>
                     </opener>
@@ -14722,7 +14729,7 @@
                                 corresp="#p_DWG_1">Dolvin</persName> initialed the covering
                             memorandum.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1975-11-10">November 10,
                                 1975</date>.</dateline>
                     </opener>
@@ -14902,7 +14909,7 @@
                             81F1, Box 125, POL 33.3–2/Canal Treaty Negotiations/General, July–Dec
                             1975. Confidential. Drafted by Blacken.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1975-11-18">November 18,
                                 1975</date>.</dateline>
                     </opener>
@@ -14994,7 +15001,7 @@
                             Correspondence, Lot 78D300, Box 3, Congress. Limited Official
                             Use.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-12-09">December 9,
                                 1975</date>.</dateline>
                     </opener>
@@ -15081,7 +15088,7 @@
                                 target="#t_Stadis_1">Stadis</gloss>. Drafted and approved by
                                 <persName corresp="#p_JWJ_1">Jorden</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1975-12-12T19:05:00+00:00"
                                 >December 12, 1975, 1905Z</date></dateline>
                     </opener>
@@ -15221,7 +15228,7 @@
                             Negotiations—Panama and Panama Canal Zone, Nov 1975–Feb 1976. Secret;
                             Sensitive. Brackets are in the original.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-12-29">December 29,
                                 1975</date>.</dateline>
                     </opener>
@@ -15782,7 +15789,7 @@
                                 corresp="#p_DWG_1">Dolvin</persName>. Copies were sent to <persName
                                 corresp="#p_BE_1">Bunker</persName> and Bell.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-01-15">January 15,
                                 1976</date>.</dateline>
                     </opener>
@@ -15892,7 +15899,7 @@
                                 >Kissinger</persName> was in Copenhagen to meet with Danish Prime
                             Minister <persName corresp="#p_JA_1">Jorgensen</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-01-20T21:25:00+00:00"
                                 >January 20, 1976, 2125Z</date>.</dateline>
                     </opener>
@@ -15965,7 +15972,7 @@
                             >Bunker</persName> to the Director of Scientific Intelligence, Central
                         Intelligence Agency (Weber)</head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-02-04">February 4,
                                 1976</date>.</dateline>
                     </opener>
@@ -15988,7 +15995,7 @@
                                 corresp="#p_CR_1">Cheney</persName> for more information about the
                             Panama Canal negotiations. (Ibid.)</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-02-16">February 16,
                                 1976</date>.</dateline>
                     </opener>
@@ -16076,7 +16083,7 @@
                                 <persName corresp="#p_FSGJ_1">Facio</persName>, and other Central
                             American Foreign Ministers.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>San Jose, Costa Rica</placeName>, <date
                                 from="1976-02-24T11:40:00" to="1976-02-24T12:10:00">February 24,
                                 1976, 11:40 a.m.–12:10 p.m.</date></dateline>
@@ -16279,7 +16286,7 @@
                                 corresp="#p_DWG_1">Dolvin</persName>, and <persName
                                 corresp="#p_KMG_1">Kozak</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-02-27">February 27,
                                 1976</date>.</dateline>
                     </opener>
@@ -16417,7 +16424,7 @@
                             Box 3, General. Secret; <gloss target="#t_Exdis_1"
                         >Exdis</gloss>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-03-19">March 19,
                                 1976</date>.</dateline>
                     </opener>
@@ -16556,7 +16563,7 @@
                                 target="#t_Nodis_1">Nodis</gloss>. Drafted by <persName
                                 corresp="#p_MMM_1">Mahoney</persName> on April 2.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-04-01T08:00:00"
                                 >April 1, 1976, 8 a.m.</date></dateline>
                     </opener>
@@ -16686,7 +16693,7 @@
                             cleared by Gonzalez and <persName corresp="#p_JWJ_1"
                             >Jorden</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1976-04-09T21:40:00+00:00">April 9,
                                 1976, 2140Z</date>.</dateline>
                     </opener>
@@ -16761,7 +16768,7 @@
                                 <persName corresp="#p_VFA_1">Velasquez</persName>’
                         apartment.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1976-04-11">April 11,
                                 1976</date>.</dateline>
                     </opener>
@@ -16951,7 +16958,7 @@
                             Confidential. The meeting was held in the White House Oval
                             Office.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1976-04-14T04:30:00"
                                 to="1976-04-14T17:10:00">April 14, 1976, 4:30–5:10
                             p.m.</date></dateline>
@@ -17013,7 +17020,7 @@
                             1973–1977, Lot 78D443, Box 9, Secretary’s Staff Meeting, April 15, 1976.
                             Secret.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-04-15">April 15,
                                 1976</date>.</dateline>
                     </opener>
@@ -17166,7 +17173,7 @@
                                 corresp="#p_CJE_1">Carter</persName>’s Presidential
                         campaign.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <date when="1976-05-11">May 11, 1976</date>.</dateline>
                     </opener>
                     <p>RE: Panama Canal</p>
@@ -17203,7 +17210,7 @@
                             Panama Canal, 4/1/76–5/21/76. Confidential. Sent for
                         action.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-05-13">May 13,
                                 1976</date>.</dateline>
                     </opener>
@@ -17349,7 +17356,7 @@
                                 >OSD</gloss> Files, FRC 330–79–0049, Panama 821 (May–Dec) 1976.
                             Secret.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-05-14">May 14,
                                 1976</date>.</dateline>
                     </opener>
@@ -17535,10 +17542,10 @@
                                 <persName corresp="#p_DWG_1">Dolvin</persName>, Bell, and <persName
                                 corresp="#p_LS_2">Low</persName>.</note></head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">FIRDB–312/01711–76</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     </opener>
                     <list type="subject">
@@ -17618,7 +17625,7 @@
                                 >SECSTATE</gloss> NODIS. Secret; Immediate; <gloss
                                 target="#t_Nodis_1">Nodis</gloss>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Bogota</placeName>, <date when="1976-06-11T14:04:00+00:00">June 11,
                                 1976, 1404Z</date>.</dateline>
                     </opener>
@@ -17719,7 +17726,7 @@
                                 >Kissinger</persName> was in Santiago to attend the <gloss
                                 target="#t_OAS_1">OAS</gloss> General Assembly.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Santiago</placeName>, <date from="1976-06-11T09:30:00"
                                 to="1976-06-11T10:30:00">June 11, 1976, 9:30–10:30
                             a.m.</date></dateline>
@@ -17914,7 +17921,7 @@
                                 <persName corresp="#p_FMB_1">Feldman, Mark
                         B.</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-06-25">June 25,
                                 1976</date>.</dateline>
                     </opener>
@@ -18017,7 +18024,7 @@
                             Negotiation Files, Lot 81F1, Box 126, POL 33.3–2/Treaty Negotiations,
                             July–Dec 1976. Secret.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-07-14">July 14,
                                 1976</date>.</dateline>
                     </opener>
@@ -18111,7 +18118,7 @@
                             took place in the Panamanian Treaty Advisory Group
                         offices.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1976-07-15T14:30:00"
                                 >July 15, 1976, 2:30 p.m.</date></dateline>
                     </opener>
@@ -18296,7 +18303,7 @@
                                 <persName corresp="#p_BE_1">Bunker</persName>’s
                         office.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-08-04T15:30:00"
                                 >August 4, 1976, 3:30 p.m.</date></dateline>
                     </opener>
@@ -18414,7 +18421,7 @@
                             1976. Secret. All brackets except those that indicate omitted text are
                             in the original.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-08-25T08:00:00"
                                 >August 25, 1976, 8 a.m.</date></dateline>
                     </opener>
@@ -18469,7 +18476,7 @@
                             Immediate. Repeated to <gloss target="#t_PANCANAL_1">PANCANAL</gloss>
                             and USCINCSO.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1976-09-20T22:45:00+00:00"
                                 >September 20, 1976, 2245Z</date>.</dateline>
                     </opener>
@@ -18649,7 +18656,7 @@
                     <pb n="352" facs="0377" xml:id="pg_352"/>
                     <head>133. Memorandum of Conversation</head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date from="1976-10-06T15:30:00"
                                 to="1976-10-06T16:30:00">October 6, 1976, 3:30–4:30
                             p.m.</date></dateline>
@@ -18672,7 +18679,7 @@
                                 corresp="#p_KHA_1">Kissinger</persName> was in New York for the
                             United Nations General Assembly.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1976-10-07T09:45:00"
                                 >October 7, 1976, 9:45 a.m.</date></dateline>
                     </opener>
@@ -18956,7 +18963,7 @@
                             1973–1977, Lot 78D443, Box 11, Secretary’s Staff Meeting, October 12,
                             1976. Secret.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-10-12T08:15:00"
                                 >October 12, 1976, 8:15 a.m.</date></dateline>
                     </opener>
@@ -19056,7 +19063,7 @@
                                 >Carter</persName>’s chief negotiator for the Canal
                         treaty.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1976-10-15">October 15,
                                 1976</date></dateline>
                     </opener>
@@ -19270,7 +19277,7 @@
                             October 1976. See also <ref target="#d138">Document
                         138</ref>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Contadora Island, Panama</placeName>, <date when="1976-10-24"
                                 >October 22–24, 1976</date>.</dateline>
                     </opener>
@@ -19400,7 +19407,7 @@
                                 <persName corresp="#p_LLE_1">Lippert</persName>’s memorandum name
                             reads: “has been briefed.” (Ibid.)</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-10-27">October 27,
                                 1976</date>.</dateline>
                     </opener>
@@ -19538,7 +19545,7 @@
                             Drafted by <persName corresp="#p_TTE_1">Taylor</persName> on November 5.
                             The meeting took place at the El Panama Hotel.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1976-11-02">November 2,
                                 1976</date>.</dateline>
                     </opener>
@@ -19652,7 +19659,7 @@
                             concurred on November 6. A copy was sent to the Deputy <gloss
                                 target="#t_DCI_1">DCI</gloss>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-11-04">November 4,
                                 1976</date>.</dateline>
                     </opener>
@@ -19743,7 +19750,7 @@
                                 corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
                             Box 3, Congress. Confidential.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-11-04">November 4,
                                 1976</date>.</dateline>
                     </opener>
@@ -19796,7 +19803,7 @@
                             approved by <persName corresp="#p_KHA_1"
                         >Kissinger</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-11-09T00:56:00+00:00"
                                 >November 9, 1976, 0056Z</date>.</dateline>
                     </opener>
@@ -19891,7 +19898,7 @@
                                 >Dolvin</persName>, <persName corresp="#p_JWJ_1">Jorden</persName>,
                             and L. The meeting was held at the 1925 “F” Street Club.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-12-07">December 7,
                                 1976</date>.</dateline>
                     </opener>
@@ -19990,7 +19997,7 @@
                                 >ARA</gloss>, S, <gloss target="#t_SS_1">S/S</gloss>, and L;
                             approved by <persName corresp="#p_BE_1">Bunker</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-12-10T16:29:00+00:00"
                                 >December 10, 1976, 1629Z</date>.</dateline>
                     </opener>
@@ -20078,7 +20085,7 @@
                             Negotiations, July–Dec 1976. Confidential. Drafted by <persName
                                 corresp="#p_WRR_1">Wyrough</persName>.</note></head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-12-21">December 21,
                                 1976</date>.</dateline>
                     </opener>
@@ -20136,10 +20143,10 @@
                                 >Bunker</persName>, <persName corresp="#p_DWG_1">Dolvin</persName>,
                             Bell, and <persName corresp="#p_LD_1">Lazar</persName>.</note></head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">FIRDB–312/03856–76</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-12-24">December 24,
                                 1976</date>.</dateline>
                     </opener>

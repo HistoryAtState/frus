@@ -23,6 +23,13 @@
                 <p>Released in 2016 as printed book.</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <styleDefDecl scheme="css" schemeVersion="2.1"/>
+            <tagsDecl>
+                <rendition xml:id="left">display: inline; float: left;</rendition>
+                <rendition xml:id="right">display: inline; float: right;</rendition>
+            </tagsDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <front>
@@ -5031,7 +5038,7 @@
                             Independent,” p. 26)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-11-03">November 3,
                                 1976</date>
                   </dateline>
@@ -5907,7 +5914,7 @@
                                 <gloss target="#t_IOP_1">IOP</gloss> and <gloss target="#t_IEU_1">IEU</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-01-06">January 6,
                                 1977</date>
                   </dateline>
@@ -6114,7 +6121,7 @@
                             memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-01-24">January 24,
                                 1977</date>
                   </dateline>
@@ -6190,10 +6197,10 @@
                             from 1955 to 1976.”</note>
                </head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">S–1–77</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-01-28">January 28,
                                 1977</date>
                   </dateline>
@@ -6317,7 +6324,7 @@
                             113, 7700600–7700609. Limited Official Use.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-02-03">February 3,
                                 1977</date>
                   </dateline>
@@ -6391,7 +6398,7 @@
                             memorandum in this file indicates that the <persName corresp="#p_VCR_1">Vance</persName> memorandum and the <persName corresp="#p_BZ_1">Brzezinski</persName> covering memorandum were sent to <persName corresp="#p_CJE_1">Carter</persName> on February 22.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-02-10">February 10,
                                 1977</date>
                   </dateline>
@@ -6565,7 +6572,7 @@
                             Official Use; Priority. Sent for information to Leningrad.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1977-02-14T17:10:00+00:00">February
                                 14, 1977, 1710Z</date>
                   </dateline>
@@ -6664,7 +6671,7 @@
                             corner of the memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-02-17">February 17,
                                 1977</date>
                   </dateline>
@@ -6762,7 +6769,7 @@
                             groups.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-02-17">February 17,
                                 1977</date>
                   </dateline>
@@ -6899,7 +6906,7 @@
                             2/77. Confidential; Outside System.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-02-17">February 17,
                                 1977</date>
                   </dateline>
@@ -6985,7 +6992,7 @@
                             classification marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-02-18">February 18,
                                 1977</date>
                   </dateline>
@@ -7276,7 +7283,7 @@
                                 Humanitarian Affairs, Document 46</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-02-28">February 28,
                                 1977</date>
                   </dateline>
@@ -7343,7 +7350,7 @@
                             3/77. No classification marking. Sent for action.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-02">March 2,
                                 1977</date>
                   </dateline>
@@ -7433,7 +7440,7 @@
                             illegible.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-03">March 3,
                                 1977</date>
                   </dateline>
@@ -7590,7 +7597,7 @@
                             49454 to Kinshasa. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-05T02:16:00+00:00">March 5, 1977, 0216Z</date>
                   </dateline>
                     </opener>
@@ -7648,7 +7655,7 @@
                             they saw it.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-08">March 8,
                                 1977</date>
                   </dateline>
@@ -7716,7 +7723,7 @@
                                 Eastern Europe, Document 47</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-10">March 10,
                                 1977</date>
                   </dateline>
@@ -7943,7 +7950,7 @@
                             outbox and forwarded to <persName corresp="#p_BZ_1">Brzezinski</persName> and <persName corresp="#p_JH_1">Jordan</persName> “for appropriate handling.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-14">March 14,
                                 1977</date>
                   </dateline>
@@ -7999,7 +8006,7 @@
                             cooperation on it.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-14">March 14,
                                 1977</date>
                   </dateline>
@@ -8131,7 +8138,7 @@
                             3/77. No classification marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-18">March 18,
                                 1977</date>
                   </dateline>
@@ -8202,7 +8209,7 @@
                             System File, Box 47, Chron: 3/77.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-18">March 18,
                                 1977</date>
                   </dateline>
@@ -8255,7 +8262,7 @@
                             File, D770094–0588. Confidential; Priority. Drafted by <persName corresp="#p_SJW_1">Shirley</persName>; cleared by <persName corresp="#p_GMJ_1">Garrison</persName> and by telephone by <persName corresp="#p_RJE_1">Reinhardt</persName> and <persName corresp="#p_THN_1">Tuch</persName>; approved by <persName corresp="#p_HAA_1">Hartman</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-19T02:25:00+00:00">March 19, 1977, 0225Z</date>
                   </dateline>
                     </opener>
@@ -8322,7 +8329,7 @@
                             marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-22">March 22,
                                 1977</date>
                   </dateline>
@@ -8418,7 +8425,7 @@
                             3/77. Confidential. Sent for information.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-24">March 24,
                                 1977</date>
                   </dateline>
@@ -8499,7 +8506,7 @@
                             on March 24. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-24">March 24,
                                 1977</date>
                   </dateline>
@@ -8603,7 +8610,7 @@
                                 Humanitarian Affairs, Document 34</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -8777,7 +8784,7 @@
                             Academic Exchange, 1977. No classification marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-02-25">March 25,
                                 1977</date>
                   </dateline>
@@ -8900,7 +8907,7 @@
                             1977–1978. No classification marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-25">March 25,
                                 1977</date>
                   </dateline>
@@ -8940,7 +8947,7 @@
                             1977–1978. No classification marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-31">March 31,
                                 1977</date>
                   </dateline>
@@ -9389,7 +9396,7 @@
                             see <ref target="#d34">Document 34</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-03-31">March 31,
                                 1977</date>
                   </dateline>
@@ -9522,7 +9529,7 @@
                             April 6. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-04-04">April 4,
                                 1977</date>
                   </dateline>
@@ -9649,7 +9656,7 @@
                             sign a proposed response to <persName corresp="#p_RJE_1">Reinhardt</persName>. (National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File, P77068–0167) <persName corresp="#p_NJSJ_1">Nye</persName>’s April 20 response to <persName corresp="#p_RJE_1">Reinhardt</persName> is printed as <ref target="#d40">Document 40</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-04-08">April 8,
                                 1977</date>
                   </dateline>
@@ -9732,7 +9739,7 @@
                             Department of State on April 15.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-04-14">April 14,
                                 1977</date>
                   </dateline>
@@ -9795,7 +9802,7 @@
                             Chron File: 4–5/77.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-04-15">April 15,
                                 1977</date>
                   </dateline>
@@ -9995,7 +10002,7 @@
                             Evening Reports File: 2–6/77)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-04-16">April 16,
                                 1977</date>
                   </dateline>
@@ -10057,7 +10064,7 @@
                             memorandum indicates that it was received in <gloss target="#t_ISS_1">I/SS</gloss> at 9:27 p.m. on April 19.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-04-18">April 18,
                                 1977</date>
                   </dateline>
@@ -10131,7 +10138,7 @@
                                 [<gloss target="#t_CF_1">CF</gloss>, <gloss target="#t_OA_1">O/A</gloss> 47] [1])</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-04-18">April 18,
                                 1977</date>
                   </dateline>
@@ -10193,7 +10200,7 @@
                         (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-04-19">April 19,
                                 1977</date>
                   </dateline>
@@ -10670,7 +10677,7 @@
                         P770068–0167)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-04-20">April 20,
                                 1977</date>
                   </dateline>
@@ -10750,7 +10757,7 @@
                             President under an April 26 covering memorandum. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-04-26">April 26,
                                 1977</date>
                   </dateline>
@@ -10894,7 +10901,7 @@
                             programs.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-04-27">April 27,
                                 1977</date>
                   </dateline>
@@ -10986,7 +10993,7 @@
                                 <persName corresp="#p_TTA_1">Todman</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-04-29T16:20:00+00:00">April 29, 1977, 1620Z</date>
                   </dateline>
                     </opener>
@@ -11020,7 +11027,7 @@
                             saw it.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-05-02">May 2,
                                 1977</date>
                   </dateline>
@@ -11211,7 +11218,7 @@
                                 <gloss target="#t_USIA_1">USIA</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Mexico City</placeName>, <date when="1977-05-04T20:22:00+00:00">May
                                 4, 1977, 2022Z</date>
                   </dateline>
@@ -11303,7 +11310,7 @@
                             1977, members of the Advisory Commission were <persName corresp="#p_LH_1">Lewis</persName>, <persName corresp="#p_GGH_1">George H. Gallup</persName>, <persName corresp="#p_NAC_1">Nielsen</persName>, Reinsch, and Shaheen.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-05-01">May
                                 1977</date>
                   </dateline>
@@ -11502,7 +11509,7 @@
                         marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-05-04">May 4,
                                 1977</date>
                   </dateline>
@@ -11569,7 +11576,7 @@
                             memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-05-04">May 4,
                                 1977</date>
                   </dateline>
@@ -11659,7 +11666,7 @@
                             2–6/77)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-05-04">May 4,
                                 1977</date>
                   </dateline>
@@ -11754,7 +11761,7 @@
                             Government Printing Office, 1977.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-05-05">May 5,
                                 1977</date>
                   </dateline>
@@ -11917,7 +11924,7 @@
                             Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -12034,7 +12041,7 @@
                             5/24/77 @ 430.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-05-18">May 18,
                                 1977</date>
                   </dateline>
@@ -12093,7 +12100,7 @@
                             indicating that they saw it.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-05-19">May 19,
                                 1977</date>
                   </dateline>
@@ -12212,7 +12219,7 @@
                             discuss? <gloss target="#t_CB_1">CB</gloss>.” Next to this, <persName corresp="#p_RJE_1">Reinhardt</persName> wrote, “<gloss target="#t_CB_1">CB</gloss> I see <persName corresp="#p_LWA_1">Lake</persName> Thurs. [May 26].”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-05-23">May 23,
                                 1977</date>
                   </dateline>
@@ -12254,7 +12261,7 @@
                             saw the memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-05-23">May 23,
                                 1977</date>
                   </dateline>
@@ -12301,7 +12308,7 @@
                             Reports File: 2–6/77. Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-05-24">May 24,
                                 1977</date>
                   </dateline>
@@ -12384,7 +12391,7 @@
                                 Reinhardt</persName>, Speeches, 1977.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Knoxville, Tennessee</placeName>, <date when="1977-05-28">May
                                 28, 1977</date>
                   </dateline>
@@ -12617,7 +12624,7 @@
                             right-hand corner of the memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-01">June 1,
                                 1977</date>
                   </dateline>
@@ -12721,7 +12728,7 @@
                             response, see <ref target="#d62">Document 62</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-01">June 1,
                                 1977</date>
                   </dateline>
@@ -12778,10 +12785,10 @@
                             15 at 8:55 a.m.</note>
                </head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">A–163</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1977-06-07">June 7,
                                 1977</date>
                   </dateline>
@@ -12978,7 +12985,7 @@
                             right-hand corner of the memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-07">June 7,
                                 1977</date>
                   </dateline>
@@ -13039,7 +13046,7 @@
                             marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-09">June 9,
                                 1977</date>
                   </dateline>
@@ -13082,7 +13089,7 @@
                             marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-09">June 9,
                                 1977</date>
                   </dateline>
@@ -13488,7 +13495,7 @@
                             (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-13">June 13,
                                 1977</date>
                   </dateline>
@@ -13631,7 +13638,7 @@
                         Policy</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-15">June 15,
                                 1977</date>
                   </dateline>
@@ -13702,7 +13709,7 @@
                                 Henze</persName>—Staff D.A. comments as well (per D.A.) <gloss target="#t_ZB_1">ZB</gloss> has not yet seen.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-16">June 16,
                                 1977</date>
                   </dateline>
@@ -13757,7 +13764,7 @@
                                 Humanitarian Affairs, Document 60</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-16">June 16,
                                 1977</date>
                   </dateline>
@@ -14416,7 +14423,7 @@
                             marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-17">June 17,
                                 1977</date>
                   </dateline>
@@ -14938,7 +14945,7 @@
                             Reports File: 2–6/77. Secret. Sent for information.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-17">June 17,
                                 1977</date>
                   </dateline>
@@ -15048,7 +15055,7 @@
                             the memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-18">June 18,
                                 1977</date>
                   </dateline>
@@ -15141,7 +15148,7 @@
                             Agency File, Box 17, State: 6/77. Confidential.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-21">June 21,
                                 1977</date>
                   </dateline>
@@ -15192,7 +15199,7 @@
                             Government Printing Office, 1977)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-21">June 21,
                                 1977</date>
                   </dateline>
@@ -15389,7 +15396,7 @@
                             memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-27">June 27,
                                 1977</date>
                   </dateline>
@@ -15559,7 +15566,7 @@
                             saw it.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-28">June 28,
                                 1977</date>
                   </dateline>
@@ -15608,7 +15615,7 @@
                             been found.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-28">June 28,
                                 1977</date>
                   </dateline>
@@ -15707,7 +15714,7 @@
                             and French Smith.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-06-30">June 30,
                                 1977</date>
                   </dateline>
@@ -15892,7 +15899,7 @@
                             information by Baskey (<gloss target="#t_EUREX_1">EUR/EX</gloss>).</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-07-06T21:02:00+00:00">July
                                 6, 1977, 2102Z</date>
                   </dateline>
@@ -16004,7 +16011,7 @@
                             was received on July 19 at 4:42 p.m.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-07-19">July 19,
                                 1977</date>
                   </dateline>
@@ -16055,7 +16062,7 @@
                             at 4:42 p.m.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-07-19">July 19,
                                 1977</date>
                   </dateline>
@@ -16111,7 +16118,7 @@
                             22.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-07-22">July 22,
                                 1977</date>
                   </dateline>
@@ -16161,7 +16168,7 @@
                             File, D770263–1068. Limited Official Use. Drafted by <persName corresp="#p_QKA_1">Kenneth Quinn</persName> and <persName corresp="#p_SMS_1">Morton Smith</persName>; approved by <persName corresp="#p_HRC_1">Holbrooke</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-07-23T00:55:00+00:00">July
                                 23, 1977, 0055Z</date>
                   </dateline>
@@ -16206,7 +16213,7 @@
                             Communication Agency: 2–7/77)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-07-26">July 26,
                                 1977</date>
                   </dateline>
@@ -16268,7 +16275,7 @@
                             Kuala Lumpur, Manila, Singapore, Medan, Surabaya, and <gloss target="#t_CINCPA_1">CINCPAC</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Jakarta</placeName>, <date when="1977-08-01T08:30:00+00:00">August
                                 1, 1977, 0830Z</date>
                   </dateline>
@@ -16343,7 +16350,7 @@
                             Reorganization, 1974–1978)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-08-03">August 3,
                                 1977</date>
                   </dateline>
@@ -16495,7 +16502,7 @@
                             Reports File: 7–10/77)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-08-26">August 26,
                                 1977</date>
                   </dateline>
@@ -16740,7 +16747,7 @@
                             response, see <ref target="#d89">Document 89</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1977-08-29">August 29,
                                 1977</date>
                   </dateline>
@@ -16828,7 +16835,7 @@
                             saw it.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-08-31">August 31,
                                 1977</date>
                   </dateline>
@@ -17202,7 +17209,7 @@
                         marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-09-14">September 14,
                                 1977</date>
                   </dateline>
@@ -17245,7 +17252,7 @@
                             Reports File: 7–10/77. Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-09-28">September 28,
                                 1977</date>
                   </dateline>
@@ -17292,7 +17299,7 @@
                             classification marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-10-03">October 3,
                                 1977</date>
                   </dateline>
@@ -17386,7 +17393,7 @@
                             catalytic manner.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-10-05">October 5,
                                 1977</date>
                   </dateline>
@@ -17671,7 +17678,7 @@
                             1977, p. A2.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-10-11">October 11,
                                 1977</date>
                   </dateline>
@@ -17858,7 +17865,7 @@
                         overseas.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-10-11">October 11,
                                 1977</date>
                   </dateline>
@@ -17903,7 +17910,7 @@
                             guidelines.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-10-11">October 11,
                                 1977</date>
                   </dateline>
@@ -17975,7 +17982,7 @@
                             information together in this paper.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-10-12">October 12,
                                 1977</date>
                   </dateline>
@@ -18277,7 +18284,7 @@
                         MM.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-10-12">October 13,
                                 1977</date>
                   </dateline>
@@ -18350,7 +18357,7 @@
                             duplicate that unique institution.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-10-24">October 24,
                                 1977</date>
                   </dateline>
@@ -18440,7 +18447,7 @@
                                 <persName corresp="#p_HEL_1">Hirschhorn</persName>, and <persName corresp="#p_MDN_1">Mason</persName>; approved by <persName corresp="#p_RBM_1">Read</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-10-26T22:16:00+00:00">October 26, 1977, 2216Z</date>
                   </dateline>
                     </opener>
@@ -18520,7 +18527,7 @@
                             by 9 a.m. on November 1. (Ibid)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-10-31">October 31,
                                 1977</date>
                   </dateline>
@@ -18660,7 +18667,7 @@
                             Memoranda, 1963–1999, Entry P–64, Box 35, M–7–77.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-11-01">November 1,
                                 1977</date>
                   </dateline>
@@ -18957,7 +18964,7 @@
                             Delivered orig. of note &amp; memo to <gloss target="#t_ILA_1">ILA</gloss>.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-11-08">November 8,
                                 1977</date>
                   </dateline>
@@ -19203,7 +19210,7 @@
                             (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-11-10">November 10,
                                 1977</date>
                   </dateline>
@@ -19261,7 +19268,7 @@
                                 <persName corresp="#p_CA_1">Alan Carter</persName> and <persName corresp="#p_TJP_1">Thurber</persName>; edited by <persName corresp="#p_RJE_1">Reinhardt</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-11-18">November 18,
                                 1977</date>
                   </dateline>
@@ -19413,7 +19420,7 @@
                             (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -19502,7 +19509,7 @@
                             Program Direction’s response, in the form of a research report, see <ref target="#d115">Document 115</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-11-23">November 23,
                                 1977</date>
                   </dateline>
@@ -19538,7 +19545,7 @@
                                 Affairs, Document 89</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-11-23">November 23,
                                 1977</date>
                   </dateline>
@@ -19701,7 +19708,7 @@
                             25.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-11-25">November 25,
                                 1977</date>
                   </dateline>
@@ -19734,7 +19741,7 @@
                             in an unknown hand reads, “11/29 handcarried.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-11-29">November 29,
                                 1977</date>
                   </dateline>
@@ -19805,7 +19812,7 @@
                             on non-reimbursable detail to <gloss target="#t_SP_1">S/P</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-11-29">November 29,
                                 1977</date>
                   </dateline>
@@ -19909,7 +19916,7 @@
                             Immediate to Bonn, Brussels, London, Paris, and USNATO.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Rome</placeName>, <date when="1977-12-02T12:40:00+00:00">December
                                 2, 1977, 1240Z</date>
                   </dateline>
@@ -20030,7 +20037,7 @@
                         (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -20077,10 +20084,10 @@
                             Opinion Notes, 1973–1989, Entry P–118, Box 2, N–2–78.</note>
                </head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">N–11–77</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-12-09">December 9,
                                 1977</date>
                   </dateline>
@@ -20444,7 +20451,7 @@
                         A9)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-12-13">December 13,
                                 1977</date>
                   </dateline>
@@ -20519,10 +20526,10 @@
                         (Ibid.)</note>
                </head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">S–13–77</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-12-15">December 15,
                                 1977</date>
                   </dateline>
@@ -20852,7 +20859,7 @@
                             memorandum, indicating that they saw it.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-12-17">December 17,
                                 1977</date>
                   </dateline>
@@ -20929,7 +20936,7 @@
                             of American Culture, 12/27/77. No classification marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-12-27">December 27,
                                 1977</date>
                   </dateline>
@@ -21041,7 +21048,7 @@
                             TREAT AS ORIGINAL OF MEMO.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-12-28">December 28,
                                 1977</date>
                   </dateline>
@@ -21142,7 +21149,7 @@
                             top right-hand corner of the memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-01-18">January 18,
                                 1978</date>
                   </dateline>
@@ -21204,7 +21211,7 @@
                             Structure of International Communication Agency.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-02-06">February 6,
                                 1978</date>
                   </dateline>
@@ -21452,7 +21459,7 @@
                             pp. 606–607.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-03-13">March 13,
                                 1978</date>
                   </dateline>
@@ -21560,7 +21567,7 @@
                             transmission on the telegram.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-03-16">March 16,
                                 1978</date>
                   </dateline>
@@ -21669,7 +21676,7 @@
                         marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-03-26">March 26,
                                 1978</date>
                   </dateline>
@@ -21809,7 +21816,7 @@
                             and French Smith.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-03-31">March 31,
                                 1978</date>
                   </dateline>
@@ -22045,7 +22052,7 @@
                             ceremonies of the International Communication Agency, held in the <gloss target="#t_ICA_1">ICA</gloss> auditorium.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-04-03">April 3,
                                 1978</date>
                   </dateline>
@@ -22537,7 +22544,7 @@
                             (April 19–23).</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-04-14">April 14,
                                 1978</date>
                   </dateline>
@@ -22655,7 +22662,7 @@
                                 129</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-04-17">April 17,
                                 1978</date>
                   </dateline>
@@ -22699,7 +22706,7 @@
                             FO–35, FO 5–1 1/20/77–5/31/78. No classification marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-04-22">April 22,
                                 1978</date>
                   </dateline>
@@ -22827,7 +22834,7 @@
                             Correspondence Profile indicates the issue was <gloss target="#t_OBE_1">OBE</gloss> on July 27. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-05-19">May 19,
                                 1978</date>
                   </dateline>
@@ -22966,7 +22973,7 @@
                             Foreign Policy File, P780125–0504)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-06-05">June 5,
                                 1978</date>
                   </dateline>
@@ -23008,7 +23015,7 @@
                         it.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-06-05">June 5,
                                 1978</date>
                   </dateline>
@@ -23077,7 +23084,7 @@
                         (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-06-06">June 6,
                                 1978</date>
                   </dateline>
@@ -23230,7 +23237,7 @@
                             Disarmament: Public Diplomacy: 1–6/78)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -23312,7 +23319,7 @@
                             of the transmission is unclear.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -23412,7 +23419,7 @@
                             marking. Printed from an uninitialed copy.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-07-05">July 5,
                                 1978</date>
                   </dateline>
@@ -23546,7 +23553,7 @@
                                 Allen</persName>, Halsted, and <persName corresp="#p_SD_2">Spevacek</persName>. A copy was sent to <persName corresp="#p_BCW_1">Bray</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-07-06">July 6,
                                 1978</date>
                   </dateline>
@@ -23650,7 +23657,7 @@
                         146</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-07-07T17:45:00+00:00">July
                                 7, 1978, 1745Z</date>
                   </dateline>
@@ -23790,7 +23797,7 @@
                             marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-07-13">July 13,
                                 1978</date>
                   </dateline>
@@ -23871,7 +23878,7 @@
                             7/78. Confidential. Sent for action.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-07-17">July 17,
                                 1978</date>
                   </dateline>
@@ -23947,7 +23954,7 @@
                             the memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-07-18">July 18,
                                 1978</date>
                   </dateline>
@@ -24015,7 +24022,7 @@
                             uninitialed copy. There is no indication that either <persName corresp="#p_ADL_1">Aaron</persName> or <persName corresp="#p_BZ_1">Brzezinski</persName> saw the memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-07-24">July 24,
                                 1978</date>
                   </dateline>
@@ -24104,7 +24111,7 @@
                             161</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-07-31">July 31,
                                 1978</date>
                   </dateline>
@@ -24182,7 +24189,7 @@
                         (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-07-31">July 31,
                                 1978</date>
                   </dateline>
@@ -24229,7 +24236,7 @@
                             marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-07-31">July 31,
                                 1978</date>
                   </dateline>
@@ -24277,7 +24284,7 @@
                             Publics Regarding Arms Control/Disarmament Issues.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-08-01">August 1,
                                 1978</date>
                   </dateline>
@@ -24525,7 +24532,7 @@
                             memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-08-03">August 3,
                                 1978</date>
                   </dateline>
@@ -24638,7 +24645,7 @@
                             marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-08-14">August 14,
                                 1978</date>
                   </dateline>
@@ -24722,7 +24729,7 @@
                             (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-09-05">September 5,
                                 1978</date>
                   </dateline>
@@ -25296,7 +25303,7 @@
                                 <gloss target="#t_PAO_1">PAOs</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-09-06">September 6,
                                 1978</date>
                   </dateline>
@@ -25581,7 +25588,7 @@
                                 Choices</hi>, p. 237)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-09-26T00:48:00+00:00">September 26, 1978, 0048Z</date>
                   </dateline>
                     </opener>
@@ -25654,7 +25661,7 @@
                             information to the Department of State.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Beijing</placeName>, <date when="1978-10-04T02:41:00+00:00">October
                                 4, 1978, 0241Z</date>
                   </dateline>
@@ -25816,7 +25823,7 @@
                         (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-10-16">October 16,
                                 1978</date>
                   </dateline>
@@ -25855,7 +25862,7 @@
                             country <gloss target="#t_PAO_1">PAOs</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-10-20">October 20,
                                 1978</date>
                   </dateline>
@@ -26056,7 +26063,7 @@
                             October 31. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-10-24">October 24,
                                 1978</date>
                   </dateline>
@@ -26191,7 +26198,7 @@
                             transmission time or a telegram number.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -26278,7 +26285,7 @@
                                 <persName corresp="#p_CWM_1">Christopher</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-11-02T00:34:00+00:00">November 2, 1978, 0034Z</date>
                   </dateline>
                     </opener>
@@ -26327,7 +26334,7 @@
                             59, Central Foreign Policy File, [no film number])</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Paris</placeName>, <date when="1978-11-03">November 3,
                                 1978</date>
                   </dateline>
@@ -26842,7 +26849,7 @@
                             John’s memo to the President on the subject.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-11-30">November 30,
                                 1978</date>
                   </dateline>
@@ -26996,7 +27003,7 @@
                             initials on the memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-12-13">December 13,
                                 1978</date>
                   </dateline>
@@ -27127,7 +27134,7 @@
                             the memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-01-20">January 20,
                                 1979</date>
                   </dateline>
@@ -27361,7 +27368,7 @@
                             The memorandum is Foreign Opinion Note Number 2.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-01-25">January 25,
                                 1979</date>
                   </dateline>
@@ -27428,7 +27435,7 @@
                                 61</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-02-09">February 9,
                                 1979</date>
                   </dateline>
@@ -27495,7 +27502,7 @@
                             Nodis.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-02-13">February 13,
                                 1979</date>
                   </dateline>
@@ -27614,7 +27621,7 @@
                             classification marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-03-07">March 7,
                                 1979</date>
                   </dateline>
@@ -27740,7 +27747,7 @@
                             unknown hand read: “Retyped 3/9” and “see fixer.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-03-08">March 8,
                                 1979</date>
                   </dateline>
@@ -27814,7 +27821,7 @@
                             Confidential.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-03-14">March 14,
                                 1979</date>
                   </dateline>
@@ -27891,7 +27898,7 @@
                             766–767.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-03-14">March 14,
                                 1979</date>
                   </dateline>
@@ -27966,7 +27973,7 @@
                             marking. A stamped notation indicates that <persName corresp="#p_BZ_1">Brzezinski</persName> saw it.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-03-22">March 22,
                                 1979</date>
                   </dateline>
@@ -28016,7 +28023,7 @@
                             on May 3. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-04-30">April 30,
                                 1979</date>
                   </dateline>
@@ -28108,7 +28115,7 @@
                             (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-06-13">June 13,
                                 1979</date>
                   </dateline>
@@ -28179,7 +28186,7 @@
                             classification marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-06-28">June 28,
                                 1979</date>
                   </dateline>
@@ -28241,7 +28248,7 @@
                             the memorandum, indicating that he saw it.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-07-09">July 9,
                                 1979</date>
                   </dateline>
@@ -28280,7 +28287,7 @@
                             unsigned and uninitialed copy. Copies were sent to <persName corresp="#p_BCW_1">Bray</persName> and <persName corresp="#p_CRL_2">Cohen</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-07-13">July 13,
                                 1979</date>
                   </dateline>
@@ -28487,7 +28494,7 @@
                             memorandum, indicating that he saw it.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-07-20">July 20,
                                 1979</date>
                   </dateline>
@@ -28567,7 +28574,7 @@
                             overseas distribution.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-07-23">July 23,
                                 1979</date>
                   </dateline>
@@ -28677,7 +28684,7 @@
                             first page of the memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-07-30">July 30,
                                 1979</date>
                   </dateline>
@@ -28782,7 +28789,7 @@
                             heads of Offices and Services.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-08-06">August 6,
                                 1979</date>
                   </dateline>
@@ -29053,7 +29060,7 @@
                             the memorandum was sent to <persName corresp="#p_HPB_1">Henze</persName>. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-08-15">August 15,
                                 1979</date>
                   </dateline>
@@ -29138,7 +29145,7 @@
                             (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-08-17">August 17,
                                 1979</date>
                   </dateline>
@@ -29252,10 +29259,10 @@
                             General Accounting Office Report, 1977)</note>
                </head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">ID–79–54</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -29789,7 +29796,7 @@
                             classification marking. Drafted by <persName corresp="#p_RL_1">Reddy</persName>. Printed from an uninitialed copy.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-09-12">September 12,
                                 1979</date>
                   </dateline>
@@ -30273,7 +30280,7 @@
                             1979–1983. No classification marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-09-13">September 13,
                                 1979</date>
                   </dateline>
@@ -30413,10 +30420,10 @@
                             marking. Prepared by Jocelyn Greene (<gloss target="#t_PGMREU_1">PGM/REU</gloss>).</note>
                </head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">M–35–79</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-09-19">September 19,
                                 1979</date>
                   </dateline>
@@ -30875,7 +30882,7 @@
                             the supervisory level.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-09-26">September 26,
                                 1979</date>
                   </dateline>
@@ -31068,7 +31075,7 @@
                             we have agreement in principle with the Cubans.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-10-19">October 19,
                                 1979</date>
                   </dateline>
@@ -31113,7 +31120,7 @@
                         Tues.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-10-31">October 31,
                                 1979</date>
                   </dateline>
@@ -31193,7 +31200,7 @@
                             seized and Americans were taken hostage.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-11-14">November 14,
                                 1979</date>
                   </dateline>
@@ -31275,7 +31282,7 @@
                             5/79–1/80. Confidential.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-11-15">November 15,
                                 1979</date>
                   </dateline>
@@ -31352,7 +31359,7 @@
                             printed here.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-11-15">November 15,
                                 1979</date>
                   </dateline>
@@ -31460,7 +31467,7 @@
                             corner of the memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -31568,7 +31575,7 @@
                             Communication Agency: 9–12/79. Confidential.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-11-28">November 28,
                                 1979</date>
                   </dateline>
@@ -31603,10 +31610,10 @@
                             Prepared by <persName corresp="#p_CLP_1">Crespi</persName>.</note>
                </head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">N–25–79</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-12-03">December 3,
                                 1979</date>
                   </dateline>
@@ -31670,7 +31677,7 @@
                             December 4. (Ibid.) The signed version of the memorandum <persName corresp="#p_BZ_1">Brzezinski</persName> requested is printed as <ref target="#d195">Document 195</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-12-03">December 3,
                                 1979</date>
                   </dateline>
@@ -31751,7 +31758,7 @@
                             December 12. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-12-12">December 12,
                                 1979</date>
                   </dateline>
@@ -31810,7 +31817,7 @@
                             46, Latin America: 12/79–1/80. Confidential.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-12-12">December 12,
                                 1979</date>
                   </dateline>
@@ -32052,7 +32059,7 @@
                         Confidential.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-12-13">December 13,
                                 1979</date>
                   </dateline>
@@ -32103,7 +32110,7 @@
                             (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-12-13">December 13,
                                 1979</date>
                   </dateline>
@@ -32210,7 +32217,7 @@
                             sure you agree, much more is needed.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1979-12-28">December 28,
                                 1979</date>
                   </dateline>
@@ -32273,7 +32280,7 @@
                             have on our list that we could use?” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -32405,7 +32412,7 @@
                                 Issues</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-01-31">January 31,
                                 1980</date>
                   </dateline>
@@ -32473,7 +32480,7 @@
                             2/1/80–2/15/80. No classification marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-02-07">February 7,
                                 1980</date>
                   </dateline>
@@ -32551,7 +32558,7 @@
                             Public Diplomacy.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-02-07">February 7,
                                 1980</date>
                   </dateline>
@@ -32755,10 +32762,10 @@
                             classification marking. Prepared by <persName corresp="#p_CLP_1">Crespi</persName>.</note>
                </head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">M–4–80</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-02-15">February 15,
                                 1980</date>
                   </dateline>
@@ -32850,7 +32857,7 @@
                             Confidential. A copy was sent to <persName corresp="#p_VCR_1">Vance</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-04-07">April 7,
                                 1980</date>
                   </dateline>
@@ -33015,7 +33022,7 @@
                                 Caribbean</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-05-30">May 30,
                                 1980</date>
                   </dateline>
@@ -33063,7 +33070,7 @@
                                 Mexico, Cuba, and the Caribbean</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-06-06">June 6,
                                 1980</date>
                   </dateline>
@@ -33137,7 +33144,7 @@
                                 <persName corresp="#p_BZ_1">Brzezinski</persName> (see <ref target="#d207fn1">footnote 1, Document 207</ref>).</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-06-16">June 16,
                                 1980</date>
                   </dateline>
@@ -33208,7 +33215,7 @@
                                 <persName corresp="#p_MMK_1">Marcy</persName>, <persName corresp="#p_HP_1">Hopper</persName>, <persName corresp="#p_IJ_1">Inman</persName>, ECA/E, and <gloss target="#t_ECAPPE_1">ECA/PPE</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-07-11">July 11,
                                 1980</date>
                   </dateline>
@@ -33810,7 +33817,7 @@
                             2–9/80)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-08-20">August 20,
                                 1980</date>
                   </dateline>
@@ -33884,7 +33891,7 @@
                                 Foundations of Foreign Policy, Document 157</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-09-05">September 5,
                                 1980</date>
                   </dateline>
@@ -34044,7 +34051,7 @@
                             2–9/80. Confidential.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-09-19">September 19,
                                 1980</date>
                   </dateline>
@@ -34167,7 +34174,7 @@
                             24, 1980 9:00 am.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-10-24">October 24,
                                 1980</date>
                   </dateline>
@@ -34446,10 +34453,10 @@
                             classification marking.</note>
                </head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">B–28–80</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1980-11-20">November 20,
                                 1980</date>
                   </dateline>
@@ -34502,7 +34509,7 @@
                             summary to Carter under a December 16 memorandum. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>

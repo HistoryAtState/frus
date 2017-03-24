@@ -26,6 +26,11 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <styleDefDecl scheme="css" schemeVersion="2.1"/>
+            <tagsDecl>
+                <rendition xml:id="left">display: inline; float: left;</rendition>
+                <rendition xml:id="right">display: inline; float: right;</rendition>
+            </tagsDecl>
             <classDecl>
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
@@ -2648,7 +2653,7 @@
                             Sofia, Tokyo, Warsaw, and the U.S. Mission to <gloss target="#t_NATO_1">NATO</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1980-11-07T12:17:00+00:00">November
                                 7, 1980, 1217Z</date>
                   </dateline>
@@ -2752,7 +2757,7 @@
                             it: “ALA.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-01-22">January 22,
                                 1981</date>
                   </dateline>
@@ -2851,7 +2856,7 @@
                                 <gloss target="#t_Exdis_1">Exdis</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1981-01-22T18:14:00+00:00">January
                                 22, 1981, 1814Z</date>
                   </dateline>
@@ -3081,7 +3086,7 @@
                             Documents, Lot 92D630, Evening Reading: Jan–June 1981) </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-01-24T02:51:00+00:00">January 24, 1981, 0251Z</date>
                   </dateline>
                     </opener>
@@ -3145,7 +3150,7 @@
                             Secret; <gloss target="#t_Nodis_1">Nodis</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-01-26">January 26,
                                 1981</date>
                   </dateline>
@@ -3306,7 +3311,7 @@
                             sent to the Vice President. Printed from an unsigned copy.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-01-27">January 27,
                                 1981</date>
                   </dateline>
@@ -3383,7 +3388,7 @@
                             Confidential; Sensitive. Drafted by <persName corresp="#p_HRN_1">Haass</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-01-29">January 29,
                                 1981</date>
                   </dateline>
@@ -3450,7 +3455,7 @@
                         Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-01-29">January 29,
                                 1981</date>
                   </dateline>
@@ -3509,7 +3514,7 @@
                             (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-01-30">January 30,
                                 1981</date>
                   </dateline>
@@ -3708,7 +3713,7 @@
                         A12)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-01-31T04:06:00+00:00">January 31, 1981, 0406Z</date>
                   </dateline>
                     </opener>
@@ -3829,7 +3834,7 @@
                                 <gloss target="#t_Nodis_1">Nodis</gloss>. Drafted by <persName corresp="#p_GR_2">German</persName>; cleared by <persName corresp="#p_VGS_1">Vest</persName> and in S; approved by <persName corresp="#p_BLP_1">Bremer</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-02-03T00:38:00+00:00">February 3, 1981, 0038Z</date>
                   </dateline>
                     </opener>
@@ -4017,7 +4022,7 @@
                             1981. Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-02-06">February 6,
                                 1981</date>
                   </dateline>
@@ -4192,7 +4197,7 @@
                             the memorandum reads: “<persName corresp="#p_WCW_1">Weinberger</persName> breakfast <hi rend="italic">file</hi>.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-02-06">February 6,
                                 1981</date>
                   </dateline>
@@ -4275,7 +4280,7 @@
                             Room at the White House.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1981-02-06T13:30:00" to="1981-02-06T14:40:00">February 6, 1981, 1:30–2:40
                             p.m.</date>
                   </dateline>
@@ -4593,7 +4598,7 @@
                         Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-02-06">February 6,
                                 1981</date>
                   </dateline>
@@ -4665,7 +4670,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-02-11">February 11,
                                 1981</date>
                   </dateline>
@@ -4734,7 +4739,7 @@
                         Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-02-13">February 13,
                                 1981</date>
                   </dateline>
@@ -4811,7 +4816,7 @@
                         information.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-02-17">February 17,
                                 1981</date>
                   </dateline>
@@ -4940,7 +4945,7 @@
                             State, INR/IL Files, Vol. 17, Box 5 [Moscow, 1980–83]. Secret; <gloss target="#t_RogerChannel_1">Roger Channel</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1981-02-17T16:28:00+00:00">February
                                 17, 1981, 1628Z</date>
                   </dateline>
@@ -5017,7 +5022,7 @@
                         Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-02-24">February 24,
                                 1981</date>
                   </dateline>
@@ -5112,7 +5117,7 @@
                         1981)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-02-25">February 25,
                                 1981</date>
                   </dateline>
@@ -5187,7 +5192,7 @@
                             an unsigned copy.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-02-27">February 27,
                                 1981</date>
                   </dateline>
@@ -5232,7 +5237,7 @@
                             An unknown hand wrote “(3/9/81)” beneath <persName corresp="#p_RRW_1">Reagan</persName>’s comment.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-03-02">March 2,
                                 1981</date>
                   </dateline>
@@ -5365,7 +5370,7 @@
                             (1). Limited Official Use.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-03-03">March 3,
                                 1981</date>
                   </dateline>
@@ -5407,7 +5412,7 @@
                             the letter, unless the Soviets make the fact public.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1981-03-06">March 6,
                                 1981</date>
                   </dateline>
@@ -5608,7 +5613,7 @@
                             (1 of 2) Jan.–June 1981. Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-03-07">March 7,
                                 1981</date>
                   </dateline>
@@ -5684,7 +5689,7 @@
                                 <persName corresp="#p_SWJ_1">Stoessel</persName>, <persName corresp="#p_ETO_1">Enders</persName>, and Jane Coon (<gloss target="#t_NEA_1">NEA</gloss>). Copied to <persName corresp="#p_BM_1">Barry</persName>, <persName corresp="#p_GD_1">Gompert</persName>, and <persName corresp="#p_PRMH_1">Palmer</persName> on March 22.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-03-16">March 16,
                                 1981</date>
                   </dateline>
@@ -6263,7 +6268,7 @@
                             (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-03-17">March 17,
                                 1981</date>
                   </dateline>
@@ -6468,7 +6473,7 @@
                             to <persName corresp="#p_HAM_1">Haig</persName>, <persName corresp="#p_ARV_1">Allen</persName>, and <persName corresp="#p_CFC_1">Carlucci</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-03-17">March 17,
                                 1981</date>
                   </dateline>
@@ -6534,7 +6539,7 @@
                             The meeting took place at the Department of State.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-03-19">March 19,
                                 1981</date>
                   </dateline>
@@ -6670,7 +6675,7 @@
                             it.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-03-20">March 20,
                                 1981</date>
                   </dateline>
@@ -6800,7 +6805,7 @@
                             Confidential.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-03-23">March 23,
                                 1981</date>
                   </dateline>
@@ -6876,7 +6881,7 @@
                             Confidential.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-03-24">March 24,
                                 1981</date>
                   </dateline>
@@ -6952,7 +6957,7 @@
                         found.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-03-28T22:18:00+00:00">March 28, 1981, 2218Z</date>
                   </dateline>
                     </opener>
@@ -7080,7 +7085,7 @@
                             the top of the memorandum is: “<gloss target="#t_SecDef_1">SecDef</gloss> Eyes Only File.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-03-26">March 26,
                                 1981</date>
                   </dateline>
@@ -7336,7 +7341,7 @@
                             modifications) may be worth exploring.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-04-03">April 3,
                                 1981</date>
                   </dateline>
@@ -7453,7 +7458,7 @@
                             Diary)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                         <salute>Mr. President,</salute>
@@ -7513,7 +7518,7 @@
                         (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date>undated</date>
                   </dateline>
                         <salute>Dear Mr. President:</salute>
@@ -7614,7 +7619,7 @@
                             notation on the memorandum indicates <persName corresp="#p_HAM_1">Haig</persName> saw it.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-04-13">April 13,
                                 1981</date>
                   </dateline>
@@ -7723,7 +7728,7 @@
                             uninitialed copy.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-04-14">April 14,
                                 1981</date>
                   </dateline>
@@ -7805,7 +7810,7 @@
                             information.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-04-20">April 20,
                                 1981</date>
                   </dateline>
@@ -7858,7 +7863,7 @@
                         113–114)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-04-21T19:15:00">April 21, 1981, 7:15 p.m.</date>
                   </dateline>
                     </opener>
@@ -7939,7 +7944,7 @@
                             Only File.” The meeting was held at the Pentagon.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-04-23">April 23,
                                 1981</date>
                   </dateline>
@@ -8165,7 +8170,7 @@
                             to <persName corresp="#p_BL_1">Brezhnev</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                         <salute>My Dear Mr. President</salute>
@@ -8261,7 +8266,7 @@
                             marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-04-24">April 24,
                                 1981</date>
                   </dateline>
@@ -8483,7 +8488,7 @@
                             Brussels.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-05-05T01:48:00+00:00">May
                                 5, 1981, 0148Z</date>
                   </dateline>
@@ -8735,7 +8740,7 @@
                         (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-05-07">May 7,
                                 1981</date>
                   </dateline>
@@ -8946,7 +8951,7 @@
                         “Done.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-05-11">May 11,
                                 1981</date>
                   </dateline>
@@ -8999,7 +9004,7 @@
                             File, [no film number])</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-05-12">May 12,
                                 1981</date>
                   </dateline>
@@ -9078,7 +9083,7 @@
                             (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-05-13">May 13,
                                 1981</date>
                   </dateline>
@@ -9111,7 +9116,7 @@
                             Secret; Sensitive.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-05-18">May 18,
                                 1981</date>
                   </dateline>
@@ -9311,7 +9316,7 @@
                             on the memorandum indicates that <persName corresp="#p_HAM_1">Haig</persName> saw it.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-05-19">May 19,
                                 1981</date>
                   </dateline>
@@ -9465,7 +9470,7 @@
                             Sensitive. The meeting took place in the Cabinet Room.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1981-05-22T09:00:00" to="1981-05-22T10:00:00">May 22, 1981, 9–10 a.m.</date>
                   </dateline>
                     </opener>
@@ -9901,7 +9906,7 @@
                             1981 Jan–June.” Confidential. Drafted by <persName corresp="#p_FA_1">Friedt</persName>; approved by <persName corresp="#p_SWJ_1">Stoessel</persName>. Copies sent to <persName corresp="#p_BLP_1">Bremer</persName>, <persName corresp="#p_ELS_1">Eagleburger</persName>, and <persName corresp="#p_GR_2">German</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-05-23">May 23,
                                 1981</date>
                   </dateline>
@@ -10073,7 +10078,7 @@
                             copy.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -10321,7 +10326,7 @@
                             Department of State, Day File, Box 41, May 28, 1981.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -10585,7 +10590,7 @@
                         [illegible]”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-05-28">May 28,
                                 1981</date>
                   </dateline>
@@ -10648,7 +10653,7 @@
                                 “<persName corresp="#p_NL_1">Larry</persName>, <persName corresp="#p_AG_1">Arbatov</persName> is a phony—he’s <hi rend="italic">not</hi> plugged in—we do better w/real people! <gloss target="#t_AMH_1">AMH</gloss>”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1981-06-03T15:15:00+00:00">June 3,
                                 1981, 1515Z</date>
                   </dateline>
@@ -10775,7 +10780,7 @@
                             (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-06-04">June 4,
                                 1981</date>
                   </dateline>
@@ -11332,7 +11337,7 @@
                             Manila.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-06-18T00:42:00+00:00">June
                                 18, 1981, 0042Z</date>
                   </dateline>
@@ -11391,7 +11396,7 @@
                         information.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-06-18">June 18,
                                 1981</date>
                   </dateline>
@@ -11423,7 +11428,7 @@
                             1981 Jan–June. Secret. Drafted by <persName corresp="#p_SWJ_1">Stoessel</persName>. Copied to <persName corresp="#p_BLP_1">Bremer</persName>, <persName corresp="#p_ELS_1">Eagleburger</persName>, <persName corresp="#p_GR_2">German</persName>, and <persName corresp="#p_BRR_1">Burt</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-06-23">June 23,
                                 1981</date>
                   </dateline>
@@ -11666,7 +11671,7 @@
                             printed as <ref target="#d67">Document 67</ref>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-07-02">July 2,
                                 1981</date>
                   </dateline>
@@ -11819,7 +11824,7 @@
                             routine diplomatic stuff.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-07-07">July 7,
                                 1981</date>
                   </dateline>
@@ -11895,7 +11900,7 @@
                                 Diaries</hi>, Vol. I, p. 53)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1981-07-06T11:09:00" to="1981-07-06T12:22:00">July 6, 1981, 11:09 a.m.–12:22
                             p.m.</date>
                   </dateline>
@@ -12544,7 +12549,7 @@
                             CHRON 07/02/1981–07/07/1981. Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-07-07">July 7,
                                 1981</date>
                   </dateline>
@@ -12665,7 +12670,7 @@
                             Soviet Union: Trade 2/5. Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-07-08">July 8,
                                 1981</date>
                   </dateline>
@@ -12818,7 +12823,7 @@
                                 Diaries</hi>, Vol. I, p. 54)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1981-07-09T15:30:00" to="1981-07-09T16:30:00">July 9, 1981, 3:30–4:30
                             p.m.</date>
                   </dateline>
@@ -13507,7 +13512,7 @@
                             memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-07-10">July 10,
                                 1981</date>
                   </dateline>
@@ -13546,7 +13551,7 @@
                                 <gloss target="#t_Nodis_1">Nodis</gloss>; <gloss target="#t_Stadis_1">Stadis</gloss>. Drafted by <persName corresp="#p_PM_1">Parris</persName> and <persName corresp="#p_PRMH_1">Palmer</persName>; cleared by <persName corresp="#p_ELS_1">Eagleburger</persName> and <persName corresp="#p_SJD_1">Scanlan</persName>; approved by <persName corresp="#p_BLP_1">Bremer</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-07-11T18:58:00+00:00">July
                                 11, 1981, 1858Z</date>
                   </dateline>
@@ -13646,7 +13651,7 @@
                             Ambassador <persName corresp="#p_SWJ_1">Stoessel</persName> by <persName corresp="#p_BA_1">Bessmertnykh</persName>, 7/21/81.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1981-07-20">July 20,
                                 1981</date>
                   </dateline>
@@ -13827,7 +13832,7 @@
                                 <gloss target="#t_Nodis_1">Nodis</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1981-07-24T14:20:00+00:00">July 24,
                                 1981, 1420Z</date>
                   </dateline>
@@ -14089,7 +14094,7 @@
                             CHRON 07/28/1981–07/31/1981. Secret. Sent for information.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-07-29">July 29,
                                 1981</date>
                   </dateline>
@@ -14193,7 +14198,7 @@
                             (09/23/1981–09/29/1981). Confidential.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>
                             <date when="1981-07-29">July 29, 1981</date>
                   </dateline>
@@ -14354,7 +14359,7 @@
                             memorandum: “OK, <gloss target="#t_RR_1">RR</gloss>.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-08-03">August 3,
                                 1981</date>
                   </dateline>
@@ -14399,7 +14404,7 @@
                         (07/25/1981–08/05/1981))</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-08-06">August 6,
                                 1981</date>
                   </dateline>
@@ -14443,7 +14448,7 @@
                             and <persName corresp="#p_CJ_2">Colson</persName>; approved by <persName corresp="#p_HAM_1">Haig</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-08-26T21:56:00+00:00">August 26, 1981, 2156Z</date>
                   </dateline>
                     </opener>
@@ -14530,7 +14535,7 @@
                             memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-09-04">September 4,
                                 1981</date>
                   </dateline>
@@ -14640,7 +14645,7 @@
                                 <gloss target="#t_Nodis_1">Nodis</gloss>; <gloss target="#t_Stadis_1">Stadis</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1981-09-08T13:37:00+00:00">September 8, 1981, 1337Z</date>
                   </dateline>
                     </opener>
@@ -14918,7 +14923,7 @@
                             Reagan Library, Executive Secretariat, <gloss target="#t_NSC_1">NSC</gloss>: Head of State File: <gloss target="#t_USSR_1">USSR</gloss>, General Secretary <persName corresp="#p_BL_1">Brezhnev</persName> (8105567, 8105658). Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-09-18">September 18,
                                 1981</date>
                   </dateline>
@@ -15024,7 +15029,7 @@
                             marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-09-18">September 18,
                                 1981</date>
                   </dateline>
@@ -15171,7 +15176,7 @@
                             right-hand corner: “We should talk about this after the <persName corresp="#p_HAM_1">Haig</persName>-<persName corresp="#p_GA_1">Gromyko</persName> meeting. <gloss target="#t_RR_1">RR</gloss>.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-09-21">September 21,
                                 1981</date>
                   </dateline>
@@ -15243,7 +15248,7 @@
                             at the U.S. Mission to the United Nations.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date from="1981-09-23T14:00:00" to="1981-09-23T16:50:00">September 23, 1981, 2–4:50
                             p.m.</date>
                   </dateline>
@@ -15957,7 +15962,7 @@
                             at the U.S. Mission to the United Nations.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date from="1981-09-23T16:50:00" to="1981-09-23T18:50:00">September 23, 1981, 4:50–6:15
                             p.m.</date>
                   </dateline>
@@ -16325,7 +16330,7 @@
                             at the Soviet Mission to the United Nations.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date from="1981-09-28T14:00:00" to="1981-09-28T18:00:00">September 28, 1981, 2–6
                             p.m.</date>
                   </dateline>
@@ -17443,7 +17448,7 @@
                             at the Soviet Mission to the United Nations.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date from="1981-09-28T18:00:00" to="1981-09-28T19:00:00">September 28, 1981, 6–7
                             p.m.</date>
                   </dateline>
@@ -17646,7 +17651,7 @@
                             Room. (Reagan Library, President’s Daily Diary)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1981-10-13T14:00:00" to="1981-10-13T14:45:00">October 13, 1981, 2–2:45
                             p.m.</date>
                   </dateline>
@@ -18093,7 +18098,7 @@
                             he even write it? <gloss target="#t_RR_1">RR</gloss>.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1981-10-15">October 15,
                                 1981</date>
                   </dateline>
@@ -18266,7 +18271,7 @@
                             original.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1981-10-16T14:00:00" to="1981-10-16T15:00:00">October 16, 1981, 2–3
                             p.m.</date>
                   </dateline>
@@ -19044,7 +19049,7 @@
                             date and wrote next to it: “Day &amp; <persName corresp="#p_GA_1">Gromyko</persName> meet file.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-10-16">October 16,
                                 1981</date>
                   </dateline>
@@ -19145,7 +19150,7 @@
                             Sensitive.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1981-10-21T16:03:00+00:00">October
                                 21, 1981, 1603Z</date>
                   </dateline>
@@ -19358,7 +19363,7 @@
                             State.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1981-10-27T15:15:00" to="1981-10-27T16:05:00">October 27, 1981, 3:15–4:05
                             p.m.</date>
                   </dateline>
@@ -19545,7 +19550,7 @@
                                 <persName corresp="#p_DMK_1">Deaver</persName>, and <persName corresp="#p_ARV_1">Allen</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-10-29">October 29,
                                 1981</date>
                   </dateline>
@@ -19709,7 +19714,7 @@
                             (Brinkley, ed., <hi rend="italic">The <persName corresp="#p_RRW_1">Reagan</persName> Diaries</hi>, vol. I, p. 81)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-11-05">November 5,
                                 1981</date>
                   </dateline>
@@ -19801,7 +19806,7 @@
                             (11/6/1981–11/6/1981). Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-11-09">November 9,
                                 1981</date>
                   </dateline>
@@ -19844,7 +19849,7 @@
                             wrote in the upper right-hand corner: “Day &amp; Cuba.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-11-11T14:45:00">November 11, 1981, 2:25 p.m.</date>
                   </dateline>
                     </opener>
@@ -19987,10 +19992,10 @@
                                 <persName corresp="#p_RRW_1">Reagan</persName> wrote: “<gloss target="#t_RR_1">RR</gloss>.”</note>
                </head>
                     <opener>
-                        <seg rendition="#inline-float-left">
+                        <seg rendition="#left">
                             <idno type="document-identifier">SNIE 3/11–4—81</idno>
                         </seg>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-11-17">November 17,
                                 1981</date>
                   </dateline>
@@ -20081,7 +20086,7 @@
                             letter. Ron.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-11-17">November 17,
                                 1981</date>
                   </dateline>
@@ -20206,7 +20211,7 @@
                             memorandum. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-11-18">November 18,
                                 1981</date>
                   </dateline>
@@ -20473,7 +20478,7 @@
                             11/19/81.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-11-18">November 18,
                                 1981</date>
                   </dateline>
@@ -20526,7 +20531,7 @@
                             Sensitive. A stamped notation on the memorandum reads: “<gloss target="#t_AMH_1">AMH</gloss>.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-11-24">November 24,
                                 1981</date>
                   </dateline>
@@ -20568,7 +20573,7 @@
                             information to Bonn and Madrid. Drafted by <persName corresp="#p_STW_1">Simons</persName>; approved by <persName corresp="#p_SWJ_1">Stoessel</persName> and <persName corresp="#p_SJD_1">Scanlan</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-11-28T21:30:00+00:00">November 28, 1981, 2130Z</date>
                   </dateline>
                     </opener>
@@ -20683,7 +20688,7 @@
                             against the original Russian.)” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-12-01">December 1,
                                 1981</date>
                   </dateline>
@@ -20849,7 +20854,7 @@
                             (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-12-02">December 2,
                                 1981</date>
                   </dateline>
@@ -21082,7 +21087,7 @@
                             Assembly.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-12-04T01:00:00+00:00">December 4, 1981, 0100Z</date>
                   </dateline>
                     </opener>
@@ -21130,7 +21135,7 @@
                             ceremony.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-12-04">December 4,
                                 1981</date>
                   </dateline>
@@ -21191,7 +21196,7 @@
                             the upper right-hand corner: “will make statement <hi rend="italic">tomorrow</hi>.” An unknown hand wrote “12/8/81” beneath <persName corresp="#p_HAM_1">Haig</persName>’s comment.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -21306,7 +21311,7 @@
                         meeting.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Brussels</placeName>, <date from="1981-12-09T19:45:00" to="1981-12-09T23:00:00">December 9, 1981, 7:45–11
                             p.m.</date>
                   </dateline>
@@ -21519,7 +21524,7 @@
                             to Madrid and the U.S. Mission to <gloss target="#t_NATO_1">NATO</gloss>. Drafted by <persName corresp="#p_STW_1">Simons</persName>; cleared by <persName corresp="#p_MG_1">Matthews</persName> in P; approved by <persName corresp="#p_SJD_1">Scanlan</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-12-10T20:49:00+00:00">December 10, 1981, 2049Z</date>
                   </dateline>
                     </opener>
@@ -21605,7 +21610,7 @@
                                 <persName corresp="#p_SWJ_1">Stoessel</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-12-13T23:11:00+00:00">December 13, 1981, 2311Z</date>
                   </dateline>
                     </opener>
@@ -21696,7 +21701,7 @@
                             Brussels to Washington.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <date when="1981-12-14T14:00:00+00:00">December 14, 1981,
                             1400Z</date>
                   </dateline>
@@ -21774,7 +21779,7 @@
                                 “<gloss target="#t_RR_1">RR</gloss>.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-12-15">December 15,
                                 1981</date>
                   </dateline>
@@ -21810,7 +21815,7 @@
                             Memoranda for the Record. Confidential. Prepared by <persName corresp="#p_SWJ_1">Stoessel</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-12-18">December 18,
                                 1981</date>
                   </dateline>
@@ -21971,7 +21976,7 @@
                             telegram to Moscow indicates that the letter was sent by <gloss target="#t_MOLINK_1">MOLINK</gloss>. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                         <salute>Dear Mr. President:</salute>
@@ -22076,7 +22081,7 @@
                             Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1981-12-25">December 25,
                                 1981</date>
                   </dateline>
@@ -22289,7 +22294,7 @@
                         note.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-01-04">January 4,
                                 1982</date>
                   </dateline>
@@ -22430,7 +22435,7 @@
                             (01/18/1982–01/19/1982). Confidential.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-01-07">January 7,
                                 1982</date>
                   </dateline>
@@ -22597,7 +22602,7 @@
                         1/7/82.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-01-07">January 7,
                                 1982</date>
                   </dateline>
@@ -22646,7 +22651,7 @@
                                 <persName corresp="#p_VNA_1">Veliotes</persName>, <persName corresp="#p_STW_1">Simons</persName>, and <persName corresp="#p_BLP_1">Bremer</persName>; approved by <persName corresp="#p_HAM_1">Haig</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-01-08T23:52:00+00:00">January 8, 1982, 2352Z</date>
                   </dateline>
                     </opener>
@@ -22816,7 +22821,7 @@
                             Department of State, Day File, Box 64, January 10, 1982)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-01-10T18:04:00+00:00">January 10, 1982, 1804Z</date>
                   </dateline>
                     </opener>
@@ -22911,7 +22916,7 @@
                             Confidential. Sent for action.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-01-14">January 14,
                                 1982</date>
                   </dateline>
@@ -23038,7 +23043,7 @@
                             Confidential; Immediate; <gloss target="#t_Nodis_1">Nodis</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1982-01-15T16:37:00+00:00">January
                                 15, 1982, 1637Z</date>
                   </dateline>
@@ -23087,7 +23092,7 @@
                             Memoranda for the Record, 1982. Secret. Prepared by <persName corresp="#p_SWJ_1">Stoessel</persName>. Copied to <persName corresp="#p_BLP_1">Bremer</persName>, <persName corresp="#p_SJD_1">Scanlan</persName>, and <persName corresp="#p_MH_1">Montgomery</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-01-18">January 18,
                                 1982</date>
                   </dateline>
@@ -23329,7 +23334,7 @@
                             Cuba and other problems.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-01-19">January 19,
                                 1982</date>
                   </dateline>
@@ -23372,7 +23377,7 @@
                             (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1982-01-21">January 21,
                                 1982</date>
                   </dateline>
@@ -23430,7 +23435,7 @@
                             room.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-01-21T17:30:00">January 21, 1982, 5:30 p.m.</date>
                   </dateline>
                     </opener>
@@ -23708,7 +23713,7 @@
                                 <gloss target="#t_Nodis_1">Nodis</gloss>; <gloss target="#t_Stadis_1">Stadis</gloss>. Drafted by <persName corresp="#p_STW_1">Simons</persName>; cleared by <persName corresp="#p_SJD_1">Scanlan</persName> and in <gloss target="#t_SSO_1">S/S–O</gloss>; approved by <persName corresp="#p_SWJ_1">Stoessel</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-01-22T01:42:00+00:00">January 22, 1982, 0142Z</date>
                   </dateline>
                     </opener>
@@ -23856,7 +23861,7 @@
                             and <persName corresp="#p_PR_2">Pipes</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-01-22">January 22,
                                 1982</date>
                   </dateline>
@@ -23935,7 +23940,7 @@
                             at the U.S. Mission to the U.N.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Geneva</placeName>, <date from="1982-01-26T10:00:00" to="1982-01-26T12:40:00">January 26, 1982, 10 a.m.–12:40
                             p.m.</date>
                   </dateline>
@@ -24621,7 +24626,7 @@
                             Soviet Mission to the U.N.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Geneva</placeName>, <date from="1982-01-26T14:00:00" to="1982-01-26T19:00:00">January 26, 1982, 2–7
                             p.m.</date>
                   </dateline>
@@ -25771,7 +25776,7 @@
                             Only.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-01-27">January 27,
                                 1982</date>
                   </dateline>
@@ -25826,7 +25831,7 @@
                             Priority. Sent for information to Leningrad. Drafted by <persName corresp="#p_VLJ_1">van Laningham</persName>; cleared by <persName corresp="#p_DA_1">Darbyshire</persName>, <persName corresp="#p_CR_1">Combs</persName>, and <persName corresp="#p_SJD_1">Scanlan</persName>; approved by <persName corresp="#p_SWJ_1">Stoessel</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-02-03T00:27:00+00:00">February 3, 1982, 0027Z</date>
                   </dateline>
                     </opener>
@@ -25877,7 +25882,7 @@
                             are in the original.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1982-02-04T15:30:00" to="1982-02-04T16:30:00">February 4, 1982, 3:30–4:30
                             p.m.</date>
                   </dateline>
@@ -26204,7 +26209,7 @@
                             memorandum.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-02-12">February 12,
                                 1982</date>
                   </dateline>
@@ -26266,7 +26271,7 @@
                                 <gloss target="#t_SSO_1">S/S–O</gloss>, and S; approved by <persName corresp="#p_BLP_1">Bremer</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-02-25T22:45:00+00:00">February 25, 1982, 2245Z</date>
                   </dateline>
                     </opener>
@@ -26348,7 +26353,7 @@
                             Prague, Sofia, and the U.S. Mission to <gloss target="#t_NATO_1">NATO</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1982-02-26T09:57:00+00:00">February
                                 26, 1982, 0957Z</date>
                   </dateline>
@@ -26445,7 +26450,7 @@
                             took place in the Cabinet Room at the White House.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1982-02-26T13:00:00" to="1982-02-26T13:37:00">February 26, 1982, 1–1:37
                             p.m.</date>
                   </dateline>
@@ -26860,7 +26865,7 @@
                             and <persName corresp="#p_JDC_1">Jones</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-03-01">March 1,
                                 1982</date>
                   </dateline>
@@ -26909,7 +26914,7 @@
                             Prague, Sofia, and the U.S. Mission to <gloss target="#t_NATO_1">NATO</gloss>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1982-03-04T14:24:00+00:00">March 4,
                                 1982, 1424Z</date>
                   </dateline>
@@ -26977,7 +26982,7 @@
                             California from March 4 to 8.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-03-04">March 4,
                                 1982</date>
                   </dateline>
@@ -27025,7 +27030,7 @@
                         corner.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-03-05">March 5,
                                 1982</date>
                   </dateline>
@@ -27089,7 +27094,7 @@
                             memorandum beneath the date.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-03-15">March 15,
                                 1982</date>
                   </dateline>
@@ -27124,7 +27129,7 @@
                         <note n="2" xml:id="d150fn2">Secret; <gloss target="#t_Exdis_1">Exdis</gloss>.</note>
                      </hi>
                   </head>
-                    <dateline>Washington, March 9, 1982</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1982-03-09">March 9, 1982</date></dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Kremlin Succession Politics Heating Up</item>
@@ -27201,7 +27206,7 @@
                             March 16, 1982.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-03-17">March 17,
                                 1982</date>
                   </dateline>
@@ -27259,7 +27264,7 @@
                             trip.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1982-03-25T13:02:00" to="1982-03-25T13:50:00">March 25, 1982, 1:02–1:50
                             p.m.</date>
                   </dateline>
@@ -27661,7 +27666,7 @@
                             (4/12/82–4/15/82). Secret.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-04-01">April 1,
                                 1982</date>
                   </dateline>
@@ -27762,7 +27767,7 @@
                             top of the memorandum: “President has seen.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-04-02">April 2,
                                 1982</date>
                   </dateline>
@@ -28148,7 +28153,7 @@
                             classification marking.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -28261,7 +28266,7 @@
                             Soviets?’” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-04-05">April 5,
                                 1982</date>
                   </dateline>
@@ -28317,7 +28322,7 @@
                             Secret. Sent for information.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-04-09">April 9,
                                 1982</date>
                   </dateline>
@@ -28363,7 +28368,7 @@
                             Sent for action. Drafted by <persName corresp="#p_DP_1">Dobriansky</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-04-10">April 10,
                                 1982</date>
                   </dateline>
@@ -28419,7 +28424,7 @@
                             corner of the memorandum: “President has seen.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -28537,7 +28542,7 @@
                             CHRON 04/14/1982–04/19/1982. Secret; Sensitive.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-04-16">April 16,
                                 1982</date>
                   </dateline>
@@ -28610,7 +28615,7 @@
                             the U.S. Mission to the U.N.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1982-04-19T15:50:00+00:00">April
                                 19, 1982, 1550Z</date>
                   </dateline>
@@ -28702,7 +28707,7 @@
                             memorandum next to the date.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-04-24">April 24,
                                 1982</date>
                   </dateline>
@@ -28813,7 +28818,7 @@
                             an April 28 memorandum. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-04-26">April 26,
                                 1982</date>
                   </dateline>
@@ -28973,7 +28978,7 @@
                             CHRON 05/01/1982–05/04/1982. Secret; Sensitive.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-04-27">April 27,
                                 1982</date>
                   </dateline>
@@ -29007,7 +29012,7 @@
                                 McFarlane</persName>.” (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-05-07">May 7,
                                 1982</date>
                   </dateline>
@@ -29100,7 +29105,7 @@
                             and in <gloss target="#t_SSO_1">S/S–O</gloss>; approved by <persName corresp="#p_ELS_1">Eagleburger</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-05-11T23:17:00+00:00">May
                                 11, 1982, 2317Z</date>
                   </dateline>
@@ -29225,7 +29230,7 @@
                             CHRON 05/27/1982–05/31/1982. Secret; Sensitive.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-05-10">May 10,
                                 1982</date>
                   </dateline>
@@ -29319,7 +29324,7 @@
                             initialed the document beneath the date.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-05-14">May 14,
                                 1982</date>
                   </dateline>
@@ -29393,7 +29398,7 @@
                             “I made some marginal notes. <gloss target="#t_RR_1">RR</gloss>.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-05-22">May 22,
                                 1982</date>
                   </dateline>
@@ -29593,7 +29598,7 @@
                             Reagan Library, Situation Room, White House, <persName corresp="#p_PR_2">Richard Pipes</persName>. Private and Confidential.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-05-22">May 22,
                                 1982</date>
                   </dateline>
@@ -29702,7 +29707,7 @@
                         date.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-05-24">May 24,
                                 1982</date>
                   </dateline>
@@ -29826,7 +29831,7 @@
                             Room at the White House. All brackets are in the original.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1982-05-24T10:30:00" to="1982-05-24T11:30:00">May 24, 1982, 10:30–11:30
                             a.m.</date>
                   </dateline>
@@ -30238,7 +30243,7 @@
                             and in <gloss target="#t_SSO_1">S/S–O</gloss>; approved by <persName corresp="#p_SWJ_1">Stoessel</persName>.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-05-25T23:27:00+00:00">May
                                 25, 1982, 2327Z</date>
                   </dateline>
@@ -30513,7 +30518,7 @@
                             right-hand corner of the memorandum: “President has seen.”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-05-26">May 26,
                                 1982</date>
                   </dateline>
@@ -30623,7 +30628,7 @@
                             Chronology, June 9; ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-06-09">June 9,
                                 1982</date>
                   </dateline>
@@ -30695,7 +30700,7 @@
                             Moscow at 1820Z.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-06-09">June 9,
                                 1982</date>
                   </dateline>
@@ -30759,7 +30764,7 @@
                             translation.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1982-06-10">June 10,
                                 1982</date>
                   </dateline>
@@ -30816,7 +30821,7 @@
                             the top of the note: “Save (Summit File).”</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-06-11">June 11,
                                 1982</date>
                   </dateline>
@@ -30863,7 +30868,7 @@
                         Sensitive.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-06-12">June 12,
                                 1982</date>
                   </dateline>
@@ -30918,7 +30923,7 @@
                             Foreign Policy Files, N820005–0600)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-06-13T03:44:00+00:00">June
                                 13, 1982, 0344Z</date>
                   </dateline>
@@ -30985,7 +30990,7 @@
                             uninitialed copy.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -31039,7 +31044,7 @@
                             (6/16/82–6/17/82). Secret. </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1982-06-15">June 15,
                                 1982</date>
                   </dateline>
@@ -31100,7 +31105,7 @@
                             cover of an undated memorandum. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date from="1982-06-18T14:30:00" to="1982-06-18T19:30:00">June 18, 1982, 2:30–7:30
                             p.m.</date>
                   </dateline>
@@ -32218,7 +32223,7 @@
                             White House Situation room received it on July 14. (Ibid.)</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date from="1982-06-19T09:30:00" to="1982-06-19T13:40:00">June 19, 1982, 9:30 a.m.–1:40
                             p.m.</date>
                   </dateline>
@@ -32981,7 +32986,7 @@
                             uninitialed copy.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                     </opener>
@@ -33234,7 +33239,7 @@
                             Room.</note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1982-06-24T09:00:00" to="1982-06-24T10:20:00">June 24, 1982, 9–10:20
                             a.m.</date>
                   </dateline>
@@ -33513,7 +33518,7 @@
                         memorandum.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Moscow</placeName>, <date when="1982-07-07">July 7,
                         1982</date>
                   </dateline>
@@ -33576,7 +33581,7 @@
                         note. (Ibid.)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-07-09T13:00:00">July 9,
                             1982, 1 p.m.</date>
                   </dateline>
@@ -33866,7 +33871,7 @@
                         information. A stamped notation on the memorandum reads: “<gloss target="#t_RCM_1">RCM</gloss> has seen.” No record of <persName corresp="#p_CWP_1">Clark</persName>’s July 12 meeting with <persName corresp="#p_DA_2">Dobrynin</persName> has been found.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-07-09">July 9,
                             1982</date>
                   </dateline>
@@ -33945,7 +33950,7 @@
                         8290480). Secret; Sensitive.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-07-11">July 11,
                             1982</date>
                   </dateline>
@@ -34040,7 +34045,7 @@
                         of State, Central Foreign Policy File, N820006–0559)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-07-14">July 14,
                             1982</date>
                   </dateline>
@@ -34116,7 +34121,7 @@
                         information.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-07-23">July 23,
                             1982</date>
                   </dateline>
@@ -34169,7 +34174,7 @@
                         (07/21/1982–07/24/1982). Secret.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-07-23">July 23,
                             1982</date>
                   </dateline>
@@ -34233,7 +34238,7 @@
                         approved by <persName corresp="#p_BRR_1">Burt</persName>.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-08-03T14:04:00+00:00">August
                             3, 1982, 1404Z</date>
                   </dateline>
@@ -34286,7 +34291,7 @@
                         Foreign Policy File, N820007–0244)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-08-05">August 5,
                             1982</date>
                   </dateline>
@@ -34337,7 +34342,7 @@
                         the stamped notation: “The President has seen.”</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-08-09">August 9,
                             1982</date>
                   </dateline>
@@ -34498,7 +34503,7 @@
                         but not printed.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-08-16">August 16,
                             1982</date>
                   </dateline>
@@ -34720,7 +34725,7 @@
                         wrote, “good report.” (Ibid.)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                 </opener>
@@ -35148,7 +35153,7 @@
                             (<gloss target="#t_NSSD_1">NSSD</gloss>): Records, 1981–1987, <gloss target="#t_NSSD_1">NSSD</gloss> 11–82. Secret.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-08-21">August 21,
                             1982</date>
                   </dateline>
@@ -35284,7 +35289,7 @@
                     information.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-08-21">August 21,
                             1982</date>
                   </dateline>
@@ -35369,7 +35374,7 @@
                         21 meeting, see <ref target="#d205">Document 205</ref>.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-08-27">August 27,
                             1982</date>
                   </dateline>
@@ -35506,7 +35511,7 @@
                     Security Affairs (<persName corresp="#p_CWP_1">Clark</persName>)<note n="1" xml:id="d207fn1" type="source">Source: Reagan Library, <persName corresp="#p_PR_2">Pipes</persName> Files, Soviet <gloss target="#t_NSSD_1">NSSD</gloss> (3 of 3) [<gloss target="#t_NSSD_1">NSSD</gloss> 11–82]. Secret. Sent for action. Copied to <persName corresp="#p_SW_1">Stearman</persName>.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-08-30">August 30,
                             1982</date>
                   </dateline>
@@ -35554,7 +35559,7 @@
                             <persName corresp="#p_BWE_1">Brock</persName>. Copied to <persName corresp="#p_ME_1">Meese</persName>, <persName corresp="#p_BJA_1">Baker</persName>, and <persName corresp="#p_DMK_1">Deaver</persName>.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-09-01">September 1,
                             1982</date>
                   </dateline>
@@ -35624,7 +35629,7 @@
                         1982. Secret; Sensitive.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-09-04">September 4,
                             1982</date>
                   </dateline>
@@ -35750,7 +35755,7 @@
                         of State.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date from="1982-09-10T15:45:00" to="1982-09-10T16:45:00">September 10, 1982, 3:45–4:45
                         p.m.</date>
                   </dateline>
@@ -36131,7 +36136,7 @@
                         complexity of the issues.”</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-09-13">September 13,
                             1982</date>
                   </dateline>
@@ -36364,7 +36369,7 @@
                         took place in the Old Executive Office Building.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-09-16T16:30:00">September 16, 1982, 4:30 p.m.</date>
                   </dateline>
                 </opener>
@@ -36796,10 +36801,10 @@
                         first page: “Please send to Pres for weekend,” under which <persName corresp="#p_RRW_1">Reagan</persName> initialed “<gloss target="#t_RR_1">RR</gloss>.”</note>
                </head>
                 <opener>
-                    <seg rendition="#inline-float-left">
+                    <seg rendition="#left">
                         <idno type="document-identifier">SNIE 3–11/2–82</idno>
                     </seg>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-09-21">September 21,
                             1982</date>
                   </dateline>
@@ -36969,7 +36974,7 @@
                         (Brinkley, ed., <hi rend="italic">The <persName corresp="#p_RRW_1">Reagan</persName> Diaries</hi>, Vol. I, p. 156)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-09-22T10:30:00">September 22, 1982, 10:30 a.m.</date>
                   </dateline>
                 </opener>
@@ -37356,7 +37361,7 @@
                             <persName corresp="#p_PRMH_1">Palmer</persName>, <persName corresp="#p_MH_1">Montgomery</persName>, and <persName corresp="#p_AJ_1">Azrael</persName>.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-09-22">September 22,
                             1982</date>
                   </dateline>
@@ -37469,7 +37474,7 @@
                         Secret; Sensitive. Drafted by <persName corresp="#p_GD_1">Gompert</persName>; cleared by <persName corresp="#p_MH_1">Montgomery</persName>.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-09-22">September 22,
                             1982</date>
                   </dateline>
@@ -37630,7 +37635,7 @@
                         122)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>New York</placeName>, <date from="1982-09-28T15:30:00" to="1982-09-28T18:30:00">September 28, 1982, 3:30–6:30
                         p.m.</date>
                   </dateline>
@@ -38140,7 +38145,7 @@
                         Sensitive. Printed from an uninitialed copy.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                 </opener>
@@ -38196,7 +38201,7 @@
                         Secret; Sensitive.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-09-30">September 30,
                             1982</date>
                   </dateline>
@@ -38388,7 +38393,7 @@
                         United Nations.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>New York</placeName>, <date when="1982-10-01T16:00:00">October 1,
                             1982, 4 p.m.</date>
                   </dateline>
@@ -38457,7 +38462,7 @@
                         Nations.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>New York</placeName>, <date from="1982-10-04T15:00:00" to="1982-10-04T19:30:00">October 4, 1982, 3–7:30 p.m.</date>
                   </dateline>
                 </opener>
@@ -39361,7 +39366,7 @@
                         top of the memorandum.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                 </opener>
@@ -39432,7 +39437,7 @@
                         163)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-10-15">October 15,
                             1982</date>
                   </dateline>
@@ -39499,7 +39504,7 @@
                         Secretary’s office.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-10-16">October 16,
                             1982</date>
                   </dateline>
@@ -39621,7 +39626,7 @@
                         of manhood.” (Ibid.)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-10-20">October 20,
                             1982</date>
                   </dateline>
@@ -39667,7 +39672,7 @@
                         under the date.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-10-22">October 22,
                             1982</date>
                   </dateline>
@@ -39711,7 +39716,7 @@
                             <persName corresp="#p_PRMH_1">Palmer</persName>, <persName corresp="#p_BRR_1">Burt</persName>, and in <gloss target="#t_SSO_1">S/S–O</gloss>; approved by <persName corresp="#p_ELS_1">Eagleburger</persName>.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-10-28T02:27:00+00:00">October
                             28, 1982, 0227Z</date>
                   </dateline>
@@ -39843,7 +39848,7 @@
                         (Ibid.)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Moscow</placeName>, <date when="1982-10-30">October 30,
                             1982</date>
                   </dateline>
@@ -39878,7 +39883,7 @@
                         a December 21 memorandum. (Ibid.)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-11-02">November 2,
                             1982</date>
                   </dateline>
@@ -40006,7 +40011,7 @@
                     date.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-11-03">November 3,
                             1982</date>
                   </dateline>
@@ -40120,7 +40125,7 @@
                         memorandum.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-11-09">November 9,
                             1982</date>
                   </dateline>
@@ -40231,7 +40236,7 @@
                         initialed approval of the minutes on <persName corresp="#p_BDC_1">Blair</persName>’s memorandum on behalf of <persName corresp="#p_CWP_1">Clark</persName>. (Ibid.)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-11-09T17:15:00">November
                             9, 1982, 5:15 p.m.</date>
                   </dateline>
@@ -40811,7 +40816,7 @@
                         (11/16/82–11/18/82)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Moscow</placeName>, <date from="1982-11-15T16:40:00" to="1982-11-15T17:10:00">November 15, 1982, 4:40–5:10
                         p.m.</date>
                   </dateline>
@@ -41033,7 +41038,7 @@
                         Central Foreign Policy File, N820009–0209. Secret; Flash; <gloss target="#t_Nodis_1">Nodis</gloss>; <gloss target="#t_Stadis_1">Stadis</gloss>.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Moscow</placeName>, <date when="1982-11-15T18:48:00+00:00">November 15,
                             1982, 1848Z</date>
                   </dateline>
@@ -41199,7 +41204,7 @@
                         telegram.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <date when="1982-11-15T19:03:00+00:00">November 15, 1982, 1903Z</date>
                   </dateline>
                 </opener>
@@ -41241,7 +41246,7 @@
                         distribution.” The message was sent from Air Force Two.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <date when="1982-11-15T20:00:00+00:00">November 15, 1982, 2000Z</date>
                   </dateline>
                 </opener>
@@ -41314,7 +41319,7 @@
                         Secret; Sensitive. Sent for information.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-11-17">November 17,
                             1982</date>
                   </dateline>
@@ -41367,7 +41372,7 @@
                         19NOV82. Secret; Sensitive. Copied to <persName corresp="#p_GR_1">Gates</persName>. Printed from an uninitialed copy.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-11-17">November 17,
                             1982</date>
                   </dateline>
@@ -41427,7 +41432,7 @@
                         and Executive Registry Files (1982), Box 20, Folder 3, L–205A <persName corresp="#p_MJN_1">McMahon</persName> Grams. Secret.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-11-19">November 19,
                             1982</date>
                   </dateline>
@@ -41490,7 +41495,7 @@
                         1982–Sept. 1983. Secret.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-11-22">November 22,
                             1982</date>
                   </dateline>
@@ -41570,7 +41575,7 @@
                         who did not initial this copy of the memorandum.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-11-22">November 22,
                             1982</date>
                   </dateline>
@@ -41708,7 +41713,7 @@
                         initialed the memorandum below the date.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-11-24">November 24,
                             1982</date>
                   </dateline>
@@ -41834,7 +41839,7 @@
                         30 memorandum. (Ibid.)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                 </opener>
@@ -41924,7 +41929,7 @@
                         initialed the memorandum next to the date.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-11-27">November 27,
                             1982</date>
                   </dateline>
@@ -42046,7 +42051,7 @@
                         Secret.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-11-29">November 29,
                             1982</date>
                   </dateline>
@@ -42242,7 +42247,7 @@
                         copy.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-12-04">December 4,
                             1982</date>
                   </dateline>
@@ -42393,7 +42398,7 @@
                         Agriculture are reflected in footnotes.”</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-12-06">December 6,
                             1982</date>
                   </dateline>
@@ -42499,7 +42504,7 @@
                         memorandum.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                 </opener>
@@ -42617,7 +42622,7 @@
                         Soviet Analysis.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-12-13">December 13,
                             1982</date>
                   </dateline>
@@ -42861,7 +42866,7 @@
                         Sensitive. Sent for action.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-12-15">December 15,
                             1982</date>
                   </dateline>
@@ -42931,7 +42936,7 @@
                         Diary) All brackets are in the original.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-12-16T14:00:00">December
                             16, 1982, 2 p.m.</date>
                   </dateline>
@@ -43333,7 +43338,7 @@
                         initialed the paper above the date.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-12-21">December 21,
                             1982</date>
                   </dateline>
@@ -43416,7 +43421,7 @@
                         sent the Soviet paper printed as an attachment below.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-12-22">December 22,
                             1982</date>
                   </dateline>
@@ -43514,7 +43519,7 @@
                         has seen.”</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1982-12-28">December 28,
                             1982</date>
                   </dateline>
@@ -43914,7 +43919,7 @@
                         in the upper right-hand corner of the memorandum.</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1983-01-05">January 5,
                             1983</date>
                   </dateline>
@@ -43976,7 +43981,7 @@
                     attached</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date>undated</date>
                   </dateline>
                 </opener>
@@ -44399,7 +44404,7 @@
                         should be made only on a need-to-know basis.” (Ibid.)</note>
                </head>
                 <opener>
-                    <dateline rendition="#inline-float-right">
+                    <dateline rendition="#right">
                         <placeName>Washington</placeName>, <date when="1983-01-17">January 17,
                             1983</date>
                   </dateline>

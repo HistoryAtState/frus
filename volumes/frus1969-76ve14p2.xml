@@ -29,6 +29,13 @@
                 <p>Released in 2015 as printed book.</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <styleDefDecl scheme="css" schemeVersion="2.1"/>
+            <tagsDecl>
+                <rendition xml:id="left">display: inline; float: left;</rendition>
+                <rendition xml:id="right">display: inline; float: right;</rendition>
+            </tagsDecl>
+        </encodingDesc>
     </teiHeader>
 
     <text>
@@ -16591,7 +16598,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-09-13">September 13,
                                 1974</date>.</dateline>
                     </opener>
@@ -16656,7 +16663,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-09-13">September 13,
                                 1974</date>.</dateline>
                     </opener>
@@ -17297,7 +17304,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1974-09-21T12:15:00" to="1974-09-21T12:39:00">September 21, 1974, 12:15–12:39
                             p.m.</date>
                   </dateline>
@@ -17515,7 +17522,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-09-25">September 25,
                                 1974</date>.</dateline>
                     </opener>
@@ -18038,7 +18045,7 @@
                                 not published.</p>
                   </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date from="1974-09-28T10:10:00" to="1974-09-28T10:50:00">September 28, 1974, 10:10–10:50
                         a.m.</date>
                </dateline>
@@ -18135,7 +18142,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-10-04">October 4,
                                 1974</date>.</dateline>
                     </opener>
@@ -18215,7 +18222,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-10-07">October 7,
                                 1974</date>.</dateline>
                     </opener>
@@ -18300,7 +18307,7 @@
                                 Central Foreign Policy File, D740284–1107. Secret; Immediate; <gloss target="#t_Exdis_1">Exdis</gloss>.</p>
                   </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Moscow</placeName>, <date when="1974-10-08T08:45:00+00:00">October 8,
                             1974, 0845Z</date>.</dateline>
                     <p>15157. Subject. TTBT/PNE Negotiations</p>
@@ -18389,7 +18396,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-10-09">October 9,
                                 1974</date>.</dateline>
                     </opener>
@@ -18503,7 +18510,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-10-09">October 9,
                                 1974</date>.</dateline>
                     </opener>
@@ -18585,7 +18592,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-10-10">October 10,
                                 1974</date>.</dateline>
                     </opener>
@@ -18643,7 +18650,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1974-10-12T16:40:00+00:00">October
                                 12, 1974, 1640Z</date>.</dateline>
                     </opener>
@@ -18709,7 +18716,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-10-15">October 15,
                                 1974</date>.</dateline>
                     </opener>
@@ -18762,7 +18769,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1974-10-21">October 21,
                                 1974</date>.</dateline>
                     </opener>
@@ -19096,7 +19103,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-10-29">October 29,
                                 1974</date>.</dateline>
                     </opener>
@@ -19274,7 +19281,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-11-02">November 2,
                                 1974</date>.</dateline>
                     </opener>
@@ -19345,7 +19352,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1974-11-05T07:37:00+00:00">November
                                 5, 1974, 0737Z</date>
                   </dateline>
@@ -19405,7 +19412,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1974-11-06T17:15:00+00:00">November
                                 6, 1974, 1715Z</date>
                   </dateline>
@@ -19638,7 +19645,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-12-04">December 4,
                                 1974</date>.</dateline>
                     </opener>
@@ -19868,7 +19875,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-12-06">December 6,
                                 1974</date>.</dateline>
                     </opener>
@@ -19968,7 +19975,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-12-09">December 9,
                                 1974</date>.</dateline>
                     </opener>
@@ -20032,7 +20039,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-12-10">December 10,
                                 1974.</date>
                   </dateline>
@@ -20188,7 +20195,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Trois-îlets</placeName>, <date from="1974-12-16T11:00:00" to="1974-12-16T11:45:00">December 16, 1974, 11–11:45
                             a.m.</date>
                   </dateline>
@@ -20390,7 +20397,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     </opener>
                     <p rend="center">
@@ -21165,7 +21172,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-01-06T12:15:00">January 6, 1975, 12:15 p.m.</date>
                   </dateline>
                     </opener>
@@ -21303,7 +21310,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-01-08">January 8,
                                 1975</date>.</dateline>
                     </opener>
@@ -21585,7 +21592,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-01-13">January 13,
                                 1975</date>.</dateline>
                     </opener>
@@ -21635,7 +21642,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     </opener>
                     <list type="subject">
@@ -21676,7 +21683,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-01-15">January 15,
                                 1975</date>.</dateline>
                     </opener>
@@ -21753,7 +21760,7 @@
                             D750016–0220)</p>
                   </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Brussels</placeName>, <date when="1975-01-16T16:00:00+00:00">January
                             16, 1975, 1600Z</date>.</dateline>
                     <p>178. Subj: TTBT–<gloss target="#t_PNE_1">PNE</gloss> Negotiations and <gloss target="#t_EnMod_1">EnMod</gloss> Discussions: Letter to <gloss target="#t_NAC_1">NAC</gloss>. <gloss target="#t_REFReftel_1">Ref</gloss>: State 10042 (<gloss target="#t_Notal_1">Notal</gloss>).</p>
@@ -21923,7 +21930,7 @@
                                 found.</p>
                   </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1975-01-18T00:12:00+00:00">January
                             18, 1975, 0012Z</date>.</dateline>
                     <p>12344. Subject: Venting of Underground Explosions. Geneva for <gloss target="#t_CCD_1">CCD</gloss>.</p>
@@ -22054,7 +22061,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1975-01-27T10:50:00" to="1975-01-27T11:25:00">January 27, 1975, 10:50–11:25
                             a.m.</date>
                   </dateline>
@@ -22530,7 +22537,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-02-07">February 7,
                                 1975</date>.</dateline>
                     </opener>
@@ -22727,7 +22734,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1975-02-08T11:14:00" to="1975-02-08T12:07:00">February 8, 1975, 11:14 a.m.–12:07
                                 p.m.</date>
                   </dateline>
@@ -23236,7 +23243,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-02-09">February 9,
                                 1975</date>.</dateline>
                     </opener>
@@ -23324,7 +23331,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1975-02-14T14:47:00+00:00">February
                                 14, 1975, 1447Z</date>.</dateline>
                     </opener>
@@ -23408,7 +23415,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-02-18">February 18,
                                 1975</date>.</dateline>
                     </opener>
@@ -23541,7 +23548,7 @@
                                 on March 4 and concluded on April 10.</p>
                   </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1975-03-01T17:04:00+00:00">March 1,
                             1975, 1704Z</date>.</dateline>
                     <p>46628. Subject: <gloss target="#t_CCD_1">CCD</gloss> Spring 1975
@@ -23693,7 +23700,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-03-04">March 4,
                                 1975</date>.</dateline>
                     </opener>
@@ -23787,7 +23794,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Geneva</placeName>, <date when="1975-03-04">March 4,
                                 1975</date>.</dateline>
                     </opener>
@@ -24066,7 +24073,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Geneva</placeName>, <date when="1975-03-05T18:00:00+00:00">March 5,
                                 1975, 1800Z</date>.</dateline>
                     </opener>
@@ -24257,7 +24264,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-03-06">March 6,
                                 1975</date>.</dateline>
                     </opener>
@@ -24319,7 +24326,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-03-14">March 14,
                                 1975</date>.</dateline>
                     </opener>
@@ -24386,7 +24393,7 @@
                   </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1975-03-24T20:16:00+00:00">March
                             24, 1975, 2016Z</date>.</dateline>
 
@@ -24471,8 +24478,8 @@
                   </note>
                </head>
                     <opener>
-                  <dateline rendition="#inline-float-right"> Washington, March 24,
-                            1975</dateline>
+                  <dateline rendition="#right"> <placeName>Washington</placeName>, <date when="1975-03-24">March 24,
+                            1975</date></dateline>
                </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -24517,7 +24524,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     </opener>
                     <p rend="center">
@@ -25103,7 +25110,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date when="1975-03-27T15:49:00+00:00">March
                                 27, 1975, 1549Z</date>.</dateline>
                     </opener>
@@ -25145,7 +25152,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-03-27T21:59:00+00:00">March 27, 1975, 2159Z</date>.</dateline>
                     </opener>
                     <p>69772. Subject: Proposed <gloss target="#t_FRG_1">FRG</gloss> Nuclear Sale to
@@ -25237,7 +25244,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-04-03">April 3,
                                 1975</date>.</dateline>
                     </opener>
@@ -25305,7 +25312,7 @@
                                 in Geneva.</p>
                   </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1975-04-05T00:09:00+00:00">April 5,
                             1975, 0009Z</date>.</dateline>
                     <p>77350. Subject: TTBT/PNE Round II Negotiations: Letter to <gloss target="#t_NAC_1">NAC</gloss>. <gloss target="#t_Disto_1">Disto</gloss>.
@@ -25436,7 +25443,7 @@
                   </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Bonn</placeName>, <date when="1975-04-07T20:16:00+00:00">April 7, 1975,
                             2016Z</date>.</dateline>
 
@@ -25506,7 +25513,7 @@
                                 session see <ref target="#d41">Document 41</ref>.</p>
                   </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Geneva</placeName>, <date when="1975-04-11T08:45:00+00:00">April 11,
                             1975, 0845Z</date>.</dateline>
 
@@ -25648,7 +25655,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-04-17">April 17,
                                 1975.</date>
                   </dateline>
@@ -25848,7 +25855,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-04-18">April 18,
                                 1975</date>.</dateline>
                     </opener>
@@ -26218,7 +26225,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1975-04-19T10:21:00" to="1975-04-19T10:50:00">April 19, 1975, 10:21–10:50
                             a.m.</date>
                   </dateline>
@@ -26651,7 +26658,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-04-22">April 22,
                                 1975</date>.</dateline>
                     </opener>
@@ -26725,7 +26732,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-05-02">May 2,
                                 1975</date>.</dateline>
                     </opener>
@@ -26819,7 +26826,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-05-02">May 2,
                                 1975</date>.</dateline>
                     </opener>
@@ -26942,7 +26949,7 @@
                                 and concluded on May 30.</p>
                   </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Geneva</placeName>, <date when="1975-05-06T12:33:00+00:00">May 6, 1975,
                             1233Z</date>.</dateline>
                     <p>3239. From <gloss target="#t_USDel_1">U.S. Del</gloss>
@@ -27066,7 +27073,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Geneva</placeName>, <date when="1975-05-06">May 6,
                                 1975</date>.</dateline>
                     </opener>
@@ -27320,7 +27327,7 @@
                                 conference. (Ibid., D750191–1002)</p>
                   </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Geneva</placeName>, <date when="1975-05-12T12:00:00+00:00">May 12,
                             1975, 1200Z</date>.</dateline>
                     <p>3427. Subj: <gloss target="#t_NPT_1">NPT</gloss> RevCon: Analysis of First
@@ -27454,7 +27461,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-05-15">May 15,
                                 1975</date>.</dateline>
                     </opener>
@@ -27538,7 +27545,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     </opener>
                     <p rend="center">
@@ -27843,7 +27850,7 @@
                                 Policy File, D750090–0805)</p>
                   </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1975-06-06T23:24:00+00:00">June 6,
                             1975, 2324Z</date>.</dateline>
                     <p>133038. Subject: Oral Démarche to Soviets on Venting. For <gloss target="#t_USDel_1">USDel</gloss>—TTBT/PNE Talks.</p>
@@ -27920,7 +27927,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-06-11">June 11,
                                 1975</date>.</dateline>
                     </opener>
@@ -28007,7 +28014,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-06-12">June 12,
                                 1975</date>.</dateline>
                     </opener>
@@ -28098,7 +28105,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     </opener>
                     <p rend="center">
@@ -28558,7 +28565,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-06-14">June 14,
                                 1975</date>.</dateline>
                     </opener>
@@ -28623,7 +28630,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     </opener>
 
@@ -28824,7 +28831,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-07-01">July 1,
                                 1975</date>.</dateline>
                     </opener>
@@ -28887,7 +28894,7 @@
                   </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1975-07-07T19:13:00+00:00">July 7,
                             1975, 1913Z</date>.</dateline>
                     <p>159191. Subject: Soviet Response on Our Venting Démarche. <gloss target="#t_REFReftel_1">Ref</gloss>: State 133038. For <gloss target="#t_USDel_1">USDel</gloss>—TTB/PNE Talks.</p>
@@ -28946,7 +28953,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-07-08">July 8,
                                 1975</date>.</dateline>
                     </opener>
@@ -29132,7 +29139,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-07-24">July 24,
                                 1975</date>.</dateline>
                     </opener>
@@ -29280,7 +29287,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-09-04">September 4,
                                 1975</date>.</dateline>
                     </opener>
@@ -29443,7 +29450,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-09-06">September 6,
                                 1975</date>.</dateline>
                     </opener>
@@ -29688,7 +29695,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-09-08">September 8,
                                 1975</date>.</dateline>
                     </opener>
@@ -29770,7 +29777,7 @@
                                 163</ref>.</p>
                   </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Moscow</placeName>, <date when="1975-09-10T16:40:00+00:00">September
                             10, 1975, 1640Z</date>.</dateline>
                     <p>12888. Subject: Soviet Disarmament Initiatives in the <gloss target="#t_UNGA_1">UNGA</gloss>.</p>
@@ -29810,7 +29817,7 @@
                                 459–463. Telegram 12888 from Moscow, September 10, is <ref target="#d162">Document 162</ref>.</p>
                         </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Moscow</placeName>, <date when="1975-09-11T13:31:00+00:00">September
                             11, 1975, 1331Z</date>.</dateline>
                     <p>12947. Subject: Soviet <gloss target="#t_UN_1">UN</gloss> Draft on Nuclear
@@ -29940,7 +29947,7 @@
                                 General Assembly on September 30. For the text, see <hi rend="italic">Documents on Disarmament 1975,</hi> p. 495.</p>
                         </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1975-10-29T18:43:00+00:00">October
                             29, 1975, 1843Z</date>.</dateline>
                     <p>256194. Subject: Soviet Arms Control Initiatives.</p>
@@ -30081,7 +30088,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-11-18">November 18,
                                 1975</date>.</dateline>
                     </opener>
@@ -30186,7 +30193,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-12-10">December 10,
                                 1975</date>.</dateline>
                     </opener>
@@ -30262,7 +30269,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-12-22">December 22,
                                 1975</date>.</dateline>
                     </opener>
@@ -30333,7 +30340,7 @@
                         </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1975-12-23T22:49:00+00:00">December
                             23, 1975, 2249Z</date>.</dateline>
 
@@ -30415,7 +30422,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-01-19">January 19,
                                 1976</date>.</dateline>
                     </opener>
@@ -30486,7 +30493,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Moscow</placeName>, <date from="1976-01-23T09:34:00" to="1976-01-23T11:45:00">January 23, 1976, 9:34–11:45
                             a.m.</date>
                   </dateline>
@@ -30690,7 +30697,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-01-30">January 30,
                                 1976</date>.</dateline>
                     </opener>
@@ -30891,7 +30898,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-02-04">February 4,
                                 1976</date>.</dateline>
                     </opener>
@@ -30990,7 +30997,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-02-09">February 9,
                                 1976</date>.</dateline>
                     </opener>
@@ -31061,7 +31068,7 @@
                                 D760057–0705) For <persName corresp="#p_KHA_1">Kissinger</persName>’s earlier discussion in Moscow, see <ref target="#d170">Document 170</ref>.</p>
                         </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Moscow</placeName>, <date when="1976-02-13T15:24:00+00:00">February 13,
                             1976, 1524Z</date>.</dateline>
                     <p>2218. Subject: Soviets Propose <gloss target="#t_WMD_1">WMD</gloss>
@@ -31118,7 +31125,7 @@
                         </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Geneva</placeName>, <date when="1976-02-18T11:48:00+00:00">February 18,
                             1976, 1148Z</date>.</dateline>
 
@@ -31226,7 +31233,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-02-23">February 23,
                                 1976</date>.</dateline>
                     </opener>
@@ -31340,7 +31347,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     </opener>
                     <list type="subject">
@@ -31670,7 +31677,7 @@
                                 17 statement, see <ref target="#d175">Document 175</ref>.</p>
                         </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Geneva</placeName>, <date when="1976-03-04T17:47:00+00:00">March 4,
                             1976, 1747Z</date>.</dateline>
                     <p>1662. <gloss target="#t_Disto_1">Disto</gloss>. Subject: <gloss target="#t_CCD_1">CCD</gloss> 691st Plenary Meeting, March 4, 1976.</p>
@@ -31763,7 +31770,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1976-03-08T18:00:00" to="1976-03-08T18:30:00">March 8, 1976, 6–6:30
                             p.m.</date>
                   </dateline>
@@ -32021,7 +32028,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-03-09">March 9,
                                 1976</date>.</dateline>
                     </opener>
@@ -32459,7 +32466,7 @@
                </head>
 
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-03-11">March 11,
                                 1976</date>.</dateline>
                     </opener>
@@ -32561,7 +32568,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-03-15">March 15,
                                 1976</date>.</dateline>
                     </opener>
@@ -32764,7 +32771,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-03-24">March 24,
                                 1976</date>.</dateline>
                     </opener>
@@ -32852,7 +32859,7 @@
                                 the statement to news correspondents that day.</p>
                         </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Moscow</placeName>, <date when="1976-04-03T11:30:00+00:00">April 3,
                             1976, 1130Z</date>.</dateline>
                     <p>5117. Subject: <hi rend="italic">Pravda</hi> on White House TTBT
@@ -32905,7 +32912,7 @@
                                 211–221.</p>
                         </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1976-04-08T11:36:00+00:00">April 8,
                             1976, 1136Z</date>.</dateline>
                     <p>85198. Subject: <gloss target="#t_CCD_1">CCD</gloss>—Guidance on Chemical
@@ -33130,7 +33137,7 @@
                                 April 8. See <ref target="#d192">Document 192</ref>.</p>
                         </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Moscow</placeName>, <date when="1976-04-13T05:11:00+00:00">April 13,
                             1976, 0511Z</date>.</dateline>
                     <p>5682. Subject: My Call on <persName corresp="#p_GAA_2">Gromyko</persName>:
@@ -33207,7 +33214,7 @@
                         </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Geneva</placeName>, <date when="1976-04-15T11:50:00+00:00">April 15,
                             1976, 1150Z</date>.</dateline>
 
@@ -33438,7 +33445,7 @@
                         </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1976-04-16T18:12:00+00:00">April
                             16, 1976, 1812Z</date>.</dateline>
 
@@ -33534,7 +33541,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-04-19">April 19,
                                 1976</date>.</dateline>
                     </opener>
@@ -33627,7 +33634,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-04-20">April 20,
                                 1976</date>.</dateline>
                     </opener>
@@ -33710,7 +33717,7 @@
                         </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1976-04-21T01:18:00+00:00">April
                             21, 1976, 0118Z</date>.</dateline>
 
@@ -33868,7 +33875,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-04-22">April 22,
                                 1976</date>.</dateline>
                     </opener>
@@ -33947,7 +33954,7 @@
                         </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Geneva</placeName>, <date when="1976-04-23T15:14:00+00:00">April 23,
                             1976, 1514Z</date>.</dateline>
 
@@ -34093,7 +34100,7 @@
                         </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Moscow</placeName>, <date when="1976-04-26T15:04:00+00:00">April 26,
                             1976, 1504Z</date>.</dateline>
 
@@ -34255,7 +34262,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-05-27">May 27,
                                 1976</date>.</dateline>
                     </opener>
@@ -34392,7 +34399,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-06-09">June 9,
                                 1976</date>.</dateline>
                     </opener>
@@ -34526,7 +34533,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-06-10">June 10,
                                 1976</date>.</dateline>
                     </opener>
@@ -34593,7 +34600,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-06-22">June 22,
                                 1976</date>.</dateline>
                     </opener>
@@ -34670,7 +34677,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     </opener>
                     <p rend="center">
@@ -34938,7 +34945,7 @@
                                     Asia, 1973–1976, Document 232</ref>.</p>
                   </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1976-07-26T08:09:00">July 26,
                             1976, 8:09 a.m.</date>
                </dateline>
@@ -35035,7 +35042,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-08-05">August 5,
                                 1976</date>.</dateline>
                     </opener>
@@ -35102,7 +35109,7 @@
                         </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1976-08-07T01:31:00+00:00">August
                             7, 1976, 0131Z</date>.</dateline>
 
@@ -35149,7 +35156,7 @@
                   </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Moscow</placeName>, <date when="1976-08-11T13:23:00+00:00">August 11,
                             1976, 1323Z</date>.</dateline>
 
@@ -35187,7 +35194,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-09-04">September 4,
                                 1976</date>.</dateline>
                     </opener>
@@ -35506,7 +35513,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-09-06">September 6,
                                 1976</date>.</dateline>
                     </opener>
@@ -35732,7 +35739,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-09-15">September 15,
                                 1976</date>.</dateline>
                     </opener>
@@ -36092,7 +36099,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-09-23">September 23,
                                 1976</date>.</dateline>
                     </opener>
@@ -36305,7 +36312,7 @@
                   </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>New York</placeName>, <date when="1976-09-29T00:53:00+00:00">September
                             29, 1976, 0053Z</date>.</dateline>
 
@@ -36488,7 +36495,7 @@
                   </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Moscow</placeName>, <date when="1976-10-15T16:09:00+00:00">October 15,
                             1976, 1609Z</date>.</dateline>
 
@@ -36594,7 +36601,7 @@
                                     1976–77,</hi> Book III, pp. 2673–2678.</p>
                   </note>
                </head>
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1976-10-18T08:10:00">October
                             18, 1976, 8:10 a.m.</date>
                </dateline>
@@ -36868,7 +36875,7 @@
                   </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Moscow</placeName>, <date when="1976-10-19T15:02:00+00:00">October 19,
                             1976, 1502Z</date>.</dateline>
 
@@ -36958,7 +36965,7 @@
                         </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date when="1976-10-28">October 28,
                             1976</date>.</dateline>
 
@@ -37589,7 +37596,7 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-12-15">December 15,
                                 1976</date>.</dateline>
                     </opener>
@@ -37654,7 +37661,7 @@
                   </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date>undated</date>.</dateline>
                     </opener>
                     <list type="subject">
@@ -37815,8 +37822,8 @@
                         </note>
                </head>
                     <opener>
-                        <dateline rendition="#inline-float-right">
-                            <placeName>Washington</placeName>, December 29, 1976</dateline>
+                        <dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1976-12-29">December 29, 1976</date></dateline>
                     </opener>
                     <p rend="center">BACKGROUND PAPER FOR THE <gloss target="#t_SRG_1">SRG</gloss>
                         ON 29 DECEMBER, 1976, ON ACQUISITION OF A BINARY <gloss target="#t_CW_1">CW</gloss> MUNITION FACILITY</p>
@@ -38176,7 +38183,7 @@
                         </note>
                </head>
 
-                    <dateline rendition="#inline-float-right">
+                    <dateline>
                         <placeName>Washington</placeName>, <date from="1976-12-29T15:07:00" to="1976-12-29T16:03:00">December 29, 1976, 3:07–4:03
                         p.m.</date>
                </dateline>
