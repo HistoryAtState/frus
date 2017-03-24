@@ -254,6 +254,9 @@
         <rule context="tei:dateline[matches(., 'undated', 'i')]">
             <assert test="exists(.//tei:date)">Please tag "undated" in this dateline with a &lt;date&gt; element.</assert>
         </rule>
+        <rule context="tei:dateline">
+            <assert test="tei:date">Datelines must contain a date element</assert>
+        </rule>
         <rule context="tei:date[ancestor::tei:dateline]">
             <assert test="
                 (@from and @to) 
