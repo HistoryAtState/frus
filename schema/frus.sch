@@ -309,8 +309,8 @@
     
     <pattern id="empty-missing-content-checks">
         <title>Empty/Missing Content Checks</title>
-        <rule context="tei:p | tei:gloss | tei:persName | tei:placeName">
-            <assert test="count(./node()) gt 0"><value-of select="name(.)"/> elements cannot be empty.</assert>
+        <rule context="tei:p | tei:gloss | tei:persName | tei:placeName | tei:seg">
+            <assert test="count(./node()) gt 0 and normalize-space(.) ne ''"><value-of select="name(.)"/> elements cannot be empty.</assert>
         </rule>
         <rule context="tei:editor">
             <assert test="./parent::tei:titleStmt">An editor element is allowed only in the tei:titleStmt element.</assert>
