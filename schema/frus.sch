@@ -17,6 +17,7 @@
     <let name="category-ids" value="//tei:category/@xml:id"/>
     <let name="persName-ids" value="//tei:persName/@xml:id"/>
     <let name="term-ids" value="//tei:term/@xml:id"/>
+    <let name="rendition-ids" value="//tei:rendition/@xml:id"/>
     <let name="documents" value="//tei:div[@type='document']"/>
     <let name="vol-id" value="/tei:TEI/@xml:id"/>
     <let name="available-images" value="doc(concat('https://history.state.gov/services/volume-images?volume=', $vol-id))//image"/>
@@ -123,6 +124,13 @@
         </rule>
         <rule context="tei:del">
             <assert test="./@rend = 'strikethrough'">del/@rend='<value-of select="@rend"/>' is an invalid value.  Only the following value is allowed: strikethrough</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="att-rendition-checks">
+        <title>Rendition Attribute Value Checks</title>
+        <rule context="@rendition">
+            <assert test="every $rendition-ref in (tokenize(., '\s+') ! substring-after(., '#')) satisfies $rendition-ref = $rendition-ids">The rendition ID '<value-of select="."/>' is not defined in the teiHeader's list of renditions: <value-of select="string-join($rendition-ids, ', ')"/></assert>
         </rule>
     </pattern>
     
