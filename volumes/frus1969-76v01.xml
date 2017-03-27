@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="frus1969-76v01">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1969-76v01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -1989,7 +1987,10 @@
                             1967 by the Council on Foreign Relations, Inc.</note>
                     </head>
                     <dateline>
-                        <date notBefore="1967-10-01T00:00:00-04:00" notAfter="1967-10-31T23:59:59-05:00" ana="#date_imprecise-inferred-from-date-rules" when="1967-10">October 1967</date>
+                        <date notBefore="1967-10-01T00:00:00-04:00"
+                            notAfter="1967-10-31T23:59:59-05:00"
+                            ana="#date_imprecise-inferred-from-date-rules" when="1967-10">October
+                            1967</date>
                     </dateline>
                     <p rend="center">ASIA AFTER VIET NAM</p>
                     <p>The war in Viet Nam has for so long dominated our field of vision that it has
@@ -2456,7 +2457,8 @@
                             1968)</note>
                     </head>
                     <dateline>
-                        <date when="1969-04-01" ana="#date_imprecise-inferred-from-outside-research">1969</date>
+                        <date when="1969-04-01" ana="#date_imprecise-inferred-from-outside-research"
+                            >1969</date>
                     </dateline>
                     <p rend="center">CENTRAL ISSUES OF AMERICAN FOREIGN POLICY</p>
                     <p>The twentieth century has known little repose. Since the turn of the century,

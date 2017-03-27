@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="frus1955-57v23p2">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1955-57v23p2">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -8183,7 +8181,9 @@
                                 approved by <persName corresp="#p_MCRJC1">McClurkin</persName>.
                                 Repeated to Tokyo.</note></head>
                         <dateline>
-                            <date notBefore="1955-07-02T00:00:00-04:00" notAfter="1955-07-04T23:59:59-04:00" ana="#date_undated-inferred-from-document-content">undated</date>
+                            <date notBefore="1955-07-02T00:00:00-04:00"
+                                notAfter="1955-07-04T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                         <p>3. Tokyo pass <gloss target="#t_CINCUNC1">CINCUNC</gloss>. Seoul pass
                                 <gloss target="#t_OEC1">OEC</gloss>. Subject is Economic
