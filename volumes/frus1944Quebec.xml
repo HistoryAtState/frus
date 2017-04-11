@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1944Quebec">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1944Quebec">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -60,6 +60,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-03-06 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -9394,10 +9397,12 @@
                                                 out immediately.”</p>
                                         </quote></item>
                                 </list></p>
-                            <closer><signed>S[<hi rend="smallcaps">imon</hi>]</signed></closer>
-                            <postscript>
-                                <p>[<hi rend="smallcaps">London</hi>,] 4th September, 1944.</p>
-                            </postscript>
+                            <closer>
+                                <signed>S[<hi rend="smallcaps">imon</hi>]</signed>
+                                <dateline>[<placeName><hi rend="smallcaps">London</hi></placeName>,]
+                                        <date when="1944-09-04">4th September,
+                                    1944</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d80" n="80">
                             <note rend="inline" type="source">740.00119 <gloss target="#t_EW1"
@@ -20907,6 +20912,11 @@
                     <div type="document" xml:id="d169" n="169">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">The Presidents Log</hi></head>
+                        <dateline>
+                            <date from="1944-09-09T22:10:00-04:00" to="1944-09-21T08:00:00-04:00"
+                                ana="#date_undated-inferred-from-document-content">September 9,
+                                1944, 10:10 p.m. to September 21, 1944, 8 a.m.</date>
+                        </dateline>
                         <p rend="center"><hi rend="smallcaps">Foreword</hi></p>
                         <p>The Quebec Conference in September 1944 marked the eleventh wartime
                             meeting of President Roosevelt and Prime Minister Churchill. They first
@@ -22149,7 +22159,17 @@
                             <div type="document" xml:id="d173" n="173">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
+                                <dateline>
+                                    <date when="1944-09-12T12:00:00-04:00"
+                                        ana="#date_undated-inferred-from-chapter-heading">September
+                                        12, 1944, noon</date>
+                                </dateline>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
+                                <dateline>
+                                    <date when="1944-09-12"
+                                        ana="#date_undated-inferred-from-chapter-heading">September
+                                        12, 1944</date>
+                                </dateline>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
@@ -22654,6 +22674,11 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
+                                <dateline>
+                                    <date when="1944-09-12T14:30:00-04:00"
+                                        ana="#date_undated-inferred-from-chapter-heading">September
+                                        12, 1944, 2:30 p.m.</date>
+                                </dateline>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
@@ -23116,6 +23141,11 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">McFarland Minutes</hi></head>
+                                <dateline>
+                                    <date when="1944-09-13T11:45:00-04:00"
+                                        ana="#date_undated-inferred-from-chapter-heading">September
+                                        13, 1944, 11:45 a.m.</date>
+                                </dateline>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
@@ -23611,6 +23641,11 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
+                                <dateline>
+                                    <date when="1944-09-13T14:30:00-04:00"
+                                        ana="#date_undated-inferred-from-chapter-heading">September
+                                        13, 1944, 2:30 p.m.</date>
+                                </dateline>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
@@ -24437,6 +24472,11 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
+                                <dateline>
+                                    <date when="1944-09-14T10:00:00-04:00"
+                                        ana="#date_undated-inferred-from-chapter-heading">September
+                                        14, 1944, 10 a.m.</date>
+                                </dateline>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
@@ -25326,6 +25366,11 @@
                                         contained an important garble—“32 billion dollars” instead
                                         of “3½ billion dollars”—in the second paragraph (740.0011
                                             <gloss target="#t_EW1">EW</gloss>/8–1843).</note></head>
+                                <dateline>
+                                    <date when="1944-09-14T11:30:00-04:00"
+                                        ana="#date_undated-inferred-from-chapter-heading">September
+                                        14, 1944, 11:30 a.m.</date>
+                                </dateline>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
@@ -25875,6 +25920,11 @@
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Minutes</hi><note n="1" xml:id="d193fn1"
                                         >Authorship not indicated.</note></head>
+                                <dateline>
+                                    <date when="1944-09-15"
+                                        ana="#date_undated-inferred-from-chapter-heading">September
+                                        15, 1944</date>
+                                </dateline>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
@@ -26164,6 +26214,11 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
+                                <dateline>
+                                    <date when="1944-09-15T10:00:00-04:00"
+                                        ana="#date_undated-inferred-from-chapter-heading">September
+                                        15, 1944, 10 a.m.</date>
+                                </dateline>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
@@ -27681,6 +27736,11 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S</gloss> Files</note>
                                 <head><hi rend="italic">Joint Chiefs of Staff Minutes</hi></head>
+                                <dateline>
+                                    <date when="1944-09-16T10:15:00-04:00"
+                                        ana="#date_undated-inferred-from-chapter-heading">September
+                                        16, 1944, 10:15 a.m.</date>
+                                </dateline>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
@@ -27876,6 +27936,11 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
+                                <dateline>
+                                    <date when="1944-09-16T10:15:00-04:00"
+                                        ana="#date_undated-inferred-from-chapter-heading">September
+                                        16, 1944, 10:15 a.m.</date>
+                                </dateline>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
@@ -28108,6 +28173,11 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">McFarland Minutes</hi></head>
+                                <dateline>
+                                    <date when="1944-09-16T10:15:00-04:00"
+                                        ana="#date_undated-inferred-from-chapter-heading">September
+                                        16, 1944, 10:15 a.m.</date>
+                                </dateline>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
@@ -28988,7 +29058,11 @@
                                 Germany into largely an agricultural country.</p>
                             <p>The Prime Minister and the President were in agreement upon this
                                 programme.</p>
-                            <p>[<hi rend="smallcaps">Quebec</hi>,] September 15, 1944.</p>
+                            <closer>
+                                <dateline>[<placeName><hi rend="smallcaps">Quebec</hi></placeName>,]
+                                        <date when="1944-09-15">September 15,
+                                    1944</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d217" n="217">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
@@ -31293,7 +31367,11 @@
                             <p>I hope that you will understand the seriousness of the considerations
                                 expressed here and that we shall find a harmonious solution of this
                                 question as well.</p>
-                            <p>[<hi rend="smallcaps">Moscow</hi>,] September 14, 1944.</p>
+                            <closer>
+                                <dateline>[<placeName><hi rend="smallcaps">Moscow</hi></placeName>,]
+                                        <date when="1944-09-14">September 14,
+                                    1944</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d251" n="251">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
@@ -33524,10 +33602,12 @@
                                     the Second Quebec Conference. For text of the Communiqué, see
                                         <hi rend="italic">post</hi>, <ref target="#pg_477">p.
                                         477</ref>.</note></p>
-                            <closer><signed>H. L. <hi rend="smallcaps">Ismay</hi></signed></closer>
-                            <postscript>
-                                <p>[<hi rend="smallcaps">Quebec</hi>,] 15th September, 1944.</p>
-                            </postscript>
+                            <closer>
+                                <signed>H. L. <hi rend="smallcaps">Ismay</hi></signed>
+                                <dateline>[<placeName><hi rend="smallcaps">Quebec</hi></placeName>,]
+                                        <date when="1944-09-15">15th September,
+                                    1944</date>.</dateline>
+                            </closer>
                             <frus:attachment>
                                 <opener>
                                     <seg rendition="#center">[Enclosure]</seg>
@@ -34373,7 +34453,11 @@
                                         xml:id="d283fn3">The “OK” on the source text and Roosevelt’s
                                         initials are in the President’s handwriting. Churchill’s
                                         initials and the date “15.9” are in the Prime Minister’s
-                                        handwriting.</note>   </closer>
+                                        handwriting.</note>
+                                    <dateline>[<placeName><hi rend="smallcaps"
+                                            >Quebec</hi></placeName>,] <date when="1944-09-15"
+                                            >September 15, 1944</date>.</dateline>
+                                </closer>
                                 <postscript>
                                     <p>[<hi rend="smallcaps">Quebec</hi>,] September 15, 1944.</p>
                                 </postscript>
@@ -34405,14 +34489,16 @@
                                         to Stalin dated September 17, 1944, <hi rend="italic"
                                             >post</hi>, <ref target="#pg_489">p. 489</ref>.</note>
                                     and to concert with him a list of names.</p>
-                                <closer><signed>OK   F[<hi rend="smallcaps">ranklin</hi>] D R[<hi
+                                <closer>
+                                    <signed>OK   F[<hi rend="smallcaps">ranklin</hi>] D R[<hi
                                             rend="smallcaps">oosevelt</hi>]</signed><note n="3"
                                         xml:id="d284fn3">On the source text “OK FDR” appears in
                                         Roosevelt’s handwriting. No indication is given that the
-                                        minute was initialed by Churchill.</note></closer>
-                                <postscript>
-                                    <p>[<hi rend="smallcaps">Quebec</hi>,] 15th September, 1944.</p>
-                                </postscript>
+                                        minute was initialed by Churchill.</note>
+                                    <dateline>[<placeName><hi rend="smallcaps"
+                                            >Quebec</hi></placeName>,] <date when="1944-09-15">15th
+                                            September, 1944</date>.</dateline>
+                                </closer>
                             </div>
                         </div>
                         <pb n="468" xml:id="pg_468" facs="0530"/>
@@ -34475,14 +34561,17 @@
                                         xml:id="d285fn3">The “OK” on the source text and Roosevelt’s
                                         initials are in the President’s handwriting. Churchill’s
                                         initials and the date “15.9” are in the Prime Minister’s
-                                        handwriting.</note>   </closer>
-                                <postscript>
-                                    <p><hi rend="smallcaps">Quebec</hi>, September 14th, 1944.<note
-                                            n="4" xml:id="d285fn4">This typed date appears on the
-                                            source text, but the memorandum was not actually
-                                            initialed until the following day, as indicated by the
-                                            handwritten date “15.9” added by Churchill.</note></p>
-                                </postscript>
+                                        handwriting.</note>
+                                    <dateline>
+                                        <placeName>
+                                            <hi rend="smallcaps">Quebec</hi>
+                                        </placeName>, <date when="1944-09-14">September 14th,
+                                            1944</date>.<note n="4" xml:id="d285fn4">This typed date
+                                            appears on the source text, but the memorandum was not
+                                            actually initialed until the following day, as indicated
+                                            by the handwritten date “15.9” added by
+                                            Churchill.</note></dateline>
+                                </closer>
                             </div>
                         </div>
                         <pb n="469" xml:id="pg_469" facs="0531"/>
@@ -34522,10 +34611,11 @@
                                         handwriting. As Colville’s memorandum quoted in fn. 1,
                                         above, refers to the agreement reached “yesterday”,
                                         September 15 appears to be the correct date for this
-                                        paper.</note></closer>
-                                <postscript>
-                                    <p>[<hi rend="smallcaps">Quebec</hi>,] 15th September, 1944.</p>
-                                </postscript>
+                                        paper.</note>
+                                    <dateline>[<placeName><hi rend="smallcaps"
+                                            >Quebec</hi></placeName>,] <date when="1944-09-15">15th
+                                            September, 1944</date>.</dateline>
+                                </closer>
                             </div>
                         </div>
                         <div type="subchapter" xml:id="ch5subsubch4">
@@ -35861,10 +35951,13 @@
                                 judgment of the countries where their crimes have been
                                 committed.</item>
                         </list>
-                        <p>17.9.44.<note n="7" xml:id="d296fn7">This draft was typed on the Prime
-                                Minister’s stationery, bearing the address “10, Downing Street,
-                                Whitehall”, in preparation for Churchill’s conversations with
-                                Roosevelt at Hyde Park.</note></p>
+                        <closer>
+                            <dateline><date when="1944-09-17">17.9.44</date>.<note n="7"
+                                    xml:id="d296fn7">This draft was typed on the Prime Minister’s
+                                    stationery, bearing the address “10, Downing Street, Whitehall”,
+                                    in preparation for Churchill’s conversations with Roosevelt at
+                                    Hyde Park.</note></dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d297" n="297">
                         <note rend="inline" type="source"><gloss target="#t_PR1">PR</gloss> 10
@@ -35929,11 +36022,12 @@
                                 meet on this and other important topics as soon as the war situation
                                 allows.</item>
                         </list>
-                        <closer><signed>W[<hi rend="smallcaps">inston</hi>] S C[<hi rend="smallcaps"
-                                    >hurchill</hi>]</signed></closer>
-                        <postscript>
-                            <p>[<hi rend="smallcaps">Hyde Park</hi>,] September 18, 1944.</p>
-                        </postscript>
+                        <closer>
+                            <signed>W[<hi rend="smallcaps">inston</hi>] S C[<hi rend="smallcaps"
+                                    >hurchill</hi>]</signed>
+                            <dateline>[<placeName><hi rend="smallcaps">Hyde Park</hi></placeName>,]
+                                    <date when="1944-09-18">September 18, 1944</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d298" n="298">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
@@ -36249,7 +36343,10 @@
                                     throughout Italy, and when Italy can earn her proper place in
                                     the great family of free nations.”</p>
                             </quote></p>
-                        <p>[<hi rend="smallcaps">Hyde Park</hi>,] September 19, 1944.</p>
+                        <closer>
+                            <dateline>[<placeName><hi rend="smallcaps">Hyde Park</hi></placeName>,]
+                                    <date when="1944-09-19">September 19, 1944</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d303" n="303">
                         <head><hi rend="italic">Editorial Note</hi></head>
