@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1942v05">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1942v05">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -58,6 +58,9 @@
                         </list></p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-03-06 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -3211,6 +3214,10 @@
                                     >Spaeth</hi></persName>)<note n="10" xml:id="d51fn10"
                                 >Transmitted to the Secretary of State by Mr. Spaeth in covering
                                 letter of July 6, 1942.</note></head>
+                        <dateline>
+                            <date when="1942-07-06" ana="#date_undated-inferred-from-document-head"
+                                >undated</date>
+                        </dateline>
                         <p>[The first four sections of this report indicate the name of the
                             Conference, a citation to its agenda, a summary of the representation of
                             the participating countries, and an outline of the committee
@@ -5059,6 +5066,10 @@
                         <head><hi rend="italic">Resolution on Clandestine Radio Communications
                                 Approved by the Emergency Advisory Committee for Political Defense
                                 on September 11, 1942</hi></head>
+                        <dateline>
+                            <date when="1942-09-11" ana="#date_undated-inferred-from-document-head"
+                                >September 11, 1942</date>
+                        </dateline>
                         <opener>
                             <seg rendition="#center">[Translation]</seg>
                         </opener>
@@ -5284,6 +5295,11 @@
                                 report of the Regional Meeting at Rivera concerning the entry and
                                 departure of individuals and clandestine transit across
                                 borders.</note></head>
+                        <dateline>
+                            <date when="1942-10-16"
+                                ana="#date_undated-inferred-from-document-content">October 16,
+                                1942</date>
+                        </dateline>
                         <p>This meeting was held at the instance of Brazil and upon the decision of
                             the Advisory Committee. Five countries—Argentina, Bolivia, Brazil,
                             Paraguay and Uruguay—were represented and two members of the Committee
@@ -5383,6 +5399,10 @@
                                 xml:id="d73fn32">Transmitted to the Department by the Chairman of
                                 the Committee with his communication of November 10, 1942; received
                                 November 27.</note></head>
+                        <dateline>
+                            <date when="1942-10-16"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <opener>
                             <seg rendition="#center">[Translation]</seg>
                         </opener>
@@ -9837,7 +9857,13 @@
                             are additional and sufficient reasons for further implementing Argentine
                             telecommunications control in still closer adherence to Resolution XL
                             adopted at Rio de Janeiro.</p>
-                        <p><hi rend="smallcaps">Buenos Aires</hi>, December 11, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Buenos Aires</hi>
+                                </placeName>, <date when="1942-12-11">December 11,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="181" xml:id="pg_181" facs="0193"/>
                     <div type="document" xml:id="d160" n="160">
@@ -11047,7 +11073,13 @@
                             felt sure would be taken by the Government of Argentina to implement the
                             resolutions subscribed at Río de Janeiro. The Government of the United
                             States does not doubt that this confidence is justified.</p>
-                        <p><hi rend="smallcaps">Buenos Aires</hi>, July 6, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Buenos Aires</hi>
+                                </placeName>, <date when="1942-07-06">July 6,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d198" n="198">
                         <note rend="inline" type="source">710.Consultation (3)/812</note>
@@ -11174,7 +11206,13 @@
                             Janeiro, which will be gradually completed in the methodical and
                             progressive manner which the organization and the administrative
                             requirements of the country may permit.</p>
-                        <p><hi rend="smallcaps">Buenos Aires</hi>, July 8, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Buenos Aires</hi>
+                                </placeName>, <date when="1942-07-08">July 8,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d199" n="199">
                         <note rend="inline" type="source">710.Consultation 3/816</note>
@@ -11490,7 +11528,13 @@
                                     territory from being used to the detriment of the military
                                     interests of those countries.”</item>
                             </list></p>
-                        <p><hi rend="smallcaps">Washington</hi>, October 10, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-10-10">October 10,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d202" n="202">
                         <note rend="inline" type="source">862.20210/1982: Airgram</note>
@@ -12551,7 +12595,13 @@
                             American republics, the Government of the United States feels free to
                             make such distribution of the present memorandum and its attachment as
                             it may deem desirable.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, November 4, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-11-04">November 4,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="233" xml:id="pg_233" facs="0245"/>
                     <div type="document" xml:id="d215" n="215">
@@ -13178,7 +13228,13 @@
                         <p>In these circumstances, any premature publicity might bring about results
                             concerning which the Argentine Government deems it a duty to state that
                             it declines all responsibility.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, November 7, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-11-07">November 7,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d230" n="230">
                         <note rend="inline" type="source">862.20210/2032¾</note>
@@ -15002,10 +15058,10 @@
                                 >Secretary of State for Foreign Affairs</hi><lb/>The Public Roads
                             Administration<lb/>By: <signed><hi rend="smallcaps">Avra</hi> M. <hi
                                     rend="smallcaps">Warren</hi></signed><lb/><hi rend="italic"
-                                >Commissioner American Minister at Ciudad Trujillo DR</hi></closer>
-                        <postscript>
-                            <p>Signed this 9th day of November, 1942.</p>
-                        </postscript>
+                                >Commissioner American Minister at Ciudad Trujillo DR</hi>
+                            <dateline>Signed this <date when="1942-11-09">9th day of November,
+                                    1942</date>.</dateline>
+                        </closer>
                     </div>
                 </div>
                 <pb n="280" xml:id="pg_280" facs="0292"/>
@@ -17892,7 +17948,13 @@
                             considerations set forth above, this Government will welcome a
                             discussion relative to specific commodities, the shortage of which has
                             necessitated the proposed course of action.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, March 23, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-03-23">March 23,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d330" n="330">
                         <note rend="inline" type="source">835.24/389½</note>
@@ -21729,7 +21791,12 @@
                             without the obligation of replacement and thus not render it necessary
                             for ships in need of repairs to proceed to other ports where facilities
                             might be less adequate than those in Argentine shipyards.</p>
-                        <p><hi rend="smallcaps">Buenos Aires</hi>, May 8, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Buenos Aires</hi>
+                                </placeName>, <date when="1942-05-08">May 8, 1942</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="406" xml:id="pg_406" facs="0418"/>
                     <div type="document" xml:id="d390" n="390">
@@ -24690,7 +24757,13 @@
                             potential source of income in this country.</p>
                         <p>It would seem that the aforementioned transaction is inconsistent with
                             Resolution V of the Rio de Janeiro Conference.</p>
-                        <p><hi rend="smallcaps">Buenos Aires</hi>, April 9, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Buenos Aires</hi>
+                                </placeName>, <date when="1942-04-09">April 9,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d441" n="441">
                         <note rend="inline" type="source">740.00112A European War 1939/11135</note>
@@ -24719,7 +24792,13 @@
                             that the United States Government considers the transfers in question to
                             constitute a serious violation of Resolution V of the Rio de Janeiro
                             Conference.</p>
-                        <p><hi rend="smallcaps">Buenos Aires</hi>, April 9, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Buenos Aires</hi>
+                                </placeName>, <date when="1942-04-09">April 9,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="463" xml:id="pg_463" facs="0475"/>
                     <div type="document" xml:id="d442" n="442">
@@ -25068,7 +25147,12 @@
                         <p>The Ministry of Foreign Affairs and Worship avails itself of this
                             opportunity to present its compliments to the Embassy of the United
                             States of America.</p>
-                        <p><hi rend="smallcaps">Buenos Aires</hi>, May 8, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Buenos Aires</hi>
+                                </placeName>, <date when="1942-05-08">May 8, 1942</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="470" xml:id="pg_470" facs="0482"/>
                     <div type="document" xml:id="d445" n="445">
@@ -25083,7 +25167,11 @@
                                     target="#pg_481">p. 481</ref>.</note></head>
                         <opener>
                             <dateline rendition="#right">[<placeName><hi rend="smallcaps">Buenos
-                                        Aires</hi></placeName>, undated.]</dateline>
+                                        Aires</hi></placeName>, <date
+                                    notBefore="1942-05-09T00:00:00-04:00"
+                                    notAfter="1942-05-11T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.]</dateline>
                         </opener>
                         <p>The Government of the United States has carefully considered the
                             memorandum of the Ministry of Foreign Affairs and Worship dated May 8,
@@ -25162,7 +25250,9 @@
                                 F. D. R.”</note></head>
                         <opener>
                             <dateline rendition="#right">[<placeName><hi rend="smallcaps"
-                                        >Washington</hi></placeName>, undated.]</dateline>
+                                        >Washington</hi></placeName>, <date when="1942-05-14"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>.]</dateline>
                         </opener>
                         <p rend="flushleft"><hi rend="smallcaps">Proposal of the Treasury Department
                                 to the Board of Economic Warfare That Argentine Funds in the United
@@ -26193,11 +26283,13 @@
                             such an establishment yesterday. Dr. Prebisch promised to look into this
                             matter at once and indicated that such transactions would be stopped
                             immediately.</p>
-                        <closer><signed>J. W. G[<hi rend="smallcaps"
-                            >antenbein</hi>]</signed></closer>
-                        <postscript>
-                            <p>[<hi rend="smallcaps">Buenos Aires</hi>,] August 5, 1942.</p>
-                        </postscript>
+                        <closer>
+                            <signed>J. W. G[<hi rend="smallcaps">antenbein</hi>]</signed>
+                            <dateline>[<placeName>
+                                    <hi rend="smallcaps">Buenos Aires</hi>
+                                </placeName>,] <date when="1942-08-05">August 5,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="491" xml:id="pg_491" facs="0503"/>
                     <div type="document" xml:id="d458" n="458">
@@ -26878,7 +26970,13 @@
                             dominated by the aggressor nations. Such collaboration on the part of
                             Argentina would necessarily add much to the effectiveness of the steps
                             taken by the United States Government.</p>
-                        <p><hi rend="smallcaps">Buenos Aires</hi>, November 10, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Buenos Aires</hi>
+                                </placeName>, <date when="1942-11-10">November 10,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="504" xml:id="pg_504" facs="0516"/>
                     <div type="document" xml:id="d469" n="469">
@@ -29534,7 +29632,13 @@
                             except for the export of not exceeding twenty-five tons of fine tin
                             monthly to Chile and except as may otherwise be agreed upon between the
                             Governments of Bolivia and of the United States.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, August 27, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-08-27">August 27,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d510" n="510">
                         <note rend="inline" type="source">824.6354/337</note>
@@ -30733,6 +30837,11 @@
                                 xml:id="d533fn26">Copy transmitted to the Department by the
                                 Ambassador in his despatch No. 310, July 17; received July
                                 22.</note></head>
+                        <dateline>
+                            <date when="1942-07-15"
+                                ana="#date_undated-inferred-from-document-content">July 15,
+                                1942</date>
+                        </dateline>
                         <p>This Agreement, made and entered into this fifteenth day of July, 1942,
                             by and between the Rubber Reserve Company (hereinafter called “Reserve”)
                             an Agency of the United States Government and a corporation existing
@@ -31348,7 +31457,11 @@
                                     >Secretary of State</gloss></hi></head>
                         <opener>
                             <dateline rendition="#right"><placeName><hi rend="smallcaps">La
-                                    Paz</hi></placeName> [undated].<lb/>[Received February 12—12:18
+                                    Paz</hi></placeName> [<date
+                                    notBefore="1942-01-28T00:00:00-05:00"
+                                    notAfter="1942-02-12T12:18:00-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>].<lb/>[Received February 12—12:18
                                 a.m.]</dateline>
                         </opener>
                         <p>I have the honor to communicate to Your Excellency that my Government
@@ -33023,7 +33136,13 @@
                         <p>The Department of State would appreciate assurances on the part of the
                             Government of Bolivia that the Banco Central de Bolivia will desist from
                             any further operations of the type mentioned above.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, May 20, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-05-20">May 20,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="620" xml:id="pg_620" facs="0632"/>
                     <div type="document" xml:id="d576" n="576">
@@ -33422,7 +33541,13 @@
                             the Government of Bolivia that the Banco Central de Bolivia will not
                             engage in any further operations of the type mentioned in the preceding
                             paragraph.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, September 22, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-09-22">September 22,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d585" n="585">
                         <note rend="inline" type="source">840.51 Frozen Credits/7815</note>
@@ -33475,7 +33600,13 @@
                                 Embassy will be glad to again approach the State Department on the
                                 subject.</item>
                         </list>
-                        <p><hi rend="smallcaps">Washington</hi>, September 22, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-09-22">September 22,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d586" n="586">
                         <note rend="inline" type="source">811.51/5105: Airgram</note>
@@ -33543,7 +33674,13 @@
                                 facs="0642"/>will be formulated under which such firms may be
                             eliminated in favor of enterprises which will bulwark, rather than
                             threaten, that security.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, November 19, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-11-19">November 19,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d588" n="588">
                         <note rend="inline" type="source">840.51 Frozen Credits/8762</note>
@@ -36748,6 +36885,10 @@
                                 xml:id="d648fn9">Copy transmitted to the Department by the
                                 Ambassador in his despatch No. 7866, July 7, 1942; received July
                                 13.</note></head>
+                        <dateline>
+                            <date when="1942-07-03" ana="#date_undated-inferred-from-document-head"
+                                >July 3, 1942</date>
+                        </dateline>
                         <p rend="center"><hi rend="smallcaps">Establishment of a United States
                                 Purchasing Commission in Brazil</hi></p>
                         <p>Ambassador Jefferson Caffery announced today that in order to carry out
@@ -44035,6 +44176,10 @@
                         <head><hi rend="italic">Agreement Between the United States and Brazil
                                 Regarding Principles Applying to Mutual Aid in the Prosecution of
                                 the War, Signed at Washington, March 3, 1942</hi></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1942-03-03"
+                                ana="#date_undated-inferred-from-document-head">March 3, 1942</date>
+                        </dateline>
                         <p><hi rend="smallcaps">Whereas</hi> the United States of America and the
                             United States of Brazil on the first day of October 1941 concluded an
                                 Agreement<note n="81" xml:id="d793fn81">For correspondence on the
