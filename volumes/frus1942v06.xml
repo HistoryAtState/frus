@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1942v06">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1942v06">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -60,6 +60,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-03-06 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -4023,8 +4026,13 @@
                                     uses.</item>
                             </list>
                         </p>
-                        <p>
-                            <hi rend="smallcaps">Washington</hi>, 1 April 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-04-01">1 April
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d62" n="62">
                         <note rend="inline" type="source">811.20 Defense (M) Chile/165:
@@ -6897,8 +6905,13 @@
                                     transportation of gasoline for military purposes.</item>
                             </list>
                         </p>
-                        <p>
-                            <hi rend="smallcaps">Washington</hi>, 20 April 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-04-20">20 April
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d115" n="115">
                         <note rend="inline" type="source">800.6363/670: Telegram</note>
@@ -7171,8 +7184,13 @@
                             local control is not instituted in Chile over Axis and other undesirable
                             interests, at least affirmative action which amounts to support of
                             Proclaimed List firms should be avoided.</p>
-                        <p>
-                            <hi rend="smallcaps">Santiago</hi>, June 11, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Santiago</hi>
+                                </placeName>, <date when="1942-06-11">June 11,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="104" xml:id="pg_104" facs="0118"/>
                     <div type="document" xml:id="d121" n="121">
@@ -10324,6 +10342,7 @@
                                 rend="italic">Lane</hi>), <hi rend="italic">Temporarily in the
                                 United States</hi>
                         </head>
+
                         <p rend="flushleft">Memorandum of conversation between President-elect
                                 López<note n="19" xml:id="d179fn19">On a visit to the United States
                                 during most of July 1942.</note> of Colombia and Under Secretary of
@@ -10403,11 +10422,12 @@
                         <closer>
                             <signed>A[<hi rend="smallcaps">rthur</hi>] B[<hi rend="smallcaps"
                                     >liss</hi>] L[<hi rend="smallcaps">ane</hi>]</signed>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">New York</hi>
+                                </placeName>, <date when="1942-07-25">July 25,
+                                1942</date>.</dateline>
                         </closer>
-                        <postscript>
-                            <p>
-                                <hi rend="smallcaps">New York</hi>, July 25, 1942.</p>
-                        </postscript>
                     </div>
                     <div type="document" xml:id="d180" n="180">
                         <note rend="inline" type="source">810.20 Defense/3072: Airgram</note>
@@ -12558,6 +12578,11 @@
                                 Regarding Principles Applying to Mutual Aid in the Prosecution of
                                 the War, Signed at Washington March 17, 1942</hi>
                         </head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1942-03-17"
+                                ana="#date_undated-inferred-from-document-head">March 17,
+                                1942</date>
+                        </dateline>
                         <p>
                             <hi rend="smallcaps">Whereas</hi> the undersigned Sumner Welles, Acting
                             Secretary of State of the United States of America, has been duly
@@ -14360,8 +14385,13 @@
                                 <cell rendition="#nowrap">February 1, 1947</cell>
                             </row>
                         </table>
-                        <p>
-                            <hi rend="smallcaps">Washington</hi>, March 19, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-03-19">March 19,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d252" n="252">
                         <note rend="inline" type="source">821.51/2734</note>
@@ -15099,10 +15129,13 @@
                                 <hi rend="smallcaps">Robert M. Scotten</hi>
                             </signed>
                         </closer>
-                        <postscript>
-                            <p>
-                                <hi rend="smallcaps">San José</hi>, April 27, 1942.</p>
-                        </postscript>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">San José</hi>
+                                </placeName>, <date when="1942-04-27">April 27,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="232" xml:id="pg_232" facs="0246"/>
                     <div type="document" xml:id="d266" n="266">
@@ -15367,6 +15400,11 @@
                             <hi rend="italic">Agreement Between the United States and Costa Rica
                                 Regarding Principles Applying to Mutual Aid in the Prosecution of
                                 the War, Signed at Washington January 16, 1942</hi>.</head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1942-01-16"
+                                ana="#date_undated-inferred-from-document-head">January 16,
+                                1942</date>
+                        </dateline>
                         <p>
                             <hi rend="smallcaps">Whereas</hi> the United States of America and the
                             Republic of Costa Rica declare that in conformity with the principles
@@ -17321,6 +17359,10 @@
                             <hi rend="italic">Agreement Between the United States and Cuba for
                                 Military Cooperation, Signed at Habana, June 19, 1942</hi>
                         </head>
+                        <dateline>
+                            <placeName>Habana</placeName>, <date when="1942-06-19"
+                                ana="#date_undated-inferred-from-document-head">June 19, 1942</date>
+                        </dateline>
                         <p>The Republic of Cuba and the United States of America, desiring to
                             conclude an Agreement for Military Cooperation, have appointed for this
                             purpose as their respective plenipotentiaries:</p>
@@ -18303,6 +18345,11 @@
                                 Ambassador in Cuba in his despatch No. 942, September 7; received
                                 September 12.</note>
                         </head>
+                        <dateline>
+                            <placeName>Habana</placeName>, <date when="1942-09-07"
+                                ana="#date_undated-inferred-from-document-head">September 7,
+                                1942</date>
+                        </dateline>
                         <p>The Republic of Cuba and the United States of America, desiring to
                             conclude an Agreement for Military and Naval Cooperation, have appointed
                             for this purpose as their respective plenipotentiaries</p>
@@ -21547,6 +21594,10 @@
                             <note n="29" xml:id="d362fn29">Handed to the Cuban Commission on
                                 December 8, 1942.</note>
                         </head>
+                        <dateline>
+                            <date when="1942-12-08" ana="#date_undated-inferred-from-document-head"
+                                >December 8, 1942</date>
+                        </dateline>
                         <p>On Saturday, December 5, representatives of the United States Commission
                             submitted to the Cuban Commission, a price of 2.65 cents per pound of
                             raw sugar delivered into ocean carrier, all charges paid, this figure to
@@ -23598,6 +23649,11 @@
                                 Amending That of January 24, 1942, Concerning an Advance Base for
                                 American Military Forces at Salinas</hi>
                         </head>
+                        <dateline>
+                            <placeName>Quito</placeName>, <date when="1942-02-20"
+                                ana="#date_undated-inferred-from-document-content">February 20,
+                                1942</date>
+                        </dateline>
                         <p>Duly empowered by Colonel Alberto C. Romero, Minister for the National
                             Defense of Ecuador, and by the Commanding General of the Caribbean
                             Defense Command of the United States of America, respectively, Colonel
@@ -24031,6 +24087,11 @@
                                 the Department by the Ambassador in Ecuador in his despatch No.
                                 3591, October 2; received October 8.</note>
                         </head>
+                        <dateline>
+                            <placeName>Quito</placeName>, <date when="1942-10-01"
+                                ana="#date_undated-inferred-from-document-head">October 1,
+                                1942</date>
+                        </dateline>
                         <p>Duly empowered by Colonel Alberto C. Romero, Minister of National Defense
                             of Ecuador, and by the Commanding General of the Caribbean Defense
                             Command of the United States of America, respectively, Colonel Ricardo
@@ -24231,6 +24292,10 @@
                                 Regarding Principles Applying to Mutual Aid in the Prosecution of
                                 the War, Signed at Washington April 6, 1942</hi>
                         </head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1942-04-06"
+                                ana="#date_undated-inferred-from-document-head">April 6, 1942</date>
+                        </dateline>
                         <p>
                             <hi rend="smallcaps">Whereas</hi> the United States of America and the
                             Republic of Ecuador declare that in conformity with the principles set
@@ -24935,8 +25000,13 @@
                                         import into Ecuador for such construction.</item>
                                 </list>
                             </p>
-                            <p>
-                                <hi rend="smallcaps">Washington</hi>, June 9, 1942.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1942-06-09">June 9,
+                                    1942</date>.</dateline>
+                            </closer>
                         </postscript>
                     </div>
                     <pb n="392" xml:id="pg_392" facs="0406"/>
@@ -26936,7 +27006,11 @@
                             </head>
                             <opener>
                                 <dateline rendition="#right">[<placeName><hi rend="smallcaps"
-                                            >Washington</hi></placeName>, undated.]</dateline>
+                                            >Washington</hi></placeName>, <date
+                                        notBefore="1942-11-20T19:05:00-04:00"
+                                        notAfter="1942-12-14T23:59:59-04:00"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        >undated</date>.]</dateline>
                             </opener>
                             <p>The institution and effective enforcement of appropriate controls
                                 over economic and financial transactions which may be of benefit to
@@ -28111,6 +28185,11 @@
                                 Minister in Guatemala in his despatch No. 3378, November 17;
                                 received November 20.</note>
                         </head>
+                        <dateline>
+                            <placeName>Guatemala</placeName>, <date when="1942-11-16"
+                                ana="#date_undated-inferred-from-document-head">November 16,
+                                1942</date>
+                        </dateline>
                         <p>
                             <hi rend="smallcaps">Whereas</hi> the Governments of the United States
                             of America and the Republic of Guatemala declare that they are engaged
@@ -28399,8 +28478,13 @@
                             present emergency after which, and when the peace treaty is signed, all
                             the forces of the United States of America which may be in the Republic
                             of Guatemala shall retire from its territory.</p>
-                        <p>
-                            <hi rend="smallcaps">Guatemala</hi>, November 16, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Guatemala</hi>
+                                </placeName>, <date when="1942-11-16">November 16,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d465" n="465">
                         <note rend="inline" type="source">814.24/372</note>
@@ -28822,6 +28906,11 @@
                                 Guatemala in his despatch No. 3195, September 11, 1942 (not
                                 printed).</note>
                         </head>
+                        <dateline>
+                            <placeName>Guatemala</placeName>, <date when="1942-09-04"
+                                ana="#date_undated-inferred-from-document-head">September 4,
+                                1942</date>
+                        </dateline>
                         <p>In the City of Guatemala, on this fourth day of September, one thousand
                             nine hundred and forty-two, the undersigned, Arturo Andrés Bickford,
                             acting in his capacity as Chief of the Section of Economic and Financial
@@ -29424,6 +29513,10 @@
                             <note n="12" xml:id="d481fn12">Reprinted from Department of State <hi
                                     rend="italic">Bulletin</hi>, April 18, 1942, p. 353.</note>
                         </head>
+                        <dateline>
+                            <date when="1942-04-13" ana="#date_undated-inferred-from-document-head"
+                                >April 13, 1942</date>
+                        </dateline>
                         <p>Upon the occasion of the visit of His Excellency President Elie Lescot of
                             the Republic of Haiti to Washington, a series of conferences was held
                             with representatives of several agencies of the United States
@@ -30148,6 +30241,11 @@
                                 Regarding Principles Applying to Mutual Aid in the Prosecution of
                                 the War, Signed at Washington February 28, 1942</hi>
                         </head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1942-02-28"
+                                ana="#date_undated-inferred-from-document-head">February 28,
+                                1942</date>
+                        </dateline>
                         <p>
                             <hi rend="smallcaps">Whereas</hi> the United States of America and the
                             Republic of Honduras declare that in conformity with the principles set
@@ -30495,6 +30593,11 @@
                                 Regarding Principles Applying to Mutual Aid in the Prosecution of
                                 the War, Signed at Washington March 27, 1942</hi>
                         </head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1942-03-27"
+                                ana="#date_undated-inferred-from-document-head">March 27,
+                                1942</date>
+                        </dateline>
                         <p>
                             <hi rend="smallcaps">Whereas</hi> the United States of America and the
                             United Mexican States declare that in conformity with the principles set
@@ -30917,8 +31020,12 @@
                             negotiations, to request certain assurances regarding Mexican export
                             duties and taxes on articles on which concessions may be offered by the
                             United States.</p>
-                        <p>
-                            <hi rend="smallcaps">Washington, May</hi> 26, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
+                                    when="1942-05-26"><hi rend="smallcaps">May</hi> 26,
+                                1942</date>.</dateline>
+                        </closer>
                         <frus:attachment>
                             <opener>
                                 <seg rendition="#center">[Enclosure]</seg>
@@ -31160,6 +31267,11 @@
                         <closer>
                             <signed>F. <hi rend="smallcaps">Castillo Nájera</hi>
                             </signed>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-07-06">July 6,
+                                1942</date>.</dateline>
                         </closer>
                         <postscript>
                             <p>
@@ -31506,8 +31618,13 @@
                                 accordingly, like the said quota to be enlarged so as to admit the
                                 amount of 31,000,000 barrels, which is the amount which it can
                                 annually furnish the United States of America.</p>
-                            <p>
-                                <hi rend="smallcaps">Washington</hi>, July 6, 1942.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1942-07-06">July 6,
+                                    1942</date>.</dateline>
+                            </closer>
                         </frus:attachment>
                     </div>
                     <div type="document" xml:id="d502" n="502">
@@ -34010,9 +34127,14 @@
                                 International Boundary Commission between Mexico and the United
                                 States of America the powers and duties specified in the draft
                                 treaty.</p>
-                            <p>
-                                <hi rend="smallcaps">Washington</hi>, March 19, 1942.</p>
                         </postscript>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-03-19">March 19,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d527" n="527">
                         <note rend="inline" type="source">711.1216A/2489</note>
@@ -35806,13 +35928,17 @@
                             contribute to the repair of the Panamanian highways the sum of one
                             hundred thousand dollars a year, that is to say the third part of their
                             total cost.</p>
-                        <p>
-                            <hi rend="smallcaps">Washington</hi>, February 19, 1942.<note n="18"
-                                xml:id="d546fn18">The Spanish text of this memorandum as printed in
-                                Panamá, <hi rend="italic">Memoria Que el Ministro de Relaciones
-                                    Exteriores Presenta a la Asamblea Nacional de 1943</hi>, p. 280,
-                                is dated February 23, 1942.</note>
-                        </p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-02-19">February 19, 1942</date>.<note
+                                    n="18" xml:id="d546fn18">The Spanish text of this memorandum as
+                                    printed in Panamá, <hi rend="italic">Memoria Que el Ministro de
+                                        Relaciones Exteriores Presenta a la Asamblea Nacional de
+                                        1943</hi>, p. 280, is dated February 23,
+                                1942.</note></dateline>
+                        </closer>
                     </div>
                     <pb n="584" xml:id="pg_584" facs="0598"/>
                     <div type="document" xml:id="d547" n="547">
@@ -39229,6 +39355,11 @@
                                 Ambassador in Panama in his despatch No. 2962, September 11;
                                 received September 17.</note>
                         </head>
+                        <dateline>
+                            <placeName>Panama</placeName>, <date when="1942-09-11"
+                                ana="#date_undated-inferred-from-document-head">September 11,
+                                1942</date>
+                        </dateline>
                         <p>The undersigned, Octavio Fábrega, Minister for Foreign Affairs of the
                             Republic of Panama, acting on behalf of his own Government, and J. L.
                             Apodaca, acting on behalf of the Rubber Reserve Company, an Agency of
@@ -39534,8 +39665,12 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>
-                                    <hi rend="smallcaps">Asunción</hi></placeName>,
-                                undated.<lb/>[Received May 27, 1942—10:08 p.m.]</dateline>
+                                    <hi rend="smallcaps">Asunción</hi></placeName>, <date
+                                    notBefore="1942-05-22T21:00:00-04:00"
+                                    notAfter="1942-05-27T22:08:00-04:00"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>.<lb/>[Received May 27, 1942—10:08
+                                p.m.]</dateline>
                         </opener>
                         <p>230. My No. 225, May 22, 9 p.m. Minister of War today stated that
                             authorization air field applies to only Asunción, as Panair has
@@ -41400,8 +41535,13 @@
                             treatment, the affected products represented approximately 17,950,000
                             soles or about 11 percent of total imports into Peru from the United
                             States.</p>
-                        <p>
-                            <hi rend="smallcaps">Washington</hi>, January [19?], 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-01-19">January [19?],
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d632" n="632">
                         <note rend="inline" type="source">611.2331/245</note>
@@ -44879,14 +45019,15 @@
                                 unit and transmission line.</item>
                         </list>
                         <closer>
-                            <signed> S[<hi rend="smallcaps">umner</hi>] W[<hi rend="smallcaps"
+                            <signed>S[<hi rend="smallcaps">umner</hi>] W[<hi rend="smallcaps"
                                     >elles</hi>]<lb/> J[<hi rend="smallcaps">uan</hi>] C B[<hi
                                     rend="smallcaps">lanco</hi>] </signed>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-04-21">April 21,
+                                1942</date>.</dateline>
                         </closer>
-                        <postscript>
-                            <p>
-                                <hi rend="smallcaps">Washington</hi>, April 21, 1942.</p>
-                        </postscript>
                     </div>
                 </div>
             </div>
@@ -45181,6 +45322,11 @@
                                 Regarding Principles Applying to Mutual Aid in the Prosecution of
                                 the War, Signed at Washington March 18, 1942</hi>
                         </head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1942-03-18"
+                                ana="#date_undated-inferred-from-document-head">March 18,
+                                1942</date>
+                        </dateline>
                         <p>
                             <hi rend="smallcaps">Whereas</hi>: The President of the United States of
                             America, authorized by the Act of the Congress of the United States of
