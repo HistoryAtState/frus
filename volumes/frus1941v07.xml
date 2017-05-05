@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1941v07">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1941v07">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -60,6 +60,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-05-23 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -2431,8 +2434,12 @@
                                 State</gloss></hi></head>
                         <opener>
                             <dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                    >Bogotá</hi></placeName>, [undated].<lb/>[Received December 20,
-                                1941—2:24 a.m.]</dateline>
+                                    >Bogotá</hi></placeName>, [<date
+                                    notBefore="1941-12-19T00:00:00-05:00"
+                                    notAfter="1941-12-20T02:24:00-05:00"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>].<lb/>[Received December 20, 1941—2:24
+                                a.m.]</dateline>
                         </opener>
                         <p>689. My telegram No. 688.<note n="63" xml:id="d34fn63">Dated December 19,
                                 not printed.</note> President has just informed me that in addition
@@ -2464,8 +2471,12 @@
                         </opener>
                         <opener>
                             <dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                    >Bogotá</hi></placeName>, [undated].<lb/>[Received December 22,
-                                1941—11:14 p.m.]</dateline>
+                                    >Bogotá</hi></placeName>, [<date
+                                    notBefore="1941-12-20T02:24:00-05:00"
+                                    notAfter="1941-12-22T23:14:00-05:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>].<lb/>[Received December 22, 1941—11:14
+                                p.m.]</dateline>
                         </opener>
                         <p>I have received with pleasure the message in which Your Excellency
                             comments in friendly fashion on the attitude of the Colombian Government
@@ -6734,7 +6745,13 @@
                                 Government of the United States may consider it possible to grant
                                 within the limits of the law governing the matter.</item>
                         </list>
-                        <p><hi rend="smallcaps">Washington</hi>, August 12, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-08-12">August 12,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="120" xml:id="pg_120" facs="0128"/>
                     <div type="document" xml:id="d129" n="129">
@@ -6745,8 +6762,11 @@
                                 State</gloss></hi></head>
                         <opener>
                             <dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Washington</hi></placeName> [undated].<lb/>[Received
-                                September 2, 1941.]</dateline>
+                                        >Washington</hi></placeName> [<date
+                                    notBefore="1941-08-23T00:00:00-04:00"
+                                    notAfter="1941-09-02T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>].<lb/>[Received September 2, 1941.]</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: Reference is made to Department of State
                             Liaison Officer Memorandum U–L 810.20 Defense/1267 of August 23,
@@ -6866,6 +6886,10 @@
                         <note rend="inline" type="source">837.24/11–741</note>
                         <head><hi rend="italic">Lend-Lease Agreement Between the United States and
                                 Cuba, Signed November 7, 1941</hi></head>
+                        <dateline>
+                            <date when="1941-11-07" ana="#date_undated-inferred-from-document-head"
+                                >November 7, 1941</date>
+                        </dateline>
                         <p><hi rend="smallcaps">Whereas</hi> the United States of America and the
                             Republic of Cuba declare that in conformity with the principles set
                             forth in the Declaration of Lima, approved at the Eighth International
@@ -13242,7 +13266,13 @@
                                 measure of the Government of the United States for the purpose of
                                 the proposed operation.</item>
                         </list>
-                        <p><hi rend="smallcaps">Habana</hi>, December 14, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Habana</hi>
+                                </placeName>, <date when="1941-12-14">December 14,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d194" n="194">
                         <note rend="inline" type="source">837.61351/2788</note>
@@ -13446,6 +13476,11 @@
                         <head><hi rend="italic">Lend-Lease Agreement Between the United States and
                                 the Dominican Republic, Signed at Washington, August 2,
                             1941</hi></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1941-08-02"
+                                ana="#date_undated-inferred-from-document-head">August 2,
+                                1941</date>
+                        </dateline>
                         <p><hi rend="smallcaps">Whereas</hi> the United States of America and the
                             Dominican Republic declare that in conformity with the principles set
                             forth in the Declaration of Lima, approved at the Eighth International
@@ -13574,6 +13609,11 @@
                         <head><hi rend="italic">Supplementary Lend-Lease Agreement Between the
                                 United States and the Dominican Republic, Signed at Washington,
                                 August 6, 1941</hi></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1941-08-06"
+                                ana="#date_undated-inferred-from-document-head">August 6,
+                                1941</date>
+                        </dateline>
                         <p><hi rend="smallcaps">Whereas</hi> the United States of America and the
                             Dominican Republic are desirous of concluding an Agreement supplementary
                             to the Agreement between the two Governments signed at Washington August
@@ -15203,6 +15243,11 @@
                                 xml:id="d236fn72">Copy transmitted to the Department by the Defense
                                 Supplies Corporation in its letter of November 25; received November
                                 28.</note></head>
+                        <dateline>
+                            <placeName>Quito</placeName>, <date when="1941-10-02"
+                                ana="#date_undated-inferred-from-document-content">October 2,
+                                1941</date>
+                        </dateline>
                         <p>Know by this instrument that the Government of the Republic of Ecuador
                             and the Defense Supplies Corporation have agreed upon the contract the
                             articles of which are included in the Executive Decree which is inserted
@@ -16109,7 +16154,13 @@
                             the United States the arrangement set forth above could be handled by
                             means of an exchange of notes between the American Minister at Quito and
                             the Foreign Minister of Ecuador.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, August 21, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-08-21">August 21,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="304" xml:id="pg_304" facs="0312"/>
                     <div type="document" xml:id="d251" n="251">
@@ -16855,6 +16906,11 @@
                         <note rend="inline" type="source">838.24/9–1641</note>
                         <head><hi rend="italic">Lend-Lease Agreement Between the United States and
                                 Haiti, Signed at Washington, September 16, 1941</hi></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1941-09-16"
+                                ana="#date_undated-inferred-from-document-head">September 16,
+                                1941</date>
+                        </dateline>
                         <p><hi rend="smallcaps">Whereas</hi> the United States of America and the
                             Republic of Haiti declare that in conformity with the principles set
                             forth in the Declaration of Lima, approved at the Eighth International
@@ -18599,8 +18655,10 @@
                                 the <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener>
                             <dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Port-au-Prince</hi></placeName> [undated].<lb/>[Received
-                                September 13, 1941—12:13 p.m.]</dateline>
+                                        >Port-au-Prince</hi></placeName> [<date when="1941-09-13"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>].<lb/>[Received September 13, 1941—12:13
+                                p.m.]</dateline>
                         </opener>
                         <p>Bank Accord signed.</p>
                         <closer><signed><hi rend="smallcaps">White</hi></signed></closer>
@@ -19389,7 +19447,13 @@
                             light of the recommendation of the Advisory Committee.</p>
                         <p>The Government of the United States will communicate further in this
                             regard with the Government of Haiti as soon as possible.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, December 5, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-12-05">December 5,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d301" n="301">
                         <note rend="inline" type="source">638.3931/16</note>
@@ -19454,6 +19518,10 @@
                         <note rend="inline" type="source">838.51 Cooperation Program/3</note>
                         <head><hi rend="italic">Press Release Issued by the Department of State, May
                                 5, 1941</hi></head>
+                        <dateline>
+                            <date when="1941-05-05" ana="#date_undated-inferred-from-document-head"
+                                >May 5, 1941</date>
+                        </dateline>
                         <p>The Governments of the United States of America and the Republic of Haiti
                             announce that agreement has been reached in principle regarding a
                             long-term program of cooperation in the development of Haitian
@@ -19686,7 +19754,13 @@
                             States and of the different forms which the cooperation between the two
                             countries, which it is desirable to intensify, could take in the near
                             future.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, February 17, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-02-17">February 17,
+                                1941</date>.</dateline>
+                        </closer>
                         <frus:attachment>
                             <opener>
                                 <seg rendition="#center">[Enclosure—Translation]</seg>
@@ -20884,7 +20958,13 @@
                                 <item>—Cooperate with them in general in economic and financial
                                     matters of interest to both Governments.</item>
                             </list></p>
-                        <p><hi rend="smallcaps">Washington</hi>, October 7, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-10-07">October 7,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d313" n="313">
                         <note rend="inline" type="source">412.11 (41) Agreement/77</note>
@@ -20895,6 +20975,11 @@
                                     rend="italic">Bursley</hi></persName>), <hi rend="italic">and
                                 the Assistant to the Legal Adviser</hi> (<persName type="to"><hi
                                     rend="italic">English</hi></persName>)</head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1941-10-14"
+                                ana="#date_undated-inferred-from-document-content">October 14,
+                                1941</date>
+                        </dateline>
                         <p>The Legal Counselor of the Embassy of Mexico, Roberto Córdova, and the
                             representatives of the Department of State, Herbert S. Bursley,
                             Assistant Chief of the Division of the American Republics, and Benedict
@@ -21156,7 +21241,13 @@
                             appointment by the Government of Mexico of a representative to work
                             directly with the representative of the Government of the United States
                             and to furnish direct liaison with the appropriate Mexican agencies.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, November 26, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-11-26">November 26,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d321" n="321">
                         <note rend="inline" type="source">412.11 Oil/22</note>
@@ -21322,7 +21413,13 @@
                             two or three weeks, and it is hoped that by the time he reaches Mexico
                             the Mexican Government will have designated the minerals expert with
                             whom he will cooperate.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, January 16, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-01-16">January 16,
+                                1942</date>.</dateline>
+                        </closer>
                     </div>
                 </div>
                 <div type="chapter" xml:id="ch34">
@@ -21732,6 +21829,11 @@
                         <head><hi rend="italic">Agreement Between the United States and Nicaragua
                                 Regarding Principles Applying to Mutual Aid in the Prosecution of
                                 the War, Signed at Washington, October 16, 1941</hi></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1941-10-16"
+                                ana="#date_undated-inferred-from-document-head">October 16,
+                                1941</date>
+                        </dateline>
                         <p><hi rend="smallcaps">Whereas</hi> the United States of America and the
                             Republic of Nicaragua declare that in conformity with the principles set
                             forth in the Declaration of Lima, approved at the Eighth International
@@ -22108,7 +22210,13 @@
                             contracts could most surely be extended. It is not possible that in
                             cases such as these any Panamanian Government would object to the
                             extension of the contracts in question.</p>
-                        <p><hi rend="smallcaps">Panamá</hi>, January 7, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Panamá</hi>
+                                </placeName>, <date when="1941-01-07">January 7,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d335" n="335">
                         <note rend="inline" type="source">711F.1914/168: Telegram</note>
@@ -23237,7 +23345,13 @@
                         <p>The National Assembly of Panama will be informed of this situation
                             beforehand, and an official communiqué given to the press for the
                             information of the people in general.</p>
-                        <p><hi rend="smallcaps">Panamá</hi>, March 5, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Panamá</hi>
+                                </placeName>, <date when="1941-03-05">March 5,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d349" n="349">
                         <note rend="inline" type="source">711F.1914/201a: Telegram</note>
@@ -23680,7 +23794,12 @@
                             being made available. Such matters as length of tenure and the
                             jurisdiction to be exercised by the United States are of particular
                             interest.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, May 7, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-05-07">May 7, 1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d354" n="354">
                         <note rend="inline" type="source">711F.1914/256</note>
@@ -23860,7 +23979,13 @@
                             emergency lasts and will exercise over them unrestricted military
                             jurisdiction and civil jurisdiction of a judicial character in offenses
                             related to sabotage and espionage.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, May 20, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-05-20">May 20,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d355" n="355">
                         <note rend="inline" type="source">711.19/262</note>
@@ -24108,7 +24233,13 @@
                             thus making possible a better understanding in the agreements concerning
                             the leasing of such areas of land, so closely connected with the said
                             petitions.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, June 23, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-06-23">June 23,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d359" n="359">
                         <note rend="inline" type="source">711F.1914/329</note>
@@ -24384,7 +24515,13 @@
                             petroleum products from Balboa to the Canal Zone–Republic of Panama
                             boundary would be borne by the Republic of Panama which would install
                             and maintain the necessary pumping facilities for the purpose.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, July 8, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-07-08">July 8,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d360" n="360">
                         <note rend="inline" type="source">711F.1914/329</note>
@@ -24413,7 +24550,13 @@
                             requested, to supply water at the Canal Zone boundary at the rate of
                             B/0.09 per one thousand gallons, payable quarterly to the appropriate
                             Canal Zone authorities.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, July 18, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-07-18">July 18,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d361" n="361">
                         <note rend="inline" type="source">711F.1914/338: Telegram</note>
@@ -24668,7 +24811,13 @@
                             cities as set forth in the exchange of notes accompanying the General
                             Treaty of March 2, 1936, which in turn refer to the earlier proposal of
                             October 1931.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, December 2, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-12-02">December 2,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d367" n="367">
                         <note rend="inline" type="source">711F.1914/403: Telegram</note>
@@ -25072,7 +25221,13 @@
                                 the United States from the very first moment when the defense of the
                                 Western Hemisphere was taken into consideration.</item>
                         </list>
-                        <p><hi rend="smallcaps">Washington</hi>, June 27, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-06-27">June 27,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d374" n="374">
                         <note rend="inline" type="source">810.20 Defense/1028b: Telegram</note>
@@ -25340,6 +25495,11 @@
                         <note rend="inline" type="source">834.24/9–2041</note>
                         <head><hi rend="italic">Lend-Lease Agreement Between the United States and
                                 Paraguay, Signed at Washington, September 20, 1941</hi></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1941-09-20"
+                                ana="#date_undated-inferred-from-document-head">September 20,
+                                1941</date>
+                        </dateline>
                         <p><hi rend="smallcaps">Whereas</hi> the United States of America and the
                             Republic of Paraguay declare that in conformity with the principles set
                             forth in the Declaration of Lima, approved at the Eighth International
@@ -28813,7 +28973,13 @@
                             days’ written notice.</p>
                         <p>It would be appreciated if the Government of Peru would indicate whether
                             it agrees with the proposals set forth above.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, June 4, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-06-04">June 4,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d446" n="446">
                         <note rend="inline" type="source">611.2331/211</note>
@@ -31998,7 +32164,13 @@
                                     consortium has completed the first generating unit and
                                     transmission line.</item>
                             </list></p>
-                        <p><hi rend="smallcaps">Washington</hi>, August 29, 1941.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1941-08-29">August 29,
+                                1941</date>.</dateline>
+                        </closer>
                     </div>
                 </div>
             </div>
