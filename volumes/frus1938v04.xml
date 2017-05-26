@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="frus1938v04">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1938v04">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -991,7 +991,13 @@
                             of opportunity by reason of the establishment of the contemplated
                             company controlled by Japanese interests or any system of import and
                             sales quotas which may be imposed now or in the future.</p>
-                        <p><hi rend="smallcaps">Tokyo</hi>, April 20, 1938.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Tokyo</hi>
+                                </placeName>, <date when="1938-04-20">April 20,
+                                1938</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d18" n="18">
                         <note rend="inline" type="source">893.515/1307: Telegram</note>
@@ -6548,7 +6554,13 @@
                             in Concessions and Settlements and (2) measure[s] to force the Chinese
                             Currency from circulation and to prevent its use to pay for export
                             goods.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, December 23, 1938.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1938-12-23">December 23,
+                                1938</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d135" n="135">
                         <note rend="inline" type="source">693.001/418</note>
@@ -10219,7 +10231,11 @@
                             State</hi></head>
                         <opener>
                             <dateline rendition="#right">[<placeName><hi rend="smallcaps"
-                                        >Washington</hi></placeName>, undated.]</dateline>
+                                        >Washington</hi></placeName>, <date
+                                    notBefore="1938-08-29T00:00:00-04:00"
+                                    notAfter="1938-09-01T09:38:00-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.]</dateline>
                         </opener>
                         <p>Under date August 29 Admiral Yarnell telegraphed the Navy Department as
                             follows: <quote rend="blockquote">
@@ -18226,6 +18242,10 @@
                                 xml:id="d415fn8">Handed to Mr. Hugh S. Cumming, Jr., of the Division
                                 of European Affairs by the Counselor of the Netherlands Legation on
                                 May 12.</note></head>
+                        <dateline>
+                            <date when="1938-05-12"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <p rend="center"><hi rend="smallcaps">Aide-Mémoire</hi></p>
                         <p>During the hostilities which took place at Shanghai last year, several
                             properties of Netherlands subjects suffered damage through bombardment,
@@ -19317,7 +19337,13 @@
                             was the question raised relating to the ownership of real property in
                             China, to which reference is made in the penultimate paragraph of the
                             Legation’s <hi rend="italic">aide-mémoire.</hi></p>
-                        <p><hi rend="smallcaps">Washington</hi>, June 1, 1938.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1938-06-01">June 1,
+                                1938</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d444" n="444">
                         <note rend="inline" type="source">393.1164 University of Shanghai/29:
@@ -32006,7 +32032,13 @@
                             replied to the Japanese Consul General in regard to the merits of the
                             questions involved, it would be preferable to await further developments
                             before making such an approach.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, December 17, 1938.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1938-12-17">December 17,
+                                1938</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="555" xml:id="pg_555" facs="0559"/>
                     <div type="document" xml:id="d754" n="754">
@@ -32235,7 +32267,13 @@
                             area, complete information concerning developments in the drug situation
                             in China south of the Yellow River since the spring and summer of 1937
                             is not yet available.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, February 16, 1938.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1938-02-16">February 16,
+                                1938</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="559" xml:id="pg_559" facs="0563"/>
                     <div type="document" xml:id="d760" n="760">
@@ -35747,7 +35785,13 @@
                             imports as may be brought into the Philippines within any quarter shall
                             never be more than 2,250,000 square meters (this being twenty percent of
                             the normal quarterly quota allowance).</p>
-                        <p><hi rend="smallcaps">Washington</hi>, July 22, 1938.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1938-07-22">July 22,
+                                1938</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d822" n="822">
                         <note rend="inline" type="source">611B.9417/303</note>
@@ -35768,7 +35812,12 @@
                             continue its voluntary efforts to make its restrictions upon shipments
                             via intermediary ports as effective as they were during the period from
                             August 1, 1937, to the date of this memorandum.</p>
-                        <p>[<hi rend="smallcaps">Washington</hi>,] July 22, 1938.</p>
+                        <closer>
+                            <dateline>[<placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>,] <date when="1938-07-22">July 22,
+                                1938</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="626" xml:id="pg_626" facs="0630"/>
                     <div type="document" xml:id="d823" n="823">
