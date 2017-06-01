@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1936v03">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1936v03">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -67,6 +67,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-07-08 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -8942,8 +8945,12 @@
                                         State</gloss></hi></head>
                             <opener>
                                 <dateline rendition="#right"><placeName><hi rend="smallcaps">Addis
-                                            Ababa</hi></placeName> [undated].<lb/>[Received April
-                                    30, 1936—2 p.m.]</dateline>
+                                            Ababa</hi></placeName> [<date
+                                        notBefore="1936-04-29T00:00:00+02:35"
+                                        notAfter="1936-04-30T14:00:00-04:00"
+                                        ana="#date_undated-inferred-from-document-content"
+                                        >undated</date>].<lb/>[Received April 30, 1936—2
+                                    p.m.]</dateline>
                             </opener>
                             <p>253. My 250, April 29.<note n="34" xml:id="d67fn34">Not
                                     printed.</note> The Emperor has been in close seclusive touch
@@ -11902,8 +11909,12 @@
                                         State</gloss></hi></head>
                             <opener>
                                 <dateline rendition="#right"><placeName><hi rend="smallcaps">Addis
-                                            Ababa</hi></placeName> [undated].<lb/>[Received March
-                                    30, 1936—5:11 p.m.]</dateline>
+                                            Ababa</hi></placeName> [<date
+                                        notBefore="1936-03-25T00:00:00+02:35"
+                                        notAfter="1936-03-30T17:11:00-05:00"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        >undated</date>].<lb/>[Received March 30, 1936—5:11
+                                    p.m.]</dateline>
                             </opener>
                             <p>166. My 161, March 18, noon.<note n="6" xml:id="d121fn6">Not
                                     printed.</note> It is rumored that Rickett<note n="7"
@@ -17118,7 +17129,13 @@
                             <p>It is conceivable that guerilla warfare in Ethiopia may be carried on
                                 for some time to come, as in the case of the Philippine Islands,
                                 following the Spanish American War and other similar situations.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, June 19, 1936.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1936-06-19">June 19,
+                                    1936</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d210" n="210">
                             <note rend="inline" type="source">711.00111 Armament Control/949:
@@ -17914,6 +17931,11 @@
                                         rend="italic">Official Gazette</hi> of May 9. Translation
                                     transmitted to the Department by The Chargé in Italy in his
                                     despatch No. 1679, May 12; received May 27.</note></head>
+                            <dateline>
+                                <date when="1936-05-09"
+                                    ana="#date_undated-inferred-from-document-head">May 9,
+                                    1936</date>
+                            </dateline>
                             <opener>
                                 <seg rendition="#center">[Translation]</seg>
                             </opener>
@@ -18078,7 +18100,13 @@
                                 appointed, with the title of Viceroy, a Governor General from whom
                                 will depend all civil and military Authorities of the territories
                                 placed under his jurisdiction.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, May 11, 1936.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1936-05-11">May 11,
+                                    1936</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d230" n="230">
                             <note rend="inline" type="source">765.84/4397</note>
@@ -19492,7 +19520,13 @@
                                 in practice the distinction between such recognition and <hi
                                     rend="italic">de jure</hi> recognition is small, though for
                                 political reasons it may still be desirable to retain it.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, December 23, 1936.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1936-12-23">December 23,
+                                    1936</date>.</dateline>
+                            </closer>
                         </div>
                     </div>
                     <div type="subchapter" xml:id="ch6subch6">
@@ -22357,7 +22391,13 @@
                                 sets in their Legations. The Ambassador at Rome has however been
                                 instructed to act immediately without awaiting the cooperation of
                                 his colleagues.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, July 10, 1936.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1936-07-10">July 10,
+                                    1936</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d357" n="357">
                             <note rend="inline" type="source">124.842/130: Telegram</note>
@@ -28884,7 +28924,13 @@
                             is prepared to agree to participate in a frank discussion, between
                             representatives of all the interested powers, of the various problems
                             involved.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, April 27, 1936.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1936-04-27">April 27,
+                                1936</date>.</dateline>
+                        </closer>
                     </div>
                 </div>
                 <div type="chapter" xml:id="ch15">
@@ -31087,7 +31133,12 @@
                             educational and philanthropical institutions and their personnel, and
                             that customs duties incorrectly assessed since the entry into effect of
                             the <hi rend="italic">Arrêté</hi> shall be refunded.</p>
-                        <p>[<hi rend="smallcaps">Beirut</hi>,] January 25, 1935.</p>
+                        <closer>
+                            <dateline>[<placeName>
+                                    <hi rend="smallcaps">Beirut</hi>
+                                </placeName>,] <date when="1935-01-25">January 25,
+                                1935</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="462" xml:id="pg_462" facs="0527"/>
                     <div type="document" xml:id="d536" n="536">
@@ -31407,7 +31458,13 @@
                             French Government may wish to make with a view to the final settlement
                             of this question which has been a subject of correspondence between the
                             two Governments for more than ten years.</p>
-                        <p><hi rend="smallcaps">Paris</hi>, August 19, 1935.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Paris</hi>
+                                </placeName>, <date when="1935-08-19">August 19,
+                                1935</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d539" n="539">
                         <note rend="inline" type="source">690D.11241/28</note>
@@ -31418,7 +31475,9 @@
                                 November 6.</note></head>
                         <opener>
                             <dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                    >Paris</hi></placeName> [undated.]</dateline>
+                                    >Paris</hi></placeName> [<date when="1935-10-26"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>.]</dateline>
                         </opener>
                         <p>I called today upon M. Chauvel,<note n="15" xml:id="d539fn15">Jean Michel
                                 Henri Chauvel, Secretary of Embassy in the African and Levant
