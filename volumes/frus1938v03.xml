@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1938v03">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1938v03">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -68,6 +68,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-05-23 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -349,7 +352,13 @@
                                 desire should be regarded as relating to exchange of information and
                                 consultation rather than as constituting an agreement to act or to
                                 refrain from action in concert.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, January 4, 1938.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1938-01-04">January 4,
+                                    1938</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d5" n="5">
                             <note rend="inline" type="source">793.94/11969: Telegram</note>
@@ -2378,7 +2387,13 @@
                                 of this information instructions will be issued to His Majesty’s
                                 Representatives to ensure as far as possible the adoption of a
                                 common attitude.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, January 19, 1938.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1938-01-19">January 19,
+                                    1938</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d46" n="46">
                             <note rend="inline" type="source">793.94/12211</note>
@@ -3400,7 +3415,13 @@
                                 with His Majesty’s Government and the French Government to whom no
                                 further communication is being made by His Majesty’s Government at
                                 present.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, January 26, 1938.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1938-01-26">January 26,
+                                    1938</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d65" n="65">
                             <note rend="inline" type="source">793.94/12231: Telegram</note>
@@ -3505,7 +3526,13 @@
                                 stationed temporarily at Tientsin, two companies from the marine
                                 guard which this Government now has stationed at Peiping, leaving:
                                 at Peiping two companies of that guard.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, January 29, 1938.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1938-01-29">January 29,
+                                    1938</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d68" n="68">
                             <note rend="inline" type="source">893.0146/621b</note>
@@ -3531,7 +3558,12 @@
                                 with regard to the changes which it is preparing to make. We cannot
                                 undertake, however, absolutely to guarantee that this effort will be
                                 successful.</p>
-                            <p>[<hi rend="smallcaps">Washington</hi>,] January 29, 1938.</p>
+                            <closer>
+                                <dateline>[<placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>,] <date when="1938-01-29">January 29,
+                                    1938</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d69" n="69">
                             <note rend="inline" type="source">893.01 Provisional/43: Telegram</note>
@@ -3678,7 +3710,13 @@
                                 reciprocal interest to the British and the French Governments in the
                                 light of that communication from the American Government to the
                                 British Government.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, January 31, 1938.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1938-01-31">January 31,
+                                    1938</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d72" n="72">
                             <note rend="inline" type="source">803.0146/598: Telegram</note>
@@ -4588,6 +4626,11 @@
                                     the <gloss type="to">Department of State</gloss></hi><note
                                     n="15" xml:id="d89fn15">Handed to the Under Secretary of State
                                     by the French Chargé, February 8.</note></head>
+                            <dateline>
+                                <date when="1938-02-08"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>
+                            </dateline>
                             <p>On the occasion of the partial withdrawal of American troops from
                                 Northern China, it is recalled that last December, the British
                                 Government had approached the French Government requesting for an
@@ -5223,7 +5266,13 @@
                                 charge of the mission.</p>
                             <p>His Majesty’s Government are approaching the French Government in a
                                 similar sense.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, February 14, 1938.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1938-02-14">February 14,
+                                    1938</date>.</dateline>
+                            </closer>
                         </div>
                         <pb n="89" xml:id="pg_89" facs="0093"/>
                         <div type="document" xml:id="d99" n="99">
@@ -6927,7 +6976,13 @@
                                 in their consular capacity. It may be mentioned that three members
                                 of the staff of the American Embassy at Peiping have the dual status
                                 of diplomatic officer and consular officer.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, March 10, 1938.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1938-03-10">March 10,
+                                    1938</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d126" n="126">
                             <note rend="inline" type="source">793.94/12630: Telegram</note>
@@ -8151,7 +8206,13 @@
                                     see <ref target="frus1931-41v01#pg_463"><hi rend="italic"
                                             >Foreign Relations</hi>, Japan, 1931–1941, vol. <hi
                                             rend="smallcaps">i</hi>, p. 463</ref>.</note></p>
-                            <p><hi rend="smallcaps">Washington</hi>, April 11, 1938.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1938-04-11">April 11,
+                                    1938</date>.</dateline>
+                            </closer>
                         </div>
                         <pb n="141" xml:id="pg_141" facs="0145"/>
                         <div type="document" xml:id="d148" n="148">
@@ -11029,6 +11090,11 @@
                                     (<hi rend="italic">C. T. Wang</hi>) <hi rend="italic">on June 8,
                                     1938</hi><note n="59" xml:id="d182fn59">Copy transmitted to the
                                     Department by the Chinese Embassy on June 8.</note></head>
+                            <dateline>
+                                <date when="1938-06-08"
+                                    ana="#date_undated-inferred-from-document-head">June 8,
+                                    1938</date>
+                            </dateline>
                             <p>The report carried in some of the newspapers alleging that there is a
                                 split between Generalissimo Chiang Kai-shek, Commander-in-chief of
                                 the Chinese army, and General Li Tsung-jen is entirely groundless.
@@ -11089,7 +11155,13 @@
                                 to the application of sanctions, not only would the innocent Chinese
                                 people’s suffering be lessened, but the security of future peace of
                                 mankind and human justice enhanced.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, June 9, 1938.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1938-06-09">June 9,
+                                    1938</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d184" n="184">
                             <note rend="inline" type="source">701.9394/20: Telegram</note>
@@ -12171,6 +12243,11 @@
                                     China</hi><note n="93" xml:id="d205fn93">Apparently prepared in
                                     the Division of Far Eastern Affairs as part of a study, dated
                                     July 5, of the “Sino-Japanese conflict”.</note></head>
+                            <dateline>
+                                <date when="1938-07-05"
+                                    ana="#date_undated-inferred-from-document-content">July 5,
+                                    1938</date>
+                            </dateline>
                             <p>It is estimated that over seventy-five percent of the military
                                 supplies imported into China since the start of the hostilities have
                                 been routed through Hong Kong. The routes of entry for the remainder
@@ -14487,11 +14564,14 @@
                             <p>Ronald added that since the above nothing had occurred. Asked whether
                                 the British Ambassador made any comment to General Chiang Kai-shek,
                                 Ronald replied that he had not.</p>
-                            <closer><signed>H[<hi rend="smallcaps">ugh</hi>] M[<hi rend="smallcaps"
-                                        >illard</hi>]</signed></closer>
-                            <postscript>
-                                <p>[<hi rend="smallcaps">London</hi>,] August 5, 1938.</p>
-                            </postscript>
+                            <closer>
+                                <signed>H[<hi rend="smallcaps">ugh</hi>] M[<hi rend="smallcaps"
+                                        >illard</hi>]</signed>
+                                <dateline>[<placeName>
+                                        <hi rend="smallcaps">London</hi>
+                                    </placeName>,] <date when="1938-08-05">August 5,
+                                    1938</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d238" n="238">
                             <note rend="inline" type="source">793.94119/436: Telegram</note>
@@ -17933,11 +18013,14 @@
                                 most opportune time for such a move, because the Japanese are
                                 engaged in a most difficult war for the attack and occupation of the
                                 Wu-Han cities.”</p>
-                            <closer><signed><hi rend="smallcaps">Chiang
-                                Chung-cheng</hi></signed></closer>
-                            <postscript>
-                                <p><hi rend="smallcaps">October the Eighth</hi>.</p>
-                            </postscript>
+                            <closer>
+                                <signed>
+                                    <hi rend="smallcaps">Chiang Chung-cheng</hi>
+                                </signed>
+                                <dateline>
+                                    <date when="1938-10-08"><hi rend="smallcaps">October the
+                                            Eighth</hi></date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d299" n="299">
                             <note rend="inline" type="source">793.94/14031: Telegram</note>
@@ -18653,6 +18736,11 @@
                                     Chinese Ambassador on October 19 by the Adviser on Political
                                     Relations, for transmittal to Generalissimo Chiang
                                     Kai-shek.</note></head>
+                            <dateline>
+                                <date when="1938-10-19"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>
+                            </dateline>
                             <p>The appointed Chinese Ambassador at this capital has communicated to
                                 me your message of October 8.</p>
                             <p>The situation in the Far East has been and continues to be a subject
@@ -25293,7 +25381,13 @@
                             intercede with the appropriate authorities toward obtaining a favorable
                             interpretation of the laws or such modification thereof as; might be
                             within the discretionary authority of administrative officials.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, January 25, 1938.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1938-01-25">January 25,
+                                1938</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="443" xml:id="pg_443" facs="0447"/>
                     <div type="document" xml:id="d424" n="424">
@@ -25531,6 +25625,11 @@
                         <note rend="inline" type="source">793.943 Manchuria/52</note>
                         <head><hi rend="italic">The <gloss type="from">Belgian Embassy</gloss> to
                                 the <gloss type="to">Department of State</gloss></hi></head>
+                        <dateline>
+                            <date notBefore="1938-02-23T00:00:00-05:00"
+                                notAfter="1938-02-24T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                        </dateline>
                         <opener>
                             <seg rendition="#center">[Translation]<note n="92" xml:id="d430fn92"
                                     >File translation revised by the editors.</note></seg>
@@ -32865,7 +32964,13 @@
                             stabilisation loan would be greatly influenced by the knowledge that the
                             United States Government were willing to take parallel and simultaneous
                             action.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, December 7, 1938.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1938-12-07">December 7,
+                                1938</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d587" n="587">
                         <note rend="inline" type="source">893.51/6736⅞</note>
@@ -33209,6 +33314,10 @@
                         <note rend="inline" type="source">893.5151/550</note>
                         <head><hi rend="italic">Press Release Issued by the Treasury Department on
                                 December 19, 1938</hi></head>
+                        <dateline>
+                            <date when="1938-12-19" ana="#date_undated-inferred-from-document-head"
+                                >December 19, 1938</date>
+                        </dateline>
                         <p>Secretary Morgenthau announced today that the arrangement announced July
                             9, 1937, under which the Central Bank of China has been enabled, under
                             conditions which safeguard the interests of both countries, to obtain
@@ -34068,7 +34177,13 @@
                                 the Chinese Ambassador that a license for the export of six such
                                 aircraft to Urga had been issued to the Douglas Aircraft Company,
                                 Inc., on September 22.</note></p>
-                        <p><hi rend="smallcaps">Washington</hi>, June 29, 1938.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1938-06-29">June 29,
+                                1938</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d607" n="607">
                         <note rend="inline" type="source">711.00111 Lic.<hi rend="superscript"
@@ -35260,7 +35375,13 @@
                             furnished with details regarding the actions or intentions of the United
                             States Government in the directions mentioned by the Chinese Ambassador
                             in London.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, October 20, 1938.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1938-10-20">October 20,
+                                1938</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d640" n="640">
                         <note rend="inline" type="source">894.24/452</note>
@@ -35306,7 +35427,13 @@
                             Government has taken or may have under contemplation in the directions
                             mentioned in the British Embassy’s <hi rend="italic">aide-mémoire</hi>
                             of October 20.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, November 9, 1938.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1938-11-09">November 9,
+                                1938</date>.</dateline>
+                        </closer>
                     </div>
                 </div>
                 <div type="chapter" xml:id="ch7">
@@ -35762,7 +35889,13 @@
                                     Inspectorate General not to recognize the illegal change of
                                     tariff in North China.”</p>
                             </quote></p>
-                        <p><hi rend="smallcaps">Washington</hi>, January 24, 1938.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1938-01-24">January 24,
+                                1938</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d653" n="653">
                         <note rend="inline" type="source">693.002/467: Telegram</note>
@@ -41833,8 +41966,9 @@
                                 State</gloss></hi></head>
                         <opener>
                             <dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                    >Hankow</hi></placeName> [undated].<lb/>[Received August 3—11:29
-                                a.m.]</dateline>
+                                    >Hankow</hi></placeName> [<date when="1938-08-03"
+                                    ana="#date_undated-inferred-from-outside-research"
+                                    >undated</date>].<lb/>[Received August 3—11:29 a.m.]</dateline>
                         </opener>
                         <p>Hankow raided by 18 Japanese bombers this morning. Bombs dropped in the
                             vicinity airfield.</p>
@@ -42660,7 +42794,13 @@
                             action would be advisable, it does not perceive that any beneficial
                             purpose would be served by its making further representations to the
                             Japanese Government in this matter at this time.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, December 28, 1938.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1938-12-28">December 28,
+                                1938</date>.</dateline>
+                        </closer>
                         <postscript>
                             <p>[Correspondence on the undeclared war between Japan and China is
                                 continued in <ref target="frus1938v04">volume IV</ref>.]</p>

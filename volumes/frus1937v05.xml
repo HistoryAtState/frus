@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1937v05">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1937v05">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -68,6 +68,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-05-23 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -7814,8 +7817,12 @@
                                 the <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener>
                             <dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                    >Habana</hi></placeName>, [undated].<lb/>[Received November 14,
-                                1937—3:50 p.m.]</dateline>
+                                    >Habana</hi></placeName>, [<date
+                                    notBefore="1937-11-13T19:00:00-05:00"
+                                    notAfter="1937-11-14T15:50:00-05:00"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>].<lb/>[Received November 14, 1937—3:50
+                                p.m.]</dateline>
                         </opener>
                         <p>90. Your No. 105, November 13, 7 p.m. The Cuban Secretary of State whom I
                             saw this afternoon showed me the texts of the telegrams sent by his
@@ -9878,7 +9885,13 @@
                             impossible to calculate the effective strength of the fleet of any given
                             country. It was precisely such a sudden alteration of naval strength
                             that the provisions in question were intended to avert.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, September 13, 1937.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1937-09-13">September 13,
+                                1937</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="173" xml:id="pg_173" facs="0183"/>
                     <div type="document" xml:id="d186" n="186">
@@ -12577,7 +12590,13 @@
                                 issued not less than five weeks after the preliminary
                                 announcement.</item>
                         </list>
-                        <p><hi rend="smallcaps">Washington</hi>, November 22, 1937.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1937-11-22">November 22,
+                                1937</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d230" n="230">
                         <note rend="inline" type="source">611.3531/559</note>
@@ -15293,6 +15312,11 @@
                                 18; received March 25. For Spanish text of this decree, see Bolivia,
                                     <hi rend="italic">Anuario Administrativo de 1987</hi> (La Paz),
                                 vol. <hi rend="smallcaps">i</hi>, p. 519.</note></head>
+                        <dateline>
+                            <placeName>La Paz</placeName>, <date when="1937-03-13"
+                                ana="#date_undated-inferred-from-document-head">March 13,
+                                1937</date>
+                        </dateline>
                         <opener>
                             <seg rendition="#center">[Translation]</seg>
                         </opener>
@@ -20557,6 +20581,10 @@
                         <note rend="inline" type="source">832.34/282</note>
                         <head><hi rend="italic">Memorandum of Press Conference, June 26,
                             1937</hi></head>
+                        <dateline>
+                            <date when="1937-06-26" ana="#date_undated-inferred-from-document-head"
+                                >June 26, 1937</date>
+                        </dateline>
                         <p>At the press conference this morning, a correspondent asked the Acting
                             Secretary, Mr. Welles, about the reported cooperation of the United
                             States with Brazil in the construction of the destroyers for the
@@ -21696,7 +21724,13 @@
                             of the United States would be happy to explore with the Chilean
                             Government the possibility of entering into negotiations for such an
                             agreement.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, July 16, 1937.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1937-07-16">July 16,
+                                1937</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d425" n="425">
                         <note rend="inline" type="source">625.5131/97a: Telegram</note>
@@ -24806,6 +24840,10 @@
                         <note rend="inline" type="source">839.51/4510½</note>
                         <head><hi rend="italic">Draft Convention Submitted by the Dominican
                                 Plenipotentiaries on March 29, 1937</hi></head>
+                        <dateline>
+                            <date when="1937-03-29" ana="#date_undated-inferred-from-document-head"
+                                >March 29, 1937</date>
+                        </dateline>
                         <opener>
                             <seg rendition="#center">[Translation]</seg>
                         </opener>
@@ -25057,6 +25095,11 @@
                         <note rend="inline" type="source">839.51/4532</note>
                         <head><hi rend="italic">The <gloss type="from">Dominican Legation</gloss> to
                                 the <gloss type="to">Department of State</gloss></hi></head>
+                        <dateline>
+                            <date notBefore="1937-05-29T00:00:00-05:00"
+                                notAfter="1937-07-07T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                        </dateline>
                         <opener>
                             <seg rendition="#center">[Translation]</seg>
                         </opener>
@@ -28136,7 +28179,13 @@
                             the near future the negotiations already begun with the Government of
                             Ecuador, may culminate in the conclusion of a mutually advantageous
                             trade agreement.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, November 27, 1937.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1937-11-27">November 27,
+                                1937</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d527" n="527">
                         <note rend="inline" type="source">611.2231/217a: Telegram</note>
@@ -28869,6 +28918,10 @@
                                 Principal Points of a Note From the Haitian Legation to the Haitian
                                 Government, May 8, 1937</hi><note n="25" xml:id="d538fn25">Handed to
                                 the Assistant Secretary of State, May 17, 1937.</note></head>
+                        <dateline>
+                            <date when="1937-05-08" ana="#date_undated-inferred-from-document-head"
+                                >May 8, 1937</date>
+                        </dateline>
                         <opener>
                             <seg rendition="#center">[Translation]</seg>
                         </opener>
@@ -28900,6 +28953,10 @@
                         <head><hi rend="italic">Memorandum From the Haitian Legation Embodying the
                                 Text of a Note From the Haitian Minister for Foreign Affairs to the
                                 Haitian Legation in the United States, May 12, 1937</hi></head>
+                        <dateline>
+                            <date when="1937-05-12" ana="#date_undated-inferred-from-document-head"
+                                >May 12, 1937</date>
+                        </dateline>
                         <opener>
                             <seg rendition="#center">[Translation]</seg>
                         </opener>
@@ -30708,7 +30765,13 @@
                             holders of the bonds of the Haitian 1922 issue, that the charge of
                             discrimination in favor of the holders of the French loan probably would
                             be raised by the holders of the bonds of the 1922 loan.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, [June 22, 1937.]</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, [<date when="1937-06-22">June 22,
+                                1937</date>.]</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d572" n="572">
                         <note rend="inline" type="source">838.51/3367</note>
@@ -31040,7 +31103,13 @@
                         <p>The Haitian Government wishes to add that the agreement contemplated
                             would definitively put an end to all controversies between France and
                             Haiti with regard to the 1910 loan.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, July 7, 1937.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1937-07-07">July 7,
+                                1937</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d575" n="575">
                         <note rend="inline" type="source">838.51/3377b: Telegram</note>
@@ -35047,20 +35116,26 @@
                             Secretary of State use his good offices with the Mexican government to
                             prevent this act of manifest injustice.</p>
                         <p>Respectfully submitted,</p>
-                        <closer><hi rend="smallcaps">Mexican Gulf Oil Company</hi><lb/>By
-                                <signed>Wm. T. Wallace</signed><lb/>Its <hi rend="italic"
-                                >Vice-President</hi><lb/><hi rend="smallcaps">Mexican Sinclair
-                                Petroleum Corporation</hi><lb/>By <signed>A. E.
-                                Watts</signed><lb/><hi rend="italic">President</hi><lb/><hi
-                                rend="smallcaps">Penn Mex Fuel Company</hi><lb/>By <signed>J.
-                                Lucas</signed><lb/><hi rend="italic">Vice-President</hi><lb/><hi
-                                rend="smallcaps">Huasteca Petroleum Company</hi><lb/>By <signed>Fred
-                                H. Kay</signed><lb/>Its <hi rend="italic"
-                                >Vice-President</hi><lb/><hi rend="smallcaps">Standard Oil Company
-                                of California</hi><lb/>By <signed>Frank Feuille</signed></closer>
-                        <postscript>
-                            <p><hi rend="smallcaps">New York City</hi>, July 14, 1937.</p>
-                        </postscript>
+                        <closer>
+                            <hi rend="smallcaps">Mexican Gulf Oil Company</hi><lb/> By <signed>Wm.
+                                T. Wallace</signed><lb/> Its <hi rend="italic">Vice-President</hi><lb/>
+                            <hi rend="smallcaps">Mexican Sinclair Petroleum Corporation</hi><lb/> By
+                                <signed>A. E. Watts</signed><lb/>
+                            <hi rend="italic">President</hi><lb/>
+                            <hi rend="smallcaps">Penn Mex Fuel Company</hi><lb/> By <signed>J.
+                                Lucas</signed><lb/>
+                            <hi rend="italic">Vice-President</hi><lb/>
+                            <hi rend="smallcaps">Huasteca Petroleum Company</hi><lb/> By
+                                <signed>Fred H. Kay</signed><lb/> Its <hi rend="italic"
+                                >Vice-President</hi><lb/>
+                            <hi rend="smallcaps">Standard Oil Company of California</hi><lb/> By
+                                <signed>Frank Feuille</signed><lb/>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">New York City</hi>
+                                </placeName>, <date when="1937-07-14">July 14,
+                                1937</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d641" n="641">
                         <note rend="inline" type="source">812.6363/2956</note>
@@ -35929,20 +36004,21 @@
                             the Mexican Government its concern over the outcome of the present
                             situation.</p>
                         <p>Respectfully,</p>
-                        <closer><signed>W. W. <hi rend="smallcaps">Wilkinson</hi></signed><lb/><hi
-                                rend="italic">California Standard Oil Co. de
-                                Mexico</hi><lb/><signed>F. C. <hi rend="smallcaps"
-                                >Randall</hi></signed><lb/><hi rend="italic">Penn-Mex Fuel
-                                Company</hi><lb/><signed>A. E. <hi rend="smallcaps"
-                                >Watts</hi></signed><lb/><hi rend="italic">Mexican, Sinclair Pet.
-                                Corp</hi>.<lb/><signed>L. L. <hi rend="smallcaps"
-                                >Anderson</hi></signed><lb/><hi rend="italic">Huasteca Petroleum
-                                Company</hi><lb/><signed>J. W. <hi rend="smallcaps"
-                                >Balding</hi></signed><lb/><hi rend="italic">Mexican Gulf Oil
-                                Co</hi>.</closer>
-                        <postscript>
-                            <p><hi rend="smallcaps">August</hi> 18, 1937.</p>
-                        </postscript>
+                        <closer>
+                            <signed>W. W. <hi rend="smallcaps">Wilkinson</hi></signed><lb/>
+                            <hi rend="italic">California Standard Oil Co. de Mexico</hi><lb/>
+                            <signed>F. C. <hi rend="smallcaps">Randall</hi></signed><lb/>
+                            <hi rend="italic">Penn-Mex Fuel Company</hi><lb/>
+                            <signed>A. E. <hi rend="smallcaps">Watts</hi></signed><lb/>
+                            <hi rend="italic">Mexican, Sinclair Pet. Corp</hi>.<lb/>
+                            <signed>L. L. <hi rend="smallcaps">Anderson</hi></signed><lb/>
+                            <hi rend="italic">Huasteca Petroleum Company</hi><lb/>
+                            <signed>J. W. <hi rend="smallcaps">Balding</hi></signed><lb/>
+                            <hi rend="italic">Mexican Gulf Oil Co</hi>.<lb/>
+                            <dateline>
+                                <date when="1937-08-18"><hi rend="smallcaps">August</hi> 18,
+                                    1937</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d650" n="650">
                         <note rend="inline" type="source">812.5045/512: Telegram</note>
@@ -36839,8 +36915,12 @@
                                     <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener>
                             <dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                    >Mexico</hi></placeName> [undated].<lb/>[Received July 9,
-                                1937—2:16 a.m.]</dateline>
+                                    >Mexico</hi></placeName> [<date
+                                    notBefore="1929-06-29T19:00:00-06:00"
+                                    notAfter="1937-07-09T02:16:00-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>].<lb/>[Received July 9, 1937—2:16
+                                a.m.]</dateline>
                         </opener>
                         <p>180. Mujica advised Lockett today that the Government had not the
                             slightest intention of expropriating other railroads or industries
@@ -36988,7 +37068,13 @@
                             are disposed to reach a settlement, it is to be hoped that the future
                             obligations of the Mexican State toward the holders of bonds of the
                             National Railways may be fixed by mutual consent.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, July 12, 1937.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1937-07-12">July 12,
+                                1937</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d669" n="669">
                         <note rend="inline" type="source">812.51/2217: Telegram</note>
@@ -41743,6 +41829,10 @@
                                 1937</hi><note n="19" xml:id="d760fn19">Copy transmitted to the
                                 Department by the Minister in Venezuela as an enclosure to his
                                 despatch No. 770, July 16; received July 22.</note></head>
+                        <dateline>
+                            <date when="1937-07-15" ana="#date_undated-inferred-from-document-head"
+                                >July 15, 1937</date>
+                        </dateline>
                         <p>In an informal discussion of the proposed reciprocal trade agreement
                             between the United States and Venezuela, the Foreign Minister stated
                             that given a certain amount of good will on both sides, he was confident
