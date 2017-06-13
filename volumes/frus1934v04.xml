@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1934v04">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1934v04">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -62,6 +62,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-07-08 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -6964,6 +6967,10 @@
                                 the President, August 30, 1985; ratification of the United States
                                 deposited with the Pan American Union at Washington, September 12,
                                 1935; proclaimed by the President, October 25, 1935.</note></head>
+                        <dateline>
+                            <date when="1934-09-20" ana="#date_undated-inferred-from-document-head"
+                                >September 20, 1934</date>
+                        </dateline>
                         <p>The High Contracting Parties, desirous of encouraging the development of
                             economic relations among the peoples of the world by means of
                             multilateral conventions, the benefits of which ought not to inure to
@@ -9250,8 +9257,10 @@
                                         type="to">Secretary of State</gloss></hi></head>
                             <opener>
                                 <dateline rendition="#right"><placeName><hi rend="smallcaps">Buenos
-                                            Aires</hi></placeName> [undated].<lb/>[Received February
-                                    23, 1934—4:15 p.m.]</dateline>
+                                            Aires</hi></placeName> [<date when="1934-02-23"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        >undated</date>].<lb/>[Received February 23, 1934—4:15
+                                    p.m.]</dateline>
                             </opener>
                             <p>I have the honour to inform Your Excellency the Chaco Commission has
                                 decided to hand to the American Ambassador a copy of the draft
@@ -14351,7 +14360,13 @@
                                         extended by agreement on the part of the interested
                                         parties.</item>
                                 </list></p>
-                            <p><hi rend="smallcaps">Buenos Aires</hi>, July 12, 1934.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Buenos Aires</hi>
+                                    </placeName>, <date when="1934-07-12">July 12,
+                                    1934</date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d186" n="186">
                             <note rend="inline" type="source">724.3415/3921a: Telegram</note>
@@ -15153,6 +15168,12 @@
                                     xml:id="d201fn10">Copy transmitted to the Department by the
                                     Minister in Bolivia in his despatch No. 120, July 25; received
                                     August 2.</note></head>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">La Paz</hi>
+                                </placeName>, <date when="1934-07-24"
+                                    ana="#date_undated-inferred-from-document-content">July 24,
+                                    1934</date></dateline>
                             <opener>
                                 <seg rendition="#center">[Translation]</seg>
                             </opener>
@@ -27972,6 +27993,10 @@
                         <note rend="inline" type="source">721.23/2206</note>
                         <head><hi rend="italic">Press Release Issued by the Department of State,
                                 April 11, 1934</hi></head>
+                        <dateline>
+                            <date when="1934-04-11" ana="#date_undated-inferred-from-document-head"
+                                >April 11, 1934</date>
+                        </dateline>
                         <p>As regards recent reports that American aviators are going to Colombia
                             under contract to serve in the Colombian military forces in the event of
                             war, the Department understands that the facts are that the Colombian
@@ -31210,8 +31235,11 @@
                                 State</gloss></hi></head>
                         <opener>
                             <dateline rendition="#right"><placeName><hi rend="smallcaps">San
-                                        Salvador</hi></placeName> [undated].<lb/>[Received March
-                                5—8:20 p.m.]</dateline>
+                                        Salvador</hi></placeName> [<date
+                                    notBefore="1934-03-04T16:00:00-06:00"
+                                    notAfter="1934-03-05T20:20:00-05:00"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>].<lb/>[Received March 5—8:20 p.m.]</dateline>
                         </opener>
                         <p>11. The following telegram has been sent to Managua: <quote
                                 rend="blockquote">
@@ -34940,7 +34968,13 @@
                             the commencing of active negotiation until additional time can be given
                             to study every phase of the situation in the greatest possible detail in
                             order to make certain of a favorable outcome to the negotiations.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, September 7, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-09-07">September 7,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                 </div>
                 <div type="chapter" xml:id="ch13">
@@ -36836,7 +36870,13 @@
                             to sail shortly for the United States, and hopes that he will be armed
                             with full powers to negotiate an agreement of mutual benefit to the two
                             countries.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, July 20, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-07-20">July 20,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d629" n="629">
                         <note rend="inline" type="source">611.3231/616a: Telegram</note>
@@ -36933,6 +36973,10 @@
                                 the <gloss type="to">Department of State</gloss></hi><note n="14"
                                 xml:id="d632fn14">Undated memorandum received in the Department
                                 about October 5, 1934.</note></head>
+                        <dateline>
+                            <date when="1934-10-05"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <opener>
                             <seg rendition="#center">[Translation]</seg>
                         </opener>
@@ -37186,7 +37230,13 @@
                             two proposals which have been submitted. It wishes to proceed with the
                             negotiations of a commercial agreement with Brazil with all expedition
                             possible.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, October 30, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-10-30">October 30,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d634" n="634">
                         <note rend="inline" type="source">611.3231/679</note>
@@ -37335,7 +37385,13 @@
                             other proposals of a more general nature which the Brazilian Government
                             might wish to have considered in connection with the proposed trade
                             agreement.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, November 10, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-11-10">November 10,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d636" n="636">
                         <note rend="inline" type="source">611.3231/893</note>
@@ -37472,7 +37528,13 @@
                             of the present negotiations, the Government of Brazil will be willing,
                             by means of a note addressed to the Government of the United States, to
                             indicate its intentions in this regard.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, November 24, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-11-24">November 24,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d639" n="639">
                         <note rend="inline" type="source">611.3231/690</note>
@@ -37490,7 +37552,13 @@
                             United States reserves the privilege of suggesting such changes in these
                             provisions as may on further consideration seem desirable, prior to
                             their final approval by both Governments.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, November 24, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-11-24">November 24,
+                                1934</date>.</dateline>
+                        </closer>
                         <frus:attachment>
                             <opener>
                                 <seg rendition="#center">[Enclosure 1]</seg>
@@ -38145,6 +38213,10 @@
                                 rend="italic">to the Economic Adviser</hi> (<persName type="to"><hi
                                     rend="italic">Feis</hi></persName>), <hi rend="italic">Circa
                                 December 18, 1934</hi></head>
+                        <dateline>
+                            <date when="1934-12-18" ana="#date_undated-inferred-from-document-head"
+                                >circa December 18, 1934</date>
+                        </dateline>
                         <opener>
                             <seg rendition="#center">[Translation]<note n="37" xml:id="d643fn37"
                                     >File translation revised by the editor.</note></seg>
@@ -38555,7 +38627,13 @@
                                 Washington being ready to begin at once the conversations on the
                                 subject.</item>
                         </list>
-                        <p><hi rend="smallcaps">Washington</hi>, December 28, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-12-28">December 28,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                 </div>
                 <div type="chapter" xml:id="ch16">
@@ -41163,7 +41241,13 @@
                                 to assist in the work of instruction at the Brazilian War College
                                 (Department of State, <hi rend="italic">Press Releases</hi>, June
                                 25, 1932, p. 597).</note> serve as a basis for the same.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, December 11, 1933.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1933-12-11">December 11,
+                                1933</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="624" xml:id="pg_624" facs="0694"/>
                     <div type="document" xml:id="d695" n="695">
@@ -41254,6 +41338,10 @@
                                 Military Mission to Brazil, Signed May 10, 1934</hi><note n="88"
                                 xml:id="d698fn88">Signed in English and Portuguese; Portuguese text
                                 not printed.</note></head>
+                        <dateline>
+                            <date when="1934-05-10" ana="#date_undated-inferred-from-document-head"
+                                >May 10, 1934</date>
+                        </dateline>
                         <p>In conformity with the request made on December 11, 1933, by the
                             Brazilian Ambassador at Washington to the Secretary of State of the
                             United States of America, the President of the United States of America,
