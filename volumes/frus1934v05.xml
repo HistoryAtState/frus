@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1934v05">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1934v05">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -62,6 +62,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-07-08 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -9523,7 +9526,13 @@
                             exchange of notes, to be entered into concurrently with the proposed
                             trade agreement, provisions on this subject designed reciprocally to
                             protect the interests of the two countries.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, December 10, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-12-10">December 10,
+                                1934</date>.</dateline>
+                        </closer>
                         <pb n="76" xml:id="pg_76" facs="0142"/>
                         <frus:attachment>
                             <opener>
@@ -11776,6 +11785,10 @@
                         <note rend="inline" type="source">611.003/3047</note>
                         <head><hi rend="italic">Press Release Issued by the Department of State,
                                 March 28, 1934</hi></head>
+                        <dateline>
+                            <date when="1934-03-28" ana="#date_undated-inferred-from-document-head"
+                                >March 28, 1934</date>
+                        </dateline>
                         <p rend="center"><hi rend="smallcaps">Statement by Mr. Francis B. Sayre,
                                 Assistant Secretary of State</hi></p>
                         <p>References have been made in the course of the debate on the tariff bill
@@ -13877,7 +13890,13 @@
                             sets forth the complete list of maximum concessions which the United
                             States is prepared to make with the exception of those concerning sugar
                             products classified under Paragraph 502 of the Tariff Act of 1930.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, August 1, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-08-01">August 1,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d132" n="132">
                         <note rend="inline" type="source">611.3731/841a Supp.</note>
@@ -14655,6 +14674,10 @@
                                     24, 1934; proclaimed by the President of Cuba August 30, 1934;
                                     effective September 3, 1934.</p><p>For texts of the schedules
                                     attached to the agreement, see 49 Stat. 3559.</p></note></head>
+                        <dateline>
+                            <date when="1934-08-24" ana="#date_undated-inferred-from-document-head"
+                                >August 24, 1934</date>
+                        </dateline>
                         <p>The President of the United States of America and the President of the
                             Republic of Cuba, desirous of strengthening the traditional bonds of
                             friendship and commerce between their respective countries by
@@ -15021,6 +15044,10 @@
                         <note rend="inline" type="source">611.3731/1015</note>
                         <head><hi rend="italic">Press Release Issued by the Department of State,
                                 August 24, 1934</hi></head>
+                        <dateline>
+                            <date when="1934-08-24" ana="#date_undated-inferred-from-document-head"
+                                >August 24, 1934</date>
+                        </dateline>
                         <p rend="center"><hi rend="smallcaps">Statement by Mr. Cordell Hull,
                                 Secretary of State</hi></p>
                         <p>At the time of the signing of the Trade Agreements Act, I stated that the
@@ -15054,6 +15081,10 @@
                         <note rend="inline" type="source">611.3731/1066</note>
                         <head><hi rend="italic">Press Release Issued by the Department of State,
                                 August 24, 1934</hi></head>
+                        <dateline>
+                            <date when="1934-08-24" ana="#date_undated-inferred-from-document-head"
+                                >August 24, 1934</date>
+                        </dateline>
                         <p rend="center"><hi rend="smallcaps">Statement by His Excellency Dr. Cosme
                                 de la Torriente, Secretary of State of Cuba</hi></p>
                         <p>Many years before Cuba gained her Independence from Spain, her commercial
@@ -15377,6 +15408,10 @@
                                 June 4, 1934; ratifications exchanged at Washington, June 9, 1934;
                                 pro-claimed by the President of the United States, June 9,
                                 1934.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date when="1934-05-29"
+                                ana="#date_undated-inferred-from-document-head">May 29, 1934</date>
+                        </dateline>
                         <p>The United States of America and the Republic of Cuba, being animated by
                             the desire to fortify the relations of friendship between the two
                             countries and to modify, with this purpose, the relations established
@@ -22078,12 +22113,14 @@
                         <p rend="center"><hi rend="smallcaps">Article</hi> III</p>
                         <p>The provisions of the present arrangement modify the stipulations
                             contained in Articles 1, II and V of the accord of August 7, 1933.</p>
-                        <closer>Signed at Port-au-Prince in duplicate in the English and French
-                            languages this twenty-fourth day of July, 1934.<lb/><signed><hi
-                                    rend="smallcaps">Norman Armour</hi></signed><lb/>[<hi
-                                rend="smallcaps">seal</hi>]<lb/><signed><hi rend="smallcaps">Léon
-                                    Laleau</hi></signed><lb/>[<hi rend="smallcaps"
-                            >seal</hi>]</closer>
+                        <closer>
+                            <dateline>Signed at <placeName>Port-au-Prince</placeName> in duplicate
+                                in the English and French languages this <date when="1934-07-24"
+                                    >twenty-fourth day of July, 1934</date>.</dateline><lb/>
+                            <signed><hi rend="smallcaps">Norman Armour</hi></signed><lb/> [<hi
+                                rend="smallcaps">seal</hi>]<lb/>
+                            <signed><hi rend="smallcaps">Léon Laleau</hi></signed><lb/> [<hi
+                                rend="smallcaps">seal</hi>]</closer>
                     </div>
                     <div type="document" xml:id="d319" n="319">
                         <note rend="inline" type="source">838.00/3228</note>
@@ -22338,7 +22375,13 @@
                             studies, both Governments consider that a mutually advantageous
                             agreement might be concluded this Government, for its part, will be
                             happy to proceed with negotiations to this end.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, February 20, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-02-20">February 20,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d326" n="326">
                         <note rend="inline" type="source">611.3831/44</note>
@@ -22706,7 +22749,13 @@
                             the case of the Republic of Haiti. This committee will be pleased to
                             receive at any time such proposals as the Haitian Government may deem it
                             expedient to lay before this Government.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, August 15, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-08-15">August 15,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d335" n="335">
                         <note rend="inline" type="source">611.3831/68</note>
@@ -22813,7 +22862,13 @@
                             of the United States tariff. The Haitian Government thinks that, in the
                             interest of the economic development of the country, it would be well to
                             assure the maintenance of such exemptions.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, August 27, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-08-27">August 27,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d336" n="336">
                         <note rend="inline" type="source">611.3831/64a: Telegram</note>
@@ -22877,7 +22932,13 @@
                             serious consideration to any proposals which the Haitian Government may
                             choose to present in connection with the general terms and provisions of
                             the proposed trade agreement.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, November 10, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-11-10">November 10,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d338" n="338">
                         <note rend="inline" type="source">611.3831/91a</note>
@@ -23033,7 +23094,13 @@
                             into the American market, and that the Agreement be so drawn up that a
                             really practical, useful and mutually advantageous commercial agreement
                             may be concluded between the United States and Haiti.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, December 18, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-12-18">December 18,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d341" n="341">
                         <note rend="inline" type="source">611.3831/99</note>
@@ -23074,7 +23141,13 @@
                         <p>The Government of the United States will be pleased to receive the views
                             of the Government of Haiti concerning the attached draft agreement and
                             the two Schedules included therein.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, December 20, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-12-20">December 20,
+                                1934</date>.</dateline>
+                        </closer>
                         <frus:attachment>
                             <opener>
                                 <seg rendition="#center">[Enclosure]</seg>
@@ -30761,6 +30834,11 @@
                                 President, November 27, 1934; ratified by Mexico, November 23, 1934;
                                 ratifications exchanged at Mexico City, December 13, 1934;
                                 proclaimed by the President, December 22, 1934.</note></head>
+                        <dateline>
+                            <placeName>Mexico City</placeName>, <date when="1934-04-24"
+                                ana="#date_undated-inferred-from-document-head">April 24,
+                                1934</date>
+                        </dateline>
                         <p>The United States of America and the United Mexican States, desiring to
                             settle and adjust amicably the claims comprehended by the terms of the
                             Special Claims Convention concluded by the two Governments on the 10th
@@ -30923,7 +31001,13 @@
                             said Government, shall be used only in exceptional cases, where the
                             withholding thereof may be required by considerations of real political
                             importance to the Government of Mexico.</p>
-                        <p><hi rend="smallcaps">Mexico</hi>, April 24, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Mexico</hi>
+                                </placeName>, <date when="1934-04-24">April 24,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d464" n="464">
                         <note rend="inline" type="source">Executive Agreement Series No. 57</note>
@@ -30934,6 +31018,11 @@
                                 1985; ratified by Mexico, November 23, 1934; ratifications exchanged
                                 at Washington, February 1, 1935; proclaimed by the President,
                                 February 1, 1935.</note></head>
+                        <dateline>
+                            <placeName>Mexico City</placeName>, <date when="1934-04-24"
+                                ana="#date_undated-inferred-from-document-head">April 24,
+                                1934</date>
+                        </dateline>
                         <p>Josephus Daniels, Ambassador Extraordinary and Plenipotentiary of the
                             United States of America to the Government of Mexico, and <pb n="471"
                                 xml:id="pg_471" facs="0537"/>José Manuel Puig Casauranc, Secretary
@@ -31881,7 +31970,13 @@
                                     ><ref target="frus1933v05#pg_845"><hi rend="italic">Foreign
                                         Relations</hi>, 1933, vol. <hi rend="smallcaps">v</hi>, p.
                                     845</ref>.</note></p>
-                        <p><hi rend="smallcaps">Washington</hi>, March 9, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-03-09">March 9,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d480" n="480">
                         <note rend="inline" type="source">812.504/1448: Telegram</note>
@@ -32305,7 +32400,13 @@
                             above sense and is being requested to proceed with exploratory
                             conversations along the lines indicated if the Government of Nicaragua
                             is so disposed.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, January 4, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-01-04">January 4,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d488" n="488">
                         <note rend="inline" type="source">611.1731/46</note>
@@ -36640,7 +36741,13 @@
                             of the document setting forth the agreement for the emergency issue of
                             C$1,500,000 córdobas recently decreed.<note n="99" xml:id="d571fn4">Not
                                 printed.</note></p>
-                        <p><hi rend="smallcaps">Washington</hi>, November 14, 1933.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1933-11-14">November 14,
+                                1933</date>.</dateline>
+                        </closer>
                         <pb n="576" xml:id="pg_576" facs="0642"/>
                         <frus:attachment>
                             <opener>
@@ -37445,8 +37552,10 @@
                                 to the <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener>
                             <dateline rendition="#right"><placeName>U. S. S. “<hi rend="smallcaps"
-                                        >Houston</hi>,”</placeName> [undated].<lb/>[Received July
-                                23, 1934—10:25 p.m.]</dateline>
+                                        >Houston</hi>,”</placeName> [<date when="1934-07-23"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>].<lb/>[Received July 23, 1934—10:25
+                                p.m.]</dateline>
                         </opener>
                         <p>Your July 23, 3 p.m. No decision reached with President Arias. I made
                             suggestion that no private radio company engage in ship to shore service
@@ -37657,7 +37766,13 @@
                             be readily understood by the Government of Panama, that the United
                             States Government is unable to renounce any of the rights which it
                             enjoys under Article II of the treaty of November 18, 1903.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, October 30, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-10-30">October 30,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="595" xml:id="pg_595" facs="0661"/>
                     <div type="document" xml:id="d586" n="586">
@@ -37704,6 +37819,10 @@
                         <note rend="inline" type="source">711.1928/288</note>
                         <head><hi rend="italic">Press Release Issued by the Department of State,
                                 November 5, 1934</hi></head>
+                        <dateline>
+                            <date when="1934-11-05" ana="#date_undated-inferred-from-document-head"
+                                >November 5, 1934</date>
+                        </dateline>
                         <p>In accordance with announcements made last spring, conversations have
                             been taking place during the past summer between the Minister of Panama
                             and Assistant Secretary of State Welles in exploration of the
@@ -38058,7 +38177,13 @@
                             a clause containing in substance the declaration and agreement suggested
                             in the draft article that the undersigned Minister had the honor to
                             submit to the Department on September 22 last.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, November 8, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-11-08">November 8,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="603" xml:id="pg_603" facs="0669"/>
                     <div type="document" xml:id="d589" n="589">
@@ -38366,7 +38491,13 @@
                             through which they hope to improve the condition of the Panamanian
                             citizens who work or are qualified to work for the Canal or for the
                             Railways,.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, December 1, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-12-01">December 1,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d590" n="590">
                         <note rend="inline" type="source">711.1928/297⅛</note>
@@ -39107,7 +39238,13 @@
                                 coin of 1904 but in any other “lawful currency” of a lesser value
                                 than that gold coin.</item>
                         </list>
-                        <p><hi rend="smallcaps">Washington</hi>, February 28, 1934.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1934-02-28">February 28,
+                                1934</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d598" n="598">
                         <note rend="inline" type="source">711.1928/211</note>
