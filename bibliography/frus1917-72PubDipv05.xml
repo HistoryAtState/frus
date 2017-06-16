@@ -16,16 +16,10 @@
     <public-target-publication-year/>
     <published-year/>
     <published-date/>
-    <administration>pre-truman</administration>
-    <administration>truman</administration>
     <administration>eisenhower</administration>
-    <administration>kennedy</administration>
-    <administration>johnson</administration>
-    <administration>nixon-ford</administration>
-    <grouping administration="pre-truman truman eisenhower kennedy johnson nixon-ford"
-        >retrospective</grouping>
-    <coverage type="from">1917</coverage>
-    <coverage type="to">1972</coverage>
+    <grouping administration="eisenhower">retrospective</grouping>
+    <coverage type="from">1953</coverage>
+    <coverage type="to">1960</coverage>
     <length>
         <span part="front" unit="pages"/>
         <span part="body" unit="pages"/>
