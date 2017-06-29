@@ -96,6 +96,10 @@
                         <catDesc>Date value(s) for undated document were inferred from nearest dated
                             siblings</catDesc>
                     </category>
+                    <category xml:id="date_undated-inferred-from-volume-rules">
+                        <catDesc>Date value(s) for undated document were inferred from volume date 
+                            range and possibly outside research</catDesc>
+                    </category>
                     <!-- other categories -->
                 </taxonomy>
             </classDecl>

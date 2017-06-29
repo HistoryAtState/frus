@@ -1135,6 +1135,10 @@ date =
         ## (Date value(s) for undated document were inferred from
         ##                                             nearest dated siblings) 
         "#date_undated-inferred-from-sibling-dates"
+      |
+        ## (Date value(s) for undated document were inferred from
+        ##                                             volume date range and possibly outside research)
+        "#date_undated-inferred-from-volume-rules"
     }?,
     empty
   }
