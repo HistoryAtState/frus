@@ -263,9 +263,10 @@
             <assert test="exists(.//tei:date)">Please tag "undated" in this dateline with a &lt;date&gt; element.</assert>
         </rule>
         <rule context="tei:dateline">
-            <assert test="tei:date">Datelines must contain a date element</assert>
+            <assert test=".//tei:date">Datelines must contain a date element</assert>
         </rule>
         <rule context="tei:date[ancestor::tei:dateline]">
+            <assert test="normalize-space(.) ne ''">Dateline date cannot be empty.</assert>
             <assert test="
                 (@from and @to) 
                 or 
