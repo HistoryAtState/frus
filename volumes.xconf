@@ -18,7 +18,7 @@
             </create>
             <create match="//tei:div">
                 <field name="div-type" match="@type" type="xs:string"/>
-                <field name="div-id" match="@xml:id" type="string"/>
+                <field name="div-id" match="@xml:id" type="xs:string"/>
             </create>
             <create qname="@target" type="xs:string"/>
             <create qname="@corresp" type="xs:string"/>
