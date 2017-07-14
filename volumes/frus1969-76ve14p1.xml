@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1969-76ve14p1">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1969-76ve14p1">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -3331,7 +3331,9 @@
                 <head>Documents on the United Nations, 1973-1976</head>
                 <div xml:id="ch1" type="chapter">
                     <head>United Nations Affairs</head>
-                    <div n="1" xml:id="d1" type="document">
+                    <div n="1" xml:id="d1" type="document"
+                        frus:doc-dateTime-min="1973-01-05T00:00:00Z"
+                        frus:doc-dateTime-max="1973-01-05T23:59:59Z">
                         <head>1. Airgram A–128 From the Department of State to All Diplomatic Posts,
                                 <placeName>Washington</placeName>, <date when="1973-01-05">January
                                 5, 1973</date>.<note n="1" xml:id="d1fn1" type="source">Source:
@@ -3855,7 +3857,9 @@
                             <persName corresp="#p_RWP1">ROGERS</persName>
                         </p>
                     </div>
-                    <div n="2" xml:id="d2" type="document">
+                    <div n="2" xml:id="d2" type="document"
+                        frus:doc-dateTime-min="1973-01-16T00:00:00Z"
+                        frus:doc-dateTime-max="1973-01-16T23:59:59Z">
                         <head>2. Memorandum From Director of Central Intelligence Helms to the
                             President’s Assistant for National Security Affairs (Kissinger),
                                 <placeName>Washington</placeName>, <date when="1973-01-16">January
@@ -3873,7 +3877,9 @@
                         </dateline>
                         <p>[<hi rend="italic">3 pages not declassified</hi>]</p>
                     </div>
-                    <div n="3" xml:id="d3" type="document">
+                    <div n="3" xml:id="d3" type="document"
+                        frus:doc-dateTime-min="1973-01-17T23:08:00Z"
+                        frus:doc-dateTime-max="1973-01-17T23:08:00Z">
                         <head>3. Telegram 140 From the Mission to the United Nations to the
                             Department of State, <date when="1973-01-17T23:08:00+00:00">January 17,
                                 1973, 2308Z</date>.<note n="1" xml:id="d3fn1" type="source">Source:
@@ -4040,7 +4046,9 @@
                             <persName corresp="#p_BGHW1">BUSH</persName>
                         </p>
                     </div>
-                    <div n="4" xml:id="d4" type="document">
+                    <div n="4" xml:id="d4" type="document"
+                        frus:doc-dateTime-min="1973-02-03T00:00:00Z"
+                        frus:doc-dateTime-max="1973-02-03T23:59:59Z">
                         <head>4. Conversation Between President Nixon and the President’s Assistant
                             for National Security Affairs (Kissinger),
                                 <placeName>Washington</placeName>, <date when="1973-02-03">February
@@ -4147,7 +4155,9 @@
                         <p>Kissinger: I'll go about 3:30, 4 o'clock.</p>
                         <p>Nixon: Where? You're going...</p>
                     </div>
-                    <div n="5" xml:id="d5" type="document">
+                    <div n="5" xml:id="d5" type="document"
+                        frus:doc-dateTime-min="1973-02-13T00:00:00Z"
+                        frus:doc-dateTime-max="1973-02-13T23:59:59Z">
                         <head>5. Memorandum From the President’s Deputy Assistant for National
                             Security Affairs (Scowcroft) to the President’s Files, <date
                                 when="1973-02-13">February 13, 1973</date>.<note n="1"
@@ -4311,7 +4321,9 @@
                             in front of the TV camera so that he could not be misquoted.</p>
                         <p>The meeting concluded at 12:25 p.m.</p>
                     </div>
-                    <div n="6" xml:id="d6" type="document">
+                    <div n="6" xml:id="d6" type="document"
+                        frus:doc-dateTime-min="1973-02-20T00:00:00Z"
+                        frus:doc-dateTime-max="1973-02-20T23:59:59Z">
                         <head>6. Memorandum of Conversation, <placeName>New York</placeName>, <date
                                 when="1973-02-20">February 20, 1973</date>.<note n="1"
                                 xml:id="d6fn1" type="source">Source: National Archives, RG 59,
@@ -4401,7 +4413,9 @@
                             current year despite efforts by some Members to apply such savings
                             towards a reduction of Members' assessments.</p>
                     </div>
-                    <div n="7" xml:id="d7" type="document">
+                    <div n="7" xml:id="d7" type="document"
+                        frus:doc-dateTime-min="1973-05-18T23:39:00Z"
+                        frus:doc-dateTime-max="1973-05-18T23:39:00Z">
                         <head>7. Telegram 1900 From the Mission to the United Nations to the
                             Department of State, <date when="1973-05-18T23:39:00+00:00">May 18,
                                 1973, 2339Z</date>.<note n="1" xml:id="d7fn1" type="source">Source:
@@ -4450,7 +4464,9 @@
                             WHEN HIS RESPECT FOR OUR CONCERNS IS INADEQUATE. END COMMENT.</p>
                         <p>SCALI</p>
                     </div>
-                    <div n="8" xml:id="d8" type="document">
+                    <div n="8" xml:id="d8" type="document"
+                        frus:doc-dateTime-min="1973-08-16T23:00:00Z"
+                        frus:doc-dateTime-max="1973-08-16T23:00:00Z">
                         <head>8. Telegram 163147 From the Department of State to All Diplomatic
                             Posts, <date when="1973-08-16T23:00:00+00:00">August 16, 1973,
                                 2300Z</date>.<note n="1" xml:id="d8fn1" type="source">Source:
@@ -4717,7 +4733,9 @@
                             <persName corresp="#p_RWP1">ROGERS</persName>
                         </p>
                     </div>
-                    <div n="9" xml:id="d9" type="document">
+                    <div n="9" xml:id="d9" type="document"
+                        frus:doc-dateTime-min="1973-11-21T16:00:00Z"
+                        frus:doc-dateTime-max="1973-11-21T16:00:00Z">
                         <head>9. Telegram 4973 From the Mission to the United Nations to the
                             Department of State, <date when="1973-11-21T16:00:00+00:00">November 21,
                                 1973, 1600Z</date>.<note n="1" xml:id="d9fn1" type="source">Source:
@@ -4918,7 +4936,9 @@
                             <persName corresp="#p_BWTT1">BENNETT</persName>
                         </p>
                     </div>
-                    <div n="10" xml:id="d10" type="document">
+                    <div n="10" xml:id="d10" type="document"
+                        frus:doc-dateTime-min="1973-12-26T21:37:00Z"
+                        frus:doc-dateTime-max="1973-12-26T21:37:00Z">
                         <head>10. Telegram 250151 From the Department of State to All Diplomatic
                             Posts, <date when="1973-12-26T21:37:00+00:00">December 26, 1973,
                                 2137Z</date>.<note n="1" xml:id="d10fn1" type="source">Source:
@@ -5057,7 +5077,9 @@
                                 >KISSINGER</persName>
                             <lb/>NOTE BY OCT: POUCHED BANJUL AND TAIPEI.</p>
                     </div>
-                    <div n="11" xml:id="d11" type="document">
+                    <div n="11" xml:id="d11" type="document"
+                        frus:doc-dateTime-min="1974-01-15T00:00:00Z"
+                        frus:doc-dateTime-max="1974-01-15T23:59:59Z">
                         <head>11. Abstract of a Research Study Prepared in the Bureau of
                             Intelligence and Research, <placeName>Washington</placeName>, <date
                                 when="1974-01-15">January 15, 1974</date>.<note n="1"
@@ -5169,7 +5191,9 @@
                             non-aligned.</p>
                         <p>[Omitted here is the complete Study.]</p>
                     </div>
-                    <div n="12" xml:id="d12" type="document">
+                    <div n="12" xml:id="d12" type="document"
+                        frus:doc-dateTime-min="1974-04-27T11:50:00Z"
+                        frus:doc-dateTime-max="1974-04-27T12:30:00Z">
                         <head>12. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date from="1974-04-27T11:50:00" to="1974-04-27T12:30:00">April 27,
                                 1974, 11:50 a.m.–12:30 p.m.</date><note n="1" xml:id="d12fn1"
@@ -5459,7 +5483,9 @@
                         <p>
                             <gloss target="#t_SP2">S/P</gloss> - Mr. Lord [initialed]</p>
                     </div>
-                    <div n="13" xml:id="d13" type="document">
+                    <div n="13" xml:id="d13" type="document"
+                        frus:doc-dateTime-min="1974-05-13T22:37:00Z"
+                        frus:doc-dateTime-max="1974-05-13T22:37:00Z">
                         <head>13. Telegram 99106 From the Department of State to Certain Diplomatic
                             Posts, <date when="1974-05-13T22:37:00+00:00">May 13, 1974,
                                 2237Z</date>.<note n="1" xml:id="d13fn1" type="source">Source:
@@ -5720,7 +5746,9 @@
                                 corresp="#p_RKW1">RUSH</persName>
                         </p>
                     </div>
-                    <div n="14" xml:id="d14" type="document">
+                    <div n="14" xml:id="d14" type="document"
+                        frus:doc-dateTime-min="1974-05-17T23:04:00Z"
+                        frus:doc-dateTime-max="1974-05-17T23:04:00Z">
                         <head>14. Telegram 104050 From the Department of State to All Diplomatic
                             Posts, <date when="1974-05-17T23:04:00+00:00">May 17, 1974,
                                 2304Z</date>.<note n="1" xml:id="d14fn1" type="source">Source:
@@ -5849,7 +5877,9 @@
                             <lb/>NOTE BY OC/T: POUCHED SUVA. <lb/>
                         </p>
                     </div>
-                    <div n="15" xml:id="d15" type="document">
+                    <div n="15" xml:id="d15" type="document"
+                        frus:doc-dateTime-min="1974-05-31T13:00:00Z"
+                        frus:doc-dateTime-max="1974-05-31T13:00:00Z">
                         <head>15. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date when="1974-05-31T13:00:00">May 31, 1974, 1 p.m.</date>
                             <note n="1" xml:id="d15fn1" type="source">Source: National Archives, RG
@@ -6260,7 +6290,9 @@
                             philosophy straight for the next. As a minimum we want to leave a
                             philosophical framework for our successors.</p>
                     </div>
-                    <div n="16" xml:id="d16" type="document">
+                    <div n="16" xml:id="d16" type="document"
+                        frus:doc-dateTime-min="1974-06-05T00:00:00Z"
+                        frus:doc-dateTime-max="1974-06-05T23:59:59Z">
                         <head>16. Airgram A–4568 From the Department of State to All Diplomatic
                             Posts, <placeName>Washington</placeName>, <date when="1974-06-05">June
                                 5, 1974</date>.<note n="1" xml:id="d16fn1" type="source">Source:
@@ -6801,7 +6833,9 @@
                             by the international community at the governmental level in seeking to
                             devise solutions for the problems of the Most Seriously Affected.</p>
                     </div>
-                    <div n="17" xml:id="d17" type="document">
+                    <div n="17" xml:id="d17" type="document"
+                        frus:doc-dateTime-min="1974-08-22T20:13:00Z"
+                        frus:doc-dateTime-max="1974-08-22T20:13:00Z">
                         <head>17. Telegram 184584 From the Department of State to All Diplomatic
                             Posts, <date when="1974-08-22T20:13:00+00:00">August 22, 1974,
                                 2013Z</date>.<note n="1" xml:id="d17fn1" type="source">Source:
@@ -7389,7 +7423,9 @@
                         </p>
                         <p>NOTE BY OCT: POUCHED SUVA, NICOSIA, ANKARA, AND ATHENS.</p>
                     </div>
-                    <div n="18" xml:id="d18" type="document">
+                    <div n="18" xml:id="d18" type="document"
+                        frus:doc-dateTime-min="1974-12-21T10:30:00Z"
+                        frus:doc-dateTime-max="1974-12-21T10:30:00Z">
                         <head>18. Memorandum of Conversation, <placeName>New York</placeName>, <date
                                 when="1974-12-21T10:30:00">December 21, 1974, 10:30 a.m.</date>
                             <note n="1" xml:id="d18fn1" type="source">Source: National Archives, RG
@@ -7740,7 +7776,9 @@
                         <p>(The Secretary then spoke privately with the Algerian Foreign
                             Minister.)</p>
                     </div>
-                    <div n="19" xml:id="d19" type="document">
+                    <div n="19" xml:id="d19" type="document"
+                        frus:doc-dateTime-min="1975-01-31T00:00:00Z"
+                        frus:doc-dateTime-max="1975-01-31T23:59:59Z">
                         <head>19. Briefing Memorandum From the Deputy Assistant Secretary of State
                             for International Organization Affairs (<persName corresp="#p_BWB1"
                                 >Buffum</persName>) to Secretary of State Kissinger,
@@ -8064,7 +8102,9 @@
                             option in mind as the year's work proceeds and will call to your
                             attention any situations that might warrant its consideration.</p>
                     </div>
-                    <div n="20" xml:id="d20" type="document">
+                    <div n="20" xml:id="d20" type="document"
+                        frus:doc-dateTime-min="1975-02-11T00:00:00Z"
+                        frus:doc-dateTime-max="1975-02-11T23:59:59Z">
                         <head>20. Intelligence Memorandum Prepared in the Central Intelligence
                             Agency, <placeName>Washington</placeName>, <date when="1975-02-11"
                                 >February 11, 1975</date>.<note n="1" xml:id="d20fn1" type="source"
@@ -8437,7 +8477,9 @@
                             can be reversed, and the UN made more hospitable and useful to the US,
                             only if relations with the LDCs are improved outside the UN.</p>
                     </div>
-                    <div n="21" xml:id="d21" type="document">
+                    <div n="21" xml:id="d21" type="document"
+                        frus:doc-dateTime-min="1975-04-03T20:44:00Z"
+                        frus:doc-dateTime-max="1975-04-03T20:44:00Z">
                         <head>21. Telegram 75525 From the Department of State to Certain Diplomatic
                             Posts, <date when="1975-04-03T20:44:00+00:00">April 3, 1975,
                                 2044Z</date>.<note n="1" xml:id="d21fn1" type="source">Source:
@@ -8711,7 +8753,9 @@
                                 corresp="#p_KHA1">KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="22" xml:id="d22" type="document">
+                    <div n="22" xml:id="d22" type="document"
+                        frus:doc-dateTime-min="1975-04-12T10:45:00Z"
+                        frus:doc-dateTime-max="1975-04-12T10:45:00Z">
                         <head>22. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date when="1975-04-12T10:45:00">April 12, 1975, 10:45 a.m.</date>
                             <note n="1" xml:id="d22fn1" type="source">Source: Ford Library, National
@@ -8839,7 +8883,9 @@
                         <p>Kissinger: That should be considered as part of a general strategy. </p>
                         <p>President: I am delighted, Pat. We are on the same wave length.</p>
                     </div>
-                    <div n="23" xml:id="d23" type="document">
+                    <div n="23" xml:id="d23" type="document"
+                        frus:doc-dateTime-min="1975-07-19T18:14:00Z"
+                        frus:doc-dateTime-max="1975-07-19T18:14:00Z">
                         <head>23. Telegram 170841 From the Department of State to All Diplomatic
                             Posts, <date when="1975-07-19T18:14:00+00:00">July 19, 1975,
                                 1814Z</date>.<note n="1" xml:id="d23fn1" type="source">Source:
@@ -9016,7 +9062,9 @@
                             BELIEVE THAT THE CHARTER SHOULD BE STRICTLY OBSERVED AND SHOULD NOT BE
                             USED FOR PUNITIVE PURPOSES THAT ARE INCOMPATIBLE WITH IT." KISSINGER</p>
                     </div>
-                    <div n="24" xml:id="d24" type="document">
+                    <div n="24" xml:id="d24" type="document"
+                        frus:doc-dateTime-min="1975-08-13T14:19:00Z"
+                        frus:doc-dateTime-max="1975-08-13T14:19:00Z">
                         <head>24. Telegram 191465 From the Department of State to All Diplomatic
                             Posts, <date when="1975-08-13T14:19:00+00:00">August 13, 1975,
                                 1419Z</date>.<note n="1" xml:id="d24fn1" type="source">Source:
@@ -9370,7 +9418,9 @@
                                 <persName corresp="#p_KHA1">KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="25" xml:id="d25" type="document">
+                    <div n="25" xml:id="d25" type="document"
+                        frus:doc-dateTime-min="1975-08-26T00:00:00Z"
+                        frus:doc-dateTime-max="1975-08-26T23:59:59Z">
                         <head>25. Memorandum From Malcolm Butler of the International Economic
                             Affairs Staff, National Security Council to the President’s Deputy
                             Assistant for National Security Affairs (Scowcroft),
@@ -9464,7 +9514,9 @@
                         <p>RECOMMENDATION <lb/>That you forward the Presidential talker at Tab
                             I.</p>
                     </div>
-                    <div n="26" xml:id="d26" type="document">
+                    <div n="26" xml:id="d26" type="document"
+                        frus:doc-dateTime-min="1975-08-27T14:00:00Z"
+                        frus:doc-dateTime-max="1975-08-27T14:00:00Z">
                         <head>26. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date when="1975-08-27T14:00:00">August 27, 1975, 2 p.m.</date>
                             <note n="1" xml:id="d26fn1" type="source">Source: Ford Library, National
@@ -9579,7 +9631,9 @@
                         <p>President: You can drop in with Kissinger after Cabinet meetings from
                             time to time.</p>
                     </div>
-                    <div n="27" xml:id="d27" type="document">
+                    <div n="27" xml:id="d27" type="document"
+                        frus:doc-dateTime-min="1975-08-27T00:00:00Z"
+                        frus:doc-dateTime-max="1975-08-27T23:59:59Z">
                         <head>27. Summary of Intelligence Memorandum 0253/75 Prepared in the Office
                             of Current Intelligence, Central Intelligence Agency,
                                 <placeName>Washington</placeName>, <date when="1975-08-27">August
@@ -9689,7 +9743,9 @@
                             the session to continue its attacks on the Soviets.</p>
                         <p>[Omitted here is the complete Memorandum.]</p>
                     </div>
-                    <div n="28" xml:id="d28" type="document">
+                    <div n="28" xml:id="d28" type="document"
+                        frus:doc-dateTime-min="1975-09-01T09:44:00Z"
+                        frus:doc-dateTime-max="1975-09-01T09:44:00Z">
                         <head>28. Telegram 207669/Tosec 100402 From the Department of State to All
                             Diplomatic Posts, <date when="1975-09-01T09:44:00+00:00">September 1,
                                 1975, 0944Z</date>.<note n="1" xml:id="d28fn1" type="source">Source:
@@ -10019,7 +10075,9 @@
                                 corresp="#p_IRS1">INGERSOLL</persName>
                         </p>
                     </div>
-                    <div n="29" xml:id="d29" type="document">
+                    <div n="29" xml:id="d29" type="document"
+                        frus:doc-dateTime-min="1975-09-16T21:15:00Z"
+                        frus:doc-dateTime-max="1975-09-16T21:15:00Z">
                         <head>29. Telegram 4301 From the Mission to the United Nations to the
                             Department of State, <date when="1975-09-16T21:15:00+00:00">September
                                 16, 1975, 2115Z</date>.<note n="1" xml:id="d29fn1" type="source"
@@ -10085,7 +10143,9 @@
                                 >MOYNIHAN</persName>
                         </p>
                     </div>
-                    <div n="30" xml:id="d30" type="document">
+                    <div n="30" xml:id="d30" type="document"
+                        frus:doc-dateTime-min="1975-09-24T00:00:00Z"
+                        frus:doc-dateTime-max="1975-09-24T23:59:59Z">
                         <head>30. Action Memorandum From the Assistant Secretary of State for
                             Management (<persName corresp="#p_ELS1">Eagleburger</persName>) and the
                             Director of the Policy Planning Staff (Lord) to Secretary of State
@@ -10313,7 +10373,9 @@
                             Multilateral Diplomacy” <lb/>Tab 3 - Proposed List of “Multilateral”
                             Countries</p>
                     </div>
-                    <div n="31" xml:id="d31" type="document">
+                    <div n="31" xml:id="d31" type="document"
+                        frus:doc-dateTime-min="1975-09-26T11:30:00Z"
+                        frus:doc-dateTime-max="1975-09-26T12:00:00Z">
                         <head>31. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date from="1975-09-26T11:30:00" to="1975-09-26T12:00:00">September
                                 26, 1975, 11:30 a.m.–noon.</date><note n="1" xml:id="d31fn1"
@@ -10383,7 +10445,9 @@
                             good.</p>
                         <p>[Omitted here is discussion unrelated to the United Nations.]</p>
                     </div>
-                    <div n="32" xml:id="d32" type="document">
+                    <div n="32" xml:id="d32" type="document"
+                        frus:doc-dateTime-min="1975-10-16T00:00:00Z"
+                        frus:doc-dateTime-max="1975-10-16T23:59:59Z">
                         <head>32. Memorandum From Secretary of State Kissinger to All Regional
                             Assistant Secretaries, <placeName>Washington</placeName>, <date
                                 when="1975-10-16">October 16, 1975</date>.<note n="1"
@@ -10454,7 +10518,9 @@
                             <persName corresp="#p_KHA1">Henry A. Kissinger</persName>
                         </p>
                     </div>
-                    <div n="33" xml:id="d33" type="document">
+                    <div n="33" xml:id="d33" type="document"
+                        frus:doc-dateTime-min="1975-11-04T00:00:00Z"
+                        frus:doc-dateTime-max="1975-11-04T23:59:59Z">
                         <head>33. Action Memorandum From the Assistant Secretary of State for
                             Management (Eagleburger) to Secretary of State Kissinger,
                                 <placeName>Washington</placeName>, <date when="1975-11-04">November
@@ -10586,7 +10652,9 @@
                             months a year around the world will be necessary if we are to have the
                             necessary impact.</p>
                     </div>
-                    <div n="34" xml:id="d34" type="document">
+                    <div n="34" xml:id="d34" type="document"
+                        frus:doc-dateTime-min="1975-12-29T00:00:00Z"
+                        frus:doc-dateTime-max="1975-12-29T23:59:59Z">
                         <head>34. Memorandum From the Assistant Secretary of State for Management
                             (Eagleburger) to All Regional Assistant Secretaries,
                                 <placeName>Washington</placeName>, <date when="1975-12-29">December
@@ -10653,7 +10721,9 @@
                             steps and to ask for their cooperation.</p>
                         <p>Enclosure: <lb/>As stated.</p>
                     </div>
-                    <div n="35" xml:id="d35" type="document">
+                    <div n="35" xml:id="d35" type="document"
+                        frus:doc-dateTime-min="1975-12-29T23:24:00Z"
+                        frus:doc-dateTime-max="1975-12-29T23:24:00Z">
                         <head>35. Telegram 303856 From the Department of State to All Diplomatic
                             Posts, <date when="1975-12-29T23:24:00+00:00">December 29, 1975,
                                 2324Z</date>.<note n="1" xml:id="d35fn1" type="source">Source:
@@ -10737,7 +10807,9 @@
                                 corresp="#p_RCW2">ROBINSON</persName>
                         </p>
                     </div>
-                    <div n="36" xml:id="d36" type="document">
+                    <div n="36" xml:id="d36" type="document"
+                        frus:doc-dateTime-min="1976-01-07T21:28:00Z"
+                        frus:doc-dateTime-max="1976-01-07T21:28:00Z">
                         <head>36. Telegram 3652 From the Department of State to All African
                             Diplomatic Posts, <date when="1976-01-07T21:28:00+00:00">January 7,
                                 1976, 2128Z</date>.<note n="1" xml:id="d36fn1" type="source">Source:
@@ -10913,7 +10985,9 @@
                                 >KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="37" xml:id="d37" type="document">
+                    <div n="37" xml:id="d37" type="document"
+                        frus:doc-dateTime-min="1976-01-21T17:37:00Z"
+                        frus:doc-dateTime-max="1976-01-21T17:37:00Z">
                         <head>37. Telegram 15113 From the Department of State to Certain Diplomatic
                             Posts, <date when="1976-01-21T17:37:00+00:00">January 21, 1976,
                                 1737Z</date>.<note n="1" xml:id="d37fn1" type="source">Source:
@@ -11123,7 +11197,9 @@
                         </p>
                         <p>UNQUOTE <lb/>SIWE</p>
                     </div>
-                    <div n="38" xml:id="d38" type="document">
+                    <div n="38" xml:id="d38" type="document"
+                        frus:doc-dateTime-min="1976-01-27T21:39:00Z"
+                        frus:doc-dateTime-max="1976-01-27T21:39:00Z">
                         <head>38. Telegram 20335 From the Department of State to All Diplomatic
                             Posts, <date when="1976-01-27T21:39:00+00:00">January 27, 1976,
                                 2139Z</date>.<note n="1" xml:id="d38fn1" type="source">Source:
@@ -11357,7 +11433,9 @@
                             <persName corresp="#p_KHA1">KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="39" xml:id="d39" type="document">
+                    <div n="39" xml:id="d39" type="document"
+                        frus:doc-dateTime-min="1976-02-15T03:41:00Z"
+                        frus:doc-dateTime-max="1976-02-15T03:41:00Z">
                         <head>39. Telegram 37592 From the Department of State to All Diplomatic
                             Posts, <date when="1976-02-15T03:41:00+00:00">February 15, 1976,
                                 0341Z</date>.<note n="1" xml:id="d39fn1" type="source">Source:
@@ -11564,7 +11642,9 @@
                         </p>
                         <p>NOTE BY OCT: POUCHED BEIRUT AND SUVA.</p>
                     </div>
-                    <div n="40" xml:id="d40" type="document">
+                    <div n="40" xml:id="d40" type="document"
+                        frus:doc-dateTime-min="1976-02-18T21:17:00Z"
+                        frus:doc-dateTime-max="1976-02-18T21:17:00Z">
                         <head>40. Telegram 605 From the Mission to the United Nations to the
                             Department of State, <date when="1976-02-18T21:17:00+00:00">February 18,
                                 1976, 2117Z</date>.<note n="1" xml:id="d40fn1" type="source">Source:
@@ -11791,7 +11871,9 @@
                             <persName corresp="#p_MDP1">MOYNIHAN</persName>
                         </p>
                     </div>
-                    <div n="41" xml:id="d41" type="document">
+                    <div n="41" xml:id="d41" type="document"
+                        frus:doc-dateTime-min="1976-02-26T00:00:00Z"
+                        frus:doc-dateTime-max="1976-02-26T23:59:59Z">
                         <head>41. Memorandum From Hal Horan of the National Security Council Staff
                             to the President’s Assistant for National Security Affairs (Scowcroft),
                                 <placeName>Washington</placeName>, <date when="1976-02-26">February
@@ -11895,7 +11977,9 @@
                             with respect to negotiations on Middle East questions and Cyprus, and we
                             intend to continue working closely with him.</p>
                     </div>
-                    <div n="42" xml:id="d42" type="document">
+                    <div n="42" xml:id="d42" type="document"
+                        frus:doc-dateTime-min="1976-03-03T00:00:00Z"
+                        frus:doc-dateTime-max="1976-03-03T23:59:59Z">
                         <head>42. Briefing Memorandum From the Assistant Secretary of State for
                             International Organization Affairs (<persName corresp="#p_LSW1"
                                 >Lewis</persName>) to Secretary of State Kissinger,
@@ -12321,7 +12405,9 @@
                             should be.</p>
                         <p>Attachment: <lb/>As stated.</p>
                     </div>
-                    <div n="43" xml:id="d43" type="document">
+                    <div n="43" xml:id="d43" type="document"
+                        frus:doc-dateTime-min="1976-04-15T00:00:00Z"
+                        frus:doc-dateTime-max="1976-04-15T23:59:59Z">
                         <head>43. Briefing Memorandum From the Assistant Secretary of State for
                             International Organization Affairs (<persName corresp="#p_LSW1"
                                 >Lewis</persName>) to Secretary of State Kissinger,
@@ -12514,7 +12600,9 @@
                             an increasingly flexible and useful element of the international
                             diplomatic system.</p>
                     </div>
-                    <div n="44" xml:id="d44" type="document">
+                    <div n="44" xml:id="d44" type="document"
+                        frus:doc-dateTime-min="1976-05-11T23:57:00Z"
+                        frus:doc-dateTime-max="1976-05-11T23:57:00Z">
                         <head>44. Telegram 115833 From the Department of State to Certain Diplomatic
                             Posts, <date when="1976-05-11T23:57:00+00:00">May 11, 1976,
                                 2357Z</date>.<note n="1" xml:id="d44fn1" type="source">Source:
@@ -12721,7 +12809,9 @@
                             WASHINGTON.</p>
                         <p>KISSINGER </p>
                     </div>
-                    <div n="45" xml:id="d45" type="document">
+                    <div n="45" xml:id="d45" type="document"
+                        frus:doc-dateTime-min="1976-06-04T15:00:00Z"
+                        frus:doc-dateTime-max="1976-06-04T15:00:00Z">
                         <head>45. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date when="1976-06-04T15:00:00">June 4, 1976, 3 p.m.</date>
                             <note n="1" xml:id="d45fn1" type="source">Source: National Archives, RG
@@ -12879,7 +12969,9 @@
                             would have no objection to the statement being issued by our ILO
                             delegation.)</p>
                     </div>
-                    <div n="46" xml:id="d46" type="document">
+                    <div n="46" xml:id="d46" type="document"
+                        frus:doc-dateTime-min="1976-07-08T00:00:00Z"
+                        frus:doc-dateTime-max="1976-07-08T23:59:59Z">
                         <head>46. Memorandum From the President’s Assistant for National Security
                             Affairs (Scowcroft) to President Ford,
                             <placeName>Washington</placeName>, <date when="1976-07-08">July 8,
@@ -12995,7 +13087,9 @@
                         <p>5. European Trip: I hear you will be off in a few days to visit Europe. I
                             would like to hear about your plans.</p>
                     </div>
-                    <div n="47" xml:id="d47" type="document">
+                    <div n="47" xml:id="d47" type="document"
+                        frus:doc-dateTime-min="1976-08-30T00:00:00Z"
+                        frus:doc-dateTime-max="1976-08-30T23:59:59Z">
                         <head>47. Memorandum From the President’s Assistant for National Security
                             Affairs (Scowcroft) to President Ford,
                             <placeName>Washington</placeName>, <date when="1976-08-30">August 30,
@@ -13104,7 +13198,9 @@
                         <p>--What is your view on how the Vietnam and Angola membership applications
                             should be handled?</p>
                     </div>
-                    <div n="48" xml:id="d48" type="document">
+                    <div n="48" xml:id="d48" type="document"
+                        frus:doc-dateTime-min="1976-09-06T19:33:00Z"
+                        frus:doc-dateTime-max="1976-09-06T19:33:00Z">
                         <head>48. Telegram 220772 From the Department of State to All Diplomatic
                             Posts, <date when="1976-09-06T19:33:00+00:00">September 6, 1976,
                                 1933Z</date>.<note n="1" xml:id="d48fn1" type="source">Source:
@@ -13417,7 +13513,9 @@
                         </p>
                         <p>NOTE BY OC/T: POUCHED BEIRUT AND BAGHDAD.</p>
                     </div>
-                    <div n="49" xml:id="d49" type="document">
+                    <div n="49" xml:id="d49" type="document"
+                        frus:doc-dateTime-min="1976-09-06T19:36:00Z"
+                        frus:doc-dateTime-max="1976-09-06T19:36:00Z">
                         <head>49. Telegram 220773 From the Department of State to All Diplomatic
                             Posts, <date when="1976-09-06T19:36:00+00:00">September 6, 1976,
                                 1936Z</date>.<note n="1" xml:id="d49fn1" type="source">Source:
@@ -13639,7 +13737,9 @@
                         </p>
                         <p>NOTE BY OC/T: POUCHED BEIRUT AND BAGHDAD.</p>
                     </div>
-                    <div n="50" xml:id="d50" type="document">
+                    <div n="50" xml:id="d50" type="document"
+                        frus:doc-dateTime-min="1976-11-03T05:00:00Z"
+                        frus:doc-dateTime-max="1976-11-30T04:59:59Z">
                         <head>50. Briefing Paper Prepared in the Department of State,
                                 <placeName>Washington</placeName>, <date>undated</date>.<note n="1"
                                 xml:id="d50fn1" type="source">Source: National Archives, <gloss
@@ -13881,7 +13981,9 @@
                             (fall 1977), the Vietnamese are likely to press for the key Security
                             Council recommendation as early as possible.</p>
                     </div>
-                    <div n="51" xml:id="d51" type="document">
+                    <div n="51" xml:id="d51" type="document"
+                        frus:doc-dateTime-min="1976-11-29T00:00:00Z"
+                        frus:doc-dateTime-max="1976-11-29T23:59:59Z">
                         <head>51. Memorandum From Robert S. Smith and David Lazar of the National
                             Security Council Staff to the President’s Deputy Assistant for National
                             Security Affairs (Hyland), <placeName>Washington</placeName>, <date
@@ -14036,7 +14138,9 @@
                             this is that meanwhile, as the present CIEC meeting in Paris
                             demonstrates we move, and badly, to their agenda.</p>
                     </div>
-                    <div n="52" xml:id="d52" type="document">
+                    <div n="52" xml:id="d52" type="document"
+                        frus:doc-dateTime-min="1976-12-30T22:58:00Z"
+                        frus:doc-dateTime-max="1976-12-30T22:58:00Z">
                         <head>52. Telegram 313877 From the Department of State to All Diplomatic
                             Posts, <date when="1976-12-30T22:58:00+00:00">December 30, 1976,
                                 2258Z</date>.<note n="1" xml:id="d52fn1" type="source">Source:
@@ -14571,7 +14675,9 @@
                 </div>
                 <div xml:id="ch2" type="chapter">
                     <head>Issues of Representation in International Organizations</head>
-                    <div n="53" xml:id="d53" type="document">
+                    <div n="53" xml:id="d53" type="document"
+                        frus:doc-dateTime-min="1973-03-10T00:45:00Z"
+                        frus:doc-dateTime-max="1973-03-10T00:45:00Z">
                         <head>53. Telegram 822 From the Mission to the United Nations to the
                             Department of State, <date when="1973-03-10T00:45:00+00:00">March 10,
                                 1973, 0045Z</date>.<note n="1" xml:id="d53fn1" type="source">Source:
@@ -14620,7 +14726,9 @@
                             <persName corresp="#p_SJA1">SCALI</persName>
                         </p>
                     </div>
-                    <div n="54" xml:id="d54" type="document">
+                    <div n="54" xml:id="d54" type="document"
+                        frus:doc-dateTime-min="1973-04-07T17:11:00Z"
+                        frus:doc-dateTime-max="1973-04-07T17:11:00Z">
                         <head>54. Telegram 65086 From the Department of State to All Diplomatic
                             Posts, <date when="1973-04-07T17:11:00+00:00">April 7, 1973,
                                 1711Z</date>.<note n="1" xml:id="d54fn1" type="source">Source:
@@ -14735,7 +14843,9 @@
                             INSTRUCTIONS. <persName corresp="#p_RWP1">ROGERS</persName>
                         </p>
                     </div>
-                    <div n="55" xml:id="d55" type="document">
+                    <div n="55" xml:id="d55" type="document"
+                        frus:doc-dateTime-min="1973-04-24T18:34:00Z"
+                        frus:doc-dateTime-max="1973-04-24T18:34:00Z">
                         <head>55. Telegram 76900 From the Department of State to the Mission in
                             Geneva, <date when="1973-04-24T18:34:00+00:00">April 24, 1973,
                                 1834Z</date>.<note n="1" xml:id="d55fn1" type="source">Source:
@@ -14791,7 +14901,9 @@
                                 corresp="#p_RWP1">ROGERS</persName>
                         </p>
                     </div>
-                    <div n="56" xml:id="d56" type="document">
+                    <div n="56" xml:id="d56" type="document"
+                        frus:doc-dateTime-min="1973-08-21T00:00:00Z"
+                        frus:doc-dateTime-max="1973-08-21T23:59:59Z">
                         <head>56. Memorandum From the President’s Assistant for National Security
                             Affairs (Kissinger) to President Nixon,
                                 <placeName>Washington</placeName>, <date when="1973-08-21">August
@@ -14947,7 +15059,9 @@
                             <persName corresp="#p_KHA1">Henry A. Kissinger</persName>
                         </p>
                     </div>
-                    <div n="57" xml:id="d57" type="document">
+                    <div n="57" xml:id="d57" type="document"
+                        frus:doc-dateTime-min="1973-09-17T00:00:00Z"
+                        frus:doc-dateTime-max="1973-09-17T23:59:59Z">
                         <head>57. Bureau of Intelligence and Research Intelligence Note RSGN–17,
                                 <placeName>Washington</placeName>, <date when="1973-09-17">September
                                 17, 1973</date>.<note n="1" xml:id="d57fn1" type="source">Source:
@@ -15125,7 +15239,9 @@
                             the General Assembly, where on balance, they may well have a better
                             chance of success.</p>
                     </div>
-                    <div n="58" xml:id="d58" type="document">
+                    <div n="58" xml:id="d58" type="document"
+                        frus:doc-dateTime-min="1973-09-27T09:45:00Z"
+                        frus:doc-dateTime-max="1973-09-27T09:45:00Z">
                         <head>58. Telegram 29 From the Delegation to the International
                             Telecommunications Union Conference to the Department of State, <date
                                 when="1973-09-27T09:45:00+00:00">September 27, 1973,
@@ -15218,7 +15334,9 @@
                             CONVENTION AND HIGHLY CONCERNED ABOUT IMPLICATIONS EXPULSION ACTION FOR
                             FUTURE OF ITU. BEAM</p>
                     </div>
-                    <div n="59" xml:id="d59" type="document">
+                    <div n="59" xml:id="d59" type="document"
+                        frus:doc-dateTime-min="1973-10-27T04:55:00Z"
+                        frus:doc-dateTime-max="1973-10-27T04:55:00Z">
                         <head>59. Telegram 4248 From the Mission to the United Nations to the
                             Department of State, <date when="1973-10-27T04:55:00+00:00">October 27,
                                 1973, 0455Z</date>.<note n="1" xml:id="d59fn1" type="source">Source:
@@ -15278,7 +15396,9 @@
                                 <persName corresp="#p_SJA1">SCALI</persName>
                         </p>
                     </div>
-                    <div n="60" xml:id="d60" type="document">
+                    <div n="60" xml:id="d60" type="document"
+                        frus:doc-dateTime-min="1973-11-22T00:22:00Z"
+                        frus:doc-dateTime-max="1973-11-22T00:22:00Z">
                         <head>60. Telegram 230211 From the Department of State to All Diplomatic
                             Posts, <date when="1973-11-22T00:22:00+00:00">November 22, 1973,
                                 0022Z</date>.<note n="1" xml:id="d60fn1" type="source">Source:
@@ -15359,7 +15479,9 @@
                         </p>
                         <p>NOTE BY OC/T: POUCHED BANJUL, SUVA.</p>
                     </div>
-                    <div n="61" xml:id="d61" type="document">
+                    <div n="61" xml:id="d61" type="document"
+                        frus:doc-dateTime-min="1973-12-06T01:09:00Z"
+                        frus:doc-dateTime-max="1973-12-06T01:09:00Z">
                         <head>61. Telegram 238679 From the Department of State to Certain Diplomatic
                             Posts, <date when="1973-12-06T01:09:00+00:00">December 6, 1973,
                                 0109Z</date>.<note n="1" xml:id="d61fn1" type="source">Source:
@@ -15449,7 +15571,9 @@
                                 >KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="62" xml:id="d62" type="document">
+                    <div n="62" xml:id="d62" type="document"
+                        frus:doc-dateTime-min="1973-03-28T21:23:00Z"
+                        frus:doc-dateTime-max="1973-03-28T21:23:00Z">
                         <head>62. Telegram 62535 From the Department of State to All Diplomatic
                             Posts, <date when="1973-03-28T21:23:00+00:00">March 28, 1974,
                                 2123Z</date>.<note n="1" xml:id="d62fn1" type="source">Source:
@@ -15561,7 +15685,9 @@
                             GOVERNMENT. <persName corresp="#p_RKW1">RUSH</persName>
                         </p>
                     </div>
-                    <div n="63" xml:id="d63" type="document">
+                    <div n="63" xml:id="d63" type="document"
+                        frus:doc-dateTime-min="1974-07-27T04:30:00Z"
+                        frus:doc-dateTime-max="1974-07-27T04:30:00Z">
                         <head>63. Telegram 161371/Tosec 69 From the Department of State to Secretary
                             of State Kissinger in <placeName>San Clemente</placeName>, California,
                                 <date when="1974-07-27T04:30:00+00:00">July 27, 1974,
@@ -15696,7 +15822,9 @@
                             <persName corresp="#p_IRS1">INGERSOLL</persName>
                         </p>
                     </div>
-                    <div n="64" xml:id="d64" type="document">
+                    <div n="64" xml:id="d64" type="document"
+                        frus:doc-dateTime-min="1974-08-06T23:00:00Z"
+                        frus:doc-dateTime-max="1974-08-06T23:00:00Z">
                         <head>64. Telegram 171606 From the Department of State to the Embassy in
                             South Vietnam, <date when="1974-08-06T23:00:00+00:00">August 6, 1974,
                                 2300Z</date>.<note n="1" xml:id="d64fn1" type="source">Source:
@@ -15879,7 +16007,9 @@
                             WASHINGTON. <persName corresp="#p_KHA1">KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="65" xml:id="d65" type="document">
+                    <div n="65" xml:id="d65" type="document"
+                        frus:doc-dateTime-min="1974-08-23T00:00:00Z"
+                        frus:doc-dateTime-max="1974-08-23T23:59:59Z">
                         <head>65. National Intelligence Estimate 57–2–74,
                                 <placeName>Washington</placeName>, <date when="1974-08-23">August
                                 23, 1974</date>.<note n="1" xml:id="d65fn1" type="source">Source:
@@ -15936,7 +16066,9 @@
                             reach than it is now.</p>
                         <p>[Omitted here is the body of the Estimate.]</p>
                     </div>
-                    <div n="66" xml:id="d66" type="document">
+                    <div n="66" xml:id="d66" type="document"
+                        frus:doc-dateTime-min="1974-09-05T14:00:00Z"
+                        frus:doc-dateTime-max="1974-09-05T14:00:00Z">
                         <head>66. Telegram 192437 From the Department of State to Certain Diplomatic
                             Posts, <date when="1974-09-05T14:00:00+00:00">September 5, 1974,
                                 1400Z</date>.<note n="1" xml:id="d66fn1" type="source">Source:
@@ -16073,7 +16205,9 @@
                             <persName corresp="#p_KHA1">KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="67" xml:id="d67" type="document">
+                    <div n="67" xml:id="d67" type="document"
+                        frus:doc-dateTime-min="1974-10-12T00:00:00Z"
+                        frus:doc-dateTime-max="1974-10-12T23:59:59Z">
                         <head>67. Letter From Acting Secretary of State Ingersoll to the President
                             of the American Federation of Labor and Congress of Industrial
                             Organizations (Meany), <placeName>Washington</placeName>, <date
@@ -16160,7 +16294,9 @@
                                 >Ingersoll</persName>
                             <lb/>Acting Secretary</p>
                     </div>
-                    <div n="68" xml:id="d68" type="document">
+                    <div n="68" xml:id="d68" type="document"
+                        frus:doc-dateTime-min="1974-10-18T21:27:00Z"
+                        frus:doc-dateTime-max="1974-10-18T21:27:00Z">
                         <head>68. Telegram 230020 From the Department of State to the Embassies in
                             Australia, Indonesia, Peru, Costa Rica, and Austria, <date
                                 when="1974-10-18T21:27:00+00:00">October 18, 1974,
@@ -16300,7 +16436,9 @@
                             SIMILAR APPROACHES. <persName corresp="#p_KHA1">KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="69" xml:id="d69" type="document">
+                    <div n="69" xml:id="d69" type="document"
+                        frus:doc-dateTime-min="1974-11-02T01:27:00Z"
+                        frus:doc-dateTime-max="1974-11-02T01:27:00Z">
                         <head>69. Telegram 4677 From the Mission to the United Nations to the
                             Department of State, <date when="1974-11-02T01:27:00+00:00">November 2,
                                 1974, 0127Z</date>.<note n="1" xml:id="d69fn1" type="source">Source:
@@ -16385,7 +16523,9 @@
                             <persName corresp="#p_SJA1">SCALI</persName>
                         </p>
                     </div>
-                    <div n="70" xml:id="d70" type="document">
+                    <div n="70" xml:id="d70" type="document"
+                        frus:doc-dateTime-min="1974-12-03T10:55:00Z"
+                        frus:doc-dateTime-max="1974-12-03T10:55:00Z">
                         <head>70. Telegram 16007 From the Embassy in the Khmer Republic to the
                             Department of State, <date when="1974-12-03T10:55:00+00:00">December 3,
                                 1974, 1055Z</date>.<note n="1" xml:id="d70fn1" type="source">Source:
@@ -16489,7 +16629,9 @@
                         <p>[Omitted here is the remainder of the telegram, which was signed by
                             Deputy Chief of Mission Robert V. Keeley.]</p>
                     </div>
-                    <div n="71" xml:id="d71" type="document">
+                    <div n="71" xml:id="d71" type="document"
+                        frus:doc-dateTime-min="1974-12-18T01:18:00Z"
+                        frus:doc-dateTime-max="1974-12-18T01:18:00Z">
                         <head>71. Telegram 6021 From the Mission to the United Nations to the
                             Department of State, <date when="1974-12-18T01:18:00+00:00">December 18,
                                 1974, 0118Z</date>.<note n="1" xml:id="d71fn1" type="source">Source:
@@ -16567,7 +16709,9 @@
                                 corresp="#p_SJA1">SCALI</persName>
                         </p>
                     </div>
-                    <div n="72" xml:id="d72" type="document">
+                    <div n="72" xml:id="d72" type="document"
+                        frus:doc-dateTime-min="1975-01-18T00:44:00Z"
+                        frus:doc-dateTime-max="1975-01-18T00:44:00Z">
                         <head>72. Telegram 12448 From the Department of State to All Diplomatic
                             Posts, <date when="1975-01-18T00:44:00+00:00">January 18, 1975,
                                 0044Z</date>.<note n="1" xml:id="d72fn1" type="source">Source:
@@ -16630,7 +16774,9 @@
                                 corresp="#p_KHA1">KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="73" xml:id="d73" type="document">
+                    <div n="73" xml:id="d73" type="document"
+                        frus:doc-dateTime-min="1975-06-03T00:00:00Z"
+                        frus:doc-dateTime-max="1975-06-03T23:59:59Z">
                         <head>73. Bureau of Intelligence and Research Intelligence Note IN–111,
                                 <placeName>Washington</placeName>, <date when="1975-06-03">June 3,
                                 1975</date>.<note n="1" xml:id="d73fn1" type="source">Source:
@@ -16789,7 +16935,9 @@
                             suspension of Israel from the UN, and Yugoslavia would have to go along
                             with it.</p>
                     </div>
-                    <div n="74" xml:id="d74" type="document">
+                    <div n="74" xml:id="d74" type="document"
+                        frus:doc-dateTime-min="1975-07-03T00:00:00Z"
+                        frus:doc-dateTime-max="1975-07-03T23:59:59Z">
                         <head>74. Report Number 11 Prepared in the Bureau of Intelligence and
                             Research, <placeName>Washington</placeName>, <date when="1975-07-03"
                                 >July 3, 1975</date>.<note n="1" xml:id="d74fn1" type="source"
@@ -16940,7 +17088,9 @@
                             oppose the Vietnamese applications for juridical reasons. Thus, a US
                             veto will be necessary to prevent the admission of Hanoi and Saigon.</p>
                     </div>
-                    <div n="75" xml:id="d75" type="document">
+                    <div n="75" xml:id="d75" type="document"
+                        frus:doc-dateTime-min="1975-07-03T16:55:00Z"
+                        frus:doc-dateTime-max="1975-07-03T16:55:00Z">
                         <head>75. Telegram 157497 From the Department of State to All Diplomatic
                             Posts, <date when="1975-07-03T16:55:00+00:00">July 3, 1975,
                                 1655Z</date>.<note n="1" xml:id="d75fn1" type="source">Source:
@@ -17031,7 +17181,9 @@
                             <persName corresp="#p_IRS1">INGERSOLL</persName>
                         </p>
                     </div>
-                    <div n="76" xml:id="d76" type="document">
+                    <div n="76" xml:id="d76" type="document"
+                        frus:doc-dateTime-min="1975-07-08T17:34:00Z"
+                        frus:doc-dateTime-max="1975-07-08T17:34:00Z">
                         <head>76. Telegram 5300 From the Mission in Geneva to the Department of
                             State, <date when="1975-07-08T17:34:00+00:00">July 8, 1975,
                                 1734Z</date>.<note n="1" xml:id="d76fn1" type="source">Source:
@@ -17127,7 +17279,9 @@
                                 corresp="#p_DFL1">DALE</persName>
                         </p>
                     </div>
-                    <div n="77" xml:id="d77" type="document">
+                    <div n="77" xml:id="d77" type="document"
+                        frus:doc-dateTime-min="1975-07-23T17:46:00Z"
+                        frus:doc-dateTime-max="1975-07-23T17:46:00Z">
                         <head>77. Telegram 3412 From the Mission to the United Nations to the
                             Department of State, <date when="1975-07-23T17:46:00+00:00">July 23,
                                 1975, 1746Z</date>.<note n="1" xml:id="d77fn1" type="source">Source:
@@ -17277,7 +17431,9 @@
                                 >MOYNIHAN</persName>
                         </p>
                     </div>
-                    <div n="78" xml:id="d78" type="document">
+                    <div n="78" xml:id="d78" type="document"
+                        frus:doc-dateTime-min="1975-07-29T00:33:00Z"
+                        frus:doc-dateTime-max="1975-07-29T00:33:00Z">
                         <head>78. Telegram 177759 From the Department of State to the Mission to the
                             United Nations and Secretary of State Kissinger, <date
                                 when="1975-07-29T00:33:00+00:00">July 29, 1975, 0033Z</date>.<note
@@ -17449,7 +17605,9 @@
                             PREFER. <persName corresp="#p_IRS1">INGERSOLL</persName>
                         </p>
                     </div>
-                    <div n="79" xml:id="d79" type="document">
+                    <div n="79" xml:id="d79" type="document"
+                        frus:doc-dateTime-min="1975-07-30T00:03:00Z"
+                        frus:doc-dateTime-max="1975-07-30T00:03:00Z">
                         <head>79. Telegram 179177/Tosec 80150 From the Department of State to
                             Secretary of State Kissinger, <date when="1975-07-30T00:03:00+00:00"
                                 >July 30, 1975, 0003Z</date>.<note n="1" xml:id="d79fn1"
@@ -17518,7 +17676,9 @@
                                 <persName corresp="#p_IRS1">INGERSOLL</persName>
                         </p>
                     </div>
-                    <div n="80" xml:id="d80" type="document">
+                    <div n="80" xml:id="d80" type="document"
+                        frus:doc-dateTime-min="1975-08-01T00:00:00Z"
+                        frus:doc-dateTime-max="1975-08-31T23:59:59Z">
                         <head>80. Research Study OPR 405 Prepared in the Central Intelligence
                             Agency, <placeName>Washington</placeName>, <date
                                 notBefore="1975-08-01T00:00:00" notAfter="1975-08-31T23:59:59"
@@ -17592,7 +17752,9 @@
                             FROM INTERVIEWS"]</p>
                         <p>[Omitted here is the body of the Study.]</p>
                     </div>
-                    <div n="81" xml:id="d81" type="document">
+                    <div n="81" xml:id="d81" type="document"
+                        frus:doc-dateTime-min="1975-09-22T09:35:00Z"
+                        frus:doc-dateTime-max="1975-09-22T09:35:00Z">
                         <head>81. Memorandum of Conversation, <placeName>New York</placeName>, <date
                                 when="1975-09-22T09:35:00">September 22, 1975, 9:35 a.m.</date>
                             <note n="1" xml:id="d81fn1" type="source">Source: Department of State,
@@ -17662,7 +17824,9 @@
                         <p>Moynihan: Dunlop has Meany's confidence. </p>
                         <p>The Secretary: Yeah, I wish I had.</p>
                     </div>
-                    <div n="82" xml:id="d82" type="document">
+                    <div n="82" xml:id="d82" type="document"
+                        frus:doc-dateTime-min="1975-10-18T18:18:00Z"
+                        frus:doc-dateTime-max="1975-10-18T18:18:00Z">
                         <head>82. Telegram 5150 From the Mission to the United Nations to the
                             Department of State, <date when="1975-10-18T18:18:00+00:00">October 18,
                                 1975, 1818Z</date>.<note n="1" xml:id="d82fn1" type="source">Source:
@@ -17762,7 +17926,9 @@
                             AND NOT ALL OF US RAN. <persName corresp="#p_MDP1">MOYNIHAN</persName>
                         </p>
                     </div>
-                    <div n="83" xml:id="d83" type="document">
+                    <div n="83" xml:id="d83" type="document"
+                        frus:doc-dateTime-min="1975-10-11T00:00:00Z"
+                        frus:doc-dateTime-max="1975-10-11T23:59:59Z">
                         <head>83. Memorandum From the President’s Assistant for Economic Affairs
                             (Seidman) to President Ford, <placeName>Washington</placeName>, <date
                                 when="1975-10-11">October 11, 1975</date>.<note n="1"
@@ -17934,7 +18100,9 @@
                             General and his office.</p>
                         <p>[John T. Dumlop signed] <lb/>SECRETARY OF LABOR</p>
                     </div>
-                    <div n="84" xml:id="d84" type="document">
+                    <div n="84" xml:id="d84" type="document"
+                        frus:doc-dateTime-min="1976-01-23T03:26:00Z"
+                        frus:doc-dateTime-max="1976-01-23T03:26:00Z">
                         <head>84. Telegram 17055 From the Department of State to All Diplomatic and
                             Consular Posts, <date when="1976-01-23T03:26:00+00:00">January 23, 1976,
                                 0326Z</date>.<note n="1" xml:id="d84fn1" type="source">Source:
@@ -18007,7 +18175,9 @@
                             <persName corresp="#p_SJJ1">SISCO</persName>
                         </p>
                     </div>
-                    <div n="85" xml:id="d85" type="document">
+                    <div n="85" xml:id="d85" type="document"
+                        frus:doc-dateTime-min="1976-03-11T14:30:00Z"
+                        frus:doc-dateTime-max="1976-03-11T14:30:00Z">
                         <head>85. Telegram 1584 From the Embassy in Yugoslavia to the Department of
                             State, <date when="1976-03-11T14:30:00+00:00">March 11, 1976,
                                 1430Z</date>.<note n="1" xml:id="d85fn1" type="source">Source:
@@ -18126,7 +18296,9 @@
                                 corresp="#p_SLH1">SILBERMAN</persName>
                         </p>
                     </div>
-                    <div n="86" xml:id="d86" type="document">
+                    <div n="86" xml:id="d86" type="document"
+                        frus:doc-dateTime-min="1976-04-23T08:53:00Z"
+                        frus:doc-dateTime-max="1976-04-23T08:53:00Z">
                         <head>86. Telegram 98830 From the Department of State to the Embassy in
                             France, <date when="1976-04-23T08:53:00+00:00">April 23, 1976,
                                 0853Z</date>.<note n="1" xml:id="d86fn1" type="source">Source:
@@ -18201,7 +18373,9 @@
                             <persName corresp="#p_SJJ1">SISCO</persName>
                         </p>
                     </div>
-                    <div n="87" xml:id="d87" type="document">
+                    <div n="87" xml:id="d87" type="document"
+                        frus:doc-dateTime-min="1976-05-27T00:57:00Z"
+                        frus:doc-dateTime-max="1976-05-27T00:57:00Z">
                         <head>87. Telegram 130497 From the Department of State to All Diplomatic
                             Posts, <date when="1976-05-27T00:57:00+00:00">May 27, 1976,
                                 0057Z</date>.<note n="1" xml:id="d87fn1" type="source">Source:
@@ -18365,7 +18539,9 @@
                                 <persName corresp="#p_SJJ1">SISCO</persName>
                         </p>
                     </div>
-                    <div n="88" xml:id="d88" type="document">
+                    <div n="88" xml:id="d88" type="document"
+                        frus:doc-dateTime-min="1976-06-05T16:37:00Z"
+                        frus:doc-dateTime-max="1976-06-05T16:37:00Z">
                         <head>88. Telegram 138989 From the Department of State to All Diplomatic
                             Posts, <date when="1976-06-05T16:37:00+00:00">June 5, 1976,
                                 1637Z</date>.<note n="1" xml:id="d88fn1" type="source">Source:
@@ -18449,7 +18625,9 @@
                                 >ROBINSON</persName>
                         </p>
                     </div>
-                    <div n="89" xml:id="d89" type="document">
+                    <div n="89" xml:id="d89" type="document"
+                        frus:doc-dateTime-min="1974-06-11T04:00:00Z"
+                        frus:doc-dateTime-max="1974-06-24T03:59:59Z">
                         <head>89. Memorandum From Secretary of State Kissinger to President Ford,
                                 <placeName>Washington</placeName>, <date>undated</date>.<note n="1"
                                 xml:id="d89fn1" type="source">Source: Department of State, RG 59,
@@ -18524,7 +18702,9 @@
                             end we will abstain. We could at the same time seek from the Angolans
                             assurances of net Cuban withdrawals and observe those withdrawals.</p>
                     </div>
-                    <div n="90" xml:id="d90" type="document">
+                    <div n="90" xml:id="d90" type="document"
+                        frus:doc-dateTime-min="1976-08-08T00:00:00Z"
+                        frus:doc-dateTime-max="1976-08-08T23:59:59Z">
                         <head>90. Briefing Memorandum From the Assistant Secretary of State for
                             International Organization Affairs (<persName corresp="#p_LSW1"
                                 >Lewis</persName>) to Secretary of State Kissinger,
@@ -18611,7 +18791,9 @@
                             maintained as we further consider the question of continued US
                             participation in the ILO.</p>
                     </div>
-                    <div n="91" xml:id="d91" type="document">
+                    <div n="91" xml:id="d91" type="document"
+                        frus:doc-dateTime-min="1976-08-13T23:54:00Z"
+                        frus:doc-dateTime-max="1976-08-13T23:54:00Z">
                         <head>91. Telegram 202260 From the Department of State to the Mission to the
                                 <gloss target="#t_IAEA1">IAEA</gloss> in Vienna and the Embassies in
                             France, the United Kingdom, and South Africa, <date
@@ -18690,7 +18872,9 @@
                             <persName corresp="#p_RCW2">ROBINSON</persName>
                         </p>
                     </div>
-                    <div n="92" xml:id="d92" type="document">
+                    <div n="92" xml:id="d92" type="document"
+                        frus:doc-dateTime-min="1976-08-19T01:30:00Z"
+                        frus:doc-dateTime-max="1976-08-19T01:30:00Z">
                         <head>92. Telegram 206092 From the Department of State to Certain Diplomatic
                             Posts, <date when="1976-08-19T01:30:00+00:00">August 19, 1976,
                                 0130Z</date>.<note n="1" xml:id="d92fn1" type="source">Source:
@@ -18754,7 +18938,9 @@
                                 >KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="93" xml:id="d93" type="document">
+                    <div n="93" xml:id="d93" type="document"
+                        frus:doc-dateTime-min="1976-08-26T17:56:00Z"
+                        frus:doc-dateTime-max="1976-08-26T17:56:00Z">
                         <head>93. Telegram 212234 From the Department of State to Certain Diplomatic
                             Posts, <date when="1976-08-26T17:56:00+00:00">August 26, 1976,
                                 1756Z</date>.<note n="1" xml:id="d93fn1" type="source">Source:
@@ -18855,7 +19041,9 @@
                             EFFORT. <persName corresp="#p_KHA1">KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="94" xml:id="d94" type="document">
+                    <div n="94" xml:id="d94" type="document"
+                        frus:doc-dateTime-min="1976-09-11T00:00:00Z"
+                        frus:doc-dateTime-max="1976-09-11T23:59:59Z">
                         <head>94. Action Memorandum From the Assistant Secretary of State for East
                             Asian and Pacific Affairs (Hummel) and the Assistant Secretary of State
                             for International Organization Affairs (<persName corresp="#p_LSW1"
@@ -19029,7 +19217,9 @@
                         <p>We do not recommend option 4, Force a vote and vote “no”, even when
                             voting would be contrary to normal procedure.</p>
                     </div>
-                    <div n="95" xml:id="d95" type="document">
+                    <div n="95" xml:id="d95" type="document"
+                        frus:doc-dateTime-min="1976-09-13T23:44:00Z"
+                        frus:doc-dateTime-max="1976-09-13T23:44:00Z">
                         <head>95. Telegram 226331/Tosec 270030 From the Department of State to
                             Secretary of State Kissinger, <date when="1976-09-13T23:44:00+00:00"
                                 >September 13, 1976, 2344Z</date> [entered as September 14].<note
@@ -19104,7 +19294,9 @@
                                 >ROBINSON</persName>
                         </p>
                     </div>
-                    <div n="96" xml:id="d96" type="document">
+                    <div n="96" xml:id="d96" type="document"
+                        frus:doc-dateTime-min="1976-09-29T00:39:00Z"
+                        frus:doc-dateTime-max="1976-09-29T00:39:00Z">
                         <head>96. Telegram 241525/Tosec 280012 From the Department of State to
                             Secretary of State Kissinger in <placeName>New York</placeName>, <date
                                 when="1976-09-29T00:39:00+00:00">September 29, 1976,
@@ -19158,7 +19350,9 @@
                             <persName corresp="#p_RCW2">ROBINSON</persName>
                         </p>
                     </div>
-                    <div n="97" xml:id="d97" type="document">
+                    <div n="97" xml:id="d97" type="document"
+                        frus:doc-dateTime-min="1976-11-11T01:26:00Z"
+                        frus:doc-dateTime-max="1976-11-11T01:26:00Z">
                         <head>97. Telegram 277310 From the Department of State to the Embassy in
                             Kenya, <date when="1976-11-11T01:26:00+00:00">November 11, 1976,
                                 0126Z</date>.<note n="1" xml:id="d97fn1" type="source">Source:
@@ -19251,7 +19445,9 @@
                                 >KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="98" xml:id="d98" type="document">
+                    <div n="98" xml:id="d98" type="document"
+                        frus:doc-dateTime-min="1976-11-12T00:00:00Z"
+                        frus:doc-dateTime-max="1976-11-12T23:59:59Z">
                         <head>98. Memorandum From Robert S. Smith of the National Security Council
                             Staff to the President’s Assistant for National Security Affairs
                             (Scowcroft), <placeName>Washington</placeName>, <date when="1976-11-12"
@@ -19318,7 +19514,9 @@
                             Nations Security Council on the admission of Angola to <gloss
                                 target="#t_UN1">UN</gloss> membership.</p>
                     </div>
-                    <div n="99" xml:id="d99" type="document">
+                    <div n="99" xml:id="d99" type="document"
+                        frus:doc-dateTime-min="1976-11-16T02:58:00Z"
+                        frus:doc-dateTime-max="1976-11-16T02:58:00Z">
                         <head>99. Telegram 5338 From the Mission to the United Nations to the
                             Department of State, <date when="1976-11-16T02:58:00+00:00">November 16,
                                 1976, 0258Z</date>.<note n="1" xml:id="d99fn1" type="source">Source:
@@ -19393,7 +19591,9 @@
                             <persName corresp="#p_SWW2">SCRANTON</persName>
                         </p>
                     </div>
-                    <div n="100" xml:id="d100" type="document">
+                    <div n="100" xml:id="d100" type="document"
+                        frus:doc-dateTime-min="1976-12-02T00:00:00Z"
+                        frus:doc-dateTime-max="1976-12-02T23:59:59Z">
                         <head>100. Memorandum From the Acting Assistant Secretary of State for
                             International Organization Affairs (Toussaint) to the Under Secretary of
                             State for Political Affairs (Habib), <placeName>Washington</placeName>,
@@ -19524,7 +19724,9 @@
                             Sierra Leone and Senegal. Subsequent trips to Latin America, the Middle
                             East and Europe are projected.</p>
                     </div>
-                    <div n="101" xml:id="d101" type="document">
+                    <div n="101" xml:id="d101" type="document"
+                        frus:doc-dateTime-min="1976-12-08T23:07:00Z"
+                        frus:doc-dateTime-max="1976-12-08T23:07:00Z">
                         <head>101. Telegram 5986 From the Mission to the United Nations to the
                             Department of State, <date when="1976-12-08T23:07:00+00:00">December 8,
                                 1976, 2307Z</date>.<note n="1" xml:id="d101fn1" type="source"
@@ -19580,7 +19782,9 @@
                             <persName corresp="#p_SWW2">SCRANTON</persName>
                         </p>
                     </div>
-                    <div n="102" xml:id="d102" type="document">
+                    <div n="102" xml:id="d102" type="document"
+                        frus:doc-dateTime-min="1976-12-21T02:16:00Z"
+                        frus:doc-dateTime-max="1976-12-21T02:16:00Z">
                         <head>102. Telegram 307916 From the Department of State to All Diplomatic
                             Posts, <date when="1976-12-21T02:16:00+00:00">December 21, 1976,
                                 0216Z</date>.<note n="1" xml:id="d102fn1" type="source">Source:
@@ -19707,7 +19911,9 @@
                             <persName corresp="#p_KHA1">KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="103" xml:id="d103" type="document">
+                    <div n="103" xml:id="d103" type="document"
+                        frus:doc-dateTime-min="1976-12-16T05:00:00Z"
+                        frus:doc-dateTime-max="1976-12-30T04:59:59Z">
                         <head>103. Memorandum From the President’s Assistant for National Security
                             Affairs (Scowcroft) to President Ford,
                             <placeName>Washington</placeName>, <date>undated</date>.<note n="1"
@@ -19836,7 +20042,9 @@
                 </div>
                 <div xml:id="ch3" type="chapter">
                     <head>Population Policy</head>
-                    <div n="104" xml:id="d104" type="document">
+                    <div n="104" xml:id="d104" type="document"
+                        frus:doc-dateTime-min="1973-06-08T10:30:00Z"
+                        frus:doc-dateTime-max="1973-06-08T10:30:00Z">
                         <head>104. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date when="1973-06-08T10:30:00">June 8, 1973, 10:30 a.m.</date>
                             <note n="1" xml:id="d104fn1" type="source">Source: National Archives, RG
@@ -20015,7 +20223,9 @@
                             that the population subject be taken up by the NSC in its broad aspects.
                         </p>
                     </div>
-                    <div n="105" xml:id="d105" type="document">
+                    <div n="105" xml:id="d105" type="document"
+                        frus:doc-dateTime-min="1973-06-13T00:00:00Z"
+                        frus:doc-dateTime-max="1973-06-13T23:59:59Z">
                         <head>105. Memorandum From the Executive Secretary of the Department of
                             State (Eliot) to the President’s Assistant for National Security Affairs
                             (Kissinger), <placeName>Washington</placeName>, <date when="1973-06-13"
@@ -20178,7 +20388,9 @@
                                 corresp="#p_KJA3">Kieffer</persName>
                         </p>
                     </div>
-                    <div n="106" xml:id="d106" type="document">
+                    <div n="106" xml:id="d106" type="document"
+                        frus:doc-dateTime-min="1973-06-19T00:00:00Z"
+                        frus:doc-dateTime-max="1973-06-19T23:59:59Z">
                         <head>106. Memorandum From Secretary of State <persName corresp="#p_RWD1"
                                 >Rogers</persName> and Secretary of Health, Education, and Welfare
                             Weinberger to President <persName corresp="#p_NRM1">Nixon</persName>,
@@ -20257,7 +20469,9 @@
                             <persName corresp="#p_WCW1">Caspar W. Weinberger</persName> Secretary of
                             Health, Education, and Welfare </p>
                     </div>
-                    <div n="107" xml:id="d107" type="document">
+                    <div n="107" xml:id="d107" type="document"
+                        frus:doc-dateTime-min="1973-07-11T00:00:00Z"
+                        frus:doc-dateTime-max="1973-07-11T23:59:59Z">
                         <head>107. Airgram A–5913 From the Department of State to All Diplomatic
                             Posts, <placeName>Washington</placeName>, <date when="1973-07-11">July
                                 11, 1973</date>.<note n="1" xml:id="d107fn1" type="source">Source:
@@ -20522,7 +20736,9 @@
                             <persName corresp="#p_RWP1">ROGERS</persName>
                         </p>
                     </div>
-                    <div n="108" xml:id="d108" type="document">
+                    <div n="108" xml:id="d108" type="document"
+                        frus:doc-dateTime-min="1973-10-05T00:00:00Z"
+                        frus:doc-dateTime-max="1973-10-05T23:59:59Z">
                         <head>108. Briefing Memorandum From the Secretary of State’s Special
                             Assistant for Population Matters (<persName corresp="#p_CPP1"
                                 >Claxton</persName>) to Secretary of State Kissinger,
@@ -20725,7 +20941,9 @@
                             Population Matters</p>
                         <p>Tab B - Joint Memorandum to the President, 6/19/73 </p>
                     </div>
-                    <div n="109" xml:id="d109" type="document">
+                    <div n="109" xml:id="d109" type="document"
+                        frus:doc-dateTime-min="1973-10-20T07:05:00Z"
+                        frus:doc-dateTime-max="1973-10-20T07:05:00Z">
                         <head>109. Telegram 12233 From the Embassy in India to the Department of
                             State, <date when="1973-10-20T07:05:00+00:00">October 20, 1973,
                                 0705Z</date>.<note n="1" xml:id="d109fn1" type="source">Source:
@@ -20872,7 +21090,9 @@
                             <persName corresp="#p_MDP1">MOYNIHAN</persName>
                         </p>
                     </div>
-                    <div n="110" xml:id="d110" type="document">
+                    <div n="110" xml:id="d110" type="document"
+                        frus:doc-dateTime-min="1973-11-26T00:00:00Z"
+                        frus:doc-dateTime-max="1973-11-26T23:59:59Z">
                         <head>110. Memorandum From the President’s Assistant for International
                             Economic Affairs (<persName corresp="#p_CCA2">Cooper</persName>) to the
                             President’s Deputy Assistant for National Security Affairs (Scowcroft),
@@ -20934,7 +21154,9 @@
                         <p>That NSSM be issued now.</p>
                         <p>Approve<lb/>Disapprove </p>
                     </div>
-                    <div n="111" xml:id="d111" type="document">
+                    <div n="111" xml:id="d111" type="document"
+                        frus:doc-dateTime-min="1974-02-08T00:00:00Z"
+                        frus:doc-dateTime-max="1974-02-08T23:59:59Z">
                         <head>111. Intelligence Note RECN–18 Prepared in the Bureau of Intelligence
                             and Research, <placeName>Washington</placeName>, <date when="1974-02-08"
                                 >February 8, 1974</date>.<note n="1" xml:id="d111fn1" type="source"
@@ -21052,7 +21274,9 @@
                         <p>Worldwide Expenditures for Birth Control Services, 1971</p>
                         <p>[table] </p>
                     </div>
-                    <div n="112" xml:id="d112" type="document">
+                    <div n="112" xml:id="d112" type="document"
+                        frus:doc-dateTime-min="1974-03-23T00:00:00Z"
+                        frus:doc-dateTime-max="1974-03-23T23:59:59Z">
                         <head>112. Memorandum From the President’s Deputy Assistant for National
                             Security Affairs (Scowcroft) to the President’s Assistant for National
                             Security Affairs (Kissinger), <placeName>Washington</placeName>, <date
@@ -21112,7 +21336,9 @@
                             approval to issue the NSSM at Tab A, or, alternatively that you sign the
                             NSSM at Tab A. </p>
                     </div>
-                    <div n="113" xml:id="d113" type="document">
+                    <div n="113" xml:id="d113" type="document"
+                        frus:doc-dateTime-min="1974-04-24T00:00:00Z"
+                        frus:doc-dateTime-max="1974-04-24T23:59:59Z">
                         <head>113. National Security Study Memorandum 200,
                                 <placeName>Washington</placeName>, <date when="1974-04-24">April 24,
                                 1974</date>.<note n="1" xml:id="d113fn1" type="source">Source:
@@ -21177,7 +21403,9 @@
                         </p>
                         <p>cc: Chairman, Joint Chiefs of Staff </p>
                     </div>
-                    <div n="114" xml:id="d114" type="document">
+                    <div n="114" xml:id="d114" type="document"
+                        frus:doc-dateTime-min="1974-05-31T13:00:00Z"
+                        frus:doc-dateTime-max="1974-05-31T13:00:00Z">
                         <head>114. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date when="1974-05-31T13:00:00">May 31, 1974, 1 p.m.</date>
                             <note n="1" xml:id="d114fn1" type="source">Source: National Archives, RG
@@ -21308,7 +21536,9 @@
                             going to happen anyway.</p>
                         <p>[Omitted here is discussion unrelated to food policy.] </p>
                     </div>
-                    <div n="115" xml:id="d115" type="document">
+                    <div n="115" xml:id="d115" type="document"
+                        frus:doc-dateTime-min="1974-07-25T00:00:00Z"
+                        frus:doc-dateTime-max="1974-07-25T23:59:59Z">
                         <head>115. World Population Conference Scope Paper UNEC D–479/Rev.2 Prepared
                             in the Bureau of International Organization Affairs,
                                 <placeName>Washington</placeName>, <date when="1974-07-25">July 25,
@@ -21536,7 +21766,9 @@
                             accomplished and accepted to a dedication to the difficult and
                             necessary. </p>
                     </div>
-                    <div n="116" xml:id="d116" type="document">
+                    <div n="116" xml:id="d116" type="document"
+                        frus:doc-dateTime-min="1974-08-31T16:05:00Z"
+                        frus:doc-dateTime-max="1974-08-31T16:05:00Z">
                         <head>116. Telegram 3969 From the Embassy in Romania to the Department of
                             State, <date when="1974-08-31T16:05:00+00:00">August 31, 1974,
                                 1605Z</date>.<note n="1" xml:id="d116fn1" type="source">Source:
@@ -21868,7 +22100,9 @@
                             <persName corresp="#p_BHGJ1">BARNES</persName>
                         </p>
                     </div>
-                    <div n="117" xml:id="d117" type="document">
+                    <div n="117" xml:id="d117" type="document"
+                        frus:doc-dateTime-min="1974-09-19T00:00:00Z"
+                        frus:doc-dateTime-max="1974-09-19T23:59:59Z">
                         <head>117. Memorandum From Secretary of Health, Education, and Welfare
                             Weinberger to Secretary of State Kissinger,
                                 <placeName>Washington</placeName>, <date when="1974-09-19">September
@@ -22219,7 +22453,9 @@
                             staff.</p>
                         <p>Secretary </p>
                     </div>
-                    <div n="118" xml:id="d118" type="document">
+                    <div n="118" xml:id="d118" type="document"
+                        frus:doc-dateTime-min="1974-12-14T00:00:00Z"
+                        frus:doc-dateTime-max="1974-12-14T23:59:59Z">
                         <head>118. Memorandum NSC–U/DM–130 From the Chairman of the National
                             Security Council Under Secretaries Committee (Ingersoll) to President
                             Ford, <placeName>Washington</placeName>, <date when="1974-12-14"
@@ -22398,7 +22634,9 @@
                             Chairman</p>
                         <p>Attachment: As stated </p>
                     </div>
-                    <div n="119" xml:id="d119" type="document">
+                    <div n="119" xml:id="d119" type="document"
+                        frus:doc-dateTime-min="1975-06-01T00:00:00Z"
+                        frus:doc-dateTime-max="1975-06-15T23:59:59Z">
                         <head>119. Summary Report From the National Commission for the Observance of
                             the World Population Year to President Ford,
                                 <placeName>Washington</placeName>, <date
@@ -22514,7 +22752,9 @@
                             undertaking to assist developing countries in their efforts to achieve
                             economic and social progress. </p>
                     </div>
-                    <div n="120" xml:id="d120" type="document">
+                    <div n="120" xml:id="d120" type="document"
+                        frus:doc-dateTime-min="1975-07-17T00:00:00Z"
+                        frus:doc-dateTime-max="1975-07-17T23:59:59Z">
                         <head>120. Memorandum From Hal Horan of the National Security Council Staff
                             to Secretary of State Kissinger, <placeName>Washington</placeName>,
                                 <date when="1975-07-17">July 17, 1975</date>.<note n="1"
@@ -22611,7 +22851,9 @@
                         <p>Attachment</p>
                         <p>Tab I - Memo for the President. </p>
                     </div>
-                    <div n="121" xml:id="d121" type="document">
+                    <div n="121" xml:id="d121" type="document"
+                        frus:doc-dateTime-min="1975-10-16T00:00:00Z"
+                        frus:doc-dateTime-max="1975-10-16T23:59:59Z">
                         <head>121. Memorandum From the President’s Assistant for National Security
                             Affairs (Kissinger) to President Ford,
                             <placeName>Washington</placeName>, <date when="1975-10-16">October 16,
@@ -22782,7 +23024,9 @@
                             population growth and implications for US security and overseas
                             interests </p>
                     </div>
-                    <div n="122" xml:id="d122" type="document">
+                    <div n="122" xml:id="d122" type="document"
+                        frus:doc-dateTime-min="1975-11-26T00:00:00Z"
+                        frus:doc-dateTime-max="1975-11-26T23:59:59Z">
                         <head>122. National Security Decision Memorandum 314,
                                 <placeName>Washington</placeName>, <date when="1975-11-26">November
                                 26, 1975</date>.<note n="1" xml:id="d122fn1" type="source">Source:
@@ -22925,7 +23169,9 @@
                             Central Intelligence <lb/>The Chairman, Council on Environmental Quality
                         </p>
                     </div>
-                    <div n="123" xml:id="d123" type="document">
+                    <div n="123" xml:id="d123" type="document"
+                        frus:doc-dateTime-min="1976-04-10T14:30:00Z"
+                        frus:doc-dateTime-max="1976-04-10T14:30:00Z">
                         <head>123. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date when="1976-04-10T14:30:00">April 10, 1976, 2:30 p.m.</date>
                             <note n="1" xml:id="d123fn1" type="source">Source: National Archives, RG
@@ -23144,7 +23390,9 @@
                             will call upon you.</p>
                         <p>Ambassador Green: I am ready to sailor for you anywhere. </p>
                     </div>
-                    <div n="124" xml:id="d124" type="document">
+                    <div n="124" xml:id="d124" type="document"
+                        frus:doc-dateTime-min="1976-04-13T00:00:00Z"
+                        frus:doc-dateTime-max="1976-04-13T23:59:59Z">
                         <head>124. Memorandum From the Coordinator for Population Affairs (Green) to
                             Secretary of State Kissinger, <placeName>Washington</placeName>, <date
                                 when="1976-04-13">April 13, 1976</date>.<note n="1" xml:id="d124fn1"
@@ -23222,7 +23470,9 @@
                         <p>That you sign the attached cable.--[approve HAK]</p>
                         <p>Attachment Cable to All Diplomatic Posts </p>
                     </div>
-                    <div n="125" xml:id="d125" type="document">
+                    <div n="125" xml:id="d125" type="document"
+                        frus:doc-dateTime-min="1976-07-29T00:00:00Z"
+                        frus:doc-dateTime-max="1976-07-29T23:59:59Z">
                         <head>125. Memorandum NSC–U/DM–130A From the Chairman of the National
                             Security Council Under Secretaries Committee (Robinson) to President
                             Ford, <placeName>Washington</placeName>, <date when="1976-07-29">July
@@ -24112,7 +24362,9 @@
                             population-related assistance (Annex III) has been prepared by AID to
                             provide more detailed information. </p>
                     </div>
-                    <div n="126" xml:id="d126" type="document">
+                    <div n="126" xml:id="d126" type="document"
+                        frus:doc-dateTime-min="1976-12-15T00:00:00Z"
+                        frus:doc-dateTime-max="1976-12-15T23:59:59Z">
                         <head>126. Memorandum From Robert S. Smith of the National Security Council
                             Staff to the President’s Assistant for National Security Affairs
                             (Scowcroft), <placeName>Washington</placeName>, <date when="1976-12-15"
@@ -24185,7 +24437,9 @@
                         <p>RECOMMENDATION:</p>
                         <p>That you forward to the President the memorandum at Tab 1. </p>
                     </div>
-                    <div n="127" xml:id="d127" type="document">
+                    <div n="127" xml:id="d127" type="document"
+                        frus:doc-dateTime-min="1977-01-03T00:00:00Z"
+                        frus:doc-dateTime-max="1977-01-03T23:59:59Z">
                         <head>127. Memorandum From the President’s Assistant for National Security
                             Affairs (Scowcroft) to the Chairman of the National Security Council
                             Under Secretaries Committee (Robinson),
@@ -24240,7 +24494,9 @@
                 </div>
                 <div xml:id="ch4" type="chapter">
                     <head>Food Policy</head>
-                    <div n="128" xml:id="d128" type="document">
+                    <div n="128" xml:id="d128" type="document"
+                        frus:doc-dateTime-min="1973-06-27T00:41:00Z"
+                        frus:doc-dateTime-max="1973-06-27T00:41:00Z">
                         <head>128. Telegram 125374 From the Department of State to All Diplomatic
                             and Consular Posts, <date when="1973-06-27T00:41:00+00:00">June 27,
                                 1973, 0041Z</date>.<note n="1" xml:id="d128fn1" type="source"
@@ -24345,7 +24601,9 @@
                             <persName corresp="#p_RWP1">ROGERS</persName>
                         </p>
                     </div>
-                    <div n="129" xml:id="d129" type="document">
+                    <div n="129" xml:id="d129" type="document"
+                        frus:doc-dateTime-min="1973-09-05T00:00:00Z"
+                        frus:doc-dateTime-max="1973-09-05T23:59:59Z">
                         <head>129. National Security Study Memorandum 187,
                                 <placeName>Washington</placeName>, <date when="1973-09-05">September
                                 5, 1973</date>.<note n="1" xml:id="d129fn1" type="source">Source:
@@ -24431,7 +24689,9 @@
                             <persName corresp="#p_KHA1">Henry A. Kissinger</persName>
                         </p>
                     </div>
-                    <div n="130" xml:id="d130" type="document">
+                    <div n="130" xml:id="d130" type="document"
+                        frus:doc-dateTime-min="1973-10-17T22:27:00Z"
+                        frus:doc-dateTime-max="1973-10-17T22:27:00Z">
                         <head>130. Telegram 206146 From the Department of State to Certain
                             Diplomatic Posts, <date when="1973-10-17T22:27:00+00:00">October 17,
                                 1973, 2227Z,</date>.<note n="1" xml:id="d130fn1" type="source"
@@ -24556,7 +24816,9 @@
                             ORGANIZATIONS TO ABOVE. <persName corresp="#p_KHA1">KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="131" xml:id="d131" type="document">
+                    <div n="131" xml:id="d131" type="document"
+                        frus:doc-dateTime-min="1973-11-10T03:07:00Z"
+                        frus:doc-dateTime-max="1973-11-10T03:07:00Z">
                         <head>131. Telegram 222510 From the Department of State to Certain
                             Diplomatic Posts, <date when="1973-11-10T03:07:00+00:00">November 10,
                                 1973, 0307Z</date>.<note n="1" xml:id="d131fn1" type="source"
@@ -24837,7 +25099,9 @@
                                 corresp="#p_RKW1">RUSH</persName>
                         </p>
                     </div>
-                    <div n="132" xml:id="d132" type="document">
+                    <div n="132" xml:id="d132" type="document"
+                        frus:doc-dateTime-min="1973-11-16T00:00:00Z"
+                        frus:doc-dateTime-max="1973-11-16T23:59:59Z">
                         <head>132. Memorandum From the Deputy Assistant Secretary of State for
                             International Resources and Food Policy (<persName corresp="#p_KJL1"
                                 >Katz</persName>) to the President’s Deputy Assistant for National
@@ -25143,7 +25407,9 @@
                             policies are compatible with our broad foreign policy objectives and
                             that they reinforce and do not conflict with each other.</p>
                     </div>
-                    <div n="133" xml:id="d133" type="document">
+                    <div n="133" xml:id="d133" type="document"
+                        frus:doc-dateTime-min="1973-11-24T11:40:00Z"
+                        frus:doc-dateTime-max="1973-11-24T11:40:00Z">
                         <head>133. Telegram 13013 From the Embassy in Italy to the Department of
                             State, <date when="1973-11-24T11:40:00+00:00">November 24, 1973,
                                 1140Z</date>.<note n="1" xml:id="d133fn1" type="source">Source:
@@ -25305,7 +25571,9 @@
                             PRESUMABLY THEIR LACK OF OBJECTION TO PASSAGE OF THE REPORT INDICATES
                             PRC WILLINGNESS TO PARTICIPATE IN THE WFC. VOLPE </p>
                     </div>
-                    <div n="134" xml:id="d134" type="document">
+                    <div n="134" xml:id="d134" type="document"
+                        frus:doc-dateTime-min="1974-01-17T20:48:00Z"
+                        frus:doc-dateTime-max="1974-01-17T20:48:00Z">
                         <head>134. Telegram 10697 From the Department of State to All Diplomatic
                             Posts, <date when="1974-01-17T20:48:00+00:00">January 17, 1974,
                                 2048Z</date>.<note n="1" xml:id="d134fn1" type="source">Source:
@@ -25453,7 +25721,9 @@
                             FIRST PREPCOM MEETING. <persName corresp="#p_RKW1">RUSH</persName>
                         </p>
                     </div>
-                    <div n="135" xml:id="d135" type="document">
+                    <div n="135" xml:id="d135" type="document"
+                        frus:doc-dateTime-min="1974-01-21T00:00:00Z"
+                        frus:doc-dateTime-max="1974-01-21T23:59:59Z">
                         <head>135. Memorandum From the Coordinator for World Food Conference Affairs
                             (Martin) to Secretary of State Kissinger,
                                 <placeName>Washington</placeName>, <date when="1974-01-21">January
@@ -25588,7 +25858,9 @@
                             visit FAO in Rome and <gloss target="#t_UNCTAD1">UNCTAD</gloss> in
                             Geneva and, if possible, the EC in Brussels.</p>
                     </div>
-                    <div n="136" xml:id="d136" type="document">
+                    <div n="136" xml:id="d136" type="document"
+                        frus:doc-dateTime-min="1974-02-08T00:00:00Z"
+                        frus:doc-dateTime-max="1974-02-08T23:59:59Z">
                         <head>136. Memorandum From Robert Morris of the Council on International
                             Economic Policy Staff to the Assistant Director for Natural Resources of
                             the Domestic Council (<persName corresp="#p_RNE1">Ross</persName>),
@@ -25725,7 +25997,9 @@
                             <persName corresp="#p_FPM1">Peter M. Flanigan</persName>
                         </p>
                     </div>
-                    <div n="137" xml:id="d137" type="document">
+                    <div n="137" xml:id="d137" type="document"
+                        frus:doc-dateTime-min="1974-02-20T00:00:00Z"
+                        frus:doc-dateTime-max="1974-02-20T23:59:59Z">
                         <head>137. Memorandum From the Coordinator for World Food Conference Affairs
                             (Martin) to Secretary of State Kissinger,
                                 <placeName>Washington</placeName>, <date when="1974-02-20">February
@@ -25796,7 +26070,9 @@
                             shortage. U.S. interest in latter problem was warmly welcomed by several
                             major LDCs.</p>
                     </div>
-                    <div n="138" xml:id="d138" type="document">
+                    <div n="138" xml:id="d138" type="document"
+                        frus:doc-dateTime-min="1974-02-25T00:00:00Z"
+                        frus:doc-dateTime-max="1974-02-25T23:59:59Z">
                         <head>138. Summary of a Research Study Prepared in the Bureau of
                             Intelligence and Research, <placeName>Washington</placeName>, <date
                                 when="1974-02-25">February 25, 1974</date>.<note n="1"
@@ -25871,7 +26147,9 @@
                             stringent basis, provided that they supplied full information for
                             adequate grain reserve operational planning.</p>
                     </div>
-                    <div n="139" xml:id="d139" type="document">
+                    <div n="139" xml:id="d139" type="document"
+                        frus:doc-dateTime-min="1974-03-28T00:00:00Z"
+                        frus:doc-dateTime-max="1974-03-28T23:59:59Z">
                         <head>139. Briefing Memorandum From the Coordinator for World Food
                             Conference Affairs (Martin) to Secretary of State Kissinger,
                                 <placeName>Washington</placeName>, <date when="1974-03-28">March 28,
@@ -26031,7 +26309,9 @@
                         <p>I shall keep you informed on progress on both these points, as well as
                             any new ideas we can uncover.</p>
                     </div>
-                    <div n="140" xml:id="d140" type="document">
+                    <div n="140" xml:id="d140" type="document"
+                        frus:doc-dateTime-min="1974-04-24T12:00:00Z"
+                        frus:doc-dateTime-max="1974-04-24T12:00:00Z">
                         <head>140. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date when="1974-04-24T12:00:00">April 24, 1974, noon</date>.<note
                                 n="1" xml:id="d140fn1" type="source">Source: National Archives,
@@ -26182,7 +26462,9 @@
                             consideration within the Government on food issues looking towards some
                             fairly firm decisions by the end of May.</p>
                     </div>
-                    <div n="141" xml:id="d141" type="document">
+                    <div n="141" xml:id="d141" type="document"
+                        frus:doc-dateTime-min="1974-05-28T00:00:00Z"
+                        frus:doc-dateTime-max="1974-05-28T23:59:59Z">
                         <head>141. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date when="1974-05-28">May 28, 1974</date>.<note n="1"
                                 xml:id="d141fn1" type="source">Source: National Archives, Nixon
@@ -26238,7 +26520,9 @@
                             where it was not in our interest.</p>
                         <p>[Omitted here is discussion unrelated to food policy.]</p>
                     </div>
-                    <div n="142" xml:id="d142" type="document">
+                    <div n="142" xml:id="d142" type="document"
+                        frus:doc-dateTime-min="1974-06-07T04:00:00Z"
+                        frus:doc-dateTime-max="1974-06-10T03:59:59Z">
                         <head>142. Briefing Memorandum From the Assistant Secretary of
                             State-Designate for Economic and Business Affairs (Enders) and the
                             Director of the Policy Planning Staff, Department of State (Lord) to
@@ -26513,7 +26797,9 @@
                             Food aid should be viewed as a necessary but temporary device. Greater
                             food production in developing areas is imperative.</p>
                     </div>
-                    <div n="143" xml:id="d143" type="document">
+                    <div n="143" xml:id="d143" type="document"
+                        frus:doc-dateTime-min="1974-06-25T21:11:00Z"
+                        frus:doc-dateTime-max="1974-06-25T21:11:00Z">
                         <head>143. Telegram 136529 From the Department of State to All Diplomatic
                             and Consular Posts, <date when="1974-06-25T21:11:00+00:00">June 25,
                                 1974, 2111Z</date>.<note n="1" xml:id="d143fn1" type="source"
@@ -26651,7 +26937,9 @@
                                 >SISCO</persName>
                         </p>
                     </div>
-                    <div n="144" xml:id="d144" type="document">
+                    <div n="144" xml:id="d144" type="document"
+                        frus:doc-dateTime-min="1974-08-01T00:00:00Z"
+                        frus:doc-dateTime-max="1974-08-17T23:59:59Z">
                         <head>144. Analytical Study OPR–401 Prepared in the Central Intelligence
                             Agency, <placeName>Washington</placeName>, <date
                                 notBefore="1974-08-01T00:00:00" notAfter="1974-08-17T23:59:59"
@@ -26734,7 +27022,9 @@
                             the complex issues discussed lend themselves to other
                             interpretations.</p>
                     </div>
-                    <div n="145" xml:id="d145" type="document">
+                    <div n="145" xml:id="d145" type="document"
+                        frus:doc-dateTime-min="1974-08-17T00:00:00Z"
+                        frus:doc-dateTime-max="1974-08-17T23:59:59Z">
                         <head>145. Memorandum From the Assistant Secretary of State for Economic and
                             Business Affairs (Enders) to Secretary of State Kissinger,
                                 <placeName>Washington</placeName>, <date when="1974-08-17">August
@@ -26910,7 +27200,9 @@
                             acceptance of what nature provides.</p>
                         <p>Your actual presence at the Conference need only be for your speech.</p>
                     </div>
-                    <div n="146" xml:id="d146" type="document">
+                    <div n="146" xml:id="d146" type="document"
+                        frus:doc-dateTime-min="1974-09-17T12:15:00Z"
+                        frus:doc-dateTime-max="1974-09-17T12:15:00Z">
                         <head>146. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date when="1974-09-17T12:15:00">September 17, 1974, 12:15
                                 p.m.</date>
@@ -27104,7 +27396,9 @@
                             the actual execution: What have we used, what we have left,
                             etcetera.</p>
                     </div>
-                    <div n="147" xml:id="d147" type="document">
+                    <div n="147" xml:id="d147" type="document"
+                        frus:doc-dateTime-min="1974-10-04T00:00:00Z"
+                        frus:doc-dateTime-max="1974-10-04T23:59:59Z">
                         <head>147. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date when="1974-10-04">October 4, 1974</date>.<note n="1"
                                 xml:id="d147fn1" type="source">Source: Department of State, <gloss
@@ -27344,7 +27638,9 @@
                             through less than 11 drafts.</p>
                         <p>Palmer: No, sir. We once had one that took only ten.</p>
                     </div>
-                    <div n="148" xml:id="d148" type="document">
+                    <div n="148" xml:id="d148" type="document"
+                        frus:doc-dateTime-min="1974-10-16T00:00:00Z"
+                        frus:doc-dateTime-max="1974-10-16T23:59:59Z">
                         <head>148. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date when="1974-10-16">October 16, 1974</date>.<note n="1"
                                 xml:id="d148fn1" type="source">Source: National Archives, RG 59,
@@ -27551,7 +27847,9 @@
                             want; why don't you just do it now?</p>
                         <p>Lord: We will get you a new speech by tomorrow evening.</p>
                     </div>
-                    <div n="149" xml:id="d149" type="document">
+                    <div n="149" xml:id="d149" type="document"
+                        frus:doc-dateTime-min="1974-10-17T00:00:00Z"
+                        frus:doc-dateTime-max="1974-10-17T23:59:59Z">
                         <head>149. Memorandum From the Executive Secretary of the Department of
                             State (Springsteen) to the President’s Deputy Assistant for National
                             Security Affairs (Scowcroft), <placeName>Washington</placeName>, <date
@@ -27770,7 +28068,9 @@
                             nine years. The AID budget in support of population activities in FY-74
                             was $112 million. We are proposing $137.5 million for this year.</p>
                     </div>
-                    <div n="150" xml:id="d150" type="document">
+                    <div n="150" xml:id="d150" type="document"
+                        frus:doc-dateTime-min="1974-11-12T00:00:00Z"
+                        frus:doc-dateTime-max="1974-11-12T23:59:59Z">
                         <head>150. Memorandum From the Director of the Office of Management and
                             Budget (<persName corresp="#p_ARL1">Ash</persName>) to President Ford,
                                 <placeName>Washington</placeName>, <date when="1974-11-12">November
@@ -27835,7 +28135,9 @@
                             resources we are willing to make available for such an effort.</p>
                         <p>APPROVE<lb/>DISAPPROVE</p>
                     </div>
-                    <div n="151" xml:id="d151" type="document">
+                    <div n="151" xml:id="d151" type="document"
+                        frus:doc-dateTime-min="1974-11-12T00:00:00Z"
+                        frus:doc-dateTime-max="1974-11-12T23:59:59Z">
                         <head>151. Memorandum From the President’s Assistant for National Security
                             Affairs (Kissinger) to Members of the International Food Review Group,
                                 <placeName>Washington</placeName>, <date when="1974-11-12">November
@@ -27888,7 +28190,9 @@
                             <persName corresp="#p_KHA1">Henry A. Kissinger</persName>
                         </p>
                     </div>
-                    <div n="152" xml:id="d152" type="document">
+                    <div n="152" xml:id="d152" type="document"
+                        frus:doc-dateTime-min="1974-11-27T00:43:00Z"
+                        frus:doc-dateTime-max="1974-11-27T00:43:00Z">
                         <head>152. Telegram 261234 From the Department of State to All Diplomatic
                             Posts, <date when="1974-11-27T00:43:00+00:00">November 27, 1974,
                                 0043Z</date>.<note n="1" xml:id="d152fn1" type="source">Source:
@@ -28002,7 +28306,9 @@
                                 corresp="#p_IRS1">INGERSOLL</persName>
                         </p>
                     </div>
-                    <div n="153" xml:id="d153" type="document">
+                    <div n="153" xml:id="d153" type="document"
+                        frus:doc-dateTime-min="1974-12-01T00:00:00Z"
+                        frus:doc-dateTime-max="1974-12-14T23:59:59Z">
                         <head>153. Report of the Delegation to the World Food Conference,
                                 <placeName>Washington</placeName>, <date
                                 notBefore="1974-12-01T00:00:00" notAfter="1974-12-14T23:59:59"
@@ -28742,7 +29048,9 @@
                             from other countries, particularly other donor countries, through the
                             American Freedom from Hunger Foundation. </p>
                     </div>
-                    <div n="154" xml:id="d154" type="document">
+                    <div n="154" xml:id="d154" type="document"
+                        frus:doc-dateTime-min="1974-12-14T00:00:00Z"
+                        frus:doc-dateTime-max="1974-12-14T23:59:59Z">
                         <head>154. Memorandum From the Executive Secretary of the Department of
                             State (Springsteen) to the President’s Deputy Assistant for National
                             Security Affairs (Scowcroft), <placeName>Washington</placeName>, <date
@@ -28927,7 +29235,9 @@
                             reserves. But decisions on these issues will be needed when actual
                             negotiations begin.</p>
                     </div>
-                    <div n="155" xml:id="d155" type="document">
+                    <div n="155" xml:id="d155" type="document"
+                        frus:doc-dateTime-min="1975-04-21T12:45:00Z"
+                        frus:doc-dateTime-max="1975-04-21T12:45:00Z">
                         <head>155. Memorandum of Conversation, <placeName>Washington</placeName>,
                                 <date when="1975-04-21T12:45:00">April 21, 1975, 12:45 p.m.</date>
                             <note n="1" xml:id="d155fn1" type="source">Source: Ford Library, White
@@ -29126,7 +29436,9 @@
                             the chance to discuss this with you and I think there are some important
                             benefits for the US in this plan.</p>
                     </div>
-                    <div n="156" xml:id="d156" type="document">
+                    <div n="156" xml:id="d156" type="document"
+                        frus:doc-dateTime-min="1975-06-24T20:48:00Z"
+                        frus:doc-dateTime-max="1975-06-24T20:48:00Z">
                         <head>156. Telegram 148311 From the Department of State to All Diplomatic
                             and Consular Posts, <date when="1975-06-24T20:48:00+00:00">June 24,
                                 1975, 2048Z</date>.<note n="1" xml:id="d156fn1" type="source"
@@ -29512,7 +29824,9 @@
                             REALITY. <persName corresp="#p_KHA1">KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="157" xml:id="d157" type="document">
+                    <div n="157" xml:id="d157" type="document"
+                        frus:doc-dateTime-min="1975-07-03T18:55:00Z"
+                        frus:doc-dateTime-max="1975-07-03T18:55:00Z">
                         <head>157. Telegram 157672/Tosec 50126 From the Department of State to
                             Secretary of State Kissinger, <date when="1975-07-03T18:55:00+00:00"
                                 >July 3, 1975, 1855Z</date>.<note n="1" xml:id="d157fn1"
@@ -29669,7 +29983,9 @@
                                 corresp="#p_IRS1">INGERSOLL</persName>
                         </p>
                     </div>
-                    <div n="158" xml:id="d158" type="document">
+                    <div n="158" xml:id="d158" type="document"
+                        frus:doc-dateTime-min="1975-07-10T20:16:00Z"
+                        frus:doc-dateTime-max="1975-07-10T20:16:00Z">
                         <head>158. Telegram 162416 From the Department of State to the Mission in
                             Geneva, <date when="1975-07-10T20:16:00+00:00">July 10, 1975,
                                 2016Z</date>.<note n="1" xml:id="d158fn1" type="source">Source:
@@ -29757,7 +30073,9 @@
                             <persName corresp="#p_IRS1">INGERSOLL</persName>
                         </p>
                     </div>
-                    <div n="159" xml:id="d159" type="document">
+                    <div n="159" xml:id="d159" type="document"
+                        frus:doc-dateTime-min="1975-07-18T18:42:00Z"
+                        frus:doc-dateTime-max="1975-07-18T18:42:00Z">
                         <head>159. Telegram 169731 From the Department of State to the Mission in
                             Geneva, <date when="1975-07-18T18:42:00+00:00">July 18, 1975,
                                 1842Z</date>.<note n="1" xml:id="d159fn1" type="source">Source:
@@ -29829,7 +30147,9 @@
                                 >KISSINGER</persName>
                         </p>
                     </div>
-                    <div n="160" xml:id="d160" type="document">
+                    <div n="160" xml:id="d160" type="document"
+                        frus:doc-dateTime-min="1975-10-22T15:57:00Z"
+                        frus:doc-dateTime-max="1975-10-22T15:57:00Z">
                         <head>160. Telegram 5235 From the Mission to the United Nations to the
                             Department of State, <date when="1975-10-22T15:57:00+00:00">October 22,
                                 1975, 1557Z</date>.<note n="1" xml:id="d160fn1" type="source"
@@ -29926,7 +30246,9 @@
                                 corresp="#p_MDP1">MOYNIHAN</persName>
                         </p>
                     </div>
-                    <div n="161" xml:id="d161" type="document">
+                    <div n="161" xml:id="d161" type="document"
+                        frus:doc-dateTime-min="1976-05-02T16:56:00Z"
+                        frus:doc-dateTime-max="1976-05-02T16:56:00Z">
                         <head>161. Telegram 106891 From the Department of State to Certain
                             Diplomatic Posts, <date when="1976-05-02T16:56:00+00:00">May 2, 1976,
                                 1656Z</date>.<note n="1" xml:id="d161fn1" type="source">Source:
@@ -30081,7 +30403,9 @@
                                 <persName corresp="#p_SJJ1">SISCO</persName>
                         </p>
                     </div>
-                    <div n="162" xml:id="d162" type="document">
+                    <div n="162" xml:id="d162" type="document"
+                        frus:doc-dateTime-min="1976-06-05T01:18:00Z"
+                        frus:doc-dateTime-max="1976-06-05T01:18:00Z">
                         <head>162. Telegram 138330 From the Department of State to Certain
                             Diplomatic Posts, <date when="1976-06-05T01:18:00+00:00">June 5, 1976,
                                 0118Z</date>.<note n="1" xml:id="d162fn1" type="source">Source:
@@ -30250,7 +30574,9 @@
                                 >ROBINSON</persName>
                         </p>
                     </div>
-                    <div n="163" xml:id="d163" type="document">
+                    <div n="163" xml:id="d163" type="document"
+                        frus:doc-dateTime-min="1976-06-17T08:44:00Z"
+                        frus:doc-dateTime-max="1976-06-17T08:44:00Z">
                         <head>163. Telegram 9875 From the Embassy in <placeName>Rome</placeName> to
                             the Department of State, <date when="1976-06-17T08:44:00+00:00">June 17,
                                 1976, 0844Z</date>.<note n="1" xml:id="d163fn1" type="source"
@@ -30294,7 +30620,9 @@
                                 >G-77</gloss> DELS SUCCEEDED IN WEAKENING GUINEA AND MEXICAN
                             LEADERSHIP IN GROUP AND FINALLY ISOLATING THEM. VOLPE</p>
                     </div>
-                    <div n="164" xml:id="d164" type="document">
+                    <div n="164" xml:id="d164" type="document"
+                        frus:doc-dateTime-min="1976-09-23T00:00:00Z"
+                        frus:doc-dateTime-max="1976-09-23T23:59:59Z">
                         <head>164. Memorandum NSC–U/N–178 From the Chairman of the National Security
                             Council Under Secretaries Committee (Robinson) to Committee Members,
                                 <placeName>Washington</placeName>, <date when="1976-09-23">September
@@ -30519,7 +30847,9 @@
                 </div>
                 <div xml:id="ch5" type="chapter">
                     <head>Women’s Issues</head>
-                    <div n="165" xml:id="d165" type="document">
+                    <div n="165" xml:id="d165" type="document"
+                        frus:doc-dateTime-min="1973-08-14T00:00:00Z"
+                        frus:doc-dateTime-max="1973-08-14T23:59:59Z">
                         <head>165. Minutes of a United Nations Economic Committee Meeting,
                                 <placeName>Washington</placeName>, <date when="1973-08-14">August
                                 14, 1973</date>.<note n="1" xml:id="d165fn1" type="source">Source:
@@ -30596,7 +30926,9 @@
                             1973 UNEC Meeting Brochure - "The United Nations Declaration on the
                             Elimination of Discrimination against Women"</p>
                     </div>
-                    <div n="166" xml:id="d166" type="document">
+                    <div n="166" xml:id="d166" type="document"
+                        frus:doc-dateTime-min="1973-09-10T00:00:00Z"
+                        frus:doc-dateTime-max="1973-09-10T23:59:59Z">
                         <head>166. Airgram A–7731 From the Department of State to the Mission to the
                             United Nations, <placeName>Washington</placeName>, <date
                                 when="1973-09-10">September 10, 1973</date>.<note n="1"
@@ -31034,7 +31366,9 @@
                         <p>8. The 26th Session of the UN Commission on the Status of Women should be
                             moved forward to 1975 in recognition of and celebration of IWY.</p>
                     </div>
-                    <div n="167" xml:id="d167" type="document">
+                    <div n="167" xml:id="d167" type="document"
+                        frus:doc-dateTime-min="1973-10-18T00:00:00Z"
+                        frus:doc-dateTime-max="1973-10-18T23:59:59Z">
                         <head>167. Letter From the Assistant Secretary of State for Congressional
                             Relations (Wright) to the Chairman of the Senate Foreign Relations
                             Committee (Fulbright), <placeName>Washington</placeName>, <date
@@ -31091,7 +31425,9 @@
                             <persName corresp="#p_WWM1">Marshall Wright </persName>
                             <lb/>Assistant Secretary for Congressional Relations</p>
                     </div>
-                    <div n="168" xml:id="d168" type="document">
+                    <div n="168" xml:id="d168" type="document"
+                        frus:doc-dateTime-min="1973-11-09T00:00:00Z"
+                        frus:doc-dateTime-max="1973-11-09T23:59:59Z">
                         <head>168. Memorandum From Aurelia Brazeal of the Department of State
                             Secretariat Staff to the National Security Council Secretariat,
                                 <placeName>Washington</placeName>, <date when="1973-11-09">November
@@ -31327,7 +31663,9 @@
                             <lb/>Endorsement and Letters from Several Nongovernmental
                             Organizations</p>
                     </div>
-                    <div n="169" xml:id="d169" type="document">
+                    <div n="169" xml:id="d169" type="document"
+                        frus:doc-dateTime-min="1973-11-09T00:00:00Z"
+                        frus:doc-dateTime-max="1973-11-09T23:59:59Z">
                         <head>169. Memorandum From the Coordinator for Multilateral Development
                             Programs (McDonald) to Members of the United Nations Economic Committee,
                                 <placeName>Washington</placeName>, <date when="1973-11-09">November
@@ -31454,7 +31792,9 @@
                             Department and Labor Department in support of the issuance of a
                             Commemorative postal stamp for International Women's Year 1975.</p>
                     </div>
-                    <div n="170" xml:id="d170" type="document">
+                    <div n="170" xml:id="d170" type="document"
+                        frus:doc-dateTime-min="1974-02-04T19:54:00Z"
+                        frus:doc-dateTime-max="1974-02-04T19:54:00Z">
                         <head>170. Telegram 383 From the Mission to the United Nations to the
                             Department of State, <date when="1974-02-04T19:54:00+00:00">February 4,
                                 1974, 1954Z</date>.<note n="1" xml:id="d170fn1" type="source"
@@ -31561,7 +31901,9 @@
                             <persName corresp="#p_SJA1">SCALI</persName>
                         </p>
                     </div>
-                    <div n="171" xml:id="d171" type="document">
+                    <div n="171" xml:id="d171" type="document"
+                        frus:doc-dateTime-min="1974-05-14T00:00:00Z"
+                        frus:doc-dateTime-max="1974-05-14T23:59:59Z">
                         <head>171. Memorandum From the Executive Secretary of the Department of
                             State (Springsteen) to the President’s Counselor in the White House
                             Office for Women’s Programs (<persName corresp="#p_AA5"
@@ -31667,7 +32009,9 @@
                             <persName corresp="#p_SGSJ1">George S. Springsteen </persName>
                             <lb/>Executive Secretary</p>
                     </div>
-                    <div n="172" xml:id="d172" type="document">
+                    <div n="172" xml:id="d172" type="document"
+                        frus:doc-dateTime-min="1974-10-17T04:00:00Z"
+                        frus:doc-dateTime-max="1974-11-06T04:59:59Z">
                         <head>172. Letter From the Assistant Secretary of State for Congressional
                             Relations (Holton) to Senator <persName corresp="#p_PC5"
                                 >Percy</persName>, <placeName>Washington</placeName>,
@@ -31842,7 +32186,9 @@
                             associate delegates and sixteen Advisers of whom three were women.
                             Percentage of women: 13%.</p>
                     </div>
-                    <div n="173" xml:id="d173" type="document">
+                    <div n="173" xml:id="d173" type="document"
+                        frus:doc-dateTime-min="1974-12-13T00:00:00Z"
+                        frus:doc-dateTime-max="1974-12-13T23:59:59Z">
                         <head>173. Memorandum From the Deputy Assistant Secretary of State for
                             International Organization Affairs (<persName corresp="#p_BWB1"
                                 >Buffum</persName>) and the Assistant Secretary of State for Public
@@ -32081,7 +32427,9 @@
                             with interim reply <lb/>Tab C - UN General Assembly resolution on IWY
                             <lb/>Tab D - Presidential Proclamation</p>
                     </div>
-                    <div n="174" xml:id="d174" type="document">
+                    <div n="174" xml:id="d174" type="document"
+                        frus:doc-dateTime-min="1974-12-18T00:00:00Z"
+                        frus:doc-dateTime-max="1974-12-18T23:59:59Z">
                         <head>174. Memorandum From the Deputy Secretary of State (Ingersoll) to
                             President Ford, <placeName>Washington</placeName>, <date
                                 when="1974-12-18">December 18, 1974</date>.<note n="1"
@@ -32152,7 +32500,9 @@
                             National Commission on the Observance of International Women's Year
                             1975.</p>
                     </div>
-                    <div n="175" xml:id="d175" type="document">
+                    <div n="175" xml:id="d175" type="document"
+                        frus:doc-dateTime-min="1975-01-20T00:00:00Z"
+                        frus:doc-dateTime-max="1975-01-20T23:59:59Z">
                         <head>175. Airgram A–384 From the Department of State to the Mission to the
                             United Nations, <placeName>Washington</placeName>, <date
                                 when="1975-01-20">January 20, 1975</date>.<note n="1"
@@ -32324,7 +32674,9 @@
                             IWY committees or encouraged existing Status of Women Commissions at the
                             state or municipal level to plan for the observance of IWY in 1975.</p>
                     </div>
-                    <div n="176" xml:id="d176" type="document">
+                    <div n="176" xml:id="d176" type="document"
+                        frus:doc-dateTime-min="1975-03-19T13:54:00Z"
+                        frus:doc-dateTime-max="1975-03-19T13:54:00Z">
                         <head>176. Telegram 883 From the Mission to the United Nations to the
                             Department of State, <date when="1975-03-19T13:54:00+00:00">March 19,
                                 1975, 1354Z</date>.<note n="1" xml:id="d176fn1" type="source"
@@ -32405,7 +32757,9 @@
                             <persName corresp="#p_SJA1">SCALI</persName>
                         </p>
                     </div>
-                    <div n="177" xml:id="d177" type="document">
+                    <div n="177" xml:id="d177" type="document"
+                        frus:doc-dateTime-min="1975-04-04T21:20:00Z"
+                        frus:doc-dateTime-max="1975-04-04T21:20:00Z">
                         <head>177. Telegram 2939 From the Embassy in Mexico to the Department of
                             State, <date when="1975-04-04T21:20:00+00:00">April 4, 1975,
                                 2120Z</date>.<note n="1" xml:id="d177fn1" type="source">Source:
@@ -32472,7 +32826,9 @@
                             <persName corresp="#p_JJJ1">JOVA</persName>
                         </p>
                     </div>
-                    <div n="178" xml:id="d178" type="document">
+                    <div n="178" xml:id="d178" type="document"
+                        frus:doc-dateTime-min="1975-05-22T18:23:00Z"
+                        frus:doc-dateTime-max="1975-05-22T18:23:00Z">
                         <head>178. Telegram 119806 From the Department of State to All Diplomatic
                             Posts, <date when="1975-05-22T18:23:00+00:00">May 22, 1975,
                                 1823Z</date>.<note n="1" xml:id="d178fn1" type="source">Source:
@@ -32592,7 +32948,9 @@
                                 <persName corresp="#p_IRS1">INGERSOLL</persName>
                         </p>
                     </div>
-                    <div n="179" xml:id="d179" type="document">
+                    <div n="179" xml:id="d179" type="document"
+                        frus:doc-dateTime-min="1975-05-30T23:25:00Z"
+                        frus:doc-dateTime-max="1975-05-30T23:25:00Z">
                         <head>179. Telegram 126689 From the Department of State to the Mission to
                             the United Nations, <date when="1975-05-30T23:25:00+00:00">May 30, 1975,
                                 2325Z</date>.<note n="1" xml:id="d179fn1" type="source">Source:
@@ -32702,7 +33060,9 @@
                                 >INGERSOLL</persName>
                         </p>
                     </div>
-                    <div n="180" xml:id="d180" type="document">
+                    <div n="180" xml:id="d180" type="document"
+                        frus:doc-dateTime-min="1975-06-04T19:40:00Z"
+                        frus:doc-dateTime-max="1975-06-04T19:40:00Z">
                         <head>180. Telegram 4866 From the Embassy in Mexico to the Department of
                             State, <date when="1975-06-04T19:40:00+00:00">June 4, 1975,
                                 1940Z</date>.<note n="1" xml:id="d180fn1" type="source">Source:
@@ -32763,7 +33123,9 @@
                             <persName corresp="#p_JJJ1">JOVA</persName>
                         </p>
                     </div>
-                    <div n="181" xml:id="d181" type="document">
+                    <div n="181" xml:id="d181" type="document"
+                        frus:doc-dateTime-min="1975-06-21T22:45:00Z"
+                        frus:doc-dateTime-max="1975-06-21T22:45:00Z">
                         <head>181. Telegram 5479 From the Embassy in Mexico to the Department of
                             State, <date when="1975-06-21T22:45:00+00:00">June 21, 1975,
                                 2245Z</date>.<note n="1" xml:id="d181fn1" type="source">Source:
@@ -32877,7 +33239,9 @@
                                 corresp="#p_JJJ1">JOVA</persName>
                         </p>
                     </div>
-                    <div n="182" xml:id="d182" type="document">
+                    <div n="182" xml:id="d182" type="document"
+                        frus:doc-dateTime-min="1975-07-02T00:00:00Z"
+                        frus:doc-dateTime-max="1975-08-18T23:59:59Z">
                         <head>182. Conclusions to the Report of the United States Delegation to the
                             World Conference of the International Women’s Year, undated.<note n="1"
                                 xml:id="d182fn1" type="source">Source: Ford Library, Lindh and Holm
@@ -33008,7 +33372,9 @@
                             this pressing world problem. The work of the World Conference supports
                             this conclusion.</p>
                     </div>
-                    <div n="183" xml:id="d183" type="document">
+                    <div n="183" xml:id="d183" type="document"
+                        frus:doc-dateTime-min="1975-07-08T02:25:00Z"
+                        frus:doc-dateTime-max="1975-07-08T02:25:00Z">
                         <head>183. Telegram 3254 From the Mission to the United Nations to the
                             Department of State, <date when="1975-07-08T02:25:00+00:00">July 8,
                                 1975, 0225Z</date>.<note n="1" xml:id="d183fn1" type="source"
@@ -33153,7 +33519,9 @@
                                 <persName corresp="#p_BWTT1">BENNETT</persName> UNQUOTE.
                             <lb/>BENNETT</p>
                     </div>
-                    <div n="184" xml:id="d184" type="document">
+                    <div n="184" xml:id="d184" type="document"
+                        frus:doc-dateTime-min="1975-07-18T00:00:00Z"
+                        frus:doc-dateTime-max="1975-07-18T23:59:59Z">
                         <head>184. Report on the World Conference of the International Women’s Year,
                                 <date when="1975-07-18">July 18, 1975</date>.<note n="1"
                                 xml:id="d184fn1" type="source">Source: Ford Library, Lindh and Holm
@@ -33338,7 +33706,9 @@
                             National Commission on Observance of International Women's Year.
                             <lb/>7/18/75</p>
                     </div>
-                    <div n="185" xml:id="d185" type="document">
+                    <div n="185" xml:id="d185" type="document"
+                        frus:doc-dateTime-min="1975-07-24T00:00:00Z"
+                        frus:doc-dateTime-max="1975-07-24T23:59:59Z">
                         <head>185. Letter From the Director of the United States Center for the
                             International Women’s Year (<persName corresp="#p_BRE3"
                             >Bacon</persName>) to Secretary of State Kissinger,
@@ -34085,7 +34455,9 @@
                             in the original]. The delegation does not need to be given additional
                             handicaps by its own government.</p>
                     </div>
-                    <div n="186" xml:id="d186" type="document">
+                    <div n="186" xml:id="d186" type="document"
+                        frus:doc-dateTime-min="1975-12-19T23:07:00Z"
+                        frus:doc-dateTime-max="1975-12-19T23:07:00Z">
                         <head>186. Telegram 6922 From the Mission to the United Nations to the
                             Department of State, <date when="1975-12-19T23:07:00+00:00">December 19,
                                 1975, 2307Z</date>.<note n="1" xml:id="d186fn1" type="source"
@@ -34270,7 +34642,9 @@
                             <persName corresp="#p_MDP1">MOYNIHAN</persName>
                         </p>
                     </div>
-                    <div n="187" xml:id="d187" type="document">
+                    <div n="187" xml:id="d187" type="document"
+                        frus:doc-dateTime-min="1976-01-20T00:00:00Z"
+                        frus:doc-dateTime-max="1976-01-20T23:59:59Z">
                         <head>187. Letter From the Alternate Representative to the United Nations
                             for Special Political Affairs (White) to the Director of the White House
                             Office of Women’s Programs (<persName corresp="#p_KK2"
@@ -34400,7 +34774,9 @@
                             Affairs</p>
                         <p>Enclosures: See attached sheet</p>
                     </div>
-                    <div n="188" xml:id="d188" type="document">
+                    <div n="188" xml:id="d188" type="document"
+                        frus:doc-dateTime-min="1976-06-01T00:00:00Z"
+                        frus:doc-dateTime-max="1976-06-01T23:59:59Z">
                         <head>188. Airgram A–2761 From the Department of State to the Mission to the
                             United Nations, <placeName>Washington</placeName>, <date
                                 when="1976-06-01">June 1, 1976</date>.<note n="1" xml:id="d188fn1"
@@ -34810,7 +35186,9 @@
                             purpose--then the conferences will have made a real contribution to
                             improving the equality of life for all our citizens.</p>
                     </div>
-                    <div n="189" xml:id="d189" type="document">
+                    <div n="189" xml:id="d189" type="document"
+                        frus:doc-dateTime-min="1976-09-10T04:00:00Z"
+                        frus:doc-dateTime-max="1976-09-23T03:59:59Z">
                         <head>189. Background Paper Prepared in the Department of State,
                                 <placeName>Washington</placeName>, <date>undated</date>.<note n="1"
                                 xml:id="d189fn1" type="source">Source: Department of State, <gloss
@@ -35020,7 +35398,9 @@
                             United Nations World Population Conference<lb/>4. The World Population
                             Conference: An Assessment</p>
                     </div>
-                    <div n="190" xml:id="d190" type="document">
+                    <div n="190" xml:id="d190" type="document"
+                        frus:doc-dateTime-min="1976-12-10T19:02:00Z"
+                        frus:doc-dateTime-max="1976-12-10T19:02:00Z">
                         <head>190. Telegram 36715 From the Embassy in France to the Department of
                             State, <date when="1976-12-10T19:02:00+00:00">December 10, 1976,
                                 1902Z</date>.<note n="1" xml:id="d190fn1" type="source">Source:

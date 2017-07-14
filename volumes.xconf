@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <collection xmlns="http://exist-db.org/collection-config/1.0">
-    <index xmlns:tei="http://www.tei-c.org/ns/1.0">
-
+    <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
         <!-- Disable the legacy full text index -->
         <fulltext default="none" attributes="false"/>
 
@@ -19,6 +18,8 @@
             <create match="//tei:div">
                 <field name="div-type" match="@type" type="xs:string"/>
                 <field name="div-id" match="@xml:id" type="xs:string"/>
+                <field name="div-date-min" match="@frus:doc-dateTime-min" type="xs:dateTime"/>
+                <field name="div-date-max" match="@frus:doc-dateTime-max" type="xs:dateTime"/>
             </create>
             <create qname="@target" type="xs:string"/>
             <create qname="@corresp" type="xs:string"/>
