@@ -1043,6 +1043,18 @@
                                     </valItem>
                                 </valList>
                             </attDef>
+                            <attDef ident="doc-dateTime-min" ns="http://history.state.gov/frus/ns/1.0" usage="opt" mode="add">
+                                <desc>A UTC-normalized form of the lower bound of the document's date (machine-derived from the dateline)</desc>
+                                <datatype>
+                                    <rng:data type="dateTime"/>
+                                </datatype>
+                            </attDef>
+                            <attDef ident="doc-dateTime-max" ns="http://history.state.gov/frus/ns/1.0" usage="opt" mode="add">
+                                <desc>A UTC-normalized form of the upper bound of the document's date (machine-derived from the dateline)</desc>
+                                <datatype>
+                                    <rng:data type="dateTime"/>
+                                </datatype>
+                            </attDef>
                         </attList>
                     </elementSpec>
 
