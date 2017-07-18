@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1948v01p2">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1948v01p2">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -991,7 +991,8 @@
                         1), VI, and IX.</p>
                     <pb n="508" xml:id="pg_508" facs="0018"/>
                 </div>
-                <div type="document" xml:id="d2" n="2">
+                <div type="document" xml:id="d2" n="2" frus:doc-dateTime-min="1948-01-27T00:00:00Z"
+                    frus:doc-dateTime-max="1948-01-27T23:59:59Z">
                     <opener>
                         <seg rend="inline">Department of State Atomic Energy Files</seg>
                         <note n="2" xml:id="d2fn2" type="source">Lot 57D688, the Department of State
@@ -1064,7 +1065,8 @@
                     </p>
                 </div>
                 <pb n="509" xml:id="pg_509" facs="0019"/>
-                <div type="document" xml:id="d3" n="3">
+                <div type="document" xml:id="d3" n="3" frus:doc-dateTime-min="1948-02-24T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-24T23:59:59Z">
                     <opener>
                         <seg rend="inline">Policy Planning Staff Files</seg>
                         <note n="1" xml:id="d3fn1" type="source">Lot 64D563, files of the Policy
@@ -1133,7 +1135,8 @@
                     </closer>
                 </div>
                 <pb n="510" xml:id="pg_510" facs="0020"/>
-                <div type="document" xml:id="d4" n="4">
+                <div type="document" xml:id="d4" n="4" frus:doc-dateTime-min="1948-02-24T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-24T23:59:59Z">
                     <opener>
                         <seg rendition="#center">[Annex]</seg>
                     </opener>
@@ -2057,7 +2060,8 @@
                         foresight on our part.</p>
                 </div>
                 <pb n="530" xml:id="pg_530" facs="0040"/>
-                <div type="document" xml:id="d5" n="5">
+                <div type="document" xml:id="d5" n="5" frus:doc-dateTime-min="1948-03-12T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-12T23:59:59Z">
                     <note rend="inline" type="source">Policy Planning Staff Files</note>
                     <head>
                         <hi rend="italic">Memorandum by the Acting Director of the Policy Planning
@@ -2128,7 +2132,8 @@
                     </closer>
                 </div>
                 <pb n="531" xml:id="pg_531" facs="0041"/>
-                <div type="document" xml:id="d6" n="6">
+                <div type="document" xml:id="d6" n="6" frus:doc-dateTime-min="1948-03-14T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-14T23:59:59Z">
                     <note rend="inline" type="source">711.90/3–1448</note>
                     <head>
                         <hi rend="italic">The Director of the Policy Planning Staff</hi> (<persName
@@ -2683,7 +2688,8 @@
                             Universal Military Training</hi>, March–April, 1948, 80th Cong., 2nd
                         sess., page 3.</p>
                 </div>
-                <div type="document" xml:id="d8" n="8">
+                <div type="document" xml:id="d8" n="8" frus:doc-dateTime-min="1948-03-23T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-23T23:59:59Z">
                     <note rend="inline" type="source">711.61/3–2348</note>
                     <head>
                         <hi rend="italic">Memorandum by the <gloss type="from">Secretary of
@@ -2763,7 +2769,8 @@
                     </closer>
                 </div>
                 <pb n="543" xml:id="pg_543" facs="0053"/>
-                <div type="document" xml:id="d9" n="9">
+                <div type="document" xml:id="d9" n="9" frus:doc-dateTime-min="1948-03-26T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-26T23:59:59Z">
                     <note rend="inline" type="source">501.BD–Human Rights/3–2448</note>
                     <head>
                         <hi rend="italic">Memorandum by the Director of the Office of United Nations
@@ -2837,7 +2844,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="544" xml:id="pg_544" facs="0054"/>
-                <div type="document" xml:id="d10" n="10">
+                <div type="document" xml:id="d10" n="10"
+                    frus:doc-dateTime-min="1948-03-24T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-24T23:59:59Z">
                     <opener>
                         <seg rendition="#center">[Subannex]</seg>
                     </opener>
@@ -2883,7 +2892,9 @@
                         liberate effort for what is creative.</p>
                 </div>
                 <pb n="545" xml:id="pg_545" facs="0055"/>
-                <div type="document" xml:id="d11" n="11">
+                <div type="document" xml:id="d11" n="11"
+                    frus:doc-dateTime-min="1948-03-30T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-30T23:59:59Z">
                     <opener>
                         <seg>
                             <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
@@ -2965,7 +2976,9 @@
                     </closer>
                 </div>
                 <pb n="546" xml:id="pg_546" facs="0056"/>
-                <div type="document" xml:id="d12" n="12">
+                <div type="document" xml:id="d12" n="12"
+                    frus:doc-dateTime-min="1948-03-30T05:00:00Z"
+                    frus:doc-dateTime-max="1948-04-02T04:59:59Z">
                     <opener>
                         <seg rendition="#center">[Enclosure]</seg>
                     </opener>
@@ -3200,7 +3213,9 @@
                     </p>
                     <p>13. Effectuation of the above policies requires bi-partisan support.</p>
                 </div>
-                <div type="document" xml:id="d13" n="13">
+                <div type="document" xml:id="d13" n="13"
+                    frus:doc-dateTime-min="1948-04-01T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-01T23:59:59Z">
                     <note rend="inline" type="source">761.00/4–148</note>
                     <opener>
                         <seg rendition="#center">[Extract]</seg>
@@ -3260,7 +3275,9 @@
                     </closer>
                 </div>
                 <pb n="551" xml:id="pg_551" facs="0061"/>
-                <div type="document" xml:id="d14" n="14">
+                <div type="document" xml:id="d14" n="14"
+                    frus:doc-dateTime-min="1948-04-01T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-01T23:59:59Z">
                     <opener>
                         <seg rendition="#center">[Enclosure—Extracts]</seg>
                     </opener>
@@ -3564,7 +3581,9 @@
                         States was preponderant in military strength and potential and that war
                         would eventually result in peril to the Communist regime.</p>
                 </div>
-                <div type="document" xml:id="d15" n="15">
+                <div type="document" xml:id="d15" n="15"
+                    frus:doc-dateTime-min="1948-04-07T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-07T23:59:59Z">
                     <note rend="inline" type="source">Policy Planning Staff Files</note>
                     <head>
                         <hi rend="italic">Memorandum by the Assistant Secretary of State for
@@ -3715,7 +3734,9 @@
                         part in our anti-Communist effort than seems to be implied in this
                         report.</p>
                 </div>
-                <div type="document" xml:id="d16" n="16">
+                <div type="document" xml:id="d16" n="16"
+                    frus:doc-dateTime-min="1948-04-09T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-09T23:59:59Z">
                     <note rend="inline" type="source">Policy Planning Staff Files</note>
                     <head>
                         <hi rend="italic">Memorandum by the Acting Director of the Policy Planning
@@ -3767,7 +3788,9 @@
                         inter-American system; for documentation on that subject, see <ref
                             target="frus1948v09#pg_193">volume IX, pages 193</ref> ff.]</p>
                 </div>
-                <div type="document" xml:id="d17" n="17">
+                <div type="document" xml:id="d17" n="17"
+                    frus:doc-dateTime-min="1948-04-17T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-17T23:59:59Z">
                     <note rend="inline" type="source">Policy Planning Staff Files</note>
                     <head>
                         <hi rend="italic">Memorandum by the Secretary of Defense</hi> (<persName
@@ -3945,7 +3968,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d18" n="18">
+                <div type="document" xml:id="d18" n="18"
+                    frus:doc-dateTime-min="1948-04-19T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-19T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
                         Files: Lot 63D351: <gloss target="#t_NSC1">NSC</gloss> 5 Series</note>
@@ -4149,7 +4174,9 @@
                     </closer>
                 </div>
                 <pb n="568" xml:id="pg_568" facs="0078"/>
-                <div type="document" xml:id="d19" n="19">
+                <div type="document" xml:id="d19" n="19"
+                    frus:doc-dateTime-min="1948-05-10T00:00:00Z"
+                    frus:doc-dateTime-max="1948-05-10T23:59:59Z">
                     <opener>
                         <seg rend="inline">Bureau of Economic Affairs Files</seg>
                         <note n="1" xml:id="d19fn1" type="source">Lot 54D361, containing the
@@ -4512,7 +4539,9 @@
                         </closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d22" n="22">
+                <div type="document" xml:id="d22" n="22"
+                    frus:doc-dateTime-min="1948-06-01T00:00:00Z"
+                    frus:doc-dateTime-max="1948-06-01T23:59:59Z">
                     <note rend="inline" type="source">811.2221/6–148</note>
                     <head>
                         <hi rend="italic">The Secretary of the Army</hi> (<persName type="from"><hi
@@ -4608,7 +4637,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d23" n="23">
+                <div type="document" xml:id="d23" n="23"
+                    frus:doc-dateTime-min="1948-06-15T00:00:00Z"
+                    frus:doc-dateTime-max="1948-06-15T23:59:59Z">
                     <opener>
                         <seg rend="inline">
                             <gloss target="#t_SANACC1">SANACC</gloss> Files</seg>
@@ -4717,7 +4748,9 @@
                     <p rend="center">. . . . . . . . . . . . . .</p>
                 </div>
                 <pb n="577" xml:id="pg_577" facs="0087"/>
-                <div type="document" xml:id="d24" n="24">
+                <div type="document" xml:id="d24" n="24"
+                    frus:doc-dateTime-min="1948-06-18T00:00:00Z"
+                    frus:doc-dateTime-max="1948-06-18T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SANACC1">SANACC</gloss> Files</note>
                     <head>
@@ -4943,7 +4976,9 @@
                             target="#t_NSC1">NSC</gloss> 14/1.</p>
                 </div>
                 <pb n="580" xml:id="pg_580" facs="0090"/>
-                <div type="document" xml:id="d25" n="25">
+                <div type="document" xml:id="d25" n="25"
+                    frus:doc-dateTime-min="1948-06-21T00:00:00Z"
+                    frus:doc-dateTime-max="1948-06-21T23:59:59Z">
                     <opener>
                         <seg rend="inline">Department of State Committee Files: Lot 122</seg>
                         <note n="1" xml:id="d25fn1" type="source">Lot 122, a consolidated lot file
@@ -5142,7 +5177,9 @@
                         permitted to avoid draft liability by volunteering for service of one year
                         with regular forces followed by a reserve obligation.</p>
                 </div>
-                <div type="document" xml:id="d27" n="27">
+                <div type="document" xml:id="d27" n="27"
+                    frus:doc-dateTime-min="1948-06-30T18:00:00Z"
+                    frus:doc-dateTime-max="1948-06-30T18:00:00Z">
                     <note rend="inline" type="source">761.00/6–3048: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the Soviet Union</hi> (<persName
@@ -5224,7 +5261,9 @@
                     </closer>
                 </div>
                 <pb n="585" xml:id="pg_585" facs="0095"/>
-                <div type="document" xml:id="d28" n="28">
+                <div type="document" xml:id="d28" n="28"
+                    frus:doc-dateTime-min="1948-07-01T00:00:00Z"
+                    frus:doc-dateTime-max="1948-07-01T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
                         Files: Lot 63D351: <gloss target="#t_NSC1">NSC</gloss> 14 Series</note>
@@ -5487,7 +5526,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="589" xml:id="pg_589" facs="0099"/>
-                <div type="document" xml:id="d29" n="29">
+                <div type="document" xml:id="d29" n="29"
+                    frus:doc-dateTime-min="1948-07-12T00:00:00Z"
+                    frus:doc-dateTime-max="1948-07-12T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
                         Files: Lot 63D351: <gloss target="#t_NSC1">NSC</gloss> 20 Series</note>
@@ -5746,7 +5787,9 @@
                         </closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d30" n="30">
+                <div type="document" xml:id="d30" n="30"
+                    frus:doc-dateTime-min="1948-07-20T00:00:00Z"
+                    frus:doc-dateTime-max="1948-07-20T23:59:59Z">
                     <note rend="inline" type="source">811.20200(d)/7–2048</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
@@ -5980,7 +6023,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="597" xml:id="pg_597" facs="0107"/>
-                <div type="document" xml:id="d31" n="31">
+                <div type="document" xml:id="d31" n="31"
+                    frus:doc-dateTime-min="1948-07-26T00:00:00Z"
+                    frus:doc-dateTime-max="1948-07-26T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SANACC1">SANACC</gloss> Files</note>
                     <head>
@@ -6158,7 +6203,9 @@
                         </list>
                     </p>
                 </div>
-                <div type="document" xml:id="d32" n="32">
+                <div type="document" xml:id="d32" n="32"
+                    frus:doc-dateTime-min="1948-08-05T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-05T23:59:59Z">
                     <note rend="inline" type="source">811.20/8–548</note>
                     <head>
                         <hi rend="italic">Memorandum by the Director of the Policy Planning
@@ -6303,7 +6350,9 @@
                             after completion of the first two studies.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d33" n="33">
+                <div type="document" xml:id="d33" n="33"
+                    frus:doc-dateTime-min="1948-08-06T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-06T23:59:59Z">
                     <note rend="inline" type="source">800.24/8–648</note>
                     <head>
                         <hi rend="italic">The Secretary of the Army</hi> (<persName type="from"><hi
@@ -6386,7 +6435,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d34" n="34">
+                <div type="document" xml:id="d34" n="34"
+                    frus:doc-dateTime-min="1948-08-07T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-07T23:59:59Z">
                     <note rend="inline" type="source">811.24500/8–748</note>
                     <head>
                         <hi rend="italic">The Secretary of Defense</hi> (<persName type="from"><hi
@@ -6419,7 +6470,9 @@
                     </closer>
                 </div>
                 <pb n="603" xml:id="pg_603" facs="0113"/>
-                <div type="document" xml:id="d35" n="35">
+                <div type="document" xml:id="d35" n="35"
+                    frus:doc-dateTime-min="1948-08-02T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-02T23:59:59Z">
                     <note rend="inline" type="source">Enclosure</note>
                     <head>
                         <hi rend="italic">Memorandum by the Joint Chiefs of Staff</hi>
@@ -6634,7 +6687,9 @@
                         situation.</p>
                 </div>
                 <pb n="605" xml:id="pg_605" facs="0115"/>
-                <div type="document" xml:id="d36" n="36">
+                <div type="document" xml:id="d36" n="36"
+                    frus:doc-dateTime-min="1948-08-12T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-12T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss>–Files: Lot 63D351: <gloss
                             target="#t_NSC1">NSC</gloss> 25 Series</note>
@@ -6792,7 +6847,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="607" xml:id="pg_607" facs="0117"/>
-                <div type="document" xml:id="d37" n="37">
+                <div type="document" xml:id="d37" n="37"
+                    frus:doc-dateTime-min="1948-08-13T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-13T23:59:59Z">
                     <note rend="inline" type="source">811.20200(D)/8–1348</note>
                     <head>
                         <hi rend="italic">Memorandum by Mr. <persName type="from">Charles S.
@@ -6918,7 +6975,9 @@
                         long-range policy will naturally be guided by developments in Soviet-US
                         relations.</p>
                 </div>
-                <div type="document" xml:id="d38" n="38">
+                <div type="document" xml:id="d38" n="38"
+                    frus:doc-dateTime-min="1948-08-18T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-18T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
                         Files: Lot 63D351: <gloss target="#t_NSC1">NSC</gloss> 20 Series</note>
@@ -7059,7 +7118,9 @@
                         </list>
                     </p>
                 </div>
-                <div type="document" xml:id="d39" n="39">
+                <div type="document" xml:id="d39" n="39"
+                    frus:doc-dateTime-min="1948-08-21T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-21T23:59:59Z">
                     <note rend="inline" type="source">501.BB/8–2148: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the Soviet Union</hi> (<persName
@@ -7247,7 +7308,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d40" n="40">
+                <div type="document" xml:id="d40" n="40"
+                    frus:doc-dateTime-min="1948-08-23T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-23T23:59:59Z">
                     <note rend="inline" type="source">800.24/8–648</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -7319,7 +7382,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d41" n="41">
+                <div type="document" xml:id="d41" n="41"
+                    frus:doc-dateTime-min="1948-08-25T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-25T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
                         Files: Lot 63D351: <gloss target="#t_NSC1">NSC</gloss> 20 Series</note>
@@ -7841,7 +7906,9 @@
                             pointed toward a given estimated peak of war danger.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d42" n="42">
+                <div type="document" xml:id="d42" n="42"
+                    frus:doc-dateTime-min="1948-09-10T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-10T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
                         Files: Lot 63D351</note>
@@ -7975,7 +8042,9 @@
                     </closer>
                 </div>
                 <pb n="625" xml:id="pg_625" facs="0135"/>
-                <div type="document" xml:id="d43" n="43">
+                <div type="document" xml:id="d43" n="43"
+                    frus:doc-dateTime-min="1948-09-10T04:00:00Z"
+                    frus:doc-dateTime-max="1948-09-15T03:59:59Z">
                     <opener>
                         <seg rendition="#center">[Enclosure]</seg>
                     </opener>
@@ -8145,7 +8214,9 @@
                     </p>
                 </div>
                 <pb n="629" xml:id="pg_629" facs="0139"/>
-                <div type="document" xml:id="d44" n="44">
+                <div type="document" xml:id="d44" n="44"
+                    frus:doc-dateTime-min="1948-09-14T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-14T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
                         Files: Lot 63D351: <gloss target="#t_NSC1">NSC</gloss> 30 Series</note>
@@ -8214,7 +8285,9 @@
                         </list>
                     </p>
                 </div>
-                <div type="document" xml:id="d45" n="45">
+                <div type="document" xml:id="d45" n="45"
+                    frus:doc-dateTime-min="1948-09-14T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-14T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
                         Files: Lot 63D351: <gloss target="#t_NSC1">NSC</gloss> 30 Series</note>
@@ -8245,7 +8318,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d46" n="46">
+                <div type="document" xml:id="d46" n="46"
+                    frus:doc-dateTime-min="1948-09-15T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-15T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
                         Files: Lot 63D351: <gloss target="#t_NSC1">NSC</gloss> 30 Series</note>
@@ -8304,7 +8379,9 @@
                         fully developed and guide lines—if any are possible—laid out for aid in
                         strategic planning.</p>
                 </div>
-                <div type="document" xml:id="d47" n="47">
+                <div type="document" xml:id="d47" n="47"
+                    frus:doc-dateTime-min="1948-09-17T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-17T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum by the Counselor</hi> (<persName type="from"
@@ -8441,7 +8518,9 @@
                             <ref target="frus1948v01p1#pg_89">Part 1 of this volume, pages 89</ref>
                         ff.</p>
                 </div>
-                <div type="document" xml:id="d49" n="49">
+                <div type="document" xml:id="d49" n="49"
+                    frus:doc-dateTime-min="1948-09-29T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-29T23:59:59Z">
                     <note rend="inline" type="source">800.24/9–2948</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -8594,7 +8673,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d50" n="50">
+                <div type="document" xml:id="d50" n="50"
+                    frus:doc-dateTime-min="1948-10-13T00:00:00Z"
+                    frus:doc-dateTime-max="1948-10-13T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss> Files: Lot 63D351: <gloss
                             target="#t_NSC1">NSC</gloss> 33 Series</note>
@@ -8728,7 +8809,9 @@
                         </closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d51" n="51">
+                <div type="document" xml:id="d51" n="51"
+                    frus:doc-dateTime-min="1948-10-13T00:00:00Z"
+                    frus:doc-dateTime-max="1948-10-13T23:59:59Z">
                     <note rend="inline" type="source">761.00/10–1348: Circular instruction</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -8806,7 +8889,9 @@
                     </closer>
                 </div>
                 <pb n="640" xml:id="pg_640" facs="0150"/>
-                <div type="document" xml:id="d52" n="52">
+                <div type="document" xml:id="d52" n="52"
+                    frus:doc-dateTime-min="1948-10-13T05:00:00Z"
+                    frus:doc-dateTime-max="1948-11-01T04:59:59Z">
                     <opener>
                         <seg rendition="#center">[Enclosure]</seg>
                     </opener>
@@ -9024,7 +9109,9 @@
                         new diplomatic and trade relations, all of which will provide channels of
                         typical Communist infiltration.</p>
                 </div>
-                <div type="document" xml:id="d53" n="53">
+                <div type="document" xml:id="d53" n="53"
+                    frus:doc-dateTime-min="1948-10-31T00:00:00Z"
+                    frus:doc-dateTime-max="1948-10-31T23:59:59Z">
                     <note rend="inline" type="source">811.20/10–3148</note>
                     <head>
                         <hi rend="italic">The Secretary of Defense</hi> (<persName type="from"><hi
@@ -9188,7 +9275,9 @@
                             planned for the current fiscal year.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d54" n="54">
+                <div type="document" xml:id="d54" n="54"
+                    frus:doc-dateTime-min="1948-11-01T00:00:00Z"
+                    frus:doc-dateTime-max="1948-11-01T23:59:59Z">
                     <note rend="inline" type="source">811.20/11–48</note>
                     <head>
                         <hi rend="italic">Memorandum by the <gloss type="from">Acting Secretary of
@@ -9265,7 +9354,9 @@
                         <signed>L[<hi rend="smallcaps">ovett</hi>]</signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d55" n="55">
+                <div type="document" xml:id="d55" n="55"
+                    frus:doc-dateTime-min="1948-11-02T00:00:00Z"
+                    frus:doc-dateTime-max="1948-11-02T23:59:59Z">
                     <note rend="inline" type="source">711.5/11–248</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -9398,7 +9489,9 @@
                     </closer>
                 </div>
                 <pb n="651" xml:id="pg_651" facs="0161"/>
-                <div type="document" xml:id="d56" n="56">
+                <div type="document" xml:id="d56" n="56"
+                    frus:doc-dateTime-min="1948-11-03T00:00:00Z"
+                    frus:doc-dateTime-max="1948-11-03T23:59:59Z">
                     <note rend="inline" type="source">811.20200(D)/11–348</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -9506,7 +9599,9 @@
                         </list>
                     </p>
                 </div>
-                <div type="document" xml:id="d57" n="57">
+                <div type="document" xml:id="d57" n="57"
+                    frus:doc-dateTime-min="1948-11-07T00:00:00Z"
+                    frus:doc-dateTime-max="1948-11-07T23:59:59Z">
                     <note rend="inline" type="source">811.20/11–748</note>
                     <head>
                         <hi rend="italic">Memorandum by the Counselor</hi> (<persName type="from"
@@ -9603,7 +9698,9 @@
                                 >ohlen</hi>]</signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d58" n="58">
+                <div type="document" xml:id="d58" n="58"
+                    frus:doc-dateTime-min="1948-11-08T23:00:00Z"
+                    frus:doc-dateTime-max="1948-11-08T23:00:00Z">
                     <note rend="inline" type="source">711.00/11–848: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State in Paris</gloss>
@@ -9653,7 +9750,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d59" n="59">
+                <div type="document" xml:id="d59" n="59"
+                    frus:doc-dateTime-min="1948-11-08T23:00:00Z"
+                    frus:doc-dateTime-max="1948-11-08T23:00:00Z">
                     <note rend="inline" type="source">711.00/11–848: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State in Paris</gloss>
@@ -9711,7 +9810,9 @@
                     </closer>
                 </div>
                 <pb n="656" xml:id="pg_656" facs="0166"/>
-                <div type="document" xml:id="d60" n="60">
+                <div type="document" xml:id="d60" n="60"
+                    frus:doc-dateTime-min="1948-11-17T00:00:00Z"
+                    frus:doc-dateTime-max="1948-11-17T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
                         Files: Lot 63D351: <gloss target="#t_NSC1">NSC</gloss> 35 Series</note>
@@ -10159,7 +10260,9 @@
                         </closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d61" n="61">
+                <div type="document" xml:id="d61" n="61"
+                    frus:doc-dateTime-min="1948-11-23T00:00:00Z"
+                    frus:doc-dateTime-max="1948-11-23T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss>-SNC Files: Lot 63D351: <gloss
                             target="#t_NSC1">NSC</gloss> 20 Series</note>
@@ -10704,7 +10807,9 @@
                             from the war.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d62" n="62">
+                <div type="document" xml:id="d62" n="62"
+                    frus:doc-dateTime-min="1948-12-01T00:00:00Z"
+                    frus:doc-dateTime-max="1948-12-01T23:59:59Z">
                     <note rend="inline" type="source">811.20/12–148</note>
                     <head>
                         <hi rend="italic">The Secretary of Defense</hi> (<persName type="from"><hi
@@ -10895,7 +11000,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d63" n="63">
+                <div type="document" xml:id="d63" n="63"
+                    frus:doc-dateTime-min="1948-12-06T00:00:00Z"
+                    frus:doc-dateTime-max="1948-12-06T23:59:59Z">
                     <note rend="inline" type="source">811.30/12–648</note>
                     <head>
                         <hi rend="italic">The Secretary of the Navy</hi> (<persName type="from"><hi
@@ -10978,7 +11085,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d64" n="64">
+                <div type="document" xml:id="d64" n="64"
+                    frus:doc-dateTime-min="1948-12-20T00:00:00Z"
+                    frus:doc-dateTime-max="1948-12-20T23:59:59Z">
                     <note rend="inline" type="source">811.30/12–648</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -11054,7 +11163,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d65" n="65">
+                <div type="document" xml:id="d65" n="65"
+                    frus:doc-dateTime-min="1948-12-21T00:00:00Z"
+                    frus:doc-dateTime-max="1948-12-21T23:59:59Z">
                     <note rend="inline" type="source">840.20/12–2148</note>
                     <head>
                         <hi rend="italic">Memorandum by the <gloss type="from">Joint Chiefs of
@@ -11166,7 +11277,9 @@
                             rend="smallcaps">ii</hi> (University Park, Pennsylvania: Pennsylvania
                         State University Press, 1969).</note>
                 </head>
-                <div type="document" xml:id="d66" n="66">
+                <div type="document" xml:id="d66" n="66"
+                    frus:doc-dateTime-min="1948-01-07T00:00:00Z"
+                    frus:doc-dateTime-max="1948-01-07T23:59:59Z">
                     <opener>
                         <seg rend="inline">Department of State Atomic Energy Files</seg>
                         <note n="2" xml:id="d66fn2" type="source">Lot 57D688, the Department of
@@ -11304,7 +11417,9 @@
                             283–284.</note>
                     </p>
                 </div>
-                <div type="document" xml:id="d67" n="67">
+                <div type="document" xml:id="d67" n="67"
+                    frus:doc-dateTime-min="1948-01-06T00:00:00Z"
+                    frus:doc-dateTime-max="1948-01-06T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Minutes of the Meeting of the Combined Policy Committee,
@@ -11880,7 +11995,9 @@
                             of current usability.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d68" n="68">
+                <div type="document" xml:id="d68" n="68"
+                    frus:doc-dateTime-min="1948-01-19T00:00:00Z"
+                    frus:doc-dateTime-max="1948-01-19T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The Belgian Ambassador</hi> (<persName type="from"><hi
@@ -11924,7 +12041,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d69" n="69">
+                <div type="document" xml:id="d69" n="69"
+                    frus:doc-dateTime-min="1948-01-21T00:00:00Z"
+                    frus:doc-dateTime-max="1948-01-21T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Statement by the Under Secretary of State</hi> (<hi
@@ -12072,7 +12191,9 @@
                         of Staff, and of the White House, and is broadly based on the combined
                         judgment of all the executive departments concerned.</p>
                 </div>
-                <div type="document" xml:id="d70" n="70">
+                <div type="document" xml:id="d70" n="70"
+                    frus:doc-dateTime-min="1948-02-07T18:00:00Z"
+                    frus:doc-dateTime-max="1948-02-07T18:00:00Z">
                     <note rend="inline" type="source">655.6131/2–748: Telegram</note>
                     <head>
                         <hi rend="italic">The Chargé in Belgium</hi> (<persName type="from"><hi
@@ -12165,7 +12286,9 @@
                     </closer>
                 </div>
                 <pb n="693" xml:id="pg_693" facs="0203"/>
-                <div type="document" xml:id="d71" n="71">
+                <div type="document" xml:id="d71" n="71"
+                    frus:doc-dateTime-min="1948-03-09T11:00:00Z"
+                    frus:doc-dateTime-max="1948-03-09T11:00:00Z">
                     <note rend="inline" type="source">855A.6359/3–948: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -12284,7 +12407,9 @@
                     </closer>
                 </div>
                 <pb n="695" xml:id="pg_695" facs="0205"/>
-                <div type="document" xml:id="d72" n="72">
+                <div type="document" xml:id="d72" n="72"
+                    frus:doc-dateTime-min="1948-03-09T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-09T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum by Mr. Edmund A. Gullion, Special Assistant to
@@ -12445,7 +12570,9 @@
                         </closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d73" n="73">
+                <div type="document" xml:id="d73" n="73"
+                    frus:doc-dateTime-min="1948-03-09T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-09T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by Mr. <persName type="from"
@@ -12630,7 +12757,9 @@
                         </closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d74" n="74">
+                <div type="document" xml:id="d74" n="74"
+                    frus:doc-dateTime-min="1948-03-19T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-19T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by Mr. <persName type="from"
@@ -12690,7 +12819,9 @@
                         appear to expect comments from us, but merely wanted to put us on
                         notice.</p>
                 </div>
-                <div type="document" xml:id="d75" n="75">
+                <div type="document" xml:id="d75" n="75"
+                    frus:doc-dateTime-min="1948-03-24T11:00:00Z"
+                    frus:doc-dateTime-max="1948-03-24T11:00:00Z">
                     <note rend="inline" type="source">711.329/3–2448: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> of the
@@ -12741,7 +12872,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d76" n="76">
+                <div type="document" xml:id="d76" n="76"
+                    frus:doc-dateTime-min="1948-03-24T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-24T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum by Mr. <persName type="from">Edmund A.
@@ -12834,7 +12967,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d77" n="77">
+                <div type="document" xml:id="d77" n="77"
+                    frus:doc-dateTime-min="1948-04-07T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-07T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum by Mr. <persName type="from">Edmund A.
@@ -12908,7 +13043,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d78" n="78">
+                <div type="document" xml:id="d78" n="78"
+                    frus:doc-dateTime-min="1948-04-13T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-13T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -12992,7 +13129,9 @@
                                 when="1948-04-13">April 13, 1948</date>.</dateline>
                     </closer>
                 </div>
-                <div type="document" xml:id="d79" n="79">
+                <div type="document" xml:id="d79" n="79"
+                    frus:doc-dateTime-min="1948-04-13T14:00:00Z"
+                    frus:doc-dateTime-max="1948-04-13T14:00:00Z">
                     <note rend="inline" type="source">711.329/4–1348: Telegram</note>
                     <head>
                         <hi rend="italic">The Chargé in Brazil</hi> (<persName type="from"><hi
@@ -13053,7 +13192,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d80" n="80">
+                <div type="document" xml:id="d80" n="80"
+                    frus:doc-dateTime-min="1948-05-28T00:00:00Z"
+                    frus:doc-dateTime-max="1948-05-28T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Minutes of the Meeting of the American Members of the
@@ -13246,7 +13387,9 @@
                     </closer>
                 </div>
                 <pb n="711" xml:id="pg_711" facs="0221"/>
-                <div type="document" xml:id="d81" n="81">
+                <div type="document" xml:id="d81" n="81"
+                    frus:doc-dateTime-min="1948-06-16T00:00:00Z"
+                    frus:doc-dateTime-max="1948-06-16T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The Under Secretary of State</hi> (<persName type="from"
@@ -13329,7 +13472,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d82" n="82">
+                <div type="document" xml:id="d82" n="82"
+                    frus:doc-dateTime-min="1948-06-18T00:00:00Z"
+                    frus:doc-dateTime-max="1948-06-18T23:59:59Z">
                     <note rend="inline" type="source">857D.20/6–1848</note>
                     <head>
                         <hi rend="italic">Memorandum by the Director of the Office of European
@@ -13458,7 +13603,9 @@
                         </list>
                     </p>
                 </div>
-                <div type="document" xml:id="d83" n="83">
+                <div type="document" xml:id="d83" n="83"
+                    frus:doc-dateTime-min="1948-06-28T00:00:00Z"
+                    frus:doc-dateTime-max="1948-06-28T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The Under Secretary of State</hi> (<persName type="from"
@@ -13575,7 +13722,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d84" n="84">
+                <div type="document" xml:id="d84" n="84"
+                    frus:doc-dateTime-min="1948-07-02T00:00:00Z"
+                    frus:doc-dateTime-max="1948-07-02T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The Under Secretary of State</hi> (<persName type="from"
@@ -13744,7 +13893,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d85" n="85">
+                <div type="document" xml:id="d85" n="85"
+                    frus:doc-dateTime-min="1948-07-06T00:00:00Z"
+                    frus:doc-dateTime-max="1948-07-06T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Minutes of the Meeting of the American Members of the
@@ -13948,7 +14099,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d86" n="86">
+                <div type="document" xml:id="d86" n="86"
+                    frus:doc-dateTime-min="1948-07-06T00:00:00Z"
+                    frus:doc-dateTime-max="1948-07-06T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Minutes of the Meeting of the Combined Policy Committee at
@@ -14229,7 +14382,9 @@
                             name representatives to participate in these conversations.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d87" n="87">
+                <div type="document" xml:id="d87" n="87"
+                    frus:doc-dateTime-min="1948-07-09T20:00:00Z"
+                    frus:doc-dateTime-max="1948-07-09T20:00:00Z">
                     <note rend="inline" type="source">711.329/7–948: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -14304,7 +14459,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d88" n="88">
+                <div type="document" xml:id="d88" n="88"
+                    frus:doc-dateTime-min="1948-07-15T00:00:00Z"
+                    frus:doc-dateTime-max="1948-07-15T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The Ambassador in Sweden</hi> (<persName type="from"><hi
@@ -14517,7 +14674,9 @@
                             Swedish government can be accomplished by the United States.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d89" n="89">
+                <div type="document" xml:id="d89" n="89"
+                    frus:doc-dateTime-min="1948-07-15T15:00:00Z"
+                    frus:doc-dateTime-max="1948-07-15T15:00:00Z">
                     <note rend="inline" type="source">711.329/7–1548: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Brazil</hi> (<persName type="from"><hi
@@ -14559,7 +14718,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d90" n="90">
+                <div type="document" xml:id="d90" n="90"
+                    frus:doc-dateTime-min="1948-08-09T14:00:00Z"
+                    frus:doc-dateTime-max="1948-08-09T14:00:00Z">
                     <note rend="inline" type="source">711.329/8–948: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -14647,7 +14808,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d91" n="91">
+                <div type="document" xml:id="d91" n="91"
+                    frus:doc-dateTime-min="1948-08-12T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-12T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum of Meeting, by Mr. <persName type="from">Donald
@@ -14832,7 +14995,9 @@
                     </closer>
                 </div>
                 <pb n="738" xml:id="pg_738" facs="0248"/>
-                <div type="document" xml:id="d92" n="92">
+                <div type="document" xml:id="d92" n="92"
+                    frus:doc-dateTime-min="1948-08-12T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-12T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum by the Chairman, of the Research and
@@ -14904,7 +15069,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d93" n="93">
+                <div type="document" xml:id="d93" n="93"
+                    frus:doc-dateTime-min="1948-08-16T12:50:00Z"
+                    frus:doc-dateTime-max="1948-08-16T12:50:00Z">
                     <note rend="inline" type="source">661.009/8–1648: Circular airgram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
@@ -15304,7 +15471,9 @@
                         </closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d94" n="94">
+                <div type="document" xml:id="d94" n="94"
+                    frus:doc-dateTime-min="1948-08-20T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-20T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">British Embassy</gloss> to the
@@ -15367,7 +15536,9 @@
                     </closer>
                 </div>
                 <pb n="746" xml:id="pg_746" facs="0256"/>
-                <div type="document" xml:id="d95" n="95">
+                <div type="document" xml:id="d95" n="95"
+                    frus:doc-dateTime-min="1948-08-20T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-20T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">British Embassy</gloss> to the
@@ -15426,7 +15597,9 @@
                         text of the address was released as a United States Atomic Energy Commission
                         Press Release, August 21.</p>
                 </div>
-                <div type="document" xml:id="d97" n="97">
+                <div type="document" xml:id="d97" n="97"
+                    frus:doc-dateTime-min="1948-08-25T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-25T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by Mr. <persName type="from"
@@ -15512,7 +15685,9 @@
                         learn from them at first hand whether they had found the informal
                         discussions useful.</p>
                 </div>
-                <div type="document" xml:id="d98" n="98">
+                <div type="document" xml:id="d98" n="98"
+                    frus:doc-dateTime-min="1948-08-30T16:00:00Z"
+                    frus:doc-dateTime-max="1948-08-30T16:00:00Z">
                     <note rend="inline" type="source">858.646/8–3048: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -15645,7 +15820,9 @@
                     </closer>
                 </div>
                 <pb n="750" xml:id="pg_750" facs="0260"/>
-                <div type="document" xml:id="d99" n="99">
+                <div type="document" xml:id="d99" n="99"
+                    frus:doc-dateTime-min="1948-09-01T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-01T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The Head of the British Naval Mission in the United
@@ -15787,7 +15964,9 @@
                             the “base surge” from a water burst.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d100" n="100">
+                <div type="document" xml:id="d100" n="100"
+                    frus:doc-dateTime-min="1948-09-10T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-10T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by Mr. <persName type="from"
@@ -15925,7 +16104,9 @@
                     </p>
                 </div>
                 <pb n="755" xml:id="pg_755" facs="0265"/>
-                <div type="document" xml:id="d101" n="101">
+                <div type="document" xml:id="d101" n="101"
+                    frus:doc-dateTime-min="1948-09-16T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-16T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by Mr. <persName type="from"
@@ -16110,7 +16291,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d102" n="102">
+                <div type="document" xml:id="d102" n="102"
+                    frus:doc-dateTime-min="1948-09-17T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-17T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum Prepared in the Office of the Under Secretary
@@ -16524,7 +16707,9 @@
                     </list>
                 </div>
                 <pb n="766" xml:id="pg_766" facs="0276"/>
-                <div type="document" xml:id="d103" n="103">
+                <div type="document" xml:id="d103" n="103"
+                    frus:doc-dateTime-min="1948-09-22T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-22T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum for the File by Mr. <persName type="from">R.
@@ -16583,7 +16768,9 @@
                     </p>
                 </div>
                 <pb n="767" xml:id="pg_767" facs="0277"/>
-                <div type="document" xml:id="d104" n="104">
+                <div type="document" xml:id="d104" n="104"
+                    frus:doc-dateTime-min="1948-09-27T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-27T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum by Mr. <persName type="from">R. Gordon
@@ -16816,7 +17003,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d105" n="105">
+                <div type="document" xml:id="d105" n="105"
+                    frus:doc-dateTime-min="1948-09-30T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-30T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by Mr. <persName type="from"
@@ -17068,7 +17257,9 @@
                         </list>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d106" n="106">
+                <div type="document" xml:id="d106" n="106"
+                    frus:doc-dateTime-min="1948-10-15T21:00:00Z"
+                    frus:doc-dateTime-max="1948-10-15T21:00:00Z">
                     <note rend="inline" type="source">711.329/10–1548: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Brazil</hi> (<persName type="from"><hi
@@ -17128,7 +17319,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d107" n="107">
+                <div type="document" xml:id="d107" n="107"
+                    frus:doc-dateTime-min="1948-10-20T00:00:00Z"
+                    frus:doc-dateTime-max="1948-10-20T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">British Embassy</gloss> to the
@@ -17277,7 +17470,9 @@
                                 when="1948-10-20">20th October, 1948</date>.</dateline>
                     </closer>
                 </div>
-                <div type="document" xml:id="d108" n="108">
+                <div type="document" xml:id="d108" n="108"
+                    frus:doc-dateTime-min="1948-10-21T00:00:00Z"
+                    frus:doc-dateTime-max="1948-10-21T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by Mr. <persName type="from"
@@ -17346,7 +17541,9 @@
                             xml:id="pg_780" facs="0290"/>with the Indians. This question would have
                         to be considered later in the light of ensuing developments.</p>
                 </div>
-                <div type="document" xml:id="d109" n="109">
+                <div type="document" xml:id="d109" n="109"
+                    frus:doc-dateTime-min="1948-10-27T00:00:00Z"
+                    frus:doc-dateTime-max="1948-10-27T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">British Embassy</gloss> to the
@@ -17400,7 +17597,9 @@
                         information may be interest to the United States Government.</p>
                 </div>
                 <pb n="781" xml:id="pg_781" facs="0291"/>
-                <div type="document" xml:id="d110" n="110">
+                <div type="document" xml:id="d110" n="110"
+                    frus:doc-dateTime-min="1948-11-02T00:00:00Z"
+                    frus:doc-dateTime-max="1948-11-02T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum by Mr. <persName type="from">R. Gordon
@@ -17596,7 +17795,9 @@
                     </closer>
                 </div>
                 <pb n="785" xml:id="pg_785" facs="0295"/>
-                <div type="document" xml:id="d111" n="111">
+                <div type="document" xml:id="d111" n="111"
+                    frus:doc-dateTime-min="1948-11-16T00:00:00Z"
+                    frus:doc-dateTime-max="1948-11-16T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by the United Secretary of
@@ -17687,7 +17888,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d112" n="112">
+                <div type="document" xml:id="d112" n="112"
+                    frus:doc-dateTime-min="1948-11-16T00:00:00Z"
+                    frus:doc-dateTime-max="1948-11-16T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">British Embassy</gloss> to the
@@ -17752,7 +17955,9 @@
                                 when="1948-11-16">November 16, 1948</date>.</dateline>
                     </closer>
                 </div>
-                <div type="document" xml:id="d113" n="113">
+                <div type="document" xml:id="d113" n="113"
+                    frus:doc-dateTime-min="1948-11-22T00:00:00Z"
+                    frus:doc-dateTime-max="1948-11-22T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -17790,7 +17995,9 @@
                     </closer>
                 </div>
                 <pb n="788" xml:id="pg_788" facs="0298"/>
-                <div type="document" xml:id="d114" n="114">
+                <div type="document" xml:id="d114" n="114"
+                    frus:doc-dateTime-min="1948-11-24T00:00:00Z"
+                    frus:doc-dateTime-max="1948-11-24T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum by the <gloss type="from">Joint Chiefs of
@@ -17881,7 +18088,9 @@
                             in Chief of the Armed Forces</hi>
                     </closer>
                 </div>
-                <div type="document" xml:id="d115" n="115">
+                <div type="document" xml:id="d115" n="115"
+                    frus:doc-dateTime-min="1948-12-02T00:00:00Z"
+                    frus:doc-dateTime-max="1948-12-02T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">British Embassy</gloss> to the
@@ -17930,7 +18139,9 @@
                                 when="1948-12-02">December 2, 1948</date>.</dateline>
                     </closer>
                 </div>
-                <div type="document" xml:id="d116" n="116">
+                <div type="document" xml:id="d116" n="116"
+                    frus:doc-dateTime-min="1948-12-02T00:00:00Z"
+                    frus:doc-dateTime-max="1948-12-02T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -17980,7 +18191,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d117" n="117">
+                <div type="document" xml:id="d117" n="117"
+                    frus:doc-dateTime-min="1948-12-10T00:00:00Z"
+                    frus:doc-dateTime-max="1948-12-10T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by the Chief of the Division
@@ -18059,7 +18272,9 @@
                     <p>M. Taymans thanked Mr. Achilles for his expression of the above views and
                         promised to convey them to the interested Belgian officials.</p>
                 </div>
-                <div type="document" xml:id="d118" n="118">
+                <div type="document" xml:id="d118" n="118"
+                    frus:doc-dateTime-min="1948-12-21T00:00:00Z"
+                    frus:doc-dateTime-max="1948-12-21T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The British Ambassador</hi> (<persName type="from"><hi
@@ -18136,7 +18351,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d119" n="119">
+                <div type="document" xml:id="d119" n="119"
+                    frus:doc-dateTime-min="1948-12-30T00:00:00Z"
+                    frus:doc-dateTime-max="1948-12-30T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -18265,7 +18482,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d120" n="120">
+                <div type="document" xml:id="d120" n="120"
+                    frus:doc-dateTime-min="1948-12-31T00:00:00Z"
+                    frus:doc-dateTime-max="1948-12-31T23:59:59Z">
                     <note rend="inline" type="source">Department of State Atomic Energy Files</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by Mr. <persName type="from"
@@ -18427,7 +18646,9 @@
                 <head>Delegation of presidential authority to the Secretary of State for the
                     designation of United States delegations and representatives to international
                     conferences and organizations</head>
-                <div type="document" xml:id="d121" n="121">
+                <div type="document" xml:id="d121" n="121"
+                    frus:doc-dateTime-min="1948-02-26T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-26T23:59:59Z">
                     <note rend="inline" type="source">500.001/2–2848</note>
                     <head>
                         <hi rend="italic">Memorandum by the <gloss type="from">Secretary to
@@ -18627,7 +18848,9 @@
                                 rend="smallcaps">i</hi>, pp. 909</ref>–<ref
                             target="frus1947v01#pg_1025">1025</ref>.</note>
                 </head>
-                <div type="document" xml:id="d122" n="122">
+                <div type="document" xml:id="d122" n="122"
+                    frus:doc-dateTime-min="1947-10-20T12:00:00Z"
+                    frus:doc-dateTime-max="1947-10-20T12:00:00Z">
                     <note rend="inline" type="source">560.AL/10–2047: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -18761,7 +18984,9 @@
                     </closer>
                 </div>
                 <pb n="804" xml:id="pg_804" facs="0314"/>
-                <div type="document" xml:id="d123" n="123">
+                <div type="document" xml:id="d123" n="123"
+                    frus:doc-dateTime-min="1947-11-24T20:00:00Z"
+                    frus:doc-dateTime-max="1947-11-24T20:00:00Z">
                     <note rend="inline" type="source">560.AL/11–2447: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -18846,7 +19071,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d124" n="124">
+                <div type="document" xml:id="d124" n="124"
+                    frus:doc-dateTime-min="1947-12-04T19:00:00Z"
+                    frus:doc-dateTime-max="1947-12-04T19:00:00Z">
                     <note rend="inline" type="source">560.AL/12–447: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -18925,7 +19152,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d125" n="125">
+                <div type="document" xml:id="d125" n="125"
+                    frus:doc-dateTime-min="1947-12-06T11:00:00Z"
+                    frus:doc-dateTime-max="1947-12-06T11:00:00Z">
                     <note rend="inline" type="source">560.AL/12–647: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -18978,7 +19207,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d126" n="126">
+                <div type="document" xml:id="d126" n="126"
+                    frus:doc-dateTime-min="1947-12-06T15:00:00Z"
+                    frus:doc-dateTime-max="1947-12-06T15:00:00Z">
                     <note rend="inline" type="source">560.AL/12–447: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -19019,7 +19250,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d127" n="127">
+                <div type="document" xml:id="d127" n="127"
+                    frus:doc-dateTime-min="1947-12-08T18:00:00Z"
+                    frus:doc-dateTime-max="1947-12-08T18:00:00Z">
                     <note rend="inline" type="source">560.AL/12–847: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in France</hi> (<persName type="from"><hi
@@ -19085,7 +19318,9 @@
                     </closer>
                 </div>
                 <pb n="809" xml:id="pg_809" facs="0319"/>
-                <div type="document" xml:id="d128" n="128">
+                <div type="document" xml:id="d128" n="128"
+                    frus:doc-dateTime-min="1947-12-13T00:00:00Z"
+                    frus:doc-dateTime-max="1947-12-13T23:59:59Z">
                     <note rend="inline" type="source">560.AL/12–1347</note>
                     <head>
                         <hi rend="italic">Memorandum by the Public Relations Officer of the U.S.
@@ -19513,7 +19748,9 @@
                         necessitate their rejection.</p>
                 </div>
                 <pb n="817" xml:id="pg_817" facs="0327"/>
-                <div type="document" xml:id="d129" n="129">
+                <div type="document" xml:id="d129" n="129"
+                    frus:doc-dateTime-min="1947-12-19T17:00:00Z"
+                    frus:doc-dateTime-max="1947-12-19T17:00:00Z">
                     <note rend="inline" type="source">560.AL/12–1947: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -19578,7 +19815,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d130" n="130">
+                <div type="document" xml:id="d130" n="130"
+                    frus:doc-dateTime-min="1947-12-30T19:00:00Z"
+                    frus:doc-dateTime-max="1947-12-30T19:00:00Z">
                     <note rend="inline" type="source">560. AL/12–2647: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -19666,7 +19905,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d131" n="131">
+                <div type="document" xml:id="d131" n="131"
+                    frus:doc-dateTime-min="1947-12-30T00:00:00Z"
+                    frus:doc-dateTime-max="1947-12-30T23:59:59Z">
                     <note rend="inline" type="source">560.AL/12–3047</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by Mr. Leonard Weiss of the
@@ -19875,7 +20116,9 @@
                     </p>
                 </div>
                 <pb n="824" xml:id="pg_824" facs="0334"/>
-                <div type="document" xml:id="d132" n="132">
+                <div type="document" xml:id="d132" n="132"
+                    frus:doc-dateTime-min="1947-12-30T00:00:00Z"
+                    frus:doc-dateTime-max="1947-12-30T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files: Lot 57D284, Box
                         106</note>
                     <head>
@@ -19940,7 +20183,9 @@
                     </closer>
                 </div>
                 <pb n="825" xml:id="pg_825" facs="0335"/>
-                <div type="document" xml:id="d133" n="133">
+                <div type="document" xml:id="d133" n="133"
+                    frus:doc-dateTime-min="1947-12-30T00:00:00Z"
+                    frus:doc-dateTime-max="1947-12-30T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files: Lot 57D284, Box
                         104</note>
                     <head>
@@ -20085,7 +20330,9 @@
                         color-blind will see the light.</p>
                 </div>
                 <pb n="827" xml:id="pg_827" facs="0337"/>
-                <div type="document" xml:id="d134" n="134">
+                <div type="document" xml:id="d134" n="134"
+                    frus:doc-dateTime-min="1948-01-01T10:00:00Z"
+                    frus:doc-dateTime-max="1948-01-01T10:00:00Z">
                     <note rend="inline" type="source">560.AL/1–148: Telegram</note>
                     <head>
                         <hi rend="italic">The Chargé in Cuba</hi> (<persName type="from"><hi
@@ -20219,7 +20466,9 @@
                     </closer>
                 </div>
                 <pb n="829" xml:id="pg_829" facs="0339"/>
-                <div type="document" xml:id="d135" n="135">
+                <div type="document" xml:id="d135" n="135"
+                    frus:doc-dateTime-min="1948-01-05T00:00:00Z"
+                    frus:doc-dateTime-max="1948-01-05T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files: Lot 57D284, Box
                         104</note>
                     <head>
@@ -20306,7 +20555,9 @@
                         Charter were acted on by the Congress, and (<hi rend="italic">b</hi>) to
                         promote to the utmost favorable action on the Charter.</p>
                 </div>
-                <div type="document" xml:id="d136" n="136">
+                <div type="document" xml:id="d136" n="136"
+                    frus:doc-dateTime-min="1948-01-14T00:00:00Z"
+                    frus:doc-dateTime-max="1948-01-14T23:59:59Z">
                     <note rend="inline" type="source">560.AL/1548</note>
                     <head>
                         <hi rend="italic">Draft Telegram Prepared by the United States Delegation at
@@ -20509,7 +20760,9 @@
                     </p>
                 </div>
                 <pb n="834" xml:id="pg_834" facs="0344"/>
-                <div type="document" xml:id="d137" n="137">
+                <div type="document" xml:id="d137" n="137"
+                    frus:doc-dateTime-min="1948-01-24T17:00:00Z"
+                    frus:doc-dateTime-max="1948-01-24T17:00:00Z">
                     <note rend="inline" type="source">560.AL/1–2448: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -20600,7 +20853,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d138" n="138">
+                <div type="document" xml:id="d138" n="138"
+                    frus:doc-dateTime-min="1948-01-27T19:00:00Z"
+                    frus:doc-dateTime-max="1948-01-27T19:00:00Z">
                     <note rend="inline" type="source">560.AL/1–2748: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -20741,7 +20996,9 @@
                     </closer>
                 </div>
                 <pb n="837" xml:id="pg_837" facs="0347"/>
-                <div type="document" xml:id="d139" n="139">
+                <div type="document" xml:id="d139" n="139"
+                    frus:doc-dateTime-min="1948-01-28T18:00:00Z"
+                    frus:doc-dateTime-max="1948-01-28T18:00:00Z">
                     <note rend="inline" type="source">560.AL/1–2848: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Uruguay</hi> (<persName type="from"><hi
@@ -20813,7 +21070,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d140" n="140">
+                <div type="document" xml:id="d140" n="140"
+                    frus:doc-dateTime-min="1948-01-28T19:00:00Z"
+                    frus:doc-dateTime-max="1948-01-28T19:00:00Z">
                     <note rend="inline" type="source">560.AL/1–2848: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -20854,7 +21113,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d141" n="141">
+                <div type="document" xml:id="d141" n="141"
+                    frus:doc-dateTime-min="1948-01-30T13:00:00Z"
+                    frus:doc-dateTime-max="1948-01-30T13:00:00Z">
                     <note rend="inline" type="source">560.AL/1–3048: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -20886,7 +21147,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d142" n="142">
+                <div type="document" xml:id="d142" n="142"
+                    frus:doc-dateTime-min="1948-01-30T15:00:00Z"
+                    frus:doc-dateTime-max="1948-01-30T15:00:00Z">
                     <note rend="inline" type="source">560.AL/1–3048: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -20945,7 +21208,9 @@
                     </closer>
                 </div>
                 <pb n="840" xml:id="pg_840" facs="0350"/>
-                <div type="document" xml:id="d143" n="143">
+                <div type="document" xml:id="d143" n="143"
+                    frus:doc-dateTime-min="1948-02-01T20:00:00Z"
+                    frus:doc-dateTime-max="1948-02-01T20:00:00Z">
                     <note rend="inline" type="source">560.AL/2–148: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -21017,7 +21282,9 @@
                     </closer>
                 </div>
                 <pb n="841" xml:id="pg_841" facs="0351"/>
-                <div type="document" xml:id="d144" n="144">
+                <div type="document" xml:id="d144" n="144"
+                    frus:doc-dateTime-min="1948-02-03T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-03T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files: Lot 57D284, Box
                         106</note>
                     <head>
@@ -21195,7 +21462,9 @@
                         the easiest concession to justify in Congress because this memorandum is not
                         public.</p>
                 </div>
-                <div type="document" xml:id="d145" n="145">
+                <div type="document" xml:id="d145" n="145"
+                    frus:doc-dateTime-min="1948-02-04T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-04T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files: Lot 57D284, Box
                         106</note>
                     <head>
@@ -21284,7 +21553,9 @@
                         trade agreement in their interest await the termination of the Havana
                         Conference.</p>
                 </div>
-                <div type="document" xml:id="d146" n="146">
+                <div type="document" xml:id="d146" n="146"
+                    frus:doc-dateTime-min="1948-02-04T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-04T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files: Lot 57D284, Box
                         104</note>
                     <head>
@@ -21375,7 +21646,9 @@
                     </postscript>
                 </div>
                 <pb n="848" xml:id="pg_848" facs="0358"/>
-                <div type="document" xml:id="d147" n="147">
+                <div type="document" xml:id="d147" n="147"
+                    frus:doc-dateTime-min="1948-02-05T19:00:00Z"
+                    frus:doc-dateTime-max="1948-02-05T19:00:00Z">
                     <note rend="inline" type="source">560.AL/2–548: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -21435,7 +21708,9 @@
                     </closer>
                 </div>
                 <pb n="849" xml:id="pg_849" facs="0359"/>
-                <div type="document" xml:id="d148" n="148">
+                <div type="document" xml:id="d148" n="148"
+                    frus:doc-dateTime-min="1948-02-06T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-06T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files: Lot 57D284, Box
                         106</note>
                     <head>
@@ -21528,7 +21803,9 @@
                         </list>
                     </p>
                 </div>
-                <div type="document" xml:id="d149" n="149">
+                <div type="document" xml:id="d149" n="149"
+                    frus:doc-dateTime-min="1948-02-06T19:00:00Z"
+                    frus:doc-dateTime-max="1948-02-06T19:00:00Z">
                     <note rend="inline" type="source">560.AL/2—648: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -21564,7 +21841,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d150" n="150">
+                <div type="document" xml:id="d150" n="150"
+                    frus:doc-dateTime-min="1948-02-07T16:00:00Z"
+                    frus:doc-dateTime-max="1948-02-07T16:00:00Z">
                     <note rend="inline" type="source">560.AL/2–748: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -21636,7 +21915,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d151" n="151">
+                <div type="document" xml:id="d151" n="151"
+                    frus:doc-dateTime-min="1948-02-10T18:00:00Z"
+                    frus:doc-dateTime-max="1948-02-10T18:00:00Z">
                     <note rend="inline" type="source">560.AL/2–1048: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -21699,7 +21980,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d152" n="152">
+                <div type="document" xml:id="d152" n="152"
+                    frus:doc-dateTime-min="1948-02-11T19:00:00Z"
+                    frus:doc-dateTime-max="1948-02-11T19:00:00Z">
                     <note rend="inline" type="source">560.AL/2–1148: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in France</hi> (<persName type="from"><hi
@@ -21798,7 +22081,9 @@
                     </closer>
                 </div>
                 <pb n="855" xml:id="pg_855" facs="0365"/>
-                <div type="document" xml:id="d153" n="153">
+                <div type="document" xml:id="d153" n="153"
+                    frus:doc-dateTime-min="1948-02-11T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-11T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files: Lot 57D284, Box
                         105</note>
                     <head>
@@ -22027,7 +22312,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="859" xml:id="pg_859" facs="0369"/>
-                <div type="document" xml:id="d154" n="154">
+                <div type="document" xml:id="d154" n="154"
+                    frus:doc-dateTime-min="1948-02-12T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-12T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files: Lot 57D284, Box
                         104</note>
                     <head>
@@ -22080,7 +22367,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d155" n="155">
+                <div type="document" xml:id="d155" n="155"
+                    frus:doc-dateTime-min="1948-02-15T11:00:00Z"
+                    frus:doc-dateTime-max="1948-02-15T11:00:00Z">
                     <note rend="inline" type="source">560.AL/2–1548: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -22138,7 +22427,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d156" n="156">
+                <div type="document" xml:id="d156" n="156"
+                    frus:doc-dateTime-min="1948-02-15T21:00:00Z"
+                    frus:doc-dateTime-max="1948-02-15T21:00:00Z">
                     <note rend="inline" type="source">560.AL/2–1548: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -22188,7 +22479,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d157" n="157">
+                <div type="document" xml:id="d157" n="157"
+                    frus:doc-dateTime-min="1948-02-17T17:00:00Z"
+                    frus:doc-dateTime-max="1948-02-17T17:00:00Z">
                     <note rend="inline" type="source">560.AL/2–1548: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -22221,7 +22514,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d158" n="158">
+                <div type="document" xml:id="d158" n="158"
+                    frus:doc-dateTime-min="1948-02-17T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-17T23:59:59Z">
                     <note rend="inline" type="source">Lot 65 A 987, Box 104</note>
                     <head>
                         <hi rend="italic">Memorandum by the Acting Director, Office of International
@@ -22316,7 +22611,9 @@
                             we respectively administer.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d159" n="159">
+                <div type="document" xml:id="d159" n="159"
+                    frus:doc-dateTime-min="1948-02-18T17:00:00Z"
+                    frus:doc-dateTime-max="1948-02-18T17:00:00Z">
                     <note rend="inline" type="source">560.AL/2–1848: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -22368,7 +22665,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d160" n="160">
+                <div type="document" xml:id="d160" n="160"
+                    frus:doc-dateTime-min="1948-02-20T20:00:00Z"
+                    frus:doc-dateTime-max="1948-02-20T20:00:00Z">
                     <note rend="inline" type="source">560.AL/2–2048: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
@@ -22416,7 +22715,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d161" n="161">
+                <div type="document" xml:id="d161" n="161"
+                    frus:doc-dateTime-min="1948-02-20T23:00:00Z"
+                    frus:doc-dateTime-max="1948-02-20T23:00:00Z">
                     <note rend="inline" type="source">740.00119 Council/2–2048: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
@@ -22488,7 +22789,9 @@
                     </closer>
                 </div>
                 <pb n="866" xml:id="pg_866" facs="0376"/>
-                <div type="document" xml:id="d162" n="162">
+                <div type="document" xml:id="d162" n="162"
+                    frus:doc-dateTime-min="1948-02-21T13:00:00Z"
+                    frus:doc-dateTime-max="1948-02-21T13:00:00Z">
                     <note rend="inline" type="source">740.00119 Council/2–2048</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -22575,7 +22878,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d163" n="163">
+                <div type="document" xml:id="d163" n="163"
+                    frus:doc-dateTime-min="1948-02-23T18:00:00Z"
+                    frus:doc-dateTime-max="1948-02-23T18:00:00Z">
                     <note rend="inline" type="source">560.AL/2–2348: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -22628,7 +22933,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d164" n="164">
+                <div type="document" xml:id="d164" n="164"
+                    frus:doc-dateTime-min="1948-02-24T21:00:00Z"
+                    frus:doc-dateTime-max="1948-02-24T21:00:00Z">
                     <note rend="inline" type="source">560.AL/2–2448: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
@@ -22709,7 +23016,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d165" n="165">
+                <div type="document" xml:id="d165" n="165"
+                    frus:doc-dateTime-min="1948-02-25T20:00:00Z"
+                    frus:doc-dateTime-max="1948-02-25T20:00:00Z">
                     <note rend="inline" type="source">560.AL/2–2548: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
@@ -22899,7 +23208,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d166" n="166">
+                <div type="document" xml:id="d166" n="166"
+                    frus:doc-dateTime-min="1948-02-25T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-25T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files: Lot 57D284, Box
                         104</note>
                     <head>
@@ -22994,7 +23305,9 @@
                     <p>[Here follows material related to personnel on the delegation and to Wilcox’s
                         proposed activities, after returning to the United States.]</p>
                 </div>
-                <div type="document" xml:id="d167" n="167">
+                <div type="document" xml:id="d167" n="167"
+                    frus:doc-dateTime-min="1948-02-26T16:00:00Z"
+                    frus:doc-dateTime-max="1948-02-26T16:00:00Z">
                     <note rend="inline" type="source">560.AL/2–2648: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -23039,7 +23352,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d168" n="168">
+                <div type="document" xml:id="d168" n="168"
+                    frus:doc-dateTime-min="1948-02-27T14:00:00Z"
+                    frus:doc-dateTime-max="1948-02-27T14:00:00Z">
                     <note rend="inline" type="source">560.AL/2–2748: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -23247,7 +23562,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d169" n="169">
+                <div type="document" xml:id="d169" n="169"
+                    frus:doc-dateTime-min="1948-02-27T19:00:00Z"
+                    frus:doc-dateTime-max="1948-02-27T19:00:00Z">
                     <note rend="inline" type="source">560.AL/2–2748: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -23292,7 +23609,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d170" n="170">
+                <div type="document" xml:id="d170" n="170"
+                    frus:doc-dateTime-min="1948-02-28T12:00:00Z"
+                    frus:doc-dateTime-max="1948-02-28T12:00:00Z">
                     <note rend="inline" type="source">560.AL/2–2748: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -23327,7 +23646,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d171" n="171">
+                <div type="document" xml:id="d171" n="171"
+                    frus:doc-dateTime-min="1948-02-28T15:40:00Z"
+                    frus:doc-dateTime-max="1948-02-28T15:40:00Z">
                     <note rend="inline" type="source">560.AL/2–2848: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -23366,7 +23687,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d172" n="172">
+                <div type="document" xml:id="d172" n="172"
+                    frus:doc-dateTime-min="1948-03-02T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-02T00:00:00Z">
                     <note rend="inline" type="source">560.AL/3—248: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
@@ -23423,7 +23746,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d173" n="173">
+                <div type="document" xml:id="d173" n="173"
+                    frus:doc-dateTime-min="1948-03-03T13:00:00Z"
+                    frus:doc-dateTime-max="1948-03-03T13:00:00Z">
                     <note rend="inline" type="source">560.AL/3–348: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
@@ -23498,7 +23823,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d174" n="174">
+                <div type="document" xml:id="d174" n="174"
+                    frus:doc-dateTime-min="1948-03-03T18:00:00Z"
+                    frus:doc-dateTime-max="1948-03-03T18:00:00Z">
                     <note rend="inline" type="source">560.AL/3–348: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -23596,7 +23923,9 @@
                     </closer>
                 </div>
                 <pb n="884" xml:id="pg_884" facs="0394"/>
-                <div type="document" xml:id="d175" n="175">
+                <div type="document" xml:id="d175" n="175"
+                    frus:doc-dateTime-min="1948-03-04T13:00:00Z"
+                    frus:doc-dateTime-max="1948-03-04T13:00:00Z">
                     <note rend="inline" type="source">560.AL/3–448: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
@@ -23677,7 +24006,9 @@
                     </closer>
                 </div>
                 <pb n="885" xml:id="pg_885" facs="0395"/>
-                <div type="document" xml:id="d176" n="176">
+                <div type="document" xml:id="d176" n="176"
+                    frus:doc-dateTime-min="1948-03-04T21:00:00Z"
+                    frus:doc-dateTime-max="1948-03-04T21:00:00Z">
                     <note rend="inline" type="source">560.AL/3–448: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -23733,7 +24064,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d177" n="177">
+                <div type="document" xml:id="d177" n="177"
+                    frus:doc-dateTime-min="1948-03-04T23:00:00Z"
+                    frus:doc-dateTime-max="1948-03-04T23:00:00Z">
                     <note rend="inline" type="source">560.AL/3–448: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -23820,7 +24153,9 @@
                     </closer>
                 </div>
                 <pb n="887" xml:id="pg_887" facs="0397"/>
-                <div type="document" xml:id="d178" n="178">
+                <div type="document" xml:id="d178" n="178"
+                    frus:doc-dateTime-min="1948-03-05T19:00:00Z"
+                    frus:doc-dateTime-max="1948-03-05T19:00:00Z">
                     <note rend="inline" type="source">560.AL/3–548: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
@@ -23876,7 +24211,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d179" n="179">
+                <div type="document" xml:id="d179" n="179"
+                    frus:doc-dateTime-min="1948-03-11T20:00:00Z"
+                    frus:doc-dateTime-max="1948-03-11T20:00:00Z">
                     <note rend="inline" type="source">560.AL/3–1148: Telegram</note>
                     <head>
                         <hi rend="italic">The Chargé in the United Kingdom</hi> (<persName
@@ -23950,7 +24287,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d180" n="180">
+                <div type="document" xml:id="d180" n="180"
+                    frus:doc-dateTime-min="1948-03-11T23:00:00Z"
+                    frus:doc-dateTime-max="1948-03-11T23:00:00Z">
                     <note rend="inline" type="source">560.AL/3–1148: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Cuba</hi> (<persName type="from"><hi
@@ -24080,7 +24419,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d181" n="181">
+                <div type="document" xml:id="d181" n="181"
+                    frus:doc-dateTime-min="1948-03-12T12:00:00Z"
+                    frus:doc-dateTime-max="1948-03-12T12:00:00Z">
                     <note rend="inline" type="source">560.AL/3–1248: Telegram</note>
                     <head>
                         <hi rend="italic">The Chargé in the United Kingdom</hi> (<persName
@@ -24122,7 +24463,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d182" n="182">
+                <div type="document" xml:id="d182" n="182"
+                    frus:doc-dateTime-min="1948-03-12T22:00:00Z"
+                    frus:doc-dateTime-max="1948-03-12T22:00:00Z">
                     <note rend="inline" type="source">560.AL/3–1248: Telegram</note>
                     <head>
                         <hi rend="italic">The Chargé in the United Kingdom</hi> (<persName
@@ -24190,7 +24533,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d183" n="183">
+                <div type="document" xml:id="d183" n="183"
+                    frus:doc-dateTime-min="1948-03-12T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-12T23:59:59Z">
                     <note rend="inline" type="source">560.AL/3–1248</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by Mr. Leonard Weiss of the
@@ -24388,7 +24733,9 @@
                             xml:id="pg_896" facs="0406"/>aspects of the conference of particular
                         interest to the United States.</p>
                 </div>
-                <div type="document" xml:id="d185" n="185">
+                <div type="document" xml:id="d185" n="185"
+                    frus:doc-dateTime-min="1948-03-24T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-24T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files, Lot 57D284, Box
                         105</note>
                     <head>
@@ -24744,7 +25091,9 @@
                         Parties to the General Agreement on Tariffs and Trade as they assembled and
                         held the brief First Session at Habana.</p>
                 </div>
-                <div type="document" xml:id="d187" n="187">
+                <div type="document" xml:id="d187" n="187"
+                    frus:doc-dateTime-min="1948-03-24T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-24T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files, Lot 57D284, Box
                         108</note>
                     <head>
@@ -24800,7 +25149,9 @@
                         this year.</p>
                 </div>
                 <pb n="903" xml:id="pg_903" facs="0413"/>
-                <div type="document" xml:id="d188" n="188">
+                <div type="document" xml:id="d188" n="188"
+                    frus:doc-dateTime-min="1948-02-11T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-11T23:59:59Z">
                     <opener>
                         <seg rend="inline">International Trade Files, Lot 57D284, Box 108</seg>
                         <note n="1" xml:id="d188fn1">Folder “First Session <gloss target="#t_GATT1"
@@ -24887,7 +25238,9 @@
                     </p>
                 </div>
                 <pb n="904" xml:id="pg_904" facs="0414"/>
-                <div type="document" xml:id="d189" n="189">
+                <div type="document" xml:id="d189" n="189"
+                    frus:doc-dateTime-min="1948-02-21T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-21T23:59:59Z">
                     <opener>
                         <seg rend="inline">International Trade Files, Lot 57D284, Box 108</seg>
                         <note n="1" xml:id="d189fn1" type="source">Folder “H—General Agreement on
@@ -24950,7 +25303,9 @@
                         Havana are immaterial in this connection and it would not appear to make any
                         difference to us whether or not those Articles are superceded.</p>
                 </div>
-                <div type="document" xml:id="d190" n="190">
+                <div type="document" xml:id="d190" n="190"
+                    frus:doc-dateTime-min="1948-03-24T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-24T23:59:59Z">
                     <opener>
                         <seg rend="inline">International Trade Files, Lot 57D284, Box 108</seg>
                         <note n="1" xml:id="d190fn1" type="source">Folder “Documents—<gloss
@@ -25243,7 +25598,9 @@
                         the Protocol into effect.]</p>
                 </div>
                 <pb n="910" xml:id="pg_910" facs="0420"/>
-                <div type="document" xml:id="d191" n="191">
+                <div type="document" xml:id="d191" n="191"
+                    frus:doc-dateTime-min="1948-03-26T18:00:00Z"
+                    frus:doc-dateTime-max="1948-03-26T18:00:00Z">
                     <note rend="inline" type="source">560.AL/3–2648: Circular telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
@@ -25371,7 +25728,9 @@
                     </closer>
                 </div>
                 <pb n="912" xml:id="pg_912" facs="0422"/>
-                <div type="document" xml:id="d192" n="192">
+                <div type="document" xml:id="d192" n="192"
+                    frus:doc-dateTime-min="1948-04-02T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-02T23:59:59Z">
                     <note rend="inline" type="source">560.AL/2–2448</note>
                     <head>
                         <hi rend="italic">Mr. <persName type="from">William L. Clayton</persName> to
@@ -25475,7 +25834,9 @@
                     </closer>
                 </div>
                 <pb n="914" xml:id="pg_914" facs="0424"/>
-                <div type="document" xml:id="d193" n="193">
+                <div type="document" xml:id="d193" n="193"
+                    frus:doc-dateTime-min="1948-04-12T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-12T23:59:59Z">
                     <note rend="inline" type="source">560.AL/4–1248</note>
                     <head>
                         <hi rend="italic">Memorandum by Mr. <persName type="from">Harold C.
@@ -25512,7 +25873,9 @@
                             of the Senate.</note> in an effort to see what is the best course to
                         follow.</p>
                 </div>
-                <div type="document" xml:id="d194" n="194">
+                <div type="document" xml:id="d194" n="194"
+                    frus:doc-dateTime-min="1948-04-15T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-15T23:59:59Z">
                     <note rend="inline" type="source">560.AL/4–1548</note>
                     <head>
                         <hi rend="italic">Memorandum by the Assistant Legal Adviser for Economic
@@ -25592,7 +25955,9 @@
                     </closer>
                 </div>
                 <pb n="916" xml:id="pg_916" facs="0426"/>
-                <div type="document" xml:id="d195" n="195">
+                <div type="document" xml:id="d195" n="195"
+                    frus:doc-dateTime-min="1948-04-16T16:00:00Z"
+                    frus:doc-dateTime-max="1948-04-16T16:00:00Z">
                     <note rend="inline" type="source">560.AL/4–1648: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -25709,7 +26074,9 @@
                     </closer>
                 </div>
                 <pb n="918" xml:id="pg_918" facs="0428"/>
-                <div type="document" xml:id="d196" n="196">
+                <div type="document" xml:id="d196" n="196"
+                    frus:doc-dateTime-min="1948-04-20T01:00:00Z"
+                    frus:doc-dateTime-max="1948-04-20T01:00:00Z">
                     <note rend="inline" type="source">560.AL/4–2048: Circular telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -25774,7 +26141,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d197" n="197">
+                <div type="document" xml:id="d197" n="197"
+                    frus:doc-dateTime-min="1948-06-24T21:35:00Z"
+                    frus:doc-dateTime-max="1948-06-24T21:35:00Z">
                     <note rend="inline" type="source">560.AL/6–2348: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -26011,7 +26380,9 @@
                         >ICITO</gloss>).</p>
                 </div>
                 <pb n="923" xml:id="pg_923" facs="0433"/>
-                <div type="document" xml:id="d199" n="199">
+                <div type="document" xml:id="d199" n="199"
+                    frus:doc-dateTime-min="1948-08-11T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-11T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files, Lot 57D284, Box
                         108</note>
                     <head>
@@ -26126,7 +26497,9 @@
                         the <gloss target="#t_ICITO1">ICITO</gloss> and the <gloss
                             target="#t_ICITO1">ICITO</gloss> Secretariat.]</p>
                 </div>
-                <div type="document" xml:id="d200" n="200">
+                <div type="document" xml:id="d200" n="200"
+                    frus:doc-dateTime-min="1948-07-08T08:00:00Z"
+                    frus:doc-dateTime-max="1948-07-08T08:00:00Z">
                     <note rend="inline" type="source">560.AL/7–848: Circular telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
@@ -26276,7 +26649,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d201" n="201">
+                <div type="document" xml:id="d201" n="201"
+                    frus:doc-dateTime-min="1948-07-28T19:00:00Z"
+                    frus:doc-dateTime-max="1948-07-28T19:00:00Z">
                     <note rend="inline" type="source">560.AL/7–2848: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -26384,7 +26759,9 @@
                     </closer>
                 </div>
                 <pb n="928" xml:id="pg_928" facs="0438"/>
-                <div type="document" xml:id="d202" n="202">
+                <div type="document" xml:id="d202" n="202"
+                    frus:doc-dateTime-min="1948-07-28T00:00:00Z"
+                    frus:doc-dateTime-max="1948-07-28T23:59:59Z">
                     <note rend="inline" type="source">560.AL/7–2848</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by the Chief of the Division
@@ -26598,7 +26975,9 @@
                             attached.<note n="4" xml:id="d202fn4">Not printed.</note>
                     </p>
                 </div>
-                <div type="document" xml:id="d203" n="203">
+                <div type="document" xml:id="d203" n="203"
+                    frus:doc-dateTime-min="1948-08-13T18:00:00Z"
+                    frus:doc-dateTime-max="1948-08-13T18:00:00Z">
                     <note rend="inline" type="source">560.AL/8–1348: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
@@ -26661,7 +27040,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d204" n="204">
+                <div type="document" xml:id="d204" n="204"
+                    frus:doc-dateTime-min="1948-08-14T14:00:00Z"
+                    frus:doc-dateTime-max="1948-08-14T14:00:00Z">
                     <note rend="inline" type="source">560.AL/8–1448: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
@@ -26702,7 +27083,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d205" n="205">
+                <div type="document" xml:id="d205" n="205"
+                    frus:doc-dateTime-min="1948-08-16T18:00:00Z"
+                    frus:doc-dateTime-max="1948-08-16T18:00:00Z">
                     <note rend="inline" type="source">560.AL/8–1648: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -26801,7 +27184,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d206" n="206">
+                <div type="document" xml:id="d206" n="206"
+                    frus:doc-dateTime-min="1948-08-23T19:00:00Z"
+                    frus:doc-dateTime-max="1948-08-23T19:00:00Z">
                     <note rend="inline" type="source">560.AL/8–2348: Telegram</note>
                     <head>
                         <hi rend="italic">The Officer in Charge at Geneva</hi> (<persName
@@ -26841,7 +27226,9 @@
                     </closer>
                 </div>
                 <pb n="935" xml:id="pg_935" facs="0445"/>
-                <div type="document" xml:id="d207" n="207">
+                <div type="document" xml:id="d207" n="207"
+                    frus:doc-dateTime-min="1948-09-03T11:00:00Z"
+                    frus:doc-dateTime-max="1948-09-03T11:00:00Z">
                     <note rend="inline" type="source">560.AL/9–348: Circular telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
@@ -26876,7 +27263,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d208" n="208">
+                <div type="document" xml:id="d208" n="208"
+                    frus:doc-dateTime-min="1948-09-04T16:00:00Z"
+                    frus:doc-dateTime-max="1948-09-04T16:00:00Z">
                     <note rend="inline" type="source">560.AL/9–448: Telegram</note>
                     <head>
                         <hi rend="italic">The Officer in Charge at Geneva</hi> (<persName
@@ -26913,7 +27302,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d209" n="209">
+                <div type="document" xml:id="d209" n="209"
+                    frus:doc-dateTime-min="1948-09-08T16:00:00Z"
+                    frus:doc-dateTime-max="1948-09-08T16:00:00Z">
                     <note rend="inline" type="source">560.AL/9–848: Telegram</note>
                     <head>
                         <hi rend="italic">The Officer in Charge at Geneva</hi> (<persName
@@ -26992,7 +27383,9 @@
                         >infra</hi>.</p>
                 </div>
                 <pb n="937" xml:id="pg_937" facs="0447"/>
-                <div type="document" xml:id="d211" n="211">
+                <div type="document" xml:id="d211" n="211"
+                    frus:doc-dateTime-min="1948-09-14T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-14T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files, Lot 57D284, Box
                         108</note>
                     <head>
@@ -27089,7 +27482,9 @@
                         effect would be appreciated.”</p>
                 </div>
                 <pb n="939" xml:id="pg_939" facs="0449"/>
-                <div type="document" xml:id="d212" n="212">
+                <div type="document" xml:id="d212" n="212"
+                    frus:doc-dateTime-min="1948-10-04T00:00:00Z"
+                    frus:doc-dateTime-max="1948-10-04T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files, Lot 57D284, Box
                         108</note>
                     <head>
@@ -27126,7 +27521,9 @@
                         </quote>
                     </p>
                 </div>
-                <div type="document" xml:id="d213" n="213">
+                <div type="document" xml:id="d213" n="213"
+                    frus:doc-dateTime-min="1948-09-22T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-22T23:59:59Z">
                     <note rend="inline" type="source">International Trade Files, Lot 57D284, Box
                         108</note>
                     <head>
@@ -27244,7 +27641,9 @@
                         restrictions on the importation of these products will be discussed between
                         the Cuban Government and the United States Embassy at Havana.</p>
                 </div>
-                <div type="document" xml:id="d214" n="214">
+                <div type="document" xml:id="d214" n="214"
+                    frus:doc-dateTime-min="1948-09-17T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-17T23:59:59Z">
                     <note rend="inline" type="source">560.AL/9–1748</note>
                     <head>
                         <hi rend="italic">The Acting Chairman of the Interdepartmental Committee on
@@ -27481,7 +27880,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d215" n="215">
+                <div type="document" xml:id="d215" n="215"
+                    frus:doc-dateTime-min="1948-09-22T19:00:00Z"
+                    frus:doc-dateTime-max="1948-09-22T19:00:00Z">
                     <note rend="inline" type="source">560.AL/9–2048: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -27537,7 +27938,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d216" n="216">
+                <div type="document" xml:id="d216" n="216"
+                    frus:doc-dateTime-min="1948-10-28T00:00:00Z"
+                    frus:doc-dateTime-max="1948-10-28T23:59:59Z">
                     <note rend="inline" type="source">560.AL/10–2848</note>
                     <head>
                         <hi rend="italic">Memorandum by the Chief of the Division of Commercial
@@ -27623,7 +28026,9 @@
                         although the negotiations may possibly go into July (fiscal 1950).</p>
                 </div>
                 <pb n="947" xml:id="pg_947" facs="0457"/>
-                <div type="document" xml:id="d217" n="217">
+                <div type="document" xml:id="d217" n="217"
+                    frus:doc-dateTime-min="1948-12-02T00:00:00Z"
+                    frus:doc-dateTime-max="1948-12-02T23:59:59Z">
                     <note rend="inline" type="source">560.AL/11–848</note>
                     <head>
                         <hi rend="italic">The Director of the Office of International Trade
@@ -27710,7 +28115,9 @@
                                 >Bulletin</hi>, March 14, 1948, pages 351–352; and <hi rend="italic"
                                 >ibid.</hi>, May 16, 1948, pages 651–652.</p>
                     </div>
-                    <div type="document" xml:id="d219" n="219">
+                    <div type="document" xml:id="d219" n="219"
+                        frus:doc-dateTime-min="1948-05-17T00:00:00Z"
+                        frus:doc-dateTime-max="1948-05-17T23:59:59Z">
                         <opener>
                             <seg rend="inline" type="source">
                                 <hi rend="italic">Current Economic Developments</hi>, Lot
@@ -27808,7 +28215,9 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1946, vol. <hi
                                     rend="smallcaps">i</hi>, pp. 1367</ref> ff.</note>
                     </head>
-                    <div type="document" xml:id="d221" n="221">
+                    <div type="document" xml:id="d221" n="221"
+                        frus:doc-dateTime-min="1948-08-23T00:00:00Z"
+                        frus:doc-dateTime-max="1948-08-23T23:59:59Z">
                         <note rend="inline" type="source">
                             <hi rend="italic">Current Economic Developments</hi>, Lot 70D467</note>
                         <head>
@@ -27854,7 +28263,9 @@
                 <div type="chapter" xml:id="comp5ch3">
                     <head>III. Progress of the program for negotiation of conventions for the
                         avoidance of double taxation</head>
-                    <div type="document" xml:id="d222" n="222">
+                    <div type="document" xml:id="d222" n="222"
+                        frus:doc-dateTime-min="1948-10-25T00:00:00Z"
+                        frus:doc-dateTime-max="1948-10-25T23:59:59Z">
                         <note rend="inline" type="source">
                             <hi rend="italic">Current Economic Developments</hi>, Lot 70D467</note>
                         <head>
@@ -27940,7 +28351,9 @@
                 </div>
                 <div type="chapter" xml:id="comp5ch4">
                     <head>IV. Statement of United States foreign credit and investment policy</head>
-                    <div type="document" xml:id="d223" n="223">
+                    <div type="document" xml:id="d223" n="223"
+                        frus:doc-dateTime-min="1948-08-20T00:00:00Z"
+                        frus:doc-dateTime-max="1948-08-20T23:59:59Z">
                         <note rend="inline" type="source">800.51/8–2348</note>
                         <head>
                             <hi rend="italic">Memorandum by the <gloss type="from">Secretary of
@@ -29009,7 +29422,9 @@
                             <hi rend="italic">Foreign Relations</hi>, 1947, vol. <hi
                                 rend="smallcaps">i</hi>, pp. 1043</ref> ff.</note>
                 </head>
-                <div type="document" xml:id="d225" n="225">
+                <div type="document" xml:id="d225" n="225"
+                    frus:doc-dateTime-min="1948-01-08T00:00:00Z"
+                    frus:doc-dateTime-max="1948-01-08T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/1–848</note>
                     <head>
                         <hi rend="italic">The Secretary of the Interior</hi> (<persName type="from"
@@ -29062,7 +29477,9 @@
                     </closer>
                 </div>
                 <pb n="963" xml:id="pg_963" facs="0473"/>
-                <div type="document" xml:id="d226" n="226">
+                <div type="document" xml:id="d226" n="226"
+                    frus:doc-dateTime-min="1948-02-18T00:00:00Z"
+                    frus:doc-dateTime-max="1948-02-18T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/2–1848</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by the Secretary of State</hi>
@@ -29236,7 +29653,9 @@
                         that in saying this I was speaking entirely as an individual and not as
                         Secretary of State.</p>
                 </div>
-                <div type="document" xml:id="d227" n="227">
+                <div type="document" xml:id="d227" n="227"
+                    frus:doc-dateTime-min="1948-03-04T12:00:00Z"
+                    frus:doc-dateTime-max="1948-03-04T12:00:00Z">
                     <note rend="inline" type="source">800.014 Antarctic/3–448: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -29283,7 +29702,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d228" n="228">
+                <div type="document" xml:id="d228" n="228"
+                    frus:doc-dateTime-min="1948-03-10T19:00:00Z"
+                    frus:doc-dateTime-max="1948-03-10T19:00:00Z">
                     <note rend="inline" type="source">710.J/3–1048: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Argentina</hi> (<persName type="from"
@@ -29345,7 +29766,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d229" n="229">
+                <div type="document" xml:id="d229" n="229"
+                    frus:doc-dateTime-min="1948-03-17T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-17T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/3–848</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -29392,7 +29815,9 @@
                     </closer>
                 </div>
                 <pb n="968" xml:id="pg_968" facs="0478"/>
-                <div type="document" xml:id="d230" n="230">
+                <div type="document" xml:id="d230" n="230"
+                    frus:doc-dateTime-min="1948-03-17T20:00:00Z"
+                    frus:doc-dateTime-max="1948-03-17T20:00:00Z">
                     <note rend="inline" type="source">710.J/3–1048: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -29451,7 +29876,9 @@
                     </closer>
                 </div>
                 <pb n="969" xml:id="pg_969" facs="0479"/>
-                <div type="document" xml:id="d231" n="231">
+                <div type="document" xml:id="d231" n="231"
+                    frus:doc-dateTime-min="1948-03-25T19:00:00Z"
+                    frus:doc-dateTime-max="1948-03-25T19:00:00Z">
                     <note rend="inline" type="source">800.014 Antarctic/3–2548: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -29512,7 +29939,9 @@
                     </closer>
                 </div>
                 <pb n="970" xml:id="pg_970" facs="0480"/>
-                <div type="document" xml:id="d232" n="232">
+                <div type="document" xml:id="d232" n="232"
+                    frus:doc-dateTime-min="1948-03-26T00:00:00Z"
+                    frus:doc-dateTime-max="1948-03-26T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/3–2648</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by the Deputy Director, Office
@@ -29597,7 +30026,9 @@
                         concrete to indicate the possibility of the British disposition to enter
                         into such discussions.</p>
                 </div>
-                <div type="document" xml:id="d233" n="233">
+                <div type="document" xml:id="d233" n="233"
+                    frus:doc-dateTime-min="1948-04-12T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-12T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/4–1248</note>
                     <head>
                         <hi rend="italic">The Secretary of Defense</hi> (<persName type="from"><hi
@@ -29755,7 +30186,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d234" n="234">
+                <div type="document" xml:id="d234" n="234"
+                    frus:doc-dateTime-min="1948-04-13T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-13T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/3–2448</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -29803,7 +30236,9 @@
                     </closer>
                 </div>
                 <pb n="975" xml:id="pg_975" facs="0485"/>
-                <div type="document" xml:id="d235" n="235">
+                <div type="document" xml:id="d235" n="235"
+                    frus:doc-dateTime-min="1948-04-15T18:00:00Z"
+                    frus:doc-dateTime-max="1948-04-15T18:00:00Z">
                     <note rend="inline" type="source">800.014 Antarctic/4–1548: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Chile</hi> (<persName type="from"><hi
@@ -29854,7 +30289,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d236" n="236">
+                <div type="document" xml:id="d236" n="236"
+                    frus:doc-dateTime-min="1948-04-22T00:00:00Z"
+                    frus:doc-dateTime-max="1948-04-22T23:59:59Z">
                     <note rend="inline" type="source">Policy Planning Staff Files: Lot 64 D
                         563</note>
                     <head>
@@ -29960,7 +30397,9 @@
                         June 9, see <hi rend="italic">infra.</hi>
                     </p>
                 </div>
-                <div type="document" xml:id="d238" n="238">
+                <div type="document" xml:id="d238" n="238"
+                    frus:doc-dateTime-min="1948-06-09T00:00:00Z"
+                    frus:doc-dateTime-max="1948-06-09T23:59:59Z">
                     <note rend="inline" type="source">Policy Planning Staff Files: Lot 64 D
                         563</note>
                     <head>
@@ -30501,7 +30940,9 @@
                         process and as between those countries and the United Nations upon approval
                         by the General Assembly of the United Nations.</p>
                 </div>
-                <div type="document" xml:id="d240" n="240">
+                <div type="document" xml:id="d240" n="240"
+                    frus:doc-dateTime-min="1948-06-25T00:00:00Z"
+                    frus:doc-dateTime-max="1948-06-25T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/6–2548</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Department of State</gloss> to the
@@ -30577,7 +31018,9 @@
                     </closer>
                 </div>
                 <pb n="989" xml:id="pg_989" facs="0499"/>
-                <div type="document" xml:id="d241" n="241">
+                <div type="document" xml:id="d241" n="241"
+                    frus:doc-dateTime-min="1948-06-26T14:00:00Z"
+                    frus:doc-dateTime-max="1948-06-26T14:00:00Z">
                     <note rend="inline" type="source">800.014 Antarctic/6–2648: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -30634,7 +31077,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d242" n="242">
+                <div type="document" xml:id="d242" n="242"
+                    frus:doc-dateTime-min="1948-07-01T00:00:00Z"
+                    frus:doc-dateTime-max="1948-07-01T23:59:59Z">
                     <note rend="inline" type="source">
                         <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1">NSC</gloss>
                         Files: Lot 63 D 351: <gloss target="#t_NSC1">NSC</gloss> 21 Series</note>
@@ -30809,7 +31254,9 @@
                         the Department’s <hi rend="italic">aide-mémoire</hi> of August 9 to the
                         Australian Embassy, <ref target="#pg_996">page 996</ref>.</p>
                 </div>
-                <div type="document" xml:id="d244" n="244">
+                <div type="document" xml:id="d244" n="244"
+                    frus:doc-dateTime-min="1948-07-09T19:00:00Z"
+                    frus:doc-dateTime-max="1948-07-09T19:00:00Z">
                     <note rend="inline" type="source">800.014 Antarctic/7–948: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
@@ -30865,7 +31312,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d245" n="245">
+                <div type="document" xml:id="d245" n="245"
+                    frus:doc-dateTime-min="1948-07-09T00:00:00Z"
+                    frus:doc-dateTime-max="1948-07-09T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/7–148</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Secretary of State</gloss> to the
@@ -30943,7 +31392,9 @@
                         from Buenos Aires not printed (800.014 Antarctic/7–2148).</p>
                 </div>
                 <pb n="995" xml:id="pg_995" facs="0505"/>
-                <div type="document" xml:id="d247" n="247">
+                <div type="document" xml:id="d247" n="247"
+                    frus:doc-dateTime-min="1948-07-19T16:00:00Z"
+                    frus:doc-dateTime-max="1948-07-19T16:00:00Z">
                     <note rend="inline" type="source">800.014 Antarctic/7–1948: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Chile</hi> (<persName type="from"><hi
@@ -30990,7 +31441,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d248" n="248">
+                <div type="document" xml:id="d248" n="248"
+                    frus:doc-dateTime-min="1948-07-21T17:00:00Z"
+                    frus:doc-dateTime-max="1948-07-21T17:00:00Z">
                     <note rend="inline" type="source">800.014 Ant arctic/7–2148: Telegram</note>
                     <head>
                         <hi rend="italic">The Chargé in Argentina</hi> (<persName type="from"><hi
@@ -31259,7 +31712,9 @@
                             shall have become parties thereto by due constitutional process.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d250" n="250">
+                <div type="document" xml:id="d250" n="250"
+                    frus:doc-dateTime-min="1948-08-13T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-13T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/7–148</note>
                     <head>
                         <hi rend="italic">The Under Secretary of State</hi> (<persName type="from"
@@ -31366,7 +31821,9 @@
                     </p>
                 </div>
                 <pb n="1002" xml:id="pg_1002" facs="0512"/>
-                <div type="document" xml:id="d252" n="252">
+                <div type="document" xml:id="d252" n="252"
+                    frus:doc-dateTime-min="1948-08-16T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-16T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/8–1648</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by the Under Secretary of
@@ -31424,7 +31881,9 @@
                     </closer>
                 </div>
                 <pb n="1003" xml:id="pg_1003" facs="0513"/>
-                <div type="document" xml:id="d253" n="253">
+                <div type="document" xml:id="d253" n="253"
+                    frus:doc-dateTime-min="1948-08-17T00:00:00Z"
+                    frus:doc-dateTime-max="1948-08-17T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/8–1748</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by the Secretary of State</hi>
@@ -31505,7 +31964,9 @@
                         because statements regarding the Antarctica discussions had already been
                         issued by British Foreign Office and the Chilean Foreign Ministry.</p>
                 </div>
-                <div type="document" xml:id="d255" n="255">
+                <div type="document" xml:id="d255" n="255"
+                    frus:doc-dateTime-min="1948-09-03T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-03T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/9–348</note>
                     <head>
                         <hi rend="italic">The Secretary of Defense</hi> (<persName type="from"><hi
@@ -31549,7 +32010,9 @@
                     </closer>
                 </div>
                 <pb n="1005" xml:id="pg_1005" facs="0515"/>
-                <div type="document" xml:id="d256" n="256">
+                <div type="document" xml:id="d256" n="256"
+                    frus:doc-dateTime-min="1948-09-07T17:00:00Z"
+                    frus:doc-dateTime-max="1948-09-07T17:00:00Z">
                     <note rend="inline" type="source">800.014 Antarctic/9–748: Telegram</note>
                     <head>
                         <hi rend="italic">The Minister in New Zealand</hi> (<persName type="from"
@@ -31590,7 +32053,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d257" n="257">
+                <div type="document" xml:id="d257" n="257"
+                    frus:doc-dateTime-min="1948-09-28T00:00:00Z"
+                    frus:doc-dateTime-max="1948-09-28T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/9–2048</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Department of State</gloss> to the
@@ -31679,7 +32144,9 @@
                                 when="1948-09-28">September 28, 1948</date>.</dateline>
                     </closer>
                 </div>
-                <div type="document" xml:id="d258" n="258">
+                <div type="document" xml:id="d258" n="258"
+                    frus:doc-dateTime-min="1948-10-01T00:00:00Z"
+                    frus:doc-dateTime-max="1948-10-01T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/10–148</note>
                     <head>
                         <hi rend="italic">Memorandum of Conversation, by the Chief, Division of
@@ -31814,7 +32281,9 @@
                             <hi rend="smallcaps">Washington</hi>, 1 October 1948.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d259" n="259">
+                <div type="document" xml:id="d259" n="259"
+                    frus:doc-dateTime-min="1948-10-08T17:00:00Z"
+                    frus:doc-dateTime-max="1948-10-08T17:00:00Z">
                     <note rend="inline" type="source">800.014 Antarctic/10–848: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Chile</hi> (<persName type="from"><hi
@@ -31893,7 +32362,9 @@
                         (800.014 Antarctic/12–3148).</p>
                 </div>
                 <pb n="1011" xml:id="pg_1011" facs="0521"/>
-                <div type="document" xml:id="d261" n="261">
+                <div type="document" xml:id="d261" n="261"
+                    frus:doc-dateTime-min="1948-11-01T10:00:00Z"
+                    frus:doc-dateTime-max="1948-11-01T10:00:00Z">
                     <note rend="inline" type="source">800.014 Antarctic/11–148: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Argentina</hi> (<persName type="from"
@@ -31936,7 +32407,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d262" n="262">
+                <div type="document" xml:id="d262" n="262"
+                    frus:doc-dateTime-min="1948-11-15T00:00:00Z"
+                    frus:doc-dateTime-max="1948-11-15T23:59:59Z">
                     <note rend="inline" type="source">800.014 Antarctic/11–1548</note>
                     <head>
                         <hi rend="italic">The Norwegian Ambassador</hi> (<persName type="from"><hi
@@ -32027,7 +32500,9 @@
                                 when="1948-11-15">November 15, 1948</date>.</dateline>
                     </closer>
                 </div>
-                <div type="document" xml:id="d263" n="263">
+                <div type="document" xml:id="d263" n="263"
+                    frus:doc-dateTime-min="1948-11-24T20:00:00Z"
+                    frus:doc-dateTime-max="1948-11-24T20:00:00Z">
                     <note rend="inline" type="source">800.014 Antarctic/11–2448: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
@@ -32122,7 +32597,9 @@
                         the proposals of the United States for the internationalization of
                         Antarctica (800.014 Antarctic/11–3048).</p>
                 </div>
-                <div type="document" xml:id="d265" n="265">
+                <div type="document" xml:id="d265" n="265"
+                    frus:doc-dateTime-min="1948-12-01T19:00:00Z"
+                    frus:doc-dateTime-max="1948-12-01T19:00:00Z">
                     <note rend="inline" type="source">800.014 Antarctic/11–1948: Telegram</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">Acting Secretary of State</gloss>
@@ -32185,7 +32662,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d266" n="266">
+                <div type="document" xml:id="d266" n="266"
+                    frus:doc-dateTime-min="1948-12-02T19:00:00Z"
+                    frus:doc-dateTime-max="1948-12-02T19:00:00Z">
                     <note rend="inline" type="source">800.014 Antarctic/12–248: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
