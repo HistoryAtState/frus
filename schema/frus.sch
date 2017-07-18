@@ -265,17 +265,23 @@
             <assert test=".//tei:date">Datelines must contain a date element</assert>
         </rule>
         <rule context="tei:date[ancestor::tei:dateline]">
+            <assert role="warn" test="@*">Dates should have @when (for supplied single dates), @from/@to (for supplied date ranges), or @notBefore/@notAfter (for inferred date ranges)</assert>
             <assert test="normalize-space(.) ne ''">Dateline date cannot be empty.</assert>
             <assert test="
                 (@from and @to) 
                 or 
                 (not(@from) and not(@to))
-                ">Dateline date @from must have a matching @to.</assert>
+                ">Dateline date @from must have a corresponding @to.</assert>
             <assert test="
                 (@notBefore and @notAfter) 
                 or 
                 (not(@notBefore) and not(@notAfter))
-                ">Dateline date @notBefore must have a matching @notAfter.</assert>
+                ">Dateline date @notBefore must have a corresponding @notAfter.</assert>
+            <assert test="
+                (@notBefore and @notAfter and @ana) 
+                or 
+                (not(@notBefore) and not(@notAfter))
+                ">Missing expected @ana explaining the analysis used to determine @notBefore and @notAfter.</assert>
             <assert test="
                 every $date in @when
                 satisfies
@@ -315,8 +321,8 @@
             <let name="date-max" value="subsequence(.//tei:dateline//tei:date[@to or @notAfter or @when], 1, 1)/(@to, @notAfter, @when)[. ne ''][1]/string()"/>
             <let name="timezone" value="xs:dayTimeDuration('PT0H')"/>
             <assert test="@frus:doc-dateTime-min and @frus:doc-dateTime-max" sqf:fix="add-doc-dateTime-attributes">Missing @frus:doc-dateTime-min and @frus:doc-dateTime-max.</assert>
-            <assert test="frus:normalize-low($date-min, $timezone) eq @frus:doc-dateTime-min" sqf:fix="fix-doc-dateTime-min-attribute">Value of @frus:doc-dateTime-min <value-of select="@frus:doc-dateTime-min"/> does not match normalized value of dateline <value-of select="frus:normalize-low($date-min, $timezone)"/>.</assert>
-            <assert test="frus:normalize-high($date-max, $timezone) eq @frus:doc-dateTime-max" sqf:fix="fix-doc-dateTime-max-attribute">Value of @frus:doc-dateTime-max <value-of select="@frus:doc-dateTime-max"/> does not match normalized value of dateline <value-of select="frus:normalize-high($date-max, $timezone)"/>.</assert>
+            <assert test="if (@frus:doc-dateTime-min) then frus:normalize-low($date-min, $timezone) eq @frus:doc-dateTime-min else true()" sqf:fix="fix-doc-dateTime-min-attribute">Value of @frus:doc-dateTime-min <value-of select="@frus:doc-dateTime-min"/> does not match normalized value of dateline <value-of select="frus:normalize-low($date-min, $timezone)"/>.</assert>
+            <assert test="if (@frus:doc-dateTime-max) then frus:normalize-high($date-max, $timezone) eq @frus:doc-dateTime-max else true()" sqf:fix="fix-doc-dateTime-max-attribute">Value of @frus:doc-dateTime-max <value-of select="@frus:doc-dateTime-max"/> does not match normalized value of dateline <value-of select="frus:normalize-high($date-max, $timezone)"/>.</assert>
             <sqf:fix id="add-doc-dateTime-attributes" role="add">
                 <sqf:description>
                     <sqf:title>Add missing @frus:doc-dateTime-min and @frus:doc-dateTime-max attributes</sqf:title>
