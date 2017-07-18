@@ -277,11 +277,11 @@
                 or 
                 (not(@notBefore) and not(@notAfter))
                 ">Dateline date @notBefore must have a corresponding @notAfter.</assert>
-            <assert test="
+            <assert role="warn" test="
                 (@notBefore and @notAfter and @ana) 
                 or 
                 (not(@notBefore) and not(@notAfter))
-                ">Missing expected @ana explaining the analysis used to determine @notBefore and @notAfter.</assert>
+                ">Missing @ana explaining the analysis used to determine @notBefore and @notAfter.</assert>
             <assert test="
                 every $date in @when
                 satisfies
