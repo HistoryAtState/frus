@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt3" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ckbk="http://www.oreilly.com/XSLTCookbook" xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
+<schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt3" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ckbk="http://www.oreilly.com/XSLTCookbook" xmlns:sqf="http://www.schematron-quickfix.com/validator/process" xmlns:functx="http://www.functx.com">
     <title>FRUS TEI Rules</title>
     
     <p>FRUS TEI Rules Schematron file ($Id: frus.sch 4528 2016-02-22 21:33:23Z joewiz $)</p>
@@ -309,6 +308,37 @@
         </rule>
     </pattern>
     
+    <pattern id="document-date-metadata-checks">
+        <title>Document Date Metadata Checks</title>
+        <rule context="tei:div[@type eq 'document'][.//tei:dateline//tei:date/@*]">
+            <let name="date-min" value="subsequence(.//tei:dateline//tei:date[@*], 1, 1)/(@from | @notBefore | @when)[1]/string()"/>
+            <let name="date-max" value="subsequence(.//tei:dateline//tei:date[@*], 1, 1)/(@to | @notAfter | @when)[1]/string()"/>
+            <let name="timezone" value="xs:dayTimeDuration('PT0H')"/>
+            <assert test="@frus:doc-dateTime-min and @frus:doc-dateTime-max" sqf:fix="add-doc-dateTime-attributes">Missing @frus:doc-dateTime-min and @frus:doc-dateTime-max.</assert>
+            <assert test="frus:normalize-low($date-min, $timezone) eq @frus:doc-dateTime-min" sqf:fix="fix-doc-dateTime-min-attribute">Value of @frus:doc-dateTime-min <value-of select="@frus:doc-dateTime-min"/> does not match normalized value of dateline <value-of select="frus:normalize-low($date-min, $timezone)"/>.</assert>
+            <assert test="frus:normalize-high($date-max, $timezone) eq @frus:doc-dateTime-max" sqf:fix="fix-doc-dateTime-max-attribute">Value of @frus:doc-dateTime-max <value-of select="@frus:doc-dateTime-max"/> does not match normalized value of dateline <value-of select="frus:normalize-high($date-max, $timezone)"/>.</assert>
+            <sqf:fix id="add-doc-dateTime-attributes" role="add">
+                <sqf:description>
+                    <sqf:title>Add missing @frus:doc-dateTime-min and @frus:doc-dateTime-max attributes</sqf:title>
+                </sqf:description>
+                <sqf:add target="frus:doc-dateTime-min" node-type="attribute" select="frus:normalize-low($date-min, $timezone)"/>
+                <sqf:add target="frus:doc-dateTime-max" node-type="attribute" select="frus:normalize-high($date-max, $timezone)"/>
+            </sqf:fix>
+            <sqf:fix id="fix-doc-dateTime-min-attribute" role="replace">
+                <sqf:description>
+                    <sqf:title>Fix @frus:doc-dateTime-min attribute</sqf:title>
+                </sqf:description>
+                <sqf:replace match="@frus:doc-dateTime-min" target="frus:doc-dateTime-min" node-type="attribute" select="frus:normalize-low($date-min, $timezone)"/>
+            </sqf:fix>
+            <sqf:fix id="fix-doc-dateTime-max-attribute" role="replace">
+                <sqf:description>
+                    <sqf:title>Fix @frus:doc-dateTime-max attribute</sqf:title>
+                </sqf:description>
+                <sqf:replace match="@frus:doc-dateTime-max" target="frus:doc-dateTime-max" node-type="attribute" select="frus:normalize-high($date-max, $timezone)"/>
+            </sqf:fix>
+        </rule>
+    </pattern>
+    
     <pattern id="ref-to-page-footnote-check">
         <title>Ref to Page Footnote Check</title>
         <rule context="tei:ref[contains(@target, '#pg_')]">
@@ -422,4 +452,79 @@
         </xsl:choose>
     </xsl:template>
     
+    <!-- Functions to normalize dates -->
+    
+    <xsl:function name="frus:normalize-low">
+        <xsl:param name="date"/>
+        <xsl:param name="timezone"/>
+        <xsl:choose>
+            <xsl:when test="$date castable as xs:dateTime">
+                <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date), $timezone)"/>
+            </xsl:when>
+            <xsl:when test="$date castable as xs:date">
+                <xsl:variable name="adjusted-date" select="adjust-date-to-timezone(xs:date($date), $timezone) cast as xs:string"/>
+                <xsl:value-of select="substring($adjusted-date, 1, 10) || 'T00:00:00' || substring($adjusted-date, 11)"/>
+            </xsl:when>
+            <xsl:when test="matches($date, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$')">
+                <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date || ':00'), $timezone)"/>
+            </xsl:when>
+            <xsl:when test="matches($date, '^\d{4}-\d{2}$')">
+                <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date || '-01T00:00:00'), $timezone)"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date || '-01-01T00:00:00'), $timezone)"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    
+    <xsl:function name="frus:normalize-high">
+        <xsl:param name="date"/>
+        <xsl:param name="timezone"/>
+        <xsl:choose>
+            <xsl:when test="$date castable as xs:dateTime">
+                <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date), $timezone)"/>
+            </xsl:when>
+            <xsl:when test="$date castable as xs:date">
+                <xsl:variable name="adjusted-date" select="adjust-date-to-timezone(xs:date($date), $timezone) cast as xs:string"/>
+                <xsl:value-of select="substring($adjusted-date, 1, 10) || 'T23:59:59' || substring($adjusted-date, 11)"/>
+            </xsl:when>
+            <xsl:when test="matches($date, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$')">
+                <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date || ':59'), $timezone)"/>
+            </xsl:when>
+            <xsl:when test="matches($date, '^\d{4}-\d{2}$')">
+                <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime(functx:days-in-month($date || '-01') || 'T23:59:59'), $timezone)"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date || '-12-31T23:59:59'), $timezone)"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    
+    <xsl:function name="functx:days-in-month" as="xs:integer?"
+        xmlns:functx="http://www.functx.com">
+        <xsl:param name="date" as="xs:anyAtomicType?"/>
+        
+        <xsl:sequence select="
+            if (month-from-date(xs:date($date)) = 2 and
+            functx:is-leap-year($date))
+            then 29
+            else
+            (31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
+            [month-from-date(xs:date($date))]
+            "/>
+        
+    </xsl:function>
+    
+    <xsl:function name="functx:is-leap-year" as="xs:boolean"
+        xmlns:functx="http://www.functx.com">
+        <xsl:param name="date" as="xs:anyAtomicType?"/>
+        
+        <xsl:sequence select="
+            for $year in xs:integer(substring(string($date),1,4))
+            return ($year mod 4 = 0 and
+            $year mod 100 != 0) or
+            $year mod 400 = 0
+            "/>
+        
+    </xsl:function>
 </schema>
