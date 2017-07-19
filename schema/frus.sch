@@ -264,7 +264,7 @@
         <rule context="tei:dateline">
             <assert test=".//tei:date">Datelines must contain a date element</assert>
         </rule>
-        <rule context="tei:date[ancestor::tei:dateline]">
+        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)]">
             <assert role="warn" test="@*">Dates should have @when (for supplied single dates), @from/@to (for supplied date ranges), or @notBefore/@notAfter (for inferred date ranges)</assert>
             <assert test="normalize-space(.) ne ''">Dateline date cannot be empty.</assert>
             <assert test="
