@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1944Quebec">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1944Quebec">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -3757,7 +3757,9 @@
                 <pb n="3" xml:id="pg_3" facs="0057"/>
                 <div type="chapter" xml:id="ch1">
                     <head>1. Agenda and Arrangements for the Conference</head>
-                    <div type="document" xml:id="d1" n="1">
+                    <div type="document" xml:id="d1" n="1"
+                        frus:doc-dateTime-min="1944-03-18T00:00:00Z"
+                        frus:doc-dateTime-max="1944-03-18T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -3799,7 +3801,9 @@
                                     n="5" xml:id="d1fn5">Not printed.</note></item>
                         </list>
                     </div>
-                    <div type="document" xml:id="d2" n="2">
+                    <div type="document" xml:id="d2" n="2"
+                        frus:doc-dateTime-min="1944-03-20T00:00:00Z"
+                        frus:doc-dateTime-max="1944-03-20T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -3831,7 +3835,9 @@
                             synchronize with a real Russian break-through.</p>
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d3" n="3">
+                    <div type="document" xml:id="d3" n="3"
+                        frus:doc-dateTime-min="1944-03-21T00:00:00Z"
+                        frus:doc-dateTime-max="1944-03-21T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -3861,7 +3867,9 @@
                                 recovered.</item>
                         </list>
                     </div>
-                    <div type="document" xml:id="d4" n="4">
+                    <div type="document" xml:id="d4" n="4"
+                        frus:doc-dateTime-min="1944-03-22T00:00:00Z"
+                        frus:doc-dateTime-max="1944-03-22T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -3883,7 +3891,9 @@
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
                     <pb n="5" xml:id="pg_5" facs="0059"/>
-                    <div type="document" xml:id="d5" n="5">
+                    <div type="document" xml:id="d5" n="5"
+                        frus:doc-dateTime-min="1944-05-25T00:00:00Z"
+                        frus:doc-dateTime-max="1944-05-25T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -3918,7 +3928,9 @@
                                 contained in Churchill’s telegram No. 683 of May 27, 1944, to
                                 Roosevelt (Roosevelt Papers).</note></p>
                     </div>
-                    <div type="document" xml:id="d6" n="6">
+                    <div type="document" xml:id="d6" n="6"
+                        frus:doc-dateTime-min="1944-05-27T00:00:00Z"
+                        frus:doc-dateTime-max="1944-05-27T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -3952,7 +3964,9 @@
                             enemy. Things look well at this moment.</p>
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d7" n="7">
+                    <div type="document" xml:id="d7" n="7"
+                        frus:doc-dateTime-min="1944-05-28T00:00:00Z"
+                        frus:doc-dateTime-max="1944-05-28T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -3985,7 +3999,9 @@
                         </list>
                         <p rend="center">. . . . . . . . . . . . . .</p>
                     </div>
-                    <div type="document" xml:id="d8" n="8">
+                    <div type="document" xml:id="d8" n="8"
+                        frus:doc-dateTime-min="1944-05-31T00:00:00Z"
+                        frus:doc-dateTime-max="1944-05-31T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -4014,7 +4030,9 @@
                             as to the next full Staff meeting.</p>
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d9" n="9">
+                    <div type="document" xml:id="d9" n="9"
+                        frus:doc-dateTime-min="1944-06-01T00:00:00Z"
+                        frus:doc-dateTime-max="1944-06-01T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -4039,7 +4057,9 @@
                             better for me not to come in to the United States as you approach the
                             election crisis or our enemies might try to make mischief.</p>
                     </div>
-                    <div type="document" xml:id="d10" n="10">
+                    <div type="document" xml:id="d10" n="10"
+                        frus:doc-dateTime-min="1944-06-04T00:00:00Z"
+                        frus:doc-dateTime-max="1944-06-04T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -4068,7 +4088,9 @@
                                     >Prime</hi></gloss></signed></closer>
                     </div>
                     <pb n="8" xml:id="pg_8" facs="0062"/>
-                    <div type="document" xml:id="d11" n="11">
+                    <div type="document" xml:id="d11" n="11"
+                        frus:doc-dateTime-min="1944-06-20T00:00:00Z"
+                        frus:doc-dateTime-max="1944-06-20T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -4114,7 +4136,9 @@
                                 your arrival.</item>
                         </list>
                     </div>
-                    <div type="document" xml:id="d12" n="12">
+                    <div type="document" xml:id="d12" n="12"
+                        frus:doc-dateTime-min="1944-06-28T00:00:00Z"
+                        frus:doc-dateTime-max="1944-06-28T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -4148,7 +4172,9 @@
                                 meeting with Churchill. For text, see Churchill, <hi rend="italic"
                                     >Triumph and Tragedy</hi>, pp. 721–723.</note></p>
                     </div>
-                    <div type="document" xml:id="d13" n="13">
+                    <div type="document" xml:id="d13" n="13"
+                        frus:doc-dateTime-min="1944-07-14T00:00:00Z"
+                        frus:doc-dateTime-max="1944-07-14T23:59:59Z">
                         <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                             Files</note>
                         <head><hi rend="italic">Memorandum by the Representatives of the British
@@ -4226,7 +4252,9 @@
                             <p rend="center">. . . . . . . . . . . . . .</p>
                         </frus:attachment>
                     </div>
-                    <div type="document" xml:id="d14" n="14">
+                    <div type="document" xml:id="d14" n="14"
+                        frus:doc-dateTime-min="1944-07-16T00:00:00Z"
+                        frus:doc-dateTime-max="1944-07-16T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -4265,7 +4293,9 @@
                             must meet and if possible three. Please let me have your ideas on all
                             this.</p>
                     </div>
-                    <div type="document" xml:id="d15" n="15">
+                    <div type="document" xml:id="d15" n="15"
+                        frus:doc-dateTime-min="1944-07-16T00:00:00Z"
+                        frus:doc-dateTime-max="1944-07-16T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -4298,7 +4328,9 @@
                             please let me know what you think. Remember you have my standing offer
                             and Mackenzie King’s for Quebec if that is easiest for you.</p>
                     </div>
-                    <div type="document" xml:id="d16" n="16">
+                    <div type="document" xml:id="d16" n="16"
+                        frus:doc-dateTime-min="1944-07-17T00:00:00Z"
+                        frus:doc-dateTime-max="1944-07-17T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -4339,7 +4371,9 @@
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
                     <pb n="12" xml:id="pg_12" facs="0066"/>
-                    <div type="document" xml:id="d17" n="17">
+                    <div type="document" xml:id="d17" n="17"
+                        frus:doc-dateTime-min="1944-07-26T00:00:00Z"
+                        frus:doc-dateTime-max="1944-07-26T23:59:59Z">
                         <note rend="inline" type="source">Hopkins Papers: Telegram</note>
                         <head><hi rend="italic">The President’s Special Assistant</hi> (<persName
                                 type="from"><hi rend="italic">Hopkins</hi></persName>) <hi
@@ -4378,7 +4412,9 @@
                         <closer><signed><hi rend="smallcaps">Harry</hi></signed></closer>
                     </div>
                     <pb n="13" xml:id="pg_13" facs="0067"/>
-                    <div type="document" xml:id="d18" n="18">
+                    <div type="document" xml:id="d18" n="18"
+                        frus:doc-dateTime-min="1944-08-04T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-04T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -4405,7 +4441,9 @@
                                 that Roosevelt did not reply to this message.</note></p>
                         <p rend="center">. . . . . . . . . . . . . .</p>
                     </div>
-                    <div type="document" xml:id="d19" n="19">
+                    <div type="document" xml:id="d19" n="19"
+                        frus:doc-dateTime-min="1944-08-05T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-05T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -4443,7 +4481,9 @@
                             the time and will communicate as usual, which is saying a lot. Every
                             good wish.</p>
                     </div>
-                    <div type="document" xml:id="d20" n="20">
+                    <div type="document" xml:id="d20" n="20"
+                        frus:doc-dateTime-min="1944-08-08T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-08T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -4488,7 +4528,9 @@
                             hereby ordering you not to take unnecessary risks.</p>
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d21" n="21">
+                    <div type="document" xml:id="d21" n="21"
+                        frus:doc-dateTime-min="1944-08-08T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-08T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -4517,7 +4559,9 @@
                             <item>Thank you for your very kind personal thoughts.</item>
                         </list>
                     </div>
-                    <div type="document" xml:id="d22" n="22">
+                    <div type="document" xml:id="d22" n="22"
+                        frus:doc-dateTime-min="1944-08-08T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-08T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -4542,7 +4586,9 @@
                             cancelled.</p>
                     </div>
                     <pb n="15" xml:id="pg_15" facs="0069"/>
-                    <div type="document" xml:id="d23" n="23">
+                    <div type="document" xml:id="d23" n="23"
+                        frus:doc-dateTime-min="1944-08-10T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-10T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -4606,7 +4652,9 @@
                         </list>
                     </div>
                     <pb n="16" xml:id="pg_16" facs="0070"/>
-                    <div type="document" xml:id="d24" n="24">
+                    <div type="document" xml:id="d24" n="24"
+                        frus:doc-dateTime-min="1944-08-10T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-10T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to the President’s Special Assistant</hi>
@@ -4676,7 +4724,9 @@
                         </list>
                     </div>
                     <pb n="17" xml:id="pg_17" facs="0071"/>
-                    <div type="document" xml:id="d25" n="25">
+                    <div type="document" xml:id="d25" n="25"
+                        frus:doc-dateTime-min="1944-08-11T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-11T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -4708,7 +4758,9 @@
                                 27–28, 1944, see Matloff, p. 482; Leahy, pp. 250–251.</note></p>
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d26" n="26">
+                    <div type="document" xml:id="d26" n="26"
+                        frus:doc-dateTime-min="1944-08-19T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-19T23:59:59Z">
                         <note rend="inline" type="source">Hopkins Papers: Telegram</note>
                         <head><hi rend="italic">The President’s Special Assistant</hi> (<persName
                                 type="from"><hi rend="italic">Hopkins</hi></persName>) <hi
@@ -4731,7 +4783,9 @@
                         <p>I am looking forward to seeing you and hope you are well.</p>
                         <closer><signed><hi rend="smallcaps">Harry</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d27" n="27">
+                    <div type="document" xml:id="d27" n="27"
+                        frus:doc-dateTime-min="1944-08-23T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-23T23:59:59Z">
                         <note rend="inline" type="source">Hopkins Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to the President’s Special Assistant</hi>
@@ -4773,7 +4827,9 @@
                         <p>Looking forward so much to seeing you and our great friend in near
                             future.</p>
                     </div>
-                    <div type="document" xml:id="d28" n="28">
+                    <div type="document" xml:id="d28" n="28"
+                        frus:doc-dateTime-min="1944-08-23T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-23T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -4808,7 +4864,9 @@
                             fifteen, not counting Leahy, Watson, Brown and McIntire.</p>
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d29" n="29">
+                    <div type="document" xml:id="d29" n="29"
+                        frus:doc-dateTime-min="1944-08-23T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-23T23:59:59Z">
                         <note rend="inline" type="source">Hopkins Papers: Telegram</note>
                         <head><hi rend="italic">The President’s Special Assistant</hi> (<persName
                                 type="from"><hi rend="italic">Hopkins</hi></persName>) <hi
@@ -4843,7 +4901,9 @@
                                 “Harry L Hopkins”, but only the given name “Harry” was to be
                                 transmitted at the end of the message.</note></closer>
                     </div>
-                    <div type="document" xml:id="d30" n="30">
+                    <div type="document" xml:id="d30" n="30"
+                        frus:doc-dateTime-min="1944-08-26T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-26T23:59:59Z">
                         <note rend="inline" type="source">Hopkins Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to the President’s Special Assistant</hi>
@@ -4900,7 +4960,9 @@
                         <closer><signed><gloss target="#t_Prime1"><hi rend="smallcaps"
                                     >Prime</hi></gloss></signed></closer>
                     </div>
-                    <div type="document" xml:id="d31" n="31">
+                    <div type="document" xml:id="d31" n="31"
+                        frus:doc-dateTime-min="1944-08-28T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-28T23:59:59Z">
                         <note rend="inline" type="source">Hopkins Papers: Telegram</note>
                         <head><hi rend="italic">The President’s Special Assistant</hi> (<persName
                                 type="from"><hi rend="italic">Hopkins</hi></persName>) <hi
@@ -4926,7 +4988,9 @@
                                 transmitted at the end of the message.</note></closer>
                     </div>
                     <pb n="21" xml:id="pg_21" facs="0075"/>
-                    <div type="document" xml:id="d32" n="32">
+                    <div type="document" xml:id="d32" n="32"
+                        frus:doc-dateTime-min="1944-08-28T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-28T23:59:59Z">
                         <note rend="inline" type="source">Hopkins Papers: Telegram</note>
                         <head><hi rend="italic">The President’s Special Assistant</hi> (<persName
                                 type="from"><hi rend="italic">Hopkins</hi></persName>) <hi
@@ -4961,7 +5025,9 @@
                         <p>I think it is very important that this be fully understood in Canada.</p>
                         <closer><signed><hi rend="smallcaps">Harry</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d33" n="33">
+                    <div type="document" xml:id="d33" n="33"
+                        frus:doc-dateTime-min="1944-08-28T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-28T23:59:59Z">
                         <note rend="inline" type="source">Hopkins Papers: Telegram</note>
                         <head><hi rend="italic">The President’s Special Assistant</hi> (<persName
                                 type="from"><hi rend="italic">Hopkins</hi></persName>) <hi
@@ -5009,7 +5075,9 @@
                                 “Harry L Hopkins”, but only the given name “Harry” was to be
                                 transmitted at the end of the message.</note></closer>
                     </div>
-                    <div type="document" xml:id="d34" n="34">
+                    <div type="document" xml:id="d34" n="34"
+                        frus:doc-dateTime-min="1944-08-28T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-28T23:59:59Z">
                         <note rend="inline" type="source">Notter File, Box 168: Stettinius
                             Diary</note>
                         <head><hi rend="italic">Memorandum by the Under Secretary of State</hi> (<hi
@@ -5048,7 +5116,9 @@
                         <p rend="center">. . . . . . . . . . . . . .</p>
                     </div>
                     <pb n="23" xml:id="pg_23" facs="0077"/>
-                    <div type="document" xml:id="d35" n="35">
+                    <div type="document" xml:id="d35" n="35"
+                        frus:doc-dateTime-min="1944-08-29T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-29T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -5099,7 +5169,9 @@
                         <closer><signed><gloss target="#t_Prime1"><hi rend="smallcaps"
                                     >Prime</hi></gloss></signed></closer>
                     </div>
-                    <div type="document" xml:id="d36" n="36">
+                    <div type="document" xml:id="d36" n="36"
+                        frus:doc-dateTime-min="1944-08-29T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-29T23:59:59Z">
                         <note rend="inline" type="source">Hopkins Papers: Telegram</note>
                         <head><hi rend="italic">The Minister in the United Kingdom</hi> (<persName
                                 type="from"><hi rend="italic">Reed</hi></persName>) <hi
@@ -5136,7 +5208,9 @@
                                     rend="smallcaps">v</hi>, September 13, 1941, pp. 204–206.</note>
                             could be referred for study and recommendation.</p>
                     </div>
-                    <div type="document" xml:id="d37" n="37">
+                    <div type="document" xml:id="d37" n="37"
+                        frus:doc-dateTime-min="1944-08-30T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-30T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -5158,7 +5232,9 @@
                             in the conference to the Teheran level insofar as practicable.</p>
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d38" n="38">
+                    <div type="document" xml:id="d38" n="38"
+                        frus:doc-dateTime-min="1944-08-30T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-30T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -5186,7 +5262,9 @@
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
                     <pb n="25" xml:id="pg_25" facs="0079"/>
-                    <div type="document" xml:id="d39" n="39">
+                    <div type="document" xml:id="d39" n="39"
+                        frus:doc-dateTime-min="1944-08-31T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-31T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -5214,7 +5292,9 @@
                                     rend="smallcaps">Octagon</hi></gloss>.</p>
                         <p rend="center">. . . . . . . . . . . . . .</p>
                     </div>
-                    <div type="document" xml:id="d40" n="40">
+                    <div type="document" xml:id="d40" n="40"
+                        frus:doc-dateTime-min="1944-08-31T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-31T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">The President’s Naval Aide</hi> (<persName
                                 type="from"><hi rend="italic">Brown</hi></persName>) <hi
@@ -5266,7 +5346,9 @@
                                 rend="italic">Rear Admiral, U.S.N.<lb/>Naval Aide to the
                                 President</hi></closer>
                     </div>
-                    <div type="document" xml:id="d41" n="41">
+                    <div type="document" xml:id="d41" n="41"
+                        frus:doc-dateTime-min="1944-08-31T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-31T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -5293,7 +5375,9 @@
                                 >Octagon</hi></gloss> on the 10th. The voyage at sea will be better
                             for me than a journey by air.</p>
                     </div>
-                    <div type="document" xml:id="d42" n="42">
+                    <div type="document" xml:id="d42" n="42"
+                        frus:doc-dateTime-min="1944-08-31T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-31T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -5320,7 +5404,9 @@
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
                     <pb n="27" xml:id="pg_27" facs="0081"/>
-                    <div type="document" xml:id="d43" n="43">
+                    <div type="document" xml:id="d43" n="43"
+                        frus:doc-dateTime-min="1944-08-31T00:00:00Z"
+                        frus:doc-dateTime-max="1944-08-31T23:59:59Z">
                         <note rend="inline" type="source">Hopkins Papers: Telegram</note>
                         <head><hi rend="italic">The President’s Special Assistant</hi> (<persName
                                 type="from"><hi rend="italic">Hopkins</hi></persName>) <hi
@@ -5360,7 +5446,9 @@
                             acquaint you with the President’s position.</p>
                         <closer><signed><hi rend="smallcaps">Harry Hopkins</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d44" n="44">
+                    <div type="document" xml:id="d44" n="44"
+                        frus:doc-dateTime-min="1944-09-01T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-01T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -5391,7 +5479,9 @@
                         <closer><signed><gloss target="#t_Prime1"><hi rend="smallcaps"
                                     >Prime</hi></gloss></signed></closer>
                     </div>
-                    <div type="document" xml:id="d45" n="45">
+                    <div type="document" xml:id="d45" n="45"
+                        frus:doc-dateTime-min="1944-09-01T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-01T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -5416,7 +5506,9 @@
                             few weeks of delay on our part will not slow them up.</p>
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d46" n="46">
+                    <div type="document" xml:id="d46" n="46"
+                        frus:doc-dateTime-min="1944-09-01T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-01T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -5436,7 +5528,9 @@
                         <p>I hope you will pardon a further transgression of the Teheran scale. I am
                             going to bring Mrs. Churchill with me.</p>
                     </div>
-                    <div type="document" xml:id="d47" n="47">
+                    <div type="document" xml:id="d47" n="47"
+                        frus:doc-dateTime-min="1944-09-01T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-01T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -5458,7 +5552,9 @@
                                 target="#t_Octagon1"><hi rend="smallcaps">Octagon</hi></gloss>.</p>
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d48" n="48">
+                    <div type="document" xml:id="d48" n="48"
+                        frus:doc-dateTime-min="1944-09-01T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-01T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">The War Shipping Administrator</hi> (<persName
                                 type="from"><hi rend="italic">Land</hi></persName>) <hi
@@ -5484,7 +5580,9 @@
                             on July 10th.</p>
                         <closer><signed><hi rend="smallcaps">Jerry</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d49" n="49">
+                    <div type="document" xml:id="d49" n="49"
+                        frus:doc-dateTime-min="1944-09-02T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-02T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">The <gloss type="from">President</gloss> to the War
                                 Shipping Administrator</hi> (<persName type="to"><hi rend="italic"
@@ -5504,7 +5602,9 @@
                                     rend="smallcaps">oosevelt</hi>]</signed></closer>
                     </div>
                     <pb n="30" xml:id="pg_30" facs="0084"/>
-                    <div type="document" xml:id="d50" n="50">
+                    <div type="document" xml:id="d50" n="50"
+                        frus:doc-dateTime-min="1944-09-02T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-02T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -5526,7 +5626,9 @@
                                 <gloss target="#t_Octagon1"><hi rend="smallcaps"
                                 >Octagon</hi></gloss> till noon 11th.</p>
                     </div>
-                    <div type="document" xml:id="d51" n="51">
+                    <div type="document" xml:id="d51" n="51"
+                        frus:doc-dateTime-min="1944-09-02T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-02T23:59:59Z">
                         <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                             Files</note>
                         <head><hi rend="italic">Memorandum by the Representatives of the British
@@ -5735,7 +5837,9 @@
                         </frus:attachment>
                     </div>
                     <pb n="33" xml:id="pg_33" facs="0087"/>
-                    <div type="document" xml:id="d52" n="52">
+                    <div type="document" xml:id="d52" n="52"
+                        frus:doc-dateTime-min="1944-09-03T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-03T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -5760,7 +5864,9 @@
                         <p rend="center">. . . . . . . . . . . . . .</p>
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d53" n="53">
+                    <div type="document" xml:id="d53" n="53"
+                        frus:doc-dateTime-min="1944-09-03T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-03T23:59:59Z">
                         <note rend="inline" type="source">Hopkins Papers</note>
                         <head><hi rend="italic">The Canadian Ambassador</hi> (<persName type="from"
                                     ><hi rend="italic">Pearson</hi></persName>) <hi rend="italic">to
@@ -5824,7 +5930,9 @@
                         <p>Sincerely,</p>
                         <closer><signed><hi rend="smallcaps">L B Pearson</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d54" n="54">
+                    <div type="document" xml:id="d54" n="54"
+                        frus:doc-dateTime-min="1944-09-05T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-05T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">The Assistant to the President’s Military Aide</hi>
                                 (<persName type="from"><hi rend="italic">Park</hi></persName>) <hi
@@ -5876,7 +5984,9 @@
                         <closer><signed><hi rend="smallcaps">Richard Park, Jr</hi>.</signed><lb/><hi
                                 rend="italic">Colonel, General Staff</hi></closer>
                     </div>
-                    <div type="document" xml:id="d55" n="55">
+                    <div type="document" xml:id="d55" n="55"
+                        frus:doc-dateTime-min="1944-09-06T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-06T23:59:59Z">
                         <note rend="inline" type="source">Hopkins Papers</note>
                         <head><hi rend="italic">The Canadian Ambassador</hi> (<persName type="from"
                                     ><hi rend="italic">Pearson</hi></persName>) <hi rend="italic">to
@@ -5934,7 +6044,9 @@
                         <closer><signed>L B <hi rend="smallcaps">Pearson</hi></signed></closer>
                     </div>
                     <pb n="36" xml:id="pg_36" facs="0090"/>
-                    <div type="document" xml:id="d56" n="56">
+                    <div type="document" xml:id="d56" n="56"
+                        frus:doc-dateTime-min="1944-09-06T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-06T23:59:59Z">
                         <note rend="inline" type="source">Notter File, Box 168: Stettinius
                             Diary</note>
                         <head><hi rend="italic">Memorandum by the Under Secretary of State</hi> (<hi
@@ -6056,7 +6168,9 @@
                             out of turn and he said no, that it was wonderful.</p>
                         <p rend="center">. . . . . . . . . . . . . .</p>
                     </div>
-                    <div type="document" xml:id="d57" n="57">
+                    <div type="document" xml:id="d57" n="57"
+                        frus:doc-dateTime-min="1944-09-06T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-06T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -6076,7 +6190,9 @@
                             have the pleasure of welcoming you and Eleanor at the Citadel but
                             everything will be in readiness anyhow. Every good wish.</p>
                     </div>
-                    <div type="document" xml:id="d58" n="58">
+                    <div type="document" xml:id="d58" n="58"
+                        frus:doc-dateTime-min="1944-09-06T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-06T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">President <persName type="from">Roosevelt</persName>
                                 to Prime Minister <persName type="to">Churchill</persName></hi><note
@@ -6098,7 +6214,9 @@
                             when you arrive.</p>
                         <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d59" n="59">
+                    <div type="document" xml:id="d59" n="59"
+                        frus:doc-dateTime-min="1944-09-06T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-06T23:59:59Z">
                         <note rend="inline" type="source">740.0011 <gloss target="#t_EW1"
                             >EW</gloss>/9–644</note>
                         <head><hi rend="italic">The Deputy Director of the Office of European
@@ -6126,7 +6244,9 @@
                         <closer><signed>H F[<hi rend="smallcaps">reeman</hi>] M[<hi rend="smallcaps"
                                     >atthews</hi>]</signed></closer>
                     </div>
-                    <div type="document" xml:id="d60" n="60">
+                    <div type="document" xml:id="d60" n="60"
+                        frus:doc-dateTime-min="1944-09-07T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-07T23:59:59Z">
                         <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                             Files</note>
                         <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -6152,7 +6272,9 @@
                                 n="2" xml:id="d60fn2">See <hi rend="italic">ante</hi>, <ref
                                     target="#pg_32">p. 32</ref>, fn. 4.</note></p>
                     </div>
-                    <div type="document" xml:id="d61" n="61">
+                    <div type="document" xml:id="d61" n="61"
+                        frus:doc-dateTime-min="1944-09-08T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-08T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">The Chinese Minister of Finance</hi> (<persName
                                 type="from"><hi rend="italic">Kung</hi></persName>) <hi
@@ -6179,7 +6301,9 @@
                         <closer><signed><hi rend="smallcaps">H. H. Kung</hi></signed></closer>
                     </div>
                     <pb n="40" xml:id="pg_40" facs="0094"/>
-                    <div type="document" xml:id="d62" n="62">
+                    <div type="document" xml:id="d62" n="62"
+                        frus:doc-dateTime-min="1944-09-10T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-10T23:59:59Z">
                         <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                             Files</note>
                         <head><hi rend="italic">Memorandum by the Representatives of the British
@@ -6280,7 +6404,9 @@
                         </list>
                     </div>
                     <pb n="41" xml:id="pg_41" facs="0095"/>
-                    <div type="document" xml:id="d63" n="63">
+                    <div type="document" xml:id="d63" n="63"
+                        frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                         <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                             Files</note>
                         <head><hi rend="italic">Note by the Secretaries of the Combined Chiefs of
@@ -6368,7 +6494,9 @@
                             </signed></closer>
                     </div>
                     <pb n="42" xml:id="pg_42" facs="0096"/>
-                    <div type="document" xml:id="d64" n="64">
+                    <div type="document" xml:id="d64" n="64"
+                        frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -6420,7 +6548,9 @@
                             Churchill</hi>]</signed></closer>
                     </div>
                     <pb n="43" xml:id="pg_43" facs="0097"/>
-                    <div type="document" xml:id="d65" n="65">
+                    <div type="document" xml:id="d65" n="65"
+                        frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -6457,7 +6587,9 @@
                         <closer><signed>W[<hi rend="smallcaps">inston S.
                             Churchill</hi>]</signed></closer>
                     </div>
-                    <div type="document" xml:id="d66" n="66">
+                    <div type="document" xml:id="d66" n="66"
+                        frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">President</gloss> to the
                                 Secretary of the Treasury</hi> (<persName type="to"><hi
@@ -6473,7 +6605,9 @@
                         </opener>
                         <p>Please be in Quebec by Thursday, 14 September, Noon.</p>
                     </div>
-                    <div type="document" xml:id="d67" n="67">
+                    <div type="document" xml:id="d67" n="67"
+                        frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">President</gloss> to the War
                                 Shinning Administrator</hi> (<persName type="to"><hi rend="italic"
@@ -6489,7 +6623,9 @@
                         <p>Please come to Quebec without delay.</p>
                     </div>
                     <pb n="44" xml:id="pg_44" facs="0098"/>
-                    <div type="document" xml:id="d68" n="68">
+                    <div type="document" xml:id="d68" n="68"
+                        frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                         <note rend="inline" type="source">Notter File, Box 168: Stettinius
                             Diary</note>
                         <head><hi rend="italic">Memorandum by the Under Secretary of State</hi> (<hi
@@ -6559,7 +6695,9 @@
                             mistake.</p>
                         <p rend="center">. . . . . . . . . . . . . .</p>
                     </div>
-                    <div type="document" xml:id="d69" n="69">
+                    <div type="document" xml:id="d69" n="69"
+                        frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
                                     >Churchill</persName> to President <persName type="to"
@@ -6588,7 +6726,9 @@
                             Churchill</hi>]</signed></closer>
                     </div>
                     <pb n="46" xml:id="pg_46" facs="0100"/>
-                    <div type="document" xml:id="d70" n="70">
+                    <div type="document" xml:id="d70" n="70"
+                        frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                         <note rend="inline" type="source">740.0011 <gloss target="#t_EW1"
                             >EW</gloss>/9–1444: Telegram</note>
                         <head><hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
@@ -6610,7 +6750,9 @@
                             Foreign Secretary.</p>
                         <closer><signed><hi rend="smallcaps">Winant</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d71" n="71">
+                    <div type="document" xml:id="d71" n="71"
+                        frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                         <note rend="inline" type="source">Notter File, Box 168: Stettinius
                             Diary</note>
                         <head><hi rend="italic">Memorandum by the Under Secretary of State</hi> (<hi
@@ -6722,7 +6864,9 @@
                                         rend="italic">Foreign Relations</hi>, 1944, vol. I, pp.
                                     276</ref> ff.</p>
                         </div>
-                        <div type="document" xml:id="d73" n="73">
+                        <div type="document" xml:id="d73" n="73"
+                            frus:doc-dateTime-min="1944-08-28T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-28T23:59:59Z">
                             <note rend="inline" type="source">740.00119 Control
                                 (Germany)/8–2844</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
@@ -8289,7 +8433,9 @@
                                     discussions, but without success to date.</p>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d74" n="74">
+                        <div type="document" xml:id="d74" n="74"
+                            frus:doc-dateTime-min="1944-08-28T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-28T23:59:59Z">
                             <note rend="inline" type="source">Department of the Army Files</note>
                             <head><hi rend="italic">The Assistant Secretary of War</hi> (<persName
                                     type="from"><hi rend="italic">McCloy</hi></persName>) <hi
@@ -8380,7 +8526,9 @@
                                     the contagion of the Nazis?</p>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d75" n="75">
+                        <div type="document" xml:id="d75" n="75"
+                            frus:doc-dateTime-min="1944-08-30T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-30T23:59:59Z">
                             <note rend="inline" type="source">Lot 55 D 375</note>
                             <head><hi rend="italic">Memorandum by the Working Security
                                     Committee</hi><note n="1" xml:id="d75fn1">Hull forwarded this
@@ -8588,7 +8736,9 @@
                                     Allied Authority.</item>
                             </list>
                         </div>
-                        <div type="document" xml:id="d76" n="76">
+                        <div type="document" xml:id="d76" n="76"
+                            frus:doc-dateTime-min="1944-09-01T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-01T23:59:59Z">
                             <note rend="inline" type="source">Hopkins Papers</note>
                             <head><hi rend="italic">The Chief of the Division of Central European
                                     Affairs</hi> (<persName type="from"><hi rend="italic"
@@ -8910,7 +9060,9 @@
                             </frus:attachment>
                         </div>
                         <pb n="86" xml:id="pg_86" facs="0140"/>
-                        <div type="document" xml:id="d77" n="77">
+                        <div type="document" xml:id="d77" n="77"
+                            frus:doc-dateTime-min="1944-09-01T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-01T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Memorandum Prepared in the Treasury
                                     Department</hi><note n="1" xml:id="d77fn1">The source text bears
@@ -9287,7 +9439,9 @@
                                         Secretaries on September 5.” (862.50/9–2844)</p>
                                 </quote></p>
                         </div>
-                        <div type="document" xml:id="d79" n="79">
+                        <div type="document" xml:id="d79" n="79"
+                            frus:doc-dateTime-min="1944-09-04T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-04T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_PR1">PR</gloss> 10
                                 Foreign Relations of U.S./8–20/71</note>
                             <head><hi rend="italic">Memorandum by the British Lord Chancellor</hi>
@@ -9404,7 +9558,9 @@
                                     1944</date>.</dateline>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d80" n="80">
+                        <div type="document" xml:id="d80" n="80"
+                            frus:doc-dateTime-min="1944-09-04T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-04T23:59:59Z">
                             <note rend="inline" type="source">740.00119 <gloss target="#t_EW1"
                                     >EW</gloss>/9–444</note>
                             <head><hi rend="italic">The Chief of the Division of Central European
@@ -9536,7 +9692,9 @@
                                 meet with officials both here and in London who have been working on
                                 these problems.</p>
                         </div>
-                        <div type="document" xml:id="d81" n="81">
+                        <div type="document" xml:id="d81" n="81"
+                            frus:doc-dateTime-min="1944-09-04T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-04T23:59:59Z">
                             <note rend="inline" type="source">740.00119 <gloss target="#t_EW1"
                                     >EW</gloss>/9–444</note>
                             <head><hi rend="italic">Memorandum by the Chief of the Division of
@@ -9642,7 +9800,9 @@
                                         own devices reconvert to war production.</item>
                                 </list></p>
                         </div>
-                        <div type="document" xml:id="d82" n="82">
+                        <div type="document" xml:id="d82" n="82"
+                            frus:doc-dateTime-min="1944-09-04T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-04T23:59:59Z">
                             <note rend="inline" type="source">740.00119 <gloss target="#t_EW1"
                                     >EW</gloss>/10–1344</note>
                             <head><hi rend="italic">The <gloss type="from">Joint Chiefs of
@@ -9707,7 +9867,9 @@
                                         rend="italic">Foreign Relations</hi>, The Conferences at
                                     Malta and Yalta, 1945, p. 161</ref>.</p>
                         </div>
-                        <div type="document" xml:id="d84" n="84">
+                        <div type="document" xml:id="d84" n="84"
+                            frus:doc-dateTime-min="1944-09-05T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-05T23:59:59Z">
                             <note rend="inline" type="source">740.00119 <gloss target="#t_EW1"
                                     >EW</gloss>/9–444</note>
                             <head><hi rend="italic">The President’s Special Assistant</hi>
@@ -9732,7 +9894,9 @@
                             <closer><signed><hi rend="smallcaps">Harry L.
                                 Hopkins</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d85" n="85">
+                        <div type="document" xml:id="d85" n="85"
+                            frus:doc-dateTime-min="1944-09-05T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-05T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">The Secretary of War</hi> (<persName type="from"
                                         ><hi rend="italic">Stimson</hi></persName>) <hi
@@ -9863,7 +10027,9 @@
                                 Stimson</hi></signed></closer>
                         </div>
                         <pb n="101" xml:id="pg_101" facs="0157"/>
-                        <div type="document" xml:id="d86" n="86">
+                        <div type="document" xml:id="d86" n="86"
+                            frus:doc-dateTime-min="1944-09-06T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-06T23:59:59Z">
                             <note rend="inline" type="source">Morgenthau Papers</note>
                             <head><hi rend="italic">The Secretary of the Treasury</hi> (<persName
                                     type="from"><hi rend="italic">Morgenthau</hi></persName>) <hi
@@ -10364,7 +10530,9 @@
                                     <hi rend="italic">Morgenthau Diary</hi> (<hi rend="italic"
                                     >Germany</hi>), vol. I, pp. 536–538.</p>
                         </div>
-                        <div type="document" xml:id="d88" n="88">
+                        <div type="document" xml:id="d88" n="88"
+                            frus:doc-dateTime-min="1944-09-06T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-06T23:59:59Z">
                             <note rend="inline" type="source">740.00119 Control
                                 (Germany)/9–644</note>
                             <head><hi rend="italic">The Assistant Secretary of War</hi> (<persName
@@ -11223,7 +11391,9 @@
                                 </list>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d89" n="89">
+                        <div type="document" xml:id="d89" n="89"
+                            frus:doc-dateTime-min="1944-09-08T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-08T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to"
@@ -11423,7 +11593,9 @@
                                     course, have important long-range strategic implications.</p>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d90" n="90">
+                        <div type="document" xml:id="d90" n="90"
+                            frus:doc-dateTime-min="1944-09-09T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T23:59:59Z">
                             <note rend="inline" type="source">740.00119 <gloss target="#t_EW1"
                                     >EW</gloss>/9–944</note>
                             <head><hi rend="italic">The Secretary of War</hi> (<persName type="from"
@@ -11723,7 +11895,9 @@
                                     </quote></p>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d91" n="91">
+                        <div type="document" xml:id="d91" n="91"
+                            frus:doc-dateTime-min="1944-09-09T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Briefing Book Prepared in the Treasury
                                     Department</hi><note n="1" xml:id="d91fn1"><p>This briefing book
@@ -12600,7 +12774,9 @@
                                     rend="italic">Morgenthau Diary</hi> (<hi rend="italic"
                                     >Germany</hi>), vol. I, pp. 608–611.</p>
                         </div>
-                        <div type="document" xml:id="d93" n="93">
+                        <div type="document" xml:id="d93" n="93"
+                            frus:doc-dateTime-min="1944-09-09T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T23:59:59Z">
                             <note rend="inline" type="source">740.00119 Control
                                 (Germany)/9–944</note>
                             <head><hi rend="italic">Memorandum by the Political Adviser on
@@ -12669,7 +12845,9 @@
                             <closer><signed>R[<hi rend="smallcaps">obert</hi>] D M[<hi
                                         rend="smallcaps">urphy</hi>]</signed></closer>
                         </div>
-                        <div type="document" xml:id="d94" n="94">
+                        <div type="document" xml:id="d94" n="94"
+                            frus:doc-dateTime-min="1944-09-09T04:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T03:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Memorandum by the Assistant to the Presidents
                                     Naval Aide</hi> (<hi rend="italic">Elsey</hi>)<note n="1"
@@ -13497,7 +13675,9 @@
                     <pb n="159" xml:id="pg_159" facs="0215"/>
                     <div type="subchapter" xml:id="ch2subch2">
                         <head>B. Economic relations with the United Kingdom</head>
-                        <div type="document" xml:id="d95" n="95">
+                        <div type="document" xml:id="d95" n="95"
+                            frus:doc-dateTime-min="1944-08-14T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-14T23:59:59Z">
                             <note rend="inline" type="source">Hopkins Papers</note>
                             <head><hi rend="italic">Memorandum by the British Treasury
                                     Representative</hi> (<hi rend="italic">Brand</hi>)<note n="1"
@@ -13607,7 +13787,9 @@
                                     picture.</item>
                             </list>
                         </div>
-                        <div type="document" xml:id="d96" n="96">
+                        <div type="document" xml:id="d96" n="96"
+                            frus:doc-dateTime-min="1944-08-18T17:00:00Z"
+                            frus:doc-dateTime-max="1944-08-18T17:00:00Z">
                             <note rend="inline" type="source">Hopkins Papers</note>
                             <head><hi rend="italic">Memorandum by the President’s Special
                                     Assistant</hi> (<hi rend="italic">Hopkins</hi>)</head>
@@ -13677,7 +13859,9 @@
                                         rend="smallcaps">opkins</hi>]</signed></closer>
                         </div>
                         <pb n="162" xml:id="pg_162" facs="0218"/>
-                        <div type="document" xml:id="d97" n="97">
+                        <div type="document" xml:id="d97" n="97"
+                            frus:doc-dateTime-min="1944-08-23T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-23T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_FW1">FW</gloss> 550
                                 AD 2/8–2444</note>
                             <head><hi rend="italic">The Secretary of Agriculture</hi> (<persName
@@ -13781,7 +13965,9 @@
                                         >Wickard</hi></signed><lb/><hi rend="italic"
                                 >Secretary</hi></closer>
                         </div>
-                        <div type="document" xml:id="d98" n="98">
+                        <div type="document" xml:id="d98" n="98"
+                            frus:doc-dateTime-min="1944-08-23T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-23T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">Prime Minister <persName type="from"
                                         >Churchill</persName> to President <persName type="to"
@@ -13830,7 +14016,9 @@
                                 Argentina Government, I do most earnestly hope that you will ignore
                                 the Colonels for a good many weeks.</p>
                         </div>
-                        <div type="document" xml:id="d99" n="99">
+                        <div type="document" xml:id="d99" n="99"
+                            frus:doc-dateTime-min="1944-08-25T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-25T23:59:59Z">
                             <note rend="inline" type="source">841.244/8–2544: Telegram</note>
                             <head><hi rend="italic">The Ambassador in the United Kingdom</hi>
                                     (<persName type="from"><hi rend="italic">Winant</hi></persName>)
@@ -13888,7 +14076,9 @@
                                 </quote></p>
                             <closer><signed><hi rend="smallcaps">Winant</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d100" n="100">
+                        <div type="document" xml:id="d100" n="100"
+                            frus:doc-dateTime-min="1944-08-26T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-26T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">President <persName type="from"
                                         >Roosevelt</persName> to Prime Minister <persName type="to"
@@ -13915,7 +14105,9 @@
                                 in sight.</p>
                             <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d101" n="101">
+                        <div type="document" xml:id="d101" n="101"
+                            frus:doc-dateTime-min="1944-08-30T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-30T23:59:59Z">
                             <note rend="inline" type="source">835.01/8–444</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the British Ambassador</hi> (<persName
@@ -13994,7 +14186,9 @@
                             <closer><signed><hi rend="smallcaps">Cordell Hull</hi></signed></closer>
                         </div>
                         <pb n="167" xml:id="pg_167" facs="0223"/>
-                        <div type="document" xml:id="d102" n="102">
+                        <div type="document" xml:id="d102" n="102"
+                            frus:doc-dateTime-min="1944-08-30T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-30T23:59:59Z">
                             <note rend="inline" type="source">841.244/8–3044</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to"
@@ -14015,7 +14209,9 @@
                             <closer><signed>C[<hi rend="smallcaps">ordell</hi>] H[<hi
                                         rend="smallcaps">ull</hi>]</signed></closer>
                         </div>
-                        <div type="document" xml:id="d103" n="103">
+                        <div type="document" xml:id="d103" n="103"
+                            frus:doc-dateTime-min="1944-08-31T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-31T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">President <persName type="from"
                                         >Roosevelt</persName> to Prime Minister <persName type="to"
@@ -14058,7 +14254,9 @@
                             <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                         </div>
                         <pb n="168" xml:id="pg_168" facs="0224"/>
-                        <div type="document" xml:id="d104" n="104">
+                        <div type="document" xml:id="d104" n="104"
+                            frus:doc-dateTime-min="1944-09-02T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-02T23:59:59Z">
                             <note rend="inline" type="source">550 AD 2/8–2444</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to"
@@ -14118,7 +14316,9 @@
                             <closer><signed><hi rend="smallcaps">Cordell Hull</hi></signed></closer>
                         </div>
                         <pb n="169" xml:id="pg_169" facs="0225"/>
-                        <div type="document" xml:id="d105" n="105">
+                        <div type="document" xml:id="d105" n="105"
+                            frus:doc-dateTime-min="1944-09-04T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-04T23:59:59Z">
                             <note rend="inline" type="source">Hopkins Papers</note>
                             <head><hi rend="italic">Memorandum Prepared in the British
                                     Treasury</hi><note n="1" xml:id="d105fn1">In the Hopkins Papers
@@ -14328,7 +14528,9 @@
                             </list>
                             <p>4th <hi rend="smallcaps">September</hi>, 1944.</p>
                         </div>
-                        <div type="document" xml:id="d106" n="106">
+                        <div type="document" xml:id="d106" n="106"
+                            frus:doc-dateTime-min="1944-09-05T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-05T23:59:59Z">
                             <note rend="inline" type="source">841.244/8–3044</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to"
@@ -14352,7 +14554,9 @@
                             <closer><signed>C[<hi rend="smallcaps">ordell</hi>] H[<hi
                                         rend="smallcaps">ull</hi>]</signed></closer>
                         </div>
-                        <div type="document" xml:id="d107" n="107">
+                        <div type="document" xml:id="d107" n="107"
+                            frus:doc-dateTime-min="1944-09-06T04:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T03:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Department of State Briefing Paper</hi><note
                                     n="1" xml:id="d107fn1">Annex 10 to Hull’s memorandum to
@@ -14426,7 +14630,9 @@
                                 point before those discussions are undertaken.</p>
                         </div>
                         <pb n="174" xml:id="pg_174" facs="0230"/>
-                        <div type="document" xml:id="d108" n="108">
+                        <div type="document" xml:id="d108" n="108"
+                            frus:doc-dateTime-min="1944-09-07T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-07T23:59:59Z">
                             <note rend="inline" type="source">Hopkins Papers</note>
                             <head><hi rend="italic">The Presidents Special Assistant</hi> (<persName
                                     type="from"><hi rend="italic">Hopkins</hi></persName>) <hi
@@ -14537,7 +14743,9 @@
                             <closer><signed><hi rend="smallcaps">Harry L.
                                 Hopkins</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d109" n="109">
+                        <div type="document" xml:id="d109" n="109"
+                            frus:doc-dateTime-min="1944-09-08T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-08T23:59:59Z">
                             <note rend="inline" type="source">841.244/9–844: Telegram</note>
                             <head><hi rend="italic">The Ambassador in the United Kingdom</hi>
                                     (<persName type="from"><hi rend="italic">Winant</hi></persName>)
@@ -14657,7 +14865,9 @@
                                             rend="italic">ibid</hi>., p. 342</ref>.</note></p>
                             <closer><signed><hi rend="smallcaps">Winant</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d110" n="110">
+                        <div type="document" xml:id="d110" n="110"
+                            frus:doc-dateTime-min="1944-09-08T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-08T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to"
@@ -14861,7 +15071,9 @@
                             <closer><signed>C[<hi rend="smallcaps">ordell</hi>] H[<hi
                                         rend="smallcaps">ull</hi>]</signed></closer>
                         </div>
-                        <div type="document" xml:id="d111" n="111">
+                        <div type="document" xml:id="d111" n="111"
+                            frus:doc-dateTime-min="1944-09-08T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-08T23:59:59Z">
                             <note rend="inline" type="source">Hopkins Papers</note>
                             <head><hi rend="italic">The Presidents Special Assistant</hi> (<persName
                                     type="from"><hi rend="italic">Hopkins</hi></persName>) <hi
@@ -14890,7 +15102,9 @@
                             <closer><signed>H[<hi rend="smallcaps">arry</hi>] L. H[<hi
                                         rend="smallcaps">opkins</hi>]</signed></closer>
                         </div>
-                        <div type="document" xml:id="d112" n="112">
+                        <div type="document" xml:id="d112" n="112"
+                            frus:doc-dateTime-min="1944-09-09T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">The <gloss type="from">President</gloss> to the
                                         <gloss type="to">Secretary of State</gloss></hi></head>
@@ -14957,7 +15171,9 @@
                                     >E.W.</gloss>/8–1344).</note></p>
                         </div>
                         <pb n="182" xml:id="pg_182" facs="0238"/>
-                        <div type="document" xml:id="d114" n="114">
+                        <div type="document" xml:id="d114" n="114"
+                            frus:doc-dateTime-min="1944-08-22T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-22T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -15022,7 +15238,9 @@
                                     the Chiefs of Staff of the three nations.</p>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d115" n="115">
+                        <div type="document" xml:id="d115" n="115"
+                            frus:doc-dateTime-min="1944-08-29T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-29T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the Representatives of the British
@@ -15185,7 +15403,9 @@
                                     </signed></closer>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d116" n="116">
+                        <div type="document" xml:id="d116" n="116"
+                            frus:doc-dateTime-min="1944-09-02T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-02T23:59:59Z">
                             <note rend="inline" type="source">860c.01/9–244: Telegram</note>
                             <head><hi rend="italic">The Chargé Near the Polish Government in
                                     Exile</hi> (<persName type="from"><hi rend="italic"
@@ -15234,7 +15454,9 @@
                                 </quote></p>
                         </div>
                         <pb n="186" xml:id="pg_186" facs="0242"/>
-                        <div type="document" xml:id="d117" n="117">
+                        <div type="document" xml:id="d117" n="117"
+                            frus:doc-dateTime-min="1944-09-04T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-04T23:59:59Z">
                             <note rend="inline" type="source">740.0011 <gloss target="#t_EW1"
                                     >E.W.</gloss>/9–444</note>
                             <head><hi rend="italic">The Chief of the Division of Eastern European
@@ -15338,7 +15560,9 @@
                                 <p><hi rend="smallcaps">Washington</hi>, September 4th, 1944.</p>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d118" n="118">
+                        <div type="document" xml:id="d118" n="118"
+                            frus:doc-dateTime-min="1944-09-04T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-04T23:59:59Z">
                             <note rend="inline" type="source">740.0011 <gloss target="#t_EW1"
                                     >E.W.</gloss>/9–444: Telegram</note>
                             <head><hi rend="italic">The Acting Political Adviser in Italy</hi>
@@ -15374,7 +15598,9 @@
                                 foregoing to attention of General Wilson.</p>
                             <closer><signed><hi rend="smallcaps">Offie</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d119" n="119">
+                        <div type="document" xml:id="d119" n="119"
+                            frus:doc-dateTime-min="1944-09-04T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-04T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">Prime Minister <persName type="from"
                                         >Churchill</persName> to President <persName type="to"
@@ -15453,7 +15679,9 @@
                             <closer><signed><gloss target="#t_Prime1"><hi rend="smallcaps"
                                             >Prime</hi></gloss></signed></closer>
                         </div>
-                        <div type="document" xml:id="d120" n="120">
+                        <div type="document" xml:id="d120" n="120"
+                            frus:doc-dateTime-min="1944-09-04T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-04T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">Prime Minister <persName type="from"
                                         >Churchill</persName> to President <persName type="to"
@@ -15523,7 +15751,9 @@
                             <closer><signed><gloss target="#t_Prime1"><hi rend="smallcaps"
                                             >Prime</hi></gloss></signed></closer>
                         </div>
-                        <div type="document" xml:id="d121" n="121">
+                        <div type="document" xml:id="d121" n="121"
+                            frus:doc-dateTime-min="1944-09-05T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-05T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">President <persName type="from"
                                         >Roosevelt</persName> to Prime Minister <persName type="to"
@@ -15560,7 +15790,9 @@
                                 war with the Nazis.</p>
                             <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d122" n="122">
+                        <div type="document" xml:id="d122" n="122"
+                            frus:doc-dateTime-min="1944-09-06T04:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T03:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Department of State Briefing Paper</hi><note
                                     n="1" xml:id="d122fn1">Annex 1 to Hull’s memorandum to Roosevelt
@@ -15682,7 +15914,9 @@
                                         problems through the Organization.</item>
                                 </list></p>
                         </div>
-                        <div type="document" xml:id="d123" n="123">
+                        <div type="document" xml:id="d123" n="123"
+                            frus:doc-dateTime-min="1944-09-06T04:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T03:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Department of State Briefing Paper</hi><note
                                     n="1" xml:id="d123fn1">Annex 2 to Hull’s memorandum to Roosevelt
@@ -15756,7 +15990,9 @@
                                 foundation.</p>
                         </div>
                         <pb n="194" xml:id="pg_194" facs="0250"/>
-                        <div type="document" xml:id="d124" n="124">
+                        <div type="document" xml:id="d124" n="124"
+                            frus:doc-dateTime-min="1944-09-06T04:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T03:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Department of State Briefing Paper</hi><note
                                     n="1" xml:id="d124fn1">Annex 3 to Hull’s memorandum to Roosevelt
@@ -15843,7 +16079,9 @@
                                 should move very slowly in extending any form of recognition to such
                                 a group.</p>
                         </div>
-                        <div type="document" xml:id="d125" n="125">
+                        <div type="document" xml:id="d125" n="125"
+                            frus:doc-dateTime-min="1944-09-09T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">The Deputy Director of the Office of European
@@ -16002,7 +16240,9 @@
                             </frus:attachment>
                         </div>
                         <pb n="198" xml:id="pg_198" facs="0254"/>
-                        <div type="document" xml:id="d126" n="126">
+                        <div type="document" xml:id="d126" n="126"
+                            frus:doc-dateTime-min="1944-09-09T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">The Ambassador in the Soviet Union</hi>
                                     (<persName type="from"><hi rend="italic"
@@ -16141,7 +16381,9 @@
                                         </quote></p>
                                 </note></p>
                         </div>
-                        <div type="document" xml:id="d127" n="127">
+                        <div type="document" xml:id="d127" n="127"
+                            frus:doc-dateTime-min="1944-09-10T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-10T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">The Ambassador in the United Kingdom</hi>
                                     (<persName type="from"><hi rend="italic">Winant</hi></persName>)
@@ -16320,7 +16562,9 @@
                                 </quote></p>
                         </div>
                         <pb n="203" xml:id="pg_203" facs="0259"/>
-                        <div type="document" xml:id="d128" n="128">
+                        <div type="document" xml:id="d128" n="128"
+                            frus:doc-dateTime-min="1944-09-10T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-10T23:59:59Z">
                             <note rend="inline" type="source">740.0011 <gloss target="#t_EW1"
                                     >E.W.</gloss>/9–1044: Telegram</note>
                             <head><hi rend="italic">The Ambassador in the Soviet Union</hi>
@@ -16380,7 +16624,9 @@
                             <closer><signed><hi rend="smallcaps">Harriman</hi></signed></closer>
                         </div>
                         <pb n="204" xml:id="pg_204" facs="0260"/>
-                        <div type="document" xml:id="d129" n="129">
+                        <div type="document" xml:id="d129" n="129"
+                            frus:doc-dateTime-min="1944-09-10T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-10T23:59:59Z">
                             <note rend="inline" type="source">740.0011 <gloss target="#t_EW1"
                                     >E.W.</gloss>/9–1044: Telegram</note>
                             <head><hi rend="italic">The Polish Prime Minister</hi> (<persName
@@ -16427,7 +16673,9 @@
                                 Mikołajczyk</hi></signed></closer>
                         </div>
                         <pb n="205" xml:id="pg_205" facs="0261"/>
-                        <div type="document" xml:id="d130" n="130">
+                        <div type="document" xml:id="d130" n="130"
+                            frus:doc-dateTime-min="1944-09-10T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-10T23:59:59Z">
                             <note rend="inline" type="source">Hopkins Papers: Telegram</note>
                             <head><hi rend="italic">The Polish Prime Minister</hi> (<persName
                                     type="from"><hi rend="italic">Mikołajczyk</hi></persName>) <hi
@@ -16468,7 +16716,9 @@
                             <closer><signed><hi rend="smallcaps">Stanislaw
                                 Mikołajczyk</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d131" n="131">
+                        <div type="document" xml:id="d131" n="131"
+                            frus:doc-dateTime-min="1944-09-10T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-10T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files: Telegram</note>
                             <head><hi rend="italic">The British Chiefs of Staff to the Supreme
@@ -16510,7 +16760,9 @@
                     </div>
                     <div type="subchapter" xml:id="ch2subch4">
                         <head>D. Italy</head>
-                        <div type="document" xml:id="d132" n="132">
+                        <div type="document" xml:id="d132" n="132"
+                            frus:doc-dateTime-min="1944-09-01T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-01T23:59:59Z">
                             <note rend="inline" type="source">865.48/9–144: Telegram</note>
                             <head><hi rend="italic">The Presidents Personal Representative at
                                     Vatican City</hi> (<persName type="from"><hi rend="italic"
@@ -16534,7 +16786,9 @@
                                 consultation without delay.</p>
                             <closer><signed><hi rend="smallcaps">Taylor</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d133" n="133">
+                        <div type="document" xml:id="d133" n="133"
+                            frus:doc-dateTime-min="1944-09-03T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-03T23:59:59Z">
                             <note rend="inline" type="source">865.48/9–144: Telegram</note>
                             <head><hi rend="italic">The <gloss type="from">President</gloss> to the
                                     President’s Personal Representative at Vatican City</hi>
@@ -16559,7 +16813,9 @@
                             <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                         </div>
                         <pb n="207" xml:id="pg_207" facs="0263"/>
-                        <div type="document" xml:id="d134" n="134">
+                        <div type="document" xml:id="d134" n="134"
+                            frus:doc-dateTime-min="1944-09-06T04:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T03:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Department of State Briefing Paper</hi><note
                                     n="1" xml:id="d134fn1">Annex 6 to Hull’s memorandum to Roosevelt
@@ -16754,7 +17010,9 @@
                                 disputed areas the employment of more Allied and fewer local Italian
                                 officials than elsewhere in Italy.</p>
                         </div>
-                        <div type="document" xml:id="d135" n="135">
+                        <div type="document" xml:id="d135" n="135"
+                            frus:doc-dateTime-min="1944-09-08T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-08T23:59:59Z">
                             <note rend="inline" type="source">Hopkins Papers</note>
                             <head><hi rend="italic">The Chief of the Economic Section of the Allied
                                     Control Commission for Italy</hi> (<persName type="from"><hi
@@ -16836,7 +17094,9 @@
                                 its functions placed in the hands of civilian experts.</p>
                         </div>
                         <pb n="212" xml:id="pg_212" facs="0268"/>
-                        <div type="document" xml:id="d136" n="136">
+                        <div type="document" xml:id="d136" n="136"
+                            frus:doc-dateTime-min="1944-09-08T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-08T23:59:59Z">
                             <note rend="inline" type="source">Department of the Army Files</note>
                             <head><hi rend="italic">The <gloss type="from">President</gloss> to the
                                     Secretary of War</hi> (<persName type="to"><hi rend="italic"
@@ -16862,7 +17122,9 @@
                     </div>
                     <div type="subchapter" xml:id="ch2subch5">
                         <head>E. Austria and the Balkans</head>
-                        <div type="document" xml:id="d137" n="137">
+                        <div type="document" xml:id="d137" n="137"
+                            frus:doc-dateTime-min="1944-09-06T04:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T03:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Department of State Briefing Paper</hi><note
                                     n="1" xml:id="d137fn1">Annex 7 to Hull’s memorandum to Roosevelt
@@ -16975,7 +17237,9 @@
                                 operations will of necessity require considerable improvisation, but
                                 should present no major problems.</p>
                         </div>
-                        <div type="document" xml:id="d138" n="138">
+                        <div type="document" xml:id="d138" n="138"
+                            frus:doc-dateTime-min="1944-09-06T04:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T03:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Department of State Briefing Paper</hi><note
                                     n="1" xml:id="d138fn1">Annex 8 to Hull’s memorandum to Roosevelt
@@ -17062,7 +17326,9 @@
                                 war.</p>
                         </div>
                         <pb n="216" xml:id="pg_216" facs="0272"/>
-                        <div type="document" xml:id="d139" n="139">
+                        <div type="document" xml:id="d139" n="139"
+                            frus:doc-dateTime-min="1944-09-06T04:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T03:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Memorandum by the Assistant to the President’s
                                     Naval Aide</hi> (<hi rend="italic">Elsey</hi>)<note n="1"
@@ -17221,7 +17487,9 @@
                     </div>
                     <div type="subchapter" xml:id="ch2subch6">
                         <head>F. Basic strategy and policies for the conduct of the war</head>
-                        <div type="document" xml:id="d140" n="140">
+                        <div type="document" xml:id="d140" n="140"
+                            frus:doc-dateTime-min="1944-08-22T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-22T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -17306,7 +17574,9 @@
                                         invasion of Japan.</item>
                                 </list></p>
                         </div>
-                        <div type="document" xml:id="d141" n="141">
+                        <div type="document" xml:id="d141" n="141"
+                            frus:doc-dateTime-min="1944-09-02T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-02T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the Representatives of the British
@@ -17385,7 +17655,9 @@
                             <p>2. In all other respects the proposals put forward are acceptable to
                                 the British Chiefs of Staff.</p>
                         </div>
-                        <div type="document" xml:id="d142" n="142">
+                        <div type="document" xml:id="d142" n="142"
+                            frus:doc-dateTime-min="1944-09-08T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-08T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -17466,7 +17738,9 @@
                     </div>
                     <div type="subchapter" xml:id="ch2subch7">
                         <head>G. The war in Europe and the Mediterranean</head>
-                        <div type="document" xml:id="d143" n="143">
+                        <div type="document" xml:id="d143" n="143"
+                            frus:doc-dateTime-min="1944-08-29T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-29T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">Prime Minister <persName type="from"
                                         >Churchill</persName> to President <persName type="to"
@@ -17537,7 +17811,9 @@
                                 Hungary will be then I cannot imagine but we shall at any rate be in
                                 a position to take full advantage of any great new situation.</p>
                         </div>
-                        <div type="document" xml:id="d144" n="144">
+                        <div type="document" xml:id="d144" n="144"
+                            frus:doc-dateTime-min="1944-08-30T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-30T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">President <persName type="from"
                                         >Roosevelt</persName> to Prime Minister <persName type="to"
@@ -17586,7 +17862,9 @@
                                 >Octagon</hi></gloss>.</p>
                             <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d145" n="145">
+                        <div type="document" xml:id="d145" n="145"
+                            frus:doc-dateTime-min="1944-08-31T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-31T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">Prime Minister <persName type="from"
                                         >Churchill</persName> to President <persName type="to"
@@ -17648,7 +17926,9 @@
                                     Poitiers.</item>
                             </list>
                         </div>
-                        <div type="document" xml:id="d146" n="146">
+                        <div type="document" xml:id="d146" n="146"
+                            frus:doc-dateTime-min="1944-09-02T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-02T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files: Telegram</note>
                             <head><hi rend="italic">The Supreme Allied Commander, Mediterranean
@@ -17889,7 +18169,9 @@
                             </list>
                         </div>
                         <pb n="229" xml:id="pg_229" facs="0285"/>
-                        <div type="document" xml:id="d147" n="147">
+                        <div type="document" xml:id="d147" n="147"
+                            frus:doc-dateTime-min="1944-09-03T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-03T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">President <persName type="from"
                                         >Roosevelt</persName> to Prime Minister <persName type="to"
@@ -17937,7 +18219,9 @@
                                 first anticipated.</p>
                             <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d148" n="148">
+                        <div type="document" xml:id="d148" n="148"
+                            frus:doc-dateTime-min="1944-09-06T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-06T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Department of State Briefing Paper</hi><note
                                     n="1" xml:id="d148fn1">Annex 9 to Hull’s memorandum to Roosevelt
@@ -17995,7 +18279,9 @@
                                 of control or utilization of the field for post-war civil aviation
                                 purposes is involved.</p>
                         </div>
-                        <div type="document" xml:id="d149" n="149">
+                        <div type="document" xml:id="d149" n="149"
+                            frus:doc-dateTime-min="1944-09-08T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-08T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files: Telegram</note>
                             <head><hi rend="italic">The Supreme Allied Commander, Mediterranean
@@ -18113,7 +18399,9 @@
                                 under the command of Admiral Troubridge to the Aegean to carry out
                                 attacks on all enemy seaborne movement.</p>
                         </div>
-                        <div type="document" xml:id="d150" n="150">
+                        <div type="document" xml:id="d150" n="150"
+                            frus:doc-dateTime-min="1944-09-09T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files: Telegram</note>
                             <head><hi rend="italic">The Supreme Commander, Allied Expeditionary
@@ -18200,7 +18488,9 @@
                                 presented in the foregoing paragraphs.</p>
                         </div>
                         <pb n="234" xml:id="pg_234" facs="0290"/>
-                        <div type="document" xml:id="d151" n="151">
+                        <div type="document" xml:id="d151" n="151"
+                            frus:doc-dateTime-min="1944-09-09T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files: Telegram</note>
                             <head><hi rend="italic">The Supreme Commander, Allied Expeditionary
@@ -18414,7 +18704,9 @@
                                 successful conclusion. Priorities may change from time to time in
                                 accordance with the situation.</p>
                         </div>
-                        <div type="document" xml:id="d152" n="152">
+                        <div type="document" xml:id="d152" n="152"
+                            frus:doc-dateTime-min="1944-09-09T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Report by the Combined Intelligence
@@ -18765,7 +19057,9 @@
                     </div>
                     <div type="subchapter" xml:id="ch2subch8">
                         <head>H. The war in Asia and the Pacific</head>
-                        <div type="document" xml:id="d153" n="153">
+                        <div type="document" xml:id="d153" n="153"
+                            frus:doc-dateTime-min="1944-08-23T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-23T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the British Chiefs of
@@ -18927,7 +19221,9 @@
                             </list>
                         </div>
                         <pb n="247" xml:id="pg_247" facs="0303"/>
-                        <div type="document" xml:id="d154" n="154">
+                        <div type="document" xml:id="d154" n="154"
+                            frus:doc-dateTime-min="1944-08-26T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-26T23:59:59Z">
                             <note rend="inline" type="source">740.0011 <gloss target="#t_PW1"
                                     >PW</gloss>/8–2544</note>
                             <head><hi rend="italic">Memorandum by the Deputy Director of the Office
@@ -19104,7 +19400,9 @@
                                 <p><hi rend="smallcaps">Washington</hi>, August 25th, 1944.</p>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d155" n="155">
+                        <div type="document" xml:id="d155" n="155"
+                            frus:doc-dateTime-min="1944-08-26T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-26T23:59:59Z">
                             <note rend="inline" type="source">851g.00/8–2644</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to"
@@ -19150,7 +19448,9 @@
                                         rend="smallcaps">ull</hi>]</signed></closer>
                         </div>
                         <pb n="250" xml:id="pg_250" facs="0306"/>
-                        <div type="document" xml:id="d156" n="156">
+                        <div type="document" xml:id="d156" n="156"
+                            frus:doc-dateTime-min="1944-08-28T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-28T23:59:59Z">
                             <note rend="inline" type="source">740.0011 <gloss target="#t_PW1"
                                     >P.W.</gloss>/8–2544</note>
                             <head><hi rend="italic">The Director of the Office of Far Eastern
@@ -19248,7 +19548,9 @@
                             <closer><signed>J[<hi rend="smallcaps">oseph</hi>] C. G[<hi
                                         rend="smallcaps">rew</hi>]</signed></closer>
                         </div>
-                        <div type="document" xml:id="d157" n="157">
+                        <div type="document" xml:id="d157" n="157"
+                            frus:doc-dateTime-min="1944-08-28T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-28T23:59:59Z">
                             <note rend="inline" type="source">851g.01/8–2844</note>
                             <head><hi rend="italic">The <gloss type="from">President</gloss> to the
                                         <gloss type="to">Secretary of State</gloss></hi></head>
@@ -19281,7 +19583,9 @@
                             <closer><signed>F[<hi rend="smallcaps">ranklin</hi>] D. R[<hi
                                         rend="smallcaps">oosevelt</hi>]</signed></closer>
                         </div>
-                        <div type="document" xml:id="d158" n="158">
+                        <div type="document" xml:id="d158" n="158"
+                            frus:doc-dateTime-min="1944-08-29T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-29T23:59:59Z">
                             <note rend="inline" type="source">740.0011 <gloss target="#t_PW1"
                                     >P.W.</gloss>/8–2944</note>
                             <head><hi rend="italic">The <gloss type="from">Joint Chiefs of
@@ -19360,7 +19664,9 @@
                                     Navy<lb/>Chief of Staff to the Commander in Chief of the Army
                                     and Navy</hi></closer>
                         </div>
-                        <div type="document" xml:id="d159" n="159">
+                        <div type="document" xml:id="d159" n="159"
+                            frus:doc-dateTime-min="1944-08-29T00:00:00Z"
+                            frus:doc-dateTime-max="1944-08-29T23:59:59Z">
                             <note rend="inline" type="source">740.0011 Pacific War/8–2944</note>
                             <head><hi rend="italic">Memorandum by the Deputy Director of the Office
                                     of European Affairs</hi> (<hi rend="italic"
@@ -19428,7 +19734,9 @@
                             <closer><signed>H F[<hi rend="smallcaps">reeman</hi>] M[<hi
                                         rend="smallcaps">atthews</hi>]</signed></closer>
                         </div>
-                        <div type="document" xml:id="d160" n="160">
+                        <div type="document" xml:id="d160" n="160"
+                            frus:doc-dateTime-min="1944-09-01T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-01T23:59:59Z">
                             <note rend="inline" type="source">Hopkins Papers</note>
                             <head><hi rend="italic">The Ambassador in the United Kingdom</hi>
                                     (<persName type="from"><hi rend="italic">Winant</hi></persName>)
@@ -19526,7 +19834,9 @@
                             <closer><signed><hi rend="smallcaps">John Gilbert
                                 Winant</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d161" n="161">
+                        <div type="document" xml:id="d161" n="161"
+                            frus:doc-dateTime-min="1944-09-04T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-04T23:59:59Z">
                             <note rend="inline" type="source">Hopkins Papers</note>
                             <head><hi rend="italic">The Presidents Special Assistant</hi> (<persName
                                     type="from"><hi rend="italic">Hopkins</hi></persName>) <hi
@@ -19598,7 +19908,9 @@
                             <closer><signed><hi rend="smallcaps">Harry</hi> L. <hi rend="smallcaps"
                                         >Hopkins</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d162" n="162">
+                        <div type="document" xml:id="d162" n="162"
+                            frus:doc-dateTime-min="1944-09-08T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-08T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -19629,7 +19941,9 @@
                                 later be desired.</p>
                         </div>
                         <pb n="258" xml:id="pg_258" facs="0314"/>
-                        <div type="document" xml:id="d163" n="163">
+                        <div type="document" xml:id="d163" n="163"
+                            frus:doc-dateTime-min="1944-09-08T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-08T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files: Telegram</note>
                             <head><hi rend="italic">The Supreme Allied Commander, Southeast Asia
@@ -19817,7 +20131,9 @@
                                 continue with intention to harass enemy land and water lines of
                                 communication and continue tactical support of land forces.</p>
                         </div>
-                        <div type="document" xml:id="d164" n="164">
+                        <div type="document" xml:id="d164" n="164"
+                            frus:doc-dateTime-min="1944-09-08T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-08T23:59:59Z">
                             <note rend="inline" type="source">851g.01/9–844</note>
                             <head><hi rend="italic">The Chief of the Division of Southwest Pacific
                                     Affairs</hi> (<persName type="from"><hi rend="italic"
@@ -19845,7 +20161,9 @@
                                 development within the Department of necessary policies and
                                 procedures relating to the regions of Southeast Asia.</p>
                         </div>
-                        <div type="document" xml:id="d165" n="165">
+                        <div type="document" xml:id="d165" n="165"
+                            frus:doc-dateTime-min="1944-09-08T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-08T23:59:59Z">
                             <note rend="inline" type="source">851g.01/9–844</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to"
@@ -20063,7 +20381,9 @@
                                             rend="smallcaps">ull</hi>]</signed></closer>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d166" n="166">
+                        <div type="document" xml:id="d166" n="166"
+                            frus:doc-dateTime-min="1944-09-09T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -20255,7 +20575,9 @@
                                 foregoing.</p>
                         </div>
                         <pb n="267" xml:id="pg_267" facs="0323"/>
-                        <div type="document" xml:id="d167" n="167">
+                        <div type="document" xml:id="d167" n="167"
+                            frus:doc-dateTime-min="1944-09-09T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-09T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Report by the Combined Intelligence
@@ -20955,7 +21277,9 @@
                                     rend="italic">post</hi>, <ref target="#pg_477">p.
                                 477</ref>.</note></p>
                     </div>
-                    <div type="document" xml:id="d169" n="169">
+                    <div type="document" xml:id="d169" n="169"
+                        frus:doc-dateTime-min="1944-09-10T02:10:00Z"
+                        frus:doc-dateTime-max="1944-09-21T12:00:00Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">The Presidents Log</hi></head>
                         <dateline>
@@ -22202,7 +22526,9 @@
                                     <cell>Commander Coleridge</cell>
                                 </row>
                             </table>
-                            <div type="document" xml:id="d173" n="173">
+                            <div type="document" xml:id="d173" n="173"
+                                frus:doc-dateTime-min="1944-09-12T16:00:00Z"
+                                frus:doc-dateTime-max="1944-09-12T16:00:00Z">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <dateline>
@@ -22716,7 +23042,9 @@
                                     <cell>Commander Coleridge</cell>
                                 </row>
                             </table>
-                            <div type="document" xml:id="d175" n="175">
+                            <div type="document" xml:id="d175" n="175"
+                                frus:doc-dateTime-min="1944-09-12T18:30:00Z"
+                                frus:doc-dateTime-max="1944-09-12T18:30:00Z">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
@@ -23183,7 +23511,9 @@
                                     <cell/>
                                 </row>
                             </table>
-                            <div type="document" xml:id="d177" n="177">
+                            <div type="document" xml:id="d177" n="177"
+                                frus:doc-dateTime-min="1944-09-13T15:45:00Z"
+                                frus:doc-dateTime-max="1944-09-13T15:45:00Z">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">McFarland Minutes</hi></head>
@@ -23683,7 +24013,9 @@
                                 </row>
                             </table>
                             <pb n="320" xml:id="pg_320" facs="0380"/>
-                            <div type="document" xml:id="d179" n="179">
+                            <div type="document" xml:id="d179" n="179"
+                                frus:doc-dateTime-min="1944-09-13T18:30:00Z"
+                                frus:doc-dateTime-max="1944-09-13T18:30:00Z">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
@@ -24298,7 +24630,9 @@
                                     <cell>Mr. MacDougall</cell>
                                 </row>
                             </table>
-                            <div type="document" xml:id="d182" n="182">
+                            <div type="document" xml:id="d182" n="182"
+                                frus:doc-dateTime-min="1944-09-14T14:00:00Z"
+                                frus:doc-dateTime-max="1944-09-14T14:00:00Z">
                                 <note rend="inline" type="source">Treasury Files</note>
                                 <head><hi rend="italic">Memorandum by the Secretary of the
                                         Treasury’s Assistant</hi> (<hi rend="italic"
@@ -24516,7 +24850,9 @@
                                 </row>
                             </table>
                             <pb n="331" xml:id="pg_331" facs="0391"/>
-                            <div type="document" xml:id="d183" n="183">
+                            <div type="document" xml:id="d183" n="183"
+                                frus:doc-dateTime-min="1944-09-14T14:00:00Z"
+                                frus:doc-dateTime-max="1944-09-14T14:00:00Z">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
@@ -25319,7 +25655,9 @@
                                     Churchill had with Roosevelt and his advisers on the German
                                     question.</p>
                             </div>
-                            <div type="document" xml:id="d186" n="186">
+                            <div type="document" xml:id="d186" n="186"
+                                frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                                frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                                 <note rend="inline" type="source">Cherwell Papers</note>
                                 <head><hi rend="italic">Memorandum by the British
                                         Paymaster-General</hi> (<hi rend="italic"
@@ -25398,7 +25736,9 @@
                                     might be hoped would secure the approval of the United
                                     Nations.</p>
                             </div>
-                            <div type="document" xml:id="d187" n="187">
+                            <div type="document" xml:id="d187" n="187"
+                                frus:doc-dateTime-min="1944-09-14T15:30:00Z"
+                                frus:doc-dateTime-max="1944-09-14T15:30:00Z">
                                 <note rend="inline" type="source">Roosevelt Papers</note>
                                 <head><hi rend="italic">Memorandum by the British
                                         Paymaster-General</hi> (<hi rend="italic"
@@ -25963,7 +26303,9 @@
                                     <cell/>
                                 </row>
                             </table>
-                            <div type="document" xml:id="d193" n="193">
+                            <div type="document" xml:id="d193" n="193"
+                                frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                                frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Minutes</hi><note n="1" xml:id="d193fn1"
@@ -26258,7 +26600,9 @@
                                     <cell>Commander Coleridge</cell>
                                 </row>
                             </table>
-                            <div type="document" xml:id="d194" n="194">
+                            <div type="document" xml:id="d194" n="194"
+                                frus:doc-dateTime-min="1944-09-15T14:00:00Z"
+                                frus:doc-dateTime-max="1944-09-15T14:00:00Z">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
@@ -26627,7 +26971,9 @@
                                     <cell/>
                                 </row>
                             </table>
-                            <div type="document" xml:id="d195" n="195">
+                            <div type="document" xml:id="d195" n="195"
+                                frus:doc-dateTime-min="1944-09-15T15:00:00Z"
+                                frus:doc-dateTime-max="1944-09-15T15:00:00Z">
                                 <note rend="inline" type="source">Treasury Files</note>
                                 <head><hi rend="italic">Memorandum by the Secretary of the
                                         Treasury’s Assistant</hi> (<hi rend="italic"
@@ -27782,7 +28128,9 @@
                                 </row>
                             </table>
                             <pb n="373" xml:id="pg_373" facs="0433"/>
-                            <div type="document" xml:id="d207" n="207">
+                            <div type="document" xml:id="d207" n="207"
+                                frus:doc-dateTime-min="1944-09-16T14:15:00Z"
+                                frus:doc-dateTime-max="1944-09-16T14:15:00Z">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S</gloss> Files</note>
                                 <head><hi rend="italic">Joint Chiefs of Staff Minutes</hi></head>
@@ -27982,7 +28330,9 @@
                                 </row>
                             </table>
                             <pb n="375" xml:id="pg_375" facs="0435"/>
-                            <div type="document" xml:id="d208" n="208">
+                            <div type="document" xml:id="d208" n="208"
+                                frus:doc-dateTime-min="1944-09-16T14:15:00Z"
+                                frus:doc-dateTime-max="1944-09-16T14:15:00Z">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
@@ -28219,7 +28569,9 @@
                                     <cell>Major General Hollis</cell>
                                 </row>
                             </table>
-                            <div type="document" xml:id="d209" n="209">
+                            <div type="document" xml:id="d209" n="209"
+                                frus:doc-dateTime-min="1944-09-16T14:15:00Z"
+                                frus:doc-dateTime-max="1944-09-16T14:15:00Z">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">McFarland Minutes</hi></head>
@@ -28728,7 +29080,9 @@
                     <head>5. Conference Documents and Supplementary Papers:</head>
                     <div type="subchapter" xml:id="ch5subch1">
                         <head>A. Occupation and postwar treatment of Germany</head>
-                        <div type="document" xml:id="d213" n="213">
+                        <div type="document" xml:id="d213" n="213"
+                            frus:doc-dateTime-min="1944-09-11T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-11T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to"
@@ -28989,7 +29343,9 @@
                                 <p>3rd August, 1944.</p>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d214" n="214">
+                        <div type="document" xml:id="d214" n="214"
+                            frus:doc-dateTime-min="1944-09-11T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-11T23:59:59Z">
                             <note rend="inline" type="source">800.602/9–644</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to"
@@ -29040,7 +29396,9 @@
                             <p>Faithfully yours,</p>
                             <closer><signed><hi rend="smallcaps">Cordell Hull</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d215" n="215">
+                        <div type="document" xml:id="d215" n="215"
+                            frus:doc-dateTime-min="1944-09-13T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-13T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to"
@@ -29076,7 +29434,9 @@
                             <closer><signed>C[<hi rend="smallcaps">ordell</hi>] H[<hi
                                         rend="smallcaps">ull</hi>]</signed></closer>
                         </div>
-                        <div type="document" xml:id="d216" n="216">
+                        <div type="document" xml:id="d216" n="216"
+                            frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                             <note rend="inline" type="source">Morgenthau Papers</note>
                             <head><hi rend="italic">Memorandum by the Secretary of the Treasury</hi>
                                     (<hi rend="italic">Morgenthau</hi>)<note n="1" xml:id="d216fn1"
@@ -29114,7 +29474,9 @@
                                     1944</date>.</dateline>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d217" n="217">
+                        <div type="document" xml:id="d217" n="217"
+                            frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">The <gloss type="from">President</gloss> to the
                                         <gloss type="to">Secretary of State</gloss></hi><note n="1"
@@ -29146,7 +29508,9 @@
                                 Monday morning by the Prime Minister and his wife for a couple of
                                 days.</p>
                         </div>
-                        <div type="document" xml:id="d218" n="218">
+                        <div type="document" xml:id="d218" n="218"
+                            frus:doc-dateTime-min="1944-09-16T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-16T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum Approved by the Combined Chiefs of
@@ -29237,7 +29601,9 @@
                                 editorial note, <hi rend="italic">ante</hi>, <ref target="#pg_365"
                                     >p. 365</ref>.</p>
                         </div>
-                        <div type="document" xml:id="d220" n="220">
+                        <div type="document" xml:id="d220" n="220"
+                            frus:doc-dateTime-min="1944-09-20T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-20T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Memorandum by the President</hi></head>
                             <opener>
@@ -29261,7 +29627,9 @@
                     <pb n="393" xml:id="pg_393" facs="0453"/>
                     <div type="subchapter" xml:id="ch5subch2">
                         <head>B. Economic relations with the United Kingdom</head>
-                        <div type="document" xml:id="d221" n="221">
+                        <div type="document" xml:id="d221" n="221"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to"
@@ -29357,7 +29725,9 @@
                             <closer><signed>C[<hi rend="smallcaps">ordell</hi>] H[<hi
                                         rend="smallcaps">ull</hi>]</signed></closer>
                         </div>
-                        <div type="document" xml:id="d222" n="222">
+                        <div type="document" xml:id="d222" n="222"
+                            frus:doc-dateTime-min="1944-09-13T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-13T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to"
@@ -29442,7 +29812,9 @@
                                 September 15, 1944, see <hi rend="italic">post</hi>, <ref
                                     target="#pg_468">p. 468</ref>.</p>
                         </div>
-                        <div type="document" xml:id="d224" n="224">
+                        <div type="document" xml:id="d224" n="224"
+                            frus:doc-dateTime-min="1944-09-16T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-16T23:59:59Z">
                             <note rend="inline" type="source">Morgenthau Diary, vol. 772</note>
                             <head><hi rend="italic">The British Paymaster-General</hi> (<persName
                                     type="from"><hi rend="italic">Cherwell</hi></persName>) <hi
@@ -29490,7 +29862,9 @@
                     <div type="subchapter" xml:id="ch5subch3">
                         <head>C. Relations with the Soviet Union and aid to the Warsaw
                             resistance</head>
-                        <div type="document" xml:id="d225" n="225">
+                        <div type="document" xml:id="d225" n="225"
+                            frus:doc-dateTime-min="1944-09-11T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-11T23:59:59Z">
                             <note rend="inline" type="source">Hopkins Papers: Telegram</note>
                             <head><hi rend="italic">The President’s Special Assistant</hi>
                                     (<persName type="from"><hi rend="italic"
@@ -29542,7 +29916,9 @@
                                     signature ‘‘Harry L Hopkins”, but only the first name was to be
                                     transmitted.</note></closer>
                         </div>
-                        <div type="document" xml:id="d226" n="226">
+                        <div type="document" xml:id="d226" n="226"
+                            frus:doc-dateTime-min="1944-09-11T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-11T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">President <persName type="from"
                                         >Roosevelt</persName> to the Polish Prime Minister</hi>
@@ -29571,7 +29947,9 @@
                                 realize fully the urgent importance of this matter.</p>
                             <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d227" n="227">
+                        <div type="document" xml:id="d227" n="227"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source">Department of the Army Files:
                                 Telegram</note>
                             <head><hi rend="italic">The Chief of Staff, United States Army</hi>
@@ -29622,7 +30000,9 @@
                                 Warsaw such that delivery of supplies must be accomplished at
                                 earliest possible date.</p>
                         </div>
-                        <div type="document" xml:id="d228" n="228">
+                        <div type="document" xml:id="d228" n="228"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the Ambassador in the Soviet Union</hi>
@@ -29670,7 +30050,9 @@
                                 Warsaw garrison.</p>
                             <closer><signed><hi rend="smallcaps">Hull</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d229" n="229">
+                        <div type="document" xml:id="d229" n="229"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source">740.0011 <gloss target="#t_EW1"
                                     >E.W.</gloss>/9–1244</note>
                             <head><hi rend="italic">The <gloss type="from">Joint Chiefs of
@@ -29885,7 +30267,9 @@
                                     entry of Soviet forces into northern Norway.</p>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d230" n="230">
+                        <div type="document" xml:id="d230" n="230"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the British Chiefs of
@@ -29997,7 +30381,9 @@
                                 in Moscow be instructed to approach the Soviet General Staff with
                                 the proposal to establish a Combined Committee in Moscow.</p>
                         </div>
-                        <div type="document" xml:id="d231" n="231">
+                        <div type="document" xml:id="d231" n="231"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Note by the Secretaries of the Combined Chiefs
@@ -30086,7 +30472,9 @@
                                 </list>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d232" n="232">
+                        <div type="document" xml:id="d232" n="232"
+                            frus:doc-dateTime-min="1944-09-13T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-13T23:59:59Z">
                             <note rend="inline" type="source">Department of the Army Files:
                                 Telegram</note>
                             <head><hi rend="italic">The Chief of the Military Mission in the Soviet
@@ -30127,7 +30515,9 @@
                                 missions can attempt to secure here once they have been informed of
                                 the plan.</p>
                         </div>
-                        <div type="document" xml:id="d233" n="233">
+                        <div type="document" xml:id="d233" n="233"
+                            frus:doc-dateTime-min="1944-09-13T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-13T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">The Ambassador in the Soviet Union</hi>
                                     (<persName type="from"><hi rend="italic"
@@ -30166,7 +30556,9 @@
                                 promise of the Soviet Government to render assistance itself. I will
                                 see Molotov if a satisfactory answer is not obtained.</p>
                         </div>
-                        <div type="document" xml:id="d234" n="234">
+                        <div type="document" xml:id="d234" n="234"
+                            frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                             <note rend="inline" type="source">Department of the Army Files:
                                 Telegram</note>
                             <head><hi rend="italic">The Chief of Staff, United States Army</hi>
@@ -30199,7 +30591,9 @@
                                 Spaatz complete the arrangements and carry out the project as the
                                 two of you see fit.</p>
                         </div>
-                        <div type="document" xml:id="d235" n="235">
+                        <div type="document" xml:id="d235" n="235"
+                            frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                             <note rend="inline" type="source">Department of the Army Files:
                                 Telegram</note>
                             <head><hi rend="italic">The Chief of the Military Mission in the Soviet
@@ -30256,7 +30650,9 @@
                                     >Escom</hi></gloss> reduction.</p>
                         </div>
                         <pb n="407" xml:id="pg_407" facs="0469"/>
-                        <div type="document" xml:id="d236" n="236">
+                        <div type="document" xml:id="d236" n="236"
+                            frus:doc-dateTime-min="1944-09-16T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-16T23:59:59Z">
                             <note rend="inline" type="source">740.0011 <gloss target="#t_EW1"
                                     >EW</gloss>/9-1644: Telegram</note>
                             <head><hi rend="italic">The Chargé Near the Polish Government in
@@ -30312,7 +30708,9 @@
                     <pb n="408" xml:id="pg_408" facs="0470"/>
                     <div type="subchapter" xml:id="ch5subch4">
                         <head>D. Italy</head>
-                        <div type="document" xml:id="d237" n="237">
+                        <div type="document" xml:id="d237" n="237"
+                            frus:doc-dateTime-min="1944-09-11T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-11T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to"
@@ -30506,7 +30904,9 @@
                                     should be retained by Italy but completely demilitarized.</p>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d238" n="238">
+                        <div type="document" xml:id="d238" n="238"
+                            frus:doc-dateTime-min="1944-09-11T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-11T23:59:59Z">
                             <note rend="inline" type="source">865.48/9-1144: Telegram</note>
                             <head><hi rend="italic">The President’s Personal Representative at
                                     Vatican City</hi> (<persName type="from"><hi rend="italic"
@@ -30540,7 +30940,9 @@
                                 would seem deserving of careful study.</p>
                             <closer><signed><hi rend="smallcaps">Taylor</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d239" n="239">
+                        <div type="document" xml:id="d239" n="239"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source">865.48/9-1244: Telegram</note>
                             <head><hi rend="italic">The Representative on the Advisory Council for
                                     Italy</hi> (<persName type="from"><hi rend="italic"
@@ -30569,7 +30971,9 @@
                                 information on this subject.</p>
                             <closer><signed><hi rend="smallcaps">Kirk</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d240" n="240">
+                        <div type="document" xml:id="d240" n="240"
+                            frus:doc-dateTime-min="1944-09-13T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-13T23:59:59Z">
                             <note rend="inline" type="source">Hopkins Papers</note>
                             <head><hi rend="italic">The President’s Special Assistant</hi>
                                     (<persName type="from"><hi rend="italic"
@@ -30784,7 +31188,9 @@
                                             207</ref>.</note> is attached for your information.</p>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d241" n="241">
+                        <div type="document" xml:id="d241" n="241"
+                            frus:doc-dateTime-min="1944-09-13T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-13T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files: Telegram</note>
                             <head><hi rend="italic">The Supreme Allied Commander, Mediterranean
@@ -30900,7 +31306,9 @@
                                     Control Commission as soon as they are available.</item>
                             </list>
                         </div>
-                        <div type="document" xml:id="d242" n="242">
+                        <div type="document" xml:id="d242" n="242"
+                            frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Prime Minister <persName type="from"
                                         >Churchill</persName> to President <persName type="to"
@@ -30970,7 +31378,9 @@
                             <closer><signed>W[<hi rend="smallcaps">inston</hi> S. <hi
                                         rend="smallcaps">Churchill</hi>]</signed></closer>
                         </div>
-                        <div type="document" xml:id="d243" n="243">
+                        <div type="document" xml:id="d243" n="243"
+                            frus:doc-dateTime-min="1944-09-16T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-16T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic"><gloss type="from">Prime Minister
                                         Churchill</gloss> to President <persName type="to"
@@ -31006,7 +31416,9 @@
                     <pb n="419" xml:id="pg_419" facs="0481"/>
                     <div type="subchapter" xml:id="ch5subch5">
                         <head>E. Lend-lease for France</head>
-                        <div type="document" xml:id="d244" n="244">
+                        <div type="document" xml:id="d244" n="244"
+                            frus:doc-dateTime-min="1944-09-11T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-11T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <persName type="to"
@@ -31090,7 +31502,9 @@
                             <closer><signed>C[<hi rend="smallcaps">ordell</hi>] H[<hi
                                         rend="smallcaps">ull</hi>]</signed></closer>
                         </div>
-                        <div type="document" xml:id="d245" n="245">
+                        <div type="document" xml:id="d245" n="245"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">The President’s Special Assistant</hi>
                                     (<persName type="from"><hi rend="italic"
@@ -31128,7 +31542,9 @@
                                 Conference.</p></note></p>
                             <closer><signed><hi rend="smallcaps">Harry</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d246" n="246">
+                        <div type="document" xml:id="d246" n="246"
+                            frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">The Acting Secretary of the Treasury</hi>
                                     (<persName type="from"><hi rend="italic">Bell</hi></persName>)
@@ -31282,7 +31698,9 @@
                             <closer><signed><hi rend="smallcaps">Dan Bell</hi></signed></closer>
                         </div>
                         <pb n="423" xml:id="pg_423" facs="0485"/>
-                        <div type="document" xml:id="d247" n="247">
+                        <div type="document" xml:id="d247" n="247"
+                            frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">The President’s Special Assistant</hi>
                                     (<persName type="from"><hi rend="italic"
@@ -31308,7 +31726,9 @@
                             <closer><signed><hi rend="smallcaps">Harry
                                 Hopkins</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d248" n="248">
+                        <div type="document" xml:id="d248" n="248"
+                            frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">The Secretary of the Treasury</hi> (<persName
                                     type="from"><hi rend="italic">Morgenthau</hi></persName>) <hi
@@ -31354,7 +31774,9 @@
                     <pb n="424" xml:id="pg_424" facs="0486"/>
                     <div type="subchapter" xml:id="ch5subch7">
                         <head>G. Voting formula in the United Nations Security Council</head>
-                        <div type="document" xml:id="d250" n="250">
+                        <div type="document" xml:id="d250" n="250"
+                            frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">Marshal <persName type="from">Stalin</persName>
                                     to President <persName type="to"
@@ -31425,7 +31847,9 @@
                                     1944</date>.</dateline>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d251" n="251">
+                        <div type="document" xml:id="d251" n="251"
+                            frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">The Under Secretary of State</hi> (<persName
                                     type="from"><hi rend="italic">Stettinius</hi></persName>) <hi
@@ -31477,7 +31901,9 @@
                                     rend="italic">Under Secretary of State</hi></closer>
                         </div>
                         <pb n="426" xml:id="pg_426" facs="0488"/>
-                        <div type="document" xml:id="d252" n="252">
+                        <div type="document" xml:id="d252" n="252"
+                            frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">The Under Secretary of State</hi> (<persName
                                     type="from"><hi rend="italic">Stettinius</hi></persName>) <hi
@@ -31562,7 +31988,9 @@
                                     behalf by G. Hayden Raynor.</note><lb/><hi rend="italic">Under
                                     Secretary of State</hi></closer>
                         </div>
-                        <div type="document" xml:id="d253" n="253">
+                        <div type="document" xml:id="d253" n="253"
+                            frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">The <gloss type="from">President</gloss> to the
                                     Under Secretary of State</hi> (<persName type="to"><hi
@@ -31614,7 +32042,9 @@
                     <pb n="428" xml:id="pg_428" facs="0490"/>
                     <div type="subchapter" xml:id="ch5subch8">
                         <head>H. The war in Europe and the Mediterranean</head>
-                        <div type="document" xml:id="d254" n="254">
+                        <div type="document" xml:id="d254" n="254"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -31648,7 +32078,9 @@
                                             target="#pg_232">p. 232</ref>.</note></p>
                             </quote>
                         </div>
-                        <div type="document" xml:id="d255" n="255">
+                        <div type="document" xml:id="d255" n="255"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files: Telegram</note>
                             <head><hi rend="italic">The <gloss type="from">Combined Chiefs of
@@ -31694,7 +32126,9 @@
                             </list>
                         </div>
                         <pb n="429" xml:id="pg_429" facs="0491"/>
-                        <div type="document" xml:id="d256" n="256">
+                        <div type="document" xml:id="d256" n="256"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Piles</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -31734,7 +32168,9 @@
                                 The Fifteenth Air Force can best perform its mission by remaining at
                                 its Foggia bases.</p>
                         </div>
-                        <div type="document" xml:id="d257" n="257">
+                        <div type="document" xml:id="d257" n="257"
+                            frus:doc-dateTime-min="1944-09-13T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-13T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -31823,7 +32259,9 @@
                             </frus:attachment>
                         </div>
                         <pb n="431" xml:id="pg_431" facs="0493"/>
-                        <div type="document" xml:id="d258" n="258">
+                        <div type="document" xml:id="d258" n="258"
+                            frus:doc-dateTime-min="1944-09-13T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-13T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -31910,7 +32348,9 @@
                             </list>
                         </div>
                         <pb n="432" xml:id="pg_432" facs="0494"/>
-                        <div type="document" xml:id="d259" n="259">
+                        <div type="document" xml:id="d259" n="259"
+                            frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Note by the Secretaries of the Combined Chiefs
@@ -32112,7 +32552,9 @@
                                 </list>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d260" n="260">
+                        <div type="document" xml:id="d260" n="260"
+                            frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Draft Report by the <gloss type="from">Combined
@@ -32393,7 +32835,9 @@
                                         >p. 454</ref>.</note></p>
                             <p rend="center">. . . . . . . . . . . . . .</p>
                         </div>
-                        <div type="document" xml:id="d261" n="261">
+                        <div type="document" xml:id="d261" n="261"
+                            frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the British Chiefs of
@@ -32531,7 +32975,9 @@
                     </div>
                     <div type="subchapter" xml:id="ch5subch9">
                         <head>I. The war in Asia and the Pacific</head>
-                        <div type="document" xml:id="d262" n="262">
+                        <div type="document" xml:id="d262" n="262"
+                            frus:doc-dateTime-min="1944-09-11T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-11T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Note by the Secretaries of the Combined Chiefs
@@ -32573,7 +33019,9 @@
                                 </signed><lb/><hi rend="italic">Combined Secretariat</hi></closer>
                         </div>
                         <pb n="441" xml:id="pg_441" facs="0503"/>
-                        <div type="document" xml:id="d263" n="263">
+                        <div type="document" xml:id="d263" n="263"
+                            frus:doc-dateTime-min="1944-09-11T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-11T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the British Chiefs of
@@ -32610,7 +33058,9 @@
                                     of the Fleet in the main operations against Japan.</item>
                             </list>
                         </div>
-                        <div type="document" xml:id="d264" n="264">
+                        <div type="document" xml:id="d264" n="264"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Note by the Secretaries of the Combined Chiefs
@@ -32672,7 +33122,9 @@
                                     <hi rend="smallcaps">A. T. Cornwall-Jones</hi>
                                 </signed><lb/><hi rend="italic">Combined Secretariat</hi></closer>
                         </div>
-                        <div type="document" xml:id="d265" n="265">
+                        <div type="document" xml:id="d265" n="265"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the British Chiefs of
@@ -32709,7 +33161,9 @@
                                     requirements.</item>
                             </list>
                         </div>
-                        <div type="document" xml:id="d266" n="266">
+                        <div type="document" xml:id="d266" n="266"
+                            frus:doc-dateTime-min="1944-09-12T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-12T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -32928,7 +33382,9 @@
                             </frus:attachment>
                         </div>
                         <pb n="447" xml:id="pg_447" facs="0509"/>
-                        <div type="document" xml:id="d267" n="267">
+                        <div type="document" xml:id="d267" n="267"
+                            frus:doc-dateTime-min="1944-09-13T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-13T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -32966,7 +33422,9 @@
                                     Pacific.</item>
                             </list>
                         </div>
-                        <div type="document" xml:id="d268" n="268">
+                        <div type="document" xml:id="d268" n="268"
+                            frus:doc-dateTime-min="1944-09-13T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-13T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the British Chiefs of
@@ -33053,7 +33511,9 @@
                                         >Dracula</hi></gloss> in November 1945.</item>
                             </list>
                         </div>
-                        <div type="document" xml:id="d269" n="269">
+                        <div type="document" xml:id="d269" n="269"
+                            frus:doc-dateTime-min="1944-09-13T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-13T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Note by the Secretaries of the Combined Chiefs
@@ -33242,7 +33702,9 @@
                                     period 1 October 1944 to 1 April 1945.</p>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d270" n="270">
+                        <div type="document" xml:id="d270" n="270"
+                            frus:doc-dateTime-min="1944-09-13T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-13T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the British Chiefs of
@@ -33280,7 +33742,9 @@
                                     Germany.</item>
                             </list>
                         </div>
-                        <div type="document" xml:id="d271" n="271">
+                        <div type="document" xml:id="d271" n="271"
+                            frus:doc-dateTime-min="1944-09-13T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-13T23:59:59Z">
                             <note rend="inline" type="source">740.0011 <gloss target="#t_PW1"
                                     >P.W.</gloss>/9-1344: Telegram</note>
                             <head><hi rend="italic">The Chargé Near the Netherlands Government in
@@ -33351,7 +33815,9 @@
                                     regional source of supplies and labour.’”</p>
                             </quote>
                         </div>
-                        <div type="document" xml:id="d272" n="272">
+                        <div type="document" xml:id="d272" n="272"
+                            frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -33378,7 +33844,9 @@
                                 effort to fill at least part of the deficiency in resources for
                                 operations in that area.</p>
                         </div>
-                        <div type="document" xml:id="d273" n="273">
+                        <div type="document" xml:id="d273" n="273"
+                            frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -33427,7 +33895,9 @@
                             </list>
                         </div>
                         <pb n="454" xml:id="pg_454" facs="0516"/>
-                        <div type="document" xml:id="d274" n="274">
+                        <div type="document" xml:id="d274" n="274"
+                            frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Draft Report by the <gloss type="from">Combined
@@ -33629,7 +34099,9 @@
                                 Germany; this date to be adjusted periodically to conform to the
                                 course of the war.</p>
                         </div>
-                        <div type="document" xml:id="d275" n="275">
+                        <div type="document" xml:id="d275" n="275"
+                            frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers</note>
                             <head><hi rend="italic">Prime Minister <persName type="from"
                                         >Churchill</persName>’s Chief of Staff</hi> (<persName><hi
@@ -33684,7 +34156,9 @@
                                 <p>[<hi rend="smallcaps">Quebec</hi>,] 15.9.44.</p>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d276" n="276">
+                        <div type="document" xml:id="d276" n="276"
+                            frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the Commanding General, Army
@@ -34013,7 +34487,9 @@
                             </frus:attachment>
                         </div>
                         <pb n="460" xml:id="pg_460" facs="0522"/>
-                        <div type="document" xml:id="d277" n="277">
+                        <div type="document" xml:id="d277" n="277"
+                            frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Note by the Secretaries of the Combined Chiefs
@@ -34185,7 +34661,9 @@
                                 </postscript>
                             </frus:attachment>
                         </div>
-                        <div type="document" xml:id="d278" n="278">
+                        <div type="document" xml:id="d278" n="278"
+                            frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the British Chiefs of
@@ -34208,7 +34686,9 @@
                                 at the end of November, 1944.</p>
                         </div>
                         <pb n="463" xml:id="pg_463" facs="0525"/>
-                        <div type="document" xml:id="d279" n="279">
+                        <div type="document" xml:id="d279" n="279"
+                            frus:doc-dateTime-min="1944-09-16T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-16T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by Prime Minister Churchill</hi><note
@@ -34300,7 +34780,9 @@
                                     measure of United States assistance.</item>
                             </list>
                         </div>
-                        <div type="document" xml:id="d280" n="280">
+                        <div type="document" xml:id="d280" n="280"
+                            frus:doc-dateTime-min="1944-09-16T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-16T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Memorandum by the United States Chiefs of
@@ -34338,7 +34820,9 @@
                                     desired.</p>
                             </quote>
                         </div>
-                        <div type="document" xml:id="d281" n="281">
+                        <div type="document" xml:id="d281" n="281"
+                            frus:doc-dateTime-min="1944-09-16T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-16T23:59:59Z">
                             <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                             <head><hi rend="italic">President <persName type="from"
                                         >Roosevelt</persName> to Generalissimo <persName type="to"
@@ -34428,7 +34912,9 @@
                                 delays.</p>
                             <closer><signed><hi rend="smallcaps">Roosevelt</hi></signed></closer>
                         </div>
-                        <div type="document" xml:id="d282" n="282">
+                        <div type="document" xml:id="d282" n="282"
+                            frus:doc-dateTime-min="1944-09-19T00:00:00Z"
+                            frus:doc-dateTime-max="1944-09-19T23:59:59Z">
                             <note rend="inline" type="source"><gloss target="#t_JCS1">J.C.S.</gloss>
                                 Files</note>
                             <head><hi rend="italic">Note by the Secretaries of the Combined Chiefs
@@ -34459,7 +34945,9 @@
                         <head>J. Final documents of the Conference:</head>
                         <div type="subchapter" xml:id="ch5subsubch1">
                             <head>(1) Treatment of Germany</head>
-                            <div type="document" xml:id="d283" n="283">
+                            <div type="document" xml:id="d283" n="283"
+                                frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                                frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                                 <note rend="inline" type="source">Roosevelt Papers</note>
                                 <head><hi rend="italic">Memorandum Initialed by President <persName
                                             type="from">Roosevelt</persName> and Prime Minister
@@ -34514,7 +35002,9 @@
                                     <p>[<hi rend="smallcaps">Quebec</hi>,] September 15, 1944.</p>
                                 </postscript>
                             </div>
-                            <div type="document" xml:id="d284" n="284">
+                            <div type="document" xml:id="d284" n="284"
+                                frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                                frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                                 <note rend="inline" type="source">Roosevelt Papers</note>
                                 <head><hi rend="italic">Minute by President <persName type="from"
                                             >Roosevelt</persName> and Prime Minister <persName
@@ -34556,7 +35046,9 @@
                         <pb n="468" xml:id="pg_468" facs="0530"/>
                         <div type="subchapter" xml:id="ch5subsubch2">
                             <head>(2) Lend-lease to the United Kingdom</head>
-                            <div type="document" xml:id="d285" n="285">
+                            <div type="document" xml:id="d285" n="285"
+                                frus:doc-dateTime-min="1944-09-14T00:00:00Z"
+                                frus:doc-dateTime-max="1944-09-14T23:59:59Z">
                                 <note rend="inline" type="source">Roosevelt Papers</note>
                                 <head><hi rend="italic">Memorandum Initialed by President Roosevelt
                                         and Prime Minister Churchill</hi><note n="1"
@@ -34630,7 +35122,9 @@
                         <div type="subchapter" xml:id="ch5subsubch3">
                             <head>(3) Relations with the French Committee of National
                                 Liberation</head>
-                            <div type="document" xml:id="d286" n="286">
+                            <div type="document" xml:id="d286" n="286"
+                                frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                                frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                                 <note rend="inline" type="source">Roosevelt Papers</note>
                                 <head><hi rend="italic">Minute by President <persName type="from"
                                             >Roosevelt</persName> and Prime Minister <persName
@@ -34672,7 +35166,9 @@
                         </div>
                         <div type="subchapter" xml:id="ch5subsubch4">
                             <head>(4) Military conclusions of the Conference</head>
-                            <div type="document" xml:id="d287" n="287">
+                            <div type="document" xml:id="d287" n="287"
+                                frus:doc-dateTime-min="1944-09-16T00:00:00Z"
+                                frus:doc-dateTime-max="1944-09-16T23:59:59Z">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">The <gloss type="from">Combined Chiefs of
@@ -35246,7 +35742,9 @@
                                                 >Dracula</hi></gloss> in November 1945.</p>
                                 </frus:attachment>
                             </div>
-                            <div type="document" xml:id="d288" n="288">
+                            <div type="document" xml:id="d288" n="288"
+                                frus:doc-dateTime-min="1944-09-16T00:00:00Z"
+                                frus:doc-dateTime-max="1944-09-16T23:59:59Z">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Communiqué</hi><note n="1" xml:id="d288fn1"
@@ -35280,7 +35778,9 @@
                                     enemy.</p>
                             </div>
                             <pb n="478" xml:id="pg_478" facs="0542"/>
-                            <div type="document" xml:id="d289" n="289">
+                            <div type="document" xml:id="d289" n="289"
+                                frus:doc-dateTime-min="1944-09-16T00:00:00Z"
+                                frus:doc-dateTime-max="1944-09-16T23:59:59Z">
                                 <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                                 <head><hi rend="italic">President <persName type="from"
                                             >Roosevelt</persName> and Prime Minister Churchill to
@@ -35382,7 +35882,9 @@
                                         <hi rend="smallcaps">Churchill</hi>
                                     </signed></closer>
                             </div>
-                            <div type="document" xml:id="d290" n="290">
+                            <div type="document" xml:id="d290" n="290"
+                                frus:doc-dateTime-min="1944-09-16T00:00:00Z"
+                                frus:doc-dateTime-max="1944-09-16T23:59:59Z">
                                 <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                                 <head><hi rend="italic">President <persName type="from"
                                             >Roosevelt</persName> and Prime Minister Churchill to
@@ -35544,7 +36046,9 @@
                             271-272, and in Pawle, p. 324, but these sources add no information on
                             the substance of the Roosevelt-Churchill conversations.</p>
                     </div>
-                    <div type="document" xml:id="d292" n="292">
+                    <div type="document" xml:id="d292" n="292"
+                        frus:doc-dateTime-min="1944-09-15T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-15T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">The Secretary of War</hi> (<persName type="from"><hi
                                     rend="italic">Stimson</hi></persName>) <hi rend="italic">to the
@@ -35670,7 +36174,9 @@
                         <closer><signed><hi rend="smallcaps">Henry L Stimson</hi></signed><lb/><hi
                                 rend="italic">Secretary of War</hi></closer>
                     </div>
-                    <div type="document" xml:id="d293" n="293">
+                    <div type="document" xml:id="d293" n="293"
+                        frus:doc-dateTime-min="1944-09-16T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-16T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">The Deputy Director of the Office of European
                                 Affairs</hi> (<persName type="from"><hi rend="italic"
@@ -35726,7 +36232,9 @@
                         <closer><signed>H F[<hi rend="smallcaps">reeman</hi>] M[<hi rend="smallcaps"
                                     >atthews</hi>]</signed></closer>
                     </div>
-                    <div type="document" xml:id="d294" n="294">
+                    <div type="document" xml:id="d294" n="294"
+                        frus:doc-dateTime-min="1944-09-17T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-17T23:59:59Z">
                         <note rend="inline" type="source">840.50/9-1744</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the <gloss type="to">President</gloss></hi><note n="1"
@@ -35773,7 +36281,9 @@
                                     >chilles</hi>].”</note></closer>
                     </div>
                     <pb n="487" xml:id="pg_487" facs="0551"/>
-                    <div type="document" xml:id="d295" n="295">
+                    <div type="document" xml:id="d295" n="295"
+                        frus:doc-dateTime-min="1944-09-17T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-17T23:59:59Z">
                         <note rend="inline" type="source">Hopkins Papers</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the <gloss type="to">President</gloss></hi><note n="1"
@@ -35908,7 +36418,9 @@
                                     >ull</hi>]</signed></closer>
                     </div>
                     <pb n="489" xml:id="pg_489" facs="0553"/>
-                    <div type="document" xml:id="d296" n="296">
+                    <div type="document" xml:id="d296" n="296"
+                        frus:doc-dateTime-min="1944-09-17T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-17T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">Draft by Prime Minister Churchill</hi><note n="1"
                                 xml:id="d296fn1">Cf. the agreed minute on war criminals which
@@ -36011,7 +36523,9 @@
                                     Hyde Park.</note></dateline>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d297" n="297">
+                    <div type="document" xml:id="d297" n="297"
+                        frus:doc-dateTime-min="1944-09-18T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-18T23:59:59Z">
                         <note rend="inline" type="source"><gloss target="#t_PR1">PR</gloss> 10
                             Foreign Relations of U.S./8-20-71: Telegram</note>
                         <head><hi rend="italic">Prime Minister <persName type="from"
@@ -36081,7 +36595,9 @@
                                     <date when="1944-09-18">September 18, 1944</date>.</dateline>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d298" n="298">
+                    <div type="document" xml:id="d298" n="298"
+                        frus:doc-dateTime-min="1944-09-18T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-18T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
                         <head><hi rend="italic">The Ambassador in the United Kingdom</hi> (<persName
                                 type="from"><hi rend="italic">Winant</hi></persName>) <hi
@@ -36115,7 +36631,9 @@
                                 authorities. See Craven and Cate, pp. 316-317.</note></p>
                     </div>
                     <pb n="492" xml:id="pg_492" facs="0556"/>
-                    <div type="document" xml:id="d299" n="299">
+                    <div type="document" xml:id="d299" n="299"
+                        frus:doc-dateTime-min="1944-09-19T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-19T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">Aide-Mémoire Initialed by President <persName
                                     type="from">Roosevelt</persName> and Prime Minister <persName
@@ -36215,7 +36733,9 @@
                                     >inston</hi>] S C[<hi rend="smallcaps">hurchill</hi>]
                                 <lb/>18.9   </signed></closer>
                     </div>
-                    <div type="document" xml:id="d300" n="300">
+                    <div type="document" xml:id="d300" n="300"
+                        frus:doc-dateTime-min="1944-09-19T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-19T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">The <gloss type="from">President</gloss> to the
                                     <gloss type="to">Secretary of State</gloss></hi></head>
@@ -36234,7 +36754,9 @@
                         <closer><signed>F[<hi rend="smallcaps">ranklin</hi>] D. R[<hi
                                     rend="smallcaps">oosevelt</hi>]</signed></closer>
                     </div>
-                    <div type="document" xml:id="d301" n="301">
+                    <div type="document" xml:id="d301" n="301"
+                        frus:doc-dateTime-min="1944-09-19T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-19T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">Draft of a Statement by President <persName
                                     type="from">Roosevelt</persName> and Prime Minister <persName
@@ -36300,7 +36822,9 @@
                                 sentence: “and when Italy can begin to take her own high place in
                                 the great family of democratic nations.”</note></p>
                     </div>
-                    <div type="document" xml:id="d302" n="302">
+                    <div type="document" xml:id="d302" n="302"
+                        frus:doc-dateTime-min="1944-09-19T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-19T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">Draft of a Statement by President <persName
                                     type="from">Roosevelt</persName> and Prime Minister <persName
@@ -36459,7 +36983,9 @@
                             papers of September 27. For final text, see <hi rend="italic"
                                 >infra.</hi></p>
                     </div>
-                    <div type="document" xml:id="d304" n="304">
+                    <div type="document" xml:id="d304" n="304"
+                        frus:doc-dateTime-min="1944-09-26T00:00:00Z"
+                        frus:doc-dateTime-max="1944-09-26T23:59:59Z">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">White House Press Release</hi><note n="1"
                                 xml:id="d304fn1">Printed in the Department of State <hi
