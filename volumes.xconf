@@ -6,7 +6,12 @@
 
         <!-- Lucene index configuration -->
         <lucene>
-            <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer"/>
+            <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer">
+                <!-- Specify stop words - or remove them entirely -->
+                <param name="stopwords" type="org.apache.lucene.analysis.util.CharArraySet">
+                    <!--<value>the</value>-->
+                </param>
+            </analyzer>
             <text qname="tei:div"/>
         </lucene>
 
