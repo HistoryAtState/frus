@@ -6038,15 +6038,15 @@
                         <frus:pdf bytes="350412" readable="342 KB"/>
                     </div>
                     <div type="document" n="286" xml:id="d286"
-                        frus:doc-dateTime-min="1963-01-22T00:00:00Z">
+                        frus:doc-dateTime-min="1963-01-22T00:00:00Z"
+                        frus:doc-dateTime-max="1963-01-22T23:59:59Z">
                         <head>286. Notes on Remarks of President Kennedy prepared by a “CIA
                             Rapporteur,” undated. President Kennedy’s remarks to National Security
                             Council on January 22. Secret. 7 pp. Kennedy Library, National Security
                             Files, Meetings and Memoranda Series, 508th NSC Meeting.</head>
                         <dateline>
-                            <date notBefore="1963-01-22"
-                                ana="#date_undated-inferred-from-document-head">January 22,
-                                1963</date>
+                            <date when="1963-01-22" ana="#date_undated-inferred-from-document-head"
+                                >January 22, 1963</date>
                         </dateline>
                         <frus:file id="1901" path="0021/0067.TIF"/>
                         <frus:file id="1902" path="0021/0068.TIF"/>
