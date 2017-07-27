@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1918Russiav03">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1918Russiav03">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -60,6 +60,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2016-02-02 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -14321,10 +14324,17 @@
                             <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">July 17,
                                     1918.</hi></p>
                         </div>
-                        <div type="document" xml:id="d187" n="187">
+                        <div type="document" xml:id="d187" n="187"
+                            frus:doc-dateTime-min="1918-07-26T00:00:00Z"
+                            frus:doc-dateTime-max="1918-07-26T23:59:59Z">
                             <note rend="inline" type="source">File No. 861.00/2568</note>
                             <head><hi rend="italic">The <gloss type="from">British Embassy</gloss>
                                     to the <gloss type="to">Department of State</gloss></hi></head>
+                            <dateline>
+                                <date when="1918-07-26"
+                                    ana="#date_undated-inferred-from-document-content">[July 26,
+                                    1918]</date>
+                            </dateline>
                             <p>[A copy of the following paraphrase of a telegram was left at the
                                 Department of State on July 26, 1918:]</p>
                             <frus:attachment>
