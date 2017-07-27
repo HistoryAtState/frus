@@ -14109,7 +14109,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d64" n="64">
+                        <div type="document" xml:id="d64" n="64"
+                            frus:doc-dateTime-min="1917-08-10T00:00:00Z"
+                            frus:doc-dateTime-max="1917-08-10T23:59:59Z">
                             <note rend="inline" type="source">File No. 600.119/316</note>
                             <head>
                                 <hi rend="italic">The <gloss type="from">Department of State</gloss>
@@ -14129,10 +14131,12 @@
                                 August 1, 1917, from the Secretary of Commerce with reference to the
                                 issuance of licenses for the shipment of iron and steel plates, pig
                                 iron, iron and steel scrap and steel billets.</p>
-                            <p>
-                                <hi rend="smallcaps">Washington</hi>, <hi rend="italic">August 10,
-                                    1917.</hi>
-                            </p>
+                            <closer>
+                                <dateline>
+                                    <placeName><hi rend="smallcaps">Washington</hi></placeName>,
+                                        <date when="1917-08-10"><hi rend="italic">August 10,
+                                            1917</hi></date>.</dateline>
+                            </closer>
                             <pb n="920" xml:id="pg_920" facs="0166"/>
                             <frus:attachment>
                                 <opener>
