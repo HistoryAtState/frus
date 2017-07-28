@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1914-20v02">
+    xml:id="frus1914-20v02" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -62,6 +62,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2014-04-22 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -7350,7 +7353,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d30" n="30">
+                    <div type="document" xml:id="d30" n="30"
+                        frus:doc-dateTime-min="1917-08-11T00:00:00Z"
+                        frus:doc-dateTime-max="1917-08-11T23:59:59Z">
                         <note rend="inline" type="source">763.72119/791½</note>
                         <head>
                             <hi rend="italic">Memorandum by the British Ambassador</hi> (<hi
@@ -7370,12 +7375,14 @@
                             attendance at the Stockholm conference.</p>
                         <p>The British Government would be very grateful for an intimation of the
                             views of the government of the United States.</p>
-                        <p>
-                            <placeName>
-                                <hi rend="smallcaps">Washington</hi>
-                            </placeName>, <date when="1917-08-11">
-                                <hi rend="italic">11 August, 1917</hi>
-                            </date>.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1917-08-11">
+                                    <hi rend="italic">11 August, 1917</hi>
+                                </date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d31" n="31"
                         frus:doc-dateTime-min="1917-08-13T00:00:00Z"
@@ -9822,7 +9829,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d61" n="61">
+                    <div type="document" xml:id="d61" n="61"
+                        frus:doc-dateTime-min="1918-01-24T00:00:00Z"
+                        frus:doc-dateTime-max="1918-01-24T23:59:59Z">
                         <note rend="inline" type="source">763.72119/1271½</note>
                         <head>
                             <hi rend="italic">Mr. <persName type="from">Frank E. Anderson</persName>
@@ -10384,15 +10393,13 @@
                             <signed>
                                 <hi rend="smallcaps">Frank E. Anderson</hi>
                             </signed>
-                        </closer>
-                        <postscript>
-                            <p>
+                            <dateline>
                                 <placeName>
                                     <hi rend="smallcaps">Washington</hi>
                                 </placeName>, <date when="1918-01-24">
                                     <hi rend="italic">January 24, 1918</hi>
-                                </date>.</p>
-                        </postscript>
+                                </date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="86" xml:id="pg_86" facs="0132"/>
                     <div type="document" xml:id="d62" n="62"
@@ -14864,8 +14871,8 @@
                             hazardous to treat separately any part of the whole.</p>
                     </div>
                     <div type="document" xml:id="d116" n="116"
-                        frus:doc-dateTime-min="1918-10-01T00:00:00Z"
-                        frus:doc-dateTime-max="1918-10-01T23:59:59Z">
+                        frus:doc-dateTime-min="1918-10-01T16:00:00Z"
+                        frus:doc-dateTime-max="1918-10-01T16:00:00Z">
                         <note rend="inline" type="source">763.72119/2024½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of an Oral
@@ -14875,7 +14882,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">[<placeName><hi rend="smallcaps"
-                                        >Washington</hi></placeName>,] <date when="1918-10-01">
+                                        >Washington</hi></placeName>,] <date
+                                    when="1918-10-01T12:00:00-04:00">
                                     <hi rend="italic">October 1, 1918—noon</hi>
                                 </date>.</dateline>
                         </opener>
@@ -14892,19 +14900,23 @@
                             to the Allies, and the use and control of Bulgarian Railways. I have an
                             impression that he said that the Bulgarians were also to deliver over to
                             the Allies all war supplies in their possession.</p>
-                        <p rend="right">
-                            <date when="1918-10-01T16:20:00">
-                                <hi rend="smallcaps">October</hi> 1, 1918—4:20 <hi rend="smallcaps"
-                                    >p. m.</hi>
-                            </date>
-                        </p>
-                        <p>I orally informed the President of the foregoing. He had previously
-                            handed me the annexed memorandum,<note n="9" xml:id="d116fn1">
-                                <hi rend="italic">Supra</hi>.</note> which he had prepared on
-                            receipt of my letter of September 30th.</p>
-                        <closer>
-                            <signed>R. L.</signed>
-                        </closer>
+                        <postscript>
+                            <opener>
+                                <dateline>
+                                    <date when="1918-10-01T16:20:00">
+                                        <hi rend="smallcaps">October</hi> 1, 1918—4:20 <hi
+                                            rend="smallcaps">p. m.</hi>
+                                    </date>
+                                </dateline>
+                            </opener>
+                            <p>I orally informed the President of the foregoing. He had previously
+                                handed me the annexed memorandum,<note n="9" xml:id="d116fn1">
+                                    <hi rend="italic">Supra</hi>.</note> which he had prepared on
+                                receipt of my letter of September 30th.</p>
+                            <closer>
+                                <signed>R. L.</signed>
+                            </closer>
+                        </postscript>
                     </div>
                     <div type="document" xml:id="d117" n="117"
                         frus:doc-dateTime-min="1918-10-04T00:00:00Z"
@@ -23470,7 +23482,9 @@
                     </closer>
                 </div>
                 <pb n="309" xml:id="pg_309" facs="0355"/>
-                <div type="document" xml:id="d151" n="151">
+                <div type="document" xml:id="d151" n="151"
+                    frus:doc-dateTime-min="1915-04-04T21:30:00Z"
+                    frus:doc-dateTime-max="1916-05-02T13:15:00Z">
                     <note rend="inline" type="source">123 F 84/16: Telegram</note>
                     <head>
                         <hi rend="italic">The Ambassador in Russia</hi> (<persName type="from"><hi
@@ -23481,8 +23495,12 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>
-                                <hi rend="smallcaps">Petrograd</hi></placeName>, <hi rend="italic"
-                                >undated</hi>.<lb/>[Received May 2, 1916—8:15 a. m.]</dateline>
+                                <hi rend="smallcaps">Petrograd</hi></placeName>, <date
+                                notBefore="1915-04-05T00:00:00+02:30"
+                                notAfter="1916-05-02T08:15:00-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates">
+                                <hi rend="italic">undated</hi>
+                            </date>.<lb/>[Received May 2, 1916—8:15 a. m.]</dateline>
                     </opener>
                     <p>526. Took charge 28th on arrival. Dearing<note n="2" xml:id="d151fn1">F. M.
                             Dearing, counselor of embassy.</note> had arranged with Foreign Office
@@ -23754,40 +23772,45 @@
                         tomorrow, I again advocated direct commercial relations without any
                         intermediary, and he was in full accord with such policy.</p>
                     <p rend="center">. . . . . . . . . . . . . . . .</p>
-                    <p rend="right">
-                        <date when="1916-05-08">
-                            <hi rend="smallcaps">May</hi> 8, 1916</date>.</p>
-                    <p>I was called upon this morning by Mr. William P. Simms who has come to
-                        Petrograd as a representative of the United Press of America, for the
-                        purpose of establishing an office of that Association here. He has been its
-                        representative in Paris for six or seven years past, and is very familiar
-                        with conditions in France. He tells me confidentially that the conference
-                        held in Paris not a great while ago between representatives of the Allies
-                        cemented still more closely the bonds between them, and that at that
-                        conference a plan was made to have an advance made upon German forces
-                        simultaneously by all of the allied armies. It is reported that 20,000
-                        Russian troops were landed at Marseilles some days ago and that others are
-                        en route there. A large number of Russian troops are passing through
-                        Petrograd daily; of course, no one knows their destination. Discipline camps
-                        are stationed throughout the city and in the suburbs where new men are being
-                        drilled. The Emperor spends most of his time at the front; he told me that
-                        he was in haste to receive me because he was going <pb n="315"
-                            xml:id="pg_315" facs="0361"/>to return to the front on Sunday,—I saw him
-                        on Friday. I am still endeavoring to ascertain more about the economic
-                        conference to be held in Paris between the Allies on May 19; that must be
-                        Russian time which, according to our calendar, will be June first, because
-                        the representatives from Russia have not yet left for Paris.</p>
-                    <p>M. Viviani, ex-Premier of France, arrived here last Saturday, but his arrival
-                        was not given to the public prints; in fact, when he cleared from England in
-                        a man of war, it was announced that he was going to return to France. This
-                        information was imparted to me by Mr. Simms who came into Petrograd on the
-                        same train with M. Viviani.</p>
-                    <p>Sincerely yours,</p>
-                    <closer>
-                        <signed>
-                            <hi rend="smallcaps">David R. Francis</hi>
-                        </signed>
-                    </closer>
+                    <postscript>
+                        <opener>
+                            <dateline>
+                                <date when="1916-05-08">
+                                    <hi rend="smallcaps">May</hi> 8, 1916</date>.</dateline>
+                        </opener>
+                        <p>I was called upon this morning by Mr. William P. Simms who has come to
+                            Petrograd as a representative of the United Press of America, for the
+                            purpose of establishing an office of that Association here. He has been
+                            its representative in Paris for six or seven years past, and is very
+                            familiar with conditions in France. He tells me confidentially that the
+                            conference held in Paris not a great while ago between representatives
+                            of the Allies cemented still more closely the bonds between them, and
+                            that at that conference a plan was made to have an advance made upon
+                            German forces simultaneously by all of the allied armies. It is reported
+                            that 20,000 Russian troops were landed at Marseilles some days ago and
+                            that others are en route there. A large number of Russian troops are
+                            passing through Petrograd daily; of course, no one knows their
+                            destination. Discipline camps are stationed throughout the city and in
+                            the suburbs where new men are being drilled. The Emperor spends most of
+                            his time at the front; he told me that he was in haste to receive me
+                            because he was going <pb n="315" xml:id="pg_315" facs="0361"/>to return
+                            to the front on Sunday,—I saw him on Friday. I am still endeavoring to
+                            ascertain more about the economic conference to be held in Paris between
+                            the Allies on May 19; that must be Russian time which, according to our
+                            calendar, will be June first, because the representatives from Russia
+                            have not yet left for Paris.</p>
+                        <p>M. Viviani, ex-Premier of France, arrived here last Saturday, but his
+                            arrival was not given to the public prints; in fact, when he cleared
+                            from England in a man of war, it was announced that he was going to
+                            return to France. This information was imparted to me by Mr. Simms who
+                            came into Petrograd on the same train with M. Viviani.</p>
+                        <p>Sincerely yours,</p>
+                        <closer>
+                            <signed>
+                                <hi rend="smallcaps">David R. Francis</hi>
+                            </signed>
+                        </closer>
+                    </postscript>
                 </div>
                 <div type="document" xml:id="d154" n="154"
                     frus:doc-dateTime-min="1916-07-25T00:00:00Z"
@@ -24016,8 +24039,8 @@
                 </div>
                 <pb n="320" xml:id="pg_320" facs="0366"/>
                 <div type="document" xml:id="d156" n="156"
-                    frus:doc-dateTime-min="1917-01-29T00:00:00Z"
-                    frus:doc-dateTime-max="1917-01-29T23:59:59Z">
+                    frus:doc-dateTime-min="1917-02-11T00:00:00Z"
+                    frus:doc-dateTime-max="1917-02-11T23:59:59Z">
                     <note rend="inline" type="source">763.72/3172½</note>
                     <head>
                         <hi rend="italic">The Ambassador in Russia</hi> (<persName type="from"><hi
@@ -24029,10 +24052,9 @@
                         <dateline rendition="#right">
                             <placeName>
                                 <hi rend="smallcaps">Petrograd</hi></placeName>, <date
-                                when="1917-01-29">
-                                <hi rend="italic">January 29</hi>
-                            </date>/<date when="1917-02-11">
-                                <hi rend="italic">February 11, 1917</hi>
+                                when="1917-02-11" calendar="julian">
+                                <hi rend="italic">January 29</hi>/<hi rend="italic">February 11,
+                                    1917</hi>
                             </date>.<lb/>[Received April 10.]</dateline>
                     </opener>
                     <p>
@@ -24211,9 +24233,11 @@
                         </signed>
                     </closer>
                     <postscript>
-                        <p rend="right">
-                            <date when="1917-02-13">
-                                <hi rend="smallcaps">February</hi> 13, 1917</date>.</p>
+                        <opener>
+                            <dateline>
+                                <date when="1917-02-13">
+                                    <hi rend="smallcaps">February</hi> 13, 1917</date>.</dateline>
+                        </opener>
                         <p>I am this day in receipt of notice from the Agent of the Norwegian
                             steamers in Petrograd that service on that line has been resumed;
                             consequently I send a copy of this letter in the pouch that goes by that
@@ -24759,8 +24783,8 @@
                     </closer>
                 </div>
                 <div type="document" xml:id="d167" n="167"
-                    frus:doc-dateTime-min="1917-04-25T00:00:00Z"
-                    frus:doc-dateTime-max="1917-04-25T23:59:59Z">
+                    frus:doc-dateTime-min="1917-05-08T00:00:00Z"
+                    frus:doc-dateTime-max="1917-05-08T23:59:59Z">
                     <note rend="inline" type="source">763.72/4675½</note>
                     <head>
                         <hi rend="italic">The Ambassador in Russia</hi> (<persName type="from"><hi
@@ -24772,10 +24796,8 @@
                         <dateline rendition="#right">
                             <placeName>
                                 <hi rend="smallcaps">Petrograd</hi></placeName>, <date
-                                when="1917-04-25">
-                                <hi rend="italic">April 25</hi>
-                            </date>/<date when="1917-05-08">
-                                <hi rend="italic">May 8, 1917</hi>
+                                when="1917-05-08" calendar="julian">
+                                <hi rend="italic">April 25</hi>/<hi rend="italic">May 8, 1917</hi>
                             </date>.<lb/>[Received June 20.]</dateline>
                     </opener>
                     <p>
@@ -24816,110 +24838,120 @@
                         Revolution and when Russia’s policy regarding Constantinople was well
                         defined and well-known; he remarked however that he hoped or believed the
                         result would be that the Dardanelles would be neutral.</p>
-                    <p rend="right">
-                        <date when="1917-04-25">
-                            <hi rend="smallcaps">April</hi> 25</date>/<date when="1917-05-08">
-                            <hi rend="smallcaps">May</hi> 8, 1917</date>.</p>
-                    <p>The above was dictated May 2d, since which time there have been a number of
-                        important occurrences. On May 3rd or 4th, Miliukoff promulgated a statement
-                        without consulting the Workingmen’s and Soldiers’ Committee, and that
-                        statement aroused hostile demonstrations against Miliukoff, notwithstanding
-                        it only reiterated the declaration of the provisional Government of March
-                        28/Apr. 10th. The offense seems to have been that the Provisional Government
-                        presumed to make a statement without consulting with and obtaining the
-                        consent of the Workingmen’s Committee. In the midst of these hostile
-                        demonstrations, I called upon Miliukoff, who was in a meeting of the Council
-                        of Ministers in the War Department and told him and Goutchkoff in effect
-                        that having risked my judgment in asking my Government to recognize the
-                        Provisional Government and having <pb n="333" xml:id="pg_333" facs="0379"
-                        />done all I could to assist the Ministry, I felt considerable official and
-                        personal responsibility concerning a stable Government in Russia and that if
-                        more satisfactory evidence were not given of such Government, I should feel
-                        compelled to advise my Government not to extend the aid which I had been
-                        continuously recommending. Goutchkoff seemed very much pleased at the
-                        statement and asked me if I would make it public, but before I could answer,
-                        Miliukoff remarked that he trusted there would be no occasion for me to do
-                        so at least none existed at that time. He said that he expected hostile
-                        demonstrations against himself at the meeting of the Ministry to be held
-                        that evening, May 3rd, at Marinsky Palace at 9 o’clock when there would be a
-                        conference with the Executive Committee of the Workingmen’s Committee; that
-                        his friends had desired to make a counter demonstration but he had advised
-                        against it. The conference did take place and at about 10 p. m. a large
-                        crowd including some soldiers in uniform and armed appeared in front of the
-                        Markinsky Palace, but the friends of the new government were there also and
-                        in larger numbers than its opponents. In response to loud calls for
-                        Miliukoff, Nekrasoff, Minister of Ways and Communications, appeared and
-                        addressed the crowd stating that the Government was confident of its
-                        position and would continue to direct affairs according to its best lights;
-                        that Miliukoff was in the meeting and was at that minute engaged in
-                        conference but would address the assemblage in a few minutes. Miliukoff
-                        appeared soon thereafter and was given an ovation; he spoke with more
-                        confidence and firmness than on previous occasions and was very much
-                        gratified at the reception his remarks met with. On his return to the
-                        Foreign Office after midnight, he found a crowd assembled there and made
-                        another talk. How much influence my talk with the Ministers had upon their
-                        assuming for the first time a rather independent position I cannot say but
-                        the report has gained circulation and credence that the stand taken by the
-                        Ministry was inspired if not demanded by the American Ambassador. I give you
-                        this for what it is worth and must rely upon your knowledge of my discretion
-                        in whatever I did or said. It seemed to me there was a crisis in the
-                        situation and I endeavored to meet it in the most effective manner. The
-                        following day, Friday, the hostile demonstrations continued for a few hours;
-                        in fact I passed one of these demonstrations on the Nevsky where there was a
-                        procession of workingmen, some of whom were armed and there was one black
-                        flag with an inscription anarchistic in tone. I communicated with Miliukoff
-                        by phone congratulating him on his success in the previous evening and was
-                        informed by him that an agreement had been reached with the Workingmen’s
-                        Committee which would be promulgated within a few hours. As the day <pb
-                            n="334" xml:id="pg_334" facs="0380"/>wore on, friends of the new
-                        government and opponents of the anarchistic and extremely socialistic
-                        expressions of Lenin gained courage to such an extent that whenever a Lenin
-                        banner appeared on the streets it was captured and torn into shreds. On
-                        Friday evening late it became known that an agreement had been reached and
-                        the Saturday morning papers contained an explanatory note from the new
-                        government and also a proclamation from the Workingmen’s Committee advising
-                        its friends to refrain from congregating in crowds and from carrying arms.
-                        That proclamation contained only one objectionable paragraph and that was a
-                        statement that no troops other than the small squads for police duty could
-                        appear upon the streets without the written consent of the Workmen. The
-                        result however was that the streets have been extremely quiet since Friday
-                        night; the Provisional Government expresses great satisfaction with the
-                        situation and [is] entirely confident in the observance of its authority. I
-                        have cabled these developments from day to day. This despatch may not reach
-                        you for several weeks and will of course be stale when read. Changes follow
-                        each other with great rapidity. The effect of our prompt and first
-                        recognition of this government is still being felt and in my judgment the
-                        American Embassy is respected to a greater extent and has more influence
-                        with the Provisional Government and with the people generally than any other
-                        mission in Russia. I am giving you not only my personal convictions but the
-                        opinion of all so far as I am acquainted therewith.</p>
-                    <p rend="center">. . . . . . . . . . . . . .</p>
-                    <p>. . . There are still a great many tons of supplies on the Eastern Border of
-                        Russia awaiting transportation into the country; if the same is granted by
-                        the new Government it will be attributable to the work we have hitherto
-                        performed and to the fact that the new Government is more considerate of
-                        human suffering than was the old. At the same time, no government can be
-                        blamed for refusing to transport supplies to prisoners of an enemy country
-                        if such accommodation jeopardizes its own defense. In other words the great
-                        congestion in freight existing on the Eastern Border of Russia must be
-                        relieved gradually, and the instinct of self-preservation will prompt the
-                        government to give precedence to its own necessities. I am much pleased that
-                        John F. Stevens is coming to Vladivostok to take charge of the terminals and
-                        I hope to be able to persuade the Government to extend his jurisdiction into
-                        the interior of the country.</p>
-                    <p>This situation is interesting to a degree and I could write at much greater
-                        length but have not the time to do so even if I thought you had the patience
-                        to read my detailed statement concerning conditions.</p>
-                    <pb n="335" xml:id="pg_335" facs="0381"/>
-                    <p>I have had not a word or a line from the Department or any other source in
-                        reply to the resignation which I tendered by cable February 25th.<note
-                            n="20" xml:id="d167fn2">Not printed.</note> May I expect one?</p>
-                    <p>With kind personal regards [etc.]</p>
-                    <closer>
-                        <signed>
-                            <hi rend="smallcaps">David R. Francis</hi>
-                        </signed>
-                    </closer>
+                    <postscript>
+                        <opener>
+                            <dateline>
+                                <date when="1917-05-08" calendar="julian"><hi rend="smallcaps"
+                                        >April</hi> 25/<hi rend="smallcaps">May</hi> 8, 1917</date>
+                            </dateline>
+                        </opener>
+                        <p>The above was dictated May 2d, since which time there have been a number
+                            of important occurrences. On May 3rd or 4th, Miliukoff promulgated a
+                            statement without consulting the Workingmen’s and Soldiers’ Committee,
+                            and that statement aroused hostile demonstrations against Miliukoff,
+                            notwithstanding it only reiterated the declaration of the provisional
+                            Government of March 28/Apr. 10th. The offense seems to have been that
+                            the Provisional Government presumed to make a statement without
+                            consulting with and obtaining the consent of the Workingmen’s Committee.
+                            In the midst of these hostile demonstrations, I called upon Miliukoff,
+                            who was in a meeting of the Council of Ministers in the War Department
+                            and told him and Goutchkoff in effect that having risked my judgment in
+                            asking my Government to recognize the Provisional Government and having
+                                <pb n="333" xml:id="pg_333" facs="0379"/>done all I could to assist
+                            the Ministry, I felt considerable official and personal responsibility
+                            concerning a stable Government in Russia and that if more satisfactory
+                            evidence were not given of such Government, I should feel compelled to
+                            advise my Government not to extend the aid which I had been continuously
+                            recommending. Goutchkoff seemed very much pleased at the statement and
+                            asked me if I would make it public, but before I could answer, Miliukoff
+                            remarked that he trusted there would be no occasion for me to do so at
+                            least none existed at that time. He said that he expected hostile
+                            demonstrations against himself at the meeting of the Ministry to be held
+                            that evening, May 3rd, at Marinsky Palace at 9 o’clock when there would
+                            be a conference with the Executive Committee of the Workingmen’s
+                            Committee; that his friends had desired to make a counter demonstration
+                            but he had advised against it. The conference did take place and at
+                            about 10 p. m. a large crowd including some soldiers in uniform and
+                            armed appeared in front of the Markinsky Palace, but the friends of the
+                            new government were there also and in larger numbers than its opponents.
+                            In response to loud calls for Miliukoff, Nekrasoff, Minister of Ways and
+                            Communications, appeared and addressed the crowd stating that the
+                            Government was confident of its position and would continue to direct
+                            affairs according to its best lights; that Miliukoff was in the meeting
+                            and was at that minute engaged in conference but would address the
+                            assemblage in a few minutes. Miliukoff appeared soon thereafter and was
+                            given an ovation; he spoke with more confidence and firmness than on
+                            previous occasions and was very much gratified at the reception his
+                            remarks met with. On his return to the Foreign Office after midnight, he
+                            found a crowd assembled there and made another talk. How much influence
+                            my talk with the Ministers had upon their assuming for the first time a
+                            rather independent position I cannot say but the report has gained
+                            circulation and credence that the stand taken by the Ministry was
+                            inspired if not demanded by the American Ambassador. I give you this for
+                            what it is worth and must rely upon your knowledge of my discretion in
+                            whatever I did or said. It seemed to me there was a crisis in the
+                            situation and I endeavored to meet it in the most effective manner. The
+                            following day, Friday, the hostile demonstrations continued for a few
+                            hours; in fact I passed one of these demonstrations on the Nevsky where
+                            there was a procession of workingmen, some of whom were armed and there
+                            was one black flag with an inscription anarchistic in tone. I
+                            communicated with Miliukoff by phone congratulating him on his success
+                            in the previous evening and was informed by him that an agreement had
+                            been reached with the Workingmen’s Committee which would be promulgated
+                            within a few hours. As the day <pb n="334" xml:id="pg_334" facs="0380"
+                            />wore on, friends of the new government and opponents of the
+                            anarchistic and extremely socialistic expressions of Lenin gained
+                            courage to such an extent that whenever a Lenin banner appeared on the
+                            streets it was captured and torn into shreds. On Friday evening late it
+                            became known that an agreement had been reached and the Saturday morning
+                            papers contained an explanatory note from the new government and also a
+                            proclamation from the Workingmen’s Committee advising its friends to
+                            refrain from congregating in crowds and from carrying arms. That
+                            proclamation contained only one objectionable paragraph and that was a
+                            statement that no troops other than the small squads for police duty
+                            could appear upon the streets without the written consent of the
+                            Workmen. The result however was that the streets have been extremely
+                            quiet since Friday night; the Provisional Government expresses great
+                            satisfaction with the situation and [is] entirely confident in the
+                            observance of its authority. I have cabled these developments from day
+                            to day. This despatch may not reach you for several weeks and will of
+                            course be stale when read. Changes follow each other with great
+                            rapidity. The effect of our prompt and first recognition of this
+                            government is still being felt and in my judgment the American Embassy
+                            is respected to a greater extent and has more influence with the
+                            Provisional Government and with the people generally than any other
+                            mission in Russia. I am giving you not only my personal convictions but
+                            the opinion of all so far as I am acquainted therewith.</p>
+                        <p rend="center">. . . . . . . . . . . . . .</p>
+                        <p>. . . There are still a great many tons of supplies on the Eastern Border
+                            of Russia awaiting transportation into the country; if the same is
+                            granted by the new Government it will be attributable to the work we
+                            have hitherto performed and to the fact that the new Government is more
+                            considerate of human suffering than was the old. At the same time, no
+                            government can be blamed for refusing to transport supplies to prisoners
+                            of an enemy country if such accommodation jeopardizes its own defense.
+                            In other words the great congestion in freight existing on the Eastern
+                            Border of Russia must be relieved gradually, and the instinct of
+                            self-preservation will prompt the government to give precedence to its
+                            own necessities. I am much pleased that John F. Stevens is coming to
+                            Vladivostok to take charge of the terminals and I hope to be able to
+                            persuade the Government to extend his jurisdiction into the interior of
+                            the country.</p>
+                        <p>This situation is interesting to a degree and I could write at much
+                            greater length but have not the time to do so even if I thought you had
+                            the patience to read my detailed statement concerning conditions.</p>
+                        <pb n="335" xml:id="pg_335" facs="0381"/>
+                        <p>I have had not a word or a line from the Department or any other source
+                            in reply to the resignation which I tendered by cable February
+                                25th.<note n="20" xml:id="d167fn2">Not printed.</note> May I expect
+                            one?</p>
+                        <p>With kind personal regards [etc.]</p>
+                        <closer>
+                            <signed>
+                                <hi rend="smallcaps">David R. Francis</hi>
+                            </signed>
+                        </closer>
+                    </postscript>
                     <postscript>
                         <p>Don’t understand that I wish to be relieved, when I allude to the
                             resignation—In haste—</p>
@@ -25339,15 +25371,13 @@
                         <closer>
                             <signed><hi rend="smallcaps">The United States Railway Advisory
                                     Commission to Russia</hi></signed>
-                        </closer>
-                        <postscript>
-                            <p>
+                            <dateline>
                                 <placeName>
                                     <hi rend="smallcaps">Petrograd</hi>
                                 </placeName>, <date when="1917-07-04">
                                     <hi rend="italic">4 July, 1917</hi>
-                                </date>.</p>
-                        </postscript>
+                                </date>.</dateline>
+                        </closer>
                     </frus:attachment>
                 </div>
                 <pb n="342" xml:id="pg_342" facs="0388"/>
@@ -25441,12 +25471,9 @@
                             <dateline rendition="#right">
                                 <placeName>
                                     <hi rend="smallcaps">Petrograd</hi></placeName>, <date
-                                    when="1917-08-21">
-                                    <hi rend="italic">August 21</hi>
-                                </date>/<date when="1917-09-03">
-                                    <hi rend="italic">September 3</hi> [, <hi rend="italic"
-                                        >1917</hi>
-                                </date>.]</dateline>
+                                    when="1917-09-03" calendar="julian">
+                                    <hi rend="italic">August 21</hi>/<hi rend="italic">September
+                                        3</hi>[, <hi rend="italic">1917</hi></date>.]</dateline>
                         </opener>
                         <p>President Wilson’s reply to the Peace Note of the Pope<note n="27"
                                 xml:id="d175fn1">For the Pope’s peace note, see <ref
@@ -26451,7 +26478,9 @@
                         Authorities will be put into operation only at such time as the two
                         governments may eventually decide.</p>
                 </div>
-                <div type="document" xml:id="d191" n="191">
+                <div type="document" xml:id="d191" n="191"
+                    frus:doc-dateTime-min="1918-04-08T00:00:00Z"
+                    frus:doc-dateTime-max="1918-04-08T23:59:59Z">
                     <note rend="inline" type="source">861.77/370½</note>
                     <head>
                         <hi rend="italic">The <gloss type="from">British Embassy</gloss> to the
@@ -26478,15 +26507,13 @@
                         circumspection will be used in the employment of the American engineers.</p>
                     <closer>
                         <hi rend="smallcaps">Reading</hi>
-                    </closer>
-                    <postscript>
-                        <p>
+                        <dateline>
                             <placeName>
                                 <hi rend="smallcaps">Washington</hi>
                             </placeName>, <date when="1918-04-08">
                                 <hi rend="italic">April 8, 1918</hi>
-                            </date>.</p>
-                    </postscript>
+                            </date>.</dateline>
+                    </closer>
                 </div>
                 <pb n="360" xml:id="pg_360" facs="0406"/>
                 <div type="document" xml:id="d192" n="192"
@@ -27276,9 +27303,10 @@
                         <closer>
                             <signed>
                                 <hi rend="smallcaps">Raymond Robins</hi>
-                                <lb/>
+                            </signed><lb/>
+                            <dateline>
                                 <date when="1918-07-01">
-                                    <hi rend="smallcaps">July</hi> 1, 1918</date>.</signed>
+                                    <hi rend="smallcaps">July</hi> 1, 1918</date>.</dateline>
                         </closer>
                     </frus:attachment>
                 </div>
@@ -28510,11 +28538,13 @@
                                 <hi rend="smallcaps">T. G. Masaryk</hi>
                             </signed>
                             <lb/>
-                            <placeName>
-                                <hi rend="smallcaps">Washington</hi>
-                            </placeName>, <date when="1918-09-29">
-                                <hi rend="italic">September 29, 1918</hi>
-                            </date>.</closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1918-09-29">
+                                    <hi rend="italic">September 29, 1918</hi>
+                                </date>.</dateline>
+                        </closer>
                     </frus:attachment>
                 </div>
                 <pb n="392" xml:id="pg_392" facs="0438"/>
@@ -29054,8 +29084,8 @@
                         </closer>
                     </div>
                     <div type="document" xml:id="d228" n="228"
-                        frus:doc-dateTime-min="1917-05-08T00:00:00Z"
-                        frus:doc-dateTime-max="1917-05-08T23:59:59Z">
+                        frus:doc-dateTime-min="1917-05-16T00:00:00Z"
+                        frus:doc-dateTime-max="1917-05-16T23:59:59Z">
                         <note rend="inline" type="source">711.94/259½</note>
                         <head>
                             <hi rend="italic">
@@ -29075,11 +29105,13 @@
                                 <hi rend="smallcaps">E. M. House</hi>
                             </signed>
                             <lb/>
-                            <placeName>
-                                <hi rend="smallcaps">New York</hi>
-                            </placeName>, <date when="1917-05-16">
-                                <hi rend="italic">May 16, 1917</hi>
-                            </date>.<lb/>[Received May 17.]</closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">New York</hi>
+                                </placeName>, <date when="1917-05-16">
+                                    <hi rend="italic">May 16, 1917</hi>
+                                </date>.<lb/>[Received May 17.] </dateline>
+                        </closer>
                         <frus:attachment>
                             <opener>
                                 <seg rendition="#center">[Enclosure 1]</seg>
@@ -29201,11 +29233,13 @@
                                 day, and I shall look forward to seeing you soon again.</p>
                             <p>I am [etc.]</p>
                             <closer>[File copy not signed]<lb/>
-                                <placeName>
-                                    <hi rend="smallcaps">New York</hi>
-                                </placeName>, <date when="1917-05-10">
-                                    <hi rend="italic">May 10, 1917</hi>
-                                </date>.</closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">New York</hi>
+                                    </placeName>, <date when="1917-05-10">
+                                        <hi rend="italic">May 10, 1917</hi>
+                                    </date>.</dateline>
+                            </closer>
                         </frus:attachment>
                     </div>
                 </div>
@@ -31386,7 +31420,9 @@
                         </closer>
                     </div>
                     <pb n="438" xml:id="pg_438" facs="0484"/>
-                    <div type="document" xml:id="d264" n="264">
+                    <div type="document" xml:id="d264" n="264"
+                        frus:doc-dateTime-min="1917-09-25T05:00:00Z"
+                        frus:doc-dateTime-max="1917-09-27T04:00:00Z">
                         <note rend="inline" type="source">793.94/583½</note>
                         <head>
                             <hi rend="italic">President <persName type="from">Wilson</persName> to
@@ -31395,8 +31431,11 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">[<placeName><hi rend="smallcaps"
-                                        >Washington</hi></placeName>, <hi rend="italic"
-                                >undated</hi>.]</dateline>
+                                        >Washington</hi></placeName>, <date
+                                    notBefore="1917-09-25T00:00:00-05:00"
+                                    notAfter="1917-09-26T23:00:00-05:00"
+                                    ana="#date_undated-inferred-from-sibling-dates"><hi
+                                        rend="italic">undated</hi></date>.]</dateline>
                         </opener>
                         <p>
                             <hi rend="smallcaps">Dear Mr. Secretary</hi>: Thank you for letting me
@@ -32038,7 +32077,9 @@
                             subject and do what I could to bring the negotiation to a satisfactory
                             conclusion.</p>
                     </div>
-                    <div type="document" xml:id="d276" n="276">
+                    <div type="document" xml:id="d276" n="276"
+                        frus:doc-dateTime-min="1917-11-02T00:00:00Z"
+                        frus:doc-dateTime-max="1917-11-02T23:59:59Z">
                         <note rend="inline" type="source">793.94/595½</note>
                         <head>
                             <hi rend="italic">Protocol to Accompany Exchange of Notes Between the
@@ -32067,15 +32108,13 @@
                                 <lb/>
                                 <hi rend="smallcaps">K. Ishii</hi>
                             </signed>
-                        </closer>
-                        <postscript>
-                            <p>Done in Duplicate at<lb/>
+                            <dateline>Done in Duplicate at<lb/>
                                 <placeName>
                                     <hi rend="smallcaps">Washington</hi>
                                 </placeName>, <date when="1917-11-02">
                                     <hi rend="italic">November 2, 1917</hi>
-                                </date>.</p>
-                        </postscript>
+                                </date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d277" n="277"
                         frus:doc-dateTime-min="1917-11-05T00:00:00Z"
@@ -32940,9 +32979,12 @@
                                 financial affairs of these republics by any European power or its
                                 nationals or permit the occupation, even temporarily, by a European
                                 power, of any territory of such republics.</p>
-                            <p>
-                                <date when="1915-11-24">
-                                    <hi rend="smallcaps">November</hi> 24, 1915</date>.</p>
+                            <closer>
+                                <dateline>
+                                    <date when="1915-11-24">
+                                        <hi rend="smallcaps">November</hi> 24,
+                                    1915</date>.</dateline>
+                            </closer>
                         </frus:attachment>
                     </div>
                     <div type="document" xml:id="d285" n="285"
@@ -33997,7 +34039,9 @@
                             <signed>W. W.</signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d303" n="303">
+                    <div type="document" xml:id="d303" n="303"
+                        frus:doc-dateTime-min="1915-10-12T00:00:00Z"
+                        frus:doc-dateTime-max="1915-10-12T23:59:59Z">
                         <note rend="inline" type="source">710.11/206½</note>
                         <head>
                             <hi rend="italic">
@@ -34089,15 +34133,13 @@
                             <signed>
                                 <hi rend="smallcaps">E. M. House</hi>
                             </signed>
-                        </closer>
-                        <postscript>
-                            <p>
+                            <dateline>
                                 <placeName>
                                     <hi rend="smallcaps">New York</hi>
                                 </placeName>, <date when="1915-10-12">
                                     <hi rend="italic">October 12, 1915</hi>
-                                </date>.</p>
-                        </postscript>
+                                </date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d304" n="304"
                         frus:doc-dateTime-min="1915-10-26T00:00:00Z"
@@ -34235,7 +34277,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d307" n="307">
+                    <div type="document" xml:id="d307" n="307"
+                        frus:doc-dateTime-min="1915-10-30T00:00:00Z"
+                        frus:doc-dateTime-max="1915-10-30T23:59:59Z">
                         <note rend="inline" type="source">710.11/214½</note>
                         <head>
                             <hi rend="italic">
@@ -34260,15 +34304,13 @@
                             <signed>
                                 <hi rend="smallcaps">E. M. House</hi>
                             </signed>
-                        </closer>
-                        <postscript>
-                            <p>
+                            <dateline>
                                 <placeName>
                                     <hi rend="smallcaps">New York</hi>
                                 </placeName>, <date when="1915-10-30">
                                     <hi rend="italic">October 30, 1915</hi>
-                                </date>.</p>
-                        </postscript>
+                                </date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d308" n="308"
                         frus:doc-dateTime-min="1915-11-03T00:00:00Z"
