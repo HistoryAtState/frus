@@ -316,6 +316,43 @@
     
     <pattern id="document-date-metadata-checks">
         <title>Document Date Metadata Checks</title>
+        <rule context="tei:div[@type eq 'document'][not(matches(tei:head, 'Editorial Note'))]">
+            <assert test=".//tei:dateline[not(ancestor::frus:attachment)]" sqf:fix="add-dateline-date-only add-full-dateline">Non-editorial note documents should have a dateline with date metadata.</assert>
+            <sqf:fix id="add-dateline-date-only">
+                <sqf:description>
+                    <sqf:title>Add dateline with empty date</sqf:title>
+                </sqf:description>
+                <sqf:add use-when="not(tei:opener)" match="tei:head[1]" position="after">
+                    <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                            <date/>
+                        </dateline>
+                    </opener>
+                </sqf:add>
+                <sqf:add use-when="tei:opener" match="tei:opener[1]" position="last-child">
+                    <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                        <date/>
+                    </dateline>
+                </sqf:add>
+            </sqf:fix>
+            <sqf:fix id="add-full-dateline">
+                <sqf:description>
+                    <sqf:title>Add dateline with empty placeName and date</sqf:title>
+                </sqf:description>
+                <sqf:add use-when="not(tei:opener)" match="tei:head[1]" position="after">
+                    <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <dateline>
+                            <placeName/>, <date/>
+                        </dateline>
+                    </opener>
+                </sqf:add>
+                <sqf:add use-when="tei:opener" match="tei:opener[1]" position="last-child">
+                    <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                        <placeName/>, <date/>
+                    </dateline>
+                </sqf:add>
+            </sqf:fix>
+        </rule>
         <rule context="tei:div[@type eq 'document'][.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[(@from or @notBefore or @when) or (@to or @notAfter or @when)]]">
             <let name="date-min" value="subsequence(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @notBefore or @when], 1, 1)/(@from, @notBefore, @when)[. ne ''][1]/string()"/>
             <let name="date-max" value="subsequence(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@to or @notAfter or @when], 1, 1)/(@to, @notAfter, @when)[. ne ''][1]/string()"/>
