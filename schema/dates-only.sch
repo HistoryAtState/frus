@@ -19,8 +19,8 @@
     
     <pattern id="dateline-date-checks">
         <title>Dateline Date Checks</title>
-        <rule context="tei:dateline[matches(., 'undated', 'i')]">
-            <assert test="exists(.//tei:date)">Please tag "undated" in this dateline with a &lt;date&gt; element.</assert>
+        <rule context="tei:dateline[matches(., 'undated|not\s+dated', 'i')]">
+            <assert test="exists(.//tei:date)">Please tag "undated" or "not dated" in this dateline with a &lt;date&gt; element.</assert>
         </rule>
         <rule context="tei:dateline">
             <assert test=".//tei:date">Datelines must contain a date element</assert>
@@ -77,18 +77,16 @@
     
     <pattern id="document-date-metadata-checks">
         <title>Document Date Metadata Checks</title>
-        <rule context="tei:div[@type eq 'document'][not(matches(tei:head, 'Editorial Note'))]">
+        <rule context="tei:div[@type eq 'document'][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[(@from or @notBefore or @when) or (@to or @notAfter or @when)])][not(matches(tei:head, 'Editorial\s+Note'))]">
             <assert test=".//tei:dateline[not(ancestor::frus:attachment)]" sqf:fix="add-dateline-date-only add-full-dateline">Non-editorial note documents should have a dateline with date metadata.</assert>
             <sqf:fix id="add-dateline-date-only">
                 <sqf:description>
                     <sqf:title>Add dateline with empty date</sqf:title>
                 </sqf:description>
                 <sqf:add use-when="not(tei:opener)" match="tei:head[1]" position="after">
-                    <opener xmlns="http://www.tei-c.org/ns/1.0">
-                        <dateline>
-                            <date/>
-                        </dateline>
-                    </opener>
+                    <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                        <date/>
+                    </dateline>
                 </sqf:add>
                 <sqf:add use-when="tei:opener" match="tei:opener[1]" position="last-child">
                     <dateline xmlns="http://www.tei-c.org/ns/1.0">
@@ -101,11 +99,9 @@
                     <sqf:title>Add dateline with empty placeName and date</sqf:title>
                 </sqf:description>
                 <sqf:add use-when="not(tei:opener)" match="tei:head[1]" position="after">
-                    <opener xmlns="http://www.tei-c.org/ns/1.0">
-                        <dateline>
-                            <placeName/>, <date/>
-                        </dateline>
-                    </opener>
+                    <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                        <placeName/>, <date/>
+                    </dateline>
                 </sqf:add>
                 <sqf:add use-when="tei:opener" match="tei:opener[1]" position="last-child">
                     <dateline xmlns="http://www.tei-c.org/ns/1.0">
