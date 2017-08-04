@@ -1402,7 +1402,8 @@
                         the Truman Library, Truman papers, <gloss target="#t_PSF1"
                         >PSF</gloss>–Subject file.</p>
                 </div>
-                <div type="document" xml:id="d4" n="4">
+                <div type="document" xml:id="d4" n="4" frus:doc-dateTime-min="1952-11-13T14:30:00Z"
+                    frus:doc-dateTime-max="1952-11-14T04:59:59Z">
                     <note rend="inline" type="source">Secretary’s Staff Meetings, lot 63 D 75, Notes
                         61–120</note>
                     <head><hi rend="italic">Notes on the Secretary’s Staff Meeting, Thursday,
@@ -1410,8 +1411,11 @@
                             drafting officer and the date drafted are not indicated on the source
                             text; the source text does indicate that the meeting began at 9:30
                             a.m.</note></head>
-                    <dateline>[<placeName><hi rend="smallcaps"
-                        >Washington</hi></placeName>]</dateline>
+                    <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
+                            notBefore="1952-11-13T09:30:00-05:00"
+                            notAfter="1952-11-13T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-head"
+                        >undated</date>]</dateline>
                     <note rend="inline" type="source">[Extract]</note>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft">SM N–83</p>
