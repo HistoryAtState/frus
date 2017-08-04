@@ -56,8 +56,7 @@
                 <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date), $timezone)"/>
             </xsl:when>
             <xsl:when test="$date castable as xs:date">
-                <xsl:variable name="adjusted-date" select="adjust-date-to-timezone(xs:date($date), $timezone) cast as xs:string"/>
-                <xsl:value-of select="substring($adjusted-date, 1, 10) || 'T00:00:00' || substring($adjusted-date, 11)"/>
+                <xsl:value-of select="adjust-dateTime-to-timezone(xs:date($date) cast as xs:dateTime, $timezone)"/>
             </xsl:when>
             <xsl:when test="matches($date, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$')">
                 <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date || ':00'), $timezone)"/>
@@ -79,8 +78,7 @@
                 <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date), $timezone)"/>
             </xsl:when>
             <xsl:when test="$date castable as xs:date">
-                <xsl:variable name="adjusted-date" select="adjust-date-to-timezone(xs:date($date), $timezone) cast as xs:string"/>
-                <xsl:value-of select="substring($adjusted-date, 1, 10) || 'T23:59:59' || substring($adjusted-date, 11)"/>
+                <xsl:value-of select="adjust-dateTime-to-timezone(xs:date($date) cast as xs:dateTime, $timezone) + xs:dayTimeDuration('PT23H59M59S')"/>
             </xsl:when>
             <xsl:when test="matches($date, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$')">
                 <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date || ':59'), $timezone)"/>

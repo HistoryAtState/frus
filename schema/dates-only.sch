@@ -19,15 +19,26 @@
     
     <pattern id="dateline-date-checks">
         <title>Dateline Date Checks</title>
-        <rule context="tei:dateline[matches(., 'undated', 'i')]">
-            <assert test="exists(.//tei:date)">Please tag "undated" in this dateline with a &lt;date&gt; element.</assert>
+        <rule context="tei:dateline[not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
+            <assert test="exists(.//tei:date)">Please tag "undated" phrase in this document dateline with a &lt;date&gt; element.</assert>
         </rule>
-        <rule context="tei:dateline">
-            <assert test=".//tei:date">Datelines must contain a date element</assert>
+        <rule context="tei:dateline[ancestor::frus:attachment][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
+            <assert role="warn" test="exists(.//tei:date)">Please tag "undated" phrase in this attachment dateline with a &lt;date&gt; element.</assert>
+        </rule>
+        <rule context="tei:dateline[not(ancestor::frus:attachment)]">
+            <assert test=".//tei:date">Document datelines must contain a date element</assert>
+        </rule>
+        <rule context="tei:dateline[ancestor::frus:attachment]">
+            <assert role="warn" test=".//tei:date">Attachment datelines should contain a date element if this information is present</assert>
+        </rule>
+        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
+            <assert test="@notBefore and @notAfter and @ana">Undated documents must be tagged with @notBefore/@notAfter/@ana (for inferred date ranges)</assert>
+        </rule>
+        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]">
+            <assert test="@when or (@from and @to) or (@notBefore and @notAfter and @ana) or (@when and @notBefore and @notAfter and @ana)">Supplied dates must have @when (for single dates) or @from/@to (for supplied date ranges) or @notBefore/@notAfter/@ana/(/@when) (for imprecise year or year-month only dates)</assert>
         </rule>
         <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)]">
-            <assert role="warn" test="@*">Dates should have @when (for supplied single dates), @from/@to (for supplied date ranges), or @notBefore/@notAfter (for inferred date ranges)</assert>
-            <assert test="normalize-space(.) ne ''">Dateline date cannot be empty.</assert>
+            <assert role="warn" test="normalize-space(.) ne ''">Dateline date should not be empty.</assert>
             <assert test="
                 (@from and @to) 
                 or 
@@ -47,28 +58,28 @@
                 every $date in @when
                 satisfies
                 (
-                (matches($date, '^\d{4}$') and ($date || '-01-01') castable as xs:date)
-                or
-                (matches($date, '^\d{4}-\d{2}$') and ($date || '-01') castable as xs:date)
-                or
-                $date castable as xs:date
-                or
-                $date castable as xs:dateTime
+                    (matches($date, '^\d{4}$') and ($date || '-01-01') castable as xs:date)
+                    or
+                    (matches($date, '^\d{4}-\d{2}$') and ($date || '-01') castable as xs:date)
+                    or
+                    $date castable as xs:date
+                    or
+                    $date castable as xs:dateTime
                 )
                 ">Dateline date @when values must be YYYY, YYYY-MM, or xs:date or xs:dateTime</assert>
             <assert test="
                 every $date in (@from, @to, @notBefore, @notAfter) 
                 satisfies 
                 (
-                $date castable as xs:date 
-                or 
-                $date castable as xs:dateTime
+                    $date castable as xs:date 
+                    or 
+                    $date castable as xs:dateTime
                 )
                 ">Dateline date @from/@to/@notBefore/@notAfter must be valid xs:date or xs:dateTime values.</assert>
             <assert test="
                 every $attribute in @* 
                 satisfies 
-                not(matches($attribute, '[A-Z]$'))
+                    not(matches($attribute, '[A-Z]$'))
                 ">Please use timezone offset instead of military time zone (e.g., replace Z with +00:00).</assert>
             <assert test="if (@from and @to) then (@from le @to) else true()">Dateline date @from must come before @to.</assert>
             <assert test="if (@notBefore and @notAfter) then (@notBefore le @notAfter) else true()">Dateline date @notBefore must come before @notAfter.</assert>
@@ -77,7 +88,40 @@
     
     <pattern id="document-date-metadata-checks">
         <title>Document Date Metadata Checks</title>
-        <rule context="tei:div[@type eq 'document'][.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[(@from or @notBefore or @when) or (@to or @notAfter or @when)]]">
+        <rule context="tei:div[@type eq 'document'][not(@subtype eq 'errata_document-numbering-error')][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when])][not(matches(tei:head, 'editorial\s+note', 'i'))]">
+            <assert test=".//tei:dateline[not(ancestor::frus:attachment)]" sqf:fix="add-dateline-date-only add-full-dateline">Non-editorial note documents must have a dateline with date metadata.</assert>
+            <sqf:fix id="add-dateline-date-only">
+                <sqf:description>
+                    <sqf:title>Add dateline with empty date</sqf:title>
+                </sqf:description>
+                <sqf:add use-when="not(tei:opener)" match="tei:head[1]" position="after">
+                    <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                        <date/>
+                    </dateline>
+                </sqf:add>
+                <sqf:add use-when="tei:opener" match="tei:opener[1]" position="last-child">
+                    <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                        <date/>
+                    </dateline>
+                </sqf:add>
+            </sqf:fix>
+            <sqf:fix id="add-full-dateline">
+                <sqf:description>
+                    <sqf:title>Add dateline with empty placeName and date</sqf:title>
+                </sqf:description>
+                <sqf:add use-when="not(tei:opener)" match="tei:head[1]" position="after">
+                    <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                        <placeName/>, <date/>
+                    </dateline>
+                </sqf:add>
+                <sqf:add use-when="tei:opener" match="tei:opener[1]" position="last-child">
+                    <dateline xmlns="http://www.tei-c.org/ns/1.0">
+                        <placeName/>, <date/>
+                    </dateline>
+                </sqf:add>
+            </sqf:fix>
+        </rule>
+        <rule context="tei:div[@type eq 'document'][.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when]]">
             <let name="date-min" value="subsequence(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @notBefore or @when], 1, 1)/(@from, @notBefore, @when)[. ne ''][1]/string()"/>
             <let name="date-max" value="subsequence(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@to or @notAfter or @when], 1, 1)/(@to, @notAfter, @when)[. ne ''][1]/string()"/>
             <let name="timezone" value="xs:dayTimeDuration('PT0H')"/>
@@ -116,8 +160,7 @@
                 <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date), $timezone)"/>
             </xsl:when>
             <xsl:when test="$date castable as xs:date">
-                <xsl:variable name="adjusted-date" select="adjust-date-to-timezone(xs:date($date), $timezone) cast as xs:string"/>
-                <xsl:value-of select="substring($adjusted-date, 1, 10) || 'T00:00:00' || substring($adjusted-date, 11)"/>
+                <xsl:value-of select="adjust-dateTime-to-timezone(xs:date($date) cast as xs:dateTime, $timezone)"/>
             </xsl:when>
             <xsl:when test="matches($date, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$')">
                 <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date || ':00'), $timezone)"/>
@@ -139,8 +182,7 @@
                 <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date), $timezone)"/>
             </xsl:when>
             <xsl:when test="$date castable as xs:date">
-                <xsl:variable name="adjusted-date" select="adjust-date-to-timezone(xs:date($date), $timezone) cast as xs:string"/>
-                <xsl:value-of select="substring($adjusted-date, 1, 10) || 'T23:59:59' || substring($adjusted-date, 11)"/>
+                <xsl:value-of select="adjust-dateTime-to-timezone(xs:date($date) cast as xs:dateTime, $timezone) + xs:dayTimeDuration('PT23H59M59S')"/>
             </xsl:when>
             <xsl:when test="matches($date, '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$')">
                 <xsl:value-of select="adjust-dateTime-to-timezone(xs:dateTime($date || ':59'), $timezone)"/>
@@ -181,5 +223,5 @@
             "/>
         
     </xsl:function>
-        
+    
 </schema>
