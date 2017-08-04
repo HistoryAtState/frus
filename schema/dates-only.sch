@@ -22,12 +22,15 @@
         <rule context="tei:dateline[matches(., 'undated|not\s+dated', 'i')]">
             <assert test="exists(.//tei:date)">Please tag "undated" or "not dated" in this dateline with a &lt;date&gt; element.</assert>
         </rule>
-        <rule context="tei:dateline">
-            <assert test=".//tei:date">Datelines must contain a date element</assert>
+        <rule context="tei:dateline[not(ancestor::frus:attachment)]">
+            <assert test=".//tei:date">Document datelines must contain a date element</assert>
+        </rule>
+        <rule context="tei:dateline[ancestor::frus:attachment]">
+            <assert role="warn" test=".//tei:date">Attachment datelines should contain a date element if this information is present</assert>
         </rule>
         <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)]">
             <assert role="warn" test="@*">Dates should have @when (for supplied single dates), @from/@to (for supplied date ranges), or @notBefore/@notAfter (for inferred date ranges)</assert>
-            <assert test="normalize-space(.) ne ''">Dateline date cannot be empty.</assert>
+            <assert role="warn" test="normalize-space(.) ne ''">Dateline date should not be empty.</assert>
             <assert test="
                 (@from and @to) 
                 or 
@@ -78,7 +81,7 @@
     <pattern id="document-date-metadata-checks">
         <title>Document Date Metadata Checks</title>
         <rule context="tei:div[@type eq 'document'][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[(@from or @notBefore or @when) or (@to or @notAfter or @when)])][not(matches(tei:head, 'Editorial\s+Note'))]">
-            <assert test=".//tei:dateline[not(ancestor::frus:attachment)]" sqf:fix="add-dateline-date-only add-full-dateline">Non-editorial note documents should have a dateline with date metadata.</assert>
+            <assert test=".//tei:dateline[not(ancestor::frus:attachment)]" sqf:fix="add-dateline-date-only add-full-dateline">Non-editorial note documents must have a dateline with date metadata.</assert>
             <sqf:fix id="add-dateline-date-only">
                 <sqf:description>
                     <sqf:title>Add dateline with empty date</sqf:title>
