@@ -258,8 +258,11 @@
     
     <pattern id="dateline-date-checks">
         <title>Dateline Date Checks</title>
-        <rule context="tei:dateline[matches(., 'undated|not\s+dated', 'i')]">
-            <assert test="exists(.//tei:date)">Please tag "undated" or "not dated" in this dateline with a &lt;date&gt; element.</assert>
+        <rule context="tei:dateline[not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
+            <assert test="exists(.//tei:date)">Please tag "undated" phrase in this document dateline with a &lt;date&gt; element.</assert>
+        </rule>
+        <rule context="tei:dateline[ancestor::frus:attachment][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
+            <assert role="warn" test="exists(.//tei:date)">Please tag "undated" phrase in this attachment dateline with a &lt;date&gt; element.</assert>
         </rule>
         <rule context="tei:dateline[not(ancestor::frus:attachment)]">
             <assert test=".//tei:date">Document datelines must contain a date element</assert>
@@ -267,10 +270,10 @@
         <rule context="tei:dateline[ancestor::frus:attachment]">
             <assert role="warn" test=".//tei:date">Attachment datelines should contain a date element if this information is present</assert>
         </rule>
-        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated', 'i')]">
-            <assert test="@*">"Undated" documents must be tagged with @notBefore/@notAfter/@ana (for inferred date ranges)</assert>
+        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
+            <assert test="@*">Undated documents must be tagged with @notBefore/@notAfter/@ana (for inferred date ranges)</assert>
         </rule>
-        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated', 'i'))]">
+        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]">
             <assert test="@*">Supplied dates must have @when (for single dates) or @from/@to (for supplied date ranges)</assert>
         </rule>
         <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)]">
@@ -324,7 +327,7 @@
     
     <pattern id="document-date-metadata-checks">
         <title>Document Date Metadata Checks</title>
-        <rule context="tei:div[@type eq 'document'][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[(@from or @notBefore or @when) or (@to or @notAfter or @when)])][not(matches(tei:head, 'editorial\s+note', 'i'))]">
+        <rule context="tei:div[@type eq 'document'][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when])][not(matches(tei:head, 'editorial\s+note', 'i'))]">
             <assert test=".//tei:dateline[not(ancestor::frus:attachment)]" sqf:fix="add-dateline-date-only add-full-dateline">Non-editorial note documents must have a dateline with date metadata.</assert>
             <sqf:fix id="add-dateline-date-only">
                 <sqf:description>
@@ -357,7 +360,7 @@
                 </sqf:add>
             </sqf:fix>
         </rule>
-        <rule context="tei:div[@type eq 'document'][.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[(@from or @notBefore or @when) or (@to or @notAfter or @when)]]">
+        <rule context="tei:div[@type eq 'document'][.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when]]">
             <let name="date-min" value="subsequence(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @notBefore or @when], 1, 1)/(@from, @notBefore, @when)[. ne ''][1]/string()"/>
             <let name="date-max" value="subsequence(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@to or @notAfter or @when], 1, 1)/(@to, @notAfter, @when)[. ne ''][1]/string()"/>
             <let name="timezone" value="xs:dayTimeDuration('PT0H')"/>
@@ -574,4 +577,5 @@
             "/>
         
     </xsl:function>
+    
 </schema>
