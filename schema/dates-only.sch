@@ -28,8 +28,13 @@
         <rule context="tei:dateline[ancestor::frus:attachment]">
             <assert role="warn" test=".//tei:date">Attachment datelines should contain a date element if this information is present</assert>
         </rule>
+        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated', 'i')]">
+            <assert test="@*">"Undated" documents must be tagged with @notBefore/@notAfter/@ana (for inferred date ranges)</assert>
+        </rule>
+        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated', 'i'))]">
+            <assert test="@*">Supplied dates must have @when (for single dates) or @from/@to (for supplied date ranges)</assert>
+        </rule>
         <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)]">
-            <assert role="warn" test="@*">Dates should have @when (for supplied single dates), @from/@to (for supplied date ranges), or @notBefore/@notAfter (for inferred date ranges)</assert>
             <assert role="warn" test="normalize-space(.) ne ''">Dateline date should not be empty.</assert>
             <assert test="
                 (@from and @to) 
@@ -80,7 +85,7 @@
     
     <pattern id="document-date-metadata-checks">
         <title>Document Date Metadata Checks</title>
-        <rule context="tei:div[@type eq 'document'][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[(@from or @notBefore or @when) or (@to or @notAfter or @when)])][not(matches(tei:head, 'Editorial\s+Note'))]">
+        <rule context="tei:div[@type eq 'document'][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[(@from or @notBefore or @when) or (@to or @notAfter or @when)])][not(matches(tei:head, 'editorial\s+note', 'i'))]">
             <assert test=".//tei:dateline[not(ancestor::frus:attachment)]" sqf:fix="add-dateline-date-only add-full-dateline">Non-editorial note documents must have a dateline with date metadata.</assert>
             <sqf:fix id="add-dateline-date-only">
                 <sqf:description>
