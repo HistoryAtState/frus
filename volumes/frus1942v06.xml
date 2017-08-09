@@ -35294,7 +35294,9 @@
                             construction, taking into account their utility both for flood control
                             and irrigation purposes.</p>
                     </div>
-                    <div type="document" xml:id="d528" n="528">
+                    <div type="document" xml:id="d528" n="528"
+                        frus:doc-dateTime-min="1942-04-22T00:00:00Z"
+                        frus:doc-dateTime-max="1942-04-22T23:59:59Z">
                         <note rend="inline" type="source">711.1216A/2503</note>
                         <head>
                             <hi rend="italic">The Mexican Ambassador</hi> (<persName type="from"><hi
@@ -35318,8 +35320,13 @@
                         <p>The Ambassador of Mexico thanks His Excellency the Secretary for the
                             attention which he may be good enough to give this matter and takes the
                             opportunity [etc.]</p>
-                        <p>
-                            <hi rend="smallcaps">Washington</hi>, April 22, 1942.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1942-04-22">April 22,
+                                1942</date>.</dateline>
+                        </closer>
                         <frus:attachment>
                             <opener>
                                 <seg rendition="#center">[Enclosure—Translation]<note n="77"
