@@ -36,6 +36,10 @@
             <assert test="@notBefore and @notAfter and @ana">Undated documents must be tagged with @notBefore/@notAfter/@ana (for inferred date ranges)</assert>
         </rule>
         -->
+        <!-- Temporary rule until rule above ("Flagged for removal") is resolved -->
+        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
+            <assert test="@*">Undated documents must have attributes [Temporary rule until rule above ("Flagged for removal") is resolved]</assert>
+        </rule>
         <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]">
             <assert test="@when or (@from and @to) or (@notBefore and @notAfter and @ana) or (@when and @notBefore and @notAfter and @ana)">Supplied dates must have @when (for single dates) or @from/@to (for supplied date ranges) or @notBefore/@notAfter/@ana/(/@when) (for imprecise year or year-month only dates)</assert>
         </rule>
