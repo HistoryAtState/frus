@@ -270,8 +270,8 @@
         <rule context="tei:dateline[ancestor::frus:attachment]">
             <assert role="warn" test=".//tei:date">Attachment datelines should contain a date element if this information is present</assert>
         </rule>
-        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)]
-            [matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
+        <!-- Tentative rule -->
+        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
             <assert test="(@notBefore and @notAfter and @ana) or (@when and @ana) or (@from and @to and @ana)">Undated documents must be tagged with @notBefore/@notAfter/@ana or @when/@ana or @from/@to/@ana (for inferred date ranges)</assert>
         </rule>
         <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]">
