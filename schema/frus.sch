@@ -159,7 +159,7 @@
         <title>frus:attachment Checks</title>
         <rule context="frus:attachment">
             <assert test="not(tei:div)">A frus:attachment element must not contain a child tei:div</assert>
-            <assert test="not(.//tei:head = 'Editorial Note')">Treat editorial notes as full documents, not as attachments</assert>
+            <assert test="not(.//tei:head = 'Editorial Note' or 'Editor’s Note')">Treat editorial notes as full documents, not as attachments</assert>
             <!-- experimental frus:attachment @xml:id -->
             <!--
             <assert test="@xml:id">Missing @xml:id for frus:attachment</assert>
@@ -270,11 +270,10 @@
         <rule context="tei:dateline[ancestor::frus:attachment]">
             <assert role="warn" test=".//tei:date">Attachment datelines should contain a date element if this information is present</assert>
         </rule>
-        <!-- Flagged for removal
-        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
-            <assert test="@notBefore and @notAfter and @ana">Undated documents must be tagged with @notBefore/@notAfter/@ana (for inferred date ranges)</assert>
+        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)]
+            [matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
+            <assert test="(@notBefore and @notAfter and @ana) or (@when and @ana) or (@from and @to and @ana)">Undated documents must be tagged with @notBefore/@notAfter/@ana or @when/@ana or @from/@to/@ana (for inferred date ranges)</assert>
         </rule>
-        -->
         <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]">
             <assert test="@when or (@from and @to) or (@notBefore and @notAfter and @ana) or (@when and @notBefore and @notAfter and @ana)">Supplied dates must have @when (for single dates) or @from/@to (for supplied date ranges) or @notBefore/@notAfter/@ana/(/@when) (for imprecise year or year-month only dates)</assert>
         </rule>
@@ -329,7 +328,7 @@
     
     <pattern id="document-date-metadata-checks">
         <title>Document Date Metadata Checks</title>
-        <rule context="tei:div[@type eq 'document'][not(@subtype eq 'errata_document-numbering-error')][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when])][not(matches(tei:head, 'editorial\s+note', 'i'))]">
+        <rule context="tei:div[@type eq 'document'][not(@subtype eq 'errata_document-numbering-error')][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when])][not(matches(tei:head, '(editorial\s+note|editor’s\s+note)', 'i'))]">
             <assert test=".//tei:dateline[not(ancestor::frus:attachment)]" sqf:fix="add-dateline-date-only add-full-dateline">Non-editorial note documents must have a dateline with date metadata.</assert>
             <sqf:fix id="add-dateline-date-only">
                 <sqf:description>
