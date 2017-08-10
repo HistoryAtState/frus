@@ -31,7 +31,7 @@
         <rule context="tei:dateline[ancestor::frus:attachment]">
             <assert role="warn" test=".//tei:date">Attachment datelines should contain a date element if this information is present</assert>
         </rule>
-        <!-- Removing until can add @when/@from/@to as valid for undated entries
+        <!-- Flagged for removal
         <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
             <assert test="@notBefore and @notAfter and @ana">Undated documents must be tagged with @notBefore/@notAfter/@ana (for inferred date ranges)</assert>
         </rule>
