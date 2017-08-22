@@ -378,11 +378,17 @@
                         <frus:file id="0215" path="0003/0046.tif"/>
                         <frus:pdf bytes="377792" readable="378 KB"/>
                     </div>
-                    <div type="document" n="16" xml:id="d16">
+                    <div type="document" n="16" xml:id="d16"
+                        frus:doc-dateTime-min="1963-10-22T00:00:00Z"
+                        frus:doc-dateTime-max="1963-10-22T23:59:59Z">
                         <head>16. Memorandum of conversation, October 22, 1963, among Kennedy,
                             President Paz, and U.S. and Bolivian officials. General exchange of
                             views. Confidential. 4 pp. DOS, President’s Memoranda of Conversation:
                             Lot 66 D 149.</head>
+                        <dateline>
+                            <date when="1963-10-22" ana="#date_undated-inferred-from-document-head"
+                                >October 22, 1963</date>
+                        </dateline>
                         <frus:page-count-according-to-citation>4</frus:page-count-according-to-citation>
                         <frus:file id="0216" path="0003/0047.tif"/>
                         <frus:file id="0217" path="0003/0048.tif"/>
@@ -7367,10 +7373,6 @@
                             <date when="1962-10-24" ana="#date_undated-inferred-from-document-scan"
                                 >October 24, 1962</date>
                         </dateline>
-                        <dateline>
-                            <date when="1962-10-23" ana="#date_undated-inferred-from-document-head"
-                                >October 23, 1962</date>
-                        </dateline>
                         <frus:page-count-according-to-citation>2</frus:page-count-according-to-citation>
                         <frus:file id="1945" path="0021/0049.tif"/>
                         <frus:file id="1946" path="0021/0050.tif"/>
@@ -10601,11 +10603,17 @@
                         <frus:file id="2494" path="0027/0012.tif"/>
                         <frus:pdf bytes="136733" readable="137 KB"/>
                     </div>
-                    <div type="document" n="565" xml:id="d565">
+                    <div type="document" n="565" xml:id="d565"
+                        frus:doc-dateTime-min="1962-12-04T00:00:00Z"
+                        frus:doc-dateTime-max="1962-12-04T23:59:59Z">
                         <head>565. Memorandum of telephone conversation between McCloy and Ball,
                             December 3. McCloy report of 5-1/2 hour conversation with Kuznetsov,
                             Zorin, and Mendelovich. No classification marking. 5 pp. DOS, Ball
                             Papers: Lot 74 D 272, Telcons—Cuba.</head>
+                        <dateline>
+                            <date when="1962-12-04" ana="#date_undated-inferred-from-document-head"
+                                >December 4, 1962</date>
+                        </dateline>
                         <frus:page-count-according-to-citation>5</frus:page-count-according-to-citation>
                         <frus:file id="2495" path="0027/0013.tif"/>
                         <frus:file id="2496" path="0027/0014.tif"/>

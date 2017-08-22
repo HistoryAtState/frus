@@ -4136,12 +4136,20 @@
                         <p><persName corresp="#p_MSRM1">Sir Roger</persName> said that he would
                             report this conversation immediately to his Government.</p>
                     </div>
-                    <div type="document" xml:id="d19" n="19">
+                    <div type="document" xml:id="d19" n="19"
+                        frus:doc-dateTime-min="1955-01-19T20:45:00Z"
+                        frus:doc-dateTime-max="1955-01-19T20:45:00Z">
                         <head>19. Memorandum of a Conversation, Department of State, Washington,
                             January 19, 1955, 3:45 p.m.<note n="1" xml:id="d19fn1" type="source"
                                 >Source: Department of State, Central Files, 793.00/1–1955. Top
                                 Secret. Drafted by <persName corresp="#p_MCWP1"
                                     >McConaughy</persName>.</note></head>
+                        <dateline>
+                            <placeName>Washington</placeName>, <date
+                                when="1955-01-19T15:45:00-05:00"
+                                ana="#date_undated-inferred-from-document-head">January 19, 1955,
+                                3:45 p.m.</date>
+                        </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Defense of Off-Shore Islands</item>
@@ -36254,7 +36262,9 @@
                         <closer><signed><hi rend="strong">JFD</hi></signed></closer>
                     </div>
                     <pb n="605" xml:id="pg_605" facs="0633"/>
-                    <div type="document" xml:id="d273" n="273">
+                    <div type="document" xml:id="d273" n="273"
+                        frus:doc-dateTime-min="1955-06-20T04:30:00Z"
+                        frus:doc-dateTime-max="1955-06-20T04:30:00Z">
                         <head>273. Memorandum of a Conversation Between the <gloss type="from"
                                 >President</gloss> and the <gloss type="to">Secretary of
                                 State</gloss>, San Francisco, June 19, 1955, 9:30 p.m.<note n="1"
@@ -36267,6 +36277,12 @@
                                 to the President’s hotel and at the hotel. The President was in San
                                 Francisco to address the United Nations the following
                             day.</note></head>
+                        <dateline>
+                            <placeName>San Francisco</placeName>, <date
+                                when="1955-06-19T21:30:00-07:00"
+                                ana="#date_undated-inferred-from-document-head">June 19, 1955, 9:30
+                                p.m.</date>
+                        </dateline>
                         <p>[Here follows discussion relating to the forthcoming meeting of heads of
                             government in Geneva.]</p>
                         <p>I told the President that <persName corresp="#p_MVKK1">Menon</persName>
