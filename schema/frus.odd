@@ -4,8 +4,7 @@
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:rng="http://relaxng.org/ns/structure/1.0"
     xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-    xmlns:xi="http://www.w3.org/2001/XInclude">
+    xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,7 +23,8 @@
                 </author>
             </titleStmt>
             <publicationStmt>
-                <p>Released online as the prose and schema guidelines for the FRUS digital archive</p>
+                <p>Released online as the prose and schema guidelines for the FRUS digital
+                    archive</p>
             </publicationStmt>
             <sourceDesc>
                 <p>This ODD was born digitally in August 2011 at a TEI Customization seminar held by
@@ -46,24 +46,25 @@
         <body>
             <div xml:id="introduction">
                 <head>Introduction</head>
-                <p>This document is a set of encoding guidelines for the digital edition of the <title level="s">Foreign Relations of the United States</title> (<title level="s"
-                        >FRUS</title>) series, the official documentary history of U.S. foreign
-                    relations. The basis for encoding <title level="s">FRUS</title> is the Text
-                    Encoding Initiative (see <ref target="http://www.tei-c.org/">tei-c.org</ref> for
-                    the complete TEI P5 Guidelines). This document describes the project-specific
-                    subset of the TEI standard and practices used for encoding <title level="s"
-                        >FRUS</title>, hereafter called FRUS TEI. The primary purpose of FRUS TEI is to
-                    accurately and canonically encode the text of the publication and capture its
-                    core structural features, including document headings, datelines, paragraphs,
-                    footnotes, page numbers, tables, figures, and indexes. Besides capturing these
-                    structural features, each volume is enhanced with by identifying all cross
-                    references within the series and encoding them as hyperlinks to facilitate
-                    reading. Once encoded according to these guidelines, a FRUS TEI document should
-                    validate against the FRUS TEI schema without errors and thus will be compatible
-                    with tools for electronically publishing and analyzing the FRUS digital archive,
-                    including the Office of the Historian website, ebook catalogs, data feeds, and
-                    APIs. These guidelines, written in TEI using the ODD (One Document Does it all)
-                    format, provide the following information:</p>
+                <p>This document is a set of encoding guidelines for the digital edition of the
+                        <title level="s">Foreign Relations of the United States</title> (<title
+                        level="s">FRUS</title>) series, the official documentary history of U.S.
+                    foreign relations. The basis for encoding <title level="s">FRUS</title> is the
+                    Text Encoding Initiative (see <ref target="http://www.tei-c.org/"
+                        >tei-c.org</ref> for the complete TEI P5 Guidelines). This document
+                    describes the project-specific subset of the TEI standard and practices used for
+                    encoding <title level="s">FRUS</title>, hereafter called FRUS TEI. The primary
+                    purpose of FRUS TEI is to accurately and canonically encode the text of the
+                    publication and capture its core structural features, including document
+                    headings, datelines, paragraphs, footnotes, page numbers, tables, figures, and
+                    indexes. Besides capturing these structural features, each volume is enhanced
+                    with by identifying all cross references within the series and encoding them as
+                    hyperlinks to facilitate reading. Once encoded according to these guidelines, a
+                    FRUS TEI document should validate against the FRUS TEI schema without errors and
+                    thus will be compatible with tools for electronically publishing and analyzing
+                    the FRUS digital archive, including the Office of the Historian website, ebook
+                    catalogs, data feeds, and APIs. These guidelines, written in TEI using the ODD
+                    (One Document Does it all) format, provide the following information:</p>
                 <list type="simple">
                     <item>Prose descriptions, supplemented with visual aids, of how to encode every
                         feature of <title level="s">FRUS</title> volumes</item>
@@ -112,18 +113,18 @@
                             purposes of the digitization of the series, refer to each discrete book
                             as a volume.</gloss></item>
                     <item><term xml:id="document">Document</term>: <gloss target="#document">A
-                        primary source selected by an editor for inclusion in a <title
-                                level="s">Foreign Relations</title> volume. Documents typically
-                            have a title, a dateline, a source note, a body, and other annotations,
-                            primarily in the form of footnotes. Recent volumes (since ____) assign a
-                            number to each document, incremented sequentially; the document number,
-                            rather than page number, is the primary unit for cross references.
-                            Before document numbering, page numbers were the unit for cross
-                            references. Occasionally, a document is titled "Editorial Note", which
-                            are not primary source documents but rather are narrative interventions
-                            by the editor. The editor can use editorial notes to summarize a long
-                            document or series of documents that could not be printed because of
-                            space constraints, or provide important context.</gloss></item>
+                            primary source selected by an editor for inclusion in a <title level="s"
+                                >Foreign Relations</title> volume. Documents typically have a title,
+                            a dateline, a source note, a body, and other annotations, primarily in
+                            the form of footnotes. Recent volumes (since ____) assign a number to
+                            each document, incremented sequentially; the document number, rather
+                            than page number, is the primary unit for cross references. Before
+                            document numbering, page numbers were the unit for cross references.
+                            Occasionally, a document is titled "Editorial Note", which are not
+                            primary source documents but rather are narrative interventions by the
+                            editor. The editor can use editorial notes to summarize a long document
+                            or series of documents that could not be printed because of space
+                            constraints, or provide important context.</gloss></item>
                 </list>
             </div>
 
@@ -206,10 +207,8 @@
                                         </p>
                                     </correction>
                                 </editorialDecl>
-                                <classDecl>
-                                    &lt;xi:include href="../shared/frus-dates.xml"
-                                        xpointer="frus-dates"/&gt;
-                                </classDecl>
+                                <classDecl> &lt;xi:include href="../shared/frus-dates.xml"
+                                    xpointer="frus-dates"/&gt; </classDecl>
                             </encodingDesc>
                             <revisionDesc>
                                 <change>2008-11-06 PA/HO JW: Created volume shell for HCL</change>
@@ -486,7 +485,8 @@
                                 <item><ident>right</ident>: the "paragraph" is actually a
                                     right-aligned span of text</item>
                                 <item><ident>center</ident>: the "paragraph" is actually a centered
-                                    section heading within a document <gi>div</gi></item> </list>
+                                    section heading within a document <gi>div</gi></item>
+                            </list>
                         </p>
                         <p>Paragraphs may not be empty.</p>
                     </div>
@@ -529,13 +529,13 @@
                                 </item>
                             </list>
                         </egXML>
-                        <p>Note: In <title level="s">FRUS</title>, not all numbered or bulleted blocks
-                            of text are coded as <gi>list</gi>. For example, section headings within
-                            a document or section may sometimes be numbered; these should be coded
-                            as <gi>p</gi> elements with <att>rend</att> attributes carrying a value
-                            of <ident>sectiontitleital</ident>. Paragraphs may be numbered; these
-                            can be distinguished from lists by their indentation: their first line
-                            is indented, but subsequent lines are flush left.</p>
+                        <p>Note: In <title level="s">FRUS</title>, not all numbered or bulleted
+                            blocks of text are coded as <gi>list</gi>. For example, section headings
+                            within a document or section may sometimes be numbered; these should be
+                            coded as <gi>p</gi> elements with <att>rend</att> attributes carrying a
+                            value of <ident>sectiontitleital</ident>. Paragraphs may be numbered;
+                            these can be distinguished from lists by their indentation: their first
+                            line is indented, but subsequent lines are flush left.</p>
                         <p>Certain specialized lists take the following <att>type</att>
                             attributes:</p>
                         <list>
@@ -633,13 +633,13 @@
                     </div>
                     <div xml:id="datelines">
                         <head>Datelines</head>
-                        <p>A dateline appears at the beginning of every <title level="s">FRUS</title>
-                            document, containing the location and date of the document's origin. The
-                            dateline is wrapped in a <gi>dateline</gi> element. The location is
-                            wrapped in a <gi>placeName</gi> element, and the date is wrapped in a
-                                <gi>date</gi> element, with a <att>when</att> attribute with the
-                            date expressed in XML Schema date (xs:date) or date time (xs:dateTime)
-                            notation.</p>
+                        <p>A dateline appears at the beginning of every <title level="s"
+                                >FRUS</title> document, containing the location and date of the
+                            document's origin. The dateline is wrapped in a <gi>dateline</gi>
+                            element. The location is wrapped in a <gi>placeName</gi> element, and
+                            the date is wrapped in a <gi>date</gi> element, with a <att>when</att>
+                            attribute with the date expressed in XML Schema date (xs:date) or date
+                            time (xs:dateTime) notation.</p>
                     </div>
                     <div xml:id="signatures">
                         <head>Signatures</head>
@@ -773,22 +773,18 @@
                     The first four listed here are required: core, tei, header, 
                     textstructure. -->
                     <moduleRef key="core"
-                        include="p hi gloss term name date time ref list item head note 
-                        graphic pb lb editor title publisher pubPlace label gap unclear cit quote bibl del l lg"/>
+                        include="p hi gloss term name date time ref list item head note                          graphic pb lb editor title publisher pubPlace label gap unclear cit quote bibl del l lg"/>
                     <moduleRef key="tei"/>
                     <moduleRef key="header"
-                        include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc 
-                        encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change 
-                        classDecl taxonomy category catDesc"/>
+                        include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc                          encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change                          classDecl taxonomy category catDesc"/>
                     <moduleRef key="textstructure"
-                        include="TEI text body div byline dateline opener salute closer signed postscript titlePage 
-                        docTitle titlePart docImprint docDate front back"/>
+                        include="TEI text body div byline dateline opener salute closer signed postscript titlePage                          docTitle titlePart docImprint docDate front back"/>
                     <moduleRef key="namesdates" include="persName placeName affiliation orgName"/>
                     <moduleRef key="figures" include="table row cell figure"/>
                     <!-- including the linking module gives us @corresp -->
                     <moduleRef key="linking" include="anchor seg"/>
                     <!-- including the transcr module gives us @facs -->
-                    <moduleRef key="transcr" include="facsimile space"/> 
+                    <moduleRef key="transcr" include="facsimile space"/>
                     <!-- including the analysis module gives us @ana -->
                     <moduleRef key="analysis" include=""/>
 
@@ -804,7 +800,7 @@
                             <attDef ident="select" mode="delete"/>
                         </attList>
                     </classSpec>
-                    
+
                     <!-- remove a few attributes (selective thinning): -->
                     <classSpec type="atts" ident="att.breaking" mode="delete"/>
                     <classSpec type="atts" ident="att.declarable" mode="delete"/>
@@ -1126,7 +1122,7 @@
                             </attDef>
                         </attList>
                     </elementSpec>
-                    
+
                     <!-- 
                     constrain tei:date/@ana
                     -->
@@ -1137,18 +1133,19 @@
                                 <valList type="closed">
                                     <valItem ident="#date_apparent-typo-based-on-document-content">
                                         <gloss>The recorded date was determined to be an error via
-                                            content of the document and corrected Date value(s) 
-                                            were inferred from the content of the document</gloss>
+                                            content of the document and corrected Date value(s) were
+                                            inferred from the content of the document</gloss>
                                     </valItem>
                                     <valItem ident="#date_apparent-typo-based-on-document-scan">
-                                        <gloss>The recorded date was determined to be an error via the
-                                            scanned version of the original document and corrected Date value(s) 
-                                            were inferred from the content of the scanned document</gloss>
+                                        <gloss>The recorded date was determined to be an error via
+                                            the scanned version of the original document and
+                                            corrected Date value(s) were inferred from the content
+                                            of the scanned document</gloss>
                                     </valItem>
                                     <valItem ident="#date_apparent-typo-based-on-outside-research">
                                         <gloss>The recorded date was determined to be an error via
-                                            outside research and corrected date value(s) were inferred 
-                                            from related sources</gloss>
+                                            outside research and corrected date value(s) were
+                                            inferred from related sources</gloss>
                                     </valItem>
                                     <valItem ident="#date_apparent-typo-based-on-sibling-dates">
                                         <gloss>The recorded date was determined to be an error by
@@ -1157,36 +1154,48 @@
                                             siblings</gloss>
                                     </valItem>
                                     <valItem ident="#date_editorial-correction">
-                                        <gloss>The recorded date was determined to be an error by the FRUS compiler/editor, 
-                                            who indicated the corrected date at the time of original publication.
-                                            Date value(s) were corrected based on compiler/editor notation.</gloss>
-                                    </valItem>
-                                    <valItem ident="#date_imprecise-inferred-from-sibling-dates">
-                                        <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
-                                            inferred from nearest dated siblings</gloss>
+                                        <gloss>The recorded date was determined to be an error by
+                                            the FRUS compiler/editor, who indicated the corrected
+                                            date at the time of original publication. Date value(s)
+                                            were corrected based on compiler/editor
+                                            notation.</gloss>
                                     </valItem>
                                     <valItem ident="#date_imprecise-inferred-from-date-rules">
-                                        <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
-                                            inferred based on date rules (e.g. yyyy has @notBefore="yyyy-01-01"
-                                            and @notAfter="yyyy-12-31"; yyyy-mm has @notBefore="yyyy-mm-01" and 
-                                            @notAfter="yyyy-mm-dd" where dd is either 28, 29, 30, or 31 based 
-                                            on month and year)</gloss>
+                                        <gloss>Imprecise date value(s) augmented with @notBefore and
+                                            @notAfter inferred based on date rules (e.g. yyyy has
+                                            @notBefore="yyyy-01-01" and @notAfter="yyyy-12-31";
+                                            yyyy-mm has @notBefore="yyyy-mm-01" and
+                                            @notAfter="yyyy-mm-dd" where dd is either 28, 29, 30, or
+                                            31 based on month and year)</gloss>
                                     </valItem>
                                     <valItem ident="#date_imprecise-inferred-from-document-content">
-                                        <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
-                                            inferred from the content of the document</gloss>
+                                        <gloss>Imprecise date value(s) augmented with @notBefore and
+                                            @notAfter inferred from the content of the
+                                            document</gloss>
+                                    </valItem>
+                                    <valItem ident="#date_imprecise-inferred-from-document-head">
+                                        <gloss>Imprecise date value(s) augmented with
+                                            @notBefore/@notAfter or @when or @from/@to inferred from
+                                            the document header</gloss>
                                     </valItem>
                                     <valItem ident="#date_imprecise-inferred-from-document-scan">
-                                        <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
-                                            inferred from the content of the scanned version of the original document</gloss>
+                                        <gloss>Imprecise date value(s) augmented with @notBefore and
+                                            @notAfter inferred from the content of the scanned
+                                            version of the original document</gloss>
                                     </valItem>
-                                    <valItem ident="#date_imprecise-inferred-from-document-content-and-sibling-dates">
-                                        <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
-                                            inferred from the content of the document and nearest dated siblings</gloss>
+                                    <valItem
+                                        ident="#date_imprecise-inferred-from-document-content-and-sibling-dates">
+                                        <gloss>Imprecise date value(s) augmented with @notBefore and
+                                            @notAfter inferred from the content of the document and
+                                            nearest dated siblings</gloss>
                                     </valItem>
                                     <valItem ident="#date_imprecise-inferred-from-outside-research">
-                                        <gloss>Imprecise date value(s) augmented with @notBefore and @notAfter 
-                                            inferred from related sources</gloss>
+                                        <gloss>Imprecise date value(s) augmented with @notBefore and
+                                            @notAfter inferred from related sources</gloss>
+                                    </valItem>
+                                    <valItem ident="#date_imprecise-inferred-from-sibling-dates">
+                                        <gloss>Imprecise date value(s) augmented with @notBefore and
+                                            @notAfter inferred from nearest dated siblings</gloss>
                                     </valItem>
                                     <valItem ident="#date_undated-inferred-from-chapter-heading">
                                         <gloss>Date value(s) for undated document were inferred from
@@ -1196,21 +1205,25 @@
                                         <gloss>Date value(s) for undated document were inferred from
                                             the content of the document</gloss>
                                     </valItem>
-                                    <valItem ident="#date_undated-inferred-from-document-content-and-sibling-dates">
-                                        <gloss>Date value(s) for undated document were inferred from the 
-                                            content of the document and nearest dated siblings</gloss>
+                                    <valItem
+                                        ident="#date_undated-inferred-from-document-content-and-sibling-dates">
+                                        <gloss>Date value(s) for undated document were inferred from
+                                            the content of the document and nearest dated
+                                            siblings</gloss>
                                     </valItem>
                                     <valItem ident="#date_undated-inferred-from-document-head">
-                                        <gloss>Date value(s) for undated document were inferred from dates in 
-                                            document header, using an XQuery script to find date patterns</gloss>
+                                        <gloss>Date value(s) for undated document were inferred from
+                                            dates in document header, using an XQuery script to find
+                                            date patterns</gloss>
                                     </valItem>
                                     <valItem ident="#date_undated-inferred-from-document-scan">
                                         <gloss>Date value(s) for undated document were inferred from
-                                            the content of the scanned version of the original document</gloss>
+                                            the content of the scanned version of the original
+                                            document</gloss>
                                     </valItem>
                                     <valItem ident="#date_undated-inferred-from-outside-research">
                                         <gloss>Date value(s) for undated document were inferred from
-                                           related sources</gloss>
+                                            related sources</gloss>
                                     </valItem>
                                     <valItem ident="#date_undated-inferred-from-sibling-dates">
                                         <gloss>Date value(s) for undated document were inferred from
@@ -1234,9 +1247,11 @@
                         <attList>
                             <attDef ident="ana" usage="opt" mode="replace">
                                 <valList type="closed">
-                                    <valItem ident="#head_untitled-inferred-from-preceding-sibling-head">
-                                        <gloss>The author and recipient were not included by the FRUS editor/compiler
-                            as they were determined to be the same as those of the preceding document.</gloss>
+                                    <valItem
+                                        ident="#head_untitled-inferred-from-preceding-sibling-head">
+                                        <gloss>The author and recipient were not included by the
+                                            FRUS editor/compiler as they were determined to be the
+                                            same as those of the preceding document.</gloss>
                                     </valItem>
                                 </valList>
                             </attDef>
@@ -1244,12 +1259,9 @@
                     </elementSpec>
 
                     <!-- support xinclude, copied from http://www.tei-c.org/Guidelines/Customization/odds.xml -->
-                    <elementSpec 
-                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                        ident="include" 
-                        ns="http://www.w3.org/2001/XInclude" 
-                        mode="add">
-                        <desc  xml:lang="en" versionDate="2014-01-12">The W3C XInclude element</desc>
+                    <elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" ident="include"
+                        ns="http://www.w3.org/2001/XInclude" mode="add">
+                        <desc xml:lang="en" versionDate="2014-01-12">The W3C XInclude element</desc>
                         <classes>
                             <memberOf key="model.common"/>
                             <memberOf key="model.teiHeaderPart"/>
@@ -1261,58 +1273,57 @@
                         </content>
                         <attList>
                             <attDef ident="href">
-                                <desc  xml:lang="en" versionDate="2014-01-12">pointer to the resource being included</desc>
+                                <desc xml:lang="en" versionDate="2014-01-12">pointer to the resource
+                                    being included</desc>
                                 <datatype>
                                     <rng:ref name="data.pointer"/>
                                 </datatype>
                             </attDef>
-                            
-                            <attDef ident="parse"  usage="opt">
+
+                            <attDef ident="parse" usage="opt">
                                 <defaultVal>xml</defaultVal>
                                 <valList type="closed">
                                     <valItem ident="xml"/>
                                     <valItem ident="text"/>
                                 </valList>
                             </attDef>
-                            
+
                             <attDef ident="xpointer" usage="opt">
                                 <datatype>
                                     <rng:text/>
                                 </datatype>
                             </attDef>
-                            
-                            <attDef ident="encoding"  usage="opt">
+
+                            <attDef ident="encoding" usage="opt">
                                 <datatype>
                                     <rng:text/>
                                 </datatype>
                             </attDef>
-                            
+
                             <attDef ident="accept" usage="opt">
                                 <datatype>
                                     <rng:text/>
                                 </datatype>
                             </attDef>
-                            
-                            <attDef ident="accept-charset"  usage="opt">
+
+                            <attDef ident="accept-charset" usage="opt">
                                 <datatype>
                                     <rng:text/>
                                 </datatype>
                             </attDef>
-                            
-                            <attDef ident="accept-language"  usage="opt">
+
+                            <attDef ident="accept-language" usage="opt">
                                 <datatype>
                                     <rng:text/>
                                 </datatype>
                             </attDef>
                         </attList>
                     </elementSpec>
-                    
-                    <elementSpec 
-                        xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                        ident="fallback" 
-                        ns="http://www.w3.org/2001/XInclude" 
-                        mode="add">
-                        <desc  xml:lang="en" versionDate="2014-01-12">Wrapper for fallback elements if an XInclude fails</desc>
+
+                    <elementSpec xmlns:rng="http://relaxng.org/ns/structure/1.0" ident="fallback"
+                        ns="http://www.w3.org/2001/XInclude" mode="add">
+                        <desc xml:lang="en" versionDate="2014-01-12">Wrapper for fallback elements
+                            if an XInclude fails</desc>
                         <content>
                             <oneOrMore xmlns="http://relaxng.org/ns/structure/1.0">
                                 <choice>

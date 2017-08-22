@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1919Parisv11">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1919Parisv11">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -60,6 +60,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -3165,10 +3168,15 @@
                     matters referred to in the discussions of the Commissioners. The minutes of
                     their discussions have, however, been reproduced substantially in full.</p>
                 <pb n="1" xml:id="pg_1" facs="0037"/>
-                <div type="document" xml:id="d1" n="1">
+                <div type="document" xml:id="d1" n="1" frus:doc-dateTime-min="1919-01-31T00:00:00Z"
+                    frus:doc-dateTime-max="1919-01-31T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/1</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, January 31, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-01-31" ana="#date_undated-inferred-from-document-head"
+                            >January 31, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -3402,10 +3410,15 @@
                         when the action was not urgently required in any particular case.</p>
                     <p>It was decided that the Secretariat should be advised of this wish.</p>
                 </div>
-                <div type="document" xml:id="d2" n="2">
+                <div type="document" xml:id="d2" n="2" frus:doc-dateTime-min="1919-02-01T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-01T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/2</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary Saturday, February 1, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-01" ana="#date_undated-inferred-from-document-head"
+                            >February 1, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -3601,10 +3614,15 @@
                         governments unless some complaint were lodged.</p>
                     <p>The recommendation of Memorandum No. 19 was approved.</p>
                 </div>
-                <div type="document" xml:id="d3" n="3">
+                <div type="document" xml:id="d3" n="3" frus:doc-dateTime-min="1919-02-03T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-03T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/3</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, February 3, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-03" ana="#date_undated-inferred-from-document-head"
+                            >February 3, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -3774,10 +3792,15 @@
                         conference in order to convey this information to the Press at this
                         morning’s meeting.</p>
                 </div>
-                <div type="document" xml:id="d4" n="4">
+                <div type="document" xml:id="d4" n="4" frus:doc-dateTime-min="1919-02-04T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-04T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/4</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, February 4, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-04" ana="#date_undated-inferred-from-document-head"
+                            >February 4, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -3863,10 +3886,15 @@
                             found.</item>
                     </list>
                 </div>
-                <div type="document" xml:id="d5" n="5">
+                <div type="document" xml:id="d5" n="5" frus:doc-dateTime-min="1919-02-05T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-05T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/5</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, February 5, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-05" ana="#date_undated-inferred-from-document-head"
+                            >February 5, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -4011,10 +4039,15 @@
                         and that it looked as if everyone had the idea that the present Peace
                         Conference was a panacea for all evils.</p>
                 </div>
-                <div type="document" xml:id="d6" n="6">
+                <div type="document" xml:id="d6" n="6" frus:doc-dateTime-min="1919-02-06T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-06T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/6</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, February 6, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-06" ana="#date_undated-inferred-from-document-head"
+                            >February 6, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -4120,10 +4153,15 @@
                         one copy should serve for the information of all three of these
                         gentlemen.</p>
                 </div>
-                <div type="document" xml:id="d7" n="7">
+                <div type="document" xml:id="d7" n="7" frus:doc-dateTime-min="1919-02-07T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-07T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/7</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, February 7, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-07" ana="#date_undated-inferred-from-document-head"
+                            >February 7, 1919</date>
+                    </dateline>
                     <p>1. Memorandum No. 44 was read and it was decided that no further action
                         should be taken in regard to a decision previously arrived at, that American
                         troops should not be sent to Montenegro. Mr. Lansing felt that there was
@@ -4203,10 +4241,15 @@
                         to the equivalent of $39.80 for a 2nd Lieutenant up to $121.20 for a
                         Colonel.</p>
                 </div>
-                <div type="document" xml:id="d8" n="8">
+                <div type="document" xml:id="d8" n="8" frus:doc-dateTime-min="1919-02-10T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-10T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/8</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, February 10, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-10" ana="#date_undated-inferred-from-document-head"
+                            >February 10, 1919</date>
+                    </dateline>
                     <p>1. General Bliss asked Mr. Lansing what conclusions had been reached by the
                         Committee consisting of the latter, Lord Milner and Mr. Tardieu, regarding
                         the question of German disarmament. Mr. Lansing replied that no definite
@@ -4380,10 +4423,15 @@
                         solution which Minister Reinsch<note n="28" xml:id="d8fn28">Paul S. Reinsch,
                             Minister to China.</note> advocates.</p>
                 </div>
-                <div type="document" xml:id="d9" n="9">
+                <div type="document" xml:id="d9" n="9" frus:doc-dateTime-min="1919-02-11T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-11T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/9</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, February 11, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-11" ana="#date_undated-inferred-from-document-head"
+                            >February 11, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Me. Lansing</hi></item>
@@ -4557,10 +4605,16 @@
                         Alien Property Custodian is a purely domestic affair and one in which no
                         other country has any direct concern.</p>
                 </div>
-                <div type="document" xml:id="d10" n="10">
+                <div type="document" xml:id="d10" n="10"
+                    frus:doc-dateTime-min="1919-02-12T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-12T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/10</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, February 12, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-12" ana="#date_undated-inferred-from-document-head"
+                            >February 12, 1919</date>
+                    </dateline>
                     <p>1. The draft of telegram appended to Memorandum No. 57 was considered. The
                         Commissioners felt that proposal No. 1 was a little <pb n="33"
                             xml:id="pg_33" facs="0069"/>difficult to understand and that it would
@@ -4658,10 +4712,16 @@
                         of the recent telegram received from the Department of State quoting an
                         article from the New York <hi rend="italic">Sun</hi> about Dr. Herron.</p>
                 </div>
-                <div type="document" xml:id="d11" n="11">
+                <div type="document" xml:id="d11" n="11"
+                    frus:doc-dateTime-min="1919-02-13T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-13T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/11</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, February 13, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-13" ana="#date_undated-inferred-from-document-head"
+                            >February 13, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -4784,10 +4844,16 @@
                             from the Department’s files.]</p>
                     </postscript>
                 </div>
-                <div type="document" xml:id="d12" n="12">
+                <div type="document" xml:id="d12" n="12"
+                    frus:doc-dateTime-min="1919-02-15T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-15T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/13</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, February 15, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-15" ana="#date_undated-inferred-from-document-head"
+                            >February 15, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -4983,10 +5049,16 @@
                         Commission, and that we were under no obligation whatever to furnish him
                         with motor transportation.</p>
                 </div>
-                <div type="document" xml:id="d13" n="13">
+                <div type="document" xml:id="d13" n="13"
+                    frus:doc-dateTime-min="1919-02-17T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-17T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/14</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, February 17, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-17" ana="#date_undated-inferred-from-document-head"
+                            >February 17, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -5285,10 +5357,16 @@
                         possible an older man should be sent to act as his superior, if not in
                         practice, at least in name.</p>
                 </div>
-                <div type="document" xml:id="d14" n="14">
+                <div type="document" xml:id="d14" n="14"
+                    frus:doc-dateTime-min="1919-02-18T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-18T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/15</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, February 18, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-18" ana="#date_undated-inferred-from-document-head"
+                            >February 18, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -5468,10 +5546,16 @@
                         message to the soldiers should be referred to General Bliss for final
                         decision.</p>
                 </div>
-                <div type="document" xml:id="d15" n="15">
+                <div type="document" xml:id="d15" n="15"
+                    frus:doc-dateTime-min="1919-02-19T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-19T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/16</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, February 19, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-19" ana="#date_undated-inferred-from-document-head"
+                            >February 19, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -5736,10 +5820,16 @@
                         regulations which every other office has to follow.</p>
                 </div>
                 <pb n="59" xml:id="pg_59" facs="0095"/>
-                <div type="document" xml:id="d16" n="16">
+                <div type="document" xml:id="d16" n="16"
+                    frus:doc-dateTime-min="1919-02-20T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-20T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/17</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, February 20, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-20" ana="#date_undated-inferred-from-document-head"
+                            >February 20, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -5900,10 +5990,16 @@
                         Commission.</p>
                 </div>
                 <pb n="63" xml:id="pg_63" facs="0099"/>
-                <div type="document" xml:id="d17" n="17">
+                <div type="document" xml:id="d17" n="17"
+                    frus:doc-dateTime-min="1919-02-21T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-21T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/18</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, February 21, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-21" ana="#date_undated-inferred-from-document-head"
+                            >February 21, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -6044,10 +6140,16 @@
                     <p>18. It was unanimously decided that Washington’s birthday should be declared
                         a full holiday for the staff of the Commission.</p>
                 </div>
-                <div type="document" xml:id="d18" n="18">
+                <div type="document" xml:id="d18" n="18"
+                    frus:doc-dateTime-min="1919-02-22T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-22T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/19</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, February 22, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-22" ana="#date_undated-inferred-from-document-head"
+                            >February 22, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -6265,10 +6367,16 @@
                         Labor wanted more details in regard to this Committee and that it was hard
                         for them to proceed without definite direction.</p>
                 </div>
-                <div type="document" xml:id="d19" n="19">
+                <div type="document" xml:id="d19" n="19"
+                    frus:doc-dateTime-min="1919-02-24T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-24T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/20</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, February 24, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-24" ana="#date_undated-inferred-from-document-head"
+                            >February 24, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -6410,10 +6518,16 @@
                         Clemenceau.</p>
                 </div>
                 <pb n="75" xml:id="pg_75" facs="0111"/>
-                <div type="document" xml:id="d20" n="20">
+                <div type="document" xml:id="d20" n="20"
+                    frus:doc-dateTime-min="1919-02-25T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-25T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/21</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, February 25, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-25" ana="#date_undated-inferred-from-document-head"
+                            >February 25, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -6485,10 +6599,16 @@
                             inform the Commission as to the choice.</item>
                     </list>
                 </div>
-                <div type="document" xml:id="d21" n="21">
+                <div type="document" xml:id="d21" n="21"
+                    frus:doc-dateTime-min="1919-02-26T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-26T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/22</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, February 26, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-26" ana="#date_undated-inferred-from-document-head"
+                            >February 26, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -6636,10 +6756,16 @@
                         Commission.</p>
                 </div>
                 <pb n="80" xml:id="pg_80" facs="0116"/>
-                <div type="document" xml:id="d22" n="22">
+                <div type="document" xml:id="d22" n="22"
+                    frus:doc-dateTime-min="1919-02-27T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-27T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/23</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, February 27, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-27" ana="#date_undated-inferred-from-document-head"
+                            >February 27, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -6788,10 +6914,16 @@
                     </list>
                 </div>
                 <pb n="83" xml:id="pg_83" facs="0119"/>
-                <div type="document" xml:id="d23" n="23">
+                <div type="document" xml:id="d23" n="23"
+                    frus:doc-dateTime-min="1919-02-28T00:00:00Z"
+                    frus:doc-dateTime-max="1919-02-28T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/24</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, February 28, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-02-28" ana="#date_undated-inferred-from-document-head"
+                            >February 28, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -6925,10 +7057,16 @@
                         memorandum on the questions at issue which they can study and determine
                         whether they desire to call Prof. Day for an explanation.</p>
                 </div>
-                <div type="document" xml:id="d24" n="24">
+                <div type="document" xml:id="d24" n="24"
+                    frus:doc-dateTime-min="1919-03-01T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-01T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/25</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, March 1st, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-01" ana="#date_undated-inferred-from-document-head"
+                            >March 1, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -7042,10 +7180,16 @@
                             from that which the Commission might decide.</item>
                     </list>
                 </div>
-                <div type="document" xml:id="d25" n="25">
+                <div type="document" xml:id="d25" n="25"
+                    frus:doc-dateTime-min="1919-03-03T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-03T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/26</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, March 3rd, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-03" ana="#date_undated-inferred-from-document-head"
+                            >March 3, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -7150,10 +7294,16 @@
                             be in contradiction to the President’s principles.</item>
                     </list>
                 </div>
-                <div type="document" xml:id="d26" n="26">
+                <div type="document" xml:id="d26" n="26"
+                    frus:doc-dateTime-min="1919-03-04T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-04T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/27</note>
                     <head><hi rend="italic">Minutes of the Meetings of the Commissioners
                             Plenipotentiary, Tuesday, March 4, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-04" ana="#date_undated-inferred-from-document-head"
+                            >March 4, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -7281,10 +7431,16 @@
                             order, but rather to a desire to have a report from him.</item>
                     </list>
                 </div>
-                <div type="document" xml:id="d27" n="27">
+                <div type="document" xml:id="d27" n="27"
+                    frus:doc-dateTime-min="1919-03-05T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-05T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/28</note>
                     <head><hi rend="italic">Minutes of the Meetings of the Commissioners
                             Plenipotentiary, Wednesday, March 5th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-05" ana="#date_undated-inferred-from-document-head"
+                            >March 5, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -7439,10 +7595,16 @@
                         way connected with this high estimate it might perhaps be advisable to get
                         the paper from the United States.</p>
                 </div>
-                <div type="document" xml:id="d28" n="28">
+                <div type="document" xml:id="d28" n="28"
+                    frus:doc-dateTime-min="1919-03-06T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-06T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/29</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, March 6th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-06" ana="#date_undated-inferred-from-document-head"
+                            >March 6, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -7541,10 +7703,16 @@
                         tomorrow, March 7th, 1919, in order to explain in detail the purpose of the
                         mission and the necessity for having so large a personnel.</p>
                 </div>
-                <div type="document" xml:id="d29" n="29">
+                <div type="document" xml:id="d29" n="29"
+                    frus:doc-dateTime-min="1919-03-07T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-07T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/30</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, March 7th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-07" ana="#date_undated-inferred-from-document-head"
+                            >March 7, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -8195,10 +8363,16 @@
                         Council for final disposition.</p>
                     <p>This Mr. Lansing agreed to do.</p>
                 </div>
-                <div type="document" xml:id="d30" n="30">
+                <div type="document" xml:id="d30" n="30"
+                    frus:doc-dateTime-min="1919-03-11T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-11T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/31</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, March 11th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-11" ana="#date_undated-inferred-from-document-head"
+                            >March 11, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -8364,10 +8538,16 @@
                         the opposition of the non-Moslem population in Turkey in the military
                         service.</p>
                 </div>
-                <div type="document" xml:id="d31" n="31">
+                <div type="document" xml:id="d31" n="31"
+                    frus:doc-dateTime-min="1919-03-12T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-12T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/32</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, March 12, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-12" ana="#date_undated-inferred-from-document-head"
+                            >March 12, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -8436,10 +8616,16 @@
                             Bell.</item>
                     </list>
                 </div>
-                <div type="document" xml:id="d32" n="32">
+                <div type="document" xml:id="d32" n="32"
+                    frus:doc-dateTime-min="1919-03-13T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-13T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/33</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, March 13th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-13" ana="#date_undated-inferred-from-document-head"
+                            >March 13, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -8602,10 +8788,16 @@
                         declarations was read and the Commissioners requested that Mr. Grew furnish
                         copies to each of them for further study.</p>
                 </div>
-                <div type="document" xml:id="d33" n="33">
+                <div type="document" xml:id="d33" n="33"
+                    frus:doc-dateTime-min="1919-03-18T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-18T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/34</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, March 18th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-18" ana="#date_undated-inferred-from-document-head"
+                            >March 18, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -8687,11 +8879,17 @@
                         would have to follow in order to have that Treaty ratified by their
                         respective Governments.</p>
                 </div>
-                <div type="document" xml:id="d34" n="34">
+                <div type="document" xml:id="d34" n="34"
+                    frus:doc-dateTime-min="1919-03-19T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-19T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/35</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, March 20th</hi> [<hi rend="italic">Wednesday,
                             March 19th</hi>], <hi rend="italic">1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-19" ana="#date_undated-inferred-from-document-head"
+                            >March 19, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -8873,10 +9071,16 @@
                         decision as to the advisability of sending the draft telegram in
                         question.</p>
                 </div>
-                <div type="document" xml:id="d35" n="35">
+                <div type="document" xml:id="d35" n="35"
+                    frus:doc-dateTime-min="1919-03-20T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-20T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/36</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, March 20th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-20" ana="#date_undated-inferred-from-document-head"
+                            >March 20, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -9049,10 +9253,16 @@
                         it would be better for Mr. Osborne not to travel to Paris via Germany but to
                         come by water if possible.</p>
                 </div>
-                <div type="document" xml:id="d36" n="36">
+                <div type="document" xml:id="d36" n="36"
+                    frus:doc-dateTime-min="1919-03-21T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-21T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Cont 184.00101/37</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, March 21st, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-21" ana="#date_undated-inferred-from-document-head"
+                            >March 21, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -9124,10 +9334,16 @@
                         the Naval Attaché at Madrid, and was noted with interest by the
                         Commissioners.</p>
                 </div>
-                <div type="document" xml:id="d37" n="37">
+                <div type="document" xml:id="d37" n="37"
+                    frus:doc-dateTime-min="1919-03-22T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-22T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/38</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, March 22nd, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-22" ana="#date_undated-inferred-from-document-head"
+                            >March 22, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -9195,10 +9411,16 @@
                         Poland</seg></p>
                 </div>
                 <pb n="133" xml:id="pg_133" facs="0169"/>
-                <div type="document" xml:id="d38" n="38">
+                <div type="document" xml:id="d38" n="38"
+                    frus:doc-dateTime-min="1919-03-27T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-27T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/39</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, March 27th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-27" ana="#date_undated-inferred-from-document-head"
+                            >March 27, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -9396,10 +9618,16 @@
                         scheme. <seg type="margin">Central Bolsheviki Anti Propaganda
                         Office</seg></p>
                 </div>
-                <div type="document" xml:id="d39" n="39">
+                <div type="document" xml:id="d39" n="39"
+                    frus:doc-dateTime-min="1919-03-28T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-28T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/40</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, March 28th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-28" ana="#date_undated-inferred-from-document-head"
+                            >March 28, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -9472,10 +9700,16 @@
                             President. <seg type="margin">Bill for President’s Train</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d40" n="40">
+                <div type="document" xml:id="d40" n="40"
+                    frus:doc-dateTime-min="1919-03-29T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-29T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/41</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, March 29th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-29" ana="#date_undated-inferred-from-document-head"
+                            >March 29, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -9500,10 +9734,16 @@
                                 Counter-acting Bolshevism by Allied Ministers</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d41" n="41">
+                <div type="document" xml:id="d41" n="41"
+                    frus:doc-dateTime-min="1919-03-31T00:00:00Z"
+                    frus:doc-dateTime-max="1919-03-31T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/42</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, March 31, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-03-31" ana="#date_undated-inferred-from-document-head"
+                            >March 31, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -9594,10 +9834,16 @@
                             Demobilization in France</seg></p>
                 </div>
                 <pb n="142" xml:id="pg_142" facs="0178"/>
-                <div type="document" xml:id="d42" n="42">
+                <div type="document" xml:id="d42" n="42"
+                    frus:doc-dateTime-min="1919-04-01T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-01T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/43</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, April 1st, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-01" ana="#date_undated-inferred-from-document-head"
+                            >April 1, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -9697,10 +9943,16 @@
                     </list>
                 </div>
                 <pb n="144" xml:id="pg_144" facs="0180"/>
-                <div type="document" xml:id="d43" n="43">
+                <div type="document" xml:id="d43" n="43"
+                    frus:doc-dateTime-min="1919-04-02T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-02T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/44</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, April 2nd, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-02" ana="#date_undated-inferred-from-document-head"
+                            >April 2, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -9744,10 +9996,16 @@
                     </list>
                 </div>
                 <pb n="145" xml:id="pg_145" facs="0181"/>
-                <div type="document" xml:id="d44" n="44">
+                <div type="document" xml:id="d44" n="44"
+                    frus:doc-dateTime-min="1919-04-03T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-03T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/45</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, April 3rd, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-03" ana="#date_undated-inferred-from-document-head"
+                            >April 3, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -9807,10 +10065,16 @@
                         comment, and for such action as General Pershing might see fit to take. <seg
                             type="margin">Regarding Officers Being Demobilized in France</seg></p>
                 </div>
-                <div type="document" xml:id="d45" n="45">
+                <div type="document" xml:id="d45" n="45"
+                    frus:doc-dateTime-min="1919-04-08T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-08T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/46</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, April 8th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-08" ana="#date_undated-inferred-from-document-head"
+                            >April 8, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -9848,10 +10112,16 @@
                                 type="margin">Mr. Dresel’s Proposed Trip to Berlin</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d46" n="46">
+                <div type="document" xml:id="d46" n="46"
+                    frus:doc-dateTime-min="1919-04-09T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-09T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/47</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, April 9th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-09" ana="#date_undated-inferred-from-document-head"
+                            >April 9, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -9891,10 +10161,16 @@
                         may be able to furnish him in the premises. <seg type="margin">Regarding
                             Employment of Mr. Lynch</seg></p>
                 </div>
-                <div type="document" xml:id="d47" n="47">
+                <div type="document" xml:id="d47" n="47"
+                    frus:doc-dateTime-min="1919-04-10T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-10T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/48</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, April 10th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-10" ana="#date_undated-inferred-from-document-head"
+                            >April 10, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -9975,10 +10251,16 @@
                         President for his approval, and for the consideration of the Council of
                         Four. <seg type="margin">Restitution to</seg></p>
                 </div>
-                <div type="document" xml:id="d48" n="48">
+                <div type="document" xml:id="d48" n="48"
+                    frus:doc-dateTime-min="1919-04-12T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-12T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/49</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, April 12th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-12" ana="#date_undated-inferred-from-document-head"
+                            >April 12, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -10051,10 +10333,16 @@
                                 Arms in Eastern Galicia</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d49" n="49">
+                <div type="document" xml:id="d49" n="49"
+                    frus:doc-dateTime-min="1919-04-14T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-14T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/50</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, April 14th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-14" ana="#date_undated-inferred-from-document-head"
+                            >April 14, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -10131,10 +10419,16 @@
                         government to the proposed negotiations in Paris. <seg type="margin"
                             >Regarding Interest Alleged French Officers in Ukraine</seg></p>
                 </div>
-                <div type="document" xml:id="d50" n="50">
+                <div type="document" xml:id="d50" n="50"
+                    frus:doc-dateTime-min="1919-04-16T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-16T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/51</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, April 16th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-16" ana="#date_undated-inferred-from-document-head"
+                            >April 16, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -10196,10 +10490,16 @@
                                 Cross</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d51" n="51">
+                <div type="document" xml:id="d51" n="51"
+                    frus:doc-dateTime-min="1919-04-18T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-18T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/52</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, April 18, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-18" ana="#date_undated-inferred-from-document-head"
+                            >April 18, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -10256,10 +10556,16 @@
                                 Syria</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d52" n="52">
+                <div type="document" xml:id="d52" n="52"
+                    frus:doc-dateTime-min="1919-04-18T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-18T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/53</note>
                     <head><hi rend="italic">Memorandum of Discussion at the Meeting of the
                             Commissioners, April 18, 1919, Regarding Fiume</hi></head>
+                    <dateline>
+                        <placeName>Fiume</placeName>, <date when="1919-04-18"
+                            ana="#date_undated-inferred-from-document-head">April 18, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -10355,10 +10661,16 @@
                         Italians as soon as possible, preferably on the next day.</p>
                 </div>
                 <pb n="158" xml:id="pg_158" facs="0194"/>
-                <div type="document" xml:id="d53" n="53">
+                <div type="document" xml:id="d53" n="53"
+                    frus:doc-dateTime-min="1919-04-19T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-19T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/54</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, April 19th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-19" ana="#date_undated-inferred-from-document-head"
+                            >April 19, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -10457,10 +10769,16 @@
                     </list>
                 </div>
                 <pb n="160" xml:id="pg_160" facs="0196"/>
-                <div type="document" xml:id="d54" n="54">
+                <div type="document" xml:id="d54" n="54"
+                    frus:doc-dateTime-min="1919-04-22T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-22T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/55</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, April 22, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-22" ana="#date_undated-inferred-from-document-head"
+                            >April 22, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -10532,10 +10850,16 @@
                                 Nations</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d55" n="55">
+                <div type="document" xml:id="d55" n="55"
+                    frus:doc-dateTime-min="1919-04-23T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-23T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/56</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, April 23, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-23" ana="#date_undated-inferred-from-document-head"
+                            >April 23, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -10598,10 +10922,16 @@
                                 Missions</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d56" n="56">
+                <div type="document" xml:id="d56" n="56"
+                    frus:doc-dateTime-min="1919-04-24T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-24T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/57</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, April 24, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-24" ana="#date_undated-inferred-from-document-head"
+                            >April 24, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -10697,10 +11027,16 @@
                         them. <seg type="margin">Mission to Turkey</seg></p>
                 </div>
                 <pb n="165" xml:id="pg_165" facs="0201"/>
-                <div type="document" xml:id="d57" n="57">
+                <div type="document" xml:id="d57" n="57"
+                    frus:doc-dateTime-min="1919-04-26T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-26T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/58</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, April 26, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-26" ana="#date_undated-inferred-from-document-head"
+                            >April 26, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -10785,10 +11121,16 @@
                                 American Prisoners in Russia</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d58" n="58">
+                <div type="document" xml:id="d58" n="58"
+                    frus:doc-dateTime-min="1919-04-28T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-28T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/59</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, April 28, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-28" ana="#date_undated-inferred-from-document-head"
+                            >April 28, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -10881,10 +11223,16 @@
                                 Allotment to Capt. Bassett</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d59" n="59">
+                <div type="document" xml:id="d59" n="59"
+                    frus:doc-dateTime-min="1919-04-29T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-29T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/60</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, April 29, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-29" ana="#date_undated-inferred-from-document-head"
+                            >April 29, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -10983,10 +11331,16 @@
                         province.</p>
                 </div>
                 <pb n="171" xml:id="pg_171" facs="0207"/>
-                <div type="document" xml:id="d60" n="60">
+                <div type="document" xml:id="d60" n="60"
+                    frus:doc-dateTime-min="1919-04-30T00:00:00Z"
+                    frus:doc-dateTime-max="1919-04-30T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/61</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, April 30th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-04-30" ana="#date_undated-inferred-from-document-head"
+                            >April 30, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11042,10 +11396,16 @@
                                 Commission</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d61" n="61">
+                <div type="document" xml:id="d61" n="61"
+                    frus:doc-dateTime-min="1919-05-01T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-01T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/62</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, 1 May, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-01" ana="#date_undated-inferred-from-document-head">May
+                            1, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11089,10 +11449,16 @@
                     </list>
                 </div>
                 <pb n="173" xml:id="pg_173" facs="0209"/>
-                <div type="document" xml:id="d62" n="62">
+                <div type="document" xml:id="d62" n="62"
+                    frus:doc-dateTime-min="1919-05-02T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-02T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/63</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, May 2, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-02" ana="#date_undated-inferred-from-document-head">May
+                            2, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11136,10 +11502,16 @@
                     </list>
                 </div>
                 <pb n="174" xml:id="pg_174" facs="0210"/>
-                <div type="document" xml:id="d63" n="63">
+                <div type="document" xml:id="d63" n="63"
+                    frus:doc-dateTime-min="1919-05-05T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-05T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/64</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, May 5, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-05" ana="#date_undated-inferred-from-document-head">May
+                            5, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11197,10 +11569,16 @@
                                 >Subsistence for Naval Officers</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d64" n="64">
+                <div type="document" xml:id="d64" n="64"
+                    frus:doc-dateTime-min="1919-05-07T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-07T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/65</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, May 7th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-07" ana="#date_undated-inferred-from-document-head">May
+                            7, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11279,10 +11657,16 @@
                             liberal party.</item>
                     </list>
                 </div>
-                <div type="document" xml:id="d65" n="65">
+                <div type="document" xml:id="d65" n="65"
+                    frus:doc-dateTime-min="1919-05-08T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-08T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/66</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, May 8th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-08" ana="#date_undated-inferred-from-document-head">May
+                            8, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11299,10 +11683,16 @@
                         left the question of expenses to his discretion. <seg type="margin">Dinner
                             to Joint Secretariat by Col. Grant</seg></p>
                 </div>
-                <div type="document" xml:id="d66" n="66">
+                <div type="document" xml:id="d66" n="66"
+                    frus:doc-dateTime-min="1919-05-09T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-09T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/67</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, May 9th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-09" ana="#date_undated-inferred-from-document-head">May
+                            9, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11352,10 +11742,16 @@
                                 Sgt. Burkenshaw With Commission in Civilian Capacity</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d67" n="67">
+                <div type="document" xml:id="d67" n="67"
+                    frus:doc-dateTime-min="1919-05-10T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-10T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/68</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, May 10, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-10" ana="#date_undated-inferred-from-document-head">May
+                            10, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11395,10 +11791,16 @@
                     </list>
                 </div>
                 <pb n="179" xml:id="pg_179" facs="0215"/>
-                <div type="document" xml:id="d68" n="68">
+                <div type="document" xml:id="d68" n="68"
+                    frus:doc-dateTime-min="1919-05-19T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-19T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/69</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, May 19th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-19" ana="#date_undated-inferred-from-document-head">May
+                            19, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11452,10 +11854,16 @@
                     </list>
                 </div>
                 <pb n="180" xml:id="pg_180" facs="0216"/>
-                <div type="document" xml:id="d69" n="69">
+                <div type="document" xml:id="d69" n="69"
+                    frus:doc-dateTime-min="1919-05-20T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-20T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/70</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, May 20th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-20" ana="#date_undated-inferred-from-document-head">May
+                            20, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11502,10 +11910,16 @@
                     </list>
                 </div>
                 <pb n="181" xml:id="pg_181" facs="0217"/>
-                <div type="document" xml:id="d70" n="70">
+                <div type="document" xml:id="d70" n="70"
+                    frus:doc-dateTime-min="1919-05-22T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-22T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/71</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, May 22, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-22" ana="#date_undated-inferred-from-document-head">May
+                            22, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11549,10 +11963,16 @@
                     </list>
                 </div>
                 <pb n="182" xml:id="pg_182" facs="0218"/>
-                <div type="document" xml:id="d71" n="71">
+                <div type="document" xml:id="d71" n="71"
+                    frus:doc-dateTime-min="1919-05-23T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-23T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/72</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, May 23, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-23" ana="#date_undated-inferred-from-document-head">May
+                            23, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11682,10 +12102,16 @@
                             Commissioners</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d72" n="72">
+                <div type="document" xml:id="d72" n="72"
+                    frus:doc-dateTime-min="1919-05-24T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-24T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/73</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, May 24, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-24" ana="#date_undated-inferred-from-document-head">May
+                            24, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11725,10 +12151,16 @@
                         but that it should be under the mandate of either England or the United
                         States.</p>
                 </div>
-                <div type="document" xml:id="d73" n="73">
+                <div type="document" xml:id="d73" n="73"
+                    frus:doc-dateTime-min="1919-05-26T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-26T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/74</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, May 26, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-26" ana="#date_undated-inferred-from-document-head">May
+                            26, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11858,10 +12290,16 @@
                         Vorarlberg which resulted in 80 per cent of the population desiring to be
                         united with Switzerland.</p>
                 </div>
-                <div type="document" xml:id="d74" n="74">
+                <div type="document" xml:id="d74" n="74"
+                    frus:doc-dateTime-min="1919-05-27T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-27T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/75</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, May 27, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-27" ana="#date_undated-inferred-from-document-head">May
+                            27, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11949,10 +12387,16 @@
                                 30th, 1919 To Be Observed as Holiday</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d75" n="75">
+                <div type="document" xml:id="d75" n="75"
+                    frus:doc-dateTime-min="1919-05-28T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-28T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/76</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, May 28, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-28" ana="#date_undated-inferred-from-document-head">May
+                            28, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -11974,10 +12418,16 @@
                                 Major Steinberg</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d76" n="76">
+                <div type="document" xml:id="d76" n="76"
+                    frus:doc-dateTime-min="1919-05-29T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-29T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/77</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, May 29, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-29" ana="#date_undated-inferred-from-document-head">May
+                            29, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -12130,10 +12580,16 @@
                     </list>
                 </div>
                 <pb n="194" xml:id="pg_194" facs="0230"/>
-                <div type="document" xml:id="d77" n="77">
+                <div type="document" xml:id="d77" n="77"
+                    frus:doc-dateTime-min="1919-05-31T00:00:00Z"
+                    frus:doc-dateTime-max="1919-05-31T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/78</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, May 31, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-05-31" ana="#date_undated-inferred-from-document-head">May
+                            31, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -12233,10 +12689,16 @@
                     </list>
                 </div>
                 <pb n="196" xml:id="pg_196" facs="0232"/>
-                <div type="document" xml:id="d78" n="78">
+                <div type="document" xml:id="d78" n="78"
+                    frus:doc-dateTime-min="1919-06-03T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-03T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/79</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, June 3, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-03" ana="#date_undated-inferred-from-document-head">June
+                            3, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -12284,12 +12746,18 @@
                     </list>
                 </div>
                 <pb n="197" xml:id="pg_197" facs="0233"/>
-                <div type="document" xml:id="d79" n="79">
+                <div type="document" xml:id="d79" n="79"
+                    frus:doc-dateTime-min="1919-06-03T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-03T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/80</note>
                     <head><hi rend="italic">Stenographic Report of Meeting Between the President,
                             the Commissioners, and the Technical Advisers of the American Commission
                             to Negotiate Peace, Hotel Crillon, Paris, June 3, 1919, at 11 o’clock
                             a.m.</hi></head>
+                    <dateline>
+                        <placeName>Paris</placeName>, <date when="1919-06-03"
+                            ana="#date_undated-inferred-from-document-head">June 3, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">The President</hi></item>
@@ -13474,10 +13942,16 @@
                     <p>Thereupon, at 1:15 p.m., the meeting adjourned.</p>
                 </div>
                 <pb n="223" xml:id="pg_223" facs="0259"/>
-                <div type="document" xml:id="d80" n="80">
+                <div type="document" xml:id="d80" n="80"
+                    frus:doc-dateTime-min="1919-06-04T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-04T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/81</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, June 4, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-04" ana="#date_undated-inferred-from-document-head">June
+                            4, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -13531,10 +14005,16 @@
                     </list>
                 </div>
                 <pb n="224" xml:id="pg_224" facs="0260"/>
-                <div type="document" xml:id="d81" n="81">
+                <div type="document" xml:id="d81" n="81"
+                    frus:doc-dateTime-min="1919-06-05T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-05T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/82</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, June 5, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-05" ana="#date_undated-inferred-from-document-head">June
+                            5, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -13606,10 +14086,16 @@
                                 Labor Commission</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d82" n="82">
+                <div type="document" xml:id="d82" n="82"
+                    frus:doc-dateTime-min="1919-06-07T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-07T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/83</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, June 7th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-07" ana="#date_undated-inferred-from-document-head">June
+                            7, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -13719,10 +14205,16 @@
                                 Croats and Slovenes</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d83" n="83">
+                <div type="document" xml:id="d83" n="83"
+                    frus:doc-dateTime-min="1919-06-09T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-09T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/84</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, June 9, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-09" ana="#date_undated-inferred-from-document-head">June
+                            9, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -13771,10 +14263,16 @@
                             Slatin</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d84" n="84">
+                <div type="document" xml:id="d84" n="84"
+                    frus:doc-dateTime-min="1919-06-10T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-10T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/85</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, June 10, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-10" ana="#date_undated-inferred-from-document-head">June
+                            10, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -13824,10 +14322,16 @@
                         whether it would be possible to obtain copies of these records as well as of
                         the decisions reached by the Council of Four.</p>
                 </div>
-                <div type="document" xml:id="d85" n="85">
+                <div type="document" xml:id="d85" n="85"
+                    frus:doc-dateTime-min="1919-06-12T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-12T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/86</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, June 12th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-12" ana="#date_undated-inferred-from-document-head">June
+                            12, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -13970,10 +14474,16 @@
                             Correspondents</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d86" n="86">
+                <div type="document" xml:id="d86" n="86"
+                    frus:doc-dateTime-min="1919-06-13T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-13T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/87</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, June 13, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-13" ana="#date_undated-inferred-from-document-head">June
+                            13, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -14030,10 +14540,16 @@
                                 Arms Traffic</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d87" n="87">
+                <div type="document" xml:id="d87" n="87"
+                    frus:doc-dateTime-min="1919-06-14T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-14T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/88</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, June 14, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-14" ana="#date_undated-inferred-from-document-head">June
+                            14, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -14093,10 +14609,16 @@
                     </list>
                 </div>
                 <pb n="235" xml:id="pg_235" facs="0271"/>
-                <div type="document" xml:id="d88" n="88">
+                <div type="document" xml:id="d88" n="88"
+                    frus:doc-dateTime-min="1919-06-16T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-16T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/89</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, June 16, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-16" ana="#date_undated-inferred-from-document-head">June
+                            16, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -14188,10 +14710,16 @@
                                 type="margin">Request for Release of Lieut. Berle</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d89" n="89">
+                <div type="document" xml:id="d89" n="89"
+                    frus:doc-dateTime-min="1919-06-17T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-17T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/90</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, June 17, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-17" ana="#date_undated-inferred-from-document-head">June
+                            17, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -14254,10 +14782,16 @@
                                 >Visit to Germany by Mr. Hoyt S. Gale</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d90" n="90">
+                <div type="document" xml:id="d90" n="90"
+                    frus:doc-dateTime-min="1919-06-18T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-18T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/91</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, June 18, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-18" ana="#date_undated-inferred-from-document-head">June
+                            18, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -14319,10 +14853,16 @@
                         remaining with the Commission. <seg type="margin">Release of Drs. Day and
                             Seymour</seg></p>
                 </div>
-                <div type="document" xml:id="d91" n="91">
+                <div type="document" xml:id="d91" n="91"
+                    frus:doc-dateTime-min="1919-06-19T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-19T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/92</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, June 19, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-19" ana="#date_undated-inferred-from-document-head">June
+                            19, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -14418,10 +14958,16 @@
                                 Foodstuffs in Finland</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d92" n="92">
+                <div type="document" xml:id="d92" n="92"
+                    frus:doc-dateTime-min="1919-06-21T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-21T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/93</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, June 21, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-21" ana="#date_undated-inferred-from-document-head">June
+                            21, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -14528,10 +15074,16 @@
                                 type="margin">Release of Captain Montgomery</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d93" n="93">
+                <div type="document" xml:id="d93" n="93"
+                    frus:doc-dateTime-min="1919-06-23T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-23T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/94</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, June 23, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-23" ana="#date_undated-inferred-from-document-head">June
+                            23, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -14581,10 +15133,16 @@
                                 >Release of Lieut. Berle</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d94" n="94">
+                <div type="document" xml:id="d94" n="94"
+                    frus:doc-dateTime-min="1919-06-24T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-24T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/95</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, June 24th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-24" ana="#date_undated-inferred-from-document-head">June
+                            24, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -14657,10 +15215,16 @@
                                 Conference</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d95" n="95">
+                <div type="document" xml:id="d95" n="95"
+                    frus:doc-dateTime-min="1919-06-25T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-25T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/96</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, June 25, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-25" ana="#date_undated-inferred-from-document-head">June
+                            25, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -14798,10 +15362,16 @@
                     </list>
                 </div>
                 <pb n="249" xml:id="pg_249" facs="0285"/>
-                <div type="document" xml:id="d96" n="96">
+                <div type="document" xml:id="d96" n="96"
+                    frus:doc-dateTime-min="1919-06-26T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-26T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/97</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, June 26th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-26" ana="#date_undated-inferred-from-document-head">June
+                            26, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -14837,10 +15407,16 @@
                                 Company for Further Duty With the Commission</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d97" n="97">
+                <div type="document" xml:id="d97" n="97"
+                    frus:doc-dateTime-min="1919-06-27T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-27T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/98</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, June 27th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-27" ana="#date_undated-inferred-from-document-head">June
+                            27, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -14896,10 +15472,16 @@
                             an Arbitrator for Danube River Craft</seg></p>
                 </div>
                 <pb n="251" xml:id="pg_251" facs="0287"/>
-                <div type="document" xml:id="d98" n="98">
+                <div type="document" xml:id="d98" n="98"
+                    frus:doc-dateTime-min="1919-06-30T00:00:00Z"
+                    frus:doc-dateTime-max="1919-06-30T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/99</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, June 30, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-06-30" ana="#date_undated-inferred-from-document-head">June
+                            30, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -15127,10 +15709,16 @@
                         country to another.</p>
                 </div>
                 <pb n="256" xml:id="pg_256" facs="0292"/>
-                <div type="document" xml:id="d99" n="99">
+                <div type="document" xml:id="d99" n="99"
+                    frus:doc-dateTime-min="1919-07-01T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-01T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/100</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, July 1, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-01" ana="#date_undated-inferred-from-document-head">July
+                            1, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -15418,10 +16006,16 @@
                         be a very advisable appointment and that Colonel Greene was much the best
                         person to act as the American representative in these provinces.</p>
                 </div>
-                <div type="document" xml:id="d100" n="100">
+                <div type="document" xml:id="d100" n="100"
+                    frus:doc-dateTime-min="1919-07-02T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-02T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/101</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, July 2, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-02" ana="#date_undated-inferred-from-document-head">July
+                            2, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -15561,10 +16155,16 @@
                                 825</ref>.</note></p>
                 </div>
                 <pb n="265" xml:id="pg_265" facs="0301"/>
-                <div type="document" xml:id="d101" n="101">
+                <div type="document" xml:id="d101" n="101"
+                    frus:doc-dateTime-min="1919-07-03T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-03T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/102</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, July 3, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-03" ana="#date_undated-inferred-from-document-head">July
+                            3, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -15690,10 +16290,16 @@
                             >Mr. Whitney Shepardson’s Proposal To Assist on International
                             Secretariat of League of Nations</seg></p>
                 </div>
-                <div type="document" xml:id="d102" n="102">
+                <div type="document" xml:id="d102" n="102"
+                    frus:doc-dateTime-min="1919-07-04T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-04T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/103</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, July 4, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-04" ana="#date_undated-inferred-from-document-head">July
+                            4, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -15764,10 +16370,16 @@
                     </list>
                 </div>
                 <pb n="269" xml:id="pg_269" facs="0305"/>
-                <div type="document" xml:id="d103" n="103">
+                <div type="document" xml:id="d103" n="103"
+                    frus:doc-dateTime-min="1919-07-05T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-05T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/104</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, July 5th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-05" ana="#date_undated-inferred-from-document-head">July
+                            5, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -15839,10 +16451,16 @@
                         space available in the Crillon and No. 4 Place de La Concorde, and that this
                         space should not be overcrowded.</p>
                 </div>
-                <div type="document" xml:id="d104" n="104">
+                <div type="document" xml:id="d104" n="104"
+                    frus:doc-dateTime-min="1919-07-07T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-07T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/105</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, July 7th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-07" ana="#date_undated-inferred-from-document-head">July
+                            7, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -15939,10 +16557,16 @@
                         Grew’s approval.</p>
                 </div>
                 <pb n="273" xml:id="pg_273" facs="0309"/>
-                <div type="document" xml:id="d105" n="105">
+                <div type="document" xml:id="d105" n="105"
+                    frus:doc-dateTime-min="1919-07-08T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-08T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/106</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, July 8th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-08" ana="#date_undated-inferred-from-document-head">July
+                            8, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -15985,11 +16609,17 @@
                             Jadwin</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d106" n="106">
+                <div type="document" xml:id="d106" n="106"
+                    frus:doc-dateTime-min="1919-07-08T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-08T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/107</note>
                     <head><hi rend="italic">Notes on the Meeting of the Commissioners and the
                             Technical Experts of the American Commission to Negotiate Peace, Hotel
                             Crillon, Paris, Tuesday, July 8, 1919</hi></head>
+                    <dateline>
+                        <placeName>Paris</placeName>, <date when="1919-07-08"
+                            ana="#date_undated-inferred-from-document-head">July 8, 1919</date>
+                    </dateline>
                     <p>The Commissioners called the meeting. Mr. Lansing explained their purpose in
                         so doing. Mr. Harrison, at the request of the Steering <pb n="274"
                             xml:id="pg_274" facs="0310"/>Committee, read out a list of subjects
@@ -16693,10 +17323,16 @@
                         not in favor of it, unless they ask us to come in as an arbiter.</p>
                     <p>End of Meeting.</p>
                 </div>
-                <div type="document" xml:id="d107" n="107">
+                <div type="document" xml:id="d107" n="107"
+                    frus:doc-dateTime-min="1919-07-09T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-09T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/108</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, July 9th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-09" ana="#date_undated-inferred-from-document-head">July
+                            9, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -16810,10 +17446,16 @@
                         an American destroyer at Fiume and it would not be long before the cruiser
                         already ordered there would arrive.</p>
                 </div>
-                <div type="document" xml:id="d108" n="108">
+                <div type="document" xml:id="d108" n="108"
+                    frus:doc-dateTime-min="1919-07-10T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-10T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/109</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, July 10th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-10" ana="#date_undated-inferred-from-document-head">July
+                            10, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -16923,10 +17565,16 @@
                         duties. <seg type="margin">Field Missions</seg></p>
                 </div>
                 <pb n="293" xml:id="pg_293" facs="0329"/>
-                <div type="document" xml:id="d109" n="109">
+                <div type="document" xml:id="d109" n="109"
+                    frus:doc-dateTime-min="1919-07-11T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-11T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/110</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, July 11th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-11" ana="#date_undated-inferred-from-document-head">July
+                            11, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -17017,10 +17665,16 @@
                             to Crillon on July 14th</seg></p>
                 </div>
                 <pb n="295" xml:id="pg_295" facs="0331"/>
-                <div type="document" xml:id="d110" n="110">
+                <div type="document" xml:id="d110" n="110"
+                    frus:doc-dateTime-min="1919-07-12T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-12T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/111</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, July 12th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-12" ana="#date_undated-inferred-from-document-head">July
+                            12, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Lansing</hi></item>
@@ -17102,10 +17756,16 @@
                     <p>The Commissioners approved the appointment of Brigadier General Rice.</p>
                 </div>
                 <pb n="297" xml:id="pg_297" facs="0333"/>
-                <div type="document" xml:id="d111" n="111">
+                <div type="document" xml:id="d111" n="111"
+                    frus:doc-dateTime-min="1919-07-15T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-15T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/112</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, July 15th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-15" ana="#date_undated-inferred-from-document-head">July
+                            15, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -17298,10 +17958,16 @@
                         their way to give the matter favorable consideration, as it was of great
                         importance to Belgium.</p>
                 </div>
-                <div type="document" xml:id="d112" n="112">
+                <div type="document" xml:id="d112" n="112"
+                    frus:doc-dateTime-min="1919-07-16T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-16T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/113</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, July 16th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-16" ana="#date_undated-inferred-from-document-head">July
+                            16, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -17341,11 +18007,18 @@
                             Coislin</seg></p>
                     <p>The Commissioners heard Mr. Poole on the situation in Russia.</p>
                 </div>
-                <div type="document" xml:id="d113" n="113">
+                <div type="document" xml:id="d113" n="113"
+                    frus:doc-dateTime-min="1919-07-16T14:00:00Z"
+                    frus:doc-dateTime-max="1919-07-16T14:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/114</note>
                     <head><hi rend="italic">Minutes of Meeting of Commissioners and Technical
                             Advisers of American Commission to Negotiate Peace, Hotel Crillon, July
                             16, 1919, at 2 p.m.</hi></head>
+                    <dateline>
+                        <date when="1919-07-16T14:00:00"
+                            ana="#date_undated-inferred-from-document-head">July 16, 1919, 2
+                            p.m.</date>
+                    </dateline>
                     <p><hi rend="smallcaps">Mr. White</hi> opened the meeting and called upon those
                         present to give information concerning the status of various Commissions’
                         work, and asked for suggestions concerning the uncompleted treaties.</p>
@@ -17804,10 +18477,16 @@
                         said about expenses.</p>
                     <p>End of Meeting.</p>
                 </div>
-                <div type="document" xml:id="d114" n="114">
+                <div type="document" xml:id="d114" n="114"
+                    frus:doc-dateTime-min="1919-07-17T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-17T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/115</note>
                     <head><hi rend="italic">Minutes of the Meetings of the Commissioners
                             Plenipotentiary, July 17, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-17" ana="#date_undated-inferred-from-document-head">July
+                            17, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -18284,10 +18963,16 @@
                         directorate.</p>
                 </div>
                 <pb n="323" xml:id="pg_323" facs="0359"/>
-                <div type="document" xml:id="d115" n="115">
+                <div type="document" xml:id="d115" n="115"
+                    frus:doc-dateTime-min="1919-07-18T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-18T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/116</note>
                     <head><hi rend="italic">Minutes of the Meetings of the Commissioners
                             Plenipotentiary, July 18, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-18" ana="#date_undated-inferred-from-document-head">July
+                            18, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -18329,10 +19014,16 @@
                         behalf.</p>
                 </div>
                 <pb n="324" xml:id="pg_324" facs="0360"/>
-                <div type="document" xml:id="d116" n="116">
+                <div type="document" xml:id="d116" n="116"
+                    frus:doc-dateTime-min="1919-07-19T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-19T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/117</note>
                     <head><hi rend="italic">Minutes of the Meetings of the Commissioners
                             Plenipotentiary, July 19, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-19" ana="#date_undated-inferred-from-document-head">July
+                            19, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -18393,10 +19084,16 @@
                         for the distribution and circulation of the summary of the present stage of
                         preparation of the Bulgarian Treaty.</p>
                 </div>
-                <div type="document" xml:id="d117" n="117">
+                <div type="document" xml:id="d117" n="117"
+                    frus:doc-dateTime-min="1919-07-21T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-21T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/118</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, July 21, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-21" ana="#date_undated-inferred-from-document-head">July
+                            21, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -18461,10 +19158,16 @@
                         Aeronautical Commission. <seg type="margin">Successor to General Patrick on
                             the Aeronautical Commission</seg></p>
                 </div>
-                <div type="document" xml:id="d118" n="118">
+                <div type="document" xml:id="d118" n="118"
+                    frus:doc-dateTime-min="1919-07-22T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-22T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/119</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, July 22, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-22" ana="#date_undated-inferred-from-document-head">July
+                            22, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -18512,10 +19215,16 @@
                         taking final action in the matter.</p>
                 </div>
                 <pb n="328" xml:id="pg_328" facs="0364"/>
-                <div type="document" xml:id="d119" n="119">
+                <div type="document" xml:id="d119" n="119"
+                    frus:doc-dateTime-min="1919-07-23T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-23T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/120</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, July 23, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-23" ana="#date_undated-inferred-from-document-head">July
+                            23, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -18574,11 +19283,18 @@
                             Information</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d120" n="120">
+                <div type="document" xml:id="d120" n="120"
+                    frus:doc-dateTime-min="1919-07-23T14:00:00Z"
+                    frus:doc-dateTime-max="1919-07-23T14:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/121</note>
                     <head><hi rend="italic">Minutes of Meeting of the Commissioners and Technical
                             Experts of the American Commission to Negotiate Peace, Hotel Crillon,
                             Paris, Wednesday, July 23, 1919, 2 p.m.</hi></head>
+                    <dateline>
+                        <placeName>Paris</placeName>, <date when="1919-07-23T14:00:00"
+                            ana="#date_undated-inferred-from-document-head">July 23, 1919, 2
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">The Honorable Mr. White</hi></item>
@@ -19274,10 +19990,17 @@
                         else.</p>
                     <p>Thereupon, at 3:15 P.M. the meeting adjourned.</p>
                 </div>
-                <div type="document" xml:id="d121" n="121">
+                <div type="document" xml:id="d121" n="121"
+                    frus:doc-dateTime-min="1919-07-24T09:30:00Z"
+                    frus:doc-dateTime-max="1919-07-24T09:30:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/122</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, July 24, 1919, at 9:30 a.m.</hi></head>
+                    <dateline>
+                        <date when="1919-07-24T09:30:00"
+                            ana="#date_undated-inferred-from-document-head">July 24, 1919, 9:30
+                            a.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -19328,10 +20051,16 @@
                                 Office</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d122" n="122">
+                <div type="document" xml:id="d122" n="122"
+                    frus:doc-dateTime-min="1919-07-25T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-25T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/123</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, July 25, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-25" ana="#date_undated-inferred-from-document-head">July
+                            25, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -19592,10 +20321,16 @@
                             type="margin">Colonel Goodyear To Succeed Mr. Howe on the Teschen
                             Commission</seg></p>
                 </div>
-                <div type="document" xml:id="d123" n="123">
+                <div type="document" xml:id="d123" n="123"
+                    frus:doc-dateTime-min="1919-07-28T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-28T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/124</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, July 28th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-28" ana="#date_undated-inferred-from-document-head">July
+                            28, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -19642,10 +20377,16 @@
                             Section of the Supreme Economic Council at the International Meeting of
                             August 6th</seg></p>
                 </div>
-                <div type="document" xml:id="d124" n="124">
+                <div type="document" xml:id="d124" n="124"
+                    frus:doc-dateTime-min="1919-07-29T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-29T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/125</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, July 29th, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-29" ana="#date_undated-inferred-from-document-head">July
+                            29, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -19689,10 +20430,16 @@
                         July 1st, she be paid at the rate of $250 per month. <seg type="margin">Miss
                             Groth’s Salary</seg></p>
                 </div>
-                <div type="document" xml:id="d125" n="125">
+                <div type="document" xml:id="d125" n="125"
+                    frus:doc-dateTime-min="1919-07-30T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-30T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/126</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, July 30, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-30" ana="#date_undated-inferred-from-document-head">July
+                            30, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -19744,10 +20491,16 @@
                         action taken by his British and French colleagues in the matter. <seg
                             type="margin">Securities Stolen by Bela Kun</seg></p>
                 </div>
-                <div type="document" xml:id="d126" n="126">
+                <div type="document" xml:id="d126" n="126"
+                    frus:doc-dateTime-min="1919-07-31T00:00:00Z"
+                    frus:doc-dateTime-max="1919-07-31T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/127</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, July 31, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-07-31" ana="#date_undated-inferred-from-document-head">July
+                            31, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -19785,10 +20538,16 @@
                             Hornberk To Accompany Him to London</seg></p>
                     <p>The Commissioners approved Mr. Beer’s request in this regard.</p>
                 </div>
-                <div type="document" xml:id="d127" n="127">
+                <div type="document" xml:id="d127" n="127"
+                    frus:doc-dateTime-min="1919-08-01T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-01T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/128</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, August 1, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-01" ana="#date_undated-inferred-from-document-head"
+                            >August 1, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -19827,10 +20586,16 @@
                             </quote></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d128" n="128">
+                <div type="document" xml:id="d128" n="128"
+                    frus:doc-dateTime-min="1919-08-02T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-02T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/129</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, August 2nd, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-02" ana="#date_undated-inferred-from-document-head"
+                            >August 2, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -19911,10 +20676,16 @@
                         soon as possible with a list of the personnel to be relieved immediately
                         under the decision regarding Field Missions.</p>
                 </div>
-                <div type="document" xml:id="d129" n="129">
+                <div type="document" xml:id="d129" n="129"
+                    frus:doc-dateTime-min="1919-08-06T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-06T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/130</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, August 6, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-06" ana="#date_undated-inferred-from-document-head"
+                            >August 6, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -20007,11 +20778,18 @@
                         those who can be retained, and a list of the personnel whom the Army will be
                         asked to supply.</p>
                 </div>
-                <div type="document" xml:id="d130" n="130">
+                <div type="document" xml:id="d130" n="130"
+                    frus:doc-dateTime-min="1919-08-06T14:00:00Z"
+                    frus:doc-dateTime-max="1919-08-06T14:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/131</note>
                     <head><hi rend="italic">Minutes of Meeting of the Commissioners and Technical
                             Advisers of the American Commission to Negotiate Peace, Hotel Crillon,
                             Paris, August 6, 1919, 2 p.m.</hi></head>
+                    <dateline>
+                        <placeName>Paris</placeName>, <date when="1919-08-06T14:00:00"
+                            ana="#date_undated-inferred-from-document-head">August 6, 1919, 2
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -20481,10 +21259,16 @@
                     <p><hi rend="smallcaps">Dr. Scott</hi>: Yes, it really can be done.</p>
                     <p>The meeting adjourned at 2:40 p.m.</p>
                 </div>
-                <div type="document" xml:id="d131" n="131">
+                <div type="document" xml:id="d131" n="131"
+                    frus:doc-dateTime-min="1919-08-07T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-07T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/132</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, August 7, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-07" ana="#date_undated-inferred-from-document-head"
+                            >August 7, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -20541,10 +21325,16 @@
                         the matter.</p>
                 </div>
                 <pb n="372" xml:id="pg_372" facs="0408"/>
-                <div type="document" xml:id="d132" n="132">
+                <div type="document" xml:id="d132" n="132"
+                    frus:doc-dateTime-min="1919-08-09T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-09T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.001017133</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, August 9, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-09" ana="#date_undated-inferred-from-document-head"
+                            >August 9, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -20606,10 +21396,16 @@
                             Office to date, charging the Commission’s allotment.</item>
                     </list>
                 </div>
-                <div type="document" xml:id="d133" n="133">
+                <div type="document" xml:id="d133" n="133"
+                    frus:doc-dateTime-min="1919-08-11T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-11T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/134</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, August 11, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-11" ana="#date_undated-inferred-from-document-head"
+                            >August 11, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -20735,10 +21531,16 @@
                         Secretary to request Major Tyler to report to him immediately for a
                         conference in regard thereto.</p>
                 </div>
-                <div type="document" xml:id="d134" n="134">
+                <div type="document" xml:id="d134" n="134"
+                    frus:doc-dateTime-min="1919-08-12T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-12T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/135</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, August 12, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-12" ana="#date_undated-inferred-from-document-head"
+                            >August 12, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -20802,10 +21604,16 @@
                         question be brought immediately to the attention of Mr. John Foster Dulles,
                         and that the last paragraph be referred to Prof. Coolidge.</p>
                 </div>
-                <div type="document" xml:id="d135" n="135">
+                <div type="document" xml:id="d135" n="135"
+                    frus:doc-dateTime-min="1919-08-13T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-13T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/136</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, August 13, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-13" ana="#date_undated-inferred-from-document-head"
+                            >August 13, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -20895,11 +21703,18 @@
                             type="margin">Successors to Dr. Hudson on Ports, Waterways and Railways
                             Commission</seg></p>
                 </div>
-                <div type="document" xml:id="d136" n="136">
+                <div type="document" xml:id="d136" n="136"
+                    frus:doc-dateTime-min="1919-08-13T14:00:00Z"
+                    frus:doc-dateTime-max="1919-08-13T14:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/137</note>
                     <head><hi rend="italic">Minutes of Meeting of Commissioners and Technical
                             Advisers of American Commission to Negotiate Peace, Hotel Crillon,
                             August 13, 1919, 2 p.m.</hi></head>
+                    <dateline>
+                        <date when="1919-08-13T14:00:00"
+                            ana="#date_undated-inferred-from-document-head">August 13, 1919, 2
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -21143,10 +21958,16 @@
                     <p>Meeting adjourned at 2:50 p.m.</p>
                 </div>
                 <pb n="385" xml:id="pg_385" facs="0421"/>
-                <div type="document" xml:id="d137" n="137">
+                <div type="document" xml:id="d137" n="137"
+                    frus:doc-dateTime-min="1919-08-14T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-14T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/138</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Thursday, August 14, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-14" ana="#date_undated-inferred-from-document-head"
+                            >August 14, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -21207,10 +22028,16 @@
                         the other expenses enumerated in the memorandum under consideration. General
                         Bliss undertook to see Colonel Masteller and explain the matter to him.</p>
                 </div>
-                <div type="document" xml:id="d138" n="138">
+                <div type="document" xml:id="d138" n="138"
+                    frus:doc-dateTime-min="1919-08-15T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-15T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/139</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, August 15, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-15" ana="#date_undated-inferred-from-document-head"
+                            >August 15, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -21287,10 +22114,16 @@
                         Eastern Relief, regarding the situation in Asia Minor. <seg type="margin"
                             >Hearing of Maj. Arnold</seg></p>
                 </div>
-                <div type="document" xml:id="d139" n="139">
+                <div type="document" xml:id="d139" n="139"
+                    frus:doc-dateTime-min="1919-08-18T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-18T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/140</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, August 18, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-18" ana="#date_undated-inferred-from-document-head"
+                            >August 18, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -21339,10 +22172,16 @@
                         read and noted by the Commissioners. <seg type="margin">Bulgarian
                             Delegation</seg></p>
                 </div>
-                <div type="document" xml:id="d140" n="140">
+                <div type="document" xml:id="d140" n="140"
+                    frus:doc-dateTime-min="1919-08-19T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-19T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/141</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, August 19, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-19" ana="#date_undated-inferred-from-document-head"
+                            >August 19, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -21384,11 +22223,18 @@
                         Mr. Fosdick before he could be furnished with any confidential Conference
                         documents.</p>
                 </div>
-                <div type="document" xml:id="d141" n="141">
+                <div type="document" xml:id="d141" n="141"
+                    frus:doc-dateTime-min="1919-08-20T13:00:00Z"
+                    frus:doc-dateTime-max="1919-08-20T13:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/142</note>
                     <head><hi rend="italic">Minutes of Meeting of Commissioners and Technical
                             Advisers, American Commission to Negotiate Peace, Hotel Crillon, Paris,
                             August 20, 1919, 2 p.m.</hi></head>
+                    <dateline>
+                        <placeName>Paris</placeName>, <date when="1919-08-20T14:00:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">August 20, 1919, 2
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -21555,10 +22401,16 @@
                     <p>Meeting adjourned at 2:55 p.m.</p>
                 </div>
                 <pb n="394" xml:id="pg_394" facs="0430"/>
-                <div type="document" xml:id="d142" n="142">
+                <div type="document" xml:id="d142" n="142"
+                    frus:doc-dateTime-min="1919-08-23T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-23T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/143</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, August 23, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-23" ana="#date_undated-inferred-from-document-head"
+                            >August 23, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -21579,10 +22431,17 @@
                     <p>The Commissioners approved the ultimate transfer of these two cars to General
                         Bandholtz under the conditions stated in the memorandum under reference.</p>
                 </div>
-                <div type="document" xml:id="d143" n="143">
+                <div type="document" xml:id="d143" n="143"
+                    frus:doc-dateTime-min="1919-08-26T09:00:00Z"
+                    frus:doc-dateTime-max="1919-08-26T09:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/144</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, August 26, 1919, 10 a.m.</hi></head>
+                    <dateline>
+                        <date when="1919-08-26T10:00:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">August 26, 1919, 10
+                            a.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -21627,11 +22486,18 @@
                         Legation: “The Commission is distinctly of the opinion that it would be
                         entirely undesirable for Dr. Herron to come to Paris.”</p>
                 </div>
-                <div type="document" xml:id="d144" n="144">
+                <div type="document" xml:id="d144" n="144"
+                    frus:doc-dateTime-min="1919-08-27T13:00:00Z"
+                    frus:doc-dateTime-max="1919-08-27T13:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/144½</note>
                     <head><hi rend="italic">Minutes of Meeting Between the Commissioners and
                             Technical Experts, American Commission to Negotiate Peace, Hotel
                             Crillon, Paris, August 27, 1919, 2 p.m.</hi></head>
+                    <dateline>
+                        <placeName>Paris</placeName>, <date when="1919-08-27T14:00:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">August 27, 1919, 2
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -21770,10 +22636,17 @@
                     <p><hi rend="smallcaps">Mr. White</hi>: I think that is sound.</p>
                     <p>The meeting adjourned at 2:30 p.m.</p>
                 </div>
-                <div type="document" xml:id="d145" n="145">
+                <div type="document" xml:id="d145" n="145"
+                    frus:doc-dateTime-min="1919-08-29T09:00:00Z"
+                    frus:doc-dateTime-max="1919-08-29T09:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/145</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, August 29, 1919, 10 a.m.</hi></head>
+                    <dateline>
+                        <date when="1919-08-29T10:00:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">August 29, 1919, 10
+                            a.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -21837,10 +22710,16 @@
                         to support the Esthonian Government and prevent the spread of Bolshevism.
                             <seg type="margin">Hearing of Lt. Col. Dawley</seg></p>
                 </div>
-                <div type="document" xml:id="d146" n="146">
+                <div type="document" xml:id="d146" n="146"
+                    frus:doc-dateTime-min="1919-08-30T00:00:00Z"
+                    frus:doc-dateTime-max="1919-08-30T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/146</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Saturday, August 30, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-08-30" ana="#date_undated-inferred-from-document-head"
+                            >August 30, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -21898,10 +22777,16 @@
                         Execution of the Treaty with Germany and approved the recommendation
                         submitted by Mr. Dresel in the memorandum in question.</p>
                 </div>
-                <div type="document" xml:id="d147" n="147">
+                <div type="document" xml:id="d147" n="147"
+                    frus:doc-dateTime-min="1919-09-01T00:00:00Z"
+                    frus:doc-dateTime-max="1919-09-01T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/147</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, September 1, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-09-01" ana="#date_undated-inferred-from-document-head"
+                            >September 1, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -21926,10 +22811,16 @@
                     <p>The Commissioners approved Dr. Johnson’s release as stated in memorandum
                         mentioned above.</p>
                 </div>
-                <div type="document" xml:id="d148" n="148">
+                <div type="document" xml:id="d148" n="148"
+                    frus:doc-dateTime-min="1919-09-02T00:00:00Z"
+                    frus:doc-dateTime-max="1919-09-02T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/148</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, September 2, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-09-02" ana="#date_undated-inferred-from-document-head"
+                            >September 2, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -21968,11 +22859,18 @@
                         on to Paris.</p>
                 </div>
                 <pb n="403" xml:id="pg_403" facs="0439"/>
-                <div type="document" xml:id="d149" n="149">
+                <div type="document" xml:id="d149" n="149"
+                    frus:doc-dateTime-min="1919-09-03T13:15:00Z"
+                    frus:doc-dateTime-max="1919-09-03T13:15:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/149</note>
                     <head><hi rend="italic">Minutes of Meeting Between the Commissioners and
                             Technical Advisers, American Commission to Negotiate Peace, Hotel
                             Crillon, Paris, September 3, 1919, at 2:15 p.m.</hi></head>
+                    <dateline>
+                        <placeName>Paris</placeName>, <date when="1919-09-03T14:15:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">September 3, 1919, 2:15
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -22583,10 +23481,16 @@
                     <p>The meeting adjourned at 3:00 p.m.</p>
                 </div>
                 <pb n="416" xml:id="pg_416" facs="0452"/>
-                <div type="document" xml:id="d150" n="150">
+                <div type="document" xml:id="d150" n="150"
+                    frus:doc-dateTime-min="1919-09-08T00:00:00Z"
+                    frus:doc-dateTime-max="1919-09-08T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/150</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, September 8, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-09-08" ana="#date_undated-inferred-from-document-head"
+                            >September 8, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -22622,10 +23526,16 @@
                             <item>Mr. Grew</item>
                         </list></p>
                 </div>
-                <div type="document" xml:id="d151" n="151">
+                <div type="document" xml:id="d151" n="151"
+                    frus:doc-dateTime-min="1919-09-16T00:00:00Z"
+                    frus:doc-dateTime-max="1919-09-16T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/151</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, September 16, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-09-16" ana="#date_undated-inferred-from-document-head"
+                            >September 16, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. White</hi></item>
@@ -22660,11 +23570,18 @@
                                 Mission</seg></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d152" n="152">
+                <div type="document" xml:id="d152" n="152"
+                    frus:doc-dateTime-min="1919-09-18T13:15:00Z"
+                    frus:doc-dateTime-max="1919-09-18T13:15:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/152</note>
                     <head><hi rend="italic">Minutes of Meeting of the Commissioners and Technical
                             Advisers of the American Commission to Negotiate Peace, Hotel Crillon,
                             Paris, Thursday, September 18, 1919, 2:15 p.m.</hi></head>
+                    <dateline>
+                        <placeName>Paris</placeName>, <date when="1919-09-18T14:15:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">September 18, 1919, 2:15
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -22999,10 +23916,16 @@
                         line I will send it.</p>
                     <p>Meeting adjourned at 2:50 p.m.</p>
                 </div>
-                <div type="document" xml:id="d153" n="153">
+                <div type="document" xml:id="d153" n="153"
+                    frus:doc-dateTime-min="1919-09-23T00:00:00Z"
+                    frus:doc-dateTime-max="1919-09-23T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/153</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, September 23, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-09-23" ana="#date_undated-inferred-from-document-head"
+                            >September 23, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -23133,11 +24056,18 @@
                         <seg type="margin">Occupation of Syria, Palestine and Mesopotamia, Pending
                             the Decision in Regard to Mandates</seg></p>
                 </div>
-                <div type="document" xml:id="d154" n="154">
+                <div type="document" xml:id="d154" n="154"
+                    frus:doc-dateTime-min="1919-09-24T13:30:00Z"
+                    frus:doc-dateTime-max="1919-09-24T13:30:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/154</note>
                     <head><hi rend="italic">Minutes of Meeting of the Commissioners and Technical
                             Advisers of the American Commission to Negotiate Peace, Hotel Crillon,
                             Paris, Wednesday, September 24, 1919, 2:30 p.m.</hi></head>
+                    <dateline>
+                        <placeName>Paris</placeName>, <date when="1919-09-24T14:30:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">September 24, 1919, 2:30
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -23470,11 +24400,18 @@
                     <p><hi rend="smallcaps">Mr. Polk</hi>: No.</p>
                     <p>The meeting adjourned at 3:10 p.m.</p>
                 </div>
-                <div type="document" xml:id="d155" n="155">
+                <div type="document" xml:id="d155" n="155"
+                    frus:doc-dateTime-min="1919-09-26T09:30:00Z"
+                    frus:doc-dateTime-max="1919-09-26T14:30:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/155</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Friday, September 26th, at 10:30 a.m. and 3:30
                             p.m.</hi></head>
+                    <dateline>
+                        <date from="1919-09-26T10:30:00+01:00" to="1919-09-26T15:30:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">September 26, 1919,
+                            10:30 a.m. and 3:30 p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -23547,10 +24484,16 @@
                         missions in Sofia with regard to the policy heretofore pursued by the
                         Conference vis-à-vis Bulgaria.</p>
                 </div>
-                <div type="document" xml:id="d156" n="156">
+                <div type="document" xml:id="d156" n="156"
+                    frus:doc-dateTime-min="1919-09-29T00:00:00Z"
+                    frus:doc-dateTime-max="1919-09-29T23:59:59Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/156</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Monday, September 29, 1919</hi></head>
+                    <dateline>
+                        <date when="1919-09-29" ana="#date_undated-inferred-from-document-head"
+                            >September 29, 1919</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -23662,10 +24605,17 @@
                         Wednesday evening, and would be glad to have any instructions or information
                         which the Commissioners cared to give him for Admiral Andrews.</p>
                 </div>
-                <div type="document" xml:id="d157" n="157">
+                <div type="document" xml:id="d157" n="157"
+                    frus:doc-dateTime-min="1919-09-30T15:30:00Z"
+                    frus:doc-dateTime-max="1919-09-30T15:30:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/157</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Tuesday, September 30, 1919, 3:30 p.m.</hi></head>
+                    <dateline>
+                        <date when="1919-09-30T15:30:00"
+                            ana="#date_undated-inferred-from-document-head">September 30, 1919, 3:30
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -23727,10 +24677,17 @@
                         the Army for permission to reside in the hotel should be referred by Mr.
                         McNeir to General Bliss.</p>
                 </div>
-                <div type="document" xml:id="d158" n="158">
+                <div type="document" xml:id="d158" n="158"
+                    frus:doc-dateTime-min="1919-10-01T09:30:00Z"
+                    frus:doc-dateTime-max="1919-10-01T09:30:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/158</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, Wednesday, October 1, 1919, 10:30 a.m.</hi></head>
+                    <dateline>
+                        <date when="1919-10-01T10:30:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">October 1, 1919, 10:30
+                            a.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -23800,10 +24757,17 @@
                         question should be brought up by the American delegate on the Supreme
                         Council.</p>
                 </div>
-                <div type="document" xml:id="d159" n="159">
+                <div type="document" xml:id="d159" n="159"
+                    frus:doc-dateTime-min="1919-10-02T14:30:00Z"
+                    frus:doc-dateTime-max="1919-10-02T14:30:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/159</note>
                     <head><hi rend="italic">Minutes of the Daily Meetings of the Commissioners
                             Plenipotentiary, October 2, 1919, 3:30 p.m.</hi></head>
+                    <dateline>
+                        <date when="1919-10-02T15:30:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">October 2, 1919, 3:30
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -23847,10 +24811,17 @@
                     <p>On this understanding, the Commissioners approved the release of Commander
                         McLean.</p>
                 </div>
-                <div type="document" xml:id="d160" n="160">
+                <div type="document" xml:id="d160" n="160"
+                    frus:doc-dateTime-min="1919-10-07T15:30:00Z"
+                    frus:doc-dateTime-max="1919-10-07T15:30:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/160</note>
                     <head><hi rend="italic">Minutes of the Meeting of the Commissioners
                             Plenipotentiary, October 7, 1919, 3:30 p.m.</hi></head>
+                    <dateline>
+                        <date when="1919-10-07T15:30:00+00:00"
+                            ana="#date_undated-inferred-from-document-head">October 7, 1919, 3:30
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -23958,10 +24929,17 @@
                         Supreme Council. <seg type="margin">Visit of General Bandholtz to
                             Belgrade</seg></p>
                 </div>
-                <div type="document" xml:id="d161" n="161">
+                <div type="document" xml:id="d161" n="161"
+                    frus:doc-dateTime-min="1919-10-08T11:00:00Z"
+                    frus:doc-dateTime-max="1919-10-08T11:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/161</note>
                     <head><hi rend="italic">Minutes of the Meetings of the Commissioners
                             Plenipotentiary, October 8, 1919, 11 a.m.</hi></head>
+                    <dateline>
+                        <date when="1919-10-08T11:00:00+00:00"
+                            ana="#date_undated-inferred-from-document-head">October 8, 1919, 11
+                            a.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -24092,10 +25070,17 @@
                                 inevitable.”</p>
                         </quote></p>
                 </div>
-                <div type="document" xml:id="d162" n="162">
+                <div type="document" xml:id="d162" n="162"
+                    frus:doc-dateTime-min="1919-10-09T11:00:00Z"
+                    frus:doc-dateTime-max="1919-10-09T11:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.00101/162</note>
                     <head><hi rend="italic">Minutes of the Meetings of the Commissioners
                             Plenipotentiary, October 9, 1919, 11 a.m.</hi></head>
+                    <dateline>
+                        <date when="1919-10-09T11:00:00+00:00"
+                            ana="#date_undated-inferred-from-document-head">October 9, 1919, 11
+                            a.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Mr. Polk</hi></item>
@@ -24166,10 +25151,17 @@
             <div type="compilation" xml:id="comp2">
                 <head>Minutes of Meetings of the Steering Committee of the American
                     Delegation</head>
-                <div type="document" xml:id="d163" n="163">
+                <div type="document" xml:id="d163" n="163"
+                    frus:doc-dateTime-min="1919-07-01T08:00:00Z"
+                    frus:doc-dateTime-max="1919-07-01T08:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.001101/1</note>
                     <head><hi rend="italic">Minutes of Meeting of the Steering Committee, July 1,
                             1919, at 9 a.m.</hi></head>
+                    <dateline>
+                        <date when="1919-07-01T09:00:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">July 1, 1919, 9
+                            a.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Dr. James Brown Scott</hi></item>
@@ -24224,10 +25216,17 @@
                             xml:id="pg_454" facs="0490"/>and A. C. Coolidge requesting definite
                         answers to certain specific questions regarding the Near East.</p>
                 </div>
-                <div type="document" xml:id="d164" n="164">
+                <div type="document" xml:id="d164" n="164"
+                    frus:doc-dateTime-min="1919-07-02T13:00:00Z"
+                    frus:doc-dateTime-max="1919-07-02T13:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.001101/2</note>
                     <head><hi rend="italic">Minutes of Meeting of the Steering Committee, July 2,
                             1919, at 2 p.m.</hi></head>
+                    <dateline>
+                        <date when="1919-07-02T14:00:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">July 2, 1919, 2
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Dr. James Brown Scott</hi></item>
@@ -24314,10 +25313,17 @@
                     <p>The Meeting adjourned at 3:10 PM.</p>
                     <p>Dr. Scott left the Meeting at 2:50 PM.</p>
                 </div>
-                <div type="document" xml:id="d165" n="165">
+                <div type="document" xml:id="d165" n="165"
+                    frus:doc-dateTime-min="1919-07-03T13:00:00Z"
+                    frus:doc-dateTime-max="1919-07-03T13:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.001101/3</note>
                     <head><hi rend="italic">Minutes of Meeting of the Steering Committee, July 3,
                             1919, at 2 p.m.</hi></head>
+                    <dateline>
+                        <date when="1919-07-03T14:00:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">July 3, 1919, 2
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Dr. James Brown Scott</hi></item>
@@ -24387,10 +25393,17 @@
                     </list>
                 </div>
                 <pb n="457" xml:id="pg_457" facs="0493"/>
-                <div type="document" xml:id="d166" n="166">
+                <div type="document" xml:id="d166" n="166"
+                    frus:doc-dateTime-min="1919-07-09T13:00:00Z"
+                    frus:doc-dateTime-max="1919-07-09T13:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.001101/4</note>
                     <head><hi rend="italic">Minutes of Meeting of the Steering Committee, July 9,
                             1919, at 2 p.m.</hi></head>
+                    <dateline>
+                        <date when="1919-07-09T14:00:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">July 9, 1919, 2
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Dr. James Brown Scott</hi></item>
@@ -24454,10 +25467,17 @@
                         </list></p>
                 </div>
                 <pb n="458" xml:id="pg_458" facs="0494"/>
-                <div type="document" xml:id="d167" n="167">
+                <div type="document" xml:id="d167" n="167"
+                    frus:doc-dateTime-min="1919-07-10T13:00:00Z"
+                    frus:doc-dateTime-max="1919-07-10T13:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.001101/5</note>
                     <head><hi rend="italic">Minutes of Meeting of the Steering Committee, July 10,
                             1919, at 2 p.m.</hi></head>
+                    <dateline>
+                        <date when="1919-07-10T14:00:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">July 10, 1919, 2
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Dr. James Brown Scott</hi></item>
@@ -24497,10 +25517,17 @@
                         <item>The Session adjourned at 2:50 PM.</item>
                     </list>
                 </div>
-                <div type="document" xml:id="d168" n="168">
+                <div type="document" xml:id="d168" n="168"
+                    frus:doc-dateTime-min="1919-07-11T13:00:00Z"
+                    frus:doc-dateTime-max="1919-07-11T13:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.001101/6</note>
                     <head><hi rend="italic">Minutes of Meeting of the Steering Committee, July 11,
                             1919, at 2 p.m.</hi></head>
+                    <dateline>
+                        <date when="1919-07-11T14:00:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">July 11, 1919, 2
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Dr. James Brown Scott</hi></item>
@@ -24521,10 +25548,17 @@
                     </list>
                 </div>
                 <pb n="459" xml:id="pg_459" facs="0495"/>
-                <div type="document" xml:id="d169" n="169">
+                <div type="document" xml:id="d169" n="169"
+                    frus:doc-dateTime-min="1919-07-12T13:00:00Z"
+                    frus:doc-dateTime-max="1919-07-12T13:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.0z01101/7</note>
                     <head><hi rend="italic">Minutes of Meeting of the Steering Committee, July 12,
                             1919, at 2 p.m.</hi></head>
+                    <dateline>
+                        <date when="1919-07-12T14:00:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">July 12, 1919, 2
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Dr. James Brown Scott</hi></item>
@@ -24570,10 +25604,17 @@
                         <item>The meeting adjourned at 2:40 PM.</item>
                     </list>
                 </div>
-                <div type="document" xml:id="d170" n="170">
+                <div type="document" xml:id="d170" n="170"
+                    frus:doc-dateTime-min="1919-07-15T13:00:00Z"
+                    frus:doc-dateTime-max="1919-07-15T13:00:00Z">
                     <note rend="inline" type="source">Paris Peace Conf. 184.001101/8</note>
                     <head><hi rend="italic">Minutes of Meeting of the Steering Committee, July 15,
                             1919, at 2 p.m.</hi></head>
+                    <dateline>
+                        <date when="1919-07-15T14:00:00+01:00"
+                            ana="#date_undated-inferred-from-document-head">July 15, 1919, 2
+                            p.m.</date>
+                    </dateline>
                     <list type="participants">
                         <item>Present: <list>
                                 <item><hi rend="smallcaps">Dr. James Brown Scott</hi></item>

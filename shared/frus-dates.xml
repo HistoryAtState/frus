@@ -16,19 +16,19 @@
             <classDecl>
                 <taxonomy xml:id="frus-dates">
                     <category xml:id="date_apparent-typo-based-on-document-content">
-                        <catDesc>The recorded date was determined to be an error via
-                            content of the document and corrected Date value(s) 
-                            were inferred from the content of the document</catDesc>
+                        <catDesc>The recorded date was determined to be an error via content of the
+                            document and corrected Date value(s) were inferred from the content of
+                            the document</catDesc>
                     </category>
                     <category xml:id="date_apparent-typo-based-on-document-scan">
-                        <catDesc>The recorded date was determined to be an error via
-                            scanned version of the original document and corrected Date value(s) 
-                            were inferred from the content of the scanned document</catDesc>
+                        <catDesc>The recorded date was determined to be an error via scanned version
+                            of the original document and corrected Date value(s) were inferred from
+                            the content of the scanned document</catDesc>
                     </category>
                     <category xml:id="date_apparent-typo-based-on-outside-research">
-                        <catDesc>The recorded date was determined to be an error via
-                            outside research and corrected date value(s) were inferred 
-                            from related sources</catDesc>
+                        <catDesc>The recorded date was determined to be an error via outside
+                            research and corrected date value(s) were inferred from related
+                            sources</catDesc>
                     </category>
                     <category xml:id="date_apparent-typo-based-on-sibling-dates">
                         <catDesc>The recorded date was determined to be an error by typo based on
@@ -36,36 +36,43 @@
                             nearest dated siblings</catDesc>
                     </category>
                     <category xml:id="date_editorial-correction">
-                        <catDesc>The recorded date was determined to be an error by the FRUS 
-                            compiler/editor, who indicated the corrected date at the time of 
-                            original publication. Date value(s) were corrected based on 
+                        <catDesc>The recorded date was determined to be an error by the FRUS
+                            compiler/editor, who indicated the corrected date at the time of
+                            original publication. Date value(s) were corrected based on
                             compiler/editor notation.</catDesc>
                     </category>
                     <category xml:id="date_imprecise-inferred-from-date-rules">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter 
-                            inferred based on date rules  (e.g. yyyy has @notBefore="yyyy-01-01"
-                            and @notAfter="yyyy-12-31"; yyyy-mm has @notBefore="yyyy-mm-01" and 
-                            @notAfter="yyyy-mm-dd" where dd is either 28, 29, 30, or 31 based 
-                            on month and year)</catDesc>
-                    </category>                    
+                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
+                            inferred based on date rules (e.g. yyyy has @notBefore="yyyy-01-01" and
+                            @notAfter="yyyy-12-31"; yyyy-mm has @notBefore="yyyy-mm-01" and
+                            @notAfter="yyyy-mm-dd" where dd is either 28, 29, 30, or 31 based on
+                            month and year)</catDesc>
+                    </category>
                     <category xml:id="date_imprecise-inferred-from-document-content">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter 
+                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
                             inferred from the content of the document</catDesc>
                     </category>
-                    <category xml:id="date_imprecise-inferred-from-document-scan">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter 
-                            inferred from the content of the scanned version of the original document</catDesc>
+                    <category xml:id="date_imprecise-inferred-from-document-head">
+                        <catDesc>Imprecise date value(s) augmented with @notBefore/@notAfter or
+                            @when or @from/@to inferred from the document header</catDesc>
                     </category>
-                    <category xml:id="date_imprecise-inferred-from-document-content-and-sibling-dates">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter 
-                            inferred from the content of the document and nearest dated siblings</catDesc>
+                    <category xml:id="date_imprecise-inferred-from-document-scan">
+                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
+                            inferred from the content of the scanned version of the original
+                            document</catDesc>
+                    </category>
+                    <category
+                        xml:id="date_imprecise-inferred-from-document-content-and-sibling-dates">
+                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
+                            inferred from the content of the document and nearest dated
+                            siblings</catDesc>
                     </category>
                     <category xml:id="date_imprecise-inferred-from-outside-research">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter 
+                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
                             inferred from related sources</catDesc>
                     </category>
                     <category xml:id="date_imprecise-inferred-from-sibling-dates">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter 
+                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
                             inferred from nearest dated siblings</catDesc>
                     </category>
                     <category xml:id="date_undated-inferred-from-document-content">
@@ -81,7 +88,7 @@
                             of the document and nearest dated siblings</catDesc>
                     </category>
                     <category xml:id="date_undated-inferred-from-document-head">
-                        <catDesc>Date value(s) for undated document were inferred from dates in 
+                        <catDesc>Date value(s) for undated document were inferred from dates in
                             document header, using an XQuery script to find date patterns</catDesc>
                     </category>
                     <category xml:id="date_undated-inferred-from-document-scan">
@@ -97,7 +104,7 @@
                             siblings</catDesc>
                     </category>
                     <category xml:id="date_undated-inferred-from-volume-rules">
-                        <catDesc>Date value(s) for undated document were inferred from volume date 
+                        <catDesc>Date value(s) for undated document were inferred from volume date
                             range and possibly outside research</catDesc>
                     </category>
                     <!-- other categories -->
