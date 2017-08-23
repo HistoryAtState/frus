@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1919Parisv01">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1919Parisv01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -60,6 +60,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -7674,6 +7677,10 @@
                             <note n="2" xml:id="d1fn2">Reprinted from <hi rend="italic">Official U.
                                     S. Bulletin</hi>, vol. 2, No. 460, Nov. 11, 1918.</note>
                         </head>
+                        <dateline>
+                            <date when="1918-11-11" ana="#date_undated-inferred-from-document-head"
+                                >November 11, 1918</date>
+                        </dateline>
                         <p>
                             <hi rend="smallcaps">My Fellow Countrymen</hi>: The armistice was signed
                             this morning. Everything for which America fought has been accomplished.
@@ -7893,8 +7900,13 @@
                             to contribute with the same devotion and faith at the construction of
                             the magnificent edifice of the Society of Nations.</p>
                         <p>No. 3847</p>
-                        <p>
-                            <hi rend="smallcaps">Washington</hi>, November 13, 1918.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1918-11-13">November 13,
+                                1918</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d8" n="8"
                         frus:doc-dateTime-min="1918-11-14T00:00:00Z"
@@ -8340,6 +8352,11 @@
                                 and is accompanied by other manuscript memoranda on subjects for
                                 consideration. The latter are not printed.</note>
                         </head>
+                        <dateline>
+                            <date notBefore="1917-09-15T00:00:00-05:00"
+                                notAfter="1917-09-20T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                        </dateline>
                         <p rend="center">
                             <hi rend="smallcaps">Queries</hi>
                         </p>
@@ -8394,11 +8411,12 @@
                                     <hi rend="smallcaps">E. M. House</hi>
                                 </persName>
                             </signed>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">New York</hi>
+                                </placeName>, <date when="1917-09-20">September 20,
+                                1917</date>.</dateline>
                         </closer>
-                        <postscript>
-                            <p>
-                                <hi rend="smallcaps">New York</hi>, September 20, 1917.</p>
-                        </postscript>
                     </div>
                     <div type="document" xml:id="d20" n="20"
                         frus:doc-dateTime-min="1917-10-27T00:00:00Z"
@@ -9858,6 +9876,10 @@
                             <hi rend="italic">The Inquiry.—Report of Progress to December 15,
                                 1917</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-12-15" ana="#date_undated-inferred-from-document-head"
+                                >December 15, 1917</date>
+                        </dateline>
                         <p>At present the Inquiry is organized as follows: There is an Executive
                             Committee of four, consisting of: <list>
                                 <item>
@@ -10353,6 +10375,10 @@
                             <hi rend="italic">The Inquiry—Memorandum Submitted December 22,
                                 1917</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-12-22" ana="#date_undated-inferred-from-document-head"
+                                >December 22, 1917</date>
+                        </dateline>
                         <p rend="center">
                             <hi rend="smallcaps">The Present Situation: The War Aims and Peace Terms
                                 It Suggests</hi>
@@ -13254,6 +13280,10 @@
                         <head>
                             <hi rend="italic">Report on the Inquiry, May 10, 1918</hi>
                         </head>
+                        <dateline>
+                            <date when="1918-05-10" ana="#date_undated-inferred-from-document-head"
+                                >May 10, 1918</date>
+                        </dateline>
                         <p rend="center">
                             <hi rend="smallcaps">Part I</hi>
                         </p>
@@ -18890,12 +18920,11 @@
                             composed of experts on technical subjects.</p>
                         <p>I am writing this on shipboard so it may return with this boat.</p>
                         <p>Affectionately yours,</p>
-                        <closer>[File copy not signed]</closer>
-                        <postscript>
-                            <p>
+                        <closer> [File copy not signed]<lb/>
+                            <dateline>
                                 <hi rend="smallcaps">On Board U. S. S. “Northern Pacific,”</hi>
-                                October 22, 1918.</p>
-                        </postscript>
+                                <date when="1918-10-22">October 22, 1918</date>.</dateline>
+                        </closer>
                         <frus:attachment>
                             <opener>
                                 <seg rendition="#center">[Enclosure]</seg>
@@ -21008,13 +21037,14 @@
                         <p>
                             <hi rend="smallcaps">In testimony whereof</hi>, I have caused the seal
                             of the United States to be hereunto affixed.</p>
-                        <p>
-                            <seg type="margin">[<hi rend="smallcaps">seal</hi>]</seg> Given under my
-                            hand at the City of Washington, this thirtieth day of November, in the
-                            year of our Lord one thousand nine hundred and eighteen, and of the
-                            Independence of the United States of America the one hundred and
-                            fortythird.</p>
                         <closer>
+                            <dateline rendition="#left">
+                                <seg type="margin">[<hi rend="smallcaps">seal</hi>]</seg> Given
+                                under my hand at the City of <placeName>Washington</placeName>,
+                                    <date when="1918-11-30">this thirtieth day of November, in the
+                                    year of our Lord one thousand nine hundred and eighteen, and of
+                                    the Independence of the United States of America the one hundred
+                                    and fortythird</date>.</dateline><lb/>
                             <signed>
                                 <persName corresp="#p_WW1">
                                     <hi rend="smallcaps">Woodrow Wilson</hi>
@@ -21061,13 +21091,15 @@
                         <p>In testimony whereof, I have caused these Letters to be made Patent and
                             the seal of the United States to be hereunto affixed.</p>
                         <pb n="177" xml:id="pg_177" facs="0247"/>
-                        <p>
-                            <seg type="margin">[<hi rend="smallcaps">seal</hi>]</seg> Given under my
-                            hand at the City of Washington, the thirtieth day of November, in the
-                            year of our Lord one thousand nine hundred and eighteen, and of the
-                            Independence of the United States of America the one hundred and
-                            forty-third.</p>
+
                         <closer>
+                            <dateline rendition="#left">
+                                <seg type="margin">[<hi rend="smallcaps">seal</hi>]</seg> Given
+                                under my hand at the City of <placeName>Washington</placeName>,
+                                    <date when="1918-11-30">the thirtieth day of November, in the
+                                    year of our Lord one thousand nine hundred and eighteen, and of
+                                    the Independence of the United States of America the one hundred
+                                    and forty-third</date>.</dateline><lb/>
                             <signed>
                                 <persName corresp="#p_WW1">
                                     <hi rend="smallcaps">Woodrow Wilson</hi>
@@ -21562,6 +21594,11 @@
                             <note n="40" xml:id="d177fn40">The memorandum bears no indication of
                                 date or origin.</note>
                         </head>
+                        <dateline>
+                            <date notBefore="1918-12-19T00:00:00+00:00"
+                                notAfter="1918-12-21T23:59:59+00:00"
+                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                        </dateline>
                         <p>The Intelligence Section of the American Commission to Negotiate Peace,
                             dealing with the territorial, economic, and political matters which come
                             before the peace conference, represents a new idea in international
@@ -21721,6 +21758,10 @@
                                 that he presented the memorandum to the Commissioners
                                 Plenipotentiary on Dec. 23, 1918.</note>
                         </head>
+                        <dateline>
+                            <date when="1918-12-23"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <p>The American Peace Commission should do whatever is necessary to make it
                             clearly understood by everyone that, now that the war is finished and
                             until it should be resumed (which God forbid), this Commission is the
@@ -21833,8 +21874,13 @@
                             />they may be correctly announced to the Office of Protocol in the
                             French Ministry of Foreign Affairs, it is suggested that the President
                             provisionally authorize the adoption of the titles suggested above.</p>
-                        <p>
-                            <hi rend="smallcaps">Paris</hi>, December 23, 1918.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Paris</hi>
+                                </placeName>, <date when="1918-12-23">December 23,
+                                1918</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d181" n="181"
                         frus:doc-dateTime-min="1918-12-23T00:00:00Z"
@@ -21983,8 +22029,11 @@
                             correspondents, and also to confer occasionally with members of the
                             Commission so that correct data can be transmitted to Republican leaders
                             in the United States independent of press despatches.</p>
-                        <p>
-                            <hi rend="smallcaps">December</hi> 28, 1918.</p>
+                        <closer>
+                            <dateline>
+                                <date when="1918-12-28"><hi rend="smallcaps">December</hi> 28,
+                                    1918</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d184" n="184">
                         <note rend="inline" type="source">Paris Peace Conf. 184.00101/-</note>
@@ -21994,6 +22043,10 @@
                             <note n="44" xml:id="d184fn44">Minutes of other meetings before Jan. 31,
                                 1919, have not been found in Department files.</note>
                         </head>
+                        <dateline>
+                            <date when="1918-12-30" ana="#date_undated-inferred-from-document-head"
+                                >December 30, 1918</date>
+                        </dateline>
                         <p rend="center">1.</p>
                         <p>The Commissioners instructed the Secretary of the Commission to prepare a
                             telegram to the Acting Secretary of State requesting him to send out an
@@ -24297,12 +24350,11 @@
                             <signed>
                                 <persName corresp="#p_GJC1">J. C. G[<hi rend="smallcaps"
                                     >rew</hi>]</persName>
-                            </signed>
+                            </signed><lb/>
+                            <dateline>
+                                <date when="1919-01-09"><hi rend="smallcaps">January</hi> 9,
+                                    1919</date>.</dateline>
                         </closer>
-                        <postscript>
-                            <p>
-                                <hi rend="smallcaps">January</hi> 9, 1919.</p>
-                        </postscript>
                     </div>
                     <pb n="220" xml:id="pg_220" facs="0290"/>
                     <div type="document" xml:id="d229" n="229"
@@ -26259,8 +26311,13 @@
                             Powers with this view.</p>
                         <p>His Majesty’s Government now learn that the <persName>King</persName>
                             proposes to act on these suggestions.</p>
-                        <p>
-                            <hi rend="smallcaps">Washington</hi>, November 20, 1918.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1918-11-20">November 20,
+                                1918</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d273" n="273">
                         <note rend="inline" type="source">763.72119/2757</note>
@@ -26288,8 +26345,13 @@
                             The <persName>King</persName> has also asked that a similar notification
                             may be made by the British Government in his name to the United States,
                             French, and Italian Governments.</p>
-                        <p>
-                            <hi rend="smallcaps">Washington</hi>, November 22, 1918.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1918-11-22">November 22,
+                                1918</date>.</dateline>
+                        </closer>
                     </div>
                 </div>
                 <pb n="248" xml:id="pg_248" facs="0318"/>
@@ -28407,8 +28469,13 @@
                             Majesty’s Ambassador in Paris has been directed to inform the French
                             Government of the request from the Government of Omsk and of the views
                             of His Majesty’s Government in the matter.</p>
-                        <p>
-                            <hi rend="smallcaps">Washington</hi>, January 15, 1919.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1919-01-15">January 15,
+                                1919</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="278" xml:id="pg_278" facs="0348"/>
                     <div type="document" xml:id="d304" n="304">
@@ -28440,8 +28507,13 @@
                             well as of Deniken.</p>
                         <p>The British High Commissioner has requested the Foreign Office to cause
                             the wish of the Omsk Government to be conveyed to Monsieur Sazonoff.</p>
-                        <p>
-                            <hi rend="smallcaps">Washington</hi>, January 20, 1919.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1919-01-20">January 20,
+                                1919</date>.</dateline>
+                        </closer>
                     </div>
                 </div>
                 <pb n="279" xml:id="pg_279" facs="0349"/>
@@ -28618,8 +28690,13 @@
                             the participation of neutrals.</p>
                         <p>His Majesty’s Government would be grateful for an expression of the views
                             of the United States Government on this question.</p>
-                        <p>
-                            <hi rend="smallcaps">Washington</hi>, November 29, 1918.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1918-11-29">November 29,
+                                1918</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d309" n="309"
                         frus:doc-dateTime-min="1918-11-30T00:00:00Z"
@@ -29726,6 +29803,11 @@
                         <head>
                             <hi rend="italic">Skeleton Draft of Peace Treaty</hi>
                         </head>
+                        <dateline>
+                            <date notBefore="1918-12-30T00:00:00+00:00"
+                                notAfter="1919-01-08T23:59:59+00:00"
+                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                        </dateline>
                         <p rend="center">
                             <hi rend="smallcaps">I.—Enumeration of High Contracting Parties</hi>
                         </p>
@@ -33774,11 +33856,11 @@
                             <signed>
                                 <persName corresp="#p_MDH1">D. H. M[<hi rend="smallcaps"
                                     >iller</hi>]</persName>
-                            </signed>
+                            </signed><lb/>
+                            <dateline>Respectfully submitted this<lb/>
+                                <date when="1918-11-22">22nd day of November,
+                                1918</date>.</dateline>
                         </closer>
-                        <postscript>
-                            <p>Respectfully submitted this<lb/>22nd day of November, 1918.</p>
-                        </postscript>
                     </div>
                     <div type="document" xml:id="d340" n="340"
                         frus:doc-dateTime-min="1918-11-29T00:00:00Z"
@@ -34273,7 +34355,8 @@
                                 <dateline>
                                     <placeName>
                                         <hi rend="smallcaps">London</hi>
-                                    </placeName>, <date when="1918-12-07">December 7, 1918</date>.</dateline>
+                                    </placeName>, <date when="1918-12-07">December 7,
+                                    1918</date>.</dateline>
                             </closer>
                         </frus:attachment>
                         <frus:attachment>
@@ -36338,7 +36421,8 @@
                                     </list>
                                 </signed><lb/>
                                 <dateline>
-                                    <date when="1919-01-12">12 <hi rend="smallcaps">January</hi>, 1919</date>.</dateline>
+                                    <date when="1919-01-12">12 <hi rend="smallcaps">January</hi>,
+                                        1919</date>.</dateline>
                             </closer>
                         </frus:attachment>
                     </div>
@@ -36878,8 +36962,13 @@
                                 been communicated to the American Commission to Negotiate
                                 Peace.</note>
                         </p>
-                        <p>
-                            <hi rend="smallcaps">Washington</hi>, January 2, 1919.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1919-01-02">January 2,
+                                1919</date>.</dateline>
+                        </closer>
                     </div>
                 </div>
                 <pb n="416" xml:id="pg_416" facs="0486"/>
@@ -41598,6 +41687,10 @@
                                 the Covenant</hi> (New York—London, 1928), vol. <hi rend="smallcaps"
                                 >ii</hi>, pp. 7–11.</note>
                     </head>
+                    <dateline>
+                        <date when="1918-07-16" ana="#date_undated-inferred-from-document-head">July
+                            16, 1918</date>
+                    </dateline>
                     <p rend="center">
                         <hi rend="smallcaps">Suggestion for a Covenant of a League of Nations</hi>
                     </p>
