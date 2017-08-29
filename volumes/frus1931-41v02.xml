@@ -15764,9 +15764,12 @@
                         provisions of sections 6 of the Act of Congress approved July 2, 1940, and
                         in these regulations, the terms “iron” and “steel” shall be construed as
                         defined herein:</p>
-                    <p>Iron and Steel:</p>
-                    <p>A. Iron ore (6001)</p>
-                    <p>B. Pig iron (6007)</p>
+                    <list>
+                        <item>Iron and Steel:<list>
+                                <item>A. Iron ore (6001)</item>
+                                <item>B. Pig iron (6007)</item>
+                            </list></item>
+                    </list>
                     <pb n="234" xml:id="pg_234" facs="0300"/>
                     <p>C. Ferro Alloys <table rows="10" cols="3">
                             <row>
@@ -15778,69 +15781,47 @@
                             <row>
                                 <cell>Ferrosilicon</cell>
                                 <cell rows="8" role="brace">}</cell>
-                                <cell rows="8">(6220)</cell>
+                                <cell rows="8" rendition="#middle">(6220)</cell>
                             </row>
                             <row>
                                 <cell>Ferrochrome</cell>
-                                <cell/>
-                                <cell/>
                             </row>
                             <row>
                                 <cell>Ferrotungsten</cell>
-                                <cell/>
-                                <cell/>
                             </row>
                             <row>
                                 <cell>Ferrovanadium</cell>
-                                <cell/>
-                                <cell/>
                             </row>
                             <row>
                                 <cell>Ferrocolumbium</cell>
-                                <cell/>
-                                <cell/>
                             </row>
                             <row>
                                 <cell>Ferrocarbontitanium</cell>
-                                <cell/>
-                                <cell/>
                             </row>
                             <row>
                                 <cell>Ferrophosphorus</cell>
-                                <cell/>
-                                <cell/>
                             </row>
                             <row>
                                 <cell>Ferromolybdenum</cell>
-                                <cell/>
-                                <cell/>
                             </row>
                         </table></p>
                     <p>D. Semi-Finished Products <table rows="7" cols="3">
                             <row>
                                 <cell>Ingots</cell>
                                 <cell rows="5" role="brace">}</cell>
-                                <cell rows="5">(6016 &amp; 6017)</cell>
+                                <cell rows="5" rendition="#middle">(6016 &amp; 6017)</cell>
                             </row>
                             <row>
                                 <cell>Billets</cell>
-                                <cell/>
-                                <cell/>
                             </row>
                             <row>
                                 <cell>Blooms</cell>
-                                <cell/>
-                                <cell/>
                             </row>
                             <row>
                                 <cell>Slabs</cell>
-                                <cell/>
-                                <cell/>
                             </row>
                             <row>
                                 <cell>Sheet Bars</cell>
-                                <cell/>
-                                <cell/>
                             </row>
                             <row>
                                 <cell cols="3">Skelp (6032)</cell>
@@ -15849,39 +15830,41 @@
                                 <cell cols="3">Wire Rods (6029)</cell>
                             </row>
                         </table></p>
-                    <p>E. Finished Products <list>
-                            <item>Structural Shapes (6045 &amp; 6046)</item>
-                            <item>Steel Piling (6050)</item>
-                            <item>Plates (6030, 6031.1, 6031.5, 6031.9, 6047)</item>
-                            <item>Skelps (6032)</item>
-                            <item>Rails (6051, 6052, 6053)</item>
-                            <item>Splice Bars and Tie Plates (6054)</item>
-                            <item>Bars <list>
-                                    <item>Merchant (6023, 6025, 6026)</item>
-                                    <item>Concrete Reinforcing (6022)</item>
-                                    <item>Cold Finished (6020)</item>
-                                    <item>Alloy (6020, 6025, 6026)</item>
-                                    <item>Tool Steel (6023, 6026)</item>
-                                </list></item>
-                            <item>Hoops and Bailing Bands (6038.1)</item>
-                            <item>Pipe and Tube (6060, 6061, 6062, 6063, 6064, 6067, 6068, 6070,
-                                6071, 6072, 6073, 6077)</item>
-                            <item>Drawn Wire (6081, 6082)</item>
-                            <item>Nails and Staples (6092, 6095)</item>
-                            <item>Barbed and Twisted Wire (6083)</item>
-                            <item>Woven Wire Fence (6085)</item>
-                            <item>Bale Ties (6038.1)</item>
-                            <item>Fence Posts (6209)</item>
-                            <item>Black Plate (6035.1)</item>
-                            <item>Tin Plate (6041)</item>
-                            <item>Sheets (6033, 6034, 6035.1, 6035.5, 6035.9, 6036)</item>
-                            <item>Strip (6037.1, 6037.5, 6037.9, 6038.1, 6038.5, 6038.9)</item>
-                            <item>Wheels (6105.1, 6105.3)</item>
-                            <item>Axles (6105.2, 6105.3)</item>
-                            <item>Track Spikes (6058)</item>
-                            <item>Castings (6101, 6102, 6104.1, 6104.9)</item>
-                            <item>Forgings (6107, 6108)</item>
-                        </list></p>
+                    <list>
+                        <item>E. Finished Products <list>
+                                <item>Structural Shapes (6045 &amp; 6046)</item>
+                                <item>Steel Piling (6050)</item>
+                                <item>Plates (6030, 6031.1, 6031.5, 6031.9, 6047)</item>
+                                <item>Skelps (6032)</item>
+                                <item>Rails (6051, 6052, 6053)</item>
+                                <item>Splice Bars and Tie Plates (6054)</item>
+                                <item>Bars <list>
+                                        <item>Merchant (6023, 6025, 6026)</item>
+                                        <item>Concrete Reinforcing (6022)</item>
+                                        <item>Cold Finished (6020)</item>
+                                        <item>Alloy (6020, 6025, 6026)</item>
+                                        <item>Tool Steel (6023, 6026)</item>
+                                    </list></item>
+                                <item>Hoops and Bailing Bands (6038.1)</item>
+                                <item>Pipe and Tube (6060, 6061, 6062, 6063, 6064, 6067, 6068, 6070,
+                                    6071, 6072, 6073, 6077)</item>
+                                <item>Drawn Wire (6081, 6082)</item>
+                                <item>Nails and Staples (6092, 6095)</item>
+                                <item>Barbed and Twisted Wire (6083)</item>
+                                <item>Woven Wire Fence (6085)</item>
+                                <item>Bale Ties (6038.1)</item>
+                                <item>Fence Posts (6209)</item>
+                                <item>Black Plate (6035.1)</item>
+                                <item>Tin Plate (6041)</item>
+                                <item>Sheets (6033, 6034, 6035.1, 6035.5, 6035.9, 6036)</item>
+                                <item>Strip (6037.1, 6037.5, 6037.9, 6038.1, 6038.5, 6038.9)</item>
+                                <item>Wheels (6105.1, 6105.3)</item>
+                                <item>Axles (6105.2, 6105.3)</item>
+                                <item>Track Spikes (6058)</item>
+                                <item>Castings (6101, 6102, 6104.1, 6104.9)</item>
+                                <item>Forgings (6107, 6108)</item>
+                            </list></item>
+                    </list>
                     <pb n="235" xml:id="pg_235" facs="0301"/>
                     <p>2. The number or numbers in parenthesis following each material or article
                         designated in paragraph 1 hereof corresponds to the “Commodity Number”
@@ -16226,7 +16209,6 @@
                                 <cell/>
                                 <cell cols="3">Fabrications for munitions purposes</cell>
                                 <cell role="num">6439*</cell>
-                                <cell/>
                             </row>
                             <row>
                                 <cell/>
@@ -16842,28 +16824,28 @@
                                 <cell/>
                                 <cell/>
                                 <cell cols="3">No. 1. Heavy melting steel scrap (Category 2)</cell>
-                                <cell role="num">6010. 2</cell>
+                                <cell role="num">6010.2</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell/>
                                 <cell cols="3">No. 2. Heavy melting steel scrap (Category 3)</cell>
-                                <cell role="num">6010. 3</cell>
+                                <cell role="num">6010.3</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell cols="4">Hydraulically compressed and baled sheet scrap
                                     (Categories 7 &amp; 8)</cell>
-                                <cell role="num">6010. 4</cell>
+                                <cell role="num">6010.4</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell cols="4">Cast and burnt iron scrap (Categories 1, 9, 10, 11,
                                     12)</cell>
-                                <cell role="num">6010. 7</cell>
+                                <cell role="num">6010.7</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -16871,7 +16853,7 @@
                                 <cell cols="4">Other (Categories 4, 5, 6, 13) (Includes heavy
                                     shoveling steel, selected rail scrap, machine shop turnings,
                                     wire shorts, rerolling rails, rejects, etc.)</cell>
-                                <cell role="num">6010. 9</cell>
+                                <cell role="num">6010.9</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17052,7 +17034,7 @@
                                 <cell/>
                                 <cell/>
                                 <cell cols="2">Not containing alloy</cell>
-                                <cell role="num">6031. 1</cell>
+                                <cell role="num">6031.1</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17064,7 +17046,7 @@
                                         containing 9 percent or more of chromium, with or without
                                         other alloys, or a combined content of 18 percent or more of
                                         chromium and other alloys.</note></cell>
-                                <cell role="num">6031. 5</cell>
+                                <cell role="num">6031.5</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17080,7 +17062,7 @@
                                         0.50 percent; molybdenum, over 0.10 percent; vanadium,
                                         tungsten, cobalt, titanium, and zirconium, any
                                         percent.</note></cell>
-                                <cell role="num">6031. 9</cell>
+                                <cell role="num">6031.9</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17116,7 +17098,7 @@
                             <row>
                                 <cell/>
                                 <cell cols="4">Not containing alloy</cell>
-                                <cell role="num">6035. 1</cell>
+                                <cell role="num">6035.1</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17126,7 +17108,7 @@
                                         containing 9 percent or more of chromium, with or without
                                         other alloys, or a combined content of 18 percent or more of
                                         chromium and other alloys.</note></cell>
-                                <cell role="num">6035. 5</cell>
+                                <cell role="num">6035.5</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17140,7 +17122,7 @@
                                         0.50 percent; molybdenum, over 0.10 percent; vanadium,
                                         tungsten, cobalt, titanium, and zirconium, any
                                         percent.</note></cell>
-                                <cell role="num">6035. 9</cell>
+                                <cell role="num">6035.9</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17164,7 +17146,7 @@
                                 <cell/>
                                 <cell/>
                                 <cell cols="3">Not containing alloy</cell>
-                                <cell role="num">6037. 1</cell>
+                                <cell role="num">6037.1</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17175,7 +17157,7 @@
                                         containing 9 percent or more of chromium, with or without
                                         other alloys, or a combined content of 18 percent or more of
                                         chromium and other alloys.</note></cell>
-                                <cell role="num">6037. 5</cell>
+                                <cell role="num">6037.5</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17190,7 +17172,7 @@
                                         0.50 percent; molybdenum, over 0.10 percent; vanadium,
                                         tungsten, cobalt, titanium, and zirconium, any
                                         percent.</note></cell>
-                                <cell role="num">6037. 9</cell>
+                                <cell role="num">6037.9</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17203,7 +17185,7 @@
                                 <cell/>
                                 <cell/>
                                 <cell cols="3">Not containing alloy</cell>
-                                <cell role="num">6038. 1</cell>
+                                <cell role="num">6038.1</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17214,7 +17196,7 @@
                                         containing 9 percent or more of chromium, with or without
                                         other alloys, or a combined content of 18 percent or more of
                                         chromium and other alloys.</note></cell>
-                                <cell role="num">6038. 5</cell>
+                                <cell role="num">6038.5</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17229,7 +17211,7 @@
                                         0.50 percent; molybdenum, over 0.10 percent; vanadium,
                                         tungsten, cobalt, titanium, and zirconium, any
                                         percent.</note></cell>
-                                <cell role="num">6038. 9</cell>
+                                <cell role="num">6038.9</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17471,7 +17453,7 @@
                             <row>
                                 <cell/>
                                 <cell cols="4">Rigid electrical conduit of iron or steel</cell>
-                                <cell role="num">7094. 1</cell>
+                                <cell role="num">7094.1</cell>
                                 <cell role="num">7099*</cell>
                             </row>
                             <row>
@@ -17533,7 +17515,7 @@
                                 <cell/>
                                 <cell/>
                                 <cell cols="3">Wire rope and cable, not insulated</cell>
-                                <cell role="num">6087. 1</cell>
+                                <cell role="num">6087.1</cell>
                                 <cell role="num">6091*</cell>
                             </row>
                             <row>
@@ -17664,7 +17646,7 @@
                                 <cell/>
                                 <cell/>
                                 <cell cols="2">Railway car wheels</cell>
-                                <cell role="num">6105. 1*</cell>
+                                <cell role="num">6105.1*</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17680,7 +17662,7 @@
                                 <cell/>
                                 <cell/>
                                 <cell cols="2">Railway car axles, fitted with wheels</cell>
-                                <cell role="num">6105. 3</cell>
+                                <cell role="num">6105.3</cell>
                                 <cell role="num">6209*</cell>
                             </row>
                             <row>
@@ -17764,7 +17746,7 @@
                             <row>
                                 <cell/>
                                 <cell cols="4">Ferrocolumbium</cell>
-                                <cell role="num">6220. 9*</cell>
+                                <cell role="num">6220.9*</cell>
                                 <cell role="num">6220*</cell>
                             </row>
                             <row>
@@ -17776,37 +17758,37 @@
                             <row>
                                 <cell/>
                                 <cell cols="4">Ferromolybdenum</cell>
-                                <cell role="num">6220. 9*</cell>
+                                <cell role="num">6220.9*</cell>
                                 <cell role="num">6220*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell cols="4">Ferrophosphorus</cell>
-                                <cell role="num">6220. 9*</cell>
+                                <cell role="num">6220.9*</cell>
                                 <cell role="num">6220*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell cols="4">Ferrosilicon</cell>
-                                <cell role="num">6220. 9*</cell>
+                                <cell role="num">6220.9*</cell>
                                 <cell role="num">6220*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell cols="4">Ferrotitanium and ferro-carbontitanium</cell>
-                                <cell role="num">6220. 9</cell>
+                                <cell role="num">6220.9</cell>
                                 <cell role="num">6220*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell cols="4">Ferrotungsten</cell>
-                                <cell role="num">6220. 9</cell>
+                                <cell role="num">6220.9</cell>
                                 <cell role="num">6220*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell cols="4">Ferrovanadium</cell>
-                                <cell role="num">6220. 9</cell>
+                                <cell role="num">6220.9</cell>
                                 <cell role="num">6220*</cell>
                             </row>
                         </table></p>
@@ -17982,63 +17964,63 @@
                                 <cell/>
                                 <cell/>
                                 <cell>Atropine Hydrobromide</cell>
-                                <cell role="num">8127. 9*</cell>
+                                <cell role="num">8127.9*</cell>
                                 <cell role="num">8180*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell/>
                                 <cell>Atropine Hydrochloride</cell>
-                                <cell role="num">8127. 9*</cell>
+                                <cell role="num">8127.9*</cell>
                                 <cell role="num">8180*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell/>
                                 <cell>Atropine Methylbromide</cell>
-                                <cell role="num">8127. 9*</cell>
+                                <cell role="num">8127.9*</cell>
                                 <cell role="num">8180*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell/>
                                 <cell>Atropine Methylnitrate</cell>
-                                <cell role="num">8127. 9*</cell>
+                                <cell role="num">8127.9*</cell>
                                 <cell role="num">8180*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell/>
                                 <cell>Atropine Nitrate</cell>
-                                <cell role="num">8127. 9*</cell>
+                                <cell role="num">8127.9*</cell>
                                 <cell role="num">8180*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell/>
                                 <cell>Atropine Salicylate</cell>
-                                <cell role="num">8127. 9*</cell>
+                                <cell role="num">8127.9*</cell>
                                 <cell role="num">8180*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell/>
                                 <cell>Atropine Sulfate, U. S. P. (Atropine Sulfae)</cell>
-                                <cell role="num">8127. 9*</cell>
+                                <cell role="num">8127.9*</cell>
                                 <cell role="num">8180*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell/>
                                 <cell>Atropine Sulfuric Acid</cell>
-                                <cell role="num">8127. 9*</cell>
+                                <cell role="num">8127.9*</cell>
                                 <cell role="num">8180*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell/>
                                 <cell>Atropine Valerate</cell>
-                                <cell role="num">8127. 9*</cell>
+                                <cell role="num">8127.9*</cell>
                                 <cell role="num">8180*</cell>
                             </row>
                             <row>
@@ -18154,11 +18136,12 @@
                             <row>
                                 <cell/>
                                 <cell>Beryllium salts and compounds</cell>
-                                <cell role="num">8399. 9*</cell>
-                                <cell role="num">8399*</cell>
+                                <cell role="num">8399.9*</cell>
+                                <cell role="num">8399*<pb n="252" xml:id="pg_252" facs="0318"
+                                    /></cell>
                             </row>
                             <row>
-                                <cell><pb n="252" xml:id="pg_252" facs="0318"/>(2.)</cell>
+                                <cell>(2.)</cell>
                                 <cell>Graphite electrodes</cell>
                                 <cell role="num">5473</cell>
                                 <cell role="num">5960*</cell>
@@ -18376,9 +18359,10 @@
                         prescribe the following additional regulations governing the exportation of
                         the articles and materials named in my proclamation of March 4, 1941:</p>
                     <p>1. The articles and materials named in the said proclamation shall be
-                        construed to include the following: <table rows="40" cols="6">
+                        construed to include the following:<pb n="256" xml:id="pg_256" facs="0322"
+                            /><table rows="40" cols="6">
                             <row>
-                                <cell><pb n="256" xml:id="pg_256" facs="0322"/>(1)</cell>
+                                <cell>(1)</cell>
                                 <cell cols="3">Cadmium</cell>
                                 <cell>B</cell>
                                 <cell>F</cell>
@@ -18411,28 +18395,28 @@
                                 <cell/>
                                 <cell/>
                                 <cell cols="2">Cadmium chloride</cell>
-                                <cell role="num">8399. 9*</cell>
+                                <cell role="num">8399.9*</cell>
                                 <cell role="num">8399*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell/>
                                 <cell cols="2">Cadmium oxide</cell>
-                                <cell role="num">8399. 9*</cell>
+                                <cell role="num">8399.9*</cell>
                                 <cell role="num">8399*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell/>
                                 <cell cols="2">Cadmium sulfate</cell>
-                                <cell role="num">8399. 9*</cell>
+                                <cell role="num">8399.9*</cell>
                                 <cell role="num">8399*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell/>
                                 <cell cols="2">Cadmium plating salts</cell>
-                                <cell role="num">8399. 9*</cell>
+                                <cell role="num">8399.9*</cell>
                                 <cell role="num">8399*</cell>
                             </row>
                             <row>
@@ -18628,7 +18612,7 @@
                                 <cell/>
                                 <cell/>
                                 <cell>Titanium tetrachloride</cell>
-                                <cell role="num">8399. 9*</cell>
+                                <cell role="num">8399.9*</cell>
                                 <cell role="num">8399*</cell>
                             </row>
                         </table></p>
@@ -18765,13 +18749,13 @@
                                 <cell>Phosphoric acid</cell>
                                 <cell/>
                                 <cell role="num">8309*</cell>
-                                <cell role="num">8309. 9*</cell>
+                                <cell role="num">8309.9*</cell>
                             </row>
                             <row>
                                 <cell/>
                                 <cell>Phosphorus (elemental)</cell>
                                 <cell/>
-                                <cell role="num">8399. 9*</cell>
+                                <cell role="num">8399.9*</cell>
                                 <cell role="num">8399*</cell>
                             </row>
                             <row>
@@ -19663,8 +19647,8 @@
                                 <cell>longitude</cell>
                             </row>
                             <row>
-                                <cell role="num">9°30′</cell>
-                                <cell>“</cell>
+                                <cell role="num">9°</cell>
+                                <cell>30′“</cell>
                                 <cell>“</cell>
                                 <cell>“</cell>
                                 <cell>“</cell>
