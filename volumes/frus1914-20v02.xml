@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1914-20v02" xmlns:xi="http://www.w3.org/2001/XInclude">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1914-20v02">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14853,13 +14853,19 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d115" n="115">
+                    <div type="document" xml:id="d115" n="115"
+                        frus:doc-dateTime-min="1918-10-01T00:00:00Z"
+                        frus:doc-dateTime-max="1918-10-01T23:59:59Z">
                         <note rend="inline" type="source">763.72119/2025½</note>
                         <head>
                             <hi rend="italic">Memorandum by President Wilson</hi>
                             <note n="8" xml:id="d115fn1">This paper bears the notation: “Handed me
                                 at Cabinet Oct 1/18 R L.”</note>
                         </head>
+                        <dateline>
+                            <date when="1918-10-01"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <p>Gov’t of U. S. cannot be [<hi rend="italic">but</hi>] regard every
                             question that concerns any one of the Balkan States as an essential part
                             of the general peace settlement, inasmuch as there is no part of Europe
@@ -23358,7 +23364,9 @@
                 <pb n="[305]" xml:id="pg_305" facs="0351"/>
                 <pb n="[306]" xml:id="pg_306" facs="0352"/>
                 <pb n="307" xml:id="pg_307" facs="0353"/>
-                <div type="document" xml:id="d148" n="148">
+                <div type="document" xml:id="d148" n="148"
+                    frus:doc-dateTime-min="1915-04-02T00:00:00Z"
+                    frus:doc-dateTime-max="1915-04-06T23:59:59Z">
                     <note rend="inline" type="source">811.001 W 69/118½</note>
                     <head>
                         <hi rend="italic">Memorandum by the Counselor for the Department of
@@ -23368,6 +23376,11 @@
                                 >Bakhmeteff</hi></persName>), <hi rend="italic">April 2 and April 6,
                             1915</hi>
                     </head>
+                    <dateline>
+                        <date from="1915-04-02" to="1915-04-06"
+                            ana="#date_undated-inferred-from-document-head">April 2 and April 6,
+                            1915</date>
+                    </dateline>
                     <p>The Ambassador called and showed me two small volumes entitled “When a Man
                         Comes to Himself,” President Wilson being the author. On <ref
                             target="#pg_26">pages 26</ref> and <ref target="#pg_27">27</ref> of
@@ -26212,7 +26225,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d185" n="185">
+                <div type="document" xml:id="d185" n="185"
+                    frus:doc-dateTime-min="1918-03-01T17:00:00Z"
+                    frus:doc-dateTime-max="1918-03-01T17:00:00Z">
                     <note rend="inline" type="source">861.00/1246</note>
                     <head>
                         <hi rend="italic">
@@ -26226,6 +26241,10 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1918, Russia, vol. <hi
                                     rend="smallcaps">ii</hi>, p. 68</ref>.</note>
                     </head>
+                    <dateline>
+                        <date when="1918-03-01T12:00:00-05:00"
+                            ana="#date_undated-inferred-from-document-head">undated</date>
+                    </dateline>
                     <p>The Government of the United States is made constantly aware at every turn of
                         events that it is the desire of the people of the United States that, while
                         cooperating with all its energy with its associates in the war in every
@@ -26450,7 +26469,9 @@
                     </closer>
                 </div>
                 <pb n="359" xml:id="pg_359" facs="0405"/>
-                <div type="document" xml:id="d190" n="190">
+                <div type="document" xml:id="d190" n="190"
+                    frus:doc-dateTime-min="1918-05-18T00:00:00Z"
+                    frus:doc-dateTime-max="1918-05-18T23:59:59Z">
                     <note rend="inline" type="source">861.00/1865½</note>
                     <head>
                         <hi rend="italic">The Japanese Ambassador</hi> (<persName type="from"><hi
@@ -26460,6 +26481,10 @@
                         <note n="48" xml:id="d190fn1">This paper bears the notation: “Handed me by
                             Japanese Amb. May 18/18 RL.”</note>
                     </head>
+                    <dateline>
+                        <date when="1918-05-18" ana="#date_undated-inferred-from-document-content"
+                            >May 18, 1918</date>
+                    </dateline>
                     <p rend="center">
                         <hi rend="smallcaps">Substance of the Note Exchanged Between the Japanese
                             and Chinese Governments on the 25th of March, 1918</hi>
@@ -31136,7 +31161,9 @@
                 <pb n="432" xml:id="pg_432" facs="0478"/>
                 <div type="chapter" xml:id="ch6">
                     <head>The Lansing-Ishii negotiations</head>
-                    <div type="document" xml:id="d261" n="261">
+                    <div type="document" xml:id="d261" n="261"
+                        frus:doc-dateTime-min="1917-09-06T00:00:00Z"
+                        frus:doc-dateTime-max="1917-09-06T23:59:59Z">
                         <note rend="inline" type="source">793.94/594½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conference
@@ -31148,6 +31175,10 @@
                                     <hi rend="italic">Foreign Relations</hi>, 1917, pp. 258</ref>
                                 ff.</note>
                         </head>
+                        <dateline>
+                            <date when="1917-09-06" ana="#date_undated-inferred-from-document-head"
+                                >September 6, 1917</date>
+                        </dateline>
                         <p>The Special Ambassador and I conferred this afternoon for an hour and a
                             half at the Department.</p>
                         <p>During the first part of the conference the subject discussed was to what
@@ -31285,13 +31316,19 @@
                             to an ally, and her reputation for good faith was too well established
                             to be even suspected.</p>
                     </div>
-                    <div type="document" xml:id="d262" n="262">
+                    <div type="document" xml:id="d262" n="262"
+                        frus:doc-dateTime-min="1917-09-22T00:00:00Z"
+                        frus:doc-dateTime-max="1917-09-22T23:59:59Z">
                         <note rend="inline" type="source">793.94/594½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conference
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">September 22, 1917</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-09-22" ana="#date_undated-inferred-from-document-head"
+                                >September 22, 1917</date>
+                        </dateline>
                         <p>Viscount Ishii called at 3:00 p. m. by appointment, and after some
                             preliminary remarks he introduced the subject of the “Open Door” and the
                             suggestion that a redeclaration at this time would be advantageous.</p>
@@ -31447,13 +31484,19 @@
                             <signed>W. W.</signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d265" n="265">
+                    <div type="document" xml:id="d265" n="265"
+                        frus:doc-dateTime-min="1917-09-26T00:00:00Z"
+                        frus:doc-dateTime-max="1917-09-26T23:59:59Z">
                         <note rend="inline" type="source">793.94/594½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conference
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">September 26, 1917</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-09-26" ana="#date_undated-inferred-from-document-head"
+                                >September 26, 1917</date>
+                        </dateline>
                         <p>Early this morning I sent to Viscount Ishii a draft of a note,<note n="5"
                                 xml:id="d265fn1">This draft not printed.</note> embodying the
                             formula which I had said in our previous conference I would prepare, and
@@ -31588,13 +31631,19 @@
                                 the agreement reached by us.</p>
                         </frus:attachment>
                     </div>
-                    <div type="document" xml:id="d266" n="266">
+                    <div type="document" xml:id="d266" n="266"
+                        frus:doc-dateTime-min="1917-10-08T00:00:00Z"
+                        frus:doc-dateTime-max="1917-10-08T23:59:59Z">
                         <note rend="inline" type="source">793.94/594½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conference
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 8, 1917</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-10-08" ana="#date_undated-inferred-from-document-head"
+                                >October 8, 1917</date>
+                        </dateline>
                         <p>Viscount Ishii called this afternoon and submitted to me a counterdraft
                             of the proposed note relative to a redeclaration of the “Open Door”
                                 policy.<note n="6" xml:id="d266fn1">Counterdraft not printed.</note>
@@ -31602,13 +31651,19 @@
                         <p>After reading the counterdraft I told him I would take it under
                             consideration.</p>
                     </div>
-                    <div type="document" xml:id="d267" n="267">
+                    <div type="document" xml:id="d267" n="267"
+                        frus:doc-dateTime-min="1917-10-10T00:00:00Z"
+                        frus:doc-dateTime-max="1917-10-10T23:59:59Z">
                         <note rend="inline" type="source">793.94/594½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conference
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 10, 1917</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-10-10" ana="#date_undated-inferred-from-document-head"
+                                >October 10, 1917</date>
+                        </dateline>
                         <p>On the 8th Viscount Ishii left with me a draft of the proposed note from
                             this Government to Japan, showing in lead pencil the changes desired by
                             his Government in the note. (The document is hereto attached.)<note
@@ -31684,13 +31739,19 @@
                         <p>He left with the understanding that as soon as he had received a reply
                             from his Government he would see me again.</p>
                     </div>
-                    <div type="document" xml:id="d268" n="268">
+                    <div type="document" xml:id="d268" n="268"
+                        frus:doc-dateTime-min="1917-10-20T00:00:00Z"
+                        frus:doc-dateTime-max="1917-10-20T23:59:59Z">
                         <note rend="inline" type="source">793.94/594½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conference
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 20, 1917</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-10-20" ana="#date_undated-inferred-from-document-head"
+                                >October 20, 1917</date>
+                        </dateline>
                         <p>Viscount Ishii called at the Department by appointment this morning.</p>
                         <p>He first said that I probably knew that the Japanese Naval Commissioner
                             had arranged with our naval authorities to take over certain patrol duty
@@ -31825,13 +31886,19 @@
                                 finally agreed upon by the two Governments.</p>
                         </frus:attachment>
                     </div>
-                    <div type="document" xml:id="d270" n="270">
+                    <div type="document" xml:id="d270" n="270"
+                        frus:doc-dateTime-min="1917-10-22T00:00:00Z"
+                        frus:doc-dateTime-max="1917-10-22T23:59:59Z">
                         <note rend="inline" type="source">793.94/594½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conference
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 22, 1917</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-10-22" ana="#date_undated-inferred-from-document-head"
+                                >October 22, 1917</date>
+                        </dateline>
                         <p>The Viscount called at the Department by request and I told him that the
                             note as finally agreed upon on the 20th was acceptable in <pb n="446"
                                 xml:id="pg_446" facs="0492"/>itself, but that the President was
@@ -31903,13 +31970,19 @@
                                     footnote 19.</note> reached by us.</p>
                         </frus:attachment>
                     </div>
-                    <div type="document" xml:id="d271" n="271">
+                    <div type="document" xml:id="d271" n="271"
+                        frus:doc-dateTime-min="1917-10-27T00:00:00Z"
+                        frus:doc-dateTime-max="1917-10-27T23:59:59Z">
                         <note rend="inline" type="source">793.94/594½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conference
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 27, 1917</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-10-27" ana="#date_undated-inferred-from-document-head"
+                                >October 27, 1917</date>
+                        </dateline>
                         <p>The Viscount called this morning by appointment and said that he had
                             heard from his Government as to the proposed memorandum submitted on the
                             24th [<hi rend="italic">22d</hi>] by me, that he wished to repeat that
@@ -31973,13 +32046,19 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d273" n="273">
+                    <div type="document" xml:id="d273" n="273"
+                        frus:doc-dateTime-min="1917-10-29T00:00:00Z"
+                        frus:doc-dateTime-max="1917-10-29T23:59:59Z">
                         <note rend="inline" type="source">793.94/594½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conference
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 29, 1917</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-10-29" ana="#date_undated-inferred-from-document-head"
+                                >October 29, 1917</date>
+                        </dateline>
                         <p>At my request the Viscount called this afternoon and I informed him that
                             I had given careful consideration to the proposed protocol which he had
                             handed me on the 27th<note n="23" xml:id="d273fn1">See footnote 21, <ref
@@ -32006,13 +32085,19 @@
                             would immediately cable his Government and present our views as to the
                             changes which should be made.</p>
                     </div>
-                    <div type="document" xml:id="d274" n="274">
+                    <div type="document" xml:id="d274" n="274"
+                        frus:doc-dateTime-min="1917-10-31T00:00:00Z"
+                        frus:doc-dateTime-max="1917-10-31T23:59:59Z">
                         <note rend="inline" type="source">793.94/594½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conference
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 31, 1917</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-10-31" ana="#date_undated-inferred-from-document-head"
+                                >October 31, 1917</date>
+                        </dateline>
                         <p>The Viscount came to the Department this afternoon by appointment and
                             said that he was happy to state the suggested amendments in the
                             confidential protocol were entirely acceptable to his Government, and he
@@ -32039,13 +32124,19 @@
                             that it would be possibly four or five days before the notes could be
                             made public.</p>
                     </div>
-                    <div type="document" xml:id="d275" n="275">
+                    <div type="document" xml:id="d275" n="275"
+                        frus:doc-dateTime-min="1917-11-02T00:00:00Z"
+                        frus:doc-dateTime-max="1917-11-02T23:59:59Z">
                         <note rend="inline" type="source">793.94/594½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conference
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">November 2, 1917</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-11-02" ana="#date_undated-inferred-from-document-head"
+                                >November 2, 1917</date>
+                        </dateline>
                         <p>This morning the Viscount called at the Department and we read over the
                             notes to be exchanged and the confidential protocol accompanying <pb
                                 n="450" xml:id="pg_450" facs="0496"/>them.<note n="26"
@@ -32137,13 +32228,19 @@
                             she were informed and made no protest her responsibility would be
                             engaged.</p>
                     </div>
-                    <div type="document" xml:id="d278" n="278">
+                    <div type="document" xml:id="d278" n="278"
+                        frus:doc-dateTime-min="1917-11-12T00:00:00Z"
+                        frus:doc-dateTime-max="1917-11-12T23:59:59Z">
                         <note rend="inline" type="source">793.94/594½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of an Interview
                                 With the Chinese Minister</hi> (<hi rend="italic">Koo</hi>), <hi
                                 rend="italic">November 12, 1917</hi>
                         </head>
+                        <dateline>
+                            <date when="1917-11-12" ana="#date_undated-inferred-from-document-head"
+                                >November 12, 1917</date>
+                        </dateline>
                         <p>The Chinese Minister called upon me this afternoon and delivered a
                                 memorandum<note n="29" xml:id="d278fn1">
                                 <ref target="frus1917#pg_270">
@@ -35111,7 +35208,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d325" n="325">
+                    <div type="document" xml:id="d325" n="325"
+                        frus:doc-dateTime-min="1915-12-01T00:00:00Z"
+                        frus:doc-dateTime-max="1915-12-01T23:59:59Z">
                         <note rend="inline" type="source">711.5914/48½</note>
                         <head>
                             <hi rend="italic">The Danish Minister</hi> (<persName type="from"><hi
@@ -35121,6 +35220,11 @@
                             <note n="3" xml:id="d325fn1">This paper bears the notation: “Recd from
                                 Danish Minister Dec. 1, 1915 RL.”</note>
                         </head>
+                        <dateline>
+                            <date when="1915-12-01"
+                                ana="#date_undated-inferred-from-document-content">December 1,
+                                1915</date>
+                        </dateline>
                         <p rend="center">
                             <hi rend="smallcaps">Paraphrase of Cablegram Received on November 25th
                                 From the Danish Minister of Foreign Affairs</hi>
@@ -38766,12 +38870,19 @@
                                 nationals and foreigners.</p>
                         </frus:attachment>
                     </div>
-                    <div type="document" xml:id="d399" n="399">
+                    <div type="document" xml:id="d399" n="399"
+                        frus:doc-dateTime-min="1916-03-09T21:00:00Z"
+                        frus:doc-dateTime-max="1916-03-09T21:00:00Z">
                         <note rend="inline" type="source">812.00/17510½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State of a Conversation
                                 With Mr. Arredondo, March 9, 1916, 4 p. m.</hi>
                         </head>
+                        <dateline>
+                            <date when="1916-03-09T16:00:00-05:00"
+                                ana="#date_undated-inferred-from-document-head">March 9, 1916, 4
+                                p.m.</date>
+                        </dateline>
                         <p>Mr. Arredondo called to ask in regard to the reports of the attack upon
                             Columbus, New Mexico by Villista troops. I read to him the despatches
                             from Cobb and Carothers, sent today.<note n="24" xml:id="d399fn1">
@@ -39190,13 +39301,20 @@
                         </closer>
                     </div>
                     <pb n="560" xml:id="pg_560" facs="0606"/>
-                    <div type="document" xml:id="d406" n="406">
+                    <div type="document" xml:id="d406" n="406"
+                        frus:doc-dateTime-min="1916-06-21T05:00:00Z"
+                        frus:doc-dateTime-max="1916-07-04T04:59:59Z">
                         <note rend="inline" type="source">812.00/18534½</note>
                         <head>
                             <hi rend="italic">Memorandum by the Secretary of State</hi>
                             <note n="36" xml:id="d406fn1">This undated memorandum bears the
                                 notation: “Prepared to use with Prest. RL.”</note>
                         </head>
+                        <dateline>
+                            <date notBefore="1916-06-21T00:00:00-05:00"
+                                notAfter="1916-07-03T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                        </dateline>
                         <p>The announced policy of the United States in its relations with Mexico
                             has been and still is one of non-intervention. In using the words
                             “intervention” and “non-intervention” the meaning of intervention should
