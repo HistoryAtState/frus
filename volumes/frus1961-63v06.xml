@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
     xml:id="frus1961-63v06">
     <teiHeader>
@@ -924,7 +924,7 @@
                 <head><persName>Kennedy</persName>-<persName corresp="#p_KNS2">Khrushchev</persName>
                     Exchanges</head>
                 <div type="document" xml:id="d1" n="1" frus:doc-dateTime-min="1960-11-09T00:00:00Z"
-                    frus:doc-dateTime-max="1960-11-09T23:59:59Z">
+                    frus:doc-dateTime-max="1960-11-09T23:59:59Z" subtype="historical-document">
                     <head>1. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President-elect <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d1fn0" type="source"
@@ -963,7 +963,7 @@
                 </div>
                 <pb n="2" xml:id="pg_2" facs="0024"/>
                 <div type="document" xml:id="d2" n="2" frus:doc-dateTime-min="1960-11-10T00:00:00Z"
-                    frus:doc-dateTime-max="1960-11-10T23:59:59Z">
+                    frus:doc-dateTime-max="1960-11-10T23:59:59Z" subtype="historical-document">
                     <head>2. Message From President-elect <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d2fn0" type="source"
@@ -979,7 +979,7 @@
                             xml:id="d2fn2">Printed from an unsigned copy.</note></p>
                 </div>
                 <div type="document" xml:id="d3" n="3" frus:doc-dateTime-min="1961-01-20T00:00:00Z"
-                    frus:doc-dateTime-max="1961-01-20T23:59:59Z">
+                    frus:doc-dateTime-max="1961-01-20T23:59:59Z" subtype="historical-document">
                     <head>3. Message From Chairmen <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> and <persName corresp="#p_BLI1"
                             >Brezhnev</persName> to President <persName corresp="#p_KJF2" type="to"
@@ -1022,7 +1022,7 @@
                 </div>
                 <pb n="3" xml:id="pg_3" facs="0025"/>
                 <div type="document" xml:id="d4" n="4" frus:doc-dateTime-min="1961-01-21T18:34:00Z"
-                    frus:doc-dateTime-max="1961-01-21T18:34:00Z">
+                    frus:doc-dateTime-max="1961-01-21T18:34:00Z" subtype="historical-document">
                     <head>4. Telegram From the <gloss type="from">Department of State</gloss> to the
                             <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d4fn0" type="source">Source: Department of State, Central Files,
@@ -1069,7 +1069,7 @@
                 </div>
                 <pb n="4" xml:id="pg_4" facs="0026"/>
                 <div type="document" xml:id="d5" n="5" frus:doc-dateTime-min="1961-02-13T00:00:00Z"
-                    frus:doc-dateTime-max="1961-02-13T23:59:59Z">
+                    frus:doc-dateTime-max="1961-02-13T23:59:59Z" subtype="historical-document">
                     <head>5. Telegram From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d5fn0" type="source">Source:
@@ -1091,7 +1091,7 @@
                                     Kennedy</hi></persName></signed></closer>
                 </div>
                 <div type="document" xml:id="d6" n="6" frus:doc-dateTime-min="1961-02-15T00:00:00Z"
-                    frus:doc-dateTime-max="1961-02-15T23:59:59Z">
+                    frus:doc-dateTime-max="1961-02-15T23:59:59Z" subtype="historical-document">
                     <head>6. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d6fn0" type="source"
@@ -1132,7 +1132,7 @@
                             >Printed from a copy that bears this typed signature.</note></closer>
                 </div>
                 <div type="document" xml:id="d7" n="7" frus:doc-dateTime-min="1961-02-22T00:00:00Z"
-                    frus:doc-dateTime-max="1961-02-22T23:59:59Z">
+                    frus:doc-dateTime-max="1961-02-22T23:59:59Z" subtype="historical-document">
                     <head>7. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d7fn0" type="source">Source:
@@ -1218,7 +1218,7 @@
                 </div>
                 <pb n="7" xml:id="pg_7" facs="0029"/>
                 <div type="document" xml:id="d8" n="8" frus:doc-dateTime-min="1961-04-12T13:24:00Z"
-                    frus:doc-dateTime-max="1961-04-12T13:24:00Z">
+                    frus:doc-dateTime-max="1961-04-12T13:24:00Z" subtype="historical-document">
                     <head>8. Telegram From the <gloss type="from">Department of State</gloss> to the
                             <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d8fn0" type="source">Source: Department of State, Central Files,
@@ -1244,7 +1244,7 @@
                                 >Rusk</hi></persName></signed></closer>
                 </div>
                 <div type="document" xml:id="d9" n="9" frus:doc-dateTime-min="1961-04-18T14:00:00Z"
-                    frus:doc-dateTime-max="1961-04-18T14:00:00Z">
+                    frus:doc-dateTime-max="1961-04-18T14:00:00Z" subtype="historical-document">
                     <head>9. Telegram From the <gloss type="from">Embassy in the Soviet
                             Union</gloss> to the <gloss type="to">Department of State</gloss><note
                             n="0" xml:id="d9fn0" type="source">Source: Department of State,
@@ -1309,7 +1309,7 @@
                 <pb n="9" xml:id="pg_9" facs="0031"/>
                 <div type="document" xml:id="d10" n="10"
                     frus:doc-dateTime-min="1961-04-18T00:00:00Z"
-                    frus:doc-dateTime-max="1961-04-18T23:59:59Z">
+                    frus:doc-dateTime-max="1961-04-18T23:59:59Z" subtype="historical-document">
                     <head>10. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d10fn0" type="source">Source:
@@ -1381,7 +1381,7 @@
                 </div>
                 <div type="document" xml:id="d11" n="11"
                     frus:doc-dateTime-min="1961-04-22T00:00:00Z"
-                    frus:doc-dateTime-max="1961-04-22T23:59:59Z">
+                    frus:doc-dateTime-max="1961-04-22T23:59:59Z" subtype="historical-document">
                     <head>11. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d11fn0" type="source"
@@ -1678,7 +1678,7 @@
                 <pb n="17" xml:id="pg_17" facs="0039"/>
                 <div type="document" xml:id="d12" n="12"
                     frus:doc-dateTime-min="1961-04-30T00:00:00Z"
-                    frus:doc-dateTime-max="1961-04-30T23:59:59Z">
+                    frus:doc-dateTime-max="1961-04-30T23:59:59Z" subtype="historical-document">
                     <head>12. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d12fn0" type="source"
@@ -1702,7 +1702,7 @@
                 </div>
                 <div type="document" xml:id="d13" n="13"
                     frus:doc-dateTime-min="1961-05-06T00:00:00Z"
-                    frus:doc-dateTime-max="1961-05-06T23:59:59Z">
+                    frus:doc-dateTime-max="1961-05-06T23:59:59Z" subtype="historical-document">
                     <head>13. Telegram From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d13fn0" type="source"
@@ -1729,7 +1729,7 @@
                                 Khrushchev</hi></persName></signed></closer>
                 </div>
                 <pb n="18" xml:id="pg_18" facs="0040"/>
-                <div type="document" xml:id="d14" n="14">
+                <div type="document" xml:id="d14" n="14" subtype="historical-document">
                     <head>14. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d14fn0" type="source">Source:
@@ -1757,7 +1757,7 @@
                 </div>
                 <div type="document" xml:id="d15" n="15"
                     frus:doc-dateTime-min="1961-05-16T13:33:00Z"
-                    frus:doc-dateTime-max="1961-05-16T13:33:00Z">
+                    frus:doc-dateTime-max="1961-05-16T13:33:00Z" subtype="historical-document">
                     <head>15. Telegram From the <gloss type="from">Department of State</gloss> to
                         Secretary of State <persName corresp="#p_RD3" type="to">Rusk</persName> at
                         Geneva <note n="0" xml:id="d15fn0" type="source">Source: Kennedy Library,
@@ -1901,7 +1901,7 @@
                 <pb n="22" xml:id="pg_22" facs="0044"/>
                 <div type="document" xml:id="d16" n="16"
                     frus:doc-dateTime-min="1961-06-10T00:00:00Z"
-                    frus:doc-dateTime-max="1961-06-10T23:59:59Z">
+                    frus:doc-dateTime-max="1961-06-10T23:59:59Z" subtype="historical-document">
                     <head>16. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d16fn0" type="source">Source:
@@ -1926,7 +1926,7 @@
                 </div>
                 <div type="document" xml:id="d17" n="17"
                     frus:doc-dateTime-min="1961-06-21T00:00:00Z"
-                    frus:doc-dateTime-max="1961-06-21T23:59:59Z">
+                    frus:doc-dateTime-max="1961-06-21T23:59:59Z" subtype="historical-document">
                     <head>17. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d17fn0" type="source">Source:
@@ -1951,7 +1951,7 @@
                 <pb n="23" xml:id="pg_23" facs="0045"/>
                 <div type="document" xml:id="d18" n="18"
                     frus:doc-dateTime-min="1961-07-03T00:00:00Z"
-                    frus:doc-dateTime-max="1961-07-03T23:59:59Z">
+                    frus:doc-dateTime-max="1961-07-03T23:59:59Z" subtype="historical-document">
                     <head>18. Letter From Chairmen <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> and <persName corresp="#p_BLI1"
                             >Brezhnev</persName> to President <persName corresp="#p_KJF2" type="to"
@@ -2002,7 +2002,7 @@
                 <pb n="24" xml:id="pg_24" facs="0046"/>
                 <div type="document" xml:id="d19" n="19"
                     frus:doc-dateTime-min="1961-07-04T00:00:00Z"
-                    frus:doc-dateTime-max="1961-07-04T23:59:59Z">
+                    frus:doc-dateTime-max="1961-07-04T23:59:59Z" subtype="historical-document">
                     <head>19. Telegram From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairmen <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName> and <persName corresp="#p_BLI1"
@@ -2063,7 +2063,7 @@
                 </div>
                 <div type="document" xml:id="d21" n="21"
                     frus:doc-dateTime-min="1961-09-29T00:00:00Z"
-                    frus:doc-dateTime-max="1961-09-29T23:59:59Z">
+                    frus:doc-dateTime-max="1961-09-29T23:59:59Z" subtype="historical-document">
                     <head>21. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d21fn0" type="source"
@@ -2635,7 +2635,7 @@
                 </div>
                 <div type="document" xml:id="d22" n="22"
                     frus:doc-dateTime-min="1961-10-16T00:00:00Z"
-                    frus:doc-dateTime-max="1961-10-16T23:59:59Z">
+                    frus:doc-dateTime-max="1961-10-16T23:59:59Z" subtype="historical-document">
                     <head>22. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d22fn0" type="source">Source:
@@ -2924,7 +2924,7 @@
                 <pb n="45" xml:id="pg_45" facs="0067"/>
                 <div type="document" xml:id="d23" n="23"
                     frus:doc-dateTime-min="1961-11-09T00:00:00Z"
-                    frus:doc-dateTime-max="1961-11-09T23:59:59Z">
+                    frus:doc-dateTime-max="1961-11-09T23:59:59Z" subtype="historical-document">
                     <head>23. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d23fn0" type="source"
@@ -3529,7 +3529,7 @@
                 <pb n="58" xml:id="pg_58" facs="0080"/>
                 <div type="document" xml:id="d24" n="24"
                     frus:doc-dateTime-min="1961-11-10T00:00:00Z"
-                    frus:doc-dateTime-max="1961-11-10T23:59:59Z">
+                    frus:doc-dateTime-max="1961-11-10T23:59:59Z" subtype="historical-document">
                     <head>24. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d24fn0" type="source"
@@ -3692,7 +3692,7 @@
                 </div>
                 <div type="document" xml:id="d25" n="25"
                     frus:doc-dateTime-min="1961-11-16T00:00:00Z"
-                    frus:doc-dateTime-max="1961-11-16T23:59:59Z">
+                    frus:doc-dateTime-max="1961-11-16T23:59:59Z" subtype="historical-document">
                     <head>25. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d25fn0" type="source">Source:
@@ -3845,7 +3845,7 @@
                 <pb n="65" xml:id="pg_65" facs="0087"/>
                 <div type="document" xml:id="d26" n="26"
                     frus:doc-dateTime-min="1961-12-02T00:00:00Z"
-                    frus:doc-dateTime-max="1961-12-02T23:59:59Z">
+                    frus:doc-dateTime-max="1961-12-02T23:59:59Z" subtype="historical-document">
                     <head>26. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d26fn0" type="source">Source:
@@ -4025,7 +4025,7 @@
                 <pb n="69" xml:id="pg_69" facs="0091"/>
                 <div type="document" xml:id="d27" n="27"
                     frus:doc-dateTime-min="1961-12-13T00:00:00Z"
-                    frus:doc-dateTime-max="1961-12-13T23:59:59Z">
+                    frus:doc-dateTime-max="1961-12-13T23:59:59Z" subtype="historical-document">
                     <head>27. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d27fn0" type="source"
@@ -4481,7 +4481,7 @@
                 <pb n="79" xml:id="pg_79" facs="0101"/>
                 <div type="document" xml:id="d28" n="28"
                     frus:doc-dateTime-min="1961-12-29T00:00:00Z"
-                    frus:doc-dateTime-max="1961-12-29T23:59:59Z">
+                    frus:doc-dateTime-max="1961-12-29T23:59:59Z" subtype="historical-document">
                     <head>28. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d28fn0" type="source">Source: Department of State, Presidential
@@ -4530,7 +4530,7 @@
                 <pb n="80" xml:id="pg_80" facs="0102"/>
                 <div type="document" xml:id="d29" n="29"
                     frus:doc-dateTime-min="1961-12-30T00:00:00Z"
-                    frus:doc-dateTime-max="1961-12-30T23:59:59Z">
+                    frus:doc-dateTime-max="1961-12-30T23:59:59Z" subtype="historical-document">
                     <head>29. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d29fn0" type="source">Source: Department of State, Presidential
@@ -4572,7 +4572,7 @@
                                 >Rusk</hi></persName></signed></closer>
                 </div>
                 <pb n="81" xml:id="pg_81" facs="0103"/>
-                <div type="document" xml:id="d30" n="30">
+                <div type="document" xml:id="d30" n="30" subtype="historical-document">
                     <head>30. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d30fn0" type="source"
@@ -4758,7 +4758,7 @@
                 <pb n="85" xml:id="pg_85" facs="0107"/>
                 <div type="document" xml:id="d31" n="31"
                     frus:doc-dateTime-min="1962-02-06T18:42:00Z"
-                    frus:doc-dateTime-max="1962-02-06T18:42:00Z">
+                    frus:doc-dateTime-max="1962-02-06T18:42:00Z" subtype="historical-document">
                     <head>31. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d31fn0" type="source">Source: Kennedy Library, National Security
@@ -4860,7 +4860,7 @@
                 </div>
                 <div type="document" xml:id="d32" n="32"
                     frus:doc-dateTime-min="1962-02-10T00:00:00Z"
-                    frus:doc-dateTime-max="1962-02-10T23:59:59Z">
+                    frus:doc-dateTime-max="1962-02-10T23:59:59Z" subtype="historical-document">
                     <head>32. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d32fn0" type="source"
@@ -5026,7 +5026,7 @@
                 <pb n="91" xml:id="pg_91" facs="0113"/>
                 <div type="document" xml:id="d33" n="33"
                     frus:doc-dateTime-min="1962-02-14T00:00:00Z"
-                    frus:doc-dateTime-max="1962-02-14T23:59:59Z">
+                    frus:doc-dateTime-max="1962-02-14T23:59:59Z" subtype="historical-document">
                     <head>33. Message From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d33fn0" type="source">Source:
@@ -5108,7 +5108,7 @@
                 </div>
                 <div type="document" xml:id="d34" n="34"
                     frus:doc-dateTime-min="1962-02-15T00:00:00Z"
-                    frus:doc-dateTime-max="1962-02-15T23:59:59Z">
+                    frus:doc-dateTime-max="1962-02-15T23:59:59Z" subtype="historical-document">
                     <head>34. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d34fn0" type="source">Source:
@@ -5264,7 +5264,7 @@
                 <pb n="96" xml:id="pg_96" facs="0118"/>
                 <div type="document" xml:id="d35" n="35"
                     frus:doc-dateTime-min="1962-02-21T00:00:00Z"
-                    frus:doc-dateTime-max="1962-02-21T23:59:59Z">
+                    frus:doc-dateTime-max="1962-02-21T23:59:59Z" subtype="historical-document">
                     <head>35. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d35fn0" type="source"
@@ -5307,7 +5307,7 @@
                 <pb n="97" xml:id="pg_97" facs="0119"/>
                 <div type="document" xml:id="d36" n="36"
                     frus:doc-dateTime-min="1962-02-21T19:49:00Z"
-                    frus:doc-dateTime-max="1962-02-21T19:49:00Z">
+                    frus:doc-dateTime-max="1962-02-21T19:49:00Z" subtype="historical-document">
                     <head>36. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d36fn0" type="source">Source: Kennedy Library, National Security
@@ -5349,7 +5349,7 @@
                 <pb n="98" xml:id="pg_98" facs="0120"/>
                 <div type="document" xml:id="d37" n="37"
                     frus:doc-dateTime-min="1962-02-21T00:00:00Z"
-                    frus:doc-dateTime-max="1962-02-21T23:59:59Z">
+                    frus:doc-dateTime-max="1962-02-21T23:59:59Z" subtype="historical-document">
                     <head>37. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d37fn0" type="source"
@@ -5717,7 +5717,7 @@
                 </div>
                 <div type="document" xml:id="d38" n="38"
                     frus:doc-dateTime-min="1962-02-24T13:14:00Z"
-                    frus:doc-dateTime-max="1962-02-24T13:14:00Z">
+                    frus:doc-dateTime-max="1962-02-24T13:14:00Z" subtype="historical-document">
                     <head>38. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d38fn0" type="source">Source: Kennedy Library, National Security
@@ -5846,7 +5846,7 @@
                 <pb n="109" xml:id="pg_109" facs="0131"/>
                 <div type="document" xml:id="d39" n="39"
                     frus:doc-dateTime-min="1962-03-03T00:00:00Z"
-                    frus:doc-dateTime-max="1962-03-03T23:59:59Z">
+                    frus:doc-dateTime-max="1962-03-03T23:59:59Z" subtype="historical-document">
                     <head>39. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d39fn0" type="source"
@@ -6104,7 +6104,7 @@
                 <pb n="115" xml:id="pg_115" facs="0137"/>
                 <div type="document" xml:id="d40" n="40"
                     frus:doc-dateTime-min="1962-03-05T00:00:00Z"
-                    frus:doc-dateTime-max="1962-03-05T23:59:59Z">
+                    frus:doc-dateTime-max="1962-03-05T23:59:59Z" subtype="historical-document">
                     <head>40. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d40fn0" type="source">Source:
@@ -6146,7 +6146,7 @@
                 <pb n="116" xml:id="pg_116" facs="0138"/>
                 <div type="document" xml:id="d41" n="41"
                     frus:doc-dateTime-min="1962-03-07T00:00:00Z"
-                    frus:doc-dateTime-max="1962-03-07T23:59:59Z">
+                    frus:doc-dateTime-max="1962-03-07T23:59:59Z" subtype="historical-document">
                     <head>41. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d41fn0" type="source">Source:
@@ -6279,7 +6279,7 @@
                 </div>
                 <div type="document" xml:id="d42" n="42"
                     frus:doc-dateTime-min="1962-03-10T00:00:00Z"
-                    frus:doc-dateTime-max="1962-03-10T23:59:59Z">
+                    frus:doc-dateTime-max="1962-03-10T23:59:59Z" subtype="historical-document">
                     <head>42. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d42fn0" type="source"
@@ -6658,7 +6658,7 @@
                 <pb n="127" xml:id="pg_127" facs="0149"/>
                 <div type="document" xml:id="d43" n="43"
                     frus:doc-dateTime-min="1962-03-20T00:00:00Z"
-                    frus:doc-dateTime-max="1962-03-20T23:59:59Z">
+                    frus:doc-dateTime-max="1962-03-20T23:59:59Z" subtype="historical-document">
                     <head>43. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d43fn0" type="source"
@@ -6856,7 +6856,7 @@
                 </div>
                 <div type="document" xml:id="d44" n="44"
                     frus:doc-dateTime-min="1962-04-07T17:16:00Z"
-                    frus:doc-dateTime-max="1962-04-07T17:16:00Z">
+                    frus:doc-dateTime-max="1962-04-07T17:16:00Z" subtype="historical-document">
                     <head>44. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d44fn0" type="source">Source: Department of State, Presidential
@@ -6947,7 +6947,7 @@
                 </div>
                 <div type="document" xml:id="d45" n="45"
                     frus:doc-dateTime-min="1962-06-05T00:00:00Z"
-                    frus:doc-dateTime-max="1962-06-05T23:59:59Z">
+                    frus:doc-dateTime-max="1962-06-05T23:59:59Z" subtype="historical-document">
                     <head>45. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d45fn0" type="source">Source:
@@ -6999,7 +6999,7 @@
                 </div>
                 <div type="document" xml:id="d46" n="46"
                     frus:doc-dateTime-min="1962-06-12T00:00:00Z"
-                    frus:doc-dateTime-max="1962-06-12T23:59:59Z">
+                    frus:doc-dateTime-max="1962-06-12T23:59:59Z" subtype="historical-document">
                     <head>46. Telegram From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d46fn0" type="source"
@@ -7050,7 +7050,7 @@
                 </div>
                 <div type="document" xml:id="d47" n="47"
                     frus:doc-dateTime-min="1962-06-12T21:41:00Z"
-                    frus:doc-dateTime-max="1962-06-12T21:41:00Z">
+                    frus:doc-dateTime-max="1962-06-12T21:41:00Z" subtype="historical-document">
                     <head>47. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d47fn0" type="source">Source: Department of State, Presidential
@@ -7096,7 +7096,7 @@
                 </div>
                 <div type="document" xml:id="d48" n="48"
                     frus:doc-dateTime-min="1962-07-04T00:00:00Z"
-                    frus:doc-dateTime-max="1962-07-04T23:59:59Z">
+                    frus:doc-dateTime-max="1962-07-04T23:59:59Z" subtype="historical-document">
                     <head>48. Message From Chairmen <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> and <persName corresp="#p_BLI1"
                             >Brezhnev</persName> to President <persName corresp="#p_KJF2" type="to"
@@ -7129,7 +7129,7 @@
                         </signed></closer>
                 </div>
                 <pb n="137" xml:id="pg_137" facs="0159"/>
-                <div type="document" xml:id="d49" n="49">
+                <div type="document" xml:id="d49" n="49" subtype="historical-document">
                     <head>49. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d49fn0" type="source"
@@ -7351,7 +7351,7 @@
                 <pb n="142" xml:id="pg_142" facs="0164"/>
                 <div type="document" xml:id="d50" n="50"
                     frus:doc-dateTime-min="1962-07-12T20:15:00Z"
-                    frus:doc-dateTime-max="1962-07-12T20:15:00Z">
+                    frus:doc-dateTime-max="1962-07-12T20:15:00Z" subtype="historical-document">
                     <head>50. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d50fn0" type="source">Source: Department of State, Presidential
@@ -7381,7 +7381,7 @@
                 </div>
                 <div type="document" xml:id="d51" n="51"
                     frus:doc-dateTime-min="1962-07-17T00:00:00Z"
-                    frus:doc-dateTime-max="1962-07-17T23:59:59Z">
+                    frus:doc-dateTime-max="1962-07-17T23:59:59Z" subtype="historical-document">
                     <head>51. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d51fn0" type="source">Source:
@@ -7617,7 +7617,7 @@
                 <pb n="148" xml:id="pg_148" facs="0170"/>
                 <div type="document" xml:id="d52" n="52"
                     frus:doc-dateTime-min="1962-08-15T00:00:00Z"
-                    frus:doc-dateTime-max="1962-08-15T23:59:59Z">
+                    frus:doc-dateTime-max="1962-08-15T23:59:59Z" subtype="historical-document">
                     <head>52. Memorandum From the President’s Special Assistant for National
                         Security Affairs (<persName corresp="#p_BMG2" type="from">Bundy</persName>)
                         to the Executive Secretary of the Department of State (<persName type="to"
@@ -7645,7 +7645,7 @@
                 </div>
                 <div type="document" xml:id="d53" n="53"
                     frus:doc-dateTime-min="1962-09-04T00:00:00Z"
-                    frus:doc-dateTime-max="1962-09-04T23:59:59Z">
+                    frus:doc-dateTime-max="1962-09-04T23:59:59Z" subtype="historical-document">
                     <head>53. Informal Communication From Chairman <persName corresp="#p_KNS2"
                             type="from">Khrushchev</persName> to President <persName
                             corresp="#p_KJF2" type="to">Kennedy</persName><note n="0"
@@ -7726,7 +7726,7 @@
                 </div>
                 <div type="document" xml:id="d54" n="54"
                     frus:doc-dateTime-min="1962-09-04T00:00:00Z"
-                    frus:doc-dateTime-max="1962-09-04T23:59:59Z">
+                    frus:doc-dateTime-max="1962-09-04T23:59:59Z" subtype="historical-document">
                     <head>54. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d54fn0" type="source"
@@ -7756,7 +7756,7 @@
                 <pb n="151" xml:id="pg_151" facs="0173"/>
                 <div type="document" xml:id="d55" n="55"
                     frus:doc-dateTime-min="1962-09-15T00:00:00Z"
-                    frus:doc-dateTime-max="1962-09-15T23:59:59Z">
+                    frus:doc-dateTime-max="1962-09-15T23:59:59Z" subtype="historical-document">
                     <head>55. Message From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d55fn0" type="source">Source:
@@ -7828,7 +7828,7 @@
                 </div>
                 <div type="document" xml:id="d56" n="56"
                     frus:doc-dateTime-min="1962-09-28T00:00:00Z"
-                    frus:doc-dateTime-max="1962-09-28T23:59:59Z">
+                    frus:doc-dateTime-max="1962-09-28T23:59:59Z" subtype="historical-document">
                     <head>56. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d56fn0" type="source"
@@ -8246,7 +8246,7 @@
                 <pb n="162" xml:id="pg_162" facs="0184"/>
                 <div type="document" xml:id="d57" n="57"
                     frus:doc-dateTime-min="1962-10-04T00:00:00Z"
-                    frus:doc-dateTime-max="1962-10-04T23:59:59Z">
+                    frus:doc-dateTime-max="1962-10-04T23:59:59Z" subtype="historical-document">
                     <head>57. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d57fn0" type="source"
@@ -8272,7 +8272,7 @@
                 </div>
                 <div type="document" xml:id="d58" n="58"
                     frus:doc-dateTime-min="1962-10-06T12:25:00Z"
-                    frus:doc-dateTime-max="1962-10-06T12:25:00Z">
+                    frus:doc-dateTime-max="1962-10-06T12:25:00Z" subtype="historical-document">
                     <head>58. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d58fn0" type="source">Source: Kennedy Library, National Security
@@ -8304,7 +8304,7 @@
                 <pb n="163" xml:id="pg_163" facs="0185"/>
                 <div type="document" xml:id="d59" n="59"
                     frus:doc-dateTime-min="1962-10-08T00:00:00Z"
-                    frus:doc-dateTime-max="1962-10-08T23:59:59Z">
+                    frus:doc-dateTime-max="1962-10-08T23:59:59Z" subtype="historical-document">
                     <head>59. Message From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d59fn0" type="source">Source:
@@ -8383,7 +8383,7 @@
                 <pb n="165" xml:id="pg_165" facs="0187"/>
                 <div type="document" xml:id="d60" n="60"
                     frus:doc-dateTime-min="1962-10-22T00:00:00Z"
-                    frus:doc-dateTime-max="1962-10-22T23:59:59Z">
+                    frus:doc-dateTime-max="1962-10-22T23:59:59Z" subtype="historical-document">
                     <head>60. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d60fn0" type="source">Source:
@@ -8463,7 +8463,7 @@
                 </div>
                 <div type="document" xml:id="d61" n="61"
                     frus:doc-dateTime-min="1962-10-23T17:00:00Z"
-                    frus:doc-dateTime-max="1962-10-23T17:00:00Z">
+                    frus:doc-dateTime-max="1962-10-23T17:00:00Z" subtype="historical-document">
                     <head>61. Telegram From the <gloss type="from">Embassy in the Soviet
                             Union</gloss> to the <gloss type="to">Department of State</gloss><note
                             n="0" xml:id="d61fn0" type="source">Source:Kennedy Library, National
@@ -8523,7 +8523,7 @@
                 <pb n="168" xml:id="pg_168" facs="0190"/>
                 <div type="document" xml:id="d62" n="62"
                     frus:doc-dateTime-min="1962-10-23T18:51:00Z"
-                    frus:doc-dateTime-max="1962-10-23T18:51:00Z">
+                    frus:doc-dateTime-max="1962-10-23T18:51:00Z" subtype="historical-document">
                     <head>62. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d62fn0" type="source">Source: Department of State, Presidential
@@ -8563,7 +8563,7 @@
                 <pb n="169" xml:id="pg_169" facs="0191"/>
                 <div type="document" xml:id="d63" n="63"
                     frus:doc-dateTime-min="1962-10-24T00:00:00Z"
-                    frus:doc-dateTime-max="1962-10-24T23:59:59Z">
+                    frus:doc-dateTime-max="1962-10-24T23:59:59Z" subtype="historical-document">
                     <head>63. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d63fn0" type="source"
@@ -8657,7 +8657,7 @@
                 <pb n="171" xml:id="pg_171" facs="0193"/>
                 <div type="document" xml:id="d64" n="64"
                     frus:doc-dateTime-min="1962-10-25T01:59:00Z"
-                    frus:doc-dateTime-max="1962-10-25T01:59:00Z">
+                    frus:doc-dateTime-max="1962-10-25T01:59:00Z" subtype="historical-document">
                     <head>64. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d64fn0" type="source">Source: Department of State, Presidential
@@ -8709,7 +8709,7 @@
                 <pb n="172" xml:id="pg_172" facs="0194"/>
                 <div type="document" xml:id="d65" n="65"
                     frus:doc-dateTime-min="1962-10-26T19:00:00Z"
-                    frus:doc-dateTime-max="1962-10-26T19:00:00Z">
+                    frus:doc-dateTime-max="1962-10-26T19:00:00Z" subtype="historical-document">
                     <head>65. Telegram From the <gloss type="from">Embassy in the Soviet
                             Union</gloss> to the <gloss type="to">Department of State</gloss><note
                             n="0" xml:id="d65fn0" type="source">Source:Kennedy Library, National
@@ -8978,7 +8978,7 @@
                 <pb n="178" xml:id="pg_178" facs="0200"/>
                 <div type="document" xml:id="d66" n="66"
                     frus:doc-dateTime-min="1962-10-27T00:00:00Z"
-                    frus:doc-dateTime-max="1962-10-27T23:59:59Z">
+                    frus:doc-dateTime-max="1962-10-27T23:59:59Z" subtype="historical-document">
                     <head>66. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d66fn0" type="source"
@@ -9141,7 +9141,7 @@
                 </div>
                 <div type="document" xml:id="d67" n="67"
                     frus:doc-dateTime-min="1962-10-27T20:05:00Z"
-                    frus:doc-dateTime-max="1962-10-27T20:05:00Z">
+                    frus:doc-dateTime-max="1962-10-27T20:05:00Z" subtype="historical-document">
                     <head>67. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d67fn0" type="source">Source:Kennedy Library, National Security
@@ -9215,7 +9215,7 @@
                 <pb n="183" xml:id="pg_183" facs="0205"/>
                 <div type="document" xml:id="d68" n="68"
                     frus:doc-dateTime-min="1962-10-28T00:00:00Z"
-                    frus:doc-dateTime-max="1962-10-28T23:59:59Z">
+                    frus:doc-dateTime-max="1962-10-28T23:59:59Z" subtype="historical-document">
                     <head>68. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d68fn0" type="source"
@@ -9415,7 +9415,7 @@
                 </div>
                 <div type="document" xml:id="d69" n="69"
                     frus:doc-dateTime-min="1962-10-28T17:03:00Z"
-                    frus:doc-dateTime-max="1962-10-28T17:03:00Z">
+                    frus:doc-dateTime-max="1962-10-28T17:03:00Z" subtype="historical-document">
                     <head>69. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d69fn0" type="source">Source: Kennedy Library, National Security
@@ -9491,7 +9491,7 @@
                 <pb n="189" xml:id="pg_189" facs="0211"/>
                 <div type="document" xml:id="d70" n="70"
                     frus:doc-dateTime-min="1962-10-28T00:00:00Z"
-                    frus:doc-dateTime-max="1962-10-28T23:59:59Z">
+                    frus:doc-dateTime-max="1962-10-28T23:59:59Z" subtype="historical-document">
                     <head>70. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d70fn0" type="source"
@@ -9570,7 +9570,7 @@
                 </div>
                 <div type="document" xml:id="d71" n="71"
                     frus:doc-dateTime-min="1962-10-30T00:00:00Z"
-                    frus:doc-dateTime-max="1962-10-30T23:59:59Z">
+                    frus:doc-dateTime-max="1962-10-30T23:59:59Z" subtype="historical-document">
                     <head>71. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d71fn0" type="source"
@@ -9917,7 +9917,7 @@
                 </div>
                 <div type="document" xml:id="d72" n="72"
                     frus:doc-dateTime-min="1962-11-03T00:00:00Z"
-                    frus:doc-dateTime-max="1962-11-03T23:59:59Z">
+                    frus:doc-dateTime-max="1962-11-03T23:59:59Z" subtype="historical-document">
                     <head>72. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d72fn0" type="source"
@@ -9958,7 +9958,7 @@
                     <p>Sincerely,<note n="2" xml:id="d72fn2">Printed from an unsigned
                         copy.</note></p>
                 </div>
-                <div type="document" xml:id="d73" n="73">
+                <div type="document" xml:id="d73" n="73" subtype="historical-document">
                     <head>73. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d73fn0" type="source"
@@ -10036,7 +10036,7 @@
                 <pb n="201" xml:id="pg_201" facs="0223"/>
                 <div type="document" xml:id="d74" n="74"
                     frus:doc-dateTime-min="1962-11-06T00:00:00Z"
-                    frus:doc-dateTime-max="1962-11-06T23:59:59Z">
+                    frus:doc-dateTime-max="1962-11-06T23:59:59Z" subtype="historical-document">
                     <head>74. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d74fn0" type="source"
@@ -10203,7 +10203,7 @@
                     <p>Sincerely,<note n="5" xml:id="d74fn5">Printed from an unsigned
                         copy.</note></p>
                 </div>
-                <div type="document" xml:id="d75" n="75">
+                <div type="document" xml:id="d75" n="75" subtype="historical-document">
                     <head>75. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d75fn0" type="source"
@@ -10421,7 +10421,7 @@
                 </div>
                 <div type="document" xml:id="d77" n="77"
                     frus:doc-dateTime-min="1962-11-14T00:00:00Z"
-                    frus:doc-dateTime-max="1962-11-14T23:59:59Z">
+                    frus:doc-dateTime-max="1962-11-14T23:59:59Z" subtype="historical-document">
                     <head>77. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d77fn0" type="source"
@@ -10557,7 +10557,7 @@
                 </div>
                 <div type="document" xml:id="d78" n="78"
                     frus:doc-dateTime-min="1962-11-15T00:00:00Z"
-                    frus:doc-dateTime-max="1962-11-15T23:59:59Z">
+                    frus:doc-dateTime-max="1962-11-15T23:59:59Z" subtype="historical-document">
                     <head>78. Message From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d78fn0" type="source"
@@ -10696,7 +10696,7 @@
                 </div>
                 <div type="document" xml:id="d79" n="79"
                     frus:doc-dateTime-min="1962-11-20T00:00:00Z"
-                    frus:doc-dateTime-max="1962-11-20T23:59:59Z">
+                    frus:doc-dateTime-max="1962-11-20T23:59:59Z" subtype="historical-document">
                     <head>79. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d79fn0" type="source"
@@ -11017,7 +11017,7 @@
                 <pb n="223" xml:id="pg_223" facs="0245"/>
                 <div type="document" xml:id="d81" n="81"
                     frus:doc-dateTime-min="1962-11-21T00:00:00Z"
-                    frus:doc-dateTime-max="1962-11-21T23:59:59Z">
+                    frus:doc-dateTime-max="1962-11-21T23:59:59Z" subtype="historical-document">
                     <head>81. Message From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d81fn0" type="source">Source:
@@ -11054,7 +11054,7 @@
                 <pb n="224" xml:id="pg_224" facs="0246"/>
                 <div type="document" xml:id="d82" n="82"
                     frus:doc-dateTime-min="1962-11-22T00:00:00Z"
-                    frus:doc-dateTime-max="1962-11-22T23:59:59Z">
+                    frus:doc-dateTime-max="1962-11-22T23:59:59Z" subtype="historical-document">
                     <head>82. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d82fn0" type="source"
@@ -11166,7 +11166,7 @@
                 </div>
                 <div type="document" xml:id="d83" n="83"
                     frus:doc-dateTime-min="1962-12-11T00:00:00Z"
-                    frus:doc-dateTime-max="1962-12-11T23:59:59Z">
+                    frus:doc-dateTime-max="1962-12-11T23:59:59Z" subtype="historical-document">
                     <head>83. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d83fn0" type="source"
@@ -11367,7 +11367,7 @@
                 <pb n="231" xml:id="pg_231" facs="0253"/>
                 <div type="document" xml:id="d84" n="84"
                     frus:doc-dateTime-min="1962-12-14T00:00:00Z"
-                    frus:doc-dateTime-max="1962-12-14T23:59:59Z">
+                    frus:doc-dateTime-max="1962-12-14T23:59:59Z" subtype="historical-document">
                     <head>84. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d84fn0" type="source">Source:
@@ -11493,7 +11493,7 @@
                 <pb n="234" xml:id="pg_234" facs="0256"/>
                 <div type="document" xml:id="d85" n="85"
                     frus:doc-dateTime-min="1962-12-19T00:00:00Z"
-                    frus:doc-dateTime-max="1962-12-19T23:59:59Z">
+                    frus:doc-dateTime-max="1962-12-19T23:59:59Z" subtype="historical-document">
                     <head>85. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d85fn0" type="source"
@@ -11640,7 +11640,7 @@
                 </div>
                 <div type="document" xml:id="d86" n="86"
                     frus:doc-dateTime-min="1962-12-22T00:00:00Z"
-                    frus:doc-dateTime-max="1962-12-22T23:59:59Z">
+                    frus:doc-dateTime-max="1962-12-22T23:59:59Z" subtype="historical-document">
                     <head>86. Memorandum for the Files <note n="0" xml:id="d86fn0" type="source"
                             >Source: Department of State, Presidential Correspondence: Lot 77 D 163.
                             Secret. Prepared by <persName corresp="#p_TLET1"
@@ -11675,7 +11675,7 @@
                 <pb n="238" xml:id="pg_238" facs="0260"/>
                 <div type="document" xml:id="d87" n="87"
                     frus:doc-dateTime-min="1962-12-28T00:00:00Z"
-                    frus:doc-dateTime-max="1962-12-28T23:59:59Z">
+                    frus:doc-dateTime-max="1962-12-28T23:59:59Z" subtype="historical-document">
                     <head>87. Message From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d87fn0" type="source">Source:
@@ -11800,7 +11800,7 @@
                 <pb n="241" xml:id="pg_241" facs="0263"/>
                 <div type="document" xml:id="d88" n="88"
                     frus:doc-dateTime-min="1962-12-29T00:00:00Z"
-                    frus:doc-dateTime-max="1962-12-29T23:59:59Z">
+                    frus:doc-dateTime-max="1962-12-29T23:59:59Z" subtype="historical-document">
                     <head>88. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d88fn0" type="source"
@@ -11865,7 +11865,7 @@
                 </div>
                 <div type="document" xml:id="d89" n="89"
                     frus:doc-dateTime-min="1962-12-30T00:00:00Z"
-                    frus:doc-dateTime-max="1962-12-30T23:59:59Z">
+                    frus:doc-dateTime-max="1962-12-30T23:59:59Z" subtype="historical-document">
                     <head>89. Message From Chairmen <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> and <persName corresp="#p_BLI1"
                             >Brezhnev</persName> to President <persName corresp="#p_KJF2" type="to"
@@ -11907,7 +11907,7 @@
                 </div>
                 <div type="document" xml:id="d90" n="90"
                     frus:doc-dateTime-min="1962-12-30T22:46:00Z"
-                    frus:doc-dateTime-max="1962-12-30T22:46:00Z">
+                    frus:doc-dateTime-max="1962-12-30T22:46:00Z" subtype="historical-document">
                     <head>90. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d90fn0" type="source">Source: Department of State, Presidential
@@ -11935,7 +11935,7 @@
                 <pb n="244" xml:id="pg_244" facs="0266"/>
                 <div type="document" xml:id="d91" n="91"
                     frus:doc-dateTime-min="1963-01-04T00:00:00Z"
-                    frus:doc-dateTime-max="1963-01-04T23:59:59Z">
+                    frus:doc-dateTime-max="1963-01-04T23:59:59Z" subtype="historical-document">
                     <head>91. Oral Statement by Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d91fn0" type="source"
@@ -12066,7 +12066,7 @@
                 <pb n="247" xml:id="pg_247" facs="0269"/>
                 <div type="document" xml:id="d92" n="92"
                     frus:doc-dateTime-min="1963-01-07T00:00:00Z"
-                    frus:doc-dateTime-max="1963-01-07T23:59:59Z">
+                    frus:doc-dateTime-max="1963-01-07T23:59:59Z" subtype="historical-document">
                     <head>92. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d92fn0" type="source"
@@ -12207,7 +12207,7 @@
                 <pb n="250" xml:id="pg_250" facs="0272"/>
                 <div type="document" xml:id="d93" n="93"
                     frus:doc-dateTime-min="1963-04-01T00:00:00Z"
-                    frus:doc-dateTime-max="1963-04-01T23:59:59Z">
+                    frus:doc-dateTime-max="1963-04-01T23:59:59Z" subtype="historical-document">
                     <head>93. Message From the <gloss type="from">Soviet Ministry of Foreign
                             Affairs</gloss> to the Soviet Ambassador to the United States (<persName
                             corresp="#p_DAF1" type="to">Dobrynin</persName>)<note n="0"
@@ -12896,7 +12896,7 @@
                 </div>
                 <div type="document" xml:id="d94" n="94"
                     frus:doc-dateTime-min="1963-04-03T00:00:00Z"
-                    frus:doc-dateTime-max="1963-04-03T23:59:59Z">
+                    frus:doc-dateTime-max="1963-04-03T23:59:59Z" subtype="historical-document">
                     <head>94. Memorandum From Attorney General <persName corresp="#p_KJF2"
                             type="from">Kennedy</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d94fn0" type="source"
@@ -13043,7 +13043,7 @@
                 </div>
                 <div type="document" xml:id="d95" n="95"
                     frus:doc-dateTime-min="1963-04-11T00:00:00Z"
-                    frus:doc-dateTime-max="1963-04-11T23:59:59Z">
+                    frus:doc-dateTime-max="1963-04-11T23:59:59Z" subtype="historical-document">
                     <head>95. Message From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d95fn0" type="source">Source:
@@ -13160,7 +13160,7 @@
                 </div>
                 <div type="document" xml:id="d96" n="96"
                     frus:doc-dateTime-min="1963-04-15T21:00:00Z"
-                    frus:doc-dateTime-max="1963-04-15T21:00:00Z">
+                    frus:doc-dateTime-max="1963-04-15T21:00:00Z" subtype="historical-document">
                     <head>96. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d96fn0" type="source">Source: Department of State, Presidential
@@ -13297,7 +13297,7 @@
                 <pb n="271" xml:id="pg_271" facs="0293"/>
                 <div type="document" xml:id="d97" n="97"
                     frus:doc-dateTime-min="1963-04-23T15:24:00Z"
-                    frus:doc-dateTime-max="1963-04-23T15:24:00Z">
+                    frus:doc-dateTime-max="1963-04-23T15:24:00Z" subtype="historical-document">
                     <head>97. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d97fn0" type="source">Source: Department of State, Presidential
@@ -13335,7 +13335,7 @@
                     <closer><signed><persName corresp="#p_RD3"><hi rend="strong"
                                 >Rusk</hi></persName></signed></closer>
                 </div>
-                <div type="document" xml:id="d98" n="98">
+                <div type="document" xml:id="d98" n="98" subtype="historical-document">
                     <head>98. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d98fn0" type="source"
@@ -13678,7 +13678,7 @@
                 </div>
                 <div type="document" xml:id="d99" n="99"
                     frus:doc-dateTime-min="1963-05-08T00:00:00Z"
-                    frus:doc-dateTime-max="1963-05-08T23:59:59Z">
+                    frus:doc-dateTime-max="1963-05-08T23:59:59Z" subtype="historical-document">
                     <head>99. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d99fn0" type="source"
@@ -13999,7 +13999,7 @@
                 </div>
                 <div type="document" xml:id="d100" n="100"
                     frus:doc-dateTime-min="1963-05-13T00:00:00Z"
-                    frus:doc-dateTime-max="1963-05-13T23:59:59Z">
+                    frus:doc-dateTime-max="1963-05-13T23:59:59Z" subtype="historical-document">
                     <head>100. Message From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d100fn0" type="source">Source:
@@ -14039,7 +14039,7 @@
                 </div>
                 <div type="document" xml:id="d101" n="101"
                     frus:doc-dateTime-min="1963-05-15T00:00:00Z"
-                    frus:doc-dateTime-max="1963-05-15T23:59:59Z">
+                    frus:doc-dateTime-max="1963-05-15T23:59:59Z" subtype="historical-document">
                     <head>101. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d101fn0" type="source"
@@ -14076,7 +14076,7 @@
                 <pb n="288" xml:id="pg_288" facs="0310"/>
                 <div type="document" xml:id="d102" n="102"
                     frus:doc-dateTime-min="1963-05-17T00:00:00Z"
-                    frus:doc-dateTime-max="1963-05-17T23:59:59Z">
+                    frus:doc-dateTime-max="1963-05-17T23:59:59Z" subtype="historical-document">
                     <head>102. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d102fn0" type="source"
@@ -14100,7 +14100,7 @@
                 </div>
                 <div type="document" xml:id="d103" n="103"
                     frus:doc-dateTime-min="1963-05-19T11:15:00Z"
-                    frus:doc-dateTime-max="1963-05-19T11:15:00Z">
+                    frus:doc-dateTime-max="1963-05-19T11:15:00Z" subtype="historical-document">
                     <head>103. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d103fn0" type="source">Source: Department of State, Presidential
@@ -14145,7 +14145,7 @@
                 </div>
                 <div type="document" xml:id="d104" n="104"
                     frus:doc-dateTime-min="1963-05-29T00:00:00Z"
-                    frus:doc-dateTime-max="1963-05-29T23:59:59Z">
+                    frus:doc-dateTime-max="1963-05-29T23:59:59Z" subtype="historical-document">
                     <head>104. Message From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d104fn0" type="source">Source:
@@ -14168,7 +14168,7 @@
                 <pb n="290" xml:id="pg_290" facs="0312"/>
                 <div type="document" xml:id="d105" n="105"
                     frus:doc-dateTime-min="1963-05-30T17:56:00Z"
-                    frus:doc-dateTime-max="1963-05-30T17:56:00Z">
+                    frus:doc-dateTime-max="1963-05-30T17:56:00Z" subtype="historical-document">
                     <head>105. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d105fn0" type="source">Source: Department of State, Presidential
@@ -14296,7 +14296,7 @@
                 </div>
                 <div type="document" xml:id="d106" n="106"
                     frus:doc-dateTime-min="1963-06-08T00:00:00Z"
-                    frus:doc-dateTime-max="1963-06-08T23:59:59Z">
+                    frus:doc-dateTime-max="1963-06-08T23:59:59Z" subtype="historical-document">
                     <head>106. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d106fn0" type="source"
@@ -14505,7 +14505,7 @@
                 <pb n="297" xml:id="pg_297" facs="0319"/>
                 <div type="document" xml:id="d107" n="107"
                     frus:doc-dateTime-min="1963-06-19T23:14:00Z"
-                    frus:doc-dateTime-max="1963-06-19T23:14:00Z">
+                    frus:doc-dateTime-max="1963-06-19T23:14:00Z" subtype="historical-document">
                     <head>107. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d107fn0" type="source">Source: Department of State, Presidential
@@ -14534,7 +14534,7 @@
                 </div>
                 <div type="document" xml:id="d108" n="108"
                     frus:doc-dateTime-min="1963-07-04T00:00:00Z"
-                    frus:doc-dateTime-max="1963-07-04T23:59:59Z">
+                    frus:doc-dateTime-max="1963-07-04T23:59:59Z" subtype="historical-document">
                     <head>108. Message From Chairmen <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> and <persName corresp="#p_BLI1"
                             >Brezhnev</persName> to President <persName corresp="#p_KJF2" type="to"
@@ -14573,7 +14573,7 @@
                 </div>
                 <div type="document" xml:id="d109" n="109"
                     frus:doc-dateTime-min="1963-07-04T18:29:00Z"
-                    frus:doc-dateTime-max="1963-07-04T18:29:00Z">
+                    frus:doc-dateTime-max="1963-07-04T18:29:00Z" subtype="historical-document">
                     <head>109. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the Soviet Union</gloss><note n="0"
                             xml:id="d109fn0" type="source">Source: Department of State, Presidential
@@ -14609,7 +14609,7 @@
                 <pb n="299" xml:id="pg_299" facs="0321"/>
                 <div type="document" xml:id="d110" n="110"
                     frus:doc-dateTime-min="1963-07-08T00:00:00Z"
-                    frus:doc-dateTime-max="1963-07-08T23:59:59Z">
+                    frus:doc-dateTime-max="1963-07-08T23:59:59Z" subtype="historical-document">
                     <head>110. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d110fn0" type="source"
@@ -14636,7 +14636,7 @@
                 </div>
                 <div type="document" xml:id="d111" n="111"
                     frus:doc-dateTime-min="1963-07-12T20:11:00Z"
-                    frus:doc-dateTime-max="1963-07-12T20:11:00Z">
+                    frus:doc-dateTime-max="1963-07-12T20:11:00Z" subtype="historical-document">
                     <head>111. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in the United Kingdom</gloss><note n="0"
                             xml:id="d111fn0" type="source">Source: Department of State, Presidential
@@ -14704,7 +14704,7 @@
                 <pb n="301" xml:id="pg_301" facs="0323"/>
                 <div type="document" xml:id="d112" n="112"
                     frus:doc-dateTime-min="1963-07-27T01:00:00Z"
-                    frus:doc-dateTime-max="1963-07-27T01:00:00Z">
+                    frus:doc-dateTime-max="1963-07-27T01:00:00Z" subtype="historical-document">
                     <head>112. Telegram From the <gloss type="from">Embassy in the Soviet
                             Union</gloss> to the <gloss type="to">Department of State</gloss><note
                             n="0" xml:id="d112fn0" type="source">Source: Department of State,
@@ -14814,7 +14814,7 @@
                 <pb n="303" xml:id="pg_303" facs="0325"/>
                 <div type="document" xml:id="d113" n="113"
                     frus:doc-dateTime-min="1963-08-10T14:00:00Z"
-                    frus:doc-dateTime-max="1963-08-10T14:00:00Z">
+                    frus:doc-dateTime-max="1963-08-10T14:00:00Z" subtype="historical-document">
                     <head>113. Telegram From Secretary of State <persName corresp="#p_RD3"
                             type="from">Rusk</persName> to the <gloss type="to">Department of
                             State</gloss><note n="0" xml:id="d113fn0" type="source">Source:
@@ -14833,7 +14833,7 @@
                 </div>
                 <div type="document" xml:id="d114" n="114"
                     frus:doc-dateTime-min="1963-08-16T00:00:00Z"
-                    frus:doc-dateTime-max="1963-08-16T23:59:59Z">
+                    frus:doc-dateTime-max="1963-08-16T23:59:59Z" subtype="historical-document">
                     <head>114. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d114fn0" type="source">Source:
@@ -14853,7 +14853,7 @@
                 <pb n="304" xml:id="pg_304" facs="0326"/>
                 <div type="document" xml:id="d115" n="115"
                     frus:doc-dateTime-min="1963-08-17T00:00:00Z"
-                    frus:doc-dateTime-max="1963-08-17T23:59:59Z">
+                    frus:doc-dateTime-max="1963-08-17T23:59:59Z" subtype="historical-document">
                     <head>115. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d115fn0" type="source"
@@ -14945,7 +14945,7 @@
                 <pb n="306" xml:id="pg_306" facs="0328"/>
                 <div type="document" xml:id="d116" n="116"
                     frus:doc-dateTime-min="1963-09-10T00:00:00Z"
-                    frus:doc-dateTime-max="1963-09-10T23:59:59Z">
+                    frus:doc-dateTime-max="1963-09-10T23:59:59Z" subtype="historical-document">
                     <head>116. Memorandum of Conversation <note n="0" xml:id="d116fn0" type="source"
                             >Source: Department of State, Presidential Correspondence: Lot 77 D 163.
                             Top Secret. Drafted by <persName corresp="#p_TLET1">Thompson</persName>.
@@ -15011,7 +15011,7 @@
                             Khrushchev</persName>, this assessment of the effect of the activation
                         lately of provocative actions against Cuba.</p>
                 </div>
-                <div type="document" xml:id="d117" n="117">
+                <div type="document" xml:id="d117" n="117" subtype="historical-document">
                     <head>117. Oral Statement From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d117fn0" type="source">Source:
@@ -15111,7 +15111,7 @@
                 </div>
                 <div type="document" xml:id="d118" n="118"
                     frus:doc-dateTime-min="1963-10-10T18:00:00Z"
-                    frus:doc-dateTime-max="1963-10-10T18:00:00Z">
+                    frus:doc-dateTime-max="1963-10-10T18:00:00Z" subtype="historical-document">
                     <head>118. Telegram From the <gloss type="from">Embassy in the Soviet
                             Union</gloss> to the <gloss type="to">Department of State</gloss><note
                             n="0" xml:id="d118fn0" type="source">Source: Department of State,
@@ -15198,7 +15198,7 @@
                 </div>
                 <div type="document" xml:id="d119" n="119"
                     frus:doc-dateTime-min="1963-11-24T00:00:00Z"
-                    frus:doc-dateTime-max="1963-11-24T23:59:59Z">
+                    frus:doc-dateTime-max="1963-11-24T23:59:59Z" subtype="historical-document">
                     <head>119. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_JLB1"
                             type="to">Johnson</persName><note n="0" xml:id="d119fn0" type="source"
@@ -15303,7 +15303,7 @@
                 </div>
                 <div type="document" xml:id="d120" n="120"
                     frus:doc-dateTime-min="1963-12-01T00:00:00Z"
-                    frus:doc-dateTime-max="1963-12-01T23:59:59Z">
+                    frus:doc-dateTime-max="1963-12-01T23:59:59Z" subtype="historical-document">
                     <head>120. Letter From <persName type="from">Jacqueline Kennedy</persName> to
                         Chairman <persName corresp="#p_KNS2" type="to">Khrushchev</persName><note
                             n="0" xml:id="d120fn0" type="source">Source:
