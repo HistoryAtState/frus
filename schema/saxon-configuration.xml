@@ -1,4 +1,5 @@
 <configuration xmlns="http://saxon.sf.net/ns/configuration">
     <global xInclude="false"/>
     <serialization method="xml" indent="no"/>
+    <xquery version="3.1"/>
 </configuration>
