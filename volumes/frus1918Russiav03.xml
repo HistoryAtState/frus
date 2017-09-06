@@ -6058,7 +6058,9 @@
                             </closer>
                         </div>
                         <pb n="20" xml:id="pg_20" facs="0070"/>
-                        <div type="document" xml:id="d28" n="28">
+                        <div type="document" xml:id="d28" n="28"
+                            frus:doc-dateTime-min="1917-08-03T00:00:00Z"
+                            frus:doc-dateTime-max="1917-08-03T23:59:59Z">
                             <note rend="inline" type="source">File No. 861.51/182</note>
                             <head><hi rend="italic">The British Ambassador</hi> (<persName
                                     type="from" corresp="#p_RE1"><hi rend="italic"
@@ -6115,8 +6117,13 @@
                             <p>The above figures clearly show the narrow limits within which
                                 shipment is possible although of course orders might be placed to an
                                 unlimited extent.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">August 3,
-                                    1917.</hi></p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1917-08-03"><hi rend="italic">August
+                                            3, 1917</hi></date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d29" n="29"
                             frus:doc-dateTime-min="1917-08-21T19:00:00Z"
@@ -9457,7 +9464,9 @@
                                         >Morris</hi></persName></signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d85" n="85">
+                        <div type="document" xml:id="d85" n="85"
+                            frus:doc-dateTime-min="1918-09-05T00:00:00Z"
+                            frus:doc-dateTime-max="1918-09-05T23:59:59Z">
                             <note rend="inline" type="source">File No. 861.00/2641</note>
                             <head><hi rend="italic">The British Chargé</hi> (<persName type="from"
                                     corresp="#p_BCR1"><hi rend="italic">Barclay</hi></persName>) <hi
@@ -9494,9 +9503,14 @@
                                 the financial requirements are urgent, particularly at Murmansk. His
                                 Majesty’s Government will keep the United States representative at
                                 Archangel informed.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">September 5,
-                                    1918</hi>.<lb/> [<hi rend="italic">Received September
-                                6.</hi>]</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1918-09-05"><hi rend="italic"
+                                            >September 5, 1918</hi></date>.<lb/> [<hi rend="italic"
+                                        >Received September 6.</hi>]</dateline>
+                            </closer>
                         </div>
                         <pb n="67" xml:id="pg_67" facs="0117"/>
                         <div type="document" xml:id="d86" n="86"
@@ -9704,7 +9718,9 @@
                                         >Lansing</hi></persName></signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d90" n="90">
+                        <div type="document" xml:id="d90" n="90"
+                            frus:doc-dateTime-min="1918-09-24T00:00:00Z"
+                            frus:doc-dateTime-max="1918-09-24T23:59:59Z">
                             <note rend="inline" type="source">File No. 861.00/3948</note>
                             <head><hi rend="italic">The British Chargé</hi> (<persName type="from"
                                     corresp="#p_BCR1"><hi rend="italic">Barclay</hi></persName>) <hi
@@ -9758,8 +9774,13 @@
                                 Siberian theatre of operations from Great Britain appears to make it
                                 undesirable that the British Government should themselves accept
                                 direct responsibility for currency required there.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">September 24,
-                                    1918.</hi></p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1918-09-24"><hi rend="italic"
+                                            >September 24, 1918</hi></date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d91" n="91"
                             frus:doc-dateTime-min="1918-09-24T19:00:00Z"
@@ -9910,7 +9931,9 @@
                             taken without consultation of the Omsk government—Shipment to
                             Vladivostok of notes printed in the United States for the Provisional
                             Government detained by the American Government</head>
-                        <div type="document" xml:id="d94" n="94">
+                        <div type="document" xml:id="d94" n="94"
+                            frus:doc-dateTime-min="1918-10-05T00:00:00Z"
+                            frus:doc-dateTime-max="1918-10-05T23:59:59Z">
                             <note rend="inline" type="source">File No. 861.51/392a</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the British Chargé</hi> (<persName
@@ -10013,8 +10036,13 @@
                                 arrangements for Siberia this procedure will be acceptable to the
                                 British Government. This matter will be discussed in a subsequent
                                 memorandum.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">October 5,
-                                    1918.</hi></p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1918-10-05"><hi rend="italic">October
+                                            5, 1918</hi></date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d95" n="95"
                             frus:doc-dateTime-min="1918-10-07T00:00:00Z"
@@ -10045,7 +10073,9 @@
                                         Long</hi></persName></signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d96" n="96">
+                        <div type="document" xml:id="d96" n="96"
+                            frus:doc-dateTime-min="1918-10-16T00:00:00Z"
+                            frus:doc-dateTime-max="1918-10-16T23:59:59Z">
                             <note rend="inline" type="source">File No. 861.51/392</note>
                             <head><hi rend="italic">The British Chargé</hi> (<persName type="from"
                                     corresp="#p_BCR1"><hi rend="italic">Barclay</hi></persName>) <hi
@@ -10148,11 +10178,18 @@
                                         an announcement on the lines indicated above.</p>
                                 </quote>
                             </p>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">October 16,
-                                    1918.</hi></p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1918-10-16"><hi rend="italic">October
+                                            16, 1918</hi></date>.</dateline>
+                            </closer>
                         </div>
                         <pb n="77" xml:id="pg_77" facs="0127"/>
-                        <div type="document" xml:id="d97" n="97">
+                        <div type="document" xml:id="d97" n="97"
+                            frus:doc-dateTime-min="1918-10-21T00:00:00Z"
+                            frus:doc-dateTime-max="1918-10-21T23:59:59Z">
                             <note rend="inline" type="source">File No. 861.51/392</note>
                             <head><hi rend="italic">The <gloss type="from">Department of
                                         State</gloss> to the <gloss type="to">British
@@ -10216,8 +10253,13 @@
                                 action of the United States in participating in aid for Russia has
                                 been determined only by considerations of the measure of assistance
                                 it has been in a position to offer.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">October 21,
-                                    1918.</hi></p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1918-10-21"><hi rend="italic">October
+                                            21, 1918</hi></date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d98" n="98"
                             frus:doc-dateTime-min="1918-10-23T20:00:00Z"
@@ -10706,7 +10748,9 @@
                             </closer>
                         </div>
                         <pb n="86" xml:id="pg_86" facs="0136"/>
-                        <div type="document" xml:id="d107" n="107">
+                        <div type="document" xml:id="d107" n="107"
+                            frus:doc-dateTime-min="1918-11-01T00:00:00Z"
+                            frus:doc-dateTime-max="1918-11-01T23:59:59Z">
                             <note rend="inline" type="source">File No. 861.51/387</note>
                             <head><hi rend="italic">The British Chargé</hi> (<persName type="from"
                                     corresp="#p_BCR1"><hi rend="italic">Barclay</hi></persName>) <hi
@@ -10772,9 +10816,14 @@
                                 Russia, but merely that practical situations may from time to time
                                 throw upon one of the Associated Governments a greater measure of
                                 assistance than may fall on another.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">November 1,
-                                    1918</hi>.<lb/> [<hi rend="italic">Received November
-                                2</hi>.]</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1918-11-01"><hi rend="italic">November
+                                            1, 1918</hi></date>.<lb/> [<hi rend="italic">Received
+                                        November 2</hi>.]</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d108" n="108"
                             frus:doc-dateTime-min="1918-11-02T15:00:00Z"
@@ -14299,7 +14348,9 @@
                             Co.—Arrangements with the Allies for provisioning the northern
                             region—Consent of the United States to British control of neutral trade
                             with northern Russia</head>
-                        <div type="document" xml:id="d186" n="186">
+                        <div type="document" xml:id="d186" n="186"
+                            frus:doc-dateTime-min="1918-07-17T00:00:00Z"
+                            frus:doc-dateTime-max="1918-07-17T23:59:59Z">
                             <note rend="inline" type="source">File No. 861.00/3054b</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the <gloss type="to">Allied
@@ -14321,8 +14372,13 @@
                                 may open. The execution of this plan will follow and will not be
                                 permitted to embarrass the military assistance rendered in the rear
                                 of the westward-moving forces of the Czecho-Slovaks.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">July 17,
-                                    1918.</hi></p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1918-07-17"><hi rend="italic">July 17,
+                                            1918</hi></date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d187" n="187"
                             frus:doc-dateTime-min="1918-07-26T00:00:00Z"
@@ -14500,7 +14556,9 @@
                                 Russian Government.</p>
                         </div>
                         <pb n="137" xml:id="pg_137" facs="0187"/>
-                        <div type="document" xml:id="d189" n="189">
+                        <div type="document" xml:id="d189" n="189"
+                            frus:doc-dateTime-min="1918-07-31T00:00:00Z"
+                            frus:doc-dateTime-max="1918-07-31T23:59:59Z">
                             <note rend="inline" type="source">File No. 861.801/32</note>
                             <head><hi rend="italic">The British Ambassador</hi> (<persName
                                     type="from" corresp="#p_RE1"><hi rend="italic"
@@ -14549,8 +14607,13 @@
                                 policy should be announced at an early date. The British Ambassador
                                 would, therefore, be grateful if he could be favoured with a reply
                                 to this memorandum as soon as possible.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">July 31,
-                                    1918</hi>.<lb/> [<hi rend="italic">Received August 1.</hi>]</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1918-07-31"><hi rend="italic">July 31,
+                                            1918</hi></date>.</dateline>
+                            </closer>
                         </div>
                         <pb n="138" xml:id="pg_138" facs="0188"/>
                         <div type="document" xml:id="d190" n="190"
@@ -14818,7 +14881,9 @@
                                         >Cole</hi></persName></signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d196" n="196">
+                        <div type="document" xml:id="d196" n="196"
+                            frus:doc-dateTime-min="1918-09-03T00:00:00Z"
+                            frus:doc-dateTime-max="1918-09-03T23:59:59Z">
                             <note rend="inline" type="source">File No. 861.00/2619½</note>
                             <head><hi rend="italic">The British Chargé</hi> (<persName type="from"
                                         ><hi rend="italic">Hohler</hi></persName>) <hi rend="italic"
@@ -14863,9 +14928,14 @@
                                 His Majesty’s Government by the organization who will be remunerated
                                 for its services by a commission of one half per cent on the
                                 turnover, and by the reimbursement of out-of-pocket expenses.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">September 3,
-                                    1918</hi>.<lb/> [<hi rend="italic">Received September
-                                5.</hi>]</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1918-09-03"><hi rend="italic"
+                                            >September 3, 1918</hi></date>.<lb/> [<hi rend="italic"
+                                        >Received September 5.</hi>]</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d197" n="197"
                             frus:doc-dateTime-min="1918-09-04T21:00:00Z"
@@ -15129,7 +15199,9 @@
                                             >Francis</hi></persName></signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d204" n="204">
+                        <div type="document" xml:id="d204" n="204"
+                            frus:doc-dateTime-min="1918-09-27T00:00:00Z"
+                            frus:doc-dateTime-max="1918-09-27T23:59:59Z">
                             <note rend="inline" type="source">File No. 861.801/32</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the British Ambassador</hi> (<persName
@@ -15159,8 +15231,13 @@
                                     n="146" xml:id="pg_146" facs="0196"/>aforementioned which
                                 prescribes the conditions under which permits to shipping might be
                                 issued.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">September 27,
-                                    1918.</hi></p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1918-09-27"><hi rend="italic"
+                                            >September 27, 1918</hi></date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d205" n="205"
                             frus:doc-dateTime-min="1918-09-27T14:00:00Z"
@@ -15257,7 +15334,9 @@
                             Bureau, Inc., November 5, 1918—Refusal of sanction for relief in
                             cooperation with Soviet authorities—Accomplishments of the “Goods
                             Exchange” (<hi rend="italic">Tovaro-Obmien</hi>)</head>
-                        <div type="document" xml:id="d208" n="208">
+                        <div type="document" xml:id="d208" n="208"
+                            frus:doc-dateTime-min="1918-10-10T00:00:00Z"
+                            frus:doc-dateTime-max="1918-10-10T23:59:59Z">
                             <note rend="inline" type="source">File No. 861.00/3054c</note>
                             <head><hi rend="italic">The <gloss type="from">Acting Secretary of
                                         State</gloss> to the <gloss type="to">Diplomatic
@@ -15420,8 +15499,13 @@
                                 consideration, decided upon for itself will allow it effectively to
                                 carry out its repeatedly avowed policy of serving the Russian
                                 people.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">October 10,
-                                    1918.</hi></p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1918-10-10"><hi rend="italic">October
+                                            10, 1918</hi></date>.</dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d209" n="209"
                             frus:doc-dateTime-min="1918-10-10T16:00:00Z"
