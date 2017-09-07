@@ -10,8 +10,18 @@ declare function local:transform($nodes) {
     return
         typeswitch ($node) 
             case element(tei:div) return
-                if ($node/@type='document' and not($node/@subtype) and matches($node/tei:head, 'Editorial\s+Note|Editor[''’]s\s+Note', 'i')) then
-                    element { $node/node-name() } { $node/@*, attribute subtype { "editorial-note" }, local:transform($node/node()) }
+                if ($node/@type='document' and not($node/@subtype)) then
+                    element { $node/node-name() } 
+                        { 
+                            $node/@*, 
+                            attribute subtype {
+                                if (matches($node/tei:head, 'Editorial\s+Note|Editor[''’]s\s+Note', 'i')) then
+                                    "editorial-note"
+                                else
+                                    "historical-document"
+                            },
+                            local:transform($node/node()) 
+                        }
                 else
                     element { $node/node-name() } { $node/@*, local:transform($node/node()) }
             case element() return
