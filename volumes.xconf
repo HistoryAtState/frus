@@ -17,6 +17,7 @@
             </create>
             <create match="//tei:div">
                 <field name="div-type" match="@type" type="xs:string"/>
+                <field name="div-subtype" match="@subtype" type="xs:string"/>
                 <field name="div-id" match="@xml:id" type="xs:string"/>
                 <field name="div-date-min" match="@frus:doc-dateTime-min" type="xs:dateTime"/>
                 <field name="div-date-max" match="@frus:doc-dateTime-max" type="xs:dateTime"/>
