@@ -19496,7 +19496,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d128" n="128" subtype="historical-document">
+                        <div type="document" xml:id="d128" n="128" subtype="historical-document"
+                            frus:doc-dateTime-min="1917-12-04T14:00:00Z"
+                            frus:doc-dateTime-max="1917-12-05T15:40:00Z">
                             <note rend="inline" type="source">File No. 763.72/7967</note>
                             <head>
                                 <hi rend="italic">The Special Representative</hi> (<persName
@@ -19511,9 +19513,13 @@
                             <opener>
                                 <dateline rendition="#right">
                                     <placeName>
-                                        <hi rend="smallcaps">Paris</hi></placeName>, <hi
-                                        rend="italic">undated</hi>.<lb/> [<hi rend="italic">Received
-                                        December 5, 1917, 10.40 a.m.</hi>]</dateline>
+                                        <hi rend="smallcaps">Paris</hi></placeName>, <date
+                                        notBefore="1917-12-04T14:00:00+00:00"
+                                        notAfter="1917-12-05T10:40:00-05:00"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                            ><hi rend="italic">undated</hi></date>.<lb/> [<hi
+                                        rend="italic">Received December 5, 1917, 10.40
+                                    a.m.</hi>]</dateline>
                             </opener>
                             <p>The following resolutions of the Inter-Allied Conference will appear
                                 in the French press on Wednesday morning: <quote rend="blockquote">
@@ -20919,8 +20925,8 @@
                         </div>
                         <pb n="1016" xml:id="pg_1016" facs="0262"/>
                         <div type="document" xml:id="d141" n="141" subtype="historical-document"
-                            frus:doc-dateTime-min="1917-05-07T00:00:00Z"
-                            frus:doc-dateTime-max="1917-05-07T23:59:59Z">
+                            frus:doc-dateTime-min="1917-04-23T00:00:00Z"
+                            frus:doc-dateTime-max="1917-04-23T23:59:59Z">
                             <note rend="inline" type="source">File No. 600.119/70</note>
                             <head>
                                 <hi rend="italic">The Norwegian Minister</hi> (<persName
@@ -20982,9 +20988,9 @@
                             <closer>
                                 <dateline>
                                     <placeName>
-                                        <hi rend="smallcaps"/>
-                                    </placeName>, <date when="1917-05-07"><hi rend="italic">May 7,
-                                            1917</hi></date>.</dateline>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1917-04-23"><hi rend="italic">April
+                                            23, 1917</hi></date>.</dateline>
                             </closer>
                             <postscript>
                                 <p>[For a description of the general position of Denmark, Norway,
@@ -31629,7 +31635,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d271" n="271" subtype="historical-document">
+                    <div type="document" xml:id="d271" n="271" subtype="historical-document"
+                        frus:doc-dateTime-min="1917-12-08T01:00:00Z"
+                        frus:doc-dateTime-max="1917-12-10T09:20:00Z">
                         <note rend="inline" type="source">File No. 656.119/94</note>
                         <head>
                             <hi rend="italic">The Minister in the Netherlands</hi> (<persName
@@ -31644,9 +31652,13 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>
-                                    <hi rend="smallcaps">The Hague</hi></placeName>, <hi
-                                    rend="italic">undated</hi>.<lb/> [<hi rend="italic">Received
-                                    December 10, 1917, 4.20 a.m.</hi>]</dateline>
+                                    <hi rend="smallcaps">The Hague</hi></placeName>, <date
+                                    notBefore="1917-12-07T20:00:00-05:00"
+                                    notAfter="1917-12-10T04:20:00-05:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        ><hi rend="italic">undated</hi></date>.<lb/> [<hi
+                                    rend="italic">Received December 10, 1917, 4.20
+                                a.m.</hi>]</dateline>
                         </opener>
                         <p>1742. There is evidently a desire in London that the permanent stoppage
                             of transit from Germany to Belgium through Holland of all sand and
