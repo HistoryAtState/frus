@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1930v01">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1930v01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -60,6 +60,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-07-08 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -12054,7 +12057,9 @@
                             The form is satisfactory and the spirit of the occasion excellent.</p>
                         <closer><signed><hi rend="smallcaps">Stimson</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d106" n="106" subtype="historical-document">
+                    <div type="document" xml:id="d106" n="106" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-04-22T00:00:00Z"
+                        frus:doc-dateTime-max="1930-04-22T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 830</note>
                         <head><hi rend="italic">Treaty for the Limitation and Reduction of Naval
                                 Armament, Signed at London, April 22, 1930</hi><note n="25"
@@ -13412,8 +13417,9 @@
                         <p>In faith whereof the above-named Plenipotentiaries have signed the
                             present Treaty and have affixed thereto their seals.</p>
                         <closer>
-                            <dateline>Done at <placeName>London</placeName>, the <date>twenty-second
-                                    day of April, nineteen hundred and thirty</date>.</dateline>
+                            <dateline>Done at <placeName>London</placeName>, <date when="1930-04-22"
+                                    >the twenty-second day of April, nineteen hundred and
+                                    thirty</date>.</dateline>
                             <lb/><signed>
                                 <list>
                                     <item><hi rend="smallcaps">Henry L. Stimson</hi>.</item>
@@ -13630,7 +13636,9 @@
                             </quote></p>
                         <closer><signed><hi rend="smallcaps">Dawes</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d112" n="112" subtype="historical-document">
+                    <div type="document" xml:id="d112" n="112" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-10-27T00:00:00Z"
+                        frus:doc-dateTime-max="1930-10-27T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 830</note>
                         <head><hi rend="italic">Procès-Verbal of the Deposit of Ratifications in
                                 Respect of the United States of America, Great Britain and Northern
@@ -13671,11 +13679,13 @@
                         <p><hi rend="smallcaps">In witness whereof</hi> they have signed this <hi
                                 rend="italic">procès-verbal</hi>, and have affixed thereto their
                             seals.</p>
-                        <p><hi rend="smallcaps">Done</hi> at London, the 27th day of October,
-                            1930.</p>
-                        <closer>[<hi rend="smallcaps">seal</hi>] <signed><hi rend="smallcaps"
-                                    >Charles G. Dawes</hi></signed><lb/>[<hi rend="smallcaps"
-                                >seal</hi>] <signed><hi rend="smallcaps">J. Ramsay
+                        <closer>
+                            <dateline rendition="#left"><hi rend="smallcaps">Done</hi> at
+                                    <placeName>London</placeName>, <date when="1930-10-27">the 27th
+                                    day of October, 1930</date>.</dateline><lb/> [<hi
+                                rend="smallcaps">seal</hi>] <signed><hi rend="smallcaps">Charles G.
+                                    Dawes</hi></signed><lb/>[<hi rend="smallcaps">seal</hi>]
+                                    <signed><hi rend="smallcaps">J. Ramsay
                                 MacDonald</hi></signed><lb/>[<hi rend="smallcaps">seal</hi>]
                                     <signed><hi rend="smallcaps">R. B.
                                 Bennett</hi></signed><lb/>[<hi rend="smallcaps">seal</hi>]
@@ -18701,7 +18711,9 @@
                         <closer><signed><hi rend="smallcaps">Stimson</hi></signed></closer>
                     </div>
                     <pb n="224" xml:id="pg_224" facs="0304"/>
-                    <div type="document" xml:id="d215" n="215" subtype="historical-document">
+                    <div type="document" xml:id="d215" n="215" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-04-12T00:00:00Z"
+                        frus:doc-dateTime-max="1930-04-12T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 913</note>
                         <head><hi rend="italic">Protocol Relating to Military Obligations in Certain
                                 Cases of Double Nationality, Signed at The Hague, April 12,
@@ -18901,160 +18913,170 @@
                             authoritative.</p>
                         <p><hi rend="smallcaps">In faith whereof</hi> the Plenipotentiaries have
                             signed the present Protocol.</p>
-                        <p><hi rend="smallcaps">Done</hi> at The Hague on the twelfth day of April,
-                            one thousand nine hundred and thirty, in a single copy, which shall be
-                            deposited in the archives of the Secretariat of the League of Nations
-                            and of which certified true copies shall be transmitted by the
-                            Secretary-General to all the Members of the League of Nations and all
-                            the non-Member States invited to the First Conference for the
-                            Codification of International Law.</p>
-                        <list>
-                            <item><hi rend="italic">Germany</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">Göppert</hi></item>
-                                    <item><hi rend="smallcaps">Hering</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">United States of America</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">Hugh R. Wilson</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Austria</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">Leitmaier</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Belgium</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">J. de Ruelle</hi></item>
-                                    <item>Sous réserve d’adhésion ultérieure pour la Colonie du
-                                        Congo et les Territoires sous mandat.<note n="21"
-                                            xml:id="d215fn21">Translation: Subject to accession
-                                            later for the Colony of the Congo and the mandated
-                                            territories.</note></item>
-                                </list></item>
-                            <pb n="229" xml:id="pg_229" facs="0309"/>
-                            <item><hi rend="italic">Great Britain and Northern Ireland and all parts
-                                    of the British Empire which are not separate Members of the
-                                    League of Nations.</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">Maurice Gwyer</hi></item>
-                                    <item><hi rend="smallcaps">Oscar F. Dowson</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Canada</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">Philippe Roy</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Irish Free State</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">John J. Hearne</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">India</hi></item>
-                            <item>In accordance with the provisions of Article 15 of this Protocol I
-                                declare that His Britannic Majesty does not assume any obligation in
-                                respect of the territories in India of any Prince or Chief under His
-                                suzerainty or the population of the said territories. <list>
-                                    <item><hi rend="smallcaps">Basanta Kumar Mullick</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Chile</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">Miguel Cruchaga</hi></item>
-                                    <item><hi rend="smallcaps">Alejandro Alvarez</hi></item>
-                                    <item><hi rend="smallcaps">H. Marchant</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Colombia</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">A. J. Restrepo Francisco José
-                                            Urrutia</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Cuba</hi></item>
-                            <item>Ad referendum <list>
-                                    <item><hi rend="smallcaps">Diaz de Villar</hi></item>
-                                    <item><hi rend="smallcaps">Carlos de Armenteros</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Denmark</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">F. Martensen-Larsen V.
-                                        Lorck</hi>.</item>
-                                </list></item>
-                            <item><hi rend="italic">Egypt</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">A. Badaoui.</hi></item>
-                                    <item><hi rend="smallcaps">M. Sid Ahmed</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Spain</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">A. Goicoechea</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">France</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">Paul Matter</hi></item>
-                                    <item><hi rend="smallcaps">A. Kammerer</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Greece</hi></item>
-                            <item>Ad referendum <list>
-                                    <item><hi rend="smallcaps">N. Politis</hi></item>
-                                    <item><hi rend="smallcaps">Megalos Calotanni</hi></item>
-                                    <item><hi rend="smallcaps">Jean Spiropoulos</hi></item>
-                                </list></item>
-                            <pb n="230" xml:id="pg_230" facs="0310"/>
-                            <item><hi rend="italic">Luxemburg</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">Conrad Stumper</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Mexico</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">Eduardo Suarez</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">The Netherlands</hi></item>
-                            <item>Les Pays-Bas: <list>
-                                    <label>1°</label>
-                                    <item>Excluent de leur acceptation Particle 3;</item>
-                                    <label>2°</label>
-                                    <item>N’entendent assumer aucune obligation en ce qui concerne
-                                        les Indes néerlandaises, le Surinam et Curaçao.<note n="22"
-                                            xml:id="d215fn22"><p>Translation: The Netherlands: <list>
+                        <closer>
+                            <dateline rendition="#left"><hi rend="smallcaps">Done</hi> at
+                                    <placeName>The Hague</placeName> on <date when="1930-04-12">the
+                                    twelfth day of April, one thousand nine hundred and
+                                    thirty</date>, in a single copy, which shall be deposited in the
+                                archives of the Secretariat of the League of Nations and of which
+                                certified true copies shall be transmitted by the Secretary-General
+                                to all the Members of the League of Nations and all the non-Member
+                                States invited to the First Conference for the Codification of
+                                International Law.</dateline>
+                        </closer>
+                        <postscript>
+                            <list>
+                                <item><hi rend="italic">Germany</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">Göppert</hi></item>
+                                        <item><hi rend="smallcaps">Hering</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">United States of America</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">Hugh R. Wilson</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Austria</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">Leitmaier</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Belgium</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">J. de Ruelle</hi></item>
+                                        <item>Sous réserve d’adhésion ultérieure pour la Colonie du
+                                            Congo et les Territoires sous mandat.<note n="21"
+                                                xml:id="d215fn21">Translation: Subject to accession
+                                                later for the Colony of the Congo and the mandated
+                                                territories.</note></item>
+                                    </list></item>
+                                <pb n="229" xml:id="pg_229" facs="0309"/>
+                                <item><hi rend="italic">Great Britain and Northern Ireland and all
+                                        parts of the British Empire which are not separate Members
+                                        of the League of Nations.</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">Maurice Gwyer</hi></item>
+                                        <item><hi rend="smallcaps">Oscar F. Dowson</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Canada</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">Philippe Roy</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Irish Free State</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">John J. Hearne</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">India</hi></item>
+                                <item>In accordance with the provisions of Article 15 of this
+                                    Protocol I declare that His Britannic Majesty does not assume
+                                    any obligation in respect of the territories in India of any
+                                    Prince or Chief under His suzerainty or the population of the
+                                    said territories. <list>
+                                        <item><hi rend="smallcaps">Basanta Kumar Mullick</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Chile</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">Miguel Cruchaga</hi></item>
+                                        <item><hi rend="smallcaps">Alejandro Alvarez</hi></item>
+                                        <item><hi rend="smallcaps">H. Marchant</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Colombia</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">A. J. Restrepo Francisco José
+                                                Urrutia</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Cuba</hi></item>
+                                <item>Ad referendum <list>
+                                        <item><hi rend="smallcaps">Diaz de Villar</hi></item>
+                                        <item><hi rend="smallcaps">Carlos de Armenteros</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Denmark</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">F. Martensen-Larsen V.
+                                            Lorck</hi>.</item>
+                                    </list></item>
+                                <item><hi rend="italic">Egypt</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">A. Badaoui.</hi></item>
+                                        <item><hi rend="smallcaps">M. Sid Ahmed</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Spain</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">A. Goicoechea</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">France</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">Paul Matter</hi></item>
+                                        <item><hi rend="smallcaps">A. Kammerer</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Greece</hi></item>
+                                <item>Ad referendum <list>
+                                        <item><hi rend="smallcaps">N. Politis</hi></item>
+                                        <item><hi rend="smallcaps">Megalos Calotanni</hi></item>
+                                        <item><hi rend="smallcaps">Jean Spiropoulos</hi></item>
+                                    </list></item>
+                                <pb n="230" xml:id="pg_230" facs="0310"/>
+                                <item><hi rend="italic">Luxemburg</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">Conrad Stumper</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Mexico</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">Eduardo Suarez</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">The Netherlands</hi></item>
+                                <item>Les Pays-Bas: <list>
+                                        <label>1°</label>
+                                        <item>Excluent de leur acceptation Particle 3;</item>
+                                        <label>2°</label>
+                                        <item>N’entendent assumer aucune obligation en ce qui
+                                            concerne les Indes néerlandaises, le Surinam et
+                                                Curaçao.<note n="22" xml:id="d215fn22"
+                                                  ><p>Translation: The Netherlands: <list>
                                                   <label>1.</label>
                                                   <item>Exclude from acceptance Article 3;</item>
                                                   <label>2.</label>
                                                   <item>Do not intend to assume any obligation as
                                                   regards Netherlands Indies, Surinam and
                                                   Curaçao.</item>
-                                                </list></p></note>
-                                        <list>
-                                            <item><hi rend="smallcaps">v. Eysinga</hi></item>
-                                            <item><hi rend="smallcaps">J. Kosters</hi></item>
-                                        </list></item>
-                                </list></item>
-                            <item><hi rend="italic">Peru</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">M. H. Cornejo</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Portugal</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">José Caeiro da Matta</hi></item>
-                                    <item><hi rend="smallcaps">José Maria Vilhena Barbosa de
-                                            Magalhaes.</hi></item>
-                                    <item>Prof. Doutor <hi rend="smallcaps">J. Lobo d’Avila
-                                            Lima</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Salvador</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">J. Gustavo Guerrero</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Sweden</hi></item>
-                            <item>Sous réserve de ratification de S. M. le Roi de Suède avec
-                                l’approbation du Riksdag.<note n="23" xml:id="d215fn23">Translation:
-                                    Subject to ratification by his Majesty the King of Sweden with
-                                    the approval of the Riksdag.</note>
-                                <list>
-                                    <item><hi rend="smallcaps">K. J. Westman</hi></item>
-                                </list></item>
-                            <item><hi rend="italic">Uruguay</hi>
-                                <list>
-                                    <item><hi rend="smallcaps">E. E. Buero</hi></item>
-                                </list></item>
-                        </list>
+                                                  </list></p></note>
+                                            <list>
+                                                <item><hi rend="smallcaps">v. Eysinga</hi></item>
+                                                <item><hi rend="smallcaps">J. Kosters</hi></item>
+                                            </list></item>
+                                    </list></item>
+                                <item><hi rend="italic">Peru</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">M. H. Cornejo</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Portugal</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">José Caeiro da Matta</hi></item>
+                                        <item><hi rend="smallcaps">José Maria Vilhena Barbosa de
+                                                Magalhaes.</hi></item>
+                                        <item>Prof. Doutor <hi rend="smallcaps">J. Lobo d’Avila
+                                                Lima</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Salvador</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">J. Gustavo Guerrero</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Sweden</hi></item>
+                                <item>Sous réserve de ratification de S. M. le Roi de Suède avec
+                                    l’approbation du Riksdag.<note n="23" xml:id="d215fn23"
+                                        >Translation: Subject to ratification by his Majesty the
+                                        King of Sweden with the approval of the Riksdag.</note>
+                                    <list>
+                                        <item><hi rend="smallcaps">K. J. Westman</hi></item>
+                                    </list></item>
+                                <item><hi rend="italic">Uruguay</hi>
+                                    <list>
+                                        <item><hi rend="smallcaps">E. E. Buero</hi></item>
+                                    </list></item>
+                            </list>
+                        </postscript>
                     </div>
-                    <div type="document" xml:id="d216" n="216" subtype="historical-document">
+                    <div type="document" xml:id="d216" n="216" subtype="historical-document"
+                        frus:doc-dateTime-min="1937-02-24T00:00:00Z"
+                        frus:doc-dateTime-max="1937-02-24T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 913</note>
                         <head><hi rend="italic">Procés-Verbal Regarding the Deposit of the Ten
                                 Ratifications or Accessions Referred to in Article 11 of the
@@ -19122,9 +19144,9 @@
                         <p>In order to give effect to the second paragraph of the same Article, the
                             undersigned has drawn up the present procès-verbal.</p>
                         <closer>
-                            <dateline>Done at <placeName>Geneva</placeName> on the
-                                    <date>twenty-fourth day of February, one thousand nine hundred
-                                    and thirty-seven</date>.</dateline>
+                            <dateline>Done at <placeName>Geneva</placeName> on <date
+                                    when="1937-02-24">the twenty-fourth day of February, one
+                                    thousand nine hundred and thirty-seven</date>.</dateline>
                             <lb/><hi rend="italic">The Secretary-General</hi><lb/><signed><hi
                                     rend="smallcaps">J. Avenol</hi></signed></closer>
                     </div>
@@ -19133,7 +19155,9 @@
                 <div type="chapter" xml:id="ch5">
                     <head>Attitude of the United States regarding a proposed amendment to the
                         Covenant of the League of Nations</head>
-                    <div type="document" xml:id="d217" n="217" subtype="historical-document">
+                    <div type="document" xml:id="d217" n="217" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-05-22T00:00:00Z"
+                        frus:doc-dateTime-max="1930-05-22T23:59:59Z">
                         <note rend="inline" type="source">500.C Covenant/62</note>
                         <head><hi rend="italic">The <gloss type="from">British Embassy</gloss> to
                                 the <gloss type="to">Department of State</gloss></hi></head>
@@ -19208,9 +19232,17 @@
                             objection be taken to it in the United States, His Majesty’s Government
                             would for their part be disposed to move that the new paragraph 7 bis
                             should not be accepted.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, May 22, 1930.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1930-05-22">May 22,
+                                1930</date>.</dateline>
+                        </closer>
                     </div>
-                    <div type="document" xml:id="d218" n="218" subtype="historical-document">
+                    <div type="document" xml:id="d218" n="218" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-05-27T00:00:00Z"
+                        frus:doc-dateTime-max="1930-05-27T23:59:59Z">
                         <note rend="inline" type="source">500.C Covenant/62</note>
                         <head><hi rend="italic">The <gloss type="from">Department of State</gloss>
                                 to the <gloss type="to">British Embassy</gloss></hi></head>
@@ -19230,7 +19262,13 @@
                             well as at the time the Protocol of Accession of the United States to
                             the Protocol of Signature of the Statute of the Permanent Court of
                             International Justice was signed.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, May 27, 1930.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1930-05-27">May 27,
+                                1930</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="234" xml:id="pg_234" facs="0314"/>
                     <div type="document" xml:id="d219" n="219" subtype="historical-document"
@@ -20109,7 +20147,9 @@
                                         rend="smallcaps">arnes</hi>]</signed></closer>
                         </frus:attachment>
                     </div>
-                    <div type="document" xml:id="d234" n="234" subtype="historical-document">
+                    <div type="document" xml:id="d234" n="234" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-05-12T00:00:00Z"
+                        frus:doc-dateTime-max="1930-05-12T23:59:59Z">
                         <note rend="inline" type="source">611.003/2112</note>
                         <head><hi rend="italic">The <gloss type="from">German Embassy</gloss> to the
                                     <gloss type="to">Department of State</gloss></hi></head>
@@ -20159,7 +20199,13 @@
                             States, would be further aggravated to a considerable extent, should the
                             proposed new rates of duty go into effect against most of the products
                             shipped today from Germany to the United States.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, May 12, 1930.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1930-05-12">May 12,
+                                1930</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d235" n="235" subtype="historical-document"
                         frus:doc-dateTime-min="1930-07-03T00:00:00Z"
@@ -20300,7 +20346,9 @@
                             from <ref target="frus1928v01#pg_838"><hi rend="italic">Foreign
                                     Relations</hi>, 1928, vol. <hi rend="smallcaps">i</hi>, pp.
                                 838</ref>–<ref target="frus1928v01#pg_844">844</ref>.</note></head>
-                    <div type="document" xml:id="d236" n="236" subtype="historical-document">
+                    <div type="document" xml:id="d236" n="236" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-01-23T00:00:00Z"
+                        frus:doc-dateTime-max="1930-01-23T23:59:59Z">
                         <note rend="inline" type="source">150.071 Control/23</note>
                         <head><hi rend="italic">The <gloss type="from">British Embassy</gloss> to
                                 the <gloss type="to">Department of State</gloss></hi><note n="64"
@@ -20373,9 +20421,17 @@
                         <p>Detailed objections to the bill on technical grounds were laid before the
                             House Committee on Immigration by representatives of the shipping
                             interests in previous years.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, January 23, 1930.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1930-01-23">January 23,
+                                1930</date>.</dateline>
+                        </closer>
                     </div>
-                    <div type="document" xml:id="d237" n="237" subtype="historical-document">
+                    <div type="document" xml:id="d237" n="237" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-04-01T00:00:00Z"
+                        frus:doc-dateTime-max="1930-04-01T23:59:59Z">
                         <note rend="inline" type="source">150.071 Control/26</note>
                         <head><hi rend="italic">The <gloss type="from">Canadian Legation</gloss> to
                                 the <gloss type="to">Department of State</gloss></hi><note n="66"
@@ -20427,9 +20483,17 @@
                             complaining of the hardship which would be inflicted on them by the
                             passage of the Bill for the reasons which are briefly summarized above,
                             and on additional technical grounds.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, April 1, 1930.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1930-04-01">April 1,
+                                1930</date>.</dateline>
+                        </closer>
                     </div>
-                    <div type="document" xml:id="d238" n="238" subtype="historical-document">
+                    <div type="document" xml:id="d238" n="238" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-04-08T00:00:00Z"
+                        frus:doc-dateTime-max="1930-04-08T23:59:59Z">
                         <note rend="inline" type="source">150.071 Control/22</note>
                         <head><hi rend="italic">The <gloss type="from">Netherlands Legation</gloss>
                                 to the <gloss type="to">Department of State</gloss></hi></head>
@@ -20449,9 +20513,17 @@
                                 6561.</note></p>
                         <p>The Royal Legation presents its anticipated thanks to the Department of
                             State for what might be done in this respect.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, April 8, 1930.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1930-04-08">April 8,
+                                1930</date>.</dateline>
+                        </closer>
                     </div>
-                    <div type="document" xml:id="d239" n="239" subtype="historical-document">
+                    <div type="document" xml:id="d239" n="239" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-04-15T00:00:00Z"
+                        frus:doc-dateTime-max="1930-04-15T23:59:59Z">
                         <note rend="inline" type="source">150.071 Control/24</note>
                         <head><hi rend="italic">The <gloss type="from">German Embassy</gloss> to the
                                     <gloss type="to">Department of State</gloss></hi></head>
@@ -20467,7 +20539,13 @@
                             S. 202, S. 1941 and H.R. 7763 introduced in the present 71st Congress,
                             as any such legislation would, in the opinion of the German Government,
                             entail serious difficulties to the German American shipping trade.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, April 15, 1930.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1930-04-15">April 15,
+                                1930</date>.</dateline>
+                        </closer>
                     </div>
                 </div>
                 <div type="chapter" xml:id="ch10">
@@ -20811,7 +20889,9 @@
                         <closer>For the Secretary of State:<lb/><signed><hi rend="smallcaps">J. P.
                                     Cotton</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d246" n="246" subtype="historical-document">
+                    <div type="document" xml:id="d246" n="246" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-07-05T00:00:00Z"
+                        frus:doc-dateTime-max="1930-07-05T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 858</note>
                         <head><hi rend="italic">International Load Line Convention and Final
                                 Protocol, Signed at London, July 5, 1930</hi><note n="79"
@@ -21362,14 +21442,18 @@
                             Protocol which shall have the same force and the same validity as if the
                             provisions thereof had been inserted in the text of the Convention to
                             which it belongs.</p>
-                        <p>Done at London this fifth day of July, 1930, in a single copy which shall
-                            be deposited in the archives of the Government of the United Kingdom of
-                            Great Britain and Northern Ireland, which shall transmit certified true
-                            copies thereof to all signatory Governments.</p>
-                        <p>[Here follow the signatures on behalf of the Governments signatory to the
-                            convention.]</p>
+                        <closer>
+                            <dateline rendition="#left">Done at <placeName>London</placeName>
+                                <date when="1930-07-05">this fifth day of July, 1930</date>, in a
+                                single copy which shall be deposited in the archives of the
+                                Government of the United Kingdom of Great Britain and Northern
+                                Ireland, which shall transmit certified true copies thereof to all
+                                signatory Governments.</dateline><lb/> [Here follow the signatures
+                            on behalf of the Governments signatory to the convention.] </closer>
                     </div>
-                    <div type="document" xml:id="d247" n="247" subtype="historical-document">
+                    <div type="document" xml:id="d247" n="247" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-07-05T00:00:00Z"
+                        frus:doc-dateTime-max="1930-07-05T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 858</note>
                         <head><hi rend="italic">Final Act of the Load Line Conference, Signed at
                                 London, July 5, 1930</hi></head>
@@ -21464,12 +21548,14 @@
                             to these matters may be available.</p>
                         <p>In faith whereof the undersigned have affixed their signatures to the
                             present Act.</p>
-                        <p>Done in London this fifth day of July, 1930, in a single copy which shall
-                            be deposited in the archives of the Government of the United Kingdom of
-                            Great Britain and Northern Ireland, which shall transmit certified true
-                            copies thereof to all signatory Governments.</p>
-                        <p>[Here follow the signatures on behalf of the Governments signatory to the
-                            Final Act.]</p>
+                        <closer>
+                            <dateline rendition="#left">Done in <placeName>London</placeName>
+                                <date when="1930-07-05">this fifth day of July, 1930</date>, in a
+                                single copy which shall be deposited in the archives of the
+                                Government of the United Kingdom of Great Britain and Northern
+                                Ireland, which shall transmit certified true copies thereof to all
+                                signatory Governments.</dateline><lb/> [Here follow the signatures
+                            on behalf of the Governments signatory to the Final Act.] </closer>
                     </div>
                 </div>
                 <div type="chapter" xml:id="ch11">
@@ -21481,7 +21567,9 @@
                                     rend="italic">Foreign Relations</hi>, 1926, vol. <hi
                                     rend="smallcaps">i</hi>, pp. 238</ref> and <ref
                                 target="frus1926v01#pg_245">245</ref>, respectively.</note></head>
-                    <div type="document" xml:id="d248" n="248" subtype="historical-document">
+                    <div type="document" xml:id="d248" n="248" subtype="historical-document"
+                        frus:doc-dateTime-min="1929-08-22T00:00:00Z"
+                        frus:doc-dateTime-max="1929-08-22T23:59:59Z">
                         <note rend="inline" type="source">501.45A2/427</note>
                         <head><hi rend="italic">The <gloss type="from">British Embassy</gloss> to
                                 the <gloss type="to">Department of State</gloss></hi></head>
@@ -21535,7 +21623,13 @@
                             States Government, if officially approached, would be disposed to exert
                             their good offices on behalf of the draft Convention with the other
                             Governments interested.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, August 22, 1929.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1929-08-22">August 22,
+                                1929</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="277" xml:id="pg_277" facs="0357"/>
                     <div type="document" xml:id="d249" n="249" subtype="historical-document"
@@ -22591,7 +22685,9 @@
                 <div type="chapter" xml:id="ch13">
                     <head>Convention on the regulation of automotive traffic, signed at Washington,
                         October 6, 1930</head>
-                    <div type="document" xml:id="d271" n="271" subtype="historical-document">
+                    <div type="document" xml:id="d271" n="271" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-10-06T00:00:00Z"
+                        frus:doc-dateTime-max="1930-10-06T23:59:59Z">
                         <note rend="inline" type="source">515.4D2A/12</note>
                         <head><hi rend="italic">Convention on the Regulation of Automotive Traffic,
                                 Signed at Washington, October 6, 1930</hi><note n="15"
@@ -22849,166 +22945,175 @@
                         <p><hi rend="smallcaps">In witness whereof</hi>, The undersigned delegates
                             have signed this Convention in English, Spanish and Portuguese, and
                             thereto have affixed their respective seals.</p>
-                        <p>Done in the City of Washington on the sixth day of October in the year
-                            one thousand nine hundred and thirty.</p>
-                        <table rows="30" cols="3">
-                            <row>
-                                <cell>For Argentina:</cell>
-                                <cell><hi rend="smallcaps">J. A. Valle</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell><hi rend="smallcaps">Jose I. Girado</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Bolivia:</cell>
-                                <cell><hi rend="smallcaps">Geo. de la Barra</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Brazil:</cell>
-                                <cell><hi rend="smallcaps">S. Gurgel do Amaral</hi><lb/>Presidente
-                                    da Delegação Brazileira, <hi rend="italic">ad referendum</hi> do
-                                    Governo Brazileiro.</cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell><hi rend="smallcaps">G. M. de Menezes</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell><hi rend="smallcaps">S. Arnaldo A. da Motta</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Chile:</cell>
-                                <cell><hi rend="smallcaps">Alberto Fernández R.</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell><hi rend="smallcaps">O. Tenhamm V.</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Colombia:</cell>
-                                <cell><hi rend="smallcaps">Carlos de Narváez</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell><hi rend="smallcaps">Enrique Coronado Suárez</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Costa Rica:</cell>
-                                <cell><hi rend="smallcaps">J. P. Arango</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For the Dominican Republic:</cell>
-                                <cell><hi rend="smallcaps">Persio C. Franco</hi><lb/><hi
-                                        rend="italic">ad referendum</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Ecuador:</cell>
-                                <cell><hi rend="smallcaps">Homero Viteri L.</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Guatemala:</cell>
-                                <cell><hi rend="smallcaps">Adrián Recinos</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell><hi rend="smallcaps">Ramiro Fernández</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell><hi rend="smallcaps">Ed. Jeanneau</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Honduras:</cell>
-                                <cell><hi rend="smallcaps">Felix Canales Salazar</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Mexico:</cell>
-                                <cell><hi rend="smallcaps">A. Becerril Colín</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell><hi rend="smallcaps">Leopoldo Farías</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Nicaragua:</cell>
-                                <cell><hi rend="smallcaps">Juan B. Sacasa</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Panama:</cell>
-                                <cell><hi rend="smallcaps">J. R. Guizado</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Paraguay:</cell>
-                                <cell><hi rend="smallcaps">Pablo M. Ynsfran</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Peru:</cell>
-                                <cell><hi rend="smallcaps">Eduardo Dibos D.</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For El Salvador:</cell>
-                                <cell><hi rend="smallcaps">Julio E. Mejía</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell><hi rend="smallcaps">F. A. Reyes, H.</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Uruguay:</cell>
-                                <cell><hi rend="smallcaps">Mario Coppetti</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell><hi rend="smallcaps">Juan P. Molfino</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell><hi rend="smallcaps">Carlos A. Rabassa</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For Venezuela:</cell>
-                                <cell><hi rend="smallcaps">Fco. J. Sucre</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                            <row>
-                                <cell>For the United States of America:</cell>
-                                <cell><hi rend="smallcaps">J. Walter Drake</hi></cell>
-                                <cell>[<hi rend="smallcaps">seal</hi>]</cell>
-                            </row>
-                        </table>
+                        <closer>
+                            <dateline rendition="#left">Done in the City of
+                                    <placeName>Washington</placeName> on <date when="1930-10-06">the
+                                    sixth day of October in the year one thousand nine hundred and
+                                    thirty</date>.</dateline>
+                        </closer>
+                        <postscript>
+                            <table rows="30" cols="3">
+                                <row>
+                                    <cell>For Argentina:</cell>
+                                    <cell><hi rend="smallcaps">J. A. Valle</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell><hi rend="smallcaps">Jose I. Girado</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Bolivia:</cell>
+                                    <cell><hi rend="smallcaps">Geo. de la Barra</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Brazil:</cell>
+                                    <cell><hi rend="smallcaps">S. Gurgel do
+                                        Amaral</hi><lb/>Presidente da Delegação Brazileira, <hi
+                                            rend="italic">ad referendum</hi> do Governo
+                                        Brazileiro.</cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell><hi rend="smallcaps">G. M. de Menezes</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell><hi rend="smallcaps">S. Arnaldo A. da Motta</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Chile:</cell>
+                                    <cell><hi rend="smallcaps">Alberto Fernández R.</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell><hi rend="smallcaps">O. Tenhamm V.</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Colombia:</cell>
+                                    <cell><hi rend="smallcaps">Carlos de Narváez</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell><hi rend="smallcaps">Enrique Coronado Suárez</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Costa Rica:</cell>
+                                    <cell><hi rend="smallcaps">J. P. Arango</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For the Dominican Republic:</cell>
+                                    <cell><hi rend="smallcaps">Persio C. Franco</hi><lb/><hi
+                                            rend="italic">ad referendum</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Ecuador:</cell>
+                                    <cell><hi rend="smallcaps">Homero Viteri L.</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Guatemala:</cell>
+                                    <cell><hi rend="smallcaps">Adrián Recinos</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell><hi rend="smallcaps">Ramiro Fernández</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell><hi rend="smallcaps">Ed. Jeanneau</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Honduras:</cell>
+                                    <cell><hi rend="smallcaps">Felix Canales Salazar</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Mexico:</cell>
+                                    <cell><hi rend="smallcaps">A. Becerril Colín</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell><hi rend="smallcaps">Leopoldo Farías</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Nicaragua:</cell>
+                                    <cell><hi rend="smallcaps">Juan B. Sacasa</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Panama:</cell>
+                                    <cell><hi rend="smallcaps">J. R. Guizado</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Paraguay:</cell>
+                                    <cell><hi rend="smallcaps">Pablo M. Ynsfran</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Peru:</cell>
+                                    <cell><hi rend="smallcaps">Eduardo Dibos D.</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For El Salvador:</cell>
+                                    <cell><hi rend="smallcaps">Julio E. Mejía</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell><hi rend="smallcaps">F. A. Reyes, H.</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Uruguay:</cell>
+                                    <cell><hi rend="smallcaps">Mario Coppetti</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell><hi rend="smallcaps">Juan P. Molfino</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell/>
+                                    <cell><hi rend="smallcaps">Carlos A. Rabassa</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For Venezuela:</cell>
+                                    <cell><hi rend="smallcaps">Fco. J. Sucre</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                                <row>
+                                    <cell>For the United States of America:</cell>
+                                    <cell><hi rend="smallcaps">J. Walter Drake</hi></cell>
+                                    <cell>[<hi rend="smallcaps">seal</hi>]</cell>
+                                </row>
+                            </table>
+                        </postscript>
                     </div>
                     <pb n="302" xml:id="pg_302" facs="0382"/>
-                    <div type="document" xml:id="d272" n="272" subtype="historical-document">
+                    <div type="document" xml:id="d272" n="272" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-12-01T00:00:00Z"
+                        frus:doc-dateTime-max="1930-12-01T23:59:59Z">
                         <note rend="inline" type="source">515.4D2A/14</note>
                         <head><hi rend="italic">The Chairman of the American Delegation to the Pan
                                 American Conference on the Regulation of Automotive Traffic</hi>
@@ -23384,10 +23489,13 @@
                             signed at Washington on October 6th, 1930, receive the favorable
                             approval and ratification of the Government of the United States.</p>
                         <p>Respectfully submitted,</p>
-                        <closer><signed><hi rend="smallcaps">J. Walter Drake</hi></signed></closer>
-                        <postscript>
-                            <p>[<hi rend="smallcaps">Washington</hi>,] December 1, 1930.</p>
-                        </postscript>
+                        <closer>
+                            <signed><hi rend="smallcaps">J. Walter Drake</hi></signed><lb/>
+                            <dateline>[<placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>,] <date when="1930-12-01">December 1,
+                                1930</date>.</dateline>
+                        </closer>
                     </div>
                 </div>
                 <div type="chapter" xml:id="ch14">
@@ -24883,7 +24991,9 @@
                             <closer><signed><hi rend="smallcaps">Hibbard</hi></signed></closer>
                         </div>
                         <pb n="335" xml:id="pg_335" facs="0415"/>
-                        <div type="document" xml:id="d307" n="307" subtype="historical-document">
+                        <div type="document" xml:id="d307" n="307" subtype="historical-document"
+                            frus:doc-dateTime-min="1930-02-08T00:00:00Z"
+                            frus:doc-dateTime-max="1930-02-08T23:59:59Z">
                             <note rend="inline" type="source">724.3415/994</note>
                             <head><hi rend="italic">The Brazilian Ambassador</hi> (<persName
                                     type="from"><hi rend="italic">Gurgél do Amaral</hi></persName>)
@@ -24923,7 +25033,13 @@
                                 been and in fact is, finds its efficiency in our sincere wishes for
                                 the success of the diplomatic action of the United States in the
                                 Bolivian-Paraguayan controversy.</p>
-                            <p><hi rend="smallcaps">Washington</hi>, February 8, 1930.</p>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi>
+                                    </placeName>, <date when="1930-02-08">February 8,
+                                    1930</date>.</dateline>
+                            </closer>
                         </div>
                         <pb n="336" xml:id="pg_336" facs="0416"/>
                         <div type="document" xml:id="d308" n="308" subtype="historical-document"
@@ -27991,10 +28107,16 @@
                             recognize Argentina, Bolivia, and Peru on Thursday, September 18.</p>
                         <closer><signed><hi rend="smallcaps">Caffery</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d375" n="375" subtype="historical-document">
+                    <div type="document" xml:id="d375" n="375" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-09-17T00:00:00Z"
+                        frus:doc-dateTime-max="1930-09-17T23:59:59Z">
                         <note rend="inline" type="source">835.01/28</note>
                         <head><hi rend="italic">Press Release Issued by the Department of State on
                                 September 17, 1930</hi></head>
+                        <dateline>
+                            <date when="1930-09-17" ana="#date_undated-inferred-from-document-head"
+                                >September 17, 1930</date>
+                        </dateline>
                         <p>The Secretary of State stated:<note n="5" xml:id="d375fn5">The statement
                                 was transmitted to the American diplomatic missions in Costa Rica,
                                 Cuba, Dominican Republic, El Salvador, Guatemala, Haiti, Honduras,
@@ -29177,7 +29299,9 @@
                             Department.</p>
                         <closer><signed><hi rend="smallcaps">Edge</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d406" n="406" subtype="historical-document">
+                    <div type="document" xml:id="d406" n="406" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-06-30T00:00:00Z"
+                        frus:doc-dateTime-max="1930-06-30T23:59:59Z">
                         <note rend="inline" type="source">863.51 Relief Credits/253</note>
                         <head><hi rend="italic">The <gloss type="from">Austrian Legation</gloss> to
                                 the <gloss type="to">Department of State</gloss></hi></head>
@@ -29207,7 +29331,13 @@
                             Secretary of the Treasury and to request that a declaration of release
                             by the United States Government be issued at the earliest possible date
                             and transmitted by cable.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, June 30, 1930.</p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1930-06-30">June 30,
+                                1930</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d407" n="407" subtype="historical-document"
                         frus:doc-dateTime-min="1930-07-02T00:00:00Z"
@@ -29245,7 +29375,9 @@
                 <div type="chapter" xml:id="ch18">
                     <head>Treaty and exchange of notes between the United States and Austria for
                         extradition and commutation of death penalty, signed January 31, 1930</head>
-                    <div type="document" xml:id="d408" n="408" subtype="historical-document">
+                    <div type="document" xml:id="d408" n="408" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-01-31T00:00:00Z"
+                        frus:doc-dateTime-max="1930-01-31T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 822</note>
                         <head><hi rend="italic">Treaty Between the United States of America and
                                 Austria, Signed at Vienna, January 31, 1930</hi><note n="20"
@@ -29524,9 +29656,12 @@
                             to terminate it.</p>
                         <p>In witness whereof the above named Plenipotentiaries have signed the
                             present Treaty and have hereunto affixed their seals.</p>
-                        <p>Done in duplicate at Vienna this 31<hi rend="superscript">rst</hi> day of
-                            January nineteen hundred and thirty.</p>
-                        <closer><signed><hi rend="smallcaps">Albert Henry
+                        <closer>
+                            <dateline rendition="#left">Done in duplicate at
+                                    <placeName>Vienna</placeName> this <date when="1930-01-31">31<hi
+                                        rend="superscript">rst</hi> day of January nineteen hundred
+                                    and thirty</date>.</dateline><lb/>
+                            <signed><hi rend="smallcaps">Albert Henry
                                 Washburn</hi></signed><lb/>[<hi rend="smallcaps">seal</hi>]<lb/>[<hi
                                 rend="smallcaps">seal</hi>] <signed><hi rend="smallcaps"
                                     >Schober</hi></signed></closer>
@@ -29885,11 +30020,17 @@
                         <closer><signed><hi rend="smallcaps">Hibbard</hi></signed></closer>
                         <pb n="420" xml:id="pg_420" facs="0500"/>
                     </div>
-                    <div type="document" xml:id="d419" n="419" subtype="historical-document">
+                    <div type="document" xml:id="d419" n="419" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-06-30T00:00:00Z"
+                        frus:doc-dateTime-max="1930-06-30T23:59:59Z">
                         <head><hi rend="italic">Press Release Issued by the Department of State on
                                 June 30, 1930</hi><note n="5" xml:id="d419fn5">Reprinted from
                                 Department of State, <hi rend="italic">Press Releases</hi>, July 5,
                                 1930, p. 1.</note></head>
+                        <dateline>
+                            <date when="1930-06-30" ana="#date_undated-inferred-from-document-head"
+                                >June 30, 1930</date>
+                        </dateline>
                         <p>The Department has received a telegram, dated June 27, 10 a.m.,<note
                                 n="6" xml:id="d419fn6">Telegrams from the Chargé in Bolivia, upon
                                 which this release is based, are not printed.</note> which was
@@ -30338,14 +30479,20 @@
                                     target="#pg_378">pp. 378</ref> ff.</note> and Peru.</p>
                         <closer><signed><hi rend="smallcaps">Stimson</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d430" n="430" subtype="historical-document">
+                    <div type="document" xml:id="d430" n="430" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-09-17T14:32:00Z"
+                        frus:doc-dateTime-max="1930-09-18T17:52:00Z">
                         <note rend="inline" type="source">824.01/19: Telegram</note>
                         <head><hi rend="italic">The Chargé in Bolivia</hi> (<persName type="from"
                                     ><hi rend="italic">Hibbard</hi></persName>) <hi rend="italic">to
                                 the <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">La
-                                        Paz</hi></placeName> [, <date>undated</date>].<lb/>[Received
-                                September 18, 1930—5:52 p.m.]</dateline></opener>
+                                        Paz</hi></placeName> [, <date
+                                    notBefore="1930-09-17T10:00:00-04:32"
+                                    notAfter="1930-09-18T17:52:00"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>].<lb/>[Received September 18, 1930—5:52
+                                p.m.]</dateline></opener>
                         <p>63. Department’s telegram number 38, September 16, 2 p.m. In accordance
                             with the Department’s instructions I called on Colonel Osorio with Mr.
                             Feely this morning at 10 and informed him that I had been instructed by
@@ -31166,10 +31313,16 @@
                                     Releases</hi>, October 25, 1930, p. 264.</note></p>
                         <closer><signed><hi rend="smallcaps">Stimson</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d460" n="460" subtype="historical-document">
+                    <div type="document" xml:id="d460" n="460" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-10-23T00:00:00Z"
+                        frus:doc-dateTime-max="1930-10-23T23:59:59Z">
                         <note rend="inline" type="source">832.113/42</note>
                         <head><hi rend="italic">Press Release Issued by the Department of State on
                                 October 23, 1930</hi></head>
+                        <dateline>
+                            <date when="1930-10-23" ana="#date_undated-inferred-from-document-head"
+                                >October 23, 1930</date>
+                        </dateline>
                         <p rend="center"><hi rend="smallcaps">Statement by the Secretary of
                                 State</hi></p>
                         <p>Some accounts in the press this morning reported that our action in
@@ -31653,13 +31806,21 @@
                             Brazil is sufficiently complete for similar prompt action?</p>
                         <closer><signed><hi rend="smallcaps">Stimson</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d477" n="477" subtype="historical-document">
+                    <div type="document" xml:id="d477" n="477" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-11-07T22:00:00Z"
+                        frus:doc-dateTime-max="1930-11-09T04:59:59Z">
                         <note rend="inline" type="source">832.01/22: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Brazil</hi> (<persName type="from"
                                     ><hi rend="italic">Morgan</hi></persName>) <hi rend="italic">to
                                 the <gloss type="to">Secretary of State</gloss></hi><note n="14"
                                 xml:id="d477fn14">This undated telegram was received on November 8,
                                 1930.</note></head>
+                        <dateline>
+                            <date notBefore="1930-11-07T17:00:00-05:00"
+                                notAfter="1930-11-08T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
+                        </dateline>
                         <p>1. Department’s telegram Nov. 7, 5 p.m., received and deciphered. It is
                             my opinion that the Provisional Government fully controls the country
                             and is supported by the people. Do not see the necessity of postponing
@@ -34554,7 +34715,9 @@
                                 target="frus1929v02#pg_55"><hi rend="italic">Foreign Relations</hi>,
                                 1929, vol. <hi rend="smallcaps">ii</hi>, pp. 55</ref>
                         ff.</note></head>
-                    <div type="document" xml:id="d549" n="549" subtype="historical-document">
+                    <div type="document" xml:id="d549" n="549" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-05-29T00:00:00Z"
+                        frus:doc-dateTime-max="1930-05-29T23:59:59Z">
                         <note rend="inline" type="source">711.428/1396</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 President <persName type="to">Hoover</persName></hi></head>
@@ -34630,12 +34793,19 @@
                             fishing gear used in national waters of the two countries during the
                             spring or Chinook salmon fishing season.</p>
                         <p>Respectfully submitted,</p>
-                        <closer><signed><hi rend="smallcaps">H. L. Stimson</hi></signed></closer>
-                        <postscript>
-                            <p><hi rend="smallcaps">Washington</hi>, May 29, 1930.</p>
-                        </postscript>
+                        <closer>
+                            <signed><hi rend="smallcaps">H. L. Stimson</hi></signed>
+                            <lb/>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1930-05-29">May 29,
+                                1930</date>.</dateline>
+                        </closer>
                     </div>
-                    <div type="document" xml:id="d550" n="550" subtype="historical-document">
+                    <div type="document" xml:id="d550" n="550" subtype="historical-document"
+                        frus:doc-dateTime-min="1937-07-28T00:00:00Z"
+                        frus:doc-dateTime-max="1937-07-28T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 918</note>
                         <head><hi rend="italic">Convention Between the United States of America and
                                 Canada, Signed at Washington, May 26, 1930</hi><note n="13"
@@ -34950,8 +35120,9 @@
                             <p><hi rend="smallcaps">In witness whereof</hi> they have signed the
                                 present protocol and have affixed their seals hereto.</p>
                             <closer>
-                                <dateline>Done at <placeName>Washington</placeName> this
-                                        <date>twenty-eighth day of July, 1937</date>.</dateline>
+                                <dateline>Done at <placeName>Washington</placeName>
+                                    <date when="1937-07-28">this twenty-eighth day of July,
+                                        1937</date>.</dateline>
                                 <lb/><signed><hi rend="smallcaps">Cordell Hull</hi></signed> [<hi
                                     rend="smallcaps">seal</hi>]<lb/><hi rend="italic">Secretary of
                                     State of the United States of America</hi><lb/><signed><hi
@@ -35260,7 +35431,9 @@
                             press.</p>
                         <closer><signed><hi rend="smallcaps">Stimson</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d555" n="555" subtype="historical-document">
+                    <div type="document" xml:id="d555" n="555" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-05-09T00:00:00Z"
+                        frus:doc-dateTime-max="1930-05-09T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 837</note>
                         <head><hi rend="italic">Convention Between the United States of America and
                                 Canada, Signed at Ottawa, May 9, 1930</hi><note n="21"
@@ -35410,12 +35583,14 @@
                         <p><hi rend="smallcaps">In faith whereof</hi>, the respective
                             plenipotentiaries have signed the present Convention in duplicate, and
                             have hereunto affixed their seals.</p>
-                        <p><hi rend="smallcaps">Done</hi> at Ottawa on the ninth day of May, in the
-                            year one thousand nine hundred and thirty.</p>
-                        <closer>[<hi rend="smallcaps">seal</hi>] <signed><hi rend="smallcaps">B.
-                                    Reath Biggs</hi></signed><lb/>[<hi rend="smallcaps">seal</hi>]
-                                    <signed><hi rend="smallcaps">W. L. Mackenzie
-                            King</hi></signed></closer>
+                        <closer>
+                            <dateline rendition="#left"><hi rend="smallcaps">Done</hi> at
+                                    <placeName>Ottawa</placeName> on <date when="1930-05-09">the
+                                    ninth day of May, in the year one thousand nine hundred and
+                                    thirty</date>.</dateline><lb/> [<hi rend="smallcaps">seal</hi>]
+                                    <signed><hi rend="smallcaps">B. Reath
+                                Biggs</hi></signed><lb/>[<hi rend="smallcaps">seal</hi>] <signed><hi
+                                    rend="smallcaps">W. L. Mackenzie King</hi></signed></closer>
                     </div>
                 </div>
                 <div type="chapter" xml:id="ch31">
@@ -36134,11 +36309,18 @@
                         <closer><signed><hi rend="smallcaps">W. D. L.
                             Starbuck</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d571" n="571" subtype="historical-document">
+                    <div type="document" xml:id="d571" n="571" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-04-10T00:00:00Z"
+                        frus:doc-dateTime-max="1930-04-11T23:59:59Z">
                         <note rend="inline" type="source">811.7442/44</note>
                         <head><hi rend="italic">Minutes of Informal Canadian–United States
                                 Conference on Aviation Radio Held at U. S. Customs House, New York
                                 City, April 10–11, 1930</hi></head>
+                        <dateline>
+                            <placeName>New York</placeName>, <date from="1930-04-10" to="1930-04-11"
+                                ana="#date_undated-inferred-from-document-head" type="meeting-date"
+                                >April 10–11, 1930</date>
+                        </dateline>
                         <p rend="center">First Meeting</p>
                         <p>The meeting opened at 10:45 A.M.</p>
                         <p>The following persons were present:</p>
@@ -36630,7 +36812,9 @@
                         <closer><signed><hi rend="smallcaps">Carlos G. Dávila</hi></signed></closer>
                     </div>
                     <pb n="545" xml:id="pg_545" facs="0625"/>
-                    <div type="document" xml:id="d577" n="577" subtype="historical-document">
+                    <div type="document" xml:id="d577" n="577" subtype="historical-document"
+                        frus:doc-dateTime-min="1930-05-27T00:00:00Z"
+                        frus:doc-dateTime-max="1930-05-27T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 829</note>
                         <head><hi rend="italic">Convention Between the United States of America and
                                 Chile, Signed at Washington, May 27, 1930</hi><note n="3"
@@ -36765,9 +36949,9 @@
                             present convention in duplicate in the English and Spanish languages and
                             have thereunto affixed their seals.</p>
                         <closer>
-                            <dateline>Done at the <placeName>city of Washington</placeName> this
-                                    <date>twenty-seventh day of May, nineteen hundred and
-                                    thirty</date>.</dateline>
+                            <dateline>Done at the <placeName>city of Washington</placeName>
+                                <date when="1930-05-27">this twenty-seventh day of May, nineteen
+                                    hundred and thirty</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">Henry L. Stimson</hi></signed> [<hi
                                 rend="smallcaps">seal</hi>]<lb/><signed><hi rend="smallcaps">Carlos
                                     G. Dávila</hi></signed> [<hi rend="smallcaps"

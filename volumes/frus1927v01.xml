@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1927v01">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1927v01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -60,6 +60,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -6201,7 +6204,9 @@
                             </quote></p>
                         <closer><signed><hi rend="smallcaps">Herrick</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d8" n="8" subtype="historical-document">
+                    <div type="document" xml:id="d8" n="8" subtype="historical-document"
+                        frus:doc-dateTime-min="1927-02-19T00:00:00Z"
+                        frus:doc-dateTime-max="1927-02-19T23:59:59Z">
                         <note rend="inline" type="source">500.A15 a 1/54</note>
                         <head><hi rend="italic">The <gloss type="from">Japanese Embassy</gloss> to
                                 the <gloss type="to">Department of State</gloss></hi></head>
@@ -6249,8 +6254,12 @@
                         <p>The Japanese Government confidently hope that an adjustment will be
                             reached in a manner fair and satisfactory to each of the participating
                             Powers and conducive to the general peace and security of the world.</p>
-                        <p>[<hi rend="smallcaps">Washington</hi>,] <hi rend="italic">February 19,
-                                1927.</hi></p>
+                        <closer>
+                            <dateline>[<placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>,] <date when="1927-02-19">February 19,
+                                1927</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d9" n="9" subtype="historical-document"
                         frus:doc-dateTime-min="1927-02-21T13:00:00Z"
@@ -6972,7 +6981,9 @@
                         <closer><signed>J[<hi rend="smallcaps">oseph</hi>] C. G[<hi rend="smallcaps"
                                     >rew</hi>]</signed></closer>
                     </div>
-                    <div type="document" xml:id="d24" n="24" subtype="historical-document">
+                    <div type="document" xml:id="d24" n="24" subtype="historical-document"
+                        frus:doc-dateTime-min="1927-03-11T00:00:00Z"
+                        frus:doc-dateTime-max="1927-03-11T23:59:59Z">
                         <note rend="inline" type="source">500.A15 a 1/94</note>
                         <head><hi rend="italic">The <gloss type="from">Japanese Embassy</gloss> to
                                 the <gloss type="to">Department of State</gloss></hi></head>
@@ -6987,8 +6998,12 @@
                             ready to take part in the proposed discussion among the three Powers,
                             and to assist in the endeavours for the furtherance of the desired
                             end.</p>
-                        <p>[<hi rend="smallcaps">Washington</hi>,] <hi rend="italic">March 11,
-                                1927.</hi></p>
+                        <closer>
+                            <dateline>[<placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>,] <date when="1927-03-11">March 11,
+                                1927</date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="28" xml:id="pg_28" facs="0114"/>
                     <div type="document" xml:id="d25" n="25" subtype="historical-document"
@@ -7275,7 +7290,9 @@
                             </quote></p>
                         <closer><signed><hi rend="smallcaps">Herrick</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d29" n="29" subtype="historical-document">
+                    <div type="document" xml:id="d29" n="29" subtype="historical-document"
+                        frus:doc-dateTime-min="1927-04-06T00:00:00Z"
+                        frus:doc-dateTime-max="1927-04-06T23:59:59Z">
                         <note rend="inline" type="source">500.A15 a 1/169</note>
                         <head><hi rend="italic">The British Ambassador</hi> (<persName type="from"
                                     ><hi rend="italic">Howard</hi></persName>) <hi rend="italic">to
@@ -7302,8 +7319,13 @@
                             Bridgeman, the First Lord of the Admiralty, Viscount Cecil of Chelwood,
                             and Admiral Field to act as their Plenipotentiaries at the
                             conference.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">April 6,
-                                1927.</hi></p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1927-04-06">April 6,
+                                1927</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d30" n="30" subtype="historical-document"
                         frus:doc-dateTime-min="1927-04-06T00:00:00Z"
@@ -10069,7 +10091,9 @@
                             </quote></p>
                         <closer><signed><hi rend="smallcaps">Houghton</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d86" n="86" subtype="historical-document">
+                    <div type="document" xml:id="d86" n="86" subtype="historical-document"
+                        frus:doc-dateTime-min="1927-07-09T00:00:00Z"
+                        frus:doc-dateTime-max="1927-07-09T23:59:59Z">
                         <note rend="inline" type="source">500.A15 a 1/402</note>
                         <head><hi rend="italic">The <gloss type="from">British Embassy</gloss> to
                                 the <gloss type="to">Department of State</gloss></hi></head>
@@ -10196,8 +10220,13 @@
                             influenced in their naval policy by any motive but desire for national
                             security or that in their estimate of naval requirements of different
                             states the geographical considerations will be ignored.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">9 July,
-                                1927.</hi></p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1927-07-09"><hi rend="italic">9 July,
+                                        1927</hi></date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="89" xml:id="pg_89" facs="0175"/>
                     <div type="document" xml:id="d87" n="87" subtype="historical-document"
@@ -20951,7 +20980,9 @@
                             supplementary regulations (not signed by the United States), see <hi
                                 rend="italic">ibid.</hi>, p. 1; or the Department of State Treaty
                             Series No. 767; or, 45 Stat. 2760.</note></head>
-                    <div type="document" xml:id="d235" n="235" subtype="historical-document">
+                    <div type="document" xml:id="d235" n="235" subtype="historical-document"
+                        frus:doc-dateTime-min="1927-11-25T00:00:00Z"
+                        frus:doc-dateTime-max="1927-11-25T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 767</note>
                         <head><hi rend="italic">Radiotelegraph Convention Between the United States
                                 of America and Other Powers, Signed at Washington, November 25,
@@ -21359,7 +21390,7 @@
                             States of America and one copy of which shall be sent to each
                             Government.</p>
                         <closer><dateline>Done at <placeName>Washington,</placeName>
-                                <date>November 25, 1927</date>.</dateline><lb/>
+                                <date when="1927-11-25">November 25, 1927</date>.</dateline><lb/>
                             <signed><list>
                                     <item>For the Union of South Africa: <list>
                                             <item><hi rend="smallcaps">H. J. Lenton</hi></item>
@@ -22105,7 +22136,9 @@
                             the convention of 1924, see <ref target="frus1924v01#pg_266"><hi
                                     rend="italic">Foreign Relations</hi>, 1924, vol. <hi
                                     rend="smallcaps">i</hi>, p. 266</ref>.</note></head>
-                    <div type="document" xml:id="d238" n="238" subtype="historical-document">
+                    <div type="document" xml:id="d238" n="238" subtype="historical-document"
+                        frus:doc-dateTime-min="1927-10-19T00:00:00Z"
+                        frus:doc-dateTime-max="1927-10-19T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 763</note>
                         <head><hi rend="italic">Additional Protocol Between the United States of
                                 America and Other American Republics, Signed at Lima, October 19,
@@ -22253,83 +22286,89 @@
                             signatory or adherent States reserving the right to withdraw from the
                             Convention by giving in due form a year’s notice in advance to the
                             Government of the Republic of Cuba.</p>
-                        <p>Done and signed in the City of Lima on the nineteenth day of October,
-                            nineteen hundred and twenty-seven, in duplicate, one of which shall be
-                            sent to the Ministry of Foreign Relations of Peru and the other to the
-                            Pan American Sanitary Office, so that copies thereof may be distributed
-                            through the diplomatic channel, to the signatory and adhering
-                            Governments.</p>
-                        <list>
-                            <item>For the Argentine Republic: <list>
-                                    <item>Laurentino Olascoaga</item>
-                                    <item>Nicolás Lozano</item>
-                                    <item>A. Sordelli</item>
-                                </list></item>
-                            <item>For Bolivia: <list>
-                                    <item>A. Flores</item>
-                                    <item>Adolfo F. Durán</item>
-                                </list></item>
-                            <item>For the United States of Brazil: <list>
-                                    <item>João Pedro de Albuquerque</item>
-                                    <item>Bento Oswaldo Cruz</item>
-                                </list></item>
-                            <pb n="311" xml:id="pg_311" facs="0397"/>
-                            <item>For Colombia: <list>
-                                    <item>Julio Aparicio</item>
-                                </list></item>
-                            <item>For Costa Rica: <list>
-                                    <item>Solón Núñez</item>
-                                    <item>Jaime G. Bennett</item>
-                                </list></item>
-                            <item>For Cuba: <list>
-                                    <item>D. F. Rensoli</item>
-                                    <item>Dr. Mario G. Lebredo</item>
-                                </list></item>
-                            <item>For Ecuador: <list>
-                                    <item>Luis M. Cueva</item>
-                                </list></item>
-                            <item>For the United States of America: <list>
-                                    <item>Hugh S. Cumming</item>
-                                    <item>Bolivar J. Lloyd</item>
-                                    <item>John D. Long</item>
-                                </list></item>
-                            <item>For Guatemala: <list>
-                                    <item>Pablo Emilio Guedes</item>
-                                </list></item>
-                            <item>For Haiti: <list>
-                                    <item>V. Kiefer Marchand</item>
-                                    <item>Gmo. Angulo P. A.</item>
-                                </list></item>
-                            <item>For Honduras: <list>
-                                    <item>José J. Callejas</item>
-                                </list></item>
-                            <item>For Nicaragua: <list>
-                                    <item>J. C. Gastiaburú</item>
-                                </list></item>
-                            <item>For Panama: <list>
-                                    <item>José G. Lewis</item>
-                                </list></item>
-                            <item>For Paraguay: <list>
-                                    <item>Isidro Ramirez</item>
-                                </list></item>
-                            <item>For Peru: <list>
-                                    <item>Carlos Enrique Paz Soldán</item>
-                                    <item>Sebastián Lorente</item>
-                                    <item>Baltazar Caravedo</item>
-                                    <item>D. E. Lavorería</item>
-                                    <item>J. C. Gastiaburú</item>
-                                </list></item>
-                            <item>For Dominican Republic: <list>
-                                    <item>E. Baez Soler</item>
-                                    <item>A. Bussalleu</item>
-                                </list></item>
-                            <item>For Uruguay: <list>
-                                    <item>Justo F. Gonzalez</item>
-                                </list></item>
-                            <item>For the United States of Venezuela: <list>
-                                    <item>E. Ochoa</item>
-                                </list></item>
-                        </list>
+                        <closer>
+                            <dateline rendition="#left">Done and signed in the City of
+                                    <placeName>Lima</placeName> on <date when="1927-10-19">the
+                                    nineteenth day of October, nineteen hundred and
+                                    twenty-seven</date>, in duplicate, one of which shall be sent to
+                                the Ministry of Foreign Relations of Peru and the other to the Pan
+                                American Sanitary Office, so that copies thereof may be distributed
+                                through the diplomatic channel, to the signatory and adhering
+                                Governments.</dateline>
+                        </closer>
+                        <postscript>
+                            <list>
+                                <item>For the Argentine Republic: <list>
+                                        <item>Laurentino Olascoaga</item>
+                                        <item>Nicolás Lozano</item>
+                                        <item>A. Sordelli</item>
+                                    </list></item>
+                                <item>For Bolivia: <list>
+                                        <item>A. Flores</item>
+                                        <item>Adolfo F. Durán</item>
+                                    </list></item>
+                                <item>For the United States of Brazil: <list>
+                                        <item>João Pedro de Albuquerque</item>
+                                        <item>Bento Oswaldo Cruz</item>
+                                    </list></item>
+                                <pb n="311" xml:id="pg_311" facs="0397"/>
+                                <item>For Colombia: <list>
+                                        <item>Julio Aparicio</item>
+                                    </list></item>
+                                <item>For Costa Rica: <list>
+                                        <item>Solón Núñez</item>
+                                        <item>Jaime G. Bennett</item>
+                                    </list></item>
+                                <item>For Cuba: <list>
+                                        <item>D. F. Rensoli</item>
+                                        <item>Dr. Mario G. Lebredo</item>
+                                    </list></item>
+                                <item>For Ecuador: <list>
+                                        <item>Luis M. Cueva</item>
+                                    </list></item>
+                                <item>For the United States of America: <list>
+                                        <item>Hugh S. Cumming</item>
+                                        <item>Bolivar J. Lloyd</item>
+                                        <item>John D. Long</item>
+                                    </list></item>
+                                <item>For Guatemala: <list>
+                                        <item>Pablo Emilio Guedes</item>
+                                    </list></item>
+                                <item>For Haiti: <list>
+                                        <item>V. Kiefer Marchand</item>
+                                        <item>Gmo. Angulo P. A.</item>
+                                    </list></item>
+                                <item>For Honduras: <list>
+                                        <item>José J. Callejas</item>
+                                    </list></item>
+                                <item>For Nicaragua: <list>
+                                        <item>J. C. Gastiaburú</item>
+                                    </list></item>
+                                <item>For Panama: <list>
+                                        <item>José G. Lewis</item>
+                                    </list></item>
+                                <item>For Paraguay: <list>
+                                        <item>Isidro Ramirez</item>
+                                    </list></item>
+                                <item>For Peru: <list>
+                                        <item>Carlos Enrique Paz Soldán</item>
+                                        <item>Sebastián Lorente</item>
+                                        <item>Baltazar Caravedo</item>
+                                        <item>D. E. Lavorería</item>
+                                        <item>J. C. Gastiaburú</item>
+                                    </list></item>
+                                <item>For Dominican Republic: <list>
+                                        <item>E. Baez Soler</item>
+                                        <item>A. Bussalleu</item>
+                                    </list></item>
+                                <item>For Uruguay: <list>
+                                        <item>Justo F. Gonzalez</item>
+                                    </list></item>
+                                <item>For the United States of Venezuela: <list>
+                                        <item>E. Ochoa</item>
+                                    </list></item>
+                            </list>
+                        </postscript>
                     </div>
                 </div>
                 <pb n="312" xml:id="pg_312" facs="0398"/>
@@ -23218,13 +23257,20 @@
                             <closer><signed>F[<hi rend="smallcaps">rancis</hi>] W[<hi
                                         rend="smallcaps">hite</hi>]</signed></closer>
                         </div>
-                        <div type="document" xml:id="d250" n="250" subtype="historical-document">
+                        <div type="document" xml:id="d250" n="250" subtype="historical-document"
+                            frus:doc-dateTime-min="1927-08-02T00:00:00Z"
+                            frus:doc-dateTime-max="1927-08-02T23:59:59Z">
                             <note rend="inline" type="source">717.2114/68</note>
                             <head><hi rend="italic">The <gloss type="from">Colombian
                                         Legation</gloss> to the <gloss type="to">Department of
                                         State</gloss></hi><note n="63" xml:id="d250fn63">Left at the
                                     Department by the Colombian Minister, Aug. 2,
                                 1927.</note></head>
+                            <dateline>
+                                <date when="1927-08-02"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>
+                            </dateline>
                             <opener><seg rendition="#center">[Translation<note n="64"
                                         xml:id="d250fn64">Supplied by the
                                 editor.</note>]</seg></opener>
@@ -28052,7 +28098,9 @@
                             opportunity to express to His Excellency the Secretary of State the
                             assurances of his highest esteem.</p>
                     </div>
-                    <div type="document" xml:id="d296" n="296" subtype="historical-document">
+                    <div type="document" xml:id="d296" n="296" subtype="historical-document"
+                        frus:doc-dateTime-min="1927-01-25T00:00:00Z"
+                        frus:doc-dateTime-max="1927-01-25T23:59:59Z">
                         <note rend="inline" type="source">701.8311/41</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Egyptian Chargé</hi> (<persName type="to"><hi rend="italic"
@@ -28083,8 +28131,13 @@
                             </quote></p>
                         <p>There are also expenses incident to the property not in the nature of the
                             tax which of course should be paid by the foreign government.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">January 25,
-                                1927.</hi></p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1927-01-25"><hi rend="italic">January 25,
+                                        1927</hi></date>.</dateline>
+                        </closer>
                     </div>
                 </div>
                 <div type="chapter" xml:id="ch19">
@@ -28139,7 +28192,9 @@
                 <div type="chapter" xml:id="ch20">
                     <head>Rules of precedence as between certain officers of the United
                         States</head>
-                    <div type="document" xml:id="d298" n="298" subtype="historical-document">
+                    <div type="document" xml:id="d298" n="298" subtype="historical-document"
+                        frus:doc-dateTime-min="1927-08-10T00:00:00Z"
+                        frus:doc-dateTime-max="1927-08-10T23:59:59Z">
                         <head><hi rend="italic">Executive Order No. 4705, August 10, 1927, Regarding
                                 Rules of Precedence as Between Certain Officers of the United
                                 States</hi></head>
@@ -28234,11 +28289,14 @@
                         <p>In the Districts to which they are assigned, Foreign Service officers in
                             charge of Consulates take place and precedence immediately after
                             Colonels in the Army or Marine Corps and Captains in the Navy.</p>
-                        <closer><signed><hi rend="smallcaps">Calvin Coolidge</hi></signed></closer>
-                        <postscript>
-                            <p><hi rend="smallcaps">The White House</hi>, <hi rend="italic">August
-                                    10, 1927.</hi></p>
-                        </postscript>
+                        <closer>
+                            <signed><hi rend="smallcaps">Calvin Coolidge</hi></signed><lb/>
+                            <dateline>
+                                <placeName type="venue">
+                                    <hi rend="smallcaps">The White House</hi>
+                                </placeName>, <date when="1927-08-10"><hi rend="italic">August 10,
+                                        1927</hi></date>.</dateline>
+                        </closer>
                     </div>
                 </div>
             </div>
@@ -29215,12 +29273,18 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                     <pb n="440" xml:id="pg_440" facs="0526"/>
-                    <div type="document" xml:id="d320" n="320" subtype="historical-document">
+                    <div type="document" xml:id="d320" n="320" subtype="historical-document"
+                        frus:doc-dateTime-min="1927-11-30T00:00:00Z"
+                        frus:doc-dateTime-max="1927-11-30T23:59:59Z">
                         <note rend="inline" type="source">711.472/7</note>
                         <head><hi rend="italic">The <gloss type="from">British Embassy</gloss> to
                                 the <gloss type="to">Department of State</gloss></hi><note n="3"
                                 xml:id="d320fn3">Left at the Department by the British Ambassador
                                 and the Australian Commissioner Nov. 30, 1927.</note></head>
+                        <dateline>
+                            <date when="1927-11-30"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <p rend="center"><hi rend="smallcaps">Memorandum re Entry of Australian
                                 Business Men Into the United States</hi></p>
                         <p>On December 30, 1926, the Prime Minister of Australia, The Eight
@@ -32222,12 +32286,18 @@
                         <closer>For the Secretary of State:<lb/><signed><hi rend="smallcaps">Wilbur
                                     J. Carr</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d363" n="363" subtype="historical-document">
+                    <div type="document" xml:id="d363" n="363" subtype="historical-document"
+                        frus:doc-dateTime-min="1927-05-12T00:00:00Z"
+                        frus:doc-dateTime-max="1927-05-12T23:59:59Z">
                         <note rend="inline" type="source">150.01 Commuters/56</note>
                         <head><hi rend="italic">Memorandum by the Chief of the Visa Office</hi> (<hi
                                 rend="italic">Du Bois</hi>) <hi rend="italic">of a Conference Held
                                 May 12, 1927, Regarding Canadian Border Travel
                             Difficulties</hi></head>
+                        <dateline>
+                            <date when="1927-05-12" ana="#date_undated-inferred-from-document-head"
+                                type="meeting-date">May 12, 1927</date>
+                        </dateline>
                         <p>At 10:30 a.m., by invitation of the Secretary, the following officials
                             met in the Diplomatic Room of the Department: <list>
                                 <item>The Secretary</item>
