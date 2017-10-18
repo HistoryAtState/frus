@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1925v02">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1925v02">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -60,6 +60,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -7092,7 +7095,9 @@
                             Cuba. Text of the resolution will be cabled to you tomorrow.</p>
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d4" n="4" subtype="historical-document">
+                    <div type="document" xml:id="d4" n="4" subtype="historical-document"
+                        frus:doc-dateTime-min="1904-03-02T00:00:00Z"
+                        frus:doc-dateTime-max="1904-03-02T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 709</note>
                         <head><hi rend="italic">Treaty Between the United States of America and
                                 Cuba, Signed at Washington, March 2, 1904</hi><note n="3"
@@ -7153,8 +7158,8 @@
                             this treaty and hereunto affixed our seals.</p>
                         <closer>
                             <dateline>Done at <placeName>Washington</placeName>, in duplicate, in
-                                English and Spanish this <date>second day of March one thousand nine
-                                    hundred and four</date>.</dateline>
+                                English and Spanish <date when="1904-03-02">this second day of March
+                                    one thousand nine hundred and four</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">John Hay</hi></signed> [<hi
                                 rend="smallcaps">seal</hi>]<lb/><signed><hi rend="smallcaps">Gonzalo
                                     de Quesada</hi></signed> [<hi rend="smallcaps"
@@ -8250,7 +8255,9 @@
                         <closer><signed><hi rend="smallcaps">Frederick F. A.
                             Pearson</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d24" n="24" subtype="historical-document">
+                    <div type="document" xml:id="d24" n="24" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-07-02T00:00:00Z"
+                        frus:doc-dateTime-max="1925-07-02T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 734</note>
                         <head><hi rend="italic">Treaty Between the United States of America and
                                 Czechoslovakia, Signed at Prague, July 2, 1925</hi><note n="2"
@@ -8512,10 +8519,13 @@
                             either of the High Contracting Parties.</p>
                         <p>In witness whereof the above named Plenipotentiaries have signed the
                             present Treaty and have hereunto affixed their seals.</p>
-                        <p>Done in duplicate at Prague this second day of July, nineteen hundred and
-                            twenty five.</p>
-                        <closer>[<hi rend="smallcaps">seal</hi>] <signed><hi rend="smallcaps">Lewis
-                                    Einstein</hi></signed><lb/>[<hi rend="smallcaps">seal</hi>]
+                        <closer>
+                            <dateline rendition="#left">Done in duplicate at
+                                    <placeName>Prague</placeName>
+                                <date when="1925-07-02">this second day of July, nineteen hundred
+                                    and twenty five</date>.</dateline><lb/> [<hi rend="smallcaps"
+                                >seal</hi>] <signed><hi rend="smallcaps">Lewis
+                                Einstein</hi></signed><lb/>[<hi rend="smallcaps">seal</hi>]
                                 <signed>Dr. <hi rend="smallcaps">Eduard Beneš</hi></signed></closer>
                     </div>
                 </div>
@@ -9315,12 +9325,18 @@
                         <p>I avail myself [etc.]</p>
                         <closer><signed><hi rend="smallcaps">J. C. Ariza</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d43" n="43" subtype="historical-document">
+                    <div type="document" xml:id="d43" n="43" subtype="historical-document"
+                        frus:doc-dateTime-min="1926-10-08T00:00:00Z"
+                        frus:doc-dateTime-max="1926-10-08T23:59:59Z">
                         <note rend="inline" type="source">839.51/2686</note>
                         <head><hi rend="italic">The <gloss type="from">Dominican Legation</gloss> to
                                 the <gloss type="to">Department of State</gloss></hi><note n="10"
                                 xml:id="d43fn10">This memorandum was left at the Department by the
                                 Dominican Minister on October 8.</note></head>
+                        <dateline>
+                            <date when="1926-10-08"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <opener><seg rendition="#center">[Translation]</seg></opener>
                         <p>The difference which exists between the “Aclaraciones” (explanations)
                             incorporated in the Congressional Resolution approving the Convention of
@@ -9449,7 +9465,9 @@
                         <p>Accept [etc.]</p>
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d45" n="45" subtype="historical-document">
+                    <div type="document" xml:id="d45" n="45" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-10-24T00:00:00Z"
+                        frus:doc-dateTime-max="1925-10-24T23:59:59Z">
                         <note rend="inline" type="source">839.51/2684</note>
                         <head><hi rend="italic">The Dominican Minister</hi> (<persName type="from"
                                     ><hi rend="italic">Ariza</hi></persName>) <hi rend="italic">to
@@ -9503,13 +9521,19 @@
                             interests and amortization as required by <pb n="57" xml:id="pg_57"
                                 facs="0139"/>each series, but always subordinate to the prior
                             obligations of earlier loans as before stated.</p>
-                        <closer><signed><hi rend="smallcaps">J. C. Ariza</hi></signed></closer>
-                        <postscript>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">October 24,
-                                    1925.</hi></p>
-                        </postscript>
+                        <closer>
+                            <signed><hi rend="smallcaps">J. C. Ariza</hi></signed>
+                            <lb/>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1925-10-24"><hi rend="italic">October 24,
+                                        1925</hi></date>.</dateline>
+                        </closer>
                     </div>
-                    <div type="document" xml:id="d46" n="46" subtype="historical-document">
+                    <div type="document" xml:id="d46" n="46" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-10-24T00:00:00Z"
+                        frus:doc-dateTime-max="1925-10-24T23:59:59Z">
                         <note rend="inline" type="source">839.51/2684</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Dominican Minister</hi> (<persName type="to"><hi rend="italic"
@@ -9570,11 +9594,15 @@
                             of the Dominican Republic that the Government of the United States
                             concurs in the views of the Dominican Government as set forth in the
                             preceding paragraphs.</p>
-                        <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
-                        <postscript>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">October 24,
-                                    1925.</hi></p>
-                        </postscript>
+                        <closer>
+                            <signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed>
+                            <lb/>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1925-10-24"><hi rend="italic">October 24,
+                                        1925</hi></date>.</dateline>
+                        </closer>
                     </div>
                 </div>
             </div>
@@ -10199,7 +10227,9 @@
                 <div type="chapter" xml:id="ch9">
                     <head>Treaty of friendship, commerce and consular rights between the United
                         States and Estonia, signed December 23, 1925</head>
-                    <div type="document" xml:id="d58" n="58" subtype="historical-document">
+                    <div type="document" xml:id="d58" n="58" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-12-23T00:00:00Z"
+                        frus:doc-dateTime-max="1925-12-23T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 736</note>
                         <head><hi rend="italic">Treaty Between the United States of America and
                                 Estonia and Accompanying Protocol, Signed at Washington, December
@@ -10776,7 +10806,8 @@
                         <p>In witness whereof the respective Plenipotentiaries have signed the same
                             and have affixed their seals thereto.</p>
                         <closer><dateline>Done in duplicate, at <placeName>Washington</placeName>,
-                                this <date>23rd day of December, 1925</date>.</dateline><lb/>
+                                    <date when="1925-12-23">this 23rd day of December,
+                                1925</date>.</dateline><lb/>
                             <signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed> [<hi
                                 rend="smallcaps">seal</hi>]<lb/><signed><hi rend="smallcaps">A.
                                     Piip</hi></signed> [<hi rend="smallcaps">seal</hi>]</closer>
@@ -11129,7 +11160,9 @@
                         </frus:attachment>
                     </div>
                     <pb n="91" xml:id="pg_91" facs="0173"/>
-                    <div type="document" xml:id="d61" n="61" subtype="historical-document">
+                    <div type="document" xml:id="d61" n="61" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-03-17T00:00:00Z"
+                        frus:doc-dateTime-max="1925-03-17T23:59:59Z">
                         <note rend="inline" type="source">611.60 d 31/27a</note>
                         <head><hi rend="italic">The <gloss type="from">Department of State</gloss>
                                 to the <gloss type="to">Finnish Legation</gloss></hi><note n="5"
@@ -11137,6 +11170,10 @@
                                 the Minister of Finland, March 17, 1925, by Mr. Evan Young, Chief of
                                 the Division of Eastern European Affairs. W[allace]
                                 Mc[Clure].”</note></head>
+                        <dateline>
+                            <date when="1925-03-17"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <p rend="center"><hi rend="smallcaps">Memorandum</hi></p>
                         <p>The draft for an exchange of notes between the United States and Finland,
                             which was handed to the Minister of Finland by the Under Secretary of
@@ -14250,7 +14287,9 @@
                             Logan.</p>
                         <closer><signed><hi rend="smallcaps">Herrick</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d137" n="137" subtype="historical-document">
+                    <div type="document" xml:id="d137" n="137" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-01-14T00:00:00Z"
+                        frus:doc-dateTime-max="1925-01-14T23:59:59Z">
                         <note rend="inline" type="source">462.00 R 296/910</note>
                         <head><hi rend="italic">Final Protocol of the Conference and Agreement
                                 Regarding the Distribution of the Dawes Annuities, Signed at Paris,
@@ -14274,8 +14313,9 @@
                             of which a copy is attached to the present Protocol.</p>
                         <closer>
                             <dateline><hi rend="smallcaps">Done at</hi>
-                                <placeName><hi rend="smallcaps">Paris</hi></placeName>, <date><hi
-                                        rend="italic">14th January 1925</hi></date>.</dateline><lb/>
+                                <placeName><hi rend="smallcaps">Paris</hi></placeName>, <date
+                                    when="1925-01-14"><hi rend="italic">14th January
+                                    1925</hi></date>.</dateline><lb/>
                             <signed>
                                 <list>
                                     <item><hi rend="smallcaps">Clementel</hi></item>
@@ -15233,7 +15273,9 @@
                         </closer>
                     </div>
                     <pb n="163" xml:id="pg_163" facs="0245"/>
-                    <div type="document" xml:id="d140" n="140" subtype="historical-document">
+                    <div type="document" xml:id="d140" n="140" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-09-21T00:00:00Z"
+                        frus:doc-dateTime-max="1925-09-21T23:59:59Z">
                         <note rend="inline" type="source">462.R296/1211</note>
                         <head><hi rend="italic">Agreement Regulating the Amounts To Be Allocated Out
                                 of the Second Dawes Annuity for the Armies of Occupation in the
@@ -15342,9 +15384,12 @@
                             Powers.</p>
                         <p>In the interpretation of this Agreement, the English and French texts
                             shall be both authentic.</p>
-                        <p><hi rend="smallcaps">Paris</hi>, <hi rend="italic">September 21,
-                                1925.</hi></p>
                         <closer>
+                            <dateline rendition="#left">
+                                <placeName>
+                                    <hi rend="smallcaps">Paris</hi>
+                                </placeName>, <date when="1925-09-21"><hi rend="italic">September
+                                        21, 1925</hi></date>.</dateline><lb/>
                             <signed>
                                 <list>
                                     <item><hi rend="smallcaps">Mauclère</hi></item>
@@ -16652,7 +16697,9 @@
                             exemption from taxation of the above-described individual persons.</p>
                         <closer><signed><hi rend="smallcaps">Houghton</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d164" n="164" subtype="historical-document">
+                    <div type="document" xml:id="d164" n="164" subtype="historical-document"
+                        frus:doc-dateTime-min="1923-09-13T00:00:00Z"
+                        frus:doc-dateTime-max="1923-09-13T23:59:59Z">
                         <note rend="inline" type="source">811.512362 Shipping/–</note>
                         <head><hi rend="italic">The <gloss type="from">German Embassy</gloss> to the
                                     <gloss type="to">Department of State</gloss></hi></head>
@@ -16665,8 +16712,9 @@
                             of North American Steamship Companies from the payment of the German
                             corporation tax.</p>
                         <closer><dateline><placeName><hi rend="smallcaps"
-                                    >Washington</hi></placeName>, <date><hi rend="italic">September
-                                        13, 1923</hi></date>.</dateline></closer>
+                                    >Washington</hi></placeName>, <date when="1923-09-13"><hi
+                                        rend="italic">September 13,
+                            1923</hi></date>.</dateline></closer>
                         <frus:attachment>
                             <opener><seg rendition="#center">[Enclosure—Translation<note n="82"
                                         xml:id="d164fn82">File translation
@@ -17233,13 +17281,20 @@
                                 target="frus1924v02#pg_193"><hi rend="italic">Foreign
                                 Relations</hi>, 1924, vol. <hi rend="smallcaps">ii</hi>, pp.
                                 193</ref> ff.</note></head>
-                    <div type="document" xml:id="d172" n="172" subtype="historical-document">
+                    <div type="document" xml:id="d172" n="172" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-02-10T00:00:00Z"
+                        frus:doc-dateTime-max="1925-02-10T23:59:59Z">
                         <head><hi rend="italic">Convention Between the United States of America and
                                 Great Britain, Signed at London, February 10, 1925</hi><note n="2"
                                 xml:id="d172fn2">Ratification advised by the Senate, Mar. 15, 1926;
                                 ratified by the President, Mar. 23, 1926; ratified by Great Britain,
                                 Apr. 20, 1926; ratifications exchanged at London, July 8, 1926;
                                 proclaimed by the President, July 12, 1926.</note></head>
+                        <dateline>
+                            <placeName>London</placeName>, <date when="1925-02-10"
+                                ana="#date_undated-inferred-from-document-head">February 10,
+                                1925</date>
+                        </dateline>
                         <p rend="flushleft">Treaty Series No. 743</p>
                         <p><hi rend="smallcaps">Whereas</hi> His Britannic Majesty has accepted a
                             mandate for the administration of part of the former German protectorate
@@ -17459,13 +17514,20 @@
                                 target="frus1924v02#pg_193"><hi rend="italic">Foreign
                                 Relations</hi>, 1924, vol. <hi rend="smallcaps">ii</hi>, pp.
                                 193</ref> ff.</note></head>
-                    <div type="document" xml:id="d173" n="173" subtype="historical-document">
+                    <div type="document" xml:id="d173" n="173" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-02-10T00:00:00Z"
+                        frus:doc-dateTime-max="1925-02-10T23:59:59Z">
                         <head><hi rend="italic">Convention Between the United States of America and
                                 Great Britain, Signed at London, February 10, 1925</hi><note n="4"
                                 xml:id="d173fn4">Ratification advised by the Senate, Mar. 15, 1926;
                                 ratified by the President, Mar. 23, 1926; ratified by Great Britain,
                                 Apr. 20, 1926; ratifications exchanged at London, July 8, 1926;
                                 proclaimed by the President, July 12, 1926.</note></head>
+                        <dateline>
+                            <placeName>London</placeName>, <date when="1925-02-10"
+                                ana="#date_undated-inferred-from-document-head">February 10,
+                                1925</date>
+                        </dateline>
                         <p rend="flushleft">Treaty Series No. 744</p>
                         <p><hi rend="smallcaps">Whereas</hi> His Britannic Majesty has accepted a
                             mandate for the administration of part of the former German colony of
@@ -17749,13 +17811,20 @@
                                 target="frus1924v02#pg_193"><hi rend="italic">Foreign
                                 Relations</hi>, 1924, vol. <hi rend="smallcaps">ii</hi>, pp.
                                 193</ref> ff.</note></head>
-                    <div type="document" xml:id="d174" n="174" subtype="historical-document">
+                    <div type="document" xml:id="d174" n="174" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-02-10T00:00:00Z"
+                        frus:doc-dateTime-max="1925-02-10T23:59:59Z">
                         <head><hi rend="italic">Convention Between the United States of America and
                                 Great Britain, Signed at London, February 10, 1925</hi><note n="6"
                                 xml:id="d174fn6">Ratification advised by the Senate, Mar. 15, 1926;
                                 ratified by the President, Mar. 23, 1926; ratified by Great Britain,
                                 Apr. 20, 1926; ratifications exchanged at London, July 8, 1926;
                                 proclaimed by the President, July 12, 1926.</note></head>
+                        <dateline>
+                            <placeName>London</placeName>, <date when="1925-02-10"
+                                ana="#date_undated-inferred-from-document-head">February 10,
+                                1925</date>
+                        </dateline>
                         <p rend="flushleft">Treaty Series No. 745</p>
                         <p><hi rend="smallcaps">Whereas</hi> His Britannic Majesty has accepted a
                             mandate for the administration of part of the former German protectorate
@@ -19503,7 +19572,9 @@
                         <p rend="center">. . . . . . . . . . . . . .</p>
                         <closer><signed><hi rend="smallcaps">Houghton</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d192" n="192" subtype="historical-document">
+                    <div type="document" xml:id="d192" n="192" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-12-18T00:00:00Z"
+                        frus:doc-dateTime-max="1925-12-18T23:59:59Z">
                         <note rend="inline" type="source">890g.6363 T 84/233</note>
                         <head><hi rend="italic">The <gloss type="from">French Embassy</gloss> to the
                                     <gloss type="to">Department of State</gloss></hi></head>
@@ -19527,8 +19598,13 @@
                         <p>It is needless to insist upon the serious inconveniences of all kinds
                             which, in the present circumstances, the retirement and an isolated
                             action of the American Group could have.</p>
-                        <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">December 18,
-                                1925.</hi></p>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1925-12-18"><hi rend="italic">December 18,
+                                        1925</hi></date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d193" n="193" subtype="historical-document"
                         frus:doc-dateTime-min="1925-12-18T00:00:00Z"
@@ -19710,13 +19786,19 @@
                 <div type="chapter" xml:id="ch25">
                     <head>Efforts by the United States to obtain for American rubber manufacturers
                         relief from British restrictions on the export of raw rubber</head>
-                    <div type="document" xml:id="d197" n="197" subtype="historical-document">
+                    <div type="document" xml:id="d197" n="197" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-07-17T00:00:00Z"
+                        frus:doc-dateTime-max="1925-07-17T23:59:59Z">
                         <note rend="inline" type="source">841.6176/5</note>
                         <head><hi rend="italic">The <gloss type="from">Rubber Association of
                                     America, Inc.</gloss>, to the <gloss type="to">Department of
                                     State</gloss></hi><note n="78" xml:id="d197fn78">Left at the
                                 Department on July 17, 1925. The exhibits attached to this
                                 memorandum are not printed.</note></head>
+                        <dateline>
+                            <date when="1925-07-17"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <p rend="flushleft"><hi rend="smallcaps">Memorandum Submitted by the Rubber
                                 Association of America, Inc., With Reference to the Effect Upon
                                 America’s Crude Rubber Supply of the British “Stevenson Scheme”
@@ -23163,7 +23245,9 @@
                             this loan, see <ref target="frus1924v02#pg_293"><hi rend="italic"
                                     >Foreign Relations</hi>, 1924, vol. <hi rend="smallcaps"
                                 >ii</hi>, pp. 293</ref> ff.</note></head>
-                    <div type="document" xml:id="d256" n="256" subtype="historical-document">
+                    <div type="document" xml:id="d256" n="256" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-03-31T00:00:00Z"
+                        frus:doc-dateTime-max="1925-03-31T23:59:59Z">
                         <note rend="inline" type="source">838.51/1776</note>
                         <head><hi rend="italic">The <gloss type="from">French Embassy</gloss> to the
                                     <gloss type="to">Department of State</gloss></hi></head>
@@ -23258,8 +23342,12 @@
                             the request of the Union Parisienne are untenable, will bring to bear
                             upon it the necessary amount of pressure to cause satisfaction to be
                             given to a claim that is in every respect well founded.</p>
-                        <p>[<hi rend="smallcaps">Washington</hi>,] <hi rend="italic">March 31,
-                                1925.</hi></p>
+                        <closer>
+                            <dateline>[<placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>,] <date when="1925-03-31"><hi rend="italic">March 31,
+                                        1925</hi></date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d257" n="257" subtype="historical-document"
                         frus:doc-dateTime-min="1925-05-07T00:00:00Z"
@@ -24867,7 +24955,9 @@
                             verification prior to his departure for the United States.</p>
                         <closer><signed><hi rend="smallcaps">Dennis</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d301" n="301" subtype="historical-document">
+                    <div type="document" xml:id="d301" n="301" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-03-12T00:00:00Z"
+                        frus:doc-dateTime-max="1925-03-12T23:59:59Z">
                         <note rend="inline" type="source">815.51/567</note>
                         <head><hi rend="italic">The <gloss type="from">British Embassy</gloss> to
                                 the <gloss type="to">Department of State</gloss></hi></head>
@@ -24884,8 +24974,12 @@
                             His Majesty’s Consul there in urging the submission of the Agreement to
                             the Congress of Honduras for ratification, in order that this long
                             outstanding question may be disposed of as soon as possible.</p>
-                        <p>[<hi rend="smallcaps">Washington</hi>,] <hi rend="italic">March 12,
-                                1925.</hi></p>
+                        <closer>
+                            <dateline>[<placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>,] <date when="1925-03-12"><hi rend="italic">March 12,
+                                        1925</hi></date>.</dateline>
+                        </closer>
                     </div>
                     <pb n="340" xml:id="pg_340" facs="0422"/>
                     <div type="document" xml:id="d302" n="302" subtype="historical-document"
@@ -24962,7 +25056,9 @@
                 <div type="chapter" xml:id="ch36">
                     <head>Treaty of friendship, commerce and consular rights between the United
                         States and Hungary, signed June 24, 1925</head>
-                    <div type="document" xml:id="d304" n="304" subtype="historical-document">
+                    <div type="document" xml:id="d304" n="304" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-06-24T00:00:00Z"
+                        frus:doc-dateTime-max="1925-06-24T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 748</note>
                         <head><hi rend="italic">Treaty Between the United States of America and
                                 Hungary, Signed at Washington, June 24, 1925</hi><note n="1"
@@ -25537,10 +25633,13 @@
                             be exchanged at Budapest as soon as possible.</p>
                         <p>In witness whereof the respective Plenipotentiaries have signed the same
                             and have affixed their seals hereto.</p>
-                        <p>Done in duplicate in the English and Hungarian languages, at Washington,
-                            this twenty-fourth day of June, 1925.</p>
-                        <closer>[<hi rend="smallcaps">seal</hi>] <signed><hi rend="smallcaps">Frank
-                                    B. Kellogg</hi></signed><lb/>[<hi rend="smallcaps">seal</hi>]
+                        <closer>
+                            <dateline rendition="#left">Done in duplicate in the English and
+                                Hungarian languages, at <placeName>Washington</placeName>, <date
+                                    when="1925-06-24">this twenty-fourth day of June,
+                                1925</date>.</dateline><lb/> [<hi rend="smallcaps">seal</hi>]
+                                    <signed><hi rend="smallcaps">Frank B.
+                                Kellogg</hi></signed><lb/>[<hi rend="smallcaps">seal</hi>]
                                     <signed><hi rend="smallcaps">László
                             Széchényi</hi></signed></closer>
                     </div>
@@ -27020,7 +27119,9 @@
                                 question.</item>
                         </list>
                     </div>
-                    <div type="document" xml:id="d330" n="330" subtype="historical-document">
+                    <div type="document" xml:id="d330" n="330" subtype="historical-document"
+                        frus:doc-dateTime-min="1924-09-30T23:16:00Z"
+                        frus:doc-dateTime-max="1924-10-30T02:05:00Z">
                         <note rend="inline" type="source">882.6176 F 51/5: Telegram</note>
                         <head><hi rend="italic">The General Receiver of Customs of Liberia</hi>
                                 (<persName type="from"><hi rend="italic">De la Rue</hi></persName>)
@@ -27028,9 +27129,12 @@
                                 Affairs</hi> (<persName type="to"><hi rend="italic"
                                 >Castle</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Monrovia</hi></placeName> [<date><hi rend="italic"
-                                        >undated</hi></date>].<lb/>[Received October 29, 1924—9:05
-                                p.m.]</dateline></opener>
+                                        >Monrovia</hi></placeName> [<date
+                                    notBefore="1924-10-01T00:00:00-00:44"
+                                    notAfter="1924-10-29T21:05:00-05:00"
+                                    ana="#date_undated-inferred-from-document-content"><hi
+                                        rend="italic">undated</hi></date>].<lb/>[Received October
+                                29, 1924—9:05 p.m.]</dateline></opener>
                         <p>Considering local political and international situation is there any way
                             obtaining from Firestone indication of their decision in time for
                             December legislature? Government without information. Further delay
@@ -27382,7 +27486,9 @@
                         <closer><signed>A[<hi rend="smallcaps">rthur</hi>] N. Y[<hi rend="smallcaps"
                                     >oung</hi>]</signed></closer>
                     </div>
-                    <div type="document" xml:id="d335" n="335" subtype="historical-document">
+                    <div type="document" xml:id="d335" n="335" subtype="historical-document"
+                        frus:doc-dateTime-min="1924-12-18T00:00:00Z"
+                        frus:doc-dateTime-max="1924-12-18T23:59:59Z">
                         <note rend="inline" type="source">882.6176 F 51/18</note>
                         <head><hi rend="italic">Draft Agreement Number 1 Between the Government of
                                 Liberia and Harvey S. Firestone Concerning the Lease of Mount
@@ -27392,6 +27498,10 @@
                                 Company on Dec. 18, 1924; see letter of Dec. 22, 1924, from the
                                 Secretary of State to Mr. Harvey S. Firestone, <ref target="#pg_403"
                                     >p. 403</ref>.</note></head>
+                        <dateline>
+                            <date when="1924-12-18"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
+                        </dateline>
                         <p><hi rend="smallcaps">Memorandum of Agreement</hi> (Styled Agreement
                             Number One) made and entered into at the City of Monrovia Republic of
                             Liberia this . . . . day of . . . . in the Year of Our Lord Nineteen
@@ -27635,11 +27745,18 @@
                                 <signed>Harvey S. Firestone</signed><lb/>. . . . . . . . .
                             .</closer>
                     </div>
-                    <div type="document" xml:id="d336" n="336" subtype="historical-document">
+                    <div type="document" xml:id="d336" n="336" subtype="historical-document"
+                        frus:doc-dateTime-min="1924-12-18T05:00:00Z"
+                        frus:doc-dateTime-max="1924-12-23T04:59:59Z">
                         <note rend="inline" type="source">882.6176 F 51/18</note>
                         <head><hi rend="italic">Draft Agreement Number 2 Between the Government of
                                 Liberia and Harvey S. Firestone Concerning the Lease of One Million
                                 Acres for the Development of Rubber Growing</hi></head>
+                        <dateline>
+                            <date notBefore="1924-12-18T00:00:00-05:00"
+                                notAfter="1924-12-22T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                        </dateline>
                         <p><hi rend="smallcaps">Memorandum of Agreement</hi> (Styled Agreement
                             Number Two) made and entered into at the City of Monrovia Republic of
                             Liberia this . . . . day of . . . . in the year of our Lord Nineteen
@@ -27976,11 +28093,18 @@
                                 Firestone</signed><lb/>. . . . . . . . . .</closer>
                     </div>
                     <pb n="401" xml:id="pg_401" facs="0483"/>
-                    <div type="document" xml:id="d337" n="337" subtype="historical-document">
+                    <div type="document" xml:id="d337" n="337" subtype="historical-document"
+                        frus:doc-dateTime-min="1924-12-18T05:00:00Z"
+                        frus:doc-dateTime-max="1924-12-23T04:59:59Z">
                         <note rend="inline" type="source">882.6176 F 51/18</note>
                         <head><hi rend="italic">Draft Agreement Number 3 Between the Government of
                                 Liberia and Harvey S. Firestone Concerning the Improvement of the
                                 Harbor of Monrovia</hi></head>
+                        <dateline>
+                            <date notBefore="1924-12-18T00:00:00-05:00"
+                                notAfter="1924-12-22T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                        </dateline>
                         <p><hi rend="smallcaps">Memorandum of Agreement</hi> (Styled Agreement
                             Number Three) made and entered into at the City of Monrovia, Republic of
                             Liberia this . . . . day of . . . . in the Year of Our Lord Nineteen
@@ -28188,7 +28312,9 @@
                                 States.</note></p>
                         <closer><signed><hi rend="smallcaps">Hughes</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d340" n="340" subtype="historical-document">
+                    <div type="document" xml:id="d340" n="340" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-01-13T00:00:00Z"
+                        frus:doc-dateTime-max="1925-01-13T23:59:59Z">
                         <note rend="inline" type="source">882.032/47</note>
                         <head><hi rend="italic">An Act Passed by the Liberian Legislature Approving
                                 the Agreements Entered Into by the Liberian Government and Harvey S.
@@ -28221,7 +28347,10 @@
                                     correspondence incidentally thereto.</item>
                             </list></p>
                         <p>Any law to the contrary notwithstanding.</p>
-                        <p rend="flushleft">Approved January 13, 1925.</p>
+                        <closer>
+                            <dateline rendition="#left">Approved <date when="1925-01-13">January 13,
+                                    1925</date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d341" n="341" subtype="historical-document"
                         frus:doc-dateTime-min="1925-02-16T16:00:00Z"
@@ -30685,11 +30814,18 @@
                         <closer><signed><hi rend="smallcaps">De la Rue</hi></signed></closer>
                     </div>
                     <pb n="450" xml:id="pg_450" facs="0532"/>
-                    <div type="document" xml:id="d378" n="378" subtype="historical-document">
+                    <div type="document" xml:id="d378" n="378" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-09-17T00:00:00Z"
+                        frus:doc-dateTime-max="1925-09-17T23:59:59Z">
                         <note rend="inline" type="source">882.6176 F 51/128</note>
                         <head><hi rend="italic">Agreement Number 1 Between the Government of Liberia
                                 and the Firestone Plantations Company, Signed at New York, September
                                 17, 1925</hi></head>
+                        <dateline>
+                            <placeName>New York</placeName>, <date when="1925-09-17"
+                                ana="#date_undated-inferred-from-document-head">September 17,
+                                1925</date>
+                        </dateline>
                         <p><hi rend="smallcaps">Memorandum of Agreement</hi> made and entered into
                             at the City of New York this 17th day of September in the Year of our
                             Lord Nineteen Hundred and Twenty-Five by and between the Government of
@@ -30896,11 +31032,18 @@
                                     >Harvey S. Firestone</hi>, Jr.</signed><lb/><hi rend="italic"
                                 >Secretary</hi></closer>
                     </div>
-                    <div type="document" xml:id="d379" n="379" subtype="historical-document">
+                    <div type="document" xml:id="d379" n="379" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-09-16T00:00:00Z"
+                        frus:doc-dateTime-max="1925-09-16T23:59:59Z">
                         <note rend="inline" type="source">882.6176 F 51/128</note>
                         <head><hi rend="italic">Agreement Number 2 Between the Government of Liberia
                                 and the Firestone Plantations Company, Signed at New York, September
                                 16, 1925</hi></head>
+                        <dateline>
+                            <placeName>New York</placeName>, <date when="1925-09-16"
+                                ana="#date_undated-inferred-from-document-head">September 16,
+                                1925</date>
+                        </dateline>
                         <p><hi rend="smallcaps">Memorandum of Agreement</hi> made and entered into
                             at the City of New York this 16th day of September in the year of our
                             Lord Nineteen Hundred and Twenty-five by and between The Government of
@@ -31234,11 +31377,18 @@
                                 >Secretary</hi></closer>
                     </div>
                     <pb n="461" xml:id="pg_461" facs="0543"/>
-                    <div type="document" xml:id="d380" n="380" subtype="historical-document">
+                    <div type="document" xml:id="d380" n="380" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-09-16T00:00:00Z"
+                        frus:doc-dateTime-max="1925-09-16T23:59:59Z">
                         <note rend="inline" type="source">882.6176 F 51/128</note>
                         <head><hi rend="italic">Agreement Number 3 Between the Government of Liberia
                                 and the Firestone Plantations Company, Signed at New York, September
                                 16, 1925</hi></head>
+                        <dateline>
+                            <placeName>New York</placeName>, <date when="1925-09-16"
+                                ana="#date_undated-inferred-from-document-head">September 16,
+                                1925</date>
+                        </dateline>
                         <p><hi rend="smallcaps">Memorandum of Agreement</hi> made and entered into
                             at the City of New York this 16th day of September in the year of our
                             Lord Nineteen Hundred and Twenty-five by and between the Government of
@@ -31353,7 +31503,9 @@
                                     >Harvey S. Firestone</hi>, Jr.</signed><lb/><hi rend="italic"
                                 >Secretary</hi></closer>
                     </div>
-                    <div type="document" xml:id="d381" n="381" subtype="historical-document">
+                    <div type="document" xml:id="d381" n="381" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-09-16T04:00:00Z"
+                        frus:doc-dateTime-max="1925-09-26T03:59:59Z">
                         <note rend="inline" type="source">882.6176 F 51/166</note>
                         <head><hi rend="italic">Draft Loan Agreement Between the Government of
                                 Liberia, the Finance Corporation of America, and The National City
@@ -32225,8 +32377,11 @@
                             force and effect when approved by the Legislature of the Republic of
                             Liberia, on the day and date then specified.</p>
                         <closer>
-                            <dateline>Done at <placeName>New York</placeName> this <date>. . . .
-                                    .day of . . . . . , 1925</date>.</dateline>
+                            <dateline>Done at <placeName>New York</placeName> this <date
+                                    notBefore="1925-09-16T00:00:00-04:00"
+                                    notAfter="1925-09-25T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-sibling-dates">. . . . .day of
+                                    . . . . . , 1925</date>.</dateline>
                             <lb/>. . . . . . . . . .<lb/><hi rend="italic">Secretary of the State of
                                 the Republic of Liberia Plenary Commissioner of
                             Liberia</hi><lb/>Finance Corporation of America,<lb/>By . . . . . . . .
@@ -32417,11 +32572,17 @@
                         <p>I have [etc.]</p>
                         <closer><signed><hi rend="smallcaps">H. G. Chilton</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d384" n="384" subtype="historical-document">
+                    <div type="document" xml:id="d384" n="384" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-10-19T00:00:00Z"
+                        frus:doc-dateTime-max="1925-10-19T23:59:59Z">
                         <note rend="inline" type="source">882.51/1840</note>
                         <head><hi rend="italic">Memorandum by the Secretary of State of an Interview
                                 With the British Ambassador</hi> (<hi rend="italic">Howard</hi>),
                                 <hi rend="italic">October 19, 1925</hi></head>
+                        <dateline>
+                            <date when="1925-10-19" ana="#date_undated-inferred-from-document-head"
+                                >October 19, 1925</date>
+                        </dateline>
                         <p>I explained to the British Ambassador very briefly the attitude of the
                             United States in Liberia as to the open door policy and told him I would
                             answer his note of a recent date as soon as possible.</p>
@@ -33281,7 +33442,9 @@
                         <p>Accept [etc.]</p>
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d394" n="394" subtype="historical-document">
+                    <div type="document" xml:id="d394" n="394" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-12-23T00:00:00Z"
+                        frus:doc-dateTime-max="1925-12-23T23:59:59Z">
                         <note rend="inline" type="source">611.60 m 31/11</note>
                         <head><hi rend="italic">The Lithuanian Minister</hi> (<persName type="from"
                                     ><hi rend="italic">Bizauskas</hi></persName>) <hi rend="italic"
@@ -33358,11 +33521,15 @@
                             lapse.</p>
                         <p>I shall be glad to have your confirmation of the accord thus reached.</p>
                         <p>Accept [etc.]</p>
-                        <closer><signed><hi rend="smallcaps">K. Bizauskas</hi></signed></closer>
-                        <postscript>
-                            <p><hi rend="smallcaps">Washington</hi>, <hi rend="italic">December 23,
-                                    1925.</hi></p>
-                        </postscript>
+                        <closer>
+                            <signed><hi rend="smallcaps">K. Bizauskas</hi></signed>
+                            <lb/>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Washington</hi>
+                                </placeName>, <date when="1925-12-23"><hi rend="italic">December 23,
+                                        1925</hi></date>.</dateline>
+                        </closer>
                     </div>
                     <div type="document" xml:id="d395" n="395" subtype="historical-document"
                         frus:doc-dateTime-min="1926-07-09T00:00:00Z"
@@ -33745,7 +33912,9 @@
                         <closer><signed>F[<hi rend="smallcaps">ranklin</hi>] M. G[<hi
                                     rend="smallcaps">unther</hi>]</signed></closer>
                     </div>
-                    <div type="document" xml:id="d406" n="406" subtype="historical-document">
+                    <div type="document" xml:id="d406" n="406" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-12-23T00:00:00Z"
+                        frus:doc-dateTime-max="1925-12-23T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 732</note>
                         <head><hi rend="italic">Convention Between the United States of America and
                                 Mexico, Signed at Washington, December 23, 1925</hi><note n="9"
@@ -33754,6 +33923,7 @@
                                 President, Mar. 11, 1926; ratified by Mexico, Jan. 29, 1926;
                                 ratifications exchanged at Washington, Mar. 18, 1926; proclaimed by
                                 the President, Mar. 18, 1926.</note></head>
+
                         <p>The Government of the United States of America and the Government of the
                             United Mexican States being desirous of cooperating to prevent the
                             smuggling into their respective territories of merchandise, narcotics,
@@ -33958,14 +34128,19 @@
                         <p>In witness whereof the respective plenipotentiaries have signed the
                             present Convention both in the English and Spanish languages, and have
                             thereunto affixed their seals.</p>
-                        <p>Done in duplicate at the City of Washington this twenty-third day of
-                            December, one thousand nine hundred and twenty-five.</p>
-                        <closer>[<hi rend="smallcaps">seal</hi>] <signed><hi rend="smallcaps">Frank
+                        <closer>
+                            <dateline rendition="#left">Done in duplicate at the City of
+                                    <placeName>Washington</placeName>
+                                <date when="1925-12-23">this twenty-third day of December, one
+                                    thousand nine hundred and twenty-five</date>.</dateline><lb/>
+                                [<hi rend="smallcaps">seal</hi>] <signed><hi rend="smallcaps">Frank
                                     B. Kellogg</hi></signed><lb/>[<hi rend="smallcaps">seal</hi>]
                                     <signed><hi rend="smallcaps">Manuel C.
                             Téllez</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d407" n="407" subtype="historical-document">
+                    <div type="document" xml:id="d407" n="407" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-12-23T00:00:00Z"
+                        frus:doc-dateTime-max="1925-12-23T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 741</note>
                         <head><hi rend="italic">Supplementary Extradition Convention Between the
                                 United States of America and Mexico, Signed at Washington, December
@@ -34037,10 +34212,13 @@
                         <p>In testimony whereof the respective plenipotentiaries have signed the
                             present Convention in duplicate, and have hereunto affixed their
                             seals.</p>
-                        <p>Done in duplicate at the City of Washington, in the English and Spanish
-                            languages, this twenty-third day of December, one thousand nine hundred
-                            and twenty-five.</p>
-                        <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed> [<hi
+                        <closer>
+                            <dateline rendition="#left">Done in duplicate at the City of
+                                    <placeName>Washington</placeName>, in the English and Spanish
+                                languages, <date when="1925-12-23">this twenty-third day of
+                                    December, one thousand nine hundred and
+                                twenty-five</date>.</dateline><lb/>
+                            <signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed> [<hi
                                 rend="smallcaps">seal</hi>]<lb/><signed><hi rend="smallcaps">Manuel
                                     C. Téllez</hi></signed> [<hi rend="smallcaps"
                             >seal</hi>]</closer>
@@ -34133,11 +34311,17 @@
                             informal communication to the Mexican Foreign Office.</p>
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d409" n="409" subtype="historical-document">
+                    <div type="document" xml:id="d409" n="409" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-06-14T00:00:00Z"
+                        frus:doc-dateTime-max="1925-06-14T23:59:59Z">
                         <head><hi rend="italic">Statement Issued to the Press by President Calles on
                                 June 14, 1925</hi><note n="17" xml:id="d409fn17">Reprinted from the
                                     <hi rend="italic">New York Times</hi> of June 15,
                             1925.</note></head>
+                        <dateline>
+                            <date when="1925-06-14" ana="#date_undated-inferred-from-document-head"
+                                >June 14, 1925</date>
+                        </dateline>
                         <p>Declarations of the State Department have been published in which Mr.
                             Kellogg, answering some questions relating to the visit of Ambassador
                             Sheffield to said department, affirms that some properties of American
@@ -39211,7 +39395,9 @@
                                 Arbitration at The Hague … Memorandum of the United States of
                                 America</hi> (Washington, Government Printing Office, 1925), pp.
                             134–192.</note></head>
-                    <div type="document" xml:id="d466" n="466" subtype="historical-document">
+                    <div type="document" xml:id="d466" n="466" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-01-23T00:00:00Z"
+                        frus:doc-dateTime-max="1925-01-23T23:59:59Z">
                         <note rend="inline" type="source">Treaty Series No. 711</note>
                         <head><hi rend="italic">Treaty Between the United States of America and the
                                 Netherlands, Signed at Washington, January 23, 1925</hi><note n="2"
@@ -39355,12 +39541,14 @@
                             as soon as possible at Washington.</p>
                         <p>In witness whereof the respective plenipotentiaries have signed this
                             special agreement and have hereunto affixed their seals.</p>
-                        <p>Done in duplicate in the City of Washington in the English and
-                            Netherlands languages this 23d day of January, 1925.</p>
-                        <closer>[<hi rend="smallcaps">seal</hi>] <signed><hi rend="smallcaps"
-                                    >Charles Evans Hughes</hi></signed><lb/>[<hi rend="smallcaps"
-                                >seal</hi>] <signed><hi rend="smallcaps">De
-                            Graeff</hi></signed></closer>
+                        <closer>
+                            <dateline rendition="#left">Done in duplicate in the City of
+                                    <placeName>Washington</placeName> in the English and Netherlands
+                                languages <date when="1925-01-23">this 23d day of January,
+                                    1925</date>.</dateline><lb/> [<hi rend="smallcaps">seal</hi>]
+                                    <signed><hi rend="smallcaps">Charles Evans
+                                Hughes</hi></signed><lb/>[<hi rend="smallcaps">seal</hi>]
+                                    <signed><hi rend="smallcaps">De Graeff</hi></signed></closer>
                         <postscript>
                             <p>[The text of the award of April 4, 1928, was published by the
                                 Permanent Court of Arbitration; see <hi rend="italic">Arbitral Award
@@ -40263,11 +40451,17 @@
                             until you consider it advisable to make a public announcement. …</p>
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d480" n="480" subtype="historical-document">
+                    <div type="document" xml:id="d480" n="480" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-05-28T00:00:00Z"
+                        frus:doc-dateTime-max="1925-05-28T23:59:59Z">
                         <note rend="inline" type="source">817.1051/74</note>
                         <head><hi rend="italic">Memorandum by the Secretary of State of a
                                 Conversation With the Nicaraguan Chargé</hi> (<hi rend="italic"
                                 >Tigerino</hi>), <hi rend="italic">May 28, 1925</hi></head>
+                        <dateline>
+                            <date when="1925-05-28" ana="#date_undated-inferred-from-document-head"
+                                >May 28, 1925</date>
+                        </dateline>
                         <p>The Chargé stated that Nicaragua had passed the law for the establishment
                             of a constabulary and asked us to give them the names of American
                             officers who would act as instructors. I informed him that we had asked
@@ -45397,7 +45591,9 @@
                         <closer><signed><hi rend="smallcaps">Alexander R.
                             Magruder</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d594" n="594" subtype="historical-document">
+                    <div type="document" xml:id="d594" n="594" subtype="historical-document"
+                        frus:doc-dateTime-min="1925-07-26T00:00:00Z"
+                        frus:doc-dateTime-max="1925-07-26T23:59:59Z">
                         <note rend="inline" type="source">703.5867/87</note>
                         <head><hi rend="italic">“Procès-Verbal” for the Transfer of American Embassy
                                 and Consular Property in Turkey From the <gloss type="from">Swedish
@@ -45428,13 +45624,15 @@
                         <p>Signed and delivered in two copies whereof each of the parties have kept
                             one.—</p>
                         <closer><signed><hi rend="smallcaps">Mark L. Bristol</hi></signed></closer>
-                        <postscript>
-                            <p><hi rend="smallcaps">Constantinople</hi>, <hi rend="italic">July 16,
-                                    1925.</hi></p>
-                            <p>Signed at the Swedish Legation at Constantinople July 18th 1925</p>
-                            <closer><signed><hi rend="smallcaps">G. O.
-                                Wallenberg</hi></signed></closer>
-                        </postscript>
+                        <closer>
+                            <dateline>
+                                <placeName>
+                                    <hi rend="smallcaps">Constantinople</hi>
+                                </placeName>, <date when="1925-07-26"><hi rend="italic">July 16,
+                                        1925</hi></date>.<lb/> Signed at the Swedish Legation at
+                                Constantinople July 18th 1925<lb/></dateline>
+                            <signed><hi rend="smallcaps">G. O. Wallenberg</hi></signed>
+                        </closer>
                     </div>
                 </div>
             </div>
