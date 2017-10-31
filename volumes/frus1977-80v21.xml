@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1977-80v21">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1977-80v21">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,6 +23,11 @@
                 <p>Released in 2014 as printed book</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
 
@@ -3095,8 +3100,8 @@
                                 January 7, 1977.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1976-12-31">December 31,
-                                1976</date>
+                            <placeName>Washington</placeName>, <date when="1976-12-31"
+                                type="conversation-or-meeting-date">December 31, 1976</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -4286,7 +4291,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1977-02-15T13:45:00"
-                                to="1977-02-15T14:15:00">February 15, 1977, 1:45–2:15 p.m.</date>
+                                to="1977-02-15T14:15:00" type="conversation-or-meeting-date"
+                                >February 15, 1977, 1:45–2:15 p.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -5459,7 +5465,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-03-02T09:00:00"
-                                >March 2, 1977, 9 a.m.</date>
+                                type="conversation-or-meeting-date">March 2, 1977, 9 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -6008,7 +6014,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1977-03-04T14:30:00"
-                                to="1977-03-04T15:20:00">March 4, 1977, 2:30–3:20 p.m.</date>
+                                to="1977-03-04T15:20:00" type="conversation-or-meeting-date">March
+                                4, 1977, 2:30–3:20 p.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -6892,7 +6899,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1977-11-04T11:30:00"
-                                to="1977-11-04T12:00:00">November 4, 1977, 11:30 a.m.–noon</date>
+                                to="1977-11-04T12:00:00" type="conversation-or-meeting-date"
+                                >November 4, 1977, 11:30 a.m.–noon</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -7203,7 +7211,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-12-02T11:30:00"
-                                >December 2, 1977, 11:30 a.m.</date>
+                                type="conversation-or-meeting-date">December 2, 1977, 11:30
+                                a.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -7630,7 +7639,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1978-01-25T08:00:00"
-                                >January 25, 1978, 8 a.m.</date>
+                                type="conversation-or-meeting-date">January 25, 1978, 8 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -9691,7 +9700,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-01-19T10:00:00"
-                                >January 19, 1977, 10 a.m.</date>
+                                type="conversation-or-meeting-date">January 19, 1977, 10 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -10092,7 +10101,8 @@
                         </head>
                         <dateline>
                             <placeName>Nicosia</placeName>, <date when="1977-02-24T10:15:00"
-                                >February 24, 1977, 10:15 a.m.</date>
+                                type="conversation-or-meeting-date">February 24, 1977, 10:15
+                                a.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -10438,7 +10448,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-02-25T11:30:00"
-                                >February 25, 1977, 11:30 a.m.</date>
+                                type="conversation-or-meeting-date">February 25, 1977, 11:30
+                                a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -10746,7 +10757,8 @@
                         </head>
                         <dateline>
                             <placeName>Moscow</placeName>, <date from="1977-03-30T11:15:00"
-                                to="1977-03-30T14:15:00">March 30, 1977, 11:15 a.m.–2:15 p.m.</date>
+                                to="1977-03-30T14:15:00" type="conversation-or-meeting-date">March
+                                30, 1977, 11:15 a.m.–2:15 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -10970,7 +10982,8 @@
                         </head>
                         <dateline>
                             <placeName>Geneva</placeName>, <date from="1977-05-19T08:00:00"
-                                to="1977-05-19T09:30:00">May 19, 1977, 8–9:30 a.m.</date>
+                                to="1977-05-19T09:30:00" type="conversation-or-meeting-date">May 19,
+                                1977, 8–9:30 a.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -11109,8 +11122,8 @@
                                     corresp="#p_LNC_1">Ledsky</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>London</placeName>, <date when="1977-06-15T12:25:00">June 15,
-                                1977, 12:25 p.m.</date>
+                            <placeName>London</placeName>, <date when="1977-06-15T12:25:00"
+                                type="conversation-or-meeting-date">June 15, 1977, 12:25 p.m.</date>
                         </dateline>
                         <p>I reached Archbishop <persName corresp="#p_M3_1">Makarios</persName> by
                             telephone in his suite at the Grosvenor House in London.</p>
@@ -11202,8 +11215,8 @@
                                 Clifford’s office.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-07-01T14:00:00">July
-                                1, 1977, 2 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1977-07-01T14:00:00"
+                                type="conversation-or-meeting-date">July 1, 1977, 2 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -11698,8 +11711,8 @@
                                     >Clifford</persName> on August 10.</note>
                         </head>
                         <dateline>
-                            <placeName>Nicosia</placeName>, <date when="1977-08-08">August 8,
-                                1977</date>
+                            <placeName>Nicosia</placeName>, <date when="1977-08-08"
+                                type="conversation-or-meeting-date">August 8, 1977</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -12094,7 +12107,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1977-10-01T12:30:00"
-                                >October 1, 1977, 12:30 p.m.</date>
+                                type="conversation-or-meeting-date">October 1, 1977, 12:30
+                                p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -12404,7 +12418,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1977-10-05T12:10:00"
-                                >October 5, 1977, 12:10 p.m.</date>
+                                type="conversation-or-meeting-date">October 5, 1977, 12:10
+                                p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -12479,7 +12494,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date from="1977-10-05T16:15:00"
-                                to="1977-10-05T16:35:00">October 5, 1977, 4:15–4:35 p.m.</date>
+                                to="1977-10-05T16:35:00" type="conversation-or-meeting-date">October
+                                5, 1977, 4:15–4:35 p.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -14648,7 +14664,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1978-06-09T11:15:00"
-                                to="1978-06-09T11:20:00">June 9, 1978, 11:15–11:20 a.m.</date>
+                                to="1978-06-09T11:20:00" type="conversation-or-meeting-date">June 9,
+                                1978, 11:15–11:20 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -15176,7 +15193,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1978-10-06T10:20:00"
-                                to="1978-10-06T10:40:00">October 6, 1978, 10:20–10:40 a.m.</date>
+                                to="1978-10-06T10:40:00" type="conversation-or-meeting-date">October
+                                6, 1978, 10:20–10:40 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -15459,7 +15477,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1978-10-31T10:45:00"
-                                to="1978-10-31T11:20:00">October 31, 1978, 10:45–11:20 a.m.</date>
+                                to="1978-10-31T11:20:00" type="conversation-or-meeting-date">October
+                                31, 1978, 10:45–11:20 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -17035,7 +17054,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1979-05-22T12:05:00"
-                                to="1979-05-22T12:17:00">May 22, 1979, 12:05–12:17 p.m.</date>
+                                to="1979-05-22T12:17:00" type="conversation-or-meeting-date">May 22,
+                                1979, 12:05–12:17 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -19458,7 +19478,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-01-21T15:00:00"
-                                >January 21, 1977, 3 p.m.</date>
+                                type="conversation-or-meeting-date">January 21, 1977, 3 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -19945,8 +19965,8 @@
                                     >Ledsky</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Ankara</placeName>, <date when="1977-02-22T15:00:00">February
-                                22, 1977, 3 p.m.</date>
+                            <placeName>Ankara</placeName>, <date when="1977-02-22T15:00:00"
+                                type="conversation-or-meeting-date">February 22, 1977, 3 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -20438,7 +20458,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-04-08T14:00:00"
-                                >April 8, 1977, 2 p.m.</date>
+                                type="conversation-or-meeting-date">April 8, 1977, 2 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -20864,7 +20884,8 @@
                         </head>
                         <dateline>
                             <placeName>London</placeName>, <date from="1977-05-10T08:48:00"
-                                to="1977-05-10T09:25:00">May 10, 1977, 8:48–9:25 a.m.</date>
+                                to="1977-05-10T09:25:00" type="conversation-or-meeting-date">May 10,
+                                1977, 8:48–9:25 a.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -21580,7 +21601,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1977-09-27T11:30:00"
-                                >September 27, 1977, 11:30 a.m.</date>
+                                type="conversation-or-meeting-date">September 27, 1977, 11:30
+                                a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -21900,7 +21922,7 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1977-10-05T16:00:00"
-                                >October 5, 1977, 4 p.m.</date>
+                                type="conversation-or-meeting-date">October 5, 1977, 4 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -22390,7 +22412,8 @@
                         </head>
                         <dateline>
                             <placeName>Brussels</placeName>, <date when="1977-12-07T09:30:00"
-                                >December 7, 1977, 9:30 a.m.</date>
+                                type="conversation-or-meeting-date">December 7, 1977, 9:30
+                                a.m.</date>
                         </dateline>
                         <p rend="center">BILATERAL MEETING BETWEEN SECRETARY <persName
                                 corresp="#p_BH_1">BROWN</persName> AND TURKISH MINISTER OF DEFENSE
@@ -22563,7 +22586,8 @@
                         </head>
                         <dateline>
                             <placeName>Brussels</placeName>, <date when="1977-12-08T18:30:00"
-                                >December 8, 1977, 6:30 p.m.</date>
+                                type="conversation-or-meeting-date">December 8, 1977, 6:30
+                                p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -24608,7 +24632,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1978-05-31T08:00:00"
-                                to="1978-05-31T09:00:00">May 31, 1978, 8–9 a.m.</date>
+                                to="1978-05-31T09:00:00" type="conversation-or-meeting-date">May 31,
+                                1978, 8–9 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -24880,8 +24905,8 @@
                                 Disarmament.</note>
                         </head>
                         <dateline>
-                            <placeName>New York</placeName>, <date when="1978-06-04">June 4,
-                                1978</date>
+                            <placeName>New York</placeName>, <date when="1978-06-04"
+                                type="conversation-or-meeting-date">June 4, 1978</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -25149,8 +25174,8 @@
                                 text.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-06-05">June 5,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-06-05"
+                                type="conversation-or-meeting-date">June 5, 1978</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -31508,7 +31533,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1980-10-03T16:30:00"
-                                to="1980-10-03T16:50:00">October 3, 1980, 4:30–4:50 p.m.</date>
+                                to="1980-10-03T16:50:00" type="conversation-or-meeting-date">October
+                                3, 1980, 4:30–4:50 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -32002,8 +32028,8 @@
                                 Drafted by <persName corresp="#p_TPR_1">Tarnoff</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-01-06">January 6,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-01-06"
+                                type="conversation-or-meeting-date">January 6, 1977</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -32673,7 +32699,8 @@
                         </head>
                         <dateline>
                             <placeName>London</placeName>, <date from="1977-05-10T07:47:00"
-                                to="1977-05-10T08:25:00">May 10, 1977, 7:47–8:25 a.m.</date>
+                                to="1977-05-10T08:25:00" type="conversation-or-meeting-date">May 10,
+                                1977, 7:47–8:25 a.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -33314,7 +33341,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1977-09-29T16:00:00"
-                                >September 29, 1977, 4 p.m.</date>
+                                type="conversation-or-meeting-date">September 29, 1977, 4
+                                p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -33652,7 +33680,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1977-10-03T10:30:00"
-                                >October 3, 1977, 10:30 a.m.</date>
+                                type="conversation-or-meeting-date">October 3, 1977, 10:30
+                                a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -34074,7 +34103,8 @@
                         </head>
                         <dateline>
                             <placeName>Brussels</placeName>, <date when="1977-12-08T17:45:00"
-                                >December 8, 1977, 5:45 p.m.</date>
+                                type="conversation-or-meeting-date">December 8, 1977, 5:45
+                                p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -34368,7 +34398,7 @@
                         </head>
                         <dateline>
                             <placeName>Athens</placeName>, <date when="1978-01-23T17:26:00+00:00"
-                                >January 23, 1978, 1726Z</date>
+                                type="conversation-or-meeting-date">January 23, 1978, 1726Z</date>
                         </dateline>
                         <p>700. Subject: Draft Report on the Secretary’s Meetings With Prime
                             Minister <persName corresp="#p_CC_1">Caramanlis</persName>, January
@@ -34853,7 +34883,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1978-05-31T17:00:00"
-                                to="1978-05-31T18:00:00">May 31, 1978, 5–6 p.m.</date>
+                                to="1978-05-31T18:00:00" type="conversation-or-meeting-date">May 31,
+                                1978, 5–6 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
