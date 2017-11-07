@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1952-54v12p2">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1952-54v12p2">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -38,6 +38,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2011-03-29 PA/HO JW: Created volume shell for HCL</change>
