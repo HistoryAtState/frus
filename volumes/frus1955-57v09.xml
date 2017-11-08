@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1955-57v09">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1955-57v09">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -37,6 +37,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
@@ -21478,8 +21481,8 @@
                             Prepared by <persName corresp="#p_WFO1">Wilcox</persName>.</note></head>
                     <dateline><placeName><hi rend="italic">Washington</hi></placeName>, <date
                             from="1957-01-03T15:00:00-05:00" to="1957-01-03T16:45:00-05:00"><hi
-                                rend="italic">January 3, 1957</hi></date>, <hi rend="italic">3–4:45
-                            p.m.</hi></dateline>
+                                rend="italic">January 3, 1957</hi>, <hi rend="italic">3–4:45
+                                p.m.</hi></date></dateline>
                     <p rend="center">POSSIBLE UNITED STATES PARTICIPATION IN THE UNITED NATIONS
                         ECONOMIC DEVELOPMENT PROGRAM</p>
                     <list type="participants">
@@ -30111,8 +30114,8 @@
                             Jr.</persName></note></head>
                     <dateline><placeName><hi rend="italic">Washington</hi></placeName>, <date
                             from="1957-01-18T09:00:00-05:00" to="1957-01-18T10:50:00-05:00"><hi
-                                rend="italic">January 18, 1957</hi></date>, <hi rend="italic"
-                            >9–10:50 a.m.</hi></dateline>
+                                rend="italic">January 18, 1957</hi>, <hi rend="italic">9–10:50
+                                a.m.</hi></date></dateline>
                     <p>[Here follows a list of persons present (35), including the President, Vice
                         President, Secretary of State, Director of <gloss target="#t_USIA1"
                             >USIA</gloss>, and Attorney General <persName corresp="#p_BH2">Herbert
@@ -31465,8 +31468,8 @@
                                 >G</gloss> Files: Civil Rights and Race Relations)</note></p>
                 </div>
                 <div type="document" xml:id="d209" n="209" subtype="historical-document"
-                    frus:doc-dateTime-min="1957-12-03T09:05:00Z"
-                    frus:doc-dateTime-max="1957-12-03T14:00:00Z">
+                    frus:doc-dateTime-min="1957-12-03T14:05:00Z"
+                    frus:doc-dateTime-max="1957-12-03T19:00:00Z">
                     <head>209. Memorandum of a Meeting Between the <gloss type="from"
                             >President</gloss> and <gloss type="to">Legislative Leaders</gloss>, The
                         White House, Washington, December 3, 1957, 9:05 a.m.–2 p.m.<note n="1"
@@ -31474,9 +31477,9 @@
                             Legislative Meetings, 1957. Prepared by <persName corresp="#p_MLAJ1"
                                 >Minnich</persName>.</note></head>
                     <dateline><placeName><hi rend="italic">Washington</hi></placeName>, <date
-                            from="1957-12-03T09:05:00" to="1957-12-03T14:00:00"><hi rend="italic"
-                                >December 3, 1957</hi></date>, <hi rend="italic">9:05 a.m.–2
-                            p.m.</hi></dateline>
+                            from="1957-12-03T09:05:00-05:00" to="1957-12-03T14:00:00-05:00"><hi
+                                rend="italic">December 3, 1957</hi>, <hi rend="italic">9:05 a.m.–2
+                                p.m.</hi></date></dateline>
                     <p>[Here follow a list of persons present (56), including the President, Vice
                         President, Senator <persName corresp="#p_JLB1">Lyndon B. Johnson</persName>,
                         Senator <persName corresp="#p_DEM1">Everett Dirksen</persName>, <pb n="614"
