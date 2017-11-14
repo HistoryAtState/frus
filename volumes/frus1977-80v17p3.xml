@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1977-80v17p3">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1977-80v17p3">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,6 +29,9 @@
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
     </teiHeader>
     <text>
@@ -1130,7 +1133,7 @@
                     <head>North Africa Region</head>
                     <div type="document" n="1" xml:id="d1"
                         frus:doc-dateTime-min="1977-01-12T10:43:00Z"
-                        frus:doc-dateTime-max="1977-01-12T10:43:00Z">
+                        frus:doc-dateTime-max="1977-01-12T10:43:00Z" subtype="historical-document">
                         <head>1. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d1fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D770011–0832. Secret;
@@ -1188,7 +1191,7 @@
 
                     <div type="document" n="2" xml:id="d2"
                         frus:doc-dateTime-min="1977-01-20T08:37:00Z"
-                        frus:doc-dateTime-max="1977-01-20T08:37:00Z">
+                        frus:doc-dateTime-max="1977-01-20T08:37:00Z" subtype="historical-document">
                         <head>2. Telegram From the Embassy in Libya to the Department of State<note
                                 n="1" xml:id="d2fn1" type="source">Source: National Archives, RG 59,
                                 Central Foreign Policy File, D770021–0691. Secret; <gloss
@@ -1276,7 +1279,7 @@
 
                     <div type="document" n="3" xml:id="d3"
                         frus:doc-dateTime-min="1977-02-18T17:00:00Z"
-                        frus:doc-dateTime-max="1977-02-18T17:00:00Z">
+                        frus:doc-dateTime-max="1977-02-18T17:00:00Z" subtype="historical-document">
                         <pb n="4" facs="0025" xml:id="pg_4"/>
                         <head>3. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d3fn1" type="source">Source: National
@@ -1416,7 +1419,7 @@
                     <pb n="7" facs="0028" xml:id="pg_7"/>
                     <div type="document" n="4" xml:id="d4"
                         frus:doc-dateTime-min="1977-03-29T09:35:00Z"
-                        frus:doc-dateTime-max="1977-03-29T09:35:00Z">
+                        frus:doc-dateTime-max="1977-03-29T09:35:00Z" subtype="historical-document">
                         <head>4. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d4fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D770107–0094. Secret;
@@ -1627,7 +1630,7 @@
 
                     <div type="document" n="5" xml:id="d5"
                         frus:doc-dateTime-min="1977-04-02T22:37:00Z"
-                        frus:doc-dateTime-max="1977-04-02T22:37:00Z">
+                        frus:doc-dateTime-max="1977-04-02T22:37:00Z" subtype="historical-document">
                         <head>5. Telegram From the Department of State to the Embassies in France,
                             Italy, and Tunisia<note n="1" xml:id="d5fn1" type="source">Source:
                                 National Archives, RG 59, Central Foreign Policy File, D770116–0033.
@@ -1738,7 +1741,7 @@
 
                     <div type="document" n="6" xml:id="d6"
                         frus:doc-dateTime-min="1977-04-16T12:45:00Z"
-                        frus:doc-dateTime-max="1977-04-16T12:45:00Z">
+                        frus:doc-dateTime-max="1977-04-16T12:45:00Z" subtype="historical-document">
                         <head>6. Telegram From the Embassy in Egypt to the Department of State<note
                                 n="1" xml:id="d6fn1" type="source">Source: National Archives, RG 59,
                                 Central Foreign Policy File, D770133–0249. Secret; Priority; <gloss
@@ -1841,7 +1844,7 @@
 
                     <div type="document" n="7" xml:id="d7"
                         frus:doc-dateTime-min="1977-04-16T23:23:00Z"
-                        frus:doc-dateTime-max="1977-04-16T23:23:00Z">
+                        frus:doc-dateTime-max="1977-04-16T23:23:00Z" subtype="historical-document">
                         <head>7. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d7fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material, Middle East, Subject File, Box 61,
@@ -1889,7 +1892,7 @@
                     <pb n="15" facs="0036" xml:id="pg_15"/>
                     <div type="document" n="8" xml:id="d8"
                         frus:doc-dateTime-min="1977-05-27T00:00:00Z"
-                        frus:doc-dateTime-max="1977-05-27T23:59:59Z">
+                        frus:doc-dateTime-max="1977-05-27T23:59:59Z" subtype="historical-document">
                         <head>8. Memorandum From the Executive Secretary of the Department of State
                                 (<persName corresp="#p_TP_1">Tarnoff</persName>) to the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_BZK_1"
@@ -1973,7 +1976,7 @@
                     <pb n="17" facs="0038" xml:id="pg_17"/>
                     <div type="document" n="9" xml:id="d9"
                         frus:doc-dateTime-min="1977-05-30T13:25:00Z"
-                        frus:doc-dateTime-max="1977-05-30T13:25:00Z">
+                        frus:doc-dateTime-max="1977-05-30T13:25:00Z" subtype="historical-document">
                         <head>9. Telegram From the Embassy in Libya to the Department of State<note
                                 n="1" xml:id="d9fn1" type="source">Source: National Archives, RG 59,
                                 Central Foreign Policy File, D770192–0874. Confidential; Immediate.
@@ -2074,7 +2077,7 @@
                     <pb n="19" facs="0040" xml:id="pg_19"/>
                     <div type="document" n="10" xml:id="d10"
                         frus:doc-dateTime-min="1977-06-09T20:05:00Z"
-                        frus:doc-dateTime-max="1977-06-09T20:05:00Z">
+                        frus:doc-dateTime-max="1977-06-09T20:05:00Z" subtype="historical-document">
                         <head>10. Telegram From the Department of State to the Embassies in Tunisia
                             and the United Kingdom<note n="1" xml:id="d10fn1" type="source">Source:
                                 Carter Library, National Security Affairs, Staff Material, Middle
@@ -2212,7 +2215,7 @@
 
                     <div type="document" n="11" xml:id="d11"
                         frus:doc-dateTime-min="1977-06-10T00:00:00Z"
-                        frus:doc-dateTime-max="1977-06-10T23:59:59Z">
+                        frus:doc-dateTime-max="1977-06-10T23:59:59Z" subtype="historical-document">
                         <head>11. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d11fn1" type="source">Source:
@@ -2252,7 +2255,7 @@
 
                     <div type="document" n="12" xml:id="d12"
                         frus:doc-dateTime-min="1977-06-17T00:00:00Z"
-                        frus:doc-dateTime-max="1977-06-17T23:59:59Z">
+                        frus:doc-dateTime-max="1977-06-17T23:59:59Z" subtype="historical-document">
                         <head>12. Central Intelligence Agency Intelligence Information Cable</head>
                         <opener>
                             <seg rendition="#left">
@@ -2271,7 +2274,7 @@
 
                     <div type="document" n="13" xml:id="d13"
                         frus:doc-dateTime-min="1977-06-21T13:20:00Z"
-                        frus:doc-dateTime-max="1977-06-21T13:20:00Z">
+                        frus:doc-dateTime-max="1977-06-21T13:20:00Z" subtype="historical-document">
                         <head>13. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d13fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -2388,7 +2391,7 @@
 
                     <div type="document" n="14" xml:id="d14"
                         frus:doc-dateTime-min="1977-07-01T13:31:00Z"
-                        frus:doc-dateTime-max="1977-07-01T13:31:00Z">
+                        frus:doc-dateTime-max="1977-07-01T13:31:00Z" subtype="historical-document">
                         <head>14. Telegram From the Embassy in Egypt to the Department of State<note
                                 n="1" xml:id="d14fn1" type="source">Source: National Archives, RG
                                 59, Central Foreign Policy File, P850052–2088. Secret; Immediate;
@@ -2547,7 +2550,7 @@
 
                     <div type="document" n="15" xml:id="d15"
                         frus:doc-dateTime-min="1977-07-06T20:00:00Z"
-                        frus:doc-dateTime-max="1977-07-06T20:00:00Z">
+                        frus:doc-dateTime-max="1977-07-06T20:00:00Z" subtype="historical-document">
                         <head>15. Telegram From the Embassy in Chad to the Department of State<note
                                 n="1" xml:id="d15fn1" type="source">Source: National Archives, RG
                                 59, Central Foreign Policy File, P840084–2289. Secret; <gloss
@@ -2608,7 +2611,7 @@
 
                     <div type="document" n="16" xml:id="d16"
                         frus:doc-dateTime-min="1977-07-07T00:00:00Z"
-                        frus:doc-dateTime-max="1977-07-07T23:59:59Z">
+                        frus:doc-dateTime-max="1977-07-07T23:59:59Z" subtype="historical-document">
                         <head>16. Central Intelligence Agency Intelligence Information Cable<note
                                 n="1" xml:id="d16fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material, Middle East, Subject File, Box 61,
@@ -2737,7 +2740,7 @@
 
                     <div type="document" n="17" xml:id="d17"
                         frus:doc-dateTime-min="1977-07-14T15:00:00Z"
-                        frus:doc-dateTime-max="1977-07-14T15:00:00Z">
+                        frus:doc-dateTime-max="1977-07-14T15:00:00Z" subtype="historical-document">
                         <head>17. Memorandum of Conversation<note n="1" xml:id="d17fn1"
                                 type="source">Source: Department of State, Office of the Secretariat
                                 Staff, <persName corresp="#p_VCR_1">Cyrus R. Vance</persName>,
@@ -2976,7 +2979,7 @@
                     <pb n="35" facs="0056" xml:id="pg_35"/>
                     <div type="document" n="18" xml:id="d18"
                         frus:doc-dateTime-min="1977-07-14T00:00:00Z"
-                        frus:doc-dateTime-max="1977-07-14T23:59:59Z">
+                        frus:doc-dateTime-max="1977-07-14T23:59:59Z" subtype="historical-document">
                         <head>18. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="1"
@@ -3099,7 +3102,7 @@
 
                     <div type="document" n="19" xml:id="d19"
                         frus:doc-dateTime-min="1977-07-15T00:00:00Z"
-                        frus:doc-dateTime-max="1977-07-15T23:59:59Z">
+                        frus:doc-dateTime-max="1977-07-15T23:59:59Z" subtype="historical-document">
                         <head>19. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             Secretary of State <persName corresp="#p_VCR_1">Vance</persName><note
@@ -3136,7 +3139,7 @@
                     <pb n="38" facs="0059" xml:id="pg_38"/>
                     <div type="document" n="20" xml:id="d20"
                         frus:doc-dateTime-min="1977-07-19T00:00:00Z"
-                        frus:doc-dateTime-max="1977-07-19T23:59:59Z">
+                        frus:doc-dateTime-max="1977-07-19T23:59:59Z" subtype="historical-document">
                         <head>20. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d20fn1" type="source">Source:
@@ -3196,7 +3199,7 @@
                     <pb n="39" facs="0060" xml:id="pg_39"/>
                     <div type="document" n="21" xml:id="d21"
                         frus:doc-dateTime-min="1977-08-01T00:00:00Z"
-                        frus:doc-dateTime-max="1977-08-01T23:59:59Z">
+                        frus:doc-dateTime-max="1977-08-01T23:59:59Z" subtype="historical-document">
                         <head>21. Letter From President <persName corresp="#p_CJE_1"
                                 >Carter</persName> to Chadian President <persName corresp="#p_MF_1"
                                 >Malloum</persName><note n="1" xml:id="d21fn1" type="source">Source:
@@ -3240,7 +3243,7 @@
                     <pb n="40" facs="0061" xml:id="pg_40"/>
                     <div type="document" n="22" xml:id="d22"
                         frus:doc-dateTime-min="1977-08-02T02:41:00Z"
-                        frus:doc-dateTime-max="1977-08-02T02:41:00Z">
+                        frus:doc-dateTime-max="1977-08-02T02:41:00Z" subtype="historical-document">
                         <head>22. Telegram From the Department of State to Secretary of State
                                 <persName corresp="#p_VCR_1">Vance</persName> in Egypt<note n="1"
                                 xml:id="d22fn1" type="source">Source: National Archives, RG 59,
@@ -3395,7 +3398,7 @@
                     <pb n="43" facs="0064" xml:id="pg_43"/>
                     <div type="document" n="23" xml:id="d23"
                         frus:doc-dateTime-min="1977-08-12T00:00:00Z"
-                        frus:doc-dateTime-max="1977-08-12T23:59:59Z">
+                        frus:doc-dateTime-max="1977-08-12T23:59:59Z" subtype="historical-document">
                         <head>23. Presidential Determination No. 77–19<note n="1" xml:id="d23fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
                                 Brzezinski Material, Brzezinski Office File, Country Chron File, Box
@@ -3511,7 +3514,7 @@
 
                     <div type="document" n="24" xml:id="d24"
                         frus:doc-dateTime-min="1977-08-20T00:00:00Z"
-                        frus:doc-dateTime-max="1977-08-20T23:59:59Z">
+                        frus:doc-dateTime-max="1977-08-20T23:59:59Z" subtype="historical-document">
                         <head>24. Memorandum From Acting Secretary of State <persName
                                 corresp="#p_CWM_1">Christopher</persName> to President <persName
                                 corresp="#p_CJE_1">Carter</persName><note n="1" xml:id="d24fn1"
@@ -3617,7 +3620,7 @@
                     <pb n="48" facs="0069" xml:id="pg_48"/>
                     <div type="document" n="25" xml:id="d25"
                         frus:doc-dateTime-min="1977-09-09T00:00:00Z"
-                        frus:doc-dateTime-max="1977-09-09T23:59:59Z">
+                        frus:doc-dateTime-max="1977-09-09T23:59:59Z" subtype="historical-document">
                         <head>25. Letter From President <persName corresp="#p_CJE_1"
                                 >Carter</persName> to Chadian President <persName corresp="#p_MF_1"
                                 >Malloum</persName><note n="1" xml:id="d25fn1" type="source">Source:
@@ -3672,7 +3675,7 @@
                     <pb n="49" facs="0070" xml:id="pg_49"/>
                     <div type="document" n="26" xml:id="d26"
                         frus:doc-dateTime-min="1977-09-10T16:03:00Z"
-                        frus:doc-dateTime-max="1977-09-10T16:03:00Z">
+                        frus:doc-dateTime-max="1977-09-10T16:03:00Z" subtype="historical-document">
                         <head>26. Telegram From the Department of State to the Embassy in Chad<note
                                 n="1" xml:id="d26fn1" type="source">Source: National Archives, RG
                                 59, Central Foreign Policy File, D770329–0077. Confidential;
@@ -3822,7 +3825,7 @@
                     <pb n="52" facs="0073" xml:id="pg_52"/>
                     <div type="document" n="27" xml:id="d27"
                         frus:doc-dateTime-min="1977-09-13T08:29:00Z"
-                        frus:doc-dateTime-max="1977-09-13T08:29:00Z">
+                        frus:doc-dateTime-max="1977-09-13T08:29:00Z" subtype="historical-document">
                         <head>27. Telegram From the Embassy in Chad to the Department of State and
                             Other Recipients<note n="1" xml:id="d27fn1" type="source">Source:
                                 National Archives, RG 59, Central Foreign Policy File, D770335–0122.
@@ -3918,7 +3921,7 @@
                     <pb n="54" facs="0075" xml:id="pg_54"/>
                     <div type="document" n="28" xml:id="d28"
                         frus:doc-dateTime-min="1978-02-21T00:00:00Z"
-                        frus:doc-dateTime-max="1978-02-21T23:59:59Z">
+                        frus:doc-dateTime-max="1978-02-21T23:59:59Z" subtype="historical-document">
                         <head>28. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d28fn1" type="source">Source:
@@ -3983,7 +3986,7 @@
                     <pb n="55" facs="0076" xml:id="pg_55"/>
                     <div type="document" n="29" xml:id="d29"
                         frus:doc-dateTime-min="1978-02-23T00:00:00Z"
-                        frus:doc-dateTime-max="1978-02-23T23:59:59Z">
+                        frus:doc-dateTime-max="1978-02-23T23:59:59Z" subtype="historical-document">
                         <head>29. Memorandum From <persName corresp="#p_QWB_1">William
                                 Quandt</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -4083,7 +4086,7 @@
                     <pb n="57" facs="0078" xml:id="pg_57"/>
                     <div type="document" n="30" xml:id="d30"
                         frus:doc-dateTime-min="1978-04-14T00:00:00Z"
-                        frus:doc-dateTime-max="1978-04-14T23:59:59Z">
+                        frus:doc-dateTime-max="1978-04-14T23:59:59Z" subtype="historical-document">
                         <head>30. Presidential Review Memorandum/NSC–34<note n="1" xml:id="d30fn1"
                                 type="source">Source: Carter Library, National Security Council,
                                 Institutional Files, Box 69, PRC 062, 6/13/78, North Africa.
@@ -4144,11 +4147,13 @@
                         </closer>
                     </div>
 
-                    <div type="document" n="31" xml:id="d31">
+                    <div type="document" n="31" xml:id="d31" subtype="historical-document"
+                        frus:doc-dateTime-min="1978-05-12T00:00:00Z"
+                        frus:doc-dateTime-max="1978-05-12T23:59:59Z">
                         <head>31. Paper Prepared by the Policy Review Committee<note n="1"
                                 xml:id="d31fn1" type="source">Source: Carter Library, National
                                 Security Council, Institutional Files, Box 48, PRM/NSC–34 Secret.
-                                Prepared in response to Presidential Review Memorandum/NSC–34 Sent
+                                Prepared in response to Presidential Review Memorandum/NSC–34. Sent
                                 to <persName corresp="#p_BZK_1">Brzezinski</persName> on May 12
                                 under a covering memorandum from <persName corresp="#p_TP_1"
                                     >Tarnoff</persName>. <persName corresp="#p_DC_1"
@@ -4162,7 +4167,9 @@
                                 Major Decisions.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date></dateline>
+                                <placeName>Washington</placeName>, <date when="1978-05-12"
+                                    ana="#date_undated-inferred-from-outside-research"
+                                    >undated</date></dateline>
                         </opener>
                         <p rend="sectiontitleital">Introduction</p>
                         <p>Our reluctance to allow the Moroccan Government to use our military
@@ -4972,7 +4979,7 @@
                     <pb n="76" facs="0097" xml:id="pg_76"/>
                     <div type="document" n="32" xml:id="d32"
                         frus:doc-dateTime-min="1978-06-05T00:00:00Z"
-                        frus:doc-dateTime-max="1978-06-05T23:59:59Z">
+                        frus:doc-dateTime-max="1978-06-05T23:59:59Z" subtype="historical-document">
                         <head>32. Memorandum From <persName corresp="#p_QWB_1">William
                                 Quandt</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -5279,7 +5286,7 @@
 
                     <div type="document" n="33" xml:id="d33"
                         frus:doc-dateTime-min="1978-06-13T17:30:00Z"
-                        frus:doc-dateTime-max="1978-06-13T18:40:00Z">
+                        frus:doc-dateTime-max="1978-06-13T18:40:00Z" subtype="historical-document">
                         <head>33. Summary of Conclusions of a Policy Review Committee Meeting<note
                                 n="1" xml:id="d33fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Brzezinski Material, Brzezinski Office File,
@@ -5430,7 +5437,7 @@
                     <pb n="84" facs="0105" xml:id="pg_84"/>
                     <div type="document" n="34" xml:id="d34"
                         frus:doc-dateTime-min="1978-06-20T00:00:00Z"
-                        frus:doc-dateTime-max="1978-06-20T23:59:59Z">
+                        frus:doc-dateTime-max="1978-06-20T23:59:59Z" subtype="historical-document">
                         <head>34. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="1"
@@ -5498,7 +5505,7 @@
 
                     <div type="document" n="35" xml:id="d35"
                         frus:doc-dateTime-min="1978-11-03T00:00:00Z"
-                        frus:doc-dateTime-max="1978-11-03T23:59:59Z">
+                        frus:doc-dateTime-max="1978-11-03T23:59:59Z" subtype="historical-document">
                         <head>35. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d35fn1" type="source">Source:
@@ -5542,7 +5549,7 @@
                     <pb n="86" facs="0107" xml:id="pg_86"/>
                     <div type="document" n="36" xml:id="d36"
                         frus:doc-dateTime-min="1978-11-04T10:16:00Z"
-                        frus:doc-dateTime-max="1978-11-04T10:16:00Z">
+                        frus:doc-dateTime-max="1978-11-04T10:16:00Z" subtype="historical-document">
                         <head>36. Telegram From the Embassy in Egypt to the Department of State<note
                                 n="1" xml:id="d36fn1" type="source">Source: National Archives, RG
                                 59, Central Foreign Policy File, P850067–2758. Secret; Immediate;
@@ -5627,7 +5634,7 @@
 
                     <div type="document" n="37" xml:id="d37"
                         frus:doc-dateTime-min="1979-03-24T00:00:00Z"
-                        frus:doc-dateTime-max="1979-03-24T23:59:59Z">
+                        frus:doc-dateTime-max="1979-03-24T23:59:59Z" subtype="historical-document">
                         <head>37. Memorandum From the Executive Secretary of the Department of State
                                 (<persName corresp="#p_TP_1">Tarnoff</persName>) to the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_BZK_1"
@@ -5949,7 +5956,7 @@
                     <pb n="94" facs="0115" xml:id="pg_94"/>
                     <div type="document" n="38" xml:id="d38"
                         frus:doc-dateTime-min="1979-03-27T15:30:00Z"
-                        frus:doc-dateTime-max="1979-03-27T16:35:00Z">
+                        frus:doc-dateTime-max="1979-03-27T16:35:00Z" subtype="historical-document">
                         <head>38. Summary of Conclusions of a Policy Review Committee Meeting<note
                                 n="1" xml:id="d38fn1" type="source">Source: Carter Library, National
                                 Security Council, Institutional Files, Box 74, PRC 098, 3/27/79,
@@ -6077,7 +6084,7 @@
                     <pb n="96" facs="0117" xml:id="pg_96"/>
                     <div type="document" n="39" xml:id="d39"
                         frus:doc-dateTime-min="1979-03-28T00:00:00Z"
-                        frus:doc-dateTime-max="1979-03-28T23:59:59Z">
+                        frus:doc-dateTime-max="1979-03-28T23:59:59Z" subtype="historical-document">
                         <head>39. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="1"
@@ -6117,7 +6124,7 @@
                     <pb n="97" facs="0118" xml:id="pg_97"/>
                     <div type="document" n="40" xml:id="d40"
                         frus:doc-dateTime-min="1979-04-20T15:43:00Z"
-                        frus:doc-dateTime-max="1979-04-20T15:43:00Z">
+                        frus:doc-dateTime-max="1979-04-20T15:43:00Z" subtype="historical-document">
                         <head>40. Telegram From the Embassy in Spain to the Department of State<note
                                 n="1" xml:id="d40fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Brzezinski Material, Brzezinski Office File,
@@ -6388,7 +6395,9 @@
                         </closer>
                     </div>
 
-                    <div type="document" n="41" xml:id="d41">
+                    <div type="document" n="41" xml:id="d41" subtype="historical-document"
+                        frus:doc-dateTime-min="1979-09-20T00:00:00Z"
+                        frus:doc-dateTime-max="1979-09-20T23:59:59Z">
                         <head>41. Paper Prepared in the Department of State<note n="1"
                                 xml:id="d41fn1" type="source">Source: Carter Library, National
                                 Security Council, Institutional Files, Box 77, PRC 124, 9/21/79,
@@ -6401,7 +6410,9 @@
                                 see <ref target="#d42">Document 42</ref>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date></dateline>
+                                <placeName>Washington</placeName>, <date when="1979-09-20"
+                                    ana="#date_undated-inferred-from-document-scan"
+                                >undated</date></dateline>
                         </opener>
                         <p rend="center">DISCUSSION PAPER</p>
                         <list type="subject">
@@ -6610,7 +6621,7 @@
 
                     <div type="document" n="42" xml:id="d42"
                         frus:doc-dateTime-min="1979-09-21T10:00:00Z"
-                        frus:doc-dateTime-max="1979-09-21T11:30:00Z">
+                        frus:doc-dateTime-max="1979-09-21T11:30:00Z" subtype="historical-document">
                         <head>42. Minutes of a Policy Review Committee Meeting<note n="1"
                                 xml:id="d42fn1" type="source">Source: Carter Library, National
                                 Security Council, Institutional Files, Box 77, PRC 124, 9/21/79,
@@ -6903,7 +6914,7 @@
 
                     <div type="document" n="43" xml:id="d43"
                         frus:doc-dateTime-min="1979-09-28T22:47:00Z"
-                        frus:doc-dateTime-max="1979-09-28T22:47:00Z">
+                        frus:doc-dateTime-max="1979-09-28T22:47:00Z" subtype="historical-document">
                         <head>43. Telegram from the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d43fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790445–0586. Secret;
@@ -7083,7 +7094,7 @@
                     <pb n="116" facs="0137" xml:id="pg_116"/>
                     <div type="document" n="44" xml:id="d44"
                         frus:doc-dateTime-min="1979-09-29T00:34:00Z"
-                        frus:doc-dateTime-max="1979-09-29T00:34:00Z">
+                        frus:doc-dateTime-max="1979-09-29T00:34:00Z" subtype="historical-document">
                         <head>44. Telegram From the Department of State to the Embassy in
                                 Algeria<note n="1" xml:id="d44fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File D790445–0521. Secret;
@@ -7212,7 +7223,7 @@
 
                     <div type="document" n="45" xml:id="d45"
                         frus:doc-dateTime-min="1979-10-06T21:57:00Z"
-                        frus:doc-dateTime-max="1979-10-06T21:57:00Z">
+                        frus:doc-dateTime-max="1979-10-06T21:57:00Z" subtype="historical-document">
                         <head>45. Telegram From the Department of State to the Embassies in Algeria
                             and Morocco<note n="1" xml:id="d45fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790459–0466. Secret;
@@ -7407,7 +7418,9 @@
                     </div>
 
                     <pb n="122" facs="0143" xml:id="pg_122"/>
-                    <div type="document" n="46" xml:id="d46">
+                    <div type="document" n="46" xml:id="d46" subtype="historical-document"
+                        frus:doc-dateTime-min="1979-10-16T00:00:00Z"
+                        frus:doc-dateTime-max="1979-10-16T23:59:59Z">
                         <head>46. Paper Prepared in the Department of State<note n="1"
                                 xml:id="d46fn1" type="source">Source: Carter Library, National
                                 Security Council, Institutional Files, Box 78, PRC 127, 10/16/79,
@@ -7415,7 +7428,9 @@
                                     <ref target="#d47">Document 47</ref>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date></dateline>
+                                <placeName>Washington</placeName>, <date when="1979-10-16"
+                                    ana="#date_undated-inferred-from-outside-research"
+                                    >undated</date></dateline>
                         </opener>
                         <p rend="sectiontitleital">DISCUSSION PAPER</p>
                         <list type="subject">
@@ -7682,7 +7697,7 @@
 
                     <div type="document" n="47" xml:id="d47"
                         frus:doc-dateTime-min="1979-10-16T16:00:00Z"
-                        frus:doc-dateTime-max="1979-10-16T17:00:00Z">
+                        frus:doc-dateTime-max="1979-10-16T17:00:00Z" subtype="historical-document">
                         <head>47. Minutes of a Policy Review Committee Meeting<note n="1"
                                 xml:id="d47fn1" type="source">Source: Carter Library, National
                                 Security Council, Institutional Files, Box 78, PRC 127, 10/16/79,
@@ -7931,7 +7946,7 @@
 
                     <div type="document" n="48" xml:id="d48"
                         frus:doc-dateTime-min="1979-10-17T00:00:00Z"
-                        frus:doc-dateTime-max="1979-10-17T23:59:59Z">
+                        frus:doc-dateTime-max="1979-10-17T23:59:59Z" subtype="historical-document">
                         <head>48. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="1"
@@ -8028,7 +8043,7 @@
 
                     <div type="document" n="49" xml:id="d49"
                         frus:doc-dateTime-min="1979-10-19T00:00:00Z"
-                        frus:doc-dateTime-max="1979-10-19T23:59:59Z">
+                        frus:doc-dateTime-max="1979-10-19T23:59:59Z" subtype="historical-document">
                         <head>49. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             Secretary of State <persName corresp="#p_VCR_1">Vance</persName>,
@@ -8213,7 +8228,7 @@
                     <pb n="137" facs="0158" xml:id="pg_137"/>
                     <div type="document" n="50" xml:id="d50"
                         frus:doc-dateTime-min="1979-12-22T00:00:00Z"
-                        frus:doc-dateTime-max="1979-12-22T23:59:59Z">
+                        frus:doc-dateTime-max="1979-12-22T23:59:59Z" subtype="historical-document">
                         <head>50. Memorandum From the Executive Secretary of the Department of State
                                 (<persName corresp="#p_TP_1">Tarnoff</persName>) to the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_BZK_1"
@@ -8439,7 +8454,7 @@
 
                     <div type="document" n="51" xml:id="d51"
                         frus:doc-dateTime-min="1980-06-18T00:00:00Z"
-                        frus:doc-dateTime-max="1980-06-18T23:59:59Z">
+                        frus:doc-dateTime-max="1980-06-18T23:59:59Z" subtype="historical-document">
                         <head>51. Memorandum From <persName corresp="#p_SG_1">Gary Sick</persName>
                             of the National Security Council Staff to the President’s Assistant for
                             National Security Affairs (<persName corresp="#p_BZK_1"
@@ -8516,7 +8531,7 @@
                     <pb n="143" facs="0164" xml:id="pg_143"/>
                     <div type="document" n="52" xml:id="d52"
                         frus:doc-dateTime-min="1980-07-02T00:00:00Z"
-                        frus:doc-dateTime-max="1980-07-02T23:59:59Z">
+                        frus:doc-dateTime-max="1980-07-02T23:59:59Z" subtype="historical-document">
                         <head>52. Memorandum From <persName corresp="#p_SG_1">Gary Sick</persName>
                             of the National Security Council Staff to the President’s Deputy
                             Assistant for National Security Affairs (<persName corresp="#p_ADL_1"
@@ -8604,7 +8619,7 @@
 
                     <div type="document" n="53" xml:id="d53"
                         frus:doc-dateTime-min="1980-11-20T00:00:00Z"
-                        frus:doc-dateTime-max="1980-11-20T23:59:59Z">
+                        frus:doc-dateTime-max="1980-11-20T23:59:59Z" subtype="historical-document">
                         <head>53. Briefing Memorandum From the Assistant Secretary of State for
                             African Affairs (<persName corresp="#p_MRM_1">Moose</persName>) to
                             Secretary of State <persName corresp="#p_MES_1">Muskie</persName><note
@@ -8668,7 +8683,7 @@
                     <pb n="146" facs="0167" xml:id="pg_146"/>
                     <div type="document" n="54" xml:id="d54"
                         frus:doc-dateTime-min="1980-11-25T00:00:00Z"
-                        frus:doc-dateTime-max="1980-11-25T23:59:59Z">
+                        frus:doc-dateTime-max="1980-11-25T23:59:59Z" subtype="historical-document">
                         <head>54. Memorandum From Secretary of State <persName corresp="#p_MES_1"
                                 >Muskie</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d54fn1" type="source">Source:
@@ -8710,7 +8725,7 @@
                     <head>Algeria</head>
                     <div type="document" n="55" xml:id="d55"
                         frus:doc-dateTime-min="1977-02-12T16:00:00Z"
-                        frus:doc-dateTime-max="1977-02-12T16:00:00Z">
+                        frus:doc-dateTime-max="1977-02-12T16:00:00Z" subtype="historical-document">
                         <head>55. Telegram From the Embassy in Algeria to the Department of
                                 State<note n="1" xml:id="d55fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -8899,7 +8914,7 @@
                     <pb n="151" facs="0172" xml:id="pg_151"/>
                     <div type="document" n="56" xml:id="d56"
                         frus:doc-dateTime-min="1977-04-05T00:00:00Z"
-                        frus:doc-dateTime-max="1977-04-05T23:59:59Z">
+                        frus:doc-dateTime-max="1977-04-05T23:59:59Z" subtype="historical-document">
                         <head>56. Paper Prepared in the Bureau of Intelligence and Research,
                             Department of State<note n="1" xml:id="d56fn1" type="source">Source:
                                 Carter Library, National Security Affairs, Brzezinski Material,
@@ -8990,7 +9005,7 @@
 
                     <div type="document" n="57" xml:id="d57"
                         frus:doc-dateTime-min="1977-04-13T00:00:00Z"
-                        frus:doc-dateTime-max="1977-04-13T23:59:59Z">
+                        frus:doc-dateTime-max="1977-04-13T23:59:59Z" subtype="historical-document">
                         <head>57. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d57fn1" type="source">Source:
@@ -9046,7 +9061,7 @@
                     <pb n="154" facs="0175" xml:id="pg_154"/>
                     <div type="document" n="58" xml:id="d58"
                         frus:doc-dateTime-min="1977-04-25T00:00:00Z"
-                        frus:doc-dateTime-max="1977-04-25T23:59:59Z">
+                        frus:doc-dateTime-max="1977-04-25T23:59:59Z" subtype="historical-document">
                         <head>58. Paper Prepared in the Bureau of Intelligence and Research,
                             Department of State<note n="1" xml:id="d58fn1" type="source">Source:
                                 Carter Library, National Security Affairs, Staff Material, Middle
@@ -9256,7 +9271,7 @@
                     <pb n="158" facs="0179" xml:id="pg_158"/>
                     <div type="document" n="59" xml:id="d59"
                         frus:doc-dateTime-min="1977-05-27T05:29:00Z"
-                        frus:doc-dateTime-max="1977-05-27T05:29:00Z">
+                        frus:doc-dateTime-max="1977-05-27T05:29:00Z" subtype="historical-document">
                         <head>59. Telegram From the Department of State to the Embassy in
                                 Algeria<note n="1" xml:id="d59fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D770189–0893.
@@ -9363,7 +9378,7 @@
                     <pb n="160" facs="0181" xml:id="pg_160"/>
                     <div type="document" n="60" xml:id="d60"
                         frus:doc-dateTime-min="1977-05-30T00:00:00Z"
-                        frus:doc-dateTime-max="1977-05-30T23:59:59Z">
+                        frus:doc-dateTime-max="1977-05-30T23:59:59Z" subtype="historical-document">
                         <head>60. Memorandum of Conversation<note n="1" xml:id="d60fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
                                 Staff Material, Middle East, Subject File, Box 1, Algeria: 2–12/77.
@@ -9659,7 +9674,7 @@
                     <pb n="166" facs="0187" xml:id="pg_166"/>
                     <div type="document" n="61" xml:id="d61"
                         frus:doc-dateTime-min="1977-07-02T15:15:00Z"
-                        frus:doc-dateTime-max="1977-07-02T15:15:00Z">
+                        frus:doc-dateTime-max="1977-07-02T15:15:00Z" subtype="historical-document">
                         <head>61. Telegram From the Embassy in Algeria to the Department of
                                 State<note n="1" xml:id="d61fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -9746,7 +9761,7 @@
                     <pb n="168" facs="0189" xml:id="pg_168"/>
                     <div type="document" n="62" xml:id="d62"
                         frus:doc-dateTime-min="1977-11-08T00:00:00Z"
-                        frus:doc-dateTime-max="1977-11-08T23:59:59Z">
+                        frus:doc-dateTime-max="1977-11-08T23:59:59Z" subtype="historical-document">
                         <head>62. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d62fn1" type="source">Source:
@@ -9804,7 +9819,7 @@
                     <pb n="169" facs="0190" xml:id="pg_169"/>
                     <div type="document" n="63" xml:id="d63"
                         frus:doc-dateTime-min="1978-06-18T16:05:00Z"
-                        frus:doc-dateTime-max="1978-06-18T16:05:00Z">
+                        frus:doc-dateTime-max="1978-06-18T16:05:00Z" subtype="historical-document">
                         <head>63. Telegram From the Department of State to the Embassy in
                                 Algeria<note n="1" xml:id="d63fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -10012,7 +10027,7 @@
 
                     <div type="document" n="64" xml:id="d64"
                         frus:doc-dateTime-min="1978-06-29T00:00:00Z"
-                        frus:doc-dateTime-max="1978-06-29T23:59:59Z">
+                        frus:doc-dateTime-max="1978-06-29T23:59:59Z" subtype="historical-document">
                         <head>64. Letter From President <persName corresp="#p_CJE_1"
                                 >Carter</persName> to Algerian President <persName corresp="#p_BH_1"
                                 >Boumediene</persName><note n="1" xml:id="d64fn1" type="source"
@@ -10093,7 +10108,7 @@
                     <pb n="174" facs="0195" xml:id="pg_174"/>
                     <div type="document" n="65" xml:id="d65"
                         frus:doc-dateTime-min="1978-10-24T00:00:00Z"
-                        frus:doc-dateTime-max="1978-10-24T23:59:59Z">
+                        frus:doc-dateTime-max="1978-10-24T23:59:59Z" subtype="historical-document">
                         <head>65. Central Intelligence Agency Intelligence Information Cable<note
                                 n="1" xml:id="d65fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material, Middle East, Subject File, Box 1,
@@ -10188,7 +10203,7 @@
 
                     <div type="document" n="66" xml:id="d66"
                         frus:doc-dateTime-min="1978-11-20T00:00:00Z"
-                        frus:doc-dateTime-max="1978-11-20T23:59:59Z">
+                        frus:doc-dateTime-max="1978-11-20T23:59:59Z" subtype="historical-document">
                         <head>66. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to Vice
                             President <persName corresp="#p_MWS_1">Mondale</persName><note n="1"
@@ -10246,7 +10261,7 @@
                     <pb n="177" facs="0198" xml:id="pg_177"/>
                     <div type="document" n="67" xml:id="d67"
                         frus:doc-dateTime-min="1978-12-08T00:00:00Z"
-                        frus:doc-dateTime-max="1978-12-08T23:59:59Z">
+                        frus:doc-dateTime-max="1978-12-08T23:59:59Z" subtype="historical-document">
                         <head>67. Memorandum From <persName corresp="#p_QWB_1">William
                                 Quandt</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -10314,7 +10329,9 @@
                                 Monday.” See <ref target="#d68">Document 68</ref>.</note> (S)</p>
                     </div>
 
-                    <div type="document" n="68" xml:id="d68">
+                    <div type="document" n="68" xml:id="d68" subtype="historical-document"
+                        frus:doc-dateTime-min="1978-12-11T00:00:00Z"
+                        frus:doc-dateTime-max="1978-12-11T23:59:59Z">
                         <head>68. Paper Prepared in the Department of State<note n="1"
                                 xml:id="d68fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Brzezinski Material, Brzezinski Office File,
@@ -10324,7 +10341,9 @@
                                     >Tarnoff</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date></dateline>
+                                <placeName>Washington</placeName>, <date when="1978-12-11"
+                                    ana="#date_undated-inferred-from-outside-research"
+                                    >undated</date></dateline>
                         </opener>
                         <p rend="center"><hi rend="italic">Post-<persName corresp="#p_BH_1"
                                     >Boumediene</persName> Algeria</hi></p>
@@ -10488,7 +10507,7 @@
                     <pb n="182" facs="0203" xml:id="pg_182"/>
                     <div type="document" n="69" xml:id="d69"
                         frus:doc-dateTime-min="1979-01-02T00:00:00Z"
-                        frus:doc-dateTime-max="1979-01-02T23:59:59Z">
+                        frus:doc-dateTime-max="1979-01-02T23:59:59Z" subtype="historical-document">
                         <head>69. Memorandum From <persName corresp="#p_QWB_1">William
                                 Quandt</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -10617,7 +10636,7 @@
 
                     <div type="document" n="70" xml:id="d70"
                         frus:doc-dateTime-min="1979-01-09T00:00:00Z"
-                        frus:doc-dateTime-max="1979-01-09T23:59:59Z">
+                        frus:doc-dateTime-max="1979-01-09T23:59:59Z" subtype="historical-document">
                         <head>70. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             Secretary of State <persName corresp="#p_VCR_1">Vance</persName><note
@@ -10682,7 +10701,7 @@
 
                     <div type="document" n="71" xml:id="d71"
                         frus:doc-dateTime-min="1979-02-09T00:00:00Z"
-                        frus:doc-dateTime-max="1979-02-09T23:59:59Z">
+                        frus:doc-dateTime-max="1979-02-09T23:59:59Z" subtype="historical-document">
                         <head>71. Letter From President <persName corresp="#p_CJE_1"
                                 >Carter</persName> to Algerian President <persName corresp="#p_BC_1"
                                 >Bendjedid</persName><note n="1" xml:id="d71fn1" type="source"
@@ -10742,7 +10761,7 @@
                     <pb n="187" facs="0208" xml:id="pg_187"/>
                     <div type="document" n="72" xml:id="d72"
                         frus:doc-dateTime-min="1979-02-10T00:00:00Z"
-                        frus:doc-dateTime-max="1979-02-10T23:59:59Z">
+                        frus:doc-dateTime-max="1979-02-10T23:59:59Z" subtype="historical-document">
                         <head>72. Memorandum From the Executive Secretary of the Department of State
                                 (<persName corresp="#p_TP_1">Tarnoff</persName>) to the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_BZK_1"
@@ -10876,7 +10895,7 @@
 
                     <div type="document" n="73" xml:id="d73"
                         frus:doc-dateTime-min="1979-10-18T00:00:00Z"
-                        frus:doc-dateTime-max="1979-10-18T23:59:59Z">
+                        frus:doc-dateTime-max="1979-10-18T23:59:59Z" subtype="historical-document">
                         <head>73. Memorandum From <persName corresp="#p_RJ_1">James
                                 Rentschler</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -10942,7 +10961,7 @@
                     <pb n="191" facs="0212" xml:id="pg_191"/>
                     <div type="document" n="74" xml:id="d74"
                         frus:doc-dateTime-min="1979-10-29T00:00:00Z"
-                        frus:doc-dateTime-max="1979-10-29T23:59:59Z">
+                        frus:doc-dateTime-max="1979-10-29T23:59:59Z" subtype="historical-document">
                         <head>74. Letter From President <persName corresp="#p_CJE_1"
                                 >Carter</persName> to Algerian President <persName corresp="#p_BC_1"
                                 >Bendjedid</persName><note n="1" xml:id="d74fn1" type="source"
@@ -10988,7 +11007,7 @@
                     <pb n="192" facs="0213" xml:id="pg_192"/>
                     <div type="document" n="75" xml:id="d75"
                         frus:doc-dateTime-min="1979-11-01T16:15:00Z"
-                        frus:doc-dateTime-max="1979-11-01T17:45:00Z">
+                        frus:doc-dateTime-max="1979-11-01T17:45:00Z" subtype="historical-document">
                         <head>75. Memorandum of Conversation<note n="1" xml:id="d75fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
                                 Brzezinski Material, Subject File, Box 34, Memcons: <persName
@@ -11364,7 +11383,7 @@
                     <pb n="199" facs="0220" xml:id="pg_199"/>
                     <div type="document" n="76" xml:id="d76"
                         frus:doc-dateTime-min="1979-11-02T18:00:00Z"
-                        frus:doc-dateTime-max="1979-11-02T19:00:00Z">
+                        frus:doc-dateTime-max="1979-11-02T19:00:00Z" subtype="historical-document">
                         <head>76. Memorandum of Conversation<note n="1" xml:id="d76fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
                                 Brzezinski Material, Subject File, Box 34, Memcons: <persName
@@ -11742,7 +11761,7 @@
 
                     <div type="document" n="77" xml:id="d77"
                         frus:doc-dateTime-min="1979-11-03T00:00:00Z"
-                        frus:doc-dateTime-max="1979-11-03T23:59:59Z">
+                        frus:doc-dateTime-max="1979-11-03T23:59:59Z" subtype="historical-document">
                         <head>77. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="1"
@@ -11805,7 +11824,7 @@
                     <pb n="207" facs="0228" xml:id="pg_207"/>
                     <div type="document" n="78" xml:id="d78"
                         frus:doc-dateTime-min="1980-01-17T00:00:00Z"
-                        frus:doc-dateTime-max="1980-01-17T23:59:59Z">
+                        frus:doc-dateTime-max="1980-01-17T23:59:59Z" subtype="historical-document">
                         <head>78. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d78fn1" type="source">Source:
@@ -11853,7 +11872,7 @@
                     <head>Libya</head>
                     <div type="document" n="79" xml:id="d79"
                         frus:doc-dateTime-min="1977-01-28T22:16:00Z"
-                        frus:doc-dateTime-max="1977-01-28T22:16:00Z">
+                        frus:doc-dateTime-max="1977-01-28T22:16:00Z" subtype="historical-document">
                         <head>79. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d79fn1" type="source">Source: National Archives, RG
                                 59, Central Foreign Policy File, D770031–1104. Limited Official Use;
@@ -11939,7 +11958,7 @@
                     <pb n="210" facs="0231" xml:id="pg_210"/>
                     <div type="document" n="80" xml:id="d80"
                         frus:doc-dateTime-min="1977-02-10T00:00:00Z"
-                        frus:doc-dateTime-max="1977-02-10T23:59:59Z">
+                        frus:doc-dateTime-max="1977-02-10T23:59:59Z" subtype="historical-document">
                         <head>80. Action Memorandum From the Assistant Secretary of State for Near
                             Eastern and South Asian Affairs (<persName corresp="#p_AAL_1"
                                 >Atherton</persName>) to Secretary of State <persName
@@ -11972,7 +11991,7 @@
                     <pb n="211" facs="0232" xml:id="pg_211"/>
                     <div type="document" n="81" xml:id="d81"
                         frus:doc-dateTime-min="1977-02-13T02:37:00Z"
-                        frus:doc-dateTime-max="1977-02-13T02:37:00Z">
+                        frus:doc-dateTime-max="1977-02-13T02:37:00Z" subtype="historical-document">
                         <head>81. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d81fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material, Middle East, Subject File, Box 61,
@@ -12034,7 +12053,7 @@
                     <pb n="212" facs="0233" xml:id="pg_212"/>
                     <div type="document" n="82" xml:id="d82"
                         frus:doc-dateTime-min="1977-02-14T00:00:00Z"
-                        frus:doc-dateTime-max="1977-02-14T23:59:59Z">
+                        frus:doc-dateTime-max="1977-02-14T23:59:59Z" subtype="historical-document">
                         <head>82. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d82fn1">Carter Library,
@@ -12139,7 +12158,7 @@
                     <pb n="214" facs="0235" xml:id="pg_214"/>
                     <div type="document" n="83" xml:id="d83"
                         frus:doc-dateTime-min="1977-02-24T00:00:00Z"
-                        frus:doc-dateTime-max="1977-02-24T23:59:59Z">
+                        frus:doc-dateTime-max="1977-02-24T23:59:59Z" subtype="historical-document">
                         <head>83. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="1"
@@ -12195,7 +12214,7 @@
                     <pb n="215" facs="0236" xml:id="pg_215"/>
                     <div type="document" n="84" xml:id="d84"
                         frus:doc-dateTime-min="1977-02-28T00:00:00Z"
-                        frus:doc-dateTime-max="1977-02-28T23:59:59Z">
+                        frus:doc-dateTime-max="1977-02-28T23:59:59Z" subtype="historical-document">
                         <head>84. Intelligence Memorandum Prepared in the Central Intelligence
                                 Agency<note n="1" xml:id="d84fn1" type="source">Source: Central
                                 Intelligence Agency, Office of Support Services (<gloss
@@ -12364,7 +12383,7 @@
                     <pb n="218" facs="0239" xml:id="pg_218"/>
                     <div type="document" n="85" xml:id="d85"
                         frus:doc-dateTime-min="1977-03-08T00:00:00Z"
-                        frus:doc-dateTime-max="1977-03-08T23:59:59Z">
+                        frus:doc-dateTime-max="1977-03-08T23:59:59Z" subtype="historical-document">
                         <head>85. Central Intelligence Agency Intelligence Information Cable<note
                                 n="1" xml:id="d85fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material, Middle East, Subject File, Box 61,
@@ -12432,7 +12451,7 @@
                     <pb n="219" facs="0240" xml:id="pg_219"/>
                     <div type="document" n="86" xml:id="d86"
                         frus:doc-dateTime-min="1977-03-18T00:00:00Z"
-                        frus:doc-dateTime-max="1977-03-18T23:59:59Z">
+                        frus:doc-dateTime-max="1977-03-18T23:59:59Z" subtype="historical-document">
                         <head>86. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d86fn1" type="source">Source:
@@ -12497,7 +12516,7 @@
                         </frus:attachment>
                     </div>
 
-                    <div type="document" n="87" xml:id="d87">
+                    <div type="document" n="87" xml:id="d87" subtype="editorial-note">
                         <head>87. Editorial Note</head>
                         <p>In late summer 1981, multiple intelligence reports from a variety of
                             sources revealed Libyan Chairman <persName corresp="#p_QM_1">Mu’ammar
@@ -12552,7 +12571,7 @@
 
                     <div type="document" n="88" xml:id="d88"
                         frus:doc-dateTime-min="1977-04-14T10:34:00Z"
-                        frus:doc-dateTime-max="1977-04-14T10:34:00Z">
+                        frus:doc-dateTime-max="1977-04-14T10:34:00Z" subtype="historical-document">
                         <head>88. Telegram From the Embassy in Libya to the Department of State<note
                                 n="1" xml:id="d88fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material, Middle East, Subject File, Box 61,
@@ -12710,7 +12729,7 @@
 
                     <div type="document" n="89" xml:id="d89"
                         frus:doc-dateTime-min="1977-04-20T00:00:00Z"
-                        frus:doc-dateTime-max="1977-04-20T23:59:59Z">
+                        frus:doc-dateTime-max="1977-04-20T23:59:59Z" subtype="historical-document">
                         <head>89. Memorandum From Director of Central Intelligence <persName
                                 corresp="#p_TS_1">Turner</persName> to the President’s Assistant for
                             National Security Affairs (<persName corresp="#p_BZK_1"
@@ -12760,7 +12779,7 @@
 
                     <div type="document" n="90" xml:id="d90"
                         frus:doc-dateTime-min="1977-07-08T17:55:00Z"
-                        frus:doc-dateTime-max="1977-07-08T17:55:00Z">
+                        frus:doc-dateTime-max="1977-07-08T17:55:00Z" subtype="historical-document">
                         <head>90. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d90fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material, Middle East, Subject File, Box 61,
@@ -12891,7 +12910,7 @@
                     <pb n="228" facs="0249" xml:id="pg_228"/>
                     <div type="document" n="91" xml:id="d91"
                         frus:doc-dateTime-min="1978-02-17T19:27:00Z"
-                        frus:doc-dateTime-max="1978-02-17T19:27:00Z">
+                        frus:doc-dateTime-max="1978-02-17T19:27:00Z" subtype="historical-document">
                         <head>91. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d91fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material Middle East, Subject File, Box 61,
@@ -12939,7 +12958,7 @@
                     <pb n="229" facs="0250" xml:id="pg_229"/>
                     <div type="document" n="92" xml:id="d92"
                         frus:doc-dateTime-min="1978-04-20T00:00:00Z"
-                        frus:doc-dateTime-max="1978-04-20T23:59:59Z">
+                        frus:doc-dateTime-max="1978-04-20T23:59:59Z" subtype="historical-document">
                         <head>92. Memorandum From <persName corresp="#p_QWB_1">William
                                 Quandt</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -12991,7 +13010,7 @@
                     <pb n="230" facs="0251" xml:id="pg_230"/>
                     <div type="document" n="93" xml:id="d93"
                         frus:doc-dateTime-min="1978-04-21T00:00:00Z"
-                        frus:doc-dateTime-max="1978-04-21T23:59:59Z">
+                        frus:doc-dateTime-max="1978-04-21T23:59:59Z" subtype="historical-document">
                         <head>93. Memorandum From <persName corresp="#p_SG_1">Gary Sick</persName>
                             of the National Security Council Staff to the President’s Assistant for
                             National Security Affairs (<persName corresp="#p_BZK_1"
@@ -13040,7 +13059,7 @@
                     <pb n="231" facs="0252" xml:id="pg_231"/>
                     <div type="document" n="94" xml:id="d94"
                         frus:doc-dateTime-min="1978-09-21T19:03:00Z"
-                        frus:doc-dateTime-max="1978-09-21T19:03:00Z">
+                        frus:doc-dateTime-max="1978-09-21T19:03:00Z" subtype="historical-document">
                         <head>94. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d94fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material, Middle East, Subject File, Box 61,
@@ -13162,7 +13181,7 @@
                     <pb n="233" facs="0254" xml:id="pg_233"/>
                     <div type="document" n="95" xml:id="d95"
                         frus:doc-dateTime-min="1978-10-02T23:28:00Z"
-                        frus:doc-dateTime-max="1978-10-02T23:28:00Z">
+                        frus:doc-dateTime-max="1978-10-02T23:28:00Z" subtype="historical-document">
                         <head>95. Telegram From the Mission to the United Nations to the Embassy in
                             Libya and the Department of State<note n="1" xml:id="d95fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
@@ -13266,7 +13285,7 @@
                     <pb n="235" facs="0256" xml:id="pg_235"/>
                     <div type="document" n="96" xml:id="d96"
                         frus:doc-dateTime-min="1978-10-21T13:29:00Z"
-                        frus:doc-dateTime-max="1978-10-21T13:29:00Z">
+                        frus:doc-dateTime-max="1978-10-21T13:29:00Z" subtype="historical-document">
                         <head>96. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d96fn1" type="source">Source: National Archives, RG
                                 59, Central Foreign Policy File, D780432–0438. Secret; Priority;
@@ -13481,7 +13500,7 @@
                     <pb n="239" facs="0260" xml:id="pg_239"/>
                     <div type="document" n="97" xml:id="d97"
                         frus:doc-dateTime-min="1979-01-26T00:00:00Z"
-                        frus:doc-dateTime-max="1979-01-26T23:59:59Z">
+                        frus:doc-dateTime-max="1979-01-26T23:59:59Z" subtype="historical-document">
                         <head>97. Memorandum From <persName corresp="#p_SG_1">Gary Sick</persName>
                             of the National Security Council Staff to the President’s Assistant for
                             National Security Affairs (<persName corresp="#p_BZK_1"
@@ -13522,7 +13541,7 @@
                     <pb n="240" facs="0261" xml:id="pg_240"/>
                     <div type="document" n="98" xml:id="d98"
                         frus:doc-dateTime-min="1979-03-03T00:00:00Z"
-                        frus:doc-dateTime-max="1979-03-03T23:59:59Z">
+                        frus:doc-dateTime-max="1979-03-03T23:59:59Z" subtype="historical-document">
                         <head>98. Memorandum From <persName corresp="#p_OWE_1">William
                                 Odom</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -13584,7 +13603,7 @@
                     <pb n="241" facs="0262" xml:id="pg_241"/>
                     <div type="document" n="99" xml:id="d99"
                         frus:doc-dateTime-min="1979-03-09T00:00:00Z"
-                        frus:doc-dateTime-max="1979-03-09T23:59:59Z">
+                        frus:doc-dateTime-max="1979-03-09T23:59:59Z" subtype="historical-document">
                         <head>99. Letter From the Director of the Office of North African Affairs,
                             Bureau of Near Eastern and South Asian Affairs (<persName
                                 corresp="#p_BJK_1">Bishop</persName>) to the Chargé d’Affaires in
@@ -13661,7 +13680,7 @@
 
                     <div type="document" n="100" xml:id="d100"
                         frus:doc-dateTime-min="1979-06-01T00:00:00Z"
-                        frus:doc-dateTime-max="1979-06-01T23:59:59Z">
+                        frus:doc-dateTime-max="1979-06-01T23:59:59Z" subtype="historical-document">
                         <head>100. Intelligence Memorandum Prepared in the Central Intelligence
                                 Agency<note n="1" xml:id="d100fn1" type="source">Source: Central
                                 Intelligence Agency, Office of Support Services (<gloss
@@ -14147,7 +14166,7 @@
                     <pb n="252" facs="0273" xml:id="pg_252"/>
                     <div type="document" n="101" xml:id="d101"
                         frus:doc-dateTime-min="1979-06-17T00:00:00Z"
-                        frus:doc-dateTime-max="1979-06-17T23:59:59Z">
+                        frus:doc-dateTime-max="1979-06-17T23:59:59Z" subtype="historical-document">
                         <head>101. Memorandum of Conversation<note n="1" xml:id="d101fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
                                 Staff Material, Middle East, Subject File, Box 61, Libya: 1–12/79.
@@ -14465,7 +14484,7 @@
                     <pb n="258" facs="0279" xml:id="pg_258"/>
                     <div type="document" n="102" xml:id="d102"
                         frus:doc-dateTime-min="1979-06-22T00:00:00Z"
-                        frus:doc-dateTime-max="1979-06-22T23:59:59Z">
+                        frus:doc-dateTime-max="1979-06-22T23:59:59Z" subtype="historical-document">
                         <head>102. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d102fn1" type="source">Source:
@@ -14575,7 +14594,7 @@
 
                     <div type="document" n="103" xml:id="d103"
                         frus:doc-dateTime-min="1979-07-17T00:00:00Z"
-                        frus:doc-dateTime-max="1979-07-17T23:59:59Z">
+                        frus:doc-dateTime-max="1979-07-17T23:59:59Z" subtype="historical-document">
                         <head>103. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             Secretary of State <persName corresp="#p_VCR_1">Vance</persName><note
@@ -14612,7 +14631,7 @@
                     <pb n="261" facs="0282" xml:id="pg_261"/>
                     <div type="document" n="104" xml:id="d104"
                         frus:doc-dateTime-min="1979-08-07T00:00:00Z"
-                        frus:doc-dateTime-max="1979-08-07T23:59:59Z">
+                        frus:doc-dateTime-max="1979-08-07T23:59:59Z" subtype="historical-document">
                         <head>104. Note From the Director of the National Foreign Assessment Center,
                             Central Intelligence Agency (<persName corresp="#p_BRR_1"
                                 >Bowie</persName>) to the President’s Assistant for National
@@ -14871,7 +14890,7 @@
                     <pb n="266" facs="0287" xml:id="pg_266"/>
                     <div type="document" n="105" xml:id="d105"
                         frus:doc-dateTime-min="1979-08-14T00:00:00Z"
-                        frus:doc-dateTime-max="1979-08-14T23:59:59Z">
+                        frus:doc-dateTime-max="1979-08-14T23:59:59Z" subtype="historical-document">
                         <head>105. Memorandum From <persName corresp="#p_PR_1">Rutherford
                                 Poats</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -15007,7 +15026,7 @@
 
                     <div type="document" n="106" xml:id="d106"
                         frus:doc-dateTime-min="1979-10-04T21:25:00Z"
-                        frus:doc-dateTime-max="1979-10-04T21:25:00Z">
+                        frus:doc-dateTime-max="1979-10-04T21:25:00Z" subtype="historical-document">
                         <head>106. Telegram From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to the Department of State<note n="1"
                                 xml:id="d106fn1" type="source">Source: Carter Library, National
@@ -15219,7 +15238,7 @@
                     <pb n="273" facs="0294" xml:id="pg_273"/>
                     <div type="document" n="107" xml:id="d107"
                         frus:doc-dateTime-min="1979-10-10T00:00:00Z"
-                        frus:doc-dateTime-max="1979-10-10T23:59:59Z">
+                        frus:doc-dateTime-max="1979-10-10T23:59:59Z" subtype="historical-document">
                         <head>107. Diplomatic Note From the United States to the Government of
                                 Libya<note n="1" xml:id="d107fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Brzezinski Material, Brzezinski
@@ -15289,7 +15308,7 @@
 
                     <div type="document" n="108" xml:id="d108"
                         frus:doc-dateTime-min="1979-12-02T19:54:00Z"
-                        frus:doc-dateTime-max="1979-12-02T19:54:00Z">
+                        frus:doc-dateTime-max="1979-12-02T19:54:00Z" subtype="historical-document">
                         <head>108. Telegram From the Department of State to All Diplomatic Posts and
                             Other Recipients<note n="1" xml:id="d108fn1" type="source">Source:
                                 National Archives, RG 59, Central Foreign Policy File, D790556–0065.
@@ -15371,7 +15390,7 @@
                     <pb n="276" facs="0297" xml:id="pg_276"/>
                     <div type="document" n="109" xml:id="d109"
                         frus:doc-dateTime-min="1979-12-02T17:16:00Z"
-                        frus:doc-dateTime-max="1979-12-02T17:16:00Z">
+                        frus:doc-dateTime-max="1979-12-02T17:16:00Z" subtype="historical-document">
                         <head>109. Telegram From the Department of State to the British Embassy in
                                 Washington<note n="1" xml:id="d109fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -15413,7 +15432,7 @@
                     <pb n="277" facs="0298" xml:id="pg_277"/>
                     <div type="document" n="110" xml:id="d110"
                         frus:doc-dateTime-min="1979-12-03T09:00:00Z"
-                        frus:doc-dateTime-max="1979-12-03T10:15:00Z">
+                        frus:doc-dateTime-max="1979-12-03T10:15:00Z" subtype="historical-document">
                         <head>110. Summary of Conclusions of a Special Coordination Committee
                                 Meeting<note n="1" xml:id="d110fn1" type="source">Source: Carter
                                 Library, National Security Council, Institutional Files, Box 106,
@@ -15527,7 +15546,7 @@
 
                     <div type="document" n="111" xml:id="d111"
                         frus:doc-dateTime-min="1979-12-05T00:00:00Z"
-                        frus:doc-dateTime-max="1979-12-05T23:59:59Z">
+                        frus:doc-dateTime-max="1979-12-05T23:59:59Z" subtype="historical-document">
                         <head>111. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d111fn1" type="source">Source:
@@ -15566,7 +15585,7 @@
 
                     <div type="document" n="112" xml:id="d112"
                         frus:doc-dateTime-min="1979-12-06T09:00:00Z"
-                        frus:doc-dateTime-max="1979-12-06T10:00:00Z">
+                        frus:doc-dateTime-max="1979-12-06T10:00:00Z" subtype="historical-document">
                         <head>112. Summary of Conclusions of a Special Coordination Committee
                                 Meeting<note n="1" xml:id="d112fn1" type="source">Source: Carter
                                 Library, National Security Council, Institutional Files, Box 106,
@@ -15690,7 +15709,7 @@
                     <pb n="281" facs="0302" xml:id="pg_281"/>
                     <div type="document" n="113" xml:id="d113"
                         frus:doc-dateTime-min="1979-12-09T14:45:00Z"
-                        frus:doc-dateTime-max="1979-12-09T14:45:00Z">
+                        frus:doc-dateTime-max="1979-12-09T14:45:00Z" subtype="historical-document">
                         <head>113. Telegram From the Embassy in Libya to the Department of
                                 State<note n="1" xml:id="d113fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, P840156–1905. Secret;
@@ -15788,7 +15807,7 @@
                     <pb n="283" facs="0304" xml:id="pg_283"/>
                     <div type="document" n="114" xml:id="d114"
                         frus:doc-dateTime-min="1979-12-10T00:00:00Z"
-                        frus:doc-dateTime-max="1979-12-10T23:59:59Z">
+                        frus:doc-dateTime-max="1979-12-10T23:59:59Z" subtype="historical-document">
                         <head>114. Memorandum From Acting Secretary of State <persName
                                 corresp="#p_CWM_1">Christopher</persName> to President <persName
                                 corresp="#p_CJE_1">Carter</persName><note n="1" xml:id="d114fn1"
@@ -15832,7 +15851,7 @@
                     <pb n="284" facs="0305" xml:id="pg_284"/>
                     <div type="document" n="115" xml:id="d115"
                         frus:doc-dateTime-min="1979-12-14T13:15:00Z"
-                        frus:doc-dateTime-max="1979-12-14T13:15:00Z">
+                        frus:doc-dateTime-max="1979-12-14T13:15:00Z" subtype="historical-document">
                         <head>115. Telegram From the Embassy in Libya to the Department of
                                 State<note n="1" xml:id="d115fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -15880,7 +15899,9 @@
                     </div>
 
                     <pb n="285" facs="0306" xml:id="pg_285"/>
-                    <div type="document" n="116" xml:id="d116">
+                    <div type="document" n="116" xml:id="d116" subtype="historical-document"
+                        frus:doc-dateTime-min="1979-11-30T00:00:00Z"
+                        frus:doc-dateTime-max="1979-12-15T23:59:59Z">
                         <head>116. Memorandum Prepared by the National Security Council Staff<note
                                 n="1" xml:id="d116fn1" type="source">Source: Carter Library,
                                 National Security Affairs, Staff Material, Middle East, Subject
@@ -15889,7 +15910,10 @@
                                     >Brzezinski</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date></dateline>
+                                <placeName>Washington</placeName>, <date notBefore="1979-11-30"
+                                    notAfter="1979-12-15"
+                                    ana="#date_imprecise-inferred-from-document-content"
+                                    >undated</date></dateline>
                         </opener>
                         <p><hi rend="italic">Nov 30</hi>—SCC. Mexico refuses the Shah.<note n="2"
                                 xml:id="d116fn2">See <ref target="frus1977-80v23#d166"><hi
@@ -15947,7 +15971,7 @@
                             State.)</p>
                         <p><hi rend="italic">Dec 4</hi>—NSC.<note n="7" xml:id="d116fn7">The minutes
                                 of the December 4 National Security Council meeting are scheduled
-                                for publication in <ref target="frus1977-80v11"><hi rend="italic"
+                                for publication in <ref target="frus1977-80v11p1"><hi rend="italic"
                                         >Foreign Relations</hi>, 1977–1980, vol. XI, Iran: Hostage
                                     Crisis, November 1979–January 1981</ref>.</note> Long discussion
                             of economic sanctions, loan defaults, cooperation with allies, etc. Also
@@ -16005,7 +16029,7 @@
 
                     <div type="document" n="117" xml:id="d117"
                         frus:doc-dateTime-min="1979-12-19T00:00:00Z"
-                        frus:doc-dateTime-max="1979-12-19T23:59:59Z">
+                        frus:doc-dateTime-max="1979-12-19T23:59:59Z" subtype="historical-document">
                         <head>117. Memorandum of Conversation<note n="1" xml:id="d117fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
                                 Staff Material, Middle East, Subject File, Box 61, Libya: 1–12/79.
@@ -16119,7 +16143,7 @@
 
                     <div type="document" n="118" xml:id="d118"
                         frus:doc-dateTime-min="1979-12-20T00:00:00Z"
-                        frus:doc-dateTime-max="1979-12-20T23:59:59Z">
+                        frus:doc-dateTime-max="1979-12-20T23:59:59Z" subtype="historical-document">
                         <head>118. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d118fn1" type="source">Source:
@@ -16154,7 +16178,7 @@
                     <pb n="290" facs="0311" xml:id="pg_290"/>
                     <div type="document" n="119" xml:id="d119"
                         frus:doc-dateTime-min="1980-01-03T00:00:00Z"
-                        frus:doc-dateTime-max="1980-01-03T23:59:59Z">
+                        frus:doc-dateTime-max="1980-01-03T23:59:59Z" subtype="historical-document">
                         <head>119. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="1"
@@ -16208,7 +16232,7 @@
                     <pb n="291" facs="0312" xml:id="pg_291"/>
                     <div type="document" n="120" xml:id="d120"
                         frus:doc-dateTime-min="1980-01-14T00:00:00Z"
-                        frus:doc-dateTime-max="1980-01-14T23:59:59Z">
+                        frus:doc-dateTime-max="1980-01-14T23:59:59Z" subtype="historical-document">
                         <head>120. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="1"
@@ -16248,7 +16272,7 @@
 
                     <div type="document" n="121" xml:id="d121"
                         frus:doc-dateTime-min="1980-01-17T00:00:00Z"
-                        frus:doc-dateTime-max="1980-01-17T23:59:59Z">
+                        frus:doc-dateTime-max="1980-01-17T23:59:59Z" subtype="historical-document">
                         <head>121. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="1"
@@ -16301,9 +16325,9 @@
                             (U)</p>
                     </div>
 
-                    <div type="document" n="122 " xml:id="d122 "
+                    <div type="document" n="122 " xml:id="d122"
                         frus:doc-dateTime-min="1980-01-17T18:27:00Z"
-                        frus:doc-dateTime-max="1980-01-17T18:27:00Z">
+                        frus:doc-dateTime-max="1980-01-17T18:27:00Z" subtype="historical-document">
                         <head>122. Telegram From the Department of State to the Embassy in
                                 Libya<note n="1" xml:id="d122fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -16374,7 +16398,7 @@
                     <pb n="294" facs="0315" xml:id="pg_294"/>
                     <div type="document" n="123" xml:id="d123"
                         frus:doc-dateTime-min="1980-01-17T19:27:00Z"
-                        frus:doc-dateTime-max="1980-01-17T19:27:00Z">
+                        frus:doc-dateTime-max="1980-01-17T19:27:00Z" subtype="historical-document">
                         <head>123. Telegram From the Department of State to the Embassy in
                                 Libya<note n="1" xml:id="d123fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Brzezinski Material, President’s
@@ -16468,7 +16492,7 @@
                     <pb n="296" facs="0317" xml:id="pg_296"/>
                     <div type="document" n="124" xml:id="d124"
                         frus:doc-dateTime-min="1980-01-19T11:15:00Z"
-                        frus:doc-dateTime-max="1980-01-19T11:15:00Z">
+                        frus:doc-dateTime-max="1980-01-19T11:15:00Z" subtype="historical-document">
                         <head>124. Telegram From the Embassy in Libya to the Department of
                                 State<note n="1" xml:id="d124fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800032–0682. Secret;
@@ -16572,7 +16596,7 @@
                     <pb n="298" facs="0319" xml:id="pg_298"/>
                     <div type="document" n="125" xml:id="d125"
                         frus:doc-dateTime-min="1980-02-01T00:00:00Z"
-                        frus:doc-dateTime-max="1980-02-01T23:59:59Z">
+                        frus:doc-dateTime-max="1980-02-01T23:59:59Z" subtype="historical-document">
                         <head>125. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d125fn1" type="source">Source:
@@ -16711,7 +16735,7 @@
                     <pb n="301" facs="0322" xml:id="pg_301"/>
                     <div type="document" n="126" xml:id="d126"
                         frus:doc-dateTime-min="1980-03-11T00:00:00Z"
-                        frus:doc-dateTime-max="1980-03-11T23:59:59Z">
+                        frus:doc-dateTime-max="1980-03-11T23:59:59Z" subtype="historical-document">
                         <head>126. Memorandum From the Executive Secretary of the Department of
                             State (<persName corresp="#p_TP_1">Tarnoff</persName>) to the
                             President’s Assistant for National Security Affairs (<persName
@@ -16790,7 +16814,7 @@
 
                     <div type="document" n="127" xml:id="d127"
                         frus:doc-dateTime-min="1980-04-03T00:00:00Z"
-                        frus:doc-dateTime-max="1980-04-03T23:59:59Z">
+                        frus:doc-dateTime-max="1980-04-03T23:59:59Z" subtype="historical-document">
                         <head>127. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d127fn1" type="source">Source:
@@ -16821,7 +16845,7 @@
                     <pb n="303" facs="0324" xml:id="pg_303"/>
                     <div type="document" n="128" xml:id="d128"
                         frus:doc-dateTime-min="1980-05-03T21:59:00Z"
-                        frus:doc-dateTime-max="1980-05-03T21:59:00Z">
+                        frus:doc-dateTime-max="1980-05-03T21:59:00Z" subtype="historical-document">
                         <head>128. Telegram From the Department of State to the Embassy in the
                             United Kingdom<note n="1" xml:id="d128fn1" type="source">Source:
                                 National Archives, RG 59, Central Foreign Policy File, D800221–0253.
@@ -16925,7 +16949,7 @@
 
                     <div type="document" n="129" xml:id="d129"
                         frus:doc-dateTime-min="1980-05-05T00:00:00Z"
-                        frus:doc-dateTime-max="1980-05-05T23:59:59Z">
+                        frus:doc-dateTime-max="1980-05-05T23:59:59Z" subtype="historical-document">
                         <head>129. Memorandum From Acting Secretary of State <persName
                                 corresp="#p_CWM_1">Christopher</persName> to President <persName
                                 corresp="#p_CJE_1">Carter</persName><note n="1" xml:id="d129fn1"
@@ -16969,7 +16993,7 @@
                     <pb n="306" facs="0327" xml:id="pg_306"/>
                     <div type="document" n="130" xml:id="d130"
                         frus:doc-dateTime-min="1980-05-08T00:00:00Z"
-                        frus:doc-dateTime-max="1980-05-08T23:59:59Z">
+                        frus:doc-dateTime-max="1980-05-08T23:59:59Z" subtype="historical-document">
                         <head>130. Memorandum From Robert Hunter of the National Security Council
                             Staff to the President’s Assistant for National Security Affairs
                                 (<persName corresp="#p_BZK_1">Brzezinski</persName>)<note n="1"
@@ -17024,7 +17048,7 @@
 
                     <div type="document" n="131" xml:id="d131"
                         frus:doc-dateTime-min="1980-05-16T00:00:00Z"
-                        frus:doc-dateTime-max="1980-05-16T23:59:59Z">
+                        frus:doc-dateTime-max="1980-05-16T23:59:59Z" subtype="historical-document">
                         <head>131. Intelligence Memorandum Prepared in the Central Intelligence
                                 Agency<note n="1" xml:id="d131fn1" type="source">Source: Central
                                 Intelligence Agency, Office of Support Services (<gloss
@@ -17354,7 +17378,7 @@
 
                     <div type="document" n="132" xml:id="d132"
                         frus:doc-dateTime-min="1980-05-30T00:00:00Z"
-                        frus:doc-dateTime-max="1980-05-30T23:59:59Z">
+                        frus:doc-dateTime-max="1980-05-30T23:59:59Z" subtype="historical-document">
                         <head>132. Special Analysis Article in the <hi rend="italic">National
                                 Intelligence Daily</hi><note n="1" xml:id="d132fn1" type="source"
                                 >Source: Central Intelligence Agency, Office of Support Services,
@@ -17488,7 +17512,7 @@
 
                     <div type="document" n="133" xml:id="d133"
                         frus:doc-dateTime-min="1980-07-25T11:05:00Z"
-                        frus:doc-dateTime-max="1980-07-25T11:43:00Z">
+                        frus:doc-dateTime-max="1980-07-25T11:43:00Z" subtype="historical-document">
                         <head>133. Memorandum for the Record<note n="1" xml:id="d133fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
                                 Brzezinski Material, Brzezinski Office File, Subject Chron File, Box
@@ -17750,7 +17774,7 @@
 
                     <div type="document" n="134" xml:id="d134"
                         frus:doc-dateTime-min="1980-07-30T00:00:00Z"
-                        frus:doc-dateTime-max="1980-07-30T23:59:59Z">
+                        frus:doc-dateTime-max="1980-07-30T23:59:59Z" subtype="historical-document">
                         <head>134. Memorandum From the Executive Secretary of the Department of
                             State (<persName corresp="#p_TP_1">Tarnoff</persName>) to the
                             President’s Assistant for National Security Affairs (<persName
@@ -18236,7 +18260,7 @@
 
                     <div type="document" n="135" xml:id="d135"
                         frus:doc-dateTime-min="1980-09-16T16:30:00Z"
-                        frus:doc-dateTime-max="1980-09-16T17:15:00Z">
+                        frus:doc-dateTime-max="1980-09-16T17:15:00Z" subtype="historical-document">
                         <head>135. Summary of Conclusions of a Mini-Special Coordination Committee
                                 Meeting<note n="1" xml:id="d135fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -18377,7 +18401,7 @@
                     <pb n="333" facs="0354" xml:id="pg_333"/>
                     <div type="document" n="136" xml:id="d136"
                         frus:doc-dateTime-min="1980-09-17T00:00:00Z"
-                        frus:doc-dateTime-max="1980-09-17T23:59:59Z">
+                        frus:doc-dateTime-max="1980-09-17T23:59:59Z" subtype="historical-document">
                         <head>136. Memorandum From <persName corresp="#p_SG_1">Gary Sick</persName>
                             of the National Security Council Staff to the President’s Deputy
                             Assistant for National Security Affairs (<persName corresp="#p_ADL_1"
@@ -18429,7 +18453,7 @@
 
                     <div type="document" n="137" xml:id="d137"
                         frus:doc-dateTime-min="1980-09-18T15:00:00Z"
-                        frus:doc-dateTime-max="1980-09-18T16:00:00Z">
+                        frus:doc-dateTime-max="1980-09-18T16:00:00Z" subtype="historical-document">
                         <head><pb n="334" facs="0355" xml:id="pg_334"/>137. Summary of Conclusions
                             of a Mini-Special Coordination Committee Meeting<note n="1"
                                 xml:id="d137fn1" type="source">Source: Carter Library, National
@@ -18528,7 +18552,7 @@
 
                     <div type="document" n="138" xml:id="d138"
                         frus:doc-dateTime-min="1980-09-19T00:00:00Z"
-                        frus:doc-dateTime-max="1980-09-19T23:59:59Z">
+                        frus:doc-dateTime-max="1980-09-19T23:59:59Z" subtype="historical-document">
                         <head>138. Intelligence Memorandum Prepared in the Central Intelligence
                                 Agency<note n="1" xml:id="d138fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -18606,7 +18630,7 @@
                     <pb n="337" facs="0358" xml:id="pg_337"/>
                     <div type="document" n="139" xml:id="d139"
                         frus:doc-dateTime-min="1980-09-24T23:04:00Z"
-                        frus:doc-dateTime-max="1980-09-24T23:04:00Z">
+                        frus:doc-dateTime-max="1980-09-24T23:04:00Z" subtype="historical-document">
                         <head>139. Telegram From the Department of State to the Embassy in
                                 Greece<note n="1" xml:id="d139fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800457–0182. Secret;
@@ -18719,7 +18743,7 @@
                     <pb n="339" facs="0360" xml:id="pg_339"/>
                     <div type="document" n="140" xml:id="d140"
                         frus:doc-dateTime-min="1980-10-17T00:00:00Z"
-                        frus:doc-dateTime-max="1980-10-17T23:59:59Z">
+                        frus:doc-dateTime-max="1980-10-17T23:59:59Z" subtype="historical-document">
                         <head>140. Memorandum From Secretary of State <persName corresp="#p_MES_1"
                                 >Muskie</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d140fn1" type="source">Source:
@@ -18768,7 +18792,7 @@
                     <pb n="340" facs="0361" xml:id="pg_340"/>
                     <div type="document" n="141" xml:id="d141"
                         frus:doc-dateTime-min="1980-10-21T21:07:00Z"
-                        frus:doc-dateTime-max="1980-10-21T21:07:00Z">
+                        frus:doc-dateTime-max="1980-10-21T21:07:00Z" subtype="historical-document">
                         <head>141. Telegram From the Department of State to the Embassies in the
                             United Kingdom, France, Italy, the Federal Republic of Germany, and
                                 Greece<note n="1" xml:id="d141fn1" type="source">Source: National
@@ -18849,7 +18873,7 @@
                     <pb n="342" facs="0363" xml:id="pg_342"/>
                     <div type="document" n="142" xml:id="d142"
                         frus:doc-dateTime-min="1980-11-14T00:00:00Z"
-                        frus:doc-dateTime-max="1980-11-14T23:59:59Z">
+                        frus:doc-dateTime-max="1980-11-14T23:59:59Z" subtype="historical-document">
                         <head>142. Memorandum From Secretary of State <persName corresp="#p_MES_1"
                                 >Muskie</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d142fn1" type="source">Source:
@@ -18898,7 +18922,7 @@
                     <pb n="343" facs="0364" xml:id="pg_343"/>
                     <div type="document" n="143" xml:id="d143"
                         frus:doc-dateTime-min="1980-12-09T20:41:00Z"
-                        frus:doc-dateTime-max="1980-12-09T20:41:00Z">
+                        frus:doc-dateTime-max="1980-12-09T20:41:00Z" subtype="historical-document">
                         <head>143. Telegram From the Department of State to Multiple Diplomatic
                                 Posts<note n="1" xml:id="d143fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800587–0654. Limited
@@ -19042,7 +19066,7 @@
                     <pb n="346" facs="0367" xml:id="pg_346"/>
                     <div type="document" n="144" xml:id="d144"
                         frus:doc-dateTime-min="1980-12-12T08:23:00Z"
-                        frus:doc-dateTime-max="1980-12-12T08:23:00Z">
+                        frus:doc-dateTime-max="1980-12-12T08:23:00Z" subtype="historical-document">
                         <head>144. Telegram From the Department of State to the Embassy in the
                             United Kingdom<note n="1" xml:id="d144fn1" type="source">Source:
                                 National Archives, RG 59, Central Foreign Policy File, D800595–0269.
@@ -19121,7 +19145,7 @@
                     <head>Morocco</head>
                     <div type="document" n="145" xml:id="d145"
                         frus:doc-dateTime-min="1977-01-14T00:00:00Z"
-                        frus:doc-dateTime-max="1977-01-14T23:59:59Z">
+                        frus:doc-dateTime-max="1977-01-14T23:59:59Z" subtype="historical-document">
                         <head>145. Letter From the Deputy Secretary of Defense (Clements) to the
                             Under Secretary of State for Political Affairs (<persName
                                 corresp="#p_HPC_1">Habib</persName>)<note n="1" xml:id="d145fn1"
@@ -19181,7 +19205,7 @@
 
                     <div type="document" n="146" xml:id="d146"
                         frus:doc-dateTime-min="1977-02-02T00:00:00Z"
-                        frus:doc-dateTime-max="1977-02-02T23:59:59Z">
+                        frus:doc-dateTime-max="1977-02-02T23:59:59Z" subtype="historical-document">
                         <head>146. Memorandum From <persName corresp="#p_QWB_1">William
                                 Quandt</persName> and <persName corresp="#p_SG_1">Gary
                                 Sick</persName> of the National Security Council Staff to the
@@ -19307,7 +19331,7 @@
                     <pb n="352" facs="0373" xml:id="pg_352"/>
                     <div type="document" n="147" xml:id="d147"
                         frus:doc-dateTime-min="1977-02-12T23:32:00Z"
-                        frus:doc-dateTime-max="1977-02-12T23:32:00Z">
+                        frus:doc-dateTime-max="1977-02-12T23:32:00Z" subtype="historical-document">
                         <head>147. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d147fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -19382,7 +19406,7 @@
 
                     <div type="document" n="148" xml:id="d148"
                         frus:doc-dateTime-min="1977-02-14T19:35:00Z"
-                        frus:doc-dateTime-max="1977-02-14T19:35:00Z">
+                        frus:doc-dateTime-max="1977-02-14T19:35:00Z" subtype="historical-document">
                         <head>148. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d148fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -19467,7 +19491,7 @@
                     <pb n="355" facs="0376" xml:id="pg_355"/>
                     <div type="document" n="149" xml:id="d149"
                         frus:doc-dateTime-min="1977-03-08T23:57:00Z"
-                        frus:doc-dateTime-max="1977-03-08T23:57:00Z">
+                        frus:doc-dateTime-max="1977-03-08T23:57:00Z" subtype="historical-document">
                         <head>149. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d149fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -19699,7 +19723,7 @@
                     <pb n="360" facs="0381" xml:id="pg_360"/>
                     <div type="document" n="150" xml:id="d150"
                         frus:doc-dateTime-min="1977-04-17T22:05:00Z"
-                        frus:doc-dateTime-max="1977-04-17T22:05:00Z">
+                        frus:doc-dateTime-max="1977-04-17T22:05:00Z" subtype="historical-document">
                         <head>150. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d150fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -19863,7 +19887,7 @@
 
                     <div type="document" n="151" xml:id="d151"
                         frus:doc-dateTime-min="1977-12-03T09:30:00Z"
-                        frus:doc-dateTime-max="1977-12-03T10:30:00Z">
+                        frus:doc-dateTime-max="1977-12-03T10:30:00Z" subtype="historical-document">
                         <head>151. Memorandum of Conversation<note n="1" xml:id="d151fn1"
                                 type="source">Source: Department of State, Office of the Secretariat
                                 Staff, <persName corresp="#p_VCR_1">Cyrus R. Vance</persName>,
@@ -20083,7 +20107,7 @@
 
                     <div type="document" n="152" xml:id="d152"
                         frus:doc-dateTime-min="1977-12-23T02:28:00Z"
-                        frus:doc-dateTime-max="1977-12-23T02:28:00Z">
+                        frus:doc-dateTime-max="1977-12-23T02:28:00Z" subtype="historical-document">
                         <head>152. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d152fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -20191,7 +20215,7 @@
                     <pb n="369" facs="0390" xml:id="pg_369"/>
                     <div type="document" n="153" xml:id="d153"
                         frus:doc-dateTime-min="1978-03-07T00:39:00Z"
-                        frus:doc-dateTime-max="1978-03-07T00:39:00Z">
+                        frus:doc-dateTime-max="1978-03-07T00:39:00Z" subtype="historical-document">
                         <head>153. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d153fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780101–0722. Secret;
@@ -20338,7 +20362,7 @@
                     <pb n="372" facs="0393" xml:id="pg_372"/>
                     <div type="document" n="154" xml:id="d154"
                         frus:doc-dateTime-min="1978-03-08T20:05:00Z"
-                        frus:doc-dateTime-max="1978-03-08T20:05:00Z">
+                        frus:doc-dateTime-max="1978-03-08T20:05:00Z" subtype="historical-document">
                         <head>154. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d154fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780105–0098. Secret;
@@ -20517,7 +20541,7 @@
                     <pb n="375" facs="0396" xml:id="pg_375"/>
                     <div type="document" n="155" xml:id="d155"
                         frus:doc-dateTime-min="1978-03-08T00:00:00Z"
-                        frus:doc-dateTime-max="1978-03-08T23:59:59Z">
+                        frus:doc-dateTime-max="1978-03-08T23:59:59Z" subtype="historical-document">
                         <head>155. Memorandum From <persName corresp="#p_SG_1">Gary Sick</persName>
                             of the National Security Council Staff to the President’s Assistant for
                             National Security Affairs (<persName corresp="#p_BZK_1"
@@ -20566,7 +20590,7 @@
                     <pb n="376" facs="0397" xml:id="pg_376"/>
                     <div type="document" n="156" xml:id="d156"
                         frus:doc-dateTime-min="1978-03-18T04:07:00Z"
-                        frus:doc-dateTime-max="1978-03-18T04:07:00Z">
+                        frus:doc-dateTime-max="1978-03-18T04:07:00Z" subtype="historical-document">
                         <head>156. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d156fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780121–0575. Secret.
@@ -20690,7 +20714,7 @@
                     <pb n="378" facs="0399" xml:id="pg_378"/>
                     <div type="document" n="157" xml:id="d157"
                         frus:doc-dateTime-min="1978-04-01T08:00:00Z"
-                        frus:doc-dateTime-max="1978-04-01T08:00:00Z">
+                        frus:doc-dateTime-max="1978-04-01T08:00:00Z" subtype="historical-document">
                         <head>157. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d157fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -20746,7 +20770,7 @@
                     <pb n="379" facs="0400" xml:id="pg_379"/>
                     <div type="document" n="158" xml:id="d158"
                         frus:doc-dateTime-min="1978-04-17T17:31:00Z"
-                        frus:doc-dateTime-max="1978-04-17T17:31:00Z">
+                        frus:doc-dateTime-max="1978-04-17T17:31:00Z" subtype="historical-document">
                         <head>158. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d158fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -20893,7 +20917,7 @@
 
                     <div type="document" n="159" xml:id="d159"
                         frus:doc-dateTime-min="1978-04-25T00:00:00Z"
-                        frus:doc-dateTime-max="1978-04-25T23:59:59Z">
+                        frus:doc-dateTime-max="1978-04-25T23:59:59Z" subtype="historical-document">
                         <head>159. Letter From President <persName corresp="#p_CJE_1"
                                 >Carter</persName> to King <persName corresp="#p_HII_1">Hassan
                                 II</persName> of Morocco<note n="1" xml:id="d159fn1" type="source"
@@ -20955,7 +20979,7 @@
                     <pb n="383" facs="0404" xml:id="pg_383"/>
                     <div type="document" n="160" xml:id="d160"
                         frus:doc-dateTime-min="1978-04-14T00:00:00Z"
-                        frus:doc-dateTime-max="1978-04-14T23:59:59Z">
+                        frus:doc-dateTime-max="1978-04-14T23:59:59Z" subtype="historical-document">
                         <head>160. Memorandum From <persName corresp="#p_QWB_1">William
                                 Quandt</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -21031,7 +21055,7 @@
 
                     <div type="document" n="161" xml:id="d161"
                         frus:doc-dateTime-min="1978-11-15T11:00:00Z"
-                        frus:doc-dateTime-max="1978-11-15T12:50:00Z">
+                        frus:doc-dateTime-max="1978-11-15T12:50:00Z" subtype="historical-document">
                         <head>161. Memorandum of Conversation<note n="1" xml:id="d161fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
                                 Brzezinski Material, Brzezinski Office File, Country Chron File, Box
@@ -21279,7 +21303,7 @@
 
                     <div type="document" n="162" xml:id="d162"
                         frus:doc-dateTime-min="1978-11-18T17:37:00Z"
-                        frus:doc-dateTime-max="1978-11-18T17:37:00Z">
+                        frus:doc-dateTime-max="1978-11-18T17:37:00Z" subtype="historical-document">
                         <head>162. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d162fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -21430,7 +21454,7 @@
 
                     <div type="document" n="163" xml:id="d163"
                         frus:doc-dateTime-min="1978-11-18T17:39:00Z"
-                        frus:doc-dateTime-max="1978-11-18T17:39:00Z">
+                        frus:doc-dateTime-max="1978-11-18T17:39:00Z" subtype="historical-document">
                         <head>163. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d163fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780476–0283. Secret;
@@ -21636,7 +21660,7 @@
 
                     <div type="document" n="164" xml:id="d164"
                         frus:doc-dateTime-min="1978-11-18T20:46:00Z"
-                        frus:doc-dateTime-max="1978-11-18T20:46:00Z">
+                        frus:doc-dateTime-max="1978-11-18T20:46:00Z" subtype="historical-document">
                         <head>164. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d164fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -21798,7 +21822,7 @@
 
                     <div type="document" n="165" xml:id="d165"
                         frus:doc-dateTime-min="1978-12-03T22:18:00Z"
-                        frus:doc-dateTime-max="1978-12-03T22:18:00Z">
+                        frus:doc-dateTime-max="1978-12-03T22:18:00Z" subtype="historical-document">
                         <head>165. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d165fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780499–1124. Secret;
@@ -22008,7 +22032,7 @@
 
                     <div type="document" n="166" xml:id="d166"
                         frus:doc-dateTime-min="1978-12-22T19:12:00Z"
-                        frus:doc-dateTime-max="1978-12-22T19:12:00Z">
+                        frus:doc-dateTime-max="1978-12-22T19:12:00Z" subtype="historical-document">
                         <head>166. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d166fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -22183,7 +22207,7 @@
 
                     <div type="document" n="167" xml:id="d167"
                         frus:doc-dateTime-min="1979-01-29T19:04:00Z"
-                        frus:doc-dateTime-max="1979-01-29T19:04:00Z">
+                        frus:doc-dateTime-max="1979-01-29T19:04:00Z" subtype="historical-document">
                         <head>167. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d167fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, P840125–1267. Secret;
@@ -22391,7 +22415,7 @@
 
                     <div type="document" n="168" xml:id="d168"
                         frus:doc-dateTime-min="1979-03-15T04:18:00Z"
-                        frus:doc-dateTime-max="1979-03-15T04:18:00Z">
+                        frus:doc-dateTime-max="1979-03-15T04:18:00Z" subtype="historical-document">
                         <head>168. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d168fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790119–0224. Secret;
@@ -22568,7 +22592,7 @@
 
                     <div type="document" n="169" xml:id="d169"
                         frus:doc-dateTime-min="1979-03-21T00:00:00Z"
-                        frus:doc-dateTime-max="1979-03-21T23:59:59Z">
+                        frus:doc-dateTime-max="1979-03-21T23:59:59Z" subtype="historical-document">
                         <head><pb n="414" facs="0435" xml:id="pg_414"/>169. Memorandum From
                             Secretary of State <persName corresp="#p_VCR_1">Vance</persName> to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="1"
@@ -22600,7 +22624,7 @@
 
                     <div type="document" n="170" xml:id="d170"
                         frus:doc-dateTime-min="1979-04-03T18:16:00Z"
-                        frus:doc-dateTime-max="1979-04-03T18:16:00Z">
+                        frus:doc-dateTime-max="1979-04-03T18:16:00Z" subtype="historical-document">
                         <head>170. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d170fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Brzezinski Material, Brzezinski
@@ -22811,7 +22835,7 @@
                     <pb n="419" facs="0440" xml:id="pg_419"/>
                     <div type="document" n="171" xml:id="d171"
                         frus:doc-dateTime-min="1979-05-01T00:00:00Z"
-                        frus:doc-dateTime-max="1979-05-01T23:59:59Z">
+                        frus:doc-dateTime-max="1979-05-01T23:59:59Z" subtype="historical-document">
                         <head>171. Memorandum From <persName corresp="#p_QWB_1">William
                                 Quandt</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -22895,7 +22919,7 @@
 
                     <div type="document" n="172" xml:id="d172"
                         frus:doc-dateTime-min="1979-05-03T00:00:00Z"
-                        frus:doc-dateTime-max="1979-05-03T23:59:59Z">
+                        frus:doc-dateTime-max="1979-05-03T23:59:59Z" subtype="historical-document">
                         <head>172. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             Secretary of State <persName corresp="#p_VCR_1">Vance</persName><note
@@ -22943,7 +22967,7 @@
 
                     <div type="document" n="173" xml:id="d173"
                         frus:doc-dateTime-min="1979-05-25T00:00:00Z"
-                        frus:doc-dateTime-max="1979-05-25T23:59:59Z">
+                        frus:doc-dateTime-max="1979-05-25T23:59:59Z" subtype="historical-document">
                         <head>173. Memorandum From the Executive Secretary of the Department of
                             State (<persName corresp="#p_TP_1">Tarnoff</persName>) to the
                             President’s Assistant for National Security Affairs (<persName
@@ -23084,7 +23108,7 @@
 
                     <div type="document" n="174" xml:id="d174"
                         frus:doc-dateTime-min="1979-05-31T00:00:00Z"
-                        frus:doc-dateTime-max="1979-05-31T23:59:59Z">
+                        frus:doc-dateTime-max="1979-05-31T23:59:59Z" subtype="historical-document">
                         <head>174. Memorandum From the Deputy Secretary of Defense (<persName
                                 corresp="#p_DCW_1">Duncan</persName>) to President <persName
                                 corresp="#p_CJE_1">Carter</persName><note n="1" xml:id="d174fn1"
@@ -23274,7 +23298,7 @@
 
                     <div type="document" n="175" xml:id="d175"
                         frus:doc-dateTime-min="1979-07-18T00:00:00Z"
-                        frus:doc-dateTime-max="1979-07-18T23:59:59Z">
+                        frus:doc-dateTime-max="1979-07-18T23:59:59Z" subtype="historical-document">
                         <head>175. Memorandum From <persName corresp="#p_RJ_1">James
                                 Rentschler</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -23415,7 +23439,7 @@
                     <pb n="431" facs="0452" xml:id="pg_431"/>
                     <div type="document" n="176" xml:id="d176"
                         frus:doc-dateTime-min="1979-08-09T00:00:00Z"
-                        frus:doc-dateTime-max="1979-08-09T23:59:59Z">
+                        frus:doc-dateTime-max="1979-08-09T23:59:59Z" subtype="historical-document">
                         <head>176. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>)<note n="1"
@@ -23473,7 +23497,7 @@
                     <pb n="432" facs="0453" xml:id="pg_432"/>
                     <div type="document" n="177" xml:id="d177"
                         frus:doc-dateTime-min="1979-09-21T00:00:00Z"
-                        frus:doc-dateTime-max="1979-09-21T23:59:59Z">
+                        frus:doc-dateTime-max="1979-09-21T23:59:59Z" subtype="historical-document">
                         <head>177. Letter From Senator Frank Church and Senator Jacob Javits to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="1"
                                 xml:id="d177fn1" type="source">Source: Carter Library, National
@@ -23525,7 +23549,7 @@
                     <pb n="433" facs="0454" xml:id="pg_433"/>
                     <div type="document" n="178" xml:id="d178"
                         frus:doc-dateTime-min="1979-10-09T00:00:00Z"
-                        frus:doc-dateTime-max="1979-10-09T23:59:59Z">
+                        frus:doc-dateTime-max="1979-10-09T23:59:59Z" subtype="historical-document">
                         <head>178. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             Secretary of State <persName corresp="#p_VCR_1">Vance</persName> and
@@ -23573,7 +23597,7 @@
                     <pb n="434" facs="0455" xml:id="pg_434"/>
                     <div type="document" n="179" xml:id="d179"
                         frus:doc-dateTime-min="1979-10-28T00:00:00Z"
-                        frus:doc-dateTime-max="1979-10-28T23:59:59Z">
+                        frus:doc-dateTime-max="1979-10-28T23:59:59Z" subtype="historical-document">
                         <head>179. Letter From President <persName corresp="#p_CJE_1"
                                 >Carter</persName> to King <persName corresp="#p_HII_1">Hassan
                                 II</persName> of Morocco<note n="1" xml:id="d179fn1" type="source"
@@ -23616,7 +23640,7 @@
                     <pb n="435" facs="0456" xml:id="pg_435"/>
                     <div type="document" n="180" xml:id="d180"
                         frus:doc-dateTime-min="1980-01-16T00:00:00Z"
-                        frus:doc-dateTime-max="1980-01-16T23:59:59Z">
+                        frus:doc-dateTime-max="1980-01-16T23:59:59Z" subtype="historical-document">
                         <head>180. Memorandum From <persName corresp="#p_RJ_1">James
                                 Rentschler</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -23719,7 +23743,7 @@
                     <pb n="437" facs="0458" xml:id="pg_437"/>
                     <div type="document" n="181" xml:id="d181"
                         frus:doc-dateTime-min="1980-01-19T00:00:00Z"
-                        frus:doc-dateTime-max="1980-01-19T23:59:59Z">
+                        frus:doc-dateTime-max="1980-01-19T23:59:59Z" subtype="historical-document">
                         <head>181. Memorandum From the Executive Secretary of the Department of
                             State (<persName corresp="#p_TP_1">Tarnoff</persName>) to the
                             President’s Assistant for National Security Affairs (<persName
@@ -23774,7 +23798,7 @@
                     <pb n="438" facs="0459" xml:id="pg_438"/>
                     <div type="document" n="182" xml:id="d182"
                         frus:doc-dateTime-min="1980-01-22T00:00:00Z"
-                        frus:doc-dateTime-max="1980-01-22T23:59:59Z">
+                        frus:doc-dateTime-max="1980-01-22T23:59:59Z" subtype="historical-document">
                         <head>182. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             Secretary of State <persName corresp="#p_VCR_1">Vance</persName><note
@@ -23806,7 +23830,7 @@
 
                     <div type="document" n="183" xml:id="d183"
                         frus:doc-dateTime-min="1980-01-28T21:19:00Z"
-                        frus:doc-dateTime-max="1980-01-28T21:19:00Z">
+                        frus:doc-dateTime-max="1980-01-28T21:19:00Z" subtype="historical-document">
                         <head>183. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d183fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Brzezinski Material, Country
@@ -23857,7 +23881,7 @@
 
                     <div type="document" n="184" xml:id="d184"
                         frus:doc-dateTime-min="1980-01-31T17:35:00Z"
-                        frus:doc-dateTime-max="1980-01-31T17:35:00Z">
+                        frus:doc-dateTime-max="1980-01-31T17:35:00Z" subtype="historical-document">
                         <head>184. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d184fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800076–0164. Secret;
@@ -24098,7 +24122,7 @@
 
                     <div type="document" n="185" xml:id="d185"
                         frus:doc-dateTime-min="1980-10-16T00:00:00Z"
-                        frus:doc-dateTime-max="1980-10-16T23:59:59Z">
+                        frus:doc-dateTime-max="1980-10-16T23:59:59Z" subtype="historical-document">
                         <head>185. Letter From the Ambassador to Morocco (<persName
                                 corresp="#p_DAB_1">Duke</persName>) to President <persName
                                 corresp="#p_CJE_1">Carter</persName><note n="1" xml:id="d185fn1"
@@ -24166,7 +24190,7 @@
                     <pb n="446" facs="0467" xml:id="pg_446"/>
                     <div type="document" n="186" xml:id="d186"
                         frus:doc-dateTime-min="1981-01-06T00:00:00Z"
-                        frus:doc-dateTime-max="1981-01-06T23:59:59Z">
+                        frus:doc-dateTime-max="1981-01-06T23:59:59Z" subtype="historical-document">
                         <head>186. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             Secretary of State <persName corresp="#p_MES_1">Muskie</persName> and
@@ -24209,7 +24233,7 @@
                     <head>Tunisia</head>
                     <div type="document" n="187" xml:id="d187"
                         frus:doc-dateTime-min="1977-02-12T00:19:00Z"
-                        frus:doc-dateTime-max="1977-02-12T00:19:00Z">
+                        frus:doc-dateTime-max="1977-02-12T00:19:00Z" subtype="historical-document">
                         <head>187. Telegram From the Department of State to the Embassy in
                                 Tunisia<note n="1" xml:id="d187fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D770050–0377.
@@ -24296,7 +24320,7 @@
 
                     <div type="document" n="188" xml:id="d188"
                         frus:doc-dateTime-min="1977-04-15T18:18:00Z"
-                        frus:doc-dateTime-max="1977-04-15T18:18:00Z">
+                        frus:doc-dateTime-max="1977-04-15T18:18:00Z" subtype="historical-document">
                         <head>188. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d188fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -24588,7 +24612,7 @@
 
                     <div type="document" n="189" xml:id="d189"
                         frus:doc-dateTime-min="1977-06-29T07:00:00Z"
-                        frus:doc-dateTime-max="1977-06-29T07:00:00Z">
+                        frus:doc-dateTime-max="1977-06-29T07:00:00Z" subtype="historical-document">
                         <head>189. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d189fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -24670,7 +24694,7 @@
                     <pb n="455" facs="0476" xml:id="pg_455"/>
                     <div type="document" n="190" xml:id="d190"
                         frus:doc-dateTime-min="1977-07-06T00:00:00Z"
-                        frus:doc-dateTime-max="1977-07-06T23:59:59Z">
+                        frus:doc-dateTime-max="1977-07-06T23:59:59Z" subtype="historical-document">
                         <head>190. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d190fn1" type="source">Source:
@@ -24758,7 +24782,7 @@
                     <pb n="457" facs="0478" xml:id="pg_457"/>
                     <div type="document" n="191" xml:id="d191"
                         frus:doc-dateTime-min="1977-07-20T00:00:00Z"
-                        frus:doc-dateTime-max="1977-07-20T23:59:59Z">
+                        frus:doc-dateTime-max="1977-07-20T23:59:59Z" subtype="historical-document">
                         <head>191. Memorandum From the Director of the Office of Management and
                             Budget (<persName corresp="#p_LTB_1">Lance</persName>) to President
                                 <persName corresp="#p_CJE_1">Carter</persName><note n="1"
@@ -24815,7 +24839,7 @@
                     <pb n="458" facs="0479" xml:id="pg_458"/>
                     <div type="document" n="192" xml:id="d192"
                         frus:doc-dateTime-min="1977-08-11T00:00:00Z"
-                        frus:doc-dateTime-max="1977-08-11T23:59:59Z">
+                        frus:doc-dateTime-max="1977-08-11T23:59:59Z" subtype="historical-document">
                         <head>192. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="1"
@@ -24889,7 +24913,7 @@
 
                     <div type="document" n="193" xml:id="d193"
                         frus:doc-dateTime-min="1977-09-21T23:37:00Z"
-                        frus:doc-dateTime-max="1977-09-21T23:37:00Z">
+                        frus:doc-dateTime-max="1977-09-21T23:37:00Z" subtype="historical-document">
                         <head>193. Telegram From the Department of State to the Embassy in
                                 Tunisia<note n="1" xml:id="d193fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D770344–0096.
@@ -25027,7 +25051,7 @@
 
                     <div type="document" n="194" xml:id="d194"
                         frus:doc-dateTime-min="1977-10-03T11:30:00Z"
-                        frus:doc-dateTime-max="1977-10-03T11:30:00Z">
+                        frus:doc-dateTime-max="1977-10-03T11:30:00Z" subtype="historical-document">
                         <head>194. Memorandum of Conversation<note n="1" xml:id="d194fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
                                 Staff Material, Middle East, Subject File, Box 89, Tunisia:
@@ -25156,7 +25180,7 @@
 
                     <div type="document" n="195" xml:id="d195"
                         frus:doc-dateTime-min="1978-01-09T16:25:00Z"
-                        frus:doc-dateTime-max="1978-01-09T16:25:00Z">
+                        frus:doc-dateTime-max="1978-01-09T16:25:00Z" subtype="historical-document">
                         <head>195. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d195fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780013–0286.
@@ -25326,7 +25350,7 @@
 
                     <div type="document" n="196" xml:id="d196"
                         frus:doc-dateTime-min="1978-02-28T00:00:00Z"
-                        frus:doc-dateTime-max="1978-02-28T23:59:59Z">
+                        frus:doc-dateTime-max="1978-02-28T23:59:59Z" subtype="historical-document">
                         <head>196. Interagency Intelligence Memorandum<note n="1" xml:id="d196fn1"
                                 type="source">Source: Central Intelligence Agency, History Staff
                                 Files. Secret; [<hi rend="italic">handling restriction not
@@ -25618,7 +25642,7 @@
                     <pb n="473" facs="0494" xml:id="pg_473"/>
                     <div type="document" n="197" xml:id="d197"
                         frus:doc-dateTime-min="1978-11-27T00:00:00Z"
-                        frus:doc-dateTime-max="1978-11-27T23:59:59Z">
+                        frus:doc-dateTime-max="1978-11-27T23:59:59Z" subtype="historical-document">
                         <head>197. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to
                             President <persName corresp="#p_CJE_1">Carter</persName><note n="1"
@@ -25716,7 +25740,7 @@
                     <pb n="475" facs="0496" xml:id="pg_475"/>
                     <div type="document" n="198" xml:id="d198"
                         frus:doc-dateTime-min="1978-11-29T11:10:00Z"
-                        frus:doc-dateTime-max="1978-11-29T12:00:00Z">
+                        frus:doc-dateTime-max="1978-11-29T12:00:00Z" subtype="historical-document">
                         <head>198. Memorandum of Conversation<note n="1" xml:id="d198fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
                                 Brzezinski Material, Subject File, Box 37, Memcons: President:
@@ -25985,7 +26009,7 @@
 
                     <div type="document" n="199" xml:id="d199"
                         frus:doc-dateTime-min="1979-03-24T00:00:00Z"
-                        frus:doc-dateTime-max="1979-03-24T00:00:00Z">
+                        frus:doc-dateTime-max="1979-03-24T00:00:00Z" subtype="historical-document">
                         <head>199. Telegram From the Department of State to the Embassy in
                                 Tunisia<note n="1" xml:id="d199fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790135–0993.
@@ -26084,7 +26108,7 @@
                     <pb n="482" facs="0503" xml:id="pg_482"/>
                     <div type="document" n="200" xml:id="d200"
                         frus:doc-dateTime-min="1979-03-27T00:00:00Z"
-                        frus:doc-dateTime-max="1979-03-27T23:59:59Z">
+                        frus:doc-dateTime-max="1979-03-27T23:59:59Z" subtype="historical-document">
                         <head>200. Letter From President <persName corresp="#p_CJE_1"
                                 >Carter</persName> to Tunisian President <persName corresp="#p_BH_2"
                                 >Bourguiba</persName><note n="1" xml:id="d200fn1" type="source"
@@ -26123,7 +26147,7 @@
 
                     <div type="document" n="201" xml:id="d201"
                         frus:doc-dateTime-min="1979-04-05T16:20:00Z"
-                        frus:doc-dateTime-max="1979-04-05T16:20:00Z">
+                        frus:doc-dateTime-max="1979-04-05T16:20:00Z" subtype="historical-document">
                         <head>201. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d201fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790157–0277. Limited
@@ -26367,7 +26391,7 @@
 
                     <div type="document" n="202" xml:id="d202"
                         frus:doc-dateTime-min="1979-05-04T22:57:00Z"
-                        frus:doc-dateTime-max="1979-05-04T22:57:00Z">
+                        frus:doc-dateTime-max="1979-05-04T22:57:00Z" subtype="historical-document">
                         <head>202. Telegram From the Department of State to the Embassy in
                                 Tunisia<note n="1" xml:id="d202fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -26469,7 +26493,7 @@
 
                     <div type="document" n="203" xml:id="d203"
                         frus:doc-dateTime-min="1979-06-19T16:35:00Z"
-                        frus:doc-dateTime-max="1979-06-19T16:35:00Z">
+                        frus:doc-dateTime-max="1979-06-19T16:35:00Z" subtype="historical-document">
                         <head>203. Telegram From the Embassy in Italy to the Department of
                                 State<note n="1" xml:id="d203fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790279–0109.
@@ -26696,7 +26720,7 @@
                     <pb n="494" facs="0515" xml:id="pg_494"/>
                     <div type="document" n="204" xml:id="d204"
                         frus:doc-dateTime-min="1980-01-28T20:40:00Z"
-                        frus:doc-dateTime-max="1980-01-28T20:40:00Z">
+                        frus:doc-dateTime-max="1980-01-28T20:40:00Z" subtype="historical-document">
                         <head>204. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d204fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800049–0817. Secret;
@@ -26836,7 +26860,7 @@
 
                     <div type="document" n="205" xml:id="d205"
                         frus:doc-dateTime-min="1980-01-30T00:00:00Z"
-                        frus:doc-dateTime-max="1980-01-30T23:59:59Z">
+                        frus:doc-dateTime-max="1980-01-30T23:59:59Z" subtype="historical-document">
                         <head>205. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d205fn1" type="source">Source:
@@ -26889,7 +26913,7 @@
 
                     <div type="document" n="206" xml:id="d206"
                         frus:doc-dateTime-min="1980-02-02T00:00:00Z"
-                        frus:doc-dateTime-max="1980-02-02T23:59:59Z">
+                        frus:doc-dateTime-max="1980-02-02T23:59:59Z" subtype="historical-document">
                         <head>206. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d206fn1" type="source">Source:
@@ -26951,7 +26975,7 @@
 
                     <div type="document" n="207" xml:id="d207"
                         frus:doc-dateTime-min="1980-02-05T00:00:00Z"
-                        frus:doc-dateTime-max="1980-02-05T23:59:59Z">
+                        frus:doc-dateTime-max="1980-02-05T23:59:59Z" subtype="historical-document">
                         <head><pb n="499" facs="0520" xml:id="pg_499"/>207. Memorandum From
                                 <persName corresp="#p_RJ_1">James Rentschler</persName> of the
                             National Security Council Staff to the President’s Deputy Assistant for
@@ -27032,7 +27056,7 @@
 
                     <div type="document" n="208" xml:id="d208"
                         frus:doc-dateTime-min="1980-02-15T00:00:00Z"
-                        frus:doc-dateTime-max="1980-02-15T23:59:59Z">
+                        frus:doc-dateTime-max="1980-02-15T23:59:59Z" subtype="historical-document">
                         <head>208. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d208fn1" type="source">Source:
@@ -27076,7 +27100,7 @@
 
                     <div type="document" n="209" xml:id="d209"
                         frus:doc-dateTime-min="1980-02-27T13:15:00Z"
-                        frus:doc-dateTime-max="1980-02-27T13:15:00Z">
+                        frus:doc-dateTime-max="1980-02-27T13:15:00Z" subtype="historical-document">
                         <head>209. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d209fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Brzezinski Material, President’s
@@ -27224,7 +27248,7 @@
 
                     <div type="document" n="210" xml:id="d210"
                         frus:doc-dateTime-min="1980-02-29T13:15:00Z"
-                        frus:doc-dateTime-max="1980-02-29T13:30:00Z">
+                        frus:doc-dateTime-max="1980-02-29T13:30:00Z" subtype="historical-document">
                         <head>210. Memorandum of Conversation<note n="1" xml:id="d210fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
                                 Staff Material, Middle East, Subject File, Box 89, Tunisia:
@@ -27348,7 +27372,7 @@
                     <head>Western Sahara</head>
                     <div type="document" n="211" xml:id="d211"
                         frus:doc-dateTime-min="1977-05-20T16:05:00Z"
-                        frus:doc-dateTime-max="1977-05-20T16:05:00Z">
+                        frus:doc-dateTime-max="1977-05-20T16:05:00Z" subtype="historical-document">
                         <head>211. Telegram From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> in Switzerland to the Embassy in Morocco<note
                                 n="1" xml:id="d211fn1" type="source">Source: Carter Library,
@@ -27444,7 +27468,7 @@
                     <pb n="509" facs="0530" xml:id="pg_509"/>
                     <div type="document" n="212" xml:id="d212"
                         frus:doc-dateTime-min="1977-06-17T22:50:00Z"
-                        frus:doc-dateTime-max="1977-06-17T22:50:00Z">
+                        frus:doc-dateTime-max="1977-06-17T22:50:00Z" subtype="historical-document">
                         <head>212. Telegram From the Department of State to the Embassy in Morocco
                             and the Mission to the United Nations<note n="1" xml:id="d212fn1"
                                 type="source">Source: National Archives, RG 59, Central Foreign
@@ -27615,7 +27639,7 @@
                     <pb n="512" facs="0533" xml:id="pg_512"/>
                     <div type="document" n="213" xml:id="d213"
                         frus:doc-dateTime-min="1977-09-15T00:00:00Z"
-                        frus:doc-dateTime-max="1977-09-15T23:59:59Z">
+                        frus:doc-dateTime-max="1977-09-15T23:59:59Z" subtype="historical-document">
                         <head>213. Memorandum From <persName corresp="#p_QWB_1">William
                                 Quandt</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -27717,7 +27741,7 @@
                     <pb n="514" facs="0535" xml:id="pg_514"/>
                     <div type="document" n="214" xml:id="d214"
                         frus:doc-dateTime-min="1977-10-29T12:15:00Z"
-                        frus:doc-dateTime-max="1977-10-29T12:15:00Z">
+                        frus:doc-dateTime-max="1977-10-29T12:15:00Z" subtype="historical-document">
                         <head>214. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d214fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D770398–0780. Secret;
@@ -27850,7 +27874,7 @@
 
                     <div type="document" n="215" xml:id="d215"
                         frus:doc-dateTime-min="1977-11-03T11:44:00Z"
-                        frus:doc-dateTime-max="1977-11-03T11:44:00Z">
+                        frus:doc-dateTime-max="1977-11-03T11:44:00Z" subtype="historical-document">
                         <head>215. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d215fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -27975,7 +27999,7 @@
                     <pb n="519" facs="0540" xml:id="pg_519"/>
                     <div type="document" n="216" xml:id="d216"
                         frus:doc-dateTime-min="1977-11-08T21:44:00Z"
-                        frus:doc-dateTime-max="1977-11-08T21:44:00Z">
+                        frus:doc-dateTime-max="1977-11-08T21:44:00Z" subtype="historical-document">
                         <head>216. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d216fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -28099,7 +28123,7 @@
 
                     <div type="document" n="217" xml:id="d217"
                         frus:doc-dateTime-min="1977-11-11T03:46:00Z"
-                        frus:doc-dateTime-max="1977-11-11T03:46:00Z">
+                        frus:doc-dateTime-max="1977-11-11T03:46:00Z" subtype="historical-document">
                         <head>217. Telegram From the Department of State to the Embassy in
                                 Algeria<note n="1" xml:id="d217fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -28359,7 +28383,7 @@
                     <pb n="526" facs="0547" xml:id="pg_526"/>
                     <div type="document" n="218" xml:id="d218"
                         frus:doc-dateTime-min="1977-11-23T16:30:00Z"
-                        frus:doc-dateTime-max="1977-11-23T16:30:00Z">
+                        frus:doc-dateTime-max="1977-11-23T16:30:00Z" subtype="historical-document">
                         <head>218. Telegram From the Embassy in Algeria to the Department of
                                 State<note n="1" xml:id="d218fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -28585,7 +28609,7 @@
                     <pb n="531" facs="0552" xml:id="pg_531"/>
                     <div type="document" n="219" xml:id="d219"
                         frus:doc-dateTime-min="1977-11-29T00:00:00Z"
-                        frus:doc-dateTime-max="1977-11-29T23:59:59Z">
+                        frus:doc-dateTime-max="1977-11-29T23:59:59Z" subtype="historical-document">
                         <head>219. Letter From Representative <persName corresp="#p_FDM_1">Donald M.
                                 Fraser</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d219fn1" type="source">Source:
@@ -28701,7 +28725,7 @@
 
                     <div type="document" n="220" xml:id="d220"
                         frus:doc-dateTime-min="1977-12-02T00:00:00Z"
-                        frus:doc-dateTime-max="1977-12-02T23:59:59Z">
+                        frus:doc-dateTime-max="1977-12-02T23:59:59Z" subtype="historical-document">
                         <head>220. Letter From Representative <persName corresp="#p_FDM_1">Donald M.
                                 Fraser</persName> to Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName><note n="1" xml:id="d220fn1" type="source">Source:
@@ -28799,7 +28823,7 @@
 
                     <div type="document" n="221" xml:id="d221"
                         frus:doc-dateTime-min="1977-12-16T00:00:00Z"
-                        frus:doc-dateTime-max="1977-12-16T23:59:59Z">
+                        frus:doc-dateTime-max="1977-12-16T23:59:59Z" subtype="historical-document">
                         <head>221. Report Prepared in the Bureau of Intelligence and Research<note
                                 n="1" xml:id="d221fn1" type="source">Source: Carter Library,
                                 National Security Affairs, Staff Material, Middle East, Subject
@@ -29116,7 +29140,7 @@
                     <pb n="544" facs="0565" xml:id="pg_544"/>
                     <div type="document" n="222" xml:id="d222"
                         frus:doc-dateTime-min="1978-01-05T00:00:00Z"
-                        frus:doc-dateTime-max="1978-01-05T23:59:59Z">
+                        frus:doc-dateTime-max="1978-01-05T23:59:59Z" subtype="historical-document">
                         <head>222. Action Memorandum From the Acting Assistant Secretary of State
                             for Near Eastern and South Asian Affairs (<persName corresp="#p_SS_1"
                                 >Sober</persName>) to Secretary of State <persName
@@ -29416,7 +29440,7 @@
                     <pb n="550" facs="0571" xml:id="pg_550"/>
                     <div type="document" n="223" xml:id="d223"
                         frus:doc-dateTime-min="1978-03-15T14:58:00Z"
-                        frus:doc-dateTime-max="1978-03-15T14:58:00Z">
+                        frus:doc-dateTime-max="1978-03-15T14:58:00Z" subtype="historical-document">
                         <head>223. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d223fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -29610,7 +29634,7 @@
 
                     <div type="document" n="224" xml:id="d224"
                         frus:doc-dateTime-min="1978-03-15T15:01:00Z"
-                        frus:doc-dateTime-max="1978-03-15T15:01:00Z">
+                        frus:doc-dateTime-max="1978-03-15T15:01:00Z" subtype="historical-document">
                         <head>224. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d224fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -29699,7 +29723,7 @@
                     <pb n="555" facs="0576" xml:id="pg_555"/>
                     <div type="document" n="225" xml:id="d225"
                         frus:doc-dateTime-min="1978-03-21T17:43:00Z"
-                        frus:doc-dateTime-max="1978-03-21T17:43:00Z">
+                        frus:doc-dateTime-max="1978-03-21T17:43:00Z" subtype="historical-document">
                         <head>225. Telegram From the Department of State to the Embassy in
                                 Algeria<note n="1" xml:id="d225fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780124–0746.
@@ -29750,7 +29774,7 @@
                     <pb n="556" facs="0577" xml:id="pg_556"/>
                     <div type="document" n="226" xml:id="d226"
                         frus:doc-dateTime-min="1978-03-27T11:06:00Z"
-                        frus:doc-dateTime-max="1978-03-27T11:06:00Z">
+                        frus:doc-dateTime-max="1978-03-27T11:06:00Z" subtype="historical-document">
                         <head>226. Telegram From the Embassy in Algeria to the Department of
                                 State<note n="1" xml:id="d226fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780132–0964.
@@ -29830,7 +29854,7 @@
 
                     <div type="document" n="227" xml:id="d227"
                         frus:doc-dateTime-min="1978-03-30T10:00:00Z"
-                        frus:doc-dateTime-max="1978-03-30T10:00:00Z">
+                        frus:doc-dateTime-max="1978-03-30T10:00:00Z" subtype="historical-document">
                         <head>227. Telegram From the Embassy in Algeria to the Department of
                                 State<note n="1" xml:id="d227fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -29969,7 +29993,7 @@
 
                     <div type="document" n="228" xml:id="d228"
                         frus:doc-dateTime-min="1978-04-28T00:00:00Z"
-                        frus:doc-dateTime-max="1978-04-28T23:59:59Z">
+                        frus:doc-dateTime-max="1978-04-28T23:59:59Z" subtype="historical-document">
                         <head><pb n="560" facs="0581" xml:id="pg_560"/>228. Central Intelligence
                             Agency Intelligence Information Cable<note n="1" xml:id="d228fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
@@ -30083,7 +30107,7 @@
                     <pb n="562" facs="0583" xml:id="pg_562"/>
                     <div type="document" n="229" xml:id="d229"
                         frus:doc-dateTime-min="1978-06-10T00:00:00Z"
-                        frus:doc-dateTime-max="1978-06-10T23:59:59Z">
+                        frus:doc-dateTime-max="1978-06-10T23:59:59Z" subtype="historical-document">
                         <head>229. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d229fn1" type="source">Source:
@@ -30131,7 +30155,7 @@
                     <pb n="563" facs="0584" xml:id="pg_563"/>
                     <div type="document" n="230" xml:id="d230"
                         frus:doc-dateTime-min="1978-07-27T00:00:00Z"
-                        frus:doc-dateTime-max="1978-07-27T23:59:59Z">
+                        frus:doc-dateTime-max="1978-07-27T23:59:59Z" subtype="historical-document">
                         <head>230. Memorandum From <persName corresp="#p_QWB_1">William
                                 Quandt</persName> and <persName corresp="#p_SG_1">Gary
                                 Sick</persName> of the National Security Council Staff to the
@@ -30206,7 +30230,7 @@
 
                     <div type="document" n="231" xml:id="d231"
                         frus:doc-dateTime-min="1978-08-04T00:00:00Z"
-                        frus:doc-dateTime-max="1978-08-04T23:59:59Z">
+                        frus:doc-dateTime-max="1978-08-04T23:59:59Z" subtype="historical-document">
                         <head>231. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d231fn1" type="source">Source:
@@ -30251,7 +30275,7 @@
 
                     <div type="document" n="232" xml:id="d232"
                         frus:doc-dateTime-min="1978-09-20T23:46:00Z"
-                        frus:doc-dateTime-max="1978-09-20T23:46:00Z">
+                        frus:doc-dateTime-max="1978-09-20T23:46:00Z" subtype="historical-document">
                         <head>232. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d232fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -30313,7 +30337,7 @@
 
                     <div type="document" n="233" xml:id="d233"
                         frus:doc-dateTime-min="1978-09-26T17:35:00Z"
-                        frus:doc-dateTime-max="1978-09-26T17:35:00Z">
+                        frus:doc-dateTime-max="1978-09-26T17:35:00Z" subtype="historical-document">
                         <head>233. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d233fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -30483,7 +30507,7 @@
 
                     <div type="document" n="234" xml:id="d234"
                         frus:doc-dateTime-min="1978-10-11T15:02:00Z"
-                        frus:doc-dateTime-max="1978-10-11T15:02:00Z">
+                        frus:doc-dateTime-max="1978-10-11T15:02:00Z" subtype="historical-document">
                         <head><pb n="570" facs="0591" xml:id="pg_570"/>234. Telegram From the
                             Department of State to the Embassy in Mauritania<note n="1"
                                 xml:id="d234fn1" type="source">Source: Carter Library, National
@@ -30654,7 +30678,7 @@
 
                     <div type="document" n="235" xml:id="d235"
                         frus:doc-dateTime-min="1978-11-13T00:00:00Z"
-                        frus:doc-dateTime-max="1978-11-13T23:59:59Z">
+                        frus:doc-dateTime-max="1978-11-13T23:59:59Z" subtype="historical-document">
                         <head>235. Letter From Representative Cardiss Collins to President <persName
                                 corresp="#p_CJE_1">Carter</persName><note n="1" xml:id="d235fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
@@ -30726,7 +30750,7 @@
                     <pb n="575" facs="0596" xml:id="pg_575"/>
                     <div type="document" n="236" xml:id="d236"
                         frus:doc-dateTime-min="1978-11-16T00:16:00Z"
-                        frus:doc-dateTime-max="1978-11-16T00:16:00Z">
+                        frus:doc-dateTime-max="1978-11-16T00:16:00Z" subtype="historical-document">
                         <head>236. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d236fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -30810,7 +30834,7 @@
 
                     <div type="document" n="237" xml:id="d237"
                         frus:doc-dateTime-min="1979-01-04T08:10:00Z"
-                        frus:doc-dateTime-max="1979-01-04T08:10:00Z">
+                        frus:doc-dateTime-max="1979-01-04T08:10:00Z" subtype="historical-document">
                         <head>237. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d237fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790004–1366. Secret;
@@ -31033,7 +31057,7 @@
 
                     <div type="document" n="238" xml:id="d238"
                         frus:doc-dateTime-min="1979-01-11T10:30:00Z"
-                        frus:doc-dateTime-max="1979-01-11T10:30:00Z">
+                        frus:doc-dateTime-max="1979-01-11T10:30:00Z" subtype="historical-document">
                         <head>238. Telegram From the Embassy in Algeria to the Department of State
                             and the Embassy in Morocco<note n="1" xml:id="d238fn1" type="source"
                                 >Source: National Archives, RG 59, Central Foreign Policy File,
@@ -31239,7 +31263,7 @@
 
                     <div type="document" n="239" xml:id="d239"
                         frus:doc-dateTime-min="1979-04-28T00:00:00Z"
-                        frus:doc-dateTime-max="1979-04-28T23:59:59Z">
+                        frus:doc-dateTime-max="1979-04-28T23:59:59Z" subtype="historical-document">
                         <head>239. Memorandum From the Executive Secretary of the Department of
                             State (<persName corresp="#p_TP_1">Tarnoff</persName>) to the
                             President’s Assistant for National Security Affairs (<persName
@@ -31322,7 +31346,7 @@
                     <pb n="587" facs="0608" xml:id="pg_587"/>
                     <div type="document" n="240" xml:id="d240"
                         frus:doc-dateTime-min="1979-08-15T00:00:00Z"
-                        frus:doc-dateTime-max="1979-08-15T23:59:59Z">
+                        frus:doc-dateTime-max="1979-08-15T23:59:59Z" subtype="historical-document">
                         <head>240. Memorandum From the Executive Secretary of the Department of
                             State (<persName corresp="#p_TP_1">Tarnoff</persName>) to the
                             President’s Assistant for National Security Affairs (<persName
@@ -31386,7 +31410,7 @@
                     <pb n="588" facs="0609" xml:id="pg_588"/>
                     <div type="document" n="241" xml:id="d241"
                         frus:doc-dateTime-min="1979-08-18T00:00:00Z"
-                        frus:doc-dateTime-max="1979-08-18T23:59:59Z">
+                        frus:doc-dateTime-max="1979-08-18T23:59:59Z" subtype="historical-document">
                         <head>241. Memorandum From <persName corresp="#p_RJ_1">James
                                 Rentschler</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -31458,7 +31482,7 @@
 
                     <div type="document" n="242" xml:id="d242"
                         frus:doc-dateTime-min="1979-09-08T00:00:00Z"
-                        frus:doc-dateTime-max="1979-09-08T23:59:59Z">
+                        frus:doc-dateTime-max="1979-09-08T23:59:59Z" subtype="historical-document">
                         <head>242. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d242fn1" type="source">Source:
@@ -31516,7 +31540,7 @@
 
                     <div type="document" n="243" xml:id="d243"
                         frus:doc-dateTime-min="1979-09-12T00:00:00Z"
-                        frus:doc-dateTime-max="1979-09-12T23:59:59Z">
+                        frus:doc-dateTime-max="1979-09-12T23:59:59Z" subtype="historical-document">
                         <head>243. Memorandum From the President’s Deputy Assistant for National
                             Security Affairs (<persName corresp="#p_ADL_1">Aaron</persName>) to the
                             President’s Assistant for National Security Affairs (<persName
@@ -31570,7 +31594,7 @@
 
                     <div type="document" n="244" xml:id="d244"
                         frus:doc-dateTime-min="1979-09-18T00:00:00Z"
-                        frus:doc-dateTime-max="1979-09-18T23:59:59Z">
+                        frus:doc-dateTime-max="1979-09-18T23:59:59Z" subtype="historical-document">
                         <head>244. Memorandum From <persName corresp="#p_RJ_1">James
                                 Rentschler</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -31668,7 +31692,7 @@
                     <pb n="593" facs="0614" xml:id="pg_593"/>
                     <div type="document" n="245" xml:id="d245"
                         frus:doc-dateTime-min="1979-09-19T00:00:00Z"
-                        frus:doc-dateTime-max="1979-09-19T23:59:59Z">
+                        frus:doc-dateTime-max="1979-09-19T23:59:59Z" subtype="historical-document">
                         <head>245. Letter From Representative <persName corresp="#p_HLH_1">Lee
                                 Hamilton</persName> to Secretary of State <persName
                                 corresp="#p_VCR_1">Vance</persName><note n="1" xml:id="d245fn1"
@@ -31829,7 +31853,7 @@
 
                     <div type="document" n="246" xml:id="d246"
                         frus:doc-dateTime-min="1979-09-19T00:00:00Z"
-                        frus:doc-dateTime-max="1979-09-19T23:59:59Z">
+                        frus:doc-dateTime-max="1979-09-19T23:59:59Z" subtype="historical-document">
                         <head>246. Letter From Representative <persName corresp="#p_SSJ_1">Stephen
                                 Solarz</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d246fn1" type="source">Source:
@@ -32121,7 +32145,7 @@
 
                     <div type="document" n="247" xml:id="d247"
                         frus:doc-dateTime-min="1979-10-22T23:08:00Z"
-                        frus:doc-dateTime-max="1979-10-22T23:08:00Z">
+                        frus:doc-dateTime-max="1979-10-22T23:08:00Z" subtype="historical-document">
                         <head>247. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d247fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790483–0140. Secret;
@@ -32202,7 +32226,7 @@
                     <pb n="604" facs="0625" xml:id="pg_604"/>
                     <div type="document" n="248" xml:id="d248"
                         frus:doc-dateTime-min="1979-10-31T17:05:00Z"
-                        frus:doc-dateTime-max="1979-10-31T17:05:00Z">
+                        frus:doc-dateTime-max="1979-10-31T17:05:00Z" subtype="historical-document">
                         <head>248. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d248fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, P840131–2003. Secret;
@@ -32494,7 +32518,7 @@
 
                     <div type="document" n="249" xml:id="d249"
                         frus:doc-dateTime-min="1979-11-02T00:00:00Z"
-                        frus:doc-dateTime-max="1979-11-02T23:59:59Z">
+                        frus:doc-dateTime-max="1979-11-02T23:59:59Z" subtype="historical-document">
                         <head>249. Memorandum of Conversation<note n="1" xml:id="d249fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
                                 Brzezinski Material, Subject File, Box 34, Memcons, <persName
@@ -32794,7 +32818,7 @@
                     <pb n="616" facs="0637" xml:id="pg_616"/>
                     <div type="document" n="250" xml:id="d250"
                         frus:doc-dateTime-min="1979-12-13T00:00:00Z"
-                        frus:doc-dateTime-max="1979-12-13T23:59:59Z">
+                        frus:doc-dateTime-max="1979-12-13T23:59:59Z" subtype="historical-document">
                         <head>250. Letter From President <persName corresp="#p_CJE_1"
                                 >Carter</persName> to King <persName corresp="#p_HII_1">Hassan
                                 II</persName> of Morocco<note n="1" xml:id="d250fn1" type="source"
@@ -32851,7 +32875,7 @@
                     <pb n="617" facs="0638" xml:id="pg_617"/>
                     <div type="document" n="251" xml:id="d251"
                         frus:doc-dateTime-min="1980-02-05T12:55:00Z"
-                        frus:doc-dateTime-max="1980-02-05T12:55:00Z">
+                        frus:doc-dateTime-max="1980-02-05T12:55:00Z" subtype="historical-document">
                         <head>251. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d251fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Brzezinski Material, Country
@@ -32903,7 +32927,7 @@
                     <pb n="618" facs="0639" xml:id="pg_618"/>
                     <div type="document" n="252" xml:id="d252"
                         frus:doc-dateTime-min="1980-02-15T13:45:00Z"
-                        frus:doc-dateTime-max="1980-02-15T14:30:00Z">
+                        frus:doc-dateTime-max="1980-02-15T14:30:00Z" subtype="historical-document">
                         <head>252. Memorandum of Conversation<note n="1" xml:id="d252fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
                                 Brzezinski Material, Subject File, Box 38, Memcons: President: 2/80.
@@ -33019,7 +33043,7 @@
                     <pb n="620" facs="0641" xml:id="pg_620"/>
                     <div type="document" n="253" xml:id="d253"
                         frus:doc-dateTime-min="1980-04-05T23:27:00Z"
-                        frus:doc-dateTime-max="1980-04-05T23:27:00Z">
+                        frus:doc-dateTime-max="1980-04-05T23:27:00Z" subtype="historical-document">
                         <head>253. Telegram From the Department of State to the Embassies in
                             Morocco, Algeria, and Mauritania<note n="1" xml:id="d253fn1"
                                 type="source">Source: National Archives, RG 59, Central Foreign
@@ -33171,7 +33195,7 @@
                     <pb n="623" facs="0644" xml:id="pg_623"/>
                     <div type="document" n="254" xml:id="d254"
                         frus:doc-dateTime-min="1980-04-07T00:00:00Z"
-                        frus:doc-dateTime-max="1980-04-07T23:59:59Z">
+                        frus:doc-dateTime-max="1980-04-07T23:59:59Z" subtype="historical-document">
                         <head>254. Memorandum From <persName corresp="#p_RJ_1">James
                                 Rentschler</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -33225,7 +33249,7 @@
 
                     <div type="document" n="255" xml:id="d255"
                         frus:doc-dateTime-min="1980-06-26T11:51:00Z"
-                        frus:doc-dateTime-max="1980-06-26T11:51:00Z">
+                        frus:doc-dateTime-max="1980-06-26T11:51:00Z" subtype="historical-document">
                         <head><pb n="624" facs="0645" xml:id="pg_624"/>255. Telegram From the
                             Embassy in Spain to the Embassy in Portugal<note n="1" xml:id="d255fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
@@ -33406,7 +33430,7 @@
 
                     <div type="document" n="256" xml:id="d256"
                         frus:doc-dateTime-min="1980-07-30T23:56:00Z"
-                        frus:doc-dateTime-max="1980-07-30T23:56:00Z">
+                        frus:doc-dateTime-max="1980-07-30T23:56:00Z" subtype="historical-document">
                         <head>256. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d256fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800365–0950. Secret;
@@ -33486,7 +33510,7 @@
 
                     <div type="document" n="257" xml:id="d257"
                         frus:doc-dateTime-min="1980-08-02T12:37:00Z"
-                        frus:doc-dateTime-max="1980-08-02T12:37:00Z">
+                        frus:doc-dateTime-max="1980-08-02T12:37:00Z" subtype="historical-document">
                         <head>257. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d257fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800370–0874. Secret;
@@ -33609,7 +33633,7 @@
 
                     <div type="document" n="258" xml:id="d258"
                         frus:doc-dateTime-min="1980-08-04T00:00:00Z"
-                        frus:doc-dateTime-max="1980-08-04T23:59:59Z">
+                        frus:doc-dateTime-max="1980-08-04T23:59:59Z" subtype="historical-document">
                         <head>258. Memorandum From Secretary of State <persName corresp="#p_MES_1"
                                 >Muskie</persName> to President <persName corresp="#p_CJE_1"
                                 >Carter</persName><note n="1" xml:id="d258fn1" type="source">Source:
