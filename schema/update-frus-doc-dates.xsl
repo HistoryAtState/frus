@@ -24,7 +24,7 @@
                     select="subsequence(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @notBefore or @when], 1, 1)/(@from, @notBefore, @when)[. ne ''][1]/string()"/>
                 <xsl:variable name="date-max"
                     select="subsequence(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@to or @notAfter or @when], 1, 1)/(@to, @notAfter, @when)[. ne ''][1]/string()"/>
-                <xsl:variable name="timezone" select="xs:dayTimeDuration('PT0H')"/>
+                <xsl:variable name="timezone" select="xs:dayTimeDuration('-PT5H')"/>
                 <xsl:copy>
                     <xsl:apply-templates
                         select="@*[not(name(.) = ('frus:doc-dateTime-min', 'frus:doc-dateTime-max'))]"/>

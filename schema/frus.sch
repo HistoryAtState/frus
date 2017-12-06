@@ -367,7 +367,7 @@
         <rule context="tei:div[@type eq 'document'][.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when]]">
             <let name="date-min" value="subsequence(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @notBefore or @when], 1, 1)/(@from, @notBefore, @when)[. ne ''][1]/string()"/>
             <let name="date-max" value="subsequence(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@to or @notAfter or @when], 1, 1)/(@to, @notAfter, @when)[. ne ''][1]/string()"/>
-            <let name="timezone" value="xs:dayTimeDuration('PT0H')"/>
+            <let name="timezone" value="xs:dayTimeDuration('-PT5H')"/>
             <assert test="@frus:doc-dateTime-min and @frus:doc-dateTime-max" sqf:fix="add-doc-dateTime-attributes">Missing @frus:doc-dateTime-min and @frus:doc-dateTime-max.</assert>
             <assert test="if (@frus:doc-dateTime-min) then frus:normalize-low($date-min, $timezone) eq @frus:doc-dateTime-min else true()" sqf:fix="fix-doc-dateTime-min-attribute">Value of @frus:doc-dateTime-min <value-of select="@frus:doc-dateTime-min"/> does not match normalized value of dateline <value-of select="frus:normalize-low($date-min, $timezone)"/>.</assert>
             <assert test="if (@frus:doc-dateTime-max) then frus:normalize-high($date-max, $timezone) eq @frus:doc-dateTime-max else true()" sqf:fix="fix-doc-dateTime-max-attribute">Value of @frus:doc-dateTime-max <value-of select="@frus:doc-dateTime-max"/> does not match normalized value of dateline <value-of select="frus:normalize-high($date-max, $timezone)"/>.</assert>
