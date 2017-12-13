@@ -1233,6 +1233,13 @@
                                         <gloss>Date value(s) for undated document were inferred from
                                             volume date range and possibly outside research</gloss>
                                     </valItem>
+                                    <valItem
+                                        ident="#date_undated-temporarily-inferred-from-volume-rules">
+                                        <gloss>Date value(s) for undated document were inferred from
+                                            volume date range. (The value(s) serve as a placeholder
+                                            until more discrete analysis can be conducted on an
+                                            individual document level.)</gloss>
+                                    </valItem>
                                 </valList>
                             </attDef>
                         </attList>
