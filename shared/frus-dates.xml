@@ -107,6 +107,11 @@
                         <catDesc>Date value(s) for undated document were inferred from volume date
                             range and possibly outside research</catDesc>
                     </category>
+                    <category xml:id="date_undated-temporarily-inferred-from-volume-rules">
+                        <catDesc>Date value(s) for undated document were inferred from volume date
+                            range. (The value(s) serve as a placeholder until more discrete analysis
+                            can be conducted on an individual document level.)</catDesc>
+                    </category>
                     <!-- other categories -->
                 </taxonomy>
             </classDecl>
