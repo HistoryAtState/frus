@@ -467,6 +467,37 @@
                         <p>Every <gi>div</gi> element must have one and only one child <gi>head</gi>
                             element.</p>
                     </div>
+                    <div xml:id="openers">
+                        <p>A document <gi>opener</gi> consists of material such as a
+                                <gi>dateline</gi>, a reference number ("No. 5" or similar) or
+                            classification indicator ("private," "top secret", etc.) and sometimes
+                            other content before the document itself. It goes inside the
+                                <gi>opener</gi> element. If there is no <gi>opener</gi> content,
+                            there is no need for an <gi>opener</gi> tag. The <gi>dateline</gi>
+                            element should be accompanied by a <att>rendition</att> attribute that
+                            specifies <ident>right</ident> alignment. All other <gi>opener</gi>
+                            content should be tagged using <gi>seg</gi> with <att>rendition</att>
+                            <ident>left</ident> alignment.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <head>
+                                <hi rend="italic">Mr. <persName type="from">Tower</persName> to Mr.
+                                        <persName type="to">Hay</persName>.</hi>
+                            </head>
+                            <opener>
+                                <dateline rendition="#right"><placeName><hi rend="smallcaps">United
+                                            States Legation</hi>,<lb/><hi rend="italic"
+                                        >Vienna</hi></placeName>, <date when="1899-01-25"><hi
+                                            rend="italic">January 25, 1899</hi></date></dateline>
+                                <seg rendition="#left">No. 116.]</seg>
+                            </opener>
+                            <p><hi rend="smallcaps">Sir</hi>: In compliance with the
+                                instructions</p>
+                        </egXML>
+                        <p>These <ident>left</ident> and <ident>right</ident>
+                            <att>rendition</att> attributes allow the <gi>seg</gi> and
+                                <gi>dateline</gi> to render on the same line in accordance with the
+                            letterpress edition.</p>
+                    </div>
                     <div xml:id="paragraphs">
                         <head>Paragraphs</head>
                         <p>Paragraphs are wrapped in a <gi>p</gi> element. By default, a paragraph
@@ -536,6 +567,10 @@
                             value of <ident>sectiontitleital</ident>. Paragraphs may be numbered;
                             these can be distinguished from lists by their indentation: their first
                             line is indented, but subsequent lines are flush left.</p>
+                        <p>Also distinguish lists from numbered paragraphs by the amount of
+                            non-numbered paragraphs within the block of text. More than two
+                                <gi>p</gi> tags within an <gi>item</gi> usually indicate that the
+                            section is composed of numbered paragraphs and is not a list.</p>
                         <p>Certain specialized lists take the following <att>type</att>
                             attributes:</p>
                         <list>
@@ -640,6 +675,15 @@
                             the date is wrapped in a <gi>date</gi> element, with a <att>when</att>
                             attribute with the date expressed in XML Schema date (xs:date) or date
                             time (xs:dateTime) notation.</p>
+                        <p>The complete dateline is part of the <gi>opener</gi> element, described
+                            above in 3.3.4., and is usually (but not always) preceded by a
+                                <gi>seg</gi> element. If preceded by a <gi>seg</gi> element, the
+                            dateline should include a <att>rendition</att> attribute specifying
+                                <ident>right</ident> alignment.</p>
+                        <p>Datelines can also be found at the end of documents wrapped in
+                                <gi>closer</gi> or <gi>postscript</gi> elements. The same guidelines
+                            apply for the <gi>placeName</gi> and <gi>date</gi> elements given
+                            above.</p>
                     </div>
                     <div xml:id="signatures">
                         <head>Signatures</head>
@@ -675,8 +719,9 @@
                         </list>
                         <p>The following attributes are optional on the <gi>table</gi> element:</p>
                         <list>
-                            <item>A bordered table can be marked with a <att>rend</att> attribute of
-                                    <ident>bordered</ident>.</item>
+                            <item>A table centered on the page can be marked with a
+                                    <att>rendition</att> attribute of
+                                <ident>center-block</ident>.</item>
                         </list>
                         <p>The following attributes may be used on <gi>row</gi> and <gi>cell</gi>
                             elements:</p>
@@ -697,7 +742,13 @@
                                 numerical content, such as dollar amounts or counts, can be marked
                                 using with a <att>role</att> attribute with a value of
                                     <ident>num</ident>; this will result in the text being
-                                right-aligned.</item>
+                                right-aligned. Cells with this attribute should not contain spaces
+                                between numbers (1,000 instead of 1, 000, for instance).</item>
+                            <item><att>rendition</att>: Cells with horizontal or vertical borders
+                                should be tagged with values of <ident>border-right</ident>,
+                                    <ident>border-left</ident>, <ident>border-top</ident>, or
+                                    <ident>border-bottom</ident>. Often these occur in combination
+                                or multiple values will apply to a single cell.</item>
                         </list>
 
                     </div>
@@ -1232,13 +1283,6 @@
                                     <valItem ident="#date_undated-inferred-from-volume-rules">
                                         <gloss>Date value(s) for undated document were inferred from
                                             volume date range and possibly outside research</gloss>
-                                    </valItem>
-                                    <valItem
-                                        ident="#date_undated-temporarily-inferred-from-volume-rules">
-                                        <gloss>Date value(s) for undated document were inferred from
-                                            volume date range. (The value(s) serve as a placeholder
-                                            until more discrete analysis can be conducted on an
-                                            individual document level.)</gloss>
                                     </valItem>
                                 </valList>
                             </attDef>
