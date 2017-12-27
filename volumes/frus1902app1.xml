@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1902app1">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1902app1">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -63,6 +63,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2016-02-02 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
@@ -117,7 +120,9 @@
                 <p rend="center">WHALING AND SEALING CLAIMS AGAINST RUSSIA.</p>
                 <p rend="center"><hi rend="smallcaps">December</hi> 12, 1901.—Referred to the
                     Committee on Foreign Relations and ordered to be printed.</p>
-                <div type="document" xml:id="d1" n="1" subtype="historical-document">
+                <div type="document" xml:id="d1" n="1" subtype="historical-document"
+                    frus:doc-dateTime-min="1901-03-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1901-03-13T23:59:59-05:00">
                     <head>[Untitled]</head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
                                     of State</hi>,<lb/><hi rend="italic"
@@ -137,7 +142,9 @@
                                 States Senate.</hi></p>
                     </postscript>
                 </div>
-                <div type="document" xml:id="d2" n="2" subtype="historical-document">
+                <div type="document" xml:id="d2" n="2" subtype="historical-document"
+                    frus:doc-dateTime-min="1901-02-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1901-02-23T23:59:59-05:00">
                     <head>[Untitled]</head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Embassy of
                                     the United States</hi>,<lb/><hi rend="italic">St.
@@ -1724,7 +1731,9 @@
                 <p rend="flushleft">Together with interest thereon from September 10, 1892, to the
                     date of the award at the rate of 6 per cent per annum.</p>
                 <pb n="30" xml:id="pg_30" facs="0040"/>
-                <div type="document" xml:id="d3" n="3" subtype="historical-document">
+                <div type="document" xml:id="d3" n="3" subtype="historical-document"
+                    frus:doc-dateTime-min="1900-09-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1900-09-01T23:59:59-05:00">
                     <head>No. 5525.—<hi rend="smallcaps">United States of America.</hi></head>
                     <p rend="center"><hi rend="smallcaps">department of state.</hi></p>
                     <p rend="flushleft"><hi rend="italic">To all to whom these presents shall come,
@@ -1736,9 +1745,10 @@
                         State to be affixed.</p>
                     <closer>
                         <dateline rendition="#left">Done at the city of
-                                <placeName>Washington</placeName> this <date>1st day of September,
-                                A. D. 1900, and of the Independence of the United States of America
-                                the one hundred and twenty-fifth</date>.</dateline>
+                                <placeName>Washington</placeName>
+                            <date when="1900-09-01">this 1st day of September, A. D. 1900, and of
+                                the Independence of the United States of America the one hundred and
+                                twenty-fifth</date>.</dateline>
                         <lb/>[Seal of the Department of State,<lb/>United States of America.]
                                 <signed><hi rend="smallcaps">John Hay</hi>.</signed></closer>
                     <postscript>
@@ -1875,8 +1885,9 @@
                             San Francisco.</p>
                         <closer>
                             <dateline rendition="#left">Given under my hand and seal at the port of
-                                    <placeName>San Francisco</placeName> this <date>30th day of
-                                    November, in the year 1887</date>.</dateline>
+                                    <placeName>San Francisco</placeName>
+                                <date when="1887-11-30">this 30th day of November, in the year
+                                    1887</date>.</dateline>
                             <lb/>[Place for seal of naval officer.] <signed><hi rend="smallcaps"
                                     >Stuart Taylor.</hi></signed><lb/>[Place for seal of
                                     collector.]<lb/><signed><hi rend="smallcaps">Jno. S.
@@ -2511,15 +2522,17 @@
                             office.</p>
                         <closer>
                             <dateline rendition="#left">Given under my hand and seal of office, at
-                                the custom-house, this <date>7th day of December, in the year of our
-                                    Lord 1891</date>.</dateline>
+                                the custom-house, <date when="1891-12-07">this 7th day of December,
+                                    in the year of our Lord 1891</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">M.
                                     Webber</hi>,<lb/><hi rend="italic">Deputy
                                 Collector.</hi></signed></closer>
                     </frus:attachment>
                 </div>
                 <pb n="33" xml:id="pg_33" facs="0043"/>
-                <div type="document" xml:id="d4" n="4" subtype="historical-document">
+                <div type="document" xml:id="d4" n="4" subtype="historical-document"
+                    frus:doc-dateTime-min="1900-09-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1900-09-01T23:59:59-05:00">
                     <head>No. 5528.—<hi rend="smallcaps">United States of America.</hi></head>
                     <p rend="center"><hi rend="smallcaps">department of state.</hi></p>
                     <p rend="flushleft"><hi rend="italic">To all to whom these presents shall come,
@@ -2531,9 +2544,10 @@
                         State to be affixed.</p>
                     <closer>
                         <dateline rendition="#left">Done at the city of
-                                <placeName>Washington</placeName>, this <date>1st day of September,
-                                A. D. 1900, and of the independence of the United States of America
-                                the one hundred and twenty-fifth</date>.</dateline>
+                                <placeName>Washington</placeName>, <date when="1900-09-01">this 1st
+                                day of September, A. D. 1900, and of the independence of the United
+                                States of America the one hundred and
+                            twenty-fifth</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">John Hay.</hi></signed></closer>
                     <postscript>
                         <p>[Seal of the Department of State of the United States of America.]</p>
@@ -3215,7 +3229,9 @@
                                 B.</signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d5" n="5" subtype="historical-document">
+                <div type="document" xml:id="d5" n="5" subtype="historical-document"
+                    frus:doc-dateTime-min="1900-09-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1900-09-01T23:59:59-05:00">
                     <head>No. 5527.—<hi rend="smallcaps">United States of America.</hi></head>
                     <p rend="center"><hi rend="smallcaps">department of state.</hi></p>
                     <p rend="flushleft"><hi rend="italic">To all to whom these presents shall come,
@@ -3226,9 +3242,10 @@
                         the Department of State to be affixed.</p>
                     <closer>
                         <dateline rendition="#left">Done at the city of
-                                <placeName>Washington</placeName>, this <date>1st day of September,
-                                A. D. 1900, and of the Independence of the United States of America
-                                the one hundred and twenty-fifth</date>.</dateline>
+                                <placeName>Washington</placeName>, <date when="1900-09-01">this 1st
+                                day of September, A. D. 1900, and of the Independence of the United
+                                States of America the one hundred and
+                            twenty-fifth</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">John Hay.</hi></signed></closer>
                     <postscript>
                         <p rend="flushleft">[Seal of the Department of State of the United States of
@@ -3276,10 +3293,10 @@
                             to law.</p>
                         <closer>
                             <dateline rendition="#left">Given under our hands and seals, at the
-                                custom-house of <placeName>San Francisco</placeName>, this <date>7th
-                                    day of December, 1891, and in the one hundred and fifteenth year
-                                    of the Independence of the United States of
-                                America</date>.</dateline>
+                                custom-house of <placeName>San Francisco</placeName>, <date
+                                    when="1891-12-07">this 7th day of December, 1891, and in the one
+                                    hundred and fifteenth year of the Independence of the United
+                                    States of America</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">W. E. Hamilton</hi>, <hi rend="italic"
                                     >Deputy Naval Officer</hi>.<lb/><hi rend="smallcaps">M.
                                     Webber</hi>, <hi rend="italic">Deputy
@@ -3493,8 +3510,9 @@
                             original.</p>
                         <closer>
                             <dateline rendition="#left">In testimony whereof I have hereunto set my
-                                hand and affixed the seal of the embassy of the United States this
-                                    <date>17th day of February, in the year 1900</date>.</dateline>
+                                hand and affixed the seal of the embassy of the United States <date
+                                    when="1900-02-17">this 17th day of February, in the year
+                                    1900</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Herbert J. Hagerman</hi>,<lb/><hi rend="italic">Second
                                     Secretary, United States Embassy.</hi></signed></closer>
@@ -3545,8 +3563,8 @@
                             entered and of the whole thereof.</p>
                         <closer>
                             <dateline rendition="#left">In testimony whereof I have hereunto set my
-                                hand and affixed the seal of this embassy this <date>17th day of
-                                    February, A. D. 1900</date>.</dateline>
+                                hand and affixed the seal of this embassy <date when="1900-02-17"
+                                    >this 17th day of February, A. D. 1900</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Herbert J. Hagerman</hi>,<lb/><hi rend="italic">Second
                                     Secretary, United States Embassy.</hi></signed></closer>
@@ -3576,7 +3594,9 @@
                         </postscript>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d6" n="6" subtype="historical-document">
+                <div type="document" xml:id="d6" n="6" subtype="historical-document"
+                    frus:doc-dateTime-min="1900-09-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1900-09-01T23:59:59-05:00">
                     <head>No. 5526.—<hi rend="smallcaps">United States of America.</hi></head>
                     <p rend="center"><hi rend="smallcaps">department of state.</hi></p>
                     <p rend="flushleft"><hi rend="italic">To all to whom these presents shall come,
@@ -3588,9 +3608,10 @@
                         State to be affixed.</p>
                     <closer>
                         <dateline rendition="#left">Done at the city of
-                                <placeName>Washington</placeName> this <date>1st day of September,
-                                A. D. 1900, and of the Independence of the United States of America
-                                the one hundred and twenty-fifth</date>.</dateline>
+                                <placeName>Washington</placeName>
+                            <date when="1900-09-01">this 1st day of September, A. D. 1900, and of
+                                the Independence of the United States of America the one hundred and
+                                twenty-fifth</date>.</dateline>
                         <lb/>[Seal of the Department of State of the United States of America.]
                                 <signed><hi rend="smallcaps">John Hay</hi>.</signed></closer>
                     <postscript>
@@ -3856,8 +3877,8 @@
                             signed the same.</p>
                         <closer>
                             <dateline rendition="#left">In witness whereof I have hereunto set my
-                                hand and official seal this <date>14th day of February, A. D.
-                                    1893</date>.</dateline>
+                                hand and official seal <date when="1893-02-14">this 14th day of
+                                    February, A. D. 1893</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">Wm.
                                     F. Caswell</hi>,<lb/><hi rend="italic">Notary
                                 Public.</hi></signed></closer>
@@ -4162,8 +4183,8 @@
                             signed the same.</p>
                         <closer>
                             <dateline rendition="#left">In witness whereof I have hereunto set my
-                                hand and official seal this <date>14th day of December, A. D.
-                                    1892</date>.</dateline>
+                                hand and official seal this <date when="1892-12-14">14th day of
+                                    December, A. D. 1892</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Homer W. Hervey</hi>, <hi rend="italic">Notary
                                 Public.</hi></signed></closer>
@@ -4356,8 +4377,8 @@
                             entered, and of the whole thereof.</p>
                         <closer>
                             <dateline rendition="#left">In testimony whereof I have hereunto set my
-                                hand and affixed the seal of this embassy this <date>17th day of
-                                    February, 1900</date>.</dateline>
+                                hand and affixed the seal of this embassy <date when="1900-02-17"
+                                    >this 17th day of February, 1900</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Herbert J. Hagerman</hi>,<lb/><hi rend="italic">Second
                                     Secretary United States Embassy.</hi></signed></closer>
@@ -4427,8 +4448,8 @@
                             entered, and of the whole thereof.</p>
                         <closer>
                             <dateline rendition="#left">In testimony whereof I have hereunto set my
-                                hand and affixed the seal of this embassy this <date>17th day of
-                                    February, 1900</date>.</dateline>
+                                hand and affixed the seal of this embassy <date when="1900-02-17"
+                                    >this 17th day of February, 1900</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Herbert J. Hagerman</hi>,<lb/><hi rend="italic">Second
                                     Secretary United States Embassy.</hi></signed></closer>
@@ -4638,8 +4659,8 @@
                             entered, and the whole thereof.</p>
                         <closer>
                             <dateline rendition="#left">In testimony whereof I have hereunto set my
-                                hand and affixed the seal of this embassy this <date>20th day of
-                                    February, in the year 1900</date>.</dateline>
+                                hand and affixed the seal of this embassy <date when="1900-02-20"
+                                    >this 20th day of February, in the year 1900</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Herbert J. Hagerman</hi>,<lb/><hi rend="italic">Second
                                     Secretary United States Embassy.</hi></signed></closer>
@@ -4704,8 +4725,9 @@
                             original.</p>
                         <closer>
                             <dateline rendition="#left">In testimony whereof I have hereunto set my
-                                hand and affixed the seal of the embassy of the United States this
-                                    <date>20th day of February, in the year 1900</date>.</dateline>
+                                hand and affixed the seal of the embassy of the United States <date
+                                    when="1900-02-20">this 20th day of February, in the year
+                                    1900</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Herbert J. Hagerman</hi>,<lb/><hi rend="italic">Second
                                     Secretary United States Embassy.</hi></signed></closer>
@@ -11280,8 +11302,9 @@
                         </table>
                         <p>(E. &amp; O. E.)</p>
                         <closer><dateline rendition="#left"><placeName><hi rend="smallcaps">New
-                                        Bedford</hi></placeName>, <date><hi rend="italic">February
-                                        1, 1893</hi></date>.</dateline></closer>
+                                        Bedford</hi></placeName>, <date when="1893-02-01"><hi
+                                        rend="italic">February 1,
+                            1893</hi></date>.</dateline></closer>
                     </frus:attachment>
                     <frus:attachment>
                         <head><hi rend="smallcaps">Annex</hi> 8.</head>
@@ -11455,8 +11478,8 @@
                             testify.</p>
                         <closer>
                             <dateline rendition="#left"><placeName><hi rend="smallcaps"
-                                        >Vladivostock</hi></placeName>, <date><hi rend="italic"
-                                        >September 21, 1892</hi></date>.</dateline>
+                                        >Vladivostock</hi></placeName>, <date when="1892-09-21"><hi
+                                        rend="italic">September 21, 1892</hi></date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">Thomas Scullun</hi>, Master.<lb/><hi
                                     rend="smallcaps">William H. Young</hi>, <hi rend="italic">First
                                     Mate.</hi><lb/><hi rend="smallcaps">Antonio Margarida</hi>, <hi
@@ -11535,8 +11558,8 @@
                         </list>
                         <closer>
                             <dateline rendition="#left">Done at <placeName>Vladivostock</placeName>
-                                this <date>23rd day of September, 1892</date>, which witness our
-                                signatures affixed below.</dateline>
+                                <date when="1892-09-23">this 23rd day of September, 1892</date>,
+                                which witness our signatures affixed below.</dateline>
                             <lb/><signed>
                                 <list>
                                     <item><hi rend="smallcaps">Thomas Scullun</hi>, <hi
@@ -11813,8 +11836,8 @@
                         <closer><signed><hi rend="smallcaps">Westmann.</hi></signed>
                             <lb/>
                             <dateline rendition="#left"><placeName><hi rend="smallcaps">St.
-                                        Petersburg</hi></placeName>, <date><hi rend="italic">July
-                                        31, 1868</hi></date>.</dateline>
+                                        Petersburg</hi></placeName>, <date when="1868-07-31"><hi
+                                        rend="italic">July 31, 1868</hi></date>.</dateline>
                         </closer>
                     </frus:attachment>
                     <frus:attachment>
@@ -11845,8 +11868,9 @@
                             caused the seal of the embassy of the United States to be affixed.</p>
                         <closer>
                             <dateline rendition="#left">Done at <placeName>St.
-                                    Petersburg</placeName> this <date>23d day of November, A. D.
-                                    1900</date>.</dateline>
+                                    Petersburg</placeName>
+                                <date when="1900-11-23">this 23d day of November, A. D.
+                                1900</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">embassy seal.</hi>] <signed><hi
                                     rend="smallcaps">Herbert H. D. Peirce</hi>.</signed></closer>
                     </frus:attachment>
@@ -11884,8 +11908,8 @@
                             <lb/>
                             <dateline rendition="#left"><hi rend="smallcaps">Executive
                                         Mansion</hi>,<lb/><placeName><hi rend="italic"
-                                        >Washington</hi></placeName>, <date><hi rend="italic"
-                                        >January 14, 1898</hi></date>.</dateline>
+                                        >Washington</hi></placeName>, <date when="1898-01-14"><hi
+                                        rend="italic">January 14, 1898</hi></date>.</dateline>
                         </closer>
                     </frus:attachment>
                     <frus:attachment>
@@ -12426,8 +12450,8 @@
                             convention and have hereunto affixed our seals.</p>
                         <closer>
                             <dateline rendition="#left">Done in duplicate at
-                                    <placeName>Washington</placeName>, the <date>8th day of
-                                    February, 1896</date>.</dateline>
+                                    <placeName>Washington</placeName>, <date when="1896-02-08">the
+                                    8th day of February, 1896</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">Richard Olney</hi>.</signed> [<hi
                                 rend="smallcaps">seal.</hi>]<lb/><signed><hi rend="smallcaps">Julian
                                     Pauncefote</hi>.</signed> [<hi rend="smallcaps"
@@ -12622,9 +12646,10 @@
                             the United States to be affixed.</p>
                         <closer>
                             <dateline rendition="#left">Done at the city of
-                                    <placeName>Washington</placeName> this <date>11th day of June,
-                                    in the year of our Lord 1896, and of the Independence of the
-                                    United States the one hundred and twentieth</date>.</dateline>
+                                    <placeName>Washington</placeName>
+                                <date when="1896-06-11">this 11th day of June, in the year of our
+                                    Lord 1896, and of the Independence of the United States the one
+                                    hundred and twentieth</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Grover Cleveland.</hi></signed></closer>
                         <postscript>
@@ -12971,8 +12996,9 @@
                             which we determine and award that we have no jurisdiction, and we
                             dismiss the same.</p>
                         <closer>
-                            <dateline rendition="#left">Made in duplicate and signed by us this
-                                    <date>seventeenth day of December, A. D. 1897</date>.</dateline>
+                            <dateline rendition="#left">Made in duplicate and signed by us <date
+                                    when="1897-12-17">this seventeenth day of December, A. D.
+                                    1897</date>.</dateline>
                             <lb/><signed>
                                 <list>
                                     <item><hi rend="smallcaps">William L. Putnam</hi>,<lb/><hi
@@ -13004,7 +13030,8 @@
                             sustained by him was $1,000, with interest at the rate of 6 per cent per
                             annum from September 10, 1887.</p>
                         <closer>
-                            <dateline rendition="#left"><date>December 17, 1897</date>.</dateline>
+                            <dateline rendition="#left"><date when="1897-12-17">December 17,
+                                    1897</date>.</dateline>
                             <lb/><signed>
                                 <list>
                                     <item><hi rend="smallcaps">William L. Putnam</hi>,<lb/><hi
@@ -14370,8 +14397,9 @@
                         <p rend="flushleft">and there is no mortgage or lien on record against said
                             vessel in this office.</p>
                         <closer>
-                            <dateline rendition="#left">Given under my hand and seal of office this
-                                    <date>29th day of March, 1900, 1.35 p.m.</date></dateline>
+                            <dateline rendition="#left">Given under my hand and seal of office <date
+                                    when="1900-03-29T13:35:00-08:00">this 29th day of March, 1900,
+                                    1.35 p.m.</date></dateline>
                             <lb/><signed><hi rend="smallcaps">N. S. Farley</hi>,<lb/><hi
                                     rend="italic">Deputy Collector.</hi></signed></closer>
                         <postscript>
@@ -14379,9 +14407,9 @@
                             <p>H. J.</p>
                             <closer><dateline rendition="#left"><hi rend="smallcaps">Cashier’s
                                         Office, Custom-House</hi>,<lb/><placeName><hi
-                                            rend="smallcaps">San Francisco</hi></placeName>,
-                                            <date><hi rend="italic">March 29,
-                                    1900</hi></date>.</dateline></closer>
+                                            rend="smallcaps">San Francisco</hi></placeName>, <date
+                                        when="1900-03-29"><hi rend="italic">March 29,
+                                        1900</hi></date>.</dateline></closer>
                         </postscript>
                         <postscript>
                             <p>[<hi rend="smallcaps">stamp.</hi>]</p>
@@ -14406,9 +14434,9 @@
                             <p>Fee, 20 cents, paid.</p>
                             <closer><dateline rendition="#left"><hi rend="smallcaps">Cashier’s
                                         Office, Custom-House</hi>,<lb/><placeName><hi
-                                            rend="smallcaps">San Francisco</hi></placeName>,
-                                            <date><hi rend="italic">March 29,
-                                    1900</hi></date>.</dateline></closer>
+                                            rend="smallcaps">San Francisco</hi></placeName>, <date
+                                        when="1900-03-29"><hi rend="italic">March 29,
+                                        1900</hi></date>.</dateline></closer>
                         </postscript>
                     </frus:attachment>
                     <pb n="121" xml:id="pg_121" facs="0137"/>
@@ -14510,8 +14538,8 @@
                                 <hi rend="italic">J. H. Lewis</hi>, except as mentioned herein. So
                             help me God.</p>
                         <closer>
-                            <dateline rendition="#left">Sworn to this <date>7th day of March,
-                                    1891</date>.</dateline>
+                            <dateline rendition="#left">Sworn to <date when="1891-03-07">this 7th
+                                    day of March, 1891</date>.</dateline>
                             <lb/><signed>
                                 <list>
                                     <item><hi rend="smallcaps">A. McLean</hi>, <hi rend="italic"
@@ -14526,8 +14554,8 @@
                                         >Bond Clerk</hi>.<lb/>G. H. F.</signed><lb/>
                                 <dateline rendition="#left"><hi rend="smallcaps">District and Port
                                         of <placeName>San Francisco</placeName>,<lb/>Collector’s
-                                        Office</hi>,<lb/><date><hi rend="italic">March 23,
-                                        1900</hi></date>.</dateline></closer>
+                                        Office</hi>,<lb/><date when="1900-03-23"><hi rend="italic"
+                                            >March 23, 1900</hi></date>.</dateline></closer>
                         </postscript>
                         <postscript>
                             <p>I hereby certify the foregoing to be a true copy of the original now
@@ -14539,8 +14567,9 @@
                             <p>Fee, 20 cents, paid.</p>
                             <closer><dateline rendition="#left"><hi rend="smallcaps">Cashier’s
                                         Office, Custom-House</hi>,<lb/><placeName><hi rend="italic"
-                                            >San Francisco</hi></placeName>, <date><hi rend="italic"
-                                            >March 23, 1900</hi></date>.</dateline></closer>
+                                            >San Francisco</hi></placeName>, <date when="1900-03-23"
+                                            ><hi rend="italic">March 23,
+                                    1900</hi></date>.</dateline></closer>
                         </postscript>
                     </frus:attachment>
                     <frus:attachment>
@@ -14612,8 +14641,8 @@
                             </row>
                         </table>
                         <closer>
-                            <dateline rendition="#left">Bonds filed <date>March 7,
-                                1891</date>.</dateline>
+                            <dateline rendition="#left">Bonds filed <date when="1891-03-07">March 7,
+                                    1891</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">W. P. Saxe</hi>, <hi rend="italic"
                                     >Bond Clerk.</hi></signed></closer>
                     </frus:attachment>
@@ -14631,8 +14660,9 @@
                             <p>Fee, 20 cents, paid.</p>
                             <closer><dateline rendition="#left"><hi rend="smallcaps">Cashier’s
                                         Office, Custom-House</hi>,<lb/><placeName><hi rend="italic"
-                                            >San Francisco</hi></placeName>, <date><hi rend="italic"
-                                            >March 23, 1900</hi></date>.</dateline></closer>
+                                            >San Francisco</hi></placeName>, <date when="1900-03-23"
+                                            ><hi rend="italic">March 23,
+                                    1900</hi></date>.</dateline></closer>
                         </postscript>
                     </frus:attachment>
                     <frus:attachment>
@@ -17095,8 +17125,8 @@
                         <closer><signed><hi rend="smallcaps">T. T. Williams</hi>.</signed>
                             <lb/>
                             <dateline rendition="#left"><placeName><hi rend="smallcaps">Victoria, B.
-                                        C.</hi></placeName>, <date><hi rend="italic">October 1,
-                                        1889</hi></date>.</dateline>
+                                        C.</hi></placeName>, <date when="1889-10-01"><hi
+                                        rend="italic">October 1, 1889</hi></date>.</dateline>
                         </closer>
                     </frus:attachment>
                     <frus:attachment>
@@ -17115,7 +17145,8 @@
                             <dateline rendition="#left">In witness whereof I have hereunto set my
                                 hand and affixed my official seal at my office in the city and
                                 county of <placeName>San Francisco</placeName>, State of California,
-                                this <date>4th day of April, A. D. 1892</date>.</dateline>
+                                    <date when="1892-04-04">this 4th day of April, A. D.
+                                1892</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Clement Bennett</hi>, <hi rend="italic">Notary
                                 Public.</hi></signed></closer>
@@ -18293,13 +18324,16 @@
                         <closer>
                             <dateline rendition="#left">In testimony whereof I have hereunto set my
                                 hand and affixed the seal of the embassy of the United States this
-                                    <date>3d day of March, in the year 1900</date>.</dateline>
+                                    <date when="1900-03-03">3d day of March, in the year
+                                1900</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Herbert J. Hagerman</hi>,<lb/><hi rend="italic">Second
                                     Secretary, United States Embassy.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d8" n="8" subtype="historical-document">
+                <div type="document" xml:id="d8" n="8" subtype="historical-document"
+                    frus:doc-dateTime-min="1900-10-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1900-10-04T23:59:59-05:00">
                     <head>No. 5883.—<hi rend="smallcaps">United States of America</hi>.</head>
                     <p rend="center"><hi rend="smallcaps">department of state.</hi></p>
                     <p rend="flushleft"><hi rend="italic">To all to whom these presents shall come,
@@ -18311,9 +18345,10 @@
                         State to be affixed.</p>
                     <closer>
                         <dateline rendition="#left">Done at the city of
-                                <placeName>Washington</placeName> this <date>4th day of October, A.
-                                D. 1900, and of the Independence of the United States of America the
-                                one hundred and twenty-fifth</date>.</dateline>
+                                <placeName>Washington</placeName>
+                            <date when="1900-10-04">this 4th day of October, A. D. 1900, and of the
+                                Independence of the United States of America the one hundred and
+                                twenty-fifth</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">John
                                 Hay.</hi></signed></closer>
                     <frus:attachment>
@@ -18552,8 +18587,11 @@
                                     rend="italic">Attorneys for Claimants.</hi></signed>
                             <lb/>
                             <dateline rendition="#left"><placeName><hi rend="smallcaps">Washington,
-                                        D. C.</hi></placeName>, <date><hi rend="italic">November,
-                                        1893</hi></date>.</dateline>
+                                        D. C.</hi></placeName>, <date when="1893-11"
+                                    notBefore="1893-11-01T00:00:00-04:56"
+                                    notAfter="1893-11-30T23:59:59-05:00"
+                                    ana="#date_imprecise-inferred-from-date-rules"><hi rend="italic"
+                                        >November, 1893</hi></date>.</dateline>
                         </closer>
                     </frus:attachment>
                     <frus:attachment>
@@ -18874,8 +18912,9 @@
                             and credit.</p>
                         <closer>
                             <dateline rendition="#left">In witness whereof I have hereunto set my
-                                hand and affixed the seal of said circuit court this <date>14th day
-                                    of January, A. D. 1893</date>.</dateline>
+                                hand and affixed the seal of said circuit court <date
+                                    when="1893-01-14">this 14th day of January, A. D.
+                                1893</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">L.
                                     S. B. Sawyer</hi>,<lb/><hi rend="italic">Clerk U. S. Circuit
                                     Court, Northern District of California.</hi></signed></closer>
@@ -20942,8 +20981,8 @@
                             is a correct transcription therefrom and of the whole of said note.</p>
                         <closer>
                             <dateline rendition="#left">In testimony whereof I have hereunto set my
-                                hand and affixed the seal of the embassy of the United States this
-                                    <date>9th day of March, 1900</date>.</dateline>
+                                hand and affixed the seal of the embassy of the United States <date
+                                    when="1900-03-09">this 9th day of March, 1900</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Herbert J. Hagerman</hi>,<lb/><hi rend="italic">Second
                                     Secretary United States Embassy</hi></signed></closer>
@@ -21254,8 +21293,9 @@
                             presence, and left with said official.</p>
                         <closer>
                             <dateline rendition="#left">In testimony whereof I have hereunto set my
-                                hand and affixed the seal of the embassy of the United States this
-                                    <date>8th day of March in the year 1900</date>.</dateline>
+                                hand and affixed the seal of the embassy of the United States <date
+                                    when="1900-03-08">this 8th day of March in the year
+                                1900</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Herbert H. D. Peirce</hi>,<lb/><hi rend="italic">Secretary of
                                     United States Embassy.</hi></signed></closer>
@@ -21307,8 +21347,9 @@
                             correct transcription therefrom and of the whole of said note.</p>
                         <closer>
                             <dateline rendition="#left">In testimony whereof I have hereunto set my
-                                hand and affixed the seal of the embassy of the United States this
-                                    <date>10th day of March, 1900</date>.</dateline>
+                                hand and affixed the seal of the embassy of the United States <date
+                                    when="1900-03-10">this 10th day of March,
+                                1900</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Herbert J. Hagerman</hi>,<lb/><hi rend="italic">Second
                                     Secretary United States Embassy.</hi></signed></closer>
@@ -21429,8 +21470,9 @@
                             a correct transcript therefrom and of the whole of said note.</p>
                         <closer>
                             <dateline rendition="#left">In testimony whereof I have hereunto set my
-                                hand and affixed the seal of the embassy of the United States this
-                                    <date>10th day of March, 1900</date>.</dateline>
+                                hand and affixed the seal of the embassy of the United States <date
+                                    when="1900-03-10">this 10th day of March,
+                                1900</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Herbert J. Hagerman</hi>,<lb/><hi rend="italic">Second
                                     Secretary United States Embassy.</hi></signed></closer>
@@ -22406,8 +22448,8 @@
                             duly registered at the port of San Francisco. * * *</p>
                         <closer>
                             <dateline rendition="#left">Given under my hand and seal at the port of
-                                    <placeName>San Francisco</placeName>, the <date>10th day of
-                                    January, 1890</date>. * * *</dateline>
+                                    <placeName>San Francisco</placeName>, <date when="1890-01-10"
+                                    >the 10th day of January, 1890</date>. * * *</dateline>
                             <lb/><signed>
                                 <list>
                                     <item><hi rend="smallcaps">T. G. Phelps</hi>,<lb/><hi
@@ -23741,9 +23783,10 @@
                         State to be affixed.</p>
                     <closer>
                         <dateline rendition="#left">Done at the city of
-                                <placeName>Washington</placeName> this <date>6th day of December A.
-                                D. 1900, and of the Independence of the United States of America the
-                                one hundred and twenty-fifth</date>.</dateline>
+                                <placeName>Washington</placeName>
+                            <date when="1900-11-06">this 6th day of December A. D. 1900, and of the
+                                Independence of the United States of America the one hundred and
+                                twenty-fifth</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">John Hay.</hi></signed></closer>
                     <postscript>
                         <p>[Seal of the State Department.]</p>
@@ -23761,8 +23804,9 @@
                         officer.</p>
                     <closer>
                         <dateline rendition="#left">Witness my hand and the great seal of state, at
-                            office in <placeName>Sacramento, Cal.</placeName>, the <date>8th day of
-                                September, A. D. 1900</date>.</dateline>
+                            office in <placeName>Sacramento, Cal.</placeName>, <date
+                                when="1900-09-08">the 8th day of September, A. D.
+                            1900</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">C. F. Curry</hi>, <hi rend="italic"
                                 >Secretary of State.</hi></signed></closer>
                     <postscript>
@@ -23791,8 +23835,9 @@
                         and by whom.</p>
                     <closer>
                         <dateline rendition="#left">Witness my hand and the great seal of state, at
-                            office in <placeName>Sacramento, Cal.</placeName>, this the <date>29th
-                                day of September, A. D. 1891</date>.</dateline>
+                            office in <placeName>Sacramento, Cal.</placeName>, this <date
+                                when="1891-09-29">the 29th day of September, A. D.
+                            1891</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">E. G. Waite</hi>,<lb/><hi rend="italic"
                                 >Secretary of State.</hi></signed></closer>
                     <postscript>
@@ -23816,9 +23861,10 @@
                         State to be affixed.</p>
                     <closer>
                         <dateline rendition="#left">Done at the city of
-                                <placeName>Washington</placeName> this <date>6th day of December, A.
-                                D. 1900, and of the independence of the United States of America the
-                                one hundred and twenty-fifth</date>.</dateline>
+                                <placeName>Washington</placeName>
+                            <date when="1900-12-06">this 6th day of December, A. D. 1900, and of the
+                                independence of the United States of America the one hundred and
+                                twenty-fifth</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">John Hay.</hi></signed></closer>
                     <postscript>
                         <p>[Seal of Department of State.]</p>
@@ -23868,8 +23914,9 @@
                         the laws of the State of California, sole owner of said vessel, and there is
                         no mortgage or lien on record against said vessel in this office.</p>
                     <closer>
-                        <dateline rendition="#left">Given under my hand and seal of office this
-                                <date>8th day of September, 1900, 10.40 a.m.</date></dateline>
+                        <dateline rendition="#left">Given under my hand and seal of office <date
+                                when="1900-09-08T10:40:00-08:00">this 8th day of September, 1900,
+                                10.40 a.m.</date></dateline>
                         <lb/>______ _______,<lb/><hi rend="italic">Deputy Collector.</hi></closer>
                     <postscript>
                         <p>[Seal of the collector of customs.]</p>
@@ -23877,8 +23924,9 @@
                         <p>10-cent stamp. Paid.</p>
                         <closer><dateline rendition="#left"><hi rend="smallcaps">Cashier’s Office,
                                     Custom-House</hi>, <placeName><hi rend="smallcaps">San
-                                        Francisco</hi></placeName>,<lb/><date><hi rend="italic"
-                                        >September 8, 1900</hi></date>.</dateline></closer>
+                                        Francisco</hi></placeName>,<lb/><date when="1900-09-08"><hi
+                                        rend="italic">September 8,
+                            1900</hi></date>.</dateline></closer>
                     </postscript>
                 </frus:attachment>
                 <pb n="228" xml:id="pg_228" facs="0248"/>
@@ -24089,10 +24137,10 @@
                         said court now in my office.</p>
                     <closer>
                         <dateline rendition="#left">In testimony whereof I have hereunto set my hand
-                            and affixed the seal of said court this <date>26th day of April, in the
-                                year of our Lord one thousand eight hundred and ninety-two, and in
-                                the year of our Independence the one hundred and
-                            sixteenth</date>.</dateline>
+                            and affixed the seal of said court <date when="1892-04-26">this 26th day
+                                of April, in the year of our Lord one thousand eight hundred and
+                                ninety-two, and in the year of our Independence the one hundred and
+                                sixteenth</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">Wm. J.
                                 Blattner</hi>, <hi rend="italic">Clerk</hi></signed>,<lb/>By
                                 <signed><hi rend="smallcaps">Geo. S. McComb</hi>. <hi rend="italic"
@@ -24116,9 +24164,9 @@
                     <closer>
                         <dateline rendition="#left">In testimony whereof I have hereunto set my hand
                             and affixed the seal of said court at <placeName>Boston</placeName>
-                            aforesaid this <date>5th day of March, A. D. 1886, and in the one
-                                hundred and tenth year of the Independence of the United States of
-                                America</date>.</dateline>
+                            aforesaid <date when="1886-03-05">this 5th day of March, A. D. 1886, and
+                                in the one hundred and tenth year of the Independence of the United
+                                States of America</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">Elisha
                                 Bassett</hi>,<lb/><hi rend="italic">Deputy Clerk of the United
                                 States District Court for the District of
@@ -24258,8 +24306,9 @@
                     <closer>
                         <dateline rendition="#left">In witness whereof the above-named company has
                             caused this memorial to be made and subscribed by its president and
-                            secretary, and its corporate name and seal to be hereunto affixed this
-                                <date>1st day of November, A. D. 1892</date>.</dateline>
+                            secretary, and its corporate name and seal to be hereunto affixed <date
+                                when="1892-11-01">this 1st day of November, A. D.
+                            1892</date>.</dateline>
                         <lb/><hi rend="smallcaps">Eagle Fishing Company</hi>,<lb/>By <signed><hi
                                 rend="smallcaps">Johan H. C. Prien</hi>, <hi rend="italic"
                                 >President</hi>.</signed><lb/>[<hi rend="smallcaps">seal.</hi>]
@@ -24581,8 +24630,8 @@
                         States of America against the Russian Government for the presentation of
                         this claim against said Russian Government.</p>
                     <closer><dateline rendition="#left">In witness whereof I have Hereunto set my
-                            hand and seal this <date>24th day of January, A. D.
-                            1893</date>.</dateline>
+                            hand and seal <date when="1893-01-24">this 24th day of January, A. D.
+                                1893</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">Lawrence
                                 Magnus Furman.</hi></signed></closer>
                 </frus:attachment>
@@ -24623,8 +24672,8 @@
                     <closer>
                         <dateline rendition="#left">In witness whereof I have hereunto set my hand
                             and affixed the seal of the said superior court at my office in said
-                            city and county this <date>31st day of January, A. D.
-                            1893</date>.</dateline>
+                            city and county <date when="1893-01-31">this 31st day of January, A. D.
+                                1893</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">M. C. Haley</hi>, <hi rend="italic"
                                 >Clerk.</hi></signed></closer>
                 </frus:attachment>
@@ -24639,8 +24688,8 @@
                         clerk are entitled to full faith and credit. And I further certify that said
                         attestation is in due form of law.</p>
                     <closer>
-                        <dateline rendition="#left">Witness my hand this <date>31st day of January,
-                                A. D. 1893</date>.</dateline>
+                        <dateline rendition="#left">Witness my hand <date when="1893-01-31">this
+                                31st day of January, A. D. 1893</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">Eugene R. Garber</hi>,<lb/><hi
                                 rend="italic">Presiding Judge of the Superior
                         Court.</hi></signed></closer>
@@ -24656,8 +24705,8 @@
                         certificate is genuine.</p>
                     <closer>
                         <dateline rendition="#left">In witness whereof I have hereunto set my hand
-                            and affixed the seal of the said court this <date>31st day of January,
-                                A. D. 1893</date>.</dateline>
+                            and affixed the seal of the said court <date when="1893-01-31">this 31st
+                                day of January, A. D. 1893</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">M. C.
                                 Haley</hi>,<lb/><hi rend="italic">County Clerk and Clerk of
                                 Court.</hi></signed></closer>
@@ -24798,7 +24847,8 @@
                         this claim against the said Russian Government.</p>
                     <closer>
                         <dateline rendition="#left">In witness whereof I have hereunto set my hand
-                            and seal this <date>24th day of January, A. D. 1893</date>.</dateline>
+                            and seal <date when="1893-01-24">this 24th day of January, A. D.
+                                1893</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">Andrew
                                 Roning.</hi></signed></closer>
                 </frus:attachment>
@@ -24838,8 +24888,8 @@
                         signature to such jurat or certificate is genuine.</p>
                     <closer><dateline rendition="#left">In witness whereof I have hereunto set my
                             hand and affixed the seal of the said superior court at my office in
-                            said city and county this <date>31st day of January, A. D.
-                            1893</date>.</dateline>
+                            said city and county <date when="1893-01-31">this 31st day of January,
+                                A. D. 1893</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">M. C.
                                 Haley.</hi></signed></closer>
                 </frus:attachment>
@@ -24854,8 +24904,8 @@
                         clerk are entitled to full faith and credit.</p>
                     <p>And I further certify that said attestation is in form of law.</p>
                     <closer>
-                        <dateline rendition="#left">Witness my hand this <date>31st day of January,
-                                A. D. 1893</date>.</dateline>
+                        <dateline rendition="#left">Witness my hand <date when="1893-01-31">this
+                                31st day of January, A. D. 1893</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">Eugene R. Garber</hi>,<lb/><hi
                                 rend="italic">Presiding Judge of the said Superior
                             Court</hi></signed></closer>
@@ -24872,8 +24922,8 @@
                         certificate is genuine.</p>
                     <closer>
                         <dateline rendition="#left">In witness whereof I have hereunto set my hand
-                            and affixed the seal of the said court this <date>31st day of January,
-                                A. D. 1893</date>.</dateline>
+                            and affixed the seal of the said court <date when="1893-01-31">this 31st
+                                day of January, A. D. 1893</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">M. C.
                                 Haley</hi>,<lb/><hi rend="italic">County Clerk and Clerk of
                                 Court.</hi></signed></closer>
@@ -25015,7 +25065,8 @@
                         this claim against said Russian Government.</p>
                     <closer>
                         <dateline rendition="#left">In witness whereof I have hereunto set my hand
-                            and seal this <date>24th day of January, A. D. 1893</date>.</dateline>
+                            and seal <date when="1893-01-24">this 24th day of January, A. D.
+                                1893</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">Neils
                                 Wolfgang.</hi></signed></closer>
                 </frus:attachment>
@@ -25037,8 +25088,8 @@
                     <closer>
                         <dateline rendition="#left">In witness whereof I have hereunto set my hand
                             and affixed the seal of the said superior court, at my office in said
-                            city and county, this <date>31st day of January, A. D.
-                            1893</date>.</dateline>
+                            city and county, <date when="1893-01-31">this 31st day of January, A. D.
+                                1893</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">M. C.
                                 Haley</hi>, <hi rend="italic">Clerk.</hi></signed></closer>
                 </frus:attachment>
@@ -25053,8 +25104,8 @@
                         clerk are entitled to full faith and credit.</p>
                     <p>And I further certify that said attestation is in due form of law.</p>
                     <closer>
-                        <dateline rendition="#left">Witness my hand this <date>31st day of January,
-                                A. D. 1893</date>.</dateline>
+                        <dateline rendition="#left">Witness my hand <date when="1893-01-31">this
+                                31st day of January, A. D. 1893</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">Eugene R. Garber</hi>,<lb/><hi
                                 rend="italic">Presiding Judge of the said Superior
                             Court.</hi></signed></closer>
@@ -25072,8 +25123,8 @@
                         genuine.</p>
                     <closer>
                         <dateline rendition="#left">In witness whereof I have hereunto set my hand
-                            and affixed the seal of the said court this <date>31st day of January,
-                                A. D. 1893</date>.</dateline>
+                            and affixed the seal of the said court <date when="1893-01-31">this 31st
+                                day of January, A. D. 1893</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">M. C.
                                 Haley</hi>,<lb/><hi rend="italic">County Clerk and Clerk of
                                 Court.</hi></signed></closer>
@@ -25349,8 +25400,9 @@
                     <closer>
                         <dateline rendition="#left">In testimony whereof I have hereunto set my hand
                             and affixed the seal of the embassy of the United States of America at
-                                <placeName>St. Petersburg, Russia</placeName>, this <date>second day
-                                of July, in the year one thousand nine hundred</date>.</dateline>
+                                <placeName>St. Petersburg, Russia</placeName>, <date
+                                when="1900-07-02">this second day of July, in the year one thousand
+                                nine hundred</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">Herbert
                                 H. D. Peirce</hi>,<lb/><hi rend="italic">First Secretary of
                                 Embassy.</hi></signed></closer>
@@ -25437,8 +25489,8 @@
                     <closer>
                         <dateline rendition="#left">In witness whereof I have hereunto set my hand
                             and affixed the seal of the said superior court, at my office in said
-                            city and county, the <date>23d day of November, A. D.
-                            1900</date>.</dateline>
+                            city and county, <date when="1900-11-23">the 23d day of November, A. D.
+                                1900</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">Wm. A. Deane</hi>, <hi rend="italic"
                                 >Clerk.</hi></signed></closer>
                     <postscript>
@@ -25520,8 +25572,8 @@
                     <closer>
                         <dateline rendition="#left">In witness whereof I have hereunto set my hand
                             and affixed the seal of the said superior court, at my office in said
-                            city and county, this <date>23d day of November, A. D.
-                            1900</date>.</dateline>
+                            city and county, <date when="1900-11-23">this 23d day of November, A. D.
+                                1900</date>.</dateline>
                         <lb/>[Seal of the superior court.] <signed><hi rend="smallcaps">Wm. A.
                                 Deane</hi>, <hi rend="italic">Clerk.</hi></signed></closer>
                     <postscript>
@@ -25606,8 +25658,8 @@
                     <closer>
                         <dateline rendition="#left">In witness whereof I have hereunto set my hand
                             and affixed the seal of the said superior court at my office, in said
-                            city and county, this <date>23d day of November, A. D.
-                            1900</date>.</dateline>
+                            city and county, <date when="1900-11-23">this 23d day of November, A. D.
+                                1900</date>.</dateline>
                         <lb/>[Seal of the superior court.] <signed><hi rend="smallcaps">Wm. A.
                                 Deane</hi>, <hi rend="italic">Clerk.</hi></signed></closer>
                     <postscript>
@@ -25696,8 +25748,8 @@
                     <closer>
                         <dateline rendition="#left">In witness whereof I have hereunto set my hand
                             and affixed the seal of the said superior court at my office, in said
-                            city and county, this <date>23d day of November, A. D.
-                            1900</date>.</dateline>
+                            city and county, <date when="1900-11-23">this 23d day of November, A. D.
+                                1900</date>.</dateline>
                         <lb/>[Seal of the superior court.] <signed><hi rend="smallcaps">Wm. A.
                                 Deane</hi>, <hi rend="italic">Clerk.</hi></signed></closer>
                     <postscript>
@@ -25770,8 +25822,9 @@
                         the port of San Francisco.</p>
                     <closer>
                         <dateline rendition="#left">Given under my hand and seal at the port of
-                                <placeName>San Francisco</placeName> this <date>12th day of October,
-                                in the year 1891</date>.</dateline>
+                                <placeName>San Francisco</placeName>
+                            <date when="1891-10-12">this 12th day of October, in the year
+                                1891</date>.</dateline>
                         <lb/>[Place for seal of naval officer.] <signed><hi rend="smallcaps">E. P.
                                 Danforth</hi>, <hi rend="italic">Naval
                         Officer.</hi></signed><lb/>[Place for seal of collector.] <signed><hi
@@ -25830,8 +25883,8 @@
                     <closer>
                         <dateline rendition="#left">In witness whereof I have hereunto set my hand
                             and affixed the seal of the said superior court, at my office in said
-                            city and county, this <date>10th day of April, A. D.
-                            1894</date>.</dateline>
+                            city and county, <date when="1894-04-10">this 10th day of April, A. D.
+                                1894</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">M. C.
                                 Haley</hi>, <hi rend="italic">Clerk.</hi></signed></closer>
                 </frus:attachment>
@@ -25886,10 +25939,10 @@
                         court now in my office.</p>
                     <closer>
                         <dateline rendition="#left">In testimony whereof I have hereunto set my hand
-                            and affixed the seal of said court this <date>5th day of March, in the
-                                year of our Lord one thousand eight hundred and eighty-eight and in
-                                the year of our Independence the one hundred and
-                            twelfth</date>.</dateline>
+                            and affixed the seal of said court <date when="1888-03-05">this 5th day
+                                of March, in the year of our Lord one thousand eight hundred and
+                                eighty-eight and in the year of our Independence the one hundred and
+                                twelfth</date>.</dateline>
                         <lb/>(Stamped) <signed><hi rend="smallcaps">Wm. J. Ruddick</hi>, <hi
                                 rend="italic">Clerk.</hi></signed><lb/>[<hi rend="smallcaps"
                             >seal.</hi>] By <signed><hi rend="smallcaps">Bert M. Nulty</hi>, <hi
@@ -25947,8 +26000,8 @@
                     <closer>
                         <dateline rendition="#left">In witness whereof I have hereunto set my hand
                             and affixed the seal of the said superior court, at my office in said
-                            city and county, this <date>10th day of April, A. D.
-                            1894</date>.</dateline>
+                            city and county, <date when="1894-04-10">this 10th day of April, A. D.
+                                1894</date>.</dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">M. C.
                                 Haley</hi>, <hi rend="italic">Clerk.</hi></signed></closer>
                 </frus:attachment>
@@ -26540,7 +26593,9 @@
                         <cell role="num">16,148.44</cell>
                     </row>
                 </table>
-                <div type="document" xml:id="d9" n="9" subtype="historical-document">
+                <div type="document" xml:id="d9" n="9" subtype="historical-document"
+                    frus:doc-dateTime-min="1900-11-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1900-11-20T23:59:59-05:00">
                     <head>No. 5122.—<hi rend="smallcaps">United States of America.</hi></head>
                     <p rend="center"><hi rend="smallcaps">department of state.</hi></p>
                     <p rend="flushleft"><hi rend="italic">To all to whom these presents shall come,
@@ -26552,9 +26607,10 @@
                         State, to be affixed.</p>
                     <closer>
                         <dateline rendition="#left">Done at the city of
-                                <placeName>Washington</placeName> this <date>20th day of September,
-                                A. D. 1900, and of the Independence of the United States of America
-                                the one hundred and twenty-fifth</date></dateline>
+                                <placeName>Washington</placeName>
+                            <date when="1900-11-20">this 20th day of September, A. D. 1900, and of
+                                the Independence of the United States of America the one hundred and
+                                twenty-fifth</date></dateline>
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">John
                                 Hay</hi>.</signed></closer>
                     <frus:attachment>
@@ -26625,9 +26681,9 @@
                             Francisco.</p>
                         <closer>
                             <dateline rendition="#left">Given under my hand and seal, at the port of
-                                    <placeName>San Francisco</placeName>, this <date>26th day of
-                                    February, in the year one thousand eight hundred and
-                                    ninety-two</date>.</dateline>
+                                    <placeName>San Francisco</placeName>, <date when="1892-02-26"
+                                    >this 26th day of February, in the year one thousand eight
+                                    hundred and ninety-two</date>.</dateline>
                             <lb/>[Place for seal of naval officer.] <signed><hi rend="smallcaps">E.
                                     P. Danforth</hi>,<lb/><hi rend="italic">Naval
                                 Officer.</hi></signed><lb/>[Place for seal of collector.]
@@ -26767,8 +26823,8 @@
                             </row>
                         </table>
                         <closer>
-                            <dateline rendition="#left">Bond filed <date>February 27,
-                                1892</date>.</dateline>
+                            <dateline rendition="#left">Bond filed <date when="1892-02-27">February
+                                    27, 1892</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">W. P. Saxe</hi>, <hi rend="italic"
                                     >Bond Clerk</hi>.</signed></closer>
                     </frus:attachment>
@@ -26822,10 +26878,10 @@
                             according to law.</p>
                         <closer>
                             <dateline rendition="#left">Given under our hands and seals, at the
-                                custom-house of <placeName>San Francisco</placeName>, this
-                                    <date>27th day of February, 1892, and in the one hundred and
-                                    sixteenth year of the Independence of the United States of
-                                    America</date>.</dateline>
+                                custom-house of <placeName>San Francisco</placeName>, <date
+                                    when="1892-02-27">this 27th day of February, 1892, and in the
+                                    one hundred and sixteenth year of the Independence of the United
+                                    States of America</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">John
                                     T. Dare</hi>,</signed><lb/><hi rend="italic">Deputy
                                 Collector.</hi><lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi
@@ -26879,8 +26935,8 @@
                             identifying the same.</p>
                         <closer>
                             <dateline rendition="#left">In witness whereof I have hereunto set my
-                                hand and official seal this <date>20th day of November,
-                                1900</date>.</dateline>
+                                hand and official seal <date when="1900-11-20">this 20th day of
+                                    November, 1900</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">W. T. Hess</hi>,<lb/><hi rend="italic"
                                     >Notary Public in and for the City and County of San Francisco,
                                     State of California</hi>.</signed></closer>
@@ -27285,8 +27341,8 @@
                                     rend="italic">Captain of H. I. M.′s Russian cruiser
                                     “Zabiaca.”</hi></signed>
                             <lb/>
-                            <dateline rendition="#left"><date><hi rend="smallcaps">August</hi> 12,
-                                    1892</date>.</dateline>
+                            <dateline rendition="#left"><date when="1892-08-12"><hi rend="smallcaps"
+                                        >August</hi> 12, 1892</date>.</dateline>
                         </closer>
                     </frus:attachment>
                     <frus:attachment>
@@ -28391,8 +28447,9 @@
                             presentation of this claim against said Russian Government.</p>
                         <closer>
                             <dateline rendition="#left">In witness whereof the above-named claimant
-                                has subscribed his name and affixed his seal to this memorial this
-                                    <date>28th day of January, A. D. 1893</date>.</dateline>
+                                has subscribed his name and affixed his seal to this memorial <date
+                                    when="1893-01-28">this 28th day of January, A. D.
+                                1893</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">Claus Lutjens</hi>.</signed> [<hi
                                 rend="smallcaps">seal.</hi>]</closer>
                     </frus:attachment>
@@ -28439,8 +28496,8 @@
                         <closer>
                             <dateline rendition="#left">In witness whereof I have hereunto set my
                                 hand and affixed the seal of the said superior court, at my office
-                                in said city and county, this <date>31st day of January, A. D.
-                                    1893</date>.</dateline>
+                                in said city and county, <date when="1893-01-31">this 31st day of
+                                    January, A. D. 1893</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">M.
                                     C. Haley</hi>, <hi rend="italic">Clerk.</hi></signed></closer>
                     </frus:attachment>
@@ -28456,8 +28513,8 @@
                             credit.</p>
                         <p>And I further certify that said attestation is in due form of law.</p>
                         <closer>
-                            <dateline rendition="#left">Witness my hand this <date>31st day of
-                                    January, A. D. 1893</date>.</dateline>
+                            <dateline rendition="#left">Witness my hand <date when="1893-01-31">this
+                                    31st day of January, A. D. 1893</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">Eugene R. Garber</hi>,<lb/><hi
                                     rend="italic">Presiding Judge of the said Superior
                                 Court.</hi></signed></closer>
@@ -28474,8 +28531,8 @@
                             signature of said judge to said certificate is genuine.</p>
                         <closer>
                             <dateline rendition="#left">In witness whereof, I have hereunto set my
-                                hand and affixed the seal of the said court, this <date>31st day of
-                                    January, A. D. 1893</date>.</dateline>
+                                hand and affixed the seal of the said court, <date when="1893-01-31"
+                                    >this 31st day of January, A. D. 1893</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">M.
                                     C. Haley</hi>,<lb/><hi rend="italic">County Clerk and Clerk of
                                     Court.</hi></signed></closer>
@@ -28535,8 +28592,9 @@
                             the embassy of the United States.</p>
                         <closer>
                             <dateline rendition="#left">Done at the embassy of the United States in
-                                the city of <placeName>St. Petersburg, Russia</placeName>, this
-                                    <date>18th day of September, A. D. 1900</date>.</dateline>
+                                the city of <placeName>St. Petersburg, Russia</placeName>, <date
+                                    when="1900-09-18">this 18th day of September, A. D.
+                                1900</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Herbert H. D. Peirce.</hi></signed></closer>
                     </frus:attachment>
@@ -28720,8 +28778,8 @@
                         <closer>
                             <dateline rendition="#left">In witness whereof I have hereunto set my
                                 hand and affixed the seal of the said superior court, at my office
-                                in said city and county, this <date>23d day of November, A. D.
-                                    1900</date>.</dateline>
+                                in said city and county, <date when="1900-11-23">this 23d day of
+                                    November, A. D. 1900</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">Wm. A. Deane</hi>, <hi rend="italic"
                                     >Clerk.</hi></signed><lb/>[Seal of the superior court.]</closer>
                         <postscript>
@@ -28815,8 +28873,8 @@
                         <closer>
                             <dateline rendition="#left">In witness whereof I have hereunto set my
                                 hand and affixed the seal of the said superior court, at my office
-                                in said city and county, this <date>23d day of November, A. D.
-                                    1900</date>.</dateline>
+                                in said city and county, <date when="1900-11-23">this 23d day of
+                                    November, A. D. 1900</date>.</dateline>
                             <lb/>[Seal of the superior court.] <signed><hi rend="smallcaps">Wm. A.
                                     Deane</hi>, <hi rend="italic">Clerk.</hi></signed></closer>
                         <postscript>
@@ -29183,8 +29241,8 @@
                                     </list>
                                 </signed>
                                 <lb/>
-                                <dateline rendition="#left"><date><hi rend="smallcaps">August</hi>
-                                        29, 1892</date>.</dateline>
+                                <dateline rendition="#left"><date when="1892-09-29"><hi
+                                            rend="smallcaps">August</hi> 29, 1892</date>.</dateline>
                             </closer>
                         </frus:attachment>
                         <frus:attachment>
@@ -29386,8 +29444,9 @@
                             <closer><signed><hi rend="smallcaps">Lieutenant von Cube.</hi></signed>
                                 <lb/>
                                 <dateline rendition="#left"><placeName><hi rend="smallcaps"
-                                            >Vladivostok</hi></placeName>, <date><hi rend="italic"
-                                            >September 7, 1892</hi></date>.</dateline>
+                                            >Vladivostok</hi></placeName>, <date when="1892-09-07"
+                                            ><hi rend="italic">September 7,
+                                    1892</hi></date>.</dateline>
                             </closer>
                         </frus:attachment>
                         <frus:attachment>
@@ -29966,8 +30025,8 @@
                             <closer><signed><hi rend="smallcaps">Alexander MacLean</hi>,<lb/><hi
                                         rend="italic">Master of Schooner J. H. Lewis.</hi></signed>
                                 <lb/>
-                                <dateline rendition="#left"><date><hi rend="smallcaps">August</hi>
-                                        12, 1891</date>.</dateline>
+                                <dateline rendition="#left"><date when="1891-09-12"><hi
+                                            rend="smallcaps">August</hi> 12, 1891</date>.</dateline>
                             </closer>
                         </frus:attachment>
                         <pb n="303" xml:id="pg_303" facs="0325"/>
@@ -30651,8 +30710,8 @@
                                     1895, No. 30.</p>
                                 <closer>
                                     <dateline rendition="#left"><placeName>St.
-                                            Petersburg</placeName>, <date>March 24,
-                                        1901</date>.</dateline><lb/>
+                                            Petersburg</placeName>, <date when="1901-03-24">March
+                                            24, 1901</date>.</dateline><lb/>
                                     <lb/><signed><hi rend="smallcaps">P. Mikhailow</hi>,<lb/><hi
                                             rend="italic">Governor of Chancery of the Ministry of
                                             Marine</hi>.<lb/><hi rend="smallcaps">S. Stebline
@@ -31229,10 +31288,11 @@
                             the United States to be affixed.</p>
                         <closer>
                             <dateline rendition="#left">Done at the city of
-                                    <placeName>Washington</placeName> this <date>fifteenth day of
-                                    June, in the year of our Lord one thousand eight hundred and
-                                    ninety-one, and of the Independence of the United States the one
-                                    hundred and fifteenth</date>.</dateline>
+                                    <placeName>Washington</placeName>
+                                <date when="1891-06-15">this fifteenth day of June, in the year of
+                                    our Lord one thousand eight hundred and ninety-one, and of the
+                                    Independence of the United States the one hundred and
+                                    fifteenth</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps"
                                     >Benj. Harrison.</hi></signed></closer>
                         <postscript>
@@ -31377,10 +31437,11 @@
                             United States to be affixed.</p>
                         <closer>
                             <dateline rendition="#left">Done at the city of
-                                    <placeName>Washington</placeName> this <date>ninth day of May,
-                                    in the year of our Lord one thousand eight hundred and
-                                    ninety-two, and of the Independence of the United States the one
-                                    hundred and sixteenth</date>.</dateline>
+                                    <placeName>Washington</placeName>
+                                <date when="1892-05-09">this ninth day of May, in the year of our
+                                    Lord one thousand eight hundred and ninety-two, and of the
+                                    Independence of the United States the one hundred and
+                                    sixteenth</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">Benj. Harrison.</hi></signed></closer>
                         <postscript>
                             <p>By the President:<lb/><hi rend="smallcaps">James G. Blaine</hi>, <hi
@@ -31413,8 +31474,8 @@
                             <lb/>
                             <dateline rendition="#left"><hi rend="smallcaps">Executive
                                         Mansion</hi>,<lb/><placeName><hi rend="italic"
-                                        >Washington</hi></placeName>, <date><hi rend="italic">April
-                                        27, 1898</hi></date>.</dateline>
+                                        >Washington</hi></placeName>, <date when="1898-04-27"><hi
+                                        rend="italic">April 27, 1898</hi></date>.</dateline>
                         </closer>
                     </frus:attachment>
                     <pb n="327" xml:id="pg_327" facs="0351"/>
@@ -31482,8 +31543,8 @@
                             <lb/>
                             <dateline rendition="#left"><hi rend="smallcaps">Department of
                                     State</hi>,<lb/><placeName><hi rend="italic"
-                                    >Washington</hi></placeName>, <date><hi rend="italic">April 25,
-                                        1898</hi></date>.</dateline>
+                                    >Washington</hi></placeName>, <date when="1898-04-25"><hi
+                                        rend="italic">April 25, 1898</hi></date>.</dateline>
                         </closer>
                     </frus:attachment>
                     <frus:attachment>
@@ -31515,9 +31576,15 @@
                         </list>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d11" n="11" subtype="historical-document">
+                <div type="document" xml:id="d11" n="11" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-03-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-03-16T23:59:59-05:00">
                     <head><hi rend="italic">Memorandum filed by Russian legation March 16,
                             1896.</hi></head>
+                    <dateline>
+                        <date when="1896-03-16" ana="#date_undated-inferred-from-document-head"
+                            >March 16, 1896</date>
+                    </dateline>
                     <p rend="flushleft">Mr. <hi rend="smallcaps">Alexander de Somow</hi>,<lb/><hi
                             rend="italic">Chargé d’Affaires ad interim of His Majesty the Emperor of
                             Russia, at Washington, D. C.</hi></p>
@@ -31705,8 +31772,9 @@
                             mentioned.</p>
                         <closer>
                             <dateline rendition="#left">Witness my signature at my office in
-                                    <placeName>Mississippi City, Miss.</placeName>, the <date>19th
-                                    day of February, A. D. 1896</date>.</dateline>
+                                    <placeName>Mississippi City, Miss.</placeName>, <date
+                                    when="1896-02-19">the 19th day of February, A. D.
+                                1896</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">T. V. Noland</hi>, <hi rend="italic"
                                     >Attorney at Law.</hi></signed></closer>
                     </frus:attachment>
@@ -31727,7 +31795,8 @@
                         <closer>
                             <dateline rendition="#left">Witness the Hon. H. C. Niles, judge of the
                                 aforesaid court, at <placeName>Mississippi City, Miss.</placeName>,
-                                this the <date>8th day of February, A. D. 1896</date>.</dateline>
+                                this <date when="1896-02-08">the 8th day of February, A. D.
+                                    1896</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">L.
                                     B. Mosely</hi>, <hi rend="italic">Clerk</hi>,<lb/>Per <hi
                                     rend="smallcaps">C. Phelps</hi>, <hi rend="italic">Deputy
@@ -31745,7 +31814,9 @@
                         </postscript>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d12" n="12" subtype="historical-document">
+                <div type="document" xml:id="d12" n="12" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-03-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-03-17T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Olney</persName> to Mr.
                                 <persName type="to">Harmon</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -31768,7 +31839,9 @@
                         <p>(Inclosure: Complaint of Capt. G. I. Dahlberg.)</p>
                     </postscript>
                 </div>
-                <div type="document" xml:id="d13" n="13" subtype="historical-document">
+                <div type="document" xml:id="d13" n="13" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-03-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-03-17T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Olney</persName> to Mr.
                                 <persName type="to">de Kotzebue</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -31793,7 +31866,9 @@
                         <p>(Inclosure: Complaint of Capt. G. I. Dahlberg.)</p>
                     </postscript>
                 </div>
-                <div type="document" xml:id="d14" n="14" subtype="historical-document">
+                <div type="document" xml:id="d14" n="14" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-03-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-03-21T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Harmon</persName> to Mr.
                                 <persName type="to">Olney</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -31815,7 +31890,9 @@
                     <closer><signed><hi rend="smallcaps">Judson W. Harmon</hi>, <hi rend="italic"
                                 >Attorney-General.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d15" n="15" subtype="historical-document">
+                <div type="document" xml:id="d15" n="15" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-04-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-04-10T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Kotzebue</persName> to Mr.
                                 <persName type="to">Olney</persName></hi>.</head>
                     <opener><seg rendition="#center">[Translation.]</seg></opener>
@@ -31842,7 +31919,9 @@
                     <p>I embrace this opportunity, etc.,</p>
                     <closer><signed><hi rend="smallcaps">Kotzebue.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d16" n="16" subtype="historical-document">
+                <div type="document" xml:id="d16" n="16" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-04-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-04-10T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Harmon</persName> to Mr.
                                 <persName type="to">Olney</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -32017,7 +32096,8 @@
                         <closer>
                             <dateline rendition="#left">Witness the Hon. H. C. Niles, judge of the
                                 aforesaid court, at <placeName>Mississippi City, Miss.</placeName>,
-                                this the <date>8th day of February, A. D. 1896</date>.</dateline>
+                                this <date when="1896-02-08">the 8th day of February, A. D.
+                                    1896</date>.</dateline>
                             <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">L.
                                     B. Moseley</hi>, <hi rend="italic">Clerk</hi>,<lb/>Per <hi
                                     rend="smallcaps">C. Phelps</hi>, <hi rend="italic">Deputy
@@ -32090,9 +32170,10 @@
                             this writ.</p>
                         <closer>
                             <dateline rendition="#left">Witness the Hon. H. C. Niles, judge of said
-                                court at <placeName>Mississippi City</placeName>, this <date>18th
-                                    day of February, A. D. 1896, and in the one hundred and — year
-                                    of the independence of the United States</date>.</dateline>
+                                court at <placeName>Mississippi City</placeName>, <date
+                                    when="1896-02-18">this 18th day of February, A. D. 1896, and in
+                                    the one hundred and — year of the independence of the United
+                                    States</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">L. B. Moseley</hi>, <hi rend="italic"
                                     >Clerk</hi>,<lb/>Per <hi rend="smallcaps">C. Phelps</hi>, <hi
                                     rend="italic">Deputy Clerk.</hi></signed></closer>
@@ -32122,7 +32203,9 @@
                         </postscript>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d17" n="17" subtype="historical-document">
+                <div type="document" xml:id="d17" n="17" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-04-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-04-14T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Olney</persName> to Mr.
                                 <persName type="to">Harmon</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -32140,7 +32223,9 @@
                     <p>I have, etc.,</p>
                     <closer><signed><hi rend="smallcaps">Richard Olney.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d18" n="18" subtype="historical-document">
+                <div type="document" xml:id="d18" n="18" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-04-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-04-15T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Harmon</persName> to Mr.
                                 <persName type="to">Olney</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -32369,7 +32454,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="338" xml:id="pg_338" facs="0362"/>
-                <div type="document" xml:id="d19" n="19" subtype="historical-document">
+                <div type="document" xml:id="d19" n="19" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-04-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-04-18T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Olney</persName> to Mr.
                                 <persName type="to">de Kotzebue</persName></hi>.</head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -32391,7 +32478,9 @@
                             inclosures.)</p>
                     </postscript>
                 </div>
-                <div type="document" xml:id="d20" n="20" subtype="historical-document">
+                <div type="document" xml:id="d20" n="20" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-04-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-04-22T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Olney</persName> to Mr.
                                 <persName type="to">Harmon</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -32473,7 +32562,9 @@
                     <p>I have, etc.,</p>
                     <closer><signed><hi rend="smallcaps">Ricitard Olney.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d21" n="21" subtype="historical-document">
+                <div type="document" xml:id="d21" n="21" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-04-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-04-28T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Conrad</persName> to Mr.
                                 <persName type="to">Olney</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -32504,7 +32595,9 @@
                     <closer><signed><hi rend="smallcaps">Holmes Conrad</hi>, <hi rend="italic"
                                 >Acting Attorney-General.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d22" n="22" subtype="historical-document">
+                <div type="document" xml:id="d22" n="22" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-05-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-05-01T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Olney</persName> to Mr.
                                 <persName type="to">de Kotzebue</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -32522,7 +32615,9 @@
                     <p>Accept, etc.,</p>
                     <closer><signed><hi rend="smallcaps">Richard Olney.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d23" n="23" subtype="historical-document">
+                <div type="document" xml:id="d23" n="23" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-05-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-05-20T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Conrad</persName> to Mr.
                                 <persName type="to">Olney</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -32679,7 +32774,9 @@
                         </postscript>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d24" n="24" subtype="historical-document">
+                <div type="document" xml:id="d24" n="24" subtype="historical-document"
+                    frus:doc-dateTime-min="1896-05-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1896-05-23T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Olney</persName> to Mr.
                                 <persName type="to">de Kotzebue</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -32706,7 +32803,9 @@
                     </postscript>
                 </div>
                 <pb n="342" xml:id="pg_342" facs="0366"/>
-                <div type="document" xml:id="d25" n="25" subtype="historical-document">
+                <div type="document" xml:id="d25" n="25" subtype="historical-document"
+                    frus:doc-dateTime-min="1897-06-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1897-06-17T23:59:59-05:00">
                     <head><hi rend="italic">Memorandum of Russian Imperial legation.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                     >Washington</hi></placeName>, <date when="1897-06-17"><hi
@@ -32729,7 +32828,9 @@
                         opinion, be held to the strictest accountability for same. (From the same
                         letter of the Department of Justice.)</p>
                 </div>
-                <div type="document" xml:id="d26" n="26" subtype="historical-document">
+                <div type="document" xml:id="d26" n="26" subtype="historical-document"
+                    frus:doc-dateTime-min="1897-06-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1897-06-24T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Sherman</persName> to Mr.
                                 <persName type="to">McKenna</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -32776,7 +32877,9 @@
                     <p>I am, respectfully, yours,</p>
                     <closer><signed><hi rend="smallcaps">John Sherman.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d27" n="27" subtype="historical-document">
+                <div type="document" xml:id="d27" n="27" subtype="historical-document"
+                    frus:doc-dateTime-min="1897-06-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1897-06-30T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">McKenna</persName> to Mr.
                                 <persName type="to">Sherman</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -32804,7 +32907,9 @@
                     <closer><signed><hi rend="smallcaps">Joseph McKenna</hi>, <hi rend="italic"
                                 >Attorney-General.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d28" n="28" subtype="historical-document">
+                <div type="document" xml:id="d28" n="28" subtype="historical-document"
+                    frus:doc-dateTime-min="1897-07-08T00:00:00-05:00"
+                    frus:doc-dateTime-max="1897-07-08T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Sherman</persName> to Mr.
                                 <persName type="to">de Wollant</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -32837,7 +32942,9 @@
                         so tendered, I beg you to accept, etc.,</p>
                     <closer><signed><hi rend="smallcaps">John Sherman.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d29" n="29" subtype="historical-document">
+                <div type="document" xml:id="d29" n="29" subtype="historical-document"
+                    frus:doc-dateTime-min="1897-11-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1897-11-20T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">de Wollant</persName> to Mr.
                                 <persName type="to">Sherman</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
@@ -32875,7 +32982,9 @@
                         of my highest consideration.</p>
                     <closer><signed><hi rend="smallcaps">Gregory de Wollant.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d30" n="30" subtype="historical-document">
+                <div type="document" xml:id="d30" n="30" subtype="historical-document"
+                    frus:doc-dateTime-min="1897-12-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1897-12-18T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Sherman</persName> to Mr.
                                 <persName type="to">de Wollant</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -32894,7 +33003,9 @@
                     <p>Accept, etc.,</p>
                     <closer><signed><hi rend="smallcaps">John Sherman.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d31" n="31" subtype="historical-document">
+                <div type="document" xml:id="d31" n="31" subtype="historical-document"
+                    frus:doc-dateTime-min="1898-03-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1898-03-27T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">de Wollant</persName> to Mr.
                                 <persName type="to">Day</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Russian
@@ -32911,7 +33022,9 @@
                     <p>Very truly, yours,</p>
                     <closer><signed><hi rend="smallcaps">Gregory de Wollant.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d32" n="32" subtype="historical-document">
+                <div type="document" xml:id="d32" n="32" subtype="historical-document"
+                    frus:doc-dateTime-min="1898-04-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1898-04-14T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Day</persName> to Mr.
                                 <persName type="to">de Wollant</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -33493,7 +33606,7 @@
                                 office.</p>
                             <closer>
                                 <dateline rendition="#left"><placeName>St. Petersburg</placeName>,
-                                        <date>June 17, 1901</date>.</dateline>
+                                        <date when="1901-06-17">June 17, 1901</date>.</dateline>
                                 <lb/>(Signed) <signed><hi rend="smallcaps">K. A.
                                     Goetz</hi>,</signed> [<hi rend="smallcaps">l. s.</hi>]<lb/><hi
                                     rend="italic">Notary of the Exchange.</hi></closer>
@@ -33771,10 +33884,10 @@
                                 Department of State to be affixed.</p>
                             <closer>
                                 <dateline rendition="#left">Done at the city of
-                                        <placeName>Washington</placeName>, this <date>13th day of
-                                        September, A. D. 1900, and of the independence of the United
-                                        States of America the one hundred and
-                                    twenty-fifth</date>.</dateline>
+                                        <placeName>Washington</placeName>, <date when="1900-09-13"
+                                        >this 13th day of September, A. D. 1900, and of the
+                                        independence of the United States of America the one hundred
+                                        and twenty-fifth</date>.</dateline>
                                 <lb/>(Signed) <signed><hi rend="smallcaps">John
                                 Hay.</hi></signed><lb/>[Seal: “Department of State of the United
                                 States of America.”]</closer>
@@ -33794,9 +33907,9 @@
                             <closer>
                                 <dateline rendition="#left">In witness whereof I have hereunto
                                     subscribed my name and affixed the seal of the embassy of the
-                                    United States at <placeName>St. Petersburg</placeName> this
-                                        <date>fifth day of August, in the year one thousand nine
-                                        hundred and one</date>.</dateline>
+                                    United States at <placeName>St. Petersburg</placeName>
+                                    <date when="1901-08-05">this fifth day of August, in the year
+                                        one thousand nine hundred and one</date>.</dateline>
                                 <lb/>(Signed) <signed><hi rend="smallcaps">Herbert H. D.
                                         Peirce.</hi></signed><lb/>[Seal of the United States embassy
                                 at St. Petersburg.]</closer>
@@ -35157,10 +35270,11 @@
                         <closer>
                             <dateline rendition="#left">
                                 <seg type="margin">[<hi rend="smallcaps">seal.</hi>]</seg> Done at
-                                the city of <placeName>Washington</placeName> this <date>twelfth day
-                                    of May, in the year of our Lord one thousand eight hundred and
-                                    ninety-four, and of the Independence of the United States the
-                                    one hundred and eighteenth</date>.</dateline>
+                                the city of <placeName>Washington</placeName>
+                                <date when="1894-05-12">this twelfth day of May, in the year of our
+                                    Lord one thousand eight hundred and ninety-four, and of the
+                                    Independence of the United States the one hundred and
+                                    eighteenth</date>.</dateline>
                             <lb/><signed><hi rend="smallcaps">Grover
                             Cleveland.</hi></signed></closer>
                         <postscript>
@@ -36649,10 +36763,10 @@
                                 of the United States to be affixed.</p>
                             <closer>
                                 <dateline rendition="#left">Done at the city of
-                                        <placeName>Washington</placeName> this <date>twenty-first
-                                        day of March, in the year 1889, and of the Independence of
-                                        the United States the one hundred and
-                                    thirteenth</date>.</dateline>
+                                        <placeName>Washington</placeName>
+                                    <date when="1889-03-21">this twenty-first day of March, in the
+                                        year 1889, and of the Independence of the United States the
+                                        one hundred and thirteenth</date>.</dateline>
                                 <lb/><signed><hi rend="smallcaps">Benjamin
                                 Harrison.</hi></signed></closer>
                             <postscript>
@@ -36779,7 +36893,9 @@
                     Government, party defendant, relative to the arrests and seizures of the
                     American vessels “Cape Horn Pigeon,” “James Hamilton Lewis,” “C. H. White,” and
                     “Kate and Anna”.</head>
-                <div type="document" xml:id="d34" n="34" subtype="historical-document">
+                <div type="document" xml:id="d34" n="34" subtype="historical-document"
+                    frus:doc-dateTime-min="1902-06-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1902-06-03T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Asser</persName> to Mr.
                                 <persName type="to">Newel</persName>.</hi></head>
                     <opener><seg rendition="#center">[Translation.]</seg></opener>
@@ -39582,8 +39698,8 @@
                         interest on that sum at 6 per cent per annum from the 9th of September,
                         1892, until the day of the payment in full.</p>
                     <closer>
-                        <dateline rendition="#left">Done at <placeName>the Hague</placeName>,
-                                <date>November 29, 1902</date>.</dateline>
+                        <dateline rendition="#left">Done at <placeName>the Hague</placeName>, <date
+                                when="1902-11-29">November 29, 1902</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">T. M. C. Asser.</hi></signed></closer>
                 </div>
                 <pb n="454" xml:id="pg_454" facs="0480"/>
@@ -39810,8 +39926,8 @@
                         with interest on that sum at 6 per cent per annum from the 1st January,
                         1892, until the day of full payment.</p>
                     <closer>
-                        <dateline rendition="#left">Done at <placeName>The Hague</placeName>,
-                                <date>November 29, 1902</date>.</dateline>
+                        <dateline rendition="#left">Done at <placeName>The Hague</placeName>, <date
+                                when="1902-11-29">November 29, 1902</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">T. M. C. Asser.</hi></signed></closer>
                 </div>
                 <pb n="459" xml:id="pg_459" facs="0485"/>
@@ -40067,8 +40183,8 @@
                         interest on that sum at 6 per cent per annum, from the 1st of January, 1893,
                         to the time of full payment.</p>
                     <closer>
-                        <dateline rendition="#left">Done at <placeName>The Hague</placeName>,
-                                <date>November 29, 1902</date>.</dateline>
+                        <dateline rendition="#left">Done at <placeName>The Hague</placeName>, <date
+                                when="1902-11-29">November 29, 1902</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">T. M. C. Asser.</hi></signed></closer>
                 </div>
                 <pb n="464" xml:id="pg_464" facs="0490"/>
@@ -40180,8 +40296,8 @@
                         interest on that sum at 6 per cent per annum from the 12th August, 1892,
                         until the day of full payment.</p>
                     <closer>
-                        <dateline rendition="#left">Done at <placeName>The Hague</placeName>,
-                                <date>November 29, 1902</date>.</dateline>
+                        <dateline rendition="#left">Done at <placeName>The Hague</placeName>, <date
+                                when="1902-11-29">November 29, 1902</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">T. M. C. Asser.</hi></signed></closer>
                 </div>
             </div>
@@ -40347,8 +40463,8 @@
                         cette somme à 6 pour cent par an depuis le 9 septembre 1892 jusqu’au jour du
                         paiement intégral.</p>
                     <closer>
-                        <dateline rendition="#left">Fait à <placeName>la Haye</placeName> le
-                                <date>29 novembre. 1902</date>.</dateline>
+                        <dateline rendition="#left">Fait à <placeName>la Haye</placeName>
+                            <date when="1902-11-29">le 29 novembre. 1902</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">T. M. C. Asser.</hi></signed></closer>
                 </div>
                 <pb n="472" xml:id="pg_472" facs="0498"/>
@@ -40581,8 +40697,8 @@
                         intérêts de sette somme à 6 pour cent par an depuis le 1 Janvier 1892
                         jusqu’au jour du paiement intégral.</p>
                     <closer>
-                        <dateline rendition="#left">Fait à <placeName>la Haye</placeName> le
-                                <date>29 novembre 1902</date>.</dateline>
+                        <dateline rendition="#left">Fait à <placeName>la Haye</placeName>
+                            <date when="1902-11-29">le 29 novembre 1902</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">T. M. C. Asser.</hi></signed></closer>
                 </div>
                 <pb n="477" xml:id="pg_477" facs="0503"/>
@@ -40840,8 +40956,8 @@
                         somme à 6 pour cent par an depuis le 1 Janvier 1893 jusqu’au jour du
                         paiement intégral.</p>
                     <closer>
-                        <dateline rendition="#left">Fait à <placeName>la Haye</placeName> le
-                                <date>29 novembre 1902</date>.</dateline>
+                        <dateline rendition="#left">Fait à <placeName>la Haye</placeName>
+                            <date when="1902-11-29">le 29 novembre 1902</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">T. M. C. Asser.</hi></signed></closer>
                 </div>
                 <pb n="482" xml:id="pg_482" facs="0508"/>
@@ -40956,8 +41072,8 @@
                         cette somme à 6 pour cent par an, depuis le 12 août 1892 jusqu’au jour du
                         paiement intégral.</p>
                     <closer>
-                        <dateline rendition="#left">Fait à <placeName>la Haye</placeName>, le
-                                <date>29 novembre 1902</date>.</dateline>
+                        <dateline rendition="#left">Fait à <placeName>la Haye</placeName>, <date
+                                when="1902-11-29">le 29 novembre 1902</date>.</dateline>
                         <lb/><signed><hi rend="smallcaps">T. M. C. Asser.</hi></signed></closer>
                 </div>
             </div>
