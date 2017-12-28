@@ -393,13 +393,13 @@
                 received-date</assert>
         </rule>
         <rule context="tei:date[@calendar]">
-            <assert role="info"
-                test="tokenize(./@calendar, '\s') = ('chinese-era', 'chinese-lunar', 'ethiopian-ge&#8217;ez', 'gregorian', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunar', 'masonic-anno-lucis', 'rumi', 'thai-era', 'tibetan-phugpa')"
+            <assert role="warn"
+                test="tokenize(./@calendar, '\s') = ('chinese-era', 'chinese-lunar', 'ethiopian-ge&#8217;ez', 'gregorian', 'haitian-era', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunar', 'masonic-anno-lucis', 'rumi', 'thai-era', 'tibetan-phugpa')"
                     >date/@calendar='<value-of select="@type"/>' is an invalid value. Only the
                 following values are allowed: chinese-era, chinese-lunar, ethiopian-ge&#8217;ez,
-                gregorian, hijri, iranian-persian, japanese-nengō, julian, korean-era, korean-lunar,
-                masonic-anno-lucis, rumi, thai-era, tibetan-phugpa. If you need to add additional
-                calendar value(s), please add to frus.sch, dates-only.sch, and
+                gregorian, haitian-era, hijri, iranian-persian, japanese-nengō, julian, korean-era,
+                korean-lunar, masonic-anno-lucis, rumi, thai-era, tibetan-phugpa. If you need to add
+                additional calendar value(s), please add to frus.sch, dates-only.sch, and
                 dates-only-initial-review.sch</assert>
         </rule>
         <rule context="@xml:id">
