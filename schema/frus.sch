@@ -436,8 +436,9 @@
                 empty.</assert>
             <assert test="(@from and @to) or (not(@from) and not(@to))">Dateline date @from must
                 have a corresponding @to.</assert>
-            <assert role="warn" test="(@notBefore and @notAfter) or (not(@notBefore) and not(@notAfter))"
-                >Dateline date @notBefore must have a corresponding @notAfter.</assert>
+            <assert role="warn"
+                test="(@notBefore and @notAfter) or (not(@notBefore) and not(@notAfter))">Dateline
+                date @notBefore must have a corresponding @notAfter.</assert>
             <assert role="warn"
                 test="(@notBefore and @notAfter and @ana) or (not(@notBefore) and not(@notAfter))"
                 >Missing @ana explaining the analysis used to determine @notBefore and
@@ -480,7 +481,7 @@
     <pattern id="document-date-metadata-checks">
         <title>Document Date Metadata Checks</title>
         <rule
-            context="tei:div[@type eq 'document'][not(@subtype eq 'errata_document-numbering-error')][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when])][not(@subtype eq 'editorial-note')]">
+            context="tei:div[@type eq 'document'][not(@subtype eq 'errata_document-numbering-error')][not(@subtype eq 'editorial-note')][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when])]">
             <assert test=".//tei:dateline[not(ancestor::frus:attachment)]"
                 sqf:fix="add-dateline-date-only add-full-dateline">Non-editorial note documents must
                 have a dateline with date metadata.</assert>
@@ -516,7 +517,7 @@
             </sqf:fix>
         </rule>
         <rule
-            context="tei:div[@type eq 'document'][.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when]]">
+            context="tei:div[@subtype eq 'historical-document'][.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when]]">
             <let name="date-min"
                 value="subsequence(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @notBefore or @when], 1, 1)/(@from, @notBefore, @when)[. ne ''][1]/string()"/>
             <let name="date-max"
