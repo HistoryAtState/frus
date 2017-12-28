@@ -20,6 +20,21 @@
                     select="@ana"/>' is an invalid value. No category has been defined with an
                 @xml:id corresponding to this value.</assert>
         </rule>
+        <rule context="tei:date[@type]">
+            <assert role="warn"
+                test="./@type = ('conversation-or-meeting-date', 'content-date', 'creation-date', 'received-date')"
+                    >date/@type='<value-of select="@type"/>' is an invalid value. Only the following
+                values are allowed: conversation-or-meeting-date, content-date, creation-date,
+                received-date</assert>
+        </rule>
+        <rule context="tei:date[@calendar]">
+            <assert role="warn"
+                test="./@calendar = ('chinese-era', 'chinese-lunar', 'ethiopian-ge&#8217;ez', 'gregorian', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunar', 'masonic-anno-lucis', 'rumi', 'thai-era', 'tibetan-phugpa')"
+                    >date/@calendar='<value-of select="@type"/>' is an invalid value. Only the
+                following values are allowed: chinese-era, chinese-lunar, ethiopian-ge&#8217;ez,
+                gregorian, hijri, iranian-persian, japanese-nengō, julian, korean-era, korean-lunar,
+                masonic-anno-lucis, rumi, thai-era, tibetan-phugpa</assert>
+        </rule>
     </pattern>
 
     <pattern id="dateline-date-checks">
