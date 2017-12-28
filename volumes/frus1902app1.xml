@@ -3381,13 +3381,13 @@
                             wherein such distress or accidents may happen, and said cargo is truly
                             intended to be used in whaling. So help me God.</p>
                         <closer><signed><hi rend="smallcaps">Thomas Scullun</hi>, <hi rend="italic"
-                                    >Master.</hi></signed></closer>
-                        <postscript>
-                            <p>Sworn to before me this 7th day of December, 1891.</p>
-                            <closer><signed><hi rend="smallcaps">M. Webber</hi>,<lb/><hi
-                                        rend="italic">Deputy Collector of
-                                Customs</hi></signed></closer>
-                        </postscript>
+                                    >Master.</hi></signed><lb/>
+                            <dateline rendition="#left">Sworn to before me this <date
+                                    when="1891-12-07">7th day of December, 1891</date>.</dateline>
+                            <lb/>
+                            <signed><hi rend="smallcaps">M. Webber</hi>,<lb/><hi rend="italic"
+                                    >Deputy Collector of Customs</hi></signed></closer>
+
                     </frus:attachment>
                     <frus:attachment>
                         <head>EXHIBIT I.</head>
@@ -11972,7 +11972,7 @@
                                         >Principal.</cell>
                                     <cell rendition="#border-right #border-top #border-bottom"
                                         >Interest.</cell>
-                                    <cell rendition=" #border-top #border-bottom">Total.</cell>
+                                    <cell rendition="#border-top #border-bottom">Total.</cell>
                                 </row>
                                 <row>
                                     <cell rendition="#border-right">Name of vessel:</cell>
@@ -20999,7 +20999,9 @@
                         <opener><seg rendition="#center">[Memorandum.]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Legation of the United States, St.
-                                    Petersburg.</hi></placeName></dateline></opener>
+                                    Petersburg.</hi></placeName> [<date when="1900-03-08"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>]</dateline></opener>
                         <p>On the morning of August 2, 1891, the American schooner <hi rend="italic"
                                 >James Hamilton Lewis</hi> was compelled by force of arms to come
                             to, was boarded and searched, and afterwards forcibly and violently
@@ -22471,8 +22473,10 @@
                     <frus:attachment>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >District of San Francisco, Port of San
-                                        Francisco,<lb/>Collector’s
-                                Office</hi></placeName>.</dateline></opener>
+                                        Francisco,<lb/>Collector’s Office</hi></placeName> [<date
+                                    when="1900-03-23"
+                                    ana="#date_undated-inferred-from-document-content">March 23,
+                                    1900</date>].</dateline></opener>
                         <p>I hereby certify the within to be a true copy of the original on record
                             in this office. Given under my hand and seal this 23d day of March,
                             1900.</p>
