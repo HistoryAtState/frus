@@ -513,7 +513,7 @@
         <title>Document Date Metadata Checks</title>
         <rule
             context="tei:div[@type eq 'document'][not(@subtype eq 'errata_document-numbering-error')][not(@subtype eq 'editorial-note')][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when])]">
-            <assert test=".//tei:dateline[not(ancestor::frus:attachment)]"
+            <assert role="warn" test=".//tei:dateline[not(ancestor::frus:attachment)]"
                 sqf:fix="add-dateline-date-only add-full-dateline">Non-editorial note documents must
                 have a dateline with date metadata.</assert>
             <sqf:fix id="add-dateline-date-only">
