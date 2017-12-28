@@ -205,6 +205,13 @@
                 values are allowed: document, chapter, subchapter, compilation, section,
                 toc</assert>
         </rule>
+        <rule context="tei:div">
+            <assert
+                test="./@subtype = ('editorial-note', 'errata_document-numbering-error', 'historical-document')"
+                    >div/@subtype='<value-of select="@subtype"/>' is an invalid value. Only the
+                following values are allowed: editorial-note, errata_document-numbering-error,
+                historical-document</assert>
+        </rule>
     </pattern>
 
     <pattern id="div-numbering-checks">
@@ -377,6 +384,21 @@
             <assert test="substring-after(@ana, '#') = $category-ids">date/@ana='<value-of
                     select="@ana"/>' is an invalid value. No category has been defined with an
                 @xml:id corresponding to this value.</assert>
+        </rule>
+        <rule context="tei:date[@type]">
+            <assert role="warn"
+                test="./@type = ('conversation-or-meeting-date', 'content-date', 'creation-date', 'received-date')"
+                    >date/@type='<value-of select="@type"/>' is an invalid value. Only the following
+                values are allowed: conversation-or-meeting-date, content-date, creation-date,
+                received-date</assert>
+        </rule>
+        <rule context="tei:date[@calendar]">
+            <assert role="warn"
+                test="./@calendar = ('chinese-era', 'chinese-lunar', 'ethiopian-ge&#8217;ez', 'gregorian', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunar', 'masonic-anno-lucis', 'rumi', 'thai-era', 'tibetan-phugpa')"
+                    >date/@calendar='<value-of select="@type"/>' is an invalid value. Only the
+                following values are allowed: chinese-era, chinese-lunar, ethiopian-ge&#8217;ez,
+                gregorian, hijri, iranian-persian, japanese-nengō, julian, korean-era, korean-lunar,
+                masonic-anno-lucis, rumi, thai-era, tibetan-phugpa</assert>
         </rule>
         <rule context="@xml:id">
             <assert test="count(index-of($xml-ids, .)) eq 1">@xml:id=<value-of select="."/>. Two
