@@ -394,7 +394,7 @@
         </rule>
         <rule context="tei:date[@calendar]">
             <assert role="warn"
-                test="tokenize(./@calendar, '\s') = ('chinese-era', 'chinese-lunar', 'ethiopian-ge&#8217;ez', 'gregorian', 'haitian-era', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunar', 'masonic-anno-lucis', 'rumi', 'thai-era', 'tibetan-phugpa')"
+                test="tokenize(./@calendar) = ('chinese-era', 'chinese-lunar', 'ethiopian-ge&#8217;ez', 'gregorian', 'haitian-era', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunar', 'masonic-anno-lucis', 'rumi', 'thai-era', 'tibetan-phugpa')"
                     >date/@calendar='<value-of select="@type"/>' is an invalid value. Only the
                 following values are allowed: chinese-era, chinese-lunar, ethiopian-ge&#8217;ez,
                 gregorian, haitian-era, hijri, iranian-persian, japanese-nengō, julian, korean-era,
