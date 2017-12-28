@@ -61,10 +61,16 @@
             <assert test=".//tei:date">Within historical documents, at least one dateline must
                 contain a date element</assert>
         </rule>
-
+        <!--
         <rule context="tei:dateline[ancestor::frus:attachment]">
             <assert role="warn" test=".//tei:date">Attachment datelines should contain a date
                 element if this information is present</assert>
+        </rule>
+        -->
+        <rule
+            context="tei:dateline[ancestor::frus:attachment[not(descendant::tei:dateline//tei:date)]]">
+            <assert role="warn" test=".//tei:date">Within attachments, at least one dateline must
+                contain a date element</assert>
         </rule>
         <!-- Tentative rule -->
         <rule
