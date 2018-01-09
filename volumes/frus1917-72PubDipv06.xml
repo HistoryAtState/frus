@@ -3112,8 +3112,8 @@
                 </div>
                 <pb n="9" facs="0046" xml:id="pg_9"/>
                 <div type="document" n="3" xml:id="d3" subtype="historical-document"
-                    frus:doc-dateTime-min="1960-12-01T00:00:00-05:00"
-                    frus:doc-dateTime-max="1960-12-31T23:59:59-05:00">
+                    frus:doc-dateTime-min="1960-12-08T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-13T23:59:59-05:00">
                     <head>3. Report Prepared by Deputy Director-Designate <persName
                             corresp="#p_WDM_1">Donald M. Wilson</persName><note n="1" xml:id="d3fn1"
                             type="source">Source: Kennedy Library, Personal Papers of <persName
@@ -3127,8 +3127,11 @@
                                 <gloss target="#t_USIA_1">USIA</gloss>. (Ibid.)</note></head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1960-12">December
-                                1960</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1960-12"
+                                notBefore="1960-12-08T00:00:00-05:00"
+                                notAfter="1960-12-13T23:59:59-05:00"
+                                ana="#date_imprecise-inferred-from-document-content-and-sibling-dates"
+                                >December 1960</date>.</dateline>
                     </opener>
                     <p>This report is highly selective. It covers five areas of <gloss
                             target="#t_USIA_1">USIA</gloss> activity that I think require the
@@ -23351,7 +23354,9 @@
                         as it also was unattributed to a specific official and single-sourced.</p>
                 </div>
 
-                <div type="document" n="152" xml:id="d152" subtype="historical-document">
+                <div type="document" n="152" xml:id="d152" subtype="historical-document"
+                    frus:doc-dateTime-min="1963-11-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-06T23:59:59-05:00">
                     <head>152. Letter From the Ambassador to India (<persName corresp="#p_BCB_1"
                             >Bowles</persName>) to the Deputy Director of the United States
                         Information Agency (<persName corresp="#p_WDM_1">Wilson</persName>)<note
@@ -23370,7 +23375,9 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>New Delhi,</placeName>
-                            <date>undated</date>.</dateline>
+                            <date when="1963-11-06"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <salute>Dear Don:</salute>
                     </opener>
                     <p>As you doubtless know, I am planning to leave Delhi November 10 for a brief
