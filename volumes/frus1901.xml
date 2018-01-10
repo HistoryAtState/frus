@@ -660,7 +660,7 @@
             </div>
             <pb n="[VIII]" xml:id="pg_VIII" facs="0008"/>
             <pb n="IX" xml:id="pg_IX" facs="0009"/>
-            <div type="section" xml:id="message-of-the-president">
+            <div type="section" subtype="message-of-the-president" xml:id="message-of-the-president">
                 <head>Message of the President</head>
                 <p rend="flushleft"><hi rend="italic">To the Senate and House of
                         Representatives:</hi></p>
@@ -2258,7 +2258,7 @@
                 </closer>
             </div>
             <pb n="LV" xml:id="pg_LV" facs="0055"/>
-            <div type="section" xml:id="papers">
+            <div type="section" subtype="index" xml:id="papers">
                 <head>List of papers, with subjects of correspondence</head>
                 <p rend="center"><hi rend="smallcaps">argentine republic</hi>.</p>
                 <table rows="10" cols="5" rend="bordered">
