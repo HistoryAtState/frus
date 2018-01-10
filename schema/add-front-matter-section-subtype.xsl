@@ -15,6 +15,20 @@
     
     <xsl:template match="tei:div[ancestor::tei:front][@type = 'section'][not(@subtype)]">
         <xsl:choose>
+            <xsl:when test=".[matches(@xml:id, '(AbouttheSeries|[Aa]bout|[Aa]boutseries|[Aa]bouttheseries|[Aa]btseries)')]">
+                <xsl:copy>
+                    <xsl:apply-templates select="@*"/>
+                    <xsl:attribute name="subtype">about-frus-series</xsl:attribute>
+                    <xsl:apply-templates select="node()"/>
+                </xsl:copy>
+            </xsl:when>
+            <xsl:when test=".[matches(@xml:id, '([Aa]cknowledge|[Aa]cknowledgments)')]">
+                <xsl:copy>
+                    <xsl:apply-templates select="@*"/>
+                    <xsl:attribute name="subtype">acknowledgements</xsl:attribute>
+                    <xsl:apply-templates select="node()"/>
+                </xsl:copy>
+            </xsl:when>
             <xsl:when test=".[matches(@xml:id, '(message-of-the-president|address-of-the-president)')]">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
@@ -29,7 +43,7 @@
                     <xsl:apply-templates select="node()"/>
                 </xsl:copy>
             </xsl:when>
-            <xsl:when test=".[matches(@xml:id, 'papers')]">
+            <xsl:when test=".[matches(@xml:id, '[Ii]ndex|[Ii]ndex-persons|[Ii]ndex-subjects|[Pp]apers-countries|[Pp]apers|[Pp]apers-topics|[Pp]ersons|[Pp]ersons-mentioned|[Ss]horttitles|[Ss]ubjects|[Ss]ymbols|[Tt]erms|[Tt]oc-countries|[Tt]oc-papers|[Tt]oc-topics|[Tt]opical')]">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
                     <xsl:attribute name="subtype">index</xsl:attribute>
@@ -40,6 +54,34 @@
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
                     <xsl:attribute name="subtype">preface</xsl:attribute>
+                    <xsl:apply-templates select="node()"/>
+                </xsl:copy>
+            </xsl:when>
+            <xsl:when test=".[matches(@xml:id, '([Pp]ress-releases?|[Pp]ressreleases?)')]">
+                <xsl:copy>
+                    <xsl:apply-templates select="@*"/>
+                    <xsl:attribute name="subtype">press-release</xsl:attribute>
+                    <xsl:apply-templates select="node()"/>
+                </xsl:copy>
+            </xsl:when>
+            <xsl:when test=".[matches(@xml:id, '([Ss]ources?)')]">
+                <xsl:copy>
+                    <xsl:apply-templates select="@*"/>
+                    <xsl:attribute name="subtype">sources</xsl:attribute>
+                    <xsl:apply-templates select="node()"/>
+                </xsl:copy>
+            </xsl:when>
+            <xsl:when test=".[matches(@xml:id, '(toc)')]">
+                <xsl:copy>
+                    <xsl:apply-templates select="@*"/>
+                    <xsl:attribute name="subtype">table-of-contents</xsl:attribute>
+                    <xsl:apply-templates select="node()"/>
+                </xsl:copy>
+            </xsl:when>
+            <xsl:when test=".[matches(@xml:id, '([Ss]ummary|[Vv]olumesummary)')]">
+                <xsl:copy>
+                    <xsl:apply-templates select="@*"/>
+                    <xsl:attribute name="subtype">volume-summary</xsl:attribute>
                     <xsl:apply-templates select="node()"/>
                 </xsl:copy>
             </xsl:when>

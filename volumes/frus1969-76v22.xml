@@ -326,7 +326,7 @@
                 </closer>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
@@ -359,7 +359,7 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>Sources</head>
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
@@ -643,7 +643,7 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -784,7 +784,7 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Persons</head>
                 <list type="names">

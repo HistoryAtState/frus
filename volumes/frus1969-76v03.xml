@@ -70,7 +70,7 @@
                     <pb n="[II]" xml:id="pg_II" facs="0002"/>DEPARTMENT OF STATE PUBLICATION
                     10865</docImprint>
             </titlePage>
-            <div type="section" xml:id="pressrelease">
+            <div type="section" xml:id="pressrelease" subtype="press-release">
                 <head>Office of the Historian Press Release</head>
                 <p>The first <persName corresp="#p_NRM1">Nixon</persName> administration’s policies
                     to stabilize the U.S. economy and to reform the international monetary system
@@ -156,7 +156,7 @@
                     go to <ref target="http://bookstore.gpo.gov/"
                     >http://bookstore.gpo.gov/</ref>.</p>
             </div>
-            <div type="section" xml:id="summary">
+            <div type="section" xml:id="summary" subtype="volume-summary">
                 <head>Volume Summary</head>
                 <p>(This is not an official statement of policy by the Department of State; it is
                     intended only as a guide to the contents of this volume.)</p>
@@ -860,7 +860,7 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>Sources</head>
                 <p rend="flushleft">
                     <hi rend="italic">Sources for the Foreign Relations Series</hi>
@@ -1372,7 +1372,7 @@
             </div>
             <pb n="[XVIII]" xml:id="pg_XVIII" facs="0018"/>
             <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -1871,7 +1871,7 @@
             </div>
             <pb n="[XXII]" xml:id="pg_XXII" facs="0022"/>
             <pb n="XXIII" xml:id="pg_XXIII" facs="0023"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <head>Persons</head>
                 <list type="names">
                     <item>

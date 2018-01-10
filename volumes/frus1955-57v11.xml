@@ -163,7 +163,7 @@
             </div>
             <pb n="VI" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>List of Unpublished Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -377,7 +377,7 @@
                 </list>
             </div>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_A1">A</term>,</hi> airgram</item>
@@ -672,7 +672,7 @@
             </div>
             <pb n="XIV" xml:id="pg_XIV" facs="0018"/>
             <pb n="XV" xml:id="pg_XV" facs="0019"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AS1">Adams, Sherman</persName>,</hi>

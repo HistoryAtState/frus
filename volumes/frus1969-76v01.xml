@@ -80,7 +80,7 @@
                     512-1800<lb/>Fax: (202) 512-2250 Mail: Stop SSOP, Washington, DC
                     20402-0001<lb/>ISBN 0-16-051282-4; GPO Stock No. 044-000-02570-1</docImprint>
             </titlePage>
-            <div type="section" xml:id="pressrelease">
+            <div type="section" xml:id="pressrelease" subtype="press-release">
                 <head>Office of the Historian Press Release</head>
                 <p>
                     <hi rend="strong">Office of the Historian</hi>
@@ -142,7 +142,7 @@
                     will soon be available on the Office' s Web site. Copies of volume I can be
                     purchased from the Government Printing Office.</p>
             </div>
-            <div type="section" xml:id="summary">
+            <div type="section" xml:id="summary" subtype="volume-summary">
                 <head>Summary</head>
                 <p rend="center">Foreign Relations of the United States, 1969-1976, Volume I</p>
                 <p rend="center">Foundations of Foreign Policy, 1969-1972</p>
@@ -805,7 +805,7 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>Sources</head>
                 <p rend="flushleft">
                     <hi rend="italic">Sources for the Foreign Relations Series</hi>
@@ -1210,7 +1210,7 @@
                     </item>
                 </list>
             </div>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
                 <head>Abbreviations</head>
                 <list type="terms">
@@ -1405,7 +1405,7 @@
                             <term xml:id="t_WW1">WW</term>,</hi> World War</item>
                 </list>
             </div>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
                 <head>Persons</head>
                 <list type="names">

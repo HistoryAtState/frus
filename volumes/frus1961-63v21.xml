@@ -500,7 +500,7 @@
             </div>
             <pb n="[XIV]" xml:id="pg_XIV" facs="0014"/>
             <pb n="XV" xml:id="pg_XV" facs="0015"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>List of Unpublished Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -957,7 +957,7 @@
                 </list>
             </div>
             <pb n="XXI" xml:id="pg_XXI" facs="0021"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AFAFN1">AF/AFN</term>,</hi> Office of
@@ -1316,7 +1316,7 @@
                 </list>
             </div>
             <pb n="XXV" xml:id="pg_XXV" facs="0025"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AAS1">Abdirashid Ali

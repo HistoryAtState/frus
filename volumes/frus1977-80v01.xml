@@ -61,7 +61,7 @@
                     20402-0001</docImprint>
             </titlePage>
 
-            <div type="section" xml:id="aboutseries">
+            <div type="section" xml:id="aboutseries" subtype="about-frus-series">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -378,7 +378,7 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Contents</head>
                 <list>
@@ -415,7 +415,7 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <pb n="XV" facs="0016" xml:id="pg_XV"/>
                 <head>Sources</head>
                 <p>In addition to the paper files cited below, a growing number of documents are
@@ -737,7 +737,7 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -1562,7 +1562,7 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <pb n="XXV" facs="0026" xml:id="pg_XXV"/>
                 <head>Persons</head>
                 <list type="names">

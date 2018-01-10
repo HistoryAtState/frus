@@ -186,7 +186,7 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>List of Sources</head>
                 <list>
                     <item><hi rend="strong">Department of State</hi>
@@ -528,7 +528,7 @@
                 </list>
             </div>
             <pb n="XIII" xml:id="pg_XIII" facs="0017"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AA1">AA</term>,</hi>
@@ -939,7 +939,7 @@
                 </list>
             </div>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="shorttitles">
+            <div type="section" xml:id="shorttitles" subtype="index">
                 <head>List of Short Titles</head>
                 <list>
                     <item><hi rend="italic">AFP: Basic Documents. American Foreign Policy,
@@ -1035,7 +1035,7 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AK1">Adenauer,

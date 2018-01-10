@@ -64,7 +64,7 @@
                     <docDate>2015</docDate>
                 </docImprint>
             </titlePage>
-            <div type="section" xml:id="pressrelease">
+            <div type="section" xml:id="pressrelease" subtype="press-release">
                 <head>Press Release</head>
                 <p rend="right">
                     <hi rend="strong">Office of the Historian<lb/>Bureau of Public Affairs
@@ -410,7 +410,7 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Contents</head>
                 <list>
@@ -470,7 +470,7 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
@@ -815,7 +815,7 @@
                     Brown, 1979.</p>
             </div>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -1681,7 +1681,7 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <pb n="XXV" facs="0026" xml:id="pg_XXV"/>
                 <head>Persons</head>
                 <list type="names">

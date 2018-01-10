@@ -419,7 +419,7 @@
             </div>
             <pb n="XII" xml:id="pg_XII" facs="0016"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0017"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>List of Unpublished Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -654,7 +654,7 @@
                 </list>
             </div>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AAA1">AAA</term>,</hi> anti-aircraft
@@ -931,7 +931,7 @@
             </div>
             <pb n="XX" xml:id="pg_XX" facs="0024"/>
             <pb n="XXI" xml:id="pg_XXI" facs="0025"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AR1">Amory, Robert</persName>,</hi>

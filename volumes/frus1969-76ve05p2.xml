@@ -70,7 +70,7 @@
                     <docDate>2007</docDate>Office of the Historian<lb/>Bureau of Public
                     Affairs<lb/>U.S. Department of State<lb/>2007</docImprint>
             </titlePage>
-            <div type="section" xml:id="pressrelease">
+            <div type="section" xml:id="pressrelease" subtype="press-release">
                 <head>Press Release</head>
                 <p rend="right">
                     <hi rend="strong">Office of the Historian Bureau of Public Affairs United States
@@ -152,7 +152,7 @@
                         >Foreign Relations</hi> series at (202) 663-1131, or by email at <ref
                         target="mailto:history@state.gov">history@state.gov</ref>.</p>
             </div>
-            <div type="section" xml:id="summary">
+            <div type="section" xml:id="summary" subtype="volume-summary">
                 <head>Summary</head>
                 <p>Early in President <persName corresp="#p_NRM1">Richard Nixon</persName>'s first
                     term, officials monitoring U.S.-North African relations had grounds for some
@@ -667,7 +667,7 @@
                     <hi rend="italic">The Historian</hi>
                     <lb/>Bureau of Public Affairs <lb/>October 2005 and September 2007</closer>
             </div>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>Sources</head>
                 <p rend="center">
                     <hi rend="strong">Unpublished Sources</hi>
@@ -968,7 +968,7 @@
                         Office, 1970, 1971, 1972, 1973)</item>
                 </list>
             </div>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
                     <item>
@@ -2061,7 +2061,7 @@
                         Union</item>
                 </list>
             </div>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <head>Persons</head>
                 <list type="names">
                     <item>

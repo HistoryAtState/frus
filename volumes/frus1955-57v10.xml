@@ -165,7 +165,7 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>List of Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -584,7 +584,7 @@
             </div>
             <pb n="[XIV]" xml:id="pg_XIV" facs="0018"/>
             <pb n="XV" xml:id="pg_XV" facs="0019"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <head>List of Abbreviations and Symbols</head>
                 <p>Editor’s Note: This list does not include standard abbreviations in common usage;
                     unusual abbreviations of rare occurrence which are clarified at appropriate
@@ -1001,7 +1001,7 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <head>List of Persons</head>
                 <p>Editor’s Note: The individuals identified below were principal participants in
                     the events covered in this volume. Other officials and individuals not included

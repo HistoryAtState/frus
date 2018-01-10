@@ -309,7 +309,7 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0014"/>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>List of Unpublished Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -702,7 +702,7 @@
             </div>
             <pb n="[XVI]" xml:id="pg_XVI" facs="0020"/>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AAA1">AAA</term>,</hi> anti-aircraft
@@ -931,7 +931,7 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="italic">Editor’s Note:</hi> The identification of the persons on

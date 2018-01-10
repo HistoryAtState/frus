@@ -57,7 +57,7 @@
                         >ureau of</hi> P<hi rend="smallcaps">ublic</hi> A<hi rend="smallcaps"
                         >ffairs</hi></docImprint>
             </titlePage>
-            <div xml:id="pressrelease" type="section">
+            <div xml:id="pressrelease" type="section" subtype="press-release">
                 <head>Press Release</head>
                 <p rend="right">
                     <hi rend="strong">Office of the Historian<lb/>Bureau of Public
@@ -85,7 +85,7 @@
                     For further information, contact <ref target="mailto:history@state.gov"
                         >history@state.gov</ref>.</p>
             </div>
-            <div type="section" xml:id="AbouttheSeries">
+            <div type="section" xml:id="AbouttheSeries" subtype="about-frus-series">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -293,7 +293,7 @@
                 <p rend="right"><hi rend="strong">Adam M. Howard, Ph.D.</hi><lb/><hi rend="italic"
                         >General Editor</hi></p>
             </div>
-            <div type="section" xml:id="acknowledge">
+            <div type="section" xml:id="acknowledge" subtype="acknowledgements">
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
                 <head>Acknowledgments</head>
                 <p>The editors wish to acknowledge the assistance of John Laster and Peter Halligas
@@ -320,7 +320,7 @@
                     </signed>
                 </closer>
             </div>
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
@@ -356,7 +356,7 @@
                 <pb n="X" facs="0011" xml:id="pg_X"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <hi rend="roman">Foreign Relations</hi>,
@@ -622,7 +622,7 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <pb n="XV" facs="0016" xml:id="pg_XV"/>
                 <head>Abbreviations and Terms</head>
                 <list>
@@ -1316,7 +1316,7 @@
                 <pb n="XXII" facs="0023" xml:id="pg_XXII"/>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <pb n="XXIII" facs="0024" xml:id="pg_XXIII"/>
                 <head>Persons</head>
                 <list>

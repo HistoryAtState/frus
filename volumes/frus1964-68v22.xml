@@ -73,7 +73,7 @@
                     Documents<lb/>Mail Stop: SSOP<lb/>Washington, DC 20402-9328<lb/>ISBN
                     0-16-049249-1</docImprint>
             </titlePage>
-            <div type="section" xml:id="summary">
+            <div type="section" xml:id="summary" subtype="volume-summary">
                 <head>Table of Contents:</head>
                 <p>Read the Volume Online</p>
                 <p>Foreword</p>
@@ -902,7 +902,7 @@
             </div>
             <pb n="[XIV]" xml:id="pg_XIV" facs="0014"/>
             <pb n="XV" xml:id="pg_XV" facs="0015"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>Sources</head>
                 <p>The editors of the <hi rend="italic">Foreign Relations</hi> series have complete
                     access to all the retired records and papers of the Department of State: the
@@ -1376,7 +1376,7 @@
                 </list>
             </div>
             <pb n="XXI" xml:id="pg_XXI" facs="0021"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -1931,7 +1931,7 @@
                 </list>
             </div>
             <pb n="XXV" xml:id="pg_XXV" facs="0025"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <head>Persons</head>
                 <list type="names">
                     <item>

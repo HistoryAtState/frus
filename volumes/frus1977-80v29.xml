@@ -64,7 +64,7 @@
                     20402-0001</docImprint>
             </titlePage>
 
-            <div type="section" xml:id="AbouttheSeries">
+            <div type="section" xml:id="AbouttheSeries" subtype="about-frus-series">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -360,7 +360,7 @@
                 <pb n="XII" facs="0013" xml:id="pg_XII"/>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents">
                 <pb n="XIII" facs="0014" xml:id="XIII"/>
                 <head>Contents</head>
                 <list>
@@ -414,7 +414,7 @@
                 <pb n="XIV" facs="0015" xml:id="pg_XIV"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <pb n="XV" facs="0016" xml:id="pg_XV"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <hi rend="roman">Foreign Relations</hi>,
@@ -800,7 +800,7 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <pb n="XXI" facs="0022" xml:id="pg_XXI"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -1686,7 +1686,7 @@
                 <pb n="XXVI" facs="0027" xml:id="pg_XXVI"/>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <pb n="XXVII" facs="0028" xml:id="pg_XXVII"/>
                 <head>Persons</head>
                 <list>

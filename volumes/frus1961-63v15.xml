@@ -404,7 +404,7 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0012"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0013"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>List of Sources</head>
                 <p rend="center"><hi rend="strong">Unpublished Sources</hi></p>
                 <list type="sources">
@@ -654,7 +654,7 @@
             </div>
             <pb n="[XVI]" xml:id="pg_XVI" facs="0016"/>
             <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_ACA1">ACA</term>,</hi> Allied Control
@@ -891,7 +891,7 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_APA1">Abrasimov, Pyotr

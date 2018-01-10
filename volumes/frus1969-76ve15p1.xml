@@ -68,7 +68,7 @@
                     <docDate>2008</docDate>Office of the Historian<lb/>Bureau of Public
                     Affairs<lb/>U.S. Department of State<lb/>2008</docImprint>
             </titlePage>
-            <div type="section" xml:id="pressrelease">
+            <div type="section" xml:id="pressrelease" subtype="press-release">
                 <head>Press Release</head>
                 <p>
                     <hi rend="strong">Office of the Historian</hi>
@@ -518,7 +518,7 @@
                         <lb/>The Historian<lb/>Bureau of Public Affairs<lb/>August 2008</signed>
                 </closer>
             </div>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>Sources</head>
                 <p>Unpublished Sources</p>
                 <p>U.S. Department of State, Washington, D.C.</p>
@@ -864,7 +864,7 @@
                             >Gerald R. Ford</persName>, 1974, 1975, 1976–1977</hi> (Washington,
                     D.C.: Government Printing Office, 1975, 1977, 1979).</p>
             </div>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -1364,7 +1364,7 @@
                             <term xml:id="t_Z1">Z</term>,</hi> Greenwich Mean Time</item>
                 </list>
             </div>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <head>List of Persons</head>
                 <list type="names">
                     <item>

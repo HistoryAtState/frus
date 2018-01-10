@@ -63,7 +63,7 @@
                     20402-0001</docImprint>
             </titlePage>
 
-            <div type="section" xml:id="AbouttheSeries">
+            <div type="section" xml:id="AbouttheSeries" subtype="about-frus-series">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -359,7 +359,7 @@
                 </closer>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Contents</head>
                 <list>
@@ -396,7 +396,7 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <hi rend="roman">Foreign Relations</hi>,
@@ -859,7 +859,7 @@
                 <pb n="XX" facs="0021" xml:id="pg_XX"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <pb n="XXI" facs="0022" xml:id="pg_XXI"/>
                 <head>Abbreviations and Terms</head>
                 <list>
@@ -2506,7 +2506,7 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <pb n="XXXI" facs="0032" xml:id="pg_XXXI"/>
                 <head>Persons</head>
                 <list>

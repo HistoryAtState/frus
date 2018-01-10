@@ -212,7 +212,7 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <head>List of Sources</head>
                 <p>The principal source of documentation for this volume was the indexed central
                     (decimal) files of the Department of State. Documents from the central files
@@ -727,7 +727,7 @@
             </div>
             <pb n="[XVI]" xml:id="pg_XVI" facs="0020"/>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <head>List of Abbreviations and Symbols</head>
                 <p>Editor’s Note—This list does not include standard abbreviations in common usage;
                     unusual abbreviations of rare occurrence which are clarified at appropriate

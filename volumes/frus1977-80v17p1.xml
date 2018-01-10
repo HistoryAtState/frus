@@ -64,7 +64,7 @@
                     DC area (202) 512-1800 Fax: (202) 512-2250 Mail: Stop IDCC, Washington, DC
                     20402-0001</docImprint>
             </titlePage>
-            <div xml:id="pressrelease" type="section">
+            <div xml:id="pressrelease" type="section" subtype="press-release">
                 <head>Press Release</head>
                 <p rend="right">
                     <hi rend="strong">Office of the Historian<lb/>Bureau of Public
@@ -97,7 +97,7 @@
                     202-512-1800). For further information, contact <ref
                         target="mailto:history@state.gov">history@state.gov</ref>. </p>
             </div>
-            <div type="section" xml:id="AbouttheSeries">
+            <div type="section" xml:id="AbouttheSeries" subtype="about-frus-series">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -356,7 +356,7 @@
                 </p>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents">
                 <pb n="XI" facs="0012" xml:id="XI"/>
                 <head>Contents</head>
                 <list>
@@ -397,7 +397,7 @@
                 <pb n="XII" facs="0013" xml:id="pg_XII"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <ref target="frus1977-80v17p1">
@@ -589,7 +589,7 @@
                 <pb n="XVI" facs="0017" xml:id="pg_XVI"/>
             </div>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index">
                 <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
                 <head>Abbreviations and Terms</head>
                 <list>
@@ -1195,7 +1195,7 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index">
                 <pb n="XXI" facs="0022" xml:id="pg_XXI"/>
                 <head>Persons</head>
                 <list>
