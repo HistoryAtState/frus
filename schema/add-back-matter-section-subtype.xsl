@@ -35,7 +35,7 @@
                     <xsl:apply-templates select="node()"/>
                 </xsl:copy>
             </xsl:when>
-            <xsl:when test=".[matches(@xml:id, '[Ii]ndex')]">
+            <xsl:when test=".[matches(@xml:id, '([Ii]ndex|[Pp]ersons|[Ss]ubjects)')]">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
                     <xsl:attribute name="subtype">index</xsl:attribute>
@@ -45,7 +45,7 @@
             <xsl:when test=".[matches(@xml:id, '[Mm]aps?')]">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
-                    <xsl:attribute name="subtype">graphic-materials</xsl:attribute>
+                    <xsl:attribute name="subtype">maps</xsl:attribute>
                     <xsl:apply-templates select="node()"/>
                 </xsl:copy>
             </xsl:when>
