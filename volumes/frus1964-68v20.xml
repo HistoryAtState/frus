@@ -74,7 +74,7 @@
                     the U.S. Government Printing Office<lb/>Superintendent of Documents, Main Stop:
                     SSOP<lb/>Washington, DC 20402-9328</docImprint>
             </titlePage>
-            <div type="section" xml:id="historian">
+            <div type="section" subtype="historian-statement" xml:id="historian">
                 <head>Historian's Statement</head>
                 <p>The Department of State released today <ref target="frus1964-68v20">Foreign
                         Relations of the United States, 1964-1968, Volume XX</ref>, Arab-Israeli
@@ -837,7 +837,7 @@
             </div>
             <pb n="[VIII]" xml:id="pg_VIII" facs="0008"/>
             <pb n="IX" xml:id="pg_IX" facs="0009"/>
-            <div type="section" xml:id="subseriesvols">
+            <div type="section" xml:id="subseriesvols" subtype="additional-volumes">
                 <head>
                     <persName>Johnson</persName> Administration Volumes</head>
                 <p>Following is a list of the volumes in the <hi rend="italic">Foreign
