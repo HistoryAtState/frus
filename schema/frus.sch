@@ -387,7 +387,7 @@
         </rule>
         <rule context="tei:date[@type]">
             <assert role="warn"
-                test="./@type = ('conversation-or-meeting-date', 'content-date', 'creation-date', 'received-date')"
+                test="./@type = ('content-date', 'conversation-or-meeting-date', 'creation-date', 'publication-date', 'received-date')"
                     >date/@type='<value-of select="@type"/>' is an invalid value. Only the following
                 values are allowed: conversation-or-meeting-date, content-date, creation-date,
                 received-date</assert>
