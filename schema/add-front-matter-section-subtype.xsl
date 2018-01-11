@@ -77,7 +77,7 @@
                     <xsl:apply-templates select="node()"/>
                 </xsl:copy>
             </xsl:when>
-            <xsl:when test=".[matches(@xml:id, '[Cc]harts|[Gg]uide|[Ii]ndex|[Ii]ndex-persons|[Ii]ndex-subjects|list-of-illustrations|[Pp]apers-countries|[Pp]apers|[Pp]apers-topics|[Pp]hotos?|[Pp]hotographs?|[Pp]ersons|[Pp]ersons-mentioned|[Ss]horttitles|[Ss]ubjects|[Ss]ymbols|[Tt]erms|[Tt]oc-countries|[Tt]oc-papers|[Tt]oc-topics|[Tt]opical')]">
+            <xsl:when test=".[matches(@xml:id, '([Cc]harts|[Gg]uide|[Ii]ndex|[Ii]ndex-persons|[Ii]ndex-subjects|list-of-illustrations|[Pp]apers-countries|[Pp]apers|[Pp]apers-topics|[Pp]hotos?|[Pp]hotographs?|[Pp]ersons|[Pp]ersons-mentioned|[Ss]horttitles|[Ss]ubjects|[Ss]ymbols|[Tt]erms|[Tt]oc-countries|[Tt]oc-papers|[Tt]oc-topics|[Tt]opical)')]">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
                     <xsl:attribute name="subtype">index</xsl:attribute>
