@@ -13,10 +13,11 @@
 
     <xsl:variable name="volume-dates-min" select="//dc:coverage/@notBefore"/>
     <xsl:variable name="volume-dates-max" select="//dc:coverage/@notAfter"/>
-    
+
     <!-- Add volumes dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to //front//div[@type="section"] -->
 
-    <xsl:template match="tei:front//tei:div[@type = 'section']">
+    <xsl:template
+        match="tei:front//tei:div[@type = 'section'][not(@subtype = 'historical-document')]">
         <xsl:choose>
             <xsl:when test=".[empty(@frus:doc-dateTime-min)]">
                 <xsl:copy>
@@ -43,7 +44,7 @@
 
     <xsl:template match="tei:back//tei:div[@type = 'section']">
         <xsl:choose>
-            <xsl:when test=".[empty(@frus:doc-dateTime-min)]">
+            <xsl:when test=".[empty(@frus:doc-dateTime-min)][not(@subtype = 'historical-document')]">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
                     <xsl:attribute name="frus:doc-dateTime-min">
