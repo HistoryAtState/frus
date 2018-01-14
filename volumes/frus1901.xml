@@ -70,6 +70,10 @@
             <change>2016-02-02 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1886-06-05T00:00:00-05:00" notAfter="1902-01-16T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -661,7 +665,9 @@
             </div>
             <pb n="[VIII]" xml:id="pg_VIII" facs="0008"/>
             <pb n="IX" xml:id="pg_IX" facs="0009"/>
-            <div type="section" subtype="historical-document" xml:id="message-of-the-president">
+            <div type="section" subtype="historical-document" xml:id="message-of-the-president"
+                frus:doc-dateTime-min="1886-06-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1902-01-16T23:59:59-05:00">
                 <head>Message of the President</head>
                 <p rend="flushleft"><hi rend="italic">To the Senate and House of
                         Representatives:</hi></p>
@@ -2259,7 +2265,9 @@
                 </closer>
             </div>
             <pb n="LV" xml:id="pg_LV" facs="0055"/>
-            <div type="section" subtype="index" xml:id="papers">
+            <div type="section" subtype="index" xml:id="papers"
+                frus:doc-dateTime-min="1886-06-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1902-01-16T23:59:59-05:00">
                 <head>List of papers, with subjects of correspondence</head>
                 <p rend="center"><hi rend="smallcaps">argentine republic</hi>.</p>
                 <table rows="10" cols="5" rend="bordered">
@@ -46818,7 +46826,9 @@
         </body>
         <back>
             <pb n="555" xml:id="pg_555" facs="0635"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1886-06-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1902-01-16T23:59:59-05:00">
                 <head>Index</head>
                 <p rend="center">A.</p>
                 <list type="index">

@@ -72,6 +72,10 @@
             <change>2016-02-02 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1892-05-09T00:00:00-05:00" notAfter="1902-06-03T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -92,7 +96,9 @@
             <pb n="[II]" xml:id="pg_II" facs="0008"/>
             <p rend="center">442305</p>
             <pb n="[III]" xml:id="pg_III" facs="0009"/>
-            <div type="section" subtype="undetermined" xml:id="translation-of-the-memorandum">
+            <div type="section" subtype="undetermined" xml:id="translation-of-the-memorandum"
+                frus:doc-dateTime-min="1892-05-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1902-06-03T23:59:59-05:00">
                 <head>Translation of the memorandum of the party claimant</head>
                 <p rend="center">TO THE</p>
                 <p rend="center">HONORABLE ARBITRATOR, MR. T. M. C. ASSER,<lb/><hi rend="italic"
@@ -41103,7 +41109,9 @@
         </body>
         <back>
             <pb n="485" xml:id="pg_485" facs="511"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1892-05-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1902-06-03T23:59:59-05:00">
                 <head>Index</head>
                 <p rend="center">A.</p>
                 <list type="index">
