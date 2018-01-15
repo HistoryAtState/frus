@@ -69,6 +69,10 @@
             <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1919-01-14T00:00:00-05:00" notAfter="1919-12-12T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -113,7 +117,9 @@
             </div>
             <pb n="[IV]" xml:id="pg_IV" facs="0008"/>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="section" xml:id="papers" subtype="index">
+            <div type="section" xml:id="papers" subtype="index"
+                frus:doc-dateTime-min="1919-01-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-12-12T23:59:59-05:00">
                 <head>List of Papers</head>
                 <p rend="flushleft"><hi rend="smallcaps">Minutes of Meetings of the American
                         Commissioners Plenipotentiary and of the Commissioners and Technical
@@ -40135,7 +40141,9 @@
             <pb n="[703]" xml:id="pg_703" facs="0741"/>
             <pb n="[704]" xml:id="pg_704" facs="0742"/>
             <pb n="705" xml:id="pg_705" facs="0743"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1919-01-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-12-12T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Aaland Islands, <ref target="#pg_578">578</ref></item>

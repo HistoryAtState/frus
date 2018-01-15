@@ -69,6 +69,10 @@
             <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1917-08-04T00:00:00-05:00" notAfter="1919-11-19T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -98,7 +102,9 @@
                     (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1917-08-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-11-19T23:59:59-05:00">
                 <head>Preface</head>
                 <quote rend="blockquote">
                     <p>I know that I speak for the American people—and I have good reason to believe
@@ -263,7 +269,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" subtype="index" xml:id="treaties">
+            <div type="section" subtype="index" xml:id="treaties"
+                frus:doc-dateTime-min="1917-08-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-11-19T23:59:59-05:00">
                 <head>List of Treaties</head>
                 <p rend="flushleft">PRINCIPAL TREATIES, CONVENTIONS, AND ACTS NEGOTIATED AT THE
                     CONFERENCE OF PARIS OF 1919, TO WHICH THE UNITED STATES WAS A SIGNATORY</p>
@@ -502,7 +510,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0014"/>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1917-08-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-11-19T23:59:59-05:00">
                 <head>List of Principal Persons</head>
                 <list type="names">
                     <item>
@@ -1272,7 +1282,9 @@
                 </list>
             </div>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="papers" subtype="index">
+            <div type="section" xml:id="papers" subtype="index"
+                frus:doc-dateTime-min="1917-08-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-11-19T23:59:59-05:00">
                 <head>List of Papers</head>
                 <p rend="center">TERMINATION OF HOSTILITIES</p>
                 <p rend="center">
@@ -45611,7 +45623,9 @@
             </div>
         </body>
         <back>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1917-08-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-11-19T23:59:59-05:00">
                 <head>Index</head>
                 <pb n="565" xml:id="pg_565" facs="0635"/>
                 <list type="index">
