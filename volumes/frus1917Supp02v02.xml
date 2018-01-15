@@ -69,6 +69,10 @@
             <change>2016-02-02 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1917-04-03T00:00:00-05:00" notAfter="1928-10-22T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -271,7 +275,9 @@
                 </list>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="section" xml:id="papers" subtype="index">
+            <div type="section" xml:id="papers" subtype="index"
+                frus:doc-dateTime-min="1917-04-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1928-10-22T23:59:59-05:00">
                 <head>List of Papers</head>
                 <p rend="center">[Incoming papers are listed chronologically under date of receipt.
                     Unless otherwise specified, the correspondence is <hi rend="italic">from</hi> or
@@ -43480,7 +43486,9 @@
             <pb n="[1301]" xml:id="pg_1301" facs="0547"/>
             <pb n="[1302]" xml:id="pg_1302" facs="0548"/>
             <pb n="1303" xml:id="pg_1303" facs="0549"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1917-04-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1928-10-22T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Afghanistan, affected by peace terms proposed by Allied powers, <ref

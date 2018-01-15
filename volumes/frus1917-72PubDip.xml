@@ -31,8 +31,11 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
+        <xenoData>
+            <dc:coverage notBefore="1917-08-13T00:00:00-05:00" notAfter="1919-06-01T17:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
-
     <text>
         <front>
             <titlePage type="main">
@@ -67,7 +70,9 @@
                     Mail: Stop IDCC, Washington, DC 20402-0001</docImprint>
             </titlePage>
 
-            <div type="section" xml:id="about" subtype="about-frus-series">
+            <div type="section" xml:id="about" subtype="about-frus-series"
+                frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                 <pb n="III" facs="0005" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -243,7 +248,9 @@
                 </closer>
             </div>
 
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                 <pb n="VII" facs="0009" xml:id="pg_VII"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">Focus of Research and Principles of Selection for <hi
@@ -303,7 +310,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="acknowledge" subtype="acknowledgements">
+            <div type="section" xml:id="acknowledge" subtype="acknowledgements"
+                frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                 <pb n="IX" facs="0011" xml:id="pg_IX"/>
                 <head>Acknowledgements</head>
                 <p>The editor wishes to thank the staff at the Library of Congress and the National
@@ -330,7 +339,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="toc" subtype="table-of-contents">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                 <pb n="XI" facs="0013" xml:id="pg_XI"/>
                 <head>Contents</head>
                 <list>
@@ -371,7 +382,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                 <pb n="XIII" facs="0015" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p>The Committee on Public Information (<gloss target="#t_CPI_1">CPI</gloss>) had
@@ -462,7 +475,9 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                 <pb n="XV" facs="0017" xml:id="pg_XV"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -514,7 +529,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                 <pb n="XVII" facs="0019" xml:id="pg_XVII"/>
                 <head>Persons</head>
                 <list type="names">
@@ -5237,11 +5254,15 @@
         </body>
 
         <back>
-            <div type="section" xml:id="appendix" subtype="appendix">
+            <div type="section" xml:id="appendix" subtype="appendix"
+                frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                 <pb n="94" facs="0114" xml:id="pg_94"/>
                 <head>Appendix A</head>
 
-                <div type="section" xml:id="appendix-1" subtype="appendix">
+                <div type="section" xml:id="appendix-1" subtype="appendix"
+                    frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                     <head>A.1. Photograph<note n="1" xml:id="app01fn1">Reading Room of the Allies
                             Right Hand Show Window. [Caption is in the original. See <ref
                                 target="#d24">Document 24</ref>.]</note>
@@ -5250,7 +5271,9 @@
                         <graphic width="26pc" url="Document A.1"/>
                     </figure>
                 </div>
-                <div type="section" xml:id="appendix-2" subtype="appendix">
+                <div type="section" xml:id="appendix-2" subtype="appendix"
+                    frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                     <pb n="95" facs="0115" xml:id="pg_95"/>
                     <head>A.2. Photograph<note n="1" xml:id="app02fn1">Reading Room of the Allies.
                             Interior. Partial View. Note the American flags and War poster. Serious
@@ -5261,7 +5284,9 @@
                         <graphic width="26pc" url="Document A.2"/>
                     </figure>
                 </div>
-                <div type="section" xml:id="appendix-3" subtype="appendix">
+                <div type="section" xml:id="appendix-3" subtype="appendix"
+                    frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                     <pb n="96" facs="0116" xml:id="pg_96"/>
                     <head>A.3. Photograph<note n="1" xml:id="app03fn1">Reading Room of the Allies.
                             Interior. Partial View. [Caption is in the original. See <ref
@@ -5271,7 +5296,9 @@
                         <graphic width="26pc" url="Document A.3"/>
                     </figure>
                 </div>
-                <div type="section" xml:id="appendix-4" subtype="appendix">
+                <div type="section" xml:id="appendix-4" subtype="appendix"
+                    frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                     <pb n="97" facs="0117" xml:id="pg_97"/>
                     <head>A.4. Photograph<note n="1" xml:id="app04fn1">See <ref target="#d24"
                                 >Document 24</ref>.</note>
@@ -5281,7 +5308,9 @@
                     </figure>
                 </div>
 
-                <div type="section" xml:id="appendix-5" subtype="appendix">
+                <div type="section" xml:id="appendix-5" subtype="appendix"
+                    frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                     <pb n="98" facs="0118" xml:id="pg_98"/>
                     <head>A.5. Movie Still<note n="1" xml:id="app05fn1" type="source">
                             <hi rend="italic">America’s Answer</hi> (1918). Source: National
@@ -5626,7 +5655,9 @@ the rest of the HTML is processed and the page load is complete, remove the line
 
                 </div>
 
-                <div type="section" xml:id="appendix-6" subtype="appendix">
+                <div type="section" xml:id="appendix-6" subtype="appendix"
+                    frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                     <pb n="99" facs="0119" xml:id="pg_99"/>
                     <head>A.6. Pamphlet<note n="1" xml:id="app06fn1">
                             <hi rend="italic">The Spirit of America in the War</hi>Source: National
@@ -5645,7 +5676,9 @@ the rest of the HTML is processed and the page load is complete, remove the line
                     </div>
                 </div>
 
-                <div type="section" xml:id="appendix-7" subtype="appendix">
+                <div type="section" xml:id="appendix-7" subtype="appendix"
+                    frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                     <pb n="100" facs="0120" xml:id="pg_100"/>
                     <head>A.7. Catalog Insert<note n="1" xml:id="app07fn1">See <ref target="#d39"
                                 >Document 39</ref>.</note>
@@ -5661,7 +5694,9 @@ the rest of the HTML is processed and the page load is complete, remove the line
                     </div>
                 </div>
 
-                <div type="section" xml:id="appendix-8" subtype="appendix">
+                <div type="section" xml:id="appendix-8" subtype="appendix"
+                    frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                     <pb n="101" facs="0121" xml:id="pg_101"/>
                     <head>A.8. Pamphlet<note n="1" xml:id="app08fn1">See <ref target="#d39">Document
                                 39</ref>.</note>
@@ -5677,7 +5712,9 @@ the rest of the HTML is processed and the page load is complete, remove the line
                     </div>
                 </div>
 
-                <div type="section" xml:id="appendix-9" subtype="appendix">
+                <div type="section" xml:id="appendix-9" subtype="appendix"
+                    frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                     <pb n="102" facs="0122" xml:id="pg_102"/>
                     <head>A.9. Portrait of President <persName corresp="#p_WW_1">Wilson</persName>
                         <note n="1" xml:id="app09fn1">See <ref target="#d39">Document
@@ -5688,7 +5725,9 @@ the rest of the HTML is processed and the page load is complete, remove the line
                     </figure>
                 </div>
 
-                <div type="section" xml:id="appendix-10" subtype="appendix">
+                <div type="section" xml:id="appendix-10" subtype="appendix"
+                    frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                     <pb n="103" facs="0123" xml:id="pg_103"/>
                     <head>A.10. Newspaper Article<note n="1" xml:id="app10fn1">See <ref
                                 target="#d39">Document 39</ref>.</note>
@@ -5705,7 +5744,9 @@ the rest of the HTML is processed and the page load is complete, remove the line
                     </div>
                 </div>
 
-                <div type="section" xml:id="appendix-11" subtype="appendix">
+                <div type="section" xml:id="appendix-11" subtype="appendix"
+                    frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                     <pb n="104" facs="0124" xml:id="pg_104"/>
                     <head>A.11. Movie Still<note n="1" xml:id="app11fn1">
                             <hi rend="italic">
@@ -5834,7 +5875,9 @@ the rest of the HTML is processed and the page load is complete, remove the line
                     </div>
                 </div>
 
-                <div type="section" xml:id="appendix-12" subtype="appendix">
+                <div type="section" xml:id="appendix-12" subtype="appendix"
+                    frus:doc-dateTime-min="1917-08-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1919-06-01T17:59:59-05:00">
                     <pb n="105" facs="0125" xml:id="pg_105"/>
                     <head>A.12. Newsletter<note n="1" xml:id="app12fn1">See <ref target="#d44"
                                 >Document 44</ref>.</note>
