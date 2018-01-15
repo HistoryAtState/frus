@@ -19,7 +19,7 @@
     <xsl:template
         match="tei:front//tei:div[@type = 'section'][not(@subtype = 'historical-document')]">
         <xsl:choose>
-            <xsl:when test=".[empty(@frus:doc-dateTime-min)]">
+            <xsl:when test=".[not(@frus:doc-dateTime-min)]">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
                     <xsl:attribute name="frus:doc-dateTime-min">
@@ -44,7 +44,7 @@
 
     <xsl:template match="tei:back//tei:div[@type = 'section']">
         <xsl:choose>
-            <xsl:when test=".[empty(@frus:doc-dateTime-min)][not(@subtype = 'historical-document')]">
+            <xsl:when test=".[not(@frus:doc-dateTime-min)][not(@subtype = 'historical-document')]">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
                     <xsl:attribute name="frus:doc-dateTime-min">
