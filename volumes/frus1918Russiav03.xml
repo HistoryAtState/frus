@@ -69,6 +69,10 @@
             <change>2016-02-02 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1917-03-31T00:00:00-05:00" notAfter="1919-01-13T20:00:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -252,7 +256,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0012"/>
             <pb n="VII" xml:id="pg_VII" facs="0013"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1917-03-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-01-13T20:00:00-05:00">
                 <head>List of Principal Persons</head>
                 <list type="names">
                     <item><persName xml:id="p_BND1">Baker, Newton D.</persName>, Secretary of
@@ -467,7 +473,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0016"/>
             <pb n="XI" xml:id="pg_XI" facs="0017"/>
-            <div type="section" xml:id="papers" subtype="index">
+            <div type="section" xml:id="papers" subtype="index"
+                frus:doc-dateTime-min="1917-03-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-01-13T20:00:00-05:00">
                 <head>List of Papers</head>
                 <p>[The arrangement of this list is by chapters, the papers therein appearing
                     chronologically under date of writing. Unless otherwise specified, the
@@ -28463,7 +28471,9 @@
         </body>
         <back>
             <pb n="[317]" xml:id="pg_317" facs="0367"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1917-03-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-01-13T20:00:00-05:00">
                 <head>Index</head>
                 <pb n="[318]" xml:id="pg_318" facs="0368"/>
                 <pb n="319" xml:id="pg_319" facs="0369"/>
