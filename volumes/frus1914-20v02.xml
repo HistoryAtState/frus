@@ -71,6 +71,10 @@
             <change>2014-04-22 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1914-06-16T00:00:00-05:00" notAfter="1921-10-03T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -173,7 +177,9 @@
                 <pb n="[IV]" xml:id="pg_IV" facs="0008"/>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="section" xml:id="toc-papers" subtype="index">
+            <div type="section" xml:id="toc-papers" subtype="index"
+                frus:doc-dateTime-min="1914-06-16T00:00:00-05:00"
+                frus:doc-dateTime-max="1921-10-03T23:59:59-05:00">
                 <head>List of papers</head>
                 <p rend="center">Unless otherwise specified, the correspondence is <hi rend="italic"
                         >from</hi> or <hi rend="italic">to</hi> the Secretary of State or other
@@ -39892,7 +39898,9 @@
             </div>
         </body>
         <back>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1914-06-16T00:00:00-05:00"
+                frus:doc-dateTime-max="1921-10-03T23:59:59-05:00">
                 <head>Index</head>
                 <pb n="[569]" xml:id="pg_569" facs="0615"/>
                 <pb n="[570]" xml:id="pg_570" facs="0616"/>
