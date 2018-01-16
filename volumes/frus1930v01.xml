@@ -69,6 +69,10 @@
             <change>2015-07-08 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1929-03-01T00:00:00-05:00" notAfter="1937-07-28T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -95,7 +99,9 @@
                     Office<lb/>Washington 25, D. C. Price $1.75 (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1929-03-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1937-07-28T23:59:59-05:00">
                 <head>Preface</head>
                 <p><hi rend="italic">Foreign Relations of the United States</hi> is a series of
                     volumes of diplomatic correspondence published by the Department of State for
@@ -783,7 +789,9 @@
                 </postscript>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="papers" subtype="index">
+            <div type="section" xml:id="papers" subtype="index"
+                frus:doc-dateTime-min="1929-03-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1937-07-28T23:59:59-05:00">
                 <head>List of Papers</head>
                 <p rend="center">[Unless otherwise specified, the correspondence is <hi
                         rend="italic">from</hi> or <hi rend="italic">to</hi> officials in the
@@ -36968,7 +36976,9 @@
         </body>
         <back>
             <pb n="551" xml:id="pg_551" facs="0631"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1929-03-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1937-07-28T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Aerial navigation. <hi rend="italic">See</hi>

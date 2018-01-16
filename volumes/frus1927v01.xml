@@ -69,6 +69,10 @@
             <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1926-04-13T00:00:00-05:00" notAfter="1928-01-11T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -1012,7 +1016,9 @@
                 <pb n="[XXVI]" xml:id="pg_XXVI" facs="0030"/>
             </div>
             <pb n="XXVII" xml:id="pg_XXVII" facs="0031"/>
-            <div type="section" xml:id="papers" subtype="index">
+            <div type="section" xml:id="papers" subtype="index"
+                frus:doc-dateTime-min="1926-04-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1928-01-11T23:59:59-05:00">
                 <head>List of Papers</head>
                 <p rend="center">[Unless otherwise specified, the correspondence is <hi
                         rend="italic">from</hi> or <hi rend="italic">to</hi> officials in the
@@ -35142,7 +35148,9 @@
         </body>
         <back>
             <pb n="555" xml:id="pg_555" facs="0641"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1926-04-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1928-01-11T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Agreements. <hi rend="italic">See</hi>
