@@ -69,6 +69,10 @@
             <change>2015-05-23 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1940-12-04T00:00:00-05:00" notAfter="1942-05-16T20:00:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -94,7 +98,9 @@
                     D.C. - Price $3.25 (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1940-12-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1942-05-16T20:00:00-05:00">
                 <head>Preface</head>
                 <p>The principles which guide the compilation and editing of <hi rend="italic"
                         >Foreign Relations</hi> are stated in Department of State Regulation 045 of
@@ -27969,15 +27975,20 @@
                             make to the defense of the cause of democracies. …</p>
                         <closer><signed><hi rend="smallcaps">Norweb</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d413" n="413" subtype="historical-document">
+                    <div type="document" xml:id="d413" n="413" subtype="historical-document"
+                        frus:doc-dateTime-min="1940-10-15T16:00:00-05:00"
+                        frus:doc-dateTime-max="1940-10-16T13:22:00-05:00">
                         <note rend="inline" type="source">823.248/245: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Peru</hi> (<persName type="from"
                                     ><hi rend="italic">Norweb</hi></persName>) <hi rend="italic">to
                                 the <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener>
                             <dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                    >Lima</hi></placeName>, [<date>undated</date>].<lb/>[Received
-                                October 16—1:22 p.m.]</dateline>
+                                    >Lima</hi></placeName>, [<date
+                                    notBefore="1940-10-15T16:00:00-05:00"
+                                    notAfter="1940-10-16T13:22:00-05:00"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>].<lb/>[Received October 16—1:22 p.m.]</dateline>
                         </opener>
                         <p>552. My telegram No. 551, October 15, 4 p.m. Radio broadcasts from the
                             United States report Colonel Revoredo as having publicly stated that the
@@ -33651,7 +33662,9 @@
         </body>
         <back>
             <pb n="617" xml:id="pg_617" facs="0625"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1940-12-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1942-05-16T20:00:00-05:00">
                 <head>Index<note n="1" xml:id="indexfn1"><p>In indexing persons the intention has
                             been to include all references to persons of significance for an
                             understanding of the record, with the following exceptions: (1) The name

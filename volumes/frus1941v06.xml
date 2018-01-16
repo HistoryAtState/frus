@@ -69,6 +69,10 @@
             <change>2015-05-23 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1940-12-12T00:00:00-05:00" notAfter="1941-12-31T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -94,7 +98,9 @@
                     D.C., 20402 - Price $2.75 (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1940-12-12T00:00:00-05:00"
+                frus:doc-dateTime-max="1941-12-31T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The principles which guide the compilation and editing of <hi rend="italic"
                         >Foreign Relations</hi> are stated in Department of State Regulation 1350 of
@@ -37467,7 +37473,9 @@
         </body>
         <back>
             <pb n="609" xml:id="pg_609" facs="0619"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1940-12-12T00:00:00-05:00"
+                frus:doc-dateTime-max="1941-12-31T23:59:59-05:00">
                 <head>Index<note n="1" xml:id="indexfn1"><p>In indexing persons the intention has
                             been to include all references to persons of significance for an
                             understanding of the record, with the following exceptions: (1) The name
