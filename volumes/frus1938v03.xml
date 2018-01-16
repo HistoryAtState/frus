@@ -77,6 +77,10 @@
             <change>2015-05-23 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1938-01-01T17:00:00-05:00" notAfter="1938-12-31T10:55:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -44445,7 +44449,9 @@
             <pb n="[753]" xml:id="pg_753" facs="0757"/>
             <pb n="[754]" xml:id="pg_754" facs="0758"/>
             <pb n="755" xml:id="pg_755" facs="0759"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1938-01-01T17:00:00-05:00"
+                frus:doc-dateTime-max="1938-12-31T10:55:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Afghanistan, <ref target="#pg_81">81</ref>, <ref target="#pg_137"

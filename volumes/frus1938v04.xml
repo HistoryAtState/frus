@@ -77,6 +77,10 @@
             <change>2015-05-23 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1937-12-31T17:00:00-05:00" notAfter="1939-01-01T16:00:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -37538,7 +37542,9 @@
         </body>
         <back>
             <pb n="629" xml:id="pg_629" facs="0633"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1937-12-31T17:00:00-05:00"
+                frus:doc-dateTime-max="1939-01-01T16:00:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Agreements. <hi rend="italic">See</hi>
