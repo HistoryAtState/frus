@@ -19,17 +19,27 @@
     <xsl:template
         match="tei:front//tei:div[@type = 'section'][not(@subtype = 'historical-document')]">
         <xsl:choose>
-            <xsl:when test=".[not(@frus:doc-dateTime-min)]">
-                <xsl:copy>
-                    <xsl:apply-templates select="@*"/>
-                    <xsl:attribute name="frus:doc-dateTime-min">
-                        <xsl:value-of select="$volume-dates-min"/>
-                    </xsl:attribute>
-                    <xsl:attribute name="frus:doc-dateTime-max">
-                        <xsl:value-of select="$volume-dates-max"/>
-                    </xsl:attribute>
-                    <xsl:apply-templates select="node()"/>
-                </xsl:copy>
+            <xsl:when test="not(empty($volume-dates-min)) and not(empty($volume-dates-max))">
+                <xsl:choose>
+                    <xsl:when test=".[not(@frus:doc-dateTime-min)]">
+                        <xsl:copy>
+                            <xsl:apply-templates select="@*"/>
+                            <xsl:attribute name="frus:doc-dateTime-min">
+                                <xsl:value-of select="$volume-dates-min"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="frus:doc-dateTime-max">
+                                <xsl:value-of select="$volume-dates-max"/>
+                            </xsl:attribute>
+                            <xsl:apply-templates select="node()"/>
+                        </xsl:copy>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:copy>
+                            <xsl:apply-templates select="@*"/>
+                            <xsl:apply-templates select="node()"/>
+                        </xsl:copy>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:copy>
@@ -42,19 +52,31 @@
 
     <!-- Add volumes dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to //back//div[@type="section"] -->
 
-    <xsl:template match="tei:back//tei:div[@type = 'section']">
+    <xsl:template
+        match="tei:back//tei:div[@type = 'section'][not(@subtype = 'historical-document')]">
         <xsl:choose>
-            <xsl:when test=".[not(@frus:doc-dateTime-min)][not(@subtype = 'historical-document')]">
-                <xsl:copy>
-                    <xsl:apply-templates select="@*"/>
-                    <xsl:attribute name="frus:doc-dateTime-min">
-                        <xsl:value-of select="$volume-dates-min"/>
-                    </xsl:attribute>
-                    <xsl:attribute name="frus:doc-dateTime-max">
-                        <xsl:value-of select="$volume-dates-max"/>
-                    </xsl:attribute>
-                    <xsl:apply-templates select="node()"/>
-                </xsl:copy>
+            <xsl:when test="not(empty($volume-dates-min)) and not(empty($volume-dates-max))">
+                <xsl:choose>
+                    <xsl:when
+                        test=".[not(@frus:doc-dateTime-min)][not(@subtype = 'historical-document')]">
+                        <xsl:copy>
+                            <xsl:apply-templates select="@*"/>
+                            <xsl:attribute name="frus:doc-dateTime-min">
+                                <xsl:value-of select="$volume-dates-min"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="frus:doc-dateTime-max">
+                                <xsl:value-of select="$volume-dates-max"/>
+                            </xsl:attribute>
+                            <xsl:apply-templates select="node()"/>
+                        </xsl:copy>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:copy>
+                            <xsl:apply-templates select="@*"/>
+                            <xsl:apply-templates select="node()"/>
+                        </xsl:copy>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:copy>
