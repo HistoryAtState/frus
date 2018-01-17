@@ -67,6 +67,10 @@
             <change>2014-12-04 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1947-11-26T19:00:00-05:00" notAfter="1948-12-31T18:00:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -98,7 +102,9 @@
                     Price $8.25 (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                 <head>Preface</head>
                 <p>Part 1 of this volume was prepared under the direct supervision of the late S.
                     Everett Gleason, Chief of the Foreign Relations Division, with additional review
@@ -403,7 +409,9 @@
                 </list>
             </div>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                 <head>List of abbreviations and symbols</head>
                 <p>
                     <hi rend="smallcaps">Editor’s note</hi>.—This list does not include standard
@@ -37594,7 +37602,9 @@
             <pb n="i" xml:id="pg_i" facs="0547"/>
             <pb n="ii" xml:id="pg_ii" facs="0548"/>
             <pb n="iii" xml:id="pg_iii" facs="0549"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Abbas, Chaudry Ghulam, <ref target="#pg_384">384</ref>, <ref
