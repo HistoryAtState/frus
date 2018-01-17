@@ -69,6 +69,10 @@
             <change>2015-03-06 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1944-03-18T00:00:00-05:00" notAfter="1944-09-26T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -95,7 +99,9 @@
                     D.C. 20402-Price $4.75 (Buckram)<lb/>Stock Number 4400–1384</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1944-03-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1944-09-26T23:59:59-05:00">
                 <head>Preface</head>
                 <p>This volume of documents on the Second Quebec Conference (1944) completes the
                     special series of <hi rend="italic">Foreign Relations</hi> volumes on the World
@@ -323,7 +329,9 @@
             </div>
             <pb n="[VIII]" xml:id="pg_VIII" facs="0012"/>
             <pb n="IX" xml:id="pg_IX" facs="0013"/>
-            <div type="section" xml:id="photographs-toc" subtype="table-of-contents">
+            <div type="section" xml:id="photographs-toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1944-03-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1944-09-26T23:59:59-05:00">
                 <head>List of Photographs and Maps</head>
                 <p rend="center">PHOTOGRAPHS</p>
                 <p rend="center">(These photographs will be found in a group following <ref
@@ -359,7 +367,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0014"/>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="section" xml:id="introduction" subtype="preface">
+            <div type="section" xml:id="introduction" subtype="preface"
+                frus:doc-dateTime-min="1944-03-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1944-09-26T23:59:59-05:00">
                 <head>Introduction</head>
                 <p rend="center"><hi rend="smallcaps">Scope of Coverage</hi></p>
                 <p>This volume presents documentation relating to the ninth conference participated
@@ -717,7 +727,9 @@
             </div>
             <pb n="[XVIII]" xml:id="pg_XVIII" facs="0022"/>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1944-03-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1944-09-26T23:59:59-05:00">
                 <head>List of Abbreviations, Symbols, and Code Names</head>
                 <p><hi rend="smallcaps">Editor’s Note</hi>.—This list does not include standard
                     abbreviations in common usage or unusual abbreviations of rare occurrence which
@@ -1102,7 +1114,9 @@
                 </list>
             </div>
             <pb n="XXIII" xml:id="pg_XXIII" facs="0027"/>
-            <div type="section" xml:id="toc-papers" subtype="index">
+            <div type="section" xml:id="toc-papers" subtype="index"
+                frus:doc-dateTime-min="1944-03-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1944-09-26T23:59:59-05:00">
                 <head>List of Papers</head>
                 <p rend="center">THE SECOND QUEBEC CONFERENCE AND RELATED CONVERSATIONS AT HYDE
                     PARK</p>
@@ -37069,7 +37083,9 @@
         </body>
         <back>
             <pb n="[499]" xml:id="pg_499" facs="0563"/>
-            <div type="section" xml:id="index-subjects" subtype="index">
+            <div type="section" xml:id="index-subjects" subtype="index"
+                frus:doc-dateTime-min="1944-03-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1944-09-26T23:59:59-05:00">
                 <head>Index of Subjects</head>
                 <pb n="[500]" xml:id="pg_500" facs="0564"/>
                 <pb n="501" xml:id="pg_501" facs="0565"/>
@@ -39926,7 +39942,9 @@
             </div>
             <pb n="[514]" xml:id="pg_514" facs="0578"/>
             <pb n="515" xml:id="pg_515" facs="0579"/>
-            <div type="section" xml:id="index-persons" subtype="index">
+            <div type="section" xml:id="index-persons" subtype="index"
+                frus:doc-dateTime-min="1944-03-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1944-09-26T23:59:59-05:00">
                 <head>Index of Persons</head>
                 <p>(The identification of the persons in this index is limited to circumstances and
                     positions under reference in this volume. All titles and positions are American
