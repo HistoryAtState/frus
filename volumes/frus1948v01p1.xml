@@ -66,6 +66,10 @@
             <change>2014-12-04 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1947-12-03T00:00:00-05:00" notAfter="1948-12-09T18:00:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -97,7 +101,9 @@
                     044–000–01581-1</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1947-12-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-09T18:00:00-05:00">
                 <head>Preface</head>
                 <p>Part 1 of this volume was prepared under the direct supervision of the late S.
                     Everett Gleason, former editor of <hi rend="italic">Foreign Relations</hi>, and
@@ -314,7 +320,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="introduction" subtype="preface">
+            <div type="section" xml:id="introduction" subtype="preface"
+                frus:doc-dateTime-min="1947-12-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-09T18:00:00-05:00">
                 <head>Introductory note</head>
                 <p rend="center">AMERICAN FOREIGN POLICY: SELECTED PUBLIC DOCUMENTS</p>
                 <p>Beginning with the year 1950, <hi rend="italic">American Foreign Policy</hi>, a
@@ -665,7 +673,9 @@
                     final paragraph of section III, above.</p>
             </div>
             <pb n="XIII" xml:id="pg_XIII" facs="0017"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1947-12-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-09T18:00:00-05:00">
                 <head>List of abbreviations and symbols</head>
                 <p>
                     <hi rend="smallcaps">Editor’s Note</hi>.—This list does not include standard
@@ -32771,7 +32781,9 @@
             <pb n="[i]" xml:id="pg_i" facs="0527"/>
             <pb n="[ii]" xml:id="pg_ii" facs="0528"/>
             <pb n="iii" xml:id="pg_iii" facs="0529"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1947-12-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-09T18:00:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Acheson, Dean, <ref target="#pg_391">391</ref>
