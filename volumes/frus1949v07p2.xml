@@ -67,6 +67,10 @@
             <change>2014-09-09 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1949-01-03T00:00:00-05:00" notAfter="1949-12-30T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -98,7 +102,9 @@
                     044–000–01644–3</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                 <head>Preface</head>
                 <p>Part 2 of this volume was prepared under the direct supervision of the late S.
                     Everett Gleason, editor of <hi rend="italic">Foreign Relations</hi> until 1972,
@@ -264,7 +270,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                 <head>List of abbreviations and symbols</head>
                 <p>
                     <hi rend="smallcaps">Editor’s Note</hi>.—This list does not include standard
@@ -43378,7 +43386,9 @@
             <pb n="[i]" xml:id="pg_i" facs="0635"/>
             <pb n="ii" xml:id="pg_ii" facs="0636"/>
             <pb n="iii" xml:id="pg_iii" facs="0637"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Abbott, George M., <ref target="#pg_1163">1163</ref>
