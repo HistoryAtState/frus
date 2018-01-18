@@ -43,6 +43,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1952-01-11T00:00:00-05:00" notAfter="1975-05-12T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -71,7 +75,9 @@
                     (202) 512–1800<lb/>Fax: (202) 512–2250 Mail: Stop SSOP, Washington, Dc
                     20402–0001<lb/>ISBN 0–15–051304–9</docImprint>
             </titlePage>
-            <div type="section" xml:id="pressrelease" subtype="press-release">
+            <div type="section" xml:id="pressrelease" subtype="press-release"
+                frus:doc-dateTime-min="1952-01-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1975-05-12T23:59:59-05:00">
                 <head>Press Release</head>
                 <p rend="right">Office of the Historian<lb/>Bureau of Public Affairs<lb/>United
                     States Department of State</p>
@@ -140,7 +146,9 @@
                     663–1289; e-mail: history@state.gov.</p>
             </div>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1952-01-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1975-05-12T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -344,7 +352,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0014"/>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1952-01-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1975-05-12T23:59:59-05:00">
                 <head>Sources</head>
                 <p rend="flushleft"><hi rend="italic">Sources for the Foreign Relations
                     Series</hi></p>
@@ -457,7 +467,9 @@
             </div>
             <pb n="[XIV]" xml:id="pg_XIV" facs="0018"/>
             <pb n="XV" xml:id="pg_XV" facs="0019"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1952-01-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1975-05-12T23:59:59-05:00">
                 <head>Abbreviations and Cryptonyms</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AA1">AA</term>,</hi> American Airlines;
@@ -682,7 +694,9 @@
             </div>
             <pb n="[XVIII]" xml:id="pg_XVIII" facs="0022"/>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1952-01-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1975-05-12T23:59:59-05:00">
                 <head>Persons and Pseudonyms</head>
                 <p><hi rend="strong">Note:</hi> Pseudonyms are in parentheses following real names.
                     Pseudonyms whose identities have not been released are so indicated.</p>
@@ -891,7 +905,9 @@
             </div>
             <pb n="[XXII]" xml:id="pg_XXII" facs="0026"/>
             <pb n="XXIII" xml:id="pg_XXIII" facs="0027"/>
-            <div type="section" xml:id="intro" subtype="preface">
+            <div type="section" xml:id="intro" subtype="preface"
+                frus:doc-dateTime-min="1952-01-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1975-05-12T23:59:59-05:00">
                 <head>Introduction</head>
                 <p>By the beginning of the 20th century, Guatemala had evolved into a highly
                     stratified society in which a tiny minority of elite coffee growers, linked to
@@ -16380,7 +16396,9 @@
                     </list>
                 </div>
                 <pb n="274" xml:id="pg_274" facs="0304"/>
-                <div type="document" xml:id="d141" n="141" subtype="historical-document">
+                <div type="document" xml:id="d141" n="141" subtype="historical-document"
+                    frus:doc-dateTime-min="1954-05-01T14:48:00-05:00"
+                    frus:doc-dateTime-max="1954-05-02T22:59:59-05:00">
                     <head>141. Paper Prepared in Operation <gloss target="#t_PBSPBSUCCESS1"
                             >PBSUCCESS</gloss> Headquarters in Florida<note n="1" xml:id="d141fn1"
                             type="source">Source: Central Intelligence Agency, Job 79–01025A, Box
@@ -16393,8 +16411,11 @@
                             The covering memorandum describes this paper as a “plan for <gloss
                                 target="#t_KUGOWN1">KUGOWN</gloss> campaign directed against the
                             Armed Forces of the Target Country.”</note></head>
-                    <dateline>[<hi rend="italic">place not declassified</hi>],
-                        <date>undated</date>.</dateline>
+                    <dateline>[<hi rend="italic">place not declassified</hi>], <date
+                            notBefore="1954-05-01T19:48:00+00:00"
+                            notAfter="1954-05-02T23:59:59-04:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <list>
                         <label>1.</label>
                         <item>During the next few weeks, beginning not later than the second week of
@@ -25320,14 +25341,20 @@
                         greater attention and larger resources than the U.S. government has given it
                         in the years since the war.</p>
                 </div>
-                <div type="document" xml:id="d281" n="281" subtype="historical-document">
+                <div type="document" xml:id="d281" n="281" subtype="historical-document"
+                    frus:doc-dateTime-min="1954-07-26T23:00:00-05:00"
+                    frus:doc-dateTime-max="1954-07-29T22:59:59-05:00">
                     <head>281. Briefing Paper<note n="1" xml:id="d281fn1" type="source">Source:
                             Central Intelligence Agency, Job 79–01025A, Box 151, Folder 2. No
                             classification marking. A covering memorandum to the Director of Central
                             Intelligence from <persName corresp="#p_BTPWD1">Tracy Barnes</persName>
                             listed the participants scheduled to attend the White House briefing on
                             July 29.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date
+                            notBefore="1954-07-27T00:00:00-04:00"
+                            notAfter="1954-07-29T23:59:59-04:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p rend="center">GUATEMALA BRIEFING</p>
                     <list>
                         <label>(1)</label>
@@ -26164,7 +26191,9 @@
         </body>
         <back>
             <pb n="451" xml:id="pg_451" facs="0481"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1952-01-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1975-05-12T23:59:59-05:00">
                 <head>Index</head>
                 <p>References are to document numbers</p>
                 <list type="index">
