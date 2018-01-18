@@ -45,6 +45,10 @@
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1955-01-06T15:10:00-05:00" notAfter="1958-01-03T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -79,7 +83,9 @@
                     Government Printing Office<lb/>Washington, D.C. 20402</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1955-01-06T15:10:00-05:00"
+                frus:doc-dateTime-max="1958-01-03T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -170,7 +176,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1955-01-06T15:10:00-05:00"
+                frus:doc-dateTime-max="1958-01-03T23:59:59-05:00">
                 <head>List of Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -678,7 +686,9 @@
                 </list>
             </div>
             <pb n="XV" xml:id="pg_XV" facs="0019"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1955-01-06T15:10:00-05:00"
+                frus:doc-dateTime-max="1958-01-03T23:59:59-05:00">
                 <head>List of Abbreviations and Symbols</head>
                 <p><hi rend="italic">Editor’s Note</hi>: This list does not include standard
                     abbreviations in common usage; unusual abbreviations of rare occurrence which
@@ -1088,7 +1098,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1955-01-06T15:10:00-05:00"
+                frus:doc-dateTime-max="1958-01-03T23:59:59-05:00">
                 <head>List of Persons</head>
                 <p><hi rend="italic">Editor’s Note</hi>: The individuals identified below were
                     principal participants in the events covered in this volume. Other officials and
@@ -24489,7 +24501,9 @@
                                 a copy which bears this typed signature.</note></signed></closer>
                 </div>
                 <pb n="469" xml:id="pg_469" facs="0499"/>
-                <div type="document" xml:id="d173" n="173" subtype="historical-document">
+                <div type="document" xml:id="d173" n="173" subtype="historical-document"
+                    frus:doc-dateTime-min="1956-08-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1956-08-31T23:59:59-05:00">
                     <head>173. Memorandum From the Director of the Executive Secretariat (<persName
                             corresp="#p_HCD1" type="from">Howe</persName>) to <persName type="to"
                             >Albert P. Toner</persName>, Assistant to the Staff Secretary at the
@@ -24498,8 +24512,9 @@
                                 <persName>Alan G. James</persName>, Reports and Operations Staff,
                             Executive Secretariat, on August 31.</note>
                     </head>
-                    <dateline><hi rend="italic"><placeName>Washington</placeName>,
-                                <date>undated</date>.</hi></dateline>
+                    <dateline><hi rend="italic"><placeName>Washington</placeName>, <date
+                                when="1956-08-31" ana="#date_undated-inferred-from-document-content"
+                                >undated</date>.</hi></dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Additional Information You Requested concerning Staff Summary
@@ -29907,15 +29922,20 @@
                         Meetings, Dec. 1955–July 1956)</p>
                 </div>
                 <pb n="583" xml:id="pg_583" facs="0613"/>
-                <div type="document" xml:id="d200" n="200" subtype="historical-document">
+                <div type="document" xml:id="d200" n="200" subtype="historical-document"
+                    frus:doc-dateTime-min="1956-09-10T23:00:00-05:00"
+                    frus:doc-dateTime-max="1956-09-12T22:59:59-05:00">
                     <head>200. Memorandum From the Assistant Secretary of State for Public Affairs
                             (<persName corresp="#p_MCCW1" type="from">McCardle</persName>) to the
                         Deputy Under Secretary of State (<persName corresp="#p_MRD1" type="to"
                             >Murphy</persName>)<note n="1" xml:id="d200fn1" type="source">Source:
                             Department of State, Central Files, 511.00/9–1256.
                         Confidential.</note></head>
-                    <dateline><placeName><hi rend="italic">Washington</hi></placeName>, <date><hi
-                                rend="italic">undated</hi></date>.</dateline>
+                    <dateline><placeName><hi rend="italic">Washington</hi></placeName>, <date
+                            from="1956-09-11T00:00:00-04:00" to="1956-09-12T23:59:59-04:00"
+                            ana="#date_undated-inferred-from-document-content"
+                            type="conversation-or-meeting-date"><hi rend="italic"
+                            >undated</hi></date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item><gloss target="#t_USIA1">USIA</gloss> People-to-People Partnership
@@ -31521,7 +31541,9 @@
         </body>
         <back>
             <pb n="615" xml:id="pg_615" facs="0645"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1955-01-06T15:10:00-05:00"
+                frus:doc-dateTime-max="1958-01-03T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item><persName corresp="#p_ATC1">Achilles, Theodore C.</persName>, <ref

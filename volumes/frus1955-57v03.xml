@@ -44,6 +44,10 @@
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1955-01-13T12:00:00-05:00" notAfter="1957-12-31T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -72,7 +76,9 @@
                     Government Printing Office<lb/>Washington, D.C. 20402</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1955-01-13T12:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -167,7 +173,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="actionsstatement" subtype="notes">
+            <div type="section" xml:id="actionsstatement" subtype="notes"
+                frus:doc-dateTime-min="1955-01-13T12:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>Note</head>
                 <p>Volumes II and III contain documentation on United States policy with regard to
                     China from 1955 through 1957. Volume II, covering the period from January
@@ -190,7 +198,9 @@
             </div>
             <pb n="[VIII]" xml:id="pg_VIII" facs="0012"/>
             <pb n="IX" xml:id="pg_IX" facs="0013"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1955-01-13T12:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>List of Unpublished Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -551,7 +561,9 @@
                 </list>
             </div>
             <pb n="XV" xml:id="pg_XV" facs="0019"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1955-01-13T12:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>List of Abbreviations and Symbols</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AA1">AA</term>,</hi>
@@ -894,7 +906,9 @@
             </div>
             <pb n="[XVIII]" xml:id="pg_XVIII" facs="0022"/>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1955-01-13T12:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>List of Persons</head>
                 <p><hi rend="italic">Editor’s Note</hi>. This list is designed to provide ready
                     reference for identification of those persons mentioned most frequently. The
@@ -39663,7 +39677,9 @@
         <back>
             <pb n="[674]" xml:id="pg_674" facs="0702"/>
             <pb n="[675]" xml:id="pg_675" facs="0703"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1955-01-13T12:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>Index</head>
                 <pb n="[676]" xml:id="pg_676" facs="0704"/>
                 <pb n="677" xml:id="pg_677" facs="0705"/>

@@ -44,6 +44,10 @@
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1955-01-14T11:30:00-05:00" notAfter="1957-12-27T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -77,7 +81,9 @@
                     Government Printing Office<lb/>Washington, D.C. 20402</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1955-01-14T11:30:00-05:00"
+                frus:doc-dateTime-max="1957-12-27T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -190,7 +196,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1955-01-14T11:30:00-05:00"
+                frus:doc-dateTime-max="1957-12-27T23:59:59-05:00">
                 <head>List of Unpublished Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -379,7 +387,9 @@
                 </list>
             </div>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1955-01-14T11:30:00-05:00"
+                frus:doc-dateTime-max="1957-12-27T23:59:59-05:00">
                 <head>List of Abbreviations and Symbols</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AFLCIO1">AFL–CIO</term>,</hi> American
@@ -584,7 +594,9 @@
                 </list>
             </div>
             <pb n="XIII" xml:id="pg_XIII" facs="0017"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1955-01-14T11:30:00-05:00"
+                frus:doc-dateTime-max="1957-12-27T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_ARW1">Adams, Robert
@@ -27668,7 +27680,9 @@
         </body>
         <back>
             <pb n="491" xml:id="pg_491" facs="0513"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1955-01-14T11:30:00-05:00"
+                frus:doc-dateTime-max="1957-12-27T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Abdullah, Sheikh, <ref target="#pg_87">87</ref></item>

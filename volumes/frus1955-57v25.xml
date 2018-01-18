@@ -42,6 +42,10 @@
         <revisionDesc>
             <change>HCL's submission of the original volume</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1955-01-04T00:00:00-05:00" notAfter="1957-12-27T18:47:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -76,7 +80,9 @@
                     D.C. 20402</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1955-01-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-27T18:47:00-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -337,7 +343,9 @@
                 </list>
             </div>
             <pb n="IX" xml:id="pg_IX" facs="0013"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1955-01-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-27T18:47:00-05:00">
                 <head>List of Sources</head>
                 <p rend="center"><hi rend="strong">Unpublished Sources</hi></p>
                 <list type="sources">
@@ -843,7 +851,9 @@
             </div>
             <pb n="[XVI]" xml:id="pg_XVI" facs="0020"/>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1955-01-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-27T18:47:00-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AA1">AA</term>,</hi>
@@ -1234,7 +1244,9 @@
                 </list>
             </div>
             <pb n="XXI" xml:id="pg_XXI" facs="0025"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1955-01-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-27T18:47:00-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="italic">Editor’s Note:</hi> The identification of the persons in
@@ -38875,7 +38887,9 @@
         </body>
         <back>
             <pb n="707" xml:id="pg_707" facs="0737"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1955-01-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-27T18:47:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Ackerson, Garret G., Jr., <ref target="#pg_648">648</ref>–<ref

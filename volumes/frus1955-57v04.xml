@@ -45,6 +45,10 @@
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1955-02-14T00:00:00-05:00" notAfter="1976-02-09T11:00:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -75,7 +79,9 @@
                         Affairs</hi></docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1955-02-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-02-09T11:00:00-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -184,7 +190,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1955-02-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-02-09T11:00:00-05:00">
                 <head>List of Sources</head>
                 <p>The principal source of documentation for this volume was the indexed central
                     (decimal) files of the Department of State. Documents from the central files
@@ -449,7 +457,9 @@
                 </list>
             </div>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1955-02-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-02-09T11:00:00-05:00">
                 <head>List of Abbreviations and Symbols</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AB1">AB</term>,</hi>
@@ -1099,7 +1109,9 @@
             </div>
             <pb n="[XVI]" xml:id="pg_XVI" facs="0020"/>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1955-02-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-02-09T11:00:00-05:00">
                 <head>List of Persons</head>
                 <p><hi rend="italic">Editor’s Note</hi>. The identification of the persons in this
                     list is generally limited to circumstances and positions under reference in this
@@ -37653,7 +37665,9 @@
             <pb n="[643]" xml:id="pg_643" facs="0671"/>
             <pb n="[644]" xml:id="pg_644" facs="0672"/>
             <pb n="645" xml:id="pg_645" facs="0673"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1955-02-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-02-09T11:00:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item><persName corresp="#p_ATC1">Achilles, Theodore C.</persName>, <ref
