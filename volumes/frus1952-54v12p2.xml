@@ -46,6 +46,10 @@
         <revisionDesc>
             <change>2011-03-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1952-01-04T15:00:00-05:00" notAfter="1954-12-24T12:00:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -82,7 +86,9 @@
                     D.C. 20402</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1952-01-04T15:00:00-05:00"
+                frus:doc-dateTime-max="1954-12-24T12:00:00-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -179,7 +185,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1952-01-04T15:00:00-05:00"
+                frus:doc-dateTime-max="1954-12-24T12:00:00-05:00">
                 <head>List of Unpublished Sources</head>
                 <list type="sources">
                     <item><hi rend="italic">Department of State</hi></item>
@@ -348,7 +356,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0014"/>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1952-01-04T15:00:00-05:00"
+                frus:doc-dateTime-max="1954-12-24T12:00:00-05:00">
                 <head>List of Abbreviations and Symbols</head>
                 <p><hi rend="italic">Editor’s Note</hi>—This list does not include standard
                     abbreviations in common usage; unusual abbreviations of rare occurrence which
@@ -40517,7 +40527,9 @@
             <pb n="[750]" xml:id="pg_750" facs="0770"/>
         </body>
         <back>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1952-01-04T15:00:00-05:00"
+                frus:doc-dateTime-max="1954-12-24T12:00:00-05:00">
                 <head>Index</head>
                 <pb n="751" xml:id="pg_751" facs="0771"/>
                 <list type="index">
