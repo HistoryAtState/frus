@@ -43,6 +43,10 @@
         <revisionDesc>
             <change>2009-03-24 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1958-01-02T00:00:00-05:00" notAfter="1960-12-29T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -76,7 +80,9 @@
                     SSOP, Washington, DC 20402–9328<lb/>ISBN 0–16–041836–4</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1958-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -432,7 +438,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0016"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0017"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1958-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                 <head>List of Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -701,7 +709,9 @@
                 </list>
             </div>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1958-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_ACS1">ACS</term>,</hi> Army Chief of
@@ -934,7 +944,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1958-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_ARTAM1">Abdul Rahman, Tunku ibni
@@ -33676,7 +33688,9 @@
         </body>
         <back>
             <pb n="593" xml:id="pg_593" facs="0619"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1958-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item><persName corresp="#p_ARTAM1">Abdul Rahman, Tunku ibni
