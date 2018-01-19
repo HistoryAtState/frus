@@ -43,6 +43,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1963-01-01T00:00:00-05:00" notAfter="1963-08-28T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -73,7 +77,9 @@
                     http://bookstore.gpo.gov/index.html</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1963-01-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-08-28T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -369,7 +375,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1963-01-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-08-28T23:59:59-05:00">
                 <head>List of Sources</head>
                 <p rend="center"><hi rend="strong">Unpublished Sources</hi></p>
                 <list type="sources">
@@ -813,7 +821,9 @@
                 </list>
             </div>
             <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1963-01-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-08-28T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AAA1">AAA</term>,</hi> anti-aircraft
@@ -1220,7 +1230,9 @@
             </div>
             <pb n="[XX]" xml:id="pg_XX" facs="0020"/>
             <pb n="XXI" xml:id="pg_XXI" facs="0021"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1963-01-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-08-28T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_ABGRH1">Anthis, Brigadier General
@@ -28081,7 +28093,9 @@
                             US action, introducing elements of a nuclear confrontation not now
                             present.</p>
                     </div>
-                    <div type="document" xml:id="d207" n="207" subtype="historical-document">
+                    <div type="document" xml:id="d207" n="207" subtype="historical-document"
+                        frus:doc-dateTime-min="1961-07-03T23:00:00-05:00"
+                        frus:doc-dateTime-max="1961-07-05T22:59:59-05:00">
                         <head>207. Report by the Joint Chiefs of Staff’s Special Assistant for
                             Counterinsurgency and Special Activities (<persName corresp="#p_KMGVH1"
                                 >Krulak</persName>)<note n="1" xml:id="d207fn1" type="source"
@@ -28105,8 +28119,11 @@
                                     (<persName corresp="#p_KJE1">Kennedy</persName> Library,
                                 National Security Files, Vietnam Country Series,
                                 7/1/63-7/20/63)</note></head>
-                        <dateline><hi rend="italic"><placeName>Washington</placeName>,
-                                    <date>undated</date>.</hi></dateline>
+                        <dateline><hi rend="italic"><placeName>Washington</placeName>, <date
+                                    notBefore="1961-07-04T00:00:00-04:00"
+                                    notAfter="1961-07-05T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</hi></dateline>
                         <p rend="center">VISIT TO VIETNAM</p>
                         <p>This reports on a visit to Vietnam, made during the period 25 June to 1
                             July 1963, to review progress in the counterinsurgency campaign.</p>
@@ -32299,7 +32316,9 @@
                             suggestion had merit.</p>
                     </div>
                     <pb n="531" xml:id="pg_531" facs="0557"/>
-                    <div type="document" xml:id="d239" n="239" subtype="historical-document">
+                    <div type="document" xml:id="d239" n="239" subtype="historical-document"
+                        frus:doc-dateTime-min="1963-07-26T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-07-26T23:59:59-05:00">
                         <head>239. Report From the Assistant Secretary of State for Public Affairs
                                 (<persName corresp="#p_MRJ1" type="from">Manning</persName>) to the
                                 President<note n="1" xml:id="d239fn1" type="source">Source:
@@ -32319,8 +32338,10 @@
                                 Press Secretary <persName corresp="#p_SP1">Salinger</persName>. A
                                 note on the covering memorandum indicates that the report was placed
                                 in the President’s weekend reading file.</note></head>
-                        <dateline><hi rend="italic"><placeName>Washington</placeName>,
-                                    <date>undated</date>.</hi></dateline>
+                        <dateline><hi rend="italic"><placeName>Washington</placeName>, <date
+                                    when="1963-07-26"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</hi></dateline>
                         <p rend="center">REPORT ON THE SAIGON PRESS SITUATION</p>
                         <p>The press problem in Viet-Nam is singular because of the singular nature
                             of the United States involvement in that country. Our involvement is so
@@ -41214,7 +41235,9 @@
         <back>
             <pb n="[676]" xml:id="pg_676" facs="0702"/>
             <pb n="677" xml:id="pg_677" facs="0703"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1963-01-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-08-28T23:59:59-05:00">
                 <head>Index</head>
                 <list>
                     <item>Acheson, Dean, <ref target="#pg_586">586</ref></item>

@@ -40,6 +40,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1961-01-17T00:00:00-05:00" notAfter="1963-12-30T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -70,7 +74,9 @@
                     20402-9328</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -488,7 +494,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0012"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0013"/>
-            <div type="section" subtype="additional-volumes" xml:id="volumes">
+            <div type="section" subtype="additional-volumes" xml:id="volumes"
+                frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>Kennedy Administration Volumes</head>
                 <p>Following is a list of the volumes in the <hi rend="italic">Foreign
                         Relations</hi> series for the administration of President John F. Kennedy.
@@ -619,7 +627,9 @@
             </div>
             <pb n="[XVI]" xml:id="pg_XVI" facs="0016"/>
             <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>Sources</head>
                 <p rend="flushleft"><hi rend="italic">Sources for the Foreign Relations
                     Series</hi></p>
@@ -1073,7 +1083,9 @@
             </div>
             <pb n="[XXIV]" xml:id="pg_XXIV" facs="0024"/>
             <pb n="XXV" xml:id="pg_XXV" facs="0025"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_ABM1">ABM</term>,</hi> anti-ballistic
@@ -1335,7 +1347,9 @@
             </div>
             <pb n="[XXVIII]" xml:id="pg_XXVIII" facs="0028"/>
             <pb n="XXIX" xml:id="pg_XXIX" facs="0029"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_ADG2">Acheson, Dean</persName>,</hi>
@@ -2279,7 +2293,9 @@
                         materials, see Fred Kaplan, <hi rend="italic">The Wizards of Armageddon</hi>
                         (New York: Simon and Schuster, 1983), pages 258-262.</p>
                 </div>
-                <div type="document" xml:id="d6" n="6" subtype="historical-document">
+                <div type="document" xml:id="d6" n="6" subtype="historical-document"
+                    frus:doc-dateTime-min="1961-01-25T10:15:00-05:00"
+                    frus:doc-dateTime-max="1961-01-27T23:59:59-05:00">
                     <head>6. Draft Paper by the Executive Assistant of the Operations Coordinating
                         Board (<persName>Johnson</persName>)<note n="1" xml:id="d6fn1" type="source"
                             >Source: Kennedy Library, National Security Files, Departments and
@@ -2288,7 +2304,11 @@
                             covering note from <persName corresp="#p_SBK1">Bromley Smith</persName>
                             to <persName corresp="#p_BMG2">Bundy</persName> is not
                         printed.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date
+                            notBefore="1961-01-25T10:15:00-05:00"
+                            notAfter="1961-01-27T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p rend="center">POSSIBLE ACTIONS TO SIMPLIFY POLICY PLANNING AND OPERATIONS
                         COORDINATION IN THE NATIONAL SECURITY AREA<note n="2" xml:id="d6fn2">On
                             January 1 President-elect <persName>Kennedy</persName> appointed
@@ -14140,7 +14160,9 @@
                     <closer><signed><persName corresp="#p_MNRS1"><hi rend="strong">Robert S.
                                     McNamara</hi></persName></signed></closer>
                 </div>
-                <div type="document" xml:id="d52" n="52" subtype="historical-document">
+                <div type="document" xml:id="d52" n="52" subtype="historical-document"
+                    frus:doc-dateTime-min="1961-10-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1961-10-27T23:59:59-05:00">
                     <head>52. Paper Issued by the Joint Chiefs of Staff<note n="0" xml:id="d52fn0"
                             type="source">Source: Washington National Records Center, <gloss
                                 target="#t_RG1">RG</gloss> 330, <gloss target="#t_OSD1">OSD</gloss>
@@ -14152,7 +14174,9 @@
                             distributed it for implementation to the Joint Chiefs, major commanders,
                             and to <gloss target="#t_CINCSAC1">CINCSAC</gloss> in his capacity as
                             Director of Strategic Target Planning.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-10-27"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p rend="center">National Targeting and Attack Policy For General War: Guidance
                         For the Preparation of the Single Integrated Operational Plan (<gloss
                             target="#t_SIOP1">SIOP</gloss>)</p>
@@ -23643,7 +23667,9 @@
                                     Taylor</hi></persName></signed><note n="6" xml:id="d102fn6"
                             >Printed from a copy that bears this typed signature.</note></closer>
                 </div>
-                <div type="document" xml:id="d103" n="103" subtype="historical-document">
+                <div type="document" xml:id="d103" n="103" subtype="historical-document"
+                    frus:doc-dateTime-min="1962-08-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-08-23T23:59:59-05:00">
                     <head>103. Memorandum for President <persName corresp="#p_KJF2"
                             >Kennedy</persName><note n="0" xml:id="d103fn0" type="source">Source:
                             National Defense University, <persName corresp="#p_TMD1"
@@ -23665,7 +23691,9 @@
                             the Soviet <gloss target="#t_MRBM1">MRBM</gloss>s, and nobody has
                             suggested exactly what additional we should do about
                         this.”</note></head>
-                    <dateline><placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-08-23"
+                            ana="#date_undated-inferred-from-document-content"
+                        >undated</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Report on Implications for U. S. Foreign and Defense Policy of Recent
@@ -38704,7 +38732,9 @@
         </body>
         <pb n="597" xml:id="pg_597" facs="0629"/>
         <back>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item><persName corresp="#p_ADG2">Acheson, Dean</persName>, <ref
