@@ -47,10 +47,16 @@
         <revisionDesc>
             <change>2012-10-04 PA/HO JW: Completed conversion of preview edition to TEI</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1953-02-01T00:00:00-05:00" notAfter="1963-12-20T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
-            <div type="section" xml:id="about-this-preview-edition" subtype="about-frus-series">
+            <div type="section" xml:id="about-this-preview-edition" subtype="about-frus-series"
+                frus:doc-dateTime-min="1953-02-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-20T23:59:59-05:00">
                 <head>About this Preview Edition</head>
                 <p>This is a preview of the electronic edition of <hi rend="italic">Foreign
                         Relations of the United States</hi>, 1961–1963, American Republics; Cuba
@@ -101,7 +107,9 @@
                         2012</hi>
                 </p>
             </div>
-            <div type="section" subtype="related-materials" xml:id="front-matter">
+            <div type="section" subtype="related-materials" xml:id="front-matter"
+                frus:doc-dateTime-min="1953-02-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-20T23:59:59-05:00">
                 <head>Front Matter</head>
                 <p>The booklet accompanying this volume can be downloaded as a <ref
                         target="https://s3.amazonaws.com/static.history.state.gov/frus/frus1961-63v10-12mSupp/pdf/booklet.pdf"

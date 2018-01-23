@@ -43,6 +43,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1961-01-10T00:00:00-05:00" notAfter="1963-12-31T17:00:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -74,7 +78,9 @@
                     20402-9398</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -412,7 +418,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0012"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0013"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                 <head>List of Sources</head>
                 <p rend="center"><hi rend="strong">Unpublished Sources</hi></p>
                 <list>
@@ -586,7 +594,9 @@
             </div>
             <pb n="[XVI]" xml:id="pg_XVI" facs="0016"/>
             <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AF1">AF</term>,</hi> Bureau of African
@@ -837,7 +847,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AD1">Acheson, Dean</persName>,</hi>
@@ -6002,15 +6014,18 @@
                                 by Embassy Warsaw.</item>
                         </list>
                     </div>
-                    <div type="document" xml:id="d46" n="46" subtype="historical-document">
+                    <div type="document" xml:id="d46" n="46" subtype="historical-document"
+                        frus:doc-dateTime-min="1961-10-13T00:00:00-05:00"
+                        frus:doc-dateTime-max="1961-10-13T23:59:59-05:00">
                         <head>46. National Security Council Record of Action No. 2439<note n="0"
                                 xml:id="d46fn0">Source: <persName corresp="#p_KJF1"
                                     >Kennedy</persName> Library, National Security Files, Countries
                                 Series, Yugoslavia. Secret. The decisions were taken during the
                                 491st meeting of the <gloss target="#t_NSC1">NSC</gloss> on October
                                 13.</note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date when="1961-10-13"
+                                ana="#date_undated-inferred-from-document-content"
+                                type="conversation-or-meeting-date">undated</date>.</dateline>
                         <p rend="center">POLICY TOWARD YUGOSLAVIA AND POLAND (“Review of Policy
                             Factors Concerning Licensing of Exports to Yugoslavia and Poland”)<note
                                 n="1" xml:id="d46fn1"><ref target="#d45">Document
@@ -13855,14 +13870,19 @@
                             Soviet-Yugoslav relations.</p>
                     </div>
                     <pb n="254" xml:id="pg_254" facs="0276"/>
-                    <div type="document" xml:id="d117" n="117" subtype="historical-document">
+                    <div type="document" xml:id="d117" n="117" subtype="historical-document"
+                        frus:doc-dateTime-min="1962-01-08T00:00:00-05:00"
+                        frus:doc-dateTime-max="1962-01-14T23:59:59-05:00">
                         <head>117. Memorandum From Secretary of State <persName corresp="#p_RD1"
                                 type="from">Rusk</persName> to President <persName corresp="#p_KJF1"
                                 type="to">Kennedy</persName><note n="0" xml:id="d117fn0">Source:
                                 Kennedy Library, National Security Files, Countries Series,
                                 Yugoslavia. Secret.</note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date
+                                notBefore="1962-01-08T00:00:00-05:00"
+                                notAfter="1962-01-14T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>U. S. Policy and Assistance Programs Toward Yugoslavia</item>
@@ -24623,7 +24643,9 @@
                             to reexamine this measure did not mean any yielding on substance at this
                             time.</p>
                     </div>
-                    <div type="document" xml:id="d226" n="226" subtype="historical-document">
+                    <div type="document" xml:id="d226" n="226" subtype="historical-document"
+                        frus:doc-dateTime-min="1962-07-19T00:00:00-05:00"
+                        frus:doc-dateTime-max="1962-07-19T23:59:59-05:00">
                         <head>226. Paper Prepared in the Department of State<note n="0"
                                 xml:id="d226fn0" type="source"><p>Source: Department of State,
                                         <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1"
@@ -24640,8 +24662,9 @@
                                     paper and “approved in general.” (Kennedy Library, National
                                     Security Files, <gloss target="#t_NSC1">NSC</gloss> SG Meetings
                                     May–August 1962)</p></note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date when="1962-07-19"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">UNITED STATES POSITION ON REVISING THE FINNISH PEACE
                             TREATY</p>
                         <p rend="flushleft"><hi rend="italic">Problem</hi></p>
@@ -40789,7 +40812,9 @@
         </body>
         <back>
             <pb n="769" xml:id="pg_769" facs="0791"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Abrams, Manuel, <ref target="#pg_627">627</ref></item>
