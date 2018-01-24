@@ -40,6 +40,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1961-01-03T15:15:00-05:00" notAfter="1963-12-30T16:53:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -71,7 +75,9 @@
                     0-16-045207-4</docImprint>
                 <pb n="III" xml:id="pg_III" facs="0003"/>
             </titlePage>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -501,7 +507,9 @@
             </div>
             <pb n="[XIV]" xml:id="pg_XIV" facs="0014"/>
             <pb n="XV" xml:id="pg_XV" facs="0015"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                 <head>List of Unpublished Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -958,7 +966,9 @@
                 </list>
             </div>
             <pb n="XXI" xml:id="pg_XXI" facs="0021"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AFAFN1">AF/AFN</term>,</hi> Office of
@@ -1317,7 +1327,9 @@
                 </list>
             </div>
             <pb n="XXV" xml:id="pg_XXV" facs="0025"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AAS1">Abdirashid Ali
@@ -1669,7 +1681,9 @@
                 <head>Africa</head>
                 <div type="chapter" xml:id="ch1">
                     <head>North Africa Region</head>
-                    <div type="document" xml:id="d1" n="1" subtype="historical-document">
+                    <div type="document" xml:id="d1" n="1" subtype="historical-document"
+                        frus:doc-dateTime-min="1961-04-30T23:00:00-05:00"
+                        frus:doc-dateTime-max="1961-05-31T22:59:59-05:00">
                         <head>1. Briefing Paper Prepared in the Department of State<note n="0"
                                 xml:id="d1fn0" type="source">Source: Department of State, Conference
                                 Files: Lot 66 D 110. Confidential. Drafted by <persName
@@ -1677,8 +1691,11 @@
                                 and <persName corresp="#p_WW3">Witman</persName>; and approved by
                                 Collopy. This paper was part of the Briefing Book prepared for the
                                 President's visit to France May 31-June 2, 1961.</note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date
+                                notBefore="1961-05-01T00:00:00-04:00"
+                                notAfter="1961-05-31T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">MOROCCO AND TUNISIA</p>
                         <p>In giving Morocco and Tunisia their independence in 1956, France expected
                             to remain in very close association with them. “Independence within
@@ -8046,7 +8063,9 @@
                             pages of source text not declassified.]</p>
                     </div>
                     <pb n="118" xml:id="pg_118" facs="0146"/>
-                    <div type="document" xml:id="d81" n="81" subtype="historical-document">
+                    <div type="document" xml:id="d81" n="81" subtype="historical-document"
+                        frus:doc-dateTime-min="1963-02-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-02-04T23:59:59-05:00">
                         <head>81. Memorandum From Secretary of State <persName corresp="#p_RD3"
                                 type="from">Rusk</persName> to President <persName corresp="#p_KJF2"
                                 type="to">Kennedy</persName><note n="0" xml:id="d81fn0"
@@ -8056,8 +8075,11 @@
                                     target="#t_NSAM1">NSAM</gloss>-21. Secret. Attached to the
                                 source text but not printed is a 14-page “Discussion of the Strategy
                                 and Action Plan for Algeria.”</note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date
+                                notBefore="1963-02-01T00:00:00-05:00"
+                                notAfter="1963-02-04T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Plan of Action for Algeria</item>
@@ -18880,7 +18902,9 @@
                         </list>
                         <p>[Here follows the body of the paper.]</p>
                     </div>
-                    <div type="document" xml:id="d211" n="211" subtype="historical-document">
+                    <div type="document" xml:id="d211" n="211" subtype="historical-document"
+                        frus:doc-dateTime-min="1962-08-31T23:00:00-05:00"
+                        frus:doc-dateTime-max="1962-09-20T19:00:00-05:00">
                         <head>211. Position Paper Prepared in the Office of the Secretary of
                                 State<note n="0" xml:id="d211fn0" type="source">Source: Department
                                 of State, Conference Files: Lot 65 D 533, CF 2160. Confidential.
@@ -18890,8 +18914,11 @@
                                 Secretary <persName corresp="#p_RD3">Rusk</persName>'s delegation
                                 attending the 17th Session of the U.N. General Assembly in
                                 September.</note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date
+                                notBefore="1962-09-01T00:00:00-04:00"
+                                notAfter="1962-09-20T20:00:00-04:00"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">SOVIET BLOC AIR PENETRATION OF UNDERDEVELOPED AREAS: AFRICA
                             AND LATIN AMERICA</p>
                         <p rend="flushleft"><hi rend="italic">Recommended US Position</hi></p>
@@ -19399,7 +19426,9 @@
                             >RAD</hi></persName></signed></closer>
                     </div>
                     <pb n="331" xml:id="pg_331" facs="0359"/>
-                    <div type="document" xml:id="d218" n="218" subtype="historical-document">
+                    <div type="document" xml:id="d218" n="218" subtype="historical-document"
+                        frus:doc-dateTime-min="1963-04-30T23:00:00-05:00"
+                        frus:doc-dateTime-max="1963-05-25T22:59:59-05:00">
                         <head>218. Paper Prepared in the Department of Defense<note n="0"
                                 xml:id="d218fn0" type="source">Source: Washington National Records
                                 Center, <gloss target="#t_RG1">RG</gloss> 330, OASD/<gloss
@@ -19414,8 +19443,11 @@
                                 would be used as a basis for discussion at a forthcoming conference
                                 to be held at Georgetown University on May 25. No record of the
                                 group's discussion has been found.</note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date
+                                notBefore="1963-05-01T00:00:00-04:00"
+                                notAfter="1963-05-25T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">THE STRATEGIC IMPORTANCE OF AFRICA</p>
                         <p rend="center">Working Paper for Discussion Group Meeting May 25, 1963</p>
                         <p rend="center">Abstract</p>
@@ -36916,7 +36948,9 @@
         <pb n="[662]" xml:id="pg_662" facs="0690"/>
         <pb n="663" xml:id="pg_663" facs="0691"/>
         <back>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Abbas, Ferhat, <ref target="#pg_21">21</ref>, <ref target="#pg_47"
