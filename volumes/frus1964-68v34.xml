@@ -43,6 +43,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1964-01-21T00:00:00-05:00" notAfter="1968-12-30T15:56:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -75,7 +79,9 @@
                     <lb/>For sale by the U.S. Government Printing Office<lb/>Superintendent of
                     Documents<lb/>Mail Stop: SSOP<lb/>Washington, DC 20402-9328</docImprint>
             </titlePage>
-            <div type="section" xml:id="summary" subtype="volume-summary">
+            <div type="section" xml:id="summary" subtype="volume-summary"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Summary</head>
                 <p>Foreword</p>
                 <p rend="center">Foreword</p>
@@ -582,7 +588,9 @@
                     burden of institutionalized or sanctioned racial discrimination.” (335)</p>
             </div>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -906,7 +914,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="section" xml:id="subseriesvols" subtype="additional-volumes">
+            <div type="section" xml:id="subseriesvols" subtype="additional-volumes"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>
                     <persName>Johnson</persName> Administration Volumes</head>
                 <p>Following is a list of the volumes in the <hi rend="italic">Foreign
@@ -1181,7 +1191,9 @@
             </div>
             <pb n="[XIV]" xml:id="pg_XIV" facs="0014"/>
             <pb n="XV" xml:id="pg_XV" facs="0015"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Sources</head>
                 <p>The editors of the <hi rend="italic">Foreign Relations series</hi> have complete
                     access to all the retired records and papers of the Department of State: the
@@ -1676,7 +1688,9 @@
                         York: Office of Public Information, United Nations, 1971)</item>
                 </list>
             </div>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -2066,7 +2080,9 @@
             </div>
             <pb n="[XXIV]" xml:id="pg_XXIV" facs="0024"/>
             <pb n="XXV" xml:id="pg_XXV" facs="0025"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -36421,7 +36437,9 @@
             </div>
         </body>
         <back>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Index</head>
                 <pb n="589" xml:id="pg_589" facs="0619"/>
                 <list type="index">

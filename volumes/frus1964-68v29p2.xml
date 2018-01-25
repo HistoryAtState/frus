@@ -43,6 +43,10 @@
         <revisionDesc>
             <change>2008-11-06 PA/HO JW:Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1964-01-10T00:00:00-05:00" notAfter="1969-01-11T02:31:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -76,7 +80,9 @@
                     Washington, DC 20402-9328</docImprint>
             </titlePage>
             <pb n="[III]" xml:id="pg_III" facs="0004"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -313,7 +319,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0011"/>
             <pb n="XI" xml:id="pg_XI" facs="0012"/>
-            <div type="section" xml:id="subseriesvols" subtype="additional-volumes">
+            <div type="section" xml:id="subseriesvols" subtype="additional-volumes"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <head>
                     <persName>Johnson</persName> Administration Volumes</head>
                 <p>Following is a list of the volumes in the <hi rend="italic">Foreign
@@ -520,7 +528,9 @@
                 </table>
             </div>
             <pb n="XIII" xml:id="pg_XIII" facs="0014"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <head>Sources</head>
                 <p>The <hi rend="italic">Foreign Relations</hi> statute requires that the published
                     record in the <hi rend="italic">Foreign Relations</hi> series include all
@@ -1007,7 +1017,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0020"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -1790,7 +1802,9 @@
             </div>
             <pb n="[XXIV]" xml:id="pg_XXIV" facs="0025"/>
             <pb n="XXV" xml:id="pg_XXV" facs="0026"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -2389,7 +2403,9 @@
                 </list>
             </div>
             <pb n="[XXX]" xml:id="pg_XXX" facs="0031"/>
-            <div type="section" xml:id="actionsstatement" subtype="notes">
+            <div type="section" xml:id="actionsstatement" subtype="notes"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <pb n="XXXI" xml:id="pg_XXXI" facs="0032"/>
                 <head>Note on U.S. Covert Actions</head>
                 <p>In compliance with the <hi rend="italic">Foreign Relations of the United
@@ -20476,7 +20492,9 @@
         </body>
         <pb n="317" xml:id="pg_317" facs="0353"/>
         <back>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <head>Index</head>
                 <p>
                     <hi rend="strong">References are to document numbers</hi>
