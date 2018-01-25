@@ -43,6 +43,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1967-11-25T00:00:00-05:00" notAfter="1968-12-31T16:42:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -75,7 +79,9 @@
                     the U.S. Government Printing Office<lb/>Superintendent of Documents, Main Stop:
                     SSOP<lb/>Washington, DC 20402-9328</docImprint>
             </titlePage>
-            <div type="section" subtype="historian-statement" xml:id="historian">
+            <div type="section" subtype="historian-statement" xml:id="historian"
+                frus:doc-dateTime-min="1967-11-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-31T16:42:00-05:00">
                 <head>Historian's Statement</head>
                 <p>The Department of State released today <ref target="frus1964-68v20">Foreign
                         Relations of the United States, 1964-1968, Volume XX</ref>, Arab-Israeli
@@ -151,7 +157,9 @@
                         target="frus1964-68v20">volume XX</ref> can be purchased from the Government
                     Printing Office.</p>
             </div>
-            <div type="section" xml:id="summary" subtype="volume-summary">
+            <div type="section" xml:id="summary" subtype="volume-summary"
+                frus:doc-dateTime-min="1967-11-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-31T16:42:00-05:00">
                 <head>Volume Summary</head>
                 <p>(This is not an official statement of policy by the Department of State; it is
                     intended only as a guide to the contents of this volume.)</p>
@@ -643,7 +651,9 @@
                     find peace in the Middle East, and highlighted the dangers that lay ahead.</p>
             </div>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1967-11-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-31T16:42:00-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -838,7 +848,9 @@
             </div>
             <pb n="[VIII]" xml:id="pg_VIII" facs="0008"/>
             <pb n="IX" xml:id="pg_IX" facs="0009"/>
-            <div type="section" xml:id="subseriesvols" subtype="additional-volumes">
+            <div type="section" xml:id="subseriesvols" subtype="additional-volumes"
+                frus:doc-dateTime-min="1967-11-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-31T16:42:00-05:00">
                 <head>
                     <persName>Johnson</persName> Administration Volumes</head>
                 <p>Following is a list of the volumes in the <hi rend="italic">Foreign
@@ -1085,7 +1097,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0012"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0013"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1967-11-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-31T16:42:00-05:00">
                 <head>
                     <hi rend="italic">Sources for the Foreign Relations Series</hi>
                 </head>
@@ -1622,7 +1636,9 @@
             </div>
             <pb n="[XX]" xml:id="pg_XX" facs="0020"/>
             <pb n="XXI" xml:id="pg_XXI" facs="0021"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1967-11-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-31T16:42:00-05:00">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -2035,7 +2051,9 @@
             </div>
             <pb n="[XXIV]" xml:id="pg_XXIV" facs="0024"/>
             <pb n="XXV" xml:id="pg_XXV" facs="0025"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1967-11-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-31T16:42:00-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -47206,7 +47224,9 @@
         </body>
         <pb n="749" xml:id="pg_749" facs="0777"/>
         <back>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1967-11-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-31T16:42:00-05:00">
                 <head>Index</head>
                 <p>
                     <hi rend="strong">Note: Numbers in this index refer to document numbers.</hi>
