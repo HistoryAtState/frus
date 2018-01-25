@@ -8989,7 +8989,9 @@
                     </p>
                 </div>
                 <pb n="122" xml:id="pg_122" facs="0150"/>
-                <div type="document" xml:id="d64" n="64" subtype="historical-document">
+                <div type="document" xml:id="d64" n="64" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-01-06T23:59:59-05:00"
+                    frus:doc-dateTime-max="1965-01-07T23:59:59-05:00">
                     <head>64. Paper Prepared in the Department of State<note n="1" xml:id="d64fn1"
                             type="source">Source: Department of State, <gloss target="#t_NEAIRN1"
                                 >NEA/IRN</gloss> Files: Lot 69 D 489, Iran 1965, POL 13–6 Religious
@@ -9004,7 +9006,11 @@
                             makes it clear that it was prepared in 1965.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1965-01-06T23:59:59-05:00"
+                            notAfter="1965-01-07T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p rend="center">THE SIGNIFICANCE OF <persName corresp="#p_KAR1"
                             >KHOMEINI</persName>'S OPPOSITION TO THE IRANIAN GOVERNMENT</p>
                     <p>The opposition of Ayatollah Maj Ruhollah Seyed Musavi Khomeini, the leading
@@ -24606,7 +24612,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="401" xml:id="pg_401" facs="0429"/>
-                <div type="document" xml:id="d219" n="219" subtype="historical-document">
+                <div type="document" xml:id="d219" n="219" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-08-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-08-15T23:59:59-05:00">
                     <head>219. Memorandum From Secretary of State <persName corresp="#p_RD3"
                             type="from">Rusk</persName> to President <persName type="to"
                             >Johnson</persName>
@@ -24617,7 +24625,9 @@
                                 >Document 218</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date when="1967-08-15"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Your Meetings with the Shah of Iran: Viet Nam</item>
