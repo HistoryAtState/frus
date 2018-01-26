@@ -9828,7 +9828,9 @@
                 <pb n="120" xml:id="pg_120" facs="0150"/>
                 <div type="chapter" xml:id="ch3">
                     <head>Communication Satellites</head>
-                    <div type="document" xml:id="d63" n="63" subtype="historical-document">
+                    <div type="document" xml:id="d63" n="63" subtype="historical-document"
+                        frus:doc-dateTime-min="1964-02-06T18:00:00-05:00"
+                        frus:doc-dateTime-max="1964-02-10T17:59:59-05:00">
                         <head>63. Position Paper for the United States Delegation<note n="1"
                                 xml:id="d63fn1" type="source">Source: National Archives and Records
                                 Administration, RG 59, Records of the Department of State, Central
@@ -9840,7 +9842,11 @@
                                     corresp="#p_CAJ1">Abram Chayes</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1964-02-07T00:00:00+01:00"
+                                notAfter="1964-02-10T23:59:59+01:00"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">MEETING WITH MEMBERS OF THE EUROPEAN<lb/>CONFERENCE ON
                             SATELLITE COMMUNICATIONS AND THE<lb/>CANADIANS</p>
                         <p rend="center">Rome—February 10, 1964</p>
@@ -19749,7 +19755,9 @@
                         </closer>
                     </div>
                     <pb n="295" xml:id="pg_295" facs="0325"/>
-                    <div type="document" xml:id="d166" n="166" subtype="historical-document">
+                    <div type="document" xml:id="d166" n="166" subtype="historical-document"
+                        frus:doc-dateTime-min="1967-06-23T00:00:00-05:00"
+                        frus:doc-dateTime-max="1967-06-23T23:59:59-05:00">
                         <head>166. Memorandum From Admiral <persName type="from">Lewis J.
                                 Strauss</persName> to Former President <persName type="to"
                                 >Eisenhower</persName>
@@ -19771,7 +19779,9 @@
                                 31 by Strauss has been found.</note>
                         </head>
                         <dateline>
-                            <date>Undated</date>.</dateline>
+                            <date when="1967-06-23"
+                                ana="#date_undated-inferred-from-document-content"
+                            >Undated</date>.</dateline>
                         <p rend="center">A PROPOSAL FOR OUR TIME</p>
                         <p>Attention to the debates in the United Nations since the end of May must
                             convince the observer that an end to the trouble in the Near East is not
