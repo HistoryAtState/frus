@@ -5833,10 +5833,16 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="38" xml:id="d38" subtype="historical-document">
+                <div type="document" n="38" xml:id="d38" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-12-29T05:00:00-05:00"
+                    frus:doc-dateTime-max="1965-01-06T23:59:59-05:00">
                     <head>38. Paper Prepared by the 303 Committee</head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1964-12-29T18:00:00+08:00"
+                            notAfter="1965-01-06T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-sibling-dates"
+                        >undated</date>.</dateline>
                     <p>[Source: Department of State, <gloss target="#t_INRIL1">INR/IL</gloss>
                         Historical Files, <gloss target="#t_EAP1">EAP</gloss> General, <gloss
                             target="#t_EA1">EA</gloss> Reviews, 1964 to 1966. Secret; Sensitive. 1
