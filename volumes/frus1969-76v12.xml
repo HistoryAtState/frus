@@ -43,6 +43,10 @@
         <revisionDesc>
             <change>2008-11-06 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1969-01-02T00:00:00-05:00" notAfter="1970-10-09T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -72,7 +76,9 @@
                     Documents, Mail Stop SSOP, Washington, DC 20402-9328</docImprint>
             </titlePage>
             <pb n="[III]" xml:id="pg_III" facs="0004"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1969-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1970-10-09T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -395,7 +401,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0011"/>
             <pb n="XI" xml:id="pg_XI" facs="0012"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1969-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1970-10-09T23:59:59-05:00">
                 <head>Sources</head>
                 <p rend="flushleft">
                     <hi rend="italic">Sources for the Foreign Relations Series</hi>
@@ -894,7 +902,9 @@
             </div>
             <pb n="[XVIII]" xml:id="pg_XVIII" facs="0019"/>
             <pb n="XIX" xml:id="pg_XIX" facs="0020"/>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1969-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1970-10-09T23:59:59-05:00">
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
                     <item>
@@ -1372,7 +1382,9 @@
             </div>
             <pb n="[XXII]" xml:id="pg_XXII" facs="0023"/>
             <pb n="XXIII" xml:id="pg_XXIII" facs="0024"/>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1969-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1970-10-09T23:59:59-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -1704,7 +1716,9 @@
             </div>
             <pb n="[XXVI]" xml:id="pg_XXVI" facs="0027"/>
             <pb n="XXVII" xml:id="pg_XXVII" facs="0028"/>
-            <div type="section" xml:id="actionsstatement" subtype="notes">
+            <div type="section" xml:id="actionsstatement" subtype="notes"
+                frus:doc-dateTime-min="1969-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1970-10-09T23:59:59-05:00">
                 <head>Note on U.S. Covert Actions</head>
                 <p>In compliance with the <hi rend="italic">Foreign Relations of the United
                         States</hi> statute that requires inclusion in the <hi rend="italic">Foreign
@@ -42825,7 +42839,9 @@
         </body>
         <back>
             <pb xml:id="pg_689" n="689" facs="0722"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1969-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1970-10-09T23:59:59-05:00">
                 <head>Index</head>
                 <p>
                     <hi rend="strong">Note: All references are to document numbers</hi>

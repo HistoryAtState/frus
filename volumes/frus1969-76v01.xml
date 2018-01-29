@@ -45,6 +45,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1967-07-29T00:00:00-05:00" notAfter="1972-11-04T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -81,7 +85,9 @@
                     512-1800<lb/>Fax: (202) 512-2250 Mail: Stop SSOP, Washington, DC
                     20402-0001<lb/>ISBN 0-16-051282-4; GPO Stock No. 044-000-02570-1</docImprint>
             </titlePage>
-            <div type="section" xml:id="pressrelease" subtype="press-release">
+            <div type="section" xml:id="pressrelease" subtype="press-release"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <head>Office of the Historian Press Release</head>
                 <p>
                     <hi rend="strong">Office of the Historian</hi>
@@ -143,7 +149,9 @@
                     will soon be available on the Office' s Web site. Copies of volume I can be
                     purchased from the Government Printing Office.</p>
             </div>
-            <div type="section" xml:id="summary" subtype="volume-summary">
+            <div type="section" xml:id="summary" subtype="volume-summary"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <head>Summary</head>
                 <p rend="center">Foreign Relations of the United States, 1969-1976, Volume I</p>
                 <p rend="center">Foundations of Foreign Policy, 1969-1972</p>
@@ -537,7 +545,9 @@
                     Secretary of State and National Security Advisor.</p>
             </div>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -806,7 +816,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <head>Sources</head>
                 <p rend="flushleft">
                     <hi rend="italic">Sources for the Foreign Relations Series</hi>
@@ -1211,7 +1223,9 @@
                     </item>
                 </list>
             </div>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
                 <head>Abbreviations</head>
                 <list type="terms">
@@ -1406,7 +1420,9 @@
                             <term xml:id="t_WW1">WW</term>,</hi> World War</item>
                 </list>
             </div>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
                 <head>Persons</head>
                 <list type="names">
@@ -20841,7 +20857,9 @@
         </body>
         <back>
             <pb n="427" xml:id="pg_427" facs="0447"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <head>Index</head>
                 <p>
                     <hi rend="strong">References are to document numbers</hi>

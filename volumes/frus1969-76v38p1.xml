@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1969-76v38p1">
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:dc="http://www.dublincore.org/documents/dcmi-namespace/" xml:id="frus1969-76v38p1">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -24,6 +25,10 @@
                 <p>Released in 2012 as print volume and PDF online at history.state.gov</p>
             </sourceDesc>
         </fileDesc>
+        <xenoData>
+            <dc:coverage notBefore="1973-01-25T00:00:00-05:00" notAfter="1976-10-03T16:18:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -64,7 +69,9 @@
                     (202) 512-1800<lb/> Fax: (202) 512-2250 Mail: Stop IDCC, Washington, DC
                     20402-0001</docImprint>
             </titlePage>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -308,7 +315,9 @@
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-            <div type="section" xml:id="toc" subtype="table-of-contents">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
@@ -340,7 +349,9 @@
             </div>
             <pb n="X" facs="0011" xml:id="pg_X"/>
             <gap quantity="1" unit="pages" reason="convenience"/>
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
@@ -587,7 +598,9 @@
                         Government Printing Office, 1975, 1977, 1979.</item>
                 </list>
             </div>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                 <pb n="XV" facs="0016" xml:id="pg_XV"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -1244,7 +1257,9 @@
                             <term xml:id="t_WW2_1">WWII</term>,</hi> World War II</item>
                 </list>
             </div>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Persons</head>
                 <list type="names">
@@ -25773,7 +25788,9 @@
             </div>
         </body>
         <back>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                 <pb n="483" facs="0000" xml:id="pg_483"/>
                 <head>Index</head>
                 <p>
