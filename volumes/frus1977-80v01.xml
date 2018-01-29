@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1977-80v01">
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:dc="http://www.dublincore.org/documents/dcmi-namespace/" xml:id="frus1977-80v01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,6 +26,10 @@
                 <p>Released in 2015 as printed book.</p>
             </sourceDesc>
         </fileDesc>
+        <xenoData>
+            <dc:coverage notBefore="1975-05-28T00:00:00-05:00" notAfter="1981-01-14T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
 
     <text>
@@ -61,7 +66,9 @@
                     20402-0001</docImprint>
             </titlePage>
 
-            <div type="section" xml:id="aboutseries" subtype="about-frus-series">
+            <div type="section" xml:id="aboutseries" subtype="about-frus-series"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -255,7 +262,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">Structure and Scope of the <hi rend="roman">Foreign
@@ -378,7 +387,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="toc" subtype="table-of-contents">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Contents</head>
                 <list>
@@ -415,7 +426,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="XV" facs="0016" xml:id="pg_XV"/>
                 <head>Sources</head>
                 <p>In addition to the paper files cited below, a growing number of documents are
@@ -737,7 +750,9 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -1562,7 +1577,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="XXV" facs="0026" xml:id="pg_XXV"/>
                 <head>Persons</head>
                 <list type="names">
@@ -43828,7 +43845,9 @@
         </body>
 
         <back>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="817" facs="0858" xml:id="pg_817"/>
                 <head>Index</head>
                 <p>

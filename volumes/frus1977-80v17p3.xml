@@ -34,6 +34,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
+        <xenoData>
+            <dc:coverage notBefore="1977-01-12T10:43:00-05:00" notAfter="1981-01-06T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -60,7 +64,9 @@
                     DC area (202) 512-1800 Fax: (202) 512-2250 Mail: Stop IDCC, Washington, DC
                     20402-0001</docImprint>
             </titlePage>
-            <div xml:id="pressrelease" type="section" subtype="press-release">
+            <div xml:id="pressrelease" type="section" subtype="press-release"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <head>Press Release</head>
                 <p rend="right">
                     <hi rend="strong">Office of the Historian<lb/>Bureau of Public
@@ -86,7 +92,9 @@
                     202-512-1800). For further information, contact <ref
                         target="mailto:history@state.gov">history@state.gov</ref>. </p>
             </div>
-            <div type="section" xml:id="AbouttheSeries" subtype="about-frus-series">
+            <div type="section" xml:id="AbouttheSeries" subtype="about-frus-series"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -265,7 +273,9 @@
                 </closer>
             </div>
 
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <pb n="VII" facs="0008" xml:id="pg_VII"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">Structure and Scope of the <hi rend="roman">Foreign
@@ -357,7 +367,9 @@
                 </closer>
             </div>
 
-            <div type="section" xml:id="toc" subtype="table-of-contents">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
@@ -414,7 +426,9 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <hi rend="roman">Foreign Relations</hi>,
@@ -523,7 +537,9 @@
                         1970–1977.</item>
                 </list>
             </div>
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Abbreviations and Terms</head>
                 <list>
@@ -761,7 +777,9 @@
                 </list>
                 <pb n="XVI" facs="0017" xml:id="pg_XVI"/>
             </div>
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
                 <head>Persons</head>
                 <list>
