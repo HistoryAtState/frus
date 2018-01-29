@@ -45,6 +45,10 @@
             <change>2008-12-30 PA/HO JW: Modified pb placement to correspond to revised
                 historicaldocuments.xq</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1973-01-05T00:00:00-05:00" notAfter="1977-01-03T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -66,7 +70,9 @@
                     <docDate>2008</docDate>
                 </docImprint>
             </titlePage>
-            <div xml:id="preface" type="section" subtype="preface">
+            <div xml:id="preface" type="section" subtype="preface"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-03T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -293,7 +299,9 @@
                         Affairs<lb/>December 2008</signed>
                 </closer>
             </div>
-            <div xml:id="sources" type="section" subtype="sources">
+            <div xml:id="sources" type="section" subtype="sources"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-03T23:59:59-05:00">
                 <head>Sources</head>
                 <p rend="sourceheadcenterboldbig">Unpublished Sources</p>
                 <p rend="sourcearchiveboldbig">Department of State, Washington, D.C.</p>
@@ -433,7 +441,9 @@
                         <hi rend="italic">Weekly Compilation of Presidential Documents,
                         1973–1976</hi>.</p>
             </div>
-            <div xml:id="terms" type="section" subtype="index">
+            <div xml:id="terms" type="section" subtype="index"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-03T23:59:59-05:00">
                 <head>List of Terms &amp; Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -1867,7 +1877,9 @@
                         Time)</item>
                 </list>
             </div>
-            <div xml:id="persons" type="section" subtype="index">
+            <div xml:id="persons" type="section" subtype="index"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-03T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item>

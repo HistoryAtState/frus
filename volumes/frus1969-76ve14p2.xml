@@ -39,6 +39,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
+        <xenoData>
+            <dc:coverage notBefore="1973-01-23T00:00:00-05:00" notAfter="1976-12-29T23:59:59-05:00"
+            />
+        </xenoData>
     </teiHeader>
 
     <text>
@@ -75,7 +79,9 @@
                 </docImprint>
             </titlePage>
 
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -263,7 +269,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="toc" subtype="table-of-contents">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
@@ -293,7 +301,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
@@ -600,7 +610,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
                 <head>Abbreviations and Terms</head>
                 <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
                 <list type="terms">
@@ -1486,7 +1498,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
                 <pb n="XXIII" facs="0024" xml:id="pg_XXIII"/>
                 <head>Persons</head>
                 <list type="simple">

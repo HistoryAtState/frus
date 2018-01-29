@@ -38,6 +38,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
+        <xenoData>
+            <dc:coverage notBefore="1969-01-28T00:00:00-05:00" notAfter="1973-09-24T17:16:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
 
@@ -65,7 +69,9 @@
                     <docDate>2015</docDate>
                 </docImprint>
             </titlePage>
-            <div type="section" xml:id="pressrelease" subtype="press-release">
+            <div type="section" xml:id="pressrelease" subtype="press-release"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <head>Press Release</head>
                 <p rend="right">
                     <hi rend="strong">Office of the Historian<lb/>Bureau of Public Affairs
@@ -101,7 +107,9 @@
                     Relations series, at (202) 955–0202 or by e-mail to <ref
                         target="mailto:history@state.gov">history@state.gov</ref>.</p>
             </div>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -411,7 +419,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="toc" subtype="table-of-contents">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Contents</head>
                 <list>
@@ -471,7 +481,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources" subtype="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
@@ -816,7 +828,9 @@
                     Brown, 1979.</p>
             </div>
 
-            <div type="section" xml:id="terms" subtype="index">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -1682,7 +1696,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="persons" subtype="index">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <pb n="XXV" facs="0026" xml:id="pg_XXV"/>
                 <head>Persons</head>
                 <list type="names">
@@ -2554,7 +2570,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" subtype="notes" xml:id="notes">
+            <div type="section" subtype="notes" xml:id="notes"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <pb n="XXXIII" facs="0034" xml:id="pg_XXXIII"/>
                 <head>Note on U.S. Covert Actions</head>
                 <p>In compliance with the <hi rend="italic">Foreign Relations of the United States
