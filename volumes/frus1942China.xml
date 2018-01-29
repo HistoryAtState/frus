@@ -69,6 +69,10 @@
             <change>2015-03-06 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <dc:coverage notBefore="1941-12-27T18:00:00-05:00" notAfter="1943-01-06T18:00:00-05:00"
+            />
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -93,7 +97,9 @@
                     Office<lb/>Washington 25, D.C. - Price $3.75 (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface" subtype="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1941-12-27T18:00:00-05:00"
+                frus:doc-dateTime-max="1943-01-06T18:00:00-05:00">
                 <head>Preface</head>
                 <p>The present volume of <hi rend="italic">Foreign Relations of the United
                         States</hi> is the first in a special series of <hi rend="italic">Foreign
@@ -45269,7 +45275,9 @@
             <pb n="[763]" xml:id="pg_763" facs="0773"/>
             <pb n="[764]" xml:id="pg_764" facs="0774"/>
             <pb n="765" xml:id="pg_765" facs="0775"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1941-12-27T18:00:00-05:00"
+                frus:doc-dateTime-max="1943-01-06T18:00:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Afghanistan, <ref target="#pg_196">196</ref>, <ref target="#pg_197"
