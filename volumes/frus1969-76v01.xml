@@ -6407,7 +6407,9 @@
                         Files, Office of Presidential Papers and Archives, Daily Diary)</p>
                 </div>
                 <pb n="110" xml:id="pg_110" facs="0130"/>
-                <div type="document" xml:id="d39" n="39" subtype="historical-document">
+                <div type="document" xml:id="d39" n="39" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-09-02T13:45:00-05:00"
+                    frus:doc-dateTime-max="1969-10-14T22:59:59-05:00">
                     <head>39. Memorandum From the President's Assistant for National Security
                         Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>) to
                         President <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -6424,7 +6426,11 @@
                             Mitchell for their comments. (Ibid.)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1969-09-02T11:45:00-07:00"
+                            notAfter="1969-10-14T23:59:59-04:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>A Strategic Overview</item>
@@ -9567,7 +9573,9 @@
                     </closer>
                 </div>
                 <pb n="174" xml:id="pg_174" facs="0194"/>
-                <div type="document" xml:id="d54" n="54" subtype="historical-document">
+                <div type="document" xml:id="d54" n="54" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-01-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-01-23T23:59:59-05:00">
                     <head>54. Paper Prepared in the National Security Council Staff<note n="1"
                             xml:id="d54fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG1">RG</gloss> 59, Policy Planning Staff Files: Lot 77 D
@@ -9588,7 +9596,11 @@
                             issues”?</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1970-01-22T00:00:00-05:00"
+                            notAfter="1970-01-23T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p rend="center">THE <persName corresp="#p_NRM1">NIXON</persName> DOCTRINE FOR
                         ASIA: SOME HARD ISSUES</p>
                     <p>It is useful at the outset to recognize that there is no such thing as a
