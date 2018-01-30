@@ -8029,7 +8029,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d29" n="29" subtype="historical-document">
+                    <div type="document" xml:id="d29" n="29" subtype="historical-document"
+                        frus:doc-dateTime-min="1969-03-27T00:00:00-05:00"
+                        frus:doc-dateTime-max="1969-03-30T23:59:59-05:00">
                         <pb n="100" xml:id="pg_100" facs="0133"/>
                         <head>29. Memorandum From the President's Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
@@ -8044,7 +8046,11 @@
                                 memorandum.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1969-03-27T00:00:00-05:00"
+                                notAfter="1969-03-30T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Conversation Between Senator Percy and Ambassador <persName
@@ -9735,7 +9741,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d35" n="35" subtype="historical-document">
+                    <div type="document" xml:id="d35" n="35" subtype="historical-document"
+                        frus:doc-dateTime-min="1969-04-12T00:00:00-05:00"
+                        frus:doc-dateTime-max="1969-04-12T23:59:59-05:00">
                         <pb n="128" xml:id="pg_128" facs="0161"/>
                         <head>35. Talking Points<note n="1" xml:id="d35fn1" type="source">Source:
                                 National Archives, <persName corresp="#p_NRM1">Nixon</persName>
@@ -9771,7 +9779,9 @@
                                 text)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1969-04-12"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">TALKING POINTS ON VIETNAM FOR DISCUSSION WITH SOVIET
                             AMBASSADOR <persName corresp="#p_DAF1">Dobrynin</persName>
                         </p>
@@ -13760,7 +13770,9 @@
                         </closer>
                     </div>
                     <pb n="192" xml:id="pg_192" facs="0225"/>
-                    <div type="document" xml:id="d63" n="63" subtype="historical-document">
+                    <div type="document" xml:id="d63" n="63" subtype="historical-document"
+                        frus:doc-dateTime-min="1969-07-02T00:00:00-05:00"
+                        frus:doc-dateTime-max="1969-07-02T23:59:59-05:00">
                         <head>63. Memorandum From the President's Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
                             to President <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -13788,7 +13800,9 @@
                                 position was not approved.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1969-07-02"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Middle East—Reply to Soviet Counterproposal</item>
@@ -23060,7 +23074,9 @@
                             California we would arrange a schedule for our meetings.</p>
                     </div>
                     <pb n="345" xml:id="pg_345" facs="0378"/>
-                    <div type="document" xml:id="d113" n="113" subtype="historical-document">
+                    <div type="document" xml:id="d113" n="113" subtype="historical-document"
+                        frus:doc-dateTime-min="1969-12-29T00:00:00-05:00"
+                        frus:doc-dateTime-max="1969-12-31T23:59:59-05:00">
                         <head>113. Memorandum From <persName corresp="#p_SHH1" type="from">Helmut
                                 Sonnenfeldt</persName> of the National Security Council Staff to the
                             President's Assistant for National Security Affairs (<persName
@@ -23079,7 +23095,10 @@
                                 December 31.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated.</date>
+                            <placeName>Washington</placeName>, <date when="1969-12"
+                                notBefore="1969-12-29T00:00:00-05:00"
+                                notAfter="1969-12-31T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content">undated.</date>
                         </dateline>
                         <p rend="flushleft">
                             <persName corresp="#p_KHA1">Henry</persName>:</p>
@@ -29400,7 +29419,9 @@
                             interests for the Middle East to become an area of confrontation between
                             us.”</p>
                     </div>
-                    <div type="document" xml:id="d149" n="149" subtype="historical-document">
+                    <div type="document" xml:id="d149" n="149" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-04-06T00:00:00-05:00"
+                        frus:doc-dateTime-max="1970-04-06T23:59:59-05:00">
                         <head>149. Memorandum From the President's Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
                             to President <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -29422,7 +29443,9 @@
                                 unsigned copy.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1970-04-06"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Exploitation of Tensions in the Soviet Union and Eastern
@@ -30405,7 +30428,9 @@
                             Sino-Soviet relations.</p>
                     </div>
                     <pb n="473" xml:id="pg_473" facs="0506"/>
-                    <div type="document" xml:id="d153" n="153" subtype="historical-document">
+                    <div type="document" xml:id="d153" n="153" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-04-24T00:00:00-05:00"
+                        frus:doc-dateTime-max="1970-04-24T23:59:59-05:00">
                         <head>153. Memorandum From the President's Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
                             to President <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -30419,7 +30444,9 @@
                                 memorandum is an uninitialed copy.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1970-04-24"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>
@@ -35548,7 +35575,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d182" n="182" subtype="historical-document">
+                    <div type="document" xml:id="d182" n="182" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-07-16T23:00:00-05:00"
+                        frus:doc-dateTime-max="1970-07-20T09:30:00-05:00">
                         <head>182. Memorandum From the President's Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
                             to President <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -35560,7 +35589,11 @@
                                 information.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1970-07-17T00:00:00-04:00"
+                                notAfter="1970-07-20T10:30:00-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>The Moscow Communiqué on <persName corresp="#p_NGA1"
@@ -37142,7 +37175,9 @@
                             Coast Guard has returned to normal operations and U.S. Navy P–3 aircraft
                             have been released from surveillance/patrol flights.” (Ibid.)</p>
                     </div>
-                    <div type="document" xml:id="d194" n="194" subtype="historical-document">
+                    <div type="document" xml:id="d194" n="194" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-08-04T00:00:00-05:00"
+                        frus:doc-dateTime-max="1970-08-04T23:59:59-05:00">
                         <head>194. Memorandum From the President's Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
                             to President <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -37161,7 +37196,9 @@
                                 Pres.” (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1970-08-04"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>“Understandings” with Soviet Union at the Time of the Cuban
@@ -37787,7 +37824,9 @@
                                 put forward in reaction to this communication.</p>
                         </frus:attachment>
                     </div>
-                    <div type="document" xml:id="d199" n="199" subtype="historical-document">
+                    <div type="document" xml:id="d199" n="199" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-08-26T00:00:00-05:00"
+                        frus:doc-dateTime-max="1970-08-26T23:59:59-05:00">
                         <head>199. Memorandum From the President's Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
                             to President <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -37813,7 +37852,9 @@
                                 ways in which to do this.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1970-08-26"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Possible Meeting with <persName corresp="#p_KAN1"
@@ -39515,7 +39556,9 @@
                         </frus:attachment>
                     </div>
                     <pb n="632" xml:id="pg_632" facs="0665"/>
-                    <div type="document" xml:id="d211" n="211" subtype="historical-document">
+                    <div type="document" xml:id="d211" n="211" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-09-22T00:00:00-05:00"
+                        frus:doc-dateTime-max="1970-09-22T23:59:59-05:00">
                         <head>211. Paper Prepared by the Chairman of the Joint Chiefs of Staff
                                 (<persName corresp="#p_MTH1">Moorer</persName>)<note n="1"
                                 xml:id="d211fn1" type="source">Source: National Archives, <persName
@@ -39529,7 +39572,9 @@
                                 September 23.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1970-09-22"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Assessment of Soviet Military Activities</item>
