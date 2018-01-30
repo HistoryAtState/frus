@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
-    xmlns:dc="http://www.dublincore.org/documents/dcmi-namespace/" xml:id="frus1969-76v38p1">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1969-76v38p1">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,8 +25,8 @@
             </sourceDesc>
         </fileDesc>
         <xenoData>
-            <dc:coverage notBefore="1973-01-25T00:00:00-05:00" notAfter="1976-10-03T16:18:00-05:00"
-            />
+            <frus:coverage notBefore="1973-01-25T00:00:00-05:00"
+                notAfter="1976-10-03T16:18:00-05:00"/>
         </xenoData>
     </teiHeader>
     <text>

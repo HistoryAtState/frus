@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
-    xmlns:dc="http://www.dublincore.org/documents/dcmi-namespace/" xml:id="frus1955-57v23p1">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1955-57v23p1">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -41,8 +40,8 @@
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
         <xenoData>
-            <dc:coverage notBefore="1955-01-04T16:13:00-05:00" notAfter="1957-12-31T23:59:59-05:00"
-            />
+            <frus:coverage notBefore="1955-01-04T16:13:00-05:00"
+                notAfter="1957-12-31T23:59:59-05:00"/>
         </xenoData>
     </teiHeader>
     <text>

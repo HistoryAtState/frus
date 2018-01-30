@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xmlns:dc="http://www.dublincore.org/documents/dcmi-namespace/"
     xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1969-76ve05p2">
     <teiHeader>
         <fileDesc>
@@ -47,8 +46,8 @@
             <change>2009-03-17 PA/HO JW: Reviewed and posted on history.state.gov</change>
         </revisionDesc>
         <xenoData>
-            <dc:coverage notBefore="1969-02-17T00:00:00-05:00" notAfter="1973-01-05T23:59:59-05:00"
-            />
+            <frus:coverage notBefore="1969-02-17T00:00:00-05:00"
+                notAfter="1973-01-05T23:59:59-05:00"/>
         </xenoData>
     </teiHeader>
     <text>
