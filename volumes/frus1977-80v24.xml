@@ -27,6 +27,11 @@
                 <p>Released in 2017</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
+        </encodingDesc>
         <revisionDesc>
             <change>2017-10-25: Created TEI shell</change>
         </revisionDesc>

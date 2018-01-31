@@ -25,6 +25,11 @@
                 <p>Released in 2015 as printed book.</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
+        </encodingDesc>
         <xenoData>
             <frus:coverage notBefore="1975-05-28T00:00:00-05:00"
                 notAfter="1981-01-14T23:59:59-05:00"/>
