@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:dc="http://www.dublincore.org/documents/dcmi-namespace/"
-    xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:functx="http://www.functx.com"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="3.0">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:functx="http://www.functx.com" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    exclude-result-prefixes="xs" version="3.0">
 
     <xsl:template match="@* | node()">
         <xsl:copy>
@@ -11,8 +10,8 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:variable name="volume-dates-min" select="//dc:coverage/@notBefore"/>
-    <xsl:variable name="volume-dates-max" select="//dc:coverage/@notAfter"/>
+    <xsl:variable name="volume-dates-min" select="//frus:coverage/@notBefore"/>
+    <xsl:variable name="volume-dates-max" select="//frus:coverage/@notAfter"/>
 
     <!-- Add volumes dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to //front//div[@type="section"] -->
 
