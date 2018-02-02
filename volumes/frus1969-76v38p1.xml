@@ -25372,7 +25372,9 @@
                     <p>Most of the aid goes to Israel, Iran, and Saudi Arabia—for
                         infrastructure—leaving only bits and pieces for the rest of the world.</p>
                 </div>
-                <div type="document" n="84" xml:id="d84" subtype="historical-document">
+                <div type="document" n="84" xml:id="d84" subtype="historical-document"
+                    frus:doc-dateTime-min="1977-01-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1977-01-20T23:59:59-05:00">
                     <head>84. Interview With Secretary of State <persName corresp="#p_KHA_1"
                             >Kissinger</persName>
                         <note n="1" type="source" xml:id="d84fn1">Source: Department of State <hi
@@ -25388,7 +25390,9 @@
                                 Times</hi>, January 20, 1977, p. 16)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date when="1977-01-20"
+                            ana="#date_undated-inferred-from-document-content"
+                            type="publication-date">undated</date>.</dateline>
                     <p>Q. <hi rend="italic">A number of serious charges have been made against you,
                             and the Times thought you should have the opportunity to answer them.
                             The first charge is that in a solemn world you tried to be funny.</hi>
