@@ -2969,7 +2969,9 @@
                         </closer>
                     </div>
 
-                    <div type="document" n="2" xml:id="d2" subtype="historical-document">
+                    <div type="document" n="2" xml:id="d2" subtype="historical-document"
+                        frus:doc-dateTime-min="1976-08-31T23:00:00-05:00"
+                        frus:doc-dateTime-max="1976-10-07T01:59:59-05:00">
                         <pb n="4" facs="0037" xml:id="pg_4"/>
                         <head>2. Paper Prepared by <persName corresp="#p_VCR_1">Cyrus
                                 Vance</persName> for Governor <persName corresp="#p_CJE_1"
@@ -2996,7 +2998,11 @@
                                 “C.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1976-09-01T00:00:00-04:00"
+                                notAfter="1976-10-06T23:59:59-07:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <p rend="center">THE UNITED STATES AND GREECE, TURKEY AND CYPRUS</p>
                         <p rend="sectiontitleital">
@@ -19812,7 +19818,9 @@
                             Top Secret; Codeword. Four pages not declassified.]</p>
                     </div>
 
-                    <div type="document" n="86" xml:id="d86" subtype="historical-document">
+                    <div type="document" n="86" xml:id="d86" subtype="historical-document"
+                        frus:doc-dateTime-min="1977-01-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1977-02-11T23:59:59-05:00">
                         <head>86. Letter From Turkish Prime Minister Demirel to President <persName
                                 corresp="#p_CJE_1">Carter</persName>
                             <note n="1" xml:id="d86fn1">Source: Carter Library, National Security
@@ -19823,7 +19831,11 @@
                                 February 11.</note>
                         </head>
                         <dateline>
-                            <placeName>Ankara</placeName>, <date>undated</date>
+                            <placeName>Ankara</placeName>, <date
+                                notBefore="1977-01-31T00:00:00-05:00"
+                                notAfter="1977-02-11T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. President,</salute>
@@ -21318,7 +21330,9 @@
                         <p>[Omitted here is the body of the memorandum.]</p>
                     </div>
 
-                    <div type="document" n="96" xml:id="d96" subtype="historical-document">
+                    <div type="document" n="96" xml:id="d96" subtype="historical-document"
+                        frus:doc-dateTime-min="1977-06-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1977-06-09T23:59:59-05:00">
                         <pb n="307" facs="0340" xml:id="pg_307"/>
                         <head>96. Briefing Paper Prepared by <persName corresp="#p_HPB_1">Paul
                                 Henze</persName> of the National Security Council Staff<note n="1"
@@ -21335,7 +21349,8 @@
                                 covering memorandum. (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1977-06-09"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                         <p rend="center">
                             <persName corresp="#p_EB_1">BULENT ECEVIT</persName>
@@ -39024,7 +39039,9 @@
                                 >handling restriction not declassified</hi>]</p>
                     </div>
 
-                    <div type="document" n="199" xml:id="d199" subtype="historical-document">
+                    <div type="document" n="199" xml:id="d199" subtype="historical-document"
+                        frus:doc-dateTime-min="1980-03-18T00:00:00-05:00"
+                        frus:doc-dateTime-max="1980-03-18T23:59:59-05:00">
                         <head>199. Discussion Paper Prepared for a Policy Review Committee
                                 Meeting<note n="1" xml:id="d199fn1">Source: Carter Library, Donated
                                 Material, Papers of <persName corresp="#p_MWF_1">Walter F.
@@ -39039,7 +39056,8 @@
                                 meeting was scheduled for March 19 at 3 p.m. (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1980-03-18"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                         <p rend="center">DISCUSSION PAPER—PRC MEETING ON GREEK REINTEGRATION</p>
                         <p rend="sectiontitleital">
@@ -39370,7 +39388,9 @@
                                     >Document 201</ref>.</note> (S)</p>
                     </div>
 
-                    <div type="document" n="201" xml:id="d201" subtype="historical-document">
+                    <div type="document" n="201" xml:id="d201" subtype="historical-document"
+                        frus:doc-dateTime-min="1980-04-04T00:00:00-05:00"
+                        frus:doc-dateTime-max="1980-05-01T22:59:59-05:00">
                         <head>201. Paper Prepared in the Bureau of European Affairs, Department of
                                 State<note n="1" xml:id="d201fn1">Source: Carter Library, National
                                 Security Affairs, Staff Material, Horn/Special, Box 5, 5/80. Bremer
@@ -39389,7 +39409,10 @@
                                 needs to go to ZB.” (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1980-04-04T00:00:00-05:00"
+                                notAfter="1980-05-01T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -39527,7 +39550,9 @@
                             campaign issues in the elections.</p>
                     </div>
 
-                    <div type="document" n="202" xml:id="d202" subtype="historical-document">
+                    <div type="document" n="202" xml:id="d202" subtype="historical-document"
+                        frus:doc-dateTime-min="1980-05-14T00:00:00-05:00"
+                        frus:doc-dateTime-max="1980-05-14T23:59:59-05:00">
                         <head>202. Paper Prepared in the Bureau of European Affairs, Department of
                                 State<note n="1" xml:id="d202fn1">Source: National Archives, <gloss
                                     target="#t_RG_1">RG</gloss> 59, Office of the Under Secretary of
@@ -39547,7 +39572,8 @@
                                     target="#d201fn1">footnote 1, Document 201</ref>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1980-05-14"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                         <p rend="center">THE NEW GREEK GOVERNMENT: IMPLICATIONS FOR <gloss
                                 target="#t_US_1">U.S.</gloss> INTERESTS</p>
