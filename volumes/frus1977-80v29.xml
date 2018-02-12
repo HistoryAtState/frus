@@ -10309,7 +10309,9 @@
                     </div>
 
                     <pb n="128" facs="0163" xml:id="pg_128"/>
-                    <div type="document" n="31" xml:id="d31" subtype="historical-document">
+                    <div type="document" n="31" xml:id="d31" subtype="historical-document"
+                        frus:doc-dateTime-min="1977-03-29T00:00:00-05:00"
+                        frus:doc-dateTime-max="1977-03-31T23:59:59-05:00">
                         <head>31. Briefing Report Prepared in the Department of State<note n="1"
                                 xml:id="d31fn1" type="source">Source: National Archives, <gloss
                                     target="#t_RG_1">RG</gloss> 59, Official and Personal Files of
@@ -10326,7 +10328,11 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1977-03-29T00:00:00-05:00"
+                                    notAfter="1977-03-31T23:59:59-05:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>
                             </dateline>
                         </opener>
                         <p rend="center">
@@ -18913,7 +18919,9 @@
                     </div>
 
                     <pb n="273" facs="0308" xml:id="pg_273"/>
-                    <div type="document" n="92" xml:id="d92" subtype="historical-document">
+                    <div type="document" n="92" xml:id="d92" subtype="historical-document"
+                        frus:doc-dateTime-min="1977-08-28T23:00:00-05:00"
+                        frus:doc-dateTime-max="1977-09-02T22:59:59-05:00">
                         <head>92. Memorandum From the Assistant to the President (<persName
                                 corresp="#p_JH_1">Jordan</persName>) to President <persName
                                 corresp="#p_CJE_1">Carter</persName>
@@ -18927,7 +18935,10 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1977-08-29T00:00:00-04:00"
+                                    notAfter="1977-09-02T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-sibling-dates">undated</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -20479,7 +20490,9 @@
                     </div>
 
                     <pb n="298" facs="0333" xml:id="pg_298"/>
-                    <div type="document" n="103" xml:id="d103" subtype="historical-document">
+                    <div type="document" n="103" xml:id="d103" subtype="historical-document"
+                        frus:doc-dateTime-min="1977-09-26T09:30:00-05:00"
+                        frus:doc-dateTime-max="1977-09-26T22:59:59-05:00">
                         <head>103. Memorandum From the Assistant to the President (<persName
                                 corresp="#p_JH_1">Jordan</persName>) to President <persName
                                 corresp="#p_CJE_1">Carter</persName>
@@ -20491,7 +20504,11 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date when="1977-09-26"
+                                    notBefore="1977-09-26T10:30:00-04:00"
+                                    notAfter="1977-09-26T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -31915,7 +31932,9 @@
                     </div>
 
                     <pb n="488" facs="0523" xml:id="pg_488"/>
-                    <div type="document" n="201" xml:id="d201" subtype="historical-document">
+                    <div type="document" n="201" xml:id="d201" subtype="historical-document"
+                        frus:doc-dateTime-min="1978-10-19T00:00:00-05:00"
+                        frus:doc-dateTime-max="1978-10-19T23:59:59-05:00">
                         <head>201. Memorandum of Understanding<note n="1" xml:id="d201fn1"
                                 type="source">Source: Washington National Records Center, <gloss
                                     target="#t_OSD_1">OSD</gloss> Files, FRC: 330–81–0202, Panama
@@ -31923,7 +31942,9 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date when="1978-10-19"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>
                             </dateline>
                         </opener>
                         <p rend="center">MEMORANDUM OF UNDERSTANDING CONCERNING THE COORDINATED
@@ -35944,7 +35965,9 @@
                     </div>
 
                     <pb n="562" facs="0597" xml:id="pg_562"/>
-                    <div type="document" n="229" xml:id="d229" subtype="historical-document">
+                    <div type="document" n="229" xml:id="d229" subtype="historical-document"
+                        frus:doc-dateTime-min="1979-06-03T23:00:00-05:00"
+                        frus:doc-dateTime-max="1979-06-05T07:34:00-05:00">
                         <head>229. Briefing Memorandum From the Assistant to the President for
                             Congressional Liaison (<persName corresp="#p_MF_2">Moore</persName>) and
                             the Special Assistant to the President for Congressional Liaison
@@ -35963,7 +35986,11 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1979-06-04T00:00:00-04:00"
+                                    notAfter="1979-06-05T08:34:00-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>
                             </dateline>
                         </opener>
                         <p rend="center">CONGRESSIONAL TELEPHONE CALL</p>
