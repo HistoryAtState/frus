@@ -10402,7 +10402,8 @@
                                     <persName corresp="#p_BED_1">Brooke</persName> on October
                                 16.</note></head>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>. </dateline>
+                            <placeName>Washington</placeName>, <date when="1961-10-16"
+                                ana="#date_undated-inferred-from-document-content">undated</date>. </dateline>
                         <p rend="center">MODERNIZATION—GUIDELINES FOR TREATMENT</p>
                         <p rend="sectiontitleital">Summary</p>
                         <p>Modernization is a basically revolutionary movement that is now under way
@@ -21784,7 +21785,11 @@
                                 marking. No drafting information appears on the
                             memorandum.</note></head>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1963-10-01T00:00:00-05:00"
+                                notAfter="1963-10-04T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Soviet Tour of the Robert Joffrey Ballet.</item>
@@ -22067,8 +22072,8 @@
                 </div>
 
                 <div type="document" n="147" xml:id="d147" subtype="historical-document"
-                    frus:doc-dateTime-min="1963-10-22T17:30:00-05:00"
-                    frus:doc-dateTime-max="1963-10-22T17:30:00-05:00">
+                    frus:doc-dateTime-min="1963-10-21T16:30:00-05:00"
+                    frus:doc-dateTime-max="1963-10-21T16:30:00-05:00">
                     <head><pb n="386" facs="0423" xml:id="pg_386"/>147. Circular Airgram From the
                         Department of State to African, Latin American, Far Eastern, and Near
                         Eastern Diplomatic Posts<note n="1" xml:id="d147fn1" type="source">Source:
@@ -22089,8 +22094,9 @@
                             <idno type="document-identifier">CA–4402</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1963-10-22T17:30:00"
-                                >October 21, 1963, 5:30 p.m.</date></dateline>
+                            <placeName>Washington</placeName>, <date
+                                when="1963-10-21T17:30:00-04:00">October 21, 1963, 5:30
+                            p.m.</date></dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -22158,7 +22164,11 @@
                                 Embassy in Benin to the Department of State<note n="5"
                                     xml:id="d147fn5">Confidential.</note></hi></head>
                         <dateline>
-                            <placeName>Cotonou, Benin</placeName>, <date>undated</date>. </dateline>
+                            <placeName>Cotonou, Benin</placeName>, <date
+                                notBefore="1963-06-29T00:00:00-04:00"
+                                notAfter="1963-10-21T17:30:00-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>. </dateline>
                         <p>This paper suggests that our efforts to identify and to cultivate West
                             Africa’s second generation political leaders may be considerably more
                             complex than we presently imagine. We should never assume, for example,
@@ -22213,8 +22223,11 @@
                                 xml:id="d147fn9">Confidential.</note></head>
                         <opener>
                             <dateline>
-                                <placeName>La Paz, Bolivia</placeName>, <date>undated</date>.
-                            </dateline>
+                                <placeName>La Paz, Bolivia</placeName>, <date
+                                    notBefore="1963-06-29T00:00:00-04:00"
+                                    notAfter="1963-10-21T17:30:00-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>. </dateline>
                         </opener>
                         <p>“(Daniel) Guerra comes from a lower middle class family. His father, a
                             man dedicated to leftist ideals, was a writer and translator for PRENSA
