@@ -665,8 +665,8 @@
             <pb n="[VIII]" xml:id="pg_VIII" facs="0008"/>
             <pb n="IX" xml:id="pg_IX" facs="0009"/>
             <div type="section" subtype="historical-document" xml:id="message-of-the-president"
-                frus:doc-dateTime-min="1886-06-05T00:00:00-05:00"
-                frus:doc-dateTime-max="1902-01-16T23:59:59-05:00">
+                frus:doc-dateTime-min="1901-12-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1901-12-03T23:59:59-05:00">
                 <head>Message of the President</head>
                 <p rend="flushleft"><hi rend="italic">To the Senate and House of
                         Representatives:</hi></p>
@@ -8088,8 +8088,11 @@
                             <head><hi rend="smallcaps">certificate of birth.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">St.
                                             Joseph’s Church</hi>, <hi rend="italic">Tremont, N.
-                                            Y</hi>.</placeName>
-                                [<date>undated</date>].</dateline></opener>
+                                            Y</hi>.</placeName> [<date
+                                        notBefore="1877-07-25T00:00:00-05:00"
+                                        notAfter="1901-07-10T23:59:59-05:00"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        >undated</date>].</dateline></opener>
                             <p>Carl Schimaneck, son of Anton and Fanny Schimaneck, born on the 25th
                                 of February, 1877, was baptized on the 25th of July, 1877.</p>
                             <p>Witnesses: Franziska Heisler and Joseph and Maria Lauzansky.</p>
@@ -24220,8 +24223,11 @@
                             <head><hi rend="italic">Mr. <persName type="from">Barratt</persName> to
                                     Mr. <persName type="to">White</persName>.</hi></head>
                             <opener><dateline rendition="#right"><placeName>1 <hi rend="smallcaps"
-                                            >Temple Gardens, Temple, E. C.</hi></placeName>
-                                        [<date>undated</date>].</dateline></opener>
+                                            >Temple Gardens, Temple, E. C.</hi></placeName> [<date
+                                        notBefore="1901-11-25T00:00:00+00:00"
+                                        notAfter="1901-12-10T23:59:59+00:00"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        >undated</date>.]</dateline></opener>
                             <p><hi rend="smallcaps">Dear Mr. White</hi>: Lillywhite says he will
                                 take the £600, but desires us to see whether the Goverment of His
                                 British Majesty will not grant him some increase to help in paying
@@ -40533,8 +40539,8 @@
                                 vice-consul</gloss>.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Comison Mixta de Reclutamiento</hi>,<lb/><hi
-                                            rend="italic">Province of Barcelona.</hi></placeName>
-                                        [<date>undated</date>].</dateline>
+                                            rend="italic">Province of
+                                    Barcelona</hi></placeName>.</dateline>
                                 <seg rendition="#left">No. 609.]</seg></opener>
                             <p>Having examined the “expediente” (petition) of the young man Benito
                                 Llavería Pascual who came forward with the drafts for 1898 under No.
