@@ -4013,7 +4013,9 @@
                         <frus:attachment>
                             <head>Tab A</head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Washington</placeName>, <date when="1969-02-15"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</dateline>
                             <p>
                                 <hi rend="strong">Talking Points Prepared by the National Security
                                     Council Staff</hi>
@@ -6016,7 +6018,9 @@
                             <head>Attachment<note n="2" xml:id="d19fn2">Secret.</note>
                             </head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Washington</placeName>, <date when="1969-02-19"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</dateline>
                             <p rend="center">MASTER TALKING PAPER ON EAST-WEST RELATIONS</p>
                             <p>(All the leaders you are meeting are interested in your view of
                                 East-West relations and in your plans for dealing with the <gloss
@@ -10311,7 +10315,9 @@
                         <frus:attachment>
                             <head>Tab J</head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Washington</placeName>, <date when="1969-04-17"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    type="conversation-or-meeting-date">undated</date>.</dateline>
                             <p>
                                 <hi rend="strong">Memorandum From <persName corresp="#p_SHHH1"
                                         >Harold Saunders</persName> of the National Security Council
@@ -17323,7 +17329,11 @@
                         <frus:attachment>
                             <head>Tab A</head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1969-09-11T00:00:00-04:00"
+                                    notAfter="1969-09-23T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</dateline>
                             <p>
                                 <hi rend="strong">Intelligence Analysis</hi>
                             </p>
@@ -19063,8 +19073,8 @@
                     </div>
                     <pb n="279" xml:id="pg_279" facs="0312"/>
                     <div type="document" xml:id="d93" n="93" subtype="historical-document"
-                        frus:doc-dateTime-min="1969-10-20T15:30:00-05:00"
-                        frus:doc-dateTime-max="1969-10-20T15:30:00-05:00">
+                        frus:doc-dateTime-min="1969-10-20T14:30:00-05:00"
+                        frus:doc-dateTime-max="1969-10-20T14:30:00-05:00">
                         <head>93. Memorandum of Conversation<note n="1" xml:id="d93fn1"
                                 type="source">Source: National Archives, <persName corresp="#p_NRM1"
                                     >Nixon</persName> Presidential Materials, <gloss
@@ -19103,9 +19113,9 @@
                                     >Kissinger</persName>, 1969, Part 1.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-10-20T15:30:00"
-                                type="conversation-or-meeting-date">October 20, 1969, 3:30
-                                p.m.</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                when="1969-10-20T15:30:00-04:00" type="conversation-or-meeting-date"
+                                >October 20, 1969, 3:30 p.m.</date></dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
                             <item>The President</item>
@@ -19284,7 +19294,11 @@
                             <head>Tab A<note n="3" xml:id="d93fn3">No classification marking.</note>
                             </head>
                             <dateline>
-                                <placeName>Moscow</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Moscow</placeName>, <date
+                                    notBefore="1969-10-16T00:00:00+03:00"
+                                    notAfter="1969-10-17T16:40:00-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</dateline>
                             <p>
                                 <hi rend="strong">Aide-Mémoire From the Soviet Leadership to
                                     President <persName corresp="#p_NRM1">Nixon</persName>
@@ -29525,7 +29539,9 @@
                         <frus:attachment>
                             <head>Tab A</head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Washington</placeName>, <date when="1970-03-30"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>.</dateline>
                             <p>
                                 <hi rend="strong">Paper Prepared by the Central Intelligence
                                     Agency</hi>
@@ -33837,7 +33853,11 @@
                         <frus:attachment>
                             <head>Tab A</head>
                             <dateline>
-                                <placeName>Moscow</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Moscow</placeName>, <date
+                                    notBefore="1970-06-20T00:00:00+03:00"
+                                    notAfter="1970-06-22T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</dateline>
                             <p>
                                 <hi rend="strong">Letter From Chairman of the Council of Ministers
                                     of the Soviet Union <persName corresp="#p_KAN1"
@@ -34552,7 +34572,11 @@
                                     Only.</note>
                             </head>
                             <dateline>
-                                <placeName>Moscow</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Moscow</placeName>, <date
+                                    notBefore="1970-06-23T00:00:00+03:00"
+                                    notAfter="1970-07-07T14:30:00-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</dateline>
                             <p>
                                 <hi rend="strong">Aidé-Mémoire From the Soviet Union</hi>
                             </p>
@@ -37235,7 +37259,11 @@
                         <frus:attachment>
                             <head>Tab A</head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1962-10-26T00:00:00+03:00"
+                                    notAfter="1962-12-14T23:59:59-05:00" type="content-date"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>.</dateline>
                             <p>
                                 <hi rend="strong">Excerpts From Letters and Messages Between
                                     President <persName corresp="#p_KRT1">Kennedy</persName> and
@@ -42166,7 +42194,9 @@
                         <frus:attachment>
                             <head>Tab D</head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Washington</placeName>, <date when="1970-10-08"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</dateline>
                             <p>
                                 <hi rend="strong">List of Soviet Activities in Cuba</hi>
                                 <note n="6" xml:id="d226fn6">No classification marking.</note>
