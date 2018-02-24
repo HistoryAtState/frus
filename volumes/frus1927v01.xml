@@ -237,7 +237,9 @@
                 </list>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="section" xml:id="message-of-the-president" subtype="historical-document">
+            <div type="section" xml:id="message-of-the-president" subtype="historical-document"
+                frus:doc-dateTime-min="1927-12-06T00:00:00-05:00"
+                frus:doc-dateTime-max="1927-12-06T23:59:59-05:00">
                 <head>Message of the president of the United States to Congress, December 6,
                     1927</head>
                 <p><hi rend="smallcaps">Members of the Congress</hi>: It is gratifying to report
@@ -1009,11 +1011,12 @@
                     neighborly kindness. The forces of the universe are taking humanity in that
                     direction. In doing good, in walking humbly, in sustaining its own people, in
                     ministering to other nations, America will work out its own mighty destiny.</p>
-                <closer><signed><hi rend="smallcaps">Calvin Coolidge</hi></signed></closer>
-                <postscript>
-                    <p><hi rend="smallcaps">The White House</hi>, <hi rend="italic">December 6,
-                            1927.</hi></p>
-                </postscript>
+                <closer><signed><hi rend="smallcaps">Calvin Coolidge</hi></signed><lb/>
+                    <dateline>
+                        <placeName><hi rend="smallcaps">The White House</hi></placeName>, <date
+                            when="1927-12-06"><hi rend="italic">December 6,
+                        1927</hi></date>.</dateline>
+                </closer>
                 <pb n="[XXVI]" xml:id="pg_XXVI" facs="0030"/>
             </div>
             <pb n="XXVII" xml:id="pg_XXVII" facs="0031"/>

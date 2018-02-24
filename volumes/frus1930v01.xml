@@ -338,7 +338,9 @@
                 </list>
             </div>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="message-of-the-president" subtype="historical-document">
+            <div type="section" xml:id="message-of-the-president" subtype="historical-document"
+                frus:doc-dateTime-min="1930-12-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1930-12-02T23:59:59-05:00">
                 <head>Message of the President of the United States to Congress, December 2,
                     1930</head>
                 <p rend="flushleft"><hi rend="smallcaps">To the Senate and House of
@@ -784,10 +786,11 @@
                 <p>I shall, in a special message, lay before the Senate the protocols covering the
                     statutes of the World Court which have been revised to accord with the sense of
                     previous Senate reservations.</p>
-                <closer><signed><hi rend="smallcaps">Herbert Hoover</hi></signed></closer>
-                <postscript>
-                    <p><hi rend="smallcaps">The White House</hi>, December 2, 1930.</p>
-                </postscript>
+                <closer><signed><hi rend="smallcaps">Herbert Hoover</hi></signed>
+                    <dateline>
+                        <placeName><hi rend="smallcaps">The White House</hi></placeName>, <date
+                            when="1930-12-02">December 2, 1930</date>.</dateline>
+                </closer>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
             <div type="section" xml:id="papers" subtype="index"
