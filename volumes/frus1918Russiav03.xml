@@ -96,7 +96,9 @@
                     <hi rend="smallcaps">Publication No</hi>. 390</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1917-03-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-01-13T20:00:00-05:00">
                 <head>Contents</head>
                 <p rend="center"><hi rend="italic">VOLUME III</hi></p>
                 <p rend="center">ECONOMIC RELATIONS</p>

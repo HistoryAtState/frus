@@ -100,7 +100,9 @@
                     Office<lb/>Washington 25, D.C. - Price $2.75 (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1933-06-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1935-02-01T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_VII"><hi rend="smallcaps">List of

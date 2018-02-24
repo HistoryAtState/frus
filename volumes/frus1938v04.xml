@@ -106,7 +106,9 @@
                     Printing Office<lb/>Washington 25, D.C. - Price $3.25 (buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1937-12-31T17:00:00-05:00"
+                frus:doc-dateTime-max="1939-01-01T16:00:00-05:00">
                 <head>Contents</head>
                 <p rend="flushleft">(<hi rend="smallcaps">Note</hi>: For previously published
                     correspondence on relations between the United States and Japan in 1938, see

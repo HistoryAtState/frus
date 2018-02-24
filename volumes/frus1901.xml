@@ -95,7 +95,9 @@
             </titlePage>
             <pb n="[II]" xml:id="pg_II" facs="0002"/>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1886-06-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1902-01-16T23:59:59-05:00">
                 <head>Table of Contents</head>
                 <p rend="center">[For alphabetical index see end of volume.]</p>
                 <list type="toc">

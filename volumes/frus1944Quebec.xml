@@ -140,7 +140,9 @@
             </div>
             <pb n="[IV]" xml:id="pg_IV" facs="0008"/>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1944-03-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1944-09-26T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_IX"><hi rend="smallcaps">List of Photographs and

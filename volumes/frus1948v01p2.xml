@@ -230,7 +230,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>

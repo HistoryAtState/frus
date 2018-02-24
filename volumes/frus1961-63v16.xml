@@ -395,7 +395,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III"><hi rend="strong">Preface</hi></ref></item>
