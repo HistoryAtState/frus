@@ -1296,10 +1296,12 @@
         <body>
             <pb n="[XXIV]" xml:id="pg_XXIV" facs="0028"/>
             <pb n="1" xml:id="pg_1" facs="0029"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1955-01-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1955-07-29T23:59:59-05:00">
                 <head>United States policy with regard to the People’s Republic of China and the
                     Republic of China, January–July 1955</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1955-01-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1955-07-29T23:59:59-05:00">
                     <head>The Taiwan Strait crisis; U.S. concern with the defense of Taiwan and the
                         maintenance of peace in the Taiwan area; the Formosa resolution; efforts to
                         bring the problem before the <gloss target="#t_UN1">U.N.</gloss> Security

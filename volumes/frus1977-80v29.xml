@@ -2916,10 +2916,13 @@
         </front>
 
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1977-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-13T23:59:59-05:00">
                 <pb n="1" facs="0036" xml:id="pg_1"/>
                 <head>Panama, 1977–1980</head>
-                <div type="chapter" n="1" xml:id="ch1">
+                <div type="chapter" n="1" xml:id="ch1"
+                    frus:doc-dateTime-min="1977-01-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1977-09-09T23:59:59-05:00">
                     <head>Negotiation and Signing of the Panama Canal Treaties, October 6,
                         1976–September 9, 1977</head>
                     <div type="document" n="1" xml:id="d1" subtype="editorial-note">
@@ -19580,7 +19583,9 @@
                 </div>
 
                 <pb n="284" facs="0319" xml:id="pg_284"/>
-                <div type="chapter" n="2" xml:id="ch2">
+                <div type="chapter" n="2" xml:id="ch2"
+                    frus:doc-dateTime-min="1977-09-12T09:06:00-05:00"
+                    frus:doc-dateTime-max="1978-04-18T23:59:59-05:00">
                     <head type="chapter">Ratification of the Panama Canal Treaties, September 12,
                         1977–April 18, 1978</head>
                     <div type="document" n="96" xml:id="d96" subtype="historical-document"
@@ -28046,7 +28051,9 @@
                 </div>
 
                 <pb n="423" facs="0458" xml:id="pg_423"/>
-                <div type="chapter" n="3" xml:id="ch3">
+                <div type="chapter" n="3" xml:id="ch3"
+                    frus:doc-dateTime-min="1978-04-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-13T23:59:59-05:00">
                     <head type="chapter">Implementation Debates and Regional Concerns, April 20,
                         1978–January 13, 1981</head>
                     <div type="document" n="169" xml:id="d169" subtype="historical-document"

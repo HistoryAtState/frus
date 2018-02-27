@@ -2120,9 +2120,11 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0028"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1969-01-30T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-12-22T23:59:59-05:00">
                 <head>Korea</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1969-01-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-10-23T23:59:59-05:00">
                     <head>North Korean Shootdown of a U.S. Reconnaissance Flight and Contingency
                         Planning, January–November 1969</head>
                     <div type="document" xml:id="d1" n="1" subtype="historical-document"
@@ -9956,7 +9958,8 @@
                     </div>
                 </div>
                 <pb n="117" xml:id="pg_117" facs="0144"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1969-11-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1971-02-05T23:59:59-05:00">
                     <head>U.S. Troop Reductions and Related Defense Issues, November 1969–February
                         1971</head>
                     <div type="document" xml:id="d45" n="45" subtype="historical-document"
@@ -16858,7 +16861,8 @@
                     </div>
                 </div>
                 <pb n="229" xml:id="pg_229" facs="0256"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1971-04-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-12-22T23:59:59-05:00">
                     <head>Republic of Korea Troops in Vietnam and Force Modernization, April
                         1971–December 1972</head>
                     <div type="document" xml:id="d89" n="89" subtype="historical-document"

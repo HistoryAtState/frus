@@ -1329,10 +1329,12 @@
             <pb n="[XXIV]" xml:id="pg_XXIV" facs="0028"/>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1955-01-04T16:13:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <pb n="1" xml:id="pg_1" facs="0029"/>
                 <head>Japan</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1955-01-04T16:13:00-05:00"
+                    frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                     <head>U.S. Policy Toward and Relations With Japan: The <gloss target="#t_NSC1"
                             >NSC</gloss> 5516 Series; U.S. Attitude Toward the Resumption of
                         Diplomatic Relations Between Japan and the Soviet Union; Desire of Japan for

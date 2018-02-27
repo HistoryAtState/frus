@@ -1243,9 +1243,12 @@
 
         <body>
             <pb n="1" facs="0028" xml:id="pg_1"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
                 <head>Documents on North Africa, 1973–1976</head>
-                <div type="chapter" n="1" xml:id="ch1">
+                <div type="chapter" n="1" xml:id="ch1"
+                    frus:doc-dateTime-min="1974-04-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1974-10-15T23:59:59-05:00">
                     <head>Algeria, 1973–1976</head>
 
                     <div type="document" n="1" xml:id="d1" subtype="historical-document"
@@ -1758,7 +1761,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="2" xml:id="ch2">
+                <div type="chapter" n="2" xml:id="ch2"
+                    frus:doc-dateTime-min="1973-03-29T17:30:00-05:00"
+                    frus:doc-dateTime-max="1976-12-02T11:30:00-05:00">
                     <pb n="11" facs="0038" xml:id="pg_11"/>
                     <head>Libya, 1973–1976</head>
 
@@ -9286,7 +9291,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="3" xml:id="ch3">
+                <div type="chapter" n="3" xml:id="ch3"
+                    frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-11-29T23:59:59-05:00">
                     <pb n="157" facs="0184" xml:id="pg_157"/>
                     <head>Morocco, 1973–1976</head>
 
@@ -13299,7 +13306,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="4" xml:id="ch4">
+                <div type="chapter" n="4" xml:id="ch4"
+                    frus:doc-dateTime-min="1974-09-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
                     <pb n="235" facs="0262" xml:id="pg_235"/>
                     <head>Spanish Sahara, 1973–1976</head>
 
@@ -17737,7 +17746,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="5" xml:id="ch5">
+                <div type="chapter" n="5" xml:id="ch5"
+                    frus:doc-dateTime-min="1974-05-13T15:00:00-05:00"
+                    frus:doc-dateTime-max="1976-11-04T23:59:59-05:00">
                     <pb n="329" facs="0356" xml:id="pg_329"/>
                     <head>Tunisia, 1973–1976</head>
 
