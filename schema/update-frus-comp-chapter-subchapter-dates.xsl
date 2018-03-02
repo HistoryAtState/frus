@@ -13,7 +13,7 @@
     <!-- Add descendant min/max dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to //body//div[@type="chapter"] -->
 
     <xsl:template
-        match="tei:body//tei:div[@type = 'subchapter'][not(@subtype = 'historical-document')]">
+        match="tei:body//tei:div[@type = 'subchapter'][not(@subtype = 'historical-document')][not(@subtype = 'editorial-note')]">
 
         <xsl:variable name="earliest">
             <xsl:for-each select="descendant::tei:div/@frus:doc-dateTime-min">
@@ -56,7 +56,7 @@
     </xsl:template>
 
     <xsl:template
-        match="tei:body//tei:div[@type = 'chapter'][not(@subtype = 'historical-document')]">
+        match="tei:body//tei:div[@type = 'chapter'][not(@subtype = 'historical-document')][not(@subtype = 'editorial-note')]">
 
         <xsl:variable name="earliest">
             <xsl:for-each select="descendant::tei:div/@frus:doc-dateTime-min">
@@ -99,7 +99,7 @@
     </xsl:template>
 
     <xsl:template
-        match="tei:body//tei:div[@type = 'compilation'][not(@subtype = 'historical-document')]">
+        match="tei:body//tei:div[@type = 'compilation'][not(@subtype = 'historical-document')][not(@subtype = 'editorial-note')]">
 
         <xsl:variable name="earliest">
             <xsl:for-each select="descendant::tei:div/@frus:doc-dateTime-min">
