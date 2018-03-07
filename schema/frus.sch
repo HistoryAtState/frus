@@ -207,10 +207,10 @@
         </rule>
         <rule context="tei:div">
             <assert
-                test="./@subtype = ('editorial-note', 'errata_document-numbering-error', 'historical-document')"
+                test="./@subtype = ('editorial-note', 'errata_document-numbering-error', 'historical-document', 'index')"
                     >div/@subtype='<value-of select="@subtype"/>' is an invalid value. Only the
                 following values are allowed: editorial-note, errata_document-numbering-error,
-                historical-document</assert>
+                historical-document, index</assert>
         </rule>
     </pattern>
 
