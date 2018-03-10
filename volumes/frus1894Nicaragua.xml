@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
     xml:id="frus1894Nicaragua">
     <teiHeader>
         <fileDesc>
@@ -57,6 +58,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2016-04-13 Stephanie Eckroth (PA/HO): Created TEI shell for HCL</change>
@@ -1313,12 +1317,9 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1891-04-30T00:00:00-05:00"
-                frus:doc-dateTime-max="1894-12-31T23:59:59-05:00">
+            <div type="compilation" xml:id="comp1">
                 <head>Affairs at Bluefields</head>
-                <div type="document" xml:id="d1" n="1" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-01-25T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-01-25T23:59:59-05:00">
+                <div type="document" xml:id="d1" n="1">
                     <head>No. 1.<lb/><hi rend="italic">Mr. <persName type="from">Seat</persName> to
                             Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -1332,9 +1333,7 @@
                                 Agent</hi></signed>,<lb/>(and fifty citizens of the United
                         States).</closer>
                 </div>
-                <div type="document" xml:id="d2" n="2" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-02-01T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-02-01T23:59:59-05:00">
+                <div type="document" xml:id="d2" n="2">
                     <head>No. 2.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -1379,9 +1378,7 @@
                                     rend="italic">Secretary of the Navy.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d3" n="3" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-02-09T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-02-09T23:59:59-05:00">
+                <div type="document" xml:id="d3" n="3">
                     <head>No. 3.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName> to
                             Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -1508,9 +1505,7 @@
                         </postscript>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d4" n="4" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-02-09T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-02-09T23:59:59-05:00">
+                <div type="document" xml:id="d4" n="4">
                     <head>No. 4.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName> to
                             Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -1557,9 +1552,7 @@
                         <p>(Twenty seven signatures follow.)</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d5" n="5" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-02-13T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-02-13T23:59:59-05:00">
+                <div type="document" xml:id="d5" n="5">
                     <head>No. 5.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Consulate
@@ -1597,9 +1590,7 @@
                                 >United States Consul.</hi></signed></closer>
                 </div>
                 <pb n="14" xml:id="pg_14" facs="0021"/>
-                <div type="document" xml:id="d6" n="6" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-02T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-02T23:59:59-05:00">
+                <div type="document" xml:id="d6" n="6">
                     <head>No. 6.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">United
@@ -1669,9 +1660,7 @@
                     </frus:attachment>
                 </div>
                 <pb n="15" xml:id="pg_15" facs="0022"/>
-                <div type="document" xml:id="d7" n="7" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-05T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-05T23:59:59-05:00">
+                <div type="document" xml:id="d7" n="7">
                     <head>No. 7.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -1699,9 +1688,7 @@
                             remained.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d8" n="8" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-06T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-06T23:59:59-05:00">
+                <div type="document" xml:id="d8" n="8">
                     <head>No. 8.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName> to
                             Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -1712,9 +1699,7 @@
                     <p>Consul Braida telegraphs fifty English soldiers landed Bluefields; strongly
                         urged American warship.</p>
                 </div>
-                <div type="document" xml:id="d9" n="9" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-07T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-07T23:59:59-05:00">
+                <div type="document" xml:id="d9" n="9">
                     <head>No. 9.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -1724,9 +1709,7 @@
                                     >March 7, 1894</hi></date>.</dateline></opener>
                     <p>If you verify Braida’s telegram report alleged grounds for landing</p>
                 </div>
-                <div type="document" xml:id="d10" n="10" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-07T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-07T23:59:59-05:00">
+                <div type="document" xml:id="d10" n="10">
                     <head>No. 10.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">United
@@ -1847,9 +1830,7 @@
                         </postscript>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d11" n="11" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-08T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-08T23:59:59-05:00">
+                <div type="document" xml:id="d11" n="11">
                     <head>No. 11.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -1864,9 +1845,7 @@
                         Guatemala.</p>
                 </div>
                 <pb n="18" xml:id="pg_18" facs="0025"/>
-                <div type="document" xml:id="d12" n="12" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-08T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-08T23:59:59-05:00">
+                <div type="document" xml:id="d12" n="12">
                     <head>No. 12.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -2373,9 +2352,7 @@
                         </postscript>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d13" n="13" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-09T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-09T23:59:59-05:00">
+                <div type="document" xml:id="d13" n="13">
                     <head>No. 13.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Bayard</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -2387,9 +2364,7 @@
                         force landed at Bluefields in the Mosqnito territory. You are instructed to
                         ascertain and report fully by cable the occasion for this action.</p>
                 </div>
-                <div type="document" xml:id="d14" n="14" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-14T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-14T23:59:59-05:00">
+                <div type="document" xml:id="d14" n="14">
                     <head>No. 14.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -2400,9 +2375,7 @@
                     <p>Did Great Britain land troops under asserted right of sovereignty or only for
                         protection? Prompt answer desired.</p>
                 </div>
-                <div type="document" xml:id="d15" n="15" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-15T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-15T23:59:59-05:00">
+                <div type="document" xml:id="d15" n="15">
                     <head>No. 15.<lb/><hi rend="italic">Mr. <persName type="from">Bayard</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -2426,9 +2399,7 @@
                         530, November, 1888. I believe landing of forces was to extend safety to
                         residents and check violence.</p>
                 </div>
-                <div type="document" xml:id="d16" n="16" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-16T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-16T23:59:59-05:00">
+                <div type="document" xml:id="d16" n="16">
                     <head>No. 16.<lb/><hi rend="italic">Mr. <persName type="from">Bayard</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Embassy of
@@ -2522,9 +2493,7 @@
                     <p>I have, etc.,</p>
                     <closer><signed><hi rend="smallcaps">T. F. Bayard.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d17" n="17" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-17T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-17T23:59:59-05:00">
+                <div type="document" xml:id="d17" n="17">
                     <head>No. 17.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Consulate
@@ -2654,9 +2623,7 @@
                     </frus:attachment>
                 </div>
                 <pb n="31" xml:id="pg_31" facs="0038"/>
-                <div type="document" xml:id="d18" n="18" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-18T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-18T23:59:59-05:00">
+                <div type="document" xml:id="d18" n="18">
                     <head>No. 18.<lb/><hi rend="italic">Mr. <persName type="from">Braixia</persName>
                             to Mr. <persName type="to">Uhl</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Consulate
@@ -2691,9 +2658,7 @@
                     <closer><signed><hi rend="smallcaps">S. C. Braida</hi>,<lb/><hi rend="italic"
                                 >United States Consul.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d19" n="19" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-20T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-20T23:59:59-05:00">
+                <div type="document" xml:id="d19" n="19">
                     <head>No. 19.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -2747,9 +2712,7 @@
                         <closer><signed><hi rend="smallcaps">Lewis Baker.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d20" n="20" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-22T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-22T23:59:59-05:00">
+                <div type="document" xml:id="d20" n="20">
                     <head>No. 20.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName></hi>.</head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Consulate
@@ -2856,9 +2819,7 @@
                                     rend="italic">United States Consul.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d21" n="21" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-26T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-26T23:59:59-05:00">
+                <div type="document" xml:id="d21" n="21">
                     <head>No. 21.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">United
@@ -2883,9 +2844,7 @@
                     <closer><signed><hi rend="smallcaps">S. C. Braida</hi>,<lb/><hi rend="italic"
                                 >United States Consul.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d22" n="22" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-28T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-28T23:59:59-05:00">
+                <div type="document" xml:id="d22" n="22">
                     <head>No. 22.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Braida</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -2896,9 +2855,7 @@
                         in political affairs in Mosquito. Naval vessel will soon reach
                         Bluefields.</p>
                 </div>
-                <div type="document" xml:id="d23" n="23" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-29T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-29T23:59:59-05:00">
+                <div type="document" xml:id="d23" n="23">
                     <head>No. 23.<lb/><hi rend="italic">Mr. <persName type="from">Bayard</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Embassy of
@@ -3239,9 +3196,7 @@
                             matter is at an end.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d24" n="24" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-29T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-29T23:59:59-05:00">
+                <div type="document" xml:id="d24" n="24">
                     <head>No. 24.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName></hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Consulate
@@ -3447,9 +3402,7 @@
                         </closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d25" n="25" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-31T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-31T23:59:59-05:00">
+                <div type="document" xml:id="d25" n="25">
                     <head>No. 25.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Consulate
@@ -3502,9 +3455,7 @@
                         <closer><signed><hi rend="smallcaps">S. C. Braida.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d26" n="26" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-03-31T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-03-31T23:59:59-05:00">
+                <div type="document" xml:id="d26" n="26">
                     <head>No. 26.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -3514,7 +3465,7 @@
                     <p>Time Department had full report of situation Bluefields. Braida instructed he
                         had no diplomatic functions.</p>
                 </div>
-                <div type="document" xml:id="d27" n="27" subtype="historical-document">
+                <div type="document" xml:id="d27" n="27">
                     <head>No. 27.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -3531,9 +3482,7 @@
                         on ship. Nicaragua withdrawn exequatur from Braida. Important you send
                         judicious successor immediately.</p>
                 </div>
-                <div type="document" xml:id="d28" n="28" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-04-02T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-04-02T23:59:59-05:00">
+                <div type="document" xml:id="d28" n="28">
                     <head>No. 28.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -3547,9 +3496,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d29" n="29" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-04-06T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-04-06T23:59:59-05:00">
+                <div type="document" xml:id="d29" n="29">
                     <head>No. 29.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -3566,9 +3513,7 @@
                         for prompt and effective protection. Nicaraguan commissioner also wrote
                         letter of thanks. All reports to contrary are false.</p>
                 </div>
-                <div type="document" xml:id="d30" n="30" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-04-09T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-04-09T23:59:59-05:00">
+                <div type="document" xml:id="d30" n="30">
                     <head>No. 30.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -3579,9 +3524,7 @@
                     <p>One hundred Nicaragua troops leave here to-morrow for Bluefields to perform
                         police duty.</p>
                 </div>
-                <div type="document" xml:id="d31" n="31" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-04-10T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-04-10T23:59:59-05:00">
+                <div type="document" xml:id="d31" n="31">
                     <head>No. 31.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -3684,9 +3627,7 @@
                         </postscript>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d32" n="32" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-04-10T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-04-10T23:59:59-05:00">
+                <div type="document" xml:id="d32" n="32">
                     <head>No. 32.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -3784,9 +3725,7 @@
                         <closer><signed><hi rend="smallcaps">Mayorga Rivas</hi>,</signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d33" n="33" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-04-10T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-04-10T23:59:59-05:00">
+                <div type="document" xml:id="d33" n="33">
                     <head>No. 33.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -3835,9 +3774,7 @@
                         </postscript>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d34" n="34" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-04-17T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-04-17T23:59:59-05:00">
+                <div type="document" xml:id="d34" n="34">
                     <head>No. 34.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -3850,9 +3787,7 @@
                         Government was authorized to participate with Nicaraguan authorities and
                         British consul in organizing provisional administration.</p>
                 </div>
-                <div type="document" xml:id="d35" n="35" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-04-21T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-04-21T23:59:59-05:00">
+                <div type="document" xml:id="d35" n="35">
                     <head>No. 35.<lb/><hi rend="italic">Mr. <persName type="from">Herbert</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Navy
@@ -3893,9 +3828,7 @@
                             additional instructions here.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d36" n="36" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-04-26T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-04-26T23:59:59-05:00">
+                <div type="document" xml:id="d36" n="36">
                     <head>No. 36.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -3940,9 +3873,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d37" n="37" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-04-26T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-04-26T23:59:59-05:00">
+                <div type="document" xml:id="d37" n="37">
                     <head>No. 37.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -3990,9 +3921,7 @@
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
                 <pb n="52" xml:id="pg_52" facs="0059"/>
-                <div type="document" xml:id="d38" n="38" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-04-26T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-04-26T23:59:59-05:00">
+                <div type="document" xml:id="d38" n="38">
                     <head>No. 38.<lb/><hi rend="italic">Mr. <persName type="from">McAdoo</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Navy
@@ -5166,9 +5095,7 @@
                         <closer><signed><hi rend="smallcaps">José Madriz.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d39" n="39" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-04-30T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-04-30T23:59:59-05:00">
+                <div type="document" xml:id="d39" n="39">
                     <head>No. 39.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Translation.]</seg></opener>
@@ -5216,9 +5143,7 @@
                     </frus:attachment>
                 </div>
                 <pb n="68" xml:id="pg_68" facs="0075"/>
-                <div type="document" xml:id="d40" n="40" subtype="historical-document"
-                    frus:doc-dateTime-min="1891-04-30T00:00:00-05:00"
-                    frus:doc-dateTime-max="1891-04-30T23:59:59-05:00">
+                <div type="document" xml:id="d40" n="40">
                     <head>No. 40.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Bayard</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -5304,9 +5229,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d41" n="41" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-01T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-01T23:59:59-05:00">
+                <div type="document" xml:id="d41" n="41">
                     <head>No. 41.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Guzman</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -5335,9 +5258,7 @@
                     <p>Accept, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham</hi>.</signed></closer>
                 </div>
-                <div type="document" xml:id="d42" n="42" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-02T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-02T23:59:59-05:00">
+                <div type="document" xml:id="d42" n="42">
                     <head>No. 42.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Confidential.]</seg></opener>
@@ -6178,9 +6099,7 @@
                                 </list></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d43" n="43" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-10T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-10T23:59:59-05:00">
+                <div type="document" xml:id="d43" n="43">
                     <head>No. 43.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -6197,9 +6116,7 @@
                     <p>I reiterate, etc.,</p>
                     <closer><signed><hi rend="smallcaps">H. Guzman.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d44" n="44" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-10T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-10T23:59:59-05:00">
+                <div type="document" xml:id="d44" n="44">
                     <head>No. 44.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">United
@@ -6383,9 +6300,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">Lewis Baker.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d45" n="45" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-11T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-11T23:59:59-05:00">
+                <div type="document" xml:id="d45" n="45">
                     <head>No. 45.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">United
@@ -6455,9 +6370,7 @@
                             Lacayo.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d46" n="46" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-12T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-12T23:59:59-05:00">
+                <div type="document" xml:id="d46" n="46">
                     <head>No. 46.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -6516,9 +6429,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d47" n="47" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-12T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-12T23:59:59-05:00">
+                <div type="document" xml:id="d47" n="47">
                     <head>No. 47.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -6539,9 +6450,7 @@
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
                 <pb n="90" xml:id="pg_90" facs="0097"/>
-                <div type="document" xml:id="d48" n="48" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-12T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-12T23:59:59-05:00">
+                <div type="document" xml:id="d48" n="48">
                     <head>No. 48.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -6557,9 +6466,7 @@
                     <p>I am, sir, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d49" n="49" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-14T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-14T23:59:59-05:00">
+                <div type="document" xml:id="d49" n="49">
                     <head>No. 49.<lb/><hi rend="italic">Mr. <persName type="from">Uhl</persName> to
                             Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -6585,9 +6492,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">Edwin F. Uhl.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d50" n="50" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-21T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-21T23:59:59-05:00">
+                <div type="document" xml:id="d50" n="50">
                     <head>No. 50.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -6619,9 +6524,7 @@
                     <p>I have, etc.,</p>
                     <closer><signed><hi rend="smallcaps">Lewis Baker.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d51" n="51" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-22T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-22T23:59:59-05:00">
+                <div type="document" xml:id="d51" n="51">
                     <head>No. 51.<lb/><hi rend="italic">Mr. <persName type="from">Uhl</persName> to
                             Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -6633,9 +6536,7 @@
                         mailed 12th to demand Torres’s removal. Lacayo’s culpability appears even
                         greater because more directly responsible.</p>
                 </div>
-                <div type="document" xml:id="d52" n="52" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-22T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-22T23:59:59-05:00">
+                <div type="document" xml:id="d52" n="52">
                     <head>No. 52.<lb/><hi rend="italic">Mr. <persName type="from">Bayard</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -6655,9 +6556,7 @@
                         interests. British ambassador at Washington instructed to that effect.</p>
                 </div>
                 <pb n="92" xml:id="pg_92" facs="0099"/>
-                <div type="document" xml:id="d53" n="53" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-23T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-23T23:59:59-05:00">
+                <div type="document" xml:id="d53" n="53">
                     <head>No. 53.<lb/><hi rend="italic">Mr. <persName type="from">Uhl</persName> to
                             Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -6721,9 +6620,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">Edwin F. Uhl.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d54" n="54" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-24T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-24T23:59:59-05:00">
+                <div type="document" xml:id="d54" n="54">
                     <head>No. 54.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -6808,9 +6705,7 @@
                         <closer><signed><hi rend="smallcaps">Lewis Baker.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d55" n="55" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-28T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-28T23:59:59-05:00">
+                <div type="document" xml:id="d55" n="55">
                     <head>No. 55.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -6830,9 +6725,7 @@
                     <p>I have, etc.,</p>
                     <closer><signed><hi rend="smallcaps">Lewis Baker.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d56" n="56" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-28T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-28T23:59:59-05:00">
+                <div type="document" xml:id="d56" n="56">
                     <head>No. 56.<lb/><hi rend="italic">Mr. <persName type="from">Bayard</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Embassy of
@@ -6956,9 +6849,7 @@
                     <p>I have, etc.,</p>
                     <closer><signed><hi rend="smallcaps">T. F. Bayard.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d57" n="57" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-05-30T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-05-30T23:59:59-05:00">
+                <div type="document" xml:id="d57" n="57">
                     <head>No. 57.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -7002,9 +6893,7 @@
                         <closer><signed><hi rend="smallcaps">Charles Lobner</hi>.</signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d58" n="58" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-06-04T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-06-04T23:59:59-05:00">
+                <div type="document" xml:id="d58" n="58">
                     <head>No. 58.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -7056,9 +6945,7 @@
                             me.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d59" n="59" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-06-05T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-06-05T23:59:59-05:00">
+                <div type="document" xml:id="d59" n="59">
                     <head>No. 59.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -7248,9 +7135,7 @@
                                     Nicaragua</hi>,</signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d60" n="60" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-06-07T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-06-07T23:59:59-05:00">
+                <div type="document" xml:id="d60" n="60">
                     <head>No. 60.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -7272,9 +7157,7 @@
                     <closer><signed><hi rend="smallcaps">Lewis Baker.</hi></signed></closer>
                 </div>
                 <pb n="102" xml:id="pg_102" facs="0109"/>
-                <div type="document" xml:id="d61" n="61" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-06-09T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-06-09T23:59:59-05:00">
+                <div type="document" xml:id="d61" n="61">
                     <head>No. 61.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -7346,9 +7229,7 @@
                         <closer><signed><hi rend="smallcaps">José Madriz.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d62" n="62" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-06-11T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-06-11T23:59:59-05:00">
+                <div type="document" xml:id="d62" n="62">
                     <head>No. 62.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -7592,9 +7473,7 @@
                         <closer><signed><hi rend="smallcaps">José Madriz.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d63" n="63" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-06-13T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-06-13T23:59:59-05:00">
+                <div type="document" xml:id="d63" n="63">
                     <head>No. 63.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -7625,9 +7504,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d64" n="64" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-06-13T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-06-13T23:59:59-05:00">
+                <div type="document" xml:id="d64" n="64">
                     <head>No. 64.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -7647,9 +7524,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d65" n="65" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-06-14T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-06-14T23:59:59-05:00">
+                <div type="document" xml:id="d65" n="65">
                     <head>No. 65.<lb/><hi rend="italic">Mr. <persName type="from">Uhl</persName> to
                             Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -7695,9 +7570,7 @@
                     <closer><signed><hi rend="smallcaps">Edwin F. Uhl.</hi></signed></closer>
                 </div>
                 <pb n="109" xml:id="pg_109" facs="0116"/>
-                <div type="document" xml:id="d66" n="66" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-05T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-05T23:59:59-05:00">
+                <div type="document" xml:id="d66" n="66">
                     <head>No. 66.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Translation.]</seg></opener>
@@ -8068,9 +7941,7 @@
                         </postscript>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d67" n="67" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-09T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-09T23:59:59-05:00">
+                <div type="document" xml:id="d67" n="67">
                     <head>No. 67.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Translation.]</seg></opener>
@@ -8137,9 +8008,7 @@
                         accept, once more, the protests of my highest consideration.</p>
                     <closer><signed><hi rend="smallcaps">H. Guzman.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d68" n="68" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-10T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-10T23:59:59-05:00">
+                <div type="document" xml:id="d68" n="68">
                     <head>No. 68.<lb/><hi rend="italic">Mr. <persName type="from">Herbert</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Navy
@@ -8171,9 +8040,7 @@
                             to-day Bluefields, Nicaragua.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d69" n="69" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-11T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-11T23:59:59-05:00">
+                <div type="document" xml:id="d69" n="69">
                     <head>No. 69.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -8219,9 +8086,7 @@
                     <p>I have, etc.,</p>
                     <closer><signed><hi rend="smallcaps">Lewis Baker.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d70" n="70" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-11T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-11T23:59:59-05:00">
+                <div type="document" xml:id="d70" n="70">
                     <head>No. 70.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Consulate
@@ -8414,9 +8279,7 @@
                                     rend="italic">Chief of Mosquito.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d71" n="71" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-12T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-12T23:59:59-05:00">
+                <div type="document" xml:id="d71" n="71">
                     <head>No. 71.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -8427,9 +8290,7 @@
                         Mosquito participated in by Americans. Full and prompt report by you is
                         desirable.</p>
                 </div>
-                <div type="document" xml:id="d72" n="72" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-12T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-12T23:59:59-05:00">
+                <div type="document" xml:id="d72" n="72">
                     <head>No. 72.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Translation.]</seg></opener>
@@ -8459,9 +8320,7 @@
                             according to laws of war.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d73" n="73" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-12T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-12T23:59:59-05:00">
+                <div type="document" xml:id="d73" n="73">
                     <head>No. 73.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -8595,9 +8454,7 @@
                         <closer><signed><hi rend="smallcaps">José Madriz.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d74" n="74" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-14T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-14T23:59:59-05:00">
+                <div type="document" xml:id="d74" n="74">
                     <head>No. 74.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -8670,9 +8527,7 @@
                         <closer><signed><hi rend="smallcaps">José Madriz.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d75" n="75" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-17T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-17T23:59:59-05:00">
+                <div type="document" xml:id="d75" n="75">
                     <head>No. 75.<lb/><hi rend="italic">Admiral <persName type="from"
                                 >Ramsay</persName> to Mr. <persName type="to"
                             >Gresham</persName>.</hi></head>
@@ -8704,9 +8559,7 @@
                             Port Limon, Costa Rica, by schooner.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d76" n="76" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-18T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-18T23:59:59-05:00">
+                <div type="document" xml:id="d76" n="76">
                     <head>No. 76.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Consulate
@@ -8772,9 +8625,7 @@
                             instructions at once.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d77" n="77" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-19T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-19T23:59:59-05:00">
+                <div type="document" xml:id="d77" n="77">
                     <head>No. 77.<lb/><hi rend="italic">Mr. <persName type="from">Herbert</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Navy
@@ -8805,9 +8656,7 @@
                             occurrences.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d78" n="78" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-19T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-19T23:59:59-05:00">
+                <div type="document" xml:id="d78" n="78">
                     <head>No. 78.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Bayard</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -8882,9 +8731,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d79" n="79" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-20T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-20T23:59:59-05:00">
+                <div type="document" xml:id="d79" n="79">
                     <head>No. 79.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -8899,9 +8746,7 @@
                         will take letters from me advising Americans of their duty to the sovereign
                         Government.</p>
                 </div>
-                <div type="document" xml:id="d80" n="80" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-28T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-28T23:59:59-05:00">
+                <div type="document" xml:id="d80" n="80">
                     <head>No. 80.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Bayard</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -8946,9 +8791,7 @@
                             was signed.</p>
                     </postscript>
                 </div>
-                <div type="document" xml:id="d81" n="81" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-23T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-23T23:59:59-05:00">
+                <div type="document" xml:id="d81" n="81">
                     <head>No. 81.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Consulate
@@ -9174,9 +9017,7 @@
                         </postscript>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d82" n="82" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-27T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-27T23:59:59-05:00">
+                <div type="document" xml:id="d82" n="82">
                     <head>No. 82.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -9335,9 +9176,7 @@
                         <closer><signed><hi rend="smallcaps">J. S. Zelaya.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d83" n="83" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-27T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-27T23:59:59-05:00">
+                <div type="document" xml:id="d83" n="83">
                     <head>No. 83.<lb/><hi rend="italic">Mr. <persName type="from">Herbert</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Navy
@@ -10269,9 +10108,7 @@
                                 </list></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d84" n="84" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-07-27T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-07-27T23:59:59-05:00">
+                <div type="document" xml:id="d84" n="84">
                     <head>No. 84.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Translation.]</seg></opener>
@@ -10370,9 +10207,7 @@
                                     >Commissioner.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d85" n="85" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-02T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-02T23:59:59-05:00">
+                <div type="document" xml:id="d85" n="85">
                     <head>No. 85.<lb/><hi rend="italic">Mr. <persName type="from">Adee</persName> to
                             Mr. <persName type="to">Bayard</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -10401,9 +10236,7 @@
                         </list>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d86" n="86" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-04T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-04T23:59:59-05:00">
+                <div type="document" xml:id="d86" n="86">
                     <head>No. 86.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -10436,9 +10269,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d87" n="87" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-08T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-08T23:59:59-05:00">
+                <div type="document" xml:id="d87" n="87">
                     <head>No. 87.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -10471,9 +10302,7 @@
                     <p>I have, etc.,</p>
                     <closer><signed><hi rend="smallcaps">Lewis Baker.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d88" n="88" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-08T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-08T23:59:59-05:00">
+                <div type="document" xml:id="d88" n="88">
                     <head>No. 88.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -10559,9 +10388,7 @@
                             Navy</hi>.</signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d89" n="89" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-10T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-10T23:59:59-05:00">
+                <div type="document" xml:id="d89" n="89">
                     <head>No. 89.<lb/><hi rend="italic">Mr. <persName type="from">Bayard</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Embassy of
@@ -10653,9 +10480,7 @@
                     <closer><signed><hi rend="smallcaps">T. F. Bayard.</hi></signed></closer>
                 </div>
                 <pb n="156" xml:id="pg_156" facs="0163"/>
-                <div type="document" xml:id="d90" n="90" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-11T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-11T23:59:59-05:00">
+                <div type="document" xml:id="d90" n="90">
                     <head>No. 90.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -10802,9 +10627,7 @@
                         <closer><signed><hi rend="smallcaps">José Madriz</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d91" n="91" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-15T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-15T23:59:59-05:00">
+                <div type="document" xml:id="d91" n="91">
                     <head>No. 91.<lb/><hi rend="italic">Mr. <persName type="from">Herbert</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Navy
@@ -11408,9 +11231,7 @@
                     </frus:attachment>
                 </div>
                 <pb n="168" xml:id="pg_168" facs="0175"/>
-                <div type="document" xml:id="d92" n="92" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-16T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-16T23:59:59-05:00">
+                <div type="document" xml:id="d92" n="92">
                     <head>No. 92.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -11421,9 +11242,7 @@
                         very few American citizens were concerned in the recent movement at
                         Bluefields, and none of good repute.</p>
                 </div>
-                <div type="document" xml:id="d93" n="93" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-18T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-18T23:59:59-05:00">
+                <div type="document" xml:id="d93" n="93">
                     <head>No. 93.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Guzman</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -11446,7 +11265,7 @@
                         maintained an attitude of neutrality and submission to the authorities.
                         These advices are repeated and confirmed by the latest reports of the United
                         States naval commanders in Nicaraguan waters, which make it clear that but a
-                        few, perhax&gt;s three, Americans at Bluefields took part in the recent
+                        few, perhaps three, Americans at Bluefields took part in the recent
                         uprising in behalf of the so-called Indian government, and that these were
                         men of little or no standing in the community.</p>
                     <p>The pain the President feels on learning of the prepossessions of the
@@ -11471,9 +11290,7 @@
                     <p>Accept, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d94" n="94" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-18T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-18T23:59:59-05:00">
+                <div type="document" xml:id="d94" n="94">
                     <head>No. 94.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Translation.]</seg></opener>
@@ -11523,9 +11340,7 @@
                     <closer><signed><hi rend="smallcaps">H. Guzman.</hi></signed></closer>
                 </div>
                 <pb n="170" xml:id="pg_170" facs="0177"/>
-                <div type="document" xml:id="d95" n="95" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-21T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-21T23:59:59-05:00">
+                <div type="document" xml:id="d95" n="95">
                     <head>No. 95.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Baker</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -11546,9 +11361,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d96" n="96" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-22T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-22T23:59:59-05:00">
+                <div type="document" xml:id="d96" n="96">
                     <head>No. 96.<lb/><hi rend="italic">Mr. <persName type="from">Gresham</persName>
                             to Mr. <persName type="to">Bayard</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
@@ -11577,9 +11390,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d97" n="97" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-23T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-23T23:59:59-05:00">
+                <div type="document" xml:id="d97" n="97">
                     <head>No. 97.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Consulate
@@ -11693,9 +11504,7 @@
                         <closer><signed><hi rend="smallcaps">P. Reyes</hi>.</signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d98" n="98" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-27T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-27T23:59:59-05:00">
+                <div type="document" xml:id="d98" n="98">
                     <head>No. 98.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Greaham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -11724,9 +11533,7 @@
                     <closer><signed><hi rend="smallcaps">Lewis Baker.</hi></signed></closer>
                 </div>
                 <pb n="173" xml:id="pg_173" facs="0180"/>
-                <div type="document" xml:id="d99" n="99" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-28T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-28T23:59:59-05:00">
+                <div type="document" xml:id="d99" n="99">
                     <head>No. 99.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -11817,9 +11624,7 @@
                         <closer><signed><hi rend="smallcaps">Lewis Baker.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d100" n="100" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-29T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-29T23:59:59-05:00">
+                <div type="document" xml:id="d100" n="100">
                     <head>No. 100.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Mr. <persName type="to"
                             >Baker</persName>.</hi></head>
@@ -11838,9 +11643,7 @@
                         immediate open trial of the accused with all guarantees of defense secured
                         by treaty, and in default thereof their release.</p>
                 </div>
-                <div type="document" xml:id="d101" n="101" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-30T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-30T23:59:59-05:00">
+                <div type="document" xml:id="d101" n="101">
                     <head>No. 101.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -11905,9 +11708,7 @@
                     </frus:attachment>
                 </div>
                 <pb n="176" xml:id="pg_176" facs="0183"/>
-                <div type="document" xml:id="d102" n="102" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-30T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-30T23:59:59-05:00">
+                <div type="document" xml:id="d102" n="102">
                     <head>No. 102.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Consulate
@@ -12026,9 +11827,7 @@
                     </frus:attachment>
                 </div>
                 <pb n="178" xml:id="pg_178" facs="0185"/>
-                <div type="document" xml:id="d103" n="103" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-30T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-30T23:59:59-05:00">
+                <div type="document" xml:id="d103" n="103">
                     <head>No. 103.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -12040,9 +11839,7 @@
                         or without trial. In spite of my protest Americans marked for arbitrary
                         expulsion. Awaiting your instructions.</p>
                 </div>
-                <div type="document" xml:id="d104" n="104" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-08-30T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-08-30T23:59:59-05:00">
+                <div type="document" xml:id="d104" n="104">
                     <head>No. 104.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -12123,9 +11920,7 @@
                         <closer><signed><hi rend="smallcaps">M. C. Matus.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d105" n="105" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-09-02T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-09-02T23:59:59-05:00">
+                <div type="document" xml:id="d105" n="105">
                     <head>No. 105.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -12139,9 +11934,7 @@
                         laws of Nicaragua. * * *</p>
                     <p>Our next mail will reach Washington, D. C., October 4.</p>
                 </div>
-                <div type="document" xml:id="d106" n="106" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-09-03T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-09-03T23:59:59-05:00">
+                <div type="document" xml:id="d106" n="106">
                     <head>No. 106.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -12394,9 +12187,7 @@
                         <closer><signed><hi rend="smallcaps">M. C. Matus.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d107" n="107" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-09-12T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-09-12T23:59:59-05:00">
+                <div type="document" xml:id="d107" n="107">
                     <head>No. 107.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -12434,9 +12225,7 @@
                     <p>I have, etc.,</p>
                     <closer><signed><hi rend="smallcaps">Lewis Baker.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d108" n="108" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-09-22T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-09-22T23:59:59-05:00">
+                <div type="document" xml:id="d108" n="108">
                     <head>No. 108.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Translation.]</seg></opener>
@@ -12474,9 +12263,7 @@
                     <p>I have, etc.,</p>
                     <closer><signed><hi rend="smallcaps">H. Guzman.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d109" n="109" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-09-24T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-09-24T23:59:59-05:00">
+                <div type="document" xml:id="d109" n="109">
                     <head>No. 109.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Mr. <persName type="to"
                             >Baker</persName>.</hi></head>
@@ -12490,9 +12277,7 @@
                         Bluefields or in Mosquito? In what business were they before July 5?
                         Communicate with them without delay and report.</p>
                 </div>
-                <div type="document" xml:id="d110" n="110" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-09-25T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-09-25T23:59:59-05:00">
+                <div type="document" xml:id="d110" n="110">
                     <head>No. 110.<lb/><hi rend="italic">Mr. <persName type="from">Braida</persName>
                             to Mr. <persName type="to">Uhl</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">United
@@ -12642,9 +12427,7 @@
                         </postscript>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d111" n="111" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-09-26T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-09-26T23:59:59-05:00">
+                <div type="document" xml:id="d111" n="111">
                     <head>No. 111.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -12720,9 +12503,7 @@
                         <closer><signed><hi rend="smallcaps">F. Baca.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d112" n="112" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-09-26T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-09-26T23:59:59-05:00">
+                <div type="document" xml:id="d112" n="112">
                     <head>No. 112.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Mr. <persName type="to"
                             >Baker</persName>.</hi></head>
@@ -12759,9 +12540,7 @@
                     </frus:attachment>
                 </div>
                 <pb n="190" xml:id="pg_190" facs="0197"/>
-                <div type="document" xml:id="d113" n="113" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-10-01T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-10-01T23:59:59-05:00">
+                <div type="document" xml:id="d113" n="113">
                     <head>No. 113.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Mr. <persName type="to"
                             >Baker</persName>.</hi></head>
@@ -12817,9 +12596,7 @@
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
                 <pb n="191" xml:id="pg_191" facs="0198"/>
-                <div type="document" xml:id="d114" n="114" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-10-10T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-10-10T23:59:59-05:00">
+                <div type="document" xml:id="d114" n="114">
                     <head>No. 114.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -12902,9 +12679,7 @@
                         </postscript>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d115" n="115" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-10-25T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-10-25T23:59:59-05:00">
+                <div type="document" xml:id="d115" n="115">
                     <head>No. 115.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Mr. <persName type="to"
                             >Baker</persName>.</hi></head>
@@ -12916,9 +12691,7 @@
                         to resume their residence and business in Mosquito. Urge that this be
                         promptly done and report by cable.</p>
                 </div>
-                <div type="document" xml:id="d116" n="116" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-10-26T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-10-26T23:59:59-05:00">
+                <div type="document" xml:id="d116" n="116">
                     <head>No. 116.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Translation]</seg></opener>
@@ -12992,9 +12765,7 @@
                         <closer><signed><hi rend="smallcaps">F. Baca</hi>.</signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d117" n="117" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-10-30T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-10-30T23:59:59-05:00">
+                <div type="document" xml:id="d117" n="117">
                     <head>No. 117.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Mr. <persName type="to"
                             >Baker</persName>.</hi></head>
@@ -13031,9 +12802,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d118" n="118" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-11-02T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-11-02T23:59:59-05:00">
+                <div type="document" xml:id="d118" n="118">
                     <head>No. 118.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Translation.]</seg></opener>
@@ -13063,9 +12832,7 @@
                         etc.,</p>
                     <closer><signed><hi rend="smallcaps">H. Guzman.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d119" n="119" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-11-09T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-11-09T23:59:59-05:00">
+                <div type="document" xml:id="d119" n="119">
                     <head>No. 119.<lb/><hi rend="italic">Mr. <persName type="from">De
                                 Soto</persName> to Mr. <persName type="to"
                         >Uhl</persName>.</hi></head>
@@ -13097,9 +12864,7 @@
                     <closer><signed><hi rend="smallcaps">Henry Be Soto</hi>,<lb/><hi rend="italic"
                                 >United States Vice-Consul.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d120" n="120" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-11-15T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-11-15T23:59:59-05:00">
+                <div type="document" xml:id="d120" n="120">
                     <head>No. 120.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Mr. <persName type="to"
                             >Baker</persName>.</hi></head>
@@ -13156,9 +12921,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d121" n="121" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-11-22T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-11-22T23:59:59-05:00">
+                <div type="document" xml:id="d121" n="121">
                     <head>No. 121.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Legation of
@@ -13185,9 +12948,7 @@
                         <closer><signed><hi rend="smallcaps">Madriz.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d122" n="122" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-11-23T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-11-23T23:59:59-05:00">
+                <div type="document" xml:id="d122" n="122">
                     <head>No. 122.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Cablegram—Translation—Handed to Mr. Gresham by
@@ -13201,9 +12962,7 @@
                     <closer><signed><hi rend="smallcaps">Baca.</hi></signed></closer>
                 </div>
                 <pb n="197" xml:id="pg_197" facs="0204"/>
-                <div type="document" xml:id="d123" n="123" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-11-24T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-11-24T23:59:59-05:00">
+                <div type="document" xml:id="d123" n="123">
                     <head>No. 123.<lb/><hi rend="italic">Mr. <persName type="from">Bayard</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Embassy of
@@ -13269,9 +13028,7 @@
                     <p>I have, etc.,</p>
                     <closer><signed><hi rend="smallcaps">T. F. Bayard.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d124" n="124" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-11-24T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-11-24T23:59:59-05:00">
+                <div type="document" xml:id="d124" n="124">
                     <head>No. 124.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Mr. <persName type="to"
                             >Bayard</persName>.</hi></head>
@@ -13285,9 +13042,7 @@
                         war vessel to go to Bluefields. While this information is not fully credited
                         here, you will inquire and report.</p>
                 </div>
-                <div type="document" xml:id="d125" n="125" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-11-27T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-11-27T23:59:59-05:00">
+                <div type="document" xml:id="d125" n="125">
                     <head>No. 125.<lb/><hi rend="italic">Mr. <persName type="from">Bayard</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -13300,9 +13055,7 @@
                         situation.</p>
                     <closer><signed><hi rend="smallcaps">Bayard.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d126" n="126" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-11-27T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-11-27T23:59:59-05:00">
+                <div type="document" xml:id="d126" n="126">
                     <head>No. 126.<lb/><hi rend="italic">Mr. <persName type="from">Bayard</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Embassy of
@@ -13387,9 +13140,7 @@
                         <closer><signed><hi rend="smallcaps">T. F. Bayard.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d127" n="127" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-11-28T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-11-28T23:59:59-05:00">
+                <div type="document" xml:id="d127" n="127">
                     <head>No. 127.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Mr. <persName type="to"
                             >Bayard</persName>.</hi></head>
@@ -13400,9 +13151,7 @@
                     <p>Statements in newspapers of to-day about action of United States, based upon
                         what Great Britain has done or may do at Bluefields, pure fabrication.</p>
                 </div>
-                <div type="document" xml:id="d128" n="128" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-12-03T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-12-03T23:59:59-05:00">
+                <div type="document" xml:id="d128" n="128">
                     <head>No. 128.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Mr. <persName type="to"
                             >Bayard</persName>.</hi></head>
@@ -13433,9 +13182,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d129" n="129" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-12-15T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-12-15T23:59:59-05:00">
+                <div type="document" xml:id="d129" n="129">
                     <head>No. 129.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Mr. <persName type="to"
                             >Baker</persName>.</hi></head>
@@ -13448,9 +13195,7 @@
                         incorporated?</p>
                 </div>
                 <pb n="201" xml:id="pg_201" facs="0208"/>
-                <div type="document" xml:id="d130" n="130" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-12-17T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-12-17T23:59:59-05:00">
+                <div type="document" xml:id="d130" n="130">
                     <head>No. 130.<lb/><hi rend="italic">Mr. <persName type="from">Baker</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -13461,9 +13206,7 @@
                     <p>Mosquito Indians have surrendered their rights under the treaty of 1860 and
                         been incorporated with Nicaragua.</p>
                 </div>
-                <div type="document" xml:id="d131" n="131" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-12-17T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-12-17T23:59:59-05:00">
+                <div type="document" xml:id="d131" n="131">
                     <head>No. 131.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Mr. <persName type="to"
                             >Bayard</persName>.</hi></head>
@@ -13477,9 +13220,7 @@
                         and have been incorporated with Nicaragua. This confirms statement made to
                         me by minister from Nicaragua.</p>
                 </div>
-                <div type="document" xml:id="d132" n="132" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-12-19T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-12-19T23:59:59-05:00">
+                <div type="document" xml:id="d132" n="132">
                     <head>No. 132.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Mr. <persName type="to"
                             >Bayard</persName>.</hi></head>
@@ -13494,9 +13235,7 @@
                         consistent with what the Earl of Kimberley told you, and is-not credited
                         here.</p>
                 </div>
-                <div type="document" xml:id="d133" n="133" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-12-20T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-12-20T23:59:59-05:00">
+                <div type="document" xml:id="d133" n="133">
                     <head>No. 133.<lb/><hi rend="italic">Mr. <persName type="from">Bayard</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Telegram.]</seg></opener>
@@ -13509,9 +13248,7 @@
                         States and Great Britain in connection with Nicaraguan, affairs.</p>
                 </div>
                 <pb n="202" xml:id="pg_202" facs="0209"/>
-                <div type="document" xml:id="d134" n="134" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-12-21T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-12-21T23:59:59-05:00">
+                <div type="document" xml:id="d134" n="134">
                     <head>No. 134.<lb/><hi rend="italic">Mr. <persName type="from">McAdoo</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Navy
@@ -13607,9 +13344,7 @@
                             <lb/><signed><hi rend="smallcaps">R. Cabezas.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d135" n="135" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-12-22T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-12-22T23:59:59-05:00">
+                <div type="document" xml:id="d135" n="135">
                     <head>No. 135.<lb/><hi rend="italic">Mr. <persName type="from">Bayard</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Embassy of
@@ -13689,9 +13424,7 @@
                         <closer><signed><hi rend="smallcaps">Kimberley.</hi></signed></closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d136" n="136" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-12-28T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-12-28T23:59:59-05:00">
+                <div type="document" xml:id="d136" n="136">
                     <head>No. 136.<lb/><hi rend="italic">Mr. <persName type="from">Guzman</persName>
                             to Mr. <persName type="to">Gresham</persName>.</hi></head>
                     <opener><seg rendition="#center">[Translation.]</seg></opener>
@@ -13821,9 +13554,7 @@
                     </frus:attachment>
                 </div>
                 <pb n="207" xml:id="pg_207" facs="0214"/>
-                <div type="document" xml:id="d137" n="137" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-12-31T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-12-31T23:59:59-05:00">
+                <div type="document" xml:id="d137" n="137">
                     <head>No. 137.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresliam</persName> to Mr. <persName type="to"
                             >Bayard</persName>.</hi></head>
@@ -13854,9 +13585,7 @@
                     <p>I am, etc.,</p>
                     <closer><signed><hi rend="smallcaps">W. Q. Gresham.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d138" n="138" subtype="historical-document"
-                    frus:doc-dateTime-min="1894-12-31T00:00:00-05:00"
-                    frus:doc-dateTime-max="1894-12-31T23:59:59-05:00">
+                <div type="document" xml:id="d138" n="138">
                     <head>No. 138.<lb/><hi rend="italic">Mr. <persName type="from"
                                 >Gresham</persName> to Dr. <persName type="to"
                             >Guzman</persName>.</hi></head>
