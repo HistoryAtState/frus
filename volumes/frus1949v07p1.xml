@@ -1094,12 +1094,11 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0015"/>
-            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="" frus:doc-dateTime-max="">
+            <div type="compilation" xml:id="comp1">
                 <head>Australasia:</head>
-                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="" frus:doc-dateTime-max="">
+                <div type="chapter" xml:id="ch1">
                     <head>Australia:</head>
-                    <div type="subchapter" xml:id="ch1subch1" frus:doc-dateTime-min=""
-                        frus:doc-dateTime-max="">
+                    <div type="subchapter" xml:id="ch1subch1">
                         <head>Agreement between the United States and Australia respecting a United
                             States educational foundation in Australia</head>
                         <p>[For text of Agreement, signed at Canberra, November 26, 1949, see
@@ -1108,10 +1107,9 @@
                     </div>
                 </div>
                 <pb n="2" xml:id="pg_2" facs="0016"/>
-                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="" frus:doc-dateTime-max="">
+                <div type="chapter" xml:id="ch2">
                     <head>New Zealand</head>
-                    <div type="subchapter" xml:id="ch2subch1" frus:doc-dateTime-min=""
-                        frus:doc-dateTime-max="">
+                    <div type="subchapter" xml:id="ch2subch1">
                         <head>Agreement between the United States and New Zealand respecting a
                             United States educational foundation in New Zealand</head>
                         <p>[For text of Agreement, amending Agreement of September 14, 1948,
@@ -1125,8 +1123,7 @@
             <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
                 frus:doc-dateTime-max="1949-12-31T08:00:00-05:00">
                 <head>East and Southeast Asia:</head>
-                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="" frus:doc-dateTime-max=""
-                    subtype="referral">
+                <div type="chapter" xml:id="ch3" subtype="referral">
                     <head>China</head>
                     <p>(See volumes VIII and IX.)</p>
                 </div>
