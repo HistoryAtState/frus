@@ -218,9 +218,9 @@
         <title>Compilation/Chapter/Subchapter Div Containing Descendant Document Div Check</title>
         <rule
             context="tei:div[@type = ('compilation', 'chapter', 'subchapter')][not(@subtype = ('index', 'referral'))]">
-            <assert role="warn" test="not(./descendant::tei:div[@type = ('document')])">This
-                    <value-of select="@type"/> does not contain a div/@type='document'. Please
-                inspect to verify encoding accuracy.</assert>
+            <assert role="warn" test=".//tei:div[@type = 'document']">This <value-of select="@type"
+                /> does not contain a div/@type='document'. Please inspect to verify encoding
+                accuracy.</assert>
         </rule>
     </pattern>
 
