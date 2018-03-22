@@ -1955,13 +1955,19 @@
                         <frus:file id="0610" path="0007/0075.TIF"/>
                         <frus:pdf bytes="253489" readable="248 KB"/>
                     </div>
-                    <div n="95">
+                    <div type="document" n="95" xml:id="d95" subtype="historical-document"
+                        frus:doc-dateTime-min="1962-03-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1962-03-10T23:59:59-05:00">
                         <head>Memorandum from Bundy to Amb. Ormsby Gore, March 10. Current U.S.
                             positions on test ban issues at Geneva Conference. Attached is memo from
                             Bundy to Battle noting reason for Ormsby Gore memorandum and
                             transmitting copy for information. Secret. 2 pp. Department of State,
                             Presidential Correspondence: Lot 66 D 204, Secretary Rusk’s
                             Conversations with UK Officials, 1961–1962, Vol. 1.</head>
+                        <dateline>
+                            <date when="1962-03-10" ana="#date_undated-inferred-from-document-head"
+                                >March 10, 1962</date>
+                        </dateline>
                         <frus:page-count-according-to-citation>2</frus:page-count-according-to-citation>
                         <frus:file id="0611" path="0007/0076.TIF"/>
                         <frus:file id="0612" path="0007/0077.TIF"/>
