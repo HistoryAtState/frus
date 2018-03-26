@@ -90,7 +90,9 @@
             </titlePage>
             <pb n="[II]" xml:id="pg_II" facs="0007"/>
             <pb n="[1]" xml:id="pg_1" facs="0008"/>
-            <div type="section" xml:id="message-of-the-president">
+            <div type="section" xml:id="message-of-the-president" subtype="historical-document"
+                frus:doc-dateTime-min="1895-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1895-01-03T23:59:59-05:00">
                 <head>Message of the President</head>
                 <p rend="center"><hi rend="smallcaps">in the senate of the united states.</hi></p>
                 <p rend="center"><hi rend="smallcaps">in response to</hi></p>
@@ -99,24 +101,20 @@
                         relating to affairs at Blue fields, in the Mosquito Territory.</hi></p>
                 <p rend="center"><hi rend="smallcaps">January</hi> 3, 1895.—Read, referred to the
                     Committee on Foreign Relations, and ordered to be printed.</p>
-                <frus:attachment>
-                    <p rend="flushleft"><hi rend="italic">To the Senate of the United
-                        States:</hi></p>
-                    <p>In response to the resolution of the Senate of the 4th ultimo, requesting
-                        “any reports or correspondence relating to affairs at Bluefields, in the
-                        Mosquito Territory,” and also information as to “whether any American
-                        citizens have been arrested or the rights of any American citizens at
-                        Bluefields have been interfered with during the past two years by the
-                        Government of Nicaragua,” I transmit herewith a report from the Secretary of
-                        State, with accompanying papers.</p>
-                    <closer><signed><hi rend="smallcaps">Grover Cleveland</hi>.</signed>
-                        <lb/>
-                        <dateline><hi rend="smallcaps">Executive Mansion</hi>,<lb/><placeName><hi
-                                    rend="italic">Washington</hi></placeName>, <date
-                                when="1895-01-03"><hi rend="italic">January 3,
-                            1895</hi></date>.</dateline>
-                    </closer>
-                </frus:attachment>
+                <p rend="flushleft"><hi rend="italic">To the Senate of the United States:</hi></p>
+                <p>In response to the resolution of the Senate of the 4th ultimo, requesting “any
+                    reports or correspondence relating to affairs at Bluefields, in the Mosquito
+                    Territory,” and also information as to “whether any American citizens have been
+                    arrested or the rights of any American citizens at Bluefields have been
+                    interfered with during the past two years by the Government of Nicaragua,” I
+                    transmit herewith a report from the Secretary of State, with accompanying
+                    papers.</p>
+                <closer><signed><hi rend="smallcaps">Grover Cleveland</hi>.</signed>
+                    <lb/>
+                    <dateline><hi rend="smallcaps">Executive Mansion</hi>,<lb/><placeName><hi
+                                rend="italic">Washington</hi></placeName>, <date when="1895-01-03"
+                                ><hi rend="italic">January 3, 1895</hi></date>.</dateline>
+                </closer>
                 <frus:attachment>
                     <p rend="flushleft">The <hi rend="smallcaps">President</hi>:</p>
                     <p>The Secretary of State, to whom was referred a resolution adopted by the
