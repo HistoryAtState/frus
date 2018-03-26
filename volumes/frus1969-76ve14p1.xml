@@ -17,7 +17,7 @@
                 <publisher>Office of the Historian<lb/>Bureau of Public Affairs<lb/>U.S. Department
                     of State</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2008</date>
+                <date type="publication-date">2008</date>
                 <idno type="frus">frus1969-76ve14p1</idno>
             </publicationStmt>
             <sourceDesc>
@@ -44,6 +44,10 @@
             <change>2008-12-30 PA/HO JW: Modified pb placement to correspond to revised
                 historicaldocuments.xq</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1973-01-05T00:00:00-05:00"
+                notAfter="1977-01-03T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -65,7 +69,9 @@
                     <docDate>2008</docDate>
                 </docImprint>
             </titlePage>
-            <div xml:id="preface" type="section">
+            <div xml:id="preface" type="section" subtype="preface"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-03T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -292,7 +298,9 @@
                         Affairs<lb/>December 2008</signed>
                 </closer>
             </div>
-            <div xml:id="sources" type="section">
+            <div xml:id="sources" type="section" subtype="sources"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-03T23:59:59-05:00">
                 <head>Sources</head>
                 <p rend="sourceheadcenterboldbig">Unpublished Sources</p>
                 <p rend="sourcearchiveboldbig">Department of State, Washington, D.C.</p>
@@ -432,7 +440,9 @@
                         <hi rend="italic">Weekly Compilation of Presidential Documents,
                         1973–1976</hi>.</p>
             </div>
-            <div xml:id="terms" type="section">
+            <div xml:id="terms" type="section" subtype="index"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-03T23:59:59-05:00">
                 <head>List of Terms &amp; Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -1866,7 +1876,9 @@
                         Time)</item>
                 </list>
             </div>
-            <div xml:id="persons" type="section">
+            <div xml:id="persons" type="section" subtype="index"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-03T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item>
@@ -3325,9 +3337,11 @@
             </div>
         </front>
         <body>
-            <div xml:id="comp1" type="compilation">
+            <div xml:id="comp1" type="compilation" frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-03T23:59:59-05:00">
                 <head>Documents on the United Nations, 1973-1976</head>
-                <div xml:id="ch1" type="chapter">
+                <div xml:id="ch1" type="chapter" frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-12-30T17:58:00-05:00">
                     <head>United Nations Affairs</head>
                     <div n="1" xml:id="d1" type="document" subtype="historical-document"
                         frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
@@ -14629,7 +14643,8 @@
                         <p>NOTE BY OC/T: POUCHED TO ADDRESSEES.</p>
                     </div>
                 </div>
-                <div xml:id="ch2" type="chapter">
+                <div xml:id="ch2" type="chapter" frus:doc-dateTime-min="1973-03-09T19:45:00-05:00"
+                    frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
                     <head>Issues of Representation in International Organizations</head>
                     <div n="53" xml:id="d53" type="document" subtype="historical-document"
                         frus:doc-dateTime-min="1973-03-09T19:45:00-05:00"
@@ -19949,7 +19964,8 @@
                         <p>Approve [GRF initialed] <lb/>Disapprove</p>
                     </div>
                 </div>
-                <div xml:id="ch3" type="chapter">
+                <div xml:id="ch3" type="chapter" frus:doc-dateTime-min="1973-06-08T09:30:00-05:00"
+                    frus:doc-dateTime-max="1977-01-03T23:59:59-05:00">
                     <head>Population Policy</head>
                     <div n="104" xml:id="d104" type="document" subtype="historical-document"
                         frus:doc-dateTime-min="1973-06-08T09:30:00-05:00"
@@ -24383,7 +24399,8 @@
                         </p>
                     </div>
                 </div>
-                <div xml:id="ch4" type="chapter">
+                <div xml:id="ch4" type="chapter" frus:doc-dateTime-min="1973-06-26T19:41:00-05:00"
+                    frus:doc-dateTime-max="1976-09-23T23:59:59-05:00">
                     <head>Food Policy</head>
                     <div n="128" xml:id="d128" type="document" subtype="historical-document"
                         frus:doc-dateTime-min="1973-06-26T19:41:00-05:00"
@@ -30703,7 +30720,8 @@
                             in deciding the allocation of food assistance.</p>
                     </div>
                 </div>
-                <div xml:id="ch5" type="chapter">
+                <div xml:id="ch5" type="chapter" frus:doc-dateTime-min="1973-08-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-12-10T14:02:00-05:00">
                     <head>Women’s Issues</head>
                     <div n="165" xml:id="d165" type="document" subtype="historical-document"
                         frus:doc-dateTime-min="1973-08-14T00:00:00-05:00"

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="frus1977-80v24">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1977-80v24">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Publishing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2017</date>
+                <date type="publication-date">2017</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -26,9 +27,18 @@
                 <p>Released in 2017</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
+        </encodingDesc>
         <revisionDesc>
             <change>2017-10-25: Created TEI shell</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="2017-10-25T00:00:00-04:00"
+                notAfter="2017-10-25T23:59:59-04:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -58,7 +68,9 @@
                     (866) 512-1800; DC area (202) 512-1800 Fax: (202) 512-2250 Mail: Stop IDCC,
                     Washington, DC 20402-0001</docImprint>
             </titlePage>
-            <div xml:id="pressrelease" type="section">
+            <div xml:id="pressrelease" type="section" subtype="press-release"
+                frus:doc-dateTime-min="2017-10-25T00:00:00-04:00"
+                frus:doc-dateTime-max="2017-10-25T23:59:59-04:00">
                 <head>Press Release</head>
                 <p rend="right">
                     <hi rend="strong">Office of the Historian<lb/>Bureau of Public

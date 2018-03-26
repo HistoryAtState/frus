@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1932</date>
+                <date type="publication-date">1932</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -68,6 +68,10 @@
             <change>2016-02-02 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1917-03-31T00:00:00-05:00"
+                notAfter="1919-01-13T20:00:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -92,7 +96,9 @@
                     <hi rend="smallcaps">Publication No</hi>. 390</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1917-03-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-01-13T20:00:00-05:00">
                 <head>Contents</head>
                 <p rend="center"><hi rend="italic">VOLUME III</hi></p>
                 <p rend="center">ECONOMIC RELATIONS</p>
@@ -251,7 +257,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0012"/>
             <pb n="VII" xml:id="pg_VII" facs="0013"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1917-03-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-01-13T20:00:00-05:00">
                 <head>List of Principal Persons</head>
                 <list type="names">
                     <item><persName xml:id="p_BND1">Baker, Newton D.</persName>, Secretary of
@@ -466,7 +474,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0016"/>
             <pb n="XI" xml:id="pg_XI" facs="0017"/>
-            <div type="section" xml:id="papers">
+            <div type="section" xml:id="papers" subtype="index"
+                frus:doc-dateTime-min="1917-03-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-01-13T20:00:00-05:00">
                 <head>List of Papers</head>
                 <p>[The arrangement of this list is by chapters, the papers therein appearing
                     chronologically under date of writing. Unless otherwise specified, the
@@ -4734,12 +4744,16 @@
             <pb n="[]" xml:id="pg-seq-0049" facs="0049"/>
             <pb n="[]" xml:id="pg-seq-0050" facs="0050"/>
             <pb n="1" xml:id="pg_1" facs="0051"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1917-03-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-01-13T20:00:00-05:00">
                 <head>Russia<lb/> Economic Relations</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1917-04-03T18:00:00-05:00"
+                    frus:doc-dateTime-max="1919-01-08T23:59:59-05:00">
                     <head>Chapter I. Loans to the Provisional Government—Soviet Financial
                         Decrees</head>
-                    <div type="subchapter" xml:id="ch1subch1">
+                    <div type="subchapter" xml:id="ch1subch1"
+                        frus:doc-dateTime-min="1917-04-03T18:00:00-05:00"
+                        frus:doc-dateTime-max="1917-11-24T15:00:00-05:00">
                         <head>Offer of a credit to the Russian Provisional Government, April 3,
                             1917—Credit of one hundred million dollars established for the purchase
                             of supplies, May 16, 1917—Special credit of seventy-five million dollars
@@ -6724,7 +6738,9 @@
                         </div>
                     </div>
                     <pb n="29" xml:id="pg_29" facs="0079"/>
-                    <div type="subchapter" xml:id="ch1subch2">
+                    <div type="subchapter" xml:id="ch1subch2"
+                        frus:doc-dateTime-min="1917-12-13T00:00:00-05:00"
+                        frus:doc-dateTime-max="1919-01-08T23:59:59-05:00">
                         <head>Decree of the Soviet government repudiating all foreign state loans,
                             February 3, 1918: Protest by the Diplomatic Corps at Petrograd;
                             resolution of the Inter-Allied Council—Measures interfering with
@@ -8862,9 +8878,12 @@
                     </div>
                 </div>
                 <pb n="57" xml:id="pg_57" facs="0107"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1918-08-11T22:00:00-05:00"
+                    frus:doc-dateTime-max="1919-01-08T23:59:59-05:00">
                     <head>Chapter II. Efforts to Stabilize Russian Currency</head>
-                    <div type="subchapter" xml:id="ch2subch1">
+                    <div type="subchapter" xml:id="ch2subch1"
+                        frus:doc-dateTime-min="1918-08-11T22:00:00-05:00"
+                        frus:doc-dateTime-max="1918-10-01T15:00:00-05:00">
                         <head>Proposals for financial assistance to the provisional government of
                             the northern region and for the provision of currency in connection with
                             Allied and American operations in Russia—British plan of an office of
@@ -9927,7 +9946,9 @@
                             </closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch2subch2">
+                    <div type="subchapter" xml:id="ch2subch2"
+                        frus:doc-dateTime-min="1918-10-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1919-01-08T23:59:59-05:00">
                         <head>American plan of an all-Russian currency based on commodity
                             transactions—Execution of the British plan with American consent;
                             difficulties encountered—French plan for a similar emergency currency
@@ -11839,9 +11860,12 @@
                     </div>
                 </div>
                 <pb n="102" xml:id="pg_102" facs="0152"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1917-11-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1918-12-30T17:00:00-05:00">
                     <head>Chapter III. Commercial Relations and Relief</head>
-                    <div type="subchapter" xml:id="ch3subch1">
+                    <div type="subchapter" xml:id="ch3subch1"
+                        frus:doc-dateTime-min="1917-11-24T00:00:00-05:00"
+                        frus:doc-dateTime-max="1918-07-17T17:00:00-05:00">
                         <head>Restriction of exports to Russia after the revolution of November
                             1917—Limited shipments of nonmilitary goods permitted—Projects for
                             buying up supplies in Russia to prevent their acquisition by Germany;
@@ -14346,7 +14370,9 @@
                             </closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch3subch2">
+                    <div type="subchapter" xml:id="ch3subch2"
+                        frus:doc-dateTime-min="1918-07-17T00:00:00-05:00"
+                        frus:doc-dateTime-max="1918-10-03T18:00:00-05:00">
                         <head>American project of an economic and educational mission to Siberia,
                             July 17, 1918—Organization in England of the Siberian Supply
                             Co.—Arrangements with the Allies for provisioning the northern
@@ -15339,7 +15365,9 @@
                             </closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch3subch3">
+                    <div type="subchapter" xml:id="ch3subch3"
+                        frus:doc-dateTime-min="1918-10-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1918-12-30T17:00:00-05:00">
                         <head>Establishment of the War Trade Board of the United States Russian
                             Bureau, Inc., November 5, 1918—Refusal of sanction for relief in
                             cooperation with Soviet authorities—Accomplishments of the “Goods
@@ -17284,7 +17312,9 @@
                             </closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch3subch4">
+                    <div type="subchapter" xml:id="ch3subch4"
+                        frus:doc-dateTime-min="1918-01-28T17:00:00-05:00"
+                        frus:doc-dateTime-max="1918-08-31T20:00:00-05:00">
                         <head>Chinese embargo on exports to Siberia: withdrawal at the instance of
                             the United States</head>
                         <div type="document" xml:id="d234" n="234" subtype="historical-document"
@@ -18205,9 +18235,12 @@
                     </div>
                 </div>
                 <pb n="183" xml:id="pg_183" facs="0233"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1917-03-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1919-01-13T20:00:00-05:00">
                     <head>Chapter IV. Assistance in Railway Transportation</head>
-                    <div type="subchapter" xml:id="ch4subch1">
+                    <div type="subchapter" xml:id="ch4subch1"
+                        frus:doc-dateTime-min="1917-03-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1917-11-07T16:00:00-05:00">
                         <head>Arrangements for an American commission under <persName
                                 corresp="#p_SJF1">John F. Stevens</persName> to investigate and
                             advise regarding operation of the Trans-Siberian Railway and to control
@@ -20084,7 +20117,9 @@
                             </closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch4subch2">
+                    <div type="subchapter" xml:id="ch4subch2"
+                        frus:doc-dateTime-min="1917-11-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1918-01-24T19:00:00-05:00">
                         <head>Uncertainty as to operations following the November
                             revolution—Departure from the United States of the Russian Railway
                             Service Corps under <persName corresp="#p_ECH1">Col. George
@@ -21137,7 +21172,9 @@
                             </closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch4subch3">
+                    <div type="subchapter" xml:id="ch4subch3"
+                        frus:doc-dateTime-min="1918-02-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1918-08-26T15:00:00-05:00">
                         <head>Establishment of <persName corresp="#p_SJF1">Stevens</persName> and a
                             portion of the Railway Service Corps at Harbin for service on the
                             Chinese Eastern Railway—Recommendation of Ambassador <persName
@@ -22929,7 +22966,9 @@
                             </closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch4subch4">
+                    <div type="subchapter" xml:id="ch4subch4"
+                        frus:doc-dateTime-min="1918-08-30T16:00:00-05:00"
+                        frus:doc-dateTime-max="1918-10-07T12:00:00-05:00">
                         <head>Proposal by the American Government to place <persName
                                 corresp="#p_SJF1">Stevens</persName> in charge of the Trans-Siberian
                             and Chinese Eastern Railways, August 30, 1918—Objections by the Japanese
@@ -25404,7 +25443,9 @@
                             </closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch4subch5">
+                    <div type="subchapter" xml:id="ch4subch5"
+                        frus:doc-dateTime-min="1918-10-13T17:00:00-05:00"
+                        frus:doc-dateTime-max="1919-01-13T20:00:00-05:00">
                         <head>Plan for management of the railways by <persName corresp="#p_SJF1"
                                 >Stevens</persName>, October 13, 1918—Japanese objections and
                             counter-proposal for an inter-Allied committee with an advisory
@@ -27730,9 +27771,12 @@
                     </div>
                 </div>
                 <pb n="308" xml:id="pg_308" facs="0358"/>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1918-03-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1918-08-16T23:59:59-05:00">
                     <head>Chapter V. Treatment of Russian Shipping</head>
-                    <div type="subchapter" xml:id="ch5subch1">
+                    <div type="subchapter" xml:id="ch5subch1"
+                        frus:doc-dateTime-min="1918-03-16T00:00:00-05:00"
+                        frus:doc-dateTime-max="1918-08-16T23:59:59-05:00">
                         <head>Charter of several ships of the Volunteer Fleet to the United States
                             Shipping Board, March 30, 1918—Requisition of Russian ships by the
                             British Government—Agreement by the United States to the exclusion of
@@ -28462,7 +28506,9 @@
         </body>
         <back>
             <pb n="[317]" xml:id="pg_317" facs="0367"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1917-03-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-01-13T20:00:00-05:00">
                 <head>Index</head>
                 <pb n="[318]" xml:id="pg_318" facs="0368"/>
                 <pb n="319" xml:id="pg_319" facs="0369"/>

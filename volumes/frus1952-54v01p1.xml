@@ -23,7 +23,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1983</date>
+                <date type="publication-date">1983</date>
                 <idno type="dospubno">9366</idno>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -49,6 +49,10 @@
         <revisionDesc>
             <change>2009-09-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1951-10-27T00:00:00-05:00"
+                notAfter="1954-12-28T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -83,7 +87,9 @@
                     9366<lb/>Office of the Historian<lb/>Bureau of Public Affairs</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1951-10-27T00:00:00-05:00"
+                frus:doc-dateTime-max="1954-12-28T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -159,7 +165,9 @@
                             rend="italic">Bureau of Public Affairs</hi></signed></closer>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1951-10-27T00:00:00-05:00"
+                frus:doc-dateTime-max="1954-12-28T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III">Preface</ref></item>
@@ -212,7 +220,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1951-10-27T00:00:00-05:00"
+                frus:doc-dateTime-max="1954-12-28T23:59:59-05:00">
                 <head>List of Sources</head>
                 <p>The principal source of documentation for this volume was the indexed central
                     (decimal) files of the Department of State. Documents from the central files
@@ -727,7 +737,9 @@
             </div>
             <pb n="[XVI]" xml:id="pg_XVI" facs="0020"/>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1951-10-27T00:00:00-05:00"
+                frus:doc-dateTime-max="1954-12-28T23:59:59-05:00">
                 <head>List of Abbreviations and Symbols</head>
                 <p>Editor’s Note—This list does not include standard abbreviations in common usage;
                     unusual abbreviations of rare occurrence which are clarified at appropriate
@@ -1272,7 +1284,8 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0027"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1952-11-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1953-01-16T23:59:59-05:00">
                 <head>Foreign policy aspects of administrative transition: November 1952–January
                     1953</head>
                 <div type="document" xml:id="d1" n="1" subtype="historical-document"
@@ -3422,7 +3435,8 @@
                 </div>
             </div>
             <pb n="45" xml:id="pg_45" facs="0071"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1952-12-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1954-12-14T08:30:00-05:00">
                 <head>General foreign economic policy of the united states</head>
                 <div type="document" xml:id="d14" n="14" subtype="editorial-note">
                     <head><hi rend="italic">Editorial Note</hi></head>
@@ -6646,7 +6660,8 @@
                 </div>
             </div>
             <pb n="114" xml:id="pg_114" facs="0140"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1952-01-11T11:39:00-05:00"
+                frus:doc-dateTime-max="1954-12-17T09:05:00-05:00">
                 <head>United States international trade and commercial policy<note n="1"
                         xml:id="comp3fn1">For previous documentation concerning this subject, see
                             <ref target="frus1951v01#pg_1225"><hi rend="italic">Foreign
@@ -12323,7 +12338,8 @@
                 </div>
             </div>
             <pb n="227" xml:id="pg_227" facs="0253"/>
-            <div type="compilation" xml:id="comp4">
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1952-04-22T00:00:00-05:00"
+                frus:doc-dateTime-max="1954-11-03T23:59:59-05:00">
                 <head>United States foreign investment and economic development policy<note n="1"
                         xml:id="comp4fn1">For previous documentation related to this subject, see
                             <ref target="frus1951v01#pg_1225"><hi rend="italic">Foreign
@@ -16272,7 +16288,8 @@
                 </div>
             </div>
             <pb n="306" xml:id="pg_306" facs="0332"/>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" xml:id="comp5" frus:doc-dateTime-min="1952-01-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1954-11-05T23:59:59-05:00">
                 <head>United States international monetary and financial policy<note n="1"
                         xml:id="comp5fn1">For previous documentation concerning this subject, see
                             <ref target="frus1951v01#pg_1573"><hi rend="italic">Foreign
@@ -20471,7 +20488,8 @@
                 </div>
             </div>
             <pb n="385" xml:id="pg_385" facs="0411"/>
-            <div type="compilation" xml:id="comp6">
+            <div type="compilation" xml:id="comp6" frus:doc-dateTime-min="1952-02-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1954-12-28T23:59:59-05:00">
                 <head>United States international transportation and communications policy</head>
                 <div type="document" xml:id="d122" n="122" subtype="historical-document"
                     frus:doc-dateTime-min="1952-02-18T00:00:00-05:00"
@@ -24008,7 +24026,8 @@
                 </div>
             </div>
             <pb n="460" xml:id="pg_460" facs="0486"/>
-            <div type="compilation" xml:id="comp7">
+            <div type="compilation" xml:id="comp7" frus:doc-dateTime-min="1951-10-27T00:00:00-05:00"
+                frus:doc-dateTime-max="1954-12-23T23:59:59-05:00">
                 <head>Foreign assistance policies under the Mutual Security Program<note n="1"
                         xml:id="comp7fn1">For previous documentation on this subject, see <ref
                             target="frus1951v01#pg_266"><hi rend="italic">Foreign Relations,</hi>

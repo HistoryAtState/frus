@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1996</date>
+                <date type="publication-date">1996</date>
                 <idno type="dospubno">10319</idno>
                 <idno type="isbn-10">0160452074</idno>
                 <idno type="isbn-13">9780160452079</idno>
@@ -41,6 +41,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1961-01-31T00:00:00-05:00"
+                notAfter="1963-12-31T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -72,7 +76,9 @@
                     0-16-045207-4</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1961-01-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -443,7 +449,9 @@
                 </postscript>
             </div>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1961-01-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III">Preface</ref></item>
@@ -456,7 +464,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0012"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0013"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1961-01-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T23:59:59-05:00">
                 <head>List of Sources</head>
                 <p rend="center"><hi rend="strong">Unpublished Sources</hi></p>
                 <list type="sources">
@@ -869,7 +879,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1961-01-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><term xml:id="t_AEC1">AEC</term>, Atomic Energy Commission</item>
@@ -1054,7 +1066,9 @@
                     <pb n="XXIII" xml:id="pg_XXIII" facs="0023"/>
                 </list>
             </div>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1961-01-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><persName xml:id="p_AA1">Ahmed, Aziz</persName>, Ambassador of Pakistan to
@@ -1269,7 +1283,8 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0027"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1961-01-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T23:59:59-05:00">
                 <head>South Asia</head>
                 <div type="document" xml:id="d1" n="1" subtype="editorial-note">
                     <head>1. Editorial Note</head>
@@ -10506,7 +10521,9 @@
                                     Komer</persName></hi><note n="3" xml:id="d87fn3">Printed from a
                                 copy that bears this typed signature.</note></signed></closer>
                 </div>
-                <div type="document" xml:id="d88" n="88" subtype="historical-document">
+                <div type="document" xml:id="d88" n="88" subtype="historical-document"
+                    frus:doc-dateTime-min="1962-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-01-10T23:59:59-05:00">
                     <head>88. Paper Prepared by the Bureau of Near Eastern and South Asian
                             Affairs<note n="0" xml:id="d88fn0" type="source">Source: Department of
                             State, Central Files, 611.90/1-1062. Secret. The paper was transmitted
@@ -10514,7 +10531,9 @@
                                 corresp="#p_BLD1">Battle</persName> to <persName>Bundy</persName>
                             dated January 10. The Secretary approved the paper for discussion with
                             the President on January 11 at 5 p.m.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-01-10"
+                            ana="#date_undated-inferred-from-document-content"
+                        >undated</date>.</dateline>
                     <p rend="center">UNITED STATES RELATIONS WITH SOUTH ASIA: MAJOR ISSUES AND
                         RECOMMENDED COURSES OF ACTION</p>
                     <p rend="flushleft"><hi rend="italic">I. Basic Problems and Strategy</hi></p>
@@ -38871,7 +38890,9 @@
         </body>
         <back>
             <pb n="735" xml:id="pg_735" facs="0761"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1961-01-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Adams, J. Wesley, <ref target="#pg_3">3</ref>, <ref target="#pg_36">36<hi

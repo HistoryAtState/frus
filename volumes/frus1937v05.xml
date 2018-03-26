@@ -25,7 +25,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1954</date>
+                <date type="publication-date">1954</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -76,6 +76,10 @@
             <change>2015-05-23 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1929-06-29T20:00:00-05:00"
+                notAfter="1938-01-12T16:00:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -99,7 +103,9 @@
                     Office<lb/>Washington 25, D.C. - Price $3.75 (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1929-06-29T20:00:00-05:00"
+                frus:doc-dateTime-max="1938-01-12T16:00:00-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><hi rend="smallcaps">General</hi>: <list>
@@ -271,9 +277,11 @@
         </front>
         <pb n="1" xml:id="pg_1" facs="0011"/>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1936-09-12T00:00:00-05:00"
+                frus:doc-dateTime-max="1937-12-31T12:00:00-05:00">
                 <head>General:</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1937-06-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-27T23:59:59-05:00">
                     <head>Preliminaries to the Eighth International Conference of American States to
                         be held at Lima in 1938<note n="1" xml:id="ch1fn1">Continued from <ref
                                 target="frus1936v05#pg_1"><hi rend="italic">Foreign Relations</hi>,
@@ -442,7 +450,8 @@
                     </div>
                 </div>
                 <pb n="4" xml:id="pg_4" facs="0014"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1937-04-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-14T23:59:59-05:00">
                     <head>Chaco dispute between Bolivia and Paraguay: the Chaco Peace
                             Conference<note n="1" xml:id="ch2fn1">Continued from <ref
                                 target="frus1936v05#pg_35"><hi rend="italic">Foreign Relations</hi>,
@@ -2707,9 +2716,12 @@
                     </div>
                 </div>
                 <pb n="46" xml:id="pg_46" facs="0056"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1937-04-17T19:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-31T12:00:00-05:00">
                     <head>Boundary disputes:</head>
-                    <div type="subchapter" xml:id="ch3subch1">
+                    <div type="subchapter" xml:id="ch3subch1"
+                        frus:doc-dateTime-min="1937-04-17T19:00:00-05:00"
+                        frus:doc-dateTime-max="1937-12-01T23:59:59-05:00">
                         <head>Ecuador and Peru<note n="1" xml:id="ch3subch1fn1">Continued from <ref
                                     target="frus1936v05#pg_106"><hi rend="italic">Foreign
                                         Relations</hi>, 1936, vol. <hi rend="smallcaps">v</hi>, pp.
@@ -3305,7 +3317,9 @@
                                     Steinhardt</hi></signed></closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch3subch2">
+                    <div type="subchapter" xml:id="ch3subch2"
+                        frus:doc-dateTime-min="1937-08-06T17:00:00-05:00"
+                        frus:doc-dateTime-max="1937-12-31T12:00:00-05:00">
                         <head>Honduras and Nicaragua<note n="13" xml:id="ch3subch2fn13">Continued
                                 from <ref target="frus1931v01#pg_792"><hi rend="italic">Foreign
                                         Relations</hi>, 1931, vol. <hi rend="smallcaps">i</hi>, pp.
@@ -7313,7 +7327,8 @@
                     </div>
                 </div>
                 <pb n="120" xml:id="pg_120" facs="0130"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1936-09-12T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-10-23T23:59:59-05:00">
                     <head>Request of Guatemala that the United States use its good offices with the
                         United Kingdom in support of Guatemalan claims with respect to Belize</head>
                     <div type="document" xml:id="d143" n="143" subtype="historical-document"
@@ -8020,7 +8035,8 @@
                     </div>
                 </div>
                 <pb n="133" xml:id="pg_133" facs="0143"/>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1937-11-13T19:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-20T14:00:00-05:00">
                     <head>Tender of good offices by the United States, Cuba, and Mexico to
                         conciliate differences between the Dominican Republic and Haiti</head>
                     <div type="document" xml:id="d149" n="149" subtype="historical-document"
@@ -8539,7 +8555,8 @@
                     </div>
                 </div>
                 <pb n="142" xml:id="pg_142" facs="0152"/>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1937-07-27T17:00:00-05:00"
+                    frus:doc-dateTime-max="1937-11-02T23:59:59-05:00">
                     <head>Project by Argentina for a multilateral convention on the right of
                         asylum</head>
                     <div type="document" xml:id="d158" n="158" subtype="historical-document"
@@ -8920,7 +8937,8 @@
                     </div>
                 </div>
                 <pb n="149" xml:id="pg_149" facs="0159"/>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1937-08-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-07T23:59:59-05:00">
                     <head>Proposal by the United States to lease destroyers to the American
                         Republics for training purposes</head>
                     <div type="document" xml:id="d161" n="161" subtype="historical-document"
@@ -10337,7 +10355,8 @@
                     </div>
                 </div>
                 <pb n="175" xml:id="pg_175" facs="0185"/>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1937-01-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-22T23:59:59-05:00">
                     <head>Cooperation of the United States with other governments in the
                         construction of the Inter-American Highway<note n="1" xml:id="ch8fn1"
                             >Continued from <ref target="frus1936v01#pg_151"><hi rend="italic"
@@ -11568,7 +11587,8 @@
                     </div>
                 </div>
                 <pb n="198" xml:id="pg_198" facs="0208"/>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1937-09-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-09-26T19:00:00-05:00">
                     <head>Inter-American Technical Aviation Conference held at Lima, September
                         16–23, 1937</head>
                     <p>[<hi rend="smallcaps">Bibliographical Note</hi>: <hi rend="italic">Actas y
@@ -12266,14 +12286,18 @@
                     </div>
                 </div>
                 <pb n="212" xml:id="pg_212" facs="0222"/>
-                <div type="chapter" xml:id="ch10">
+                <div type="chapter" subtype="referral" xml:id="ch10"
+                    frus:doc-dateTime-min="1937-12-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-13T23:59:59-05:00">
                     <head>Arrangement between the United States of America and other American
                         Republics respecting radio communications, and annex, signed at Habana
                         December 13, 1937</head>
                     <p>[For text of arrangement, see Department of State Executive Agreement Series
                         No. 200, or 54 Stat. 2514.]</p>
                 </div>
-                <div type="chapter" xml:id="ch11">
+                <div type="chapter" subtype="referral" xml:id="ch11"
+                    frus:doc-dateTime-min="1937-12-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-13T23:59:59-05:00">
                     <head>Agreement between the United States of America, Canada, Cuba, Dominican
                         Republic, Haiti, and Mexico respecting regional broadcasting, signed at
                         Habana December 13, 1937</head>
@@ -12282,9 +12306,11 @@
                 </div>
             </div>
             <pb n="213" xml:id="pg_213" facs="0223"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1937-02-02T14:00:00-05:00"
+                frus:doc-dateTime-max="1938-01-04T23:59:59-05:00">
                 <head>Argentina:</head>
-                <div type="chapter" xml:id="ch12">
+                <div type="chapter" xml:id="ch12" frus:doc-dateTime-min="1937-08-26T18:00:00-05:00"
+                    frus:doc-dateTime-max="1938-01-04T23:59:59-05:00">
                     <head>Preliminary discussions respecting a trade agreement between the United
                         States and Argentina<note n="1" xml:id="ch12fn1">Continued from <ref
                                 target="frus1936v05#pg_174"><hi rend="italic">Foreign
@@ -13519,7 +13545,8 @@
                     </div>
                 </div>
                 <pb n="235" xml:id="pg_235" facs="0245"/>
-                <div type="chapter" xml:id="ch13">
+                <div type="chapter" xml:id="ch13" frus:doc-dateTime-min="1937-02-02T14:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-31T14:00:00-05:00">
                     <head>Efforts of the Department of State to secure equitable treatment for
                         American interests with respect to Argentine exchange restrictions<note
                             n="22" xml:id="ch13fn22">Continued from <ref target="frus1936v05#pg_200"
@@ -14324,9 +14351,11 @@
                 </div>
             </div>
             <pb n="249" xml:id="pg_249" facs="0259"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1937-01-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1937-12-18T09:00:00-05:00">
                 <head>Bolivia:</head>
-                <div type="chapter" xml:id="ch14">
+                <div type="chapter" xml:id="ch14" frus:doc-dateTime-min="1937-07-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-07-22T23:59:59-05:00">
                     <head>Revolution in Bolivia; recognition of the Busch Government</head>
                     <div type="document" xml:id="d255" n="255" subtype="historical-document"
                         frus:doc-dateTime-min="1937-07-09T00:00:00-05:00"
@@ -15584,7 +15613,8 @@
                     </div>
                 </div>
                 <pb n="271" xml:id="pg_271" facs="0281"/>
-                <div type="chapter" xml:id="ch15">
+                <div type="chapter" xml:id="ch15" frus:doc-dateTime-min="1937-02-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-06-11T23:59:59-05:00">
                     <head>Preliminary discussions respecting a trade agreement between the United
                         States and Bolivia</head>
                     <div type="document" xml:id="d288" n="288" subtype="historical-document"
@@ -15807,7 +15837,8 @@
                         <closer><signed>R. <hi rend="smallcaps">Henry Norweb</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch16">
+                <div type="chapter" xml:id="ch16" frus:doc-dateTime-min="1937-01-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-18T09:00:00-05:00">
                     <head>Informal assistance to the Standard Oil Company of New Jersey in
                         connection with the confiscation of its properties in Bolivia</head>
                     <div type="document" xml:id="d292" n="292" subtype="historical-document"
@@ -17798,9 +17829,11 @@
                 </div>
             </div>
             <pb n="312" xml:id="pg_312" facs="0322"/>
-            <div type="compilation" xml:id="comp4">
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1937-01-16T00:00:00-05:00"
+                frus:doc-dateTime-max="1938-01-12T16:00:00-05:00">
                 <head>Brazil:</head>
-                <div type="chapter" xml:id="ch17">
+                <div type="chapter" xml:id="ch17" frus:doc-dateTime-min="1937-11-10T17:00:00-05:00"
+                    frus:doc-dateTime-max="1938-01-11T23:59:59-05:00">
                     <head>Abrogation of Brazilian constitution and promulgation of a new one
                         continuing President Vargas in office; continuance of diplomatic relations
                         without formal act of recognition</head>
@@ -18082,7 +18115,8 @@
                             Hackworth</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch18">
+                <div type="chapter" xml:id="ch18" frus:doc-dateTime-min="1937-07-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-07-15T23:59:59-05:00">
                     <head>Operation of the trade agreement between the United States and Brazil<note
                             n="2" xml:id="ch18fn2">For text of the trade agreement signed February
                             2, 1935, see Department of State Executive Agreement Series No. 82, or
@@ -18172,7 +18206,8 @@
                             Government.”</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch19">
+                <div type="chapter" xml:id="ch19" frus:doc-dateTime-min="1937-03-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1938-01-12T16:00:00-05:00">
                     <head>Representations to the Brazilian Government regarding the German-Brazilian
                         commercial agreement<note n="6" xml:id="ch19fn6">Continued from <ref
                                 target="frus1936v05#pg_247"><hi rend="italic">Foreign
@@ -19929,7 +19964,8 @@
                         <closer><signed><hi rend="smallcaps">Hull</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch20">
+                <div type="chapter" xml:id="ch20" frus:doc-dateTime-min="1937-11-06T12:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-26T14:00:00-05:00">
                     <head>Representations to the Brazilian Government regarding the suspension of
                         service on certain foreign debts</head>
                     <div type="document" xml:id="d378" n="378" subtype="historical-document"
@@ -20494,7 +20530,8 @@
                         <closer><signed><hi rend="smallcaps">Caffery</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch21">
+                <div type="chapter" xml:id="ch21" frus:doc-dateTime-min="1937-04-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-23T23:59:59-05:00">
                     <head>Representations to the Brazilian Government regarding proposed insurance
                         legislation affecting the rights of American companies</head>
                     <div type="document" xml:id="d394" n="394" subtype="historical-document"
@@ -21087,7 +21124,8 @@
                                 Embassy</hi></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch22">
+                <div type="chapter" xml:id="ch22" frus:doc-dateTime-min="1937-05-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-07-08T23:59:59-05:00">
                     <head>Representations to the Brazilian Government for protection of American
                         interests affected by proposed legislation against alien ownership of
                         defense industries</head>
@@ -21319,7 +21357,8 @@
                         </postscript>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch23">
+                <div type="chapter" xml:id="ch23" frus:doc-dateTime-min="1937-01-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-06-26T23:59:59-05:00">
                     <head>Good offices of the Department of State in obtaining the assistance of the
                         American Navy in the building of warships in Brazil</head>
                     <div type="document" xml:id="d409" n="409" subtype="historical-document"
@@ -21438,9 +21477,11 @@
                 </div>
             </div>
             <pb n="378" xml:id="pg_378" facs="0388"/>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" xml:id="comp5" frus:doc-dateTime-min="1937-01-08T10:00:00-05:00"
+                frus:doc-dateTime-max="1937-12-31T20:00:00-05:00">
                 <head>Chile:</head>
-                <div type="chapter" xml:id="ch24">
+                <div type="chapter" xml:id="ch24" frus:doc-dateTime-min="1937-01-08T10:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-31T20:00:00-05:00">
                     <head>Negotiations respecting a provisional commercial agreement between the
                         United States and Chile<note n="1" xml:id="ch24fn1">Continued from <ref
                                 target="frus1936v05#pg_312"><hi rend="italic">Foreign
@@ -24325,7 +24366,8 @@
                         <closer><signed><hi rend="smallcaps">Hull</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch25">
+                <div type="chapter" xml:id="ch25" frus:doc-dateTime-min="1937-05-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-10-30T23:59:59-05:00">
                     <head>Efforts of the Department of State to secure equitable treatment for
                         American interests with respect to Chilean exchange restrictions<note n="53"
                             xml:id="ch25fn53">Continued from <ref target="frus1936v05#pg_324"><hi
@@ -24704,9 +24746,11 @@
                 </div>
             </div>
             <pb n="438" xml:id="pg_438" facs="0448"/>
-            <div type="compilation" xml:id="comp6">
+            <div type="compilation" xml:id="comp6" frus:doc-dateTime-min="1937-12-22T00:00:00-05:00"
+                frus:doc-dateTime-max="1937-12-23T23:59:59-05:00">
                 <head>Colombia:</head>
-                <div type="chapter" xml:id="ch26">
+                <div type="chapter" xml:id="ch26" frus:doc-dateTime-min="1937-12-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-23T23:59:59-05:00">
                     <head>Suggestion by the President of Colombia that the United States and
                         Colombia cooperate in surveillance of areas adjacent to the Panama
                         Canal</head>
@@ -24789,9 +24833,11 @@
                 </div>
             </div>
             <pb n="440" xml:id="pg_440" facs="0450"/>
-            <div type="compilation" xml:id="comp7">
+            <div type="compilation" xml:id="comp7" frus:doc-dateTime-min="1937-02-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1937-11-11T12:00:00-05:00">
                 <head>Dominican Republic:</head>
-                <div type="chapter" xml:id="ch27">
+                <div type="chapter" xml:id="ch27" frus:doc-dateTime-min="1937-02-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-11-11T12:00:00-05:00">
                     <head>Negotiations for a convention between the United States and the Dominican
                         Republic modifying the convention of December 27, 1924, regarding Dominican
                         customs revenue</head>
@@ -26211,9 +26257,11 @@
                 </div>
             </div>
             <pb n="468" xml:id="pg_468" facs="0478"/>
-            <div type="compilation" xml:id="comp8">
+            <div type="compilation" xml:id="comp8" frus:doc-dateTime-min="1936-12-30T00:00:00-05:00"
+                frus:doc-dateTime-max="1937-12-01T17:00:00-05:00">
                 <head>Ecuador:</head>
-                <div type="chapter" xml:id="ch28">
+                <div type="chapter" xml:id="ch28" frus:doc-dateTime-min="1937-07-16T17:00:00-05:00"
+                    frus:doc-dateTime-max="1937-11-03T23:59:59-05:00">
                     <head>Forced resignation of President Paez of Ecuador; recognition of the
                         Enriquez Government</head>
                     <div type="document" xml:id="d471" n="471" subtype="historical-document"
@@ -26966,7 +27014,8 @@
                             Gonzalez</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch29">
+                <div type="chapter" xml:id="ch29" frus:doc-dateTime-min="1936-12-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-01T17:00:00-05:00">
                     <head>Negotiations respecting a trade agreement between the United States and
                             Ecuador<note n="14" xml:id="ch29fn14">For previous correspondence, see
                                 <ref target="frus1936v05#pg_503"><hi rend="italic">Foreign
@@ -29267,9 +29316,12 @@
                 </div>
             </div>
             <pb n="522" xml:id="pg_522" facs="0532"/>
-            <div type="compilation" xml:id="comp9">
+            <div type="compilation" xml:id="comp9" frus:doc-dateTime-min="1937-02-19T00:00:00-05:00"
+                frus:doc-dateTime-max="1937-08-13T23:59:59-05:00">
                 <head>El Salvador:</head>
-                <div type="chapter" xml:id="ch30">
+                <div type="chapter" subtype="referral" xml:id="ch30"
+                    frus:doc-dateTime-min="1937-02-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-02-19T23:59:59-05:00">
                     <head>Reciprocal trade agreement between the United States and El Salvador,
                         signed February 19, 1937<note n="1" xml:id="ch30fn1">For previous
                             correspondence, see <ref target="frus1936v05#pg_558"><hi rend="italic"
@@ -29278,7 +29330,8 @@
                     <p>[For the text of the agreement, signed at San Salvador, see Department of
                         State Executive Agreement Series No. 101, or 50 Stat. 1564.]</p>
                 </div>
-                <div type="chapter" xml:id="ch31">
+                <div type="chapter" xml:id="ch31" frus:doc-dateTime-min="1937-07-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-08-13T23:59:59-05:00">
                     <head>Policy of non-interference in the internal affairs of other American
                         Republics as applied to proposed continuance in office of President
                         Martinez</head>
@@ -29467,9 +29520,12 @@
                 </div>
             </div>
             <pb n="526" xml:id="pg_526" facs="0536"/>
-            <div type="compilation" xml:id="comp10">
+            <div type="compilation" xml:id="comp10"
+                frus:doc-dateTime-min="1937-02-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1937-12-23T16:00:00-05:00">
                 <head>Haiti:</head>
-                <div type="chapter" xml:id="ch32">
+                <div type="chapter" xml:id="ch32" frus:doc-dateTime-min="1937-03-04T12:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-23T16:00:00-05:00">
                     <head>Postponement of negotiations respecting the termination of financial
                         control in Haiti pending efforts by Haiti to obtain a refunding loan<note
                             n="1" xml:id="ch32fn1">For previous correspondence regarding
@@ -31353,7 +31409,8 @@
                         <closer><signed><hi rend="smallcaps">Mayer</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch33">
+                <div type="chapter" xml:id="ch33" frus:doc-dateTime-min="1937-02-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-10-16T09:00:00-05:00">
                     <head>Good offices of the United States in negotiations for a renewal of the
                         Franco-Haitian commercial agreement; and in inducing France not to inject
                         the 1910 loan matter therein<note n="49" xml:id="ch33fn49">For previous
@@ -33126,9 +33183,12 @@
                 </div>
             </div>
             <pb n="594" xml:id="pg_594" facs="0604"/>
-            <div type="compilation" xml:id="comp11">
+            <div type="compilation" xml:id="comp11"
+                frus:doc-dateTime-min="1937-03-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1937-11-04T23:59:59-05:00">
                 <head>Honduras:</head>
-                <div type="chapter" xml:id="ch34">
+                <div type="chapter" xml:id="ch34" frus:doc-dateTime-min="1937-09-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-11-04T23:59:59-05:00">
                     <head>Reservation by the United States of its rights in connection with the
                         provision of the Honduran constitution regarding the extension of
                         territorial waters</head>
@@ -33353,7 +33413,8 @@
                         </frus:attachment>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch35">
+                <div type="chapter" xml:id="ch35" frus:doc-dateTime-min="1937-03-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-11-02T23:59:59-05:00">
                     <head>Opposition of the United States to employment of American aviators in
                         active military operations by Honduras</head>
                     <div type="document" xml:id="d600" n="600" subtype="historical-document"
@@ -33596,9 +33657,12 @@
                 </div>
             </div>
             <pb n="602" xml:id="pg_602" facs="0612"/>
-            <div type="compilation" xml:id="comp12">
+            <div type="compilation" xml:id="comp12"
+                frus:doc-dateTime-min="1929-06-29T20:00:00-05:00"
+                frus:doc-dateTime-max="1937-12-31T19:00:00-05:00">
                 <head>Mexico:</head>
-                <div type="chapter" xml:id="ch36">
+                <div type="chapter" xml:id="ch36" frus:doc-dateTime-min="1936-12-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-23T23:59:59-05:00">
                     <head>Representations against further expropriation by the Mexican Government of
                         lands owned by American citizens until authorization for payment be
                             made<note n="1" xml:id="ch36fn1">Continued from <ref
@@ -35965,7 +36029,8 @@
                         </frus:attachment>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch37">
+                <div type="chapter" xml:id="ch37" frus:doc-dateTime-min="1937-07-02T18:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-31T19:00:00-05:00">
                     <head>Concern of the United States respecting difficulties experienced by
                         American petroleum interests in Mexico<note n="37" xml:id="ch37fn37">For
                             previous correspondence see <ref target="frus1935v04#pg_764"><hi
@@ -37781,7 +37846,8 @@
                         <closer><signed><hi rend="smallcaps">Hull</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch38">
+                <div type="chapter" xml:id="ch38" frus:doc-dateTime-min="1929-06-29T20:00:00-05:00"
+                    frus:doc-dateTime-max="1937-11-29T23:59:59-05:00">
                     <head>Efforts of the Department of State to protect interests of American
                         holders of bonds of Mexican National Railways upon its expropriation by the
                         Mexican Government</head>
@@ -38473,7 +38539,8 @@
                             number of bondholders who assent.</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch39">
+                <div type="chapter" xml:id="ch39" frus:doc-dateTime-min="1937-11-16T15:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-30T23:59:59-05:00">
                     <head>Discussion of an agreement between the United States and Mexico for a lump
                         sum settlement of general claims</head>
                     <div type="document" xml:id="d671" n="671" subtype="historical-document"
@@ -38947,7 +39014,8 @@
                                     >Walton Moore</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch40">
+                <div type="chapter" xml:id="ch40" frus:doc-dateTime-min="1937-03-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-03-11T23:59:59-05:00">
                     <head>Treaty between the United States and Mexico terminating article VIII of
                         the boundary treaty of December 30, 1853, signed April 13, 1937</head>
                     <div type="document" xml:id="d677" n="677" subtype="historical-document"
@@ -39002,7 +39070,8 @@
                         </postscript>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch41">
+                <div type="chapter" xml:id="ch41" frus:doc-dateTime-min="1936-09-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-07-22T23:59:59-05:00">
                     <head>Representations to the Mexican Government regarding the failure of Mexican
                         courts to punish adequately the murderer of an American citizen</head>
                     <div type="document" xml:id="d678" n="678" subtype="historical-document"
@@ -39833,9 +39902,13 @@
                 </div>
             </div>
             <pb n="716" xml:id="pg_716" facs="0726"/>
-            <div type="compilation" xml:id="comp13">
+            <div type="compilation" xml:id="comp13"
+                frus:doc-dateTime-min="1937-08-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1937-08-17T23:59:59-05:00">
                 <head>Panama:</head>
-                <div type="chapter" xml:id="ch42">
+                <div type="chapter" subtype="referral" xml:id="ch42"
+                    frus:doc-dateTime-min="1937-08-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-08-17T23:59:59-05:00">
                     <head>Agreement between the United States and Panama providing for the mutual
                         recognition of ship measurement certificates, signed August 17, 1937</head>
                     <p>[For text of the agreement, signed at Washington, see Department of State
@@ -39843,9 +39916,12 @@
                 </div>
             </div>
             <pb n="717" xml:id="pg_717" facs="0727"/>
-            <div type="compilation" xml:id="comp14">
+            <div type="compilation" xml:id="comp14"
+                frus:doc-dateTime-min="1937-05-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1937-09-17T23:59:59-05:00">
                 <head>Paraguay:</head>
-                <div type="chapter" xml:id="ch43">
+                <div type="chapter" xml:id="ch43" frus:doc-dateTime-min="1937-05-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1937-09-17T23:59:59-05:00">
                     <head>Revolution in Paraguay; recognition of the Paiva Government</head>
                     <div type="document" xml:id="d687" n="687" subtype="historical-document"
                         frus:doc-dateTime-min="1937-05-04T00:00:00-05:00"
@@ -41587,9 +41663,12 @@
                 </div>
             </div>
             <pb n="746" xml:id="pg_746" facs="0756"/>
-            <div type="compilation" xml:id="comp15">
+            <div type="compilation" xml:id="comp15"
+                frus:doc-dateTime-min="1937-01-11T18:00:00-05:00"
+                frus:doc-dateTime-max="1937-12-17T15:00:00-05:00">
                 <head>Venezuela:</head>
-                <div type="chapter" xml:id="ch44">
+                <div type="chapter" xml:id="ch44" frus:doc-dateTime-min="1937-01-11T18:00:00-05:00"
+                    frus:doc-dateTime-max="1937-12-17T15:00:00-05:00">
                     <head>Negotiations respecting a trade agreement between the United States and
                             Venezuela<note n="1" xml:id="ch44fn1">For previous correspondence, see
                                 <ref target="frus1936v05#pg_955"><hi rend="italic">Foreign
@@ -44636,7 +44715,9 @@
             </div>
         </body>
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1929-06-29T20:00:00-05:00"
+                frus:doc-dateTime-max="1938-01-12T16:00:00-05:00">
                 <head>Index</head>
                 <pb n="799" xml:id="pg_799" facs="0809"/>
                 <list type="index">

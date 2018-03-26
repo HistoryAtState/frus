@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1993</date>
+                <date type="publication-date">1993</date>
                 <idno type="dospubno">10004</idno>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13">9780160382536</idno>
@@ -39,6 +39,10 @@
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1955-01-07T00:00:00-05:00"
+                notAfter="1957-12-31T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -73,7 +77,9 @@
                     20402-9328<lb/>ISBN 0-16-038253-X</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1955-01-07T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major United States foreign policy
@@ -402,7 +408,9 @@
                 </postscript>
             </div>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1955-01-07T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III">Preface</ref></item>
@@ -419,7 +427,9 @@
             </div>
             <pb n="XII" xml:id="pg_XII" facs="0016"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0017"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1955-01-07T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>List of Unpublished Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -654,7 +664,9 @@
                 </list>
             </div>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1955-01-07T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AAA1">AAA</term>,</hi> anti-aircraft
@@ -931,7 +943,9 @@
             </div>
             <pb n="XX" xml:id="pg_XX" facs="0024"/>
             <pb n="XXI" xml:id="pg_XXI" facs="0025"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1955-01-07T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AR1">Amory, Robert</persName>,</hi>
@@ -1148,10 +1162,12 @@
             <pb n="[XXIV]" xml:id="pg_XXIV" facs="0028"/>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1955-01-07T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <pb n="1" xml:id="pg_1" facs="0029"/>
                 <head>Korea</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1955-01-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                     <head>U.S. Efforts to Secure the Withdrawal of the Neutral Nations Supervisory
                         Commission From Korea; The Question of the Introduction of Advanced Weapons
                         Into Korea</head>
@@ -32652,7 +32668,9 @@
         <back>
             <pb n="538" xml:id="pg_538" facs="0566"/>
             <pb n="539" xml:id="pg_539" facs="0567"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1955-01-07T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Note: In this index, the terms “Korea” and “<gloss target="#t_ROK1"

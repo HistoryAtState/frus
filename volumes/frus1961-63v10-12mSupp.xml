@@ -20,7 +20,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1998</date>
+                <date type="publication-date">1998</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -46,10 +46,16 @@
         <revisionDesc>
             <change>2012-10-04 PA/HO JW: Completed conversion of preview edition to TEI</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1953-02-01T00:00:00-05:00"
+                notAfter="1963-12-20T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
-            <div type="section" xml:id="about-this-preview-edition">
+            <div type="section" xml:id="about-this-preview-edition" subtype="about-frus-series"
+                frus:doc-dateTime-min="1953-02-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-20T23:59:59-05:00">
                 <head>About this Preview Edition</head>
                 <p>This is a preview of the electronic edition of <hi rend="italic">Foreign
                         Relations of the United States</hi>, 1961–1963, American Republics; Cuba
@@ -100,7 +106,9 @@
                         2012</hi>
                 </p>
             </div>
-            <div type="section" xml:id="front-matter">
+            <div type="section" subtype="related-materials" xml:id="front-matter"
+                frus:doc-dateTime-min="1953-02-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-20T23:59:59-05:00">
                 <head>Front Matter</head>
                 <p>The booklet accompanying this volume can be downloaded as a <ref
                         target="https://s3.amazonaws.com/static.history.state.gov/frus/frus1961-63v10-12mSupp/pdf/booklet.pdf"
@@ -120,9 +128,11 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1953-02-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-11-27T23:59:59-05:00">
                 <head>American Republics</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1961-02-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-20T23:59:59-05:00">
                     <head>Bolivia</head>
                     <div type="document" n="1" xml:id="d1" subtype="historical-document"
                         frus:doc-dateTime-min="1961-02-09T00:00:00-05:00"
@@ -503,7 +513,8 @@
                         <frus:pdf bytes="110815" readable="111 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1961-02-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-14T23:59:59-05:00">
                     <head>Chile</head>
                     <div type="document" n="23" xml:id="d23" subtype="historical-document"
                         frus:doc-dateTime-min="1961-02-20T00:00:00-05:00"
@@ -920,7 +931,8 @@
                         <frus:pdf bytes="305739" readable="306 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1961-02-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-07-24T23:59:59-05:00">
                     <head>Colombia</head>
                     <div type="document" n="47" xml:id="d47" subtype="historical-document"
                         frus:doc-dateTime-min="1961-02-17T00:00:00-05:00"
@@ -1283,7 +1295,8 @@
                         <frus:pdf bytes="166561" readable="167 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1961-04-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-07-31T23:59:59-05:00">
                     <head>Costa Rica</head>
                     <div type="document" n="68" xml:id="d68" subtype="historical-document"
                         frus:doc-dateTime-min="1961-04-06T00:00:00-05:00"
@@ -1640,7 +1653,8 @@
                         <frus:pdf bytes="21118" readable="21 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1961-02-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-08-07T23:59:59-05:00">
                     <head>Ecuador</head>
                     <div type="document" n="89" xml:id="d89" subtype="historical-document"
                         frus:doc-dateTime-min="1961-02-02T00:00:00-05:00"
@@ -2033,7 +2047,8 @@
                         <frus:pdf bytes="229903" readable="230 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1961-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-07-22T23:59:59-05:00">
                     <head>El Salvador</head>
                     <div type="document" n="112" xml:id="d112" subtype="historical-document"
                         frus:doc-dateTime-min="1961-01-25T00:00:00-05:00"
@@ -2229,7 +2244,8 @@
                         <frus:pdf bytes="164780" readable="165 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1953-02-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-27T23:59:59-05:00">
                     <head>Guatemala</head>
                     <div type="document" n="124" xml:id="d124" subtype="historical-document"
                         frus:doc-dateTime-min="1961-04-20T00:00:00-05:00"
@@ -2539,7 +2555,8 @@
                         <frus:pdf bytes="125982" readable="126 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1961-03-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-18T23:59:59-05:00">
                     <head>Honduras</head>
                     <div type="document" n="141" xml:id="d141" subtype="historical-document"
                         frus:doc-dateTime-min="1961-03-13T00:00:00-05:00"
@@ -2999,7 +3016,8 @@
                         <frus:pdf bytes="285002" readable="285 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1961-04-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-06-14T23:59:59-05:00">
                     <head>Jamaica</head>
                     <div type="document" n="169" xml:id="d169" subtype="historical-document"
                         frus:doc-dateTime-min="1961-04-03T00:00:00-05:00"
@@ -3180,7 +3198,8 @@
                         <frus:pdf bytes="203238" readable="203 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch10">
+                <div type="chapter" xml:id="ch10" frus:doc-dateTime-min="1961-02-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-10-11T23:59:59-05:00">
                     <head>Mexico</head>
                     <div type="document" n="179" xml:id="d179" subtype="historical-document"
                         frus:doc-dateTime-min="1961-02-14T00:00:00-05:00"
@@ -3751,7 +3770,8 @@
                         <frus:pdf bytes="483503" readable="484 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch11">
+                <div type="chapter" xml:id="ch11" frus:doc-dateTime-min="1961-03-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-21T23:59:59-05:00">
                     <head>Venezuela</head>
                     <div type="document" n="213" xml:id="d213" subtype="historical-document"
                         frus:doc-dateTime-min="1961-03-31T00:00:00-05:00"
@@ -4096,9 +4116,11 @@
                     </div>
                 </div>
             </div>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1960-11-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-20T23:59:59-05:00">
                 <head>Cuba</head>
-                <div type="chapter" xml:id="ch12">
+                <div type="chapter" xml:id="ch12" frus:doc-dateTime-min="1960-11-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                     <head>November–December 1960</head>
                     <div type="document" n="232" xml:id="d232" subtype="historical-document"
                         frus:doc-dateTime-min="1960-11-18T00:00:00-05:00"
@@ -4159,7 +4181,8 @@
                         <frus:pdf bytes="181267" readable="181 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch13">
+                <div type="chapter" xml:id="ch13" frus:doc-dateTime-min="1961-01-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1961-01-31T23:59:59-05:00">
                     <head>January 1961</head>
                     <div type="document" n="235" xml:id="d235" subtype="historical-document"
                         frus:doc-dateTime-min="1961-01-01T00:00:00-05:00"
@@ -4309,7 +4332,8 @@
                         <frus:pdf bytes="123421" readable="123 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch14">
+                <div type="chapter" xml:id="ch14" frus:doc-dateTime-min="1961-02-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1961-02-16T23:59:59-05:00">
                     <head>February 1961</head>
                     <div type="document" n="242" xml:id="d242" subtype="historical-document"
                         frus:doc-dateTime-min="1961-02-11T00:00:00-05:00"
@@ -4356,7 +4380,8 @@
                         <frus:pdf bytes="85750" readable="86 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch15">
+                <div type="chapter" xml:id="ch15" frus:doc-dateTime-min="1961-03-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1961-03-27T23:59:59-05:00">
                     <head>March 1961</head>
                     <div type="document" n="244" xml:id="d244" subtype="historical-document"
                         frus:doc-dateTime-min="1961-03-01T00:00:00-05:00"
@@ -4468,7 +4493,8 @@
                         <frus:pdf bytes="196095" readable="196 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch16">
+                <div type="chapter" xml:id="ch16" frus:doc-dateTime-min="1961-04-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1961-04-23T23:59:59-05:00">
                     <head>April 1961</head>
                     <div type="document" n="251" xml:id="d251" subtype="historical-document"
                         frus:doc-dateTime-min="1961-04-16T00:00:00-05:00"
@@ -4621,7 +4647,8 @@
                         <frus:pdf bytes="936450" readable="936 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch17">
+                <div type="chapter" xml:id="ch17" frus:doc-dateTime-min="1961-05-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1961-05-26T23:59:59-05:00">
                     <head>May 1961</head>
                     <div type="document" n="260" xml:id="d260" subtype="historical-document"
                         frus:doc-dateTime-min="1961-05-02T00:00:00-05:00"
@@ -4713,7 +4740,8 @@
                         <frus:pdf bytes="302705" readable="303 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch18">
+                <div type="chapter" xml:id="ch18" frus:doc-dateTime-min="1961-06-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1961-06-26T23:59:59-05:00">
                     <head>June 1961</head>
                     <div type="document" n="265" xml:id="d265" subtype="historical-document"
                         frus:doc-dateTime-min="1961-06-01T00:00:00-05:00"
@@ -4748,7 +4776,8 @@
                         <frus:pdf bytes="217784" readable="218 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch19">
+                <div type="chapter" xml:id="ch19" frus:doc-dateTime-min="1961-07-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1961-07-26T23:59:59-05:00">
                     <head>July 1961</head>
                     <div type="document" n="267" xml:id="d267" subtype="historical-document"
                         frus:doc-dateTime-min="1961-07-03T00:00:00-05:00"
@@ -4830,7 +4859,8 @@
                         <frus:pdf bytes="591575" readable="592 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch20">
+                <div type="chapter" xml:id="ch20" frus:doc-dateTime-min="1961-08-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1961-08-02T23:59:59-05:00">
                     <head>August 1961</head>
                     <div type="document" n="271" xml:id="d271" subtype="historical-document"
                         frus:doc-dateTime-min="1961-08-02T00:00:00-05:00"
@@ -4860,7 +4890,8 @@
                         <frus:pdf bytes="1214792" readable="1.2 MB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch21">
+                <div type="chapter" xml:id="ch21" frus:doc-dateTime-min="1961-09-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1961-09-08T23:59:59-05:00">
                     <head>September 1961</head>
                     <div type="document" n="272" xml:id="d272" subtype="historical-document"
                         frus:doc-dateTime-min="1961-09-06T00:00:00-05:00"
@@ -4893,7 +4924,8 @@
                         <frus:pdf bytes="121033" readable="121 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch22">
+                <div type="chapter" xml:id="ch22" frus:doc-dateTime-min="1961-09-30T23:00:00-05:00"
+                    frus:doc-dateTime-max="1961-10-31T23:59:59-05:00">
                     <head>October 1961</head>
                     <div type="document" n="273A" xml:id="d273A" subtype="historical-document"
                         frus:doc-dateTime-min="1961-09-30T23:00:00-05:00"
@@ -5187,7 +5219,8 @@
                         <frus:pdf bytes="1027687" readable="1 MB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch23">
+                <div type="chapter" xml:id="ch23" frus:doc-dateTime-min="1961-11-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1961-11-24T23:59:59-05:00">
                     <head>November 1961</head>
                     <div type="document" n="277" xml:id="d277" subtype="historical-document"
                         frus:doc-dateTime-min="1961-11-04T00:00:00-05:00"
@@ -5236,7 +5269,8 @@
                         <frus:pdf bytes="132948" readable="133 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch24">
+                <div type="chapter" xml:id="ch24" frus:doc-dateTime-min="1961-12-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1961-12-15T23:59:59-05:00">
                     <head>December 1961</head>
                     <div type="document" n="278B" xml:id="d278B" subtype="historical-document"
                         frus:doc-dateTime-min="1961-12-01T00:00:00-05:00"
@@ -5269,7 +5303,8 @@
                         <frus:pdf bytes="156573" readable="157 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch25">
+                <div type="chapter" xml:id="ch25" frus:doc-dateTime-min="1962-01-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-01-27T23:59:59-05:00">
                     <head>January 1962</head>
                     <div type="document" n="278D" xml:id="d278D" subtype="historical-document"
                         frus:doc-dateTime-min="1962-01-18T00:00:00-05:00"
@@ -5558,7 +5593,8 @@
                         <frus:pdf bytes="51308" readable="51 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch26">
+                <div type="chapter" xml:id="ch26" frus:doc-dateTime-min="1962-02-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-02-20T23:59:59-05:00">
                     <head>February 1962</head>
                     <div type="document" n="278J" xml:id="d278J" subtype="historical-document"
                         frus:doc-dateTime-min="1962-02-15T00:00:00-05:00"
@@ -5631,7 +5667,8 @@
                         <frus:pdf bytes="2148388" readable="2.1 MB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch27">
+                <div type="chapter" xml:id="ch27" frus:doc-dateTime-min="1962-03-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-03-16T23:59:59-05:00">
                     <head>March 1962</head>
                     <div type="document" n="280" xml:id="d280" subtype="historical-document"
                         frus:doc-dateTime-min="1962-03-13T00:00:00-05:00"
@@ -5697,7 +5734,8 @@
                         <frus:pdf bytes="196389" readable="196 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch28">
+                <div type="chapter" xml:id="ch28" frus:doc-dateTime-min="1962-04-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-04-10T23:59:59-05:00">
                     <head>April 1962</head>
                     <div type="document" n="283" xml:id="d283" subtype="historical-document"
                         frus:doc-dateTime-min="1962-04-10T00:00:00-05:00"
@@ -5715,7 +5753,8 @@
                         <frus:pdf bytes="101536" readable="102 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch29">
+                <div type="chapter" xml:id="ch29" frus:doc-dateTime-min="1962-05-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-05-17T23:59:59-05:00">
                     <head>May 1962</head>
                     <div type="document" n="284" xml:id="d284" subtype="historical-document"
                         frus:doc-dateTime-min="1962-05-17T00:00:00-05:00"
@@ -5732,7 +5771,8 @@
                         <frus:pdf bytes="74107" readable="74 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch30">
+                <div type="chapter" xml:id="ch30" frus:doc-dateTime-min="1962-06-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-06-25T23:59:59-05:00">
                     <head>June 1962</head>
                     <div type="document" n="285" xml:id="d285" subtype="historical-document"
                         frus:doc-dateTime-min="1962-06-25T00:00:00-05:00"
@@ -5749,7 +5789,8 @@
                         <frus:pdf bytes="68482" readable="68 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch31">
+                <div type="chapter" xml:id="ch31" frus:doc-dateTime-min="1962-07-12T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-07-20T23:59:59-05:00">
                     <head>July 1962</head>
                     <div type="document" n="286" xml:id="d286" subtype="historical-document"
                         frus:doc-dateTime-min="1962-07-12T00:00:00-05:00"
@@ -5781,7 +5822,8 @@
                         <frus:pdf bytes="124081" readable="124 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch32">
+                <div type="chapter" xml:id="ch32" frus:doc-dateTime-min="1962-08-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-08-14T23:59:59-05:00">
                     <head>August 1962</head>
                     <div type="document" n="288" xml:id="d288" subtype="historical-document"
                         frus:doc-dateTime-min="1962-08-01T00:00:00-05:00"
@@ -5859,7 +5901,8 @@
                         <frus:pdf bytes="153726" readable="154 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch33">
+                <div type="chapter" xml:id="ch33" frus:doc-dateTime-min="1962-09-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-09-29T23:59:59-05:00">
                     <head>September 1962</head>
                     <div type="document" n="291" xml:id="d291" subtype="historical-document"
                         frus:doc-dateTime-min="1962-09-04T00:00:00-05:00"
@@ -6139,7 +6182,8 @@
                         <frus:pdf bytes="302215" readable="302 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch34">
+                <div type="chapter" xml:id="ch34" frus:doc-dateTime-min="1961-10-15T23:00:00-05:00"
+                    frus:doc-dateTime-max="1962-10-29T23:59:59-05:00">
                     <head>October 1962</head>
                     <div type="document" n="309" xml:id="d309" subtype="historical-document"
                         frus:doc-dateTime-min="1962-10-02T00:00:00-05:00"
@@ -7198,7 +7242,8 @@
                         <frus:pdf bytes="110578" readable="111 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch35">
+                <div type="chapter" xml:id="ch35" frus:doc-dateTime-min="1962-10-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-10-23T23:59:59-05:00">
                     <head>October 23, 1962</head>
                     <div type="document" n="367" xml:id="d367" subtype="historical-document"
                         frus:doc-dateTime-min="1962-10-23T00:00:00-05:00"
@@ -7359,7 +7404,8 @@
                         <frus:pdf bytes="142416" readable="142 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch36">
+                <div type="chapter" xml:id="ch36" frus:doc-dateTime-min="1962-10-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-10-24T23:59:59-05:00">
                     <head>October 24, 1962</head>
                     <div type="document" n="376" xml:id="d376" subtype="historical-document"
                         frus:doc-dateTime-min="1962-10-24T00:00:00-05:00"
@@ -7673,7 +7719,8 @@
                         <frus:pdf bytes="110847" readable="111 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch37">
+                <div type="chapter" xml:id="ch37" frus:doc-dateTime-min="1962-10-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-10-29T23:59:59-05:00">
                     <head>October 25, 1962</head>
                     <div type="document" n="394" xml:id="d394" subtype="historical-document"
                         frus:doc-dateTime-min="1962-10-25T00:00:00-05:00"
@@ -7961,7 +8008,8 @@
                         <frus:pdf bytes="82356" readable="82 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch38">
+                <div type="chapter" xml:id="ch38" frus:doc-dateTime-min="1962-10-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-10-26T23:59:59-05:00">
                     <head>October 26, 1962</head>
                     <div type="document" n="412" xml:id="d412" subtype="historical-document"
                         frus:doc-dateTime-min="1962-10-26T00:00:00-05:00"
@@ -8187,7 +8235,8 @@
                         <frus:pdf bytes="609777" readable="610 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch39">
+                <div type="chapter" xml:id="ch39" frus:doc-dateTime-min="1962-10-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-10-27T23:59:59-05:00">
                     <head>October 27, 1962</head>
                     <div type="document" n="426" xml:id="d426" subtype="historical-document"
                         frus:doc-dateTime-min="1962-10-27T00:00:00-05:00"
@@ -8403,7 +8452,8 @@
                         <frus:pdf bytes="74088" readable="74 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch40">
+                <div type="chapter" xml:id="ch40" frus:doc-dateTime-min="1962-10-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-10-28T23:59:59-05:00">
                     <head>October 28, 1962</head>
                     <div type="document" n="439" xml:id="d439" subtype="historical-document"
                         frus:doc-dateTime-min="1962-10-28T00:00:00-05:00"
@@ -8585,7 +8635,8 @@
                         <frus:pdf bytes="126312" readable="126 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch41">
+                <div type="chapter" xml:id="ch41" frus:doc-dateTime-min="1962-10-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-10-29T23:59:59-05:00">
                     <head>October 29, 1962</head>
                     <div type="document" n="450" xml:id="d450" subtype="historical-document"
                         frus:doc-dateTime-min="1962-10-29T00:00:00-05:00"
@@ -8719,7 +8770,8 @@
                         <frus:pdf bytes="389911" readable="390 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch42">
+                <div type="chapter" xml:id="ch42" frus:doc-dateTime-min="1962-10-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-10-30T23:59:59-05:00">
                     <head>October 30, 1962</head>
                     <div type="document" n="458" xml:id="d458" subtype="historical-document"
                         frus:doc-dateTime-min="1962-10-30T00:00:00-05:00"
@@ -8839,7 +8891,8 @@
                         <frus:pdf bytes="235300" readable="235 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch43">
+                <div type="chapter" xml:id="ch43" frus:doc-dateTime-min="1962-10-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-10-31T23:59:59-05:00">
                     <head>October 31, 1962</head>
                     <div type="document" n="465" xml:id="d465" subtype="historical-document"
                         frus:doc-dateTime-min="1962-10-31T00:00:00-05:00"
@@ -9021,7 +9074,8 @@
                         <frus:pdf bytes="143772" readable="144 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch44">
+                <div type="chapter" xml:id="ch44" frus:doc-dateTime-min="1962-11-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-11-29T23:59:59-05:00">
                     <head>November 1962</head>
                     <div type="document" n="475" xml:id="d475" subtype="historical-document"
                         frus:doc-dateTime-min="1962-11-01T00:00:00-05:00"
@@ -10534,7 +10588,8 @@
                         <frus:pdf bytes="81172" readable="81 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch45">
+                <div type="chapter" xml:id="ch45" frus:doc-dateTime-min="1962-12-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-12-31T23:59:59-05:00">
                     <head>December 1962</head>
                     <div type="document" n="561" xml:id="d561" subtype="historical-document"
                         frus:doc-dateTime-min="1962-12-02T00:00:00-05:00"
@@ -10948,7 +11003,8 @@
                         <frus:pdf bytes="430088" readable="430 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch46">
+                <div type="chapter" xml:id="ch46" frus:doc-dateTime-min="1963-01-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-01-30T23:59:59-05:00">
                     <head>Janaury 1963</head>
                     <div type="document" n="586" xml:id="d586" subtype="historical-document"
                         frus:doc-dateTime-min="1963-01-02T00:00:00-05:00"
@@ -11339,7 +11395,8 @@
                         <frus:pdf bytes="229506" readable="230 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch47">
+                <div type="chapter" xml:id="ch47" frus:doc-dateTime-min="1963-02-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-02-28T23:59:59-05:00">
                     <head>February 1963</head>
                     <div type="document" n="609" xml:id="d609" subtype="historical-document"
                         frus:doc-dateTime-min="1963-02-01T00:00:00-05:00"
@@ -11645,7 +11702,8 @@
                         <frus:pdf bytes="112939" readable="113 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch48">
+                <div type="chapter" xml:id="ch48" frus:doc-dateTime-min="1963-03-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-03-29T23:59:59-05:00">
                     <head>March 1963</head>
                     <div type="document" n="626" xml:id="d626" subtype="historical-document"
                         frus:doc-dateTime-min="1963-03-06T00:00:00-05:00"
@@ -11909,7 +11967,8 @@
                         <frus:pdf bytes="312881" readable="313 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch49">
+                <div type="chapter" xml:id="ch49" frus:doc-dateTime-min="1963-04-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-04-25T23:59:59-05:00">
                     <head>April 1963</head>
                     <div type="document" n="642" xml:id="d642" subtype="historical-document"
                         frus:doc-dateTime-min="1963-04-01T00:00:00-05:00"
@@ -12433,7 +12492,8 @@
                         <frus:pdf bytes="817314" readable="817 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch50">
+                <div type="chapter" xml:id="ch50" frus:doc-dateTime-min="1963-05-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-05-29T23:59:59-05:00">
                     <head>May 1963</head>
                     <div type="document" n="671" xml:id="d671" subtype="historical-document"
                         frus:doc-dateTime-min="1963-05-01T00:00:00-05:00"
@@ -12679,7 +12739,8 @@
                         <frus:pdf bytes="99166" readable="99 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch51">
+                <div type="chapter" xml:id="ch51" frus:doc-dateTime-min="1963-06-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-06-25T23:59:59-05:00">
                     <head>June 1963</head>
                     <div type="document" n="685" xml:id="d685" subtype="historical-document"
                         frus:doc-dateTime-min="1963-06-05T00:00:00-05:00"
@@ -12872,7 +12933,8 @@
                         <frus:pdf bytes="34780" readable="35 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch52">
+                <div type="chapter" xml:id="ch52" frus:doc-dateTime-min="1963-07-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-07-26T22:59:59-05:00">
                     <head>July 1963</head>
                     <div type="document" n="695" xml:id="d695" subtype="historical-document"
                         frus:doc-dateTime-min="1963-07-02T00:00:00-05:00"
@@ -13034,7 +13096,8 @@
                         <frus:pdf bytes="50585" readable="51 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch53">
+                <div type="chapter" xml:id="ch53" frus:doc-dateTime-min="1963-08-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-08-12T23:59:59-05:00">
                     <head>August 1963</head>
                     <div type="document" n="704" xml:id="d704" subtype="historical-document"
                         frus:doc-dateTime-min="1963-08-01T00:00:00-05:00"
@@ -13088,7 +13151,8 @@
                         <frus:pdf bytes="18016" readable="18 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch54">
+                <div type="chapter" xml:id="ch54" frus:doc-dateTime-min="1963-09-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-09-27T23:59:59-05:00">
                     <head>September 1963</head>
                     <div type="document" n="707" xml:id="d707" subtype="historical-document"
                         frus:doc-dateTime-min="1963-09-06T00:00:00-05:00"
@@ -13148,7 +13212,8 @@
                         <frus:pdf bytes="55604" readable="56 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch55">
+                <div type="chapter" xml:id="ch55" frus:doc-dateTime-min="1963-10-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-10-25T23:59:59-05:00">
                     <head>October 1963</head>
                     <div type="document" n="711" xml:id="d711" subtype="historical-document"
                         frus:doc-dateTime-min="1963-10-02T00:00:00-05:00"
@@ -13267,7 +13332,8 @@
                         <frus:pdf bytes="153236" readable="153 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch56">
+                <div type="chapter" xml:id="ch56" frus:doc-dateTime-min="1963-11-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-29T23:59:59-05:00">
                     <head>November 1963</head>
                     <div type="document" n="718" xml:id="d718" subtype="historical-document"
                         frus:doc-dateTime-min="1963-11-14T00:00:00-05:00"
@@ -13322,7 +13388,8 @@
                         <frus:pdf bytes="139692" readable="140 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch57">
+                <div type="chapter" xml:id="ch57" frus:doc-dateTime-min="1963-12-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-20T23:59:59-05:00">
                     <head>December 1963</head>
                     <div type="document" n="721" xml:id="d721" subtype="historical-document"
                         frus:doc-dateTime-min="1963-12-02T00:00:00-05:00"

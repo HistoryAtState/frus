@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1942</date>
+                <date type="publication-date">1942</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -68,6 +68,10 @@
             <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1926-04-13T00:00:00-05:00"
+                notAfter="1928-01-11T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -91,7 +95,9 @@
                         rend="smallcaps">Publication</hi> 1727</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1926-04-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1928-01-11T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_V"><hi rend="smallcaps">Message of the President of the
@@ -231,7 +237,9 @@
                 </list>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="section" xml:id="message-of-the-president">
+            <div type="section" xml:id="message-of-the-president" subtype="historical-document"
+                frus:doc-dateTime-min="1927-12-06T00:00:00-05:00"
+                frus:doc-dateTime-max="1927-12-06T23:59:59-05:00">
                 <head>Message of the president of the United States to Congress, December 6,
                     1927</head>
                 <p><hi rend="smallcaps">Members of the Congress</hi>: It is gratifying to report
@@ -1003,15 +1011,18 @@
                     neighborly kindness. The forces of the universe are taking humanity in that
                     direction. In doing good, in walking humbly, in sustaining its own people, in
                     ministering to other nations, America will work out its own mighty destiny.</p>
-                <closer><signed><hi rend="smallcaps">Calvin Coolidge</hi></signed></closer>
-                <postscript>
-                    <p><hi rend="smallcaps">The White House</hi>, <hi rend="italic">December 6,
-                            1927.</hi></p>
-                </postscript>
+                <closer><signed><hi rend="smallcaps">Calvin Coolidge</hi></signed><lb/>
+                    <dateline>
+                        <placeName><hi rend="smallcaps">The White House</hi></placeName>, <date
+                            when="1927-12-06"><hi rend="italic">December 6,
+                        1927</hi></date>.</dateline>
+                </closer>
                 <pb n="[XXVI]" xml:id="pg_XXVI" facs="0030"/>
             </div>
             <pb n="XXVII" xml:id="pg_XXVII" facs="0031"/>
-            <div type="section" xml:id="papers">
+            <div type="section" xml:id="papers" subtype="index"
+                frus:doc-dateTime-min="1926-04-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1928-01-11T23:59:59-05:00">
                 <head>List of Papers</head>
                 <p rend="center">[Unless otherwise specified, the correspondence is <hi
                         rend="italic">from</hi> or <hi rend="italic">to</hi> officials in the
@@ -5491,9 +5502,11 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0087"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1926-12-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1928-01-11T23:59:59-05:00">
                 <head>General:</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1927-02-03T16:00:00-05:00"
+                    frus:doc-dateTime-max="1927-08-10T23:59:59-05:00">
                     <head>Three-Power Conference at Geneva for the Limitation of Naval Armament,
                         June 20–August 4, 1927<note n="1" xml:id="ch1fn1">The records of the
                             Conference are printed in Senate Document No. 55, 70th Cong., 1st sess.,
@@ -14030,7 +14043,8 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1926-12-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-12-03T20:00:00-05:00">
                     <head>Participation of the United States in the work of the third and fourth
                         sessions of the Preparatory Commission for the Disarmament Conference<note
                             n="6" xml:id="ch2fn6">For correspondence concerning the first and second
@@ -16954,7 +16968,8 @@
                         <closer><signed><hi rend="smallcaps">Wilson</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1926-12-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-04-21T16:00:00-05:00">
                     <head>Meeting of the Special Commission for the Preparation of a Draft
                         Convention on the Private Manufacture of Arms and Ammunition and of
                         Implements of War, Geneva, March 14–April 25, 1927<note n="56"
@@ -18165,7 +18180,8 @@
                     </div>
                 </div>
                 <pb n="236" xml:id="pg_236" facs="0322"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1927-05-12T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-05-12T23:59:59-05:00">
                     <head>Status of treaties concluded at the Washington Conference on the
                         Limitation of Armament, and of certain resolutions adopted by that
                             Conference<note n="68" xml:id="ch4fn68">For papers, relating to the
@@ -18287,7 +18303,8 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1926-12-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-06-10T23:59:59-05:00">
                     <head>American representation at the World Economic Conference, Geneva, May
                         4–23, 1927<note n="80" xml:id="ch5fn80">For proceedings of the Conference,
                             see League of Nations, <hi rend="italic">Report and Proceedings of the
@@ -18739,7 +18756,8 @@
                         </frus:attachment>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1927-06-14T15:00:00-05:00"
+                    frus:doc-dateTime-max="1927-11-22T23:59:59-05:00">
                     <head>International Conference for the Abolition of Import and Export
                         Prohibitions and Restrictions, Geneva, October 17–November 8, 1927<note
                             n="88" xml:id="ch6fn88">For official records of the Conference, see
@@ -20840,7 +20858,8 @@
                     </div>
                 </div>
                 <pb n="286" xml:id="pg_286" facs="0372"/>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1927-01-13T12:00:00-05:00"
+                    frus:doc-dateTime-max="1927-03-16T23:59:59-05:00">
                     <head>Participation of the United States in meeting of the Committee of Experts
                         on Double Taxation and Tax Evasion, London, April 4–12, 1927<note n="29"
                             xml:id="ch7fn29">For report of the sessions of this Committee, see
@@ -20967,7 +20986,8 @@
                                     >MoC</hi>[<hi rend="smallcaps">litre</hi>]</signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1927-11-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-11-25T23:59:59-05:00">
                     <head>Radiotelegraph convention between the United States and other powers,
                         signed November 25, 1927<note n="34" xml:id="ch8fn34">For correspondence
                             preliminary to the meeting of the Third International Radiotelegraph
@@ -21726,7 +21746,8 @@
                                 </list></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1927-11-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-12-10T23:59:59-05:00">
                     <head>Proposed disposition of property held by the Alien Property Custodian<note
                             n="36" xml:id="ch9fn36">Continued from <ref target="frus1926v01#pg_125"
                                     ><hi rend="italic">Foreign Relations</hi>, 1926, vol. <hi
@@ -22129,7 +22150,8 @@
                     </div>
                 </div>
                 <pb n="309" xml:id="pg_309" facs="0395"/>
-                <div type="chapter" xml:id="ch10">
+                <div type="chapter" xml:id="ch10" frus:doc-dateTime-min="1927-10-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-10-19T23:59:59-05:00">
                     <head>Additional protocol between the United States and other American
                         Republics, signed October 19, 1927, amending the Pan American sanitary
                         convention of November 14, 1924<note n="42" xml:id="ch10fn42">For text of
@@ -22372,7 +22394,8 @@
                     </div>
                 </div>
                 <pb n="312" xml:id="pg_312" facs="0398"/>
-                <div type="chapter" xml:id="ch11">
+                <div type="chapter" xml:id="ch11" frus:doc-dateTime-min="1927-12-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-12-28T23:59:59-05:00">
                     <head>Circular instruction to diplomatic officers and certain consular officers
                         concerning questions arising from the negotiation of foreign loans by
                         American bankers</head>
@@ -22525,9 +22548,12 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch12">
+                <div type="chapter" xml:id="ch12" frus:doc-dateTime-min="1926-12-30T18:00:00-05:00"
+                    frus:doc-dateTime-max="1928-01-11T23:59:59-05:00">
                     <head>Boundary disputes</head>
-                    <div type="subchapter" xml:id="ch12subch1">
+                    <div type="subchapter" xml:id="ch12subch1"
+                        frus:doc-dateTime-min="1927-02-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1927-12-28T23:59:59-05:00">
                         <head>Bolivia and Paraguay<note n="47" xml:id="ch12subch1fn47">Continued
                                 from <ref target="frus1926v01#pg_531"><hi rend="italic">Foreign
                                         Relations</hi>, 1926, vol. <hi rend="smallcaps">i</hi>, pp.
@@ -22979,7 +23005,9 @@
                                 Bliss</hi></signed></closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch12subch2">
+                    <div type="subchapter" xml:id="ch12subch2"
+                        frus:doc-dateTime-min="1927-07-28T16:00:00-05:00"
+                        frus:doc-dateTime-max="1927-11-11T19:00:00-05:00">
                         <head>Colombia and Nicaragua<note n="56" xml:id="ch12subch2fn56">Continued
                                 from <ref target="frus1925v01#pg_431"><hi rend="italic">Foreign
                                         Relations</hi>, 1925, vol. <hi rend="smallcaps">i</hi>, pp.
@@ -23490,7 +23518,9 @@
                             <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch12subch3">
+                    <div type="subchapter" xml:id="ch12subch3"
+                        frus:doc-dateTime-min="1926-12-30T18:00:00-05:00"
+                        frus:doc-dateTime-max="1928-01-11T23:59:59-05:00">
                         <head>Colombia and Peru<note n="67" xml:id="ch12subch3fn67">Continued from
                                     <ref target="frus1926v01#pg_534"><hi rend="italic">Foreign
                                         Relations</hi>, 1926, vol. <hi rend="smallcaps">i</hi>, pp.
@@ -24246,7 +24276,9 @@
                         </div>
                     </div>
                     <pb n="345" xml:id="pg_345" facs="0431"/>
-                    <div type="subchapter" xml:id="ch12subch4">
+                    <div type="subchapter" xml:id="ch12subch4"
+                        frus:doc-dateTime-min="1927-07-30T13:00:00-05:00"
+                        frus:doc-dateTime-max="1927-12-31T23:59:59-05:00">
                         <head>Dominican Republic and Haiti<note n="85" xml:id="ch12subch4fn85"
                                 >Continued from <ref target="frus1926v01#pg_543"><hi rend="italic"
                                         >Foreign Relations</hi>, 1926, vol. <hi rend="smallcaps"
@@ -24865,7 +24897,8 @@
                         </div>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch13">
+                <div type="chapter" xml:id="ch13" frus:doc-dateTime-min="1927-01-12T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-01-12T23:59:59-05:00">
                     <head>Statement by the Secretary of State regarding Bolshevik aims and policies
                         in Mexico and Latin America</head>
                     <div type="document" xml:id="d282" n="282" subtype="historical-document"
@@ -25306,7 +25339,8 @@
                     </div>
                 </div>
                 <pb n="364" xml:id="pg_364" facs="0450"/>
-                <div type="chapter" xml:id="ch14">
+                <div type="chapter" xml:id="ch14" frus:doc-dateTime-min="1927-03-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-06-10T23:59:59-05:00">
                     <head>Representation of the United States at the meeting of the International
                         Commission of Jurists, held at Rio de Janeiro, April 18–May 20, 1927<note
                             n="93" xml:id="ch14fn93">For correspondence and a report concerning the
@@ -27669,7 +27703,8 @@
                     </div>
                 </div>
                 <pb n="410" xml:id="pg_410" facs="0496"/>
-                <div type="chapter" xml:id="ch15">
+                <div type="chapter" xml:id="ch15" frus:doc-dateTime-min="1927-08-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-12-16T23:59:59-05:00">
                     <head>Reply by the Department of State to questionnaires on international law
                         submitted by the League of Nations<note n="52" xml:id="ch15fn52">For reply
                             to earlier questionnaires, see <ref target="frus1926v01#pg_555"><hi
@@ -27870,7 +27905,8 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch16">
+                <div type="chapter" xml:id="ch16" frus:doc-dateTime-min="1927-09-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-11-07T23:59:59-05:00">
                     <head>Opinion of the Department of State on status of League of Nations
                         officials in the United States</head>
                     <div type="document" xml:id="d292" n="292" subtype="historical-document"
@@ -27957,7 +27993,8 @@
                             Marriner</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch17">
+                <div type="chapter" xml:id="ch17" frus:doc-dateTime-min="1927-01-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-01-22T23:59:59-05:00">
                     <head>Exemptions from taxation and customs duties enjoyed by foreign diplomatic
                         and consular officers in the United States</head>
                     <div type="document" xml:id="d294" n="294" subtype="historical-document"
@@ -28073,7 +28110,8 @@
                                     Butler Wright</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch18">
+                <div type="chapter" xml:id="ch18" frus:doc-dateTime-min="1927-01-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-01-25T23:59:59-05:00">
                     <head>Right of foreign governments to acquire, without restriction, property for
                         Embassy or Legation purposes in the District of Columbia</head>
                     <div type="document" xml:id="d295" n="295" subtype="historical-document"
@@ -28140,7 +28178,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch19">
+                <div type="chapter" xml:id="ch19" frus:doc-dateTime-min="1927-08-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-08-30T23:59:59-05:00">
                     <head>Suits against United States Shipping Board vessels in foreign courts<note
                             n="57" xml:id="ch19fn57">For previous correspondence concerning status
                             of United States Shipping Board vessels in foreign countries, see <ref
@@ -28189,7 +28228,8 @@
                     </div>
                 </div>
                 <pb n="419" xml:id="pg_419" facs="0505"/>
-                <div type="chapter" xml:id="ch20">
+                <div type="chapter" xml:id="ch20" frus:doc-dateTime-min="1927-08-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-08-10T23:59:59-05:00">
                     <head>Rules of precedence as between certain officers of the United
                         States</head>
                     <div type="document" xml:id="d298" n="298" subtype="historical-document"
@@ -28301,9 +28341,11 @@
                 </div>
             </div>
             <pb n="421" xml:id="pg_421" facs="0507"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1926-05-21T11:00:00-05:00"
+                frus:doc-dateTime-max="1927-10-17T23:59:59-05:00">
                 <head>Argentina:</head>
-                <div type="chapter" xml:id="ch21">
+                <div type="chapter" xml:id="ch21" frus:doc-dateTime-min="1927-09-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-09-20T23:59:59-05:00">
                     <head>Proposed treaty of friendship, commerce and consular rights between the
                         United States and Argentina</head>
                     <div type="document" xml:id="d299" n="299" subtype="historical-document"
@@ -28453,7 +28495,8 @@
                     </div>
                 </div>
                 <pb n="424" xml:id="pg_424" facs="0510"/>
-                <div type="chapter" xml:id="ch22">
+                <div type="chapter" xml:id="ch22" frus:doc-dateTime-min="1926-05-21T11:00:00-05:00"
+                    frus:doc-dateTime-max="1927-10-17T23:59:59-05:00">
                     <head>Efforts to secure for American firms equal consideration with other
                         foreign companies in bids for Argentine naval construction</head>
                     <div type="document" xml:id="d300" n="300" subtype="historical-document"
@@ -29120,9 +29163,11 @@
                 </div>
             </div>
             <pb n="437" xml:id="pg_437" facs="0523"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1927-01-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1927-11-30T23:59:59-05:00">
                 <head>Australia:</head>
-                <div type="chapter" xml:id="ch23">
+                <div type="chapter" xml:id="ch23" frus:doc-dateTime-min="1927-01-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-11-30T23:59:59-05:00">
                     <head>Representations by the Australian Government regarding entry of Australian
                         businessmen into the United States</head>
                     <div type="document" xml:id="d318" n="318" subtype="historical-document"
@@ -29369,9 +29414,11 @@
                 </div>
             </div>
             <pb n="442" xml:id="pg_442" facs="0528"/>
-            <div type="compilation" xml:id="comp4">
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1927-07-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1928-01-07T23:59:59-05:00">
                 <head>Austria:</head>
-                <div type="chapter" xml:id="ch24">
+                <div type="chapter" xml:id="ch24" frus:doc-dateTime-min="1927-08-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1928-01-07T23:59:59-05:00">
                     <head>Negotiations respecting subordination of the Austrian relief loan to a
                         proposed new Austrian loan<note n="1" xml:id="ch24fn1">For previous
                             correspondence regarding American participation in Austrian relief, see
@@ -31107,7 +31154,8 @@
                                 Secretary</hi></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch25">
+                <div type="chapter" xml:id="ch25" frus:doc-dateTime-min="1927-07-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-08-15T23:59:59-05:00">
                     <head>Action of the American Minister in Austria on the occasion of the Vienna
                         Palace of Justice riots</head>
                     <div type="document" xml:id="d344" n="344" subtype="historical-document"
@@ -31192,9 +31240,11 @@
                 </div>
             </div>
             <pb n="477" xml:id="pg_477" facs="0563"/>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" xml:id="comp5" frus:doc-dateTime-min="1927-08-19T00:00:00-05:00"
+                frus:doc-dateTime-max="1927-09-26T23:59:59-05:00">
                 <head>Bolivia:</head>
-                <div type="chapter" xml:id="ch26">
+                <div type="chapter" xml:id="ch26" frus:doc-dateTime-min="1927-08-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-09-26T23:59:59-05:00">
                     <head>Proposed treaty of friendship, commerce and consular rights between the
                         United States and Bolivia</head>
                     <div type="document" xml:id="d346" n="346" subtype="historical-document"
@@ -31365,16 +31415,20 @@
                             Cottrell</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch27">
+                <div type="chapter" xml:id="ch27" subtype="referral"
+                    frus:doc-dateTime-min="1927-02-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-12-28T23:59:59-05:00">
                     <head>Boundary dispute with Paraguay. (<hi rend="italic">See under</hi>
                         General.)</head>
                     <p rend="center">(See <ref target="#pg_315">pages 315</ref> ff.)</p>
                 </div>
             </div>
             <pb n="481" xml:id="pg_481" facs="0567"/>
-            <div type="compilation" xml:id="comp6">
+            <div type="compilation" xml:id="comp6" frus:doc-dateTime-min="1926-04-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1927-12-12T23:59:59-05:00">
                 <head>Canada:</head>
-                <div type="chapter" xml:id="ch28">
+                <div type="chapter" xml:id="ch28" frus:doc-dateTime-min="1926-12-01T18:00:00-05:00"
+                    frus:doc-dateTime-max="1927-01-29T23:59:59-05:00">
                     <head>Establishment of direct diplomatic relations between the United States and
                         Canada and of American diplomatic representation in the Irish Free
                             State<note n="1" xml:id="ch28fn1">For correspondence concerning British
@@ -31573,7 +31627,8 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch29">
+                <div type="chapter" xml:id="ch29" frus:doc-dateTime-min="1927-09-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-10-17T23:59:59-05:00">
                     <head>Continued protests by the Canadian Government against increased diversion
                         of the waters of the Great Lakes<note n="8" xml:id="ch29fn8">Continued from
                                 <ref target="frus1926v01#pg_580"><hi rend="italic">Foreign
@@ -31726,7 +31781,8 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch30">
+                <div type="chapter" xml:id="ch30" frus:doc-dateTime-min="1927-04-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-07-13T23:59:59-05:00">
                     <head>Project for improvement of the St. Lawrence Waterway by joint action of
                         the United States and Canada<note n="15" xml:id="ch30fn15">Continued from
                                 <ref target="frus1924v01#pg_342"><hi rend="italic">Foreign
@@ -31898,7 +31954,8 @@
                         </frus:attachment>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch31">
+                <div type="chapter" xml:id="ch31" frus:doc-dateTime-min="1927-02-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-12-12T23:59:59-05:00">
                     <head>Proposal that the problem of improving the Roseau River drainage system be
                         referred to the International Joint Commission</head>
                     <div type="document" xml:id="d356" n="356" subtype="historical-document"
@@ -32093,7 +32150,8 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch32">
+                <div type="chapter" xml:id="ch32" frus:doc-dateTime-min="1927-04-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-12-09T23:59:59-05:00">
                     <head>Representations by Canada against changes in border crossing privileges
                         between Canada and the United States</head>
                     <div type="document" xml:id="d360" n="360" subtype="historical-document"
@@ -32994,7 +33052,8 @@
                                     J. Carr</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch33">
+                <div type="chapter" xml:id="ch33" frus:doc-dateTime-min="1926-04-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-03-30T23:59:59-05:00">
                     <head>Disinclination of the Canadian Government to authorize the discontinuance
                         of seine fishing in Missisquoi Bay</head>
                     <div type="document" xml:id="d370" n="370" subtype="historical-document"
@@ -33287,9 +33346,11 @@
                 </div>
             </div>
             <pb n="517" xml:id="pg_517" facs="0603"/>
-            <div type="compilation" xml:id="comp7">
+            <div type="compilation" xml:id="comp7" frus:doc-dateTime-min="1926-11-22T00:00:00-05:00"
+                frus:doc-dateTime-max="1927-12-10T13:00:00-05:00">
                 <head>Chile:</head>
-                <div type="chapter" xml:id="ch34">
+                <div type="chapter" xml:id="ch34" frus:doc-dateTime-min="1927-08-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-11-02T23:59:59-05:00">
                     <head>Proposed treaty of friendship, commerce and consular rights between the
                         United States and Chile</head>
                     <div type="document" xml:id="d375" n="375" subtype="historical-document"
@@ -33788,7 +33849,8 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch35">
+                <div type="chapter" xml:id="ch35" frus:doc-dateTime-min="1927-08-22T11:00:00-05:00"
+                    frus:doc-dateTime-max="1927-12-06T23:59:59-05:00">
                     <head>Representations to the Chilean Government regarding proposed legislation
                         favoring Chilean mercantile marine</head>
                     <div type="document" xml:id="d382" n="382" subtype="historical-document"
@@ -34383,7 +34445,8 @@
                             less in Chile.</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch36">
+                <div type="chapter" xml:id="ch36" frus:doc-dateTime-min="1927-09-01T16:00:00-05:00"
+                    frus:doc-dateTime-max="1927-12-10T13:00:00-05:00">
                     <head>Representations to the Chilean Government regarding effects of proposed
                         coal law on American interests</head>
                     <div type="document" xml:id="d396" n="396" subtype="historical-document"
@@ -34593,7 +34656,8 @@
                         <closer><signed><hi rend="smallcaps">Collier</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch37">
+                <div type="chapter" xml:id="ch37" frus:doc-dateTime-min="1927-05-05T10:00:00-05:00"
+                    frus:doc-dateTime-max="1927-11-29T23:59:59-05:00">
                     <head>Representations to the Chilean Government regarding effects of proposed
                         insurance legislation on American interests</head>
                     <div type="document" xml:id="d403" n="403" subtype="historical-document"
@@ -35008,7 +35072,8 @@
                             Collier</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch38">
+                <div type="chapter" xml:id="ch38" frus:doc-dateTime-min="1926-11-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1927-01-08T23:59:59-05:00">
                     <head>Disagreement of the Department of State with decision of a Chilean court
                         that a diplomatic secretary does not enjoy diplomatic immunity</head>
                     <div type="document" xml:id="d414" n="414" subtype="historical-document"
@@ -35141,7 +35206,9 @@
         </body>
         <back>
             <pb n="555" xml:id="pg_555" facs="0641"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1926-04-13T00:00:00-05:00"
+                frus:doc-dateTime-max="1928-01-11T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Agreements. <hi rend="italic">See</hi>

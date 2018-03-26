@@ -25,7 +25,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1955</date>
+                <date type="publication-date">1955</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -76,6 +76,10 @@
             <change>2015-05-23 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1938-01-01T17:00:00-05:00"
+                notAfter="1938-12-31T10:55:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -99,7 +103,9 @@
                     Printing Office<lb/>Washington 25, D.C. - Price $3.50 (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1938-01-01T17:00:00-05:00"
+                frus:doc-dateTime-max="1938-12-31T10:55:00-05:00">
                 <head>Contents</head>
                 <p rend="flushleft">(<hi rend="smallcaps">Note</hi>: For previously published
                     correspondence on relations between the United States and Japan in 1938, see
@@ -148,7 +154,8 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0005"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1938-01-01T17:00:00-05:00"
+                frus:doc-dateTime-max="1938-12-31T10:55:00-05:00">
                 <head>Undeclared War Between Japan and China:<note n="1" xml:id="comp1fn1">Continued
                         from <ref target="frus1937v03"><hi rend="italic">Foreign Relations</hi>,
                             1937, vols, <hi rend="smallcaps">iii</hi></ref> and <ref
@@ -156,9 +163,12 @@
                         correspondence, see <ref target="frus1931-41v01#pg_429"><hi rend="italic"
                                 >Foreign Relations</hi>, Japan, 1931–1941, vol. <hi rend="smallcaps"
                                 >i</hi>, pp. 429</ref> ff.</note></head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1938-01-01T22:00:00-05:00"
+                    frus:doc-dateTime-max="1938-12-31T10:55:00-05:00">
                     <head>Political and military developments:</head>
-                    <div type="subchapter" xml:id="ch1subch1">
+                    <div type="subchapter" xml:id="ch1subch1"
+                        frus:doc-dateTime-min="1938-01-01T22:00:00-05:00"
+                        frus:doc-dateTime-max="1938-01-31T23:59:59-05:00">
                         <head>Chapter I: January 1–31, 1938</head>
                         <quote rend="blockquote">
                             <p>Japanese terms in China presented through German channels; occupation
@@ -3889,7 +3899,9 @@
                             <closer><signed><hi rend="smallcaps">Hull</hi></signed></closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch1subch2">
+                    <div type="subchapter" xml:id="ch1subch2"
+                        frus:doc-dateTime-min="1938-02-01T13:00:00-05:00"
+                        frus:doc-dateTime-max="1938-03-14T14:00:00-05:00">
                         <head>Chapter II: February 1–March 14, 1938</head>
                         <quote rend="blockquote">
                             <p>Nature of American-British cooperation in Far East; Chinese mission
@@ -7494,7 +7506,9 @@
                             <closer><signed><hi rend="smallcaps">Allison</hi></signed></closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch1subch3">
+                    <div type="subchapter" xml:id="ch1subch3"
+                        frus:doc-dateTime-min="1938-03-16T11:00:00-05:00"
+                        frus:doc-dateTime-max="1938-05-31T22:00:00-05:00">
                         <head>Chapter III: March 15–May 31, 1938</head>
                         <quote rend="blockquote">
                             <p>Creation of special bureau by Japan to control Chinese affairs (March
@@ -11209,7 +11223,9 @@
                         </div>
                     </div>
                     <pb n="191" xml:id="pg_191" facs="0195"/>
-                    <div type="subchapter" xml:id="ch1subch4">
+                    <div type="subchapter" xml:id="ch1subch4"
+                        frus:doc-dateTime-min="1938-06-02T11:00:00-05:00"
+                        frus:doc-dateTime-max="1938-08-30T23:59:59-05:00">
                         <head>Chapter IV: June 1–August 31, 1938</head>
                         <quote rend="blockquote">
                             <p>Severe Japanese bombing of Canton from air; closing of Chinese
@@ -16150,7 +16166,9 @@
                             <closer><signed>H. H. <hi rend="smallcaps">Kung</hi></signed></closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch1subch5">
+                    <div type="subchapter" xml:id="ch1subch5"
+                        frus:doc-dateTime-min="1938-09-01T11:00:00-05:00"
+                        frus:doc-dateTime-max="1938-10-30T16:00:00-05:00">
                         <head>Chapter V: September 1–October 31, 1938</head>
                         <quote rend="blockquote">
                             <p>Growth of Communist influence in North China; Chinese inquiry
@@ -21145,7 +21163,9 @@
                         </div>
                     </div>
                     <pb n="354" xml:id="pg_354" facs="0358"/>
-                    <div type="subchapter" xml:id="ch1subch6">
+                    <div type="subchapter" xml:id="ch1subch6"
+                        frus:doc-dateTime-min="1938-11-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1938-12-31T10:55:00-05:00">
                         <head>Chapter VI: November 1–December 31, 1938</head>
                         <quote rend="blockquote">
                             <p>Significance of appointment of new Japanese Minister for Foreign
@@ -26174,7 +26194,8 @@
                         </div>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1938-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1938-12-22T23:59:59-05:00">
                     <head>Developments with respect to “Manchoukuo”;<note n="84" xml:id="ch2fn84"
                             >For previous correspondence, see <ref target="frus1937v03#pg_915"><hi
                                     rend="italic">Foreign Relations</hi>, 1937, vol. <hi
@@ -29038,7 +29059,8 @@
                         <closer><signed><hi rend="smallcaps">Joseph C. Grew</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1938-01-01T17:00:00-05:00"
+                    frus:doc-dateTime-max="1938-12-30T23:59:59-05:00">
                     <head>China’s appeal for sanctions against Japan under the Covenant of the
                         League of Nations<note n="38" xml:id="ch3fn38">For previous correspondence,
                             see <ref target="frus1937v04#pg_1"><hi rend="italic">Foreign
@@ -30797,7 +30819,8 @@
                                     rend="smallcaps">amilton</hi>]</signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1938-01-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1938-12-20T23:59:59-05:00">
                     <head>Consideration of possibilities of financial aid to China; extension of
                         credit by Export-Import Bank</head>
                     <div type="document" xml:id="d530" n="530" subtype="historical-document"
@@ -34697,7 +34720,8 @@
                                     rend="smallcaps">ornbeck</hi>]</signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1938-03-12T00:00:00-05:00"
+                    frus:doc-dateTime-max="1938-12-22T23:59:59-05:00">
                     <head>Efforts of China to secure war material from other countries<note n="76"
                             xml:id="ch5fn76">For previous correspondence on the export of military
                             material to China, see <ref target="frus1937v04#pg_520"><hi
@@ -35927,7 +35951,8 @@
                         <closer><signed><hi rend="smallcaps">Southard</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1938-06-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1938-11-09T23:59:59-05:00">
                     <head>Bombing by the Japanese of civilian population in China; appeal by the
                         Department of State to American firms not to export aviation material to
                             Japan<note n="6" xml:id="ch6fn6">For further correspondence in 1938
@@ -36721,7 +36746,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1938-01-04T18:00:00-05:00"
+                    frus:doc-dateTime-max="1938-12-28T23:59:59-05:00">
                     <head>Representations to the Japanese Government with respect to the integrity
                         of the Chinese Maritime Customs and Salt Revenue Administrations<note n="28"
                             xml:id="ch7fn28">Continued from <ref target="frus1937v03#pg_848"><hi
@@ -44444,7 +44470,9 @@
             <pb n="[753]" xml:id="pg_753" facs="0757"/>
             <pb n="[754]" xml:id="pg_754" facs="0758"/>
             <pb n="755" xml:id="pg_755" facs="0759"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1938-01-01T17:00:00-05:00"
+                frus:doc-dateTime-max="1938-12-31T10:55:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Afghanistan, <ref target="#pg_81">81</ref>, <ref target="#pg_137"

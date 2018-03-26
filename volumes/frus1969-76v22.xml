@@ -18,7 +18,7 @@
             <publicationStmt>
                 <publisher>United States Government Publishing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2015</date>
+                <date type="publication-date">2015</date>
                 <idno type="frus">frus1969-76v22</idno>
             </publicationStmt>
             <sourceDesc>
@@ -35,6 +35,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
+        <xenoData>
+            <frus:coverage notBefore="1973-01-15T11:45:00-05:00"
+                notAfter="1976-12-24T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -65,7 +69,9 @@
                     20402-0001</docImprint>
             </titlePage>
 
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
+                frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -321,12 +327,14 @@
                     </affiliation>
                     <signed>
                         <orgName>Bureau of Public Affairs</orgName><lb/>
-                        <date>September 2015</date>
+                        <date when="2015-09">September 2015</date>
                     </signed>
                 </closer>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
+                frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
@@ -359,7 +367,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
+                frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
                 <head>Sources</head>
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
@@ -643,7 +653,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
+                frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
                 <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -784,7 +796,9 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
+                frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Persons</head>
                 <list type="names">
@@ -1297,7 +1311,8 @@
         </front>
 
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
+                frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
                 <pb n="1" facs="0026" xml:id="pg_1"/>
                 <head>Panama, 1973–1976</head>
 
@@ -1375,7 +1390,9 @@
                         <note rend="inline"><hi rend="strong">Tab A</hi></note>
                         <head>Talking Points<note n="3" xml:id="d2fn3">Secret; <gloss
                                     target="#t_Exdis_1">Exdis</gloss>.</note></head>
-                        <dateline><date>Undated</date>.</dateline>
+                        <dateline><date when="1973-01-17"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >Undated</date>.</dateline>
                         <p>After an encouraging start in mid-1971 followed by a year of relative
                             inactivity, the Panama Canal Treaty negotiations retrogressed when the
                             Panamanians presented to Ambassador <persName corresp="#p_ARB_1"
@@ -1488,7 +1505,9 @@
                         <head><hi rend="strong">Comparison of Positions<note n="6" xml:id="d2fn6"
                                     >Secret; <gloss target="#t_Exdis_1"
                             >Exdis</gloss>.</note></hi></head>
-                        <dateline><date>Undated</date>.</dateline>
+                        <dateline><date when="1973-01-17"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >Undated</date>.</dateline>
                         <p>1. <hi rend="italic">Duration.</hi> In response to our position to drop
                             perpetuity and operate the lock canal for fifty years and a sea-level
                             canal for forty additional years, Panama offers 22 years on the lock
@@ -5515,7 +5534,9 @@
                                 Governor of the Panama Canal Zone (<persName corresp="#p_PDS_1"
                                     >Parker</persName>)</hi><note n="6" xml:id="d31fn6">No
                                 classification marking.</note></head>
-                        <dateline><date>Undated</date>.</dateline>
+                        <dateline><date when="1974-02-05"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >Undated</date>.</dateline>
                         <p rend="flushleft">Dear Governor <persName corresp="#p_PDS_1"
                                 >Parker</persName>:</p>
                         <p>The signing of a Joint Statement of Principles by the Governments of the
@@ -9739,7 +9760,9 @@
                     </closer>
                 </div>
 
-                <div type="document" n="63" xml:id="d63" subtype="historical-document">
+                <div type="document" n="63" xml:id="d63" subtype="historical-document"
+                    frus:doc-dateTime-min="1975-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1975-01-10T23:59:59-05:00">
                     <head>63. Paper Prepared for Secretary of State <persName corresp="#p_KHA_1"
                             >Kissinger</persName>
                         <note n="1" xml:id="d63fn1" type="source">Source: Library of Congress,
@@ -9760,7 +9783,9 @@
                                 >Document 59</ref>.</note></head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1975-01-10"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                     </opener>
                     <p rend="center">LATIN AMERICA</p>
                     <p rend="center">THE PANAMA NEGOTIATION</p>
@@ -9975,7 +10000,9 @@
                     </closer>
                 </div>
 
-                <div type="document" n="65" xml:id="d65" subtype="historical-document">
+                <div type="document" n="65" xml:id="d65" subtype="historical-document"
+                    frus:doc-dateTime-min="1975-02-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1975-02-12T15:30:00-05:00">
                     <head>65. Memorandum From Secretary of State <persName corresp="#p_KHA_1"
                             >Kissinger</persName> to President <persName corresp="#p_FGR_1"
                             >Ford</persName>
@@ -9993,7 +10020,11 @@
                                 target="#d66fn1">footnote 1, Document 66</ref>.</note></head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1975-02-06T00:00:00-05:00"
+                                notAfter="1975-02-12T15:30:00-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -11627,7 +11658,10 @@
                     <frus:attachment>
                         <note rend="inline"><hi rend="strong">Attachment 1</hi><note n="4"
                                 xml:id="d75fn4">Confidential.</note></note>
-                        <dateline><date>Undated</date>.</dateline>
+                        <dateline><date notBefore="1975-04-22T12:21:00-04:00"
+                                notAfter="1975-05-02T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >Undated</date>.</dateline>
                         <p rend="center">UNILATERAL ACTIONS WHICH REQUIRE NO CONGRESSIONAL
                             ACTION</p>
                         <p>1. Expand current Canal Zone practice of flying jointly Panamanian and US
@@ -11642,7 +11676,10 @@
                     <frus:attachment>
                         <note rend="inline"><hi rend="strong">Attachment 2</hi><note n="5"
                                 xml:id="d75fn5">Confidential.</note></note>
-                        <dateline><date>Undated</date>.</dateline>
+                        <dateline><date notBefore="1975-04-22T12:21:00-04:00"
+                                notAfter="1975-05-02T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >Undated</date>.</dateline>
                         <p rend="center">UNILATERAL ACTIONS REQUIRING CONGRESSIONAL APPROVAL</p>
                         <p>1. Increase substantially the existing monetary annuity to Panama.</p>
                         <p>2. Offer Panama civil and criminal jurisdiction over matters arising in
@@ -15757,7 +15794,10 @@
                     <frus:attachment>
                         <note rend="inline"><hi rend="strong">Tab A<note n="8" xml:id="d108fn8"
                                     >Secret.</note></hi></note>
-                        <dateline><date>Undated</date>.</dateline>
+                        <dateline><date notBefore="1975-11-25T00:00:00-05:00"
+                                notAfter="1975-12-16T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >Undated</date>.</dateline>
                         <pb n="290" facs="0315" xml:id="pg_290"/>
                         <table cols="4">
                             <row>
@@ -16688,7 +16728,9 @@
                         <note rend="inline"><hi rend="strong">Enclosure</hi><note n="3"
                                 xml:id="d115fn3">Secret. Drafted by Bell on March 19; cleared by
                                     <persName corresp="#p_BE_1">Bunker</persName>.</note></note>
-                        <dateline><date>Undated</date>.</dateline>
+                        <dateline><date when="1976-03-19"
+                                ana="#date_undated-inferred-from-document-content"
+                            >Undated</date>.</dateline>
                         <p rend="center">SCENARIO FOR THE UNITED STATES-PANAMA TREATY NEGOTIATIONS
                             IN THE COMING MONTHS</p>
                         <p>Since the resolution of the State/Defense differences and the resulting
@@ -17785,7 +17827,9 @@
                     </closer>
                 </div>
 
-                <div type="document" n="124" xml:id="d124" subtype="historical-document">
+                <div type="document" n="124" xml:id="d124" subtype="historical-document"
+                    frus:doc-dateTime-min="1976-05-21T23:00:00-05:00"
+                    frus:doc-dateTime-max="1976-06-11T09:04:00-05:00">
                     <pb n="330" facs="0355" xml:id="pg_330"/>
                     <head>124. Memorandum From the Deputy Director for Operations, Central
                         Intelligence Agency (<persName corresp="#p_WWWD_1">Wells</persName>) to
@@ -17804,7 +17848,11 @@
                             <idno type="document-identifier">FIRDB–312/01711–76</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1976-05-22T00:00:00-04:00"
+                                notAfter="1976-06-11T14:04:00+00:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -20557,7 +20605,9 @@
         </body>
 
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
+                frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
                 <pb n="385" facs="0410" xml:id="pg_385"/>
                 <head>Index</head>
                 <p><hi rend="strong">References are to document numbers</hi></p>
@@ -22411,7 +22461,7 @@
                             <item>Venezuela, <ref target="#d70">70</ref></item>
                             <item>Vest, George S., <ref target="#d67">67</ref>, <ref target="#d72"
                                     >72</ref>, <ref target="#d80">80</ref>, <ref target="#d87"
-                                    >87</ref>, <ref target="#d93">93</ref>, :nl 135</item>
+                                    >87</ref>, <ref target="#d93">93</ref>, 135</item>
                             <item>Veysey, Vic, <ref target="#d122">122</ref>, <ref target="#d128"
                                     >128</ref></item>
                             <item>Villa, Capt. Jose, <ref target="#d3">3</ref>, <ref target="#d4"

@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1996</date>
+                <date type="publication-date">1996</date>
                 <idno type="dospubno">10330</idno>
                 <idno type="isbn-10">0160480914</idno>
                 <idno type="isbn-13">9780160480911</idno>
@@ -42,6 +42,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1964-01-09T20:00:00-05:00"
+                notAfter="1968-12-12T13:28:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -75,7 +79,9 @@
                     Stop: SSOP<lb/>Washington, DC 20402-9328<lb/>ISBN 0-16-048091-4</docImprint>
                 <pb n="III" xml:id="pg_III" facs="0003"/>
             </titlePage>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1964-01-09T20:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-12T13:28:00-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -227,7 +233,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0006"/>
             <pb n="VII" xml:id="pg_VII" facs="0007"/>
-            <div type="section" xml:id="subseriesvols">
+            <div type="section" xml:id="subseriesvols" subtype="additional-volumes"
+                frus:doc-dateTime-min="1964-01-09T20:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-12T13:28:00-05:00">
                 <head>
                     <persName corresp="#p_JLB1">Johnson</persName> Administration Volumes</head>
                 <p>Following is a list of the volumes in the <hi rend="italic">Foreign
@@ -376,7 +384,9 @@
             </div>
             <pb n="[VIII]" xml:id="pg_VIII" facs="0008"/>
             <pb n="IX" xml:id="pg_IX" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1964-01-09T20:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-12T13:28:00-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -446,7 +456,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="section" xml:id="editorial">
+            <div type="section" xml:id="editorial" subtype="editorial-policies"
+                frus:doc-dateTime-min="1964-01-09T20:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-12T13:28:00-05:00">
                 <head>Selection and Editorial Policies</head>
                 <p rend="flushleft">
                     <hi rend="italic">Principles of Document Selection for the Foreign Relations
@@ -615,7 +627,9 @@
                     supplement or explicate the official record.</p>
             </div>
             <pb n="XV" xml:id="pg_XV" facs="0015"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1964-01-09T20:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-12T13:28:00-05:00">
                 <head>Sources</head>
                 <p>The <hi rend="italic">Foreign Relations</hi> statute requires that the published
                     record in the <hi rend="italic">Foreign Relations</hi> series include all
@@ -945,7 +959,9 @@
             </div>
             <pb n="[XX]" xml:id="pg_XX" facs="0020"/>
             <pb n="XXI" xml:id="pg_XXI" facs="0021"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1964-01-09T20:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-12T13:28:00-05:00">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -1398,7 +1414,9 @@
             </div>
             <pb n="[XXIV]" xml:id="pg_XXIV" facs="0024"/>
             <pb n="XXV" xml:id="pg_XXV" facs="0025"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1964-01-09T20:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-12T13:28:00-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -1900,9 +1918,11 @@
         </front>
         <pb n="1" xml:id="pg_1" facs="0029"/>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1964-01-09T20:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-12T13:28:00-05:00">
                 <head>Eastern Europe</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1964-01-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-11-07T23:59:59-05:00">
                     <head>Eastern Europe Region</head>
                     <div type="document" xml:id="d1" n="1" subtype="historical-document"
                         frus:doc-dateTime-min="1964-01-16T00:00:00-05:00"
@@ -4147,7 +4167,9 @@
                                 and the Soviet Union, Report to the President</hi> (Washington,
                             1965), was released by the White House on May 6.</p>
                     </div>
-                    <div type="document" xml:id="d12" n="12" subtype="historical-document">
+                    <div type="document" xml:id="d12" n="12" subtype="historical-document"
+                        frus:doc-dateTime-min="1965-06-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1965-06-05T23:59:59-05:00">
                         <head>12. Paper Prepared in the Department of State<note n="1"
                                 xml:id="d12fn1" type="source">Source: Department of State, Central
                                 Files, POL 1 <gloss target="#t_EUR1">EUR</gloss> E–US. Secret. The
@@ -4156,7 +4178,9 @@
                                     <persName corresp="#p_BMG1">Bundy</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-06-05"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">
                             <gloss target="#t_NSAM1">NSAM</gloss> 304<note n="2" xml:id="d12fn2">
                                 <ref target="#d4">Document 4</ref>.</note> ACTION PROGRAM FOR US
@@ -6218,7 +6242,9 @@
                                 support. This policy has been carefully followed.</p>
                         </frus:attachment>
                     </div>
-                    <div type="document" xml:id="d22" n="22" subtype="historical-document">
+                    <div type="document" xml:id="d22" n="22" subtype="historical-document"
+                        frus:doc-dateTime-min="1968-05-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-05-21T23:59:59-05:00">
                         <head>22. Paper Prepared in the Department of State<note n="1"
                                 xml:id="d22fn1" type="source">Source: Department of State, <gloss
                                     target="#t_SIG1">SIG</gloss> Records: Lot 70 D 263, <gloss
@@ -6228,7 +6254,9 @@
                                 June 3.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-05-21"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">STATUS REPORT ON ACTION RECOMMENDATIONS OF <gloss
                                 target="#t_SIG1">SIG</gloss> PAPER, “SOVIET MILITARY INTERVENTION IN
                             EASTERN EUROPE”<note n="2" xml:id="d22fn2">The paper is printed as Tab A
@@ -6397,7 +6425,9 @@
                         <frus:attachment>
                             <head>Attachment 1</head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Washington</placeName>, <date when="1968-09-30"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>.</dateline>
                             <p>
                                 <hi rend="strong">Paper Prepared in the Department of State<note
                                         n="3" xml:id="d23fn3">Secret. Drafted by Dubs (<gloss
@@ -6533,7 +6563,9 @@
                         <frus:attachment>
                             <head>Attachment 2</head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Washington</placeName>, <date when="1968-09-30"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>.</dateline>
                             <p>
                                 <hi rend="strong">Paper Prepared in the Department of State<note
                                         n="7" xml:id="d23fn7">Secret. No drafting information
@@ -6839,7 +6871,9 @@
                         <frus:attachment>
                             <head>Attachment 3</head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Washington</placeName>, <date when="1968-09-30"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>.</dateline>
                             <p>
                                 <hi rend="strong">Paper Prepared in the Department of State<note
                                         n="10" xml:id="d23fn10">Secret. No drafting information
@@ -7128,7 +7162,9 @@
                         <frus:attachment>
                             <head>Attachment 4</head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                                <placeName>Washington</placeName>, <date when="1968-09-30"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>.</dateline>
                             <p>
                                 <hi rend="strong">Paper Prepared in the Department of State<note
                                         n="12" xml:id="d23fn12">Secret. Drafted by Crump (<gloss
@@ -8325,7 +8361,8 @@
                     </div>
                 </div>
                 <pb n="113" xml:id="pg_113" facs="0141"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1964-01-09T20:00:00-05:00"
+                    frus:doc-dateTime-max="1968-09-20T10:25:00-05:00">
                     <head>Bulgaria</head>
                     <div type="document" xml:id="d27" n="27" subtype="historical-document"
                         frus:doc-dateTime-min="1964-01-09T20:00:00-05:00"
@@ -10155,7 +10192,8 @@
                     </div>
                 </div>
                 <pb n="146" xml:id="pg_146" facs="0174"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1964-02-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-11-29T23:59:59-05:00">
                     <head>Czechoslovakia</head>
                     <div type="document" xml:id="d37" n="37" subtype="historical-document"
                         frus:doc-dateTime-min="1964-02-19T00:00:00-05:00"
@@ -16874,7 +16912,9 @@
                                 was sent.</note>
                         </p>
                     </div>
-                    <div type="document" xml:id="d92" n="92" subtype="historical-document">
+                    <div type="document" xml:id="d92" n="92" subtype="historical-document"
+                        frus:doc-dateTime-min="1968-09-03T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-09-03T23:59:59-05:00">
                         <head>92. Paper Prepared in the Department of State<note n="1"
                                 xml:id="d92fn1" type="source">Source: Department of State, Central
                                 Files, POL 27–1 COMBLOC–CZECH. Secret. The source text bears no
@@ -16886,7 +16926,9 @@
                                 September 4 meeting of the National Security Council.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-09-03"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="flushleft">
                             <gloss target="#t_NSC1">NSC</gloss> PAPER</p>
                         <p rend="center">THE UNITED STATES, EUROPE, AND THE CZECHOSLOVAKIA
@@ -18335,7 +18377,8 @@
                         <pb n="293" xml:id="pg_293" facs="0321"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1964-01-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-10-17T11:00:00-05:00">
                     <head>Hungary</head>
                     <div type="document" xml:id="d100" n="100" subtype="historical-document"
                         frus:doc-dateTime-min="1964-01-13T00:00:00-05:00"
@@ -20108,7 +20151,8 @@
                     </div>
                 </div>
                 <pb n="325" xml:id="pg_325" facs="0353"/>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1964-01-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-11-11T10:59:00-05:00">
                     <head>Poland</head>
                     <div type="document" xml:id="d116" n="116" subtype="historical-document"
                         frus:doc-dateTime-min="1964-01-16T00:00:00-05:00"
@@ -23372,7 +23416,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1964-02-26T15:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-12T13:28:00-05:00">
                     <pb n="381" xml:id="pg_381" facs="0409"/>
                     <head>Romania</head>
                     <div type="document" xml:id="d139" n="139" subtype="historical-document"
@@ -28338,7 +28383,8 @@
                     </div>
                 </div>
                 <pb n="469" xml:id="pg_469" facs="0497"/>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1964-06-24T17:00:00-05:00"
+                    frus:doc-dateTime-max="1968-10-24T18:40:00-05:00">
                     <head>Yugoslavia</head>
                     <div type="document" xml:id="d175" n="175" subtype="historical-document"
                         frus:doc-dateTime-min="1964-06-24T17:00:00-05:00"
@@ -31567,7 +31613,8 @@
                     </div>
                 </div>
                 <pb n="526" xml:id="pg_526" facs="0554"/>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1965-11-29T11:30:00-05:00"
+                    frus:doc-dateTime-max="1968-10-21T23:59:59-05:00">
                     <head>Austria</head>
                     <div type="document" xml:id="d198" n="198" subtype="historical-document"
                         frus:doc-dateTime-min="1965-11-29T11:30:00-05:00"
@@ -32564,7 +32611,8 @@
                     </div>
                 </div>
                 <pb n="544" xml:id="pg_544" facs="0572"/>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1964-05-15T19:06:00-05:00"
+                    frus:doc-dateTime-max="1968-11-29T12:00:00-05:00">
                     <head>Finland</head>
                     <div type="document" xml:id="d205" n="205" subtype="historical-document"
                         frus:doc-dateTime-min="1964-05-15T19:06:00-05:00"
@@ -33235,7 +33283,9 @@
         </body>
         <pb n="557" xml:id="pg_557" facs="0585"/>
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1964-01-09T20:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-12T13:28:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>
@@ -39773,7 +39823,9 @@
                     </item>
                 </list>
                 <pb n="580" xml:id="pg_580" facs="0608"/>
-                <div type="section" xml:id="errata">
+                <div type="section" xml:id="errata" subtype="errata"
+                    frus:doc-dateTime-min="1964-01-09T20:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-12T13:28:00-05:00">
                     <head>Errata</head>
                     <p>The following changes have been made to the online version of <ref
                             target="frus1964-68v17">

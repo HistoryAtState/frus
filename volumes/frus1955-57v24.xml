@@ -18,7 +18,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1989</date>
+                <date type="publication-date">1989</date>
                 <idno type="dospubno">9699</idno>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -44,6 +44,10 @@
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1955-01-05T00:00:00-05:00"
+                notAfter="1957-12-21T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -82,7 +86,9 @@
                     D.C. 20402</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -145,7 +151,9 @@
                             Historian<lb/>Bureau of Public Affairs</hi></signed></closer>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III"><hi rend="strong">Preface</hi></ref></item>
@@ -186,7 +194,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>List of Sources</head>
                 <list>
                     <item><hi rend="strong">Department of State</hi>
@@ -528,7 +538,9 @@
                 </list>
             </div>
             <pb n="XIII" xml:id="pg_XIII" facs="0017"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AA1">AA</term>,</hi>
@@ -939,7 +951,9 @@
                 </list>
             </div>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="shorttitles">
+            <div type="section" xml:id="shorttitles" subtype="index"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>List of Short Titles</head>
                 <list>
                     <item><hi rend="italic">AFP: Basic Documents. American Foreign Policy,
@@ -1035,7 +1049,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AK1">Adenauer,
@@ -1683,10 +1699,12 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1955-01-27T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <pb n="1" xml:id="pg_1" facs="0031"/>
                 <head>The Soviet Union</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1955-01-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                     <head>United States Policy Toward the Soviet Union<note n="1" xml:id="d1fn1"
                             >Continued from <ref target="frus1952-54v08#pg_954"><hi rend="italic"
                                     >Foreign Relations,</hi> 1952–1954, vol. VIII, pp. 954</ref>
@@ -11659,9 +11677,11 @@
                 </div>
             </div>
             <pb n="192" xml:id="pg_192" facs="0222"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1955-03-22T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-10-16T23:59:59-05:00">
                 <head>East-West Exchanges</head>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1955-03-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1957-10-16T23:59:59-05:00">
                     <head>United States Policy in Establishing a Program of Exchange of Information
                         and Persons With the Soviet Bloc</head>
                     <div type="document" xml:id="d92" n="92" subtype="historical-document"
@@ -15746,9 +15766,11 @@
                 </div>
             </div>
             <pb n="269" xml:id="pg_269" facs="0299"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1955-01-27T18:40:00-05:00"
+                frus:doc-dateTime-max="1957-12-19T15:15:00-05:00">
                 <head>Cyprus</head>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1955-01-27T18:40:00-05:00"
+                    frus:doc-dateTime-max="1957-12-19T15:15:00-05:00">
                     <head>United States Interest in the Resolution of the Cyprus Dispute<note n="1"
                             xml:id="d115fn1">For previous documentation, see <ref
                                 target="frus1952-54v08#pg_674"><hi rend="italic">Foreign
@@ -17359,7 +17381,9 @@
                         <closer><signed><persName corresp="#p_HHCJ1"><hi rend="strong"
                                     >Hoover</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d136" n="136" subtype="historical-document">
+                    <div type="document" xml:id="d136" n="136" subtype="historical-document"
+                        frus:doc-dateTime-min="1955-09-20T06:07:00-05:00"
+                        frus:doc-dateTime-max="1955-09-20T06:07:00-05:00">
                         <head>136. Message From King <persName corresp="#p_PI1" type="from"
                                 >Paul</persName> to Secretary of State <persName corresp="#p_DJF1"
                                 type="to">Dulles</persName><note n="1" xml:id="d136fn1"><p>Source:
@@ -17390,7 +17414,9 @@
                                         target="#d135fn4">footnote 4, <hi rend="italic"
                                         >Supra.</hi></ref></p></note></head>
                         <dateline><placeName><hi rend="italic">Athens</hi></placeName>, <hi
-                                rend="italic"><date>undated</date>.</hi></dateline>
+                                rend="italic"><date when="1955-09-20T13:07:00+02:00"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>.</hi></dateline>
                         <p>This is a private message for your personal information owing to my deep
                             concern about the present situation.</p>
                         <p>My talks with the Government and leaders of the opposition have
@@ -19777,7 +19803,9 @@
                         <closer><signed><persName corresp="#p_CR1"><hi rend="strong"
                                     >Courtney</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d163" n="163" subtype="historical-document">
+                    <div type="document" xml:id="d163" n="163" subtype="historical-document"
+                        frus:doc-dateTime-min="1956-02-27T19:00:00-05:00"
+                        frus:doc-dateTime-max="1956-03-01T18:59:59-05:00">
                         <head>163. Message From Foreign Secretary <persName corresp="#p_LSJSB1"
                                 type="from">Lloyd</persName> to Secretary of State <persName
                                 corresp="#p_DJF1" type="to">Dulles</persName><note n="1"
@@ -19789,7 +19817,10 @@
                                     >Makins</persName> to <persName>Dulles</persName>, March
                                 1.</note></head>
                         <dateline><placeName><hi rend="italic">London</hi></placeName>, <hi
-                                rend="italic"><date>undated</date>.</hi></dateline>
+                                rend="italic"><date notBefore="1956-02-28T00:00:00+00:00"
+                                    notAfter="1956-03-01T23:59:59+00:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</hi></dateline>
                         <p>We have decided that we must make a statement of our position on Cyprus
                             in the House of Commons early next week. This will almost certainly be
                             on March 5.<note n="2" xml:id="d163fn2">The text of this statement is in
@@ -21888,7 +21919,9 @@
                                         >Williams</persName>, <persName corresp="#p_WCB1"
                                         >Wood</persName>, and Laingen.</note></head>
                             <dateline><placeName><hi rend="italic">Washington</hi></placeName>, <hi
-                                    rend="italic"><date>undated</date>.</hi></dateline>
+                                    rend="italic"><date when="1956-08-13"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        >undated</date>.</hi></dateline>
                             <p rend="center"><hi rend="smallcaps">I. Goals In The Cyprus
                                     Dispute</hi></p>
                             <list>
@@ -25168,7 +25201,9 @@
                             >Dulles</hi></persName></signed></closer>
                     </div>
                     <pb n="445" xml:id="pg_445" facs="0475"/>
-                    <div type="document" xml:id="d219" n="219" subtype="historical-document">
+                    <div type="document" xml:id="d219" n="219" subtype="historical-document"
+                        frus:doc-dateTime-min="1957-01-28T21:07:00-05:00"
+                        frus:doc-dateTime-max="1957-02-08T18:59:59-05:00">
                         <head>219. Message From Foreign Secretary <persName corresp="#p_LSJSB1"
                                 type="from">Lloyd</persName> to Secretary of State <persName
                                 corresp="#p_DJF1" type="to">Dulles</persName><note n="1"
@@ -25180,7 +25215,10 @@
                                 from <persName corresp="#p_CSHA1">Caccia</persName> to
                                     <persName>Dulles</persName>.</note></head>
                         <dateline><placeName><hi rend="italic">London</hi></placeName>, <hi
-                                rend="italic"><date>undated</date>.</hi></dateline>
+                                rend="italic"><date notBefore="1957-01-28T21:07:00-05:00"
+                                    notAfter="1957-02-08T23:59:59+00:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</hi></dateline>
                         <p>I am worried at the effect upon Anglo-American relations of the
                             forthcoming debate on Cyprus in the United Nations. We agree, I know,
                             that it would be much better to have no debate at all, but it would
@@ -29585,9 +29623,11 @@
                 </div>
             </div>
             <pb n="527" xml:id="pg_527" facs="0557"/>
-            <div type="compilation" xml:id="comp4">
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1955-01-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-11T23:59:59-05:00">
                 <head>Greece</head>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1955-01-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1957-12-11T23:59:59-05:00">
                     <head>United States Relations With Greece<note n="1" xml:id="d276fn1">For
                             previous documentation on US policy toward Greece, see <ref
                                 target="frus1952-54v08#pg_780"><hi rend="italic">Foreign
@@ -33919,9 +33959,11 @@
                 </div>
             </div>
             <pb n="608" xml:id="pg_608" facs="0638"/>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" xml:id="comp5" frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-19T16:00:00-05:00">
                 <head>Turkey</head>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1957-12-19T16:00:00-05:00">
                     <head>United States Relations With Turkey: Questions of Economic and Military
                             Assistance<note n="1" xml:id="d316fn1">Continued from <ref
                                 target="frus1952-54v08#pg_865"><hi rend="italic">Foreign
@@ -41475,7 +41517,9 @@
         <back>
             <pb n="[750]" xml:id="pg_750" facs="0780"/>
             <pb n="751" xml:id="pg_751" facs="0781"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item><persName>Adams, John Quincy</persName>, <ref target="#pg_71">71<hi

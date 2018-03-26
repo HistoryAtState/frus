@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington, DC</pubPlace>
-                <date>2001</date>
+                <date type="publication-date">2001</date>
                 <idno type="dospubno">10865</idno>
                 <idno type="isbn-10">0160508843</idno>
                 <idno type="isbn-13">9780160508844</idno>
@@ -43,6 +43,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1969-01-21T00:00:00-05:00"
+                notAfter="1972-10-20T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -70,7 +74,9 @@
                     <pb n="[II]" xml:id="pg_II" facs="0002"/>DEPARTMENT OF STATE PUBLICATION
                     10865</docImprint>
             </titlePage>
-            <div type="section" xml:id="pressrelease">
+            <div type="section" xml:id="pressrelease" subtype="press-release"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Office of the Historian Press Release</head>
                 <p>The first <persName corresp="#p_NRM1">Nixon</persName> administration’s policies
                     to stabilize the U.S. economy and to reform the international monetary system
@@ -156,7 +162,9 @@
                     go to <ref target="http://bookstore.gpo.gov/"
                     >http://bookstore.gpo.gov/</ref>.</p>
             </div>
-            <div type="section" xml:id="summary">
+            <div type="section" xml:id="summary" subtype="volume-summary"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Volume Summary</head>
                 <p>(This is not an official statement of policy by the Department of State; it is
                     intended only as a guide to the contents of this volume.)</p>
@@ -594,7 +602,9 @@
                     "mixed but generally positive." (242, 243)</p>
             </div>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -832,7 +842,9 @@
             <pb n="[VII]" xml:id="pg_VII" facs="0007"/>
             <pb n="[VIII]" xml:id="pg_VIII" facs="0008"/>
             <pb n="IX" xml:id="pg_IX" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -860,7 +872,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Sources</head>
                 <p rend="flushleft">
                     <hi rend="italic">Sources for the Foreign Relations Series</hi>
@@ -1372,7 +1386,9 @@
             </div>
             <pb n="[XVIII]" xml:id="pg_XVIII" facs="0018"/>
             <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -1871,7 +1887,9 @@
             </div>
             <pb n="[XXII]" xml:id="pg_XXII" facs="0022"/>
             <pb n="XXIII" xml:id="pg_XXIII" facs="0023"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -2499,12 +2517,16 @@
         </front>
         <pb n="1" xml:id="pg_1" facs="0029"/>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1969-01-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-12-18T23:59:59-05:00">
                 <head>Foreign Economic Policy 1969-1972; International Monetary Policy,
                     1969-1972</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1969-01-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-12-18T23:59:59-05:00">
                     <head>Foreign Economic Policy</head>
-                    <div type="document" xml:id="d1" n="1" subtype="historical-document">
+                    <div type="document" xml:id="d1" n="1" subtype="historical-document"
+                        frus:doc-dateTime-min="1969-01-18T00:00:00-05:00"
+                        frus:doc-dateTime-max="1969-01-18T23:59:59-05:00">
                         <head>1. Summary of the Report of the Task Force on U.S. Balance of Payments
                                 Policies<note n="1" xml:id="d1fn1" type="source">Source: National
                                 Archives, <persName corresp="#p_NRM1">Nixon</persName> Presidential
@@ -2520,7 +2542,9 @@
                                 ibid., Task Force on U.S. Balance of Payments Policies.</note>
                         </head>
                         <dateline>
-                            <placeName>New York</placeName>, <date>undated</date>.</dateline>
+                            <placeName>New York</placeName>, <date when="1969-01-18"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p>The present U.S. balance-of-payments position is very precarious. Serious
                             deterioration in the nation’s trade accounts is being temporarily
                             camouflaged by a combination of window-dressing special transactions and
@@ -6306,7 +6330,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d26" n="26" subtype="historical-document">
+                    <div type="document" xml:id="d26" n="26" subtype="historical-document"
+                        frus:doc-dateTime-min="1969-07-20T23:00:00-05:00"
+                        frus:doc-dateTime-max="1969-08-20T22:59:59-05:00">
                         <head>26. Paper Prepared by Consultants<note n="1" xml:id="d26fn1"
                                 type="source">Source: National Archives, <persName corresp="#p_NRM1"
                                     >Nixon</persName> Presidential Materials, <gloss
@@ -6330,7 +6356,11 @@
                                 212.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1969-07-21T00:00:00-04:00"
+                                notAfter="1969-08-20T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">VIII. FOREIGN ECONOMIC TRENDS</p>
                         <p rend="center">The Separation Between Foreign Economic and Political
                             Policy</p>
@@ -7988,7 +8018,9 @@
                         </p>
                     </div>
                     <pb n="96" xml:id="pg_96" facs="0124"/>
-                    <div type="document" xml:id="d39" n="39" subtype="historical-document">
+                    <div type="document" xml:id="d39" n="39" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-03-02T00:00:00-05:00"
+                        frus:doc-dateTime-max="1970-04-03T23:59:59-05:00">
                         <head>39. Paper Prepared in the Department of the Treasury<note n="1"
                                 xml:id="d39fn1" type="source">Source: Washington National Records
                                 Center, Department of the Treasury, Office of the Assistant
@@ -8002,7 +8034,11 @@
                                     >Willis</persName>’ suggested revision of that paper.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1970-03-02T00:00:00-05:00"
+                                notAfter="1970-04-03T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">SUGGESTED REVISION U.S. BALANCE OF PAYMENTS OBJECTIVES</p>
                         <p>The United States seeks over time a pattern of international trade and
                             payments which will serve the basic objective of expanding the
@@ -16334,7 +16370,9 @@
                                 target="#d95fn1">footnote 1</ref> thereto.</p>
                     </div>
                     <pb n="237" xml:id="pg_237" facs="0265"/>
-                    <div type="document" xml:id="d94" n="94" subtype="historical-document">
+                    <div type="document" xml:id="d94" n="94" subtype="historical-document"
+                        frus:doc-dateTime-min="1972-07-17T10:30:00-05:00"
+                        frus:doc-dateTime-max="1972-08-15T22:59:59-05:00">
                         <head>94. Paper Prepared in the Council on International Economic
                                 Policy<note n="1" xml:id="d94fn1" type="source">Source: Washington
                                 National Records Center, Department of the Treasury, Files of Under
@@ -16354,7 +16392,11 @@
                                 230</ref>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1972-07-17T11:30:00-04:00"
+                                notAfter="1972-08-15T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                         <p rend="center">U.S. OBJECTIVES FOR TRADE NEGOTIATIONS AND MONETARY
                             REFORM</p>
                         <p rend="center">I. Premises</p>
@@ -16603,7 +16645,9 @@
                             and regional policies which distort competition should be negotiated as
                             well as direct trade restrictions.</p>
                     </div>
-                    <div type="document" xml:id="d95" n="95" subtype="historical-document">
+                    <div type="document" xml:id="d95" n="95" subtype="historical-document"
+                        frus:doc-dateTime-min="1972-07-17T10:30:00-05:00"
+                        frus:doc-dateTime-max="1972-08-15T22:59:59-05:00">
                         <head>95. U.S. Position Paper<note n="1" xml:id="d95fn1" type="source"
                                 >Source: National Archives, <persName corresp="#p_NRM1"
                                     >Nixon</persName> Presidential Materials, <gloss
@@ -16623,7 +16667,11 @@
                                 8/31-9/1/72)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1972-07-17T11:30:00-04:00"
+                                notAfter="1972-08-15T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">U.S.-JAPAN TRADE ISSUES</p>
                         <p rend="flushleft">
                             <hi rend="italic">1. Overall Trade Imbalance</hi>
@@ -18903,7 +18951,9 @@
                                 <persName>Kenneth</persName> 1971-1974)</p>
                     </div>
                     <pb n="283" xml:id="pg_283" facs="0311"/>
-                    <div type="document" xml:id="d108" n="108" subtype="historical-document">
+                    <div type="document" xml:id="d108" n="108" subtype="historical-document"
+                        frus:doc-dateTime-min="1972-11-18T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-12-18T23:59:59-05:00">
                         <head>108. Paper Prepared in the Department of State<note n="1"
                                 xml:id="d108fn1" type="source">Source: National Archives, <gloss
                                     target="#t_RG1">RG</gloss> 59,<gloss target="#t_SS1">S/S</gloss>
@@ -18925,7 +18975,11 @@
                                 consensus.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1972-11-18T00:00:00-05:00"
+                                notAfter="1972-12-18T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">
                             <gloss target="#t_NSSM1">NSSM</gloss> RESPONSE</p>
                         <p rend="center">Part I</p>
@@ -19256,7 +19310,8 @@
                     </div>
                 </div>
                 <pb n="290" xml:id="pg_290" facs="0318"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-10-03T23:59:59-05:00">
                     <head>International Monetary Policy, 1969-1972</head>
                     <div type="document" xml:id="d109" n="109" subtype="historical-document"
                         frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
@@ -19402,7 +19457,9 @@
                             percent import surcharge and suspension of the convertibility of the
                             dollar to gold the President announced on August 15, 1971.</p>
                     </div>
-                    <div type="document" xml:id="d111" n="111" subtype="historical-document">
+                    <div type="document" xml:id="d111" n="111" subtype="historical-document"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1969-01-30T23:59:59-05:00">
                         <head>111. <persName corresp="#p_VPA1">Volcker</persName> Group Paper<note
                                 n="1" xml:id="d111fn1" type="source">Source: Washington National
                                 Records Center, Department of the Treasury, <persName
@@ -19421,7 +19478,11 @@
                                 No record of the discussion was found.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1969-01-21T00:00:00-05:00"
+                                notAfter="1969-01-30T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="flushleft">VG/LIM/69-2</p>
                         <p rend="center">LONG-TERM ASPECTS OF U.S. INTERNATIONAL MONETARY AND
                             EXCHANGE POLICIES</p>
@@ -34786,7 +34847,9 @@
                             Rome (see <ref target="#d211">Document 211</ref>) are also contained in
                             these papers.</p>
                     </div>
-                    <div type="document" xml:id="d201" n="201" subtype="historical-document">
+                    <div type="document" xml:id="d201" n="201" subtype="historical-document"
+                        frus:doc-dateTime-min="1971-11-17T09:50:00-05:00"
+                        frus:doc-dateTime-max="1971-11-22T23:59:59-05:00">
                         <head>201. Paper Prepared in the Department of the Treasury<note n="1"
                                 xml:id="d201fn1" type="source">Source: Washington National Records
                                 Center, Department of the Treasury, Records of Secretary <persName
@@ -34797,7 +34860,11 @@
                                 meeting; see <ref target="#d200">Document 200</ref>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1971-11-17T14:50:00+00:00"
+                                notAfter="1971-11-22T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                         <p rend="center">SUMMARY OF PROPOSED APPROACH TOWARD MONETARY-TRADE-BURDEN
                             SHARING NEGOTIATIONS WITHIN THE NEXT SEVERAL WEEKS</p>
                         <p>This memorandum outlines briefly proposed initiatives in the immediate
@@ -37148,7 +37215,9 @@
                             December 18, 1971, pages 1656-1660.</p>
                     </div>
                     <pb n="597" xml:id="pg_597" facs="0625"/>
-                    <div type="document" xml:id="d220" n="220" subtype="historical-document">
+                    <div type="document" xml:id="d220" n="220" subtype="historical-document"
+                        frus:doc-dateTime-min="1971-12-13T20:00:00-05:00"
+                        frus:doc-dateTime-max="1971-12-17T23:59:59-05:00">
                         <head>220. Paper Agreed by President <persName corresp="#p_NRM1" type="from"
                                 >Nixon</persName> and President <persName corresp="#p_PG5" type="to"
                                 >Pompidou</persName>
@@ -37181,7 +37250,10 @@
                         </head>
                         <dateline>
                             <placeName>Angra, The Azores</placeName>, <date
-                                type="conversation-or-meeting-date">undated</date>.</dateline>
+                                notBefore="1971-12-14T00:00:00-01:00"
+                                notAfter="1971-12-17T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">FRAMEWORK FOR MONETARY AND TRADE SETTLEMENT</p>
                         <p>The following proposals providing a framework for an early settlement of
                             monetary and trade issues should be considered as an integrated whole: <list>
@@ -39227,7 +39299,9 @@
                         </closer>
                     </div>
                     <pb n="631" xml:id="pg_631" facs="0659"/>
-                    <div type="document" xml:id="d234" n="234" subtype="historical-document">
+                    <div type="document" xml:id="d234" n="234" subtype="historical-document"
+                        frus:doc-dateTime-min="1972-07-18T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-07-18T23:59:59-05:00">
                         <head>234. Memorandum From Secretary of the Treasury <persName
                                 corresp="#p_SGP1" type="from">Shultz</persName> to President
                                 <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -39241,7 +39315,9 @@
                                 below.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1972-07-18"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p>Since the British decision on June 24 to float the pound, strong
                             speculative pressures have again developed in the foreign exchange
                             markets. In two days at the end of last week,<note n="2"
@@ -40886,7 +40962,9 @@
         </body>
         <pb n="659" xml:id="pg_659" facs="0687"/>
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <head>Index</head>

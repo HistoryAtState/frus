@@ -20,7 +20,7 @@
             <publicationStmt>
                 <publisher>United States Government Publishing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2015</date>
+                <date type="publication-date">2015</date>
                 <idno type="frus">frus1969-76ve14p2</idno>
             </publicationStmt>
 
@@ -38,6 +38,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
+        <xenoData>
+            <frus:coverage notBefore="1973-01-23T00:00:00-05:00"
+                notAfter="1976-12-29T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
 
     <text>
@@ -74,7 +78,9 @@
                 </docImprint>
             </titlePage>
 
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -256,13 +262,15 @@
                     <lb/>
                     <orgName>Bureau of Public Affairs</orgName>
                     <lb/>
-                    <date>October 2015</date>
+                    <date when="2015-10">October 2015</date>
                 </closer>
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
@@ -292,7 +300,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
@@ -599,7 +609,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
                 <head>Abbreviations and Terms</head>
                 <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
                 <list type="terms">
@@ -1485,7 +1497,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
                 <pb n="XXIII" facs="0024" xml:id="pg_XXIII"/>
                 <head>Persons</head>
                 <list type="simple">
@@ -2828,7 +2842,8 @@
 
         <body>
             <pb n="1" facs="0035" xml:id="pg_1"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
                 <head>Documents on Arms Control and Nonproliferation, 1973–1976</head>
 
                 <div type="document" n="1" xml:id="d1" subtype="historical-document"
@@ -16181,7 +16196,9 @@
                 </div>
 
                 <pb n="233" facs="0267" xml:id="pg_233"/>
-                <div type="document" n="74" xml:id="d74" subtype="historical-document">
+                <div type="document" n="74" xml:id="d74" subtype="historical-document"
+                    frus:doc-dateTime-min="1974-08-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1974-08-27T23:59:59-05:00">
                     <head>74. Paper Prepared by <persName corresp="#p_GMA_1">Michael
                             Guhin</persName> of the National Security Council Staff<note n="1"
                             xml:id="d74fn1" type="source">
@@ -16207,7 +16224,9 @@
                         </note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date when="1974-08-27"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p rend="center">ANALYTICAL SUMMARY</p>
                     <p rend="center">
                         <hi rend="italic">Possible International Restraints on Environmental
@@ -17609,7 +17628,9 @@
                 </div>
 
                 <pb n="258" facs="0292" xml:id="pg_258"/>
-                <div type="document" n="78" xml:id="d78" subtype="historical-document">
+                <div type="document" n="78" xml:id="d78" subtype="historical-document"
+                    frus:doc-dateTime-min="1974-09-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1974-09-05T23:59:59-05:00">
                     <head>78. Paper Prepared by the National Security Council Staff<note n="1"
                             xml:id="d78fn1" type="source">
                             <p>Summary: The paper analyzed several issues related to the Limited
@@ -17624,7 +17645,9 @@
 
                     <opener>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1974-09-05"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                     </opener>
                     <p rend="sectiontitleital">The Limited Test Ban Treaty (<gloss
                             target="#t_LTBT_1">LTBT</gloss>) and Its Relation to (1) Negotiation of
@@ -17873,7 +17896,9 @@
                     </closer>
                 </div>
 
-                <div type="document" n="80" xml:id="d80" subtype="historical-document">
+                <div type="document" n="80" xml:id="d80" subtype="historical-document"
+                    frus:doc-dateTime-min="1974-09-04T23:00:00-05:00"
+                    frus:doc-dateTime-max="1974-09-09T22:59:59-05:00">
                     <head>80. Report Prepared by an Ad Hoc Interagency Group<note n="1"
                             xml:id="d80fn1" type="source">
                             <p>Summary: This report on potential <gloss target="#t_US_1"
@@ -17893,7 +17918,11 @@
                         </note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1974-09-05T00:00:00-04:00"
+                            notAfter="1974-09-09T23:59:59-04:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p rend="center">ILLUSTRATIVE SCENARIOS FOR BILATERAL <gloss target="#t_US_1"
                             >U.S.</gloss>-SOVIET TALKS ON ENVIRONMENTAL WARFARE<note n="2"
                             xml:id="d80fn2">This report was prepared by an ad hoc interagency group
@@ -22585,7 +22614,9 @@
                 </div>
 
                 <pb n="344" facs="0378" xml:id="pg_344"/>
-                <div type="document" n="106" xml:id="d106" subtype="historical-document">
+                <div type="document" n="106" xml:id="d106" subtype="historical-document"
+                    frus:doc-dateTime-min="1974-12-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1974-12-19T23:59:59-05:00">
                     <head>106. Report Prepared by an Ad Hoc Interagency Study Group<note n="1"
                             xml:id="d106fn1" type="source">
                             <p>Summary: In response to <gloss target="#t_NSSM_1">NSSM</gloss> 209,
@@ -22610,7 +22641,9 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1974-12-19"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                     </opener>
                     <p rend="center">
                         <hi rend="italic">REPORT OF THE <gloss target="#t_NSSM_1">NSSM</gloss> 209
@@ -23947,7 +23980,9 @@
                 </div>
 
                 <pb n="371" facs="0405" xml:id="pg_371"/>
-                <div type="document" n="110" xml:id="d110" subtype="historical-document">
+                <div type="document" n="110" xml:id="d110" subtype="historical-document"
+                    frus:doc-dateTime-min="1975-01-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1975-01-15T23:59:59-05:00">
                     <head>110. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>) to President
                             <persName corresp="#p_FGR_1">Ford</persName>
@@ -23973,7 +24008,11 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1975-01-13T00:00:00-05:00"
+                                notAfter="1975-01-15T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -27232,7 +27271,9 @@
                 </div>
 
                 <pb n="427" facs="0461" xml:id="pg_427"/>
-                <div type="document" n="129" xml:id="d129" subtype="historical-document">
+                <div type="document" n="129" xml:id="d129" subtype="historical-document"
+                    frus:doc-dateTime-min="1975-03-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1975-03-27T10:49:00-05:00">
                     <head>129. Report Prepared by an Ad Hoc Interagency Working Group<note n="1"
                             xml:id="d129fn1" type="source">
                             <p>Summary: The report explained that while imposing more rigorous
@@ -27250,7 +27291,11 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1975-03-24T00:00:00-05:00"
+                                notAfter="1975-03-27T15:49:00+00:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                     </opener>
                     <p rend="center">
                         <hi rend="italic">REPORT OF THE <gloss target="#t_NSSM_1">NSSM</gloss> 219
@@ -30700,7 +30745,9 @@
                 </div>
 
                 <pb n="488" facs="0522" xml:id="pg_488"/>
-                <div type="document" n="146" xml:id="d146" subtype="historical-document">
+                <div type="document" n="146" xml:id="d146" subtype="historical-document"
+                    frus:doc-dateTime-min="1975-05-14T23:00:00-05:00"
+                    frus:doc-dateTime-max="1975-05-23T10:03:00-05:00">
                     <head>146. Discussion Paper Prepared by the Verification Panel Working
                             Group<note n="1" xml:id="d146fn1" type="source">
                             <p>Summary: The Verification Panel Working Group reviewed possible
@@ -30718,7 +30765,11 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1975-05-15T00:00:00-04:00"
+                                notAfter="1975-05-23T11:03:00-04:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                     </opener>
                     <p rend="center">
                         <hi rend="italic">DISCUSSION PAPER ON SAFEGUARDS AND EXPORT CONTROLS</hi>
@@ -31319,7 +31370,9 @@
                 </div>
 
                 <pb n="500" facs="0534" xml:id="pg_500"/>
-                <div type="document" n="151" xml:id="d151" subtype="historical-document">
+                <div type="document" n="151" xml:id="d151" subtype="historical-document"
+                    frus:doc-dateTime-min="1975-06-11T23:00:00-05:00"
+                    frus:doc-dateTime-max="1975-06-14T22:59:59-05:00">
                     <head>151. Options Paper Prepared by the Verification Panel Working Group<note
                             n="1" xml:id="d151fn1" type="source">
                             <p>Summary: The paper summarized the background of the proposed West
@@ -31339,7 +31392,11 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1975-06-12T00:00:00-04:00"
+                                notAfter="1975-06-14T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                     </opener>
                     <p rend="center">
                         <hi rend="italic">OPTIONS PAPER—PROPOSED <gloss target="#t_FRG_1"
@@ -31946,7 +32003,9 @@
                 </div>
 
                 <pb n="510" facs="0544" xml:id="pg_510"/>
-                <div type="document" n="153" xml:id="d153" subtype="historical-document">
+                <div type="document" n="153" xml:id="d153" subtype="historical-document"
+                    frus:doc-dateTime-min="1975-06-13T23:00:00-05:00"
+                    frus:doc-dateTime-max="1975-06-20T22:59:59-05:00">
                     <head>153. Paper Prepared in the Bureau of Oceans and International
                         Environmental and Scientific Affairs<note n="1" xml:id="d153fn1"
                             type="source">
@@ -31972,7 +32031,11 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1975-06-14T00:00:00-04:00"
+                                notAfter="1975-06-20T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                     </opener>
 
                     <p rend="sectiontitleital">SAFEGUARDS AND NON-PROLIFERATION IMPLICATIONS OF
@@ -35105,7 +35168,9 @@
                         basically neutral on the budgetary question.</p>
                 </div>
 
-                <div type="document" n="177" xml:id="d177" subtype="historical-document">
+                <div type="document" n="177" xml:id="d177" subtype="historical-document"
+                    frus:doc-dateTime-min="1975-02-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1975-03-05T09:30:00-05:00">
                     <head>177. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_SBA_1">Scowcroft</persName>) to Secretary of
                         State <persName corresp="#p_KHA_1">Kissinger</persName>
@@ -35145,7 +35210,11 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1975-02-23T00:00:00-05:00"
+                                notAfter="1975-03-05T09:30:00-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -38970,7 +39039,9 @@
                 </div>
 
                 <pb n="636" facs="0670" xml:id="pg_636"/>
-                <div type="document" n="201" xml:id="d201" subtype="historical-document">
+                <div type="document" n="201" xml:id="d201" subtype="historical-document"
+                    frus:doc-dateTime-min="1976-06-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-06-22T23:59:59-05:00">
                     <head>201. Paper Prepared by the Domestic Council and National Security Council
                             Staffs<note n="1" xml:id="d201fn1" type="source">
                             <p>Summary: The paper summarized the themes <gloss target="#t_ERDA_1"
@@ -38987,7 +39058,9 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1976-06-22"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                     </opener>
                     <p rend="center">
                         <hi rend="italic">NEED FOR A PRESIDENTIAL MESSAGE ON NUCLEAR EXPORT POLICY
@@ -42248,7 +42321,9 @@
                 </div>
 
                 <pb n="699" facs="0733" xml:id="pg_699"/>
-                <div type="document" n="216" xml:id="d216" subtype="historical-document">
+                <div type="document" n="216" xml:id="d216" subtype="historical-document"
+                    frus:doc-dateTime-min="1976-12-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-12-15T23:59:59-05:00">
                     <head>216. Position Paper Prepared in the Department of Defense<note n="1"
                             xml:id="d216fn1" type="source">
                             <p>Summary: The position paper outlined the essential elements of an
@@ -42260,7 +42335,9 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1976-12-15"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>

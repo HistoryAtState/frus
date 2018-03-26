@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1999</date>
+                <date type="publication-date">1999</date>
                 <idno type="dospubno">10615</idno>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13">9780160500770</idno>
@@ -42,6 +42,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1964-01-21T00:00:00-05:00"
+                notAfter="1968-12-30T15:56:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -74,7 +78,9 @@
                     <lb/>For sale by the U.S. Government Printing Office<lb/>Superintendent of
                     Documents<lb/>Mail Stop: SSOP<lb/>Washington, DC 20402-9328</docImprint>
             </titlePage>
-            <div type="section" xml:id="summary">
+            <div type="section" xml:id="summary" subtype="volume-summary"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Summary</head>
                 <p>Foreword</p>
                 <p rend="center">Foreword</p>
@@ -581,7 +587,9 @@
                     burden of institutionalized or sanctioned racial discrimination.” (335)</p>
             </div>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -905,7 +913,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="section" xml:id="subseriesvols">
+            <div type="section" xml:id="subseriesvols" subtype="additional-volumes"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>
                     <persName>Johnson</persName> Administration Volumes</head>
                 <p>Following is a list of the volumes in the <hi rend="italic">Foreign
@@ -1122,7 +1132,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0012"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0013"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -1180,7 +1192,9 @@
             </div>
             <pb n="[XIV]" xml:id="pg_XIV" facs="0014"/>
             <pb n="XV" xml:id="pg_XV" facs="0015"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Sources</head>
                 <p>The editors of the <hi rend="italic">Foreign Relations series</hi> have complete
                     access to all the retired records and papers of the Department of State: the
@@ -1675,7 +1689,9 @@
                         York: Office of Public Information, United Nations, 1971)</item>
                 </list>
             </div>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -2065,7 +2081,9 @@
             </div>
             <pb n="[XXIV]" xml:id="pg_XXIV" facs="0024"/>
             <pb n="XXV" xml:id="pg_XXV" facs="0025"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -2881,9 +2899,11 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-18T23:59:59-05:00">
                 <head>Scientific Matters</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1966-01-14T15:13:00-05:00"
+                    frus:doc-dateTime-max="1968-08-05T23:59:59-05:00">
                     <head>The Technology Gap</head>
                     <div type="document" xml:id="d1" n="1" subtype="historical-document"
                         frus:doc-dateTime-min="1966-01-14T15:13:00-05:00"
@@ -5388,7 +5408,8 @@
                     </div>
                 </div>
                 <pb n="45" xml:id="pg_45" facs="0075"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-10-11T23:59:59-05:00">
                     <head>Cooperation in Space</head>
                     <div type="document" xml:id="d21" n="21" subtype="historical-document"
                         frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
@@ -9809,9 +9830,12 @@
                     </div>
                 </div>
                 <pb n="120" xml:id="pg_120" facs="0150"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1964-02-06T18:00:00-05:00"
+                    frus:doc-dateTime-max="1968-09-27T23:59:59-05:00">
                     <head>Communication Satellites</head>
-                    <div type="document" xml:id="d63" n="63" subtype="historical-document">
+                    <div type="document" xml:id="d63" n="63" subtype="historical-document"
+                        frus:doc-dateTime-min="1964-02-06T18:00:00-05:00"
+                        frus:doc-dateTime-max="1964-02-10T17:59:59-05:00">
                         <head>63. Position Paper for the United States Delegation<note n="1"
                                 xml:id="d63fn1" type="source">Source: National Archives and Records
                                 Administration, RG 59, Records of the Department of State, Central
@@ -9823,7 +9847,11 @@
                                     corresp="#p_CAJ1">Abram Chayes</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1964-02-07T00:00:00+01:00"
+                                notAfter="1964-02-10T23:59:59+01:00"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">MEETING WITH MEMBERS OF THE EUROPEAN<lb/>CONFERENCE ON
                             SATELLITE COMMUNICATIONS AND THE<lb/>CANADIANS</p>
                         <p rend="center">Rome—February 10, 1964</p>
@@ -14715,7 +14743,8 @@
                     </div>
                 </div>
                 <pb n="206" xml:id="pg_206" facs="0236"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1964-11-07T17:20:00-05:00"
+                    frus:doc-dateTime-max="1968-04-10T23:59:59-05:00">
                     <head>Development of the Supersonic Transport Aircraft</head>
                     <div type="document" xml:id="d111" n="111" subtype="editorial-note">
                         <head>111. Editorial Note</head>
@@ -16276,7 +16305,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1964-06-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-18T23:59:59-05:00">
                     <head>Water for Peace</head>
                     <div type="document" xml:id="d130" n="130" subtype="editorial-note">
                         <head>130. Editorial Note</head>
@@ -19732,7 +19762,9 @@
                         </closer>
                     </div>
                     <pb n="295" xml:id="pg_295" facs="0325"/>
-                    <div type="document" xml:id="d166" n="166" subtype="historical-document">
+                    <div type="document" xml:id="d166" n="166" subtype="historical-document"
+                        frus:doc-dateTime-min="1967-06-23T00:00:00-05:00"
+                        frus:doc-dateTime-max="1967-06-23T23:59:59-05:00">
                         <head>166. Memorandum From Admiral <persName type="from">Lewis J.
                                 Strauss</persName> to Former President <persName type="to"
                                 >Eisenhower</persName>
@@ -19754,7 +19786,9 @@
                                 31 by Strauss has been found.</note>
                         </head>
                         <dateline>
-                            <date>Undated</date>.</dateline>
+                            <date when="1967-06-23"
+                                ana="#date_undated-inferred-from-document-content"
+                            >Undated</date>.</dateline>
                         <p rend="center">A PROPOSAL FOR OUR TIME</p>
                         <p>Attention to the debates in the United Nations since the end of May must
                             convince the observer that an end to the trouble in the Near East is not
@@ -20790,9 +20824,11 @@
                     </div>
                 </div>
             </div>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1964-01-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00">
                 <head>Energy Problems</head>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1964-01-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-06T23:59:59-05:00">
                     <head>Petroleum</head>
                     <div type="document" xml:id="d175" n="175" subtype="editorial-note">
                         <head>175. Editorial Note</head>
@@ -26627,7 +26663,8 @@
                     </div>
                 </div>
                 <pb n="416" xml:id="pg_416" facs="0446"/>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1967-05-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-01-17T23:59:59-05:00">
                     <head>The 1967 Oil Embargo</head>
                     <div type="document" xml:id="d228" n="228" subtype="historical-document"
                         frus:doc-dateTime-min="1967-05-23T00:00:00-05:00"
@@ -30200,9 +30237,11 @@
                     </div>
                 </div>
             </div>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1964-03-20T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Global Issues</head>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1964-11-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-08-12T15:31:00-05:00">
                     <head>Population Growth</head>
                     <div type="document" xml:id="d269" n="269" subtype="editorial-note">
                         <head>269. Editorial Note</head>
@@ -32640,7 +32679,8 @@
                     </div>
                 </div>
                 <pb n="520" xml:id="pg_520" facs="0550"/>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1968-04-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                     <head>Hijacking</head>
                     <div type="document" xml:id="d296" n="296" subtype="editorial-note">
                         <head>296. Editorial Note</head>
@@ -34588,7 +34628,8 @@
                     </div>
                 </div>
                 <pb n="555" xml:id="pg_555" facs="0585"/>
-                <div type="chapter" xml:id="ch10">
+                <div type="chapter" xml:id="ch10" frus:doc-dateTime-min="1964-03-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-11T23:59:59-05:00">
                     <head>Human Rights</head>
                     <div type="document" xml:id="d315" n="315" subtype="historical-document"
                         frus:doc-dateTime-min="1964-03-20T00:00:00-05:00"
@@ -36420,7 +36461,9 @@
             </div>
         </body>
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Index</head>
                 <pb n="589" xml:id="pg_589" facs="0619"/>
                 <list type="index">

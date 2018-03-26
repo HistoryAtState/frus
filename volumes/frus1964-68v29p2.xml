@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2006</date>
+                <date type="publication-date">2006</date>
                 <idno type="dospubno">11321</idno>
                 <idno type="isbn-10">0160725097</idno>
                 <idno type="isbn-13">9780160725098</idno>
@@ -42,6 +42,10 @@
         <revisionDesc>
             <change>2008-11-06 PA/HO JW:Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1964-01-10T00:00:00-05:00"
+                notAfter="1969-01-11T02:31:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -75,7 +79,9 @@
                     Washington, DC 20402-9328</docImprint>
             </titlePage>
             <pb n="[III]" xml:id="pg_III" facs="0004"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -280,7 +286,9 @@
             </div>
             <pb n="[VIII]" xml:id="pg_VIII" facs="0009"/>
             <pb n="IX" xml:id="pg_IX" facs="0010"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -312,7 +320,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0011"/>
             <pb n="XI" xml:id="pg_XI" facs="0012"/>
-            <div type="section" xml:id="subseriesvols">
+            <div type="section" xml:id="subseriesvols" subtype="additional-volumes"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <head>
                     <persName>Johnson</persName> Administration Volumes</head>
                 <p>Following is a list of the volumes in the <hi rend="italic">Foreign
@@ -519,7 +529,9 @@
                 </table>
             </div>
             <pb n="XIII" xml:id="pg_XIII" facs="0014"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <head>Sources</head>
                 <p>The <hi rend="italic">Foreign Relations</hi> statute requires that the published
                     record in the <hi rend="italic">Foreign Relations</hi> series include all
@@ -1006,7 +1018,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0020"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -1789,7 +1803,9 @@
             </div>
             <pb n="[XXIV]" xml:id="pg_XXIV" facs="0025"/>
             <pb n="XXV" xml:id="pg_XXV" facs="0026"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -2388,7 +2404,9 @@
                 </list>
             </div>
             <pb n="[XXX]" xml:id="pg_XXX" facs="0031"/>
-            <div type="section" xml:id="actionsstatement">
+            <div type="section" xml:id="actionsstatement" subtype="notes"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <pb n="XXXI" xml:id="pg_XXXI" facs="0032"/>
                 <head>Note on U.S. Covert Actions</head>
                 <p>In compliance with the <hi rend="italic">Foreign Relations of the United
@@ -2643,7 +2661,8 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <pb n="1" xml:id="pg_1" facs="0037"/>
                 <head>Japan</head>
                 <div type="document" n="1" xml:id="d1" subtype="editorial-note">
@@ -5816,10 +5835,16 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="38" xml:id="d38" subtype="historical-document">
+                <div type="document" n="38" xml:id="d38" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-12-29T05:00:00-05:00"
+                    frus:doc-dateTime-max="1965-01-06T23:59:59-05:00">
                     <head>38. Paper Prepared by the 303 Committee</head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1964-12-29T18:00:00+08:00"
+                            notAfter="1965-01-06T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-sibling-dates"
+                        >undated</date>.</dateline>
                     <p>[Source: Department of State, <gloss target="#t_INRIL1">INR/IL</gloss>
                         Historical Files, <gloss target="#t_EAP1">EAP</gloss> General, <gloss
                             target="#t_EA1">EA</gloss> Reviews, 1964 to 1966. Secret; Sensitive. 1
@@ -20475,7 +20500,9 @@
         </body>
         <pb n="317" xml:id="pg_317" facs="0353"/>
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                 <head>Index</head>
                 <p>
                     <hi rend="strong">References are to document numbers</hi>

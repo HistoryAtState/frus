@@ -18,7 +18,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1989</date>
+                <date type="publication-date">1989</date>
                 <idno type="dospubno">9719</idno>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -43,6 +43,10 @@
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1955-01-07T18:14:00-05:00"
+                notAfter="1957-12-31T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -78,7 +82,9 @@
                     Government Printing Office<lb/>Washington, D.C. 20402</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1955-01-07T18:14:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -145,7 +151,9 @@
                     Affairs</hi></signed></closer>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1955-01-07T18:14:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III">Preface</ref></item>
@@ -165,7 +173,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1955-01-07T18:14:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>List of Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -584,7 +594,9 @@
             </div>
             <pb n="[XIV]" xml:id="pg_XIV" facs="0018"/>
             <pb n="XV" xml:id="pg_XV" facs="0019"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1955-01-07T18:14:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>List of Abbreviations and Symbols</head>
                 <p>Editor’s Note: This list does not include standard abbreviations in common usage;
                     unusual abbreviations of rare occurrence which are clarified at appropriate
@@ -1001,7 +1013,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1955-01-07T18:14:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>List of Persons</head>
                 <p>Editor’s Note: The individuals identified below were principal participants in
                     the events covered in this volume. Other officials and individuals not included
@@ -1648,7 +1662,8 @@
         <pb n="[XXVIII]" xml:id="pg_XXVIII" facs="0032"/>
         <body>
             <pb n="1" xml:id="pg_1" facs="0033"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1955-01-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-12T23:59:59-05:00">
                 <head>United States Mutual Security and Foreign Aid Policy<note n="1"
                         xml:id="comp1fn1" type="source">For previous documentation, see <ref
                             target="frus1952-54v01p1#pg_460"><hi rend="italic">Foreign
@@ -12288,7 +12303,8 @@
                 </div>
             </div>
             <pb n="203" xml:id="pg_203" facs="0235"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1955-01-07T18:14:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>United States Economic Defense Policy: United States Interest in Maintaining
                     Multilateral Strategic Controls on Trade With the Soviet Union, the Peopled
                     Republic of China, and Certain Other Nations<note n="1" xml:id="comp2fn1"
@@ -20480,7 +20496,9 @@
                         met on May 3.</p>
                 </div>
                 <pb n="359" xml:id="pg_359" facs="0391"/>
-                <div type="document" xml:id="d116" n="116" subtype="historical-document">
+                <div type="document" xml:id="d116" n="116" subtype="historical-document"
+                    frus:doc-dateTime-min="1956-04-30T23:00:00-05:00"
+                    frus:doc-dateTime-max="1956-05-02T22:59:59-05:00">
                     <head>116. Letter From Prime Minister <persName corresp="#p_ESA1" type="from"
                             >Eden</persName> to President <persName corresp="#p_EDD1" type="to"
                             >Eisenhower</persName><note n="1" xml:id="d116fn1" type="source">Source:
@@ -20489,8 +20507,11 @@
                                 >Eden</persName> to <persName corresp="#p_EDD1"
                                 >Eisenhower</persName> Corres. Secret. The source text is not dated;
                             it was received on May 2.</note></head>
-                    <dateline><placeName><hi rend="italic">London</hi></placeName>,
-                            <date>undated</date>.</dateline>
+                    <dateline><placeName><hi rend="italic">London</hi></placeName>, <date
+                            notBefore="1956-05-01T00:00:00-04:00"
+                            notAfter="1956-05-02T23:59:59-04:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Friend</hi>: Thank you for your letter of April 27
                         about trade controls. I must frankly tell you that your suggestion of adding
                         to the embargoed list presents most serious difficulties for us. I do not
@@ -28629,7 +28650,8 @@
                 </div>
             </div>
             <pb n="509" xml:id="pg_509" facs="0541"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1955-01-21T10:10:00-05:00"
+                frus:doc-dateTime-max="1957-12-23T18:31:00-05:00">
                 <head>United States Policy Regarding the Stockpiling of Strategic Resources and
                     Commodity Agreements<note n="1" xml:id="comp3fn1" type="source">For previous
                         documentation on this subject, see <ref target="frus1952-54v01p2#pg_817"><hi
@@ -40783,7 +40805,9 @@
         <back>
             <pb n="[754]" xml:id="pg_754" facs="0786"/>
             <pb n="755" xml:id="pg_755" facs="0787"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1955-01-07T18:14:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Abu Dhabi, <ref target="#pg_686">686</ref></item>

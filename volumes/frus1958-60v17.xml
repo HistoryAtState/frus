@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1994</date>
+                <date type="publication-date">1994</date>
                 <idno type="dospubno">10158</idno>
                 <idno type="isbn-10">0160418364</idno>
                 <idno type="isbn-13">9780160418365</idno>
@@ -42,6 +42,10 @@
         <revisionDesc>
             <change>2009-03-24 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1958-01-02T00:00:00-05:00"
+                notAfter="1960-12-29T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -75,7 +79,9 @@
                     SSOP, Washington, DC 20402–9328<lb/>ISBN 0–16–041836–4</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1958-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -385,7 +391,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0014"/>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1958-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III"><hi rend="strong">Preface</hi></ref></item>
@@ -431,7 +439,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0016"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0017"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1958-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                 <head>List of Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -700,7 +710,9 @@
                 </list>
             </div>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1958-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_ACS1">ACS</term>,</hi> Army Chief of
@@ -933,7 +945,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1958-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_ARTAM1">Abdul Rahman, Tunku ibni
@@ -1240,9 +1254,11 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0027"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1958-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                 <head>Indonesia</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1958-01-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1958-05-27T23:59:59-05:00">
                     <head>January—May 1958: U.S. Concern Over the Political Orientation of Indonesia
                         and the Regional Rebellions in Sumatra and Sulawesi</head>
                     <div type="document" xml:id="d1" n="1" subtype="historical-document"
@@ -12977,7 +12993,8 @@
                     </div>
                 </div>
                 <pb n="213" xml:id="pg_213" facs="0239"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1958-06-03T18:00:00-05:00"
+                    frus:doc-dateTime-max="1958-12-24T10:00:00-05:00">
                     <head>June–December 1958: Establishment of a Token Military Assistance Program
                         for the Indonesian Armed Forces and U.S. Encouragement of the Anti-Communist
                         Elements Within the Indonesian Government</head>
@@ -18520,7 +18537,8 @@
                     </div>
                 </div>
                 <pb n="316" xml:id="pg_316" facs="0342"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1959-01-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1959-07-27T14:00:00-05:00">
                     <head>January–July 1959: <gloss target="#t_NSC1">NSC</gloss> Consideration of
                         U.S. Policy on Indonesia; Augmentation of U.S. Military Assistance to
                         Indonesia; Concern of the Netherlands Over U.S. Military Aid; U.S. Policy
@@ -23884,7 +23902,8 @@
                     </div>
                 </div>
                 <pb n="417" xml:id="pg_417" facs="0443"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1959-08-21T14:35:00-05:00"
+                    frus:doc-dateTime-max="1960-08-31T20:00:00-05:00">
                     <head>August 1959–August 1960: President Sukarno’s Invitation to President
                         Eisenhower To Visit Indonesia; Khrushchev’s Visit to Indonesia; and
                         Heightened Indonesian-Netherlands Tension Over the West Irian-West New
@@ -30210,7 +30229,8 @@
                     </div>
                 </div>
                 <pb n="531" xml:id="pg_531" facs="0557"/>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1960-09-03T18:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                     <head>September–December 1960: Visits of President <persName
                             corresp="#p_Sukarno1">Sukarno</persName> and Army Chief of Staff
                         Nasution to the United States; U.S. Reexamination of Policy Toward Indonesia
@@ -33675,7 +33695,9 @@
         </body>
         <back>
             <pb n="593" xml:id="pg_593" facs="0619"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1958-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-29T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item><persName corresp="#p_ARTAM1">Abdul Rahman, Tunku ibni

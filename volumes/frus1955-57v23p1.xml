@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1991</date>
+                <date type="publication-date">1991</date>
                 <idno type="dospubno">9873</idno>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -39,6 +39,10 @@
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1955-01-04T16:13:00-05:00"
+                notAfter="1957-12-31T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -72,7 +76,9 @@
                     D.C. 20402</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1955-01-04T16:13:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -283,7 +289,9 @@
             </div>
             <pb n="[VIII]" xml:id="pg_VIII" facs="0012"/>
             <pb n="IX" xml:id="pg_IX" facs="0013"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1955-01-04T16:13:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III"><hi rend="strong">Preface</hi></ref></item>
@@ -309,7 +317,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0014"/>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1955-01-04T16:13:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>List of Unpublished Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -702,7 +712,9 @@
             </div>
             <pb n="[XVI]" xml:id="pg_XVI" facs="0020"/>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1955-01-04T16:13:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AAA1">AAA</term>,</hi> anti-aircraft
@@ -931,7 +943,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1955-01-04T16:13:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="italic">Editor’s Note:</hi> The identification of the persons on
@@ -1315,10 +1329,12 @@
             <pb n="[XXIV]" xml:id="pg_XXIV" facs="0028"/>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1955-01-04T16:13:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <pb n="1" xml:id="pg_1" facs="0029"/>
                 <head>Japan</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1955-01-04T16:13:00-05:00"
+                    frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                     <head>U.S. Policy Toward and Relations With Japan: The <gloss target="#t_NSC1"
                             >NSC</gloss> 5516 Series; U.S. Attitude Toward the Resumption of
                         Diplomatic Relations Between Japan and the Soviet Union; Desire of Japan for
@@ -31581,7 +31597,9 @@
         </body>
         <back>
             <pb n="559" xml:id="pg_559" facs="0587"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1955-01-04T16:13:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Ackerman, Arthur, <ref target="#pg_170">170</ref>–<ref target="#pg_171"

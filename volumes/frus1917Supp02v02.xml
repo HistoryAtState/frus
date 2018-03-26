@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1932</date>
+                <date type="publication-date">1932</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -68,6 +68,10 @@
             <change>2016-02-02 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1917-04-03T00:00:00-05:00"
+                notAfter="1928-10-22T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -93,7 +97,9 @@
                     <hi rend="smallcaps">Publication No</hi>. 389</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1917-04-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1928-10-22T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -270,7 +276,9 @@
                 </list>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="section" xml:id="papers">
+            <div type="section" xml:id="papers" subtype="index"
+                frus:doc-dateTime-min="1917-04-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1928-10-22T23:59:59-05:00">
                 <head>List of Papers</head>
                 <p rend="center">[Incoming papers are listed chronologically under date of receipt.
                     Unless otherwise specified, the correspondence is <hi rend="italic">from</hi> or
@@ -5422,9 +5430,11 @@
             <pb n="[797]" xml:id="pg_797" facs="0043"/>
             <pb n="[798]" xml:id="pg_798" facs="0044"/>
             <pb n="799" xml:id="pg_799" facs="0045"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1917-04-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1928-10-22T23:59:59-05:00">
                 <head>Part II: Belligerent Rights and Practices</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1917-04-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1918-01-07T23:59:59-05:00">
                     <head>Attitude of the United States Regarding Contraband of War, Visit and
                         Search, etc.<note n="1" xml:id="ch1fn1">For papers relating to these
                             subjects and to <hi rend="italic">Instructions for the Navy of the
@@ -5433,7 +5443,9 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1918, Supplement 1, Vol.
                                 II</ref>.</note>—Measures Affecting Neutral Trade: Control of
                         Exports, Imports, and Bunker Coal; Black List of Firms</head>
-                    <div type="subchapter" xml:id="ch1subch1">
+                    <div type="subchapter" xml:id="ch1subch1"
+                        frus:doc-dateTime-min="1917-04-03T00:00:00-05:00"
+                        frus:doc-dateTime-max="1917-05-11T23:59:59-05:00">
                         <head>Consideration of the control of exports from the United
                             States—Suggestions as to measures for preventing trade beneficial to
                             Germany—Withdrawal by the British and French Governments of the black
@@ -7477,7 +7489,9 @@
                             </frus:attachment>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch1subch2">
+                    <div type="subchapter" xml:id="ch1subch2"
+                        frus:doc-dateTime-min="1917-05-07T00:00:00-05:00"
+                        frus:doc-dateTime-max="1917-05-25T23:59:59-05:00">
                         <head>Discussions with British representatives during the visit of the
                                 <persName corresp="frus1917Supp02v01#p_BAJ1">Balfour</persName>
                             mission—Report of the Joint Subcommittee on Export Licenses—Attitude of
@@ -11009,7 +11023,9 @@
                         </div>
                     </div>
                     <pb n="877" xml:id="pg_877" facs="0123"/>
-                    <div type="subchapter" xml:id="ch1subch3">
+                    <div type="subchapter" xml:id="ch1subch3"
+                        frus:doc-dateTime-min="1917-06-02T00:00:00-05:00"
+                        frus:doc-dateTime-max="1917-07-06T14:00:00-05:00">
                         <head>The development of an American policy of trade control—Authorization
                             of an embargo in the “Espionage Act,” June 15, 1917—Establishment of the
                             Exports Council, June 22—Instructions to American diplomatic and
@@ -12914,7 +12930,9 @@
                             </closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch1subch4">
+                    <div type="subchapter" xml:id="ch1subch4"
+                        frus:doc-dateTime-min="1917-07-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1917-09-14T23:59:59-05:00">
                         <head>Proclamation of July 9, 1917, restricting exports—Statement to the
                             European neutrals, July 24, of the American policy of exports control;
                             request for information on their needs—Resolution of the Exports
@@ -15109,7 +15127,9 @@
                             </closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch1subch5">
+                    <div type="subchapter" xml:id="ch1subch5"
+                        frus:doc-dateTime-min="1917-08-27T00:00:00-05:00"
+                        frus:doc-dateTime-max="1917-10-10T16:00:00-05:00">
                         <head>Proclamation of August 27, 1917, further restricting exports;
                             explanatory statements by the President and the Exports Administrative
                             Board—Bunker license rules of August 31 and October 5—Denial of licenses
@@ -17249,7 +17269,9 @@
                             </closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch1subch6">
+                    <div type="subchapter" xml:id="ch1subch6"
+                        frus:doc-dateTime-min="1917-10-12T00:00:00-05:00"
+                        frus:doc-dateTime-max="1917-12-05T10:40:00-05:00">
                         <head>Establishment of the War Trade Board, October 12—Press statement
                             regarding exports to neutrals—Discussions conducted through American
                             delegates to the Inter-Allied Conference—Proclamations of November 28,
@@ -19620,7 +19642,9 @@
                         </div>
                     </div>
                     <pb n="997" xml:id="pg_997" facs="0243"/>
-                    <div type="subchapter" xml:id="ch1subch7">
+                    <div type="subchapter" xml:id="ch1subch7"
+                        frus:doc-dateTime-min="1917-12-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1918-01-07T23:59:59-05:00">
                         <head>Publication of the enemy trading list of firms in Latin American
                             countries, December 5—Instructions to consular officers in those
                             countries</head>
@@ -20855,10 +20879,13 @@
                     </div>
                 </div>
                 <pb n="1015" xml:id="pg_1015" facs="0261"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1917-04-16T16:00:00-05:00"
+                    frus:doc-dateTime-max="1918-01-16T23:59:59-05:00">
                     <head>Negotiations with Denmark, Norway, and Sweden Concerning Exports and
                         Shipping</head>
-                    <div type="subchapter" xml:id="ch2subch1">
+                    <div type="subchapter" xml:id="ch2subch1"
+                        frus:doc-dateTime-min="1917-04-16T16:00:00-05:00"
+                        frus:doc-dateTime-max="1917-07-13T23:59:59-05:00">
                         <head>Representations as to the commercial situation and needs of the
                             Scandinavian countries—The Swedish special mission to the United
                             States—The Scandinavian conference, May 9–11—The Norwegian special
@@ -22050,7 +22077,9 @@
                             </closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch2subch2">
+                    <div type="subchapter" xml:id="ch2subch2"
+                        frus:doc-dateTime-min="1917-07-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1917-11-08T23:59:59-05:00">
                         <head>Memorandum of the Exports Council to the neutral representatives, July
                             24—Swedish attempt to organize a neutral conference—The Danish special
                             mission to the United States</head>
@@ -24108,7 +24137,9 @@
                         </div>
                     </div>
                     <pb n="1057" xml:id="pg_1057" facs="0303"/>
-                    <div type="subchapter" xml:id="ch2subch3">
+                    <div type="subchapter" xml:id="ch2subch3"
+                        frus:doc-dateTime-min="1917-11-08T00:00:00-05:00"
+                        frus:doc-dateTime-max="1917-12-08T18:00:00-05:00">
                         <head>Discussions in connection with the American mission to the
                             Inter-Allied Conference<note n="1" xml:id="ch2subch3fn1">See also the
                                 report of the Special Representative of the War Trade Board. <ref
@@ -26689,7 +26720,9 @@
                             </closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch2subch4">
+                    <div type="subchapter" xml:id="ch2subch4"
+                        frus:doc-dateTime-min="1917-12-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1918-01-16T23:59:59-05:00">
                         <head>Negotiations with Swedish representatives at London: the question of
                             purchase of iron ore—Proposals for a temporary <hi rend="italic">modus
                                 vivendi</hi> with Sweden—Announcement of Christmas concessions to
@@ -28984,7 +29017,8 @@
                     </div>
                 </div>
                 <pb n="1117" xml:id="pg_1117" facs="0363"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1917-04-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1917-12-29T11:00:00-05:00">
                     <head>Negotiations with the Netherlands</head>
                     <div type="document" xml:id="d240" n="240" subtype="historical-document"
                         frus:doc-dateTime-min="1917-04-27T00:00:00-05:00"
@@ -32085,7 +32119,8 @@
                     </div>
                 </div>
                 <pb n="1159" xml:id="pg_1159" facs="0405"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1917-04-24T17:00:00-05:00"
+                    frus:doc-dateTime-max="1917-12-21T23:59:59-05:00">
                     <head>Negotiations with Switzerland: Silk Agreement of August 9; General
                         Agreement of December 5</head>
                     <div type="document" xml:id="d279" n="279" subtype="historical-document"
@@ -35433,7 +35468,8 @@
                     </div>
                 </div>
                 <pb n="1199" xml:id="pg_1199" facs="0445"/>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1917-05-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1918-01-02T20:00:00-05:00">
                     <head>Negotiations with Spain: the Question of Purchases in Spain by the
                         American Expeditionary Force</head>
                     <div type="document" xml:id="d318" n="318" subtype="historical-document"
@@ -37989,7 +38025,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1917-04-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1917-11-09T23:59:59-05:00">
                     <head>Censorship of Wireless Telegraphy, Cables, and Mails</head>
                     <div type="document" xml:id="d361" n="361" subtype="historical-document"
                         frus:doc-dateTime-min="1917-04-06T00:00:00-05:00"
@@ -39188,7 +39225,8 @@
                     </div>
                 </div>
                 <pb n="1245" xml:id="pg_1245" facs="0491"/>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1917-04-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1928-10-22T23:59:59-05:00">
                     <head>The Taking Over of German Merchant Ships in American Ports—Their Status in
                         Foreign Courts</head>
                     <div type="document" xml:id="d385" n="385" subtype="historical-document"
@@ -40499,9 +40537,11 @@
             <pb n="[1263]" xml:id="pg_1263" facs="0509"/>
             <pb n="[1264]" xml:id="pg_1264" facs="0510"/>
             <pb n="1265" xml:id="pg_1265" facs="0511"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1917-05-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1918-01-11T23:59:59-05:00">
                 <head>Part III: Neutral Duties</head>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1917-05-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1918-01-11T23:59:59-05:00">
                     <head>The Maintenance of Neutrality in the Panama Canal Zone: Regulations
                         Applying to Warships and Merchant Ships</head>
                     <div type="document" xml:id="d402" n="402" subtype="historical-document"
@@ -41685,7 +41725,8 @@
                     </div>
                 </div>
                 <pb n="1283" xml:id="pg_1283" facs="0529"/>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1917-05-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1917-10-19T11:00:00-05:00">
                     <head>The Treatment of Armed Merchant Ships in Neutral Ports</head>
                     <div type="document" xml:id="d417" n="417" subtype="historical-document"
                         frus:doc-dateTime-min="1917-05-05T00:00:00-05:00"
@@ -42409,7 +42450,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch10">
+                <div type="chapter" xml:id="ch10" frus:doc-dateTime-min="1917-06-12T15:00:00-05:00"
+                    frus:doc-dateTime-max="1917-12-29T18:00:00-05:00">
                     <head>The Treatment of Belligerent Submarines in Neutral Ports—Suggested
                         Internment of Crews of Refugee Merchant Ships</head>
                     <div type="document" xml:id="d435" n="435" subtype="historical-document"
@@ -43479,7 +43521,9 @@
             <pb n="[1301]" xml:id="pg_1301" facs="0547"/>
             <pb n="[1302]" xml:id="pg_1302" facs="0548"/>
             <pb n="1303" xml:id="pg_1303" facs="0549"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1917-04-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1928-10-22T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Afghanistan, affected by peace terms proposed by Allied powers, <ref

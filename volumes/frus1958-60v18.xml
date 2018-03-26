@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1994</date>
+                <date type="publication-date">1994</date>
                 <idno type="dospubno">10130</idno>
                 <idno type="isbn-10">0160417481</idno>
                 <idno type="isbn-13">9780160417481</idno>
@@ -40,6 +40,10 @@
         <revisionDesc>
             <change>2009-03-24 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1958-01-08T00:00:00-05:00"
+                notAfter="1960-12-20T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -75,7 +79,9 @@
                     20402-9328<lb/>ISBN 0-16-041748-1</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1958-01-08T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-20T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -384,7 +390,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0014"/>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1958-01-08T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-20T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III">Preface</ref></item>
@@ -414,7 +422,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0016"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0017"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1958-01-08T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-20T23:59:59-05:00">
                 <head>List of Sources</head>
                 <p rend="center"><hi rend="strong">Unpublished Sources</hi></p>
                 <list type="sources">
@@ -784,7 +794,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1958-01-08T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-20T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AA1">AA</term>,</hi> Armistice
@@ -1189,7 +1201,9 @@
             </div>
             <pb n="[XXII]" xml:id="pg_XXII" facs="0026"/>
             <pb n="XXIII" xml:id="pg_XXIII" facs="0027"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1958-01-08T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-20T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_ADG2">Acheson, Dean
@@ -1550,9 +1564,11 @@
         </front>
         <pb n="1" xml:id="pg_1" facs="0031"/>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1958-01-11T12:48:00-05:00"
+                frus:doc-dateTime-max="1960-12-16T16:00:00-05:00">
                 <head>Japan</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1958-01-11T12:48:00-05:00"
+                    frus:doc-dateTime-max="1960-12-16T16:00:00-05:00">
                     <head>U.S. Policy Toward Japan</head>
                     <div type="document" xml:id="d1" n="1" subtype="historical-document"
                         frus:doc-dateTime-min="1958-01-11T12:48:00-05:00"
@@ -24500,9 +24516,11 @@
                 </div>
             </div>
             <pb n="424" xml:id="pg_424" facs="0454"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1958-01-08T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-20T23:59:59-05:00">
                 <head>Korea</head>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1958-01-08T00:00:00-05:00"
+                    frus:doc-dateTime-max="1959-11-02T23:59:59-05:00">
                     <head>January 1958–November 1959, U.S. Interest in the Military Security of the
                         Republic of Korea: Introduction of Dual-Capable Weapons; North
                         Korean/Chinese Proposals for the Withdrawal of Foreign Forces From Korea and
@@ -34183,7 +34201,8 @@
                     </div>
                 </div>
                 <pb n="596" xml:id="pg_596" facs="0626"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1959-12-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-20T23:59:59-05:00">
                     <head>November 1959–December 1960, the Political Crisis of April 1960: The March
                         15 Election and Resulting Crisis; Overthrow of President Syngman Rhee; U.S.
                         Relations With the Government of President Po Sun Yun</head>
@@ -40456,7 +40475,9 @@
         </body>
         <back>
             <pb n="715" xml:id="pg_715" facs="0745"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1958-01-08T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-20T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item><persName corresp="#p_ADG2">Acheson</persName>–<persName corresp="#p_YS2"

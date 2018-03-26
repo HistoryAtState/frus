@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>Office of the Historian</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2009</date>
+                <date type="publication-date">2009</date>
                 <idno type="dospubno"/>
                 <idno type="frus">frus1969-76v19p1</idno>
                 <idno type="isbn-13">9780160771088</idno>
@@ -44,6 +44,10 @@
         <revisionDesc>
             <change>HCL's submission of the original volume</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1969-01-30T00:00:00-05:00"
+                notAfter="1972-12-22T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -78,7 +82,9 @@
                     (866) 512-1800; DC area (202) 512-1800 Fax: (202) 512-2250 Mail: Stop IDCC,
                     Washington, DC 20402-0001</docImprint>
             </titlePage>
-            <div xml:id="pressrelease" type="section">
+            <div xml:id="pressrelease" type="section" subtype="press-release"
+                frus:doc-dateTime-min="1969-01-30T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-12-22T23:59:59-05:00">
                 <head>Press Release</head>
                 <p rend="right">
                     <hi rend="strong">Office of the Historian<lb/>Bureau of Public
@@ -147,7 +153,9 @@
                     >history@state.gov</ref>.</p>
             </div>
             <pb n="III" xml:id="pg_III" facs="0004"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1969-01-30T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-12-22T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -504,7 +512,9 @@
                 </postscript>
             </div>
             <pb n="XI" xml:id="pg_XI" facs="0012"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1969-01-30T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-12-22T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -541,7 +551,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0013"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0014"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1969-01-30T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-12-22T23:59:59-05:00">
                 <head>Sources</head>
                 <p rend="flushleft">
                     <hi rend="italic">Sources for the</hi> Foreign Relations <hi rend="italic"
@@ -841,7 +853,9 @@
                 </list>
             </div>
             <pb n="XVII" xml:id="pg_XVII" facs="0018"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1969-01-30T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-12-22T23:59:59-05:00">
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
                     <item>
@@ -1601,7 +1615,9 @@
             </div>
             <pb n="[XXII]" xml:id="pg_XXII" facs="0023"/>
             <pb n="XXIII" xml:id="pg_XXIII" facs="0024"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1969-01-30T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-12-22T23:59:59-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -2104,9 +2120,11 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0028"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1969-01-30T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-12-22T23:59:59-05:00">
                 <head>Korea</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1969-01-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-10-23T23:59:59-05:00">
                     <head>North Korean Shootdown of a U.S. Reconnaissance Flight and Contingency
                         Planning, January–November 1969</head>
                     <div type="document" xml:id="d1" n="1" subtype="historical-document"
@@ -6472,7 +6490,9 @@
                             Preparing Action Documents,” and 13 annexes.]</p>
                     </div>
                     <pb n="65" xml:id="pg_65" facs="0092"/>
-                    <div type="document" xml:id="d27" n="27" subtype="historical-document">
+                    <div type="document" xml:id="d27" n="27" subtype="historical-document"
+                        frus:doc-dateTime-min="1969-06-30T23:00:00-05:00"
+                        frus:doc-dateTime-max="1969-07-02T10:42:00-05:00">
                         <head>27. Draft Study Prepared by the Interagency Korean Task Force<note
                                 n="1" xml:id="d27fn1" type="source">Source: Washington National
                                 Records Center, <gloss target="#t_RG1">RG</gloss> 330, <gloss
@@ -6484,7 +6504,11 @@
                                     target="#d2">Document 2</ref>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1969-07-01T00:00:00-04:00"
+                                notAfter="1969-07-02T11:42:00-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p>[Omitted here are the Foreword and Table of Contents.]</p>
                         <p rend="center">KOREAN PROGRAM MEMORANDUM (DRAFT)</p>
                         <p rend="center">Chapter One</p>
@@ -9934,7 +9958,8 @@
                     </div>
                 </div>
                 <pb n="117" xml:id="pg_117" facs="0144"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1969-11-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1971-02-05T23:59:59-05:00">
                     <head>U.S. Troop Reductions and Related Defense Issues, November 1969–February
                         1971</head>
                     <div type="document" xml:id="d45" n="45" subtype="historical-document"
@@ -10317,7 +10342,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d50" n="50" subtype="historical-document">
+                    <div type="document" xml:id="d50" n="50" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-01-29T11:38:00-05:00"
+                        frus:doc-dateTime-max="1970-01-31T23:59:59-05:00">
                         <head>50. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName type="from" corresp="#p_KHA1">Kissinger</persName>)
                             to President <persName type="to" corresp="#p_NRM1">Nixon</persName>
@@ -10328,7 +10355,11 @@
                                 for action.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1970-01-29T16:38:00+00:00"
+                                notAfter="1970-01-31T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Economic Assistance Program to Korea for <gloss target="#t_FY1"
@@ -16830,7 +16861,8 @@
                     </div>
                 </div>
                 <pb n="229" xml:id="pg_229" facs="0256"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1971-04-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-12-22T23:59:59-05:00">
                     <head>Republic of Korea Troops in Vietnam and Force Modernization, April
                         1971–December 1972</head>
                     <div type="document" xml:id="d89" n="89" subtype="historical-document"
@@ -17662,7 +17694,9 @@
                             agreement with the United States.</p>
                     </div>
                     <pb n="242" xml:id="pg_242" facs="0269"/>
-                    <div type="document" xml:id="d95" n="95" subtype="historical-document">
+                    <div type="document" xml:id="d95" n="95" subtype="historical-document"
+                        frus:doc-dateTime-min="1971-06-15T23:00:00-05:00"
+                        frus:doc-dateTime-max="1971-06-17T22:59:59-05:00">
                         <head>95. Paper Prepared in the Department of State<note n="1"
                                 xml:id="d95fn1" type="source">Source: National Archives, <persName
                                     corresp="#p_NRM1">Nixon</persName> Presidential Materials,<gloss
@@ -17677,7 +17711,11 @@
                                     >Nixon</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1971-06-16T00:00:00-04:00"
+                                notAfter="1971-06-17T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">Republic of Korea Forces in Viet-Nam (<gloss
                                 target="#t_ROKFV1">ROKFV</gloss>)</p>
                         <p>Almost all observers agree that the <gloss target="#t_ROKFV1"
@@ -19452,7 +19490,9 @@
                         <p>
                             <persName corresp="#p_NRM1">Nixon</persName>: Yeah. Yeah.</p>
                     </div>
-                    <div type="document" xml:id="d103" n="103" subtype="historical-document">
+                    <div type="document" xml:id="d103" n="103" subtype="historical-document"
+                        frus:doc-dateTime-min="1971-06-26T00:00:00-05:00"
+                        frus:doc-dateTime-max="1971-07-28T23:59:59-05:00">
                         <head>103. Memorandum From Vice President <persName type="from"
                                 corresp="#p_AST1">Agnew</persName> to President <persName type="to"
                                 corresp="#p_NRM1">Nixon</persName>
@@ -19468,7 +19508,9 @@
                                     corresp="#p_NRM1">Nixon</persName>’s request.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date from="1971-06-26"
+                                to="1971-07-28" ana="#date_undated-inferred-from-document-content"
+                                type="conversation-or-meeting-date">undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>My Diplomatic Mission: June 26–July 28, 1971</item>
@@ -26534,7 +26576,9 @@
                             negative, while Saigon urged Hanoi to follow Pyongyang’s example.</p>
                     </div>
                     <pb n="379" xml:id="pg_379" facs="0406"/>
-                    <div type="document" xml:id="d152" n="152" subtype="historical-document">
+                    <div type="document" xml:id="d152" n="152" subtype="historical-document"
+                        frus:doc-dateTime-min="1972-07-26T23:00:00-05:00"
+                        frus:doc-dateTime-max="1972-08-07T22:59:59-05:00">
                         <head>152. Paper Prepared by the National Security Council Staff<note n="1"
                                 xml:id="d152fn1" type="source">Source: National Archives, <persName
                                     corresp="#p_NRM1">Nixon</persName> Presidential Materials,<gloss
@@ -26549,7 +26593,11 @@
                                     target="#t_SRG1">SRG</gloss> meeting. (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1972-07-27T00:00:00-04:00"
+                                notAfter="1972-08-07T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">ANALYTICAL SUMMARY</p>
                         <p rend="flushleft">
                             <hi rend="italic">The Policy Problem</hi>
@@ -30887,7 +30935,9 @@
         </body>
         <back>
             <pb n="449" xml:id="pg_449" facs="0476"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1969-01-30T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-12-22T23:59:59-05:00">
                 <head>Index</head>
                 <p>
                     <hi rend="strong">References are to document numbers</hi>

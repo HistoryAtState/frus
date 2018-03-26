@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1956</date>
+                <date type="publication-date">1956</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -68,6 +68,10 @@
             <change>2015-03-06 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1941-12-27T18:00:00-05:00"
+                notAfter="1943-01-06T18:00:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -92,7 +96,9 @@
                     Office<lb/>Washington 25, D.C. - Price $3.75 (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1941-12-27T18:00:00-05:00"
+                frus:doc-dateTime-max="1943-01-06T18:00:00-05:00">
                 <head>Preface</head>
                 <p>The present volume of <hi rend="italic">Foreign Relations of the United
                         States</hi> is the first in a special series of <hi rend="italic">Foreign
@@ -157,7 +163,9 @@
                 </postscript>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1941-12-27T18:00:00-05:00"
+                frus:doc-dateTime-max="1943-01-06T18:00:00-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -260,7 +268,8 @@
         <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
         <body>
             <pb n="1" xml:id="pg_1" facs="0011"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1941-12-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1943-01-04T23:59:59-05:00">
                 <head>General wartime relations between the United States and China, with emphasis
                     on China’s military position and United States efforts to give military
                     assistance to China<note n="1" xml:id="comp1fn1">See also <ref
@@ -11350,7 +11359,8 @@
                 </div>
             </div>
             <pb n="191" xml:id="pg_191" facs="0201"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1942-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1942-12-16T23:59:59-05:00">
                 <head>Political conditions in China; Sino-Soviet relations; attitude of the United
                     States toward threatened Kuomintang-Communist conflict</head>
                 <div type="document" xml:id="d164" n="164" subtype="historical-document"
@@ -15468,7 +15478,8 @@
                 </div>
             </div>
             <pb n="268" xml:id="pg_268" facs="0278"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1942-03-19T00:00:00-05:00"
+                frus:doc-dateTime-max="1943-01-06T18:00:00-05:00">
                 <head>Negotiations for relinquishment by the United States of extraterritorial
                     rights in China<note n="1" xml:id="comp3fn1">For previous correspondence, see
                             <ref target="frus1937v04#pg_634">
@@ -24073,9 +24084,11 @@
                 </div>
             </div>
             <pb n="419" xml:id="pg_419" facs="0429"/>
-            <div type="compilation" xml:id="comp4">
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1942-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1942-12-31T23:59:59-05:00">
                 <head>Financial relations between the United States and China:</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1942-01-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1942-04-01T23:59:59-05:00">
                     <head>I. Discussions concerning United States $500,000,000 credit to China;
                         negotiations in regard to Financial Agreement signed at Washington, March
                         21, 1942<note n="1" xml:id="ch1fn1">For previous correspondence on
@@ -28820,7 +28833,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1942-01-12T15:00:00-05:00"
+                    frus:doc-dateTime-max="1942-12-31T23:59:59-05:00">
                     <head>II. Use of Stabilization Fund, exchange rates, implementation of U. S.
                         credit to China, inflation problem in China, monopolies, etc.</head>
                     <div type="document" xml:id="d380" n="380" subtype="historical-document"
@@ -33396,7 +33410,8 @@
                 </div>
             </div>
             <pb n="566" xml:id="pg_566" facs="0576"/>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" xml:id="comp5" frus:doc-dateTime-min="1942-03-16T00:00:00-05:00"
+                frus:doc-dateTime-max="1942-06-01T23:59:59-05:00">
                 <head>Lend-Lease Agreement between the United States and China, signed June 2,
                     1942</head>
                 <div type="document" xml:id="d457" n="457" subtype="historical-document"
@@ -33739,7 +33754,8 @@
                 </div>
             </div>
             <pb n="573" xml:id="pg_573" facs="0583"/>
-            <div type="compilation" xml:id="comp6">
+            <div type="compilation" xml:id="comp6" frus:doc-dateTime-min="1942-01-11T21:00:00-05:00"
+                frus:doc-dateTime-max="1942-11-17T23:59:59-05:00">
                 <head>Aid to China under the Lend-Lease program<note n="1" xml:id="comp6fn1">
                         <p>For correspondence concerning the Lend-Lease Agreement between the United
                             States and China, signed June 2, 1942, see <ref target="#pg_566">pp.
@@ -34882,7 +34898,8 @@
                 </div>
             </div>
             <pb n="591" xml:id="pg_591" facs="0601"/>
-            <div type="compilation" xml:id="comp7">
+            <div type="compilation" xml:id="comp7" frus:doc-dateTime-min="1942-04-10T14:00:00-05:00"
+                frus:doc-dateTime-max="1942-12-29T13:00:00-05:00">
                 <head>Efforts to establish a supply route to China via Iran, the Soviet Union, and
                     Sinkiang</head>
                 <div type="document" xml:id="d484" n="484" subtype="historical-document"
@@ -37090,7 +37107,8 @@
                 </div>
             </div>
             <pb n="624" xml:id="pg_624" facs="0634"/>
-            <div type="compilation" xml:id="comp8">
+            <div type="compilation" xml:id="comp8" frus:doc-dateTime-min="1942-07-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1942-08-15T23:59:59-05:00">
                 <head>Efforts to establish a supply route to China through Tibet; attitude of the
                     United States toward status of Tibet</head>
                 <div type="document" xml:id="d522" n="522" subtype="historical-document"
@@ -37537,7 +37555,8 @@
                 </div>
             </div>
             <pb n="632" xml:id="pg_632" facs="0642"/>
-            <div type="compilation" xml:id="comp9">
+            <div type="compilation" xml:id="comp9" frus:doc-dateTime-min="1941-12-27T18:00:00-05:00"
+                frus:doc-dateTime-max="1942-12-29T12:00:00-05:00">
                 <head>Arrangements to obtain strategic materials for the United States from
                     China</head>
                 <div type="document" xml:id="d531" n="531" subtype="historical-document"
@@ -40290,7 +40309,9 @@
                 </div>
             </div>
             <pb n="673" xml:id="pg_673" facs="0683"/>
-            <div type="compilation" xml:id="comp10">
+            <div type="compilation" xml:id="comp10"
+                frus:doc-dateTime-min="1942-03-26T11:00:00-05:00"
+                frus:doc-dateTime-max="1942-05-12T17:00:00-05:00">
                 <head>Support by the Department of State of Chinese requests for planes for internal
                     transport in China</head>
                 <div type="document" xml:id="d587" n="587" subtype="historical-document"
@@ -40780,7 +40801,9 @@
                 </div>
             </div>
             <pb n="680" xml:id="pg_680" facs="0690"/>
-            <div type="compilation" xml:id="comp11">
+            <div type="compilation" xml:id="comp11"
+                frus:doc-dateTime-min="1942-07-20T13:00:00-05:00"
+                frus:doc-dateTime-max="1942-07-29T13:00:00-05:00">
                 <head>Interest of the United States in maintenance of administrative integrity of
                     Chinese Maritime Customs<note n="1" xml:id="comp11fn1">For previous
                         correspondence, see <ref target="frus1931-41v01#pg_729">
@@ -40949,7 +40972,9 @@
                 </div>
             </div>
             <pb n="683" xml:id="pg_683" facs="0693"/>
-            <div type="compilation" xml:id="comp12">
+            <div type="compilation" xml:id="comp12"
+                frus:doc-dateTime-min="1942-07-08T12:00:00-05:00"
+                frus:doc-dateTime-max="1942-12-03T13:00:00-05:00">
                 <head>Opening of new American diplomatic and consular posts in China</head>
                 <div type="document" xml:id="d598" n="598" subtype="historical-document"
                     frus:doc-dateTime-min="1942-07-08T12:00:00-05:00"
@@ -41683,7 +41708,9 @@
                 </div>
             </div>
             <pb n="697" xml:id="pg_697" facs="0707"/>
-            <div type="compilation" xml:id="comp13">
+            <div type="compilation" xml:id="comp13"
+                frus:doc-dateTime-min="1942-01-29T21:00:00-05:00"
+                frus:doc-dateTime-max="1942-11-04T21:00:00-05:00">
                 <head>Cultural relations program of the Department of State to provide technical
                     assistance to China and to facilitate greater cultural cooperation between the
                     United States and China</head>
@@ -43391,7 +43418,9 @@
                 </div>
             </div>
             <pb n="728" xml:id="pg_728" facs="0738"/>
-            <div type="compilation" xml:id="comp14">
+            <div type="compilation" xml:id="comp14"
+                frus:doc-dateTime-min="1942-03-25T02:00:00-05:00"
+                frus:doc-dateTime-max="1942-06-26T19:00:00-05:00">
                 <head>Unwillingness of the United States to grant Chinese request for the formation
                     of Chinese volunteer corps in Hawaii</head>
                 <div type="document" xml:id="d629" n="629" subtype="historical-document"
@@ -43519,7 +43548,9 @@
                 </div>
             </div>
             <pb n="730" xml:id="pg_730" facs="0740"/>
-            <div type="compilation" xml:id="comp15">
+            <div type="compilation" xml:id="comp15"
+                frus:doc-dateTime-min="1942-03-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1942-12-19T23:59:59-05:00">
                 <head>Interest of the United States concerning Chinese postwar planning</head>
                 <div type="document" xml:id="d632" n="632" subtype="historical-document"
                     frus:doc-dateTime-min="1942-03-25T00:00:00-05:00"
@@ -44554,7 +44585,9 @@
                 </div>
             </div>
             <pb n="749" xml:id="pg_749" facs="0759"/>
-            <div type="compilation" xml:id="comp16">
+            <div type="compilation" xml:id="comp16"
+                frus:doc-dateTime-min="1942-01-08T00:00:00-05:00"
+                frus:doc-dateTime-max="1942-02-06T23:59:59-05:00">
                 <head>Consideration of proposed entry of Chinese troops into Indochina to combat
                     Japanese forces in that colony</head>
                 <div type="document" xml:id="d647" n="647" subtype="historical-document"
@@ -45209,7 +45242,9 @@
                 </div>
             </div>
             <pb n="761" xml:id="pg_761" facs="0771"/>
-            <div type="compilation" xml:id="comp17">
+            <div type="compilation" subtype="editorial-note" xml:id="comp17"
+                frus:doc-dateTime-min="1942-02-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1942-07-31T23:59:59-05:00">
                 <head>Exchange of views between Generalissimo Chiang Kai-shek and President
                     Roosevelt regarding situation in India</head>
                 <p>[Following a visit by Generalissimo Chiang Kai-shek to India in February 1942, he
@@ -45234,7 +45269,9 @@
                     volumes for 1942.]</p>
             </div>
             <pb n="762" xml:id="pg_762" facs="0772"/>
-            <div type="compilation" xml:id="comp18">
+            <div type="compilation" subtype="editorial-note" xml:id="comp18"
+                frus:doc-dateTime-min="1942-04-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1942-05-07T23:59:59-05:00">
                 <head>Exchange of views between the United States and China regarding the future
                     status of Korea and the question of recognizing a provisional Korean
                     government</head>
@@ -45268,7 +45305,9 @@
             <pb n="[763]" xml:id="pg_763" facs="0773"/>
             <pb n="[764]" xml:id="pg_764" facs="0774"/>
             <pb n="765" xml:id="pg_765" facs="0775"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1941-12-27T18:00:00-05:00"
+                frus:doc-dateTime-max="1943-01-06T18:00:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Afghanistan, <ref target="#pg_196">196</ref>, <ref target="#pg_197"

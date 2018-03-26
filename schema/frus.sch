@@ -207,10 +207,20 @@
         </rule>
         <rule context="tei:div">
             <assert
-                test="./@subtype = ('editorial-note', 'errata_document-numbering-error', 'historical-document')"
+                test="./@subtype = ('editorial-note', 'errata_document-numbering-error', 'historical-document', 'index')"
                     >div/@subtype='<value-of select="@subtype"/>' is an invalid value. Only the
                 following values are allowed: editorial-note, errata_document-numbering-error,
-                historical-document</assert>
+                historical-document, index</assert>
+        </rule>
+    </pattern>
+
+    <pattern id="div-child-checks">
+        <title>Compilation/Chapter/Subchapter Div Containing Descendant Document Div Check</title>
+        <rule
+            context="tei:div[@type = ('compilation', 'chapter', 'subchapter')][not(@subtype = ('index', 'referral'))]">
+            <assert role="warn" test=".//tei:div[@type = 'document']">This <value-of select="@type"
+                /> does not contain a div/@type='document'. Please inspect to verify encoding
+                accuracy.</assert>
         </rule>
     </pattern>
 
@@ -387,7 +397,7 @@
         </rule>
         <rule context="tei:date[@type]">
             <assert role="warn"
-                test="./@type = ('conversation-or-meeting-date', 'content-date', 'creation-date', 'received-date')"
+                test="tokenize(./@type) = ('content-date', 'conversation-or-meeting-date', 'creation-date', 'publication-date', 'received-date')"
                     >date/@type='<value-of select="@type"/>' is an invalid value. Only the following
                 values are allowed: conversation-or-meeting-date, content-date, creation-date,
                 received-date</assert>
@@ -512,7 +522,7 @@
     <pattern id="document-date-metadata-checks">
         <title>Document Date Metadata Checks</title>
         <rule
-            context="tei:div[@type eq 'document'][not(@subtype eq 'errata_document-numbering-error')][not(@subtype eq 'editorial-note')][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when])]">
+            context="tei:div[@type eq 'document'][not(@subtype = ('editorial-note', 'errata_document-numbering-error', 'index'))][not(.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when])]">
             <assert role="warn" test=".//tei:dateline[not(ancestor::frus:attachment)]"
                 sqf:fix="add-dateline-date-only add-full-dateline">Non-editorial note documents must
                 have a dateline with date metadata.</assert>

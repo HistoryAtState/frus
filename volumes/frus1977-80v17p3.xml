@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Publishing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2017</date>
+                <date type="publication-date">2017</date>
                 <idno type="frus">frus1977-80v17p3</idno>
             </publicationStmt>
             <sourceDesc>
@@ -33,6 +33,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
+        <xenoData>
+            <frus:coverage notBefore="1977-01-12T10:43:00-05:00"
+                notAfter="1981-01-06T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -59,7 +63,9 @@
                     DC area (202) 512-1800 Fax: (202) 512-2250 Mail: Stop IDCC, Washington, DC
                     20402-0001</docImprint>
             </titlePage>
-            <div xml:id="pressrelease" type="section">
+            <div xml:id="pressrelease" type="section" subtype="press-release"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <head>Press Release</head>
                 <p rend="right">
                     <hi rend="strong">Office of the Historian<lb/>Bureau of Public
@@ -85,7 +91,9 @@
                     202-512-1800). For further information, contact <ref
                         target="mailto:history@state.gov">history@state.gov</ref>. </p>
             </div>
-            <div type="section" xml:id="AbouttheSeries">
+            <div type="section" xml:id="AbouttheSeries" subtype="about-frus-series"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -260,11 +268,13 @@
                         <lb/><affiliation><hi rend="italic">The Historian</hi></affiliation>
                     </signed>
                     <orgName>Bureau of Public Affairs</orgName><lb/>
-                    <date>October 2017</date>
+                    <date when="2017-10">October 2017</date>
                 </closer>
             </div>
 
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <pb n="VII" facs="0008" xml:id="pg_VII"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">Structure and Scope of the <hi rend="roman">Foreign
@@ -356,7 +366,9 @@
                 </closer>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
@@ -413,7 +425,9 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <hi rend="roman">Foreign Relations</hi>,
@@ -522,7 +536,9 @@
                         1970–1977.</item>
                 </list>
             </div>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Abbreviations and Terms</head>
                 <list>
@@ -760,7 +776,9 @@
                 </list>
                 <pb n="XVI" facs="0017" xml:id="pg_XVI"/>
             </div>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
                 <head>Persons</head>
                 <list>
@@ -1126,10 +1144,13 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                 <pb n="1" facs="0022" xml:id="pg_1"/>
                 <head>North Africa</head>
-                <div type="chapter" n="1" xml:id="ch1">
+                <div type="chapter" n="1" xml:id="ch1"
+                    frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
+                    frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                     <head>North Africa Region</head>
                     <div type="document" n="1" xml:id="d1" subtype="historical-document"
                         frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
@@ -5189,7 +5210,9 @@
                             <head><hi rend="strong">Interagency Paper</hi><note n="12"
                                     xml:id="d32fn12">Secret.</note></head>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date></dateline>
+                                <placeName>Washington</placeName>, <date when="1978-06-05"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date></dateline>
                             <p rend="sectiontitleital">Update to PRM–34 Background Paper</p>
                             <p>The second Shaba crisis has focused attention on Morocco’s
                                 willingness to respond militarily to threats to at least one African
@@ -5689,7 +5712,9 @@
                             <head><hi rend="strong">Paper Prepared in the Department of
                                     State</hi><note n="5" xml:id="d37fn5">Secret.</note></head>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date></dateline>
+                                <placeName>Washington</placeName>, <date when="1979-03-24"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date></dateline>
                             <p rend="center"><hi rend="italic">Discussion Paper for PRC
                                 Meeting</hi></p>
                             <p rend="center"><hi rend="italic">Tuesday, March 27, 3:00 p.m.</hi></p>
@@ -8123,7 +8148,11 @@
                                     PRC meeting (see <ref target="#d47">Document
                                 47</ref>).</note></head>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1979-10-16T00:00:00-04:00"
+                                    notAfter="1979-10-19T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date></dateline>
                             <p><hi rend="italic">Option 1.</hi> The present policy of selling to
                                 Morocco whatever arms are necessary for the defense of its own
                                 territory, but not transferring weapons that clearly would be used
@@ -8420,7 +8449,11 @@
                             <head><hi rend="strong">Paper Prepared in the Department of
                                     State</hi><note n="18" xml:id="d50fn18">Secret.</note></head>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1979-12-18T00:00:00-05:00"
+                                    notAfter="1979-12-22T23:59:59-05:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date></dateline>
                             <p rend="center"><hi rend="italic">Actions Taken on
                                     Composition/Financing of Moroccan Arms Package</hi></p>
                             <p>October 19—Presidential decision.</p>
@@ -8732,7 +8765,9 @@
                 </div>
 
                 <pb n="147" facs="0168" xml:id="pg_147"/>
-                <div type="chapter" n="2" xml:id="ch2">
+                <div type="chapter" n="2" xml:id="ch2"
+                    frus:doc-dateTime-min="1977-02-12T16:00:00-05:00"
+                    frus:doc-dateTime-max="1980-01-17T23:59:59-05:00">
                     <head>Algeria</head>
                     <div type="document" n="55" xml:id="d55" subtype="historical-document"
                         frus:doc-dateTime-min="1977-02-12T16:00:00-05:00"
@@ -10824,8 +10859,11 @@
                                     State</hi><note n="4" xml:id="d72fn4">Secret.</note></head>
                             <opener>
                                 <dateline rendition="#right">
-                                    <placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                    <placeName>Washington</placeName>, <date
+                                        notBefore="1979-02-09T00:00:00-05:00"
+                                        notAfter="1979-02-10T23:59:59-05:00"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        >undated</date></dateline>
                             </opener>
                             <p rend="center"><hi rend="italic">Initiatives to Strengthen
                                     U.S.-Algerian Relations</hi></p>
@@ -11883,7 +11921,9 @@
                 </div>
 
                 <pb n="208" facs="0229" xml:id="pg_208"/>
-                <div type="chapter" n="3" xml:id="ch3">
+                <div type="chapter" n="3" xml:id="ch3"
+                    frus:doc-dateTime-min="1977-01-28T22:16:00-05:00"
+                    frus:doc-dateTime-max="1980-12-12T08:23:00-05:00">
                     <head>Libya</head>
                     <div type="document" n="79" xml:id="d79" subtype="historical-document"
                         frus:doc-dateTime-min="1977-01-28T22:16:00-05:00"
@@ -17837,7 +17877,9 @@
                             <head><hi rend="strong">Memorandum Prepared in the Department of
                                     State</hi><note n="4" xml:id="d134fn4">Secret.</note></head>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date></dateline>
+                                <placeName>Washington</placeName>, <date when="1980-07-30"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date></dateline>
                             <list type="subject">
                                 <head>SUBJECT</head>
                                 <item>United States-Libyan Relations During the <persName
@@ -19165,7 +19207,9 @@
                 </div>
 
                 <pb n="348" facs="0369" xml:id="pg_348"/>
-                <div type="chapter" n="4" xml:id="ch4">
+                <div type="chapter" n="4" xml:id="ch4"
+                    frus:doc-dateTime-min="1977-01-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
                     <head>Morocco</head>
                     <div type="document" n="145" xml:id="d145" subtype="historical-document"
                         frus:doc-dateTime-min="1977-01-14T00:00:00-05:00"
@@ -24259,7 +24303,9 @@
                 </div>
 
                 <pb n="447" facs="0468" xml:id="pg_447"/>
-                <div type="chapter" n="5" xml:id="ch5">
+                <div type="chapter" n="5" xml:id="ch5"
+                    frus:doc-dateTime-min="1977-02-12T00:19:00-05:00"
+                    frus:doc-dateTime-max="1980-02-29T13:30:00-05:00">
                     <head>Tunisia</head>
                     <div type="document" n="187" xml:id="d187" subtype="historical-document"
                         frus:doc-dateTime-min="1977-02-12T00:19:00-05:00"
@@ -27404,7 +27450,9 @@
                 </div>
 
                 <pb n="507" facs="0528" xml:id="pg_507"/>
-                <div type="chapter" n="6" xml:id="ch6">
+                <div type="chapter" n="6" xml:id="ch6"
+                    frus:doc-dateTime-min="1977-05-20T16:05:00-05:00"
+                    frus:doc-dateTime-max="1980-08-04T23:59:59-05:00">
                     <head>Western Sahara</head>
                     <div type="document" n="211" xml:id="d211" subtype="historical-document"
                         frus:doc-dateTime-min="1977-05-20T16:05:00-05:00"
@@ -29449,8 +29497,9 @@
                                     State</hi><note n="8" xml:id="d222fn8">Secret.</note></head>
                             <opener>
                                 <dateline rendition="#right">
-                                    <placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                    <placeName>Washington</placeName>, <date when="1978-01-05"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        >undated</date></dateline>
                             </opener>
                             <p rend="center"><hi rend="italic">THE MOROCCAN ARMS REQUEST</hi></p>
                             <p>The Moroccans have requested:</p>

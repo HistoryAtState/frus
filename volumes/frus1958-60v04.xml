@@ -18,7 +18,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1992</date>
+                <date type="publication-date">1992</date>
                 <idno type="dospubno">10005</idno>
                 <idno type="isbn-10">0160366062</idno>
                 <idno type="isbn-13">9780160366062</idno>
@@ -44,6 +44,10 @@
         <revisionDesc>
             <change/>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1958-01-10T00:00:00-05:00"
+                notAfter="1960-12-22T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -81,7 +85,9 @@
                     SSOP, Washington, DC 20402-9328<lb/>ISBN 0-16-036606-2</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major United States foreign policy
@@ -376,7 +382,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0014"/>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III"><hi rend="strong">Preface</hi></ref></item>
@@ -401,7 +409,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0016"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0017"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>List of Sources</head>
                 <p rend="center"><hi rend="strong">Unpublished Sources</hi></p>
                 <list>
@@ -713,7 +723,9 @@
             </div>
             <pb n="[XVIII]" xml:id="pg_XVIII" facs="0022"/>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AEC1">AEC</term>,</hi> Atomic Energy
@@ -1019,7 +1031,9 @@
             </div>
             <pb n="[XXII]" xml:id="pg_XXII" facs="0026"/>
             <pb n="XXIII" xml:id="pg_XXIII" facs="0027"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="italic">Note:</hi> This list provides identification of persons
@@ -1497,7 +1511,8 @@
         </front>
         <pb n="1" xml:id="pg_1" facs="0033"/>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-07T23:59:59-05:00">
                 <head>GENERAL U.S. FOREIGN ECONOMIC POLICY</head>
                 <div type="document" xml:id="d1" n="1" subtype="historical-document"
                     frus:doc-dateTime-min="1958-01-10T09:05:00-05:00"
@@ -5227,7 +5242,8 @@
                 </div>
             </div>
             <pb n="76" xml:id="pg_76" facs="0108"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1958-02-24T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-06T23:59:59-05:00">
                 <head>U.S. INTERNATIONAL FINANCIAL AND MONETARY POLICY</head>
                 <div type="document" xml:id="d32" n="32" subtype="historical-document"
                     frus:doc-dateTime-min="1958-02-24T00:00:00-05:00"
@@ -9053,7 +9069,8 @@
                 </div>
             </div>
             <pb n="152" xml:id="pg_152" facs="0184"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1958-03-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>U.S. TRADE AND COMMERCIAL POLICY</head>
                 <div type="document" xml:id="d63" n="63" subtype="editorial-note">
                     <head>63. Editorial Note</head>
@@ -12690,7 +12707,9 @@
                         use of agricultural surpluses in support of the Mutual Security Program.
                         Regarding this report, see <ref target="#d245">Document 245</ref>.</p>
                 </div>
-                <div type="document" xml:id="d105" n="105" subtype="historical-document">
+                <div type="document" xml:id="d105" n="105" subtype="historical-document"
+                    frus:doc-dateTime-min="1959-08-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1959-08-24T23:59:59-05:00">
                     <head>105. Memorandum From the Alternate Chairman of the Interdepartmental
                         Committee on Trade Agreements (<persName type="from">Robinson</persName>) to
                         President <persName corresp="#p_EDD1" type="to">Eisenhower</persName><note
@@ -12701,10 +12720,11 @@
                                 >Kallis</persName> and <gloss target="#t_LE1">L/E</gloss> and in
                             substance by <persName corresp="#p_EWE1">Elrod</persName> and <persName
                                 corresp="#p_GLE1">Gleeck</persName>.</note></head>
-                    <dateline><date>Undated</date>.<note n="1" xml:id="d105fn1">The source text was
-                            undated, but was attached to copies of transmittal memoranda from Herter
-                            to Mueller and from Herter to Eisenhower, both dated August
-                        24.</note></dateline>
+                    <dateline><date when="1959-08-24"
+                            ana="#date_undated-inferred-from-document-content">Undated</date>.<note
+                            n="1" xml:id="d105fn1">The source text was undated, but was attached to
+                            copies of transmittal memoranda from Herter to Mueller and from Herter
+                            to Eisenhower, both dated August 24.</note></dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Recommendations of the Interdepartmental Committee on Trade Agreements
@@ -15791,7 +15811,8 @@
                 </div>
             </div>
             <pb n="289" xml:id="pg_289" facs="0321"/>
-            <div type="compilation" xml:id="comp4">
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1958-01-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-05T19:30:00-05:00">
                 <head>U.S. INTERNATIONAL INVESTMENT AND ECONOMIC DEVELOPMENT POLICY</head>
                 <div type="document" xml:id="d145" n="145" subtype="editorial-note">
                     <head>145. Editorial Note</head>
@@ -16747,7 +16768,9 @@
                             Assembly Resolution 1316 (XIII); for text, see U.N. doc.
                         A/4090)</note></p>
                 </div>
-                <div type="document" xml:id="d158" n="158" subtype="historical-document">
+                <div type="document" xml:id="d158" n="158" subtype="historical-document"
+                    frus:doc-dateTime-min="1958-11-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1958-11-06T23:59:59-05:00">
                     <head>158. Memorandum Prepared in the Department of State<note n="0"
                             xml:id="d158fn0" type="source">Source: Eisenhower Library, <persName
                                 corresp="#p_HBN1">Harlow</persName> Records, Mutual Security,
@@ -16755,7 +16778,9 @@
                             drafting information, was sent to <persName corresp="#p_HBN1"
                                 >Harlow</persName> under cover of a November 6 memorandum from
                             Barnes.</note></head>
-                    <dateline><date>Undated</date>.</dateline>
+                    <dateline><date when="1958-11-06"
+                            ana="#date_undated-inferred-from-document-content"
+                        >Undated</date>.</dateline>
                     <p rend="center">FUTURE DEVELOPMENT FINANCING</p>
                     <p rend="flushleft"><hi rend="italic">Problem:</hi></p>
                     <p>What steps should now be taken to promote effective <gloss target="#t_US1"
@@ -21720,7 +21745,8 @@
                 </div>
             </div>
             <pb n="407" xml:id="pg_407" facs="0439"/>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" xml:id="comp5" frus:doc-dateTime-min="1958-01-17T09:05:00-05:00"
+                frus:doc-dateTime-max="1960-12-12T23:59:59-05:00">
                 <head>U.S. MUTUAL SECURITY AND FOREIGN AID POLICY</head>
                 <div type="document" xml:id="d212" n="212" subtype="editorial-note">
                     <head>212. Editorial Note</head>
@@ -22527,14 +22553,18 @@
                         pressing work on the Hill.</p>
                     <p>[Here follows discussion of other matters.]</p>
                 </div>
-                <div type="document" xml:id="d223" n="223" subtype="historical-document">
+                <div type="document" xml:id="d223" n="223" subtype="historical-document"
+                    frus:doc-dateTime-min="1958-08-15T10:24:00-05:00"
+                    frus:doc-dateTime-max="1958-08-15T10:58:00-05:00">
                     <head>223. Memorandum From the President’s Administrative Assistant (<persName
                             corresp="#p_ARB1" type="from">Anderson</persName>) to the President’s
                         Personal Secretary (<persName corresp="#p_WAC1" type="to"
                             >Whitman</persName>)<note n="0" xml:id="d223fn0" type="source">Source:
                             Eisenhower Library, <persName corresp="#p_WAC1">Whitman</persName> File,
                             Eisenhower Diaries. No classification marking.</note></head>
-                    <dateline><date>Undated</date>.</dateline>
+                    <dateline><date from="1958-08-15T11:24:00-04:00" to="1958-08-15T11:58:00-04:00"
+                            ana="#date_undated-inferred-from-document-content"
+                            type="conversation-or-meeting-date">Undated</date>.</dateline>
                     <p>Conference—August 15, 1958—11:24 to 11:58 a.m.</p>
                     <p>The Vice President, General <persName corresp="#p_PGWB1">Persons</persName>,
                         Secretary <persName corresp="#p_DCD1">Dillon</persName>, <persName
@@ -28321,7 +28351,9 @@
                                     Herter</persName></hi><note n="4" xml:id="d267fn4">Printed from
                                 a copy that bears this typed signature.</note></signed></closer>
                 </div>
-                <div type="document" xml:id="d268" n="268" subtype="historical-document">
+                <div type="document" xml:id="d268" n="268" subtype="historical-document"
+                    frus:doc-dateTime-min="1960-11-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-11-16T23:59:59-05:00">
                     <head>268. Memorandum From Secretary of the Treasury <persName corresp="#p_ARB1"
                             type="from">Anderson</persName> to President <persName corresp="#p_EDD1"
                             type="to">Eisenhower</persName><note n="0" xml:id="d268fn0"
@@ -28329,7 +28361,10 @@
                                 >Whitman</persName> File, Administration Series, <persName
                                 corresp="#p_ARB1">Anderson, Robert B.</persName>, 1960–1961.
                             Secret.</note></head>
-                    <dateline><date>Undated</date>.</dateline>
+                    <dateline><date notBefore="1960-11-13T00:00:00-05:00"
+                            notAfter="1960-11-16T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >Undated</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Future Military Assistance for the Netherlands, Italy, Belgium and
@@ -28731,7 +28766,8 @@
                 </div>
             </div>
             <pb n="549" xml:id="pg_549" facs="0581"/>
-            <div type="compilation" xml:id="comp6">
+            <div type="compilation" xml:id="comp6" frus:doc-dateTime-min="1958-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-13T23:59:59-05:00">
                 <head>U.S. POLICY REGARDING STRATEGIC RESOURCES AND INTERNATIONAL COMMODITIES</head>
                 <div type="document" xml:id="d272" n="272" subtype="historical-document"
                     frus:doc-dateTime-min="1958-01-28T00:00:00-05:00"
@@ -31144,7 +31180,9 @@
                         </quote></p>
                 </div>
                 <pb n="595" xml:id="pg_595" facs="0627"/>
-                <div type="document" xml:id="d295" n="295" subtype="historical-document">
+                <div type="document" xml:id="d295" n="295" subtype="historical-document"
+                    frus:doc-dateTime-min="1959-03-12T16:30:00-05:00"
+                    frus:doc-dateTime-max="1959-03-26T23:59:59-05:00">
                     <head>295. Study Prepared by an Interagency Group Chaired by the Office of Civil
                         and Defense Mobilization<note n="0" xml:id="d295fn0" type="source">Source:
                             Department of State, <gloss target="#t_SP1">S/P</gloss> Files: Lot 67 D
@@ -31152,7 +31190,10 @@
                             but the study was transmitted to the National Security Council under a
                             March 26 memorandum by Lay; see <ref target="#d309fn2">footnote 2,
                                 Document 309</ref>.</note></head>
-                    <dateline><date>Undated</date>.</dateline>
+                    <dateline><date when="1959-03-12T16:30:00-05:00"
+                            notAfter="1959-03-26T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >Undated</date>.</dateline>
                     <p rend="center">FREE EUROPE’S DEPENDENCE ON MIDDLE EAST PETROLEUM</p>
                     <p rend="flushleft"><hi rend="italic">Nature of the Problem</hi></p>
                     <p>1. The objective of this study is to suggest actions which will decrease
@@ -35490,7 +35531,8 @@
                 </div>
             </div>
             <pb n="680" xml:id="pg_680" facs="0712"/>
-            <div type="compilation" xml:id="comp7">
+            <div type="compilation" xml:id="comp7" frus:doc-dateTime-min="1958-01-15T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-09-21T23:59:59-05:00">
                 <head>U.S. POLICY REGARDING ECONOMIC DEFENSE</head>
                 <div type="document" xml:id="d318" n="318" subtype="historical-document"
                     frus:doc-dateTime-min="1958-01-15T00:00:00-05:00"
@@ -41128,7 +41170,9 @@
         </body>
         <back>
             <pb n="785" xml:id="pg_785" facs="0817"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item><persName>Abdul Ilah, Crown Prince</persName>, <ref target="#pg_425"
@@ -47400,7 +47444,9 @@
             <pb n="814" xml:id="pg_814" facs="0846"/>
             <pb n="815" xml:id="pg_815" facs="0847"/>
             <pb n="816" xml:id="pg_816" facs="0848"/>
-            <div type="section" xml:id="errata">
+            <div type="section" xml:id="errata" subtype="errata"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>Errata</head>
                 <p>The following change has been made to <hi rend="italic">Foreign Relations</hi>,
                     1958–1960, Foreign Economic Policy, Volume IV. Please be aware that printed

@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1996</date>
+                <date type="publication-date">1996</date>
                 <idno type="dospubno">10338</idno>
                 <idno type="isbn-10">0160420180</idno>
                 <idno type="isbn-13">9780160420184</idno>
@@ -39,6 +39,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1960-11-09T00:00:00-05:00"
+                notAfter="1963-12-01T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -68,7 +72,9 @@
                     SSOP, Washington, DC 20402-9328 ISBN 0-16-042018-0</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1960-11-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-01T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -311,7 +317,9 @@
                 </postscript>
             </div>
             <pb n="IX" xml:id="pg_IX" facs="0009"/>
-            <div type="section" xml:id="intro1">
+            <div type="section" xml:id="intro1" subtype="preface"
+                frus:doc-dateTime-min="1960-11-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-01T23:59:59-05:00">
                 <head>Introduction</head>
                 <p>The superpower rivalry between the United States and the Soviet Union was central
                     to the foreign policy of the administration of President <persName
@@ -461,7 +469,9 @@
                     assistance in making this collection as complete as possible.</p>
             </div>
             <pb n="XIII" xml:id="pg_XIII" facs="0013"/>
-            <div type="section" xml:id="subseriesvols">
+            <div type="section" subtype="additional-volumes" xml:id="subseriesvols"
+                frus:doc-dateTime-min="1960-11-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-01T23:59:59-05:00">
                 <head>List of <persName>Kennedy</persName> Administration Volumes</head>
                 <p>Following is a list of the volumes in the Foreign Relations series for the
                     administration of President <persName corresp="#p_KJF2">John F.
@@ -590,7 +600,9 @@
             </div>
             <pb n="[XIV]" xml:id="pg_XIV" facs="0014"/>
             <pb n="XV" xml:id="pg_XV" facs="0015"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1960-11-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-01T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III"><hi rend="strong">Preface</hi></ref></item>
@@ -609,7 +621,9 @@
             </div>
             <pb n="[XVI]" xml:id="pg_XVI" facs="0016"/>
             <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1960-11-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-01T23:59:59-05:00">
                 <head>List of Sources</head>
                 <p rend="center"><hi rend="strong">Unpublished Sources</hi></p>
                 <list type="sources">
@@ -699,7 +713,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1960-11-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-01T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_ACDA1">ACDA</term>,</hi> Arms Control
@@ -746,7 +762,9 @@
             </div>
             <pb n="[XX]" xml:id="pg_XX" facs="0020"/>
             <pb n="XXI" xml:id="pg_XXI" facs="0021"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1960-11-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-01T23:59:59-05:00">
                 <head>List of Names</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AK3">Adenauer,
@@ -923,7 +941,8 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0023"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1960-11-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-01T23:59:59-05:00">
                 <head><persName>Kennedy</persName>-<persName corresp="#p_KNS2">Khrushchev</persName>
                     Exchanges</head>
                 <div type="document" xml:id="d1" n="1" subtype="historical-document"
@@ -1741,7 +1760,9 @@
                                 Khrushchev</hi></persName></signed></closer>
                 </div>
                 <pb n="18" xml:id="pg_18" facs="0040"/>
-                <div type="document" xml:id="d14" n="14" subtype="historical-document">
+                <div type="document" xml:id="d14" n="14" subtype="historical-document"
+                    frus:doc-dateTime-min="1962-05-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-05-06T23:59:59-05:00">
                     <head>14. Letter From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d14fn0" type="source">Source:
@@ -1752,7 +1773,9 @@
                                 >S/AE</gloss>), and <persName corresp="#p_MCRJ1"
                                 >McCloskey</persName> (P). The source text, titled “Suggested
                             Reply,” is double spaced.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-05-06"
+                            ana="#date_undated-inferred-from-document-content"
+                        >undated</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: The American people and I
                         sincerely thank you for your <note n="1" xml:id="d14fn1">The word “kind” is
                             crossed out at this point in the source text.</note> message conveying
@@ -4584,7 +4607,9 @@
                                 >Rusk</hi></persName></signed></closer>
                 </div>
                 <pb n="81" xml:id="pg_81" facs="0103"/>
-                <div type="document" xml:id="d30" n="30" subtype="historical-document">
+                <div type="document" xml:id="d30" n="30" subtype="historical-document"
+                    frus:doc-dateTime-min="1961-12-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-01-18T15:59:59-05:00">
                     <head>30. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d30fn0" type="source"
@@ -4609,7 +4634,11 @@
                             President <persName corresp="#p_KRF1">Kennedy</persName> referred to the
                             source text as “the message which you sent me through my
                             brother.”</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date>undated</date></dateline>
+                    <dateline><placeName>Moscow</placeName>, <date
+                            notBefore="1961-12-30T00:00:00-05:00"
+                            notAfter="1962-01-18T23:59:59+03:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date></dateline>
                     <p><persName corresp="#p_KNS2">N.S. Khrushchev</persName>, the Chairman of the
                             <gloss target="#t_USSR1">USSR</gloss> Council of Ministers, received a
                         communication from <persName corresp="#p_KRF1">Robert F.
@@ -7141,7 +7170,9 @@
                         </signed></closer>
                 </div>
                 <pb n="137" xml:id="pg_137" facs="0159"/>
-                <div type="document" xml:id="d49" n="49" subtype="historical-document">
+                <div type="document" xml:id="d49" n="49" subtype="historical-document"
+                    frus:doc-dateTime-min="1962-07-03T16:00:00-05:00"
+                    frus:doc-dateTime-max="1962-07-05T15:59:59-05:00">
                     <head>49. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d49fn0" type="source"
@@ -7161,7 +7192,11 @@
                             Kennedy Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date>undated</date>.</dateline>
+                    <dateline><placeName>Moscow</placeName>, <date
+                            notBefore="1962-07-04T00:00:00+03:00"
+                            notAfter="1962-07-05T23:59:59+03:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p>We are following with great attention the development of the Soviet-American
                         exchange of opinions on German peace treaty and normalization on its basis
                         of the situation in West Berlin and we are carefully weighing considerations
@@ -9970,7 +10005,9 @@
                     <p>Sincerely,<note n="2" xml:id="d72fn2">Printed from an unsigned
                         copy.</note></p>
                 </div>
-                <div type="document" xml:id="d73" n="73" subtype="historical-document">
+                <div type="document" xml:id="d73" n="73" subtype="historical-document"
+                    frus:doc-dateTime-min="1962-11-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-11-04T23:59:59-05:00">
                     <head>73. Letter From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d73fn0" type="source"
@@ -9983,7 +10020,9 @@
                             it was received on November 5. Other copies are in Department of State,
                             Presidential Correspondence: Lot 77 D 163, and ibid.: Lot 66 D
                             204.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date>undated</date>.</dateline>
+                    <dateline><placeName>Moscow</placeName>, <date when="1962-11-04"
+                            ana="#date_undated-inferred-from-document-content"
+                        >undated</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, I have just received
                         information from Mr.<persName corresp="#p_KVV2">V. Kuznetsov</persName>, our
                         representative at the negotiations in New York for liquidation of the tense
@@ -10215,7 +10254,9 @@
                     <p>Sincerely,<note n="5" xml:id="d74fn5">Printed from an unsigned
                         copy.</note></p>
                 </div>
-                <div type="document" xml:id="d75" n="75" subtype="historical-document">
+                <div type="document" xml:id="d75" n="75" subtype="historical-document"
+                    frus:doc-dateTime-min="1962-11-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-11-11T23:59:59-05:00">
                     <head>75. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d75fn0" type="source"
@@ -10229,7 +10270,9 @@
                             National Security Files, Countries Series, <gloss target="#t_USSR1"
                                 >USSR</gloss>, <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date>undated</date>.</dateline>
+                    <dateline><placeName>Moscow</placeName>, <date when="1962-11-11"
+                            ana="#date_undated-inferred-from-document-content"
+                        >undated</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, I would like to express my
                         satisfaction that the mutual obligations taken in accordance with the
                         exchange of messages <pb n="205" xml:id="pg_205" facs="0227"/>between us are
@@ -13347,7 +13390,9 @@
                     <closer><signed><persName corresp="#p_RD3"><hi rend="strong"
                                 >Rusk</hi></persName></signed></closer>
                 </div>
-                <div type="document" xml:id="d98" n="98" subtype="historical-document">
+                <div type="document" xml:id="d98" n="98" subtype="historical-document"
+                    frus:doc-dateTime-min="1963-04-23T15:24:00-05:00"
+                    frus:doc-dateTime-max="1963-04-29T22:59:59-05:00">
                     <head>98. Message From Chairman <persName corresp="#p_KNS2" type="from"
                             >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                             type="to">Kennedy</persName><note n="0" xml:id="d98fn0" type="source"
@@ -13359,7 +13404,11 @@
                             conversations at that time are in the Kennedy Library, National Security
                             Files, Countries Series, <gloss target="#t_USSR1">USSR</gloss>,
                                 <persName corresp="#p_DAF1">Dobrynin</persName> Talks.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date>undated</date>.</dateline>
+                    <dateline><placeName>Moscow</placeName>, <date
+                            notBefore="1963-04-23T15:24:00-05:00"
+                            notAfter="1963-04-29T23:59:59-04:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I have with interest acquainted
                         myself with your message of April 11.<note n="1" xml:id="d98fn1"><ref
                                 target="#d95">Document 95</ref>.</note> If my impression is correct
@@ -15024,7 +15073,9 @@
                             Khrushchev</persName>, this assessment of the effect of the activation
                         lately of provocative actions against Cuba.</p>
                 </div>
-                <div type="document" xml:id="d117" n="117" subtype="historical-document">
+                <div type="document" xml:id="d117" n="117" subtype="historical-document"
+                    frus:doc-dateTime-min="1963-09-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-09-13T23:59:59-05:00">
                     <head>117. Oral Statement From President <persName corresp="#p_KJF2" type="from"
                             >Kennedy</persName> to Chairman <persName corresp="#p_KNS2" type="to"
                             >Khrushchev</persName><note n="0" xml:id="d117fn0" type="source">Source:
@@ -15034,7 +15085,8 @@
                                 <persName corresp="#p_TLET1">Thompson</persName> made the oral
                             statement to <persName corresp="#p_DAF1">Dobrynin</persName> on
                             September 13.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
+                    <dateline><placeName>Washington</placeName>, <date when="1963-09-13"
+                            ana="#date_undated-inferred-from-document-content"
                             type="conversation-or-meeting-date">undated</date>.</dateline>
                     <p>The President wishes Mr.<persName corresp="#p_KNS2">Khrushchev</persName> to
                         know that he shares his view that the signing of the Test Ban Treaty and the
@@ -15388,7 +15440,9 @@
         </body>
         <back>
             <pb n="315" xml:id="pg_315" facs="0337"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1960-11-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-01T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Adenauer, Konrad, <ref target="#pg_47">47</ref>, <ref target="#pg_48"

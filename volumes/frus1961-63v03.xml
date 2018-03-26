@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1991</date>
+                <date type="publication-date">1991</date>
                 <idno type="dospubno">9856</idno>
                 <idno type="isbn-10">0160225434</idno>
                 <idno type="isbn-13">9780160225437</idno>
@@ -42,6 +42,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1963-01-01T00:00:00-05:00"
+                notAfter="1963-08-28T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -72,7 +76,9 @@
                     http://bookstore.gpo.gov/index.html</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1963-01-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-08-28T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -332,7 +338,9 @@
                             Historian<lb/>Bureau of Public Affairs</hi></signed></closer>
             </div>
             <pb n="IX" xml:id="pg_IX" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1963-01-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-08-28T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III"><hi rend="strong">Preface</hi></ref></item>
@@ -368,7 +376,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1963-01-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-08-28T23:59:59-05:00">
                 <head>List of Sources</head>
                 <p rend="center"><hi rend="strong">Unpublished Sources</hi></p>
                 <list type="sources">
@@ -812,7 +822,9 @@
                 </list>
             </div>
             <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1963-01-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-08-28T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AAA1">AAA</term>,</hi> anti-aircraft
@@ -1219,7 +1231,9 @@
             </div>
             <pb n="[XX]" xml:id="pg_XX" facs="0020"/>
             <pb n="XXI" xml:id="pg_XXI" facs="0021"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1963-01-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-08-28T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_ABGRH1">Anthis, Brigadier General
@@ -1636,9 +1650,11 @@
         <pb n="[XXVI]" xml:id="pg_XXVI" facs="0026"/>
         <body>
             <pb n="1" xml:id="pg_1" facs="0027"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1961-07-03T23:00:00-05:00"
+                frus:doc-dateTime-max="1963-08-28T23:59:59-05:00">
                 <head>Vietnam, January-August 1963</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1963-01-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-03-14T14:00:00-05:00">
                     <head>I. Reassessment, January 1-March 14, 1963: Hilsman-Forrestal Report,
                         Wheeler Mission, Mansfield Report, Comprehensive Plan, Thompson
                         Report</head>
@@ -10574,7 +10590,8 @@
                     </div>
                 </div>
                 <pb n="152" xml:id="pg_152" facs="0178"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1963-03-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-05-08T23:59:59-05:00">
                     <head>II. Increasing Tensions Between the United States and South Vietnam, March
                         15-May 8, 1963:<lb/>Reaction to the Mansfield Report, the “Press Problem,”
                         the Number and Role of U.S. Advisers in Vietnam, Differences Over the Joint
@@ -17949,7 +17966,8 @@
                             signature.</note></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1963-05-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-06-16T17:00:00-05:00">
                     <pb n="277" xml:id="pg_277" facs="0303"/>
                     <head>III. Beginning of the Buddhist Crisis, May 9-June 16, 1963:<lb/>Incident
                         in Hue, the Five Buddhist Demands, Use of Tear Gas in Hue, Self Immolation
@@ -20194,8 +20212,10 @@
                             <head>Contingency Plan Prepared by the Director of the Vietnam Working
                                 Group (<persName corresp="#p_WCB1">Wood</persName>)<note n="2"
                                     xml:id="d133fn2">Top Secret.</note></head>
-                            <dateline><hi rend="italic"><placeName>Saigon</placeName>,
-                                        <date>undated</date>.</hi></dateline>
+                            <dateline><hi rend="italic"><placeName>Saigon</placeName>, <date
+                                        when="1963-05-23"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        >undated</date>.</hi></dateline>
                             <list type="subject">
                                 <head>SUBJECT</head>
                                 <item>Eventual Change of Government in Viet-Nam</item>
@@ -25079,7 +25099,8 @@
                     </div>
                 </div>
                 <pb n="400" xml:id="pg_400" facs="0426"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1961-07-03T23:00:00-05:00"
+                    frus:doc-dateTime-max="1963-08-20T23:59:59-05:00">
                     <head>IV. The Deepening Crisis, June 17-August 20:<lb/>Repudiation of the June
                         16 Agreement, U.S. Efforts To Promote Conciliation, Press Coverage and
                         International Opinion, July 18 Address by <persName corresp="#p_DIEM1"
@@ -28080,7 +28101,9 @@
                             US action, introducing elements of a nuclear confrontation not now
                             present.</p>
                     </div>
-                    <div type="document" xml:id="d207" n="207" subtype="historical-document">
+                    <div type="document" xml:id="d207" n="207" subtype="historical-document"
+                        frus:doc-dateTime-min="1961-07-03T23:00:00-05:00"
+                        frus:doc-dateTime-max="1961-07-05T22:59:59-05:00">
                         <head>207. Report by the Joint Chiefs of Staff’s Special Assistant for
                             Counterinsurgency and Special Activities (<persName corresp="#p_KMGVH1"
                                 >Krulak</persName>)<note n="1" xml:id="d207fn1" type="source"
@@ -28104,8 +28127,11 @@
                                     (<persName corresp="#p_KJE1">Kennedy</persName> Library,
                                 National Security Files, Vietnam Country Series,
                                 7/1/63-7/20/63)</note></head>
-                        <dateline><hi rend="italic"><placeName>Washington</placeName>,
-                                    <date>undated</date>.</hi></dateline>
+                        <dateline><hi rend="italic"><placeName>Washington</placeName>, <date
+                                    notBefore="1961-07-04T00:00:00-04:00"
+                                    notAfter="1961-07-05T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</hi></dateline>
                         <p rend="center">VISIT TO VIETNAM</p>
                         <p>This reports on a visit to Vietnam, made during the period 25 June to 1
                             July 1963, to review progress in the counterinsurgency campaign.</p>
@@ -32298,7 +32324,9 @@
                             suggestion had merit.</p>
                     </div>
                     <pb n="531" xml:id="pg_531" facs="0557"/>
-                    <div type="document" xml:id="d239" n="239" subtype="historical-document">
+                    <div type="document" xml:id="d239" n="239" subtype="historical-document"
+                        frus:doc-dateTime-min="1963-07-26T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-07-26T23:59:59-05:00">
                         <head>239. Report From the Assistant Secretary of State for Public Affairs
                                 (<persName corresp="#p_MRJ1" type="from">Manning</persName>) to the
                                 President<note n="1" xml:id="d239fn1" type="source">Source:
@@ -32318,8 +32346,10 @@
                                 Press Secretary <persName corresp="#p_SP1">Salinger</persName>. A
                                 note on the covering memorandum indicates that the report was placed
                                 in the President’s weekend reading file.</note></head>
-                        <dateline><hi rend="italic"><placeName>Washington</placeName>,
-                                    <date>undated</date>.</hi></dateline>
+                        <dateline><hi rend="italic"><placeName>Washington</placeName>, <date
+                                    when="1963-07-26"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</hi></dateline>
                         <p rend="center">REPORT ON THE SAIGON PRESS SITUATION</p>
                         <p>The press problem in Viet-Nam is singular because of the singular nature
                             of the United States involvement in that country. Our involvement is so
@@ -35925,8 +35955,10 @@
                         <pb n="592" xml:id="pg_592" facs="0618"/>
                         <frus:attachment>
                             <head>Appendix</head>
-                            <dateline><hi rend="italic"><placeName>Honolulu</placeName>,
-                                        <date>undated</date>.</hi></dateline>
+                            <dateline><hi rend="italic"><placeName>Honolulu</placeName>, <date
+                                        when="1963-08-20"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        >undated</date>.</hi></dateline>
                             <p rend="center"><hi rend="strong">Plan Submitted by the Commander in
                                     Chief, Pacific (Felt)</hi><note n="3" xml:id="d260fn3">Secret.
                                     No drafting information appears on the source text, but for a
@@ -36162,7 +36194,8 @@
                         </frus:attachment>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1963-08-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-08-28T23:59:59-05:00">
                     <pb n="595" xml:id="pg_595" facs="0621"/>
                     <head>V. Raids on the Pagodas and a Possible Coup, August 21-28,
                         1963:<lb/>Martial Law, <persName corresp="#p_LHCJ1">Lodge</persName>’s
@@ -41213,7 +41246,9 @@
         <back>
             <pb n="[676]" xml:id="pg_676" facs="0702"/>
             <pb n="677" xml:id="pg_677" facs="0703"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1963-01-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-08-28T23:59:59-05:00">
                 <head>Index</head>
                 <list>
                     <item>Acheson, Dean, <ref target="#pg_586">586</ref></item>

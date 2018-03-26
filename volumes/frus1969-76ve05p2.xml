@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2007</date>
+                <date type="publication-date">2007</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -45,6 +45,10 @@
             <change>2009-01-31 HCL SB: Volume delivered to PA/HO</change>
             <change>2009-03-17 PA/HO JW: Reviewed and posted on history.state.gov</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1969-02-17T00:00:00-05:00"
+                notAfter="1973-01-05T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -70,7 +74,9 @@
                     <docDate>2007</docDate>Office of the Historian<lb/>Bureau of Public
                     Affairs<lb/>U.S. Department of State<lb/>2007</docImprint>
             </titlePage>
-            <div type="section" xml:id="pressrelease">
+            <div type="section" xml:id="pressrelease" subtype="press-release"
+                frus:doc-dateTime-min="1969-02-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-01-05T23:59:59-05:00">
                 <head>Press Release</head>
                 <p rend="right">
                     <hi rend="strong">Office of the Historian Bureau of Public Affairs United States
@@ -152,7 +158,9 @@
                         >Foreign Relations</hi> series at (202) 663-1131, or by email at <ref
                         target="mailto:history@state.gov">history@state.gov</ref>.</p>
             </div>
-            <div type="section" xml:id="summary">
+            <div type="section" xml:id="summary" subtype="volume-summary"
+                frus:doc-dateTime-min="1969-02-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-01-05T23:59:59-05:00">
                 <head>Summary</head>
                 <p>Early in President <persName corresp="#p_NRM1">Richard Nixon</persName>'s first
                     term, officials monitoring U.S.-North African relations had grounds for some
@@ -413,7 +421,9 @@
                     crisis, or increased military aid or sales generally, received political but
                     basically non-committal responses from Washington.</p>
             </div>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1969-02-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-01-05T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -667,7 +677,9 @@
                     <hi rend="italic">The Historian</hi>
                     <lb/>Bureau of Public Affairs <lb/>October 2005 and September 2007</closer>
             </div>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1969-02-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-01-05T23:59:59-05:00">
                 <head>Sources</head>
                 <p rend="center">
                     <hi rend="strong">Unpublished Sources</hi>
@@ -968,7 +980,9 @@
                         Office, 1970, 1971, 1972, 1973)</item>
                 </list>
             </div>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1969-02-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-01-05T23:59:59-05:00">
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
                     <item>
@@ -2061,7 +2075,9 @@
                         Union</item>
                 </list>
             </div>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1969-02-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-01-05T23:59:59-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -3303,9 +3319,11 @@
         </front>
         <body>
             <pb n="1" xml:id="d1-01" facs="d1-01"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1969-02-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-01-05T23:59:59-05:00">
                 <head>Documents on North Africa, 1969-1972</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1969-03-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1971-12-09T23:59:59-05:00">
                     <head>Ch. 1. U.S.-North African Policy</head>
                     <div type="document" xml:id="d1" n="1" subtype="historical-document"
                         frus:doc-dateTime-min="1969-03-19T00:00:00-05:00"
@@ -5762,7 +5780,8 @@
                     </div>
                 </div>
                 <pb n="1" xml:id="d13-01" facs="d13-01"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1969-04-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-10-20T15:00:00-05:00">
                     <head>Ch. 2. Algeria</head>
                     <div type="document" xml:id="d13" n="13" subtype="historical-document"
                         frus:doc-dateTime-min="1969-04-07T00:00:00-05:00"
@@ -9369,7 +9388,9 @@
                         </closer>
                     </div>
                     <pb n="1" xml:id="d29-01" facs="d29-01"/>
-                    <div type="document" xml:id="d29" n="29" subtype="historical-document">
+                    <div type="document" xml:id="d29" n="29" subtype="historical-document"
+                        frus:doc-dateTime-min="1972-03-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-03-01T23:59:59-05:00">
                         <head>29. Memorandum From the President's Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
                             to President <persName corresp="#p_NRM1" type="to">Nixon</persName>,
@@ -9393,7 +9414,9 @@
                                 to Algeria.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date></dateline>
+                            <placeName>Washington</placeName>, <date when="1972-03-01"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date></dateline>
                         <p>THE WHITE HOUSE<lb/>WASHINGTON<lb/>ACTION 1386</p>
                         <list>
                             <head>MEMORANDUM FOR:</head>
@@ -10601,7 +10624,8 @@
                     </div>
                 </div>
                 <pb n="1" xml:id="d36-01" facs="d36-01"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1969-03-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-12-13T23:59:59-05:00">
                     <head>Ch. 3. Libya</head>
                     <div type="document" xml:id="d36" n="36" subtype="historical-document"
                         frus:doc-dateTime-min="1969-03-27T00:00:00-05:00"
@@ -13945,7 +13969,9 @@
                         </closer>
                     </div>
                     <pb n="1" xml:id="d52-01" facs="d52-01"/>
-                    <div type="document" xml:id="d52" n="52" subtype="historical-document">
+                    <div type="document" xml:id="d52" n="52" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-02-12T00:00:00-05:00"
+                        frus:doc-dateTime-max="1970-02-12T23:59:59-05:00">
                         <head>52. Memorandum From the President's Assistant for National Security
                             Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>)
                             to President <persName corresp="#p_NRM1" type="to">Nixon</persName>,
@@ -13970,7 +13996,9 @@
                                 possible future instability in the region.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date></dateline>
+                            <placeName>Washington</placeName>, <date when="1970-02-12"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date></dateline>
                         <p>THE WHITE HOUSE<lb/>WASHINGTON<lb/>ACTION MEMORANDUM</p>
                         <list type="to">
                             <head>MEMORANDUM FOR</head>
@@ -21525,7 +21553,8 @@
                     </div>
                 </div>
                 <pb n="1" xml:id="d97-01" facs="d97-01"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1969-02-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1973-01-05T23:59:59-05:00">
                     <head>Ch. 4. Morocco</head>
                     <div type="document" xml:id="d97" n="97" subtype="historical-document"
                         frus:doc-dateTime-min="1969-02-17T00:00:00-05:00"
@@ -29301,7 +29330,8 @@
                     </div>
                 </div>
                 <pb n="1" xml:id="d138-01" facs="d138-01"/>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1969-03-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-12-11T23:59:59-05:00">
                     <head>Ch. 5. Tunisia</head>
                     <div type="document" xml:id="d138" n="138" subtype="historical-document"
                         frus:doc-dateTime-min="1969-03-20T00:00:00-05:00"

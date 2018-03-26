@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington, DC</pubPlace>
-                <date>2003</date>
+                <date type="publication-date">2003</date>
                 <idno type="dospubno">11017</idno>
                 <idno type="isbn-10">0160512824</idno>
                 <idno type="isbn-13">9780160512827</idno>
@@ -44,6 +44,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1967-07-29T00:00:00-05:00"
+                notAfter="1972-11-04T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -80,7 +84,9 @@
                     512-1800<lb/>Fax: (202) 512-2250 Mail: Stop SSOP, Washington, DC
                     20402-0001<lb/>ISBN 0-16-051282-4; GPO Stock No. 044-000-02570-1</docImprint>
             </titlePage>
-            <div type="section" xml:id="pressrelease">
+            <div type="section" xml:id="pressrelease" subtype="press-release"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <head>Office of the Historian Press Release</head>
                 <p>
                     <hi rend="strong">Office of the Historian</hi>
@@ -142,7 +148,9 @@
                     will soon be available on the Office' s Web site. Copies of volume I can be
                     purchased from the Government Printing Office.</p>
             </div>
-            <div type="section" xml:id="summary">
+            <div type="section" xml:id="summary" subtype="volume-summary"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <head>Summary</head>
                 <p rend="center">Foreign Relations of the United States, 1969-1976, Volume I</p>
                 <p rend="center">Foundations of Foreign Policy, 1969-1972</p>
@@ -536,7 +544,9 @@
                     Secretary of State and National Security Advisor.</p>
             </div>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -780,7 +790,9 @@
             </div>
             <pb n="[VIII]" xml:id="pg_VIII" facs="0008"/>
             <pb n="IX" xml:id="pg_IX" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -805,7 +817,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <head>Sources</head>
                 <p rend="flushleft">
                     <hi rend="italic">Sources for the Foreign Relations Series</hi>
@@ -1210,7 +1224,9 @@
                     </item>
                 </list>
             </div>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
                 <head>Abbreviations</head>
                 <list type="terms">
@@ -1405,7 +1421,9 @@
                             <term xml:id="t_WW1">WW</term>,</hi> World War</item>
                 </list>
             </div>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
                 <head>Persons</head>
                 <list type="names">
@@ -1585,7 +1603,8 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <pb n="1" xml:id="pg_1" facs="0021"/>
                 <head>Foundations of Foreign Policy, 1969-1972</head>
                 <div type="document" xml:id="d1" n="1" subtype="editorial-note">
@@ -6390,7 +6409,9 @@
                         Files, Office of Presidential Papers and Archives, Daily Diary)</p>
                 </div>
                 <pb n="110" xml:id="pg_110" facs="0130"/>
-                <div type="document" xml:id="d39" n="39" subtype="historical-document">
+                <div type="document" xml:id="d39" n="39" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-09-02T13:45:00-05:00"
+                    frus:doc-dateTime-max="1969-10-14T22:59:59-05:00">
                     <head>39. Memorandum From the President's Assistant for National Security
                         Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>) to
                         President <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -6407,7 +6428,11 @@
                             Mitchell for their comments. (Ibid.)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1969-09-02T11:45:00-07:00"
+                            notAfter="1969-10-14T23:59:59-04:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>A Strategic Overview</item>
@@ -9550,7 +9575,9 @@
                     </closer>
                 </div>
                 <pb n="174" xml:id="pg_174" facs="0194"/>
-                <div type="document" xml:id="d54" n="54" subtype="historical-document">
+                <div type="document" xml:id="d54" n="54" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-01-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-01-23T23:59:59-05:00">
                     <head>54. Paper Prepared in the National Security Council Staff<note n="1"
                             xml:id="d54fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG1">RG</gloss> 59, Policy Planning Staff Files: Lot 77 D
@@ -9571,7 +9598,11 @@
                             issues”?</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1970-01-22T00:00:00-05:00"
+                            notAfter="1970-01-23T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p rend="center">THE <persName corresp="#p_NRM1">NIXON</persName> DOCTRINE FOR
                         ASIA: SOME HARD ISSUES</p>
                     <p>It is useful at the outset to recognize that there is no such thing as a
@@ -20840,7 +20871,9 @@
         </body>
         <back>
             <pb n="427" xml:id="pg_427" facs="0447"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                 <head>Index</head>
                 <p>
                     <hi rend="strong">References are to document numbers</hi>

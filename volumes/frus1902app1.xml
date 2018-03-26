@@ -20,7 +20,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1903</date>
+                <date type="publication-date">1903</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -71,6 +71,10 @@
             <change>2016-02-02 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1892-05-09T00:00:00-05:00"
+                notAfter="1902-06-03T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -91,7 +95,9 @@
             <pb n="[II]" xml:id="pg_II" facs="0008"/>
             <p rend="center">442305</p>
             <pb n="[III]" xml:id="pg_III" facs="0009"/>
-            <div type="section" xml:id="translation-of-the-memorandum">
+            <div type="section" subtype="undetermined" xml:id="translation-of-the-memorandum"
+                frus:doc-dateTime-min="1892-05-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1902-06-03T23:59:59-05:00">
                 <head>Translation of the memorandum of the party claimant</head>
                 <p rend="center">TO THE</p>
                 <p rend="center">HONORABLE ARBITRATOR, MR. T. M. C. ASSER,<lb/><hi rend="italic"
@@ -113,7 +119,8 @@
         </front>
         <body>
             <pb n="[1]" xml:id="pg_1" facs="0011"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1901-02-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1901-03-13T23:59:59-05:00">
                 <head>Letter from the secretary of state, transmitting a dispatch from Herbert H. D.
                     Peirce, agent of the United States in the matter of the whaling and sealing
                     claims against Russia.</head>
@@ -575,7 +582,8 @@
                 </div>
             </div>
             <pb n="9" xml:id="pg_9" facs="0019"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1900-09-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1900-09-01T23:59:59-05:00">
                 <head>Case No. 1: The Cape Horn Pigeon, American whaling bark, arrested and seized
                     in the Sea of Okhotsk by an armed vessel of the Imperial Russian Government,
                     taken to Vladivostok, detained there until the end of the whaling season, and
@@ -13136,7 +13144,8 @@
             </div>
             <pb n="[98]" xml:id="pg_98" facs="0114"/>
             <pb n="99" xml:id="pg_99" facs="0115"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1900-03-29T03:00:00-05:00"
+                frus:doc-dateTime-max="1900-10-10T23:59:59-05:00">
                 <head>Case No. 2: The American schooner “James Hamilton Lewis” arrested and seized
                     in the Bering Sea by a cruiser of the Imperial Government of Russia and
                     confiscated by said Imperial Government.</head>
@@ -15380,15 +15389,13 @@
                             can be handled much easier than sheep. I can manage seals better than I
                             can some of the sheep brought on the islands, and which I have been sent
                             to catch.</p>
-                        <closer><signed><hi rend="smallcaps">John Fratis.</hi></signed></closer>
-                        <postscript>
-                            <p>Subscribed and sworn to before me, an officer empowered to administer
-                                oaths under section 1976, Revised Statutes of the United States,
-                                this 10th of June, 1892, at St. Paul Island, Alaska.</p>
-                            <closer><signed><hi rend="smallcaps">Wm. H. Williams</hi>,<lb/><hi
-                                        rend="italic">Treasury Agent in charge of Seal
-                                    Island.</hi></signed></closer>
-                        </postscript>
+                        <closer><signed><hi rend="smallcaps">John Fratis.</hi></signed><lb/>
+                            <dateline>Subscribed and sworn to before me, an officer empowered to
+                                administer oaths under section 1976, Revised Statutes of the United
+                                States, <date when="1892-06-10">this 10th of June, 1892</date>, at
+                                    <placeName>St. Paul Island, Alaska</placeName>.</dateline><lb/>
+                            <signed><hi rend="smallcaps">Wm. H. Williams</hi>,<lb/><hi rend="italic"
+                                    >Treasury Agent in charge of Seal Island.</hi></signed></closer>
                     </frus:attachment>
                     <frus:attachment>
                         <p rend="center">[Deposition of Charles J. Goff, Treasury agent in charge of
@@ -26068,15 +26075,13 @@
                         Francisco, State of California, March 5, 1888.</p>
                     <p>I have no interest of any kind or nature whatsoever in said claim, nor am I
                         the agent or attorney of said claimant.</p>
-                    <closer><signed><hi rend="smallcaps">Theodor Tonnessen.</hi></signed></closer>
-                    <postscript>
-                        <p>Subscribed and sworn to before me this 10th day of April, 1894.</p>
-                        <closer>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">John
-                                    C. Hughes</hi></signed>,<lb/><hi rend="italic">Notary Public in
-                                and for the City and County of San Francisco, State of California,
-                                Rooms 4 and 5, Fourth Floor, Mills Building, San Francisco,
-                                Cal.</hi></closer>
-                    </postscript>
+                    <closer><signed><hi rend="smallcaps">Theodor Tonnessen.</hi></signed><lb/>
+                        <dateline>Subscribed and sworn to before me <date when="1894-04-10">this
+                                10th day of April, 1894</date>.</dateline><lb/> [<hi
+                            rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">John C.
+                                Hughes</hi></signed>,<lb/><hi rend="italic">Notary Public in and for
+                            the City and County of San Francisco, State of California, Rooms 4 and
+                            5, Fourth Floor, Mills Building, San Francisco, Cal.</hi></closer>
                 </frus:attachment>
                 <frus:attachment>
                     <head>EXHIBIT D D.</head>
@@ -26085,7 +26090,8 @@
             </div>
             <pb n="[254]" xml:id="pg_254" facs="0276"/>
             <pb n="255" xml:id="pg_255" facs="0277"/>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" xml:id="comp5" frus:doc-dateTime-min="1900-11-20T00:00:00-05:00"
+                frus:doc-dateTime-max="1900-11-20T23:59:59-05:00">
                 <head>Case No. 4: The “Kate and Anna.”</head>
                 <pb n="[256]" xml:id="pg_256" facs="0278"/>
                 <pb n="257" xml:id="pg_257" facs="0279"/>
@@ -26716,9 +26722,11 @@
                             <p>Cat. No. 335. Permanent.</p>
                             <p>Copy of certificate of registry, No. 80, of the schooner called the
                                     <hi rend="italic">Kate and Anna</hi>, 23 42/100 tons.</p>
-                            <p>Issued at the port of San Francisco, district of San Francisco,
-                                February 26, 1892.</p>
-                            <closer><signed><hi rend="smallcaps">T. G. Phelps</hi>,<lb/><hi
+                            <closer>
+                                <dateline>Issued at the port of <placeName>San
+                                    Francisco</placeName>, district of San Francisco, <date
+                                        when="1892-02-26">February 26, 1892</date>.</dateline><lb/>
+                                <signed><hi rend="smallcaps">T. G. Phelps</hi>,<lb/><hi
                                         rend="italic">Collector of Customs.</hi></signed></closer>
                         </postscript>
                     </frus:attachment>
@@ -30978,7 +30986,8 @@
                 </div>
             </div>
             <pb n="317" xml:id="pg_317" facs="0341"/>
-            <div type="compilation" xml:id="comp7">
+            <div type="compilation" xml:id="comp7" frus:doc-dateTime-min="1892-05-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1898-04-14T23:59:59-05:00">
                 <head>Rejoinder of the party claimant to the counter memorandum of the defendant
                     party to the honorable arbitrator, Mr. T. M. C. Asser, Counsellor of State of
                     the Kingdom of the Netherlands.</head>
@@ -34024,7 +34033,8 @@
             </div>
             <pb n="[362]" xml:id="pg_362" facs="0388"/>
             <pb n="363" xml:id="pg_363" facs="0389"/>
-            <div type="compilation" xml:id="comp8">
+            <div type="compilation" xml:id="comp8" frus:doc-dateTime-min="1900-09-07T16:30:00-05:00"
+                frus:doc-dateTime-max="1902-06-03T18:40:59-05:00">
                 <head>Surrejoinder of the party defendant to the rejoinder of the party claimant to
                     the counter memorandum of the Russian government presented to the honorable
                     arbitrator, Mr. T. M. C. Asser, Counselor of State of the Netherlands.</head>
@@ -36908,7 +36918,8 @@
                 </div>
             </div>
             <pb n="405" xml:id="pg_405" facs="0431"/>
-            <div type="compilation" xml:id="comp9">
+            <div type="compilation" xml:id="comp9" frus:doc-dateTime-min="1902-06-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1902-06-03T23:59:59-05:00">
                 <head>The hearing before the honorable arbitrator, Mr. T. M. C. Asser, in the
                     arbitration for the purpose of adjusting the differences between the government
                     of the United States of America, party claimant, and the Imperial Russian
@@ -41102,7 +41113,9 @@
         </body>
         <back>
             <pb n="485" xml:id="pg_485" facs="511"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1892-05-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1902-06-03T23:59:59-05:00">
                 <head>Index</head>
                 <p rend="center">A.</p>
                 <list type="index">

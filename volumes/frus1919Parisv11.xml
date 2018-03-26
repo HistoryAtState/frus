@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1947</date>
+                <date type="publication-date">1947</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -68,6 +68,10 @@
             <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1919-01-14T00:00:00-05:00"
+                notAfter="1919-12-12T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -95,7 +99,9 @@
                     Office<lb/>Washington 25, D. C. Price $2.00 (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1919-01-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-12-12T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_V"><hi rend="smallcaps">List of Papers</hi></ref></item>
@@ -112,7 +118,9 @@
             </div>
             <pb n="[IV]" xml:id="pg_IV" facs="0008"/>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="section" xml:id="papers">
+            <div type="section" xml:id="papers" subtype="index"
+                frus:doc-dateTime-min="1919-01-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-12-12T23:59:59-05:00">
                 <head>List of Papers</head>
                 <p rend="flushleft"><hi rend="smallcaps">Minutes of Meetings of the American
                         Commissioners Plenipotentiary and of the Commissioners and Technical
@@ -3148,7 +3156,8 @@
         <body>
             <pb n="[]" xml:id="pg-seq-0035" facs="0035"/>
             <pb n="[]" xml:id="pg-seq-0036" facs="0036"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1919-01-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-10-09T06:00:00-05:00">
                 <head>Minutes of Meetings of the American Commissioners Plenipotentiary and of the
                     Commissioners and Technical Advisers of the American Delegation</head>
                 <p rend="center"><hi rend="smallcaps">Note Concerning the Minutes of the Meetings of
@@ -25157,7 +25166,8 @@
             <pb n="[451]" xml:id="pg_451" facs="0487"/>
             <pb n="[452]" xml:id="pg_452" facs="0488"/>
             <pb n="453" xml:id="pg_453" facs="0489"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1919-07-01T03:00:00-05:00"
+                frus:doc-dateTime-max="1919-09-04T08:00:00-05:00">
                 <head>Minutes of Meetings of the Steering Committee of the American
                     Delegation</head>
                 <div type="document" xml:id="d163" n="163" subtype="historical-document"
@@ -26767,7 +26777,8 @@
             <pb n="[481]" xml:id="pg_481" facs="0517"/>
             <pb n="[482]" xml:id="pg_482" facs="0518"/>
             <pb n="483" xml:id="pg_483" facs="0519"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1919-01-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-12-12T23:59:59-05:00">
                 <head>Other Papers Relating to the Composition, Organization and Activities of the
                     American Delegation</head>
                 <div type="document" xml:id="d185" n="185" subtype="historical-document"
@@ -40134,7 +40145,9 @@
             <pb n="[703]" xml:id="pg_703" facs="0741"/>
             <pb n="[704]" xml:id="pg_704" facs="0742"/>
             <pb n="705" xml:id="pg_705" facs="0743"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1919-01-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1919-12-12T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Aaland Islands, <ref target="#pg_578">578</ref></item>
