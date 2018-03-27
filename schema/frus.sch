@@ -217,7 +217,7 @@
     <pattern id="div-child-checks">
         <title>Compilation/Chapter/Subchapter Div Containing Descendant Document Div Check</title>
         <rule
-            context="tei:div[@type = ('compilation', 'chapter', 'subchapter')][not(@subtype = ('index', 'referral'))]">
+            context="tei:div[@type = ('compilation', 'chapter', 'subchapter')][not(@subtype = ('index', 'referral', 'editorial-note'))]">
             <assert role="warn" test=".//tei:div[@type = 'document']">This <value-of select="@type"
                 /> does not contain a div/@type='document'. Please inspect to verify encoding
                 accuracy.</assert>
