@@ -2755,8 +2755,11 @@
                             copy of the memorandum printed here.</note></head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1960-12">December
-                                1960</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1960-12"
+                                notBefore="1960-12-01T00:00:00-05:00"
+                                notAfter="1960-12-31T23:59:59-05:00"
+                                ana="#date_imprecise-inferred-from-date-rules">December
+                            1960</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
