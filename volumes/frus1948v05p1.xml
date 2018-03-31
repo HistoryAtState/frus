@@ -1158,7 +1158,9 @@
                 <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1948-01-02T00:00:00-05:00"
                     frus:doc-dateTime-max="1948-12-28T23:59:59-05:00">
                     <head>Multilateral Relations:</head>
-                    <div type="subchapter" xml:id="ch1subch1">
+                    <div type="subchapter" subtype="referral" xml:id="ch1subch1"
+                        frus:doc-dateTime-min="1948-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1949-01-03T17:00:00-05:00">
                         <head>Interest of the United States in the Arab–Zionist controversy over the
                             future status of Palestine; the issue at the United States; creation of
                             the state of Israel; entry of Arab forces into Palestine</head>
@@ -1172,7 +1174,9 @@
                             Arab forces into Palestine. Documentation on these matters is included
                             in part 2 of this volume.]</p>
                     </div>
-                    <div type="subchapter" xml:id="ch1subch2">
+                    <div type="subchapter" subtype="referral" xml:id="ch1subch2"
+                        frus:doc-dateTime-min="1947-05-04T18:00:00-05:00"
+                        frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                         <head>United States economic and military aid to Greece and Turkey</head>
                         <p>[Documentation on American aid to Greece and Turkey under the Truman
                             Doctrine is printed in <ref target="frus1948v04#pg_1">volume IV, pages
@@ -1183,7 +1187,8 @@
                                 pages 1</ref>–<ref target="frus1948v03#pg_351">351</ref>.]</p>
                     </div>
                     <pb n="2" xml:id="pg_2" facs="0016"/>
-                    <div type="subchapter" xml:id="ch1subch3">
+                    <div type="subchapter" xml:id="ch1subch3" frus:doc-dateTime-min=""
+                        frus:doc-dateTime-max="">
                         <head>Interest of the United States in the security of the Eastern
                             Mediterranean and of the Middle East</head>
                         <div type="document" xml:id="d1" n="1" subtype="editorial-note">
@@ -6976,9 +6981,10 @@
                     </div>
                 </div>
                 <pb n="85" xml:id="pg_85" facs="0099"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="" frus:doc-dateTime-max="">
                     <head>Egypt:</head>
-                    <div type="subchapter" xml:id="ch2subch1">
+                    <div type="subchapter" xml:id="ch2subch1" frus:doc-dateTime-min=""
+                        frus:doc-dateTime-max="">
                         <head>Interest of the United States in the revision of the Anglo-Egyptian
                             treaty of August 26, 1936, and the future status of the Sudan;<note
                                 n="1" xml:id="ch2subch1fn1">For previous documentation on these
@@ -7074,7 +7080,9 @@
                         </div>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" subtype="referral" xml:id="ch3"
+                    frus:doc-dateTime-min="1947-05-04T18:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-29T23:59:59-05:00">
                     <head>Greece</head>
                     <p>[Documentation on United States economic and military aid to Greece under the
                         Truman Doctrine is printed in <ref target="frus1948v04">volume
@@ -15199,7 +15207,9 @@
                     </div>
                 </div>
                 <pb n="208" xml:id="pg_208" facs="0222"/>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" subtype="referral" xml:id="ch6"
+                    frus:doc-dateTime-min="1948-01-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1949-01-03T17:00:00-05:00">
                     <head>Israel</head>
                     <p>[Documentation on the creation of the state of Israel and related matters is
                         included in part 2 of this volume.]</p>
@@ -19025,7 +19035,8 @@
                     </div>
                 </div>
                 <pb n="264" xml:id="pg_264" facs="0278"/>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1947-05-04T18:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-29T23:59:59-05:00">
                     <head>Turkey</head>
                     <p>[Documentation on United States economic and military aid to Turkey and
                         Greece (Truman Doctrine) is printed in <ref target="frus1948v04">volume
@@ -35108,7 +35119,9 @@
                         </div>
                     </div>
                     <pb n="486" xml:id="pg_486" facs="0500"/>
-                    <div type="subchapter" xml:id="ch9subch2">
+                    <div type="subchapter" subtype="referrak" xml:id="ch9subch2"
+                        frus:doc-dateTime-min="1948-01-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1949-12-31T23:59:59-05:00">
                         <head>Interest of the United States in resolving the dispute between
                             Afghanistan and Iran regarding distribution of the waters of the Helmand
                                 River<note n="1" xml:id="ch9subch2fn1">For previous reference to
@@ -35125,7 +35138,9 @@
                             1949, is in Department of State file 890H.6461.]</p>
                     </div>
                     <pb n="487" xml:id="pg_487" facs="0501"/>
-                    <div type="subchapter" xml:id="ch9subch3">
+                    <div type="subchapter" subtype="referral" xml:id="ch9subch3"
+                        frus:doc-dateTime-min="1947-01-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1949-12-31T23:59:59-05:00">
                         <head>Interest of the United States in preserving peaceful relations between
                             Afghanistan and Pakistan regarding the status of the North-West Frontier
                             Province and the Tribal Areas</head>
@@ -37136,18 +37151,24 @@
             <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1948-11-01T00:00:00-05:00"
                 frus:doc-dateTime-max="1948-11-23T23:59:59-05:00">
                 <head>Africa:</head>
-                <div type="chapter" xml:id="ch12">
+                <div type="chapter" xml:id="ch12" frus:doc-dateTime-min="1948-03-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1948-06-11T23:59:59-05:00">
                     <head>French North Africa:</head>
-                    <div type="subchapter" xml:id="ch12subch1">
+                    <div type="subchapter" subtype="referral" xml:id="ch12subch1"
+                        frus:doc-dateTime-min="1948-03-22T00:00:00-05:00"
+                        frus:doc-dateTime-max="1948-06-11T23:59:59-05:00">
                         <head>United States policy with regard to French North Africa</head>
                         <p>[For documentation on this subject, see <ref target="frus1948v03#pg_682"
                                 >volume <hi rend="smallcaps">iii</hi>, pages 682</ref> ff.]</p>
                     </div>
                 </div>
                 <pb n="523" xml:id="pg_523" facs="0537"/>
-                <div type="chapter" xml:id="ch13">
+                <div type="chapter" xml:id="ch13" frus:doc-dateTime-min="1946-01-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1949-06-30T23:59:59-05:00">
                     <head>Liberia:</head>
-                    <div type="subchapter" xml:id="ch13subch1">
+                    <div type="subchapter" subtype="referral" xml:id="ch13subch1"
+                        frus:doc-dateTime-min="1946-01-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1949-06-30T23:59:59-05:00">
                         <head>Interest of the United States in maintaining limited operational
                             control over Roberts Field</head>
                         <p>[For documentation on the 1946–49 development of this subject, including

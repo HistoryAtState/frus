@@ -1094,11 +1094,15 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0015"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1949-03-03T00:00:00+12:00"
+                frus:doc-dateTime-max="1949-11-26T23:59:59+10:00">
                 <head>Australasia:</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1949-11-26T00:00:00+10:00"
+                    frus:doc-dateTime-max="1949-11-26T23:59:59+10:00">
                     <head>Australia:</head>
-                    <div type="subchapter" xml:id="ch1subch1">
+                    <div type="subchapter" subtype="referral" xml:id="ch1subch1"
+                        frus:doc-dateTime-min="1949-11-26T00:00:00+10:00"
+                        frus:doc-dateTime-max="1949-11-26T23:59:59+10:00">
                         <head>Agreement between the United States and Australia respecting a United
                             States educational foundation in Australia</head>
                         <p>[For text of Agreement, signed at Canberra, November 26, 1949, see
@@ -1107,9 +1111,12 @@
                     </div>
                 </div>
                 <pb n="2" xml:id="pg_2" facs="0016"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1949-03-03T00:00:00+12:00"
+                    frus:doc-dateTime-max="1949-03-09T23:59:59+12:00">
                     <head>New Zealand</head>
-                    <div type="subchapter" xml:id="ch2subch1">
+                    <div type="subchapter" subtype="referral" xml:id="ch2subch1"
+                        frus:doc-dateTime-min="1949-03-03T00:00:00+12:00"
+                        frus:doc-dateTime-max="1949-03-09T23:59:59+12:00">
                         <head>Agreement between the United States and New Zealand respecting a
                             United States educational foundation in New Zealand</head>
                         <p>[For text of Agreement, amending Agreement of September 14, 1948,
