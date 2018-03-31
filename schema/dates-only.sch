@@ -230,6 +230,16 @@
                     node-type="attribute" select="frus:normalize-high($date-max, $timezone)"/>
             </sqf:fix>
         </rule>
+        <rule
+            context="tei:div[@frus:doc-dateTime-min]">
+            <assert role="error" test="./@frus:doc-dateTime-min castable as xs:dateTime">@frus:doc-dateTime-min must be castable as dateTime</assert>
+            <assert role="error" test="./@frus:doc-dateTime-max">div must have both @frus:doc-dateTime-min and @frus:doc-dateTime-max</assert>
+        </rule>
+        <rule
+            context="tei:div[@frus:doc-dateTime-max]">
+            <assert role="error" test="./@frus:doc-dateTime-max castable as xs:dateTime">@frus:doc-dateTime-max must be castable as dateTime</assert>
+            <assert role="error" test="./@frus:doc-dateTime-min">div must have both @frus:doc-dateTime-min and @frus:doc-dateTime-max</assert>
+        </rule>
     </pattern>
 
     <!-- Functions to normalize dates -->
