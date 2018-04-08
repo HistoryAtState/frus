@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1994</date>
+                <date type="publication-date">1994</date>
                 <idno type="dospubno">10090</idno>
                 <idno type="isbn-10">0160418135</idno>
                 <idno type="isbn-13">9780160418136</idno>
@@ -42,6 +42,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1961-01-10T00:00:00-05:00"
+                notAfter="1963-12-31T17:00:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -73,7 +77,9 @@
                     20402-9398</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -389,7 +395,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III"><hi rend="strong">Preface</hi></ref></item>
@@ -411,7 +419,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0012"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0013"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                 <head>List of Sources</head>
                 <p rend="center"><hi rend="strong">Unpublished Sources</hi></p>
                 <list>
@@ -585,7 +595,9 @@
             </div>
             <pb n="[XVI]" xml:id="pg_XVI" facs="0016"/>
             <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AF1">AF</term>,</hi> Bureau of African
@@ -836,7 +848,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AD1">Acheson, Dean</persName>,</hi>
@@ -1193,9 +1207,11 @@
         </front>
         <pb n="1" xml:id="pg_1" facs="0023"/>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                 <head>Eastern Europe; Cyprus; Greece; Turkey</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1961-02-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-27T23:59:59-05:00">
                     <head>Eastern Europe Region</head>
                     <div type="document" xml:id="d1" n="1" subtype="historical-document"
                         frus:doc-dateTime-min="1961-02-03T00:00:00-05:00"
@@ -4441,7 +4457,8 @@
                     </div>
                 </div>
                 <pb n="65" xml:id="pg_65" facs="0087"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1961-01-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-20T15:00:00-05:00">
                     <head>Poland</head>
                     <div type="document" xml:id="d30" n="30" subtype="historical-document"
                         frus:doc-dateTime-min="1961-01-20T00:00:00-05:00"
@@ -6001,15 +6018,18 @@
                                 by Embassy Warsaw.</item>
                         </list>
                     </div>
-                    <div type="document" xml:id="d46" n="46" subtype="historical-document">
+                    <div type="document" xml:id="d46" n="46" subtype="historical-document"
+                        frus:doc-dateTime-min="1961-10-13T00:00:00-05:00"
+                        frus:doc-dateTime-max="1961-10-13T23:59:59-05:00">
                         <head>46. National Security Council Record of Action No. 2439<note n="0"
                                 xml:id="d46fn0">Source: <persName corresp="#p_KJF1"
                                     >Kennedy</persName> Library, National Security Files, Countries
                                 Series, Yugoslavia. Secret. The decisions were taken during the
                                 491st meeting of the <gloss target="#t_NSC1">NSC</gloss> on October
                                 13.</note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date when="1961-10-13"
+                                ana="#date_undated-inferred-from-document-content"
+                                type="conversation-or-meeting-date">undated</date>.</dateline>
                         <p rend="center">POLICY TOWARD YUGOSLAVIA AND POLAND (“Review of Policy
                             Factors Concerning Licensing of Exports to Yugoslavia and Poland”)<note
                                 n="1" xml:id="d46fn1"><ref target="#d45">Document
@@ -10318,7 +10338,8 @@
                     </div>
                 </div>
                 <pb n="184" xml:id="pg_184" facs="0206"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1961-02-07T18:00:00-05:00"
+                    frus:doc-dateTime-max="1963-10-18T23:59:59-05:00">
                     <head>Yugoslavia</head>
                     <div type="document" xml:id="d88" n="88" subtype="historical-document"
                         frus:doc-dateTime-min="1961-02-07T18:00:00-05:00"
@@ -11927,7 +11948,9 @@
                             signature.</note></signed></closer>
                     </div>
                     <pb n="217" xml:id="pg_217" facs="0239"/>
-                    <div type="document" xml:id="d103" n="103" subtype="editorial-note">
+                    <div type="document" xml:id="d103" n="103" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                         <head>103. Editorial Note</head>
                         <p>On October 12, Executive Secretary Lucius D. Battle transmitted to the
                             President’s Special Assistant for National Security Affairs <persName
@@ -13854,14 +13877,19 @@
                             Soviet-Yugoslav relations.</p>
                     </div>
                     <pb n="254" xml:id="pg_254" facs="0276"/>
-                    <div type="document" xml:id="d117" n="117" subtype="historical-document">
+                    <div type="document" xml:id="d117" n="117" subtype="historical-document"
+                        frus:doc-dateTime-min="1962-01-08T00:00:00-05:00"
+                        frus:doc-dateTime-max="1962-01-14T23:59:59-05:00">
                         <head>117. Memorandum From Secretary of State <persName corresp="#p_RD1"
                                 type="from">Rusk</persName> to President <persName corresp="#p_KJF1"
                                 type="to">Kennedy</persName><note n="0" xml:id="d117fn0">Source:
                                 Kennedy Library, National Security Files, Countries Series,
                                 Yugoslavia. Secret.</note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date
+                                notBefore="1962-01-08T00:00:00-05:00"
+                                notAfter="1962-01-14T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>U. S. Policy and Assistance Programs Toward Yugoslavia</item>
@@ -14402,7 +14430,9 @@
                                     >Kennan</hi></persName></signed></closer>
                     </div>
                     <pb n="265" xml:id="pg_265" facs="0287"/>
-                    <div type="document" xml:id="d125" n="125" subtype="editorial-note">
+                    <div type="document" xml:id="d125" n="125" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                         <head>125. Editorial Note</head>
                         <p>On May 3, Executive Secretary of the Department of State Lucius D. Battle
                             sent a memorandum to <persName corresp="#p_BMG1">McGeorge
@@ -14867,7 +14897,9 @@
                             to work for improvement in the pending legislation and at any event to
                             seek to limit its effects.</p>
                     </div>
-                    <div type="document" xml:id="d130" n="130" subtype="editorial-note">
+                    <div type="document" xml:id="d130" n="130" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                         <head>130. Editorial Note</head>
                         <p>The House Ways and Means Committee, chaired by Wilbur Mills (D.–AK),
                             began consideration of the <persName corresp="#p_KJF1"
@@ -15358,7 +15390,9 @@
                             statement that could be made. He urged Mr. <persName corresp="#p_PK1"
                                 >Popovic</persName> not to be prematurely discouraged.</p>
                     </div>
-                    <div type="document" xml:id="d135" n="135" subtype="editorial-note">
+                    <div type="document" xml:id="d135" n="135" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                         <head>135. Editorial Note</head>
                         <p>On October 5, following passage of the Trade Expansion Act of 1962 with
                             the provision denying most-favored-nation status to Yugoslavia and
@@ -19230,7 +19264,8 @@
                     </div>
                 </div>
                 <pb n="360" xml:id="pg_360" facs="0382"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1961-02-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-29T23:59:59-05:00">
                     <head>Austria</head>
                     <div type="document" xml:id="d164" n="164" subtype="historical-document"
                         frus:doc-dateTime-min="1961-02-14T00:00:00-05:00"
@@ -19728,7 +19763,9 @@
                         <closer><signed><persName corresp="#p_MHF1"><hi rend="strong"
                                     >Matthews</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d170" n="170" subtype="editorial-note">
+                    <div type="document" xml:id="d170" n="170" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                         <head>170. Editorial Note</head>
                         <p>In January 1962, Foreign Minister <persName corresp="#p_KB1"
                                 >Kreisky</persName> sounded out Ambassador <persName
@@ -21177,7 +21214,8 @@
                     </div>
                 </div>
                 <pb n="397" xml:id="pg_397" facs="0419"/>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1961-10-16T15:30:00-05:00"
+                    frus:doc-dateTime-max="1963-12-13T23:59:59-05:00">
                     <head>Finland</head>
                     <div type="document" xml:id="d189" n="189" subtype="historical-document"
                         frus:doc-dateTime-min="1961-10-16T15:30:00-05:00"
@@ -24622,7 +24660,9 @@
                             to reexamine this measure did not mean any yielding on substance at this
                             time.</p>
                     </div>
-                    <div type="document" xml:id="d226" n="226" subtype="historical-document">
+                    <div type="document" xml:id="d226" n="226" subtype="historical-document"
+                        frus:doc-dateTime-min="1962-07-19T00:00:00-05:00"
+                        frus:doc-dateTime-max="1962-07-19T23:59:59-05:00">
                         <head>226. Paper Prepared in the Department of State<note n="0"
                                 xml:id="d226fn0" type="source"><p>Source: Department of State,
                                         <gloss target="#t_SS1">S/S</gloss>–<gloss target="#t_NSC1"
@@ -24639,8 +24679,9 @@
                                     paper and “approved in general.” (Kennedy Library, National
                                     Security Files, <gloss target="#t_NSC1">NSC</gloss> SG Meetings
                                     May–August 1962)</p></note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date when="1962-07-19"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">UNITED STATES POSITION ON REVISING THE FINNISH PEACE
                             TREATY</p>
                         <p rend="flushleft"><hi rend="italic">Problem</hi></p>
@@ -26919,7 +26960,8 @@
                     </div>
                 </div>
                 <pb n="512" xml:id="pg_512" facs="0534"/>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1961-03-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                     <head>Cyprus</head>
                     <div type="document" xml:id="d247" n="247" subtype="historical-document"
                         frus:doc-dateTime-min="1961-03-03T00:00:00-05:00"
@@ -28376,7 +28418,9 @@
                         <closer><signed><persName corresp="#p_WF1"><hi rend="strong"
                                     >Wilkins</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d267" n="267" subtype="editorial-note">
+                    <div type="document" xml:id="d267" n="267" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                         <head>267. Editorial Note</head>
                         <p>On December 30, President <persName corresp="#p_MIIIA1"
                                 >Makarios</persName> released a press statement asserting that
@@ -31812,7 +31856,8 @@
                     </div>
                 </div>
                 <pb n="604" xml:id="pg_604" facs="0626"/>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1961-03-12T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-26T12:00:00-05:00">
                     <head>Greece</head>
                     <div type="document" xml:id="d310" n="310" subtype="historical-document"
                         frus:doc-dateTime-min="1961-03-12T00:00:00-05:00"
@@ -32538,7 +32583,9 @@
                                     >Briggs</hi></persName></signed></closer>
                     </div>
                     <pb n="618" xml:id="pg_618" facs="0640"/>
-                    <div type="document" xml:id="d318" n="318" subtype="editorial-note">
+                    <div type="document" xml:id="d318" n="318" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                         <head>318. Editorial Note</head>
                         <p>Prime Minister <persName corresp="#p_KC1">Karamanlis</persName> resigned
                             on September 20. King <persName>Paul</persName> appointed a “service
@@ -32751,7 +32798,9 @@
                         <closer><signed><persName><hi rend="strong"
                             >Bennett</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d321" n="321" subtype="editorial-note">
+                    <div type="document" xml:id="d321" n="321" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                         <head>321. Editorial Note</head>
                         <p>Greek national elections held on October 29 resulted in a victory for the
                             National Radical Union, which captured 51 percent of the vote and 176
@@ -35525,7 +35574,9 @@
                             requests to give him prior to his return.</p>
                     </div>
                     <pb n="674" xml:id="pg_674" facs="0696"/>
-                    <div type="document" xml:id="d347" n="347" subtype="editorial-note">
+                    <div type="document" xml:id="d347" n="347" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                         <head>347. Editorial Note</head>
                         <p>Prime Minister <persName corresp="#p_KC1">Karamanlis</persName> resigned
                             on June 11, following a disagreement with the Royal family over their
@@ -35941,7 +35992,9 @@
                             continue on a “business-as-usual” basis with regard to Greece, despite
                             the present pre-election situation.</p>
                     </div>
-                    <div type="document" xml:id="d353" n="353" subtype="editorial-note">
+                    <div type="document" xml:id="d353" n="353" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                         <head>353. Editorial Note</head>
                         <p>Prime Minister Pipinelis resigned on September 26 following protests by
                             the Center Union that his links with <gloss target="#t_ERE1">ERE</gloss>
@@ -36081,7 +36134,9 @@
                                 lines of source text not declassified</hi>]</p>
                     </div>
                     <pb n="684" xml:id="pg_684" facs="0706"/>
-                    <div type="document" xml:id="d355" n="355" subtype="editorial-note">
+                    <div type="document" xml:id="d355" n="355" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                         <head>355. Editorial Note</head>
                         <p>Greek national elections held November 3 resulted in a victory for the
                             Center Union. The party emerged with 42 percent of the vote and 138
@@ -36304,7 +36359,8 @@
                     </div>
                 </div>
                 <pb n="689" xml:id="pg_689" facs="0711"/>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-15T19:00:00-05:00">
                     <head>Turkey</head>
                     <div type="document" xml:id="d358" n="358" subtype="historical-document"
                         frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
@@ -37229,7 +37285,9 @@
                                     from a copy that bears this typed
                             signature.</note></signed></closer>
                     </div>
-                    <div type="document" xml:id="d367" n="367" subtype="editorial-note">
+                    <div type="document" xml:id="d367" n="367" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                         <head>367. Editorial Note</head>
                         <p>A referendum on a new Constitution for the Turkish Republic was held on
                             July 9. The referendum marked a major step toward the return to a system
@@ -40788,7 +40846,9 @@
         </body>
         <back>
             <pb n="769" xml:id="pg_769" facs="0791"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1961-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-31T17:00:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Abrams, Manuel, <ref target="#pg_627">627</ref></item>

@@ -18,7 +18,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1992</date>
+                <date type="publication-date">1992</date>
                 <idno type="dospubno">10005</idno>
                 <idno type="isbn-10">0160366062</idno>
                 <idno type="isbn-13">9780160366062</idno>
@@ -44,6 +44,10 @@
         <revisionDesc>
             <change/>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1958-01-10T00:00:00-05:00"
+                notAfter="1960-12-22T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -81,7 +85,9 @@
                     SSOP, Washington, DC 20402-9328<lb/>ISBN 0-16-036606-2</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major United States foreign policy
@@ -376,7 +382,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0014"/>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III"><hi rend="strong">Preface</hi></ref></item>
@@ -401,7 +409,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0016"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0017"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>List of Sources</head>
                 <p rend="center"><hi rend="strong">Unpublished Sources</hi></p>
                 <list>
@@ -713,7 +723,9 @@
             </div>
             <pb n="[XVIII]" xml:id="pg_XVIII" facs="0022"/>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AEC1">AEC</term>,</hi> Atomic Energy
@@ -1019,7 +1031,9 @@
             </div>
             <pb n="[XXII]" xml:id="pg_XXII" facs="0026"/>
             <pb n="XXIII" xml:id="pg_XXIII" facs="0027"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="italic">Note:</hi> This list provides identification of persons
@@ -1497,7 +1511,8 @@
         </front>
         <pb n="1" xml:id="pg_1" facs="0033"/>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-07T23:59:59-05:00">
                 <head>GENERAL U.S. FOREIGN ECONOMIC POLICY</head>
                 <div type="document" xml:id="d1" n="1" subtype="historical-document"
                     frus:doc-dateTime-min="1958-01-10T09:05:00-05:00"
@@ -1664,7 +1679,9 @@
                         investments.</p>
                 </div>
                 <pb n="4" xml:id="pg_4" facs="0036"/>
-                <div type="document" xml:id="d3" n="3" subtype="editorial-note">
+                <div type="document" xml:id="d3" n="3" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>3. Editorial Note</head>
                     <p>On January 22, Vice President <persName corresp="#p_NRM1">Nixon</persName>,
                             <persName corresp="#p_RCB1">Clarence Randall</persName>, and <persName
@@ -2227,7 +2244,9 @@
                         order to keep the fact that the study was being made as quiet as
                         possible.</p>
                 </div>
-                <div type="document" xml:id="d9" n="9" subtype="editorial-note">
+                <div type="document" xml:id="d9" n="9" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>9. Editorial Note</head>
                     <p>At the 364th meeting of the National Security Council on May 1, the Council
                         discussed <gloss target="#t_NSC1">NSC</gloss> 5810, a draft policy paper
@@ -3388,7 +3407,9 @@
                     <closer><signed><hi rend="strong">JFD</hi><note n="4" xml:id="d16fn4">Initialed
                                 by Greene for Dulles.</note></signed></closer>
                 </div>
-                <div type="document" xml:id="d17" n="17" subtype="editorial-note">
+                <div type="document" xml:id="d17" n="17" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>17. Editorial Note</head>
                     <p>The Committee on World Economic Practices submitted its report, dated January
                         22, 1959, with a covering letter of the same date from Committee chairman
@@ -3674,7 +3695,9 @@
                         veto approach.</p>
                 </div>
                 <pb n="44" xml:id="pg_44" facs="0076"/>
-                <div type="document" xml:id="d20" n="20" subtype="editorial-note">
+                <div type="document" xml:id="d20" n="20" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>20. Editorial Note</head>
                     <p>At the 409th meeting of the National Security Council on June 4, during a
                         discussion of U.S. trade policy, Secretary of the Treasury <persName
@@ -4648,7 +4671,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="63" xml:id="pg_63" facs="0095"/>
-                <div type="document" xml:id="d27" n="27" subtype="editorial-note">
+                <div type="document" xml:id="d27" n="27" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>27. Editorial Note</head>
                     <p>Under Secretary of State <persName corresp="#p_DCD1">Dillon</persName>
                         visited London, Brussels, Bonn, and Paris, December 7–14, for discussions on
@@ -4844,7 +4869,9 @@
                     <closer><signed><hi rend="strong">Karl Brandt</hi></signed></closer>
                 </div>
                 <pb n="67" xml:id="pg_67" facs="0099"/>
-                <div type="document" xml:id="d29" n="29" subtype="editorial-note">
+                <div type="document" xml:id="d29" n="29" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>29. Editorial Note</head>
                     <p>The U.S. balance-of-payments deficit concerned the administration
                         increasingly in 1960. Documentation on this subject is in the compilation on
@@ -5227,7 +5254,8 @@
                 </div>
             </div>
             <pb n="76" xml:id="pg_76" facs="0108"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1958-02-24T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-06T23:59:59-05:00">
                 <head>U.S. INTERNATIONAL FINANCIAL AND MONETARY POLICY</head>
                 <div type="document" xml:id="d32" n="32" subtype="historical-document"
                     frus:doc-dateTime-min="1958-02-24T00:00:00-05:00"
@@ -5962,7 +5990,9 @@
                                     target="#t_USA1"
                         >USA</gloss><lb/>Secretary</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d37" n="37" subtype="editorial-note">
+                <div type="document" xml:id="d37" n="37" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>37. Editorial Note</head>
                     <p>The annual meetings of the Boards of Governors of the International Monetary
                         Fund, the International Bank for Reconstruction and Development, and the
@@ -7656,7 +7686,9 @@
                     <closer><signed><hi rend="strong">Bob</hi></signed></closer>
                 </div>
                 <pb n="124" xml:id="pg_124" facs="0156"/>
-                <div type="document" xml:id="d51" n="51" subtype="editorial-note">
+                <div type="document" xml:id="d51" n="51" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>51. Editorial Note</head>
                     <p>At a meeting of the Cabinet on August 7, Secretary of the Treasury <persName
                             corresp="#p_ARB1">Anderson</persName> reviewed the situation with regard
@@ -7670,7 +7702,9 @@
                         See <ref target="#d22">Documents 22</ref> and <ref target="#d23"
                         >23</ref>.</p>
                 </div>
-                <div type="document" xml:id="d52" n="52" subtype="editorial-note">
+                <div type="document" xml:id="d52" n="52" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>52. Editorial Note</head>
                     <p>The elimination of discrimination in international trade and payments was
                         discussed by the Board of Governors of the International Monetary Fund when
@@ -7746,7 +7780,9 @@
                     </list>
                 </div>
                 <pb n="126" xml:id="pg_126" facs="0158"/>
-                <div type="document" xml:id="d54" n="54" subtype="editorial-note">
+                <div type="document" xml:id="d54" n="54" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>54. Editorial Note</head>
                     <p>At the 439th meeting of the National Security Council on April 1, the subject
                         of the balance of payments arose during Director of Central Intelligence
@@ -7806,7 +7842,9 @@
                         </quote></p>
                 </div>
                 <pb n="127" xml:id="pg_127" facs="0159"/>
-                <div type="document" xml:id="d55" n="55" subtype="editorial-note">
+                <div type="document" xml:id="d55" n="55" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>55. Editorial Note</head>
                     <p>On August 12, President <persName corresp="#p_EDD1">Eisenhower</persName> met
                         briefly with Secretary of State <persName corresp="#p_HCA2"
@@ -8430,7 +8468,9 @@
                     <closer><signed><hi rend="strong"><persName corresp="#p_EMJSD1">John S. D.
                                     Eisenhower</persName></hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d59" n="59" subtype="editorial-note">
+                <div type="document" xml:id="d59" n="59" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>59. Editorial Note</head>
                     <p>On November 16, President <persName corresp="#p_EDD1">Eisenhower</persName>
                         issued a directive on steps to be taken to improve the U.S. balance of
@@ -9053,9 +9093,12 @@
                 </div>
             </div>
             <pb n="152" xml:id="pg_152" facs="0184"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1958-03-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>U.S. TRADE AND COMMERCIAL POLICY</head>
-                <div type="document" xml:id="d63" n="63" subtype="editorial-note">
+                <div type="document" xml:id="d63" n="63" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>63. Editorial Note</head>
                     <p>In his State of the Union address, given before a joint session of the
                         Congress on January 9, President <persName corresp="#p_EDD1"
@@ -9210,7 +9253,9 @@
                         </list></p>
                     <closer><signed><hi rend="strong">Douglas Dillon</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d65" n="65" subtype="editorial-note">
+                <div type="document" xml:id="d65" n="65" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>65. Editorial Note</head>
                     <p>On March 20, the Senate adopted S. 3420, which extended P.L. 480 for 2 years
                         and increased the authorization for sales of surplus agricultural
@@ -9508,7 +9553,9 @@
                                     VIII, May 1–June 11, 1958, entry for May 2)</note></item>
                         </list></p>
                 </div>
-                <div type="document" xml:id="d68" n="68" subtype="editorial-note">
+                <div type="document" xml:id="d68" n="68" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>68. Editorial Note</head>
                     <p>Activity on the reciprocal trade legislation continued in May, as the House
                         Ways and Means Committee considered and amended President <persName
@@ -9738,7 +9785,9 @@
                         the case of tariffs, once a tariff had been increased, there would be no
                         further opportunity for discussion.</p>
                 </div>
-                <div type="document" xml:id="d70" n="70" subtype="editorial-note">
+                <div type="document" xml:id="d70" n="70" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>70. Editorial Note</head>
                     <p>The House of Representatives began debate on the reciprocal trade legislation
                         on June 9, considering both the bill reported by the Ways and Means
@@ -10137,7 +10186,9 @@
                                     Cullen</persName></hi><lb/><hi rend="italic">Lt. Col.,
                                 USA<lb/>Secretary</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d75" n="75" subtype="editorial-note">
+                <div type="document" xml:id="d75" n="75" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>75. Editorial Note</head>
                     <p>President <persName corresp="#p_EDD1">Eisenhower</persName> and Secretary
                             <persName corresp="#p_DJF1">Dulles</persName> made an informal visit to
@@ -10366,7 +10417,9 @@
                                 Documents, 1958,</hi> pp. 1526–1535.</note></p>
                     <closer><signed><hi rend="strong">Dulles</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d78" n="78" subtype="editorial-note">
+                <div type="document" xml:id="d78" n="78" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>78. Editorial Note</head>
                     <p>House and Senate conferees reported a compromise version of S. 3420 to extend
                         P.L. 480 on August 22. Both the House and the Senate passed the bill that
@@ -10620,7 +10673,9 @@
                         acceptable multilateral solution worked out.</p>
                     <closer><signed><hi rend="strong">Dulles</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d82" n="82" subtype="editorial-note">
+                <div type="document" xml:id="d82" n="82" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>82. Editorial Note</head>
                     <p>The White House announced on September 22 that President <persName
                             corresp="#p_EDD1">Eisenhower</persName> had decided to restrict lead and
@@ -10995,7 +11050,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="191" xml:id="pg_191" facs="0223"/>
-                <div type="document" xml:id="d87" n="87" subtype="editorial-note">
+                <div type="document" xml:id="d87" n="87" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>87. Editorial Note</head>
                     <p>On January 14, 1959, Secretary <persName corresp="#p_DJF1">Dulles</persName>
                         described for the Senate Foreign Relations Committee the three basic
@@ -11025,7 +11082,9 @@
                         the Committee and its report, see <ref target="#d11">Documents 11
                         ff</ref>.</p>
                 </div>
-                <div type="document" xml:id="d88" n="88" subtype="editorial-note">
+                <div type="document" xml:id="d88" n="88" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>88. Editorial Note</head>
                     <p>On January 16, <persName corresp="#p_HLA1">Leo Hoegh</persName>, Director of
                         the Office of Civil and Defense Mobilization, advised the Department of
@@ -11225,7 +11284,9 @@
                         ><persName>Dulles</persName></hi></signed></closer>
                 </div>
                 <pb n="196" xml:id="pg_196" facs="0228"/>
-                <div type="document" xml:id="d91" n="91" subtype="editorial-note">
+                <div type="document" xml:id="d91" n="91" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>91. Editorial Note</head>
                     <p>At his February 25 press conference, President <persName corresp="#p_EDD1"
                             >Eisenhower</persName> was asked about a Tennessee Valley Authority
@@ -11501,7 +11562,9 @@
                         this should be a matter of further study and conversation between us as the
                         decision would not have to be taken for another year or so.</p>
                 </div>
-                <div type="document" xml:id="d95" n="95" subtype="editorial-note">
+                <div type="document" xml:id="d95" n="95" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>95. Editorial Note</head>
                     <p>At his March 25 press conference, President <persName corresp="#p_EDD1"
                             >Eisenhower</persName> noted that he had discussed trade issues,
@@ -11729,7 +11792,9 @@
                     <closer><signed><hi rend="strong"><persName corresp="#p_HCA2"
                                 >Herter</persName></hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d99" n="99" subtype="editorial-note">
+                <div type="document" xml:id="d99" n="99" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>99. Editorial Note</head>
                     <p>The U.N. Wheat Conference met at Geneva January 26–March 10 to negotiate a
                         new international wheat agreement. On April 6, the new agreement opened for
@@ -12670,7 +12735,9 @@
                                     target="#t_USA1">USA</gloss> Secretary</hi></signed></closer>
                 </div>
                 <pb n="225" xml:id="pg_225" facs="0257"/>
-                <div type="document" xml:id="d104" n="104" subtype="editorial-note">
+                <div type="document" xml:id="d104" n="104" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>104. Editorial Note</head>
                     <p>On July 14, Assistant Secretary of Agriculture Clarence L. Miller testified
                         before the House Agriculture Committee on the administration’s proposals for
@@ -12690,7 +12757,9 @@
                         use of agricultural surpluses in support of the Mutual Security Program.
                         Regarding this report, see <ref target="#d245">Document 245</ref>.</p>
                 </div>
-                <div type="document" xml:id="d105" n="105" subtype="historical-document">
+                <div type="document" xml:id="d105" n="105" subtype="historical-document"
+                    frus:doc-dateTime-min="1959-08-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1959-08-24T23:59:59-05:00">
                     <head>105. Memorandum From the Alternate Chairman of the Interdepartmental
                         Committee on Trade Agreements (<persName type="from">Robinson</persName>) to
                         President <persName corresp="#p_EDD1" type="to">Eisenhower</persName><note
@@ -12701,10 +12770,11 @@
                                 >Kallis</persName> and <gloss target="#t_LE1">L/E</gloss> and in
                             substance by <persName corresp="#p_EWE1">Elrod</persName> and <persName
                                 corresp="#p_GLE1">Gleeck</persName>.</note></head>
-                    <dateline><date>Undated</date>.<note n="1" xml:id="d105fn1">The source text was
-                            undated, but was attached to copies of transmittal memoranda from Herter
-                            to Mueller and from Herter to Eisenhower, both dated August
-                        24.</note></dateline>
+                    <dateline><date when="1959-08-24"
+                            ana="#date_undated-inferred-from-document-content">Undated</date>.<note
+                            n="1" xml:id="d105fn1">The source text was undated, but was attached to
+                            copies of transmittal memoranda from Herter to Mueller and from Herter
+                            to Eisenhower, both dated August 24.</note></dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Recommendations of the Interdepartmental Committee on Trade Agreements
@@ -12769,7 +12839,9 @@
                             pp. 481–482.</note></p>
                     <closer><signed><hi rend="strong">JAR</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d106" n="106" subtype="editorial-note">
+                <div type="document" xml:id="d106" n="106" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>106. Editorial Note</head>
                     <p>President <persName corresp="#p_EDD1">Eisenhower</persName> traveled to
                         Europe August 26–September 7 to consult with leaders in Bonn, London, and
@@ -12908,7 +12980,9 @@
                                 >Dillon</persName></hi></signed></closer>
                 </div>
                 <pb n="230" xml:id="pg_230" facs="0262"/>
-                <div type="document" xml:id="d108" n="108" subtype="editorial-note">
+                <div type="document" xml:id="d108" n="108" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>108. Editorial Note</head>
                     <p>On September 11, the House of Representatives and the Senate adopted a
                         compromise version of H.R. 8609 to extend P.L. 480, as amended. H.R. 8609
@@ -13087,7 +13161,9 @@
                         </list>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d110" n="110" subtype="editorial-note">
+                <div type="document" xml:id="d110" n="110" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>110. Editorial Note</head>
                     <p>On October 7, Don <persName corresp="#p_PD1">Paarlberg</persName>, Special
                         Assistant to President <persName corresp="#p_EDD1">Eisenhower</persName>,
@@ -13190,7 +13266,9 @@
                     <closer><signed><hi rend="strong"><persName corresp="#p_HCA2"
                                 >Herter</persName></hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d112" n="112" subtype="editorial-note">
+                <div type="document" xml:id="d112" n="112" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>112. Editorial Note</head>
                     <p>Under Secretary <persName corresp="#p_DCD1">Dillon</persName> left Washington
                         on October 13 to attend the Ministerial Meeting of the 15th session of the
@@ -13473,7 +13551,9 @@
                                 >Printed from a copy that bears this typed
                             signature.</note></signed></closer>
                 </div>
-                <div type="document" xml:id="d115" n="115" subtype="editorial-note">
+                <div type="document" xml:id="d115" n="115" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>115. Editorial Note</head>
                     <p>On November 19, Don <persName corresp="#p_PD1">Paarlberg</persName> briefed
                         the Council on Foreign Economic Policy at its 95th meeting on the foreign
@@ -13481,7 +13561,9 @@
                         in the balance of payments. The minutes of the meeting are printed as <ref
                             target="#d25">Document 25</ref>.</p>
                 </div>
-                <div type="document" xml:id="d116" n="116" subtype="editorial-note">
+                <div type="document" xml:id="d116" n="116" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>116. Editorial Note</head>
                     <p>On November 20, “Outer Seven” representatives in Stockholm initialed a
                         convention establishing the European Free Trade Association and creating a
@@ -13541,7 +13623,9 @@
                         in volume VII, Part 1.</p>
                 </div>
                 <pb n="244" xml:id="pg_244" facs="0276"/>
-                <div type="document" xml:id="d117" n="117" subtype="editorial-note">
+                <div type="document" xml:id="d117" n="117" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>117. Editorial Note</head>
                     <p>On December 21, the French, German, U.K., and U.S. Heads of State and
                         Government, who had been meeting at Paris and Rambouillet since December 19,
@@ -13596,7 +13680,9 @@
                         </quote></p>
                 </div>
                 <pb n="245" xml:id="pg_245" facs="0277"/>
-                <div type="document" xml:id="d118" n="118" subtype="editorial-note">
+                <div type="document" xml:id="d118" n="118" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>118. Editorial Note</head>
                     <p>On January 19, 1960, President <persName corresp="#p_EDD1"
                             >Eisenhower</persName> met at the White House with Japanese Prime
@@ -13637,7 +13723,9 @@
                             Policy: Current Documents, 1960,</hi> pages 305–308.</p>
                 </div>
                 <pb n="246" xml:id="pg_246" facs="0278"/>
-                <div type="document" xml:id="d119" n="119" subtype="editorial-note">
+                <div type="document" xml:id="d119" n="119" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>119. Editorial Note</head>
                     <p>On March 8, the White House reported to President <persName corresp="#p_EDD1"
                             >Eisenhower</persName> that the Department of State had “advised the
@@ -14586,7 +14674,9 @@
                     <closer><signed><hi rend="strong"><persName corresp="#p_HCA2">Christian A.
                                     Herter</persName></hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d128" n="128" subtype="editorial-note">
+                <div type="document" xml:id="d128" n="128" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>128. Editorial Note</head>
                     <p>On August 8, President <persName corresp="#p_EDD1">Eisenhower</persName> sent
                         a special message to the Congress outlining legislation that needed to be
@@ -14937,7 +15027,9 @@
                                     >Merchant</persName></hi></signed></closer>
                 </div>
                 <pb n="271" xml:id="pg_271" facs="0303"/>
-                <div type="document" xml:id="d132" n="132" subtype="editorial-note">
+                <div type="document" xml:id="d132" n="132" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>132. Editorial Note</head>
                     <p>On June 30, Council on Foreign Economic Policy Secretary <persName
                             corresp="#p_GCE1">Galbreath</persName> distributed to <gloss
@@ -15251,7 +15343,9 @@
                                 >Printed from a copy that bears this typed
                             signature.</note></signed></closer>
                 </div>
-                <div type="document" xml:id="d135" n="135" subtype="editorial-note">
+                <div type="document" xml:id="d135" n="135" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>135. Editorial Note</head>
                     <p>The Council on Foreign Economic Policy held its 106th meeting on September
                         22. The Council first considered <gloss target="#t_CFEP1">CFEP</gloss>
@@ -15434,7 +15528,9 @@
                                     Rand</persName></hi><lb/><hi rend="italic"
                             >Secretary</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d138" n="138" subtype="editorial-note">
+                <div type="document" xml:id="d138" n="138" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>138. Editorial Note</head>
                     <p>On November 15, the Department of State announced that the number of public
                         advisers in the U.S. Delegation to the 1961 Geneva tariff conference would
@@ -15621,7 +15717,9 @@
                         signature.</note></signed></closer>
                 </div>
                 <pb n="285" xml:id="pg_285" facs="0317"/>
-                <div type="document" xml:id="d142" n="142" subtype="editorial-note">
+                <div type="document" xml:id="d142" n="142" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>142. Editorial Note</head>
                     <p>On December 7, Under Secretary <persName corresp="#p_MLT1"
                             >Merchant</persName> joined Secretary of Commerce <persName
@@ -15752,7 +15850,9 @@
                                     Herter</persName></hi></signed></closer>
                 </div>
                 <pb n="288" xml:id="pg_288" facs="0320"/>
-                <div type="document" xml:id="d144" n="144" subtype="editorial-note">
+                <div type="document" xml:id="d144" n="144" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>144. Editorial Note</head>
                     <p>On January 3, 1961, <persName corresp="#p_RCB1">Clarence Randall</persName>,
                         Chairman of the Council on Foreign Economic Policy, submitted a report to
@@ -15791,9 +15891,12 @@
                 </div>
             </div>
             <pb n="289" xml:id="pg_289" facs="0321"/>
-            <div type="compilation" xml:id="comp4">
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1958-01-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-05T19:30:00-05:00">
                 <head>U.S. INTERNATIONAL INVESTMENT AND ECONOMIC DEVELOPMENT POLICY</head>
-                <div type="document" xml:id="d145" n="145" subtype="editorial-note">
+                <div type="document" xml:id="d145" n="145" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>145. Editorial Note</head>
                     <p>On January 8, 1958, Deputy Under Secretary of State for Economic Affairs
                             <persName corresp="#p_DCD1">Dillon</persName> spoke in Philadelphia
@@ -16245,7 +16348,9 @@
                                     target="#t_USA1">USA</gloss> Secretary, <gloss target="#t_CFEP1"
                                     >CFEP</gloss></hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d150" n="150" subtype="editorial-note">
+                <div type="document" xml:id="d150" n="150" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>150. Editorial Note</head>
                     <p>On February 24, Senator <persName corresp="#p_MASM1">Monroney</persName>
                         introduced S. Res. 264 proposing the establishment of an International
@@ -16461,7 +16566,9 @@
                                     Cullen</persName></hi><lb/><hi rend="italic">Lt. Col, <gloss
                                     target="#t_USA1">USA</gloss> Secretary</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d153" n="153" subtype="editorial-note">
+                <div type="document" xml:id="d153" n="153" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>153. Editorial Note</head>
                     <p>In a May 21 address before the Foreign Policy Association in New York City,
                         Deputy Under Secretary of State <persName corresp="#p_DCD1"
@@ -16472,7 +16579,9 @@
                         private investment abroad. For text, see Department of State <hi
                             rend="italic">Bulletin,</hi> June 9, 1958, pages 968–971.</p>
                 </div>
-                <div type="document" xml:id="d154" n="154" subtype="editorial-note">
+                <div type="document" xml:id="d154" n="154" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>154. Editorial Note</head>
                     <p>On August 18, Secretary of the Treasury <persName corresp="#p_ARB1"
                             >Anderson</persName> sent President <persName corresp="#p_EDD1"
@@ -16666,7 +16775,9 @@
                             </list></item>
                     </list>
                 </div>
-                <div type="document" xml:id="d156" n="156" subtype="editorial-note">
+                <div type="document" xml:id="d156" n="156" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>156. Editorial Note</head>
                     <p>On September 4, the National Advisory Council on International Monetary and
                         Financial Problems met and discussed, as agenda item 2, the U.S. position on
@@ -16747,7 +16858,9 @@
                             Assembly Resolution 1316 (XIII); for text, see U.N. doc.
                         A/4090)</note></p>
                 </div>
-                <div type="document" xml:id="d158" n="158" subtype="historical-document">
+                <div type="document" xml:id="d158" n="158" subtype="historical-document"
+                    frus:doc-dateTime-min="1958-11-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1958-11-06T23:59:59-05:00">
                     <head>158. Memorandum Prepared in the Department of State<note n="0"
                             xml:id="d158fn0" type="source">Source: Eisenhower Library, <persName
                                 corresp="#p_HBN1">Harlow</persName> Records, Mutual Security,
@@ -16755,7 +16868,9 @@
                             drafting information, was sent to <persName corresp="#p_HBN1"
                                 >Harlow</persName> under cover of a November 6 memorandum from
                             Barnes.</note></head>
-                    <dateline><date>Undated</date>.</dateline>
+                    <dateline><date when="1958-11-06"
+                            ana="#date_undated-inferred-from-document-content"
+                        >Undated</date>.</dateline>
                     <p rend="center">FUTURE DEVELOPMENT FINANCING</p>
                     <p rend="flushleft"><hi rend="italic">Problem:</hi></p>
                     <p>What steps should now be taken to promote effective <gloss target="#t_US1"
@@ -16965,7 +17080,9 @@
                         guarantees under the <gloss target="#t_ICA1">ICA</gloss> investment
                         guarantee program.</p>
                 </div>
-                <div type="document" xml:id="d160" n="160" subtype="editorial-note">
+                <div type="document" xml:id="d160" n="160" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>160. Editorial Note</head>
                     <p>The Subcommittee on Foreign Trade Policy of the House Ways and Means
                         Committee held hearings on private foreign investment December 1–5. Under
@@ -17074,7 +17191,9 @@
                             </row>
                         </table></p>
                 </div>
-                <div type="document" xml:id="d162" n="162" subtype="editorial-note">
+                <div type="document" xml:id="d162" n="162" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>162. Editorial Note</head>
                     <p>In his State of the Union message, given before a joint session of the
                         Congress January 9, 1959, President <persName corresp="#p_EDD1"
@@ -17166,7 +17285,9 @@
                                 >Printed from a copy that bears this typed
                             signature.</note></signed></closer>
                 </div>
-                <div type="document" xml:id="d164" n="164" subtype="editorial-note">
+                <div type="document" xml:id="d164" n="164" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>164. Editorial Note</head>
                     <p>On February 2, the International Bank for Reconstruction and Development and
                         the International Monetary Fund announced they had approved proposals to
@@ -17376,7 +17497,9 @@
                         State and Commerce staffs.</p>
                 </div>
                 <pb n="321" xml:id="pg_321" facs="0353"/>
-                <div type="document" xml:id="d166" n="166" subtype="editorial-note">
+                <div type="document" xml:id="d166" n="166" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>166. Editorial Note</head>
                     <p>From March 3 to 6, a subcommittee of the House Banking and Currency Committee
                         held hearings on President <persName corresp="#p_EDD1"
@@ -17423,7 +17546,9 @@
                         then passed into conference.</p>
                 </div>
                 <pb n="322" xml:id="pg_322" facs="0354"/>
-                <div type="document" xml:id="d167" n="167" subtype="editorial-note">
+                <div type="document" xml:id="d167" n="167" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>167. Editorial Note</head>
                     <p>On March 23, the National Advisory Council on International Monetary and
                         Financial Problems discussed the Department of State proposal to eliminate
@@ -17519,7 +17644,9 @@
                         reassured to hear this as it had given the British cause for concern.</p>
                 </div>
                 <pb n="324" xml:id="pg_324" facs="0356"/>
-                <div type="document" xml:id="d169" n="169" subtype="editorial-note">
+                <div type="document" xml:id="d169" n="169" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>169. Editorial Note</head>
                     <p>The question of a supplemental appropriation for the Development Loan Fund
                         rose at a legislative leadership meeting held at the White House the morning
@@ -17705,7 +17832,9 @@
                         guaranties by the U.S. Government.</p>
                 </div>
                 <pb n="328" xml:id="pg_328" facs="0360"/>
-                <div type="document" xml:id="d171" n="171" subtype="editorial-note">
+                <div type="document" xml:id="d171" n="171" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>171. Editorial Note</head>
                     <p>At his April 29 press conference, President <persName corresp="#p_EDD1"
                             >Eisenhower</persName> commented favorably on a proposal by Senator
@@ -17774,7 +17903,9 @@
                     <closer><signed><hi rend="strong">G</hi><lb/><hi rend="italic">Brigadier
                                 General, <gloss target="#t_USA1">USA</gloss></hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d173" n="173" subtype="editorial-note">
+                <div type="document" xml:id="d173" n="173" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>173. Editorial Note</head>
                     <p>Senate Foreign Relations Committee Chairman <persName corresp="#p_FJW1"
                             >Fulbright</persName> wrote to President <persName corresp="#p_EDD1"
@@ -17913,7 +18044,9 @@
                     <closer><signed><hi rend="strong"><persName corresp="#p_GSE1">S. Everett
                                     Gleason</persName></hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d175" n="175" subtype="editorial-note">
+                <div type="document" xml:id="d175" n="175" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>175. Editorial Note</head>
                     <p>On June 4, House of Representatives and Senate conferees reported a
                         compromise version of S. 1094, which authorized an increase in U.S.
@@ -18108,7 +18241,9 @@
                         of the West.</p>
                     <p>[Here follow articles on unrelated matters.]</p>
                 </div>
-                <div type="document" xml:id="d177" n="177" subtype="editorial-note">
+                <div type="document" xml:id="d177" n="177" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>177. Editorial Note</head>
                     <p>During floor action on fiscal year 1960 Mutual Security legislation, the
                         Senate rejected Senator <hi rend="italic">Fulbright</hi>’s proposals,
@@ -18574,7 +18709,9 @@
                     <p>[Here follows discussion of an unrelated item.]</p>
                 </div>
                 <pb n="346" xml:id="pg_346" facs="0378"/>
-                <div type="document" xml:id="d180" n="180" subtype="editorial-note">
+                <div type="document" xml:id="d180" n="180" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>180. Editorial Note</head>
                     <p>On July 31, Secretary of the Treasury <persName corresp="#p_ARB1"
                             >Anderson</persName> wrote to the President of the International Bank
@@ -18693,7 +18830,9 @@
                     <closer><signed><hi rend="strong">G</hi><lb/><hi rend="italic">Brig. Gen.,
                                 U.SA.</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d182" n="182" subtype="editorial-note">
+                <div type="document" xml:id="d182" n="182" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>182. Editorial Note</head>
                     <p>President <persName corresp="#p_EDD1">Eisenhower</persName> was asked at his
                         September 17 press conference about reports that he intended to suggest to
@@ -18946,7 +19085,9 @@
                             Subject Files, International Development Association)</note></p>
                 </div>
                 <pb n="353" xml:id="pg_353" facs="0385"/>
-                <div type="document" xml:id="d184" n="184" subtype="editorial-note">
+                <div type="document" xml:id="d184" n="184" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>184. Editorial Note</head>
                     <p>On October 20, Vance Brand, Managing Director of the Development Loan Fund,
                         announced that in light of the economic recovery of other industrialized
@@ -19655,7 +19796,9 @@
                                 >Whitney</persName></hi></signed></closer>
                 </div>
                 <pb n="367" xml:id="pg_367" facs="0399"/>
-                <div type="document" xml:id="d190" n="190" subtype="editorial-note">
+                <div type="document" xml:id="d190" n="190" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>190. Editorial Note</head>
                     <p>On December 21, the French, German, British, and U.S. Heads of State and
                         Government, who had been meeting at Paris and Rambouillet since December 19,
@@ -19933,7 +20076,9 @@
                     <closer><signed><hi rend="strong">LAM</hi></signed></closer>
                 </div>
                 <pb n="373" xml:id="pg_373" facs="0405"/>
-                <div type="document" xml:id="d194" n="194" subtype="editorial-note">
+                <div type="document" xml:id="d194" n="194" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>194. Editorial Note</head>
                     <p>On February 18, President <persName corresp="#p_EDD1">Eisenhower</persName>
                         sent the Congress a National Advisory Council on International Monetary and
@@ -21127,7 +21272,9 @@
                                 >Printed from a copy that bears this stamped
                             signature.</note></signed></closer>
                 </div>
-                <div type="document" xml:id="d205" n="205" subtype="editorial-note">
+                <div type="document" xml:id="d205" n="205" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>205. Editorial Note</head>
                     <p>On August 4, the Department of State released a special report, “Economic
                         Assistance as a Cooperative Effort of the Free World.” Prepared in
@@ -21617,7 +21764,9 @@
                     <closer><signed><hi rend="strong"><persName corresp="#p_HCA2"
                                 >Herter</persName></hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d208" n="208" subtype="editorial-note">
+                <div type="document" xml:id="d208" n="208" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>208. Editorial Note</head>
                     <p>On November 17, the White House released a paper on the balance-of-payments
                         problem. In the field of international finance, it instructed the U.S.
@@ -21681,7 +21830,9 @@
                                 >Herter</persName></hi></signed></closer>
                 </div>
                 <pb n="406" xml:id="pg_406" facs="0438"/>
-                <div type="document" xml:id="d210" n="210" subtype="editorial-note">
+                <div type="document" xml:id="d210" n="210" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>210. Editorial Note</head>
                     <p>Under Secretary of State <persName corresp="#p_DCD1">Dillon</persName>
                         arrived in Paris on December 11 to attend a ministerial meeting of the
@@ -21699,7 +21850,9 @@
                         Department of State <hi rend="italic">Bulletin,</hi> January 2, 1961, pages
                         9–11.</p>
                 </div>
-                <div type="document" xml:id="d211" n="211" subtype="editorial-note">
+                <div type="document" xml:id="d211" n="211" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>211. Editorial Note</head>
                     <p>On January 6, 1961, Secretary <persName corresp="#p_HCA2">Herter</persName>
                         submitted a report to President <persName corresp="#p_EDD1"
@@ -21720,9 +21873,12 @@
                 </div>
             </div>
             <pb n="407" xml:id="pg_407" facs="0439"/>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" xml:id="comp5" frus:doc-dateTime-min="1958-01-17T09:05:00-05:00"
+                frus:doc-dateTime-max="1960-12-12T23:59:59-05:00">
                 <head>U.S. MUTUAL SECURITY AND FOREIGN AID POLICY</head>
-                <div type="document" xml:id="d212" n="212" subtype="editorial-note">
+                <div type="document" xml:id="d212" n="212" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>212. Editorial Note</head>
                     <p>In a January 11, 1958, letter, President <persName corresp="#p_EDD1"
                             >Eisenhower</persName> asked Eric Johnston, President of the Motion
@@ -21987,7 +22143,9 @@
                         p.m.</p>
                     <closer><signed><hi rend="strong">BNH</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d215" n="215" subtype="editorial-note">
+                <div type="document" xml:id="d215" n="215" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>215. Editorial Note</head>
                     <p>On February 19, President <persName corresp="#p_EDD1">Eisenhower</persName>
                         sent the Congress a message outlining his fiscal year 1959 appropriations
@@ -22117,7 +22275,9 @@
                     </list>
                 </div>
                 <pb n="416" xml:id="pg_416" facs="0448"/>
-                <div type="document" xml:id="d217" n="217" subtype="editorial-note">
+                <div type="document" xml:id="d217" n="217" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>217. Editorial Note</head>
                     <p>Participants at the April 22 legislative leadership meeting discussed a
                         proposal to separate military assistance legislation from economic
@@ -22243,7 +22403,9 @@
                     <closer><signed><hi rend="strong"><persName corresp="#p_GSE1">S. Everett
                                     Gleason</persName></hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d219" n="219" subtype="editorial-note">
+                <div type="document" xml:id="d219" n="219" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>219. Editorial Note</head>
                     <p>In May and June, the White House and the Department of State closely followed
                         congressional action on the administration’s Mutual Security appropriations
@@ -22437,7 +22599,9 @@
                     <p>[Here follows brief comment on the economic situation.]</p>
                     <closer><signed><hi rend="strong">LAM</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d221" n="221" subtype="editorial-note">
+                <div type="document" xml:id="d221" n="221" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>221. Editorial Note</head>
                     <p>Throughout the summer, the Eisenhower administration continued to monitor the
                         progress of fiscal year 1959 Mutual Security legislation and to campaign
@@ -22527,14 +22691,18 @@
                         pressing work on the Hill.</p>
                     <p>[Here follows discussion of other matters.]</p>
                 </div>
-                <div type="document" xml:id="d223" n="223" subtype="historical-document">
+                <div type="document" xml:id="d223" n="223" subtype="historical-document"
+                    frus:doc-dateTime-min="1958-08-15T10:24:00-05:00"
+                    frus:doc-dateTime-max="1958-08-15T10:58:00-05:00">
                     <head>223. Memorandum From the President’s Administrative Assistant (<persName
                             corresp="#p_ARB1" type="from">Anderson</persName>) to the President’s
                         Personal Secretary (<persName corresp="#p_WAC1" type="to"
                             >Whitman</persName>)<note n="0" xml:id="d223fn0" type="source">Source:
                             Eisenhower Library, <persName corresp="#p_WAC1">Whitman</persName> File,
                             Eisenhower Diaries. No classification marking.</note></head>
-                    <dateline><date>Undated</date>.</dateline>
+                    <dateline><date from="1958-08-15T11:24:00-04:00" to="1958-08-15T11:58:00-04:00"
+                            ana="#date_undated-inferred-from-document-content"
+                            type="conversation-or-meeting-date">Undated</date>.</dateline>
                     <p>Conference—August 15, 1958—11:24 to 11:58 a.m.</p>
                     <p>The Vice President, General <persName corresp="#p_PGWB1">Persons</persName>,
                         Secretary <persName corresp="#p_DCD1">Dillon</persName>, <persName
@@ -22781,7 +22949,9 @@
                     <closer><signed><hi rend="strong">J.Z.A.</hi></signed></closer>
                 </div>
                 <pb n="429" xml:id="pg_429" facs="0461"/>
-                <div type="document" xml:id="d225" n="225" subtype="editorial-note">
+                <div type="document" xml:id="d225" n="225" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>225. Editorial Note</head>
                     <p>On August 22, the Senate adopted Senate Appropriations Committee amendments
                         restoring $440 million to the Mutual Security appropriations legislation,
@@ -22965,7 +23135,9 @@
                         this in mind.</p>
                     <closer><signed><hi rend="strong">REM</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d228" n="228" subtype="editorial-note">
+                <div type="document" xml:id="d228" n="228" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>228. Editorial Note</head>
                     <p>On November 24, the White House in Augusta, Georgia, released the text of a
                         letter from President <persName corresp="#p_EDD1">Eisenhower</persName> to
@@ -23697,7 +23869,9 @@
                     <closer><signed><hi rend="strong">LAM</hi></signed></closer>
                 </div>
                 <pb n="447" xml:id="pg_447" facs="0479"/>
-                <div type="document" xml:id="d234" n="234" subtype="editorial-note">
+                <div type="document" xml:id="d234" n="234" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>234. Editorial Note</head>
                     <p>President <persName corresp="#p_EDD1">Eisenhower</persName> submitted his
                         fiscal year 1960 Mutual Security appropriations request to the Congress on
@@ -23893,7 +24067,9 @@
                                     Herter</persName></hi></signed></closer>
                 </div>
                 <pb n="451" xml:id="pg_451" facs="0483"/>
-                <div type="document" xml:id="d237" n="237" subtype="editorial-note">
+                <div type="document" xml:id="d237" n="237" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>237. Editorial Note</head>
                     <p>In April, the Department of State released a report on the impact of the
                         Mutual Security Program on the U.S. economy. Done in accord with Section
@@ -24210,7 +24386,9 @@
                     <closer><signed><hi rend="strong">G.</hi><lb/><hi rend="italic">Brigadier
                                 General, <gloss target="#t_USA1">USA</gloss></hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d241" n="241" subtype="editorial-note">
+                <div type="document" xml:id="d241" n="241" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>241. Editorial Note</head>
                     <p>In remarks at the annual meeting of the U.S. Chamber of Commerce on April 27,
                         President <persName corresp="#p_EDD1">Eisenhower</persName> spoke of the
@@ -24531,7 +24709,9 @@
                                 not be important from your point of view. <gloss target="#t_DLF1"
                                     >DLF</gloss> can wait.”</p></note></p>
                 </div>
-                <div type="document" xml:id="d245" n="245" subtype="editorial-note">
+                <div type="document" xml:id="d245" n="245" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>245. Editorial Note</head>
                     <p>Congressional action on the administration’s fiscal year 1960 Mutual Security
                         request continued from mid-June through August. During this period,
@@ -24694,7 +24874,9 @@
                     <closer><signed><hi rend="strong">LAM</hi></signed></closer>
                 </div>
                 <pb n="467" xml:id="pg_467" facs="0499"/>
-                <div type="document" xml:id="d247" n="247" subtype="editorial-note">
+                <div type="document" xml:id="d247" n="247" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>247. Editorial Note</head>
                     <p>The Senate passed the Mutual Security appropriations bill, H.R. 8385,
                         September 14. On the following day, House and Senate conferees reported a
@@ -26229,7 +26411,9 @@
                     <closer><signed><hi rend="strong">D.E.</hi></signed></closer>
                 </div>
                 <pb n="498" xml:id="pg_498" facs="0530"/>
-                <div type="document" xml:id="d256" n="256" subtype="editorial-note">
+                <div type="document" xml:id="d256" n="256" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>256. Editorial Note</head>
                     <p>President <persName corresp="#p_EDD1">Eisenhower</persName> briefly mentioned
                         the Mutual Security Program in his May 2 address, terming it “one of the
@@ -26387,7 +26571,9 @@
                     <closer><signed><hi rend="strong">LAM</hi></signed></closer>
                 </div>
                 <pb n="501" xml:id="pg_501" facs="0533"/>
-                <div type="document" xml:id="d258" n="258" subtype="editorial-note">
+                <div type="document" xml:id="d258" n="258" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>258. Editorial Note</head>
                     <p>On May 12, the House of Representatives and the Senate approved a compromise
                         version of legislation authorizing Mutual Security appropriations for fiscal
@@ -27122,7 +27308,9 @@
                         the review and approval of the <gloss target="#t_FY1">FY</gloss> 1962–66
                         Military Assistance Plans.</p>
                 </div>
-                <div type="document" xml:id="d263" n="263" subtype="editorial-note">
+                <div type="document" xml:id="d263" n="263" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>263. Editorial Note</head>
                     <p>At noon August 8, President <persName corresp="#p_EDD1">Eisenhower</persName>
                         recorded a message for broadcast on national radio and television in which
@@ -27274,7 +27462,9 @@
                     <closer><signed><hi rend="strong">JML</hi></signed></closer>
                 </div>
                 <pb n="519" xml:id="pg_519" facs="0551"/>
-                <div type="document" xml:id="d265" n="265" subtype="editorial-note">
+                <div type="document" xml:id="d265" n="265" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>265. Editorial Note</head>
                     <p>The Senate Appropriations Committee reported the Mutual Security
                         appropriations bill, H.R. 12619, on August 19. Although the bill provided
@@ -28321,7 +28511,9 @@
                                     Herter</persName></hi><note n="4" xml:id="d267fn4">Printed from
                                 a copy that bears this typed signature.</note></signed></closer>
                 </div>
-                <div type="document" xml:id="d268" n="268" subtype="historical-document">
+                <div type="document" xml:id="d268" n="268" subtype="historical-document"
+                    frus:doc-dateTime-min="1960-11-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-11-16T23:59:59-05:00">
                     <head>268. Memorandum From Secretary of the Treasury <persName corresp="#p_ARB1"
                             type="from">Anderson</persName> to President <persName corresp="#p_EDD1"
                             type="to">Eisenhower</persName><note n="0" xml:id="d268fn0"
@@ -28329,7 +28521,10 @@
                                 >Whitman</persName> File, Administration Series, <persName
                                 corresp="#p_ARB1">Anderson, Robert B.</persName>, 1960–1961.
                             Secret.</note></head>
-                    <dateline><date>Undated</date>.</dateline>
+                    <dateline><date notBefore="1960-11-13T00:00:00-05:00"
+                            notAfter="1960-11-16T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >Undated</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Future Military Assistance for the Netherlands, Italy, Belgium and
@@ -28423,7 +28618,9 @@
                         August to carry forward immediately your directive above-mentioned in <gloss
                             target="#t_NSC1">NSC</gloss> Action 2275 (d).</p>
                 </div>
-                <div type="document" xml:id="d269" n="269" subtype="editorial-note">
+                <div type="document" xml:id="d269" n="269" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>269. Editorial Note</head>
                     <p>On November 17, the White House in Augusta, Georgia, released the text of a
                         November 16 statement by President <persName corresp="#p_EDD1"
@@ -28731,7 +28928,8 @@
                 </div>
             </div>
             <pb n="549" xml:id="pg_549" facs="0581"/>
-            <div type="compilation" xml:id="comp6">
+            <div type="compilation" xml:id="comp6" frus:doc-dateTime-min="1958-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-13T23:59:59-05:00">
                 <head>U.S. POLICY REGARDING STRATEGIC RESOURCES AND INTERNATIONAL COMMODITIES</head>
                 <div type="document" xml:id="d272" n="272" subtype="historical-document"
                     frus:doc-dateTime-min="1958-01-28T00:00:00-05:00"
@@ -29420,7 +29618,9 @@
                                 1958,</hi> p. 230.</note></p>
                 </div>
                 <pb n="563" xml:id="pg_563" facs="0595"/>
-                <div type="document" xml:id="d279" n="279" subtype="editorial-note">
+                <div type="document" xml:id="d279" n="279" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>279. Editorial Note</head>
                     <p>On May 1, at the 364th Meeting of the National Security Council, the
                         President and the Council discussed, as item 2, “Basic National Security
@@ -29871,7 +30071,9 @@
                                     Gleason</persName></hi></signed></closer>
                 </div>
                 <pb n="571" xml:id="pg_571" facs="0603"/>
-                <div type="document" xml:id="d283" n="283" subtype="editorial-note">
+                <div type="document" xml:id="d283" n="283" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>283. Editorial Note</head>
                     <p>On June 30, Deputy Under Secretary of State for Economic Affairs <persName
                             corresp="#p_DCD1">C. Douglas Dillon</persName> submitted to Acting
@@ -31107,7 +31309,9 @@
                                 >Macmillan</persName> met with Eisenhower at Camp David, Maryland,
                             on March 22.</note></p>
                 </div>
-                <div type="document" xml:id="d294" n="294" subtype="editorial-note">
+                <div type="document" xml:id="d294" n="294" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>294. Editorial Note</head>
                     <p>On March 19, the following report of a discussion with the Saudi Arabian
                         Director of Petroleum Affairs was included in the White House Staff Notes
@@ -31144,7 +31348,9 @@
                         </quote></p>
                 </div>
                 <pb n="595" xml:id="pg_595" facs="0627"/>
-                <div type="document" xml:id="d295" n="295" subtype="historical-document">
+                <div type="document" xml:id="d295" n="295" subtype="historical-document"
+                    frus:doc-dateTime-min="1959-03-12T16:30:00-05:00"
+                    frus:doc-dateTime-max="1959-03-26T23:59:59-05:00">
                     <head>295. Study Prepared by an Interagency Group Chaired by the Office of Civil
                         and Defense Mobilization<note n="0" xml:id="d295fn0" type="source">Source:
                             Department of State, <gloss target="#t_SP1">S/P</gloss> Files: Lot 67 D
@@ -31152,7 +31358,10 @@
                             but the study was transmitted to the National Security Council under a
                             March 26 memorandum by Lay; see <ref target="#d309fn2">footnote 2,
                                 Document 309</ref>.</note></head>
-                    <dateline><date>Undated</date>.</dateline>
+                    <dateline><date notBefore="1959-03-12T16:30:00-05:00"
+                            notAfter="1959-03-26T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >Undated</date>.</dateline>
                     <p rend="center">FREE EUROPE’S DEPENDENCE ON MIDDLE EAST PETROLEUM</p>
                     <p rend="flushleft"><hi rend="italic">Nature of the Problem</hi></p>
                     <p>1. The objective of this study is to suggest actions which will decrease
@@ -32542,7 +32751,9 @@
                     <p>[Here follows discussion of unrelated subjects.]</p>
                     <closer><signed><hi rend="strong">LAM</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d302" n="302" subtype="editorial-note">
+                <div type="document" xml:id="d302" n="302" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>302. Editorial Note</head>
                     <p>At the 422d meeting of the National Security Council, October 29, Kenneth G.
                         Harr, Director of the Operations Coordinating Board, briefed the Council on
@@ -33283,7 +33494,9 @@
                                     Boggs</persName></hi></signed></closer>
                 </div>
                 <pb n="637" xml:id="pg_637" facs="0669"/>
-                <div type="document" xml:id="d308" n="308" subtype="editorial-note">
+                <div type="document" xml:id="d308" n="308" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>308. Editorial Note</head>
                     <p>In the early morning hours of July 6, the last day before the Congress
                         recessed for the Democratic and Republican Presidential conventions, it
@@ -35490,7 +35703,8 @@
                 </div>
             </div>
             <pb n="680" xml:id="pg_680" facs="0712"/>
-            <div type="compilation" xml:id="comp7">
+            <div type="compilation" xml:id="comp7" frus:doc-dateTime-min="1958-01-15T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-09-21T23:59:59-05:00">
                 <head>U.S. POLICY REGARDING ECONOMIC DEFENSE</head>
                 <div type="document" xml:id="d318" n="318" subtype="historical-document"
                     frus:doc-dateTime-min="1958-01-15T00:00:00-05:00"
@@ -37305,7 +37519,9 @@
                         </table>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d328" n="328" subtype="editorial-note">
+                <div type="document" xml:id="d328" n="328" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>328. Editorial Note</head>
                     <p>On May 1, at the 364th meeting of the National Security Council, the
                         President and the Council discussed in detail item 2, “Basic National
@@ -40707,7 +40923,9 @@
                         the proposal which Mr. <persName corresp="#p_DCD1">Dillon</persName> had
                         outlined.</p>
                 </div>
-                <div type="document" xml:id="d348" n="348" subtype="editorial-note">
+                <div type="document" xml:id="d348" n="348" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>348. Editorial Note</head>
                     <p>At the United Nations, Secretary <persName corresp="#p_HCA2"
                             >Herter</persName> discussed with British Foreign Secretary Selwyn Lloyd
@@ -40751,7 +40969,9 @@
                         discussion, September 22; <hi rend="italic">ibid</hi>.)</p>
                 </div>
                 <pb n="776" xml:id="pg_776" facs="0808"/>
-                <div type="document" xml:id="d349" n="349" subtype="editorial-note">
+                <div type="document" xml:id="d349" n="349" subtype="editorial-note"
+                    frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                     <head>349. Editorial Note</head>
                     <p>The annual review of trade restrictions toward the Sino-Soviet bloc by the
                         15-nation Coordinating Committee (<gloss target="#t_COCOM1">COCOM</gloss>)
@@ -41128,7 +41348,9 @@
         </body>
         <back>
             <pb n="785" xml:id="pg_785" facs="0817"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item><persName>Abdul Ilah, Crown Prince</persName>, <ref target="#pg_425"
@@ -47400,7 +47622,9 @@
             <pb n="814" xml:id="pg_814" facs="0846"/>
             <pb n="815" xml:id="pg_815" facs="0847"/>
             <pb n="816" xml:id="pg_816" facs="0848"/>
-            <div type="section" xml:id="errata">
+            <div type="section" xml:id="errata" subtype="errata"
+                frus:doc-dateTime-min="1958-01-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1960-12-22T23:59:59-05:00">
                 <head>Errata</head>
                 <p>The following change has been made to <hi rend="italic">Foreign Relations</hi>,
                     1958–1960, Foreign Economic Policy, Volume IV. Please be aware that printed

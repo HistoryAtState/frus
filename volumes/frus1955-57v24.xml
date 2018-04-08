@@ -18,7 +18,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1989</date>
+                <date type="publication-date">1989</date>
                 <idno type="dospubno">9699</idno>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -44,6 +44,10 @@
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1955-01-05T00:00:00-05:00"
+                notAfter="1957-12-21T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -82,7 +86,9 @@
                     D.C. 20402</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -145,7 +151,9 @@
                             Historian<lb/>Bureau of Public Affairs</hi></signed></closer>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III"><hi rend="strong">Preface</hi></ref></item>
@@ -186,7 +194,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>List of Sources</head>
                 <list>
                     <item><hi rend="strong">Department of State</hi>
@@ -528,7 +538,9 @@
                 </list>
             </div>
             <pb n="XIII" xml:id="pg_XIII" facs="0017"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AA1">AA</term>,</hi>
@@ -939,7 +951,9 @@
                 </list>
             </div>
             <pb n="XVII" xml:id="pg_XVII" facs="0021"/>
-            <div type="section" xml:id="shorttitles">
+            <div type="section" xml:id="shorttitles" subtype="index"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>List of Short Titles</head>
                 <list>
                     <item><hi rend="italic">AFP: Basic Documents. American Foreign Policy,
@@ -1035,7 +1049,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0023"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AK1">Adenauer,
@@ -1683,15 +1699,19 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1955-01-27T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <pb n="1" xml:id="pg_1" facs="0031"/>
                 <head>The Soviet Union</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1955-01-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                     <head>United States Policy Toward the Soviet Union<note n="1" xml:id="d1fn1"
                             >Continued from <ref target="frus1952-54v08#pg_954"><hi rend="italic"
                                     >Foreign Relations,</hi> 1952–1954, vol. VIII, pp. 954</ref>
                             ff.</note></head>
-                    <div type="document" xml:id="d1" n="1" subtype="editorial-note">
+                    <div type="document" xml:id="d1" n="1" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>1. Editorial Note</head>
                         <p>On January 3, 1955, the Department of State announced that the United
                             States Government had extended existing travel regulations “for Soviet
@@ -3235,7 +3255,9 @@
                             to rumor, is not <persName corresp="#p_MGM1">Malenkov</persName>’s
                             brother-in-law.</p>
                     </div>
-                    <div type="document" xml:id="d9" n="9" subtype="editorial-note">
+                    <div type="document" xml:id="d9" n="9" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>9. Editorial Note</head>
                         <p>According to the memorandum of discussion at the 239th meeting of the
                             National Security Council on March 3, the following discussion took
@@ -3391,7 +3413,9 @@
                                     <persName>Dulles</persName> has been found, but see <ref
                                     target="#d42">document 42</ref>.</note></p>
                     </div>
-                    <div type="document" xml:id="d12" n="12" subtype="editorial-note">
+                    <div type="document" xml:id="d12" n="12" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>12. Editorial Note</head>
                         <p>At the invitation of <persName corresp="#p_RNA1">Nelson A.
                                 Rockefeller</persName> a group of 11 experts in Soviet-American
@@ -3429,7 +3453,9 @@
                             panel are printed in <ref target="frus1955-57v05#pg_216">volume V, page
                                 216</ref>.</p>
                     </div>
-                    <div type="document" xml:id="d13" n="13" subtype="editorial-note">
+                    <div type="document" xml:id="d13" n="13" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>13. Editorial Note</head>
                         <p>From July 18 to 23, President <persName corresp="#p_EDD1"
                                 >Eisenhower</persName>, British Prime Minister <persName
@@ -3500,7 +3526,9 @@
                             to consider the question of a possible visit. (<hi rend="italic"
                                 >Ibid.</hi>)</p>
                     </div>
-                    <div type="document" xml:id="d14" n="14" subtype="editorial-note">
+                    <div type="document" xml:id="d14" n="14" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>14. Editorial Note</head>
                         <p>The Department of State was asked on June 28 to cooperate in the first
                             major United States balloon intelligence operation directed at the
@@ -4465,7 +4493,9 @@
                             dose to its vest and I personally do not think that the leaks came from
                             there. …</p>
                     </div>
-                    <div type="document" xml:id="d24" n="24" subtype="editorial-note">
+                    <div type="document" xml:id="d24" n="24" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>24. Editorial Note</head>
                         <p>On Saturday, January 28, the United States Government released the text
                             of <persName corresp="#p_BNA1">Bulganin</persName>’s letter of January
@@ -4715,7 +4745,9 @@
                         <p>Speculation on moves toward a Stalinist-type, one-man control should be
                             avoided.</p>
                     </div>
-                    <div type="document" xml:id="d26" n="26" subtype="editorial-note">
+                    <div type="document" xml:id="d26" n="26" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>26. Editorial Note</head>
                         <p>The 20th Congress of the Communist Party of the Soviet Union opened in
                             the Great Kremlin Palace in Moscow on February 14, 1956. In attendance
@@ -4857,7 +4889,9 @@
                         <closer><signed><persName corresp="#p_GSE1"><hi rend="strong">S. Everett
                                         Gleason</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d28" n="28" subtype="editorial-note">
+                    <div type="document" xml:id="d28" n="28" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>28. Editorial Note</head>
                         <p>The process of drafting a response to <persName corresp="#p_BNA1"
                                 >Bulganin</persName>’s letter of February 1 to President <persName
@@ -5394,7 +5428,9 @@
                         <closer><signed><persName corresp="#p_BCEC1"><hi rend="strong"
                                     >Bohlen</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d33" n="33" subtype="editorial-note">
+                    <div type="document" xml:id="d33" n="33" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>33. Editorial Note</head>
                         <p>On February 25, at the final session of the 20th Party Congress, which
                             was closed to all except party delegates, <persName corresp="#p_KNS1"
@@ -6142,7 +6178,9 @@
                                             Notes)</item>
                                     </list></p></note></p>
                     </div>
-                    <div type="document" xml:id="d38" n="38" subtype="editorial-note">
+                    <div type="document" xml:id="d38" n="38" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>38. Editorial Note</head>
                         <p>At the 281st meeting of the National Security Council on April 5,
                             Director of Central Intelligence <persName corresp="#p_DAW1">Allen
@@ -6619,7 +6657,9 @@
                                     past to Soviet Union.</item>
                             </list></p>
                     </div>
-                    <div type="document" xml:id="d42" n="42" subtype="editorial-note">
+                    <div type="document" xml:id="d42" n="42" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>42. Editorial Note</head>
                         <p>On April 18, a statement was published in <hi rend="italic">Pravda</hi>
                             (Moscow) in the name of the members of the Cominform announcing the
@@ -8751,7 +8791,9 @@
                             within the framework of <persName corresp="#p_KNS1"
                                 >Khrushchev</persName>’s “new course”.</p>
                     </div>
-                    <div type="document" xml:id="d60" n="60" subtype="editorial-note">
+                    <div type="document" xml:id="d60" n="60" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>60. Editorial Note</head>
                         <p>According to the memorandum of discussion at the 291st meeting of the
                             National Security Council on July 19, <persName corresp="#p_DAW1">Allen
@@ -8997,7 +9039,9 @@
                         <closer><signed><persName corresp="#p_BCEC1"><hi rend="strong"
                                     >Bohlen</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d64" n="64" subtype="editorial-note">
+                    <div type="document" xml:id="d64" n="64" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>64. Editorial Note</head>
                         <p>According to the memorandum of discussion at the 305th meeting of the
                             National Security Council on November 30, Director of Central
@@ -9057,7 +9101,9 @@
                                         Goodpaster</hi></persName><lb/><hi rend="italic">Colonel, CE
                                     US Army</hi></signed></closer>
                     </div>
-                    <div type="document" xml:id="d66" n="66" subtype="editorial-note">
+                    <div type="document" xml:id="d66" n="66" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>66. Editorial Note</head>
                         <p>According to the memorandum of discussion at the 329th meeting of the
                             National Security Council on July 3, the following remarks were made by
@@ -9877,7 +9923,9 @@
                                 27, see Department of State <hi rend="italic">Bulletin</hi>,
                                 September 16, 1957, pp. 457–462.</note></p>
                     </div>
-                    <div type="document" xml:id="d74" n="74" subtype="editorial-note">
+                    <div type="document" xml:id="d74" n="74" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>74. Editorial Note</head>
                         <p>On Friday, October 4, <gloss target="#t_TASS1">TASS</gloss> announced
                             that the Soviet Union had successfully launched an earth satellite. On
@@ -10524,7 +10572,9 @@
                             in the intelligence community, but I venture to say that if a second
                             Sputnik is orbited in the near future, this date might well be 1960.</p>
                     </div>
-                    <div type="document" xml:id="d79" n="79" subtype="editorial-note">
+                    <div type="document" xml:id="d79" n="79" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>79. Editorial Note</head>
                         <p>On October 26, <gloss target="#t_TASS1">TASS</gloss> announced that
                             Marshal <persName corresp="#p_ZGK1">Georgi K. Zhukov</persName> had been
@@ -11192,7 +11242,9 @@
                             resolution. His absence in the Balkans apparently served as a convenient
                             occasion to organize the case against him.</p>
                     </div>
-                    <div type="document" xml:id="d86" n="86" subtype="editorial-note">
+                    <div type="document" xml:id="d86" n="86" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>86. Editorial Note</head>
                         <p>On November 6, the Supreme Soviet held a “Jubilee” session in honor of
                             the 40th anniversary of the Bolshevik revolution. <persName
@@ -11398,7 +11450,9 @@
                         <closer><signed><persName corresp="#p_TLE1"><hi rend="strong"
                                     >Thompson</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d89" n="89" subtype="editorial-note">
+                    <div type="document" xml:id="d89" n="89" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>89. Editorial Note</head>
                         <p>From November 14 to 16, a meeting was held in Moscow of representatives
                             from Albania, Hungary, North Vietnam, East Germany, Communist China,
@@ -11659,9 +11713,11 @@
                 </div>
             </div>
             <pb n="192" xml:id="pg_192" facs="0222"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1955-03-22T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-10-16T23:59:59-05:00">
                 <head>East-West Exchanges</head>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1955-03-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1957-10-16T23:59:59-05:00">
                     <head>United States Policy in Establishing a Program of Exchange of Information
                         and Persons With the Soviet Bloc</head>
                     <div type="document" xml:id="d92" n="92" subtype="historical-document"
@@ -12709,7 +12765,9 @@
                         <closer><signed><persName corresp="#p_GSE1"><hi rend="strong">S. Everett
                                         Gleason</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d97" n="97" subtype="editorial-note">
+                    <div type="document" xml:id="d97" n="97" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>97. Editorial Note</head>
                         <p>From July 18 to 23, President <persName corresp="#p_EDD1"
                                 >Eisenhower</persName>, Prime Minister <persName corresp="#p_ESA1"
@@ -14889,7 +14947,9 @@
                             tending the invitations and will not seek partisan advantage
                             therefrom.</p>
                     </div>
-                    <div type="document" xml:id="d107" n="107" subtype="editorial-note">
+                    <div type="document" xml:id="d107" n="107" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>107. Editorial Note</head>
                         <p>On September 28, the Department of State announced that it had recently
                             issued invitations through its missions abroad to the Governments of the
@@ -15009,7 +15069,9 @@
                         <closer><signed><persName corresp="#p_HHCJ1"><hi rend="strong"
                                     >Hoover</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d109" n="109" subtype="editorial-note">
+                    <div type="document" xml:id="d109" n="109" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>109. Editorial Note</head>
                         <p>At the Secretary of State’s Staff meeting on December 3, Secretary
                                 <persName corresp="#p_DJF1">Dulles</persName> questioned whether the
@@ -15671,7 +15733,9 @@
                             group or category waivers.</p>
                     </div>
                     <pb n="267" xml:id="pg_267" facs="0297"/>
-                    <div type="document" xml:id="d114" n="114" subtype="editorial-note">
+                    <div type="document" xml:id="d114" n="114" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>114. Editorial Note</head>
                         <p>On October 28, the first meeting was held in Washington between a Soviet
                             Delegation, headed by Ambassador <persName corresp="#p_ZGN1">Georgi N.
@@ -15746,9 +15810,11 @@
                 </div>
             </div>
             <pb n="269" xml:id="pg_269" facs="0299"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1955-01-27T18:40:00-05:00"
+                frus:doc-dateTime-max="1957-12-19T15:15:00-05:00">
                 <head>Cyprus</head>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1955-01-27T18:40:00-05:00"
+                    frus:doc-dateTime-max="1957-12-19T15:15:00-05:00">
                     <head>United States Interest in the Resolution of the Cyprus Dispute<note n="1"
                             xml:id="d115fn1">For previous documentation, see <ref
                                 target="frus1952-54v08#pg_674"><hi rend="italic">Foreign
@@ -15940,7 +16006,9 @@
                         <p>We sympathize with the aspirations of those wanting self-determination.
                             We appeal to Greece to keep this matter within reasonable bounds.</p>
                     </div>
-                    <div type="document" xml:id="d118" n="118" subtype="editorial-note">
+                    <div type="document" xml:id="d118" n="118" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>118. Editorial Note</head>
                         <p>On June 21, Secretary <persName corresp="#p_DJF1">Dulles</persName>,
                             attending the Tenth Anniversary Meeting of the United Nations at San
@@ -17359,7 +17427,9 @@
                         <closer><signed><persName corresp="#p_HHCJ1"><hi rend="strong"
                                     >Hoover</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d136" n="136" subtype="historical-document">
+                    <div type="document" xml:id="d136" n="136" subtype="historical-document"
+                        frus:doc-dateTime-min="1955-09-20T06:07:00-05:00"
+                        frus:doc-dateTime-max="1955-09-20T06:07:00-05:00">
                         <head>136. Message From King <persName corresp="#p_PI1" type="from"
                                 >Paul</persName> to Secretary of State <persName corresp="#p_DJF1"
                                 type="to">Dulles</persName><note n="1" xml:id="d136fn1"><p>Source:
@@ -17390,7 +17460,9 @@
                                         target="#d135fn4">footnote 4, <hi rend="italic"
                                         >Supra.</hi></ref></p></note></head>
                         <dateline><placeName><hi rend="italic">Athens</hi></placeName>, <hi
-                                rend="italic"><date>undated</date>.</hi></dateline>
+                                rend="italic"><date when="1955-09-20T13:07:00+02:00"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>.</hi></dateline>
                         <p>This is a private message for your personal information owing to my deep
                             concern about the present situation.</p>
                         <p>My talks with the Government and leaders of the opposition have
@@ -17511,7 +17583,9 @@
                         <closer><signed><persName corresp="#p_CCW1"><hi rend="strong"
                                     >Cannon</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d138" n="138" subtype="editorial-note">
+                    <div type="document" xml:id="d138" n="138" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>138. Editorial Note</head>
                         <p>On September 21, at the request of Greece, the General Committee of the
                             General Assembly opened discussion on the question of including the
@@ -17564,7 +17638,9 @@
                         <closer><signed><persName corresp="#p_EDD1"><hi rend="strong">Dwight D.
                                         Eisenhower</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d140" n="140" subtype="editorial-note">
+                    <div type="document" xml:id="d140" n="140" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>140. Editorial Note</head>
                         <p>On September 26, Secretary <persName corresp="#p_DJF1">Dulles</persName>
                             met in New York with Foreign Secretary <persName corresp="#p_MH1"
@@ -19777,7 +19853,9 @@
                         <closer><signed><persName corresp="#p_CR1"><hi rend="strong"
                                     >Courtney</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d163" n="163" subtype="historical-document">
+                    <div type="document" xml:id="d163" n="163" subtype="historical-document"
+                        frus:doc-dateTime-min="1956-02-27T19:00:00-05:00"
+                        frus:doc-dateTime-max="1956-03-01T18:59:59-05:00">
                         <head>163. Message From Foreign Secretary <persName corresp="#p_LSJSB1"
                                 type="from">Lloyd</persName> to Secretary of State <persName
                                 corresp="#p_DJF1" type="to">Dulles</persName><note n="1"
@@ -19789,7 +19867,10 @@
                                     >Makins</persName> to <persName>Dulles</persName>, March
                                 1.</note></head>
                         <dateline><placeName><hi rend="italic">London</hi></placeName>, <hi
-                                rend="italic"><date>undated</date>.</hi></dateline>
+                                rend="italic"><date notBefore="1956-02-28T00:00:00+00:00"
+                                    notAfter="1956-03-01T23:59:59+00:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</hi></dateline>
                         <p>We have decided that we must make a statement of our position on Cyprus
                             in the House of Commons early next week. This will almost certainly be
                             on March 5.<note n="2" xml:id="d163fn2">The text of this statement is in
@@ -21012,7 +21093,9 @@
                         <closer><signed><persName corresp="#p_AWW1"><hi rend="strong"
                                     >Aldrich</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d177" n="177" subtype="editorial-note">
+                    <div type="document" xml:id="d177" n="177" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>177. Editorial Note</head>
                         <p>On June 16, William P. Boteler, American Vice Consul at Nicosia, was
                             killed by a bomb thrown by an unidentified assailant in a restaurant in
@@ -21550,7 +21633,9 @@
                         <closer><signed><persName><hi rend="strong"
                             >Anthony</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d184" n="184" subtype="editorial-note">
+                    <div type="document" xml:id="d184" n="184" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>184. Editorial Note</head>
                         <p>On July 4, Vice President <persName corresp="#p_NRM1">Nixon</persName>,
                             on a trip to the Far East visited the Philippines to participate in the
@@ -21888,7 +21973,9 @@
                                         >Williams</persName>, <persName corresp="#p_WCB1"
                                         >Wood</persName>, and Laingen.</note></head>
                             <dateline><placeName><hi rend="italic">Washington</hi></placeName>, <hi
-                                    rend="italic"><date>undated</date>.</hi></dateline>
+                                    rend="italic"><date when="1956-08-13"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        >undated</date>.</hi></dateline>
                             <p rend="center"><hi rend="smallcaps">I. Goals In The Cyprus
                                     Dispute</hi></p>
                             <list>
@@ -22975,7 +23062,9 @@
                         <closer><signed><persName><hi rend="strong"
                             >Dulles</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d195" n="195" subtype="editorial-note">
+                    <div type="document" xml:id="d195" n="195" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>195. Editorial Note</head>
                         <p>On September 6, during the course of a discussion with the President,
                                 <persName>Dulles</persName> raised the problem of Cyprus. According
@@ -24525,7 +24614,9 @@
                         <closer><signed><persName corresp="#p_HHCJ1"><hi rend="strong"
                                     >Hoover</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d210" n="210" subtype="editorial-note">
+                    <div type="document" xml:id="d210" n="210" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>210. Editorial Note</head>
                         <p>On November 14, in a briefing memorandum prepared for the President
                             regarding the visit of Prime Minister <persName corresp="#p_KC1"
@@ -24802,7 +24893,9 @@
                         <closer><signed><persName><hi rend="strong"
                             >Dulles</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d214" n="214" subtype="editorial-note">
+                    <div type="document" xml:id="d214" n="214" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>214. Editorial Note</head>
                         <p>On December 14, <persName>Dulles</persName> was approached by Greek
                             Foreign Minister Averoff. According to the memorandum of conversation,
@@ -24941,7 +25034,9 @@
                                     rend="italic">Ibid.,</hi>747C.00/12–2056)</note></p>
                     </div>
                     <pb n="441" xml:id="pg_441" facs="0471"/>
-                    <div type="document" xml:id="d216" n="216" subtype="editorial-note">
+                    <div type="document" xml:id="d216" n="216" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>216. Editorial Note</head>
                         <p>On December 27, <persName>Lincoln White</persName>, Acting Chief of the
                             Department’s News Division, made the following statement to
@@ -25168,7 +25263,9 @@
                             >Dulles</hi></persName></signed></closer>
                     </div>
                     <pb n="445" xml:id="pg_445" facs="0475"/>
-                    <div type="document" xml:id="d219" n="219" subtype="historical-document">
+                    <div type="document" xml:id="d219" n="219" subtype="historical-document"
+                        frus:doc-dateTime-min="1957-01-28T21:07:00-05:00"
+                        frus:doc-dateTime-max="1957-02-08T18:59:59-05:00">
                         <head>219. Message From Foreign Secretary <persName corresp="#p_LSJSB1"
                                 type="from">Lloyd</persName> to Secretary of State <persName
                                 corresp="#p_DJF1" type="to">Dulles</persName><note n="1"
@@ -25180,7 +25277,10 @@
                                 from <persName corresp="#p_CSHA1">Caccia</persName> to
                                     <persName>Dulles</persName>.</note></head>
                         <dateline><placeName><hi rend="italic">London</hi></placeName>, <hi
-                                rend="italic"><date>undated</date>.</hi></dateline>
+                                rend="italic"><date notBefore="1957-01-28T21:07:00-05:00"
+                                    notAfter="1957-02-08T23:59:59+00:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>.</hi></dateline>
                         <p>I am worried at the effect upon Anglo-American relations of the
                             forthcoming debate on Cyprus in the United Nations. We agree, I know,
                             that it would be much better to have no debate at all, but it would
@@ -25805,7 +25905,9 @@
                         <p>That you approve the attached telegram.</p>
                     </div>
                     <pb n="457" xml:id="pg_457" facs="0487"/>
-                    <div type="document" xml:id="d225" n="225" subtype="editorial-note">
+                    <div type="document" xml:id="d225" n="225" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>225. Editorial Note</head>
                         <p>Between February 18 and 22, the First Committee of the General Assembly
                             held ten meetings to consider the Cyprus item. During the course of the
@@ -25821,7 +25923,9 @@
                             see <hi rend="italic">Yearbook of the United Nations, 1956,</hi> pages
                             121–124.</p>
                     </div>
-                    <div type="document" xml:id="d226" n="226" subtype="editorial-note">
+                    <div type="document" xml:id="d226" n="226" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>226. Editorial Note</head>
                         <p>On February 21, at the 313th meeting of the National Security Council,
                                 <persName corresp="#p_DAW1">Allen Dulles</persName>, in his review
@@ -26190,7 +26294,9 @@
                         <closer><signed><persName corresp="#p_HCA1"><hi rend="strong"
                                     >Herter</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d231" n="231" subtype="editorial-note">
+                    <div type="document" xml:id="d231" n="231" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>231. Editorial Note</head>
                         <p>On March 20, during the course of dinner conversation at the <gloss
                                 target="#t_MID1">Mid</gloss>-Ocean Club in Hamilton, Bermuda,
@@ -26283,7 +26389,9 @@
                             certainly do its best to try and help.</p>
                         <p>[Here follows discussion of unrelated matters.]</p>
                     </div>
-                    <div type="document" xml:id="d233" n="233" subtype="editorial-note">
+                    <div type="document" xml:id="d233" n="233" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>233. Editorial Note</head>
                         <p>On March 21, the President wrote a diary entry recording his impressions
                             of discussions held that day at the Bermuda Conference. It reads: <quote
@@ -26491,7 +26599,9 @@
                                 xml:id="d237fn3">Printed from a copy that bears this typed
                                 signature.</note></closer>
                     </div>
-                    <div type="document" xml:id="d238" n="238" subtype="editorial-note">
+                    <div type="document" xml:id="d238" n="238" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>238. Editorial Note</head>
                         <p>On March 22, the Department instructed the Embassy at Ankara to raise
                             with the Turkish Government the United States views that all the parties
@@ -26532,7 +26642,9 @@
                             States hoped that all parties agreed on the need to solve the Cyprus
                             dispute in a peaceful manner. (<hi rend="italic">Ibid.</hi>)</p>
                     </div>
-                    <div type="document" xml:id="d239" n="239" subtype="editorial-note">
+                    <div type="document" xml:id="d239" n="239" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>239. Editorial Note</head>
                         <p>On April 14, the Embassy at Ankara transmitted the text of a note that
                             the Turkish Government delivered to the Government of Greece regarding
@@ -26587,7 +26699,9 @@
                                     Memoranda of Discussion)</p>
                             </quote></p>
                     </div>
-                    <div type="document" xml:id="d240" n="240" subtype="editorial-note">
+                    <div type="document" xml:id="d240" n="240" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>240. Editorial Note</head>
                         <p>In an April 15 letter to President <persName corresp="#p_EDD1"
                                 >Eisenhower</persName>, Prime Minister <persName corresp="#p_MH1"
@@ -26766,7 +26880,9 @@
                         <closer><signed><persName corresp="#p_HCA1"><hi rend="strong"
                                     >Herter</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d242" n="242" subtype="editorial-note">
+                    <div type="document" xml:id="d242" n="242" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>242. Editorial Note</head>
                         <p>In telegram 5734 from London, April 18, the Embassy informed the
                             Department that the British Foreign Office had no objection to
@@ -27096,7 +27212,9 @@
                                     >Allen</hi></persName></signed></closer>
                     </div>
                     <pb n="482" xml:id="pg_482" facs="0512"/>
-                    <div type="document" xml:id="d248" n="248" subtype="editorial-note">
+                    <div type="document" xml:id="d248" n="248" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>248. Editorial Note</head>
                         <p>On April 27, Ambassador <persName>Warren</persName> reported that Foreign
                             Office Secretary General Esenbel had presented him with a long
@@ -27391,7 +27509,9 @@
                         <closer><signed><persName corresp="#p_HCA1"><hi rend="strong"
                                     >Herter</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d252" n="252" subtype="editorial-note">
+                    <div type="document" xml:id="d252" n="252" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>252. Editorial Note</head>
                         <p>The Embassy in London replied to Tosec 7 (<ref target="#d251"><hi
                                     rend="italic">supra</hi></ref>) in telegram 886, August 2.
@@ -28131,7 +28251,9 @@
                             >Dulles</hi></persName></signed></closer>
                     </div>
                     <pb n="500" xml:id="pg_500" facs="0530"/>
-                    <div type="document" xml:id="d260" n="260" subtype="editorial-note">
+                    <div type="document" xml:id="d260" n="260" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>260. Editorial Note</head>
                         <p>Between September 10 and 18, representatives of the United States, led by
                                 <persName corresp="#p_BW1">Walworth Barbour</persName>, and
@@ -28475,7 +28597,9 @@
                             would therefore be desirable to delay substantive discussion of the
                             issue until after the Turkish elections.</p>
                     </div>
-                    <div type="document" xml:id="d263" n="263" subtype="editorial-note">
+                    <div type="document" xml:id="d263" n="263" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>263. Editorial Note</head>
                         <p>On September 13, 5 days before the opening of the Twelfth General
                             Assembly, Greece noted, in an explanatory memorandum, that no progress
@@ -29327,7 +29451,9 @@
                                 <p>The source text is handwritten. (Eisenhower Library, White House
                                     Confidential Files)</p></note></p>
                     </div>
-                    <div type="document" xml:id="d273" n="273" subtype="editorial-note">
+                    <div type="document" xml:id="d273" n="273" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>273. Editorial Note</head>
                         <p>On December 12, during discussion at the Secretary’s Staff meeting, the
                             subject of the Cyprus issue at the United Nations was raised. According
@@ -29585,9 +29711,11 @@
                 </div>
             </div>
             <pb n="527" xml:id="pg_527" facs="0557"/>
-            <div type="compilation" xml:id="comp4">
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1955-01-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-11T23:59:59-05:00">
                 <head>Greece</head>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1955-01-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1957-12-11T23:59:59-05:00">
                     <head>United States Relations With Greece<note n="1" xml:id="d276fn1">For
                             previous documentation on US policy toward Greece, see <ref
                                 target="frus1952-54v08#pg_780"><hi rend="italic">Foreign
@@ -30181,7 +30309,9 @@
                         <closer><signed><persName corresp="#p_CCW1"><hi rend="strong"
                                     >Cannon</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d281" n="281" subtype="editorial-note">
+                    <div type="document" xml:id="d281" n="281" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>281. Editorial Note</head>
                         <p>Between June 20 and 28, Ambassador <persName corresp="#p_CCW1"
                                 >Cannon</persName> consulted with officials of the Departments of
@@ -30643,7 +30773,9 @@
                                     >Cannon</hi></persName></signed></closer>
                     </div>
                     <pb n="547" xml:id="pg_547" facs="0577"/>
-                    <div type="document" xml:id="d287" n="287" subtype="editorial-note">
+                    <div type="document" xml:id="d287" n="287" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>287. Editorial Note</head>
                         <p>At the 260th meeting of the National Security Council on October 6,
                             General <persName corresp="#p_CGCP1">Cabell</persName> raised Greece in
@@ -33550,7 +33682,9 @@
                         <p rend="flushleft"><hi rend="italic">Recommendation:</hi></p>
                         <p>That you seek approval by the Board of the attached Operations Plan.</p>
                     </div>
-                    <div type="document" xml:id="d314" n="314" subtype="editorial-note">
+                    <div type="document" xml:id="d314" n="314" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>314. Editorial Note</head>
                         <p>On December 4, at the <gloss target="#t_OCB1">OCB</gloss> luncheon
                             meeting, the subject of the Operations Plan for Greece was raised.
@@ -33919,15 +34053,19 @@
                 </div>
             </div>
             <pb n="608" xml:id="pg_608" facs="0638"/>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" xml:id="comp5" frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-19T16:00:00-05:00">
                 <head>Turkey</head>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1957-12-19T16:00:00-05:00">
                     <head>United States Relations With Turkey: Questions of Economic and Military
                             Assistance<note n="1" xml:id="d316fn1">Continued from <ref
                                 target="frus1952-54v08#pg_865"><hi rend="italic">Foreign
                                     Relations,</hi> 1952–1954, vol. VIII, pp. 865</ref>
                         ff.</note></head>
-                    <div type="document" xml:id="d316" n="316" subtype="editorial-note">
+                    <div type="document" xml:id="d316" n="316" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>316. Editorial Note</head>
                         <p>On January 5, 1955, at the 230th meeting of the National Security
                             Council, during a discussion of national security policy, President
@@ -38296,7 +38434,9 @@
                         <closer><signed><persName corresp="#p_WF1"><hi rend="strong">Fletcher
                                         Warren</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d346" n="346" subtype="editorial-note">
+                    <div type="document" xml:id="d346" n="346" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>346. Editorial Note</head>
                         <p>On August 21, during a discussion at the Secretary’s Staff meeting, the
                             subject of economic aid to Turkey was raised. According to the notes of
@@ -39576,7 +39716,9 @@
                             >Warren</hi></persName></signed></closer>
                     </div>
                     <pb n="715" xml:id="pg_715" facs="0745"/>
-                    <div type="document" xml:id="d356" n="356" subtype="editorial-note">
+                    <div type="document" xml:id="d356" n="356" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>356. Editorial Note</head>
                         <p>On April 10, during the Secretary’s Staff meeting, Ambassador
                                 <persName>Warren</persName>, in Washington for consultation, briefed
@@ -40588,7 +40730,9 @@
                             factories in Turkey with repayment to be made in goods.</p>
                     </div>
                     <pb n="734" xml:id="pg_734" facs="0764"/>
-                    <div type="document" xml:id="d363" n="363" subtype="editorial-note">
+                    <div type="document" xml:id="d363" n="363" subtype="editorial-note"
+                        frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                         <head>363. Editorial Note</head>
                         <p>Throughout September and October, amidst Syrian and Soviet accusations
                             that Turkish troops, with the support of the United States, were
@@ -41475,7 +41619,9 @@
         <back>
             <pb n="[750]" xml:id="pg_750" facs="0780"/>
             <pb n="751" xml:id="pg_751" facs="0781"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1955-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-21T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item><persName>Adams, John Quincy</persName>, <ref target="#pg_71">71<hi

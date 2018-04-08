@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1976</date>
+                <date type="publication-date">1976</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -66,6 +66,10 @@
             <change>2014-09-09 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1949-01-03T00:00:00-05:00"
+                notAfter="1949-12-30T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -97,7 +101,9 @@
                     044–000–01644–3</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                 <head>Preface</head>
                 <p>Part 2 of this volume was prepared under the direct supervision of the late S.
                     Everett Gleason, editor of <hi rend="italic">Foreign Relations</hi> until 1972,
@@ -209,7 +215,9 @@
                 </frus:attachment>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -263,7 +271,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                 <head>List of abbreviations and symbols</head>
                 <p>
                     <hi rend="smallcaps">Editor’s Note</hi>.—This list does not include standard
@@ -1063,11 +1073,15 @@
         </front>
         <body>
             <pb n="601" xml:id="pg_601" facs="0015"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                 <head>Northeast Asia:</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1949-12-30T20:00:00-05:00">
                     <head>Japan:</head>
-                    <div type="subchapter" xml:id="ch1subch1">
+                    <div type="subchapter" xml:id="ch1subch1"
+                        frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                        frus:doc-dateTime-max="1949-12-30T20:00:00-05:00">
                         <head>Occupation and control of Japan<note n="1" xml:id="ch1subch1fn1"
                                 >Continued from <ref target="frus1948v06#pg_647">
                                     <hi rend="italic">Foreign Relations</hi>, 1948, vol. <hi
@@ -23606,9 +23620,12 @@
                     </div>
                 </div>
                 <pb n="940" xml:id="pg_940" facs="0354"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1949-01-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                     <head>Korea</head>
-                    <div type="subchapter" xml:id="ch2subch1">
+                    <div type="subchapter" xml:id="ch2subch1"
+                        frus:doc-dateTime-min="1949-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                         <head>Withdrawal of United States forces from Korea; extension of United
                             States military and economic assistance to the Republic of Korea; the
                             Korean question in the United Nations<note n="1" xml:id="ch2subch1fn1"
@@ -23617,7 +23634,9 @@
                                     <hi rend="italic">Foreign Relations</hi>, 1948, vol. <hi
                                         rend="smallcaps">vi</hi>, pp. 1079</ref> ff.</note>
                         </head>
-                        <div type="document" xml:id="d189" n="189" subtype="editorial-note">
+                        <div type="document" xml:id="d189" n="189" subtype="editorial-note"
+                            frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                            frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -23849,7 +23868,9 @@
                                         >utterworth</hi>]</signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d192" n="192" subtype="editorial-note">
+                        <div type="document" xml:id="d192" n="192" subtype="editorial-note"
+                            frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                            frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -24442,7 +24463,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d197" n="197" subtype="editorial-note">
+                        <div type="document" xml:id="d197" n="197" subtype="editorial-note"
+                            frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                            frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -30566,7 +30589,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d260" n="260" subtype="editorial-note">
+                        <div type="document" xml:id="d260" n="260" subtype="editorial-note"
+                            frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                            frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -30855,7 +30880,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d263" n="263" subtype="editorial-note">
+                        <div type="document" xml:id="d263" n="263" subtype="editorial-note"
+                            frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                            frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -33803,7 +33830,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d282" n="282" subtype="editorial-note">
+                        <div type="document" xml:id="d282" n="282" subtype="editorial-note"
+                            frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                            frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -33915,7 +33944,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d284" n="284" subtype="editorial-note">
+                        <div type="document" xml:id="d284" n="284" subtype="editorial-note"
+                            frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                            frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -33935,7 +33966,9 @@
                                     International Agreements</hi> (UST), <ref
                                     target="frus1949v01#pg_137">volume 1, page 137</ref>.</p>
                         </div>
-                        <div type="document" xml:id="d285" n="285" subtype="editorial-note">
+                        <div type="document" xml:id="d285" n="285" subtype="editorial-note"
+                            frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                            frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -35018,7 +35051,9 @@
                             </closer>
                             <pb n="1101" xml:id="pg_1101" facs="0515"/>
                         </div>
-                        <div type="document" xml:id="d296" n="296" subtype="editorial-note">
+                        <div type="document" xml:id="d296" n="296" subtype="editorial-note"
+                            frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                            frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -36024,9 +36059,13 @@
                     </div>
                 </div>
                 <pb n="1115" xml:id="pg_1115" facs="0529"/>
-                <div type="compilation" xml:id="comp2">
+                <div type="compilation" xml:id="comp2"
+                    frus:doc-dateTime-min="1949-01-04T08:10:00-05:00"
+                    frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                     <head>East Asian-Pacific area</head>
-                    <div type="chapter" xml:id="ch3">
+                    <div type="chapter" xml:id="ch3"
+                        frus:doc-dateTime-min="1949-01-04T08:10:00-05:00"
+                        frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                         <head>The policies of the United States with respect to the East
                             Asian-Pacific area generally, with particular reference to proposals for
                             the formation of regional associations or pacts<note n="1"
@@ -37840,7 +37879,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d324" n="324" subtype="editorial-note">
+                        <div type="document" xml:id="d324" n="324" subtype="editorial-note"
+                            frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                            frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -43377,7 +43418,9 @@
             <pb n="[i]" xml:id="pg_i" facs="0635"/>
             <pb n="ii" xml:id="pg_ii" facs="0636"/>
             <pb n="iii" xml:id="pg_iii" facs="0637"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1949-12-30T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Abbott, George M., <ref target="#pg_1163">1163</ref>

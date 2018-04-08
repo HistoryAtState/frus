@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1969-76v38p1">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1969-76v38p1">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,13 +17,22 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2012</date>
+                <date type="publication-date">2012</date>
                 <idno type="frus">frus1969-76v38p1</idno>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 2012 as print volume and PDF online at history.state.gov</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
+        </encodingDesc>
+        <xenoData>
+            <frus:coverage notBefore="1973-01-25T00:00:00-05:00"
+                notAfter="1976-10-03T16:18:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -64,7 +73,9 @@
                     (202) 512-1800<lb/> Fax: (202) 512-2250 Mail: Stop IDCC, Washington, DC
                     20402-0001</docImprint>
             </titlePage>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -308,7 +319,9 @@
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
@@ -340,7 +353,9 @@
             </div>
             <pb n="X" facs="0011" xml:id="pg_X"/>
             <gap quantity="1" unit="pages" reason="convenience"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
@@ -587,7 +602,9 @@
                         Government Printing Office, 1975, 1977, 1979.</item>
                 </list>
             </div>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                 <pb n="XV" facs="0016" xml:id="pg_XV"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -1244,7 +1261,9 @@
                             <term xml:id="t_WW2_1">WWII</term>,</hi> World War II</item>
                 </list>
             </div>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Persons</head>
                 <list type="names">
@@ -2658,7 +2677,8 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-20T23:59:59-05:00">
                 <pb n="1" facs="0032" xml:id="pg_1"/>
                 <head>Foundations of Foreign Policy, 1973–1976</head>
                 <div type="document" n="1" xml:id="d1" subtype="historical-document"
@@ -2792,7 +2812,9 @@
                         three or four simple, hard messages for them that they can understand and
                         that they, we hope, will go out and peddle to others.</p>
                 </div>
-                <div type="document" n="2" xml:id="d2" subtype="editorial-note">
+                <div type="document" n="2" xml:id="d2" subtype="editorial-note"
+                    frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                     <head>2. Editorial Note</head>
                     <p>President <persName corresp="#p_NRM_1">Richard Nixon</persName> met with
                         General <persName corresp="#p_GAJ_1">Andrew J. Goodpaster</persName>, <gloss
@@ -5920,7 +5942,9 @@
                         shook hands personally with each of the Trustees. The meeting concluded at
                         12:30 p.m.</p>
                 </div>
-                <div type="document" n="14" xml:id="d14" subtype="editorial-note">
+                <div type="document" n="14" xml:id="d14" subtype="editorial-note"
+                    frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                     <head>14. Editorial Note</head>
                     <p>General Secretary of the Communist Party of the Soviet Union <persName
                             corresp="#p_BLI_1">Leonid I. Brezhnev</persName> arrived in the United
@@ -6148,7 +6172,9 @@
                         out of Israel will be less than the radical Arabs want, so we should make
                         Syria sign it. Don’t bring Saudi Arabia in.</p>
                 </div>
-                <div type="document" n="16" xml:id="d16" subtype="editorial-note">
+                <div type="document" n="16" xml:id="d16" subtype="editorial-note"
+                    frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                     <head>16. Editorial Note</head>
                     <p>President <persName corresp="#p_NRM_1">Richard Nixon</persName> announced the
                         resignation of Secretary of State <persName corresp="#p_RWP_1">William P.
@@ -7332,7 +7358,9 @@
                         diplomacy can work out. We are being very quiet and we have put in massive
                         material, with only a modest reaction from the Arabs.</p>
                 </div>
-                <div type="document" n="21" xml:id="d21" subtype="editorial-note">
+                <div type="document" n="21" xml:id="d21" subtype="editorial-note"
+                    frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                     <head>21. Editorial Note</head>
                     <p>The problem of energy dependence confronted the <persName corresp="#p_NRM_1"
                             >Nixon</persName> administration in the aftermath of the October 1973
@@ -9613,7 +9641,9 @@
                         if we have to, but hopefully we will be able to get agreement with the
                         Soviets. Thank you very much, gentlemen.</p>
                 </div>
-                <div type="document" n="27" xml:id="d27" subtype="editorial-note">
+                <div type="document" n="27" xml:id="d27" subtype="editorial-note"
+                    frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                     <head>27. Editorial Note</head>
                     <p>The severity of the global energy crisis in late 1973 prompted the <persName
                             corresp="#p_NRM_1">Nixon</persName> administration to engage other
@@ -10814,7 +10844,9 @@
                                 rend="italic">Bulletin</hi>, May 13, 1974, pp. 509–515.</note>
                     </p>
                 </div>
-                <div type="document" n="31" xml:id="d31" subtype="editorial-note">
+                <div type="document" n="31" xml:id="d31" subtype="editorial-note"
+                    frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                     <pb n="165" facs="0196" xml:id="pg_165"/>
                     <head>31. Editorial Note</head>
                     <p>The <persName corresp="#p_NRM_1">Nixon</persName> administration’s trade
@@ -12628,7 +12660,9 @@
                         is on technical exchange. The development of energy resources is private.
                         This is totally separate.</p>
                 </div>
-                <div type="document" n="37" xml:id="d37" subtype="editorial-note">
+                <div type="document" n="37" xml:id="d37" subtype="editorial-note"
+                    frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                     <pb n="203" facs="0234" xml:id="pg_203"/>
                     <head>37. Editorial Note</head>
                     <p>President <persName corresp="#p_NRM_1">Richard Nixon</persName> resigned the
@@ -13733,7 +13767,9 @@
                         the first half of September, and to Moscow and India in the second half of
                         October.</p>
                 </div>
-                <div type="document" n="43" xml:id="d43" subtype="editorial-note">
+                <div type="document" n="43" xml:id="d43" subtype="editorial-note"
+                    frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                     <head>43. Editorial Note</head>
                     <p>President <persName corresp="#p_FGR_1">Gerald Ford</persName> addressed the
                         annual convention of the Veterans of Foreign Wars in Chicago on August 19,
@@ -14872,7 +14908,9 @@
                         to be interpreted as a swan song?</p>
                     <p>A Yes.</p>
                 </div>
-                <div type="document" n="47" xml:id="d47" subtype="editorial-note">
+                <div type="document" n="47" xml:id="d47" subtype="editorial-note"
+                    frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                     <pb n="250" facs="0281" xml:id="pg_250"/>
                     <head>47. Editorial Note</head>
                     <p>The United Nations World Food Conference commenced in Rome on November 5,
@@ -16293,7 +16331,9 @@
                         deliver, and let them read cables so that they form a partnership.
                         Congressman Anderson agreed that there was a vacuum of leadership.</p>
                 </div>
-                <div type="document" n="53" xml:id="d53" subtype="editorial-note">
+                <div type="document" n="53" xml:id="d53" subtype="editorial-note"
+                    frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                     <pb n="278" facs="0309" xml:id="pg_278"/>
                     <head>53. Editorial Note</head>
                     <p>On March 31, 1975, Secretary of State Henry <persName corresp="#p_KHA_1"
@@ -19593,7 +19633,9 @@
                         recommend it.</p>
                     <p>[Omitted here is the body of the memorandum.]</p>
                 </div>
-                <div type="document" n="64" xml:id="d64" subtype="editorial-note">
+                <div type="document" n="64" xml:id="d64" subtype="editorial-note"
+                    frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                     <head>64. Editorial Note</head>
                     <p>On November 9, 1975, President <persName corresp="#p_FGR_1">Gerald
                             Ford</persName> participated in an interview marking the 28th
@@ -20801,7 +20843,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="69" xml:id="d69" subtype="editorial-note">
+                <div type="document" n="69" xml:id="d69" subtype="editorial-note"
+                    frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                     <head>69. Editorial Note</head>
                     <p>In a campaign speech delivered in Exeter, New Hampshire, on February 10,
                         1976, <persName corresp="#p_RRW_1">Ronald Reagan</persName>, a candidate for
@@ -25353,7 +25397,9 @@
                     <p>Most of the aid goes to Israel, Iran, and Saudi Arabia—for
                         infrastructure—leaving only bits and pieces for the rest of the world.</p>
                 </div>
-                <div type="document" n="84" xml:id="d84" subtype="historical-document">
+                <div type="document" n="84" xml:id="d84" subtype="historical-document"
+                    frus:doc-dateTime-min="1977-01-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1977-01-20T23:59:59-05:00">
                     <head>84. Interview With Secretary of State <persName corresp="#p_KHA_1"
                             >Kissinger</persName>
                         <note n="1" type="source" xml:id="d84fn1">Source: Department of State <hi
@@ -25369,7 +25415,9 @@
                                 Times</hi>, January 20, 1977, p. 16)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date when="1977-01-20"
+                            ana="#date_undated-inferred-from-document-content"
+                            type="publication-date">undated</date>.</dateline>
                     <p>Q. <hi rend="italic">A number of serious charges have been made against you,
                             and the Times thought you should have the opportunity to answer them.
                             The first charge is that in a solemn world you tried to be funny.</hi>
@@ -25773,7 +25821,9 @@
             </div>
         </body>
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
                 <pb n="483" facs="0000" xml:id="pg_483"/>
                 <head>Index</head>
                 <p>

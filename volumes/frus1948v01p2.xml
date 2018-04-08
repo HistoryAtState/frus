@@ -18,7 +18,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1976</date>
+                <date type="publication-date">1976</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -68,6 +68,10 @@
             <change>2014-12-04 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1947-10-20T12:00:00-05:00"
+                notAfter="1948-12-31T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -99,7 +103,9 @@
                     State<lb/>Washington, D.C. 20520 - Price $8.50 (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>Preface</head>
                 <p>Part 2 of this volume was prepared under the direct supervision of the late S.
                     Everett Gleason and of Fredrick Aandahl, his successor as Editor of <hi
@@ -224,7 +230,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -285,7 +293,9 @@
             </div>
             <pb n="VIII" xml:id="pg_VIII" facs="0012"/>
             <pb n="IX" xml:id="pg_IX" facs="0013"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>List of Abbreviations and Symbols</head>
                 <p>
                     <hi rend="smallcaps">Editor’s Note</hi>.—This list does not include standard
@@ -940,7 +950,8 @@
         </front>
         <body>
             <pb n="507" xml:id="pg_507" facs="0017"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1948-01-27T00:00:00-05:00"
+                frus:doc-dateTime-max="1948-06-01T22:59:59-05:00">
                 <head>United States national security policy: estimates of threats to the national
                     security; organization for national security; military posture and foreign
                     policy; the extension of military assistance to foreign nations; efforts to
@@ -951,7 +962,9 @@
                                 rend="smallcaps">i</hi>, pp. 707</ref>–<ref
                             target="frus1947v01#pg_780">780</ref>.</note>
                 </head>
-                <div type="document" xml:id="d1" n="1" subtype="editorial-note">
+                <div type="document" xml:id="d1" n="1" subtype="editorial-note"
+                    frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                     <head>
                         <hi rend="italic">Editorial Note</hi>
                     </head>
@@ -2537,7 +2550,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d7" n="7" subtype="editorial-note">
+                <div type="document" xml:id="d7" n="7" subtype="editorial-note"
+                    frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                     <head>
                         <hi rend="italic">Editorial Note</hi>
                     </head>
@@ -5158,7 +5173,9 @@
                     “Availability of Strategic Materials (on a Commodity Basis) under <gloss
                         target="#t_ERP1">ERP</gloss>.”]</p>
             </div>
-            <div type="document" xml:id="d25" n="25" subtype="editorial-note">
+            <div type="document" xml:id="d25" n="25" subtype="editorial-note"
+                frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>
                     <hi rend="italic">Editorial Note</hi>
                 </head>
@@ -8347,7 +8364,9 @@
                 </closer>
                 <pb n="633" xml:id="pg_633" facs="0143"/>
             </div>
-            <div type="document" xml:id="d47" n="47" subtype="editorial-note">
+            <div type="document" xml:id="d47" n="47" subtype="editorial-note"
+                frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>
                     <hi rend="italic">Editorial Note</hi>
                 </head>
@@ -11060,7 +11079,8 @@
                 </closer>
             </div>
             <pb n="677" xml:id="pg_677" facs="0187"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1948-01-07T00:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>Foreign policy aspects of United States development of atomic energy<note
                         n="1" xml:id="comp2fn1">Continued from <ref target="frus1947v01#pg_781">
                             <hi rend="italic">Foreign Relations</hi>, 1947, vol. <hi
@@ -15393,7 +15413,9 @@
                                 <date when="1948-08-20">August 20, 1948</date>.</dateline>
                     </closer>
                 </div>
-                <div type="document" xml:id="d95" n="95" subtype="editorial-note">
+                <div type="document" xml:id="d95" n="95" subtype="editorial-note"
+                    frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                     <head>
                         <hi rend="italic">Editorial Note</hi>
                     </head>
@@ -18452,7 +18474,8 @@
                 </div>
             </div>
             <pb n="799" xml:id="pg_799" facs="0309"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1948-02-26T00:00:00-05:00"
+                frus:doc-dateTime-max="1948-02-26T23:59:59-05:00">
                 <head>Delegation of presidential authority to the Secretary of State for the
                     designation of United States delegations and representatives to international
                     conferences and organizations</head>
@@ -18647,7 +18670,8 @@
                 </div>
             </div>
             <pb n="802" xml:id="pg_802" facs="0312"/>
-            <div type="compilation" xml:id="comp4">
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-02T23:59:59-05:00">
                 <head>United States interest and participation in the creation by the United Nations
                     of an International Trade Organization: the Habana Conference and its aftermath;
                     United States participation in the meetings of the contracting parties to the
@@ -24494,7 +24518,9 @@
                     </p>
                     <pb n="895" xml:id="pg_895" facs="0405"/>
                 </div>
-                <div type="document" xml:id="d183" n="183" subtype="editorial-note">
+                <div type="document" xml:id="d183" n="183" subtype="editorial-note"
+                    frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                     <head>
                         <hi rend="italic">Editorial Note</hi>
                     </head>
@@ -24819,7 +24845,9 @@
                         Viewed against the record of the inter-war years, the accomplishment of the
                         Havana Conference is truly remarkable.</p>
                 </div>
-                <div type="document" xml:id="d185" n="185" subtype="editorial-note">
+                <div type="document" xml:id="d185" n="185" subtype="editorial-note"
+                    frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                     <head>
                         <hi rend="italic">Editorial Note</hi>
                     </head>
@@ -26154,7 +26182,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d197" n="197" subtype="editorial-note">
+                <div type="document" xml:id="d197" n="197" subtype="editorial-note"
+                    frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                     <head>
                         <hi rend="italic">Editorial Note</hi>
                     </head>
@@ -27173,7 +27203,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d209" n="209" subtype="editorial-note">
+                <div type="document" xml:id="d209" n="209" subtype="editorial-note"
+                    frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                     <head>
                         <hi rend="italic">Editorial Note</hi>
                     </head>
@@ -27906,12 +27938,17 @@
                 </div>
             </div>
             <pb n="948" xml:id="pg_948" facs="0458"/>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" xml:id="comp5" frus:doc-dateTime-min="1948-05-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1948-10-25T23:59:59-05:00">
                 <head>The bases of the foreign commercial policy of the United States:</head>
-                <div type="chapter" xml:id="comp5ch1">
+                <div type="chapter" xml:id="comp5ch1"
+                    frus:doc-dateTime-min="1948-05-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1948-05-17T23:59:59-05:00">
                     <head>I. Extension by the Congress of the reciprocal trade agreement authority
                         of the President</head>
-                    <div type="document" xml:id="d217" n="217" subtype="editorial-note">
+                    <div type="document" xml:id="d217" n="217" subtype="editorial-note"
+                        frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                        frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                         <head>
                             <hi rend="italic">Editorial Note</hi>
                         </head>
@@ -28000,7 +28037,9 @@
                             disagreement between himself and an administrative agency which, though
                             created by Congress, is nevertheless operated by his own appointees.</p>
                     </div>
-                    <div type="document" xml:id="d219" n="219" subtype="editorial-note">
+                    <div type="document" xml:id="d219" n="219" subtype="editorial-note"
+                        frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                        frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                         <head>
                             <hi rend="italic">Editorial Note</hi>
                         </head>
@@ -28018,7 +28057,9 @@
                     </div>
                 </div>
                 <pb n="950" xml:id="pg_950" facs="0460"/>
-                <div type="chapter" xml:id="comp5ch2">
+                <div type="chapter" xml:id="comp5ch2"
+                    frus:doc-dateTime-min="1948-08-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1948-08-23T23:59:59-05:00">
                     <head>II. Progress of the program to negotiate new treaties of friendship,
                         commerce, and navigation<note n="1" xml:id="comp5ch2fn1">For previous
                             documentation, see <ref target="frus1946v01#pg_1367">
@@ -28070,7 +28111,9 @@
                             undertaken with these countries.</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="comp5ch3">
+                <div type="chapter" xml:id="comp5ch3"
+                    frus:doc-dateTime-min="1948-10-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1948-10-25T23:59:59-05:00">
                     <head>III. Progress of the program for negotiation of conventions for the
                         avoidance of double taxation</head>
                     <div type="document" xml:id="d221" n="221" subtype="historical-document"
@@ -28159,7 +28202,9 @@
                             be resumed.</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="comp5ch4">
+                <div type="chapter" xml:id="comp5ch4"
+                    frus:doc-dateTime-min="1948-08-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1948-08-20T23:59:59-05:00">
                     <head>IV. Statement of United States foreign credit and investment policy</head>
                     <div type="document" xml:id="d222" n="222" subtype="historical-document"
                         frus:doc-dateTime-min="1948-08-20T00:00:00-05:00"
@@ -28511,14 +28556,17 @@
                 </div>
             </div>
             <pb n="959" xml:id="pg_959" facs="0469"/>
-            <div type="compilation" xml:id="comp6">
+            <div type="compilation" xml:id="comp6" frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>The United States foreign assistance program as of December 31, 1948<note
                         n="1" xml:id="comp6fn1">Continued from <ref target="frus1947v01#pg_1026">
                             <hi rend="italic">Foreign Relations</hi>, 1947, vol. <hi
                                 rend="smallcaps">i</hi>, pp. 1026</ref>–<ref
                             target="frus1947v01#pg_1042">1042</ref>.</note>
                 </head>
-                <div type="document" xml:id="d223" n="223" subtype="editorial-note">
+                <div type="document" xml:id="d223" n="223" subtype="editorial-note"
+                    frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                     <head>
                         <hi rend="italic">Editorial Note</hi>
                     </head>
@@ -29226,7 +29274,8 @@
                 </div>
             </div>
             <pb n="962" xml:id="pg_962" facs="0472"/>
-            <div type="compilation" xml:id="comp7">
+            <div type="compilation" xml:id="comp7" frus:doc-dateTime-min="1948-01-08T00:00:00-05:00"
+                frus:doc-dateTime-max="1948-06-09T23:59:59-05:00">
                 <head>United States policy with regard to the Antarctic<note n="1" xml:id="comp7fn1"
                         >For previous documentation see <ref target="frus1947v01#pg_1043">
                             <hi rend="italic">Foreign Relations</hi>, 1947, vol. <hi
@@ -30178,7 +30227,9 @@
                         requested to advise the Department whether these proposals give proper
                         protection to U.S. security interests.</p>
                 </div>
-                <div type="document" xml:id="d236" n="236" subtype="editorial-note">
+                <div type="document" xml:id="d236" n="236" subtype="editorial-note"
+                    frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                     <head>
                         <hi rend="italic">Editorial Note</hi>
                     </head>
@@ -31040,7 +31091,9 @@
                     </closer>
                 </frus:attachment>
             </div>
-            <div type="document" xml:id="d241" n="241" subtype="editorial-note">
+            <div type="document" xml:id="d241" n="241" subtype="editorial-note"
+                frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>
                     <hi rend="italic">Editorial Note</hi>
                 </head>
@@ -31157,7 +31210,9 @@
                     </signed>
                 </closer>
             </div>
-            <div type="document" xml:id="d244" n="244" subtype="editorial-note">
+            <div type="document" xml:id="d244" n="244" subtype="editorial-note"
+                frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>
                     <hi rend="italic">Editorial Note</hi>
                 </head>
@@ -31381,7 +31436,9 @@
                             <hi rend="smallcaps">secret</hi>
                         </seg>
                         <dateline rendition="#right">[<placeName><hi rend="smallcaps"
-                                    >Washington</hi></placeName>, <date>undated</date>.]</dateline>
+                                    >Washington</hi></placeName>, <date when="1948-08-09"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.]</dateline>
                     </opener>
                     <p rend="center">
                         <hi rend="smallcaps">Draft Agreement on Antarctica</hi>
@@ -31744,7 +31801,9 @@
                 </closer>
                 <pb n="1004" xml:id="pg_1004" facs="0514"/>
             </div>
-            <div type="document" xml:id="d251" n="251" subtype="editorial-note">
+            <div type="document" xml:id="d251" n="251" subtype="editorial-note"
+                frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>
                     <hi rend="italic">Editorial Note</hi>
                 </head>
@@ -32122,7 +32181,9 @@
                     </signed>
                 </closer>
             </div>
-            <div type="document" xml:id="d257" n="257" subtype="editorial-note">
+            <div type="document" xml:id="d257" n="257" subtype="editorial-note"
+                frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>
                     <hi rend="italic">Editorial Note</hi>
                 </head>
@@ -32359,7 +32420,9 @@
                     </signed>
                 </closer>
             </div>
-            <div type="document" xml:id="d261" n="261" subtype="editorial-note">
+            <div type="document" xml:id="d261" n="261" subtype="editorial-note"
+                frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>
                     <hi rend="italic">Editorial Note</hi>
                 </head>
@@ -32496,7 +32559,9 @@
             <pb n="[i]" xml:id="pg_i" facs="0527"/>
             <pb n="[ii]" xml:id="pg_ii" facs="0528"/>
             <pb n="iii" xml:id="pg_iii" facs="0529"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1947-10-20T12:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Acheson Dean, <ref target="#pg_509">509</ref></item>

@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1988</date>
+                <date type="publication-date">1988</date>
                 <idno type="dospubno">9640</idno>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -41,6 +41,10 @@
         <revisionDesc>
             <change>2009-06-10 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1954-12-31T00:00:00-05:00"
+                notAfter="1958-02-03T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -75,7 +79,9 @@
                     Government Printing Office<lb/>Washington, D.C. 20402</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The publication <hi rend="italic">Foreign Relations of the United States</hi>
                     constitutes the official record of the foreign policy of the United States. The
@@ -133,7 +139,9 @@
                             Historian<lb/>Bureau of Public Affairs</hi></signed></closer>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III"><hi rend="strong">Preface</hi></ref></item>
@@ -163,7 +171,9 @@
             </div>
             <pb n="VI" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                 <head>List of Unpublished Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -377,7 +387,9 @@
                 </list>
             </div>
             <pb n="XI" xml:id="pg_XI" facs="0015"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_A1">A</term>,</hi> airgram</item>
@@ -672,7 +684,9 @@
             </div>
             <pb n="XIV" xml:id="pg_XIV" facs="0018"/>
             <pb n="XV" xml:id="pg_XV" facs="0019"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AS1">Adams, Sherman</persName>,</hi>
@@ -1219,10 +1233,12 @@
             <pb n="XXII" xml:id="pg_XXII" facs="0026"/>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1955-02-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-30T19:23:00-05:00">
                 <pb n="1" xml:id="pg_1" facs="0027"/>
                 <head>The United Nations</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1955-05-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1957-12-30T19:23:00-05:00">
                     <head>General United States Policy in the United Nations<note n="1"
                             xml:id="d1fn1">For previous documentation on U.S. policies in the United
                             Nations, see <ref target="frus1952-54v03"><hi rend="italic">Foreign
@@ -1504,7 +1520,9 @@
                         <closer><signed><persName corresp="#p_DAW1"><hi rend="strong"
                                     >Dulles</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d5" n="5" subtype="editorial-note">
+                    <div type="document" xml:id="d5" n="5" subtype="editorial-note"
+                        frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                         <head>5. Editorial Note</head>
                         <p>Between June 20 and 26, the United Nations convened at San Francisco in
                             Commemorative Meetings marking the tenth anniversary of the signing of
@@ -8002,7 +8020,9 @@
                         <closer><signed><persName corresp="#p_LHCJ1"><hi rend="strong"
                                     >Lodge</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d40" n="40" subtype="editorial-note">
+                    <div type="document" xml:id="d40" n="40" subtype="editorial-note"
+                        frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                         <head>40. Editorial Note</head>
                         <p>On November 16, Acting Secretary <persName corresp="#p_HHJJ1"
                                 >Hoover</persName> delivered an address before the Eleventh General
@@ -11137,7 +11157,9 @@
                                     >Lodge</hi></persName></signed></closer>
                     </div>
                     <pb n="187" xml:id="pg_187" facs="0213"/>
-                    <div type="document" xml:id="d66" n="66" subtype="editorial-note">
+                    <div type="document" xml:id="d66" n="66" subtype="editorial-note"
+                        frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                         <head>66. Editorial Note</head>
                         <p>Following further inconclusive debate, the General Assembly decided not
                             to vote on either the “Latin American” or the “Afro-Asian” resolutions
@@ -11551,7 +11573,9 @@
                         <closer><signed><persName corresp="#p_LHCJ1"><hi rend="strong"
                                     >Lodge</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d72" n="72" subtype="editorial-note">
+                    <div type="document" xml:id="d72" n="72" subtype="editorial-note"
+                        frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                         <head>72. Editorial Note</head>
                         <p>On June 4, Paul Nitze, former Director of the Policy Planning Staff at
                             the Department of State and currently a member of the <pb n="196"
@@ -13359,7 +13383,9 @@
                                             State, Central Files, 320/10-457)</p></note></p>
                             </quote></p>
                     </div>
-                    <div type="document" xml:id="d83" n="83" subtype="editorial-note">
+                    <div type="document" xml:id="d83" n="83" subtype="editorial-note"
+                        frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                         <head>83. Editorial Note</head>
                         <p>Following the close of the Resumed Eleventh Session of the United Nations
                             General Assembly on September 14, during which the “Report of the
@@ -14005,7 +14031,9 @@
                         <closer><signed><persName corresp="#p_TLE1"><hi rend="strong"
                                     >Thompson</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d92" n="92" subtype="editorial-note">
+                    <div type="document" xml:id="d92" n="92" subtype="editorial-note"
+                        frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                         <head>92. Editorial Note</head>
                         <p>The Fifth Committee of the United Nations General Assembly took up the
                             question of the scale of financial assessments and contributions for the
@@ -14931,7 +14959,8 @@
                     </div>
                 </div>
                 <pb n="263" xml:id="pg_263" facs="0289"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1955-02-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1957-10-11T20:00:00-05:00">
                     <head>United States Interest in the Admission of Qualified Applicants to United
                         Nations Membership and the Issue of Chinese Representation<note n="1"
                             xml:id="d101fn1" type="source">For previous documentation on membership
@@ -17096,7 +17125,9 @@
                         <closer><signed><persName corresp="#p_LHCJ1"><hi rend="strong"
                                     >Lodge</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d124" n="124" subtype="editorial-note">
+                    <div type="document" xml:id="d124" n="124" subtype="editorial-note"
+                        frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                         <head>124. Editorial Note</head>
                         <p>On September 22, Secretary <persName corresp="#p_DJF1">Dulles</persName>
                             addressed the Tenth Session of the United Nations General Assembly at
@@ -17179,7 +17210,9 @@
                             which we should all be thinking about and be in touch with during coming
                             days of present General Assembly meeting.</p>
                     </div>
-                    <div type="document" xml:id="d126" n="126" subtype="editorial-note">
+                    <div type="document" xml:id="d126" n="126" subtype="editorial-note"
+                        frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                         <head>126. Editorial Note</head>
                         <p>Between September 27 and October 1, members of the United States and
                             Soviet Delegations at the United Nations held a number of conversations
@@ -24362,7 +24395,9 @@
                         <closer><signed><persName corresp="#p_RKL1"><hi rend="strong"
                                     >Rankin</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d213" n="213" subtype="editorial-note">
+                    <div type="document" xml:id="d213" n="213" subtype="editorial-note"
+                        frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                         <head>213. Editorial Note</head>
                         <p>On December 10, the United Nations Security Council met on the question
                             of the admission of new members. Before the Council for consideration
@@ -24658,7 +24693,9 @@
                         <closer><signed><persName corresp="#p_AJM1"><hi rend="strong"
                                     >Allison</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d219" n="219" subtype="editorial-note">
+                    <div type="document" xml:id="d219" n="219" subtype="editorial-note"
+                        frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                         <head>219. Editorial Note</head>
                         <p>The Security Council of the United Nations once again considered the
                             question of membership at its 703d meeting on December 13. Following
@@ -27781,7 +27818,9 @@
                                         >MacArthur</hi></persName></signed></closer>
                     </div>
                     <pb n="512" xml:id="pg_512" facs="0538"/>
-                    <div type="document" xml:id="d266" n="266" subtype="editorial-note">
+                    <div type="document" xml:id="d266" n="266" subtype="editorial-note"
+                        frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                         <head>266. Editorial Note</head>
                         <p>On October 25, the United Nations General Assembly in plenary session
                             adopted a resolution sponsored by 13 nations, including the United
@@ -27804,7 +27843,8 @@
                 </div>
             </div>
             <pb n="513" xml:id="pg_513" facs="0539"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-31T23:59:59-05:00">
                 <head>United States Policy Regarding the Law of the Sea<note n="1" xml:id="d267fn1"
                         type="source">Continued from <ref target="frus1952-54v01p2#pg_1656"><hi
                                 rend="italic">Foreign Relations</hi>, 1952-1954, vol. I, Part 2, pp.
@@ -27934,14 +27974,19 @@
                             Adviser for Inter-American Affairs. (Department of State, Central Files,
                             720.022/2–1055) No copy of the revised paper was found.</note></p>
                 </div>
-                <div type="document" xml:id="d268" n="268" subtype="historical-document">
+                <div type="document" xml:id="d268" n="268" subtype="historical-document"
+                    frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1955-01-31T23:59:59-05:00">
                     <head>268. Memorandum Prepared in the Department of State<note n="1"
                             xml:id="d268fn1" type="source">Source: Department of State, Central
                             Files, 320.31/1–3155. Sent to <gloss target="#t_USUN1">USUN</gloss> in
                             A–249, January 31, for transmittal to the United Nations. The note
                             verbale sent to the United Nations was dated February 3.</note></head>
-                    <dateline><hi rend="italic"><placeName>Washington</placeName>,
-                                <date>undated</date>.</hi></dateline>
+                    <dateline><hi rend="italic"><placeName>Washington</placeName>, <date
+                                notBefore="1954-12-31T00:00:00-05:00"
+                                notAfter="1955-01-31T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</hi></dateline>
                     <p rend="center">COMMENTS ON <gloss target="#t_ILC1">ILC</gloss> DRAFT ON THE
                         REGIME OF THE TERRITORIAL SEA</p>
                     <p>The Representative of the United States of America to the United Nations has
@@ -28614,7 +28659,9 @@
                         resources. Conservation objectives are usually cited as the basis for claims
                         to sovereignty over the high seas.</p>
                 </div>
-                <div type="document" xml:id="d273" n="273" subtype="editorial-note">
+                <div type="document" xml:id="d273" n="273" subtype="editorial-note"
+                    frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                     <head>273. Editorial Note</head>
                     <p>On May 13 <persName corresp="#p_PH1">Herman Phleger</persName> delivered an
                         address before the American Branch of the International Law Association in
@@ -28873,7 +28920,9 @@
                                     Kirlin</hi></persName><note n="5" xml:id="d275fn5">Printed from
                                 a copy that bears this typed signature.</note></signed></closer>
                 </div>
-                <div type="document" xml:id="d276" n="276" subtype="editorial-note">
+                <div type="document" xml:id="d276" n="276" subtype="editorial-note"
+                    frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                     <head>276. Editorial Note</head>
                     <p>The Tenth Inter-American Conference, which met in Caracas in March 1954,
                         passed a resolution calling on the Council of the Organization of American
@@ -28992,7 +29041,9 @@
                                 </list></item>
                         </list></p>
                 </div>
-                <div type="document" xml:id="d277" n="277" subtype="historical-document">
+                <div type="document" xml:id="d277" n="277" subtype="historical-document"
+                    frus:doc-dateTime-min="1956-01-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1956-01-30T23:59:59-05:00">
                     <head>277. Memorandum Prepared by an Interdepartmental Working Group<note n="1"
                             xml:id="d277fn1" type="source"><p>Source: Department of State, Central
                                 Files, 397.022 IA/1–2356. Confidential. Approved by <persName
@@ -29035,8 +29086,9 @@
                                     corresp="#p_TJVV1">Trujillo</persName> does not produce an
                                 acceptable resolution.” (<hi rend="italic">Ibid</hi>., 397.022
                                 IA/2–1756)</p></note></head>
-                    <dateline><hi rend="italic"><placeName>Washington</placeName>,
-                                <date>undated</date>.</hi></dateline>
+                    <dateline><hi rend="italic"><placeName>Washington</placeName>, <date
+                                when="1956-01-30" ana="#date_undated-inferred-from-document-content"
+                                >undated</date>.</hi></dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Basic Position of the United States re OAS Specialized Conference on
@@ -29927,14 +29979,19 @@
                                 >Dulles</hi></persName></signed></closer>
                 </div>
                 <pb n="559" xml:id="pg_559" facs="0585"/>
-                <div type="document" xml:id="d282" n="282" subtype="historical-document">
+                <div type="document" xml:id="d282" n="282" subtype="historical-document"
+                    frus:doc-dateTime-min="1956-10-20T13:11:00-05:00"
+                    frus:doc-dateTime-max="1956-10-25T23:59:59-05:00">
                     <head>282. Memorandum Prepared in the Department of the Navy<note n="1"
                             xml:id="d282fn1" type="source">Source: Department of State, Central
                             Files, 700.022/10–2456. Confidential. Copy obtained from the Department
                             of the Navy on October 25, 1956, by Marjorie M. Whiteman, Assistant
                             Legal Adviser for Inter-American Affairs.</note></head>
-                    <dateline><hi rend="italic"><placeName>Washington</placeName>,
-                                <date>undated</date>.</hi></dateline>
+                    <dateline><hi rend="italic"><placeName>Washington</placeName>, <date
+                                notBefore="1956-10-20T13:11:00-05:00"
+                                notAfter="1956-10-25T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</hi></dateline>
                     <p rend="center">FACTORS WHICH MILITATE IN FAVOR OF A NARROW BREADTH OF THE
                         TERRITORIAL SEA</p>
                     <p>An extension of the territorial sea beyond a narrow belt may, on cursory
@@ -30847,7 +30904,9 @@
                     <frus:attachment>
                         <head><gloss target="#t_TAB1">Tab</gloss> B</head>
                         <dateline><placeName><hi rend="italic">Washington</hi></placeName>, <hi
-                                rend="italic"><date>undated</date></hi>.</dateline>
+                                rend="italic"><date when="1957-11-01"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date></hi>.</dateline>
                         <p rend="center">Memorandum by the Under Secretary of State’s Special
                             Assistant (Sanders)</p>
                         <list type="subject">
@@ -30974,8 +31033,10 @@
                         <note rend="source" type="inline"><hi rend="strong">[Annex A]</hi></note>
                         <head>Outline for Memorandum of Discussion Prepared by the Under Secretary
                             of State’s Special Assistant (Sanders)</head>
-                        <dateline><hi rend="italic"><placeName>Washington</placeName>,
-                                    <date>undated</date></hi>.</dateline>
+                        <dateline><hi rend="italic"><placeName>Washington</placeName>, <date
+                                    when="1957-10-28"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date></hi>.</dateline>
                         <p>The Under Secretary explained to the representatives of the Departments
                             of Defense and Interior that the meeting had been called to consider two
                             questions of policy concerning the positions to be taken at the
@@ -32076,7 +32137,8 @@
                 </div>
             </div>
             <pb n="607" xml:id="pg_607" facs="0633"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1955-01-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1957-12-09T23:59:59-05:00">
                 <head>United States Policy Regarding Antarctica<note n="1" xml:id="d296fn1"
                         type="source">For previous documentation on this subject, <ref
                             target="frus1952-54v01p2#pg_1733">see <hi rend="italic">Foreign
@@ -32238,7 +32300,9 @@
                     <closer><signed><persName corresp="#p_SEB1"><hi rend="strong">Elmer B.
                                     Staats</hi></persName></signed></closer>
                 </div>
-                <div type="document" xml:id="d298" n="298" subtype="editorial-note">
+                <div type="document" xml:id="d298" n="298" subtype="editorial-note"
+                    frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                     <head>298. Editorial Note</head>
                     <p>At his news conference on March 2, President <persName corresp="#p_EDD1"
                             >Eisenhower</persName> was asked about the purpose of the United States
@@ -33092,7 +33156,9 @@
                                 corresp="#p_SEB1">Staats</persName> are not printed.</note></p>
                     <p>[Here follows the remainder of the minutes.]</p>
                 </div>
-                <div type="document" xml:id="d307" n="307" subtype="editorial-note">
+                <div type="document" xml:id="d307" n="307" subtype="editorial-note"
+                    frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                     <head>307. Editorial Note</head>
                     <p>The <gloss target="#t_ANZUS1">ANZUS</gloss> Council held a meeting at the
                         Department of State on the morning of September 24. The 19 participants
@@ -33123,13 +33189,18 @@
                                 Lot 60 D 627, CF 55)</p>
                         </quote></p>
                 </div>
-                <div type="document" xml:id="d308" n="308" subtype="historical-document">
+                <div type="document" xml:id="d308" n="308" subtype="historical-document"
+                    frus:doc-dateTime-min="1955-09-23T23:00:00-05:00"
+                    frus:doc-dateTime-max="1955-10-26T23:59:59-05:00">
                     <head>308. Statement Prepared in the Office of British Commonwealth and Northern
                         European Affairs<note n="1" xml:id="d308fn1" type="source">Source:
                             Department of State, Central Files, 702.022/10–2155.
                             Confidential.</note></head>
-                    <dateline><hi rend="italic"><placeName>Washington</placeName>,
-                                <date>undated</date>.</hi></dateline>
+                    <dateline><hi rend="italic"><placeName>Washington</placeName>, <date
+                                notBefore="1955-09-24T00:00:00-04:00"
+                                notAfter="1955-10-26T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                        >undated</date>.</hi></dateline>
                     <p>We can well understand the interest caused by our activities in the
                         Antarctic. Any and all U.S. activities are considered by us, in addition to
                         their immediate practical objectives, which in the scientific field
@@ -34632,7 +34703,9 @@
                                 Murphy</hi></persName><note n="2" xml:id="d320fn2">Printed from a
                                 copy that bears this typed signature.</note></signed></closer>
                 </div>
-                <div type="document" xml:id="d321" n="321" subtype="editorial-note">
+                <div type="document" xml:id="d321" n="321" subtype="editorial-note"
+                    frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                     <head>321. Editorial Note</head>
                     <p>Antarctica was discussed during the meeting of the Southeast Asia Treaty
                         Organization members at Canberra, March 13–14. In an April 3 letter,
@@ -34748,13 +34821,17 @@
                                 Other Claimants.</item>
                         </list></p>
                 </div>
-                <div type="document" xml:id="d323" n="323" subtype="historical-document">
+                <div type="document" xml:id="d323" n="323" subtype="historical-document"
+                    frus:doc-dateTime-min="1957-04-03T15:00:00-05:00"
+                    frus:doc-dateTime-max="1957-04-03T15:00:00-05:00">
                     <head>323. Memorandum for the Files, by the Officer in Charge of Antarctic
                         Affairs (<persName corresp="#p_WCE1">Wilson</persName>)<note n="1"
                             xml:id="d323fn1" type="source">Source: Department of State, Central
                             Files, 031.1102/4–357. Secret.</note></head>
-                    <dateline><hi rend="italic"><placeName>Washington</placeName>,
-                                <date>undated</date>.</hi></dateline>
+                    <dateline><hi rend="italic"><placeName>Washington</placeName>, <date
+                                when="1957-04-03T15:00:00-05:00"
+                                ana="#date_undated-inferred-from-document-content"
+                                type="conversation-or-meeting-date">undated</date>.</hi></dateline>
                     <p rend="center">INTER-AGENCY MEETING ON THE ANTARCTIC</p>
                     <p>The second meeting was held April 3 at the invitation of Ambassador Robert
                         McClintock (<gloss target="#t_SP1">S/P</gloss>) at 3 p.m. in Room 5105. In
@@ -38318,10 +38395,13 @@
                     </frus:attachment>
                 </div>
             </div>
-            <div type="compilation" xml:id="comp4">
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1955-05-20T00:00:00-05:00"
+                frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                 <pb n="723" xml:id="pg_723" facs="0749"/>
                 <head>United States Interest in the Scientific Exploration of Outer Space</head>
-                <div type="document" xml:id="d339" n="339" subtype="editorial-note">
+                <div type="document" xml:id="d339" n="339" subtype="editorial-note"
+                    frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                     <head>339. Editorial Note</head>
                     <p>United States interest in the scientific exploration of outer space during
                         the mid and late 1950’s was part of a broader concern with the military
@@ -38902,7 +38982,9 @@
                                     Gleason</hi></persName></signed></closer>
                 </div>
                 <pb n="734" xml:id="pg_734" facs="0760"/>
-                <div type="document" xml:id="d342" n="342" subtype="editorial-note">
+                <div type="document" xml:id="d342" n="342" subtype="editorial-note"
+                    frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                     <head>342. Editorial Note</head>
                     <p>On July 29, Presidential Press Secretary <persName corresp="#p_HJC1">James C.
                             Hagerty</persName> issued a statement from the White House as follows:
@@ -39945,7 +40027,9 @@
                     <closer><signed><persName corresp="#p_GSE1"><hi rend="strong">S. Everett
                                     Gleason</hi></persName></signed></closer>
                 </div>
-                <div type="document" xml:id="d346" n="346" subtype="editorial-note">
+                <div type="document" xml:id="d346" n="346" subtype="editorial-note"
+                    frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                     <head>346. Editorial Note</head>
                     <p>On October 4, the Soviet Union launched the world’s first orbiting earth
                         satellite, designated “Sputnik I.” The satellite weighed 184 pounds, or
@@ -41394,9 +41478,13 @@
                 </div>
             </div>
             <pb n="784" xml:id="pg_784" facs="0810"/>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" subtype="editorial-note" xml:id="comp5"
+                frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                 <head>United States Policy Regarding the International Geophysical Year</head>
-                <div type="document" xml:id="d361" n="361" subtype="editorial-note">
+                <div type="document" xml:id="d361" n="361" subtype="editorial-note"
+                    frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                     <head>361. Editorial Note</head>
                     <p>During 1954–1958, the United States Government in general, and the Department
                         of State in particular, devoted substantial attention and energies to the
@@ -41468,7 +41556,9 @@
         <back>
             <pb n="786" xml:id="pg_786" facs="0812"/>
             <pb n="787" xml:id="pg_787" facs="0813"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1954-12-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1958-02-03T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Adair, H. Ross, <ref target="#pg_434">434</ref>, <ref target="#pg_445"

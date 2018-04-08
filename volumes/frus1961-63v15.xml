@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1994</date>
+                <date type="publication-date">1994</date>
                 <idno type="dospubno">10089</idno>
                 <idno type="isbn-10">0160417724</idno>
                 <idno type="isbn-13">9780160417726</idno>
@@ -42,6 +42,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1962-03-09T00:00:00-05:00"
+                notAfter="1963-12-29T11:30:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -73,7 +77,9 @@
                     20402-9328<lb/>ISBN 0-16-041772-4</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -369,7 +375,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III"><hi rend="strong">Preface</hi></ref></item>
@@ -404,7 +412,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0012"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0013"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                 <head>List of Sources</head>
                 <p rend="center"><hi rend="strong">Unpublished Sources</hi></p>
                 <list type="sources">
@@ -654,7 +664,9 @@
             </div>
             <pb n="[XVI]" xml:id="pg_XVI" facs="0016"/>
             <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_ACA1">ACA</term>,</hi> Allied Control
@@ -891,7 +903,9 @@
                 </list>
             </div>
             <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_APA1">Abrasimov, Pyotr
@@ -1222,9 +1236,11 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0023"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                 <head>Berlin Crisis, 1962–1963</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-03-28T10:30:00-05:00">
                     <head>March 1962: Discussion of Berlin at the Eighteen-Nation Disarmament
                         Committee Meetings at Geneva</head>
                     <div type="document" xml:id="d1" n="1" subtype="historical-document"
@@ -3620,7 +3636,9 @@
                         <closer><signed><persName corresp="#p_RD3"><hi rend="strong"
                                     >Rusk</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d14" n="14" subtype="editorial-note">
+                    <div type="document" xml:id="d14" n="14" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>14. Editorial Note</head>
                         <p>On March 15 Assistant Secretary of State <persName corresp="#p_KFD1"
                                 >Kohler</persName> hosted a working luncheon for Deputy Foreign
@@ -4900,7 +4918,9 @@
                             many problems would fall into place if the central questions were
                             resolved.</p>
                     </div>
-                    <div type="document" xml:id="d20" n="20" subtype="historical-document">
+                    <div type="document" xml:id="d20" n="20" subtype="historical-document"
+                        frus:doc-dateTime-min="1962-03-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1962-03-21T23:59:59-05:00">
                         <head>20. Paper Prepared in the U.S. Delegation<note n="0" xml:id="d20fn0"
                                 type="source">Source: Department of State, Central Files,
                                 762.00/3–2062. Confidential. The source text bears no drafting
@@ -4910,7 +4930,9 @@
                                 worked out after communications with Washington. The source text
                                 bears the handwritten notation: “As handed <persName
                                     corresp="#p_GAA1">Gromyko</persName>.”</note></head>
-                        <dateline><placeName>Geneva</placeName>, <date>undated</date>.</dateline>
+                        <dateline><placeName>Geneva</placeName>, <date when="1962-03-21"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">DRAFT PRINCIPLES</p>
                         <p>The US and USSR have been discussing a wide range of subjects. They have
                             agreed, in regard to certain of these subjects on (i) certain general
@@ -6178,7 +6200,8 @@
                     </div>
                 </div>
                 <pb n="95" xml:id="pg_95" facs="0117"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1962-04-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-05-25T23:59:59-05:00">
                     <head>April-May 1962: Differences Between the United States and the Federal
                         Republic of Germany</head>
                     <div type="document" xml:id="d30" n="30" subtype="historical-document"
@@ -6567,7 +6590,9 @@
                                         Bundy</hi></persName></signed></closer>
                     </div>
                     <pb n="101" xml:id="pg_101" facs="0123"/>
-                    <div type="document" xml:id="d33" n="33" subtype="editorial-note">
+                    <div type="document" xml:id="d33" n="33" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>33. Editorial Note</head>
                         <p>On April 12 General <persName corresp="#p_CLD1">Clay</persName>, who had
                             returned to Washington for consultations, met just before noon with
@@ -8736,7 +8761,9 @@
                         <closer><signed><persName corresp="#p_DWC1"><hi rend="strong"
                                     >Dowling</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d48" n="48" subtype="editorial-note">
+                    <div type="document" xml:id="d48" n="48" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>48. Editorial Note</head>
                         <p>On May 11 the President’s Press Secretary <persName corresp="#p_SPEG1"
                                 >Pierre Salinger</persName> arrived in Moscow for a 5-day visit.
@@ -9109,7 +9136,9 @@
                         <closer><signed><persName corresp="#p_DWC1"><hi rend="strong"
                                     >Dowling</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d52" n="52" subtype="editorial-note">
+                    <div type="document" xml:id="d52" n="52" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>52. Editorial Note</head>
                         <p>On May 15 General <persName corresp="#p_CLD1">Lucius D. Clay</persName>,
                             the President’s Special Representative in Berlin, testified before the
@@ -9510,7 +9539,9 @@
                         <closer><signed><persName><hi rend="strong"
                             >L</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d56" n="56" subtype="editorial-note">
+                    <div type="document" xml:id="d56" n="56" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>56. Editorial Note</head>
                         <p>On May 17 Under Secretary of State <persName corresp="#p_BGW1"
                                 >Ball</persName> left Washington for a trip to Copenhagen,
@@ -9711,7 +9742,8 @@
                     </div>
                 </div>
                 <pb n="161" xml:id="pg_161" facs="0183"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1962-05-30T10:00:00-05:00"
+                    frus:doc-dateTime-max="1962-07-28T12:00:00-05:00">
                     <head>May–July 1962: Further Discussions in Washington, Geneva, and
                         Moscow</head>
                     <div type="document" xml:id="d59" n="59" subtype="historical-document"
@@ -10472,7 +10504,9 @@
                             316)</note></p>
                     </div>
                     <pb n="176" xml:id="pg_176" facs="0198"/>
-                    <div type="document" xml:id="d62" n="62" subtype="editorial-note">
+                    <div type="document" xml:id="d62" n="62" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>62. Editorial Note</head>
                         <p>On June 7 the Soviet Union transmitted to the Embassies of the United
                             States, the United Kingdom, and France in Moscow notes protesting “a
@@ -10487,7 +10521,9 @@
                             texts of the notes, see Department of State Bulletin, July 16, 1962,
                             pages 97–99.</p>
                     </div>
-                    <div type="document" xml:id="d63" n="63" subtype="editorial-note">
+                    <div type="document" xml:id="d63" n="63" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>63. Editorial Note</head>
                         <p>In a footnote to his biography of <persName corresp="#p_KRF1">Robert
                                 Kennedy</persName>, <persName>Arthur Schlesinger</persName> stated:
@@ -12145,7 +12181,9 @@
                             induced violence and hatred. It should be disposed of soon.</p>
                         <p>[Here follows discussion of disarmament.]</p>
                     </div>
-                    <div type="document" xml:id="d73" n="73" subtype="historical-document">
+                    <div type="document" xml:id="d73" n="73" subtype="historical-document"
+                        frus:doc-dateTime-min="1962-07-03T12:00:00-05:00"
+                        frus:doc-dateTime-max="1962-07-05T22:59:59-05:00">
                         <head>73. Message From Chairman <persName corresp="#p_KNS2" type="from"
                                 >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                                 type="to">Kennedy</persName><note n="0" xml:id="d73fn0"
@@ -12165,7 +12203,10 @@
                                 to the President. (Memorandum of conversation, July 12; Department
                                 of State, Presidential Correspondence: Lot 77 D 163)</note></head>
                         <dateline><placeName>Moscow</placeName>, <date
-                                type="conversation-or-meeting-date">undated</date>.</dateline>
+                                notBefore="1962-07-03T13:00:00-04:00"
+                                notAfter="1962-07-05T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p>We are following with great attention the development of the
                             Soviet-American exchange of opinions on German peace treaty and
                             normalization on its basis of the situation in West Berlin and we are
@@ -14664,7 +14705,8 @@
                     </div>
                 </div>
                 <pb n="256" xml:id="pg_256" facs="0278"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1962-08-01T23:00:00-05:00"
+                    frus:doc-dateTime-max="1962-09-06T13:00:00-05:00">
                     <head>August-September 1962: Contingency Planning, the Death of Peter Fechter,
                         and the Abolition of the Office of the Soviet Commandant</head>
                     <div type="document" xml:id="d90" n="90" subtype="historical-document"
@@ -17621,7 +17663,8 @@
                     </div>
                 </div>
                 <pb n="311" xml:id="pg_311" facs="0333"/>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1962-09-07T11:00:00-05:00"
+                    frus:doc-dateTime-max="1962-11-09T23:59:59-05:00">
                     <head>September–November 1962: U.S. Policy on Berlin During the Cuban Missile
                         Crisis</head>
                     <div type="document" xml:id="d113" n="113" subtype="historical-document"
@@ -18999,7 +19042,9 @@
                         <closer><signed><persName corresp="#p_BGW1"><hi rend="strong"
                                     >Ball</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d124" n="124" subtype="editorial-note">
+                    <div type="document" xml:id="d124" n="124" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>124. Editorial Note</head>
                         <p>On September 28 Secretary of Defense <persName corresp="#p_MNRS1"
                                 >McNamara</persName>, who had just returned to Washington from a
@@ -19017,7 +19062,9 @@
                             conference, see The New York Times, September 29, 1962.</p>
                     </div>
                     <pb n="337" xml:id="pg_337" facs="0359"/>
-                    <div type="document" xml:id="d125" n="125" subtype="historical-document">
+                    <div type="document" xml:id="d125" n="125" subtype="historical-document"
+                        frus:doc-dateTime-min="1962-09-25T20:21:00-05:00"
+                        frus:doc-dateTime-max="1962-09-29T23:00:00-05:00">
                         <head>125. Message From Chairman <persName corresp="#p_KNS2" type="from"
                                 >Khrushchev</persName> to President <persName corresp="#p_KJF2"
                                 type="to">Kennedy</persName><note n="0" xml:id="d125fn0"
@@ -19026,7 +19073,11 @@
                                     >Khrushchev</persName> Correspondence. No classification
                                 marking. The full text is printed in <ref target="frus1961-63v06"
                                     >volume VI</ref>.</note></head>
-                        <dateline><placeName>Moscow</placeName>, <date>undated</date>.</dateline>
+                        <dateline><placeName>Moscow</placeName>, <date
+                                notBefore="1962-09-25T21:21:00-04:00"
+                                notAfter="1962-09-30T00:00:00-04:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                         <p>[Here follow 7–1/2 pages on the cessation of nuclear testing.]</p>
                         <p>I believe that you, Mr. President, like me realize that until a
                             reasonable solution is reached on West Berlin this source will always
@@ -19360,7 +19411,9 @@
                         <closer><signed><persName corresp="#p_RD3"><hi rend="strong"
                                     >Rusk</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d127" n="127" subtype="editorial-note">
+                    <div type="document" xml:id="d127" n="127" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>127. Editorial Note</head>
                         <p>On October 2 <persName corresp="#p_BMG2">McGeorge Bundy</persName>
                             visited Chancellor <persName corresp="#p_AK3">Adenauer</persName> at
@@ -22778,7 +22831,9 @@
                                             signatures.</note></item>
                                 </list></signed></closer>
                     </div>
-                    <div type="document" xml:id="d147" n="147" subtype="editorial-note">
+                    <div type="document" xml:id="d147" n="147" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>147. Editorial Note</head>
                         <p>On October 30 Chairman <persName corresp="#p_KNS2">Khrushchev</persName>
                             sent a 16-page letter to President <persName corresp="#p_KJF2"
@@ -22926,7 +22981,9 @@
                                     >Lightner</hi></persName></signed></closer>
                     </div>
                     <pb n="411" xml:id="pg_411" facs="0433"/>
-                    <div type="document" xml:id="d149" n="149" subtype="historical-document">
+                    <div type="document" xml:id="d149" n="149" subtype="historical-document"
+                        frus:doc-dateTime-min="1962-11-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1962-11-05T23:59:59-05:00">
                         <head>149. Memorandum From the Chairman of the Berlin-<gloss
                                 target="#t_NATO1">NATO</gloss> Subcommittee (<persName
                                 corresp="#p_NPH1" type="from">Nitze</persName>) to President
@@ -22935,8 +22992,9 @@
                                 Security Files, Countries Series, Germany, Berlin. Top Secret. A
                                 handwritten note on the source text reads: “Ret’d from Mrs. Lincoln
                                 11/5/62.”</note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date when="1962-11-05"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="flushleft">I–26257/62</p>
                         <p>The attached paper, “Berlin in Light of Cuba”, arises from the work of
                             the NSC Subcommittee on Berlin but is not an agreed paper. It represents
@@ -23651,7 +23709,8 @@
                     </div>
                 </div>
                 <pb n="425" xml:id="pg_425" facs="0447"/>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1962-11-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-01-17T16:00:00-05:00">
                     <head>November 1962–January 1963: Allied Consideration of Resuming Talks With
                         the Soviet Union</head>
                     <div type="document" xml:id="d152" n="152" subtype="historical-document"
@@ -26574,7 +26633,8 @@
                     </div>
                 </div>
                 <pb n="478" xml:id="pg_478" facs="0500"/>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1963-01-18T18:00:00-05:00"
+                    frus:doc-dateTime-max="1963-06-25T23:59:59-05:00">
                     <head>January–June 1963: Resumption of Talks With The Soviet Union and President
                         Kennedy’s Trip to Germany</head>
                     <div type="document" xml:id="d170" n="170" subtype="historical-document"
@@ -26727,7 +26787,9 @@
                         <closer><signed><persName corresp="#p_KFD1"><hi rend="strong"
                                     >Kohler</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d172" n="172" subtype="editorial-note">
+                    <div type="document" xml:id="d172" n="172" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>172. Editorial Note</head>
                         <p>On January 31 Assistant Secretary of State for European Affairs <persName
                                 corresp="#p_TWR2">Tyler</persName> and Ambassador at Large <persName
@@ -28409,7 +28471,9 @@
                             convey them to the President and the Secretary.</p>
                     </div>
                     <pb n="512" xml:id="pg_512" facs="0534"/>
-                    <div type="document" xml:id="d187" n="187" subtype="editorial-note">
+                    <div type="document" xml:id="d187" n="187" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>187. Editorial Note</head>
                         <p>In a letter to President <persName corresp="#p_KJF2">Kennedy</persName>
                             on April 29, Chairman <persName corresp="#p_KNS2">Khrushchev</persName>
@@ -28440,7 +28504,9 @@
                         <p>The full text of this letter is printed in <ref target="frus1961-63v06"
                                 >volume VI</ref>.</p>
                     </div>
-                    <div type="document" xml:id="d188" n="188" subtype="editorial-note">
+                    <div type="document" xml:id="d188" n="188" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>188. Editorial Note</head>
                         <p>After presenting his credentials to President Luebke on May 18, the new
                             Ambassador to Germany, <persName corresp="#p_MGGC2">George C.
@@ -29725,7 +29791,9 @@
                                 German firms had. (US/MC/35; ibid., POL 7 US/<hi rend="italic"
                                     >Kennedy</hi>)</note></p>
                     </div>
-                    <div type="document" xml:id="d198" n="198" subtype="editorial-note">
+                    <div type="document" xml:id="d198" n="198" subtype="editorial-note"
+                        frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                         <head>198. Editorial Note</head>
                         <p>On June 26 President <persName corresp="#p_KJF2">Kennedy</persName> flew
                             from Wiesbaden Air Force Base to Berlin, arriving at Tegel Airport at
@@ -29745,7 +29813,8 @@
                     </div>
                 </div>
                 <pb n="536" xml:id="pg_536" facs="0558"/>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1963-06-27T22:00:00-05:00"
+                    frus:doc-dateTime-max="1963-10-07T10:00:00-05:00">
                     <head>June-October 1963: Discussions at Moscow, New York, and Washington</head>
                     <div type="document" xml:id="d199" n="199" subtype="historical-document"
                         frus:doc-dateTime-min="1963-06-27T22:00:00-05:00"
@@ -32611,7 +32680,8 @@
                     </div>
                 </div>
                 <pb n="591" xml:id="pg_591" facs="0613"/>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1963-10-10T16:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                     <head>October-December 1963: Convoy Incidents and Chancellor <persName
                             corresp="#p_EL1">Erhard</persName>’s Visit to the United States</head>
                     <div type="document" xml:id="d219" n="219" subtype="historical-document"
@@ -37635,7 +37705,9 @@
         </body>
         <back>
             <pb n="683" xml:id="pg_683" facs="0705"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1962-03-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-29T11:30:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item><persName corresp="#p_APA1">Abrasimov, Pyotr A.</persName>, <ref

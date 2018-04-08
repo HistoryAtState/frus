@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1975</date>
+                <date type="publication-date">1975</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -66,6 +66,10 @@
             <change>2014-12-04 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1947-11-26T19:00:00-05:00"
+                notAfter="1948-12-31T18:00:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -97,7 +101,9 @@
                     Price $8.25 (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                 <head>Preface</head>
                 <p>Part 1 of this volume was prepared under the direct supervision of the late S.
                     Everett Gleason, Chief of the Foreign Relations Division, with additional review
@@ -208,7 +214,9 @@
                 </frus:attachment>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -402,7 +410,9 @@
                 </list>
             </div>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                 <head>List of abbreviations and symbols</head>
                 <p>
                     <hi rend="smallcaps">Editor’s note</hi>.—This list does not include standard
@@ -1142,11 +1152,15 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0015"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-30T16:00:00-05:00">
                 <head>The Near East:</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1948-01-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-28T23:59:59-05:00">
                     <head>Multilateral Relations:</head>
-                    <div type="subchapter" xml:id="ch1subch1">
+                    <div type="subchapter" subtype="referral" xml:id="ch1subch1"
+                        frus:doc-dateTime-min="1948-01-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1949-01-03T17:00:00-05:00">
                         <head>Interest of the United States in the Arab–Zionist controversy over the
                             future status of Palestine; the issue at the United States; creation of
                             the state of Israel; entry of Arab forces into Palestine</head>
@@ -1160,7 +1174,9 @@
                             Arab forces into Palestine. Documentation on these matters is included
                             in part 2 of this volume.]</p>
                     </div>
-                    <div type="subchapter" xml:id="ch1subch2">
+                    <div type="subchapter" subtype="referral" xml:id="ch1subch2"
+                        frus:doc-dateTime-min="1947-05-04T18:00:00-05:00"
+                        frus:doc-dateTime-max="1948-12-31T23:59:59-05:00">
                         <head>United States economic and military aid to Greece and Turkey</head>
                         <p>[Documentation on American aid to Greece and Turkey under the Truman
                             Doctrine is printed in <ref target="frus1948v04#pg_1">volume IV, pages
@@ -1171,10 +1187,14 @@
                                 pages 1</ref>–<ref target="frus1948v03#pg_351">351</ref>.]</p>
                     </div>
                     <pb n="2" xml:id="pg_2" facs="0016"/>
-                    <div type="subchapter" xml:id="ch1subch3">
+                    <div type="subchapter" xml:id="ch1subch3"
+                        frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                        frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                         <head>Interest of the United States in the security of the Eastern
                             Mediterranean and of the Middle East</head>
-                        <div type="document" xml:id="d1" n="1" subtype="editorial-note">
+                        <div type="document" xml:id="d1" n="1" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -1256,7 +1276,9 @@
                             <pb n="4" xml:id="pg_4" facs="0018"/>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch1subch4">
+                    <div type="subchapter" xml:id="ch1subch4"
+                        frus:doc-dateTime-min="1948-01-28T00:00:00-05:00"
+                        frus:doc-dateTime-max="1948-12-28T23:59:59-05:00">
                         <head>Participation of the United States in the development of the petroleum
                             resources of the Near East<note n="1" xml:id="ch1subch4fn1">Continued
                                 from <ref target="frus1947v05#pg_627">
@@ -1561,7 +1583,9 @@
                             </closer>
                             <pb n="8" xml:id="pg_8" facs="0022"/>
                         </div>
-                        <div type="document" xml:id="d6" n="6" subtype="editorial-note">
+                        <div type="document" xml:id="d6" n="6" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -3268,7 +3292,9 @@
                                     Superior concerning the Department’s views.</item>
                             </list>
                         </div>
-                        <div type="document" xml:id="d22" n="22" subtype="editorial-note">
+                        <div type="document" xml:id="d22" n="22" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -4433,7 +4459,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d32" n="32" subtype="editorial-note">
+                        <div type="document" xml:id="d32" n="32" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -5800,7 +5828,9 @@
                             <p>Messrs. Harding and Harden offered to answer any inquiries which
                                 subsequent study of the agreement might suggest.</p>
                         </div>
-                        <div type="document" xml:id="d46" n="46" subtype="editorial-note">
+                        <div type="document" xml:id="d46" n="46" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -5924,7 +5954,9 @@
                         </div>
                     </div>
                     <pb n="69" xml:id="pg_69" facs="0083"/>
-                    <div type="subchapter" xml:id="ch1subch5">
+                    <div type="subchapter" xml:id="ch1subch5"
+                        frus:doc-dateTime-min="1948-01-02T00:00:00-05:00"
+                        frus:doc-dateTime-max="1948-03-29T23:59:59-05:00">
                         <head>Aftermath of the “Pentagon Talks of 1947” between the United States
                             and the United Kingdom concerning the Middle East and the Eastern
                                 Mediterranean<note n="1" xml:id="ch1subch5fn1">Previous
@@ -6730,7 +6762,9 @@
                         </div>
                     </div>
                     <pb n="81" xml:id="pg_81" facs="0095"/>
-                    <div type="subchapter" xml:id="ch1subch6">
+                    <div type="subchapter" xml:id="ch1subch6"
+                        frus:doc-dateTime-min="1948-08-24T00:00:00-05:00"
+                        frus:doc-dateTime-max="1948-08-24T23:59:59-05:00">
                         <head>Information policy of the United States concerning the Arab states;
                             the question of cooperation in this field with the United Kingdom<note
                                 n="1" xml:id="ch1subch6fn1">For previous documentation on the
@@ -6958,9 +6992,12 @@
                     </div>
                 </div>
                 <pb n="85" xml:id="pg_85" facs="0099"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                     <head>Egypt:</head>
-                    <div type="subchapter" xml:id="ch2subch1">
+                    <div type="subchapter" xml:id="ch2subch1"
+                        frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                        frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                         <head>Interest of the United States in the revision of the Anglo-Egyptian
                             treaty of August 26, 1936, and the future status of the Sudan;<note
                                 n="1" xml:id="ch2subch1fn1">For previous documentation on these
@@ -6968,7 +7005,9 @@
                                     <hi rend="italic">Foreign Relations</hi>, 1947, vol. <hi
                                         rend="smallcaps">v</hi>, pp. 760</ref> ff.</note> the
                             Soviet-Egyptian barter agreement</head>
-                        <div type="document" xml:id="d54" n="54" subtype="editorial-note">
+                        <div type="document" xml:id="d54" n="54" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -7056,16 +7095,21 @@
                         </div>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" subtype="referral" xml:id="ch3"
+                    frus:doc-dateTime-min="1947-05-04T18:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-29T23:59:59-05:00">
                     <head>Greece</head>
                     <p>[Documentation on United States economic and military aid to Greece under the
                         Truman Doctrine is printed in <ref target="frus1948v04">volume
                         IV</ref>.]</p>
                 </div>
                 <pb n="88" xml:id="pg_88" facs="0102"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1948-01-03T13:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-02T18:00:00-05:00">
                     <head>Iran:</head>
-                    <div type="subchapter" xml:id="ch4subch1">
+                    <div type="subchapter" xml:id="ch4subch1"
+                        frus:doc-dateTime-min="1948-01-03T13:00:00-05:00"
+                        frus:doc-dateTime-max="1948-12-02T18:00:00-05:00">
                         <head>Concern of the United States with the hostile attitude of the Soviet
                             Union towards Iran; political support of Iran by the United States; the
                             question of United States military and economic aid to Iran<note n="1"
@@ -8153,7 +8197,9 @@
                             </p>
                             <pb n="105" xml:id="pg_105" facs="0119"/>
                         </div>
-                        <div type="document" xml:id="d64" n="64" subtype="editorial-note">
+                        <div type="document" xml:id="d64" n="64" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -13173,7 +13219,9 @@
                             </closer>
                             <pb n="179" xml:id="pg_179" facs="0193"/>
                         </div>
-                        <div type="document" xml:id="d131" n="131" subtype="editorial-note">
+                        <div type="document" xml:id="d131" n="131" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -14694,7 +14742,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d150" n="150" subtype="editorial-note">
+                        <div type="document" xml:id="d150" n="150" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -14719,9 +14769,12 @@
                     </div>
                 </div>
                 <pb n="202" xml:id="pg_202" facs="0216"/>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-01T13:00:00-05:00">
                     <head>Iraq:</head>
-                    <div type="subchapter" xml:id="ch5subch1">
+                    <div type="subchapter" xml:id="ch5subch1"
+                        frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                        frus:doc-dateTime-max="1948-12-01T13:00:00-05:00">
                         <head>Interest of the United States in the negotiations between the United
                             Kingdom and Iraq to revise the British–Iraqi Treaty of Alliance of June
                             30, 1930; economic assistance to Iraq<note n="1" xml:id="ch5subch1fn1"
@@ -14888,7 +14941,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d154" n="154" subtype="editorial-note">
+                        <div type="document" xml:id="d154" n="154" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -15002,7 +15057,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d157" n="157" subtype="editorial-note">
+                        <div type="document" xml:id="d157" n="157" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -15175,15 +15232,20 @@
                     </div>
                 </div>
                 <pb n="208" xml:id="pg_208" facs="0222"/>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" subtype="referral" xml:id="ch6"
+                    frus:doc-dateTime-min="1948-01-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1949-01-03T17:00:00-05:00">
                     <head>Israel</head>
                     <p>[Documentation on the creation of the state of Israel and related matters is
                         included in part 2 of this volume.]</p>
                 </div>
                 <pb n="209" xml:id="pg_209" facs="0223"/>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1948-01-13T17:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-30T16:00:00-05:00">
                     <head>Saudi Arabia:</head>
-                    <div type="subchapter" xml:id="ch7subch1">
+                    <div type="subchapter" xml:id="ch7subch1"
+                        frus:doc-dateTime-min="1948-01-13T17:00:00-05:00"
+                        frus:doc-dateTime-max="1948-12-30T16:00:00-05:00">
                         <head>Interest of the United States in the questions of economic and
                             military assistance to Saudi Arabia, renewal of United States tenancy at
                             the Dhahran airfield, and the proposed treaty of alliance between the
@@ -15712,7 +15774,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d166" n="166" subtype="editorial-note">
+                        <div type="document" xml:id="d166" n="166" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -17834,7 +17898,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d190" n="190" subtype="editorial-note">
+                        <div type="document" xml:id="d190" n="190" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -18998,7 +19064,8 @@
                     </div>
                 </div>
                 <pb n="264" xml:id="pg_264" facs="0278"/>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1947-05-04T18:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-29T23:59:59-05:00">
                     <head>Turkey</head>
                     <p>[Documentation on United States economic and military aid to Turkey and
                         Greece (Truman Doctrine) is printed in <ref target="frus1948v04">volume
@@ -19006,11 +19073,15 @@
                 </div>
             </div>
             <pb n="265" xml:id="pg_265" facs="0279"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1948-01-01T09:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                 <head>South Asia:</head>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1948-01-01T09:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                     <head>Multilateral Relations:</head>
-                    <div type="subchapter" xml:id="ch9subch1">
+                    <div type="subchapter" xml:id="ch9subch1"
+                        frus:doc-dateTime-min="1948-01-01T09:00:00-05:00"
+                        frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                         <head>Participation of the United States in efforts to resolve the dispute
                             between India and Pakistan over Kashmir and Hyderabad<note n="1"
                                 xml:id="ch9subch1fn1">For previous documentation on United States
@@ -20329,7 +20400,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d218" n="218" subtype="editorial-note">
+                        <div type="document" xml:id="d218" n="218" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -20429,7 +20502,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d220" n="220" subtype="editorial-note">
+                        <div type="document" xml:id="d220" n="220" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -20549,7 +20624,9 @@
                             </closer>
                             <pb n="285" xml:id="pg_285" facs="0299"/>
                         </div>
-                        <div type="document" xml:id="d222" n="222" subtype="editorial-note">
+                        <div type="document" xml:id="d222" n="222" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -21495,7 +21572,9 @@
                                 problem presented by the Indian letter and would communicate its
                                 recommendations to New York today.</p>
                         </div>
-                        <div type="document" xml:id="d233" n="233" subtype="editorial-note">
+                        <div type="document" xml:id="d233" n="233" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -22515,7 +22594,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d244" n="244" subtype="editorial-note">
+                        <div type="document" xml:id="d244" n="244" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -24460,7 +24541,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d267" n="267" subtype="editorial-note">
+                        <div type="document" xml:id="d267" n="267" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -24917,7 +25000,9 @@
                                 </signed>
                             </closer>
                         </div>
-                        <div type="document" xml:id="d275" n="275" subtype="editorial-note">
+                        <div type="document" xml:id="d275" n="275" subtype="editorial-note"
+                            frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                            frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                             <head>
                                 <hi rend="italic">Editorial Note</hi>
                             </head>
@@ -35077,7 +35162,9 @@
                         </div>
                     </div>
                     <pb n="486" xml:id="pg_486" facs="0500"/>
-                    <div type="subchapter" xml:id="ch9subch2">
+                    <div type="subchapter" subtype="referrak" xml:id="ch9subch2"
+                        frus:doc-dateTime-min="1948-01-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1949-12-31T23:59:59-05:00">
                         <head>Interest of the United States in resolving the dispute between
                             Afghanistan and Iran regarding distribution of the waters of the Helmand
                                 River<note n="1" xml:id="ch9subch2fn1">For previous reference to
@@ -35094,7 +35181,9 @@
                             1949, is in Department of State file 890H.6461.]</p>
                     </div>
                     <pb n="487" xml:id="pg_487" facs="0501"/>
-                    <div type="subchapter" xml:id="ch9subch3">
+                    <div type="subchapter" subtype="referral" xml:id="ch9subch3"
+                        frus:doc-dateTime-min="1947-01-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1949-12-31T23:59:59-05:00">
                         <head>Interest of the United States in preserving peaceful relations between
                             Afghanistan and Pakistan regarding the status of the North-West Frontier
                             Province and the Tribal Areas</head>
@@ -35106,9 +35195,12 @@
                     </div>
                 </div>
                 <pb n="488" xml:id="pg_488" facs="0502"/>
-                <div type="chapter" xml:id="ch10">
+                <div type="chapter" xml:id="ch10" frus:doc-dateTime-min="1948-01-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-08T23:59:59-05:00">
                     <head>Afghanistan:</head>
-                    <div type="subchapter" xml:id="ch10subch1">
+                    <div type="subchapter" xml:id="ch10subch1"
+                        frus:doc-dateTime-min="1948-01-07T00:00:00-05:00"
+                        frus:doc-dateTime-max="1948-12-08T23:59:59-05:00">
                         <head>Discussion with Afghanistan concerning Afghan requests for financial
                             assistance and provision of military equipment; elevation of the
                             American Legation in Afghanistan to the status of Embassy</head>
@@ -35499,9 +35591,12 @@
                     </div>
                 </div>
                 <pb n="495" xml:id="pg_495" facs="0509"/>
-                <div type="chapter" xml:id="ch11">
+                <div type="chapter" xml:id="ch11" frus:doc-dateTime-min="1948-01-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1948-12-22T08:00:00-05:00">
                     <head>India</head>
-                    <div type="subchapter" xml:id="ch11subch1">
+                    <div type="subchapter" xml:id="ch11subch1"
+                        frus:doc-dateTime-min="1948-01-26T00:00:00-05:00"
+                        frus:doc-dateTime-max="1948-12-22T08:00:00-05:00">
                         <head>Discussion between the United States and India concerning India’s
                             attitudes toward the United States and the Soviet Union, and Indian
                             requests for financial and military aid</head>
@@ -37096,20 +37191,27 @@
                 </div>
             </div>
             <pb n="522" xml:id="pg_522" facs="0536"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1948-11-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1948-11-23T23:59:59-05:00">
                 <head>Africa:</head>
-                <div type="chapter" xml:id="ch12">
+                <div type="chapter" xml:id="ch12" frus:doc-dateTime-min="1948-03-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1948-06-11T23:59:59-05:00">
                     <head>French North Africa:</head>
-                    <div type="subchapter" xml:id="ch12subch1">
+                    <div type="subchapter" subtype="referral" xml:id="ch12subch1"
+                        frus:doc-dateTime-min="1948-03-22T00:00:00-05:00"
+                        frus:doc-dateTime-max="1948-06-11T23:59:59-05:00">
                         <head>United States policy with regard to French North Africa</head>
                         <p>[For documentation on this subject, see <ref target="frus1948v03#pg_682"
                                 >volume <hi rend="smallcaps">iii</hi>, pages 682</ref> ff.]</p>
                     </div>
                 </div>
                 <pb n="523" xml:id="pg_523" facs="0537"/>
-                <div type="chapter" xml:id="ch13">
+                <div type="chapter" xml:id="ch13" frus:doc-dateTime-min="1946-01-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1949-06-30T23:59:59-05:00">
                     <head>Liberia:</head>
-                    <div type="subchapter" xml:id="ch13subch1">
+                    <div type="subchapter" subtype="referral" xml:id="ch13subch1"
+                        frus:doc-dateTime-min="1946-01-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1949-06-30T23:59:59-05:00">
                         <head>Interest of the United States in maintaining limited operational
                             control over Roberts Field</head>
                         <p>[For documentation on the 1946–49 development of this subject, including
@@ -37124,9 +37226,12 @@
                     </div>
                 </div>
                 <pb n="524" xml:id="pg_524" facs="0538"/>
-                <div type="chapter" xml:id="ch14">
+                <div type="chapter" xml:id="ch14" frus:doc-dateTime-min="1948-11-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1948-11-23T23:59:59-05:00">
                     <head>Union of South Africa:</head>
-                    <div type="subchapter" xml:id="ch14subch1">
+                    <div type="subchapter" xml:id="ch14subch1"
+                        frus:doc-dateTime-min="1948-11-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1948-11-23T23:59:59-05:00">
                         <head>United States relations with the Union of South Africa</head>
                         <div type="document" xml:id="d413" n="413" subtype="historical-document"
                             frus:doc-dateTime-min="1948-11-01T00:00:00-05:00"
@@ -37593,7 +37698,9 @@
             <pb n="i" xml:id="pg_i" facs="0547"/>
             <pb n="ii" xml:id="pg_ii" facs="0548"/>
             <pb n="iii" xml:id="pg_iii" facs="0549"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1947-11-26T19:00:00-05:00"
+                frus:doc-dateTime-max="1948-12-31T18:00:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Abbas, Chaudry Ghulam, <ref target="#pg_384">384</ref>, <ref

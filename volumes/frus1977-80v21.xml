@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2014</date>
+                <date type="publication-date">2014</date>
                 <idno type="frus">frus1977-80v21</idno>
             </publicationStmt>
             <sourceDesc>
@@ -28,6 +28,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
+        <xenoData>
+            <frus:coverage notBefore="1976-09-01T00:00:00-05:00"
+                notAfter="1981-01-16T20:14:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
 
@@ -59,7 +63,9 @@
                     20402-0001</docImprint>
             </titlePage>
 
-            <div type="section" xml:id="about">
+            <div type="section" xml:id="about" subtype="about-frus-series"
+                frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -236,11 +242,13 @@
                     <lb/>
                     <orgName>Bureau of Public Affairs</orgName>
                     <lb/>
-                    <date>April 2014</date>
+                    <date when="2014-04">April 2014</date>
                 </closer>
             </div>
 
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                 <pb n="VII" facs="0008" xml:id="pg_VII"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">Structure and Scope of the <hi rend="roman">Foreign
@@ -386,7 +394,9 @@
                 </closer>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Contents</head>
                 <list>
@@ -441,7 +451,9 @@
             <pb n="XII" facs="0013" xml:id="pg_XII"/>
             <gap quantity="1" unit="pages" reason="convenience"/>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <hi rend="roman">Foreign Relations</hi>,
@@ -700,7 +712,9 @@
             <pb n="XVIII" facs="0019" xml:id="pg_XVIII"/>
             <gap quantity="1" unit="pages" reason="convenience"/>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -1556,7 +1570,9 @@
             </div>
 
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                 <pb n="XXV" facs="0026" xml:id="pg_XXV"/>
                 <head>Persons</head>
                 <list type="names">
@@ -2773,9 +2789,12 @@
         </front>
 
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1976-08-31T23:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                 <head>Cyprus; Turkey; Greece</head>
-                <div type="chapter" n="1" xml:id="ch1">
+                <div type="chapter" n="1" xml:id="ch1"
+                    frus:doc-dateTime-min="1976-08-31T23:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-01T23:59:59-05:00">
                     <head>Eastern Mediterranean Region</head>
                     <pb n="1" facs="0034" xml:id="pg_1"/>
 
@@ -2953,7 +2972,9 @@
                         </closer>
                     </div>
 
-                    <div type="document" n="2" xml:id="d2" subtype="historical-document">
+                    <div type="document" n="2" xml:id="d2" subtype="historical-document"
+                        frus:doc-dateTime-min="1976-08-31T23:00:00-05:00"
+                        frus:doc-dateTime-max="1976-10-07T01:59:59-05:00">
                         <pb n="4" facs="0037" xml:id="pg_4"/>
                         <head>2. Paper Prepared by <persName corresp="#p_VCR_1">Cyrus
                                 Vance</persName> for Governor <persName corresp="#p_CJE_1"
@@ -2980,7 +3001,11 @@
                                 “C.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1976-09-01T00:00:00-04:00"
+                                notAfter="1976-10-06T23:59:59-07:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <p rend="center">THE UNITED STATES AND GREECE, TURKEY AND CYPRUS</p>
                         <p rend="sectiontitleital">
@@ -9678,7 +9703,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="2" xml:id="ch2">
+                <div type="chapter" n="2" xml:id="ch2"
+                    frus:doc-dateTime-min="1977-01-19T10:00:00-05:00"
+                    frus:doc-dateTime-max="1980-12-10T07:38:00-05:00">
                     <head>Cyprus</head>
                     <pb n="115" facs="0148" xml:id="pg_115"/>
                     <div type="document" n="31" xml:id="d31" subtype="historical-document"
@@ -17014,7 +17041,9 @@
                         </closer>
                     </div>
 
-                    <div type="document" n="67" xml:id="d67" subtype="editorial-note">
+                    <div type="document" n="67" xml:id="d67" subtype="editorial-note"
+                        frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                         <head>67. Editorial Note</head>
                         <p>On May 19, 1979, Cypriot President <persName corresp="#p_KS_2">Spyros
                                 Kyprianou</persName> and <persName corresp="#p_DR_1">Rauf
@@ -17475,7 +17504,9 @@
                                         (<gloss target="#t_IOUNP_1">IO/UNP</gloss>).</note>
                             </head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date when="1979-09-13"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>
                             </dateline>
                             <p rend="center">
                                 <hi rend="italic">The Present State of the Cyprus Negotiations</hi>
@@ -19461,7 +19492,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="3" xml:id="ch3">
+                <div type="chapter" n="3" xml:id="ch3"
+                    frus:doc-dateTime-min="1977-01-21T15:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                     <head>Turkey</head>
                     <pb n="276" facs="0309" xml:id="pg_276"/>
                     <div type="document" n="84" xml:id="d84" subtype="historical-document"
@@ -19796,7 +19829,9 @@
                             Top Secret; Codeword. Four pages not declassified.]</p>
                     </div>
 
-                    <div type="document" n="86" xml:id="d86" subtype="historical-document">
+                    <div type="document" n="86" xml:id="d86" subtype="historical-document"
+                        frus:doc-dateTime-min="1977-01-31T00:00:00-05:00"
+                        frus:doc-dateTime-max="1977-02-11T23:59:59-05:00">
                         <head>86. Letter From Turkish Prime Minister Demirel to President <persName
                                 corresp="#p_CJE_1">Carter</persName>
                             <note n="1" xml:id="d86fn1">Source: Carter Library, National Security
@@ -19807,7 +19842,11 @@
                                 February 11.</note>
                         </head>
                         <dateline>
-                            <placeName>Ankara</placeName>, <date>undated</date>
+                            <placeName>Ankara</placeName>, <date
+                                notBefore="1977-01-31T00:00:00-05:00"
+                                notAfter="1977-02-11T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. President,</salute>
@@ -21302,7 +21341,9 @@
                         <p>[Omitted here is the body of the memorandum.]</p>
                     </div>
 
-                    <div type="document" n="96" xml:id="d96" subtype="historical-document">
+                    <div type="document" n="96" xml:id="d96" subtype="historical-document"
+                        frus:doc-dateTime-min="1977-06-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1977-06-09T23:59:59-05:00">
                         <pb n="307" facs="0340" xml:id="pg_307"/>
                         <head>96. Briefing Paper Prepared by <persName corresp="#p_HPB_1">Paul
                                 Henze</persName> of the National Security Council Staff<note n="1"
@@ -21319,7 +21360,8 @@
                                 covering memorandum. (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1977-06-09"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                         <p rend="center">
                             <persName corresp="#p_EB_1">BULENT ECEVIT</persName>
@@ -21395,7 +21437,9 @@
                             than it has been in the past 2½ years.</p>
                     </div>
 
-                    <div type="document" n="97" xml:id="d97" subtype="editorial-note">
+                    <div type="document" n="97" xml:id="d97" subtype="editorial-note"
+                        frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                         <head>97. Editorial Note</head>
                         <p>On July 3, 1977, the Turkish National Assembly voted 229–217 against
                                 <persName corresp="#p_EB_1">Bülent Ecevit</persName>’s Republican
@@ -22335,7 +22379,9 @@
                         </p>
                     </div>
 
-                    <div type="document" n="102" xml:id="d102" subtype="editorial-note">
+                    <div type="document" n="102" xml:id="d102" subtype="editorial-note"
+                        frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                         <pb n="324" facs="0357" xml:id="pg_324"/>
                         <head>102. Editorial Note</head>
                         <p>In mid-October 1977, the <persName corresp="#p_CJE_1">Carter</persName>
@@ -25682,7 +25728,9 @@
                         </p>
                     </div>
 
-                    <div type="document" n="121" xml:id="d121" subtype="editorial-note">
+                    <div type="document" n="121" xml:id="d121" subtype="editorial-note"
+                        frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                         <head>121. Editorial Note</head>
                         <p>Following several months of lobbying by White House, Department of State,
                             and Department of Defense officials, Congress agreed to overturn the
@@ -32014,7 +32062,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="4" xml:id="ch4">
+                <div type="chapter" n="4" xml:id="ch4"
+                    frus:doc-dateTime-min="1977-01-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-03T00:56:00-05:00">
                     <head>Greece</head>
                     <pb n="490" facs="0523" xml:id="pg_490"/>
                     <div type="document" n="162" xml:id="d162" subtype="historical-document"
@@ -38376,7 +38426,11 @@
                             </head>
 
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1979-10-15T00:00:00-04:00"
+                                    notAfter="1979-11-06T23:59:59-05:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>
                             </dateline>
                             <p>FIRDB–312/02688–79</p>
                             <list type="subject">
@@ -39008,7 +39062,9 @@
                                 >handling restriction not declassified</hi>]</p>
                     </div>
 
-                    <div type="document" n="199" xml:id="d199" subtype="historical-document">
+                    <div type="document" n="199" xml:id="d199" subtype="historical-document"
+                        frus:doc-dateTime-min="1980-03-18T00:00:00-05:00"
+                        frus:doc-dateTime-max="1980-03-18T23:59:59-05:00">
                         <head>199. Discussion Paper Prepared for a Policy Review Committee
                                 Meeting<note n="1" xml:id="d199fn1">Source: Carter Library, Donated
                                 Material, Papers of <persName corresp="#p_MWF_1">Walter F.
@@ -39023,7 +39079,8 @@
                                 meeting was scheduled for March 19 at 3 p.m. (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1980-03-18"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                         <p rend="center">DISCUSSION PAPER—PRC MEETING ON GREEK REINTEGRATION</p>
                         <p rend="sectiontitleital">
@@ -39354,7 +39411,9 @@
                                     >Document 201</ref>.</note> (S)</p>
                     </div>
 
-                    <div type="document" n="201" xml:id="d201" subtype="historical-document">
+                    <div type="document" n="201" xml:id="d201" subtype="historical-document"
+                        frus:doc-dateTime-min="1980-04-04T00:00:00-05:00"
+                        frus:doc-dateTime-max="1980-05-01T22:59:59-05:00">
                         <head>201. Paper Prepared in the Bureau of European Affairs, Department of
                                 State<note n="1" xml:id="d201fn1">Source: Carter Library, National
                                 Security Affairs, Staff Material, Horn/Special, Box 5, 5/80. Bremer
@@ -39373,7 +39432,10 @@
                                 needs to go to ZB.” (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1980-04-04T00:00:00-05:00"
+                                notAfter="1980-05-01T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -39511,7 +39573,9 @@
                             campaign issues in the elections.</p>
                     </div>
 
-                    <div type="document" n="202" xml:id="d202" subtype="historical-document">
+                    <div type="document" n="202" xml:id="d202" subtype="historical-document"
+                        frus:doc-dateTime-min="1980-05-14T00:00:00-05:00"
+                        frus:doc-dateTime-max="1980-05-14T23:59:59-05:00">
                         <head>202. Paper Prepared in the Bureau of European Affairs, Department of
                                 State<note n="1" xml:id="d202fn1">Source: National Archives, <gloss
                                     target="#t_RG_1">RG</gloss> 59, Office of the Under Secretary of
@@ -39531,7 +39595,8 @@
                                     target="#d201fn1">footnote 1, Document 201</ref>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1980-05-14"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                         <p rend="center">THE NEW GREEK GOVERNMENT: IMPLICATIONS FOR <gloss
                                 target="#t_US_1">U.S.</gloss> INTERESTS</p>
@@ -40501,7 +40566,9 @@
                         </closer>
                     </div>
 
-                    <div type="document" n="210" xml:id="d210" subtype="editorial-note">
+                    <div type="document" n="210" xml:id="d210" subtype="editorial-note"
+                        frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                         <pb n="632" facs="0665" xml:id="pg_632"/>
                         <head>210. Editorial Note</head>
                         <p>On October 24, 1980, Greek officials informed the <gloss target="#t_US_1"
@@ -40741,7 +40808,9 @@
         </body>
 
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-16T20:14:00-05:00">
                 <pb n="637" facs="0670" xml:id="pg_637"/>
                 <head>Index</head>
                 <p>

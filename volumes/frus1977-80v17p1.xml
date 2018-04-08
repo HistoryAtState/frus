@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Publishing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2016</date>
+                <date type="publication-date">2016</date>
                 <idno type="frus">frus1977-80v17p1</idno>
             </publicationStmt>
             <sourceDesc>
@@ -34,6 +34,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
+        <xenoData>
+            <frus:coverage notBefore="1977-02-08T10:35:00-05:00"
+                notAfter="1980-11-25T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
 
@@ -64,7 +68,9 @@
                     DC area (202) 512-1800 Fax: (202) 512-2250 Mail: Stop IDCC, Washington, DC
                     20402-0001</docImprint>
             </titlePage>
-            <div xml:id="pressrelease" type="section">
+            <div xml:id="pressrelease" type="section" subtype="press-release"
+                frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
+                frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                 <head>Press Release</head>
                 <p rend="right">
                     <hi rend="strong">Office of the Historian<lb/>Bureau of Public
@@ -97,7 +103,9 @@
                     202-512-1800). For further information, contact <ref
                         target="mailto:history@state.gov">history@state.gov</ref>. </p>
             </div>
-            <div type="section" xml:id="AbouttheSeries">
+            <div type="section" xml:id="AbouttheSeries" subtype="about-frus-series"
+                frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
+                frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -276,13 +284,15 @@
                     <lb/>
                     <orgName>Bureau of Public Affairs</orgName>
                     <lb/>
-                    <date>November 2016</date>
+                    <date when="2016-11">November 2016</date>
                 </closer>
                 <gap quantity="1" unit="pages" reason="convenience"/>
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
             </div>
 
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
+                frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">Structure and Scope of the <hi rend="roman">Foreign
@@ -356,7 +366,9 @@
                 </p>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
+                frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                 <pb n="XI" facs="0012" xml:id="XI"/>
                 <head>Contents</head>
                 <list>
@@ -397,7 +409,9 @@
                 <pb n="XII" facs="0013" xml:id="pg_XII"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
+                frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <ref target="frus1977-80v17p1">
@@ -589,7 +603,9 @@
                 <pb n="XVI" facs="0017" xml:id="pg_XVI"/>
             </div>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
+                frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                 <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
                 <head>Abbreviations and Terms</head>
                 <list>
@@ -1195,7 +1211,9 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
+                frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                 <pb n="XXI" facs="0022" xml:id="pg_XXI"/>
                 <head>Persons</head>
                 <list>
@@ -1749,7 +1767,9 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="Notes">
+            <div type="section" subtype="notes" xml:id="Notes"
+                frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
+                frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                 <pb n="XXV" facs="0026" xml:id="pg_XXV"/>
                 <head>Note on U.S. Covert Actions</head>
                 <p>In compliance with the <hi rend="italic">Foreign Relations of the United
@@ -2232,9 +2252,12 @@
 
         <body>
             <pb n="1" facs="0036" xml:id="pg_1"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
+                frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                 <head>Horn of Africa</head>
-                <div type="document" n="1" xml:id="d1" subtype="editorial-note">
+                <div type="document" n="1" xml:id="d1" subtype="editorial-note"
+                    frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
+                    frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                     <head>1. Editorial Note</head>
                     <p>By 1977, U.S. policy toward the Horn of Africa had been in flux for several
                         years. Ethiopia’s increasing radicalization and anti-U.S. sentiment resulted
@@ -2744,7 +2767,9 @@
                 </div>
 
                 <pb n="11" facs="0046" xml:id="pg_11"/>
-                <div type="document" n="6" xml:id="d6" subtype="historical-document">
+                <div type="document" n="6" xml:id="d6" subtype="historical-document"
+                    frus:doc-dateTime-min="1977-03-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1977-03-25T22:59:59-05:00">
                     <head>6. Memorandum From the President’s Assistant for National Security Affairs
                             (<persName corresp="#p_BZ_1">Brzezinski</persName>) to Secretary of
                         Defense <persName corresp="#p_BH_1">Brown</persName>
@@ -2755,7 +2780,10 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1977-03-21T00:00:00-05:00"
+                                notAfter="1977-03-25T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -2792,7 +2820,9 @@
                 </div>
 
                 <pb n="12" facs="0047" xml:id="pg_12"/>
-                <div type="document" n="7" xml:id="d7" subtype="historical-document">
+                <div type="document" n="7" xml:id="d7" subtype="historical-document"
+                    frus:doc-dateTime-min="1977-03-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1977-03-28T22:59:59-05:00">
                     <head>7. Memorandum From the President’s Assistant for National Security Affairs
                             (<persName corresp="#p_BZ_1">Brzezinski</persName>) to Vice President
                             <persName corresp="#p_MWF_1">Mondale</persName>
@@ -2802,7 +2832,10 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1977-03-25T00:00:00-05:00"
+                                notAfter="1977-03-28T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -3020,7 +3053,9 @@
                 </div>
 
                 <pb n="17" facs="0052" xml:id="pg_17"/>
-                <div type="document" n="10" xml:id="d10" subtype="historical-document">
+                <div type="document" n="10" xml:id="d10" subtype="historical-document"
+                    frus:doc-dateTime-min="1977-03-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1977-04-11T16:00:00-05:00">
                     <head>10. Paper Prepared by the Policy Review Committee<note n="1"
                             xml:id="d10fn1" type="source">Source: Carter Library, National Security
                             Council, Institutional Files 1977–1981, Box 40, PRM–21. Secret. Drafted
@@ -3039,7 +3074,10 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1977-03-29T00:00:00-05:00"
+                                notAfter="1977-04-11T16:00:00-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are the title page and the table of contents.]</p>
@@ -4349,7 +4387,9 @@
                 </div>
 
                 <pb n="43" facs="0078" xml:id="pg_43"/>
-                <div type="document" n="15" xml:id="d15" subtype="historical-document">
+                <div type="document" n="15" xml:id="d15" subtype="historical-document"
+                    frus:doc-dateTime-min="1977-04-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1977-04-25T23:59:59-05:00">
                     <head>15. Report Prepared by the Interagency Ethiopia Working Group<note n="1"
                             xml:id="d15fn1" type="source">Source: Carter Library, National Security
                             Affairs, Brzezinski Material, Country File, Box 21, Ethiopia: Withdrawal
@@ -4358,7 +4398,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1977-04-25"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                     </opener>
                     <p rend="center">Situation Report No. 3</p>
@@ -5840,7 +5881,9 @@
                                 conversation is marked “Draft.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1977-09-26"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -6270,7 +6313,9 @@
                                 D770436–0774)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>. </dateline>
+                            <placeName>Washington</placeName>, <date when="1977-11-12"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>. </dateline>
                         <p rend="sectiontitleital">SUGGESTED LETTER TO <persName corresp="#p_SBM_1"
                                 >SIAD</persName>:</p>
                         <p>Dear President <persName corresp="#p_SBM_1">Siad</persName>:</p>
@@ -8872,7 +8917,9 @@
                             </hi>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-10"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <p rend="center">
                             <hi rend="italic">POLICY TOWARD THE HORN</hi>
@@ -10235,7 +10282,9 @@
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
 
-                <div type="document" n="61" xml:id="d61" subtype="historical-document">
+                <div type="document" n="61" xml:id="d61" subtype="historical-document"
+                    frus:doc-dateTime-min="1978-02-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1978-02-23T23:59:59-05:00">
                     <head>61. Paper Prepared in the Department of Defense<note n="1" xml:id="d61fn1"
                             type="source">Source: Library of Congress, <persName corresp="#p_BH_1"
                                 >Harold Brown</persName> Papers, Box 8, Horn of Africa. Secret. This
@@ -10253,7 +10302,11 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1978-02-22T00:00:00-05:00"
+                                notAfter="1978-02-23T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                     </opener>
                     <p rend="center">THE HORN OF AFRICA: ETHIOPIAN/SOMALI CONFLICT</p>
@@ -18294,7 +18347,11 @@
                             <note n="5" xml:id="d104fn5">Secret; Sensitive.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1980-04-07T00:00:00-05:00"
+                                notAfter="1980-04-11T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <p rend="sectiontitleital">Finding Pursuant to Section 662 of the Foreign
                             Assistance Act of 1961, As Amended, Concerning Operations Undertaken by
@@ -18969,7 +19026,11 @@
                             <note n="5" xml:id="d110fn5">Secret.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1980-11-07T00:00:00-04:00"
+                                notAfter="1980-11-25T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -19107,7 +19168,9 @@
         </body>
 
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
+                frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                 <pb n="301" facs="0336" xml:id="pg_301"/>
                 <head>Index</head>
                 <p>

@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2016</date>
+                <date type="publication-date">2016</date>
                 <idno type="frus">frus1977-80v29</idno>
             </publicationStmt>
             <sourceDesc>
@@ -33,6 +33,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
+        <xenoData>
+            <frus:coverage notBefore="1977-01-21T00:00:00-05:00"
+                notAfter="1981-01-13T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
 
@@ -64,7 +68,9 @@
                     20402-0001</docImprint>
             </titlePage>
 
-            <div type="section" xml:id="AbouttheSeries">
+            <div type="section" xml:id="AbouttheSeries" subtype="about-frus-series"
+                frus:doc-dateTime-min="1977-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-13T23:59:59-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -246,11 +252,13 @@
                     <lb/>
                     <orgName>Bureau of Public Affairs</orgName>
                     <lb/>
-                    <date>October 2016</date>
+                    <date when="2015-10">October 2016</date>
                 </closer>
             </div>
 
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1977-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-13T23:59:59-05:00">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">Structure and Scope of the <hi rend="roman">Foreign
@@ -360,7 +368,9 @@
                 <pb n="XII" facs="0013" xml:id="pg_XII"/>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1977-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-13T23:59:59-05:00">
                 <pb n="XIII" facs="0014" xml:id="XIII"/>
                 <head>Contents</head>
                 <list>
@@ -414,7 +424,9 @@
                 <pb n="XIV" facs="0015" xml:id="pg_XIV"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1977-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-13T23:59:59-05:00">
                 <pb n="XV" facs="0016" xml:id="pg_XV"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <hi rend="roman">Foreign Relations</hi>,
@@ -800,7 +812,9 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1977-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-13T23:59:59-05:00">
                 <pb n="XXI" facs="0022" xml:id="pg_XXI"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -1686,7 +1700,9 @@
                 <pb n="XXVI" facs="0027" xml:id="pg_XXVI"/>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1977-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-13T23:59:59-05:00">
                 <pb n="XXVII" facs="0028" xml:id="pg_XXVII"/>
                 <head>Persons</head>
                 <list>
@@ -2900,13 +2916,18 @@
         </front>
 
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1977-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-13T23:59:59-05:00">
                 <pb n="1" facs="0036" xml:id="pg_1"/>
                 <head>Panama, 1977–1980</head>
-                <div type="chapter" n="1" xml:id="ch1">
+                <div type="chapter" n="1" xml:id="ch1"
+                    frus:doc-dateTime-min="1977-01-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1977-09-09T23:59:59-05:00">
                     <head>Negotiation and Signing of the Panama Canal Treaties, October 6,
                         1976–September 9, 1977</head>
-                    <div type="document" n="1" xml:id="d1" subtype="editorial-note">
+                    <div type="document" n="1" xml:id="d1" subtype="editorial-note"
+                        frus:doc-dateTime-min="1977-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1981-01-13T23:59:59-05:00">
                         <head>1. Editorial Note</head>
                         <p>On October 6, 1976, during a Presidential campaign debate with President
                                 <persName corresp="#p_FGR_1">Gerald R. Ford</persName>, candidate
@@ -3698,7 +3719,9 @@
                                 <note n="16" xml:id="d3fn16">Secret.</note>
                             </head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date when="1977-01-21"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>
                             </dateline>
                             <p rend="center">
                                 <hi rend="italic">MAJOR UNRESOLVED TREATY ISSUES</hi>
@@ -4706,7 +4729,9 @@
                                 <note n="27" xml:id="d3fn27">Secret.</note>
                             </head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date when="1977-01-21"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>
                             </dateline>
                             <p rend="sectiontitleital">STEPS TO OBTAIN CONGRESSIONAL AND PUBLIC
                                 SUPPORT FOR A TREATY</p>
@@ -10293,7 +10318,9 @@
                     </div>
 
                     <pb n="128" facs="0163" xml:id="pg_128"/>
-                    <div type="document" n="31" xml:id="d31" subtype="historical-document">
+                    <div type="document" n="31" xml:id="d31" subtype="historical-document"
+                        frus:doc-dateTime-min="1977-03-29T00:00:00-05:00"
+                        frus:doc-dateTime-max="1977-03-31T23:59:59-05:00">
                         <head>31. Briefing Report Prepared in the Department of State<note n="1"
                                 xml:id="d31fn1" type="source">Source: National Archives, <gloss
                                     target="#t_RG_1">RG</gloss> 59, Official and Personal Files of
@@ -10310,7 +10337,11 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1977-03-29T00:00:00-05:00"
+                                    notAfter="1977-03-31T23:59:59-05:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>
                             </dateline>
                         </opener>
                         <p rend="center">
@@ -17371,7 +17402,9 @@
                                 <note n="3" xml:id="d79fn3">Confidential.</note>
                             </head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-09"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>
                             </dateline>
                             <p rend="center">
                                 <hi rend="italic">Basic Framework for a New Panama Canal Treaty</hi>
@@ -17736,7 +17769,9 @@
                                 <note n="2" xml:id="d82fn2">No classification marking.</note>
                             </head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-12"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>
                             </dateline>
                             <p rend="sectiontitleital">Defense and National Security</p>
                             <p>Under the new treaties the <gloss target="#t_US_2">U.S.</gloss> will
@@ -18897,7 +18932,9 @@
                     </div>
 
                     <pb n="273" facs="0308" xml:id="pg_273"/>
-                    <div type="document" n="92" xml:id="d92" subtype="historical-document">
+                    <div type="document" n="92" xml:id="d92" subtype="historical-document"
+                        frus:doc-dateTime-min="1977-08-28T23:00:00-05:00"
+                        frus:doc-dateTime-max="1977-09-02T22:59:59-05:00">
                         <head>92. Memorandum From the Assistant to the President (<persName
                                 corresp="#p_JH_1">Jordan</persName>) to President <persName
                                 corresp="#p_CJE_1">Carter</persName>
@@ -18911,7 +18948,10 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1977-08-29T00:00:00-04:00"
+                                    notAfter="1977-09-02T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-sibling-dates">undated</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -19545,7 +19585,9 @@
                 </div>
 
                 <pb n="284" facs="0319" xml:id="pg_284"/>
-                <div type="chapter" n="2" xml:id="ch2">
+                <div type="chapter" n="2" xml:id="ch2"
+                    frus:doc-dateTime-min="1977-09-12T09:06:00-05:00"
+                    frus:doc-dateTime-max="1978-04-18T23:59:59-05:00">
                     <head type="chapter">Ratification of the Panama Canal Treaties, September 12,
                         1977–April 18, 1978</head>
                     <div type="document" n="96" xml:id="d96" subtype="historical-document"
@@ -20463,7 +20505,9 @@
                     </div>
 
                     <pb n="298" facs="0333" xml:id="pg_298"/>
-                    <div type="document" n="103" xml:id="d103" subtype="historical-document">
+                    <div type="document" n="103" xml:id="d103" subtype="historical-document"
+                        frus:doc-dateTime-min="1977-09-26T09:30:00-05:00"
+                        frus:doc-dateTime-max="1977-09-26T22:59:59-05:00">
                         <head>103. Memorandum From the Assistant to the President (<persName
                                 corresp="#p_JH_1">Jordan</persName>) to President <persName
                                 corresp="#p_CJE_1">Carter</persName>
@@ -20475,7 +20519,11 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date when="1977-09-26"
+                                    notBefore="1977-09-26T10:30:00-04:00"
+                                    notAfter="1977-09-26T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -23640,7 +23688,9 @@
                                     statement.</note>
                             </head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date when="1977-12-21"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>
                                 <note n="7" xml:id="d127fn7">See <ref target="#d127fn2">footnote
                                         2</ref> above.</note>
                             </dateline>
@@ -28003,7 +28053,9 @@
                 </div>
 
                 <pb n="423" facs="0458" xml:id="pg_423"/>
-                <div type="chapter" n="3" xml:id="ch3">
+                <div type="chapter" n="3" xml:id="ch3"
+                    frus:doc-dateTime-min="1978-04-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-13T23:59:59-05:00">
                     <head type="chapter">Implementation Debates and Regional Concerns, April 20,
                         1978–January 13, 1981</head>
                     <div type="document" n="169" xml:id="d169" subtype="historical-document"
@@ -28040,7 +28092,9 @@
                                 <note n="2" xml:id="d169fn2">Secret.</note>
                             </head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date when="1978-04-20"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>
                             </dateline>
                             <p rend="center">Next Steps on the Panama Treaties</p>
                             <p>Following up on the Senate’s approval of the Panama Canal Treaties,
@@ -30310,7 +30364,9 @@
                                 <note n="9" xml:id="d188fn9">No classification marking.</note>
                             </head>
                             <dateline>
-                                <placeName>Washington, <date>undated</date>
+                                <placeName>Washington, <date when="1978-07-27"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        >undated</date>
                                 </placeName>
                             </dateline>
                             <p rend="center">PROPOSED LANGUAGE ON ROLE OF THE <gloss
@@ -31899,7 +31955,9 @@
                     </div>
 
                     <pb n="488" facs="0523" xml:id="pg_488"/>
-                    <div type="document" n="201" xml:id="d201" subtype="historical-document">
+                    <div type="document" n="201" xml:id="d201" subtype="historical-document"
+                        frus:doc-dateTime-min="1978-10-19T00:00:00-05:00"
+                        frus:doc-dateTime-max="1978-10-19T23:59:59-05:00">
                         <head>201. Memorandum of Understanding<note n="1" xml:id="d201fn1"
                                 type="source">Source: Washington National Records Center, <gloss
                                     target="#t_OSD_1">OSD</gloss> Files, FRC: 330–81–0202, Panama
@@ -31907,7 +31965,9 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date when="1978-10-19"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>
                             </dateline>
                         </opener>
                         <p rend="center">MEMORANDUM OF UNDERSTANDING CONCERNING THE COORDINATED
@@ -35928,7 +35988,9 @@
                     </div>
 
                     <pb n="562" facs="0597" xml:id="pg_562"/>
-                    <div type="document" n="229" xml:id="d229" subtype="historical-document">
+                    <div type="document" n="229" xml:id="d229" subtype="historical-document"
+                        frus:doc-dateTime-min="1979-06-03T23:00:00-05:00"
+                        frus:doc-dateTime-max="1979-06-05T07:34:00-05:00">
                         <head>229. Briefing Memorandum From the Assistant to the President for
                             Congressional Liaison (<persName corresp="#p_MF_2">Moore</persName>) and
                             the Special Assistant to the President for Congressional Liaison
@@ -35947,7 +36009,11 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date>undated</date>
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1979-06-04T00:00:00-04:00"
+                                    notAfter="1979-06-05T08:34:00-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    >undated</date>
                             </dateline>
                         </opener>
                         <p rend="center">CONGRESSIONAL TELEPHONE CALL</p>
@@ -41126,7 +41192,9 @@
         </body>
 
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1977-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-13T23:59:59-05:00">
                 <pb n="649" facs="0684" xml:id="pg_649"/>
                 <head>Index</head>
                 <p>

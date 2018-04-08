@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1999</date>
+                <date type="publication-date">1999</date>
                 <idno type="dospubno">10615</idno>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13">9780160500770</idno>
@@ -42,6 +42,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1964-01-21T00:00:00-05:00"
+                notAfter="1968-12-30T15:56:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -74,7 +78,9 @@
                     <lb/>For sale by the U.S. Government Printing Office<lb/>Superintendent of
                     Documents<lb/>Mail Stop: SSOP<lb/>Washington, DC 20402-9328</docImprint>
             </titlePage>
-            <div type="section" xml:id="summary">
+            <div type="section" xml:id="summary" subtype="volume-summary"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Summary</head>
                 <p>Foreword</p>
                 <p rend="center">Foreword</p>
@@ -581,7 +587,9 @@
                     burden of institutionalized or sanctioned racial discrimination.” (335)</p>
             </div>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -905,7 +913,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="section" xml:id="subseriesvols">
+            <div type="section" xml:id="subseriesvols" subtype="additional-volumes"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>
                     <persName>Johnson</persName> Administration Volumes</head>
                 <p>Following is a list of the volumes in the <hi rend="italic">Foreign
@@ -1122,7 +1132,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0012"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0013"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -1180,7 +1192,9 @@
             </div>
             <pb n="[XIV]" xml:id="pg_XIV" facs="0014"/>
             <pb n="XV" xml:id="pg_XV" facs="0015"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Sources</head>
                 <p>The editors of the <hi rend="italic">Foreign Relations series</hi> have complete
                     access to all the retired records and papers of the Department of State: the
@@ -1675,7 +1689,9 @@
                         York: Office of Public Information, United Nations, 1971)</item>
                 </list>
             </div>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -2065,7 +2081,9 @@
             </div>
             <pb n="[XXIV]" xml:id="pg_XXIV" facs="0024"/>
             <pb n="XXV" xml:id="pg_XXV" facs="0025"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -2881,9 +2899,11 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-18T23:59:59-05:00">
                 <head>Scientific Matters</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1966-01-14T15:13:00-05:00"
+                    frus:doc-dateTime-max="1968-08-05T23:59:59-05:00">
                     <head>The Technology Gap</head>
                     <div type="document" xml:id="d1" n="1" subtype="historical-document"
                         frus:doc-dateTime-min="1966-01-14T15:13:00-05:00"
@@ -5388,7 +5408,8 @@
                     </div>
                 </div>
                 <pb n="45" xml:id="pg_45" facs="0075"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-10-11T23:59:59-05:00">
                     <head>Cooperation in Space</head>
                     <div type="document" xml:id="d21" n="21" subtype="historical-document"
                         frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
@@ -6731,7 +6752,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d31" n="31" subtype="editorial-note">
+                    <div type="document" xml:id="d31" n="31" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>31. Editorial Note</head>
                         <p>On March 19, 1965, Vice President <persName corresp="#p_HHHJ1"
                                 >Humphrey</persName> gave his first major speech on space policy at
@@ -7907,7 +7930,9 @@
                                 Department of State, Central Files, 1964–66, SP 1–1)</note> that he
                             hoped one of these items would be the export of space technology.</p>
                     </div>
-                    <div type="document" xml:id="d42" n="42" subtype="editorial-note">
+                    <div type="document" xml:id="d42" n="42" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>42. Editorial Note</head>
                         <p>In March 1966 <persName corresp="#p_HDF1">Donald Hornig</persName>, the
                             President's Special Assistant for Science and Technology, asked Vice
@@ -8971,7 +8996,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d53" n="53" subtype="editorial-note">
+                    <div type="document" xml:id="d53" n="53" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>53. Editorial Note</head>
                         <p>In a memorandum of July 26, 1966, to <persName corresp="#p_BFM1">Francis
                                 Bator</persName>, <persName corresp="#p_FAW2">Arnold
@@ -9421,7 +9448,9 @@
                         </p>
                     </div>
                     <pb n="113" xml:id="pg_113" facs="0143"/>
-                    <div type="document" xml:id="d58" n="58" subtype="editorial-note">
+                    <div type="document" xml:id="d58" n="58" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>58. Editorial Note</head>
                         <p>On February 12, 1967, the President's Science Advisory Committee (<gloss
                                 target="#t_PSAC1">PSAC</gloss>) released a report entitled, “The
@@ -9462,7 +9491,9 @@
                             billion. (Department of State, S/PC Files: Lot 72 D 124, Scientific and
                             Technological Development)</p>
                     </div>
-                    <div type="document" xml:id="d59" n="59" subtype="editorial-note">
+                    <div type="document" xml:id="d59" n="59" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>59. Editorial Note</head>
                         <p>During the first half of 1967 disaster struck both the U.S. and Soviet
                             space programs. On January 27 Astronauts Virgil Grissom, Edward White,
@@ -9809,9 +9840,12 @@
                     </div>
                 </div>
                 <pb n="120" xml:id="pg_120" facs="0150"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1964-02-06T18:00:00-05:00"
+                    frus:doc-dateTime-max="1968-09-27T23:59:59-05:00">
                     <head>Communication Satellites</head>
-                    <div type="document" xml:id="d63" n="63" subtype="historical-document">
+                    <div type="document" xml:id="d63" n="63" subtype="historical-document"
+                        frus:doc-dateTime-min="1964-02-06T18:00:00-05:00"
+                        frus:doc-dateTime-max="1964-02-10T17:59:59-05:00">
                         <head>63. Position Paper for the United States Delegation<note n="1"
                                 xml:id="d63fn1" type="source">Source: National Archives and Records
                                 Administration, RG 59, Records of the Department of State, Central
@@ -9823,7 +9857,11 @@
                                     corresp="#p_CAJ1">Abram Chayes</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1964-02-07T00:00:00+01:00"
+                                notAfter="1964-02-10T23:59:59+01:00"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">MEETING WITH MEMBERS OF THE EUROPEAN<lb/>CONFERENCE ON
                             SATELLITE COMMUNICATIONS AND THE<lb/>CANADIANS</p>
                         <p rend="center">Rome—February 10, 1964</p>
@@ -10228,7 +10266,9 @@
                         </p>
                     </div>
                     <pb n="128" xml:id="pg_128" facs="0158"/>
-                    <div type="document" xml:id="d66" n="66" subtype="editorial-note">
+                    <div type="document" xml:id="d66" n="66" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>66. Editorial Note</head>
                         <p>In February 1964 the Soviet Union accepted a long-standing U.S. proposal
                             for discussion of a global communications satellite system. The United
@@ -10446,7 +10486,9 @@
                         </closer>
                     </div>
                     <pb n="132" xml:id="pg_132" facs="0162"/>
-                    <div type="document" xml:id="d69" n="69" subtype="editorial-note">
+                    <div type="document" xml:id="d69" n="69" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>69. Editorial Note</head>
                         <p>In late June and early July 1964, the discussions of the <gloss
                                 target="#t_COMSAT1">COMSAT</gloss>-Department of Defense joint
@@ -10570,7 +10612,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d71" n="71" subtype="editorial-note">
+                    <div type="document" xml:id="d71" n="71" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>71. Editorial Note</head>
                         <p>The Communications Satellite Conference convened in Washington on July
                             21, 1964, and concluded an intergovernmental agreement that established
@@ -11637,7 +11681,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d81" n="81" subtype="editorial-note">
+                    <div type="document" xml:id="d81" n="81" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>81. Editorial Note</head>
                         <p>O'Connell was successful in his plan to establish a Communication
                             Satellite Policy Coordination Committee. He saw the committee as the
@@ -11754,7 +11800,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d83" n="83" subtype="editorial-note">
+                    <div type="document" xml:id="d83" n="83" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>83. Editorial Note</head>
                         <p>As the Department of State and the Agency for International Development
                             moved to implement NSAM No. 342, <persName corresp="#p_MLH1">Leonard
@@ -12372,7 +12420,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d89" n="89" subtype="editorial-note">
+                    <div type="document" xml:id="d89" n="89" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>89. Editorial Note</head>
                         <p>
                             <persName corresp="#p_PH7">Herman Pollack</persName> wrote Deputy Under
@@ -13575,7 +13625,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d99" n="99" subtype="editorial-note">
+                    <div type="document" xml:id="d99" n="99" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>99. Editorial Note</head>
                         <p>Early in 1968 State Department officials began to prepare for the
                             February 1969 conference to negotiate permanent arrangements for
@@ -13930,7 +13982,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d102" n="102" subtype="editorial-note">
+                    <div type="document" xml:id="d102" n="102" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>102. Editorial Note</head>
                         <p>On June 4, 1968, President <persName corresp="#p_JLB1">Johnson</persName>
                             returned to Glassboro, New Jersey, the site of his 1967 summit with
@@ -14644,7 +14698,9 @@
                         </frus:attachment>
                     </div>
                     <pb n="204" xml:id="pg_204" facs="0234"/>
-                    <div type="document" xml:id="d109" n="109" subtype="editorial-note">
+                    <div type="document" xml:id="d109" n="109" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>109. Editorial Note</head>
                         <p>As preparatory negotiations continued for the February 1969 <gloss
                                 target="#t_INTELSAT1">INTELSAT</gloss> conference, the Soviet Union
@@ -14692,7 +14748,9 @@
                             8567 from USUN, December 18; ibid.)</p>
                     </div>
                     <pb n="205" xml:id="pg_205" facs="0235"/>
-                    <div type="document" xml:id="d110" n="110" subtype="editorial-note">
+                    <div type="document" xml:id="d110" n="110" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>110. Editorial Note</head>
                         <p>On December 30, 1968, the Department of State named the members of a
                             delegation to the Plenipotentiary Conference To Establish Definitive
@@ -14715,9 +14773,12 @@
                     </div>
                 </div>
                 <pb n="206" xml:id="pg_206" facs="0236"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1964-11-07T17:20:00-05:00"
+                    frus:doc-dateTime-max="1968-04-10T23:59:59-05:00">
                     <head>Development of the Supersonic Transport Aircraft</head>
-                    <div type="document" xml:id="d111" n="111" subtype="editorial-note">
+                    <div type="document" xml:id="d111" n="111" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>111. Editorial Note</head>
                         <p>The Soviet Union had begun work on an SST design in the late 1950s, and
                             the Kennedy administration begin a feasibility study under the
@@ -15497,7 +15558,9 @@
                         </closer>
                     </div>
                     <pb n="220" xml:id="pg_220" facs="0250"/>
-                    <div type="document" xml:id="d120" n="120" subtype="editorial-note">
+                    <div type="document" xml:id="d120" n="120" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>120. Editorial Note</head>
                         <p>The second meeting of the <gloss target="#t_FAUSST1">FAUSST</gloss>
                             group, held in Washington February 1–5, 1965, discussed air frames,
@@ -16276,9 +16339,12 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1964-06-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-18T23:59:59-05:00">
                     <head>Water for Peace</head>
-                    <div type="document" xml:id="d130" n="130" subtype="editorial-note">
+                    <div type="document" xml:id="d130" n="130" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>130. Editorial Note</head>
                         <pb n="235" xml:id="pg_235" facs="0265"/>
                         <p>In 1963 the Kennedy administration began negotiations on a proposal for
@@ -16716,7 +16782,9 @@
                             the contemplated Committee. He also suggested that Treasury should
                             possibly be included on the Committee.</p>
                     </div>
-                    <div type="document" xml:id="d135" n="135" subtype="editorial-note">
+                    <div type="document" xml:id="d135" n="135" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>135. Editorial Note</head>
                         <p>On November 18, 1964, the United States and the Soviet Union concluded an
                             agreement on desalination research and technology cooperation. The final
@@ -18376,7 +18444,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d149" n="149" subtype="editorial-note">
+                    <div type="document" xml:id="d149" n="149" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>149. Editorial Note</head>
                         <p>The economic and technical feasibility study of the Israeli project was
                             completed in late March 1966. One of the principal conclusions of the
@@ -18570,7 +18640,9 @@
                         </p>
                     </div>
                     <pb n="274" xml:id="pg_274" facs="0304"/>
-                    <div type="document" xml:id="d151" n="151" subtype="editorial-note">
+                    <div type="document" xml:id="d151" n="151" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>151. Editorial Note</head>
                         <p>The appointment of a U.S. coordinator on desalting projects in Israel and
                             the United Arab Republic was considered and discussed in the summer of
@@ -19090,7 +19162,9 @@
                         </closer>
                     </div>
                     <pb n="283" xml:id="pg_283" facs="0313"/>
-                    <div type="document" xml:id="d157" n="157" subtype="editorial-note">
+                    <div type="document" xml:id="d157" n="157" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>157. Editorial Note</head>
                         <p>In November 1966, the Soviets requested consideration of a renewal of the
                             2-year-old bilateral desalting agreement (see <ref target="#d135"
@@ -19290,7 +19364,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d160" n="160" subtype="editorial-note">
+                    <div type="document" xml:id="d160" n="160" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>160. Editorial Note</head>
                         <p>The International Conference on Water for Peace was held May 23–31, 1967,
                             in Washington. President <persName corresp="#p_JLB1">Johnson</persName>
@@ -19314,7 +19390,9 @@
                             the conference were published as the <hi rend="italic">International
                                 Conference on Water for Peace, May 23–31</hi>, 1967.</p>
                     </div>
-                    <div type="document" xml:id="d161" n="161" subtype="editorial-note">
+                    <div type="document" xml:id="d161" n="161" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>161. Editorial Note</head>
                         <p>One of the technical papers presented at the Water for Peace conference,
                             entitled “Desalted Water for Agriculture” by R. Philip Hammond,
@@ -19732,7 +19810,9 @@
                         </closer>
                     </div>
                     <pb n="295" xml:id="pg_295" facs="0325"/>
-                    <div type="document" xml:id="d166" n="166" subtype="historical-document">
+                    <div type="document" xml:id="d166" n="166" subtype="historical-document"
+                        frus:doc-dateTime-min="1967-06-23T00:00:00-05:00"
+                        frus:doc-dateTime-max="1967-06-23T23:59:59-05:00">
                         <head>166. Memorandum From Admiral <persName type="from">Lewis J.
                                 Strauss</persName> to Former President <persName type="to"
                                 >Eisenhower</persName>
@@ -19754,7 +19834,9 @@
                                 31 by Strauss has been found.</note>
                         </head>
                         <dateline>
-                            <date>Undated</date>.</dateline>
+                            <date when="1967-06-23"
+                                ana="#date_undated-inferred-from-document-content"
+                            >Undated</date>.</dateline>
                         <p rend="center">A PROPOSAL FOR OUR TIME</p>
                         <p>Attention to the debates in the United Nations since the end of May must
                             convince the observer that an end to the trouble in the Near East is not
@@ -19933,7 +20015,9 @@
                             <p>No</p>
                         </postscript>
                     </div>
-                    <div type="document" xml:id="d168" n="168" subtype="editorial-note">
+                    <div type="document" xml:id="d168" n="168" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>168. Editorial Note</head>
                         <p>After news of the Eisenhower-Strauss proposals appeared in the press, on
                             June 25, 1967, President <persName corresp="#p_JLB1">Johnson</persName>
@@ -20280,7 +20364,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d171" n="171" subtype="editorial-note">
+                    <div type="document" xml:id="d171" n="171" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>171. Editorial Note</head>
                         <p>In early 1968 the search for a replacement for <persName corresp="#p_BE6"
                                 >Ellsworth Bunker</persName> as coordinator for the Israeli
@@ -20790,11 +20876,15 @@
                     </div>
                 </div>
             </div>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1964-01-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00">
                 <head>Energy Problems</head>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1964-01-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-06T23:59:59-05:00">
                     <head>Petroleum</head>
-                    <div type="document" xml:id="d175" n="175" subtype="editorial-note">
+                    <div type="document" xml:id="d175" n="175" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>175. Editorial Note</head>
                         <pb n="315" xml:id="pg_315" facs="0345"/>
                         <p>During the Eisenhower administration steady expansion in oil output and a
@@ -21779,7 +21869,9 @@
                             plans to come back for further discussion with Messrs. Mann and
                                 <persName corresp="#p_TPH2">Talbot</persName> respectively.</p>
                     </div>
-                    <div type="document" xml:id="d184" n="184" subtype="editorial-note">
+                    <div type="document" xml:id="d184" n="184" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>184. Editorial Note</head>
                         <p>In a memorandum of April 26, 1965, to Assistant Secretary of State for
                             Economic Affairs <persName corresp="#p_SAM4">Anthony Solomon</persName>,
@@ -24580,7 +24672,9 @@
                             to avoid.</p>
                     </div>
                     <pb n="379" xml:id="pg_379" facs="0409"/>
-                    <div type="document" xml:id="d206" n="206" subtype="editorial-note">
+                    <div type="document" xml:id="d206" n="206" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>206. Editorial Note</head>
                         <p>The June 1967 Six-Day War and the concomitant oil embargo disrupted the
                             equilibrium achieved in the early part of 1967 by the oil companies and
@@ -24676,7 +24770,9 @@
                                 >ERAP</gloss> have indeed made any deals with Iraq.</p>
                     </div>
                     <pb n="381" xml:id="pg_381" facs="0411"/>
-                    <div type="document" xml:id="d208" n="208" subtype="editorial-note">
+                    <div type="document" xml:id="d208" n="208" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>208. Editorial Note</head>
                         <p>After the promulgation of Law 97 in August 1967, the four countries (the
                             United States, the United Kingdom, France, and the Netherlands) which
@@ -26627,7 +26723,8 @@
                     </div>
                 </div>
                 <pb n="416" xml:id="pg_416" facs="0446"/>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1967-05-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-01-17T23:59:59-05:00">
                     <head>The 1967 Oil Embargo</head>
                     <div type="document" xml:id="d228" n="228" subtype="historical-document"
                         frus:doc-dateTime-min="1967-05-23T00:00:00-05:00"
@@ -27078,7 +27175,9 @@
                         </closer>
                     </div>
                     <pb n="423" xml:id="pg_423" facs="0453"/>
-                    <div type="document" xml:id="d233" n="233" subtype="editorial-note">
+                    <div type="document" xml:id="d233" n="233" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>233. Editorial Note</head>
                         <p>On June 5, 1967, war broke out between Israel and the United Arab
                             Republic, Syria, and Jordan. At 7:40 a.m. on June 6, Radio Cairo began
@@ -27562,7 +27661,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d240" n="240" subtype="editorial-note">
+                    <div type="document" xml:id="d240" n="240" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>240. Editorial Note</head>
                         <p>On June 10, 1967, Kuwaiti oil workers began a strike that completely shut
                             down AMINOIL, the Getty subsidiary, and partially closed the Kuwait Oil
@@ -29630,7 +29731,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d260" n="260" subtype="editorial-note">
+                    <div type="document" xml:id="d260" n="260" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>260. Editorial Note</head>
                         <p>At the end of July 1967 Saudi Oil Minister <persName corresp="#p_YAZ1"
                                 >Yamani</persName> traveled secretly to New York to meet with
@@ -29768,7 +29871,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d263" n="263" subtype="editorial-note">
+                    <div type="document" xml:id="d263" n="263" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>263. Editorial Note</head>
                         <p>On July 24, 1967, as the crisis abated, Iraq announced that it would
                             resume shipments to all countries except the United States, United
@@ -29973,7 +30078,9 @@
                             be forwarded to the <gloss target="#t_SIG1">SIG</gloss> by November
                             15.</p>
                     </div>
-                    <div type="document" xml:id="d266" n="266" subtype="editorial-note">
+                    <div type="document" xml:id="d266" n="266" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>266. Editorial Note</head>
                         <p>During the late summer and early fall of 1967, disagreement arose among
                             the oil producers when the Secretary General of <gloss target="#t_OPEC1"
@@ -30200,11 +30307,15 @@
                     </div>
                 </div>
             </div>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1964-03-20T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Global Issues</head>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1964-11-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-08-12T15:31:00-05:00">
                     <head>Population Growth</head>
-                    <div type="document" xml:id="d269" n="269" subtype="editorial-note">
+                    <div type="document" xml:id="d269" n="269" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>269. Editorial Note</head>
                         <pb n="477" xml:id="pg_477" facs="0507"/>
                         <p>The need for increased food production and the problem of rapid
@@ -30904,7 +31015,9 @@
                         </postscript>
                     </div>
                     <pb n="489" xml:id="pg_489" facs="0519"/>
-                    <div type="document" xml:id="d276" n="276" subtype="editorial-note">
+                    <div type="document" xml:id="d276" n="276" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>276. Editorial Note</head>
                         <p>The White House Conference on International Cooperation was held November
                             29–December 1, 1965, in Washington. President <persName
@@ -30952,7 +31065,9 @@
                             Saunders Memos, Box 7)</p>
                     </div>
                     <pb n="490" xml:id="pg_490" facs="0520"/>
-                    <div type="document" xml:id="d277" n="277" subtype="editorial-note">
+                    <div type="document" xml:id="d277" n="277" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>277. Editorial Note</head>
                         <p>In late 1965, as White House staff began to review the issue of
                             population, the State Department's population expert, Robert Barnett,
@@ -31722,7 +31837,9 @@
                                 Department of State, Central Files, 1967–69, SOC 13–3)</note>
                         </p>
                     </div>
-                    <div type="document" xml:id="d286" n="286" subtype="editorial-note">
+                    <div type="document" xml:id="d286" n="286" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>286. Editorial Note</head>
                         <p>In April 1967 the Senate Committee on Foreign Relations took a major step
                             on population matters. The committee chair, <persName corresp="#p_FJW2"
@@ -32548,7 +32665,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d294" n="294" subtype="editorial-note">
+                    <div type="document" xml:id="d294" n="294" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>294. Editorial Note</head>
                         <p>On July 29, 1968, the Vatican released Pope Paul VI's encyclical letter,
                             Humanae Vitae, on birth control. It reaffirmed traditional Catholic
@@ -32640,9 +32759,12 @@
                     </div>
                 </div>
                 <pb n="520" xml:id="pg_520" facs="0550"/>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1968-04-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                     <head>Hijacking</head>
-                    <div type="document" xml:id="d296" n="296" subtype="editorial-note">
+                    <div type="document" xml:id="d296" n="296" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>296. Editorial Note</head>
                         <p>On May 1, 1961, National Airlines Flight 440 to Key West became the first
                             American aircraft to be hijacked to Cuba. Three more American planes
@@ -33515,7 +33637,9 @@
                                 Department of State, Central Files, 1967–69, AV 12)</note>
                         </p>
                     </div>
-                    <div type="document" xml:id="d304" n="304" subtype="editorial-note">
+                    <div type="document" xml:id="d304" n="304" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>304. Editorial Note</head>
                         <p>The Triennial Assembly of the <gloss target="#t_ICAO1">ICAO</gloss>
                             convened in Buenos Aires on September 3, 1968, and continued for the
@@ -34588,7 +34712,8 @@
                     </div>
                 </div>
                 <pb n="555" xml:id="pg_555" facs="0585"/>
-                <div type="chapter" xml:id="ch10">
+                <div type="chapter" xml:id="ch10" frus:doc-dateTime-min="1964-03-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-11T23:59:59-05:00">
                     <head>Human Rights</head>
                     <div type="document" xml:id="d315" n="315" subtype="historical-document"
                         frus:doc-dateTime-min="1964-03-20T00:00:00-05:00"
@@ -34845,7 +34970,9 @@
                             or other matters in which a particular member state has unique interest,
                             he is free to seek the cooperation of the government concerned.</p>
                     </div>
-                    <div type="document" xml:id="d317" n="317" subtype="editorial-note">
+                    <div type="document" xml:id="d317" n="317" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>317. Editorial Note</head>
                         <p>During 1964 human rights issues in the form of racial discrimination and
                             the policy of apartheid began to emerge as issues in multilateral bodies
@@ -35566,7 +35693,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d326" n="326" subtype="editorial-note">
+                    <div type="document" xml:id="d326" n="326" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>326. Editorial Note</head>
                         <p>During the weeks prior to the opening of the <gloss target="#t_ICAO1"
                                 >ICAO</gloss> Assembly in June 1965, South Africa and Portugal
@@ -35677,7 +35806,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d328" n="328" subtype="editorial-note">
+                    <div type="document" xml:id="d328" n="328" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>328. Editorial Note</head>
                         <p>During the long planning for the International Conference on Human Rights
                             scheduled for April 1968 in Tehran, the United States and other
@@ -36259,7 +36390,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d334" n="334" subtype="editorial-note">
+                    <div type="document" xml:id="d334" n="334" subtype="editorial-note"
+                        frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                         <head>334. Editorial Note</head>
                         <p>On August 1, 1968, President <persName corresp="#p_JLB1"
                                 >Johnson</persName> submitted the Protocol Relating to the Status of
@@ -36420,7 +36553,9 @@
             </div>
         </body>
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1964-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-30T15:56:00-05:00">
                 <head>Index</head>
                 <pb n="589" xml:id="pg_589" facs="0619"/>
                 <list type="index">

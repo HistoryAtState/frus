@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1969-76ve09p1">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:frus="http://history.state.gov/frus/ns/1.0" xml:id="frus1969-76ve09p1">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,13 +16,22 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2014</date>
+                <date type="publication-date">2014</date>
                 <idno type="frus">frus1969-76ve09p1</idno>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 2014 as an electronic-only publication at state.gov</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
+        </encodingDesc>
+        <xenoData>
+            <frus:coverage notBefore="1973-01-05T00:00:00-05:00"
+                notAfter="1977-01-06T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -48,7 +57,9 @@
                 </docImprint>
             </titlePage>
 
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -314,7 +325,9 @@
                 </closer>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
@@ -358,7 +371,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
@@ -571,7 +586,9 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
                 <pb n="XV" facs="0016" xml:id="pg_XV"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -735,7 +752,9 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
                 <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
                 <head>Persons</head>
                 <list type="names">
@@ -957,7 +976,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="notes">
+            <div type="section" subtype="notes" xml:id="notes"
+                frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
                 <pb n="XXI" facs="0022" xml:id="pg_XXI"/>
                 <head>Note on U.S. Covert Actions</head>
                 <p>In compliance with the <hi rend="italic">Foreign Relations of the United
@@ -1222,9 +1243,12 @@
 
         <body>
             <pb n="1" facs="0028" xml:id="pg_1"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
                 <head>Documents on North Africa, 1973–1976</head>
-                <div type="chapter" n="1" xml:id="ch1">
+                <div type="chapter" n="1" xml:id="ch1"
+                    frus:doc-dateTime-min="1974-04-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1974-10-15T23:59:59-05:00">
                     <head>Algeria, 1973–1976</head>
 
                     <div type="document" n="1" xml:id="d1" subtype="historical-document"
@@ -1737,7 +1761,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="2" xml:id="ch2">
+                <div type="chapter" n="2" xml:id="ch2"
+                    frus:doc-dateTime-min="1973-03-29T17:30:00-05:00"
+                    frus:doc-dateTime-max="1976-12-02T11:30:00-05:00">
                     <pb n="11" facs="0038" xml:id="pg_11"/>
                     <head>Libya, 1973–1976</head>
 
@@ -1789,9 +1815,10 @@
                             at bureau level.</p>
                         <p>4. Press guidance will be subject septel.</p>
                         <p>5. If Ministry should justify attack on grounds aircraft was in Libyan
-                            airspace as defined by HLR 22, you should reject these points <pb n="12" facs="0039" xml:id="pg_12"/>drawing on State 210803, November
-                            12, 1972 and Tripoli 1796, November 28, 1972. <persName
-                                corresp="#p_RWP_1">Rogers</persName>. Unquote.</p>
+                            airspace as defined by HLR 22, you should reject these points <pb n="12"
+                                facs="0039" xml:id="pg_12"/>drawing on State 210803, November 12,
+                            1972 and Tripoli 1796, November 28, 1972. <persName corresp="#p_RWP_1"
+                                >Rogers</persName>. Unquote.</p>
                         <closer>
                             <signed corresp="#p_RWP_1"><persName corresp="#p_RWP_1"
                                     >Rogers</persName></signed>
@@ -7016,10 +7043,10 @@
                                 <persName corresp="#p_SA_1">Sadat</persName> and a lack of <gloss
                                 target="#t_US_1">US</gloss> concern about Qadhaafi’s scurrilous
                             attacks against <persName corresp="#p_SA_1">Sadat</persName> and his
-                            subversive activities in <pb n="114" facs="0141" xml:id="pg_114"/>Egypt. While the decision must
-                            be made by <gloss target="#t_USG_1">USG</gloss>, <persName
-                                corresp="#p_SA_1">Sadat</persName> emphatically urged that any such
-                            steps be postponed for time being.</p>
+                            subversive activities in <pb n="114" facs="0141" xml:id="pg_114"/>Egypt.
+                            While the decision must be made by <gloss target="#t_USG_1">USG</gloss>,
+                                <persName corresp="#p_SA_1">Sadat</persName> emphatically urged that
+                            any such steps be postponed for time being.</p>
                         <closer>
                             <signed corresp="#p_EHF_1"><persName corresp="#p_EHF_1"
                                 >Eilts</persName></signed>
@@ -9264,7 +9291,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="3" xml:id="ch3">
+                <div type="chapter" n="3" xml:id="ch3"
+                    frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1976-11-29T23:59:59-05:00">
                     <pb n="157" facs="0184" xml:id="pg_157"/>
                     <head>Morocco, 1973–1976</head>
 
@@ -13277,7 +13306,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="4" xml:id="ch4">
+                <div type="chapter" n="4" xml:id="ch4"
+                    frus:doc-dateTime-min="1974-09-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
                     <pb n="235" facs="0262" xml:id="pg_235"/>
                     <head>Spanish Sahara, 1973–1976</head>
 
@@ -17715,7 +17746,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="5" xml:id="ch5">
+                <div type="chapter" n="5" xml:id="ch5"
+                    frus:doc-dateTime-min="1974-05-13T15:00:00-05:00"
+                    frus:doc-dateTime-max="1976-11-04T23:59:59-05:00">
                     <pb n="329" facs="0356" xml:id="pg_329"/>
                     <head>Tunisia, 1973–1976</head>
 
@@ -17911,8 +17944,9 @@
                             existing F–86’s are obsolete and need to be replaced. The A–4C aircraft
                             is a logical replacement, since it is modestly priced, subsonic, and
                             less sophisticated than most other jet fighters. The acquisition of
-                            these aircraft <pb n="333" facs="0360" xml:id="pg_333"/>would be consistent with
-                            Tunisia’s desire to maintain a modest self-defense capability.</p>
+                            these aircraft <pb n="333" facs="0360" xml:id="pg_333"/>would be
+                            consistent with Tunisia’s desire to maintain a modest self-defense
+                            capability.</p>
                         <p>c. <hi rend="italic">If there is a grant military assistance program
                                     (<gloss target="#t_MAP_1">MAP</gloss>), does the provision of
                                 this credit complement the program? Does it take into account <gloss
@@ -18243,10 +18277,10 @@
                         <p>2. When Bibi, Jr. says rate of attempted infiltration from Libya has been
                             stepped up, we are not at all clear about what he is referring to. There
                             have been SRF reports of Libyan propaganda teams and other Libyan backed
-                            subversives in Tunisia, and we assume Bibi, Jr. is talking <pb n="340" facs="0367" xml:id="pg_340"/>about these rather than military
-                            or paramilitary units which might be conjured up by word infiltration.
-                            We have no info which would confirm building of airstrips along
-                            border.</p>
+                            subversives in Tunisia, and we assume Bibi, Jr. is talking <pb n="340"
+                                facs="0367" xml:id="pg_340"/>about these rather than military or
+                            paramilitary units which might be conjured up by word infiltration. We
+                            have no info which would confirm building of airstrips along border.</p>
                         <p>3. We agree fully with assessment that Tunisia has more to fear from
                             potential Libyan subversion than from military attack. It is difficult
                             to foresee circumstances under which Libya, using Soviet weapons, would

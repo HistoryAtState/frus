@@ -19,7 +19,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1951</date>
+                <date type="publication-date">1951</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -70,6 +70,10 @@
             <change>2015-07-08 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1933-12-11T00:00:00-05:00"
+                notAfter="1935-01-05T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -97,7 +101,9 @@
                     Office<lb/>Washington 25, D. C. - Price $2.75 (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1933-12-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1935-01-05T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_V"><hi rend="smallcaps">List of Papers</hi></ref></item>
@@ -176,7 +182,9 @@
                 </list>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="section" xml:id="toc-papers">
+            <div type="section" xml:id="toc-papers" subtype="index"
+                frus:doc-dateTime-min="1933-12-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1935-01-05T23:59:59-05:00">
                 <head>List of Papers</head>
                 <p rend="center">(Unless otherwise specified, the correspondence is <hi
                         rend="italic">from</hi> or <hi rend="italic">to</hi> officials in the
@@ -6179,9 +6187,11 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0071"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1934-01-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1934-12-29T18:00:00-05:00">
                 <head>General:</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1934-02-20T18:00:00-05:00"
+                    frus:doc-dateTime-max="1934-07-06T16:00:00-05:00">
                     <head>Adhesion of the United States to the Anti-War, Nonaggression and
                         Conciliation Treaty, signed at Rio de Janeiro, October 10, 1933<note n="1"
                             xml:id="ch1fn1">Continued from <ref target="frus1933v04#pg_228"><hi
@@ -6622,7 +6632,8 @@
                     </div>
                 </div>
                 <pb n="8" xml:id="pg_8" facs="0078"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1934-07-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1934-11-28T23:59:59-05:00">
                     <head>Agreement between the United States and other powers for nonapplication of
                         most-favored-nation clause in respect of certain multilateral economic
                         conventions</head>
@@ -8040,13 +8051,16 @@
                     </div>
                 </div>
                 <pb n="32" xml:id="pg_32" facs="0102"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1934-01-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1934-12-21T17:00:00-05:00">
                     <head>Chaco dispute between Bolivia and Paraguay:<note n="1" xml:id="ch3fn1"
                             >Continued from <ref target="frus1933v04#pg_241"><hi rend="italic"
                                     >Foreign Relations</hi>, 1933, vol. <hi rend="smallcaps"
                                 >iv</hi>, pp. 241</ref>–<ref target="frus1933v04#pg_383"
                             >383</ref>.</note></head>
-                    <div type="subchapter" xml:id="ch3subch1">
+                    <div type="subchapter" xml:id="ch3subch1"
+                        frus:doc-dateTime-min="1934-01-04T00:00:00-05:00"
+                        frus:doc-dateTime-max="1934-12-21T17:00:00-05:00">
                         <head>I. Efforts of the League of Nations to settle the dispute</head>
                         <div type="document" xml:id="d54" n="54" subtype="historical-document"
                             frus:doc-dateTime-min="1934-01-04T00:00:00-05:00"
@@ -8271,8 +8285,11 @@
                                         Commission on the Chaco</hi></head>
                                 <opener>
                                     <dateline rendition="#right">[<placeName><hi rend="smallcaps"
-                                                >Buenos Aires</hi></placeName>,
-                                        <date>undated</date>.]</dateline>
+                                                >Buenos Aires</hi></placeName>, <date
+                                            when="1933-12-28"
+                                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                            type="conversation-or-meeting-date"
+                                        >undated</date>.]</dateline>
                                 </opener>
                                 <p>The President of the League Commission suggests that the
                                     cooperation which has been so happily begun in Montevideo
@@ -14343,7 +14360,9 @@
                             <closer><signed><hi rend="smallcaps">Gilbert</hi></signed></closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch3subch2">
+                    <div type="subchapter" xml:id="ch3subch2"
+                        frus:doc-dateTime-min="1934-06-26T00:00:00-05:00"
+                        frus:doc-dateTime-max="1934-11-22T23:59:59-05:00">
                         <head>II. Efforts of American nations to settle the dispute</head>
                         <div type="document" xml:id="d181" n="181" subtype="historical-document"
                             frus:doc-dateTime-min="1934-06-26T00:00:00-05:00"
@@ -20317,7 +20336,9 @@
                             </frus:attachment>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch3subch3">
+                    <div type="subchapter" xml:id="ch3subch3"
+                        frus:doc-dateTime-min="1934-05-17T09:00:00-05:00"
+                        frus:doc-dateTime-max="1934-09-24T16:00:00-05:00">
                         <head>III. Arms embargo under the auspices of the League of Nations against
                             the Chaco belligerents</head>
                         <div type="document" xml:id="d293" n="293" subtype="historical-document"
@@ -23554,7 +23575,9 @@
                             <closer><signed><hi rend="smallcaps">Gilbert</hi></signed></closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch3subch4">
+                    <div type="subchapter" xml:id="ch3subch4"
+                        frus:doc-dateTime-min="1934-05-28T21:00:00-05:00"
+                        frus:doc-dateTime-max="1934-08-01T20:00:00-05:00">
                         <head>IV. Prohibition by the United States of the sale of arms and munitions
                             to the Chaco belligerents</head>
                         <div type="document" xml:id="d359" n="359" subtype="historical-document"
@@ -24147,7 +24170,8 @@
                     </div>
                 </div>
                 <pb n="300" xml:id="pg_300" facs="0370"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1934-07-09T18:00:00-05:00"
+                    frus:doc-dateTime-max="1934-09-20T23:59:59-05:00">
                     <head>Concern of the United States over misunderstanding between Chile and
                         Paraguay resulting in temporary withdrawal of diplomatic
                         representatives</head>
@@ -25319,7 +25343,8 @@
                     </div>
                 </div>
                 <pb n="321" xml:id="pg_321" facs="0391"/>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1934-01-26T16:00:00-05:00"
+                    frus:doc-dateTime-max="1934-12-29T18:00:00-05:00">
                     <head>Leticia dispute between Colombia and Peru<note n="1" xml:id="ch5fn1"
                             >Continued from <ref target="frus1933v04#pg_384"><hi rend="italic"
                                     >Foreign Relations</hi>, 1933, vol. <hi rend="smallcaps"
@@ -28717,7 +28742,8 @@
                     </div>
                 </div>
                 <pb n="377" xml:id="pg_377" facs="0447"/>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1934-04-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1934-05-24T23:59:59-05:00">
                     <head>Refusal of the United States Government to facilitate preparations for war
                         by Colombia and Peru during the Leticia dispute</head>
                     <div type="document" xml:id="d479" n="479" subtype="historical-document"
@@ -29467,7 +29493,8 @@
                     </div>
                 </div>
                 <pb n="390" xml:id="pg_390" facs="0460"/>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1934-06-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1934-09-04T23:59:59-05:00">
                     <head>Special mission of John H. Williams to investigate foreign exchange
                         problems in Argentina, Brazil, Chile, and Uruguay<note n="1" xml:id="ch7fn1"
                             >For other correspondence regarding the foreign exchange problem in each
@@ -31062,7 +31089,8 @@
                     </div>
                 </div>
                 <pb n="423" xml:id="pg_423" facs="0493"/>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1934-01-26T17:00:00-05:00"
+                    frus:doc-dateTime-max="1934-04-13T12:00:00-05:00">
                     <head>The Conference of Central American States<note n="1" xml:id="ch8fn1">For
                             earlier correspondence preliminary to the Conference, see <ref
                                 target="frus1934v05">vol. <hi rend="smallcaps">v</hi></ref>, section
@@ -33232,7 +33260,8 @@
                     </div>
                 </div>
                 <pb n="457" xml:id="pg_457" facs="0527"/>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1934-01-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1934-07-11T23:59:59-05:00">
                     <head>Boundary dispute between Ecuador and Peru<note n="1" xml:id="ch9fn1"
                             >Continued from <ref target="frus1933v04#pg_561"><hi rend="italic"
                                     >Foreign Relations</hi>, 1933, vol. <hi rend="smallcaps"
@@ -33747,7 +33776,8 @@
                     </div>
                 </div>
                 <pb n="467" xml:id="pg_467" facs="0537"/>
-                <div type="chapter" xml:id="ch10">
+                <div type="chapter" xml:id="ch10" frus:doc-dateTime-min="1934-02-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1934-12-10T23:59:59-05:00">
                     <head>Cooperation of the United States with other governments in the
                         construction of the Inter-American Highway<note n="1" xml:id="ch10fn1">For
                             previous correspondence, see <ref target="frus1931v01#pg_709"><hi
@@ -35242,13 +35272,16 @@
                     </div>
                 </div>
                 <pb n="495" xml:id="pg_495" facs="0565"/>
-                <div type="chapter" xml:id="ch11">
+                <div type="chapter" xml:id="ch11" frus:doc-dateTime-min="1934-06-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1934-11-20T23:59:59-05:00">
                     <head>Interpretation of article IV of the Habana Convention on Commercial
                         Aviation adopted February 20, 1928:<note n="1" xml:id="ch11fn1">Continued
                             from <ref target="frus1933v04#pg_607"><hi rend="italic">Foreign
                                     Relations</hi>, 1933, vol. <hi rend="smallcaps">iv</hi>, pp.
                                 607</ref>–<ref target="frus1933v04#pg_641">641</ref>.</note></head>
-                    <div type="subchapter" xml:id="ch11subch1">
+                    <div type="subchapter" xml:id="ch11subch1"
+                        frus:doc-dateTime-min="1934-07-13T00:00:00-05:00"
+                        frus:doc-dateTime-max="1934-11-20T23:59:59-05:00">
                         <head>Chile</head>
                         <div type="document" xml:id="d590" n="590" subtype="historical-document"
                             frus:doc-dateTime-min="1934-07-13T00:00:00-05:00"
@@ -35478,7 +35511,9 @@
                             </frus:attachment>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch11subch2">
+                    <div type="subchapter" xml:id="ch11subch2"
+                        frus:doc-dateTime-min="1934-07-16T00:00:00-05:00"
+                        frus:doc-dateTime-max="1934-08-29T23:59:59-05:00">
                         <head>Guatemala</head>
                         <div type="document" xml:id="d592" n="592" subtype="historical-document"
                             frus:doc-dateTime-min="1934-07-16T00:00:00-05:00"
@@ -35802,7 +35837,9 @@
                                         >Walton Moore</hi></signed></closer>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch11subch3">
+                    <div type="subchapter" xml:id="ch11subch3"
+                        frus:doc-dateTime-min="1934-08-17T00:00:00-05:00"
+                        frus:doc-dateTime-max="1934-08-17T23:59:59-05:00">
                         <head>Haiti</head>
                         <div type="document" xml:id="d595" n="595" subtype="historical-document"
                             frus:doc-dateTime-min="1934-08-17T00:00:00-05:00"
@@ -35907,7 +35944,9 @@
                             </frus:attachment>
                         </div>
                     </div>
-                    <div type="subchapter" xml:id="ch11subch4">
+                    <div type="subchapter" xml:id="ch11subch4"
+                        frus:doc-dateTime-min="1934-06-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1934-06-27T23:59:59-05:00">
                         <head>Mexico</head>
                         <div type="document" xml:id="d596" n="596" subtype="historical-document"
                             frus:doc-dateTime-min="1934-06-01T00:00:00-05:00"
@@ -36092,9 +36131,11 @@
                 </div>
             </div>
             <pb n="510" xml:id="pg_510" facs="0580"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1934-02-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1935-01-05T23:59:59-05:00">
                 <head>Argentina:</head>
-                <div type="chapter" xml:id="ch12">
+                <div type="chapter" xml:id="ch12" frus:doc-dateTime-min="1934-02-08T00:00:00-05:00"
+                    frus:doc-dateTime-max="1934-09-07T23:59:59-05:00">
                     <head>Preliminary discussions respecting a trade agreement between the United
                         States and Argentina<note n="1" xml:id="ch12fn1">Continued from <ref
                                 target="frus1933v04#pg_642"><hi rend="italic">Foreign
@@ -36175,7 +36216,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch13">
+                <div type="chapter" xml:id="ch13" frus:doc-dateTime-min="1934-02-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1934-11-12T23:59:59-05:00">
                     <head>Efforts of the Department of State to secure equitable treatment for
                         American interests with respect to Argentine exchange restrictions<note
                             n="5" xml:id="ch13fn5">See also section entitled “Special Mission of
@@ -37690,7 +37732,8 @@
                     </div>
                 </div>
                 <pb n="539" xml:id="pg_539" facs="0609"/>
-                <div type="chapter" xml:id="ch14">
+                <div type="chapter" xml:id="ch14" frus:doc-dateTime-min="1934-03-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1935-01-05T23:59:59-05:00">
                     <head>Engagement of American naval officers by the Argentine Navy Department to
                         serve as instructors in the Argentine Naval War College</head>
                     <div type="document" xml:id="d617" n="617" subtype="historical-document"
@@ -37881,9 +37924,11 @@
                 </div>
             </div>
             <pb n="542" xml:id="pg_542" facs="0612"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1933-12-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1934-12-28T23:59:59-05:00">
                 <head>Brazil:</head>
-                <div type="chapter" xml:id="ch15">
+                <div type="chapter" xml:id="ch15" frus:doc-dateTime-min="1934-01-03T13:00:00-05:00"
+                    frus:doc-dateTime-max="1934-12-28T23:59:59-05:00">
                     <head>Negotiations respecting a reciprocal trade agreement between the United
                         States and Brazil<note n="1" xml:id="ch15fn1">For previous correspondence,
                             see <ref target="frus1933v05#pg_13"><hi rend="italic">Foreign
@@ -39926,7 +39971,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch16">
+                <div type="chapter" xml:id="ch16" frus:doc-dateTime-min="1934-03-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1934-12-07T14:00:00-05:00">
                     <head>Efforts of the Department of State and private firms to secure equitable
                         treatment for American interests with respect to Brazilian exchange
                             restrictions<note n="42" xml:id="ch16fn42">Continued from <ref
@@ -41325,7 +41371,8 @@
                         <closer><signed><hi rend="smallcaps">Gordon</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch17">
+                <div type="chapter" xml:id="ch17" frus:doc-dateTime-min="1934-01-02T18:00:00-05:00"
+                    frus:doc-dateTime-max="1934-02-03T11:00:00-05:00">
                     <head>Efforts to secure equitable treatment for American creditors in the
                         servicing of Brazilian Federal, state, and municipal debts<note n="67"
                             xml:id="ch17fn67">Continued from <ref target="frus1933v05#pg_75"><hi
@@ -42599,7 +42646,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch18">
+                <div type="chapter" xml:id="ch18" frus:doc-dateTime-min="1933-12-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1934-07-23T23:59:59-05:00">
                     <head>Agreement between the United States and Brazil for a military mission to
                         Brazil, signed May 10, 1934, and supplementary agreement by exchange of
                         notes</head>
@@ -43129,7 +43177,9 @@
         </body>
         <back>
             <pb n="635" xml:id="pg_635" facs="0705"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1933-12-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1935-01-05T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Agreements. <hi rend="italic">See</hi>

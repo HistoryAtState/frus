@@ -15,7 +15,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1975</date>
+                <date type="publication-date">1975</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -65,6 +65,10 @@
             <change>2014-09-09 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1949-01-03T00:00:00-05:00"
+                notAfter="1949-12-31T08:00:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -96,7 +100,9 @@
                     044–000–01571</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1949-12-31T08:00:00-05:00">
                 <head>Preface</head>
                 <p>Part 1 of this volume was prepared under the direct supervision of the late S.
                     Everett Gleason, former editor of <hi rend="italic">Foreign Relations</hi>, and
@@ -203,7 +209,9 @@
                 </frus:attachment>
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1949-12-31T08:00:00-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -284,7 +292,9 @@
             </div>
             <pb n="[VI]" xml:id="pg_VI" facs="0010"/>
             <pb n="VII" xml:id="pg_VII" facs="0011"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1949-12-31T08:00:00-05:00">
                 <head>List of abbreviations, symbols, and code names</head>
                 <p>
                     <hi rend="smallcaps">Editor’s Note</hi>.—This list does not include standard
@@ -1084,11 +1094,15 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0015"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1949-03-03T00:00:00+12:00"
+                frus:doc-dateTime-max="1949-11-26T23:59:59+10:00">
                 <head>Australasia:</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1949-11-26T00:00:00+10:00"
+                    frus:doc-dateTime-max="1949-11-26T23:59:59+10:00">
                     <head>Australia:</head>
-                    <div type="subchapter" xml:id="ch1subch1">
+                    <div type="subchapter" subtype="referral" xml:id="ch1subch1"
+                        frus:doc-dateTime-min="1949-11-26T00:00:00+10:00"
+                        frus:doc-dateTime-max="1949-11-26T23:59:59+10:00">
                         <head>Agreement between the United States and Australia respecting a United
                             States educational foundation in Australia</head>
                         <p>[For text of Agreement, signed at Canberra, November 26, 1949, see
@@ -1097,9 +1111,12 @@
                     </div>
                 </div>
                 <pb n="2" xml:id="pg_2" facs="0016"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1949-03-03T00:00:00+12:00"
+                    frus:doc-dateTime-max="1949-03-09T23:59:59+12:00">
                     <head>New Zealand</head>
-                    <div type="subchapter" xml:id="ch2subch1">
+                    <div type="subchapter" subtype="referral" xml:id="ch2subch1"
+                        frus:doc-dateTime-min="1949-03-03T00:00:00+12:00"
+                        frus:doc-dateTime-max="1949-03-09T23:59:59+12:00">
                         <head>Agreement between the United States and New Zealand respecting a
                             United States educational foundation in New Zealand</head>
                         <p>[For text of Agreement, amending Agreement of September 14, 1948,
@@ -1110,16 +1127,22 @@
                 </div>
             </div>
             <pb n="3" xml:id="pg_3" facs="0017"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1949-12-31T08:00:00-05:00">
                 <head>East and Southeast Asia:</head>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" subtype="referral"
+                    frus:doc-dateTime-min="1949-01-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1949-12-31T18:00:00-05:00">
                     <head>China</head>
                     <p>(See volumes VIII and IX.)</p>
                 </div>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1949-01-14T14:00:00-05:00"
+                    frus:doc-dateTime-max="1949-12-31T08:00:00-05:00">
                     <head>French Indochina:</head>
                     <pb n="4" xml:id="pg_4" facs="0018"/>
-                    <div type="subchapter" xml:id="ch4subch1">
+                    <div type="subchapter" xml:id="ch4subch1"
+                        frus:doc-dateTime-min="1949-01-14T14:00:00-05:00"
+                        frus:doc-dateTime-max="1949-12-31T08:00:00-05:00">
                         <head>The interest of the United States in opposition to the restoration of
                             French rule in Indochina<note n="1" xml:id="ch4subch1fn1">Continued from
                                     <ref target="frus1948v06">
@@ -8996,9 +9019,12 @@
                     </div>
                 </div>
                 <pb n="119" xml:id="pg_119" facs="0133"/>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1949-12-30T20:00:00-05:00">
                     <head>Indonesia</head>
-                    <div type="subchapter" xml:id="ch5subch1">
+                    <div type="subchapter" xml:id="ch5subch1"
+                        frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                        frus:doc-dateTime-max="1949-12-30T20:00:00-05:00">
                         <head>The interest of the United States in nationalist opposition to the
                             restoration of Netherlands rule in the East Indies and consideration by
                             the United Nations Security Council of Indonesian case;<note n="1"
@@ -41581,9 +41607,12 @@
                     </div>
                 </div>
                 <pb n="591" xml:id="pg_591" facs="0605"/>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1949-01-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1949-12-30T13:00:00-05:00">
                     <head>Philippines</head>
-                    <div type="subchapter" xml:id="ch6subch1">
+                    <div type="subchapter" xml:id="ch6subch1"
+                        frus:doc-dateTime-min="1949-01-27T00:00:00-05:00"
+                        frus:doc-dateTime-max="1949-12-30T13:00:00-05:00">
                         <head>Cooperation of the United States with the Republic of the
                                 Philippines.<note n="1" xml:id="ch6subch1fn1">Continued from <ref
                                     target="frus1948v06#pg_625">
@@ -42254,7 +42283,9 @@
             <pb n="[i]" xml:id="pg_i" facs="0615"/>
             <pb n="ii" xml:id="pg_ii" facs="0616"/>
             <pb n="iii" xml:id="pg_iii" facs="0617"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1949-01-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1949-12-31T08:00:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Abbey, Glenn A., <ref target="#pg_410">410</ref>, <ref target="#pg_414"

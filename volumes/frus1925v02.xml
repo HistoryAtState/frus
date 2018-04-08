@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1940</date>
+                <date type="publication-date">1940</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -68,6 +68,10 @@
             <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1904-03-02T00:00:00-05:00"
+                notAfter="1926-10-08T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -93,7 +97,9 @@
                     (Buckram)</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0007"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1904-03-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1926-10-08T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_IX"><hi rend="smallcaps">List of Papers</hi></ref></item>
@@ -408,7 +414,9 @@
             </div>
             <pb n="[VIII]" xml:id="pg_VIII" facs="0012"/>
             <pb n="IX" xml:id="pg_IX" facs="0013"/>
-            <div type="section" xml:id="papers">
+            <div type="section" xml:id="papers" subtype="index"
+                frus:doc-dateTime-min="1904-03-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1926-10-08T23:59:59-05:00">
                 <head>List of Papers</head>
                 <p rend="center">[Unless otherwise specified, the correspondence is <hi
                         rend="italic">from</hi> or <hi rend="italic">to</hi> officials in the
@@ -6540,9 +6548,11 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0083"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1904-03-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-11-14T21:00:00-05:00">
                 <head>Cuba:</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1904-03-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-03-18T23:59:59-05:00">
                     <head>Ratification of the treaty of March 2, 1904, between the United States and
                         Cuba for the adjustment of title to the ownership of the Isle of
                         Pines</head>
@@ -7265,7 +7275,8 @@
                             Torriente</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1924-10-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-11-14T21:00:00-05:00">
                     <head>Negotiations between the United States and Cuba for treaties regarding
                         consular rights, extradition, and smuggling</head>
                     <div type="document" xml:id="d8" n="8" subtype="historical-document"
@@ -8188,9 +8199,11 @@
                 </div>
             </div>
             <pb n="32" xml:id="pg_32" facs="0114"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1922-09-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-10-14T23:59:59-05:00">
                 <head>Czechoslovakia:</head>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1922-09-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-07-02T23:59:59-05:00">
                     <head>Extradition treaty between the United States and Czechoslovakia, signed
                         July 2, 1925</head>
                     <div type="document" xml:id="d22" n="22" subtype="historical-document"
@@ -8530,7 +8543,8 @@
                     </div>
                 </div>
                 <pb n="39" xml:id="pg_39" facs="0121"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1925-06-09T19:00:00-05:00"
+                    frus:doc-dateTime-max="1925-10-14T23:59:59-05:00">
                     <head>Objection by the Department of State to private loans to Czechoslovakia
                         pending settlement of Czechoslovak debts to the United States
                         Government</head>
@@ -8922,9 +8936,11 @@
                 </div>
             </div>
             <pb n="46" xml:id="pg_46" facs="0128"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1925-03-31T00:00:00-05:00"
+                frus:doc-dateTime-max="1926-10-08T23:59:59-05:00">
                 <head>Dominican Republic:</head>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1925-03-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1926-10-08T23:59:59-05:00">
                     <head>Notes exchanged between the Secretary of State and the Dominican Minister
                         in Washington explanatory of the convention of December 27, 1924<note n="1"
                             xml:id="ch5fn1">For the text of the convention, see <ref
@@ -9607,9 +9623,11 @@
                 </div>
             </div>
             <pb n="59" xml:id="pg_59" facs="0141"/>
-            <div type="compilation" xml:id="comp4">
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1925-01-27T18:00:00-05:00"
+                frus:doc-dateTime-max="1925-07-29T23:59:59-05:00">
                 <head>Ecuador:</head>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1925-01-27T18:00:00-05:00"
+                    frus:doc-dateTime-max="1925-05-09T18:00:00-05:00">
                     <head>Claim of the Mercantile Bank of the Americas against Ecuador for the debt
                         of the Cacao Growers Association<note n="1" xml:id="ch6fn1">Continued from
                                 <ref target="frus1924v01#pg_701"><hi rend="italic">Foreign
@@ -9906,7 +9924,8 @@
                         <closer><signed><hi rend="smallcaps">Grew</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1925-07-10T16:00:00-05:00"
+                    frus:doc-dateTime-max="1925-07-29T23:59:59-05:00">
                     <head>Withholding of recognition by the United States of the revolutionary
                         government in Ecuador</head>
                     <div type="document" xml:id="d51" n="51" subtype="historical-document"
@@ -10016,9 +10035,11 @@
                 </div>
             </div>
             <pb n="66" xml:id="pg_66" facs="0148"/>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" xml:id="comp5" frus:doc-dateTime-min="1925-03-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-12-23T23:59:59-05:00">
                 <head>Estonia:</head>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1925-03-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-08-01T23:59:59-05:00">
                     <head>Agreement between the United States and Estonia for mutual unconditional
                         most-favored-nation treatment in customs matters, signed March 2,
                         1925</head>
@@ -10224,7 +10245,8 @@
                     </div>
                 </div>
                 <pb n="70" xml:id="pg_70" facs="0152"/>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1925-12-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-23T23:59:59-05:00">
                     <head>Treaty of friendship, commerce and consular rights between the United
                         States and Estonia, signed December 23, 1925</head>
                     <div type="document" xml:id="d58" n="58" subtype="historical-document"
@@ -10884,9 +10906,11 @@
                 </div>
             </div>
             <pb n="86" xml:id="pg_86" facs="0168"/>
-            <div type="compilation" xml:id="comp6">
+            <div type="compilation" xml:id="comp6" frus:doc-dateTime-min="1924-08-01T18:00:00-05:00"
+                frus:doc-dateTime-max="1926-01-30T23:59:59-05:00">
                 <head>Finland:</head>
-                <div type="chapter" xml:id="ch10">
+                <div type="chapter" xml:id="ch10" frus:doc-dateTime-min="1924-08-01T18:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-24T23:59:59-05:00">
                     <head>Agreement between the United States and Finland for mutual unconditional
                         most-favored-nation treatment in customs matters, signed May 2, 1925</head>
                     <div type="document" xml:id="d59" n="59" subtype="historical-document"
@@ -11614,7 +11638,8 @@
                         <closer><signed><hi rend="smallcaps">L. Åström</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch11">
+                <div type="chapter" xml:id="ch11" frus:doc-dateTime-min="1925-04-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1926-01-30T23:59:59-05:00">
                     <head>Agreement between the United States and Finland respecting tonnage dues
                         and other charges, signed December 21, 1925</head>
                     <div type="document" xml:id="d67" n="67" subtype="historical-document"
@@ -11857,9 +11882,11 @@
                 </div>
             </div>
             <pb n="105" xml:id="pg_105" facs="0187"/>
-            <div type="compilation" xml:id="comp7">
+            <div type="compilation" xml:id="comp7" frus:doc-dateTime-min="1924-10-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-12-05T16:00:00-05:00">
                 <head>France:</head>
-                <div type="chapter" xml:id="ch12">
+                <div type="chapter" xml:id="ch12" frus:doc-dateTime-min="1925-08-07T14:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-05T16:00:00-05:00">
                     <head>Precautions by the United States for the safety of Americans during the
                         Syrian insurrection</head>
                     <div type="document" xml:id="d72" n="72" subtype="historical-document"
@@ -13160,7 +13187,8 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch13">
+                <div type="chapter" xml:id="ch13" frus:doc-dateTime-min="1924-10-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-11-30T23:59:59-05:00">
                     <head>Placing of American residents of France on an equality with French
                         citizens with respect to income tax exemptions</head>
                     <div type="document" xml:id="d113" n="113" subtype="historical-document"
@@ -13509,9 +13537,11 @@
                 </div>
             </div>
             <pb n="133" xml:id="pg_133" facs="0215"/>
-            <div type="compilation" xml:id="comp8">
+            <div type="compilation" xml:id="comp8" frus:doc-dateTime-min="1923-09-07T09:00:00-05:00"
+                frus:doc-dateTime-max="1926-01-09T15:00:00-05:00">
                 <head>Germany:</head>
-                <div type="chapter" xml:id="ch14">
+                <div type="chapter" xml:id="ch14" frus:doc-dateTime-min="1924-01-03T20:00:00-05:00"
+                    frus:doc-dateTime-max="1926-01-09T15:00:00-05:00">
                     <head>Agreement regulating the distribution of the Dawes reparation annuities,
                         concluded at the Conference of Ministers of Finance, Paris, January 14,
                             1925<note n="1" xml:id="ch14fn1">For previous correspondence concerning
@@ -15412,7 +15442,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch15">
+                <div type="chapter" xml:id="ch15" frus:doc-dateTime-min="1925-01-28T17:00:00-05:00"
+                    frus:doc-dateTime-max="1925-09-23T23:59:59-05:00">
                     <head>Return of the D. A. P. G. tanker case to the arbitrators for a majority
                             decision<note n="39" xml:id="ch15fn39">For previous correspondence
                             concerning disposal of D. A. P. G. tank ships, see <ref
@@ -15801,7 +15832,8 @@
                         <closer><signed><hi rend="smallcaps">J. Butler Wright</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch16">
+                <div type="chapter" xml:id="ch16" frus:doc-dateTime-min="1925-09-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-11-24T23:59:59-05:00">
                     <head>Policy of the Department of State regarding American bankers’ loans to
                         German states and municipalities</head>
                     <div type="document" xml:id="d147" n="147" subtype="historical-document"
@@ -16651,7 +16683,8 @@
                     </div>
                 </div>
                 <pb n="188" xml:id="pg_188" facs="0270"/>
-                <div type="chapter" xml:id="ch17">
+                <div type="chapter" xml:id="ch17" frus:doc-dateTime-min="1923-09-07T09:00:00-05:00"
+                    frus:doc-dateTime-max="1925-02-20T23:59:59-05:00">
                     <head>Arrangement between the United States and Germany granting relief from
                         double income tax on shipping profits</head>
                     <div type="document" xml:id="d163" n="163" subtype="historical-document"
@@ -17277,9 +17310,11 @@
                 </div>
             </div>
             <pb n="199" xml:id="pg_199" facs="0281"/>
-            <div type="compilation" xml:id="comp9">
+            <div type="compilation" xml:id="comp9" frus:doc-dateTime-min="1924-08-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-12-31T21:00:00-05:00">
                 <head>Great Britain:</head>
-                <div type="chapter" xml:id="ch18">
+                <div type="chapter" xml:id="ch18" frus:doc-dateTime-min="1925-02-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-02-10T23:59:59-05:00">
                     <head>Convention between the United States and Great Britain relating to
                         American rights in the Cameroons<note n="1" xml:id="ch18fn1">For
                             correspondence regarding the negotiation of this treaty, see <ref
@@ -17512,7 +17547,8 @@
                             Chamberlain</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch19">
+                <div type="chapter" xml:id="ch19" frus:doc-dateTime-min="1925-02-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-02-10T23:59:59-05:00">
                     <head>Convention between the United States and Great Britain relating to
                         American rights in East Africa<note n="3" xml:id="ch19fn3">For
                             correspondence regarding the negotiation of this treaty, see <ref
@@ -17809,7 +17845,8 @@
                             Chamberlain</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch20">
+                <div type="chapter" xml:id="ch20" frus:doc-dateTime-min="1925-02-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-02-10T23:59:59-05:00">
                     <head>Convention between the United States and Great Britain relating to
                         American rights in Togoland<note n="5" xml:id="ch20fn5">For correspondence
                             regarding the negotiation of this treaty, see <ref
@@ -18043,7 +18080,8 @@
                     </div>
                 </div>
                 <pb n="214" xml:id="pg_214" facs="0296"/>
-                <div type="chapter" xml:id="ch21">
+                <div type="chapter" xml:id="ch21" frus:doc-dateTime-min="1925-03-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-06-12T12:00:00-05:00">
                     <head>Statement by the British Government regarding treatment of American
                         nationals and goods in territories under British “C” mandates</head>
                     <div type="document" xml:id="d175" n="175" subtype="historical-document"
@@ -18243,7 +18281,8 @@
                         <closer><signed><hi rend="smallcaps">Houghton</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch22">
+                <div type="chapter" xml:id="ch22" frus:doc-dateTime-min="1925-03-07T11:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-03T16:00:00-05:00">
                     <head>Delay in exchange of ratifications of the Palestine Mandate Convention
                         pending adjustment of cases involving the capitulatory rights of
                             Americans<note n="13" xml:id="ch22fn13">For previous correspondence
@@ -18956,7 +18995,8 @@
                         <closer><signed><hi rend="smallcaps">Houghton</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch23">
+                <div type="chapter" xml:id="ch23" frus:doc-dateTime-min="1924-10-21T19:00:00-05:00"
+                    frus:doc-dateTime-max="1925-04-20T23:59:59-05:00">
                     <head>Dissatisfaction of the United States with the decision relating to the
                         Iraq mandate taken by the Council of the League of Nations at the instance
                         of Great Britain</head>
@@ -19434,7 +19474,8 @@
                     </div>
                 </div>
                 <pb n="239" xml:id="pg_239" facs="0321"/>
-                <div type="chapter" xml:id="ch24">
+                <div type="chapter" xml:id="ch24" frus:doc-dateTime-min="1925-12-05T19:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-31T21:00:00-05:00">
                     <head>Continued negotiations to ensure recognition of the principle of the open
                         door in the Turkish Petroleum Company’s concession in Iraq<note n="68"
                             xml:id="ch24fn68">Continued from <ref target="frus1924v02#pg_222"><hi
@@ -19788,7 +19829,8 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch25">
+                <div type="chapter" xml:id="ch25" frus:doc-dateTime-min="1925-07-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-04T11:00:00-05:00">
                     <head>Efforts by the United States to obtain for American rubber manufacturers
                         relief from British restrictions on the export of raw rubber</head>
                     <div type="document" xml:id="d197" n="197" subtype="historical-document"
@@ -21007,7 +21049,8 @@
                         <closer><signed><hi rend="smallcaps">Houghton</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch26">
+                <div type="chapter" xml:id="ch26" frus:doc-dateTime-min="1924-08-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-03-16T23:59:59-05:00">
                     <head>Arrangement between the United States and Great Britain and Northern
                         Ireland granting relief from double income tax on shipping profits</head>
                     <div type="document" xml:id="d209" n="209" subtype="historical-document"
@@ -21336,7 +21379,8 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch27">
+                <div type="chapter" xml:id="ch27" frus:doc-dateTime-min="1925-09-08T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-10-01T23:59:59-05:00">
                     <head>Arrangement between the United States, Great Britain, Canada, and
                         Newfoundland regulating wireless broadcasting by ships off their
                         coasts</head>
@@ -21540,7 +21584,8 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch28">
+                <div type="chapter" xml:id="ch28" frus:doc-dateTime-min="1924-12-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-02-27T16:00:00-05:00">
                     <head>Protest against discriminatory embargo on American potato shipments into
                         the British Isles</head>
                     <div type="document" xml:id="d221" n="221" subtype="historical-document"
@@ -21798,7 +21843,8 @@
                         <closer><signed><hi rend="smallcaps">Sterling</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch29">
+                <div type="chapter" xml:id="ch29" frus:doc-dateTime-min="1925-03-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-07-25T18:00:00-05:00">
                     <head>Arrangements for a visit by an American fleet to Australia and New
                         Zealand</head>
                     <div type="document" xml:id="d230" n="230" subtype="historical-document"
@@ -22034,9 +22080,12 @@
                 </div>
             </div>
             <pb n="286" xml:id="pg_286" facs="0368"/>
-            <div type="compilation" xml:id="comp10">
+            <div type="compilation" xml:id="comp10"
+                frus:doc-dateTime-min="1923-05-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-09-29T23:59:59-05:00">
                 <head>Greece:</head>
-                <div type="chapter" xml:id="ch30">
+                <div type="chapter" xml:id="ch30" frus:doc-dateTime-min="1923-05-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-09-29T23:59:59-05:00">
                     <head>Loan by Ulen &amp; Company to the Greek Government under a contract to
                         build waterworks for Athens and The Piraeus</head>
                     <div type="document" xml:id="d235" n="235" subtype="historical-document"
@@ -22459,9 +22508,12 @@
                 </div>
             </div>
             <pb n="294" xml:id="pg_294" facs="0376"/>
-            <div type="compilation" xml:id="comp11">
+            <div type="compilation" xml:id="comp11"
+                frus:doc-dateTime-min="1925-02-11T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-10-10T23:59:59-05:00">
                 <head>Haiti:</head>
-                <div type="chapter" xml:id="ch31">
+                <div type="chapter" xml:id="ch31" frus:doc-dateTime-min="1925-02-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-10-10T23:59:59-05:00">
                     <head>Postponement of legislative elections in Haiti</head>
                     <div type="document" xml:id="d246" n="246" subtype="historical-document"
                         frus:doc-dateTime-min="1925-02-11T00:00:00-05:00"
@@ -23243,7 +23295,8 @@
                         </frus:attachment>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch32">
+                <div type="chapter" xml:id="ch32" frus:doc-dateTime-min="1925-03-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-05-07T23:59:59-05:00">
                     <head>Support by the United States of Haitian refusal to arbitrate with France
                         the question of paying interest in gold on gold loan of 1910<note n="8"
                             xml:id="ch32fn8">For previous correspondence regarding request of the
@@ -23583,9 +23636,12 @@
                 </div>
             </div>
             <pb n="316" xml:id="pg_316" facs="0398"/>
-            <div type="compilation" xml:id="comp12">
+            <div type="compilation" xml:id="comp12"
+                frus:doc-dateTime-min="1925-01-10T16:00:00-05:00"
+                frus:doc-dateTime-max="1925-12-29T15:00:00-05:00">
                 <head>Honduras:</head>
-                <div type="chapter" xml:id="ch33">
+                <div type="chapter" xml:id="ch33" frus:doc-dateTime-min="1925-01-21T08:00:00-05:00"
+                    frus:doc-dateTime-max="1925-01-26T18:00:00-05:00">
                     <head>Inauguration of the new constitutional government in Honduras and the
                         resumption of formal relations with the United States<note n="1"
                             xml:id="ch33fn1">For previous correspondence concerning political
@@ -23690,7 +23746,8 @@
                         <closer><signed><hi rend="smallcaps">Hughes</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch34">
+                <div type="chapter" xml:id="ch34" frus:doc-dateTime-min="1925-01-10T16:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-22T23:59:59-05:00">
                     <head>Assistance by the United States to the Government of Honduras in
                         maintaining political stability<note n="6" xml:id="ch34fn6">For previous
                             correspondence concerning political affairs in Honduras, see <ref
@@ -24886,7 +24943,8 @@
                     </div>
                 </div>
                 <pb n="338" xml:id="pg_338" facs="0420"/>
-                <div type="chapter" xml:id="ch35">
+                <div type="chapter" xml:id="ch35" frus:doc-dateTime-min="1925-03-07T18:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-29T15:00:00-05:00">
                     <head>Good offices of the United States in promoting a settlement between the
                         Government of Honduras and the British bondholders</head>
                     <div type="document" xml:id="d300" n="300" subtype="historical-document"
@@ -25057,9 +25115,12 @@
                 </div>
             </div>
             <pb n="341" xml:id="pg_341" facs="0423"/>
-            <div type="compilation" xml:id="comp13">
+            <div type="compilation" xml:id="comp13"
+                frus:doc-dateTime-min="1925-06-24T00:00:00-05:00"
+                frus:doc-dateTime-max="1926-09-04T23:59:59-05:00">
                 <head>Hungary:</head>
-                <div type="chapter" xml:id="ch36">
+                <div type="chapter" xml:id="ch36" frus:doc-dateTime-min="1925-06-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1926-09-04T23:59:59-05:00">
                     <head>Treaty of friendship, commerce and consular rights between the United
                         States and Hungary, signed June 24, 1925</head>
                     <div type="document" xml:id="d304" n="304" subtype="historical-document"
@@ -25828,9 +25889,12 @@
                 </div>
             </div>
             <pb n="358" xml:id="pg_358" facs="0440"/>
-            <div type="compilation" xml:id="comp14">
+            <div type="compilation" xml:id="comp14"
+                frus:doc-dateTime-min="1925-05-26T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-11-23T23:59:59-05:00">
                 <head>Italy:</head>
-                <div type="chapter" xml:id="ch37">
+                <div type="chapter" xml:id="ch37" frus:doc-dateTime-min="1925-05-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-11-23T23:59:59-05:00">
                     <head>Objection by the Department of State to private loans to Italy pending
                         settlement of Italian debts to the United States Government<note n="1"
                             xml:id="ch37fn1">For correspondence concerning the refunding of Italian
@@ -26135,7 +26199,8 @@
                                 Secretary</hi></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch38">
+                <div type="chapter" xml:id="ch38" frus:doc-dateTime-min="1925-07-22T17:00:00-05:00"
+                    frus:doc-dateTime-max="1925-07-28T23:59:59-05:00">
                     <head>Expulsion from Italy of George Seldes, correspondent of the <hi
                             rend="italic">Chicago Tribune</hi></head>
                     <div type="document" xml:id="d319" n="319" subtype="historical-document"
@@ -26299,9 +26364,12 @@
                 </div>
             </div>
             <pb n="367" xml:id="pg_367" facs="0449"/>
-            <div type="compilation" xml:id="comp15">
+            <div type="compilation" xml:id="comp15"
+                frus:doc-dateTime-min="1924-04-08T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-12-29T23:59:59-05:00">
                 <head>Liberia:</head>
-                <div type="chapter" xml:id="ch39">
+                <div type="chapter" xml:id="ch39" frus:doc-dateTime-min="1924-04-08T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-29T23:59:59-05:00">
                     <head>Negotiations concerning the Firestone rubber concession and Finance
                         Corporation of America loan</head>
                     <div type="document" xml:id="d323" n="323" subtype="historical-document"
@@ -27126,7 +27194,7 @@
                         </list>
                     </div>
                     <div type="document" xml:id="d330" n="330" subtype="historical-document"
-                        frus:doc-dateTime-min="1924-09-30T18:16:00-05:00"
+                        frus:doc-dateTime-min="1924-09-30T19:44:00-05:00"
                         frus:doc-dateTime-max="1924-10-29T21:05:00-05:00">
                         <note rend="inline" type="source">882.6176 F 51/5: Telegram</note>
                         <head><hi rend="italic">The General Receiver of Customs of Liberia</hi>
@@ -33109,7 +33177,8 @@
                         </frus:attachment>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch40">
+                <div type="chapter" xml:id="ch40" frus:doc-dateTime-min="1925-07-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-10-13T23:59:59-05:00">
                     <head>Request by Liberia for the good offices of the United States in the
                         boundary dispute with France<note n="63" xml:id="ch40fn63">For previous
                             correspondence concerning the boundary dispute, see <ref
@@ -33353,9 +33422,12 @@
                 </div>
             </div>
             <pb n="500" xml:id="pg_500" facs="0582"/>
-            <div type="compilation" xml:id="comp16">
+            <div type="compilation" xml:id="comp16"
+                frus:doc-dateTime-min="1925-12-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1926-07-09T23:59:59-05:00">
                 <head>Lithuania:</head>
-                <div type="chapter" xml:id="ch41">
+                <div type="chapter" xml:id="ch41" frus:doc-dateTime-min="1925-12-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1926-07-09T23:59:59-05:00">
                     <head>Agreement between the United States and Lithuania according mutual
                         unconditional most-favored-nation treatment in customs matters, signed
                         December 23, 1925</head>
@@ -33560,9 +33632,12 @@
                 </div>
             </div>
             <pb n="504" xml:id="pg_504" facs="0586"/>
-            <div type="compilation" xml:id="comp17">
+            <div type="compilation" xml:id="comp17"
+                frus:doc-dateTime-min="1924-05-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-12-31T21:00:00-05:00">
                 <head>Mexico:</head>
-                <div type="chapter" xml:id="ch42">
+                <div type="chapter" xml:id="ch42" frus:doc-dateTime-min="1924-12-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-23T23:59:59-05:00">
                     <head>Conventions between the United States and Mexico, signed December 23,
                         1925: (1) Convention to prevent smuggling; (2) supplementary extradition
                         convention</head>
@@ -34230,7 +34305,8 @@
                             >seal</hi>]</closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch43">
+                <div type="chapter" xml:id="ch43" frus:doc-dateTime-min="1925-06-12T14:00:00-05:00"
+                    frus:doc-dateTime-max="1925-06-15T18:00:00-05:00">
                     <head>Public statement by the Secretary of State that the United States could
                         not acquiesce in continued violations of the rights of Americans in
                         Mexico</head>
@@ -34458,7 +34534,8 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch44">
+                <div type="chapter" xml:id="ch44" frus:doc-dateTime-min="1925-10-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-31T21:00:00-05:00">
                     <head>Representations by the United States against Mexican agrarian and
                         petroleum legislation</head>
                     <div type="document" xml:id="d411" n="411" subtype="historical-document"
@@ -36376,7 +36453,8 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch45">
+                <div type="chapter" xml:id="ch45" frus:doc-dateTime-min="1924-05-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-11-16T23:59:59-05:00">
                     <head>Renewed negotiations for a settlement of the dispute over the Rio Grande
                         boundary</head>
                     <div type="document" xml:id="d426" n="426" subtype="historical-document"
@@ -37868,7 +37946,8 @@
                         </frus:attachment>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch46">
+                <div type="chapter" xml:id="ch46" frus:doc-dateTime-min="1924-10-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-02-11T23:59:59-05:00">
                     <head>Removal by the United States of its coaling station in Pichilingue Bay at
                         the request of the Government of Mexico</head>
                     <div type="document" xml:id="d437" n="437" subtype="historical-document"
@@ -38108,9 +38187,12 @@
                 </div>
             </div>
             <pb n="590" xml:id="pg_590" facs="0672"/>
-            <div type="compilation" xml:id="comp18">
+            <div type="compilation" xml:id="comp18"
+                frus:doc-dateTime-min="1925-02-04T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-12-03T17:00:00-05:00">
                 <head>Morocco:</head>
-                <div type="chapter" xml:id="ch47">
+                <div type="chapter" xml:id="ch47" frus:doc-dateTime-min="1925-02-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-03T17:00:00-05:00">
                     <head>Refusal by the United States to acquiesce in the application of the
                         Statute of Tangier<note n="1" xml:id="ch47fn1">For previous correspondence
                             on this question, see <ref target="frus1924v02#pg_456"><hi rend="italic"
@@ -38786,7 +38868,8 @@
                         <closer><signed><hi rend="smallcaps">Moore</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch48">
+                <div type="chapter" xml:id="ch48" frus:doc-dateTime-min="1925-06-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-07-31T15:00:00-05:00">
                     <head>Reservation of American rights with respect to joint naval vigilance of
                         France and Spain off the Moroccan coast</head>
                     <div type="document" xml:id="d454" n="454" subtype="historical-document"
@@ -39018,7 +39101,8 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch49">
+                <div type="chapter" xml:id="ch49" frus:doc-dateTime-min="1925-09-05T15:00:00-05:00"
+                    frus:doc-dateTime-max="1925-11-14T23:59:59-05:00">
                     <head>Enlistment of American citizens for military service in Morocco</head>
                     <div type="document" xml:id="d458" n="458" subtype="historical-document"
                         frus:doc-dateTime-min="1925-09-05T15:00:00-05:00"
@@ -39394,9 +39478,12 @@
                 </div>
             </div>
             <pb n="614" xml:id="pg_614" facs="0696"/>
-            <div type="compilation" xml:id="comp19">
+            <div type="compilation" xml:id="comp19"
+                frus:doc-dateTime-min="1925-01-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-01-23T23:59:59-05:00">
                 <head>Netherlands:</head>
-                <div type="chapter" xml:id="ch50">
+                <div type="chapter" xml:id="ch50" frus:doc-dateTime-min="1925-01-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-01-23T23:59:59-05:00">
                     <head>Arbitration between the United States and the Netherlands respecting
                         sovereignty over the Island of Palmas<note n="1" xml:id="ch50fn1">Diplomatic
                             correspondence between the United States and the Netherlands regarding
@@ -39573,9 +39660,12 @@
                 </div>
             </div>
             <pb n="618" xml:id="pg_618" facs="0700"/>
-            <div type="compilation" xml:id="comp20">
+            <div type="compilation" xml:id="comp20"
+                frus:doc-dateTime-min="1925-01-03T10:00:00-05:00"
+                frus:doc-dateTime-max="1925-12-24T11:00:00-05:00">
                 <head>Nicaragua:</head>
-                <div type="chapter" xml:id="ch51">
+                <div type="chapter" xml:id="ch51" frus:doc-dateTime-min="1925-01-03T10:00:00-05:00"
+                    frus:doc-dateTime-max="1925-08-01T16:00:00-05:00">
                     <head>Withdrawal of the legation guard of United States marines after the
                         inauguration of the Solorzano administration</head>
                     <div type="document" xml:id="d467" n="467" subtype="historical-document"
@@ -40609,7 +40699,8 @@
                         <closer><signed><hi rend="smallcaps">Thurston</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch52">
+                <div type="chapter" xml:id="ch52" frus:doc-dateTime-min="1925-08-29T17:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-24T11:00:00-05:00">
                     <head>Efforts by the United States to preserve constitutional government in
                         Nicaragua</head>
                     <div type="document" xml:id="d485" n="485" subtype="historical-document"
@@ -41213,7 +41304,9 @@
                         <closer><signed><hi rend="smallcaps">Eberhardt</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch53">
+                <div type="chapter" xml:id="ch53" subtype="referral"
+                    frus:doc-dateTime-min="1925-03-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-11-19T23:59:59-05:00">
                     <head>Boundary dispute with Colombia. (<hi rend="italic">See</hi>
                         <ref target="frus1925v01">Volume I</ref>, General.)</head>
                     <p rend="center">(See <ref target="frus1925v01#pg_431">volume I, pages 431</ref>
@@ -41221,9 +41314,12 @@
                 </div>
             </div>
             <pb n="647" xml:id="pg_647" facs="0729"/>
-            <div type="compilation" xml:id="comp21">
+            <div type="compilation" xml:id="comp21"
+                frus:doc-dateTime-min="1924-11-26T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-03-24T23:59:59-05:00">
                 <head>Norway:</head>
-                <div type="chapter" xml:id="ch54">
+                <div type="chapter" xml:id="ch54" frus:doc-dateTime-min="1924-11-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-03-24T23:59:59-05:00">
                     <head>Arrangement between the United States and Norway granting relief from
                         double income tax on shipping profits<note n="1" xml:id="ch54fn1">For
                             previous correspondence, see <ref target="frus1923v02#pg_635"><hi
@@ -41381,9 +41477,12 @@
                 </div>
             </div>
             <pb n="650" xml:id="pg_650" facs="0732"/>
-            <div type="compilation" xml:id="comp22">
+            <div type="compilation" xml:id="comp22"
+                frus:doc-dateTime-min="1924-02-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-10-23T16:00:00-05:00">
                 <head>Panama:</head>
-                <div type="chapter" xml:id="ch55">
+                <div type="chapter" xml:id="ch55" frus:doc-dateTime-min="1924-02-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-01-31T23:59:59-05:00">
                     <head>Status in the Canal Zone of diplomatic and consular officers accredited to
                         Panama</head>
                     <div type="document" xml:id="d507" n="507" subtype="historical-document"
@@ -41794,7 +41893,8 @@
                             Hughes</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch56">
+                <div type="chapter" xml:id="ch56" frus:doc-dateTime-min="1925-02-27T10:00:00-05:00"
+                    frus:doc-dateTime-max="1925-03-18T10:00:00-05:00">
                     <head>Good offices of the American Minister in Panama in pacifying an Indian
                         revolt</head>
                     <div type="document" xml:id="d513" n="513" subtype="historical-document"
@@ -42117,7 +42217,8 @@
                     </div>
                 </div>
                 <pb n="663" xml:id="pg_663" facs="0745"/>
-                <div type="chapter" xml:id="ch57">
+                <div type="chapter" xml:id="ch57" frus:doc-dateTime-min="1925-10-11T09:00:00-05:00"
+                    frus:doc-dateTime-max="1925-10-23T16:00:00-05:00">
                     <head>Assistance by United States troops in quelling riots in Panama City</head>
                     <div type="document" xml:id="d525" n="525" subtype="historical-document"
                         frus:doc-dateTime-min="1925-10-11T09:00:00-05:00"
@@ -42317,7 +42418,9 @@
                         <closer><signed><hi rend="smallcaps">Munro</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch58">
+                <div type="chapter" xml:id="ch58" subtype="referral"
+                    frus:doc-dateTime-min="1925-01-23T16:00:00-05:00"
+                    frus:doc-dateTime-max="1926-01-07T10:00:00-05:00">
                     <head>Boundary dispute with Costa Rica. (<hi rend="italic">See</hi>
                         <ref target="frus1925v01">Volume I</ref>, General.)</head>
                     <p rend="center">(See <ref target="frus1925v01#pg_471">volume I, pages 471</ref>
@@ -42325,9 +42428,12 @@
                 </div>
             </div>
             <pb n="667" xml:id="pg_667" facs="0749"/>
-            <div type="compilation" xml:id="comp23">
+            <div type="compilation" xml:id="comp23"
+                frus:doc-dateTime-min="1925-01-27T00:00:00-05:00"
+                frus:doc-dateTime-max="1926-03-22T23:59:59-05:00">
                 <head>Paraguay:</head>
-                <div type="chapter" xml:id="ch59">
+                <div type="chapter" xml:id="ch59" frus:doc-dateTime-min="1925-01-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1926-03-22T23:59:59-05:00">
                     <head>Delivery of the “Paraguayan Jewels” to the Government of Paraguay</head>
                     <div type="document" xml:id="d532" n="532" subtype="historical-document"
                         frus:doc-dateTime-min="1925-01-27T00:00:00-05:00"
@@ -42768,9 +42874,12 @@
                 </div>
             </div>
             <pb n="676" xml:id="pg_676" facs="0758"/>
-            <div type="compilation" xml:id="comp24">
+            <div type="compilation" xml:id="comp24"
+                frus:doc-dateTime-min="1925-01-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-12-21T23:59:59-05:00">
                 <head>Persia:</head>
-                <div type="chapter" xml:id="ch60">
+                <div type="chapter" xml:id="ch60" frus:doc-dateTime-min="1925-10-30T22:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-21T23:59:59-05:00">
                     <head>Change of dynasty in Persia and recognition by the United States of the
                         Government of Reza Shah Pahlavi</head>
                     <div type="document" xml:id="d539" n="539" subtype="historical-document"
@@ -43131,7 +43240,8 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch61">
+                <div type="chapter" xml:id="ch61" frus:doc-dateTime-min="1925-01-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-10-09T23:59:59-05:00">
                     <head>Cooperation of the United States with Great Britain in efforts to restrict
                         the export of opium from ports in the Persian Gulf<note n="7"
                             xml:id="ch61fn7">Continued from <ref target="frus1924v02#pg_582"><hi
@@ -43604,15 +43714,21 @@
                 </div>
             </div>
             <pb n="691" xml:id="pg_691" facs="0773"/>
-            <div type="compilation" xml:id="comp25">
+            <div type="compilation" xml:id="comp25"
+                frus:doc-dateTime-min="1925-01-07T16:00:00-05:00"
+                frus:doc-dateTime-max="1925-12-22T19:00:00-05:00">
                 <head>Peru:</head>
-                <div type="chapter" xml:id="ch62">
+                <div type="chapter" xml:id="ch62" subtype="referral"
+                    frus:doc-dateTime-min="1925-01-07T16:00:00-05:00"
+                    frus:doc-dateTime-max="1925-11-30T23:59:59-05:00">
                     <head>Boundary dispute with Colombia. (<hi rend="italic">See</hi>
                         <ref target="frus1925v01">Volume I</ref>, General.)</head>
                     <p rend="center">(See <ref target="frus1925v01#pg_436">volume I, pages 436</ref>
                         ff.)</p>
                 </div>
-                <div type="chapter" xml:id="ch63">
+                <div type="chapter" xml:id="ch63" subtype="referral"
+                    frus:doc-dateTime-min="1925-03-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-12-22T19:00:00-05:00">
                     <head>The Tacna-Arica question. (<hi rend="italic">See</hi>
                         <ref target="frus1925v01">Volume I</ref>, General.)</head>
                     <p rend="center">(See <ref target="frus1925v01#pg_304">volume I, pages 304</ref>
@@ -43620,9 +43736,12 @@
                 </div>
             </div>
             <pb n="692" xml:id="pg_692" facs="0774"/>
-            <div type="compilation" xml:id="comp26">
+            <div type="compilation" xml:id="comp26"
+                frus:doc-dateTime-min="1925-02-10T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-02-10T23:59:59-05:00">
                 <head>Poland:</head>
-                <div type="chapter" xml:id="ch64">
+                <div type="chapter" xml:id="ch64" frus:doc-dateTime-min="1925-02-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-02-10T23:59:59-05:00">
                     <head>Agreement between the United States and Poland according mutual
                         unconditional most-favored-nation treatment in customs matters, signed
                         February 10, 1925<note n="1" xml:id="ch64fn1">The Free City of Danzig was a
@@ -43836,9 +43955,12 @@
                 </div>
             </div>
             <pb n="697" xml:id="pg_697" facs="0779"/>
-            <div type="compilation" xml:id="comp27">
+            <div type="compilation" xml:id="comp27"
+                frus:doc-dateTime-min="1924-09-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-07-01T23:59:59-05:00">
                 <head>Russia:</head>
-                <div type="chapter" xml:id="ch65">
+                <div type="chapter" xml:id="ch65" frus:doc-dateTime-min="1925-02-27T12:00:00-05:00"
+                    frus:doc-dateTime-max="1925-07-01T23:59:59-05:00">
                     <head>Refusal by the Department of State to intervene on behalf of the Sinclair
                         Exploration Company against cancelation of its oil concession in Northern
                             Sakhalin<note n="1" xml:id="ch65fn1">For previous correspondence
@@ -44095,7 +44217,8 @@
                             >ackworth</hi>]</signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch66">
+                <div type="chapter" xml:id="ch66" frus:doc-dateTime-min="1924-09-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-03-03T23:59:59-05:00">
                     <head>Reservations by the United States respecting the disposal made by Great
                         Britain and France of Russian gold received from Germany</head>
                     <div type="document" xml:id="d566" n="566" subtype="historical-document"
@@ -44190,7 +44313,8 @@
                             Hughes</hi></signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch67">
+                <div type="chapter" xml:id="ch67" frus:doc-dateTime-min="1925-05-19T16:00:00-05:00"
+                    frus:doc-dateTime-max="1925-05-19T16:00:00-05:00">
                     <head>Authorization of visas for Russian nationals to visit the United States
                         temporarily for business</head>
                     <div type="document" xml:id="d568" n="568" subtype="historical-document"
@@ -44227,9 +44351,12 @@
                 </div>
             </div>
             <pb n="704" xml:id="pg_704" facs="0786"/>
-            <div type="compilation" xml:id="comp28">
+            <div type="compilation" xml:id="comp28"
+                frus:doc-dateTime-min="1924-02-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-01-16T23:59:59-05:00">
                 <head>San Marino:</head>
-                <div type="chapter" xml:id="ch68">
+                <div type="chapter" xml:id="ch68" frus:doc-dateTime-min="1924-02-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-01-16T23:59:59-05:00">
                     <head>Proposal of San Marino to establish a Legation in the United States</head>
                     <div type="document" xml:id="d569" n="569" subtype="historical-document"
                         frus:doc-dateTime-min="1924-02-02T00:00:00-05:00"
@@ -44353,9 +44480,12 @@
                 </div>
             </div>
             <pb n="707" xml:id="pg_707" facs="0789"/>
-            <div type="compilation" xml:id="comp29">
+            <div type="compilation" xml:id="comp29"
+                frus:doc-dateTime-min="1925-04-07T00:00:00-05:00"
+                frus:doc-dateTime-max="1926-02-11T23:59:59-05:00">
                 <head>Spain:</head>
-                <div type="chapter" xml:id="ch69">
+                <div type="chapter" xml:id="ch69" frus:doc-dateTime-min="1925-04-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-05-02T23:59:59-05:00">
                     <head>Continuation of the commercial <hi rend="italic">modus vivendi</hi>
                         between the United States and Spain<note n="1" xml:id="ch69fn1">Continued
                             from <ref target="frus1924v02#pg_684"><hi rend="italic">Foreign
@@ -44761,7 +44891,8 @@
                     </div>
                 </div>
                 <pb n="714" xml:id="pg_714" facs="0796"/>
-                <div type="chapter" xml:id="ch70">
+                <div type="chapter" xml:id="ch70" frus:doc-dateTime-min="1925-12-09T23:00:00-05:00"
+                    frus:doc-dateTime-max="1926-02-11T23:59:59-05:00">
                     <head>Protests by Spain against American embargo on Spanish oranges</head>
                     <div type="document" xml:id="d580" n="580" subtype="historical-document"
                         frus:doc-dateTime-min="1925-12-09T23:00:00-05:00"
@@ -45345,9 +45476,12 @@
                 </div>
             </div>
             <pb n="725" xml:id="pg_725" facs="0807"/>
-            <div type="compilation" xml:id="comp30">
+            <div type="compilation" xml:id="comp30"
+                frus:doc-dateTime-min="1925-01-12T11:00:00-05:00"
+                frus:doc-dateTime-max="1925-07-26T23:59:59-05:00">
                 <head>Sweden:</head>
-                <div type="chapter" xml:id="ch71">
+                <div type="chapter" xml:id="ch71" frus:doc-dateTime-min="1925-03-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-05-04T23:59:59-05:00">
                     <head>Complaint by Sweden against activities of American customs representatives
                         in that country<note n="1" xml:id="ch71fn1">For related correspondence, see
                             section entitled “Unsuccessful Efforts To Have American Customs Attachés
@@ -45495,7 +45629,8 @@
                     </div>
                 </div>
                 <pb n="728" xml:id="pg_728" facs="0810"/>
-                <div type="chapter" xml:id="ch72">
+                <div type="chapter" xml:id="ch72" frus:doc-dateTime-min="1925-01-12T11:00:00-05:00"
+                    frus:doc-dateTime-max="1925-07-26T23:59:59-05:00">
                     <head>Discontinuance of the representation of American interests in Turkey by
                         Swedish diplomatic officers</head>
                     <div type="document" xml:id="d591" n="591" subtype="historical-document"
@@ -45647,9 +45782,12 @@
                 </div>
             </div>
             <pb n="731" xml:id="pg_731" facs="0813"/>
-            <div type="compilation" xml:id="comp31">
+            <div type="compilation" xml:id="comp31"
+                frus:doc-dateTime-min="1924-10-29T14:00:00-05:00"
+                frus:doc-dateTime-max="1925-02-19T17:00:00-05:00">
                 <head>Switzerland:</head>
-                <div type="chapter" xml:id="ch73">
+                <div type="chapter" xml:id="ch73" frus:doc-dateTime-min="1924-10-29T14:00:00-05:00"
+                    frus:doc-dateTime-max="1925-02-19T17:00:00-05:00">
                     <head>Complaint by Switzerland against activities of American customs
                         representatives in that country<note n="1" xml:id="ch73fn1">For related
                             correspondence, see section entitled “Unsuccessful Efforts To Have
@@ -45804,9 +45942,12 @@
                 </div>
             </div>
             <pb n="734" xml:id="pg_734" facs="0816"/>
-            <div type="compilation" xml:id="comp32">
+            <div type="compilation" xml:id="comp32"
+                frus:doc-dateTime-min="1925-02-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-02-21T23:59:59-05:00">
                 <head>Turkey:</head>
-                <div type="chapter" xml:id="ch74">
+                <div type="chapter" xml:id="ch74" frus:doc-dateTime-min="1925-02-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-02-21T23:59:59-05:00">
                     <head>Disclaimer by the Secretary of State of American interest in Turkish gold
                         deposits surrendered by Germany to the Reparation Commission</head>
                     <div type="document" xml:id="d600" n="600" subtype="historical-document"
@@ -46002,9 +46143,12 @@
                 </div>
             </div>
             <pb n="738" xml:id="pg_738" facs="0820"/>
-            <div type="compilation" xml:id="comp33">
+            <div type="compilation" xml:id="comp33"
+                frus:doc-dateTime-min="1925-03-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1925-10-17T23:59:59-05:00">
                 <head>Yugoslavia:</head>
-                <div type="chapter" xml:id="ch75">
+                <div type="chapter" xml:id="ch75" frus:doc-dateTime-min="1925-03-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1925-10-17T23:59:59-05:00">
                     <head>Objection by the Department of State to further loans by American bankers
                         to Yugoslavia pending settlement of Yugoslav debts to the United States
                             Government<note n="1" xml:id="ch75fn1">For negotiations concerning
@@ -46468,7 +46612,9 @@
             <pb n="[747]" xml:id="pg_747" facs="0829"/>
             <pb n="[748]" xml:id="pg_748" facs="0830"/>
             <pb n="749" xml:id="pg_749" facs="0831"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1904-03-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1926-10-08T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Agreements. <hi rend="italic">See</hi>

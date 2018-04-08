@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1995</date>
+                <date type="publication-date">1995</date>
                 <idno type="dospubno">10290</idno>
                 <idno type="isbn-10">0160451426</idno>
                 <idno type="isbn-13">9780160451423</idno>
@@ -39,6 +39,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1961-01-03T15:15:00-05:00"
+                notAfter="1963-12-30T16:53:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -70,7 +74,9 @@
                     0-16-045207-4</docImprint>
                 <pb n="III" xml:id="pg_III" facs="0003"/>
             </titlePage>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -469,7 +475,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0012"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0013"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                 <head>Table of Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III"><hi rend="strong">Preface</hi></ref></item>
@@ -500,7 +508,9 @@
             </div>
             <pb n="[XIV]" xml:id="pg_XIV" facs="0014"/>
             <pb n="XV" xml:id="pg_XV" facs="0015"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                 <head>List of Unpublished Sources</head>
                 <list type="sources">
                     <item><hi rend="strong">Department of State</hi>
@@ -957,7 +967,9 @@
                 </list>
             </div>
             <pb n="XXI" xml:id="pg_XXI" facs="0021"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                 <head>List of Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AFAFN1">AF/AFN</term>,</hi> Office of
@@ -1316,7 +1328,9 @@
                 </list>
             </div>
             <pb n="XXV" xml:id="pg_XXV" facs="0025"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                 <head>List of Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AAS1">Abdirashid Ali
@@ -1664,11 +1678,15 @@
             <pb n="1" xml:id="pg_1" facs="0029"/>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                 <head>Africa</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1961-04-30T23:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-24T17:36:00-05:00">
                     <head>North Africa Region</head>
-                    <div type="document" xml:id="d1" n="1" subtype="historical-document">
+                    <div type="document" xml:id="d1" n="1" subtype="historical-document"
+                        frus:doc-dateTime-min="1961-04-30T23:00:00-05:00"
+                        frus:doc-dateTime-max="1961-05-31T22:59:59-05:00">
                         <head>1. Briefing Paper Prepared in the Department of State<note n="0"
                                 xml:id="d1fn0" type="source">Source: Department of State, Conference
                                 Files: Lot 66 D 110. Confidential. Drafted by <persName
@@ -1676,8 +1694,11 @@
                                 and <persName corresp="#p_WW3">Witman</persName>; and approved by
                                 Collopy. This paper was part of the Briefing Book prepared for the
                                 President's visit to France May 31-June 2, 1961.</note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date
+                                notBefore="1961-05-01T00:00:00-04:00"
+                                notAfter="1961-05-31T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">MOROCCO AND TUNISIA</p>
                         <p>In giving Morocco and Tunisia their independence in 1956, France expected
                             to remain in very close association with them. “Independence within
@@ -3966,7 +3987,8 @@
                     </div>
                 </div>
                 <pb n="44" xml:id="pg_44" facs="0072"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                    frus:doc-dateTime-max="1963-11-27T23:59:59-05:00">
                     <head>Algeria</head>
                     <div type="document" xml:id="d35" n="35" subtype="historical-document"
                         frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
@@ -4082,7 +4104,9 @@
                         <p>[Here follows discussion of another subject.]</p>
                     </div>
                     <pb n="46" xml:id="pg_46" facs="0074"/>
-                    <div type="document" xml:id="d36" n="36" subtype="editorial-note">
+                    <div type="document" xml:id="d36" n="36" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>36. Editorial Note</head>
                         <p>On January 13, 1961, Under Secretary of State for Political Affairs
                             Livingston T. Merchant gave the following report during a Department of
@@ -5788,7 +5812,9 @@
                                 Saunders</hi></persName></signed></closer>
                     </div>
                     <pb n="77" xml:id="pg_77" facs="0105"/>
-                    <div type="document" xml:id="d54" n="54" subtype="editorial-note">
+                    <div type="document" xml:id="d54" n="54" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>54. Editorial Note</head>
                         <p>On December 14, 1961, Ambassador to the United Nations Adlai <persName
                                 corresp="#p_SAEII1">Stevenson</persName> sent to the Department of
@@ -6678,7 +6704,9 @@
                             would do so.</p>
                     </div>
                     <pb n="92" xml:id="pg_92" facs="0120"/>
-                    <div type="document" xml:id="d63" n="63" subtype="editorial-note">
+                    <div type="document" xml:id="d63" n="63" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>63. Editorial Note</head>
                         <p>On March 19, 1962, Ambassador <persName corresp="#p_BPW2"
                                 >Bonsal</persName> informed the Department of State that King
@@ -6821,7 +6849,9 @@
                         <closer><signed><persName corresp="#p_BGW1"><hi rend="strong"
                                     >Ball</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d65" n="65" subtype="editorial-note">
+                    <div type="document" xml:id="d65" n="65" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>65. Editorial Note</head>
                         <p>The Organization Armee Secrete (<gloss target="#t_OAS1">OAS</gloss>)
                             renewed its campaign of terrorism in Algeria following the signature of
@@ -6946,7 +6976,9 @@
                             K</hi></persName></signed></closer>
                     </div>
                     <pb n="97" xml:id="pg_97" facs="0125"/>
-                    <div type="document" xml:id="d67" n="67" subtype="editorial-note">
+                    <div type="document" xml:id="d67" n="67" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>67. Editorial Note</head>
                         <p>On July 1, 1962, the Algerian people voted overwhelmingly for
                             independence in cooperation with France. On July 3, President
@@ -8045,7 +8077,9 @@
                             pages of source text not declassified.]</p>
                     </div>
                     <pb n="118" xml:id="pg_118" facs="0146"/>
-                    <div type="document" xml:id="d81" n="81" subtype="historical-document">
+                    <div type="document" xml:id="d81" n="81" subtype="historical-document"
+                        frus:doc-dateTime-min="1963-02-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-02-04T23:59:59-05:00">
                         <head>81. Memorandum From Secretary of State <persName corresp="#p_RD3"
                                 type="from">Rusk</persName> to President <persName corresp="#p_KJF2"
                                 type="to">Kennedy</persName><note n="0" xml:id="d81fn0"
@@ -8055,8 +8089,11 @@
                                     target="#t_NSAM1">NSAM</gloss>-21. Secret. Attached to the
                                 source text but not printed is a 14-page “Discussion of the Strategy
                                 and Action Plan for Algeria.”</note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date
+                                notBefore="1963-02-01T00:00:00-05:00"
+                                notAfter="1963-02-04T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Plan of Action for Algeria</item>
@@ -8977,7 +9014,8 @@
                     </div>
                 </div>
                 <pb n="136" xml:id="pg_136" facs="0164"/>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1961-04-26T19:45:00-05:00"
+                    frus:doc-dateTime-max="1963-10-07T15:26:00-05:00">
                     <head>Libya</head>
                     <div type="document" xml:id="d91" n="91" subtype="historical-document"
                         frus:doc-dateTime-min="1961-04-26T19:45:00-05:00"
@@ -9297,7 +9335,9 @@
                                         >McNamara</persName> signed the
                             original.</note></signed></closer>
                     </div>
-                    <div type="document" xml:id="d96" n="96" subtype="editorial-note">
+                    <div type="document" xml:id="d96" n="96" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>96. Editorial Note</head>
                         <p>[Text not declassified.]</p>
                     </div>
@@ -10264,7 +10304,8 @@
                     </div>
                 </div>
                 <pb n="161" xml:id="pg_161" facs="0189"/>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1961-02-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-10-31T23:59:59-05:00">
                     <head>Morocco</head>
                     <div type="document" xml:id="d108" n="108" subtype="historical-document"
                         frus:doc-dateTime-min="1961-02-17T00:00:00-05:00"
@@ -12012,7 +12053,9 @@
                             original.</note></signed></closer>
                     </div>
                     <pb n="193" xml:id="pg_193" facs="0221"/>
-                    <div type="document" xml:id="d124" n="124" subtype="editorial-note">
+                    <div type="document" xml:id="d124" n="124" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>124. Editorial Note</head>
                         <p>On October 23, 1961, Ambassador <persName corresp="#p_BPW2"
                                 >Bonsal</persName> met with King <persName corresp="#p_HII1">Hassan
@@ -12462,7 +12505,9 @@
                                     >Rusk</hi></persName></signed></closer>
                     </div>
                     <pb n="201" xml:id="pg_201" facs="0229"/>
-                    <div type="document" xml:id="d131" n="131" subtype="editorial-note">
+                    <div type="document" xml:id="d131" n="131" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>131. Editorial Note</head>
                         <p>On February 13, 1962, <persName corresp="#p_BPW2">Bonsal</persName>
                             reported that he was prepared to carry out the instructions in telegram
@@ -12704,7 +12749,9 @@
                                     from a copy that bears this typed
                             signature.</note></signed></closer>
                     </div>
-                    <div type="document" xml:id="d135" n="135" subtype="editorial-note">
+                    <div type="document" xml:id="d135" n="135" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>135. Editorial Note</head>
                         <p>On April 9, 1962, Ambassador <persName corresp="#p_BPW2"
                                 >Bonsal</persName> reported that two Soviet vessels had unloaded
@@ -14533,7 +14580,9 @@
                             >Bill</hi></persName></signed></closer>
                     </div>
                     <pb n="240" xml:id="pg_240" facs="0268"/>
-                    <div type="document" xml:id="d157" n="157" subtype="editorial-note">
+                    <div type="document" xml:id="d157" n="157" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>157. Editorial Note</head>
                         <p>On November 20, 1963, the Department of State conveyed its reservations
                             about highlighting U.S. withdrawal from U.S. bases in Morocco any more
@@ -14593,7 +14642,8 @@
                     </div>
                 </div>
                 <pb n="242" xml:id="pg_242" facs="0270"/>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1961-01-31T22:13:00-05:00"
+                    frus:doc-dateTime-max="1963-09-11T23:59:59-05:00">
                     <head>Tunisia</head>
                     <div type="document" xml:id="d158" n="158" subtype="historical-document"
                         frus:doc-dateTime-min="1961-01-31T22:13:00-05:00"
@@ -15077,7 +15127,9 @@
                             decision to bring this matter to the Security Council and say that we
                             are urging the French to take such steps as might facilitate this.</p>
                     </div>
-                    <div type="document" xml:id="d167" n="167" subtype="editorial-note">
+                    <div type="document" xml:id="d167" n="167" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>167. Editorial Note</head>
                         <p>On July 20, 1961, Tunisia appealed to the United Nations to convene an
                             emergency session of the Security Council and charged the French with
@@ -15196,7 +15248,9 @@
                                     >Rusk</hi></persName></signed></closer>
                     </div>
                     <pb n="254" xml:id="pg_254" facs="0282"/>
-                    <div type="document" xml:id="d169" n="169" subtype="editorial-note">
+                    <div type="document" xml:id="d169" n="169" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>169. Editorial Note</head>
                         <p>On July 27, 1961, Tunisia again requested that the U.N. Security Council
                             be convened on grounds that French military forces had not complied with
@@ -15558,7 +15612,9 @@
                         <closer><signed><persName><hi rend="strong"
                             >Arthur</hi></persName></signed></closer>
                     </div>
-                    <div type="document" xml:id="d174" n="174" subtype="editorial-note">
+                    <div type="document" xml:id="d174" n="174" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>174. Editorial Note</head>
                         <p>France boycotted the U.N. General Assembly special session on Bizerte,
                             which began on August 21, 1961. The general debate, in which 53
@@ -16668,7 +16724,8 @@
                     </div>
                 </div>
                 <pb n="281" xml:id="pg_281" facs="0309"/>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1961-02-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-23T23:59:59-05:00">
                     <head>Africa Region</head>
                     <div type="document" xml:id="d187" n="187" subtype="historical-document"
                         frus:doc-dateTime-min="1961-02-13T00:00:00-05:00"
@@ -18879,7 +18936,9 @@
                         </list>
                         <p>[Here follows the body of the paper.]</p>
                     </div>
-                    <div type="document" xml:id="d211" n="211" subtype="historical-document">
+                    <div type="document" xml:id="d211" n="211" subtype="historical-document"
+                        frus:doc-dateTime-min="1962-08-31T23:00:00-05:00"
+                        frus:doc-dateTime-max="1962-09-20T19:00:00-05:00">
                         <head>211. Position Paper Prepared in the Office of the Secretary of
                                 State<note n="0" xml:id="d211fn0" type="source">Source: Department
                                 of State, Conference Files: Lot 65 D 533, CF 2160. Confidential.
@@ -18889,8 +18948,11 @@
                                 Secretary <persName corresp="#p_RD3">Rusk</persName>'s delegation
                                 attending the 17th Session of the U.N. General Assembly in
                                 September.</note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date
+                                notBefore="1962-09-01T00:00:00-04:00"
+                                notAfter="1962-09-20T20:00:00-04:00"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">SOVIET BLOC AIR PENETRATION OF UNDERDEVELOPED AREAS: AFRICA
                             AND LATIN AMERICA</p>
                         <p rend="flushleft"><hi rend="italic">Recommended US Position</hi></p>
@@ -19398,7 +19460,9 @@
                             >RAD</hi></persName></signed></closer>
                     </div>
                     <pb n="331" xml:id="pg_331" facs="0359"/>
-                    <div type="document" xml:id="d218" n="218" subtype="historical-document">
+                    <div type="document" xml:id="d218" n="218" subtype="historical-document"
+                        frus:doc-dateTime-min="1963-04-30T23:00:00-05:00"
+                        frus:doc-dateTime-max="1963-05-25T22:59:59-05:00">
                         <head>218. Paper Prepared in the Department of Defense<note n="0"
                                 xml:id="d218fn0" type="source">Source: Washington National Records
                                 Center, <gloss target="#t_RG1">RG</gloss> 330, OASD/<gloss
@@ -19413,8 +19477,11 @@
                                 would be used as a basis for discussion at a forthcoming conference
                                 to be held at Georgetown University on May 25. No record of the
                                 group's discussion has been found.</note></head>
-                        <dateline><placeName>Washington</placeName>,
-                            <date>undated</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date
+                                notBefore="1963-05-01T00:00:00-04:00"
+                                notAfter="1963-05-25T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">THE STRATEGIC IMPORTANCE OF AFRICA</p>
                         <p rend="center">Working Paper for Discussion Group Meeting May 25, 1963</p>
                         <p rend="center">Abstract</p>
@@ -19801,7 +19868,9 @@
                                 original.</note><lb/>Chairman<lb/>Joint Chiefs of
                             Staff</signed></closer>
                     </div>
-                    <div type="document" xml:id="d221" n="221" subtype="editorial-note">
+                    <div type="document" xml:id="d221" n="221" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>221. Editorial Note</head>
                         <p>On June 19, 1963, President <persName corresp="#p_KJF2"
                                 >Kennedy</persName> sent a Special Message to the Congress on Civil
@@ -19954,7 +20023,8 @@
                     </div>
                 </div>
                 <pb n="341" xml:id="pg_341" facs="0369"/>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1961-02-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-19T23:59:59-05:00">
                     <head>Ghana</head>
                     <div type="document" xml:id="d223" n="223" subtype="historical-document"
                         frus:doc-dateTime-min="1961-02-17T00:00:00-05:00"
@@ -20487,7 +20557,9 @@
                                     >Ball</hi></persName></signed></closer>
                     </div>
                     <pb n="351" xml:id="pg_351" facs="0379"/>
-                    <div type="document" xml:id="d229" n="229" subtype="editorial-note">
+                    <div type="document" xml:id="d229" n="229" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>229. Editorial Note</head>
                         <p>On September 12, 1961, Ambassador <persName corresp="#p_RFH1"
                                 >Russell</persName> reported that <persName corresp="#p_NK2"
@@ -22625,7 +22697,8 @@
                     </div>
                 </div>
                 <pb n="392" xml:id="pg_392" facs="0420"/>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1961-04-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-12T23:59:59-05:00">
                     <head>Guinea</head>
                     <div type="document" xml:id="d254" n="254" subtype="historical-document"
                         frus:doc-dateTime-min="1961-04-26T00:00:00-05:00"
@@ -24359,9 +24432,12 @@
                     </div>
                 </div>
                 <pb n="425" xml:id="pg_425" facs="0453"/>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1961-01-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                     <head>Horn of Africa</head>
-                    <div type="document" xml:id="d270" n="270" subtype="editorial-note">
+                    <div type="document" xml:id="d270" n="270" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>270. Editorial Note</head>
                         <p>According to <gloss target="#t_NSC1">NSC</gloss> Record of Action No.
                             2381, taken at the 474th meeting of the National Security Council on
@@ -27419,7 +27495,9 @@
                                     Brubeck</hi></persName><note n="2" xml:id="d303fn2">Printed from
                                     a copy that bears this typed signature.</note></signed></closer>
                     </div>
-                    <div type="document" xml:id="d304" n="304" subtype="editorial-note">
+                    <div type="document" xml:id="d304" n="304" subtype="editorial-note"
+                        frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                        frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                         <head>304. Editorial Note</head>
                         <p>On October 16, 1963, the Somali Government presented an aide-memoire to
                             the U.S. Embassy in Mogadiscio stating that when it had previously
@@ -27898,7 +27976,8 @@
                     </div>
                 </div>
                 <pb n="491" xml:id="pg_491" facs="0519"/>
-                <div type="chapter" xml:id="ch10">
+                <div type="chapter" xml:id="ch10" frus:doc-dateTime-min="1962-06-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-10-29T23:59:59-05:00">
                     <head>Southern Africa Region</head>
                     <div type="document" xml:id="d311" n="311" subtype="historical-document"
                         frus:doc-dateTime-min="1962-06-28T00:00:00-05:00"
@@ -28717,7 +28796,8 @@
                     </div>
                 </div>
                 <pb n="508" xml:id="pg_508" facs="0536"/>
-                <div type="chapter" xml:id="ch11">
+                <div type="chapter" xml:id="ch11" frus:doc-dateTime-min="1961-05-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-19T09:30:00-05:00">
                     <head>Rhodesia and Nyasaland</head>
                     <div type="document" xml:id="d320" n="320" subtype="historical-document"
                         frus:doc-dateTime-min="1961-05-02T00:00:00-05:00"
@@ -30503,7 +30583,8 @@
                     </div>
                 </div>
                 <pb n="541" xml:id="pg_541" facs="0569"/>
-                <div type="chapter" xml:id="ch12">
+                <div type="chapter" xml:id="ch12" frus:doc-dateTime-min="1961-03-01T20:30:00-05:00"
+                    frus:doc-dateTime-max="1963-11-07T16:00:00-05:00">
                     <head>Portuguese Africa</head>
                     <div type="document" xml:id="d347" n="347" subtype="historical-document"
                         frus:doc-dateTime-min="1961-03-01T20:30:00-05:00"
@@ -32920,7 +33001,8 @@
                     </div>
                 </div>
                 <pb n="586" xml:id="pg_586" facs="0614"/>
-                <div type="chapter" xml:id="ch13">
+                <div type="chapter" xml:id="ch13" frus:doc-dateTime-min="1961-02-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-10T18:14:00-05:00">
                     <head>South Africa</head>
                     <div type="document" xml:id="d374" n="374" subtype="historical-document"
                         frus:doc-dateTime-min="1961-02-27T00:00:00-05:00"
@@ -36915,7 +36997,9 @@
         <pb n="[662]" xml:id="pg_662" facs="0690"/>
         <pb n="663" xml:id="pg_663" facs="0691"/>
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1961-01-03T15:15:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T16:53:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Abbas, Ferhat, <ref target="#pg_21">21</ref>, <ref target="#pg_47"

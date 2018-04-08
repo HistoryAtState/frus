@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington, DC</pubPlace>
-                <date>2001</date>
+                <date type="publication-date">2001</date>
                 <idno type="dospubno">10865</idno>
                 <idno type="isbn-10">0160508843</idno>
                 <idno type="isbn-13">9780160508844</idno>
@@ -43,6 +43,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1969-01-21T00:00:00-05:00"
+                notAfter="1972-10-20T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -70,7 +74,9 @@
                     <pb n="[II]" xml:id="pg_II" facs="0002"/>DEPARTMENT OF STATE PUBLICATION
                     10865</docImprint>
             </titlePage>
-            <div type="section" xml:id="pressrelease">
+            <div type="section" xml:id="pressrelease" subtype="press-release"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Office of the Historian Press Release</head>
                 <p>The first <persName corresp="#p_NRM1">Nixon</persName> administration’s policies
                     to stabilize the U.S. economy and to reform the international monetary system
@@ -156,7 +162,9 @@
                     go to <ref target="http://bookstore.gpo.gov/"
                     >http://bookstore.gpo.gov/</ref>.</p>
             </div>
-            <div type="section" xml:id="summary">
+            <div type="section" xml:id="summary" subtype="volume-summary"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Volume Summary</head>
                 <p>(This is not an official statement of policy by the Department of State; it is
                     intended only as a guide to the contents of this volume.)</p>
@@ -594,7 +602,9 @@
                     "mixed but generally positive." (242, 243)</p>
             </div>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -832,7 +842,9 @@
             <pb n="[VII]" xml:id="pg_VII" facs="0007"/>
             <pb n="[VIII]" xml:id="pg_VIII" facs="0008"/>
             <pb n="IX" xml:id="pg_IX" facs="0009"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -860,7 +872,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="XI" xml:id="pg_XI" facs="0011"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Sources</head>
                 <p rend="flushleft">
                     <hi rend="italic">Sources for the Foreign Relations Series</hi>
@@ -1372,7 +1386,9 @@
             </div>
             <pb n="[XVIII]" xml:id="pg_XVIII" facs="0018"/>
             <pb n="XIX" xml:id="pg_XIX" facs="0019"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -1871,7 +1887,9 @@
             </div>
             <pb n="[XXII]" xml:id="pg_XXII" facs="0022"/>
             <pb n="XXIII" xml:id="pg_XXIII" facs="0023"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -2499,12 +2517,16 @@
         </front>
         <pb n="1" xml:id="pg_1" facs="0029"/>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1969-01-18T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-12-18T23:59:59-05:00">
                 <head>Foreign Economic Policy 1969-1972; International Monetary Policy,
                     1969-1972</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1969-01-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-12-18T23:59:59-05:00">
                     <head>Foreign Economic Policy</head>
-                    <div type="document" xml:id="d1" n="1" subtype="historical-document">
+                    <div type="document" xml:id="d1" n="1" subtype="historical-document"
+                        frus:doc-dateTime-min="1969-01-18T00:00:00-05:00"
+                        frus:doc-dateTime-max="1969-01-18T23:59:59-05:00">
                         <head>1. Summary of the Report of the Task Force on U.S. Balance of Payments
                                 Policies<note n="1" xml:id="d1fn1" type="source">Source: National
                                 Archives, <persName corresp="#p_NRM1">Nixon</persName> Presidential
@@ -2520,7 +2542,9 @@
                                 ibid., Task Force on U.S. Balance of Payments Policies.</note>
                         </head>
                         <dateline>
-                            <placeName>New York</placeName>, <date>undated</date>.</dateline>
+                            <placeName>New York</placeName>, <date when="1969-01-18"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p>The present U.S. balance-of-payments position is very precarious. Serious
                             deterioration in the nation’s trade accounts is being temporarily
                             camouflaged by a combination of window-dressing special transactions and
@@ -2583,7 +2607,9 @@
                             negotiations aimed at introducing new flexibility into the international
                             monetary mechanism could proceed.</p>
                     </div>
-                    <div type="document" xml:id="d2" n="2" subtype="editorial-note">
+                    <div type="document" xml:id="d2" n="2" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>2. Editorial Note</head>
                         <p>The <persName corresp="#p_NRM1">Nixon</persName> administration inherited
                             a macroeconomic international economic environment characterized by
@@ -3850,7 +3876,9 @@
                         </closer>
                     </div>
                     <pb n="22" xml:id="pg_22" facs="0050"/>
-                    <div type="document" xml:id="d9" n="9" subtype="editorial-note">
+                    <div type="document" xml:id="d9" n="9" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>9. Editorial Note</head>
                         <p>On March 14, 1969, Cabinet Secretary <persName corresp="#p_WJC1">John C.
                                 Whitaker</persName> sent a memorandum to all members of the Cabinet
@@ -5343,7 +5371,9 @@
                                 Japan on specific issues.</p>
                         </frus:attachment>
                     </div>
-                    <div type="document" xml:id="d18" n="18" subtype="editorial-note">
+                    <div type="document" xml:id="d18" n="18" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>18. Editorial Note</head>
                         <p>The National Security Council, in its meeting on April 8, 1969, discussed
                             the North Atlantic Treaty Organization and possible negotiations on the
@@ -5479,7 +5509,9 @@
                         </p>
                     </div>
                     <pb n="51" xml:id="pg_51" facs="0079"/>
-                    <div type="document" xml:id="d20" n="20" subtype="editorial-note">
+                    <div type="document" xml:id="d20" n="20" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>20. Editorial Note</head>
                         <p>In National Security Study Memorandum (<gloss target="#t_NSSM1"
                                 >NSSM</gloss>) 5, dated January 21, 1969, Henry <persName
@@ -5963,7 +5995,9 @@
                         </closer>
                     </div>
                     <pb n="60" xml:id="pg_60" facs="0088"/>
-                    <div type="document" xml:id="d23" n="23" subtype="editorial-note">
+                    <div type="document" xml:id="d23" n="23" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>23. Editorial Note</head>
                         <p>Beginning in late April 1969 exchanges of visits and messages between
                             Washington and Tokyo set the stage for the Okinawa reversion
@@ -6117,7 +6151,9 @@
                             Box 534, Japan, Volume II 10/69-6/70)</p>
                     </div>
                     <pb n="63" xml:id="pg_63" facs="0091"/>
-                    <div type="document" xml:id="d24" n="24" subtype="editorial-note">
+                    <div type="document" xml:id="d24" n="24" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>24. Editorial Note</head>
                         <p>In the Spring of 1969 the <gloss target="#t_NSC1">NSC</gloss> Under
                             Secretaries Committee, pursuant to <gloss target="#t_NSDM1">NSDM</gloss>
@@ -6306,7 +6342,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d26" n="26" subtype="historical-document">
+                    <div type="document" xml:id="d26" n="26" subtype="historical-document"
+                        frus:doc-dateTime-min="1969-07-20T23:00:00-05:00"
+                        frus:doc-dateTime-max="1969-08-20T22:59:59-05:00">
                         <head>26. Paper Prepared by Consultants<note n="1" xml:id="d26fn1"
                                 type="source">Source: National Archives, <persName corresp="#p_NRM1"
                                     >Nixon</persName> Presidential Materials, <gloss
@@ -6330,7 +6368,11 @@
                                 212.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1969-07-21T00:00:00-04:00"
+                                notAfter="1969-08-20T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">VIII. FOREIGN ECONOMIC TRENDS</p>
                         <p rend="center">The Separation Between Foreign Economic and Political
                             Policy</p>
@@ -6995,7 +7037,9 @@
                             </list>
                         </frus:attachment>
                     </div>
-                    <div type="document" xml:id="d30" n="30" subtype="editorial-note">
+                    <div type="document" xml:id="d30" n="30" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>30. Editorial Note</head>
                         <p>Japanese Prime Minister <persName corresp="#p_SE3">Sato</persName> made a
                             State visit to Washington November 19-21, 1969. Six memoranda of his
@@ -7922,7 +7966,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d38" n="38" subtype="editorial-note">
+                    <div type="document" xml:id="d38" n="38" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>38. Editorial Note</head>
                         <p>On March 2, 1970, President <persName corresp="#p_NRM1">Nixon</persName>
                             sent a memorandum to <persName corresp="#p_HHR1">Haldeman</persName>,
@@ -7988,7 +8034,9 @@
                         </p>
                     </div>
                     <pb n="96" xml:id="pg_96" facs="0124"/>
-                    <div type="document" xml:id="d39" n="39" subtype="historical-document">
+                    <div type="document" xml:id="d39" n="39" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-03-02T00:00:00-05:00"
+                        frus:doc-dateTime-max="1970-04-03T23:59:59-05:00">
                         <head>39. Paper Prepared in the Department of the Treasury<note n="1"
                                 xml:id="d39fn1" type="source">Source: Washington National Records
                                 Center, Department of the Treasury, Office of the Assistant
@@ -8002,7 +8050,11 @@
                                     >Willis</persName>’ suggested revision of that paper.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1970-03-02T00:00:00-05:00"
+                                notAfter="1970-04-03T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">SUGGESTED REVISION U.S. BALANCE OF PAYMENTS OBJECTIVES</p>
                         <p>The United States seeks over time a pattern of international trade and
                             payments which will serve the basic objective of expanding the
@@ -8824,7 +8876,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d44" n="44" subtype="editorial-note">
+                    <div type="document" xml:id="d44" n="44" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>44. Editorial Note</head>
                         <p>The first in a series of bilateral consultations between the United
                             States and the European Community was held October 15-16, 1970, in
@@ -8913,7 +8967,9 @@
                             U.S.-European relations as a result.” (Ibid.)</p>
                     </div>
                     <pb n="112" xml:id="pg_112" facs="0140"/>
-                    <div type="document" xml:id="d45" n="45" subtype="editorial-note">
+                    <div type="document" xml:id="d45" n="45" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>45. Editorial Note</head>
                         <p>Following negotiation of the 2-year offset agreement with Germany on July
                             9, 1969 (see <ref target="#d24">Document 24</ref>), U.S. and German
@@ -9395,7 +9451,9 @@
                             I assume you will need little urging in this direction, but wanted to
                             restate the case to you because of the absurdity of the proposal.</p>
                     </div>
-                    <div type="document" xml:id="d49" n="49" subtype="editorial-note">
+                    <div type="document" xml:id="d49" n="49" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>49. Editorial Note</head>
                         <p>On January 18, 1971, President <persName corresp="#p_NRM1"
                                 >Nixon</persName> sent a memorandum to the Secretaries of State,
@@ -9448,7 +9506,9 @@
                             Department of Defense would participate fully in the Council’s work.
                             (Ibid.)</p>
                     </div>
-                    <div type="document" xml:id="d50" n="50" subtype="editorial-note">
+                    <div type="document" xml:id="d50" n="50" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>50. Editorial Note</head>
                         <p>Under instructions from <persName corresp="#p_KHA1">Henry
                                 Kissinger</persName>, in early 1971 the <gloss target="#t_NSC1"
@@ -9621,7 +9681,9 @@
                             stems from the belief that U.S. protectionism has gathered force from
                             our economic slowdown.</p>
                     </div>
-                    <div type="document" xml:id="d52" n="52" subtype="editorial-note">
+                    <div type="document" xml:id="d52" n="52" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>52. Editorial Note</head>
                         <p>
                             <persName corresp="#p_CJBJ1">John Connally</persName> replaced <persName
@@ -11746,7 +11808,9 @@
                                 >CIEP</gloss>.</item>
                         </list>
                     </div>
-                    <div type="document" xml:id="d67" n="67" subtype="editorial-note">
+                    <div type="document" xml:id="d67" n="67" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>67. Editorial Note</head>
                         <p>On June 30, 1971, <persName corresp="#p_PPG1">Peter Peterson</persName>
                             sent <gloss target="#t_CIEP1">CIEP</gloss> Study Memorandum 7 to the
@@ -12010,7 +12074,9 @@
                         </p>
                     </div>
                     <pb n="166" xml:id="pg_166" facs="0194"/>
-                    <div type="document" xml:id="d69" n="69" subtype="editorial-note">
+                    <div type="document" xml:id="d69" n="69" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>69. Editorial Note</head>
                         <p>National Security Study Memorandum 122, dated April 15, 1971, had called
                             for a new review of policy toward Japan, taking account of the 1969
@@ -12178,7 +12244,9 @@
                         </p>
                     </div>
                     <pb n="169" xml:id="pg_169" facs="0197"/>
-                    <div type="document" xml:id="d71" n="71" subtype="editorial-note">
+                    <div type="document" xml:id="d71" n="71" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>71. Editorial Note</head>
                         <p>On August 21, 1971, <persName corresp="#p_KHA1">Henry
                                 Kissinger</persName> met with Japanese Ambassador <persName
@@ -12311,7 +12379,9 @@
                             account.</p>
                     </div>
                     <pb n="171" xml:id="pg_171" facs="0199"/>
-                    <div type="document" xml:id="d73" n="73" subtype="editorial-note">
+                    <div type="document" xml:id="d73" n="73" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>73. Editorial Note</head>
                         <p>Pursuant to a request arising from the August 6, 1971, Senior Review
                             Group meeting on Japan (see <ref target="#d69">Document 69</ref>), State
@@ -13743,7 +13813,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d78" n="78" subtype="editorial-note">
+                    <div type="document" xml:id="d78" n="78" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>78. Editorial Note</head>
                         <p>The <gloss target="#t_G101">G-10</gloss> Ministers met in London
                             September 15-16, 1971. In his prepared remarks Secretary <persName
@@ -13979,7 +14051,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d80" n="80" subtype="editorial-note">
+                    <div type="document" xml:id="d80" n="80" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <pb n="197" xml:id="pg_197" facs="0225"/>
                         <head>80. Editorial Note</head>
                         <p>On October 18, 1971, <persName corresp="#p_PPG1">Peter G.
@@ -15103,7 +15177,9 @@
                         </closer>
                     </div>
                     <pb n="215" xml:id="pg_215" facs="0243"/>
-                    <div type="document" xml:id="d87" n="87" subtype="editorial-note">
+                    <div type="document" xml:id="d87" n="87" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>87. Editorial Note</head>
                         <p>As plans went forward for Japanese Prime Minister <persName
                                 corresp="#p_SE3">Sato</persName>’s meeting with President <persName
@@ -15269,7 +15345,9 @@
                                 target="#t_FRC1">FRC</gloss> 56 79 15, San Clemente Talks with
                                 <persName corresp="#p_TK2">Tanaka</persName>—1/72)</p>
                     </div>
-                    <div type="document" xml:id="d88" n="88" subtype="editorial-note">
+                    <div type="document" xml:id="d88" n="88" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>88. Editorial Note</head>
                         <p>On January 19, 1972, <persName corresp="#p_WGH1">George Willis</persName>
                             sent Under Secretary <persName corresp="#p_VPA1">Volcker</persName> a
@@ -15458,7 +15536,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d90" n="90" subtype="editorial-note">
+                    <div type="document" xml:id="d90" n="90" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>90. Editorial Note</head>
                         <p>On May 16, 1972, the White House announced that <persName
                                 corresp="#p_SGP1">George Shultz</persName> would replace <persName
@@ -16228,7 +16308,9 @@
                         </closer>
                     </div>
                     <pb n="235" xml:id="pg_235" facs="0263"/>
-                    <div type="document" xml:id="d93" n="93" subtype="editorial-note">
+                    <div type="document" xml:id="d93" n="93" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>93. Editorial Note</head>
                         <p>Bilateral trade issues with Japan had not been resolved prior to or
                             during the President’s January 1972 meeting with Prime Minister
@@ -16334,7 +16416,9 @@
                                 target="#d95fn1">footnote 1</ref> thereto.</p>
                     </div>
                     <pb n="237" xml:id="pg_237" facs="0265"/>
-                    <div type="document" xml:id="d94" n="94" subtype="historical-document">
+                    <div type="document" xml:id="d94" n="94" subtype="historical-document"
+                        frus:doc-dateTime-min="1972-07-17T10:30:00-05:00"
+                        frus:doc-dateTime-max="1972-08-15T22:59:59-05:00">
                         <head>94. Paper Prepared in the Council on International Economic
                                 Policy<note n="1" xml:id="d94fn1" type="source">Source: Washington
                                 National Records Center, Department of the Treasury, Files of Under
@@ -16354,7 +16438,11 @@
                                 230</ref>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1972-07-17T11:30:00-04:00"
+                                notAfter="1972-08-15T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                         <p rend="center">U.S. OBJECTIVES FOR TRADE NEGOTIATIONS AND MONETARY
                             REFORM</p>
                         <p rend="center">I. Premises</p>
@@ -16603,7 +16691,9 @@
                             and regional policies which distort competition should be negotiated as
                             well as direct trade restrictions.</p>
                     </div>
-                    <div type="document" xml:id="d95" n="95" subtype="historical-document">
+                    <div type="document" xml:id="d95" n="95" subtype="historical-document"
+                        frus:doc-dateTime-min="1972-07-17T10:30:00-05:00"
+                        frus:doc-dateTime-max="1972-08-15T22:59:59-05:00">
                         <head>95. U.S. Position Paper<note n="1" xml:id="d95fn1" type="source"
                                 >Source: National Archives, <persName corresp="#p_NRM1"
                                     >Nixon</persName> Presidential Materials, <gloss
@@ -16623,7 +16713,11 @@
                                 8/31-9/1/72)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1972-07-17T11:30:00-04:00"
+                                notAfter="1972-08-15T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">U.S.-JAPAN TRADE ISSUES</p>
                         <p rend="flushleft">
                             <hi rend="italic">1. Overall Trade Imbalance</hi>
@@ -18718,7 +18812,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d106" n="106" subtype="editorial-note">
+                    <div type="document" xml:id="d106" n="106" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>106. Editorial Note</head>
                         <p>On November 18, 1972, <persName corresp="#p_KHA1">Kissinger</persName>
                             sent National Security Study Memorandum 164, “United States Relations
@@ -18865,7 +18961,9 @@
                             Ambassador at Large with coordinating responsibilities for Europe was
                             designated.</p>
                     </div>
-                    <div type="document" xml:id="d107" n="107" subtype="editorial-note">
+                    <div type="document" xml:id="d107" n="107" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>107. Editorial Note</head>
                         <p>On December 1, 1972, in Key Biscayne, Florida, Press Secretary Ron
                             Ziegler announced on the President’s behalf that <persName
@@ -18903,7 +19001,9 @@
                                 <persName>Kenneth</persName> 1971-1974)</p>
                     </div>
                     <pb n="283" xml:id="pg_283" facs="0311"/>
-                    <div type="document" xml:id="d108" n="108" subtype="historical-document">
+                    <div type="document" xml:id="d108" n="108" subtype="historical-document"
+                        frus:doc-dateTime-min="1972-11-18T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-12-18T23:59:59-05:00">
                         <head>108. Paper Prepared in the Department of State<note n="1"
                                 xml:id="d108fn1" type="source">Source: National Archives, <gloss
                                     target="#t_RG1">RG</gloss> 59,<gloss target="#t_SS1">S/S</gloss>
@@ -18925,7 +19025,11 @@
                                 consensus.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1972-11-18T00:00:00-05:00"
+                                notAfter="1972-12-18T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">
                             <gloss target="#t_NSSM1">NSSM</gloss> RESPONSE</p>
                         <p rend="center">Part I</p>
@@ -19256,7 +19360,8 @@
                     </div>
                 </div>
                 <pb n="290" xml:id="pg_290" facs="0318"/>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-10-03T23:59:59-05:00">
                     <head>International Monetary Policy, 1969-1972</head>
                     <div type="document" xml:id="d109" n="109" subtype="historical-document"
                         frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
@@ -19354,7 +19459,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d110" n="110" subtype="editorial-note">
+                    <div type="document" xml:id="d110" n="110" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>110. Editorial Note</head>
                         <p>In the late 1960s and early 1970s, U.S. policymakers gave advanced
                             thought to the nature of the U.S. response to international monetary
@@ -19402,7 +19509,9 @@
                             percent import surcharge and suspension of the convertibility of the
                             dollar to gold the President announced on August 15, 1971.</p>
                     </div>
-                    <div type="document" xml:id="d111" n="111" subtype="historical-document">
+                    <div type="document" xml:id="d111" n="111" subtype="historical-document"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1969-01-30T23:59:59-05:00">
                         <head>111. <persName corresp="#p_VPA1">Volcker</persName> Group Paper<note
                                 n="1" xml:id="d111fn1" type="source">Source: Washington National
                                 Records Center, Department of the Treasury, <persName
@@ -19421,7 +19530,11 @@
                                 No record of the discussion was found.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1969-01-21T00:00:00-05:00"
+                                notAfter="1969-01-30T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="flushleft">VG/LIM/69-2</p>
                         <p rend="center">LONG-TERM ASPECTS OF U.S. INTERNATIONAL MONETARY AND
                             EXCHANGE POLICIES</p>
@@ -20327,7 +20440,9 @@
                         </closer>
                     </div>
                     <pb n="309" xml:id="pg_309" facs="0337"/>
-                    <div type="document" xml:id="d118" n="118" subtype="editorial-note">
+                    <div type="document" xml:id="d118" n="118" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>118. Editorial Note</head>
                         <p>The <persName corresp="#p_VPA1">Volcker</persName> Group met on March 11,
                             1969, to discuss international monetary issues and international
@@ -21616,7 +21731,9 @@
                         </list>
                     </div>
                     <pb n="331" xml:id="pg_331" facs="0359"/>
-                    <div type="document" xml:id="d125" n="125" subtype="editorial-note">
+                    <div type="document" xml:id="d125" n="125" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>125. Editorial Note</head>
                         <p>As currency uncertainties emerged in early May 1969, due to the imminent
                             change in the French Government and renewed speculation that the German
@@ -21745,7 +21862,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d127" n="127" subtype="editorial-note">
+                    <div type="document" xml:id="d127" n="127" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>127. Editorial Note</head>
                         <p>On May 27, 1969, <persName corresp="#p_WGH1">George Willis</persName>
                             circulated a summary of a series of consultations on exchange rates that
@@ -23751,7 +23870,9 @@
                         </closer>
                     </div>
                     <pb n="366" xml:id="pg_366" facs="0394"/>
-                    <div type="document" xml:id="d136" n="136" subtype="editorial-note">
+                    <div type="document" xml:id="d136" n="136" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>136. Editorial Note</head>
                         <p>France devalued the franc by 11.1 percent on August 8, 1969. German
                             Chancellor <persName corresp="#p_KKG1">Kiesinger</persName> was in
@@ -25122,7 +25243,9 @@
                         </closer>
                     </div>
                     <pb n="389" xml:id="pg_389" facs="0417"/>
-                    <div type="document" xml:id="d145" n="145" subtype="editorial-note">
+                    <div type="document" xml:id="d145" n="145" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>145. Editorial Note</head>
                         <p>The gold communique of March 17, 1968, established the two-tier gold
                             market where monetary gold would be exchanged among official authorities
@@ -26076,7 +26199,9 @@
                             satisfactory agreement.</p>
                         <p>[Omitted here are Parts VIII and IX.]</p>
                     </div>
-                    <div type="document" xml:id="d147" n="147" subtype="editorial-note">
+                    <div type="document" xml:id="d147" n="147" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>147. Editorial Note</head>
                         <p>On May 31, 1970, Canada floated the Canadian dollar, in large part
                             because of large capital inflows and concerns about inflationary
@@ -26959,7 +27084,9 @@
                             </p>
                         </frus:attachment>
                     </div>
-                    <div type="document" xml:id="d151" n="151" subtype="editorial-note">
+                    <div type="document" xml:id="d151" n="151" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>151. Editorial Note</head>
                         <p>On March 22, 1971, Charles A. Coombs at the Federal Reserve Bank of New
                             York sent a memorandum to the President of the New York Bank, Alfred
@@ -27628,7 +27755,9 @@
                             substance of agreed Community policies.</p>
                     </div>
                     <pb n="433" xml:id="pg_433" facs="0461"/>
-                    <div type="document" xml:id="d155" n="155" subtype="editorial-note">
+                    <div type="document" xml:id="d155" n="155" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>155. Editorial Note</head>
                         <p>On May 12, 1971, German Chancellor <persName corresp="#p_BWHF1"
                                 >Brandt</persName> wrote President <persName corresp="#p_NRM1"
@@ -28795,7 +28924,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d164" n="164" subtype="editorial-note">
+                    <div type="document" xml:id="d164" n="164" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>164. Editorial Note</head>
                         <p>The distressed foreign exchange markets of May 1971 had calmed in June
                             and July but as August began were roiled again. President <persName
@@ -28991,7 +29122,9 @@
                                 target="#t_FRC1">FRC</gloss> 56 86 30, VG/Uncl. INFO/71-1-71-.</p>
                     </div>
                     <pb n="457" xml:id="pg_457" facs="0485"/>
-                    <div type="document" xml:id="d165" n="165" subtype="editorial-note">
+                    <div type="document" xml:id="d165" n="165" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>165. Editorial Note</head>
                         <p>Foreign central banks continued to take large dollar inflows during the
                             week of August 9, 1971. In that atmosphere Office of Management and
@@ -29463,7 +29596,9 @@
                             central banks and to apply other stringent measures against the
                             dollar.</p>
                     </div>
-                    <div type="document" xml:id="d168" n="168" subtype="editorial-note">
+                    <div type="document" xml:id="d168" n="168" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>168. Editorial Note</head>
                         <p>From 3:15 to 7 p.m. on August 13, 1971, President <persName
                                 corresp="#p_NRM1">Nixon</persName> met with a number of his economic
@@ -30466,7 +30601,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d172" n="172" subtype="editorial-note">
+                    <div type="document" xml:id="d172" n="172" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>172. Editorial Note</head>
                         <p>During the week following announcement of the New Economic Policy on
                             August 15, 1971, most foreign exchange markets were closed. Beginning on
@@ -32601,7 +32738,9 @@
                                 corresp="#p_PJR1">John Petty</persName> have been deeply involved in
                             all this and very helpful.</p>
                     </div>
-                    <div type="document" xml:id="d186" n="186" subtype="editorial-note">
+                    <div type="document" xml:id="d186" n="186" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>186. Editorial Note</head>
                         <p>The 36-page draft paper attached to the October 26, 1971, memorandum from
                                 <persName corresp="#p_PPG1">Peterson</persName> to Secretary
@@ -32660,7 +32799,9 @@
                             Archives, <gloss target="#t_RG1">RG</gloss> 59, Central Files 1970-73,
                                 <gloss target="#t_E1">E</gloss> 1 US)</p>
                     </div>
-                    <div type="document" xml:id="d187" n="187" subtype="editorial-note">
+                    <div type="document" xml:id="d187" n="187" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>187. Editorial Note</head>
                         <p>
                             <gloss target="#t_OMB1">OMB</gloss> Director <persName corresp="#p_SGP1"
@@ -33249,7 +33390,9 @@
                         </closer>
                     </div>
                     <pb n="531" xml:id="pg_531" facs="0559"/>
-                    <div type="document" xml:id="d191" n="191" subtype="editorial-note">
+                    <div type="document" xml:id="d191" n="191" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>191. Editorial Note</head>
                         <p>A meeting of the <gloss target="#t_G101">G-10</gloss> Ministers, chaired
                             by Secretary <persName corresp="#p_CJBJ1">Connally</persName>, was
@@ -34630,7 +34773,9 @@
                         </closer>
                     </div>
                     <pb n="555" xml:id="pg_555" facs="0583"/>
-                    <div type="document" xml:id="d200" n="200" subtype="editorial-note">
+                    <div type="document" xml:id="d200" n="200" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>200. Editorial Note</head>
                         <p>On or about November 18, 1971, the Office of Management and Budget and
                             the Department of the Treasury circulated papers proposing negotiating
@@ -34786,7 +34931,9 @@
                             Rome (see <ref target="#d211">Document 211</ref>) are also contained in
                             these papers.</p>
                     </div>
-                    <div type="document" xml:id="d201" n="201" subtype="historical-document">
+                    <div type="document" xml:id="d201" n="201" subtype="historical-document"
+                        frus:doc-dateTime-min="1971-11-17T09:50:00-05:00"
+                        frus:doc-dateTime-max="1971-11-22T23:59:59-05:00">
                         <head>201. Paper Prepared in the Department of the Treasury<note n="1"
                                 xml:id="d201fn1" type="source">Source: Washington National Records
                                 Center, Department of the Treasury, Records of Secretary <persName
@@ -34797,7 +34944,11 @@
                                 meeting; see <ref target="#d200">Document 200</ref>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1971-11-17T14:50:00+00:00"
+                                notAfter="1971-11-22T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                         <p rend="center">SUMMARY OF PROPOSED APPROACH TOWARD MONETARY-TRADE-BURDEN
                             SHARING NEGOTIATIONS WITHIN THE NEXT SEVERAL WEEKS</p>
                         <p>This memorandum outlines briefly proposed initiatives in the immediate
@@ -35199,7 +35350,9 @@
                             </list>
                         </p>
                     </div>
-                    <div type="document" xml:id="d203" n="203" subtype="editorial-note">
+                    <div type="document" xml:id="d203" n="203" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>203. Editorial Note</head>
                         <p>On November 23 and 24, 1971, the President had several meetings with his
                             economic advisers. He was scheduled to travel to San Clemente on the
@@ -36015,7 +36168,9 @@
                         <p>In the meantime, unless you tell me differently, I tell anyone who asks
                             that the U.S. position on a gold price change is negative and firm.</p>
                     </div>
-                    <div type="document" xml:id="d210" n="210" subtype="editorial-note">
+                    <div type="document" xml:id="d210" n="210" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>210. Editorial Note</head>
                         <p>The <gloss target="#t_G101">G-10</gloss> Deputies met in Rome on November
                             29, 1971, at 3:30 p.m. A paper entitled “Highlights of Meeting of
@@ -36228,7 +36383,9 @@
                         </list>
                     </div>
                     <pb n="582" xml:id="pg_582" facs="0610"/>
-                    <div type="document" xml:id="d212" n="212" subtype="editorial-note">
+                    <div type="document" xml:id="d212" n="212" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>212. Editorial Note</head>
                         <p>When the <gloss target="#t_G101">G-10</gloss> Ministers met in Rome
                             November 30-December 1, 1971, Secretary <persName corresp="#p_CJBJ1"
@@ -37003,7 +37160,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d219" n="219" subtype="editorial-note">
+                    <div type="document" xml:id="d219" n="219" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>219. Editorial Note</head>
                         <p>President <persName corresp="#p_NRM1">Nixon</persName> and French
                             President <persName corresp="#p_PG5">Pompidou</persName> met in the
@@ -37148,7 +37307,9 @@
                             December 18, 1971, pages 1656-1660.</p>
                     </div>
                     <pb n="597" xml:id="pg_597" facs="0625"/>
-                    <div type="document" xml:id="d220" n="220" subtype="historical-document">
+                    <div type="document" xml:id="d220" n="220" subtype="historical-document"
+                        frus:doc-dateTime-min="1971-12-13T20:00:00-05:00"
+                        frus:doc-dateTime-max="1971-12-17T23:59:59-05:00">
                         <head>220. Paper Agreed by President <persName corresp="#p_NRM1" type="from"
                                 >Nixon</persName> and President <persName corresp="#p_PG5" type="to"
                                 >Pompidou</persName>
@@ -37181,7 +37342,10 @@
                         </head>
                         <dateline>
                             <placeName>Angra, The Azores</placeName>, <date
-                                type="conversation-or-meeting-date">undated</date>.</dateline>
+                                notBefore="1971-12-14T00:00:00-01:00"
+                                notAfter="1971-12-17T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">FRAMEWORK FOR MONETARY AND TRADE SETTLEMENT</p>
                         <p>The following proposals providing a framework for an early settlement of
                             monetary and trade issues should be considered as an integrated whole: <list>
@@ -37322,7 +37486,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d221" n="221" subtype="editorial-note">
+                    <div type="document" xml:id="d221" n="221" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>221. Editorial Note</head>
                         <p>The <gloss target="#t_G101">G-10</gloss> Ministers met at the Smithsonian
                             Institution in Washington on December 17 and 18, 1971, and agreed on a
@@ -38023,7 +38189,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d225" n="225" subtype="editorial-note">
+                    <div type="document" xml:id="d225" n="225" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>225. Editorial Note</head>
                         <p>On February 22, 1972, Treasury Under Secretary <persName
                                 corresp="#p_VPA1">Volcker</persName> sent a memorandum to <persName
@@ -38156,7 +38324,9 @@
                                 >Volcker</persName> Group Masters: <gloss target="#t_FRC1"
                                 >FRC</gloss> 56 86 30, 1972, VGA/72-1-VGA/72-50)</p>
                     </div>
-                    <div type="document" xml:id="d226" n="226" subtype="editorial-note">
+                    <div type="document" xml:id="d226" n="226" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>226. Editorial Note</head>
                         <p>On March 11, 1972, Ambassador Watson sent a telegram to the Department of
                             State on the subject of “French Reaction to International Monetary
@@ -39227,7 +39397,9 @@
                         </closer>
                     </div>
                     <pb n="631" xml:id="pg_631" facs="0659"/>
-                    <div type="document" xml:id="d234" n="234" subtype="historical-document">
+                    <div type="document" xml:id="d234" n="234" subtype="historical-document"
+                        frus:doc-dateTime-min="1972-07-18T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-07-18T23:59:59-05:00">
                         <head>234. Memorandum From Secretary of the Treasury <persName
                                 corresp="#p_SGP1" type="from">Shultz</persName> to President
                                 <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -39241,7 +39413,9 @@
                                 below.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1972-07-18"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p>Since the British decision on June 24 to float the pound, strong
                             speculative pressures have again developed in the foreign exchange
                             markets. In two days at the end of last week,<note n="2"
@@ -39935,7 +40109,9 @@
                             We will meet within twenty-four hours whenever you request a
                             meeting.</p>
                     </div>
-                    <div type="document" xml:id="d237" n="237" subtype="editorial-note">
+                    <div type="document" xml:id="d237" n="237" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>237. Editorial Note</head>
                         <p>Pursuant to preparatory work by the <gloss target="#t_G101">G-10</gloss>
                             Deputies (see <ref target="#d227">Documents 227</ref> and <ref
@@ -40650,7 +40826,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" xml:id="d242" n="242" subtype="editorial-note">
+                    <div type="document" xml:id="d242" n="242" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>242. Editorial Note</head>
                         <p>The float of the British pound in June 1972 and German Economics and
                             Finance Minister <persName corresp="#p_SH1">Schmidt</persName>’s remarks
@@ -40849,7 +41027,9 @@
                             confirm their fears that the U.S. is not greatly interested in the
                             problems of the developing countries.</p>
                     </div>
-                    <div type="document" xml:id="d244" n="244" subtype="editorial-note">
+                    <div type="document" xml:id="d244" n="244" subtype="editorial-note"
+                        frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                         <head>244. Editorial Note</head>
                         <p>On October 3, 1972, <persName corresp="#p_HRD1">Hormats</persName> sent a
                             memorandum to <persName corresp="#p_KHA1">Kissinger</persName> apprising
@@ -40886,7 +41066,9 @@
         </body>
         <pb n="659" xml:id="pg_659" facs="0687"/>
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1969-01-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-10-20T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <head>Index</head>

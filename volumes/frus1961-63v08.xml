@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1996</date>
+                <date type="publication-date">1996</date>
                 <idno type="dospubno">10317</idno>
                 <idno type="isbn-10">0160481651</idno>
                 <idno type="isbn-13">9780160481659</idno>
@@ -39,6 +39,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1961-01-17T00:00:00-05:00"
+                notAfter="1963-12-30T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -69,7 +73,9 @@
                     20402-9328</docImprint>
             </titlePage>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -487,7 +493,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0012"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0013"/>
-            <div type="section" xml:id="volumes">
+            <div type="section" subtype="additional-volumes" xml:id="volumes"
+                frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>Kennedy Administration Volumes</head>
                 <p>Following is a list of the volumes in the <hi rend="italic">Foreign
                         Relations</hi> series for the administration of President John F. Kennedy.
@@ -605,7 +613,9 @@
             </div>
             <pb n="[XIV]" xml:id="pg_XIV" facs="0014"/>
             <pb n="XV" xml:id="pg_XV" facs="0015"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item><ref target="#pg_III">Preface</ref></item>
@@ -618,7 +628,9 @@
             </div>
             <pb n="[XVI]" xml:id="pg_XVI" facs="0016"/>
             <pb n="XVII" xml:id="pg_XVII" facs="0017"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>Sources</head>
                 <p rend="flushleft"><hi rend="italic">Sources for the Foreign Relations
                     Series</hi></p>
@@ -1072,7 +1084,9 @@
             </div>
             <pb n="[XXIV]" xml:id="pg_XXIV" facs="0024"/>
             <pb n="XXV" xml:id="pg_XXV" facs="0025"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_ABM1">ABM</term>,</hi> anti-ballistic
@@ -1334,7 +1348,9 @@
             </div>
             <pb n="[XXVIII]" xml:id="pg_XXVIII" facs="0028"/>
             <pb n="XXIX" xml:id="pg_XXIX" facs="0029"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_ADG2">Acheson, Dean</persName>,</hi>
@@ -1597,9 +1613,12 @@
         <pb n="[XXXII]" xml:id="pg_XXXII" facs="0032"/>
         <pb n="1" xml:id="pg_1" facs="0033"/>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>National Security Policy</head>
-                <div type="document" xml:id="d1" n="1" subtype="editorial-note">
+                <div type="document" xml:id="d1" n="1" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>1. Editorial Note</head>
                     <p>On January 17, 1961, <persName corresp="#p_STC3">Theodore Sorensen</persName>
                         enclosed with a memorandum to <persName corresp="#p_BMG2">McGeorge
@@ -2244,7 +2263,9 @@
                         >G.</hi></persName></signed><lb/>Brigadier General, <gloss target="#t_USA1"
                             >USA</gloss></closer>
                 </div>
-                <div type="document" xml:id="d5" n="5" subtype="editorial-note">
+                <div type="document" xml:id="d5" n="5" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>5. Editorial Note</head>
                     <p>On January 26, 1961, members of the team that had prepared <gloss
                             target="#t_WSEG1">WSEG</gloss> Report No. 50, “Evaluation of Strategic
@@ -2278,7 +2299,9 @@
                         materials, see Fred Kaplan, <hi rend="italic">The Wizards of Armageddon</hi>
                         (New York: Simon and Schuster, 1983), pages 258-262.</p>
                 </div>
-                <div type="document" xml:id="d6" n="6" subtype="historical-document">
+                <div type="document" xml:id="d6" n="6" subtype="historical-document"
+                    frus:doc-dateTime-min="1961-01-25T10:15:00-05:00"
+                    frus:doc-dateTime-max="1961-01-27T23:59:59-05:00">
                     <head>6. Draft Paper by the Executive Assistant of the Operations Coordinating
                         Board (<persName>Johnson</persName>)<note n="1" xml:id="d6fn1" type="source"
                             >Source: Kennedy Library, National Security Files, Departments and
@@ -2287,7 +2310,11 @@
                             covering note from <persName corresp="#p_SBK1">Bromley Smith</persName>
                             to <persName corresp="#p_BMG2">Bundy</persName> is not
                         printed.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date
+                            notBefore="1961-01-25T10:15:00-05:00"
+                            notAfter="1961-01-27T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p rend="center">POSSIBLE ACTIONS TO SIMPLIFY POLICY PLANNING AND OPERATIONS
                         COORDINATION IN THE NATIONAL SECURITY AREA<note n="2" xml:id="d6fn2">On
                             January 1 President-elect <persName>Kennedy</persName> appointed
@@ -3253,7 +3280,9 @@
                         in the discharge of their functions.</p>
                     <p>[Here follows discussion of unrelated subjects.]</p>
                 </div>
-                <div type="document" xml:id="d14" n="14" subtype="editorial-note">
+                <div type="document" xml:id="d14" n="14" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>14. Editorial Note</head>
                     <p>On February 7, 1961, <hi rend="italic">The New York Times</hi> carried a
                         story that asserted that studies made by the <persName>Kennedy</persName>
@@ -5964,7 +5993,9 @@
                             signature.</note></closer>
                 </div>
                 <pb n="69" xml:id="pg_69" facs="0101"/>
-                <div type="document" xml:id="d22" n="22" subtype="editorial-note">
+                <div type="document" xml:id="d22" n="22" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>22. Editorial Note</head>
                     <p>On April 6, 1961, the Director of Central Intelligence circulated <gloss
                             target="#t_NIE1">NIE</gloss> 11-61, “Probable Intelligence Warning of
@@ -8691,7 +8722,9 @@
                             Gilpatric</hi></persName></signed></closer>
                 </div>
                 <pb n="121" xml:id="pg_121" facs="0153"/>
-                <div type="document" xml:id="d39" n="39" subtype="editorial-note">
+                <div type="document" xml:id="d39" n="39" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>39. Editorial Note</head>
                     <p>In a memorandum to U. <persName corresp="#p_JUA1">Alexis Johnson</persName>
                         dated July 21, 1961, Kitchen discussed <persName corresp="#p_GRL1"
@@ -8897,7 +8930,9 @@
                     <p>[Here follows discussion of Berlin and <gloss target="#t_NATO1"
                         >NATO</gloss>.]</p>
                 </div>
-                <div type="document" xml:id="d41" n="41" subtype="editorial-note">
+                <div type="document" xml:id="d41" n="41" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>41. Editorial Note</head>
                     <p>On August 18, 1961, the Joint Chiefs of Staff sent to Secretary of Defense
                             <persName corresp="#p_MNRS1">McNamara</persName> their divergent views
@@ -8937,7 +8972,9 @@
                             target="#d52">Document 52</ref>.</p>
                 </div>
                 <pb n="126" xml:id="pg_126" facs="0158"/>
-                <div type="document" xml:id="d42" n="42" subtype="editorial-note">
+                <div type="document" xml:id="d42" n="42" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>42. Editorial Note</head>
                     <p>On September 13, 1961, <gloss target="#t_SIOP1">SIOP</gloss>-62 was briefed
                         to President <persName corresp="#p_KJF2">Kennedy</persName>. (Enclosure to
@@ -14139,7 +14176,9 @@
                     <closer><signed><persName corresp="#p_MNRS1"><hi rend="strong">Robert S.
                                     McNamara</hi></persName></signed></closer>
                 </div>
-                <div type="document" xml:id="d52" n="52" subtype="historical-document">
+                <div type="document" xml:id="d52" n="52" subtype="historical-document"
+                    frus:doc-dateTime-min="1961-10-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1961-10-27T23:59:59-05:00">
                     <head>52. Paper Issued by the Joint Chiefs of Staff<note n="0" xml:id="d52fn0"
                             type="source">Source: Washington National Records Center, <gloss
                                 target="#t_RG1">RG</gloss> 330, <gloss target="#t_OSD1">OSD</gloss>
@@ -14151,7 +14190,9 @@
                             distributed it for implementation to the Joint Chiefs, major commanders,
                             and to <gloss target="#t_CINCSAC1">CINCSAC</gloss> in his capacity as
                             Director of Strategic Target Planning.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-10-27"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p rend="center">National Targeting and Attack Policy For General War: Guidance
                         For the Preparation of the Single Integrated Operational Plan (<gloss
                             target="#t_SIOP1">SIOP</gloss>)</p>
@@ -15126,7 +15167,9 @@
                                 Lemnitzer</hi></persName><lb/><hi rend="italic">Chairman<lb/>Joint
                                 Chiefs of Staff</hi></signed></closer>
                 </div>
-                <div type="document" xml:id="d55" n="55" subtype="editorial-note">
+                <div type="document" xml:id="d55" n="55" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>55. Editorial Note</head>
                     <p>In a memorandum for the record dated November 20, 1961, Colonel
                             <persName>Julian J. Ewell</persName> of <persName corresp="#p_TMD1"
@@ -17015,7 +17058,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="229" xml:id="pg_229" facs="0261"/>
-                <div type="document" xml:id="d64" n="64" subtype="editorial-note">
+                <div type="document" xml:id="d64" n="64" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>64. Editorial Note</head>
                     <p>On December 11, 1961, <persName corresp="#p_BRMJ1">Richard M. Bissell,
                             Jr.</persName>, Deputy Director (Plans) of Central Intelligence,
@@ -17709,7 +17754,9 @@
                             Security Council) No list of persons present has been found.</note></p>
                 </div>
                 <pb n="243" xml:id="pg_243" facs="0275"/>
-                <div type="document" xml:id="d70" n="70" subtype="editorial-note">
+                <div type="document" xml:id="d70" n="70" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>70. Editorial Note</head>
                     <p>Upon becoming Chairman of the Policy Planning Council and Counselor of the
                         Department of State in November 1961, <persName corresp="#p_RWW1">Walt W.
@@ -19335,7 +19382,9 @@
                                     Taylor</hi></persName></signed><note n="2" xml:id="d80fn2"
                             >Printed from a copy that bears this typed signature.</note></closer>
                 </div>
-                <div type="document" xml:id="d81" n="81" subtype="editorial-note">
+                <div type="document" xml:id="d81" n="81" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>81. Editorial Note</head>
                     <p>On April 25, 1962, the U.S. Intelligence Board circulated <gloss
                             target="#t_NIE1">NIE</gloss> 13-2-62, “Chinese Communist Advanced
@@ -19661,7 +19710,9 @@
                     <p>[Here follows a description of <gloss target="#t_NATO1">NATO</gloss> force
                         dispositions and then-current U.S. views on Alliance decisions.]</p>
                 </div>
-                <div type="document" xml:id="d83" n="83" subtype="editorial-note">
+                <div type="document" xml:id="d83" n="83" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>83. Editorial Note</head>
                     <p>On May 7, 1962, the Policy Planning Council circulated a revised draft of the
                         paper, “Basic National Security Policy.” On May 9, the Council circulated a
@@ -20786,7 +20837,9 @@
                                 Nitze</hi></persName></signed></closer>
                 </div>
                 <pb n="304" xml:id="pg_304" facs="0336"/>
-                <div type="document" xml:id="d90" n="90" subtype="editorial-note">
+                <div type="document" xml:id="d90" n="90" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>90. Editorial Note</head>
                     <p>On June 6, 1962, the Policy Planning Council circulated a revised, 182-page
                         draft of the paper “Basic National Security Policy.” Once again, the paper's
@@ -20987,7 +21040,9 @@
                                     Bundy</hi></persName></signed></closer>
                 </div>
                 <pb n="308" xml:id="pg_308" facs="0340"/>
-                <div type="document" xml:id="d92" n="92" subtype="editorial-note">
+                <div type="document" xml:id="d92" n="92" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>92. Editorial Note</head>
                     <p>On June 20, 1962, Secretary of Defense <persName corresp="#p_MNRS1"
                             >McNamara</persName> was briefed on <gloss target="#t_SIOP1"
@@ -22137,7 +22192,9 @@
                         Communist Regimes,” and “The Domestic Base.”]</p>
                 </div>
                 <pb n="329" xml:id="pg_329" facs="0361"/>
-                <div type="document" xml:id="d94" n="94" subtype="editorial-note">
+                <div type="document" xml:id="d94" n="94" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>94. Editorial Note</head>
                     <p>By June 1962 there was considerable discussion within the U.S. Government of
                         the ultimate disposition of the paper on “Basic National Security Policy”
@@ -22254,7 +22311,9 @@
                             target="#t_JCS1">JCS</gloss> Meetings 1962)</p>
                 </div>
                 <pb n="331" xml:id="pg_331" facs="0363"/>
-                <div type="document" xml:id="d95" n="95" subtype="editorial-note">
+                <div type="document" xml:id="d95" n="95" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>95. Editorial Note</head>
                     <p>On June 26, 1962, <persName corresp="#p_RWW1">Walt W. Rostow</persName> and
                             <persName corresp="#p_BGW1">George W. Ball</persName> testified before
@@ -23041,7 +23100,9 @@
                                 <gloss target="#t_NSC1">NSC</gloss> Meeting 7/9/62)</note></p>
                     <p>[Here follow a glossary and a set of tables.]</p>
                 </div>
-                <div type="document" xml:id="d97" n="97" subtype="editorial-note">
+                <div type="document" xml:id="d97" n="97" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>97. Editorial Note</head>
                     <p>At the 501st and 502d meetings of the National Security Council on July 9 and
                         10, 1962, the Council considered <gloss target="#t_NIE1">NIE</gloss> 11-8-62
@@ -23642,7 +23703,9 @@
                                     Taylor</hi></persName></signed><note n="6" xml:id="d102fn6"
                             >Printed from a copy that bears this typed signature.</note></closer>
                 </div>
-                <div type="document" xml:id="d103" n="103" subtype="historical-document">
+                <div type="document" xml:id="d103" n="103" subtype="historical-document"
+                    frus:doc-dateTime-min="1962-08-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1962-08-23T23:59:59-05:00">
                     <head>103. Memorandum for President <persName corresp="#p_KJF2"
                             >Kennedy</persName><note n="0" xml:id="d103fn0" type="source">Source:
                             National Defense University, <persName corresp="#p_TMD1"
@@ -23664,7 +23727,9 @@
                             the Soviet <gloss target="#t_MRBM1">MRBM</gloss>s, and nobody has
                             suggested exactly what additional we should do about
                         this.”</note></head>
-                    <dateline><placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-08-23"
+                            ana="#date_undated-inferred-from-document-content"
+                        >undated</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Report on Implications for U. S. Foreign and Defense Policy of Recent
@@ -25129,7 +25194,9 @@
                                     Bundy</hi></persName></signed></closer>
                 </div>
                 <pb n="382" xml:id="pg_382" facs="0414"/>
-                <div type="document" xml:id="d106" n="106" subtype="editorial-note">
+                <div type="document" xml:id="d106" n="106" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>106. Editorial Note</head>
                     <p>Under date of September 1962, the paper on “U.S. Overseas Internal Defense
                         Policy” approved by the White House in <gloss target="#t_NSAM1">NSAM</gloss>
@@ -25409,7 +25476,9 @@
                             B.</hi></persName></signed><note n="2" xml:id="d108fn2">Printed from a
                             copy that bears these typed initials.</note></closer>
                 </div>
-                <div type="document" xml:id="d109" n="109" subtype="editorial-note">
+                <div type="document" xml:id="d109" n="109" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>109. Editorial Note</head>
                     <p>On November 20, 1962, the Joint Chiefs of Staff forwarded to Secretary of
                         Defense <persName corresp="#p_MNRS1">McNamara</persName> a memorandum
@@ -28944,7 +29013,9 @@
                         31 pages, plus 7 pages of tables and 1 map.]</p>
                 </div>
                 <pb n="436" xml:id="pg_436" facs="0468"/>
-                <div type="document" xml:id="d118" n="118" subtype="editorial-note">
+                <div type="document" xml:id="d118" n="118" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>118. Editorial Note</head>
                     <p>On December 7, 1962, President <persName corresp="#p_KJF2">Kennedy</persName>
                         visited Offutt Air Force Base near Omaha, Nebraska, where he and other
@@ -29806,7 +29877,9 @@
                             from a copy that bears this typed signature.</note></closer>
                 </div>
                 <pb n="454" xml:id="pg_454" facs="0486"/>
-                <div type="document" xml:id="d122" n="122" subtype="editorial-note">
+                <div type="document" xml:id="d122" n="122" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>122. Editorial Note</head>
                     <p>At the meeting of the Special Group (Counter-Insurgency) on January 3, 1963,
                         Attorney General <persName corresp="#p_KRF1">Robert F. Kennedy</persName>
@@ -29872,7 +29945,9 @@
                         Series, Department of Defense, Special Warfare Volume II 1962-1963. See also
                             <ref target="#d139">Document 139</ref>.</p>
                 </div>
-                <div type="document" xml:id="d123" n="123" subtype="editorial-note">
+                <div type="document" xml:id="d123" n="123" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>123. Editorial Note</head>
                     <p>In a memorandum dated January 17, 1963, to the holders of <gloss
                             target="#t_NSC1">NSC</gloss> 5906/1, <persName corresp="#p_SBK1">Bromley
@@ -30230,7 +30305,9 @@
                             <persName corresp="#p_TMD1">Taylor</persName> Papers, White House
                         Memoranda)</p>
                 </div>
-                <div type="document" xml:id="d126" n="126" subtype="editorial-note">
+                <div type="document" xml:id="d126" n="126" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>126. Editorial Note</head>
                     <p>On January 23, 1963, Secretary Rusk designated the Policy Planning Council as
                         the center within the Department of State for coordinating country planning
@@ -30277,7 +30354,9 @@
                     <p>For additional information on this topic, see <ref target="#d135">Document
                             135</ref>.</p>
                 </div>
-                <div type="document" xml:id="d127" n="127" subtype="editorial-note">
+                <div type="document" xml:id="d127" n="127" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>127. Editorial Note</head>
                     <p>In a memorandum for the record of the White House daily staff meeting on
                         February 4, 1963, Legere wrote:</p>
@@ -31353,7 +31432,9 @@
                             across-the-board military technological superiority.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d133" n="133" subtype="editorial-note">
+                <div type="document" xml:id="d133" n="133" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>133. Editorial Note</head>
                     <p>In a memorandum to Secretary <persName corresp="#p_MNRS1">McNamara</persName>
                         dated July 15, 1963, President <persName corresp="#p_KJF2"
@@ -31548,7 +31629,9 @@
                     </list>
                     <p>[Here follows the “Discussion” section. See the Supplement.]</p>
                 </div>
-                <div type="document" xml:id="d135" n="135" subtype="editorial-note">
+                <div type="document" xml:id="d135" n="135" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>135. Editorial Note</head>
                     <p>According to a memorandum by <persName corresp="#p_SCWY1">William
                             Smith</persName>, the entire White House daily staff meeting on July 19,
@@ -34167,7 +34250,9 @@
                         programs are presented in separate memoranda.<note n="6" xml:id="d145fn6"
                             >None printed.</note></p>
                 </div>
-                <div type="document" xml:id="d146" n="146" subtype="editorial-note">
+                <div type="document" xml:id="d146" n="146" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>146. Editorial Note</head>
                     <p>In a memorandum to Secretary <persName corresp="#p_RD3">Rusk</persName> dated
                         November 15, 1963, Rostow enclosed two drafts of a basic national security
@@ -36805,7 +36890,9 @@
                             missiles for this purpose.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d152" n="152" subtype="editorial-note">
+                <div type="document" xml:id="d152" n="152" subtype="editorial-note"
+                    frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                     <head>152. Editorial Note</head>
                     <p>Fourteen draft memoranda from <persName corresp="#p_MNRS1"
                             >McNamara</persName> to President <persName>Johnson</persName> are
@@ -38703,7 +38790,9 @@
         </body>
         <pb n="597" xml:id="pg_597" facs="0629"/>
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1961-01-17T00:00:00-05:00"
+                frus:doc-dateTime-max="1963-12-30T23:59:59-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item><persName corresp="#p_ADG2">Acheson, Dean</persName>, <ref

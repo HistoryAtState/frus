@@ -18,7 +18,7 @@
             <publicationStmt>
                 <publisher/>
                 <pubPlace>Washington</pubPlace>
-                <date>2015</date>
+                <date type="publication-date">2015</date>
                 <idno type="frus">frus1969-76ve16</idno>
             </publicationStmt>
 
@@ -37,6 +37,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
+        <xenoData>
+            <frus:coverage notBefore="1969-01-28T00:00:00-05:00"
+                notAfter="1973-09-24T17:16:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
 
@@ -64,7 +68,9 @@
                     <docDate>2015</docDate>
                 </docImprint>
             </titlePage>
-            <div type="section" xml:id="pressrelease">
+            <div type="section" xml:id="pressrelease" subtype="press-release"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <head>Press Release</head>
                 <p rend="right">
                     <hi rend="strong">Office of the Historian<lb/>Bureau of Public Affairs
@@ -100,7 +106,9 @@
                     Relations series, at (202) 955–0202 or by e-mail to <ref
                         target="mailto:history@state.gov">history@state.gov</ref>.</p>
             </div>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -404,13 +412,15 @@
                     <lb/>
                     <orgName>Bureau of Public Affairs</orgName>
                     <lb/>
-                    <date>November 2015</date>
+                    <date when="2015-11">November 2015</date>
                 </closer>
                 <pb n="X" facs="0011" xml:id="pg_X"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Contents</head>
                 <list>
@@ -470,7 +480,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
@@ -815,7 +827,9 @@
                     Brown, 1979.</p>
             </div>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -1681,7 +1695,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <pb n="XXV" facs="0026" xml:id="pg_XXV"/>
                 <head>Persons</head>
                 <list type="names">
@@ -2553,7 +2569,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="notes">
+            <div type="section" subtype="notes" xml:id="notes"
+                frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
                 <pb n="XXXIII" facs="0034" xml:id="pg_XXXIII"/>
                 <head>Note on U.S. Covert Actions</head>
                 <p>In compliance with the <hi rend="italic">Foreign Relations of the United States
@@ -2883,12 +2901,15 @@
         </front>
 
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1974-06-12T23:59:59-05:00">
 
                 <head>Foreign Relations, 1969–1976, Volume E–16, Documents on Chile,
                     1969–1973</head>
 
-                <div type="chapter" n="1" xml:id="ch1">
+                <div type="chapter" n="1" xml:id="ch1"
+                    frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-08-15T23:59:59-05:00">
                     <head>A “Noisy Democracy”: The Decline of <persName corresp="#p_FME_1">Eduardo
                             Frei</persName>, January–December 1969</head>
 
@@ -5228,7 +5249,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="2" xml:id="ch2">
+                <div type="chapter" n="2" xml:id="ch2"
+                    frus:doc-dateTime-min="1970-07-17T11:20:00-05:00"
+                    frus:doc-dateTime-max="1970-08-31T23:59:59-05:00">
                     <pb n="50" facs="0090" xml:id="pg_50"/>
                     <head>A Spoiling Operation: The 1970 Chilean Presidential Election, January
                         1–September 4, 1970</head>
@@ -8414,7 +8437,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="3" xml:id="ch3">
+                <div type="chapter" n="3" xml:id="ch3"
+                    frus:doc-dateTime-min="1970-09-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-11-05T23:59:59-05:00">
                     <pb n="108" facs="0148" xml:id="pg_108"/>
                     <head>Two Tracks: U.S. Intervention in the Confirmation of the Chilean
                         President, September 5–November 4, 1970</head>
@@ -8839,7 +8864,9 @@
                             psychological advance for the Marxist idea.</p>
                     </div>
 
-                    <div type="document" n="19" xml:id="d19" subtype="historical-document">
+                    <div type="document" n="19" xml:id="d19" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-09-14T23:00:00-05:00"
+                        frus:doc-dateTime-max="1970-09-19T22:59:59-05:00">
                         <pb n="115" facs="0155" xml:id="pg_115"/>
                         <head>19. Memorandum Prepared in the Central Intelligence Agency<note n="1"
                                 xml:id="d19fn1" type="source">
@@ -8863,7 +8890,11 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1970-09-15T00:00:00-04:00"
+                                notAfter="1970-09-19T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p>The following actions have been taken in response to the President’s
                             instructions of 15 September 1970:</p>
                         <p>1. Organizational:</p>
@@ -10225,7 +10256,9 @@
                         <p>[Omitted here is the body of the paper.]</p>
                     </div>
 
-                    <div type="document" n="28" xml:id="d28" subtype="historical-document">
+                    <div type="document" n="28" xml:id="d28" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-10-01T03:00:00-05:00"
+                        frus:doc-dateTime-max="1970-10-16T11:30:00-05:00">
                         <head>28. Memorandum From the Acting Deputy Assistant Secretary of Defense
                             for Inter-American Affairs (<persName corresp="#p_LRG_1"
                                 >Leddy</persName>) to the Assistant Secretary of Defense for
@@ -10243,7 +10276,11 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1970-10-01T04:00:00-04:00"
+                                notAfter="1970-10-16T16:30:00+00:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>The Impact of a Marxist Government in Chile on US Security
@@ -12903,7 +12940,9 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="4" xml:id="ch4">
+                <div type="chapter" n="4" xml:id="ch4"
+                    frus:doc-dateTime-min="1970-11-06T08:10:00-05:00"
+                    frus:doc-dateTime-max="1972-12-01T23:59:59-05:00">
                     <pb n="189" facs="0229" xml:id="pg_189"/>
                     <head>Cool and Correct: The U.S. Response to the <persName corresp="#p_AGS_1"
                             >Allende</persName> Administration, November 5, 1970–December 31,
@@ -17899,7 +17938,9 @@
                         </closer>
                     </div>
 
-                    <div type="document" n="54" xml:id="d54" subtype="historical-document">
+                    <div type="document" n="54" xml:id="d54" subtype="historical-document"
+                        frus:doc-dateTime-min="1971-02-16T08:10:00-05:00"
+                        frus:doc-dateTime-max="1971-03-15T23:59:59-05:00">
                         <pb n="279" facs="0319" xml:id="pg_279"/>
                         <head>54. Paper Prepared in the Department of Defense<note n="1"
                                 xml:id="d54fn1" type="source">
@@ -17917,7 +17958,11 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1971-02-16T13:10:00+00:00"
+                                notAfter="1971-03-15T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                         <p rend="center">
                             <gloss target="#t_FMS_1">FMS</gloss> Credit for Chile—<gloss
                                 target="#t_FY_1">FY</gloss> 1971</p>
@@ -18084,7 +18129,9 @@
                         <p>—Would probably evoke some adverse press and Congressional comment.</p>
                     </div>
 
-                    <div type="document" n="55" xml:id="d55" subtype="historical-document">
+                    <div type="document" n="55" xml:id="d55" subtype="historical-document"
+                        frus:doc-dateTime-min="1971-02-16T08:10:00-05:00"
+                        frus:doc-dateTime-max="1971-03-15T23:59:59-05:00">
                         <pb n="282" facs="0322" xml:id="pg_282"/>
                         <head>55. Paper Prepared in the Department of Defense<note n="1"
                                 xml:id="d55fn1" type="source">
@@ -18099,7 +18146,11 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1971-02-16T13:10:00+00:00"
+                                notAfter="1971-03-15T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                         <p rend="center">M–41 TANKS FOR CHILE</p>
                         <p>Forty M–41 tanks, funded under <gloss target="#t_FMS_1">FMS</gloss>
                             credit, were purchased by Chile in <gloss target="#t_FY_1">FY</gloss>
@@ -18396,7 +18447,9 @@
                                 declassified</hi>].</p>
                     </div>
 
-                    <div type="document" n="57" xml:id="d57" subtype="historical-document">
+                    <div type="document" n="57" xml:id="d57" subtype="historical-document"
+                        frus:doc-dateTime-min="1971-03-18T00:00:00-05:00"
+                        frus:doc-dateTime-max="1971-04-02T23:59:59-05:00">
                         <head>57. Joint Intelligence Memorandum<note n="1" xml:id="d57fn1"
                                 type="source">
                                 <p>Summary: This memorandum offered an assessment of political
@@ -18409,7 +18462,11 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1971-03-18T00:00:00-05:00"
+                                notAfter="1971-04-02T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>.</dateline>
                         <p rend="center">AN ASSESSMENT OF TRENDS IN CHILE</p>
                         <p rend="center">19 FEBRUARY TO 18 MARCH</p>
                         <p rend="center">
@@ -21854,7 +21911,9 @@
                         <pb n="349" facs="0389" xml:id="pg_349"/>
                     </div>
 
-                    <div type="document" n="72" xml:id="d72" subtype="historical-document">
+                    <div type="document" n="72" xml:id="d72" subtype="historical-document"
+                        frus:doc-dateTime-min="1971-06-01T13:15:00-05:00"
+                        frus:doc-dateTime-max="1971-06-03T14:09:00-05:00">
                         <head>72. Paper Prepared in the Department of Defense<note n="1"
                                 xml:id="d72fn1" type="source">
                                 <p>Summary: This paper detailed the advantages and disadvantages of
@@ -21871,7 +21930,11 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1971-06-01T18:15:00+00:00"
+                                notAfter="1971-06-03T15:09:00-04:00"
+                                ana="#date_undated-inferred-from-sibling-dates"
+                            >undated</date>.</dateline>
                         <p rend="center">CHILEAN MINISTRY OF DEFENSE REQUEST FOR <gloss
                                 target="#t_FMS_1">FMS</gloss> CREDIT ASSISTANCE IN PROCURING ARMY
                             AND AIR FORCE EQUIPMENT</p>
@@ -30195,7 +30258,9 @@
                             this question.</p>
                     </div>
 
-                    <div type="document" n="95" xml:id="d95" subtype="historical-document">
+                    <div type="document" n="95" xml:id="d95" subtype="historical-document"
+                        frus:doc-dateTime-min="1972-01-04T00:00:00-05:00"
+                        frus:doc-dateTime-max="1972-01-12T23:59:59-05:00">
                         <pb n="496" facs="0536" xml:id="pg_496"/>
                         <head>95. Attachments to a Memorandum From the Chairman of the Interagency
                             Committee on Debt Renegotiation (<persName corresp="#p_WS_1"
@@ -30227,7 +30292,11 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1972-01-04T00:00:00-05:00"
+                                notAfter="1972-01-12T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <table cols="2">
                             <head>ATTACHMENTS</head>
                             <row>
@@ -39634,12 +39703,16 @@
                     </div>
                 </div>
 
-                <div type="chapter" n="5" xml:id="ch5">
+                <div type="chapter" n="5" xml:id="ch5"
+                    frus:doc-dateTime-min="1970-03-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1974-06-12T23:59:59-05:00">
                     <pb n="664" facs="0704" xml:id="pg_664"/>
                     <head>“That Chilean Guy May Have Some Problems”: The Downfall of <persName
                             corresp="#p_AGS_1">Salvador Allende</persName>, January–September
                         1973</head>
-                    <div type="document" n="128" xml:id="d128" subtype="historical-document">
+                    <div type="document" n="128" xml:id="d128" subtype="historical-document"
+                        frus:doc-dateTime-min="1973-01-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1973-01-10T23:59:59-05:00">
                         <head>128. Memorandum From the Central Intelligence Agency to the Ambassador
                             to Chile (Davis)<note n="1" xml:id="d128fn1" type="source">
                                 <p>Summary: This memorandum discussed the political climate in Chile
@@ -39668,7 +39741,9 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1973-01-10"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>4 March 1973 Congressional Elections</item>
@@ -43334,7 +43409,9 @@
                         <pb n="728" facs="0768" xml:id="pg_728"/>
                     </div>
 
-                    <div type="document" n="141" xml:id="d141" subtype="historical-document">
+                    <div type="document" n="141" xml:id="d141" subtype="historical-document"
+                        frus:doc-dateTime-min="1973-09-12T00:00:00-05:00"
+                        frus:doc-dateTime-max="1974-06-12T23:59:59-05:00">
                         <head>141. Excerpts From Testimony Before Congress by the Assistant
                             Secretary of State for Inter-American Affairs (<persName
                                 corresp="#p_KJB_1">Kubisch</persName>) and the Deputy Assistant
@@ -43352,7 +43429,10 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date from="1973-09-12"
+                                to="1974-06-12" type="content-date"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">EXCERPTS FROM TESTIMONY BEFORE THE CONGRESS<lb/> BY
                             ASSISTANT SECRETARY KUBISCH AND DEPUTY<lb/> ASSISTANT SECRETARY
                                 <persName corresp="#p_SH_2">SHLAUDEMAN</persName>
@@ -44525,7 +44605,9 @@
                         <pb n="747" facs="0787" xml:id="pg_747"/>
                     </div>
 
-                    <div type="document" n="146" xml:id="d146" subtype="historical-document">
+                    <div type="document" n="146" xml:id="d146" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-08-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1970-10-09T23:59:59-05:00">
                         <head>146. Chronology Prepared for the Washington Special Actions Group<note
                                 n="1" xml:id="d146fn1" type="source">
                                 <p>Summary: This chronology, titled “Washington–Santiago Exchanges
@@ -44546,7 +44628,10 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date from="1970-08-05"
+                                to="1970-10-09" type="content-date"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">WASHINGTON–SANTIAGO EXCHANGES BEARING ON ROLE OF CHILEAN
                             MILITARY IN ALLENDE ELECTION</p>
                         <p>August 5—<persName corresp="#p_CJH_1">Crimmins</persName> told <persName
@@ -44860,7 +44945,9 @@
                             a reasonable chance of success for any action program.</p>
                     </div>
 
-                    <div type="document" n="147" xml:id="d147" subtype="historical-document">
+                    <div type="document" n="147" xml:id="d147" subtype="historical-document"
+                        frus:doc-dateTime-min="1970-03-25T00:00:00-05:00"
+                        frus:doc-dateTime-max="1970-10-09T23:59:59-05:00">
                         <head>147. Chronology Prepared for the Washington Special Actions Group<note
                                 n="1" xml:id="d147fn1" type="source">
                                 <p>Summary: This chronology, titled “Chile: Chronology From DDC
@@ -44876,7 +44963,10 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                            <placeName>Washington</placeName>, <date from="1970-03-25"
+                                to="1970-10-09" type="content-date"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>.</dateline>
                         <p rend="center">CHILE: CHRONOLOGY FROM DDC FILES—1970</p>
 
                         <p>March 25—Minutes of 40 Committee Meeting. The 40 Committee approved a

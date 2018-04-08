@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1977-80v01">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1977-80v01">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2014</date>
+                <date type="publication-date">2014</date>
                 <idno type="frus">frus1977-80v01</idno>
             </publicationStmt>
 
@@ -25,6 +25,15 @@
                 <p>Released in 2015 as printed book.</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
+        </encodingDesc>
+        <xenoData>
+            <frus:coverage notBefore="1975-05-28T00:00:00-05:00"
+                notAfter="1981-01-14T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
 
     <text>
@@ -61,7 +70,9 @@
                     20402-0001</docImprint>
             </titlePage>
 
-            <div type="section" xml:id="aboutseries">
+            <div type="section" xml:id="aboutseries" subtype="about-frus-series"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -249,13 +260,15 @@
                     <lb/>
                     <orgName>Bureau of Public Affairs</orgName>
                     <lb/>
-                    <date>October, 2014</date>
+                    <date when="2014-10">October, 2014</date>
                 </closer>
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">Structure and Scope of the <hi rend="roman">Foreign
@@ -378,7 +391,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Contents</head>
                 <list>
@@ -415,7 +430,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="XV" facs="0016" xml:id="pg_XV"/>
                 <head>Sources</head>
                 <p>In addition to the paper files cited below, a growing number of documents are
@@ -737,7 +754,9 @@
                 </list>
             </div>
 
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -1562,7 +1581,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="XXV" facs="0026" xml:id="pg_XXV"/>
                 <head>Persons</head>
                 <list type="names">
@@ -3607,10 +3628,13 @@
 
         <body>
             <pb n="1" facs="0042" xml:id="pg_1"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <head>Foundations of Foreign Policy, 1974–1980</head>
 
-                <div type="document" n="1" xml:id="d1" subtype="editorial-note">
+                <div type="document" n="1" xml:id="d1" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>1. Editorial Note</head>
                     <p>Georgia Governor <persName corresp="#p_CJE2_1">Jimmy Carter</persName>
                         declared his candidacy for the Democratic Presidential nomination on
@@ -5376,7 +5400,9 @@
                         effervescence of a dynamic and confident United States of America.</p>
                 </div>
 
-                <div type="document" n="7" xml:id="d7" subtype="editorial-note">
+                <div type="document" n="7" xml:id="d7" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>7. Editorial Note</head>
                     <p>On July 15, 1976, former Governor of Georgia <persName corresp="#p_CJE2_1"
                             >Jimmy Carter</persName> accepted the Democratic nomination for
@@ -5435,7 +5461,9 @@
                         Acceptance Speech, 7/76.</p>
                 </div>
 
-                <div type="document" n="8" xml:id="d8" subtype="editorial-note">
+                <div type="document" n="8" xml:id="d8" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>8. Editorial Note</head>
                     <p>In the weeks following the July 1976 Democratic National Convention (see <ref
                             target="#d7">Document 7</ref>), Democratic Presidential nominee
@@ -6181,7 +6209,9 @@
                         recent selection to be the Foreign Minister.</p>
                 </div>
 
-                <div type="document" n="11" xml:id="d11" subtype="editorial-note">
+                <div type="document" n="11" xml:id="d11" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>11. Editorial Note</head>
                     <p>In addition to <persName corresp="#p_BZK_1">Zbigniew Brzezinski</persName>’s
                         September 27, 1976, memorandum concerning the second Presidential debate
@@ -6294,7 +6324,9 @@
                             1976–77,</hi> Book III, pages 2409–2410 and 2426)</p>
                 </div>
 
-                <div type="document" n="12" xml:id="d12" subtype="editorial-note">
+                <div type="document" n="12" xml:id="d12" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>12. Editorial Note</head>
                     <p>During the 1976 Presidential campaign, Democratic candidate <persName
                             corresp="#p_CJE2_1">Jimmy Carter</persName> asked <persName
@@ -6539,7 +6571,9 @@
                         Development; and Part Ten: Multilateral Organizations.]</p>
                 </div>
 
-                <div type="document" n="14" xml:id="d14" subtype="editorial-note">
+                <div type="document" n="14" xml:id="d14" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>14. Editorial Note</head>
                     <p>Secretary of State-designate <persName corresp="#p_VCR_1">Cyrus R.
                             Vance</persName> testified on January 11, 1977, before the Senate
@@ -6746,7 +6780,9 @@
                         him on January 21.</p>
                 </div>
 
-                <div type="document" n="15" xml:id="d15" subtype="editorial-note">
+                <div type="document" n="15" xml:id="d15" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>15. Editorial Note</head>
                     <p>President <persName corresp="#p_CJE2_1">Jimmy Carter</persName> highlighted
                         the connections among strength, freedom, and responsibility in his inaugural
@@ -7243,7 +7279,9 @@
                     </closer>
                 </div>
 
-                <div type="document" n="18" xml:id="d18" subtype="editorial-note">
+                <div type="document" n="18" xml:id="d18" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>18. Editorial Note</head>
                     <p>On January 27, 1977, the Department of State issued a statement, in response
                         to a question posed at a January 26 news briefing, concerning the Soviet
@@ -7812,7 +7850,9 @@
                         tariffs.</p>
                 </div>
 
-                <div type="document" n="20" xml:id="d20" subtype="editorial-note">
+                <div type="document" n="20" xml:id="d20" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>20. Editorial Note</head>
                     <p>At his first press conference, held in the Old Executive Office Building on
                         February 8, 1977, at 2:30 p.m., President <persName corresp="#p_CJE2_1"
@@ -8119,7 +8159,9 @@
                         programs.]</p>
                 </div>
 
-                <div type="document" n="23" xml:id="d23" subtype="editorial-note">
+                <div type="document" n="23" xml:id="d23" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <pb n="92" facs="0133" xml:id="pg_92"/>
                     <head>23. Editorial Note</head>
                     <p>During the course of his remarks before an audience of Department of State
@@ -8852,7 +8894,9 @@
                         set.</p>
                 </div>
 
-                <div type="document" n="28" xml:id="d28" subtype="editorial-note">
+                <div type="document" n="28" xml:id="d28" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>28. Editorial Note</head>
                     <p>President’s Assistant for National Security Affairs <persName
                             corresp="#p_BZK_1">Zbigniew Brzezinski</persName> provided a background
@@ -10676,7 +10720,9 @@
                     <p>[Omitted here is information unrelated to foreign policy opinions.]</p>
                 </div>
 
-                <div type="document" n="35" xml:id="d35" subtype="editorial-note">
+                <div type="document" n="35" xml:id="d35" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>35. Editorial Note</head>
                     <p>In preparation for President <persName corresp="#p_CJE2_1">Jimmy
                             Carter</persName>’s April 25, 1977, interview with European journalists,
@@ -10997,7 +11043,8 @@
                             </hi>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1977-04-29"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                         <p>[Omitted here is the Table of Contents.]</p>
                         <p rend="center">Four-Year Foreign Policy Objectives</p>
@@ -11490,7 +11537,9 @@
                         national asset in times past. So it should be again.</p>
                 </div>
 
-                <div type="document" n="38" xml:id="d38" subtype="editorial-note">
+                <div type="document" n="38" xml:id="d38" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <pb n="161" facs="0202" xml:id="pg_161"/>
                     <head>38. Editorial Note</head>
                     <p>On May 5, 1977, President <persName corresp="#p_CJE2_1">Jimmy
@@ -12363,7 +12412,9 @@
                                 information appears on the paper.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1977-05-24"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <p>As the Administration of President <persName corresp="#p_CJE2_1"
                                 >Carter</persName> has reviewed the major issues currently on the
@@ -12574,7 +12625,9 @@
                         Middle East,” and the Summary of Recommendations.]</p>
                 </div>
 
-                <div type="document" n="43" xml:id="d43" subtype="editorial-note">
+                <div type="document" n="43" xml:id="d43" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>43. Editorial Note</head>
                     <p>On June 6, 1977, Secretary of State <persName corresp="#p_VCR_1">Cyrus
                             Vance</persName> addressed the Commission on Security and Cooperation in
@@ -13037,7 +13090,9 @@
                     </p>
                 </div>
 
-                <div type="document" n="45" xml:id="d45" subtype="editorial-note">
+                <div type="document" n="45" xml:id="d45" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>45. Editorial Note</head>
                     <p>On June 19, 1977, reporters <persName corresp="#p_CB_1">Bob Clark</persName>
                         and <persName corresp="#p_DB_1">Barrie Dunsmore</persName> of the American
@@ -13754,7 +13809,9 @@
                     </closer>
                 </div>
 
-                <div type="document" n="48" xml:id="d48" subtype="editorial-note">
+                <div type="document" n="48" xml:id="d48" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>48. Editorial Note</head>
                     <p>On June 29, 1977, Secretary of State <persName corresp="#p_VCR_1">Cyrus
                             Vance</persName> addressed a meeting of the Asia Society in New York.
@@ -13812,7 +13869,9 @@
                         Policy File, D770232–1067)</p>
                 </div>
 
-                <div type="document" n="49" xml:id="d49" subtype="historical-document">
+                <div type="document" n="49" xml:id="d49" subtype="historical-document"
+                    frus:doc-dateTime-min="1977-06-27T23:00:00-05:00"
+                    frus:doc-dateTime-max="1977-07-01T23:59:59-05:00">
                     <pb n="208" facs="0249" xml:id="pg_208"/>
                     <head>49. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to President
@@ -13827,7 +13886,9 @@
                                 Western Europe</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1977-06-28T00:00:00-04:00" notAfter="1977-07-01-05:00"
+                            ana="#date_undated-inferred-from-sibling-dates">undated</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -17194,7 +17255,9 @@
                     </closer>
                 </div>
 
-                <div type="document" n="60" xml:id="d60" subtype="editorial-note">
+                <div type="document" n="60" xml:id="d60" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>60. Editorial Note</head>
                     <p>On December 20, 1977, President’s Assistant for National Security Affairs
                             <persName corresp="#p_BZK_1">Zbigniew Brzezinski</persName> held a press
@@ -17299,7 +17362,9 @@
                         10/77–1/78)</p>
                 </div>
 
-                <div type="document" n="61" xml:id="d61" subtype="editorial-note">
+                <div type="document" n="61" xml:id="d61" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>61. Editorial Note</head>
                     <p>On December 28, 1977, President <persName corresp="#p_CJE2_1">Jimmy
                             Carter</persName> participated in an interview with <persName
@@ -18703,7 +18768,9 @@
                         millions of people—in America as well as abroad.</p>
                 </div>
 
-                <div type="document" n="64" xml:id="d64" subtype="editorial-note">
+                <div type="document" n="64" xml:id="d64" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <pb n="306" facs="0347" xml:id="pg_306"/>
                     <head>64. Editorial Note</head>
                     <p>On January 19, 1978, at 9 p.m., President <persName corresp="#p_CJE2_1">Jimmy
@@ -20110,7 +20177,9 @@
                         world’s people to “catch a dreaming glimpse of peace.”</p>
                 </div>
 
-                <div type="document" n="70" xml:id="d70" subtype="historical-document">
+                <div type="document" n="70" xml:id="d70" subtype="historical-document"
+                    frus:doc-dateTime-min="1978-02-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1978-03-03T23:59:59-05:00">
                     <pb n="337" facs="0378" xml:id="pg_337"/>
                     <head>70. Paper Prepared by the Policy Planning Staff<note n="1" xml:id="d70fn1"
                             type="source">Source: National Archives, <gloss target="#t_RG_1"
@@ -20141,7 +20210,11 @@
                             indicates that the paper was not published.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1978-02-24T00:00:00-05:00"
+                            notAfter="1978-03-03T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>
                     </dateline>
                     <p>[Omitted here is the Table of Contents.]</p>
                     <p rend="center">I. INTRODUCTION</p>
@@ -21122,7 +21195,9 @@
                     <p>[Omitted here is information unrelated to foreign policy opinions.]</p>
                 </div>
 
-                <div type="document" n="74" xml:id="d74" subtype="historical-document">
+                <div type="document" n="74" xml:id="d74" subtype="historical-document"
+                    frus:doc-dateTime-min="1978-04-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1978-04-19T23:59:59-05:00">
                     <head>74. Article by the Assistant Secretary of State for International
                         Organization Affairs (<persName corresp="#p_MCW_1">Maynes</persName>)<note
                             n="1" xml:id="d74fn1" type="source">Source: Department of State <hi
@@ -21133,7 +21208,11 @@
                             7.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1978-04-07T00:00:00-05:00"
+                            notAfter="1978-04-19T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>
                     </dateline>
                     <p rend="center">The Maturing of American Diplomacy</p>
                     <p>How does one describe the trends of American diplomacy today? Were it 30
@@ -22319,7 +22398,9 @@
                         preservation of its humanitarian tradition.</p>
                 </div>
 
-                <div type="document" n="78" xml:id="d78" subtype="historical-document">
+                <div type="document" n="78" xml:id="d78" subtype="historical-document"
+                    frus:doc-dateTime-min="1978-05-04T23:00:00-05:00"
+                    frus:doc-dateTime-max="1978-05-10T22:59:59-05:00">
                     <pb n="385" facs="0426" xml:id="pg_385"/>
                     <head>78. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to the
@@ -22337,7 +22418,11 @@
                             (Ibid.)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1978-05-05T00:00:00-04:00"
+                            notAfter="1978-05-10T23:59:59-04:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>
                     </dateline>
                     <p>In order to infuse greater clarity into public understanding of our foreign
                         policy, the President wishes that all Cabinet members understand our key
@@ -22399,7 +22484,9 @@
                     </closer>
                 </div>
 
-                <div type="document" n="79" xml:id="d79" subtype="editorial-note">
+                <div type="document" n="79" xml:id="d79" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>79. Editorial Note</head>
                     <p>On May 5, 1978, President <persName corresp="#p_CJE2_1">Jimmy
                             Carter</persName> delivered remarks at a town hall meeting at the
@@ -22571,7 +22658,9 @@
                     </p>
                 </div>
 
-                <div type="document" n="81" xml:id="d81" subtype="editorial-note">
+                <div type="document" n="81" xml:id="d81" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>81. Editorial Note</head>
                     <p>On May 28, 1978, reporters Bob Abernethy and <persName corresp="#p_MWB_1"
                             >Bill Monroe</persName> of <gloss target="#t_NBC_1">NBC</gloss> News,
@@ -24344,7 +24433,9 @@
                         dynamic part of the world.</p>
                 </div>
 
-                <div type="document" n="89" xml:id="d89" subtype="editorial-note">
+                <div type="document" n="89" xml:id="d89" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>89. Editorial Note</head>
                     <p>On June 19, 1978, Secretary of State <persName corresp="#p_VCR_1">Cyrus
                             Vance</persName> testified on U.S.-Soviet policy before the House
@@ -26106,7 +26197,9 @@
                         the issues we discussed and on the items we talked about doing.</p>
                 </div>
 
-                <div type="document" n="95" xml:id="d95" subtype="historical-document">
+                <div type="document" n="95" xml:id="d95" subtype="historical-document"
+                    frus:doc-dateTime-min="1978-08-25T23:00:00-05:00"
+                    frus:doc-dateTime-max="1978-09-18T22:59:59-05:00">
                     <pb n="459" facs="0500" xml:id="pg_459"/>
                     <head>95. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZK_1">Brzezinski</persName>) to President
@@ -26118,7 +26211,11 @@
                             for action. Printed from an uninitialed copy.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1978-08-26T00:00:00-04:00"
+                            notAfter="1978-09-18T23:59:59-04:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -28500,7 +28597,9 @@
                     <p>Thank you very much.</p>
                 </div>
 
-                <div type="document" n="105" xml:id="d105" subtype="editorial-note">
+                <div type="document" n="105" xml:id="d105" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>105. Editorial Note</head>
                     <p>On December 15, 1978, following his address to the nation regarding the
                         normalization of relations with China (see <ref target="#d104">Document
@@ -28883,7 +28982,9 @@
                     <p>[Omitted here is information unrelated to foreign policy opinions.]</p>
                 </div>
 
-                <div type="document" n="107" xml:id="d107" subtype="historical-document">
+                <div type="document" n="107" xml:id="d107" subtype="historical-document"
+                    frus:doc-dateTime-min="1978-12-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1978-12-28T23:59:59-05:00">
                     <head>107. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE2_1"
                             >Carter</persName>
@@ -28900,7 +29001,8 @@
                             Misc: re Issues &amp; Priorities ’78)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>
+                        <placeName>Washington</placeName>, <date when="1978-12-28"
+                            ana="#date_undated-inferred-from-document-content">undated</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -31539,7 +31641,9 @@
                     </p>
                 </div>
 
-                <div type="document" n="114" xml:id="d114" subtype="editorial-note">
+                <div type="document" n="114" xml:id="d114" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <pb n="570" facs="0611" xml:id="pg_570"/>
                     <head>114. Editorial Note</head>
                     <p>On March 5, 1979, White House Press Secretary <persName corresp="#p_PJL_1"
@@ -32398,7 +32502,9 @@
                         Monnet said, “and all of us on the other.”</p>
                 </div>
 
-                <div type="document" n="116" xml:id="d116" subtype="editorial-note">
+                <div type="document" n="116" xml:id="d116" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>116. Editorial Note</head>
                     <p>President <persName corresp="#p_CJE2_1">Jimmy Carter</persName> took part in
                         an interview with editors and news directors, consisting of his introductory
@@ -33286,7 +33392,9 @@
                         continue in this American tradition.</p>
                 </div>
 
-                <div type="document" n="119" xml:id="d119" subtype="editorial-note">
+                <div type="document" n="119" xml:id="d119" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>119. Editorial Note</head>
                     <p>On May 9, 1979, Secretary of State <persName corresp="#p_VCR_1">Cyrus
                             Vance</persName> and Secretary of Defense <persName corresp="#p_BH_1"
@@ -33799,7 +33907,9 @@
                                 the top right-hand corner of the paper.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1979-05-29"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <p rend="sectiontitleital">Soviet-American Summitry</p>
                         <p>Summit meetings between the American President and the Soviet leaders
@@ -34228,7 +34338,9 @@
                             <note n="7" xml:id="d122fn7">Secret.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1979-08-02"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <p rend="center">FOREIGN POLICY GOALS, AUGUST 1979</p>
                         <table cols="3">
@@ -35377,7 +35489,9 @@
                         to the President.</p>
                 </div>
 
-                <div type="document" n="125" xml:id="d125" subtype="editorial-note">
+                <div type="document" n="125" xml:id="d125" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>125. Editorial Note</head>
                     <p>On September 7, 1979, President <persName corresp="#p_CJE2_1">Jimmy
                             Carter</persName> spoke to reporters assembled in the Old Executive
@@ -37022,7 +37136,9 @@
                         internationally. (S)</p>
                 </div>
 
-                <div type="document" n="133" xml:id="d133" subtype="editorial-note">
+                <div type="document" n="133" xml:id="d133" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>133. Editorial Note</head>
                     <p>From 1:04 to 1:50 p.m. on December 31, 1979, President <persName
                             corresp="#p_CJE2_1">Jimmy Carter</persName> participated in a taped
@@ -37621,7 +37737,9 @@
                     <p>Thank you very much.</p>
                 </div>
 
-                <div type="document" n="137" xml:id="d137" subtype="editorial-note">
+                <div type="document" n="137" xml:id="d137" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>137. Editorial Note</head>
                     <p>President’s Assistant for National Security Affairs <persName
                             corresp="#p_BZK_1">Zbigniew Brzezinski</persName> took part in a
@@ -38128,7 +38246,9 @@
                     <p>Thank you very much.</p>
                 </div>
 
-                <div type="document" n="139" xml:id="d139" subtype="editorial-note">
+                <div type="document" n="139" xml:id="d139" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>139. Editorial Note</head>
                     <p>On January 28, 1980, President’s Assistant for National Security Affairs
                             <persName corresp="#p_BZK_1">Zbigniew Brzezinski</persName> took part in
@@ -38547,7 +38667,9 @@
                         and investment, aid, the dollar.</p>
                 </div>
 
-                <div type="document" n="142" xml:id="d142" subtype="editorial-note">
+                <div type="document" n="142" xml:id="d142" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <pb n="709" facs="0750" xml:id="pg_709"/>
                     <head>142. Editorial Note</head>
                     <p>On March 27, 1980, Secretary of State <persName corresp="#p_VCR_1">Cyrus
@@ -38967,7 +39089,9 @@
                         second chance. If we fail to seize this one, history itself may fail us.</p>
                 </div>
 
-                <div type="document" n="144" xml:id="d144" subtype="editorial-note">
+                <div type="document" n="144" xml:id="d144" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>144. Editorial Note</head>
                     <p>Secretary of State <persName corresp="#p_VCR_1">Cyrus Vance</persName>
                         submitted a resignation letter to President <persName corresp="#p_CJE2_1"
@@ -41546,7 +41670,9 @@
                         of arms but a fortress of hope and freedom as well.</p>
                 </div>
 
-                <div type="document" n="154" xml:id="d154" subtype="editorial-note">
+                <div type="document" n="154" xml:id="d154" subtype="editorial-note"
+                    frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                     <head>154. Editorial Note</head>
                     <p>On August 21, 1980, President <persName corresp="#p_CJE2_1">Jimmy
                             Carter</persName> delivered remarks at the annual convention of the
@@ -43828,7 +43954,9 @@
         </body>
 
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1975-05-28T00:00:00-05:00"
+                frus:doc-dateTime-max="1981-01-14T23:59:59-05:00">
                 <pb n="817" facs="0858" xml:id="pg_817"/>
                 <head>Index</head>
                 <p>

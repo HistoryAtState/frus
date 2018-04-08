@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>1999</date>
+                <date type="publication-date">1999</date>
                 <idno type="dospubno">10614</idno>
                 <idno type="isbn-10">0160500850</idno>
                 <idno type="isbn-13">9780160500855</idno>
@@ -42,6 +42,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1964-01-02T00:00:00-05:00"
+                notAfter="1968-12-18T18:46:00-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -73,7 +77,9 @@
                     Documents<lb/>Mail Stop: SSOP<lb/>Washington, DC 20402-9328<lb/>ISBN
                     0-16-049249-1</docImprint>
             </titlePage>
-            <div type="section" xml:id="summary">
+            <div type="section" xml:id="summary" subtype="volume-summary"
+                frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-18T18:46:00-05:00">
                 <head>Table of Contents:</head>
                 <p>Read the Volume Online</p>
                 <p>Foreword</p>
@@ -327,7 +333,9 @@
                 <p>Office of the Historian<lb/>Bureau of Public Affairs<lb/>November 1999</p>
             </div>
             <pb n="III" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-18T18:46:00-05:00">
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States series</hi> presents
                     the official documentary historical record of major foreign policy decisions and
@@ -660,7 +668,9 @@
             </div>
             <pb n="[X]" xml:id="pg_X" facs="0010"/>
             <pb n="[XI]" xml:id="pg_XI" facs="0011"/>
-            <div type="section" xml:id="subseriesvols">
+            <div type="section" xml:id="subseriesvols" subtype="additional-volumes"
+                frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-18T18:46:00-05:00">
                 <head>Johnson Administration Volumes</head>
                 <p>Following is a list of the volumes in the <hi rend="italic">Foreign
                         Relations</hi> series for the administration of President <persName
@@ -877,7 +887,9 @@
             </div>
             <pb n="[XII]" xml:id="pg_XII" facs="0012"/>
             <pb n="XIII" xml:id="pg_XIII" facs="0013"/>
-            <div type="toc" xml:id="toc">
+            <div type="section" subtype="table-of-contents" xml:id="toc"
+                frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-18T18:46:00-05:00">
                 <head>Contents</head>
                 <list type="toc">
                     <item>
@@ -902,7 +914,9 @@
             </div>
             <pb n="[XIV]" xml:id="pg_XIV" facs="0014"/>
             <pb n="XV" xml:id="pg_XV" facs="0015"/>
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-18T18:46:00-05:00">
                 <head>Sources</head>
                 <p>The editors of the <hi rend="italic">Foreign Relations</hi> series have complete
                     access to all the retired records and papers of the Department of State: the
@@ -1376,7 +1390,9 @@
                 </list>
             </div>
             <pb n="XXI" xml:id="pg_XXI" facs="0021"/>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-18T18:46:00-05:00">
                 <head>Abbreviations</head>
                 <list type="terms">
                     <item>
@@ -1931,7 +1947,9 @@
                 </list>
             </div>
             <pb n="XXV" xml:id="pg_XXV" facs="0025"/>
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-18T18:46:00-05:00">
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -2348,7 +2366,8 @@
         </front>
         <pb n="1" xml:id="pg_1" facs="0029"/>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-18T18:46:00-05:00">
                 <head>Iran</head>
                 <div type="document" xml:id="d1" n="1" subtype="historical-document"
                     frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
@@ -8972,7 +8991,9 @@
                     </p>
                 </div>
                 <pb n="122" xml:id="pg_122" facs="0150"/>
-                <div type="document" xml:id="d64" n="64" subtype="historical-document">
+                <div type="document" xml:id="d64" n="64" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-01-06T23:59:59-05:00"
+                    frus:doc-dateTime-max="1965-01-07T23:59:59-05:00">
                     <head>64. Paper Prepared in the Department of State<note n="1" xml:id="d64fn1"
                             type="source">Source: Department of State, <gloss target="#t_NEAIRN1"
                                 >NEA/IRN</gloss> Files: Lot 69 D 489, Iran 1965, POL 13–6 Religious
@@ -8987,7 +9008,11 @@
                             makes it clear that it was prepared in 1965.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date
+                            notBefore="1965-01-06T23:59:59-05:00"
+                            notAfter="1965-01-07T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <p rend="center">THE SIGNIFICANCE OF <persName corresp="#p_KAR1"
                             >KHOMEINI</persName>'S OPPOSITION TO THE IRANIAN GOVERNMENT</p>
                     <p>The opposition of Ayatollah Maj Ruhollah Seyed Musavi Khomeini, the leading
@@ -13699,7 +13724,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d115" n="115" subtype="editorial-note">
+                <div type="document" xml:id="d115" n="115" subtype="editorial-note"
+                    frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-18T18:46:00-05:00">
                     <head>115. Editorial Note</head>
                     <p>When <persName>Averell Harriman</persName> met with the Shah in Tehran on
                         January 3, 1966, he conveyed President Johnson's greetings and warm
@@ -21881,7 +21908,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d188" n="188" subtype="editorial-note">
+                <div type="document" xml:id="d188" n="188" subtype="editorial-note"
+                    frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-18T18:46:00-05:00">
                     <head>188. Editorial Note</head>
                     <p>Telegram 169774 to Tehran, April 6, 1967, informed the Embassy that the
                         Justice Department review of the Gudarzian criminal case had concluded that
@@ -24589,7 +24618,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="401" xml:id="pg_401" facs="0429"/>
-                <div type="document" xml:id="d219" n="219" subtype="historical-document">
+                <div type="document" xml:id="d219" n="219" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-08-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-08-15T23:59:59-05:00">
                     <head>219. Memorandum From Secretary of State <persName corresp="#p_RD3"
                             type="from">Rusk</persName> to President <persName type="to"
                             >Johnson</persName>
@@ -24600,7 +24631,9 @@
                                 >Document 218</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date>undated</date>.</dateline>
+                        <placeName>Washington</placeName>, <date when="1967-08-15"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Your Meetings with the Shah of Iran: Viet Nam</item>
@@ -34348,7 +34381,9 @@
         </body>
         <pb n="581" xml:id="pg_581" facs="0609"/>
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1964-01-02T00:00:00-05:00"
+                frus:doc-dateTime-max="1968-12-18T18:46:00-05:00">
                 <head>Index</head>
                 <list type="index">
                     <item>Abu Dhabi, <ref target="#pg_483">483<hi rend="italic">n</hi>

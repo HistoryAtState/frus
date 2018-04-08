@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Publishing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date>2016</date>
+                <date type="publication-date">2016</date>
                 <idno type="frus">frus1977-80v30</idno>
             </publicationStmt>
             <sourceDesc>
@@ -33,6 +33,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
+        <xenoData>
+            <frus:coverage notBefore="1976-11-03T00:00:00-05:00"
+                notAfter="1980-11-20T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -63,7 +67,9 @@
                     20402-0001</docImprint>
             </titlePage>
 
-            <div type="section" xml:id="AbouttheSeries">
+            <div type="section" xml:id="AbouttheSeries" subtype="about-frus-series"
+                frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -249,12 +255,14 @@
                     <lb/>
                     <orgName>Bureau of Public Affairs</orgName>
                     <lb/>
-                    <date>June 2016</date>
+                    <date when="2016-06">June 2016</date>
                 </closer>
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-            <div type="section" xml:id="preface">
+            <div type="section" xml:id="preface" subtype="preface"
+                frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">
@@ -359,7 +367,9 @@
                 </closer>
             </div>
 
-            <div type="section" xml:id="toc">
+            <div type="section" xml:id="toc" subtype="table-of-contents"
+                frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Contents</head>
                 <list>
@@ -396,7 +406,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="sources">
+            <div type="section" xml:id="sources" subtype="sources"
+                frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <hi rend="roman">Foreign Relations</hi>,
@@ -859,7 +871,9 @@
                 <pb n="XX" facs="0021" xml:id="pg_XX"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-            <div type="section" xml:id="terms">
+            <div type="section" xml:id="terms" subtype="index"
+                frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
                 <pb n="XXI" facs="0022" xml:id="pg_XXI"/>
                 <head>Abbreviations and Terms</head>
                 <list>
@@ -2506,7 +2520,9 @@
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
 
-            <div type="section" xml:id="persons">
+            <div type="section" xml:id="persons" subtype="index"
+                frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
                 <pb n="XXXI" facs="0032" xml:id="pg_XXXI"/>
                 <head>Persons</head>
                 <list>
@@ -4829,7 +4845,8 @@
         </front>
         <body>
             <pb n="1" facs="0050" xml:id="pg_1"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1980-12-16T23:59:59-05:00">
                 <head>Public Diplomacy</head>
                 <div type="document" n="1" xml:id="d1" subtype="historical-document"
                     frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
@@ -5863,7 +5880,9 @@
                         of cultural exchange.</p>
                 </div>
 
-                <div type="document" n="3" xml:id="d3" subtype="editorial-note">
+                <div type="document" n="3" xml:id="d3" subtype="editorial-note"
+                    frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
                     <head>3. Editorial Note</head>
                     <p>In a January 14, 1977, memorandum to Acting Director of the United States
                         Information Agency (<gloss target="#t_USIA_1">USIA</gloss>) <persName
@@ -8953,7 +8972,9 @@
                     </closer>
                 </div>
 
-                <div type="document" n="27" xml:id="d27" subtype="historical-document">
+                <div type="document" n="27" xml:id="d27" subtype="historical-document"
+                    frus:doc-dateTime-min="1977-03-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1977-03-25T23:59:59-05:00">
                     <head>27. Paper Prepared in the Policy Planning Staff<note n="1" xml:id="d27fn1"
                             type="source">Source: National Archives, <gloss target="#t_RG_1"
                                 >RG</gloss> 59, Central Foreign Policy File, P770118–2014. Secret.
@@ -8981,7 +9002,11 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1977-03-24T00:00:00-05:00"
+                                notAfter="1977-03-25T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                     </opener>
                     <p rend="sectiontitleital">
@@ -12855,7 +12880,9 @@
                         Report.]</p>
                 </div>
                 <pb n="140" facs="0189" xml:id="pg_140"/>
-                <div type="document" n="51" xml:id="d51" subtype="historical-document">
+                <div type="document" n="51" xml:id="d51" subtype="historical-document"
+                    frus:doc-dateTime-min="1977-05-09T23:00:00-05:00"
+                    frus:doc-dateTime-max="1977-05-10T16:00:00-05:00">
                     <head>51. Memorandum From <persName corresp="#p_HPB_1">Paul Henze</persName> of
                         the National Security Council Staff to the President’s Assistant for
                         National Security Affairs (<persName corresp="#p_BZ_1"
@@ -12867,7 +12894,10 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1977-05-10"
+                                notBefore="1977-05-10T00:00:00-04:00"
+                                notAfter="1977-05-10T17:00:00-04:00"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -15187,7 +15217,11 @@
                             </hi>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1977-05-30T00:00:00-04:00"
+                                notAfter="1977-06-16T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <p rend="center">
                             <gloss target="#t_USIA_1">USIA</gloss> HUMAN RIGHTS ACTION PROPOSALS</p>
@@ -15871,7 +15905,11 @@
                             </hi>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1977-06-15T00:00:00-04:00"
+                                notAfter="1977-06-17T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <p rend="center">INTRODUCTION</p>
                         <p>The following is a report on a series of meetings that the Director and
@@ -18987,7 +19025,9 @@
                     </p>
                 </div>
                 <pb n="254" facs="0303" xml:id="pg_254"/>
-                <div type="document" n="88" xml:id="d88" subtype="editorial-note">
+                <div type="document" n="88" xml:id="d88" subtype="editorial-note"
+                    frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
                     <head>88. Editorial Note</head>
                     <p>In a joint press statement issued on September 1, 1977, Director of the
                         United States Information Agency <persName corresp="#p_RJE_1">John
@@ -21658,7 +21698,9 @@
                         important to advancing American interests.</p>
                 </div>
 
-                <div type="document" n="105" xml:id="d105" subtype="historical-document">
+                <div type="document" n="105" xml:id="d105" subtype="historical-document"
+                    frus:doc-dateTime-min="1977-11-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1977-11-18T23:59:59-05:00">
                     <head>105. Memorandum From the Under Secretary of State for Management
                             (<persName corresp="#p_RBM_1">Read</persName>) to the Deputy Secretary
                         of State (<persName corresp="#p_CWM_1">Christopher</persName>)<note n="1"
@@ -21688,7 +21730,9 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1977-11-18"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                     </opener>
                     <p rend="center">
@@ -22212,7 +22256,9 @@
                             </hi>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1977-11-19"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -22372,7 +22418,9 @@
                     </closer>
                 </div>
 
-                <div type="document" n="112" xml:id="d112" subtype="historical-document">
+                <div type="document" n="112" xml:id="d112" subtype="historical-document"
+                    frus:doc-dateTime-min="1977-12-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1977-12-02T23:59:59-05:00">
                     <head>112. Memorandum Prepared in the United States Information Agency<note
                             n="1" xml:id="d112fn1" type="source">Source: Carter Library, National
                             Security Affairs, Staff Material, Horn/Special (<persName
@@ -22392,7 +22440,9 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1977-12-02"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                     </opener>
                     <p rend="center">
@@ -24289,7 +24339,9 @@
                             </hi>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1978-03-26"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -25251,7 +25303,9 @@
                     </closer>
                 </div>
 
-                <div type="document" n="127" xml:id="d127" subtype="editorial-note">
+                <div type="document" n="127" xml:id="d127" subtype="editorial-note"
+                    frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
                     <head>127. Editorial Note</head>
                     <p>On April 4, 1978, National Security Council Staff member <persName
                             corresp="#p_PRA_1">Robert Pastor</persName> sent Assistant to the
@@ -25442,7 +25496,11 @@
                             </hi>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1978-04-17T00:00:00-05:00"
+                                notAfter="1978-04-22T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <p rend="sectiontitleital">Option #4: Specialized Education for the Public
                             Service</p>
@@ -25953,7 +26011,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="389" facs="0438" xml:id="pg_389"/>
-                <div type="document" n="134" xml:id="d134" subtype="historical-document">
+                <div type="document" n="134" xml:id="d134" subtype="historical-document"
+                    frus:doc-dateTime-min="1978-06-08T00:00:00-05:00"
+                    frus:doc-dateTime-max="1978-06-08T23:59:59-05:00">
                     <head>134. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to Secretary of
                         State <persName corresp="#p_VCR_1">Vance</persName>, Secretary of Defense
@@ -26001,7 +26061,9 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1978-06-08"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -26069,7 +26131,9 @@
                     </closer>
                 </div>
                 <pb n="391" facs="0440" xml:id="pg_391"/>
-                <div type="document" n="135" xml:id="d135" subtype="historical-document">
+                <div type="document" n="135" xml:id="d135" subtype="historical-document"
+                    frus:doc-dateTime-min="1978-06-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1978-06-29T23:59:59-05:00">
                     <head>135. Telegram From the International Communication Agency to all Principal
                             Posts<note n="1" xml:id="d135fn1" type="source">Source: National
                             Archives, <gloss target="#t_RG_1">RG</gloss> 306, Associate Directorate
@@ -26086,7 +26150,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1978-06-29"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                     </opener>
                     <p>14211. Subject: Guidelines and Operating Procedures for <gloss
@@ -29340,7 +29405,9 @@
                     </frus:attachment>
                 </div>
 
-                <div type="document" n="156" xml:id="d156" subtype="historical-document">
+                <div type="document" n="156" xml:id="d156" subtype="historical-document"
+                    frus:doc-dateTime-min="1978-11-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1978-11-01T23:59:59-05:00">
                     <head>156. Telegram From the International Communication Agency to all <gloss
                             target="#t_ICA_1">ICA</gloss> Principal Posts<note n="1"
                             xml:id="d156fn1" type="source">Source: Carter Library, National Security
@@ -29362,7 +29429,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1978-11-01"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                     </opener>
                     <p>Subject: Humphrey Scholarships.</p>
@@ -31876,7 +31944,9 @@
                             </hi>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1979-07-13"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <p>[Omitted here is the Table of Contents.]</p>
                         <p rend="center">
@@ -32859,7 +32929,9 @@
                             Nowak</persName> on this. (C)</p>
                 </div>
 
-                <div type="document" n="181" xml:id="d181" subtype="historical-document">
+                <div type="document" n="181" xml:id="d181" subtype="historical-document"
+                    frus:doc-dateTime-min="1979-09-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1979-09-11T23:59:59-05:00">
                     <head>181. Draft Staff Study Prepared in the General Accounting Office<note
                             n="1" xml:id="d181fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 306, Bureau of Information, Office of
@@ -32889,7 +32961,8 @@
                             <idno type="document-identifier">ID–79–54</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1979-09-11"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are a September 11, 1979, letter from <persName
@@ -33575,7 +33648,9 @@
                             </hi>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1979-09-12"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <p rend="center">
                             <hi rend="italic">Why Study the General Public</hi>?</p>
@@ -35318,7 +35393,9 @@
                     </p>
                 </div>
                 <pb n="574" facs="0623" xml:id="pg_574"/>
-                <div type="document" n="191" xml:id="d191" subtype="historical-document">
+                <div type="document" n="191" xml:id="d191" subtype="historical-document"
+                    frus:doc-dateTime-min="1979-11-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1979-11-16T23:59:59-05:00">
                     <head>191. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
                             <persName corresp="#p_CJE_1">Carter</persName>
@@ -35332,7 +35409,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1979-11-16"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -36222,7 +36300,9 @@
                         interviews and comments of family members and friends).</p>
                 </div>
                 <pb n="591" facs="0640" xml:id="pg_591"/>
-                <div type="document" n="200" xml:id="d200" subtype="historical-document">
+                <div type="document" n="200" xml:id="d200" subtype="historical-document"
+                    frus:doc-dateTime-min="1980-01-08T00:00:00-05:00"
+                    frus:doc-dateTime-max="1980-01-08T23:59:59-05:00">
                     <head>200. Memorandum From the Director of the International Communication
                         Agency (<persName corresp="#p_RJE_1">Reinhardt</persName>) to the
                         President’s Assistant for National Security Affairs (<persName
@@ -36255,7 +36335,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1980-01-08"
+                                ana="#date_undated-inferred-from-document-content">undated</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -37378,7 +37459,9 @@
                             </hi>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date when="1980-07-11"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                         <p rend="center">AN ASSESSMENT OF <gloss target="#t_ICA_1">USICA</gloss>’S
                             ROLE IN “BOOKS AND BROADCASTING FOR CHILDREN”—AN INTERNATIONAL
@@ -38819,7 +38902,9 @@
                         affairs.</p>
                 </div>
 
-                <div type="document" n="215" xml:id="d215" subtype="historical-document">
+                <div type="document" n="215" xml:id="d215" subtype="historical-document"
+                    frus:doc-dateTime-min="1980-11-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1980-12-16T23:59:59-05:00">
                     <head>215. Summary Prepared in the International Communication Agency<note n="1"
                             xml:id="d215fn1" type="source">Source: Carter Library, Plains File, Box
                             16, Accomplishments: Agencies, G–R,12/80. No classification marking.
@@ -38828,7 +38913,11 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date>undated</date>
+                            <placeName>Washington</placeName>, <date
+                                notBefore="1980-11-20T00:00:00-05:00"
+                                notAfter="1980-12-16T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                >undated</date>
                         </dateline>
                     </opener>
                     <p>President <persName corresp="#p_CJE_1">Carter</persName>’s Reorganization
@@ -39211,7 +39300,9 @@
             </div>
         </body>
         <back>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
                 <pb n="651" facs="0700" xml:id="pg_651"/>
                 <head>Index</head>
                 <p>
