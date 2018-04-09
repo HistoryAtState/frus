@@ -5725,7 +5725,9 @@ the rest of the HTML is processed and the page load is complete, remove the line
                                 >Document 39</ref>.</note>
                     </head>
                     <dateline>[<date notBefore="1918-01-01T00:00:00-05:00"
-                            notAfter="1918-10-31T23:59:59-05:00">undated</date>]</dateline>
+                            notAfter="1918-10-31T23:59:59-05:00"
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            >undated</date>]</dateline>
                     <figure>
                         <graphic width="26pc" url="Document A.7"/>
                     </figure>
