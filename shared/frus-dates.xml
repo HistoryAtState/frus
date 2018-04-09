@@ -35,6 +35,12 @@
                             nearest dated siblings and corrected date value(s) were inferred from
                             nearest dated siblings</catDesc>
                     </category>
+                    <category
+                        xml:id="date_conversion-issue-inferred-from-document-content-and-sibling-dates">
+                        <catDesc>Problems in conversion to Gregorian date value(s) necessitated
+                            adding @notBefore and @notAfter inferred from the content of the
+                            document and nearest dated siblings</catDesc>
+                    </category>
                     <category xml:id="date_editorial-correction">
                         <catDesc>The recorded date was determined to be an error by the FRUS
                             compiler/editor, who indicated the corrected date at the time of
