@@ -247,6 +247,33 @@
                 @frus:doc-dateTime-min and @frus:doc-dateTime-max</assert>
         </rule>
     </pattern>
+    <!--  -->
+    <pattern id="unencoded-dates">
+        <title>Unencoded Dates Checks</title>
+        <rule context="(tei:div[attribute::subtype eq 'historical-document']|frus:attachment)[not(descendant::tei:date) and not(descendant::tei:quote)]/tei:head">
+            <assert role="info" test="not(.[matches(., '(the\s+)?\d{1,2}(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])">[FYI] This header contains date information that could possibly be used to formulate an added dateline.</assert>
+        </rule>
+        <rule
+            context="(tei:div[attribute::subtype eq 'historical-document']|frus:attachment)[not(descendant::tei:date) and not(descendant::tei:quote)]/tei:p[position() = last()]">
+            <assert role="info"
+                test="not(.[matches(., '(the\s+)?\d{1,2}(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])"
+                >[FYI] This paragraph possibly contains an unencoded dateline/date.</assert>
+            <assert role="info"
+                test="not(.[matches(., '(le\s+)?\d{1,2}(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+\d{4}|((janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+\d{1,2}(eme|ème|re)?,?\s+\d{4})')])"
+                >[FYI] This paragraph possibly contains an unencoded French-language
+                dateline/date.</assert>
+        </rule>
+        <rule
+            context="tei:postscript[not(parent::tei:div[attribute::subtype = ('editorial-note', 'errata')]) and not(parent::tei:div[descendant::tei:date]) and not(parent::frus:attachment[descendant::tei:date]) and not(parent::tei:quote)]">
+            <assert role="info"
+                test="not(.[matches(., '(the\s+)?\d{1,2}(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])"
+                >[FYI] This postscript possibly contains an unencoded dateline/date.</assert>
+            <assert role="info"
+                test="not(.[matches(., '(le\s+)?\d{1,2}(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+\d{4}|((janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+\d{1,2}(eme|ème|re)?,?\s+\d{4})')])"
+                >[FYI] This postscript possibly contains an unencoded French-language
+                dateline/date.</assert>
+        </rule>
+    </pattern>
 
     <!-- Functions to normalize dates -->
 
