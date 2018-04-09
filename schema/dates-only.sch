@@ -250,9 +250,18 @@
     <!--  -->
     <pattern id="unencoded-dates">
         <title>Unencoded Dates Checks</title>
-        <rule context="(tei:div[attribute::subtype eq 'historical-document']|frus:attachment)[not(descendant::tei:date) and not(descendant::tei:quote)]/tei:head">
+        <!-- Dates-In-Head Rule, with Attachments: -->
+        <!--
+            <rule context="(tei:div[attribute::subtype eq 'historical-document']|frus:attachment)[not(descendant::tei:date) and not(descendant::tei:quote)]/tei:head">
             <assert role="info" test="not(.[matches(., '(the\s+)?\d{1,2}(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])">[FYI] This header contains date information that could possibly be used to formulate an added dateline.</assert>
         </rule>
+        -->
+        <!-- Dates-In-Head Rule, Without Attachments -->
+        <!--
+        <rule context="tei:div[attribute::subtype eq 'historical-document'][not(descendant::tei:date) and not(descendant::tei:quote)]/tei:head">
+            <assert role="info" test="not(.[matches(., '(the\s+)?\d{1,2}(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])">[FYI] This header contains date information that could possibly be used to formulate an added dateline.</assert>
+        </rule>
+        -->
         <rule
             context="(tei:div[attribute::subtype eq 'historical-document']|frus:attachment)[not(descendant::tei:date) and not(descendant::tei:quote)]/tei:p[position() = last()]">
             <assert role="info"
