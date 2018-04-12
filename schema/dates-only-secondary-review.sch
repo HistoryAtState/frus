@@ -2,6 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt3"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:functx="http://www.functx.com">
     <title>FRUS TEI Rules - Date Rules</title>
 
@@ -281,12 +282,12 @@
                 unencoded French-language dateline/date.</assert>
             <assert role="info"
                 test="not(.[matches(., '(el\s+)?\d{1,2}\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?\d{4}|((enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)\s+\d{1,2},?\s+\d{4})')])"
-                sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraphe possibly contains an unencoded Spanish-language
-                dateline/date.</assert>
+                sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraphe possibly contains an
+                unencoded Spanish-language dateline/date.</assert>
 
             <sqf:group id="fix-date-in-last-paragraph">
 
-                <!-- 1a -->
+                <!-- Last Paragraph: Fix 1a -->
                 <sqf:fix id="convert-p-to-closer-dateline">
                     <sqf:description>
                         <sqf:title>Convert last paragraph to closer/dateline</sqf:title>
@@ -301,7 +302,7 @@
                     </sqf:replace>
                 </sqf:fix>
 
-                <!-- 1b -->
+                <!-- Last Paragraph: Fix 1b -->
                 <sqf:fix id="add-dateline-in-existing-closer">
                     <sqf:description>
                         <sqf:title>Add paragraph content as `dateline` in existing
@@ -330,14 +331,61 @@
             context="tei:postscript[not(parent::tei:div[attribute::subtype = ('editorial-note', 'errata')]) and not(parent::tei:div[descendant::tei:date]) and not(parent::frus:attachment[descendant::tei:date]) and not(parent::tei:quote)]">
             <assert role="info"
                 test="not(.[matches(., '(the\s+)?\d{1,2}(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])"
-                >[FYI] This postscript possibly contains an unencoded dateline/date.</assert>
+                sqf:fix="fix-date-in-postscript">[FYI] This postscript possibly contains an
+                unencoded dateline/date.</assert>
             <assert role="info"
                 test="not(.[matches(., '(le\s+)?\d{1,2}(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+\d{4}|((janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+\d{1,2}(eme|ème|re)?,?\s+\d{4})')])"
-                >[FYI] This postscript possibly contains an unencoded French-language
-                dateline/date.</assert>
-            <assert role="info" test="not(.[matches(., '(el\s+)?\d{1,2}\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?\d{4}|((enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)\s+\d{1,2},?\s+\d{4})')])"
-                >[FYI] This postscript possibly contains an unencoded Spanish-language
-                dateline/date.</assert>
+                sqf:fix="fix-date-in-postscript">[FYI] This postscript possibly contains an
+                unencoded French-language dateline/date.</assert>
+            <assert role="info"
+                test="not(.[matches(., '(el\s+)?\d{1,2}\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?\d{4}|((enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)\s+\d{1,2},?\s+\d{4})')])"
+                sqf:fix="fix-date-in-postscript">[FYI] This postscript possibly contains an
+                unencoded Spanish-language dateline/date.</assert>
+
+            <let name="postscript" value="."/>
+            <let name="postscript-content" value="./tei:p/node()"/>
+
+            <sqf:group id="fix-date-in-postscript">
+
+                <!-- Postscript: Fix 1 -->
+                <sqf:fix id="convert-postscript-to-closer-dateline">
+                    <sqf:description>
+                        <sqf:title>Convert postscript to closer/dateline</sqf:title>
+                        <sqf:p>Convert &lt;postscript&gt; to &lt;closer/dateline&gt; in the current
+                            document; retain node content</sqf:p>
+                    </sqf:description>
+                    <sqf:replace use-when="." node-type="element" target="tei:closer">
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
+                            <sqf:copy-of select="$postscript-content"/>
+                        </dateline>
+                    </sqf:replace>
+                </sqf:fix>
+
+
+                <!-- Postscript: Fix 2 -->
+                <!--
+            <sqf:fix id="add-dateline-in-existing-closer">
+                <sqf:description>
+                    <sqf:title>Add postscript content as `dateline` in new
+                        `closer`</sqf:title>
+                    <sqf:p>Add &lt;postscript&gt; content as `dateline` in new &lt;closer&gt;;
+                        retain node content</sqf:p>
+                </sqf:description>
+                <sqf:add node-type="element" target="tei:closer" position="after">
+                    <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
+                        <sqf:copy-of select="$last-paragraph-content"/>
+                    </dateline><lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                </sqf:add>
+                <sqf:add match="./following-sibling::tei:closer/tei:dateline[1]"
+                    node-type="attribute" target="rendition">
+                    <value-of select="'#left'"/>
+                </sqf:add>
+                <sqf:delete match="."/>
+            </sqf:fix>
+            -->
+
+            </sqf:group>
+
         </rule>
     </pattern>
 
