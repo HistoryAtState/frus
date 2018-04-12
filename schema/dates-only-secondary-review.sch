@@ -247,46 +247,81 @@
                 @frus:doc-dateTime-min and @frus:doc-dateTime-max</assert>
         </rule>
     </pattern>
-    <!--  -->
+
+    <!-- [Work-In-Progress] Unencoded Date Checks -->
     <pattern id="unencoded-dates">
         <title>Unencoded Dates Checks</title>
+
+        <!-- For Documents and Attachments without `date`, Look for Unencoded Dates in Closers -->
         <rule
-            context="(tei:div[attribute::subtype eq 'historical-document']|frus:attachment)[not(descendant::tei:date) and not(descendant::tei:quote)]/tei:p[position() = last()]">
+            context="(tei:div[attribute::subtype eq 'historical-document'] | frus:attachment)[not(descendant::tei:date) and not(descendant::tei:quote)]/tei:closer[not(descendant::tei:dateline)]">
             <assert role="info"
-                test="not(.[matches(., '(the\s+)?\d{1,2}(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])" sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraph possibly contains an unencoded dateline/date.</assert>
+                test="not(.[matches(., '(the\s+)?\d{1,2}(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])"
+                >[FYI] This closer possibly contains an unencoded dateline/date.</assert>
             <assert role="info"
-                test="not(.[matches(., '(le\s+)?\d{1,2}(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+\d{4}|((janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+\d{1,2}(eme|ème|re)?,?\s+\d{4})')])" sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraph possibly contains an unencoded French-language
+                test="not(.[matches(., '(le\s+)?\d{1,2}(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+\d{4}|((janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+\d{1,2}(eme|ème|re)?,?\s+\d{4})')])"
+                >[FYI] This closer possibly contains an unencoded French-language
                 dateline/date.</assert>
+        </rule>
+
+        <!-- For Documents and Attachments without `date`, Look for Unencoded Dates in Last Paragraphs -->
+        <rule
+            context="(tei:div[attribute::subtype eq 'historical-document'] | frus:attachment)[not(descendant::tei:date) and not(descendant::tei:quote)]/tei:p[position() = last()]">
+            <let name="last-paragraph" value="."/>
+            <let name="last-paragraph-content" value="./node()"/>
+            <let name="line-break" value="element(tei:lb)"/>
+            <let name="closer-dateline" value="element(tei:closer)/element(tei:dateline)"/>
+            <assert role="info"
+                test="not(.[matches(., '(the\s+)?\d{1,2}(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])"
+                sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraph possibly contains an
+                unencoded dateline/date.</assert>
+            <assert role="info"
+                test="not(.[matches(., '(le\s+)?\d{1,2}(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+\d{4}|((janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+\d{1,2}(eme|ème|re)?,?\s+\d{4})')])"
+                sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraph possibly contains an
+                unencoded French-language dateline/date.</assert>
+
             <sqf:group id="fix-date-in-last-paragraph">
+
                 <!-- 1a -->
                 <sqf:fix id="convert-p-to-closer-dateline">
                     <sqf:description>
                         <sqf:title>Convert last paragraph to closer/dateline</sqf:title>
-                        <sqf:p>Convert last `p` to `closer/dateline` in the current document; retain content</sqf:p>
+                        <sqf:p>Convert last &lt;p&gt; to &lt;closer/dateline&gt; in the current
+                            document; retain node content</sqf:p>
                     </sqf:description>
-                    <sqf:replace use-when=".[not(following-sibling::tei:closer)]" node-type="element" target="tei:dateline">
-                        <sqf:copy-of select="."/>
+                    <sqf:replace use-when=".[not(following-sibling::tei:closer)]"
+                        node-type="element" target="tei:closer">
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
+                            <sqf:copy-of select="$last-paragraph-content"/>
+                        </dateline>
                     </sqf:replace>
                 </sqf:fix>
+
                 <!-- 1b -->
-                <sqf:fix id="add-dateline-in-existing-closer"> 
+                <sqf:fix id="add-dateline-in-existing-closer">
                     <sqf:description>
-                        <sqf:title>Add paragraph content as `dateline` in existing `closer`</sqf:title>
-                        <sqf:p>Add `p` content as `dateline` in existing `closer`</sqf:p>
+                        <sqf:title>Add paragraph content as `dateline` in existing
+                            `closer`</sqf:title>
+                        <sqf:p>Add &lt;p&gt; content as `dateline` in existing &lt;closer&gt;;
+                            retain node content</sqf:p>
                     </sqf:description>
-                    <sqf:add use-when=".[following-sibling::tei:closer]" match="./following-sibling::tei:closer" position="first-child" node-type="element" target="tei:dateline">
-                        <sqf:copy-of select="./preceding-sibling::tei:p"/>
+                    <sqf:add use-when=".[following-sibling::tei:closer]"
+                        match="./following-sibling::tei:closer" position="first-child">
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
+                            <sqf:copy-of select="$last-paragraph-content"/>
+                        </dateline><lb xmlns="http://www.tei-c.org/ns/1.0"/>
                     </sqf:add>
-                </sqf:fix> 
-                <!-- 2 -->
-                <sqf:fix id="ignore">
-                    <sqf:description>
-                        <sqf:title>Ignore</sqf:title>
-                        <sqf:p>Ignore</sqf:p>
-                    </sqf:description>
+                    <sqf:add match="./following-sibling::tei:closer/tei:dateline[1]"
+                        node-type="attribute" target="rendition">
+                        <!-- <value-of select="'#left'"/> -->
+                    </sqf:add>
+                    <sqf:delete match="."/>
                 </sqf:fix>
+
             </sqf:group>
         </rule>
+
+        <!-- For Documents and Attachments without `date`, Look for Unencoded Dates in Postscripts -->
         <rule
             context="tei:postscript[not(parent::tei:div[attribute::subtype = ('editorial-note', 'errata')]) and not(parent::tei:div[descendant::tei:date]) and not(parent::frus:attachment[descendant::tei:date]) and not(parent::tei:quote)]">
             <assert role="info"
