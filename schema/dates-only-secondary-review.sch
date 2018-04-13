@@ -2,15 +2,18 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt3"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
-    xmlns:xi="http://www.w3.org/2001/XInclude"
-    xmlns:functx="http://www.functx.com">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:functx="http://www.functx.com"
+    xmlns:historyatstate="https://history.state.gov/historyatstate">
     <title>FRUS TEI Rules - Date Rules</title>
 
-    <p>This schematron file contains only the date-related rules from frus.sch.</p>
+    <p>This schematron file contains date-related rules from and augmenting frus.sch. This current
+        version is geared towards secondary-review of legacy volumes.</p>
 
     <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
     <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
     <ns prefix="xml" uri="http://www.w3.org/XML/1998/namespace"/>
+    <ns prefix="xi" uri="http://www.w3.org/2001/XInclude"/>
+    <ns prefix="historyatstate" uri="https://history.state.gov/historyatstate"/>
 
     <let name="category-ids" value="//tei:category/@xml:id"/>
 
@@ -265,6 +268,40 @@
                 dateline/date.</assert>
         </rule>
 
+        <!-- For Dates without Attributes -->
+        <rule context="tei:date[not(attribute::*)]">
+            <assert role="warn"
+                test="not(.[matches(., '(the\s+)?(\d{1,2})(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])"
+                sqf:fix="add-when-attribute">This &lt;date&gt; contains a date phrase that could be
+                used for @when.</assert>
+            <assert role="warn"
+                test="not(.[matches(., '(le\s+)?\d{1,2}(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+\d{4}|((janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+\d{1,2}(eme|ème|re)?,?\s+\d{4})')])"
+                sqf:fix="add-when-attribute">This &lt;date&gt; contains a French-language date
+                phrase that could be used for @when.</assert>
+            <assert role="warn"
+                test="not(.[matches(., '(el\s+)?\d{1,2}\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?\d{4}|((enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)\s+\d{1,2},?\s+\d{4})')])"
+                sqf:fix="add-when-attribute">This &lt;date&gt; contains a Spanish-language date
+                phrase that could be used for @when.</assert>
+            <let name="date-match"
+                value="analyze-string(., '((\d{1,2}(d|nd|rd|st|th)*\s+(January|February|March|April|May|June|July|August|September|October|November|December),*\s+\d{4})|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(d|nd|rd|st|th)*,*\s+\d{4}))', 'i')"/>
+            <let name="date-match-1" value="data($date-match/match)[1]"/>
+            <let name="year" value="analyze-string($date-match-1, '\d{4}$')/match"/>
+            <sqf:fix id="add-when-attribute">
+                <sqf:description>
+                    <sqf:title>Add when &lt;attribute&gt; to &lt;date&gt;</sqf:title>
+                </sqf:description>
+                <sqf:add match="." node-type="attribute" target="when"
+                    select="frus:date-regex-english($date-match)"/>
+            </sqf:fix>
+        </rule>
+
+        <!-- For Unencoded PlaceNames in Datelines -->
+        <rule context="tei:dateline[not(descendant::tei:placeName)]">
+            <assert role="info" test=".[not(matches(., 'Quito'))]">This dateline contains a
+                candidate for &lt;placeName&gt;.</assert>
+        </rule>
+
+
         <!-- For Documents and Attachments without `date`, Look for Unencoded Dates in Last Paragraphs -->
         <rule
             context="(tei:div[attribute::subtype eq 'historical-document'] | frus:attachment)[not(descendant::tei:date) and not(descendant::tei:quote)]/tei:p[position() = last()]">
@@ -316,15 +353,13 @@
                             <sqf:copy-of select="$last-paragraph-content"/>
                         </dateline><lb xmlns="http://www.tei-c.org/ns/1.0"/>
                     </sqf:add>
-                    <sqf:add match="./following-sibling::tei:closer/tei:dateline[1]"
-                        node-type="attribute" target="rendition">
-                        <!-- <value-of select="'#left'"/> -->
-                    </sqf:add>
                     <sqf:delete match="."/>
                 </sqf:fix>
 
             </sqf:group>
         </rule>
+
+
 
         <!-- For Documents and Attachments without `date`, Look for Unencoded Dates in Postscripts -->
         <rule
@@ -348,11 +383,12 @@
             <sqf:group id="fix-date-in-postscript">
 
                 <!-- Postscript: Fix 1 -->
-                <sqf:fix id="convert-postscript-to-closer-dateline">
+                <sqf:fix id="convert-postscript-to-new-closer-dateline">
                     <sqf:description>
-                        <sqf:title>Convert postscript to closer/dateline</sqf:title>
-                        <sqf:p>Convert &lt;postscript&gt; to &lt;closer/dateline&gt; in the current
-                            document; retain node content</sqf:p>
+                        <sqf:title>Convert &lt;postscript&gt; to new
+                            &lt;closer/dateline&gt;</sqf:title>
+                        <sqf:p>Convert &lt;postscript&gt; to new &lt;closer/dateline&gt; in the
+                            current document; retain node content</sqf:p>
                     </sqf:description>
                     <sqf:replace use-when="." node-type="element" target="tei:closer">
                         <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
@@ -361,28 +397,40 @@
                     </sqf:replace>
                 </sqf:fix>
 
-
                 <!-- Postscript: Fix 2 -->
-                <!--
-            <sqf:fix id="add-dateline-in-existing-closer">
-                <sqf:description>
-                    <sqf:title>Add postscript content as `dateline` in new
-                        `closer`</sqf:title>
-                    <sqf:p>Add &lt;postscript&gt; content as `dateline` in new &lt;closer&gt;;
-                        retain node content</sqf:p>
-                </sqf:description>
-                <sqf:add node-type="element" target="tei:closer" position="after">
-                    <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
-                        <sqf:copy-of select="$last-paragraph-content"/>
-                    </dateline><lb xmlns="http://www.tei-c.org/ns/1.0"/>
-                </sqf:add>
-                <sqf:add match="./following-sibling::tei:closer/tei:dateline[1]"
-                    node-type="attribute" target="rendition">
-                    <value-of select="'#left'"/>
-                </sqf:add>
-                <sqf:delete match="."/>
-            </sqf:fix>
-            -->
+                <sqf:fix id="convert-postscript-to-dateline-in-following-closer">
+                    <sqf:description>
+                        <sqf:title>Convert &lt;postscript&gt; to &lt;dateline&gt; in the following
+                            &lt;closer&gt;</sqf:title>
+                        <sqf:p>Convert &lt;postscript&gt; to &lt;dateline&gt; in the preceding
+                            &lt;closer&gt; in the current document; retain node content</sqf:p>
+                    </sqf:description>
+                    <sqf:add use-when=".[following-sibling::tei:closer]"
+                        match="./following-sibling::tei:closer" position="first-child">
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
+                            <sqf:copy-of select="$postscript-content"/>
+                        </dateline><lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                    </sqf:add>
+                    <sqf:delete match="."/>
+                </sqf:fix>
+
+                <!-- Postscript: Fix 3 -->
+                <sqf:fix id="convert-postscript-to-dateline-in-preceding-closer">
+                    <sqf:description>
+                        <sqf:title>Convert &lt;postscript&gt; to &lt;dateline&gt; in the preceding
+                            &lt;closer&gt;</sqf:title>
+                        <sqf:p>Convert &lt;postscript&gt; to &lt;dateline&gt; in the preceding
+                            &lt;closer&gt; in the current document; retain node content</sqf:p>
+                    </sqf:description>
+                    <sqf:add use-when=".[preceding-sibling::tei:closer]"
+                        match="./preceding-sibling::tei:closer" position="last-child">
+                        <lb xmlns="http://www.tei-c.org/ns/1.0"/><dateline
+                            xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
+                            <sqf:copy-of select="$postscript-content"/>
+                        </dateline>
+                    </sqf:add>
+                    <sqf:delete match="."/>
+                </sqf:fix>
 
             </sqf:group>
 
@@ -470,6 +518,32 @@
                 return
                     ($year mod 4 = 0 and $year mod 100 != 0) or $year mod 400 = 0"/>
 
+    </xsl:function>
+
+    <xsl:function name="frus:date-regex-english" as="xs:anyAtomicType?">
+        <xsl:param name="date-element" as="xs:anyAtomicType?"/>
+
+        <xsl:choose>
+            <xsl:when
+                test="matches($date-element, '((\d{1,2}(d|nd|rd|st|th)*\s+(January|February|March|April|May|June|July|August|September|October|November|December),*\s+\d{4})|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(d|nd|rd|st|th)*,*\s+\d{4}))', 'i')">
+                <xsl:for-each
+                    select="analyze-string(string($date-element), '((\d{1,2}(d|nd|rd|st|th)*\s+(January|February|March|April|May|June|July|August|September|October|November|December),*\s+\d{4})|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(d|nd|rd|st|th)*,*\s+\d{4}))', 'i')">
+
+
+                    <!-- Work in progress, dummy content -->
+                    <year>
+                        <value-of select="analyze-string(., '\d{4}$')/fn:match"/>
+                    </year>
+                </xsl:for-each>
+
+            </xsl:when>
+            <xsl:otherwise>
+
+                <!-- Work in progress, dummy content -->
+                <value-of select="9999"/>
+            </xsl:otherwise>
+
+        </xsl:choose>
     </xsl:function>
 
 </schema>
