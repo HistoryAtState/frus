@@ -3,6 +3,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
     xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:functx="http://www.functx.com"
+    xmlns:fn="http://www.w3.org/2005/xpath-functions"
     xmlns:historyatstate="https://history.state.gov/historyatstate">
     <title>FRUS TEI Rules - Date Rules</title>
 
@@ -13,6 +14,8 @@
     <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
     <ns prefix="xml" uri="http://www.w3.org/XML/1998/namespace"/>
     <ns prefix="xi" uri="http://www.w3.org/2001/XInclude"/>
+    <ns prefix="fn" uri="http://www.w3.org/2005/xpath-functions"/>
+    <ns prefix="functx" uri="http://www.functx.com"/>
     <ns prefix="historyatstate" uri="https://history.state.gov/historyatstate"/>
 
     <let name="category-ids" value="//tei:category/@xml:id"/>
@@ -270,34 +273,84 @@
 
         <!-- For Dates without Attributes -->
         <rule context="tei:date[not(attribute::*)]">
+            <!-- dates from/to, in English -->
+            <let name="month-eng"
+                value="('january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december')"/>
+            <let name="month-machine-readable-eng"
+                value="('01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12')"/>
+            
+            <!-- dates from/to, in French -->
+            <let name="month-fr" value="('janvier', 'février', 'fevrier', 'mart', 'avril', 'mai', 'juin', 'juillet', 'août', 'aout', 'septembre', 'octobre', 'novembre', 'décembre', 'decembre')"/>
+            <let name="month-machine-readable-fr"
+                value="('01', '02', '02', '03', '04', '05', '06', '07', '08', '08', '09', '10', '11', '12', '12')"/>
+            
+            <!-- dates from/to, in Spanish -->
+            <let name="month-sp" value="('enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'setiembre', 'octubre', 'noviembre', 'diciembre')"/>
+            <let name="month-machine-readable-eng"
+                value="('01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12')"/>
+
             <assert role="warn"
-                test="not(.[matches(., '(the\s+)?(\d{1,2})(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])"
+                test="not(.[matches(., '(the\s+)?(\d{1,2})(st|d|nd|rd|th)?\s+(of\s+)?(january|february|march|april|may|june|july|august|september|october|november|december),?\s+\d{4}|((january|february|march|april|may|june|july|august|september|october|november|december)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})','i')])"
                 sqf:fix="add-when-attribute">This &lt;date&gt; contains a date phrase that could be
                 used for @when.</assert>
             <assert role="warn"
-                test="not(.[matches(., '(le\s+)?\d{1,2}(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+\d{4}|((janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+\d{1,2}(eme|ème|re)?,?\s+\d{4})')])"
+                test="not(.[matches(., '(le\s+)?\d{1,2}(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+\d{4}|((janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+\d{1,2}(eme|ème|re)?,?\s+\d{4})', 'i')])"
                 sqf:fix="add-when-attribute">This &lt;date&gt; contains a French-language date
                 phrase that could be used for @when.</assert>
             <assert role="warn"
-                test="not(.[matches(., '(el\s+)?\d{1,2}\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?\d{4}|((enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)\s+\d{1,2},?\s+\d{4})')])"
+                test="not(.[matches(., '(el\s+)?\d{1,2}\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?\d{4}|((enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)\s+\d{1,2},?\s+\d{4})', 'i')])"
                 sqf:fix="add-when-attribute">This &lt;date&gt; contains a Spanish-language date
                 phrase that could be used for @when.</assert>
-            <let name="date-match"
-                value="analyze-string(., '((\d{1,2}(d|nd|rd|st|th)*\s+(January|February|March|April|May|June|July|August|September|October|November|December),*\s+\d{4})|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(d|nd|rd|st|th)*,*\s+\d{4}))', 'i')"/>
-            <let name="date-match-1" value="data($date-match/match)[1]"/>
-            <let name="year" value="analyze-string($date-match-1, '\d{4}$')/match"/>
-            <sqf:fix id="add-when-attribute">
-                <sqf:description>
-                    <sqf:title>Add when &lt;attribute&gt; to &lt;date&gt;</sqf:title>
-                </sqf:description>
-                <sqf:add match="." node-type="attribute" target="when"
-                    select="frus:date-regex-english($date-match)"/>
-            </sqf:fix>
+
+            <!-- Fix 1: month-day-year-regex-eng -->
+            <sqf:group id="add-when-attribute">
+
+                <sqf:fix
+                    use-when="matches(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)*,?\s+(\d{4}))', 'i')"
+                    id="add-when-attribute-MMDDYYYY-eng">
+                    <let name="date-match"
+                        value="analyze-string(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)*,?\s+(\d{4}))', 'i')"/>
+                    <let name="date-match-1" value="$date-match/fn:match[1]"/>
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '2']"/>
+                    <let name="month-digit"
+                        value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
+                    <let name="date"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
+                    <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
+                    <sqf:description>
+                        <sqf:title>Add when &lt;attribute&gt; to &lt;date&gt;</sqf:title>
+                    </sqf:description>
+                    <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                </sqf:fix>
+
+                <!-- Fix 2: day-month-year-regex-eng -->
+                <!-- Work-in-progress -->
+                <sqf:fix
+                    use-when="matches(., '(the\s+)?(\d{1,2}(d|nd|rd|st|th)*\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4}))', 'i')"
+                    id="add-when-attribute-DDMMYYYY-eng">
+                    <let name="date-match"
+                        value="analyze-string(., '(the\s+)?(\d{1,2}(d|nd|rd|st|th)*\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4}))', 'i')"/>
+                    <let name="date-match-1" value="$date-match/fn:match[1]"/>
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
+                    <let name="month-digit"
+                        value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
+                    <let name="date"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '1'], '00')"/>
+                    <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
+                    <sqf:description>
+                        <sqf:title>Add when &lt;attribute&gt; to &lt;date&gt;</sqf:title>
+                    </sqf:description>
+                    <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                </sqf:fix>
+            </sqf:group>
         </rule>
 
         <!-- For Unencoded PlaceNames in Datelines -->
         <rule context="tei:dateline[not(descendant::tei:placeName)]">
-            <assert role="info" test=".[not(matches(., 'Quito'))]">This dateline contains a
+            <!-- TODO: Add cities from normalized harvested list -->
+            <assert role="info" test=".[not(matches(., '(Athens|Quito|Rome)'))]">This dateline contains a
                 candidate for &lt;placeName&gt;.</assert>
         </rule>
 
@@ -310,7 +363,7 @@
             <let name="line-break" value="element(tei:lb)"/>
             <let name="closer-dateline" value="element(tei:closer)/element(tei:dateline)"/>
             <assert role="info"
-                test="not(.[matches(., '(the\s+)?\d{1,2}(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])"
+                test="not(.[matches(., '(the\s+)?\d{1,2}(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4})|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])"
                 sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraph possibly contains an
                 unencoded dateline/date.</assert>
             <assert role="info"
@@ -358,8 +411,6 @@
 
             </sqf:group>
         </rule>
-
-
 
         <!-- For Documents and Attachments without `date`, Look for Unencoded Dates in Postscripts -->
         <rule
@@ -520,20 +571,46 @@
 
     </xsl:function>
 
+    <xsl:function name="functx:if-absent" as="item()*" xmlns:functx="http://www.functx.com">
+        <xsl:param name="arg" as="item()*"/>
+        <xsl:param name="value" as="item()*"/>
+
+        <xsl:sequence
+            select="
+                if (exists($arg)) then
+                    $arg
+                else
+                    $value"/>
+
+    </xsl:function>
+
+    <xsl:function name="functx:replace-multi" as="xs:string?" xmlns:functx="http://www.functx.com">
+        <xsl:param name="arg" as="xs:string?"/>
+        <xsl:param name="changeFrom" as="xs:string*"/>
+        <xsl:param name="changeTo" as="xs:string*"/>
+
+        <xsl:sequence
+            select="
+                if (count($changeFrom) > 0) then
+                    functx:replace-multi(replace($arg, $changeFrom[1], functx:if-absent($changeTo[1], '')), $changeFrom[position() > 1], $changeTo[position() > 1])
+                else
+                    $arg"/>
+
+    </xsl:function>
+
     <xsl:function name="frus:date-regex-english" as="xs:anyAtomicType?">
         <xsl:param name="date-element" as="xs:anyAtomicType?"/>
 
         <xsl:choose>
             <xsl:when
-                test="matches($date-element, '((\d{1,2}(d|nd|rd|st|th)*\s+(January|February|March|April|May|June|July|August|September|October|November|December),*\s+\d{4})|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(d|nd|rd|st|th)*,*\s+\d{4}))', 'i')">
+                test="matches($date-element, '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)*,*\s+(\d{4}))', 'i')">
                 <xsl:for-each
-                    select="analyze-string(string($date-element), '((\d{1,2}(d|nd|rd|st|th)*\s+(January|February|March|April|May|June|July|August|September|October|November|December),*\s+\d{4})|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(d|nd|rd|st|th)*,*\s+\d{4}))', 'i')">
+                    select="analyze-string($date-element, '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)*,*\s+(\d{4}))', 'i')/fn:match">
 
 
                     <!-- Work in progress, dummy content -->
-                    <year>
-                        <value-of select="analyze-string(., '\d{4}$')/fn:match"/>
-                    </year>
+                    <value-of select="serialize(.)"/>
+
                 </xsl:for-each>
 
             </xsl:when>
