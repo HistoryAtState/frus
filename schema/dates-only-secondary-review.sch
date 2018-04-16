@@ -272,42 +272,92 @@
         </rule>
 
         <!-- For Dates without Attributes -->
-        <rule context="tei:date[not(attribute::*)]">
+        <rule context="tei:date[not(@when | @from | @to | @notBefore | @notAfter)]">
             <!-- dates from/to, in English -->
             <let name="month-eng"
                 value="('january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december')"/>
             <let name="month-machine-readable-eng"
                 value="('01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12')"/>
-            
+
             <!-- dates from/to, in French -->
-            <let name="month-fr" value="('janvier', 'février', 'fevrier', 'mart', 'avril', 'mai', 'juin', 'juillet', 'août', 'aout', 'septembre', 'octobre', 'novembre', 'décembre', 'decembre')"/>
+            <let name="month-fr"
+                value="('janvier', 'février', 'fevrier', 'mart', 'avril', 'mai', 'juin', 'juillet', 'août', 'aout', 'septembre', 'octobre', 'novembre', 'décembre', 'decembre')"/>
             <let name="month-machine-readable-fr"
                 value="('01', '02', '02', '03', '04', '05', '06', '07', '08', '08', '09', '10', '11', '12', '12')"/>
-            
+
             <!-- dates from/to, in Spanish -->
-            <let name="month-sp" value="('enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'setiembre', 'octubre', 'noviembre', 'diciembre')"/>
-            <let name="month-machine-readable-eng"
+            <let name="month-sp"
+                value="('enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'setiembre', 'octubre', 'noviembre', 'diciembre')"/>
+            <let name="month-machine-readable-sp"
                 value="('01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12')"/>
 
             <assert role="warn"
-                test="not(.[matches(., '(the\s+)?(\d{1,2})(st|d|nd|rd|th)?\s+(of\s+)?(january|february|march|april|may|june|july|august|september|october|november|december),?\s+\d{4}|((january|february|march|april|may|june|july|august|september|october|november|december)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})','i')])"
+                test="not(.[matches(., '(the\s+)?(\d{1,2})(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+\d{4}|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})', 'i')])"
                 sqf:fix="add-when-attribute">This &lt;date&gt; contains a date phrase that could be
                 used for @when.</assert>
+
+            <!-- (the\s+)?(\d{1,2})(st|d|nd|rd|th)?\s+(of\s+)?(january|february|march|april|may|june|july|august|september|october|november|december),?\s+\d{4}| -->
+
             <assert role="warn"
-                test="not(.[matches(., '(le\s+)?\d{1,2}(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+\d{4}|((janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+\d{1,2}(eme|ème|re)?,?\s+\d{4})', 'i')])"
+                test="not(.[matches(., '(le\s+)?\d{1,2}(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+\d{4}', 'i')])"
                 sqf:fix="add-when-attribute">This &lt;date&gt; contains a French-language date
                 phrase that could be used for @when.</assert>
+
             <assert role="warn"
-                test="not(.[matches(., '(el\s+)?\d{1,2}\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?\d{4}|((enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)\s+\d{1,2},?\s+\d{4})', 'i')])"
+                test="not(.[matches(., '((el\s+)?(\d{1,2})\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?(\d{4}))', 'i')])"
                 sqf:fix="add-when-attribute">This &lt;date&gt; contains a Spanish-language date
                 phrase that could be used for @when.</assert>
 
-            <!-- Fix 1: month-day-year-regex-eng -->
             <sqf:group id="add-when-attribute">
 
+                <!-- Fix 1: month-day-year-regex-eng -->
+                <sqf:fix
+                    use-when="matches(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)?,?\s+(\d{4}))', 'i')"
+                    id="add-when-attribute-MMDDYYYY-eng">
+                    <let name="date-match"
+                        value="analyze-string(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)?,?\s+(\d{4}))', 'i')"/>
+                    <let name="date-match-1" value="$date-match/fn:match[1]"/>
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '2']"/>
+                    <let name="month-digit"
+                        value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
+                    <let name="date"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
+                    <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
+                    <sqf:description>
+                        <sqf:title>Add when &lt;attribute&gt; to &lt;date&gt;</sqf:title>
+                    </sqf:description>
+                    <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                </sqf:fix>
+
+
+                <!-- Fix 2: day-month-year-regex-eng -->
+
+                <sqf:fix
+                    use-when="matches(., '((the\s+)?(\d{1,2})(d|nd|rd|st|th)?(\s+of)?\s+?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4}))', 'i')"
+                    id="add-when-attribute-DDMMYYYY-eng">
+                    <let name="date-match"
+                        value="analyze-string(., '((the\s+)?(\d{1,2})(d|nd|rd|st|th)?(\s+of)?\s+?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4}))', 'i')"/>
+                    <let name="date-match-1" value="$date-match/fn:match[1]"/>
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '7']"/>
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
+                    <let name="month-digit"
+                        value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
+                    <let name="date"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
+                    <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
+                    <sqf:description>
+                        <sqf:title>Add when &lt;attribute&gt; to &lt;date&gt;</sqf:title>
+                    </sqf:description>
+                    <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                </sqf:fix>
+
+
+                <!-- Fix 3: month-day-range-year-regex-eng -->
+                <!--
                 <sqf:fix
                     use-when="matches(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)*,?\s+(\d{4}))', 'i')"
-                    id="add-when-attribute-MMDDYYYY-eng">
+                    id="add-when-attribute-MMDDDDYYYY-eng">
                     <let name="date-match"
                         value="analyze-string(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)*,?\s+(\d{4}))', 'i')"/>
                     <let name="date-match-1" value="$date-match/fn:match[1]"/>
@@ -323,35 +373,63 @@
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
                 </sqf:fix>
+                -->
 
-                <!-- Fix 2: day-month-year-regex-eng -->
-                <!-- Work-in-progress -->
+
+                <!-- Fix 4: month-day-year-regex-fr -->
+
                 <sqf:fix
-                    use-when="matches(., '(the\s+)?(\d{1,2}(d|nd|rd|st|th)*\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4}))', 'i')"
-                    id="add-when-attribute-DDMMYYYY-eng">
+                    use-when="matches(., '((le\s+)?(\d{1,2})(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+(\d{4}))', 'i')"
+                    id="add-when-attribute-MMDDYYYY-fr">
                     <let name="date-match"
-                        value="analyze-string(., '(the\s+)?(\d{1,2}(d|nd|rd|st|th)*\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4}))', 'i')"/>
+                        value="analyze-string(., '((le\s+)?(\d{1,2})(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+(\d{4}))', 'i')"/>
                     <let name="date-match-1" value="$date-match/fn:match[1]"/>
-                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
-                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '7']"/>
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
                     <let name="month-digit"
-                        value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
+                        value="functx:replace-multi(lower-case($month), $month-fr, $month-machine-readable-fr)"/>
                     <let name="date"
-                        value="format-number($date-match-1//fn:group[attribute::nr eq '1'], '00')"/>
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
                     <sqf:description>
                         <sqf:title>Add when &lt;attribute&gt; to &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
                 </sqf:fix>
+
+
+                <!-- Fix 4: month-day-year-regex-sp -->
+
+                <sqf:fix
+                    use-when="matches(., '((el\s+)?(\d{1,2})\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?(\d{4}))', 'i')"
+                    id="add-when-attribute-MMDDYYYY-sp">
+                    <let name="date-match"
+                        value="analyze-string(., '((el\s+)?(\d{1,2})\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?(\d{4}))', 'i')"/>
+                    <let name="date-match-1" value="$date-match/fn:match[1]"/>
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '9']"/>
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
+                    <let name="month-digit"
+                        value="functx:replace-multi(lower-case($month), $month-sp, $month-machine-readable-sp)"/>
+                    <let name="date"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
+                    
+                    <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
+                    <sqf:description>
+                        <sqf:title>Add when &lt;attribute&gt; to &lt;date&gt;</sqf:title>
+                    </sqf:description>
+                    <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                </sqf:fix>
+
             </sqf:group>
         </rule>
 
         <!-- For Unencoded PlaceNames in Datelines -->
         <rule context="tei:dateline[not(descendant::tei:placeName)]">
-            <!-- TODO: Add cities from normalized harvested list -->
-            <assert role="info" test=".[not(matches(., '(Athens|Quito|Rome)'))]">This dateline contains a
-                candidate for &lt;placeName&gt;.</assert>
+
+            <assert role="info"
+                test=".[not(matches(., '(Aarhus|Aberdeen|Abidjan|Abo|Abu Dhabi|Abuja|Acajutla|Acapulco|Accra|Adana|Addis Ababa|Adelaide|Aden|Adrianople|Aegean Sea Islands|Agua Prieta|Aguadilla|Aguas Calientes|Aguatulco|Aintab|Aix La Chapelle|Akyab|Alamos|Albany|Albert Town|Aleppo|Alexandretta|Alexandria|Algeciras|Algiers|Algoma|Alicante|Almaty|Almeria|Almirante|Altata|Altona|Alvouro Obregon|Amapala|Amherstburg|Amiens|Amman|Amoor River|Amoy|Ampala|Amsterdam|Ancona|Andorra|Andorra la Vella|Angers|Ankara|Antananarivo|Antilla|Antioch|Antofagasta|Antung|Antwerp|Apia|Aquin|Aracaju|Archangel|Arecibo|Arendal|Arequipa|Arica|Arnprior|Aruba|Ashgabat|Asmara|Aspinwall|Assioot|Assouan|Astana|Asuncion|Athens|Athlone|Auckland|Augsburg|Aux Cayes|Aveiro|Avlona|Ayamonte|Babelsberg|Baden-Baden|Baghdad|Bahia|Bahia Blanca|Bahia de Caraqeuz|Baida|Baku|Ballina|Ballymena|Bamako|Bamberg|Bandar Seri Begawan|Banes|Bangalore|Bangkok|Bangui|Banja Luca|Banjul|Baracoa|Barcelona|Bari|Barmen|Barnsley|Barranquilla|Barrie|Basel|Basrah|Bassein|Basseterre|Bassorah|Batavian Republic|Batopilas|Batum|Bay of Islands|Bayonne|Beaumaris|Beijing|Beirut|Belem|Belfast|Belgrade|Belize City|Belleville|Bello Horizonte|Belmopan|Benghazi|Beni Saf|Benisouef|Bergen|Berlin|Bern|Biarritz|Bien Hoa|Bilboa|Birmingham|Bishkek|Bissau|Bizerta|Black River|Bloemfontein|Bluefields|Bocas del Toro|Bogota|Boguillas|Bologna|Boma|Bonacca|Bone-Bona|Bonn|Boodroom|Bordeaux|Boulogne|Bradford|Brake|Brantford|Brasilia|Bratislava|Brazoria|Brazzaville|Bremen|Bremerhaven|Breslau|Brest|Bridgetown|Brindisi|Brisbane|Bristol|Brockville|Brousa|Brunn|Brussels|Bucharest|Budapest|Buenaventura|Buenos Aires|Bujumbura|Bukavu|Burslem|Burtscheid|Busan|Cadiz|Cagliari|Caibarien|Caimanera|Cairo|Calais|Caldera|Calgary|Cali|Callao|Camaguey|Camargo|Camp David|Campbellton|Campeachy|Can Tho|Cananea|Canberra|Candia|Cannes|Canton|Cape Gracias a Dios|Cape Haitien|Cape Palmas|Cape Town|Capri|Caracas|Cardenas|Cardiff|Carini|Caripito|Carleton|Carlisle|Carlsruhe|Carrara|Carril|Cartagena|Carthagena|Carupano|Casablanca|Cassel|Castellamare|Castries|Catania|Caudry|Cayenne|Ceara|Cebu|Cephalonia Island|Cerro de Pasco|Cette|Ceuta|Champerico|Chanaral|Changchun|Changsha|Charleroi|Chatham|Chaux-de-fonds|Chefoo|Chengdu|Chennai|Cherbourg|Chiang Mai|Chiclayo|Chicoutimi|Chihuahua|Chimbote|Chinanfu|Chinkiang|Chisinau|Chittagong|Christchurch|Christiansand|Chungking|Chunking|Chuquicamata|Cienfuegos|Ciudad Bolivar|Ciudad Del Carmen|Ciudad Juarez|Ciudad Obregon|Ciudad Porfirio Diaz|Ciudad Trujillo|Civita Vecchia|Clarenceville|Clifton|Clinton|Cluj-Napoca|Coatzacoalcos|Cobh|Coblentz|Coburg|Cochabamba|Cochin|Coconada|Cognac|Collingwood|Collo|Cologne|Colombo|Colon|Colonia|Comayagua|Conakry|Concepcion|Concepcion Del Oro|Constantine|Copalquin|Copenhagen|Coquimbo|Corcubion|Cordoba|Corfu|Corinto|Cork|Corn Island|Cornwall|Cornwallis|Coro|Coronel|Corunna|Coteau|Cotonou|Courtwright|Crefeld|Cronstadt|Cruz Grande|Cumana|Curacao|Curitiba|Curityba|Cuxhaven|Daiguiri|Dairen|Dakar|Damascus|Damietta|Danang|Danzig|Dar es Salaam|Dardanelles|Dartmouth|Denia|Derby|Deseronto|Desterro|Dhahran|Dhaka|Dieppe|Dijon|Dili|Djibouti|Doha|Douala|Dover|Dresden|Duart|Dubai|Dublin|Dundee|Dunedin|Dunfermline|Dunkirk|Dunmore Town|Durango|Durban|Dushanbe|Dyreford|Düsseldorf|East London|Edinburgh|Edmonton|Eibenstock|El Jadida|Elizabethville|Elsinore|Emden|Emerson|Ensenada|Enugu|Erbil|Erfurt|Erie|Erzerum|Esbjerg|Esmeraldas|Essaouira|Essen|Eten|Fajardo|Falmouth|Farnham|Faro|Fayal|Ferrol|Fiume|Florence|Flores|Florianopolis|Flushing|Foochow|Fort Erie|Fort William and Port Authur|Fortaleza|Foynes|Frankfurt|Fredericia|Fredericton|Freetown|Frelighsburg|Frieburg|Frontera|Fukuoka|Funchal|Furth|Gaborone|Galashiels|Galliod|Gallipoli|Galt|Galveston|Galway|Gananoque|Garita Gonzales|Garrucha|Gaspe|Gdansk|Geestemunde|Gefle|Geneva|Genoa|Georgetown|Gera|Ghent|Gibara|Gibraltar|Gijon|Gioja|Girgeh|Girgenti|Glasgow|Glauchau|Gloucester|Goderich|Godthaab|Golfito|Gonaives|Gore Bay|Gothenburg|Governor’s Harbor|Graciosa|Granada|Grand Bassa|Grao|Green Turtle Cay|Greenock|Grenoble|Grenville|Guadalajara|Guadalupe Y Calvo|Guanajuato|Guangzhou|Guantanamo|Guatemala|Ciudad de Guatemala|Guatemala City|Guayama|Guayaquil|Guaymas|Guazacualco|Guben|Guelph|Guernsey|Guerrero|Haida|Haifa|Hakodate|Halifax|Halsingborg|Hamburg|Hamilton|Hammerfest|Hangchow|Hankow|Hanoi|Hanover|Harare|Harbin|Harburg|Harput|Hartlepool|Habana|Havana|Havre|Havre De Grace|Helder|Helsingborg|Helsinki|Hemmingford|Herat|Hermosillo|Hesse Cassel|Hesse Darmstadt|Hilo|Hinchenbrooke|Ho Chi Minh City|Holy See|Holyhead|Homs|Honda|Honfleur|Hong Kong|Honiara|Honolulu|Hoochelaga and Longeuil|Horgen|Horta|Huangpu|Huddersfield|Hue|Huelva|Hull|Huntington|Hyde Park|Hyderabad|Ibadan|Ichang|Ile De Re|Ilo|Innsbruck|Iquique|Iquitos|Isfahan|Iskenderun|Islamabad|Isle of Wight|Ismaila|Istanbul|Ivica|Izmir|Jacmel|Jaffa|Jaffna|Jakarta|Jalapa|Jeddah|Jeremie|Jeres de la Frontera|Jerusalem|Johannesburg|Juba|Kabul|Kaduna|Kahului|Kalamata|Kalgan|Kampala|Kanagawa|Karachi|Kathmandu|Kehl|Keneh|Kenora|Khartoum|Khorramshahr|Kidderminster|Kiev|Kigali|Kingston|Kingston upon Hull|Kingstown|Kinshasa|Kirkaldy|Kirkuk|Kisangani|Kishinev|Kiu Kiang|Kobe|Kolding|Kolkata|Kolonia|Konigsberg|Koror|Kovno|Krakow|Kuala Lumpur|Kuching|Kunming|Kuwait City|Kweilin|Kyiv|La Ceiba|La Guaira|La Oroya|La Paz|La Rochelle|La Romana|Lachine|Lacolle|Lagos|Laguna De Terminos|Lahore|Lambayeque|Langen Schwalbach|Laraiche and Asilah|Latakia|Lausanne|Lauthala|Leeds|Leghorn|Leicester|Leige|Leipzig|Leith|Leningrad|Leone|Lethbridge|Levis|Levuka|Libau|Libreville|Lille|Lilongwe|Lima|Limassol|Limerick|Limoges|Lindsay|Lisbon|Liverpool|Livingston|Ljubljana|Llanelly|Lobos|Lodz|Lome|Londenderry|London|Londonderry|Los Mochis|Luanda|Lubeck|Lucerne|Lugano|Luneburg|Lurgan|Lusaka|Luxembourg|Luxor|Lyon|Macau|Maceio|Madras|Madrid|Magallanes|Magdalen Islands|Magdalena|Magdeburg|Mahukona|Mainz|Majuro|Malabo|Malaga|Maldives|Male|Malmo|Malta|Managua|Manama|Manaos|Manaus|Manchester|Mandalay|Manila|Mannheim|Mansurah|Manta|Manzanillo|Maputo|Maracaibo|Maranhao|Marash|Markneukirchen|Marseille|Maseru|Matagalpa|Matagorda|Matamoros|Matanzas|Matthew Town|Mayaguez|Mazar-e-Sharif|Mazatlan|Mbabana|Mbabane|Medan|Medellin|Melbourne|Melekeok|Melilla|Mendoza|Mentone|Merida|Mersine|Meshed|Messina|Mexicali|Mexico City|Mexico, D. F.|México, D. F.|Midland|Mier|Milan|Milazzo|Milford Haven|Milk River|Minatitlan|Minich|Minsk|Miragoane|Mogadishu|Mollendo|Mombasa|Monaco|Monganui|Monrovia|Montego Bay|Monterrey|Montevideo|Montreal|Morelia|Morlaix|Moroni|Morpeth|Morrisburgh|Moscow|Mostar|Moulmein|Mukden|Mulhausen|Mumbai|Munich|Murree|Muscat|Nacaome|Nagasaki|Nagoya|Naguabo|Naha, Okinawa|Nairobi|Nancy|Nanking|Nantes|Napanee|Naples|Nassau|Natal|Neustadt|New Delhi|New York|Newcastle|Newchwang|Newport|Newry|Nha Trang|Niagara Falls|Niamey|Nice|Nicosia|Niewediep|Ningpo|Nogales|Norrkoping|North Bay|Nottingham|Nouakchott|Nuevitas|Nuevo Laredo|Nukualofa|Nuku’alofa|Nuremberg|Nuuk|N’Djamena|N’Djamena|Oaxaca|Ocean Falls|Ocos|Odense|Odessa|Old Harbor|Omoa|Omsk|Oporto|Oran|Orillia|Oruro|Osaka|Oshawa|Oslo|Otranto|Ottawa|Ouagadougou|Owen Sound|Pago Pago|Paita|Palamos|Palermo|Palikir|Palma de Mallorca|Panamá|Panama|Panama City|Pará|Paraiba|Paramaribo|Paris|Parral|Parry Sound|Paso Del Norte|Paspebiac|Patras|Pau|Paysandu|Peiping|Peking|Penang|Penedo|Perigueux|Pernambuco|Perth|Peshawar|Pesth|Peterborough|Petit Goave|Petrograd|Phnom Penh|Picton|Piedras Negras|Piraeus|Piura|Plauen|Plymouth|Podgorica|Point De Galle|Point Levi|Ponce|Ponta Delgada, Azores|Porsgrund|Port Antonio|Port Arthur|Port Elizabeth|Port Hope|Port Limon|Port Louis|Port Maria|Port Morant|Port Moresby|Port Rowan|Port Said|Port St. Mary’s|Port Stanley|Port Vila|Port au Prince|Port de Paix|Port of Marbella|Port of Spain|Port-au-Prince|Porto Alegre|Porto Novo|Portsmouth|Potosi|Potsdam|Poznan|Pozzuoli|Prague|Praha|Praia|Prescott|Pretoria|Prince Rupert|Pristina|Progreso|Puebla|Puerto Armuelles|Puerto Barrios|Puerto Bello|Puerto Cabello|Puerto Cabezas|Puerto La Cruz|Puerto Libertador|Puerto Mexico|Puerto Perez|Puerto Plata|Puerto Principe|Puerto Vallarta|Punta Arenas|Puntarenas|Pyongyang|Quebec|Quepos|Quezaltenango|Quito|Rabat|Rangoon|Ravenna|Rawalpindi|Recife|Redditch|Reggio|Regina|Reichenberg|Rennes|Reval|Reykjavik|Reynosa|Rheims|Rhenish|Ribe|Riga|Rio Bueno|Rio Grande Do Sul|Rio Hacha|Rio de Janeiro|Ritzebuttel|Riviere Du Loup|Riyadh|Rochefort|Rodi Garganico|Rome|Rosario|Roseau|Rostoff|Rotterdam|Roubaix|Rouen|Ruatan|Rustchuk|Sabanilla|Sabine|Safi|Sagua La Granda|Saigon|Saint George’s|Saint John’s|Salango|Salaverry|Salerno|Salina Cruz|Salonika|Saltillo|Salvador|Salzburg|Samana|San Andres|San Antonio|San Benito|San Cristobal|San Felin de Guxols|San Francisco|San Jose|San José|San Juan|San Juan de los Remedios|San Juan del Norte|San Juan del Sur|San Lucar de Barrameda|San Luis Potosi|San Marino|San Pedro Sula|San Pedro de Macoris|San Remo|San Salvador|San Sebastian|Sanaa|Sana’a|Sancti Spiritus|Santa Clara|Santa Cruz|Santa Cruz Point|Santa Fe|Santa Marta|Santa Rosalia|Santander|Santiago|Santiago de Los Caballeros|Santo Domingo|Santos|Sao Tome|Sapporo|Sarajevo|Sarnia|Sault Ste. Marie|Savannah La Mar|Schiedam|Sedan|Seoul|Setubal|Seville|Seychelles|Shanghai|Sheffield|Shenyang|Sherbrooke|Shimonoseki|Shiraz|Sidon|Sierra Mojada|Simoda|Simonstown|Singapore|Sivas|Skopje|Sligo|Smith’s Falls|Sofia|Sohag|Solingen|Songkhla|Sonneberg|Sorau|Sorrento|Southampton|Spezzia|St. Andero|St. Ann’s Bay|St. Catherines|St. Etienne|St. Eustatius|St. Gall|St. George|St. George’s|St. Helen’s|St. John|St. Johns|St. Leonards|St. Malo|St. Marc|St. Michael’s|St. Nazaire|St. Petersburg|St. Salvador|St. Stephen|Stanbridge|Stanleyville|Stanstead Junction|Stavanger|Stettin|Stockholm|Stoke on Trent|Strasbourg|Stratford|Stuttgart|Sudbury|Suez|Sunderland|Sundsvall|Surabaya|Sutton|Suva|Swatow|Swinemunde|Sydney|Syra|São Paulo|Tabasco|Tabriz|Tacna|Taganrog|Taipei|Taiz|Talcahuano|Tallinn|Tamatave|Tampico|Tangier|Tapachula|Taranto|Tarawa Atoll|Tarragona|Tarsus|Tashkent|Tbilisi|Tegucigalpa|Teheran|Tehran|Tehuantepect|Tel Aviv|Tela|Tereira|Tetouan|The Hague|Thessaloniki|Thimphu|Tientsin|Tiflis|Tihwa|Tijuana|Tirana|Tirane|Tlacotalpam|Tocopilla|Tokyo|Topia|Topolobampo|Toronto|Torreon|Torrevieja|Toulon|Toulouse|Tovar|Trapani|Trebizond|Trenton|Trieste|Trinidad|Tripoli|Tromso|Trondhjem|Troon|Troyes|Trujillo|Tsinan|Tsingtao|Tumbes|Tunis|Tunstall|Turin|Tutuila|Tuxpam|Udorn|Ulaanbaatar|Utilla|Vaduz|Vaiaku village|Valdivia|Valencia|Valera|Valletta|Valparaiso|Vancouver|Vardo|Vatican City|Velasco|Venice|Vera Cruz|Verona|Versailles|Verviers|Vevey|Vianna|Viborg|Vichy|Victoria|Vienna|Vientiane|Vigo|Vilnius|Vivero|Vlaardingen|Vladivostok|Volo|Warsaw|Washington|Washington, D.C.|Waterford|Waterloo|Waubaushene|Weimar|Wellington|Weymouth|Whitby|White Horse|Wiarton|Windhoek|Windsor|Wingham|Winnipeg|Winterthur|Wolverhampton|Worcester|Wuhan|Yalta|Yamoussoukro|Yangon|Yaounde|Yekaterinburg|Yenan|Yerevan|Yokkaichi|Yokohama|Yuscaran|Zacatecas|Zagreb|Zante|Zanzibar|Zaza|Zittau|Zomba|Zurich)'))]"
+                >This dateline contains a candidate for &lt;placeName&gt;.</assert>
+
         </rule>
 
 
@@ -372,7 +450,7 @@
                 unencoded French-language dateline/date.</assert>
             <assert role="info"
                 test="not(.[matches(., '(el\s+)?\d{1,2}\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?\d{4}|((enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)\s+\d{1,2},?\s+\d{4})')])"
-                sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraphe possibly contains an
+                sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraph possibly contains an
                 unencoded Spanish-language dateline/date.</assert>
 
             <sqf:group id="fix-date-in-last-paragraph">
@@ -449,23 +527,6 @@
                 </sqf:fix>
 
                 <!-- Postscript: Fix 2 -->
-                <sqf:fix id="convert-postscript-to-dateline-in-following-closer">
-                    <sqf:description>
-                        <sqf:title>Convert &lt;postscript&gt; to &lt;dateline&gt; in the following
-                            &lt;closer&gt;</sqf:title>
-                        <sqf:p>Convert &lt;postscript&gt; to &lt;dateline&gt; in the preceding
-                            &lt;closer&gt; in the current document; retain node content</sqf:p>
-                    </sqf:description>
-                    <sqf:add use-when=".[following-sibling::tei:closer]"
-                        match="./following-sibling::tei:closer" position="first-child">
-                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
-                            <sqf:copy-of select="$postscript-content"/>
-                        </dateline><lb xmlns="http://www.tei-c.org/ns/1.0"/>
-                    </sqf:add>
-                    <sqf:delete match="."/>
-                </sqf:fix>
-
-                <!-- Postscript: Fix 3 -->
                 <sqf:fix id="convert-postscript-to-dateline-in-preceding-closer">
                     <sqf:description>
                         <sqf:title>Convert &lt;postscript&gt; to &lt;dateline&gt; in the preceding
@@ -479,6 +540,23 @@
                             xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
                             <sqf:copy-of select="$postscript-content"/>
                         </dateline>
+                    </sqf:add>
+                    <sqf:delete match="."/>
+                </sqf:fix>
+
+                <!-- Postscript: Fix 3 -->
+                <sqf:fix id="convert-postscript-to-dateline-in-following-closer">
+                    <sqf:description>
+                        <sqf:title>Convert &lt;postscript&gt; to &lt;dateline&gt; in the following
+                            &lt;closer&gt;</sqf:title>
+                        <sqf:p>Convert &lt;postscript&gt; to &lt;dateline&gt; in the preceding
+                            &lt;closer&gt; in the current document; retain node content</sqf:p>
+                    </sqf:description>
+                    <sqf:add use-when=".[following-sibling::tei:closer]"
+                        match="./following-sibling::tei:closer" position="first-child">
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
+                            <sqf:copy-of select="$postscript-content"/>
+                        </dateline><lb xmlns="http://www.tei-c.org/ns/1.0"/>
                     </sqf:add>
                     <sqf:delete match="."/>
                 </sqf:fix>
