@@ -551,9 +551,12 @@
                 <sqf:fix id="convert-postscript-to-dateline-in-preceding-closer">
                     <sqf:description>
                         <sqf:title>Convert &lt;postscript&gt; to &lt;dateline&gt; in the preceding
-                            &lt;closer&gt;</sqf:title>
+                            &lt;closer&gt; [CAUTION: Do not use to convert &lt;postscript&gt; with
+                            additional content (still in development)]</sqf:title>
                         <sqf:p>Convert &lt;postscript&gt; to &lt;dateline&gt; in the preceding
-                            &lt;closer&gt; in the current document; retain node content</sqf:p>
+                            &lt;closer&gt; in the current document; retain node content [CAUTION: Do
+                            not use to convert &lt;postscript&gt; with additional content (still in
+                            development)]</sqf:p>
                     </sqf:description>
                     <sqf:add use-when=".[preceding-sibling::tei:closer]"
                         match="./preceding-sibling::tei:closer" position="last-child">
@@ -569,9 +572,12 @@
                 <sqf:fix id="convert-postscript-to-dateline-in-following-closer">
                     <sqf:description>
                         <sqf:title>Convert &lt;postscript&gt; to &lt;dateline&gt; in the following
-                            &lt;closer&gt;</sqf:title>
+                            &lt;closer&gt; [CAUTION: Do not use to convert &lt;postscript&gt; with
+                            additional content (still in development)]</sqf:title>
                         <sqf:p>Convert &lt;postscript&gt; to &lt;dateline&gt; in the preceding
-                            &lt;closer&gt; in the current document; retain node content</sqf:p>
+                            &lt;closer&gt; in the current document; retain node content [CAUTION: Do
+                            not use to convert &lt;postscript&gt; with additional content (still in
+                            development)]</sqf:p>
                     </sqf:description>
                     <sqf:add use-when=".[following-sibling::tei:closer]"
                         match="./following-sibling::tei:closer" position="first-child">
