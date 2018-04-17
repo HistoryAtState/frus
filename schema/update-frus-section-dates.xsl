@@ -16,7 +16,7 @@
     <!-- Add volumes dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to //front//div[@type="section"] -->
 
     <xsl:template
-        match="tei:front//tei:div[@type = ('section', 'toc')][not(@subtype = 'historical-document')]">
+        match="tei:front//tei:div[@type = 'section'][not(@subtype = 'historical-document')]">
         <xsl:choose>
             <xsl:when test="not(empty($volume-dates-min)) and not(empty($volume-dates-max))">
                 <xsl:choose>
@@ -52,7 +52,7 @@
     <!-- Add volumes dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to //back//div[@type="section"] -->
 
     <xsl:template
-        match="tei:back//tei:div[@type = ('section', 'toc')][not(@subtype = 'historical-document')]">
+        match="tei:back//tei:div[@type = 'section'][not(@subtype = 'historical-document')]">
         <xsl:choose>
             <xsl:when test="not(empty($volume-dates-min)) and not(empty($volume-dates-max))">
                 <xsl:choose>
