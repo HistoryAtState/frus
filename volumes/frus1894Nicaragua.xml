@@ -232,7 +232,8 @@
             </div>
             <pb n="[4]" xml:id="pg_4" facs="0011"/>
             <pb n="5" xml:id="pg_5" facs="0012"/>
-            <div type="toc" xml:id="toc">
+            <div type="toc" xml:id="toc" frus:doc-dateTime-min="1894-01-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1894-12-31T23:59:59-05:00">
                 <head>Table of Contents</head>
                 <table rows="139" cols="5" rend="bordered">
                     <row>
@@ -12997,9 +12998,11 @@
                             Mr. Baker having reference to the Bluefields expedition. It was read to
                             him; he affirms and signs with me and the secretary, who attests: “Juan
                             J. Bodan. R. Mayorga Rivas, Before me, José Ma. Bodan, secretary.”</p>
-                        <p>[<hi rend="smallcaps">l. s.</hi>]</p>
-                        <p>A true copy. Managua, September 27, 1894.</p>
-                        <closer><signed><hi rend="smallcaps">F. Baca</hi>.</signed></closer>
+                        <closer> [<hi rend="smallcaps">l. s.</hi>]<lb/> A true copy. <dateline
+                                rend="inline"><placeName>Managua</placeName>, <date
+                                    when="1894-09-27">September 27, 1894</date>.</dateline><lb/>
+                            <signed><hi rend="smallcaps">F. Baca</hi>.</signed>
+                        </closer>
                     </frus:attachment>
                 </div>
                 <div type="document" xml:id="d117" n="117" subtype="historical-document"

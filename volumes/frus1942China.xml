@@ -156,11 +156,10 @@
                     </signed>
                     <lb/>
                     <hi rend="italic">Editor of Foreign Relations</hi>
-                </closer>
-                <postscript>
-                    <p>
-                        <hi rend="smallcaps">April</hi> 18, 1956.</p>
-                </postscript>
+                    <lb/><dateline rendition="#left">
+                        <date when="1956-04-18"><hi rend="smallcaps">April</hi> 18,
+                        1956</date>.</dateline></closer>
+
             </div>
             <pb n="V" xml:id="pg_V" facs="0009"/>
             <div type="section" subtype="table-of-contents" xml:id="toc"
@@ -8003,11 +8002,10 @@
                             <signed>
                                 <hi rend="smallcaps">John Davies</hi>
                             </signed>
-                        </closer>
-                        <postscript>
-                            <p>
-                                <hi rend="smallcaps">Chungking</hi>, July 31, 1942.</p>
-                        </postscript>
+                            <lb/><dateline rendition="#left">
+                                <placeName><hi rend="smallcaps">Chungking</hi></placeName>, <date
+                                    when="1942-07-31">July 31, 1942</date>.</dateline></closer>
+
                     </frus:attachment>
                 </div>
                 <div type="document" xml:id="d116" n="116" subtype="historical-document"
