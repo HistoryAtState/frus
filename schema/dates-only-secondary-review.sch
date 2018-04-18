@@ -267,12 +267,12 @@
                 >[FYI] This closer possibly contains an unencoded dateline/date.</assert>
 
             <assert role="info"
-                test="not(.[matches(., '((?:(?:the|this)\s+)?(\d{1,2})(?:st|d|nd|rd|th)?\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+((?:one|two)\s+thousand\s+(?:nine|eight)\s+hundred\s+(?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–|\s+)?(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?))', 'i')])"
+                test="not(.[matches(., '((?:(?:the|this)\s+)?(\d{1,2})(?:st|d|nd|rd|th)?\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')])"
                 >[FYI] This closer possibly contains an unencoded dateline/date (with date phrase
                 partially spelled out).</assert>
 
             <assert role="info"
-                test="not(.[matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+((?:one|two)\s+thousand\s+(?:nine|eight)?\s+hundred\s+(?:and\s+)?(?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?))', 'i')])"
+                test="not(.[matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')])"
                 >[FYI] This closer possibly contains an unencoded dateline/date (with date phrase
                 spelled out).</assert>
 
@@ -319,12 +319,12 @@
                 used for @from and @to.</assert>
 
             <assert role="warn"
-                test="not(.[matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+((?:one|two)\s+thousand\s+(?:nine|eight)?\s+hundred\s+(?:and\s+)?(?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?))', 'i')])"
+                test="not(.[matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')])"
                 sqf:fix="add-when-attribute">This &lt;date&gt; contains a date phrase (spelled out)
                 that could be used for @when.</assert>
 
             <assert role="warn"
-                test="not(matches(., '((?:(?:the|this)\s+)?(\d{1,2})(?:st|d|nd|rd|th)?\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+((?:one|two)\s+thousand\s+(?:nine|eight)\s+hundred\s+(?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–|\s+)?(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?))', 'i'))"
+                test="not(matches(., '((?:(?:the|this)\s+)?(\d{1,2})(?:st|d|nd|rd|th)?\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i'))"
                 sqf:fix="add-when-attribute">This &lt;date&gt; contains a date phrase (partially
                 spelled out) that could be used for @when.</assert>
 
@@ -413,103 +413,105 @@
                 <!-- Fix 4: date-spelled-out-regex-eng -->
 
                 <sqf:fix
-                    use-when="matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+((?:one|two)\s+thousand\s+(?:nine|eight)?\s+hundred\s+(?:and\s+)?(?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?))', 'i')"
+                    use-when="matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')"
                     id="add-when-attribute-spelled-out-eng">
                     <let name="date-match"
-                        value="analyze-string(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+((?:one|two)\s+thousand\s+(?:nine|eight)?\s+hundred\s+(?:and\s+)?(?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?))', 'i')"/>
+                        value="analyze-string(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')"/>
                     <let name="date-match-1" value="$date-match/fn:match[1]"/>
                     <let name="year" value="$date-match-1//fn:group[attribute::nr eq '4']"/>
-                    <let name="year-thousand"
+                    <let name="year-thousands" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
+                    <let name="year-thousands-digit"
                         value="
-                            if (matches($year, 'two thousand')) then
+                            if (matches($year-thousands, 'two thousand')) then
                                 '2'
                             else
-                                if (matches($year, 'one thousand')) then
+                                if (matches($year-thousands, 'one thousand')) then
                                     '1'
                                 else
-                                    if (matches($year, 'seven hundred')) then
+                                    if (matches($year-thousands, 'seven hundred')) then
                                         'y'
                                     else
                                         ''"/>
 
-                    <let name="year-hundred"
+                    <let name="year-hundreds" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
+                    <let name="year-hundreds-digit"
                         value="
-                            if (matches($year, 'nine hundred')) then
+                            if (matches($year-hundreds, 'nine hundred')) then
                                 '9'
                             else
-                                if (matches($year, 'eight hundred')) then
+                                if (matches($year-hundreds, 'eight hundred')) then
                                     '8'
                                 else
-                                    if (matches($year, 'seven hundred')) then
+                                    if (matches($year-hundreds, 'seven hundred')) then
                                         '7'
                                     else
                                         ''"/>
 
-                    <let name="year-tens"
+                    <let name="year-tens-ones" value="$date-match-1//fn:group[attribute::nr eq '8']"/>
+                    <let name="year-tens-digit"
                         value="
-                            if (matches($year, 'ninety')) then
+                            if (matches($year-tens-ones, 'ninety')) then
                                 '9'
                             else
-                                if (matches($year, 'eighty')) then
+                                if (matches($year-tens-ones, 'eighty')) then
                                     '8'
                                 else
-                                    if (matches($year, 'seventy')) then
+                                    if (matches($year-tens-ones, 'seventy')) then
                                         '7'
                                     else
-                                        if (matches($year, 'sixty')) then
+                                        if (matches($year-tens-ones, 'sixty')) then
                                             '6'
                                         else
-                                            if (matches($year, 'fifty')) then
+                                            if (matches($year-tens-ones, 'fifty')) then
                                                 '5'
                                             else
-                                                if (matches($year, 'forty')) then
+                                                if (matches($year-tens-ones, 'forty')) then
                                                     '4'
                                                 else
-                                                    if (matches($year, 'thirty')) then
+                                                    if (matches($year-tens-ones, 'thirty')) then
                                                         '3'
                                                     else
-                                                        if (matches($year, 'twenty')) then
+                                                        if (matches($year-tens-ones, 'twenty')) then
                                                             '2'
                                                         else
-                                                            if (matches($year, '(twelve$|eleven$|ten$|teen$_')) then
+                                                            if (matches($year-tens-ones, '(twelve$|eleven$|ten$|teen$)')) then
                                                                 '1'
                                                             else
                                                                 '0'"/>
 
-                    <let name="ones-from-year" value="substring-after($year, 'hundred')"/>
-                    <let name="year-ones"
+                    <let name="year-ones-digit"
                         value="
-                            if (matches($ones-from-year, 'nine$')) then
+                            if (matches($year-tens-ones, 'nine$|nineteen$')) then
                                 '9'
                             else
-                                if (matches($ones-from-year, 'eight$')) then
+                                if (matches($year-tens-ones, 'eight$|eighteen$')) then
                                     '8'
                                 else
-                                    if (matches($ones-from-year, 'seven$')) then
+                                    if (matches($year-tens-ones, 'seven$|seventeen$')) then
                                         '7'
                                     else
-                                        if (matches($ones-from-year, 'six$')) then
+                                        if (matches($year-tens-ones, 'six$|sixteen$')) then
                                             '6'
                                         else
-                                            if (matches($ones-from-year, 'five$')) then
+                                            if (matches($year-tens-ones, 'five$|fifteen$')) then
                                                 '5'
                                             else
-                                                if (matches($ones-from-year, 'four$')) then
+                                                if (matches($year-tens-ones, 'four$|fourteen$')) then
                                                     '4'
                                                 else
-                                                    if (matches($ones-from-year, 'three$')) then
+                                                    if (matches($year-tens-ones, 'three$|thirteen$')) then
                                                         '3'
                                                     else
-                                                        if (matches($ones-from-year, 'two$')) then
+                                                        if (matches($year-tens-ones, 'two$|twelve')) then
                                                             '2'
                                                         else
-                                                            if (matches($ones-from-year, 'one$')) then
+                                                            if (matches($year-tens-ones, 'one$|eleven')) then
                                                                 '1'
                                                             else
                                                                 '0'"/>
 
                     <let name="year-combined"
-                        value="concat($year-thousand, $year-hundred, $year-tens, $year-ones)"/>
+                        value="concat($year-thousands-digit, $year-hundreds-digit, $year-tens-digit, $year-ones-digit)"/>
 
                     <let name="month" value="$date-match-1//fn:group[attribute::nr eq '3']"/>
                     <let name="month-digit"
@@ -525,7 +527,7 @@
                                 if (matches($date-phrase, 'twenty')) then
                                     '2'
                                 else
-                                    if (matches($date-phrase, '(twelfth$|eleventh$| tenth$|teenth$)')) then
+                                    if (matches($date-phrase, '(twelfth$|eleventh$|tenth$|teenth$)')) then
                                         '1'
                                     else
                                         '0'"/>
@@ -574,103 +576,108 @@
                 <!-- Fix 5: day-month-year-partially-spelled-out-regex-eng -->
 
                 <sqf:fix
-                    use-when="matches(., '((?:(?:the|this)\s+)?(\d{1,2})(?:st|d|nd|rd|th)?\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+((?:one|two)\s+thousand\s+(?:nine|eight)\s+hundred\s+(?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–|\s+)?(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?))', 'i')"
+                    use-when="matches(., '((?:(?:the|this)\s+)?(\d{1,2})(?:st|d|nd|rd|th)?\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')"
                     id="add-when-attribute-partially-spelled-out-eng">
                     <let name="date-match"
-                        value="analyze-string(., '((?:(?:the|this)\s+)?(\d{1,2})(?:st|d|nd|rd|th)?\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+((?:one|two)\s+thousand\s+(?:nine|eight)\s+hundred\s+(?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–|\s+)?(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?))', 'i')"/>
+                        value="analyze-string(., '((?:(?:the|this)\s+)?(\d{1,2})(?:st|d|nd|rd|th)?\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')"/>
                     <let name="date-match-1" value="$date-match/fn:match[1]"/>
+
                     <let name="year" value="$date-match-1//fn:group[attribute::nr eq '4']"/>
-                    <let name="year-thousand"
+
+                    <let name="year-thousands" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
+                    <let name="year-thousands-digit"
                         value="
-                            if (matches($year, 'two thousand')) then
+                            if (matches($year-thousands, 'two thousand')) then
                                 '2'
                             else
-                                if (matches($year, 'one thousand')) then
+                                if (matches($year-thousands, 'one thousand')) then
                                     '1'
                                 else
-                                    if (matches($year, 'seven hundred')) then
+                                    if (matches($year-thousands, 'seven hundred')) then
                                         'y'
                                     else
                                         ''"/>
 
-                    <let name="year-hundred"
+                    <let name="year-hundreds" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
+                    <let name="year-hundreds-digit"
                         value="
-                            if (matches($year, 'nine hundred')) then
+                            if (matches($year-hundreds, 'nine hundred')) then
                                 '9'
                             else
-                                if (matches($year, 'eight hundred')) then
+                                if (matches($year-hundreds, 'eight hundred')) then
                                     '8'
                                 else
-                                    if (matches($year, 'seven hundred')) then
+                                    if (matches($year-hundreds, 'seven hundred')) then
                                         '7'
                                     else
                                         ''"/>
 
-                    <let name="year-tens"
+                    <let name="year-tens-ones" value="$date-match-1//fn:group[attribute::nr eq '8']"/>
+
+                    <let name="year-tens-digit"
                         value="
-                            if (matches($year, 'ninety')) then
+                            if (matches($year-tens-ones, 'ninety')) then
                                 '9'
                             else
-                                if (matches($year, 'eighty')) then
+                                if (matches($year-tens-ones, 'eighty')) then
                                     '8'
                                 else
-                                    if (matches($year, 'seventy')) then
+                                    if (matches($year-tens-ones, 'seventy')) then
                                         '7'
                                     else
-                                        if (matches($year, 'sixty')) then
+                                        if (matches($year-tens-ones, 'sixty')) then
                                             '6'
                                         else
-                                            if (matches($year, 'fifty')) then
+                                            if (matches($year-tens-ones, 'fifty')) then
                                                 '5'
                                             else
-                                                if (matches($year, 'forty')) then
+                                                if (matches($year-tens-ones, 'forty')) then
                                                     '4'
                                                 else
-                                                    if (matches($year, 'thirty')) then
+                                                    if (matches($year-tens-ones, 'thirty')) then
                                                         '3'
                                                     else
-                                                        if (matches($year, 'twenty')) then
+                                                        if (matches($year-tens-ones, 'twenty')) then
                                                             '2'
                                                         else
-                                                            if (matches($year, '(twelve$|eleven$|ten$|teen$_')) then
+                                                            if (matches($year-tens-ones, '(twelve$|eleven$|ten$|teen$)')) then
                                                                 '1'
                                                             else
                                                                 '0'"/>
 
-                    <let name="ones-from-year" value="substring-after($year, 'hundred')"/>
-                    <let name="year-ones"
+                    <let name="year-ones-digit"
                         value="
-                            if (matches($ones-from-year, 'nine$')) then
+                            if (matches($year-tens-ones, 'nine$|nineteen$')) then
                                 '9'
                             else
-                                if (matches($ones-from-year, 'eight$')) then
+                                if (matches($year-tens-ones, 'eight$|eighteen$')) then
                                     '8'
                                 else
-                                    if (matches($ones-from-year, 'seven$')) then
+                                    if (matches($year-tens-ones, 'seven$|seventeen$')) then
                                         '7'
                                     else
-                                        if (matches($ones-from-year, 'six$')) then
+                                        if (matches($year-tens-ones, 'six$|sixteen$')) then
                                             '6'
                                         else
-                                            if (matches($ones-from-year, 'five$')) then
+                                            if (matches($year-tens-ones, 'five$|fifteen$')) then
                                                 '5'
                                             else
-                                                if (matches($ones-from-year, 'four$')) then
+                                                if (matches($year-tens-ones, 'four$|fourteen$')) then
                                                     '4'
                                                 else
-                                                    if (matches($ones-from-year, 'three$')) then
+                                                    if (matches($year-tens-ones, 'three$|thirteen$')) then
                                                         '3'
                                                     else
-                                                        if (matches($ones-from-year, 'two$')) then
+                                                        if (matches($year-tens-ones, 'two$|twelve')) then
                                                             '2'
                                                         else
-                                                            if (matches($ones-from-year, 'one$')) then
+                                                            if (matches($year-tens-ones, 'one$|eleven')) then
                                                                 '1'
                                                             else
                                                                 '0'"/>
 
                     <let name="year-combined"
-                        value="concat($year-thousand, $year-hundred, $year-tens, $year-ones)"/>
+                        value="concat($year-thousands-digit, $year-hundreds-digit, $year-tens-digit, $year-ones-digit)"/>
 
                     <let name="month" value="$date-match-1//fn:group[attribute::nr eq '3']"/>
                     <let name="month-digit"
@@ -763,7 +770,7 @@
                 unencoded dateline/date range.</assert>
 
             <assert role="info"
-                test="not(.[matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+((?:one|two)\s+thousand\s+(?:nine|eight)?\s+hundred\s+(?:and\s+)?(?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?))', 'i')])"
+                test="not(.[matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')])"
                 sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraph possibly contains an
                 unencoded dateline/date (with date phrase spelled out).</assert>
 
@@ -828,7 +835,7 @@
                 unencoded dateline/date range.</assert>
 
             <assert role="info"
-                test="not(.[matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+((?:one|two)\s+thousand\s+(?:nine|eight)?\s+hundred\s+(?:and\s+)?(?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?))', 'i')])"
+                test="not(.[matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')])"
                 sqf:fix="fix-date-in-postscript">[FYI] This postscript possibly contains an
                 unencoded dateline/date (with date phrase spelled out).</assert>
 
