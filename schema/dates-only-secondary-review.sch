@@ -1018,29 +1018,4 @@
 
     </xsl:function>
 
-    <xsl:function name="frus:date-regex-english" as="xs:anyAtomicType?">
-        <xsl:param name="date-element" as="xs:anyAtomicType?"/>
-
-        <xsl:choose>
-            <xsl:when
-                test="matches($date-element, '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)*,*\s+(\d{4}))', 'i')">
-                <xsl:for-each
-                    select="analyze-string($date-element, '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)*,*\s+(\d{4}))', 'i')/fn:match">
-
-
-                    <!-- Work in progress, dummy content -->
-                    <value-of select="serialize(.)"/>
-
-                </xsl:for-each>
-
-            </xsl:when>
-            <xsl:otherwise>
-
-                <!-- Work in progress, dummy content -->
-                <value-of select="9999"/>
-            </xsl:otherwise>
-
-        </xsl:choose>
-    </xsl:function>
-
 </schema>
