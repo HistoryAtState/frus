@@ -73,6 +73,15 @@
                             inferred from the content of the document and nearest dated
                             siblings</catDesc>
                     </category>
+                    <category xml:id="date_imprecise-inferred-from-editorial-annotation">
+                        <catDesc>[Contemporary Volumes] Imprecise date value(s) augmented with
+                            @notBefore and @notAfter inferred from editorial annotations</catDesc>
+                    </category>
+                    <category xml:id="date_imprecise-inferred-from-editorial-consultation">
+                        <catDesc>[Contemporary Volumes] Imprecise date value(s) augmented with
+                            @notBefore and @notAfter inferred during consultation with
+                            editor(s)/compiler(s)</catDesc>
+                    </category>
                     <category xml:id="date_imprecise-inferred-from-outside-research">
                         <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
                             inferred from related sources</catDesc>
@@ -100,6 +109,14 @@
                     <category xml:id="date_undated-inferred-from-document-scan">
                         <catDesc>Date value(s) for undated document were inferred from the content
                             of the scanned version of the document</catDesc>
+                    </category>
+                    <category xml:id="date_undated-inferred-from-editorial-annotation">
+                        <catDesc>[Contemporary Volumes] Date value(s) for undated document were
+                            inferred from editorial annotations</catDesc>
+                    </category>
+                    <category xml:id="date_undated-inferred-from-editorial-consultation">
+                        <catDesc>[Contemporary Volumes] Date value(s) for undated document were
+                            inferred during consultation with editor(s)/compiler(s)</catDesc>
                     </category>
                     <category xml:id="date_undated-inferred-from-outside-research">
                         <catDesc>Date value(s) for undated document were inferred from related

@@ -1080,6 +1080,14 @@ date =
               ##                                             nearest dated siblings) 
               "#date_imprecise-inferred-from-document-content-and-sibling-dates"
             | 
+              ## ([Contemporary Volumes] Imprecise date value(s) augmented with @notBefore and @notAfter
+              ##                                             inferred from editorial annotations)
+              "#date_imprecise-inferred-from-editorial-annotation"
+            | 
+              ## ([Contemporary Volumes] Imprecise date value(s) augmented with @notBefore and @notAfter
+              ##                                             inferred during consultation with editor(s)/compiler(s))
+              "#date_imprecise-inferred-from-editorial-consultation"
+            | 
               ## (Imprecise date value(s) augmented with @notBefore and
               ##                                             @notAfter inferred from related sources) 
               "#date_imprecise-inferred-from-outside-research"
@@ -1113,6 +1121,14 @@ date =
             | 
               ## (Date value(s) for undated document were inferred from
               ##                                             related sources) 
+              "##date_undated-inferred-from-editorial-annotation"
+            | 
+              ## ([Contemporary Volumes] Date value(s) for undated document were
+              ##                                             inferred during consultation with editor(s)/compiler(s)) 
+              "#date_undated-inferred-from-editorial-consultation"
+            | 
+              ## ([Contemporary Volumes] Date value(s) for undated document were
+              ##                                             inferred from editorial annotations) 
               "#date_undated-inferred-from-outside-research"
             | 
               ## (Date value(s) for undated document were inferred from
