@@ -255,6 +255,17 @@
         </rule>
     </pattern>
 
+    <!-- Pre-U.S. Independence Dates Check -->
+    <pattern id="date-1776">
+        <title>Pre-U.S. Independence Dates Check</title>
+        <rule context="tei:date[attribute::*]/@when | @from | @to | @notBefore | @notAfter">
+            <let name="year" value="substring(xs:string(.), 1, 4)"/>
+            <assert role="warn" test="xs:numeric($year) >= 1776">For the vast majority of FRUS
+                documents, date attributes should be greater than or equal to the year 1776. (Verify
+                correctness of: <value-of select="."/>)</assert>
+        </rule>
+    </pattern>
+
     <!-- Unencoded Date Checks -->
     <pattern id="unencoded-dates">
         <title>Unencoded Dates Checks</title>
