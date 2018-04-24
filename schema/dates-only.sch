@@ -30,7 +30,7 @@
         <rule context="tei:date[@calendar]">
             <assert role="warn"
                 test="tokenize(./@calendar) = ('chinese-era', 'chinese-lunar', 'ethiopian-ge&#8217;ez', 'gregorian', 'haitian-era', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunar', 'masonic-anno-lucis', 'papal-era', 'roman', 'rumi', 'thai-era', 'tibetan-phugpa')"
-                >date/@calendar='<value-of select="@type"/>' is an invalid value. Only the
+                    >date/@calendar='<value-of select="@type"/>' is an invalid value. Only the
                 following values are allowed: chinese-era, chinese-lunar, ethiopian-ge&#8217;ez,
                 gregorian, haitian-era, hijri, iranian-persian, japanese-nengō, julian, korean-era,
                 korean-lunar, masonic-anno-lucis, papal-era, roman, rumi, thai-era, tibetan-phugpa.
@@ -181,6 +181,7 @@
                 </sqf:add>
             </sqf:fix>
         </rule>
+
         <rule
             context="tei:div[@type eq 'document'][.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when]]">
             <let name="date-min"
@@ -245,6 +246,17 @@
                 >@frus:doc-dateTime-max must be castable as dateTime</assert>
             <assert role="error" test="./@frus:doc-dateTime-min">div must have both
                 @frus:doc-dateTime-min and @frus:doc-dateTime-max</assert>
+        </rule>
+    </pattern>
+
+    <!-- Pre-U.S. Independence Dates Check -->
+    <pattern id="date-1776">
+        <title>Pre-U.S. Independence Dates Check</title>
+        <rule context="tei:date[attribute::*]/@when | @from | @to | @notBefore | @notAfter">
+            <let name="year" value="substring(xs:string(.), 1, 4)"/>
+            <assert role="warn" test="xs:numeric($year) >= 1776">For the vast majority of FRUS
+                documents, date attributes should be greater than or equal to the year 1776. (Verify
+                correctness of: <value-of select="."/>)</assert>
         </rule>
     </pattern>
 
