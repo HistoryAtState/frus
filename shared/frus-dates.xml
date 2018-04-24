@@ -90,13 +90,13 @@
                         <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
                             inferred from nearest dated siblings</catDesc>
                     </category>
-                    <category xml:id="date_undated-inferred-from-document-content">
-                        <catDesc>Date value(s) for undated document were inferred from the content
-                            of the document</catDesc>
-                    </category>
                     <category xml:id="date_undated-inferred-from-chapter-heading">
                         <catDesc>Date value(s) for undated document were inferred from the heading
                             of its parent chapter</catDesc>
+                    </category>
+                    <category xml:id="date_undated-inferred-from-document-content">
+                        <catDesc>Date value(s) for undated document were inferred from the content
+                            of the document</catDesc>
                     </category>
                     <category xml:id="date_undated-inferred-from-document-content-and-sibling-dates">
                         <catDesc>Date value(s) for undated document were inferred from the content
