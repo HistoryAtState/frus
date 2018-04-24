@@ -873,12 +873,9 @@
                 <sqf:fix id="convert-postscript-to-dateline-in-preceding-closer">
                     <sqf:description>
                         <sqf:title>Convert &lt;postscript&gt; to &lt;dateline&gt; in the preceding
-                            &lt;closer&gt; [CAUTION: Do not use to convert &lt;postscript&gt; with
-                            additional content (still in development)]</sqf:title>
+                            &lt;closer&gt;</sqf:title>
                         <sqf:p>Convert &lt;postscript&gt; to &lt;dateline&gt; in the preceding
-                            &lt;closer&gt; in the current document; retain node content [CAUTION: Do
-                            not use to convert &lt;postscript&gt; with additional content (still in
-                            development)]</sqf:p>
+                            &lt;closer&gt; in the current document; retain node content</sqf:p>
                     </sqf:description>
                     <sqf:add use-when=".[preceding-sibling::tei:closer]"
                         match="./preceding-sibling::tei:closer" position="last-child">
@@ -887,19 +884,18 @@
                             <sqf:copy-of select="$postscript-content"/>
                         </dateline>
                     </sqf:add>
-                    <sqf:delete match="."/>
+                    <sqf:delete match="$postscript-content"/>
+                    <sqf:add node-type="comment">The date phrase has been added to the preceding
+                        closer. Edit or delete existing postscript as necessary.</sqf:add>
                 </sqf:fix>
 
                 <!-- Postscript: Fix 3 -->
                 <sqf:fix id="convert-postscript-to-dateline-in-following-closer">
                     <sqf:description>
                         <sqf:title>Convert &lt;postscript&gt; to &lt;dateline&gt; in the following
-                            &lt;closer&gt; [CAUTION: Do not use to convert &lt;postscript&gt; with
-                            additional content (still in development)]</sqf:title>
+                            &lt;closer&gt;</sqf:title>
                         <sqf:p>Convert &lt;postscript&gt; to &lt;dateline&gt; in the preceding
-                            &lt;closer&gt; in the current document; retain node content [CAUTION: Do
-                            not use to convert &lt;postscript&gt; with additional content (still in
-                            development)]</sqf:p>
+                            &lt;closer&gt; in the current document; retain node content</sqf:p>
                     </sqf:description>
                     <sqf:add use-when=".[following-sibling::tei:closer]"
                         match="./following-sibling::tei:closer" position="first-child">
@@ -907,7 +903,9 @@
                             <sqf:copy-of select="$postscript-content"/>
                         </dateline><lb xmlns="http://www.tei-c.org/ns/1.0"/>
                     </sqf:add>
-                    <sqf:delete match="."/>
+                    <sqf:delete match="$postscript-content"/>
+                    <sqf:add node-type="comment">The date phrase has been added to the following
+                        closer. Edit or delete existing postscript as necessary.</sqf:add>
                 </sqf:fix>
 
             </sqf:group>
