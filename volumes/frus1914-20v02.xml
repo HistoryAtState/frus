@@ -24079,7 +24079,7 @@
                         <dateline rendition="#right">
                             <placeName>
                                 <hi rend="smallcaps">Petrograd</hi></placeName>, <date
-                                when="1917-02-11" calendar="julian">
+                                when="1917-02-11" calendar="julian gregorian">
                                 <hi rend="italic">January 29</hi>/<hi rend="italic">February 11,
                                     1917</hi>
                             </date>.<lb/>[Received April 10.]</dateline>
@@ -24823,7 +24823,7 @@
                         <dateline rendition="#right">
                             <placeName>
                                 <hi rend="smallcaps">Petrograd</hi></placeName>, <date
-                                when="1917-05-08" calendar="julian">
+                                when="1917-05-08" calendar="julian gregorian">
                                 <hi rend="italic">April 25</hi>/<hi rend="italic">May 8, 1917</hi>
                             </date>.<lb/>[Received June 20.]</dateline>
                     </opener>
@@ -24868,8 +24868,9 @@
                     <postscript>
                         <opener>
                             <dateline>
-                                <date when="1917-05-08" calendar="julian"><hi rend="smallcaps"
-                                        >April</hi> 25/<hi rend="smallcaps">May</hi> 8, 1917</date>
+                                <date when="1917-05-08" calendar="julian gregorian"><hi
+                                        rend="smallcaps">April</hi> 25/<hi rend="smallcaps">May</hi>
+                                    8, 1917</date>
                             </dateline>
                         </opener>
                         <p>The above was dictated May 2d, since which time there have been a number
@@ -25498,7 +25499,7 @@
                             <dateline rendition="#right">
                                 <placeName>
                                     <hi rend="smallcaps">Petrograd</hi></placeName>, <date
-                                    when="1917-09-03" calendar="julian">
+                                    when="1917-09-03" calendar="julian gregorian">
                                     <hi rend="italic">August 21</hi>/<hi rend="italic">September
                                         3</hi>[, <hi rend="italic">1917</hi></date>.]</dateline>
                         </opener>
