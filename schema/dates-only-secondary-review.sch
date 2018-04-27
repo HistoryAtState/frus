@@ -285,12 +285,21 @@
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Ethopian ge’ez calendar reference.</assert>
 
-
             <assert role="info"
                 test="not(.[matches(., 'farvardin|Farvardin|ordibehešt|Ordibehesht|xordâd|Khordad|tir|Tir|mordâd|Mordad|šahrivar|Shahrivar|mehr|Mehr|âbân|Aban|âzar|Azar|dey|Dey|bahman|Bahman|esfand|Esfand', 'i')])"
                 sqf:fix="add-calendar-attribute-iranian-persian">[FYI] This &lt;date&gt; has a word
                 or phrase possibly indicating an Iranian/Persian (Solar Hijri) calendar
                 reference.</assert>
+
+            <assert role="info"
+                test="not(.[matches(., 'An&#8217;ei|Kōkaku|Kokaku|Tenmei|Kansei|Kyōwa|Kyowa|Bunka|Ninkō|Ninko|Bunsei|Tenpō|Tenpo|Tenhō|Tenho|Kōka|Koka|Kōmei|Komei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Keiō|Keio|Meiji|Taishō|Taisho|Shōwa|Showa|Heisei|Akihito', 'i')])"
+                sqf:fix="add-calendar-attribute-japanese-nengo">[FYI] This &lt;date&gt; has a word
+                or phrase possibly indicating a Japanese nengō calendar reference.</assert>
+
+            <assert role="info"
+                test="not(.[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')])"
+                sqf:fix="add-calendar-attribute-masonic-anno-lucis">[FYI] This &lt;date&gt; has a
+                word or phrase possibly indicating a Masonic calendar reference.</assert>
 
             <sqf:group id="add-calendar-attributes">
 
@@ -339,6 +348,25 @@
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">iranian-persian</sqf:add>
                 </sqf:fix>
+
+                <sqf:fix
+                    use-when=".[matches(., 'An&#8217;ei|Kōkaku|Kokaku|Tenmei|Kansei|Kyōwa|Kyowa|Bunka|Ninkō|Ninko|Bunsei|Tenpō|Tenpo|Tenhō|Tenho|Kōka|Koka|Kōmei|Komei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Keiō|Keio|Meiji|Taishō|Taisho|Shōwa|Showa|Heisei|Akihito', 'i')]"
+                    id="add-calendar-attribute-japanese-nengo">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="japanese-nengō"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">japanese-nengō</sqf:add>
+                </sqf:fix>
+
+                <sqf:fix
+                    use-when=".[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')]"
+                    id="add-calendar-attribute-masonic-anno-lucis">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="masonic"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">masonic-anno-lucis</sqf:add>
+                </sqf:fix>
+
             </sqf:group>
         </rule>
     </pattern>
