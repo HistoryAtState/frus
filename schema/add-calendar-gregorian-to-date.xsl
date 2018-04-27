@@ -10,19 +10,18 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="tei:div[@type = 'document'][not(@subtype)]">
+    <xsl:template match="tei:date">
         <xsl:choose>
-            <xsl:when test=".[matches(tei:head, 'Editorial\s+Note|Editor[''’]s\s+Note', 'i')]">
+            <xsl:when test=".[not(attribute::calendar)]">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
-                    <xsl:attribute name="subtype">editorial-note</xsl:attribute>
+                    <xsl:attribute name="calendar">gregorian</xsl:attribute>
                     <xsl:apply-templates select="node()"/>
                 </xsl:copy>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
-                    <xsl:attribute name="subtype">historical-document</xsl:attribute>
                     <xsl:apply-templates select="node()"/>
                 </xsl:copy>
             </xsl:otherwise>
