@@ -287,7 +287,7 @@
 
 
             <assert role="info"
-                test="not(.[matches(., 'farvardin|Farvardin|ordibehešt|Ordibehesht|xordâd|Khordad|tir|Tir|mordâd|Mordad|šahrivar|Shahrivar|mehr|Mehr|âbân|Aban|âzar|Azar|dey|Dey|bahman|Bahman|esfand|Esfand', 'i')])"
+                test="not(.[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|tir|Tir|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|mehr|Mehr|Mehrmah|âbân|Aban|Ābān|âzar|Azar|Āzar|dey|Dey|bahman|Bahman|esfand|Esfand|Espand', 'i')])"
                 sqf:fix="add-calendar-attribute-iranian-persian">[FYI] This &lt;date&gt; has a word
                 or phrase possibly indicating an Iranian/Persian (Solar Hijri) calendar
                 reference.</assert>
