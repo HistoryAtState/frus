@@ -23,7 +23,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date type="publication-date">1983</date>
+                <date type="publication-date" calendar="gregorian">1983</date>
                 <idno type="dospubno">9366</idno>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -1299,7 +1299,8 @@
                             Humelsine. A copy of this memorandum is also in the Secretary’s
                             Memoranda of Conversation, lot 65 D 238.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-11-05">November 5, 1952</date>.</dateline>
+                            when="1952-11-05" calendar="gregorian">November 5,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -1361,7 +1362,8 @@
                                 <hi rend="italic">“To be delivered to Addressee
                         only.”</hi></note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-11-06">November 6, 1952</date>.</dateline>
+                            when="1952-11-06" calendar="gregorian">November 6,
+                        1952</date>.</dateline>
                     <p><hi rend="smallcaps">top secret</hi></p>
                     <p><hi rend="smallcaps">Dear General</hi>: Following up my telegram of yesterday
                             afternoon,<note n="2" xml:id="d2fn2">See <ref target="#d1fn4">footnote
@@ -1432,8 +1434,8 @@
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
                             notBefore="1952-11-13T09:30:00-05:00"
                             notAfter="1952-11-13T23:59:59-05:00"
-                            ana="#date_undated-inferred-from-document-head"
-                        >undated</date>]</dateline>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >undated</date>]</dateline>
                     <note rend="inline" type="source">[Extract]</note>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft">SM N–83</p>
@@ -1535,7 +1537,7 @@
                             notBefore="1952-11-13T00:00:00-05:00"
                             notAfter="1952-11-18T23:59:59-05:00"
                             ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            >undated</date>.]</dateline>
+                            calendar="gregorian">undated</date>.]</dateline>
                     <p><hi rend="smallcaps">top secret</hi></p>
                     <p rend="center"><hi rend="smallcaps">Outline for Secretary’s Use in Briefing
                             General Eisenhower Novermber 18, 1952</hi></p>
@@ -1910,7 +1912,8 @@
                                 >McWilliams</persName>)</hi><note n="1" xml:id="d6fn1">Drafted by J.
                             Graham Parsons of the Office of European Regional Affairs.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-11-14">November 14, 1952</date>.</dateline>
+                            when="1952-11-14" calendar="gregorian">November 14,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -1949,7 +1952,8 @@
                                 Affairs</hi><note n="4" xml:id="d6fn4">Source text indicates J.
                                 Graham Parsons as drafting officer.</note></head>
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]
-                                <date when="1952-11-14">November 14, 1952</date>.</dateline>
+                                <date when="1952-11-14" calendar="gregorian">November 14,
+                                1952</date>.</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                         <p rend="center"><hi rend="smallcaps">immediate problems facing u.s. in
                                     <gloss target="#t_NATO1">nato</gloss></hi></p>
@@ -2159,7 +2163,8 @@
                             President-elect Eisenhower, <ref target="#pg_6">p.
                         6</ref>.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-11-14">November 14, 1952</date>.</dateline>
+                            when="1952-11-14" calendar="gregorian">November 14,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <p rend="center"><hi rend="smallcaps">suggested outline for white house
                             conference with the president-designate</hi></p>
@@ -2359,7 +2364,8 @@
                                     Trial and Hope</hi> (Garden City, N.Y., 1956), pp.
                             513–521.</p></note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-11-18">November 18, 1952</date>.</dateline>
+                            when="1952-11-18" calendar="gregorian">November 18,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="participants">
                         <item>Present: President Truman, accompanied by Secretary Acheson, Secretary
@@ -2672,7 +2678,7 @@
                                 notBefore="1952-11-14T00:00:00-05:00"
                                 notAfter="1952-11-18T23:59:59-05:00"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>.</dateline>
+                                calendar="gregorian">undated</date>.</dateline>
                         <p>In the Treasury Department there is a wide range of matters relating to
                             the financing of the Government and to the international position of the
                             United States which will confront the new Administration in the early
@@ -2750,7 +2756,7 @@
                                 notBefore="1952-11-14T00:00:00-05:00"
                                 notAfter="1952-11-18T23:59:59-05:00"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>.</dateline>
+                                calendar="gregorian">undated</date>.</dateline>
                         <p>The American people earnestly want peace in Korea. They insist, however,
                             on an honorable armistice. The armistice should be a clean and clear
                             armistice which settles all the military problems and leaves nothing to
@@ -2809,8 +2815,8 @@
                     <head><hi rend="italic">Memorandum of Conversation, by the Secretary of
                             State</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-12-24" type="conversation-or-meeting-date">December 24,
-                            1952</date>.</dateline>
+                            when="1952-12-24" type="conversation-or-meeting-date"
+                            calendar="gregorian">December 24, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="center"><hi rend="smallcaps">Memorandum of Conversation With Mr. John
                             Foster Dulles</hi></p>
@@ -2923,7 +2929,8 @@
                             xml:id="d10fn1">Drafted by Parker T. Hart, Director of the Office of
                             Near Eastern Affairs.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-12-30">December 30, 1952</date>.</dateline>
+                            when="1952-12-30" calendar="gregorian">December 30,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -3083,7 +3090,8 @@
                     <head><hi rend="italic">Memorandum for the President by the Director of Central
                             Intelligence (Smith)</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-01-09">January 9, 1953</date>.</dateline>
+                            when="1953-01-09" calendar="gregorian">January 9,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p>In response to your request of December 31st, this Agency has taken the
                         following steps to assist in the orderly transition to the incoming
@@ -3142,7 +3150,8 @@
                             source text indicates this memorandum was sent to the White House on
                             Jan. 12.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-01-12">January 12, 1953</date>.</dateline>
+                            when="1953-01-12" calendar="gregorian">January 12,
+                        1953</date>.</dateline>
                     <p>In reply to your memorandum of December 31, 1952, requesting a brief report
                         on what has been done by the Department of State to facilitate an orderly
                         transition to the incoming Administration, I should like to report that the
@@ -3249,7 +3258,8 @@
                             Assistant Secretary of State for Public Affairs on Jan. 29,
                         1953.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-01-16">January 16, 1953</date>.</dateline>
+                            when="1953-01-16" calendar="gregorian">January 16,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -3506,7 +3516,8 @@
                             of the Working Group was found in Department of State
                         files.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-12-11">December 11, 1952</date>.</dateline>
+                            when="1952-12-11" calendar="gregorian">December 11,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">EFP D–2/1</p>
                     <p rend="center"><hi rend="smallcaps">Note on Economic Assumptions Underlying
@@ -3673,7 +3684,8 @@
                             xml:id="d18fn1">Drafted by Acting Director of the Office of Economic
                             Defense and Trade Policy Vernon.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-02-10">February 10, 1954</date>.</dateline>
+                            when="1954-02-10" calendar="gregorian">February 10,
+                        1954</date>.</dateline>
                     <list type="subject">
                         <item>Subject:</item>
                         <item>Department of State Comments on Recommendations of the Randall
@@ -3992,7 +4004,7 @@
                                 <gloss type="to">Secretary of State</gloss></hi><note n="1"
                             xml:id="d19fn1">Drafted by Vernon.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-03-18">March 18, 1954</date>.</dateline>
+                            when="1954-03-18" calendar="gregorian">March 18, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -4306,8 +4318,8 @@
                             L. Arthur Minnich, Jr., Assistant Staff Secretary, White
                         House.</note></head>
                     <dateline><placeName><hi rend="smallcaps">White House</hi></placeName>, <date
-                            when="1954-03-19T10:05:00-05:00">10:05 a.m., March 19,
-                        1954</date></dateline>
+                            when="1954-03-19T10:05:00-05:00" calendar="gregorian">10:05 a.m., March
+                            19, 1954</date></dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
                         <item>The following were present:</item>
@@ -4439,7 +4451,7 @@
                                 target="#t_E1">E</gloss> and, in my opinion, represents a useful
                             effort to set down where we stand on the subject.”</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-05-17">May 17, 1954</date>.</dateline>
+                            when="1954-05-17" calendar="gregorian">May 17, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">official use only</hi></p>
                     <p rend="center"><hi rend="smallcaps">Foreign Economic Relations of the United
                             States</hi><note n="2" xml:id="d22fn2">Title sheet is not
@@ -5162,7 +5174,7 @@
                             Budget (Hughes) and the Chairman of the President’s Advisory Committee
                             on Government Organization (Rockefeller)</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-07-12">July 12, 1954</date>.</dateline>
+                            when="1954-07-12" calendar="gregorian">July 12, 1954</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Sirs</hi>: Over the past several months it has
                         become increasingly apparent that we are going to be faced with a continuing
                         series of complex problems in the foreign economic field which not only will
@@ -5215,8 +5227,8 @@
                     <head><hi rend="italic">Memorandum of Conversation, by Francis F. Lincoln of the
                             Bureau of Near Eastern, South Asian, and African Affairs</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-08-24" type="conversation-or-meeting-date">August 24,
-                            1954</date>.</dateline>
+                            when="1954-08-24" type="conversation-or-meeting-date"
+                            calendar="gregorian">August 24, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -5369,8 +5381,8 @@
                             the Commercial Policy Staff, Office of Economic Defense and Trade Policy
                             (Weiss)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-09-01" type="conversation-or-meeting-date">September 1,
-                            1954.</date></dateline>
+                            when="1954-09-01" type="conversation-or-meeting-date"
+                            calendar="gregorian">September 1, 1954.</date></dateline>
                     <p rend="flushleft"><hi rend="smallcaps">limited official use</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -5632,7 +5644,8 @@
                             despatch 211, from New York, dated Sept. 13, 1954, not
                         printed.</note></head>
                     <dateline><placeName><hi rend="smallcaps">New York</hi></placeName>, <date
-                            when="1954-09-09">September 9, 1954</date>.</dateline>
+                            when="1954-09-09" calendar="gregorian">September 9,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="center"><hi rend="smallcaps">A Positive U.S. Economic Program in <gloss
                                 target="#t_ECOSOC1">ECOSOC</gloss>—Is It Possible</hi>?</p>
@@ -6270,7 +6283,8 @@
                             Secretary to the Cabinet Maxwell M. Rabb, dated Dec. 8, 1954, not
                             printed.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-12-07">December 7, 1954</date>.</dateline>
+                            when="1954-12-07" calendar="gregorian">December 7,
+                        1954</date>.</dateline>
                     <p>The conclusions on foreign economic policy expressed here have been formed
                         after weeks of discussion with representatives from every department and
                         with many others who have been consulted.</p>
@@ -6436,8 +6450,8 @@
                             9:05 a.m., December 10, 1954</hi><note n="1" xml:id="d29fn1">Prepared by
                             Minnich.</note></head>
                     <dateline><placeName><hi rend="smallcaps">White House</hi></placeName>, <date
-                            when="1954-12-10T09:05:00-05:00">9:05 a.m., December 10,
-                        1954</date></dateline>
+                            when="1954-12-10T09:05:00-05:00" calendar="gregorian">9:05 a.m.,
+                            December 10, 1954</date></dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
                         <item>The following were present:</item>
@@ -6563,8 +6577,8 @@
                             White House, 8:30 a.m., December 14, 1954</hi></head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1954-12-14T08:30:00-05:00"
-                            ana="#date_undated-inferred-from-document-head">December 14, 1954, 8:30
-                            a.m.</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >December 14, 1954, 8:30 a.m.</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
@@ -6689,7 +6703,8 @@
                             Economic and Trade Policy Vernon and cleared by Assistant Secretary for
                             Economic Affairs Thorp.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-01-11T11:39:00">January 11, 1952—11:39 a.m.</date></dateline>
+                            when="1952-01-11T11:39:00" calendar="gregorian">January 11, 1952—11:39
+                            a.m.</date></dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p>3285. For Batt<note n="3" xml:id="d31fn3">William L. Batt, Chief of the
                             Mutual Security Agency Mission in the United Kingdom. The Agency assumed
@@ -6756,7 +6771,8 @@
                             endorsed the Committee’s recommendation and recommended that the
                             President approve it. (394.31/8–2052)</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-08-20">August 20, 1952</date>.</dateline>
+                            when="1952-08-20" calendar="gregorian">August 20,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -6880,7 +6896,8 @@
                                 >Allison</persName>)</hi><note n="1" xml:id="d33fn1">Drafted by
                             Selma G. Kallis of the Office of Northeast Asian Affairs.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-09-25">September 25, 1952</date>.</dateline>
+                            when="1952-09-25" calendar="gregorian">September 25,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -6987,7 +7004,8 @@
                             Government serving at home and abroad. It was instituted in 1945 and
                             terminated as a separate publication in October 1974.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-11-10">November 10, 1952</date>.</dateline>
+                            when="1952-11-10" calendar="gregorian">November 10,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">restricted</hi></p>
                     <p rend="flushleft">Issue No. 382</p>
                     <p rend="flushleft"><hi rend="italic"><gloss target="#t_GATT1">GATT</gloss>
@@ -7330,7 +7348,8 @@
                             High Commissioner in Bonn. (Telegram 3440, Jan. 12, 1953;
                             394.31/12–3152)</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-01-14T18:59:00">January 14, 1953—6:59 p.m.</date></dateline>
+                            when="1953-01-14T18:59:00" calendar="gregorian">January 14, 1953—6:59
+                            p.m.</date></dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft"><hi rend="smallcaps">priority</hi></p>
                     <p>3852. <gloss target="#t_Dept1">Dept</gloss> Circular Airgram, December 9,
@@ -7423,7 +7442,8 @@
                                 State</gloss></hi><note n="1" xml:id="d38fn1">Repeated for
                             information to Tokyo, Saigon, Geneva, and London.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Paris</hi></placeName>, <date
-                            when="1953-01-16T16:00:00">January 16, 1953—4 p.m.</date></dateline>
+                            when="1953-01-16T16:00:00" calendar="gregorian">January 16, 1953—4
+                            p.m.</date></dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft"><hi rend="smallcaps">priority</hi></p>
                     <p>3986. Re <gloss target="#t_Deptel1">Deptel</gloss> 3852.<note n="2"
@@ -7526,7 +7546,8 @@
                                 >Murphy</persName>) to the <gloss type="to">Department of
                                 State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Tokyo</hi></placeName>, <date
-                            when="1953-01-20T17:00:00">January 20, 1953—5 p.m.</date></dateline>
+                            when="1953-01-20T17:00:00" calendar="gregorian">January 20, 1953—5
+                            p.m.</date></dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft"><hi rend="smallcaps">priority</hi></p>
                     <p>2324. Embassy concerned lest <gloss target="#t_GATT1">GATT</gloss>
@@ -7585,7 +7606,8 @@
                             xml:id="d40fn1">Drafted by Leonard Weiss, Acting Assistant Chief of the
                             Commercial Policy Staff.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-02-06">February 6, 1953</date>.</dateline>
+                            when="1953-02-06" calendar="gregorian">February 6,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -7722,7 +7744,8 @@
                             xml:id="d41fn1">Drafted by Margaret Potter, Chief of the Trade
                             Agreements Branch, Commercial Policy Staff.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-02-12">February 12, 1953</date>.</dateline>
+                            when="1953-02-12" calendar="gregorian">February 12,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p><hi rend="smallcaps">My Dear Mr. Dodge</hi>: The Tariff Commission, on
                         December 22, 1952, reported to the President its findings and recommendation
@@ -7846,7 +7869,8 @@
                             xml:id="d42fn1">Drafted by Walter Hollis of the Office of the Assistant
                             Legal Adviser for Economic Affairs.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-02-25">February 25, 1953</date>.</dateline>
+                            when="1953-02-25" calendar="gregorian">February 25,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -8560,7 +8584,7 @@
                                 >Linder</persName>)</hi><note n="1" xml:id="d43fn1">Drafted by
                             White.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-04-30">April 30, 1953</date>.</dateline>
+                            when="1953-04-30" calendar="gregorian">April 30, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -8614,7 +8638,7 @@
                             for Far Eastern Affairs (<persName type="from">Johnson</persName>) to
                             the <gloss type="to">Secretary of State</gloss></hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-07-13">July 13, 1953</date>.</dateline>
+                            when="1953-07-13" calendar="gregorian">July 13, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -8721,7 +8745,8 @@
                             Liaison and Charles F. Johnson of the Office of Policy and
                         Plans.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-09-15">September 15, 1953</date>.</dateline>
+                            when="1953-09-15" calendar="gregorian">September 15,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><gloss target="#t_CA1">CA</gloss>–1470. Subject: Eighth <gloss
                             target="#t_GATT1">GATT</gloss> Session.</p>
@@ -8875,7 +8900,8 @@
                                 type="from">Oakley</persName>) to the <gloss type="to">Department of
                                 State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Geneva</hi></placeName>, <date
-                            when="1953-09-18T11:00:00">September 18, 1953—11 a.m.</date></dateline>
+                            when="1953-09-18T11:00:00" calendar="gregorian">September 18, 1953—11
+                            a.m.</date></dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft"><hi rend="smallcaps">priority</hi></p>
                     <p>99. Eyes only from Waugh. Personal to the Secretary. We have been informed
@@ -8953,7 +8979,8 @@
                             the Director of Foreign Operations in the United Kingdom
                                 (<persName>Gordon</persName>)</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Geneva</hi></placeName>, <date
-                            when="1953-10-20">October 20, 1953</date>.</dateline>
+                            when="1953-10-20" calendar="gregorian">October 20,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">restricted</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -9077,7 +9104,8 @@
                             Agreement on Tariffs and Trade (<persName type="to">Brown</persName>) to
                             the Chairman (<persName>Waugh</persName>)</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Geneva</hi></placeName>, <date
-                            when="1953-10-24">October 24, 1953</date>.</dateline>
+                            when="1953-10-24" calendar="gregorian">October 24,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">restricted</hi></p>
                     <p><hi rend="smallcaps">Dear Mr. Waugh</hi>: The conference is scheduled to end
                         today unless something unforeseen happens. I think it is fair to say we can
@@ -9227,8 +9255,8 @@
                     <head><hi rend="italic">Memorandum of Conversation, by Paul E. Callanan of the
                             Agricultural Products Staff</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-01-14" type="conversation-or-meeting-date">January 14,
-                            1954</date>.</dateline>
+                            when="1954-01-14" type="conversation-or-meeting-date"
+                            calendar="gregorian">January 14, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -9358,7 +9386,7 @@
                             Tariffs and Trade (<persName type="to">Waugh</persName>) to the
                             Secretary of State</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-03-08">March 8, 1954</date>.</dateline>
+                            when="1954-03-08" calendar="gregorian">March 8, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><hi rend="smallcaps">My Dear Mr. Secretary</hi>: I submit the enclosed
                         unclassified report and supplementary confidential report on the Eighth
@@ -9509,7 +9537,7 @@
                             Chairman of the Joint Chiefs of Staff; and Director of Central
                             Intelligence.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-03-23">March 23, 1954</date>.</dateline>
+                            when="1954-03-23" calendar="gregorian">March 23, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft"><gloss target="#t_NSC1">NSC</gloss> 5415</p>
                     <p rend="center"><hi rend="smallcaps">Disposal Abroad of Government-Owned
@@ -9532,7 +9560,8 @@
                     <frus:attachment>
                         <note rend="inline" type="source">[Enclosure I]</note>
                         <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                                when="1954-03-23">March 23, 1954</date>.</dateline>
+                                when="1954-03-23" calendar="gregorian">March 23,
+                            1954</date>.</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                         <p rend="center"><hi rend="smallcaps">Draft Statement of Conclusions on
                                 Disposal Abroad of Government-Owned Agricultural Surpluses</hi></p>
@@ -9617,7 +9646,8 @@
                     <frus:attachment>
                         <note rend="inline" type="source">[Enclosure II]</note>
                         <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                                when="1954-03-09">March 9, 1954</date>.</dateline>
+                                when="1954-03-09" calendar="gregorian">March 9,
+                            1954</date>.</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                         <p rend="center"><hi rend="smallcaps">Working Group Report on Disposal
                                 Abroad of Government-Owned Agricultural Surpluses</hi></p>
@@ -10511,7 +10541,7 @@
                             National Security Council on Thursday, April 1, 1954</hi></head>
                     <dateline>
                         <date when="1954-04-01" ana="#date_undated-inferred-from-document-head"
-                            >April 1, 1954</date>
+                            calendar="gregorian">April 1, 1954</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <p rend="flushleft"><hi rend="smallcaps">eyes only</hi></p>
@@ -10849,7 +10879,7 @@
                             >Benson</persName>)</hi><note n="1" xml:id="d55fn1">Drafted by Linville
                             and Turnage; cleared by Evans.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-05-12">May 12, 1954</date>.</dateline>
+                            when="1954-05-12" calendar="gregorian">May 12, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p><hi rend="smallcaps">Dear Mr. Secretary</hi>: Your Department has invited
                         comments from this Department regarding your plan to sell feed grains for
@@ -10937,7 +10967,7 @@
                             Schaetzel, Special Assistant to the Assistant Secretary for Economic
                             Affairs.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1954-05-27">May 27, 1954</date>.</dateline>
+                            when="1954-05-27" calendar="gregorian">May 27, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -11054,7 +11084,7 @@
                             Inter-American Affairs Holland and Acting Director of the Office of
                             Economic and Defense Policy Evans.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1954-06-07">June 7, 1954</date>.</dateline>
+                            when="1954-06-07" calendar="gregorian">June 7, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -11190,7 +11220,8 @@
                                 of State</gloss></hi><note n="1" xml:id="d58fn1">Repeated for
                             information to Tokyo and Geneva.</note></head>
                     <dateline><placeName><hi rend="smallcaps">London</hi></placeName>,<date
-                            when="1954-07-16T19:00:00">July 16, 1954—7 p.m.</date></dateline>
+                            when="1954-07-16T19:00:00" calendar="gregorian">July 16, 1954—7
+                            p.m.</date></dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft"><hi rend="smallcaps">priority</hi></p>
                     <p>303. Geneva for Greenwald.<note n="2" xml:id="d58fn2">Joseph A. Greenwald,
@@ -11285,7 +11316,7 @@
                             xml:id="d59fn1">Drafted by Assistant Secretary Holland and Director of
                             the Office of Regional American Affairs Cale.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1954-07-21">July 21, 1954</date>.</dateline>
+                            when="1954-07-21" calendar="gregorian">July 21, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -11412,7 +11443,8 @@
                             Thibodeaux of the Office of Economic Defense and Trade
                         Policy.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1954-11-02">November 2, 1954</date>.</dateline>
+                            when="1954-11-02" calendar="gregorian">November 2,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><hi rend="smallcaps">Dear Ezra</hi>: Enclosed is a copy of a confidential
                             note<note n="2" xml:id="d60fn2">Aide-mémoire from the British Embassy
@@ -11484,7 +11516,8 @@
                             >Waugh</persName>)</hi><note n="1" xml:id="d62fn1">Memorandum addressed
                             also to Vice Chairman Brown.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Geneva</hi></placeName>,]<date
-                            when="1954-11-10">November 10, 1954</date>.</dateline>
+                            when="1954-11-10" calendar="gregorian">November 10,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -11620,7 +11653,8 @@
                                 >Benson</persName>) to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>,<date
-                            when="1954-11-16">November 16, 1954</date>.</dateline>
+                            when="1954-11-16" calendar="gregorian">November 16,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><hi rend="smallcaps">Dear Foster</hi>: We have received your letter of
                         November 2,<note n="1" xml:id="d63fn1">Ante, <ref target="#pg_207">p.
@@ -11701,7 +11735,8 @@
                             >Assistant Secretary Waugh returned to the United States from Geneva on
                             Nov. 14, 1954.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1954-11-17">November 17, 1954</date>.</dateline>
+                            when="1954-11-17" calendar="gregorian">November 17,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">official use only</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -11768,7 +11803,8 @@
                             on Tariffs and Trade to the <gloss type="to">Department of
                             State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Geneva</hi></placeName>,<date
-                            when="1954-11-23T17:00:00">November 23, 1954—5 p.m.</date></dateline>
+                            when="1954-11-23T17:00:00" calendar="gregorian">November 23, 1954—5
+                            p.m.</date></dateline>
                     <p rend="flushleft"><hi rend="smallcaps">official use only</hi></p>
                     <p>Tagg 100. Pass White House for Randall and Hauge. It is becoming increasingly
                         apparent that one of the main factors bearing upon the success or failure of
@@ -11896,7 +11932,7 @@
                             and <ref target="#pg_811">811</ref>.</note></head>
                     <dateline>
                         <date when="1954-12-13" ana="#date_undated-inferred-from-document-head"
-                            >December 13, 1954</date>
+                            calendar="gregorian">December 13, 1954</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
@@ -12061,7 +12097,8 @@
                             Interagency Committee on Agricultural Surplus Disposal
                         (ICASD)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1954-12-15">December 15, 1954</date>.</dateline>
+                            when="1954-12-15" calendar="gregorian">December 15,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft"><hi rend="italic">Problem:</hi></p>
                     <p>In administering Public Law 480, should the policy followed by the
@@ -12111,7 +12148,8 @@
                             Secretary to the Cabinet Maxwell M. Rabb, dated Dec. 15, 1954, not
                             printed.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1954-12-15">December 15, 1954</date>.</dateline>
+                            when="1954-12-15" calendar="gregorian">December 15,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="center"><hi rend="smallcaps">Policy Review of Dollar Sales to the
                             Soviet Bloc of Agricultural Surplus Commodities</hi></p>
@@ -12191,8 +12229,8 @@
                             9:05 a.m., December 17, 1954</hi></head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1954-12-17T09:05:00-05:00"
-                            ana="#date_undated-inferred-from-document-head">December 17, 1954, 9:05
-                            a.m.</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >December 17, 1954, 9:05 a.m.</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
@@ -12381,7 +12419,7 @@
                             Secretary’s Staff Meeting of May 13, 1952. For the notes of the Staff
                             Meeting, see <ref target="#pg_235">p. 235</ref>.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1952-04-22">April 22, 1952</date>.</dateline>
+                            when="1952-04-22" calendar="gregorian">April 22, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -12540,7 +12578,7 @@
                             n="1" xml:id="d71fn1">Drafted by J. Robert Schaetzel, Special Assistant
                             to the Assistant Secretary of State for Economic Affairs.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1952-05-02">May 2, 1952</date>.</dateline>
+                            when="1952-05-02" calendar="gregorian">May 2, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -12567,8 +12605,8 @@
                     <frus:attachment>
                         <note rend="inline" type="source">[Attachment]</note>
                         <dateline>[<placeName><hi rend="smallcaps"
-                                >Washington</hi></placeName>,]<date when="1952-05-02">May 2,
-                                1952</date>.</dateline>
+                                >Washington</hi></placeName>,]<date when="1952-05-02"
+                                calendar="gregorian">May 2, 1952</date>.</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                         <p rend="flushleft">SM D–2</p>
                         <p rend="center"><hi rend="smallcaps">Position Paper on General Assembly
@@ -12854,8 +12892,8 @@
                             discussed included a wide range of policy issues.</note></head>
                     <dateline>
                         <date when="1952-05-13T09:30:00-04:00"
-                            ana="#date_undated-inferred-from-document-head">May 13, 1952, 9:30
-                            a.m.</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian">May
+                            13, 1952, 9:30 a.m.</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft">SM N–31</p>
@@ -13034,7 +13072,7 @@
                             establishment and functions of the National Advisory Council, see
                             footnote 2, <ref target="#pg_306">p. 306</ref>.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1952-05-22">May 22, 1952</date>.</dateline>
+                            when="1952-05-22" calendar="gregorian">May 22, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">Secretary John W. Snyder (Chairman), Treasury Department</p>
                     <p rend="flushleft">Mr. Willard L. Thorp, State Department</p>
@@ -13460,7 +13498,7 @@
                             Staff, Bureau of Administration, was not signed but used as part of a
                             briefing memorandum for the Under Secretary.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1952-06-09">June 9, 1952</date>.</dateline>
+                            when="1952-06-09" calendar="gregorian">June 9, 1952</date>.</dateline>
                     <list type="subject">
                         <item>Subject:</item>
                         <item>The Point 4<note n="2" xml:id="d74fn2">The term “point four” was
@@ -13773,7 +13811,7 @@
                         <hi rend="italic">to the Director of the Office of Financial and Development
                             Policy (<persName type="to">Corbett</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1952-06-11">June 11, 1952</date>.</dateline>
+                            when="1952-06-11" calendar="gregorian">June 11, 1952</date>.</dateline>
                     <list type="subject">
                         <item>Subject:</item>
                         <item><gloss target="#t_EximEximbank1">Eximbank</gloss>’s attitude toward
@@ -13853,7 +13891,7 @@
                             >Rosa</persName>)</hi><note n="2" xml:id="d76fn2">Joseph
                         Rosa.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>],<date
-                            when="1952-06-17">June 17, 1952</date>.</dateline>
+                            when="1952-06-17" calendar="gregorian">June 17, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -13935,7 +13973,8 @@
                         <hi rend="italic">to the Deputy Legal Adviser (<persName type="to"
                                 >Tate</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1953-01-28">January 28, 1953</date>.</dateline>
+                            when="1953-01-28" calendar="gregorian">January 28,
+                        1953</date>.</dateline>
                     <list type="subject">
                         <item>Subject:</item>
                         <item>Some Major Policy Issues Now Under Discussion In The Point 4
@@ -14186,7 +14225,8 @@
                             Assistant Secretary of State for Economic Affairs (<persName type="to"
                                 >Linder</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1953-02-06">February 6, 1953</date>.</dateline>
+                            when="1953-02-06" calendar="gregorian">February 6,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p>As of possible use to you in your luncheon with Mr. Black on Monday, I am
                         setting forth below a few points of mutual interest:</p>
@@ -14275,8 +14315,8 @@
                     <head><hi rend="italic">Memorandum of Conversation, by the Director of the
                             Office of Financial and Development Policy (Corbett)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1953-02-10" type="conversation-or-meeting-date">February 10,
-                            1953</date>.</dateline>
+                            when="1953-02-10" type="conversation-or-meeting-date"
+                            calendar="gregorian">February 10, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -14373,7 +14413,7 @@
                                 (<persName type="from">Rand</persName>) to the Director of Mutual
                             Security (<persName type="to">Stassen</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1953-04-18">April 18, 1953</date>.</dateline>
+                            when="1953-04-18" calendar="gregorian">April 18, 1953</date>.</dateline>
                     <list type="subject">
                         <item>Subject:</item>
                         <item>Investment Guaranty Program.</item>
@@ -14489,7 +14529,7 @@
                             Council, June 18, 1953, <gloss target="#t_NAC1">NAC</gloss> files, lot
                             60 D 137, “Minutes”)</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1953-06-17">June 17, 1953</date>.</dateline>
+                            when="1953-06-17" calendar="gregorian">June 17, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">restricted</hi></p>
                     <p rend="flushleft">Document No. 1477</p>
                     <p rend="center"><hi rend="smallcaps">Draft Position Paper Concerning the
@@ -14694,7 +14734,7 @@
                             Edmund H. Kellogg, Officer in Charge of United Nations Economic
                             Affairs.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1953-06-19">June 19, 1953</date>.</dateline>
+                            when="1953-06-19" calendar="gregorian">June 19, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -14797,7 +14837,8 @@
                                 >Oakley</persName>) to the <gloss type="to">Department of
                                 State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Geneva</hi></placeName>,<date
-                            when="1953-07-21T15:00:00">July 21, 1953—3 p.m.</date></dateline>
+                            when="1953-07-21T15:00:00" calendar="gregorian">July 21, 1953—3
+                            p.m.</date></dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft"><gloss target="#t_niact1"><hi rend="smallcaps"
                             >niact</hi></gloss></p>
@@ -14875,7 +14916,7 @@
                             composition of the U.S. Delegation, and (IV) the agenda and organization
                             of work, with suggestions for future meetings.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Geneva</hi></placeName>,<date
-                            when="1953-08-05">August 5, 1953</date>.</dateline>
+                            when="1953-08-05" calendar="gregorian">August 5, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p>[Here follow a letter of transmittal containing a brief table of contents and
                         Section I, “Comments on Other Delegations at the Conference.”]</p>
@@ -15014,7 +15055,8 @@
                             William J. Stibravy, Special Assistant in the Office of Financial
                             Development Policy.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1954-02-04">February 4, 1954</date>.</dateline>
+                            when="1954-02-04" calendar="gregorian">February 4,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">official use only</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -15093,7 +15135,8 @@
                             Washington, June 1, 1954</hi></head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1954-06-01"
-                            ana="#date_undated-inferred-from-document-head">June 1, 1954</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >June 1, 1954</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">Mr. W. Randolph Burgess (Acting Chairman), Treasury
@@ -15235,7 +15278,7 @@
                             Security Affairs to Assistant Secretary Waugh, June 7, 1954, PPS files,
                             lot 65 D 101, “Assistance to Foreign Countries”)</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1954-06-01">June 1, 1954</date>.</dateline>
+                            when="1954-06-01" calendar="gregorian">June 1, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">Document No. 1635 (Revised)</p>
                     <p rend="center"><hi rend="smallcaps">Suggested Loan-Grant Policy</hi></p>
@@ -15286,7 +15329,7 @@
                                 >NAC</gloss>, July 2, 1954, the minutes of which are printed <ref
                                 target="#d89"><hi rend="italic">infra</hi></ref>.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1954-07-01">July 1, 1954</date>.</dateline>
+                            when="1954-07-01" calendar="gregorian">July 1, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps"><gloss target="#t_NAC1">nac</gloss> use
                             only</hi></p>
                     <list type="subject">
@@ -15335,7 +15378,7 @@
                             Council on International Monetary and Financial Problems, Held at
                             Washington, July 2, 1954</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>,<date
-                            when="1954-07-02">July 2, 1954</date></dateline>
+                            when="1954-07-02" calendar="gregorian">July 2, 1954</date></dateline>
                     <p rend="flushleft"><hi rend="smallcaps"><gloss target="#t_NAC1">nac</gloss> use
                             only</hi></p>
                     <p rend="flushleft">Mr. W. Randolph Burgess (Acting Chairman), Treasury
@@ -15473,7 +15516,8 @@
                             Secretary of State for United Nations Affairs (<persName type="to"
                                 >Key</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]<date
-                            when="1954-08-23">August 23, 1954</date>.</dateline>
+                            when="1954-08-23" calendar="gregorian">August 23,
+                        1954</date>.</dateline>
                     <list type="subject">
                         <item>Subject:</item>
                         <item>The Current US Position in the <gloss target="#t_UN1">UN</gloss>—A
@@ -15583,7 +15627,8 @@
                             xml:id="d91fn1">Sent to 54 Embassies, and repeated for information to 4
                             additional Embassies.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-09-03">September 3, 1954</date>.</dateline>
+                            when="1954-09-03" calendar="gregorian">September 3,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">official use only</hi></p>
                     <p><gloss target="#t_CA1">CA</gloss>–1601. Subject: Economic Issues at the
                         Forthcoming (Ninth) Session of the General Assembly.</p>
@@ -15786,7 +15831,8 @@
                                 (<persName type="from">Lodge</persName>) to the <gloss type="to"
                                 >Department of State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">New York</hi></placeName>, <date
-                            when="1954-10-08T19:00:00">October 8, 1954—7 p.m.</date></dateline>
+                            when="1954-10-08T19:00:00" calendar="gregorian">October 8, 1954—7
+                            p.m.</date></dateline>
                     <p rend="flushleft"><hi rend="smallcaps">official use only</hi></p>
                     <p>Delga 77. Re: US position on <gloss target="#t_IFC1">IFC</gloss>. This
                         telegram has reference to International Finance Corporation and particularly
@@ -15846,7 +15892,8 @@
                                 type="to">Secretary of State</gloss></hi><note n="1" xml:id="d93fn1"
                             >Drafted by Corbett.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-10-28">October 28, 1954</date>.</dateline>
+                            when="1954-10-28" calendar="gregorian">October 28,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -15974,7 +16021,8 @@
                             Secretary of State (<persName type="to">Hoover</persName>)</hi><note
                             n="1" xml:id="d94fn1">Drafted by Robinson.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-11-02">November 2, 1954</date>.</dateline>
+                            when="1954-11-02" calendar="gregorian">November 2,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">official use only</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -16061,7 +16109,8 @@
                                 printed <ref target="#d95"><hi rend="italic"
                                 >infra</hi></ref>.</note></head>
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]
-                                <date when="1954-11-02">November 2, 1954</date>.</dateline>
+                                <date when="1954-11-02" calendar="gregorian">November 2,
+                            1954</date>.</dateline>
                         <p rend="flushleft"><hi rend="smallcaps"><gloss target="#t_NAC1">nac</gloss>
                                 use only</hi></p>
                         <p rend="flushleft">Document No. 1698</p>
@@ -16128,7 +16177,8 @@
                             Washington, November 3, 1954</hi></head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1954-11-03"
-                            ana="#date_undated-inferred-from-document-head">November 3, 1954</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >November 3, 1954</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps"><gloss target="#t_NAC1">nac</gloss> use
                             only</hi></p>
@@ -16350,7 +16400,8 @@
                             comprises item 70 of Federal Records Center Accession No. 71 A
                             6682.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-01-04">January 4, 1952</date>.</dateline>
+                            when="1952-01-04" calendar="gregorian">January 4,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">Document No. 1245</p>
                     <list type="subject">
@@ -16465,7 +16516,8 @@
                             It indicated that Southard’s memorandum was a revision of an earlier
                             one, dated Feb. 8, 1952, not printed.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-02-11">February 11, 1952</date>.</dateline>
+                            when="1952-02-11" calendar="gregorian">February 11,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">Document No. 1261</p>
                     <list type="subject">
@@ -16565,7 +16617,8 @@
                             for Administration (<persName type="from">Scott</persName>) to the Under
                             Secretary of State (<persName type="to">Webb</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-02-20">February 20, 1952</date>.</dateline>
+                            when="1952-02-20" calendar="gregorian">February 20,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -16631,7 +16684,8 @@
                                 >Willis</persName>) to the <gloss type="to"
                         >Council</gloss></hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-08-25">August 25, 1952</date>.</dateline>
+                            when="1952-08-25" calendar="gregorian">August 25,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">restricted</hi></p>
                     <p rend="flushleft">Document No. 1365</p>
                     <list type="subject">
@@ -16722,7 +16776,8 @@
                             Washington, August 26, 1952</hi></head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1952-08-26"
-                            ana="#date_undated-inferred-from-document-head">August 26, 1952</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >August 26, 1952</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">Secretary John W. Snyder (Chairman), Treasury Department</p>
@@ -16896,7 +16951,8 @@
                             the <gloss target="#t_IBRD1">IBRD</gloss> and the <gloss
                                 target="#t_IMF1">IMF</gloss>.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-09-09">September 9, 1952</date>.</dateline>
+                            when="1952-09-09" calendar="gregorian">September 9,
+                        1952</date>.</dateline>
                     <p rend="flushleft">Document No. 1371</p>
                     <p><hi rend="smallcaps">Dear Mr. Secretary</hi>: The annual meetings of the
                         International Bank for Reconstruction and Development and the International
@@ -17024,7 +17080,8 @@
                             memorandum, dated Oct. 20, 1952, circulating this letter to members of
                             the <gloss target="#t_NAC1">NAC</gloss>, is not printed.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-10-21">October 21, 1952</date>.</dateline>
+                            when="1952-10-21" calendar="gregorian">October 21,
+                        1952</date>.</dateline>
                     <p rend="flushleft">Document No. 1388</p>
                     <p><hi rend="smallcaps">Dear Mr. Javits</hi>: The pressure of work in Mexico
                         City in conjunction with the Seventh Annual Meetings of the Fund and Bank
@@ -17088,7 +17145,8 @@
                             Washington, May 18, 1953</hi></head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1953-05-18"
-                            ana="#date_undated-inferred-from-document-head">May 18, 1953</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian">May
+                            18, 1953</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">Secretary G. M. Humphrey (Chairman), Treasury Department</p>
@@ -17265,7 +17323,7 @@
                             of a memorandum by the Council’s Secretary, dated June 10, 1953, not
                             printed.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-06-10">June 10, 1953</date>.</dateline>
+                            when="1953-06-10" calendar="gregorian">June 10, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">restricted</hi></p>
                     <p rend="flushleft">Document No. 1466 (Revised)</p>
                     <p rend="flushleft"><hi rend="italic">Export-Import Bank Memorandum—Basic Policy
@@ -17491,7 +17549,8 @@
                             Washington, June 15, 1953</hi></head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1953-06-15"
-                            ana="#date_undated-inferred-from-document-head">June 15, 1953</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >June 15, 1953</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">Mr. Andrew N. Overby (Acting Chairman), Treasury Department <list>
@@ -17709,7 +17768,7 @@
                             memorandum was cleared by the <gloss target="#t_NAC1">NAC</gloss> Staff
                             Committee at its meeting of July 2, 1953.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-07-02">July 2, 1953</date>.</dateline>
+                            when="1953-07-02" calendar="gregorian">July 2, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">restricted</hi></p>
                     <p rend="flushleft">Document No. 1487</p>
                     <list type="subject">
@@ -17870,7 +17929,8 @@
                             Council on International Monetary and Financial Problems (<persName
                                 type="to">Glendinning</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-12-04">December 4, 1953</date>.</dateline>
+                            when="1953-12-04" calendar="gregorian">December 4,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">restricted</hi></p>
                     <p rend="flushleft">Document No. 1566</p>
                     <list type="subject">
@@ -18274,7 +18334,8 @@
                             Economic Policy (Randall Commission), see the editorial note, <ref
                                 target="#pg_49">p. 49</ref>.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-12-15">December 15, 1953</date>.</dateline>
+                            when="1953-12-15" calendar="gregorian">December 15,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -18648,8 +18709,8 @@
                     <head><hi rend="italic">Memorandum of Conversation, by the Special Assistant in
                             the Office of Financial and Development Policy (Robinson)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-12-07" type="conversation-or-meeting-date">December 7,
-                            1953</date>.</dateline>
+                            when="1953-12-07" type="conversation-or-meeting-date"
+                            calendar="gregorian">December 7, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -18806,7 +18867,8 @@
                                 >Robinson</persName>) to the Director of That Office (<persName
                                 type="to">Corbett</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-01-14">January 14, 1954</date>.</dateline>
+                            when="1954-01-14" calendar="gregorian">January 14,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -18937,7 +18999,8 @@
                                 >Humphrey</persName>) to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-01-07">January 7, 1954</date>.</dateline>
+                            when="1954-01-07" calendar="gregorian">January 7,
+                        1954</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Foster</hi>: In view of the fact that Senator
                             Capehart<note n="1" xml:id="d111fn1">Homer E. Capehart (<gloss
                                 target="#t_R1">R</gloss>.–Ind.), Chairman, Banking and Currency
@@ -18960,7 +19023,8 @@
                     <frus:attachment>
                         <note rend="inline" type="source">[Attachment 1]</note>
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]
-                                <date when="1954-01-07">January 7, 1954</date>.</dateline>
+                                <date when="1954-01-07" calendar="gregorian">January 7,
+                            1954</date>.</dateline>
                         <p rend="center"><hi rend="smallcaps">Action for Consideration of the
                                 National Advisory Council on International Monetary and Financial
                                 Problems</hi></p>
@@ -18984,7 +19048,8 @@
                     <frus:attachment>
                         <note rend="inline" type="source">[Attachment 2]</note>
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]
-                                <date when="1953-09-24">September 24, 1953</date>.</dateline>
+                                <date when="1953-09-24" calendar="gregorian">September 24,
+                                1953</date>.</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">Statement of Principles Governing
                                 the United States Position in Respect to Loans by the Export-Import
                                 Bank of Washington and the International Bank for Reconstruction and
@@ -19046,7 +19111,8 @@
                                 >Humphrey</persName>) to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-01-14">January 14, 1954</date>.</dateline>
+                            when="1954-01-14" calendar="gregorian">January 14,
+                        1954</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Foster</hi>: Since writing you with respect to the
                         activities of the Export-Import Bank and the International Bank, I have had
                         a number of conferences concerning the most effective way of using the
@@ -19066,7 +19132,8 @@
                     <frus:attachment>
                         <note rend="inline" type="source">[Enclosure]</note>
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]
-                                <date when="1954-01-14">January 14, 1954</date>.</dateline>
+                                <date when="1954-01-14" calendar="gregorian">January 14,
+                            1954</date>.</dateline>
                         <p rend="center"><hi rend="smallcaps">Action for Consideration of the
                                 National Advisory Council on International Monetary and Financial
                                 Problems</hi></p>
@@ -19116,7 +19183,8 @@
                             Washington, January 22, 1954</hi></head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1954-01-22"
-                            ana="#date_undated-inferred-from-document-head">January 22, 1954</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >January 22, 1954</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">for use of <gloss target="#t_NAC1"
                                 >nac</gloss> agencies only</hi></p>
@@ -19189,7 +19257,7 @@
                             approved by the <gloss target="#t_NAC1">NAC</gloss> Staff Committee on
                             Mar. 22.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-03-23">March 23, 1954</date>.</dateline>
+                            when="1954-03-23" calendar="gregorian">March 23, 1954</date>.</dateline>
                     <p rend="flushleft">Staff Document No. 708 (Revised)</p>
                     <p rend="flushleft"><hi rend="smallcaps">Position Paper for the 17th Session of
                                 <gloss target="#t_ECOSOC1">ECOSOC</gloss><note n="2"
@@ -19424,7 +19492,8 @@
                             Washington, July 2, 1954</hi></head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1954-07-02"
-                            ana="#date_undated-inferred-from-document-head">July 2, 1954</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >July 2, 1954</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">for <gloss target="#t_NAC1">nac</gloss>
                             use only</hi></p>
@@ -19556,7 +19625,7 @@
                                 <gloss target="#t_NAC1">NAC</gloss> Staff Committee, dated July 9,
                             1954, not printed.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-07-09">July 9, 1954</date>.</dateline>
+                            when="1954-07-09" calendar="gregorian">July 9, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">for <gloss target="#t_NAC1">nac</gloss>
                             use only</hi></p>
                     <p rend="flushleft">Document No. 1657</p>
@@ -19758,7 +19827,8 @@
                             containing a draft <gloss target="#t_NAC1">NAC</gloss> action is not
                             printed.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-10-08">October 8, 1954</date>.</dateline>
+                            when="1954-10-08" calendar="gregorian">October 8,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">for <gloss target="#t_NAC1">nac</gloss>
                             use only</hi></p>
                     <p rend="flushleft">Document No. 1690</p>
@@ -19955,7 +20025,8 @@
                             Washington, October 11, 1954</hi></head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1954-10-11"
-                            ana="#date_undated-inferred-from-document-head">October 11, 1954</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >October 11, 1954</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">for <gloss target="#t_NAC1">nac</gloss>
                             use only</hi></p>
@@ -20136,7 +20207,8 @@
                                 target="#t_NAC1">NAC</gloss> action and a transmittal memorandum by
                             Glendinning are not printed.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-11-02">November 2, 1954</date>.</dateline>
+                            when="1954-11-02" calendar="gregorian">November 2,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">for <gloss target="#t_NAC1">nac</gloss>
                             use only</hi></p>
                     <p rend="flushleft">Document No. 1700</p>
@@ -20315,7 +20387,8 @@
                             Washington, November 5, 1954</hi></head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1954-11-05"
-                            ana="#date_undated-inferred-from-document-head">November 5, 1954</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >November 5, 1954</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">for <gloss target="#t_NAC1">nac</gloss>
                             use only</hi></p>
@@ -20524,7 +20597,8 @@
                         <note n="1" xml:id="d122fn1">Regarding this publication, see footnote 1,
                                 <ref target="#pg_120">p. 120</ref>.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-02-18">February 18, 1952</date>.</dateline>
+                            when="1952-02-18" calendar="gregorian">February 18,
+                        1952</date>.</dateline>
                     <note rend="inline" type="source">[Extract]</note>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft">Issue No. 344</p>
@@ -20700,7 +20774,7 @@
                             Policy (<persName type="to">Klemmer</persName>)</hi><note n="1"
                             xml:id="d123fn1">Drafted by Thayer.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-03-06">March 6, 1952</date>.</dateline>
+                            when="1952-03-06" calendar="gregorian">March 6, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -20843,7 +20917,7 @@
                         <hi rend="italic">Current Economic Developments,</hi> lot 70 D 467</note>
                     <head><hi rend="italic">Current Economic Developments</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-04-28">April 28, 1952</date>.</dateline>
+                            when="1952-04-28" calendar="gregorian">April 28, 1952</date>.</dateline>
                     <note rend="inline" type="source">[Extract]</note>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft">Issue No. 354</p>
@@ -20971,7 +21045,7 @@
                             Chairman of the Civil Aeronautics Board (<persName type="to"
                                 >Nyrop</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-05-01">May 1, 1952</date>.</dateline>
+                            when="1952-05-01" calendar="gregorian">May 1, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><hi rend="smallcaps">My Dear Mr. Nyrop</hi>: Reference is made to the
                         Department’s letter of January 22, 1952<note n="1" xml:id="d125fn1">Not
@@ -21290,7 +21364,7 @@
                         <hi rend="italic">Current Economic Developments,</hi> lot 70 D 467</note>
                     <head><hi rend="italic">Current Economic Developments</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-07-07">July 7, 1952</date>.</dateline>
+                            when="1952-07-07" calendar="gregorian">July 7, 1952</date>.</dateline>
                     <note rend="inline" type="source">[Extract]</note>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft">Issue No. 364</p>
@@ -21423,7 +21497,8 @@
                             has been discussed with <gloss target="#t_EUR1">EUR</gloss> and is
                             satisfactory to that bureau.”</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-10-21">October 21, 1952</date>.</dateline>
+                            when="1952-10-21" calendar="gregorian">October 21,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <p rend="center"><hi rend="smallcaps">Current Implementation of</hi>
                         <gloss target="#t_NSC1">NSC</gloss> 15/3<note n="2" xml:id="d127fn2"><gloss
@@ -21510,7 +21585,8 @@
                             National Security Council (<persName type="to">Lay</persName>)</hi><note
                             n="1" xml:id="d128fn1">A cover sheet is not printed.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-02-09">February 9, 1953</date>.</dateline>
+                            when="1953-02-09" calendar="gregorian">February 9,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -21561,7 +21637,7 @@
                             to the Middle East, see <ref target="frus1952-54v09p1">volume <hi
                                     rend="smallcaps">ix</hi></ref>.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Beirut</hi></placeName>,] <date
-                            when="1953-05-14">May 14, 1953</date>.</dateline>
+                            when="1953-05-14" calendar="gregorian">May 14, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -21911,7 +21987,8 @@
                             Under Secretary of State (<persName type="to"
                         >Smith</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-09-16">September 16, 1953</date>.</dateline>
+                            when="1953-09-16" calendar="gregorian">September 16,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -22095,7 +22172,8 @@
                             Chairman of the Civil Aeronautics Board (<persName type="to"
                                 >Ryan</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-09-29">September 29, 1953</date>.</dateline>
+                            when="1953-09-29" calendar="gregorian">September 29,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><hi rend="smallcaps">My Dear Mr. RYAN</hi>: The Department of State has
                         reviewed the Trans-Pacific Certificate Renewal Case (<gloss target="#t_CAB1"
@@ -22266,7 +22344,8 @@
                             European Affairs (<persName type="from">Merchant</persName>) to the
                                 <gloss type="to">Secretary of State</gloss></hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-12-09">December 9, 1953</date>.</dateline>
+                            when="1953-12-09" calendar="gregorian">December 9,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -22334,7 +22413,7 @@
                             the source text.</note>
                         <dateline>[<hi rend="smallcaps"><date when="1953-12-09T23:59:59-05:00"
                                     ana="#date_undated-inferred-from-document-content"
-                                    >Undated</date></hi>.]</dateline>
+                                    calendar="gregorian">Undated</date></hi>.]</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                         <p rend="flushleft"><hi rend="smallcaps">Likely Principal Defense Points
                                 Concerning Their Need to Have Exclusive Jurisdiction of a Bloc of
@@ -22406,7 +22485,7 @@
                             Assistant Secretary of State for European Affairs (<persName type="to"
                                 >Merchant</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Paris</hi></placeName>,] <date
-                            when="1954-03-09">March 9, 1954</date>.</dateline>
+                            when="1954-03-09" calendar="gregorian">March 9, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><hi rend="smallcaps">Dear Livie</hi>: I am very much disturbed about
                         developments in connection with the US reservation with respect to the
@@ -22472,8 +22551,8 @@
                     <head><hi rend="italic">Memorandum of Conversation, by the Director of the
                             Executive Secretariat (Scott)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-04-23" type="conversation-or-meeting-date">April 23,
-                            1954</date>.</dateline>
+                            when="1954-04-23" type="conversation-or-meeting-date"
+                            calendar="gregorian">April 23, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -22516,7 +22595,7 @@
                     <head><hi rend="italic">Current Economic Developments</hi></head>
                     <note rend="inline" type="source">[Extract]</note>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-05-11">May 11, 1954</date>.</dateline>
+                            when="1954-05-11" calendar="gregorian">May 11, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft">Issue No. 441</p>
                     <p rend="flushleft"><hi rend="italic">Review Completed of US Aviation
@@ -22781,7 +22860,7 @@
                             Council (<persName type="to">Lay</persName>)</hi><note n="1"
                             xml:id="d136fn1">A cover sheet is not printed.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-05-12">May 12, 1954</date>.</dateline>
+                            when="1954-05-12" calendar="gregorian">May 12, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -22834,7 +22913,7 @@
                             Regarding the Rockefeller Committee, see footnote 4, <ref
                                 target="#pg_231">p. 231</ref>.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-08-09">August 9, 1954</date>.</dateline>
+                            when="1954-08-09" calendar="gregorian">August 9, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -22995,7 +23074,8 @@
                             n="1" xml:id="d138fn1">Drafted by Snowden. Repeated for information to
                             Paris, Rome, Moscow, and Prague.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-08-10">August 10, 1954</date>.</dateline>
+                            when="1954-08-10" calendar="gregorian">August 10,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p>990. Subject: Implementation of <gloss target="#t_NSC1">NSC</gloss> 15/3. The
                         Department notes the types of questions that have arisen in your discussions
@@ -23076,7 +23156,8 @@
                             >Allen</persName>)</hi><note n="1" xml:id="d139fn1">Francis O.
                             Allen.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Beirut</hi></placeName>,] <date
-                            when="1954-12-15">December 15, 1954</date>.</dateline>
+                            when="1954-12-15" calendar="gregorian">December 15,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -23173,7 +23254,8 @@
                                 type="from">Clark</persName>) to the <gloss type="to">Members of the
                                 Committee</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-12-22">December 22, 1954</date>.</dateline>
+                            when="1954-12-22" calendar="gregorian">December 22,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -23843,7 +23925,8 @@
                             redrafted on Dec. 15 by Special Assistant to the Assistant Secretary of
                             State for Economic Affairs Radius.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-12-18">December 18, 1954</date>.</dateline>
+                            when="1954-12-18" calendar="gregorian">December 18,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><hi rend="smallcaps">Dear Mr. Gurney</hi>: In response to the Board’s request
                         for this Department’s views on the Trans-Pacific Certificate Renewal Case
@@ -23937,7 +24020,8 @@
                             and Near Eastern, South Asian, and African Affairs, and by the Office of
                             Transport and Communications Policy.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-12-27">December 27, 1954</date>.</dateline>
+                            when="1954-12-27" calendar="gregorian">December 27,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -24000,7 +24084,8 @@
                                 (<persName type="to">Hughes</persName>)</hi><note n="1"
                             xml:id="d143fn1">Drafted by H. Alberta Colclaser.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-12-28">December 28, 1954</date>.</dateline>
+                            when="1954-12-28" calendar="gregorian">December 28,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><hi rend="smallcaps">Dear Mr. Hughes</hi>: Reference is made to the Bureau of
                         the Budget’s letter of December 20, 1954 transmitting a copy of the Civil
@@ -24068,7 +24153,8 @@
                             Director of Mutual Security (<persName type="to"
                             >Harriman</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1951-10-27">October 27, 1951</date>.</dateline>
+                            when="1951-10-27" calendar="gregorian">October 27,
+                        1951</date>.</dateline>
                     <list type="subject">
                         <item>Subject:</item>
                         <item>Committee Arrangements.</item>
@@ -24221,7 +24307,8 @@
                             to the Special Assistant to the Secretary of State for Mutual Security
                             Affairs (<persName type="to">Merchant</persName>)</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-01-31">31 January 1952</date>.</dateline>
+                            when="1952-01-31" calendar="gregorian">31 January
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -24430,7 +24517,7 @@
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,
                                 <date when="1952-01-31"
                                 ana="#date_undated-inferred-from-document-content"
-                            >undated</date>.]</dateline>
+                                calendar="gregorian">undated</date>.]</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                         <p rend="center"><hi rend="smallcaps">Aid Distribution For</hi>
                             <gloss target="#t_FY1">FY</gloss> 1953</p>
@@ -24574,7 +24661,8 @@
                             Assistant to the Secretary of State for Mutual Security Affairs
                                 (<persName type="to">Merchant</persName>)</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-02-25">February 25, 1952</date>.</dateline>
+                            when="1952-02-25" calendar="gregorian">February 25,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -24643,7 +24731,8 @@
                     <frus:attachment>
                         <head>Annex A (Revised)</head>
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]
-                                <date when="1952-02-25">February 25, 1952</date>.</dateline>
+                                <date when="1952-02-25" calendar="gregorian">February 25,
+                                1952</date>.</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                         <p rend="center"><hi rend="smallcaps">Aid Distribution For</hi>
                             <gloss target="#t_FY1">FY</gloss> 1953</p>
@@ -24851,7 +24940,7 @@
                             covering memorandum has been found in Department of State
                         files.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-03-19">March 19, 1952</date>.</dateline>
+                            when="1952-03-19" calendar="gregorian">March 19, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p>In compliance with your request, there is set forth below a summary of
                         problems of current interest to <gloss target="#t_SMSA1">S/MSA</gloss>:</p>
@@ -25408,7 +25497,7 @@
                             the Director of Mutual Security (<persName type="to"
                             >Harriman</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-03-25">March 25, 1952</date>.</dateline>
+                            when="1952-03-25" calendar="gregorian">March 25, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">restricted</hi></p>
                     <p>I believe that over the course of the next two or three weeks you should
                         personally visit each member of the Senate Foreign Relations Committee and
@@ -25493,7 +25582,7 @@
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,
                                 <date when="1952-03-25"
                                 ana="#date_undated-inferred-from-document-content"
-                            >Undated</date>.]</dateline>
+                                calendar="gregorian">Undated</date>.]</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">restricted</hi></p>
                         <p rend="center"><hi rend="smallcaps">Points of Concern to Members of
                                 Congressional Committees on</hi> 1953 <hi rend="smallcaps">Mutual
@@ -25931,7 +26020,7 @@
                                 (<persName type="from">Cowen</persName>) to the <gloss type="to"
                                 >Secretary of State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-03-27">March 27, 1952</date>.</dateline>
+                            when="1952-03-27" calendar="gregorian">March 27, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -26055,7 +26144,7 @@
                             briefing the Secretary, we will be glad to be of further
                             assistance.”</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-03-19">March 19, 1952</date>.</dateline>
+                            when="1952-03-19" calendar="gregorian">March 19, 1952</date>.</dateline>
                     <list type="subject">
                         <item>Subject:</item>
                         <item>Notes for Meeting with Mr. Harriman.</item>
@@ -26118,7 +26207,8 @@
                     <frus:attachment>
                         <head>Attachment A</head>
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]
-                                <date when="1952-02-15">February 15, 1952</date>.</dateline>
+                                <date when="1952-02-15" calendar="gregorian">February 15,
+                                1952</date>.</dateline>
                         <p rend="center"><hi rend="italic">Draft Executive Order</hi></p>
                         <p rend="center"><hi rend="smallcaps">Overseas Coordination Procedures Under
                                 Section</hi> 507 <hi rend="smallcaps">of the Mutual Security Act
@@ -26295,7 +26385,7 @@
                             notation on the source text reads: “Mr. Humelsine, Mr.
                         Perkins”.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-03-20">March 20, 1952</date>.</dateline>
+                            when="1952-03-20" calendar="gregorian">March 20, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p>The Secretary met yesterday afternoon with Mr. Harriman, Mr. Draper, Mr.
                         Batt, Mr. Nash and Mr. Perkins. The Secretary told me following the meeting
@@ -26348,8 +26438,8 @@
                                 type="from">Personal Secretary</gloss> to the Secretary of State
                                 (<persName type="to">Evans</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-03-20" type="conversation-or-meeting-date">March 20,
-                            1952</date>.</dateline>
+                            when="1952-03-20" type="conversation-or-meeting-date"
+                            calendar="gregorian">March 20, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">restricted</hi></p>
                     <p>Secretary Acheson telephoned, first to Mr. Harriman who was in Florida and
                         therefore the Secretary did not speak to him, then to Mr. Kenney. He said he
@@ -26382,7 +26472,7 @@
                             n="1" xml:id="d155fn1">Drafted by Deputy Assistant Secretary
                             Bonbright.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-04-17">April 17, 1952</date>.</dateline>
+                            when="1952-04-17" calendar="gregorian">April 17, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p>We have just learned confidentially that Senator Green proposes to introduce
                         the following amendment for insertion in this year’s Mutual Security
@@ -26468,7 +26558,8 @@
                                 expressing the sympathy of the United States with the aspirations
                                 for independence of colonial peoples.”</note></head>
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,
-                                <date when="1952-04-09">April 9, 1952</date>.]</dateline>
+                                <date when="1952-04-09" calendar="gregorian">April 9,
+                            1952</date>.]</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                         <p rend="flushleft">I. <hi rend="italic">General Policy
                             Considerations</hi></p>
@@ -26636,8 +26727,8 @@
                                 type="from">Special Assistant</gloss> to the Secretary of State
                                 (<persName type="to">Battle</persName>)</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-05-14" type="conversation-or-meeting-date">May 14,
-                            1952</date>.</dateline>
+                            when="1952-05-14" type="conversation-or-meeting-date"
+                            calendar="gregorian">May 14, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
                         <item>Participants: Senator Saltonstall</item>
@@ -26720,7 +26811,7 @@
                             serving at home and abroad. It was instituted in 1945 and terminated in
                             October 1974.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-06-16">June 16, 1952</date>.</dateline>
+                            when="1952-06-16" calendar="gregorian">June 16, 1952</date>.</dateline>
                     <note rend="inline" type="source">[Extract]</note>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft">Issue No. 361</p>
@@ -26908,8 +26999,8 @@
                             Department of State, 9:30 a.m., Tuesday, June 24, 1952</hi></head>
                     <dateline>
                         <date when="1952-06-24T09:30:00-04:00"
-                            ana="#date_undated-inferred-from-document-head">June 24, 1952, 9:30
-                            a.m.</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >June 24, 1952, 9:30 a.m.</date>
                     </dateline>
                     <note rend="inline" type="source">[Extract]</note>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
@@ -26968,7 +27059,7 @@
                             n="1" xml:id="d160fn1">Sent to Thorp, Byroade, Allison, Hickerson,
                             Perkins, Miller, Andrews, and Nitze.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-07-01">July 1, 1952</date>.</dateline>
+                            when="1952-07-01" calendar="gregorian">July 1, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -27079,7 +27170,8 @@
                         <head><hi rend="italic">Paper Prepared by the Special Assistant to the
                                 Secretary of State for Mutual Security Affairs (Martin)</hi></head>
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,
-                                <date when="1952-07-02">July 2, 1952</date>.]</dateline>
+                                <date when="1952-07-02" calendar="gregorian">July 2,
+                            1952</date>.]</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                         <p rend="center"><hi rend="smallcaps">Special Studies for</hi> 1954 <hi
                                 rend="smallcaps">Mutual Security Program</hi></p>
@@ -27170,7 +27262,7 @@
                             Developments</hi>, lot 70 D 467</note>
                     <head><hi rend="italic">Current Economic Developments</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-07-21">July 21, 1952</date>.</dateline>
+                            when="1952-07-21" calendar="gregorian">July 21, 1952</date>.</dateline>
                     <note rend="inline" type="source">[Extract]</note>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft">Issue No. 366</p>
@@ -27262,7 +27354,8 @@
                                     >ii</hi></ref>.</note></head>
                     <note rend="inline" type="source">[Extract]</note>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-08-18">August 18, 1952</date>.</dateline>
+                            when="1952-08-18" calendar="gregorian">August 18,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <p rend="flushleft"><gloss target="#t_NSC1">NSC</gloss> 135 No. 3</p>
                     <p rend="center"><hi rend="smallcaps">The Mutual Security Program</hi><note
@@ -29621,7 +29714,8 @@
                         <note n="1" xml:id="d163fn1">Drafted by Parelman with copies sent to
                             McConaughy, Bonsal, Young and Flake.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-11-28">November 28, 1952</date>.</dateline>
+                            when="1952-11-28" calendar="gregorian">November 28,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -29819,7 +29913,8 @@
                         <note n="1" xml:id="d164fn1">Copies were sent to Director of the Bureau of
                             the Budget Frederick J. Lawton and Ohly.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1952-12-12">December 12, 1952</date>.</dateline>
+                            when="1952-12-12" calendar="gregorian">December 12,
+                        1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p><hi rend="smallcaps">My Dear Mr. President</hi>: During the past few days I
                         have had several talks with Fred Lawton about the proposed Mutual Security
@@ -29858,8 +29953,8 @@
                     <head><hi rend="italic">Memorandum of Conversation, by the Deputy Director of
                             the Office of African Affairs (Cyr)</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1952-12-18" type="conversation-or-meeting-date">December 18,
-                            1952</date>.</dateline>
+                            when="1952-12-18" type="conversation-or-meeting-date"
+                            calendar="gregorian">December 18, 1952</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -29945,7 +30040,8 @@
                                 >President</gloss></hi>
                         <note n="1" xml:id="d166fn1">Drafted by Sheppard.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-01-09">January 9, 1953</date>.</dateline>
+                            when="1953-01-09" calendar="gregorian">January 9,
+                        1953</date>.</dateline>
                     <list type="subject">
                         <item>Subject:</item>
                         <item>Transition to the Incoming Administration<note n="2" xml:id="d166fn2"
@@ -29999,7 +30095,8 @@
                                 type="from">Dodge</persName>) to the Director of Mutual Security
                                 (<persName type="to">Stassen</persName>)</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-02-03">February 3, 1953</date>.</dateline>
+                            when="1953-02-03" calendar="gregorian">February 3,
+                        1953</date>.</dateline>
                     <p><hi rend="smallcaps">My Dear Mr. Stassen</hi>: One of the first and most
                         important tasks of our new administration is to review the 1954 Budget and
                         to proceed toward the accomplishment of a balanced budget.</p>
@@ -30133,8 +30230,8 @@
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
                             notBefore="1953-02-16T00:00:00-05:00"
                             notAfter="1953-02-17T23:59:59-05:00"
-                            ana="#date_undated-inferred-from-document-content"
-                        >undated</date>.</dateline>
+                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                            >undated</date>.</dateline>
                     <p><hi rend="smallcaps">My Dear Mr. Secretary</hi>: Reference is made to the
                         letter from the Director of the Bureau of the Budget to the heads of all
                         executive departments and agencies, dated February 3, 1953,<note n="2"
@@ -30325,7 +30422,8 @@
                             memorandum by Sheppard, Oct. 27, 1951, <ref target="#pg_460">p.
                                 460</ref>.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-02-26">February 26, 1953</date>.</dateline>
+                            when="1953-02-26" calendar="gregorian">February 26,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p rend="flushleft"><gloss target="#t_MAAC1">MAAC</gloss> M–38</p>
                     <list type="participants">
@@ -30582,7 +30680,8 @@
                             by Jernegan, Cale, Allison, Andrews, Linder, Brown of H, and Under
                             Secretary of State Smith.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-02-26">February 26, 1953</date>.</dateline>
+                            when="1953-02-26" calendar="gregorian">February 26,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -30653,7 +30752,7 @@
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,
                                 <date when="1953-03-26"
                                 ana="#date_undated-inferred-from-document-content"
-                            >undated</date>.]</dateline>
+                                calendar="gregorian">undated</date>.]</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                         <p rend="flushleft"><hi rend="italic">Title II—Near East and
                             Africa:</hi></p>
@@ -30721,7 +30820,7 @@
                                 <gloss target="#t_SMSA1">S/MSA</gloss> for delivery to Stassen on
                             3/9/53. E. Evans, <gloss target="#t_SS1">S/S</gloss>.”</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-03-07">March 7, 1953</date>.</dateline>
+                            when="1953-03-07" calendar="gregorian">March 7, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p><hi rend="smallcaps">My Dear Mr. Stassen</hi>: In response to Mr. Dodge’s
                         letter of February 3, 1953,<note n="2" xml:id="d171fn2"><hi rend="italic"
@@ -30840,7 +30939,7 @@
                                 State</hi></head>
                         <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
                                 when="1953-03-07" ana="#date_undated-inferred-from-document-content"
-                                >undated</date>.</dateline>
+                                calendar="gregorian">undated</date>.</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                         <p rend="center">(In $ millions)</p>
                         <table rows="20" cols="3" rend="bordered">
@@ -30964,7 +31063,7 @@
                             xml:id="d172fn1">A copy of this memorandum was also sent to
                             Hopkinson.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-03-09">March 9, 1953</date>.</dateline>
+                            when="1953-03-09" calendar="gregorian">March 9, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -31404,7 +31503,7 @@
                             19.</note></head>
                     <dateline>
                         <date when="1953-03-18" ana="#date_undated-inferred-from-document-head"
-                            >March 18, 1953</date>
+                            calendar="gregorian">March 18, 1953</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <p rend="flushleft"><hi rend="smallcaps">eyes only</hi></p>
@@ -31577,7 +31676,7 @@
                             notBefore="1953-03-18T00:00:00-05:00"
                             notAfter="1953-03-30T23:59:59-05:00"
                             ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            >undated</date>.</dateline>
+                            calendar="gregorian">undated</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <p rend="center"><hi rend="smallcaps">Summary of the Report of the Director for
                             Mutual Security Pursuant to <gloss target="#t_NSC1">NSC</gloss> Action
@@ -32123,7 +32222,7 @@
                             xml:id="d175fn1">Drafted by Ohly on Apr. 1; a copy was also sent to
                             Under Secretary Robert Murphy.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-04-06">April 6, 1953</date>.</dateline>
+                            when="1953-04-06" calendar="gregorian">April 6, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p><hi rend="smallcaps">Dear Mr. Dodge</hi>: This will refer to your letter of
                         February 3, 1953<note n="2" xml:id="d175fn2"><hi rend="italic">Ante</hi>,
@@ -32625,7 +32724,7 @@
                             25. See also Eisenhower, <hi rend="italic">Mandate for Change</hi>, p.
                             133.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-04-07">April 7, 1953</date>.</dateline>
+                            when="1953-04-07" calendar="gregorian">April 7, 1953</date>.</dateline>
                     <p rend="center"><hi rend="smallcaps">Memorandum for President
                         Eisenhower</hi></p>
                     <p rend="center">(Memorandum No. 14)</p>
@@ -33176,7 +33275,7 @@
                             xml:id="d178fn1">A handwritten notation on the source text indicates it
                             was circulated to Rand and Ohly.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-05-26">May 26, 1953</date>.</dateline>
+                            when="1953-05-26" calendar="gregorian">May 26, 1953</date>.</dateline>
                     <p><hi rend="smallcaps">My Dear Mr. Rand</hi>: The results of the 1954 special
                         budget review fall substantially short of the administration’s budgetary
                         objectives.</p>
@@ -33321,7 +33420,7 @@
                             Director of Foreign Operations (<persName type="to"
                             >Stassen</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-06-08">June 8, 1953</date>.</dateline>
+                            when="1953-06-08" calendar="gregorian">June 8, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -33376,7 +33475,7 @@
                                 (<persName type="from">Stassen</persName>) to the Special Assistant
                             to the President (<persName type="to">Persons</persName>)</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-07-03">July 3, 1953</date>.</dateline>
+                            when="1953-07-03" calendar="gregorian">July 3, 1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -33504,7 +33603,8 @@
                             Developments</hi>, lot 70 D 467</note>
                     <head><hi rend="italic">Current Economic Developments</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-08-11">August 11, 1953</date>.</dateline>
+                            when="1953-08-11" calendar="gregorian">August 11,
+                        1953</date>.</dateline>
                     <note rend="inline" type="source">[Extract]</note>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft">Issue No. 420</p>
@@ -33862,7 +33962,8 @@
                             Officer in Charge of European Program Affairs in the Foreign Operations
                             Administration.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-08-20">August 20, 1953</date>.</dateline>
+                            when="1953-08-20" calendar="gregorian">August 20,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -34060,7 +34161,8 @@
                                 type="from">Stassen</persName>) to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-08-25">August 25, 1953</date>.</dateline>
+                            when="1953-08-25" calendar="gregorian">August 25,
+                        1953</date>.</dateline>
                     <p><hi rend="smallcaps">Dear oster</hi>: In carrying out the President’s
                         Reorganization Plan No. 7 and implementing the President’s Executive Orders
                         Nos. 10458 of June 1 and 10476 of August 1 and letter of instructions of
@@ -34097,7 +34199,8 @@
                                 (<persName type="from">Scott</persName>) to the <gloss type="to"
                                 >Acting Secretary of State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-09-18">September 18, 1953</date>.</dateline>
+                            when="1953-09-18" calendar="gregorian">September 18,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -34157,7 +34260,8 @@
                         <head><hi rend="italic">Memorandum of Conversation, by Walter Trulock of the
                                 Staff Operations Section of the Executive Secretariat</hi></head>
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]
-                                <date when="1953-09-04">September 4, 1953</date>.</dateline>
+                                <date when="1953-09-04" calendar="gregorian">September 4,
+                                1953</date>.</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                         <p rend="flushleft">Subject: 1955 Foreign Aid—<gloss target="#t_NEA1"
                                 >NEA</gloss></p>
@@ -34402,7 +34506,8 @@
                                 the Staff Operations Section of the Executive
                             Secretariat</hi></head>
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]
-                                <date when="1953-09-04">September 4, 1953</date>.</dateline>
+                                <date when="1953-09-04" calendar="gregorian">September 4,
+                                1953</date>.</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                         <p rend="flushleft">Subject: <gloss target="#t_FY1">FY</gloss> 1955 Foreign
                             Aid—Far East</p>
@@ -34564,7 +34669,8 @@
                             Director of Foreign Operations (<persName type="to"
                             >Stassen</persName>)</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-09-28">September 28, 1953</date>.</dateline>
+                            when="1953-09-28" calendar="gregorian">September 28,
+                        1953</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Harold</hi>: I have examined with interest the
                         proposed organization chart of <gloss target="#t_FOA1">FOA</gloss> which you
                         forwarded to me on August 25.<note n="1" xml:id="d186fn1">See the letter
@@ -34660,7 +34766,8 @@
                                 type="from">Stassen</persName>) to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-09-30">September 30, 1953</date>.</dateline>
+                            when="1953-09-30" calendar="gregorian">September 30,
+                        1953</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Foster</hi>: Thank you for your thoughtful letter
                         of September 28.<note n="1" xml:id="d187fn1"><ref target="#d186"><hi
                                     rend="italic">Supra</hi></ref>.</note> I am pleased that it is
@@ -34732,7 +34839,8 @@
                             on Nov. 11, with the assistance of Nolting. Cleared by Sargeant, Waugh,
                             Lourie, and Walter B. Smith.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-11-12">November 12, 1953</date>.</dateline>
+                            when="1953-11-12" calendar="gregorian">November 12,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><hi rend="smallcaps">Dear Harold</hi>: I have recently taken the opportunity
                         to review with some of my colleagues the subjects covered in our exchange of
@@ -34868,7 +34976,8 @@
                             you have any questions call for an appointment.” The Secretary’s
                             comments are noted in footnotes 2–5 below.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-11-21">November 21, 1953</date>.</dateline>
+                            when="1953-11-21" calendar="gregorian">November 21,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -34918,7 +35027,8 @@
                                 Security Affairs (<persName type="to"
                             >Nolting</persName>)</hi></head>
                         <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                                when="1953-11-24">November 24, 1953</date>.</dateline>
+                                when="1953-11-24" calendar="gregorian">November 24,
+                            1953</date>.</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                         <p>Consideration of the following three questions will help, I think, to
                             reach conclusions on the major issues concerning the Mutual Security
@@ -35155,7 +35265,8 @@
                             letter were sent to the Director of Foreign Operations and the Assistant
                             Secretary of Defense for International Security Affairs.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-12-06">December 6, 1953</date>.</dateline>
+                            when="1953-12-06" calendar="gregorian">December 6,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p><hi rend="smallcaps">Dear Mr. Dodge</hi>: The Acting Secretary of State has
                         approved the transmittal to you of the following views of the Department of
@@ -35523,7 +35634,8 @@
                                 >Nolting</persName>) to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1953-12-15">December 15, 1953</date>.</dateline>
+                            when="1953-12-15" calendar="gregorian">December 15,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -35728,7 +35840,8 @@
                                 >Nolting</persName>) to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1953-12-24">December 24, 1953</date>.</dateline>
+                            when="1953-12-24" calendar="gregorian">December 24,
+                        1953</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -35978,7 +36091,8 @@
                             Agriculture, and to the Director of the Bureau of the
                         Budget.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-01-30">January 30, 1954</date>.</dateline>
+                            when="1954-01-30" calendar="gregorian">January 30,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -36087,7 +36201,8 @@
                                 (<persName type="from">Hughes</persName>) to the Director of Foreign
                             Operations (<persName type="to">Stassen</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-02-04">February 4, 1954</date>.</dateline>
+                            when="1954-02-04" calendar="gregorian">February 4,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><hi rend="smallcaps">My Dear Mr. Stassen</hi>: Thank you for sending the
                         Bureau of the Budget your memorandum of January 30, 1954 on “Presentation of
@@ -36130,7 +36245,8 @@
                             date with Roger Kyes will cover this. HES[tassen]”. Rand was Deputy
                             Director of Foreign Operations.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-02-11">February 11, 1954</date>.</dateline>
+                            when="1954-02-11" calendar="gregorian">February 11,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><hi rend="smallcaps">Dear Harold</hi>: I should like to reply in some detail
                         to your memorandum of January 30, 1954 to the Secretary of State, Secretary
@@ -36282,7 +36398,7 @@
                             see <ref target="frus1952-54v02p1">volume <hi rend="smallcaps"
                                 >ii</hi></ref>.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-03-11">March 11, 1954</date>.</dateline>
+                            when="1954-03-11" calendar="gregorian">March 11, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <p rend="flushleft"><gloss target="#t_NSC1">NSC</gloss> 5407 Part 3</p>
                     <p rend="center"><hi rend="smallcaps">The Mutual Security Program</hi></p>
@@ -38572,7 +38688,7 @@
                             Newman, Special Assistant to the Secretary of State for Mutual Security
                             Affairs.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-03-12">March 12, 1954</date>.</dateline>
+                            when="1954-03-12" calendar="gregorian">March 12, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -38648,7 +38764,7 @@
                                 State</gloss></hi><note n="1" xml:id="d198fn1">Drafted by Nolting
                             and John P. Furman.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-03-18">March 18, 1954</date>.</dateline>
+                            when="1954-03-18" calendar="gregorian">March 18, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -38734,7 +38850,7 @@
                             Assistant to the Secretary of State for Mutual Security Affairs
                                 (<persName type="to">Nolting</persName>)</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-03-20">March 20, 1954</date>.</dateline>
+                            when="1954-03-20" calendar="gregorian">March 20, 1954</date>.</dateline>
                     <p>Re the Secretary’s conversation Thursday night<note n="1" xml:id="d199fn1"
                             >Mar. 18.</note> with Mr. Stassen, I tried to debrief the Secretary on
                         his dinner with Mr. Stassen and all I could get was the following
@@ -38768,7 +38884,7 @@
                             to the President, Aug. 30, 1954, <ref target="#pg_740">p.
                             740</ref>.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-03-24">March 24, 1954</date>.</dateline>
+                            when="1954-03-24" calendar="gregorian">March 24, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p>The President has asked for a committee to consider immediately the problems
                         related to the presentation of the 1955 economic and military aid programs
@@ -38826,7 +38942,7 @@
                         >supra</hi></ref>.</note></head>
                     <dateline>
                         <date when="1954-04-06" ana="#date_undated-inferred-from-document-head"
-                            >April 6, 1954</date>
+                            calendar="gregorian">April 6, 1954</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
@@ -38971,7 +39087,7 @@
                                 >Nolting</persName>) to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-07-12">July 12, 1954</date>.</dateline>
+                            when="1954-07-12" calendar="gregorian">July 12, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -39090,7 +39206,7 @@
                                 >Nolting</persName>) to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, [<date
-                            when="1954-07-12">July 12, 1954</date>].</dateline>
+                            when="1954-07-12" calendar="gregorian">July 12, 1954</date>].</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -39170,7 +39286,8 @@
                             that the “Council note Mr. Cutler’s memorandum to the
                         President.”</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-08-30">August 30, 1954</date>.</dateline>
+                            when="1954-08-30" calendar="gregorian">August 30,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -39286,7 +39403,7 @@
                                 <date notBefore="1954-08-01T00:00:00-04:00"
                                 notAfter="1954-08-30T23:59:59-04:00"
                                 ana="#date_undated-inferred-from-document-content"
-                            >undated</date>.]</dateline>
+                                calendar="gregorian">undated</date>.]</dateline>
                         <p rend="center"><hi rend="italic">Paper Prepared in the Bureau of the
                                 Budget</hi></p>
                         <p rend="center"><hi rend="smallcaps">Explanatory Statement on Major Points
@@ -39391,7 +39508,8 @@
                             Developments</hi>, lot 70 D 467</note>
                     <head><hi rend="italic">Current Economic Developments</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-08-31">August 31, 1954</date>.</dateline>
+                            when="1954-08-31" calendar="gregorian">August 31,
+                        1954</date>.</dateline>
                     <note rend="inline" type="source">[Extract]</note>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft">Issue No. 449</p>
@@ -39512,7 +39630,8 @@
                             Defense for International Security Affairs (<persName type="to"
                                 >Hensel</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-09-15">September 15, 1954</date>.</dateline>
+                            when="1954-09-15" calendar="gregorian">September 15,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><hi rend="smallcaps">Dear Struve</hi>: Confirming our luncheon discussion, it
                         is my suggestion that we proceed under the President’s Executive Order as
@@ -39571,7 +39690,8 @@
                             Hoover, Jr., was designated as Under Secretary of State on Aug. 18,
                             1954. He formally assumed his post on Oct. 4.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-09-20">September 20, 1954</date>.</dateline>
+                            when="1954-09-20" calendar="gregorian">September 20,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -39630,7 +39750,8 @@
                                 State</hi><note n="4" xml:id="d208fn4">Sent through Charles
                                 Saltzman, Under Secretary of State for Administration.</note></head>
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]
-                                <date when="1954-09-09">September 9, 1954</date>.</dateline>
+                                <date when="1954-09-09" calendar="gregorian">September 9,
+                                1954</date>.</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                         <p rend="flushleft">Subject: Planning for Assumption of Administration of
                             Foreign Economic Assistance Programs and Coordination of Foreign
@@ -39742,7 +39863,8 @@
                                 Smith to Secretary Dulles, <ref target="#d209"><hi rend="italic"
                                         >infra</hi></ref>.</note></head>
                         <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]
-                                <date when="1954-09-09">September 9, 1954</date>.</dateline>
+                                <date when="1954-09-09" calendar="gregorian">September 9,
+                                1954</date>.</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">officialy use only</hi></p>
                         <p rend="flushleft">Subject: Planning for Transfer of Administration of
                             Foreign Economic and Military Assistance Programs</p>
@@ -39796,7 +39918,8 @@
                         <note n="1" xml:id="d209fn1">Also addressed to Under Secretary of
                             State-designate Hoover.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-09-23">September 23, 1954</date>.</dateline>
+                            when="1954-09-23" calendar="gregorian">September 23,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p>I discussed the substance of the attached memorandum from Mr. Nolting<note
                             n="2" xml:id="d209fn2">Reference is presumably to the memorandum by
@@ -39870,7 +39993,8 @@
                                 target="#t_MSP1">MSP</gloss>
                             <gloss target="#t_FY1">FY</gloss> 1956”)</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-10-01">October 1, 1954</date>.</dateline>
+                            when="1954-10-01" calendar="gregorian">October 1,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -41412,7 +41536,8 @@
                                 >Parelman</persName>) to the Assistant Secretary of State for Far
                             Eastern Affairs (<persName type="to">Robertson</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-10-04">October 4, 1954</date>.</dateline>
+                            when="1954-10-04" calendar="gregorian">October 4,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -41472,7 +41597,8 @@
                                 target="#t_NSC1">NSC</gloss> 5434, see <ref target="#d213"><hi
                                     rend="italic">infra</hi></ref>.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-10-04">October 4, 1954</date>.</dateline>
+                            when="1954-10-04" calendar="gregorian">October 4,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -41530,7 +41656,7 @@
                             15.</note></head>
                     <dateline>
                         <date when="1954-10-14" ana="#date_undated-inferred-from-document-head"
-                            >October 14, 1954</date>
+                            calendar="gregorian">October 14, 1954</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <p>Present at the 217th Council meeting were the Acting Secretary of State,
@@ -41820,7 +41946,8 @@
                             implementation of <gloss target="#t_NSC1">NSC</gloss>
                         5434/1.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-10-18">October 18, 1954</date>.</dateline>
+                            when="1954-10-18" calendar="gregorian">October 18,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="flushleft"><gloss target="#t_NSC1">NSC</gloss> 5434/1</p>
                     <p rend="center"><hi rend="smallcaps">Procedures for Periodic <gloss
@@ -41961,8 +42088,8 @@
                                     target="#t_MSA1">MSA</gloss> files, lot 56 D 551, “Secty’s Memos
                                 of Conv.”)</p></note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Paris</hi></placeName>,] <date
-                            when="1954-10-21" type="conversation-or-meeting-date">October 21,
-                            1954</date>.</dateline>
+                            when="1954-10-21" type="conversation-or-meeting-date"
+                            calendar="gregorian">October 21, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="center"><hi rend="smallcaps">Foreign Operations</hi></p>
                     <p rend="flushleft"><hi rend="italic">I. Broad Objective:</hi></p>
@@ -42164,8 +42291,8 @@
                     <head><hi rend="italic">Memorandum of Conversation, by the Secretary of
                             State</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-11-19" type="conversation-or-meeting-date">November 19,
-                            1954</date>.</dateline>
+                            when="1954-11-19" type="conversation-or-meeting-date"
+                            calendar="gregorian">November 19, 1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">officialy use only</hi></p>
                     <p rend="center"><hi rend="smallcaps">Memorandum of Conversation With Mr.
                             Stassen</hi></p>
@@ -42222,7 +42349,8 @@
                                 >Nolting</persName>) to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-11-30">November 30, 1954</date>.</dateline>
+                            when="1954-11-30" calendar="gregorian">November 30,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -42364,7 +42492,8 @@
                                 >Nolting</persName>) to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-12-06">December 6, 1954</date>.</dateline>
+                            when="1954-12-06" calendar="gregorian">December 6,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -42439,7 +42568,8 @@
                             Eisenhower Library, John Foster Dulles papers, 1951–1959, “ICA
                             Matters”.</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-12-07">December 7, 1954</date>.</dateline>
+                            when="1954-12-07" calendar="gregorian">December 7,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">top secret</hi></p>
                     <p rend="flushleft"><hi rend="smallcaps">eyes only</hi></p>
                     <list type="subject">
@@ -42566,7 +42696,8 @@
                     <head><hi rend="italic">Memorandum to the President by the Director of Foreign
                             Operations (Stassen)</hi></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-12-09">December 9, 1954</date>.</dateline>
+                            when="1954-12-09" calendar="gregorian">December 9,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <list type="subject">
                         <item>Subject:</item>
@@ -42798,7 +42929,8 @@
                             organizational arrangements for carrying on the Mutual Security Program
                             in fiscal year 1956.”</note></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-12-10">December 10, 1954</date>.</dateline>
+                            when="1954-12-10" calendar="gregorian">December 10,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">secret</hi></p>
                     <p rend="center"><hi rend="smallcaps">Proposed Organizational Arrangements for
                             Carrying on the Mutual Security Program in</hi>
@@ -42969,7 +43101,8 @@
                             dated December 13, 1954.” The copy printed here is that sent to
                             Nolting.</note></head>
                     <dateline><placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                            when="1954-12-13">December 13, 1954</date>.</dateline>
+                            when="1954-12-13" calendar="gregorian">December 13,
+                        1954</date>.</dateline>
                     <p><hi rend="smallcaps">My Dear Mr. Stassen</hi>: Your budget estimates for the
                         fiscal year 1956 and the information presented by your representatives and
                         those of the other agencies concerned have been given careful analysis. The
@@ -43071,8 +43204,8 @@
                             and resumed at 2:30 p.m. to 5:45 p.m.</note></head>
                     <dateline>
                         <date from="1954-12-13T08:30:00-05:00" to="1954-12-13T17:45:00-05:00"
-                            ana="#date_undated-inferred-from-document-head">December 13, 1954, 8:30
-                            a.m. to noon and 2:30 p.m. to 5:45 p.m.</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >December 13, 1954, 8:30 a.m. to noon and 2:30 p.m. to 5:45 p.m.</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
@@ -43184,8 +43317,8 @@
                             a.m.</note></head>
                     <dateline>
                         <date from="1954-12-14T08:30:00-05:00" to="1954-12-14T11:45:00-05:00"
-                            ana="#date_undated-inferred-from-document-head">December 14, 1954, 8:30
-                            a.m. to 11:45 a.m.</date>
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            >December 14, 1954, 8:30 a.m. to 11:45 a.m.</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <list type="participants">
@@ -43346,7 +43479,8 @@
                                 type="from">Stassen</persName>) to the Director of the Bureau of the
                             Budget (<persName type="to">Hughes</persName>)</hi></head>
                     <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,] <date
-                            when="1954-12-23">December 23, 1954</date>.</dateline>
+                            when="1954-12-23" calendar="gregorian">December 23,
+                        1954</date>.</dateline>
                     <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                     <p><hi rend="smallcaps">Dear Mr. Hughes</hi>: It is noted that in the draft of
                         the Budget Message, you have included two alternative sections for decision
@@ -43406,7 +43540,7 @@
                                 <date notBefore="1954-12-14T00:00:00-05:00"
                                 notAfter="1954-12-23T23:59:59-05:00"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>.]</dateline>
+                                calendar="gregorian">undated</date>.]</dateline>
                         <p rend="flushleft"><hi rend="smallcaps">confidential</hi></p>
                         <p rend="center"><hi rend="smallcaps">Suggested Draft for Budget Message of
                                 the President</hi></p>

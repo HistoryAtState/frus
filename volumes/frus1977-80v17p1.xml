@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Publishing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date type="publication-date">2016</date>
+                <date type="publication-date" calendar="gregorian">2016</date>
                 <idno type="frus">frus1977-80v17p1</idno>
             </publicationStmt>
             <sourceDesc>
@@ -284,7 +284,7 @@
                     <lb/>
                     <orgName>Bureau of Public Affairs</orgName>
                     <lb/>
-                    <date when="2016-11">November 2016</date>
+                    <date when="2016-11" calendar="gregorian">November 2016</date>
                 </closer>
                 <gap quantity="1" unit="pages" reason="convenience"/>
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
@@ -2299,7 +2299,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Addis Ababa</placeName>, <date
-                                when="1977-02-08T15:35:00+00:00">February 8, 1977, 1535Z</date>
+                                when="1977-02-08T15:35:00+00:00" calendar="gregorian">February 8,
+                                1977, 1535Z</date>
                         </dateline>
                     </opener>
                     <p>764. Subj: The New Ethiopian Government—An Analysis.</p>
@@ -2494,7 +2495,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date
-                                when="1977-02-23T15:36:00+00:00">February 23, 1977, 1536Z</date>
+                                when="1977-02-23T15:36:00+00:00" calendar="gregorian">February 23,
+                                1977, 1536Z</date>
                         </dateline>
                     </opener>
                     <p>40108. Subject: Letter From Ambassador <persName corresp="#p_YAJ_1"
@@ -2588,8 +2590,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-03-17">March 17,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-03-17"
+                                calendar="gregorian">March 17, 1977</date>
                         </dateline>
                     </opener>
                     <list type="to">
@@ -2693,8 +2695,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-03-21">March 21,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-03-21"
+                                calendar="gregorian">March 21, 1977</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -2783,7 +2785,8 @@
                             <placeName>Washington</placeName>, <date
                                 notBefore="1977-03-21T00:00:00-05:00"
                                 notAfter="1977-03-25T23:59:59-04:00"
-                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -2835,7 +2838,8 @@
                             <placeName>Washington</placeName>, <date
                                 notBefore="1977-03-25T00:00:00-05:00"
                                 notAfter="1977-03-28T23:59:59-04:00"
-                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -2922,8 +2926,8 @@
                             <idno type="document-identifier">IM 76.1–1–77</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-03-28">March 28,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-03-28"
+                                calendar="gregorian">March 28, 1977</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are the title page and table of contents.]</p>
@@ -3016,8 +3020,8 @@
                             <idno type="document-identifier">DIA IAPPR 109–77</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-03-29">March 29,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-03-29"
+                                calendar="gregorian">March 29, 1977</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are a cover sheet and a map of the Horn of Africa.]</p>
@@ -3077,7 +3081,8 @@
                             <placeName>Washington</placeName>, <date
                                 notBefore="1977-03-29T00:00:00-05:00"
                                 notAfter="1977-04-11T16:00:00-05:00"
-                                ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are the title page and the table of contents.]</p>
@@ -4009,8 +4014,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1977-04-11T16:00:00"
-                                to="1977-04-11T17:25:00">April 11, 1977, 4–5:25
-                            p.m</date>.</dateline>
+                                to="1977-04-11T17:25:00" calendar="gregorian">April 11, 1977, 4–5:25
+                                p.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -4231,8 +4236,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-04-19">April 19,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-04-19"
+                                calendar="gregorian">April 19, 1977</date>
                         </dateline>
                     </opener>
                     <p>The enclosed note from the President speaks for itself. You will recall that
@@ -4266,8 +4271,8 @@
                             <note n="3" xml:id="d12fn3">Secret. The note is handwritten.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-04-19">April 19,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-04-19"
+                                calendar="gregorian">April 19, 1977</date>
                         </dateline>
                         <p>To <persName corresp="#p_VCR_1">Cy</persName> &amp; <persName
                                 corresp="#p_BZ_1">Zbig</persName> &amp; <persName corresp="#p_BH_1"
@@ -4295,8 +4300,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-04-22">April 22,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-04-22"
+                                calendar="gregorian">April 22, 1977</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
@@ -4338,8 +4343,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-04-23">April 23,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-04-23"
+                                calendar="gregorian">April 23, 1977</date>
                         </dateline>
                     </opener>
                     <p rend="sectiontitleital">Ethiopia</p>
@@ -4399,7 +4404,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-04-25"
-                                ana="#date_undated-inferred-from-document-content">undated</date>
+                                ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">undated</date>
                         </dateline>
                     </opener>
                     <p rend="center">Situation Report No. 3</p>
@@ -4517,8 +4523,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-04-26">April 26,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-04-26"
+                                calendar="gregorian">April 26, 1977</date>
                         </dateline>
                     </opener>
                     <p>1. <hi rend="italic">Ethiopia:</hi> The Ethiopian Government has agreed to an
@@ -4567,7 +4573,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date
-                                when="1977-05-04T00:39:00+00:00">May 4, 1977, 0039Z</date>
+                                when="1977-05-04T00:39:00+00:00" calendar="gregorian">May 4, 1977,
+                                0039Z</date>
                         </dateline>
                     </opener>
                     <p>100279. Subject: Somali Ambassador’s Call on Secretary.</p>
@@ -4683,8 +4690,8 @@
                             <idno type="document-identifier">Memo No. 408–77</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-05-12">May 12,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-05-12"
+                                calendar="gregorian">May 12, 1977</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -4774,8 +4781,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-05-16">May 16,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-05-16"
+                                calendar="gregorian">May 16, 1977</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -4820,8 +4827,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1977-06-16T14:00:00"
-                                to="1977-06-16T14:20:00">June 16, 1977, 2–2:20
-                            p.m</date>.</dateline>
+                                to="1977-06-16T14:20:00" calendar="gregorian">June 16, 1977, 2–2:20
+                                p.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -4976,8 +4983,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-07-09">July 9,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-07-09"
+                                calendar="gregorian">July 9, 1977</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
@@ -5096,8 +5103,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-07-13">July 13,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-07-13"
+                                calendar="gregorian">July 13, 1977</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
@@ -5141,7 +5148,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Addis Ababa</placeName>, <date
-                                when="1977-07-25T12:38:00+00:00">July 25, 1977, 1238Z</date>
+                                when="1977-07-25T12:38:00+00:00" calendar="gregorian">July 25, 1977,
+                                1238Z</date>
                         </dateline>
                     </opener>
                     <p>4511. Subject: Ethiopia Alleges Full-Scale War of Aggression.</p>
@@ -5248,7 +5256,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date
-                                when="1977-08-02T01:57:00+00:00">August 2, 1977, 0157Z</date>
+                                when="1977-08-02T01:57:00+00:00" calendar="gregorian">August 2,
+                                1977, 0157Z</date>
                         </dateline>
                     </opener>
                     <p>[Source: Carter Library, National Security Council, Institutional Files
@@ -5271,8 +5280,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-08-03">August 3,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-08-03"
+                                calendar="gregorian">August 3, 1977</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
@@ -5323,8 +5332,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-08-24">August 24,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-08-24"
+                                calendar="gregorian">August 24, 1977</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -5452,8 +5461,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1977-08-25T10:00:00"
-                                to="1977-08-25T11:00:00">August 25, 1977, 10–11
-                            a.m</date>.</dateline>
+                                to="1977-08-25T11:00:00" calendar="gregorian">August 25, 1977, 10–11
+                                a.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -5600,8 +5609,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-08-26">August 26,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-08-26"
+                                calendar="gregorian">August 26, 1977</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -5667,8 +5676,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-09-19">September 19,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-09-19"
+                                calendar="gregorian">September 19, 1977</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -5844,8 +5853,8 @@
                             <idno type="document-identifier">Memo No. 1526–77</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-09-27">September 27,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-09-27"
+                                calendar="gregorian">September 27, 1977</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -5883,7 +5892,7 @@
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-09-26"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -6056,8 +6065,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-10-12">October 12,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-10-12"
+                                calendar="gregorian">October 12, 1977</date>
                         </dateline>
                     </opener>
                     <p>1. <hi rend="italic">The Ogaden</hi>—David Owen found <persName
@@ -6131,8 +6140,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-10-20">October 20,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-10-20"
+                                calendar="gregorian">October 20, 1977</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here is an item unrelated to the Horn of Africa.]</p>
@@ -6207,8 +6216,8 @@
                             <idno type="document-identifier">Memo No. 1655–77</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-10-27">October 27,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-10-27"
+                                calendar="gregorian">October 27, 1977</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -6256,8 +6265,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-11-12">November 12,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-11-12"
+                                calendar="gregorian">November 12, 1977</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here is an item unrelated to the Horn of Africa.]</p>
@@ -6315,7 +6324,7 @@
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-11-12"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>. </dateline>
+                                calendar="gregorian">undated</date>. </dateline>
                         <p rend="sectiontitleital">SUGGESTED LETTER TO <persName corresp="#p_SBM_1"
                                 >SIAD</persName>:</p>
                         <p>Dear President <persName corresp="#p_SBM_1">Siad</persName>:</p>
@@ -6380,8 +6389,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-11-28">November 28,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-11-28"
+                                calendar="gregorian">November 28, 1977</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
@@ -6426,8 +6435,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-12-20">December 20,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-12-20"
+                                calendar="gregorian">December 20, 1977</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -6602,8 +6611,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1977-12-21T15:30:00"
-                                to="1977-12-21T16:45:00">December 21, 1977, 3:30–4:45
-                            p.m</date>.</dateline>
+                                to="1977-12-21T16:45:00" calendar="gregorian">December 21, 1977,
+                                3:30–4:45 p.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -6746,8 +6755,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1977-12-23">December 23,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-12-23"
+                                calendar="gregorian">December 23, 1977</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
@@ -6789,8 +6798,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Train from Bayeux to Paris</placeName>, <date
-                                from="1978-01-05T14:00:00" to="1978-01-05T16:30:00">January 5, 1978,
-                                2–4:30 p.m</date>.</dateline>
+                                from="1978-01-05T14:00:00" to="1978-01-05T16:30:00"
+                                calendar="gregorian">January 5, 1978, 2–4:30 p.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -7076,7 +7085,7 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Tehran</placeName>, <date when="1978-01-11T10:39:00+00:00"
-                                >January 11, 1978, 1039Z</date>
+                                calendar="gregorian">January 11, 1978, 1039Z</date>
                         </dateline>
                     </opener>
                     <p>364. SecState pass <gloss target="#t_USCINCEUR_1">USCINCEUR</gloss>. Subj:
@@ -7112,8 +7121,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-01-19">January 19,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-01-19"
+                                calendar="gregorian">January 19, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -7213,8 +7222,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-01-19">January 19,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-01-19"
+                                calendar="gregorian">January 19, 1978</date>
                         </dateline>
                     </opener>
                     <p rend="center">TEXT OF ORAL MESSAGE</p>
@@ -7270,8 +7279,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-01-19">January 19,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-01-19"
+                                calendar="gregorian">January 19, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -7351,8 +7360,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-01-24">January 24,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-01-24"
+                                calendar="gregorian">January 24, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -7407,7 +7416,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1978-01-24T02:33:00+00:00">January 24, 1978, 0233Z</date>
+                                when="1978-01-24T02:33:00+00:00" calendar="gregorian">January 24,
+                                1978, 0233Z</date>
                         </dateline>
                         <p>18370. Subject: Five Power Meeting on the Horn of Africa.</p>
                         <p>1. Begin summary: Representatives of five Western states met in
@@ -7715,8 +7725,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-01-25">January 25,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-01-25"
+                                calendar="gregorian">January 25, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -7788,8 +7798,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1978-01-26T19:00:00"
-                                to="1978-01-26T20:45:00">January 26, 1978, 7–8:45
-                            p.m</date>.</dateline>
+                                to="1978-01-26T20:45:00" calendar="gregorian">January 26, 1978,
+                                7–8:45 p.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -7941,8 +7951,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-01-30">January 30,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-01-30"
+                                calendar="gregorian">January 30, 1978</date>
                         </dateline>
                     </opener>
                     <p>
@@ -8022,8 +8032,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-01-31">January 31,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-01-31"
+                                calendar="gregorian">January 31, 1978</date>
                         </dateline>
                     </opener>
                     <opener>
@@ -8094,8 +8104,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-02-02">February 2,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-02"
+                                calendar="gregorian">February 2, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -8155,8 +8165,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-02-02">February 2,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-02"
+                                calendar="gregorian">February 2, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -8205,8 +8215,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-02-03">February 3,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-03"
+                                calendar="gregorian">February 3, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -8258,8 +8268,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-02-03">February 3,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-03"
+                                calendar="gregorian">February 3, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -8378,8 +8388,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-02-04">February 4,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-04"
+                                calendar="gregorian">February 4, 1978</date>
                         </dateline>
                     </opener>
                     <p rend="center">
@@ -8519,8 +8529,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-02-10">February 10,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-10"
+                                calendar="gregorian">February 10, 1978</date>
                         </dateline>
                     </opener>
                     <p rend="center">Near-verbatim record of portion of <gloss target="#t_SCC_1"
@@ -8892,8 +8902,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-02-10">February 10,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-10"
+                                calendar="gregorian">February 10, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -8919,7 +8929,7 @@
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1978-02-10"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <p rend="center">
                             <hi rend="italic">POLICY TOWARD THE HORN</hi>
@@ -9045,8 +9055,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-02-14">February 14,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-14"
+                                calendar="gregorian">February 14, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -9150,7 +9160,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Addis Ababa</placeName>, <date
-                                when="1978-02-17T17:59:00+00:00">February 17, 1978, 1759Z</date>
+                                when="1978-02-17T17:59:00+00:00" calendar="gregorian">February 17,
+                                1978, 1759Z</date>
                         </dateline>
                     </opener>
                     <p>807. Pass to White House for <persName corresp="#p_BZ_1"
@@ -9221,7 +9232,7 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1978-02-21T15:30:00"
-                                >February 21, 1978, 3:30 p.m</date>.</dateline>
+                                calendar="gregorian">February 21, 1978, 3:30 p.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -10161,8 +10172,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-02-22">February 22,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-22"
+                                calendar="gregorian">February 22, 1978</date>
                         </dateline>
                     </opener>
                     <p rend="sectiontitleital">
@@ -10219,8 +10230,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-02-22">February 22,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-22"
+                                calendar="gregorian">February 22, 1978</date>
                         </dateline>
                     </opener>
                     <p>1. <hi rend="italic">The Horn</hi>—Ambassador <persName corresp="#p_AAA_1"
@@ -10306,7 +10317,7 @@
                                 notBefore="1978-02-22T00:00:00-05:00"
                                 notAfter="1978-02-23T23:59:59-05:00"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>
+                                calendar="gregorian">undated</date>
                         </dateline>
                     </opener>
                     <p rend="center">THE HORN OF AFRICA: ETHIOPIAN/SOMALI CONFLICT</p>
@@ -10428,8 +10439,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1978-02-23T11:00:00"
-                                to="1978-02-23T11:45:00">February 23, 1978, 11–11:45
-                            a.m</date>.</dateline>
+                                to="1978-02-23T11:45:00" calendar="gregorian">February 23, 1978,
+                                11–11:45 a.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -11217,8 +11228,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-02-24">February 24,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-24"
+                                calendar="gregorian">February 24, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -11340,8 +11351,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-02-24">February 24,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-24"
+                                calendar="gregorian">February 24, 1978</date>
                         </dateline>
                     </opener>
                     <list type="to">
@@ -11441,8 +11452,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1978-03-02T12:50:00"
-                                to="1978-03-02T14:15:00">March 2, 1978, 12:50–2:15
-                            p.m</date>.</dateline>
+                                to="1978-03-02T14:15:00" calendar="gregorian">March 2, 1978,
+                                12:50–2:15 p.m</date>.</dateline>
                     </opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
@@ -12340,8 +12351,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-03-03">March 3,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-03-03"
+                                calendar="gregorian">March 3, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -12545,8 +12556,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-03-06">March 6,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-03-06"
+                                calendar="gregorian">March 6, 1978</date>
                         </dateline>
                     </opener>
                     <p rend="center">Possible Repercussions of a Soviet Win in Ethiopia/Somalia</p>
@@ -12655,8 +12666,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-03-06">March 6,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-03-06"
+                                calendar="gregorian">March 6, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -12752,7 +12763,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Addis Ababa</placeName>, <date
-                                when="1978-03-06T14:07:00+00:00">March 6, 1978, 1407Z</date>
+                                when="1978-03-06T14:07:00+00:00" calendar="gregorian">March 6, 1978,
+                                1407Z</date>
                         </dateline>
                     </opener>
                     <p>1054. Subj: Ethiopian Forces Recapture Strategic Ogaden Town of Jijiga. Ref:
@@ -12802,7 +12814,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date
-                                when="1978-03-07T17:40:00+00:00">March 7, 1978, 1740Z</date>
+                                when="1978-03-07T17:40:00+00:00" calendar="gregorian">March 7, 1978,
+                                1740Z</date>
                         </dateline>
                     </opener>
                     <p>57913. Exdis—Distribute as Nodis. For Amb only from Secretary. Subject: The
@@ -12907,8 +12920,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-03-07">March 7,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-03-07"
+                                calendar="gregorian">March 7, 1978</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
@@ -12947,7 +12960,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Mogadiscio</placeName>, <date
-                                when="1978-03-09T15:33:00+00:00">March 9, 1978, 1533Z</date>
+                                when="1978-03-09T15:33:00+00:00" calendar="gregorian">March 9, 1978,
+                                1533Z</date>
                         </dateline>
                     </opener>
                     <p>476. Somali Intention To Withdraw From the Ogaden. Ref: Mogadiscio 0475
@@ -13027,8 +13041,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1978-03-10T15:00:00"
-                                to="1978-03-10T16:15:00">March 10, 1978, 3–4:15
-                            p.m</date>.</dateline>
+                                to="1978-03-10T16:15:00" calendar="gregorian">March 10, 1978, 3–4:15
+                                p.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -13235,8 +13249,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-03-14">March 14,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-03-14"
+                                calendar="gregorian">March 14, 1978</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
@@ -13299,8 +13313,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1978-03-16T17:00:00"
-                                to="1978-03-16T18:30:00">March 16, 1978, 5–6:30
-                            p.m</date>.</dateline>
+                                to="1978-03-16T18:30:00" calendar="gregorian">March 16, 1978, 5–6:30
+                                p.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -13547,8 +13561,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1978-03-27T16:00:00"
-                                to="1978-03-27T17:45:00">March 27, 1978, 4–5:45
-                            p.m</date>.</dateline>
+                                to="1978-03-27T17:45:00" calendar="gregorian">March 27, 1978, 4–5:45
+                                p.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -13762,8 +13776,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-04-06">April 6,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-04-06"
+                                calendar="gregorian">April 6, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -13935,8 +13949,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-04-07">April 7,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-04-07"
+                                calendar="gregorian">April 7, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -14020,8 +14034,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1978-04-07T14:30:00"
-                                to="1978-04-07T15:20:00">April 7, 1978, 2:30–3:20
-                            p.m</date>.</dateline>
+                                to="1978-04-07T15:20:00" calendar="gregorian">April 7, 1978,
+                                2:30–3:20 p.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -14188,7 +14202,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Mogadiscio</placeName>, <date
-                                when="1978-04-09T09:32:00+00:00">April 9, 1978, 0932Z</date>
+                                when="1978-04-09T09:32:00+00:00" calendar="gregorian">April 9, 1978,
+                                0932Z</date>
                         </dateline>
                     </opener>
                     <p>751. Dept also pass Horn of Africa Collective. Subj: Attempted Coup d’Etat in
@@ -14230,8 +14245,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-05-08">May 8,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-05-08"
+                                calendar="gregorian">May 8, 1978</date>
                         </dateline>
                     </opener>
                     <p rend="center">
@@ -14323,8 +14338,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1978-05-15T15:03:00"
-                                to="1978-05-15T16:23:00">May 15, 1978, 3:03–4:23
-                            p.m</date>.</dateline>
+                                to="1978-05-15T16:23:00" calendar="gregorian">May 15, 1978,
+                                3:03–4:23 p.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -14542,8 +14557,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-05-18">May 18,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-05-18"
+                                calendar="gregorian">May 18, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -14848,8 +14863,8 @@
                             <idno type="document-identifier">NI IIM 78–10010</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-05-22">May 22,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-05-22"
+                                calendar="gregorian">May 22, 1978</date>
                         </dateline>
                     </opener>
                     <p rend="center">ETHIOPIA: LIKELIHOOD AND IMPLICATIONS OF POSSIBLE OUTCOMES IN
@@ -15506,8 +15521,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1978-05-27T08:00:00"
-                                to="1978-05-27T12:20:00">May 27, 1978, 8 a.m.–12:20
-                            p.m</date>.</dateline>
+                                to="1978-05-27T12:20:00" calendar="gregorian">May 27, 1978, 8
+                                a.m.–12:20 p.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECTS</head>
@@ -15817,8 +15832,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-06-02">June 2,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-06-02"
+                                calendar="gregorian">June 2, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -15967,8 +15982,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-07-27">July 27,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-07-27"
+                                calendar="gregorian">July 27, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -16272,8 +16287,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-07-28">July 28,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-07-28"
+                                calendar="gregorian">July 28, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -16353,8 +16368,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1978-07-31T16:30:00"
-                                to="1978-07-31T16:45:00">July 31, 1978, 4:30–4:45
-                            p.m</date>.</dateline>
+                                to="1978-07-31T16:45:00" calendar="gregorian">July 31, 1978,
+                                4:30–4:45 p.m</date>.</dateline>
                     </opener>
                     <p rend="center">
                         <gloss target="#t_PRC_1">PRC</gloss> on Somalia—31 July 1978—Near-verbatim
@@ -16527,8 +16542,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-10-04">October 4,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-10-04"
+                                calendar="gregorian">October 4, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -16601,8 +16616,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-10-16">October 16,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-10-16"
+                                calendar="gregorian">October 16, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -16723,8 +16738,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1978-12-11T10:40:00"
-                                to="1978-12-11T11:30:00">December 11, 1978, 10:40–11:30
-                            a.m</date>.</dateline>
+                                to="1978-12-11T11:30:00" calendar="gregorian">December 11, 1978,
+                                10:40–11:30 a.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -16881,8 +16896,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1978-12-16">December 16,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-12-16"
+                                calendar="gregorian">December 16, 1978</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -16962,8 +16977,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1979-05-02">May 2,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-05-02"
+                                calendar="gregorian">May 2, 1979</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -17087,8 +17102,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1979-08-01">August 1,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-08-01"
+                                calendar="gregorian">August 1, 1979</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -17123,8 +17138,8 @@
                                     declassified</hi>].</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-07-31">July 31,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-07-31"
+                                calendar="gregorian">July 31, 1979</date>
                         </dateline>
                         <p rend="center">Djibouti: Prospects for Stability and Implications of US
                             use of Facilities</p>
@@ -17501,8 +17516,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1979-08-14">August 14,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-08-14"
+                                calendar="gregorian">August 14, 1979</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -17600,8 +17615,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1979-10-27">October 27,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-10-27"
+                                calendar="gregorian">October 27, 1979</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -17697,8 +17712,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1979-10-28">October 28,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-10-28"
+                                calendar="gregorian">October 28, 1979</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -17750,8 +17765,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1979-11-09">November 9,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-11-09"
+                                calendar="gregorian">November 9, 1979</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -17812,8 +17827,8 @@
                             <idno type="document-identifier">TDFIR DB–315/01635–80</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1980-01-24">January 24,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-01-24"
+                                calendar="gregorian">January 24, 1980</date>
                         </dateline>
                     </opener>
                     <list type="to">
@@ -17865,8 +17880,8 @@
                             <idno type="document-identifier">TDFIR 314/04093–80</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1980-02-27">February 27,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-02-27"
+                                calendar="gregorian">February 27, 1980</date>
                         </dateline>
                     </opener>
                     <list type="to">
@@ -17925,8 +17940,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1980-04-04">April 4,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-04-04"
+                                calendar="gregorian">April 4, 1980</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -18115,8 +18130,8 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date from="1980-04-07T15:30:00"
-                                to="1980-04-07T16:30:00">April 7, 1980, 3:30–4:30
-                            p.m</date>.</dateline>
+                                to="1980-04-07T16:30:00" calendar="gregorian">April 7, 1980,
+                                3:30–4:30 p.m</date>.</dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -18305,8 +18320,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1980-04-11">April 11,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-04-11"
+                                calendar="gregorian">April 11, 1980</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -18351,7 +18366,7 @@
                                 notBefore="1980-04-07T00:00:00-05:00"
                                 notAfter="1980-04-11T23:59:59-05:00"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <p rend="sectiontitleital">Finding Pursuant to Section 662 of the Foreign
                             Assistance Act of 1961, As Amended, Concerning Operations Undertaken by
@@ -18399,7 +18414,7 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Mogadishu</placeName>, <date when="1980-05-19T11:40:00+00:00"
-                                >May 19, 1980, 1140Z</date>
+                                calendar="gregorian">May 19, 1980, 1140Z</date>
                         </dateline>
                     </opener>
                     <p>2105. Subj: Facilities Access: Somalia. Refs: (A) Mogadishu 1949,<note n="2"
@@ -18544,8 +18559,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1980-06-03">June 3,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-06-03"
+                                calendar="gregorian">June 3, 1980</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -18738,8 +18753,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1980-06-07">June 7,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-06-07"
+                                calendar="gregorian">June 7, 1980</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -18812,8 +18827,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1980-07-26">July 26,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-07-26"
+                                calendar="gregorian">July 26, 1980</date>
                         </dateline>
                     </opener>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
@@ -18885,8 +18900,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1980-09-05">September 5,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-09-05"
+                                calendar="gregorian">September 5, 1980</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -18956,8 +18971,8 @@
                     </head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1980-11-25">November 25,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-11-25"
+                                calendar="gregorian">November 25, 1980</date>
                         </dateline>
                     </opener>
                     <list type="subject">
@@ -19030,7 +19045,7 @@
                                 notBefore="1980-11-07T00:00:00-04:00"
                                 notAfter="1980-11-25T23:59:59-05:00"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>

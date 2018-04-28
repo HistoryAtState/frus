@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date type="publication-date">2014</date>
+                <date type="publication-date" calendar="gregorian">2014</date>
                 <idno type="frus">frus1977-80v21</idno>
             </publicationStmt>
             <sourceDesc>
@@ -242,7 +242,7 @@
                     <lb/>
                     <orgName>Bureau of Public Affairs</orgName>
                     <lb/>
-                    <date when="2014-04">April 2014</date>
+                    <date when="2014-04" calendar="gregorian">April 2014</date>
                 </closer>
             </div>
 
@@ -2823,8 +2823,8 @@
                                 the United States and Turkey.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1976-09-01">September 1,
-                                1976</date>
+                            <placeName>Washington</placeName>, <date when="1976-09-01"
+                                calendar="gregorian">September 1, 1976</date>
                         </dateline>
                         <opener>
                             <salute>Dear Zbig:</salute>
@@ -3005,7 +3005,7 @@
                                 notBefore="1976-09-01T00:00:00-04:00"
                                 notAfter="1976-10-06T23:59:59-07:00"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <p rend="center">THE UNITED STATES AND GREECE, TURKEY AND CYPRUS</p>
                         <p rend="sectiontitleital">
@@ -3126,7 +3126,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1976-12-31"
-                                type="conversation-or-meeting-date">December 31, 1976</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">December
+                                31, 1976</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -3381,8 +3382,8 @@
                                 Files, Box 2, PRM/NSC 1–24 [1]. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-01-21">January 21,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-01-21"
+                                calendar="gregorian">January 21, 1977</date>
                         </dateline>
                         <list>
                             <head>TO</head>
@@ -3470,7 +3471,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1977-02-10T15:00:00"
-                                to="1977-02-10T16:30:00">February 10, 1977, 3–4:30 p.m.</date>
+                                to="1977-02-10T16:30:00" calendar="gregorian">February 10, 1977,
+                                3–4:30 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -4135,7 +4137,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1977-02-10T15:00:00"
-                                to="1977-02-10T16:05:00">February 10, 1977, 3–4:05 p.m.</date>
+                                to="1977-02-10T16:05:00" calendar="gregorian">February 10, 1977,
+                                3–4:05 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -4317,7 +4320,7 @@
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1977-02-15T13:45:00"
                                 to="1977-02-15T14:15:00" type="conversation-or-meeting-date"
-                                >February 15, 1977, 1:45–2:15 p.m.</date>
+                                calendar="gregorian">February 15, 1977, 1:45–2:15 p.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -4417,8 +4420,8 @@
                                     <ref target="#d10">Document 10</ref>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-03-01">March 1,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-03-01"
+                                calendar="gregorian">March 1, 1977</date>
                         </dateline>
                         <p>The mission you assigned to me and my associates has proved to be a
                             fascinating one and we are gratified that progress was made in the
@@ -4823,7 +4826,8 @@
                                 <note n="5" xml:id="d8fn5">Secret.</note>
                             </head>
                             <dateline>
-                                <date when="1977-02-18">February 18, 1977</date>
+                                <date when="1977-02-18" calendar="gregorian">February 18,
+                                    1977</date>
                             </dateline>
                             <p rend="sectiontitleital">Meeting with <persName corresp="#p_WKJ_1"
                                     >Waldheim</persName>
@@ -4990,7 +4994,8 @@
                                         >Nodis</gloss>.</note>
                             </head>
                             <dateline>
-                                <date when="1977-02-20">February 20, 1977</date>
+                                <date when="1977-02-20" calendar="gregorian">February 20,
+                                    1977</date>
                             </dateline>
                             <p rend="sectiontitleital">Vienna/Athens Report</p>
                             <p>
@@ -5167,7 +5172,8 @@
                                         target="#d88">Document 88</ref>.</note>
                             </head>
                             <dateline>
-                                <date when="1977-02-24">February 24, 1977</date>
+                                <date when="1977-02-24" calendar="gregorian">February 24,
+                                    1977</date>
                             </dateline>
                             <p rend="sectiontitleital">Ankara Report</p>
                             <p>
@@ -5361,7 +5367,8 @@
                                         32</ref>.</note>
                             </head>
                             <dateline>
-                                <date when="1977-02-26">February 26, 1977</date>
+                                <date when="1977-02-26" calendar="gregorian">February 26,
+                                    1977</date>
                             </dateline>
                             <p rend="sectiontitleital">Nicosia Report</p>
                             <p>The <persName corresp="#p_CCM_1">Clifford</persName> Mission met on
@@ -5490,7 +5497,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-03-02T09:00:00"
-                                type="conversation-or-meeting-date">March 2, 1977, 9 a.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">March 2,
+                                1977, 9 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -6039,8 +6047,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1977-03-04T14:30:00"
-                                to="1977-03-04T15:20:00" type="conversation-or-meeting-date">March
-                                4, 1977, 2:30–3:20 p.m.</date>
+                                to="1977-03-04T15:20:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">March 4, 1977, 2:30–3:20 p.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -6181,8 +6189,8 @@
                                     (<gloss target="#t_PM_1">PM</gloss>).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-04-07">April 7,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-04-07"
+                                calendar="gregorian">April 7, 1977</date>
                         </dateline>
                         <p rend="center">
                             <hi rend="italic">Unveiling of <gloss target="#t_US_1">U.S.</gloss>
@@ -6445,8 +6453,8 @@
                                 for Turkey at $175 million.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-04-18">April 18,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-04-18"
+                                calendar="gregorian">April 18, 1977</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -6552,8 +6560,8 @@
                                 Material, Country File, Box 75, Turkey: 1–12/77. Secret.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-04-22">April 22,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-04-22"
+                                calendar="gregorian">April 22, 1977</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -6665,8 +6673,8 @@
                                 to be sure the Secretary saw it. (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-10-13">October 13,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-10-13"
+                                calendar="gregorian">October 13, 1977</date>
                         </dateline>
                         <p rend="center">MEMORANDUM OF CONFERENCE WITH SENATORS <persName
                                 corresp="#p_SPS_1">SARBANES</persName> &amp; <persName
@@ -6830,8 +6838,8 @@
                                 System. Sent for information.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-10-15">October 15,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-10-15"
+                                calendar="gregorian">October 15, 1977</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -6925,7 +6933,7 @@
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1977-11-04T11:30:00"
                                 to="1977-11-04T12:00:00" type="conversation-or-meeting-date"
-                                >November 4, 1977, 11:30 a.m.–noon</date>
+                                calendar="gregorian">November 4, 1977, 11:30 a.m.–noon</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -7236,8 +7244,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-12-02T11:30:00"
-                                type="conversation-or-meeting-date">December 2, 1977, 11:30
-                                a.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">December 2,
+                                1977, 11:30 a.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -7584,8 +7592,8 @@
                                 (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-12-08">December 8,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-12-08"
+                                calendar="gregorian">December 8, 1977</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -7664,7 +7672,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1978-01-25T08:00:00"
-                                type="conversation-or-meeting-date">January 25, 1978, 8 a.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">January 25,
+                                1978, 8 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -7986,8 +7995,8 @@
                                 decision. (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-03-21">March 21,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-03-21"
+                                calendar="gregorian">March 21, 1978</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -8234,8 +8243,8 @@
                                 distribution list is attached but not printed.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-05-25">May 25,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-05-25"
+                                calendar="gregorian">May 25, 1978</date>
                         </dateline>
                         <p>RP M 78–10231</p>
                         <list type="subject">
@@ -8473,8 +8482,8 @@
                                     target="#t_SP_1">S/P</gloss>).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-07-31">July 31,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-07-31"
+                                calendar="gregorian">July 31, 1978</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -8743,7 +8752,7 @@
                         </head>
                         <dateline>
                             <placeName>Moscow</placeName>, <date when="1978-08-14T16:17:00+00:00"
-                                >August 14, 1978, 1617Z</date>
+                                calendar="gregorian">August 14, 1978, 1617Z</date>
                         </dateline>
                         <p>19342. Subject: Turkey, Greece, Cyprus: The View From Moscow. Ref: (A)
                             Ankara 5761, (B) Istanbul 2443.<note n="2" xml:id="d23fn2">In telegram
@@ -8907,8 +8916,8 @@
                                 is attached but not printed.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-08-30">August 30,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-08-30"
+                                calendar="gregorian">August 30, 1978</date>
                         </dateline>
                         <p>RP M 78–10331</p>
                         <p rend="center">GREECE, TURKEY, AND THE WEST IN THE POST-EMBARGO PERIOD</p>
@@ -9249,8 +9258,8 @@
                                 might be interested.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-10-30">October 30,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-10-30"
+                                calendar="gregorian">October 30, 1978</date>
                         </dateline>
                         <p>The Administration’s Cyprus policy has severely damaged the President’s
                             support among the Greek-American community. Greek-Americans are the only
@@ -9313,8 +9322,8 @@
                                     >Albright</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-04-04">April 4,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-04-04"
+                                calendar="gregorian">April 4, 1979</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -9396,8 +9405,8 @@
                                 1979. Secret. Sent for information.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-12-11">December 11,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-12-11"
+                                calendar="gregorian">December 11, 1979</date>
                         </dateline>
                         <p>No. 1541–79</p>
                         <list type="subject">
@@ -9561,8 +9570,8 @@
                                 Mautner (INR/RSE/FP).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-03-07">March 7,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-03-07"
+                                calendar="gregorian">March 7, 1980</date>
                         </dateline>
                         <p>No. 1336</p>
                         <p rend="center">(U) SOVIET PERSPECTIVES ON TURKEY AND GREECE: STATUS AND
@@ -9628,8 +9637,8 @@
                                     corresp="#p_GWE_1">Griffith</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-09-12">September 12,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-09-12"
+                                calendar="gregorian">September 12, 1980</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -9692,8 +9701,8 @@
                         <head>30. Intelligence Assessment Prepared in the Central Intelligence
                             Agency</head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1981-01-01">January
-                                1981</date>
+                            <placeName>Washington</placeName>, <date when="1981-01-01"
+                                calendar="gregorian">January 1981</date>
                         </dateline>
                         <p>PA 81–10004</p>
                         <p>[Source: Central Intelligence Agency, Directorate of Intelligence, Job
@@ -9727,7 +9736,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-01-19T10:00:00"
-                                type="conversation-or-meeting-date">January 19, 1977, 10 a.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">January 19,
+                                1977, 10 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -10128,8 +10138,8 @@
                         </head>
                         <dateline>
                             <placeName>Nicosia</placeName>, <date when="1977-02-24T10:15:00"
-                                type="conversation-or-meeting-date">February 24, 1977, 10:15
-                                a.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">February
+                                24, 1977, 10:15 a.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -10475,8 +10485,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-02-25T11:30:00"
-                                type="conversation-or-meeting-date">February 25, 1977, 11:30
-                                a.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">February
+                                25, 1977, 11:30 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -10604,7 +10614,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1977-03-15T17:52:00+00:00">March 15, 1977, 1752Z</date>
+                                when="1977-03-15T17:52:00+00:00" calendar="gregorian">March 15,
+                                1977, 1752Z</date>
                         </dateline>
                         <p>57270. Subject: Cyprus Negotiations: Cyprus Ambassador’s Call on Under
                             Secretary <persName corresp="#p_HPC_1">Habib</persName>.</p>
@@ -10717,7 +10728,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1977-03-18T00:50:00+00:00">March 18, 1977, 0050Z</date>
+                                when="1977-03-18T00:50:00+00:00" calendar="gregorian">March 18,
+                                1977, 0050Z</date>
                         </dateline>
                         <p>60063. Subject: Letter to President <persName corresp="#p_M3_1"
                                 >Makarios</persName> From President <persName corresp="#p_CJE_1"
@@ -10784,8 +10796,8 @@
                         </head>
                         <dateline>
                             <placeName>Moscow</placeName>, <date from="1977-03-30T11:15:00"
-                                to="1977-03-30T14:15:00" type="conversation-or-meeting-date">March
-                                30, 1977, 11:15 a.m.–2:15 p.m.</date>
+                                to="1977-03-30T14:15:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">March 30, 1977, 11:15 a.m.–2:15 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -11009,8 +11021,8 @@
                         </head>
                         <dateline>
                             <placeName>Geneva</placeName>, <date from="1977-05-19T08:00:00"
-                                to="1977-05-19T09:30:00" type="conversation-or-meeting-date">May 19,
-                                1977, 8–9:30 a.m.</date>
+                                to="1977-05-19T09:30:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">May 19, 1977, 8–9:30 a.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -11150,7 +11162,8 @@
                         </head>
                         <dateline>
                             <placeName>London</placeName>, <date when="1977-06-15T12:25:00"
-                                type="conversation-or-meeting-date">June 15, 1977, 12:25 p.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">June 15,
+                                1977, 12:25 p.m.</date>
                         </dateline>
                         <p>I reached Archbishop <persName corresp="#p_M3_1">Makarios</persName> by
                             telephone in his suite at the Grosvenor House in London.</p>
@@ -11243,7 +11256,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-07-01T14:00:00"
-                                type="conversation-or-meeting-date">July 1, 1977, 2 p.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">July 1,
+                                1977, 2 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -11453,8 +11467,8 @@
                                 regarding the Cyprus negotiations. (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-07-13">July 13,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-07-13"
+                                calendar="gregorian">July 13, 1977</date>
                         </dateline>
                         <p rend="center">
                             <hi rend="italic">Future Cyprus Strategy</hi>
@@ -11739,7 +11753,8 @@
                         </head>
                         <dateline>
                             <placeName>Nicosia</placeName>, <date when="1977-08-08"
-                                type="conversation-or-meeting-date">August 8, 1977</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">August 8,
+                                1977</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -11858,7 +11873,7 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1977-08-10T11:40:00+00:00"
-                                >August 10, 1977, 1140Z</date>
+                                calendar="gregorian">August 10, 1977, 1140Z</date>
                         </dateline>
                         <p>5966. Subject: Policy Analysis and Recommendations: Adjusting to
                                 Post-<persName corresp="#p_M3_1">Makarios</persName>
@@ -12134,8 +12149,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1977-10-01T12:30:00"
-                                type="conversation-or-meeting-date">October 1, 1977, 12:30
-                                p.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">October 1,
+                                1977, 12:30 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -12445,8 +12460,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1977-10-05T12:10:00"
-                                type="conversation-or-meeting-date">October 5, 1977, 12:10
-                                p.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">October 5,
+                                1977, 12:10 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -12521,8 +12536,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date from="1977-10-05T16:15:00"
-                                to="1977-10-05T16:35:00" type="conversation-or-meeting-date">October
-                                5, 1977, 4:15–4:35 p.m.</date>
+                                to="1977-10-05T16:35:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">October 5, 1977, 4:15–4:35 p.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -12674,7 +12689,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1978-02-03T18:25:00+00:00">February 3, 1978, 1825Z</date>
+                                when="1978-02-03T18:25:00+00:00" calendar="gregorian">February 3,
+                                1978, 1825Z</date>
                         </dateline>
                         <p>29343. Subject: Cyprus Ambassador’s Meeting With Secretary.</p>
                         <p>1. Cyprus Ambassador <persName corresp="#p_DN_1">Dimitriou</persName>
@@ -12869,7 +12885,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1978-03-02T01:36:00+00:00">March 2, 1978, 0136Z</date>
+                                when="1978-03-02T01:36:00+00:00" calendar="gregorian">March 2, 1978,
+                                0136Z</date>
                         </dateline>
                         <p>53254. Eyes only—for the Ambassador. Subject: The Secretary’s
                             Conversations With President <persName corresp="#p_KS_2"
@@ -13018,7 +13035,7 @@
                         </head>
                         <dateline>
                             <placeName>Nicosia</placeName>, <date when="1978-03-02T11:00:00+00:00"
-                                >March 2, 1978, 1100Z</date>
+                                calendar="gregorian">March 2, 1978, 1100Z</date>
                         </dateline>
                         <p>565. Subject: President <persName corresp="#p_KS_2">Kyprianou</persName>
                             Message to President <persName corresp="#p_CJE_1">Carter</persName>.</p>
@@ -13185,7 +13202,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1978-03-20T23:57:00+00:00">March 20, 1978, 2357Z</date>
+                                when="1978-03-20T23:57:00+00:00" calendar="gregorian">March 20,
+                                1978, 2357Z</date>
                         </dateline>
                         <p>71814. Subject: Meeting Between Secretary and Cyprus House of
                             Representatives President <persName corresp="#p_MA_2"
@@ -13410,8 +13428,8 @@
                                 meeting.” (Both ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-03-22">March 22,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-03-22"
+                                calendar="gregorian">March 22, 1978</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. President:</salute>
@@ -13524,7 +13542,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1978-04-26T14:22:00+00:00">April 26, 1978, 1422Z</date>
+                                when="1978-04-26T14:22:00+00:00" calendar="gregorian">April 26,
+                                1978, 1422Z</date>
                         </dateline>
                         <p>106179. For the Ambassador from the Secretary. Subject: Cyprus
                             Negotiations. Ref: (A) Nicosia 1090, (B) Ankara 3187.<note n="2"
@@ -13693,7 +13712,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1978-05-24T20:44:00+00:00">May 24, 1978, 2044Z</date>
+                                when="1978-05-24T20:44:00+00:00" calendar="gregorian">May 24, 1978,
+                                2044Z</date>
                         </dateline>
                         <p>132423. Subject: <persName corresp="#p_NM_1">Nimetz</persName> Meeting
                             With <persName corresp="#p_DR_1">Denktash</persName> in New York, May
@@ -13969,7 +13989,7 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1978-05-25T14:00:00+00:00"
-                                >May 25, 1978, 1400Z</date>
+                                calendar="gregorian">May 25, 1978, 1400Z</date>
                         </dateline>
                         <p>Secto 6005. Subject: Secretary’s Meeting With Turkish Cypriot Leader
                                 <persName corresp="#p_DR_1">Denktash</persName>, May 24.</p>
@@ -14164,7 +14184,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1978-05-26T03:14:00+00:00">May 26, 1978, 0314Z</date>
+                                when="1978-05-26T03:14:00+00:00" calendar="gregorian">May 26, 1978,
+                                0314Z</date>
                         </dateline>
                         <p>134352. Subject: Secretary’s Meeting With Cyprus President <persName
                                 corresp="#p_KS_2">Kyprianou</persName>, May 25, 1978, New York.</p>
@@ -14330,7 +14351,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1978-06-07T20:34:00+00:00">June 7, 1978, 2034Z</date>
+                                when="1978-06-07T20:34:00+00:00" calendar="gregorian">June 7, 1978,
+                                2034Z</date>
                         </dateline>
                         <p>144337. Subject: Secretary’s Meeting With Cyprus President <persName
                                 corresp="#p_KS_2">Kyprianou</persName>, New York, June 3, 1978.</p>
@@ -14691,8 +14713,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1978-06-09T11:15:00"
-                                to="1978-06-09T11:20:00" type="conversation-or-meeting-date">June 9,
-                                1978, 11:15–11:20 a.m.</date>
+                                to="1978-06-09T11:20:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">June 9, 1978, 11:15–11:20 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -14815,7 +14837,7 @@
                         </head>
                         <dateline>
                             <placeName>Nicosia</placeName>, <date when="1978-09-05T10:30:00+00:00"
-                                >September 5, 1978, 1030Z</date>
+                                calendar="gregorian">September 5, 1978, 1030Z</date>
                         </dateline>
                         <p>2262. Subject: <persName corresp="#p_NM_1">Nimetz</persName> Call on
                             President <persName corresp="#p_KS_2">Kyprianou</persName>.</p>
@@ -14935,7 +14957,7 @@
                         </head>
                         <dateline>
                             <placeName>Nicosia</placeName>, <date when="1978-09-08T17:00:00+00:00"
-                                >September 8, 1978, 1700Z</date>
+                                calendar="gregorian">September 8, 1978, 1700Z</date>
                         </dateline>
                         <p>2331. Subject: <persName corresp="#p_NM_1">Nimetz</persName> Visit to
                             Cyprus: Discussions With Turkish Cypriot Leader <persName
@@ -15220,8 +15242,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1978-10-06T10:20:00"
-                                to="1978-10-06T10:40:00" type="conversation-or-meeting-date">October
-                                6, 1978, 10:20–10:40 a.m.</date>
+                                to="1978-10-06T10:40:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">October 6, 1978, 10:20–10:40 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -15504,8 +15526,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1978-10-31T10:45:00"
-                                to="1978-10-31T11:20:00" type="conversation-or-meeting-date">October
-                                31, 1978, 10:45–11:20 a.m.</date>
+                                to="1978-10-31T11:20:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">October 31, 1978, 10:45–11:20 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -15756,7 +15778,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1978-11-13T23:43:00+00:00">November 13, 1978, 2343Z</date>
+                                when="1978-11-13T23:43:00+00:00" calendar="gregorian">November 13,
+                                1978, 2343Z</date>
                         </dateline>
                         <p>288157. Subject: Cyprus Initiative: <persName corresp="#p_NM_1"
                                 >Nimetz</persName> Meetings on November 10 With <persName
@@ -16164,8 +16187,8 @@
                                 Nocontract; Orcon.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-11-21">November 21,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-11-21"
+                                calendar="gregorian">November 21, 1978</date>
                         </dateline>
                         <p>TDFIR DB–315/15822–78</p>
                         <p>15947690. Exclusive dissemination to addressee named in final paragraph.
@@ -16337,7 +16360,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1979-01-13T01:52:00+00:00">January 13, 1979, 0152Z</date>
+                                when="1979-01-13T01:52:00+00:00" calendar="gregorian">January 13,
+                                1979, 0152Z</date>
                         </dateline>
                         <p>9646. Subject: <persName corresp="#p_NM_1">Nimetz</persName> Meeting With
                                 <persName corresp="#p_WKJ_1">Waldheim</persName> on Cyprus, January
@@ -16593,7 +16617,7 @@
                         </head>
                         <dateline>
                             <placeName>Nicosia</placeName>, <date when="1979-03-22T16:43:00+00:00"
-                                >March 22, 1979, 1643Z</date>
+                                calendar="gregorian">March 22, 1979, 1643Z</date>
                         </dateline>
                         <p>826. London for Counselor <persName corresp="#p_NM_1">Nimetz</persName>.
                             Subj: Next Steps on Cyprus Dispute.</p>
@@ -16754,7 +16778,7 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1979-04-12T23:30:00+00:00"
-                                >April 12, 1979, 2330Z</date>
+                                calendar="gregorian">April 12, 1979, 2330Z</date>
                         </dateline>
                         <p>1594. Subject: <persName corresp="#p_CWM_1"
                                 >Christopher</persName>/<persName corresp="#p_NM_1"
@@ -16959,7 +16983,7 @@
                         </head>
                         <dateline>
                             <placeName>Nicosia</placeName>, <date when="1979-04-30T15:38:00+00:00"
-                                >April 30, 1979, 1538Z</date>
+                                calendar="gregorian">April 30, 1979, 1538Z</date>
                         </dateline>
                         <p>1168. Subject: Call on President <persName corresp="#p_KS_2"
                                 >Kyprianou</persName> April 30. Ref: State 107265.<note n="2"
@@ -17083,8 +17107,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1979-05-22T12:05:00"
-                                to="1979-05-22T12:17:00" type="conversation-or-meeting-date">May 22,
-                                1979, 12:05–12:17 p.m.</date>
+                                to="1979-05-22T12:17:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">May 22, 1979, 12:05–12:17 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -17244,7 +17268,7 @@
                         </head>
                         <dateline>
                             <placeName>Nicosia</placeName>, <date when="1979-06-18T13:23:00+00:00"
-                                >June 18, 1979, 1323Z</date>
+                                calendar="gregorian">June 18, 1979, 1323Z</date>
                         </dateline>
                         <p>
                             <hi rend="italic">Archbishop <persName corresp="#p_CI_2"
@@ -17341,8 +17365,8 @@
                                 him for progress in this area.” (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-07-26">July 26,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-07-26"
+                                calendar="gregorian">July 26, 1979</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -17440,8 +17464,8 @@
                                     corresp="#p_NM_1">Nimetz</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-09-14">September 14,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-09-14"
+                                calendar="gregorian">September 14, 1979</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -17506,7 +17530,7 @@
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1979-09-13"
                                     ana="#date_undated-inferred-from-document-content"
-                                    >undated</date>
+                                    calendar="gregorian">undated</date>
                             </dateline>
                             <p rend="center">
                                 <hi rend="italic">The Present State of the Cyprus Negotiations</hi>
@@ -17646,7 +17670,7 @@
                         </head>
                         <dateline>
                             <placeName>Nicosia</placeName>, <date when="1979-10-23T15:28:00+00:00"
-                                >October 23, 1979, 1528Z</date>
+                                calendar="gregorian">October 23, 1979, 1528Z</date>
                         </dateline>
                         <p>2993. Subj: Independence and Turkish Cyprus. Ref: Nicosia 2853.<note
                                 n="2" xml:id="d72fn2">Telegram 2853 from Nicosia, October 9, is in
@@ -17802,7 +17826,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1979-11-09T15:48:00+00:00">November 9, 1979, 1548Z</date>
+                                when="1979-11-09T15:48:00+00:00" calendar="gregorian">November 9,
+                                1979, 1548Z</date>
                         </dateline>
                         <p>292292. Subject: (C) Secretary’s Message re U.N. Committee on Cyprus.</p>
                         <pb n="247" facs="0280" xml:id="pg_247"/>
@@ -17902,7 +17927,7 @@
                         </head>
                         <dateline>
                             <placeName>Nicosia</placeName>, <date when="1979-11-13T15:09:00+00:00"
-                                >November 13, 1979, 1509Z</date>
+                                calendar="gregorian">November 13, 1979, 1509Z</date>
                         </dateline>
                         <p>3187. Subject: <persName corresp="#p_KS_2">Kyprianou</persName>’s Reply
                             to Secretary’s Message re <gloss target="#t_UN_1">UN</gloss> Committee.
@@ -18051,7 +18076,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1980-02-07T01:43:00+00:00">February 7, 1980, 0143Z</date>
+                                when="1980-02-07T01:43:00+00:00" calendar="gregorian">February 7,
+                                1980, 0143Z</date>
                         </dateline>
                         <p>33234. Subject: (C) <persName corresp="#p_RNA_1">Rolandis</persName> Call
                             on Secretary and <persName corresp="#p_NM_1">Nimetz</persName>.</p>
@@ -18304,8 +18330,8 @@
                                 1/77–1/81. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-04-08">April 8,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-04-08"
+                                calendar="gregorian">April 8, 1980</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -18363,8 +18389,8 @@
                                     corresp="#p_NM_1">Nimetz</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-04-25">April 25,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-04-25"
+                                calendar="gregorian">April 25, 1980</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -18537,8 +18563,8 @@
                         <head>78. Intelligence Memorandum Prepared in the Central Intelligence
                             Agency</head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-05-01">May
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-05-01"
+                                calendar="gregorian">May 1980</date>
                         </dateline>
                         <p>PA 80–10239</p>
                         <p>[Source: Central Intelligence Agency, Directorate of Intelligence, Job
@@ -18570,8 +18596,8 @@
                                 (T).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-08-13">August 13,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-08-13"
+                                calendar="gregorian">August 13, 1980</date>
                         </dateline>
                         <p rend="center">
                             <hi rend="italic">Intercommunal Talks on Cyprus: Where Are They
@@ -18871,7 +18897,7 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1980-09-25T18:24:00+00:00"
-                                >September 25, 1980, 1824Z</date>
+                                calendar="gregorian">September 25, 1980, 1824Z</date>
                         </dateline>
                         <p>
                             <gloss target="#t_Secto_1">Secto</gloss> 8013. (U) Subject: Secretary’s
@@ -19049,7 +19075,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1980-10-30T13:20:00+00:00">October 30, 1980, 1320Z</date>
+                                when="1980-10-30T13:20:00+00:00" calendar="gregorian">October 30,
+                                1980, 1320Z</date>
                         </dateline>
                         <p>289947. Subject: (U) Cypriot Ambassador <persName corresp="#p_JA_1"
                                 >Jacovides</persName> Discussion With Under Secretary <persName
@@ -19244,8 +19271,8 @@
                                     <persName corresp="#p_DCE_1">Dillery</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-11-20">November 20,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-11-20"
+                                calendar="gregorian">November 20, 1980</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -19382,7 +19409,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1980-12-10T12:38:00+00:00">December 10, 1980, 1238Z</date>
+                                when="1980-12-10T12:38:00+00:00" calendar="gregorian">December 10,
+                                1980, 1238Z</date>
                         </dateline>
                         <p>327038. (U) Subject: Cypriot Ambassador <persName corresp="#p_JA_1"
                                 >Jacovides</persName> Meeting With Under Secretary <persName
@@ -19511,7 +19539,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-01-21T15:00:00"
-                                type="conversation-or-meeting-date">January 21, 1977, 3 p.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">January 21,
+                                1977, 3 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -19822,8 +19851,8 @@
                         <head>85. Intelligence Information Memorandum Prepared in the Central
                             Intelligence Agency</head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-01-31">January 31,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-01-31"
+                                calendar="gregorian">January 31, 1977</date>
                         </dateline>
                         <p>[Source: Central Intelligence Agency, History Staff Files, NIIM 0035–77.
                             Top Secret; Codeword. Four pages not declassified.]</p>
@@ -19846,7 +19875,7 @@
                                 notBefore="1977-01-31T00:00:00-05:00"
                                 notAfter="1977-02-11T23:59:59-05:00"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. President,</salute>
@@ -19932,7 +19961,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1977-02-16T21:08:00+00:00">February 16, 1977, 2108Z</date>
+                                when="1977-02-16T21:08:00+00:00" calendar="gregorian">February 16,
+                                1977, 2108Z</date>
                         </dateline>
                         <p>35397. Subject: <persName corresp="#p_CCM_1">Clifford</persName> Mission:
                             Letters From President. Vienna for <persName corresp="#p_CCM_1"
@@ -20005,7 +20035,8 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1977-02-22T15:00:00"
-                                type="conversation-or-meeting-date">February 22, 1977, 3 p.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">February
+                                22, 1977, 3 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -20356,8 +20387,8 @@
                                 (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-03-03">March 3,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-03-03"
+                                calendar="gregorian">March 3, 1977</date>
                         </dateline>
                         <p>TDFIR DB–315/02408–77</p>
                         <p>204690. Country: Turkey/Cyprus/Greece. DOI: 22 February 1977. Subject: 1.
@@ -20426,8 +20457,8 @@
                                 classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-03-16">March 16,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-03-16"
+                                calendar="gregorian">March 16, 1977</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. Prime Minister:</salute>
@@ -20497,7 +20528,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-04-08T14:00:00"
-                                type="conversation-or-meeting-date">April 8, 1977, 2 p.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">April 8,
+                                1977, 2 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -20735,8 +20767,8 @@
                                 $175 million. This same amount is for Greece.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-04-15">April 15,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-04-15"
+                                calendar="gregorian">April 15, 1977</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -20853,8 +20885,8 @@
                                 exploiting” Turkey’s economic situation. (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-05-03">May 3,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-05-03"
+                                calendar="gregorian">May 3, 1977</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -20923,8 +20955,8 @@
                         </head>
                         <dateline>
                             <placeName>London</placeName>, <date from="1977-05-10T08:48:00"
-                                to="1977-05-10T09:25:00" type="conversation-or-meeting-date">May 10,
-                                1977, 8:48–9:25 a.m.</date>
+                                to="1977-05-10T09:25:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">May 10, 1977, 8:48–9:25 a.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -21308,8 +21340,8 @@
                                 Research.” That memorandum was not found.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-06-03">June 3,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-06-03"
+                                calendar="gregorian">June 3, 1977</date>
                         </dateline>
                         <p>SR M 77–10078</p>
                         <p rend="center">
@@ -21361,7 +21393,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-06-09"
-                                ana="#date_undated-inferred-from-document-content">undated</date>
+                                ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <p rend="center">
                             <persName corresp="#p_EB_1">BULENT ECEVIT</persName>
@@ -21488,8 +21521,8 @@
                                 Sensitive.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-09-19">September 19,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-09-19"
+                                calendar="gregorian">September 19, 1977</date>
                         </dateline>
                         <p>Our exploratory discussions in Ankara were designed to test whether a
                             scenario could be developed that would lead to progress on Cyprus and to
@@ -21645,8 +21678,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1977-09-27T11:30:00"
-                                type="conversation-or-meeting-date">September 27, 1977, 11:30
-                                a.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">September
+                                27, 1977, 11:30 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -21966,7 +21999,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1977-10-05T16:00:00"
-                                type="conversation-or-meeting-date">October 5, 1977, 4 p.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">October 5,
+                                1977, 4 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -22193,8 +22227,8 @@
                                 “Cy—Sounds like excellent progress—if it materializes. J.C.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-10-23">October 23,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-10-23"
+                                calendar="gregorian">October 23, 1977</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -22458,8 +22492,8 @@
                         </head>
                         <dateline>
                             <placeName>Brussels</placeName>, <date when="1977-12-07T09:30:00"
-                                type="conversation-or-meeting-date">December 7, 1977, 9:30
-                                a.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">December 7,
+                                1977, 9:30 a.m.</date>
                         </dateline>
                         <p rend="center">BILATERAL MEETING BETWEEN SECRETARY <persName
                                 corresp="#p_BH_1">BROWN</persName> AND TURKISH MINISTER OF DEFENSE
@@ -22632,8 +22666,8 @@
                         </head>
                         <dateline>
                             <placeName>Brussels</placeName>, <date when="1977-12-08T18:30:00"
-                                type="conversation-or-meeting-date">December 8, 1977, 6:30
-                                p.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">December 8,
+                                1977, 6:30 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -22922,8 +22956,8 @@
                                     corresp="#p_MDE_1">McGiffert</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-01-11">January 11,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-01-11"
+                                calendar="gregorian">January 11, 1978</date>
                         </dateline>
                         <p>We received a long cable from <persName corresp="#p_SRL_1">Ron
                                 Spiers</persName> reporting on his first meeting with <persName
@@ -22989,8 +23023,8 @@
                                 Secret.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-01-18">January 18,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-01-18"
+                                calendar="gregorian">January 18, 1978</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -23075,7 +23109,7 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1978-01-23T08:00:00+00:00"
-                                >January 23, 1978, 0800Z</date>
+                                calendar="gregorian">January 23, 1978, 0800Z</date>
                         </dateline>
                         <p>574. For <persName corresp="#p_SJ_1">Spiegel</persName>. Subject:
                             Uncleared Report of Secretary’s Visit to Ankara.</p>
@@ -23595,8 +23629,8 @@
                                 50, Turkey: 1978. Confidential. Sent for action.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-02-24">February 24,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-02-24"
+                                calendar="gregorian">February 24, 1978</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -23682,7 +23716,7 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1978-02-24T12:20:00+00:00"
-                                >February 24, 1978, 1220Z</date>
+                                calendar="gregorian">February 24, 1978, 1220Z</date>
                         </dateline>
                         <p>1443. For the Secretary from the Ambassador. Subj: US–<gloss
                                 target="#t_GOT_1">GOT</gloss> Relations.</p>
@@ -23813,8 +23847,8 @@
                                     <persName corresp="#p_BJD_1">Bennet</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-03-01">March 1,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-03-01"
+                                calendar="gregorian">March 1, 1978</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -23936,8 +23970,8 @@
                                 end up looking inept in Congress.” (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-03-04">March 4,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-03-04"
+                                calendar="gregorian">March 4, 1978</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -24076,8 +24110,8 @@
                                     corresp="#p_CWM_1">Christopher</persName>.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-03-27">March 27,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-03-27"
+                                calendar="gregorian">March 27, 1978</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. Prime Minister:</salute>
@@ -24147,7 +24181,7 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1978-03-29T19:45:00+00:00"
-                                >March 29, 1978, 1945Z</date>
+                                calendar="gregorian">March 29, 1978, 1945Z</date>
                         </dateline>
                         <p>2351. TAGS: US-Turkey Relations: Deputy Secretary’s Meeting With Prime
                             Minister <persName corresp="#p_EB_1">Ecevit</persName>.</p>
@@ -24451,8 +24485,8 @@
                                 D780221–0457)</note>
                         </head>
                         <dateline>
-                            <placeName>Ankara</placeName>, <date when="1978-05-15">May 15,
-                                1978</date>
+                            <placeName>Ankara</placeName>, <date when="1978-05-15"
+                                calendar="gregorian">May 15, 1978</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. President,</salute>
@@ -24531,7 +24565,7 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1978-05-16T12:00:00+00:00"
-                                >May 16, 1978, 1280Z</date>
+                                calendar="gregorian">May 16, 1978, 1280Z</date>
                         </dateline>
                         <p>3734. Subj: Effect on Turkish Cyprus Policy of Failure To Lift
                             Embargo.</p>
@@ -24678,8 +24712,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1978-05-31T08:00:00"
-                                to="1978-05-31T09:00:00" type="conversation-or-meeting-date">May 31,
-                                1978, 8–9 a.m.</date>
+                                to="1978-05-31T09:00:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">May 31, 1978, 8–9 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -24952,7 +24986,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1978-06-04"
-                                type="conversation-or-meeting-date">June 4, 1978</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">June 4,
+                                1978</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -25221,7 +25256,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1978-06-05"
-                                type="conversation-or-meeting-date">June 5, 1978</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">June 5,
+                                1978</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -25465,8 +25501,8 @@
                                     >Ewing</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-06-20">June 20,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-06-20"
+                                calendar="gregorian">June 20, 1978</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -25680,8 +25716,8 @@
                                 wrote, “Be careful on this—J.” (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-07-18">July 18,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-07-18"
+                                calendar="gregorian">July 18, 1978</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -25798,8 +25834,8 @@
                                 Confidential. Sent for information.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-08-15">August 15,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-08-15"
+                                calendar="gregorian">August 15, 1978</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -25911,7 +25947,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1978-09-29T15:27:00+00:00">September 29, 1978, 1527Z</date>
+                                when="1978-09-29T15:27:00+00:00" calendar="gregorian">September 29,
+                                1978, 1527Z</date>
                         </dateline>
                         <p>248372. <gloss target="#t_Exdis_1">Exdis</gloss>; USOECD; military
                             addressees handle as <gloss target="#t_Specat_1">Specat</gloss>
@@ -26212,8 +26249,8 @@
                                 with Turkey.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-11-03">November 3,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-11-03"
+                                calendar="gregorian">November 3, 1978</date>
                         </dateline>
                         <p rend="center">Circular 175 Procedure—Request for Authorization to
                             Negotiate with the Government of Turkey a New Agreement to Govern the
@@ -26352,7 +26389,8 @@
                         </head>
                         <dateline>
                             <placeName>Mons, Belgium</placeName>, <date
-                                when="1978-11-20T19:38:00+00:00">November 20, 1978, 1938Z</date>
+                                when="1978-11-20T19:38:00+00:00" calendar="gregorian">November 20,
+                                1978, 1938Z</date>
                         </dateline>
                         <p>SHP 3796. From Gen <persName corresp="#p_HAM_1">Haig</persName>, <gloss
                                 target="#t_SACEUR_1">SACEUR</gloss>, <gloss target="#t_SHAPE_1"
@@ -26514,8 +26552,8 @@
                                 Director of the Defense Intelligence Agency.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-12-27">December 27,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-12-27"
+                                calendar="gregorian">December 27, 1978</date>
                         </dateline>
                         <p>RP M 78–10506</p>
                         <p rend="center">TURKEY UNDER MARTIAL LAW [<hi rend="italic">handling
@@ -26666,7 +26704,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1978-12-28T10:00:00"
-                                to="1978-12-28T11:00:00">December 28, 1978, 10–11 a.m.</date>
+                                to="1978-12-28T11:00:00" calendar="gregorian">December 28, 1978,
+                                10–11 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -26901,8 +26940,8 @@
                                 coordinated within <gloss target="#t_CIA_1">CIA</gloss>.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-01-03">January 3,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-01-03"
+                                calendar="gregorian">January 3, 1979</date>
                         </dateline>
                         <p>RP M 79–10006</p>
                         <p rend="center">PROSPECTS FOR THE <persName corresp="#p_EB_1"
@@ -26981,8 +27020,8 @@
                                     corresp="#p_VCR_1">Vance</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Ankara</placeName>, <date when="1979-01-19">January 19,
-                                1979</date>
+                            <placeName>Ankara</placeName>, <date when="1979-01-19"
+                                calendar="gregorian">January 19, 1979</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. President,</salute>
@@ -27077,8 +27116,8 @@
                                 top of the first page reads: “ZB has seen.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-02-22">February 22,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-02-22"
+                                calendar="gregorian">February 22, 1979</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -27262,7 +27301,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1979-03-07T09:30:00"
-                                to="1979-03-07T10:40:00">March 7, 1979, 9:30–10:40 a.m.</date>
+                                to="1979-03-07T10:40:00" calendar="gregorian">March 7, 1979,
+                                9:30–10:40 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -27476,8 +27516,8 @@
                                     >Ermarth</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-03-27">March 27,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-03-27"
+                                calendar="gregorian">March 27, 1979</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -27631,7 +27671,7 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1979-04-13T11:15:00+00:00"
-                                >April 13, 1979, 1115Z</date>
+                                calendar="gregorian">April 13, 1979, 1115Z</date>
                         </dateline>
                         <p>2911. Dept pls pass White House and Dept of Defense. Subject: US–<gloss
                                 target="#t_GOT_1">GOT</gloss> Relations; Defense Negotiations.</p>
@@ -27803,7 +27843,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1979-04-14T21:13:00+00:00">April 14, 1979, 2113Z</date>
+                                when="1979-04-14T21:13:00+00:00" calendar="gregorian">April 14,
+                                1979, 2113Z</date>
                         </dateline>
                         <p>94317. For Ambassador from Acting Secretary. Subject: Presidential Letter
                             to Prime Minister <persName corresp="#p_EB_1">Ecevit</persName> and
@@ -27920,8 +27961,8 @@
                                 for overflights was politically tenable in Turkey. (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Ankara</placeName>, <date when="1979-04-21">April 21,
-                                1979</date>
+                            <placeName>Ankara</placeName>, <date when="1979-04-21"
+                                calendar="gregorian">April 21, 1979</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. President,</salute>
@@ -28023,8 +28064,8 @@
                                 corner.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-04-23">April 23,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-04-23"
+                                calendar="gregorian">April 23, 1979</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -28131,7 +28172,7 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1979-05-08T10:36:00+00:00"
-                                >May 8, 1979, 1036Z</date>
+                                calendar="gregorian">May 8, 1979, 1036Z</date>
                         </dateline>
                         <p>3486. Subj: (S) Deputy Secretary’s Visit to Ankara—Oral Message From
                             President <persName corresp="#p_CJE_1">Carter</persName> to Prime
@@ -28209,7 +28250,7 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1979-05-08T15:32:00+00:00"
-                                >May 8, 1979, 1532Z</date>
+                                calendar="gregorian">May 8, 1979, 1532Z</date>
                         </dateline>
                         <p>3507. Department pass Munich for <persName corresp="#p_NM_1"
                                 >Nimetz</persName>/<persName corresp="#p_ERC_1">Ewing</persName>.
@@ -28466,7 +28507,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1979-05-12T16:43:00+00:00">May 12, 1979, 1643Z</date>
+                                when="1979-05-12T16:43:00+00:00" calendar="gregorian">May 12, 1979,
+                                1643Z</date>
                         </dateline>
                         <p>121617. For <gloss target="#t_Amb_1">Amb</gloss>. <persName
                                 corresp="#p_SRL_1">Spiers</persName> from <persName
@@ -28569,8 +28611,8 @@
                                 Western Europe.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-05-24">May 24,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-05-24"
+                                calendar="gregorian">May 24, 1979</date>
                         </dateline>
                         <p>PA 79–10225</p>
                         <p rend="center">Turkey: <persName corresp="#p_EB_1">Ecevit</persName>
@@ -28676,7 +28718,7 @@
                         </head>
                         <dateline>
                             <placeName>Madrid</placeName>, <date when="1979-06-01T15:08:00+00:00"
-                                >June 1, 1979, 1508Z</date>
+                                calendar="gregorian">June 1, 1979, 1508Z</date>
                         </dateline>
                         <p>Secto 4118. (U) Subject: <gloss target="#t_NAC_1">NAC</gloss>
                             Ministerial: Secretary <persName corresp="#p_VCR_1">Vance</persName>’s
@@ -28969,7 +29011,7 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1979-07-19T12:30:00+00:00"
-                                >July 19, 1979, 1230Z</date>
+                                calendar="gregorian">July 19, 1979, 1230Z</date>
                         </dateline>
                         <p>5416. Subj: (S) Political Reporting: Prospects for Military Intervention.
                             Ref: State 178919.<note n="2" xml:id="d142fn2">Not found.</note>
@@ -29101,7 +29143,7 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1979-09-19T14:33:00+00:00"
-                                >September 19, 1979, 1433Z</date>
+                                calendar="gregorian">September 19, 1979, 1433Z</date>
                         </dateline>
                         <p>6939. Subj: (S) Turkey and <gloss target="#t_SALT_1">SALT</gloss> II
                             Verification. Ref: Ankara 6254.<note n="2" xml:id="d143fn2">Telegram
@@ -29286,8 +29328,8 @@
                                 of the Office of Political Analysis.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-10-12">October 12,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-10-12"
+                                calendar="gregorian">October 12, 1979</date>
                         </dateline>
                         <p>PA M 79–10483</p>
                         <p rend="center">TURKEY’S OCTOBER ELECTIONS</p>
@@ -29370,7 +29412,7 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1979-11-24T10:06:00+00:00"
-                                >November 24, 1979, 1006Z</date>
+                                calendar="gregorian">November 24, 1979, 1006Z</date>
                         </dateline>
                         <p>8510. Military addressees handle as <gloss target="#t_Specat_1"
                                 >Specat</gloss> Exclusive. Personal for Deputy Secretary <persName
@@ -29567,7 +29609,7 @@
                         </head>
                         <dateline>
                             <placeName>Brussels</placeName>, <date when="1979-12-14T17:24:00+00:00"
-                                >December 14, 1979, 1724Z</date>
+                                calendar="gregorian">December 14, 1979, 1724Z</date>
                         </dateline>
                         <p>8750. Subj: (C) Secretary’s Meeting With Turkish Foreign Minister
                                 <persName corresp="#p_EH_1">Erkmen</persName>.</p>
@@ -29777,8 +29819,8 @@
                                     corresp="#p_VCR_1">Vance</persName> saw the memorandum.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-01-02">January 2,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-01-02"
+                                calendar="gregorian">January 2, 1980</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -29932,8 +29974,8 @@
                                     >EUR/SE</gloss>) 2–21–80 10:45 a.m.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-02-21">February 21,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-02-21"
+                                calendar="gregorian">February 21, 1980</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. Prime Minister:</salute>
@@ -29984,8 +30026,8 @@
                                 Demirel, 2/77–4/80. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Ankara</placeName>, <date when="1980-03-07">March 7,
-                                1980</date>
+                            <placeName>Ankara</placeName>, <date when="1980-03-07"
+                                calendar="gregorian">March 7, 1980</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. President,</salute>
@@ -30082,8 +30124,8 @@
                                 memorandum.” </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-03-09">March 9,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-03-09"
+                                calendar="gregorian">March 9, 1980</date>
                         </dateline>
                         <p>PA 80–10124</p>
                         <p rend="center">Short-Term Prospects for Turkey [<hi rend="italic">handling
@@ -30159,7 +30201,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1980-06-05T16:47:00+00:00">June 5, 1980, 1647Z</date>
+                                when="1980-06-05T16:47:00+00:00" calendar="gregorian">June 5, 1980,
+                                1647Z</date>
                         </dateline>
                         <p>147784. For Ambassador from <persName corresp="#p_NM_1">Nimetz</persName>
                             and <persName corresp="#p_VGS_1">Vest</persName>. Subject: (S) Possible
@@ -30278,7 +30321,7 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1980-06-25T17:52:00+00:00"
-                                >June 25, 1980, 1752Z</date>
+                                calendar="gregorian">June 25, 1980, 1752Z</date>
                         </dateline>
                         <p>
                             <gloss target="#t_Secto_1">Secto</gloss> 4048. Please pass President’s
@@ -30626,7 +30669,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>
-                            <date when="1980-07-12">July 12, 1980</date>
+                            <date when="1980-07-12" calendar="gregorian">July 12, 1980</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -30857,7 +30900,7 @@
                         </head>
                         <dateline>
                             <placeName>Ankara</placeName>, <date when="1980-09-19T13:43:00+00:00"
-                                >September 19, 1980, 1343Z</date>
+                                calendar="gregorian">September 19, 1980, 1343Z</date>
                         </dateline>
                         <p>6795. Subject: The Turkish Military Takeover—Background and
                             Prospects.</p>
@@ -31148,7 +31191,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1980-09-20T19:37:00+00:00">September 20, 1980, 1937Z</date>
+                                when="1980-09-20T19:37:00+00:00" calendar="gregorian">September 20,
+                                1980, 1937Z</date>
                         </dateline>
                         <p>251392. Subject: (C) <gloss target="#t_US_1">U.S.</gloss> Relations With
                             Turkey.</p>
@@ -31281,7 +31325,7 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1980-09-27T01:31:00+00:00"
-                                >September 27, 1980, 0131Z</date>
+                                calendar="gregorian">September 27, 1980, 0131Z</date>
                         </dateline>
                         <p>
                             <gloss target="#t_Secto_1">Secto</gloss> 8030. Sana for Under Secretary
@@ -31480,7 +31524,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1980-10-03T22:00:00+00:00">October 3, 1980, 2200Z</date>
+                                when="1980-10-03T22:00:00+00:00" calendar="gregorian">October 3,
+                                1980, 2200Z</date>
                         </dateline>
                         <p>264497. Military addressee handle as <gloss target="#t_Specat_1"
                                 >Specat</gloss> Exclusive. Subject: (S) Message From President
@@ -31581,8 +31626,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1980-10-03T16:30:00"
-                                to="1980-10-03T16:50:00" type="conversation-or-meeting-date">October
-                                3, 1980, 4:30–4:50 p.m.</date>
+                                to="1980-10-03T16:50:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">October 3, 1980, 4:30–4:50 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -31723,8 +31768,8 @@
                                 handwritten.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-12-04">December 4,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-12-04"
+                                calendar="gregorian">December 4, 1980</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. <persName corresp="#p_BZK_1"
@@ -31839,7 +31884,7 @@
                         </head>
                         <dateline>
                             <placeName>Brussels</placeName>, <date when="1980-12-11T17:16:00+00:00"
-                                >December 11, 1980, 1716Z</date>
+                                calendar="gregorian">December 11, 1980, 1716Z</date>
                         </dateline>
                         <p>
                             <gloss target="#t_Secto_1">Secto</gloss> 10010. Subject: (U) <gloss
@@ -32005,7 +32050,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1981-01-17T01:14:00+00:00">January 17, 1981, 0114Z</date>
+                                when="1981-01-17T01:14:00+00:00" calendar="gregorian">January 17,
+                                1981, 0114Z</date>
                         </dateline>
                         <p>12307. Subject: Presidential Message to General <persName
                                 corresp="#p_EK_1">Evren</persName> (S/S 8100562). Ref: State 339227
@@ -32079,7 +32125,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-01-06"
-                                type="conversation-or-meeting-date">January 6, 1977</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">January 6,
+                                1977</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -32224,7 +32271,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1977-02-02T15:26:00+00:00">February 2, 1977, 1526Z</date>
+                                when="1977-02-02T15:26:00+00:00" calendar="gregorian">February 2,
+                                1977, 1526Z</date>
                         </dateline>
                         <p>23174. For Ambassadors only. Subject: Letter From Prime Minister
                                 <persName corresp="#p_CC_1">Caramanlis</persName> to President-Elect
@@ -32479,7 +32527,7 @@
                         </head>
                         <dateline>
                             <placeName>Athens</placeName>, <date when="1977-02-11T16:34:00+00:00"
-                                >February 11, 1977, 1634Z</date>
+                                calendar="gregorian">February 11, 1977, 1634Z</date>
                         </dateline>
                         <p>1396. Sub: <persName corresp="#p_CC_1">Caramanlis</persName> Comments on
                                 <persName corresp="#p_CCM_1">Clifford</persName> Mission, Cyprus and
@@ -32682,8 +32730,8 @@
                                 No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-03-16">March 16,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-03-16"
+                                calendar="gregorian">March 16, 1977</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. Prime Minister:</salute>
@@ -32749,8 +32797,8 @@
                         </head>
                         <dateline>
                             <placeName>London</placeName>, <date from="1977-05-10T07:47:00"
-                                to="1977-05-10T08:25:00" type="conversation-or-meeting-date">May 10,
-                                1977, 7:47–8:25 a.m.</date>
+                                to="1977-05-10T08:25:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">May 10, 1977, 7:47–8:25 a.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -33120,8 +33168,8 @@
                                 of the world to a normal condition.” (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-05-26">May 26,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-05-26"
+                                calendar="gregorian">May 26, 1977</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -33296,7 +33344,7 @@
                         </head>
                         <dateline>
                             <placeName>Athens</placeName>, <date when="1977-07-18T14:56:00+00:00"
-                                >July 18, 1977, 1456Z</date>
+                                calendar="gregorian">July 18, 1977, 1456Z</date>
                         </dateline>
                         <p>6652. Subject: <gloss target="#t_US_1">U.S.</gloss>-Greek Defense
                             Cooperation Negotiations Successfully Concluded.</p>
@@ -33391,8 +33439,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1977-09-29T16:00:00"
-                                type="conversation-or-meeting-date">September 29, 1977, 4
-                                p.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">September
+                                29, 1977, 4 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -33730,8 +33778,8 @@
                         </head>
                         <dateline>
                             <placeName>New York</placeName>, <date when="1977-10-03T10:30:00"
-                                type="conversation-or-meeting-date">October 3, 1977, 10:30
-                                a.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">October 3,
+                                1977, 10:30 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -34028,8 +34076,8 @@
                                 16, Greece: 1977. Confidential. Sent for information.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-12-05">December 5,
-                                1977</date>
+                            <placeName>Washington</placeName>, <date when="1977-12-05"
+                                calendar="gregorian">December 5, 1977</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -34153,8 +34201,8 @@
                         </head>
                         <dateline>
                             <placeName>Brussels</placeName>, <date when="1977-12-08T17:45:00"
-                                type="conversation-or-meeting-date">December 8, 1977, 5:45
-                                p.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">December 8,
+                                1977, 5:45 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -34448,7 +34496,8 @@
                         </head>
                         <dateline>
                             <placeName>Athens</placeName>, <date when="1978-01-23T17:26:00+00:00"
-                                type="conversation-or-meeting-date">January 23, 1978, 1726Z</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">January 23,
+                                1978, 1726Z</date>
                         </dateline>
                         <p>700. Subject: Draft Report on the Secretary’s Meetings With Prime
                             Minister <persName corresp="#p_CC_1">Caramanlis</persName>, January
@@ -34854,8 +34903,8 @@
                                 ourselves, but without getting into specifics.” (Ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-03-13">March 13,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-03-13"
+                                calendar="gregorian">March 13, 1978</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. Prime Minister:</salute>
@@ -34933,8 +34982,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1978-05-31T17:00:00"
-                                to="1978-05-31T18:00:00" type="conversation-or-meeting-date">May 31,
-                                1978, 5–6 p.m.</date>
+                                to="1978-05-31T18:00:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">May 31, 1978, 5–6 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -35285,8 +35334,8 @@
                                 Harris in <gloss target="#t_INR_1">INR</gloss>/RWE.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-06-02">June 2,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-06-02"
+                                calendar="gregorian">June 2, 1978</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -35443,7 +35492,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1978-06-07T22:44:00+00:00">June 7, 1978, 2244Z</date>
+                                when="1978-06-07T22:44:00+00:00" calendar="gregorian">June 7, 1978,
+                                2244Z</date>
                         </dateline>
                         <p>144648. Subject: Secretary’s Meeting With Greek Prime Minister <persName
                                 corresp="#p_KK_1">Karamanlis</persName>, New York, June 3, 1978.</p>
@@ -35669,7 +35719,7 @@
                         </head>
                         <dateline>
                             <placeName>Athens</placeName>, <date when="1978-06-14T16:21:00+00:00"
-                                >June 14, 1978, 1621Z</date>
+                                calendar="gregorian">June 14, 1978, 1621Z</date>
                         </dateline>
                         <p>4966. Mil addees treat as <gloss target="#t_Specat_1">Specat</gloss>.
                                 <gloss target="#t_AmEmbassy_1">AmEmbassy</gloss> London for Asst.
@@ -35777,8 +35827,8 @@
                                 at the top of the page reads: “(Typed from Telex).”</note>
                         </head>
                         <dateline>
-                            <placeName>Athens</placeName>, <date when="1978-08-01">August 1,
-                                1978</date>
+                            <placeName>Athens</placeName>, <date when="1978-08-01"
+                                calendar="gregorian">August 1, 1978</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. President:</salute>
@@ -35904,8 +35954,8 @@
                                 No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-08-03">August 3,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-08-03"
+                                calendar="gregorian">August 3, 1978</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. Prime Minister:</salute>
@@ -35982,7 +36032,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1978-09-29T15:22:00+00:00">September 29, 1978, 1522Z</date>
+                                when="1978-09-29T15:22:00+00:00" calendar="gregorian">September 29,
+                                1978, 1522Z</date>
                         </dateline>
                         <p>248371. Military addressees handle as <gloss target="#t_Specat_1"
                                 >Specat</gloss> Exclusive. Subject: Secretary <persName
@@ -36178,8 +36229,8 @@
                                 Nocontract; Orcon.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-10-11">October 11,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-10-11"
+                                calendar="gregorian">October 11, 1978</date>
                         </dateline>
                         <p>TDFIR DB–315/13640–78</p>
                         <p>1377744. Country: Greece/Turkey/Cyprus/<gloss target="#t_USSR_1"
@@ -36249,8 +36300,8 @@
                                 No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-10-18">October 18,
-                                1978</date>
+                            <placeName>Washington</placeName>, <date when="1978-10-18"
+                                calendar="gregorian">October 18, 1978</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. Prime Minister:</salute>
@@ -36322,7 +36373,7 @@
                         </head>
                         <dateline>
                             <placeName>Athens</placeName>, <date when="1978-10-21T14:04:00+00:00"
-                                >October 21, 1978, 1404Z</date>
+                                calendar="gregorian">October 21, 1978, 1404Z</date>
                         </dateline>
                         <p>9184. <gloss target="#t_miladdees_1">Miladdees</gloss> treat as <gloss
                                 target="#t_Specat_1">Specat</gloss> Exclusive. Subject: Secretary’s
@@ -36698,7 +36749,7 @@
                         </head>
                         <dateline>
                             <placeName>Athens</placeName>, <date when="1978-10-25T16:12:00+00:00"
-                                >October 25, 1978, 1612Z</date>
+                                calendar="gregorian">October 25, 1978, 1612Z</date>
                         </dateline>
                         <p>9329. Military addressees treat as <gloss target="#t_Specat_1"
                                 >Specat</gloss> Exclusive. Subject: Deputy Secretary’s Visit—Taking
@@ -36878,7 +36929,7 @@
                         </head>
                         <dateline>
                             <placeName>Brussels</placeName>, <date when="1978-12-08T11:18:00+00:00"
-                                >December 8, 1978, 1118Z</date>
+                                calendar="gregorian">December 8, 1978, 1118Z</date>
                         </dateline>
                         <p>23208. Subject: Meeting Between Deputy Secretary and Greek Foreign
                             Minister <persName corresp="#p_RG_1">Rallis</persName> December 7.</p>
@@ -37096,7 +37147,7 @@
                         </head>
                         <dateline>
                             <placeName>Athens</placeName>, <date when="1979-02-23T15:07:00+00:00"
-                                >February 23, 1979, 1507Z</date>
+                                calendar="gregorian">February 23, 1979, 1507Z</date>
                         </dateline>
                         <p>1707. Subject: (C) Foreign Relations: Greece and Cyprus—The Extent and
                             Limits of Greek Leverage.</p>
@@ -37301,8 +37352,8 @@
                                 Wnintel; Noforn; Nocontract; Orcon.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-05-10">May 10,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-05-10"
+                                calendar="gregorian">May 10, 1979</date>
                         </dateline>
                         <p>TDFIR DB–315/08516–79</p>
                         <p>2447259. Exclusive dissemination to addressee listed in final paragraph.
@@ -37383,7 +37434,7 @@
                         </head>
                         <dateline>
                             <placeName>Madrid</placeName>, <date when="1979-06-01T14:00:00+00:00"
-                                >June 1, 1979, 1400Z</date>
+                                calendar="gregorian">June 1, 1979, 1400Z</date>
                         </dateline>
                         <p>
                             <gloss target="#t_Secto_1">Secto</gloss> 4116. Subject: <gloss
@@ -37654,7 +37705,7 @@
                         </head>
                         <dateline>
                             <placeName>Athens</placeName>, <date when="1979-06-08T14:15:00+00:00"
-                                >June 8, 1979, 1415Z</date>
+                                calendar="gregorian">June 8, 1979, 1415Z</date>
                         </dateline>
                         <p>5024. <gloss target="#t_miladdees_1">Miladdees</gloss> handle as <gloss
                                 target="#t_Specat_1">Specat</gloss> Exclusive. Subject: (S) Foreign
@@ -37835,7 +37886,8 @@
                         </head>
                         <dateline>
                             <placeName>Mons, Belgium</placeName>, <date
-                                when="1979-06-16T10:10:00+00:00">June 16, 1979, 1010Z</date>
+                                when="1979-06-16T10:10:00+00:00" calendar="gregorian">June 16, 1979,
+                                1010Z</date>
                         </dateline>
                         <p>1812. From General <persName corresp="#p_HAM_1">Haig</persName>
                             <gloss target="#t_SACEUR_1">SACEUR</gloss>
@@ -37917,8 +37969,8 @@
                                 upper right-hand corner.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-09-20">September 20,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-09-20"
+                                calendar="gregorian">September 20, 1979</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -38049,8 +38101,8 @@
                                 on September 4.</note>
                         </head>
                         <dateline>
-                            <placeName>Athens</placeName>, <date when="1979-09-25">September 25,
-                                1979</date>
+                            <placeName>Athens</placeName>, <date when="1979-09-25"
+                                calendar="gregorian">September 25, 1979</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr President,</salute>
@@ -38232,8 +38284,8 @@
                                 >Henze</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-10-01">October 1,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-10-01"
+                                calendar="gregorian">October 1, 1979</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -38389,8 +38441,8 @@
                                 Information Controlled by Originator.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-11-06">November 6,
-                                1979</date>
+                            <placeName>Washington</placeName>, <date when="1979-11-06"
+                                calendar="gregorian">November 6, 1979</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -38430,7 +38482,7 @@
                                     notBefore="1979-10-15T00:00:00-04:00"
                                     notAfter="1979-11-06T23:59:59-05:00"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                    >undated</date>
+                                    calendar="gregorian">undated</date>
                             </dateline>
                             <p>FIRDB–312/02688–79</p>
                             <list type="subject">
@@ -38544,7 +38596,7 @@
                         </head>
                         <dateline>
                             <placeName>Brussels</placeName>, <date when="1979-12-14T17:07:00+00:00"
-                                >December 14, 1979, 1707Z</date>
+                                calendar="gregorian">December 14, 1979, 1707Z</date>
                         </dateline>
                         <p>8749. Subj: (C) Secretary’s Meeting With Greek Foreign Minister <persName
                                 corresp="#p_RG_1">Rallis</persName>.</p>
@@ -38807,8 +38859,8 @@
                                 Technology.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-01-25">January 25,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-01-25"
+                                calendar="gregorian">January 25, 1980</date>
                         </dateline>
                         <p rend="center">EVENING READING</p>
                         <list type="subject">
@@ -38889,8 +38941,8 @@
                                 17 March 1980.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-03-17">March 17,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-03-17"
+                                calendar="gregorian">March 17, 1980</date>
                         </dateline>
                         <p>PA M 80–10127</p>
                         <p rend="center">GREEK REINTEGRATION INTO <gloss target="#t_NATO_1"
@@ -39080,7 +39132,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1980-03-18"
-                                ana="#date_undated-inferred-from-document-content">undated</date>
+                                ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <p rend="center">DISCUSSION PAPER—PRC MEETING ON GREEK REINTEGRATION</p>
                         <p rend="sectiontitleital">
@@ -39291,7 +39344,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1980-03-20T15:10:00"
-                                to="1980-03-20T15:40:00">March 20, 1980, 3:10–3:40 p.m.</date>
+                                to="1980-03-20T15:40:00" calendar="gregorian">March 20, 1980,
+                                3:10–3:40 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -39435,7 +39489,8 @@
                             <placeName>Washington</placeName>, <date
                                 notBefore="1980-04-04T00:00:00-05:00"
                                 notAfter="1980-05-01T23:59:59-04:00"
-                                ana="#date_undated-inferred-from-document-content">undated</date>
+                                ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -39596,7 +39651,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1980-05-14"
-                                ana="#date_undated-inferred-from-document-content">undated</date>
+                                ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <p rend="center">THE NEW GREEK GOVERNMENT: IMPLICATIONS FOR <gloss
                                 target="#t_US_1">U.S.</gloss> INTERESTS</p>
@@ -39784,7 +39840,7 @@
                         </head>
                         <dateline>
                             <placeName>Athens</placeName>, <date when="1980-06-23T16:33:00+00:00"
-                                >June 23, 1980, 1633Z</date>
+                                calendar="gregorian">June 23, 1980, 1633Z</date>
                         </dateline>
                         <p>6327. <gloss target="#t_miladdees_1">Miladdees</gloss> handle as <gloss
                                 target="#t_Specat_1">Specat</gloss> Exclusive. Subj: Discussion With
@@ -40048,8 +40104,8 @@
                                 205</ref>.</note>
                         </head>
                         <dateline>
-                            <placeName>Athens</placeName>, <date when="1980-09-24">September 24,
-                                1980</date>
+                            <placeName>Athens</placeName>, <date when="1980-09-24"
+                                calendar="gregorian">September 24, 1980</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. President,</salute>
@@ -40155,8 +40211,8 @@
                                 26.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-09-25">September 25,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-09-25"
+                                calendar="gregorian">September 25, 1980</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -40235,8 +40291,8 @@
                                 HB.”</note>
                         </head>
                         <dateline>
-                            <placeName>Athens</placeName>, <date when="1980-09-26">September 26,
-                                1980</date>
+                            <placeName>Athens</placeName>, <date when="1980-09-26"
+                                calendar="gregorian">September 26, 1980</date>
                         </dateline>
                         <opener>
                             <salute>My dear Minister,</salute>
@@ -40340,8 +40396,8 @@
                                     >Brzezinski</persName> wrote “done” and initialed, “ZB.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-10-02">October 2,
-                                1980</date>
+                            <placeName>Washington</placeName>, <date when="1980-10-02"
+                                calendar="gregorian">October 2, 1980</date>
                         </dateline>
                         <p>It is generally agreed among Greek-Americans that the reintegration of
                             Greece into <gloss target="#t_NATO_1">NATO</gloss> is their highest
@@ -40397,7 +40453,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>
-                            <date when="1980-10-10">October 10, 1980</date>
+                            <date when="1980-10-10" calendar="gregorian">October 10, 1980</date>
                         </dateline>
                         <opener>
                             <salute>Dear Mr. Minister:</salute>
@@ -40467,7 +40523,7 @@
                         </head>
                         <dateline>
                             <placeName>Athens</placeName>, <date when="1980-10-18T09:42:00+00:00"
-                                >October 18, 1980, 0942Z</date>
+                                calendar="gregorian">October 18, 1980, 0942Z</date>
                         </dateline>
                         <p>12732. Subject: Greek Reintegration. Ref: A) <persName corresp="#p_ERC_1"
                                 >Ewing McCloskey</persName>
@@ -40620,7 +40676,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1980-12-14T07:55:00+00:00">December 14, 1980, 0755Z</date>
+                                when="1980-12-14T07:55:00+00:00" calendar="gregorian">December 14,
+                                1980, 0755Z</date>
                         </dateline>
                         <p>330939. Following <gloss target="#t_Secto_1">Secto</gloss> 10014 dtd Dec
                             12 sent action State Athens Ankara Nicosia being repeated to you. Quote:
@@ -40766,7 +40823,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1981-01-03T05:56:00+00:00">January 3, 1981, 0556Z</date>
+                                when="1981-01-03T05:56:00+00:00" calendar="gregorian">January 3,
+                                1981, 0556Z</date>
                         </dateline>
                         <p>1449. Subject: Presidential Message. Ref: 79 State 133075.<note n="2"
                                 xml:id="d212fn2">Telegram 133075 to Athens, May 25, 1979, is in the
