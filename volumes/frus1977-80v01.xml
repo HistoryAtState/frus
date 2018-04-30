@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date type="publication-date">2014</date>
+                <date type="publication-date" calendar="gregorian">2014</date>
                 <idno type="frus">frus1977-80v01</idno>
             </publicationStmt>
 
@@ -260,7 +260,7 @@
                     <lb/>
                     <orgName>Bureau of Public Affairs</orgName>
                     <lb/>
-                    <date when="2014-10">October, 2014</date>
+                    <date when="2014-10" calendar="gregorian">October, 2014</date>
                 </closer>
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
@@ -3781,7 +3781,8 @@
                                 rend="italic">Power and Principle,</hi> pp. 6–7)</note>
                     </head>
                     <dateline>
-                        <placeName>Tokyo</placeName>, <date when="1975-05-28">May 28, 1975</date>
+                        <placeName>Tokyo</placeName>, <date when="1975-05-28" calendar="gregorian"
+                            >May 28, 1975</date>
                     </dateline>
                     <p rend="center">NEW APPROACH TO FOREIGN POLICY</p>
                     <p>
@@ -4044,8 +4045,8 @@
                                 (<hi rend="italic">The Good Fight,</hi> p. 157)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1975-06-02">June 2,
-                            1975</date>
+                        <placeName>Washington</placeName>, <date when="1975-06-02"
+                            calendar="gregorian">June 2, 1975</date>
                     </dateline>
                     <p rend="center">AMERICAN FOREIGN POLICY AFTER VIETNAM</p>
                     <p>Mr. President.<note n="2" xml:id="d3fn2">Reference is to President Pro
@@ -4322,8 +4323,8 @@
                                 Tribune,</hi> March 17, 1976, p. 17.</note>
                     </head>
                     <dateline>
-                        <placeName>Chicago</placeName>, <date when="1976-03-15">March 15,
-                            1976</date>
+                        <placeName>Chicago</placeName>, <date when="1976-03-15" calendar="gregorian"
+                            >March 15, 1976</date>
                     </dateline>
                     <p rend="center">OUR FOREIGN RELATIONS</p>
                     <p>
@@ -4839,7 +4840,8 @@
                             5/1/76–12/31/76. No classification marking.</note>
                     </head>
                     <dateline>
-                        <placeName>New York</placeName>, <date when="1976-05-21">May 21, 1976</date>
+                        <placeName>New York</placeName>, <date when="1976-05-21"
+                            calendar="gregorian">May 21, 1976</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -4933,8 +4935,8 @@
                             President.” (<hi rend="italic">Power and Principle,</hi> p. 7)</note>
                     </head>
                     <dateline>
-                        <placeName>New York</placeName>, <date when="1976-06-23">June 23,
-                            1976</date>
+                        <placeName>New York</placeName>, <date when="1976-06-23"
+                            calendar="gregorian">June 23, 1976</date>
                     </dateline>
                     <p rend="center">RELATION BETWEEN WORLD’S DEMOCRACIES</p>
                     <p>
@@ -5572,8 +5574,8 @@
                                 Washington Post,</hi> September 9, 1976, p. A–8)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1976-09-08">September 8,
-                            1976</date>
+                        <placeName>Washington</placeName>, <date when="1976-09-08"
+                            calendar="gregorian">September 8, 1976</date>
                     </dateline>
                     <p rend="center">ADDRESSING B’NAI B’RITH</p>
                     <p>
@@ -5879,8 +5881,8 @@
                             additional information, see <ref target="#d11">Document 11</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>New York</placeName>, <date when="1976-09-27">September 27,
-                            1976</date>
+                        <placeName>New York</placeName>, <date when="1976-09-27"
+                            calendar="gregorian">September 27, 1976</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -6493,8 +6495,8 @@
                             Files, Transition Files, Transition Notebooks.</note>
                     </head>
                     <dateline>
-                        <placeName>New York</placeName>, <date when="1976-11-03">November 3,
-                            1976</date>
+                        <placeName>New York</placeName>, <date when="1976-11-03"
+                            calendar="gregorian">November 3, 1976</date>
                     </dateline>
                     <p>This memorandum contains our recommendations for action in ten key areas of
                         foreign policy and national security where we believe action should be taken
@@ -6935,8 +6937,8 @@
                             199)</note>
                     </head>
                     <dateline>
-                        <placeName>Brussels</placeName>, <date when="1977-01-24">January 24,
-                            1977</date>
+                        <placeName>Brussels</placeName>, <date when="1977-01-24"
+                            calendar="gregorian">January 24, 1977</date>
                     </dateline>
                     <p>In behalf of President <persName corresp="#p_CJE2_1">Carter</persName>, I
                         have come today to <gloss target="#t_NATO_1">NATO</gloss> Headquarters as a
@@ -7192,8 +7194,8 @@
                                 Union, Document 1</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-01-26">January 26,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-01-26"
+                            calendar="gregorian">January 26, 1977</date>
                     </dateline>
                     <opener>
                         <salute>To General Secretary <persName corresp="#p_BLI_1">Leonid
@@ -7419,7 +7421,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1977-02-01T09:45:00"
-                            to="1977-02-01T11:00:00">February 1, 1977, 9:45–11 a.m.</date>
+                            to="1977-02-01T11:00:00" calendar="gregorian">February 1, 1977, 9:45–11
+                            a.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -7948,8 +7951,8 @@
                                 >Brzezinski</persName> for information. (Ibid.)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-02-21">February 21,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-02-21"
+                            calendar="gregorian">February 21, 1977</date>
                     </dateline>
                     <list>
                         <head>RE</head>
@@ -8018,8 +8021,8 @@
                             28, 1977, pp. 284–298 and April 11, 1977, pp. 336–339.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-02-24">February 24,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-02-24"
+                            calendar="gregorian">February 24, 1977</date>
                     </dateline>
                     <p>It is my pleasure to begin today, before this distinguished committee, my
                         testimony to the Congress on the <persName corresp="#p_CJE2_1"
@@ -8245,8 +8248,8 @@
                             memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-02-24">February 24,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-02-24"
+                            calendar="gregorian">February 24, 1977</date>
                     </dateline>
                     <p rend="center">Topics for Discussion at Cabinet Meetings</p>
                     <p rend="sectiontitleital">Issue for Decision</p>
@@ -8379,8 +8382,8 @@
                             memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-03-03">March 3,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-03-03"
+                            calendar="gregorian">March 3, 1977</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -8466,8 +8469,8 @@
                             ’Opinion.’” (<hi rend="italic">Power and Principle,</hi> p. 65)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-03-05">March 5,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-03-05"
+                            calendar="gregorian">March 5, 1977</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -8712,8 +8715,8 @@
                             1977).</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-03-07">March 7,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-03-07"
+                            calendar="gregorian">March 7, 1977</date>
                     </dateline>
                     <p rend="center">Human Rights: An Important Concern of U.S. Foreign Policy</p>
                     <p>I am pleased to be here today to affirm this Administration’s commitment to
@@ -8993,8 +8996,8 @@
                                 >Huntington</persName>, Box 37, Human Rights: 2–3/77.</note>
                     </head>
                     <dateline>
-                        <placeName>New York</placeName>, <date when="1977-03-17">March 17,
-                            1977</date>
+                        <placeName>New York</placeName>, <date when="1977-03-17"
+                            calendar="gregorian">March 17, 1977</date>
                     </dateline>
                     <opener>
                         <salute>
@@ -9368,7 +9371,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1977-03-24T15:30:00"
-                            to="1977-03-24T17:00:00">March 24, 1977, 3:30–5 p.m.</date>
+                            to="1977-03-24T17:00:00" calendar="gregorian">March 24, 1977, 3:30–5
+                            p.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -9813,8 +9817,8 @@
                     </head>
                     <dateline>
                         <placeName>Moscow</placeName>, <date from="1977-03-28T11:00:00"
-                            to="1977-03-28T13:45:00" type="conversation-or-meeting-date">March 28,
-                            1977, 11 a.m.–1:45 p.m.</date>
+                            to="1977-03-28T13:45:00" type="conversation-or-meeting-date"
+                            calendar="gregorian">March 28, 1977, 11 a.m.–1:45 p.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -10078,8 +10082,8 @@
                             top right-hand corner of the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-04-01">April 1,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-04-01"
+                            calendar="gregorian">April 1, 1977</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -10321,8 +10325,8 @@
                             Foreign Policy File, D770132–0029)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-04-14">April 14,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-04-14"
+                            calendar="gregorian">April 14, 1977</date>
                     </dateline>
                     <p>
                         <hi rend="italic">Mr. Chairman, members of the Permanent Council, Mr.
@@ -10665,8 +10669,8 @@
                                 >Mondale</persName> both initialed the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-04-16">April 16,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-04-16"
+                            calendar="gregorian">April 16, 1977</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -10930,8 +10934,8 @@
                                 Rights and Humanitarian Affairs, Document 43</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-04-29">April 29,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-04-29"
+                            calendar="gregorian">April 29, 1977</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -11044,7 +11048,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-04-29"
-                                ana="#date_undated-inferred-from-document-content">undated</date>
+                                ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <p>[Omitted here is the Table of Contents.]</p>
                         <p rend="center">Four-Year Foreign Policy Objectives</p>
@@ -11252,8 +11257,8 @@
                                 rend="italic">Hard Choices,</hi> p. 46)</note>
                     </head>
                     <dateline>
-                        <placeName>Athens, Georgia</placeName>, <date when="1977-04-30">April 30,
-                            1977</date>
+                        <placeName>Athens, Georgia</placeName>, <date when="1977-04-30"
+                            calendar="gregorian">April 30, 1977</date>
                     </dateline>
                     <p rend="center">Human Rights and Foreign Policy</p>
                     <p>I speak today about the resolve of this Administration to make the
@@ -11750,8 +11755,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1977-05-16T15:15:00"
-                            to="1977-05-16T16:15:00" type="conversation-or-meeting-date">May 16,
-                            1977, 3:15–4:15 p.m.</date>
+                            to="1977-05-16T16:15:00" type="conversation-or-meeting-date"
+                            calendar="gregorian">May 16, 1977, 3:15–4:15 p.m.</date>
                     </dateline>
                     <p rend="center">MEMORANDUM OF CONVERSATION BETWEEN DR. <persName
                             corresp="#p_BZK_1">BRZEZINSKI</persName> AND LEADERS OF THE AMERICAN
@@ -12031,8 +12036,8 @@
                             Subject File, Box 18, Cabinet Minutes, 1–5/77)</note>
                     </head>
                     <dateline>
-                        <placeName>South Bend, Indiana</placeName>, <date when="1977-05-22">May 22,
-                            1977</date>
+                        <placeName>South Bend, Indiana</placeName>, <date when="1977-05-22"
+                            calendar="gregorian">May 22, 1977</date>
                     </dateline>
                     <p rend="center">UNIVERSITY OF NOTRE DAME</p>
                     <p>
@@ -12368,8 +12373,8 @@
                                 corresp="#p_VCR_1">Vance</persName> saw the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-05-24">May 24,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-05-24"
+                            calendar="gregorian">May 24, 1977</date>
                     </dateline>
                     <p>These are the paragraphs which I hope you will find helpful. They are
                         designed to accomplish three purposes:</p>
@@ -12414,7 +12419,7 @@
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1977-05-24"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <p>As the Administration of President <persName corresp="#p_CJE2_1"
                                 >Carter</persName> has reviewed the major issues currently on the
@@ -12502,7 +12507,8 @@
                             specific foreign policy initiatives.”</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-06-01">June 1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-06-01"
+                            calendar="gregorian">June 1977</date>
                     </dateline>
                     <p>[Omitted here are the title page and the table of contents.]</p>
                     <p rend="center">REVIEW OF FOREIGN POLICY INITIATIVES</p>
@@ -12725,7 +12731,7 @@
                     </head>
                     <dateline>
                         <placeName>San Francisco, California</placeName>, <date when="1977-06-17"
-                            >June 17, 1977</date>
+                            calendar="gregorian">June 17, 1977</date>
                     </dateline>
                     <p rend="center">A Framework for Middle East Peace: Shaping A More Stable
                         World</p>
@@ -13236,8 +13242,8 @@
                             psychological and political pressure on us.”</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-06-26">June 26,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-06-26"
+                            calendar="gregorian">June 26, 1977</date>
                     </dateline>
                     <p rend="center">MEMORANDUM ON SOME POSSIBLE MEASURES FOR STABILIZING <gloss
                             target="#t_US_1">US</gloss>-SOVIET RELATIONS</p>
@@ -13455,8 +13461,8 @@
                             paper is <ref target="#d36">Document 36</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-06-28">June 28,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-06-28"
+                            calendar="gregorian">June 28, 1977</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -13888,7 +13894,8 @@
                     <dateline>
                         <placeName>Washington</placeName>, <date
                             notBefore="1977-06-28T00:00:00-04:00" notAfter="1977-07-01-05:00"
-                            ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                            ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                            >undated</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -14154,8 +14161,8 @@
                                 rend="italic">Bulletin</hi>, August 8, 1977, pp. 170–174.</note>
                     </head>
                     <dateline>
-                        <placeName>St. Louis, Missouri</placeName>, <date when="1977-07-01">July 1,
-                            1977</date>
+                        <placeName>St. Louis, Missouri</placeName>, <date when="1977-07-01"
+                            calendar="gregorian">July 1, 1977</date>
                     </dateline>
                     <p rend="center">The United States and Africa: Building Positive Relations</p>
                     <p>This is a special occasion for me to meet with you and to discuss with you
@@ -14572,8 +14579,8 @@
                             corner of the first page of the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-07-08">July 8,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-07-08"
+                            calendar="gregorian">July 8, 1977</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -14861,7 +14868,7 @@
                     </head>
                     <dateline>
                         <placeName>Charleston, South Carolina</placeName>, <date when="1977-07-21"
-                            >July 21, 1977</date>
+                            calendar="gregorian">July 21, 1977</date>
                     </dateline>
                     <p>[Omitted here are the President’s introductory remarks.]</p>
                     <p>And I want to talk to you today about the hopes and problems that we as
@@ -15227,7 +15234,7 @@
                     </head>
                     <dateline>
                         <placeName>San Francisco, California</placeName>, <date when="1977-07-29"
-                            >July 29, 1977</date>
+                            calendar="gregorian">July 29, 1977</date>
                     </dateline>
                     <p rend="center">The Framework for National Security Decisionmaking</p>
                     <p>The headlines always deal with specific issues such as the <gloss
@@ -15583,8 +15590,8 @@
                             File, Box 125, Weekly National Security Report: 7–9/77)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-08-26">August 26,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-08-26"
+                            calendar="gregorian">August 26, 1977</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -15841,8 +15848,8 @@
                             on the Indian Ocean and the Middle East.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-09-21">September 21,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-09-21"
+                            calendar="gregorian">September 21, 1977</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -16169,8 +16176,8 @@
                             112)</note>
                     </head>
                     <dateline>
-                        <placeName>New York</placeName>, <date when="1977-10-04">October 4,
-                            1977</date>
+                        <placeName>New York</placeName>, <date when="1977-10-04"
+                            calendar="gregorian">October 4, 1977</date>
                     </dateline>
                     <p>
                         <hi rend="italic">Mr. President, Mr. Secretary General, assembled delegates,
@@ -16584,8 +16591,8 @@
                             item. Rick.”</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-10-21">October 21,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-10-21"
+                            calendar="gregorian">October 21, 1977</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -16733,8 +16740,8 @@
                                 target="#t_LASA_1">LASA</gloss>) at their joint meeting.</note>
                     </head>
                     <dateline>
-                        <placeName>Houston, Texas</placeName>, <date when="1977-11-05">November 5,
-                            1977</date>
+                        <placeName>Houston, Texas</placeName>, <date when="1977-11-05"
+                            calendar="gregorian">November 5, 1977</date>
                     </dateline>
                     <p rend="center">The United States and the Third World</p>
                     <p>I will speak for a while first on the approach of a new Administration to the
@@ -17110,8 +17117,8 @@
                             Strategy: 10/77–5/78. Confidential.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-11-18">November 18,
-                            1977</date>
+                        <placeName>Washington</placeName>, <date when="1977-11-18"
+                            calendar="gregorian">November 18, 1977</date>
                     </dateline>
                     <list>
                         <head>MEMORANDUM FOR</head>
@@ -17525,8 +17532,8 @@
                             agree with most of it.”</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-01-12">January 12,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-01-12"
+                            calendar="gregorian">January 12, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -18341,8 +18348,8 @@
                             Los Angeles World Affairs Council.</note>
                     </head>
                     <dateline>
-                        <placeName>Los Angeles</placeName>, <date when="1978-01-13">January 13,
-                            1978</date>
+                        <placeName>Los Angeles</placeName>, <date when="1978-01-13"
+                            calendar="gregorian">January 13, 1978</date>
                     </dateline>
                     <p rend="center">Foreign Policy Decisions for 1978</p>
                     <p>Our country, within sight and memory of some Americans still living, has been
@@ -18920,8 +18927,8 @@
                             is the President’s annual report to Congress on economic policy.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-01-20">January 20,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-01-20"
+                            calendar="gregorian">January 20, 1978</date>
                     </dateline>
                     <opener>
                         <salute>
@@ -19098,8 +19105,8 @@
                             January 26.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-01-24">January 24,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-01-24"
+                            calendar="gregorian">January 24, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -19333,8 +19340,8 @@
                                 (<hi rend="italic">White House Diary,</hi> p. 163)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-02-01">February 1,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-02-01"
+                            calendar="gregorian">February 1, 1978</date>
                     </dateline>
                     <p rend="center">Panama Canal Treaties</p>
                     <p>
@@ -19659,8 +19666,8 @@
                             the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-02-09">February 9,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-02-09"
+                            calendar="gregorian">February 9, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -19805,7 +19812,7 @@
                     </head>
                     <dateline>
                         <placeName>New Orleans, Louisiana</placeName>, <date when="1978-02-13"
-                            >February 13, 1978</date>
+                            calendar="gregorian">February 13, 1978</date>
                     </dateline>
                     <p rend="center">Human Rights: The Diplomacy of the First Year</p>
                     <p>I am delighted to be here today among so many old friends. Last August, I had
@@ -20214,7 +20221,7 @@
                             notBefore="1978-02-24T00:00:00-05:00"
                             notAfter="1978-03-03T23:59:59-05:00"
                             ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            >undated</date>
+                            calendar="gregorian">undated</date>
                     </dateline>
                     <p>[Omitted here is the Table of Contents.]</p>
                     <p rend="center">I. INTRODUCTION</p>
@@ -20620,8 +20627,8 @@
                             memorandum and the outline to the President.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-03-03">March 3,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-03-03"
+                            calendar="gregorian">March 3, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -20714,7 +20721,7 @@
                     </head>
                     <dateline>
                         <placeName>Winston-Salem, North Carolina</placeName>, <date
-                            when="1978-03-17">March 17, 1978</date>
+                            when="1978-03-17" calendar="gregorian">March 17, 1978</date>
                     </dateline>
                     <p>[Omitted here are the President’s introductory remarks.]</p>
                     <p>This morning I would like to talk to you about our national security—where we
@@ -20995,8 +21002,8 @@
                             memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-04-07">April 7,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-04-07"
+                            calendar="gregorian">April 7, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -21212,7 +21219,7 @@
                             notBefore="1978-04-07T00:00:00-05:00"
                             notAfter="1978-04-19T23:59:59-05:00"
                             ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            >undated</date>
+                            calendar="gregorian">undated</date>
                     </dateline>
                     <p rend="center">The Maturing of American Diplomacy</p>
                     <p>How does one describe the trends of American diplomacy today? Were it 30
@@ -21629,8 +21636,8 @@
                             memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-04-19">April 19,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-04-19"
+                            calendar="gregorian">April 19, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -21880,8 +21887,8 @@
                             memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-04-21">April 21,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-04-21"
+                            calendar="gregorian">April 21, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -22028,8 +22035,8 @@
                             17–19.</note>
                     </head>
                     <dateline>
-                        <placeName>Cincinnati, Ohio</placeName>, <date when="1978-05-01">May 1,
-                            1978</date>
+                        <placeName>Cincinnati, Ohio</placeName>, <date when="1978-05-01"
+                            calendar="gregorian">May 1, 1978</date>
                     </dateline>
                     <p rend="center">Foreign Assistance and U.S. Policy</p>
                     <p>Today I want to discuss with you a subject about which I care deeply because
@@ -22422,7 +22429,7 @@
                             notBefore="1978-05-05T00:00:00-04:00"
                             notAfter="1978-05-10T23:59:59-04:00"
                             ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            >undated</date>
+                            calendar="gregorian">undated</date>
                     </dateline>
                     <p>In order to infuse greater clarity into public understanding of our foreign
                         policy, the President wishes that all Cabinet members understand our key
@@ -22621,8 +22628,8 @@
                             cover memorandum. (Ibid.)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-05-10">May 10,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-05-10"
+                            calendar="gregorian">May 10, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -22815,8 +22822,8 @@
                                 (<hi rend="italic">White House Diary</hi>, p. 198)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-05-29">May 29,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-05-29"
+                            calendar="gregorian">May 29, 1978</date>
                     </dateline>
                     <opener>
                         <salute>Dear Mr. President:</salute>
@@ -23212,8 +23219,8 @@
                                 European Security, 1977–1983</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-05-30">May 30,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-05-30"
+                            calendar="gregorian">May 30, 1978</date>
                     </dateline>
                     <opener>
                         <salute>
@@ -23373,8 +23380,8 @@
                             right-hand corner of the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-05-31">May 31,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-05-31"
+                            calendar="gregorian">May 31, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -23495,8 +23502,8 @@
                             5, Annapolis, June 7, 1978.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-06-02">June 2,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-06-02"
+                            calendar="gregorian">June 2, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -23553,8 +23560,8 @@
                             letter.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-06-02">June 2,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-06-02"
+                            calendar="gregorian">June 2, 1978</date>
                     </dateline>
                     <opener>
                         <salute>Dear Mr. President:</salute>
@@ -23680,8 +23687,8 @@
                             perfect.” (Ibid.)</note>
                     </head>
                     <dateline>
-                        <placeName>Annapolis, Maryland</placeName>, <date when="1978-06-07">June 7,
-                            1978</date>
+                        <placeName>Annapolis, Maryland</placeName>, <date when="1978-06-07"
+                            calendar="gregorian">June 7, 1978</date>
                     </dateline>
                     <p>[Omitted here are the President’s introductory remarks.]</p>
                     <p>Today I want to discuss one of the most important aspects of that
@@ -23989,8 +23996,8 @@
                             delivered his address at the Western Governors’ Conference.</note>
                     </head>
                     <dateline>
-                        <placeName>Honolulu, Hawaii</placeName>, <date when="1978-06-16">June 16,
-                            1978</date>
+                        <placeName>Honolulu, Hawaii</placeName>, <date when="1978-06-16"
+                            calendar="gregorian">June 16, 1978</date>
                     </dateline>
                     <p rend="center">Changing Perspectives of U.S. Policy in East Asia</p>
                     <p>I am honored to be with you today to talk about U.S. policy toward Asia and
@@ -24592,8 +24599,8 @@
                             participants.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-06-19">June 19,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-06-19"
+                            calendar="gregorian">June 19, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -24846,8 +24853,8 @@
                             to push any effort now. J.”</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-07-07">July 7,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-07-07"
+                            calendar="gregorian">July 7, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -25111,7 +25118,8 @@
                                 rend="italic">Bulletin,</hi> September 1978, pp. 2–5.</note>
                     </head>
                     <dateline>
-                        <placeName>Bonn</placeName>, <date when="1978-07-17">July 17, 1978</date>
+                        <placeName>Bonn</placeName>, <date when="1978-07-17" calendar="gregorian"
+                            >July 17, 1978</date>
                     </dateline>
                     <p>Having been fortunate enough to make an official state visit to the Federal
                         Republic of Germany immediately prior to the summit conference, I would like
@@ -25195,8 +25203,8 @@
                             flights of SLBM’s—J.”</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-08-04">August 4,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-08-04"
+                            calendar="gregorian">August 4, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -25511,7 +25519,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1978-08-15T15:50:00"
-                            to="1978-08-15T17:30:00">August 15, 1978, 3:50–5:30 p.m.</date>
+                            to="1978-08-15T17:30:00" calendar="gregorian">August 15, 1978, 3:50–5:30
+                            p.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -26215,7 +26224,7 @@
                             notBefore="1978-08-26T00:00:00-04:00"
                             notAfter="1978-09-18T23:59:59-04:00"
                             ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            >undated</date>
+                            calendar="gregorian">undated</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -26507,8 +26516,8 @@
                             7–11.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-09-18">September 18,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-09-18"
+                            calendar="gregorian">September 18, 1978</date>
                     </dateline>
                     <p rend="center">Camp David Meeting on the Middle East</p>
                     <p>
@@ -26803,8 +26812,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1978-09-30T09:45:00"
-                            to="1978-09-30T13:00:00" type="conversation-or-meeting-date">September
-                            30, 1978, 9:45 a.m.–1 p.m.</date>
+                            to="1978-09-30T13:00:00" type="conversation-or-meeting-date"
+                            calendar="gregorian">September 30, 1978, 9:45 a.m.–1 p.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -27043,8 +27052,8 @@
                             top-right hand corner of the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-10-23">October 23,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-10-23"
+                            calendar="gregorian">October 23, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -27289,7 +27298,7 @@
                     </head>
                     <dateline>
                         <placeName>San Francisco, California</placeName>, <date when="1978-11-16"
-                            >November 16, 1978</date>
+                            calendar="gregorian">November 16, 1978</date>
                     </dateline>
                     <p rend="center">The U.S. and the Third World: Partners or Plaintiffs</p>
                     <p>Eight years ago I spoke to the Commonwealth Club on the subject “The United
@@ -27630,8 +27639,8 @@
                             wrong except you. J.”</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-12-02">December 2,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-12-02"
+                            calendar="gregorian">December 2, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -27819,8 +27828,8 @@
                                 Rights and Humanitarian Affairs, Document 176</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-12-06">December 6,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-12-06"
+                            calendar="gregorian">December 6, 1978</date>
                     </dateline>
                     <p rend="center">Universal Declaration of Human Rights</p>
                     <p>What I have to say today is fundamentally very simple. It’s something I’ve
@@ -28052,8 +28061,8 @@
                                 Foreign Economic Policy, Document 184</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-12-08">December 8,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-12-08"
+                            calendar="gregorian">December 8, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -28261,8 +28270,8 @@
                             statement in plenary.</note>
                     </head>
                     <dateline>
-                        <placeName>New York</placeName>, <date when="1978-12-14">December 14,
-                            1978</date>
+                        <placeName>New York</placeName>, <date when="1978-12-14"
+                            calendar="gregorian">December 14, 1978</date>
                     </dateline>
                     <p>The world-awakening to human rights and fundamental freedoms that emerged in
                         1948 in the adoption of the Universal Declaration of Human Rights has taken
@@ -28488,8 +28497,8 @@
                             II, p. 2266.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-12-15">December 15,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-12-15"
+                            calendar="gregorian">December 15, 1978</date>
                     </dateline>
                     <p rend="center">Diplomatic Relations Between the United States and the People’s
                         Republic of China</p>
@@ -28787,8 +28796,8 @@
                             memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1978-12-28">December 28,
-                            1978</date>
+                        <placeName>Washington</placeName>, <date when="1978-12-28"
+                            calendar="gregorian">December 28, 1978</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -29002,7 +29011,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1978-12-28"
-                            ana="#date_undated-inferred-from-document-content">undated</date>
+                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                            >undated</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -29582,8 +29592,8 @@
                                 target="#t_ROC_1">ROC</gloss> Economic Council.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-01-15">January 15,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-01-15"
+                            calendar="gregorian">January 15, 1979</date>
                     </dateline>
                     <p>SECRETARY VANCE<note n="2" xml:id="d108fn2">Press Release 13. [Footnote in
                             the original.]</note>
@@ -30184,8 +30194,8 @@
                                 >White House Diary,</hi> p. 281)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-01-23">January 23,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-01-23"
+                            calendar="gregorian">January 23, 1979</date>
                     </dateline>
                     <opener>
                         <salute>
@@ -30437,8 +30447,8 @@
                             right-hand corner of the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-01-26">January 26,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-01-26"
+                            calendar="gregorian">January 26, 1979</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -30775,8 +30785,8 @@
                             he received a commission to the U.S. Naval Academy.</note>
                     </head>
                     <dateline>
-                        <placeName>Atlanta, Georgia</placeName>, <date when="1979-02-20">February
-                            20, 1979</date>
+                        <placeName>Atlanta, Georgia</placeName>, <date when="1979-02-20"
+                            calendar="gregorian">February 20, 1979</date>
                     </dateline>
                     <opener>
                         <salute>
@@ -31148,7 +31158,7 @@
                     </head>
                     <dateline>
                         <placeName>Minneapolis, Minnesota</placeName>, <date when="1979-02-22"
-                            >February 22, 1979</date>
+                            calendar="gregorian">February 22, 1979</date>
                     </dateline>
                     <p rend="center">Preserving Freedom and Peace in a Nuclear Age</p>
                     <p>Today I want to talk with you about how our nation can preserve its freedom,
@@ -31485,8 +31495,8 @@
                             memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-02-24">February 24,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-02-24"
+                            calendar="gregorian">February 24, 1979</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -31911,8 +31921,8 @@
                             37–38.</note>
                     </head>
                     <dateline>
-                        <placeName>Seattle, Washington</placeName>, <date when="1979-03-30">March
-                            30, 1979</date>
+                        <placeName>Seattle, Washington</placeName>, <date when="1979-03-30"
+                            calendar="gregorian">March 30, 1979</date>
                     </dateline>
                     <p rend="center">America’s Commitment to Third World Development</p>
                     <p>These past weeks have been a time to deal with immediate diplomatic issues of
@@ -32587,8 +32597,8 @@
                             American Newspaper Publishers Association.</note>
                     </head>
                     <dateline>
-                        <placeName>New York</placeName>, <date when="1979-04-25">April 25,
-                            1979</date>
+                        <placeName>New York</placeName>, <date when="1979-04-25"
+                            calendar="gregorian">April 25, 1979</date>
                     </dateline>
                     <opener>
                         <salute>
@@ -33024,7 +33034,8 @@
                             Colleges.</note>
                     </head>
                     <dateline>
-                        <placeName>Chicago</placeName>, <date when="1979-05-01">May 1, 1979</date>
+                        <placeName>Chicago</placeName>, <date when="1979-05-01" calendar="gregorian"
+                            >May 1, 1979</date>
                     </dateline>
                     <p rend="center">Meeting the Challenges of a Changing World</p>
                     <p>From the first days of our nation; Americans have held a staunch optimism
@@ -33574,8 +33585,8 @@
                                 Union, Document 197</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-05-29">May 29,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-05-29"
+                            calendar="gregorian">May 29, 1979</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -33909,7 +33920,7 @@
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1979-05-29"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <p rend="sectiontitleital">Soviet-American Summitry</p>
                         <p>Summit meetings between the American President and the Soviet leaders
@@ -34135,8 +34146,8 @@
                             memorandum, <ref target="#d123">Document 123</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-07-13">July 13,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-07-13"
+                            calendar="gregorian">July 13, 1979</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -34268,8 +34279,8 @@
                             Affairs.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-08-02">August 2,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-08-02"
+                            calendar="gregorian">August 2, 1979</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -34340,7 +34351,7 @@
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1979-08-02"
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                >undated</date>
+                                calendar="gregorian">undated</date>
                         </dateline>
                         <p rend="center">FOREIGN POLICY GOALS, AUGUST 1979</p>
                         <table cols="3">
@@ -34609,8 +34620,8 @@
                                 corresp="#p_LWAK_1">Lake</persName>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-08-09">August 9,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-08-09"
+                            calendar="gregorian">August 9, 1979</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -35277,8 +35288,8 @@
                             checkmark in the top right-hand corner of the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-08-09">August 9,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-08-09"
+                            calendar="gregorian">August 9, 1979</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -35660,8 +35671,8 @@
                             right-hand corner of the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-09-13">September 13,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-09-13"
+                            calendar="gregorian">September 13, 1979</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -35855,8 +35866,8 @@
                             in the top right-hand corner of the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-09-21">September 21,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-09-21"
+                            calendar="gregorian">September 21, 1979</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -35969,8 +35980,8 @@
                             hand carried the attached package???!!? pb 9/25/79.”</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-09-24">September 24,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-09-24"
+                            calendar="gregorian">September 24, 1979</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -36147,8 +36158,8 @@
                                 (<hi rend="italic">White House Diary</hi>, p. 358)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-10-01">October 1,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-10-01"
+                            calendar="gregorian">October 1, 1979</date>
                     </dateline>
                     <p rend="center">Peace and National Security</p>
                     <p>
@@ -36488,8 +36499,8 @@
                             ballroom.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-11-15">November 15,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-11-15"
+                            calendar="gregorian">November 15, 1979</date>
                     </dateline>
                     <opener>
                         <salute>
@@ -36674,8 +36685,8 @@
                             Business Council—Part II Defense Speech 12/12/79)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-12-12">December 12,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-12-12"
+                            calendar="gregorian">December 12, 1979</date>
                     </dateline>
                     <p rend="center">United States Defense Policy</p>
                     <p>
@@ -37014,8 +37025,8 @@
                             December 25–27.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1979-12-29">December 29,
-                            1979</date>
+                        <placeName>Washington</placeName>, <date when="1979-12-29"
+                            calendar="gregorian">December 29, 1979</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -37257,8 +37268,8 @@
                             it on January 2.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-01-02">January 2,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-01-02"
+                            calendar="gregorian">January 2, 1980</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -37369,8 +37380,8 @@
                                 136</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-01-03">January 3,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-01-03"
+                            calendar="gregorian">January 3, 1980</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -37487,8 +37498,8 @@
                             remarks were broadcast live on radio and television.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-01-04">January 4,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-01-04"
+                            calendar="gregorian">January 4, 1980</date>
                     </dateline>
                     <p rend="center">Soviet Invasion of Afghanistan</p>
                     <p>I come to you this evening to discuss the extremely important and rapidly
@@ -37851,8 +37862,8 @@
                             Foreign Policy File, D800044–1090)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-01-23">January 23,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-01-23"
+                            calendar="gregorian">January 23, 1980</date>
                     </dateline>
                     <opener>
                         <salute>
@@ -38371,8 +38382,8 @@
                             right-hand corner of the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-01-30">January 30,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-01-30"
+                            calendar="gregorian">January 30, 1980</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -38595,8 +38606,8 @@
                             1977–1981: Lot 82D298, Box 20.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-02-20">February 20,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-02-20"
+                            calendar="gregorian">February 20, 1980</date>
                     </dateline>
                     <p>Maybe this is already going on somewhere in State or <gloss target="#t_NSC_1"
                             >NSC</gloss>, but if not, I believe you and the country would be well
@@ -38870,7 +38881,7 @@
                     </head>
                     <dateline>
                         <placeName>Colorado Springs, Colorado</placeName>, <date when="1980-04-12"
-                            >April 12, 1980</date>
+                            calendar="gregorian">April 12, 1980</date>
                     </dateline>
                     <p rend="center">U.S. Call for an Olympic Boycott</p>
                     <p>I appreciate the opportunity to speak to you on behalf of the honorary
@@ -39239,8 +39250,8 @@
                                 House Diary,</hi> pp. 424–425)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-05-01">May 1,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-05-01"
+                            calendar="gregorian">May 1, 1980</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -39397,8 +39408,8 @@
                             <hi rend="italic">1980–81,</hi> Book I, pp. 861–864.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-05-07">May 7,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-05-07"
+                            calendar="gregorian">May 7, 1980</date>
                     </dateline>
                     <p>Let me begin with a basic point: I believe now, as I believed a week ago,
                         that the Congress must be a full partner in designing our international
@@ -39538,7 +39549,7 @@
                     </head>
                     <dateline>
                         <placeName>Philadelphia, Pennsylvania</placeName>, <date when="1980-05-09"
-                            >May 9, 1980</date>
+                            calendar="gregorian">May 9, 1980</date>
                     </dateline>
                     <opener>
                         <salute>
@@ -39963,7 +39974,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1980-06-02T09:00:00"
-                            to="1980-06-02T10:05:00">June 2, 1980, 9–10:05 a.m.</date>
+                            to="1980-06-02T10:05:00" calendar="gregorian">June 2, 1980, 9–10:05
+                            a.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -40299,8 +40311,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1980-06-04T13:15:00"
-                            to="1980-06-04T15:30:00" type="conversation-or-meeting-date">June 4,
-                            1980, 1:15–1:30 p.m.</date>
+                            to="1980-06-04T15:30:00" type="conversation-or-meeting-date"
+                            calendar="gregorian">June 4, 1980, 1:15–1:30 p.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -40574,8 +40586,8 @@
                                 corresp="#p_MES_1">Muskie</persName> saw the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-06-21">June 21,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-06-21"
+                            calendar="gregorian">June 21, 1980</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -40679,7 +40691,8 @@
                             the Foreign Policy Association.</note>
                     </head>
                     <dateline>
-                        <placeName>New York</placeName>, <date when="1980-07-07">July 7, 1980</date>
+                        <placeName>New York</placeName>, <date when="1980-07-07"
+                            calendar="gregorian">July 7, 1980</date>
                     </dateline>
                     <p rend="center">The Costs of Leadership</p>
                     <p>I welcome this opportunity to address the Foreign Policy Association and to
@@ -40917,8 +40930,8 @@
                             memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-08-07">August 7,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-08-07"
+                            calendar="gregorian">August 7, 1980</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -41379,7 +41392,7 @@
                     </head>
                     <dateline>
                         <placeName>Los Angeles, California</placeName>, <date when="1980-08-07"
-                            >August 7, 1980</date>
+                            calendar="gregorian">August 7, 1980</date>
                     </dateline>
                     <p rend="center">Human Freedom: America’s Vision</p>
                     <p>We stand for human freedom. It is what unites us as a people. It is what
@@ -41797,8 +41810,8 @@
                                 target="#d99fn3">footnote 3, Document 99</ref>).</note>
                     </head>
                     <dateline>
-                        <placeName>New York</placeName>, <date when="1980-08-25">August 25,
-                            1980</date>
+                        <placeName>New York</placeName>, <date when="1980-08-25"
+                            calendar="gregorian">August 25, 1980</date>
                     </dateline>
                     <p rend="center">Securing the World’s Common Future</p>
                     <p>I welcome this opportunity to address the U.N. special session on economic
@@ -42129,8 +42142,8 @@
                             interesting. J” in the top right-hand corner of the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-09-03">September 3,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-09-03"
+                            calendar="gregorian">September 3, 1980</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -42518,8 +42531,8 @@
                             the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-09-05">September 5,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-09-05"
+                            calendar="gregorian">September 5, 1980</date>
                     </dateline>
                     <p rend="center">
                         <hi rend="italic">Presenting U.S. Foreign Policy to the American People:
@@ -42710,8 +42723,8 @@
                             Broadcasting System.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-10-19">October 19,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-10-19"
+                            calendar="gregorian">October 19, 1980</date>
                     </dateline>
                     <p rend="center">Foreign Policy</p>
                     <p>This is President <persName corresp="#p_CJE2_1">Jimmy Carter</persName>,
@@ -42995,8 +43008,8 @@
                             next Tuesday.” (<hi rend="italic">White House Diary,</hi> p. 476)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-10-21">October 21,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-10-21"
+                            calendar="gregorian">October 21, 1980</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -43122,8 +43135,8 @@
                             on television.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-11-04">November 4,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-11-04"
+                            calendar="gregorian">November 4, 1980</date>
                     </dateline>
                     <p rend="center">1980 Presidential Election</p>
                     <p>I promised you 4 years ago that I would never lie to you. So, I can’t stand
@@ -43210,7 +43223,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1980-12-03T11:00:00"
-                            to="1980-12-03T12:10:00">December 3, 1980, 11 a.m.–12:10 p.m.</date>
+                            to="1980-12-03T12:10:00" calendar="gregorian">December 3, 1980, 11
+                            a.m.–12:10 p.m.</date>
                     </dateline>
                     <p>The seventy-fourth meeting of the Cabinet was called to order by the
                         President at 11:00 a.m. The Vice President and all members of the Cabinet
@@ -43403,8 +43417,8 @@
                             President by December 12. (Ibid.)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1980-12-03">December 3,
-                            1980</date>
+                        <placeName>Washington</placeName>, <date when="1980-12-03"
+                            calendar="gregorian">December 3, 1980</date>
                     </dateline>
                     <p rend="center">CARTER ADMINISTRATION—ACCOMPLISHMENTS</p>
                     <p rend="sectiontitleital">
@@ -43750,8 +43764,8 @@
                                 House Diary,</hi> p. 507)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1981-01-14">January 14,
-                            1981</date>
+                        <placeName>Washington</placeName>, <date when="1981-01-14"
+                            calendar="gregorian">January 14, 1981</date>
                     </dateline>
                     <opener>
                         <salute>

@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date type="publication-date">2016</date>
+                <date type="publication-date" calendar="gregorian">2016</date>
                 <idno type="frus">frus1977-80v29</idno>
             </publicationStmt>
             <sourceDesc>
@@ -252,7 +252,7 @@
                     <lb/>
                     <orgName>Bureau of Public Affairs</orgName>
                     <lb/>
-                    <date when="2015-10">October 2016</date>
+                    <date when="2015-10" calendar="gregorian">October 2016</date>
                 </closer>
             </div>
 
@@ -3045,8 +3045,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-01-21">January
-                                    21, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-01-21"
+                                    calendar="gregorian">January 21, 1977</date>
                             </dateline>
                         </opener>
                         <list type="to">
@@ -3145,8 +3145,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-01-21">January
-                                    21, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-01-21"
+                                    calendar="gregorian">January 21, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is the table of contents.]</p>
@@ -3721,7 +3721,7 @@
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1977-01-21"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                    >undated</date>
+                                    calendar="gregorian">undated</date>
                             </dateline>
                             <p rend="center">
                                 <hi rend="italic">MAJOR UNRESOLVED TREATY ISSUES</hi>
@@ -4731,7 +4731,7 @@
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1977-01-21"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                    >undated</date>
+                                    calendar="gregorian">undated</date>
                             </dateline>
                             <p rend="sectiontitleital">STEPS TO OBTAIN CONGRESSIONAL AND PUBLIC
                                 SUPPORT FOR A TREATY</p>
@@ -4810,8 +4810,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-01-26">January
-                                    26, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-01-26"
+                                    calendar="gregorian">January 26, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -4880,8 +4880,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-01-26">January
-                                    26, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-01-26"
+                                    calendar="gregorian">January 26, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -5165,8 +5165,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1977-01-27T10:50:00"
-                                    to="1977-01-27T11:25:00">January 27, 1977, 10:50–11:25
-                                    a.m.</date>
+                                    to="1977-01-27T11:25:00" calendar="gregorian">January 27, 1977,
+                                    10:50–11:25 a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -5763,8 +5763,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-01-27">January
-                                    27, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-01-27"
+                                    calendar="gregorian">January 27, 1977</date>
                             </dateline>
                         </opener>
                         <p>1. <hi rend="italic">Panama Canal Negotiations:</hi> I am encouraged by
@@ -5903,8 +5903,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-01-27">January
-                                    27, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-01-27"
+                                    calendar="gregorian">January 27, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -5988,7 +5988,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-01-31T11:30:00"
-                                    >January 31, 1977, 11:30 a.m.</date>
+                                    calendar="gregorian">January 31, 1977, 11:30 a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -6266,8 +6266,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>New York</placeName>, <date when="1977-02-02">February 2,
-                                    1977</date>
+                                <placeName>New York</placeName>, <date when="1977-02-02"
+                                    calendar="gregorian">February 2, 1977</date>
                             </dateline>
                             <salute>Dear General <persName corresp="#p_BGS_1"
                                 >Brown</persName>,</salute>
@@ -6377,8 +6377,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-02-02">February
-                                    2, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-02-02"
+                                    calendar="gregorian">February 2, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -6482,8 +6482,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-02-03">February
-                                    3, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-02-03"
+                                    calendar="gregorian">February 3, 1977</date>
                             </dateline>
                             <salute>To <persName corresp="#p_LSM_1">Sol Linowitz</persName>
                             </salute>
@@ -6531,7 +6531,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1977-02-04T02:32:00+00:00">February 4, 1977, 0232Z</date>
+                                    when="1977-02-04T02:32:00+00:00" calendar="gregorian">February
+                                    4, 1977, 0232Z</date>
                             </dateline>
                         </opener>
                         <p>25459. For the Ambassador from the Secretary. Subject: Panama Canal
@@ -6600,8 +6601,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-02-14">February
-                                    14, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-02-14"
+                                    calendar="gregorian">February 14, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -6762,7 +6763,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Contadora Island</placeName>, <date
-                                    when="1977-02-15T10:00:00">February 15, 1977, 10 a.m.</date>
+                                    when="1977-02-15T10:00:00" calendar="gregorian">February 15,
+                                    1977, 10 a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -7298,8 +7300,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-02-16">February
-                                    16, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-02-16"
+                                    calendar="gregorian">February 16, 1977</date>
                             </dateline>
                             <salute>Doug—</salute>
                         </opener>
@@ -7353,8 +7355,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-02-17">February
-                                    17, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-02-17"
+                                    calendar="gregorian">February 17, 1977</date>
                             </dateline>
                         </opener>
                         <p rend="center">
@@ -7466,8 +7468,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-02-23">February
-                                    23, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-02-23"
+                                    calendar="gregorian">February 23, 1977</date>
                             </dateline>
                         </opener>
                         <p>1. <hi rend="italic">Canal Negotiations Suspended:</hi>
@@ -7521,8 +7523,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-02-24">February
-                                    24, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-02-24"
+                                    calendar="gregorian">February 24, 1977</date>
                             </dateline>
                         </opener>
                         <p>
@@ -7583,8 +7585,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-02-25">February
-                                    25, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-02-25"
+                                    calendar="gregorian">February 25, 1977</date>
                             </dateline>
                         </opener>
                         <p rend="center">
@@ -7805,8 +7807,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-02-28">February
-                                    28, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-02-28"
+                                    calendar="gregorian">February 28, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -7935,7 +7937,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-03-01T14:30:00"
-                                    >March 1, 1977, 2:30 p.m.</date>
+                                    calendar="gregorian">March 1, 1977, 2:30 p.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -8617,8 +8619,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <date from="1977-03-02T09:05:00" to="1977-03-02T09:45:00">March 2,
-                                    1977, 9:05–9:45 a.m.</date>
+                                <date from="1977-03-02T09:05:00" to="1977-03-02T09:45:00"
+                                    calendar="gregorian">March 2, 1977, 9:05–9:45 a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -8878,8 +8880,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-03-02">March 2,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-03-02"
+                                    calendar="gregorian">March 2, 1977</date>
                             </dateline>
                         </opener>
                         <p rend="center">
@@ -9013,8 +9015,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-03-09">March 9,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-03-09"
+                                    calendar="gregorian">March 9, 1977</date>
                             </dateline>
                             <salute>Dear General <persName corresp="#p_THO_1">Torrijos</persName>
                             </salute>
@@ -9100,8 +9102,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-03-09">March 9,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-03-09"
+                                    calendar="gregorian">March 9, 1977</date>
                             </dateline>
                         </opener>
                         <p>Dear Phil</p>
@@ -9188,7 +9190,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-03-13T10:00:00"
-                                    >March 13, 1977, 10 a.m.</date>
+                                    calendar="gregorian">March 13, 1977, 10 a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -10048,7 +10050,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Panama City</placeName>, <date
-                                    when="1977-03-19T17:41:00+00:00">March 19, 1977, 1741Z</date>
+                                    when="1977-03-19T17:41:00+00:00" calendar="gregorian">March 19,
+                                    1977, 1741Z</date>
                             </dateline>
                         </opener>
                         <p>1982. For Ambassador <persName corresp="#p_BE_1">Bunker</persName> and
@@ -10203,8 +10206,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-03-26">March 26,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-03-26"
+                                    calendar="gregorian">March 26, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -10265,8 +10268,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-03-29">March 29,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-03-29"
+                                    calendar="gregorian">March 29, 1977</date>
                             </dateline>
                             <salute>Dear <persName corresp="#p_VCR_1">Cy</persName>,</salute>
                         </opener>
@@ -10341,7 +10344,7 @@
                                     notBefore="1977-03-29T00:00:00-05:00"
                                     notAfter="1977-03-31T23:59:59-05:00"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                    >undated</date>
+                                    calendar="gregorian">undated</date>
                             </dateline>
                         </opener>
                         <p rend="center">
@@ -10439,8 +10442,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-04-11">April 11,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-04-11"
+                                    calendar="gregorian">April 11, 1977</date>
                             </dateline>
                         </opener>
                         <p rend="center">
@@ -10580,8 +10583,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-04-12">April 12,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-04-12"
+                                    calendar="gregorian">April 12, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -10630,7 +10633,8 @@
                             </seg>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1977-04-14T22:43:00+00:00">April 14, 1977, 2243Z</date>
+                                    when="1977-04-14T22:43:00+00:00" calendar="gregorian">April 14,
+                                    1977, 2243Z</date>
                             </dateline>
                         </opener>
                         <p>For <persName corresp="#p_JWJ_1">Jorden</persName> from <persName
@@ -10705,8 +10709,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-04-21">April 21,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-04-21"
+                                    calendar="gregorian">April 21, 1977</date>
                             </dateline>
                         </opener>
                         <p rend="center">
@@ -10949,8 +10953,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-05-09">May 9,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-05-09"
+                                    calendar="gregorian">May 9, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -11063,8 +11067,8 @@
                         <head>37. Memorandum Prepared in the Central Intelligence Agency</head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-05-09">May 9,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-05-09"
+                                    calendar="gregorian">May 9, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Source: Central Intelligence Agency, Office of Congressional Affairs,
@@ -11088,8 +11092,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-05-12">May 12,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-05-12"
+                                    calendar="gregorian">May 12, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -11161,7 +11165,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-05-18T08:30:00"
-                                    >May 18, 1977, 8:30 a.m.</date>
+                                    calendar="gregorian">May 18, 1977, 8:30 a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -11306,8 +11310,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-05-20">May 20,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-05-20"
+                                    calendar="gregorian">May 20, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -11392,8 +11396,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-05-27">May 27,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-05-27"
+                                    calendar="gregorian">May 27, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -11514,8 +11518,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-05-28">May 28,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-05-28"
+                                    calendar="gregorian">May 28, 1977</date>
                             </dateline>
                         </opener>
                         <p>1. <hi rend="italic">PANAMA</hi>—You requested a review of the status of
@@ -11668,8 +11672,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-05-31">May 31,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-05-31"
+                                    calendar="gregorian">May 31, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -11785,8 +11789,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-06-01">June 1,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-06-01"
+                                    calendar="gregorian">June 1, 1977</date>
                             </dateline>
                         </opener>
                         <p>
@@ -11842,8 +11846,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-06-03">June 3,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-06-03"
+                                    calendar="gregorian">June 3, 1977</date>
                             </dateline>
                         </opener>
                         <list type="to">
@@ -11883,8 +11887,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-06-07">June 7,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-06-07"
+                                    calendar="gregorian">June 7, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Source: Central Intelligence Agency, Office of the Director of Central
@@ -11908,8 +11912,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-06-07">June 7,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-06-07"
+                                    calendar="gregorian">June 7, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -11969,8 +11973,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-06-07">June 7,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-06-07"
+                                    calendar="gregorian">June 7, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -12097,7 +12101,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-06-10T15:15:00"
-                                    >June 10, 1977, 3:15 p.m.</date>
+                                    calendar="gregorian">June 10, 1977, 3:15 p.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -12238,8 +12242,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-06-13">June 13,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-06-13"
+                                    calendar="gregorian">June 13, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -12292,8 +12296,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-06-15">June 15,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-06-15"
+                                    calendar="gregorian">June 15, 1977</date>
                             </dateline>
                             <salute>Dear Mr. President:</salute>
                         </opener>
@@ -12355,8 +12359,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Grenada</placeName>, <date when="1977-06-15">June 15,
-                                    1977</date>
+                                <placeName>Grenada</placeName>, <date when="1977-06-15"
+                                    calendar="gregorian">June 15, 1977</date>
                             </dateline>
                         </opener>
                         <list type="participants">
@@ -12692,8 +12696,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-06-16">June 16,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-06-16"
+                                    calendar="gregorian">June 16, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -12852,8 +12856,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-06-20">June 20,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-06-20"
+                                    calendar="gregorian">June 20, 1977</date>
                             </dateline>
                         </opener>
                         <p>These are some reflections on the present state of the negotiations for a
@@ -13172,7 +13176,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1977-06-29T07:00:00"
-                                    to="1977-06-29T08:15:00">June 29, 1977, 7–8:15 a.m.</date>
+                                    to="1977-06-29T08:15:00" calendar="gregorian">June 29, 1977,
+                                    7–8:15 a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -13831,8 +13836,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-06-30">June 30,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-06-30"
+                                    calendar="gregorian">June 30, 1977</date>
                             </dateline>
                         </opener>
                         <list type="to">
@@ -14029,7 +14034,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Balboa Heights</placeName>, <date
-                                    when="1977-06-30T02:50:00+00:00">June 30, 1977, 0250Z</date>
+                                    when="1977-06-30T02:50:00+00:00" calendar="gregorian">June 30,
+                                    1977, 0250Z</date>
                             </dateline>
                         </opener>
                         <p>629. <gloss target="#t_FM_1">FM</gloss> Governor <persName
@@ -14179,7 +14185,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-07-01T13:00:00"
-                                    >July 1, 1977, 1 p.m.</date>
+                                    calendar="gregorian">July 1, 1977, 1 p.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -14839,8 +14845,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-07-08">July 8,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-07-08"
+                                    calendar="gregorian">July 8, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -14896,8 +14902,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-07-14">July 14,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-07-14"
+                                    calendar="gregorian">July 14, 1977</date>
                             </dateline>
                         </opener>
                         <p rend="center">Panama Canal Hearings by Senator <persName
@@ -14970,8 +14976,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-07-15">July 15,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-07-15"
+                                    calendar="gregorian">July 15, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -15041,8 +15047,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-07-20">July 20,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-07-20"
+                                    calendar="gregorian">July 20, 1977</date>
                             </dateline>
                             <salute>To Senator <persName corresp="#p_TJS_1">Strom
                                     Thurmond</persName>
@@ -15094,8 +15100,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-07-21">July 21,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-07-21"
+                                    calendar="gregorian">July 21, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -15171,8 +15177,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-07-22">July 22,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-07-22"
+                                    calendar="gregorian">July 22, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -15290,7 +15296,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-07-22T11:00:00"
-                                    >July 22, 1977, 11 a.m.</date>
+                                    calendar="gregorian">July 22, 1977, 11 a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -15684,8 +15690,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-07-24">July 24,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-07-24"
+                                    calendar="gregorian">July 24, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -15871,8 +15877,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-07-25">July 25,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-07-25"
+                                    calendar="gregorian">July 25, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -16025,8 +16031,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-07-26">July 26,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-07-26"
+                                    calendar="gregorian">July 26, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -16129,8 +16135,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-07-28">July 28,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-07-28"
+                                    calendar="gregorian">July 28, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -16439,8 +16445,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-07-28">July 28,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-07-28"
+                                    calendar="gregorian">July 28, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -16563,9 +16569,10 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1977-07-29T09:30:00"
-                                    to="1977-07-29T09:45:00">July 29, 1977, 9:30–9:45 a.m.</date>;
-                                    <date from="1977-07-29T09:45:00" to="1977-07-29T10:30:00"
-                                    >9:45–10:30 a.m.</date>
+                                    to="1977-07-29T09:45:00" calendar="gregorian">July 29, 1977,
+                                    9:30–9:45 a.m.</date>; <date from="1977-07-29T09:45:00"
+                                    to="1977-07-29T10:30:00" calendar="gregorian">9:45–10:30
+                                    a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -16749,8 +16756,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-07-29">July 29,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-07-29"
+                                    calendar="gregorian">July 29, 1977</date>
                             </dateline>
                             <salute>Dear General Torrijos</salute>
                         </opener>
@@ -16822,8 +16829,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-02">August 2,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-02"
+                                    calendar="gregorian">August 2, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -16875,8 +16882,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-02">August 2,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-02"
+                                    calendar="gregorian">August 2, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -16923,8 +16930,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-05">August 5,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-05"
+                                    calendar="gregorian">August 5, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -17008,8 +17015,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-06">August 6,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-06"
+                                    calendar="gregorian">August 6, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -17109,8 +17116,8 @@
                                 <note n="7" xml:id="d76fn7">Secret. The paper is unsigned.</note>
                             </head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date when="1977-08-06">August 6,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-06"
+                                    calendar="gregorian">August 6, 1977</date>
                             </dateline>
                             <p rend="center">
                                 <hi rend="italic">Status of Negotiations</hi>
@@ -17186,8 +17193,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-08">August 8,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-08"
+                                    calendar="gregorian">August 8, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -17301,7 +17308,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1977-08-09T01:40:00+00:00">August 9, 1977, 0140Z</date>
+                                    when="1977-08-09T01:40:00+00:00" calendar="gregorian">August 9,
+                                    1977, 0140Z</date>
                             </dateline>
                         </opener>
                         <p>187106. <gloss target="#t_TOSEC_1">Tosec</gloss> 80213. For the Secretary
@@ -17361,8 +17369,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-09">August 9,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-09"
+                                    calendar="gregorian">August 9, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -17404,7 +17412,7 @@
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1977-08-09"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                    >undated</date>
+                                    calendar="gregorian">undated</date>
                             </dateline>
                             <p rend="center">
                                 <hi rend="italic">Basic Framework for a New Panama Canal Treaty</hi>
@@ -17485,8 +17493,8 @@
                                 <note n="4" xml:id="d79fn4">Confidential.</note>
                             </head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date when="1977-08-09">August 9,
-                                    1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-09"
+                                    calendar="gregorian">August 9, 1977</date>
                             </dateline>
                             <p rend="center">
                                 <hi rend="italic">Talking Points on Canal Treaty</hi>
@@ -17580,7 +17588,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Panama City</placeName>, <date
-                                    when="1977-08-11T05:20:00+00:00">August 11, 1977, 0520Z</date>
+                                    when="1977-08-11T05:20:00+00:00" calendar="gregorian">August 11,
+                                    1977, 0520Z</date>
                             </dateline>
                         </opener>
                         <p>5731. Pan Canal Negotiators’ Wrap-up. Ref: Pryce/Nadeau Telcon</p>
@@ -17667,7 +17676,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1977-08-12T00:55:00+00:00">August 12, 1977, 0055Z</date>
+                                    when="1977-08-12T00:55:00+00:00" calendar="gregorian">August 12,
+                                    1977, 0055Z</date>
                             </dateline>
                         </opener>
                         <p>190656. <gloss target="#t_TOSEC_1">Tosec</gloss> 080315. Subject: Return
@@ -17728,8 +17738,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-12">August
-                                    12, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-12"
+                                    calendar="gregorian">August 12, 1977</date>
                             </dateline>
                         </opener>
                         <opener>
@@ -17771,7 +17781,7 @@
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1977-08-12"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                    >undated</date>
+                                    calendar="gregorian">undated</date>
                             </dateline>
                             <p rend="sectiontitleital">Defense and National Security</p>
                             <p>Under the new treaties the <gloss target="#t_US_2">U.S.</gloss> will
@@ -17863,8 +17873,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-17">August
-                                    17, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-17"
+                                    calendar="gregorian">August 17, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -17928,8 +17938,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-18">August
-                                    18, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-18"
+                                    calendar="gregorian">August 18, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -18025,7 +18035,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-08-24T16:05:00"
-                                    >August 24, 1977, 4:05 p.m.</date>
+                                    calendar="gregorian">August 24, 1977, 4:05 p.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -18234,8 +18244,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-24">August
-                                    24, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-24"
+                                    calendar="gregorian">August 24, 1977</date>
                             </dateline>
                         </opener>
                         <p>
@@ -18279,8 +18289,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>New York City</placeName>, <date when="1977-08-25">August
-                                    25, 1977</date>
+                                <placeName>New York City</placeName>, <date when="1977-08-25"
+                                    calendar="gregorian">August 25, 1977</date>
                             </dateline>
                         </opener>
                         <list type="participants">
@@ -18460,8 +18470,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-26">August
-                                    26, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-26"
+                                    calendar="gregorian">August 26, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -18503,7 +18513,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-08-29T09:05:00"
-                                    >August 29, 1977, 9:05 a.m.</date>
+                                    calendar="gregorian">August 29, 1977, 9:05 a.m.</date>
                             </dateline>
                         </opener>
                         <p>The twenty-fifth meeting of the Cabinet was called to order by the
@@ -18789,8 +18799,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-29">August
-                                    29, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-29"
+                                    calendar="gregorian">August 29, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -18848,8 +18858,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-29">August
-                                    29, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-08-29"
+                                    calendar="gregorian">August 29, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -18951,7 +18961,8 @@
                                 <placeName>Washington</placeName>, <date
                                     notBefore="1977-08-29T00:00:00-04:00"
                                     notAfter="1977-09-02T23:59:59-04:00"
-                                    ana="#date_undated-inferred-from-sibling-dates">undated</date>
+                                    ana="#date_undated-inferred-from-sibling-dates"
+                                    calendar="gregorian">undated</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -19123,8 +19134,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-09-02">September
-                                    2, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-09-02"
+                                    calendar="gregorian">September 2, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -19162,7 +19173,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-09-06T11:10:00"
-                                    >September 6, 1977, 11:10 a.m.</date>
+                                    calendar="gregorian">September 6, 1977, 11:10 a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -19536,8 +19547,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-09-09">September
-                                    9, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-09-09"
+                                    calendar="gregorian">September 9, 1977</date>
                             </dateline>
                             <salute>Dear General Torrijos</salute>
                         </opener>
@@ -19602,7 +19613,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-09-12T09:06:00"
-                                    >September 12, 1977, 9:06 a.m.</date>
+                                    calendar="gregorian">September 12, 1977, 9:06 a.m.</date>
                             </dateline>
                         </opener>
                         <p rend="center">MINUTES OF THE CABINET MEETING</p>
@@ -19706,8 +19717,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-09-14">September
-                                    14, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-09-14"
+                                    calendar="gregorian">September 14, 1977</date>
                             </dateline>
                         </opener>
                         <p>The question has apparently arisen as to whether, during the course of
@@ -19776,8 +19787,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-09-15">September
-                                    15, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-09-15"
+                                    calendar="gregorian">September 15, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -19870,7 +19881,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-09-19T09:05:00"
-                                    >September 19, 1977, 9:05 a.m.</date>
+                                    calendar="gregorian">September 19, 1977, 9:05 a.m.</date>
                             </dateline>
                         </opener>
                         <p>The twenty-seventh meeting of the Cabinet was called to order by the
@@ -20013,8 +20024,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-09-19">September
-                                    19, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-09-19"
+                                    calendar="gregorian">September 19, 1977</date>
                             </dateline>
                         </opener>
                         <p>1. <hi rend="italic">Intelligence Committee on Panama</hi>—Ambassadors
@@ -20065,8 +20076,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-09-23">September
-                                    23, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-09-23"
+                                    calendar="gregorian">September 23, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -20111,8 +20122,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1977-09-25T11:00:00"
-                                    to="1977-09-26T10:30:00">September 25–26, 1977, 11a.m.–11p.m.;
-                                    8:30–10:30 a.m.</date>
+                                    to="1977-09-26T10:30:00" calendar="gregorian">September 25–26,
+                                    1977, 11a.m.–11p.m.; 8:30–10:30 a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -20523,7 +20534,7 @@
                                     notBefore="1977-09-26T10:30:00-04:00"
                                     notAfter="1977-09-26T23:59:59-04:00"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                    >undated</date>
+                                    calendar="gregorian">undated</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -20662,8 +20673,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-09-26">September
-                                    26, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-09-26"
+                                    calendar="gregorian">September 26, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -20824,8 +20835,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1977-09-27T01:43:00+00:00">September 27, 1977,
-                                    0143Z</date>
+                                    when="1977-09-27T01:43:00+00:00" calendar="gregorian">September
+                                    27, 1977, 0143Z</date>
                             </dateline>
                         </opener>
                         <p>231665. <gloss target="#t_TOSEC_1">Tosec</gloss> 100003. Cherokee—for the
@@ -20905,8 +20916,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-10-01">October
-                                    1, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-10-01"
+                                    calendar="gregorian">October 1, 1977</date>
                             </dateline>
                         </opener>
                         <p>
@@ -21024,8 +21035,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-10-05">October
-                                    5, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-10-05"
+                                    calendar="gregorian">October 5, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -21150,8 +21161,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-10-06">October
-                                    6, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-10-06"
+                                    calendar="gregorian">October 6, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -21264,8 +21275,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-10-10">October
-                                    10, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-10-10"
+                                    calendar="gregorian">October 10, 1977</date>
                             </dateline>
                         </opener>
                         <p>1. <hi rend="italic">Panama:</hi>
@@ -21418,8 +21429,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-10-11">October
-                                    11, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-10-11"
+                                    calendar="gregorian">October 11, 1977</date>
                             </dateline>
                             <salute>Dear General <persName corresp="#p_THO_1"
                                 >Torrijos</persName>:</salute>
@@ -21458,8 +21469,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-10-12">October
-                                    12, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-10-12"
+                                    calendar="gregorian">October 12, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -21563,8 +21574,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-10-14">October
-                                    14, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-10-14"
+                                    calendar="gregorian">October 14, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -21673,7 +21684,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1977-10-14T08:00:00"
-                                    to="1977-10-14T09:40:00">October 14, 1977, 8–9:40 a.m.</date>
+                                    to="1977-10-14T09:40:00" calendar="gregorian">October 14, 1977,
+                                    8–9:40 a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -22060,7 +22072,7 @@
                                 <placeName>Washington</placeName>, <date
                                     notBefore="1977-10-14T00:00:00" notAfter="1977-10-17T11:47:00"
                                     ana="#date_imprecise-inferred-from-document-content-and-sibling-dates"
-                                    when="1977-10">October 1977</date>
+                                    when="1977-10" calendar="gregorian">October 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -22159,8 +22171,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-10-19">October
-                                    19, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-10-19"
+                                    calendar="gregorian">October 19, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -22244,8 +22256,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-10-21">October
-                                    21, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-10-21"
+                                    calendar="gregorian">October 21, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -22504,8 +22516,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-10-24">October
-                                    24, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-10-24"
+                                    calendar="gregorian">October 24, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -22563,8 +22575,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-10-31">October
-                                    31, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-10-31"
+                                    calendar="gregorian">October 31, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -22642,8 +22654,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-11-14">November
-                                    14, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-11-14"
+                                    calendar="gregorian">November 14, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -22738,7 +22750,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Panama City</placeName>, <date
-                                    when="1977-11-14T17:45:00+00:00">November 14, 1977, 1745Z</date>
+                                    when="1977-11-14T17:45:00+00:00" calendar="gregorian">November
+                                    14, 1977, 1745Z</date>
                             </dateline>
                         </opener>
                         <p>[<hi rend="italic">telegram number not declassified</hi>].</p>
@@ -22808,8 +22821,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-11-28">November
-                                    28, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-11-28"
+                                    calendar="gregorian">November 28, 1977</date>
                             </dateline>
                             <salute>Dear General <persName corresp="#p_THO_1"
                                 >Torrijos</persName>:</salute>
@@ -22854,8 +22867,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-11-29">November
-                                    29, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-11-29"
+                                    calendar="gregorian">November 29, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -22993,8 +23006,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-12-01">December
-                                    1, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-12-01"
+                                    calendar="gregorian">December 1, 1977</date>
                             </dateline>
                         </opener>
                         <p>
@@ -23054,8 +23067,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-12-01">December
-                                    1, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-12-01"
+                                    calendar="gregorian">December 1, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -23460,8 +23473,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-12-07">December
-                                    7, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-12-07"
+                                    calendar="gregorian">December 7, 1977</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -23511,8 +23524,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-12-20">December
-                                    20, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-12-20"
+                                    calendar="gregorian">December 20, 1977</date>
                             </dateline>
                         </opener>
                         <p>1. <hi rend="italic">Breakfast with Senators <persName corresp="#p_JJK_1"
@@ -23615,8 +23628,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-12-21">December
-                                    21, 1977</date>
+                                <placeName>Washington</placeName>, <date when="1977-12-21"
+                                    calendar="gregorian">December 21, 1977</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -23690,7 +23703,7 @@
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1977-12-21"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                    >undated</date>
+                                    calendar="gregorian">undated</date>
                                 <note n="7" xml:id="d127fn7">See <ref target="#d127fn2">footnote
                                         2</ref> above.</note>
                             </dateline>
@@ -23826,8 +23839,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-01-04">January
-                                    4, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-01-04"
+                                    calendar="gregorian">January 4, 1978</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -23886,8 +23899,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-01-09">January
-                                    9, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-01-09"
+                                    calendar="gregorian">January 9, 1978</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -23953,8 +23966,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-01-10">January
-                                    10, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-01-10"
+                                    calendar="gregorian">January 10, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -24083,8 +24096,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-01-12">January
-                                    12, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-01-12"
+                                    calendar="gregorian">January 12, 1978</date>
                             </dateline>
                         </opener>
                         <p>
@@ -24139,8 +24152,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-01-20">January
-                                    20, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-01-20"
+                                    calendar="gregorian">January 20, 1978</date>
                             </dateline>
                             <salute>Dear Mr. President:</salute>
                         </opener>
@@ -24224,8 +24237,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-01-25">January
-                                    25, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-01-25"
+                                    calendar="gregorian">January 25, 1978</date>
                             </dateline>
                         </opener>
                         <p>1. <hi rend="italic">Panama Treaties:</hi>
@@ -24286,8 +24299,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-01-25">January
-                                    25, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-01-25"
+                                    calendar="gregorian">January 25, 1978</date>
                             </dateline>
                         </opener>
                         <p rend="center">SUGGESTED OUTLINE: PANAMA CANAL SPEECH</p>
@@ -24440,8 +24453,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-01-27">January
-                                    27, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-01-27"
+                                    calendar="gregorian">January 27, 1978</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -24491,7 +24504,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Panama City</placeName>, <date
-                                    when="1978-01-29T20:27:00+00:00">January 29, 1978, 2027Z</date>
+                                    when="1978-01-29T20:27:00+00:00" calendar="gregorian">January
+                                    29, 1978, 2027Z</date>
                             </dateline>
                         </opener>
                         <p>618. Pass White House for <persName corresp="#p_JH_1">Hamilton
@@ -24585,8 +24599,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-01-31">January
-                                    31, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-01-31"
+                                    calendar="gregorian">January 31, 1978</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -24637,8 +24651,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-02-01">February
-                                    1, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-02-01"
+                                    calendar="gregorian">February 1, 1978</date>
                             </dateline>
                         </opener>
                         <p>Because of the recent accords on Panama, the publicity Senator <persName
@@ -24713,8 +24727,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-02-01">February
-                                    1, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-02-01"
+                                    calendar="gregorian">February 1, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -24899,7 +24913,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1978-02-06T09:01:00"
-                                    >February 6, 1978, 9:01 a.m.</date>
+                                    calendar="gregorian">February 6, 1978, 9:01 a.m.</date>
                             </dateline>
                         </opener>
                         <p rend="center">MINUTES OF THE CABINET MEETING</p>
@@ -25036,8 +25050,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-02-07">February
-                                    7, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-02-07"
+                                    calendar="gregorian">February 7, 1978</date>
                             </dateline>
                             <salute>To <persName corresp="#p_VCR_1">Cy</persName>, <persName
                                     corresp="#p_PHR_1">Harold</persName>, <persName
@@ -25075,8 +25089,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-02-07">February
-                                    7, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-02-07"
+                                    calendar="gregorian">February 7, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -25186,8 +25200,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-02-09">February
-                                    9, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-02-09"
+                                    calendar="gregorian">February 9, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -25269,8 +25283,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-02-10">February
-                                    10, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-02-10"
+                                    calendar="gregorian">February 10, 1978</date>
                             </dateline>
                             <salute>Dear Senator:</salute>
                         </opener>
@@ -25323,7 +25337,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1978-02-13T09:02:00"
-                                    >February 13, 1978, 9:02 a.m.</date>
+                                    calendar="gregorian">February 13, 1978, 9:02 a.m.</date>
                             </dateline>
                         </opener>
                         <p rend="center">MINUTES OF THE CABINET MEETING</p>
@@ -25439,8 +25453,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-02-16">February
-                                    16, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-02-16"
+                                    calendar="gregorian">February 16, 1978</date>
                             </dateline>
                         </opener>
                         <p>
@@ -25550,7 +25564,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1978-02-16T16:01:00+00:00">February 16, 1978, 1601Z</date>
+                                    when="1978-02-16T16:01:00+00:00" calendar="gregorian">February
+                                    16, 1978, 1601Z</date>
                             </dateline>
                         </opener>
                         <p>41065. Subject: Security of Outstanding Panamanian Bonds. Ref: Panama
@@ -25649,8 +25664,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-02-20">February
-                                    20, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-02-20"
+                                    calendar="gregorian">February 20, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -25742,8 +25757,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-02-23">February
-                                    23, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-02-23"
+                                    calendar="gregorian">February 23, 1978</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -25803,8 +25818,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-02-25">February
-                                    25, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-02-25"
+                                    calendar="gregorian">February 25, 1978</date>
                             </dateline>
                             <salute>Dear Senator <persName corresp="#p_BHF_1"
                                 >Byrd</persName>:</salute>
@@ -25912,8 +25927,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-06">March 6,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-03-06"
+                                    calendar="gregorian">March 6, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -26193,8 +26208,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-12">March 12,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-03-12"
+                                    calendar="gregorian">March 12, 1978</date>
                             </dateline>
                             <salute>To <persName corresp="#p_HEF_1">Fritz</persName>, Ham, <persName
                                     corresp="#p_CF_1">Frank</persName>
@@ -26289,8 +26304,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-13">March 13,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-03-13"
+                                    calendar="gregorian">March 13, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -26329,8 +26344,8 @@
                                         restriction not declassified</hi>].</note>
                             </head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date when="1978-03-10">March 10,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-03-10"
+                                    calendar="gregorian">March 10, 1978</date>
                             </dateline>
                             <list type="subject">
                                 <head>SUBJECT</head>
@@ -26379,8 +26394,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-13">March 13,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-03-13"
+                                    calendar="gregorian">March 13, 1978</date>
                             </dateline>
                             <salute>Dear Senator <persName corresp="#p_TH_1">Talmadge</persName>
                             </salute>
@@ -26433,8 +26448,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-15">March 15,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-03-15"
+                                    calendar="gregorian">March 15, 1978</date>
                             </dateline>
                             <salute>My dear General:</salute>
                         </opener>
@@ -26493,8 +26508,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-15">March 15,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-03-15"
+                                    calendar="gregorian">March 15, 1978</date>
                             </dateline>
                         </opener>
                         <p>
@@ -26655,7 +26670,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Panama City</placeName>, <date
-                                    when="1978-03-16T16:36:00+00:00">March 16, 1978, 1636Z</date>
+                                    when="1978-03-16T16:36:00+00:00" calendar="gregorian">March 16,
+                                    1978, 1636Z</date>
                             </dateline>
                         </opener>
                         <p>1759. From Ambassador <persName corresp="#p_JWJ_1">Jorden</persName>. <hi
@@ -26782,7 +26798,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1978-03-21T01:58:00+00:00">March 21, 1978, 0158Z</date>
+                                    when="1978-03-21T01:58:00+00:00" calendar="gregorian">March 21,
+                                    1978, 0158Z</date>
                             </dateline>
                         </opener>
                         <p>72014. For the Ambassador From Deputy Secretary <persName
@@ -26880,7 +26897,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1978-03-21T09:45:00"
-                                    >March 21, 1978, 9:45 a.m.</date>
+                                    calendar="gregorian">March 21, 1978, 9:45 a.m.</date>
                             </dateline>
                         </opener>
                         <p>
@@ -27030,8 +27047,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-23">March 23,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-03-23"
+                                    calendar="gregorian">March 23, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -27089,7 +27106,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1978-03-24T20:08:00+00:00">March 24, 1978, 2008Z</date>
+                                    when="1978-03-24T20:08:00+00:00" calendar="gregorian">March 24,
+                                    1978, 2008Z</date>
                             </dateline>
                         </opener>
                         <p>76845. Subject: Security of Outstanding Panamanian Bonds.</p>
@@ -27159,8 +27177,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-27">March 27,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-03-27"
+                                    calendar="gregorian">March 27, 1978</date>
                             </dateline>
                             <salute>To <persName corresp="#p_HEF_1">Fritz</persName>, <persName
                                     corresp="#p_VCR_1">Cy</persName>, <persName corresp="#p_PHR_1"
@@ -27190,8 +27208,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Caracas</placeName>, <date from="1978-03-28T15:30:00"
-                                    to="1978-03-28T16:40:00">March 28, 1978, 3:30 p.m.–4:40
-                                    p.m.</date>
+                                    to="1978-03-28T16:40:00" calendar="gregorian">March 28, 1978,
+                                    3:30 p.m.–4:40 p.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -27371,8 +27389,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-29">March 29,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-03-29"
+                                    calendar="gregorian">March 29, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -27546,8 +27564,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-04-07">April 7,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-04-07"
+                                    calendar="gregorian">April 7, 1978</date>
                             </dateline>
                         </opener>
                         <p>We have had a very rough 24 hours here Bill.</p>
@@ -27770,8 +27788,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-04-10">April 10,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-04-10"
+                                    calendar="gregorian">April 10, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -27888,8 +27906,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-04-15">April 15,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-04-15"
+                                    calendar="gregorian">April 15, 1978</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -27956,8 +27974,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-04-18">April 18,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-04-18"
+                                    calendar="gregorian">April 18, 1978</date>
                             </dateline>
                         </opener>
                         <opener>
@@ -28074,8 +28092,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-04-20">April 20,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-04-20"
+                                    calendar="gregorian">April 20, 1978</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -28094,7 +28112,7 @@
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1978-04-20"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                    >undated</date>
+                                    calendar="gregorian">undated</date>
                             </dateline>
                             <p rend="center">Next Steps on the Panama Treaties</p>
                             <p>Following up on the Senate’s approval of the Panama Canal Treaties,
@@ -28200,8 +28218,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-04-21">April 21,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-04-21"
+                                    calendar="gregorian">April 21, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -28250,8 +28268,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-04-26">April 26,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-04-26"
+                                    calendar="gregorian">April 26, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -28330,8 +28348,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-05-05">May 5,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-05-05"
+                                    calendar="gregorian">May 5, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -28498,8 +28516,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-05-09">May 9,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-05-09"
+                                    calendar="gregorian">May 9, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -28602,7 +28620,7 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Quarry Heights, Panama Canal Zone</placeName>, <date
-                                    when="1978-05-12">May 12, 1978</date>
+                                    when="1978-05-12" calendar="gregorian">May 12, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -28742,8 +28760,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-05-12">May 12,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-05-12"
+                                    calendar="gregorian">May 12, 1978</date>
                             </dateline>
                             <salute>Dear Mr. President:</salute>
                         </opener>
@@ -28791,8 +28809,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-05-12">May 12,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-05-12"
+                                    calendar="gregorian">May 12, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -28883,7 +28901,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Panama City</placeName>, <date
-                                    when="1978-05-23T23:20:00+00:00">May 23, 1978, 2320Z</date>
+                                    when="1978-05-23T23:20:00+00:00" calendar="gregorian">May 23,
+                                    1978, 2320Z</date>
                             </dateline>
                         </opener>
                         <p>03623. <gloss target="#t_TOSEC_1">Tosec</gloss> 7157. For Asst. Secretary
@@ -29027,8 +29046,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-05-24">May 24,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-05-24"
+                                    calendar="gregorian">May 24, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -29121,8 +29140,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-05-27">May 27,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-05-27"
+                                    calendar="gregorian">May 27, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -29375,8 +29394,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-06-01">June 1,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-06-01"
+                                    calendar="gregorian">June 1, 1978</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -29421,8 +29440,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-06-06">June 6,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-06-06"
+                                    calendar="gregorian">June 6, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -29483,8 +29502,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-06-12">June 12,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-06-12"
+                                    calendar="gregorian">June 12, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -29557,8 +29576,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-06-14">June 14,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-06-14"
+                                    calendar="gregorian">June 14, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -29754,8 +29773,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-06-15">June 15,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-06-15"
+                                    calendar="gregorian">June 15, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -29855,8 +29874,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-06-17">June 17,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-06-17"
+                                    calendar="gregorian">June 17, 1978</date>
                             </dateline>
                         </opener>
                         <opener>
@@ -29934,8 +29953,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-07-11">July 11,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-07-11"
+                                    calendar="gregorian">July 11, 1978</date>
                             </dateline>
                             <salute>Dear Charles:</salute>
                         </opener>
@@ -30005,8 +30024,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-07-15">July 15,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-07-15"
+                                    calendar="gregorian">July 15, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -30205,8 +30224,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-07-27">July 27,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-07-27"
+                                    calendar="gregorian">July 27, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -30366,7 +30385,7 @@
                             <dateline>
                                 <placeName>Washington, <date when="1978-07-27"
                                         ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                        >undated</date>
+                                        calendar="gregorian">undated</date>
                                 </placeName>
                             </dateline>
                             <p rend="center">PROPOSED LANGUAGE ON ROLE OF THE <gloss
@@ -30408,8 +30427,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-07-28">July 28,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-07-28"
+                                    calendar="gregorian">July 28, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -30518,8 +30537,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-08-08">August 8,
-                                    1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-08-08"
+                                    calendar="gregorian">August 8, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -30665,8 +30684,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-09-08">September
-                                    8, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-09-08"
+                                    calendar="gregorian">September 8, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -30762,8 +30781,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-09-14">September
-                                    14, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-09-14"
+                                    calendar="gregorian">September 14, 1978</date>
                             </dateline>
                         </opener>
                         <opener>
@@ -30816,8 +30835,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-09-14">September
-                                    14, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-09-14"
+                                    calendar="gregorian">September 14, 1978</date>
                             </dateline>
                         </opener>
                         <list type="participants">
@@ -30935,8 +30954,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Panama City</placeName>, <date
-                                    when="1978-09-21T23:11:00+00:00">September 21, 1978,
-                                    2311Z</date>
+                                    when="1978-09-21T23:11:00+00:00" calendar="gregorian">September
+                                    21, 1978, 2311Z</date>
                             </dateline>
                         </opener>
                         <p>6903. Subject: Joint Review Group Visit: Report No. 2.</p>
@@ -31028,8 +31047,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1978-09-22T13:05:00"
-                                    to="1978-09-22T13:10:00">September 22, 1978, 1:05–1:10
-                                    p.m.</date>
+                                    to="1978-09-22T13:10:00" calendar="gregorian">September 22,
+                                    1978, 1:05–1:10 p.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -31132,8 +31151,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1978-09-22T14:15:00"
-                                    to="1978-09-22T14:30:00">September 22, 1978, 2:15–2:30
-                                    p.m.</date>
+                                    to="1978-09-22T14:30:00" calendar="gregorian">September 22,
+                                    1978, 2:15–2:30 p.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -31255,8 +31274,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-09-22">September
-                                    22, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-09-22"
+                                    calendar="gregorian">September 22, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -31349,8 +31368,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1978-09-23T11:20:00"
-                                    to="1978-09-23T12:00:00">September 23, 1978, 11:20
-                                    a.m.–noon</date>
+                                    to="1978-09-23T12:00:00" calendar="gregorian">September 23,
+                                    1978, 11:20 a.m.–noon</date>
                             </dateline>
                         </opener>
                         <list type="participants">
@@ -31768,8 +31787,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-10-04">October
-                                    4, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-10-04"
+                                    calendar="gregorian">October 4, 1978</date>
                             </dateline>
                         </opener>
                         <opener>
@@ -31845,8 +31864,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-10-05">October
-                                    5, 1978</date>
+                                <placeName>Washington</placeName>, <date when="1978-10-05"
+                                    calendar="gregorian">October 5, 1978</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -31967,7 +31986,7 @@
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1978-10-19"
                                     ana="#date_undated-inferred-from-document-content"
-                                    >undated</date>
+                                    calendar="gregorian">undated</date>
                             </dateline>
                         </opener>
                         <p rend="center">MEMORANDUM OF UNDERSTANDING CONCERNING THE COORDINATED
@@ -32111,7 +32130,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1978-11-01T10:00:00"
-                                    to="1978-11-01T11:30:00">November 1, 1978, 10–11:30 a.m.</date>
+                                    to="1978-11-01T11:30:00" calendar="gregorian">November 1, 1978,
+                                    10–11:30 a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -32243,7 +32263,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1978-11-17T02:20:00+00:00">November 17, 1978, 0220Z</date>
+                                    when="1978-11-17T02:20:00+00:00" calendar="gregorian">November
+                                    17, 1978, 0220Z</date>
                             </dateline>
                         </opener>
                         <p>291606. Distribute as <gloss target="#t_NODIS_1">Nodis</gloss>, For
@@ -32330,8 +32351,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-01-16">January
-                                    16, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-01-16"
+                                    calendar="gregorian">January 16, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -32558,8 +32579,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-01-18">January
-                                    18, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-01-18"
+                                    calendar="gregorian">January 18, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -32651,8 +32672,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-01-18">January
-                                    18, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-01-18"
+                                    calendar="gregorian">January 18, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -32755,8 +32776,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-01-23">January
-                                    23, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-01-23"
+                                    calendar="gregorian">January 23, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -32868,8 +32889,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-02-01">February
-                                    1, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-02-01"
+                                    calendar="gregorian">February 1, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -32943,8 +32964,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-03-03">March 3,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-03-03"
+                                    calendar="gregorian">March 3, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -33022,8 +33043,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-03-19">March 19,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-03-19"
+                                    calendar="gregorian">March 19, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -33115,8 +33136,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-03-23">March 23,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-03-23"
+                                    calendar="gregorian">March 23, 1979</date>
                             </dateline>
                         </opener>
                         <p rend="center">
@@ -33213,8 +33234,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-03-26">March 26,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-03-26"
+                                    calendar="gregorian">March 26, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -33291,7 +33312,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1979-03-29T23:51:00+00:00">March 29, 1979, 2351Z</date>
+                                    when="1979-03-29T23:51:00+00:00" calendar="gregorian">March 29,
+                                    1979, 2351Z</date>
                             </dateline>
                         </opener>
                         <p>78624. Subject: <gloss target="#t_FMS_1">FMS</gloss> cut.</p>
@@ -33347,8 +33369,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-04-02">April 2,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-04-02"
+                                    calendar="gregorian">April 2, 1979</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -33440,8 +33462,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-04-04">April 4,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-04-04"
+                                    calendar="gregorian">April 4, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -33621,8 +33643,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-04-06">April 6,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-04-06"
+                                    calendar="gregorian">April 6, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -33678,7 +33700,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Panama City</placeName>, <date
-                                    when="1979-04-06T20:26:00+00:00">April 6, 1979, 2026Z</date>
+                                    when="1979-04-06T20:26:00+00:00" calendar="gregorian">April 6,
+                                    1979, 2026Z</date>
                             </dateline>
                         </opener>
                         <p>2588. Subj: Meeting With President <persName corresp="#p_RA_1"
@@ -33831,8 +33854,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-04-18">April 18,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-04-18"
+                                    calendar="gregorian">April 18, 1979</date>
                             </dateline>
                         </opener>
                         <p>
@@ -33902,8 +33925,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-04-19">April 19,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-04-19"
+                                    calendar="gregorian">April 19, 1979</date>
                             </dateline>
                         </opener>
                         <p rend="center">
@@ -34019,8 +34042,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-04-27">April 27,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-04-27"
+                                    calendar="gregorian">April 27, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -34211,8 +34234,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-05-01">May 1,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-05-01"
+                                    calendar="gregorian">May 1, 1979</date>
                             </dateline>
                         </opener>
                         <p rend="center">
@@ -34377,8 +34400,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-05-03">May 3,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-05-03"
+                                    calendar="gregorian">May 3, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -34446,7 +34469,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1979-05-08T19:40:00"
-                                    to="1979-05-08T21:05:00">May 8, 1979, 7:40–9:05 p.m.</date>
+                                    to="1979-05-08T21:05:00" calendar="gregorian">May 8, 1979,
+                                    7:40–9:05 p.m.</date>
                             </dateline>
                         </opener>
                         <p>THE PRESIDENT: I don’t know of a better way to wind up a day of
@@ -35297,7 +35321,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1979-05-10T11:20:00"
-                                    to="1979-05-10T11:55:00">May 10, 1979, 11:20–11:55 a.m.</date>
+                                    to="1979-05-10T11:55:00" calendar="gregorian">May 10, 1979,
+                                    11:20–11:55 a.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -35737,8 +35762,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-05-15">May 15,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-05-15"
+                                    calendar="gregorian">May 15, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -35801,8 +35826,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-05-15">May 15,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-05-15"
+                                    calendar="gregorian">May 15, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -35850,7 +35875,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1979-05-24T13:39:00+00:00">May 24, 1979, 1339Z</date>
+                                    when="1979-05-24T13:39:00+00:00" calendar="gregorian">May 24,
+                                    1979, 1339Z</date>
                             </dateline>
                         </opener>
                         <p>132507. Subject: Panamanian Involvement With Nicaragua.</p>
@@ -35949,8 +35975,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-06-04">June 4,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-06-04"
+                                    calendar="gregorian">June 4, 1979</date>
                             </dateline>
                         </opener>
                         <p>[Omitted here is information unrelated to Panama.]</p>
@@ -36013,7 +36039,7 @@
                                     notBefore="1979-06-04T00:00:00-04:00"
                                     notAfter="1979-06-05T08:34:00-04:00"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                    >undated</date>
+                                    calendar="gregorian">undated</date>
                             </dateline>
                         </opener>
                         <p rend="center">CONGRESSIONAL TELEPHONE CALL</p>
@@ -36079,8 +36105,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-06-05">June 5,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-06-05"
+                                    calendar="gregorian">June 5, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -36341,8 +36367,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-06-06">June 6,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-06-06"
+                                    calendar="gregorian">June 6, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -36443,8 +36469,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-06-06">June 6,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-06-06"
+                                    calendar="gregorian">June 6, 1979</date>
                             </dateline>
                         </opener>
                         <p rend="center">
@@ -36520,8 +36546,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-06-08">June 8,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-06-08"
+                                    calendar="gregorian">June 8, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -36570,8 +36596,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-06-08">June 8,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-06-08"
+                                    calendar="gregorian">June 8, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -36640,8 +36666,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-06-21">June 21,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-06-21"
+                                    calendar="gregorian">June 21, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -36746,7 +36772,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1979-06-29T00:33:00+00:00">June 29, 1979, 0033Z</date>
+                                    when="1979-06-29T00:33:00+00:00" calendar="gregorian">June 29,
+                                    1979, 0033Z</date>
                             </dateline>
                         </opener>
                         <p>167433/<gloss target="#t_TOSEC_1">Tosec</gloss> 060126. Subject:
@@ -36874,8 +36901,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-07-31">July 31,
-                                    1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-07-31"
+                                    calendar="gregorian">July 31, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -36952,7 +36979,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1979-08-04T01:50:00+00:00">August 4, 1979, 0150Z</date>
+                                    when="1979-08-04T01:50:00+00:00" calendar="gregorian">August 4,
+                                    1979, 0150Z</date>
                             </dateline>
                         </opener>
                         <p>202619. Joint State–<gloss target="#t_DOD_1">DOD</gloss> Message.
@@ -37021,8 +37049,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-08-14">August
-                                    14, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-08-14"
+                                    calendar="gregorian">August 14, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -37104,7 +37132,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1979-08-27T23:52:00+00:00">August 27, 1979, 2352Z</date>
+                                    when="1979-08-27T23:52:00+00:00" calendar="gregorian">August 27,
+                                    1979, 2352Z</date>
                             </dateline>
                         </opener>
                         <p>225519. For Ambassador <persName corresp="#p_MAH_1">Moss</persName>.
@@ -37200,8 +37229,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-09-07">September
-                                    7, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-09-07"
+                                    calendar="gregorian">September 7, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -37259,8 +37288,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-09-20">September
-                                    20, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-09-20"
+                                    calendar="gregorian">September 20, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -37328,8 +37357,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-09-22">September
-                                    22, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-09-22"
+                                    calendar="gregorian">September 22, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -37395,8 +37424,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-09-24">September
-                                    24, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-09-24"
+                                    calendar="gregorian">September 24, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -37475,8 +37504,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-09-27">September
-                                    27, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-09-27"
+                                    calendar="gregorian">September 27, 1979</date>
                             </dateline>
                             <salute>Dear Mr. President:</salute>
                         </opener>
@@ -37542,8 +37571,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-09-29">September
-                                    29, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-09-29"
+                                    calendar="gregorian">September 29, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -37691,8 +37720,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Tocumen Airport, Panama</placeName>, <date
-                                    from="1979-09-30T17:40:00" to="1979-09-30T18:20:00">September
-                                    30, 1979, 5:40–6:20 p.m.</date>
+                                    from="1979-09-30T17:40:00" to="1979-09-30T18:20:00"
+                                    calendar="gregorian">September 30, 1979, 5:40–6:20 p.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -37945,8 +37974,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-11-01">November
-                                    1, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-11-01"
+                                    calendar="gregorian">November 1, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -38007,8 +38036,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-11-17">November
-                                    17, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-11-17"
+                                    calendar="gregorian">November 17, 1979</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -38112,8 +38141,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-12-10">December
-                                    10, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-12-10"
+                                    calendar="gregorian">December 10, 1979</date>
                             </dateline>
                         </opener>
                         <p>1. <hi rend="italic">The Shah</hi>. Ambassador Sole today gave us an
@@ -38171,8 +38200,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-12-18">December
-                                    18, 1979</date>
+                                <placeName>Washington</placeName>, <date when="1979-12-18"
+                                    calendar="gregorian">December 18, 1979</date>
                             </dateline>
                             <salute>Dear Mr. President:</salute>
                         </opener>
@@ -38231,7 +38260,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Panama City</placeName>, <date
-                                    when="1979-12-28T23:11:00+00:00">December 28, 1979, 2311Z</date>
+                                    when="1979-12-28T23:11:00+00:00" calendar="gregorian">December
+                                    28, 1979, 2311Z</date>
                             </dateline>
                         </opener>
                         <p>10540. Subject: Letter to President <persName corresp="#p_CJE_1"
@@ -38392,7 +38422,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1979-12-30T01:59:00+00:00">December 30, 1979, 0159Z</date>
+                                    when="1979-12-30T01:59:00+00:00" calendar="gregorian">December
+                                    30, 1979, 0159Z</date>
                             </dateline>
                         </opener>
                         <p>334024. For the Ambassador. Subject: Iranian Request for Extradition.</p>
@@ -38487,8 +38518,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-01-05">January
-                                    5, 1980</date>
+                                <placeName>Washington</placeName>, <date when="1980-01-05"
+                                    calendar="gregorian">January 5, 1980</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -38556,8 +38587,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-01-07">January
-                                    7, 1980</date>
+                                <placeName>Washington</placeName>, <date when="1980-01-07"
+                                    calendar="gregorian">January 7, 1980</date>
                             </dateline>
                             <salute>Dear Mr. President:</salute>
                         </opener>
@@ -38624,7 +38655,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Panama City</placeName>, <date
-                                    when="1980-01-14T14:48:00+00:00">January 14, 1980, 1448Z</date>
+                                    when="1980-01-14T14:48:00+00:00" calendar="gregorian">January
+                                    14, 1980, 1448Z</date>
                             </dateline>
                         </opener>
                         <p>352. Please Pass to White House for <persName corresp="#p_JH_1">Hamilton
@@ -38850,8 +38882,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Panama City</placeName>, <date when="1980-01-23">January
-                                    23, 1980</date>
+                                <placeName>Panama City</placeName>, <date when="1980-01-23"
+                                    calendar="gregorian">January 23, 1980</date>
                             </dateline>
                             <salute>Dear Jim:</salute>
                         </opener>
@@ -38928,7 +38960,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Panama City</placeName>, <date
-                                    when="1980-02-14T13:43:00+00:00">February 14, 1980, 1343Z</date>
+                                    when="1980-02-14T13:43:00+00:00" calendar="gregorian">February
+                                    14, 1980, 1343Z</date>
                             </dateline>
                         </opener>
                         <p>1451. Department please pass to <gloss target="#t_OSDISA_1"
@@ -39069,7 +39102,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1980-02-16T15:51:00+00:00">February 16, 1980, 1551Z</date>
+                                    when="1980-02-16T15:51:00+00:00" calendar="gregorian">February
+                                    16, 1980, 1551Z</date>
                             </dateline>
                         </opener>
                         <p>42827. For Ambassador <persName corresp="#p_MAH_1">Moss</persName>.
@@ -39137,8 +39171,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-02-21">February
-                                    21, 1980</date>
+                                <placeName>Washington</placeName>, <date when="1980-02-21"
+                                    calendar="gregorian">February 21, 1980</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -39291,8 +39325,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-02-29">February
-                                    29, 1980</date>
+                                <placeName>Washington</placeName>, <date when="1980-02-29"
+                                    calendar="gregorian">February 29, 1980</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -39397,7 +39431,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1980-03-01T18:21:00+00:00">March 1, 1980, 1821Z</date>
+                                    when="1980-03-01T18:21:00+00:00" calendar="gregorian">March 1,
+                                    1980, 1821Z</date>
                             </dateline>
                         </opener>
                         <p>56104. For Ambassador <persName corresp="#p_MAH_1">Moss</persName>.
@@ -39538,8 +39573,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-03-03">March 3,
-                                    1980</date>
+                                <placeName>Washington</placeName>, <date when="1980-03-03"
+                                    calendar="gregorian">March 3, 1980</date>
                             </dateline>
                             <salute>Dear Mr. President:</salute>
                         </opener>
@@ -39612,8 +39647,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-03-12">March 12,
-                                    1980</date>
+                                <placeName>Washington</placeName>, <date when="1980-03-12"
+                                    calendar="gregorian">March 12, 1980</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -39704,8 +39739,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-03-22">March 22,
-                                    1980</date>
+                                <placeName>Washington</placeName>, <date when="1980-03-22"
+                                    calendar="gregorian">March 22, 1980</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -39768,7 +39803,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1980-05-01T12:00:00"
-                                    to="1980-05-01T14:00:00">May 1, 1980, noon–2 p.m.</date>
+                                    to="1980-05-01T14:00:00" calendar="gregorian">May 1, 1980,
+                                    noon–2 p.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -39906,7 +39942,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1980-06-24T17:30:00+00:00">June 24, 1980, 1730Z</date>
+                                    when="1980-06-24T17:30:00+00:00" calendar="gregorian">June 24,
+                                    1980, 1730Z</date>
                             </dateline>
                         </opener>
                         <p>166729. For Ambassador <persName corresp="#p_MAH_1">Moss</persName> From
@@ -39988,7 +40025,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1980-07-01T22:51:00+00:00">July 1, 1980, 2251Z</date>
+                                    when="1980-07-01T22:51:00+00:00" calendar="gregorian">July 1,
+                                    1980, 2251Z</date>
                             </dateline>
                         </opener>
                         <p>174116. For Ambassador <persName corresp="#p_MAH_1">Moss</persName> from
@@ -40057,7 +40095,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1980-07-30T23:14:00+00:00">July 30, 1980, 2314Z</date>
+                                    when="1980-07-30T23:14:00+00:00" calendar="gregorian">July 30,
+                                    1980, 2314Z</date>
                             </dateline>
                         </opener>
                         <p>5857. Subject: Presidential Message. For: Ambassador <persName
@@ -40120,8 +40159,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1980-09-28T19:10:00"
-                                    to="1980-09-28T19:55:00">September 28, 1980, 7:10–7:55
-                                    p.m.</date>
+                                    to="1980-09-28T19:55:00" calendar="gregorian">September 28,
+                                    1980, 7:10–7:55 p.m.</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -40506,8 +40545,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1980-09-29T20:49:00+00:00">September 29, 1980,
-                                    2049Z</date>
+                                    when="1980-09-29T20:49:00+00:00" calendar="gregorian">September
+                                    29, 1980, 2049Z</date>
                             </dateline>
                         </opener>
                         <p>260727. Subject: Secretary’s Conversation with Foreign Minister Ozores,
@@ -40669,8 +40708,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-10-01">October
-                                    1, 1980</date>
+                                <placeName>Washington</placeName>, <date when="1980-10-01"
+                                    calendar="gregorian">October 1, 1980</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -40739,8 +40778,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-10-23">October
-                                    23, 1980</date>
+                                <placeName>Washington</placeName>, <date when="1980-10-23"
+                                    calendar="gregorian">October 23, 1980</date>
                             </dateline>
                             <salute>Dear <persName corresp="#p_CWG_1">Graham</persName>:</salute>
                         </opener>
@@ -40853,8 +40892,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-10-31">October
-                                    31, 1980</date>
+                                <placeName>Washington</placeName>, <date when="1980-10-31"
+                                    calendar="gregorian">October 31, 1980</date>
                             </dateline>
                         </opener>
                         <p>The recent cables from Embassy Panama concerning Panamanian sensitivity
@@ -40945,8 +40984,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-11-21">November
-                                    21, 1980</date>
+                                <placeName>Washington</placeName>, <date when="1980-11-21"
+                                    calendar="gregorian">November 21, 1980</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -41044,7 +41083,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
-                                    when="1980-11-26T13:10:00+00:00">November 26, 1980, 1310Z</date>
+                                    when="1980-11-26T13:10:00+00:00" calendar="gregorian">November
+                                    26, 1980, 1310Z</date>
                             </dateline>
                         </opener>
                         <p>2928. Personal for LtG <persName corresp="#p_NW_1">Nutting</persName>
@@ -41140,8 +41180,8 @@
                         </head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1981-01-13">January
-                                    13, 1981</date>
+                                <placeName>Washington</placeName>, <date when="1981-01-13"
+                                    calendar="gregorian">January 13, 1981</date>
                             </dateline>
                             <salute>Dear General <persName corresp="#p_THO_1"
                                 >Torrijos</persName>:</salute>

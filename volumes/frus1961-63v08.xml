@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date type="publication-date">1996</date>
+                <date type="publication-date" calendar="gregorian">1996</date>
                 <idno type="dospubno">10317</idno>
                 <idno type="isbn-10">0160481651</idno>
                 <idno type="isbn-13">9780160481659</idno>
@@ -1715,8 +1715,8 @@
                             on January 17, except the Atomic Energy Commission representative and
                             the Assistant Director, Federal Bureau of Investigation, who abstained
                             because the subject was outside their jurisdiction.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-01-17">January 17,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-01-17"
+                            calendar="gregorian">January 17, 1961</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_NIE1">NIE</gloss> 1-61</p>
                     <p rend="center">ESTIMATE OF THE WORLD SITUATION</p>
                     <p>[Here follow sections entitled “Introduction,” “The Communist World,” “The
@@ -2057,8 +2057,8 @@
                             Washington National Records Center, <gloss target="#t_RG1">RG</gloss>
                             330, <gloss target="#t_OSD1">OSD</gloss> Files: <gloss target="#t_FRC1"
                                 >FRC</gloss> 65 A 3464, 381 18 Jan 61. Top Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-01-24">January 24,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-01-24"
+                            calendar="gregorian">January 24, 1961</date>.</dateline>
                     <p>You asked that I put in writing my recollection of the subjects discussed at
                         the meeting with President <persName corresp="#p_EDD1">Eisenhower</persName>
                         at the White House on Thursday, January 19.<note n="2" xml:id="d3fn2"
@@ -2123,7 +2123,7 @@
                                 <persName corresp="#p_GGAJ1">Goodpaster</persName> on January
                             27.</note></head>
                     <dateline><placeName>Washington</placeName>, <date when="1961-01-25T10:15:00"
-                            >January 25, 1961, 10:15 a.m.</date>
+                            calendar="gregorian">January 25, 1961, 10:15 a.m.</date>
                     </dateline>
                     <list type="participants">
                         <head>OTHERS PRESENT</head>
@@ -2314,7 +2314,7 @@
                             notBefore="1961-01-25T10:15:00-05:00"
                             notAfter="1961-01-27T23:59:59-05:00"
                             ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            >undated</date>.</dateline>
+                            calendar="gregorian">undated</date>.</dateline>
                     <p rend="center">POSSIBLE ACTIONS TO SIMPLIFY POLICY PLANNING AND OPERATIONS
                         COORDINATION IN THE NATIONAL SECURITY AREA<note n="2" xml:id="d6fn2">On
                             January 1 President-elect <persName>Kennedy</persName> appointed
@@ -2463,8 +2463,8 @@
                             type="source">Source: Kennedy Library, National Security Files, Meetings
                             and Memoranda Series, <gloss target="#t_NSC1">NSC</gloss> Meetings, No.
                             475. Top Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-01-30">January 30,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-01-30"
+                            calendar="gregorian">January 30, 1961</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Policies previously approved in <gloss target="#t_NSC1">NSC</gloss>
@@ -2581,8 +2581,8 @@
                             Files: Lot 66 D 95, Records of Action by the National Security Council.
                             Top Secret. The actions were approved by the President on February 2.
                             The source text has minor revisions as of February 6.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-02-01">February 1,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-02-01"
+                            calendar="gregorian">February 1, 1961</date>.</dateline>
                     <p>[Here follows a paragraph listing the participants at the meeting.]</p>
                     <p rend="flushleft"><hi rend="italic">2396. Attendance at National Security
                             Council Meetings</hi></p>
@@ -2794,8 +2794,8 @@
                                 target="#t_SP1">S/P</gloss> Files: Lot 67 D 548, <gloss
                                 target="#t_NSAM1">NSAM</gloss>s. Top Secret
                         Attachment.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-02-03">February 3,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-02-03"
+                            calendar="gregorian">February 3, 1961</date>.</dateline>
                     <p><hi rend="smallcaps">Dear <persName>Dean</persName></hi>:</p>
                     <p>The President has asked me to start to keep track of directives and requests
                         which he makes in the area of national security affairs. Such requests and
@@ -2835,8 +2835,8 @@
                             Drafted by Henry Owen of the Policy Planning Council and cleared in EUR
                             and FE. Another copy is in the Kennedy Library, National Security Files,
                             Departments and Agencies Series, State 2/2/61-2/16/61.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-02-04">February 4,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-02-04"
+                            calendar="gregorian">February 4, 1961</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Bob</hi>:</p>
                     <p>As I indicated in the <gloss target="#t_NSC1">NSC</gloss> meeting February
                             1,<note n="2" xml:id="d10fn2">See <ref target="#d8">Document
@@ -3036,7 +3036,7 @@
                                 target="frus1961-63v01">Volume I</ref>. Top Secret. Drafted by
                                 <persName corresp="#p_CCV1">Clifton</persName>.</note></head>
                     <dateline><placeName>Washington</placeName>, <date when="1961-02-06T11:05:00"
-                            >February 6, 1961, 11:05 a.m.</date>
+                            calendar="gregorian">February 6, 1961, 11:05 a.m.</date>
                     </dateline>
                     <list type="participants">
                         <head>OTHERS PRESENT</head>
@@ -3204,8 +3204,8 @@
                             Agencies Series, <gloss target="#t_JCS1">JCS</gloss> General 1961. Top
                             Secret. Drafted by <persName corresp="#p_CCV1"
                             >Clifton</persName>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-02-06">February 6,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-02-06"
+                            calendar="gregorian">February 6, 1961</date>.</dateline>
                     <p>The Joint Chiefs of Staff, in their meeting with the President today, told
                         him that the B-52G is being tested, but that they, on February 4th, resumed
                         the 12 sorties a day level of airborne alert.</p>
@@ -3239,7 +3239,7 @@
                                 >S</gloss>/<gloss target="#t_S1">S</gloss> Files: Lot 66 D 147,
                             Secretary's Staff Meetings. Secret. Drafted by Stoessel.</note></head>
                     <dateline><placeName>Washington</placeName>, <date when="1961-02-06T09:15:00"
-                            >February 6, 1961, 9:15 a.m.</date>
+                            calendar="gregorian">February 6, 1961, 9:15 a.m.</date>
                     </dateline>
                     <p rend="flushleft"><hi rend="italic">1. Remarks by the President</hi></p>
                     <p>The Secretary welcomed the President to the staff meeting and invited him to
@@ -3312,8 +3312,8 @@
                             Files: Lot 66 D 95, Records of Action by the National Security Council.
                             Top Secret. The actions were approved by the President on February
                             11.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-02-09">February 9,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-02-09"
+                            calendar="gregorian">February 9, 1961</date>.</dateline>
                     <p>[Here follow a paragraph listing the participants at the meeting and the
                         record of Actions No. 2402 on significant world developments affecting U.S.
                         security and 2403 on crises in Laos, the Congo, Cuba, and the Dominican
@@ -3370,7 +3370,7 @@
                                 >S</gloss>/<gloss target="#t_S1">S</gloss> Files: Lot 66 D 147,
                             Secretary's Staff Meetings. Secret. Drafted by Stoessel.</note></head>
                     <dateline><placeName>Washington</placeName>, <date when="1961-02-14T09:15:00"
-                            >February 14, 1961, 9:15 a.m.</date>
+                            calendar="gregorian">February 14, 1961, 9:15 a.m.</date>
                     </dateline>
                     <p>[Here follows discussion of intelligence matters and an exhibit in
                         Moscow.]</p>
@@ -3426,8 +3426,8 @@
                             Series, Defense <ref target="frus1961-63v01">Volume I</ref>, Review
                                 <gloss target="#t_FY1">FY</gloss> 1961 &amp; 1962 Mil Prog and
                             Budgets, 2/21/61. Top Secret. </note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-02-20">February
-                            20, 1961</date>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-02-20"
+                            calendar="gregorian">February 20, 1961</date>
                     </dateline>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I have now completed my initial
                         review of the Eisenhower Administration <gloss target="#t_FY1">FY</gloss>
@@ -4643,7 +4643,7 @@
                             information made at this meeting is ibid., Departments and Agencies
                             Series, Department of Defense, Special Warfare Volume I.</note></head>
                     <dateline><placeName>Washington</placeName>, <date when="1961-02-23T17:30:00"
-                            >February 23, 1961, 5:30 p.m.</date></dateline>
+                            calendar="gregorian">February 23, 1961, 5:30 p.m.</date></dateline>
                     <list type="participants">
                         <head>OTHERS PRESENT</head>
                         <item>General <persName corresp="#p_LGLL1">Lemnitzer</persName></item>
@@ -4969,8 +4969,8 @@
                             Kennedy Library, President's Office Files, <persName corresp="#p_BMG2"
                                 >McGeorge Bundy</persName> 2/61-4/61. No classification marking.
                             Copies were sent to the President and Larry O'Donnell.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-02-28">February
-                            28, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-02-28"
+                            calendar="gregorian">February 28, 1961</date>.</dateline>
                     <p>Because the President called off the <gloss target="#t_NSC1">NSC</gloss>
                         meeting last week and does not expect to have one this week, there may well
                         be a question to you—or to him on Wednesday—about his procedures in this
@@ -5006,8 +5006,8 @@
                             type="to">Kennedy</persName><note n="0" xml:id="d20fn0" type="source"
                             >Source: Kennedy Library, National Security Files, Departments and
                             Agencies Series, Department of Defense 3/61. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-03-10">March 10,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-03-10"
+                            calendar="gregorian">March 10, 1961</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Revisions to Defense <gloss target="#t_FY1">FY</gloss> 1962
@@ -5826,8 +5826,8 @@
                             >Sorensen</persName>)<note n="0" xml:id="d21fn0" type="source">Source:
                             Kennedy Library, National Security Files, Departments and Agencies
                             Series, Department of Defense 3/61. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-03-13">March 13,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-03-13"
+                            calendar="gregorian">March 13, 1961</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Defense Message<note n="1" xml:id="d21fn1">Not found. Reference is
@@ -6037,8 +6037,8 @@
                                 >FRC</gloss> 65 A 3464, 381 4 Feb 61. Top Secret. Attached to an
                             April 11 memorandum from Gilpatric to the <gloss target="#t_JCS1"
                                 >JCS</gloss>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-04-07">April 7,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-04-07"
+                            calendar="gregorian">April 7, 1961</date>.</dateline>
                     <p rend="flushleft"><hi rend="italic">Problem:</hi></p>
                     <p>To determine the bearing of certain foreign policy considerations on the U.S.
                         defense posture.</p>
@@ -6122,8 +6122,8 @@
                         State <persName corresp="#p_RD3" type="to">Rusk</persName><note n="1"
                             xml:id="d24fn1" type="source">Source: Department of State, Central
                             Files, 711.5611/4-1561. Top Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-04-15">April 15,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-04-15"
+                            calendar="gregorian">April 15, 1961</date>.</dateline>
                     <p><hi rend="smallcaps">Dear <persName>Dean</persName></hi>:</p>
                     <p>The enclosed memorandum reflects the current views of the Joint Chiefs of
                         Staff on the use of nuclear weapons in limited war. I think you will find
@@ -6157,8 +6157,8 @@
                         <head>Enclosure<note n="4" xml:id="d24fn5">Top Secret.</note><lb/>Memorandum
                             From the Joint Chiefs of Staff to Secretary of Defense <persName
                                 corresp="#p_MNRS1">McNamara</persName></head>
-                        <dateline><placeName>Washington</placeName>, <date when="1961-03-17">March
-                                17, 1961</date></dateline>
+                        <dateline><placeName>Washington</placeName>, <date when="1961-03-17"
+                                calendar="gregorian">March 17, 1961</date></dateline>
                         <p rend="flushleft"><gloss target="#t_JCSM1">JCSM</gloss>-170-61</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -6281,8 +6281,8 @@
                             Records Administration, <gloss target="#t_RG1">RG</gloss> 218, <gloss
                                 target="#t_JCS1">JCS</gloss> Records, JMF 3020 (3 Apr 61) Sec 2. Top
                             Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-04-18">April 18,
-                            1961</date></dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-04-18"
+                            calendar="gregorian">April 18, 1961</date></dateline>
                     <p rend="flushleft"><gloss target="#t_CM1">CM</gloss>-190-61</p>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -6364,8 +6364,8 @@
                             Secret.</note><lb/>Memorandum From the Joint Chiefs of Staff to
                             Secretary of Defense <persName corresp="#p_MNRS1"
                             >McNamara</persName></head>
-                        <dateline><placeName>Washington</placeName>, <date when="1961-04-18">April
-                                18, 1961</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date when="1961-04-18"
+                                calendar="gregorian">April 18, 1961</date>.</dateline>
                         <p rend="flushleft"><gloss target="#t_JCSM1">JCSM</gloss>-252-61</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -6486,8 +6486,8 @@
                             Files: Lot 66 D 95, Records of Action by the National Security Council.
                             Top Secret. The actions were approved by the President on April
                             24.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-04-22">April 22,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-04-22"
+                            calendar="gregorian">April 22, 1961</date>.</dateline>
                     <p>[Here follow a paragraph listing the participants at the meeting and Action
                         No. 2406, “U.S. Policy Toward Cuba.”]</p>
                     <p rend="flushleft">2407. <hi rend="italic">Strengthening the Basic U.S. Posture
@@ -6537,8 +6537,8 @@
                             Kennedy Library, National Security Files, Departments and Agencies
                             Series, <gloss target="#t_DOD1">DOD</gloss> Study on Conventional Forces
                             1961. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-05-10">May 10,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-05-10"
+                            calendar="gregorian">May 10, 1961</date>.</dateline>
                     <list type="subject">
                         <head>SUBJ</head>
                         <item>Reappraisal of Capabilities of Conventional Forces</item>
@@ -6722,7 +6722,8 @@
                                 <gloss target="#t_BNSP1">BNSP</gloss> 1/61-5/61. Top Secret. Drafted
                             by <persName corresp="#p_KC2">Kaysen</persName> on May 27.</note></head>
                     <dateline><placeName>Washington</placeName>, <date when="1961-05-25"
-                            type="conversation-or-meeting-date">May 25, 1961</date>.</dateline>
+                            type="conversation-or-meeting-date" calendar="gregorian">May 25,
+                            1961</date>.</dateline>
                     <p rend="center">MEMORANDUM OF CONVERSATION WITH MR. <persName corresp="#p_RHS2"
                             >HENRY ROWEN</persName>, DEPUTY ASSISTANT SECRETARY OF DEFENSE FOR
                         INTERNATIONAL SECURITY AFFAIRS</p>
@@ -6783,8 +6784,8 @@
                             Federal Bureau of Investigation, who abstained because the subject was
                             outside his jurisdiction. <gloss target="#t_NIE1">NIE</gloss> 11-8-61 is
                             ibid.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-06-07">June 7,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-06-07"
+                            calendar="gregorian">June 7, 1961</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_NIE1">NIE</gloss> 11-8-61, Annex C</p>
                     <p rend="center">THE SOVIET <gloss target="#t_ICBM1">ICBM</gloss>
                         PROGRAM—EVIDENCE AND ANALYSIS</p>
@@ -7765,8 +7766,8 @@
                             Administration, <gloss target="#t_RG1">RG</gloss> 218, <gloss
                                 target="#t_JCS1">JCS</gloss> Records, JMF 3001 (14 Apr 61) Pt. 1,
                             Sec 3. Top Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-06-16">June 16,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-06-16"
+                            calendar="gregorian">June 16, 1961</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Henry</hi>: Attached is a comment on your draft of
                         the military and related sections of the Basic National Security Policy
                         which you sent to us on 22 May.<note n="1" xml:id="d30fn1">This May 19 draft
@@ -7943,8 +7944,8 @@
                                 <gloss target="#t_NSC1">NSC</gloss> Organization and Administration
                             5/6/61-7/25/61. No classification marking. There is no drafting
                             information on the source text.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-06-22">June 22,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-06-22"
+                            calendar="gregorian">June 22, 1961</date>.</dateline>
                     <p rend="center">CURRENT ORGANIZATION OF THE WHITE HOUSE AND <gloss
                             target="#t_NSC1">NSC</gloss> FOR DEALING WITH INTERNATIONAL MATTERS</p>
                     <p>The President's staff is at present about two-thirds of the way toward a
@@ -8153,8 +8154,8 @@
                                 >Kennedy</persName> appointed <persName corresp="#p_TMD1"
                                 >Taylor</persName> as his Military Representative. Concerning his
                             assigned duties, see ibid., pp. 196-197.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-06-28">June 28,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-06-28"
+                            calendar="gregorian">June 28, 1961</date>.</dateline>
                     <list type="to">
                         <head>TO</head>
                         <item>The Chairman, Joint Chiefs of Staff</item>
@@ -8231,8 +8232,8 @@
                                 >NSAM</gloss> 56. Secret. Copies were sent to Secretary <persName
                                 corresp="#p_RD3">Rusk</persName>, Allen Dulles, and General
                                 <persName corresp="#p_TMD1">Taylor</persName>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-06-28">June 28,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-06-28"
+                            calendar="gregorian">June 28, 1961</date>.</dateline>
                     <list type="to">
                         <head>TO</head>
                         <item>The Secretary of Defense</item>
@@ -8286,8 +8287,8 @@
                             Security Files, Meetings and Memoranda Series, <gloss target="#t_NSAM1"
                                 >NSAM</gloss> 57. Secret. A copy was sent to General <persName
                                 corresp="#p_TMD1">Taylor</persName>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-06-28">June 28,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-06-28"
+                            calendar="gregorian">June 28, 1961</date>.</dateline>
                     <list type="to">
                         <head>TO</head>
                         <item>The Secretary of State</item>
@@ -8382,8 +8383,8 @@
                             Central Files, 711.5/7-961) Forwarded to Rusk under a June 27 memorandum
                             from <persName corresp="#p_MGGC2">George McGhee</persName>. (Ibid.
                             711.5/6-2761)</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-07-09">July 9,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-07-09"
+                            calendar="gregorian">July 9, 1961</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Bob</hi>:</p>
                     <p>We have reviewed in the State Department the draft which was prepared in the
                         Defense Department of the military sections of Basic National Security
@@ -8463,8 +8464,8 @@
                             Commission Representative to the <gloss target="#t_USIB1">USIB</gloss>,
                             and the Assistant Director, Federal Bureau of Investigation, abstained
                             because the subject was outside their jurisdiction.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-07-11">July 11,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-07-11"
+                            calendar="gregorian">July 11, 1961</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_NIE1">NIE</gloss> 11-3-61</p>
                     <p rend="center">SINO-SOVIET AIR DEFENSE CAPABILITIES THROUGH MID-1966</p>
                     <p rend="center">The Problem</p>
@@ -8646,7 +8647,8 @@
                                 target="#t_BNSP1">BNSP</gloss> 7/61-11/61. Top Secret. Drafted by
                                 <persName corresp="#p_KC2">Kaysen</persName>.</note></head>
                     <dateline><placeName>Washington</placeName>, <date when="1961-07-17"
-                            type="conversation-or-meeting-date">July 17, 1961</date>.</dateline>
+                            type="conversation-or-meeting-date" calendar="gregorian">July 17,
+                            1961</date>.</dateline>
                     <p>The latest version of the Military Section of the <gloss target="#t_BNSP1"
                             >BNSP</gloss><note n="1" xml:id="d37fn1">Undated. (Ibid.)</note> (of
                         which I have two copies) is in the following situation.</p>
@@ -8692,8 +8694,8 @@
                         State <persName corresp="#p_RD3" type="to">Rusk</persName><note n="0"
                             xml:id="d38fn0" type="source">Source: Department of State, Central
                             Files, 711.5/7-1461. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-07-17">July 17,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-07-17"
+                            calendar="gregorian">July 17, 1961</date>.</dateline>
                     <p><hi rend="smallcaps">Dear <persName>Dean</persName></hi>:</p>
                     <p>We appreciate receiving your views on the draft military section of Basic
                         National Security Policy, as set forth in your letter of July 9th.</p>
@@ -8831,7 +8833,7 @@
                                 I</ref>. Top Secret. Drafted by <persName corresp="#p_CCV1"
                                 >Clifton</persName>.</note></head>
                     <dateline><placeName>Washington</placeName>, <date when="1961-07-27T16:00:00"
-                            >July 27, 1961, 4 p.m.</date></dateline>
+                            calendar="gregorian">July 27, 1961, 4 p.m.</date></dateline>
                     <list type="participants">
                         <head>OTHERS PRESENT</head>
                         <item>General <persName corresp="#p_LGLL1">Lemnitzer</persName></item>
@@ -8996,8 +8998,8 @@
                             >Source: National Defense University, <persName corresp="#p_TMD1"
                                 >Taylor</persName> Papers, 38 500a Air Access. Top
                         Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-09-19">September
-                            19, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-09-19"
+                            calendar="gregorian">September 19, 1961</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Strategic Air Planning and Berlin</item>
@@ -9260,8 +9262,8 @@
                             earlier draft of this memorandum, the fourth, fifth, and sixth
                             paragraphs are based on notes taken by General <persName
                                 corresp="#p_TMD1">Taylor</persName>. (Ibid.)</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-09-20">September
-                            20, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-09-20"
+                            calendar="gregorian">September 20, 1961</date>.</dateline>
                     <list type="participants">
                         <head>OTHERS PRESENT</head>
                         <item>General <persName corresp="#p_LGLL1">Lemnitzer</persName></item>
@@ -9324,8 +9326,8 @@
                             Investigation, who abstained because the subject was outside his
                             jurisdiction. For complete text of <gloss target="#t_NIE1">NIE</gloss>
                             11-8/1-61, see the Supplement.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-09-21">September
-                            21, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-09-21"
+                            calendar="gregorian">September 21, 1961</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_NIE1">NIE</gloss> 11-8/1-61</p>
                     <p rend="center">STRENGTH AND DEPLOYMENT OF SOVIET LONG RANGE BALLISTIC MISSILE
                             FORCES<note n="1" xml:id="d45fn1"><p><gloss target="#t_NIE1">NIE</gloss>
@@ -9683,8 +9685,8 @@
                             Defense Budget <gloss target="#t_FY1">FY</gloss> 63, 1/61-10/61. Top
                             Secret. This draft memorandum was received in the White House shortly
                             after September 23. It is Appendix I to Document 50.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-09-23">September
-                            23, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-09-23"
+                            calendar="gregorian">September 23, 1961</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Recommended Long Range Nuclear Delivery Forces 1963-1967 (C)</item>
@@ -11264,8 +11266,8 @@
                             material as he needs.” The President and his party arrived in Newport,
                             Rhode Island, from New York on September 26 and returned to Washington
                             on October 2.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-09-27">September
-                            27, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-09-27"
+                            calendar="gregorian">September 27, 1961</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_CM1">CM</gloss>-372-61</p>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -11330,8 +11332,8 @@
                                 target="#t_FY1">FY</gloss> 63 1/61-10/61. Secret. This draft
                             memorandum is Appendix II to Document 50, but was circulated in advance
                             of it.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-09-30">September
-                            30, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-09-30"
+                            calendar="gregorian">September 30, 1961</date>.</dateline>
                     <list type="to">
                         <head>SUBJECT</head>
                         <item>Program for Deployment of Nike Zeus</item>
@@ -11450,8 +11452,8 @@
                             Administration, <gloss target="#t_RG1">RG</gloss> 218, <gloss
                                 target="#t_JCS1">JCS</gloss> Records, JMF 2210 (27 Sep 61). Top
                             Secret; Restricted Data.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-10-05">October 5,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-10-05"
+                            calendar="gregorian">October 5, 1961</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_JCSM1">JCSM</gloss>-697-61 </p>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -11714,8 +11716,8 @@
                                 target="#t_DPM1">DPM</gloss>s, see Alain Enthoven and K. Wayne
                             Smith, How Much Is Enough? Shaping the Defense Program, 1961-1969 (New
                             York: Harper and Row, 1971), pp. 53-58.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-10-06">October 6,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-10-06"
+                            calendar="gregorian">October 6, 1961</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Recommended Department of Defense <gloss target="#t_FY1">FY</gloss>'63
@@ -14025,8 +14027,8 @@
                                 <persName>Kennedy</persName> Library, National Security Files,
                             Departments and Agencies Series, Department of Defense Budget 63,
                             1/61-10/61. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-10-07">October 7,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-10-07"
+                            calendar="gregorian">October 7, 1961</date>.</dateline>
                     <p>In a memorandum to you on 16 August 1961<note n="1" xml:id="d51fn1">In this
                             memorandum <persName corresp="#p_MNRS1">McNamara</persName> stated
                             briefly many of the arguments set forth in the memorandum printed here.
@@ -14192,7 +14194,7 @@
                             Director of Strategic Target Planning.</note></head>
                     <dateline><placeName>Washington</placeName>, <date when="1961-10-27"
                             ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            >undated</date>.</dateline>
+                            calendar="gregorian">undated</date>.</dateline>
                     <p rend="center">National Targeting and Attack Policy For General War: Guidance
                         For the Preparation of the Single Integrated Operational Plan (<gloss
                             target="#t_SIOP1">SIOP</gloss>)</p>
@@ -14668,8 +14670,8 @@
                             (National Defense University, <persName corresp="#p_TMD1"
                                 >Taylor</persName> Papers, <gloss target="#t_FY1">FY</gloss> 63
                             Budget #1)</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-10-29">October 29,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-10-29"
+                            calendar="gregorian">October 29, 1961</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Max</hi>:</p>
                     <p>I have given Bob McNamara certain comments on his excellent Memorandum to the
                         President of September 30, 1961,<note n="1" xml:id="d53fn1">Apparent
@@ -15022,8 +15024,8 @@
                             330, <gloss target="#t_OSD1">OSD</gloss> Files: <gloss target="#t_FRC1"
                                 >FRC</gloss> 65 A 3464, Atomic 471.61 29 Aug 61. Top
                         Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-11-17">November
-                            17, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-11-17"
+                            calendar="gregorian">November 17, 1961</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_JCSM1">JCSM</gloss>-802-61</p>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -15214,8 +15216,8 @@
                             except the Assistant Director of the Federal Bureau of Investigation,
                             who abstained because the subject was outside his
                         jurisdiction.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-11-21">November
-                            21, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-11-21"
+                            calendar="gregorian">November 21, 1961</date>.</dateline>
                     <p rend="flushleft">SNIE 11-14-61</p>
                     <p rend="center">THE SOVIET STRATEGIC MILITARY POSTURE, 1961-1967</p>
                     <p rend="center">The Problem</p>
@@ -15750,8 +15752,8 @@
                                 (<persName>Kennedy</persName> Library, National Security Files,
                             Departments and Agencies Series, <gloss target="#t_FY1">FY</gloss> 1963
                             Defense Budget 11/16-12/61)</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-11-22">November
-                            22, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-11-22"
+                            calendar="gregorian">November 22, 1961</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Force Structure and Defense Budget</item>
@@ -16143,8 +16145,8 @@
                                 (<persName>Kennedy</persName> Library, National Security Files,
                             Departments and Agencies Series, <gloss target="#t_FY1">FY</gloss> 1963
                             Defense Budget 11/61-12/61)</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-11-22">November
-                            22, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-11-22"
+                            calendar="gregorian">November 22, 1961</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Nike-Zeus Program, <gloss target="#t_FY1">FY</gloss> 1963
@@ -16229,8 +16231,8 @@
                                 >Robert Kennedy</persName>, Director of the Bureau of the Budget
                                 <persName corresp="#p_BDE1">Bell</persName>, Allen Dulles, and
                             General <persName corresp="#p_TMD1">Taylor</persName>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-11-22">November
-                            22, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-11-22"
+                            calendar="gregorian">November 22, 1961</date>.</dateline>
                     <list type="to">
                         <head>TO</head>
                         <item>The Secretary of State</item>
@@ -16277,8 +16279,8 @@
                             >Source: <persName>Kennedy</persName> Library, National Security Files,
                             Departments and Agencies Series, <gloss target="#t_DOD1">DOD</gloss>
                             Budget 1963 11/61-12/61. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-11-22">November
-                            22, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-11-22"
+                            calendar="gregorian">November 22, 1961</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Support of Conventional Forces in the 1963 Budget</item>
@@ -16405,8 +16407,8 @@
                             <persName corresp="#p_RD3" type="to">Rusk</persName><note n="0"
                             xml:id="d61fn0" type="source">Source: Department of State, Central
                             Files, 711.5/11-2961. Top Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-11-29">November
-                            29, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-11-29"
+                            calendar="gregorian">November 29, 1961</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item><gloss target="#t_FY1">FY</gloss> 1963 Defense Budget</item>
@@ -16448,7 +16450,7 @@
                         <head>Attachment A</head>
                         <note n="2" xml:id="d61fn2">Top Secret. Drafted by Weiss.</note>
                         <dateline><placeName>Washington</placeName>, <date when="1961-11-29"
-                                >November 29, 1961</date>.</dateline>
+                                calendar="gregorian">November 29, 1961</date>.</dateline>
                         <p rend="center"><hi rend="strong">Memorandum for the Record</hi></p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -16538,8 +16540,8 @@
                             recent months” but would need to “undergo many changes of detail before
                             it can hope to meet general approval.” <persName corresp="#p_MGGC2"
                                 >McGhee</persName> asked for comments.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-12-05">December 5,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-12-05"
+                            calendar="gregorian">December 5, 1961</date>.</dateline>
                     <p>This paper was discussed at the Secretary's Policy Planning Meeting on
                         December 12. Most speakers were not identified by name. The “emphasis on
                         less developed areas drew favorable comment.” While the “idea of a viable
@@ -16661,8 +16663,8 @@
                                 <gloss target="#t_DOD1">DOD</gloss>
                             <gloss target="#t_FY1">FY</gloss> 1963 Defense Budget. Top
                             Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-12-09">December 9,
-                            1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-12-09"
+                            calendar="gregorian">December 9, 1961</date>.</dateline>
                     <p>1. The final decisions on the Defense budget are now before you. In making
                         these decisions, you will bear in mind that you are making a choice which
                         will determine expenditures not only in <gloss target="#t_FY1">FY</gloss>
@@ -17193,8 +17195,8 @@
                             desirable in general,” particularly while budget decisions were being
                             made. The memorandum bears <persName corresp="#p_BMG2"
                             >Bundy</persName>'s handwritten approval. (All ibid.)</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-12-18">December
-                            18, 1961</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1961-12-18"
+                            calendar="gregorian">December 18, 1961</date>.</dateline>
                     <list type="to">
                         <head>TO</head>
                         <item>The Secretary of State</item>
@@ -17265,7 +17267,7 @@
                                 <persName corresp="#p_GRL1">Gilpatric</persName> on January
                             9.</note></head>
                     <dateline><placeName>Palm Beach, Florida</placeName>, <date when="1962-01-03"
-                            >January 3, 1962</date>.</dateline>
+                            calendar="gregorian">January 3, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>President's Meeting with <gloss target="#t_JCS1">JCS</gloss> on
@@ -17388,8 +17390,8 @@
                             type="to">McNamara</persName><note n="0" xml:id="d67fn0" type="source"
                             >Source: <persName>Kennedy</persName> Library, President's Office Files,
                             Defense 1/62-3/62. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-01-11">January 11,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-01-11"
+                            calendar="gregorian">January 11, 1962</date>.</dateline>
                     <p>I am not satisfied that the Department of Defense, and in particular the
                         Army, is according the necessary degree of attention and effort to the
                         threat of Communist-directed subversive insurgency and guerrilla warfare,
@@ -17468,8 +17470,8 @@
                             type="source">Source: <persName>Kennedy</persName> Library, National
                             Security Files, Meetings and Memoranda Series, <gloss target="#t_NSAM1"
                                 >NSAM</gloss> 124. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-01-18">January 18,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-01-18"
+                            calendar="gregorian">January 18, 1962</date>.</dateline>
                     <list type="to">
                         <head>TO</head>
                         <item>The Secretary of State</item>
@@ -17567,8 +17569,8 @@
                                 corresp="#p_BMG2">McGeorge Bundy</persName> on January 17. (Ibid.)
                             The other item discussed at this meeting was the military aid
                             program.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-01-18">January 18,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-01-18"
+                            calendar="gregorian">January 18, 1962</date>.</dateline>
                     <p>The President began his general discussion of policy problems by expressing
                         his gratitude to all for their work during 1961. He expressed the hope that
                         all concerned would move ahead in the same spirit of increasing cooperation
@@ -17992,8 +17994,8 @@
                             National Security Action Memoranda, <gloss target="#t_NSAM1"
                                 >NSAM</gloss> 114. Secret. A copy was sent to <persName
                                 corresp="#p_KRW2">Robert Komer</persName>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-02-14">February
-                            14, 1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-02-14"
+                            calendar="gregorian">February 14, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Police Programs</item>
@@ -18076,8 +18078,8 @@
                             State, Special Group (<gloss target="#t_CI1">CI</gloss>) Files: Lot 68 D
                             451, <gloss target="#t_SG1">SG</gloss>(<gloss target="#t_CI1"
                             >CI</gloss>) 1/1-7/31/62.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-02-19">February
-                            19, 1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-02-19"
+                            calendar="gregorian">February 19, 1962</date>.</dateline>
                     <list type="to">
                         <head>TO</head>
                         <item>The Honorable Fowler Hamilton </item>
@@ -18150,8 +18152,8 @@
                             Deputy Director of Intelligence and Research, and <persName
                                 corresp="#p_EA2">Allan Evans</persName>, Deputy Director for
                             Research.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-03-05">March 5,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-03-05"
+                            calendar="gregorian">March 5, 1962</date>.</dateline>
                     <p>In the Basic National Security Policy meeting,<note n="1" xml:id="d73fn1"
                             >Held at Camp David on Saturday, March 3.</note> my major contribution
                         was to pick up Bob Good's statement<note n="2" xml:id="d73fn2"><persName
@@ -18286,8 +18288,8 @@
                             type="source">Source: <persName>Kennedy</persName> Library, National
                             Security Files, Departments and Agencies Series, Department of Defense
                             Special Warfare II 1962-1963. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-03-22">March 22,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-03-22"
+                            calendar="gregorian">March 22, 1962</date>.</dateline>
                     <p>In accordance with General <persName corresp="#p_CCV1">Clifton</persName>'s
                         request, listed below are some of the more important actions taken in recent
                         weeks in the general field of counter-insurgency. There has not been time to
@@ -18509,8 +18511,8 @@
                             xml:id="d75fn0" type="source">Source: Department of State, <gloss
                                 target="#t_SP1">S/P</gloss> Files: Lot 69 D 121, <gloss
                                 target="#t_BNSP1">BNSP</gloss> 3/26/62. Secret.</note></head>
-                    <dateline><placeName>New York</placeName>, <date when="1962-04-09">April 9,
-                            1962</date>.</dateline>
+                    <dateline><placeName>New York</placeName>, <date when="1962-04-09"
+                            calendar="gregorian">April 9, 1962</date>.</dateline>
                     <p><hi rend="smallcaps">Dear <persName corresp="#p_RWW1">Walt</persName></hi>: I
                         have gone over with interest your paper on Basic National Security
                             Policy<note n="1" xml:id="d75fn1">Reference is to the March 26 draft of
@@ -18626,8 +18628,8 @@
                                 Riley</persName>, Director of the Joint Staff. Another copy is in
                             Department of State, <gloss target="#t_SP1">S/P</gloss> Files: Lot 69 D
                             121, <gloss target="#t_BNSP1">BNSP</gloss> 3/26/52.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-04-12">April 12,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-04-12"
+                            calendar="gregorian">April 12, 1962</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_JCSM1">JCSM</gloss>-277-62</p>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -18799,8 +18801,8 @@
                             Department of State, <gloss target="#t_SP1">S/P</gloss> Files: Lot 69 D
                             121, <gloss target="#t_BNSP1">BNSP</gloss> Draft 3/26/62. No
                             classification marking.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-04-13">April 13,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-04-13"
+                            calendar="gregorian">April 13, 1962</date>.</dateline>
                     <p>I have been unconscionably slow in responding to your great draft of <gloss
                             target="#t_BNSP1">BNSP</gloss>.<note n="1" xml:id="d77fn1">Reference is
                             to the March 26 draft; see <ref target="#d70">Document 70</ref>.</note>
@@ -18856,8 +18858,8 @@
                             62). Secret. Enclosed with a note from the Secretaries of the Joint
                             Staff to the <gloss target="#t_JCS1">JCS</gloss> dated April
                         20.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-04-14">April 14,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-04-14"
+                            calendar="gregorian">April 14, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Draft Basic National Security Policy (<gloss target="#t_BNSP1"
@@ -19076,8 +19078,8 @@
                             Department of State, <gloss target="#t_SP1">S/P</gloss> Files: Lot 69 D
                             121, <gloss target="#t_BNSP1">BNSP</gloss> 3/26/62.
                         Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-04-16">April 16,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-04-16"
+                            calendar="gregorian">April 16, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Comments on March 26 Draft <gloss target="#t_BNSP1"
@@ -19280,8 +19282,8 @@
                             xml:id="d80fn0" type="source">Source: National Defense University,
                                 <persName corresp="#p_TMD1">Taylor</persName> Papers, T-138-69.
                             Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-04-23">April 23,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-04-23"
+                            calendar="gregorian">April 23, 1962</date>.</dateline>
                     <p><hi rend="smallcaps">Dear <persName corresp="#p_RWW1"
                         >Walt</persName></hi>:</p>
                     <p>The Easter week end allowed me to re-read the text of your Basic National
@@ -19433,8 +19435,8 @@
                                 corresp="#p_MNRS1">McNamara</persName> delivered a similar address
                             in unclassified form in Ann Arbor, Michigan, on June 16. For text, see
                             Department of State Bulletin, July 9, 1962, p. 64.</note></head>
-                    <dateline><placeName>Athens</placeName>, <date when="1962-05-05">May 5,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Athens</placeName>, <date when="1962-05-05"
+                            calendar="gregorian">May 5, 1962</date>.</dateline>
                     <p>[Here follows an introductory section.]</p>
                     <p rend="flushleft"><hi rend="italic">I. General Nuclear War and Its
                             Deterrence</hi></p>
@@ -19798,8 +19800,8 @@
                             xml:id="d84fn0" type="source">Source: National Defense University,
                                 <persName corresp="#p_TMD1">Taylor</persName> Papers, #11
                             Miscellaneous H. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-05-14">May 14,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-05-14"
+                            calendar="gregorian">May 14, 1962</date>.</dateline>
                     <p><hi rend="smallcaps">Dear <persName corresp="#p_RWW1"
                         >Walt</persName></hi>:</p>
                     <p>I have studied your latest revision of the Basic National Security
@@ -19910,8 +19912,8 @@
                             Department of State, <gloss target="#t_SP1">S/P</gloss> Files: Lot 69 D
                             121, <gloss target="#t_BNSP1">BNSP</gloss> 3/26/62.
                         Secret.</note></head>
-                    <dateline><placeName>Belgrade</placeName>, <date when="1962-05-15">May 15,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Belgrade</placeName>, <date when="1962-05-15"
+                            calendar="gregorian">May 15, 1962</date>.</dateline>
                     <p>Dear <persName corresp="#p_RWW1">Walt</persName>:</p>
                     <p>I am sorry to have been so long in acknowledging your letter of March 30<note
                             n="1" xml:id="d85fn1">Not found.</note> and in responding to your
@@ -20333,8 +20335,8 @@
                             n="0" xml:id="d86fn0" type="source">Source: National Defense University,
                                 <persName corresp="#p_TMD1">Taylor</persName> Papers, Tactical
                             Nuclear Weapons Study. Top Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-05-23">May 23,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-05-23"
+                            calendar="gregorian">May 23, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>A Study of Requirements for Tactical Nuclear Weapons and Continuation
@@ -20560,8 +20562,8 @@
                             >Source: <persName>Kennedy</persName> Library, National Security Files,
                             Meetings and Memoranda Series, <persName corresp="#p_TMD1">Maxwell D.
                                 Taylor</persName> 5/62. Top Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-05-25">May 25,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-05-25"
+                            calendar="gregorian">May 25, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Study of Requirements for Tactical Atomic Weapons</item>
@@ -20668,8 +20670,8 @@
                             xml:id="d88fn0" type="source">Source: National Defense University,
                                 <persName corresp="#p_TMD1">Taylor</persName> Papers, WYS
                             Chronological File April-June 1962. Top Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-05-31">May 31,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-05-31"
+                            calendar="gregorian">May 31, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item><gloss target="#t_NIE1">NIE</gloss> on Soviet Nuclear Weapons
@@ -20786,8 +20788,8 @@
                                 >FRC</gloss> 66 A 3543, 381 (Relo) <gloss target="#t_BNSP1"
                                 >BNSP</gloss> (31 Mar 62). Secret. A stamped notation on the source
                             text reads: “Dep Sec has seen.”</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-06-05">June 5,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-06-05"
+                            calendar="gregorian">June 5, 1962</date>.</dateline>
                     <p>In your review of the draft of Basic National Security Policy you deleted the
                         bracketed portion of the following passage on page 35, Section D:<note n="1"
                             xml:id="d89fn1">Reference is to the May 7 draft; see <ref target="#d83"
@@ -20899,8 +20901,8 @@
                                 >S</gloss>/<gloss target="#t_S1">S</gloss>-<gloss target="#t_USAF1"
                                 >NSC</gloss> Files: Lot 72 D 316, <gloss target="#t_NSAM1"
                                 >NSAM</gloss> 162. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-06-19">June 19,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-06-19"
+                            calendar="gregorian">June 19, 1962</date>.</dateline>
                     <list type="to">
                         <head>TO</head>
                         <item>The Secretary of State</item>
@@ -21138,8 +21140,8 @@
                                 target="#t_OSD1">OSD</gloss> Files: <gloss target="#t_FRC1"
                                 >FRC</gloss> 65 A 3464, 381 (Relo) <gloss target="#t_BNSP1"
                                 >BNSP</gloss> 31 Mar 62)</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-06-22">June 22,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-06-22"
+                            calendar="gregorian">June 22, 1962</date>.</dateline>
                     <p rend="center">BASIC NATIONAL SECURITY POLICY</p>
                     <p>[Here follow a table of contents and Part One, “Principles and
                         Purposes.”]</p>
@@ -22395,8 +22397,8 @@
                             except the Assistant Director, Federal Bureau of Investigation, who
                             abstained because the subject was outside his
                         jurisdiction.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-07-06">July 6,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-07-06"
+                            calendar="gregorian">July 6, 1962</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_NIE1">NIE</gloss> 11-8-62</p>
                     <p rend="center">SOVIET CAPABILITIES FOR LONG RANGE ATTACK</p>
                     <p rend="center">The Problem</p>
@@ -23143,8 +23145,8 @@
                             80-B01285A, Box 9, Folder 5, <gloss target="#t_DCI1">DCI</gloss>
                             Memoranda 3/1/62-4/30/65. Secret; Eyes Only. Drafted by <persName
                                 corresp="#p_RD3">McCone</persName>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-07-10">July 10,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-07-10"
+                            calendar="gregorian">July 10, 1962</date>.</dateline>
                     <p rend="center">NOTES FOR <gloss target="#t_DCI1">DCI</gloss> ACTION</p>
                     <p>1. At today's meeting<note n="1" xml:id="d98fn1">Reference is to the 502d
                                 <gloss target="#t_NSC1">NSC</gloss> meeting; see <ref target="#d97"
@@ -23213,8 +23215,8 @@
                                 target="#t_S1">S</gloss>-<gloss target="#t_NSC1">NSC</gloss> Files:
                             Lot 70 D 265, Interdepartmental Committee on Police.
                         Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-07-20">July 20,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-07-20"
+                            calendar="gregorian">July 20, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Report of Committee on Police Assistance Programs</item>
@@ -23419,8 +23421,8 @@
                                 <persName corresp="#p_BCE2">Bohlen</persName>, Kohler, <persName
                                 corresp="#p_HRJ1">Hilsman</persName>, General Holtoner, and
                             Garthoff.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-07-28">July 28,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-07-28"
+                            calendar="gregorian">July 28, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Draft Report of Special Inter-departmental Committee on the
@@ -23497,8 +23499,8 @@
                             Secretary of the Special Committee. Copies were sent to <persName
                                 corresp="#p_BCE2">Bohlen</persName>, Kohler, Kitchen, and <persName
                                 corresp="#p_HRJ1">Hilsman</persName>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-07-29">July 29,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-07-29"
+                            calendar="gregorian">July 29, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Report to the President on Implications for U.S. Foreign and Defense
@@ -23565,8 +23567,8 @@
                                 Johnson</persName> to the President. Also attached to the note is a
                             similar memorandum from <persName corresp="#p_TMD1">Taylor</persName> to
                             the President dated June 2.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-07-30">July 30,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-07-30"
+                            calendar="gregorian">July 30, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Counterinsurgency Activities of the United States Government</item>
@@ -23728,8 +23730,8 @@
                             suggested exactly what additional we should do about
                         this.”</note></head>
                     <dateline><placeName>Washington</placeName>, <date when="1962-08-23"
-                            ana="#date_undated-inferred-from-document-content"
-                        >undated</date>.</dateline>
+                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                            >undated</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Report on Implications for U. S. Foreign and Defense Policy of Recent
@@ -25038,8 +25040,8 @@
                             >Source: <persName>Kennedy</persName> Library, National Security Files,
                             Departments and Agencies Series, Department of Defense 7/62-8/62. Top
                             Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-08-23">August 23,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-08-23"
+                            calendar="gregorian">August 23, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Comments on “Report on Implications for U.S. Foreign and Defense
@@ -25137,8 +25139,8 @@
                                 target="#t_S1">S</gloss>/<gloss target="#t_S1">S</gloss>-<gloss
                                 target="#t_NSC1">NSC</gloss> Files: Lot 72 D 316, <gloss
                                 target="#t_NSAM1">NSAM</gloss> 182. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-08-24">August 24,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-08-24"
+                            calendar="gregorian">August 24, 1962</date>.</dateline>
                     <list type="to">
                         <head>TO</head>
                         <item>The Secretary of State</item>
@@ -25275,8 +25277,8 @@
                             Library, National Security Files, Departments and Agencies Series,
                             Defense Budget <gloss target="#t_FY1">FY</gloss> 1964, Miscellaneous
                             Volume I. Top Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-11-14">November
-                            14, 1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-11-14"
+                            calendar="gregorian">November 14, 1962</date>.</dateline>
                     <list>
                         <label>1.</label>
                         <item>For your first look at <persName corresp="#p_MNRS1"
@@ -25391,8 +25393,8 @@
                                 >Eisenhower</persName> and in preparation for the President's news
                             conference on November 20. The subject of the memorandum was not raised
                             at the news conference.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-11-16">November
-                            16, 1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-11-16"
+                            calendar="gregorian">November 16, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>The National Security Council and Supporting Staff Organization</item>
@@ -25610,8 +25612,8 @@
                             Center, <gloss target="#t_RG1">RG</gloss> 330, <gloss target="#t_OSD1"
                                 >OSD</gloss> Files: <gloss target="#t_FRC1">FRC</gloss> 66 A 3542,
                             110.01 Package I—12 Apr 62. Top Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-11-20">November
-                            20, 1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-11-20"
+                            calendar="gregorian">November 20, 1962</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_CM1">CM</gloss>-128-62</p>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -25749,8 +25751,8 @@
                             Security Files, Departments and Agencies Series, <gloss target="#t_FY1"
                                 >FY</gloss> 1964 Defense Budget <ref target="frus1961-63v01">Volume
                                 I</ref>. Top Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-11-20">November
-                            20, 1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-11-20"
+                            calendar="gregorian">November 20, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Ballistic Missile Defense</item>
@@ -26041,8 +26043,8 @@
                             Security Files, Departments and Agencies Series, Defense Budget <gloss
                                 target="#t_FY1">FY</gloss> 1964 <ref target="frus1961-63v01">Volume
                                 I</ref>. Top Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-11-21">November
-                            21, 1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-11-21"
+                            calendar="gregorian">November 21, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Recommended <gloss target="#t_FY1">FY</gloss> 1964-<gloss
@@ -27916,8 +27918,8 @@
                                 target="#t_FY1">FY</gloss> 64 (23 Nov 62). No classification
                             marking. Drafted by <persName corresp="#p_GRL1"
                             >Gilpatric</persName>.</note></head>
-                    <dateline><placeName>Hyannis Port</placeName>, <date when="1962-11-23">November
-                            23, 1962</date>.</dateline>
+                    <dateline><placeName>Hyannis Port</placeName>, <date when="1962-11-23"
+                            calendar="gregorian">November 23, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Second Meeting with the President on <gloss target="#t_FY1">FY</gloss>
@@ -28002,8 +28004,8 @@
                                 >RG</gloss> 330, <gloss target="#t_OSD1">OSD</gloss> Files: <gloss
                                 target="#t_FRC1">FRC</gloss> 66 A 3542, 452 10 Jan 62. Top
                             Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-11-28">November
-                            28, 1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-11-28"
+                            calendar="gregorian">November 28, 1962</date>.</dateline>
                     <p><hi rend="smallcaps">Dear Bob</hi>: I greatly appreciated having the
                         opportunity to review the series of memoranda which you have prepared for
                         the President of the <gloss target="#t_FY1">FY</gloss> ‘64 (and forward)
@@ -28316,8 +28318,8 @@
                             Security Files, Departments and Agencies Series, Defense Budget <gloss
                                 target="#t_FY1">FY</gloss> 1964 Volume I. Top Secret. This
                             memorandum is 70 double-spaced typewritten pages long.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-12-03">December 3,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-12-03"
+                            calendar="gregorian">December 3, 1962</date>.</dateline>
                     <p><note n="1" xml:id="d115fn1">This date is handwritten on the source text.
                             According to a control sheet, the draft memorandum arrived in the White
                             House on December 4.</note></p>
@@ -28586,8 +28588,8 @@
                             Security Files, Departments and Agencies Series, Defense Budget 1964
                             Miscellaneous <ref target="frus1961-63v01">Volume I</ref>.
                             Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-12-03">December 3,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-12-03"
+                            calendar="gregorian">December 3, 1962</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Defense Department Budget for <gloss target="#t_FY1">FY</gloss>
@@ -28795,8 +28797,8 @@
                             Board concurred except the Assistant Director, Federal Bureau of
                             Investigation, who abstained because the subject was outside his
                             jurisdiction.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-12-05">December 5,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-12-05"
+                            calendar="gregorian">December 5, 1962</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_NIE1">NIE</gloss> 11-1-62</p>
                     <p rend="center">CAPABILITIES OF THE SOVIET THEATER FORCES</p>
                     <p rend="center">The Problem</p>
@@ -29058,8 +29060,8 @@
                                 target="#t_RG1">RG</gloss> 330, OSD Files: <gloss target="#t_FRC1"
                                 >FRC</gloss> 65 A 3464, 381 (Relo) <gloss target="#t_BNSP1"
                                 >BNSP</gloss> 31 Mar 62.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-12-07">December 7,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1962-12-07"
+                            calendar="gregorian">December 7, 1962</date>.</dateline>
                     <p rend="flushleft">JSCM-952-62</p>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -29202,8 +29204,8 @@
                             the enclosure to circular airgram CA-6769, December 21. The Ministerial
                             Meeting of the North Atlantic Council was held December 13-15 in
                             Paris.</note></head>
-                    <dateline><placeName>Paris</placeName>, <date when="1962-12-14">December 14,
-                            1962</date>.</dateline>
+                    <dateline><placeName>Paris</placeName>, <date when="1962-12-14"
+                            calendar="gregorian">December 14, 1962</date>.</dateline>
                     <p rend="flushleft">Mr. Chairman, Gentlemen:</p>
                     <p>I appreciate the opportunity to make some remarks today on the relationship
                         among Alliance strategy, defense budgets and military force, and to submit
@@ -29515,8 +29517,8 @@
                             from 10:15 to 10:40 a.m. (<persName>Kennedy</persName> Library) No
                             record of this conference has been found.</note></head>
                     <dateline><placeName>Palm Beach, Florida</placeName>, <date
-                            when="1962-12-27T10:45:00">December 27, 1962, 10:45
-                        a.m.</date></dateline>
+                            when="1962-12-27T10:45:00" calendar="gregorian">December 27, 1962, 10:45
+                            a.m.</date></dateline>
                     <list type="participants">
                         <head>OTHERS PRESENT</head>
                         <item>Secretary <persName corresp="#p_MNRS1">McNamara</persName></item>
@@ -29977,8 +29979,8 @@
                             type="source">Source: <persName>Kennedy</persName> Library, National
                             Security Files, Meetings and Memoranda Series, 508th <gloss
                                 target="#t_NSC1">NSC</gloss> Meeting. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-01-19">January 19,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-01-19"
+                            calendar="gregorian">January 19, 1963</date>.</dateline>
                     <p>In your <gloss target="#t_NSC1">NSC</gloss> talk next Tuesday,<note n="1"
                             xml:id="d124fn1">January 22; see <ref target="#d125">Document
                             125</ref>.</note> could you say a few words about our policy toward the
@@ -30063,8 +30065,8 @@
                                 >Hilsman</persName> Summary of President's Views 1/22/63. The other
                             two are cited in footnotes 2 and 3 below. See the
                         Supplement.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-01-22">January 22,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-01-22"
+                            calendar="gregorian">January 22, 1963</date>.</dateline>
                     <p>There were 57 people attending this meeting, including the Vice President,
                         all of the Joint Chiefs, 7 Department of Defense officials headed by
                             <persName corresp="#p_MNRS1">McNamara</persName>, 16 Department of State
@@ -30394,8 +30396,8 @@
                             U. Alexis Johnson as Chairman of the Special Group (<gloss
                                 target="#t_CI1">CI</gloss>). (Ibid., <gloss target="#t_NSAM1"
                                 >NSAM</gloss> 204)</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-03-14">March 14,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-03-14"
+                            calendar="gregorian">March 14, 1963</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Progress in the Counter-Insurgency Program</item>
@@ -30567,8 +30569,8 @@
                             >Source: <persName>Kennedy</persName> Library, National Security Files,
                             Subjects Series, Missile Gap 2/63-5/63. Secret. Marked “weekend
                             reading.”</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-03-15">March 15,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-03-15"
+                            calendar="gregorian">March 15, 1963</date>.</dateline>
                     <p>This is in response to your request for an addendum to our “Missile Gap”
                         memorandum to the President.<note n="1" xml:id="d129fn1">In a March 4
                             memorandum to the President, <persName corresp="#p_MNRS1"
@@ -30672,8 +30674,8 @@
                             Board concurred except the Assistant Director, Federal Bureau of
                             Investigation, who abstained because the subject was outside his
                             jurisdiction.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-03-22">March 22,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-03-22"
+                            calendar="gregorian">March 22, 1963</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_NIE1">NIE</gloss> 11-4-63</p>
                     <p rend="center">SOVIET MILITARY CAPABILITIES AND POLICIES, 1962-1967</p>
                     <p rend="center">The Problem</p>
@@ -31076,8 +31078,8 @@
                             xml:id="d131fn0" type="source">Source: <persName>Kennedy</persName>
                             Library, National Security Files, Meetings and Memoranda Series,
                             Standing Group Meetings, General 4/63-5/63. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-04-02">April 2,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-04-02"
+                            calendar="gregorian">April 2, 1963</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>A Standing Committee of the National Security Council<note n="1"
@@ -31239,8 +31241,8 @@
                                 target="#t_BNSP1">BNSP</gloss>. Top Secret. Attached to a covering
                             note from Major <persName corresp="#p_SBK1">Smith</persName> to
                                 <persName corresp="#p_NPH1">Nitze</persName>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-04-20">April 20,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-04-20"
+                            calendar="gregorian">April 20, 1963</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Major Military Issues in Basic National Security Policy</item>
@@ -31276,8 +31278,8 @@
                     <frus:attachment>
                         <head>Attachment</head>
                         <note n="3" xml:id="d132fn3">Top Secret.</note>
-                        <dateline><placeName>Washington</placeName>, <date when="1963-04-20">April
-                                20, 1963</date>.</dateline>
+                        <dateline><placeName>Washington</placeName>, <date when="1963-04-20"
+                                calendar="gregorian">April 20, 1963</date>.</dateline>
                         <p rend="center">DRAFT</p>
                         <p rend="center">MEMORANDUM FOR THE SECRETARY OF DEFENSE<note n="4"
                                 xml:id="d132fn4">In his memoirs, Nitze wrote that he sent a
@@ -31520,8 +31522,8 @@
                             Security File, Intelligence File, National Intelligence Estimates.
                             Secret; Restricted Data; Limited Distribution. A table of contents is
                             not printed. For complete text, see the Supplement.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-07-15">July 15,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-07-15"
+                            calendar="gregorian">July 15, 1963</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_NIE1">NIE</gloss> 11-9-63</p>
                     <p>A note on the cover sheet reads in part: “The following intelligence
                         organizations participated in the preparation of this estimate: The Central
@@ -31687,8 +31689,8 @@
                             type="source">Source: Department of State, <gloss target="#t_SP1"
                                 >S/P</gloss> Files: Lot 70 D 199, Basic National Security Policy.
                             Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-07-23">July 23,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-07-23"
+                            calendar="gregorian">July 23, 1963</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item><gloss target="#t_BNSP1">BNSP</gloss></item>
@@ -31807,7 +31809,7 @@
                                 target="frus1961-63v02">Volume II</ref>, 2/28/63-9/9/63. Top
                             Secret.</note></head>
                     <dateline><placeName>Washington</placeName>, <date when="1963-07-24T10:00:00"
-                            >July 24, 1963, 10 a.m.</date></dateline>
+                            calendar="gregorian">July 24, 1963, 10 a.m.</date></dateline>
                     <list type="participants">
                         <head>OTHERS PRESENT</head>
                         <item>General <persName corresp="#p_TMD1">Taylor</persName></item>
@@ -31882,8 +31884,8 @@
                             except the Assistant Director, Federal Bureau of Investigation, who
                             abstained because the subject was outside his
                         jurisdiction.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-07-24">July 24,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-07-24"
+                            calendar="gregorian">July 24, 1963</date>.</dateline>
                     <p rend="flushleft">SNIE 13-2-63</p>
                     <p rend="center"><hi rend="strong">COMMUNIST CHINA'S ADVANCED WEAPONS
                             PROGRAM</hi></p>
@@ -31991,8 +31993,8 @@
                                 corresp="#p_RWW1">Rostow</persName> and all the geographic Assistant
                             Secretaries. A copy was sent to <persName corresp="#p_JUA1">U. Alexis
                                 Johnson</persName>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-07-29">July 29,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-07-29"
+                            calendar="gregorian">July 29, 1963</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Future of Special Group (<gloss target="#t_CI1">CI</gloss>)</item>
@@ -32153,8 +32155,8 @@
                             Departments and Agencies Series, Department of Defense <ref
                                 target="frus1961-63v05">Volume V</ref>, July-November 1963.
                             Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-08-28">August 28,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-08-28"
+                            calendar="gregorian">August 28, 1963</date>.</dateline>
                     <p>Last November at Hyannis Port<note n="1" xml:id="d140fn1">The President was
                             in Hyannis Port for the Thanksgiving weekend, November 21-25, 1962. See
                                 <ref target="#d113">Document 113</ref>.</note> I informed you that
@@ -32230,7 +32232,7 @@
                                 Johnson</persName>. (Ibid., President's Appointment
                         Book)</note></head>
                     <dateline><placeName>Washington</placeName>, <date when="1963-09-12T11:00:00"
-                            >September 12, 1963, 11 a.m.</date></dateline>
+                            calendar="gregorian">September 12, 1963, 11 a.m.</date></dateline>
                     <p rend="flushleft"><hi rend="italic">Report of the Net Evaluation
                             Subcommittee</hi></p>
                     <p>General <persName corresp="#p_TMD1">Taylor</persName> presented the Net
@@ -32622,8 +32624,8 @@
                             Security Files, Subjects Series, Policy Planning 7/63- 9/63, and ibid.,
                             President's Office Files, <persName corresp="#p_RWW1">Rostow</persName>
                             1962-1963.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-09-17">September
-                            17, 1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-09-17"
+                            calendar="gregorian">September 17, 1963</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>State of the World</item>
@@ -32843,8 +32845,8 @@
                             Department, Assistant Secretaries, Bureau chiefs, and the heads or
                             deputies of ACDA, <gloss target="#t_AID1">AID</gloss>, and <gloss
                                 target="#t_USIA1">USIA</gloss>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-09-19">September
-                            19, 1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-09-19"
+                            calendar="gregorian">September 19, 1963</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>State of the World</item>
@@ -32939,8 +32941,8 @@
                             Intelligence Board concurred, except the Assistant Director, Federal
                             Bureau of Investigation, who abstained because the subject was outside
                             his jurisdiction.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-10-18">October 18,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-10-18"
+                            calendar="gregorian">October 18, 1963</date>.</dateline>
                     <p rend="flushleft"><gloss target="#t_NIE1">NIE</gloss> 11-8-63</p>
                     <p rend="center">SOVIET CAPABILITIES FOR STRATEGIC ATTACK</p>
                     <p rend="center">The Problem</p>
@@ -33629,8 +33631,8 @@
                                 >RG</gloss> 218, <gloss target="#t_JCS1">JCS</gloss> Records, <gloss
                                 target="#t_JCS1">JCS</gloss> 1800/774, JMF 7000 (1 Oct
                         63))</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-11-14">November
-                            14, 1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-11-14"
+                            calendar="gregorian">November 14, 1963</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Recommended <gloss target="#t_FY1">FY</gloss> 1965-<gloss
@@ -34282,8 +34284,8 @@
                             xml:id="d147fn0" type="source">Source: <persName>Johnson</persName>
                             Library, National Security File, Agency File, Defense Budget 1965
                             Section 2. Secret.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-11-22">November
-                            22, 1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-11-22"
+                            calendar="gregorian">November 22, 1963</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>22 November Budget Meeting with Secretary <persName corresp="#p_MNRS1"
@@ -34501,8 +34503,8 @@
                                 >Taylor</persName> Papers, Chairman's Staff Group, December 1963.
                             Secret; Eyes Only. Drafted by Major <persName corresp="#p_SBK1"
                                 >Smith</persName>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-12-04">December 4,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-12-04"
+                            calendar="gregorian">December 4, 1963</date>.</dateline>
                     <p>[Here follows discussion of forthcoming travel and scheduled meetings of
                         administration officials, U.S. policy toward Venezuela, and military
                         assistance procedures.]</p>
@@ -34662,8 +34664,8 @@
                                 corresp="#p_BMG2">McGeorge Bundy</persName>, <ref
                                 target="frus1961-63v01">Volume I</ref>. No classification
                             marking.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-12-05">December 5,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-12-05"
+                            calendar="gregorian">December 5, 1963</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Remarks to the National Security Council<note n="1" xml:id="d149fn1"
@@ -34795,7 +34797,7 @@
                             Meetings File. Top Secret. The source text bears no drafting
                             information.</note></head>
                     <dateline><placeName>Washington</placeName>, <date when="1963-12-05T15:00:00"
-                            >December 5, 1963, 3 p.m.</date></dateline>
+                            calendar="gregorian">December 5, 1963, 3 p.m.</date></dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Soviet Military Capabilities</item>
@@ -34888,8 +34890,8 @@
                             Another, almost identical to that printed here, is marked “Final Draft”
                             and is dated November 13. (Department of State, Central Files, DEF 1
                             US)</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-12-06">December 6,
-                            1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-12-06"
+                            calendar="gregorian">December 6, 1963</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Recommended <gloss target="#t_FY1">FY</gloss> 1965-<gloss
@@ -36939,8 +36941,8 @@
                                 target="#t_JCS1">JCS</gloss> 1800/775, JMF 7000 (10 Oct 63) Sec 1) A
                             later draft dated November 15, not identical to that printed here, is in
                             Department of State, Central Files, DEF 1 US.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-12-19">December
-                            19, 1963</date>.</dateline>
+                    <dateline><placeName>Washington</placeName>, <date when="1963-12-19"
+                            calendar="gregorian">December 19, 1963</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Recommended <gloss target="#t_FY1">FY</gloss> 1965-<gloss
@@ -38345,7 +38347,7 @@
                                 corresp="#p_CCV1">Clifton</persName>, and Kermit Gordon, Director of
                             the Bureau of the Budget.</note></head>
                     <dateline><placeName>LBJ Ranch, Texas</placeName>, <date when="1963-12-30"
-                            >December 30, 1963</date>.</dateline>
+                            calendar="gregorian">December 30, 1963</date>.</dateline>
                     <p>The President held a preliminary budget meeting with the Joint Chiefs on
                         November 29, emphasizing the need for economy and for closer supervision of
                         defense contractors. The President agreed to consider reissuing <gloss

@@ -29,13 +29,13 @@
         </rule>
         <rule context="tei:date[@calendar]">
             <assert role="warn"
-                test="tokenize(./@calendar) = ('chinese-era', 'chinese-lunar', 'ethiopian-ge&#8217;ez', 'gregorian', 'haitian-era', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunar', 'masonic-anno-lucis', 'rumi', 'thai-era', 'tibetan-phugpa')"
+                test="tokenize(./@calendar) = ('chinese-era', 'chinese-lunar', 'ethiopian-ge&#8217;ez', 'gregorian', 'haitian-era', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunar', 'masonic-anno-lucis', 'papal-era', 'roman', 'rumi', 'thai-era', 'tibetan-phugpa')"
                     >date/@calendar='<value-of select="@type"/>' is an invalid value. Only the
                 following values are allowed: chinese-era, chinese-lunar, ethiopian-ge&#8217;ez,
                 gregorian, haitian-era, hijri, iranian-persian, japanese-nengō, julian, korean-era,
-                korean-lunar, masonic-anno-lucis, rumi, thai-era, tibetan-phugpa. If you need to add
-                additional calendar value(s), please add to frus.sch, dates-only.sch, and
-                dates-only-initial-review.sch</assert>
+                korean-lunar, masonic-anno-lucis, papal-era, roman, rumi, thai-era, tibetan-phugpa.
+                If you need to add additional calendar value(s), please add to frus.sch,
+                dates-only.sch, and dates-only-initial-review.sch</assert>
         </rule>
     </pattern>
 
@@ -73,8 +73,10 @@
                 contain a date element</assert>
         </rule>
         <!-- Tentative rule -->
+        <!-- <rule
+            context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]"> -->
         <rule
-            context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
+            context="tei:date[ancestor::tei:dateline][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
             <assert
                 test="(@notBefore and @notAfter and @ana) or (@when and @ana) or (@from and @to and @ana)"
                 >Undated documents must be tagged with @when/@ana --OR-- @from/@to/@ana --OR--
@@ -85,8 +87,10 @@
                 fuzzy dateTime range (such as an unknown date/time between two documents or
                 events).</assert>
         </rule>
+        <!-- <rule
+            context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]"> -->
         <rule
-            context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]">
+            context="tei:date[ancestor::tei:dateline][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]">
             <assert
                 test="@when or (@from and @to) or (@notBefore and @notAfter and @ana) or (@when and @notBefore and @notAfter and @ana)"
                 >Supplied dates must have @when (for single dates) or @from/@to (for supplied date
@@ -177,6 +181,7 @@
                 </sqf:add>
             </sqf:fix>
         </rule>
+
         <rule
             context="tei:div[@type eq 'document'][.//tei:dateline[not(ancestor::frus:attachment)]//tei:date[@from or @to or @notBefore or @notAfter or @when]]">
             <let name="date-min"
@@ -241,6 +246,17 @@
                 >@frus:doc-dateTime-max must be castable as dateTime</assert>
             <assert role="error" test="./@frus:doc-dateTime-min">div must have both
                 @frus:doc-dateTime-min and @frus:doc-dateTime-max</assert>
+        </rule>
+    </pattern>
+
+    <!-- Pre-U.S. Independence Dates Check -->
+    <pattern id="date-1776">
+        <title>Pre-U.S. Independence Dates Check</title>
+        <rule context="tei:date[attribute::*]/@when | @from | @to | @notBefore | @notAfter">
+            <let name="year" value="substring(xs:string(.), 1, 4)"/>
+            <assert role="warn" test="xs:numeric($year) >= 1776">For the vast majority of FRUS
+                documents, date attributes should be greater than or equal to the year 1776. (Verify
+                correctness of: <value-of select="."/>)</assert>
         </rule>
     </pattern>
 

@@ -1204,6 +1204,13 @@
                                             value(s) were inferred from nearest dated
                                             siblings</gloss>
                                     </valItem>
+                                    <valItem
+                                        ident="#date_conversion-issue-inferred-from-document-content-and-sibling-dates">
+                                        <gloss>Problems in conversion to Gregorian date value(s)
+                                            necessitated adding @notBefore and @notAfter inferred
+                                            from the content of the document and nearest dated
+                                            siblings</gloss>
+                                    </valItem>
                                     <valItem ident="#date_editorial-correction">
                                         <gloss>The recorded date was determined to be an error by
                                             the FRUS compiler/editor, who indicated the corrected
@@ -1240,6 +1247,18 @@
                                             @notAfter inferred from the content of the document and
                                             nearest dated siblings</gloss>
                                     </valItem>
+                                    <valItem
+                                        ident="#date_imprecise-inferred-from-editorial-annotation">
+                                        <gloss>[Contemporary Volumes] Imprecise date value(s)
+                                            augmented with @notBefore and @notAfter inferred from
+                                            editorial annotations</gloss>
+                                    </valItem>
+                                    <valItem
+                                        ident="#date_imprecise-inferred-from-editorial-consultation">
+                                        <gloss>[Contemporary Volumes] Imprecise date value(s)
+                                            augmented with @notBefore and @notAfter inferred during
+                                            consultation with editor(s)/compiler(s)</gloss>
+                                    </valItem>
                                     <valItem ident="#date_imprecise-inferred-from-outside-research">
                                         <gloss>Imprecise date value(s) augmented with @notBefore and
                                             @notAfter inferred from related sources</gloss>
@@ -1271,6 +1290,18 @@
                                         <gloss>Date value(s) for undated document were inferred from
                                             the content of the scanned version of the original
                                             document</gloss>
+                                    </valItem>
+                                    <valItem
+                                        ident="#date_undated-inferred-from-editorial-annotation">
+                                        <gloss>[Contemporary Volumes] Date value(s) for undated
+                                            document were inferred from editorial
+                                            annotations</gloss>
+                                    </valItem>
+                                    <valItem
+                                        ident="#date_undated-inferred-from-editorial-consultation">
+                                        <gloss>[Contemporary Volumes] Date value(s) for undated
+                                            document were inferred during consultation with
+                                            editor(s)/compiler(s)</gloss>
                                     </valItem>
                                     <valItem ident="#date_undated-inferred-from-outside-research">
                                         <gloss>Date value(s) for undated document were inferred from

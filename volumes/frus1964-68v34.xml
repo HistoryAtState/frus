@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date type="publication-date">1999</date>
+                <date type="publication-date" calendar="gregorian">1999</date>
                 <idno type="dospubno">10615</idno>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13">9780160500770</idno>
@@ -2919,7 +2919,7 @@
                         <pb n="1" xml:id="pg_1" facs="0031"/>
                         <dateline>
                             <placeName>Paris</placeName>, <date when="1966-01-14T20:13:00+00:00"
-                                >January 14, 1966, 2013Z</date>.</dateline>
+                                calendar="gregorian">January 14, 1966, 2013Z</date>.</dateline>
                         <p>
                             <gloss target="#t_Cedto1">Cedto</gloss> 580. Pass <gloss
                                 target="#t_OST1">OST</gloss> for MacLeod, <gloss target="#t_NSF1"
@@ -3034,8 +3034,8 @@
                                 to Washington on June 10.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-06-06T13:01:00">June
-                                6, 1966, 1:01 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1966-06-06T13:01:00"
+                                calendar="gregorian">June 6, 1966, 1:01 p.m.</date>
                         </dateline>
                         <p>
                             <gloss target="#t_Tosec1">Tosec</gloss> 92. For the Secretary from the
@@ -3095,8 +3095,8 @@
                                 copy was sent to Francis Bator.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-06-07T19:30:00">June
-                                7, 1966, 7:30 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1966-06-07T19:30:00"
+                                calendar="gregorian">June 7, 1966, 7:30 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -3200,8 +3200,8 @@
                                 >EUR</gloss>).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-11-07">November 7,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-11-07"
+                                calendar="gregorian">November 7, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Proposals for Scientific and Technological Cooperative Projects
@@ -3385,8 +3385,8 @@
                                 Lot 72 D 316, NSAM 357. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-11-25">November 25,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-11-25"
+                                calendar="gregorian">November 25, 1966</date>.</dateline>
                         <list type="to">
                             <head>TO</head>
                             <item>The Secretary of State</item>
@@ -3441,8 +3441,8 @@
                                 Confidential. Drafted by David Beckler.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-12-02">December 2,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-12-02"
+                                calendar="gregorian">December 2, 1966</date>.</dateline>
                         <list type="to">
                             <head>MEMORANDUM FOR</head>
                             <item>The Secretary of State</item>
@@ -3665,7 +3665,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1967-01-13T20:09:00"
-                                >January 13, 1967, 8:09 p.m.</date>
+                                calendar="gregorian">January 13, 1967, 8:09 p.m.</date>
                         </dateline>
                         <p>118575. Subj: Technological Gap.</p>
                         <list>
@@ -3840,7 +3840,7 @@
                         </head>
                         <dateline>
                             <placeName>Paris</placeName>, <date when="1967-01-25T17:23:00+00:00"
-                                >January 25, 1967, 1723Z</date>.</dateline>
+                                calendar="gregorian">January 25, 1967, 1723Z</date>.</dateline>
                         <p>11144. <gloss target="#t_NATUS1">NATUS</gloss>. BUSEC. Subject:
                             Technological Gap. Ref: State 118575 circular.<note n="2" xml:id="d8fn2">
                                 <ref target="#d7">Document 7</ref>.</note>
@@ -3977,8 +3977,8 @@
                                 Technology, Vol. I [1967], Box 42. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-01-31">January 31,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-01-31"
+                                calendar="gregorian">January 31, 1967</date>.</dateline>
                         <p rend="flushleft">Dear Mr. President:</p>
                         <p>On November 25, 1966, you asked me to chair an Interdepartmental
                             Committee to examine the problem of the “technological gap” between the
@@ -4078,7 +4078,7 @@
                         </head>
                         <dateline>
                             <placeName>Paris</placeName>, <date when="1967-03-01T20:20:00+00:00"
-                                >March 1, 1967, 2020Z</date>.</dateline>
+                                calendar="gregorian">March 1, 1967, 2020Z</date>.</dateline>
                         <p>13261. <gloss target="#t_NATUS1">NATUS</gloss>. Subj: International
                             technological cooperation.</p>
                         <list>
@@ -4226,8 +4226,8 @@
                                 Beckler, and <persName corresp="#p_HDF1">Hornig</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-07-15T13:30:00">July
-                                15, 1967, 1:30 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1967-07-15T13:30:00"
+                                calendar="gregorian">July 15, 1967, 1:30 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -4358,8 +4358,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1967-09-18T17:30:00"
-                                type="conversation-or-meeting-date">September 18, 1967, 5:30
-                                p.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">September
+                                18, 1967, 5:30 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -4418,8 +4418,8 @@
                         </head>
                         <dateline>
                             <placeName>Brussels</placeName>, <date when="1967-12-11T09:30:00"
-                                type="conversation-or-meeting-date">December 11, 1967, 9:30
-                                a.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">December
+                                11, 1967, 9:30 a.m.</date>
                         </dateline>
                         <p rend="flushleft">S/MS/2</p>
                         <p rend="center">UNITED STATES DELEGATION TO THE FORTIETH MINISTERIAL
@@ -4484,8 +4484,8 @@
                                 Box 4. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-12-22">December 22,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-12-22"
+                                calendar="gregorian">December 22, 1967</date>.</dateline>
                         <p>Attached is a report of the “Technological Gap Committee”<note n="2"
                                 xml:id="d14fn2">Not attached; see <ref target="#d15">Document
                                     15</ref>.</note> you asked me to chair just a year ago. Your
@@ -4545,8 +4545,8 @@
                                     target="#d14">Document 14</ref>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-12-22">December 22,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-12-22"
+                                calendar="gregorian">December 22, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Principal Points Raised in Report on the Technological Gap</item>
@@ -4864,7 +4864,7 @@
                         </head>
                         <dateline>
                             <placeName>Paris</placeName>, <date when="1968-03-12T19:09:00+00:00"
-                                >March 12, 1968, 1909Z</date>.</dateline>
+                                calendar="gregorian">March 12, 1968, 1909Z</date>.</dateline>
                         <p>11403. <gloss target="#t_Cedto1">CEDTO</gloss>. Subject: Science
                             Ministerial Discussion—Technological Gaps.</p>
                         <list>
@@ -4995,8 +4995,8 @@
                                 Box 6. Confidential. Drafted by Beckler.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-05-02">May 2,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-05-02"
+                                calendar="gregorian">May 2, 1968</date>.</dateline>
                         <p>Attached is a final report of the interagency committee on the
                             “technological gap” between the U.S. and Western Europe<note n="2"
                                 xml:id="d17fn2">Attachment A, not attached. The final technology gap
@@ -5117,8 +5117,8 @@
                                 action was required.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-06-13">June 13,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-06-13"
+                                calendar="gregorian">June 13, 1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Interdepartmental Committee Report on the Technological Gap</item>
@@ -5223,8 +5223,8 @@
                                     corresp="#p_TPH1">Trezise</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Paris</placeName>, <date when="1968-07-15">July 15,
-                                1968</date>.</dateline>
+                            <placeName>Paris</placeName>, <date when="1968-07-15"
+                                calendar="gregorian">July 15, 1968</date>.</dateline>
                         <p rend="flushleft">
                             <gloss target="#t_Cedto1">CEDTO</gloss> A–897</p>
                         <list type="subject">
@@ -5285,8 +5285,8 @@
                                     corresp="#p_PEL1">Piret</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Paris</placeName>, <date when="1968-08-05">August 5,
-                                1968</date>.</dateline>
+                            <placeName>Paris</placeName>, <date when="1968-08-05"
+                                calendar="gregorian">August 5, 1968</date>.</dateline>
                         <p rend="flushleft">A–2504</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -5422,8 +5422,8 @@
                                 House Central Files, FG 260. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-01-21">January 21,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-01-21"
+                                calendar="gregorian">January 21, 1964</date>.</dateline>
                         <p rend="flushleft">Dear Mr. President:</p>
                         <p>With reference to our conversation at the reception following the
                             dedication of the National Geographic Society's new building on January
@@ -5508,8 +5508,8 @@
                                 Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-01-31">January 31,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-01-31"
+                                calendar="gregorian">January 31, 1964</date>.</dateline>
                         <p rend="flushleft">Dear Mr. President:</p>
                         <p>The attached report<note n="2" xml:id="d22fn2">Not attached. A copy is
                                 ibid.</note> on possible projects for substantive cooperation with
@@ -5732,8 +5732,8 @@
                                 iii)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-01-30">January 30,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-01-30"
+                                calendar="gregorian">January 30, 1964</date>.</dateline>
                         <p rend="center">[Here follow a title page, table of contents, two-page
                             preface, and a list of Committee members.]</p>
                         <p rend="center">PLANNING IMPLICATIONS FOR NATIONAL SECURITY OF OUTER SPACE
@@ -5961,8 +5961,8 @@
                                 classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-02-04">February 4,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-02-04"
+                                calendar="gregorian">February 4, 1964</date>.</dateline>
                         <p rend="flushleft">Mac—</p>
                         <list>
                             <label>(1)</label>
@@ -6028,8 +6028,8 @@
                                     >Rusk</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-03-03">March 3,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-03-03"
+                                calendar="gregorian">March 3, 1964</date>.</dateline>
                         <list type="to">
                             <head>MEMORANDUM FOR</head>
                             <item>The Administrator, National Aeronautics and Space
@@ -6094,8 +6094,8 @@
                                     >USSR</gloss> #2, Box 14. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-04-30">April 30,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-04-30"
+                                calendar="gregorian">April 30, 1964</date>.</dateline>
                         <p rend="flushleft">Dear Mr. President:</p>
                         <p>Your National Security Action Memorandum No. 285, endorsing our report on
                             cooperation with the <gloss target="#t_USSR1">USSR</gloss> on outer
@@ -6144,8 +6144,8 @@
                                     >USSR</gloss> #2. Secret; No Foreign Dissem.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-07-15">July 15,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-07-15"
+                                calendar="gregorian">July 15, 1964</date>.</dateline>
                         <p rend="flushleft">INR–24</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -6349,8 +6349,8 @@
                                     <persName corresp="#p_HWA2">Harriman</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-12-08">December 8,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-12-08"
+                                calendar="gregorian">December 8, 1964</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Adequacy of US Space Programs</item>
@@ -6475,8 +6475,8 @@
                                     <persName corresp="#p_RD3">Rusk</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-12-18">December 18,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-12-18"
+                                calendar="gregorian">December 18, 1964</date>.</dateline>
                         <p rend="flushleft">Dear Mr. President:</p>
                         <p>This letter is to review developments in our bilateral cooperation with
                             the Soviet Union in outer space matters since my letter to you of June
@@ -6669,8 +6669,8 @@
                                 Space Council,” May 3, 1966; ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-03-01">March 1,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-03-01"
+                                calendar="gregorian">March 1, 1965</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Space Council Meetings</item>
@@ -6807,8 +6807,8 @@
                                 Files, 1964–66, SP 1 US. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-04-26">April 26,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-04-26"
+                                calendar="gregorian">April 26, 1965</date>.</dateline>
                         <p rend="flushleft">
                             <hi rend="italic">Department of State Responses to Questions Raised by
                                 the Vice President after the Meeting of the National Aeronautics and
@@ -6970,8 +6970,8 @@
                                 Secretary saw the memorandum.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-07-29">July 29,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-07-29"
+                                calendar="gregorian">July 29, 1965</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>U.S.-West German Cooperative Satellite Project</item>
@@ -7021,7 +7021,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1965-08-26T19:30:00"
-                                >August 26, 1965, 7:30 p.m.</date>
+                                calendar="gregorian">August 26, 1965, 7:30 p.m.</date>
                         </dateline>
                         <p>301. President announced August 25 that <gloss target="#t_NASA1"
                                 >NASA</gloss> Administrator <persName corresp="#p_WJE1"
@@ -7091,8 +7091,8 @@
                                 at 9:51 a.m.</note>
                         </head>
                         <dateline>
-                            <placeName>Moscow</placeName>, <date when="1965-09-08">September 8,
-                                1965</date>.</dateline>
+                            <placeName>Moscow</placeName>, <date when="1965-09-08"
+                                calendar="gregorian">September 8, 1965</date>.</dateline>
                         <p>746. Embtel 606.<note n="2" xml:id="d35fn2">Dated August 27, 1965.
                                 (Ibid., SP 10 US)</note> Following is translation of <persName
                                 corresp="#p_KMV2">Keldysh</persName> reply to <persName
@@ -7143,7 +7143,7 @@
                         </head>
                         <dateline>
                             <placeName>Paris</placeName>, <date when="1965-12-23T19:40:00+00:00"
-                                >December 23, 1965, 1940Z</date>.</dateline>
+                                calendar="gregorian">December 23, 1965, 1940Z</date>.</dateline>
                         <p>3605. <gloss target="#t_NATUS1">NATUS</gloss>.</p>
                         <list>
                             <label>1.</label>
@@ -7322,7 +7322,7 @@
                         </head>
                         <dateline>
                             <placeName>Paris</placeName>, <date when="1965-12-28T16:30:00+00:00"
-                                >December 28, 1965, 1630Z</date>.</dateline>
+                                calendar="gregorian">December 28, 1965, 1630Z</date>.</dateline>
                         <p>3636. Ref: <gloss target="#t_NATUS1">NATUS</gloss> 3605.<note n="2"
                                 xml:id="d37fn2">
                                 <ref target="#d36">Document 36</ref>.</note>
@@ -7384,7 +7384,7 @@
                         </head>
                         <dateline>
                             <placeName>Paris</placeName>, <date when="1965-12-30T19:10:00+00:00"
-                                >December 30, 1965, 1910Z</date>.</dateline>
+                                calendar="gregorian">December 30, 1965, 1910Z</date>.</dateline>
                         <p>3682. Ref: <gloss target="#t_NATUS1">NATUS</gloss> 3605, Dec 23, 1965;
                             Embtel 3636, Dec 28, 1965;<note n="2" xml:id="d38fn2">
                                 <ref target="#d36">Documents 36</ref> and <ref target="#d37"
@@ -7503,8 +7503,8 @@
                                     >EUR</gloss>/RPE) in draft.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-02-09">February 9,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-02-09"
+                                calendar="gregorian">February 9, 1966</date>.</dateline>
                         <p rend="flushleft">Dear Mr. <persName corresp="#p_FAW2"
                             >Frutkin</persName>:</p>
                         <p>The following reaffirms our agreed understanding as to the guidelines
@@ -7706,8 +7706,8 @@
                                     >S/P</gloss>) on March 25.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-03-23">March 23,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-03-23"
+                                calendar="gregorian">March 23, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>International Space Cooperation</item>
@@ -7822,8 +7822,8 @@
                                     target="#t_SCI1">SCI</gloss>) on April 5.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-03-29">March 29,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-03-29"
+                                calendar="gregorian">March 29, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Meeting in the Space Council Office 4:00 p.m., March 29,
@@ -7994,7 +7994,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1966-04-20T17:17:00"
-                                >April 20, 1966, 5:17 p.m.</date>
+                                calendar="gregorian">April 20, 1966, 5:17 p.m.</date>
                         </dateline>
                         <p>1919. 1. Department concerned about speculation that future of <gloss
                                 target="#t_ELDO1">ELDO</gloss> is uncertain. We see advantages in
@@ -8074,8 +8074,8 @@
                                     target="#t_EUR1">EUR</gloss>/RPE).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-05-12">May 12,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-05-12"
+                                calendar="gregorian">May 12, 1966</date>.</dateline>
                         <p rend="flushleft">Dear Jim:</p>
                         <p>I have given considerable thought to the proper timing for a visit by you
                             to Europe to discuss larger space cooperation.<note n="2"
@@ -8159,8 +8159,8 @@
                                 you should take the initiative in raising it. E.J.S.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-05-16">May 16,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-05-16"
+                                calendar="gregorian">May 16, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Preservation of European Launcher Development Organization (<gloss
@@ -8266,8 +8266,8 @@
                                 Paris, Rome, and The Hague.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-05-24T20:29:00">May
-                                24, 1966, 8:29 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1966-05-24T20:29:00"
+                                calendar="gregorian">May 24, 1966, 8:29 p.m.</date>
                         </dateline>
                         <p>7034. Ref: <gloss target="#t_Deptel1">Deptel</gloss> 6208, April 20
                             repeated Bonn 2771, Brussels 1285, Canberra 875, Paris 5349, Rome 2205,
@@ -8331,8 +8331,8 @@
                                 Belgium.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-06-04T14:17:00">June
-                                4, 1966, 2:17 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1966-06-04T14:17:00"
+                                calendar="gregorian">June 4, 1966, 2:17 p.m.</date>
                         </dateline>
                         <p>
                             <gloss target="#t_Tosec1">Tosec</gloss> 68. FYI. British Embassy
@@ -8417,8 +8417,8 @@
                                 to Bonn, London, Rome, The Hague, and Brussels.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-06-10T18:31:00">June
-                                10, 1966, 6:31 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1966-06-10T18:31:00"
+                                calendar="gregorian">June 10, 1966, 6:31 p.m.</date>
                         </dateline>
                         <p>6606. Subject: <gloss target="#t_ELDO1">ELDO</gloss> Crisis. Ref: <gloss
                                 target="#t_NATUS1">NATUS</gloss> 8588,<note n="2" xml:id="d48fn2"
@@ -8586,8 +8586,8 @@
                                     >Pollack</persName>, June 15; ibid.)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-06-14">June 14,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-06-14"
+                                calendar="gregorian">June 14, 1966</date>.</dateline>
                         <p rend="center">DEPARTMENT OF STATE VIEWS ON THE POST-APOLLO PROGRAM</p>
                         <p>United States scientific and technological achievements have become
                             prominent indices of our international power and standing. Such
@@ -8676,8 +8676,8 @@
                                 memorandum to the Vice President.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-07-21">July 21,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-07-21"
+                                calendar="gregorian">July 21, 1966</date>.</dateline>
                         <p rend="center">US COOPERATION WITH <gloss target="#t_ELDO1">ELDO</gloss>
                         </p>
                         <p rend="center">Background</p>
@@ -8881,8 +8881,8 @@
                                     >SCI</gloss>) on July 21.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-07-24">July 24,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-07-24"
+                                calendar="gregorian">July 24, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>US Cooperation with the European Launcher Development
@@ -8940,8 +8940,8 @@
                                 and Disarmament Agency Foster.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-07-29">July 29,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-07-29"
+                                calendar="gregorian">July 29, 1966</date>.</dateline>
                         <list type="to">
                             <head>TO</head>
                             <item>The Secretary of State</item>
@@ -9126,8 +9126,8 @@
                                 Goals), Box 16. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-09-19">September 19,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-09-19"
+                                calendar="gregorian">September 19, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>A Key Issue—Future Space Goals</item>
@@ -9223,7 +9223,7 @@
                             <placeName>Washington</placeName>, <date notBefore="1966-10-01T00:00:00"
                                 notAfter="1966-10-31T23:59:59"
                                 ana="#date_imprecise-inferred-from-date-rules" when="1966-10"
-                                >October 1966</date>.</dateline>
+                                calendar="gregorian">October 1966</date>.</dateline>
                         <p rend="center">SPACE GOALS AFTER THE LUNAR LANDING</p>
                         <p rend="center">Summary</p>
                         <p>Even before the outcome of the moon race has been decided, we face the
@@ -9351,8 +9351,8 @@
                                     (<persName corresp="#p_PH7">Pollack</persName>).”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-11-25">November 25,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-11-25"
+                                calendar="gregorian">November 25, 1966</date>.</dateline>
                         <p rend="flushleft">Dear Mr. Secretary:</p>
                         <p>I have read with considerable interest the study of space goals as
                             prepared by the State Department.<note n="2" xml:id="d56fn2">Reference
@@ -9401,8 +9401,8 @@
                                 this paper, <ref target="#d56">see Document 56</ref>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-12-02">December 2,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-12-02"
+                                calendar="gregorian">December 2, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Planning Paper Concerning “Space Goals After the Lunar
@@ -9586,7 +9586,7 @@
                         <dateline>
                             <placeName>New York</placeName>, <date from="1967-09-27T20:00:00"
                                 to="1967-09-27T23:00:00" type="conversation-or-meeting-date"
-                                >September 27, 1967, 8–11 p.m.</date>
+                                calendar="gregorian">September 27, 1967, 8–11 p.m.</date>
                         </dateline>
                         <p rend="flushleft">SecDel/MC–7</p>
                         <p rend="center">SECRETARY'S DELEGATION TO THE 22ND UNITED NATIONS GENERAL
@@ -9666,8 +9666,8 @@
                                 Welsh</persName>.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-10-09">October 9,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-10-09"
+                                calendar="gregorian">October 9, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>U.S.-<gloss target="#t_USSR1">USSR</gloss> Space
@@ -9814,8 +9814,8 @@
                                     >Humphrey</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-10-11">October 11,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-10-11"
+                                calendar="gregorian">October 11, 1967</date>.</dateline>
                         <p rend="flushleft">Dear Mr. Secretary:</p>
                         <p>The Vice President has urged me to transmit to you and to Jim Webb the
                             necessity for greater emphasis upon international cooperation in space
@@ -9861,7 +9861,7 @@
                                 notBefore="1964-02-07T00:00:00+01:00"
                                 notAfter="1964-02-10T23:59:59+01:00"
                                 ana="#date_undated-inferred-from-document-content"
-                            >undated</date>.</dateline>
+                                calendar="gregorian">undated</date>.</dateline>
                         <p rend="center">MEETING WITH MEMBERS OF THE EUROPEAN<lb/>CONFERENCE ON
                             SATELLITE COMMUNICATIONS AND THE<lb/>CANADIANS</p>
                         <p rend="center">Rome—February 10, 1964</p>
@@ -10065,8 +10065,8 @@
                                 etc.), Vol. 1 [2 of 2]. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-03-13">March 13,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-03-13"
+                                calendar="gregorian">March 13, 1964</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Procurement of Satellite Communications Services for the National
@@ -10138,8 +10138,8 @@
                                     Beigel</persName> (WE).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-03-16">March 16,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-03-16"
+                                calendar="gregorian">March 16, 1964</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Communication Satellites</item>
@@ -10308,8 +10308,8 @@
                                 etc.), Vol. 1. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-05-13">May 13,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-05-13"
+                                calendar="gregorian">May 13, 1964</date>.</dateline>
                         <p rend="flushleft">Dear Mr. President:</p>
                         <p>I take this opportunity to convey to you my deep concern over recent
                             developments in the Government's program for satellite communications.
@@ -10420,8 +10420,8 @@
                                 Bushong (L) and the E message center was notified.</note>
                         </head>
                         <dateline>
-                            <placeName>Geneva</placeName>, <date when="1964-06-16T13:00:00">June 16,
-                                1964, 1 p.m.</date>
+                            <placeName>Geneva</placeName>, <date when="1964-06-16T13:00:00"
+                                calendar="gregorian">June 16, 1964, 1 p.m.</date>
                         </dateline>
                         <p>2285. Space Communications Talks with Soviets. US group met June 15 with
                             six-man Sov delegation consisting <persName corresp="#p_BAA3"
@@ -10560,8 +10560,8 @@
                                 etc.), Vol. 1 [1 of 2]. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-07-10">July 10,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-07-10"
+                                calendar="gregorian">July 10, 1964</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>
@@ -10678,8 +10678,8 @@
                                 Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-05-07">May 7,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-05-07"
+                                calendar="gregorian">May 7, 1965</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Policy Concerning U.S. Assistance in the Development of Foreign
@@ -10775,8 +10775,8 @@
                                 source text.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-08-25">August 25,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-08-25"
+                                calendar="gregorian">August 25, 1965</date>.</dateline>
                         <p rend="center">POLICY CONCERNING U.S. ASSISTANCE IN THE DEVELOPMENT OF
                             FOREIGN COMMUNICATIONS SATELLITE CAPABILITIES</p>
                         <p rend="flushleft">
@@ -11019,7 +11019,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1965-09-13T17:00:00"
-                                >September 13, 1965, 5 p.m.</date>
+                                calendar="gregorian">September 13, 1965, 5 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -11099,8 +11099,8 @@
                                 and Technology; and the Communications Satellite Corporation.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-09-15">September 15,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-09-15"
+                                calendar="gregorian">September 15, 1965</date>.</dateline>
                         <list type="to">
                             <head>TO</head>
                             <item>Special Assistant to the President for Telecommunications and
@@ -11154,7 +11154,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1965-09-21T10:00:00"
-                                >September 21, 1965, 10 a.m.</date>
+                                calendar="gregorian">September 21, 1965, 10 a.m.</date>
                         </dateline>
                         <p>Recent events indicate that the future of the Communications Satellite
                             Corporation and of United States participation in the development and
@@ -11291,7 +11291,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1965-11-17T15:15:00"
-                                >November 17, 1965, 3:15 p.m.</date>
+                                calendar="gregorian">November 17, 1965, 3:15 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -11377,8 +11377,8 @@
                                 marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-12-22">December 22,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-12-22"
+                                calendar="gregorian">December 22, 1965</date>.</dateline>
                         <p rend="flushleft">Doug—</p>
                         <p>I have been keeping an eye for <persName corresp="#p_BMG2">Mac
                                 Bundy</persName> on the development of <gloss target="#t_COMSAT1"
@@ -11450,8 +11450,8 @@
                                 No. 342, #1, Box 12. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-01-28">January 28,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-01-28"
+                                calendar="gregorian">January 28, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Report of White House Working Group on Communications Satellite
@@ -11612,8 +11612,8 @@
                                     corresp="#p_JCE1">Charles Johnson</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-02-01">February 1,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-02-01"
+                                calendar="gregorian">February 1, 1966</date>.</dateline>
                         <p>Dear Mr. <persName corresp="#p_BMG2">Bundy</persName>:</p>
                         <p>At a recent meeting,<note n="2" xml:id="d80fn2">Not further
                                 identified.</note> it developed that serious concerns exist in
@@ -11723,8 +11723,8 @@
                                 1998), pp. 95–96.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-03-04">March 4,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-03-04"
+                                calendar="gregorian">March 4, 1966</date>.</dateline>
                         <list type="to">
                             <head>TO</head>
                             <item>The Secretary of State</item>
@@ -11848,8 +11848,8 @@
                                 6. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-06-03">June 3,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-06-03"
+                                calendar="gregorian">June 3, 1966</date>.</dateline>
                         <p>There has been a unanimous expression of conclusion by the Interim
                             Committee (the operating management instrument of the International
                             Telecommunications Satellite Consortium—<gloss target="#t_INTELSAT1"
@@ -11893,8 +11893,8 @@
                                         >Hyde</persName>)</hi>
                             </head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date when="1966-06-01">June 1,
-                                    1966.</date>
+                                <placeName>Washington</placeName>, <date when="1966-06-01"
+                                    calendar="gregorian">June 1, 1966.</date>
                             </dateline>
                             <p rend="flushleft">Dear Mr. <persName corresp="#p_HRH1"
                                 >Hyde</persName>:</p>
@@ -11990,8 +11990,8 @@
                                 O'Connell.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-06-04">June 4,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-06-04"
+                                calendar="gregorian">June 4, 1966</date>.</dateline>
                         <p rend="flushleft">Dear General <persName corresp="#p_SAD2"
                                 >Starbird</persName>:</p>
                         <p>National Security Action Memorandum 342 requires that this Department and
@@ -12069,8 +12069,8 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-06-27">June 27,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-06-27"
+                                calendar="gregorian">June 27, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Communication Satellite Earth Station Construction in
@@ -12307,8 +12307,8 @@
                                 Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-07-28T16:00:00">July
-                                28, 1966, 4 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1966-07-28T16:00:00"
+                                calendar="gregorian">July 28, 1966, 4 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -12379,8 +12379,8 @@
                                     >Loy</persName> (E), George (G), and Pattman (L).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-09-03">September 3,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-09-03"
+                                calendar="gregorian">September 3, 1966</date>.</dateline>
                         <p rend="flushleft">Dear Mr. <persName>O'Connell</persName>:</p>
                         <p>At the March 23 meeting of the National Aeronautics and Space Council,
                             the Vice President asked members to examine our objectives <pb n="165"
@@ -12487,8 +12487,8 @@
                                 Drafted by <persName corresp="#p_WEC1">Welsh</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-11-25">November 25,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-11-25"
+                                calendar="gregorian">November 25, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Questions re Communications Satellite Policy</item>
@@ -12545,8 +12545,8 @@
                                 report was transmitted to the White House on January 4, 1967.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-12-31">December 31,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-12-31"
+                                calendar="gregorian">December 31, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Communications Satellite Earth Station Construction in Less
@@ -12739,8 +12739,8 @@
                                 Foreign), #3, Box 12. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-01-14">January 14,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-01-14"
+                                calendar="gregorian">January 14, 1967</date>.</dateline>
                         <list type="to">
                             <head>MEMORANDUM FOR</head>
                             <item>The Secretary of State</item>
@@ -12838,8 +12838,8 @@
                                 Box 6. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-02-17">February 17,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-02-17"
+                                calendar="gregorian">February 17, 1967</date>.</dateline>
                         <p>I submit a proposed draft of the President's 1966 report to the Congress
                             as required by the Communications Satellite Act of 1962.<note n="2"
                                 xml:id="d93fn2">Not found attached; a copy is ibid., White House
@@ -12970,8 +12970,8 @@
                                 Central Files, 1967–69, TEL 6. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-02-21">February 21,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-02-21"
+                                calendar="gregorian">February 21, 1967</date>.</dateline>
                         <p rend="flushleft">Dear Mr. Secretary:</p>
                         <p>Recent analysis of the status of <gloss target="#t_COMSAT1"
                                 >COMSAT</gloss> and of <gloss target="#t_INTELSAT1"
@@ -13131,8 +13131,8 @@
                                 >EUR</gloss>).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-04-24">April 24,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-04-24"
+                                calendar="gregorian">April 24, 1967</date>.</dateline>
                         <p rend="flushleft">Dear Mr. <persName>O'Connell</persName>:</p>
                         <p>The Secretary has asked me to reply to your letter of February 21<note
                                 n="2" xml:id="d95fn2">
@@ -13226,8 +13226,8 @@
                                 Corporation.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-07-12">July 12,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-07-12"
+                                calendar="gregorian">July 12, 1967</date>.</dateline>
                         <list type="to">
                             <head>TO</head>
                             <item>Special Assistant to the President for Telecommunications and
@@ -13397,8 +13397,8 @@
                                 countries.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-08-14">August 14,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-08-14"
+                                calendar="gregorian">August 14, 1967</date>.</dateline>
                         <p>20678. Subject: Presidential Message on Satellite Communications.</p>
                         <list>
                             <label>1.</label>
@@ -13539,8 +13539,8 @@
                                     >Loy</persName> (E). Repeated to Bonn and Paris.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-11-15">November 15,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-11-15"
+                                calendar="gregorian">November 15, 1967</date>.</dateline>
                         <p>69795. Ref. London 3659.<note n="2" xml:id="d98fn2">Dated November 7.
                                 (Ibid.)</note>
                         </p>
@@ -13664,8 +13664,8 @@
                                 Central Files, 1967–69, TEL 6. Secret; No Foreign Dissem.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-03-25">March 25,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-03-25"
+                                calendar="gregorian">March 25, 1968</date>.</dateline>
                         <p rend="flushleft">RSB–46</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -13888,8 +13888,8 @@
                                     target="#t_MINECON1">MINECON</gloss>).</note>
                         </head>
                         <dateline>
-                            <placeName>Paris</placeName>, <date when="1968-05-13">May 13,
-                                1968</date>.</dateline>
+                            <placeName>Paris</placeName>, <date when="1968-05-13"
+                                calendar="gregorian">May 13, 1968</date>.</dateline>
                         <p rend="flushleft">A–2127</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -14054,8 +14054,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-08-13T17:14:00+00:00">August 13, 1968,
-                            1714Z</date>.</dateline>
+                                when="1968-08-13T17:14:00+00:00" calendar="gregorian">August 13,
+                                1968, 1714Z</date>.</dateline>
                         <p>219721. Subject: Soviet International Satellite Communications System
                             Proposal.</p>
                         <list>
@@ -14217,7 +14217,7 @@
                         </head>
                         <dateline>
                             <placeName>Vienna</placeName>, <date when="1968-08-16T16:02:00+00:00"
-                                >August 16, 1968, 1602Z</date>.</dateline>
+                                calendar="gregorian">August 16, 1968, 1602Z</date>.</dateline>
                         <p>6010. Subject: Outer Space Conference (Intersputnik). Ref: State
                                 219721.<note n="2" xml:id="d104fn2">
                                 <ref target="#d103">Document 103</ref>.</note>
@@ -14284,8 +14284,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1968-08-19"
-                                type="conversation-or-meeting-date">August 19,
-                            1968</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">August 19,
+                                1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Intelsat and Intersputnik</item>
@@ -14334,7 +14334,7 @@
                         </head>
                         <dateline>
                             <placeName>Vienna</placeName>, <date when="1968-08-21T16:04:00+00:00"
-                                >August 21, 1968, 1604Z</date>.</dateline>
+                                calendar="gregorian">August 21, 1968, 1604Z</date>.</dateline>
                         <p>6091. Subject: Outer Space Conference. For <gloss target="#t_IO1"
                                 >IO</gloss>/OIC and <gloss target="#t_EUR1">EUR</gloss>.</p>
                         <list>
@@ -14391,8 +14391,8 @@
                                     >Allen</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-09-03">September 3,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-09-03"
+                                calendar="gregorian">September 3, 1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Soviet Intersputnik Proposal</item>
@@ -14480,8 +14480,8 @@
                                 is handwritten on the source text.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-09-27">September 27,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-09-27"
+                                calendar="gregorian">September 27, 1968</date>.</dateline>
                         <p>E—Mr. <persName corresp="#p_SAM4">Solomon</persName>'s underlying action
                                 memorandum<note n="2" xml:id="d108fn2">Printed below.</note>
                             recommends that the United States position on <gloss
@@ -14543,8 +14543,8 @@
                                 <hi rend="strong">Attachment</hi>
                             </head>
                             <dateline>
-                                <placeName>Washington</placeName>, <date when="1968-09-27">September
-                                    27, 1968.</date>
+                                <placeName>Washington</placeName>, <date when="1968-09-27"
+                                    calendar="gregorian">September 27, 1968.</date>
                             </dateline>
                             <p rend="center">Action Memorandum From the Assistant Secretary of State
                                 for Economic Affairs (<persName corresp="#p_SAM4"
@@ -14901,7 +14901,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1964-11-07T17:20:00"
-                                >November 7, 1964, 5:20 p.m.</date>
+                                calendar="gregorian">November 7, 1964, 5:20 p.m.</date>
                         </dateline>
                         <p>3064. Pass Assistant Secretary <persName>Johnson</persName>. In response
                             your request for guidelines for any conversation on SST that may occur
@@ -14959,8 +14959,8 @@
                                     target="#t_FAA1">FAA</gloss>.</note>
                         </head>
                         <dateline>
-                            <placeName>Paris</placeName>, <date when="1964-11-10T18:00:00">November
-                                10, 1964, 6 p.m.</date>
+                            <placeName>Paris</placeName>, <date when="1964-11-10T18:00:00"
+                                calendar="gregorian">November 10, 1964, 6 p.m.</date>
                         </dateline>
                         <p>2868. In conversations with Boyd, Chairman of <gloss target="#t_CAB1"
                                 >CAB</gloss>, and Prill, Asst. Administrator <gloss target="#t_FAA1"
@@ -15010,8 +15010,8 @@
                                 International Security Affairs McNaughton.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-12-05">December 5,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-12-05"
+                                calendar="gregorian">December 5, 1964</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Conversation between French Ambassador Alphand and Pete Quesada on
@@ -15079,8 +15079,8 @@
                                 to Paris.</note>
                         </head>
                         <dateline>
-                            <placeName>London</placeName>, <date when="1965-01-19T17:00:00">January
-                                19, 1965, 5 p.m.</date>
+                            <placeName>London</placeName>, <date when="1965-01-19T17:00:00"
+                                calendar="gregorian">January 19, 1965, 5 p.m.</date>
                         </dateline>
                         <p>3350. Pass personally <persName corresp="#p_HN2">Halaby</persName>,<gloss
                                 target="#t_FAA1">FAA</gloss>. Embtel 3333.<note n="2"
@@ -15187,8 +15187,8 @@
                                 Central Files, 1964–66, AV 12. Secret; Limit Distribution.</note>
                         </head>
                         <dateline>
-                            <placeName>London</placeName>, <date when="1965-01-21T19:00:00">January
-                                21, 1965, 7 p.m.</date>
+                            <placeName>London</placeName>, <date when="1965-01-21T19:00:00"
+                                calendar="gregorian">January 21, 1965, 7 p.m.</date>
                         </dateline>
                         <p>3415. Pass personally <persName corresp="#p_HN2">Halaby</persName>,<gloss
                                 target="#t_FAA1">FAA</gloss>. Embtel 3350 sent Paris 628.<note n="2"
@@ -15273,8 +15273,8 @@
                                 Central Files, 1964–66, AV 12. Secret. Repeated to Paris.</note>
                         </head>
                         <dateline>
-                            <placeName>London</placeName>, <date when="1965-01-22T18:00:00">January
-                                22, 1965, 6 p.m.</date>
+                            <placeName>London</placeName>, <date when="1965-01-22T18:00:00"
+                                calendar="gregorian">January 22, 1965, 6 p.m.</date>
                         </dateline>
                         <p>3443. Pass personally <persName corresp="#p_HN2">Halaby</persName>,<gloss
                                 target="#t_FAA1">FAA</gloss>. Embtels 3415 and 3350.<note n="2"
@@ -15364,8 +15364,8 @@
                                     target="#t_EUR1">EUR</gloss>).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-02-08">February 8,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-02-08"
+                                calendar="gregorian">February 8, 1965</date>.</dateline>
                         <p rend="flushleft">Dear Mr. <persName corresp="#p_HN2"
                             >Halaby</persName>:</p>
                         <p>I refer to the meeting on January 27, 1965, of the Interagency Committee
@@ -15450,8 +15450,8 @@
                                 Paris.</note>
                         </head>
                         <dateline>
-                            <placeName>London</placeName>, <date when="1965-02-17T12:00:00">February
-                                17, 1965, noon</date>.</dateline>
+                            <placeName>London</placeName>, <date when="1965-02-17T12:00:00"
+                                calendar="gregorian">February 17, 1965, noon</date>.</dateline>
                         <p>3959. <gloss target="#t_Deptel1">Deptel</gloss> 4949.<note n="2"
                                 xml:id="d119fn2">Dated February 3. (Ibid.)</note> CIVAIR—Tripartite
                             Meeting on SST. US-<gloss target="#t_UK1">UK</gloss>-French meeting on
@@ -15614,7 +15614,7 @@
                         </head>
                         <dateline>
                             <placeName>London</placeName>, <date when="1965-10-22T19:37:00+00:00"
-                                >October 22, 1965, 1937Z</date>.</dateline>
+                                calendar="gregorian">October 22, 1965, 1937Z</date>.</dateline>
                         <p>1840. Advance indications are that Plowden Report,<note n="2"
                                 xml:id="d121fn2">Not found.</note> which now in revised draft stage,
                             expected to be published latter part November, will make strong
@@ -15686,8 +15686,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1965-10-08"
-                                type="conversation-or-meeting-date">October 8,
-                            1965</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">October 8,
+                                1965</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Proposed U.S. Airworthiness Certification of the Concorde</item>
@@ -15811,8 +15811,8 @@
                                 drafted in reply by AL—Amstutz 2–17–66.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-12-14">December 14,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-12-14"
+                                calendar="gregorian">December 14, 1965</date>.</dateline>
                         <p rend="flushleft">Dear Frank:</p>
                         <p>As you know, there are periodic meetings of the
                             French-Anglo-U.S.-Supersonic Transport (<gloss target="#t_FAUSST1"
@@ -15884,8 +15884,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1966-01-28"
-                                type="conversation-or-meeting-date">January 28,
-                            1966</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">January 28,
+                                1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Visit of Stephen Enke, <gloss target="#t_DOD1">DOD</gloss>, to
@@ -15977,8 +15977,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1966-02-08"
-                                type="conversation-or-meeting-date">February 8,
-                            1966</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">February 8,
+                                1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>The Concorde and the US SST</item>
@@ -16077,8 +16077,8 @@
                                 No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-03-15">March 15,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-03-15"
+                                calendar="gregorian">March 15, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Establishment of National Urgency Position for United States
@@ -16134,8 +16134,8 @@
                                 Files, 1964–66, AV 3. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-04-01">April 1,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-04-01"
+                                calendar="gregorian">April 1, 1966</date>.</dateline>
                         <list type="to">
                             <head>TO</head>
                             <item>The Vice President</item>
@@ -16177,8 +16177,8 @@
                                     Styles</persName> (E/AN).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-03-22">March 22,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-03-22"
+                                calendar="gregorian">March 22, 1968</date>.</dateline>
                         <p rend="flushleft">Dear Mr. Chairman:</p>
                         <p>At our meeting on March 14 concerning the US-Brazil negotiations,<note
                                 n="2" xml:id="d128fn2">The United States and Brazil were negotiating
@@ -16285,8 +16285,8 @@
                                 classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-04-10">April 10,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-04-10"
+                                calendar="gregorian">April 10, 1968</date>.</dateline>
                         <p rend="flushleft">Dear Frank:</p>
                         <p>I think we will need some fairly intensive consultations (including
                             consultations with you), and plenty of careful thought before definitive
@@ -16415,8 +16415,8 @@
                                     Bundy</persName>, 6/1/64–2/9/65, Vols. 5–8. Secret.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-06-22">June 22,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-06-22"
+                                calendar="gregorian">June 22, 1964</date>.</dateline>
                         <p>The Soviet Government agreed today to our proposal that, as an initial
                             step in exploring the possibility of U.S.-Soviet cooperation on methods
                             of desalting sea water, a meeting of U.S. and Soviet representatives
@@ -16507,8 +16507,8 @@
                                 No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-07-09">July 9,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-07-09"
+                                calendar="gregorian">July 9, 1964</date>.</dateline>
                         <p>Next Tuesday<note n="2" xml:id="d132fn2">July 10.</note> I shall begin
                             discussions with the Russians to explore the possibility of cooperation
                             in the development of means for the large scale desalting of water.</p>
@@ -16593,8 +16593,8 @@
                                 marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-07-09">July 9,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-07-09"
+                                calendar="gregorian">July 9, 1964</date>.</dateline>
                         <p rend="flushleft">
                             <hi rend="italic">Conversation with the President, July 9 (45
                                 minutes)</hi>
@@ -16686,8 +16686,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1964-11-02"
-                                type="conversation-or-meeting-date">November 2,
-                            1964</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">November 2,
+                                1964</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Meeting in Myer Feldman's Office re Desalination</item>
@@ -16818,8 +16818,8 @@
                                 483.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-12-09">December 9,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-12-09"
+                                calendar="gregorian">December 9, 1964</date>.</dateline>
                         <p rend="flushleft">Dear <persName corresp="#p_SGT1">Glenn</persName>:</p>
                         <p>It is becoming abundantly clear that foreign interest in U.S. desalting
                             technology is going to mount rapidly in the months ahead as <pb n="243"
@@ -16909,8 +16909,8 @@
                                 Crockett.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-05-18">May 18,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-05-18"
+                                calendar="gregorian">May 18, 1965</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Cooperation in Desalting With Other Countries</item>
@@ -17017,8 +17017,8 @@
                                 Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-08-30">August 30,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-08-30"
+                                calendar="gregorian">August 30, 1965</date>.</dateline>
                         <p rend="flushleft">Mac—</p>
                         <p>It looks as though <gloss target="#t_AEC1">AEC</gloss> and Interior may
                             press for a major program decision so that the U.S. Government may have
@@ -17085,8 +17085,8 @@
                                     corresp="#p_TLET1">Thompson</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-09-03">September 3,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-09-03"
+                                calendar="gregorian">September 3, 1965</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Cooperation with other countries in desalting</item>
@@ -17284,8 +17284,8 @@
                                 Files, FO 7/1–FO 7/5, Box 53. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-09-14">September 14,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-09-14"
+                                calendar="gregorian">September 14, 1965</date>.</dateline>
                         <p>In the proposals for “An Expanded Program of International Cooperation in
                             Desalting,” Secretary <persName corresp="#p_USL1">Udall</persName> and
                             Chairman <persName corresp="#p_SGT1">Seaborg</persName> make several
@@ -17430,8 +17430,8 @@
                                     >Charles Johnson</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-09-21">September 21,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-09-21"
+                                calendar="gregorian">September 21, 1965</date>.</dateline>
                         <p rend="flushleft">Mac—</p>
                         <p>
                             <hi rend="italic">A Middle Course on Desalting</hi>. This issue needs
@@ -17495,8 +17495,8 @@
                                     <persName corresp="#p_KSMJ1">Keeny</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-09-21">September 21,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-09-21"
+                                calendar="gregorian">September 21, 1965</date>.</dateline>
                         <p rend="flushleft">Mac—</p>
                         <p>Here is a draft memorandum that the Bureau of Budget staff has prepared
                             for Charlie to send to Jack Valenti to warn against a foreign aid
@@ -17552,8 +17552,8 @@
                                 document.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-09-23">September 23,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-09-23"
+                                calendar="gregorian">September 23, 1965</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Immediate Next Steps on International Desalting Program</item>
@@ -17760,8 +17760,8 @@
                                     >IO</gloss>).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-10-20">October 20,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-10-20"
+                                calendar="gregorian">October 20, 1965</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Recent Desalting Activities</item>
@@ -17871,8 +17871,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1966-02-16"
-                                type="conversation-or-meeting-date">February 16,
-                            1966</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">February
+                                16, 1966</date>.</dateline>
                         <p>Mr. <persName>Johnson</persName> called Mr. <persName corresp="#p_PH7"
                                 >Pollack</persName> to compare notes re debriefing on Eban
                             conversations with Secretary <persName corresp="#p_RD3">Rusk</persName>
@@ -17987,7 +17987,8 @@
                         </head>
                         <dateline>
                             <placeName>Cambridge</placeName>, <placeName>Massachusetts</placeName>,
-                                <date when="1966-02-28">February 28, 1966</date>.</dateline>
+                                <date when="1966-02-28" calendar="gregorian">February 28,
+                                1966</date>.</dateline>
                         <p rend="flushleft">Dear Mr. President:</p>
                         <p>I believe that your project to develop a nuclear desalting plant jointly
                             with Israel might be exploited to bring nuclear disarmament and possibly
@@ -18096,8 +18097,8 @@
                                 Subject File, Desalting Projects, Vol. I. Secret.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-05-21">May 21,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-05-21"
+                                calendar="gregorian">May 21, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Appointment of Coordinator on Desalting Projects in Israel and the
@@ -18176,8 +18177,8 @@
                                 Subject File, Desalting Projects, Vol. 1. Secret.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-05-30T14:30:00">May
-                                30, 1966, 2:30 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1966-05-30T14:30:00"
+                                calendar="gregorian">May 30, 1966, 2:30 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -18506,8 +18507,8 @@
                                     corresp="#p_JUA1">U. Alexis Johnson</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-06-10">June 10,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-06-10"
+                                calendar="gregorian">June 10, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Water for Peace Program</item>
@@ -18709,8 +18710,8 @@
                                 Subject File, Desalting Projects, Vol. I. Secret.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-08-12">August 12,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-08-12"
+                                calendar="gregorian">August 12, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Next Steps on Israeli Desalting</item>
@@ -18822,8 +18823,8 @@
                                 Central Files, 1964–66, E 11. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-08-31">August 31,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-08-31"
+                                calendar="gregorian">August 31, 1966</date>.</dateline>
                         <p rend="flushleft">Dear Mr. President:</p>
                         <p>We are transmitting to you by separate memorandum designed <pb n="277"
                                 xml:id="pg_277" facs="0307"/>to be made public<note n="2"
@@ -18884,8 +18885,8 @@
                                 classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-09-17">September 17,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-09-17"
+                                calendar="gregorian">September 17, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Water For Peace</item>
@@ -18983,7 +18984,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1966-09-19T09:30:00"
-                                >September 19, 1966, 9:30 a.m.</date>
+                                calendar="gregorian">September 19, 1966, 9:30 a.m.</date>
                         </dateline>
                         <p rend="flushleft">Mr. President:</p>
                         <p>Herewith Commissioner Ramey's response to your invitation to present a
@@ -19077,8 +19078,8 @@
                                 saved a quite substantial international embarrassment.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-10-14">October 14,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-10-14"
+                                calendar="gregorian">October 14, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Water for Peace</item>
@@ -19216,8 +19217,8 @@
                                     target="#t_SCI1">SCI</gloss>)</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-12-06">December 6,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-12-06"
+                                calendar="gregorian">December 6, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>
@@ -19305,8 +19306,8 @@
                                 get to run this?” next to it.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-05-22">May 22,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-05-22"
+                                calendar="gregorian">May 22, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Water for Peace</item>
@@ -19458,8 +19459,8 @@
                                 classification marking. A copy was sent to Bromley Smith.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-06-07">June 7,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-06-07"
+                                calendar="gregorian">June 7, 1967</date>.</dateline>
                         <p rend="flushleft">Mac—</p>
                         <p>This is related to your request for information concerning various plans
                             that have been kicking around in the Executive Branch for improving the
@@ -19518,8 +19519,8 @@
                                     corresp="#p_BFM1">Bator</persName> per our conversation.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-06-13">June 13,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-06-13"
+                                calendar="gregorian">June 13, 1967</date>.</dateline>
                         <p rend="flushleft">Dear <persName corresp="#p_RD3">Dean</persName>:</p>
                         <p>The recent developments in the Middle East prompt me to recall to your
                             attention certain projects which have been under consideration for this
@@ -19621,8 +19622,8 @@
                                 sent to Harold Saunders.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-07-19T19:10:00">July
-                                19, 1967, 7:10 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1967-07-19T19:10:00"
+                                calendar="gregorian">July 19, 1967, 7:10 p.m.</date>
                         </dateline>
                         <p rend="flushleft">Mr. President:</p>
                         <p>Gen. Eisenhower is clearly pushing a Middle East desalinization
@@ -19727,8 +19728,8 @@
                                     >Bundy</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-07-26T15:30:00">July
-                                26, 1967, 3:30 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1967-07-26T15:30:00"
+                                calendar="gregorian">July 26, 1967, 3:30 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -19836,7 +19837,7 @@
                         <dateline>
                             <date when="1967-06-23"
                                 ana="#date_undated-inferred-from-document-content"
-                            >Undated</date>.</dateline>
+                                calendar="gregorian">Undated</date>.</dateline>
                         <p rend="center">A PROPOSAL FOR OUR TIME</p>
                         <p>Attention to the debates in the United Nations since the end of May must
                             convince the observer that an end to the trouble in the Near East is not
@@ -19961,8 +19962,8 @@
                                     <persName>Rostow</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-07-28">July 28,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-07-28"
+                                calendar="gregorian">July 28, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Israeli Desalting Project and Middle East Water</item>
@@ -20132,8 +20133,8 @@
                                 problem after we've talked.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-09-01">September 1,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-09-01"
+                                calendar="gregorian">September 1, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Middle East Water</item>
@@ -20237,8 +20238,8 @@
                                 Subject File, Desalting Projects, Vol. II. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-03-09">March 9,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-03-09"
+                                calendar="gregorian">March 9, 1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Response to Congressional Resolutions on Mid-East Desalting</item>
@@ -20413,8 +20414,8 @@
                                 program.”</note>
                         </head>
                         <dateline>
-                            <placeName>Lisbon</placeName>, <date when="1968-08-28">August 28,
-                                1968</date>.</dateline>
+                            <placeName>Lisbon</placeName>, <date when="1968-08-28"
+                                calendar="gregorian">August 28, 1968</date>.</dateline>
                         <p>I will be in New York on September 9, and expect to meet in Washington
                             during that week or the following one with Messrs. Peterson, MacAvoy and
                             probably Chase<note n="2" xml:id="d172fn2">
@@ -20533,8 +20534,8 @@
                                     corresp="#p_PH7">Pollack</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-11-29">November 29,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-11-29"
+                                calendar="gregorian">November 29, 1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Mr. <persName corresp="#p_WGD1">George D. Woods</persName>'
@@ -20645,8 +20646,8 @@
                                 Exdis.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-12-18">December 18,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-12-18"
+                                calendar="gregorian">December 18, 1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>
@@ -20977,8 +20978,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1964-01-29"
-                                type="conversation-or-meeting-date">January 29,
-                            1964</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">January 29,
+                                1964</date>.</dateline>
                         <p rend="flushleft">US–<gloss target="#t_UK1">UK</gloss> TALKS</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -21190,7 +21191,7 @@
                         </head>
                         <dateline>
                             <placeName>Baghdad</placeName>, <date when="1964-02-07T22:00:00"
-                                >February 7, 1964, 10 p.m.</date>
+                                calendar="gregorian">February 7, 1964, 10 p.m.</date>
                         </dateline>
                         <p>736. Embtel 735.<note n="2" xml:id="d177fn2">Not printed. (Ibid.)</note>
                             <gloss target="#t_UK1">UK</gloss> Ambassador <persName corresp="#p_ASR1"
@@ -21248,7 +21249,7 @@
                         </head>
                         <dateline>
                             <placeName>Jidda</placeName>, <date when="1964-04-12T05:05:00+00:00"
-                                >April 12, 1964, 0505Z</date>.</dateline>
+                                calendar="gregorian">April 12, 1964, 0505Z</date>.</dateline>
                         <p>973. <gloss target="#t_OPEC1">OPEC</gloss>. Tehran's 892 to Dept.<note
                                 n="2" xml:id="d178fn2">Not printed. (Ibid., PET 1–14)</note> During
                             recreational visit by Barger, Pres of Aramco, to Jidda April 10 I asked
@@ -21436,7 +21437,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1964-04-13T16:23:00"
-                                >April 13, 1964, 4:23 p.m.</date>
+                                calendar="gregorian">April 13, 1964, 4:23 p.m.</date>
                         </dateline>
                         <p>489. Embtel 864.<note n="2" xml:id="d179fn2">Not printed. (Ibid.)</note>
                             Department has given considerable thought to problem posed by American
@@ -21554,8 +21555,8 @@
                                 Djakarta and Caracas.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-05-01T20:15:00">May
-                                1, 1964, 8:15 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1964-05-01T20:15:00"
+                                calendar="gregorian">May 1, 1964, 8:15 p.m.</date>
                         </dateline>
                         <p>2037. British Embassy has informed us that according <gloss
                                 target="#t_BP1">BP</gloss> source all <gloss target="#t_OPEC1"
@@ -21594,7 +21595,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1964-08-21T18:53:00"
-                                >August 21, 1964, 6:53 p.m.</date>
+                                calendar="gregorian">August 21, 1964, 6:53 p.m.</date>
                         </dateline>
                         <p>117. <gloss target="#t_Deptel1">Deptel</gloss> 61 Baghdad 67 Tehran rptd
                             London 607; Tehran's 101.<note n="2" xml:id="d181fn2">Neither printed.
@@ -21680,8 +21681,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1964-09-23"
-                                type="conversation-or-meeting-date">September 23,
-                            1964</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">September
+                                23, 1964</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Iraqi Oil Situation</item>
@@ -21798,8 +21799,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1965-03-18"
-                                type="conversation-or-meeting-date">March 18,
-                            1965</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">March 18,
+                                1965</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Syrian Nationalization of <gloss target="#t_SOCONY1"
@@ -21988,7 +21989,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1965-11-24T18:32:00"
-                                >November 24, 1965, 6:32 p.m.</date>
+                                calendar="gregorian">November 24, 1965, 6:32 p.m.</date>
                         </dateline>
                         <p rend="flushleft">CA–5671</p>
                         <list type="subject">
@@ -22063,7 +22064,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1965-12-22T08:45:00"
-                                >December 22, 1965, 8:45 a.m.</date>
+                                calendar="gregorian">December 22, 1965, 8:45 a.m.</date>
                         </dateline>
                         <p rend="center">CA–6447</p>
                         <list type="subject">
@@ -22424,7 +22425,7 @@
                         </head>
                         <dateline>
                             <placeName>Tehran</placeName>, <date when="1966-01-06T13:45:00+00:00"
-                                >January 6, 1966, 1345Z</date>.</dateline>
+                                calendar="gregorian">January 6, 1966, 1345Z</date>.</dateline>
                         <p>981. Sharp Decrease in Iran Oil Offtake. PriMin <persName
                                 corresp="#p_HAA1">Hoveyda</persName> summoned <gloss target="#t_UK1"
                                 >UK</gloss> Ambassador <persName>Wright</persName> and me 6th to
@@ -22494,7 +22495,7 @@
                         </head>
                         <dateline>
                             <placeName>Tehran</placeName>, <date when="1966-01-20T13:25:00+00:00"
-                                >January 20, 1966, 1325Z</date>.</dateline>
+                                calendar="gregorian">January 20, 1966, 1325Z</date>.</dateline>
                         <p>1041. Shah's Pique at Oil Companies. Re Embtel 981.<note n="2"
                                 xml:id="d188fn2">
                                 <ref target="#d187">Document 187</ref>.</note>
@@ -22594,8 +22595,8 @@
                                 Vienna.</note>
                         </head>
                         <dateline>
-                            <placeName>Kuwait</placeName>, <date when="1966-03-14">March 14,
-                                1966</date>.</dateline>
+                            <placeName>Kuwait</placeName>, <date when="1966-03-14"
+                                calendar="gregorian">March 14, 1966</date>.</dateline>
                         <p rend="flushleft">A–229</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -22731,8 +22732,8 @@
                                     target="#t_OPEC1">OPEC</gloss>. Limited Official Use.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-06-10">June 10,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-06-10"
+                                calendar="gregorian">June 10, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Significance of Recent <gloss target="#t_OPEC1">OPEC</gloss>
@@ -22873,7 +22874,7 @@
                         </head>
                         <dateline>
                             <placeName>Tehran</placeName>, <date when="1966-10-25T14:45:00+00:00"
-                                >October 25, 1966, 1445Z</date>.</dateline>
+                                calendar="gregorian">October 25, 1966, 1445Z</date>.</dateline>
                         <p>1860. Iran Oil.</p>
                         <list>
                             <label>1.</label>
@@ -23024,7 +23025,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1966-10-28T21:22:00"
-                                >October 28, 1966, 9:22 p.m.</date>
+                                calendar="gregorian">October 28, 1966, 9:22 p.m.</date>
                         </dateline>
                         <p>75441. Iran Oil.</p>
                         <list>
@@ -23175,8 +23176,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1966-11-03"
-                                type="conversation-or-meeting-date">November 3,
-                            1966</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">November 3,
+                                1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Political Aspects of the Iranian Oil Consortium Problem</item>
@@ -23447,7 +23448,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1966-11-04T18:06:00"
-                                >November 4, 1966, 6:06 p.m.</date>
+                                calendar="gregorian">November 4, 1966, 6:06 p.m.</date>
                         </dateline>
                         <p>79406.</p>
                         <p rend="flushleft">
@@ -23603,7 +23604,7 @@
                         </head>
                         <dateline>
                             <placeName>London</placeName>, <date when="1966-11-22T18:25:00+00:00"
-                                >November 22, 1966, 1825Z</date>.</dateline>
+                                calendar="gregorian">November 22, 1966, 1825Z</date>.</dateline>
                         <p>4274. Subject: Iranian Oil. During conversations in London yesterday,
                             Under Secretary <persName>Rostow</persName> stressed importance our
                             parallel efforts to ensure success of oil talks this week in Iran.<note
@@ -23641,8 +23642,8 @@
                                 text; the telegram was received at 11:11 a.m.</note>
                         </head>
                         <dateline>
-                            <placeName>Cairo</placeName>, <date when="1966-12-16">December 16,
-                                1966</date>.</dateline>
+                            <placeName>Cairo</placeName>, <date when="1966-12-16"
+                                calendar="gregorian">December 16, 1966</date>.</dateline>
                         <p>3385. Subject: <gloss target="#t_IPC1">IPC</gloss> Dispute. Ref: Jidda
                             2307 and Kuwait 638.<note n="2" xml:id="d196fn2">Both dated December 15.
                                 (Ibid.)</note>
@@ -23766,7 +23767,7 @@
                         </head>
                         <dateline>
                             <placeName>Baghdad</placeName>, <date when="1966-12-17T11:10:00+00:00"
-                                >December 17, 1966, 1110Z</date>.</dateline>
+                                calendar="gregorian">December 17, 1966, 1110Z</date>.</dateline>
                         <p>1135. Oil Crisis—consequences for Iraq of prolonged closedown of <gloss
                                 target="#t_IPC1">IPC</gloss>. State 102651.<note n="2"
                                 xml:id="d197fn2">Dated December 14. (Ibid., PET 15–2 SYR)</note>
@@ -23951,7 +23952,7 @@
                         </head>
                         <dateline>
                             <placeName>Dhahran</placeName>, <date when="1966-12-19T09:45:00+00:00"
-                                >December 19, 1966, 0945Z</date>.</dateline>
+                                calendar="gregorian">December 19, 1966, 0945Z</date>.</dateline>
                         <p>397. Iran Oil.</p>
                         <list>
                             <label>1.</label>
@@ -24025,8 +24026,8 @@
                         </head>
                         <dateline>
                             <placeName>Kuwait City</placeName>, <date
-                                when="1966-12-24T06:15:00+00:00">December 24, 1966,
-                            0615Z</date>.</dateline>
+                                when="1966-12-24T06:15:00+00:00" calendar="gregorian">December 24,
+                                1966, 0615Z</date>.</dateline>
                         <p>662. Ref: Kuwait A–170, Dec 8, 1966; Tehran 2619, Dec 21.<note n="2"
                                 xml:id="d199fn2">Neither printed. (Ibid., PET 2 KUW and PET 6 IRAN,
                                 respectively)</note> Protect source and limit use of substance:</p>
@@ -24059,7 +24060,7 @@
                         </head>
                         <dateline>
                             <placeName>Damascus</placeName>, <date when="1967-01-12T14:40:00+00:00"
-                                >January 12, 1967, 1440Z</date>.</dateline>
+                                calendar="gregorian">January 12, 1967, 1440Z</date>.</dateline>
                         <p>809. Ref: Damascus 806.<note n="2" xml:id="d200fn2">Dated January 10.
                                 (Ibid.)</note> Subj: <gloss target="#t_IPC1">IPC</gloss>
                             Situation.</p>
@@ -24135,7 +24136,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1967-01-25T15:05:00"
-                                >January 25, 1967, 3:05 p.m.</date>
+                                calendar="gregorian">January 25, 1967, 3:05 p.m.</date>
                         </dateline>
                         <p>124921. Ref: Baghdad's 1304.<note n="2" xml:id="d201fn2">Dated January
                                 23. (Ibid.)</note>
@@ -24290,8 +24291,8 @@
                                     Davies</persName>).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-02-01">February 1,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-02-01"
+                                calendar="gregorian">February 1, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Status of Iraq Petroleum Company dispute</item>
@@ -24377,7 +24378,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1967-03-03"
-                                type="conversation-or-meeting-date">March 3, 1967</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">March 3,
+                                1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Iranian Consortium Exports</item>
@@ -24476,8 +24478,8 @@
                                 you have seen it.”</note>
                         </head>
                         <dateline>
-                            <placeName>Tehran</placeName>, <date when="1967-03-16">March 16,
-                                1967</date>.</dateline>
+                            <placeName>Tehran</placeName>, <date when="1967-03-16"
+                                calendar="gregorian">March 16, 1967</date>.</dateline>
                         <p rend="flushleft">Dear Ted:</p>
                         <p>
                             <persName corresp="#p_OJG1">John Oliver</persName>'s Memcon of Sir
@@ -24579,8 +24581,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1967-03-22"
-                                type="conversation-or-meeting-date">March 22,
-                            1967</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">March 22,
+                                1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Response to British Ambassador's Representation to the Secretary
@@ -24708,8 +24710,8 @@
                                 Files, 1967–69, PET 6 IRAQ. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-08-11">August 11,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-08-11"
+                                calendar="gregorian">August 11, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>New Iraqi Oil Legislation Finally Deprives <gloss target="#t_IPC1"
@@ -24834,8 +24836,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1967-08-23T11:30:00"
-                                type="conversation-or-meeting-date">August 23, 1967, 11:30
-                                a.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">August 23,
+                                1967, 11:30 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -24901,8 +24903,8 @@
                                 Controlled Dissem.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-08-31">August 31,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-08-31"
+                                calendar="gregorian">August 31, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Algeria Nationalizes Esso and Mobil Affiliates</item>
@@ -24967,8 +24969,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1967-09-25"
-                                type="conversation-or-meeting-date">September 25,
-                            1967</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">September
+                                25, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>United States Government note to the Government of Algeria on the
@@ -25076,8 +25078,8 @@
                                 >Oliver</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-10-12">October 12,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-10-12"
+                                calendar="gregorian">October 12, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Iranian Oil Production</item>
@@ -25259,7 +25261,7 @@
                         </head>
                         <dateline>
                             <placeName>Tehran</placeName>, <date when="1967-10-31T07:55:00+00:00"
-                                >October 31, 1967, 0755Z</date>.</dateline>
+                                calendar="gregorian">October 31, 1967, 0755Z</date>.</dateline>
                         <p>1911. Iran Oil.</p>
                         <list>
                             <label>1.</label>
@@ -25310,8 +25312,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1967-11-01"
-                                type="conversation-or-meeting-date">November 1,
-                            1967</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">November 1,
+                                1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Iranian Oil</item>
@@ -25467,7 +25469,7 @@
                         </head>
                         <dateline>
                             <placeName>Tehran</placeName>, <date when="1967-11-22T15:30:00+00:00"
-                                >November 22, 1967, 1530Z</date>.</dateline>
+                                calendar="gregorian">November 22, 1967, 1530Z</date>.</dateline>
                         <p>2249. Iranian Oil.</p>
                         <list>
                             <label>1.</label>
@@ -25567,7 +25569,7 @@
                         </head>
                         <dateline>
                             <placeName>Tehran</placeName>, <date when="1967-12-29T08:24:00+00:00"
-                                >December 29, 1967, 0824Z</date>.</dateline>
+                                calendar="gregorian">December 29, 1967, 0824Z</date>.</dateline>
                         <p>2702. Ref: Tehran 2701.<note n="2" xml:id="d216fn2">Not printed.
                                 (Ibid.)</note> Iranian Oil.</p>
                         <list>
@@ -25714,7 +25716,7 @@
                         </head>
                         <dateline>
                             <placeName>Tehran</placeName>, <date when="1968-02-23T09:40:00+00:00"
-                                >February 23, 1968, 0940Z</date>.</dateline>
+                                calendar="gregorian">February 23, 1968, 0940Z</date>.</dateline>
                         <p>3441. Subj: Iran Oil. Ref: London 6620,<note n="2" xml:id="d217fn2">Dated
                                 February 21. (Ibid.)</note> 6655.<note n="3" xml:id="d217fn3">Dated
                                 February 22. (Ibid.)</note>
@@ -25814,8 +25816,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-02-29T00:25:00+00:00">February 29, 1968,
-                            0025Z</date>.</dateline>
+                                when="1968-02-29T00:25:00+00:00" calendar="gregorian">February 29,
+                                1968, 0025Z</date>.</dateline>
                         <p>122201. Subject: Iranian Oil. Ref: Tehran's 3441.<note n="2"
                                 xml:id="d218fn2">
                                 <ref target="#d217">Document 217</ref>.</note>
@@ -25915,7 +25917,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1968-03-06"
-                                type="conversation-or-meeting-date">March 6, 1968</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">March 6,
+                                1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Iranian Oil Situation</item>
@@ -26099,8 +26102,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-03-30T00:49:00+00:00">March 30, 1968,
-                            0049Z</date>.</dateline>
+                                when="1968-03-30T00:49:00+00:00" calendar="gregorian">March 30,
+                                1968, 0049Z</date>.</dateline>
                         <p>138990. 1. In a meeting with top executives of Esso, Mobil, Standard Oil
                             of California, Texaco, Gulf and Iricon (morning March 28) Undersec
                                 <persName>Rostow</persName> said <gloss target="#t_USG1">USG</gloss>
@@ -26236,7 +26239,7 @@
                         </head>
                         <dateline>
                             <placeName>Tehran</placeName>, <date when="1968-04-23T10:05:00+00:00"
-                                >April 23, 1968, 1005Z</date>.</dateline>
+                                calendar="gregorian">April 23, 1968, 1005Z</date>.</dateline>
                         <p>4304. Iran Oil. Ref: Tehran 4300.<note n="2" xml:id="d221fn2">Dated April
                                 23. (Ibid.)</note>
                         </p>
@@ -26290,8 +26293,8 @@
                                 Confidential. Drafted by D. Newton.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-08-01">August 1,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-08-01"
+                                calendar="gregorian">August 1, 1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Slow Start for Organization of Arab Petroleum Exporting Countries
@@ -26341,7 +26344,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1968-10-08"
-                                type="conversation-or-meeting-date">October 8, 1968</date>. </dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">October 8,
+                                1968</date>. </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>
@@ -26412,8 +26416,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-10-15T23:46:00+00:00">October 15, 1968,
-                            2346Z</date>.</dateline>
+                                when="1968-10-15T23:46:00+00:00" calendar="gregorian">October 15,
+                                1968, 2346Z</date>.</dateline>
                         <p>255853. From Under Secretary <persName>Rostow</persName>.</p>
                         <list>
                             <label>1.</label>
@@ -26462,7 +26466,7 @@
                         </head>
                         <dateline>
                             <placeName>Jidda</placeName>, <date when="1968-10-29T13:15:00+00:00"
-                                >October 29, 1968, 1315Z</date>.</dateline>
+                                calendar="gregorian">October 29, 1968, 1315Z</date>.</dateline>
                         <p>5776. For Under Secretary <persName>Rostow</persName>. State 255853,<note
                                 n="2" xml:id="d225fn2">
                                 <ref target="#d224">Document 224</ref>.</note> 260750;<note n="3"
@@ -26536,8 +26540,8 @@
                                 Controlled Dissem; No Dissem Abroad; Limdis.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-11-07">November 7,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-11-07"
+                                calendar="gregorian">November 7, 1968</date>.</dateline>
                         <p rend="flushleft">RNA–34</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -26627,8 +26631,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1968-12-06"
-                                type="conversation-or-meeting-date">December 6,
-                            1968</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">December 6,
+                                1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Oil Matters (Part 4 of 4)</item>
@@ -26739,8 +26743,8 @@
                                 Akins (E/OR/FSE).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-05-23">May 23,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-05-23"
+                                calendar="gregorian">May 23, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>FSE Meeting with Department of Interior Officials on Possible
@@ -26961,8 +26965,8 @@
                                 From—.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-05-24">May 24,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-05-24"
+                                calendar="gregorian">May 24, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Conversation with <gloss target="#t_ARAMCO1">Aramco</gloss>
@@ -27012,7 +27016,7 @@
                         </head>
                         <dateline>
                             <placeName>London</placeName>, <date when="1967-06-03T11:40:00+00:00"
-                                >June 3, 1967, 1140Z</date>.</dateline>
+                                calendar="gregorian">June 3, 1967, 1140Z</date>.</dateline>
                         <p>10105. Ref: London 10099.<note n="2" xml:id="d230fn2">Not found.</note>
                             Concern about oil supplies mounting here and apparently in continental
                             consumer countries. Gregory (MinPower) told Embassy yesterday that
@@ -27065,8 +27069,8 @@
                                 Consortium in Iran included a number of McCloy's clients.</note>
                         </head>
                         <dateline>
-                            <placeName>New York</placeName>, <date when="1967-06-05">June 5,
-                                1967</date>.</dateline>
+                            <placeName>New York</placeName>, <date when="1967-06-05"
+                                calendar="gregorian">June 5, 1967</date>.</dateline>
                         <p rend="flushleft">Dear <persName corresp="#p_RD3">Dean</persName>:</p>
                         <p>I have just had read to me over the telephone a communication from <gloss
                                 target="#t_ARAMCO1">Aramco</gloss> reporting a conversation which
@@ -27125,7 +27129,7 @@
                         </head>
                         <dateline>
                             <placeName>Baghdad</placeName>, <date when="1967-06-06T21:40:00+00:00"
-                                >June 6, 1967, 2140Z</date>.</dateline>
+                                calendar="gregorian">June 6, 1967, 2140Z</date>.</dateline>
                         <p>2108. 1. According communiquè Oil Ministers' Conference<note n="2"
                                 xml:id="d232fn2">On May 28 the Iraqi Cabinet decided to ban oil
                                 shipments to any country that joined in “Israeli aggression.” The
@@ -27257,8 +27261,8 @@
                                     corresp="#p_OJG1">John Oliver</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>New York</placeName>, <date when="1967-06-08">June 8,
-                                1967</date>.</dateline>
+                            <placeName>New York</placeName>, <date when="1967-06-08"
+                                calendar="gregorian">June 8, 1967</date>.</dateline>
                         <p rend="flushleft">My Dear Mr. <persName corresp="#p_MJC1"
                             >Moore</persName>:</p>
                         <p>We have received word from London that pressures are developing in Europe
@@ -27353,8 +27357,8 @@
                                     (<gloss target="#t_EUR1">EUR</gloss>), and Patman (L/E).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-06-08">June 8,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-06-08"
+                                calendar="gregorian">June 8, 1967</date>.</dateline>
                         <p rend="flushleft">Dear Mr. Secretary:</p>
                         <p>Recent developments affecting the United States access to foreign sources
                             of crude oil have clear implications for the national security.<note
@@ -27408,7 +27412,7 @@
                         </head>
                         <dateline>
                             <placeName>Paris</placeName>, <date when="1967-06-09T16:21:00+00:00"
-                                >June 9, 1967, 1621Z</date>.</dateline>
+                                calendar="gregorian">June 9, 1967, 1621Z</date>.</dateline>
                         <p>20041. Ref: (A) Paris 19995, (B) Paris 20012.<note n="2" xml:id="d236fn2"
                                 >Telegram 19995, June 8, is ibid., PET 12–2 <gloss target="#t_Fr1"
                                     >FR</gloss>; telegram 20012, June 9 is ibid., PET 3 <gloss
@@ -27478,7 +27482,7 @@
                         </head>
                         <dateline>
                             <placeName>Algiers</placeName>, <date when="1967-06-09T22:20:00+00:00"
-                                >June 9, 1967, 2220Z</date>.</dateline>
+                                calendar="gregorian">June 9, 1967, 2220Z</date>.</dateline>
                         <p>4052. Esso Situation.</p>
                         <list>
                             <label>1.</label>
@@ -27548,8 +27552,8 @@
                         </head>
                         <dateline>
                             <placeName>Kuwait City</placeName>, <date
-                                when="1967-06-10T23:25:00+00:00">June 10, 1967,
-                            2325Z</date>.</dateline>
+                                when="1967-06-10T23:25:00+00:00" calendar="gregorian">June 10, 1967,
+                                2325Z</date>.</dateline>
                         <p>1304. Ref: State 210122.<note n="2" xml:id="d238fn2">Not found.</note>
                         </p>
                         <list>
@@ -27624,7 +27628,7 @@
                         </head>
                         <dateline>
                             <placeName>Tripoli</placeName>, <date when="1967-06-11T12:00:00+00:00"
-                                >June 11, 1967, 1200Z</date>.</dateline>
+                                calendar="gregorian">June 11, 1967, 1200Z</date>.</dateline>
                         <p>21. Libyan Oil Sitrep—June 10 and 11.</p>
                         <list>
                             <label>1.</label>
@@ -27775,7 +27779,7 @@
                         </head>
                         <dateline>
                             <placeName>Paris</placeName>, <date when="1967-06-12T22:16:00+00:00"
-                                >June 12, 1967, 2216Z</date>.</dateline>
+                                calendar="gregorian">June 12, 1967, 2216Z</date>.</dateline>
                         <p>20116. <gloss target="#t_Cedto1">CEDTO</gloss>. Subj: <gloss
                                 target="#t_OECD1">OECD</gloss> Oil Committee.</p>
                         <list>
@@ -27890,8 +27894,8 @@
                                     corresp="#p_REVD1">Eugene Rostow</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-06-12">June 12,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-06-12"
+                                calendar="gregorian">June 12, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Walter Levy's Oil Assessment<note n="2" xml:id="d242fn2">This
@@ -27965,7 +27969,7 @@
                         </head>
                         <dateline>
                             <placeName>Tripoli</placeName>, <date when="1967-06-15T19:00:00+00:00"
-                                >June 15, 1967, 1900Z</date>.</dateline>
+                                calendar="gregorian">June 15, 1967, 1900Z</date>.</dateline>
                         <p>138. Subject: Discussion with Libyan Petroleum Minister. During cordial
                             conversation with Econ Counselor and EmbOff morning June 15, Petroleum
                             Minister <persName corresp="#p_MK2">Muusa</persName> made following
@@ -28081,8 +28085,8 @@
                                 Kuwait, Jidda, and Dhahran.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-06-16T11:41:00">June
-                                16, 1967, 11:41 a.m.</date>
+                            <placeName>Washington</placeName>, <date when="1967-06-16T11:41:00"
+                                calendar="gregorian">June 16, 1967, 11:41 a.m.</date>
                         </dateline>
                         <p>211679. Ref: Tripoli 147.<note n="2" xml:id="d244fn2">See <ref
                                     target="#d243fn2">footnote 2, Document 243</ref>.</note> Same
@@ -28132,8 +28136,8 @@
                                 to all other <gloss target="#t_OECD1">OECD</gloss> capitals.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-06-17T17:25:00">June
-                                17, 1967, 5:25 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1967-06-17T17:25:00"
+                                calendar="gregorian">June 17, 1967, 5:25 p.m.</date>
                         </dateline>
                         <p>212280. <gloss target="#t_Cedto1">CEDTO</gloss>. Subj: Council
                             Consideration of Oil Committee Report—June 20.<note n="2"
@@ -28319,8 +28323,8 @@
                                 Printed from an unsigned copy.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-06-19T21:19:00">June
-                                19, 1967, 9:19 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1967-06-19T21:19:00"
+                                calendar="gregorian">June 19, 1967, 9:19 p.m.</date>
                         </dateline>
                         <p>212733. <gloss target="#t_NATUS1">NATUS</gloss>, <gloss
                                 target="#t_Cedto1">CEDTO</gloss>. Subject: Discussion of Oil
@@ -28429,7 +28433,7 @@
                         </head>
                         <dateline>
                             <placeName>Tripoli</placeName>, <date when="1967-06-22T09:05:00+00:00"
-                                >June 22, 1967, 0905Z</date>.</dateline>
+                                calendar="gregorian">June 22, 1967, 0905Z</date>.</dateline>
                         <p>288. Ref: State 213238.<note n="2" xml:id="d247fn2">In telegram 213238 to
                                 Tripoli, June 20, the Department noted that the Ambassador should
                                 specifically mention oil during his meeting with the King: “In your
@@ -28492,8 +28496,8 @@
                                 Confidential; Immediate. Repeated to London and Paris.</note>
                         </head>
                         <dateline>
-                            <placeName>Bonn</placeName>, <date when="1967-06-23T12:05:00+00:00">June
-                                23, 1967, 1205Z</date>.</dateline>
+                            <placeName>Bonn</placeName>, <date when="1967-06-23T12:05:00+00:00"
+                                calendar="gregorian">June 23, 1967, 1205Z</date>.</dateline>
                         <p>15121. TOCED. Subject: Oil Supplies and <gloss target="#t_OECD1"
                                 >OECD</gloss>.</p>
                         <list>
@@ -28599,8 +28603,8 @@
                                 Hague, London, Paris, Rome, and Tokyo.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-06-24T15:12:00">June
-                                24, 1967, 3:12 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1967-06-24T15:12:00"
+                                calendar="gregorian">June 24, 1967, 3:12 p.m.</date>
                         </dateline>
                         <p>215890. BUSEC; <gloss target="#t_Cedto1">CEDTO</gloss>; <gloss
                                 target="#t_NATUS1">NATUS</gloss>. Subject: Oil Emergency Actions.
@@ -28716,7 +28720,7 @@
                         </head>
                         <dateline>
                             <placeName>Paris</placeName>, <date when="1967-06-27T14:15:00+00:00"
-                                >June 27, 1967, 1415Z</date>.</dateline>
+                                calendar="gregorian">June 27, 1967, 1415Z</date>.</dateline>
                         <p>20797. Subject: Petroleum: French Intentions in Mideast Crisis.</p>
                         <list>
                             <label>1)</label>
@@ -28820,7 +28824,7 @@
                         </head>
                         <dateline>
                             <placeName>Paris</placeName>, <date when="1967-06-27T17:29:00+00:00"
-                                >June 27, 1967, 1729Z</date>.</dateline>
+                                calendar="gregorian">June 27, 1967, 1729Z</date>.</dateline>
                         <p>20828. <gloss target="#t_Cedto1">CEDTO</gloss>. Subject: <gloss
                                 target="#t_OECD1">OECD</gloss> Oil.</p>
                         <list>
@@ -28918,7 +28922,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date from="1967-06-29T09:51:00"
-                                to="1967-06-29T10:18:00">June 29, 1967, 9:51–10:18 a.m.</date>
+                                to="1967-06-29T10:18:00" calendar="gregorian">June 29, 1967,
+                                9:51–10:18 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -29181,7 +29186,7 @@
                         </head>
                         <dateline>
                             <placeName>Tripoli</placeName>, <date when="1967-06-30T09:40:00+00:00"
-                                >June 30, 1967, 0940Z</date>.</dateline>
+                                calendar="gregorian">June 30, 1967, 0940Z</date>.</dateline>
                         <p>383. Libyan Sitrep—June 25 thru 29. Ref: Tripoli 320.<note n="2"
                                 xml:id="d253fn2">Dated June 24. (Ibid.)</note>
                         </p>
@@ -29258,7 +29263,7 @@
                         </head>
                         <dateline>
                             <placeName>Paris</placeName>, <date when="1967-06-30T17:17:00+00:00"
-                                >June 30, 1967, 1717Z</date>.</dateline>
+                                calendar="gregorian">June 30, 1967, 1717Z</date>.</dateline>
                         <p>21085. <gloss target="#t_Cedto1">CEDTO</gloss>. Subject: <gloss
                                 target="#t_OECD1">OECD</gloss> Oil Committee Meeting. Ref: State
                                 219017.<note n="2" xml:id="d254fn2">Dated June 29. (Ibid., PET 3
@@ -29338,8 +29343,8 @@
                                 NSA, CINCEUR, and USUN.</note>
                         </head>
                         <dateline>
-                            <placeName>Tripoli</placeName>, <date when="1967-07-06">July 6,
-                                1967</date>.</dateline>
+                            <placeName>Tripoli</placeName>, <date when="1967-07-06"
+                                calendar="gregorian">July 6, 1967</date>.</dateline>
                         <p>43. Libyan Oil Sitrep—July 3 thru 5. Ref: Tripoli 19 (Notal).<note n="2"
                                 xml:id="d255fn2">Dated July 3. (Ibid.)</note>
                         </p>
@@ -29416,8 +29421,8 @@
                                 File—Arab Nationalism. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-07-10T19:00:00">July
-                                10, 1967, 7 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1967-07-10T19:00:00"
+                                calendar="gregorian">July 10, 1967, 7 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -29497,8 +29502,8 @@
                                     corresp="#p_DRP1">Davies</persName>. Repeated to Dhahran.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-07-11T20:45:00">July
-                                11, 1967, 8:45 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1967-07-11T20:45:00"
+                                calendar="gregorian">July 11, 1967, 8:45 p.m.</date>
                         </dateline>
                         <p>4967. 1. <gloss target="#t_ARAMCO1">Aramco</gloss> VP Pendleton called on
                             Dep Asst Sec Davies July 7 to report private conversation July 2 between
@@ -29577,7 +29582,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1967-07-18"
-                                type="conversation-or-meeting-date">July 18, 1967</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">July 18,
+                                1967</date>.</dateline>
                         <p>With Dr. Alirio A. Parra, Venezuelan Director of Petroleum Economy</p>
                         <p>I believe Tony Parra has traveled more in Arab countries and has more
                             contacts among the Arab leaders than any other Latin American. He gave
@@ -29635,7 +29641,7 @@
                         </head>
                         <dateline>
                             <placeName>Paris</placeName>, <date when="1967-07-21T19:35:00+00:00"
-                                >July 21, 1967, 1935Z</date>.</dateline>
+                                calendar="gregorian">July 21, 1967, 1935Z</date>.</dateline>
                         <p>1098. <gloss target="#t_Cedto1">CEDTO</gloss>. Subj: <gloss
                                 target="#t_OECD1">OECD</gloss> Oil Committee Meeting, July 20–21.
                             Ref: Paris 1087.<note n="2" xml:id="d259fn2">Dated July 21. (Ibid., PET
@@ -29786,8 +29792,8 @@
                                     target="#t_OECD1">OECD</gloss> and Brussels for USEC.</note>
                         </head>
                         <dateline>
-                            <placeName>London</placeName>, <date when="1967-08-03">August 3,
-                                1967</date>.</dateline>
+                            <placeName>London</placeName>, <date when="1967-08-03"
+                                calendar="gregorian">August 3, 1967</date>.</dateline>
                         <p rend="flushleft">A–476</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -29836,8 +29842,8 @@
                                 Beirut.</note>
                         </head>
                         <dateline>
-                            <placeName>Bonn</placeName>, <date when="1967-08-04">August 4,
-                                1967</date>.</dateline>
+                            <placeName>Bonn</placeName>, <date when="1967-08-04"
+                                calendar="gregorian">August 4, 1967</date>.</dateline>
                         <p rend="flushleft">A–188</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -29945,8 +29951,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1967-08-25T03:43:00+00:00">August 25, 1967,
-                            0343Z</date>.</dateline>
+                                when="1967-08-25T03:43:00+00:00" calendar="gregorian">August 25,
+                                1967, 0343Z</date>.</dateline>
                         <p>26879. Ref: State 26123; Dhahran 146.<note n="2" xml:id="d264fn2">Neither
                                 printed. (Ibid., <gloss target="#t_POL1">POL</gloss> 7 SUDAN and PET
                                 17–1 ARAB, respectively)</note>
@@ -30054,8 +30060,8 @@
                                     corresp="#p_SAM4">Solomon</persName> (E).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-09-22">September 22,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-09-22"
+                                calendar="gregorian">September 22, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Study of our Oil Interests in the Middle East</item>
@@ -30143,7 +30149,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1967-10-20T18:11:00"
-                                >October 20, 1967, 6:11 p.m.</date>
+                                calendar="gregorian">October 20, 1967, 6:11 p.m.</date>
                         </dateline>
                         <p rend="flushleft">CA–3052</p>
                         <list type="subject">
@@ -30210,8 +30216,8 @@
                                 Vienna, and Beirut.</note>
                         </head>
                         <dateline>
-                            <placeName>Beirut</placeName>, <date when="1968-01-17">January 17,
-                                1968</date>.</dateline>
+                            <placeName>Beirut</placeName>, <date when="1968-01-17"
+                                calendar="gregorian">January 17, 1968</date>.</dateline>
                         <p rend="flushleft">A–605</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -30384,8 +30390,8 @@
                                     target="#t_AID1">AID</gloss>) and Robert Barnett (FE).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-11-04">November 4,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-11-04"
+                                calendar="gregorian">November 4, 1964</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Your Luncheon with Mr. <persName corresp="#p_RJD1">John D.
@@ -30514,8 +30520,8 @@
                                 top of the page reads “Draft.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-11-27">November 27,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-11-27"
+                                calendar="gregorian">November 27, 1964</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Conference on “Pacem in Terris” sponsored by the Fund for the
@@ -30618,8 +30624,8 @@
                                 ought to read it.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-04-27">April 27,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-04-27"
+                                calendar="gregorian">April 27, 1965</date>.</dateline>
                         <p>While you're thinking about foreign aid, here's a fascinating statistic.
                             A recent study claims that if economic resources in many <gloss
                                 target="#t_LDC1">LDC</gloss>'s were devoted to retarding population
@@ -30673,8 +30679,8 @@
                                 Population Control 1965–March 1966. Secret.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-08-04">August 4,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-08-04"
+                                calendar="gregorian">August 4, 1965</date>.</dateline>
                         <p rend="flushleft">Mac—</p>
                         <p>We're moving on population control. Califano is setting up a task
                                 force<note n="2" xml:id="d273fn2">No other references to the
@@ -30729,8 +30735,8 @@
                                 classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-09-22">September 22,
-                                1965</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1965-09-22"
+                                calendar="gregorian">September 22, 1965</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>White House Conference on International Cooperation</item>
@@ -30853,7 +30859,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1965-11-04T09:30:00"
-                                >November 4, 1965, 9:30 a.m.</date>
+                                calendar="gregorian">November 4, 1965, 9:30 a.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -31128,8 +31134,8 @@
                                     >ICY</gloss>—Vol. II. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-07-11T18:45:00">July
-                                11, 1966, 6:45 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1966-07-11T18:45:00"
+                                calendar="gregorian">July 11, 1966, 6:45 p.m.</date>
                         </dateline>
                         <p>Pressure is building up for <hi rend="italic">followup on the
                                 recommendations of the White House Conference on International
@@ -31279,8 +31285,8 @@
                                 Central Files, 1964–66, SOC 13. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>New York</placeName>, <date when="1966-09-13">September 13,
-                                1966</date>.</dateline>
+                            <placeName>New York</placeName>, <date when="1966-09-13"
+                                calendar="gregorian">September 13, 1966</date>.</dateline>
                         <p rend="flushleft">Dear <persName corresp="#p_RD3">Dean</persName>:</p>
                         <p>When we met at the luncheon for Prime Minister Holt of Australia,<note
                                 n="2" xml:id="d279fn2">A White House luncheon on July 14; a complete
@@ -31384,8 +31390,8 @@
                                 Central Files, 1964–66, SOC 13. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1966-11-23">November 23,
-                                1966</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1966-11-23"
+                                calendar="gregorian">November 23, 1966</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Statement of Policy on Population Matters</item>
@@ -31494,8 +31500,8 @@
                                 signature under a January 12 covering memorandum.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-01-19">January 19,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-01-19"
+                                calendar="gregorian">January 19, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Policy and Programs on Population Matters</item>
@@ -31566,8 +31572,8 @@
                                 150.E.14.10(F), Box 933. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>New York</placeName>, <date when="1967-02-02">February 2,
-                                1967</date>.</dateline>
+                            <placeName>New York</placeName>, <date when="1967-02-02"
+                                calendar="gregorian">February 2, 1967</date>.</dateline>
                         <p rend="flushleft">Dear Mr. <persName corresp="#p_RJ3"
                             >Rielly</persName>:</p>
                         <p>You may have noted that all the polls show the American public to be
@@ -31615,8 +31621,8 @@
                                 No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>The Vatican</placeName>, <date when="1967-02-02">February 21,
-                                1967</date>.</dateline>
+                            <placeName>The Vatican</placeName>, <date when="1967-02-02"
+                                calendar="gregorian">February 21, 1967</date>.</dateline>
                         <p rend="flushleft">Dear Mr. Vice President,</p>
                         <p>The Holy Father was pleased to receive your kind letter of January 24th
                             in which you expressed your satisfaction with the establishment of the
@@ -31660,8 +31666,8 @@
                                 Central Files, 1967–69, SOC 13. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>New York</placeName>, <date when="1967-03-03">March 3,
-                                1967</date>.</dateline>
+                            <placeName>New York</placeName>, <date when="1967-03-03"
+                                calendar="gregorian">March 3, 1967</date>.</dateline>
                         <p rend="flushleft">Dear <persName corresp="#p_RD3">Dean</persName>:</p>
                         <p>My understanding is that a principal reason why President <persName
                                 corresp="#p_JLB1">Johnson</persName> did not feel he could join in
@@ -31750,8 +31756,8 @@
                                 Central Files, 1967–69, SOC 13–3. Limited Official Use.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-04-02">April 2,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-04-02"
+                                calendar="gregorian">April 2, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Pope Paul VI Statement Concerning Population In His Encyclical of
@@ -31913,8 +31919,8 @@
                                 of the page reads, “John R. See me.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-04-14">April 14,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-04-14"
+                                calendar="gregorian">April 14, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Pope's Encyclical “The Development of Peoples”</item>
@@ -32006,7 +32012,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1967-05-11T11:00:00"
-                                type="conversation-or-meeting-date">May 11, 1967, 11 a.m.</date>
+                                type="conversation-or-meeting-date" calendar="gregorian">May 11,
+                                1967, 11 a.m.</date>
                         </dateline>
                         <list type="participants">
                             <head>PARTICIPANTS</head>
@@ -32124,8 +32131,8 @@
                                 Van Nort (<gloss target="#t_IO1">IO</gloss>/OES).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-05-25">May 25,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-05-25"
+                                calendar="gregorian">May 25, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Population—1) President's Commission on Population; 2) President's
@@ -32303,8 +32310,8 @@
                                 150.E.14.8(8), Box 931. No classification marking.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-06-15">June 15,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-06-15"
+                                calendar="gregorian">June 15, 1967</date>.</dateline>
                         <p rend="flushleft">Dear Mr. President:</p>
                         <p>I am pleased to send you an advance copy of the report on the World Food
                             Problem which was prepared by a Panel of the President's Science
@@ -32378,8 +32385,8 @@
                                 Prime Minister Sato plus other world leaders to sign.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-06-23">June 23,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-06-23"
+                                calendar="gregorian">June 23, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>World Leaders' Declaration on Population</item>
@@ -32513,8 +32520,8 @@
                                 <persName>Rostow</persName>.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-08-04">August 4,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-08-04"
+                                calendar="gregorian">August 4, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>World Leaders' Declaration on Population</item>
@@ -32584,8 +32591,8 @@
                                 Files, 1967–69, SOC 13. Limited Official Use.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1967-12-05">December 5,
-                                1967</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1967-12-05"
+                                calendar="gregorian">December 5, 1967</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Proposal for a Presidential Commission on Population</item>
@@ -32699,8 +32706,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-08-12T20:31:00+00:00">August 12, 1968,
-                            2031Z</date>.</dateline>
+                                when="1968-08-12T20:31:00+00:00" calendar="gregorian">August 12,
+                                1968, 2031Z</date>.</dateline>
                         <p>219240. Subj. Population/Family Planning Programs. Joint State/<gloss
                                 target="#t_AID1">AID</gloss>/USIA message. For Ambassadors, USAID
                             Mission Directors, Public Affairs Officers.</p>
@@ -32812,8 +32819,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1968-04-25"
-                                type="conversation-or-meeting-date">April 25,
-                            1968</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">April 25,
+                                1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Hijacking of Commercial Aircraft</item>
@@ -32991,8 +32998,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-07-10T15:44:00+00:00">July 10, 1968,
-                            1544Z</date>.</dateline>
+                                when="1968-07-10T15:44:00+00:00" calendar="gregorian">July 10, 1968,
+                                1544Z</date>.</dateline>
                         <p>199169. REPCU.</p>
                         <list>
                             <label>1.</label>
@@ -33080,7 +33087,7 @@
                         </head>
                         <dateline>
                             <date when="1968-07-17T21:30:00" type="conversation-or-meeting-date"
-                                >July 17, 1968, 9:30 p.m.</date>
+                                calendar="gregorian">July 17, 1968, 9:30 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -33157,8 +33164,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-07-20T00:48:00+00:00">July 20, 1968,
-                            0048Z</date>.</dateline>
+                                when="1968-07-20T00:48:00+00:00" calendar="gregorian">July 20, 1968,
+                                0048Z</date>.</dateline>
                         <p>205994. 1. In last year there have been 14 incidents of hijackings of
                             planes to Cuba. Although few cases involved small chartered aircraft <pb
                                 n="527" xml:id="pg_527" facs="0557"/>most were commercial airliners.
@@ -33247,8 +33254,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1968-08-01"
-                                type="conversation-or-meeting-date">August 1,
-                            1968</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">August 1,
+                                1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Conference with <gloss target="#t_IATA1">IATA</gloss> Officials on
@@ -33529,8 +33536,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-08-09T21:41:00+00:00">August 9, 1968,
-                            2141Z</date>.</dateline>
+                                when="1968-08-09T21:41:00+00:00" calendar="gregorian">August 9,
+                                1968, 2141Z</date>.</dateline>
                         <p>218668. Ref: Mexico's 6405.<note n="2" xml:id="d302fn2">Dated August 8.
                                 (Ibid., AV 12)</note> Subject: Hijacking.</p>
                         <list>
@@ -33604,8 +33611,8 @@
                                 appear on the memorandum.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-09-05">September 5,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-09-05"
+                                calendar="gregorian">September 5, 1968</date>.</dateline>
                         <p>On August 1, L sent to you for transmittal to the President documents
                             necessary to obtain the advice and consent of the Senate to the Tokyo
                             Convention. In my memorandum of August 21<note n="2" xml:id="d303fn2"
@@ -33686,7 +33693,7 @@
                         </head>
                         <dateline>
                             <placeName>Montreal</placeName>, <date when="1968-10-19T20:28:00+00:00"
-                                >October 19, 1968, 2028Z</date>.</dateline>
+                                calendar="gregorian">October 19, 1968, 2028Z</date>.</dateline>
                         <p>745. For Bureau of Economic Affairs E–OA. Reference Telecon of Feehan and
                             Durkin2 subject high jacking</p>
                         <p>1) Text of note to <gloss target="#t_IATA1">IATA</gloss> re high jacking
@@ -33743,8 +33750,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-10-24T00:11:00+00:00">October 24, 1968,
-                            0011Z</date>.</dateline>
+                                when="1968-10-24T00:11:00+00:00" calendar="gregorian">October 24,
+                                1968, 0011Z</date>.</dateline>
                         <p>260705. Ref Mexico 6405; State 254172; Mexico 7659.<note n="2"
                                 xml:id="d306fn2">Dated August 8, October 11, and October 21,
                                 respectively. (The first two are ibid.; the last is ibid., AV 12
@@ -33852,7 +33859,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1968-11-06T16:34:00"
-                                >November 6, 1968, 4:34 p.m.</date>
+                                calendar="gregorian">November 6, 1968, 4:34 p.m.</date>
                         </dateline>
                         <p rend="flushleft">A–32</p>
                         <list type="subject">
@@ -33953,8 +33960,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-11-27T16:07:00+00:00">November 27, 1968,
-                            1607Z</date>.</dateline>
+                                when="1968-11-27T16:07:00+00:00" calendar="gregorian">November 27,
+                                1968, 1607Z</date>.</dateline>
                         <p>278461. For Deputy Asst. Secy. <persName corresp="#p_LFE1">Frank E.
                                 Loy</persName>.</p>
                         <list>
@@ -34042,8 +34049,8 @@
                                 Secretary.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-12-06">December 6,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-12-06"
+                                calendar="gregorian">December 6, 1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Hijacking of Aircraft to Cuba</item>
@@ -34191,8 +34198,8 @@
                                 Central Files, 1967–69, AV 12 US. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-12-10">December 10,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-12-10"
+                                calendar="gregorian">December 10, 1968</date>.</dateline>
                         <p rend="flushleft">No. 957</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -34329,8 +34336,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-12-11T19:47:00+00:00">December 11, 1968,
-                            1947Z</date>.</dateline>
+                                when="1968-12-11T19:47:00+00:00" calendar="gregorian">December 11,
+                                1968, 1947Z</date>.</dateline>
                         <p>285410. REPCU.</p>
                         <list>
                             <label>1.</label>
@@ -34465,8 +34472,8 @@
                                 Fitzgerald.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-12-12">December 12,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-12-12"
+                                calendar="gregorian">December 12, 1968</date>.</dateline>
                         <p rend="flushleft">Dear Don:</p>
                         <p>I have your letter of December 4<note n="2" xml:id="d312fn2">Not
                                 found.</note> concerning our proposed direct approach to the Cubans
@@ -34538,8 +34545,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-12-20T23:54:00+00:00">December 20, 1968,
-                            2354Z</date>.</dateline>
+                                when="1968-12-20T23:54:00+00:00" calendar="gregorian">December 20,
+                                1968, 2354Z</date>.</dateline>
                         <p>290754. REPCU. Ref: Bern 5248.<note n="2" xml:id="d313fn2">See <ref
                                     target="#d311fn2">footnotes 2</ref> and <ref target="#d311fn3"
                                     >3, Document 311</ref>.</note>
@@ -34600,8 +34607,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-12-30T20:56:00+00:00">December 30, 1968,
-                            2056Z</date>.</dateline>
+                                when="1968-12-30T20:56:00+00:00" calendar="gregorian">December 30,
+                                1968, 2056Z</date>.</dateline>
                         <p>293341. Subject: Hijacking.</p>
                         <list>
                             <label>1.</label>
@@ -34729,8 +34736,8 @@
                                 >IO</gloss>/OES).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-03-20">March 20,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-03-20"
+                                calendar="gregorian">March 20, 1964</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>1964 Human Rights Commission—Race Convention and Religion
@@ -34842,8 +34849,8 @@
                                 the Secretary-General.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1964-10-14">October 14,
-                                1964</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1964-10-14"
+                                calendar="gregorian">October 14, 1964</date>.</dateline>
                         <p rend="center">REVISED US OBSERVATIONS ON PROPOSALS FOR INTERNATIONAL
                             HUMAN RIGHTS YEAR</p>
                         <p>Throughout its history the United States has attached particular
@@ -35017,8 +35024,8 @@
                                     Tree</persName> and C. Blau.</note>
                         </head>
                         <dateline>
-                            <placeName>New York</placeName>, <date when="1964-11-24">November 24,
-                                1964</date>.</dateline>
+                            <placeName>New York</placeName>, <date when="1964-11-24"
+                                calendar="gregorian">November 24, 1964</date>.</dateline>
                         <p rend="flushleft">A–678</p>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -35184,8 +35191,8 @@
                                     <gloss target="#t_FAA1">FAA</gloss>.</note>
                         </head>
                         <dateline>
-                            <placeName>Rome</placeName>, <date when="1964-11-26T19:00:00">November
-                                26, 1964, 7 p.m.</date>
+                            <placeName>Rome</placeName>, <date when="1964-11-26T19:00:00"
+                                calendar="gregorian">November 26, 1964, 7 p.m.</date>
                         </dateline>
                         <p>1457. For Aviation Liaison: Attention Ferguson from Boyle.</p>
                         <p>The possibility of exclusion of South Africa and Portugal from <gloss
@@ -35291,7 +35298,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1964-12-02T13:46:00"
-                                >December 2, 1964, 1:46 p.m.</date>
+                                calendar="gregorian">December 2, 1964, 1:46 p.m.</date>
                         </dateline>
                         <p>321. Ref: <gloss target="#t_ICAO1">ICAO</gloss> African Regional
                             Conference. Counselor Portuguese Embassy urgently called Dept November
@@ -35356,7 +35363,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1964-12-09T19:31:00"
-                                >December 9, 1964, 7:31 p.m.</date>
+                                calendar="gregorian">December 9, 1964, 7:31 p.m.</date>
                         </dateline>
                         <p>1451. Subject: Proposed Human Rights Conference in 1968. Ref: urtel
                                 2054;<note n="2" xml:id="d321fn2">Dated December 8. (Ibid.)</note>
@@ -35435,7 +35442,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1965-01-20T12:05:00"
-                                >January 20, 1965, 12:05 p.m.</date>
+                                calendar="gregorian">January 20, 1965, 12:05 p.m.</date>
                         </dateline>
                         <p>1818. 1968 Conference on Human Rights. Ref: CA 6715;<note n="2"
                                 xml:id="d322fn2">Dated January 4. (Ibid.)</note> USUN 2715.<note
@@ -35495,8 +35502,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1965-01-21"
-                                type="conversation-or-meeting-date">January 21,
-                            1965</date>.</dateline>
+                                type="conversation-or-meeting-date" calendar="gregorian">January 21,
+                                1965</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Proposals for a UN Commissioner on Human Rights</item>
@@ -35593,8 +35600,8 @@
                                 USUN.</note>
                         </head>
                         <dateline>
-                            <placeName>London</placeName>, <date when="1965-02-18T16:00:00">February
-                                18, 1965, 4 p.m.</date>
+                            <placeName>London</placeName>, <date when="1965-02-18T16:00:00"
+                                calendar="gregorian">February 18, 1965, 4 p.m.</date>
                         </dateline>
                         <p>3999. Embtel 3370 rptd USUN 244.<note n="2" xml:id="d324fn2">Dated
                                 January 20. (Ibid.)</note> Human Rights Conference. Pridham (head UN
@@ -35633,7 +35640,7 @@
                         </head>
                         <dateline>
                             <placeName>Addis Ababa</placeName>, <date when="1965-04-01T15:00:00"
-                                >April 1, 1965, 3 p.m.</date>
+                                calendar="gregorian">April 1, 1965, 3 p.m.</date>
                         </dateline>
                         <p>1394. Communist Activities re <gloss target="#t_ICAO1"
                                 >ICAO</gloss>.<gloss target="#t_Deptel1">Deptel</gloss> 1050.<note
@@ -35753,8 +35760,8 @@
                                 to Montreal.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1965-06-18T20:12:00">June
-                                18, 1965, 8:12 p.m.</date>
+                            <placeName>Washington</placeName>, <date when="1965-06-18T20:12:00"
+                                calendar="gregorian">June 18, 1965, 8:12 p.m.</date>
                         </dateline>
                         <p>2550. Subject: 15th Assembly of International Civil Aviation
                             Organization. Anticipate African initiative in <gloss target="#t_ICAO1"
@@ -35866,7 +35873,7 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1968-04-26T16:30:00"
-                                >April 26, 1968, 4:30 p.m.</date>
+                                calendar="gregorian">April 26, 1968, 4:30 p.m.</date>
                         </dateline>
                         <p rend="flushleft">Mr. President:</p>
                         <p>One further comment from Tehran re Human Rights Conference impact of Roy
@@ -35897,8 +35904,8 @@
                                 Central Files, 1967–69, SOC 14 US. Confidential.</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-05-03">May 3,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-05-03"
+                                calendar="gregorian">May 3, 1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>My Meeting with Dr. Ralph Abernathy and Representatives of the
@@ -36070,8 +36077,8 @@
                                 to this text reads, “5/23/68.”</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-05-23">May 23,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-05-23"
+                                calendar="gregorian">May 23, 1968</date>.</dateline>
                         <p rend="flushleft">Dear Dr. Abernathy:</p>
                         <p>At our meeting on May 1,<note n="2" xml:id="d331fn2">See <ref
                                     target="#d330">Document 330</ref>.</note> I took note of the
@@ -36247,8 +36254,8 @@
                         </head>
                         <dateline>
                             <placeName>Washington</placeName>, <date
-                                when="1968-06-03T21:18:00+00:00">June 3, 1968,
-                            2118Z</date>.</dateline>
+                                when="1968-06-03T21:18:00+00:00" calendar="gregorian">June 3, 1968,
+                                2118Z</date>.</dateline>
                         <p>175252. Subject: Poverty Marchers Call at Mexican Embassy.</p>
                         <list>
                             <label>1.</label>
@@ -36299,8 +36306,8 @@
                                 Cleveland (P/PS), Funk (S/AH), and Margaret H. Williams (CU).</note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1968-07-25">July 25,
-                                1968</date>.</dateline>
+                            <placeName>Washington</placeName>, <date when="1968-07-25"
+                                calendar="gregorian">July 25, 1968</date>.</dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Proposal for a White House Conference on the Advancement of Human
@@ -36455,7 +36462,7 @@
                         </head>
                         <dateline>
                             <placeName>Waltham, Massachusetts</placeName>, <date when="1968-12-11"
-                                >December 11, 1968</date>.</dateline>
+                                calendar="gregorian">December 11, 1968</date>.</dateline>
                         <p rend="flushleft">My Dear Mr. President:</p>
                         <p>I am herewith respectfully tendering my resignation, effective
                             immediately, as United States Representative to the United Nations
