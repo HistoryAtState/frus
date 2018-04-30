@@ -12,8 +12,7 @@
 
     <!-- 1. Add descendant min/max dates as xenoData/frus:coverage/@notBefore | @notAfter -->
 
-    <xsl:template
-        match="tei:TEI/tei:teiHeader">
+    <xsl:template match="tei:TEI/tei:teiHeader">
 
         <xsl:variable name="earliest">
             <xsl:for-each select="parent::tei:TEI//tei:div/@frus:doc-dateTime-min">
@@ -33,32 +32,32 @@
             </xsl:for-each>
         </xsl:variable>
 
-            <xsl:choose>
-                <xsl:when test=".[not(child::tei:xenoData)]">
-                    <xsl:copy>
-                        <xsl:apply-templates select="@*"/>
-                        <xsl:apply-templates select="node()"/>
-                        <xsl:element name="xenoData">                 
-                            <xsl:element name="frus:coverage">
-                                <xsl:attribute name="type">volume-coverage-dates</xsl:attribute>
-                                <xsl:attribute name="notBefore">
-                                    <xsl:value-of select="$earliest"/>
-                                </xsl:attribute>
-                                <xsl:attribute name="notAfter">
-                                    <xsl:value-of select="$latest"/>
-                                </xsl:attribute>
-                            </xsl:element>
+        <xsl:choose>
+            <xsl:when test=".[not(child::tei:xenoData)]">
+                <xsl:copy>
+                    <xsl:apply-templates select="@*"/>
+                    <xsl:apply-templates select="node()"/>
+
+                    <xsl:element name="xenoData" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:element name="frus:coverage">
+                            <xsl:attribute name="notBefore">
+                                <xsl:value-of select="$earliest"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="notAfter">
+                                <xsl:value-of select="$latest"/>
+                            </xsl:attribute>
                         </xsl:element>
-                    </xsl:copy>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:copy>
-                        <xsl:apply-templates select="@*"/>
-                        <xsl:apply-templates select="node()"/>
-                    </xsl:copy>
-                </xsl:otherwise>
-            </xsl:choose>
-            
+                    </xsl:element>
+                </xsl:copy>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:copy>
+                    <xsl:apply-templates select="@*"/>
+                    <xsl:apply-templates select="node()"/>
+                </xsl:copy>
+            </xsl:otherwise>
+        </xsl:choose>
+
     </xsl:template>
 
 </xsl:stylesheet>

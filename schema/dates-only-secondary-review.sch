@@ -276,7 +276,7 @@
                 possibly indicating a hijri calendar reference.</assert>
 
             <assert role="info"
-                test="not(.[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong| Zǎichún|Guangxu|Kuanghsü|Kuang Hsü|Kuang Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')])"
+                test="not(.[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung Chi|Guangxu|Kuanghsü|Kuang Hsü|Kuang Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Chinese era/reign-based calendar reference.</assert>
 
@@ -319,7 +319,7 @@
                 </sqf:fix>
 
                 <sqf:fix
-                    use-when=".[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong| Zǎichún|Guangxu|Kuanghsü|Kuang Hsü|Kuang Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')][matches(., 'moon')]"
+                    use-when=".[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung Chi|Guangxu|Kuanghsü|Kuang Hsü|Kuang Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')][matches(., 'moon')]"
                     id="add-chinese-era-chinese-lunar">
                     <sqf:description>
                         <sqf:title>Add @calendar="chinese-era chinese-lunar"</sqf:title>
@@ -329,7 +329,7 @@
                 </sqf:fix>
 
                 <sqf:fix
-                    use-when=".[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong| Zǎichún|Guangxu|Kuanghsü|Kuang Hsü|Kuang Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')][not(matches(., 'moon'))]"
+                    use-when=".[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung Chi|Guangxu|Kuanghsü|Kuang Hsü|Kuang Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')][not(matches(., 'moon'))]"
                     id="add-chinese-era">
                     <sqf:description>
                         <sqf:title>Add @calendar="chinese-era"</sqf:title>
