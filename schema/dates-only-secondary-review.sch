@@ -297,6 +297,12 @@
                 or phrase possibly indicating a Japanese nengō calendar reference.</assert>
 
             <assert role="info"
+                test="not(.[matches(., 'Yi Geum|Gunjin|Songheon|Taejo|Emperor Go|Yi San|Hyeongun|Hongjae|Jeongjo|Yi Gong|Gongbo|Sunjae|Sunjo|Yi Hwan|Muneung|Wonheon| Heonjong|Yi Byeon|Doseung|Daeyongjae|Cheoljong|Yi Myeong-bok|Yi Hui|Seongrim|Juyeon|Gojong|Kojong|Emperor Tae|Gaeguk|Geonyang|Gwangmu|Kwangmu|Kwang Mu|Gwangmuje|Kwangmuje|Yi Cheok|Gundang|Jeongheon|Sunjong|Emperor Hyo|Emperor Yunghui|Yunghui|Yunghuije|Yunghŭije|Lyung Heni', 'i')])"
+                sqf:fix="add-calendar-attribute-korean-era">[FYI] This &lt;date&gt; has a word or
+                phrase possibly indicating a Korean era calendar reference.</assert>
+
+
+            <assert role="info"
                 test="not(.[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')])"
                 sqf:fix="add-calendar-attribute-masonic-anno-lucis">[FYI] This &lt;date&gt; has a
                 word or phrase possibly indicating a Masonic calendar reference.</assert>
@@ -356,6 +362,15 @@
                         <sqf:title>Add @calendar="japanese-nengō"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">japanese-nengō</sqf:add>
+                </sqf:fix>
+
+                <sqf:fix
+                    use-when=".[matches(., 'Yi Geum|Gunjin|Songheon|Taejo|Emperor Go|Yi San|Hyeongun|Hongjae|Jeongjo|Yi Gong|Gongbo|Sunjae|Sunjo|Yi Hwan|Muneung|Wonheon| Heonjong|Yi Byeon|Doseung|Daeyongjae|Cheoljong|Yi Myeong-bok|Yi Hui|Seongrim|Juyeon|Gojong|Kojong|Emperor Tae|Gaeguk|Geonyang|Gwangmu|Kwangmu|Kwang Mu|Gwangmuje|Kwangmuje|Yi Cheok|Gundang|Jeongheon|Sunjong|Emperor Hyo|Emperor Yunghui|Yunghui|Yunghuije|Yunghŭije|Lyung Heni', 'i')]"
+                    id="add-calendar-attribute-korean-era">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="korean-era"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">korean-era</sqf:add>
                 </sqf:fix>
 
                 <sqf:fix
