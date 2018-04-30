@@ -37,7 +37,8 @@
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
                     <xsl:apply-templates select="node()"/>
-                    <xsl:element name="tei:xenoData" namespace="http://www.tei-c.org/ns/1.0">
+
+                    <xsl:element name="xenoData" namespace="http://www.tei-c.org/ns/1.0">
                         <xsl:element name="frus:coverage">
                             <xsl:attribute name="notBefore">
                                 <xsl:value-of select="$earliest"/>
