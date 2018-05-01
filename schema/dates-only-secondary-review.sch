@@ -924,9 +924,30 @@
                             document; retain node content</sqf:p>
                     </sqf:description>
                     <sqf:replace
-                        use-when=".[not(preceding-sibling::*[position() = 1][self::tei:opener])]"
+                        use-when=".[not(preceding-sibling::*[position() = 1][self::tei:opener])] and .[not(attribute::rend)]"
                         node-type="element" target="tei:opener">
                         <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#center">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:replace>
+                    <sqf:replace
+                        use-when=".[not(preceding-sibling::*[position() = 1][self::tei:opener])] and ./attribute::rend = 'center'"
+                        node-type="element" target="tei:opener">
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#center">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:replace>
+                    <sqf:replace
+                        use-when=".[not(preceding-sibling::*[position() = 1][self::tei:opener])] and ./attribute::rend = ('left', 'flushleft')"
+                        node-type="element" target="tei:opener">
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:replace>
+                    <sqf:replace
+                        use-when=".[not(preceding-sibling::*[position() = 1][self::tei:opener])] and ./attribute::rend = 'right'"
+                        node-type="element" target="tei:opener">
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#right">
                             <sqf:copy-of select="$first-paragraph-content"/>
                         </dateline>
                     </sqf:replace>
@@ -940,13 +961,39 @@
                         <sqf:p>Add &lt;p&gt; content as `dateline` in existing &lt;opener&gt;;
                             retain node content</sqf:p>
                     </sqf:description>
-                    <sqf:add use-when=".[preceding-sibling::*[position() = 1][self::tei:opener]]"
+                    <sqf:add
+                        use-when=".[preceding-sibling::*[position() = 1][self::tei:opener]] and .[not(attribute::rend)]"
                         match="./preceding-sibling::tei:opener" position="last-child">
                         <lb xmlns="http://www.tei-c.org/ns/1.0"/>
                         <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#center">
                             <sqf:copy-of select="$first-paragraph-content"/>
                         </dateline>
                     </sqf:add>
+                    <sqf:add
+                        use-when=".[preceding-sibling::*[position() = 1][self::tei:opener]] and ./attribute::rend eq 'center'"
+                        match="./preceding-sibling::tei:opener" position="last-child">
+                        <lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#center">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:add>
+                    <sqf:add
+                        use-when=".[preceding-sibling::*[position() = 1][self::tei:opener]] and ./attribute::rend = ('left', 'flushleft')"
+                        match="./preceding-sibling::tei:opener" position="last-child">
+                        <lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:add>
+                    <sqf:add
+                        use-when=".[preceding-sibling::*[position() = 1][self::tei:opener]] and ./attribute::rend eq 'right'"
+                        match="./preceding-sibling::tei:opener" position="last-child">
+                        <lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#right">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:add>
+
                     <sqf:delete match="."/>
                 </sqf:fix>
 
