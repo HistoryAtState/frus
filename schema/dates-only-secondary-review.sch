@@ -882,6 +882,125 @@
 
         </rule>
 
+        <!-- For Documents and Attachments without `date`, Look for Unencoded Dates in First Paragraphs -->
+        <rule
+            context="(tei:div[attribute::subtype eq 'historical-document'] | frus:attachment)[not(descendant::tei:date) and not(descendant::tei:quote)]/tei:p[position() = 1][starts-with(., '[')]">
+            <let name="first-paragraph" value="."/>
+            <let name="first-paragraph-content" value="./node()"/>
+            <let name="rendition"
+                value="
+                    if (./attribute::rend eq 'left') then
+                        '#left'
+                    else
+                        if (./attribute::rend eq 'center') then
+                            '#center'
+                        else
+                            null"/>
+            <let name="line-break" value="element(tei:lb)"/>
+            <let name="opener-dateline" value="element(tei:opener)/element(tei:dateline)"/>
+
+            <assert role="info"
+                test="not(.[matches(., '(the\s+)?\d{1,2}(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4})|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])"
+                sqf:fix="fix-date-in-first-paragraph">[FYI] This first paragraph possibly contains
+                an unencoded dateline/date.</assert>
+
+            <assert role="info"
+                test="not(matches(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(?:st|d|nd|rd|th)?\s*[-–—]\s*(\d{1,2})(?:st|d|nd|rd|th)?,?\s+(\d{4}))', 'i'))"
+                sqf:fix="fix-date-in-first-paragraph">[FYI] This first paragraph possibly contains
+                an unencoded dateline/date range.</assert>
+
+            <assert role="info"
+                test="not(.[matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')])"
+                sqf:fix="fix-date-in-first-paragraph">[FYI] This first paragraph possibly contains
+                an unencoded dateline/date (with date phrase spelled out).</assert>
+
+            <sqf:group id="fix-date-in-first-paragraph">
+
+                <!-- First Paragraph: Fix 1a -->
+                <sqf:fix id="convert-p-to-opener-dateline">
+                    <sqf:description>
+                        <sqf:title>Convert first paragraph to opener/dateline</sqf:title>
+                        <sqf:p>Convert first &lt;p&gt; to &lt;opener/dateline&gt; in the current
+                            document; retain node content</sqf:p>
+                    </sqf:description>
+                    <sqf:replace
+                        use-when=".[not(preceding-sibling::*[position() = 1][self::tei:opener])] and .[not(attribute::rend)]"
+                        node-type="element" target="tei:opener">
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#center">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:replace>
+                    <sqf:replace
+                        use-when=".[not(preceding-sibling::*[position() = 1][self::tei:opener])] and ./attribute::rend = 'center'"
+                        node-type="element" target="tei:opener">
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#center">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:replace>
+                    <sqf:replace
+                        use-when=".[not(preceding-sibling::*[position() = 1][self::tei:opener])] and ./attribute::rend = ('left', 'flushleft')"
+                        node-type="element" target="tei:opener">
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:replace>
+                    <sqf:replace
+                        use-when=".[not(preceding-sibling::*[position() = 1][self::tei:opener])] and ./attribute::rend = 'right'"
+                        node-type="element" target="tei:opener">
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#right">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:replace>
+                </sqf:fix>
+
+                <!-- Last Paragraph: Fix 1b -->
+                <sqf:fix id="add-dateline-in-existing-opener">
+                    <sqf:description>
+                        <sqf:title>Add paragraph content as `dateline` in existing
+                            `opener`</sqf:title>
+                        <sqf:p>Add &lt;p&gt; content as `dateline` in existing &lt;opener&gt;;
+                            retain node content</sqf:p>
+                    </sqf:description>
+                    <sqf:add
+                        use-when=".[preceding-sibling::*[position() = 1][self::tei:opener]] and .[not(attribute::rend)]"
+                        match="./preceding-sibling::tei:opener" position="last-child">
+                        <lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#center">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:add>
+                    <sqf:add
+                        use-when=".[preceding-sibling::*[position() = 1][self::tei:opener]] and ./attribute::rend eq 'center'"
+                        match="./preceding-sibling::tei:opener" position="last-child">
+                        <lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#center">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:add>
+                    <sqf:add
+                        use-when=".[preceding-sibling::*[position() = 1][self::tei:opener]] and ./attribute::rend = ('left', 'flushleft')"
+                        match="./preceding-sibling::tei:opener" position="last-child">
+                        <lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:add>
+                    <sqf:add
+                        use-when=".[preceding-sibling::*[position() = 1][self::tei:opener]] and ./attribute::rend eq 'right'"
+                        match="./preceding-sibling::tei:opener" position="last-child">
+                        <lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#right">
+                            <sqf:copy-of select="$first-paragraph-content"/>
+                        </dateline>
+                    </sqf:add>
+
+                    <sqf:delete match="."/>
+                </sqf:fix>
+
+            </sqf:group>
+
+        </rule>
+
 
         <!-- For Documents and Attachments without `date`, Look for Unencoded Dates in Last Paragraphs -->
         <rule
@@ -892,27 +1011,27 @@
             <let name="closer-dateline" value="element(tei:closer)/element(tei:dateline)"/>
             <assert role="info"
                 test="not(.[matches(., '(the\s+)?\d{1,2}(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4})|((January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(st|d|nd|rd|th)?,?\s+\d{4})')])"
-                sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraph possibly contains an
+                sqf:fix="fix-date-in-last-paragraph">[FYI] This last paragraph possibly contains an
                 unencoded dateline/date.</assert>
 
             <assert role="info"
                 test="not(matches(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(?:st|d|nd|rd|th)?\s*[-–—]\s*(\d{1,2})(?:st|d|nd|rd|th)?,?\s+(\d{4}))', 'i'))"
-                sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraph possibly contains an
+                sqf:fix="fix-date-in-last-paragraph">[FYI] This last paragraph possibly contains an
                 unencoded dateline/date range.</assert>
 
             <assert role="info"
                 test="not(.[matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')])"
-                sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraph possibly contains an
+                sqf:fix="fix-date-in-last-paragraph">[FYI] This last paragraph possibly contains an
                 unencoded dateline/date (with date phrase spelled out).</assert>
 
             <assert role="info"
                 test="not(.[matches(., '(le\s+)?\d{1,2}(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+\d{4}|((janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre)\s+\d{1,2}(eme|ème|re)?,?\s+\d{4})', 'i')])"
-                sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraph possibly contains an
+                sqf:fix="fix-date-in-last-paragraph">[FYI] This last paragraph possibly contains an
                 unencoded French-language dateline/date.</assert>
 
             <assert role="info"
                 test="not(.[matches(., '(el\s+)?\d{1,2}\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?\d{4}|((enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)\s+\d{1,2},?\s+\d{4})', 'i')])"
-                sqf:fix="fix-date-in-last-paragraph">[FYI] This paragraph possibly contains an
+                sqf:fix="fix-date-in-last-paragraph">[FYI] This last paragraph possibly contains an
                 unencoded Spanish-language dateline/date.</assert>
 
             <sqf:group id="fix-date-in-last-paragraph">
@@ -924,7 +1043,8 @@
                         <sqf:p>Convert last &lt;p&gt; to &lt;closer/dateline&gt; in the current
                             document; retain node content</sqf:p>
                     </sqf:description>
-                    <sqf:replace use-when=".[not(following-sibling::tei:closer)]"
+                    <sqf:replace
+                        use-when=".[not(following-sibling::*[position() = 1][self::tei:closer])]"
                         node-type="element" target="tei:closer">
                         <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
                             <sqf:copy-of select="$last-paragraph-content"/>
@@ -940,7 +1060,7 @@
                         <sqf:p>Add &lt;p&gt; content as `dateline` in existing &lt;closer&gt;;
                             retain node content</sqf:p>
                     </sqf:description>
-                    <sqf:add use-when=".[following-sibling::tei:closer]"
+                    <sqf:add use-when=".[following-sibling::*[position() = 1][self::tei:closer]]"
                         match="./following-sibling::tei:closer" position="first-child">
                         <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
                             <sqf:copy-of select="$last-paragraph-content"/>
@@ -1028,7 +1148,7 @@
                         <sqf:p>Convert &lt;postscript&gt; to &lt;dateline&gt; in the preceding
                             &lt;closer&gt; in the current document; retain node content</sqf:p>
                     </sqf:description>
-                    <sqf:add use-when=".[following-sibling::tei:closer]"
+                    <sqf:add use-when=".[following-sibling::*[position() = 1][self::tei:closer]]"
                         match="./following-sibling::tei:closer" position="first-child">
                         <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
                             <sqf:copy-of select="$postscript-content"/>
