@@ -794,10 +794,26 @@
                     </item>
                     <item>XML-based review <list>
                             <item>Open volume in oXygen</item>
+                            <item>Apply transformations for initial pass<list>
+                                    <item>01.</item>
+                                    <item>02.</item>
+                                    <item>03.</item>
+                                    <item>04.</item>
+                                </list>
+                            </item>
                             <item>Apply schema files and validate the file</item>
                             <item>Fix validation errors</item>
                             <item>Review structure</item>
                             <item>Silent corrections vs. Errata</item>
+                            <item>Apply transformations for secondary pass<list>
+                                    <item>05.</item>
+                                    <item>06.</item>
+                                    <item>07.</item>
+                                    <item>08.</item>
+                                    <item>09.</item>
+                                    <item>10.</item>
+                                </list>
+                            </item>
                         </list></item>
                 </list>
             </div>
@@ -1318,7 +1334,84 @@
                                 </valList>
                             </attDef>
                         </attList>
+                    
+                    <!-- 
+                    constrain tei:date/@calendar
+                    -->
+                    
+                        <desc>Restrict @calendar values for tei:date elements</desc>
+                        <attList>
+                            <attDef ident="calendar" usage="opt" mode="add">
+                                <valList type="closed">
+                                    <valItem ident="brazil-republic">
+                                        <gloss>Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of Brazil. FRUS example(s): “the 23d of December, 1889, first year of the Republic”; “June 30, 1906, 18th of the Republic”</gloss>
+                                    </valItem>
+                                    <valItem ident="chinese-era">
+                                        <gloss>Prior to 1912, the Chinese dating system often referring to the reign or era of particular rulers of China. FRUS example(s): “Kuang Hsü, 26th year, 11th month, 24th day”</gloss>
+                                    </valItem>
+                                    <valItem ident="chinese-lunar">
+                                        <gloss>The Chinese calendar is a lunisolar calendar. While it has been supplanted by the Gregorian calendar for civil purposes, the Chinese calendar is still used in the determination of community events such as festivals.FRUS example(s): “Eighth moon, 28th day (October 10, 1901)”; “Kuanghsü XXX year, first moon, 23d day”</gloss>
+                                    </valItem>
+                                    <valItem ident="chinese-republic">
+                                        <gloss>Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of China. FRUS example(s): “March 10, 1st year of the Republic of China [1912]”; “March 27, 1916 (27th day of the third month of the fifth year of the Chinese Republic)”</gloss>
+                                    </valItem>
+                                    <valItem ident="ethiopian-geez">
+                                        <gloss>The Ethiopian Ge’ez calendar is used in Ethiopia's civil society as well as the Orthodox Church in Ethiopia and Eritrea. The solar-based Ethiopian calendar is related to the Coptic and Julian calendars. FRUS example(s): “Written 15th Tehsass 1907 (Abyssinian date) Year of Grace Adis Ababa.”; “22nd of Mazia, 1919 (April 30, 1927)”</gloss>
+                                    </valItem>
+                                    <valItem ident="gregorian">
+                                        <gloss>The Gregorian calendar is widely used worldwide and is the calendar system used in the international standard for dates and times (ISO 8601).  The solar-based Gregorian calendar is also known as the Western calendar or Christian calendar. Because the U.S. Department of State is headquartered in the United States, the majority of datelines in FRUS refer to the Gregorian calendar or have parallel date statements. FRUS example(s): “the 27th of April, 1904”; “September 21, 1982, 1345Z”; “this thirtieth day of November, in the year of our Lord one thousand nine hundred and eighteen”</gloss>
+                                    </valItem>
+                                    <valItem ident="haitian-republic">
+                                        <gloss>Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of Haiti (originally Hayti). FRUS example(s): “August 28, year 103 of the independence”; “the 28th of May, 1890, the eighty-seventh year of independence”</gloss>
+                                    </valItem>
+                                    <valItem ident="hijri">
+                                        <gloss>The Islamic calendar, or Hijri or Muslim calendar, is a lunar calendar, whose time reckoning is tied to the phases of the Earth's moon.  The Hijri calendar is used by many Muslim-majority countries and by Muslims around the world to determine the dates of religious events and observances. FRUS example(s): “Year 1319, Jamad-el-Ewel the third”; “27 Babee El Thani 1361 (13 May 1942)”</gloss>
+                                    </valItem>
+                                    <valItem ident="iranian-persian">
+                                        <gloss>The Solar Hijri calendar, or Persian or Iranian calendar, is a solar calendar, whose time reckoning is tied to the Earth's movements around its sun. The Persian calendar is officially used in Iran and Afghanistan. FRUS example(s): “Khordad 29, 1306/June 20, 1927”; “October 9, 1938 (Mehrmah, 17, 1317)”</gloss>
+                                    </valItem>
+                                    <valItem ident="japanese-nengō">
+                                        <gloss>The Japanese nengō is a periodization system that, during the FRUS timeframe, is based on the reign of Japanese emperors. FRUS example(s): “the 10th day of the 2nd month of the 37th year of Meiji (1904)”; “October 15, 15th Year of Showa”</gloss>
+                                    </valItem>
+                                    <valItem ident="julian">
+                                        <gloss>Reforming the lunar-based Roman calendar, the Julian calendar was solar-based and tied to the Earth's rotation around the sun. Proposed by Julius Ceasar, the Julian calendar was widely used throughout the Roman Empire and in Christian churches and gained dominance in Europe and European-sponsored settlements. While the Gregorian calendar was first introduced in 1582, the Julian calendar was maintained in some countries even through the 1930s. The Julian calendar is still used by the Russian Orthodox Church, the Berber people of North Africa, and on Mount Athos. FRUS example(s): “Russian calendar, February 3, 1904”; “October 30/17, 1904”</gloss>
+                                    </valItem>
+                                    <valItem ident="korean-era">
+                                        <gloss>Korean dating systems often referred to the reign or era of particular rulers of Korea. FRUS example(s): “Fifth year Kwang Mu, February 26”; “Twenty-fourth day of the sixth month of the fourth year of Lyung Heni”; “this 26th day of the seventh moon of the five hundred and third year of Ta Chosen [Korea]”</gloss>
+                                    </valItem>
+                                    <valItem ident="korean-lunar">
+                                        <gloss>Derived from the Chinese calendar, the traditional Korean calendar is a lunisolar calendar. FRUS example(s): “this 26th day of the seventh moon of the five hundred and third year of Ta Chosen [Korea]”</gloss>
+                                    </valItem>
+                                    <valItem ident="liberian-republic">
+                                        <gloss>Official documents such as treaties may include a parallel date phrase referencing the year of the republic of Liberia. FRUS example(s): “this 7th day of April in the Year of our Lord One Thousand Nine Hundred and Thirty and of the Republic the Eighty-Third”</gloss>
+                                    </valItem>
+                                    <valItem ident="masonic-anno-lucis">
+                                        <gloss>Among the different Masonic calendars, Anno Lucis (A.L. or A:.L:. or the year of light) is used by Freemasons in Scotland, England, Ireland, France, Germany, and the United States. The “year of light” refers to a particular Biblical interpretation of the creation of the world (~4000 BCE). FRUS example(s): “24th day of the 3d month, in the year of light 5865”</gloss>
+                                    </valItem>
+                                    <valItem ident="papal-era">
+                                        <gloss>Papal era dates referred to the year in relation to the term of the current Catholic pope. FRUS example(s): “die XX Maii MDCCCLXXIII Pontificatus Nostri anno vicesimo septimo”; “the 29th day of July, 1853, in the eighth year of our pontificate”</gloss>
+                                    </valItem>
+                                    <valItem ident="roman">
+                                        <gloss>The Roman calendar was used by the Roman Kingdom and Roman Republic. Roman dates were referenced by their distance from one of three principal days: the nones (fifth or seventh, depending on the length of the month), the ides (the thirteenth or fifteenth of a month), and the kalends (the first of the next month). FRUS example(s): “in the year of the incarnation of our Lord, one thousand eight hundred and forty, on the fifth day before the kalends of May (27th April, 1840)”</gloss>
+                                    </valItem>
+                                    <valItem ident="rumi">
+                                        <gloss>FRUS example(s): “Nissan, 21, 1325.
+ (May 5, 1909.)”</gloss>
+                                    </valItem>
+                                    <valItem ident="thai-era">
+                                        <gloss>FRUS example(s): “the 31st day of March, Ratanakosindr Sok, 123”; “”</gloss>
+                                    </valItem>
+                                    <valItem ident="tibetan-phugpa">
+                                        <gloss>FRUS example(s): “13th Day of 1st month, Water Sheep Year. (Corresponding to February 1943.)”; “25th of 8th month Fire-Pig Tibetan Year [1947]”</gloss>
+                                    </valItem>
+                                    <valItem ident="us-republic">
+                                        <gloss>FRUS example(s): “”; “this thirtieth day of November, in the year of our Lord one thousand nine hundred and eighteen, and of the Independence of the United States of America the one hundred and fortythird”</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
                     </elementSpec>
+                    
 
                     <!-- 
                     constrain tei:head/@ana
