@@ -36,9 +36,9 @@
         </rule>
         <rule context="tei:date[@calendar]">
             <assert role="warn"
-                test="tokenize(./@calendar) = ('brazil-republic', 'chinese-era', 'chinese-lunisolar', 'chinese-republic', 'ethiopian-geez', 'gregorian', 'haitian-republic', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunisolar', 'masonic-anno-lucis', 'papal-era', 'roman', 'rumi', 'thai-era', 'tibetan-phugpa', 'us-republic')"
+                test="tokenize(./@calendar) = ('brazilian-republic', 'chinese-era', 'chinese-lunisolar', 'chinese-republic', 'ethiopian-geez', 'gregorian', 'haitian-republic', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunisolar', 'masonic-anno-lucis', 'papal-era', 'roman', 'rumi', 'thai-era', 'tibetan-phugpa', 'us-republic')"
                     >date/@calendar='<value-of select="@calendar"/>' is an invalid value. Only the
-                following values are allowed: brazil-republic, chinese-era, chinese-lunisolar,
+                following values are allowed: brazilian-republic, chinese-era, chinese-lunisolar,
                 chinese-republic, ethiopian-geez, gregorian, haitian-republic, hijri,
                 iranian-persian, japanese-nengō, julian, korean-era, korean-lunisolar,
                 masonic-anno-lucis, papal-era, roman, rumi, thai-era, tibetan-phugpa, us-republic.
