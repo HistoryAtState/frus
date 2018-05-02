@@ -36,12 +36,13 @@
         </rule>
         <rule context="tei:date[@calendar]">
             <assert role="warn"
-                test="tokenize(./@calendar) = ('chinese-era', 'chinese-lunar', 'ethiopian-ge&#8217;ez', 'gregorian', 'haitian-era', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunar', 'masonic-anno-lucis', 'papal-era', 'roman', 'rumi', 'thai-era', 'tibetan-phugpa')"
+                test="tokenize(./@calendar) = ('brazil-republic', 'chinese-era', 'chinese-lunisolar', 'chinese-republic', 'ethiopian-geez', 'gregorian', 'haitian-republic', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunisolar', 'masonic-anno-lucis', 'papal-era', 'roman', 'rumi', 'thai-era', 'tibetan-phugpa', 'us-republic')"
                     >date/@calendar='<value-of select="@type"/>' is an invalid value. Only the
-                following values are allowed: chinese-era, chinese-lunar, ethiopian-ge&#8217;ez,
-                gregorian, haitian-era, hijri, iranian-persian, japanese-nengō, julian, korean-era,
-                korean-lunar, masonic-anno-lucis, papal-era, roman, rumi, thai-era, tibetan-phugpa.
-                If you need to add additional calendar value(s), please add to frus.sch,
+                following values are allowed: brazil-republic, chinese-era, chinese-lunisolar,
+                chinese-republic, ethiopian-geez, gregorian, haitian-republic, hijri,
+                iranian-persian, japanese-nengō, julian, korean-era, korean-lunisolar,
+                masonic-anno-lucis, papal-era, roman, rumi, thai-era, tibetan-phugpa, us-republic.
+                If you need to add additional calendar value(s), please add to frus.odd, frus.sch,
                 dates-only.sch, and dates-only-initial-review.sch</assert>
         </rule>
     </pattern>
@@ -320,12 +321,12 @@
 
                 <sqf:fix
                     use-when=".[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung Chi|Guangxu|Kuanghsü|Kuang Hsü|Kuang Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')][matches(., 'moon')]"
-                    id="add-chinese-era-chinese-lunar">
+                    id="add-chinese-era-chinese-lunisolar">
                     <sqf:description>
-                        <sqf:title>Add @calendar="chinese-era chinese-lunar"</sqf:title>
+                        <sqf:title>Add @calendar="chinese-era chinese-lunisolar"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">chinese-era
-                        chinese-lunar</sqf:add>
+                        chinese-lunisolar</sqf:add>
                 </sqf:fix>
 
                 <sqf:fix
@@ -1064,7 +1065,8 @@
                         match="./following-sibling::tei:closer" position="first-child">
                         <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
                             <sqf:copy-of select="$last-paragraph-content"/>
-                        </dateline><lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                        </dateline>
+                        <lb xmlns="http://www.tei-c.org/ns/1.0"/>
                     </sqf:add>
                     <sqf:delete match="."/>
                 </sqf:fix>
@@ -1130,8 +1132,8 @@
                     </sqf:description>
                     <sqf:add use-when=".[preceding-sibling::tei:closer]"
                         match="./preceding-sibling::tei:closer" position="last-child">
-                        <lb xmlns="http://www.tei-c.org/ns/1.0"/><dateline
-                            xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
+                        <lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                        <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
                             <sqf:copy-of select="$postscript-content"/>
                         </dateline>
                     </sqf:add>
@@ -1152,7 +1154,8 @@
                         match="./following-sibling::tei:closer" position="first-child">
                         <dateline xmlns="http://www.tei-c.org/ns/1.0" rendition="#left">
                             <sqf:copy-of select="$postscript-content"/>
-                        </dateline><lb xmlns="http://www.tei-c.org/ns/1.0"/>
+                        </dateline>
+                        <lb xmlns="http://www.tei-c.org/ns/1.0"/>
                     </sqf:add>
                     <sqf:delete match="$postscript-content"/>
                     <sqf:add node-type="comment">The date phrase has been added to the following

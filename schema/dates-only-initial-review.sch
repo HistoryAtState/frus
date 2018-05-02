@@ -27,13 +27,14 @@
         </rule>
         <rule context="tei:date[@calendar]">
             <assert role="warn"
-                test="tokenize(./@calendar) = ('chinese-era', 'chinese-lunar', 'ethiopian-ge&#8217;ez', 'gregorian', 'haitian-era', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunar', 'masonic-anno-lucis', 'rumi', 'thai-era', 'tibetan-phugpa')"
+                test="tokenize(./@calendar) = ('brazil-republic', 'chinese-era', 'chinese-lunisolar', 'chinese-republic', 'ethiopian-geez', 'gregorian', 'haitian-republic', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunisolar', 'masonic-anno-lucis', 'papal-era', 'roman', 'rumi', 'thai-era', 'tibetan-phugpa', 'us-republic')"
                     >date/@calendar='<value-of select="@type"/>' is an invalid value. Only the
-                following values are allowed: chinese-era, chinese-lunar, ethiopian-ge&#8217;ez,
-                gregorian, haitian-era, hijri, iranian-persian, japanese-nengō, julian, korean-era,
-                korean-lunar, masonic-anno-lucis, rumi, thai-era, tibetan-phugpa. If you need to add
-                additional calendar value(s), please add to frus.sch, dates-only.sch, and
-                dates-only-initial-review.sch</assert>
+                following values are allowed: brazil-republic, chinese-era, chinese-lunisolar,
+                chinese-republic, ethiopian-geez, gregorian, haitian-republic, hijri,
+                iranian-persian, japanese-nengō, julian, korean-era, korean-lunisolar,
+                masonic-anno-lucis, papal-era, roman, rumi, thai-era, tibetan-phugpa, us-republic.
+                If you need to add additional calendar value(s), please add to frus.sch,
+                dates-only.sch, and dates-only-initial-review.sch</assert>
         </rule>
     </pattern>
 
