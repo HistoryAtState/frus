@@ -965,7 +965,7 @@
 
                     <!-- 
                     add frus:attachment
-                -->
+                    -->
                     <elementSpec mode="add" ident="attachment"
                         ns="http://history.state.gov/frus/ns/1.0">
                         <desc>Indicates the segment of a document where an attachment begins. To be
@@ -1032,7 +1032,7 @@
 
                     <!-- 
                     constrain tei:list/@type
-                -->
+                    -->
                     <elementSpec ident="list" module="core" mode="change">
                         <desc>Restrict @type values for tei:list elements</desc>
                         <attList>
@@ -1080,7 +1080,7 @@
 
                     <!-- 
                     constrain tei:div/@type
-                -->
+                    -->
                     <elementSpec ident="div" module="core" mode="change">
                         <desc>Restrict @type values for tei:div elements</desc>
                         <attList>
@@ -1127,7 +1127,7 @@
 
                     <!-- 
                     constrain tei:hi/@rend
-                -->
+                    -->
                     <elementSpec ident="hi" module="core" mode="change">
                         <desc>Restrict @rend values for tei:hi elements</desc>
                         <attList>
@@ -1161,7 +1161,7 @@
 
                     <!-- 
                     constrain tei:p/@rend
-                -->
+                    -->
                     <elementSpec ident="p" module="core" mode="change">
                         <desc>Restrict @rend values for tei:p elements</desc>
                         <attList>
@@ -1535,10 +1535,13 @@
                                         <gloss>Official documents such as treaties may include a
                                             parallel date phrase referring to the year in relation
                                             to the independence of the United States (1776).</gloss>
-                                        <desc>FRUS example(s): “”; “this thirtieth day of November,
-                                            in the year of our Lord one thousand nine hundred and
-                                            eighteen, and of the Independence of the United States
-                                            of America the one hundred and fortythird”</desc>
+                                        <desc>FRUS example(s): “this 16th day of January, in the
+                                            year of our Lord one thousand eight hundred and
+                                            eighty-eight, and of the independence of the United
+                                            States the one hundred and twelfth”; “this 28th day of
+                                            May, in the year of our Lord nineteen hundred and
+                                            forty-one, and of the Independence of the United States
+                                            of America the one hundred and sixty-fifth”</desc>
                                     </valItem>
                                 </valList>
                             </attDef>
