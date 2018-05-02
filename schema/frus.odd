@@ -1336,20 +1336,23 @@
                         </attList>
 
                         <!-- 
-                    constrain tei:date/@calendar
-                    -->
+                            constrain tei:date/@calendar
+                        -->
 
                         <desc>Restrict @calendar values for tei:date elements</desc>
                         <attList>
-                            <attDef ident="calendar" usage="opt" mode="add">
-                                <valList type="closed">
+                            <attDef ident="calendar" usage="rec" mode="add">
+                                <datatype>
+                                    <dataRef name="token"/>
+                                </datatype>
+                                <valList type="semi">
                                     <valItem ident="brazil-republic">
                                         <gloss>Official documents such as treaties may include a
                                             parallel date phrase referring to the year in relation
-                                            to the establishment of the republic of Brazil. FRUS
-                                            example(s): “the 23d of December, 1889, first year of
-                                            the Republic”; “June 30, 1906, 18th of the
-                                            Republic”</gloss>
+                                            to the establishment of the republic of Brazil.</gloss>
+                                        <desc>FRUS example(s): “the 23d of December, 1889, first
+                                            year of the Republic”; “June 30, 1906, 18th of the
+                                            Republic”</desc>
                                     </valItem>
                                     <valItem ident="chinese-era">
                                         <gloss>Prior to 1912, the Chinese dating system often
@@ -1361,26 +1364,27 @@
                                         <gloss>The Chinese calendar is a lunisolar calendar. While
                                             it has been supplanted by the Gregorian calendar for
                                             civil purposes, the Chinese calendar is still used in
-                                            the determination of community events such as festivals.
-                                            FRUS example(s): “Eighth moon, 28th day (October 10,
-                                            1901)”; “Kuanghsü XXX year, first moon, 23d day”</gloss>
+                                            the determination of community events such as
+                                            festivals.</gloss>
+                                        <desc>FRUS example(s): “Eighth moon, 28th day (October 10,
+                                            1901)”; “Kuanghsü XXX year, first moon, 23d day”</desc>
                                     </valItem>
                                     <valItem ident="chinese-republic">
                                         <gloss>Official documents such as treaties may include a
                                             parallel date phrase referring to the year in relation
-                                            to the establishment of the republic of China. FRUS
-                                            example(s): “March 10, 1st year of the Republic of China
-                                            [1912]”; “March 27, 1916 (27th day of the third month of
-                                            the fifth year of the Chinese Republic)”</gloss>
+                                            to the establishment of the republic of China.</gloss>
+                                        <desc>FRUS example(s): “March 10, 1st year of the Republic
+                                            of China [1912]”; “March 27, 1916 (27th day of the third
+                                            month of the fifth year of the Chinese Republic)”</desc>
                                     </valItem>
                                     <valItem ident="ethiopian-geez">
                                         <gloss>The Ethiopian Ge’ez calendar is used in Ethiopia's
                                             civil society as well as the Orthodox Church in Ethiopia
                                             and Eritrea. The solar-based Ethiopian calendar is
-                                            related to the Coptic and Julian calendars. FRUS
-                                            example(s): “Written 15th Tehsass 1907 (Abyssinian date)
-                                            Year of Grace Adis Ababa.”; “22nd of Mazia, 1919 (April
-                                            30, 1927)”</gloss>
+                                            related to the Coptic and Julian calendars.</gloss>
+                                        <desc>FRUS example(s): “Written 15th Tehsass 1907
+                                            (Abyssinian date) Year of Grace Adis Ababa.”; “22nd of
+                                            Mazia, 1919 (April 30, 1927)”</desc>
                                     </valItem>
                                     <valItem ident="gregorian">
                                         <gloss>The Gregorian calendar is widely used worldwide and
@@ -1390,19 +1394,20 @@
                                             or Christian calendar. Because the U.S. Department of
                                             State is headquartered in the United States, the
                                             majority of datelines in FRUS refer to the Gregorian
-                                            calendar or have parallel date statements. FRUS
-                                            example(s): “the 27th of April, 1904”; “September 21,
-                                            1982, 1345Z”; “this thirtieth day of November, in the
-                                            year of our Lord one thousand nine hundred and
-                                            eighteen”</gloss>
+                                            calendar or have parallel date statements.</gloss>
+                                        <desc>FRUS example(s): “the 27th of April, 1904”; “September
+                                            21, 1982, 1345Z”; “this thirtieth day of November, in
+                                            the year of our Lord one thousand nine hundred and
+                                            eighteen”</desc>
                                     </valItem>
                                     <valItem ident="haitian-republic">
                                         <gloss>Official documents such as treaties may include a
                                             parallel date phrase referring to the year in relation
                                             to the establishment of the republic of Haiti
-                                            (originally Hayti). FRUS example(s): “August 28, year
-                                            103 of the independence”; “the 28th of May, 1890, the
-                                            eighty-seventh year of independence”</gloss>
+                                            (originally Hayti).</gloss>
+                                        <desc>FRUS example(s): “August 28, year 103 of the
+                                            independence”; “the 28th of May, 1890, the
+                                            eighty-seventh year of independence”</desc>
                                     </valItem>
                                     <valItem ident="hijri">
                                         <gloss>The Islamic calendar, or Hijri or Muslim calendar, is
@@ -1410,24 +1415,26 @@
                                             phases of the Earth's moon. The Hijri calendar is used
                                             by many Muslim-majority countries and by Muslims around
                                             the world to determine the dates of religious events and
-                                            observances. FRUS example(s): “Year 1319, Jamad-el-Ewel
-                                            the third”; “27 Babee El Thani 1361 (13 May
-                                            1942)”</gloss>
+                                            observances.</gloss>
+                                        <desc>FRUS example(s): “Year 1319, Jamad-el-Ewel the third”;
+                                            “27 Babee El Thani 1361 (13 May 1942)”</desc>
                                     </valItem>
                                     <valItem ident="iranian-persian">
                                         <gloss>The Solar Hijri calendar, or Persian or Iranian
                                             calendar, is a solar calendar, whose time reckoning is
                                             tied to the Earth's movements around its sun. The
                                             Persian calendar is officially used in Iran and
-                                            Afghanistan. FRUS example(s): “Khordad 29, 1306/June 20,
-                                            1927”; “October 9, 1938 (Mehrmah, 17, 1317)”</gloss>
+                                            Afghanistan.</gloss>
+                                        <desc>FRUS example(s): “Khordad 29, 1306/June 20, 1927”;
+                                            “October 9, 1938 (Mehrmah, 17, 1317)”</desc>
                                     </valItem>
                                     <valItem ident="japanese-nengō">
                                         <gloss>The Japanese nengō is a periodization system that,
                                             during the FRUS timeframe, is based on the reign of
-                                            Japanese emperors. FRUS example(s): “the 10th day of the
-                                            2nd month of the 37th year of Meiji (1904)”; “October
-                                            15, 15th Year of Showa”</gloss>
+                                            Japanese emperors.</gloss>
+                                        <desc>FRUS example(s): “the 10th day of the 2nd month of the
+                                            37th year of Meiji (1904)”; “October 15, 15th Year of
+                                            Showa”</desc>
                                     </valItem>
                                     <valItem ident="julian">
                                         <gloss>Reforming the lunar-based Roman calendar, the Julian
@@ -1440,31 +1447,33 @@
                                             Julian calendar was maintained in some countries even
                                             through the 1930s. The Julian calendar is still used by
                                             the Russian Orthodox Church, the Berber people of North
-                                            Africa, and on Mount Athos. FRUS example(s): “Russian
-                                            calendar, February 3, 1904”; “October 30/17,
-                                            1904”</gloss>
+                                            Africa, and on Mount Athos.</gloss>
+                                        <desc>FRUS example(s): “Russian calendar, February 3, 1904”;
+                                            “October 30/17, 1904”</desc>
                                     </valItem>
                                     <valItem ident="korean-era">
                                         <gloss>Korean dating systems often referred to the reign or
-                                            era of particular rulers of Korea. FRUS example(s):
-                                            “Fifth year Kwang Mu, February 26”; “Twenty-fourth day
-                                            of the sixth month of the fourth year of Lyung Heni”;
-                                            “this 26th day of the seventh moon of the five hundred
-                                            and third year of Ta Chosen [Korea]”</gloss>
+                                            era of particular rulers of Korea.</gloss>
+                                        <desc>FRUS example(s): “Fifth year Kwang Mu, February 26”;
+                                            “Twenty-fourth day of the sixth month of the fourth year
+                                            of Lyung Heni”; “this 26th day of the seventh moon of
+                                            the five hundred and third year of Ta Chosen
+                                            [Korea]”</desc>
                                     </valItem>
                                     <valItem ident="korean-lunisolar">
                                         <gloss>Derived from the Chinese calendar, the traditional
-                                            Korean calendar is a lunisolar calendar. FRUS
-                                            example(s): “this 26th day of the seventh moon of the
-                                            five hundred and third year of Ta Chosen
-                                            [Korea]”</gloss>
+                                            Korean calendar is a lunisolar calendar.</gloss>
+                                        <desc>FRUS example(s): “this 26th day of the seventh moon of
+                                            the five hundred and third year of Ta Chosen
+                                            [Korea]”</desc>
                                     </valItem>
                                     <valItem ident="liberian-republic">
                                         <gloss>Official documents such as treaties may include a
                                             parallel date phrase referencing the year of the
-                                            republic of Liberia. FRUS example(s): “this 7th day of
-                                            April in the Year of our Lord One Thousand Nine Hundred
-                                            and Thirty and of the Republic the Eighty-Third”</gloss>
+                                            republic of Liberia.</gloss>
+                                        <desc>FRUS example(s): “this 7th day of April in the Year of
+                                            our Lord One Thousand Nine Hundred and Thirty and of the
+                                            Republic the Eighty-Third”</desc>
                                     </valItem>
                                     <valItem ident="masonic-anno-lucis">
                                         <gloss>Among the different Masonic calendars, Anno Lucis
@@ -1472,47 +1481,64 @@
                                             Freemasons in Scotland, England, Ireland, France,
                                             Germany, and the United States. The “year of light”
                                             refers to a particular Biblical interpretation of the
-                                            creation of the world (~4000 BCE). FRUS example(s):
-                                            “24th day of the 3d month, in the year of light
-                                            5865”</gloss>
+                                            creation of the world (~4000 BCE).</gloss>
+                                        <desc>FRUS example(s): “24th day of the 3d month, in the
+                                            year of light 5865”</desc>
                                     </valItem>
                                     <valItem ident="papal-era">
                                         <gloss>Papal era dates referred to the year in relation to
-                                            the term of the current Catholic pope. FRUS example(s):
-                                            “die XX Maii MDCCCLXXIII Pontificatus Nostri anno
-                                            vicesimo septimo”; “the 29th day of July, 1853, in the
-                                            eighth year of our pontificate”</gloss>
+                                            the term of the current Catholic pope.</gloss>
+                                        <desc>FRUS example(s): “die XX Maii MDCCCLXXIII Pontificatus
+                                            Nostri anno vicesimo septimo”; “the 29th day of July,
+                                            1853, in the eighth year of our pontificate”</desc>
                                     </valItem>
                                     <valItem ident="roman">
                                         <gloss>The Roman calendar was used by the Roman Kingdom and
                                             Roman Republic. Roman dates were referenced by their
-                                            distance from one of three principal days: the nones
-                                            (fifth or seventh, depending on the length of the
-                                            month), the ides (the thirteenth or fifteenth of a
-                                            month), and the kalends (the first of the next month).
-                                            FRUS example(s): “in the year of the incarnation of our
-                                            Lord, one thousand eight hundred and forty, on the fifth
-                                            day before the kalends of May (27th April,
-                                            1840)”</gloss>
+                                            duration from one of three key days: the nones (fifth or
+                                            seventh, depending on the length of the month), the ides
+                                            (the thirteenth or fifteenth of a month), and the
+                                            kalends (the first of the next month).</gloss>
+                                        <desc>FRUS example(s): “in the year of the incarnation of
+                                            our Lord, one thousand eight hundred and forty, on the
+                                            fifth day before the kalends of May (27th April,
+                                            1840)”</desc>
                                     </valItem>
                                     <valItem ident="rumi">
-                                        <gloss>FRUS example(s): “Nissan, 21, 1325. (May 5,
-                                            1909.)”</gloss>
+                                        <gloss>The Rumi calendar (Rumi takvim), a hsolar calendar
+                                            based on the Julian calendar but with year one
+                                            corresponding to 622 A.D., This calendar was used by the
+                                            Ottoman Empire and its successor, the Republic of
+                                            Turkey, from 1839 to 1926. </gloss>
+                                        <desc>FRUS example(s): “Nissan, 21, 1325. (May 5,
+                                            1909.)”</desc>
                                     </valItem>
                                     <valItem ident="thai-era">
-                                        <gloss>FRUS example(s): “the 31st day of March,
-                                            Ratanakosindr Sok, 123”; “”</gloss>
+                                        <gloss>Official documents such as treaties may include a
+                                            parallel date phrase referring to the year in relation
+                                            to the 1782 establishment of the Rattanakosin Kingdom
+                                            (Siam and, later, the Kingdom of Thailand).</gloss>
+                                        <desc>FRUS example(s): “the 31st day of March, Ratanakosindr
+                                            Sok, 123”</desc>
                                     </valItem>
                                     <valItem ident="tibetan-phugpa">
-                                        <gloss>FRUS example(s): “13th Day of 1st month, Water Sheep
+                                        <gloss>Introduced in 1447, the lunisolar Tibetan phugpa
+                                            calendar is modified from Indian calendar systems and
+                                            based on the Kālacakra Tantra. In the phugpa calendar,
+                                            each year is associated with an element and an animal;
+                                            pairings recur in 60-year cycles.</gloss>
+                                        <desc>FRUS example(s): “13th Day of 1st month, Water Sheep
                                             Year. (Corresponding to February 1943.)”; “25th of 8th
-                                            month Fire-Pig Tibetan Year [1947]”</gloss>
+                                            month Fire-Pig Tibetan Year [1947]”</desc>
                                     </valItem>
                                     <valItem ident="us-republic">
-                                        <gloss>FRUS example(s): “”; “this thirtieth day of November,
+                                        <gloss>Official documents such as treaties may include a
+                                            parallel date phrase referring to the year in relation
+                                            to the independence of the United States (1776).</gloss>
+                                        <desc>FRUS example(s): “”; “this thirtieth day of November,
                                             in the year of our Lord one thousand nine hundred and
                                             eighteen, and of the Independence of the United States
-                                            of America the one hundred and fortythird”</gloss>
+                                            of America the one hundred and fortythird”</desc>
                                     </valItem>
                                 </valList>
                             </attDef>
