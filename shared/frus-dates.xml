@@ -14,6 +14,7 @@
         </fileDesc>
         <encodingDesc>
             <classDecl>
+                <!-- Taxonomy for date/@ana values -->
                 <taxonomy xml:id="frus-dates">
                     <category xml:id="date_apparent-typo-based-on-document-content">
                         <catDesc>The recorded date was determined to be an error via content of the
@@ -136,6 +137,63 @@
                             can be conducted on an individual document level.)</catDesc>
                     </category>
                     <!-- other categories -->
+                </taxonomy>
+                <!-- Taxonomy for date/@calendar values -->
+                <taxonomy xml:id="frus-calendars">
+                    <category xml:id="chinese-era">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="chinese-lunisolar">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="ethiopian-geez">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="gregorian">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="haitian-era">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="hijri">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="iranian-persian">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="japanese-nengō">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="julian">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="korean-era">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="korean-lunisolar">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="masonic-anno-lucis">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="papal-era">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="roman">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="rumi">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="thai-era">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="tibetan-phugpa">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="us-era">
+                        <catDesc/>
+                    </category>
                 </taxonomy>
             </classDecl>
         </encodingDesc>

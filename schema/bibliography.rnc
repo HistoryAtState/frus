@@ -37,144 +37,167 @@ start =
         element isbn10 { text },
         element isbn13 { text },
         element media {
-            attribute type { 
+            attribute type {
+                
                 ## Printed Volume
-                "print" | 
-                ## Microfiche Volume
-                "microfiche" | 
-                ## Electronic-only Volume
-                "epub" }
+                "print"
+                | 
+                  ## Microfiche Volume
+                  "microfiche"
+                | 
+                  ## Electronic-only Volume
+                  "epub"
+            }
         },
-        element publication-status { 
+        element publication-status {
+            
             ## Volume is being planned (research has not begun)
-            "being-planned-research-not-yet-begun" |
-            ## Volume is being researched or prepared
-            "being-researched-or-prepared" |
-            ## Volume has entered declassification
-            "under-declassification" |
-            ## Volume is in production
-            "in-production" |
-            ## Volume has been published online and/or in print
-            "published"
+            "being-planned-research-not-yet-begun"
+            | 
+              ## Volume is being researched or prepared
+              "being-researched-or-prepared"
+            | 
+              ## Volume has entered declassification
+              "under-declassification"
+            | 
+              ## Volume is in production
+              "in-production"
+            | 
+              ## Volume has been published online and/or in print
+              "published"
         },
         element public-target-publication-year { xsd:gYear? },
         element published-year { xsd:gYear? },
         element published-date { xsd:date? },
-        element administration { 
+        element administration {
+            
             ## pre-Truman
-            "pre-truman" |
-            ## Truman
-            "truman" |
-            ## Eisenhower
-            "eisenhower" |
-            ## Kennedy
-            "kennedy" |
-            ## Johnson
-            "johnson" |
-            ## Nixon-Ford
-            "nixon-ford" |
-            ## Carter
-            "carter" |
-            ## Reagan
-            "reagan" |
-            ## Bush
-            "bush-41"
+            "pre-truman"
+            | 
+              ## Truman
+              "truman"
+            | 
+              ## Eisenhower
+              "eisenhower"
+            | 
+              ## Kennedy
+              "kennedy"
+            | 
+              ## Johnson
+              "johnson"
+            | 
+              ## Nixon-Ford
+              "nixon-ford"
+            | 
+              ## Carter
+              "carter"
+            | 
+              ## Reagan
+              "reagan"
+            | 
+              ## Bush
+              "bush-41"
         }+,
         element grouping {
-            attribute administration { 
+            attribute administration {
                 list {
                     (
-                        ## pre-Truman
-                        "pre-truman" |
-                        ## Truman
-                        "truman" |
-                        ## Eisenhower
-                        "eisenhower" |
-                        ## Kennedy
-                        "kennedy" |
-                        ## Johnson
-                        "johnson" |
-                        ## Nixon-Ford
-                        "nixon-ford" |
-                        ## Carter
-                        "carter" |
-                        ## Reagan
-                        "reagan" |
-                        ## Bush
-                        "bush-41"
-                    )+
+                     ## pre-Truman
+                     "pre-truman"
+                     | 
+                       ## Truman
+                       "truman"
+                     | 
+                       ## Eisenhower
+                       "eisenhower"
+                     | 
+                       ## Kennedy
+                       "kennedy"
+                     | 
+                       ## Johnson
+                       "johnson"
+                     | 
+                       ## Nixon-Ford
+                       "nixon-ford"
+                     | 
+                       ## Carter
+                       "carter"
+                     | 
+                       ## Reagan
+                       "reagan"
+                     | 
+                       ## Bush
+                       "bush-41")+
                 }
             },
             xsd:NCName
         }+,
-        (
-            element coverage { xsd:gYear } |
-            (
-                element coverage {
-                    attribute type { "from" },
-                    xsd:gYear
-                },
-                element coverage {
-                    attribute type { "to" },
-                    xsd:gYear
-                }
-            )
-        )
-        ,
+        (element coverage { xsd:gYear }
+         | (element coverage {
+                attribute type { "from" },
+                xsd:gYear
+            },
+            element coverage {
+                attribute type { "to" },
+                xsd:gYear
+            })),
         element length {
             element span {
-                attribute part { 
+                attribute part {
+                    
                     ## Front matter (typically numbered with Roman Numerals)
-                    "front" | 
-                    ## Body (includes index, with page numbering continuous with Arabic Numerals) 
-                    "body" |
-                    ## The whole volume (used for electronic-only volumes that were not typeset)
-                    "whole"
+                    "front"
+                    | 
+                      ## Body (includes index, with page numbering continuous with Arabic Numerals) 
+                      "body"
+                    | 
+                      ## The whole volume (used for electronic-only volumes that were not typeset)
+                      "whole"
                 },
-                attribute unit { 
+                attribute unit {
+                    
                     ## Pages
-                    "pages" | 
-                    ## Characters (used to estimate cost of turning old electronic-only volumes into TEI)
-                    "characters" 
+                    "pages"
+                    | 
+                      ## Characters (used to estimate cost of turning old electronic-only volumes into TEI)
+                      "characters"
                 },
                 xsd:integer?
             }+
         },
         element summary {
             element tei:p {
-                (
-                    text |
-                    element tei:hi {
-                        attribute rend { 
-                            ## (Strong, bold) 
-                            "strong"
-                            | 
-                            ## (Italic, oblique) 
-                            "italic"
-                        },
-                        text
-                    } |
-                    element tei:ref {
-                        attribute target { xsd:anyURI },
-                        text
-                    } | 
-                    element tei:ref {
-                        attribute target { xsd:anyURI },
-                        (
-                            text | 
-                            element tei:hi {
-                                attribute rend { 
-                                    ## (Strong, bold) 
-                                    "strong"
-                                    | 
+                (text
+                 | element tei:hi {
+                       attribute rend {
+                           
+                           ## (Strong, bold) 
+                           "strong"
+                           | 
+                             ## (Italic, oblique) 
+                             "italic"
+                       },
+                       text
+                   }
+                 | element tei:ref {
+                       attribute target { xsd:anyURI },
+                       text
+                   }
+                 | element tei:ref {
+                       attribute target { xsd:anyURI },
+                       (text
+                        | element tei:hi {
+                              attribute rend {
+                                  
+                                  ## (Strong, bold) 
+                                  "strong"
+                                  | 
                                     ## (Italic, oblique) 
                                     "italic"
-                                },
-                                text
-                            }
-                        )+
-                    }
-                )+
+                              },
+                              text
+                          })+
+                   })+
             }*
         }?,
         element index-cross-reference-unit { text }?,
