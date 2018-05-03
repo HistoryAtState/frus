@@ -288,7 +288,7 @@
                 or phrase possibly indicating a Ethopian ge’ez calendar reference.</assert>
 
             <assert role="info"
-                test="not(.[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|dey|Dey|bahman|Bahman|esfand|Esfand|Espand', 'i')])"
+                test="not(.[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|[^A-z]dey[^A-z]|[^A-z]Dey[^A-z]|bahman|Bahman|esfand|Esfand|Espand', 'i')])"
                 sqf:fix="add-calendar-attribute-iranian-persian">[FYI] This &lt;date&gt; has a word
                 or phrase possibly indicating an Iranian/Persian (Solar Hijri) calendar
                 reference.</assert>
@@ -374,7 +374,7 @@
                 </sqf:fix>
 
                 <sqf:fix
-                    use-when=".[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|dey|Dey|bahman|Bahman|esfand|Esfand|Espand', 'i')]"
+                    use-when=".[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|[^A-z]dey[^A-z]|[^A-z]Dey[^A-z]|bahman|Bahman|esfand|Esfand|Espand', 'i')]"
                     id="add-calendar-attribute-iranian-persian">
                     <sqf:description>
                         <sqf:title>Add @calendar="iranian-persian"</sqf:title>
