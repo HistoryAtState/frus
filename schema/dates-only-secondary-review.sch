@@ -288,7 +288,7 @@
                 or phrase possibly indicating a Ethopian ge’ez calendar reference.</assert>
 
             <assert role="info"
-                test="not(.[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|tir|Tir|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|mehr|Mehr|Mehrmah|âbân|Aban|Ābān|âzar|Azar|Āzar|dey|Dey|bahman|Bahman|esfand|Esfand|Espand', 'i')])"
+                test="not(.[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|[^A-z]dey[^A-z]|[^A-z]Dey[^A-z]|bahman|Bahman|esfand|Esfand|Espand', 'i')])"
                 sqf:fix="add-calendar-attribute-iranian-persian">[FYI] This &lt;date&gt; has a word
                 or phrase possibly indicating an Iranian/Persian (Solar Hijri) calendar
                 reference.</assert>
@@ -317,7 +317,7 @@
                 possibly indicating a Roman calendar reference.</assert>
 
             <assert role="info"
-                test="not(.[matches(., 'Kânûn-ı\s+Sânî|Kanun-i Sani|Şubat|Subat|Mart|Nisan|Mayıs|Mayis|Haziran|Temmuz|Ağustos|Agustos|Eylül|EylulTeşrin-i\s+Evvel|Tesrin-i\s+Evvel|Teşrin-i\s+Sânî|Tesrin-i Sani|Kânûn-ı\s+Evvel|Kanun-i\s+Evvel', 'i')])"
+                test="not(.[matches(., 'Kânûn-ı\s+Sânî|Kanun-i Sani|Şubat|Subat|[^A-z]Mart[^A-z]|Nisan|Mayıs|Mayis|Haziran|Temmuz|Ağustos|Agustos|Eylül|EylulTeşrin-i\s+Evvel|Tesrin-i\s+Evvel|Teşrin-i\s+Sânî|Tesrin-i Sani|Kânûn-ı\s+Evvel|Kanun-i\s+Evvel', 'i')])"
                 sqf:fix="add-calendar-attribute-rumi">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Rumi calendar reference.</assert>
 
@@ -374,7 +374,7 @@
                 </sqf:fix>
 
                 <sqf:fix
-                    use-when=".[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|tir|Tir|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|mehr|Mehr|Mehrmah|âbân|Aban|Ābān|âzar|Azar|Āzar|dey|Dey|bahman|Bahman|esfand|Esfand|Espand', 'i')]"
+                    use-when=".[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|[^A-z]dey[^A-z]|[^A-z]Dey[^A-z]|bahman|Bahman|esfand|Esfand|Espand', 'i')]"
                     id="add-calendar-attribute-iranian-persian">
                     <sqf:description>
                         <sqf:title>Add @calendar="iranian-persian"</sqf:title>
@@ -426,7 +426,7 @@
                 </sqf:fix>
 
                 <sqf:fix
-                    use-when=".[matches(., 'Kânûn-ı\s+Sânî|Kanun-i Sani|Şubat|Subat|Mart|Nisan|Mayıs|Mayis|Haziran|Temmuz|Ağustos|Agustos|Eylül|EylulTeşrin-i\s+Evvel|Tesrin-i\s+Evvel|Teşrin-i\s+Sânî|Tesrin-i Sani|Kânûn-ı\s+Evvel|Kanun-i\s+Evvel', 'i')]"
+                    use-when=".[matches(., 'Kânûn-ı\s+Sânî|Kanun-i Sani|Şubat|Subat|[^A-z]Mart[^A-z]|Nisan|Mayıs|Mayis|Haziran|Temmuz|Ağustos|Agustos|Eylül|EylulTeşrin-i\s+Evvel|Tesrin-i\s+Evvel|Teşrin-i\s+Sânî|Tesrin-i Sani|Kânûn-ı\s+Evvel|Kanun-i\s+Evvel', 'i')]"
                     id="add-calendar-attribute-rumi">
                     <sqf:description>
                         <sqf:title>Add @calendar="rumi"</sqf:title>
