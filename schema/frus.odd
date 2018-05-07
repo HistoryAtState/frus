@@ -685,6 +685,106 @@
                             apply for the <gi>placeName</gi> and <gi>date</gi> elements given
                             above.</p>
                     </div>
+                    <div xml:id="dates">
+                        <head>Dates</head>
+                        <p>Dates are most often wrapped in the <gi>dateline</gi> elements.
+                            (Occasionally, quoted material may contain a <gi>date</gi> within
+                                <gi>quote</gi> but these encoded dates do not constitute a document
+                            date.)</p>
+                        <p>Dates must have one or more of the following attribute sets: <list>
+                                <item><att>when</att> attribute as xs:dateTime, xs:date, year-month
+                                    only (yyyy-mm), or year only (yyyy)<list>
+                                        <item>In cases where the <att>when</att> value is imprecise,
+                                            such as year only (yyyy) or year-month only (yyyy-mm),
+                                                <att>notBefore</att> and <att>notAfter</att>
+                                            attributes should be added as well as an <att>ana</att>
+                                            attribute containing an analytical category describing
+                                            the source of information used in enhancing the date
+                                            values</item>
+                                        <item>In cases where the date has been added to undated
+                                            documents or corrected from the original printing,
+                                                <att>ana</att> attribute should be added, containing
+                                            an analytical category describing the source of
+                                            information used in determining or correcting the date
+                                            values</item>
+                                    </list>
+                                </item>
+                                <item><att>from</att> and <att>to</att> attributes as xs:dateTime or
+                                    xs:date <list>
+                                        <item>In cases where the <att>from</att> and <att>to</att>
+                                            have been added to undated documents or corrected from
+                                            the original printing, <att>ana</att> attribute should
+                                            be added, containing an analytical category describing
+                                            the source of information used in determining or
+                                            correcting the date values</item>
+                                    </list>
+                                </item>
+                                <item><att>notBefore</att> and <att>notAfter</att> as xs:dateTime,
+                                    with an <att>ana</att> attribute containing analytical category
+                                    describing the source of information used in determining the
+                                    values of <att>notBefore</att> and <att>notBefore</att>.</item>
+                            </list> All <gi>date</gi> should receive a <att>calendar</att> attribute
+                            identifing all the calendars referenced in a date phrase.</p>
+                        <p>Examples of encoded dates follow:</p>
+
+                        <!-- Example 1: Simple @when, @calendar="gregorian" -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date when="1950-06-08" calendar="gregorian">June 8, 1950</date>
+                        </egXML>
+                        <!-- Example 2: @when, parallel date statements, multiple @calendar values -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date when="1904-03-09" calendar="chinese-era chinese-lunar gregorian"
+                                >Kuanghsü XXX year, first moon, 23d day. (March 9, 1904.)</date>
+                        </egXML>
+                        <!-- Example 3: @when, @calendar="hijri" only -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date when="1901-08-18" calendar="hijri">Year 1319, Jamad-el-Ewel the
+                                third</date>
+                        </egXML>
+
+                        <!-- Example 4: @from/@to -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date from="1943-01-22" to="1943-01-23" calendar="gregorian">January
+                                22–23, 1943</date>
+                        </egXML>
+
+                        <!-- Example 5: @from/@to/@ana undated, document head -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date from="1946-07-04T17:45:00+01:00" to="1946-07-04T18:50:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >July 4, 1946, 5:45 p.m. to 6:50 p.m.</date>
+                        </egXML>
+                        <!-- Example 6: @when/@ana imprecise -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date when="1969-04-01"
+                                ana="#date_imprecise-inferred-from-outside-research"
+                                calendar="gregorian">1969</date>
+                        </egXML>
+                        <!-- Example 7: @when/@ana undated, document head -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date when="1954-07-30T15:00:00-04:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >undated</date>
+                        </egXML>
+                        <!-- Example 8: @notBefore/@notAfter/@ana imprecise -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date notBefore="1915-04-01T00:00:00+00:00"
+                                notAfter="1915-04-30T23:59:59+00:00"
+                                ana="#date_imprecise-inferred-from-date-rules" when="1915-04"
+                                calendar="gregorian">
+                                <hi rend="italic">April 1915</hi>
+                            </date>
+                        </egXML>
+                        <!-- Example 9: @notBefore/@notAfter/@ana undated -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date notBefore="1917-09-25T00:00:00-05:00"
+                                notAfter="1917-09-26T23:00:00-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian">
+                                <hi rend="italic">undated</hi>
+                            </date>
+                        </egXML>
+
+                    </div>
                     <div xml:id="signatures">
                         <head>Signatures</head>
                         <p>Signatures are wrapped in the <gi>closer</gi> and <gi>signed</gi>
@@ -794,24 +894,40 @@
                     </item>
                     <item>XML-based review <list>
                             <item>Open volume in oXygen</item>
-                            <item>Apply transformations for initial pass<list>
-                                    <item>01.</item>
-                                    <item>02.</item>
-                                    <item>03.</item>
-                                    <item>04.</item>
+                            <item>Apply transformations for initial pass [A]<list>
+                                    <item>A 01. Add TEI/xmlns:xi and classDecl/xi:include for
+                                        frus-dates</item>
+                                    <item>A 02. Add div/@subtype="historical-document" OR
+                                        "editorial-note"</item>
+                                    <item>A 03. Add div/@subtype="referral"</item>
+                                    <item>A 04. Add FRUS documents dateTimes (min/max) [initial
+                                        pass]</item>
                                 </list>
                             </item>
                             <item>Apply schema files and validate the file</item>
                             <item>Fix validation errors</item>
+                            <item>Apply transformation for secondary pass [B]<list>
+                                    <item>B 05. Add/update FRUS documents dateTimes (min/max)
+                                        [secondary pass]</item>
+                                </list>
+                            </item>
                             <item>Review structure</item>
                             <item>Silent corrections vs. Errata</item>
-                            <item>Apply transformations for secondary pass<list>
-                                    <item>05.</item>
-                                    <item>06.</item>
-                                    <item>07.</item>
-                                    <item>08.</item>
-                                    <item>09.</item>
-                                    <item>10.</item>
+                            <item>Apply transformations for tertiary pass [C]<list>
+                                    <item>C 06. Add date/@calendar="gregorian"</item>
+                                    <item>C 07. Add date/@calendar="us-republic"</item>
+                                    <item>C 08. Add FRUS compilations/chapter/subchapter dateTimes
+                                        (min/max)</item>
+                                </list>
+                            </item>
+                            <item>Apply transformations for penultimate pass [D]<list>
+                                    <item>D 09. Add FRUS volume dateTimes in
+                                        xenoData/frus:coverage</item>
+                                </list>
+                            </item>
+                            <item>Apply transformations for final pass [E]<list>
+                                    <item>E 10. Add FRUS section/toc dateTimes (min/max)</item>
+                                    <item>E 11. Add FRUS editorial-notes dateTimes (min/max)</item>
                                 </list>
                             </item>
                         </list></item>
