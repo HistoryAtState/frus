@@ -272,79 +272,83 @@
 
         <rule context="tei:date[not(@calendar)]">
             <!-- Calendar Checks -->
-            <assert role="info"
-                test="not(.[matches(., 'Muḥarram|Muharram|Moharram|Ṣafar|Safar|Sefer|Rabī&#8217;\s+al-awwal|Rebbi-al-ewel|Rabih|Rabī&#8216;\s+ath-thānī|Rabī&#8216;\s+al-Thānī|Rabī&#8216;\s+al-Tānī|Rabī’\s+al-Ākhir|Rabi\s+el\s+tami|Rabee\s+El\s+Thani|Rabi&#8217;Tani|Rebbi-ul-Akbir|Rebi-ul-Ewel|Rabih|Jumādá\s+al-ūlá|Ǧumādā\s+al-Awwal|Jumada\s+al-awwal|Jumada\s+al-ula|Jumada\s+al-Ula|Jumada|Jumada\s+I|Jamadi-ol-Aval|Jumada\s+al-Oola|Jamad-el-Ewel|Jumadil\s+Awwal|Djémazi-ul-ewel|Djemazi-ul-evvel|Youmada|Youmada\s+I|Youmada\s+1st|Jamadi-es-Sani|Jumādá\s+al-ākhirah|Ǧumādā\s+al-Āḫir|Ǧumādā\s+aṮ-Ṯānī|Iamadi|Jumaada\s+al-Akhir|Jumada\s+al-Akhira|Jumādā\s+al-āḵir|Jumada\s+II|Rajab|Rajah|Sha&#8217;bān|Sha&#8216;ban|Sha&#8216;bān|Sha&#8216;ban|Shaaban|Chaban|Ramaḍān|Ramadan|Ramadhan|Ramazam|Shawwāl|Shawwal|Shawal|Dhū\s+al-Qa&#8216;dah|Dhu[:punct:]l-Qi[:punct:]dah|Dhu.?l-Qa[:punct:]dah|Ḏū\s+l-Qa[:punct:]dah|Zulqida|Zeekadeh|Zee\s+Radah|Zee\s+Kadah|Dhū\s+al-Ḥijjah|Dhu\s+al-Hijjah|Dhu[:punct:]l-Hijjah|Zulhijja|Zi\s+El-Hidjah|Zil-Hajj', 'i')])"
-                sqf:fix="add-calendar-attribute-hijri">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating a hijri calendar reference.</assert>
 
+            <!-- Chinese Era -->
             <assert role="info"
                 test="not(.[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung\s+Chi|Guangxu|Kuanghsü|Kuang\s+Hsü|Kuang\s+Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Chinese era/reign-based calendar reference.</assert>
 
+            <!-- Ethiopian Ge’ez -->
             <assert role="info"
                 test="not(.[matches(., 'Mäskäräm|Maskaram|Ṭəqəmt|Teqemt|Ṭəqəmti|Teqemti|Ḫədar|Hedar|Taḫśaś|Tahsas|Tehsass|Yäkatit|Yakatit|Läkatit|Lakatit|Mägabit|Magabit|Miyazya|Mazia|Gənbo|Genbo|Gənbot|Genbot|Säne|Sane|Ḥamle|Hamle|Nähase|Nahase|Ṗagʷəmen|Pagwemen|Ṗagume|Pagume', 'i')])"
                 sqf:fix="add-calendar-attribute-ethiopian-geez">[FYI] This &lt;date&gt; has a word
                 or phrase possibly indicating a Ethopian ge’ez calendar reference.</assert>
 
+            <!-- Hijri -->
+            <assert role="info"
+                test="not(.[matches(., 'Muḥarram|Muharram|Moharram|Ṣafar|Safar|Sefer|Rabī&#8217;\s+al-awwal|Rebbi-al-ewel|Rabih|Rabī&#8216;\s+ath-thānī|Rabī&#8216;\s+al-Thānī|Rabī&#8216;\s+al-Tānī|Rabī’\s+al-Ākhir|Rabi\s+el\s+tami|Rabee\s+El\s+Thani|Rabi&#8217;Tani|Rebbi-ul-Akbir|Rebi-ul-Ewel|Rabih|Jumādá\s+al-ūlá|Ǧumādā\s+al-Awwal|Jumada\s+al-awwal|Jumada\s+al-ula|Jumada\s+al-Ula|Jumada|Jumada\s+I|Jamadi-ol-Aval|Jumada\s+al-Oola|Jamad-el-Ewel|Jumadil\s+Awwal|Djémazi-ul-ewel|Djemazi-ul-evvel|Youmada|Youmada\s+I|Youmada\s+1st|Jamadi-es-Sani|Jumādá\s+al-ākhirah|Ǧumādā\s+al-Āḫir|Ǧumādā\s+aṮ-Ṯānī|Iamadi|Jumaada\s+al-Akhir|Jumada\s+al-Akhira|Jumādā\s+al-āḵir|Jumada\s+II|Rajab|Rajah|Sha&#8217;bān|Sha&#8216;ban|Sha&#8216;bān|Sha&#8216;ban|Shaaban|Chaban|Ramaḍān|Ramadan|Ramadhan|Ramazam|Shawwāl|Shawwal|Shawal|Dhū\s+al-Qa&#8216;dah|Dhu[:punct:]l-Qi[:punct:]dah|Dhu.?l-Qa[:punct:]dah|Ḏū\s+l-Qa[:punct:]dah|Zulqida|Zeekadeh|Zee\s+Radah|Zee\s+Kadah|Dhū\s+al-Ḥijjah|Dhu\s+al-Hijjah|Dhu[:punct:]l-Hijjah|Zulhijja|Zi\s+El-Hidjah|Zil-Hajj', 'i')])"
+                sqf:fix="add-calendar-attribute-hijri">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a hijri calendar reference.</assert>
+
+            <!-- Iranian/Persian/Solar Hijri -->
             <assert role="info"
                 test="not(.[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|[^A-z]dey[^A-z]|[^A-z]Dey[^A-z]|bahman|Bahman|esfand|Esfand|Espand', 'i')])"
                 sqf:fix="add-calendar-attribute-iranian-persian">[FYI] This &lt;date&gt; has a word
                 or phrase possibly indicating an Iranian/Persian (Solar Hijri) calendar
                 reference.</assert>
 
+            <!-- Japanese Nengō -->
             <assert role="info"
                 test="not(.[matches(., 'An&#8217;ei|Kōkaku|Kokaku|Tenmei|Kansei|Kyōwa|Kyowa|Bunka|Ninkō|Ninko|Bunsei|Tenpō|Tenpo|Tenhō|Tenho|Kōka|Koka|Kōmei|Komei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Keiō|Keio|Meiji|Taishō|Taisho|Shōwa|Showa|Heisei|Akihito', 'i')])"
                 sqf:fix="add-calendar-attribute-japanese-nengo">[FYI] This &lt;date&gt; has a word
                 or phrase possibly indicating a Japanese nengō calendar reference.</assert>
 
+            <!-- Korean Era -->
             <assert role="info"
                 test="not(.[matches(., 'Yi\s+Geum|Gunjin|Songheon|Taejo|Emperor\s+Go|Yi\s+San|Hyeongun|Hongjae|Jeongjo|Yi\s+Gong|Gongbo|Sunjae|Sunjo|Yi\s+Hwan|Muneung|Wonheon|\s+Heonjong|Yi\s+Byeon|Doseung|Daeyongjae|Cheoljong|Yi\s+Myeong-bok|Yi\s+Hui|Seongrim|Juyeon|Gojong|Kojong|Emperor\s+Tae|Gaeguk|Geonyang|Gwangmu|Kwangmu|Kwang\s+Mu|Gwangmuje|Kwangmuje|Yi\s+Cheok|Gundang|Jeongheon|Sunjong|Emperor\s+Hyo|Emperor\s+Yunghui|Yunghui|Yunghuije|Yunghŭije|Lyung\s+Heni', 'i')])"
                 sqf:fix="add-calendar-attribute-korean-era">[FYI] This &lt;date&gt; has a word or
                 phrase possibly indicating a Korean era calendar reference.</assert>
 
+            <!-- Masonic Anno Lucis -->
             <assert role="info"
                 test="not(.[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')])"
                 sqf:fix="add-calendar-attribute-masonic-anno-lucis">[FYI] This &lt;date&gt; has a
                 word or phrase possibly indicating a Masonic calendar reference.</assert>
 
+            <!-- Papal Era -->
             <assert role="info" test="not(.[matches(., 'pontif*', 'i')])"
                 sqf:fix="add-calendar-attribute-papal-era">[FYI] This &lt;date&gt; has a word or
                 phrase possibly indicating a papal era calendar reference.</assert>
 
+            <!-- Roman -->
             <assert role="info" test="not(.[matches(., 'nones|ides|kalends', 'i')])"
                 sqf:fix="add-calendar-attribute-roman">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Roman calendar reference.</assert>
 
+            <!-- Rumi -->
             <assert role="info"
                 test="not(.[matches(., 'Kânûn-ı\s+Sânî|Kanun-i Sani|Şubat|Subat|[^A-z]Mart[^A-z]|Nisan|Mayıs|Mayis|Haziran|Temmuz|Ağustos|Agustos|Eylül|EylulTeşrin-i\s+Evvel|Tesrin-i\s+Evvel|Teşrin-i\s+Sânî|Tesrin-i Sani|Kânûn-ı\s+Evvel|Kanun-i\s+Evvel', 'i')])"
                 sqf:fix="add-calendar-attribute-rumi">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Rumi calendar reference.</assert>
 
+            <!-- Tibetan Phugpa -->
             <assert role="info"
                 test="not(.[matches(., 'Rabbit|Dragon|Snake|Horse|Goat|Monkey|Rooster|Dog|Pig|Rat|Ox|Tiger', 'i') and matches(., 'Fire|Earth|Iron|Water|Wood', 'i')])"
                 sqf:fix="add-calendar-attribute-tibetan-phugpa">[FYI] This &lt;date&gt; has a word
                 or phrase possibly indicating a Tibetan phugpa calendar reference.</assert>
 
+            <!-- US Republic -->
             <assert role="info"
                 test="not(.[matches(., 'of\s+the\s+Independence\s+of\s+the\s+United\s+States', 'i')])"
-                sqf:fix="add-calendar-attribute-us-republic">[FYI] This &lt;date&gt; has a word or
-                phrase possibly indicating reference to United States
-                independence/republic.</assert>
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating reference to United States independence/republic.</assert>
 
 
             <!-- Calendar Quick Fixes -->
             <sqf:group id="add-calendar-attributes">
 
-                <sqf:fix
-                    use-when=".[matches(., 'Muḥarram|Muharram|Moharram|Ṣafar|Safar|Sefer|Rabī&#8217;\s+al-awwal|Rebbi-al-ewel|Rabih|Rabī&#8216;\s+ath-thānī|Rabī&#8216;\s+al-Thānī|Rabī&#8216;\s+al-Tānī|Rabī’\s+al-Ākhir|Rabi\s+el\s+tami|Rabee\s+El\s+Thani|Rabi&#8217;Tani|Rebbi-ul-Akbir|Rebi-ul-Ewel|Rabih|Jumādá\s+al-ūlá|Ǧumādā\s+al-Awwal|Jumada\s+al-awwal|Jumada\s+al-ula|Jumada\s+al-Ula|Jumada|Jumada\s+I|Jamadi-ol-Aval|Jumada\s+al-Oola|Jamad-el-Ewel|Jumadil\s+Awwal|Djémazi-ul-ewel|Djemazi-ul-evvel|Youmada|Youmada\s+I|Youmada\s+1st|Jamadi-es-Sani|Jumādá\s+al-ākhirah|Ǧumādā\s+al-Āḫir|Ǧumādā\s+aṮ-Ṯānī|Iamadi|Jumaada\s+al-Akhir|Jumada\s+al-Akhira|Jumādā\s+al-āḵir|Jumada\s+II|Rajab|Rajah|Sha&#8217;bān|Sha&#8216;ban|Sha&#8216;bān|Sha&#8216;ban|Shaaban|Chaban|Ramaḍān|Ramadan|Ramadhan|Ramazam|Shawwāl|Shawwal|Shawal|Dhū\s+al-Qa&#8216;dah|Dhu[:punct:]l-Qi[:punct:]dah|Dhu.?l-Qa[:punct:]dah|Ḏū\s+l-Qa[:punct:]dah|Zulqida|Zeekadeh|Zee\s+Radah|Zee\s+Kadah|Dhū\s+al-Ḥijjah|Dhu\s+al-Hijjah|Dhu[:punct:]l-Hijjah|Zulhijja|Zi\s+El-Hidjah|Zil-Hajj', 'i')]"
-                    id="add-calendar-attribute-hijri">
-                    <sqf:description>
-                        <sqf:title>Add @calendar="hijri"</sqf:title>
-                    </sqf:description>
-                    <sqf:add node-type="attribute" target="calendar">hijri</sqf:add>
-                </sqf:fix>
-
+                <!-- Chinese Era/Lunisolar -->
                 <sqf:fix
                     use-when=".[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung Chi|Guangxu|Kuanghsü|Kuang Hsü|Kuang Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')][matches(., 'moon')]"
                     id="add-chinese-era-chinese-lunisolar">
@@ -353,6 +357,17 @@
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">chinese-era
                         chinese-lunisolar</sqf:add>
+                </sqf:fix>
+
+                <sqf:fix
+                    use-when=".[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung Chi|Guangxu|Kuanghsü|Kuang Hsü|Kuang Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')][matches(., 'moon')]"
+                    id="add-chinese-era-chinese-lunisolar-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="chinese-era chinese-lunisolar
+                            gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">chinese-era chinese-lunisolar
+                        gregorian</sqf:add>
                 </sqf:fix>
 
                 <sqf:fix
@@ -365,14 +380,54 @@
                 </sqf:fix>
 
                 <sqf:fix
+                    use-when=".[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung\s+Chi|Guangxu|Kuanghsü|Kuang\s+Hsü|Kuang\s+Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')][not(matches(., 'moon'))]"
+                    id="add-chinese-era-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="chinese-era gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">chinese-era gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Ethiopian Ge’ez -->
+                <sqf:fix
                     use-when=".[matches(., 'Mäskäräm|Maskaram|Ṭəqəmt|Teqemt|Ṭəqəmti|Teqemti|Ḫədar|Hedar|Taḫśaś|Tahsas|Tehsass|Yäkatit|Yakatit|Läkatit|Lakatit|Mägabit|Magabit|Miyazya|Mazia|Gənbo|Genbo|Gənbot|Genbot|Säne|Sane|Ḥamle|Hamle|Nähase|Nahase|Ṗagʷəmen|Pagwemen|Ṗagume|Pagume', 'i')]"
                     id="add-calendar-attribute-ethiopian-geez">
                     <sqf:description>
-                        <sqf:title>Add @calendar="ethopian-ge’ez"</sqf:title>
+                        <sqf:title>Add @calendar="ethopian-geez"</sqf:title>
                     </sqf:description>
-                    <sqf:add node-type="attribute" target="calendar">ethopian-ge’ez</sqf:add>
+                    <sqf:add node-type="attribute" target="calendar">ethopian-geez</sqf:add>
                 </sqf:fix>
 
+                <sqf:fix
+                    use-when=".[matches(., 'Mäskäräm|Maskaram|Ṭəqəmt|Teqemt|Ṭəqəmti|Teqemti|Ḫədar|Hedar|Taḫśaś|Tahsas|Tehsass|Yäkatit|Yakatit|Läkatit|Lakatit|Mägabit|Magabit|Miyazya|Mazia|Gənbo|Genbo|Gənbot|Genbot|Säne|Sane|Ḥamle|Hamle|Nähase|Nahase|Ṗagʷəmen|Pagwemen|Ṗagume|Pagume', 'i')]"
+                    id="add-calendar-attribute-ethiopian-geez-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="ethopian-geez gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">ethopian-geez
+                        gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Hijri -->
+                <sqf:fix
+                    use-when=".[matches(., 'Muḥarram|Muharram|Moharram|Ṣafar|Safar|Sefer|Rabī&#8217;\s+al-awwal|Rebbi-al-ewel|Rabih|Rabī&#8216;\s+ath-thānī|Rabī&#8216;\s+al-Thānī|Rabī&#8216;\s+al-Tānī|Rabī’\s+al-Ākhir|Rabi\s+el\s+tami|Rabee\s+El\s+Thani|Rabi&#8217;Tani|Rebbi-ul-Akbir|Rebi-ul-Ewel|Rabih|Jumādá\s+al-ūlá|Ǧumādā\s+al-Awwal|Jumada\s+al-awwal|Jumada\s+al-ula|Jumada\s+al-Ula|Jumada|Jumada\s+I|Jamadi-ol-Aval|Jumada\s+al-Oola|Jamad-el-Ewel|Jumadil\s+Awwal|Djémazi-ul-ewel|Djemazi-ul-evvel|Youmada|Youmada\s+I|Youmada\s+1st|Jamadi-es-Sani|Jumādá\s+al-ākhirah|Ǧumādā\s+al-Āḫir|Ǧumādā\s+aṮ-Ṯānī|Iamadi|Jumaada\s+al-Akhir|Jumada\s+al-Akhira|Jumādā\s+al-āḵir|Jumada\s+II|Rajab|Rajah|Sha&#8217;bān|Sha&#8216;ban|Sha&#8216;bān|Sha&#8216;ban|Shaaban|Chaban|Ramaḍān|Ramadan|Ramadhan|Ramazam|Shawwāl|Shawwal|Shawal|Dhū\s+al-Qa&#8216;dah|Dhu[:punct:]l-Qi[:punct:]dah|Dhu.?l-Qa[:punct:]dah|Ḏū\s+l-Qa[:punct:]dah|Zulqida|Zeekadeh|Zee\s+Radah|Zee\s+Kadah|Dhū\s+al-Ḥijjah|Dhu\s+al-Hijjah|Dhu[:punct:]l-Hijjah|Zulhijja|Zi\s+El-Hidjah|Zil-Hajj', 'i')]"
+                    id="add-calendar-attribute-hijri">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="hijri"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">hijri</sqf:add>
+                </sqf:fix>
+
+                <sqf:fix
+                    use-when=".[matches(., 'Muḥarram|Muharram|Moharram|Ṣafar|Safar|Sefer|Rabī&#8217;\s+al-awwal|Rebbi-al-ewel|Rabih|Rabī&#8216;\s+ath-thānī|Rabī&#8216;\s+al-Thānī|Rabī&#8216;\s+al-Tānī|Rabī’\s+al-Ākhir|Rabi\s+el\s+tami|Rabee\s+El\s+Thani|Rabi&#8217;Tani|Rebbi-ul-Akbir|Rebi-ul-Ewel|Rabih|Jumādá\s+al-ūlá|Ǧumādā\s+al-Awwal|Jumada\s+al-awwal|Jumada\s+al-ula|Jumada\s+al-Ula|Jumada|Jumada\s+I|Jamadi-ol-Aval|Jumada\s+al-Oola|Jamad-el-Ewel|Jumadil\s+Awwal|Djémazi-ul-ewel|Djemazi-ul-evvel|Youmada|Youmada\s+I|Youmada\s+1st|Jamadi-es-Sani|Jumādá\s+al-ākhirah|Ǧumādā\s+al-Āḫir|Ǧumādā\s+aṮ-Ṯānī|Iamadi|Jumaada\s+al-Akhir|Jumada\s+al-Akhira|Jumādā\s+al-āḵir|Jumada\s+II|Rajab|Rajah|Sha&#8217;bān|Sha&#8216;ban|Sha&#8216;bān|Sha&#8216;ban|Shaaban|Chaban|Ramaḍān|Ramadan|Ramadhan|Ramazam|Shawwāl|Shawwal|Shawal|Dhū\s+al-Qa&#8216;dah|Dhu[:punct:]l-Qi[:punct:]dah|Dhu.?l-Qa[:punct:]dah|Ḏū\s+l-Qa[:punct:]dah|Zulqida|Zeekadeh|Zee\s+Radah|Zee\s+Kadah|Dhū\s+al-Ḥijjah|Dhu\s+al-Hijjah|Dhu[:punct:]l-Hijjah|Zulhijja|Zi\s+El-Hidjah|Zil-Hajj', 'i')]"
+                    id="add-calendar-attribute-hijri-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="hijri gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">hijri gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Iranian/Persian/Solar Hijri -->
                 <sqf:fix
                     use-when=".[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|[^A-z]dey[^A-z]|[^A-z]Dey[^A-z]|bahman|Bahman|esfand|Esfand|Espand', 'i')]"
                     id="add-calendar-attribute-iranian-persian">
@@ -383,6 +438,17 @@
                 </sqf:fix>
 
                 <sqf:fix
+                    use-when=".[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|[^A-z]dey[^A-z]|[^A-z]Dey[^A-z]|bahman|Bahman|esfand|Esfand|Espand', 'i')]"
+                    id="add-calendar-attribute-iranian-persian-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="iranian-persian gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">iranian-persian
+                        gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Japanese Nengō -->
+                <sqf:fix
                     use-when=".[matches(., 'An&#8217;ei|Kōkaku|Kokaku|Tenmei|Kansei|Kyōwa|Kyowa|Bunka|Ninkō|Ninko|Bunsei|Tenpō|Tenpo|Tenhō|Tenho|Kōka|Koka|Kōmei|Komei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Keiō|Keio|Meiji|Taishō|Taisho|Shōwa|Showa|Heisei|Akihito', 'i')]"
                     id="add-calendar-attribute-japanese-nengo">
                     <sqf:description>
@@ -392,6 +458,17 @@
                 </sqf:fix>
 
                 <sqf:fix
+                    use-when=".[matches(., 'An&#8217;ei|Kōkaku|Kokaku|Tenmei|Kansei|Kyōwa|Kyowa|Bunka|Ninkō|Ninko|Bunsei|Tenpō|Tenpo|Tenhō|Tenho|Kōka|Koka|Kōmei|Komei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Keiō|Keio|Meiji|Taishō|Taisho|Shōwa|Showa|Heisei|Akihito', 'i')]"
+                    id="add-calendar-attribute-japanese-nengo-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="japanese-nengō gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">japanese-nengō
+                        gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Korean Era -->
+                <sqf:fix
                     use-when=".[matches(., 'Yi\s+Geum|Gunjin|Songheon|Taejo|Emperor\s+Go|Yi\s+San|Hyeongun|Hongjae|Jeongjo|Yi\s+Gong|Gongbo|Sunjae|Sunjo|Yi\s+Hwan|Muneung|Wonheon|\s+Heonjong|Yi\s+Byeon|Doseung|Daeyongjae|Cheoljong|Yi\s+Myeong-bok|Yi\s+Hui|Seongrim|Juyeon|Gojong|Kojong|Emperor\s+Tae|Gaeguk|Geonyang|Gwangmu|Kwangmu|Kwang\s+Mu|Gwangmuje|Kwangmuje|Yi\s+Cheok|Gundang|Jeongheon|Sunjong|Emperor\s+Hyo|Emperor\s+Yunghui|Yunghui|Yunghuije|Yunghŭije|Lyung\s+Heni', 'i')]"
                     id="add-calendar-attribute-korean-era">
                     <sqf:description>
@@ -399,7 +476,16 @@
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">korean-era</sqf:add>
                 </sqf:fix>
+                <sqf:fix
+                    use-when=".[matches(., 'Yi\s+Geum|Gunjin|Songheon|Taejo|Emperor\s+Go|Yi\s+San|Hyeongun|Hongjae|Jeongjo|Yi\s+Gong|Gongbo|Sunjae|Sunjo|Yi\s+Hwan|Muneung|Wonheon|\s+Heonjong|Yi\s+Byeon|Doseung|Daeyongjae|Cheoljong|Yi\s+Myeong-bok|Yi\s+Hui|Seongrim|Juyeon|Gojong|Kojong|Emperor\s+Tae|Gaeguk|Geonyang|Gwangmu|Kwangmu|Kwang\s+Mu|Gwangmuje|Kwangmuje|Yi\s+Cheok|Gundang|Jeongheon|Sunjong|Emperor\s+Hyo|Emperor\s+Yunghui|Yunghui|Yunghuije|Yunghŭije|Lyung\s+Heni', 'i')]"
+                    id="add-calendar-attribute-korean-era-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="korean-era gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">korean-era gregorian</sqf:add>
+                </sqf:fix>
 
+                <!-- Masonic Anno Lucis -->
                 <sqf:fix
                     use-when=".[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')]"
                     id="add-calendar-attribute-masonic-anno-lucis">
@@ -408,7 +494,17 @@
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">masonic-anno-lucis</sqf:add>
                 </sqf:fix>
+                <sqf:fix
+                    use-when=".[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')]"
+                    id="add-calendar-attribute-masonic-anno-lucis-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="masonic gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">masonic-anno-lucis
+                        gregorian</sqf:add>
+                </sqf:fix>
 
+                <!-- Papal Era -->
                 <sqf:fix use-when=".[matches(., 'pontif*', 'i')]"
                     id="add-calendar-attribute-papal-era">
                     <sqf:description>
@@ -416,7 +512,15 @@
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">papal-era</sqf:add>
                 </sqf:fix>
+                <sqf:fix use-when=".[matches(., 'pontif*', 'i')]"
+                    id="add-calendar-attribute-papal-era-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="papal-era gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">papal-era gregorian</sqf:add>
+                </sqf:fix>
 
+                <!-- Roman -->
                 <sqf:fix use-when=".[matches(., 'nones|ides|kalends', 'i')]"
                     id="add-calendar-attribute-roman">
                     <sqf:description>
@@ -424,7 +528,15 @@
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">roman</sqf:add>
                 </sqf:fix>
+                <sqf:fix use-when=".[matches(., 'nones|ides|kalends', 'i')]"
+                    id="add-calendar-attribute-roman-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="roman gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">roman gregorian</sqf:add>
+                </sqf:fix>
 
+                <!-- Rumi -->
                 <sqf:fix
                     use-when=".[matches(., 'Kânûn-ı\s+Sânî|Kanun-i Sani|Şubat|Subat|[^A-z]Mart[^A-z]|Nisan|Mayıs|Mayis|Haziran|Temmuz|Ağustos|Agustos|Eylül|EylulTeşrin-i\s+Evvel|Tesrin-i\s+Evvel|Teşrin-i\s+Sânî|Tesrin-i Sani|Kânûn-ı\s+Evvel|Kanun-i\s+Evvel', 'i')]"
                     id="add-calendar-attribute-rumi">
@@ -433,7 +545,16 @@
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">rumi</sqf:add>
                 </sqf:fix>
+                <sqf:fix
+                    use-when=".[matches(., 'Kânûn-ı\s+Sânî|Kanun-i Sani|Şubat|Subat|[^A-z]Mart[^A-z]|Nisan|Mayıs|Mayis|Haziran|Temmuz|Ağustos|Agustos|Eylül|EylulTeşrin-i\s+Evvel|Tesrin-i\s+Evvel|Teşrin-i\s+Sânî|Tesrin-i Sani|Kânûn-ı\s+Evvel|Kanun-i\s+Evvel', 'i')]"
+                    id="add-calendar-attribute-rumi-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="rumi gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">rumi gregorian</sqf:add>
+                </sqf:fix>
 
+                <!-- Tibetan Phugpa -->
                 <sqf:fix
                     use-when=".[matches(., 'Rabbit|Dragon|Snake|Horse|Goat|Monkey|Rooster|Dog|Pig|Rat|Ox|Tiger', 'i') and matches(., 'Fire|Earth|Iron|Water|Wood', 'i')]"
                     id="add-calendar-attribute-tibetan-phugpa">
@@ -442,7 +563,17 @@
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">tibetan-phugpa</sqf:add>
                 </sqf:fix>
+                <sqf:fix
+                    use-when=".[matches(., 'Rabbit|Dragon|Snake|Horse|Goat|Monkey|Rooster|Dog|Pig|Rat|Ox|Tiger', 'i') and matches(., 'Fire|Earth|Iron|Water|Wood', 'i')]"
+                    id="add-calendar-attribute-tibetan-phugpa-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="tibetan-phugpa gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">tibetan-phugpa
+                        gregorian</sqf:add>
+                </sqf:fix>
 
+                <!-- US Republic -->
                 <sqf:fix
                     use-when=".[matches(., 'of\s+the\s+Independence\s+of\s+the\s+United\s+States', 'i')]"
                     id="add-calendar-attribute-us-republic">
@@ -451,8 +582,14 @@
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">us-republic</sqf:add>
                 </sqf:fix>
-
-
+                <sqf:fix
+                    use-when=".[matches(., 'of\s+the\s+Independence\s+of\s+the\s+United\s+States', 'i')]"
+                    id="add-calendar-attribute-us-republic-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="us-republic gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">us-republic gregorian</sqf:add>
+                </sqf:fix>
 
             </sqf:group>
         </rule>
