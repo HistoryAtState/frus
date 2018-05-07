@@ -894,24 +894,40 @@
                     </item>
                     <item>XML-based review <list>
                             <item>Open volume in oXygen</item>
-                            <item>Apply transformations for initial pass<list>
-                                    <item>01.</item>
-                                    <item>02.</item>
-                                    <item>03.</item>
-                                    <item>04.</item>
+                            <item>Apply transformations for initial pass [A]<list>
+                                    <item>A 01. Add TEI/xmlns:xi and classDecl/xi:include for
+                                        frus-dates</item>
+                                    <item>A 02. Add div/@subtype="historical-document" OR
+                                        "editorial-note"</item>
+                                    <item>A 03. Add div/@subtype="referral"</item>
+                                    <item>A 04. Add FRUS documents dateTimes (min/max) [initial
+                                        pass]</item>
                                 </list>
                             </item>
                             <item>Apply schema files and validate the file</item>
                             <item>Fix validation errors</item>
+                            <item>Apply transformation for secondary pass [B]<list>
+                                    <item>B 05. Add/update FRUS documents dateTimes (min/max)
+                                        [secondary pass]</item>
+                                </list>
+                            </item>
                             <item>Review structure</item>
                             <item>Silent corrections vs. Errata</item>
-                            <item>Apply transformations for secondary pass<list>
-                                    <item>05.</item>
-                                    <item>06.</item>
-                                    <item>07.</item>
-                                    <item>08.</item>
-                                    <item>09.</item>
-                                    <item>10.</item>
+                            <item>Apply transformations for tertiary pass [C]<list>
+                                    <item>C 06. Add date/@calendar="gregorian"</item>
+                                    <item>C 07. Add date/@calendar="us-republic"</item>
+                                    <item>C 08. Add FRUS compilations/chapter/subchapter dateTimes
+                                        (min/max)</item>
+                                </list>
+                            </item>
+                            <item>Apply transformations for penultimate pass [D]<list>
+                                    <item>D 09. Add FRUS volume dateTimes in
+                                        xenoData/frus:coverage</item>
+                                </list>
+                            </item>
+                            <item>Apply transformations for final pass [E]<list>
+                                    <item>E 10. Add FRUS section/toc dateTimes (min/max)</item>
+                                    <item>E 11. Add FRUS editorial-notes dateTimes (min/max)</item>
                                 </list>
                             </item>
                         </list></item>
