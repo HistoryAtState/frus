@@ -587,7 +587,7 @@
                     <sqf:description>
                         <sqf:title>Add @calendar="us-republic gregorian"</sqf:title>
                     </sqf:description>
-                    <sqf:add node-type="attribute" target="calendar">us-republic gregorian</sqf:add>
+                    <sqf:add node-type="attribute" target="calendar">gregorian us-republic</sqf:add>
                 </sqf:fix>
 
             </sqf:group>
