@@ -696,9 +696,10 @@
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
 
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian" where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
 
@@ -718,9 +719,10 @@
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian" where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
                 <!-- Fix 3: month-day-range-year-regex-eng -->
@@ -743,10 +745,11 @@
                     <let name="to" value="concat($year, '-', $month-digit, '-', $date-to)"/>
 
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @from and @to attributes to &lt;date&gt; (and @calendar="gregorian" where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="from" select="$from"/>
                     <sqf:add match="." node-type="attribute" target="to" select="$to"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
                 <!-- Fix 4: date-spelled-out-regex-eng -->
@@ -907,9 +910,10 @@
                     <let name="when"
                         value="concat($year-combined, '-', $month-digit, '-', $date-digit)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian" where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
                 <!-- Fix 5: day-month-year-partially-spelled-out-regex-eng -->
@@ -1029,9 +1033,10 @@
                     <let name="when"
                         value="concat($year-combined, '-', $month-digit, '-', $date-digit)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian" where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
                 <!-- Fix 6: month-day-year-regex-fr -->
@@ -1050,9 +1055,10 @@
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian" where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
 
@@ -1073,9 +1079,10 @@
 
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian" where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
             </sqf:group>
