@@ -290,8 +290,9 @@
                             <head>Front Matter Divs</head>
                             <p>After the <gi>titlePage</gi>, there are typically a number of
                                 sections, such as the Preface, Table of Contents, etc. Each
-                                    <gi>div</gi> requires <att>xml:id</att> and <att>type</att>
-                                attributes and a child <gi>head</gi>element.</p>
+                                    <gi>div</gi> requires <att>xml:id</att>, <att>type</att>, and
+                                    <att>subtype</att> attributes and a child
+                                <gi>head</gi>element.</p>
                             <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                 <front>
                                     <titlePage/>
@@ -322,15 +323,20 @@
                                 so these values are allowed:</p>
                             <list>
                                 <item>Table of Contents: <att>type</att>=<ident>toc</ident>,
+                                        <att>subtype</att>=<ident>table-of-contents</ident>,
                                         <att>xml:id</att>=<ident>toc</ident></item>
                                 <item>List of Persons: <att>type</att>=<ident>section</ident>,
+                                        <att>subtype</att>=<ident>index</ident>,
                                         <att>xml:id</att>=<ident>persons</ident></item>
                                 <item>List of Terms &amp; Abbreviations:
                                         <att>type</att>=<ident>section</ident>,
+                                        <att>subtype</att>=<ident>index</ident>,
                                         <att>xml:id</att>=<ident>terms</ident></item>
                                 <item>Preface: <att>type</att>=<ident>section</ident>,
+                                        <att>subtype</att>=<ident>preface</ident>,
                                         <att>xml:id</att>=<ident>preface</ident></item>
                                 <item>Sources: <att>type</att>=<ident>section</ident>,
+                                        <att>subtype</att>=<ident>sources</ident>,
                                         <att>xml:id</att>=<ident>sources</ident></item>
                             </list>
                         </div>
@@ -418,8 +424,9 @@
                             <div xml:id="index">
                                 <head>Index</head>
                                 <p>Indexes are wrapped in a <gi>div</gi> with a <att>type</att>
-                                    value of <ident>section</ident> and an <att>xml:id</att> value
-                                    of <ident>index</ident>. The <gi>head</gi> element should be
+                                    value of <ident>section</ident>, a <att>subtype</att> value of
+                                        <ident>index</ident>, and an <att>xml:id</att> value of
+                                        <ident>index</ident>. The <gi>head</gi> element should be
                                     drawn from the text but is typically simply, "Index." The entire
                                     index should be wrapped in a single <gi>list</gi> element, with
                                     contents consisting of nested <gi>list</gi> and <gi>item</gi>
@@ -1195,10 +1202,10 @@
 
 
                     <!-- 
-                    constrain tei:div/@type
+                    constrain tei:div/@type | @subtype | @doc-dateTime-min | @doc-dateTime-max
                     -->
                     <elementSpec ident="div" module="core" mode="change">
-                        <desc>Restrict @type values for tei:div elements</desc>
+                        <desc>Restrict attribute values for tei:div elements</desc>
                         <attList>
                             <attDef ident="type" usage="req" mode="replace">
                                 <valList type="closed">
@@ -1219,6 +1226,107 @@
                                     </valItem>
                                     <valItem ident="toc">
                                         <gloss>Table of Contents</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                            <attDef ident="subtype" usage="opt" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="about-frus-series">
+                                        <gloss>About the Series</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="acknowledgements">
+                                        <gloss>Acknowledgements</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="additional-volumes">
+                                        <gloss>Additional Volumes</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="appendix">
+                                        <gloss>Appendix</gloss>
+                                        <desc>Typically found in back matter</desc>
+                                    </valItem>
+                                    <valItem ident="chapter-introduction">
+                                        <gloss>Chapter Introduction</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="editorial-note">
+                                        <gloss>Editorial Note</gloss>
+                                        <desc>Typically found in the body of volume</desc>
+                                    </valItem>
+                                    <valItem ident="editorial-policies">
+                                        <gloss>Editorial Policies</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="errata">
+                                        <gloss>Errata</gloss>
+                                    </valItem>
+                                    <valItem ident="errata_document-numbering-error">
+                                        <gloss>Errata (Document Numbering Error)</gloss>
+                                        <desc>Typically found in the body of volume</desc>
+                                    </valItem>
+                                    <valItem ident="event">
+                                        <gloss>Event</gloss>
+                                    </valItem>
+                                    <valItem ident="graphic-materials">
+                                        <gloss>Graphic Materials</gloss>
+                                        <desc>Includes visual artwork, prints, and
+                                            photographs</desc>
+                                    </valItem>
+                                    <valItem ident="historical-document">
+                                        <gloss>Historical Document</gloss>
+                                        <desc>Typically found in the body of volume</desc>
+                                    </valItem>
+                                    <valItem ident="index">
+                                        <gloss>Index</gloss>
+                                        <desc>Includes indices, list of papers, list of persons, and
+                                            list of organizations; typically found in front matter
+                                            and back matter</desc>
+                                    </valItem>
+                                    <valItem ident="maps">
+                                        <gloss>Maps</gloss>
+                                    </valItem>
+                                    <valItem ident="notes">
+                                        <gloss>Notes</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="preface">
+                                        <gloss>Preface</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="press-release">
+                                        <gloss>Press Release</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="referral">
+                                        <gloss>Referral</gloss>
+                                    </valItem>
+                                    <valItem ident="related-materials">
+                                        <gloss>Related Materials</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="section">
+                                        <gloss>Section</gloss>
+                                        <desc>Typically found in front matter and back matter</desc>
+                                    </valItem>
+                                    <valItem ident="sources">
+                                        <gloss>Sources</gloss>
+                                    </valItem>
+                                    <valItem ident="subsection">
+                                        <gloss>Subsection</gloss>
+                                        <desc>Typically found in the body of the volume</desc>
+                                    </valItem>
+                                    <valItem ident="table-of-contents">
+                                        <gloss>Table of Contents</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="undetermined">
+                                        <gloss>As-yet-to-be-determined</gloss>
+                                    </valItem>
+                                    <valItem ident="volume-summary">
+                                        <gloss>Volume Summary</gloss>
+                                        <desc>Typically found in front matter</desc>
                                     </valItem>
                                 </valList>
                             </attDef>

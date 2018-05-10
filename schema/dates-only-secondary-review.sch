@@ -282,61 +282,60 @@
             <!-- Ethiopian Ge’ez -->
             <assert role="info"
                 test="not(.[matches(., 'Mäskäräm|Maskaram|Ṭəqəmt|Teqemt|Ṭəqəmti|Teqemti|Ḫədar|Hedar|Taḫśaś|Tahsas|Tehsass|Yäkatit|Yakatit|Läkatit|Lakatit|Mägabit|Magabit|Miyazya|Mazia|Gənbo|Genbo|Gənbot|Genbot|Säne|Sane|Ḥamle|Hamle|Nähase|Nahase|Ṗagʷəmen|Pagwemen|Ṗagume|Pagume', 'i')])"
-                sqf:fix="add-calendar-attribute-ethiopian-geez">[FYI] This &lt;date&gt; has a word
-                or phrase possibly indicating a Ethopian ge’ez calendar reference.</assert>
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Ethopian ge’ez calendar reference.</assert>
 
             <!-- Hijri -->
             <assert role="info"
                 test="not(.[matches(., 'Muḥarram|Muharram|Moharram|Ṣafar|Safar|Sefer|Rabī&#8217;\s+al-awwal|Rebbi-al-ewel|Rabih|Rabī&#8216;\s+ath-thānī|Rabī&#8216;\s+al-Thānī|Rabī&#8216;\s+al-Tānī|Rabī’\s+al-Ākhir|Rabi\s+el\s+tami|Rabee\s+El\s+Thani|Rabi&#8217;Tani|Rebbi-ul-Akbir|Rebi-ul-Ewel|Rabih|Jumādá\s+al-ūlá|Ǧumādā\s+al-Awwal|Jumada\s+al-awwal|Jumada\s+al-ula|Jumada\s+al-Ula|Jumada|Jumada\s+I|Jamadi-ol-Aval|Jumada\s+al-Oola|Jamad-el-Ewel|Jumadil\s+Awwal|Djémazi-ul-ewel|Djemazi-ul-evvel|Youmada|Youmada\s+I|Youmada\s+1st|Jamadi-es-Sani|Jumādá\s+al-ākhirah|Ǧumādā\s+al-Āḫir|Ǧumādā\s+aṮ-Ṯānī|Iamadi|Jumaada\s+al-Akhir|Jumada\s+al-Akhira|Jumādā\s+al-āḵir|Jumada\s+II|Rajab|Rajah|Sha&#8217;bān|Sha&#8216;ban|Sha&#8216;bān|Sha&#8216;ban|Shaaban|Chaban|Ramaḍān|Ramadan|Ramadhan|Ramazam|Shawwāl|Shawwal|Shawal|Dhū\s+al-Qa&#8216;dah|Dhu[:punct:]l-Qi[:punct:]dah|Dhu.?l-Qa[:punct:]dah|Ḏū\s+l-Qa[:punct:]dah|Zulqida|Zeekadeh|Zee\s+Radah|Zee\s+Kadah|Dhū\s+al-Ḥijjah|Dhu\s+al-Hijjah|Dhu[:punct:]l-Hijjah|Zulhijja|Zi\s+El-Hidjah|Zil-Hajj', 'i')])"
-                sqf:fix="add-calendar-attribute-hijri">[FYI] This &lt;date&gt; has a word or phrase
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a hijri calendar reference.</assert>
 
             <!-- Iranian/Persian/Solar Hijri -->
             <assert role="info"
                 test="not(.[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|[^A-z]dey[^A-z]|[^A-z]Dey[^A-z]|bahman|Bahman|esfand|Esfand|Espand', 'i')])"
-                sqf:fix="add-calendar-attribute-iranian-persian">[FYI] This &lt;date&gt; has a word
-                or phrase possibly indicating an Iranian/Persian (Solar Hijri) calendar
-                reference.</assert>
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating an Iranian/Persian (Solar Hijri) calendar reference.</assert>
 
             <!-- Japanese Nengō -->
             <assert role="info"
                 test="not(.[matches(., 'An&#8217;ei|Kōkaku|Kokaku|Tenmei|Kansei|Kyōwa|Kyowa|Bunka|Ninkō|Ninko|Bunsei|Tenpō|Tenpo|Tenhō|Tenho|Kōka|Koka|Kōmei|Komei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Keiō|Keio|Meiji|Taishō|Taisho|Shōwa|Showa|Heisei|Akihito', 'i')])"
-                sqf:fix="add-calendar-attribute-japanese-nengo">[FYI] This &lt;date&gt; has a word
-                or phrase possibly indicating a Japanese nengō calendar reference.</assert>
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Japanese nengō calendar reference.</assert>
 
             <!-- Korean Era -->
             <assert role="info"
                 test="not(.[matches(., 'Yi\s+Geum|Gunjin|Songheon|Taejo|Emperor\s+Go|Yi\s+San|Hyeongun|Hongjae|Jeongjo|Yi\s+Gong|Gongbo|Sunjae|Sunjo|Yi\s+Hwan|Muneung|Wonheon|\s+Heonjong|Yi\s+Byeon|Doseung|Daeyongjae|Cheoljong|Yi\s+Myeong-bok|Yi\s+Hui|Seongrim|Juyeon|Gojong|Kojong|Emperor\s+Tae|Gaeguk|Geonyang|Gwangmu|Kwangmu|Kwang\s+Mu|Gwangmuje|Kwangmuje|Yi\s+Cheok|Gundang|Jeongheon|Sunjong|Emperor\s+Hyo|Emperor\s+Yunghui|Yunghui|Yunghuije|Yunghŭije|Lyung\s+Heni', 'i')])"
-                sqf:fix="add-calendar-attribute-korean-era">[FYI] This &lt;date&gt; has a word or
-                phrase possibly indicating a Korean era calendar reference.</assert>
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Korean era calendar reference.</assert>
 
             <!-- Masonic Anno Lucis -->
             <assert role="info"
                 test="not(.[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')])"
-                sqf:fix="add-calendar-attribute-masonic-anno-lucis">[FYI] This &lt;date&gt; has a
-                word or phrase possibly indicating a Masonic calendar reference.</assert>
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Masonic calendar reference.</assert>
 
             <!-- Papal Era -->
             <assert role="info" test="not(.[matches(., 'pontif*', 'i')])"
-                sqf:fix="add-calendar-attribute-papal-era">[FYI] This &lt;date&gt; has a word or
-                phrase possibly indicating a papal era calendar reference.</assert>
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a papal era calendar reference.</assert>
 
             <!-- Roman -->
             <assert role="info" test="not(.[matches(., 'nones|ides|kalends', 'i')])"
-                sqf:fix="add-calendar-attribute-roman">[FYI] This &lt;date&gt; has a word or phrase
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Roman calendar reference.</assert>
 
             <!-- Rumi -->
             <assert role="info"
                 test="not(.[matches(., 'Kânûn-ı\s+Sânî|Kanun-i Sani|Şubat|Subat|[^A-z]Mart[^A-z]|Nisan|Mayıs|Mayis|Haziran|Temmuz|Ağustos|Agustos|Eylül|EylulTeşrin-i\s+Evvel|Tesrin-i\s+Evvel|Teşrin-i\s+Sânî|Tesrin-i Sani|Kânûn-ı\s+Evvel|Kanun-i\s+Evvel', 'i')])"
-                sqf:fix="add-calendar-attribute-rumi">[FYI] This &lt;date&gt; has a word or phrase
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Rumi calendar reference.</assert>
 
             <!-- Tibetan Phugpa -->
             <assert role="info"
                 test="not(.[matches(., 'Rabbit|Dragon|Snake|Horse|Goat|Monkey|Rooster|Dog|Pig|Rat|Ox|Tiger', 'i') and matches(., 'Fire|Earth|Iron|Water|Wood', 'i')])"
-                sqf:fix="add-calendar-attribute-tibetan-phugpa">[FYI] This &lt;date&gt; has a word
-                or phrase possibly indicating a Tibetan phugpa calendar reference.</assert>
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Tibetan phugpa calendar reference.</assert>
 
             <!-- US Republic -->
             <assert role="info"
@@ -586,9 +585,9 @@
                     use-when=".[matches(., 'of\s+the\s+Independence\s+of\s+the\s+United\s+States', 'i')]"
                     id="add-calendar-attribute-us-republic-gregorian">
                     <sqf:description>
-                        <sqf:title>Add @calendar="us-republic gregorian"</sqf:title>
+                        <sqf:title>Add @calendar="gregorian us-republic"</sqf:title>
                     </sqf:description>
-                    <sqf:add node-type="attribute" target="calendar">us-republic gregorian</sqf:add>
+                    <sqf:add node-type="attribute" target="calendar">gregorian us-republic</sqf:add>
                 </sqf:fix>
 
             </sqf:group>
@@ -697,9 +696,12 @@
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
 
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian"
+                            where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
+                        target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
 
@@ -719,9 +721,12 @@
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian"
+                            where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
+                        target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
                 <!-- Fix 3: month-day-range-year-regex-eng -->
@@ -744,10 +749,13 @@
                     <let name="to" value="concat($year, '-', $month-digit, '-', $date-to)"/>
 
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @from and @to attributes to &lt;date&gt; (and
+                            @calendar="gregorian" where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="from" select="$from"/>
                     <sqf:add match="." node-type="attribute" target="to" select="$to"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
+                        target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
                 <!-- Fix 4: date-spelled-out-regex-eng -->
@@ -908,9 +916,12 @@
                     <let name="when"
                         value="concat($year-combined, '-', $month-digit, '-', $date-digit)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian"
+                            where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
+                        target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
                 <!-- Fix 5: day-month-year-partially-spelled-out-regex-eng -->
@@ -1030,9 +1041,12 @@
                     <let name="when"
                         value="concat($year-combined, '-', $month-digit, '-', $date-digit)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian"
+                            where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
+                        target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
                 <!-- Fix 6: month-day-year-regex-fr -->
@@ -1051,9 +1065,12 @@
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian"
+                            where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
+                        target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
 
@@ -1074,9 +1091,12 @@
 
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian"
+                            where appropriate)</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
+                        target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
             </sqf:group>

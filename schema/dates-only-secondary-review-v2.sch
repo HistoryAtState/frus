@@ -448,7 +448,7 @@
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Masonic calendar reference.</assert>
 
-            <sqf:group id="add-calendar-attributes">
+            <sqf:group use-when=".[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')]" id="add-calendar-attributes">
                 <sqf:fix id="add-calendar-attribute-masonic-anno-lucis">
                     <sqf:description>
                         <sqf:title>Add @calendar="masonic"</sqf:title>
@@ -472,14 +472,16 @@
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a papal era calendar reference.</assert>
             <sqf:group id="add-calendar-attributes">
-                <sqf:fix id="add-calendar-attribute-papal-era">
+                <sqf:fix use-when=".[matches(., 'pontif*', 'i')]"
+                    id="add-calendar-attribute-papal-era">
                     <sqf:description>
                         <sqf:title>Add @calendar="papal-era"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">papal-era</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix id="add-calendar-attribute-papal-era-gregorian">
+                <sqf:fix use-when=".[matches(., 'pontif*', 'i')]"
+                    id="add-calendar-attribute-papal-era-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="papal-era gregorian"</sqf:title>
                     </sqf:description>
