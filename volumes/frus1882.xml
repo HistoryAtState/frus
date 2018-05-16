@@ -13832,8 +13832,9 @@
                     <frus:attachment>
                         <opener><seg rendition="#center">[Inclosure 1 in No. 66.]</seg></opener>
                         <head><hi rend="smallcaps">Appendix VI.</hi></head>
-                        <p rend="center"><hi rend="italic">British order in council of October</hi>
-                            25, 1881.</p>
+                        <dateline rend="center"><hi rend="italic">British order in council of</hi>
+                            <date when="1881-10-25" calendar="gregorian"><hi rend="italic"
+                                    >October</hi> 25, 1881</date>.</dateline>
                         <p>At the court at Balmoral, the 25th day of October, 1881.</p>
                         <p>Present, the Queen’s Most Excellent Majesty in Council.</p>
                         <p>Whereas Her Majesty the Queen has power and jurisdiction in relation to
@@ -14867,6 +14868,10 @@
                         <head><hi rend="italic">Memorandum of a conversation had by Mr. Arendt with
                                 His Excellency Wang, the only minister present at the Tsungli Yamên,
                                 on February</hi> 15, 1882.</head>
+                        <dateline>[<date ana="#date_undated-inferred-from-document-head"
+                                when="1882-02-15" calendar="gregorian"
+                                type="conversation-or-meeting-date">February 15,
+                            1882</date>]</dateline>
                         <p>I. What do the characters tsze hsiang “this class” of uncertificated
                             produce mean?</p>
                         <p><hi rend="smallcaps">Wang</hi>. The words “this class” have no special
@@ -23689,8 +23694,10 @@
                     </frus:attachment>
                     <frus:attachment>
                         <opener><seg rendition="#center">[Inclosure 2 in No. 25.]</seg></opener>
-                        <opener><seg rendition="#center">[Extract from the Baltimore American of
-                                February 17, 1882.]</seg></opener>
+                        <opener><dateline rendition="#center">[Extract from the
+                                    <placeName>Baltimore</placeName> American of <date
+                                    when="1882-02-17" calendar="gregorian">February 17,
+                                1882</date>.]</dateline></opener>
                         <p><hi rend="smallcaps">The Case of Denis O’Connor and his Claim of American
                                 Citizenship.</hi>—Mr. Denis H. O’Connor, who is now confined in
                             prison in Ireland as a “suspect,” and over whose case quite a discussion
