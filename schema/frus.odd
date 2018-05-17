@@ -923,18 +923,22 @@
                             <item>Apply transformations for tertiary pass [C]<list>
                                     <item>C 06. Add date/@calendar="gregorian"</item>
                                     <item>C 07. Add date/@calendar="us-republic"</item>
-                                    <item>C 08. Add FRUS compilations/chapter/subchapter dateTimes
+                                    <item>C 08. Add div/@subtype to front matter</item>
+                                    <item>C 09. Add div/@subtype to back matter</item>
+                                    <item>C 10. Add/update FRUS documents dateTimes (min/max)
+                                        [tertiary pass]</item>
+                                    <item>C 11. Add FRUS compilations/chapter/subchapter dateTimes
                                         (min/max)</item>
                                 </list>
                             </item>
                             <item>Apply transformations for penultimate pass [D]<list>
-                                    <item>D 09. Add FRUS volume dateTimes in
+                                    <item>D 12. Add FRUS volume dateTimes in
                                         xenoData/frus:coverage</item>
                                 </list>
                             </item>
                             <item>Apply transformations for final pass [E]<list>
-                                    <item>E 10. Add FRUS section/toc dateTimes (min/max)</item>
-                                    <item>E 11. Add FRUS editorial-notes dateTimes (min/max)</item>
+                                    <item>E 13. Add FRUS section/toc dateTimes (min/max)</item>
+                                    <item>E 14. Add FRUS editorial-notes dateTimes (min/max)</item>
                                 </list>
                             </item>
                         </list></item>
