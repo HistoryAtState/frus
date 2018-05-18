@@ -13,9 +13,9 @@
     <xsl:variable name="volume-dates-min" select="//frus:coverage/@notBefore"/>
     <xsl:variable name="volume-dates-max" select="//frus:coverage/@notAfter"/>
 
-    <!-- Add volumes dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to editorial notes -->
+    <!-- Add volumes dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to editorial notes and errata statements for document numbering errors -->
 
-    <xsl:template match="tei:div[@subtype = 'editorial-note']">
+    <xsl:template match="tei:div[@subtype = ('editorial-note', 'errata_document-numbering-error')]">
         <xsl:choose>
             <xsl:when test="not(empty($volume-dates-min)) and not(empty($volume-dates-max))">
                 <xsl:choose>
