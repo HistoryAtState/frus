@@ -904,41 +904,43 @@
                             <item>Apply transformations for initial pass [A]<list>
                                     <item>A 01. Add TEI/xmlns:xi and classDecl/xi:include for
                                         frus-dates</item>
-                                    <item>A 02. Add div/@subtype="historical-document" OR
+                                    <item>A 02. Add date/@subtype="publication-date" in
+                                        TEIHeader/publicationStmt</item>
+                                    <item>A 03. Add div/@subtype="historical-document" OR
                                         "editorial-note"</item>
-                                    <item>A 03. Add div/@subtype="referral"</item>
-                                    <item>A 04. Add FRUS documents dateTimes (min/max) [initial
+                                    <item>A 04. Add div/@subtype="referral"</item>
+                                    <item>A 05. Add FRUS documents dateTimes (min/max) [initial
                                         pass]</item>
                                 </list>
                             </item>
                             <item>Apply schema files and validate the file</item>
                             <item>Fix validation errors</item>
                             <item>Apply transformation for secondary pass [B]<list>
-                                    <item>B 05. Add/update FRUS documents dateTimes (min/max)
+                                    <item>B 06. Add/update FRUS documents dateTimes (min/max)
                                         [secondary pass]</item>
                                 </list>
                             </item>
                             <item>Review structure</item>
                             <item>Silent corrections vs. Errata</item>
                             <item>Apply transformations for tertiary pass [C]<list>
-                                    <item>C 06. Add date/@calendar="gregorian"</item>
-                                    <item>C 07. Add date/@calendar="us-republic"</item>
-                                    <item>C 08. Add div/@subtype to front matter</item>
-                                    <item>C 09. Add div/@subtype to back matter</item>
-                                    <item>C 10. Add/update FRUS documents dateTimes (min/max)
+                                    <item>C 07. Add date/@calendar="gregorian"</item>
+                                    <item>C 08. Add date/@calendar="us-republic"</item>
+                                    <item>C 09. Add div/@subtype to front matter</item>
+                                    <item>C 10. Add div/@subtype to back matter</item>
+                                    <item>C 11. Add/update FRUS documents dateTimes (min/max)
                                         [tertiary pass]</item>
-                                    <item>C 11. Add FRUS compilations/chapter/subchapter dateTimes
+                                    <item>C 12. Add FRUS compilations/chapter/subchapter dateTimes
                                         (min/max)</item>
                                 </list>
                             </item>
                             <item>Apply transformations for penultimate pass [D]<list>
-                                    <item>D 12. Add FRUS volume dateTimes in
+                                    <item>D 13. Add FRUS volume dateTimes in
                                         xenoData/frus:coverage</item>
                                 </list>
                             </item>
                             <item>Apply transformations for final pass [E]<list>
-                                    <item>E 13. Add FRUS section/toc dateTimes (min/max)</item>
-                                    <item>E 14. Add FRUS editorial-notes dateTimes (min/max)</item>
+                                    <item>E 14. Add FRUS section/toc dateTimes (min/max)</item>
+                                    <item>E 15. Add FRUS editorial-notes dateTimes (min/max)</item>
                                 </list>
                             </item>
                         </list></item>
