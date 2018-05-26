@@ -8,7 +8,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-05-24T02:43:49Z. .
+# Schema generated from ODD source 2018-05-26T01:59:21Z. .
 # TEI Edition: Version 2.7.0. Last updated on
 #	16th September 2014, revision 13036
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.7.0/
@@ -1216,6 +1216,80 @@ date =
         "#date_undated-inferred-from-volume-rules"
     }?,
     
+    ## 
+    ## Suggested values include: 1] brazilian-republic(Official documents such as treaties may include a
+    ##                                             parallel date phrase referring to the year in relation
+    ##                                             to the establishment of the republic of Brazil.) ; 2] chinese-era(Prior to 1912, the Chinese dating system often
+    ##                                             referred to the reign or era of particular rulers of
+    ##                                             China.) ; 3] chinese-lunisolar(The Chinese calendar is a lunisolar calendar. While
+    ##                                             it has been supplanted by the Gregorian calendar for
+    ##                                             civil purposes, the Chinese calendar is still used in
+    ##                                             the determination of community events such as
+    ##                                             festivals.) ; 4] chinese-republic(Official documents such as treaties may include a
+    ##                                             parallel date phrase referring to the year in relation
+    ##                                             to the establishment of the republic of China.) ; 5] ethiopian-geez(The Ethiopian Ge’ez calendar is used in Ethiopia's
+    ##                                             civil society as well as the Orthodox Church in Ethiopia
+    ##                                             and Eritrea. The solar-based Ethiopian calendar is
+    ##                                             related to the Coptic and Julian calendars.) ; 6] gregorian(The Gregorian calendar is widely used worldwide and
+    ##                                             is the calendar system used in the international
+    ##                                             standard for dates and times (ISO 8601). The solar-based
+    ##                                             Gregorian calendar is also known as the Western calendar
+    ##                                             or Christian calendar. Because the U.S. Department of
+    ##                                             State is headquartered in the United States, the
+    ##                                             majority of datelines in FRUS refer to the Gregorian
+    ##                                             calendar or have parallel date statements.) ; 7] haitian-republic(Official documents such as treaties may include a
+    ##                                             parallel date phrase referring to the year in relation
+    ##                                             to the establishment of the republic of Haiti
+    ##                                             (originally Hayti).) ; 8] hijri(The Islamic calendar, or Hijri or Muslim calendar, is
+    ##                                             a lunar calendar, whose time reckoning is tied to the
+    ##                                             phases of the Earth's moon. The Hijri calendar is used
+    ##                                             by many Muslim-majority countries and by Muslims around
+    ##                                             the world to determine the dates of religious events and
+    ##                                             observances.) ; 9] iranian-persian(The Solar Hijri calendar, or Persian or Iranian
+    ##                                             calendar, is a solar calendar, whose time reckoning is
+    ##                                             tied to the Earth's movements around its sun. The
+    ##                                             Persian calendar is officially used in Iran and
+    ##                                             Afghanistan.) ; 10] japanese-nengō(The Japanese nengō is a periodization system that,
+    ##                                             during the FRUS timeframe, is based on the reign of
+    ##                                             Japanese emperors.) ; 11] julian(Reforming the lunar-based Roman calendar, the Julian
+    ##                                             calendar was solar-based and tied to the Earth's
+    ##                                             rotation around the sun. Proposed by Julius Ceasar, the
+    ##                                             Julian calendar was widely used throughout the Roman
+    ##                                             Empire and in Christian churches and gained dominance in
+    ##                                             Europe and European-sponsored settlements. While the
+    ##                                             Gregorian calendar was first introduced in 1582, the
+    ##                                             Julian calendar was maintained in some countries even
+    ##                                             through the 1930s. The Julian calendar is still used by
+    ##                                             the Russian Orthodox Church, the Berber people of North
+    ##                                             Africa, and on Mount Athos.) ; 12] korean-era(Korean dating systems often referred to the reign or
+    ##                                             era of particular rulers of Korea.) ; 13] korean-lunisolar(Derived from the Chinese calendar, the traditional
+    ##                                             Korean calendar is a lunisolar calendar.) ; 14] liberian-republic(Official documents such as treaties may include a
+    ##                                             parallel date phrase referencing the year of the
+    ##                                             republic of Liberia.) ; 15] masonic-anno-lucis(Among the different Masonic calendars, Anno Lucis
+    ##                                             (A.L. or A:.L:. or the year of light) is used by
+    ##                                             Freemasons in Scotland, England, Ireland, France,
+    ##                                             Germany, and the United States. The “year of light”
+    ##                                             refers to a particular Biblical interpretation of the
+    ##                                             creation of the world (~4000 BCE).) ; 16] papal-era(Papal era dates referred to the year in relation to
+    ##                                             the term of the current Catholic pope.) ; 17] roman(The Roman calendar was used by the Roman Kingdom and
+    ##                                             Roman Republic. Roman dates were referenced by their
+    ##                                             duration from one of three key days: the nones (fifth or
+    ##                                             seventh, depending on the length of the month), the ides
+    ##                                             (the thirteenth or fifteenth of a month), and the
+    ##                                             kalends (the first of the next month).) ; 18] rumi(The Rumi calendar (Rumi takvim), a hsolar calendar
+    ##                                             based on the Julian calendar but with year one
+    ##                                             corresponding to 622 A.D., This calendar was used by the
+    ##                                             Ottoman Empire and its successor, the Republic of
+    ##                                             Turkey, from 1839 to 1926. ) ; 19] thai-era(Official documents such as treaties may include a
+    ##                                             parallel date phrase referring to the year in relation
+    ##                                             to the 1782 establishment of the Rattanakosin Kingdom
+    ##                                             (Siam and, later, the Kingdom of Thailand).) ; 20] tibetan-phugpa(Introduced in 1447, the lunisolar Tibetan phugpa
+    ##                                             calendar is modified from Indian calendar systems and
+    ##                                             based on the Kālacakra Tantra. In the phugpa calendar,
+    ##                                             each year is associated with an element and an animal;
+    ##                                             pairings recur in 60-year cycles.) ; 21] us-republic(Official documents such as treaties may include a
+    ##                                             parallel date phrase referring to the year in relation
+    ##                                             to the independence of the United States (1776).) 
     attribute calendar {
       
       ## (Official documents such as treaties may include a
