@@ -925,22 +925,24 @@
                             <item>Apply transformations for tertiary pass [C]<list>
                                     <item>C 07. Add date/@calendar="gregorian"</item>
                                     <item>C 08. Add date/@calendar="us-republic"</item>
-                                    <item>C 09. Add div/@subtype to front matter</item>
-                                    <item>C 10. Add div/@subtype to back matter</item>
-                                    <item>C 11. Add/update FRUS documents dateTimes (min/max)
+                                    <item>C 09. Add rendition="#left" for closer//dateline without @
+                                        rendition</item>
+                                    <item>C 10. Add div/@subtype to front matter</item>
+                                    <item>C 11. Add div/@subtype to back matter</item>
+                                    <item>C 12. Add/update FRUS documents dateTimes (min/max)
                                         [tertiary pass]</item>
-                                    <item>C 12. Add FRUS compilations/chapter/subchapter dateTimes
+                                    <item>C 13. Add FRUS compilations/chapter/subchapter dateTimes
                                         (min/max)</item>
                                 </list>
                             </item>
                             <item>Apply transformations for penultimate pass [D]<list>
-                                    <item>D 13. Add FRUS volume dateTimes in
+                                    <item>D 14. Add FRUS volume dateTimes in
                                         xenoData/frus:coverage</item>
                                 </list>
                             </item>
                             <item>Apply transformations for final pass [E]<list>
-                                    <item>E 14. Add FRUS section/toc dateTimes (min/max)</item>
-                                    <item>E 15. Add FRUS editorial-notes dateTimes (min/max)</item>
+                                    <item>E 15. Add FRUS section/toc dateTimes (min/max)</item>
+                                    <item>E 16. Add FRUS editorial-notes dateTimes (min/max)</item>
                                 </list>
                             </item>
                         </list></item>
@@ -1588,8 +1590,8 @@
                                         <gloss>Prior to 1912, the Chinese dating system often
                                             referred to the reign or era of particular rulers of
                                             China.</gloss>
-                                        <desc>FRUS example(s): “Kuang Hsü, 26th year, 11th
-                                            month, 24th day”</desc>
+                                        <desc>FRUS example(s): “Kuang Hsü, 26th year, 11th month,
+                                            24th day”</desc>
                                     </valItem>
                                     <valItem ident="chinese-lunisolar">
                                         <gloss>The Chinese calendar is a lunisolar calendar. While
