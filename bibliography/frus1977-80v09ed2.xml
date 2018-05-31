@@ -13,10 +13,10 @@
     <isbn10/>
     <isbn13/>
     <media type="print"/>
-    <publication-status>in-production</publication-status>
+    <publication-status>published</publication-status>
     <public-target-publication-year>2018</public-target-publication-year>
-    <published-year/>
-    <published-date/>
+    <published-year>2018</published-year>
+    <published-date>2018-05-31</published-date>
     <administration>carter</administration>
     <grouping administration="carter">regular</grouping>
     <coverage type="from">1977</coverage>
@@ -26,7 +26,24 @@
         <span part="body" unit="pages"/>
     </length>
     <summary>
-        <tei:p xmlns:tei="http://www.tei-c.org/ns/1.0"/>
+        <tei:p xmlns:tei="http://www.tei-c.org/ns/1.0">This revised edition incorporates critical
+            material found since the publication of the first edition in 2014. This added material
+            consists largely of personal handwritten notes taken at the September 5–17, 1978, Camp
+            David summit by Samuel W. Lewis, the U.S. Ambassador to Israel from 1978 until 1985.
+            Department of State historians found these notes while researching volumes for the
+            administration of President Ronald Reagan, amidst Department material dating largely
+            from the 1980s. Discovered subsequent to the initial publication of <tei:hi
+                rend="italic">Foreign Relations</tei:hi>, 1977–1980, volume IX, Arab-Israeli
+            Dispute, August 1978–December 1980, these documents add significantly to the record of
+            U.S. diplomacy at Camp David. While they do not alter substantively the portrait of U.S.
+            diplomacy at the summit already represented in the first edition of the volume, this
+            material enhances the documentary record. Department of State historians also located a
+            more complete version of a document already published in the first edition. Sometime
+            shortly after the summit’s completion on September 17, 1978, U.S. officials produced a
+            draft day-by-day summary of the meetings held over its duration. Readers familiar with
+            the first edition will note that the version of this summary document published in that
+            edition covers most, but not all, of the summit. As a result of these discoveries, the
+            decision was taken to issue a revised edition.</tei:p>
         <tei:p xmlns:tei="http://www.tei-c.org/ns/1.0"/>
     </summary>
     <created-by>eckrothsl</created-by>
