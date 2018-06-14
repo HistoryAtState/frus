@@ -18,7 +18,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date type="publication-date">1874</date>
+                <date type="publication-date" calendar="gregorian">1874</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -70,6 +70,10 @@
             <change>2016-07-18 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1793-08-23T00:00:00-05:00"
+                notAfter="1874-12-31T23:55:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -114,8 +118,8 @@
                                         of the Agent of the United States before the Mixed
                                         Commission on American and British Claims</hi>,<hi
                                         rend="italic">Washington, D. C.</hi></placeName>, <date
-                                    when="1873-11-30"><hi rend="italic">November</hi> 30,
-                                    1873</date>.</dateline></opener>
+                                    when="1873-11-30" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 30, 1873</date>.</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: In submitting the accompanying report of
                             the proceedings and results of the mixed commission under the twelfth
                             article of the treaty between the United States and Great Britain of May
@@ -8655,8 +8659,8 @@
                         <head>A.<lb/><hi rend="italic">Articles of the treaty relating to the
                                 commission</hi>.</head>
                         <dateline>[<date when="1873-11-30"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p rend="center"><hi rend="smallcaps">Article XII</hi>.</p>
                         <p>The high contracting parties agree that all claims on the part of
                             corporations, companies, or private individuals (citizens of the United
@@ -8764,8 +8768,8 @@
                         frus:doc-dateTime-max="1873-11-30T23:59:59-05:00">
                         <head>B.<lb/><hi rend="italic">Rules of the commission.</hi></head>
                         <dateline>[<date when="1873-11-30"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p>1. In addition to the representation of his claim, and the proofs in
                             support thereof which shall have been presented to his government, the
                             claimant shall file in the office of the commission a statement of his
@@ -8905,8 +8909,8 @@
                                 claimants against the respective governments, with indexes to
                                 same</hi>.</head>
                         <dateline>[<date when="1873-11-30"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p rend="center"><hi rend="smallcaps">british claims</hi>.</p>
                         <table rows="650" cols="16" rend="bordered">
                             <row>
@@ -17971,8 +17975,8 @@
                                         of the Mixed Commission on<lb/>British and American
                                         Claims,<lb/>Under the Treaty May</hi> 8, 1871,<lb/><hi
                                         rend="italic">Newport, R. I.</hi></placeName>, <date
-                                    when="1873-09-25"><hi rend="italic">September</hi> 25,
-                                    1873</date>.</dateline></opener>
+                                    when="1873-09-25" calendar="gregorian"><hi rend="italic"
+                                        >September</hi> 25, 1873</date>.</dateline></opener>
                         <p>The undersigned commissioners appointed under the twelfth article of the
                             treaty signed at Washington on the eighth day of May, one thousand eight
                             hundred and seventy-one, between the United States of <pb n="230"
@@ -18036,8 +18040,8 @@
                                 in the Calcutta saltpetre cases</hi>. (<hi rend="italic">See p</hi>.
                             49, <hi rend="italic">ante.</hi>)</head>
                         <dateline>[<date when="1873-11-30"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p>These cases arise out of certain legislative ordinances of the
                             governor-general of India, dated respectively December 21, 1861, and
                             January 3, <pb n="231" xml:id="pg_231" facs="0287"/>1862. By the first
@@ -18265,8 +18269,8 @@
                                 States. No</hi>. 410. <hi rend="italic">See p</hi>. 49, <hi
                                 rend="italic">ante.</hi></head>
                         <dateline>[<date when="1873-11-30"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p>Henderson, in whose behalf Great Britain makes this claim, is a British
                             subject by birth, and has taken no steps toward becoming naturalized in
                             this or any other country. He became domiciled near Port Hudson, in the
@@ -18414,8 +18418,8 @@
                                 rend="italic">and others</hi>. (<hi rend="italic">See p</hi>. 49,
                                 <hi rend="italic">ante.</hi>)</head>
                         <dateline>[<date when="1873-11-30"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p>The capture or destruction of property on land belonging to individual
                             enemies is justified by the modern law of nations, if there be military
                             reasons for it; in the absence of good military reasons such captures
@@ -18568,8 +18572,8 @@
                                 No</hi>. 2. (<hi rend="italic">See p</hi>. 58, <hi rend="italic"
                                 >ante.</hi>)</head>
                         <dateline>[<date when="1873-11-30"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p>This is a claim for the destruction of 819 bales of cotton belonging to
                             the claimant by rebels in arms against the United States. The property
                             was destroyed in Louisiana and Mississippi in 1862 by the confederate
@@ -18627,8 +18631,8 @@
                                 Mrs. Brain, No</hi>. 447. (<hi rend="italic">See p</hi>. 62, <hi
                                 rend="italic">ante.</hi>)</head>
                         <dateline>[<date when="1873-11-30"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p>This is an international court, and the parties litigant before it are
                                 <hi rend="italic">nations</hi>, not <hi rend="italic"
                                 >individuals.</hi></p>
@@ -18678,8 +18682,8 @@
                                 case of John C. Rahming, No.</hi> 7. (<hi rend="italic">See p</hi>.
                             64, <hi rend="italic">ante</hi>.)</head>
                         <dateline>[<date when="1873-11-30"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p>Conceding that in this case there must be an award of damages, yet I do
                             not agree that it should be large.</p>
                         <p>When the American rebellion began he was domiciled at Nassau, and so
@@ -18815,8 +18819,8 @@
                                 rend="italic">ante.</hi>)</head>
 
                         <dateline>[<date when="1873-11-30"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p>Upon the question whether a claim can now be maintained before this
                             commission for vessels and cargoes, or either, captured and by the
                             proper courts of prize condemned as lawful prize, and no appeal
@@ -18979,8 +18983,8 @@
                                 Grande” cases</hi>. (<hi rend="italic">See p</hi>. 110, <hi
                                 rend="italic">ante.</hi>)</head>
                         <dateline>[<date when="1873-11-30"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <list>
                             <label>1.</label>
                             <item>The remarks made in the general argument for the claimants urging
@@ -19228,8 +19232,8 @@
                                 >and</hi> 444. (<hi rend="italic">See p</hi>. 148, <hi rend="italic"
                                 >ante.</hi>)</head>
                         <dateline>[<date when="1873-11-30"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p>The only lawful object of a blockade is to injure the enemy. Hence there
                             cannot, consistently with public law, be a blockade of a port unless it
                             be an enemy’s port.</p>
@@ -19387,8 +19391,8 @@
                                 <hi rend="italic">and</hi> 467. (<hi rend="italic">See p</hi>. 153,
                                 <hi rend="italic">ante.</hi>)</head>
                         <dateline>[<date when="1873-11-30"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p>The allowance of prospective earnings by vessels was denied by the
                             tribunal at Geneva <hi rend="italic">unanimously</hi>. It is not, so far
                             as I am aware, allowed by the municipal law of any civilized nation
@@ -19476,7 +19480,8 @@
         </body>
         <back>
             <pb n="[255]" xml:id="pg_255" facs="0311"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" frus:doc-dateTime-min="1793-08-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1874-12-31T23:55:59-05:00">
                 <head>Index.</head>
                 <p rend="center">A.</p>
                 <list type="index">
@@ -20100,7 +20105,8 @@
                 </list>
             </div>
             <pb n="[261]" xml:id="pg_261" facs="0317"/>
-            <div type="section" xml:id="appendix">
+            <div type="section" xml:id="appendix" frus:doc-dateTime-min="1793-08-23T00:00:00-05:00"
+                frus:doc-dateTime-max="1874-12-31T23:55:59-05:00">
                 <head>General Appendix.</head>
                 <pb n="[262]" xml:id="pg_262" facs="0318"/>
                 <pb n="[263]" xml:id="pg_263" facs="0319"/>
@@ -20120,8 +20126,8 @@
                                         >Fish</persName>.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-01-26"
-                                            ><hi rend="italic">January</hi> 26,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">January</hi> 26,
+                                        1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: In compliance with an instruction
                                 which I have received from Earl Granville, I have the honor to state
                                 that her Majesty’s government deem it of importance to the good
@@ -20167,8 +20173,8 @@
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Department of State</hi>,<lb/><hi rend="italic"
                                             >Washington</hi></placeName>, <date when="1871-01-30"
-                                            ><hi rend="italic">January</hi> 30,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">January</hi> 30,
+                                        1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge the
                                 receipt of your note of January 26, in which you inform me, in
                                 compliance with instructions from Earl Granville, that Her Majesty’s
@@ -20237,8 +20243,8 @@
                                         >Fish</persName>.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-02-01"
-                                            ><hi rend="italic">February</hi> 1,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">February</hi> 1,
+                                        1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge the
                                 receipt of your note of the 30th ultimo, and to offer you my sincere
                                 and cordial thanks for the friendly and conciliatory spirit which
@@ -20289,8 +20295,8 @@
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Department of State</hi>,<lb/><hi rend="italic"
                                             >Washington</hi></placeName>, <date when="1871-02-03"
-                                            ><hi rend="italic">February</hi> 3,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">February</hi> 3,
+                                        1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge the
                                 receipt of your note of the 1st instant, in which you inform me that
                                 you are authorized by Earl Granville to state that it would give Her
@@ -20391,8 +20397,8 @@
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Executive Mansion</hi>,<lb/><hi rend="italic"
                                             >Washington</hi></placeName>, <date when="1871-02-14"
-                                            ><hi rend="italic">February</hi> 14,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">February</hi> 14,
+                                        1871</date>.</dateline></opener>
                             <p rend="flushleft">To <hi rend="smallcaps">J. C. Bancroft Davis</hi>,
                                     Esq.,<lb/><hi rend="italic">Assistant Secretary of
                                 State:</hi></p>
@@ -20410,8 +20416,8 @@
                             <head>Acceptances of appointments.</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-02-25"
-                                            ><hi rend="italic">February</hi> 25,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">February</hi> 25,
+                                        1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: I have received the commission as
                                 commissioner of the joint high commission between the United States
                                 and Great Britain, and hereby accept the same. I was born in the
@@ -20426,8 +20432,8 @@
                             <frus:attachment>
                                 <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                                 >Washington</hi></placeName>, <date
-                                            when="1871-02-25"><hi rend="italic">February</hi> 25,
-                                            1871</date>.</dateline></opener>
+                                            when="1871-02-25" calendar="gregorian"><hi rend="italic"
+                                                >February</hi> 25, 1871</date>.</dateline></opener>
                                 <p><hi rend="smallcaps">Sir</hi>: Having signified my acceptance of
                                     the appointment to the duties of commissioner in the joint high
                                     commission between the United States and Great Britain, which
@@ -20447,8 +20453,8 @@
                             <frus:attachment>
                                 <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                                 >Washington</hi></placeName>, <date
-                                            when="1871-03-01"><hi rend="italic">March</hi> 1,
-                                            1871</date>.</dateline></opener>
+                                            when="1871-03-01" calendar="gregorian"><hi rend="italic"
+                                                >March</hi> 1, 1871</date>.</dateline></opener>
                                 <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge
                                     the receipt from the Department of State of a commission from
                                     the President, appointing me “far be a commissioner of the
@@ -20467,8 +20473,8 @@
                             <frus:attachment>
                                 <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                                 >Washington</hi></placeName>, <date
-                                            when="1871-03-04"><hi rend="italic">March</hi> 4,
-                                            1871</date>.</dateline></opener>
+                                            when="1871-03-04" calendar="gregorian"><hi rend="italic"
+                                                >March</hi> 4, 1871</date>.</dateline></opener>
                                 <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge
                                     the receipt from you of a commission from the President as one
                                     of the commissioners in a joint high commission between the
@@ -20500,8 +20506,8 @@
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Department of State</hi>,<lb/><hi rend="italic"
                                             >Washington</hi></placeName>, <date when="1871-02-22"
-                                            ><hi rend="italic">February</hi> 22,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">February</hi> 22,
+                                        1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: Your high character and experience in
                                 public affairs, and the familiarity which your long service under
                                 the Federal Government has given you of the questions to be
@@ -20630,7 +20636,7 @@
                                         notBefore="1871-01-23T00:00:00-04:56"
                                         notAfter="1874-12-31T23:59:59-04:56"
                                         ana="#date_undated-inferred-from-volume-rules"
-                                        >undated</date>].</dateline></opener>
+                                        calendar="gregorian">undated</date>].</dateline></opener>
                             <p>The convention of 1818, hereinafter referred to, gives to American
                                 fishermen—</p>
                             <p>1. The right, in common with British fishermen, to <hi rend="italic"
@@ -21545,7 +21551,7 @@
                                         notBefore="1870-12-01T00:00:00-04:56"
                                         notAfter="1874-12-31T23:59:59-04:56"
                                         ana="#date_undated-inferred-from-volume-rules"
-                                        >undated</date>].</dateline></opener>
+                                        calendar="gregorian">undated</date>].</dateline></opener>
                             <p>The President states in his Annual Message (December, 1870) that this
                                 river constitutes a material outlet to the ocean for eight States,
                                 with an aggregate population of about 17,600,000 inhabitants, and
@@ -23392,7 +23398,7 @@
                                         notBefore="1860-12-10T00:00:00-04:56"
                                         notAfter="1874-12-31T23:59:59-04:56"
                                         ana="#date_undated-inferred-from-volume-rules"
-                                        >undated</date>.]</dateline></opener>
+                                        calendar="gregorian">undated</date>.]</dateline></opener>
                             <p>By the 1st article of the treaty between the United States and Great
                                 Britain of the 15th of June, 1816, it was stipulated that the line
                                 of boundary between the territories of the parties on the
@@ -24167,7 +24173,7 @@
                                         notBefore="1870-04-20T00:00:00-04:56"
                                         notAfter="1874-12-31T23:59:59-04:56"
                                         ana="#date_undated-inferred-from-volume-rules"
-                                        >undated</date>.]</dateline>
+                                        calendar="gregorian">undated</date>.]</dateline>
                             </opener>
                             <p>The dates of the several acts which have been cited by either party
                                 in the discussion of this question are herewith given:</p>
@@ -25230,8 +25236,8 @@
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Department of State</hi>,<lb/><hi rend="italic"
                                             >Washington</hi></placeName>, <date when="1869-09-25"
-                                            ><hi rend="italic">September</hi> 25,
-                                    1869</date>.</dateline>
+                                        calendar="gregorian"><hi rend="italic">September</hi> 25,
+                                        1869</date>.</dateline>
                                 <seg rendition="#left">No. 70.]</seg></opener>
                             <p><hi rend="smallcaps">Sir</hi>: When you left here upon your mission,
                                 the moment was thought not to be the most hopeful to enter upon
@@ -27587,9 +27593,9 @@
                                 War.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Annapolis, Md.</hi>,<lb/><hi rend="italic">In
-                                            Council</hi></placeName>, <date when="1793-08-23"><hi
-                                            rend="italic">August</hi> 23,
-                                1793</date>.</dateline></opener>
+                                            Council</hi></placeName>, <date when="1793-08-23"
+                                        calendar="gregorian"><hi rend="italic">August</hi> 23,
+                                        1793</date>.</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: Your communications of the 6th instant
                                 arrived in the absence of Governor Lee, who is gone to the Virginia
                                 Springs. They were, of course, taken into consideration by the
@@ -27698,9 +27704,9 @@
                             <head><hi rend="italic">Mr. <persName type="from">Hammond</persName> to
                                     Mr. <persName type="to">Jefferson</persName>.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                            >Lansdown</hi></placeName>, <date when="1793-11-22"><hi
-                                            rend="italic">November</hi> 22,
-                                1793</date>.</dateline></opener>
+                                            >Lansdown</hi></placeName>, <date when="1793-11-22"
+                                        calendar="gregorian"><hi rend="italic">November</hi> 22,
+                                        1793</date>.</dateline></opener>
                             <quote rend="blockquote">
                                 <p><hi rend="smallcaps">Sir</hi>: I have had the honor of receiving
                                     your letter of the 14th instant, upon which, as it announces the
@@ -27955,7 +27961,7 @@
                                         notBefore="1863-01-01T00:00:00-04:56"
                                         notAfter="1874-12-31T23:59:59-04:56"
                                         ana="#date_undated-inferred-from-volume-rules"
-                                        >undated</date>.]</dateline></opener>
+                                        calendar="gregorian">undated</date>.]</dateline></opener>
                             <p>These must be examined upon principles applicable to public war. The
                                 British government has recognized the conflict as waged by one
                                 actual government against another. The Supreme Court of the United
@@ -28045,9 +28051,9 @@
                                     of England makes of the governments of Tuscany and
                                 Naples.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                            >Vienna</hi></placeName>, <date when="1850-04-14"><hi
-                                            rend="italic">April</hi> 14,
-                                1850</date>.</dateline></opener>
+                                            >Vienna</hi></placeName>, <date when="1850-04-14"
+                                        calendar="gregorian"><hi rend="italic">April</hi> 14,
+                                        1850</date>.</dateline></opener>
                             <p>We have been informed with reference to the demand for
                                 indemnification which England makes against Tuscany for the alleged
                                 damages which English subjects had suffered in Leghorn, in
@@ -28166,8 +28172,8 @@
                                         >Brunow</persName>.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Saint Petersburgh</hi></placeName>, <date
-                                        when="1850-05-02"><hi rend="italic">May</hi> 2,
-                                    1850</date>.</dateline></opener>
+                                        when="1850-05-02" calendar="gregorian"><hi rend="italic"
+                                            >May</hi> 2, 1850</date>.</dateline></opener>
                             <quote rend="blockquote">
                                 <p>The cabinet of Saint Petersburgh adheres completely to the
                                     principles which have served as the basis to the demand of the
@@ -28457,8 +28463,8 @@
                                         >Lyons</persName>.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Foreign Office</hi></placeName>, <date
-                                        when="1871-01-11"><hi rend="italic">January</hi> 11,
-                                        1871</date>.</dateline></opener>
+                                        when="1871-01-11" calendar="gregorian"><hi rend="italic"
+                                            >January</hi> 11, 1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">My Lord</hi>: I have received your excellency’s
                                 dispatch of the 6th instant, inclosing a letter from Mr. Kirby, an
                                 English gentleman, established with his family at La Ferté Imbault,
@@ -28481,8 +28487,8 @@
                                         >West</persName>.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Foreign Office</hi></placeName>, <date
-                                        when="1871-03-01"><hi rend="italic">March</hi> 1,
-                                        1871</date>.</dateline></opener>
+                                        when="1871-03-01" calendar="gregorian"><hi rend="italic"
+                                            >March</hi> 1, 1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: I have consulted the law-officers of
                                 the Grown upon the point submitted to me in your dispatch of the
                                 24th February, as to the claims of British subjects to be
@@ -28497,8 +28503,8 @@
                             <frus:attachment>
                                 <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                                 >Foreign Office</hi></placeName>, <date
-                                            when="1871-03-28"><hi rend="italic">March</hi> 28,
-                                            1871</date>.</dateline></opener>
+                                            when="1871-03-28" calendar="gregorian"><hi rend="italic"
+                                                >March</hi> 28, 1871</date>.</dateline></opener>
                                 <p><hi rend="smallcaps">Sir</hi>: I am directed by Earl Granville to
                                     acknowledge the receipt of your letter of the 22d instant,
                                     containing a statement of certain property possessed by you in
@@ -28536,8 +28542,9 @@
                                     August</hi> 31.)</head>
                             <opener><dateline rendition="#right"><placeName>33 <hi rend="smallcaps"
                                             >Upper Brunswick Place,<lb/>Brighton</hi></placeName>,
-                                        <date when="1871-03-30"><hi rend="italic">March</hi> 30,
-                                        1871</date>.</dateline></opener>
+                                        <date when="1871-03-30" calendar="gregorian"><hi
+                                            rend="italic">March</hi> 30,
+                                1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">My Lord</hi>: I have the honor to acknowledge
                                 your lordship’s letter of the 28th instant, in answer to mine of the
                                 22d, on the subject of the losses I have sustained by the occupation
@@ -28601,8 +28608,8 @@
                                         >Stewart</persName>.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Foreign Office</hi></placeName>, <date
-                                        when="1871-04-13"><hi rend="italic">April</hi> 13,
-                                        1871</date>.</dateline></opener>
+                                        when="1871-04-13" calendar="gregorian"><hi rend="italic"
+                                            >April</hi> 13, 1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: I am directed by Earl Granville to
                                 acknowledge the receipt of your letter of the 30th ultimo, in which,
                                 with reference to the answer which Lord Granville caused to be
@@ -28670,8 +28677,8 @@
                                         Commissioners</gloss>.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Foreign Office</hi></placeName>, <date
-                                        when="1871-02-09"><hi rend="italic">February</hi> 9,
-                                        1871</date>.</dateline></opener>
+                                        when="1871-02-09" calendar="gregorian"><hi rend="italic"
+                                            >February</hi> 9, 1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">My Lord and Gentlemen</hi>: The Queen having
                                 been graciously pleased to appoint you to be Her Majesty’s high
                                 commissioners to proceed to Washington for the purpose of discussing
@@ -28952,8 +28959,8 @@
                                         Commissioners</gloss>.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Foreign Office</hi></placeName>, <date
-                                        when="1871-02-09"><hi rend="italic">February</hi> 9,
-                                        1871</date>.</dateline></opener>
+                                        when="1871-02-09" calendar="gregorian"><hi rend="italic"
+                                            >February</hi> 9, 1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">My Lord and Gentlemen</hi>: With reference to my
                                 other dispatch of this day’s date, in which I have adverted to the
                                 revision of the rules of maritime neutrality as being one of the
@@ -28993,8 +29000,8 @@
                                         Commissioners</gloss>.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Foreign Office</hi></placeName>, <date
-                                        when="1871-02-09"><hi rend="italic">February</hi> 9,
-                                        1871</date>.</dateline></opener>
+                                        when="1871-02-09" calendar="gregorian"><hi rend="italic"
+                                            >February</hi> 9, 1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">My Lord and Gentlemen</hi>: I have to inform you
                                 that Lord Tenterden has been appointed secretary of the High
                                 Commission, and will proceed to Washington accordingly.</p>
@@ -29148,8 +29155,8 @@
                                         >Fish</persName>.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-01-26"
-                                            ><hi rend="italic">January</hi> 26,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">January</hi> 26,
+                                        1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: In compliance with an instruction
                                 which I have received from Earl Granville, I have the honor to state
                                 that Her Majesty’s Government deem it of importance to the good
@@ -29195,8 +29202,8 @@
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Department of State</hi>,<lb/><hi rend="italic"
                                             >Washington</hi></placeName>, <date when="1871-01-30"
-                                            ><hi rend="italic">January</hi> 30,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">January</hi> 30,
+                                        1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge the
                                 receipt of your note of January 26, in which you inform me, in
                                 compliance with instructions from Earl Granville, that Her Majesty’s
@@ -29265,8 +29272,8 @@
                                         >Fish</persName>.</hi></head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-02-01"
-                                            ><hi rend="italic">February</hi> 1,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">February</hi> 1,
+                                        1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge the
                                 receipt of your note of the 30th ultimo, and to offer you my sincere
                                 and cordial thanks for the friendly and conciliatory spirit which
@@ -29317,8 +29324,8 @@
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Department of State</hi>,<lb/><hi rend="italic"
                                             >Washington</hi></placeName>, <date when="1871-02-03"
-                                            ><hi rend="italic">February</hi> 3,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">February</hi> 3,
+                                        1871</date>.</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge the
                                 receipt of your note of the 1st instant, in which you inform me that
                                 you are authorized by Earl Granville to state that it would give Her
@@ -29375,8 +29382,8 @@
                                 States of America and the High Commissioners of Great Britain</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-04"
-                                            ><hi rend="italic">March</hi> 4,
-                                1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 4,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 27th of February was read and confirmed.</p>
                             <p>At the commencement of the conference the United States High
@@ -29409,8 +29416,8 @@
                                 States of America and the High Commissioners of Great Britain</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-06"
-                                            ><hi rend="italic">March</hi> 6,
-                                1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 6,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 4th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29437,8 +29444,8 @@
                                 States of America and the High Commissioners of Great Britain</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-08"
-                                            ><hi rend="italic">March</hi> 8,
-                                1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 8,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 6th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29464,8 +29471,8 @@
                                 States of America and the High Commissioners of Great Britain</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-09"
-                                            ><hi rend="italic">March</hi> 9,
-                                1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 9,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 8th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29491,8 +29498,8 @@
                                 States of America and the High Commissioners of Great Britain</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-10"
-                                            ><hi rend="italic">March</hi> 10,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 10,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 9th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29518,8 +29525,8 @@
                                 States of America and the High Commissioners of Great Britain</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-13"
-                                            ><hi rend="italic">March</hi> 13,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 13,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 10th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29547,8 +29554,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-14"
-                                            ><hi rend="italic">March</hi> 14,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 14,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 13th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration ot the
@@ -29575,8 +29582,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-15"
-                                            ><hi rend="italic">March</hi> 15,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 15,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 14th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29603,8 +29610,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-16"
-                                            ><hi rend="italic">March</hi> 16,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 16,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 15th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29632,8 +29639,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-17"
-                                            ><hi rend="italic">March</hi> 17,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 17,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 16th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29662,8 +29669,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-18"
-                                            ><hi rend="italic">March</hi> 18,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 18,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 17th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29691,8 +29698,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-20"
-                                            ><hi rend="italic">March</hi> 20,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 20,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 18th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29720,8 +29727,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-22"
-                                            ><hi rend="italic">March</hi> 22,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 22,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 20th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29749,8 +29756,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-23"
-                                            ><hi rend="italic">March</hi> 23,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 23,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 22d of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29779,8 +29786,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-25"
-                                            ><hi rend="italic">March</hi> 25,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 25,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 23d of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29808,8 +29815,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-27"
-                                            ><hi rend="italic">March</hi> 27,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 27,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 25th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29837,8 +29844,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-03-30"
-                                            ><hi rend="italic">March</hi> 30,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">March</hi> 30,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 27th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29866,8 +29873,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-03"
-                                            ><hi rend="italic">April</hi> 3,
-                                1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 3,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 30th of March was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29896,8 +29903,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-05"
-                                            ><hi rend="italic">April</hi> 5,
-                                1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 5,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 3d of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29925,8 +29932,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-06"
-                                            ><hi rend="italic">April</hi> 6,
-                                1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 6,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 5th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29954,8 +29961,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-08"
-                                            ><hi rend="italic">April</hi> 8,
-                                1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 8,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 6th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -29983,8 +29990,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-10"
-                                            ><hi rend="italic">April</hi> 10,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 10,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 8th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -30013,8 +30020,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-12"
-                                            ><hi rend="italic">April</hi> 12,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 12,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 10th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -30042,8 +30049,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-13"
-                                            ><hi rend="italic">April</hi> 13,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 13,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 12th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -30071,8 +30078,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-14"
-                                            ><hi rend="italic">April</hi> 14,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 14,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 13th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -30100,8 +30107,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-15"
-                                            ><hi rend="italic">April</hi> 15,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 15,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 14th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -30129,8 +30136,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-17"
-                                            ><hi rend="italic">April</hi> 17,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 17,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 15th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -30158,8 +30165,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-18"
-                                            ><hi rend="italic">April</hi> 18,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 18,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 17th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -30187,8 +30194,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-19"
-                                            ><hi rend="italic">April</hi> 19,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 19,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 18th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -30216,8 +30223,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-22"
-                                            ><hi rend="italic">April</hi> 22,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 22,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 19th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -30246,8 +30253,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-24"
-                                            ><hi rend="italic">April</hi> 24,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 24,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 22d of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -30275,8 +30282,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-25"
-                                            ><hi rend="italic">April</hi> 25,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 25,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 24th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -30304,8 +30311,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-04-26"
-                                            ><hi rend="italic">April</hi> 26,
-                                    1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 26,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 25th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -30331,8 +30338,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-05-03"
-                                            ><hi rend="italic">May</hi> 3,
-                                1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">May</hi> 3,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 25th of April was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -30367,8 +30374,8 @@
                             <p>In witness whereof I have caused the seal of the United States to be
                                 hereunto affixed.</p>
                             <closer>
-                                <dateline><seg type="margin">[<hi rend="smallcaps">seal</hi>]</seg>
-                                    Given under my hand at the city of
+                                <dateline rendition="#left"><seg type="margin">[<hi rend="smallcaps"
+                                            >seal</hi>]</seg> Given under my hand at the city of
                                         <placeName>Washington</placeName>, <date
                                         calendar="gregorian us-republic" when="1871-05-02">the
                                         second day of May, in the year of our Lord one thousand
@@ -30411,8 +30418,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-05-04"
-                                            ><hi rend="italic">May</hi> 4,
-                                1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">May</hi> 4,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 3d of May was read and confirmed.</p>
                             <p>The High Commissioners then proceeded with the consideration of the
@@ -31046,8 +31053,8 @@
                                 Britain]</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date when="1871-05-06"
-                                            ><hi rend="italic">May</hi> 6,
-                                1871</date>.</dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">May</hi> 6,
+                                        1871</date>.</dateline></opener>
                             <p>The High Commissioners having met, the protocol of the conference
                                 held on the 4th of May was read and confirmed.</p>
                             <p>Lord de Grey said, that as the Joint High Commission would not meet
@@ -31127,8 +31134,8 @@
                                 questions between the two countries, concluded at Washington, on the
                                 8th of May, 1871]</head>
                             <dateline>[<placeName>Washington</placeName>, <date when="1871-05-08"
-                                    ana="#date_undated-inferred-from-document-head">May 8,
-                                    1871</date>]</dateline>
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">May 8, 1871</date>]</dateline>
                             <p>The United States of America and Her Britannic Majesty, being
                                 desirous to provide for an amicable settlement of all causes of
                                 difference between the two countries, have for that purpose
@@ -31910,7 +31917,8 @@
                             <p>In faith whereof we, the respective Plenipotentaries, have signed
                                 this Treaty and have hereunto affixed our seals.</p>
                             <closer>
-                                <dateline>Done in duplicate at <placeName>Washington</placeName>
+                                <dateline rendition="#left">Done in duplicate at
+                                        <placeName>Washington</placeName>
                                     <date when="1871-05-08" calendar="gregorian">the eighth day of
                                         May, in the year of our Lord one thousand eight hundred and
                                         seventy-one</date>.</dateline>
