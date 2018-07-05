@@ -20,8 +20,7 @@
                     <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
                         <xsl:element name="langUsage" namespace="http://www.tei-c.org/ns/1.0">
                             <xsl:element name="language" namespace="http://www.tei-c.org/ns/1.0">
-                                <xsl:attribute name="ident">en-US</xsl:attribute>English as used in
-                                the United States</xsl:element>
+                                <xsl:attribute name="ident">en</xsl:attribute>English</xsl:element>
                         </xsl:element>
                     </xsl:element>
                 </xsl:when>
