@@ -10,23 +10,57 @@
         </xsl:copy>
     </xsl:template>
 
-    <!-- Add `seriesStmt` to `fileDesc` -->
+    <!-- Add `profileDesc / langUsage | textClass -->
     <xsl:template match="tei:teiHeader[not(tei:profileDesc)]">
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
             <xsl:apply-templates select="node()"/>
             <xsl:choose>
                 <xsl:when test=".[not(tei:profileDesc)]">
+
                     <xsl:element name="profileDesc" namespace="http://www.tei-c.org/ns/1.0">
                         <xsl:element name="langUsage" namespace="http://www.tei-c.org/ns/1.0">
                             <xsl:element name="language" namespace="http://www.tei-c.org/ns/1.0">
                                 <xsl:attribute name="ident">en</xsl:attribute>English</xsl:element>
+                        </xsl:element>
+
+                        <xsl:element name="textClass" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:element name="keywords" namespace="http://www.tei-c.org/ns/1.0">
+                                <xsl:attribute name="scheme"
+                                    >https://history.state.gov/tags/topics</xsl:attribute>
+                                <xsl:element name="list" namespace="http://www.tei-c.org/ns/1.0">
+                                    <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0">[...]</xsl:element>
+                                    <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0">[...]</xsl:element>
+                                </xsl:element>
+                            </xsl:element>
                         </xsl:element>
                     </xsl:element>
                 </xsl:when>
             </xsl:choose>
         </xsl:copy>
     </xsl:template>
+    
+    <!-- Add `profileDesc / langUsage | textClass -->
+    <xsl:template match="tei:teiHeader/tei:profileDesc">
+        <xsl:copy>
+            <xsl:apply-templates select="@*"/>
+            <xsl:apply-templates select="node()"/>
+            <xsl:choose>
+                <xsl:when test=".[not(tei:textClass)]">
+                        <xsl:element name="textClass" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:element name="keywords" namespace="http://www.tei-c.org/ns/1.0">
+                                <xsl:attribute name="scheme"
+                                    >https://history.state.gov/tags/topics</xsl:attribute>
+                                    <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0">[...]</xsl:element>
+                                    <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0">[...]</xsl:element>
+                                
+                            </xsl:element>
+                        </xsl:element>
+                </xsl:when>
+            </xsl:choose>
+        </xsl:copy>
+    </xsl:template>
+    
 
     <!-- Add `seriesStmt` to `fileDesc` -->
     <xsl:template match="tei:teiHeader/tei:fileDesc">
@@ -43,6 +77,8 @@
             </xsl:choose>
         </xsl:copy>
     </xsl:template>
+    
+    
 
     <!-- Add `distributor` and `availability` to `publicationStmt` -->
     <xsl:template match="tei:teiHeader/tei:fileDesc/tei:publicationStmt">
