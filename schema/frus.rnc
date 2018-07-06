@@ -1708,15 +1708,19 @@ availability =
   
   ## <availability> supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. [2.2.4  ]
   element availability {
-    (model.availabilityPart, model.pLike*)+, att.global.attributes, att.naming.attributes, empty
-  }  
+    (model.availabilityPart, model.pLike*)+, att.global.attributes, att.naming.attributes, att.availability.status, empty
+  } 
+  
+att.availability.status = 
+  ## @status supplies a code identifying the current availability of the text.
+  attribute status { data.word }? 
   
 licence = 
   ## <licence> contains information about a licence or other legal agreement applicable to the text. [2.2.4  ]
   element licence {
-    model.pLike*, att.global.attributes, att.naming.attributes, empty
+    model.pLike*, att.global.attributes, att.naming.attributes, att.pointing.attributes, empty
   }  
-  
+   
 bibl =
   
   ## (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.11.1.  2.2.7.  15.3.2. ]
@@ -1852,9 +1856,13 @@ langUsage =
   
 language =
   ## <language> characterizes a single language or sublanguage used within a text. [2.4.2 ]
-  element langUsage {
-    model.pLike*, att.global.attributes, att.styleDef.attributes, empty
+  element language {
+    data.word, att.language.ident, empty
   }
+  
+att.language.ident =
+  ## (identifier) Supplies a language code constructed as defined in BCP 47 which is used to identify the language documented by this element, and which is referenced by the global xml:lang attribute.
+  attribute ident { data.language }
   
 textClass =
   
@@ -1867,8 +1875,12 @@ keywords =
   
   ## <keywords> contains a list of keywords or phrases identifying the topic or nature of a text. [2.4.3 ]
   element keywords {
-    (model.keywordsPart | model.pLike*)+, att.global.attributes, att.styleDef.attributes, empty
+    (model.keywordsPart | model.pLike*)+, att.global.attributes, att.textClass.keywords.scheme, empty
   }
+  
+att.textClass.keywords.scheme = 
+  ## @scheme identifies the controlled vocabulary within which the set of keywords concerned is defined, for example by a taxonomy element, or by some other resource.
+  attribute scheme { xsd:anyURI }? 
   
 encodingDesc =
   
