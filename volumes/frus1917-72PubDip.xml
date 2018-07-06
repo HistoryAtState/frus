@@ -19,11 +19,42 @@
                 <pubPlace>Washington</pubPlace>
                 <date type="publication-date" calendar="gregorian">2014</date>
                 <idno type="frus">frus1917-72PubDip</idno>
+                <distributor>United States Department of State, The Office of The
+                    Historian</distributor>
+                <availability status="free">
+                    <p>As a product of the United States government, this electronic edition may be
+                        considered as being in the public domain.</p>
+                    <licence target="https://creativecommons.org/publicdomain/mark/1.0/"/>
+                </availability>
+                <availability status="restricted">
+                    <p>Non-United States government content contained herein may be governed by U.S.
+                        and international copyright laws.</p>
+                    <p>Per Creative Commons Public Domain Mark 1.0: <list>
+                            <item>“The work may not be free of known copyright restrictions in all
+                                jurisdictions.”</item>
+                            <item>“Persons may have other rights in or related to the work, such as
+                                patent or trademark rights, and others may have rights in how the
+                                work is used, such as publicity or privacy rights.”</item>
+                            <item>“In some jurisdictions moral rights of the author may persist
+                                beyond the term of copyright. These rights may include the right to
+                                be identified as the author and the right to object to derogatory
+                                treatments.”</item>
+                            <item>“Unless expressly stated otherwise, the person who identified the
+                                work makes no warranties about the work, and disclaims liability for
+                                all uses of the work, to the fullest extent permitted by applicable
+                                law.”</item>
+                            <item>“When using or citing the work, you should not imply endorsement
+                                by the author or the person who identified the work.”</item>
+                        </list></p>
+                </availability>
             </publicationStmt>
 
             <sourceDesc>
                 <p>Released in 2014 as printed book.</p>
             </sourceDesc>
+            <seriesStmt>
+                <title>Foreign Relations of the United States</title>
+            </seriesStmt>
         </fileDesc>
         <encodingDesc>
             <classDecl>
@@ -34,6 +65,17 @@
             <frus:coverage notBefore="1917-08-13T00:00:00-05:00"
                 notAfter="1919-06-01T17:59:59-05:00"/>
         </xenoData>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term>[...]</term>
+                    <term>[...]</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
     </teiHeader>
     <text>
         <front>
