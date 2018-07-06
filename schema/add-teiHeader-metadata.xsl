@@ -28,10 +28,10 @@
                             <xsl:element name="keywords" namespace="http://www.tei-c.org/ns/1.0">
                                 <xsl:attribute name="scheme"
                                     >https://history.state.gov/tags/topics</xsl:attribute>
-                                <xsl:element name="list" namespace="http://www.tei-c.org/ns/1.0">
-                                    <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0">[...]</xsl:element>
-                                    <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0">[...]</xsl:element>
-                                </xsl:element>
+                                <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0"
+                                    >[...]</xsl:element>
+                                <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0"
+                                    >[...]</xsl:element>
                             </xsl:element>
                         </xsl:element>
                     </xsl:element>
@@ -39,7 +39,7 @@
             </xsl:choose>
         </xsl:copy>
     </xsl:template>
-    
+
     <!-- Add `profileDesc / langUsage | textClass -->
     <xsl:template match="tei:teiHeader/tei:profileDesc">
         <xsl:copy>
@@ -47,20 +47,22 @@
             <xsl:apply-templates select="node()"/>
             <xsl:choose>
                 <xsl:when test=".[not(tei:textClass)]">
-                        <xsl:element name="textClass" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:element name="keywords" namespace="http://www.tei-c.org/ns/1.0">
-                                <xsl:attribute name="scheme"
-                                    >https://history.state.gov/tags/topics</xsl:attribute>
-                                    <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0">[...]</xsl:element>
-                                    <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0">[...]</xsl:element>
-                                
-                            </xsl:element>
+                    <xsl:element name="textClass" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:element name="keywords" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:attribute name="scheme"
+                                >https://history.state.gov/tags/topics</xsl:attribute>
+                            <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0"
+                                >[...]</xsl:element>
+                            <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0"
+                                >[...]</xsl:element>
+
                         </xsl:element>
+                    </xsl:element>
                 </xsl:when>
             </xsl:choose>
         </xsl:copy>
     </xsl:template>
-    
+
 
     <!-- Add `seriesStmt` to `fileDesc` -->
     <xsl:template match="tei:teiHeader/tei:fileDesc">
@@ -77,8 +79,8 @@
             </xsl:choose>
         </xsl:copy>
     </xsl:template>
-    
-    
+
+
 
     <!-- Add `distributor` and `availability` to `publicationStmt` -->
     <xsl:template match="tei:teiHeader/tei:fileDesc/tei:publicationStmt">
@@ -95,9 +97,13 @@
                 <xsl:when test=".[not(tei:availability)]">
                     <xsl:element name="availability" namespace="http://www.tei-c.org/ns/1.0">
                         <xsl:attribute name="status">free</xsl:attribute>
-                        <p>As a product of the United States government, this electronic edition may
-                            be considered as being in the public domain.</p>
-                        <license target="https://creativecommons.org/publicdomain/mark/1.0/"/>
+                        <xsl:element name="p" namespace="http://www.tei-c.org/ns/1.0">As a product
+                            of the United States government, this electronic edition may be
+                            considered as being in the public domain.</xsl:element>
+                        <xsl:element name="licence" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:attribute name="target"
+                                >https://creativecommons.org/publicdomain/mark/1.0/</xsl:attribute>
+                        </xsl:element>
                     </xsl:element>
                     <xsl:element name="availability" namespace="http://www.tei-c.org/ns/1.0">
                         <xsl:attribute name="status">restricted</xsl:attribute>
