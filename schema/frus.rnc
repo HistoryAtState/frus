@@ -1784,7 +1784,7 @@ teiHeader =
   
   ## (TEI header) supplies the descriptive and declarative information making up an electronic title page for every TEI-conformant document. [2.1.1.  15.1. ]
   element teiHeader {
-    (fileDesc, model.teiHeaderPart*, revisionDesc?, profileDesc?, xenoData?),
+    (fileDesc, profileDesc?, model.teiHeaderPart*, revisionDesc?, xenoData?),
     att.global.attributes,
     
     ## specifies the kind of document to which the header is attached, for example whether it is a corpus or individual text.
