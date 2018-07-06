@@ -734,8 +734,8 @@ model.placeStateLike_sequenceOptionalRepeatable =
   model.placeNamePart_sequenceOptionalRepeatable*
 model.placeStateLike_sequenceRepeatable =
   model.placeNamePart_sequenceRepeatable+
-model.publicationStmtPart.agency = publisher
-model.publicationStmtPart.detail = date | pubPlace | idno
+model.publicationStmtPart.agency = publisher | distributor
+model.publicationStmtPart.detail = date | pubPlace | idno | availability
 model.certLike = notAllowed
 model.descLike = notAllowed
 model.glossLike = gloss
@@ -853,6 +853,18 @@ model.divGenLike = notAllowed
 model.div1Like = notAllowed
 model.teiHeaderPart = encodingDesc | \include
 model.sourceDescPart = notAllowed
+model.availabilityPart =
+  licence | p
+model.seriesStmtPart = 
+  title | idno
+model.profileDescPart =
+  langUsage | textClass
+model.langUsagePart = 
+  language
+model.textClassPart =
+  keywords
+model.keywordsPart =
+  term
 model.encodingDescPart =
   editorialDecl | tagsDecl | styleDefDecl | classDecl
 model.editorialDeclPart = correction
@@ -1678,12 +1690,33 @@ publisher =
   
   ## provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.11.2.4.  2.2.4. ]
   element publisher { macro.phraseSeq, att.global.attributes, empty }
+  
+  
+  distributor =
+  
+  ## <distributor> supplies the name of a person or other agency responsible for the distribution of a text. [2.2.4 ]
+   element distributor { macro.phraseSeq, att.global.attributes, empty }
+   
 pubPlace =
   
   ## (publication place) contains the name of the place where a bibliographic item was published. [3.11.2.4. ]
   element pubPlace {
     macro.phraseSeq, att.global.attributes, att.naming.attributes, empty
   }
+  
+availability =
+  
+  ## <availability> supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. [2.2.4  ]
+  element availability {
+    (model.availabilityPart, model.pLike*)+, att.global.attributes, att.naming.attributes, empty
+  }  
+  
+licence = 
+  ## <licence> contains information about a licence or other legal agreement applicable to the text. [2.2.4  ]
+  element licence {
+    model.pLike*, att.global.attributes, att.naming.attributes, empty
+  }  
+  
 bibl =
   
   ## (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.11.1.  2.2.7.  15.3.2. ]
@@ -1747,7 +1780,7 @@ teiHeader =
   
   ## (TEI header) supplies the descriptive and declarative information making up an electronic title page for every TEI-conformant document. [2.1.1.  15.1. ]
   element teiHeader {
-    (fileDesc, model.teiHeaderPart*, revisionDesc?),
+    (fileDesc, model.teiHeaderPart*, revisionDesc?, profileDesc?, xenoData?),
     att.global.attributes,
     
     ## specifies the kind of document to which the header is attached, for example whether it is a corpus or individual text.
@@ -1759,7 +1792,7 @@ fileDesc =
   
   ## (file description) contains a full bibliographic description of an electronic file. [2.2.  2.1.1. ]
   element fileDesc {
-    ((titleStmt, publicationStmt), sourceDesc+),
+    ((titleStmt, publicationStmt), sourceDesc+, seriesStmt+),
     att.global.attributes,
     empty
   }
@@ -1800,6 +1833,43 @@ sourceDesc =
     att.global.attributes,
     empty
   }
+  
+profileDesc =
+  
+  ## (text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the languages and sublanguages used, the situation in which it was produced, the participants and their setting. [2.4.  2.1.1. ]
+  element profileDesc {
+    (model.profileDescPart | model.pLike)+,
+    att.global.attributes,
+    empty
+  } 
+  
+langUsage =
+  
+  ## (language usage) describes the languages, sublanguages, registers, dialects, etc. represented within a text. [2.4.2  2.4  15.3.2 ]
+  element langUsage {
+    (model.langUsagePart | model.pLike*)+, att.global.attributes, att.styleDef.attributes, empty
+  }
+  
+language =
+  ## <language> characterizes a single language or sublanguage used within a text. [2.4.2 ]
+  element langUsage {
+    model.pLike*, att.global.attributes, att.styleDef.attributes, empty
+  }
+  
+textClass =
+  
+  ## (text classification) groups information which describes the nature or topic of a text in terms of a standard classification scheme, thesaurus, etc. [2.4.3 ]
+  element textClass {
+    (model.textClassPart | model.pLike*)+, att.global.attributes, att.styleDef.attributes, empty
+  }
+  
+keywords =
+  
+  ## <keywords> contains a list of keywords or phrases identifying the topic or nature of a text. [2.4.3 ]
+  element keywords {
+    (model.keywordsPart | model.pLike*)+, att.global.attributes, att.styleDef.attributes, empty
+  }
+  
 encodingDesc =
   
   ## (encoding description) documents the relationship between an electronic text and the source or sources from which it was derived. [2.3.  2.1.1. ]
@@ -1912,6 +1982,19 @@ revisionDesc =
   element revisionDesc {
     (\list | change+), att.global.attributes, empty
   }
+seriesStmt =
+  
+  ## (series statement) groups information about the series, if any, to which a publication belongs. [2.2.5 ]
+  element seriesStmt {
+    (model.seriesStmtPart | model.pLike*)+, att.global.attributes, empty
+  } 
+  
+xenoData =
+  ## <xenoData> (non-TEI metadata) provides a container element into which metadata in non-TEI formats may be placed. [2.5 ]
+  element xenoData {
+    model.pLike*, att.global.attributes, empty
+  }
+
 change =
   
   ## documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.5.  2.4.1.  11.7. ]
@@ -1928,6 +2011,8 @@ change =
     }?,
     empty
   }
+ 
+
 TEI =
   
   ## (TEI document) contains a single TEI-conformant document, comprising a TEI header and a text, either in isolation or as part of a teiCorpus element. [4.  15.1. ]

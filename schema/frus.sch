@@ -61,8 +61,9 @@
             <assert test="count(tei:publicationStmt) eq 1">fileDesc needs exactly one
                 publicationStmt</assert>
             <assert test="count(tei:sourceDesc) eq 1">fileDesc needs exactly one sourceDesc</assert>
-            <assert test="count(child::element()) eq 3">fileDesc can only have three child elements:
-                titleStmt, publicationStmt, and sourceDesc</assert>
+            <assert test="count(tei:seriesStmt) eq 1">fileDesc needs exactly one seriesStmt</assert>
+            <assert test="count(child::element()) eq 4">fileDesc can only have four child elements:
+                titleStmt, publicationStmt, sourceDesc, and seriesStmt</assert>
         </rule>
         <rule context="tei:title[parent::tei:titleStmt]">
             <assert test="./@type = ('complete', 'series', 'sub-series', 'volume-number', 'volume')"
@@ -99,6 +100,10 @@
                 test="count(tei:idno[@type = 'frus']) = 1 and tei:idno[@type = 'frus'] = $vol-ids"
                 >publicationStmt needs exactly one idno of type 'frus', and it must be a defined
                 volume ID</assert>
+            <assert test="count(tei:distributor) = 1">publicationStmt needs exactly one
+                distributor</assert>
+            <assert test="count(tei:availability) = 2">publicationStmt needs exactly two
+                availability statements</assert>
         </rule>
     </pattern>
 
