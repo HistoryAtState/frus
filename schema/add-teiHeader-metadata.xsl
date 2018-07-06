@@ -111,26 +111,31 @@
                             States government content contained herein may be governed by U.S. and
                             international copyright laws.</xsl:element>
                         <xsl:element name="p" namespace="http://www.tei-c.org/ns/1.0">Per Creative
-                            Commons Public Domain Mark 1.0: <xsl:element name="p"
-                                namespace="http://www.tei-c.org/ns/1.0">“The work may not be free of
-                                known copyright restrictions in all jurisdictions.”</xsl:element>
-                            <xsl:element name="p" namespace="http://www.tei-c.org/ns/1.0">“Persons
-                                may have other rights in or related to the work, such as patent or
-                                trademark rights, and others may have rights in how the work is
-                                used, such as publicity or privacy rights.”</xsl:element>
-                            <xsl:element name="p" namespace="http://www.tei-c.org/ns/1.0">“In some
-                                jurisdictions moral rights of the author may persist beyond the term
-                                of copyright. These rights may include the right to be identified as
-                                the author and the right to object to derogatory
-                                treatments.”</xsl:element>
-                            <xsl:element name="p" namespace="http://www.tei-c.org/ns/1.0">“Unless
-                                expressly stated otherwise, the person who identified the work makes
-                                no warranties about the work, and disclaims liability for all uses
-                                of the work, to the fullest extent permitted by applicable
-                                law.”</xsl:element>
-                            <xsl:element name="p" namespace="http://www.tei-c.org/ns/1.0">“When
-                                using or citing the work, you should not imply endorsement by the
-                                author or the person who identified the work.”</xsl:element>
+                            Commons Public Domain Mark 1.0: <xsl:element name="list"
+                                namespace="http://www.tei-c.org/ns/1.0">
+                                <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0"
+                                    >“The work may not be free of known copyright restrictions in
+                                    all jurisdictions.”</xsl:element>
+                                <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0"
+                                    >“Persons may have other rights in or related to the work, such
+                                    as patent or trademark rights, and others may have rights in how
+                                    the work is used, such as publicity or privacy
+                                    rights.”</xsl:element>
+                                <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0">“In
+                                    some jurisdictions moral rights of the author may persist beyond
+                                    the term of copyright. These rights may include the right to be
+                                    identified as the author and the right to object to derogatory
+                                    treatments.”</xsl:element>
+                                <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0"
+                                    >“Unless expressly stated otherwise, the person who identified
+                                    the work makes no warranties about the work, and disclaims
+                                    liability for all uses of the work, to the fullest extent
+                                    permitted by applicable law.”</xsl:element>
+                                <xsl:element name="item" namespace="http://www.tei-c.org/ns/1.0"
+                                    >“When using or citing the work, you should not imply
+                                    endorsement by the author or the person who identified the
+                                    work.”</xsl:element>
+                            </xsl:element>
                         </xsl:element>
                     </xsl:element>
                 </xsl:when>
