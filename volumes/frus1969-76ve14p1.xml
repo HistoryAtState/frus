@@ -55,6 +55,54 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="nixon-administration">United States. President (1969-1974 : Nixon,
+                        Richard M.)</term>
+                    <term xml:id="ford-administration">United States. President (1974-1977 : Ford,
+                        Gerald)</term>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/events">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="united-nations"/>
+                    <term xml:id="organization-of-american-states"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="nixon-richard"/>
+                    <term xml:id="rogers-william-pierce"/>
+                    <term xml:id="ford-gerald"/>
+                    <term xml:id="kissinger-henry-a"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="colombia"/>
+                    <term xml:id="puerto-rico"/>
+                    <term xml:id="north-korea"/>
+                    <term xml:id="panama"/>
+                    <term xml:id="vietnam"/>
+                    <term xml:id="cambodia"/>
+                    <term xml:id="south-africa"/>
+                    <term xml:id="united-kingdom"/>
+                    <term xml:id="france"/>
+                    <term xml:id="israel"/>
+                    <term xml:id="south-korea"/>
+                    <term xml:id="palestine"/>
+                    <term xml:id="angola"/>
+                    <term xml:id="india"/>
+                    <term>U.S.S.R.</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="agriculture"/>
+                    <term xml:id="law-of-the-sea"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <editorialDecl>
                 <correction>
@@ -79,17 +127,6 @@
             <frus:coverage notBefore="1973-01-05T00:00:00-05:00"
                 notAfter="1977-01-03T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term>[...]</term>
-                    <term>[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>

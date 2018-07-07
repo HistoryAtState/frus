@@ -54,6 +54,56 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="nixon-administration">United States. President (1969-1974 : Nixon,
+                        Richard M.)</term>
+                    <term xml:id="ford-administration">United States. President (1974-1977 : Ford,
+                        Gerald)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/events">
+                    <term xml:id="arab-israeli-dispute"/>
+                    <term xml:id="vietnam-conflict"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="united-nations"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="ford-gerald"/>
+                    <term xml:id="kissinger-henry-a"/>
+                    <term xml:id="nixon-richard"/>
+                    <term xml:id="rogers-william-pierce"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="algeria"/>
+                    <term xml:id="egypt"/>
+                    <term xml:id="libya"/>
+                    <term xml:id="morocco"/>
+                    <term xml:id="russia"/>
+                    <term xml:id="spain"/>
+                    <term xml:id="syria"/>
+                    <term xml:id="tunisia"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="arms-transfers"/>
+                    <term xml:id="covert-actions"/>
+                    <term xml:id="energy-and-natural-resources"/>
+                    <term xml:id="foreign-aid"/>
+                    <term xml:id="law-of-the-sea"/>
+                    <term xml:id="military-intervention-presence-and-withdrawal"/>
+                    <term xml:id="national-security-policy"/>
+                    <term xml:id="neutrality"/>
+                    <term xml:id="peace"/>
+                    <term xml:id="terrorism"/>
+                    <term xml:id="trade-and-commercial-policy-agreements"/>
+                    <term>Treaties</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <classDecl>
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
@@ -63,17 +113,6 @@
             <frus:coverage notBefore="1973-01-05T00:00:00-05:00"
                 notAfter="1977-01-06T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term>[...]</term>
-                    <term>[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>

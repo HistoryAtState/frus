@@ -59,6 +59,38 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="nixon-administration">United States. President (1969-1974 : Nixon,
+                        Richard M.)</term>
+                    <term xml:id="ford-administration">United States. President (1974-1977 : Ford,
+                        Gerald)</term>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/events">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations"> </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="ford-gerald"/>
+                    <term xml:id="kissinger-henry-a"/>
+                    <term xml:id="nixon-richard"/>
+                    <term xml:id="rogers-william-pierce"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places"> </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="arms-transfers"/>
+                    <term xml:id="chemical-and-bacteriological-warfare"/>
+                    <term xml:id="nuclear-nonproliferation"/>
+                    <term xml:id="nuclear-weapons"/>
+                    <term>Treaties</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -73,17 +105,6 @@
             <frus:coverage notBefore="1973-01-23T00:00:00-05:00"
                 notAfter="1976-12-29T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term>[...]</term>
-                    <term>[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
 
     <text>
