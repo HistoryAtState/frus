@@ -89,8 +89,9 @@
             <xsl:apply-templates select="node()"/>
             <xsl:choose>
                 <xsl:when test=".[not(tei:distributor)]">
-                    <xsl:element name="distributor" namespace="http://www.tei-c.org/ns/1.0">United
-                        States Department of State, The Office of The Historian</xsl:element>
+                    <xsl:element name="distributor" namespace="http://www.tei-c.org/ns/1.0">Office
+                        of the Historian, Bureau of Public Affairs, U.S. Department of
+                        State</xsl:element>
                 </xsl:when>
             </xsl:choose>
             <xsl:choose>
