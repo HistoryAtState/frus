@@ -59,14 +59,13 @@
                 <language ident="en">English</language>
             </langUsage>
             <textClass>
-                <!-- 
-                    <keywords scheme="https://history.state.gov/tags/administrations">
-                    </keywords> 
-                -->
-                <!-- 
-                    <keywords scheme="https://history.state.gov/tags/events">
-                    </keywords> 
-                -->
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="carter-administration">United States. President (1977-1908 :
+                        Carter, Jimmy)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/events">
+                    <term xml:id="arab-israeli-dispute"/>
+                </keywords>
                 <keywords scheme="https://history.state.gov/tags/organizations">
                     <term xml:id="department-of-state"/>
                     <term xml:id="national-security-council"/>
@@ -84,7 +83,6 @@
                     <term xml:id="human-rights"/>
                     <term xml:id="information-programs"/>
                     <term xml:id="warfare"/>
-                    <term xml:id="arab-israeli-dispute"/>
                 </keywords>
             </textClass>
         </profileDesc>

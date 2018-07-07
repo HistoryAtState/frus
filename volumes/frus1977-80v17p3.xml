@@ -54,6 +54,42 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="carter-administration">United States. President (1977-1981 :
+                        Carter, Jimmy)</term>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/events">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="national-security-council"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="carter-jimmy"/>
+                    <term xml:id="vance-cyrus-roberts"/>
+                    <term xml:id="muskie-edmund-sixtus"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="algeria"/>
+                    <term xml:id="egypt"/>
+                    <term xml:id="libya"/>
+                    <term xml:id="morocco"/>
+                    <term xml:id="tunisia"/>
+                    <term xml:id="western-sahara"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="peace"/>
+                    <term xml:id="international-organizations"/>
+                    <term xml:id="military-intervention-presence-and-withdrawal"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -68,17 +104,6 @@
             <frus:coverage notBefore="1977-01-12T10:43:00-05:00"
                 notAfter="1981-01-06T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term>[...]</term>
-                    <term>[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>

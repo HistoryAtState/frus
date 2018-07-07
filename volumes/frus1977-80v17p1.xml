@@ -55,6 +55,45 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="carter-administration">United States. President (1977-1981 :
+                        Carter, Jimmy)</term>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/events">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="national-security-council"/>
+                    <term xml:id="united-nations"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="carter-jimmy"/>
+                    <term xml:id="vance-cyrus-roberts"/>
+                    <term xml:id="muskie-edmund-sixtus"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="djibouti"/>
+                    <term xml:id="ethiopia"/>
+                    <term xml:id="eritrea"/>
+                    <term xml:id="somalia"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="decolonization"/>
+                    <term xml:id="human-rights"/>
+                    <term xml:id="alliances"/>
+                    <term xml:id="covert-actions"/>
+                    <term xml:id="self-determination"/>
+                    <term xml:id="arms-control-and-disarmament"/>
+                    <term xml:id="military-bases"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -69,17 +108,6 @@
             <frus:coverage notBefore="1977-02-08T10:35:00-05:00"
                 notAfter="1980-11-25T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term>[...]</term>
-                    <term>[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
 

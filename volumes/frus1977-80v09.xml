@@ -54,6 +54,36 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="carter-administration">United States. President (1977-1981 :
+                        Carter, Jimmy)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/events">
+                    <term xml:id="arab-israeli-dispute"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="united-nations"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="carter-jimmy"/>
+                    <term xml:id="vance-cyrus-roberts"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="egypt"/>
+                    <term xml:id="israel"/>
+                    <term xml:id="lebanon"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="peace"/>
+                    <term>Treaties</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <classDecl>
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
@@ -63,17 +93,6 @@
             <frus:coverage notBefore="2014-12-18T00:00:00-05:00"
                 notAfter="2014-12-18T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term>[...]</term>
-                    <term>[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>
