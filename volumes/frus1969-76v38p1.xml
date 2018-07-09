@@ -55,6 +55,111 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="nixon-administration">United States. President (1969-1974 : Nixon,
+                        Richard M.)</term>
+                    <term xml:id="ford-administration">United States. President (1974-1977 : Ford,
+                        Gerald)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/events">
+                    <term xml:id="arab-israeli-dispute"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="conference-on-security-and-cooperation-in-europe"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="ford-gerald"/>
+                    <term xml:id="kissinger-henry-a"/>
+                    <term xml:id="nixon-richard"/>
+                    <term xml:id="rogers-william-pierce"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="albania"/>
+                    <term xml:id="algeria"/>
+                    <term xml:id="angola"/>
+                    <term xml:id="australia"/>
+                    <term xml:id="azores"/>
+                    <term xml:id="belgium"/>
+                    <term xml:id="belize"/>
+                    <term xml:id="bolivia"/>
+                    <term xml:id="botswana"/>
+                    <term xml:id="brazil"/>
+                    <term xml:id="burma"/>
+                    <term xml:id="cambodia"/>
+                    <term xml:id="canada"/>
+                    <term xml:id="china"/>
+                    <term xml:id="congo-brazzaville"/>
+                    <term xml:id="costa-rica"/>
+                    <term xml:id="cuba"/>
+                    <term xml:id="cyprus"/>
+                    <term xml:id="dominican-republic"/>
+                    <term xml:id="ecuador"/>
+                    <term xml:id="egypt"/>
+                    <term xml:id="ethiopia"/>
+                    <term xml:id="finland"/>
+                    <term xml:id="france"/>
+                    <term xml:id="germany"/>
+                    <term xml:id="greece"/>
+                    <term xml:id="guatemala"/>
+                    <term xml:id="hungary"/>
+                    <term xml:id="india"/>
+                    <term xml:id="iran"/>
+                    <term xml:id="iraq"/>
+                    <term xml:id="israel"/>
+                    <term xml:id="italy"/>
+                    <term xml:id="jamaica"/>
+                    <term xml:id="japan"/>
+                    <term xml:id="kenya"/>
+                    <term xml:id="laos"/>
+                    <term xml:id="liberia"/>
+                    <term xml:id="libya"/>
+                    <term xml:id="mexico"/>
+                    <term xml:id="namibia"/>
+                    <term xml:id="netherlands"/>
+                    <term xml:id="nigeria"/>
+                    <term xml:id="north-korea"/>
+                    <term xml:id="pakistan"/>
+                    <term xml:id="palestine"/>
+                    <term xml:id="panama"/>
+                    <term xml:id="paraguay"/>
+                    <term xml:id="peru"/>
+                    <term xml:id="poland"/>
+                    <term xml:id="portugal"/>
+                    <term xml:id="puerto-rico"/>
+                    <term xml:id="romania"/>
+                    <term xml:id="saudi-arabia"/>
+                    <term xml:id="singapore"/>
+                    <term xml:id="somalia"/>
+                    <term xml:id="south-africa"/>
+                    <term xml:id="south-korea"/>
+                    <term xml:id="sudan"/>
+                    <term xml:id="syria"/>
+                    <term xml:id="taiwan"/>
+                    <term xml:id="tunisia"/>
+                    <term xml:id="turkey"/>
+                    <term xml:id="united-arab-emirates"/>
+                    <term xml:id="united-kingdom"/>
+                    <term xml:id="uruguay"/>
+                    <term xml:id="venezuela"/>
+                    <term xml:id="vietnam"/>
+                    <term xml:id="yemen"/>
+                    <term xml:id="zambia"/>
+                    <term xml:id="zimbabwe"/>
+                    <term>Union of Soviet Socialist Republics (U.S.S.R.; Soviet Union)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="agriculture"/>
+                    <term xml:id="arms-control-and-disarmament"/>
+                    <term xml:id="energy-and-natural-resources"/>
+                    <term xml:id="narcotics"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <classDecl>
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
@@ -64,17 +169,6 @@
             <frus:coverage notBefore="1973-01-25T00:00:00-05:00"
                 notAfter="1976-10-03T16:18:00-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term>[...]</term>
-                    <term>[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>
