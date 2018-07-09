@@ -57,6 +57,60 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="johnson-lb-administration">United States. President (1963-1969 :
+                        Johnson)</term>
+                    <term xml:id="nixon-administration">United States. President (1969-1974 : Nixon,
+                        Richard M.)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/events">
+                    <term xml:id="arab-israeli-dispute"/>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/mandates">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="national-security-council"/>
+                    <term xml:id="united-nations"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="johnson-lyndon-b"/>
+                    <term xml:id="nixon-richard"/>
+                    <term xml:id="rusk-david-dean"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="algeria"/>
+                    <term xml:id="egypt"/>
+                    <term xml:id="france"/>
+                    <term xml:id="iraq"/>
+                    <term xml:id="israel"/>
+                    <term xml:id="jordan"/>
+                    <term xml:id="lebanon"/>
+                    <term xml:id="palestine"/>
+                    <term xml:id="saudi-arabia"/>
+                    <term xml:id="suez-canal"/>
+                    <term xml:id="syria"/>
+                    <term xml:id="united-kingdom"/>
+                    <term xml:id="yemen"/>
+                    <term>Union of Soviet Socialist Republics (U.S.S.R.; Soviet Union)</term>
+                    <term>United Arab Republic</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="arms-control-and-disarmament"/>
+                    <term xml:id="foreign-aid"/>
+                    <term xml:id="military-intervention-presence-and-withdrawal"/>
+                    <term xml:id="nuclear-weapons"/>
+                    <term xml:id="refugees"/>
+                    <term xml:id="terrorism"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <editorialDecl>
                 <correction>
@@ -77,17 +131,6 @@
             <frus:coverage notBefore="1967-11-25T00:00:00-05:00"
                 notAfter="1968-12-31T16:42:00-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term>[...]</term>
-                    <term>[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>
