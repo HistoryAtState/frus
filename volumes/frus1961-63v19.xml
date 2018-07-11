@@ -57,6 +57,74 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="kennedy-administration">United States. President (1961-1963 :
+                        Kennedy, John F.)</term>
+                    <term xml:id="johnson-lb-administration">United States. President (1963-1969 :
+                        Johnson, Lyndon B.)</term>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/events">
+                    </keywords> 
+                -->
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/mandates">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="national-security-council"/>
+                    <term xml:id="southeast-asia-treaty-organization"/>
+                    <term xml:id="united-nations"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="johnson-lyndon-b"/>
+                    <term xml:id="kennedy-john-f"/>
+                    <term xml:id="rusk-david-dean"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="afghanistan"/>
+                    <term xml:id="austria"/>
+                    <term xml:id="belgium"/>
+                    <term xml:id="bhutan"/>
+                    <term xml:id="chile"/>
+                    <term xml:id="china"/>
+                    <term xml:id="democratic-republic-of-the-congo-kinshasa"/>
+                    <term xml:id="east-asia-and-pacific"/>
+                    <term xml:id="ethiopia"/>
+                    <term xml:id="france"/>
+                    <term xml:id="germany"/>
+                    <term xml:id="guinea"/>
+                    <term xml:id="india"/>
+                    <term xml:id="iran"/>
+                    <term xml:id="ireland"/>
+                    <term xml:id="italy"/>
+                    <term xml:id="japan"/>
+                    <term xml:id="laos"/>
+                    <term xml:id="nepal"/>
+                    <term xml:id="pakistan"/>
+                    <term xml:id="portugal"/>
+                    <term xml:id="south-and-central-asia"/>
+                    <term xml:id="thailand"/>
+                    <term xml:id="united-kingdom"/>
+                    <term xml:id="venezuela"/>
+                    <term xml:id="vietnam"/>
+                    <term>Union of Soviet Socialist Republics (U.S.S.R.; Soviet Union)</term>
+                    <term>United Arab Republic</term>
+                    <term>Yugoslavia</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="border-administration"/>
+                    <term xml:id="foreign-aid"/>
+                    <term xml:id="military-intervention-presence-and-withdrawal"/>
+                    <term xml:id="nuclear-weapons"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <editorialDecl>
                 <correction>
@@ -76,17 +144,6 @@
             <frus:coverage notBefore="1961-01-31T00:00:00-05:00"
                 notAfter="1963-12-31T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term>[...]</term>
-                    <term>[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>

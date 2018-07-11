@@ -61,6 +61,59 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="kennedy-administration">United States. President (1961-1963 :
+                        Kennedy, John F.)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/events">
+                    <term xml:id="cuban-missile-crisis"/>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/mandates">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="organization-of-american-states"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="kennedy-john-f"/>
+                    <term xml:id="rusk-david-dean"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="belize"/>
+                    <term xml:id="bolivia"/>
+                    <term xml:id="chile"/>
+                    <term xml:id="colombia"/>
+                    <term xml:id="costa-rica"/>
+                    <term xml:id="cuba"/>
+                    <term xml:id="dominican-republic"/>
+                    <term xml:id="ecuador"/>
+                    <term xml:id="el-salvador"/>
+                    <term xml:id="guatemala"/>
+                    <term xml:id="haiti"/>
+                    <term xml:id="honduras"/>
+                    <term xml:id="jamaica"/>
+                    <term xml:id="mexico"/>
+                    <term xml:id="nicaragua"/>
+                    <term xml:id="panama"/>
+                    <term xml:id="peru"/>
+                    <term xml:id="venezuela"/>
+                    <term>Union of Soviet Socialist Republics (U.S.S.R.; Soviet Union)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="covert-actions"/>
+                    <term xml:id="foreign-aid"/>
+                    <term xml:id="military-intervention-presence-and-withdrawal"/>
+                    <term xml:id="quarantine-blockade"/>
+                    <term xml:id="self-determination"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <editorialDecl>
                 <correction>
@@ -81,17 +134,6 @@
             <frus:coverage notBefore="1953-02-01T00:00:00-05:00"
                 notAfter="1963-12-20T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term>[...]</term>
-                    <term>[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>
