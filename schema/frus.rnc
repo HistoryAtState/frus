@@ -1878,127 +1878,6 @@ body =
         empty
     }
 \div =
-<<<<<<< HEAD
-    
-    ## (text division) Restrict attribute values for tei:div elements [4.1. ]
-    element div {
-        ((model.divTop | model.global)*,
-         ((((model.divLike | model.divGenLike), model.global*)+
-           | ((model.common, model.global*)+,
-              ((model.divLike | model.divGenLike), model.global*)*)),
-          (model.divBottom, model.global*)*)?),
-        att.global.attributes,
-        att.divLike.attributes,
-        
-        ##
-        attribute type {
-            
-            ## (Document) 
-            "document"
-            | 
-              ## (Section) 
-              "section"
-            | 
-              ## (Compilation) 
-              "compilation"
-            | 
-              ## (Chapter) 
-              "chapter"
-            | 
-              ## (Sub-chapter) 
-              "subchapter"
-            | 
-              ## (Table of Contents) 
-              "toc"
-        },
-        
-        ##
-        attribute subtype {
-            
-            ## (About the Series) Typically found in front matter
-            "about-frus-series"
-            | 
-              ## (Acknowledgements) Typically found in front matter
-              "acknowledgements"
-            | 
-              ## (Additional Volumes) Typically found in front matter
-              "additional-volumes"
-            | 
-              ## (Appendix) Typically found in back matter
-              "appendix"
-            | 
-              ## (Chapter Introduction) Typically found in front matter
-              "chapter-introduction"
-            | 
-              ## (Editorial Note) Typically found in the body of volume
-              "editorial-note"
-            | 
-              ## (Editorial Policies) Typically found in front matter
-              "editorial-policies"
-            | 
-              ## (Errata) 
-              "errata"
-            | 
-              ## (Errata (Document Numbering Error)) Typically found in the body of volume
-              "errata_document-numbering-error"
-            | 
-              ## (Event) 
-              "event"
-            | 
-              ## (Graphic Materials) Includes visual artwork, prints, and photographs
-              "graphic-materials"
-            | 
-              ## (Historical Document) Typically found in the body of volume
-              "historical-document"
-            | 
-              ## (Index) Includes indices, list of papers, list of persons, and list of organizations; typically found in front matter and back matter
-              "index"
-            | 
-              ## (Maps) 
-              "maps"
-            | 
-              ## (Notes) Typically found in front matter
-              "notes"
-            | 
-              ## (Preface) Typically found in front matter
-              "preface"
-            | 
-              ## (Press Release) Typically found in front matter
-              "press-release"
-            | 
-              ## (Referral) 
-              "referral"
-            | 
-              ## (Related Materials) Typically found in front matter
-              "related-materials"
-            | 
-              ## (Section) Typically found in front matter and back matter
-              "section"
-            | 
-              ## (Sources) 
-              "sources"
-            | 
-              ## (Subsection) Typically found in the body of the volume
-              "subsection"
-            | 
-              ## (Table of Contents) Typically found in front matter
-              "table-of-contents"
-            | 
-              ## (As-yet-to-be-determined) 
-              "undetermined"
-            | 
-              ## (Volume Summary) Typically found in front matter
-              "volume-summary"
-        }?,
-        
-        ## A UTC-normalized form of the lower bound of the document's date (machine-derived from the dateline)
-        attribute frus:doc-dateTime-min { xsd:dateTime }?,
-        
-        ## A UTC-normalized form of the upper bound of the document's date (machine-derived from the dateline)
-        attribute frus:doc-dateTime-max { xsd:dateTime }?,
-        empty
-    }
-=======
   
   ## (text division) Restrict attribute values for tei:div elements [4.1. ]
   element div {
@@ -2121,7 +2000,7 @@ body =
     attribute frus:doc-dateTime-max { xsd:dateTime }?,
     empty
   }
->>>>>>> master
+
 byline =
     
     ## contains the primary statement of responsibility given for a work on its title page or at the head or end of the work. [4.2.2.  4.5. ]
