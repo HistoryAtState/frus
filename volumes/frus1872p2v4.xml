@@ -61,135 +61,17 @@
                 </correction>
             </editorialDecl>
             <classDecl>
-                <taxonomy xml:id="frus-dates" xml:base="../shared/frus-dates.xml">
-                    <category xml:id="date_apparent-typo-based-on-document-content">
-                        <catDesc>The recorded date was determined to be an error via content of the
-                            document and corrected Date value(s) were inferred from the content of
-                            the document</catDesc>
-                    </category>
-                    <category xml:id="date_apparent-typo-based-on-document-scan">
-                        <catDesc>The recorded date was determined to be an error via scanned version
-                            of the original document and corrected Date value(s) were inferred from
-                            the content of the scanned document</catDesc>
-                    </category>
-                    <category xml:id="date_apparent-typo-based-on-outside-research">
-                        <catDesc>The recorded date was determined to be an error via outside
-                            research and corrected date value(s) were inferred from related
-                            sources</catDesc>
-                    </category>
-                    <category xml:id="date_apparent-typo-based-on-sibling-dates">
-                        <catDesc>The recorded date was determined to be an error by typo based on
-                            nearest dated siblings and corrected date value(s) were inferred from
-                            nearest dated siblings</catDesc>
-                    </category>
-                    <category
-                        xml:id="date_conversion-issue-inferred-from-document-content-and-sibling-dates">
-                        <catDesc>Problems in conversion to Gregorian date value(s) necessitated
-                            adding @notBefore and @notAfter inferred from the content of the
-                            document and nearest dated siblings</catDesc>
-                    </category>
-                    <category xml:id="date_editorial-correction">
-                        <catDesc>The recorded date was determined to be an error by the FRUS
-                            compiler/editor, who indicated the corrected date at the time of
-                            original publication. Date value(s) were corrected based on
-                            compiler/editor notation.</catDesc>
-                    </category>
-                    <category xml:id="date_imprecise-inferred-from-date-rules">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
-                            inferred based on date rules (e.g. yyyy has @notBefore="yyyy-01-01" and
-                            @notAfter="yyyy-12-31"; yyyy-mm has @notBefore="yyyy-mm-01" and
-                            @notAfter="yyyy-mm-dd" where dd is either 28, 29, 30, or 31 based on
-                            month and year)</catDesc>
-                    </category>
-                    <category xml:id="date_imprecise-inferred-from-document-content">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
-                            inferred from the content of the document</catDesc>
-                    </category>
-                    <category xml:id="date_imprecise-inferred-from-document-head">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore/@notAfter or
-                            @when or @from/@to inferred from the document header</catDesc>
-                    </category>
-                    <category xml:id="date_imprecise-inferred-from-document-scan">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
-                            inferred from the content of the scanned version of the original
-                            document</catDesc>
-                    </category>
-                    <category
-                        xml:id="date_imprecise-inferred-from-document-content-and-sibling-dates">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
-                            inferred from the content of the document and nearest dated
-                            siblings</catDesc>
-                    </category>
-                    <category xml:id="date_imprecise-inferred-from-editorial-annotation">
-                        <catDesc>[Contemporary Volumes] Imprecise date value(s) augmented with
-                            @notBefore and @notAfter inferred from editorial annotations</catDesc>
-                    </category>
-                    <category xml:id="date_imprecise-inferred-from-editorial-consultation">
-                        <catDesc>[Contemporary Volumes] Imprecise date value(s) augmented with
-                            @notBefore and @notAfter inferred during consultation with
-                            editor(s)/compiler(s)</catDesc>
-                    </category>
-                    <category xml:id="date_imprecise-inferred-from-outside-research">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
-                            inferred from related sources</catDesc>
-                    </category>
-                    <category xml:id="date_imprecise-inferred-from-sibling-dates">
-                        <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
-                            inferred from nearest dated siblings</catDesc>
-                    </category>
-                    <category xml:id="date_undated-inferred-from-chapter-heading">
-                        <catDesc>Date value(s) for undated document were inferred from the heading
-                            of its parent chapter</catDesc>
-                    </category>
-                    <category xml:id="date_undated-inferred-from-document-content">
-                        <catDesc>Date value(s) for undated document were inferred from the content
-                            of the document</catDesc>
-                    </category>
-                    <category xml:id="date_undated-inferred-from-document-content-and-sibling-dates">
-                        <catDesc>Date value(s) for undated document were inferred from the content
-                            of the document and nearest dated siblings</catDesc>
-                    </category>
-                    <category xml:id="date_undated-inferred-from-document-head">
-                        <catDesc>Date value(s) for undated document were inferred from dates in
-                            document header, using an XQuery script to find date patterns</catDesc>
-                    </category>
-                    <category xml:id="date_undated-inferred-from-document-scan">
-                        <catDesc>Date value(s) for undated document were inferred from the content
-                            of the scanned version of the document</catDesc>
-                    </category>
-                    <category xml:id="date_undated-inferred-from-editorial-annotation">
-                        <catDesc>[Contemporary Volumes] Date value(s) for undated document were
-                            inferred from editorial annotations</catDesc>
-                    </category>
-                    <category xml:id="date_undated-inferred-from-editorial-consultation">
-                        <catDesc>[Contemporary Volumes] Date value(s) for undated document were
-                            inferred during consultation with editor(s)/compiler(s)</catDesc>
-                    </category>
-                    <category xml:id="date_undated-inferred-from-outside-research">
-                        <catDesc>Date value(s) for undated document were inferred from related
-                            sources</catDesc>
-                    </category>
-                    <category xml:id="date_undated-inferred-from-sibling-dates">
-                        <catDesc>Date value(s) for undated document were inferred from nearest dated
-                            siblings</catDesc>
-                    </category>
-                    <category xml:id="date_undated-inferred-from-volume-rules">
-                        <catDesc>Date value(s) for undated document were inferred from volume date
-                            range and possibly outside research</catDesc>
-                    </category>
-                    <category xml:id="date_undated-temporarily-inferred-from-volume-rules">
-                        <catDesc>Date value(s) for undated document were inferred from volume date
-                            range. (The value(s) serve as a placeholder until more discrete analysis
-                            can be conducted on an individual document level.)</catDesc>
-                    </category>
-                    <!-- other categories -->
-                </taxonomy>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2016-07-18 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1871-12-15T00:00:00-05:00"
+                notAfter="1872-12-01T23:55:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -218,7 +100,8 @@
             <pb n="[II]" xml:id="pg-seq-2" facs="0002"/>
             <p>Exchange Dartmouth College</p>
             <pb n="[III]" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="abstract">
+            <div type="section" xml:id="abstract" frus:doc-dateTime-min="1871-12-15T00:00:00-05:00"
+                frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
                 <head>Papers relating to the Treaty of Washington: Volume IV.—Geneva
                     arbitration</head>
                 <p rend="center">Containing the report of the agent of the United States protocols
@@ -231,7 +114,8 @@
             </div>
             <pb n="[IV]" xml:id="pg_IV" facs="0004"/>
             <pb n="[V]" xml:id="pg_V" facs="0005"/>
-            <div type="toc" xml:id="toc">
+            <div type="toc" xml:id="toc" frus:doc-dateTime-min="1871-12-15T00:00:00-05:00"
+                frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
                 <head>Table of contents</head>
                 <list type="toc">
                     <item>
@@ -1638,9 +1522,11 @@
         <pb n="[XII]" xml:id="pg_XII" facs="0012"/>
         <body>
             <pb n="[1]" xml:id="pg_1" facs="0013"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1872-09-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1872-09-21T23:59:59-05:00">
                 <head>I. Report of J.C. Bancroft Davis, agent of the United States</head>
-                <div type="chapter" xml:id="ch1">
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1872-09-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-09-21T23:59:59-05:00">
                     <head>Report.</head>
                     <div type="document" xml:id="d1" n="1" subtype="historical-document"
                         frus:doc-dateTime-min="1872-09-21T00:00:00-05:00"
@@ -2574,9 +2460,11 @@
                 </div>
             </div>
             <pb n="[15]" xml:id="pg_15" facs="0027"/>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1871-12-15T00:00:00-05:00"
+                frus:doc-dateTime-max="1872-09-14T23:59:59-05:00">
                 <head>II. Protocols of the conferences of the arbitrators</head>
-                <div type="chapter" xml:id="ch2">
+                <div type="chapter" xml:id="ch2" frus:doc-dateTime-min="1871-12-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1871-12-15T23:59:59-05:00">
                     <head>Protocol I.</head>
                     <div type="document" xml:id="d2" n="2" subtype="historical-document"
                         frus:doc-dateTime-min="1871-12-15T00:00:00-05:00"
@@ -2691,7 +2579,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch3">
+                <div type="chapter" xml:id="ch3" frus:doc-dateTime-min="1871-12-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1871-12-16T23:59:59-05:00">
                     <head>Protocol II.</head>
                     <div type="document" xml:id="d3" n="3" subtype="historical-document"
                         frus:doc-dateTime-min="1871-12-16T00:00:00-05:00"
@@ -2738,7 +2627,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch4">
+                <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1872-06-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-06-15T23:59:59-05:00">
                     <head>Protocol III.</head>
                     <div type="document" xml:id="d4" n="4" subtype="historical-document"
                         frus:doc-dateTime-min="1872-06-15T00:00:00-05:00"
@@ -2855,7 +2745,8 @@
                     </div>
                 </div>
                 <pb n="19" xml:id="pg_19" facs="0031"/>
-                <div type="chapter" xml:id="ch5">
+                <div type="chapter" xml:id="ch5" frus:doc-dateTime-min="1872-06-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-06-17T23:59:59-05:00">
                     <head>Protocol IV.</head>
                     <div type="document" xml:id="d5" n="5" subtype="historical-document"
                         frus:doc-dateTime-min="1872-06-17T00:00:00-05:00"
@@ -2896,7 +2787,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch6">
+                <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1872-06-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-06-19T23:59:59-05:00">
                     <head>Protocol V.</head>
                     <div type="document" xml:id="d6" n="6" subtype="historical-document"
                         frus:doc-dateTime-min="1872-06-19T00:00:00-05:00"
@@ -3012,7 +2904,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch7">
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1872-06-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-06-25T23:59:59-05:00">
                     <head>Protocol VI.</head>
                     <div type="document" xml:id="d7" n="7" subtype="historical-document"
                         frus:doc-dateTime-min="1872-06-25T00:00:00-05:00"
@@ -3077,7 +2970,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch8">
+                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1872-06-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-06-27T23:59:59-05:00">
                     <head>Protocol VII.</head>
                     <div type="document" xml:id="d8" n="8" subtype="historical-document"
                         frus:doc-dateTime-min="1872-06-27T00:00:00-05:00"
@@ -3364,7 +3258,8 @@
                     </div>
                 </div>
                 <pb n="25" xml:id="pg_25" facs="0037"/>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1872-06-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-06-28T23:59:59-05:00">
                     <head>Protocol VIII.</head>
                     <div type="document" xml:id="d9" n="9" subtype="historical-document"
                         frus:doc-dateTime-min="1872-06-28T00:00:00-05:00"
@@ -3463,7 +3358,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch10">
+                <div type="chapter" xml:id="ch10" frus:doc-dateTime-min="1872-07-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-07-15T23:59:59-05:00">
                     <head>Protocol IX.</head>
                     <div type="document" xml:id="d10" n="10" subtype="historical-document"
                         frus:doc-dateTime-min="1872-07-15T00:00:00-05:00"
@@ -3506,7 +3402,8 @@
                     </div>
                 </div>
                 <pb n="27" xml:id="pg_27" facs="0039"/>
-                <div type="chapter" xml:id="ch11">
+                <div type="chapter" xml:id="ch11" frus:doc-dateTime-min="1872-07-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-07-16T23:59:59-05:00">
                     <head>Protocol X.</head>
                     <div type="document" xml:id="d11" n="11" subtype="historical-document"
                         frus:doc-dateTime-min="1872-07-16T00:00:00-05:00"
@@ -3746,7 +3643,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch12">
+                <div type="chapter" xml:id="ch12" frus:doc-dateTime-min="1872-07-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-07-11T23:59:59-05:00">
                     <head>Protocol XI.</head>
                     <div type="document" xml:id="d12" n="12" subtype="historical-document"
                         frus:doc-dateTime-min="1872-07-11T00:00:00-05:00"
@@ -3788,7 +3686,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch13">
+                <div type="chapter" xml:id="ch13" frus:doc-dateTime-min="1872-07-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-07-19T23:59:59-05:00">
                     <head>Protocol XII.</head>
                     <div type="document" xml:id="d13" n="13" subtype="historical-document"
                         frus:doc-dateTime-min="1872-07-19T00:00:00-05:00"
@@ -3827,7 +3726,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch14">
+                <div type="chapter" xml:id="ch14" frus:doc-dateTime-min="1872-07-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-07-22T23:59:59-05:00">
                     <head>Protocol XIII.</head>
                     <div type="document" xml:id="d14" n="14" subtype="historical-document"
                         frus:doc-dateTime-min="1872-07-22T00:00:00-05:00"
@@ -3879,7 +3779,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch15">
+                <div type="chapter" xml:id="ch15" frus:doc-dateTime-min="1872-07-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-07-25T23:59:59-05:00">
                     <head>Protocol XIV.</head>
                     <div type="document" xml:id="d15" n="15" subtype="historical-document"
                         frus:doc-dateTime-min="1872-07-25T00:00:00-05:00"
@@ -3935,7 +3836,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch16">
+                <div type="chapter" xml:id="ch16" frus:doc-dateTime-min="1872-07-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-07-29T23:59:59-05:00">
                     <head>Protocol XV.</head>
                     <div type="document" xml:id="d16" n="16" subtype="historical-document"
                         frus:doc-dateTime-min="1872-07-29T00:00:00-05:00"
@@ -3981,7 +3883,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch17">
+                <div type="chapter" xml:id="ch17" frus:doc-dateTime-min="1872-07-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-07-30T23:59:59-05:00">
                     <head>Protocol XVI.</head>
                     <div type="document" xml:id="d17" n="17" subtype="historical-document"
                         frus:doc-dateTime-min="1872-07-30T00:00:00-05:00"
@@ -4022,7 +3925,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch18">
+                <div type="chapter" xml:id="ch18" frus:doc-dateTime-min="1872-08-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-08-05T23:59:59-05:00">
                     <head>Protocol XVII.</head>
                     <div type="document" xml:id="d18" n="18" subtype="historical-document"
                         frus:doc-dateTime-min="1872-08-05T00:00:00-05:00"
@@ -4061,7 +3965,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch19">
+                <div type="chapter" xml:id="ch19" frus:doc-dateTime-min="1872-08-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-08-06T23:59:59-05:00">
                     <head>Protocol XVIII.</head>
                     <div type="document" xml:id="d19" n="19" subtype="historical-document"
                         frus:doc-dateTime-min="1872-08-06T00:00:00-05:00"
@@ -4103,7 +4008,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch20">
+                <div type="chapter" xml:id="ch20" frus:doc-dateTime-min="1872-08-08T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-08-08T23:59:59-05:00">
                     <head>Protocol XIX.</head>
                     <div type="document" xml:id="d20" n="20" subtype="historical-document"
                         frus:doc-dateTime-min="1872-08-08T00:00:00-05:00"
@@ -4144,7 +4050,8 @@
                     </div>
                 </div>
                 <pb n="33" xml:id="pg_33" facs="0045"/>
-                <div type="chapter" xml:id="ch21">
+                <div type="chapter" xml:id="ch21" frus:doc-dateTime-min="1872-08-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-08-14T23:59:59-05:00">
                     <head>Protocol XX.</head>
                     <div type="document" xml:id="d21" n="21" subtype="historical-document"
                         frus:doc-dateTime-min="1872-08-14T00:00:00-05:00"
@@ -4194,7 +4101,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch22">
+                <div type="chapter" xml:id="ch22" frus:doc-dateTime-min="1872-08-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-08-15T23:59:59-05:00">
                     <head>Protocol XXI.</head>
                     <div type="document" xml:id="d22" n="22" subtype="historical-document"
                         frus:doc-dateTime-min="1872-08-15T00:00:00-05:00"
@@ -4280,7 +4188,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch23">
+                <div type="chapter" xml:id="ch23" frus:doc-dateTime-min="1872-08-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-08-16T23:59:59-05:00">
                     <head>Protocol XXII.</head>
                     <div type="document" xml:id="d23" n="23" subtype="historical-document"
                         frus:doc-dateTime-min="1872-08-16T00:00:00-05:00"
@@ -4319,7 +4228,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch24">
+                <div type="chapter" xml:id="ch24" frus:doc-dateTime-min="1872-08-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-08-19T23:59:59-05:00">
                     <head>Protocol XXIII.</head>
                     <div type="document" xml:id="d24" n="24" subtype="historical-document"
                         frus:doc-dateTime-min="1872-08-19T00:00:00-05:00"
@@ -4367,7 +4277,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch25">
+                <div type="chapter" xml:id="ch25" frus:doc-dateTime-min="1872-08-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-08-21T23:59:59-05:00">
                     <head>Protocol XXIV.</head>
                     <div type="document" xml:id="d25" n="25" subtype="historical-document"
                         frus:doc-dateTime-min="1872-08-21T00:00:00-05:00"
@@ -4426,7 +4337,8 @@
                     </div>
                 </div>
                 <pb n="36" xml:id="pg_36" facs="0048"/>
-                <div type="chapter" xml:id="ch26">
+                <div type="chapter" xml:id="ch26" frus:doc-dateTime-min="1872-08-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-08-23T23:59:59-05:00">
                     <head>Protocol XXV.</head>
                     <div type="document" xml:id="d26" n="26" subtype="historical-document"
                         frus:doc-dateTime-min="1872-08-23T00:00:00-05:00"
@@ -4578,7 +4490,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch27">
+                <div type="chapter" xml:id="ch27" frus:doc-dateTime-min="1872-08-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-08-26T23:59:59-05:00">
                     <head>Protocol XXVI.</head>
                     <div type="document" xml:id="d27" n="27" subtype="historical-document"
                         frus:doc-dateTime-min="1872-08-26T00:00:00-05:00"
@@ -5179,7 +5092,8 @@
                     </div>
                 </div>
                 <pb n="43" xml:id="pg_43" facs="0055"/>
-                <div type="chapter" xml:id="ch28">
+                <div type="chapter" xml:id="ch28" frus:doc-dateTime-min="1872-08-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-08-29T23:59:59-05:00">
                     <head>Protocol XXVII.</head>
                     <div type="document" xml:id="d28" n="28" subtype="historical-document"
                         frus:doc-dateTime-min="1872-08-29T00:00:00-05:00"
@@ -5232,7 +5146,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch29">
+                <div type="chapter" xml:id="ch29" frus:doc-dateTime-min="1872-08-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-08-30T23:59:59-05:00">
                     <head>Protocol XXVIII.</head>
                     <div type="document" xml:id="d29" n="29" subtype="historical-document"
                         frus:doc-dateTime-min="1872-08-30T00:00:00-05:00"
@@ -5284,7 +5199,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch30">
+                <div type="chapter" xml:id="ch30" frus:doc-dateTime-min="1872-09-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-09-02T23:59:59-05:00">
                     <head>Protocol XXIX.</head>
                     <div type="document" xml:id="d30" n="30" subtype="historical-document"
                         frus:doc-dateTime-min="1872-09-02T00:00:00-05:00"
@@ -5710,7 +5626,8 @@
                     </div>
                 </div>
                 <pb n="47" xml:id="pg_47" facs="0059"/>
-                <div type="chapter" xml:id="ch31">
+                <div type="chapter" xml:id="ch31" frus:doc-dateTime-min="1872-09-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-09-06T23:59:59-05:00">
                     <head>Protocol XXX.</head>
                     <div type="document" xml:id="d31" n="31" subtype="historical-document"
                         frus:doc-dateTime-min="1872-09-06T00:00:00-05:00"
@@ -5747,7 +5664,8 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch32">
+                <div type="chapter" xml:id="ch32" frus:doc-dateTime-min="1872-09-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-09-09T23:59:59-05:00">
                     <head>Protocol XXXI.</head>
                     <div type="document" xml:id="d32" n="32" subtype="historical-document"
                         frus:doc-dateTime-min="1872-09-09T00:00:00-05:00"
@@ -5794,7 +5712,8 @@
                     </div>
                 </div>
                 <pb n="48" xml:id="pg_48" facs="0060"/>
-                <div type="chapter" xml:id="ch33">
+                <div type="chapter" xml:id="ch33" frus:doc-dateTime-min="1872-09-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-09-14T23:59:59-05:00">
                     <head>Protocol XXXII.</head>
                     <div type="document" xml:id="d33" n="33" subtype="historical-document"
                         frus:doc-dateTime-min="1872-09-14T00:00:00-05:00"
@@ -5862,7 +5781,8 @@
                 </div>
             </div>
             <pb n="[49]" xml:id="pg_49" facs="0061"/>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1872-09-14T00:00:00-05:00"
+                frus:doc-dateTime-max="1872-09-14T23:59:59-05:00">
                 <head>III. Decision and award</head>
                 <div type="document" xml:id="d34" n="34" subtype="historical-document"
                     frus:doc-dateTime-min="1872-09-14T00:00:00-05:00"
@@ -6171,7 +6091,8 @@
                 </div>
             </div>
             <pb n="[55]" xml:id="pg_55" facs="0067"/>
-            <div type="compilation" xml:id="comp4">
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
+                frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
                 <head>IV. Opinions of the arbitrators</head>
                 <list>
                     <label>1.</label>
@@ -6185,7 +6106,8 @@
                     <label>5.</label>
                     <item><hi rend="smallcaps">Opinions of Sir Alexander Cockburn</hi>.</item>
                 </list>
-                <div type="chapter" xml:id="ch34">
+                <div type="chapter" xml:id="ch34" frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
+                    frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
                     <head>Opinions of Count Sclopis.</head>
                     <div type="document" xml:id="d35" n="35"
                         frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
@@ -9173,7 +9095,8 @@
                             government.</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch35">
+                <div type="chapter" xml:id="ch35" frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
+                    frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
                     <head>Opinions of Viscount D’Itajuba.</head>
                     <div type="document" xml:id="d36" n="36"
                         frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
@@ -9636,7 +9559,8 @@
                             Shenandoah.</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch36">
+                <div type="chapter" xml:id="ch36" frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
+                    frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
                     <head>Opinions of Mr. Shæmpfli.</head>
                     <div type="document" xml:id="d37" n="37"
                         frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
@@ -12472,7 +12396,8 @@
                             and is responsible on this head.</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch37">
+                <div type="chapter" xml:id="ch37" frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
+                    frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
                     <head>Opinions of Mr. Adams.</head>
                     <div type="document" xml:id="d38" n="38"
                         frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
@@ -18895,7 +18820,8 @@
                             the treaty of Washington.</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch38">
+                <div type="chapter" xml:id="ch38" frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
+                    frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
                     <head>Opinions of Sir Alexander Cockburn.</head>
                     <div type="document" xml:id="d39" n="39"
                         frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
@@ -41296,7 +41222,8 @@
                 </div>
             </div>
             <pb n="[545]" xml:id="pg_545" facs="0557"/>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" xml:id="comp5" frus:doc-dateTime-min="1872-10-22T00:00:00-05:00"
+                frus:doc-dateTime-max="1872-10-22T23:59:59-05:00">
                 <head>V. Reply of the Secretary of State, acknowledging the receipt of the report of
                     the agent of the United States, and commenting upon the opinion of the
                     arbitrator appointed by Her Britannic Majesty</head>
@@ -41558,7 +41485,8 @@
                 </div>
             </div>
             <pb n="[550]" xml:id="pg_550" facs="0562"/>
-            <div type="compilation" xml:id="comp6">
+            <div type="compilation" xml:id="comp6" frus:doc-dateTime-min="1872-11-25T00:00:00-05:00"
+                frus:doc-dateTime-max="1872-11-25T23:59:59-05:00">
                 <head>VI. Report of the counsel of the United States</head>
                 <div type="document" xml:id="d41" n="41"
                     frus:doc-dateTime-min="1872-11-25T00:00:00-05:00"
@@ -41606,17 +41534,21 @@
                 </div>
             </div>
             <pb n="[551]" xml:id="pg_551" facs="0563"/>
-            <div type="compilation" xml:id="comp7">
+            <div type="compilation" xml:id="comp7" frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
+                frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
                 <head>VII. Appendix: Opinions of statesmen, magazines, and journals of Great Britain
                     and the continent on the construction of the treaty of Washington</head>
-                <div type="chapter" xml:id="ch39">
+                <div type="chapter" xml:id="ch39" frus:doc-dateTime-min="1872-06-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-06-05T23:59:59-05:00">
                     <head>I.</head>
-                    <div type="document" xml:id="d42" n="42">
+                    <div type="document" xml:id="d42" n="42"
+                        frus:doc-dateTime-min="1872-06-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1872-06-05T23:59:59-05:00">
                         <head><hi rend="italic">Extracts from speeches made in a debate in the House
                                 of Lords</hi>, 4<hi rend="italic">th of June</hi>, 1872.</head>
                         <opener>
-                            <dateline rendition="#center">[From the Times of June 5,
-                                1872.]</dateline>
+                            <dateline rendition="#center">[From the Times of <date when="1872-06-05"
+                                    calendar="gregorian">June 5, 1872</date>.]</dateline>
                         </opener>
                         <p>The <hi rend="smallcaps">Earl of Derby</hi> rose and said:</p>
                         <p rend="flushleft">* * * * “Everybody knows that we put one construction on
@@ -41786,7 +41718,8 @@
                             claims.”</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch40">
+                <div type="chapter" xml:id="ch40" frus:doc-dateTime-min="1872-03-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-03-31T23:59:59-05:00">
                     <head>II.</head>
                     <div type="document" xml:id="d43" n="43"
                         frus:doc-dateTime-min="1872-03-01T00:00:00-05:00"
@@ -41927,7 +41860,8 @@
                             altogether free from stock-jobbing influences.’</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch41">
+                <div type="chapter" xml:id="ch41" frus:doc-dateTime-min="1872-06-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-06-30T23:59:59-05:00">
                     <head>III.</head>
                     <div type="document" xml:id="d44" n="44"
                         frus:doc-dateTime-min="1872-06-01T00:00:00-05:00"
@@ -42084,7 +42018,8 @@
                             colleagues.</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch42">
+                <div type="chapter" xml:id="ch42" frus:doc-dateTime-min="1872-02-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-02-02T23:59:59-05:00">
                     <head>IV.</head>
                     <div type="document" xml:id="d45" n="45"
                         frus:doc-dateTime-min="1872-02-02T00:00:00-05:00"
@@ -42155,7 +42090,8 @@
                             parties.”</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch43">
+                <div type="chapter" xml:id="ch43" frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
+                    frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
                     <head>V.</head>
                     <div type="document" xml:id="d46" n="46"
                         frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
@@ -42550,7 +42486,8 @@
                             indirect claims.”—<hi rend="italic">London Times, January</hi> 29.</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch44">
+                <div type="chapter" xml:id="ch44" frus:doc-dateTime-min="1872-06-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-06-06T23:59:59-05:00">
                     <head>VI.</head>
                     <div type="document" xml:id="d47" n="47"
                         frus:doc-dateTime-min="1872-06-06T00:00:00-05:00"
@@ -42681,7 +42618,8 @@
                             dans les limites étroites et arbitraires qui lui sont assignées.</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch45">
+                <div type="chapter" xml:id="ch45" frus:doc-dateTime-min="1872-01-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-01-31T23:59:59-05:00">
                     <head>VII.</head>
                     <div type="document" xml:id="d48" n="48"
                         frus:doc-dateTime-min="1872-01-01T00:00:00-05:00"
@@ -42763,7 +42701,8 @@
                             engagements et finissent par opprimer les faibles.”</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch46">
+                <div type="chapter" xml:id="ch46" frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
+                    frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
                     <head>VIII.</head>
                     <div type="document" xml:id="d49" n="49"
                         frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
@@ -42836,7 +42775,8 @@
                             raisonnables qui est déférée aux arbitres.</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch47">
+                <div type="chapter" xml:id="ch47" frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
+                    frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
                     <head>IX.</head>
                     <div type="document" xml:id="d50" n="50"
                         frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
@@ -42952,7 +42892,9 @@
         </body>
         <back>
             <pb n="[569]" xml:id="pg_569" facs="0581"/>
-            <div type="section" xml:id="index" subtype="index">
+            <div type="section" xml:id="index" subtype="index"
+                frus:doc-dateTime-min="1871-12-15T00:00:00-05:00"
+                frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
                 <head>Index.</head>
                 <p rend="center">A.</p>
                 <list type="index">
