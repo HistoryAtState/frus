@@ -17,7 +17,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date type="publication-date">1873</date>
+                <date type="publication-date" calendar="gregorian">1873</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -1649,9 +1649,9 @@
                                     <persName type="to">Fish</persName></hi>.</head>
                         <opener>
                             <dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                    >Paris</hi></placeName>, <date when="1872-09-21"><hi
-                                        rend="italic">September</hi> 21, 1872</date>. (Received
-                                October 10, 1872.)</dateline>
+                                    >Paris</hi></placeName>, <date when="1872-09-21"
+                                    calendar="gregorian"><hi rend="italic">September</hi> 21,
+                                    1872</date>. (Received October 10, 1872.)</dateline>
                         </opener>
                         <p><seg type="margin">Award and protocols transmitted.</seg>
                             <hi rend="smallcaps">Sir</hi>: I transmit herewith, in a separate
@@ -6155,8 +6155,9 @@
                     <closer>
                         <dateline rendition="#left">Made and concluded at the Hotel de Ville of
                             Geneva, in <placeName>Switzerland</placeName>, <date when="1872-09-14"
-                                >the 14th day of the month of September, in the year of our Lord one
-                                thousand eight hundred and seventy-two</date>.</dateline>
+                                calendar="gregorian">the 14th day of the month of September, in the
+                                year of our Lord one thousand eight hundred and
+                            seventy-two</date>.</dateline>
                         <lb/>
                         <signed>
                             <list>
@@ -6189,7 +6190,7 @@
                     <div type="document" xml:id="d35" n="35"
                         frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
                         frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
-                        <head ana="#head_untitled-inferred-from-chapter-head">[Opinions of Count
+                        <head ana="#head_untitled-missing-head-in-printed-volume">[Opinions of Count
                                 Sclopis]<note n="*" xml:id="d35fn1"><p><hi rend="italic">Opinions du
                                         Comte Frédéric Sclopis sur les trois questions de droit sur
                                         lesquelles le tribunal d’arbitrage, dans sa sćance du</hi>
@@ -7736,7 +7737,7 @@
                                     notBefore="1872-01-01T00:00:00-04:56"
                                     notAfter="1872-12-01T23:59:59-04:56"
                                     ana="#date_undated-inferred-from-volume-rules"
-                                >undated</date>].</dateline>
+                                    calendar="gregorian">undated</date>].</dateline>
                         </opener>
                         <p rend="flushleft">I. <hi rend="smallcaps">The three questions of law on
                                 which the tribunal of arbitration, in its sitting of the</hi> 25<hi
@@ -9406,7 +9407,7 @@
                                     notBefore="1872-01-01T00:00:00-04:56"
                                     notAfter="1872-12-01T23:59:59-04:56"
                                     ana="#date_undated-inferred-from-volume-rules"
-                                >undated</date>].</dateline>
+                                    calendar="gregorian">undated</date>].</dateline>
                         </opener>
                         <p rend="center">Sitting of the 25th of July.</p>
                         <p><seg type="margin">Effect of a commission.</seg> The object of the
@@ -11128,7 +11129,7 @@
                                     notBefore="1872-01-01T00:00:00-04:56"
                                     notAfter="1872-12-01T23:59:59-04:56"
                                     ana="#date_undated-inferred-from-volume-rules"
-                                >undated</date>].</dateline>
+                                    calendar="gregorian">undated</date>].</dateline>
                         </opener>
                         <p>M. Shæmpfli states that he sees no great advantage in wandering into long
                             descriptions and theoretical interpretations on the questions of <hi
@@ -15853,7 +15854,7 @@
                                     notBefore="1872-01-01T00:00:00-04:56"
                                     notAfter="1872-12-01T23:59:59-04:56"
                                     ana="#date_undated-inferred-from-volume-rules"
-                                >undated</date>].</dateline>
+                                    calendar="gregorian">undated</date>].</dateline>
                         </opener>
                         <p>These words, which are found in the first and third of the rules
                             prescribed by the treaty of Washington, for the government of the
@@ -18899,14 +18900,14 @@
                     <div type="document" xml:id="d39" n="39"
                         frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
                         frus:doc-dateTime-max="1872-12-01T23:55:59-05:00">
-                        <head ana="#head_untitled-inferred-from-chapter-head">[Opinions of Sir
+                        <head ana="#head_untitled-missing-head-in-printed-volume">[Opinions of Sir
                             Alexander Cockburn.]</head>
                         <opener>
                             <dateline rendition="#right">[<date
                                     notBefore="1872-01-01T00:00:00-04:56"
                                     notAfter="1872-12-01T23:59:59-04:56"
                                     ana="#date_undated-inferred-from-volume-rules"
-                                >undated</date>].</dateline>
+                                    calendar="gregorian">undated</date>].</dateline>
                         </opener>
                         <p>The indirect claims at first insisted on by the Government of the United
                             States being now out of the question, we have to deal with the claims
@@ -41302,12 +41303,12 @@
                 <div type="document" xml:id="d40" n="40"
                     frus:doc-dateTime-min="1872-10-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1872-10-22T23:59:59-05:00">
-                    <head ana="#head_untitled-inferred-from-chapter-head">[Untitled]</head>
+                    <head ana="#head_untitled-missing-head-in-printed-volume">[Untitled]</head>
                     <opener>
                         <dateline rendition="#right"><placeName><hi rend="smallcaps">Department of
                                     State</hi>,<lb/><hi rend="italic">Washington</hi></placeName>,
-                                <date when="1872-10-22"><hi rend="italic">October</hi> 22,
-                                1872</date>.</dateline>
+                                <date when="1872-10-22" calendar="gregorian"><hi rend="italic"
+                                    >October</hi> 22, 1872</date>.</dateline>
                     </opener>
                     <p><seg type="margin">Acknowledging the receipt of the report.</seg>
                         <seg type="margin">The President’s approval.</seg>
@@ -41562,12 +41563,12 @@
                 <div type="document" xml:id="d41" n="41"
                     frus:doc-dateTime-min="1872-11-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1872-11-25T23:59:59-05:00">
-                    <head ana="#head_untitled-inferred-from-chapter-head">[Untitled]</head>
+                    <head ana="#head_untitled-missing-head-in-printed-volume">[Untitled]</head>
                     <opener>
                         <dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                >Washington</hi></placeName>, <date when="1872-11-25"><hi
-                                    rend="italic">November</hi> 25, 1872</date>. (Received November
-                            26.)</dateline>
+                                >Washington</hi></placeName>, <date when="1872-11-25"
+                                calendar="gregorian"><hi rend="italic">November</hi> 25,
+                            1872</date>. (Received November 26.)</dateline>
                     </opener>
                     <p><hi rend="smallcaps">Sir</hi>: We have the honor to report that, in
                         conformity with your instruction of the 8th of December, 1871, we repaired
@@ -41796,7 +41797,7 @@
                             <dateline rendition="#right">[<date notBefore="1872-03-01"
                                     notAfter="1872-03-31"
                                     ana="#date_undated-inferred-from-chapter-heading"
-                                >undated</date>].</dateline>
+                                    calendar="gregorian">undated</date>].</dateline>
                         </opener>
                         <p rend="flushleft">* * * * * * We cannot but deeply regret the whole course
                             of procedure which has been pursued by us, both in official and
@@ -41937,7 +41938,7 @@
                             <dateline rendition="#right">[<date notBefore="1872-06-01"
                                     notAfter="1872-06-30"
                                     ana="#date_undated-inferred-from-chapter-heading"
-                                >undated</date>].</dateline>
+                                    calendar="gregorian">undated</date>].</dateline>
                         </opener>
                         <p rend="flushleft">* * * * * All the vast social power which the governing
                             classes of England possess was thrown into the scale against whatsoever
@@ -42167,7 +42168,7 @@
                                     notBefore="1872-01-01T00:00:00-04:56"
                                     notAfter="1872-12-01T23:59:59-04:56"
                                     ana="#date_undated-inferred-from-volume-rules"
-                                >undated</date>].</dateline>
+                                    calendar="gregorian">undated</date>].</dateline>
                         </opener>
                         <p>Neither in the course of the debates on the joint high commission, which
                             sat for two months, nor in any of the clauses of the treaty intended to
@@ -42691,7 +42692,7 @@
                             <dateline rendition="#right">[<date notBefore="1872-01-01"
                                     notAfter="1872-01-31"
                                     ana="#date_imprecise-inferred-from-date-rules"
-                                >undated</date>].</dateline>
+                                    calendar="gregorian">undated</date>].</dateline>
                         </opener>
                         <p>Le texte du traité n’a point distingué entre les réclamations; il les a
                             toutes soumises au tribunal arbitral, pour être <hi rend="italic"
@@ -42774,7 +42775,7 @@
                                     notBefore="1872-01-01T00:00:00-04:56"
                                     notAfter="1872-12-01T23:59:59-04:56"
                                     ana="#date_undated-inferred-from-volume-rules"
-                                >undated</date>].</dateline>
+                                    calendar="gregorian">undated</date>].</dateline>
                         </opener>
                         <p>Le traité rend la commission compétente pour statuer sur les <hi
                                 rend="italic">Alabama claims</hi>. Toute la question est done de
@@ -42848,7 +42849,7 @@
                                     notBefore="1872-01-01T00:00:00-04:56"
                                     notAfter="1872-12-01T23:59:59-04:56"
                                     ana="#date_undated-inferred-from-volume-rules"
-                                >undated</date>].</dateline>
+                                    calendar="gregorian">undated</date>].</dateline>
                         </opener>
                         <p>Il trattato contempla il caso, cbe tutti i reclami possano essere
                             ammessi, poichè con l’articolo VII, stabilisce che il tribunale potrà,
@@ -42951,7 +42952,7 @@
         </body>
         <back>
             <pb n="[569]" xml:id="pg_569" facs="0581"/>
-            <div type="section" xml:id="index">
+            <div type="section" xml:id="index" subtype="index">
                 <head>Index.</head>
                 <p rend="center">A.</p>
                 <list type="index">
