@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date type="publication-date">1872</date>
+                <date type="publication-date" calendar="gregorian">1872</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -65,6 +65,10 @@
             <change>2016-07-18 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1620-11-03T00:00:00-05:00"
+                notAfter="1872-12-02T23:55:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -79,7 +83,9 @@
                 <docImprint>WASHINGTON: GOVERNMENT PRINTING OFFICE.</docImprint>
             </titlePage>
             <pb n="" xml:id="pg-seq-4" facs="0004"/>
-            <div type="section" xml:id="papers1">
+            <div type="section" xml:id="papers1" subtype="index"
+                frus:doc-dateTime-min="1620-11-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                 <head>Papers relating to the Treaty of Washington.</head>
                 <p rend="center">Volume V.—Berlin arbitration.</p>
                 <p rend="center">Containing the memorial of the United States on the Canal de Haro
@@ -88,7 +94,8 @@
                     Her Britannic Majesty; and correspondence.</p>
                 <pb n="[III]" xml:id="pg_III" facs="0005"/>
             </div>
-            <div type="toc" xml:id="toc">
+            <div type="toc" xml:id="toc" frus:doc-dateTime-min="1620-11-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                 <head>Contents.</head>
                 <p rend="center">I.</p>
                 <p>Memorial on the Canal de Haro as the boundary-line of the United States of
@@ -1408,7 +1415,8 @@
         </front>
         <body>
             <pb n="1" xml:id="pg_1" facs="0013"/>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1620-11-03T00:00:00-05:00"
+                frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                 <head>I. Memorial on the Canal de Haro as the boundary line of the United States of
                     America, presented in the name of the American government to His Majesty William
                     I, German Emperor and King of Prussia, as arbitrator, by the American
@@ -1421,8 +1429,8 @@
                     <head>Memorial.</head>
                     <dateline>[<date notBefore="1872-10-12T00:00:00-04:56"
                             notAfter="1872-12-02T23:59:59-04:56"
-                            ana="#date_undated-inferred-from-document-content"
-                        >undated</date>]</dateline>
+                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                            >undated</date>]</dateline>
                     <p>The treaty of which the interpretation is referred to Your Majesty’s
                         arbitrament was ratified more than a quarter of a century ago. Of the
                         sixteen members of the British cabinet which framed and presented it for the
@@ -2331,7 +2339,9 @@
                             heals.<seg type="margin">[32]</seg></p>
                     <pb n="19" xml:id="pg_19" facs="0045"/>
                 </div>
-                <div type="chapter" xml:id="appendix">
+                <div type="chapter" xml:id="appendix"
+                    frus:doc-dateTime-min="1620-11-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1871-05-08T23:59:59-05:00">
                     <head>Appendix.</head>
                     <div type="document" subtype="historical-document" xml:id="d2" n="2"
                         frus:doc-dateTime-min="1846-06-15T00:00:00-05:00"
@@ -2473,10 +2483,11 @@
                         <head>No. 3.</head>
                         <opener>
                             <dateline rendition="#center"><hi rend="italic">Extract from the patent
-                                    granted by James I of England</hi>, <date when="1620-11-03"><hi
-                                        rend="italic">November</hi> 3, <hi rend="italic">in the
-                                        eighteenth year of his reign</hi></date>, <hi rend="italic"
-                                    >to the council of Plymouth</hi>.</dateline>
+                                    granted by James I of England</hi>, <date when="1620-11-03"
+                                    calendar="gregorian"><hi rend="italic">November</hi> 3, <hi
+                                        rend="italic">in the eighteenth year of his
+                                    reign</hi></date>, <hi rend="italic">to the council of
+                                    Plymouth</hi>.</dateline>
                         </opener>
                         <p>* * * * “Wee, therefore, of our especiall Grace, mere Motion, and
                             certaine Knowledge, by the Advice of the Lords and others of our Priuy
@@ -2517,8 +2528,8 @@
                         <head>[Untitled]</head>
                         <dateline>[<date notBefore="1628-03-04T00:00:00-04:56"
                                 notAfter="1863-03-24T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p rend="center">*<hi rend="italic">Extract from the old patent for
                                 Connecticut</hi>.<seg type="margin">[7]</seg></p>
                         <p>* * * “Robert, Earl of Warwick,” * * “doth give” * * “the Space of forty
@@ -2675,8 +2686,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of
-                                State</hi></placeName>, <date when="1807-07-30"><hi rend="italic"
-                                        >July</hi> 30, 1807.</date></dateline>
+                                State</hi></placeName>, <date when="1807-07-30" calendar="gregorian"
+                                        ><hi rend="italic">July</hi> 30, 1807.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Gentlemen</hi>: <hi rend="smallcaps">* * * * *
                                 *</hi></p>
@@ -2703,8 +2714,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Foreign Office</hi></placeName>,
-                                    <date when="1826-04-20"><hi rend="italic">April</hi> 20,
-                                    1826.</date></dateline>
+                                    <date when="1826-04-20" calendar="gregorian"><hi rend="italic"
+                                        >April</hi> 20, 1826.</date></dateline>
                         </opener>
                         <p>The undersigned, His Majesty’s Principal Secretary of State for Foreign
                             Affairs, has the honor to request Mr. Rufus King, Envoy Extraordinary
@@ -2748,7 +2759,8 @@
                                 Gallatin</persName>.</head>
                         <opener>
                             <dateline rendition="#right">
-                                <date when="1826-06-19"><hi rend="italic">June</hi> 19, 1826.</date>
+                                <date when="1826-06-19" calendar="gregorian"><hi rend="italic"
+                                        >June</hi> 19, 1826.</date>
                             </dateline>
                         </opener>
                         <p>As by the convention of 1818 the forty-ninth parallel of north latitude
@@ -2783,8 +2795,8 @@
                                 <placeName>
                                     <hi rend="smallcaps">Lexington,</hi>
                                 </placeName>
-                                <date when="1826-08-09"><hi rend="italic">August</hi> 9,
-                                    1826.</date>
+                                <date when="1826-08-09" calendar="gregorian"><hi rend="italic"
+                                        >August</hi> 9, 1826.</date>
                             </dateline>
                         </opener>
                         <p rend="center">* * * * * * *</p>
@@ -2821,8 +2833,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1826-11-25"><hi rend="italic">November</hi> 25,
-                                    1826.</date></dateline>
+                                    when="1826-11-25" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 25, 1826.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>The latter part of our conversation was of a more conciliatory nature.
@@ -2857,8 +2869,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1826-12-02"><hi rend="italic">December</hi> 2,
-                                    1826.</date></dateline>
+                                    when="1826-12-02" calendar="gregorian"><hi rend="italic"
+                                        >December</hi> 2, 1826.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * * *</p>
                         <p>Mr. Huskisson then asked me whether I was authorized to deviate from the
@@ -2895,7 +2907,7 @@
                         <head>No. 12.</head>
                         <dateline>[<date when="1792-06-22" type="content-date"
                                 ana="#date_undated-inferred-from-document-content"
-                            >undated</date>]</dateline>
+                                calendar="gregorian">undated</date>]</dateline>
                         <p rend="center">
                             <hi rend="italic">Extract from Vancouver’s “Voyage,” vol</hi>. 1, <hi
                                 rend="italic">page</hi> 312.</p>
@@ -2929,8 +2941,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1842-10-19"><hi rend="italic">October</hi> 19,
-                                    1842.</date></dateline>
+                                    when="1842-10-19" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 19, 1842.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>Lord Aberdeen, in the conference which ensued after the exchange of the
@@ -2958,8 +2970,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1842-11-18"><hi rend="italic">November</hi> 18,
-                                    1842.</date></dateline>
+                                    when="1842-11-18" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 18, 1842.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>On arriving at the Foreign Office I was told that Lord Aberdeen wished to
@@ -2996,8 +3008,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1843-08-17"><hi rend="italic">August</hi> 17,
-                                1843.</date></dateline>
+                                    when="1843-08-17" calendar="gregorian"><hi rend="italic"
+                                        >August</hi> 17, 1843.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Dear Sir</hi>: * * * * * *</p>
                         <p>When Lord Aberdeen spoke of instructing Mr. Fox on the Oregon question,
@@ -3028,8 +3040,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of State</hi>, <hi
                                         rend="italic">Washington</hi></placeName>, <date
-                                    when="1843-10-09"><hi rend="italic">October</hi> 9,
-                                1843.</date></dateline>
+                                    when="1843-10-09" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 9, 1843.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: The President directs that you take an
                             early occasion to bring again to the attention of Her Majesty’s
@@ -3069,8 +3081,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1843-11-02"><hi rend="italic">November</hi> 2,
-                                    1843.</date></dateline>
+                                    when="1843-11-02" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 2, 1843.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: By the steamer of the 16th October, I had
                             the honor to receive your despatch No. 62, inclosing a full power from
@@ -3115,8 +3127,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1843-11-14"><hi rend="italic">November</hi> 14,
-                                    1843.</date></dateline>
+                                    when="1843-11-14" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 14, 1843.</date></dateline>
                         </opener>
                         <p>Hon. A. P. <hi rend="smallcaps">Upshur</hi>: * * *</p>
                         <p>I had a long and, upon the whole, quite a satisfactory conversation with
@@ -3202,8 +3214,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1843-12-02"><hi rend="italic">December</hi> 2,
-                                    1843.</date></dateline>
+                                    when="1843-12-02" calendar="gregorian"><hi rend="italic"
+                                        >December</hi> 2, 1843.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I had a long and important conversation
                             with Lord Aberdeen on the 29th ultimo, which I now beg leave to report
@@ -3355,8 +3367,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1844-04-01"><hi rend="italic">April</hi> 1,
-                                1844.</date></dateline>
+                                    when="1844-04-01" calendar="gregorian"><hi rend="italic"
+                                        >April</hi> 1, 1844.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * *</p>
                         <p>The principle of running the forty-ninth degree of latitude to the sea
@@ -3505,8 +3517,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1845-02-28"><hi rend="italic">February</hi> 28,
-                                    1845.</date></dateline>
+                                    when="1845-02-28" calendar="gregorian"><hi rend="italic"
+                                        >February</hi> 28, 1845.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>I have anticipated in some degree another point to which Lord Aberdeen
@@ -3556,8 +3568,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1845-03-07"><hi rend="italic">March</hi> 7,
-                                1845.</date></dateline>
+                                    when="1845-03-07" calendar="gregorian"><hi rend="italic"
+                                        >March</hi> 7, 1845.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>:* * * * * * *</p>
                         <p>I took an opportunity a few days since to explain to the Comte de St.
@@ -3602,8 +3614,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1845-04-02"><hi rend="italic">April</hi> 2,
-                                1845.</date></dateline>
+                                    when="1845-04-02" calendar="gregorian"><hi rend="italic"
+                                        >April</hi> 2, 1845.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>A person very high in the confidence of the government, but not belonging
@@ -3630,8 +3642,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1845-04-02"><hi rend="italic">April</hi> 2,
-                                1845.</date></dateline>
+                                    when="1845-04-02" calendar="gregorian"><hi rend="italic"
+                                        >April</hi> 2, 1845.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: Your lecture on the Oregon question
                             reached me last week, and as the subject itself interests me, and still
@@ -3687,8 +3699,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1845-05-01"><hi rend="italic">May</hi> 1,
-                                1845.</date></dateline>
+                                    when="1845-05-01" calendar="gregorian"><hi rend="italic"
+                                        >May</hi> 1, 1845.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">My Dear Sir</hi>: I wrote you some weeks since to
                             thank you for the pamphlets you were so kind as to send me on the Oregon
@@ -3761,8 +3773,8 @@
                         <head> *No. 27.<seg type="margin">[31]</seg></head>
                         <dateline>[<date notBefore="1845-04-26T00:00:00-04:56"
                                 notAfter="1845-07-12T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-sibling-dates"
-                            >undated</date>]</dateline>
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                                >undated</date>]</dateline>
                         <p rend="center"><hi rend="italic">Narrative of the United States exploring
                                 expedition during the years</hi> 1838, 1839, 1840, 1841, 1842, <hi
                                 rend="italic">by Charles Wilkes</hi>, <hi rend="italic">U</hi>. <hi
@@ -3801,8 +3813,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of State</hi>, <hi
                                         rend="italic">Washington</hi></placeName>, <date
-                                    when="1845-07-12"><hi rend="italic">July</hi> 12,
-                                1845.</date></dateline>
+                                    when="1845-07-12" calendar="gregorian"><hi rend="italic"
+                                        >July</hi> 12, 1845.</date></dateline>
                         </opener>
                         <p>* * * He (the President) has, therefore, instructed the under signed
                             again to propose to the government of Great Britain that the Oregon
@@ -3833,8 +3845,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                                    when="1845-07-29"><hi rend="italic">July</hi> 29,
-                                1845.</date></dateline>
+                                    when="1845-07-29" calendar="gregorian"><hi rend="italic"
+                                        >July</hi> 29, 1845.</date></dateline>
                         </opener>
                         <p>* * * The undersigned, therefore, trusts that the American
                             plenipotentiary will be prepared to offer some further proposal for the
@@ -3866,8 +3878,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of State</hi>, <hi
                                         rend="italic">Washington</hi></placeName>, <date
-                                    when="1845-08-30"><hi rend="italic">August</hi> 30,
-                                1845.</date></dateline>
+                                    when="1845-08-30" calendar="gregorian"><hi rend="italic"
+                                        >August</hi> 30, 1845.</date></dateline>
                         </opener>
                         <p>* * Such a proposition as that which has been made never would have been
                             authorized by the President had this been a new question.<seg
@@ -3929,8 +3941,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1845-10-03"><hi rend="italic">October</hi> 3,
-                                1845.</date></dateline>
+                                    when="1845-10-03" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 3, 1845.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I received, on the 29th ultimo, your
                             dispatch No. 9, dated the 13th September, transmitting a copy of your
@@ -3981,8 +3993,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1845-12-01"><hi rend="italic">December</hi> 1,
-                                    1845.</date></dateline>
+                                    when="1845-12-01" calendar="gregorian"><hi rend="italic"
+                                        >December</hi> 1, 1845.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: Although it is well understood here that
                             in the present posture of the Oregon question my connection with it must
@@ -4047,8 +4059,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1845-12-02"><hi rend="italic">December</hi> 2,
-                                    1845.</date></dateline>
+                                    when="1845-12-02" calendar="gregorian"><hi rend="italic"
+                                        >December</hi> 2, 1845.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p><hi rend="italic">Our relations with the United States</hi>.—When I last
@@ -4093,8 +4105,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1846-02-03"><hi rend="italic">February</hi> 3,
-                                    1846.</date></dateline>
+                                    when="1846-02-03" calendar="gregorian"><hi rend="italic"
+                                        >February</hi> 3, 1846.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>It will be perceived from the remarks of Lord John Russell, and Sir
@@ -4337,12 +4349,12 @@
                         <head>No. 36.</head>
                         <opener>
                             <dateline rendition="#center"><hi rend="italic">Extract from the
-                                    [London] Quarterly Review for</hi>
+                                        [<placeName>London</placeName>] Quarterly Review for</hi>
                                 <date when="1846-03" notBefore="1846-03-01T00:00:00-00:01"
                                     notAfter="1846-03-31T23:59:59-00:01"
-                                    ana="#date_imprecise-inferred-from-date-rules"><hi rend="italic"
-                                        >March,</hi> 1846</date>, <hi rend="italic">Vol. LXVII,
-                                    page</hi> 603.</dateline>
+                                    ana="#date_imprecise-inferred-from-date-rules"
+                                    calendar="gregorian"><hi rend="italic">March,</hi> 1846</date>,
+                                    <hi rend="italic">Vol. LXVII, page</hi> 603.</dateline>
                         </opener>
                         <p>* * * We believe that the proposition for a division by the forty-ninth
                             degree and the Straits of Fuca—which we have hitherto called Mr.
@@ -4368,8 +4380,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of State</hi>, <hi
                                         rend="italic">Washington,</hi></placeName>
-                                <date when="1846-02-26"><hi rend="italic">February</hi> 26,
-                                    1846.</date>
+                                <date when="1846-02-26" calendar="gregorian"><hi rend="italic"
+                                        >February</hi> 26, 1846.</date>
                             </dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * *</p>
@@ -4451,8 +4463,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1846-03-03"><hi rend="italic">March</hi> 3,
-                                1846.</date></dateline>
+                                    when="1846-03-03" calendar="gregorian"><hi rend="italic"
+                                        >March</hi> 3, 1846.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * *</p>
                         <p>I sought and obtained an interview with Lord Aberdeen on the 25th
@@ -4501,8 +4513,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1846-04-03"><hi rend="italic">April</hi> 3,
-                                1846.</date></dateline>
+                                    when="1846-04-03" calendar="gregorian"><hi rend="italic"
+                                        >April</hi> 3, 1846.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">My Dear Sir</hi>: The Oregon question is now as good
                             as settled, provided the Senate, by a good majority, pass their pacific
@@ -4529,8 +4541,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1846-04-17"><hi rend="italic">April</hi> 17,
-                                1846.</date></dateline>
+                                    when="1846-04-17" calendar="gregorian"><hi rend="italic"
+                                        >April</hi> 17, 1846.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * *</p>
                         <p>My dispatch of the 17th of March, after an opportunity had been afforded
@@ -4586,8 +4598,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1846-05-18"><hi rend="italic">May</hi> 18,
-                                1846.</date></dateline>
+                                    when="1846-05-18" calendar="gregorian"><hi rend="italic"
+                                        >May</hi> 18, 1846.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * * *</p>
                         <p>In my last dispatch, dated on the 3d instant, after an interview with
@@ -4706,8 +4718,8 @@
                                 type="to">Mr. Pakenham</persName>.</head>
                         <opener>
                             <dateline rendition="#right">
-                                <date when="1846-05-18"><hi rend="smallcaps">May</hi> 18,
-                                    1846.</date>
+                                <date when="1846-05-18" calendar="gregorian"><hi rend="smallcaps"
+                                        >May</hi> 18, 1846.</date>
                             </dateline>
                         </opener>
                         <p>The boundary (said Lord Aberdeen) having been fixed by the convention of
@@ -4970,8 +4982,8 @@
                                 >Lord Palmerston</persName>.</head>
                         <opener>
                             <dateline rendition="#right">
-                                <date when="1846-07-13"><hi rend="smallcaps">July</hi> 13,
-                                    1846.</date>
+                                <date when="1846-07-13" calendar="gregorian"><hi rend="smallcaps"
+                                        >July</hi> 13, 1846.</date>
                             </dateline>
                         </opener>
                         <p>* * The treaty, as concluded and ratified by the President, appearing to
@@ -5002,7 +5014,7 @@
                                 notBefore="1844-01-01T00:00:00-04:56"
                                 notAfter="1844-12-31T23:59:59-04:56"
                                 ana="#date_undated-inferred-from-document-content"
-                            >1844</date>]</dateline>
+                                calendar="gregorian">1844</date>]</dateline>
                         <p rend="center">
                             <hi rend="italic">Extract from Exploration du territoire de l’Orégon,
                                 etc</hi>., <hi rend="italic">exécutée pendant les années</hi> 1840,
@@ -5032,7 +5044,7 @@
                         <dateline>[<date when="1825" notBefore="1825-01-01T00:00:00-00:01"
                                 notAfter="1825-12-31T23:59:59-00:01"
                                 ana="#date_undated-inferred-from-document-content"
-                            >1825</date>]</dateline>
+                                calendar="gregorian">1825</date>]</dateline>
                         <p rend="center"><hi rend="italic">Paley’s Works, edition of</hi> 1825, <hi
                                 rend="italic">vol</hi>. <hi rend="italic">iv, page</hi> 85.</p>
                         <p>II. In what sense promises are to be interpreted.</p>
@@ -5058,8 +5070,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of
-                                State</hi></placeName>, <date when="1814-03-22"><hi rend="italic"
-                                        >March</hi> 22, 1814.</date></dateline>
+                                State</hi></placeName>, <date when="1814-03-22" calendar="gregorian"
+                                        ><hi rend="italic">March</hi> 22, 1814.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Gentlemen</hi>: Should a treaty be concluded with
                             Great Britain, and a reciprocal restitution of territory be agreed on,
@@ -5084,7 +5096,8 @@
                     </div>
                 </div>
             </div>
-            <div type="compilation" xml:id="comp2">
+            <div type="compilation" xml:id="comp2" frus:doc-dateTime-min="1797-12-31T23:56:00-05:00"
+                frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                 <head>II. Case of the government of Her Britannic Majesty, submitted to the
                     arbitration and award of His Majesty the Emperor of Germany, in accordance with
                     Article XXXIV of the treaty between Great Britain and the United States of
@@ -5222,8 +5235,8 @@
                     <head>Case of the government of Her Britannic Majesty.</head>
                     <dateline>[<date notBefore="1871-05-08T00:00:00-04:56"
                             notAfter="1872-12-02T23:59:59-04:56"
-                            ana="#date_undated-inferred-from-document-content"
-                        >undated</date>]</dateline>
+                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                            >undated</date>]</dateline>
                     <p>His Majesty the Emperor of Germany having consented to accept the office of
                         arbitrator between the Government of the United States of America and the
                         Government of Her Britannic Majesty, under the provisions of Article XXXIV
@@ -6305,7 +6318,9 @@
                         collected in an Appendix, which is annexed thereto.</p>
                     <pb n="81" xml:id="pg_81" facs="0107"/>
                 </div>
-                <div type="chapter" xml:id="appendix1">
+                <div type="chapter" xml:id="appendix1"
+                    frus:doc-dateTime-min="1797-12-31T23:56:00-05:00"
+                    frus:doc-dateTime-max="1871-09-29T23:59:59-05:00">
                     <head>*Appendix.</head>
                     <div type="document" xml:id="d65" n="65" subtype="historical-document"
                         frus:doc-dateTime-min="1871-05-08T00:00:00-05:00"
@@ -6527,7 +6542,7 @@
                         <dateline>[<date when="1978" notBefore="1798-01-01T00:00:00-04:56"
                                 notAfter="1798-12-31T23:59:59-04:56"
                                 ana="#date_undated-inferred-from-document-content"
-                            >1798</date>]</dateline>
+                                calendar="gregorian">1798</date>]</dateline>
                         <p rend="center">
                             <hi rend="italic">A Narrative of the Passage of His Britannic Majesty’s
                                 ships Discovery and Chatham</hi>, <hi rend="italic">under the
@@ -6717,7 +6732,7 @@
                         <dateline>[<date when="1802" notBefore="1802-01-01T00:00:00-00:14"
                                 notAfter="1802-12-31T23:59:59-00:14"
                                 ana="#date_undated-inferred-from-document-content"
-                            >1802</date>]</dateline>
+                                calendar="gregorian">1802</date>]</dateline>
                         <p rend="center">
                             <hi rend="italic">A Narrative of the Voyages made by the Spanish Vessels
                                 Sutil and Mexicana, in the year</hi> 1792, <hi rend="italic">to
@@ -7484,8 +7499,8 @@
                             have caused the said declaration to be hereunto annexed.</p>
                         <closer>
                             <dateline rendition="#left">Dated in <placeName>Victoria</placeName>,
-                                    <date when="1871-09-29">the 29th day of September, A. D.
-                                    1871</date>.</dateline><lb/>
+                                    <date when="1871-09-29" calendar="gregorian">the 29th day of
+                                    September, A. D. 1871</date>.</dateline><lb/>
                             <signed>M. W. TYRWHITT DRAKE, <hi rend="italic">Notary
                                 Public.</hi></signed>
                         </closer>
@@ -8499,10 +8514,11 @@
                                     steamship Cormorant</hi>, <hi rend="smallcaps">in the months of
                                     September and October</hi>, <hi rend="smallcaps"
                                 >1846</hi>.</seg>
-                            <dateline rendition="#center"><date when="1846-09-19"><hi rend="italic"
-                                        >Nineteenth day of September,</hi> 1846</date><hi
-                                    rend="italic">.—At <placeName>Fisgard
-                                Harbor</placeName>.</hi></dateline></opener>
+                            <dateline rendition="#center"><date when="1846-09-19"
+                                    calendar="gregorian"><hi rend="italic">Nineteenth day of
+                                        September,</hi> 1846</date><hi rend="italic">.—At
+                                        <placeName>Fisgard
+                            Harbor</placeName>.</hi></dateline></opener>
                         <table cols="14">
                             <row rows="2">
                                 <cell rows="2">Initials of the officer of the watch.</cell>
@@ -9212,13 +9228,16 @@
                     </div>
                 </div>
             </div>
-            <div type="compilation" xml:id="comp3">
+            <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1791-12-29T00:00:00-05:00"
+                frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                 <head>III. Reply of the United States to the case of the government of Her Britannic
                     Majesty, presented to His Majesty the Emperor of Germany, as arbitrator, under
                     the provisions of the Treaty of Washington, June 12, 1872.</head>
                 <pb n="122" xml:id="pg_122" facs="0148"/>
                 <pb n="123" xml:id="pg_123" facs="0149"/>
-                <div type="chapter" xml:id="chapter2">
+                <div type="chapter" xml:id="chapter2"
+                    frus:doc-dateTime-min="1871-12-11T23:56:00-05:00"
+                    frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                     <head>Reply.</head>
                     <div type="document" xml:id="d71" n="71" subtype="historical-document"
                         frus:doc-dateTime-min="1871-12-11T23:56:00-05:00"
@@ -9227,7 +9246,7 @@
                         <dateline>[<date notBefore="1871-12-12T00:00:00-04:56"
                                 notAfter="1872-12-02T23:59:59-04:56"
                                 ana="#date_undated-inferred-from-document-content"
-                            >undated</date>]</dateline>
+                                calendar="gregorian">undated</date>]</dateline>
                         <p>The United States on the 12th of December last presented their Memorial,
                             on the Canal de Haro as the boundary line of the United States of
                             America, to the Imperial Arbitrator, and to the representative of Her
@@ -10572,7 +10591,9 @@
                         <pb n="147" xml:id="pg_147" facs="0177"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="chapter3">
+                <div type="chapter" xml:id="chapter3"
+                    frus:doc-dateTime-min="1791-12-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-04-16T23:59:59-05:00">
                     <note rend="inline" type="source">No. 51.</note>
                     <head>Appendix to the reply.</head>
                     <p rend="center">Correspondence between Mr. Bancroft, Mr. Buchanan, and Lord
@@ -10585,8 +10606,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">London</hi></placeName>, <date
-                                    when="1846-11-03"><hi rend="italic">November</hi> 3,
-                                    1846.</date></dateline>
+                                    when="1846-11-03" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 3, 1846.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>While in the Navy Department I caused a traced copy of Wilkes’s chart of
@@ -10616,8 +10637,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of State</hi>, <hi
                                         rend="italic">Washington</hi></placeName>, <date
-                                    when="1846-12-28"><hi rend="italic">December</hi> 28,
-                                    1846.</date></dateline>
+                                    when="1846-12-28" calendar="gregorian"><hi rend="italic"
+                                        >December</hi> 28, 1846.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have obtained from the Navy Department,
                             and now transmit to you, in accordance with the request contained in
@@ -10661,8 +10682,8 @@
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">Legation of the United
                                             States</hi>, <hi rend="italic">London</hi></placeName>,
-                                        <date when="1847-03-29"><hi rend="italic">March</hi> 29,
-                                        1847.</date></dateline>
+                                        <date when="1847-03-29" calendar="gregorian"><hi
+                                            rend="italic">March</hi> 29, 1847.</date></dateline>
                             </opener>
                             <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                             <p>While on this point I ought to add that my attention has again been
@@ -10704,8 +10725,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States Legation</hi>, <hi
                                         rend="italic">London</hi></placeName>, <date
-                                    when="1848-08-04"><hi rend="italic">August</hi> 4,
-                                1848.</date></dateline>
+                                    when="1848-08-04" calendar="gregorian"><hi rend="italic"
+                                        >August</hi> 4, 1848.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>The Hudson’s Bay Company have been trying to get a grant of Vancouver’s
@@ -10748,8 +10769,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>90 <hi rend="smallcaps">Eaton Square</hi></placeName>,
-                                    <date when="1848-07-31"><hi rend="italic">July</hi> 31,
-                                    1848.</date></dateline>
+                                    <date when="1848-07-31" calendar="gregorian"><hi rend="italic"
+                                        >July</hi> 31, 1848.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">My Dear Lord</hi>: As your lordship desired, I send
                             for your inspection the traced copy made for me at the Navy Department
@@ -10782,8 +10803,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States Legation</hi>, <hi
                                         rend="italic">London</hi></placeName>, <date
-                                    when="1848-10-19"><hi rend="italic">October</hi> 19,
-                                    1848.</date></dateline>
+                                    when="1848-10-19" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 19, 1848.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I send you a man of Vancouver’s Island,
                             recently published by James Wyld, geographer to the Queen. It purports
@@ -10815,8 +10836,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>108 <hi rend="smallcaps">Eaton Square</hi></placeName>,
-                                    <date when="1848-11-03"><hi rend="italic">November</hi> 3,
-                                    1848.</date></dateline>
+                                    <date when="1848-11-03" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 3, 1848.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">My Lord</hi>: I did not forget your lordship’s
                             desire to see the United States surveys of the waters of Puget’s Sound
@@ -10849,8 +10870,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Foreign Office</hi></placeName>,
-                                    <date when="1848-11-07"><hi rend="italic">November</hi> 7,
-                                    1848.</date></dateline>
+                                    <date when="1848-11-07" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 7, 1848.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I beg leave to return you my best thanks
                             for the surveys of Puget’s Sound and of the Gulf of Georgia, which
@@ -10882,8 +10903,8 @@
                             <dateline rendition="#right">
                                 <placeName>
                                     <hi rend="smallcaps">New York</hi></placeName>, <date
-                                    when="1858-06-15"><hi rend="italic">June</hi> 15,
-                                1858.</date></dateline>
+                                    when="1858-06-15" calendar="gregorian"><hi rend="italic"
+                                        >June</hi> 15, 1858.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: Your letter of May 27 has but just reached
                             me, in consequence of my absence from home on a long journey.<seg
@@ -10942,8 +10963,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington City</hi></placeName>,
-                                    <date when="1872-02-16"><hi rend="italic">February</hi> 16,
-                                    1872.</date></dateline>
+                                    <date when="1872-02-16" calendar="gregorian"><hi rend="italic"
+                                        >February</hi> 16, 1872.</date></dateline>
                         </opener>
                         <p>In answer to the memorandum on the Haro question, I have to state that I
                             have a full knowledge of the Islands and waters lying between the
@@ -11015,8 +11036,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Bureau of Ordnance</hi>, <hi
                                         rend="smallcaps">Navy Department</hi></placeName>, <date
-                                    when="1872-02-13"><hi rend="italic">February</hi> 13,
-                                    1872.</date></dateline>
+                                    when="1872-02-13" calendar="gregorian"><hi rend="italic"
+                                        >February</hi> 13, 1872.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>I was a Lieutenant on board of the sloop-of-war “Vincennes,” attached to
@@ -11058,8 +11079,8 @@
                             <dateline rendition="#right">
                                 <placeName>77 <hi rend="smallcaps">Wall Street</hi>, <hi
                                         rend="smallcaps">New Haven</hi></placeName>, <date
-                                    when="1872-02-20"><hi rend="italic">February</hi> 20,
-                                    1872.</date></dateline>
+                                    when="1872-02-20" calendar="gregorian"><hi rend="italic"
+                                        >February</hi> 20, 1872.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>The superior depth and width of the Canal de Haro are fully exhibited not
@@ -11146,8 +11167,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                                    when="1872-02-03"><hi rend="italic">February</hi> 3,
-                                    1872.</date></dateline>
+                                    when="1872-02-03" calendar="gregorian"><hi rend="italic"
+                                        >February</hi> 3, 1872.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>A map should be examined showing the relative position of the Hudson Bay
@@ -11197,8 +11218,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                                    when="1872-01-19"><hi rend="italic">January</hi> 19,
-                                    1872.</date></dateline>
+                                    when="1872-01-19" calendar="gregorian"><hi rend="italic"
+                                        >January</hi> 19, 1872.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>I can say from my own knowledge that after the discovery of gold on
@@ -11221,8 +11242,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of Justice</hi>, <hi
                                         rend="italic">Washington</hi></placeName>, <date
-                                    when="1872-04-06"><hi rend="italic">April</hi> 6,
-                                1872.</date></dateline>
+                                    when="1872-04-06" calendar="gregorian"><hi rend="italic"
+                                        >April</hi> 6, 1872.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to inclose for your
                             consideration and use * * a statement prepared and addressed to me by
@@ -11246,8 +11267,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington</hi>, D. C.</placeName>,
-                                    <date when="1872-04-02"><hi rend="italic">April</hi> 2,
-                                    1872.</date></dateline>
+                                    <date when="1872-04-02" calendar="gregorian"><hi rend="italic"
+                                        >April</hi> 2, 1872.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: In compliance with your request that I
                             would furnish you with any information which I may possess with regard
@@ -11451,8 +11472,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Headquarters Department of the
                                         Columbia</hi>, <hi rend="italic">Portland,
-                                    Oregon</hi></placeName>, <date when="1872-04-02"><hi
-                                        rend="italic">April</hi> 2, 1872.</date></dateline>
+                                    Oregon</hi></placeName>, <date when="1872-04-02"
+                                    calendar="gregorian"><hi rend="italic">April</hi> 2,
+                                    1872.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>I am informed that the vessels of the Hudson Bay Company, on their
@@ -12300,8 +12322,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Astoria</hi></placeName>, <date
-                                    when="1872-04-08"><hi rend="italic">April</hi> 8,
-                                1872.</date></dateline>
+                                    when="1872-04-08" calendar="gregorian"><hi rend="italic"
+                                        >April</hi> 8, 1872.</date></dateline>
                         </opener>
                         <p>The undersigned was in Fort Vancouver, on the Columbia River, Oregon, in
                             the month of January, 1837. During my stay at that port of the Hudson’s
@@ -12809,7 +12831,7 @@
                         <dateline>[<date when="1798" notBefore="1798-01-01T00:00:00-04:56"
                                 notAfter="1798-12-31T23:59:59-04:56"
                                 ana="#date_undated-inferred-from-outside-research"
-                            >undated</date>]</dateline>
+                                calendar="gregorian">undated</date>]</dateline>
                         <p rend="italic">
                             <hi rend="italic">Extract from the Instructions to Commander George
                                 Vancouver</hi>, <hi rend="italic">by the Commissioners for executing
@@ -12849,7 +12871,7 @@
                         <dateline>[<date when="1798" notBefore="1798-01-01T00:00:00-04:56"
                                 notAfter="1798-12-31T23:59:59-04:56"
                                 ana="#date_undated-inferred-from-outside-research"
-                            >undated</date>]</dateline>
+                                calendar="gregorian">undated</date>]</dateline>
                         <p rend="italic">
                             <hi rend="italic">Extract of Voyage of Captain Vancouver.</hi>
                         </p>
@@ -12898,7 +12920,7 @@
                         <dateline>[<date when="1862" notBefore="1862-01-01T00:00:00-04:56"
                                 notAfter="1862-12-31T23:59:59-04:56"
                                 ana="#date_undated-inferred-from-document-content"
-                            >1862</date>]</dateline>
+                                calendar="gregorian">1862</date>]</dateline>
                         <p rend="italic"><hi rend="italic">Four Years in British Columbia and
                                 Vancouver Island. By Commander R. C. Mayne</hi>, <hi rend="italic"
                                 >R.</hi>
@@ -12922,7 +12944,7 @@
                         <dateline>[<date when="1860" notBefore="1860-01-01T00:00:00-04:56"
                                 notAfter="1860-12-31T23:59:59-04:56"
                                 ana="#date_undated-inferred-from-document-content"
-                            >1860</date>]</dateline>
+                                calendar="gregorian">1860</date>]</dateline>
                         <p rend="italic">
                             <hi rend="italic">Facts and Figures relating to Vancouver Island and
                                 British Columbia. By J. Despard Pemberton</hi>, <hi rend="italic"
@@ -12962,8 +12984,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Hudson’s Bay House</hi></placeName>,
-                                    <date when="1838-02-07"><hi rend="italic">February</hi> 7,
-                                    1838.</date></dateline>
+                                    <date when="1838-02-07" calendar="gregorian"><hi rend="italic"
+                                        >February</hi> 7, 1838.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">My Lords</hi>: For many years previous to the grant
                             of exclusive trade to the Hudson’s Bay Company, the trade of that coast
@@ -13085,8 +13107,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                                    when="1848-01-13"><hi rend="italic">January</hi> 13,
-                                    1848.</date></dateline>
+                                    when="1848-01-13" calendar="gregorian"><hi rend="italic"
+                                        >January</hi> 13, 1848.</date></dateline>
                         </opener>
                         <p>But in regard to this portion of the boundary line a preliminary question
                             arises, which turns upon the interpretation of the treaty, rather than
@@ -13137,8 +13159,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Foreign Office</hi></placeName>,
-                                    <date when="1856-12-20"><hi rend="italic">December</hi> 20,
-                                    1856.</date></dateline>
+                                    <date when="1856-12-20" calendar="gregorian"><hi rend="italic"
+                                        >December</hi> 20, 1856.</date></dateline>
                         </opener>
                         <p>If, however, the commissioner of the United States will not adopt the
                             line along Rosario Strait, and <hi rend="italic">if,</hi> on a detailed
@@ -13168,8 +13190,8 @@
                                 <placeName><hi rend="smallcaps">Her Britannic Majesty’s Ship
                                         Satellite</hi>, <hi rend="italic">Simiahmoo Bay, Gulf of
                                         Georgia,</hi></placeName>
-                                <date when="1857-10-28"><hi rend="italic">October</hi> 28,
-                                    1857.</date>
+                                <date when="1857-10-28" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 28, 1857.</date>
                             </dateline>
                         </opener>
                         <p>4. By a careful consideration of the wording of the treaty, it would seem
@@ -13235,8 +13257,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Boston</hi></placeName>, <date
-                                    when="1858-05-29"><hi rend="italic">May</hi> 29,
-                                1858.</date></dateline>
+                                    when="1858-05-29" calendar="gregorian"><hi rend="italic"
+                                        >May</hi> 29, 1858.</date></dateline>
                         </opener>
                         <p>As the radical principle of the boundary is the forty-ninth degree of
                             latitude, and the only reason for departing from it was to give the
@@ -13265,8 +13287,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington City</hi></placeName>,
-                                    <date when="1858-02-10"><hi rend="italic">February</hi> 10,
-                                    1858.</date></dateline>
+                                    <date when="1858-02-10" calendar="gregorian"><hi rend="italic"
+                                        >February</hi> 10, 1858.</date></dateline>
                         </opener>
                         <p>Captain Prevost finally proposed such a compromise as would throw within
                             the territory of the United States all the islands but *San Juan, the
@@ -13370,8 +13392,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Foreign Office</hi></placeName>,
-                                    <date when="1859-08-24"><hi rend="italic">August</hi> 24,
-                                    1859.</date></dateline>
+                                    <date when="1859-08-24" calendar="gregorian"><hi rend="italic"
+                                        >August</hi> 24, 1859.</date></dateline>
                         </opener>
                         <p>The Earl of Aberdeen, to whom I have referred, informs me that he
                             distinctly remembers the general tenor of his conversation with Mr.
@@ -13491,8 +13513,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of State</hi>, <hi
                                         rend="italic">Washington</hi></placeName>, <date
-                                    when="1859-10-20"><hi rend="italic">October</hi> 20,
-                                    1859.</date></dateline>
+                                    when="1859-10-20" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 20, 1859.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>The words of the treaty are “through the middle of said channel and of
@@ -13627,8 +13649,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Foreign Office</hi></placeName>,
-                                    <date when="1859-12-16"><hi rend="italic">December</hi> 16,
-                                    1859.</date></dateline>
+                                    <date when="1859-12-16" calendar="gregorian"><hi rend="italic"
+                                        >December</hi> 16, 1859.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">My Lord</hi>: In pointing out, therefore, to your
                             Lordship that in what-ever manner the question was ultimately settled,
@@ -13857,73 +13879,74 @@
                     </div>
                 </div>
             </div>
-            <div type="compilation" xml:id="comp4">
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1845-12-31T23:56:00-05:00"
+                frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                 <head>IV. Northwest American water boundary. Second and definitive statement on
                     behalf of the government of Her Britannic Majesty, submitted to His Majesty the
                     Emperor of Germany, under the Treaty of Washington of May 8, 1871.</head>
                 <pb n="192" xml:id="pg_192" facs="0222"/>
                 <pb n="193" xml:id="pg_193" facs="0223"/>
-                <div type="chapter" xml:id="contents2">
+                <div type="chapter" subtype="table-of-contents" xml:id="contents2">
                     <head>Contents.</head>
-                    <div type="toc" xml:id="d123" n="123" subtype="table-of-contents">
-                        <head>Contents.</head>
-                        <table cols="3">
-                            <row>
-                                <cell/>
-                                <cell>British edition Page.</cell>
-                                <cell>American edition Page.</cell>
-                            </row>
-                            <row>
-                                <cell>Second and Definitive Statement on behalf of the Government of
-                                    Her Britannic Majesty</cell>
-                                <cell>1</cell>
-                                <cell>
-                                    <ref target="#pg_195">195</ref>
-                                </cell>
-                            </row>
-                            <row>
-                                <cell>Historical Note, (1818 to 1846)</cell>
-                                <cell>i</cell>
-                                <cell>
-                                    <ref target="#pg_217">217</ref>
-                                </cell>
-                            </row>
-                            <row>
-                                <cell>Chronological List of Secretaries of State, &amp;c</cell>
-                                <cell>xxiii</cell>
-                                <cell>
-                                    <ref target="#pg_238">238</ref>
-                                </cell>
-                            </row>
-                            <row>
-                                <cell>Memorandum relative to Hudson’s Bay Company</cell>
-                                <cell>xxvii</cell>
-                                <cell>
-                                    <ref target="#pg_241">241</ref>
-                                </cell>
-                            </row>
-                            <row>
-                                <cell>Appendix</cell>
-                                <cell>xxxiii</cell>
-                                <cell>
-                                    <ref target="#pg_244">244</ref>
-                                </cell>
-                            </row>
-                        </table>
-                        <p>No. 1.—Extract showing views of Earl of Aberdeen and Sir Richard
-                            Pakenham.</p>
-                        <p>No. 2.—Correspondence between Mr. Bancroft and Mr. Buchanan.</p>
-                        <p>No. 3.—Letters of Mr. Crampton, showing Mr. Buchanan’s opinions.</p>
-                        <p>No. 4.—Conversation and correspondence between Mr. Bancroft and Viscount
-                            Palmerston.</p>
-                        <p>No. 5.—Proposed Amendment of Article II of Treaty.</p>
-                        <pb n="194" xml:id="pg_194" facs="0224"/>
-                        <pb n="195" xml:id="pg_195" facs="0225"/>
-                    </div>
+                    <table cols="3">
+                        <row>
+                            <cell/>
+                            <cell>British edition Page.</cell>
+                            <cell>American edition Page.</cell>
+                        </row>
+                        <row>
+                            <cell>Second and Definitive Statement on behalf of the Government of Her
+                                Britannic Majesty</cell>
+                            <cell>1</cell>
+                            <cell>
+                                <ref target="#pg_195">195</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>Historical Note, (1818 to 1846)</cell>
+                            <cell>i</cell>
+                            <cell>
+                                <ref target="#pg_217">217</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>Chronological List of Secretaries of State, &amp;c</cell>
+                            <cell>xxiii</cell>
+                            <cell>
+                                <ref target="#pg_238">238</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>Memorandum relative to Hudson’s Bay Company</cell>
+                            <cell>xxvii</cell>
+                            <cell>
+                                <ref target="#pg_241">241</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>Appendix</cell>
+                            <cell>xxxiii</cell>
+                            <cell>
+                                <ref target="#pg_244">244</ref>
+                            </cell>
+                        </row>
+                    </table>
+                    <p>No. 1.—Extract showing views of Earl of Aberdeen and Sir Richard
+                        Pakenham.</p>
+                    <p>No. 2.—Correspondence between Mr. Bancroft and Mr. Buchanan.</p>
+                    <p>No. 3.—Letters of Mr. Crampton, showing Mr. Buchanan’s opinions.</p>
+                    <p>No. 4.—Conversation and correspondence between Mr. Bancroft and Viscount
+                        Palmerston.</p>
+                    <p>No. 5.—Proposed Amendment of Article II of Treaty.</p>
+                    <pb n="194" xml:id="pg_194" facs="0224"/>
+                    <pb n="195" xml:id="pg_195" facs="0225"/>
+
                 </div>
-                <div type="chapter" xml:id="chapter5">
+                <div type="chapter" xml:id="chapter5"
+                    frus:doc-dateTime-min="1871-11-30T23:56:00-05:00"
+                    frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                     <head>Northwest American water boundary. </head>
-                    <div type="document" xml:id="d124" n="124" subtype="historical-document"
+                    <div type="document" xml:id="d123" n="123" subtype="historical-document"
                         frus:doc-dateTime-min="1871-11-30T23:56:00-05:00"
                         frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                         <head>Second and definitive statement on behalf of the government of Her
@@ -13931,7 +13954,7 @@
                         <dateline>[<date notBefore="1871-12-01T00:00:00-04:56"
                                 notAfter="1872-12-02T23:59:59-04:56"
                                 ana="#date_undated-inferred-from-document-content"
-                            >undated</date>]</dateline>
+                                calendar="gregorian">undated</date>]</dateline>
                         <p>1. The Government of Her Britannic Majesty, in pursuance of Article XXXVI
                             of the Treaty of Washington of 1871, have drawn up and now lay before
                             His Majesty the Emperor of Germany, as Arbitrator, this their second and
@@ -13975,7 +13998,7 @@
                             Majesty’s Minister Plenipotentiary, and Mr. Buchanan, the <pb n="196"
                                 xml:id="pg_196" facs="0226"/>United States Secretary of State.<hi
                                 rend="superscript">1</hi>
-                            <note n="1" xml:id="d124fn1"> For the convenience of the Arbitrator,
+                            <note n="1" xml:id="d123fn1"> For the convenience of the Arbitrator,
                                 there are appended to the Historical Note, (1) a Chronological List,
                                 showing the names and dates of appointment of the various Principal
                                 Secretaries of State for Foreign Affairs in Great Britain and
@@ -14000,7 +14023,7 @@
                             proposal which Her Majesty’s Government contemplated making to the
                             United States, and even showed him the project of the Treaty before it
                             was sent to Mr. Pakenham.<hi rend="superscript">2</hi>
-                            <note n="2" xml:id="d124fn2"> Historical Note, p. xx.</note></p>
+                            <note n="2" xml:id="d123fn2"> Historical Note, p. xx.</note></p>
                         <p rend="center">I.</p>
                         <p>5. Mr. Bancroft’s assumption that the United States were clearly entitled
                             to the whole Oregon district up to the forty-ninth parallel is not
@@ -14017,7 +14040,7 @@
                             put forward an assumption like this of Mr. Bancroft, Lord John Russell,
                             then Her Majesty’s Principal Secretary of State for Foreign Affairs,
                                 said:<hi rend="superscript">3</hi>
-                            <note n="3" xml:id="d124fn3"> Lord John Russell to Lord Lyons, December
+                            <note n="3" xml:id="d123fn3"> Lord John Russell to Lord Lyons, December
                                 16, 1859; read, and copy given, to United States Secretary of
                                 State.</note></p>
                         <p>Undoubtedly, the title by which Great Britain now holds British Columbia
@@ -14054,7 +14077,7 @@
                             clear and admitted right. It is the case of one concession set off
                             against another; of a give-and-take arrangement.<hi rend="superscript"
                                 >1</hi>
-                            <note n="4" xml:id="d124fn4"> Historical Note, p. viii.</note></p>
+                            <note n="4" xml:id="d123fn4"> Historical Note, p. viii.</note></p>
                         <p>9. The preamble of the Treaty is express on this point. The two Powers
                             (it says:)</p>
                         <p>Deeming it desirable for the future welfare of both countries that the
@@ -14125,7 +14148,7 @@
                         <p>Leaving the <hi rend="italic">whole of Vancouver’s Island</hi>, <hi
                                 rend="italic">with its ports and harbors</hi>, <hi rend="italic">in
                                 the possession of Great Britain.</hi><hi rend="superscript">1</hi>
-                            <note n="5" xml:id="d124fn5"> In this passage the words in italics are,
+                            <note n="5" xml:id="d123fn5"> In this passage the words in italics are,
                                 in Mr. Bancroft’s Memorial, printed with widened spaces between the
                                 letters, the mode of printing used in German to show emphasis,
                                 corresponding to the use of italics in the printing of English. The
@@ -14184,7 +14207,7 @@
                             Senate were secret, and the injunction of secrecy was not removed until
                             after the date of the exchange of ratifications in London.<hi
                                 rend="superscript">1</hi>
-                            <note n="6" xml:id="d124fn6"> Ratifications exchanged July 17.
+                            <note n="6" xml:id="d123fn6"> Ratifications exchanged July 17.
                                 Resolution of Senate removing injunction of secrecy, August 6.
                                 Earliest publication of Mr. Benton’s speech known to Her Majesty’s
                                 Government, August 29, (in Niles’s National Register, a weekly
@@ -14194,7 +14217,7 @@
                             speech in Appendix No. 46 to the Memorial) gives no information as to
                             the name of any speaker, or the particulars of any speech, in the
                             Senate. It simply says:<hi rend="superscript">2</hi>
-                            <note n="7" xml:id="d124fn7"> Historical note, p. xix.</note></p>
+                            <note n="7" xml:id="d123fn7"> Historical note, p. xix.</note></p>
                         <p>After a few hours’ deliberation on each of the three days, Wednesday,
                             Thursday, and Friday, the Senate, by a majority of 38 votes to 12,
                             adopted yesterday evening a resolution advising the President to accept
@@ -14268,7 +14291,7 @@
                             This geographical error (which is peculiar in this controversy to Mr.
                             MacLane) has been accounted for thus by Mr. Archibald Campbell:<hi
                                 rend="superscript">1</hi>
-                            <note n="8" xml:id="d124fn8"> Mr. Archibald Campbell was Commissioner on
+                            <note n="8" xml:id="d123fn8"> Mr. Archibald Campbell was Commissioner on
                                 behalf of the United States, when Commissioners were appointed (as
                                 mentioned in the preamble of Article XXXIV of the Treaty of
                                 Washington of 1871) on behalf of the two Governments in 1856, to
@@ -14300,7 +14323,7 @@
                             MacLane did not derive from Lord Aberdeen his mention of Birch Bay, in
                             just the same degree is it probable that he did not derive from Lord
                             Aberdeen his mention of the Canal de Haro.<hi rend="superscript">1</hi>
-                            <note n="9" xml:id="d124fn9"> There is nothing in the explanation here
+                            <note n="9" xml:id="d123fn9"> There is nothing in the explanation here
                                 given of Mr. MacLane’s words inconsistent with the character of him
                                 drawn by Mr. Bancroft, (page 18:) “Mr. MacLane was a calm and
                                 experienced statesman, trained in business, exact in his use of
@@ -14323,18 +14346,18 @@
                             been made during the discussion of the Canal de Haro, or, indeed, any
                             other channel than those described in the Treaty itself.<hi
                                 rend="superscript">2</hi>
-                            <note n="10" xml:id="d124fn10"> Lord John Russell to Lord Lyons, 24th
+                            <note n="10" xml:id="d123fn10"> Lord John Russell to Lord Lyons, 24th
                                 August; 1859, read, and copy given, to United States Secretary of
                                 State. Extract, Appendix No. 1.</note></p>
                         <p>(v.) Mr. MacLane was not negotiating with Lord Aberdeen. His connection
                             with the question was (as he himself says) “in a great degree
                                 informal.”<hi rend="superscript">3</hi>
-                            <note n="11" xml:id="d124fn11"> Appendix No. 32 to Mr. Bancroft’s
+                            <note n="11" xml:id="d123fn11"> Appendix No. 32 to Mr. Bancroft’s
                                 Memorial.</note> The negotiations were being carried on at
                             Washington by Mr. Pakenham (acting immediately under Lord Aberdeen’s
                             instructions) on the one hand, and Mr. Buchanan on the other hand.<hi
                                 rend="superscript">4</hi>
-                            <note n="12" xml:id="d124fn12"> Mr. Bancroft correctly says (page 14)
+                            <note n="12" xml:id="d123fn12"> Mr. Bancroft correctly says (page 14)
                                 with reference to the time just before the Treatv: “Meantime the
                                 negotiation on the Oregon question had been transferred to the new
                                 British Minister at Washington.” And again, (page 16:) “Lord
@@ -14351,11 +14374,11 @@
                                 n="202" xml:id="pg_202" facs="0232"/>Government disapproved of it,
                             and (it would appear) tried to induce his Government to reject it.<hi
                                 rend="superscript">1</hi>
-                            <note n="13" xml:id="d124fn13"> The character of the letter in this
+                            <note n="13" xml:id="d123fn13"> The character of the letter in this
                                 respect is brought out by Mr. Pakenham’s comments in his dispatch of
                                 the 29th July, 1846, Historical Note, p. xx.</note> He says, (among
                             other things:)<hi rend="superscript">2</hi>
-                            <note n="14" xml:id="d124fn14"> Historical Note, p. xiv.</note></p>
+                            <note n="14" xml:id="d123fn14"> Historical Note, p. xiv.</note></p>
                         <p>It is scarcely necessary for me to state that the proposition as now
                             submitted has not received my countenance. Although it has been no easy
                             task, under all the circumstances, to lead to a re-opening of the
@@ -14478,11 +14501,11 @@
                                 Government. The presumption to be drawn from Lord Aberdeen’s
                                 dispatch of 29th June, 1846, to Mr. Pakenham, is to the contrary.<hi
                                     rend="superscript">1</hi>
-                                <note n="15" xml:id="d124fn15"> Historical Note, p. xx.</note> Mr.
+                                <note n="15" xml:id="d123fn15"> Historical Note, p. xx.</note> Mr.
                                 MacLane’s letter was not published, even in the United States, until
                                 after the exchange of ratifications in London.<hi rend="superscript"
                                     >1</hi>
-                                <note n="16" xml:id="d124fn16"> Historical Note, p. xx.</note> It
+                                <note n="16" xml:id="d123fn16"> Historical Note, p. xx.</note> It
                                 could not, therefore, have reached Lord. Aberdeen’s knowledge before
                                 the transaction was closed.</p>
                             <p>(x.) Nor is there anything to affect Her Majesty’s Government through
@@ -14491,11 +14514,11 @@
                                 evident from Mr. Pakenham’s dispatch of the 29th July, 1846, that
                                 the letter was unknown to him till its unauthorized publication, as
                                 mentioned in that dispatch.<hi rend="superscript">1</hi>
-                                <note n="17" xml:id="d124fn17"> Historical Note, p. xx.</note> Nor
+                                <note n="17" xml:id="d123fn17"> Historical Note, p. xx.</note> Nor
                                 did Mr. Buchanan in any <pb n="204" xml:id="pg_204" facs="0234"
                                 />manner inform Mr. Pakenham of Mr. MacLane’s view. In a
                                     Memorandum,<hi rend="superscript">1</hi>
-                                <note n="18" xml:id="d124fn18"> Inclosed in Lord John Russell’s
+                                <note n="18" xml:id="d123fn18"> Inclosed in Lord John Russell’s
                                     dispatch to Lord Lyons, 24th August, 1859; read, and copy given,
                                     to United States Secretary of State. Appendix No. 1.</note>
                                 written in 1858, Sir Richard (formerly Mr.) Pakenham states that Mr.
@@ -14508,7 +14531,7 @@
                                 as the boundary channel, Mr. Pakenham could only have answered as he
                                 did on the question of the effect of Article II, namely, the Article
                                 speaks for itself.<hi rend="superscript">2</hi>
-                                <note n="19" xml:id="d124fn19"> Historical Note, p. xx.</note> He
+                                <note n="19" xml:id="d123fn19"> Historical Note, p. xx.</note> He
                                 had no power to modify the project of Treaty in substance, and no
                                 power to bind his Government by assenting to or acquiescing in an
                                 interpretation which would have been equivalent to a serious
@@ -14544,7 +14567,7 @@
                                 United States, than is Mr. MacLane’s letter.</p>
                             <p>(i.) It seems probable that Mr. Benton founded his exposition of the
                                 draught Treaty on Mr. MacLane’s letter,<hi rend="superscript">3</hi>
-                                <note n="20" xml:id="d124fn20"> This was Sir Richard Pakenham’s
+                                <note n="20" xml:id="d123fn20"> This was Sir Richard Pakenham’s
                                     view, as expressed in his Memorandum, Appendix No. 1.</note>
                                 extracts from which had been communicated by the President of the
                                 United States to the Senate. If so, Mr. Benton’s interpretation is
@@ -14554,7 +14577,7 @@
                                 would appear Mr. MacLane’s statement was made, namely, a knowledge
                                 (whether complete or accurate, or not) of the local conditions.<hi
                                     rend="superscript">4</hi>
-                                <note n="21" xml:id="d124fn21"> Mr. Cass describes Mr. Benton as
+                                <note n="21" xml:id="d123fn21"> Mr. Cass describes Mr. Benton as
                                     being “better acquainted, perhaps, than any other member [of the
                                     Senate] with the geography of the region in dispute.”—To Mr.
                                     Dallas, 20th October, 1859; read, and copy given, to Her
@@ -14576,7 +14599,7 @@
                                 publication of them was permitted or made until after the time when
                                 the ratifications had been exchanged in London.<hi
                                     rend="superscript">1</hi>
-                                <note n="22" xml:id="d124fn22"> Page 199, above, and note 1
+                                <note n="22" xml:id="d123fn22"> Page 199, above, and note 1
                                     there.</note></p>
                             <p>23. Mr. Bancroft adduces no further evidence whatever on this point,
                                 yet he goes so far as to say, (page 20:)</p>
@@ -14595,7 +14618,7 @@
                                 between the two Governments, a statement respecting Mr. Buchanan’s
                                 opinion has been made on behalf of the United States. It has been
                                     said<hi rend="superscript">2</hi>
-                                <note n="23" xml:id="d124fn23"> Mr. Cass to Mr. Dallas, 20th
+                                <note n="23" xml:id="d123fn23"> Mr. Cass to Mr. Dallas, 20th
                                     October, 1859; read, and copy given, to Her Majesty’s e cretary
                                     of State for Foreign Affairs.</note> that, in a letter to Mr.
                                 MacLane, dated 6th June, 1846, the day on which the draught Treaty
@@ -14618,7 +14641,7 @@
                                 paragraph containing the description of the line of demarkation to
                                 be proposed, and had himself read over the extract again in Mr.
                                 Pakenham’s presence;<hi rend="superscript">3</hi>
-                                <note n="24" xml:id="d124fn24"> Historical Note, p. xvii.</note>
+                                <note n="24" xml:id="d123fn24"> Historical Note, p. xvii.</note>
                                 which two readings must have shown Mr. Buchanan the erroneousness of
                                 any expectation that the Canal de Haro would be specified.</p>
                             <p>24. The examination has now been completed of everything that can
@@ -14638,12 +14661,12 @@
                                 Government will advert to two other pieces of evidence which have
                                 been in the course of the controversy adduced as “personal testimony
                                 contemporaneous with the Treaty,”<hi rend="superscript">1</hi>
-                                <note n="25" xml:id="d124fn25"> Mr. Cass to Mr. Dallas, 20th
+                                <note n="25" xml:id="d123fn25"> Mr. Cass to Mr. Dallas, 20th
                                     October, 1859; read, and copy given, to Her Majesty’s Secretary
                                     of State for Foreign Affairs.</note> and which it is possible
                                 may be brought up again as such in the present discussion.</p>
                             <p>(1.) It is stated <hi rend="superscript">1</hi>
-                                <note n="26" xml:id="d124fn26"> Mr. Cass to Mr. Dallas, 20th
+                                <note n="26" xml:id="d123fn26"> Mr. Cass to Mr. Dallas, 20th
                                     October, 1859; read, and copy given, to Her Majesty’s Secretary
                                     of State for Foreign Affairs.</note> that, on 28th December,
                                 1846, Mr. Bancroft (who was then the United States Minister at
@@ -14659,7 +14682,7 @@
                                 Buchanan, as far as the same is known to Her Majesty’s Government,
                                 is set forth in the Appendix to this Statement.<hi
                                     rend="superscript">2</hi>
-                                <note n="27" xml:id="d124fn27"> Appendix No. 2.</note> Her Majesty’s
+                                <note n="27" xml:id="d123fn27"> Appendix No. 2.</note> Her Majesty’s
                                 Government submit to the Arbitrator that if this correspondence is
                                 proposed to be used on the present occasion as evidence on behalf of
                                 the United States, it ought to be rejected. First, it was from its
@@ -14677,11 +14700,11 @@
                                 views in 1848, made by Mr. Crampton, Her Majesty’s Minister at
                                 Washington, and the subsequent communication thereon made to the
                                 United States Government.<hi rend="superscript">3</hi>
-                                <note n="28" xml:id="d124fn28"> Appendix No. 3.</note></p>
+                                <note n="28" xml:id="d123fn28"> Appendix No. 3.</note></p>
                             <p>(2.) The other piece of evidence referred to by Her Majesty’s
                                 Government as having been adduced on behalf of the United States is
                                 the following:<hi rend="superscript">4</hi>
-                                <note n="29" xml:id="d124fn29"> Mr. Cass to Mr. Dallas, 20th
+                                <note n="29" xml:id="d123fn29"> Mr. Cass to Mr. Dallas, 20th
                                     October, 1859; read, and copy given, to Her Majesty’s Secretary
                                     for Foreign Affairs.</note></p>
                             <p>Mr. Bancroft, who was a member of President Polk’s Cabinet when the
@@ -14693,7 +14716,7 @@
                             <p>The communications between Mr. Bancroft and Viscount Palmerston here
                                 referred to were in July and November, 1848. The letters are set
                                 forth in the Appendix,<hi rend="superscript">5</hi>
-                                <note n="30" xml:id="d124fn30"> Appendix No. 4.</note> together
+                                <note n="30" xml:id="d123fn30"> Appendix No. 4.</note> together
                                 *with the published <pb n="207" xml:id="pg_207" facs="0237"/>extract
                                 of a letter from Mr. Bancroft to Mr. Buchanan, describing a
                                 conversation which he (Mr. Bancroft) had had with Lord Palmerston.
@@ -14705,7 +14728,7 @@
                                 Lord Palmerston had then made to Mr. Bancroft admissions now binding
                                 on Her Majesty’s Government. But the documents afford no ground for
                                 such a suggestion.<hi rend="superscript">1</hi>
-                                <note n="31" xml:id="d124fn31"> “If I notice General Cass’s allusion
+                                <note n="31" xml:id="d123fn31"> “If I notice General Cass’s allusion
                                     to the letters which he says Mr. Bancroft repeatedly wrote to
                                     Lord Palmerston in 1848, it is only for the purpose of placing
                                     on record what, no doubt, Mr. Bancroft duly reported to his
@@ -14737,7 +14760,7 @@
                                 to he appointed, by assisting them in determining where the line of
                                 boundary described by the Treaty ought to run.<hi rend="superscript"
                                     >2</hi>
-                                <note n="32" xml:id="d124fn32"> These observations may not be
+                                <note n="32" xml:id="d123fn32"> These observations may not be
                                     thought too minute when it is stated that Lord Palmerston’s
                                     letter has been treated by Mr. Archibald Campbell as a virtual
                                     admission of the Canal de Haro as the Treaty channel.</note></p>
@@ -14780,7 +14803,7 @@
                                 deliberation a formal motion was divided on for adding a proviso to
                                 Article II; and Mr. Buchanan made representations to Mr. Pakenham
                                 respecting the effect of that Article.<hi rend="superscript">1</hi>
-                                <note n="33" xml:id="d124fn33"> Appendix No. 5, and Historical Note,
+                                <note n="33" xml:id="d123fn33"> Appendix No. 5, and Historical Note,
                                     p. xix.</note> Some of the reasons that prevailed with the
                                 Senate to induce them to adopt the project as it stood may be
                                 gathered from Mr. Benton’s speech. He objected to any alteration
@@ -14831,7 +14854,7 @@
                                 Aberdeen did not know until after the exchange of ratifications (if
                                 personally he ever knew) of Mr. MacLane’s letter to Mr. Buchanan, of
                                 Mr. Buchanan’s letter to Mr. MacLane,<hi rend="superscript">1</hi>
-                                <note n="34" xml:id="d124fn34"> Above, paragraph 23.</note> or of
+                                <note n="34" xml:id="d123fn34"> Above, paragraph 23.</note> or of
                                 Mr. Benton’s speech (the views expressed in which Mr. Bancroft seems
                                 to ascribe to the Sen ate as a body.)<seg type="margin"
                                 >[15]</seg></p>
@@ -14839,7 +14862,7 @@
                                 Dr. Paley’s treatise on Moral and Political Philosophy appears to
                                 Her Majesty’s Government generally true,<hi rend="superscript"
                                     >2</hi>
-                                <note n="35" xml:id="d124fn35"> It is, however, not altogether
+                                <note n="35" xml:id="d123fn35"> It is, however, not altogether
                                     unimpeachable, as will appear from the criticisms of another
                                     English author, Austin, Lectures on Jurisprudence, vol. ii. p.
                                     122.</note> but here irrelevant. That doctrine applies to a
@@ -14920,7 +14943,7 @@
                                 navigation, especially for sailing-vessels, and only one steamer had
                                 penetrated into those waters at the date of the Treaty.<hi
                                     rend="superscript">1</hi>
-                                <note n="36" xml:id="d124fn36"> On these points Her Majesty’s
+                                <note n="36" xml:id="d123fn36"> On these points Her Majesty’s
                                     Government refer to the evidence in the Appendix to their Case,
                                     presented to the Arbitrator in December, 1871.</note></p>
                             <p>(iv.) Then Mr. Bancroft says, (page 26:)</p>
@@ -15078,7 +15101,7 @@
                                 common <pb n="213" xml:id="pg_213" facs="0243"/> knowledge and
                                 under*standing of the Contracting Parties at the time.<hi
                                     rend="superscript">1</hi>
-                                <note n="37" xml:id="d124fn37"> Mr. Bancroft says, (page 5:) “Since
+                                <note n="37" xml:id="d123fn37"> Mr. Bancroft says, (page 5:) “Since
                                     the intention of the negotiators must rest on the knowledge in,
                                     their possession at the time when the Treaty was made, I shall
                                     use the charts and explorations which have advanced, or profess
@@ -15098,7 +15121,7 @@
                                 which is Mr. Bancroft’s map F) is merely a map, in the ordinary
                                 sense, and is not a chart with soundings marked or otherwise adapted
                                 for purposes of navigation. <hi rend="superscript">2</hi>
-                                <note n="38" xml:id="d124fn38"> There was no chart issued with the
+                                <note n="38" xml:id="d123fn38"> There was no chart issued with the
                                     Narrative of the United States Exploring Expedition, under
                                     Lieutenant Wilkes, as part of the atlas connected with it, or
                                     otherwise. Indeed, no chart, showing the surveys of that
@@ -15115,20 +15138,20 @@
                                 which issued immediately in the Treaty. There was a map before Mr.
                                 Everett and Lord Aberdeen in one of their conversations, <hi
                                     rend="superscript">3</hi>
-                                <note n="39" xml:id="d124fn39"> Above, paragraph 19, (viii.)</note>
+                                <note n="39" xml:id="d123fn39"> Above, paragraph 19, (viii.)</note>
                                 but what map does not appear. Mr. MacLane, it would seem, used
                                 Wilkes’s map, <hi rend="superscript">4</hi>
-                                <note n="40" xml:id="d124fn40"> Above, paragraph 19, (ii.)</note>
+                                <note n="40" xml:id="d123fn40"> Above, paragraph 19, (ii.)</note>
                                 but there is no evidence that he and Lord Aberdeen together referred
                                 to that or any other map. As regards Lord Aberdeen himself, he
                                 probably used Vancouver’s chart, but it would rather seem that he
                                 did not give much attention to a map in the matter. In his
                                 instructions to Mr. Pakenham, <hi rend="superscript">5</hi>
-                                <note n="41" xml:id="d124fn41"> Historical Note, p. xii.</note> he
+                                <note n="41" xml:id="d123fn41"> Historical Note, p. xii.</note> he
                                 makes a slip in using the name of King George’s Sound, an obsolete
                                 name for Nootka Sound, instead of the Gulf of Georgia; <hi
                                     rend="superscript">6</hi>
-                                <note n="42" xml:id="d124fn43"> Mr. Archibald Campbell remarks on
+                                <note n="42" xml:id="d123fn43"> Mr. Archibald Campbell remarks on
                                     this point: “Lord Aberdeen, in tracing the boundary line,
                                     follows the forty-ninth parallel to the sea-coast and deflects
                                     ‘thence in a southerly direction through the center of <hi
@@ -15149,7 +15172,7 @@
                                     Lord Aberdeen’s actual meaning. He simply miscalled the Gulf of
                                     Georgia.”</note> and, in his statement to Lord John Russell in
                                 1859, <hi rend="superscript">7</hi>
-                                <note n="44" xml:id="d124fn45"> Appendix No. 1.</note> he says it
+                                <note n="44" xml:id="d123fn45"> Appendix No. 1.</note> he says it
                                 was the intention of the Treaty to adopt the mid-channel of the
                                 straits as the line of demarkation without any reference to islands,
                                 the position, and, indeed, the very existence of which (he adds) had
@@ -15163,7 +15186,7 @@
                                 name (Canal de Lopez de Haro) on the Spanish map of Quimper’s
                                 observations of the Straits of Fuca in 1790. <hi rend="superscript"
                                     >1</hi>
-                                <note n="46" xml:id="d124fn46"> A copy of this map was not in the
+                                <note n="46" xml:id="d123fn46"> A copy of this map was not in the
                                     possession of Her Majesty’s Government at the time of the
                                     preparation of their Case presented to the Arbitrator in
                                     December, 1871. The map, which seems to be the result of mere
@@ -15242,18 +15265,20 @@
                         </frus:attachment>
                     </div>
                 </div>
-                <div type="chapter" xml:id="chapter6">
+                <div type="chapter" xml:id="chapter6"
+                    frus:doc-dateTime-min="1845-12-31T23:56:00-05:00"
+                    frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                     <head>Historical note—1818 to 1846.<hi rend="superscript">1</hi>
                         <note n="1" xml:id="d247fn1"> Referred to in the Statement, page 2, par.
                             3.</note></head>
-                    <div type="document" xml:id="d125" n="125" subtype="historical-document"
+                    <div type="document" xml:id="d124" n="124" subtype="historical-document"
                         frus:doc-dateTime-min="1845-12-31T23:56:00-05:00"
                         frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                         <head>[Untitled]</head>
                         <dateline>[<date notBefore="1846-01-01T00:00:00-04:56"
                                 notAfter="1872-12-02T23:59:59-04:56"
                                 ana="#date_undated-inferred-from-document-content"
-                            >undated</date>]</dateline>
+                                calendar="gregorian">undated</date>]</dateline>
                         <p rend="center">1818.</p>
                         <p>In 1818 an agreement was come to between the Government of His Britannic
                             Majesty and that of the United States respecting the boundary line
@@ -15400,7 +15425,7 @@
                         <p>In consequence of this arrangement the negotiations were removed to
                             Washington, and Mr. Everett stated in a dispatch to his Government <hi
                                 rend="superscript">1</hi>
-                            <note n="1" xml:id="d125fn1"> Appendix No. 19 to Mr. Bancroft’s
+                            <note n="1" xml:id="d124fn1"> Appendix No. 19 to Mr. Bancroft’s
                                 Memorial.</note> that he would use his best efforts to produce such
                             an impression on Lord Aberdeen’s mind as to the prominent points of the
                             question as might have a favorable influence in the preparation of the
@@ -16518,7 +16543,7 @@
                                     only the acts of his predecessor, without a knowledge of his
                                     intentions, might not be so ready to take the responsibility of
                                     assenting to a change. <hi rend="superscript">1</hi>
-                                    <note n="2" xml:id="d125fn2"> The last three paragraphs of this
+                                    <note n="2" xml:id="d124fn2"> The last three paragraphs of this
                                         letter are omitted here. They have no relation to the
                                         question before the Arbitrator, and they have not (as far as
                                         Her Majesty’s Government know) been published by the United
@@ -16717,7 +16742,7 @@
                             <p>On the two next following days the consideration of the Message was
                                 continued, and an amendment proposing the addition of a proviso to
                                 Article II was moved; <hi rend="superscript">1</hi>
-                                <note n="3" xml:id="d125fn3"> Appendix No. 5.</note> but ultimately
+                                <note n="3" xml:id="d124fn3"> Appendix No. 5.</note> but ultimately
                                 it was resolved on a division, by 38 votes to 12, that the President
                                 should be advised to accept the proposal of the British
                                 Government.</p>
@@ -16765,7 +16790,7 @@
                                     that fair copies of the Convention should he prepared, and the
                                     signature take place on Monday next. <hi rend="superscript"
                                         >1</hi>
-                                    <note n="4" xml:id="d125fn4"> Appendix No. 5.</note></p>
+                                    <note n="4" xml:id="d124fn4"> Appendix No. 5.</note></p>
                                 <p>On Tuesday, probably, the Convention will he submitted to the
                                     Senate, where its approval may now he considered as a matter of
                                     course, so that the Treaty, with the President’s ratification,
@@ -16902,7 +16927,7 @@
                                         not yet been removed.</p>
                                     <p>Amongst other papers thus published, the collection of which
                                         I have the honor to inclose, <hi rend="superscript">1</hi>
-                                        <note n="5" xml:id="d125fn5"> There was inclosed in the
+                                        <note n="5" xml:id="d124fn5"> There was inclosed in the
                                             dispatch a copy of the Baltimore Sun newspaper of 23d
                                             July, 1846.</note> will be found a dispatch from Mr.
                                         MacLane to his Government, reporting what had passed between
@@ -16950,8 +16975,9 @@
                                     <seg rendition="#left">No. 106.]</seg>
                                     <dateline rendition="#right">
                                         <placeName><hi rend="smallcaps">Washington</hi></placeName>,
-                                            <date when="1946-08-13"><hi rend="italic">August</hi>
-                                            13, 1846.</date></dateline>
+                                            <date when="1946-08-13" calendar="gregorian"><hi
+                                                rend="italic">August</hi> 13,
+                                        1846.</date></dateline>
                                 </opener>
                                 <p><hi rend="smallcaps">My Lord</hi>: The injunction of secrecy
                                     having been removed by a resolution of the Senate, I have the
@@ -17026,7 +17052,7 @@
                     </div>
 
                     <pb n="238" xml:id="pg_238" facs="0268"/>
-                    <div type="document" xml:id="d125a" n="125" subtype="historical-document"
+                    <div type="document" xml:id="d125" n="125" subtype="historical-document"
                         frus:doc-dateTime-min="1871-12-31T23:56:00-05:00"
                         frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                         <head>*<hi rend="italic">Chronological List, showing the Names and Dates of
@@ -17037,12 +17063,12 @@
                                 Ministers at London,</hi>
                             <hi rend="italic">from</hi> 1818 <hi rend="italic">to</hi> 1872.<hi
                                 rend="superscript">1</hi>
-                            <note n="6" xml:id="d125afn6"> Referred to in the Statement, page 2,
-                                note *.</note><seg type="margin">[xxiii]</seg></head>
+                            <note n="6" xml:id="d125fn6"> Referred to in the Statement, page 2, note
+                                *.</note><seg type="margin">[xxiii]</seg></head>
                         <dateline><date when="1872" notBefore="1872-01-01T00:00:00-04:56"
                                 notAfter="1872-12-02T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-document-head"
-                            >[1872]</date></dateline>
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >[1872]</date></dateline>
                         <p rend="center">GREAT BRITAIN.</p>
                         <p><hi rend="smallcaps">northwest water boundary arbitration</hi>.</p>
                         <table cols="4">
@@ -17616,7 +17642,9 @@
 
                     </div>
                 </div>
-                <div type="chapter" xml:id="chapter7">
+                <div type="chapter" xml:id="chapter7"
+                    frus:doc-dateTime-min="1867-12-31T23:56:00-05:00"
+                    frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                     <head>*Memorandum relative to the origin and privileges of the Hudson’s Bay
                             Company.<note n="1" xml:id="d271fn1"> Referred to in the Statement, page
                             2, note *.</note><seg type="margin">[xxvii]</seg></head>
@@ -17627,7 +17655,7 @@
                         <dateline>[<date notBefore="1868-01-01T00:00:00-04:56"
                                 notAfter="1872-12-02T23:59:59-04:56"
                                 ana="#date_undated-inferred-from-document-content"
-                            >undated</date>]</dateline>
+                                calendar="gregorian">undated</date>]</dateline>
                         <p>In 1669, certain British subjects formed themselves into a Company, for
                             the purpose of undertaking an expedition to Hudson’s Bay.</p>
                         <p>The object of this expedition was twofold:</p>
@@ -17798,17 +17826,21 @@
                         <pb n="244" xml:id="pg_244" facs="0274"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="appendix2">
+                <div type="chapter" xml:id="appendix2"
+                    frus:doc-dateTime-min="1846-06-12T00:00:00-05:00"
+                    frus:doc-dateTime-max="1859-08-24T23:59:59-05:00">
                     <head>*Appendix.<seg type="margin">[xxxiii]</seg></head>
                     <note rend="inline" type="source">No. 1.</note>
                     <p rend="center">Extract showing views of Earl of Aberdeen and Sir Richard
                         Pakenham.</p>
-                    <div type="document" subtype="historical-document" xml:id="d127" n="127">
+                    <div type="document" subtype="historical-document" xml:id="d127" n="127"
+                        frus:doc-dateTime-min="1859-08-24T00:00:00-05:00"
+                        frus:doc-dateTime-max="1859-08-24T23:59:59-05:00">
                         <opener>
                             <seg rendition="#center">[Extract.]</seg>
                             <dateline>[<date when="1859-08-24"
-                                    ana="#date_undated-inferred-from-document-head">August 24,
-                                    1859</date>]</dateline>
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">August 24, 1859</date>]</dateline>
                         </opener>
                         <head><persName type="from">Lord John Russell</persName> to <persName
                                 type="to">Lord Lyons</persName>, 24th August, 1859; read, and copy
@@ -17933,8 +17965,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of State</hi>, <hi
                                         rend="italic">Washington</hi></placeName>, <date
-                                    when="1846-12-28"><hi rend="italic">December</hi> 28,
-                                    1846.</date></dateline>
+                                    when="1846-12-28" calendar="gregorian"><hi rend="italic"
+                                        >December</hi> 28, 1846.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have obtained from the Navy Department,
                             and now transmit to you, in accordance with the request contained in
@@ -17984,8 +18016,8 @@
                             <seg rendition="#left">No. 2.]</seg>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                                    when="1848-01-13"><hi rend="italic">January</hi> 13,
-                                    1848.</date></dateline>
+                                    when="1848-01-13" calendar="gregorian"><hi rend="italic"
+                                        >January</hi> 13, 1848.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">My Lord</hi>: On the receipt of your Lordship’s
                             dispatch No. 21, of the 17th ultimo, by which I am instructed to
@@ -18071,8 +18103,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                                    when="1856-02-09"><hi rend="italic">February</hi> 9,
-                                    1856.</date></dateline>
+                                    when="1856-02-09" calendar="gregorian"><hi rend="italic"
+                                        >February</hi> 9, 1856.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have been instructed by Her Majesty’s
                             Government to call the serious attention of the Government of the United
@@ -18181,8 +18213,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States Legation</hi>, <hi
                                         rend="italic">London</hi></placeName>, <date
-                                    when="1848-08-04"><hi rend="italic">August</hi> 4,
-                                1848.</date></dateline>
+                                    when="1848-08-04" calendar="gregorian"><hi rend="italic"
+                                        >August</hi> 4, 1848.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * *</p>
                         <p>The Hudson’s Bay Company have been trying to get a grant of Vancouver’s
@@ -18220,8 +18252,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName>90 <hi rend="smallcaps">Eaton Square</hi></placeName>,
-                                    <date when="1848-07-31"><hi rend="italic">July</hi> 31,
-                                    1848.</date></dateline>
+                                    <date when="1848-07-31" calendar="gregorian"><hi rend="italic"
+                                        >July</hi> 31, 1848.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">My Dear Lord</hi>: As your Lordship desired, I send
                             for your inspection a traced copy, made for me at the Navy Department,
@@ -18248,8 +18280,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Foreign Office</hi></placeName>,
-                                    <date when="1848-08-24"><hi rend="italic">August</hi> 24,
-                                    1848.</date></dateline>
+                                    <date when="1848-08-24" calendar="gregorian"><hi rend="italic"
+                                        >August</hi> 24, 1848.</date></dateline>
                         </opener>
                         <p>Viscount Palmerston presents his compliments to Mr. Bancroft, and has the
                             honor to return to him herewith, with his best thanks, the traced copy
@@ -18264,8 +18296,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">108 Eaton Square</hi></placeName>,
-                                    <date when="1848-11-03"><hi rend="italic">November</hi> 3,
-                                    1848.</date></dateline>
+                                    <date when="1848-11-03" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 3, 1848.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">My Lord</hi>: I did not forget your Lordship’s
                             desire to see the United States surveys of the waters of Puget’s Sound,
@@ -18294,8 +18326,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Foreign Office</hi></placeName>,
-                                    <date when="1848-11-07"><hi rend="italic">November</hi> 7,
-                                    1848.</date></dateline>
+                                    <date when="1848-11-07" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 7, 1848.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I beg leave to return you my best thanks
                             for the surveys of Puget’s Sound, and of the Gulf of Georgia, which
@@ -18310,9 +18342,13 @@
                             <signed>PALMERSTON.</signed>
                         </closer>
                     </div>
-                    <div type="document" subtype="historical-document" xml:id="d137" n="137">
+                    <div type="document" subtype="historical-document" xml:id="d137" n="137"
+                        frus:doc-dateTime-min="1846-06-12T00:00:00-05:00"
+                        frus:doc-dateTime-max="1846-06-12T23:59:59-05:00">
                         <head>No. 5.</head>
-                        <dateline>[<date>undated</date>]</dateline>
+                        <dateline>[<date when="1846-06-12"
+                                ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">June 12, 1846</date>]</dateline>
                         <p rend="center">PROPOSED AMENDMENT OF ARTICLE II OF TREATY.</p>
                         <p>The following was moved in the Senate of the United States, on 12th June,
                             1846, as an addition to the Resolution advising the President to accept
@@ -18334,8 +18370,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of State</hi>, <hi
                                         rend="italic">Washington</hi></placeName>, <date
-                                    when="1846-06-13"><hi rend="italic">June</hi> 13,
-                                1846.</date></dateline>
+                                    when="1846-06-13" calendar="gregorian"><hi rend="italic"
+                                        >June</hi> 13, 1846.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: The President communicated to the Senate,
                             on the 10th instant, a confidential message, of which I transmit you a
@@ -18373,11 +18409,14 @@
                     </div>
                 </div>
             </div>
-            <div type="compilation" xml:id="comp5">
+            <div type="compilation" xml:id="comp5" frus:doc-dateTime-min="1801-12-31T19:14:00-05:00"
+                frus:doc-dateTime-max="1872-11-27T23:59:59-05:00">
                 <head>V. Correspondence.</head>
                 <pb n="254" xml:id="pg_254" facs="0284"/>
                 <pb n="255" xml:id="pg_255" facs="0285"/>
-                <div type="chapter" xml:id="chapter8">
+                <div type="chapter" xml:id="chapter8"
+                    frus:doc-dateTime-min="1871-07-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-11-27T23:59:59-05:00">
                     <note rend="inline" type="source">No. 1.</note>
                     <head>Correspondence.</head>
                     <div type="document" subtype="historical-document" xml:id="d139" n="139"
@@ -18390,8 +18429,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of State</hi>, <hi
                                         rend="italic">Washington</hi></placeName>, <date
-                                    when="1871-07-18"><hi rend="italic">July</hi> 18,
-                                1871.</date></dateline>
+                                    when="1871-07-18" calendar="gregorian"><hi rend="italic"
+                                        >July</hi> 18, 1871.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I transmit to you herewith the draught of
                             a note which, in con junction with the representative of Her Britannic
@@ -18543,8 +18582,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1871-07-29"><hi rend="italic">July</hi> 29, 1871.
-                                    (Received August 18.)</date></dateline>
+                                    when="1871-07-29" calendar="gregorian"><hi rend="italic"
+                                        >July</hi> 29, 1871. (Received August 18.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: This day, at a quarter before 1, I took
                             the British chargé in my carriage to the Foreign Office, where we
@@ -18569,8 +18608,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1871-07-29"><hi rend="italic">July</hi> 29,
-                                1871.</date></dateline>
+                                    when="1871-07-29" calendar="gregorian"><hi rend="italic"
+                                        >July</hi> 29, 1871.</date></dateline>
                         </opener>
                         <p>The Government of the United States of America and the Government of Her
                             Britannic Majesty having agreed, by a Treaty signed at Washington the
@@ -18616,8 +18655,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1871-09-21"><hi rend="italic">August</hi> 21, 1871.
-                                    (Received September 7.)</date></dateline>
+                                    when="1871-09-21" calendar="gregorian"><hi rend="italic"
+                                        >August</hi> 21, 1871. (Received September
+                                7.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: The German Secretary of State has notified
                             to me and to the British Legation that the Emperor of Germany accepts
@@ -18650,8 +18690,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1871-09-01"><hi rend="italic">September</hi> 1, 1871.
-                                    (Received September 20.)</date></dateline>
+                                    when="1871-09-01" calendar="gregorian"><hi rend="italic"
+                                        >September</hi> 1, 1871. (Received September
+                                20.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I inclose a copy of the note which I have
                             received this day from the German Secretary of State, notifying me
@@ -18675,8 +18716,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Berlin</hi></placeName>, <date
-                                    when="1871-09-01"><hi rend="italic">September</hi> 1,
-                                    1871.</date></dateline>
+                                    when="1871-09-01" calendar="gregorian"><hi rend="italic"
+                                        >September</hi> 1, 1871.</date></dateline>
                         </opener>
                         <p>The undersigned has had the honor to receive the esteemed note of Mr.
                             Bancroft, Envoy Extraordinary and Minister Plenipotentiary of the United
@@ -18709,8 +18750,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of State</hi>, <hi
                                         rend="italic">Washington</hi></placeName>, <date
-                                    when="1871-09-28"><hi rend="italic">September</hi> 28,
-                                    1871.</date></dateline>
+                                    when="1871-09-28" calendar="gregorian"><hi rend="italic"
+                                        >September</hi> 28, 1871.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: With reference to your dispatch of the 1st
                             instant, No. 255, and to the note of Mr. Von Thile, a copy of which
@@ -18743,8 +18784,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1871-12-12"><hi rend="italic">December</hi> 12, 1871.
-                                    (Received Jan. 3.)</date></dateline>
+                                    when="1871-12-12" calendar="gregorian"><hi rend="italic"
+                                        >December</hi> 12, 1871. (Received Jan.
+                                3.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I this day left with Mr. Von Abeken, who,
                             during the illness of the Chancellor of the Empire and of the Secretary
@@ -18774,8 +18816,8 @@
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                             rend="italic">Berlin</hi></placeName>, <date
-                                        when="1871-12-12"><hi rend="italic">December</hi> 12,
-                                        1871.</date></dateline>
+                                        when="1871-12-12" calendar="gregorian"><hi rend="italic"
+                                            >December</hi> 12, 1871.</date></dateline>
                             </opener>
                             <p>The limit of time allowed by the Treaty of Washington of May 16,
                                 1871, for presenting the Case of the United States on the disputed
@@ -18813,8 +18855,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1871-12-15"><hi rend="italic">December</hi> 15, 1871.
-                                    (Received Jan. 3.)</date></dateline>
+                                    when="1871-12-15" calendar="gregorian"><hi rend="italic"
+                                        >December</hi> 15, 1871. (Received Jan.
+                                3.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>Admiral Prevost, formerly British commissioner for running the
@@ -18839,8 +18882,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1871-12-28"><hi rend="italic">December 28,</hi> 1871.
-                                    (Received Jan. 16.)</date></dateline>
+                                    when="1871-12-28" calendar="gregorian"><hi rend="italic"
+                                        >December 28,</hi> 1871. (Received Jan.
+                                16.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: Herewith I inclose a translation of a
                             letter received from the Chancellor of the German Empire, acknowledging
@@ -18889,8 +18933,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1872-06-11"><hi rend="italic">June</hi> 11, 1872.
-                                    (Received June 27.)</date></dateline>
+                                    when="1872-06-11" calendar="gregorian"><hi rend="italic"
+                                        >June</hi> 11, 1872. (Received June 27.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: Admiral Prevost arrived yesterday from
                             London with the second and definitive statement of the British
@@ -18922,8 +18966,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1872-07-17"><hi rend="italic">June</hi> 17, 1872.
-                                    (Received July 3.)</date></dateline>
+                                    when="1872-07-17" calendar="gregorian"><hi rend="italic"
+                                        >June</hi> 17, 1872. (Received July 3.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I send you by the Hamburg packet of the
                             19th instant three bound copies of the English version of our reply to
@@ -18948,8 +18992,8 @@
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">British Embassy</hi>, <hi
                                             rend="italic">Berlin</hi></placeName>, <date
-                                        when="1872-06-10"><hi rend="italic">June</hi> 10,
-                                        1872.</date></dateline>
+                                        when="1872-06-10" calendar="gregorian"><hi rend="italic"
+                                            >June</hi> 10, 1872.</date></dateline>
                             </opener>
                             <p><hi rend="smallcaps">Sir</hi>: The undersigned, Her Britannic
                                 Majesty’s Embassador Extraordinary and Plenipotentiary to His
@@ -18981,8 +19025,8 @@
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                             rend="italic">Berlin</hi></placeName>, <date
-                                        when="1872-06-11"><hi rend="italic">June</hi> 11,
-                                        1872.</date></dateline>
+                                        when="1872-06-11" calendar="gregorian"><hi rend="italic"
+                                            >June</hi> 11, 1872.</date></dateline>
                             </opener>
                             <p><hi rend="smallcaps">Sir</hi>: The undersigned, Envoy Extraordinary
                                 and Minister Plenipotentiary of the United States of America to the
@@ -19013,8 +19057,8 @@
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                             rend="italic">Berlin</hi></placeName>, <date
-                                        when="1872-06-11"><hi rend="italic">June</hi> 11,
-                                        1872.</date></dateline>
+                                        when="1872-06-11" calendar="gregorian"><hi rend="italic"
+                                            >June</hi> 11, 1872.</date></dateline>
                             </opener>
                             <p>The undersigned, Envoy Extraordinary and Minister Plenipotentiary of
                                 the United States of America, takes leave in the name of his
@@ -19050,8 +19094,8 @@
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                             rend="italic">Berlin</hi></placeName>, <date
-                                        when="1872-06-11"><hi rend="italic">June</hi> 11,
-                                        1872.</date></dateline>
+                                        when="1872-06-11" calendar="gregorian"><hi rend="italic"
+                                            >June</hi> 11, 1872.</date></dateline>
                             </opener>
                             <p><hi rend="smallcaps">Sir</hi>: The undersigned, Envoy Extraordinary
                                 and Minister Plenipotentiary of the United States of America to the
@@ -19081,8 +19125,8 @@
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">British Embassy</hi>, <hi
                                             rend="italic">Berlin</hi></placeName>, <date
-                                        when="1872-06-11"><hi rend="italic">June</hi> 11,
-                                        1872.</date></dateline>
+                                        when="1872-06-11" calendar="gregorian"><hi rend="italic"
+                                            >June</hi> 11, 1872.</date></dateline>
                             </opener>
                             <p><hi rend="smallcaps">Sir</hi>: The undersigned, Her Britannic
                                 Majesty’s Embassador Extraordinary and Plenipotentiary to His
@@ -19117,8 +19161,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1872-06-24"><hi rend="italic">June</hi> 24, 1872.
-                                    (Received July 13.)</date></dateline>
+                                    when="1872-06-24" calendar="gregorian"><hi rend="italic"
+                                        >June</hi> 24, 1872. (Received July 13.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>I transmit a translation of the acknowledgment that the definitive
@@ -19141,8 +19185,8 @@
                             <opener>
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">Berlin</hi></placeName>, <date
-                                        when="1872-06-18"><hi rend="italic">June</hi> 18,
-                                        1872.</date></dateline>
+                                        when="1872-06-18" calendar="gregorian"><hi rend="italic"
+                                            >June</hi> 18, 1872.</date></dateline>
                             </opener>
                             <p>The undersigned has the honor most respectfully to acknowledge the
                                 receipt from Mr. Bancroft, Envoy Extraordinary and Minister
@@ -19170,8 +19214,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1872-06-28"><hi rend="italic">June</hi> 28, 1872.
-                                    (Received July 15.)</date></dateline>
+                                    when="1872-06-28" calendar="gregorian"><hi rend="italic"
+                                        >June</hi> 28, 1872. (Received July 15.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I am officially informed that the names of
                             the gentlemen who will be requested to examine and report upon the Haro
@@ -19202,8 +19246,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1872-10-30"><hi rend="italic">September</hi> 30, 1872.
-                                    (Received October 16.)</date></dateline>
+                                    when="1872-10-30" calendar="gregorian"><hi rend="italic"
+                                        >September</hi> 30, 1872. (Received October
+                                16.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I am assured, on the best authority, that
                             the decision respecting our northwest boundary approaches its solution,
@@ -19243,8 +19288,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1872-10-04"><hi rend="italic">October</hi> 4, 1872.
-                                    (Received November 7.)</date></dateline>
+                                    when="1872-10-04" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 4, 1872. (Received November
+                                7.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: The papers relating to our Arbitration
                             were completely finished last week and forwarded to the Emperor at Baden
@@ -19279,8 +19325,9 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Berlin</hi></placeName>, <date
-                                    when="1872-10-23"><hi rend="italic">October</hi> 23, 1872.
-                                    (Received October 23.)</date></dateline>
+                                    when="1872-10-23" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 23, 1872. (Received October
+                                23.)</date></dateline>
                         </opener>
                         <p>The three Experts to whom the American Memorial on the Canal de Haro and
                             the British Case were referred, have made, each for himself, a very
@@ -19316,8 +19363,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                                    when="1872-10-24"><hi rend="italic">October</hi> 24,
-                                    1872.</date></dateline>
+                                    when="1872-10-24" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 24, 1872.</date></dateline>
                         </opener>
                         <p>Congratulations on the award. The President directs thanks, in which I
                             concur, for your able management of the case.</p>
@@ -19336,8 +19383,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1872-10-24"><hi rend="italic">October</hi> 24, 1872.
-                                    (Received November 14.)</date></dateline>
+                                    when="1872-10-24" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 24, 1872. (Received November
+                                14.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: At four minutes before 10 o’clock last
                             evening I received the award of the Emperor on the question of boundary
@@ -19461,8 +19509,8 @@
                             <opener>
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">Berlin</hi></placeName>, <date
-                                        when="1872-10-23"><hi rend="italic">October</hi> 23,
-                                        1872.</date></dateline>
+                                        when="1872-10-23" calendar="gregorian"><hi rend="italic"
+                                            >October</hi> 23, 1872.</date></dateline>
                             </opener>
                             <p>His Majesty the Emperor and King, having made the award in the
                                 Arbitration referred to him by the Treaty of Washington, May 6, [8,]
@@ -19487,8 +19535,8 @@
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                             rend="italic">Berlin</hi></placeName>, <date
-                                        when="1872-10-24"><hi rend="italic">October</hi> 24,
-                                        1872.</date></dateline>
+                                        when="1872-10-24" calendar="gregorian"><hi rend="italic"
+                                            >October</hi> 24, 1872.</date></dateline>
                             </opener>
                             <p><hi rend="smallcaps">Mr</hi>. <hi rend="smallcaps">Secretary of State
                                     for Foreign Affairs</hi>: I have communicated to my Government
@@ -19531,8 +19579,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1872-10-24"><hi rend="italic">October</hi> 24, 1872.
-                                    (Received November 14.)</date></dateline>
+                                    when="1872-10-24" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 24, 1872. (Received November
+                                14.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: The importance of the award of the German
                             Emperor is known in England as well as on our own Pacific coast. It
@@ -19578,8 +19627,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1872-11-02"><hi rend="italic">November</hi> 2, 1872.
-                                    (Received November 19.)</date></dateline>
+                                    when="1872-11-02" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 2, 1872. (Received November
+                                19.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I annex a copy and translation of a note
                             from the Secretary of State for Foreign Affairs, in reply to Mr.
@@ -19609,8 +19659,8 @@
                             <opener>
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">Berlin</hi></placeName>, <date
-                                        when="1872-11-01"><hi rend="italic">November</hi> 1,
-                                        1872.</date></dateline>
+                                        when="1872-11-01" calendar="gregorian"><hi rend="italic"
+                                            >November</hi> 1, 1872.</date></dateline>
                             </opener>
                             <p>The Minister of the United States of America, in a note dated October
                                 21, 1872, has been pleased to request to be advised what costs and
@@ -19641,8 +19691,8 @@
                             <seg rendition="#left">No. 529.]</seg>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                                    when="1872-11-27"><hi rend="italic">November</hi> 27,
-                                    1872.</date></dateline>
+                                    when="1872-11-27" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 27, 1872.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have to acknowledge the receipt of a
                             dispatch of the 2d instant, No. 421, from Mr. Nicholas Fish, Chargé
@@ -19671,8 +19721,9 @@
                         <opener>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
-                                    when="1872-11-21"><hi rend="italic">November</hi> 21, 1872.
-                                    (Received November 21.)</date></dateline>
+                                    when="1872-11-21" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 21, 1872. (Received November
+                                21.)</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: In compliance with an instruction which I
                             have received from Earl Granville, I have the honor to inform you that
@@ -19729,8 +19780,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">British Legation</hi>, <hi
                                         rend="italic">Washington</hi></placeName>, <date
-                                    when="1872-11-23"><hi rend="italic">November</hi> 23,
-                                    1872.</date></dateline>
+                                    when="1872-11-23" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 23, 1872.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">My Dear Mr</hi>. <hi rend="smallcaps">Fish</hi>: I
                             have just received a telegram from Lord Granville in the following
@@ -19753,8 +19804,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Department of State</hi>, <hi
                                         rend="italic">Washington</hi></placeName>, <date
-                                    when="1872-11-25"><hi rend="italic">November</hi> 25,
-                                    1872.</date></dateline>
+                                    when="1872-11-25" calendar="gregorian"><hi rend="italic"
+                                        >November</hi> 25, 1872.</date></dateline>
                         </opener>
                         <p><hi rend="smallcaps">My Dear Sir Edward</hi>: Thanks for your note of
                             Saturday giving me copy of Lord Granville’s telegram.<seg type="margin"
@@ -19788,12 +19839,20 @@
                         <pb n="277" xml:id="pg_277" facs="0307"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="chapter9">
+                <div type="chapter" xml:id="chapter9"
+                    frus:doc-dateTime-min="1801-12-31T19:14:00-05:00"
+                    frus:doc-dateTime-max="1802-12-31T19:13:59-05:00">
                     <head>Charts which accompanied the case of the government of Her Britannic
                         Majesty.</head>
-                    <div type="document" xml:id="d164" n="164" subtype="historical-document">
+                    <div type="document" xml:id="d164" n="164" subtype="historical-document"
+                        frus:doc-dateTime-min="1801-12-31T19:14:00-05:00"
+                        frus:doc-dateTime-max="1802-12-31T19:13:59-05:00">
                         <head>No. I.</head>
-                        <dateline>[<date>undated</date>]</dateline>
+                        <dateline>[<placeName>Madrid</placeName>, <date when="1802"
+                                notBefore="1802-01-01T00:00:00-00:14"
+                                notAfter="1802-12-31T23:59:59-00:14"
+                                ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">1802</date>]</dateline>
                         <p>Carta Esférica de los Reconocimientos hechos en la Costa N. O. de
                             America, en 1791 y 1792, por las goletas Sutil y Mexicana, y otros
                             buques de Su Magestad. (Published at Madrid, 1802.)</p>
