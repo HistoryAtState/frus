@@ -57,6 +57,67 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="eisenhower-administration">United States. President (1953-1961 :
+                        Eisenhower, Dwight D.)</term>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/events">
+                    </keywords> 
+                -->
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/mandates">
+                    </keywords> 
+                -->
+                <!--
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                </keywords>
+                -->
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="dulles-john-foster"/>
+                    <term xml:id="eisenhower-dwight-d"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="australia"/>
+                    <term xml:id="belgium"/>
+                    <term xml:id="canada"/>
+                    <term xml:id="china"/>
+                    <term xml:id="france"/>
+                    <term xml:id="greece"/>
+                    <term xml:id="hungary"/>
+                    <term xml:id="india"/>
+                    <term xml:id="japan"/>
+                    <term xml:id="korean-war"/>
+                    <term xml:id="luxembourg"/>
+                    <term xml:id="netherlands"/>
+                    <term xml:id="new-zealand"/>
+                    <term xml:id="north-korea"/>
+                    <term xml:id="philippines"/>
+                    <term xml:id="poland"/>
+                    <term xml:id="south-africa"/>
+                    <term xml:id="south-korea"/>
+                    <term xml:id="sweden"/>
+                    <term xml:id="switzerland"/>
+                    <term xml:id="taiwan"/>
+                    <term xml:id="thailand"/>
+                    <term xml:id="turkey"/>
+                    <term xml:id="united-kingdom"/>
+                    <term xml:id="vietnam"/>
+                    <term>Union of Soviet Socialist Republics (U.S.S.R.; Soviet Union)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="armistices"/>
+                    <term xml:id="arms-transfers"/>
+                    <term xml:id="border-administration"/>
+                    <term xml:id="foreign-aid"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <editorialDecl>
                 <correction>
@@ -74,17 +135,6 @@
             <frus:coverage notBefore="1955-01-07T00:00:00-05:00"
                 notAfter="1957-12-31T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term>[...]</term>
-                    <term>[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>
