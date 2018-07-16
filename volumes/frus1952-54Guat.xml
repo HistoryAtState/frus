@@ -57,6 +57,58 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="truman-administration">United States. President (1945-1953 :
+                        Truman)</term>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/events">
+                    </keywords> 
+                -->
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/mandates">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="organization-of-american-states"/>
+                    <term xml:id="united-nations"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="acheson-dean-gooderham"/>
+                    <term xml:id="dulles-john-foster"/>
+                    <term xml:id="truman-harry-s"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="argentina"/>
+                    <term xml:id="bolivia"/>
+                    <term xml:id="brazil"/>
+                    <term xml:id="costa-rica"/>
+                    <term xml:id="dominican-republic"/>
+                    <term xml:id="el-salvador"/>
+                    <term xml:id="guatemala"/>
+                    <term xml:id="honduras"/>
+                    <term xml:id="mexico"/>
+                    <term xml:id="nicaragua"/>
+                    <term xml:id="panama"/>
+                    <term xml:id="venezuela"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="covert-actions"/>
+                    <term xml:id="foreign-aid"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/secretaries-of-state">
+                    <term xml:id="secretary-of-state-1949-1953">United States. Department of State.
+                        Secretary (1949-1953 : Acheson, Dean Gooderham)</term>
+                    <term xml:id="secretary-of-state-1953-1959">United States. Department of State.
+                        Secretary (1953-1959 : Dulles, John Foster)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <editorialDecl>
                 <correction>
@@ -77,17 +129,6 @@
             <frus:coverage notBefore="1952-01-11T00:00:00-05:00"
                 notAfter="1975-05-12T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term type="provisional">[...]</term>
-                    <term type="provisional">[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>
