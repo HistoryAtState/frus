@@ -10,7 +10,7 @@
         </xsl:copy>
     </xsl:template>
 
-    <!-- Add `profileDesc / langUsage | textClass -->
+    <!-- Add `profileDesc / langUsage | textClass` -->
     <xsl:template match="tei:teiHeader[not(tei:profileDesc)]">
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
@@ -40,7 +40,7 @@
         </xsl:copy>
     </xsl:template>
 
-    <!-- Add `profileDesc / langUsage | textClass -->
+    <!-- Add `profileDesc / langUsage | textClass` -->
     <xsl:template match="tei:teiHeader/tei:profileDesc">
         <xsl:copy>
             <xsl:apply-templates select="@*"/>
