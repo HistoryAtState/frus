@@ -58,6 +58,54 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="truman-administration">United States. President (1945-1953 :
+                        Truman)</term>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/events">
+                    </keywords> 
+                -->
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/mandates">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="united-nations"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="marshall-george-catlett"/>
+                    <term xml:id="truman-harry-s"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="australia"/>
+                    <term xml:id="belgium"/>
+                    <term xml:id="iran"/>
+                    <term xml:id="iraq"/>
+                    <term xml:id="ireland"/>
+                    <term xml:id="israel"/>
+                    <term type="provisional">Czechoslovakia</term>
+                    <term type="provisional">Union of Soviet Socialist Republics (U.S.S.R.; Soviet
+                        Union)</term>
+                    <term type="provisional">Yugoslavia</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="atomic-energy"/>
+                    <term xml:id="elections"/>
+                    <term xml:id="human-rights"/>
+                    <term xml:id="quarantine-blockade"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/secretaries-of-state">
+                    <term xml:id="secretary-of-state-1947-1949">United States. Department of State.
+                        Secretary (1947-1949 : Marshall, George Cartlett)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -100,17 +148,6 @@
             <frus:coverage notBefore="1947-12-03T00:00:00-05:00"
                 notAfter="1948-12-09T18:00:00-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term type="provisional">[...]</term>
-                    <term type="provisional">[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>

@@ -59,6 +59,59 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="truman-administration">United States. President (1945-1953 :
+                        Truman)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/events">
+                    <term type="provisional">Kashmir Dispute</term>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/mandates">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="national-security-council"/>
+                    <term xml:id="united-nations"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="acheson-dean-gooderham"/>
+                    <term xml:id="truman-harry-s"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="australia"/>
+                    <term xml:id="burma"/>
+                    <term xml:id="india"/>
+                    <term xml:id="indonesia"/>
+                    <term xml:id="japan"/>
+                    <term xml:id="north-korea"/>
+                    <term xml:id="pakistan"/>
+                    <term xml:id="south-korea"/>
+                    <term xml:id="taiwan"/>
+                    <term type="provisional">Union of Soviet Socialist Republics (U.S.S.R.; Soviet
+                        Union)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="border-administration"/>
+                    <term xml:id="foreign-aid"/>
+                    <term xml:id="military-bases"/>
+                    <term xml:id="military-intervention-presence-and-withdrawal"/>
+                    <term xml:id="peace"/>
+                    <term xml:id="prisoners-of-war"/>
+                    <term xml:id="property-claims"/>
+                    <term xml:id="war-crimes-and-war-criminals"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/secretaries-of-state">
+                    <term xml:id="secretary-of-state-1949-1953">United States. Department of State.
+                        Secretary (1949-1953 : Acheson, Dean Gooderham)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -101,17 +154,6 @@
             <frus:coverage notBefore="1949-01-03T00:00:00-05:00"
                 notAfter="1949-12-30T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term type="provisional">[...]</term>
-                    <term type="provisional">[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>
