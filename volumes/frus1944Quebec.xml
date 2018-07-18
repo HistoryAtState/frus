@@ -61,6 +61,60 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="us-admin-032">United States. President (1933-1945 : Roosevelt,
+                        Franklin Delano)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/events">
+                    <term xml:id="world-war-ii"/>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/mandates">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="united-nations"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="hull-cordell"/>
+                    <term xml:id="roosevelt-franklin-d"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="argentina"/>
+                    <term xml:id="austria"/>
+                    <term xml:id="bulgaria"/>
+                    <term xml:id="burma"/>
+                    <term xml:id="canada"/>
+                    <term xml:id="china"/>
+                    <term xml:id="france"/>
+                    <term xml:id="germany"/>
+                    <term xml:id="italy"/>
+                    <term xml:id="japan"/>
+                    <term xml:id="netherlands"/>
+                    <term xml:id="norway"/>
+                    <term xml:id="poland"/>
+                    <term xml:id="united-kingdom"/>
+                    <term type="provisional">Czechoslovakia</term>
+                    <term type="provisional">Union of Soviet Socialist Republics (U.S.S.R.; Soviet
+                        Union)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="atomic-energy"/>
+                    <term xml:id="energy-and-natural-resources"/>
+                    <term xml:id="financial-and-monetary-policy"/>
+                    <term xml:id="prisoners-of-war"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/secretaries-of-state">
+                    <term xml:id="secretary-of-state-1933-1944">United States. Department of State.
+                        Secretary (1933-1944 : Hull, Cordell)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -103,17 +157,6 @@
             <frus:coverage notBefore="1944-03-18T00:00:00-05:00"
                 notAfter="1944-09-26T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term type="provisional">[...]</term>
-                    <term type="provisional">[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>
