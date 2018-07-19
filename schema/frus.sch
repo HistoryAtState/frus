@@ -92,7 +92,8 @@
                 publisher</assert>
             <assert test="count(tei:pubPlace) = 1">publicationStmt needs exactly one
                 pubPlace</assert>
-            <assert test="count(tei:date) = 1">publicationStmt needs exactly one date</assert>
+            <assert test="count(tei:date) = 2">publicationStmt needs exactly two dates:
+                type="publication-date" and type="content-date"</assert>
             <assert test="tei:idno/@type = ('dospubno', 'frus', 'isbn-13', 'isbn-10')"
                     >idno/@type='<value-of select="@type"/>' is an invalid value. Only the following
                 values are allowed: dospubno, frus, isbn-13, isbn-10</assert>
