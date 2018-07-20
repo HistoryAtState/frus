@@ -62,6 +62,56 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="us-admin-032">United States. President (1933-1945 : Roosevelt,
+                        Franklin Delano)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/events">
+                    <term xml:id="world-war-ii"/>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/mandates">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="united-nations"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="hull-cordell"/>
+                    <term xml:id="roosevelt-franklin-d"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="burma"/>
+                    <term xml:id="china"/>
+                    <term xml:id="germany"/>
+                    <term xml:id="india"/>
+                    <term xml:id="japan"/>
+                    <term xml:id="north-korea"/>
+                    <term xml:id="russia"/>
+                    <term xml:id="south-korea"/>
+                    <term xml:id="united-kingdom"/>
+                    <term type="provisional">Union of Soviet Socialist Republics (U.S.S.R.; Soviet
+                        Union)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="buildings-foreign"/>
+                    <term xml:id="chemical-and-bacteriological-warfare"/>
+                    <term xml:id="energy-and-natural-resources"/>
+                    <term xml:id="foreign-aid"/>
+                    <term xml:id="peace"/>
+                    <term xml:id="trade-and-commercial-policy-agreements"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/secretaries-of-state">
+                    <term xml:id="us-secretary-of-state-047">United States. Department of State.
+                        Secretary (1933-1944 : Hull, Cordell)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -105,17 +155,6 @@
             <frus:coverage notBefore="1941-12-27T18:00:00-05:00"
                 notAfter="1943-01-06T18:00:00-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term type="provisional">[...]</term>
-                    <term type="provisional">[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>

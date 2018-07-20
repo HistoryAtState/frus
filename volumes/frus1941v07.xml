@@ -62,6 +62,57 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="us-admin-032">United States. President (1933-1945 : Roosevelt,
+                        Franklin Delano)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/events">
+                    <term xml:id="world-war-ii"/>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/mandates">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations"> </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="hull-cordell"/>
+                    <term xml:id="roosevelt-franklin-d"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="colombia"/>
+                    <term xml:id="costa-rica"/>
+                    <term xml:id="cuba"/>
+                    <term xml:id="dominican-republic"/>
+                    <term xml:id="ecuador"/>
+                    <term xml:id="el-salvador"/>
+                    <term xml:id="guatemala"/>
+                    <term xml:id="haiti"/>
+                    <term xml:id="honduras"/>
+                    <term xml:id="mexico"/>
+                    <term xml:id="nicaragua"/>
+                    <term xml:id="panama"/>
+                    <term xml:id="paraguay"/>
+                    <term xml:id="peru"/>
+                    <term xml:id="uruguay"/>
+                    <term xml:id="venezuela"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="collective-security"/>
+                    <term xml:id="energy-and-natural-resources"/>
+                    <term xml:id="foreign-aid"/>
+                    <term xml:id="trade-and-commercial-policy-agreements"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/secretaries-of-state">
+                    <term xml:id="us-secretary-of-state-047">United States. Department of State.
+                        Secretary (1933-1944 : Hull, Cordell)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -105,17 +156,6 @@
             <frus:coverage notBefore="1940-12-04T00:00:00-05:00"
                 notAfter="1942-05-16T20:00:00-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term type="provisional">[...]</term>
-                    <term type="provisional">[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>
