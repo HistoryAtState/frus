@@ -70,6 +70,62 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="us-admin-032">United States. President (1933-1945 : Roosevelt,
+                        Franklin Delano)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/events">
+                    <term xml:id="world-war-ii"/>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/mandates">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="league-of-nations"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="hull-cordell"/>
+                    <term xml:id="roosevelt-franklin-d"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="china"/>
+                    <term xml:id="france"/>
+                    <term xml:id="hong-kong"/>
+                    <term xml:id="japan"/>
+                    <term xml:id="mongolia"/>
+                    <term xml:id="united-kingdom"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="alliances"/>
+                    <term xml:id="arms-embargoes"/>
+                    <term xml:id="arms-transfers"/>
+                    <term xml:id="buildings-foreign"/>
+                    <term xml:id="economic-sanctions"/>
+                    <term xml:id="energy-and-natural-resources"/>
+                    <term xml:id="financial-and-monetary-policy"/>
+                    <term xml:id="narcotics"/>
+                    <term xml:id="property-claims"/>
+                    <term xml:id="protection-of-americans-abroad"/>
+                    <term xml:id="terrorism"/>
+                    <term xml:id="trade-and-commercial-policy-agreements"/>
+                    <term type="provisional">Infrastructure</term>
+                    <term type="provisional">Insurgency</term>
+                    <term type="provisional">Telecommunications</term>
+                    <term type="provisional">Transportation</term>
+                    <term type="provisional">Treaties</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/secretaries-of-state">
+                    <term xml:id="us-secretary-of-state-047">United States. Department of State.
+                        Secretary (1933-1944 : Hull, Cordell)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -113,17 +169,6 @@
             <frus:coverage notBefore="1937-12-31T17:00:00-05:00"
                 notAfter="1939-01-01T16:00:00-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term type="provisional">[...]</term>
-                    <term type="provisional">[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>
