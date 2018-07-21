@@ -64,6 +64,58 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="us-admin-032">United States. President (1933-1945 : Roosevelt,
+                        Franklin Delano)</term>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/events">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/mandates">
+                    <term type="provisional">Anti-War Treaty</term>
+                    <term type="provisional">Nonagression and Conciliation Treaty</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="league-of-nations"/>
+                    <term type="provisional">Exchange Control Commission</term>
+                    <term type="provisional">The Conference of Central American States</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="hull-cordell"/>
+                    <term xml:id="roosevelt-franklin-d"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="argentina"/>
+                    <term xml:id="bolivia"/>
+                    <term xml:id="brazil"/>
+                    <term xml:id="chile"/>
+                    <term xml:id="colombia"/>
+                    <term xml:id="el-salvador"/>
+                    <term xml:id="germany"/>
+                    <term xml:id="guatemala"/>
+                    <term xml:id="haiti"/>
+                    <term xml:id="honduras"/>
+                    <term xml:id="mexico"/>
+                    <term xml:id="paraguay"/>
+                    <term xml:id="peru"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term type="provisional">Arms Embargo</term>
+                    <term type="provisional">Hayes Award</term>
+                    <term type="provisional">Inter-American Highway</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/secretaries-of-state">
+                    <term xml:id="us-secretary-of-state-047">United States. Department of State.
+                        Secretary (1933-1944 : Hull, Cordell)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -107,17 +159,6 @@
             <frus:coverage notBefore="1933-12-11T00:00:00-05:00"
                 notAfter="1935-01-05T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term type="provisional">[...]</term>
-                    <term type="provisional">[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>
