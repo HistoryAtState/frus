@@ -62,6 +62,50 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="us-admin-030">United States. President (1923-1929 : Coolidge,
+                        Calvin)</term>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/events">
+                    </keywords> 
+                -->
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/mandates">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="league-of-nations"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="coolidge-calvin"/>
+                    <term xml:id="kellogg-frank-billings"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="argentina"/>
+                    <term xml:id="australia"/>
+                    <term xml:id="austria"/>
+                    <term xml:id="bolivia"/>
+                    <term xml:id="canada"/>
+                    <term xml:id="chile"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="economic-summit-meetings"/>
+                    <term xml:id="energy-and-natural-resources"/>
+                    <term xml:id="foreign-investment"/>
+                    <term xml:id="immigration"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/secretaries-of-state">
+                    <term xml:id="us-secretary-of-state-045">United States. Department of State.
+                        Secretary (1925-1929 : Kellogg, Frank Billings)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -105,17 +149,6 @@
             <frus:coverage notBefore="1926-04-13T00:00:00-05:00"
                 notAfter="1928-01-11T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term type="provisional">[...]</term>
-                    <term type="provisional">[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>

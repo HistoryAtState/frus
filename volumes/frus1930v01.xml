@@ -62,6 +62,47 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="us-admin-031">United States. President (1929-1933 : Hoover,
+                        Herbert)</term>
+                </keywords>
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/events">
+                    </keywords> 
+                -->
+                <!-- 
+                    <keywords scheme="https://history.state.gov/tags/mandates">
+                    </keywords> 
+                -->
+                <keywords scheme="https://history.state.gov/tags/organizations"> </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="hoover-herbert"/>
+                    <term xml:id="stimson-henry-lewis"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="argentina"/>
+                    <term xml:id="austria"/>
+                    <term xml:id="bolivia"/>
+                    <term xml:id="brazil"/>
+                    <term xml:id="bulgaria"/>
+                    <term xml:id="canada"/>
+                    <term xml:id="chile"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="alliances"/>
+                    <term xml:id="asylum"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/secretaries-of-state">
+                    <term xml:id="us-secretary-of-state-046">United States. Department of State.
+                        Secretary (1929-1933 : Stimson, Henry Lewis)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -105,17 +146,6 @@
             <frus:coverage notBefore="1929-03-01T00:00:00-05:00"
                 notAfter="1937-07-28T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term type="provisional">[...]</term>
-                    <term type="provisional">[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>
