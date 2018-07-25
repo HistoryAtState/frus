@@ -138,7 +138,7 @@
                 </xsl:if>
 
                 <!-- 39 -->
-                <xsl:if test=".//tei:term[matches(attribute::xml:id, 'knox-philander-chase')]">
+                <xsl:if test=".//tei:term[matches(attribute::xml:id, 'bacon-robert')]">
                     <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0"><xsl:attribute
                             name="xml:id">us-secretary-of-state-039</xsl:attribute>United States.
                         Department of State. Secretary (1909-1909 : Bacon, Robert)</xsl:element>
