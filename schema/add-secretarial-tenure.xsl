@@ -67,11 +67,11 @@
                     <xsl:comment>Verify which James Gillespie Blaine term</xsl:comment>
                     <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0"><xsl:attribute
                             name="xml:id">us-secretary-of-state-029</xsl:attribute>United States.
-                        Department of State. Secretary (1881-1881 : Blaine, James
+                        Department of State. Secretary (1881 : Blaine, James
                         Gillespie)</xsl:element>
                     <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0"><xsl:attribute
                             name="xml:id">us-secretary-of-state-031</xsl:attribute>United States.
-                        Department of State. Secretary (1885-1889 : Blaine, James
+                        Department of State. Secretary (1889-1892 : Blaine, James
                         Gillespie)</xsl:element>
                 </xsl:if>
 
