@@ -63,16 +63,16 @@
                 </xsl:if>
 
                 <!-- 29 and 31 -->
-                <xsl:if test=".//tei:term[matches(attribute::xml:id, 'bayard-thomas-francis')]">
+                <xsl:if test=".//tei:term[matches(attribute::xml:id, 'blaine-james-gillespie')]">
                     <xsl:comment>Verify which James Gillespie Blaine term</xsl:comment>
                     <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0"><xsl:attribute
                             name="xml:id">us-secretary-of-state-029</xsl:attribute>United States.
-                        Department of State. Secretary (1881-1881 : Bayard, Thomas
-                        Francis)</xsl:element>
+                        Department of State. Secretary (1881-1881 : Blaine, James
+                        Gillespie)</xsl:element>
                     <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0"><xsl:attribute
                             name="xml:id">us-secretary-of-state-031</xsl:attribute>United States.
-                        Department of State. Secretary (1885-1889 : Bayard, Thomas
-                        Francis)</xsl:element>
+                        Department of State. Secretary (1885-1889 : Blaine, James
+                        Gillespie)</xsl:element>
                 </xsl:if>
 
                 <!-- 30 -->
