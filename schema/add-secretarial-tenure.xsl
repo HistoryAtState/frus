@@ -21,7 +21,8 @@
             <xsl:element name="keywords" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:attribute name="scheme"
                     >https://history.state.gov/tags/secretaries-of-state</xsl:attribute>
-
+                
+                <!-- (FRUS Publication Starts) -->
                 <!-- 24 -->
                 <xsl:if test=".//tei:term[matches(attribute::xml:id, 'seward-william-henry')]">
                     <xsl:element name="term" namespace="http://www.tei-c.org/ns/1.0"><xsl:attribute
