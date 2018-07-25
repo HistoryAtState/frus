@@ -63,6 +63,47 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="us-admin-026">United States. President (1901-1909 : Roosevelt,
+                        Theodore)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/events"/>
+                <keywords scheme="https://history.state.gov/tags/mandates"/>
+                <keywords scheme="https://history.state.gov/tags/organizations"/>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="hay-john-milton"/>
+                    <term xml:id="roosevelt-theodore"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="china"/>
+                    <term xml:id="france"/>
+                    <term xml:id="germany"/>
+                    <term xml:id="russia"/>
+                    <term xml:id="united-kingdom"/>
+                    <term type="provisional">Whangpu River</term>
+                    <term type="provisional">Woosung River</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term type="provisional">Arbitral Tribunal</term>
+                    <term type="provisional">Cessation of Hostilities</term>
+                    <term type="provisional">Imperial Edicts</term>
+                    <term type="provisional">International Concession</term>
+                    <term type="provisional">Legation</term>
+                    <term type="provisional">Negotiations of Powers with China</term>
+                    <term type="provisional">Plenipotentiaries of China</term>
+                    <term type="provisional">Prohibition of Arms</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/secretaries-of-state">
+                    <term xml:id="us-secretary-of-state-037">United States. Department of State.
+                        Secretary (1898-1905 : Hay, John Milton)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -106,17 +147,6 @@
             <frus:coverage notBefore="1900-07-03T00:00:00-05:00"
                 notAfter="1901-12-11T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term type="provisional">[...]</term>
-                    <term type="provisional">[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>

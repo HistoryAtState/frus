@@ -64,6 +64,60 @@
                 <title>Foreign Relations of the United States</title>
             </seriesStmt>
         </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://history.state.gov/tags/administrations">
+                    <term xml:id="us-admin-028">United States. President (1913-1921 : Wilson,
+                        Woodrow)</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/events">
+                    <term xml:id="world-war-i"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/mandates"/>
+                <keywords scheme="https://history.state.gov/tags/organizations">
+                    <term xml:id="league-of-nations"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/people">
+                    <term xml:id="bryan-william-jennings"/>
+                    <term xml:id="lansing-robert"/>
+                    <term xml:id="wilson-woodrow"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/places">
+                    <term xml:id="austria"/>
+                    <term xml:id="brazil"/>
+                    <term xml:id="bulgaria"/>
+                    <term xml:id="china"/>
+                    <term xml:id="colombia"/>
+                    <term xml:id="costa-rica"/>
+                    <term xml:id="germany"/>
+                    <term xml:id="hungary"/>
+                    <term xml:id="italy"/>
+                    <term xml:id="japan"/>
+                    <term xml:id="mexico"/>
+                    <term xml:id="norway"/>
+                    <term xml:id="poland"/>
+                    <term xml:id="russia"/>
+                    <term xml:id="sweden"/>
+                    <term xml:id="turkey"/>
+                    <term xml:id="united-kingdom"/>
+                    <term xml:id="uruguay"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/topics">
+                    <term xml:id="armistices"/>
+                    <term xml:id="neutrality"/>
+                    <term xml:id="peace"/>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags/secretaries-of-state">
+                    <term xml:id="us-secretary-of-state-041">United States. Department of State.
+                        Secretary (1913-1915 : Bryan, William Jennings)</term>
+                    <term xml:id="us-secretary-of-state-042">United States. Department of State.
+                        Secretary (1915-1920 : Lansing, Robert)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
@@ -107,17 +161,6 @@
             <frus:coverage notBefore="1914-06-16T00:00:00-05:00"
                 notAfter="1921-10-03T23:59:59-05:00"/>
         </xenoData>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://history.state.gov/tags/topics">
-                    <term type="provisional">[...]</term>
-                    <term type="provisional">[...]</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
     </teiHeader>
     <text>
         <front>
