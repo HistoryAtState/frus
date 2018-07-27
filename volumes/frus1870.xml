@@ -16,7 +16,7 @@
             <publicationStmt>
                 <publisher>United States Government Printing Office</publisher>
                 <pubPlace>Washington</pubPlace>
-                <date calendar="gregorian">1870</date>
+                <date calendar="gregorian" type="publication-date">1870</date>
                 <idno type="dospubno"/>
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
@@ -57,11 +57,18 @@
                         </list></p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2016-07-18 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
+        <xenoData>
+            <frus:coverage notBefore="1869-05-21T00:00:00-05:00"
+                notAfter="1870-12-05T23:59:59-05:00"/>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -81,8 +88,9 @@
             </titlePage>
             <pb n="[II]" xml:id="pg-seq-8" facs="0008"/>
             <pb n="[III]" xml:id="pg-seq-9" facs="0009"/>
-            <div type="section" xml:id="message" frus:doc-dateTime-min="1869-06-21T00:00:00-05:00"
-                frus:doc-dateTime-max="1870-12-01T23:59:59-05:00">
+            <div type="section" subtype="historical-document" xml:id="message"
+                frus:doc-dateTime-min="1870-12-05T00:00:00-05:00"
+                frus:doc-dateTime-max="1870-12-05T23:59:59-05:00">
                 <head>Message of the President of the United States.</head>
                 <p><hi rend="italic">To the Senate and House of Representatives:</hi></p>
                 <p>A year of peace and general prosperity to this nation has passed since the last
@@ -826,8 +834,8 @@
                 <pb n="[21]" xml:id="pg_21" facs="0055"/>
             </div>
             <div type="section" xml:id="contents" subtype="table-of-contents"
-                frus:doc-dateTime-min="1869-06-21T00:00:00-05:00"
-                frus:doc-dateTime-max="1870-12-01T23:59:59-05:00">
+                frus:doc-dateTime-min="1869-05-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1870-12-05T23:59:59-05:00">
                 <head>List of papers, with their contents.</head>
                 <p rend="center">1. PAPERS RELATING TO THE FRANCO–GERMAN WAR.</p>
                 <table cols="3">
@@ -4110,7 +4118,7 @@
         </front>
         <body>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1870-07-15T00:00:00-05:00"
-                frus:doc-dateTime-max="1870-11-27T23:59:59-05:00">
+                frus:doc-dateTime-max="1870-11-24T23:59:59-05:00">
                 <head>I. Papers relating to the Franco-German War.</head>
                 <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1870-08-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1870-10-08T23:59:59-05:00">
@@ -4451,8 +4459,8 @@
                                 <placeName><hi rend="smallcaps">United States Legation,</hi><hi
                                         rend="italic"> Vienna</hi></placeName>, <date
                                     when="1870-10-03" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 3, 1870. (Received October
-                                26.)</date></dateline></opener>
+                                        >October</hi> 3, 1870</date>. (Received October
+                                26.)</dateline></opener>
                         <p>The visit of M. Thiers to this court, on behalf of the government of the
                             national defense at Paris, left behind it no marked impression. He
                             remained but a few hours, and what he said had relation, as the
@@ -4504,8 +4512,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Brussels,</hi></placeName>
                                 <date when="1870-08-11" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 11, 1870. (Received August 24,
-                                1870.)</date></dateline></opener>
+                                        >August</hi> 11, 1870</date>. (Received August 24,
+                                1870.)</dateline></opener>
                         <p rend="center">* * * * * * * * *</p>
                         <p>Mr. Motley telegraphed me yesterday, as follows:</p>
                         <p>Please inform Generals Sheridan and Forsythe that Count Bismarck informs
@@ -4525,8 +4533,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Brussels</hi></placeName>,
                                     <date when="1870-09-01" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 1, 1870. (Received Sept. 15,
-                                1870.)</date></dateline></opener>
+                                        >September</hi> 1, 1870</date>. (Received Sept. 15,
+                                1870.)</dateline></opener>
                         <p>I have a letter from General Sheridan of the 24th August, saying, “I
                             reached this place, (Point-à-Mousson,) the headquarters of the Prussian
                             army, on the 17th, after much delay. On the 18th witnessed the battle of
@@ -4571,8 +4579,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Brussels</hi></placeName>,
                                     <date when="1870-09-23" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 23, 1870. (Received Oct. 12,
-                                1870.)</date></dateline></opener>
+                                        >September</hi> 23, 1870</date>. (Received Oct. 12,
+                                1870.)</dateline></opener>
                         <p>I have the honor to inform you that the chambers were convened on the
                             21st instant and adjourned yesterday. The only business transacted was
                             the voting of ten millions francs for war purposes. It appears that the
@@ -4611,8 +4619,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Brussels</hi></placeName>,
                                     <date when="1870-10-14" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 14, 1870, (Received October 29,
-                                1870.)</date></dateline></opener>
+                                        >October</hi> 14, 1870</date>, (Received October 29,
+                                1870.)</dateline></opener>
                         <p>Doctor Evans, an American dentist of Paris, was in to see me two or three
                             days since, and told me that on Sunday p. m., September 4, the Empress,
                             accompanied by a Madame Bretton, left the Tuilleries as the crowd was
@@ -4923,8 +4931,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Brussels</hi></placeName>,
                                     <date when="1870-11-15" calendar="gregorian"><hi rend="italic"
-                                        >November</hi> 15, 1870. (Received December
-                                1.)</date></dateline></opener>
+                                        >November</hi> 15, 1870</date>. (Received December
+                                1.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to inclose herewith a
                             circular of Count Bismarck, of the 10th October, in regard to the demand
                             of the members of the diplomatic corps remaining in Paris for permission
@@ -5130,8 +5138,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Copenhagen</hi></placeName>,
                                     <date when="1870-07-29" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 29, 1870. (Received August, 17,
-                                1870.)</date></dateline></opener>
+                                        >July</hi> 29, 1870</date>. (Received August, 17,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Referring to my dispatch No. 250, of 26th
                             instant, and its inclosures, I now send a translation of a note from
                             Baron Rosenörn-Lehn, of yesterday’s date, formally acquainting me with
@@ -5454,8 +5462,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Copenhagen</hi></placeName>,
                                     <date when="1870-08-04" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 4, 1870. (Received August 24,
-                                1870.)</date></dateline></opener>
+                                        >August</hi> 4, 1870</date>. (Received August 24,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I herewith inclose a translation of a note
                             of yesterday’s date, addressed to me by the Danish minister for foreign
                             affairs, advising me of the revocation, by order of 25th of last month,
@@ -5502,8 +5510,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Copenhagen</hi></placeName>,
                                     <date when="1870-08-05" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 5, 1870. (Received August 24,
-                                1870.)</date></dateline></opener>
+                                        >August</hi> 5, 1870</date>. (Received August 24,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Touching the subject of the neutrality of
                             Denmark in the present contest between Prussia and France, two events
                             have lately occurred of some interest. This government has forbidden the
@@ -5561,8 +5569,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Copenhagen</hi></placeName>,
                                     <date when="1870-08-09" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 9, 1870. (Received August 30,
-                                1870.)</date></dateline></opener>
+                                        >August</hi> 9, 1870</date>. (Received August 30,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: Referring to my dispatch No. 253, it
                             appears that the Marquis de Cadore has not yet been formally and
                             officially presented to the King or to the Danish government, though he
@@ -5606,8 +5614,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Copenhagen</hi></placeName>,
                                     <date when="1870-08-13" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 13, 1870. (Received August 30,
-                                1870.)</date></dateline></opener>
+                                        >August</hi> 13, 1870</date>. (Received August 30,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: The Marquis de Cadore left here yesterday,
                             and if he accomplished anything while here, it is wholly unknown, and it
                             is believed that he did not. There can now be no further question about
@@ -6315,8 +6323,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-08-18" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 18, 1870. (Received August 3,
-                                1870.)</date></dateline></opener>
+                                        >July</hi> 18, 1870</date>. (Received August 3,
+                                1870.)</dateline></opener>
                         <p>On receipt yesterday of your dispatch of the 16th instant, in reference
                             to the North German steamers, I waited immediately upon the minister of
                             foreign affairs. In his absence I saw Count Favernay, the “chef de
@@ -6403,8 +6411,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-07-22" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 22, 1870. (Received August
-                            3.)</date></dateline></opener>
+                                        >July</hi> 22, 1870</date>. (Received August
+                            3.)</dateline></opener>
                         <p>Referring to the subject of the request made by you on the 17th instant,
                             that I should inquire whether, in the event of war between France and
                             the North German Confederation, the North German steamers would be
@@ -6457,9 +6465,11 @@
                             <opener>
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">Paris,</hi></placeName>
-                                    <date when="1870-07-04" calendar="gregorian"><hi rend="italic"
-                                            >July</hi> —, 1870. (Received July 21,
-                                    1870.)</date></dateline></opener>
+                                    <date when="1870-04" notBefore="1870-07-17T00:00:00+00:09"
+                                        notAfter="1870-07-21T23:59:59-04:56" calendar="gregorian"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                            ><hi rend="italic">July</hi> —, 1870</date>. (Received
+                                    July 21, 1870.)</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: The consignees of the German steamers
                                 established between Hamburg, Bremen, and New York, stopping at
                                 Havre, have applied to the cabinet of Washington to know if they
@@ -6534,8 +6544,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-07-22" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 22, 1870. (Received Aug.
-                            3.)</date></dateline></opener>
+                                        >July</hi> 22, 1870</date>. (Received Aug.
+                            3.)</dateline></opener>
                         <p>Count Solms, charge d’affaires of the North German Confederation, left
                             here for Berlin on Wednesday night, after turning over to this legation
                             the archives of the embassy to which he belonged. He expressed himself
@@ -6704,8 +6714,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-08-26" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 26, 1870. (Received August
-                            11.)</date></dateline></opener>
+                                        >July</hi> 26, 1870</date>. (Received August
+                            11.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to transmit herewith a
                             copy of the correspondence relating to the protection of subjects of the
                             King of Saxony residing in France by the Government of the United
@@ -6818,8 +6828,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-07-26" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 26, 1870. (Received Aug.
-                            11.)</date></dateline></opener>
+                                        >July</hi> 26, 1870</date>. (Received Aug.
+                            11.)</dateline></opener>
                         <p>I have the honor to inclose a copy of the correspondence bearing upon the
                             protection afforded by the Government of the United States to the
                             subjects of Hesse Grand-Ducale, resident in France, who, owing to the
@@ -6939,8 +6949,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-07-29" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 29, 1870. (Received Aug.
-                            11.)</date></dateline></opener>
+                                        >July</hi> 29, 1870</date>. (Received Aug.
+                            11.)</dateline></opener>
                         <p>Referring to my dispatch of the 22d instant, numbered 231, and to the
                             reference therein to the question of the departure of the subjects of
                                 <pb n="81" xml:id="pg_81" facs="0115"/>the North German
@@ -7167,8 +7177,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-08-29" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 29, 1870. (Received August
-                            11.)</date></dateline></opener>
+                                        >July</hi> 29, 1870</date>. (Received August
+                            11.)</dateline></opener>
                         <p>The French government having notified this legation that the Emperor had
                             decided that the consular agents of the North German Confederation in
                             France must cease to exercise their official functions, and it having
@@ -7243,8 +7253,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-08-29" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 29, 1870. (Received August 11,
-                                1870.)</date></dateline></opener>
+                                        >July</hi> 29, 1870</date>. (Received August 11,
+                                1870.)</dateline></opener>
                         <p>In addition to what I have said in the various dispatches which go by the
                             bag to-day, I have very little to add. The Emperor left for the army
                             yesterday. I send you his decree conferring on the Empress the title of
@@ -7397,8 +7407,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-07-29" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 29, 1870. (Received August 11,
-                                1870.)</date></dateline></opener>
+                                        >July</hi> 29, 1870</date>. (Received August 11,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have just learned, what may be a matter
                             of some interest to you, that the subjects of Bavaria, Würtemberg, and
                             Baden have been put under the protection of the Swiss minister, Mr.
@@ -7418,8 +7428,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United States</hi>
                                     <hi rend="italic">Paris</hi></placeName>, <date
                                     when="1870-08-05" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 5, 1870. (Received August 17,
-                                1870.)</date></dateline></opener>
+                                        >August</hi> 5, 1870</date>. (Received August 17,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to transmit herewith a
                             printed copy of a dispatch addressed by his excellency the Duke de
                             Gramont, minister of foreign affairs, to the diplomatic agents of France
@@ -7613,8 +7623,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-08-08" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 8, 1870. (Received August 24,
-                                1870.)</date></dateline></opener>
+                                        >August</hi> 8, 1870</date>. (Received August 24,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: In my dispatch of Friday last, August 5,
                             No. 246, I ventured the prediction that there would be no great battle
                             immediately, though qualifying it in parentheses, that such a battle
@@ -7771,8 +7781,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-08-11" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 11, 1870. (Received August
-                                23.)</date></dateline></opener>
+                                        >August</hi> 11, 1870</date>. (Received August
+                                23.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to send you herewith a
                             copy of a letter I addressed to the Duke de Gramont, together with the
                             translation of his reply. The correspondence explains itself.</p>
@@ -7881,8 +7891,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-08-12" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 12, 1870. (Received August
-                                23.)</date></dateline></opener>
+                                        >August</hi> 12, 1870</date>. (Received August
+                                23.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In view of the threatened, and, in some
                             cases, the actual, maltreatment of the subjects of the powers now at war
                             with France, I have been concerting measures with Mr. Kern, the Swiss
@@ -7952,8 +7962,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-08-12" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 12, 1870. (Received August 23,
-                                1870.)</date></dateline></opener>
+                                        >August</hi> 12, 1870</date>. (Received August 23,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In the tremendous rush upon me, I have
                             only time to send you the accompanying printed list of the new ministry.
                             I was in hopes to have been able to give you some account of them, but
@@ -7990,8 +8000,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-08-15" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 15, 1870. (Received August
-                                31.)</date></dateline></opener>
+                                        >August</hi> 15, 1870</date>. (Received August
+                                31.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir: I</hi> have to-day received the dispatch of Mr.
                             Davis, relative to the credit to be placed at my disposition by the
                             Prussian government in aid of their subjects expelled from France. I
@@ -8033,8 +8043,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United States,</hi>
                                     <hi rend="italic">Paris</hi></placeName>, <date
                                     when="1870-08-16" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 16, 1870. (Received August
-                                31.)</date></dateline></opener>
+                                        >August</hi> 16, 1870</date>. (Received August
+                                31.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: Referring to my dispatch No. 238, bearing
                             date the 29th instant, [ultimo,] I now have the honor to inclose you
                             herewith the reply of the Duke de Gramont to my letter to him dated the
@@ -8428,8 +8438,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-08-22" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 22, 1870. (Received September
-                                S.)</date></dateline></opener>
+                                        >August</hi> 22, 1870</date>. (Received September
+                                S.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In my dispatch No. 253, and dated the 12th
                             instant, I spoke of an interview which was to be had that evening by Mr.
                             Kern, the Swiss minister, Mr. Okouneff, the Russian chargé d’affaires,
@@ -8879,8 +8889,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-26" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 26, 1870. (Received September
-                                8.)</date></dateline></opener>
+                                        >August</hi> 26, 1870</date>. (Received September
+                                8.)</dateline></opener>
                         <p>I have the honor to send you herewith a copy of the telegraphic dispatch
                             of Mr. Motley in regard to the protest of Count Bismarck, and the reply
                             of the Prince de la Tour d’Auvergne, which carry with them their own
@@ -8976,8 +8986,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-26" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 26, 1870. (Received September 8<hi
-                                        rend="italic">,</hi> 1870.)</date></dateline></opener>
+                                        >August</hi> 26, 1870</date>. (Received September 8<hi
+                                    rend="italic">,</hi> 1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> We are still utterly in the dark here as
                             to war news, and the greatest uneasiness begins to prevail among the
                             Americans finding themselves at the present time in Paris. Large numbers
@@ -9040,8 +9050,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-29" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 29, 1870. (Received September
-                                14.)</date></dateline></opener>
+                                        >August</hi> 29, 1870</date>. (Received September
+                                14.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: The decree of General Trochu, governor of
                             Paris, which I have the honor to send herewith, marked No. 1, appeared
                             this morning in the official journal, and was placarded over the city
@@ -9202,8 +9212,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-02" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 2, 1870. (Received September
-                                15.)</date></dateline></opener>
+                                        >September</hi> 2, 1870</date>. (Received September
+                                15.)</dateline></opener>
                         <p>I have the honor to inclose you herewith copies of telegraphic dispatches
                             from Count Bismarck to Count Bernstorff, sent to me by Mr. Motley, to be
                             by me transmitted to the French government, together with my notes
@@ -9301,8 +9311,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-02" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 2, 1870. (Received September
-                                15.)</date></dateline></opener>
+                                        >September</hi> 2, 1870</date>. (Received September
+                                15.)</dateline></opener>
                         <p rend="center">* * * * * * * *</p>
                         <p>The greater part of the German population has left the city.</p>
                         <p>This legation has visaed passports and given safe-conducts for very
@@ -9429,8 +9439,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-05" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 5, 1870. (Received September 20,
-                                    1870.)</date></dateline></opener>
+                                        >September</hi> 5, 1870</date>. (Received September 20,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: Since I had the honor of addressing you my
                             last dispatch, No. 275, events have marched with gigantic strides. The
                             news of the full extent of the catastrophe which befell the army of
@@ -9660,8 +9670,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-09" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 9, 1870. (Received September
-                                22.)</date></dateline></opener>
+                                        >September</hi> 9, 1870</date>. (Received September
+                                22.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir: * * * * * * *</hi></p>
                         <p>I telegraphed you of the results and condition of things here on Monday,
                             and asked for instructions, though not doubting what would be <pb
@@ -9837,8 +9847,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-09" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 9, 1870. (Received September 22,
-                                    1870.)</date></dateline></opener>
+                                        >September</hi> 9, 1870</date>. (Received September 22,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> At about 4 o’clock yesterday afternoon a
                             large crow of French people came to the legation, bearing the French and
                             American flags, repeating the cries, “Vive l’Amérique!” “Vive la
@@ -9902,8 +9912,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-09" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 9, 1870. (Received September
-                                22.)</date></dateline></opener>
+                                        >September</hi> 9, 1870</date>. (Received September
+                                22.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to inclose you herewith
                             the proclamation of the government of the national defense, together
                             with certain decrees issued yesterday, and appearing in the official
@@ -9996,8 +10006,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Paris,</hi></placeName>
                                 <date when="1870-09-12" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 12, 1870. (Received September 12,
-                                    1870.)</date></dateline></opener>
+                                        >September</hi> 12, 1870</date>. (Received September 12,
+                                1870.)</dateline></opener>
                         <p>Government requests me to use my good offices, unofficially, and simply
                             as a citizen, to hold intercourse with Prussian government. Have
                             declined until I can hear from you. Immediate answer important.</p>
@@ -10016,8 +10026,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-13" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 13, 1870. (Received September
-                                29.)</date></dateline></opener>
+                                        >September</hi> 13, 1870</date>. (Received September
+                                29.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Late on Sunday evening last a gentleman,
                             having intimate relations with the government of the national defense,
                             called upon me at my residence to know if I would not unofficially, and
@@ -10060,8 +10070,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-13" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 13, 1870. (Received September
-                                29.)</date></dateline></opener>
+                                        >September</hi> 13, 1870</date>. (Received September
+                                29.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Contrary to the first notice, the
                             government of the national defense has determined to remain in Paris,
                             the minister of justice, M. Crémieux, only going away, and he goes to
@@ -10100,8 +10110,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-20" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 20, 1870. (Received October
-                                5.)</date></dateline></opener>
+                                        >September</hi> 20, 1870</date>. (Received October
+                                5.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I am making up a small dispatch to send to
                             London by a gentleman who leaves at noon to-day. He may get through or
                             he may not. <pb n="121" xml:id="pg_121" facs="0155"/>All communication
@@ -10126,8 +10136,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-10-21" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 21, 1870. (Received October
-                                18.)</date></dateline></opener>
+                                        >September</hi> 21, 1870</date>. (Received October
+                                18.)</dateline></opener>
                         <p>I have the honor to inclose you herewith a correspondence I have had with
                             some German citizens of the United States, in relation to the protection
                             afforded them by American passports, and which explains itself.</p>
@@ -10208,8 +10218,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-10-26" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 26, 1870. (Received October
-                                19.)</date></dateline></opener>
+                                        >September</hi> 26, 1870</date>. (Received October
+                                19.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to inclose you herewith
                             the proceedings of a meeting of the diplomatic corps, as drawn up by my
                             private secretary, and which fully explain themselves.</p>
@@ -10289,8 +10299,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-30" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 30, 1870. (Received October 18,
-                                    1870.)</date></dateline></opener>
+                                        >September</hi> 30, 1870</date>. (Received October 18,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to send you herewith
                             copies of a correspondence between the consuls general and consuls of
                             Southern and Central America and myself, (including a letter from the
@@ -10556,8 +10566,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-10-03" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 3, 1870. (Received October
-                                18.)</date></dateline></opener>
+                                        >October</hi> 3, 1870</date>. (Received October
+                                18.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Much to my surprise and gratification
                             General Burnside and Paul Forbes, esq., made their appearance at my
                             house this morning, at 8.30 o’clock. They were courteously permitted to
@@ -10611,8 +10621,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-10-04" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 4, 1870. (Received November—,
-                                1870.)</date></dateline></opener>
+                                        >October</hi> 4, 1870</date>. (Received November—,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> General Burnside and Mr. Forbes left to go
                             through the Prussian lines yesterday. The general took the bag, in which
                             I had inclosed <pb n="127" xml:id="pg_127" facs="0161"/>several
@@ -10659,8 +10669,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-10-08" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 8, 1870. (Received November 9,
-                                1870.)</date></dateline></opener>
+                                        >October</hi> 8, 1870</date>. (Received November 9,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to inclose you herewith
                             certain proceedings of meetings held by the diplomatic corps, which may
                             be taken in connection with my dispatch No. 301, under date of the 4th
@@ -10840,8 +10850,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-10-18" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 18, 1870. (Received November 9,
-                                1870.)</date></dateline></opener>
+                                        >October</hi> 18, 1870</date>. (Received November 9,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Many of our countrymen, shut in by the
                             investment of Paris, having become very anxious to leave the city, I
                             asked General Burnside to procure, if possible, the permission of the
@@ -10923,8 +10933,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-11-24" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 24, 1870. (Received November 15,
-                                1870.)</date></dateline></opener>
+                                        >October</hi> 24, 1870</date>. (Received November 15,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> The minister of the United States of
                             Colombia, Mr. Caicedo, before leaving Paris, with all the “personnel”
                             his legation, requested me to take under my protection the few
@@ -10957,8 +10967,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-11-24" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 24, 1870. (Received November 15,
-                                1870.)</date></dateline></opener>
+                                        >October</hi> 24, 1870</date>. (Received November 15,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: Referring to my dispatch of the 18th
                             instant, and numbered 305, I have the honor to state that I have this
                             day received from the government of the national defense the permission
@@ -11151,8 +11161,8 @@
                         </frus:attachment>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d97" n="97"
-                        frus:doc-dateTime-min="1870-10-31T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-10-31T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-10-31T17:51:00-05:00"
+                        frus:doc-dateTime-max="1870-10-31T17:51:00-05:00">
                         <note rend="inline" type="source">No. 97.</note>
                         <head><persName type="from">Mr. E. B. Washburne</persName> to <persName
                                 type="to">Mr. Fish</persName>.</head>
@@ -11161,10 +11171,10 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Paris,</hi></placeName>
-                                <date when="1870-10-31" calendar="gregorian">11 <hi rend="italic"
-                                        >o’clock Monday night</hi>, <hi rend="italic">October</hi>
-                                    31, 1870. (Received November 25,
-                            1870.)</date></dateline></opener>
+                                <date when="1870-10-31T23:00:00+00:09" calendar="gregorian">11 <hi
+                                        rend="italic">o’clock Monday night</hi>, <hi rend="italic"
+                                        >October</hi> 31, 1870</date>. (Received November 25,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir: I</hi> have waited till a very late hour before
                             commencing my dispatch, which I hope to be able to start off at a very
                             early hour to-morrow morning. The day has been one of much excitement
@@ -11239,8 +11249,8 @@
                                         States,</hi>
                                     <hi rend="italic">Washington</hi></placeName>, <date
                                     when="1870-08-03" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 3, 1870. (Received August 3,
-                                1870.)</date></dateline></opener>
+                                        >August</hi> 3, 1870</date>. (Received August 3,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> According to the instructions of my
                             government, I have the honor to communicate to you the text herewith
                             inclosed of the declaration made the 20th of July last to the senate and
@@ -11311,8 +11321,8 @@
                                         States,</hi>
                                     <hi rend="italic">Washington</hi></placeName>, <date
                                     when="1870-08-03" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 3, 1870. (Received August 3,
-                                1870.)</date></dateline></opener>
+                                        >August</hi> 3, 1870</date>. (Received August 3,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> The undersigned, envoy extraordinary and
                             minister plenipotentiary of his Majesty the Emperor of the French, has
                             been directed by his government to address the following communication
@@ -11650,8 +11660,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington,</hi></placeName>
                                 <date when="1870-09-16" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 16, 1870. (Received September
-                                16.)</date></dateline></opener>
+                                        >September</hi> 16, 1870</date>. (Received September
+                                16.)</dateline></opener>
                         <p>Mr. <hi rend="smallcaps">Secbetaby of State:</hi> The minister of foreign
                             affairs addresses to me, under date of August 31 and September 2,
                             various communications <pb n="141" xml:id="pg_141" facs="0175"/>to which
@@ -11971,8 +11981,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <date when="1870-08-18" calendar="gregorian"><hi rend="smallcaps"
-                                        >August</hi> 18, 1870. (Received August
-                                20.)</date></dateline></opener>
+                                        >August</hi> 18, 1870</date>. (Received August
+                                20.)</dateline></opener>
                         <p>Cannot get gold; silver only can be bad. Business clogged and people
                             indignant. I strongly advise taking silver.</p>
                         <p>Can I bank with Hottinguer, Barings’ correspondent here; unwilling to
@@ -11992,8 +12002,8 @@
                                 <placeName><hi rend="smallcaps">United States Consulate General for
                                         France,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-08-18" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 18, 1870. (Received August
-                                31.)</date></dateline></opener>
+                                        >August</hi> 18, 1870</date>. (Received August
+                                31.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to acknowledge the
                             receipt of your dispatch, No. 55, and I am happy that the Department so
                             warmly approves of my administration of this responsible and laborious
@@ -12099,8 +12109,8 @@
                         <opener>
                             <dateline rendition="#right">
                                 <date when="1870-08-19" calendar="gregorian"><hi rend="smallcaps"
-                                        >August</hi> 19. (Received August 20,
-                                1870.)</date></dateline></opener>
+                                        >August</hi> 19</date>. (Received August 20,
+                                1870.)</dateline></opener>
                         <p>Your two telegrams of eighteenth answer satisfactorily all mine, except
                             please authorize me immediately to bank public funds daily with
                             Rothschild or Hottinguer, Baring’s correspondent, for instance. This
@@ -12139,8 +12149,8 @@
                                 <placeName><hi rend="smallcaps">United States Consulate General fob
                                         France,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-24" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 24, 1870. (Received September
-                                8.)</date></dateline></opener>
+                                        >August</hi> 24, 1870</date>. (Received September
+                                8.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to acknowledge the
                             receipt of your four telegrams of the 18th and 19th instant, and to
                             inform you that I have instructed all the consuls within my jurisdiction
@@ -12261,8 +12271,8 @@
                                 <placeName><hi rend="smallcaps">United States Consulate General for
                                         France,</hi><hi rend="italic"> Paris</hi></placeName>, <date
                                     when="1870-09-16" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 16, 1870. (Received October
-                                3.)</date></dateline></opener>
+                                        >September</hi> 16, 1870</date>. (Received October
+                                3.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge the
                             receipt of your dispatch No. 60, with inclosed copies of telegrams
                             forwarded to me by the Department. I have the honor also to reply to the
@@ -12406,8 +12416,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> London</hi></placeName>,
                                     <date when="1870-07-21" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 21, 1870. (Received August
-                            3.)</date></dateline></opener>
+                                        >July</hi> 21, 1870</date>. (Received August
+                            3.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to send herewith two
                             copies of a proclamation of her Majesty the Queen, commanding British
                             subjects to observe strict neutrality in the war now existing between
@@ -12585,8 +12595,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> London</hi></placeName>,
                                     <date when="1870-08-03" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 3, 1870. (Received August 16,
-                                1870.)</date></dateline></opener>
+                                        >August</hi> 3, 1870</date>. (Received August 16,
+                                1870.)</dateline></opener>
                         <p>S<hi rend="smallcaps">ir</hi>: * * * * * * * *</p>
                         <p>I would also bring to your notice the report in that paper (the Times of
                             August 2, 1870) of a debate in the House of Commons * * on the occasion
@@ -13540,8 +13550,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> London</hi></placeName>,
                                     <date when="1870-08-11" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 11, 1870. (Received August
-                                24.)</date></dateline></opener>
+                                        >August</hi> 11, 1870</date>. (Received August
+                                24.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I sent you a telegram on the 9th instant
                             in these words:</p>
                         <p>“It is an authentic fact that the French government telegraphed to London
@@ -13569,8 +13579,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> London</hi></placeName>,
                                     <date when="1870-08-18" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 18, 1870. (Received August
-                                30.)</date></dateline></opener>
+                                        >August</hi> 18, 1870</date>. (Received August
+                                30.)</dateline></opener>
                         <p>I have the honor to send herewith a circular dispatch of Lord Granville
                             addressed to her Majesty’s diplomatic and consular representatives in
                             Germany, which has just been made public, defining the views of the
@@ -13706,8 +13716,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> London</hi></placeName>,
                                     <date when="1870-10-01" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 1, 1870. (Received October 14,
-                                1870.)</date></dateline></opener>
+                                        >October</hi> 1, 1870</date>. (Received October 14,
+                                1870.)</dateline></opener>
                         <p>I have the honor to send herewith copies of the report of M. Jules Favre
                             concerning his recent interview with Count Bismarck as they appear in
                             the London papers of the day.</p>
@@ -14138,8 +14148,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> London</hi></placeName>,
                                     <date when="1870-10-06" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 6, 1870. (Received October 18,
-                                1870.)</date></dateline></opener>
+                                        >October</hi> 6, 1870</date>. (Received October 18,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to send herewith a copy
                             of the correspondence between Earl Granville and Count Bernstorff,
                             Prussian and North German <pb n="171" xml:id="pg_171" facs="0205"
@@ -14665,8 +14675,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> London</hi></placeName>,
                                     <date when="1870-10-13" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 13, 1870. (Received October
-                                26.)</date></dateline></opener>
+                                        >October</hi> 13, 1870</date>. (Received October
+                                26.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I sent you on the 10th instant a dispatch,
                             partly in cipher, of which the text is as follows. It reached me from
                             Mr. Washburne by what is now called balloon post:</p>
@@ -14694,8 +14704,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> London</hi></placeName>,
                                     <date when="1870-10-15" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 15, 1870. (Received October
-                                29.)</date></dateline></opener>
+                                        >October</hi> 15, 1870</date>. (Received October
+                                29.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Referring to my No. 482, I have the honor
                             to send herewith the reply of Count Bernstorff to the letter of Lord
                             Granville, extracted from the Times of the 10th instant.</p>
@@ -15245,8 +15255,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington,</hi> D. C.</placeName>,
                                     <date when="1870-10-23" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 23, 1870. (Received at 1.30 p.
-                                m.)</date></dateline></opener>
+                                        >October</hi> 23, 1870</date>. (Received at 1.30 p.
+                                m.)</dateline></opener>
                         <p>To <hi rend="smallcaps">Fish,</hi>
                             <hi rend="italic">Secretary of State, Washington City</hi>:</p>
                         <p>Lord Granville has just informed me that her Majesty’s government have
@@ -15267,8 +15277,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> London</hi></placeName>,
                                     <date when="1870-11-01" calendar="gregorian"><hi rend="italic"
-                                        >November</hi> 1, 1870. (Received November
-                                15.)</date></dateline></opener>
+                                        >November</hi> 1, 1870</date>. (Received November
+                                15.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Referring to my Nos. 482 and 489, I have
                             now the honor to send herewith a copy taken from yesterday’s Times, of a
                             letter addressed by Lord Granville, on the 21st ultimo, to Count
@@ -15664,8 +15674,8 @@
                                 <placeName><hi rend="smallcaps">United States Legation
                                         Yokohama,</hi><hi rend="italic"> Japan</hi></placeName>,
                                     <date when="1870-10-10" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 10, 1870. (Received November
-                                25.)</date></dateline></opener>
+                                        >October</hi> 10, 1870</date>. (Received November
+                                25.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to inform you that on the
                             4th instant I received from the Japanese minister for foreign affairs a
                             letter (inclosure No. 1) inclosing to me a printed copy of the
@@ -16414,8 +16424,8 @@
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-08-16" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 16, 1870. (Received August
-                            3.)</date></dateline></opener>
+                                        >July</hi> 16, 1870</date>. (Received August
+                            3.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi> * * * * * * * *</p>
                         <p>War was yesterday declared against Prussia. The King did everything to
                             avoid it that he could. It is evident that there was a wavering in the
@@ -16478,8 +16488,8 @@
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-07-27" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 27, 1870. (Received November
-                                10.)</date></dateline></opener>
+                                        >July</hi> 27, 1870</date>. (Received November
+                                10.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> To-day I have to send you an authentic
                             copy of one of the most remarkable documents ever framed by a European
                             statesman. Some time ago (the exact date is uncertain) M. Benedetti, the
@@ -16570,8 +16580,8 @@
                         </frus:attachment>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d152" n="152"
-                        frus:doc-dateTime-min="1870-08-28T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-08-28T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-07-28T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-07-28T23:59:59-05:00">
                         <note rend="inline" type="source">No. 152.</note>
                         <head><persName type="from">Mr. Bancroft to Mr. Fish,</persName></head>
                         <opener>
@@ -16579,9 +16589,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
-                                    when="1870-08-28" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 28, 1870. (Received August
-                            18.)</date></dateline></opener>
+                                    when="1870-07-28" calendar="gregorian"><hi rend="italic"
+                                        >July</hi> 28, 1870</date>. (Received August
+                            18.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Yesterday at the foreign office I was
                             requested to authorize Mr. Washburne at Paris to employ such assistants
                             as he might need to meet the additional labor imposed upon him by the
@@ -16606,8 +16616,8 @@
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-08-02" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 2, 1870. (Received August
-                                22.)</date></dateline></opener>
+                                        >August</hi> 2, 1870</date>. (Received August
+                                22.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I inclose a copy of the circular letter of
                             Count Bismarck relating to the Benedetti project of a treaty. It is in
                             every respect one of the most important State papers of our time. * *
@@ -16816,8 +16826,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Berlin,</hi></placeName>
                                 <date when="1870-08-14" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 14, 1870. (Received August
-                                15.)</date></dateline></opener>
+                                        >August</hi> 14, 1870</date>. (Received August
+                                15.)</dateline></opener>
                         <p>Prussia opens credit for Washburne. * * * * German army prepared to turn
                             French army north and south to save themselves: French abandons Moselle
                             line. Next defensible line the Marne.</p>
@@ -16837,8 +16847,8 @@
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-08-15" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 15, 1870. (Received August
-                                31.)</date></dateline></opener>
+                                        >August</hi> 15, 1870</date>. (Received August
+                                31.)</dateline></opener>
                         <p>Yesterday forenoon I received your telegram, as follows:</p>
                         <p><hi rend="smallcaps">Bancroft,</hi>
                             <hi rend="italic">Minister, Berlin:</hi></p>
@@ -16913,8 +16923,8 @@
                                 <placeName><hi rend="smallcaps">American Legation.</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-08-22" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 22, 1870. (Received September
-                                7.)</date></dateline></opener>
+                                        >August</hi> 22, 1870</date>. (Received September
+                                7.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> The sum of fifty thousand thalers, placed
                             by the royal government at the disposition of our minister at Paris, is
                             designed for the relief, <pb n="204" xml:id="pg_204" facs="0238"/>not of
@@ -16977,8 +16987,8 @@
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-09-01" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 1, 1870. (Received September
-                                20.)</date></dateline></opener>
+                                        >September</hi> 1, 1870</date>. (Received September
+                                20.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: By the inclosed letter from the consular
                             agent at Königsberg, it would appear that the French blockade of the
                             Prussian ports on the Baltic is not an effective one. So far as I know,
@@ -17060,8 +17070,8 @@
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-09-06" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 6, 1870. (Received September
-                                20.)</date></dateline></opener>
+                                        >September</hi> 6, 1870</date>. (Received September
+                                20.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> The American minister at Paris having been
                             accepted as the protector of Germans in France, much correspondence has
                             passed through my hands, relating, for example, to the security of the
@@ -17166,8 +17176,8 @@
                         <opener><dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Berlin,</hi></placeName>
                                 <date when="1870-09-11" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 11, 1870. (Received September
-                                11.)</date></dateline></opener>
+                                        >September</hi> 11, 1870</date>. (Received September
+                                11.)</dateline></opener>
                         <p>No time now for America to intervene. Germany rejects all foreign
                             interference. Every other power holds back. America would stand alone
                             and unable to accomplish anything. Our interest, dignity, require us for
@@ -17188,8 +17198,8 @@
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-09-16" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 16, 1870. (Received October
-                                3.)</date></dateline></opener>
+                                        >September</hi> 16, 1870</date>. (Received October
+                                3.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Having received a telegram from Commander
                             Luce, of the Juniata, that the French blockade of the Elbe and Weser had
                             been raised on the 11th, I telegraphed the news to you yesterday.</p>
@@ -17211,8 +17221,8 @@
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-10-21" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 21, 1870. (Received October
-                                10.)</date></dateline></opener>
+                                        >September</hi> 21, 1870</date>. (Received October
+                                10.)</dateline></opener>
                         <p>I am able to report to you, on the best authority, the views which are
                             entertained by the allied German governments in relation to the
                             conditions of the peace to be established between themselves and
@@ -17276,8 +17286,8 @@
                             <signed>GEORGE BANCROFT.</signed></closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d163" n="163"
-                        frus:doc-dateTime-min="1870-10-22T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-10-22T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-09-22T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-09-22T23:59:59-05:00">
                         <note rend="inline" type="source">No. 163.</note>
                         <head><persName type="from">Mr. Bancroft</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -17286,9 +17296,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
-                                    when="1870-10-22" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 22, 1870. (Received October
-                                10.)</date></dateline></opener>
+                                    when="1870-09-22" calendar="gregorian"><hi rend="italic"
+                                        >September</hi> 22, 1870</date>. (Received October
+                                10.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> The French blockade of the Baltic ports
                             has existed only on paper. Herewith I inclose a translation of a report
                             which I obtained on the subject through the activity of our consular
@@ -17351,8 +17361,8 @@
                         </frus:attachment>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d164" n="164"
-                        frus:doc-dateTime-min="1870-10-24T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-10-24T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-09-24T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-09-24T23:59:59-05:00">
                         <note rend="inline" type="source">No. 164.</note>
                         <head><persName type="from">Mr. Bancroft</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -17361,9 +17371,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
-                                    when="1870-10-24" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 24, 1870. (Received October
-                                10.)</date></dateline></opener>
+                                    when="1870-09-24" calendar="gregorian"><hi rend="italic"
+                                        >September</hi> 24, 1870</date>. (Received October
+                                10.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: Count Bismarck has published another
                             circular, in which he expressly defines as the conditions of peace the
                             cession to Germany of the fortresses of Strasburg and Metz. He describes
@@ -17674,8 +17684,8 @@
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-09-29" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 29, 1870. (Received October
-                                14.)</date></dateline></opener>
+                                        >September</hi> 29, 1870</date>. (Received October
+                                14.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: In pursuance of your instruction of August
                             30 (No. 128) I addressed to the secretary for foreign affairs a request
                             that measures might be taken for the protection of the large amount of
@@ -17728,8 +17738,8 @@
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-10-29" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 29, 1870. (Received October
-                                20.)</date></dateline></opener>
+                                        >September</hi> 29, 1870</date>. (Received October
+                                20.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> On the 24th of this month I sent you the
                             following telegram:</p>
                         <p><hi rend="smallcaps">Fish,</hi>
@@ -17787,8 +17797,8 @@
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-10-03" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 3, 1870. (Received October
-                                20.)</date></dateline></opener>
+                                        >October</hi> 3, 1870</date>. (Received October
+                                20.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have this moment received, a little in
                             advance of the press, a lithographic copy of Count Bismarck’s account of
                             his interview with Jules Favre. Having no time to make a translation or
@@ -17814,8 +17824,8 @@
                                 <placeName><hi rend="smallcaps">American Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-10-05" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 5, 1870. (Received October
-                                20.)</date></dateline></opener>
+                                        >October</hi> 5, 1870</date>. (Received October
+                                20.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In your letter of July 22 to Baron Gerolt
                             you express your hope that the Government and people of the United
                             States may soon be gratified by seeing the principle of exempting
@@ -17845,8 +17855,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Berlin</hi></placeName>,
                                     <date when="1870-11-10" calendar="gregorian"><hi rend="italic"
-                                        >November</hi> 10, 1870. (Received November
-                                25.)</date></dateline></opener>
+                                        >November</hi> 10, 1870</date>. (Received November
+                                25.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: Several causes have combined to delay
                             operations against Paris far beyond the time that was at first assigned
                             for them. The King is disinclined to damage the city. The officers of
@@ -17920,8 +17930,8 @@
                                 <placeName><hi rend="smallcaps">Legation of North Germany,</hi>
                                     <hi rend="italic">Washington</hi></placeName>, <date
                                     when="1870-07-19" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 19, 1870. (Received July
-                            19.)</date></dateline></opener>
+                                        >July</hi> 19, 1870</date>. (Received July
+                            19.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to communicate to you the
                             following cable dispatch, received this morning from the chancellor of
                             North Germany, Count Bismarck:</p>
@@ -18056,8 +18066,8 @@
                                         Union,</hi>
                                     <hi rend="italic">Washington</hi></placeName>, <date
                                     when="1870-07-25" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 25, 1870. (Received July
-                            26.)</date></dateline></opener>
+                                        >July</hi> 25, 1870</date>. (Received July
+                            26.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge the
                             receipt of your note of the 21st instant, communicating to me the cable
                             dispatch of the American minister at Paris, in relation to the refusal
@@ -18086,8 +18096,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the North German
                                         Union,</hi><hi rend="italic"> Washington</hi></placeName>,
                                     <date when="1870-08-11" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 11, 1870. (Received August
-                                12.)</date></dateline></opener>
+                                        >August</hi> 11, 1870</date>. (Received August
+                                12.)</dateline></opener>
                         <p>The undersigned, envoy extraordinary and minister plenipotentiary of the
                             North German Union, has the honor, by order of his government, to
                             present to the Hon. Hamilton Fish, Secretary of State of the United
@@ -18328,8 +18338,8 @@
                                         Union,</hi>
                                     <hi rend="italic">Washington</hi></placeName>, <date
                                     when="1870-08-26" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 26, 1870. (Received August
-                                26.)</date></dateline></opener>
+                                        >August</hi> 26, 1870</date>. (Received August
+                                26.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to present to you the
                             inclosed copy of a telegram just received from the secretary of state at
                             Berlin, referring to a <pb n="222" xml:id="pg_222" facs="0256"/>former
@@ -18642,8 +18652,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the North German
                                         Union,</hi><hi rend="italic"> Washington</hi></placeName>,
                                     <date when="1870-09-16" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 16, 1870. (Received September
-                                16.)</date></dateline></opener>
+                                        >September</hi> 16, 1870</date>. (Received September
+                                16.)</dateline></opener>
                         <p>The undersigned has the honor very respectfully to express his most
                             grateful acknowledgments to the Hon. Hamilton Fish for the copy of the
                             dispatch of Mr. Washburne of the 22d ultimo, concerning the expulsion of
@@ -18677,8 +18687,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the North German
                                         Union,</hi><hi rend="italic"> Washington</hi></placeName>,
                                     <date when="1870-10-12" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 12, 1870. (Received October
-                                13.)</date></dateline></opener>
+                                        >October</hi> 12, 1870</date>. (Received October
+                                13.)</dateline></opener>
                         <p>The undersigned, envoy and minister plenipotentiary of the North German
                             Union, has the honor in behalf of his government to transmit to the
                             honorable Secretary of State of the United States a copy of a dispatch
@@ -18784,8 +18794,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the North German
                                         Union,</hi><hi rend="italic"> Washington</hi></placeName>,
                                     <date when="1870-10-15" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 15, 1870. (Received October
-                                17.)</date></dateline></opener>
+                                        >October</hi> 15, 1870</date>. (Received October
+                                17.)</dateline></opener>
                         <p>The undersigned, envoy extraordinary and minister plenipotentiary of the
                             North German Union, has the honor most respectfully herewith to transmit
                             to the Hon. Hamilton Fish, Secretary of State of the United States, a
@@ -18927,8 +18937,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the North German
                                         Union,</hi><hi rend="italic"> Washington</hi></placeName>,
                                     <date when="1870-10-17" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 17, 1870. (Received October
-                                18.)</date></dateline></opener>
+                                        >October</hi> 17, 1870</date>. (Received October
+                                18.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> The undersigned, envoy and minister
                             plenipotentiary of the North German Union, has the honor, in accordance
                             with instructions <pb n="229" xml:id="pg_229" facs="0263"/>received,
@@ -19271,12 +19281,12 @@
                             <signed>HAMILTON FISH.</signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1870-11-27T00:00:00-05:00"
-                    frus:doc-dateTime-max="1870-11-27T23:59:59-05:00">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1870-10-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1870-10-27T23:59:59-05:00">
                     <head>Peru.</head>
                     <div type="document" subtype="historical-document" xml:id="d189" n="189"
-                        frus:doc-dateTime-min="1870-11-27T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-11-27T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-10-27T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-10-27T23:59:59-05:00">
                         <note rend="inline" type="source">No. 189.</note>
                         <head><persName type="from">Mr. Brent to Mr. Fish</persName></head>
                         <opener>
@@ -19284,21 +19294,21 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Lima</hi></placeName>, <date
-                                    when="1870-11-27" calendar="gregorian"><hi rend="italic">Peru,
-                                        October</hi> 27, 1870. (Received November 28,
-                                1870.)</date></dateline></opener>
+                                    when="1870-10-27" calendar="gregorian"><hi rend="italic">Peru,
+                                        October</hi> 27, 1870</date>. (Received November 28,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to inform you that on the
                             24th instant his ex cellency President Balta issued a proclamation
                             declaring the neutrality of Peru in the existing war between France and
                             Prussia.</p>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch10" frus:doc-dateTime-min="1870-08-26T00:00:00-05:00"
-                    frus:doc-dateTime-max="1870-09-17T23:59:59-05:00">
+                <div type="chapter" xml:id="ch10" frus:doc-dateTime-min="1870-08-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1870-08-26T23:59:59-05:00">
                     <head>Russia.</head>
                     <div type="document" subtype="historical-document" xml:id="d190" n="190"
-                        frus:doc-dateTime-min="1870-09-17T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-09-17T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-08-17T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-08-17T23:59:59-05:00">
                         <note rend="inline" type="source">No. 190.</note>
                         <head><persName type="from">Mr. Schuyler</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -19307,9 +19317,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United States,</hi>
                                     <hi rend="italic">St. Petersburg</hi></placeName>, <date
-                                    when="1870-09-17" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 17, 1870. (Received September
-                                7.)</date></dateline></opener>
+                                    when="1870-08-17" calendar="gregorian"><hi rend="italic"
+                                        >August</hi> 17, 1870</date>. (Received September
+                                7.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: Great exertions are being made here to
                             induce the government to abandon its neutrality and to declare itself on
                             one side or the other. It seems to be the general opinion that if the
@@ -19403,8 +19413,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United States,</hi>
                                     <hi rend="italic">St. Petersburg</hi></placeName>, <date
                                     when="1870-08-26" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 26, 1870. (Received September
-                                20.)</date></dateline></opener>
+                                        >August</hi> 26, 1870</date>. (Received September
+                                20.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> There are no new developments herewith
                             regard to the war. Russia still preserves her neutrality unbroken. The
                             visit of Count Cholsk, the Austrian minister, to Vienna caused a good
@@ -19456,8 +19466,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Berne</hi></placeName>, <date
                                     when="1870-07-25" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 25, 1870. (Received August 16,
-                                1870.)</date></dateline></opener>
+                                        >July</hi> 25, 1870</date>. (Received August 16,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> The Federal Assembly of Switzerland
                             concluded its regular summer session on Saturday, the 24th instant. Much
                             of the time of the session was occupied in considering and adopting
@@ -19501,12 +19511,12 @@
                             <signed>HORACE RUBLEE.</signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch12" frus:doc-dateTime-min="1870-10-16T00:00:00-05:00"
-                    frus:doc-dateTime-max="1870-10-16T23:59:59-05:00">
+                <div type="chapter" xml:id="ch12" frus:doc-dateTime-min="1870-09-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1870-09-16T23:59:59-05:00">
                     <head>Spain.</head>
                     <div type="document" subtype="historical-document" xml:id="d193" n="193"
-                        frus:doc-dateTime-min="1870-10-16T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-10-16T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-09-16T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-09-16T23:59:59-05:00">
                         <note rend="inline" type="source">No. 193.</note>
                         <head><persName type="from">Mr. Sickles</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -19515,9 +19525,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United States,</hi>
                                     <hi rend="italic">San Ildefonso</hi></placeName>, <date
-                                    when="1870-10-16" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 16, 1870. (Received October
-                                5.)</date></dateline></opener>
+                                    when="1870-09-16" calendar="gregorian"><hi rend="italic"
+                                        >September</hi> 16, 1870</date>. (Received October
+                                5.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Immediately after the announcement of the
                             new provisional government in France, the republican members of the
                             committee asked that the Cortes be assembled at an early day. Although
@@ -19583,8 +19593,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic">
                                     Constantinople</hi></placeName>, <date when="1870-09-02"
-                                    calendar="gregorian"><hi rend="italic">September</hi> 2, 1870.
-                                    (Received Sept. 22.)</date></dateline></opener>
+                                    calendar="gregorian"><hi rend="italic">September</hi> 2,
+                                    1870</date>. (Received Sept. 22.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> The Turkish government, however favorably
                             it may have been disposed toward its ancient ally, France, in the
                             beginning of the present war between Prussia and France, has been
@@ -20581,8 +20591,8 @@
                                 <placeName><hi rend="smallcaps">American-Legation,</hi><hi
                                         rend="italic"> Berlin</hi></placeName>, <date
                                     when="1870-07-02" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 2, 1870. (Received July 21,
-                                1870.)</date></dateline></opener>
+                                        >July</hi> 2, 1870</date>. (Received July 21,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Your No. 199, on the reform of the coinage
                             of the world, was received on the 28th of June, and was immediately
                             communicated to the governments of Prussia and of North Germany. I have
@@ -20775,11 +20785,11 @@
                 </div>
             </div>
             <div type="compilation" xml:id="comp3" frus:doc-dateTime-min="1870-08-19T00:00:00-05:00"
-                frus:doc-dateTime-max="1870-11-28T23:59:59-05:00">
+                frus:doc-dateTime-max="1870-11-04T23:59:59-05:00">
                 <head>III. Correspondence in relation to the condition of the commercial relations
                     between the United States and the Spanish American States and Brazil.</head>
                 <div type="chapter" xml:id="ch15" frus:doc-dateTime-min="1870-08-19T00:00:00-05:00"
-                    frus:doc-dateTime-max="1870-11-28T23:59:59-05:00">
+                    frus:doc-dateTime-max="1870-11-04T23:59:59-05:00">
                     <head ana="#head_untitled-missing-head-in-printed-volume">[Correspondence in
                         relation to the condition of the commercial relations between the United
                         States and the Spanish American States and Brazil].</head>
@@ -21683,8 +21693,8 @@
                                 <placeName><hi rend="smallcaps">United States Consulate,
                                         Panama,</hi></placeName>
                                 <date when="1870-09-12" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 12, 1870. (Received September 28,
-                                    1870.)</date></dateline></opener>
+                                        >September</hi> 12, 1870</date>. (Received September 28,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In reply to your circular dated
                             Washington, August 19, 1870, I would most respectfully ask leave to make
                             the following remarks:</p>
@@ -21806,8 +21816,8 @@
                                 <placeName><hi rend="smallcaps">United States Consulate,</hi><hi
                                         rend="italic"> Paita, Peru,</hi></placeName>
                                 <date when="1870-09-24" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 24, 1870. (Received October 14,
-                                    1870.)</date></dateline></opener>
+                                        >September</hi> 24, 1870</date>. (Received October 14,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In answer to a circular I received from
                             the Department of State, dated 19th August last, requesting me to
                             communicate any information and to make any suggestions that may tend to
@@ -21880,8 +21890,8 @@
                                         Agency,</hi>
                                     <hi rend="italic">San Louis Potosi</hi></placeName>, <date
                                     when="1870-09-25" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 25, 1870. (Received November 4,
-                                    1870.)</date></dateline></opener>
+                                        >September</hi> 25, 1870</date>. (Received November 4,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In compliance with your circular of August
                             19, I beg to state the following:</p>
                         <p>The commercial relations of the United States and this country are very
@@ -21936,8 +21946,8 @@
                             <signed>JULIUS MOUREAU.</signed></closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d201" n="201"
-                        frus:doc-dateTime-min="1870-10-30T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-10-30T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-09-30T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-09-30T23:59:59-05:00">
                         <note rend="inline" type="source">No. 201.</note>
                         <opener><seg rendition="#center">[Extract.]</seg></opener>
                         <head><persName type="from">Mr. Moye</persName> to <persName type="to">Mr.
@@ -21947,9 +21957,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States Consulate,</hi><hi
                                         rend="italic"> Chihuahua, Mexico</hi></placeName>, <date
-                                    when="1870-10-30" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 30, 1870. (Received October 28,
-                                    1870.)</date></dateline></opener>
+                                    when="1870-09-30" calendar="gregorian"><hi rend="italic"
+                                        >September</hi> 30, 1870</date>. (Received October 28,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In accordance with Consular Regulations
                             No. 720, I have the honor to report that this consulate comprises nearly
                             the entire State of Chihuahua, and part of the States of Durango,
@@ -22096,8 +22106,8 @@
                                 <placeName><hi rend="smallcaps">Consulate of the United States,</hi>
                                     <hi rend="italic">La Paz, Bolivia</hi></placeName>, <date
                                     when="1870-09-30" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 30, 1870. (Received Nov. 14,
-                                1870.)</date></dateline></opener>
+                                        >September</hi> 30, 1870</date>. (Received Nov. 14,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In obedience to paragraph 720 <hi
                                 rend="italic">et sequitur,</hi> of consular instructions, I herewith
                             transmit a report on the trade of the consular district under my
@@ -22486,8 +22496,8 @@
                                 <placeName><hi rend="smallcaps">United States Consulate,</hi>
                                     <hi rend="italic">Vera Cruz</hi></placeName>, <date
                                     when="1870-10-03" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 3, 1870. (Received October 26,
-                                1870.)</date></dateline></opener>
+                                        >October</hi> 3, 1870</date>. (Received October 26,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Your circular from the Department of
                             State, bearing date August 19, 1870, came to hand by the last steamer.
                             In reply to the order to communicate facts and make suggestions touching
@@ -22711,8 +22721,8 @@
                                 <placeName><hi rend="smallcaps">United States Legation,</hi><hi
                                         rend="italic"> Montevideo</hi></placeName>, <date
                                     when="1870-10-05" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 5, 1870. (Received November 3,
-                                1870.)</date></dateline></opener>
+                                        >October</hi> 5, 1870</date>. (Received November 3,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to acknowledge the
                             receipt, September 27, of the report from the Department of State in
                             relation to the condition of the commercial relations between the United
@@ -22853,8 +22863,8 @@
                                 <placeName><hi rend="smallcaps">United States Legation,</hi>
                                     <hi rend="italic">San Salvador</hi></placeName>, <date
                                     when="1870-10-06" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 6, 1870. (Received November
-                                14.)</date></dateline></opener>
+                                        >October</hi> 6, 1870</date>. (Received November
+                                14.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge the
                             receipt of State Department circular dated August 19, also copies of a
                             report of the Department to the President in answer to a resolution of
@@ -22950,8 +22960,8 @@
                             <signed>ALFRED T. A. TORBERT.</signed></closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d206" n="206"
-                        frus:doc-dateTime-min="1870-11-09T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-11-09T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-10-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-10-09T23:59:59-05:00">
                         <note rend="inline" type="source">No. 206.</note>
                         <head><persName type="from">Mr. Smith</persName> to <persName type="to">Mr.
                                 Fish</persName>.</head>
@@ -22960,9 +22970,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Consulate of the United
                                         States,</hi><hi rend="italic"> Tumbez</hi></placeName>,
-                                    <date when="1870-11-09" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 9, 1870. (Received November 28,
-                                1870.)</date></dateline></opener>
+                                    <date when="1870-10-09" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 9, 1870</date>. (Received November 28,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In compliance with your request in
                             circular of August 19, 1870, for me to give my opinion why the
                             commercial relations between the United States and the Spanish-American
@@ -23040,8 +23050,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Petropolis</hi></placeName>,
                                     <date when="1870-10-20" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 20, 1870. (Received Nov. 22,
-                                1870.)</date></dateline></opener>
+                                        >October</hi> 20, 1870</date>. (Received Nov. 22,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: Your dispatch of August, (circular,)
                             though received by the September steamer, owing to its being in pamphlet
                             covering, was not opened <pb n="284" xml:id="pg_284" facs="0318"/>until
@@ -23296,8 +23306,8 @@
                                 <placeName><hi rend="smallcaps">Consulate of the United States of
                                         America,</hi><hi rend="italic"> Minatitlan,
                                     Mexico</hi></placeName>, <date when="1870-10-21"
-                                    calendar="gregorian"><hi rend="italic">October</hi> 21, 1870.
-                                    (Received November 18.)</date></dateline></opener>
+                                    calendar="gregorian"><hi rend="italic">October</hi> 21,
+                                    1870</date>. (Received November 18.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In reply to your circular letter of August
                             19, I have the honor to inform you that in my opinion the diminution of
                             commerce between the United States and Mexico is not traceable to
@@ -23363,8 +23373,8 @@
                             <signed>R. C. M. HOYT.</signed></closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d209" n="209"
-                        frus:doc-dateTime-min="1870-11-25T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-11-25T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-10-25T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-10-25T23:59:59-05:00">
                         <note rend="inline" type="source">No. 209.</note>
                         <head><persName type="from">Mr. Bragdon</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -23372,9 +23382,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States Consulate,</hi>
                                     <hi rend="italic">Guayaquil</hi></placeName>, <date
-                                    when="1870-11-25" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 25, 1870. (Received November 14,
-                                1870.)</date></dateline></opener>
+                                    when="1870-10-25" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 25, 1870</date>. (Received November 14,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to acknowledge recept of
                             your circular of August 19, inclosing “Report from the Department in
                             relation to the condition of the commercial relations between the United
@@ -23499,8 +23509,8 @@
                         </frus:attachment>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d210" n="210"
-                        frus:doc-dateTime-min="1870-11-28T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-11-28T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-10-28T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-10-28T23:59:59-05:00">
                         <note rend="inline" type="source">No. 210.</note>
                         <head><persName type="from">Mr. Thomas H. Nelson</persName> to <persName
                                 type="to">Mr. Fish</persName>.</head>
@@ -23509,9 +23519,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United States,</hi>
                                     <hi rend="italic">Mexico</hi></placeName>, <date
-                                    when="1870-11-28" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 28, 1870. (Received November
-                                14.)</date></dateline></opener>
+                                    when="1870-10-28" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 28, 1870</date>. (Received November
+                                14.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to transmit herewith a
                             copy of the very interesting and valuable response of our acting consul
                             at Aguas Calientes to the circular of the Department of State of the
@@ -23640,8 +23650,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States Consulate,</hi>
                                     <hi rend="italic">Para</hi></placeName>, <date when="1870-11-03"
-                                    calendar="gregorian"><hi rend="italic">November</hi> 3, 1870.
-                                    (Received November 22.)</date></dateline></opener>
+                                    calendar="gregorian"><hi rend="italic">November</hi> 3,
+                                    1870</date>. (Received November 22.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge receipt of
                             circular from the Department, under date of August 19, calling for
                             information “touching the commercial relations between the United States
@@ -23870,8 +23880,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Mexico</hi></placeName>,
                                     <date when="1870-11-04" calendar="gregorian"><hi rend="italic"
-                                        >November</hi> 4, 1870. (Received November
-                                25.)</date></dateline></opener>
+                                        >November</hi> 4, 1870</date>. (Received November
+                                25.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In compliance with the instructions
                             contained in the circular from the Department of State, dated the 19th
                             of August last, I have the honor to submit the following facts and
@@ -24001,15 +24011,15 @@
                     </div>
                 </div>
             </div>
-            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1869-06-21T00:00:00-05:00"
+            <div type="compilation" xml:id="comp4" frus:doc-dateTime-min="1869-05-21T00:00:00-05:00"
                 frus:doc-dateTime-max="1870-12-01T23:59:59-05:00">
                 <head>IV.—Miscellaneous correspondence relating to foreign affairs.</head>
-                <div type="chapter" xml:id="ch16" frus:doc-dateTime-min="1870-09-03T00:00:00-05:00"
-                    frus:doc-dateTime-max="1870-09-03T23:59:59-05:00">
+                <div type="chapter" xml:id="ch16" frus:doc-dateTime-min="1870-08-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1870-08-03T23:59:59-05:00">
                     <head>Austria.</head>
                     <div type="document" subtype="historical-document" xml:id="d213" n="213"
-                        frus:doc-dateTime-min="1870-09-03T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-09-03T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-08-03T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-08-03T23:59:59-05:00">
                         <note rend="inline" type="source">No. 213.</note>
                         <head><persName type="from">Mr. Jay</persName> to <persName type="to">Mr.
                                 Fish</persName>.</head>
@@ -24018,9 +24028,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States Legation,</hi><hi
                                         rend="italic"> Vienna</hi></placeName>, <date
-                                    when="1870-09-03" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 3, 1870. (Received September
-                                14.)</date></dateline></opener>
+                                    when="1870-08-03" calendar="gregorian"><hi rend="italic"
+                                        >August</hi> 3, 1870</date>. (Received September
+                                14.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir: I</hi> have the honor to acknowledge the
                             Department dispatch No. 51, dated the 5th of July, from Mr. Davis,
                             Assistant Secretary, and your dispatch No. 53, dated the 11th of July,
@@ -24276,12 +24286,12 @@
                             <signed>JOHN JAY.</signed></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch17" frus:doc-dateTime-min="1870-05-09T00:00:00-05:00"
-                    frus:doc-dateTime-max="1870-05-09T23:59:59-05:00">
+                <div type="chapter" xml:id="ch17" frus:doc-dateTime-min="1870-04-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1870-04-09T23:59:59-05:00">
                     <head>Chili.</head>
                     <div type="document" subtype="historical-document" xml:id="d214" n="214"
-                        frus:doc-dateTime-min="1870-05-09T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-05-09T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-04-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-04-09T23:59:59-05:00">
                         <note rend="inline" type="source">No. 214.</note>
                         <head><persName type="from">General Kilpatrick</persName> to <persName
                                 type="to">Mr. Fish</persName>.</head>
@@ -24290,9 +24300,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Santiago de
-                                    Chili</hi></placeName>, <date when="1870-05-09"
-                                    calendar="gregorian"><hi rend="italic">April</hi> 9, 1870.
-                                    (Received May 11.)</date></dateline></opener>
+                                    Chili</hi></placeName>, <date when="1870-04-09"
+                                    calendar="gregorian"><hi rend="italic">April</hi> 9,
+                                1870</date>. (Received May 11.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Mr. Amunateque, minister of foreign
                             relations of this republic, has explained to me to-day why a minister
                             has not been sent to Washington. He informs me that the elections alone
@@ -26261,8 +26271,8 @@
                                         <placeName><hi rend="smallcaps">Office of Committee of Privy
                                                 Council for Trade,</hi></placeName>
                                         <date when="1869-05-19" calendar="gregorian"><hi
-                                                rend="italic">May</hi> 19, 1869. (Received May
-                                            20.)</date></dateline></opener>
+                                                rend="italic">May</hi> 19, 1869</date>. (Received
+                                        May 20.)</dateline></opener>
                                 <p>In reply to your letter of the 4th March, I am directed by the
                                     Lords of the Committee of Privy Council for Trade to request
                                     that you will inform the Earl of Clarendon that they have
@@ -26794,8 +26804,8 @@
                                                 Union,</hi>
                                             <hi rend="italic">Washington</hi></placeName>, <date
                                             when="1870-02-19" calendar="gregorian"><hi rend="italic"
-                                                >February</hi> 19, 1870. (Received February
-                                            19.)</date></dateline></opener>
+                                                >February</hi> 19, 1870</date>. (Received February
+                                        19.)</dateline></opener>
                                 <p>The undersigned, envoy and minister plenipotentiary of the North
                                     German Union, has the honor to transmit to the Hon. Hamilton
                                     Fish, Secretary of State of the United States, the contents of a
@@ -26882,8 +26892,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the North German
                                         Union,</hi><hi rend="italic"> Washington</hi></placeName>,
                                     <date when="1870-02-25" calendar="gregorian"><hi rend="italic"
-                                        >February</hi> 25, 1870. (Received February
-                                26.)</date></dateline></opener>
+                                        >February</hi> 25, 1870</date>. (Received February
+                                26.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In answer to the inquiry made in your note
                             of yesterday, “whether I could give you information in relation to the
                             plan referred to in Count Bismarck’s note of January 29th last as having
@@ -26908,8 +26918,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the North German
                                         Union,</hi><hi rend="italic"> Washington</hi></placeName>,
                                     <date when="1870-03-28" calendar="gregorian"><hi rend="italic"
-                                        >March</hi> 28, 1870. (Received March
-                            29.)</date></dateline></opener>
+                                        >March</hi> 28, 1870</date>. (Received March
+                            29.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: With, reference to my notes of the 19th
                             and 25th of February last, in relation to the proposition of my
                             government for a combined action of the naval forces of the United
@@ -27228,8 +27238,8 @@
                                     <placeName><hi rend="smallcaps">United States Consulate
                                             General,</hi><hi rend="italic">
                                         Shanghai</hi></placeName>, <date when="1868-04-24"
-                                        calendar="gregorian"><hi rend="italic">April</hi> 24, 1868.
-                                        (Received June 24, 1868.)</date></dateline></opener>
+                                        calendar="gregorian"><hi rend="italic">April</hi> 24,
+                                        1868</date>. (Received June 24, 1868.)</dateline></opener>
                             <p><hi rend="smallcaps">Sir:</hi> Mr. Frederick Jenkins, a citizen of
                                 the United States, formerly interpreter to this office, gives me the
                                 following information:</p>
@@ -27289,9 +27299,9 @@
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">United States Consulate
                                             General,</hi><hi rend="italic">
-                                        Shanghai</hi></placeName>, <date when="1868-06-24"
-                                        calendar="gregorian"><hi rend="italic">April</hi> 24, 1868.
-                                        (Received June 24, 1868.)</date></dateline></opener>
+                                        Shanghai</hi></placeName>, <date when="1868-04-24"
+                                        calendar="gregorian"><hi rend="italic">April</hi> 24,
+                                        1868</date>. (Received June 24, 1868.)</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: My dispatch No. 281, herewith, offers
                                 information touching the General Sherman case, which has heretofore
                                 engaged your attention. It is a subject for congratulation that it
@@ -27335,8 +27345,8 @@
                                 <dateline rendition="#right">
                                     <placeName><hi rend="italic">Shanghai</hi></placeName>, <date
                                         when="1868-05-25" calendar="gregorian"><hi rend="italic"
-                                            >May</hi> 25, 1868. (Received July 13,
-                                    1868.)</date></dateline></opener>
+                                            >May</hi> 25, 1868</date>. (Received July 13,
+                                    1868.)</dateline></opener>
                             <p><hi rend="smallcaps">Sir:</hi> I have the honor to advise you that
                                 the United States steamer Shenandoah, which left this port for Corea
                                 on the 18th of March last, has returned to Cheefoo. The commander
@@ -27360,9 +27370,10 @@
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">United States Consulate
                                             General,</hi><hi rend="italic">
-                                        Shanghai</hi></placeName>, <date when="1868-09-03"
-                                        calendar="gregorian"><hi rend="italic">July</hi> 3, 1868.
-                                        (Received September 8, 1868.)</date></dateline></opener>
+                                        Shanghai</hi></placeName>, <date when="1868-07-03"
+                                        calendar="gregorian"><hi rend="italic">July</hi> 3,
+                                        1868</date>. (Received September 8,
+                                1868.)</dateline></opener>
                             <p><hi rend="smallcaps">Sir:</hi> On the 24th April I had the honor to
                                 advise you, in my dispatch No. 281, that I had received information
                                 from Mr. F. Jenkins which indicated that some of the crew of the
@@ -27401,8 +27412,8 @@
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">Shanghai,</hi></placeName>
                                     <date when="1868-10-14" calendar="gregorian"><hi rend="italic"
-                                            >October</hi> 14, 1868. (Received December 7,
-                                        1868.)</date></dateline></opener>
+                                            >October</hi> 14, 1868</date>. (Received December 7,
+                                    1868.)</dateline></opener>
                             <p><hi rend="smallcaps">Sir:</hi> I wrote to you on the 28th ultimo,
                                 giving a general statement of my impressions touching the Corean
                                 question. Having now had the benefit of consultations with Messrs.
@@ -27570,8 +27581,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington,</hi></placeName>
                                 <date when="1870-04-22" calendar="gregorian"><hi rend="italic"
-                                        >April</hi> 22, 1870. (Received April
-                            30.)</date></dateline></opener>
+                                        >April</hi> 22, 1870</date>. (Received April
+                            30.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> It is well known that the principles on
                             which our intercourse with China has for many years been conducted have
                             been clearly defined by the mission of Mr. Burlingame, and that this
@@ -28522,8 +28533,8 @@
                             <signed>GEO. F. SEWARD.</signed></closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d223" n="223"
-                        frus:doc-dateTime-min="1870-08-27T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-08-27T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-06-27T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-06-27T23:59:59-05:00">
                         <note rend="inline" type="source">No. 224.</note>
                         <head><persName type="from">Mr. Frederick F. Low</persName> to <persName
                                 type="to">Mr. Fish</persName>.</head>
@@ -28532,9 +28543,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Pekin</hi></placeName>, <date
-                                    when="1870-08-27" calendar="gregorian"><hi rend="italic"
-                                        >June</hi> 27, 1870. (Received August
-                            20.)</date></dateline></opener>
+                                    when="1870-06-27" calendar="gregorian"><hi rend="italic"
+                                        >June</hi> 27, 1870</date>. (Received August
+                            20.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: It becomes my painful duty to inform you
                             that on the 21st instant a terrible riot occurred at Tien-tsin, which
                             resulted in the death of sixteen French subjects, three Russians, and
@@ -29072,8 +29083,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Pekin</hi></placeName>, <date
                                     when="1870-07-16" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 16, 1870. (Received September
-                                21.)</date></dateline></opener>
+                                        >July</hi> 16, 1870</date>. (Received September
+                                21.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to acknowledge the
                             receipt of your No. 9, with inclosures, instructing me to proceed, at
                             such time as it may be convenient to the admiral commanding the Asiatic
@@ -29111,8 +29122,8 @@
                             <signed>FREDERICK F. LOW.</signed></closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d225" n="225"
-                        frus:doc-dateTime-min="1870-09-27T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-09-27T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-07-27T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-07-27T23:59:59-05:00">
                         <note rend="inline" type="source">No. 226.</note>
                         <head><persName type="from">Mr. F. F. Low</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -29121,9 +29132,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Pekin</hi></placeName>, <date
-                                    when="1870-09-27" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 27, 1870. (Received September
-                                21.)</date></dateline></opener>
+                                    when="1870-07-27" calendar="gregorian"><hi rend="italic"
+                                        >July</hi> 27, 1870</date>. (Received September
+                                21.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: Referring to my No. 12, of 27th ultimo,
                             concerning the late riot at Tien-tsin, I have now the honor to lay
                             before you sundry documents in further explanation of that painful
@@ -29797,8 +29808,8 @@
                         </frus:attachment>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d226" n="226"
-                        frus:doc-dateTime-min="1870-10-18T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-10-18T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-08-18T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-08-18T23:59:59-05:00">
                         <note rend="inline" type="source">No. 227.</note>
                         <head><persName type="from">Mr. F. F. Low</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -29807,9 +29818,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Pekin</hi></placeName>, <date
-                                    when="1870-10-18" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 18, 1870. (Received October
-                                24)</date></dateline></opener>
+                                    when="1870-08-18" calendar="gregorian"><hi rend="italic"
+                                        >August</hi> 18, 1870</date>. (Received October
+                                24)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: The alarm which the Tien-tsin tragedy
                             produced does not subside. On the contrary, the feeling of insecurity
                             and peril among foreigners seems to increase.</p>
@@ -30296,8 +30307,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Pekin</hi></placeName>, <date
                                     when="1870-08-22" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 22, 1870. (Received October
-                                24.)</date></dateline></opener>
+                                        >August</hi> 22, 1870</date>. (Received October
+                                24.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: In my dispatch, No. 18, I reported to you
                             that the French chargé d’affaires was in Tien-tsin, where he had gone to
                             attend to the interment of the unfortunate victims of the late riot;
@@ -30373,8 +30384,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Pekin</hi></placeName>, <date
                                     when="1870-08-24" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 24, 1870. (Received October
-                                24.)</date></dateline></opener>
+                                        >August</hi> 24, 1870</date>. (Received October
+                                24.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Since the late riot at Tien-tsin much
                             speculation has been indulged in as to the causes, and much pains have
                             been taken to ascertain the fact whether it was local in its origin or
@@ -30792,8 +30803,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Pekin</hi></placeName>, <date
                                     when="1870-09-17" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 17, 1870. (Received November
-                                25.)</date></dateline></opener>
+                                        >September</hi> 17, 1870</date>. (Received November
+                                25.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to inform you that, in
                             consequence of rumors of threatened violence by the Chinese, and a
                             general belief that an organized attack would be made upon them on the
@@ -31460,8 +31471,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Pekin</hi></placeName>, <date
                                     when="1870-09-26" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 26, 1870. (Received November
-                                25.)</date></dateline></opener>
+                                        >September</hi> 26, 1870</date>. (Received November
+                                25.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Referring to my dispatch No. 29, relating
                             to the withdrawal of the missionaries from Tungchow, I have now the
                             honor to inclose copies of my note, called out by this affair, to Prince
@@ -31887,8 +31898,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> London</hi></placeName>,
                                     <date when="1870-11-02" calendar="gregorian"><hi rend="italic"
-                                        >November</hi> 2, 1870. (Received at 4.10 p. m., November
-                                    2.)</date></dateline></opener>
+                                        >November</hi> 2, 1870</date>. (Received at 4.10 p. m.,
+                                November 2.)</dateline></opener>
                         <p>On communicating verbally this morning the substance of your telegram to
                             Bancroft, Granville requested me to inform you that what you proposed
                             had already been done. Commander of the Prussian naval forces in China
@@ -31911,8 +31922,8 @@
                                 <placeName><hi rend="smallcaps">United States Legation,
                                     London,</hi></placeName>
                                 <date when="1870-11-03" calendar="gregorian"><hi rend="italic"
-                                        >November</hi> 3, 1870. (Received November
-                                3d.)</date></dateline></opener>
+                                        >November</hi> 3, 1870</date>. (Received November
+                                3d.)</dateline></opener>
                         <p><hi rend="smallcaps">Fish,</hi>
                             <hi rend="italic">Secretary of State, Washington:</hi></p>
                         <p>In correction of my telegram of yesterday, Granville learnt from French
@@ -32276,8 +32287,8 @@
                                 <placeName><hi rend="smallcaps">Treasury
                                     Department,</hi></placeName>
                                 <date when="1870-07-19" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 19, 1870. (Received July
-                            20.</date></dateline></opener>
+                                        >July</hi> 19, 1870</date>. (Received July
+                            20.</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to inclose herewith a
                             letter, dated the 23d ul timo, from the collector of customs at Pembina,
                             Minnesota, relative to a change effected by a survey recently made by a
@@ -32395,8 +32406,8 @@
                         </postscript>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d243" n="243"
-                        frus:doc-dateTime-min="1870-11-17T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-11-17T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-10-17T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-10-17T23:59:59-05:00">
                         <note rend="inline" type="source">No. 244.</note>
                         <head><persName type="from">M. Motley</persName> to <persName type="to">Mr.
                                 Fish</persName>.</head>
@@ -32405,9 +32416,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United States,</hi>
                                     <hi rend="italic">London</hi></placeName>, <date
-                                    when="1870-11-17" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 17, 1870. (Received November
-                                4.)</date></dateline></opener>
+                                    when="1870-10-17" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 17, 1870</date>. (Received November
+                                4.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> Deferring to your No. 245, of 15th August,
                             (which dispatch I beg to note did not reach me until 28th ultimo,) I
                             have now the honor to transmit the copy of a letter which I have this
@@ -33510,8 +33521,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington,</hi></placeName>
                                 <date when="1870-05-26" calendar="gregorian"><hi rend="italic"
-                                        >May</hi> 26, 1870. (Received May
-                            27.)</date></dateline></opener>
+                                        >May</hi> 26, 1870</date>. (Received May
+                            27.)</dateline></opener>
                         <p>S<hi rend="smallcaps">ir</hi>: In compliance with instructions which I
                             have received from the Earl of Clarendon, I have the honor to inclose,
                             for the information of the Government of the United States, copies of
@@ -33844,8 +33855,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington,</hi></placeName>
                                 <date when="1870-06-03" calendar="gregorian"><hi rend="italic"
-                                        >June</hi> 3, 1870. (Received June
-                            3.)</date></dateline></opener>
+                                        >June</hi> 3, 1870</date>. (Received June
+                            3.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> In compliance with instructions which I
                             have received from the Earl of Clarendon I have the honor to transmit
                             for your information copy of a letter addressed by the admiralty to the
@@ -33986,8 +33997,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington,</hi></placeName>
                                 <date when="1870-06-11" calendar="gregorian"><hi rend="italic"
-                                        >June</hi> 11, 1870. (Received June
-                            13.)</date></dateline></opener>
+                                        >June</hi> 11, 1870</date>. (Received June
+                            13.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I had the honor to receive yesterday your
                             note of the 8th instant relative to an apparent discrepancy between the
                             instructions issued by Vice-Admiral Wellesley, inclosed in my note of
@@ -34075,8 +34086,8 @@
                                     A. <hi rend="smallcaps">for the British North American
                                         Provinces,</hi><hi rend="italic"> Montreal</hi></placeName>,
                                     <date when="1870-08-25" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 25, 1870. (Received August
-                                29.)</date></dateline></opener>
+                                        >August</hi> 25, 1870</date>. (Received August
+                                29.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> While at Prince Edward Island a few days
                             since, I was informed by Mr. J. C. Hall, and other extensive fishermen
                             on that island, that they were daily expecting an order to the
@@ -34152,8 +34163,8 @@
                         </frus:attachment>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d264" n="264"
-                        frus:doc-dateTime-min="1870-09-25T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-09-25T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-08-25T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-08-25T23:59:59-05:00">
                         <note rend="inline" type="source">No. 265.</note>
                         <head><persName type="from">Mr. M. M. Jackson</persName> to <persName
                                 type="to">Mr. Fish</persName>.</head>
@@ -34162,9 +34173,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Consulate of the United States of
                                         America,</hi><hi rend="italic"> Halifax, N.
-                                    S</hi>.</placeName>, <date when="1870-09-25"
-                                    calendar="gregorian"><hi rend="italic">August</hi> 25, 1870.
-                                    (Received September 1.)</date></dateline></opener>
+                                    S</hi>.</placeName>, <date when="1870-08-25"
+                                    calendar="gregorian"><hi rend="italic">August</hi> 25,
+                                    1870</date>. (Received September 1.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to inclose herewith two
                             numbers of the Halifax Morning Chronicle—a leading newspaper published
                             in this city— containing an editorial article, as well as extracts from
@@ -34206,8 +34217,8 @@
                                 <placeName><hi rend="smallcaps">United States Consulate,</hi><hi
                                         rend="italic"> Pictou, N. S.</hi></placeName>, <date
                                     when="1870-08-28" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 28, 1870. (Received September 7,
-                                1870.)</date></dateline></opener>
+                                        >August</hi> 28, 1870</date>. (Received September 7,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I am in receipt of reliable information
                             from various parts of Cape Breton Island, that a very large majority of
                             our fishing vessels now in the waters near that island, and on the
@@ -34252,9 +34263,10 @@
                                 <placeName><hi rend="smallcaps">Consulate of the United States of
                                         America,</hi><hi rend="italic"> Halifax</hi>, <hi
                                         rend="italic">N.</hi>
-                                    <hi rend="italic">S</hi>.</placeName>, <date when="1870-09-05"
-                                    calendar="gregorian"><hi rend="italic">September</hi> 5, 1870.
-                                    (Received September, 10.)</date></dateline></opener>
+                                    <hi rend="italic">S</hi>.</placeName>, <date
+                                    calendar="gregorian" when="1870-09-05"><hi rend="italic"
+                                        >September</hi> 5, 1870</date>. (Received September,
+                                10.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to inclose herewith
                             copies of a correspondence with Vice-Admiral George Greville Wellesley,
                             respecting supplies to American fishermen in colonial ports.</p>
@@ -34473,8 +34485,8 @@
                         </postscript>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d268" n="268"
-                        frus:doc-dateTime-min="1870-10-26T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-10-26T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-09-26T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-09-26T23:59:59-05:00">
                         <note rend="inline" type="source">No. 269.</note>
                         <head><persName type="from">Mr. Oscar Malmros</persName> to <persName
                                 type="to">Mr. Davis</persName>.</head>
@@ -34483,9 +34495,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States Consulate,</hi><hi
                                         rend="italic"> Pictou, N. S.</hi></placeName>, <date
-                                    when="1870-10-26" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 26, 1870. (Received October
-                                3.)</date></dateline></opener>
+                                    calendar="gregorian" when="1870-09-26"><hi rend="italic"
+                                        >September</hi> 26, 1870</date>. (Received October
+                                3.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to acknowledge the
                             receipt of your dispatch No. 20, and to state in answer that after
                             thorough investigation I have come to the conclusion that American
@@ -34534,8 +34546,8 @@
                                         America,</hi><hi rend="italic"> Halifax</hi>, <hi
                                         rend="italic">N. S.</hi></placeName>
                                 <date when="1870-10-03" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 3, 1870. (Received October
-                                14.)</date></dateline></opener>
+                                        >October</hi> 3, 1870</date>. (Received October
+                                14.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir: I</hi> have the honor, in answer to the
                             inquiries contained in your dispatch No. 256, in reference to the
                             fisheries, to submit the following report:</p>
@@ -34821,8 +34833,8 @@
                                         Provinces,</hi>
                                     <hi rend="italic">Montreal</hi></placeName>, <date
                                     when="1870-11-03" calendar="gregorian"><hi rend="italic"
-                                        >November</hi> 3, 1870. (Received November
-                                5.)</date></dateline></opener>
+                                        >November</hi> 3, 1870</date>. (Received November
+                                5.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to acknowledge receipt of
                             your dispatch of the 29th ultimo, in reference to the seizure of
                             American fishing vessels off the coast of Nova Scotia and Prince Edward
@@ -34931,8 +34943,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> London</hi></placeName>,
                                     <date when="1870-05-14" calendar="gregorian"><hi rend="italic"
-                                        >May</hi> 14, 1870. (Received May
-                            26.)</date></dateline></opener>
+                                        >May</hi> 14, 1870</date>. (Received May
+                            26.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> * * * I beg to refer you to * * * the
                             naturalization bill which has just received the royal assent, and a copy
                             of which accompanies this dispatch.</p>
@@ -35351,12 +35363,12 @@
                         </frus:attachment>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch20" frus:doc-dateTime-min="1870-06-14T00:00:00-05:00"
-                    frus:doc-dateTime-max="1870-06-14T23:59:59-05:00">
+                <div type="chapter" xml:id="ch20" frus:doc-dateTime-min="1870-05-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1870-05-14T23:59:59-05:00">
                     <head>Greece.</head>
                     <div type="document" subtype="historical-document" xml:id="d273" n="273"
-                        frus:doc-dateTime-min="1870-06-14T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-06-14T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-05-14T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-05-14T23:59:59-05:00">
                         <note rend="inline" type="source">No. 274.</note>
                         <head><persName type="from">Mr. Tuckerman</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -35364,9 +35376,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Athens</hi></placeName>,
-                                    <date when="1870-06-14" calendar="gregorian"><hi rend="italic"
-                                        >May</hi> 14, 1870. (Received June
-                            16.)</date></dateline></opener>
+                                    <date calendar="gregorian" when="1870-05-14"><hi rend="italic"
+                                        >May</hi> 14, 1870</date>. (Received June
+                            16.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I avail myself of a private opportunity to
                             forward a paper which I have prepared on brigandage in Greece, a subject
                             to which recent events have attracted public attention at home and
@@ -35660,12 +35672,12 @@
                                         >May</hi> 11, 1870.</date></dateline></closer>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch21" frus:doc-dateTime-min="1870-06-18T00:00:00-05:00"
+                <div type="chapter" xml:id="ch21" frus:doc-dateTime-min="1870-05-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1870-08-31T23:59:59-05:00">
                     <head>Guatemala.</head>
                     <div type="document" subtype="historical-document" xml:id="d274" n="274"
-                        frus:doc-dateTime-min="1870-06-18T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-06-18T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-05-18T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-05-18T23:59:59-05:00">
                         <note rend="inline" type="source">No. 275.</note>
                         <head><persName type="from">Mr. Silas A. Hudson</persName> to <persName
                                 type="to">Mr. Fish</persName>.</head>
@@ -35674,9 +35686,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Guatemala</hi></placeName>,
-                                    <date when="1870-06-18" calendar="gregorian"><hi rend="italic"
-                                        >May</hi> 18, 1870. (Received June
-                            29.)</date></dateline></opener>
+                                    <date calendar="gregorian" when="1870-05-18"><hi rend="italic"
+                                        >May</hi> 18, 1870</date>. (Received June
+                            29.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to acknowledge the
                             receipt of your dispatch, dated April 19, in reply to my No. 15, and in
                             which you are pleased to say that “In the absence of the correspondence
@@ -35944,8 +35956,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Guatemala</hi></placeName>,
                                     <date when="1870-08-31" calendar="gregorian"><hi rend="italic"
-                                        >Aug.</hi> 31, 1870. (Received Sept. 26,
-                                1870.)</date></dateline></opener>
+                                        >Aug.</hi> 31, 1870</date>. (Received Sept. 26,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge the
                             receipt, by the steamer of the 18th instant, of your dispatch No. 17,
                             dated July 7, ultimo.</p>
@@ -36135,8 +36147,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Florence</hi></placeName>,
                                     <date when="1870-09-06" calendar="gregorian"><hi rend="italic"
-                                        >Sept.</hi> 6, 1870. (Received Sept. 22,
-                                1870.)</date></dateline></opener>
+                                        >Sept.</hi> 6, 1870</date>. (Received Sept. 22,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> The intelligence of the overthrow of the
                             Napoleonic dynasty, and of the proclamation of the republic in France,
                             has thus far produced no general excitement in Italy. These events have
@@ -36176,8 +36188,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Florence</hi></placeName>,
                                     <date when="1870-09-09" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 9, 1870. (Received September
-                                28.)</date></dateline></opener>
+                                        >September</hi> 9, 1870</date>. (Received September
+                                28.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> The announcement in my dispatch, No. 300,
                             that the Italian government had decided upon the occupation of the
                             Pontifical territory was made upon the authority of the Opinione, a
@@ -36243,8 +36255,8 @@
                                 <placeName><hi rend="smallcaps">Legation op the United
                                         States,</hi><hi rend="italic"> Florence</hi></placeName>,
                                     <date when="1870-09-12" calendar="gregorian"><hi rend="italic"
-                                        >Sept.</hi> 12, 1870. (Received Oct. 4,
-                                1870.)</date></dateline></opener>
+                                        >Sept.</hi> 12, 1870</date>. (Received Oct. 4,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> The erroneous announcement of the
                             determination of the Italian government to occupy the Pontifical States,
                             to which I referred in my dispatches Nos. 300 and 301, proves to have
@@ -36374,8 +36386,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Florence</hi></placeName>,
                                     <date when="1870-11-03" calendar="gregorian"><hi rend="italic"
-                                        >Nov.</hi> 3, 1870. (Received Nov. 25,
-                                1870.)</date></dateline></opener>
+                                        >Nov.</hi> 3, 1870</date>. (Received Nov. 25,
+                                1870.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> The Italian government has at length
                             decided to dissolve the present and elect a new Chamber of Deputies, and
                             I inclose herewith a journal containing the royal proclamation for the
@@ -36410,12 +36422,12 @@
                         <pb n="453" xml:id="pg_453" facs="0487"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch23" frus:doc-dateTime-min="1869-06-21T00:00:00-05:00"
+                <div type="chapter" xml:id="ch23" frus:doc-dateTime-min="1869-05-21T00:00:00-05:00"
                     frus:doc-dateTime-max="1870-06-18T23:59:59-05:00">
                     <head>Japan.</head>
                     <div type="document" subtype="historical-document" xml:id="d281" n="281"
-                        frus:doc-dateTime-min="1869-06-21T00:00:00-05:00"
-                        frus:doc-dateTime-max="1869-06-21T23:59:59-05:00">
+                        frus:doc-dateTime-min="1869-05-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1869-05-21T23:59:59-05:00">
                         <note rend="inline" type="source">No. 282.</note>
                         <head><persName type="from">Mr. Van Valkenburgh</persName> to <persName
                                 type="to">Mr. Fish</persName>.</head>
@@ -36424,9 +36436,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United States in
                                         Japan,</hi><hi rend="italic"> Yokohama</hi></placeName>,
-                                    <date when="1869-06-21" calendar="gregorian"><hi rend="italic"
-                                        >May</hi> 21, 1869. (Received June
-                            28.)</date></dateline></opener>
+                                    <date when="1869-05-21" calendar="gregorian"><hi rend="italic"
+                                        >May</hi> 21, 1869</date>. (Received June
+                            28.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to transmit herewith
                             (inclosure No. 1) translation of an “account of persecutions of native
                             Christians” in the Soto Islands, which was kindly furnished me by the
@@ -36584,8 +36596,8 @@
                         </frus:attachment>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d282" n="282"
-                        frus:doc-dateTime-min="1870-02-17T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-02-17T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-01-17T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-01-17T23:59:59-05:00">
                         <note rend="inline" type="source">No. 283.</note>
                         <head><persName type="from">Mr. De Long</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -36594,9 +36606,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United States in
                                         Japan,</hi><hi rend="italic"> Yokohama</hi></placeName>,
-                                    <date when="1870-02-17" calendar="gregorian"><hi rend="italic"
-                                        >January</hi> 17, 1870. (Received February
-                                24.)</date></dateline></opener>
+                                    <date when="1870-01-17" calendar="gregorian"><hi rend="italic"
+                                        >January</hi> 17, 1870</date>. (Received February
+                                24.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I transmit herewith (inclosure No. 1)
                             translation of a letter received from the Japanese minister for foreign
                             affairs, on the 3d instant, in reply to one from the legation on the
@@ -37083,9 +37095,9 @@
                                 <dateline rendition="#right">
                                     <placeName><hi rend="smallcaps">United States Legation,
                                             Yokohama,</hi><hi rend="italic"> Japan</hi></placeName>,
-                                        <date when="1870-02-22" calendar="gregorian"><hi
+                                        <date when="1870-01-22" calendar="gregorian"><hi
                                             rend="italic">January</hi> 22<hi rend="italic">,</hi>
-                                        1870. (Received February 24.)</date></dateline></opener>
+                                        1870</date>. (Received February 24.)</dateline></opener>
                             <p><hi rend="smallcaps">Sir:</hi> On the 18th instant a reply was
                                 received from the Japanese minister of foreign affairs to the joint
                                 note of the foreign representatives of the 17th instant, appointing
@@ -37809,8 +37821,8 @@
                         </frus:attachment>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d283" n="283"
-                        frus:doc-dateTime-min="1870-02-22T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-02-22T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-01-22T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-01-22T23:59:59-05:00">
                         <note rend="inline" type="source">No. 285.</note>
                         <head><persName type="from">Mr. De Long</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -37819,9 +37831,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United States in
                                         Japan,</hi><hi rend="italic"> Yokohama</hi></placeName>,
-                                    <date when="1870-02-22" calendar="gregorian"><hi rend="italic"
-                                        >January</hi> 22, 1870. (Received February
-                                24.)</date></dateline></opener>
+                                    <date when="1870-01-22" calendar="gregorian"><hi rend="italic"
+                                        >January</hi> 22, 1870</date>. (Received February
+                                24.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir: A</hi> few days ago the Prince of Satsuma
                             suddenly returned from Yedo to his province with a portion of his
                             forces; the remainder are reported to be still guarding the Mikado in
@@ -37997,8 +38009,8 @@
                                 Japan.</hi></signed></closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d284" n="284"
-                        frus:doc-dateTime-min="1870-02-23T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-02-23T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-01-23T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-01-23T23:59:59-05:00">
                         <note rend="inline" type="source">No. 286.</note>
                         <head><persName type="from">Mr. De Long</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -38006,9 +38018,9 @@
                             <seg rendition="#left">No. 16.]</seg>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Yokohama, Japan,</hi></placeName>
-                                <date when="1870-02-23" calendar="gregorian"><hi rend="italic"
-                                        >January</hi> 23, 1870. (Received February
-                                24.)</date></dateline></opener>
+                                <date when="1870-01-23" calendar="gregorian"><hi rend="italic"
+                                        >January</hi> 23, 1870</date>. (Received February
+                                24.)</dateline></opener>
                         <p><hi rend="smallcaps">SIR:</hi> The mail steamer is just about to sail,
                             and I have but just time sufficient to transmit to you a couple of
                             reports, made by the native governor of Nagasaki to the Mikado’s
@@ -38087,8 +38099,8 @@
                         </frus:attachment>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d285" n="285"
-                        frus:doc-dateTime-min="1870-03-10T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-03-10T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-02-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-02-10T23:59:59-05:00">
                         <note rend="inline" type="source">No. 287.</note>
                         <head><persName type="from">Mr. De Long</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -38097,9 +38109,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United States in
                                         Japan,</hi><hi rend="italic"> Yokohama</hi></placeName>,
-                                    <date when="1870-03-10" calendar="gregorian"><hi rend="italic"
-                                        >February</hi> 10, 1870. (Received March
-                                28.)</date></dateline></opener>
+                                    <date when="1870-02-10" calendar="gregorian"><hi rend="italic"
+                                        >February</hi> 10, 1870</date>. (Received March
+                                28.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: On the 28th ultimo the Japanese ministers
                             for foreign affairs came to this place for the purpose of holding an
                             interview with the foreign <pb n="473" xml:id="pg_473" facs="0507"
@@ -38291,8 +38303,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United States in
                                         Japan,</hi><hi rend="italic"> Yokohama</hi></placeName>,
                                     <date when="1870-04-12" calendar="gregorian"><hi rend="italic"
-                                        >April</hi> 12, 1870. (Received May
-                            21.)</date></dateline></opener>
+                                        >April</hi> 12, 1870</date>. (Received May
+                            21.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to transmit herewith
                             Inclosure No. 1, copy translation of a document, alleged to be a report
                             of the officers who executed the decree of deportation of the native
@@ -39253,8 +39265,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Mexico</hi></placeName>,
                                     <date when="1870-11-04" calendar="gregorian"><hi rend="italic"
-                                        >November</hi> 4, 1870. (Received November
-                                25.)</date></dateline></opener>
+                                        >November</hi> 4, 1870</date>. (Received November
+                                25.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to inclose an able speech
                             by Mr. Romero, the secretary of the treasury, to the Mexican Congress,
                             in the sessions of the 28th and 29th ultimo, in opposition to the
@@ -40280,8 +40292,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Mexico</hi></placeName>,
                                     <date when="1870-11-10" calendar="gregorian"><hi rend="italic"
-                                        >November</hi> 10, 1870. (Received November
-                                25.)</date></dateline></opener>
+                                        >November</hi> 10, 1870</date>. (Received November
+                                25.)</dateline></opener>
                         <p>S<hi rend="smallcaps">ir</hi>: After a protracted debate, in which, the
                             Mexican government, through the secretary of the treasury, Mr. Romero,
                             has made great <pb n="498" xml:id="pg_498" facs="0532"/>efforts for the
@@ -40870,12 +40882,12 @@
                         </frus:attachment>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch26" frus:doc-dateTime-min="1870-09-14T00:00:00-05:00"
+                <div type="chapter" xml:id="ch26" frus:doc-dateTime-min="1870-08-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1870-11-01T23:59:59-05:00">
                     <head>Peru.</head>
                     <div type="document" subtype="historical-document" xml:id="d294" n="294"
-                        frus:doc-dateTime-min="1870-10-22T00:00:00-05:00"
-                        frus:doc-dateTime-max="1870-10-22T23:59:59-05:00">
+                        frus:doc-dateTime-min="1870-08-22T00:00:00-05:00"
+                        frus:doc-dateTime-max="1870-08-22T23:59:59-05:00">
                         <note rend="inline" type="source">No. 296.</note>
                         <head><persName type="from">Mr. Alvin P. Hovey</persName> to <persName
                                 type="to">Mr. Fish</persName>.</head>
@@ -40884,9 +40896,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Legation of the United States,
                                         </hi><hi rend="italic">Lima</hi>, <hi rend="italic">
-                                        Peru</hi></placeName>, <date when="1870-10-22"
-                                    calendar="gregorian"><hi rend="italic">August</hi> 22, 1870.
-                                    (Received October 14.)</date></dateline></opener>
+                                        Peru</hi></placeName>, <date when="1870-08-22"
+                                    calendar="gregorian"><hi rend="italic">August</hi> 22,
+                                    1870</date>. (Received October 14.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir: As</hi> by this time you will have received my
                             resignation as envoy extraordinary and minister plenipotentiary of the
                             United States of America near the government of the republic of Peru, I
@@ -41222,8 +41234,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Lima</hi>, <hi rend="italic"
                                         >Peru</hi></placeName>, <date when="1870-09-14"
-                                    calendar="gregorian"><hi rend="italic">September</hi> 14, 1870.
-                                    (Received Oct. 14.)</date></dateline></opener>
+                                    calendar="gregorian"><hi rend="italic">September</hi> 14,
+                                    1870</date>. (Received Oct. 14.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> On the morning of the 4th instant a
                             serious insurrection of the Chinese laborers or coolies took place on
                             the large cotton estates of Pativilca, about 180 miles north of Lima.
@@ -41254,8 +41266,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Lima</hi>, <hi rend="italic"
                                         >Peru</hi></placeName>, <date when="1870-09-18"
-                                    calendar="gregorian"><hi rend="italic">September</hi> 18, 1870.
-                                    (Received Oct. 14.)</date></dateline></opener>
+                                    calendar="gregorian"><hi rend="italic">September</hi> 18,
+                                    1870</date>. (Received Oct. 14.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> After having signed the treaties with Peru
                             (mentioned in my No. 232) dated the 6th and 12th instant, I deemed the
                             matter of sufficient importance, under my personal instructions, to send
@@ -41844,8 +41856,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United
                                         States,</hi><hi rend="italic"> Lima</hi>, <hi rend="italic"
                                         >Peru</hi></placeName>, <date when="1870-09-29"
-                                    calendar="gregorian"><hi rend="italic">September</hi> 29, 1870.
-                                    (Received Oct. 28.)</date></dateline></opener>
+                                    calendar="gregorian"><hi rend="italic">September</hi> 29,
+                                    1870</date>. (Received Oct. 28.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to inclose herewith the
                             copy and translation of a note from his excellency the minister of
                             foreign affairs relative to the immunities to be accorded to hearers of
@@ -42134,8 +42146,8 @@
                                 <placeName><hi rend="smallcaps">Legation of the United States,</hi>
                                     <hi rend="italic">St. Petersburg</hi></placeName>, <date
                                     when="1870-08-17" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 17, 1870. (Received August
-                            3.)</date></dateline></opener>
+                                        >July</hi> 17, 1870</date>. (Received August
+                            3.)</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to inform you that his
                             Majesty the Emperor, sanctioning the report of the Holy Synod, has seen
                             fit to appoint the Archimandrite John archbishop of the Aleutian Isles
@@ -42167,8 +42179,8 @@
                                             States,</hi>
                                         <hi rend="italic">St. Petersburg</hi></placeName>, <date
                                         when="1870-08-31" calendar="gregorian"><hi rend="italic"
-                                            >August</hi> 31, 1870. (Received Sept.
-                                    22.)</date></dateline></opener>
+                                            >August</hi> 31, 1870</date>. (Received Sept.
+                                    22.)</dateline></opener>
                             <p><hi rend="smallcaps">Sir</hi>: I have the honor to inclose you an
                                 abstract of the law regulating cities, the latest of the great
                                 reforms of the present reign. The constitution of the Russian
@@ -42382,8 +42394,9 @@
             </div>
         </body>
         <back>
-            <div type="section" xml:id="indx1" frus:doc-dateTime-min="1869-06-21T00:00:00-05:00"
-                frus:doc-dateTime-max="1870-12-01T23:59:59-05:00">
+            <div type="section" xml:id="indx1" subtype="index"
+                frus:doc-dateTime-min="1869-05-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1870-12-05T23:59:59-05:00">
                 <head>Alphabetical index.</head>
                 <p rend="center"><hi rend="strong">A.</hi></p>
                 <list type="index">
