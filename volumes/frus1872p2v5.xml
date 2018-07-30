@@ -4571,8 +4571,9 @@
                             <dateline rendition="#center">
                                 <hi rend="italic">Extracts from the speech of Mr. Dix</hi>, <hi
                                     rend="italic">of New York</hi>, <hi rend="italic">in the
-                                    Senate</hi>, <date when="1846-02-19" calendar="gregorian"><hi
-                                        rend="italic">February</hi> 19, 1846</date>.</dateline>
+                                        <placeName type="venue">Senate</placeName></hi>, <date
+                                    when="1846-02-19" calendar="gregorian"><hi rend="italic"
+                                        >February</hi> 19, 1846</date>.</dateline>
                         </opener>
                         <p>* * * “The historical facts are too well authenticated to be permanently
                             misunderstood. They were so well known at the time, that even the
@@ -4795,10 +4796,10 @@
                         <opener>
                             <dateline rendition="#center">
                                 <hi rend="italic">Extract from the speech of the Earl of Aberdeen in
-                                    the House of Lords</hi>, <date when="1846-06-29"
-                                    calendar="gregorian"><hi rend="italic">Monday, June</hi> 29,
-                                    1846</date>. (<hi rend="italic">Hansard’s Debates</hi> 87,
-                                1038.)</dateline>
+                                    the <placeName type="venue">House of Lords</placeName></hi>,
+                                    <date when="1846-06-29" calendar="gregorian"><hi rend="italic"
+                                        >Monday, June</hi> 29, 1846</date>. (<hi rend="italic"
+                                    >Hansard’s Debates</hi> 87, 1038.)</dateline>
                         </opener>
                         <p>When I saw that the Senate and the House of Representatives had adopted
                             resolutions of such a conciliatory and friendly *description, I did not
@@ -18583,7 +18584,7 @@
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
                                     when="1871-07-29" calendar="gregorian"><hi rend="italic"
-                                        >July</hi> 29, 1871. (Received August 18.)</date></dateline>
+                                        >July</hi> 29, 1871</date>. (Received August 18.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: This day, at a quarter before 1, I took
                             the British chargé in my carriage to the Foreign Office, where we
@@ -18645,8 +18646,8 @@
                         </closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d142" n="142"
-                        frus:doc-dateTime-min="1871-09-21T00:00:00-05:00"
-                        frus:doc-dateTime-max="1871-09-21T23:59:59-05:00">
+                        frus:doc-dateTime-min="1871-08-21T00:00:00-05:00"
+                        frus:doc-dateTime-max="1871-08-21T23:59:59-05:00">
                         <note rend="inline" type="source">No. 3.</note>
                         <head><persName type="from">Mr. Bancroft</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -18655,9 +18656,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1871-09-21" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 21, 1871. (Received September
-                                7.)</date></dateline>
+                                    when="1871-08-21" calendar="gregorian"><hi rend="italic"
+                                        >August</hi> 21, 1871</date>. (Received September
+                                7.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: The German Secretary of State has notified
                             to me and to the British Legation that the Emperor of Germany accepts
@@ -18691,8 +18692,8 @@
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
                                     when="1871-09-01" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 1, 1871. (Received September
-                                20.)</date></dateline>
+                                        >September</hi> 1, 1871</date>. (Received September
+                                20.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I inclose a copy of the note which I have
                             received this day from the German Secretary of State, notifying me
@@ -18785,8 +18786,8 @@
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
                                     when="1871-12-12" calendar="gregorian"><hi rend="italic"
-                                        >December</hi> 12, 1871. (Received Jan.
-                                3.)</date></dateline>
+                                        >December</hi> 12, 1871</date>. (Received Jan.
+                                3.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I this day left with Mr. Von Abeken, who,
                             during the illness of the Chancellor of the Empire and of the Secretary
@@ -18856,8 +18857,8 @@
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
                                     when="1871-12-15" calendar="gregorian"><hi rend="italic"
-                                        >December</hi> 15, 1871. (Received Jan.
-                                3.)</date></dateline>
+                                        >December</hi> 15, 1871</date>. (Received Jan.
+                                3.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>Admiral Prevost, formerly British commissioner for running the
@@ -18883,8 +18884,8 @@
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
                                     when="1871-12-28" calendar="gregorian"><hi rend="italic"
-                                        >December 28,</hi> 1871. (Received Jan.
-                                16.)</date></dateline>
+                                        >December 28,</hi> 1871</date>. (Received Jan.
+                                16.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: Herewith I inclose a translation of a
                             letter received from the Chancellor of the German Empire, acknowledging
@@ -18934,7 +18935,7 @@
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
                                     when="1872-06-11" calendar="gregorian"><hi rend="italic"
-                                        >June</hi> 11, 1872. (Received June 27.)</date></dateline>
+                                        >June</hi> 11, 1872</date>. (Received June 27.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: Admiral Prevost arrived yesterday from
                             London with the second and definitive statement of the British
@@ -18956,8 +18957,8 @@
                         </closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d150" n="150"
-                        frus:doc-dateTime-min="1872-07-17T00:00:00-05:00"
-                        frus:doc-dateTime-max="1872-07-17T23:59:59-05:00">
+                        frus:doc-dateTime-min="1872-06-17T00:00:00-05:00"
+                        frus:doc-dateTime-max="1872-06-17T23:59:59-05:00">
                         <note rend="inline" type="source">No. 10.</note>
                         <head><persName type="from">Mr. Bancroft</persName> to <persName type="to"
                                 >Mr. Fish</persName>.</head>
@@ -18966,8 +18967,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1872-07-17" calendar="gregorian"><hi rend="italic"
-                                        >June</hi> 17, 1872. (Received July 3.)</date></dateline>
+                                    when="1872-06-17" calendar="gregorian"><hi rend="italic"
+                                        >June</hi> 17, 1872</date>. (Received July 3.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I send you by the Hamburg packet of the
                             19th instant three bound copies of the English version of our reply to
@@ -19162,7 +19163,7 @@
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
                                     when="1872-06-24" calendar="gregorian"><hi rend="italic"
-                                        >June</hi> 24, 1872. (Received July 13.)</date></dateline>
+                                        >June</hi> 24, 1872</date>. (Received July 13.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: * * * * * * *</p>
                         <p>I transmit a translation of the acknowledgment that the definitive
@@ -19215,7 +19216,7 @@
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
                                     when="1872-06-28" calendar="gregorian"><hi rend="italic"
-                                        >June</hi> 28, 1872. (Received July 15.)</date></dateline>
+                                        >June</hi> 28, 1872</date>. (Received July 15.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I am officially informed that the names of
                             the gentlemen who will be requested to examine and report upon the Haro
@@ -19233,8 +19234,8 @@
                         <pb n="264" xml:id="pg_264" facs="0294"/>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d153" n="153"
-                        frus:doc-dateTime-min="1872-10-30T00:00:00-05:00"
-                        frus:doc-dateTime-max="1872-10-30T23:59:59-05:00">
+                        frus:doc-dateTime-min="1872-09-30T00:00:00-05:00"
+                        frus:doc-dateTime-max="1872-09-30T23:59:59-05:00">
                         <note rend="inline" type="source">No. 13.</note>
                         <opener>
                             <seg rendition="#center">[Extract.]</seg>
@@ -19246,9 +19247,9 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
-                                    when="1872-10-30" calendar="gregorian"><hi rend="italic"
-                                        >September</hi> 30, 1872. (Received October
-                                16.)</date></dateline>
+                                    when="1872-09-30" calendar="gregorian"><hi rend="italic"
+                                        >September</hi> 30, 1872</date>. (Received October
+                                16.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I am assured, on the best authority, that
                             the decision respecting our northwest boundary approaches its solution,
@@ -19289,8 +19290,8 @@
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
                                     when="1872-10-04" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 4, 1872. (Received November
-                                7.)</date></dateline>
+                                        >October</hi> 4, 1872</date>. (Received November
+                                7.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: The papers relating to our Arbitration
                             were completely finished last week and forwarded to the Emperor at Baden
@@ -19326,8 +19327,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Berlin</hi></placeName>, <date
                                     when="1872-10-23" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 23, 1872. (Received October
-                                23.)</date></dateline>
+                                        >October</hi> 23, 1872</date>. (Received October
+                                23.)</dateline>
                         </opener>
                         <p>The three Experts to whom the American Memorial on the Canal de Haro and
                             the British Case were referred, have made, each for himself, a very
@@ -19384,8 +19385,8 @@
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
                                     when="1872-10-24" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 24, 1872. (Received November
-                                14.)</date></dateline>
+                                        >October</hi> 24, 1872</date>. (Received November
+                                14.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: At four minutes before 10 o’clock last
                             evening I received the award of the Emperor on the question of boundary
@@ -19580,8 +19581,8 @@
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
                                     when="1872-10-24" calendar="gregorian"><hi rend="italic"
-                                        >October</hi> 24, 1872. (Received November
-                                14.)</date></dateline>
+                                        >October</hi> 24, 1872</date>. (Received November
+                                14.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: The importance of the award of the German
                             Emperor is known in England as well as on our own Pacific coast. It
@@ -19628,8 +19629,8 @@
                                 <placeName><hi rend="smallcaps">American Legation</hi>, <hi
                                         rend="italic">Berlin</hi></placeName>, <date
                                     when="1872-11-02" calendar="gregorian"><hi rend="italic"
-                                        >November</hi> 2, 1872. (Received November
-                                19.)</date></dateline>
+                                        >November</hi> 2, 1872</date>. (Received November
+                                19.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: I annex a copy and translation of a note
                             from the Secretary of State for Foreign Affairs, in reply to Mr.
@@ -19722,8 +19723,8 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Washington</hi></placeName>, <date
                                     when="1872-11-21" calendar="gregorian"><hi rend="italic"
-                                        >November</hi> 21, 1872. (Received November
-                                21.)</date></dateline>
+                                        >November</hi> 21, 1872</date>. (Received November
+                                21.)</dateline>
                         </opener>
                         <p><hi rend="smallcaps">Sir</hi>: In compliance with an instruction which I
                             have received from Earl Granville, I have the honor to inform you that
