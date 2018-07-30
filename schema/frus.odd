@@ -509,7 +509,7 @@
                         <head>Paragraphs</head>
                         <p>Paragraphs are wrapped in a <gi>p</gi> element. By default, a paragraph
                             is left-aligned, roman text, and its first line will be indented, but
-                            these properties can be overriden with an optional <att>rend</att>
+                            these properties can be overridden with an optional <att>rend</att>
                             attribute carrying one of the following values: <list>
                                 <item><ident>flushleft</ident>: the paragraph's first line is flush
                                     left, that is, not indented.</item>
@@ -691,6 +691,20 @@
                                 <gi>closer</gi> or <gi>postscript</gi> elements. The same guidelines
                             apply for the <gi>placeName</gi> and <gi>date</gi> elements given
                             above.</p>
+                        <p>In the case that more than one date appears in a dateline, wrap only the
+                            one: the date the document was created, with the <gi>date</gi> element.
+                            For example, in the dateline, "United States Legation, Vienna, October
+                            3, 1870. (Received October 26.)" the first date indicates the date of
+                            creation, and the second indicates the date the document was received by
+                            the recipient. Therefore, only the first date is tagged, and the second
+                            is left untagged:</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <dateline>
+                                <placeName>United States Legation, Vienna</placeName>, 
+                                <date when="1870-10-03" calendar="gregorian">October 3, 1870</date>. 
+                                (Received October 26.)
+                            </dateline>
+                        </egXML>
                     </div>
                     <div xml:id="dates">
                         <head>Dates</head>
