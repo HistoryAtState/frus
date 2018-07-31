@@ -1575,7 +1575,7 @@
                                 </valList>
                             </attDef>
                             
-                            <attDef ident="calendar" usage="rec" mode="add">
+                            <attDef ident="calendar" usage="rec" mode="replace">
                                 <desc>Restrict @calendar values for tei:date elements</desc>
                                 <datatype>
                                     <dataRef name="token"/>
