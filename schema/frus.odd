@@ -7,18 +7,10 @@
         <fileDesc>
             <titleStmt>
                 <title>FRUS TEI Guidelines</title>
-                <author>
-                    <persName xml:id="Mandy">Mandy Chalou</persName>
-                </author>
-                <author>
-                    <persName xml:id="Joe">Joe Wicentowski</persName>
-                </author>
-                <author role="contributor">
-                    <persName xml:id="Amanda">Amanda Ross</persName>
-                </author>
-                <author role="contributor">
-                    <persName xml:id="Virginia">Virginia Kinniburgh</persName>
-                </author>
+                <author xml:id="Mandy">Mandy Chalou</author>
+                <author xml:id="Joe">Joe Wicentowski</author>
+                <author xml:id="Amanda" role="contributor">Amanda Ross</author>
+                <author xml:id="Virginia" role="contributor">Virginia Kinniburgh</author>
             </titleStmt>
             <publicationStmt>
                 <p>Released online as the prose and schema guidelines for the FRUS digital
@@ -982,6 +974,7 @@
                     http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ST.html#STMA.
                     The first four listed here are required: core, tei, header, 
                     textstructure. -->
+                    <desc>FRUS TEI Schema Spec</desc>
                     <moduleRef key="core"
                         include="p hi gloss term name date time ref list item head note                          graphic pb lb editor title publisher pubPlace label gap unclear cit quote bibl del l lg"/>
                     <moduleRef key="tei"/>
@@ -1439,12 +1432,12 @@
                     </elementSpec>
 
                     <!-- 
-                    constrain tei:date/@ana
+                    constrain tei:date/@ana | @calendar
                     -->
                     <elementSpec ident="date" module="core" mode="change">
-                        <desc>Restrict @ana values for tei:date elements</desc>
                         <attList>
                             <attDef ident="ana" usage="opt" mode="replace">
+                                <desc>Restrict @ana values for tei:date elements</desc>
                                 <valList type="closed">
                                     <valItem ident="#date_apparent-typo-based-on-document-content">
                                         <gloss>The recorded date was determined to be an error via
@@ -1581,15 +1574,9 @@
                                     </valItem>
                                 </valList>
                             </attDef>
-                        </attList>
-
-                        <!-- 
-                            constrain tei:date/@calendar
-                        -->
-
-                        <desc>Restrict @calendar values for tei:date elements</desc>
-                        <attList>
+                            
                             <attDef ident="calendar" usage="rec" mode="add">
+                                <desc>Restrict @calendar values for tei:date elements</desc>
                                 <datatype>
                                     <dataRef name="token"/>
                                 </datatype>
