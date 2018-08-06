@@ -631,7 +631,9 @@
         <rule context="tei:editor">
             <assert test="./parent::tei:titleStmt">An editor element is allowed only in the
                 tei:titleStmt element.</assert>
-            <assert test="count(./node()) gt 0">An editor element cannot be empty.</assert>
+            <assert role="warn" test="count(./node()) gt 0">In contemporary publications, an editor
+                element should not be empty.(In the back catalogue, the editor element may be empty
+                by necessity.)</assert>
             <assert test="./@role">An editor element needs a @role attribute.</assert>
             <assert test="string-length(./@role) gt 0">An editor/@role attribute cannot be
                 empty.</assert>
