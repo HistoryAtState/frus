@@ -11220,9 +11220,9 @@
                             <table cols="5">
                                 <row>
                                     <cell>Rue Condorcet 47, Impie, Bachy, etcie.</cell>
-                                    <cell>}</cell>
+                                    <cell role="brace">}</cell>
                                     <cell>La Dépêche, N. 32.</cell>
-                                    <cell>{</cell>
+                                    <cell role="brace">{</cell>
                                     <cell>100 Dépêches, 10 frs. 50 Dépêches, 5 “</cell>
                                 </row>
                             </table>
@@ -11238,9 +11238,9 @@
                     <div type="document" subtype="historical-document" xml:id="d98" n="98"
                         frus:doc-dateTime-min="1870-08-03T00:00:00-05:00"
                         frus:doc-dateTime-max="1870-08-03T23:59:59-05:00">
-                        <note rend="center">CORRESPONDENCE BETWEEN THE DEPARTMENT OF STATE AND THE
-                            FRENCH LEGATION IN WASHINGTON.</note>
-                        <note>No. 98.</note>
+                        <note rend="center">Correspondence between the Department of State and the
+                            French legation in Washington.</note>
+                        <opener><seg rendition="#center">No. 98.</seg></opener>
                         <head><persName type="from">Mr. Berthemy</persName> to <persName type="to"
                                 >Mr. Davis</persName>.</head>
                         <opener>
@@ -20044,68 +20044,75 @@
                             only) the following as a practicable table:</p>
                         <table cols="5">
                             <row>
-                                <cell>Country.</cell>
-                                <cell>Denominations of coin.</cell>
-                                <cell>Present weight in decigrammes and decimal fractions of pure
-                                    gold contained in coin.</cell>
-                                <cell>Proposed weight of same.</cell>
-                                <cell>Percentage of change.</cell>
+                                <cell rendition="#border-bottom #border-top #border-right"
+                                    >Country.</cell>
+                                <cell rendition="#border-bottom #border-top #border-right"
+                                    >Denominations of coin.</cell>
+                                <cell rendition="#border-bottom #border-top #border-right">Present
+                                    weight in decigrammes and decimal fractions of pure gold
+                                    contained in coin.</cell>
+                                <cell rendition="#border-bottom #border-top #border-right">Proposed
+                                    weight of same.</cell>
+                                <cell rendition="#border-bottom #border-top">Percentage of
+                                    change.</cell>
                             </row>
                             <row>
-                                <cell>United States</cell>
-                                <cell>Half-eagle</cell>
-                                <cell>75.232</cell>
-                                <cell>75</cell>
-                                <cell>-3-10</cell>
+                                <cell rendition="#border-right">United States</cell>
+                                <cell rendition="#border-right">Half-eagle</cell>
+                                <cell rendition="#border-right" role="num">75.232</cell>
+                                <cell rendition="#border-right" role="num">75</cell>
+                                <cell role="num">-3-10</cell>
                             </row>
                             <row>
-                                <cell>Great Britain</cell>
-                                <cell>Sovereign</cell>
-                                <cell>73.224</cell>
-                                <cell>73</cell>
-                                <cell>-1/3</cell>
+                                <cell rendition="#border-right">Great Britain</cell>
+                                <cell rendition="#border-right">Sovereign</cell>
+                                <cell rendition="#border-right" role="num">73.224</cell>
+                                <cell rendition="#border-right" role="num">73</cell>
+                                <cell>-⅓</cell>
                             </row>
                             <row>
-                                <cell>Prance</cell>
-                                <cell>Napoleon</cell>
-                                <cell>58.065</cell>
-                                <cell>58</cell>
+                                <cell rendition="#border-right">France</cell>
+                                <cell rendition="#border-right">Napoleon</cell>
+                                <cell rendition="#border-right" role="num">58.065</cell>
+                                <cell rendition="#border-right" role="num">58</cell>
                                 <cell>-1-12</cell>
                             </row>
                             <row>
-                                <cell>Prussia</cell>
-                                <cell>Frederick d’or prior to 1858</cell>
-                                <cell>60.302</cell>
-                                <cell>60</cell>
-                                <cell>-1/3</cell>
+                                <cell rendition="#border-right">Prussia</cell>
+                                <cell rendition="#border-right">Frederick d’or prior to 1858</cell>
+                                <cell rendition="#border-right" role="num">60.302</cell>
+                                <cell rendition="#border-right" role="num">60</cell>
+                                <cell>-⅓</cell>
                             </row>
                             <row>
-                                <cell>Austria</cell>
-                                <cell>Double ducat</cell>
-                                <cell>68.838</cell>
-                                <cell>69</cell>
+                                <cell rendition="#border-right">Austria</cell>
+                                <cell rendition="#border-right">Double ducat</cell>
+                                <cell rendition="#border-right" role="num">68.838</cell>
+                                <cell rendition="#border-right" role="num">69</cell>
                                 <cell>+¼</cell>
                             </row>
                             <row>
-                                <cell>Müntzverein</cell>
-                                <cell>Crown</cell>
-                                <cell>100.00</cell>
-                                <cell>100</cell>
+                                <cell rendition="#border-right">Müntzverein</cell>
+                                <cell rendition="#border-right">Crown</cell>
+                                <cell rendition="#border-right" role="num">100.00</cell>
+                                <cell rendition="#border-right" role="num">100</cell>
                                 <cell/>
                             </row>
                             <row>
-                                <cell>Russia</cell>
-                                <cell>Half-imperial</cell>
-                                <cell>59.987</cell>
-                                <cell>60</cell>
+                                <cell rendition="#border-right">Russia</cell>
+                                <cell rendition="#border-right">Half-imperial</cell>
+                                <cell rendition="#border-right" role="num">59.987</cell>
+                                <cell rendition="#border-right" role="num">60</cell>
                                 <cell>+1-30</cell>
                             </row>
                             <row>
-                                <cell>Spain</cell>
-                                <cell>Doubloon of 10 escudos, since 1864</cell>
-                                <cell>75.483</cell>
-                                <cell>75</cell>
-                                <cell>-2/3</cell>
+                                <cell rendition="#border-right #border-bottom">Spain</cell>
+                                <cell rendition="#border-right #border-bottom">Doubloon of 10
+                                    escudos, since 1864</cell>
+                                <cell rendition="#border-right #border-bottom" role="num"
+                                    >75.483</cell>
+                                <cell rendition="#border-right #border-bottom" role="num">75</cell>
+                                <cell rendition="#border-bottom">-⅔</cell>
                             </row>
                         </table>
                         <p>These suggested changes are slight, and need scarcely be accounted for.
@@ -20484,23 +20491,23 @@
                             <table cols="2">
                                 <row>
                                     <cell>United Kingdom</cell>
-                                    <cell>30,157,473</cell>
+                                    <cell role="num">30,157,473</cell>
                                 </row>
                                 <row>
                                     <cell>Dependencies, including India</cell>
-                                    <cell>159,269,858</cell>
+                                    <cell role="num">159,269,858</cell>
                                 </row>
                                 <row>
                                     <cell>Treaty provinces of China</cell>
-                                    <cell>270,000,000</cell>
+                                    <cell role="num">270,000,000</cell>
                                 </row>
                                 <row>
                                     <cell>Japan</cell>
-                                    <cell>35,000,000</cell>
+                                    <cell role="num" rendition="#border-bottom">35,000,000</cell>
                                 </row>
                                 <row>
                                     <cell>Total</cell>
-                                    <cell>494,427,331</cell>
+                                    <cell role="num" rendition="#border-bottom">494,427,331</cell>
                                 </row>
                             </table>
                             <pb n="251" xml:id="pg_251" facs="0285"/>
@@ -20508,73 +20515,73 @@
                             <table cols="2">
                                 <row>
                                     <cell>France</cell>
-                                    <cell>38,067,094</cell>
+                                    <cell role="num">38,067,094</cell>
                                 </row>
                                 <row>
                                     <cell>Belgium</cell>
-                                    <cell>5,000,000</cell>
+                                    <cell role="num">5,000,000</cell>
                                 </row>
                                 <row>
                                     <cell>Switzerland</cell>
-                                    <cell>2,510,494</cell>
+                                    <cell role="num">2,510,494</cell>
                                 </row>
                                 <row>
                                     <cell>Italy</cell>
-                                    <cell>24,500,000</cell>
+                                    <cell role="num" rendition="#border-bottom">24,500,000</cell>
                                 </row>
                                 <row>
                                     <cell>Total</cell>
-                                    <cell>70,077, 588</cell>
+                                    <cell role="num" rendition="#border-bottom">70,077,588</cell>
                                 </row>
                             </table>
                             <p rend="center"><hi rend="smallcaps">Group 3.—German.</hi></p>
                             <table cols="2">
                                 <row>
                                     <cell>North Germany</cell>
-                                    <cell>29,653,038</cell>
+                                    <cell role="num">29,653,038</cell>
                                 </row>
                                 <row>
                                     <cell>South Germany</cell>
-                                    <cell>8, 869,328</cell>
+                                    <cell role="num">8,869,328</cell>
                                 </row>
                                 <row>
                                     <cell>Austria</cell>
-                                    <cell>34,706,460</cell>
+                                    <cell role="num" rendition="#border-bottom">34,706,460</cell>
                                 </row>
                                 <row>
                                     <cell>Total</cell>
-                                    <cell>73,228,826</cell>
+                                    <cell role="num" rendition="#border-bottom">73,228,826</cell>
                                 </row>
                             </table>
                             <p rend="center"><hi rend="smallcaps">Group 4.—Dollar.</hi></p>
                             <table cols="2">
                                 <row>
                                     <cell>United States</cell>
-                                    <cell>40,000,000</cell>
+                                    <cell role="num">40,000,000</cell>
                                 </row>
                                 <row>
                                     <cell>Canada</cell>
-                                    <cell>3,879,812</cell>
+                                    <cell role="num">3,879,812</cell>
                                 </row>
                                 <row>
                                     <cell>China, treaty provinces</cell>
-                                    <cell>270,000,000</cell>
+                                    <cell role="num">270,000,000</cell>
                                 </row>
                                 <row>
                                     <cell>Japan</cell>
-                                    <cell>35,000,000</cell>
+                                    <cell role="num">35,000,000</cell>
                                 </row>
                                 <row>
                                     <cell>Mexico</cell>
-                                    <cell>8,000,000</cell>
+                                    <cell role="num">8,000,000</cell>
                                 </row>
                                 <row>
                                     <cell>Spain</cell>
-                                    <cell>16,500,000</cell>
+                                    <cell role="num" rendition="#border-bottom">16,500,000</cell>
                                 </row>
                                 <row>
                                     <cell>Total</cell>
-                                    <cell>373,379,812</cell>
+                                    <cell role="num" rendition="#border-bottom">373,379,812</cell>
                                 </row>
                             </table>
                         </frus:attachment>
@@ -21368,212 +21375,232 @@
                                 Navigation.]</p>
                             <table cols="6">
                                 <row>
-                                    <cell>Countries.</cell>
-                                    <cell>Imports.</cell>
-                                    <cell>Exports.</cell>
-                                    <cell>Reëxports.</cell>
-                                    <cell>Total exports.</cell>
-                                    <cell>Total commerce.</cell>
+                                    <cell rendition="#border-bottom #border-top #border-right"
+                                        >Countries.</cell>
+                                    <cell rendition="#border-bottom #border-top #border-right"
+                                        >Imports.</cell>
+                                    <cell rendition="#border-bottom #border-top #border-right"
+                                        >Exports.</cell>
+                                    <cell rendition="#border-bottom #border-top #border-right"
+                                        >Reëxports.</cell>
+                                    <cell rendition="#border-bottom #border-top #border-right">Total
+                                        exports.</cell>
+                                    <cell rendition="#border-bottom #border-top">Total
+                                        commerce.</cell>
                                 </row>
                                 <row>
-                                    <cell>Dominion of Canada</cell>
-                                    <cell>$30,353,010</cell>
-                                    <cell>$18,188,613</cell>
-                                    <cell>$2,858,782</cell>
-                                    <cell>$21,047,395</cell>
-                                    <cell>$51,400,405</cell>
+                                    <cell rendition="#border-right">Dominion of Canada</cell>
+                                    <cell rendition="#border-right" role="num">$30,353,010</cell>
+                                    <cell rendition="#border-right" role="num">$18,188,613</cell>
+                                    <cell rendition="#border-right" role="num">$2,858,782</cell>
+                                    <cell rendition="#border-right" role="num">$21,047,395</cell>
+                                    <cell role="num">$51,400,405</cell>
                                 </row>
                                 <row>
-                                    <cell>All other British possessions in North America</cell>
-                                    <cell>1,737,304</cell>
-                                    <cell>2,703,173</cell>
-                                    <cell>446,664</cell>
-                                    <cell>3,149,837</cell>
-                                    <cell>4,887,141</cell>
+                                    <cell rendition="#border-right">All other British possessions in
+                                        North America</cell>
+                                    <cell rendition="#border-right" role="num">1,737,304</cell>
+                                    <cell rendition="#border-right" role="num">2,703,173</cell>
+                                    <cell rendition="#border-right" role="num">446,664</cell>
+                                    <cell rendition="#border-right" role="num">3,149,837</cell>
+                                    <cell role="num">4,887,141</cell>
                                 </row>
                                 <row>
-                                    <cell>British West Indies</cell>
-                                    <cell>6,682,391</cell>
-                                    <cell>9,142,344</cell>
-                                    <cell>101,760</cell>
-                                    <cell>9,244,104</cell>
-                                    <cell>15,926,495</cell>
+                                    <cell rendition="#border-right">British West Indies</cell>
+                                    <cell rendition="#border-right" role="num">6,682,391</cell>
+                                    <cell rendition="#border-right" role="num">9,142,344</cell>
+                                    <cell rendition="#border-right" role="num">101,760</cell>
+                                    <cell rendition="#border-right" role="num">9,244,104</cell>
+                                    <cell role="num">15,926,495</cell>
                                 </row>
                                 <row>
-                                    <cell>Total</cell>
-                                    <cell>38,772,705</cell>
-                                    <cell>30,034,130</cell>
-                                    <cell>3,407,206</cell>
-                                    <cell>33,441,336</cell>
-                                    <cell>72,214,041</cell>
+                                    <cell rendition="#border-right">Total</cell>
+                                    <cell rendition="#border-right" role="num">38,772,705</cell>
+                                    <cell rendition="#border-right" role="num">30,034,130</cell>
+                                    <cell rendition="#border-right" role="num">3,407,206</cell>
+                                    <cell rendition="#border-right" role="num">33,441,336</cell>
+                                    <cell role="num">72,214,041</cell>
                                 </row>
                                 <row>
-                                    <cell>Cuba</cell>
-                                    <cell>58,201,374</cell>
-                                    <cell>12,643,955</cell>
-                                    <cell>7,064,787</cell>
-                                    <cell>19,708,742</cell>
-                                    <cell>77,910,116</cell>
+                                    <cell rendition="#border-right">Cuba</cell>
+                                    <cell rendition="#border-right" role="num">58,201,374</cell>
+                                    <cell rendition="#border-right" role="num">12,643,955</cell>
+                                    <cell rendition="#border-right" role="num">7,064,787</cell>
+                                    <cell rendition="#border-right" role="num">19,708,742</cell>
+                                    <cell role="num">77,910,116</cell>
                                 </row>
                                 <row>
-                                    <cell>Porto Rico</cell>
-                                    <cell>7,407,900</cell>
-                                    <cell>2,669,964</cell>
-                                    <cell>114,037</cell>
-                                    <cell>2,784,001</cell>
-                                    <cell>10,191,901</cell>
+                                    <cell rendition="#border-right">Porto Rico</cell>
+                                    <cell rendition="#border-right" role="num">7,407,900</cell>
+                                    <cell rendition="#border-right" role="num">2,669,964</cell>
+                                    <cell rendition="#border-right" role="num">114,037</cell>
+                                    <cell rendition="#border-right" role="num">2,784,001</cell>
+                                    <cell role="num">10,191,901</cell>
                                 </row>
                                 <row>
-                                    <cell>Total</cell>
-                                    <cell>65,609,274</cell>
-                                    <cell>15,313,919</cell>
-                                    <cell>7,178,824</cell>
-                                    <cell>22,492,743</cell>
-                                    <cell>88,102,017</cell>
+                                    <cell rendition="#border-right">Total</cell>
+                                    <cell rendition="#border-right" role="num">65,609,274</cell>
+                                    <cell rendition="#border-right" role="num">15,313,919</cell>
+                                    <cell rendition="#border-right" role="num">7,178,824</cell>
+                                    <cell rendition="#border-right" role="num">22,492,743</cell>
+                                    <cell role="num">88,102,017</cell>
                                 </row>
                                 <row>
-                                    <cell>French possessions in America</cell>
-                                    <cell>696,952</cell>
-                                    <cell>1,174,056</cell>
-                                    <cell>45,514</cell>
-                                    <cell>1,219,570</cell>
-                                    <cell>1,916,522</cell>
+                                    <cell rendition="#border-right">French possessions in
+                                        America</cell>
+                                    <cell rendition="#border-right" role="num">696,952</cell>
+                                    <cell rendition="#border-right" role="num">1,174,056</cell>
+                                    <cell rendition="#border-right" role="num">45,514</cell>
+                                    <cell rendition="#border-right" role="num">1,219,570</cell>
+                                    <cell role="num">1,916,522</cell>
                                 </row>
                                 <row>
-                                    <cell>Danish West Indies</cell>
-                                    <cell>638,550</cell>
-                                    <cell>1,500,000</cell>
-                                    <cell>39,121</cell>
-                                    <cell>1,539,121</cell>
-                                    <cell>2,177,671</cell>
+                                    <cell rendition="#border-right">Danish West Indies</cell>
+                                    <cell rendition="#border-right" role="num">638,550</cell>
+                                    <cell rendition="#border-right" role="num">1,500,000</cell>
+                                    <cell rendition="#border-right" role="num">39,121</cell>
+                                    <cell rendition="#border-right" role="num">1,539,121</cell>
+                                    <cell role="num">2,177,671</cell>
                                 </row>
                                 <row>
-                                    <cell>Dutch West Indies find Guiana</cell>
-                                    <cell>999,099</cell>
-                                    <cell>926,051</cell>
-                                    <cell>29,595</cell>
-                                    <cell>955,646</cell>
-                                    <cell>1,954,745</cell>
+                                    <cell rendition="#border-right">Dutch West Indies and
+                                        Guiana</cell>
+                                    <cell rendition="#border-right" role="num">999,099</cell>
+                                    <cell rendition="#border-right" role="num">926,051</cell>
+                                    <cell rendition="#border-right" role="num">29,595</cell>
+                                    <cell rendition="#border-right" role="num">955,646</cell>
+                                    <cell role="num">1,954,745</cell>
                                 </row>
                                 <row>
-                                    <cell>Hayti and Sail Domingo</cell>
-                                    <cell>729,632</cell>
-                                    <cell>1,349,438</cell>
-                                    <cell>129,462</cell>
-                                    <cell>1,478,900</cell>
-                                    <cell>2,208,532</cell>
+                                    <cell rendition="#border-right">Hayti and Sail Domingo</cell>
+                                    <cell rendition="#border-right" role="num">729,632</cell>
+                                    <cell rendition="#border-right" role="num">1,349,438</cell>
+                                    <cell rendition="#border-right" role="num">129,462</cell>
+                                    <cell rendition="#border-right" role="num">1,478,900</cell>
+                                    <cell role="num">2,208,532</cell>
                                 </row>
                                 <row>
-                                    <cell>Sandwich Islands</cell>
-                                    <cell>1,298,065</cell>
-                                    <cell>700,962</cell>
-                                    <cell>86,665</cell>
-                                    <cell>787,627</cell>
-                                    <cell>2,085,712</cell>
+                                    <cell rendition="#border-right">Sandwich Islands</cell>
+                                    <cell rendition="#border-right" role="num">1,298,065</cell>
+                                    <cell rendition="#border-right" role="num">700,962</cell>
+                                    <cell rendition="#border-right" role="num">86,665</cell>
+                                    <cell rendition="#border-right" role="num">787,627</cell>
+                                    <cell role="num">2,085,712</cell>
                                 </row>
                                 <row>
-                                    <cell>Total</cell>
-                                    <cell>4,362,318</cell>
-                                    <cell>5,650,507</cell>
-                                    <cell>330,357</cell>
-                                    <cell>5,980,864</cell>
-                                    <cell>10,343,182</cell>
+                                    <cell rendition="#border-right">Total</cell>
+                                    <cell rendition="#border-right" role="num">4,362,318</cell>
+                                    <cell rendition="#border-right" role="num">5,650,507</cell>
+                                    <cell rendition="#border-right" role="num">330,357</cell>
+                                    <cell rendition="#border-right" role="num">5,980,864</cell>
+                                    <cell role="num">10,343,182</cell>
                                 </row>
                                 <row>
-                                    <cell>Mexico</cell>
-                                    <cell>7,232,006</cell>
-                                    <cell>3,836,699</cell>
-                                    <cell>1,047,408</cell>
-                                    <cell>4,884,107</cell>
-                                    <cell>12,116,113</cell>
+                                    <cell rendition="#border-right">Mexico</cell>
+                                    <cell rendition="#border-right" role="num">7,232,006</cell>
+                                    <cell rendition="#border-right" role="num">3,836,699</cell>
+                                    <cell rendition="#border-right" role="num">1,047,408</cell>
+                                    <cell rendition="#border-right" role="num">4,884,107</cell>
+                                    <cell role="num">12,116,113</cell>
                                 </row>
                                 <row>
-                                    <cell>Central American States</cell>
-                                    <cell>733,296</cell>
-                                    <cell>1,324,336</cell>
-                                    <cell>52,146</cell>
-                                    <cell>1,376,482</cell>
-                                    <cell>2,109,778</cell>
+                                    <cell rendition="#border-right">Central American States</cell>
+                                    <cell rendition="#border-right" role="num">733,296</cell>
+                                    <cell rendition="#border-right" role="num">1,324,336</cell>
+                                    <cell rendition="#border-right" role="num">52,146</cell>
+                                    <cell rendition="#border-right" role="num">1,376,482</cell>
+                                    <cell role="num">2,109,778</cell>
                                 </row>
                                 <row>
-                                    <cell>Colombia</cell>
-                                    <cell>5,291,706</cell>
-                                    <cell>4,900,075</cell>
-                                    <cell>180,267</cell>
-                                    <cell>5,080,342</cell>
-                                    <cell>10,372,048</cell>
+                                    <cell rendition="#border-right">Colombia</cell>
+                                    <cell rendition="#border-right" role="num">5,291,706</cell>
+                                    <cell rendition="#border-right" role="num">4,900,075</cell>
+                                    <cell rendition="#border-right" role="num">180,267</cell>
+                                    <cell rendition="#border-right" role="num">5,080,342</cell>
+                                    <cell role="num">10,372,048</cell>
                                 </row>
                                 <row>
-                                    <cell>Peru</cell>
-                                    <cell>1,386,310</cell>
-                                    <cell>1,556,434</cell>
-                                    <cell>116,911</cell>
-                                    <cell>1,673,445</cell>
-                                    <cell>3,059,755</cell>
+                                    <cell rendition="#border-right">Peru</cell>
+                                    <cell rendition="#border-right" role="num">1,386,310</cell>
+                                    <cell rendition="#border-right" role="num">1,556,434</cell>
+                                    <cell rendition="#border-right" role="num">116,911</cell>
+                                    <cell rendition="#border-right" role="num">1,673,445</cell>
+                                    <cell role="num">3,059,755</cell>
                                 </row>
                                 <row>
-                                    <cell>Chili</cell>
-                                    <cell>1,186,982</cell>
-                                    <cell>1,969,580</cell>
-                                    <cell>115,905</cell>
-                                    <cell>2,085,485</cell>
-                                    <cell>3,272,467</cell>
+                                    <cell rendition="#border-right">Chili</cell>
+                                    <cell rendition="#border-right" role="num">1,186,982</cell>
+                                    <cell rendition="#border-right" role="num">1,969,580</cell>
+                                    <cell rendition="#border-right" role="num">115,905</cell>
+                                    <cell rendition="#border-right" role="num">2,085,485</cell>
+                                    <cell role="num">3,272,467</cell>
                                 </row>
                                 <row>
-                                    <cell>Argentine Republic</cell>
-                                    <cell>5,162,966</cell>
-                                    <cell>2,235,089</cell>
-                                    <cell>272,425</cell>
-                                    <cell>2,597,514</cell>
-                                    <cell>7,670,480</cell>
+                                    <cell rendition="#border-right">Argentine Republic</cell>
+                                    <cell rendition="#border-right" role="num">5,162,966</cell>
+                                    <cell rendition="#border-right" role="num">2,235,089</cell>
+                                    <cell rendition="#border-right" role="num">272,425</cell>
+                                    <cell rendition="#border-right" role="num">2,597,514</cell>
+                                    <cell role="num">7,670,480</cell>
                                 </row>
                                 <row>
-                                    <cell>Uruguay</cell>
-                                    <cell>1,472,608</cell>
-                                    <cell>835,112</cell>
-                                    <cell>58,270</cell>
-                                    <cell>894,382</cell>
-                                    <cell>2,366,990</cell>
+                                    <cell rendition="#border-right">Uruguay</cell>
+                                    <cell rendition="#border-right" role="num">1,472,608</cell>
+                                    <cell rendition="#border-right" role="num">835,112</cell>
+                                    <cell rendition="#border-right" role="num">58,270</cell>
+                                    <cell rendition="#border-right" role="num">894,382</cell>
+                                    <cell role="num">2,366,990</cell>
                                 </row>
                                 <row>
-                                    <cell>Brazil</cell>
-                                    <cell>24,912,450</cell>
-                                    <cell>5,910,565</cell>
-                                    <cell>158,514</cell>
-                                    <cell>6,069,079</cell>
-                                    <cell>30,981,529</cell>
+                                    <cell rendition="#border-right">Brazil</cell>
+                                    <cell rendition="#border-right" role="num">24,912,450</cell>
+                                    <cell rendition="#border-right" role="num">5,910,565</cell>
+                                    <cell rendition="#border-right" role="num">158,514</cell>
+                                    <cell rendition="#border-right" role="num">6,069,079</cell>
+                                    <cell role="num">30,981,529</cell>
                                 </row>
                                 <row>
-                                    <cell>Venezuela</cell>
-                                    <cell>2,431,760</cell>
-                                    <cell>1,191,888</cell>
-                                    <cell>29,176</cell>
-                                    <cell>1,221,064</cell>
-                                    <cell>3,652,824</cell>
+                                    <cell rendition="#border-right">Venezuela</cell>
+                                    <cell rendition="#border-right" role="num">2,431,760</cell>
+                                    <cell rendition="#border-right" role="num">1,191,888</cell>
+                                    <cell rendition="#border-right" role="num">29,176</cell>
+                                    <cell rendition="#border-right" role="num">1,221,064</cell>
+                                    <cell role="num">3,652,824</cell>
                                 </row>
                                 <row>
-                                    <cell>Total</cell>
-                                    <cell>49,810,084</cell>
-                                    <cell>23,760,878</cell>
-                                    <cell>2,031,022</cell>
-                                    <cell>25,791,900</cell>
-                                    <cell>75,601,984</cell>
+                                    <cell rendition="#border-right">Total</cell>
+                                    <cell rendition="#border-right #border-bottom #border-top"
+                                        role="num">49,810,084</cell>
+                                    <cell rendition="#border-right #border-bottom #border-top"
+                                        role="num">23,760,878</cell>
+                                    <cell rendition="#border-right #border-bottom #border-top"
+                                        role="num">2,031,022</cell>
+                                    <cell rendition="#border-right #border-bottom #border-top"
+                                        role="num">25,791,900</cell>
+                                    <cell role="num" rendition="#border-bottom #border-top"
+                                        >75,601,984</cell>
                                 </row>
                                 <row>
-                                    <cell>Grand total</cell>
-                                    <cell>158,554,381</cell>
-                                    <cell>74,759,434</cell>
-                                    <cell>12,947,409</cell>
-                                    <cell>87,706,843</cell>
-                                    <cell>246,261,224</cell>
+                                    <cell rendition="#border-right">Grand total</cell>
+                                    <cell rendition="#border-right" role="num">158,554,381</cell>
+                                    <cell rendition="#border-right" role="num">74,759,434</cell>
+                                    <cell rendition="#border-right" role="num">12,947,409</cell>
+                                    <cell rendition="#border-right" role="num">87,706,843</cell>
+                                    <cell role="num">246,261,224</cell>
                                 </row>
                                 <row>
-                                    <cell>Total commerce of UnitedStates</cell>
-                                    <cell>437,314,255</cell>
-                                    <cell>413,954,615</cell>
-                                    <cell>25,173,414</cell>
-                                    <cell>439,128,029</cell>
-                                    <cell>876,442,284</cell>
+                                    <cell rendition="#border-right #border-bottom">Total commerce of
+                                        United States</cell>
+                                    <cell rendition="#border-right #border-bottom #border-top"
+                                        role="num">437,314,255</cell>
+                                    <cell rendition="#border-right #border-bottom #border-top"
+                                        role="num">413,954,615</cell>
+                                    <cell rendition="#border-right #border-bottom #border-top"
+                                        role="num">25,173,414</cell>
+                                    <cell rendition="#border-right #border-bottom #border-top"
+                                        role="num">439,128,029</cell>
+                                    <cell role="num" rendition="#border-bottom #border-top"
+                                        >876,442,284</cell>
                                 </row>
                             </table>
                             <pb n="261" xml:id="pg_261" facs="0295"/>
@@ -21583,100 +21610,106 @@
                                 1869.</p>
                             <table cols="4">
                                 <row>
-                                    <cell>Countries.</cell>
-                                    <cell>Year.</cell>
-                                    <cell>Imports.</cell>
-                                    <cell>Exports.</cell>
+                                    <cell rendition="#border-bottom #border-top #border-right"
+                                        >Countries.</cell>
+                                    <cell rendition="#border-bottom #border-top #border-right"
+                                        >Year.</cell>
+                                    <cell rendition="#border-bottom #border-top #border-right"
+                                        >Imports.</cell>
+                                    <cell rendition="#border-bottom #border-top">Exports.</cell>
                                 </row>
                                 <row>
-                                    <cell>Cuba and Porto Rico</cell>
-                                    <cell>1869</cell>
-                                    <cell>£3,288,292</cell>
-                                    <cell>£1,374,242</cell>
+                                    <cell rendition="#border-right">Cuba and Porto Rico</cell>
+                                    <cell rendition="#border-right">1869</cell>
+                                    <cell rendition="#border-right" role="num">£3,288,292</cell>
+                                    <cell role="num">£1,374,242</cell>
                                 </row>
                                 <row>
-                                    <cell>French possessions in America</cell>
-                                    <cell>1868</cell>
-                                    <cell>4,252</cell>
-                                    <cell>3,002</cell>
+                                    <cell rendition="#border-right">French possessions in
+                                        America</cell>
+                                    <cell rendition="#border-right">1868</cell>
+                                    <cell rendition="#border-right" role="num">4,252</cell>
+                                    <cell role="num">3,002</cell>
                                 </row>
                                 <row>
-                                    <cell>Danish West Indies</cell>
-                                    <cell>1868</cell>
-                                    <cell>295,102</cell>
-                                    <cell>9,211</cell>
+                                    <cell rendition="#border-right">Danish West Indies</cell>
+                                    <cell rendition="#border-right">1868</cell>
+                                    <cell rendition="#border-right" role="num">295,102</cell>
+                                    <cell role="num">9,211</cell>
                                 </row>
                                 <row>
-                                    <cell>Dutch West Indies and Guiana</cell>
-                                    <cell>1868</cell>
-                                    <cell>148,882</cell>
-                                    <cell>4,444</cell>
+                                    <cell rendition="#border-right">Dutch West Indies and
+                                        Guiana</cell>
+                                    <cell rendition="#border-right">1868</cell>
+                                    <cell rendition="#border-right" role="num">148,882</cell>
+                                    <cell role="num">4,444</cell>
                                 </row>
                                 <row>
-                                    <cell>Hayti and San Domingo</cell>
-                                    <cell>1868</cell>
-                                    <cell>220,806</cell>
-                                    <cell>6,043</cell>
+                                    <cell rendition="#border-right">Hayti and San Domingo</cell>
+                                    <cell rendition="#border-right">1868</cell>
+                                    <cell rendition="#border-right" role="num">220,806</cell>
+                                    <cell role="num">6,043</cell>
                                 </row>
                                 <row>
-                                    <cell>Sandwich Islands</cell>
-                                    <cell>1868</cell>
-                                    <cell>33,336</cell>
-                                    <cell>917</cell>
+                                    <cell rendition="#border-right">Sandwich Islands</cell>
+                                    <cell rendition="#border-right">1868</cell>
+                                    <cell rendition="#border-right" role="num">33,336</cell>
+                                    <cell role="num">917</cell>
                                 </row>
                                 <row>
-                                    <cell>Mexico</cell>
-                                    <cell>1868</cell>
-                                    <cell>350,664</cell>
-                                    <cell>92,077</cell>
+                                    <cell rendition="#border-right">Mexico</cell>
+                                    <cell rendition="#border-right">1868</cell>
+                                    <cell rendition="#border-right" role="num">350,664</cell>
+                                    <cell role="num">92,077</cell>
                                 </row>
                                 <row>
-                                    <cell>Central American states</cell>
-                                    <cell>1868</cell>
-                                    <cell>939,827</cell>
-                                    <cell>173,611</cell>
+                                    <cell rendition="#border-right">Central American states</cell>
+                                    <cell rendition="#border-right">1868</cell>
+                                    <cell rendition="#border-right" role="num">939,827</cell>
+                                    <cell role="num">173,611</cell>
                                 </row>
                                 <row>
-                                    <cell>Colombia</cell>
-                                    <cell>1869</cell>
-                                    <cell>971,396</cell>
-                                    <cell>2,500,039</cell>
+                                    <cell rendition="#border-right">Colombia</cell>
+                                    <cell rendition="#border-right">1869</cell>
+                                    <cell rendition="#border-right" role="num">971,396</cell>
+                                    <cell role="num">2,500,039</cell>
                                 </row>
                                 <row>
-                                    <cell>Peru</cell>
-                                    <cell>1869</cell>
-                                    <cell>2,734,784</cell>
-                                    <cell>1,180,931</cell>
+                                    <cell rendition="#border-right">Peru</cell>
+                                    <cell rendition="#border-right">1869</cell>
+                                    <cell rendition="#border-right" role="num">2,734,784</cell>
+                                    <cell role="num">1,180,931</cell>
                                 </row>
                                 <row>
-                                    <cell>Chili</cell>
-                                    <cell>1869</cell>
-                                    <cell>3,211,174</cell>
-                                    <cell>3,596,905</cell>
+                                    <cell rendition="#border-right">Chili</cell>
+                                    <cell rendition="#border-right">1869</cell>
+                                    <cell rendition="#border-right" role="num">3,211,174</cell>
+                                    <cell role="num">3,596,905</cell>
                                 </row>
                                 <row>
-                                    <cell>Argentine Republic</cell>
-                                    <cell>1869</cell>
-                                    <cell>1,034,445</cell>
-                                    <cell>1,841,953</cell>
+                                    <cell rendition="#border-right">Argentine Republic</cell>
+                                    <cell rendition="#border-right">1869</cell>
+                                    <cell rendition="#border-right" role="num">1,034,445</cell>
+                                    <cell role="num">1,841,953</cell>
                                 </row>
                                 <row>
-                                    <cell>Uruguay</cell>
-                                    <cell>1869</cell>
-                                    <cell>535,015</cell>
-                                    <cell>1,009,425</cell>
+                                    <cell rendition="#border-right">Uruguay</cell>
+                                    <cell rendition="#border-right">1869</cell>
+                                    <cell rendition="#border-right" role="num">535,015</cell>
+                                    <cell role="num">1,009,425</cell>
                                 </row>
                                 <row>
-                                    <cell>Brazil</cell>
-                                    <cell>1869</cell>
-                                    <cell>7,754,526</cell>
-                                    <cell>5,477,439</cell>
+                                    <cell rendition="#border-right">Brazil</cell>
+                                    <cell rendition="#border-right">1869</cell>
+                                    <cell rendition="#border-right" role="num">7,754,526</cell>
+                                    <cell role="num">5,477,439</cell>
                                 </row>
                                 <row>
-                                    <cell>Venezuela</cell>
-                                    <cell>1868</cell>
-                                    <cell>69,997</cell>
-                                    <cell>10,452</cell>
+                                    <cell rendition="#border-right #border-bottom">Venezuela</cell>
+                                    <cell rendition="#border-right #border-bottom">1868</cell>
+                                    <cell rendition="#border-right #border-bottom" role="num"
+                                        >69,997</cell>
+                                    <cell role="num" rendition="#border-bottom">10,452</cell>
                                 </row>
                             </table>
                         </frus:attachment>
@@ -23125,15 +23158,15 @@
                             <row>
                                 <cell>Our imports from Spanish South American republics and the
                                     empire of Brazil in 1869 were, in round numbers</cell>
-                                <cell>$41,600,000</cell>
+                                <cell role="num">$41,600,000</cell>
                             </row>
                             <row>
                                 <cell>Exports to same</cell>
-                                <cell>18,600,000</cell>
+                                <cell role="num" rendition="#border-bottom">18,600,000</cell>
                             </row>
                             <row>
                                 <cell>Balance against us</cell>
-                                <cell>23,000,000</cell>
+                                <cell role="num" rendition="#border-bottom">23,000,000</cell>
                             </row>
                         </table>
                         <p>Of this trade Brazil alone furnished twenty-five millions of her
@@ -23418,85 +23451,85 @@
                             <table cols="2">
                                 <row>
                                     <cell>Bark, per pound, American gold</cell>
-                                    <cell>$0 03</cell>
+                                    <cell role="num" rendition="#nowrap">$0 03</cell>
                                 </row>
                                 <row>
                                     <cell>Cocoa, per pound, American gold</cell>
-                                    <cell>1¾ </cell>
+                                    <cell role="num" rendition="#nowrap">1¾ </cell>
                                 </row>
                                 <row>
                                     <cell>Cochineal, per pound, American gold</cell>
-                                    <cell>3½</cell>
+                                    <cell role="num" rendition="#nowrap">3½</cell>
                                 </row>
                                 <row>
                                     <cell>Copper and tin in bars, per pound, American gold</cell>
-                                    <cell>1 3/8</cell>
+                                    <cell role="num" rendition="#nowrap">1⅜</cell>
                                 </row>
                                 <row>
                                     <cell>Cotton, raw, per cubic foot, American gold</cell>
-                                    <cell>56</cell>
+                                    <cell role="num" rendition="#nowrap">56</cell>
                                 </row>
                                 <row>
                                     <cell>Hats, Panama, per cubic foot, American gold</cell>
-                                    <cell>2 00</cell>
+                                    <cell role="num" rendition="#nowrap">2 00</cell>
                                 </row>
                                 <row>
                                     <cell>India-rubber, pressed, per pound, American gold</cell>
-                                    <cell>2¼ </cell>
+                                    <cell role="num" rendition="#nowrap">2¼</cell>
                                 </row>
                                 <row>
                                     <cell>Merchandise not specified, per cubic foot, American
                                         gold</cell>
-                                    <cell>1 50</cell>
+                                    <cell role="num" rendition="#nowrap">1 50</cell>
                                 </row>
                                 <row>
                                     <cell><pb n="290" xml:id="pg_290" facs="0324"/>Nitrate of soda,
                                         per pound, American gold</cell>
-                                    <cell>$0 01½</cell>
+                                    <cell role="num" rendition="#nowrap">$0 01½</cell>
                                 </row>
                                 <row>
                                     <cell>Orchilla weed, pressed, per pound, American gold</cell>
-                                    <cell>2½</cell>
+                                    <cell role="num">2½</cell>
                                 </row>
                                 <row>
                                     <cell>Skins, goat and deer, per pound, American gold</cell>
-                                    <cell>2¾ </cell>
+                                    <cell role="num" rendition="#nowrap">2¾ </cell>
                                 </row>
                                 <row>
                                     <cell>Sugar, per pound, American gold</cell>
-                                    <cell>1½</cell>
+                                    <cell role="num" rendition="#nowrap">1½</cell>
                                 </row>
                                 <row>
                                     <cell>Tobacco, per pound, American gold</cell>
-                                    <cell>3</cell>
+                                    <cell role="num" rendition="#nowrap">3</cell>
                                 </row>
                                 <row>
                                     <cell>Whale oil, per gallon, American gold</cell>
-                                    <cell>14</cell>
+                                    <cell role="num" rendition="#nowrap">14</cell>
                                 </row>
                                 <row>
                                     <cell>Whalebone, per pound, American gold</cell>
-                                    <cell>2¼ </cell>
+                                    <cell role="num" rendition="#nowrap">2¼</cell>
                                 </row>
                                 <row>
                                     <cell>Wool, alpaca, per pound, American gold</cell>
-                                    <cell>2¾ </cell>
+                                    <cell role="num" rendition="#nowrap">2¾</cell>
                                 </row>
                                 <row>
                                     <cell>Wool, all other classes, per pound, American gold</cell>
-                                    <cell>2 3/8 </cell>
+                                    <cell role="num" rendition="#nowrap">2⅜</cell>
                                 </row>
                                 <row>
                                     <cell>Specie, gold, American gold</cell>
-                                    <cell>1¾ pc.</cell>
+                                    <cell role="num" rendition="#nowrap">1¾ pc.</cell>
                                 </row>
                                 <row>
                                     <cell>Specie, silver, American gold</cell>
-                                    <cell>1 7/8 pc.</cell>
+                                    <cell role="num" rendition="#nowrap">1⅞ pc.</cell>
                                 </row>
                                 <row>
                                     <cell>Silver mineral in bags, per pound, American gold</cell>
-                                    <cell>1½</cell>
+                                    <cell role="num" rendition="#nowrap">1½</cell>
                                 </row>
                             </table>
                             <closer>
@@ -32724,91 +32757,112 @@
                                     and the British possessions.</hi></head>
                             <table cols="2">
                                 <row>
-                                    <cell>Organization:</cell>
+                                    <cell role="num">Organization:</cell>
                                     <cell>Per year.</cell>
                                 </row>
                                 <row>
-                                    <cell>1 commissioner, $4,000</cell>
-                                    <cell>$4,000</cell>
+                                    <cell role="num">1</cell>
+                                    <cell>commissioner, $4,000</cell>
+                                    <cell role="num" rendition="#nowrap">$4,000</cell>
                                 </row>
                                 <row>
-                                    <cell>1 secretary, $2,000</cell>
-                                    <cell>2,000</cell>
+                                    <cell role="num">1</cell>
+                                    <cell>secretary, $2,000</cell>
+                                    <cell role="num" rendition="#nowrap">2,000</cell>
                                 </row>
                                 <row>
-                                    <cell>1 chief astronomer, $3,000</cell>
-                                    <cell>3,000</cell>
+                                    <cell role="num">1</cell>
+                                    <cell>chief astronomer, $3,000</cell>
+                                    <cell role="num" rendition="#nowrap">3,000</cell>
                                 </row>
                                 <row>
-                                    <cell>1 surgeon, $2,000</cell>
-                                    <cell>2,000</cell>
+                                    <cell role="num">1</cell>
+                                    <cell>surgeon, $2,000</cell>
+                                    <cell role="num" rendition="#nowrap">2,000</cell>
                                 </row>
                                 <row>
-                                    <cell>1 quartermaster and commissary, $2,000</cell>
-                                    <cell>2,000</cell>
+                                    <cell role="num">1</cell>
+                                    <cell>quartermaster and commissary, $2,000</cell>
+                                    <cell role="num" rendition="#nowrap">2,000</cell>
                                 </row>
                                 <row>
+                                    <cell/>
                                     <cell>Two astronomical parties—</cell>
                                     <cell/>
                                 </row>
                                 <row>
-                                    <cell>2 assistant astronomers, at $2,000</cell>
-                                    <cell>4,000</cell>
+                                    <cell role="num">2</cell>
+                                    <cell>assistant astronomers, at $2,000</cell>
+                                    <cell role="num" rendition="#nowrap">4,000</cell>
                                 </row>
                                 <row>
-                                    <cell>4 sub-assistants, at $1,500</cell>
-                                    <cell>6,000</cell>
+                                    <cell role="num">4</cell>
+                                    <cell>sub-assistants, at $1,500</cell>
+                                    <cell role="num" rendition="#nowrap">6,000</cell>
                                 </row>
                                 <row>
-                                    <cell>12 men—2 at $75, 10 at $45—$600 per month</cell>
-                                    <cell>7,200</cell>
+                                    <cell role="num">12</cell>
+                                    <cell>men—2 at $75, 10 at $45—$600 per month</cell>
+                                    <cell role="num" rendition="#nowrap">7,200</cell>
                                 </row>
                                 <row>
-                                    <cell>2 cooks at $50—$100 per month</cell>
-                                    <cell>1,200</cell>
+                                    <cell role="num">2</cell>
+                                    <cell>cooks at $50—$100 per month</cell>
+                                    <cell role="num" rendition="#nowrap">1,200</cell>
                                 </row>
                                 <row>
-                                    <cell>8 teamsters at $45—$360 per month</cell>
-                                    <cell>4,320</cell>
+                                    <cell role="num">8</cell>
+                                    <cell>teamsters at $45—$360 per month</cell>
+                                    <cell role="num" rendition="#nowrap">4,320</cell>
                                 </row>
                                 <row>
-                                    <cell>4 mess-men at $45—$180 per month</cell>
-                                    <cell>2,160</cell>
+                                    <cell role="num">4</cell>
+                                    <cell>mess-men at $45—$180 per month</cell>
+                                    <cell role="num" rendition="#nowrap">2,160</cell>
                                 </row>
                                 <row>
-                                    <cell>50 pack-mules, or 8 wagons and 36 mules.</cell>
+                                    <cell role="num">50</cell>
+                                    <cell>pack-mules, or 8 wagons and 36 mules.</cell>
                                     <cell/>
                                 </row>
                                 <row>
+                                    <cell/>
                                     <cell>Two surveying parties—</cell>
                                     <cell/>
                                 </row>
                                 <row>
-                                    <cell>2 surveyors, at $1,800</cell>
-                                    <cell>3,600</cell>
+                                    <cell role="num">2</cell>
+                                    <cell>surveyors, at $1,800</cell>
+                                    <cell role="num" rendition="#nowrap">3,600</cell>
                                 </row>
                                 <row>
-                                    <cell>2 assistant surveyors, at $1,200</cell>
-                                    <cell>2,400</cell>
+                                    <cell role="num">2</cell>
+                                    <cell>assistant surveyors, at $1,200</cell>
+                                    <cell role="num" rendition="#nowrap">2,400</cell>
                                 </row>
                                 <row>
-                                    <cell>20 men—4 at $75,16 at $45—$1,020 per month</cell>
-                                    <cell>12,240</cell>
+                                    <cell role="num">20</cell>
+                                    <cell>men—4 at $75,16 at $45—$1,020 per month</cell>
+                                    <cell role="num" rendition="#nowrap">12,240</cell>
                                 </row>
                                 <row>
-                                    <cell>2 cooks at $50—$100 per month</cell>
-                                    <cell>1,200</cell>
+                                    <cell role="num">2</cell>
+                                    <cell>cooks at $50—$100 per month</cell>
+                                    <cell role="num" rendition="#nowrap">1,200</cell>
                                 </row>
                                 <row>
-                                    <cell>4 teamsters at $45—$180 per month</cell>
-                                    <cell>2,160</cell>
+                                    <cell role="num">4</cell>
+                                    <cell>teamsters at $45—$180 per month</cell>
+                                    <cell role="num" rendition="#nowrap">2,160</cell>
                                 </row>
                                 <row>
-                                    <cell>4 mess-men at $45—$180 per month</cell>
-                                    <cell>2,160</cell>
+                                    <cell role="num">4</cell>
+                                    <cell>mess-men at $45—$180 per month</cell>
+                                    <cell role="num" rendition="#nowrap">2,160</cell>
                                 </row>
                                 <row>
-                                    <cell>30 pack-mules, or 4 wagons and 20 mules.</cell>
+                                    <cell role="num">30</cell>
+                                    <cell>pack-mules, or 4 wagons and 20 mules.</cell>
                                     <cell/>
                                 </row>
                             </table>
@@ -32822,46 +32876,47 @@
                                 </row>
                                 <row>
                                     <cell>Pay of officers and assistants</cell>
-                                    <cell>$29,000</cell>
+                                    <cell role="num" rendition="#nowrap">$29,000</cell>
                                 </row>
                                 <row>
                                     <cell>Pay of employés</cell>
-                                    <cell>32,640</cell>
+                                    <cell role="num" rendition="#nowrap">32,640</cell>
                                 </row>
                                 <row>
                                     <cell>Subsistence 71 persons, at 50 cents per day</cell>
-                                    <cell>12,000</cell>
+                                    <cell role="num" rendition="#nowrap">12,000</cell>
                                 </row>
                                 <row>
                                     <cell>Wagons, mules, and forage for transportation of parties in
                                         the field</cell>
-                                    <cell>9,500</cell>
+                                    <cell role="num" rendition="#nowrap">9,500</cell>
                                 </row>
                                 <row>
                                     <cell>Camp equipage, (25 tents, cooking utensils, axes,
                                         &amp;e.,)</cell>
-                                    <cell>3,000</cell>
+                                    <cell role="num" rendition="#nowrap">3,000</cell>
                                 </row>
                                 <row>
                                     <cell>Instruments, (depends upon the number on hand,) pay</cell>
-                                    <cell>3,000</cell>
+                                    <cell role="num" rendition="#nowrap">3,000</cell>
                                 </row>
                                 <row>
                                     <cell>Transportation of supplies from depots,
                                         (conjectural)</cell>
-                                    <cell>9,000</cell>
+                                    <cell role="num" rendition="#nowrap">9,000</cell>
                                 </row>
                                 <row>
                                     <cell>Traveling: expenses of individuals, (conjectural)</cell>
-                                    <cell>2,000</cell>
+                                    <cell role="num" rendition="#nowrap">2,000</cell>
                                 </row>
                                 <row>
                                     <cell>Miscellaneous</cell>
-                                    <cell>2,000</cell>
+                                    <cell role="num" rendition="#nowrap #border-bottom">2,000</cell>
                                 </row>
                                 <row>
                                     <cell/>
-                                    <cell>102,140</cell>
+                                    <cell role="num" rendition="#nowrap #border-bottom"
+                                        >102,140</cell>
                                 </row>
                             </table>
                         </frus:attachment>
@@ -41092,31 +41147,32 @@
                             </row>
                             <row>
                                 <cell>Department of interior</cell>
-                                <cell>13,824,000</cell>
+                                <cell role="num" rendition="#nowrap">13,824,000</cell>
                             </row>
                             <row>
                                 <cell>Department of foreign affairs</cell>
-                                <cell>409,042</cell>
+                                <cell role="num" rendition="#nowrap">409,042</cell>
                             </row>
                             <row>
                                 <cell>Department of justice</cell>
-                                <cell>4,632,000</cell>
+                                <cell role="num" rendition="#nowrap">4,632,000</cell>
                             </row>
                             <row>
                                 <cell>Department of treasury</cell>
-                                <cell>25,212,000</cell>
+                                <cell role="num" rendition="#nowrap">25,212,000</cell>
                             </row>
                             <row>
                                 <cell>Department of war and navy</cell>
-                                <cell>10,870,000</cell>
+                                <cell role="num" rendition="#nowrap">10,870,000</cell>
                             </row>
                             <row>
                                 <cell>Service of debt of 1865</cell>
-                                <cell>7,000,000</cell>
+                                <cell role="num" rendition="#nowrap #border-bottom">7,000,000</cell>
                             </row>
                             <row>
                                 <cell>Total</cell>
-                                <cell>61,948,000</cell>
+                                <cell role="num" rendition="#nowrap #border-bottom"
+                                    >61,948,000</cell>
                             </row>
                         </table>
                         <p rend="center"><hi rend="smallcaps">comparison.</hi></p>
@@ -41127,15 +41183,17 @@
                             </row>
                             <row>
                                 <cell>Revenue for the two years</cell>
-                                <cell>44,723,100 00</cell>
+                                <cell role="num" rendition="#nowrap">44,723,100 00</cell>
                             </row>
                             <row>
                                 <cell>Expenditure for the same</cell>
-                                <cell>61,948,986 50</cell>
+                                <cell role="num" rendition="#nowrap #border-bottom">61,948,986
+                                    50</cell>
                             </row>
                             <row>
                                 <cell>Deficit</cell>
-                                <cell>17,225,86 50</cell>
+                                <cell role="num" rendition="#nowrap #border-bottom">17,225,86
+                                    50</cell>
                             </row>
                         </table>
                         <p>This deficit in two years, besides a national debt of say about one
