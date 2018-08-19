@@ -8511,11 +8511,11 @@
                         frus:doc-dateTime-max="1846-09-19T23:59:59-05:00">
                         <head>*No. VI.<seg type="margin">[58]</seg></head>
                         <opener>
-                            <seg rend="center">
+                            <seg rendition="#center">
                                 <hi rend="smallcaps">Attested copy of the log of Her Majesty’s
                                     steamship Cormorant</hi>, <hi rend="smallcaps">in the months of
                                     September and October</hi>, <hi rend="smallcaps"
-                                >1846</hi>.</seg>
+                                >1846</hi>.</seg><lb/>
                             <dateline rendition="#center">
                                 <date when="1846-09-19" calendar="gregorian"><hi rend="italic"
                                         >Nineteenth day of September,</hi> 1846</date>
@@ -11528,14 +11528,16 @@
                             <dateline rendition="#right">[<date
                                     ana="#date_undated-inferred-from-document-content"
                                     when="1872-03-12" calendar="gregorian">March 12,
-                                1872</date>].</dateline>
+                                1872</date>.]</dateline>
+                            <dateline rendition="#center"><hi rend="italic">Statements of Remington
+                                    F. Pickett, made before the United States consul at</hi>
+                                <placeName><hi rend="italic">Victoria, Vancouver
+                                    Island</hi></placeName>, <hi rend="italic">on</hi>
+                                <date when="1872-03-12" calendar="gregorian"><hi rend="italic">this
+                                        twelfth day of March, A. D. 1872</hi></date>, <hi
+                                    rend="italic">touching the navigation of the Canal de Haro and
+                                    Rosario Straits.</hi></dateline>
                         </opener>
-                        <p rend="center"><hi rend="italic">Statements of Remington F. Pickett, made
-                                before the United States consul at Victoria</hi>, <hi rend="italic"
-                                >Vancouver Island, on this twelfth day of March</hi>, <hi
-                                rend="italic">A</hi>. <hi rend="italic">D</hi>. 1872, <hi
-                                rend="italic">touching the navigation of the Canal de Haro and
-                                Rosario Straits.</hi></p>
                         <p>On this twelfth day of March, A. D. one thousand eight hundred and
                             seventy-two, personally appeared before me, David Eckstein, Consul of
                             the United States of America for the Province of <pb n="160"
@@ -11635,32 +11637,28 @@
                         <closer>
                             <signed>GEORGE THOMAS SEYMOUR.</signed>
                         </closer>
-                        <frus:attachment>
-                            <p>
+                        <closer>
+                            <dateline rendition="#left">
                                 <placeName><hi rend="smallcaps">Consulate of the United States of
                                         America</hi>, <hi rend="italic">Victoria</hi>, <hi
                                         rend="italic">Vancouver Island</hi>, <hi rend="italic"
                                         >British Columbia:</hi></placeName>
-                            </p>
-                            <p>I, David Eckstein, Consul of the United States of America, residing
-                                at Victoria, Vancouver Island, do hereby certify that on this
-                                thirteenth day of March, A. D. one thousand eight hundred and
-                                seventy-two, personally appeared before me George Thomas Seymour,
-                                and made oath and subscribed to the truth of the foregoing
-                                statements. I further certify that the said George Thomas Seymour is
-                                personally known to me, and that he is a respectable and credible
-                                person, to whose representation full faith and credit can be
-                                given.</p>
-                            <closer>
-                                <dateline rendition="#left">In witness whereof I have hereunto set
-                                    my hand and affixed the seal of my office <date
-                                        when="1872-03-13" calendar="gregorian">this thirteenth day
-                                        of March, A. D. one thousand eight hundred and
-                                        seventy-two</date>.</dateline><lb/> [<hi rend="smallcaps"
-                                    >l</hi>. <hi rend="smallcaps">s</hi>.]<lb/><signed>DAVID
-                                    ECKSTEIN, <hi rend="italic">United States
-                                Consul</hi>.</signed></closer>
-                        </frus:attachment>
+                            </dateline><lb/> I, David Eckstein, Consul of the United States of
+                            America, residing at Victoria, Vancouver Island, do hereby certify that
+                            on this thirteenth day of March, A. D. one thousand eight hundred and
+                            seventy-two, personally appeared before me George Thomas Seymour, and
+                            made oath and subscribed to the truth of the foregoing statements. I
+                            further certify that the said George Thomas Seymour is personally known
+                            to me, and that he is a respectable and credible person, to whose
+                            representation full faith and credit can be given.<lb/>
+                            <dateline rendition="#left">In witness whereof I have hereunto set my
+                                hand and affixed the seal of my office <date when="1872-03-13"
+                                    calendar="gregorian">this thirteenth day of March, A. D. one
+                                    thousand eight hundred and seventy-two</date>.</dateline><lb/>
+                                [<hi rend="smallcaps">l. s</hi>.]<lb/>
+                            <signed>DAVID ECKSTEIN, <hi rend="italic">United States
+                                Consul</hi>.</signed>
+                        </closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d90" n="90"
                         frus:doc-dateTime-min="1872-03-16T00:00:00-05:00"
@@ -11704,43 +11702,41 @@
                         <closer>
                             <signed>ALBERT HENRY GUILD.</signed>
                         </closer>
-                        <frus:attachment>
-                            <p>
-                                <placeName><hi rend="smallcaps">Consulate of the United States of
-                                        America</hi>, <hi rend="italic">Victoria</hi>, <hi
+                        <closer>
+                            <dateline rendition="#left">
+                                <hi rend="smallcaps">Consulate of the United States of America</hi>,
+                                        <placeName><hi rend="italic">Victoria</hi>, <hi
                                         rend="italic">Vancouver Island</hi>, <hi rend="italic"
                                         >British Columbia:</hi></placeName>
-                            </p>
-                            <p>I, David Eckstein, Consul of the United States of America, residing
-                                at Victoria, Vancouver Island, do hereby certify that on this
-                                sixteenth day of March, A. D. one thousand eight hundred and
-                                seventy-two, personally appeared before me Albert Henry Guild, and
-                                made oath and subscribed to the truth of the foregoing statements. I
-                                further certify that the said Albert Henry Guild is personally known
-                                to me, and that he is a respectable and credible person, to whose
-                                representation full faith and credit can be given.</p>
-                            <p>In witness whereof I have hereunto subscribed my name and affixed the
-                                seal of my office the day and year first above written.</p>
-                            <p>[<hi rend="smallcaps">SEAL</hi>.]</p>
-                            <closer>
-                                <signed>DAVID ECKSTEIN, <hi rend="italic">United States
-                                    Consul</hi>.</signed>
-                            </closer>
-                        </frus:attachment>
+                            </dateline><lb/> I, David Eckstein, Consul of the United States of
+                            America, residing at Victoria, Vancouver Island, do hereby certify that
+                            on this sixteenth day of March, A. D. one thousand eight hundred and
+                            seventy-two, personally appeared before me Albert Henry Guild, and made
+                            oath and subscribed to the truth of the foregoing statements. I further
+                            certify that the said Albert Henry Guild is personally known to me, and
+                            that he is a respectable and credible person, to whose representation
+                            full faith and credit can be given.<lb/>
+                            <dateline rendition="#left">In witness whereof I have hereunto
+                                subscribed my name and affixed the seal of my office <date
+                                    when="1872-03-16" calendar="gregorian"
+                                    ana="#date_imprecise-inferred-from-document-content">the day and
+                                    year first above written</date>.</dateline><lb/>
+                            <seg rendition="#left">[<hi rend="smallcaps">SEAL</hi>.]</seg>
+                            <signed rendition="#right">DAVID ECKSTEIN, <hi rend="italic">United
+                                    States Consul</hi>.</signed>
+                        </closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d91" n="91"
                         frus:doc-dateTime-min="1872-03-16T00:00:00-05:00"
                         frus:doc-dateTime-max="1872-03-16T23:59:59-05:00">
                         <head><persName type="from">Extracts from the Affidavit of William J.
                                 Waitt</persName>.</head>
-                        <dateline>[<date when="1872-03-16" calendar="gregorian"
-                                ana="#date_undated-inferred-from-document-content">March 16,
-                                1872</date>].</dateline>
-                        <p>
-                            <placeName><hi rend="smallcaps">United States of America</hi>, <hi
-                                    rend="italic">Territory of Washington</hi>, <hi rend="italic"
-                                    >ss:</hi></placeName>
-                        </p>
+                        <opener>
+                            <dateline><placeName><hi rend="smallcaps">United States of America</hi>,
+                                        <hi rend="italic">Territory of Washington</hi>, <hi
+                                        rend="italic">ss:</hi></placeName></dateline>
+                        </opener>
+
                         <p>I, William J. Waitt, of the City of Olympia, County of Thurston, and
                             Territory aforesaid, do solemnly declare upon oath that I am *a master
                             mariner, of the age of thirty-two years; that I came to Victoria,
@@ -11791,28 +11787,27 @@
                         <closer>
                             <signed>CAPT. W. J. WAITT.</signed>
                         </closer>
-                        <frus:attachment>
-                            <p>
+                        <closer>
+                            <dateline rendition="#left">
                                 <placeName><hi rend="smallcaps">Territory of Washington</hi>, <hi
-                                        rend="italic">County of Thurston</hi>, <hi rend="italic"
-                                        >ss:</hi></placeName>
-                            </p>
-                            <p>Before me, Joseph H. Houghton, Clerk of the Supreme Court of said
-                                Territory, came William J. Waitt, who being first duly sworn, did
-                                depose and say that he had carefully read the foregoing statement,
-                                and knew the contents thereof; that the same had been dictated by
-                                him. And that so much thereof as was stated from his own knowledge
-                                was true, and so much thereof as was stated on information he verily
-                                believes to be true.</p>
-                            <closer>
-                                <dateline rendition="#left">In testimony whereof I have hereunto set
-                                    my hand and affixed the seal of said Court, <date
-                                        when="1872-03-16" calendar="gregorian">this sixteenth day of
-                                        March, A. D. 1872</date>.</dateline>
-                                <hi rend="smallcaps">[seal</hi>.<hi rend="smallcaps"
-                                    >]</hi><lb/><signed>JOSEPH H. HOUGHTON, <hi rend="italic">Cleric
-                                        Sup. Ct. W. T.</hi></signed></closer>
-                        </frus:attachment>
+                                        rend="italic">County of Thurston</hi></placeName>, <hi
+                                    rend="italic">ss:</hi>
+                            </dateline><lb/> Before me, Joseph H. Houghton, Clerk of the Supreme
+                            Court of said Territory, came William J. Waitt, who being first duly
+                            sworn, did depose and say that he had carefully read the foregoing
+                            statement, and knew the contents thereof; that the same had been
+                            dictated by him. And that so much thereof as was stated from his own
+                            knowledge was true, and so much thereof as was stated on information he
+                            verily believes to be true.<lb/>
+                            <dateline rendition="#left">In testimony whereof I have hereunto set my
+                                hand and affixed the seal of said Court, <date when="1872-03-16"
+                                    calendar="gregorian">this sixteenth day of March, A. D.
+                                    1872</date>.</dateline><lb/>
+                            <seg rendition="#left">[<hi rend="smallcaps">seal</hi>.<hi
+                                    rend="smallcaps">]</hi></seg>
+                            <signed rendition="#right">JOSEPH H. HOUGHTON, <hi rend="italic">Cleric
+                                    Sup. Ct. W. T.</hi></signed>
+                        </closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d92" n="92"
                         frus:doc-dateTime-min="1872-03-16T00:00:00-05:00"
@@ -11820,14 +11815,13 @@
                         <head>
                             <hi rend="italic">Extracts from the Affidavit of Francis Tarbell.</hi>
                         </head>
-                        <dateline>[<date when="1872-03-16" calendar="gregorian"
-                                ana="#date_undated-inferred-from-document-content">March 16,
-                                1872</date>].</dateline>
-                        <p>
-                            <placeName><hi rend="smallcaps">United States of America</hi>, <hi
-                                    rend="italic">Territory of Washington</hi>, <hi rend="italic"
-                                    >ss:</hi></placeName>
-                        </p>
+                        <opener>
+                            <dateline>
+                                <placeName><hi rend="smallcaps">United States of America</hi>, <hi
+                                        rend="italic">Territory of Washington</hi>, <hi
+                                        rend="italic">ss:</hi></placeName>
+                            </dateline>
+                        </opener>
                         <p>I, Francis Tarbell, of the City of Olympia, County of Thurston, and
                             Territory aforesaid, do solemnly declare upon oath, that I am a
                             native-born Citizen of the United States, aged forty-one years. I went
@@ -11875,38 +11869,32 @@
                         <closer>
                             <signed>FRANCIS TARBELL.</signed>
                         </closer>
-                        <frus:attachment>
-                            <p>
+                        <closer>
+                            <dateline rendition="#left">
                                 <placeName><hi rend="smallcaps">Territory of Washington</hi>, <hi
                                         rend="italic">County of Thurston</hi>, <hi rend="italic"
-                                        >ss:</hi></placeName>
-                            </p>
-                            <p>Before me, Joseph H. Houghton, Clerk of the Supreme Court of said
-                                Territory, came Francis Tarbell, who, being first duly sworn, did
-                                depose and say that he had carefully read the foregoing statement,
-                                and knew the contents thereof; that the same had been dictated by
-                                him; and that so much thereof as was stated from his own knowledge
-                                was true, and so much thereof as was stated on information he verily
-                                believes to be true.</p>
-                            <closer>
-                                <dateline rendition="#left">Witness my hand and the seal of the said
-                                    Court <date when="1872-03-16" calendar="gregorian">this 16th day
-                                        of March, A. D. 1872</date>.</dateline>
-                                <lb/>
-                                <hi rend="smallcaps">[seal of the sup. court</hi>.<hi
-                                    rend="smallcaps">]</hi><lb/>
-                                <signed>JOSEPH H. HOUGHTON, <hi rend="italic">Clerk Sup. Ct</hi>.,
-                                        <hi rend="italic">W. T.</hi></signed></closer>
-                        </frus:attachment>
+                                        >ss:</hi></placeName></dateline><lb/> Before me, Joseph H.
+                            Houghton, Clerk of the Supreme Court of said Territory, came Francis
+                            Tarbell, who, being first duly sworn, did depose and say that he had
+                            carefully read the foregoing statement, and knew the contents thereof;
+                            that the same had been dictated by him; and that so much thereof as was
+                            stated from his own knowledge was true, and so much thereof as was
+                            stated on information he verily believes to be true.<lb/>
+                            <dateline rendition="#left">Witness my hand and the seal of the said
+                                Court <date when="1872-03-16" calendar="gregorian">this 16th day of
+                                    March, A. D. 1872</date>.</dateline>
+                            <lb/>
+                            <seg rendition="#left"><hi rend="smallcaps">[seal of the sup.
+                                    court</hi>.<hi rend="smallcaps">]</hi></seg>
+                            <signed rendition="#right">JOSEPH H. HOUGHTON, <hi rend="italic">Clerk
+                                    Sup. Ct</hi>., <hi rend="italic">W. T.</hi></signed>
+                        </closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d93" n="93"
                         frus:doc-dateTime-min="1872-03-16T00:00:00-05:00"
                         frus:doc-dateTime-max="1872-03-16T23:59:59-05:00">
                         <head>*<hi rend="italic"> Extracts from the Affidavit of Charles
                                 Willoughby.</hi><seg type="margin">[84]</seg></head>
-                        <dateline>[<date when="1872-03-16" calendar="gregorian"
-                                ana="#date_undated-inferred-from-document-content">March 16,
-                                1872</date>].</dateline>
                         <p>
                             <placeName><hi rend="smallcaps">United States of America</hi>, <hi
                                     rend="italic">Territory of Washington</hi>, <hi rend="italic"
@@ -11937,44 +11925,41 @@
                         <closer>
                             <signed>CHAS. WILLOUGHBY.</signed>
                         </closer>
-                        <frus:attachment>
-                            <p>
+                        <closer>
+                            <dateline rendition="#left">
                                 <placeName><hi rend="smallcaps">Territory of Washington</hi>, <hi
                                         rend="italic">County of Thurston</hi>, <hi rend="italic"
                                         >ss:</hi></placeName>
-                            </p>
-                            <p>Before me, Joseph H. Houghton, Clerk of the Supreme Court of said
-                                Territory, came Charles Willoughby, who, being first duly sworn, did
-                                depose and say that he had carefully read the foregoing statement,
-                                and knew the contents thereof; that the same had been dictated by
-                                him; and that so much thereof as was stated from his own knowledge
-                                was true, and so much thereof as was stated on information he verily
-                                believes to be true.</p>
-                            <closer>
-                                <dateline rendition="#left">In testimony whereof I have hereunto set
-                                    my hand and affixed the Seal of the Court <date
-                                        when="1872-03-16" calendar="gregorian">this 16th day of
-                                        March, A. D. 1872</date>.</dateline><lb/>
-                                <hi rend="smallcaps">[SEAL OF THE sup.</hi>
-                                <hi rend="smallcaps">court</hi>.<hi rend="smallcaps">]</hi><lb/>
-                                <signed>JOSEPH H. HOUGHTON, <hi rend="italic">Clerk Sup</hi>. <hi
-                                        rend="italic">Ct</hi>., <hi rend="italic">W.
-                                    T.</hi></signed></closer>
-                        </frus:attachment>
+                            </dateline><lb/> Before me, Joseph H. Houghton, Clerk of the Supreme
+                            Court of said Territory, came Charles Willoughby, who, being first duly
+                            sworn, did depose and say that he had carefully read the foregoing
+                            statement, and knew the contents thereof; that the same had been
+                            dictated by him; and that so much thereof as was stated from his own
+                            knowledge was true, and so much thereof as was stated on information he
+                            verily believes to be true.<lb/>
+                            <dateline rendition="#left">In testimony whereof I have hereunto set my
+                                hand and affixed the Seal of the Court <date when="1872-03-16"
+                                    calendar="gregorian">this 16th day of March, A. D.
+                                1872</date>.</dateline><lb/>
+                            <seg rendition="#left">[<hi rend="smallcaps">SEAL OF THE sup.
+                                court</hi>.]</seg>
+                            <signed rendition="#right">JOSEPH H. HOUGHTON, <hi rend="italic">Clerk
+                                    Sup</hi>. <hi rend="italic">Ct</hi>., <hi rend="italic">W.
+                                    T.</hi></signed>
+                        </closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d94" n="94"
                         frus:doc-dateTime-min="1872-03-16T00:00:00-05:00"
                         frus:doc-dateTime-max="1872-03-16T23:59:59-05:00">
                         <head>*<hi rend="italic">Extracts from the Affidavit of James S.
                                 Lawson.</hi><seg type="margin">[85]</seg></head>
-                        <dateline>[<date when="1872-03-16" calendar="gregorian"
-                                ana="#date_undated-inferred-from-document-content">March 16,
-                                1872</date>].</dateline>
-                        <p>
-                            <placeName><hi rend="smallcaps">United States of America</hi>, <hi
-                                    rend="italic">Territory of Washington</hi>, <hi rend="italic"
-                                    >ss:</hi></placeName>
-                        </p>
+                        <opener>
+                            <dateline rendition="#left">
+                                <placeName><hi rend="smallcaps">United States of America</hi>, <hi
+                                        rend="italic">Territory of Washington</hi>, <hi
+                                        rend="italic">ss:</hi></placeName>
+                            </dateline>
+                        </opener>
                         <p>I, James S. Lawson, Assistant United States Coast Survey, and at present
                             a resident of Olympia, County of Thurston, and Territory of Washington,
                             do solemnly declare upon oath, that I am a native-born citizen of the
@@ -12007,31 +11992,28 @@
                         <closer>
                             <signed>JAS. S. LAWSON.</signed>
                         </closer>
-                        <frus:attachment>
-                            <p>
+                        <closer>
+                            <dateline rendition="#left">
                                 <placeName><hi rend="smallcaps">Territory of Washington</hi>, <hi
                                         rend="italic">County of Thurston</hi>, <hi rend="italic"
                                         >ss:</hi></placeName>
-                            </p>
-                            <p>Before me, Joseph H. Houghton, Clerk of the Supreme Court of said
-                                Territory, came James S. Lawson, who, being first duly sworn, did
-                                depose and say, that he had carefully read the foregoing statement,
-                                and knew the contents thereof; that the same had been dictated by
-                                him; and that so much thereof as was stated from *his own knowledge
-                                was true, and so much thereof as was stated on information he verily
-                                believes to be true.<seg type="margin">[86]</seg><seg type="margin"
-                                    >Affidavits on the canal de Haro.</seg></p>
-                            <closer>
-                                <dateline rendition="#left">In testimony whereof I have hereunto set
-                                    my hand and affixed the Seal of said Court <date
-                                        when="1872-03-16" calendar="gregorian">this 16th day of
-                                        March, A. D. 1872</date>.</dateline>
-                                <lb/><hi rend="smallcaps">[seal of the sup</hi>. <hi
-                                    rend="smallcaps">court</hi>.<hi rend="smallcaps">]</hi>
-                                <signed>JOSEPH H. HOUGHTON, <hi rend="italic">Cleric Supreme
-                                        Court</hi>, <hi rend="italic">Washington
-                                    Territory</hi>.</signed></closer>
-                        </frus:attachment>
+                            </dateline><lb/> Before me, Joseph H. Houghton, Clerk of the Supreme
+                            Court of said Territory, came James S. Lawson, who, being first duly
+                            sworn, did depose and say, that he had carefully read the foregoing
+                            statement, and knew the contents thereof; that the same had been
+                            dictated by him; and that so much thereof as was stated from *his own
+                            knowledge was true, and so much thereof as was stated on information he
+                            verily believes to be true.<seg type="margin">[86]</seg><seg
+                                type="margin">Affidavits on the canal de Haro.</seg><lb/>
+                            <dateline rendition="#left">In testimony whereof I have hereunto set my
+                                hand and affixed the Seal of said Court <date when="1872-03-16"
+                                    calendar="gregorian">this 16th day of March, A. D.
+                                1872</date>.</dateline>
+                            <lb/><hi rend="smallcaps">[seal of the sup</hi>. <hi rend="smallcaps"
+                                >court</hi>.<hi rend="smallcaps">]</hi>
+                            <signed>JOSEPH H. HOUGHTON, <hi rend="italic">Cleric Supreme Court</hi>,
+                                    <hi rend="italic">Washington Territory</hi>.</signed>
+                        </closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d95" n="95"
                         frus:doc-dateTime-min="1872-03-20T00:00:00-05:00"
@@ -12039,14 +12021,13 @@
                         <head>
                             <hi rend="italic">Affidavit of Thomas McManus.</hi>
                         </head>
-                        <dateline>[<date when="1872-03-20" calendar="gregorian"
-                                ana="#date_undated-inferred-from-document-content">March 20,
-                                1872</date>].</dateline>
-                        <p>
-                            <placeName><hi rend="smallcaps">United States of America</hi>, <hi
-                                    rend="italic">Territory of Washington</hi>, <hi rend="italic"
-                                    >ss:</hi></placeName>
-                        </p>
+                        <opener>
+                            <dateline rendition="#left">
+                                <placeName><hi rend="smallcaps">United States of America</hi>, <hi
+                                        rend="italic">Territory of Washington</hi>, <hi
+                                        rend="italic">ss:</hi></placeName>
+                            </dateline>
+                        </opener>
                         <p>I, Thomas McManus, of the City of Townsend, County of Jefferson, and
                             Territory of Washington, do solemnly declare that I am a citizen of the
                             United States, of the age of fifty-one years.</p>
@@ -12076,31 +12057,29 @@
                         <closer>
                             <signed>THOMAS MCMANUS.</signed>
                         </closer>
-                        <frus:attachment>
-                            <pb n="167" xml:id="pg_167" facs="0197"/>
-                            <p>
+                        <pb n="167" xml:id="pg_167" facs="0197"/>
+                        <closer>
+                            <dateline rendition="#left">
                                 <placeName>*<hi rend="smallcaps">Territory of Washington</hi>, <hi
                                         rend="italic">County of Thurston</hi>, <hi rend="italic"
                                         >ss:</hi></placeName>
                                 <seg type="margin">[87]</seg>
-                            </p>
-                            <p>Before me, Joseph H. Houghton, Clerk of the Supreme Court of said
-                                Territory, came Thomas McManus, who being first duly sworn, did
-                                depose and say that he had carefully read the foregoing statement,
-                                and knew the contents thereof; that the same had been dictated by
-                                him; and that so much thereof as was stated from his own knowledge
-                                was true, and so much thereof as was stated upon information he
-                                verily believes to be true.<seg type="margin">Affidavits on the
-                                    canal de Haro.</seg></p>
-                            <closer>
-                                <dateline rendition="#left">Witness my hand and the Seal of said
-                                    Court <date when="1872-03-20" calendar="gregorian">this 20th day
-                                        of March, A. D. 1872</date>.</dateline>
-                                <lb/><hi rend="smallcaps">[seal</hi>.<hi rend="smallcaps">]</hi>
-                                <signed>JOSEPH H. HOUGHTON, <hi rend="italic">Clerk Supreme
-                                        Court</hi>, <hi rend="italic">Washington
-                                    Territory.</hi></signed></closer>
-                        </frus:attachment>
+                            </dateline><lb/> Before me, Joseph H. Houghton, Clerk of the Supreme
+                            Court of said Territory, came Thomas McManus, who being first duly
+                            sworn, did depose and say that he had carefully read the foregoing
+                            statement, and knew the contents thereof; that the same had been
+                            dictated by him; and that so much thereof as was stated from his own
+                            knowledge was true, and so much thereof as was stated upon information
+                            he verily believes to be true.<seg type="margin">Affidavits on the canal
+                                de Haro.</seg><lb/>
+                            <dateline rendition="#left">Witness my hand and the Seal of said Court
+                                    <date when="1872-03-20" calendar="gregorian">this 20th day of
+                                    March, A. D. 1872</date>.</dateline>
+                            <lb/><seg rendition="#left">[<hi rend="smallcaps">seal</hi>.]</seg>
+                            <signed rendition="#right">JOSEPH H. HOUGHTON, <hi rend="italic">Clerk
+                                    Supreme Court</hi>, <hi rend="italic">Washington
+                                Territory.</hi></signed>
+                        </closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d96" n="96"
                         frus:doc-dateTime-min="1872-03-27T00:00:00-05:00"
@@ -12108,14 +12087,13 @@
                         <head>
                             <hi rend="italic">Affidavit of Adam Benson.</hi>
                         </head>
-                        <dateline>[<date when="1872-03-27" calendar="gregorian"
-                                ana="#date_undated-inferred-from-document-content">March 27,
-                                1872</date>].</dateline>
-                        <p>
-                            <placeName><hi rend="smallcaps">United States of America</hi>, <hi
-                                    rend="italic">Territory of Washington</hi>, <hi rend="italic"
-                                    >ss:</hi></placeName>
-                        </p>
+                        <opener>
+                            <dateline>
+                                <placeName><hi rend="smallcaps">United States of America</hi>, <hi
+                                        rend="italic">Territory of Washington</hi>, <hi
+                                        rend="italic">ss:</hi></placeName>
+                            </dateline>
+                        </opener>
                         <p>I, Adam Benson, of Pierce County, Washington Territory, do solemnly
                             declare upon oath that I am a citizen of the United States, of the age
                             of fifty-six years, and a native of the North of Scotland. I came to
@@ -12136,40 +12114,36 @@
                         <closer>
                             <signed>ADAM BENSON.</signed>
                         </closer>
-                        <frus:attachment>
-                            <p>
+                        <closer>
+                            <dateline rendition="#left">
                                 <placeName><hi rend="smallcaps">Territory of Washington</hi>, <hi
                                         rend="italic">County of Thurston, ss:</hi></placeName>
-                            </p>
-                            <p>Before me, Joseph H. Houghton, Clerk of the Supreme Court of said
-                                Territory, came Adam Benson, who, being first duly sworn, did depose
-                                and say that he had carefully read the foregoing *statement, and
-                                knew the contents thereof; that the same had been dictated by him
-                                and was true.<seg type="margin">[88]</seg><seg type="margin"
-                                    >Affidavits on the canal de Haro.</seg></p>
-                            <closer>
-                                <dateline rendition="#left">In testimony whereof I have hereunto set
-                                    my hand, and affixed the seal of said Court <date
-                                        when="1872-03-27" calendar="gregorian">this twenty-seventh,
-                                        day of March, A. D. 1872</date>.</dateline><lb/>
-                                <hi rend="smallcaps">[seal</hi>.<hi rend="smallcaps">]</hi>
-                                <signed>JOSEPH H. HOUGHTON, <hi rend="italic">Cleric Supreme
-                                        Court</hi>, <hi rend="italic">Washington
-                                    Territory</hi>.</signed></closer>
-                        </frus:attachment>
+                            </dateline><lb/> Before me, Joseph H. Houghton, Clerk of the Supreme
+                            Court of said Territory, came Adam Benson, who, being first duly sworn,
+                            did depose and say that he had carefully read the foregoing *statement,
+                            and knew the contents thereof; that the same had been dictated by him
+                            and was true.<seg type="margin">[88]</seg><seg type="margin">Affidavits
+                                on the canal de Haro.</seg><lb/>
+                            <dateline rendition="#left">In testimony whereof I have hereunto set my
+                                hand, and affixed the seal of said Court <date when="1872-03-27"
+                                    calendar="gregorian">this twenty-seventh, day of March, A. D.
+                                    1872</date>.</dateline><lb/>
+                            <seg rendition="#left">[<hi rend="smallcaps">seal</hi>.]</seg>
+                            <signed>JOSEPH H. HOUGHTON, <hi rend="italic">Cleric Supreme Court</hi>,
+                                    <hi rend="italic">Washington Territory</hi>.</signed>
+                        </closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d97" n="97"
                         frus:doc-dateTime-min="1872-03-30T00:00:00-05:00"
                         frus:doc-dateTime-max="1872-03-30T23:59:59-05:00">
                         <head><hi rend="italic">Affidavit of William N. Horton</hi>.</head>
-                        <dateline>[<date when="1872-03-30" calendar="gregorian"
-                                ana="#date_undated-inferred-from-document-content">March 30,
-                                1872</date>].</dateline>
-                        <p>
-                            <placeName><hi rend="smallcaps">United States of America</hi>, <hi
-                                    rend="italic">Territory of Washington</hi>, <hi rend="italic"
-                                    >ss:</hi></placeName>
-                        </p>
+                        <opener>
+                            <dateline>
+                                <placeName><hi rend="smallcaps">United States of America</hi>, <hi
+                                        rend="italic">Territory of Washington</hi>, <hi
+                                        rend="italic">ss:</hi></placeName>
+                            </dateline>
+                        </opener>
                         <p>I, William N. Horton, now of the City of Olympia, County of Thurston, and
                             Territory aforesaid, do solemnly declare upon oath, that I am <pb
                                 n="168" xml:id="pg_168" facs="0198"/>a native-born citizen of the
@@ -12213,31 +12187,28 @@
                         <closer>
                             <signed>W. N. HORTON.</signed>
                         </closer>
-                        <frus:attachment>
-                            <p>
+                        <closer>
+                            <dateline rendition="#left">
                                 <placeName><hi rend="smallcaps">Territory of Washington</hi>, <hi
                                         rend="italic">County of Thurston</hi>, <hi rend="italic"
                                         >ss:</hi></placeName>
-                            </p>
-                            <p>Before me, Joseph H. Houghton, Clerk of the Supreme Court of said
-                                Territory, came William N. Horton, who, being first duly sworn, did
-                                depose and say, that he had carefully read the foregoing statement,
-                                and knew the contents thereof; that the same had been dictated by
-                                him; and that so much thereof as was stated from his own knowledge
-                                was true, and so much thereof as was stated upon information he
-                                verily believes to be true.</p>
-                            <closer>
-                                <dateline rendition="#left">In testimony whereof, I have hereunto
-                                    set my hand and affixed the Seal of said Court <date
-                                        when="1872-03-30" calendar="gregorian">this 30th day of
-                                        March, A. D. 1872</date>.</dateline>
-                                <lb/>[<hi rend="smallcaps">SEAL</hi>.] <signed>JOSEPH H. HOUGHTON,
-                                        <hi rend="italic">Clerk Supreme Court, Washington
-                                        Territory</hi>.</signed></closer>
-                        </frus:attachment>
-                        <frus:attachment>
-                            <pb n="169" xml:id="pg_169" facs="0199"/>
-                        </frus:attachment>
+                            </dateline><lb/> Before me, Joseph H. Houghton, Clerk of the Supreme
+                            Court of said Territory, came William N. Horton, who, being first duly
+                            sworn, did depose and say, that he had carefully read the foregoing
+                            statement, and knew the contents thereof; that the same had been
+                            dictated by him; and that so much thereof as was stated from his own
+                            knowledge was true, and so much thereof as was stated upon information
+                            he verily believes to be true.<lb/>
+                            <dateline rendition="#left">In testimony whereof, I have hereunto set my
+                                hand and affixed the Seal of said Court <date when="1872-03-30"
+                                    calendar="gregorian">this 30th day of March, A. D.
+                                1872</date>.</dateline>
+                            <lb/><seg rendition="#left">[<hi rend="smallcaps">SEAL</hi>.]</seg>
+                            <signed rendition="#right">JOSEPH H. HOUGHTON, <hi rend="italic">Clerk
+                                    Supreme Court, Washington Territory</hi>.</signed>
+                        </closer>
+                        <pb n="169" xml:id="pg_169" facs="0199"/>
+
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d98" n="98"
                         frus:doc-dateTime-min="1872-04-03T00:00:00-05:00"
@@ -12245,14 +12216,13 @@
                         <head>
                             <hi rend="italic">Affidavit of John McLeod.</hi>
                         </head>
-                        <dateline>[<date when="1872-04-03" calendar="gregorian"
-                                ana="#date_undated-inferred-from-document-content">April 4,
-                                1872</date>].</dateline>
-                        <p>
-                            <placeName><hi rend="smallcaps">United States of America</hi>, <hi
-                                    rend="italic">Territory of Washington</hi>, <hi rend="italic"
-                                    >ss:</hi></placeName>
-                        </p>
+                        <opener>
+                            <dateline rendition="#left">
+                                <placeName><hi rend="smallcaps">United States of America</hi>, <hi
+                                        rend="italic">Territory of Washington</hi>, <hi
+                                        rend="italic">ss:</hi></placeName>
+                            </dateline>
+                        </opener>
                         <p>I, John McLeod, of Pierce County, Washington Territory, do solemnly
                             declare upon oath that I am a naturalized citizen of the United States,
                             of the age of fifty-six years, and was born in Lewes Island, North of
@@ -12284,35 +12254,28 @@
                                 de Haro regularly navigated by vessels of Hudson’s Bay Company since
                                 1842.</seg></p>
                         <closer>
-                            <signed>His</signed>
-                        </closer>
+                            <signed>His<lb/> JOHN + M<hi rend="smallcaps">c</hi> LEOD.</signed><lb/>
+                            Mark. </closer>
                         <closer>
-                            <signed>JOHN + M<hi rend="smallcaps">c</hi> LEOD.</signed>
-                        </closer>
-                        <closer>
-                            <signed>Mark.</signed>
-                        </closer>
-                        <frus:attachment>
-                            <p>
+                            <dateline rendition="#left">
                                 <placeName><hi rend="smallcaps">Territory of Washington</hi>, <hi
                                         rend="italic">County of Thurston</hi>, <hi rend="italic"
                                         >ss:</hi></placeName>
-                            </p>
-                            <p>Before me, Joseph H. Houghton, Clerk of the Supreme Court of said
-                                Territory, personally came John McLeod, who, being by me first duly
-                                sworn, did declare and say that he knew the contents of the
-                                foregoing affidavit; that the same had been dictated by him and
-                                carefully read to him, and that the same was true.</p>
-                            <closer>
-                                <dateline rendition="#left">In testimony whereof, I have hereunto
-                                    set my hand and the seal of said Court, <date when="1872-04-03"
-                                        calendar="gregorian">this third day of April, A. D.
-                                        1872</date>.</dateline>
-                                <lb/><hi rend="smallcaps">[seal</hi>.<hi rend="smallcaps">]</hi><lb/>
-                                <signed>JOSEPH H. HOUGHTON, <hi rend="italic">Clerk Supreme
-                                        Court</hi>, <hi rend="italic">Washington
-                                    Territory.</hi></signed></closer>
-                        </frus:attachment>
+                            </dateline><lb/> Before me, Joseph H. Houghton, Clerk of the Supreme
+                            Court of said Territory, personally came John McLeod, who, being by me
+                            first duly sworn, did declare and say that he knew the contents of the
+                            foregoing affidavit; that the same had been dictated by him and
+                            carefully read to him, and that the same was true.<lb/>
+                            <dateline rendition="#left">In testimony whereof, I have hereunto set my
+                                hand and the seal of said Court, <date when="1872-04-03"
+                                    calendar="gregorian">this third day of April, A. D.
+                                1872</date>.</dateline>
+                            <lb/>
+                            <seg rendition="#left">[<hi rend="smallcaps">seal</hi>.]</seg><lb/>
+                            <signed rendition="#right">JOSEPH H. HOUGHTON, <hi rend="italic">Clerk
+                                    Supreme Court</hi>, <hi rend="italic">Washington
+                                Territory.</hi></signed>
+                        </closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d99" n="99"
                         frus:doc-dateTime-min="1872-04-08T00:00:00-05:00"
@@ -12356,17 +12319,15 @@
                             <dateline rendition="#left">Subscribed and sworn to before me, <date
                                     when="1872-04-08" calendar="gregorian">this 8th day of April,
                                     1872</date>.</dateline>
-                            <lb/><hi rend="smallcaps">[l</hi>. <hi rend="smallcaps">s</hi>.]
-                                <signed>A. VAN DUSEN, <hi rend="italic">Notary Public for Clatsop
-                                    County</hi>, <hi rend="italic">State of
-                            Oregon.</hi></signed></closer>
+                            <lb/>
+                            <seg rendition="#left">[<hi rend="smallcaps">l. s.</hi>]</seg>
+                            <signed rendition="#right">A. VAN DUSEN, <hi rend="italic">Notary Public
+                                    for Clatsop County</hi>, <hi rend="italic">State of
+                                Oregon.</hi></signed></closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d100" n="100"
                         frus:doc-dateTime-min="1872-04-16T00:00:00-05:00"
                         frus:doc-dateTime-max="1872-04-16T23:59:59-05:00">
-                        <dateline>[<date when="1872-04-16" calendar="gregorian"
-                                ana="#date_undated-inferred-from-document-content">April 16,
-                                1872</date>].</dateline>
                         <head>
                             <hi rend="italic">Affidavit of J. A. Gardiner</hi>.</head>
                         <p>The undersigned was one of the seamen on the Exploring Squadron of
@@ -12381,21 +12342,20 @@
                             <signed>J. A. GARDINER, <hi rend="italic">First Officer S. S.
                                     California.</hi></signed>
                         </closer>
-                        <frus:attachment>
-                            <p>
+                        <closer>
+                            <dateline rendition="#left">
                                 <placeName><hi rend="smallcaps">State of Oregon</hi>, <hi
                                         rend="italic">County of Clatsop</hi>, <hi rend="italic"
                                         >ss:</hi></placeName>
-                            </p>
-                            <p>On this 16th day of April, A. D. 1872, personally appeared before me
-                                the above-named J. A. Gardiner, and to me personally known, who
+                                <lb/> On <date when="1872-04-16" calendar="gregorian">this 16th day
+                                    of April, A. D. 1872</date>, personally appeared before me the
+                                above-named J. A. Gardiner, and to me personally known, who
                                 subscribed his name in my presence and swore, according to law, to
-                                the truth of the above statement.</p>
-                            <p>[<hi rend="smallcaps">NOTARIAL SEAL</hi>.]</p>
-                            <closer>
-                                <signed>A. VAN DUSEN, <hi rend="italic">Notary Public.</hi></signed>
-                            </closer>
-                        </frus:attachment>
+                                the truth of the above statement.</dateline><lb/>
+                            <seg rendition="#left">[<hi rend="smallcaps">NOTARIAL SEAL</hi>.]</seg>
+                            <signed rendition="#right">A. VAN DUSEN, <hi rend="italic">Notary
+                                    Public.</hi></signed>
+                        </closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d101" n="101"
                         frus:doc-dateTime-min="1872-03-13T00:00:00-05:00"
@@ -12504,14 +12464,13 @@
                         frus:doc-dateTime-min="1872-03-16T00:00:00-05:00"
                         frus:doc-dateTime-max="1872-03-16T23:59:59-05:00">
                         <head><hi rend="italic">Affidavit of Charles M. Bradshaw</hi>.</head>
-                        <dateline>[<date when="1872-03-16" calendar="gregorian"
-                                ana="#date_undated-inferred-from-document-content">March 16,
-                                1872</date>].</dateline>
-                        <p>
-                            <placeName><hi rend="smallcaps">United States of America</hi>, <hi
-                                    rend="italic">Territory of Washington</hi>, <hi rend="italic"
-                                    >ss:</hi></placeName>
-                        </p>
+                        <opener>
+                            <dateline rendition="#left">
+                                <placeName><hi rend="smallcaps">United States of America</hi>, <hi
+                                        rend="italic">Territory of Washington</hi>, <hi
+                                        rend="italic">ss:</hi></placeName>
+                            </dateline>
+                        </opener>
                         <p>I, Charles M. Bradshaw, of the City of Port Townsend, County of
                             Jefferson, in said Territory, do solemnly declare upon oath that I am a
                             native-born citizen of the United States, aged forty years; that I came
@@ -12559,28 +12518,27 @@
                         <closer>
                             <signed>CHARLES M. BRADSHAW.</signed>
                         </closer>
-                        <frus:attachment>
-                            <p>
-                                <placeName><hi rend="smallcaps">Territory of Washington</hi>, <hi
-                                        rend="italic">County of Thurston</hi>, <hi rend="italic"
-                                        >ss:</hi></placeName>
-                            </p>
-                            <p>Before me, Joseph N. Houghton, Clerk of the Supreme Court of said
-                                Territory, came Charles M. Bradshaw, who, being first duly sworn,
-                                did depose and say that he had carefully read the foregoing
-                                statement, and knew the contents thereof; that the same had been
-                                dictated by him; and that so much thereof as was stated from his own
-                                knowledge was true, and so much thereof as was stated on information
-                                he verily believes to be true.</p>
-                            <closer>
-                                <dateline rendition="#left">Witness my hand and the seal of said
-                                    Court <date when="1872-03-16" calendar="gregorian">this 16th day
-                                        of March, A. D. 1872</date>.</dateline>
-                                <lb/><hi rend="smallcaps">[seal</hi>.<hi rend="smallcaps">]</hi>
-                                <signed>JOSEPH N. HOUGHTON, <hi rend="italic">Clerk Supreme
-                                        Court</hi>, <hi rend="italic">Washington
-                                    Territory</hi>.</signed></closer>
-                        </frus:attachment>
+                        <closer>
+                            <dateline>
+                                <placeName rendition="#left"><hi rend="smallcaps">Territory of
+                                        Washington</hi>, <hi rend="italic">County of Thurston</hi>,
+                                        <hi rend="italic">ss:</hi></placeName>
+                            </dateline><lb/> Before me, Joseph N. Houghton, Clerk of the Supreme
+                            Court of said Territory, came Charles M. Bradshaw, who, being first duly
+                            sworn, did depose and say that he had carefully read the foregoing
+                            statement, and knew the contents thereof; that the same had been
+                            dictated by him; and that so much thereof as was stated from his own
+                            knowledge was true, and so much thereof as was stated on information he
+                            verily believes to be true.<lb/>
+                            <dateline rendition="#left">Witness my hand and the seal of said Court
+                                    <date when="1872-03-16" calendar="gregorian">this 16th day of
+                                    March, A. D. 1872</date>.</dateline>
+                            <lb/>
+                            <seg rendition="#left">[<hi rend="smallcaps">seal</hi>.]</seg>
+                            <signed rendition="#right">JOSEPH N. HOUGHTON, <hi rend="italic">Clerk
+                                    Supreme Court</hi>, <hi rend="italic">Washington
+                                Territory</hi>.</signed>
+                        </closer>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d103" n="103"
                         frus:doc-dateTime-min="1872-03-18T00:00:00-05:00"
