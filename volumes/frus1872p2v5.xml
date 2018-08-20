@@ -12432,7 +12432,7 @@
                             <signed>W. H. OLIVER.</signed>
                         </closer>
                         <closer>
-                            <dateline>
+                            <dateline rendition="#left">
                                 <placeName>* <hi rend="smallcaps">Consulate of the United States of
                                         America</hi>, <hi rend="italic">Victoria, Vancouver
                                         Island</hi>, <hi rend="italic">British
@@ -12517,7 +12517,7 @@
                             <signed>CHARLES M. BRADSHAW.</signed>
                         </closer>
                         <closer>
-                            <dateline>
+                            <dateline rendition="#left">
                                 <placeName rendition="#left"><hi rend="smallcaps">Territory of
                                         Washington</hi>, <hi rend="italic">County of Thurston</hi>,
                                         <hi rend="italic">ss:</hi></placeName>
@@ -13860,7 +13860,9 @@
                     Emperor of Germany, under the Treaty of Washington of May 8, 1871.</head>
                 <pb n="192" xml:id="pg_192" facs="0222"/>
                 <pb n="193" xml:id="pg_193" facs="0223"/>
-                <div type="chapter" subtype="table-of-contents" xml:id="contents2">
+                <div type="chapter" subtype="table-of-contents" xml:id="contents2"
+                    frus:doc-dateTime-min="1818-01-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                     <head>Contents.</head>
                     <table cols="3">
                         <row>
