@@ -1788,6 +1788,9 @@ ref =
       | 
         ## (Front matter List of Sources) 
         "sources"
+        | 
+        ## (Document Senders/Authors List) 
+        "from"
       | 
         ## (Document Recipients List) 
         "to"

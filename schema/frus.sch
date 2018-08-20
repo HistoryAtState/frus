@@ -106,9 +106,9 @@
         <title>List Checks</title>
         <rule context="tei:list">
             <assert
-                test="./@type = ('participants', 'subject', 'index', 'terms', 'names', 'toc', 'references', 'to', 'simple', 'sources', 'from') or not(./@type)"
+                test="./@type = ('participants', 'subject', 'index', 'terms', 'names', 'toc', 'references', 'from', 'to', 'simple', 'sources', 'from') or not(./@type)"
                     >list/@type='<value-of select="@type"/>' is an invalid value. Only the following
-                values are allowed: participants, subject, index, terms, names, toc, references, to,
+                values are allowed: participants, subject, index, terms, names, toc, references, from, to,
                 simple, sources</assert>
         </rule>
         <rule context="tei:item[ancestor::tei:div/@xml:id = 'terms' and not(child::tei:list)]">
