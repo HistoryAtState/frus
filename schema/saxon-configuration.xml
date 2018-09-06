@@ -1,5 +1,6 @@
-<configuration xmlns="http://saxon.sf.net/ns/configuration">
-    <global xInclude="false"/>
-    <serialization method="xml" indent="no"/>
-    <xquery version="3.1"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration edition="EE" xmlns="http://saxon.sf.net/ns/configuration"
+    label="Saxon configuration for hsg transformations: disable XInclude processing, do not strip whitespace, and enable XQuery update">
+    <global stripSpace="none" xInclude="false" treeModel="linkedTree"/>
+    <xquery allowUpdate="true"/>
 </configuration>

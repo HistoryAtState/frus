@@ -10,10 +10,10 @@
         </xsl:copy>
     </xsl:template>
 
-    <!-- 1. Add descendant min/max dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to //body//div[@type="subchapter"] -->
+    <!-- 1. Add descendant min/max dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to //div[@type="subchapter"] -->
 
     <xsl:template
-        match="tei:body//tei:div[@type = 'subchapter'][not(@subtype = ('historical-document', 'editorial-note', 'referral'))]">
+        match="tei:div[@type = 'subchapter'][not(@subtype = ('historical-document', 'editorial-note', 'referral'))]">
 
         <xsl:variable name="earliest">
             <xsl:for-each select="descendant::tei:div/@frus:doc-dateTime-min">
@@ -55,10 +55,10 @@
         </xsl:choose>
     </xsl:template>
 
-    <!-- 2. Add descendant min/max dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to //body//div[@type="chapter"] {Includes subchapter min/max dates added in step 1} -->
+    <!-- 2. Add descendant min/max dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to //div[@type="chapter"] {Includes subchapter min/max dates added in step 1} -->
 
     <xsl:template
-        match="tei:body//tei:div[@type = 'chapter'][not(@subtype = ('historical-document', 'editorial-note', 'referral'))]">
+        match="tei:div[@type = 'chapter'][not(@subtype = ('historical-document', 'editorial-note', 'referral'))]">
 
         <xsl:variable name="earliest">
             <xsl:for-each select="descendant::tei:div/@frus:doc-dateTime-min">
@@ -100,10 +100,10 @@
         </xsl:choose>
     </xsl:template>
 
-    <!-- 3. Add descendant min/max dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to //body//div[@type="compilation"] {Includes subchapter and chapter min/max dates added in step 1 and 2} -->
+    <!-- 3. Add descendant min/max dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to //div[@type="compilation"] {Includes subchapter and chapter min/max dates added in step 1 and 2} -->
 
     <xsl:template
-        match="tei:body//tei:div[@type = 'compilation'][not(@subtype = ('historical-document', 'editorial-note', 'referral'))]">
+        match="tei:div[@type = 'compilation'][not(@subtype = ('historical-document', 'editorial-note', 'referral'))]">
 
         <xsl:variable name="earliest">
             <xsl:for-each select="descendant::tei:div/@frus:doc-dateTime-min">

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="odd4odds.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="odd4odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:rng="http://relaxng.org/ns/structure/1.0"
     xmlns:frus="http://history.state.gov/frus/ns/1.0"
@@ -9,18 +7,10 @@
         <fileDesc>
             <titleStmt>
                 <title>FRUS TEI Guidelines</title>
-                <author>
-                    <persName xml:id="Mandy">Mandy Chalou</persName>
-                </author>
-                <author>
-                    <persName xml:id="Joe">Joe Wicentowski</persName>
-                </author>
-                <author role="contributor">
-                    <persName xml:id="Amanda">Amanda Ross</persName>
-                </author>
-                <author role="contributor">
-                    <persName xml:id="Virginia">Virginia Kinniburgh</persName>
-                </author>
+                <author xml:id="Mandy">Mandy Chalou</author>
+                <author xml:id="Joe">Joe Wicentowski</author>
+                <author xml:id="Amanda" role="contributor">Amanda Ross</author>
+                <author xml:id="Virginia" role="contributor">Virginia Kinniburgh</author>
             </titleStmt>
             <publicationStmt>
                 <p>Released online as the prose and schema guidelines for the FRUS digital
@@ -509,7 +499,7 @@
                         <head>Paragraphs</head>
                         <p>Paragraphs are wrapped in a <gi>p</gi> element. By default, a paragraph
                             is left-aligned, roman text, and its first line will be indented, but
-                            these properties can be overriden with an optional <att>rend</att>
+                            these properties can be overridden with an optional <att>rend</att>
                             attribute carrying one of the following values: <list>
                                 <item><ident>flushleft</ident>: the paragraph's first line is flush
                                     left, that is, not indented.</item>
@@ -691,6 +681,20 @@
                                 <gi>closer</gi> or <gi>postscript</gi> elements. The same guidelines
                             apply for the <gi>placeName</gi> and <gi>date</gi> elements given
                             above.</p>
+                        <p>In the case that more than one date appears in a dateline, wrap only the
+                            one: the date the document was created, with the <gi>date</gi> element.
+                            For example, in the dateline, "United States Legation, Vienna, October
+                            3, 1870. (Received October 26.)" the first date indicates the date of
+                            creation, and the second indicates the date the document was received by
+                            the recipient. Therefore, only the first date is tagged, and the second
+                            is left untagged:</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <dateline>
+                                <placeName>United States Legation, Vienna</placeName>, 
+                                <date when="1870-10-03" calendar="gregorian">October 3, 1870</date>. 
+                                (Received October 26.)
+                            </dateline>
+                        </egXML>
                     </div>
                     <div xml:id="dates">
                         <head>Dates</head>
@@ -957,7 +961,7 @@
                 says what element(s) are allowed as the root element of documents 
                 conforming to this schema. There is no official default, but Roma 
                 behave as if the default is "teiCorpus TEI".-->
-                <schemaSpec ident="frus" start="TEI" source="tei:2.7.0">
+                <schemaSpec ident="frus" start="TEI" source="tei:3.4.0">
 
 
 
@@ -970,6 +974,7 @@
                     http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ST.html#STMA.
                     The first four listed here are required: core, tei, header, 
                     textstructure. -->
+                    <desc>FRUS TEI Schema Spec</desc>
                     <moduleRef key="core"
                         include="p hi gloss term name date time ref list item head note                          graphic pb lb editor title publisher pubPlace label gap unclear cit quote bibl del l lg"/>
                     <moduleRef key="tei"/>
@@ -1192,6 +1197,9 @@
                                     </valItem>
                                     <valItem ident="sources">
                                         <gloss>Front matter List of Sources</gloss>
+                                    </valItem>
+                                    <valItem ident="from">
+                                        <gloss>Document Senders/Authors List</gloss>
                                     </valItem>
                                     <valItem ident="to">
                                         <gloss>Document Recipients List</gloss>
@@ -1427,12 +1435,12 @@
                     </elementSpec>
 
                     <!-- 
-                    constrain tei:date/@ana
+                    constrain tei:date/@ana | @calendar
                     -->
                     <elementSpec ident="date" module="core" mode="change">
-                        <desc>Restrict @ana values for tei:date elements</desc>
                         <attList>
                             <attDef ident="ana" usage="opt" mode="replace">
+                                <desc>Restrict @ana values for tei:date elements</desc>
                                 <valList type="closed">
                                     <valItem ident="#date_apparent-typo-based-on-document-content">
                                         <gloss>The recorded date was determined to be an error via
@@ -1569,15 +1577,9 @@
                                     </valItem>
                                 </valList>
                             </attDef>
-                        </attList>
-
-                        <!-- 
-                            constrain tei:date/@calendar
-                        -->
-
-                        <desc>Restrict @calendar values for tei:date elements</desc>
-                        <attList>
-                            <attDef ident="calendar" usage="rec" mode="add">
+                            
+                            <attDef ident="calendar" usage="rec" mode="replace">
+                                <desc>Restrict @calendar values for tei:date elements</desc>
                                 <datatype>
                                     <dataRef name="token"/>
                                 </datatype>
@@ -1795,6 +1797,12 @@
                         <attList>
                             <attDef ident="ana" usage="opt" mode="replace">
                                 <valList type="closed">
+                                    <valItem ident="#head_untitled-inferred-from-chapter-head">
+                                        <gloss>The author and recipient were not included by the
+                                            FRUS editor/compiler as they were determined to be the
+                                            same as those supplied in the parent chapter
+                                            heading.</gloss>
+                                    </valItem>
                                     <valItem
                                         ident="#head_untitled-inferred-from-preceding-sibling-head">
                                         <gloss>The author and recipient were not included by the
