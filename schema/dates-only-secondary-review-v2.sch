@@ -266,6 +266,18 @@
                 verify correctness of: <value-of select="."/></assert>
         </rule>
     </pattern>
+    
+    <!-- Post-Publication Run Dates Check -->
+    <pattern id="date-2030">
+        <title>Post-Publication Run Dates Check</title>
+        <!-- Note: This upper bound [2030] will eventually need to be updated. -->
+        <rule context="tei:date[attribute::*]/@when | @from | @to | @notBefore | @notAfter">
+            <let name="year" value="substring(xs:string(.), 1, 4)"/>
+            <assert role="warn" test="xs:numeric($year) &lt;= 2030">For the vast majority of FRUS
+                documents, date attributes should be less than or equal to the year 2030. Please
+                verify correctness of: <value-of select="."/></assert>
+        </rule>
+    </pattern> 
 
     <!-- Non-Gregorian Date Checks -->
     <pattern id="non-gregorian-calendars">
