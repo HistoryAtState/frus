@@ -1797,6 +1797,12 @@
                         <attList>
                             <attDef ident="ana" usage="opt" mode="replace">
                                 <valList type="closed">
+                                    <valItem ident="#head_untitled-inferred-from-chapter-head">
+                                        <gloss>The author and recipient were not included by the
+                                            FRUS editor/compiler as they were determined to be the
+                                            same as those supplied in the parent chapter
+                                            heading.</gloss>
+                                    </valItem>
                                     <valItem
                                         ident="#head_untitled-inferred-from-preceding-sibling-head">
                                         <gloss>The author and recipient were not included by the
