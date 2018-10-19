@@ -61,7 +61,7 @@
             </titlePage>
             <div type="section" xml:id="AbouttheSeries"
                 frus:doc-dateTime-min="1968-11-19T00:00:00-05:00"
-                frus:doc-dateTime-max="1972-12-14T23:59:59-05:00">
+                frus:doc-dateTime-max="1972-12-14T23:59:59-05:00" subtype="about-frus-series">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -242,7 +242,7 @@
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
             </div>
             <div type="section" xml:id="preface" frus:doc-dateTime-min="1968-11-19T00:00:00-05:00"
-                frus:doc-dateTime-max="1972-12-14T23:59:59-05:00">
+                frus:doc-dateTime-max="1972-12-14T23:59:59-05:00" subtype="preface">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">Focus of Research and Principles of Selection for <hi
@@ -322,7 +322,7 @@
                 </frus:attachment>
             </div>
             <div type="section" xml:id="toc" frus:doc-dateTime-min="1968-11-19T00:00:00-05:00"
-                frus:doc-dateTime-max="1972-12-14T23:59:59-05:00">
+                frus:doc-dateTime-max="1972-12-14T23:59:59-05:00" subtype="table-of-contents">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Contents</head>
                 <list>
@@ -363,7 +363,7 @@
                 <pb n="XII" facs="0013" xml:id="pg_XII"/>
             </div>
             <div type="section" xml:id="sources" frus:doc-dateTime-min="1968-11-19T00:00:00-05:00"
-                frus:doc-dateTime-max="1972-12-14T23:59:59-05:00">
+                frus:doc-dateTime-max="1972-12-14T23:59:59-05:00" subtype="sources">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <hi rend="roman">Foreign Relations</hi>,
@@ -740,7 +740,7 @@
                 </list>
             </div>
             <div type="section" xml:id="terms" frus:doc-dateTime-min="1968-11-19T00:00:00-05:00"
-                frus:doc-dateTime-max="1972-12-14T23:59:59-05:00">
+                frus:doc-dateTime-max="1972-12-14T23:59:59-05:00" subtype="index">
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Abbreviations and Terms</head>
                 <list>
@@ -1650,7 +1650,7 @@
                 <pb n="XXVIII" facs="0029" xml:id="pg_XXVIII"/>
             </div>
             <div type="section" xml:id="persons" frus:doc-dateTime-min="1968-11-19T00:00:00-05:00"
-                frus:doc-dateTime-max="1972-12-14T23:59:59-05:00">
+                frus:doc-dateTime-max="1972-12-14T23:59:59-05:00" subtype="index">
                 <pb n="XXIX" facs="0030" xml:id="pg_XXIX"/>
                 <head>Persons</head>
                 <list>
@@ -3743,7 +3743,8 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp">
+            <div type="compilation" xml:id="comp" frus:doc-dateTime-min="1968-11-19T00:00:00-05:00"
+                frus:doc-dateTime-max="1972-12-14T23:59:59-05:00">
                 <pb n="1" facs="0053" xml:id="pg_1"/>
                 <head>Public Diplomacy, 1969–1972</head>
                 <div type="document" n="1" xml:id="d1" subtype="historical-document"
@@ -8681,8 +8682,8 @@
                         trip. K said he knew already.</p>
                 </div>
                 <div type="document" n="44" xml:id="d44" subtype="historical-document"
-                    frus:doc-dateTime-min="1969-11-05T16:01:00-05:00"
-                    frus:doc-dateTime-max="1969-11-05T16:01:00-05:00">
+                    frus:doc-dateTime-min="1969-11-05T11:01:00-05:00"
+                    frus:doc-dateTime-max="1969-11-05T11:01:00-05:00">
                     <pb n="97" facs="0149" xml:id="pg_97"/>
                     <head>44. Circular Airgram From the Department of State to the Embassy in
                             France<note n="1" xml:id="d44fn1" type="source">Source: National
@@ -8707,8 +8708,9 @@
                             <idno type="document-identifier">CA–6011</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1969-11-05T16:01:00"
-                                calendar="gregorian">November 5, 1969, 1601Z</date></dateline>
+                            <placeName>Washington</placeName>, <date
+                                when="1969-11-05T16:01:00+00:00" calendar="gregorian">November 5,
+                                1969, 1601Z</date></dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -9347,8 +9349,8 @@
                         Fails To Stir Foreigners,” page 8)</p>
                 </div>
                 <div type="document" n="50" xml:id="d50" subtype="historical-document"
-                    frus:doc-dateTime-min="1969-11-21T08:30:00-05:00"
-                    frus:doc-dateTime-max="1969-11-21T08:30:00-05:00">
+                    frus:doc-dateTime-min="1969-11-21T03:30:00-05:00"
+                    frus:doc-dateTime-max="1969-11-21T03:30:00-05:00">
                     <pb n="109" facs="0161" xml:id="pg_109"/>
                     <head>50. Telegram From the Embassy in Romania to the Department of State<note
                             n="1" xml:id="d50fn1" type="source">Source: National Archives, <gloss
@@ -9357,7 +9359,7 @@
                             to <gloss target="#t_USIA_1">USIA</gloss>.</note></head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Bucharest</placeName>, <date when="1969-11-21T08:30:00"
+                            <placeName>Bucharest</placeName>, <date when="1969-11-21T08:30:00+00:00"
                                 calendar="gregorian">November 21, 1969, 0830Z</date></dateline>
                     </opener>
                     <p>3042. <gloss target="#t_USIA_1">USIA</gloss> for <gloss target="#t_IPS_1"
@@ -11189,8 +11191,8 @@
                     </frus:attachment>
                 </div>
                 <div type="document" n="67" xml:id="d67" subtype="historical-document"
-                    frus:doc-dateTime-min="1970-01-19T20:20:00-05:00"
-                    frus:doc-dateTime-max="1970-01-19T20:20:00-05:00">
+                    frus:doc-dateTime-min="1970-01-19T15:20:00-05:00"
+                    frus:doc-dateTime-max="1970-01-19T15:20:00-05:00">
                     <pb n="146" facs="0198" xml:id="pg_146"/>
                     <head>67. Circular Airgram From the Department of State to all Diplomatic
                             Posts<note n="1" xml:id="d67fn1" type="source">Source: National
@@ -11217,8 +11219,9 @@
                             <idno type="document-identifier">CA–332</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1970-01-19T20:20:00"
-                                calendar="gregorian">January 19, 1970, 2020Z</date></dateline>
+                            <placeName>Washington</placeName>, <date
+                                when="1970-01-19T20:20:00+00:00" calendar="gregorian">January 19,
+                                1970, 2020Z</date></dateline>
                     </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -17110,8 +17113,8 @@
                         developments described above.</p>
                 </div>
                 <div type="document" n="107" xml:id="d107" subtype="historical-document"
-                    frus:doc-dateTime-min="1970-09-12T22:13:00-05:00"
-                    frus:doc-dateTime-max="1970-09-12T22:13:00-05:00">
+                    frus:doc-dateTime-min="1970-09-12T17:13:00-05:00"
+                    frus:doc-dateTime-max="1970-09-12T17:13:00-05:00">
                     <head>107. Telegram From the Department of State to the Embassy in France<note
                             n="1" xml:id="d107fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Files 1970–73, CUL 8.
@@ -17124,8 +17127,9 @@
                         >Blair</persName>.</note></head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1970-09-12T22:13:00"
-                                calendar="gregorian">September 12, 1970, 2213Z</date></dateline>
+                            <placeName>Washington</placeName>, <date
+                                when="1970-09-12T22:13:00+00:00" calendar="gregorian">September 12,
+                                1970, 2213Z</date></dateline>
                     </opener>
                     <p>149886. REF: Paris 11771.<note n="2" xml:id="d107fn2">In telegram 11771 from
                             Paris, September 1, the Embassy reported that Chalon “emphasized
@@ -24995,8 +24999,8 @@
                             visit.<note n="2" xml:id="d161fn2">Not attached.</note></p>
                 </div>
                 <div type="document" n="162" xml:id="d162" subtype="historical-document"
-                    frus:doc-dateTime-min="1972-02-14T15:48:00-05:00"
-                    frus:doc-dateTime-max="1972-02-14T15:48:00-05:00">
+                    frus:doc-dateTime-min="1972-02-14T10:48:00-05:00"
+                    frus:doc-dateTime-max="1972-02-14T10:48:00-05:00">
                     <pb n="418" facs="0470" xml:id="pg_418"/>
                     <head>162. Circular Telegram From the United States Information Agency to all
                             <gloss target="#t_USIS_1">USIS</gloss> Posts and Multiple
@@ -25028,8 +25032,9 @@
                             <idno type="document-identifier">USIA–2793/Infor Guide No. 72–3</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1972-02-14T15:48:00"
-                                calendar="gregorian">February 14, 1972, 1548Z</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                when="1972-02-14T15:48:00+00:00" calendar="gregorian">February 14,
+                                1972, 1548Z</date>.</dateline>
                     </opener>
                     <p>2793. USIAC. <gloss target="#t_CINCPAC_1">CINCPAC</gloss> for <gloss
                             target="#t_POA_1">POA</gloss> and <gloss target="#t_AIG_1">AIG</gloss>
