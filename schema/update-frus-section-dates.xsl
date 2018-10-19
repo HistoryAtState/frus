@@ -10,8 +10,8 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:variable name="volume-dates-min" select="//frus:coverage/@notBefore"/>
-    <xsl:variable name="volume-dates-max" select="//frus:coverage/@notAfter"/>
+    <xsl:variable name="volume-dates-min" select="//publicationStmt/date[attribute::type eq 'content-date']/@notBefore"/>
+    <xsl:variable name="volume-dates-max" select="//publicationStmt/date[attribute::type eq 'content-date']/@notAfter"/>
 
     <!-- Add volumes dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to //front//div[@type="section"] -->
 
