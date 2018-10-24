@@ -10,7 +10,6 @@
         </xsl:copy>
     </xsl:template>
 
-
     <xsl:variable name="volume-dates-min" select="//frus:coverage/@notBefore"/>
     <xsl:variable name="volume-year-min"
         select="substring-before(xs:string($volume-dates-min), '-')"/>

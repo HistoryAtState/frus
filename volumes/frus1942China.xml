@@ -148,10 +148,10 @@
             <change>2015-03-06 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1941-12-27T18:00:00-05:00"
                 notAfter="1943-01-06T18:00:00-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>
@@ -19513,8 +19513,9 @@
                             Secretary of State on October 24, 1942.</note>
                     </head>
                     <dateline>
-                        <date when="1942-10-24" ana="#date_undated-inferred-from-document-content"
-                            calendar="gregorian">undated</date>
+                        <date when="1942-10-24" type="received-date"
+                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                            >undated</date>
                     </dateline>
                     <p rend="center">
                         <hi rend="smallcaps">Draft Treaty With Regard to Relations Between the
@@ -20249,8 +20250,9 @@
                             in Department’s telegram No. 1075, November 13, 11 a.m.</note>
                     </head>
                     <dateline>
-                        <date when="1942-11-10" ana="#date_undated-inferred-from-document-content"
-                            calendar="gregorian">undated</date>
+                        <date when="1942-11-10" type="received-date"
+                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                            >undated</date>
                     </dateline>
                     <p>In connection with the Draft Treaty with regard to relations between China
                         and the United States of America, the Chinese Government proposes for the
@@ -20307,6 +20309,7 @@
                         </head>
                         <opener>
                             <dateline rendition="#right"><date when="1942-11-10"
+                                    type="received-date"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                     calendar="gregorian">. . . . . . ., 1942</date>.</dateline>
                         </opener>

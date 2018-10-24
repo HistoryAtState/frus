@@ -94,6 +94,9 @@
                 pubPlace</assert>
             <assert test="count(tei:date) = 2">publicationStmt needs exactly two dates:
                 type="publication-date" and type="content-date"</assert>
+            <assert test="count(tei:date) = 2">publicationStmt needs exactly two dates: a volume
+                publication date [@type="publication-date"] and volume content date
+                [@type="content-date"]</assert>
             <assert test="tei:idno/@type = ('dospubno', 'frus', 'isbn-13', 'isbn-10')"
                     >idno/@type='<value-of select="@type"/>' is an invalid value. Only the following
                 values are allowed: dospubno, frus, isbn-13, isbn-10</assert>
@@ -114,8 +117,8 @@
             <assert
                 test="./@type = ('participants', 'subject', 'index', 'terms', 'names', 'toc', 'references', 'from', 'to', 'simple', 'sources', 'from') or not(./@type)"
                     >list/@type='<value-of select="@type"/>' is an invalid value. Only the following
-                values are allowed: participants, subject, index, terms, names, toc, references, from, to,
-                simple, sources</assert>
+                values are allowed: participants, subject, index, terms, names, toc, references,
+                from, to, simple, sources</assert>
         </rule>
         <rule context="tei:item[ancestor::tei:div/@xml:id = 'terms' and not(child::tei:list)]">
             <assert test=".//tei:term/@xml:id" sqf:fix="add-term add-xml-id">Missing term element
@@ -524,6 +527,11 @@
                     else
                         true()"
                 >Dateline date @notBefore must come before @notAfter.</assert>
+        </rule>
+        <rule context="tei:date[matches(., '\d{4}Z', 'i')]">
+            <assert role="warn" test=".[contains(@when, '+00:00')]">This date may contain a Zulu
+                time reference without a corresponding time zone indicator (+00:00) in
+                @when.</assert>
         </rule>
     </pattern>
 

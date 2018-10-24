@@ -162,10 +162,10 @@
             <change>2015-05-23 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1937-12-31T17:00:00-05:00"
                 notAfter="1939-01-01T16:00:00-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>
@@ -19211,7 +19211,7 @@
                                 of European Affairs by the Counselor of the Netherlands Legation on
                                 May 12.</note></head>
                         <dateline>
-                            <date when="1938-05-12"
+                            <date when="1938-05-12" type="received-date"
                                 ana="#date_undated-inferred-from-document-content"
                                 calendar="gregorian">undated</date>
                         </dateline>

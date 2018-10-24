@@ -118,10 +118,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1960-12-01T00:00:00-05:00"
                 notAfter="1963-11-09T23:59:59-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>
@@ -8427,8 +8427,8 @@
                 </div>
 
                 <div type="document" n="38" xml:id="d38" subtype="historical-document"
-                    frus:doc-dateTime-min="1961-07-04T13:12:00-05:00"
-                    frus:doc-dateTime-max="1961-07-04T13:12:00-05:00">
+                    frus:doc-dateTime-min="1961-07-04T08:12:00-05:00"
+                    frus:doc-dateTime-max="1961-07-04T08:12:00-05:00">
                     <head>38. Circular Telegram From the Department of State to Multiple African
                         Diplomatic Posts<note n="1" xml:id="d38fn1" type="source">Source: National
                             Archives, <gloss target="#t_RG_1">RG</gloss> 306, Office of Plans,
@@ -8455,8 +8455,9 @@
                             dangerously close to a ‘prestige poll.’” (Ibid.)</note></head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1961-07-04T13:12:00"
-                                calendar="gregorian">July 4, 1961, 1312Z</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                when="1961-07-04T13:12:00+00:00" calendar="gregorian">July 4, 1961,
+                                1312Z</date>.</dateline>
                     </opener>
                     <p>19. 1. Department requests Ambassadors or Principal Officers, drawing as
                         appropriate on staff, other embassies, and public sources, submit free-hand
@@ -16127,9 +16128,7 @@
                     </closer>
                 </div>
 
-                <div type="document" n="102" xml:id="d102" subtype="editorial-note"
-                    frus:doc-dateTime-min="1960-12-01T00:00:00-05:00"
-                    frus:doc-dateTime-max="1963-11-09T23:59:59-05:00">
+                <div type="document" n="102" xml:id="d102" subtype="editorial-note">
                     <head>102. Editorial Note</head>
                     <p>On December 28, 1962, the United States Advisory Commission on Information
                         released its 18th report, covering the calendar year 1962. In his letter of
@@ -20881,9 +20880,7 @@
                     </closer>
                 </div>
 
-                <div type="document" n="138" xml:id="d138" subtype="editorial-note"
-                    frus:doc-dateTime-min="1960-12-01T00:00:00-05:00"
-                    frus:doc-dateTime-max="1963-11-09T23:59:59-05:00">
+                <div type="document" n="138" xml:id="d138" subtype="editorial-note">
                     <head>138. Editorial Note</head>
                     <p>On July 31, 1963, President <persName corresp="#p_KJF_1">John F.
                             Kennedy</persName> convened the 516th meeting of the National Security

@@ -19,7 +19,7 @@
                 <pubPlace>Washington</pubPlace>
                 <date type="publication-date" calendar="gregorian">2018</date>
                 <idno type="frus">frus1969-76v19p2</idno>
-                <date type="content-date" calendar="gregorian" notBefore="1969-01-14T11:25:00-05:00"
+                <date type="content-date" calendar="gregorian" notBefore="1969-01-14T06:25:00-05:00"
                     notAfter="1972-10-18T10:00:00-05:00">1969 to 1972</date>
             </publicationStmt>
             <sourceDesc>
@@ -36,10 +36,9 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
-        <xenoData>
-            <frus:coverage notBefore="1969-01-14T11:25:00-05:00"
-                notAfter="1972-10-18T10:00:00-05:00"/>
-        </xenoData>
+        <!-- <xenoData>
+            <frus:coverage notBefore="1969-01-14T06:25:00-05:00" notAfter="1972-10-18T10:00:00-05:00"/>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>
@@ -1864,8 +1863,8 @@
                     frus:doc-dateTime-max="1969-11-24T23:59:59-05:00">
                     <head>January–November 1969: The Decision for Okinawa Reversion</head>
                     <div type="document" n="1" xml:id="d1" subtype="historical-document"
-                        frus:doc-dateTime-min="1969-01-14T11:25:00-05:00"
-                        frus:doc-dateTime-max="1969-01-14T11:25:00-05:00">
+                        frus:doc-dateTime-min="1969-01-14T06:25:00-05:00"
+                        frus:doc-dateTime-max="1969-01-14T06:25:00-05:00">
                         <head>1. Telegram From the Embassy in Japan to the Department of State<note
                                 n="1" xml:id="d1fn1" type="source">Source: National Archives, Nixon
                                 Presidential Materials, <gloss target="#t_NSC_1">NSC</gloss> Files,
@@ -1873,7 +1872,7 @@
                                     <gloss target="#t_Exdis_1">Exdis</gloss>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tokyo</placeName>, <date when="1969-01-14T11:25:00"
+                                <placeName>Tokyo</placeName>, <date when="1969-01-14T11:25:00+00:00"
                                     calendar="gregorian">January 14, 1969, 1125Z</date>.</dateline>
                         </opener>
                         <p>267. 1. I had hour and one-half talk with Prime Minister yesterday on my
@@ -8927,8 +8926,8 @@
                             role.]</p>
                     </div>
                     <div type="document" n="47" xml:id="d47" subtype="historical-document"
-                        frus:doc-dateTime-min="1970-06-25T18:10:00-05:00"
-                        frus:doc-dateTime-max="1970-06-25T18:10:00-05:00">
+                        frus:doc-dateTime-min="1970-06-25T13:10:00-05:00"
+                        frus:doc-dateTime-max="1970-06-25T13:10:00-05:00">
                         <head>47. Telegram From the Department of State to the Embassy in Japan<note
                                 n="1" xml:id="d47fn1" type="source">Source: National Archives,
                                     <gloss target="#t_RG_1">RG</gloss> 59, Central Files 1970–73,
@@ -8952,8 +8951,9 @@
                                 Textiles [1 of 3].</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1970-06-25T18:10:00"
-                                    calendar="gregorian">June 25, 1970, 1810Z</date>.</dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1970-06-25T18:10:00+00:00" calendar="gregorian">June 25,
+                                    1970, 1810Z</date>.</dateline>
                         </opener>
                         <p>100695. For the Ambassador from <persName corresp="#p_JUA_1">Alexis
                                 Johnson</persName>. Following is text of letter from President to
@@ -9077,8 +9077,8 @@
                     </div>
                     <pb n="140" facs="0171" xml:id="pg_140"/>
                     <div type="document" n="48" xml:id="d48" subtype="historical-document"
-                        frus:doc-dateTime-min="1970-07-09T00:55:00-05:00"
-                        frus:doc-dateTime-max="1970-07-09T00:55:00-05:00">
+                        frus:doc-dateTime-min="1970-07-08T19:55:00-05:00"
+                        frus:doc-dateTime-max="1970-07-08T19:55:00-05:00">
                         <head>48. Telegram From Secretary of State <persName corresp="#p_RWP_1"
                                 >Rogers</persName> to the Department of State<note n="1"
                                 xml:id="d48fn1" type="source">Source: National Archives, Nixon
@@ -9095,7 +9095,7 @@
                                     <ref target="#d49">Document 49</ref>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tokyo</placeName>, <date when="1970-07-09T00:55:00"
+                                <placeName>Tokyo</placeName>, <date when="1970-07-09T00:55:00+00:00"
                                     calendar="gregorian">July 9, 1970, 0055Z</date>.</dateline>
                         </opener>
                         <p>Secto 78/5130. Subject: Secretary’s Conversation With <persName
@@ -11771,8 +11771,8 @@
                             Textiles, Vol. IV, 1971)</p>
                     </div>
                     <div type="document" n="70" xml:id="d70" subtype="historical-document"
-                        frus:doc-dateTime-min="1971-03-11T21:30:00-05:00"
-                        frus:doc-dateTime-max="1971-03-11T21:30:00-05:00">
+                        frus:doc-dateTime-min="1971-03-11T16:30:00-05:00"
+                        frus:doc-dateTime-max="1971-03-11T16:30:00-05:00">
                         <head>70. Telegram From the Department of State to the Embassy in Japan<note
                                 n="1" xml:id="d70fn1" type="source">Source: National Archives,
                                     <gloss target="#t_RG_1">RG</gloss> 59, Central Files 1970–73,
@@ -11794,8 +11794,9 @@
                                     >Flanigan</persName> discussions.” (Ibid.)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1971-03-11T21:30:00"
-                                    calendar="gregorian">March 11, 1971, 2130Z</date>.</dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1971-03-11T21:30:00+00:00" calendar="gregorian">March 11,
+                                    1971, 2130Z</date>.</dateline>
                         </opener>
                         <p>41080. Strictly Eyes Only For The Ambassador. Directly deliver soonest
                             following message from the President to Prime Minister <persName
@@ -12564,8 +12565,8 @@
                     </div>
                     <pb n="203" facs="0234" xml:id="pg_203"/>
                     <div type="document" n="74" xml:id="d74" subtype="historical-document"
-                        frus:doc-dateTime-min="1971-06-03T04:09:00-05:00"
-                        frus:doc-dateTime-max="1971-06-03T04:09:00-05:00">
+                        frus:doc-dateTime-min="1971-06-02T23:09:00-05:00"
+                        frus:doc-dateTime-max="1971-06-02T23:09:00-05:00">
                         <head>74. Telegram From the Embassy in Japan to the Department of State<note
                                 n="1" xml:id="d74fn1" type="source">Source: National Archives, Nixon
                                 Presidential Materials, <gloss target="#t_NSC_1">NSC</gloss> Files,
@@ -12575,7 +12576,7 @@
                                     target="#t_USUN_1">USUN</gloss>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tokyo</placeName>, <date when="1971-06-03T04:09:00"
+                                <placeName>Tokyo</placeName>, <date when="1971-06-03T04:09:00+00:00"
                                     calendar="gregorian">June 3, 1971, 0409Z</date>.</dateline>
                         </opener>
                         <p>5221. Subj: <persName corresp="#p_RWP_1">Rogers</persName>–<persName
@@ -16153,8 +16154,8 @@
                             avoid invoking measures which would affect trade with the Europeans.</p>
                     </div>
                     <div type="document" n="89" xml:id="d89" subtype="historical-document"
-                        frus:doc-dateTime-min="1971-08-16T01:08:00-05:00"
-                        frus:doc-dateTime-max="1971-08-16T01:08:00-05:00">
+                        frus:doc-dateTime-min="1971-08-15T20:08:00-05:00"
+                        frus:doc-dateTime-max="1971-08-15T20:08:00-05:00">
                         <head>89. Telegram From the Department of State to the Embassy in Japan<note
                                 n="1" xml:id="d89fn1" type="source">Source: National Archives, Nixon
                                 Presidential Materials, <gloss target="#t_NSC_1">NSC</gloss> Files,
@@ -16174,8 +16175,9 @@
                                 against the dollar.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1971-08-16T01:08:00"
-                                    calendar="gregorian">August 16, 1971, 0108Z</date>.</dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1971-08-16T01:08:00+00:00" calendar="gregorian">August 16,
+                                    1971, 0108Z</date>.</dateline>
                         </opener>
                         <p>149434. Please deliver as soon as [possible] following personal message
                             from the President to Prime Minister <persName corresp="#p_SE_1"
@@ -20748,8 +20750,8 @@
                             Resolution.</p>
                     </div>
                     <div type="document" n="103" xml:id="d103" subtype="historical-document"
-                        frus:doc-dateTime-min="1971-10-28T17:20:00-05:00"
-                        frus:doc-dateTime-max="1971-10-28T17:20:00-05:00">
+                        frus:doc-dateTime-min="1971-10-28T12:20:00-05:00"
+                        frus:doc-dateTime-max="1971-10-28T12:20:00-05:00">
                         <head>103. Telegram From the Department of State to the Embassy in
                                 Japan<note n="1" xml:id="d103fn1" type="source">Source: National
                                 Archives, Nixon Presidential Materials, <gloss target="#t_NSC_1"
@@ -20782,8 +20784,9 @@
                                 sent to Tokyo. (Ibid.)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1971-10-28T17:20:00"
-                                    calendar="gregorian">October 28, 1971, 1720Z</date>.</dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1971-10-28T17:20:00+00:00" calendar="gregorian">October
+                                    28, 1971, 1720Z</date>.</dateline>
                         </opener>
                         <p>196864. For the Ambassador from the Secretary. Following is the text of a
                             message from the President to be delivered to Prime Minister <persName
@@ -23508,8 +23511,8 @@
                             review of their discussions.</p>
                     </div>
                     <div type="document" n="114" xml:id="d114" subtype="historical-document"
-                        frus:doc-dateTime-min="1972-03-01T05:47:00-05:00"
-                        frus:doc-dateTime-max="1972-03-01T05:47:00-05:00">
+                        frus:doc-dateTime-min="1972-03-01T00:47:00-05:00"
+                        frus:doc-dateTime-max="1972-03-01T00:47:00-05:00">
                         <head>114. Telegram From the Embassy in South Korea to the Department of
                                 State<note n="1" xml:id="d114fn1" type="source">Source: National
                                 Archives, Nixon Presidential Materials, <gloss target="#t_NSC_1"
@@ -23528,7 +23531,7 @@
                                 Vol. VII, Jan–Apr 1972)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Seoul</placeName>, <date when="1972-03-01T05:47:00"
+                                <placeName>Seoul</placeName>, <date when="1972-03-01T05:47:00+00:00"
                                     calendar="gregorian">March 1, 1972, 0547Z</date>.</dateline>
                         </opener>
                         <p>1205. For Secretary from <persName corresp="#p_GM_1">Marshall
