@@ -690,10 +690,9 @@
                             is left untagged:</p>
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
                             <dateline>
-                                <placeName>United States Legation, Vienna</placeName>, 
-                                <date when="1870-10-03" calendar="gregorian">October 3, 1870</date>. 
-                                (Received October 26.)
-                            </dateline>
+                                <placeName>United States Legation, Vienna</placeName>, <date
+                                    when="1870-10-03" calendar="gregorian">October 3, 1870</date>.
+                                (Received October 26.) </dateline>
                         </egXML>
                     </div>
                     <div xml:id="dates">
@@ -1575,9 +1574,16 @@
                                         <gloss>Date value(s) for undated document were inferred from
                                             volume date range and possibly outside research</gloss>
                                     </valItem>
+                                    <valItem
+                                        ident="#date_undated-temporarily-inferred-from-volume-rules">
+                                        <gloss>Date value(s) for undated document were inferred from
+                                            volume date range. (The value(s) serve as a placeholder
+                                            until more discrete analysis can be conducted on an
+                                            individual document level.)</gloss>
+                                    </valItem>
                                 </valList>
                             </attDef>
-                            
+
                             <attDef ident="calendar" usage="rec" mode="replace">
                                 <desc>Restrict @calendar values for tei:date elements</desc>
                                 <datatype>
