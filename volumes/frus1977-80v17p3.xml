@@ -18,6 +18,8 @@
                 <pubPlace>Washington</pubPlace>
                 <date type="publication-date" calendar="gregorian">2017</date>
                 <idno type="frus">frus1977-80v17p3</idno>
+                <date type="content-date" calendar="gregorian" notBefore="1977-01-12T05:43:00-05:00"
+                    notAfter="1981-01-06T23:59:59-05:00">1977 to 1981</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 2017 as printed book.</p>
@@ -33,10 +35,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1977-01-12T10:43:00-05:00"
                 notAfter="1981-01-06T23:59:59-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>
@@ -1153,8 +1155,8 @@
                     frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                     <head>North Africa Region</head>
                     <div type="document" n="1" xml:id="d1" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
-                        frus:doc-dateTime-max="1977-01-12T10:43:00-05:00">
+                        frus:doc-dateTime-min="1977-01-12T05:43:00-05:00"
+                        frus:doc-dateTime-max="1977-01-12T05:43:00-05:00">
                         <head>1. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d1fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D770011–0832. Secret;
@@ -1162,7 +1164,7 @@
                                 to Algiers, Cairo, Moscow, and Tripoli.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tunis</placeName>, <date when="1977-01-12T10:43:00"
+                                <placeName>Tunis</placeName>, <date when="1977-01-12T10:43:00+00:00"
                                     calendar="gregorian">January 12, 1977, 1043Z</date></dateline>
                         </opener>
                         <p>252. Dept pls pass <gloss target="#t_DOD_1">DOD</gloss>. Subject: Alleged
@@ -1211,8 +1213,8 @@
                     </div>
 
                     <div type="document" n="2" xml:id="d2" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-01-20T08:37:00-05:00"
-                        frus:doc-dateTime-max="1977-01-20T08:37:00-05:00">
+                        frus:doc-dateTime-min="1977-01-20T03:37:00-05:00"
+                        frus:doc-dateTime-max="1977-01-20T03:37:00-05:00">
                         <head>2. Telegram From the Embassy in Libya to the Department of State<note
                                 n="1" xml:id="d2fn1" type="source">Source: National Archives, RG 59,
                                 Central Foreign Policy File, D770021–0691. Secret; <gloss
@@ -1220,8 +1222,9 @@
                                 Cairo, Khartoum, and Tunis.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tripoli</placeName>, <date when="1977-01-20T08:37:00"
-                                    calendar="gregorian">January 20, 1977, 0837Z</date></dateline>
+                                <placeName>Tripoli</placeName>, <date
+                                    when="1977-01-20T08:37:00+00:00" calendar="gregorian">January
+                                    20, 1977, 0837Z</date></dateline>
                         </opener>
                         <p>74. Subject: Egyptian Ambassador’s Comments on Egyptian/Libyan
                             Relations.</p>
@@ -1299,8 +1302,8 @@
                     </div>
 
                     <div type="document" n="3" xml:id="d3" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-02-18T17:00:00-05:00"
-                        frus:doc-dateTime-max="1977-02-18T17:00:00-05:00">
+                        frus:doc-dateTime-min="1977-02-18T12:00:00-05:00"
+                        frus:doc-dateTime-max="1977-02-18T12:00:00-05:00">
                         <pb n="4" facs="0025" xml:id="pg_4"/>
                         <head>3. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d3fn1" type="source">Source: National
@@ -1312,7 +1315,7 @@
                                     >CINCUSNAVEUR</gloss>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tunis</placeName>, <date when="1977-02-18T17:00:00"
+                                <placeName>Tunis</placeName>, <date when="1977-02-18T17:00:00+00:00"
                                     calendar="gregorian">February 18, 1977, 1700Z</date></dateline>
                         </opener>
                         <p>1194. Amman for Ambassador <persName corresp="#p_MEW_1"
@@ -1439,8 +1442,8 @@
 
                     <pb n="7" facs="0028" xml:id="pg_7"/>
                     <div type="document" n="4" xml:id="d4" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-03-29T09:35:00-05:00"
-                        frus:doc-dateTime-max="1977-03-29T09:35:00-05:00">
+                        frus:doc-dateTime-min="1977-03-29T04:35:00-05:00"
+                        frus:doc-dateTime-max="1977-03-29T04:35:00-05:00">
                         <head>4. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d4fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D770107–0094. Secret;
@@ -1454,7 +1457,7 @@
                             Naples.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tunis</placeName>, <date when="1977-03-29T09:35:00"
+                                <placeName>Tunis</placeName>, <date when="1977-03-29T09:35:00+00:00"
                                     calendar="gregorian">March 29, 1977, 0935Z</date></dateline>
                         </opener>
                         <p>2107. <gloss target="#t_CINCUSNAVEUR_1">CINCUSNAVEUR</gloss>, <gloss
@@ -1650,8 +1653,8 @@
                     </div>
 
                     <div type="document" n="5" xml:id="d5" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-04-02T22:37:00-05:00"
-                        frus:doc-dateTime-max="1977-04-02T22:37:00-05:00">
+                        frus:doc-dateTime-min="1977-04-02T17:37:00-05:00"
+                        frus:doc-dateTime-max="1977-04-02T17:37:00-05:00">
                         <head>5. Telegram From the Department of State to the Embassies in France,
                             Italy, and Tunisia<note n="1" xml:id="d5fn1" type="source">Source:
                                 National Archives, RG 59, Central Foreign Policy File, D770116–0033.
@@ -1667,8 +1670,9 @@
                                     <persName corresp="#p_AAL_1">Atherton</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-04-02T22:37:00"
-                                    calendar="gregorian">April 2, 1977, 2237Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-04-02T22:37:00+00:00" calendar="gregorian">April 2,
+                                    1977, 2237Z</date></dateline>
                         </opener>
                         <p>73662. Subject: Tunisian-Libyan Shelf Dispute: <persName
                                 corresp="#p_AAL_1">Atherton</persName>-<persName corresp="#p_HA_1"
@@ -1763,8 +1767,8 @@
                     </div>
 
                     <div type="document" n="6" xml:id="d6" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-04-16T12:45:00-05:00"
-                        frus:doc-dateTime-max="1977-04-16T12:45:00-05:00">
+                        frus:doc-dateTime-min="1977-04-16T07:45:00-05:00"
+                        frus:doc-dateTime-max="1977-04-16T07:45:00-05:00">
                         <head>6. Telegram From the Embassy in Egypt to the Department of State<note
                                 n="1" xml:id="d6fn1" type="source">Source: National Archives, RG 59,
                                 Central Foreign Policy File, D770133–0249. Secret; Priority; <gloss
@@ -1772,7 +1776,7 @@
                                 Tripoli.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Cairo</placeName>, <date when="1977-04-16T12:45:00"
+                                <placeName>Cairo</placeName>, <date when="1977-04-16T12:45:00+00:00"
                                     calendar="gregorian">April 16, 1977, 1245Z</date></dateline>
                         </opener>
                         <p>6378. Subj: <persName corresp="#p_FI_1">Fahmy</persName> on Libya. Ref:
@@ -1866,8 +1870,8 @@
                     </div>
 
                     <div type="document" n="7" xml:id="d7" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-04-16T23:23:00-05:00"
-                        frus:doc-dateTime-max="1977-04-16T23:23:00-05:00">
+                        frus:doc-dateTime-min="1977-04-16T18:23:00-05:00"
+                        frus:doc-dateTime-max="1977-04-16T18:23:00-05:00">
                         <head>7. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d7fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material, Middle East, Subject File, Box 61,
@@ -1881,8 +1885,9 @@
                                 59, Central Foreign Policy File, D770133–0533)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-04-16T23:23:00"
-                                    calendar="gregorian">April 16, 1977, 2323Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-04-16T23:23:00+00:00" calendar="gregorian">April 16,
+                                    1977, 2323Z</date></dateline>
                         </opener>
                         <p>86313. Subject: Libyan Demarche on <persName corresp="#p_SA_1"
                                 >Sadat</persName>’s Intentions.</p>
@@ -1998,8 +2003,8 @@
 
                     <pb n="17" facs="0038" xml:id="pg_17"/>
                     <div type="document" n="9" xml:id="d9" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-05-30T13:25:00-05:00"
-                        frus:doc-dateTime-max="1977-05-30T13:25:00-05:00">
+                        frus:doc-dateTime-min="1977-05-30T08:25:00-05:00"
+                        frus:doc-dateTime-max="1977-05-30T08:25:00-05:00">
                         <head>9. Telegram From the Embassy in Libya to the Department of State<note
                                 n="1" xml:id="d9fn1" type="source">Source: National Archives, RG 59,
                                 Central Foreign Policy File, D770192–0874. Confidential; Immediate.
@@ -2013,8 +2018,9 @@
                             >USDOCOSOUTH</gloss>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tripoli</placeName>, <date when="1977-05-30T13:25:00"
-                                    calendar="gregorian">May 30, 1977, 1325Z</date></dateline>
+                                <placeName>Tripoli</placeName>, <date
+                                    when="1977-05-30T13:25:00+00:00" calendar="gregorian">May 30,
+                                    1977, 1325Z</date></dateline>
                         </opener>
                         <p>704. Subj: Continental Shelf Dispute: Libyan Demarche.</p>
                         <p>1. Libyan Under Sec. FonAffairs Atrash summoned me morning May 30 for
@@ -2099,8 +2105,8 @@
 
                     <pb n="19" facs="0040" xml:id="pg_19"/>
                     <div type="document" n="10" xml:id="d10" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-06-09T20:05:00-05:00"
-                        frus:doc-dateTime-max="1977-06-09T20:05:00-05:00">
+                        frus:doc-dateTime-min="1977-06-09T15:05:00-05:00"
+                        frus:doc-dateTime-max="1977-06-09T15:05:00-05:00">
                         <head>10. Telegram From the Department of State to the Embassies in Tunisia
                             and the United Kingdom<note n="1" xml:id="d10fn1" type="source">Source:
                                 Carter Library, National Security Affairs, Staff Material, Middle
@@ -2114,8 +2120,9 @@
                                 Central Foreign Policy File, D770206–0559)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-06-09T20:05:00"
-                                    calendar="gregorian">June 9, 1977, 2005Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-06-09T20:05:00+00:00" calendar="gregorian">June 9,
+                                    1977, 2005Z</date></dateline>
                         </opener>
                         <p>133570. London for Kinsolving. Subject: Tunisian-Libyan Continental Shelf
                             Dispute. Ref: Tunis 4052, London 9435.<note n="2" xml:id="d10fn2">In
@@ -2296,8 +2303,8 @@
                     </div>
 
                     <div type="document" n="13" xml:id="d13" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-06-21T13:20:00-05:00"
-                        frus:doc-dateTime-max="1977-06-21T13:20:00-05:00">
+                        frus:doc-dateTime-min="1977-06-21T08:20:00-05:00"
+                        frus:doc-dateTime-max="1977-06-21T08:20:00-05:00">
                         <head>13. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d13fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -2308,7 +2315,7 @@
                                 Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tunis</placeName>, <date when="1977-06-21T13:20:00"
+                                <placeName>Tunis</placeName>, <date when="1977-06-21T13:20:00+00:00"
                                     calendar="gregorian">June 21, 1977, 1320Z</date></dateline>
                         </opener>
                         <p>4343. Dept please pass to <gloss target="#t_CINCUSNAVEUR_1"
@@ -2413,15 +2420,15 @@
                     </div>
 
                     <div type="document" n="14" xml:id="d14" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-07-01T13:31:00-05:00"
-                        frus:doc-dateTime-max="1977-07-01T13:31:00-05:00">
+                        frus:doc-dateTime-min="1977-07-01T08:31:00-05:00"
+                        frus:doc-dateTime-max="1977-07-01T08:31:00-05:00">
                         <head>14. Telegram From the Embassy in Egypt to the Department of State<note
                                 n="1" xml:id="d14fn1" type="source">Source: National Archives, RG
                                 59, Central Foreign Policy File, P850052–2088. Secret; Immediate;
                                     <gloss target="#t_Nodis_1">Nodis</gloss>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Cairo</placeName>, <date when="1977-07-01T13:31:00"
+                                <placeName>Cairo</placeName>, <date when="1977-07-01T13:31:00+00:00"
                                     calendar="gregorian">July 1, 1977, 1331Z</date></dateline>
                         </opener>
                         <p>11017. Subject: President <persName corresp="#p_SA_1">Sadat</persName>
@@ -2572,8 +2579,8 @@
                     </div>
 
                     <div type="document" n="15" xml:id="d15" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-07-06T20:00:00-05:00"
-                        frus:doc-dateTime-max="1977-07-06T20:00:00-05:00">
+                        frus:doc-dateTime-min="1977-07-06T15:00:00-05:00"
+                        frus:doc-dateTime-max="1977-07-06T15:00:00-05:00">
                         <head>15. Telegram From the Embassy in Chad to the Department of State<note
                                 n="1" xml:id="d15fn1" type="source">Source: National Archives, RG
                                 59, Central Foreign Policy File, P840084–2289. Secret; <gloss
@@ -2581,8 +2588,9 @@
                                     target="#t_Nodis_1">Nodis</gloss>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Ndjamena</placeName>, <date when="1977-07-06T20:00:00"
-                                    calendar="gregorian">July 6, 1977, 2000Z</date></dateline>
+                                <placeName>Ndjamena</placeName>, <date
+                                    when="1977-07-06T20:00:00+00:00" calendar="gregorian">July 6,
+                                    1977, 2000Z</date></dateline>
                         </opener>
                         <p>2261. Subj: President <persName corresp="#p_MF_1">Malloum</persName>
                             Suggests Travel to <gloss target="#t_US_1">US</gloss> to Present Chadian
@@ -3267,8 +3275,8 @@
 
                     <pb n="40" facs="0061" xml:id="pg_40"/>
                     <div type="document" n="22" xml:id="d22" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-08-02T02:41:00-05:00"
-                        frus:doc-dateTime-max="1977-08-02T02:41:00-05:00">
+                        frus:doc-dateTime-min="1977-08-01T21:41:00-05:00"
+                        frus:doc-dateTime-max="1977-08-01T21:41:00-05:00">
                         <head>22. Telegram From the Department of State to Secretary of State
                                 <persName corresp="#p_VCR_1">Vance</persName> in Egypt<note n="1"
                                 xml:id="d22fn1" type="source">Source: National Archives, RG 59,
@@ -3282,8 +3290,9 @@
                                 Middle East peace process.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-08-02T02:41:00"
-                                    calendar="gregorian">August 2, 1977, 0241Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-08-02T02:41:00+00:00" calendar="gregorian">August 2,
+                                    1977, 0241Z</date></dateline>
                         </opener>
                         <p>Tosec 80036/180597. From <persName corresp="#p_MRM_1">Moose</persName> to
                                 <persName corresp="#p_HPC_1">Habib</persName>. Subject: Aid to Chad.
@@ -3699,8 +3708,8 @@
 
                     <pb n="49" facs="0070" xml:id="pg_49"/>
                     <div type="document" n="26" xml:id="d26" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-09-10T16:03:00-05:00"
-                        frus:doc-dateTime-max="1977-09-10T16:03:00-05:00">
+                        frus:doc-dateTime-min="1977-09-10T11:03:00-05:00"
+                        frus:doc-dateTime-max="1977-09-10T11:03:00-05:00">
                         <head>26. Telegram From the Department of State to the Embassy in Chad<note
                                 n="1" xml:id="d26fn1" type="source">Source: National Archives, RG
                                 59, Central Foreign Policy File, D770329–0077. Confidential;
@@ -3709,8 +3718,9 @@
                                     >Moose</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-09-10T16:03:00"
-                                    calendar="gregorian">September 10, 1977, 1603Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-09-10T16:03:00+00:00" calendar="gregorian">September
+                                    10, 1977, 1603Z</date></dateline>
                         </opener>
                         <p>217502. Subject: Chadian Ambassador’s Meeting With Assistant Secretary
                                 <persName corresp="#p_MRM_1">Moose</persName>, September 9. Refs:
@@ -3849,8 +3859,8 @@
 
                     <pb n="52" facs="0073" xml:id="pg_52"/>
                     <div type="document" n="27" xml:id="d27" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-09-13T08:29:00-05:00"
-                        frus:doc-dateTime-max="1977-09-13T08:29:00-05:00">
+                        frus:doc-dateTime-min="1977-09-13T03:29:00-05:00"
+                        frus:doc-dateTime-max="1977-09-13T03:29:00-05:00">
                         <head>27. Telegram From the Embassy in Chad to the Department of State and
                             Other Recipients<note n="1" xml:id="d27fn1" type="source">Source:
                                 National Archives, RG 59, Central Foreign Policy File, D770335–0122.
@@ -3858,8 +3868,9 @@
                                     >DIA</gloss>, Khartoum, Paris, Rabat, and Tripoli.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Ndjamena</placeName>, <date when="1977-09-13T08:29:00"
-                                    calendar="gregorian">September 13, 1977, 0829Z</date></dateline>
+                                <placeName>Ndjamena</placeName>, <date
+                                    when="1977-09-13T08:29:00+00:00" calendar="gregorian">September
+                                    13, 1977, 0829Z</date></dateline>
                         </opener>
                         <p>3176. Subject: Military Assistance to Chad. Ref: Ndjamena 3169.<note
                                 n="2" xml:id="d27fn2">In telegram 3169 from Ndjamena, September 13,
@@ -5579,8 +5590,8 @@
 
                     <pb n="86" facs="0107" xml:id="pg_86"/>
                     <div type="document" n="36" xml:id="d36" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-11-04T10:16:00-05:00"
-                        frus:doc-dateTime-max="1978-11-04T10:16:00-05:00">
+                        frus:doc-dateTime-min="1978-11-04T05:16:00-05:00"
+                        frus:doc-dateTime-max="1978-11-04T05:16:00-05:00">
                         <head>36. Telegram From the Embassy in Egypt to the Department of State<note
                                 n="1" xml:id="d36fn1" type="source">Source: National Archives, RG
                                 59, Central Foreign Policy File, P850067–2758. Secret; Immediate;
@@ -5589,7 +5600,7 @@
                                 House.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Cairo</placeName>, <date when="1978-11-04T10:16:00"
+                                <placeName>Cairo</placeName>, <date when="1978-11-04T10:16:00+00:00"
                                     calendar="gregorian">November 4, 1978, 1016Z</date></dateline>
                         </opener>
                         <p>24272. <gloss target="#t_Exdis_1">Exdis</gloss> distribute as <gloss
@@ -6156,8 +6167,8 @@
 
                     <pb n="97" facs="0118" xml:id="pg_97"/>
                     <div type="document" n="40" xml:id="d40" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-04-20T15:43:00-05:00"
-                        frus:doc-dateTime-max="1979-04-20T15:43:00-05:00">
+                        frus:doc-dateTime-min="1979-04-20T10:43:00-05:00"
+                        frus:doc-dateTime-max="1979-04-20T10:43:00-05:00">
                         <head>40. Telegram From the Embassy in Spain to the Department of State<note
                                 n="1" xml:id="d40fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Brzezinski Material, Brzezinski Office File,
@@ -6168,8 +6179,9 @@
                                 USCINCEUR.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Madrid</placeName>, <date when="1979-04-20T15:43:00"
-                                    calendar="gregorian">April 20, 1979, 1543Z</date></dateline>
+                                <placeName>Madrid</placeName>, <date
+                                    when="1979-04-20T15:43:00+00:00" calendar="gregorian">April 20,
+                                    1979, 1543Z</date></dateline>
                         </opener>
                         <p>5416. Subject: (S) North Africa: <persName corresp="#p_TTA_1"
                                 >Todman</persName>-<persName corresp="#p_HUSC_1"
@@ -6948,8 +6960,8 @@
                     </div>
 
                     <div type="document" n="43" xml:id="d43" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-09-28T22:47:00-05:00"
-                        frus:doc-dateTime-max="1979-09-28T22:47:00-05:00">
+                        frus:doc-dateTime-min="1979-09-28T17:47:00-05:00"
+                        frus:doc-dateTime-max="1979-09-28T17:47:00-05:00">
                         <head>43. Telegram from the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d43fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790445–0586. Secret;
@@ -6960,8 +6972,9 @@
                                 and Rome.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-09-28T22:47:00"
-                                    calendar="gregorian">September 28, 1979, 2247Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1979-09-28T22:47:00+00:00" calendar="gregorian">September
+                                    28, 1979, 2247Z</date></dateline>
                         </opener>
                         <p>256045. Subject: Secretary’s Bilateral With Moroccan Foreign Minister
                                 <persName corresp="#p_BM_1">Boucetta</persName>.</p>
@@ -7128,8 +7141,8 @@
 
                     <pb n="116" facs="0137" xml:id="pg_116"/>
                     <div type="document" n="44" xml:id="d44" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-09-29T00:34:00-05:00"
-                        frus:doc-dateTime-max="1979-09-29T00:34:00-05:00">
+                        frus:doc-dateTime-min="1979-09-28T19:34:00-05:00"
+                        frus:doc-dateTime-max="1979-09-28T19:34:00-05:00">
                         <head>44. Telegram From the Department of State to the Embassy in
                                 Algeria<note n="1" xml:id="d44fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File D790445–0521. Secret;
@@ -7141,8 +7154,9 @@
                                     >Newsom</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-09-29T00:34:00"
-                                    calendar="gregorian">September 29, 1979, 0034Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1979-09-29T00:34:00+00:00" calendar="gregorian">September
+                                    29, 1979, 0034Z</date></dateline>
                         </opener>
                         <p>256242. Subject: Negotiating Western Sahara Conflict.</p>
                         <p>1. (S) Entire text.</p>
@@ -7257,8 +7271,8 @@
                     </div>
 
                     <div type="document" n="45" xml:id="d45" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-10-06T21:57:00-05:00"
-                        frus:doc-dateTime-max="1979-10-06T21:57:00-05:00">
+                        frus:doc-dateTime-min="1979-10-06T16:57:00-05:00"
+                        frus:doc-dateTime-max="1979-10-06T16:57:00-05:00">
                         <head>45. Telegram From the Department of State to the Embassies in Algeria
                             and Morocco<note n="1" xml:id="d45fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790459–0466. Secret;
@@ -7269,8 +7283,9 @@
                                     corresp="#p_SHH_1">Saunders</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-10-06T21:57:00"
-                                    calendar="gregorian">October 6, 1979, 2157Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1979-10-06T21:57:00+00:00" calendar="gregorian">October 6,
+                                    1979, 2157Z</date></dateline>
                         </opener>
                         <p>262979. Madrid please pass Ambassador <persName corresp="#p_HUSC_1"
                                 >Haynes</persName>. Subject: Secretary’s Meeting With Algerian
@@ -8770,8 +8785,8 @@
                     frus:doc-dateTime-max="1980-01-17T23:59:59-05:00">
                     <head>Algeria</head>
                     <div type="document" n="55" xml:id="d55" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-02-12T16:00:00-05:00"
-                        frus:doc-dateTime-max="1977-02-12T16:00:00-05:00">
+                        frus:doc-dateTime-min="1977-02-12T11:00:00-05:00"
+                        frus:doc-dateTime-max="1977-02-12T11:00:00-05:00">
                         <head>55. Telegram From the Embassy in Algeria to the Department of
                                 State<note n="1" xml:id="d55fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -8783,8 +8798,9 @@
                                 received in the White House Situation Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Algiers</placeName>, <date when="1977-02-12T16:00:00"
-                                    calendar="gregorian">February 12, 1977, 1600Z</date></dateline>
+                                <placeName>Algiers</placeName>, <date
+                                    when="1977-02-12T16:00:00+00:00" calendar="gregorian">February
+                                    12, 1977, 1600Z</date></dateline>
                         </opener>
                         <p>376. <gloss target="#t_CINCEUR_1">CINCEUR</gloss> for <gloss
                                 target="#t_POLAD_1">POLAD</gloss>. Subject: Valedictory
@@ -9316,8 +9332,8 @@
 
                     <pb n="158" facs="0179" xml:id="pg_158"/>
                     <div type="document" n="59" xml:id="d59" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-05-27T05:29:00-05:00"
-                        frus:doc-dateTime-max="1977-05-27T05:29:00-05:00">
+                        frus:doc-dateTime-min="1977-05-27T00:29:00-05:00"
+                        frus:doc-dateTime-max="1977-05-27T00:29:00-05:00">
                         <head>59. Telegram From the Department of State to the Embassy in
                                 Algeria<note n="1" xml:id="d59fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D770189–0893.
@@ -9327,8 +9343,9 @@
                                     >Atherton</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-05-27T05:29:00"
-                                    calendar="gregorian">May 27, 1977, 0529Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-05-27T05:29:00+00:00" calendar="gregorian">May 27,
+                                    1977, 0529Z</date></dateline>
                         </opener>
                         <p>122874. Subject: Message to President <persName corresp="#p_BH_1"
                                 >Boumediene</persName> From President <persName corresp="#p_CJE_1"
@@ -9719,16 +9736,17 @@
 
                     <pb n="166" facs="0187" xml:id="pg_166"/>
                     <div type="document" n="61" xml:id="d61" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-07-02T15:15:00-05:00"
-                        frus:doc-dateTime-max="1977-07-02T15:15:00-05:00">
+                        frus:doc-dateTime-min="1977-07-02T10:15:00-05:00"
+                        frus:doc-dateTime-max="1977-07-02T10:15:00-05:00">
                         <head>61. Telegram From the Embassy in Algeria to the Department of
                                 State<note n="1" xml:id="d61fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
                                 Subject File, Box 1, Algeria: 2–12/77. Confidential.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Algiers</placeName>, <date when="1977-07-02T15:15:00"
-                                    calendar="gregorian">July 2, 1977, 1515Z</date></dateline>
+                                <placeName>Algiers</placeName>, <date
+                                    when="1977-07-02T15:15:00+00:00" calendar="gregorian">July 2,
+                                    1977, 1515Z</date></dateline>
                         </opener>
                         <p>1653. Subject: Multilateral Diplomacy and Algeria. Ref: State
                                 148782.<note n="2" xml:id="d61fn2">In telegram 148782 to all
@@ -9865,8 +9883,8 @@
 
                     <pb n="169" facs="0190" xml:id="pg_169"/>
                     <div type="document" n="63" xml:id="d63" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-06-18T16:05:00-05:00"
-                        frus:doc-dateTime-max="1978-06-18T16:05:00-05:00">
+                        frus:doc-dateTime-min="1978-06-18T11:05:00-05:00"
+                        frus:doc-dateTime-max="1978-06-18T11:05:00-05:00">
                         <head>63. Telegram From the Department of State to the Embassy in
                                 Algeria<note n="1" xml:id="d63fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -9882,8 +9900,9 @@
                                 D780254–0757)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-06-18T16:05:00"
-                                    calendar="gregorian">June 18, 1978, 1605Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-06-18T16:05:00+00:00" calendar="gregorian">June 18,
+                                    1978, 1605Z</date></dateline>
                         </opener>
                         <p>155012. Subj: Secretary’s June 10 Meeting With Algerian Foreign Minister
                                 <persName corresp="#p_BA_2">Bouteflika</persName>. Ref: State
@@ -11926,8 +11945,8 @@
                     frus:doc-dateTime-max="1980-12-12T08:23:00-05:00">
                     <head>Libya</head>
                     <div type="document" n="79" xml:id="d79" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-01-28T22:16:00-05:00"
-                        frus:doc-dateTime-max="1977-01-28T22:16:00-05:00">
+                        frus:doc-dateTime-min="1977-01-28T17:16:00-05:00"
+                        frus:doc-dateTime-max="1977-01-28T17:16:00-05:00">
                         <head>79. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d79fn1" type="source">Source: National Archives, RG
                                 59, Central Foreign Policy File, D770031–1104. Limited Official Use;
@@ -11937,8 +11956,9 @@
                             Day.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-01-28T22:16:00"
-                                    calendar="gregorian">January 28, 1977, 2216Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-01-28T22:16:00+00:00" calendar="gregorian">January
+                                    28, 1977, 2216Z</date></dateline>
                         </opener>
                         <p>20279. Subject: Protest to Libya Over Navy Aircraft Incident.</p>
                         <p>1. Morning of January 28, <gloss target="#t_NEA_1">NEA</gloss> Deputy
@@ -12045,8 +12065,8 @@
 
                     <pb n="211" facs="0232" xml:id="pg_211"/>
                     <div type="document" n="81" xml:id="d81" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-02-13T02:37:00-05:00"
-                        frus:doc-dateTime-max="1977-02-13T02:37:00-05:00">
+                        frus:doc-dateTime-min="1977-02-12T21:37:00-05:00"
+                        frus:doc-dateTime-max="1977-02-12T21:37:00-05:00">
                         <head>81. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d81fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material, Middle East, Subject File, Box 61,
@@ -12059,8 +12079,9 @@
                             >Habib</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-02-13T02:37:00"
-                                    calendar="gregorian">February 13, 1977, 0237Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-02-13T02:37:00+00:00" calendar="gregorian">February
+                                    13, 1977, 0237Z</date></dateline>
                         </opener>
                         <p>32744. Subject: Protest to Libya Over Navy Aircraft Incident.<note n="2"
                                 xml:id="d81fn2">An unknown hand underlined the subject line.</note>
@@ -12571,9 +12592,7 @@
                         </frus:attachment>
                     </div>
 
-                    <div type="document" n="87" xml:id="d87" subtype="editorial-note"
-                        frus:doc-dateTime-min="1977-01-12T10:43:00-05:00"
-                        frus:doc-dateTime-max="1981-01-06T23:59:59-05:00">
+                    <div type="document" n="87" xml:id="d87" subtype="editorial-note">
                         <head>87. Editorial Note</head>
                         <p>In late summer 1981, multiple intelligence reports from a variety of
                             sources revealed Libyan Chairman <persName corresp="#p_QM_1">Mu’ammar
@@ -12628,8 +12647,8 @@
                     </div>
 
                     <div type="document" n="88" xml:id="d88" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-04-14T10:34:00-05:00"
-                        frus:doc-dateTime-max="1977-04-14T10:34:00-05:00">
+                        frus:doc-dateTime-min="1977-04-14T05:34:00-05:00"
+                        frus:doc-dateTime-max="1977-04-14T05:34:00-05:00">
                         <head>88. Telegram From the Embassy in Libya to the Department of State<note
                                 n="1" xml:id="d88fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material, Middle East, Subject File, Box 61,
@@ -12637,8 +12656,9 @@
                                 information to Cairo.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tripoli</placeName>, <date when="1977-04-14T10:34:00"
-                                    calendar="gregorian">April 14, 1977, 1034Z</date></dateline>
+                                <placeName>Tripoli</placeName>, <date
+                                    when="1977-04-14T10:34:00+00:00" calendar="gregorian">April 14,
+                                    1977, 1034Z</date></dateline>
                         </opener>
                         <p>475. For Asst Secretary <persName corresp="#p_AAL_1">Atherton</persName>,
                                 <gloss target="#t_NEA_1">NEA</gloss>. Cairo for Ambassador/Charge.
@@ -12836,8 +12856,8 @@
                     </div>
 
                     <div type="document" n="90" xml:id="d90" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-07-08T17:55:00-05:00"
-                        frus:doc-dateTime-max="1977-07-08T17:55:00-05:00">
+                        frus:doc-dateTime-min="1977-07-08T12:55:00-05:00"
+                        frus:doc-dateTime-max="1977-07-08T12:55:00-05:00">
                         <head>90. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d90fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material, Middle East, Subject File, Box 61,
@@ -12851,8 +12871,9 @@
                             D770243–0970)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-07-08T17:55:00"
-                                    calendar="gregorian">July 8, 1977, 1755Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-07-08T17:55:00+00:00" calendar="gregorian">July 8,
+                                    1977, 1755Z</date></dateline>
                         </opener>
                         <p>158889. Subject: Conversation With Libyan Charge <persName
                                 corresp="#p_GSF_1">Gashut</persName>.</p>
@@ -12967,8 +12988,8 @@
 
                     <pb n="228" facs="0249" xml:id="pg_228"/>
                     <div type="document" n="91" xml:id="d91" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-02-17T19:27:00-05:00"
-                        frus:doc-dateTime-max="1978-02-17T19:27:00-05:00">
+                        frus:doc-dateTime-min="1978-02-17T14:27:00-05:00"
+                        frus:doc-dateTime-max="1978-02-17T14:27:00-05:00">
                         <head>91. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d91fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material Middle East, Subject File, Box 61,
@@ -12983,8 +13004,9 @@
                                 D780074–0628)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-02-17T19:27:00"
-                                    calendar="gregorian">February 17, 1978, 1927Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-02-17T19:27:00+00:00" calendar="gregorian">February
+                                    17, 1978, 1927Z</date></dateline>
                         </opener>
                         <p>42713. Subject: Sale of U.S. Aircraft and Services to Libya.</p>
                         <p>1. Dept made following decisions February 16:</p>
@@ -13116,8 +13138,8 @@
 
                     <pb n="231" facs="0252" xml:id="pg_231"/>
                     <div type="document" n="94" xml:id="d94" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-09-21T19:03:00-05:00"
-                        frus:doc-dateTime-max="1978-09-21T19:03:00-05:00">
+                        frus:doc-dateTime-min="1978-09-21T14:03:00-05:00"
+                        frus:doc-dateTime-max="1978-09-21T14:03:00-05:00">
                         <head>94. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d94fn1" type="source">Source: Carter Library, National
                                 Security Affairs, Staff Material, Middle East, Subject File, Box 61,
@@ -13134,8 +13156,9 @@
                                 Central Foreign Policy File, [no film number])</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-09-21T19:03:00"
-                                    calendar="gregorian">September 21, 1978, 1903Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-09-21T19:03:00+00:00" calendar="gregorian">September
+                                    21, 1978, 1903Z</date></dateline>
                         </opener>
                         <p>240302. Subject: Libyan-American Relations. Refs: A. Tripoli 1186 B.
                             Tripoli 1139 C. Tripoli 1138.<note n="2" xml:id="d94fn2">In telegram
@@ -13238,8 +13261,8 @@
 
                     <pb n="233" facs="0254" xml:id="pg_233"/>
                     <div type="document" n="95" xml:id="d95" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-10-02T23:28:00-05:00"
-                        frus:doc-dateTime-max="1978-10-02T23:28:00-05:00">
+                        frus:doc-dateTime-min="1978-10-02T18:28:00-05:00"
+                        frus:doc-dateTime-max="1978-10-02T18:28:00-05:00">
                         <head>95. Telegram From the Mission to the United Nations to the Embassy in
                             Libya and the Department of State<note n="1" xml:id="d95fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
@@ -13249,8 +13272,9 @@
                                 Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>New York</placeName>, <date when="1978-10-02T23:28:00"
-                                    calendar="gregorian">October 2, 1978, 2328Z</date></dateline>
+                                <placeName>New York</placeName>, <date
+                                    when="1978-10-02T23:28:00+00:00" calendar="gregorian">October 2,
+                                    1978, 2328Z</date></dateline>
                         </opener>
                         <p>3953. Subject: UNGA: <persName corresp="#p_NDD_1">Newsom</persName>
                             Bilateral With Libya PermRep. Ref: Tripoli 1384.<note n="2"
@@ -13342,8 +13366,8 @@
 
                     <pb n="235" facs="0256" xml:id="pg_235"/>
                     <div type="document" n="96" xml:id="d96" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-10-21T13:29:00-05:00"
-                        frus:doc-dateTime-max="1978-10-21T13:29:00-05:00">
+                        frus:doc-dateTime-min="1978-10-21T08:29:00-05:00"
+                        frus:doc-dateTime-max="1978-10-21T08:29:00-05:00">
                         <head>96. Telegram From the Department of State to the Embassy in Libya<note
                                 n="1" xml:id="d96fn1" type="source">Source: National Archives, RG
                                 59, Central Foreign Policy File, D780432–0438. Secret; Priority;
@@ -13355,8 +13379,9 @@
                                     corresp="#p_NDD_1">Newsom</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-10-21T13:29:00"
-                                    calendar="gregorian">October 21, 1978, 1329Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-10-21T13:29:00+00:00" calendar="gregorian">October
+                                    21, 1978, 1329Z</date></dateline>
                         </opener>
                         <p>267504. Subject: Acting Secretary <persName corresp="#p_NDD_1"
                                 >Newsom</persName>’s Meeting With Libyan Foreign Secretary
@@ -15084,8 +15109,8 @@
                     </div>
 
                     <div type="document" n="106" xml:id="d106" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-10-04T21:25:00-05:00"
-                        frus:doc-dateTime-max="1979-10-04T21:25:00-05:00">
+                        frus:doc-dateTime-min="1979-10-04T16:25:00-05:00"
+                        frus:doc-dateTime-max="1979-10-04T16:25:00-05:00">
                         <head>106. Telegram From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> to the Department of State<note n="1"
                                 xml:id="d106fn1" type="source">Source: Carter Library, National
@@ -15098,8 +15123,9 @@
                                 received in the White House Situation Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>New York</placeName>, <date when="1979-10-04T21:25:00"
-                                    calendar="gregorian">October 4, 1979, 2125Z</date></dateline>
+                                <placeName>New York</placeName>, <date
+                                    when="1979-10-04T21:25:00+00:00" calendar="gregorian">October 4,
+                                    1979, 2125Z</date></dateline>
                         </opener>
                         <p>Secto 9008. Subject: Secretary’s Discussion With Libyan Foreign
                             Minister.</p>
@@ -15366,8 +15392,8 @@
                     </div>
 
                     <div type="document" n="108" xml:id="d108" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-12-02T19:54:00-05:00"
-                        frus:doc-dateTime-max="1979-12-02T19:54:00-05:00">
+                        frus:doc-dateTime-min="1979-12-02T14:54:00-05:00"
+                        frus:doc-dateTime-max="1979-12-02T14:54:00-05:00">
                         <head>108. Telegram From the Department of State to All Diplomatic Posts and
                             Other Recipients<note n="1" xml:id="d108fn1" type="source">Source:
                                 National Archives, RG 59, Central Foreign Policy File, D790556–0065.
@@ -15379,8 +15405,9 @@
                                 Hester and approved by Smith.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-12-02T19:54:00"
-                                    calendar="gregorian">December 2, 1979, 1954Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1979-12-02T19:54:00+00:00" calendar="gregorian">December
+                                    2, 1979, 1954Z</date></dateline>
                         </opener>
                         <p>310900. Inform Consuls. Subject: Libya SitRep No 1 as of 1200 EST,
                             December 2, 1979.</p>
@@ -15449,8 +15476,8 @@
 
                     <pb n="276" facs="0297" xml:id="pg_276"/>
                     <div type="document" n="109" xml:id="d109" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-12-02T17:16:00-05:00"
-                        frus:doc-dateTime-max="1979-12-02T17:16:00-05:00">
+                        frus:doc-dateTime-min="1979-12-02T12:16:00-05:00"
+                        frus:doc-dateTime-max="1979-12-02T12:16:00-05:00">
                         <head>109. Telegram From the Department of State to the British Embassy in
                                 Washington<note n="1" xml:id="d109fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -15463,8 +15490,9 @@
                                 D790555–0907)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-12-02T17:16:00"
-                                    calendar="gregorian">December 2, 1979, 1716Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1979-12-02T17:16:00+00:00" calendar="gregorian">December
+                                    2, 1979, 1716Z</date></dateline>
                         </opener>
                         <p>310814. Subject: Message for American Charge <persName corresp="#p_EWL_1"
                                 >William L. Eagleton</persName>. Please pass British Embassy
@@ -15768,16 +15796,17 @@
 
                     <pb n="281" facs="0302" xml:id="pg_281"/>
                     <div type="document" n="113" xml:id="d113" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-12-09T14:45:00-05:00"
-                        frus:doc-dateTime-max="1979-12-09T14:45:00-05:00">
+                        frus:doc-dateTime-min="1979-12-09T09:45:00-05:00"
+                        frus:doc-dateTime-max="1979-12-09T09:45:00-05:00">
                         <head>113. Telegram From the Embassy in Libya to the Department of
                                 State<note n="1" xml:id="d113fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, P840156–1905. Secret;
                                 Immediate; <gloss target="#t_Nodis_1">Nodis</gloss>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tripoli</placeName>, <date when="1979-12-09T14:45:00"
-                                    calendar="gregorian">December 9, 1979, 1445Z</date></dateline>
+                                <placeName>Tripoli</placeName>, <date
+                                    when="1979-12-09T14:45:00+00:00" calendar="gregorian">December
+                                    9, 1979, 1445Z</date></dateline>
                         </opener>
                         <p>1891. Subject: Conversation With Ali Houdairi in Tripoli.</p>
                         <p>1. I have just had a wide-ranging 3 hour conversation with Chief of the
@@ -15910,8 +15939,8 @@
 
                     <pb n="284" facs="0305" xml:id="pg_284"/>
                     <div type="document" n="115" xml:id="d115" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-12-14T13:15:00-05:00"
-                        frus:doc-dateTime-max="1979-12-14T13:15:00-05:00">
+                        frus:doc-dateTime-min="1979-12-14T08:15:00-05:00"
+                        frus:doc-dateTime-max="1979-12-14T08:15:00-05:00">
                         <head>115. Telegram From the Embassy in Libya to the Department of
                                 State<note n="1" xml:id="d115fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -15920,8 +15949,9 @@
                                 received in the White House Situation Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tripoli</placeName>, <date when="1979-12-14T13:15:00"
-                                    calendar="gregorian">December 14, 1979, 1315Z</date></dateline>
+                                <placeName>Tripoli</placeName>, <date
+                                    when="1979-12-14T13:15:00+00:00" calendar="gregorian">December
+                                    14, 1979, 1315Z</date></dateline>
                         </opener>
                         <p>1925. Subject: Basis for a Continuing Diplomatic Relationship With
                             Libya.</p>
@@ -16386,8 +16416,8 @@
                     </div>
 
                     <div type="document" n="122 " xml:id="d122" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-01-17T18:27:00-05:00"
-                        frus:doc-dateTime-max="1980-01-17T18:27:00-05:00">
+                        frus:doc-dateTime-min="1980-01-17T13:27:00-05:00"
+                        frus:doc-dateTime-max="1980-01-17T13:27:00-05:00">
                         <head>122. Telegram From the Department of State to the Embassy in
                                 Libya<note n="1" xml:id="d122fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -16403,8 +16433,9 @@
                                 D800029–0704)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-01-17T18:27:00"
-                                    calendar="gregorian">January 17, 1980, 1827Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1980-01-17T18:27:00+00:00" calendar="gregorian">January
+                                    17, 1980, 1827Z</date></dateline>
                         </opener>
                         <p>13208. Subject: Talking Points for Proposed Meeting With Col. <persName
                                 corresp="#p_QM_1">Qadhafi</persName>.</p>
@@ -16457,8 +16488,8 @@
 
                     <pb n="294" facs="0315" xml:id="pg_294"/>
                     <div type="document" n="123" xml:id="d123" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-01-17T19:27:00-05:00"
-                        frus:doc-dateTime-max="1980-01-17T19:27:00-05:00">
+                        frus:doc-dateTime-min="1980-01-17T14:27:00-05:00"
+                        frus:doc-dateTime-max="1980-01-17T14:27:00-05:00">
                         <head>123. Telegram From the Department of State to the Embassy in
                                 Libya<note n="1" xml:id="d123fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Brzezinski Material, President’s
@@ -16475,8 +16506,9 @@
                                 D800029–0741)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-01-17T19:27:00"
-                                    calendar="gregorian">January 17, 1980, 1927Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1980-01-17T19:27:00+00:00" calendar="gregorian">January
+                                    17, 1980, 1927Z</date></dateline>
                         </opener>
                         <p>13254. Subject: Message to Col. <persName corresp="#p_QM_1"
                                 >Qadhafi</persName> From President <persName corresp="#p_CJE_1"
@@ -16551,16 +16583,17 @@
 
                     <pb n="296" facs="0317" xml:id="pg_296"/>
                     <div type="document" n="124" xml:id="d124" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-01-19T11:15:00-05:00"
-                        frus:doc-dateTime-max="1980-01-19T11:15:00-05:00">
+                        frus:doc-dateTime-min="1980-01-19T06:15:00-05:00"
+                        frus:doc-dateTime-max="1980-01-19T06:15:00-05:00">
                         <head>124. Telegram From the Embassy in Libya to the Department of
                                 State<note n="1" xml:id="d124fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800032–0682. Secret;
                                 Immediate; <gloss target="#t_Exdis_1">Exdis</gloss>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tripoli</placeName>, <date when="1980-01-19T11:15:00"
-                                    calendar="gregorian">January 19, 1980, 1115Z</date></dateline>
+                                <placeName>Tripoli</placeName>, <date
+                                    when="1980-01-19T11:15:00+00:00" calendar="gregorian">January
+                                    19, 1980, 1115Z</date></dateline>
                         </opener>
                         <p>46. Subject: President <persName corresp="#p_CJE_1">Carter</persName>’s
                             Message to <persName corresp="#p_QM_1">Qadhafi</persName>. Ref: State
@@ -16905,8 +16938,8 @@
 
                     <pb n="303" facs="0324" xml:id="pg_303"/>
                     <div type="document" n="128" xml:id="d128" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-05-03T21:59:00-05:00"
-                        frus:doc-dateTime-max="1980-05-03T21:59:00-05:00">
+                        frus:doc-dateTime-min="1980-05-03T16:59:00-05:00"
+                        frus:doc-dateTime-max="1980-05-03T16:59:00-05:00">
                         <head>128. Telegram From the Department of State to the Embassy in the
                             United Kingdom<note n="1" xml:id="d128fn1" type="source">Source:
                                 National Archives, RG 59, Central Foreign Policy File, D800221–0253.
@@ -16918,8 +16951,9 @@
                             >Draper</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-05-03T21:59:00"
-                                    calendar="gregorian">May 3, 1980, 2159Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1980-05-03T21:59:00+00:00" calendar="gregorian">May 3,
+                                    1980, 2159Z</date></dateline>
                         </opener>
                         <p>117964. Subject: Expulsion of Libyan Diplomats.</p>
                         <p>1. The following note was presented to the Libyan People’s Bureau on May
@@ -18697,8 +18731,8 @@
 
                     <pb n="337" facs="0358" xml:id="pg_337"/>
                     <div type="document" n="139" xml:id="d139" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-09-24T23:04:00-05:00"
-                        frus:doc-dateTime-max="1980-09-24T23:04:00-05:00">
+                        frus:doc-dateTime-min="1980-09-24T18:04:00-05:00"
+                        frus:doc-dateTime-max="1980-09-24T18:04:00-05:00">
                         <head>139. Telegram From the Department of State to the Embassy in
                                 Greece<note n="1" xml:id="d139fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800457–0182. Secret;
@@ -18709,8 +18743,9 @@
                                 Ewing.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-09-24T23:04:00"
-                                    calendar="gregorian">September 24, 1980, 2304Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1980-09-24T23:04:00+00:00" calendar="gregorian">September
+                                    24, 1980, 2304Z</date></dateline>
                         </opener>
                         <p>255507. Subject: (S) Libyan Interception of RC–135. Refs: A) State 249006
                             B) State 249249.<note n="2" xml:id="d139fn2">Telegram 249006 to Athens,
@@ -18859,8 +18894,8 @@
 
                     <pb n="340" facs="0361" xml:id="pg_340"/>
                     <div type="document" n="141" xml:id="d141" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-10-21T21:07:00-05:00"
-                        frus:doc-dateTime-max="1980-10-21T21:07:00-05:00">
+                        frus:doc-dateTime-min="1980-10-21T16:07:00-05:00"
+                        frus:doc-dateTime-max="1980-10-21T16:07:00-05:00">
                         <head>141. Telegram From the Department of State to the Embassies in the
                             United Kingdom, France, Italy, the Federal Republic of Germany, and
                                 Greece<note n="1" xml:id="d141fn1" type="source">Source: National
@@ -18871,8 +18906,9 @@
                                 >INR</gloss>; approved by Constable.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-10-21T21:07:00"
-                                    calendar="gregorian">October 21, 1980, 2107Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1980-10-21T21:07:00+00:00" calendar="gregorian">October
+                                    21, 1980, 2107Z</date></dateline>
                         </opener>
                         <p>281548. Subject: Possible Renewal of Libyan Assassination
                             Campaign—Update. Ref: State 277512.<note n="2" xml:id="d141fn2">See <ref
@@ -18989,8 +19025,8 @@
 
                     <pb n="343" facs="0364" xml:id="pg_343"/>
                     <div type="document" n="143" xml:id="d143" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-12-09T20:41:00-05:00"
-                        frus:doc-dateTime-max="1980-12-09T20:41:00-05:00">
+                        frus:doc-dateTime-min="1980-12-09T15:41:00-05:00"
+                        frus:doc-dateTime-max="1980-12-09T15:41:00-05:00">
                         <head>143. Telegram From the Department of State to Multiple Diplomatic
                                 Posts<note n="1" xml:id="d143fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800587–0654. Limited
@@ -19001,8 +19037,9 @@
                                     <persName corresp="#p_DM_1">Draper</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-12-09T20:41:00"
-                                    calendar="gregorian">December 9, 1980, 2041Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1980-12-09T20:41:00+00:00" calendar="gregorian">December
+                                    9, 1980, 2041Z</date></dateline>
                         </opener>
                         <p>326043. Subject: Libyan Protest Over U.S. Military Maneuvers in
                             Egypt.</p>
@@ -19133,8 +19170,8 @@
 
                     <pb n="346" facs="0367" xml:id="pg_346"/>
                     <div type="document" n="144" xml:id="d144" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-12-12T08:23:00-05:00"
-                        frus:doc-dateTime-max="1980-12-12T08:23:00-05:00">
+                        frus:doc-dateTime-min="1980-12-12T03:23:00-05:00"
+                        frus:doc-dateTime-max="1980-12-12T03:23:00-05:00">
                         <head>144. Telegram From the Department of State to the Embassy in the
                             United Kingdom<note n="1" xml:id="d144fn1" type="source">Source:
                                 National Archives, RG 59, Central Foreign Policy File, D800595–0269.
@@ -19146,8 +19183,9 @@
                                     corresp="#p_NDD_1">Newsom</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-12-12T08:23:00"
-                                    calendar="gregorian">December 12, 1980, 0823Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1980-12-12T08:23:00+00:00" calendar="gregorian">December
+                                    12, 1980, 0823Z</date></dateline>
                         </opener>
                         <p>328854. Subject: Libyan Assassination Campaign. Ref: A) London
                                 25609,<note n="2" xml:id="d144fn2">Telegram 25609 from London,
@@ -19400,8 +19438,8 @@
 
                     <pb n="352" facs="0373" xml:id="pg_352"/>
                     <div type="document" n="147" xml:id="d147" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-02-12T23:32:00-05:00"
-                        frus:doc-dateTime-max="1977-02-12T23:32:00-05:00">
+                        frus:doc-dateTime-min="1977-02-12T18:32:00-05:00"
+                        frus:doc-dateTime-max="1977-02-12T18:32:00-05:00">
                         <head>147. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d147fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -19416,8 +19454,9 @@
                             D770051–0454)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-02-12T23:32:00"
-                                    calendar="gregorian">February 12, 1977, 2332Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-02-12T23:32:00+00:00" calendar="gregorian">February
+                                    12, 1977, 2332Z</date></dateline>
                         </opener>
                         <p>32727. For Ambassador. Subject: <gloss target="#t_US_1">US</gloss>
                             Military Facilities in Morocco. Ref: A. State 7401 (Notal) B. Rabat 776
@@ -19475,8 +19514,8 @@
                     </div>
 
                     <div type="document" n="148" xml:id="d148" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-02-14T19:35:00-05:00"
-                        frus:doc-dateTime-max="1977-02-14T19:35:00-05:00">
+                        frus:doc-dateTime-min="1977-02-14T14:35:00-05:00"
+                        frus:doc-dateTime-max="1977-02-14T14:35:00-05:00">
                         <head>148. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d148fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -19485,7 +19524,7 @@
                                 received in the White House Situation Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1977-02-14T19:35:00"
+                                <placeName>Rabat</placeName>, <date when="1977-02-14T19:35:00+00:00"
                                     calendar="gregorian">February 14, 1977, 1935Z</date></dateline>
                         </opener>
                         <p>835. For Secretary’s party. Subject: U.S. Military Facilities in Morocco.
@@ -19560,8 +19599,8 @@
 
                     <pb n="355" facs="0376" xml:id="pg_355"/>
                     <div type="document" n="149" xml:id="d149" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-03-08T23:57:00-05:00"
-                        frus:doc-dateTime-max="1977-03-08T23:57:00-05:00">
+                        frus:doc-dateTime-min="1977-03-08T18:57:00-05:00"
+                        frus:doc-dateTime-max="1977-03-08T18:57:00-05:00">
                         <head>149. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d149fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -19575,8 +19614,9 @@
                                 59, Central Foreign Policy File, D770080–0282)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-03-08T23:57:00"
-                                    calendar="gregorian">March 8, 1977, 2357Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-03-08T23:57:00+00:00" calendar="gregorian">March 8,
+                                    1977, 2357Z</date></dateline>
                         </opener>
                         <p>51623. For Ambassador. Subject: <gloss target="#t_US_1">US</gloss>
                             Military Facilities in Morocco. Ref: A. State 32727; B. Rabat 835.<note
@@ -19792,8 +19832,8 @@
 
                     <pb n="360" facs="0381" xml:id="pg_360"/>
                     <div type="document" n="150" xml:id="d150" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-04-17T22:05:00-05:00"
-                        frus:doc-dateTime-max="1977-04-17T22:05:00-05:00">
+                        frus:doc-dateTime-min="1977-04-17T17:05:00-05:00"
+                        frus:doc-dateTime-max="1977-04-17T17:05:00-05:00">
                         <head>150. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d150fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -19810,8 +19850,9 @@
                                 59, Central Foreign Policy File, D770133–0674)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-04-17T22:05:00"
-                                    calendar="gregorian">April 17, 1977, 2205Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-04-17T22:05:00+00:00" calendar="gregorian">April 17,
+                                    1977, 2205Z</date></dateline>
                         </opener>
                         <p>86333. Subject: Conversation Between Secretary <persName
                                 corresp="#p_VCR_1">Vance</persName> and Moroccan Ambassador.</p>
@@ -20176,8 +20217,8 @@
                     </div>
 
                     <div type="document" n="152" xml:id="d152" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-12-23T02:28:00-05:00"
-                        frus:doc-dateTime-max="1977-12-23T02:28:00-05:00">
+                        frus:doc-dateTime-min="1977-12-22T21:28:00-05:00"
+                        frus:doc-dateTime-max="1977-12-22T21:28:00-05:00">
                         <head>152. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d152fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -20192,8 +20233,9 @@
                                 Policy File, D770478–1129)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-12-23T02:28:00"
-                                    calendar="gregorian">December 23, 1977, 0228Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-12-23T02:28:00+00:00" calendar="gregorian">December
+                                    23, 1977, 0228Z</date></dateline>
                         </opener>
                         <p>306028. Subject: Secretary’s Meeting With Moroccan Ambassador.</p>
                         <p>1. <persName corresp="#p_BA_1">Bengelloun</persName>’s principal interest
@@ -20284,8 +20326,8 @@
 
                     <pb n="369" facs="0390" xml:id="pg_369"/>
                     <div type="document" n="153" xml:id="d153" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-03-07T00:39:00-05:00"
-                        frus:doc-dateTime-max="1978-03-07T00:39:00-05:00">
+                        frus:doc-dateTime-min="1978-03-06T19:39:00-05:00"
+                        frus:doc-dateTime-max="1978-03-06T19:39:00-05:00">
                         <head>153. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d153fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780101–0722. Secret;
@@ -20299,8 +20341,9 @@
                                 >Vance</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-07T00:39:00"
-                                    calendar="gregorian">March 7, 1978, 0039Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-03-07T00:39:00+00:00" calendar="gregorian">March 7,
+                                    1978, 0039Z</date></dateline>
                         </opener>
                         <p>57412. Subject: Moroccan Arms Request.</p>
                         <p>1. As you know, we have had a series of informal consultations with
@@ -20432,8 +20475,8 @@
 
                     <pb n="372" facs="0393" xml:id="pg_372"/>
                     <div type="document" n="154" xml:id="d154" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-03-08T20:05:00-05:00"
-                        frus:doc-dateTime-max="1978-03-08T20:05:00-05:00">
+                        frus:doc-dateTime-min="1978-03-08T15:05:00-05:00"
+                        frus:doc-dateTime-max="1978-03-08T15:05:00-05:00">
                         <head>154. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d154fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780105–0098. Secret;
@@ -20442,7 +20485,7 @@
                                 Paris.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1978-03-08T20:05:00"
+                                <placeName>Rabat</placeName>, <date when="1978-03-08T20:05:00+00:00"
                                     calendar="gregorian">March 8, 1978, 2005Z</date></dateline>
                         </opener>
                         <p>1410. Subject: Moroccan Arms Request. Ref: (A) State 057412, (B) State
@@ -20660,8 +20703,8 @@
 
                     <pb n="376" facs="0397" xml:id="pg_376"/>
                     <div type="document" n="156" xml:id="d156" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-03-18T04:07:00-05:00"
-                        frus:doc-dateTime-max="1978-03-18T04:07:00-05:00">
+                        frus:doc-dateTime-min="1978-03-17T23:07:00-05:00"
+                        frus:doc-dateTime-max="1978-03-17T23:07:00-05:00">
                         <head>156. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d156fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780121–0575. Secret.
@@ -20670,8 +20713,9 @@
                                     >Veliotes</persName>; cleared in the White House.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-18T04:07:00"
-                                    calendar="gregorian">March 18, 1978, 0407Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-03-18T04:07:00+00:00" calendar="gregorian">March 18,
+                                    1978, 0407Z</date></dateline>
                         </opener>
                         <p>70308. Subject: Meeting With Moroccan Minister <persName
                                 corresp="#p_BM_1">Boucetta</persName>.</p>
@@ -20784,8 +20828,8 @@
 
                     <pb n="378" facs="0399" xml:id="pg_378"/>
                     <div type="document" n="157" xml:id="d157" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-04-01T08:00:00-05:00"
-                        frus:doc-dateTime-max="1978-04-01T08:00:00-05:00">
+                        frus:doc-dateTime-min="1978-04-01T03:00:00-05:00"
+                        frus:doc-dateTime-max="1978-04-01T03:00:00-05:00">
                         <head>157. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d157fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -20794,7 +20838,7 @@
                                 received in the White House Situation Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1978-04-01T08:00:00"
+                                <placeName>Rabat</placeName>, <date when="1978-04-01T08:00:00+00:00"
                                     calendar="gregorian">April 1, 1978, 0800Z</date></dateline>
                         </opener>
                         <p>1955. Subject: King <persName corresp="#p_HII_1">Hassan</persName>’s
@@ -20840,8 +20884,8 @@
 
                     <pb n="379" facs="0400" xml:id="pg_379"/>
                     <div type="document" n="158" xml:id="d158" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-04-17T17:31:00-05:00"
-                        frus:doc-dateTime-max="1978-04-17T17:31:00-05:00">
+                        frus:doc-dateTime-min="1978-04-17T12:31:00-05:00"
+                        frus:doc-dateTime-max="1978-04-17T12:31:00-05:00">
                         <head>158. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d158fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -20850,7 +20894,7 @@
                                 received in the White House Situation Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1978-04-17T17:31:00"
+                                <placeName>Rabat</placeName>, <date when="1978-04-17T17:31:00+00:00"
                                     calendar="gregorian">April 17, 1978, 1731Z</date></dateline>
                         </opener>
                         <p>2248. Subject: Moroccan Use of American Arms: April 14 Discussion With
@@ -21374,8 +21418,8 @@
                     </div>
 
                     <div type="document" n="162" xml:id="d162" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-11-18T17:37:00-05:00"
-                        frus:doc-dateTime-max="1978-11-18T17:37:00-05:00">
+                        frus:doc-dateTime-min="1978-11-18T12:37:00-05:00"
+                        frus:doc-dateTime-max="1978-11-18T12:37:00-05:00">
                         <head>162. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d162fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -21387,8 +21431,9 @@
                                 Moscow.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-11-18T17:37:00"
-                                    calendar="gregorian">November 18, 1978, 1737Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-11-18T17:37:00+00:00" calendar="gregorian">November
+                                    18, 1978, 1737Z</date></dateline>
                         </opener>
                         <p>293669. Subject: King’s Visit: Military Supply Discussions.</p>
                         <p>Summary. During his visit, King <persName corresp="#p_HII_1"
@@ -21525,8 +21570,8 @@
                     </div>
 
                     <div type="document" n="163" xml:id="d163" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-11-18T17:39:00-05:00"
-                        frus:doc-dateTime-max="1978-11-18T17:39:00-05:00">
+                        frus:doc-dateTime-min="1978-11-18T12:39:00-05:00"
+                        frus:doc-dateTime-max="1978-11-18T12:39:00-05:00">
                         <head>163. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d163fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780476–0283. Secret;
@@ -21537,8 +21582,9 @@
                                     <persName corresp="#p_SHH_1">Saunders</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-11-18T17:39:00"
-                                    calendar="gregorian">November 18, 1978, 1739Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-11-18T17:39:00+00:00" calendar="gregorian">November
+                                    18, 1978, 1739Z</date></dateline>
                         </opener>
                         <p>293672. Subject: Royal Visit: Secretary’s Conversation With <persName
                                 corresp="#p_HII_1">Hassan</persName>.</p>
@@ -21731,8 +21777,8 @@
                     </div>
 
                     <div type="document" n="164" xml:id="d164" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-11-18T20:46:00-05:00"
-                        frus:doc-dateTime-max="1978-11-18T20:46:00-05:00">
+                        frus:doc-dateTime-min="1978-11-18T15:46:00-05:00"
+                        frus:doc-dateTime-max="1978-11-18T15:46:00-05:00">
                         <head>164. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d164fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -21747,8 +21793,9 @@
                                 Central Foreign Policy File, D780476–0536)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-11-18T20:46:00"
-                                    calendar="gregorian">November 18, 1978, 2046Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-11-18T20:46:00+00:00" calendar="gregorian">November
+                                    18, 1978, 2046Z</date></dateline>
                         </opener>
                         <p>293692. Subject: King’s Visit—Meeting With Secretary <persName
                                 corresp="#p_BH_3">Brown</persName>.</p>
@@ -21893,8 +21940,8 @@
                     </div>
 
                     <div type="document" n="165" xml:id="d165" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-12-03T22:18:00-05:00"
-                        frus:doc-dateTime-max="1978-12-03T22:18:00-05:00">
+                        frus:doc-dateTime-min="1978-12-03T17:18:00-05:00"
+                        frus:doc-dateTime-max="1978-12-03T17:18:00-05:00">
                         <head>165. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d165fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780499–1124. Secret;
@@ -21906,8 +21953,9 @@
                             >Saunders</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-12-03T22:18:00"
-                                    calendar="gregorian">December 3, 1978, 2218Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-12-03T22:18:00+00:00" calendar="gregorian">December
+                                    3, 1978, 2218Z</date></dateline>
                         </opener>
                         <p>306394. Subject: Military Supply to Morocco: Search for Assurances. Ref:
                             State 293669.<note n="2" xml:id="d165fn2">See <ref target="#d162"
@@ -22103,8 +22151,8 @@
                     </div>
 
                     <div type="document" n="166" xml:id="d166" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-12-22T19:12:00-05:00"
-                        frus:doc-dateTime-max="1978-12-22T19:12:00-05:00">
+                        frus:doc-dateTime-min="1978-12-22T14:12:00-05:00"
+                        frus:doc-dateTime-max="1978-12-22T14:12:00-05:00">
                         <head>166. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d166fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -22119,8 +22167,9 @@
                             D780530–0206)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-12-22T19:12:00"
-                                    calendar="gregorian">December 22, 1978, 1912Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-12-22T19:12:00+00:00" calendar="gregorian">December
+                                    22, 1978, 1912Z</date></dateline>
                         </opener>
                         <p>322156. Subject: Military Supply—Search for Assurances. Ref: State 306394
                                 (Notal).<note n="2" xml:id="d166fn2">See <ref target="#d165"
@@ -22278,8 +22327,8 @@
                     </div>
 
                     <div type="document" n="167" xml:id="d167" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-01-29T19:04:00-05:00"
-                        frus:doc-dateTime-max="1979-01-29T19:04:00-05:00">
+                        frus:doc-dateTime-min="1979-01-29T14:04:00-05:00"
+                        frus:doc-dateTime-max="1979-01-29T14:04:00-05:00">
                         <head>167. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d167fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, P840125–1267. Secret;
@@ -22287,7 +22336,7 @@
                                     target="#t_Nodis_1">Nodis</gloss>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1979-01-29T19:04:00"
+                                <placeName>Rabat</placeName>, <date when="1979-01-29T19:04:00+00:00"
                                     calendar="gregorian">January 29, 1979, 1904Z</date></dateline>
                         </opener>
                         <p>652. Subj: (S) Italian Helicopters for Morocco.</p>
@@ -22487,8 +22536,8 @@
                     </div>
 
                     <div type="document" n="168" xml:id="d168" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-03-15T04:18:00-05:00"
-                        frus:doc-dateTime-max="1979-03-15T04:18:00-05:00">
+                        frus:doc-dateTime-min="1979-03-14T23:18:00-05:00"
+                        frus:doc-dateTime-max="1979-03-14T23:18:00-05:00">
                         <head>168. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d168fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790119–0224. Secret;
@@ -22500,8 +22549,9 @@
                                     >Newsom</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-03-15T04:18:00"
-                                    calendar="gregorian">March 15, 1979, 0418Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1979-03-15T04:18:00+00:00" calendar="gregorian">March 15,
+                                    1979, 0418Z</date></dateline>
                         </opener>
                         <p>63459. Subject: Under Secretary <persName corresp="#p_NDD_1"
                                 >Newsom</persName>’s Meeting With Moroccan Ambassador <persName
@@ -22696,8 +22746,8 @@
                     </div>
 
                     <div type="document" n="170" xml:id="d170" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-04-03T18:16:00-05:00"
-                        frus:doc-dateTime-max="1979-04-03T18:16:00-05:00">
+                        frus:doc-dateTime-min="1979-04-03T13:16:00-05:00"
+                        frus:doc-dateTime-max="1979-04-03T13:16:00-05:00">
                         <head>170. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d170fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Brzezinski Material, Brzezinski
@@ -22707,7 +22757,7 @@
                             Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1979-04-03T18:16:00"
+                                <placeName>Rabat</placeName>, <date when="1979-04-03T18:16:00+00:00"
                                     calendar="gregorian">April 3, 1979, 1816Z</date></dateline>
                         </opener>
                         <p>2215. Dept pass White House for the President from Secretary <persName
@@ -23904,8 +23954,8 @@
                     </div>
 
                     <div type="document" n="183" xml:id="d183" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-01-28T21:19:00-05:00"
-                        frus:doc-dateTime-max="1980-01-28T21:19:00-05:00">
+                        frus:doc-dateTime-min="1980-01-28T16:19:00-05:00"
+                        frus:doc-dateTime-max="1980-01-28T16:19:00-05:00">
                         <head>183. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d183fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Brzezinski Material, Country
@@ -23916,8 +23966,9 @@
                                     corresp="#p_SHH_1">Saunders</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-01-28T21:19:00"
-                                    calendar="gregorian">January 28, 1980, 2119Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1980-01-28T21:19:00+00:00" calendar="gregorian">January
+                                    28, 1980, 2119Z</date></dateline>
                         </opener>
                         <p>24299. Eyes Only for Ambassador <persName corresp="#p_DAB_1"
                                 >Duke</persName> from <persName corresp="#p_SHH_1">HH
@@ -23955,8 +24006,8 @@
                     </div>
 
                     <div type="document" n="184" xml:id="d184" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-01-31T17:35:00-05:00"
-                        frus:doc-dateTime-max="1980-01-31T17:35:00-05:00">
+                        frus:doc-dateTime-min="1980-01-31T12:35:00-05:00"
+                        frus:doc-dateTime-max="1980-01-31T12:35:00-05:00">
                         <head>184. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d184fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800076–0164. Secret;
@@ -23964,7 +24015,7 @@
                                 to Cairo and Tunis.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1980-01-31T17:35:00"
+                                <placeName>Rabat</placeName>, <date when="1980-01-31T17:35:00+00:00"
                                     calendar="gregorian">January 31, 1980, 1735Z</date></dateline>
                         </opener>
                         <p>716. Subj: (C) Long-Term Planning for <gloss target="#t_US_1">US</gloss>
@@ -24310,8 +24361,8 @@
                     frus:doc-dateTime-max="1980-02-29T13:30:00-05:00">
                     <head>Tunisia</head>
                     <div type="document" n="187" xml:id="d187" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-02-12T00:19:00-05:00"
-                        frus:doc-dateTime-max="1977-02-12T00:19:00-05:00">
+                        frus:doc-dateTime-min="1977-02-11T19:19:00-05:00"
+                        frus:doc-dateTime-max="1977-02-11T19:19:00-05:00">
                         <head>187. Telegram From the Department of State to the Embassy in
                                 Tunisia<note n="1" xml:id="d187fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D770050–0377.
@@ -24321,8 +24372,9 @@
                                     >Habib</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-02-12T00:19:00"
-                                    calendar="gregorian">February 12, 1977, 0019Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-02-12T00:19:00+00:00" calendar="gregorian">February
+                                    12, 1977, 0019Z</date></dateline>
                         </opener>
                         <p>32245. Subject: <persName corresp="#p_HPC_1">Habib</persName>-<persName
                                 corresp="#p_HA_1">Hedda</persName> Meeting of February 11, 1977.</p>
@@ -24397,8 +24449,8 @@
                     </div>
 
                     <div type="document" n="188" xml:id="d188" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-04-15T18:18:00-05:00"
-                        frus:doc-dateTime-max="1977-04-15T18:18:00-05:00">
+                        frus:doc-dateTime-min="1977-04-15T13:18:00-05:00"
+                        frus:doc-dateTime-max="1977-04-15T13:18:00-05:00">
                         <head>188. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d188fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -24409,7 +24461,7 @@
                                 Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1977-04-15T18:18:00"
+                                <placeName>Rabat</placeName>, <date when="1977-04-15T18:18:00+00:00"
                                     calendar="gregorian">April 15, 1977, 1818Z</date></dateline>
                         </opener>
                         <p>2076. Subject: Visit by Under Secretary <persName corresp="#p_HPC_1"
@@ -24690,8 +24742,8 @@
                     </div>
 
                     <div type="document" n="189" xml:id="d189" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-06-29T07:00:00-05:00"
-                        frus:doc-dateTime-max="1977-06-29T07:00:00-05:00">
+                        frus:doc-dateTime-min="1977-06-29T02:00:00-05:00"
+                        frus:doc-dateTime-max="1977-06-29T02:00:00-05:00">
                         <head>189. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d189fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -24699,7 +24751,7 @@
                                 Priority.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tunis</placeName>, <date when="1977-06-29T07:00:00"
+                                <placeName>Tunis</placeName>, <date when="1977-06-29T07:00:00+00:00"
                                     calendar="gregorian">June 29, 1977, 0700Z</date></dateline>
                         </opener>
                         <p>4546. <gloss target="#t_NEA_1">NEA</gloss> for <persName
@@ -24991,8 +25043,8 @@
                     </div>
 
                     <div type="document" n="193" xml:id="d193" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-09-21T23:37:00-05:00"
-                        frus:doc-dateTime-max="1977-09-21T23:37:00-05:00">
+                        frus:doc-dateTime-min="1977-09-21T18:37:00-05:00"
+                        frus:doc-dateTime-max="1977-09-21T18:37:00-05:00">
                         <head>193. Telegram From the Department of State to the Embassy in
                                 Tunisia<note n="1" xml:id="d193fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D770344–0096.
@@ -25004,8 +25056,9 @@
                             >Habib</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-09-21T23:37:00"
-                                    calendar="gregorian">September 21, 1977, 2337Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-09-21T23:37:00+00:00" calendar="gregorian">September
+                                    21, 1977, 2337Z</date></dateline>
                         </opener>
                         <p>227725. Subject: Under Secretary <persName corresp="#p_HPC_1"
                                 >Habib</persName>’s Meeting With Tunisian Ambassador <persName
@@ -25259,8 +25312,8 @@
                     </div>
 
                     <div type="document" n="195" xml:id="d195" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-01-09T16:25:00-05:00"
-                        frus:doc-dateTime-max="1978-01-09T16:25:00-05:00">
+                        frus:doc-dateTime-min="1978-01-09T11:25:00-05:00"
+                        frus:doc-dateTime-max="1978-01-09T11:25:00-05:00">
                         <head>195. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d195fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780013–0286.
@@ -25270,7 +25323,7 @@
                             >COMSIXTHFLT</gloss>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tunis</placeName>, <date when="1978-01-09T16:25:00"
+                                <placeName>Tunis</placeName>, <date when="1978-01-09T16:25:00+00:00"
                                     calendar="gregorian">January 9, 1978, 1625Z</date></dateline>
                         </opener>
                         <p>159. USCINCEUR and <gloss target="#t_CINCUSNAVEUR_1">CINCUSNAVEUR</gloss>
@@ -26089,8 +26142,8 @@
                     </div>
 
                     <div type="document" n="199" xml:id="d199" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-03-24T00:00:00-05:00"
-                        frus:doc-dateTime-max="1979-03-24T00:00:00-05:00">
+                        frus:doc-dateTime-min="1979-03-23T19:00:00-05:00"
+                        frus:doc-dateTime-max="1979-03-23T19:00:00-05:00">
                         <head>199. Telegram From the Department of State to the Embassy in
                                 Tunisia<note n="1" xml:id="d199fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790135–0993.
@@ -26101,8 +26154,9 @@
                                     >Newsom</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-03-24T00:00:00"
-                                    calendar="gregorian">March 24, 1979, 0000Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1979-03-24T00:00:00+00:00" calendar="gregorian">March 24,
+                                    1979, 0000Z</date></dateline>
                         </opener>
                         <p>73047. Subject: Ambassador <persName corresp="#p_HA_1">Hedda</persName>’s
                             Call on Under Secretary <persName corresp="#p_NDD_1">Newsom</persName>
@@ -26227,8 +26281,8 @@
                     </div>
 
                     <div type="document" n="201" xml:id="d201" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-04-05T16:20:00-05:00"
-                        frus:doc-dateTime-max="1979-04-05T16:20:00-05:00">
+                        frus:doc-dateTime-min="1979-04-05T11:20:00-05:00"
+                        frus:doc-dateTime-max="1979-04-05T11:20:00-05:00">
                         <head>201. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d201fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790157–0277. Limited
@@ -26238,7 +26292,7 @@
                                 and Tripoli.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tunis</placeName>, <date when="1979-04-05T16:20:00"
+                                <placeName>Tunis</placeName>, <date when="1979-04-05T16:20:00+00:00"
                                     calendar="gregorian">April 5, 1979, 1620Z</date></dateline>
                         </opener>
                         <p>2842. Dept pass <gloss target="#t_OPIC_1">OPIC</gloss>
@@ -26471,8 +26525,8 @@
                     </div>
 
                     <div type="document" n="202" xml:id="d202" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-05-04T22:57:00-05:00"
-                        frus:doc-dateTime-max="1979-05-04T22:57:00-05:00">
+                        frus:doc-dateTime-min="1979-05-04T17:57:00-05:00"
+                        frus:doc-dateTime-max="1979-05-04T17:57:00-05:00">
                         <head>202. Telegram From the Department of State to the Embassy in
                                 Tunisia<note n="1" xml:id="d202fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -26481,8 +26535,9 @@
                                 Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-05-04T22:57:00"
-                                    calendar="gregorian">May 4, 1979, 2257Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1979-05-04T22:57:00+00:00" calendar="gregorian">May 4,
+                                    1979, 2257Z</date></dateline>
                         </opener>
                         <p>113911. Subject: Letter to Tunisian Prime Minister <persName
                                 corresp="#p_NH_1">Nouira</persName>.</p>
@@ -26574,8 +26629,8 @@
                     </div>
 
                     <div type="document" n="203" xml:id="d203" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-06-19T16:35:00-05:00"
-                        frus:doc-dateTime-max="1979-06-19T16:35:00-05:00">
+                        frus:doc-dateTime-min="1979-06-19T11:35:00-05:00"
+                        frus:doc-dateTime-max="1979-06-19T11:35:00-05:00">
                         <head>203. Telegram From the Embassy in Italy to the Department of
                                 State<note n="1" xml:id="d203fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790279–0109.
@@ -26583,7 +26638,7 @@
                                 Sent for information Priority to Tunis.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rome</placeName>, <date when="1979-06-19T16:35:00"
+                                <placeName>Rome</placeName>, <date when="1979-06-19T16:35:00+00:00"
                                     calendar="gregorian">June 19, 1979, 1635Z</date></dateline>
                         </opener>
                         <p>16228. Subject: Under Secretary <persName corresp="#p_NDD_1"
@@ -26802,8 +26857,8 @@
 
                     <pb n="494" facs="0515" xml:id="pg_494"/>
                     <div type="document" n="204" xml:id="d204" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-01-28T20:40:00-05:00"
-                        frus:doc-dateTime-max="1980-01-28T20:40:00-05:00">
+                        frus:doc-dateTime-min="1980-01-28T15:40:00-05:00"
+                        frus:doc-dateTime-max="1980-01-28T15:40:00-05:00">
                         <head>204. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d204fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800049–0817. Secret;
@@ -26822,7 +26877,7 @@
                             States.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tunis</placeName>, <date when="1980-01-28T20:40:00"
+                                <placeName>Tunis</placeName>, <date when="1980-01-28T20:40:00+00:00"
                                     calendar="gregorian">January 28, 1980, 2040Z</date></dateline>
                         </opener>
                         <p>778. Subj: Commando Raid in Tunisia: <gloss target="#t_GOT_1">GOT</gloss>
@@ -27182,8 +27237,8 @@
                     </div>
 
                     <div type="document" n="209" xml:id="d209" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-02-27T13:15:00-05:00"
-                        frus:doc-dateTime-max="1980-02-27T13:15:00-05:00">
+                        frus:doc-dateTime-min="1980-02-27T08:15:00-05:00"
+                        frus:doc-dateTime-max="1980-02-27T08:15:00-05:00">
                         <head>209. Telegram From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d209fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Brzezinski Material, President’s
@@ -27193,7 +27248,7 @@
                                     >Nodis</gloss>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Tunis</placeName>, <date when="1980-02-27T13:15:00"
+                                <placeName>Tunis</placeName>, <date when="1980-02-27T13:15:00+00:00"
                                     calendar="gregorian">February 27, 1980, 1315Z</date></dateline>
                         </opener>
                         <p>1703. Subject: Presidential Message: <persName corresp="#p_BH_2"
@@ -27457,8 +27512,8 @@
                     frus:doc-dateTime-max="1980-08-04T23:59:59-05:00">
                     <head>Western Sahara</head>
                     <div type="document" n="211" xml:id="d211" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-05-20T16:05:00-05:00"
-                        frus:doc-dateTime-max="1977-05-20T16:05:00-05:00">
+                        frus:doc-dateTime-min="1977-05-20T11:05:00-05:00"
+                        frus:doc-dateTime-max="1977-05-20T11:05:00-05:00">
                         <head>211. Telegram From Secretary of State <persName corresp="#p_VCR_1"
                                 >Vance</persName> in Switzerland to the Embassy in Morocco<note
                                 n="1" xml:id="d211fn1" type="source">Source: Carter Library,
@@ -27473,8 +27528,9 @@
                                 East.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Geneva</placeName>, <date when="1977-05-20T16:05:00"
-                                    calendar="gregorian">May 20, 1977, 1605Z</date></dateline>
+                                <placeName>Geneva</placeName>, <date
+                                    when="1977-05-20T16:05:00+00:00" calendar="gregorian">May 20,
+                                    1977, 1605Z</date></dateline>
                         </opener>
                         <p>Secto 4127. Subj: Secretary’s Meeting With <persName corresp="#p_WK_1"
                                 >Waldheim</persName>: Sahara Problem.</p>
@@ -27553,8 +27609,8 @@
 
                     <pb n="509" facs="0530" xml:id="pg_509"/>
                     <div type="document" n="212" xml:id="d212" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-06-17T22:50:00-05:00"
-                        frus:doc-dateTime-max="1977-06-17T22:50:00-05:00">
+                        frus:doc-dateTime-min="1977-06-17T17:50:00-05:00"
+                        frus:doc-dateTime-max="1977-06-17T17:50:00-05:00">
                         <head>212. Telegram From the Department of State to the Embassy in Morocco
                             and the Mission to the United Nations<note n="1" xml:id="d212fn1"
                                 type="source">Source: National Archives, RG 59, Central Foreign
@@ -27565,8 +27621,9 @@
                                     corresp="#p_VCR_1">Vance</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-06-17T22:50:00"
-                                    calendar="gregorian">June 17, 1977, 2250Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-06-17T22:50:00+00:00" calendar="gregorian">June 17,
+                                    1977, 2250Z</date></dateline>
                         </opener>
                         <p>141679. Subject: Reply to <persName corresp="#p_WK_1">Waldheim</persName>
                             Regarding Sahara Problem. Refs: A) Secto 4127,<note n="2"
@@ -27826,8 +27883,8 @@
 
                     <pb n="514" facs="0535" xml:id="pg_514"/>
                     <div type="document" n="214" xml:id="d214" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-10-29T12:15:00-05:00"
-                        frus:doc-dateTime-max="1977-10-29T12:15:00-05:00">
+                        frus:doc-dateTime-min="1977-10-29T07:15:00-05:00"
+                        frus:doc-dateTime-max="1977-10-29T07:15:00-05:00">
                         <head>214. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d214fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D770398–0780. Secret;
@@ -27836,7 +27893,7 @@
                                     target="#t_USUN_1">USUN</gloss>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1977-10-29T12:15:00"
+                                <placeName>Rabat</placeName>, <date when="1977-10-29T12:15:00+00:00"
                                     calendar="gregorian">October 29, 1977, 1215Z</date></dateline>
                         </opener>
                         <p>5951. For the Secretary. Subject: King <persName corresp="#p_HII_1"
@@ -27959,8 +28016,8 @@
                     </div>
 
                     <div type="document" n="215" xml:id="d215" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-11-03T11:44:00-05:00"
-                        frus:doc-dateTime-max="1977-11-03T11:44:00-05:00">
+                        frus:doc-dateTime-min="1977-11-03T06:44:00-05:00"
+                        frus:doc-dateTime-max="1977-11-03T06:44:00-05:00">
                         <head>215. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d215fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -27972,7 +28029,7 @@
                             Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1977-11-03T11:44:00"
+                                <placeName>Rabat</placeName>, <date when="1977-11-03T11:44:00+00:00"
                                     calendar="gregorian">November 3, 1977, 1144Z</date></dateline>
                         </opener>
                         <p>6025. Subj: Foreign Minister <persName corresp="#p_BM_1"
@@ -28084,8 +28141,8 @@
 
                     <pb n="519" facs="0540" xml:id="pg_519"/>
                     <div type="document" n="216" xml:id="d216" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-11-08T21:44:00-05:00"
-                        frus:doc-dateTime-max="1977-11-08T21:44:00-05:00">
+                        frus:doc-dateTime-min="1977-11-08T16:44:00-05:00"
+                        frus:doc-dateTime-max="1977-11-08T16:44:00-05:00">
                         <head>216. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d216fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -28100,8 +28157,9 @@
                                 D770412–1042)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-11-08T21:44:00"
-                                    calendar="gregorian">November 8, 1977, 2144Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-11-08T21:44:00+00:00" calendar="gregorian">November
+                                    8, 1977, 2144Z</date></dateline>
                         </opener>
                         <p>267508. Subject: Secretary’s Meeting With Moroccan Foreign Minister
                                 <persName corresp="#p_BM_1">Boucetta</persName>—Western Sahara.</p>
@@ -28208,8 +28266,8 @@
                     </div>
 
                     <div type="document" n="217" xml:id="d217" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-11-11T03:46:00-05:00"
-                        frus:doc-dateTime-max="1977-11-11T03:46:00-05:00">
+                        frus:doc-dateTime-min="1977-11-10T22:46:00-05:00"
+                        frus:doc-dateTime-max="1977-11-10T22:46:00-05:00">
                         <head>217. Telegram From the Department of State to the Embassy in
                                 Algeria<note n="1" xml:id="d217fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -28221,8 +28279,9 @@
                                     <persName corresp="#p_VN_1">Veliotes</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1977-11-11T03:46:00"
-                                    calendar="gregorian">November 11, 1977, 0346Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1977-11-11T03:46:00+00:00" calendar="gregorian">November
+                                    11, 1977, 0346Z</date></dateline>
                         </opener>
                         <p>269859. Subject: Secretary’s Meeting With Algerian Foreign Minister
                                 <persName corresp="#p_BA_2">Bouteflika</persName>—Western
@@ -28468,8 +28527,8 @@
 
                     <pb n="526" facs="0547" xml:id="pg_526"/>
                     <div type="document" n="218" xml:id="d218" subtype="historical-document"
-                        frus:doc-dateTime-min="1977-11-23T16:30:00-05:00"
-                        frus:doc-dateTime-max="1977-11-23T16:30:00-05:00">
+                        frus:doc-dateTime-min="1977-11-23T11:30:00-05:00"
+                        frus:doc-dateTime-max="1977-11-23T11:30:00-05:00">
                         <head>218. Telegram From the Embassy in Algeria to the Department of
                                 State<note n="1" xml:id="d218fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -28480,8 +28539,9 @@
                                 White House Situation Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Algiers</placeName>, <date when="1977-11-23T16:30:00"
-                                    calendar="gregorian">November 23, 1977, 1630Z</date></dateline>
+                                <placeName>Algiers</placeName>, <date
+                                    when="1977-11-23T16:30:00+00:00" calendar="gregorian">November
+                                    23, 1977, 1630Z</date></dateline>
                         </opener>
                         <p>2959. UNCINCEUR for <gloss target="#t_POLAD_1">POLAD</gloss>. Subj: The
                             Sahara Two Years After the Green March.<note n="2" xml:id="d218fn2">See
@@ -29530,8 +29590,8 @@
 
                     <pb n="550" facs="0571" xml:id="pg_550"/>
                     <div type="document" n="223" xml:id="d223" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-03-15T14:58:00-05:00"
-                        frus:doc-dateTime-max="1978-03-15T14:58:00-05:00">
+                        frus:doc-dateTime-min="1978-03-15T09:58:00-05:00"
+                        frus:doc-dateTime-max="1978-03-15T09:58:00-05:00">
                         <head>223. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d223fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -29545,8 +29605,9 @@
                                 D780115–0496)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-15T14:58:00"
-                                    calendar="gregorian">March 15, 1978, 1458Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-03-15T14:58:00+00:00" calendar="gregorian">March 15,
+                                    1978, 1458Z</date></dateline>
                         </opener>
                         <p>66283. Subject: Secretary’s Meeting With Foreign Minister <persName
                                 corresp="#p_BM_1">Boucetta</persName>: Western Sahara.</p>
@@ -29724,8 +29785,8 @@
                     </div>
 
                     <div type="document" n="224" xml:id="d224" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-03-15T15:01:00-05:00"
-                        frus:doc-dateTime-max="1978-03-15T15:01:00-05:00">
+                        frus:doc-dateTime-min="1978-03-15T10:01:00-05:00"
+                        frus:doc-dateTime-max="1978-03-15T10:01:00-05:00">
                         <head>224. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d224fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -29739,8 +29800,9 @@
                                 D780115–0687)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-15T15:01:00"
-                                    calendar="gregorian">March 15, 1978, 1501Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-03-15T15:01:00+00:00" calendar="gregorian">March 15,
+                                    1978, 1501Z</date></dateline>
                         </opener>
                         <p>66285. Subject: Secretary’s March 12 Meeting With Moroccan Foreign
                             Minister: Sahara.</p>
@@ -29813,8 +29875,8 @@
 
                     <pb n="555" facs="0576" xml:id="pg_555"/>
                     <div type="document" n="225" xml:id="d225" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-03-21T17:43:00-05:00"
-                        frus:doc-dateTime-max="1978-03-21T17:43:00-05:00">
+                        frus:doc-dateTime-min="1978-03-21T12:43:00-05:00"
+                        frus:doc-dateTime-max="1978-03-21T12:43:00-05:00">
                         <head>225. Telegram From the Department of State to the Embassy in
                                 Algeria<note n="1" xml:id="d225fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780124–0746.
@@ -29825,8 +29887,9 @@
                                     corresp="#p_VN_1">Veliotes</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-03-21T17:43:00"
-                                    calendar="gregorian">March 21, 1978, 1743Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-03-21T17:43:00+00:00" calendar="gregorian">March 21,
+                                    1978, 1743Z</date></dateline>
                         </opener>
                         <p>72238. Subject: Moroccan Arms Request. Ref: State 57412.<note n="2"
                                 xml:id="d225fn2">See <ref target="#d153">Document
@@ -29864,8 +29927,8 @@
 
                     <pb n="556" facs="0577" xml:id="pg_556"/>
                     <div type="document" n="226" xml:id="d226" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-03-27T11:06:00-05:00"
-                        frus:doc-dateTime-max="1978-03-27T11:06:00-05:00">
+                        frus:doc-dateTime-min="1978-03-27T06:06:00-05:00"
+                        frus:doc-dateTime-max="1978-03-27T06:06:00-05:00">
                         <head>226. Telegram From the Embassy in Algeria to the Department of
                                 State<note n="1" xml:id="d226fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D780132–0964.
@@ -29873,8 +29936,9 @@
                                 Paris, Rabat, and USCINCEUR.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Algiers</placeName>, <date when="1978-03-27T11:06:00"
-                                    calendar="gregorian">March 27, 1978, 1106Z</date></dateline>
+                                <placeName>Algiers</placeName>, <date
+                                    when="1978-03-27T11:06:00+00:00" calendar="gregorian">March 27,
+                                    1978, 1106Z</date></dateline>
                         </opener>
                         <p>967. Dakar for <gloss target="#t_DATT_1">DATT</gloss>. <gloss
                                 target="#t_CINCEUR_1">CINCEUR</gloss> for <gloss target="#t_POLAD_1"
@@ -29944,8 +30008,8 @@
                     </div>
 
                     <div type="document" n="227" xml:id="d227" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-03-30T10:00:00-05:00"
-                        frus:doc-dateTime-max="1978-03-30T10:00:00-05:00">
+                        frus:doc-dateTime-min="1978-03-30T05:00:00-05:00"
+                        frus:doc-dateTime-max="1978-03-30T05:00:00-05:00">
                         <head>227. Telegram From the Embassy in Algeria to the Department of
                                 State<note n="1" xml:id="d227fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -29956,8 +30020,9 @@
                                 received in the White House Situation Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Algiers</placeName>, <date when="1978-03-30T10:00:00"
-                                    calendar="gregorian">March 30, 1978, 1000Z</date></dateline>
+                                <placeName>Algiers</placeName>, <date
+                                    when="1978-03-30T10:00:00+00:00" calendar="gregorian">March 30,
+                                    1978, 1000Z</date></dateline>
                         </opener>
                         <p>1023. Subj: <gloss target="#t_GOA_1">GOA</gloss> Follow-up to U.S.
                             Demarche on Western Sahara. Refs: A) State 072238, B) Algiers 0967
@@ -30365,8 +30430,8 @@
                     </div>
 
                     <div type="document" n="232" xml:id="d232" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-09-20T23:46:00-05:00"
-                        frus:doc-dateTime-max="1978-09-20T23:46:00-05:00">
+                        frus:doc-dateTime-min="1978-09-20T18:46:00-05:00"
+                        frus:doc-dateTime-max="1978-09-20T18:46:00-05:00">
                         <head>232. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d232fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -30382,8 +30447,9 @@
                                 Policy File, D780384–0711)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-09-20T23:46:00"
-                                    calendar="gregorian">September 20, 1978, 2346Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-09-20T23:46:00+00:00" calendar="gregorian">September
+                                    20, 1978, 2346Z</date></dateline>
                         </opener>
                         <p>239613. Subject: Moroccan Use of F–5 Aircraft.</p>
                         <p>1. Department believes that Moroccans and Algerians are again exploring
@@ -30427,8 +30493,8 @@
                     </div>
 
                     <div type="document" n="233" xml:id="d233" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-09-26T17:35:00-05:00"
-                        frus:doc-dateTime-max="1978-09-26T17:35:00-05:00">
+                        frus:doc-dateTime-min="1978-09-26T12:35:00-05:00"
+                        frus:doc-dateTime-max="1978-09-26T12:35:00-05:00">
                         <head>233. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d233fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -30437,7 +30503,7 @@
                                 received in the White House Situation Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1978-09-26T17:35:00"
+                                <placeName>Rabat</placeName>, <date when="1978-09-26T17:35:00+00:00"
                                     calendar="gregorian">September 26, 1978, 1735Z</date></dateline>
                         </opener>
                         <p>5946. Subj: Moroccan Use of <gloss target="#t_US_1">US</gloss> Equipment
@@ -30597,8 +30663,8 @@
                     </div>
 
                     <div type="document" n="234" xml:id="d234" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-10-11T15:02:00-05:00"
-                        frus:doc-dateTime-max="1978-10-11T15:02:00-05:00">
+                        frus:doc-dateTime-min="1978-10-11T10:02:00-05:00"
+                        frus:doc-dateTime-max="1978-10-11T10:02:00-05:00">
                         <head><pb n="570" facs="0591" xml:id="pg_570"/>234. Telegram From the
                             Department of State to the Embassy in Mauritania<note n="1"
                                 xml:id="d234fn1" type="source">Source: Carter Library, National
@@ -30614,8 +30680,9 @@
                                 Central Foreign Policy File, D780415–1246)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-10-11T15:02:00"
-                                    calendar="gregorian">October 11, 1978, 1502Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-10-11T15:02:00+00:00" calendar="gregorian">October
+                                    11, 1978, 1502Z</date></dateline>
                         </opener>
                         <p>257218. Subject: Mauritania UNGA Bilaterals.</p>
                         <p>1. Foreign Minister <persName corresp="#p_LCOM_1">Laghdaf</persName>,
@@ -30840,8 +30907,8 @@
 
                     <pb n="575" facs="0596" xml:id="pg_575"/>
                     <div type="document" n="236" xml:id="d236" subtype="historical-document"
-                        frus:doc-dateTime-min="1978-11-16T00:16:00-05:00"
-                        frus:doc-dateTime-max="1978-11-16T00:16:00-05:00">
+                        frus:doc-dateTime-min="1978-11-15T19:16:00-05:00"
+                        frus:doc-dateTime-max="1978-11-15T19:16:00-05:00">
                         <head>236. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d236fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Staff Material, Middle East,
@@ -30856,8 +30923,9 @@
                                 Policy File, D780473–0262)</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1978-11-16T00:16:00"
-                                    calendar="gregorian">November 16, 1978, 0016Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-11-16T00:16:00+00:00" calendar="gregorian">November
+                                    16, 1978, 0016Z</date></dateline>
                         </opener>
                         <p>291469. Subject: Secretary’s Meeting with King <persName
                                 corresp="#p_HII_1">Hassan</persName>: Western Sahara.</p>
@@ -30924,8 +30992,8 @@
                     </div>
 
                     <div type="document" n="237" xml:id="d237" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-01-04T08:10:00-05:00"
-                        frus:doc-dateTime-max="1979-01-04T08:10:00-05:00">
+                        frus:doc-dateTime-min="1979-01-04T03:10:00-05:00"
+                        frus:doc-dateTime-max="1979-01-04T03:10:00-05:00">
                         <head>237. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d237fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790004–1366. Secret;
@@ -30933,7 +31001,7 @@
                                 to Algiers, Dakar, Madrid, Nouakchott, and Paris.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1979-01-04T08:10:00"
+                                <placeName>Rabat</placeName>, <date when="1979-01-04T08:10:00+00:00"
                                     calendar="gregorian">January 4, 1979, 0810Z</date></dateline>
                         </opener>
                         <p>43. Dept pass USCINCEUR Vaihingen Germany for <gloss target="#t_POLAD_1"
@@ -31149,8 +31217,8 @@
                     </div>
 
                     <div type="document" n="238" xml:id="d238" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-01-11T10:30:00-05:00"
-                        frus:doc-dateTime-max="1979-01-11T10:30:00-05:00">
+                        frus:doc-dateTime-min="1979-01-11T05:30:00-05:00"
+                        frus:doc-dateTime-max="1979-01-11T05:30:00-05:00">
                         <head>238. Telegram From the Embassy in Algeria to the Department of State
                             and the Embassy in Morocco<note n="1" xml:id="d238fn1" type="source"
                                 >Source: National Archives, RG 59, Central Foreign Policy File,
@@ -31159,8 +31227,9 @@
                                 Nouakchott, and Paris.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Algiers</placeName>, <date when="1979-01-11T10:30:00"
-                                    calendar="gregorian">January 11, 1979, 1030Z</date></dateline>
+                                <placeName>Algiers</placeName>, <date
+                                    when="1979-01-11T10:30:00+00:00" calendar="gregorian">January
+                                    11, 1979, 1030Z</date></dateline>
                         </opener>
                         <p>93. Dept pass USCINCEUR Vaihingen Ge for <gloss target="#t_POLAD_1"
                                 >POLAD</gloss>. From the Ambassador. Subj: U.S. Policy in Morocco
@@ -32240,8 +32309,8 @@
                     </div>
 
                     <div type="document" n="247" xml:id="d247" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-10-22T23:08:00-05:00"
-                        frus:doc-dateTime-max="1979-10-22T23:08:00-05:00">
+                        frus:doc-dateTime-min="1979-10-22T18:08:00-05:00"
+                        frus:doc-dateTime-max="1979-10-22T18:08:00-05:00">
                         <head>247. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d247fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D790483–0140. Secret;
@@ -32254,8 +32323,9 @@
                                     corresp="#p_NDD_1">Newsom</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1979-10-22T23:08:00"
-                                    calendar="gregorian">October 22, 1979, 2308Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1979-10-22T23:08:00+00:00" calendar="gregorian">October
+                                    22, 1979, 2308Z</date></dateline>
                         </opener>
                         <p>275033. For Charge. Subject: Western Sahara Policy Review.<note n="2"
                                 xml:id="d247fn2">For the policy review and the President’s decision
@@ -32321,8 +32391,8 @@
 
                     <pb n="604" facs="0625" xml:id="pg_604"/>
                     <div type="document" n="248" xml:id="d248" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-10-31T17:05:00-05:00"
-                        frus:doc-dateTime-max="1979-10-31T17:05:00-05:00">
+                        frus:doc-dateTime-min="1979-10-31T12:05:00-05:00"
+                        frus:doc-dateTime-max="1979-10-31T12:05:00-05:00">
                         <head>248. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d248fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, P840131–2003. Secret;
@@ -32330,7 +32400,7 @@
                                     target="#t_Nodis_1">Nodis</gloss>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1979-10-31T17:05:00"
+                                <placeName>Rabat</placeName>, <date when="1979-10-31T17:05:00+00:00"
                                     calendar="gregorian">October 31, 1979, 1705Z</date></dateline>
                         </opener>
                         <p>7739. Subject: (U) Call by Deputy Secretary <persName corresp="#p_CWM_1"
@@ -32972,8 +33042,8 @@
 
                     <pb n="617" facs="0638" xml:id="pg_617"/>
                     <div type="document" n="251" xml:id="d251" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-02-05T12:55:00-05:00"
-                        frus:doc-dateTime-max="1980-02-05T12:55:00-05:00">
+                        frus:doc-dateTime-min="1980-02-05T07:55:00-05:00"
+                        frus:doc-dateTime-max="1980-02-05T07:55:00-05:00">
                         <head>251. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d251fn1" type="source">Source: Carter
                                 Library, National Security Affairs, Brzezinski Material, Country
@@ -32982,7 +33052,7 @@
                                 received in the White House Situation Room.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1980-02-05T12:55:00"
+                                <placeName>Rabat</placeName>, <date when="1980-02-05T12:55:00+00:00"
                                     calendar="gregorian">February 5, 1980, 1255Z</date></dateline>
                         </opener>
                         <p>814. Subject: (S) Moroccan-Algerian Talks.</p>
@@ -33140,8 +33210,8 @@
 
                     <pb n="620" facs="0641" xml:id="pg_620"/>
                     <div type="document" n="253" xml:id="d253" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-04-05T23:27:00-05:00"
-                        frus:doc-dateTime-max="1980-04-05T23:27:00-05:00">
+                        frus:doc-dateTime-min="1980-04-05T18:27:00-05:00"
+                        frus:doc-dateTime-max="1980-04-05T18:27:00-05:00">
                         <head>253. Telegram From the Department of State to the Embassies in
                             Morocco, Algeria, and Mauritania<note n="1" xml:id="d253fn1"
                                 type="source">Source: National Archives, RG 59, Central Foreign
@@ -33153,8 +33223,9 @@
                                     >Newsom</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-04-05T23:27:00"
-                                    calendar="gregorian">April 5, 1980, 2327Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1980-04-05T23:27:00+00:00" calendar="gregorian">April 5,
+                                    1980, 2327Z</date></dateline>
                         </opener>
                         <p>89873. Subject: Meeting With Polisario Representative.</p>
                         <p>1. (C) Entire text.</p>
@@ -33346,8 +33417,8 @@
                     </div>
 
                     <div type="document" n="255" xml:id="d255" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-06-26T11:51:00-05:00"
-                        frus:doc-dateTime-max="1980-06-26T11:51:00-05:00">
+                        frus:doc-dateTime-min="1980-06-26T06:51:00-05:00"
+                        frus:doc-dateTime-max="1980-06-26T06:51:00-05:00">
                         <head><pb n="624" facs="0645" xml:id="pg_624"/>255. Telegram From the
                             Embassy in Spain to the Embassy in Portugal<note n="1" xml:id="d255fn1"
                                 type="source">Source: Carter Library, National Security Affairs,
@@ -33358,8 +33429,9 @@
                                 attending the G–7 Economic Summit in Venice.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Madrid</placeName>, <date when="1980-06-26T11:51:00"
-                                    calendar="gregorian">June 26, 1980, 1151Z</date></dateline>
+                                <placeName>Madrid</placeName>, <date
+                                    when="1980-06-26T11:51:00+00:00" calendar="gregorian">June 26,
+                                    1980, 1151Z</date></dateline>
                         </opener>
                         <p>9702. For Dr. <persName corresp="#p_BZK_1">Brzezinski</persName> and
                             Under Secretary <persName corresp="#p_NDD_1">Newsom</persName> only from
@@ -33527,8 +33599,8 @@
                     </div>
 
                     <div type="document" n="256" xml:id="d256" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-07-30T23:56:00-05:00"
-                        frus:doc-dateTime-max="1980-07-30T23:56:00-05:00">
+                        frus:doc-dateTime-min="1980-07-30T18:56:00-05:00"
+                        frus:doc-dateTime-max="1980-07-30T18:56:00-05:00">
                         <head>256. Telegram From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d256fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800365–0950. Secret;
@@ -33541,8 +33613,9 @@
                                     >Christopher</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1980-07-30T23:56:00"
-                                    calendar="gregorian">July 30, 1980, 2356Z</date></dateline>
+                                <placeName>Washington</placeName>, <date
+                                    when="1980-07-30T23:56:00+00:00" calendar="gregorian">July 30,
+                                    1980, 2356Z</date></dateline>
                         </opener>
                         <p>202300. Subject: Reported Moroccan Policy of Pursuit Across International
                             Borders.</p>
@@ -33607,8 +33680,8 @@
                     </div>
 
                     <div type="document" n="257" xml:id="d257" subtype="historical-document"
-                        frus:doc-dateTime-min="1980-08-02T12:37:00-05:00"
-                        frus:doc-dateTime-max="1980-08-02T12:37:00-05:00">
+                        frus:doc-dateTime-min="1980-08-02T07:37:00-05:00"
+                        frus:doc-dateTime-max="1980-08-02T07:37:00-05:00">
                         <head>257. Telegram From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d257fn1" type="source">Source: National
                                 Archives, RG 59, Central Foreign Policy File, D800370–0874. Secret;
@@ -33616,7 +33689,7 @@
                                 information to Algiers.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Rabat</placeName>, <date when="1980-08-02T12:37:00"
+                                <placeName>Rabat</placeName>, <date when="1980-08-02T12:37:00+00:00"
                                     calendar="gregorian">August 2, 1980, 1237Z</date></dateline>
                         </opener>
                         <p>5436. Subject: Reported Moroccan Policy of Pursuit Across International

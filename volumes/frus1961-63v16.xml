@@ -21,6 +21,8 @@
                 <idno type="isbn-10">0160418135</idno>
                 <idno type="isbn-13">9780160418136</idno>
                 <idno type="frus">frus1961-63v16</idno>
+                <date type="content-date" calendar="gregorian" notBefore="1961-01-10T00:00:00-05:00"
+                    notAfter="1963-12-31T17:00:00-05:00">1961 to 1963</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 1994 as printed book and online at state.gov</p>
@@ -42,10 +44,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1961-01-10T00:00:00-05:00"
                 notAfter="1963-12-31T17:00:00-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>

@@ -21,6 +21,8 @@
                 <idno type="isbn-10">0160506344</idno>
                 <idno type="isbn-13">9780160506345</idno>
                 <idno type="frus">frus1964-68v20</idno>
+                <date type="content-date" calendar="gregorian" notBefore="1967-11-25T00:00:00-05:00"
+                    notAfter="1968-12-31T16:42:00-05:00">1967 to 1968</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 2001 as printed book and online at state.gov</p>
@@ -42,10 +44,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1967-11-25T00:00:00-05:00"
                 notAfter="1968-12-31T16:42:00-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>
@@ -6050,7 +6052,7 @@
                             1/1/67-2/29/68. Confidential. For additional documentation on the
                             Israeli desalting project, see <ref target="frus1964-68v34#d130">
                                 <hi rend="italic">Foreign Relations</hi>, 1964-1968, vol. XXXIV,
-                                Documents 130</ref>-<ref target="frus1964-68v34#d174"
+                                Documents 130</ref>–<ref target="frus1964-68v34#d174"
                             >174</ref>.</note>
                     </head>
                     <dateline>
@@ -43600,7 +43602,7 @@
                                 Dulles to Israeli Prime Minister Ben Gurion. For text, see <ref
                                     target="frus1958-60v13#pg_77">
                                     <hi rend="italic">Foreign Relations</hi>, 1958-1960, vol. XIII,
-                                    pp. 77</ref>-<ref target="frus1958-60v13#pg_79">79</ref>.</note>
+                                    pp. 77</ref>–<ref target="frus1958-60v13#pg_79">79</ref>.</note>
                         </item>
                         <label>6.</label>
                         <item>

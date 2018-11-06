@@ -23,6 +23,8 @@
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1942v06</idno>
                 <idno type="oclc"/>
+                <date type="content-date" calendar="gregorian" notBefore="1941-12-26T00:00:00-05:00"
+                    notAfter="1943-01-09T21:00:00-05:00">1941 to 1943</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 1963 as printed book and adapted to TEI-XML based on scans provided
@@ -68,10 +70,10 @@
             <change>2015-03-06 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1941-12-26T00:00:00-05:00"
                 notAfter="1943-01-09T21:00:00-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>

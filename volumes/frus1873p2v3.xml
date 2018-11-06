@@ -24,6 +24,8 @@
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1873p2v3</idno>
                 <idno type="oclc"/>
+                <date type="content-date" calendar="gregorian" notBefore="1793-08-23T00:00:00-05:00"
+                    notAfter="1874-12-31T23:55:59-05:00">1793 to 1874</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 1874 as printed book and adapted to TEI-XML based on scans provided
@@ -70,10 +72,10 @@
             <change>2016-07-18 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1793-08-23T00:00:00-05:00"
                 notAfter="1874-12-31T23:55:59-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>
@@ -21543,32 +21545,25 @@
                     <item>Claims of American citizens against Great Britain, schedule of <ref
                             target="#pg_216">216</ref>, <ref target="#pg_217">217</ref>
                         <list>
-                            <item>
-                                <list>
-                                    <item>index to same <ref target="#pg_227">227</ref></item>
-                                    <item>amount and disposition of <ref target="#pg_8"
-                                        >8</ref></item>
-                                    <item>classification of <ref target="#pg_8">8</ref>, <ref
-                                            target="#pg_9">9</ref></item>
-                                    <item>detailed report of <ref target="#pg_21">21</ref>–<ref
-                                            target="#pg_41">41</ref></item>
-                                </list></item>
-                            <item>British subjects against United States, schedule of <ref
-                                    target="#pg_180">180</ref>–<ref target="#pg_215"
-                                >215</ref></item>
+                            <item>index to same <ref target="#pg_227">227</ref></item>
+                            <item>amount and disposition of <ref target="#pg_8">8</ref></item>
+                            <item>classification of <ref target="#pg_8">8</ref>, <ref target="#pg_9"
+                                    >9</ref></item>
+                            <item>detailed report of <ref target="#pg_21">21</ref>–<ref
+                                    target="#pg_41">41</ref></item>
                         </list>
+                    </item>
+                    <item><supplied reason="implied-by-alignment">Claims of</supplied> British subjects against United States, schedule of <ref target="#pg_180"
+                            >180</ref>–<ref target="#pg_215">215</ref>
                         <list>
-                            <item>
-                                <list>
-                                    <item>index, to same <ref target="#pg_218">218</ref>, <ref
-                                            target="#pg_227">227</ref></item>
-                                    <item>amount and disposition of <ref target="#pg_8"
-                                        >8</ref></item>
-                                    <item>classification of <ref target="#pg_9">9</ref></item>
-                                    <item>detailed report of <ref target="#pg_41">41</ref>–<ref
-                                            target="#pg_173">173</ref></item>
-                                </list></item>
-                        </list></item>
+                            <item>index, to same <ref target="#pg_218">218</ref>, <ref
+                                    target="#pg_227">227</ref></item>
+                            <item>amount and disposition of <ref target="#pg_8">8</ref></item>
+                            <item>classification of <ref target="#pg_9">9</ref></item>
+                            <item>detailed report of <ref target="#pg_41">41</ref>–<ref
+                                    target="#pg_173">173</ref></item>
+                        </list>
+                    </item>
                     <item>Cleary, W., <hi rend="italic">vs</hi>. United States, No. 220 <ref
                             target="#pg_45">45</ref>, <ref target="#pg_162">162</ref></item>
                     <item>Clough, L. B., administrator, &amp;c., <hi rend="italic">vs</hi>. Great

@@ -22,6 +22,8 @@
                 <idno type="isbn-10">0160508843</idno>
                 <idno type="isbn-13">9780160508844</idno>
                 <idno type="frus">frus1969-76v03</idno>
+                <date type="content-date" calendar="gregorian" notBefore="1969-01-21T00:00:00-05:00"
+                    notAfter="1972-10-20T23:59:59-05:00">1969 to 1972</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 2001 as printed book and online at state.gov</p>
@@ -43,10 +45,10 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1969-01-21T00:00:00-05:00"
                 notAfter="1972-10-20T23:59:59-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>
@@ -4482,7 +4484,7 @@
                                     >G-10</gloss> meeting in Bonn in November 1968; see <ref
                                     target="frus1964-68v08#d214">
                                     <hi rend="italic">Foreign Relations,</hi> 1964-1968, vol. VIII,
-                                    Documents 214</ref>-<ref target="frus1964-68v08#d220"
+                                    Documents 214</ref>–<ref target="frus1964-68v08#d220"
                                 >220</ref>.</note> We have given no indication to Bonn that
                             cooperation on over-all monetary policy would affect our position on the
                             offset.</p>
@@ -25258,7 +25260,7 @@
                             private market, including new production. See <ref
                                 target="frus1964-68v08#d187">
                                 <hi rend="italic">Foreign Relations,</hi> 1964-1968, volume VIII,
-                                Documents 187</ref>-<ref target="frus1964-68v08#d191">191</ref> for
+                                Documents 187</ref>–<ref target="frus1964-68v08#d191">191</ref> for
                             background on the creation of the two-tier gold market.</p>
                         <p>How gold from South Africa, the largest producer, would be marketed was
                             not settled at the time of the March 1968 communique and was under
@@ -28378,7 +28380,7 @@
                                 n="2" xml:id="d160fn2">Tab III, not printed, is a June 10 memorandum
                                 from Huntsman to President <persName corresp="#p_NRM1"
                                     >Nixon</persName> with Tabs A-D; see <ref target="#d160fn3"
-                                    >footnotes 3</ref>-<ref target="#d160fn5">5</ref> below.</note>
+                                    >footnotes 3</ref>–<ref target="#d160fn5">5</ref> below.</note>
                         </p>
                         <p>
                             <persName corresp="#p_MCPW1">Paul McCracken</persName> wrote to the
@@ -42714,7 +42716,7 @@
                             </item>
                             <item>
                                 <persName corresp="#p_KDM1">Kennedy</persName> speech (Sept. 29,
-                                1969), <ref target="#d136">136</ref>-<ref target="#d138">138</ref>
+                                1969), <ref target="#d136">136</ref>–<ref target="#d138">138</ref>
                             </item>
                             <item>New Economic Policy, <ref target="#d180">180</ref>, <ref
                                     target="#d183">183</ref>
@@ -42761,7 +42763,7 @@
                             </item>
                             <item>
                                 <gloss target="#t_IMF1">IMF</gloss> quota increases, <ref
-                                    target="#d119">119</ref>-<ref target="#d120">120</ref>, <ref
+                                    target="#d119">119</ref>–<ref target="#d120">120</ref>, <ref
                                     target="#d133">133</ref>, <ref target="#d135">135</ref>, <ref
                                     target="#d142">142</ref>, <ref target="#d144">144</ref>
                             </item>
@@ -42838,7 +42840,7 @@
                             </item>
                             <item>
                                 <persName corresp="#p_VPA1">Volcker</persName> Group papers, <ref
-                                    target="#d110">110</ref>-<ref target="#d111">111</ref>, <ref
+                                    target="#d110">110</ref>–<ref target="#d111">111</ref>, <ref
                                     target="#d118">118</ref>, <ref target="#d119">119</ref>, <ref
                                     target="#d130">130</ref>, <ref target="#d133">133</ref>
                             </item>
@@ -42876,7 +42878,7 @@
                     </item>
                     <item>Japan (see also <ref target="#in5">Group of Ten</ref>; <ref target="#in18"
                             >New Economic Policy international negotiations</ref>), <ref
-                            target="#d71">71</ref>-<ref target="#d73">73</ref>, <ref target="#d92"
+                            target="#d71">71</ref>–<ref target="#d73">73</ref>, <ref target="#d92"
                             >92</ref>, <ref target="#d95">95</ref>, <ref target="#d96">96</ref>,
                             <ref target="#d97">97</ref>, <ref target="#d98">98</ref>, <ref
                             target="#d99">99</ref>
@@ -42890,7 +42892,7 @@
                             </item>
                             <item>
                                 <gloss target="#t_GATT1">GATT</gloss>, <ref target="#d23">23</ref>,
-                                    <ref target="#d74">74</ref>-<ref target="#d75">75</ref>
+                                    <ref target="#d74">74</ref>–<ref target="#d75">75</ref>
                             </item>
                             <item>National Security Study Memorandum, <ref target="#d17">17</ref>,
                                     <ref target="#d20">20</ref>
@@ -42971,16 +42973,16 @@
                     <item>
                         <persName corresp="#p_KDM1">Kennedy, David M.</persName>: <list>
                             <item>Balance of payments policies, <ref target="#d3">3</ref>, <ref
-                                    target="#d8">8</ref>, <ref target="#d14">14</ref>-<ref
+                                    target="#d8">8</ref>, <ref target="#d14">14</ref>–<ref
                                     target="#d16">16</ref>, <ref target="#d21">21</ref>, <ref
                                     target="#d29">29</ref>, <ref target="#d31">31</ref>, <ref
-                                    target="#d33">33</ref>-<ref target="#d34">34</ref>
+                                    target="#d33">33</ref>–<ref target="#d34">34</ref>
                                 <list>
                                     <item>
                                         <persName corresp="#p_PJR1">Petty</persName> memoranda, <ref
                                             target="#d5">5</ref>, <ref target="#d11">11</ref>
                                     </item>
-                                    <item>U.S.-French discussions, <ref target="#d36">36</ref>-<ref
+                                    <item>U.S.-French discussions, <ref target="#d36">36</ref>–<ref
                                             target="#d37">37</ref>
                                     </item>
                                 </list>
@@ -43014,7 +43016,7 @@
                                     </item>
                                     <item>Exchange rate flexibility, <ref target="#d122">122</ref>,
                                             <ref target="#d146">146</ref>, <ref target="#d148"
-                                            >148</ref>-<ref target="#d149">149</ref>
+                                            >148</ref>–<ref target="#d149">149</ref>
                                     </item>
                                     <item>
                                         <gloss target="#t_IMF1">IMF</gloss> quota increases, <ref
@@ -43061,7 +43063,7 @@
                         </list>
                     </item>
                     <item>Kennon, L. J., <ref target="#d62">62</ref>, <ref target="#d162"
-                            >162</ref>-<ref target="#d163">163</ref>, <ref target="#d178">178</ref>
+                            >162</ref>–<ref target="#d163">163</ref>, <ref target="#d178">178</ref>
                     </item>
                     <item>Kerrigan, William M., <ref target="#d141">141</ref>
                     </item>
@@ -43110,8 +43112,8 @@
                                     </item>
                                 </list>
                             </item>
-                            <item>Foreign exchange crises, <ref target="#d122">122</ref>-<ref
-                                    target="#d123">123</ref>, <ref target="#d125">125</ref>-<ref
+                            <item>Foreign exchange crises, <ref target="#d122">122</ref>–<ref
+                                    target="#d123">123</ref>, <ref target="#d125">125</ref>–<ref
                                     target="#d126">126</ref>, <ref target="#d129">129</ref>, <ref
                                     target="#d139">139</ref>, <ref target="#d233">233</ref>, <ref
                                     target="#d236">236</ref>
@@ -43295,7 +43297,7 @@
                     <item xml:id="in12">Less developed countries (<gloss target="#t_LDC1"
                             >LDC</gloss>s) (<hi rend="italic">see also</hi>
                         <ref target="#in25">U.S. economic aid</ref>): <list>
-                            <item>Balance of payments policies, <ref target="#d31">31</ref>-<ref
+                            <item>Balance of payments policies, <ref target="#d31">31</ref>–<ref
                                     target="#d33">33</ref>
                             </item>
                             <item>Economic nationalism, <ref target="#d2">2</ref>
@@ -43356,7 +43358,7 @@
                             <item>Balance of payments policies, <ref target="#d8">8</ref>, <ref
                                     target="#d15">15</ref>, <ref target="#d29">29</ref>
                             </item>
-                            <item>International monetary reform, <ref target="#d130">130</ref>-<ref
+                            <item>International monetary reform, <ref target="#d130">130</ref>–<ref
                                     target="#d132">132</ref>, <ref target="#d135">135</ref>, <ref
                                     target="#d164">164</ref>
                             </item>
@@ -43572,7 +43574,7 @@
                                     target="#d174">174</ref>, <ref target="#d185">185</ref>, <ref
                                     target="#d188">188</ref>
                             </item>
-                            <item>German-French summit, <ref target="#d191">191</ref>-<ref
+                            <item>German-French summit, <ref target="#d191">191</ref>–<ref
                                     target="#d192">192</ref>, <ref target="#d205">205</ref>, <ref
                                     target="#d206">206</ref>
                             </item>
@@ -43584,7 +43586,7 @@
                             </item>
                             <item>
                                 <persName corresp="#p_NRM1">Nixon</persName> speech (Aug. 15, 1971),
-                                    <ref target="#d71">71</ref>-<ref target="#d72">72</ref>, <ref
+                                    <ref target="#d71">71</ref>–<ref target="#d72">72</ref>, <ref
                                     target="#d110">110</ref>, <ref target="#d168">168</ref>
                             </item>
                             <item>Press coverage, <ref target="#d203">203</ref>
@@ -43657,7 +43659,7 @@
                             <item>
                                 <persName corresp="#p_PPG1">Peterson</persName> memoranda, <ref
                                     target="#d177">177</ref>, <ref target="#d179">179</ref>, <ref
-                                    target="#d185">185</ref>-<ref target="#d186">186</ref>, <ref
+                                    target="#d185">185</ref>–<ref target="#d186">186</ref>, <ref
                                     target="#d195">195</ref>, <ref target="#d209">209</ref>
                             </item>
                             <item>Quadriad discussions, <ref target="#d176">176</ref>, <ref
@@ -43699,7 +43701,7 @@
                                     target="#d4">4</ref>, <ref target="#d12">12</ref>, <ref
                                     target="#d15">15</ref>, <ref target="#d16">16</ref>, <ref
                                     target="#d21">21</ref>, <ref target="#d27">27</ref>, <ref
-                                    target="#d31">31</ref>-<ref target="#d34">34</ref>
+                                    target="#d31">31</ref>–<ref target="#d34">34</ref>
                             </item>
                             <item>Council on International Economic Policy, <ref target="#d49"
                                     >49</ref>, <ref target="#d53">53</ref>, <ref target="#d61"
@@ -43776,7 +43778,7 @@
                                     <item>
                                         <persName corresp="#p_KHA1">Kissinger</persName> memoranda,
                                             <ref target="#d51">51</ref>, <ref target="#d131"
-                                            >131</ref>, <ref target="#d139">139</ref>-<ref
+                                            >131</ref>, <ref target="#d139">139</ref>–<ref
                                             target="#d140">140</ref>
                                     </item>
                                     <item>Meeting (June 26, 1969), <ref target="#d130">130</ref>,
@@ -44012,18 +44014,20 @@
                             <item>New Economic Policy, <ref target="#d164">164</ref>, <ref
                                     target="#d168">168</ref>, <ref target="#d173">173</ref>, <ref
                                     target="#d176">176</ref>, <ref target="#d177">177</ref>
-                            </item>
-                            <item/>
-                            <item>International negotiations, <ref target="#d179">179</ref>, <ref
-                                    target="#d182">182</ref>, <ref target="#d184">184</ref>, <ref
-                                    target="#d185">185</ref>, <ref target="#d186">186</ref>, <ref
-                                    target="#d187">187</ref>, <ref target="#d189">189</ref>, <ref
-                                    target="#d191">191</ref>, <ref target="#d195">195</ref>, <ref
-                                    target="#d218">218</ref>
+                                <list>
+                                    <item>International negotiations, <ref target="#d179">179</ref>,
+                                            <ref target="#d182">182</ref>, <ref target="#d184"
+                                            >184</ref>, <ref target="#d185">185</ref>, <ref
+                                            target="#d186">186</ref>, <ref target="#d187">187</ref>,
+                                            <ref target="#d189">189</ref>, <ref target="#d191"
+                                            >191</ref>, <ref target="#d195">195</ref>, <ref
+                                            target="#d218">218</ref>
+                                    </item>
+                                </list>
                             </item>
                             <item>
                                 <gloss target="#t_OECD1">OECD</gloss> ministerial meeting, <ref
-                                    target="#d65">65</ref>-<ref target="#d66">66</ref>
+                                    target="#d65">65</ref>–<ref target="#d66">66</ref>
                             </item>
                             <item>U.S. policy toward Europe, <ref target="#d106">106</ref>
                             </item>
@@ -44172,7 +44176,7 @@
                     </item>
                     <item>
                         <persName corresp="#p_RHS1">Reuss, Henry</persName>, <ref target="#d152"
-                            >152</ref>-<ref target="#d153">153</ref>, <ref target="#d164">164</ref>,
+                            >152</ref>–<ref target="#d153">153</ref>, <ref target="#d164">164</ref>,
                             <ref target="#d167">167</ref>, <ref target="#d209">209</ref>
                     </item>
                     <item>Rey, Jean, <ref target="#d34">34</ref>
@@ -44203,7 +44207,7 @@
                                     >61</ref>, <ref target="#d79">79</ref>, <ref target="#d94"
                                     >94</ref>
                             </item>
-                            <item>Defense burden-sharing, <ref target="#d45">45</ref>-<ref
+                            <item>Defense burden-sharing, <ref target="#d45">45</ref>–<ref
                                     target="#d46">46</ref>, <ref target="#d78">78</ref>
                             </item>
                             <item>European Community, <ref target="#d42">42</ref>, <ref
@@ -44391,7 +44395,7 @@
                     </item>
                     <item>Shriver, Robert S., Jr., <ref target="#d34">34</ref>, <ref target="#d114"
                             >114</ref>, <ref target="#d132">132</ref>, <ref target="#d134"
-                            >134</ref>-<ref target="#d135">135</ref>
+                            >134</ref>–<ref target="#d135">135</ref>
                     </item>
                     <item>
                         <persName corresp="#p_SGP1">Shultz, George P.</persName> (see also <ref
@@ -44439,7 +44443,7 @@
                                     target="#d165">165</ref>, <ref target="#d168">168</ref>
                                 <list>
                                     <item>International negotiations, <ref target="#d176"
-                                            >176</ref>-<ref target="#d177">177</ref>, <ref
+                                            >176</ref>–<ref target="#d177">177</ref>, <ref
                                             target="#d182">182</ref>, <ref target="#d184">184</ref>,
                                             <ref target="#d187">187</ref>, <ref target="#d188"
                                             >188</ref>, <ref target="#d189">189</ref>, <ref

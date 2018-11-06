@@ -23,6 +23,8 @@
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1919Parisv11</idno>
                 <idno type="oclc"/>
+                <date type="content-date" calendar="gregorian" notBefore="1919-01-14T00:00:00-05:00"
+                    notAfter="1919-12-12T23:59:59-05:00">1919</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 1947 as printed book and adapted to TEI-XML based on scans provided
@@ -68,10 +70,10 @@
             <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1919-01-14T00:00:00-05:00"
                 notAfter="1919-12-12T23:59:59-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>
@@ -40676,7 +40678,7 @@
                                     >256</ref>, <ref target="#pg_263">263</ref>, <ref
                                     target="#pg_268">268</ref>, <ref target="#pg_271">271</ref>,
                                     <ref target="#pg_294">294</ref>, <ref target="#pg_295"
-                                >295</ref>, <ref target="#pg_298">298</ref>-<ref target="#pg_299"
+                                >295</ref>, <ref target="#pg_298">298</ref>–<ref target="#pg_299"
                                     >299</ref>, <ref target="#pg_327">327</ref>, <ref
                                     target="#pg_350">350</ref>–<ref target="#pg_351">351</ref>, <ref
                                     target="#pg_356">356</ref>, <ref target="#pg_399">399</ref>–<ref

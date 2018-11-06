@@ -22,6 +22,8 @@
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1870</idno>
                 <idno type="oclc"/>
+                <date type="content-date" calendar="gregorian" notBefore="1869-05-21T00:00:00-05:00"
+                    notAfter="1870-12-05T23:59:59-05:00">1869 to 1870</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 1870 as printed book and adapted to TEI-XML based on scans provided
@@ -65,10 +67,10 @@
             <change>2016-07-18 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1869-05-21T00:00:00-05:00"
                 notAfter="1870-12-05T23:59:59-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>
@@ -42891,7 +42893,8 @@
                                 >177</ref></item>
                         </list></item>
                     <item>COREA. (See CHINA.)</item>
-                    <item>CORRESPONDENCE, OFFICIAL, OF FOREIGN MINISTERS IN PARIS: <list>
+                    <item>CORRESPONDENCE, OFFICIAL, OF FOREIGN MINISTERS IN PARIS: 
+                        <list>
                             <item>cannot be sent sealed through German lines <ref target="#pg_127"
                                     >127</ref>– <ref target="#pg_128">128</ref>– <ref
                                     target="#pg_56">56</ref></item>
@@ -42905,8 +42908,6 @@
                                     target="#pg_196">196</ref></item>
                             <item>Mr. Fish to Baron Gerolt, protesting <ref target="#pg_196"
                                     >196</ref></item>
-                        </list>
-                        <list>
                             <item><hi rend="smallcaps">Between French and Germany Governments:</hi>
                                 <list>
                                     <item>United States to afford every facility <ref
@@ -42915,7 +42916,8 @@
                                             target="#pg_205">205</ref>, <ref target="#pg_206"
                                             >206</ref></item>
                                 </list></item>
-                        </list></item>
+                        </list>
+                    </item>
                 </list>
                 <p rend="center"><hi rend="strong">D.</hi></p>
                 <list type="index">
@@ -42991,8 +42993,6 @@
                                     <item>Sir John Young’s further reply. Discontinuance of licenses
                                             <ref target="#pg_413">413</ref></item>
                                 </list></item>
-                        </list>
-                        <list>
                             <item><hi rend="smallcaps">Canadian Policy:</hi>
                                 <list>
                                     <item>to interfere with vested fishing rights of United States
@@ -43001,8 +43001,6 @@
                                     <item>purpose to enforce reciprocity treaty <ref
                                             target="#pg_433">433</ref></item>
                                 </list></item>
-                        </list>
-                        <list>
                             <item><hi rend="smallcaps">In-shore Fishing:</hi>
                                 <list>
                                     <item>Treasury Department circular <ref target="#pg_411"
@@ -43016,8 +43014,6 @@
                                             >421</ref></item>
                                     <item>Mr. Fish’s reply <ref target="#pg_421">421</ref></item>
                                 </list></item>
-                        </list>
-                        <list>
                             <item><hi rend="smallcaps">Canadian Law:</hi>
                                 <list>
                                     <item>as to fisheries by foreign vessels <ref target="#pg_414"
@@ -43029,8 +43025,6 @@
                                         instructions for guidance of consuls <ref target="#pg_431"
                                             >431</ref></item>
                                 </list></item>
-                        </list>
-                        <list>
                             <item><hi rend="smallcaps">Canada, Boundaries of:</hi>
                                 <list>
                                     <item>Mr. Fish’s views as to their present location, and their
@@ -43042,8 +43036,6 @@
                                     <item>Mr. Thornton thinks Mr. Fish is right <ref
                                             target="#pg_419">419</ref></item>
                                 </list></item>
-                        </list>
-                        <list>
                             <item><hi rend="smallcaps">Instructions of British Admiralty:</hi>
                                 <list>
                                     <item>to naval force in Canadian waters, as to the situation
@@ -43067,8 +43059,6 @@
                                     <item>Mr. Thornton, on June 3, 1870, communicates letter of <ref
                                             target="#pg_419">419</ref></item>
                                 </list></item>
-                        </list>
-                        <list>
                             <item><pb n="530" xml:id="pg_530" facs="0564"/><hi rend="smallcaps"
                                     >Closing Colonial Ports against American Fishermen:</hi>
                                 <list>
@@ -43086,8 +43076,6 @@
                                         of 1818 not at present renewed <ref target="#pg_421"
                                             >421</ref></item>
                                 </list></item>
-                        </list>
-                        <list>
                             <item><hi rend="smallcaps">Closing Colonial Ports against American
                                     Fishermen:</hi>
                                 <list>

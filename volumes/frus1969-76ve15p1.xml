@@ -21,6 +21,8 @@
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1969-76ve15p1</idno>
+                <date type="content-date" calendar="gregorian" notBefore="1973-01-05T00:00:00-05:00"
+                    notAfter="1977-01-19T23:59:59-05:00">1973 to 1977</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 2008 as electronic-only publication at state.gov</p>
@@ -44,10 +46,10 @@
             <change>2009-01-31 HCL SB: Volume delivered to PA/HO</change>
             <change>2009-03-17 PA/HO JW: Reviewed and posted on history.state.gov</change>
         </revisionDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1973-01-05T00:00:00-05:00"
                 notAfter="1977-01-19T23:59:59-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>

@@ -18,6 +18,8 @@
                 <pubPlace>Washington</pubPlace>
                 <date type="publication-date" calendar="gregorian">2016</date>
                 <idno type="frus">frus1977-80v29</idno>
+                <date type="content-date" calendar="gregorian" notBefore="1977-01-21T00:00:00-05:00"
+                    notAfter="1981-01-13T23:59:59-05:00">1977 to 1981</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 2016 as printed book.</p>
@@ -33,10 +35,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1977-01-21T00:00:00-05:00"
                 notAfter="1981-01-13T23:59:59-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
 

@@ -22,6 +22,8 @@
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1977-80v24</idno>
                 <idno type="oclc"/>
+                <date type="content-date" calendar="gregorian" notBefore="2017-10-25T00:00:00-04:00"
+                    notAfter="2017-10-25T23:59:59-04:00">2017</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 2017</p>
@@ -35,10 +37,10 @@
         <revisionDesc>
             <change>2017-10-25: Created TEI shell</change>
         </revisionDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="2017-10-25T00:00:00-04:00"
                 notAfter="2017-10-25T23:59:59-04:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>
@@ -77,7 +79,7 @@
                         Affairs<lb/>United States Department of State<lb/>October 25, 2017</hi>
                 </p>
                 <p>The Department of State released today a portion of <hi rend="italic">Foreign
-                        Relations of the United States</hi>, 1977‒1980, Volume XXIV, South America;
+                        Relations of the United States</hi>, 1977–1980, Volume XXIV, South America;
                     Latin America Region. The two compilations released today, on Argentina and the
                     Latin America Region, were given priority in the declassification process as
                     part of the National Security Council-led Argentina Declassification Project.

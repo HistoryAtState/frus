@@ -21,6 +21,8 @@
                 <idno type="dospubno"/>
                 <idno type="frus">frus1969-76v19p1</idno>
                 <idno type="isbn-13">9780160771088</idno>
+                <date type="content-date" calendar="gregorian" notBefore="1969-01-30T00:00:00-05:00"
+                    notAfter="1972-12-22T23:59:59-05:00">1969 to 1972</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 2010 as HTML/PDF online at history.state.gov</p>
@@ -44,10 +46,10 @@
         <revisionDesc>
             <change>HCL's submission of the original volume</change>
         </revisionDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1969-01-30T00:00:00-05:00"
                 notAfter="1972-12-22T23:59:59-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>

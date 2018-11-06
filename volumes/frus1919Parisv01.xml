@@ -23,6 +23,8 @@
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1919Parisv01</idno>
                 <idno type="oclc"/>
+                <date type="content-date" calendar="gregorian" notBefore="1917-08-04T00:00:00-05:00"
+                    notAfter="1919-11-19T23:59:59-05:00">1917 to 1919</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 1942 as printed book and adapted to TEI-XML based on scans provided
@@ -68,10 +70,10 @@
             <change>2015-11-24 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
-        <xenoData>
+        <!-- <xenoData>
             <frus:coverage notBefore="1917-08-04T00:00:00-05:00"
                 notAfter="1919-11-19T23:59:59-05:00"/>
-        </xenoData>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>
@@ -235,7 +237,7 @@
                     approved by Secretary of State <persName>Frank B. Kellogg</persName> on March
                     26, 1925, given in full in the preface to <ref target="frus1914Supp#pg_III">
                         <hi rend="italic">Foreign Relations</hi>, 1914, supplement, pages
-                        iii</ref>-<ref target="frus1914Supp#pg_IV">iv</ref>. While it is planned to
+                        iii</ref>–<ref target="frus1914Supp#pg_IV">iv</ref>. While it is planned to
                     print all of the more important minutes, proceedings, and other papers in
                     substantially complete form, it will be necessary to omit some material of
                     secondary importance in order to keep this edition within reasonable limits.</p>
