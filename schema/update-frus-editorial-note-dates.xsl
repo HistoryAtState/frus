@@ -11,9 +11,9 @@
     </xsl:template>
 
     <xsl:variable name="volume-dates-min"
-        select="//publicationStmt/date[attribute::type eq 'content-date']/@notBefore"/>
+        select="//tei:publicationStmt/tei:date[attribute::type eq 'content-date']/@notBefore"/>
     <xsl:variable name="volume-dates-max"
-        select="//publicationStmt/date[attribute::type eq 'content-date']/@notAfter"/>
+        select="//tei:publicationStmt/tei:date[attribute::type eq 'content-date']/@notAfter"/>
 
     <!-- Add volumes dates as @frus:doc-dateTime-min and @frus:doc-dateTime-max to editorial notes and errata statements for document numbering errors -->
 
