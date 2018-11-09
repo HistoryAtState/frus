@@ -21,6 +21,8 @@
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1864p3</idno>
                 <idno type="oclc"/>
+                <date type="content-date" calendar="gregorian" notBefore="1846-08-09T00:00:00-05:00"
+                    notAfter="1864-12-05T23:59:59-05:00">1846 to 1864</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 1865 as printed book and adapted to TEI-XML based on scans provided
@@ -65,10 +67,6 @@
             <change>2016-07-18 Joe Wicentowski (PA/HO): Created TEI shell for HCL based on UWDCC
                 submission</change>
         </revisionDesc>
-        <xenoData>
-            <frus:coverage notBefore="1846-08-09T00:00:00-05:00"
-                notAfter="1864-12-05T23:59:59-05:00"/>
-        </xenoData>
     </teiHeader>
     <text>
         <front>
@@ -84,7 +82,9 @@
             </titlePage>
             <pb n="" xml:id="pg-seq-2" facs="0002"/>
             <pb n="[III]" xml:id="pg_III" facs="0003"/>
-            <div type="section" xml:id="papers" subtype="index">
+            <div type="section" xml:id="papers" subtype="index"
+                frus:doc-dateTime-min="1846-08-09T00:00:00-05:00"
+                frus:doc-dateTime-max="1864-12-05T23:59:59-05:00">
                 <head>Papers relating to foreign affairs.</head>
                 <p rend="center">FRANCE.</p>
                 <table cols="5">
@@ -5846,8 +5846,9 @@
                             <p>We supplicate at the same time the good and merciful God to bestow
                                 upon you the lights of His grace, and to attach you to us by a
                                 perfect union.</p>
-                            <closer><dateline rendition="#left">Given at
-                                    <placeName>Rome</placeName>, at Saint Peter, <date
+                            <closer><dateline rendition="#left">Given at <placeName><placeName
+                                            type="city">Rome</placeName>, at <placeName type="venue"
+                                            >Saint Peter</placeName></placeName>, <date
                                         calendar="papal-era gregorian" when="1863-12-03">this 3d of
                                         December, 1863, in the 18th year of our
                                     pontificate</date>.</dateline><lb/>
@@ -11253,7 +11254,8 @@
                                 <signed>KAWADZO TDZOE-NO-KAMI.</signed><lb/>
                                 <signed>KAWADA SAGAMI NO-KAMI.</signed>
                                 <lb/>
-                                <dateline rendition="#left"><date when="1864-05-04"
+                                <dateline rendition="#left"><date when="1864-05-13"
+                                        ana="#date_conversion-issue-inferred-from-document-content-and-sibling-dates"
                                         calendar="japanese-nengō">The 4th day of the 4th month of
                                         the 4th year of Bunn-Cue</date>.</dateline>
                             </closer>
@@ -13987,6 +13989,9 @@
                             <p>Set forth with respect and consideration.</p>
                             <closer>
                                 <dateline rendition="#left"><date when="1864-06"
+                                        notBefore="1864-06-01T00:00:00+09:18"
+                                        notAfter="1864-06-30T23:59:59+09:18"
+                                        ana="#date_conversion-issue-inferred-from-document-content-and-sibling-dates"
                                         calendar="japanese-nengō">The 11th day of the 5th month of
                                         the 4th year of Bunkin</date>.</dateline><lb/>
                                 <signed>IKEDA TSIKOEGO NO-KAMI.</signed><lb/>
@@ -14016,6 +14021,9 @@
                             <p>Set forth with respect and consideration.</p>
                             <closer>
                                 <dateline rendition="#left"><date when="1864-06"
+                                        notBefore="1864-06-01T00:00:00+09:18"
+                                        notAfter="1864-06-30T23:59:59+09:18"
+                                        ana="#date_conversion-issue-inferred-from-document-content-and-sibling-dates"
                                         calendar="japanese-nengō">The 11th day of the 5th month in
                                         the 4th year Boen-Cun</date>.</dateline><lb/>
                                 <signed>IKEDA TSIKOEGO-NO-KAMI.</signed><lb/>
@@ -45372,6 +45380,9 @@
                             <p>With respect and esteem.</p>
                             <closer>
                                 <dateline rendition="#left"><date when="1864-02"
+                                        notBefore="1864-02-01T00:00:00+09:18"
+                                        notAfter="1864-02-15T23:59:59+09:18"
+                                        ana="#date_imprecise-inferred-from-document-content"
                                         calendar="gregorian japanese-nengō">The — day of the first
                                         month of the fourth year of Bunkiu, (February,
                                     1864</date>.)</dateline><lb/>
