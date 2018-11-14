@@ -18039,35 +18039,35 @@
                                 sailing under, the Bamberg is owned by— <table rows="7" cols="4">
                                     <row>
                                         <cell>Mr. Henry V. Baxter</cell>
-                                        <cell>10-32</cell>
+                                        <cell role="num">10-32</cell>
                                         <cell rows="5">}</cell>
-                                        <cell rows="5">Of New Orleans.</cell>
+                                        <cell rows="5" rendition="#middle">Of New Orleans.</cell>
                                     </row>
                                     <row>
                                         <cell>Mr. James C. Wilner, (master)</cell>
-                                        <cell>2-32</cell>
+                                        <cell role="num">2-32</cell>
                                     </row>
                                     <row>
                                         <cell>Mr. Charles Sagory</cell>
-                                        <cell>10-32</cell>
+                                        <cell role="num">10-32</cell>
                                     </row>
                                     <row>
                                         <cell>Mr. E. M. Brown</cell>
-                                        <cell>4-32</cell>
+                                        <cell role="num">4-32</cell>
                                     </row>
                                     <row>
                                         <cell>Mr. P. Pages</cell>
-                                        <cell>2-32</cell>
+                                        <cell role="num">2-32</cell>
                                     </row>
                                     <row>
                                         <cell>Mr. Conrad Charles Maletta</cell>
-                                        <cell>2-32</cell>
+                                        <cell role="num">2-32</cell>
                                         <cell rows="2">}</cell>
-                                        <cell rows="2">Of New York.</cell>
+                                        <cell rows="2" rendition="#middle">Of New York.</cell>
                                     </row>
                                     <row>
                                         <cell>Mr. William Tyson</cell>
-                                        <cell>2-32</cell>
+                                        <cell role="num">2-32</cell>
                                     </row>
                                 </table></p>
                             <pb n="281" xml:id="pg_281" facs="0281"/>
@@ -26401,119 +26401,140 @@
                         <table rows="7" cols="2">
                             <row>
                                 <cell/>
-                                <cell>Quintals.</cell>
+                                <cell cols="3">Quintals.</cell>
                             </row>
                             <row>
                                 <cell>Sea, Island, 1st kind</cell>
-                                <cell>2, 000 to 2, 500</cell>
+                                <cell role="num">2,000</cell>
+                                <cell>to</cell>
+                                <cell role="num">2,500</cell>
                             </row>
                             <row>
                                 <cell>Sea, Island, 2d kind</cell>
-                                <cell>1, 000 to 1, 500</cell>
+                                <cell role="num">1,000</cell>
+                                <cell>to</cell>
+                                <cell role="num">1,500</cell>
                             </row>
                             <row>
                                 <cell>Mako, fine</cell>
-                                <cell>100, 000 to 140, 000</cell>
+                                <cell role="num">100,000</cell>
+                                <cell>to</cell>
+                                <cell role="num">140,000</cell>
                             </row>
                             <row>
                                 <cell>Mako, medium</cell>
-                                <cell>300, 000 to 380, 000</cell>
+                                <cell role="num">300,000</cell>
+                                <cell>to</cell>
+                                <cell role="num">380,000</cell>
                             </row>
                             <row>
                                 <cell>Mako, inferior</cell>
-                                <cell>47, 000 to 56, 000</cell>
+                                <cell role="num" rendition="#border-bottom">47,000</cell>
+                                <cell rendition="#border-bottom">to</cell>
+                                <cell rendition="#border-bottom" role="num">56,000</cell>
                             </row>
                             <row>
                                 <cell/>
-                                <cell>460, 000 to 550, 000</cell>
+                                <cell role="num">460,000</cell>
+                                <cell>to</cell>
+                                <cell role="num">550,000</cell>
                             </row>
                         </table>
                     </p>
-                    <p>The prices during the six months ending June 30, 1861, have been— <table
-                            rows="6" cols="2">
-                            <row>
-                                <cell/>
-                                <cell>Piastres per quintal.</cell>
-                            </row>
-                            <row>
-                                <cell>Sea Island, 1st kind</cell>
-                                <cell>450 to 500</cell>
-                            </row>
-                            <row>
-                                <cell>Sea Island, 2st kind</cell>
-                                <cell>320 to 390</cell>
-                            </row>
-                            <row>
-                                <cell>Mako, fine</cell>
-                                <cell>250 to 360</cell>
-                            </row>
-                            <row>
-                                <cell>Mako, medium</cell>
-                                <cell>230 to 270</cell>
-                            </row>
-                            <row>
-                                <cell>Mako, inferior</cell>
-                                <cell>180 to 230</cell>
-                            </row>
-                        </table>
+                    <p>The prices during the six months ending June 30, 1861, have been— <table rows="6" cols="2">
+                        <row>
+                            <cell/>
+                            <cell cols="3">Piastres per quintal.</cell>
+                        </row>
+                        <row>
+                            <cell>Sea Island, 1st kind</cell>
+                            <cell role="num">450</cell>
+                            <cell>to</cell>
+                            <cell role="num">500</cell>
+                        </row>
+                        <row>
+                            <cell>Sea Island, 2st kind</cell>
+                            <cell role="num">320</cell>
+                            <cell>to</cell>
+                            <cell role="num">390</cell>
+                        </row>
+                        <row>
+                            <cell>Mako, fine</cell>
+                            <cell role="num">250</cell>
+                            <cell>to</cell>
+                            <cell role="num">360</cell>
+                        </row>
+                        <row>
+                            <cell>Mako, medium</cell>
+                            <cell role="num">230</cell>
+                            <cell>to</cell>
+                            <cell role="num">270</cell>
+                        </row>
+                        <row>
+                            <cell>Mako, inferior</cell>
+                            <cell role="num">180</cell>
+                            <cell>to</cell>
+                            <cell role="num">230</cell>
+                        </row>
+                    </table>
                     </p>
-                    <p>According to the statistics of exports, (they) have been as follows: <table
-                            rows="9" cols="4">
-                            <row>
-                                <cell/>
-                                <cell>1859.</cell>
-                                <cell>1860</cell>
-                                <cell>1861, 1st six months.</cell>
-                            </row>
-                            <row>
-                                <cell/>
-                                <cell><hi rend="italic">Quintals</hi>.</cell>
-                                <cell><hi rend="italic">Quintals</hi>.</cell>
-                                <cell><hi rend="italic">Quintals</hi>.</cell>
-                            </row>
-                            <row>
-                                <cell>For England</cell>
-                                <cell>325,401</cell>
-                                <cell>311,253</cell>
-                                <cell>264,876</cell>
-                            </row>
-                            <row>
-                                <cell>For Austria</cell>
-                                <cell>78,372</cell>
-                                <cell>41,080</cell>
-                                <cell>22,020</cell>
-                            </row>
-                            <row>
-                                <cell>For France</cell>
-                                <cell>98,672</cell>
-                                <cell>78,302</cell>
-                                <cell>117,656</cell>
-                            </row>
-                            <row>
-                                <cell>For Italy</cell>
-                                <cell>200</cell>
-                                <cell>160</cell>
-                                <cell>20</cell>
-                            </row>
-                            <row>
-                                <cell>For Spain</cell>
-                                <cell/>
-                                <cell>620</cell>
-                                <cell/>
-                            </row>
-                            <row>
-                                <cell>For Antwerp</cell>
-                                <cell/>
-                                <cell/>
-                                <cell>156</cell>
-                            </row>
-                            <row>
-                                <cell>Total</cell>
-                                <cell>502,643</cell>
-                                <cell>431,415</cell>
-                                <cell>404,728</cell>
-                            </row>
-                        </table>
+                    <p>According to the statistics of exports, (they) have been as follows: <table rows="9" cols="4">
+                        <row>
+                            <cell rendition="#border-bottom #border-top #border-right"/>
+                            <cell rendition="#border-bottom #border-top #border-right">1859.</cell>
+                            <cell rendition="#border-bottom #border-top #border-right">1860</cell>
+                            <cell rendition="#border-bottom #border-top">1861, 1st six
+                                months.</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#border-right"/>
+                            <cell rendition="#border-right"><hi rend="italic">Quintals</hi>.</cell>
+                            <cell rendition="#border-right"><hi rend="italic">Quintals</hi>.</cell>
+                            <cell><hi rend="italic">Quintals</hi>.</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#border-right">For England</cell>
+                            <cell rendition="#border-right" role="num">325,401</cell>
+                            <cell rendition="#border-right" role="num">311,253</cell>
+                            <cell role="num">264,876</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#border-right">For Austria</cell>
+                            <cell rendition="#border-right" role="num">78,372</cell>
+                            <cell rendition="#border-right" role="num">41,080</cell>
+                            <cell role="num">22,020</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#border-right">For France</cell>
+                            <cell rendition="#border-right" role="num">98,672</cell>
+                            <cell rendition="#border-right" role="num">78,302</cell>
+                            <cell role="num">117,656</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#border-right">For Italy</cell>
+                            <cell rendition="#border-right" role="num">200</cell>
+                            <cell rendition="#border-right" role="num">160</cell>
+                            <cell role="num">20</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#border-right">For Spain</cell>
+                            <cell rendition="#border-right"/>
+                            <cell rendition="#border-right" role="num">620</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell rendition="#border-right">For Antwerp</cell>
+                            <cell rendition="#border-right #border-bottom"/>
+                            <cell rendition="#border-right #border-bottom"/>
+                            <cell role="num" rendition="#border-bottom">156</cell>
+                        </row>
+                        <row>
+                            <cell rendition="#border-right #border-bottom">Total</cell>
+                            <cell rendition="#border-right #border-bottom" role="num">502,643</cell>
+                            <cell rendition="#border-right #border-bottom" role="num">431,415</cell>
+                            <cell role="num" rendition="#border-bottom">404,728</cell>
+                        </row>
+                    </table>
                     </p>
                     <p>The tabular results of the last six months indicate that England will absorb
                         a far larger proportion of Egyptian cotton than heretofore.</p>
@@ -26555,7 +26576,7 @@
                         <head><hi rend="italic">Cotton exported from Egypt during the last five
                                 years</hi>, 1856–’57–’58–’59–’60.</head>
                         <p>
-                            <table rows="5" cols="5">
+                            <table rows="5" cols="5" rend="bordered">
                                 <row>
                                     <cell>1858.</cell>
                                     <cell>1857.</cell>
@@ -26564,31 +26585,32 @@
                                     <cell>1860.</cell>
                                 </row>
                                 <row>
-                                    <cell>Cantars, 539,885.</cell>
-                                    <cell>Cantars, 490,968.</cell>
-                                    <cell>Cantars, 519,537.</cell>
-                                    <cell>Cantars, 502,645.</cell>
-                                    <cell>Cantars, 501,324.</cell>
+                                    <cell>Cantars,<lb/>539,885.</cell>
+                                    <cell>Cantars,<lb/>490,968.</cell>
+                                    <cell>Cantars,<lb/>519,537.</cell>
+                                    <cell>Cantars,<lb/>502,645.</cell>
+                                    <cell>Cantars,<lb/>501,324.</cell>
                                 </row>
                                 <row>
-                                    <cell>Or bags of 2 cantars each, 269,942.</cell>
-                                    <cell>Or bags of 2 cantars each, 245,484.</cell>
-                                    <cell>Or bags of 2 cantars each, 259,768.</cell>
-                                    <cell>Or bags of 2 cantars each, 251,322.</cell>
-                                    <cell>Or bags of 2 cantars each, 250,662.</cell>
+                                    <cell>Or bags of 2 cantars each,<lb/>269,942.</cell>
+                                    <cell>Or bags of 2 cantars each,<lb/>245,484.</cell>
+                                    <cell>Or bags of 2 cantars each,<lb/>259,768.</cell>
+                                    <cell>Or bags of 2 cantars each,<lb/>251,322.</cell>
+                                    <cell>Or bags of 2 cantars each,<lb/>250,662.</cell>
                                 </row>
                                 <row>
-                                    <cell>Or pressed bales of 4 cantars each, 134,971.</cell>
-                                    <cell>Or pressed bales of 4 cantars each, 122,742.</cell>
-                                    <cell>Or pressed bales of 4 cantars each, 129,884.</cell>
-                                    <cell>Or pressed bales of 4 cantars each, 125,661.</cell>
-                                    <cell>Or pressed bales of 4 cantars each, 125,331.</cell>
+                                    <cell>Or pressed bales of 4 cantars each,<lb/>134,971.</cell>
+                                    <cell>Or pressed bales of 4 cantars each,<lb/>122,742.</cell>
+                                    <cell>Or pressed bales of 4 cantars each,<lb/>129,884.</cell>
+                                    <cell>Or pressed bales of 4 cantars each,<lb/>125,661.</cell>
+                                    <cell>Or pressed bales of 4 cantars each,<lb/>125,331.</cell>
                                 </row>
                                 <row>
                                     <cell cols="5">This year’s crop is not yet known, it being still
                                         growing, and will be gathered about the months of September
                                         to December, although it is estimated to be equal to that of
-                                        the preceding years.</cell>
+                                        the preceding years.<lb/><hi rend="smallcaps">Alexandria,
+                                            Egypt</hi>,<hi rend="italic">July</hi> 15, 1861.</cell>
                                 </row>
                             </table>
                         </p>
