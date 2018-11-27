@@ -623,7 +623,7 @@
     <pattern id="ref-to-page-footnote-check">
         <title>Ref to Page Footnote Check</title>
         <rule context="tei:ref[contains(@target, '#pg_')]">
-            <assert test="not(following-sibling::node()[1]/self::tei:hi = 'n')">Please italicized
+            <assert test="not(following-sibling::node()[1]/self::tei:hi = 'n')">Please italicize
                 'n' inside the ref.</assert>
         </rule>
     </pattern>
@@ -655,6 +655,24 @@
                 element.</assert>
             <assert test="string-length(normalize-space(.)) gt 0">Head elements cannot be
                 empty.</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="source-note-checks">
+        <title>Source Note checks</title>
+        <rule context="tei:div[@subtype eq 'historical-document']">
+            <let name="source-note"
+                value="tei:note[@type eq 'source' and @rend eq 'inline'], tei:head/tei:note[@type eq 'source'], tei:head/tei:note/tei:p/tei:seg[@type eq 'source']"/>
+            <let name="source-note-content"
+                value="
+                    (if ($source-note/tei:p) then
+                        $source-note/tei:p[1]
+                    else
+                        $source-note) => normalize-space()"/>
+            <assert test="exists($source-note)">Source note is missing</assert>
+            <assert
+                test="starts-with($source-note-content, 'Source:') or matches($source-note-content, '^\[Source:(.+)\]$')"
+                >Source note doesn't begin with 'Source:' or '[Source:...]'</assert>
         </rule>
     </pattern>
 

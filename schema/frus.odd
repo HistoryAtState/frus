@@ -126,7 +126,7 @@
 
                 <div xml:id="header">
                     <head>teiHeader</head>
-                    <p>FRUS-TEI stores several pieces of metadata about a volume in the
+                    <p>FRUS TEI stores several pieces of metadata about a volume in the
                             <gi>teiHeader</gi> element: <list>
                             <item><code>fileDesc/titleStmt/title</code>: The volume's complete title
                                 and its components (series, subseries, volume number, and volume
@@ -267,12 +267,13 @@
                                 </titlePage>
                                 <pb n="[II]" xml:id="pg_II" facs="0003"/>
                                 <titlePage>
-                                    <docImprint> DEPARTMENT OF STATE PUBLICATION 11374 <lb/>Office
-                                        of the Historian <lb/>Bureau of Public Affairs </docImprint>
+                                    <docImprint>DEPARTMENT OF STATE PUBLICATION 11374<lb/>
+                                        Office of the Historian<lb/>
+                                        Bureau of Public Affairs</docImprint>
                                     <milestone unit="section" rend="hr"/>
-                                    <docImprint> For sale by the U.S. Government Printing Office
-                                        <lb/>Superintendent of Documents, Mail Stop SSOP,
-                                        Washington, DC 20402-9328 </docImprint>
+                                    <docImprint>For sale by the U.S. Government Printing Office<lb/>
+                                        Superintendent of Documents, Mail Stop SSOP, Washington, DC
+                                        20402-9328</docImprint>
                                 </titlePage>
                             </egXML>
                         </div>
@@ -371,8 +372,8 @@
                                         <div xml:id="ch1" type="chapter">
                                             <head>October-November 1969</head>
                                             <div n="1" xml:id="d1" type="document">
-                                                <head>1. Memorandum of Conversation<note n="1"
-                                                  xml:id="d1fn1">Source: Nixon Library</note></head>
+                                                <head>1. Memorandum of Conversation<note n="1" type="source"
+                                                  xml:id="d1fn1">Source: Nixon Library...</note></head>
                                                 <p>In my meeting today...</p>
                                             </div>
                                         </div>
@@ -382,8 +383,8 @@
                                         <div xml:id="ch4" type="chapter">
                                             <head>October-November 1969</head>
                                             <div n="50" xml:id="d50" type="document">
-                                                <head>1. Memorandum of Conversation<note n="1"
-                                                  xml:id="d1fn1">Source: Nixon Library</note></head>
+                                                <head>1. Memorandum of Conversation<note n="1" type="source"
+                                                  xml:id="d1fn1">Source: Nixon Library...</note></head>
                                                 <p>In my meeting today...</p>
                                             </div>
                                         </div>
@@ -448,7 +449,7 @@
                         <head>Characters and encoding</head>
                         <p>The text of the file should be submitted as Unicode (UTF-8).</p>
                         <p>Unicode characters should be used directly, not the escaped entity form.
-                            The only acceptable entity is &amp; for ampersand.</p>
+                            The only acceptable entity is &amp;amp; for ampersand.</p>
                         <p>Single and double quotation marks should preserve the original curly or
                             straight quality.</p>
                         <p>Hyphens, em, and en dashes should be preserved in their original
@@ -519,7 +520,7 @@
                         <p>Paragraphs may not be empty.</p>
                     </div>
                     <div xml:id="inline-styles">
-                        <head>Inline Styles</head>
+                        <head>Inline styles</head>
                         <p>The styles of inline spans of text can be marked as italic, bold, etc.
                             with the <gi>hi</gi> element and a <att>rend</att> attribute carrying
                             one of the following values:<list>
@@ -656,12 +657,57 @@
                         <list>
                             <item><att>type</att>: A value of <ident>source</ident> is required for
                                 notes that contain the archival source of the document (the "source
-                                note").</item>
+                                note"). A value of <ident>summary</ident> is required in
+                                "electronic-only" volumes that contain document summaries.</item>
                             <item><att>rend</att>: In cases where the source note appears in the
                                 body text of a page rather than in a footnote, the <gi>note</gi>
                                 element requires this attribute to carry the value of
                                     <ident>inline</ident>.</item>
                         </list>
+                    </div>
+                    <div xml:id="source-notes">
+                        <head>Source notes</head>
+                        <p>As mentioned above, source notes contain the archival source of the
+                            document, and are generally encoded as the first footnote in a document:
+                            a <gi>note</gi> element hung on the document's heading, with
+                                <att>n</att>=<ident>1</ident>,
+                            <att>type</att>=<ident>source</ident>, and, of course like all
+                            footnotes, an <att>xml:id</att> attribute whose value is the
+                            concatenation of the parent document's identifier and the footnote
+                            position, e.g., for document 32,
+                            <att>xml:id</att>=<ident>d32fn1</ident>.</p>
+                        <p>Source notes generally begin with the text, "Source:". In the case of
+                            documents that are withheld in full, the source note is bracketed and
+                            placed in the body of the document, as an inline note (meaning it will
+                            appear in the body text, rather than as a footnote reference, and as
+                            such, no <att>n</att> or <att>xml:id</att> attributes should be
+                            used):</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <note type="source" rend="inline">[Source: Johnson Library, National
+                                Security File, Vatican, Vol. 1. No classification marking. 2 pages
+                                of source text not declassified.]</note>
+                        </egXML>
+                        <p>When a source note contains more than one paragraph, each paragraph
+                            therein is wrapped a <gi>p</gi> element. Source notes that contain only
+                            a single block of text, however, are not wrapped in a <gi>p</gi>
+                            element.</p>
+                        <p>In some Nixon-Ford electronic-only volumes, the source note and summary
+                            are placed within a single footnote. In this case, the no
+                                <att>type</att> attribute is placed on the <gi>note</gi> element.
+                            Instead, a <gi>seg</gi> element with
+                                <att>type</att>=<ident>source|summary</ident> is placed within the
+                            relevant paragraphs. For example:</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <note n="1" xml:id="d3fn1">
+                                <p>
+                                    <seg type="summary">Summary: Kissinger instructed
+                                        Eagleton...</seg>
+                                </p>
+                                <p>
+                                    <seg type="source">Source: Library of Congress...</seg>
+                                </p>
+                            </note>
+                        </egXML>
                     </div>
                     <div xml:id="datelines">
                         <head>Datelines</head>
@@ -975,12 +1021,12 @@
                     textstructure. -->
                     <desc>FRUS TEI Schema Spec</desc>
                     <moduleRef key="core"
-                        include="p hi gloss term name date time ref list item head note                          graphic pb lb editor title publisher pubPlace label gap unclear cit quote bibl del l lg"/>
+                        include="p hi gloss term name date time ref list item head note graphic pb lb editor title publisher pubPlace label gap unclear cit quote bibl del l lg"/>
                     <moduleRef key="tei"/>
                     <moduleRef key="header"
-                        include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc                          encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change                          classDecl taxonomy category catDesc"/>
+                        include="teiHeader fileDesc titleStmt publicationStmt idno sourceDesc encodingDesc styleDefDecl tagsDecl rendition editorialDecl correction revisionDesc change classDecl taxonomy category catDesc"/>
                     <moduleRef key="textstructure"
-                        include="TEI text body div byline dateline opener salute closer signed postscript titlePage                          docTitle titlePart docImprint docDate front back"/>
+                        include="TEI text body div byline dateline opener salute closer signed postscript titlePage docTitle titlePart docImprint docDate front back"/>
                     <moduleRef key="namesdates" include="persName placeName affiliation orgName"/>
                     <moduleRef key="figures" include="table row cell figure"/>
                     <!-- including the linking module gives us @corresp -->
