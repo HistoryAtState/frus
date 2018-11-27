@@ -662,20 +662,23 @@
         <title>Source Note checks</title>
         <rule context="tei:div[@subtype eq 'historical-document']">
             <let name="source-note"
-                value="tei:note[@type eq 'source' and @rend eq 'inline'], tei:head/tei:note[@type eq 'source'], tei:head/tei:note/tei:p/tei:seg[@type eq 'source']"/>
+                value="(tei:note[@type eq 'source' and @rend eq 'inline'], tei:head/tei:note[@type eq 'source'], tei:head/tei:note/tei:p/tei:seg[@type eq 'source'])[1]"/>
             <let name="source-note-content"
                 value="
-                    (if ($source-note/tei:p) then
-                        $source-note/tei:p[1]
-                    else
-                        $source-note) => normalize-space()"/>
+                    (
+                        if ($source-note/tei:p) then
+                            $source-note/tei:p[1]
+                        else
+                            $source-note
+                    )[1] => normalize-space()"/>
             <assert test="exists($source-note)">Source note is missing</assert>
+            <!-- if the source note is the 1st element in the div, it's a pre-1955 document, before the "Source:" convention was present/consistent -->
             <assert
-                test="starts-with($source-note-content, 'Source:') or matches($source-note-content, '^\[Source:(.+)\]$')"
-                >Source note doesn't begin with 'Source:' or '[Source:...]'</assert>
+                test="if (./element()[1] is $source-note) then true() else (starts-with($source-note-content, 'Source:') or matches($source-note-content, '^\[Source:(.+)\]$'))"
+                >Source note doesn't begin with 'Source:' or '[Source:...]': <value-of select="$source-note-content"/></assert>
         </rule>
     </pattern>
-
+    
     <pattern id="image-url-checks">
         <title>Image Checks</title>
         <rule context="tei:graphic">
