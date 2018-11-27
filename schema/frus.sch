@@ -660,7 +660,7 @@
     
     <pattern id="source-note-checks">
         <title>Source Note checks</title>
-        <rule context="tei:div[@subtype eq 'historical-document']">
+        <rule context="tei:div[@subtype eq 'historical-document'][root(.)/tei:TEI/tei:teiHeader//tei:date[@type eq 'content-date']/@notBefore ge '1950']">
             <let name="source-note"
                 value="(tei:note[@type eq 'source' and @rend eq 'inline'], tei:head/tei:note[@type eq 'source'], tei:head/tei:note/tei:p/tei:seg[@type eq 'source'])[1]"/>
             <let name="source-note-content"
