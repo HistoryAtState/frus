@@ -8,7 +8,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-07-31T12:41:31Z. .
+# Schema generated from ODD source 2018-11-27T17:00:12Z. .
 # TEI Edition: Version 3.4.0. Last updated on
 #	23rd July 2018, revision 1fa0b54
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
@@ -1472,11 +1472,11 @@ date =
         ## (Date value(s) for undated document were inferred from
         ##                                             volume date range and possibly outside research) 
         "#date_undated-inferred-from-volume-rules"
-      |
+      | 
         ## (Date value(s) for undated document were inferred from
         ##                                             volume date range. (The value(s) serve as a placeholder
         ##                                             until more discrete analysis can be conducted on an
-        ##                                             individual document level.))
+        ##                                             individual document level.)) 
         "#date_undated-temporarily-inferred-from-volume-rules"
     }?,
     
@@ -1794,7 +1794,7 @@ ref =
       | 
         ## (Front matter List of Sources) 
         "sources"
-        | 
+      | 
         ## (Document Senders/Authors List) 
         "from"
       | 
@@ -1863,14 +1863,15 @@ head =
       
       ## (The author and recipient were not included by the
       ##                                             FRUS editor/compiler as they were determined to be the
-      ##                                             same as those supplied in the parent chapter heading.) 
+      ##                                             same as those supplied in the parent chapter
+      ##                                             heading.) 
       "#head_untitled-inferred-from-chapter-head"
       | 
-      ## (The author and recipient were not included by the
-      ##                                             FRUS editor/compiler as they were determined to be the
-      ##                                             same as those of the preceding document.) 
-      "#head_untitled-inferred-from-preceding-sibling-head"
-      |
+        ## (The author and recipient were not included by the
+        ##                                             FRUS editor/compiler as they were determined to be the
+        ##                                             same as those of the preceding document.) 
+        "#head_untitled-inferred-from-preceding-sibling-head"
+      | 
         ## (The printed volume did not include a header for the
         ##                                             particular document, and none could be inferred from the
         ##                                             parent chapter or preceding document. As a result,
