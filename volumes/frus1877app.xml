@@ -23,6 +23,8 @@
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1877app</idno>
                 <idno type="oclc"/>
+                <date type="content-date" calendar="gregorian" notBefore="1877-06-30T23:56:00-05:00"
+                    notAfter="1877-12-30T23:59:59-05:00">1877</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 1877 as printed book and adapted to TEI-XML based on scans provided
@@ -90,9 +92,9 @@
             </titlePage>
             <pb n="[II]" xml:id="pg_656" facs="0730"/>
             <pb n="[III]" xml:id="pg_657" facs="0731"/>
-        </front>
-        <body>
-            <div type="section" xml:id="papers1">
+            <div type="section" xml:id="papers1" subtype="index"
+                frus:doc-dateTime-min="1877-06-30T23:56:00-05:00"
+                frus:doc-dateTime-max="1877-12-30T23:59:59-05:00">
                 <head>Appendix: List of papers, with their subjects</head>
                 <p rend="center"><hi rend="smallcaps">circulars.</hi></p>
                 <table rows="3" cols="5" rend="bordered">
@@ -716,19 +718,23 @@
                     </row>
                 </table>
             </div>
+        </front>
+        <body>
             <pb n="[1]" xml:id="pg_661" facs="0735"/>
             <div type="compilation" xml:id="comp1">
                 <head>Circulars</head>
                 <div type="document" xml:id="d1" n="1" subtype="historical-document"
-                    frus:doc-dateTime-min="1877-07-09T00:00:00-05:00"
-                    frus:doc-dateTime-max="1877-07-09T23:59:59-05:00">
+                    frus:doc-dateTime-min="1877-06-30T23:56:00-05:00"
+                    frus:doc-dateTime-max="1877-07-31T23:55:59-05:00">
                     <head>No. 1.<lb/><hi rend="italic">To the diplomatic and consular officers of
                             the United States hi Spanish American States and Brazil.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
                                     of State</hi>,<lb/><hi rend="italic"
-                            >Washington</hi></placeName>, <date when="1877-07-09"
-                                calendar="gregorian"><hi rend="italic">July</hi>—,
-                            1877</date>.</dateline>
+                            >Washington</hi></placeName>, <date when="1877-07"
+                                notBefore="1877-07-01T00:00:00-04:56"
+                                notAfter="1877-07-31T23:59:59-04:56"
+                                ana="#date_imprecise-inferred-from-date-rules" calendar="gregorian"
+                                    ><hi rend="italic">July</hi>—, 1877</date>.</dateline>
                         <seg rendition="#left">Separate.]</seg></opener>
                     <p><hi rend="smallcaps">Sir</hi>: Under the provisions of section 208, Revised
                         Statutes, and of paragraphs 380, 381, and 382 of the Consular Regulations,
@@ -790,15 +796,17 @@
                     <closer><signed>WM. M. EVARTS.</signed></closer>
                 </div>
                 <div type="document" xml:id="d2" n="2" subtype="historical-document"
-                    frus:doc-dateTime-min="1877-08-01T00:00:00-05:00"
-                    frus:doc-dateTime-max="1877-08-01T23:59:59-05:00">
+                    frus:doc-dateTime-min="1877-07-31T23:56:00-05:00"
+                    frus:doc-dateTime-max="1877-08-31T23:55:59-05:00">
                     <head>No. 2.<lb/><hi rend="italic">To the diplomatic and consular officers of
                             the United States in Europe.</hi></head>
                     <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
                                     of State</hi>,<lb/><hi rend="italic"
-                            >Washington</hi></placeName>, <date when="1877-08-01"
-                                calendar="gregorian"><hi rend="italic">August</hi> —,
-                            1877</date>.</dateline>
+                            >Washington</hi></placeName>, <date when="1877-08"
+                                notBefore="1877-08-01T00:00:00-04:56"
+                                notAfter="1877-08-31T23:59:59-04:56"
+                                ana="#date_imprecise-inferred-from-date-rules" calendar="gregorian"
+                                    ><hi rend="italic">August</hi> —, 1877</date>.</dateline>
                         <seg rendition="#left">Separate.]</seg></opener>
                     <p><hi rend="smallcaps">Sir</hi>: Under the provisions of section 208, Revised
                         Statutes, and of paragraphs 380, 381 and 382 of the Consular Regulations,
@@ -12670,6 +12678,11 @@
                                     exports at the port of Samana during the years</hi> 1875, 1876,
                                     <hi rend="italic">and</hi> 1877, <hi rend="italic"
                                 >&amp;c.</hi></head>
+                            <opener>
+                                <dateline>[<date notBefore="1877-09-30T00:00:00-04:56"
+                                        notAfter="1877-10-15T23:59:59+12:37"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        calendar="gregorian">undated</date>]</dateline></opener>
                             <p rend="center"><hi rend="italic">Arrivals of vessels at the port of
                                     Samana during the year</hi> 1875.</p>
                             <table rows="8" cols="2">
@@ -13637,7 +13650,9 @@
         </body>
         <back>
             <pb n="149" xml:id="pg_809" facs="0883"/>
-            <div type="section" xml:id="index1">
+            <div type="section" xml:id="index1" subtype="index"
+                frus:doc-dateTime-min="1877-06-30T23:56:00-05:00"
+                frus:doc-dateTime-max="1877-12-30T23:59:59-05:00">
                 <head>Alphabetical Index.</head>
                 <p rend="center">A.</p>
                 <list type="index">
