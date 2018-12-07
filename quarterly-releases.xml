@@ -391,10 +391,8 @@
     <release>
         <id>2018q4</id>
         <name>2018 Q4</name>
-        <count>16</count>
+        <count>14</count>
         <volumes>
-            <vol-id>frus1861-99Index</vol-id>
-            <vol-id>frus1900-18Index</vol-id>
             <vol-id>frus1861</vol-id>
             <vol-id>frus1862</vol-id>
             <vol-id>frus1863p1</vol-id>
@@ -409,6 +407,15 @@
             <vol-id>frus1866p1</vol-id>
             <vol-id>frus1866p2</vol-id>
             <vol-id>frus1866p3</vol-id>
+        </volumes>
+    </release>
+    <release>
+        <id>2019-and-beyond</id>
+        <name>2019 and Beyond (to include microfiche supplements)</name>
+        <count>2</count>
+        <volumes>
+            <vol-id>frus1861-99Index</vol-id>
+            <vol-id>frus1900-18Index</vol-id>
         </volumes>
     </release>
 </relases>
