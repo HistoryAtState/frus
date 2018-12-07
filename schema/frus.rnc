@@ -8,7 +8,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-11-27T17:00:12Z. .
+# Schema generated from ODD source 2018-12-07T17:56:23Z. .
 # TEI Edition: Version 3.4.0. Last updated on
 #	23rd July 2018, revision 1fa0b54
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
@@ -2951,6 +2951,7 @@ figure =
   element figure {
     (model.headLike
      | model.common
+     | figDesc
      | model.graphicLike
      | model.global
      | model.divBottom)*,
@@ -2960,6 +2961,10 @@ figure =
     att.written.attributes,
     empty
   }
+figDesc =
+  
+  ## (description of figure) contains a brief prose description of the appearance or content of a graphic figure, for use when documenting an image without displaying it. [14.4. Specific Elements for Graphic Images]
+  element figDesc { macro.limitedContent, att.global.attributes, empty }
 att.global.linking.attributes = att.global.linking.attribute.corresp
 att.global.linking.attribute.corresp =
   

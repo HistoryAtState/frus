@@ -1028,7 +1028,7 @@
                     <moduleRef key="textstructure"
                         include="TEI text body div byline dateline opener salute closer signed postscript titlePage docTitle titlePart docImprint docDate front back"/>
                     <moduleRef key="namesdates" include="persName placeName affiliation orgName"/>
-                    <moduleRef key="figures" include="table row cell figure"/>
+                    <moduleRef key="figures" include="table row cell figure figDesc"/>
                     <!-- including the linking module gives us @corresp -->
                     <moduleRef key="linking" include="anchor seg"/>
                     <!-- including the transcr module gives us @facs -->
