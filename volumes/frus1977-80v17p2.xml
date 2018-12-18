@@ -61,7 +61,7 @@
             </titlePage>
             <div type="section" xml:id="AbouttheSeries"
                 frus:doc-dateTime-min="1977-02-17T09:00:00-05:00"
-                frus:doc-dateTime-max="1980-12-31T23:59:59-05:00">
+                frus:doc-dateTime-max="1980-12-31T23:59:59-05:00" subtype="about-frus-series">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -234,7 +234,7 @@
                 </closer>
             </div>
             <div type="section" xml:id="preface" frus:doc-dateTime-min="1977-02-17T09:00:00-05:00"
-                frus:doc-dateTime-max="1980-12-31T23:59:59-05:00">
+                frus:doc-dateTime-max="1980-12-31T23:59:59-05:00" subtype="preface">
                 <pb n="VII" facs="0008" xml:id="pg_VII"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">Structure and Scope of the <hi rend="roman">Foreign
@@ -301,7 +301,7 @@
                 </closer>
             </div>
             <div type="section" xml:id="toc" frus:doc-dateTime-min="1977-02-17T09:00:00-05:00"
-                frus:doc-dateTime-max="1980-12-31T23:59:59-05:00">
+                frus:doc-dateTime-max="1980-12-31T23:59:59-05:00" subtype="table-of-contents">
                 <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
@@ -350,7 +350,7 @@
                 <pb n="X" facs="0011" xml:id="pg_X"/>
             </div>
             <div type="section" xml:id="sources" frus:doc-dateTime-min="1977-02-17T09:00:00-05:00"
-                frus:doc-dateTime-max="1980-12-31T23:59:59-05:00">
+                frus:doc-dateTime-max="1980-12-31T23:59:59-05:00" subtype="sources">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <hi rend="roman">Foreign Relations</hi>,
@@ -531,7 +531,7 @@
             </div>
 
             <div type="section" xml:id="terms" frus:doc-dateTime-min="1977-02-17T09:00:00-05:00"
-                frus:doc-dateTime-max="1980-12-31T23:59:59-05:00">
+                frus:doc-dateTime-max="1980-12-31T23:59:59-05:00" subtype="index">
                 <pb n="XV" facs="0016" xml:id="pg_XV"/>
                 <head>Abbreviations and Terms</head>
                 <list>
@@ -929,7 +929,7 @@
                 </list>
             </div>
             <div type="section" xml:id="persons" frus:doc-dateTime-min="1977-02-17T09:00:00-05:00"
-                frus:doc-dateTime-max="1980-12-31T23:59:59-05:00">
+                frus:doc-dateTime-max="1980-12-31T23:59:59-05:00" subtype="index">
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Persons</head>
                 <list>
@@ -1296,12 +1296,17 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1">
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1977-02-17T09:00:00-05:00"
+                frus:doc-dateTime-max="1980-12-31T23:59:59-05:00">
                 <head>Sub-Saharan Africa</head>
                 <pb n="1" facs="0024" xml:id="pg_1"/>
-                <div type="chapter" n="1" xml:id="ch1">
+                <div type="chapter" n="1" xml:id="ch1"
+                    frus:doc-dateTime-min="1977-02-18T15:32:00-05:00"
+                    frus:doc-dateTime-max="1980-10-02T23:59:59-05:00">
                     <head>Africa Region</head>
-                    <div type="document" n="1" xml:id="d1" subtype="editorial-note">
+                    <div type="document" n="1" xml:id="d1" subtype="editorial-note"
+                        frus:doc-dateTime-min="1977-02-17T09:00:00-05:00"
+                        frus:doc-dateTime-max="1980-12-31T23:59:59-05:00">
                         <head>1. Editorial Note</head>
                         <p>The Intelligence Community (IC) produced National Intelligence Estimate
                             11–10–76 on Soviet Military Policy in the Third World, dated October 21,
@@ -1634,7 +1639,9 @@
                             attention on Africa, the U.S. should attempt to improve significantly
                             its relations with India.</p>
                     </div>
-                    <div type="document" n="4" xml:id="d4" subtype="editorial-note">
+                    <div type="document" n="4" xml:id="d4" subtype="editorial-note"
+                        frus:doc-dateTime-min="1977-02-17T09:00:00-05:00"
+                        frus:doc-dateTime-max="1980-12-31T23:59:59-05:00">
                         <head>4. Editorial Note</head>
                         <p>On July 1, 1977, Secretary of State <persName corresp="#p_VC_1"
                                 >Vance</persName> gave a speech before the annual convention of the
@@ -4026,7 +4033,9 @@
                             scale debate of the entire range of questions involved.</p>
                         <p>[Omitted here is the body of the paper, including several annexes.]</p>
                     </div>
-                    <div type="document" n="17" xml:id="d17" subtype="editorial-note">
+                    <div type="document" n="17" xml:id="d17" subtype="editorial-note"
+                        frus:doc-dateTime-min="1977-02-17T09:00:00-05:00"
+                        frus:doc-dateTime-max="1980-12-31T23:59:59-05:00">
                         <pb n="57" facs="0080" xml:id="pg_57"/>
                         <head>17. Editorial Note</head>
                         <p>In January 1980, the <persName corresp="#p_CJE_1">Carter</persName>
@@ -4222,7 +4231,9 @@
                             process. (U)</p>
                     </div>
                 </div>
-                <div type="chapter" n="2" xml:id="ch2">
+                <div type="chapter" n="2" xml:id="ch2"
+                    frus:doc-dateTime-min="1977-02-18T11:22:00-05:00"
+                    frus:doc-dateTime-max="1980-12-31T23:59:59-05:00">
                     <pb n="61" facs="0084" xml:id="pg_61"/>
                     <head>West Africa</head>
                     <div type="document" n="20" xml:id="d20" subtype="historical-document"
@@ -12716,7 +12727,9 @@
                         <p>[Omitted here is the body of the memorandum.]</p>
                     </div>
                 </div>
-                <div type="chapter" n="3" xml:id="ch3">
+                <div type="chapter" n="3" xml:id="ch3"
+                    frus:doc-dateTime-min="1977-03-07T05:00:00-05:00"
+                    frus:doc-dateTime-max="1980-08-12T10:07:00-05:00">
                     <pb n="222" facs="0245" xml:id="pg_222"/>
                     <head>Central Africa</head>
                     <div type="document" n="72" xml:id="d72" subtype="historical-document"
@@ -16416,7 +16429,9 @@
                             </signed>
                         </closer>
                     </div>
-                    <div type="document" n="108" xml:id="d108" subtype="editorial-note">
+                    <div type="document" n="108" xml:id="d108" subtype="editorial-note"
+                        frus:doc-dateTime-min="1977-02-17T09:00:00-05:00"
+                        frus:doc-dateTime-max="1980-12-31T23:59:59-05:00">
                         <pb n="292" facs="0315" xml:id="pg_292"/>
                         <head>108. Editorial Note</head>
                         <p>In a news conference on May 25, 1978, President <persName
@@ -20100,10 +20115,14 @@
                         </closer>
                     </div>
                 </div>
-                <div type="chapter" n="4" xml:id="ch4">
+                <div type="chapter" n="4" xml:id="ch4"
+                    frus:doc-dateTime-min="1977-02-17T09:00:00-05:00"
+                    frus:doc-dateTime-max="1980-12-23T01:50:00-05:00">
                     <pb n="364" facs="0387" xml:id="pg_364"/>
                     <head>East Africa</head>
-                    <div type="document" n="136" xml:id="d136" subtype="editorial-note">
+                    <div type="document" n="136" xml:id="d136" subtype="editorial-note"
+                        frus:doc-dateTime-min="1977-02-17T09:00:00-05:00"
+                        frus:doc-dateTime-max="1980-12-31T23:59:59-05:00">
                         <head>136. Editorial Note</head>
                         <p>Although the United States never broke diplomatic relations with Uganda,
                             the Department of State closed the U.S. Embassy in Kampala on November
