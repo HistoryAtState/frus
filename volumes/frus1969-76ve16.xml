@@ -6776,7 +6776,7 @@
                             </note>
                             <dateline>
                                 <placeName>Washington</placeName>, <date
-                                    notBefore="1970-07-24T00:00:00"
+                                    notBefore="1970-07-24T00:00:00-04:00"
                                     notAfter="1970-08-18T23:59:59-04:00"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                     calendar="gregorian">undated</date>.</dateline>
@@ -22456,8 +22456,8 @@
                     </div>
 
                     <div type="document" n="73" xml:id="d73" subtype="historical-document"
-                        frus:doc-dateTime-min="1971-06-03T15:09:00-05:00"
-                        frus:doc-dateTime-max="1971-06-03T16:06:00-05:00">
+                        frus:doc-dateTime-min="1971-06-03T14:09:00-05:00"
+                        frus:doc-dateTime-max="1971-06-03T15:06:00-05:00">
                         <head>73. Minutes of a Meeting of the Senior Review Group<note n="1"
                                 xml:id="d73fn1">
                                 <p><seg type="summary">Summary: At this Senior Review Group meeting,
@@ -22480,9 +22480,9 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date from="1971-06-03T15:09:00"
-                                to="1971-06-03T16:06:00" calendar="gregorian">June 3, 1971,
-                                3:09–4:06 p.m.</date>
+                            <placeName>Washington</placeName>, <date
+                                from="1971-06-03T15:09:00-04:00" to="1971-06-03T16:06:00-04:00"
+                                calendar="gregorian">June 3, 1971, 3:09–4:06 p.m.</date>
                         </dateline>
                         <list type="subject">
                             <head>SUBJECT</head>
@@ -46745,8 +46745,8 @@
                     </div>
 
                     <div type="document" n="150" xml:id="d150" subtype="historical-document"
-                        frus:doc-dateTime-min="1973-09-20T10:23:00-05:00"
-                        frus:doc-dateTime-max="1973-09-20T10:23:00-05:00">
+                        frus:doc-dateTime-min="1973-09-20T09:23:00-05:00"
+                        frus:doc-dateTime-max="1973-09-20T09:23:00-05:00">
                         <pb n="779" facs="0819" xml:id="pg_779"/>
                         <head>150. Transcript of a Telephone Conversation Between the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_KHA_1"
@@ -46776,8 +46776,9 @@
                             </note>
                         </head>
                         <dateline>
-                            <placeName>Washington</placeName>, <date when="1973-09-20T10:23:00"
-                                calendar="gregorian">September 20, 1973, 10:23 a.m.</date>
+                            <placeName>Washington</placeName>, <date
+                                when="1973-09-20T10:23:00-04:00" calendar="gregorian">September 20,
+                                1973, 10:23 a.m.</date>
                         </dateline>
                         <p>K: Frank, I just wanted to call you to tell you two things—one how much
                             your vote meant to me personally and secondly to reaffirm what I said to
