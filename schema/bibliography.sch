@@ -4,6 +4,17 @@
 
     <p>This schematron adds a few contextual rules RelaxNG Schema file for bibliography files.</p>
 
+    <pattern id="filename-id-check">
+        <rule context="/volume">
+            <assert test="@id">Volume's root element is missing an @id; it should correspond
+                to the volume ID.</assert>
+        </rule>
+        <rule context="/volume/@id">
+            <let name="basename" value="replace(base-uri(.), '^.*/(.*?)$', '$1')"/>
+            <assert test="$basename = concat(., '.xml')">volume id <value-of select="."/> does not
+                match filename <value-of select="$basename"/></assert>
+        </rule>
+    </pattern>
     <pattern id="pre-publication-check">
         <title>Checks for volumes that have been published</title>
         <rule context="span[parent::length/parent::volume/publication-status = 'published']">
