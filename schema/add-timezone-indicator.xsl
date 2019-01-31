@@ -9,9 +9,17 @@
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
     </xsl:template>
-
+    
     <xsl:template match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., 'Berlin')]]">
         <xsl:choose>
+            
+            <xsl:when
+                test=".[matches(xs:string(data(.)), '1941-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+02:00')"/>
+                </xsl:attribute>
+            </xsl:when>
             
             <xsl:when
                 test=".[matches(xs:string(data(.)), '189(4|5|6|7|8|9)-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
