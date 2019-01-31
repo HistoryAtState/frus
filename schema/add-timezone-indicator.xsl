@@ -10,8 +10,34 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="tei:date/attribute::*">
+    <xsl:template match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., 'Moscow')]]">
         <xsl:choose>
+            
+            <xsl:when
+                test=".[matches(xs:string(data(.)), '193(1|2|34|5|6|7|8|9)-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+03:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[matches(xs:string(data(.)), '19(4|5|6|7)\d{1}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+03:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[matches(xs:string(data(.)), '1980-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+03:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <!--
             <xsl:when
                 test=".[matches(xs:string(data(.)), '19(5|6)\d{1}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$') and ancestor::tei:dateline//tei:placeName[matches(., 'Paris')]]">
                 <xsl:variable name="attribute-name" select="node-name(.)"/>
@@ -19,6 +45,8 @@
                     <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
                 </xsl:attribute>
             </xsl:when>
+            -->
+            
             <xsl:otherwise>
                 <xsl:copy>
                     <xsl:apply-templates select="."/>
