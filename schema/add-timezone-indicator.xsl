@@ -974,7 +974,7 @@
             </xsl:when>
             
             <xsl:when
-                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1974-10-27T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('T03:00:00'))]">
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1974-10-27T03:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1975-03-16T02:00:00'))]">
                 <xsl:variable name="attribute-name" select="node-name(.)"/>
                 <xsl:attribute name="{$attribute-name}">
                     <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
@@ -982,15 +982,7 @@
             </xsl:when>
             
             <xsl:when
-                test=".[(xs:dateTime(.) &gt;= xs:dateTime('T03:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('T02:00:00'))]">
-                <xsl:variable name="attribute-name" select="node-name(.)"/>
-                <xsl:attribute name="{$attribute-name}">
-                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
-                </xsl:attribute>
-            </xsl:when>
-            
-            <xsl:when
-                test=".[(xs:dateTime(.) &gt;= xs:dateTime('T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('T03:00:00'))]">
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1975-03-16T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1975-10-26T03:00:00'))]">
                 <xsl:variable name="attribute-name" select="node-name(.)"/>
                 <xsl:attribute name="{$attribute-name}">
                     <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
@@ -998,7 +990,7 @@
             </xsl:when>
             
             <xsl:when
-                test=".[(xs:dateTime(.) &gt;= xs:dateTime('T03:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('02:00:00'))]">
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1975-10-26T03:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1976-03-21T02:00:00'))]">
                 <xsl:variable name="attribute-name" select="node-name(.)"/>
                 <xsl:attribute name="{$attribute-name}">
                     <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
@@ -1006,7 +998,385 @@
             </xsl:when>
             
             <xsl:when
-                test=".[(xs:dateTime(.) &gt;= xs:dateTime('T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('T03:00:00'))]">
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1976-03-21T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1976-10-24T03:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1976-10-24T03:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1977-03-20T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1977-03-20T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1977-10-23T03:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1977-10-23T03:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1978-03-19T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1978-03-19T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1978-10-29T03:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1978-10-29T03:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1979-03-18T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1979-03-18T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1979-10-28T03:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1979-10-28T03:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1980-03-16T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1980-03-16T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1980-10-26T03:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1980-10-26T03:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1981-03-29T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1981-03-29T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1981-10-25T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1981-10-25T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1982-03-28T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1982-03-28T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1982-10-24T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1982-10-24T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1983-03-27T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1983-03-27T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1983-10-23T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1983-10-23T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1984-03-25T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1984-03-25T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1984-10-28T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1984-10-28T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1985-03-31T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1985-03-31T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1985-10-27T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1985-10-27T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1986-03-30T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1986-03-30T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1986-10-26T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1986-10-26T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1987-03-29T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1987-03-29T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1987-10-25T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1987-10-25T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1988-03-27T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1988-03-27T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1988-10-23T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1988-10-23T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1989-03-26T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1989-03-26T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1989-10-29T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <!-- 1990s -->
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1989-10-29T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1990-03-25T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1990-03-25T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1990-10-28T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1990-10-28T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1991-03-31T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1991-03-31T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1991-10-27T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1991-10-27T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1992-03-29T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1992-03-29T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1992-10-25T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1992-10-25T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1993-03-28T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1993-03-28T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1993-10-24T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1993-10-24T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1994-03-27T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1994-03-27T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1994-10-23T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1994-10-23T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1995-03-26T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1995-03-26T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1995-10-22T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1995-10-22T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1996-03-31T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1996-03-31T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1996-10-27T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1996-10-27T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1997-03-30T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1997-03-30T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1997-10-26T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1997-10-26T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1998-03-29T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1998-03-29T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1998-10-25T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1998-10-25T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1999-03-28T01:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1999-03-28T01:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1999-10-31T02:00:00'))]">
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+            </xsl:when>
+            
+            <xsl:when
+                test=".[(xs:dateTime(.) &gt;= xs:dateTime('1999-10-31T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('2000-03-26T01:00:00'))]">
                 <xsl:variable name="attribute-name" select="node-name(.)"/>
                 <xsl:attribute name="{$attribute-name}">
                     <xsl:value-of select="concat(xs:string(.), '+01:00')"/>
