@@ -5113,8 +5113,9 @@
                             <idno type="document-identifier">No. 139</idno>
                         </seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1961-02-27T17:06:00"
-                                calendar="gregorian">February 27, 1961, 5:06 p.m.</date></dateline>
+                            <placeName>Washington</placeName>, <date
+                                when="1961-02-27T17:06:00-05:00" calendar="gregorian">February 27,
+                                1961, 5:06 p.m.</date></dateline>
                     </opener>
                     <p rend="center">REASSESSMENT</p>
                     <p>There is considerable interest abroad in the process of reassessment now
@@ -16046,7 +16047,9 @@
                     </closer>
                 </div>
 
-                <div type="document" n="102" xml:id="d102" subtype="editorial-note">
+                <div type="document" n="102" xml:id="d102" subtype="editorial-note"
+                    frus:doc-dateTime-min="1960-12-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-09T23:59:59-05:00">
                     <head>102. Editorial Note</head>
                     <p>On December 28, 1962, the United States Advisory Commission on Information
                         released its 18th report, covering the calendar year 1962. In his letter of
@@ -17436,8 +17439,9 @@
                                 to Bangkok, London, Paris, Saigon, and <gloss target="#t_CINCPAC_1"
                                     >CINCPAC</gloss>.</note></head>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1963-02-06T20:04:00"
-                                calendar="gregorian">February 5, 1963, 8:04 p.m.</date>. </dateline>
+                            <placeName>Washington</placeName>, <date
+                                when="1963-02-06T20:04:00-05:00" calendar="gregorian">February 5,
+                                1963, 8:04 p.m.</date>. </dateline>
                         <p>776. Your reports over past several weeks indicate that we are facing
                             stepped-up PL offensive against <gloss target="#t_US_1">US</gloss>
                             operations and presence in Laos. This heightened pressure, although not
@@ -20521,8 +20525,8 @@
                 </div>
 
                 <div type="document" n="136" xml:id="d136" subtype="historical-document"
-                    frus:doc-dateTime-min="1963-07-26T13:00:00-05:00"
-                    frus:doc-dateTime-max="1963-07-26T13:00:00-05:00">
+                    frus:doc-dateTime-min="1963-07-26T12:00:00-05:00"
+                    frus:doc-dateTime-max="1963-07-26T12:00:00-05:00">
                     <head>136. News Policy Note From the Chief, Political Guidance Staff, Office of
                         Policy and Plans, United States Information Agency (<persName
                             corresp="#p_PJ_1">Pauker</persName>) to the Assistant Manager for Policy
@@ -20551,8 +20555,9 @@
                         <seg rendition="#left"><idno type="document-identifier">No.
                             28–63</idno></seg>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1963-07-26T13:00:00"
-                                calendar="gregorian">July 26, 1963, 1300</date>.</dateline>
+                            <placeName>Washington</placeName>, <date
+                                when="1963-07-26T13:00:00-04:00" calendar="gregorian">July 26, 1963,
+                                1300</date>.</dateline>
                     </opener>
                     <p rend="sectiontitleital">Civil Rights and Race Relations</p>
                     <p>The twin issue of civil rights and race relations is a major detraction to
@@ -20798,7 +20803,9 @@
                     </closer>
                 </div>
 
-                <div type="document" n="138" xml:id="d138" subtype="editorial-note">
+                <div type="document" n="138" xml:id="d138" subtype="editorial-note"
+                    frus:doc-dateTime-min="1960-12-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1963-11-09T23:59:59-05:00">
                     <head>138. Editorial Note</head>
                     <p>On July 31, 1963, President <persName corresp="#p_KJF_1">John F.
                             Kennedy</persName> convened the 516th meeting of the National Security
@@ -20839,8 +20846,8 @@
 
                 <pb n="361" facs="0398" xml:id="pg_361"/>
                 <div type="document" n="139" xml:id="d139" subtype="historical-document"
-                    frus:doc-dateTime-min="1963-08-27T13:50:00-05:00"
-                    frus:doc-dateTime-max="1963-08-27T13:50:00-05:00">
+                    frus:doc-dateTime-min="1963-08-27T12:50:00-05:00"
+                    frus:doc-dateTime-max="1963-08-27T12:50:00-05:00">
                     <head>139. <gloss target="#t_PotomacCable_1">Potomac Cable</gloss> From the
                         United States Information Agency<note n="1" xml:id="d139fn1" type="source"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 306,
@@ -20855,8 +20862,9 @@
                                 >Sorensen</persName>. Sent via Wireless File.</note></head>
                     <opener>
                         <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1963-08-27T13:50:00"
-                                calendar="gregorian">August 27, 1963, 1:50 p.m.</date></dateline>
+                            <placeName>Washington</placeName>, <date
+                                when="1963-08-27T13:50:00-04:00" calendar="gregorian">August 27,
+                                1963, 1:50 p.m.</date></dateline>
                         <seg rendition="#left">
                             <idno type="document-identifier">No. 267</idno>
                         </seg>

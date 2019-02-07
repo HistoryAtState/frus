@@ -5529,7 +5529,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-02-03T16:00:00" calendar="gregorian"><hi
+                                    when="1927-02-03T16:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">February 3, 1927—4
                             p.m.</hi></date></dateline></opener>
                         <p>24. The Department’s telegram No. 25 will transmit to you the text of a
@@ -5561,7 +5561,7 @@
                                 paragraph, was sent to the Embassy in Japan (No. 12).</note></head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-02-03T19:00:00" calendar="gregorian"><hi
+                                    when="1927-02-03T19:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">February 3, 1927—7
                             p.m.</hi></date></dateline></opener>
                         <p>25. Following is text of memorandum to be handed by you to the French
@@ -5782,7 +5782,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-02-03T19:00:00" calendar="gregorian"><hi
+                                    when="1927-02-03T19:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">February 3, 1927—7
                             p.m.</hi></date></dateline></opener>
                         <p>14. Department’s telegram 12.<note n="6" xml:id="d3fn6">See footnote 3,
@@ -5830,7 +5830,7 @@
                             13.</note></head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-02-03T20:00:00" calendar="gregorian"><hi
+                                    when="1927-02-03T20:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">February 3, 1927—8
                             p.m.</hi></date></dateline></opener>
                         <p>26. Following is text of President’s proposed message,<note n="8"
@@ -5986,7 +5986,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-02-03T21:00:00" calendar="gregorian"><hi
+                                    when="1927-02-03T21:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">February 3, 1927—9
                             p.m.</hi></date></dateline></opener>
                         <p>27. Referring to Department’s telegram 25. The Department desires that,
@@ -6034,7 +6034,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-02-07T13:00:00" calendar="gregorian"><hi
+                                    when="1927-02-07T13:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">February 7, 1927—1
                             p.m.</hi></date></dateline></opener>
                         <p>5. A memorandum to be presented by the Ambassadors in France, Great
@@ -6059,18 +6059,19 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d7" n="7" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-02-15T19:00:00-05:00"
-                        frus:doc-dateTime-max="1927-02-15T19:00:00-05:00">
+                        frus:doc-dateTime-min="1927-02-15T14:00:00-05:00"
+                        frus:doc-dateTime-max="1927-02-15T14:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/22: Telegram</note>
                         <head><hi rend="italic">The Ambassador in France</hi> (<persName type="from"
                                     ><hi rend="italic">Herrick</hi></persName>) <hi rend="italic">to
                                 the <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Paris</hi></placeName>, <date when="1927-02-15T19:00:00"
-                                    calendar="gregorian"><hi rend="italic">February 15, 1927—7
-                                        p.m.</hi></date><lb/>[Received February 15—5:25 p.m.<note
-                                    n="10" xml:id="d7fn10">Telegram in five
-                                sections.</note>]</dateline></opener>
+                                        >Paris</hi></placeName>, <date
+                                    when="1927-02-15T19:00:00+00:00" calendar="gregorian"><hi
+                                        rend="italic">February 15, 1927—7
+                                p.m.</hi></date><lb/>[Received February 15—5:25 p.m.<note n="10"
+                                    xml:id="d7fn10">Telegram in five
+                            sections.</note>]</dateline></opener>
                         <p>66. Briand has just handed me the French reply to your memorandum of
                             which the following is a translation: <quote rend="blockquote">
                                 <p>“The American Government has been good enough to address to the
@@ -6283,18 +6284,19 @@
                         </closer>
                     </div>
                     <div type="document" xml:id="d9" n="9" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-02-21T13:00:00-05:00"
-                        frus:doc-dateTime-max="1927-02-21T13:00:00-05:00">
+                        frus:doc-dateTime-min="1927-02-21T07:00:00-05:00"
+                        frus:doc-dateTime-max="1927-02-21T07:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/41: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Italy</hi> (<persName type="from"
                                     ><hi rend="italic">Fletcher</hi></persName>) <hi rend="italic"
                                 >to the <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Rome</hi></placeName>, <date when="1927-02-21T13:00:00"
-                                    calendar="gregorian"><hi rend="italic">February 21, 1927—1
-                                        p.m.</hi></date><lb/>[Received February 21—11:42
-                                a.m.]</dateline></opener>
+                                        >Rome</hi></placeName>, <date
+                                    when="1927-02-21T13:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">February 21, 1927—1
+                                p.m.</hi></date><lb/>[Received February 21—11:42
+                            a.m.]</dateline></opener>
                         <p>24. At noon today reply of Italian Government, stating that to its regret
                             it cannot accede to proposal contained in our memorandum of February 10,
                             was handed to me. Text will be given press here 10 p.m. today. Italian
@@ -6311,16 +6313,17 @@
                         <closer><signed><hi rend="smallcaps">Fletcher</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d10" n="10" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-02-21T15:00:00-05:00"
-                        frus:doc-dateTime-max="1927-02-21T15:00:00-05:00">
+                        frus:doc-dateTime-min="1927-02-21T09:00:00-05:00"
+                        frus:doc-dateTime-max="1927-02-21T09:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/43: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Italy</hi> (<persName type="from"
                                     ><hi rend="italic">Fletcher</hi></persName>) <hi rend="italic"
                                 >to the <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Rome</hi></placeName>, <date when="1927-02-21T15:00:00"
-                                    calendar="gregorian"><hi rend="italic">February 21, 1927—3
-                                        p.m.</hi></date><lb/>[Received 6 p.m.]</dateline></opener>
+                                        >Rome</hi></placeName>, <date
+                                    when="1927-02-21T15:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">February 21, 1927—3
+                                p.m.</hi></date><lb/>[Received 6 p.m.]</dateline></opener>
                         <p>25. The following is a translation of the reply of the Italian Government
                             to my memorandum of February 10th: <quote rend="blockquote">
                                 <p>“The Italian Government has submitted to serious examination the
@@ -6407,18 +6410,18 @@
                         <closer><signed><hi rend="smallcaps">Fletcher</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d11" n="11" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-02-21T17:00:00-05:00"
-                        frus:doc-dateTime-max="1927-02-21T17:00:00-05:00">
+                        frus:doc-dateTime-min="1927-02-21T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-02-21T11:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/44: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Italy</hi> (<persName type="from"
                                     ><hi rend="italic">Fletcher</hi></persName>) <hi rend="italic"
                                 >to the <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Rome</hi></placeName>, <date when="1927-02-21T17:00:00"
-                                    calendar="gregorian"><hi rend="italic">February 21, 1927—5
-                                        p.m.</hi></date><lb/>[Received 11:10
-                            p.m.]</dateline></opener>
+                                        >Rome</hi></placeName>, <date
+                                    when="1927-02-21T17:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">February 21, 1927—5
+                                p.m.</hi></date><lb/>[Received 11:10 p.m.]</dateline></opener>
                         <p>26. My 24, February 21. In handing me the Italian reply this morning and
                             speaking for Mussolini, Under Secretary Grandi sought to impress upon me
                             that Italo-French relations are extremely delicate. This was also
@@ -6447,7 +6450,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-02-21T18:00:00" calendar="gregorian"><hi
+                                    when="1927-02-21T18:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">February 21, 1927—6
                                 p.m.</hi></date></dateline></opener>
                         <p>39. The following telegram has just been received from Rome:</p>
@@ -6619,7 +6622,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-02-24T12:00:00" calendar="gregorian"><hi
+                                    when="1927-02-24T12:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">February 24,
                             1927—noon</hi></date>.</dateline></opener>
                         <p>7. Reference Department’s No. 5, February 7, 1 p.m. The Department has
@@ -6640,8 +6643,8 @@
                         <closer><signed><hi rend="smallcaps">Grew</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d16" n="16" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-02-24T16:00:00-05:00"
-                        frus:doc-dateTime-max="1927-02-24T16:00:00-05:00">
+                        frus:doc-dateTime-min="1927-02-24T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-02-24T11:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/49: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Great Britain</hi> (<persName
                                 type="from"><hi rend="italic">Houghton</hi></persName>) <hi
@@ -6649,10 +6652,11 @@
                                 State</gloss></hi></head>
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >London</hi></placeName>, <date when="1927-02-24T16:00:00"
-                                    calendar="gregorian"><hi rend="italic">February 24, 1927—4
-                                        p.m.</hi></date><lb/>[Received February 24—1:40
-                                p.m.]</dateline></opener>
+                                        >London</hi></placeName>, <date
+                                    when="1927-02-24T16:00:00+00:00" calendar="gregorian"><hi
+                                        rend="italic">February 24, 1927—4
+                                p.m.</hi></date><lb/>[Received February 24—1:40
+                            p.m.]</dateline></opener>
                         <p>46. Department’s No. 39, February 21, 6 p.m. This morning I happened to
                             meet Bridgeman and told him that the American press, in part at least,
                             had stated that he was against acceptance of our invitation to Naval
@@ -6715,8 +6719,8 @@
                     </div>
                     <pb n="22" xml:id="pg_22" facs="0108"/>
                     <div type="document" xml:id="d18" n="18" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-02-25T17:00:00-05:00"
-                        frus:doc-dateTime-max="1927-02-25T17:00:00-05:00">
+                        frus:doc-dateTime-min="1927-02-25T12:00:00-05:00"
+                        frus:doc-dateTime-max="1927-02-25T12:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/52: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Great Britain</hi> (<persName
                                 type="from"><hi rend="italic">Houghton</hi></persName>) <hi
@@ -6724,10 +6728,11 @@
                                 State</gloss></hi></head>
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >London</hi></placeName>, <date when="1927-02-25T17:00:00"
-                                    calendar="gregorian"><hi rend="italic">February 25, 1927—5
-                                        p.m.</hi></date><lb/>[Received February 25—4:55
-                                p.m.]</dateline></opener>
+                                        >London</hi></placeName>, <date
+                                    when="1927-02-25T17:00:00+00:00" calendar="gregorian"><hi
+                                        rend="italic">February 25, 1927—5
+                                p.m.</hi></date><lb/>[Received February 25—4:55
+                            p.m.]</dateline></opener>
                         <p>48. Department’s No. 39, February 21, 6 p.m. In pursuance of your
                             instructions I saw Chamberlain this afternoon and repeated the substance
                             of your message to him. He then asked whether I would object to asking
@@ -6840,7 +6845,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-03-05T16:00:00" calendar="gregorian"><hi
+                                    when="1927-03-05T16:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">March 5, 1927—4
                             p.m.</hi></date></dateline></opener>
                         <p>17. On March 2, in conversation with the Chief of the Division of Western
@@ -6926,7 +6931,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-03-08T16:00:00" calendar="gregorian"><hi
+                                    when="1927-03-08T16:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">March 8, 1927—4
                             p.m.</hi></date></dateline></opener>
                         <p>49. Department has received reports from the Embassy at Tokyo<note n="21"
@@ -6941,8 +6946,8 @@
                         <closer><signed><hi rend="smallcaps">Grew</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d22" n="22" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-03-09T16:00:00-05:00"
-                        frus:doc-dateTime-max="1927-03-09T16:00:00-05:00">
+                        frus:doc-dateTime-min="1927-03-09T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-03-09T11:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/83: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Great Britain</hi> (<persName
                                 type="from"><hi rend="italic">Houghton</hi></persName>) <hi
@@ -6950,10 +6955,10 @@
                                 State</gloss></hi></head>
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >London</hi></placeName>, <date when="1927-03-09T16:00:00"
-                                    calendar="gregorian"><hi rend="italic">March 9, 1927—4
-                                    p.m.</hi></date><lb/>[Received March 9—2:30
-                            p.m.]</dateline></opener>
+                                        >London</hi></placeName>, <date
+                                    when="1927-03-09T16:00:00+00:00" calendar="gregorian"><hi
+                                        rend="italic">March 9, 1927—4 p.m.</hi></date><lb/>[Received
+                                March 9—2:30 p.m.]</dateline></opener>
                         <p>59. Department’s No. 49, March 8, 4 p.m. Chamberlain is in Geneva. I saw
                                 Tyrrell,<note n="22" xml:id="d22fn22">Sir William George Tyrrell,
                                 British Permanent Under Secretary of State for Foreign
@@ -7076,7 +7081,7 @@
                                 type="to"><hi rend="italic">Herrick</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-03-12T16:00:00" calendar="gregorian"><hi
+                                    when="1927-03-12T16:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">March 12, 1927—4
                             p.m.</hi></date></dateline></opener>
                         <p>72. Please deliver as soon as possible the following memorandum
@@ -7154,7 +7159,7 @@
                                 type="to"><hi rend="italic">Fletcher</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-03-12T16:00:00" calendar="gregorian"><hi
+                                    when="1927-03-12T16:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">March 12, 1927—4
                             p.m.</hi></date></dateline></opener>
                         <p>18. Please deliver as soon as possible the following memorandum
@@ -7226,16 +7231,17 @@
                         <closer><signed><hi rend="smallcaps">Grew</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d28" n="28" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-04-03T10:00:00-05:00"
-                        frus:doc-dateTime-max="1927-04-03T10:00:00-05:00">
+                        frus:doc-dateTime-min="1927-04-03T05:00:00-05:00"
+                        frus:doc-dateTime-max="1927-04-03T05:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/154: Telegram</note>
                         <head><hi rend="italic">The Ambassador in France</hi> (<persName type="from"
                                     ><hi rend="italic">Herrick</hi></persName>) <hi rend="italic">to
                                 the <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Paris</hi></placeName>, <date when="1927-04-03T10:00:00"
-                                    calendar="gregorian"><hi rend="italic">April 3, 1927—10
-                                        a.m.</hi></date><lb/>[Received 12:55 p.m.<note n="24"
+                                        >Paris</hi></placeName>, <date
+                                    when="1927-04-03T10:00:00+00:00" calendar="gregorian"><hi
+                                        rend="italic">April 3, 1927—10
+                                a.m.</hi></date><lb/>[Received 12:55 p.m.<note n="24"
                                     xml:id="d28fn24">Telegram in two
                             sections.</note>]</dateline></opener>
                         <p>152. The Foreign Office sent me last evening the following <hi
@@ -7428,7 +7434,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-04-13T14:00:00" calendar="gregorian"><hi
+                                    when="1927-04-13T14:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">April 13, 1927—2
                             p.m.</hi></date></dateline></opener>
                         <p>116. Reported in press that Three-Power Conference will meet June 20,
@@ -7537,7 +7543,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-04-20T11:00:00" calendar="gregorian"><hi
+                                    when="1927-04-20T11:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">April 20, 1927—11
                             a.m.</hi></date></dateline></opener>
                         <p>121. Your No. 241, April 14, 9 p.m. Inasmuch as it was as a part of the
@@ -7569,8 +7575,8 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d35" n="35" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-04-27T12:00:00-05:00"
-                        frus:doc-dateTime-max="1927-04-27T12:00:00-05:00">
+                        frus:doc-dateTime-min="1927-04-27T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-04-27T11:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/204: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Ambassador in Great Britain</hi> (<persName type="to"><hi
@@ -7578,7 +7584,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-04-27T12:00:00" calendar="gregorian"><hi
+                                    when="1927-04-27T12:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">April 27,
                             1927—noon</hi></date>.</dateline></opener>
                         <p>84. Bridgeman saw Admiral Jones when latter was in London on way to
@@ -7606,8 +7612,8 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d36" n="36" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-04-28T17:00:00-05:00"
-                        frus:doc-dateTime-max="1927-04-28T17:00:00-05:00">
+                        frus:doc-dateTime-min="1927-04-28T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-04-28T11:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/206: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Great Britain</hi> (<persName
                                 type="from"><hi rend="italic">Houghton</hi></persName>) <hi
@@ -7615,10 +7621,11 @@
                                 State</gloss></hi></head>
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >London</hi></placeName>, <date when="1927-04-28T17:00:00"
-                                    calendar="gregorian"><hi rend="italic">April 28, 1927—5
-                                        p.m.</hi></date><lb/>[Received April 28—12:47
-                                p.m.]</dateline></opener>
+                                        >London</hi></placeName>, <date
+                                    when="1927-04-28T17:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">April 28, 1927—5
+                                p.m.</hi></date><lb/>[Received April 28—12:47
+                            p.m.]</dateline></opener>
                         <p>98. Your No. 84, April 27, noon. Chamberlain tells me that British
                             Government prefer Geneva for Conference and that they have so notified
                             Japan. They are also taking the necessary steps in regard to League
@@ -7626,15 +7633,15 @@
                         <closer><signed><hi rend="smallcaps">Houghton</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d37" n="37" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-05-05T12:00:00-05:00"
-                        frus:doc-dateTime-max="1927-05-05T12:00:00-05:00">
+                        frus:doc-dateTime-min="1927-05-05T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-05-05T11:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/213a: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Ambassador in Great Britain</hi> (<persName type="to"><hi
                                     rend="italic">Houghton</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-05-05T12:00:00" calendar="gregorian"><hi
+                                    when="1927-05-05T12:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">May 5,
                             1927—noon</hi></date>.</dateline></opener>
                         <p>93. Please bring following to the attention of Chamberlain: This
@@ -7645,18 +7652,18 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d38" n="38" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-05-06T13:00:00-05:00"
-                        frus:doc-dateTime-max="1927-05-06T13:00:00-05:00">
+                        frus:doc-dateTime-min="1927-05-06T07:00:00-05:00"
+                        frus:doc-dateTime-max="1927-05-06T07:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/216: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Great Britain</hi> (<persName
                                 type="from"><hi rend="italic">Houghton</hi></persName>) <hi
                                 rend="italic">to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >London</hi></placeName>, <date when="1927-05-06T13:00:00"
-                                    calendar="gregorian"><hi rend="italic">May 6, 1927—1
-                                    p.m.</hi></date><lb/>[Received May 6—8:56
-                            a.m.]</dateline></opener>
+                                        >London</hi></placeName>, <date
+                                    when="1927-05-06T13:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">May 6, 1927—1 p.m.</hi></date><lb/>[Received
+                                May 6—8:56 a.m.]</dateline></opener>
                         <p>105. Your 93, May 5, noon. Chamberlain assures me that British delegation
                             at the forthcoming Three-Power Conference will include fully empowered
                             Dominion representatives.</p>
@@ -7689,17 +7696,17 @@
                         <closer><signed><hi rend="smallcaps">Armour</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d40" n="40" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-05-17T11:00:00-05:00"
-                        frus:doc-dateTime-max="1927-05-17T11:00:00-05:00">
+                        frus:doc-dateTime-min="1927-05-17T05:00:00-05:00"
+                        frus:doc-dateTime-max="1927-05-17T05:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/236: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Italy</hi> (<persName type="from"
                                     ><hi rend="italic">Fletcher</hi></persName>) <hi rend="italic"
                                 >to the <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Rome</hi></placeName>, <date when="1927-05-17T11:00:00"
-                                    calendar="gregorian"><hi rend="italic">May 17, 1927—11
-                                    a.m.</hi></date><lb/>[Received May 17—9:39
-                            a.m.]</dateline></opener>
+                                        >Rome</hi></placeName>, <date
+                                    when="1927-05-17T11:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">May 17, 1927—11 a.m.</hi></date><lb/>[Received
+                                May 17—9:39 a.m.]</dateline></opener>
                         <p>66. I have just received a memorandum from the Foreign Office in reply to
                             our memorandum of March 14th<note n="35" xml:id="d40fn35">See telegram
                                 No. 18, Mar. 12, 4 p.m., to the Ambassador in Italy, <ref
@@ -8009,15 +8016,15 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d45" n="45" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-06-09T15:00:00-05:00"
-                        frus:doc-dateTime-max="1927-06-09T15:00:00-05:00">
+                        frus:doc-dateTime-min="1927-06-09T14:00:00-05:00"
+                        frus:doc-dateTime-max="1927-06-09T14:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/266: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Minister in Switzerland</hi> (<persName type="to"><hi
                                     rend="italic">Wilson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-06-09T15:00:00" calendar="gregorian"><hi
+                                    when="1927-06-09T15:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">June 9, 1927—3
                             p.m.</hi></date></dateline></opener>
                         <p>46. The Department today was notified through a note from the British
@@ -8469,8 +8476,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d55" n="55" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-06-24T19:00:00-05:00"
-                        frus:doc-dateTime-max="1927-06-24T19:00:00-05:00">
+                        frus:doc-dateTime-min="1927-06-24T18:00:00-05:00"
+                        frus:doc-dateTime-max="1927-06-24T18:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/316: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -8478,7 +8485,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-06-24T19:00:00" calendar="gregorian"><hi
+                                    when="1927-06-24T19:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">June 24, 1927—7
                             p.m.</hi></date></dateline></opener>
                         <p>10. Your No. 25, June 23, 7 p.m. The action which you suggest taking is
@@ -8558,8 +8565,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d57" n="57" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-06-24T20:00:00-05:00"
-                        frus:doc-dateTime-max="1927-06-24T20:00:00-05:00">
+                        frus:doc-dateTime-min="1927-06-24T19:00:00-05:00"
+                        frus:doc-dateTime-max="1927-06-24T19:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/322: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -8567,7 +8574,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-06-24T20:00:00" calendar="gregorian"><hi
+                                    when="1927-06-24T20:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">June 24, 1927—8
                             p.m.</hi></date></dateline></opener>
                         <p>11. Your No. 27, June 23, 9 p.m. In my opinion your opening speech at
@@ -8602,8 +8609,8 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d58" n="58" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-06-25T13:00:00-05:00"
-                        frus:doc-dateTime-max="1927-06-25T13:00:00-05:00">
+                        frus:doc-dateTime-min="1927-06-25T12:00:00-05:00"
+                        frus:doc-dateTime-max="1927-06-25T12:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/322: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chargé in Great Britain</hi> (<persName type="to"><hi
@@ -8611,7 +8618,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-06-25T13:00:00" calendar="gregorian"><hi
+                                    when="1927-06-25T13:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">June 25, 1927—1
                             p.m.</hi></date></dateline></opener>
                         <p>138. We are transmitting to you text of Gibson’s telegram No. 27, June
@@ -9010,8 +9017,8 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d65" n="65" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-06-28T12:00:00-05:00"
-                        frus:doc-dateTime-max="1927-06-28T12:00:00-05:00">
+                        frus:doc-dateTime-min="1927-06-28T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-06-28T11:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/331: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -9019,7 +9026,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-06-28T12:00:00" calendar="gregorian"><hi
+                                    when="1927-06-28T12:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">June 28,
                             1927—noon</hi></date>.</dateline></opener>
                         <p>20. Your No. 35, June 27, 8 p.m. At present there is neither a British
@@ -9279,8 +9286,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d70" n="70" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-02T23:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-02T23:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-02T22:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-02T22:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/362: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Acting Secretary of
                                     State</gloss> to the Chairman of the American Delegation</hi>
@@ -9289,7 +9296,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-02T23:00:00" calendar="gregorian"><hi
+                                    when="1927-07-02T23:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 2, 1927—11
                             p.m.</hi></date></dateline></opener>
                         <p>26. I have consulted the Secretary in regard to your No. 53, July 2, 11
@@ -9341,8 +9348,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d72" n="72" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-05T11:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-05T11:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-05T10:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-05T10:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/362: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chargé in Great Britain</hi> (<persName type="to"><hi
@@ -9350,7 +9357,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-05T11:00:00" calendar="gregorian"><hi
+                                    when="1927-07-05T11:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 5, 1927—11
                             a.m.</hi></date></dateline></opener>
                         <p>147. Following is text of telegram from Gibson, July 2, 11 a.m.:</p>
@@ -9483,8 +9490,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d75" n="75" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-06T18:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-06T18:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-06T17:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-06T17:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/376: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -9492,7 +9499,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-06T18:00:00" calendar="gregorian"><hi
+                                    when="1927-07-06T18:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 6, 1927—6
                             p.m.</hi></date></dateline></opener>
                         <p>27. In the course of a conversation this morning with the British
@@ -9754,8 +9761,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d79" n="79" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-07T12:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-07T12:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-07T06:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-07T06:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/381: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Great Britain</hi> (<persName
                                 type="from"><hi rend="italic">Houghton</hi></persName>) <hi
@@ -9763,10 +9770,10 @@
                                 State</gloss></hi></head>
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >London</hi></placeName>, <date when="1927-07-07T12:00:00"
-                                    calendar="gregorian"><hi rend="italic">July 7,
-                                    1927—noon</hi></date>.<lb/>[Received July 7—10:05
-                                a.m.]</dateline></opener>
+                                        >London</hi></placeName>, <date
+                                    when="1927-07-07T12:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">July 7, 1927—noon</hi></date>.<lb/>[Received
+                                July 7—10:05 a.m.]</dateline></opener>
                         <p>156. Department’s No. 147, July 5, 11 a.m. Nothing could be gained at
                             this time, in my opinion, by approaching either Baldwin or Chamberlain
                             along the lines indicated.</p>
@@ -9809,8 +9816,8 @@
                         <closer><signed><hi rend="smallcaps">Houghton</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d80" n="80" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-07T16:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-07T16:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-07T15:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-07T15:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/381: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Ambassador in Great Britain</hi> (<persName type="to"><hi
@@ -9818,7 +9825,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-07T16:00:00" calendar="gregorian"><hi
+                                    when="1927-07-07T16:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 7, 1927—4
                             p.m.</hi></date></dateline></opener>
                         <p>151. Your No. 156, July 7, noon. It would be useful, I think, for you to
@@ -9947,8 +9954,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d83" n="83" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-08T14:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-08T14:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-08T13:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-08T13:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/384: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -9956,7 +9963,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-08T14:00:00" calendar="gregorian"><hi
+                                    when="1927-07-08T14:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 8, 1927—2
                             p.m.</hi></date></dateline></opener>
                         <p>30. Your No. 68, July 7, 11 p.m., and No. 69, July 7, midnight.</p>
@@ -10040,8 +10047,8 @@
                     </div>
                     <pb n="84" xml:id="pg_84" facs="0170"/>
                     <div type="document" xml:id="d84" n="84" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-08T17:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-08T17:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-08T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-08T11:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/388: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Great Britain</hi> (<persName
                                 type="from"><hi rend="italic">Houghton</hi></persName>) <hi
@@ -10049,10 +10056,10 @@
                                 State</gloss></hi></head>
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >London</hi></placeName>, <date when="1927-07-08T17:00:00"
-                                    calendar="gregorian"><hi rend="italic">July 8, 1927—5
-                                    p.m.</hi></date><lb/>[Received July 8—2:25
-                            p.m.]</dateline></opener>
+                                        >London</hi></placeName>, <date
+                                    when="1927-07-08T17:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">July 8, 1927—5 p.m.</hi></date><lb/>[Received
+                                July 8—2:25 p.m.]</dateline></opener>
                         <p>157. Department’s No. 151, July 7, 4 p.m. I saw Chamberlain at noon
                             today, making it clear to him that I had come on my personal
                             responsibility since I believed that it was my duty to acquaint him with
@@ -10113,18 +10120,18 @@
                         <closer><signed><hi rend="smallcaps">Houghton</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d85" n="85" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-09T10:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-09T10:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-09T04:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-09T04:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/395: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Great Britain</hi> (<persName
                                 type="from"><hi rend="italic">Houghton</hi></persName>) <hi
                                 rend="italic">to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >London</hi></placeName>, <date when="1927-07-09T10:00:00"
-                                    calendar="gregorian"><hi rend="italic">July 9, 1927—10
-                                    a.m.</hi></date><lb/>[Received July 9—7:22
-                            a.m.]</dateline></opener>
+                                        >London</hi></placeName>, <date
+                                    when="1927-07-09T10:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">July 9, 1927—10 a.m.</hi></date><lb/>[Received
+                                July 9—7:22 a.m.]</dateline></opener>
                         <p>158. Last evening I received the following communication from
                             Chamberlain: <quote rend="blockquote">
                                 <p>“I immediately communicated to the Prime Minister and the
@@ -10287,15 +10294,15 @@
                     </div>
                     <pb n="89" xml:id="pg_89" facs="0175"/>
                     <div type="document" xml:id="d87" n="87" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-09T15:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-09T15:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-09T14:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-09T14:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/394: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
                                     ><hi rend="italic">Gibson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-09T15:00:00" calendar="gregorian"><hi
+                                    when="1927-07-09T15:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 9, 1927—3
                             p.m.</hi></date></dateline></opener>
                         <p>33. Your 68 and 69, together with my reply No. 30, were telegraphed to
@@ -10504,8 +10511,8 @@
                     </div>
                     <pb n="93" xml:id="pg_93" facs="0179"/>
                     <div type="document" xml:id="d90" n="90" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-11T18:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-11T18:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-11T17:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-11T17:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/412a: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -10513,7 +10520,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-11T18:00:00" calendar="gregorian"><hi
+                                    when="1927-07-11T18:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 11, 1927—6
                             p.m.</hi></date></dateline></opener>
                         <p>41. Article by Wythe Williams printed in today’s <hi rend="italic">New
@@ -10707,8 +10714,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d94" n="94" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-12T12:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-12T12:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-12T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-12T11:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/414a: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -10716,7 +10723,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-12T12:00:00" calendar="gregorian"><hi
+                                    when="1927-07-12T12:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 12,
                             1927—noon</hi></date>.</dateline></opener>
                         <p>42. The press in this country has several times reported from English
@@ -10750,18 +10757,18 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d95" n="95" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-12T12:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-12T12:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-12T06:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-12T06:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/414: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Great Britain</hi> (<persName
                                 type="from"><hi rend="italic">Houghton</hi></persName>) <hi
                                 rend="italic">to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >London</hi></placeName>, <date when="1927-07-12T12:00:00"
-                                    calendar="gregorian"><hi rend="italic">July 12,
-                                    1927—noon</hi></date>.<lb/>[Received 1:24
-                            p.m.]</dateline></opener>
+                                        >London</hi></placeName>, <date
+                                    when="1927-07-12T12:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">July 12, 1927—noon</hi></date>.<lb/>[Received
+                                1:24 p.m.]</dateline></opener>
                         <p>162. My 158, July 9, 10 a.m. Chamberlain asked me to meet him last night
                             at the House of Commons. He told me he had conferred with Baldwin,
                             Balfour and Beatty<note n="60" xml:id="d95fn60">Admiral of the Fleet
@@ -10967,8 +10974,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d98" n="98" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-12T23:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-12T23:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-12T22:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-12T22:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/414: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Ambassador in Great Britain</hi> (<persName type="to"><hi
@@ -10976,7 +10983,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-12T23:00:00" calendar="gregorian"><hi
+                                    when="1927-07-12T23:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 12, 1927—11
                             p.m.</hi></date></dateline></opener>
                         <p>159. Your No. 162, July 12, noon. I am in entire agreement with
@@ -11018,8 +11025,8 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d99" n="99" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-13T17:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-13T17:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-13T16:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-13T16:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/421: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -11031,7 +11038,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-13T17:00:00" calendar="gregorian"><hi
+                                    when="1927-07-13T17:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 13, 1927—5
                             p.m.</hi></date></dateline></opener>
                         <p>45. I have received following telegram from Houghton dated July 13, 6
@@ -11242,8 +11249,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d103" n="103" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-14T17:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-14T17:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-14T16:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-14T16:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/428: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Ambassador in Great Britain</hi> (<persName type="to"><hi
@@ -11251,7 +11258,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-14T17:00:00" calendar="gregorian"><hi
+                                    when="1927-07-14T17:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 14, 1927—5
                             p.m.</hi></date></dateline></opener>
                         <p>163. British Ambassador called on me this morning and read telegram
@@ -11326,8 +11333,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d105" n="105" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-16T13:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-16T13:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-16T12:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-16T12:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/414: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Ambassador in Great Britain</hi> (<persName type="to"><hi
@@ -11337,7 +11344,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-16T13:00:00" calendar="gregorian"><hi
+                                    when="1927-07-16T13:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 16, 1927—1
                             p.m.</hi></date></dateline></opener>
                         <p>166. Your No. 162, July 12, noon. This morning the British Ambassador
@@ -11348,8 +11355,8 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d106" n="106" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-16T13:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-16T13:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-16T12:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-16T12:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/437: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -11357,7 +11364,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-16T13:00:00" calendar="gregorian"><hi
+                                    when="1927-07-16T13:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 16, 1927—1
                             p.m.</hi></date></dateline></opener>
                         <p>50. Your No. 99, July 15, 3 p.m. I do not have any intention of going to
@@ -11539,8 +11546,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d109" n="109" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-18T18:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-18T18:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-18T17:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-18T17:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/439: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -11548,7 +11555,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-18T18:00:00" calendar="gregorian"><hi
+                                    when="1927-07-18T18:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 18, 1927—6
                             p.m.</hi></date>.</dateline></opener>
                         <p>53. Your No. 100, July 16, 2 p.m. Appreciate fully the circumstances
@@ -11747,8 +11754,8 @@
                     </div>
                     <pb n="116" xml:id="pg_116" facs="0202"/>
                     <div type="document" xml:id="d112" n="112" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-19T12:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-19T12:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-19T06:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-19T06:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/447: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Great Britain</hi> (<persName
                                 type="from"><hi rend="italic">Houghton</hi></persName>) <hi
@@ -11756,10 +11763,10 @@
                                 State</gloss></hi></head>
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >London</hi></placeName>, <date when="1927-07-19T12:00:00"
-                                    calendar="gregorian"><hi rend="italic">July 19,
-                                    1927—noon</hi></date>.<lb/>[Received July 19—7:51
-                                a.m.]</dateline></opener>
+                                        >London</hi></placeName>, <date
+                                    when="1927-07-19T12:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">July 19, 1927—noon</hi></date>.<lb/>[Received
+                                July 19—7:51 a.m.]</dateline></opener>
                         <p>168. Pursuant to instructions in your telegram No. 165, July 16,
                                 noon,<note n="71" xml:id="d112fn71">Quoted in telegram No. 50, July
                                 16, 1 p.m., to the chairman of the American delegation, <ref
@@ -11778,8 +11785,8 @@
                         <closer><signed><hi rend="smallcaps">Houghton</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d113" n="113" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-19T16:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-19T16:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-19T15:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-19T15:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/446: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -11787,7 +11794,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-19T16:00:00" calendar="gregorian"><hi
+                                    when="1927-07-19T16:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 19, 1927—4
                             p.m.</hi></date></dateline></opener>
                         <p>55. Your No. 106, July 18, 11 p.m. After discussion of matter with the
@@ -11998,8 +12005,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d116" n="116" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-20T15:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-20T15:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-20T14:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-20T14:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/457: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -12007,7 +12014,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-20T15:00:00" calendar="gregorian"><hi
+                                    when="1927-07-20T15:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 20, 1927—3
                             p.m.</hi></date></dateline></opener>
                         <p>57. Your No. 110, July 19, midnight. After my telegram to Houghton last
@@ -12085,8 +12092,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d118" n="118" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-21T14:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-21T14:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-21T13:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-21T13:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/467e: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -12094,7 +12101,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-21T14:00:00" calendar="gregorian"><hi
+                                    when="1927-07-21T14:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 21, 1927—2
                             p.m.</hi></date></dateline></opener>
                         <p>59. There is no intention to restrict you to more rigid stand than was
@@ -12110,8 +12117,8 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d119" n="119" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-21T15:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-21T15:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-21T14:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-21T14:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/467c: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -12119,7 +12126,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-21T15:00:00" calendar="gregorian"><hi
+                                    when="1927-07-21T15:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 21, 1927—3
                             p.m.</hi></date></dateline></opener>
                         <p>60. Sir Esme Howard called on me today, primarily, so he said, to let me
@@ -12606,8 +12613,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d125" n="125" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-25T11:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-25T11:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-25T10:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-25T10:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/475: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -12615,7 +12622,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-25T11:00:00" calendar="gregorian"><hi
+                                    when="1927-07-25T11:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 25, 1927—11
                             a.m.</hi></date></dateline></opener>
                         <p>61. Your No. 115, July 23, 2 p.m. I observe no particular objection to
@@ -12629,8 +12636,8 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d126" n="126" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-25T12:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-25T12:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-25T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-25T11:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/474: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -12638,7 +12645,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-25T12:00:00" calendar="gregorian"><hi
+                                    when="1927-07-25T12:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 25, 1927—12
                             noon</hi></date>.</dateline></opener>
                         <p>62. Your No. 114, July 22, 1 p.m. My No. 55, July 19, 4 p.m., answering
@@ -12689,8 +12696,8 @@
                         <closer><signed><hi rend="smallcaps">Calvin Coolidge</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d128" n="128" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-26T11:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-26T11:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-26T10:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-26T10:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/482b: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -12698,7 +12705,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-26T11:00:00" calendar="gregorian"><hi
+                                    when="1927-07-26T11:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 26, 1927—11
                             a.m.</hi></date></dateline></opener>
                         <p>63. The press of Great Britain is evidently trying to impress the British
@@ -12765,8 +12772,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d130" n="130" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-27T12:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-27T12:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-27T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-27T11:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/485: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -12774,7 +12781,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-27T12:00:00" calendar="gregorian"><hi
+                                    when="1927-07-27T12:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 27,
                             1927—noon</hi></date>.</dateline></opener>
                         <p>65. Your No. 116, July 26, 5 p.m.</p>
@@ -12804,17 +12811,18 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d131" n="131" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-28T10:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-28T10:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-28T04:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-28T04:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/493: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Great Britain</hi> (<persName
                                 type="from"><hi rend="italic">Houghton</hi></persName>) <hi
                                 rend="italic">to the <gloss type="to">Secretary of
                                 State</gloss></hi></head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >London</hi></placeName>, <date when="1927-07-28T10:00:00"
-                                    calendar="gregorian"><hi rend="italic">July 28, 1927—10
-                                        a.m.</hi></date><lb/>[Received July 28—7:53
+                                        >London</hi></placeName>, <date
+                                    when="1927-07-28T10:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">July 28, 1927—10
+                                a.m.</hi></date><lb/>[Received July 28—7:53
                             a.m.]</dateline></opener>
                         <p>173. My 172, July 27, 1 p.m.<note n="80" xml:id="d131fn80">Not
                                 printed.</note> Sir Austen Chamberlain made Government statement
@@ -12984,15 +12992,15 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d135" n="135" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-29T16:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-29T16:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-29T15:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-29T15:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/519c: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
                                     ><hi rend="italic">Gibson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-29T16:00:00" calendar="gregorian"><hi
+                                    when="1927-07-29T16:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 29, 1927—4
                             p.m.</hi></date></dateline></opener>
                         <p>71. The President at his press conference this afternoon said: <quote
@@ -13074,15 +13082,15 @@
                     </div>
                     <pb n="141" xml:id="pg_141" facs="0227"/>
                     <div type="document" xml:id="d137" n="137" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-30T19:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-30T19:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-30T18:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-30T18:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/510: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
                                     ><hi rend="italic">Gibson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-30T19:00:00" calendar="gregorian"><hi
+                                    when="1927-07-30T19:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 30, 1927—7
                             p.m.</hi></date></dateline></opener>
                         <p>76. I wired the President our No. 69 to you reference to adjournment<note
@@ -13107,15 +13115,15 @@
                         <closer><signed><hi rend="smallcaps">Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d138" n="138" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-31T16:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-31T16:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-31T15:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-31T15:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/519f: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
                                     ><hi rend="italic">Gibson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-31T16:00:00" calendar="gregorian"><hi
+                                    when="1927-07-31T16:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 31, 1927—4
                             p.m.</hi></date></dateline></opener>
                         <p>82. <hi rend="italic">New York Times</hi> this morning has despatch from
@@ -13317,8 +13325,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d141" n="141" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-08-01T19:00:00-05:00"
-                        frus:doc-dateTime-max="1927-08-01T19:00:00-05:00">
+                        frus:doc-dateTime-min="1927-08-01T18:00:00-05:00"
+                        frus:doc-dateTime-max="1927-08-01T18:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/513: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -13326,7 +13334,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-08-01T19:00:00" calendar="gregorian"><hi
+                                    when="1927-08-01T19:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">August 1, 1927—7
                             p.m.</hi></date></dateline></opener>
                         <p>87. Your 141, July 31, 12 p.m. I have had no indication from either
@@ -13708,8 +13716,8 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d145" n="145" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-08-03T14:00:00-05:00"
-                        frus:doc-dateTime-max="1927-08-03T14:00:00-05:00">
+                        frus:doc-dateTime-min="1927-08-03T13:00:00-05:00"
+                        frus:doc-dateTime-max="1927-08-03T13:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/539b: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation</hi> (<persName type="to"
@@ -13717,7 +13725,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-08-03T14:00:00" calendar="gregorian"><hi
+                                    when="1927-08-03T14:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">August 3, 1927—2
                             p.m.</hi></date></dateline></opener>
                         <p>95. This morning the Democratic leader in the Senate (Robinson) called on
@@ -14270,7 +14278,7 @@
                                 >Marriner</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1926-12-29T18:00:00" calendar="gregorian"><hi
+                                    when="1926-12-29T18:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">December 29, 1926—6
                                 p.m.</hi></date></dateline></opener>
                         <p>85. Your despatch No. 190, December 9, and your telegrams Nos. 159 and
@@ -14973,8 +14981,8 @@
                         </frus:attachment>
                     </div>
                     <div type="document" xml:id="d155" n="155" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-03-07T18:00:00-05:00"
-                        frus:doc-dateTime-max="1927-03-07T18:00:00-05:00">
+                        frus:doc-dateTime-min="1927-03-07T13:00:00-05:00"
+                        frus:doc-dateTime-max="1927-03-07T13:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/77: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Great Britain</hi> (<persName
                                 type="from"><hi rend="italic">Houghton</hi></persName>) <hi
@@ -14982,10 +14990,10 @@
                                 State</gloss></hi></head>
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >London</hi></placeName>, <date when="1927-03-07T18:00:00"
-                                    calendar="gregorian"><hi rend="italic">March 7, 1927—6
-                                    p.m.</hi></date><lb/>[Received March 7—3:30
-                            p.m.]</dateline></opener>
+                                        >London</hi></placeName>, <date
+                                    when="1927-03-07T18:00:00+00:00" calendar="gregorian"><hi
+                                        rend="italic">March 7, 1927—6 p.m.</hi></date><lb/>[Received
+                                March 7—3:30 p.m.]</dateline></opener>
                         <p>57. The following is authoritative, but is not yet to be made public. On
                             assembling of Preparatory Commission on March 21, Cecil<note n="24"
                                 xml:id="d155fn24">Viscount Cecil of Chelwood, British delegate on
@@ -15065,7 +15073,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-03-22T18:00:00" calendar="gregorian"><hi
+                                    when="1927-03-22T18:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">March 22, 1927—6
                             p.m.</hi></date></dateline></opener>
                         <p>95. In reply to the inquiry made February 24 in your private letter to
@@ -15457,7 +15465,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-03-25T17:00:00" calendar="gregorian"><hi
+                                    when="1927-03-25T17:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">March 25, 1927—5
                             p.m.</hi></date></dateline></opener>
                         <p>98. Owing to late arrival of your telegrams on statement you propose to
@@ -15584,7 +15592,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-03-26T16:00:00" calendar="gregorian"><hi
+                                    when="1927-03-26T16:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">March 26, 1927—4
                             p.m.</hi></date></dateline></opener>
                         <p>99. Your No. 195 has been considered with all care possible in short time
@@ -15770,7 +15778,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-03-29T16:00:00" calendar="gregorian"><hi
+                                    when="1927-03-29T16:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">March 29, 1927—4
                             p.m.</hi></date></dateline></opener>
                         <p>101. Your No. 201, March 27, 5 p.m. What we do not wish to have come
@@ -15967,7 +15975,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-04-05T18:00:00" calendar="gregorian"><hi
+                                    when="1927-04-05T18:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">April 5, 1927—6
                             p.m.</hi></date></dateline></opener>
                         <p>109. Course you outline in your telegram No. 214, April 4, 8 p.m., is
@@ -16072,7 +16080,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-04-07T18:00:00" calendar="gregorian"><hi
+                                    when="1927-04-07T18:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">April 7, 1927—6
                             p.m.</hi></date></dateline></opener>
                         <p>110. Your telegram No. 221, April 6, 5 p.m. Navy Department does not find
@@ -16109,8 +16117,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d173" n="173" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-04-09T16:00:00-05:00"
-                        frus:doc-dateTime-max="1927-04-09T16:00:00-05:00">
+                        frus:doc-dateTime-min="1927-04-09T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-04-09T11:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/171: Telegram</note>
                         <head><hi rend="italic">The Ambassador in Great Britain</hi> (<persName
                                 type="from"><hi rend="italic">Houghton</hi></persName>) <hi
@@ -16118,10 +16126,10 @@
                                 State</gloss></hi></head>
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >London</hi></placeName>, <date when="1927-04-09T16:00:00"
-                                    calendar="gregorian"><hi rend="italic">April 9, 1927—4
-                                    p.m.</hi></date><lb/>[Received April 9—3:16
-                            p.m.]</dateline></opener>
+                                        >London</hi></placeName>, <date
+                                    when="1927-04-09T16:00:00+00:00" calendar="gregorian"><hi
+                                        rend="italic">April 9, 1927—4 p.m.</hi></date><lb/>[Received
+                                April 9—3:16 p.m.]</dateline></opener>
                         <p>83. Text of memorandum from naval attaché of Embassy follows: <quote
                                 rend="blockquote">
                                 <p>First Lord of Admiralty informally requested naval attaché to see
@@ -16179,7 +16187,7 @@
                                 >Gibson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-04-10T18:00:00" calendar="gregorian"><hi
+                                    when="1927-04-10T18:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">April 10, 1927—6
                             p.m.</hi></date></dateline></opener>
                         <p>113. Your 225, April 9, 10 a.m. The Navy Department feels that, while the
@@ -16245,7 +16253,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-04-11T14:00:00" calendar="gregorian"><hi
+                                    when="1927-04-11T14:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">April 11, 1927—2
                             p.m.</hi></date></dateline></opener>
                         <p>71. Your No. 83, April 9, 4 p.m. The Department appreciates Bridgeman’s
@@ -16267,7 +16275,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-04-11T14:00:00" calendar="gregorian"><hi
+                                    when="1927-04-11T14:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">April 11, 1927—2
                             p.m.</hi></date></dateline></opener>
                         <p>114. Your No. 227, April 10, 6 p.m. The Department, as might be expected,
@@ -16518,7 +16526,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-04-13T16:00:00" calendar="gregorian"><hi
+                                    when="1927-04-13T16:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">April 13, 1927—4
                             p.m.</hi></date></dateline></opener>
                         <p>16. During the meetings of subcommission A, Preparatory Commission for
@@ -16677,8 +16685,8 @@
                         <closer><signed><hi rend="smallcaps">Gibson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d185" n="185" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-08-02T16:00:00-05:00"
-                        frus:doc-dateTime-max="1927-08-02T16:00:00-05:00">
+                        frus:doc-dateTime-min="1927-08-02T15:00:00-05:00"
+                        frus:doc-dateTime-max="1927-08-02T15:00:00-05:00">
                         <note rend="inline" type="source">500.A15 a 1/524: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chairman of the American Delegation to the Naval Conference</hi>
@@ -16687,7 +16695,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-08-02T16:00:00" calendar="gregorian"><hi
+                                    when="1927-08-02T16:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">August 2, 1927—4
                             p.m.</hi></date></dateline></opener>
                         <p>89. Your No. 148, August 1, noon. The Government of the United States was
@@ -16709,7 +16717,7 @@
                                     rend="italic">Gibson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-10-20T10:00:00" calendar="gregorian"><hi
+                                    when="1927-10-20T10:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">October 20, 1927—10
                                 a.m.</hi></date></dateline></opener>
                         <p>53. The report of the Third Committee of the League Assembly, dated
@@ -16800,7 +16808,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-11-08T18:00:00" calendar="gregorian"><hi
+                                    when="1927-11-08T18:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">November 8, 1927—6
                             p.m.</hi></date></dateline></opener>
                         <p>54. Your 76, October 27, 1 p.m. By resolution of the Assembly and of the
@@ -16927,7 +16935,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-11-15T12:00:00" calendar="gregorian"><hi
+                                    when="1927-11-15T12:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">November 15,
                             1927—noon</hi></date>.</dateline></opener>
                         <p>94. You are instructed to attend forthcoming session of Preparatory
@@ -16988,7 +16996,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-11-22T18:00:00" calendar="gregorian"><hi
+                                    when="1927-11-22T18:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">November 22, 1927—6
                                 p.m.</hi></date></dateline></opener>
                         <p>97. It is my belief that American sympathy with all endeavors to
@@ -17189,7 +17197,7 @@
                                 type="to"><hi rend="italic">Marriner</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-02-23T19:00:00" calendar="gregorian"><hi
+                                    when="1927-02-23T19:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">February 23, 1927—7
                                 p.m.</hi></date></dateline></opener>
                         <p>21. Please transmit the following to the Secretary General of the League
@@ -18458,7 +18466,7 @@
                                     rend="italic">Marriner</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-02-07T17:00:00" calendar="gregorian"><hi
+                                    when="1927-02-07T17:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">February 7, 1927—5
                             p.m.</hi></date></dateline></opener>
                         <p>11. On February 5 President sent a message to Congress recommending that
@@ -18892,15 +18900,15 @@
                     </div>
                     <pb n="247" xml:id="pg_247" facs="0333"/>
                     <div type="document" xml:id="d205" n="205" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-15T10:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-15T10:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-15T09:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-15T09:00:00-05:00">
                         <note rend="inline" type="source">560.M2/3a: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Minister in Switzerland</hi> (<persName type="to"><hi
                                     rend="italic">Wilson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-15T10:00:00" calendar="gregorian"><hi
+                                    when="1927-07-15T10:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 15, 1927—10
                             a.m.</hi></date></dateline></opener>
                         <p>60. Has Legation received an invitation from League requesting American
@@ -18941,15 +18949,15 @@
                         <closer><signed><hi rend="smallcaps">Wilson</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d207" n="207" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-22T13:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-22T13:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-22T12:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-22T12:00:00-05:00">
                         <note rend="inline" type="source">560.M2/4: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Minister in Switzerland</hi> (<persName type="to"><hi
                                     rend="italic">Wilson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-22T13:00:00" calendar="gregorian"><hi
+                                    when="1927-07-22T13:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 22, 1927—1
                             p.m.</hi></date></dateline></opener>
                         <p>61. Your 58, July 16, 10 a.m. League’s circular letter No. 29 transmitted
@@ -19292,15 +19300,15 @@
                     </div>
                     <pb n="254" xml:id="pg_254" facs="0340"/>
                     <div type="document" xml:id="d209" n="209" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-09-17T15:00:00-05:00"
-                        frus:doc-dateTime-max="1927-09-17T15:00:00-05:00">
+                        frus:doc-dateTime-min="1927-09-17T14:00:00-05:00"
+                        frus:doc-dateTime-max="1927-09-17T14:00:00-05:00">
                         <note rend="inline" type="source">560.M2/10: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Acting Secretary of
                                     State</gloss> to the Minister in Switzerland</hi> (<persName
                                 type="to"><hi rend="italic">Wilson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-09-17T15:00:00" calendar="gregorian"><hi
+                                    when="1927-09-17T15:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">September 17, 1927—3
                                 p.m.</hi></date></dateline></opener>
                         <p>80. Your despatch No. 56, August 4, 1927. Please communicate the
@@ -19819,7 +19827,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-10-17T17:00:00" calendar="gregorian"><hi
+                                    when="1927-10-17T17:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">October 17, 1927—5
                             p.m.</hi></date></dateline></opener>
                         <p>1. Department’s instruction No. 65, October 6, 1927. As presumably
@@ -20069,7 +20077,7 @@
                                     rend="italic">Wilson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-10-19T19:00:00" calendar="gregorian"><hi
+                                    when="1927-10-19T19:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">October 19, 1927—7
                             p.m.</hi></date></dateline></opener>
                         <p>5. Your 4, October 18, 10 p.m. As long as there is probability of
@@ -20161,7 +20169,7 @@
                                     rend="italic">Wilson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-10-20T19:00:00" calendar="gregorian"><hi
+                                    when="1927-10-20T19:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">October 20, 1927—7
                             p.m.</hi></date></dateline></opener>
                         <p>6. Your 4, October 18, 10 p.m.</p>
@@ -20219,7 +20227,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-10-20T20:00:00" calendar="gregorian"><hi
+                                    when="1927-10-20T20:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">October 20, 1927—8
                             p.m.</hi></date></dateline></opener>
                         <p>7. Your No. 8, October 19, 11 p.m. As some time may elapse before
@@ -20400,7 +20408,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-10-21T18:00:00" calendar="gregorian"><hi
+                                    when="1927-10-21T18:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">October 21, 1927—6
                             p.m.</hi></date></dateline></opener>
                         <p>8. Your No. 11, October 20, 10 a.m. Department authorizes you at your
@@ -20632,7 +20640,7 @@
                                     rend="italic">Wilson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-10-22T18:00:00" calendar="gregorian"><hi
+                                    when="1927-10-22T18:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">October 22, 1927—6
                             p.m.</hi></date></dateline></opener>
                         <p>9. Your 13, October 21, 9 p.m. Compromise regarding Article 3 is
@@ -20675,7 +20683,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-10-24T19:00:00" calendar="gregorian"><hi
+                                    when="1927-10-24T19:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">October 24, 1927—7
                             p.m.</hi></date></dateline></opener>
                         <p>12. Your No. 15, October 21, 11 p.m. <hi rend="italic">Rapporteurs’</hi>
@@ -20805,7 +20813,7 @@
                                     rend="italic">Wilson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-11-04T13:00:00" calendar="gregorian"><hi
+                                    when="1927-11-04T13:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">November 4, 1927—1
                             p.m.</hi></date></dateline></opener>
                         <p>20. Your 54, November 4, 1 p.m., last paragraph. You should not sign
@@ -21017,7 +21025,7 @@
                                     rend="italic">Marriner</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-02-17T13:00:00" calendar="gregorian"><hi
+                                    when="1927-02-17T13:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">February 17, 1927—1
                                 p.m.</hi></date></dateline></opener>
                         <p>19. Your despatch No. 1080, January 13, 1927.<note n="30"
@@ -23037,8 +23045,8 @@
                                 Bliss</hi></signed></closer>
                         </div>
                         <div type="document" xml:id="d245" n="245" subtype="historical-document"
-                            frus:doc-dateTime-min="1927-12-19T19:00:00-05:00"
-                            frus:doc-dateTime-max="1927-12-19T19:00:00-05:00">
+                            frus:doc-dateTime-min="1927-12-19T18:00:00-05:00"
+                            frus:doc-dateTime-max="1927-12-19T18:00:00-05:00">
                             <note rend="inline" type="source">724.3415/171: Telegram</note>
                             <head><hi rend="italic">The Ambassador in Argentina</hi> (<persName
                                     type="from"><hi rend="italic">Bliss</hi></persName>) <hi
@@ -23047,7 +23055,7 @@
                             <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Buenos Aires</hi></placeName>, <date
-                                        when="1927-12-19T19:00:00" calendar="gregorian"><hi
+                                        when="1927-12-19T19:00:00-04:00" calendar="gregorian"><hi
                                             rend="italic">December 19, 1927—7
                                     p.m.</hi></date><lb/>[Received 10 p.m.]</dateline></opener>
                             <p>109. A report that the Government of Argentina had offered its
@@ -23525,15 +23533,15 @@
                         </div>
                         <pb n="330" xml:id="pg_330" facs="0416"/>
                         <div type="document" xml:id="d253" n="253" subtype="historical-document"
-                            frus:doc-dateTime-min="1927-09-14T17:00:00-05:00"
-                            frus:doc-dateTime-max="1927-09-14T17:00:00-05:00">
+                            frus:doc-dateTime-min="1927-09-14T16:00:00-05:00"
+                            frus:doc-dateTime-max="1927-09-14T16:00:00-05:00">
                             <note rend="inline" type="source">717.2114/51: Telegram</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the Chargé in Nicaragua</hi> (<persName
                                     type="to"><hi rend="italic">Munro</hi></persName>)</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date
-                                        when="1927-09-14T17:00:00" calendar="gregorian"><hi
+                                        when="1927-09-14T17:00:00-04:00" calendar="gregorian"><hi
                                             rend="italic">September 14, 1927—5
                                     p.m.</hi></date></dateline></opener>
                             <p>141. Your 241 September 13, 5 p.m. Department is giving serious
@@ -23569,7 +23577,7 @@
                                     type="to"><hi rend="italic">Munro</hi></persName>)</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date
-                                        when="1927-10-06T18:00:00" calendar="gregorian"><hi
+                                        when="1927-10-06T18:00:00-05:00" calendar="gregorian"><hi
                                             rend="italic">October 6, 1927—6
                                     p.m.</hi></date></dateline></opener>
                             <p>151. Your 260, October 4, 2 p.m. It has been necessary to consult
@@ -23638,7 +23646,7 @@
                                     type="to"><hi rend="italic">Munro</hi></persName>)</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date
-                                        when="1927-11-11T19:00:00" calendar="gregorian"><hi
+                                        when="1927-11-11T19:00:00-05:00" calendar="gregorian"><hi
                                             rend="italic">November 11, 1927—7
                                     p.m.</hi></date></dateline></opener>
                             <p>190. Your 327, November 11, 11 a.m. Department expects to be able to
@@ -23727,7 +23735,7 @@
                             <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date
-                                        when="1927-01-06T10:00:00" calendar="gregorian"><hi
+                                        when="1927-01-06T10:00:00-05:00" calendar="gregorian"><hi
                                             rend="italic">January 6, 1927—10
                                     a.m.</hi></date></dateline></opener>
                             <p>1. Embassy’s telegram number 110, December 30, 6 p.m. It being
@@ -23879,8 +23887,8 @@
                             <closer><signed><hi rend="smallcaps">Boal</hi></signed></closer>
                         </div>
                         <div type="document" xml:id="d264" n="264" subtype="historical-document"
-                            frus:doc-dateTime-min="1927-09-09T19:00:00-05:00"
-                            frus:doc-dateTime-max="1927-09-09T19:00:00-05:00">
+                            frus:doc-dateTime-min="1927-09-09T18:00:00-05:00"
+                            frus:doc-dateTime-max="1927-09-09T18:00:00-05:00">
                             <note rend="inline" type="source">721.2315/339: Telegram</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the Chargé in Peru</hi> (<persName
@@ -23888,7 +23896,7 @@
                             <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date
-                                        when="1927-09-09T19:00:00" calendar="gregorian"><hi
+                                        when="1927-09-09T19:00:00-04:00" calendar="gregorian"><hi
                                             rend="italic">September 9, 1927—7
                                     p.m.</hi></date></dateline></opener>
                             <p>28. Embassy’s number 39, September 7, 8 p.m. The Department today
@@ -24265,7 +24273,7 @@
                             <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date
-                                        when="1927-11-15T15:00:00" calendar="gregorian"><hi
+                                        when="1927-11-15T15:00:00-05:00" calendar="gregorian"><hi
                                             rend="italic">November 15, 1927—3
                                     p.m.</hi></date></dateline></opener>
                             <p>44. Embassy’s No. 55, November 12, 3 p.m. As you know, the Department
@@ -24417,15 +24425,15 @@
                                         >i</hi>, pp. 543</ref>–<ref target="frus1926v01#pg_547"
                                     >547</ref>.</note></head>
                         <div type="document" xml:id="d273" n="273" subtype="historical-document"
-                            frus:doc-dateTime-min="1927-07-30T13:00:00-05:00"
-                            frus:doc-dateTime-max="1927-07-30T13:00:00-05:00">
+                            frus:doc-dateTime-min="1927-07-30T12:00:00-05:00"
+                            frus:doc-dateTime-max="1927-07-30T12:00:00-05:00">
                             <note rend="inline" type="source">738.3915/306a: Telegram</note>
                             <head><hi rend="italic">The <gloss type="from">Secretary of
                                         State</gloss> to the Chargé in Haiti</hi> (<persName
                                     type="to"><hi rend="italic">Gross</hi></persName>)</head>
                             <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>, <date
-                                        when="1927-07-30T13:00:00" calendar="gregorian"><hi
+                                        when="1927-07-30T13:00:00-04:00" calendar="gregorian"><hi
                                             rend="italic">July 30, 1927—1
                                     p.m.</hi></date></dateline></opener>
                             <p>54. As it is probable that the boundary question will be discussed
@@ -25693,8 +25701,8 @@
                         <closer><signed><hi rend="smallcaps">Frank B. Kellogg</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d284" n="284" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-05-11T12:00:00-05:00"
-                        frus:doc-dateTime-max="1927-05-11T12:00:00-05:00">
+                        frus:doc-dateTime-min="1927-05-11T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-05-11T11:00:00-05:00">
                         <note rend="inline" type="source">710.C2/226a: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Ambassador in Brazil</hi> (<persName type="to"><hi rend="italic"
@@ -25702,7 +25710,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-05-11T12:00:00" calendar="gregorian"><hi
+                                    when="1927-05-11T12:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">May 11,
                             1927—noon</hi></date>.</dateline></opener>
                         <p>17. The following message has been received by the United Press here from
@@ -25771,15 +25779,15 @@
                     </div>
                     <pb n="369" xml:id="pg_369" facs="0455"/>
                     <div type="document" xml:id="d286" n="286" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-05-13T17:00:00-05:00"
-                        frus:doc-dateTime-max="1927-05-13T17:00:00-05:00">
+                        frus:doc-dateTime-min="1927-05-13T16:00:00-05:00"
+                        frus:doc-dateTime-max="1927-05-13T16:00:00-05:00">
                         <note rend="inline" type="source">710.C2/228: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Ambassador in Brazil</hi> (<persName type="to"><hi rend="italic"
                                     >Morgan</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-05-13T17:00:00" calendar="gregorian"><hi
+                                    when="1927-05-13T17:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">May 13, 1927—5
                             p.m.</hi></date></dateline></opener>
                         <p>18. Your 22, May 12, 3 p.m. Please deliver the following immediately to
@@ -27942,7 +27950,7 @@
                                     rend="italic">Wilson</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-12-16T17:00:00" calendar="gregorian"><hi
+                                    when="1927-12-16T17:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">December 16, 1927—5
                                 p.m.</hi></date></dateline></opener>
                         <p>99. Please transmit to the Secretary General of the League of Nations in
@@ -28666,15 +28674,15 @@
                         <closer><signed><hi rend="smallcaps">Jay</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d301" n="301" subtype="historical-document"
-                        frus:doc-dateTime-min="1926-09-09T18:00:00-05:00"
-                        frus:doc-dateTime-max="1926-09-09T18:00:00-05:00">
+                        frus:doc-dateTime-min="1926-09-09T17:00:00-05:00"
+                        frus:doc-dateTime-max="1926-09-09T17:00:00-05:00">
                         <note rend="inline" type="source">835.34/405: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Ambassador in Argentina</hi> (<persName type="to"><hi
                                     rend="italic">Jay</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1926-09-09T18:00:00" calendar="gregorian"><hi
+                                    when="1926-09-09T18:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">September 9, 1926—6
                                 p.m.</hi></date></dateline></opener>
                         <p>36. Your telegram 39, May 21, 11 a.m. Department is informed that the
@@ -28727,7 +28735,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1926-10-18T13:00:00" calendar="gregorian"><hi
+                                    when="1926-10-18T13:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">October 18, 1926—1
                             p.m.</hi></date></dateline></opener>
                         <p>41. Referring to your telegram No. 63 of September 11, 9 a.m., and
@@ -28912,7 +28920,7 @@
                                 type="to"><hi rend="italic">Cable</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-03-01T15:00:00" calendar="gregorian"><hi
+                                    when="1927-03-01T15:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">March 1, 1927—3
                             p.m.</hi></date></dateline></opener>
                         <p>9. Bethlehem Steel Company states that further difficulties are being
@@ -28959,7 +28967,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-03-09T19:00:00" calendar="gregorian"><hi
+                                    when="1927-03-09T19:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">March 9, 1927—7
                             p.m.</hi></date></dateline></opener>
                         <p>11. Department’s telegram No. 9, dated March 1, 3 p.m. Please inform
@@ -29143,15 +29151,15 @@
                                     White</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d314" n="314" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-07-28T17:00:00-05:00"
-                        frus:doc-dateTime-max="1927-07-28T17:00:00-05:00">
+                        frus:doc-dateTime-min="1927-07-28T16:00:00-05:00"
+                        frus:doc-dateTime-max="1927-07-28T16:00:00-05:00">
                         <note rend="inline" type="source">835.34/428: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chargé in Argentina</hi> (<persName type="to"><hi rend="italic"
                                     >Cable</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-07-28T17:00:00" calendar="gregorian"><hi
+                                    when="1927-07-28T17:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">July 28, 1927—5
                             p.m.</hi></date></dateline></opener>
                         <p>26. Your despatch 261 April 7 last and previous correspondence. Electric
@@ -29196,8 +29204,8 @@
                         <closer><signed><hi rend="smallcaps">Cable</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d316" n="316" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-08-18T14:00:00-05:00"
-                        frus:doc-dateTime-max="1927-08-18T14:00:00-05:00">
+                        frus:doc-dateTime-min="1927-08-18T13:00:00-05:00"
+                        frus:doc-dateTime-max="1927-08-18T13:00:00-05:00">
                         <note rend="inline" type="source">835.34/428: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Chargé in Argentina</hi> (<persName type="to"><hi rend="italic"
@@ -29205,7 +29213,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-08-18T14:00:00" calendar="gregorian"><hi
+                                    when="1927-08-18T14:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">August 18, 1927—2
                             p.m.</hi></date></dateline></opener>
                         <p>31. Embassy’s telegram No. 70, dated August 9, 5 p.m. You are instructed
@@ -29686,18 +29694,19 @@
                             Washburn</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d322" n="322" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-09-20T10:00:00-05:00"
-                        frus:doc-dateTime-max="1927-09-20T10:00:00-05:00">
+                        frus:doc-dateTime-min="1927-09-20T04:00:00-05:00"
+                        frus:doc-dateTime-max="1927-09-20T04:00:00-05:00">
                         <note rend="inline" type="source">863.51/839: Telegram</note>
                         <head><hi rend="italic">The Minister in Austria</hi> (<persName type="from"
                                     ><hi rend="italic">Washburn</hi></persName>) <hi rend="italic"
                                 >to the <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Vienna</hi></placeName>, <date when="1927-09-20T10:00:00"
-                                    calendar="gregorian"><hi rend="italic">September 20, 1927—10
-                                        a.m.</hi></date><lb/>[Received September 20—8:25
-                                a.m.]</dateline></opener>
+                                        >Vienna</hi></placeName>, <date
+                                    when="1927-09-20T10:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">September 20, 1927—10
+                                a.m.</hi></date><lb/>[Received September 20—8:25
+                            a.m.]</dateline></opener>
                         <p>54. The Chancellor has officially and urgently requested me to report
                             that he would appreciate very much an early reply to the question on
                             pages 3 and 4<note n="6" xml:id="d322fn6">The 3d and 5th paragraphs of
@@ -30246,7 +30255,7 @@
                                 type="to"><hi rend="italic">Washburn</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-10-28T11:00:00" calendar="gregorian"><hi
+                                    when="1927-10-28T11:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">October 28, 1927—11
                                 a.m.</hi></date></dateline></opener>
                         <p>20. Your 54, September 20, 10 a.m. and despatch 1532, September 20. In
@@ -30422,17 +30431,18 @@
                     </div>
                     <pb n="458" xml:id="pg_458" facs="0544"/>
                     <div type="document" xml:id="d333" n="333" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-12-02T11:00:00-05:00"
-                        frus:doc-dateTime-max="1927-12-02T11:00:00-05:00">
+                        frus:doc-dateTime-min="1927-12-02T05:00:00-05:00"
+                        frus:doc-dateTime-max="1927-12-02T05:00:00-05:00">
                         <note rend="inline" type="source">863.51 Relief Credits/6: Telegram</note>
                         <head><hi rend="italic">The Minister in Austria</hi> (<persName type="from"
                                     ><hi rend="italic">Washburn</hi></persName>) <hi rend="italic"
                                 >to the <gloss type="to">Secretary of State</gloss></hi></head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Vienna</hi></placeName>, <date when="1927-12-02T11:00:00"
-                                    calendar="gregorian"><hi rend="italic">December 2, 1927—11
-                                        a.m.</hi></date><lb/>[Received December 2—10:02
-                                a.m.]</dateline></opener>
+                                        >Vienna</hi></placeName>, <date
+                                    when="1927-12-02T11:00:00+01:00" calendar="gregorian"><hi
+                                        rend="italic">December 2, 1927—11
+                                a.m.</hi></date><lb/>[Received December 2—10:02
+                            a.m.]</dateline></opener>
                         <p>66. Enclosure 1 to my despatch 1573, October 17. Austrian Government
                             abandons its request for extension until 1957 of time of payment of
                             principal and interest, leaving only its request that assets pledged for
@@ -31611,7 +31621,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1926-12-01T18:00:00" calendar="gregorian"><hi
+                                    when="1926-12-01T18:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">December 1, 1926—6
                             p.m.</hi></date></dateline></opener>
                         <p>238. As the British Government has appointed a Minister for the Irish
@@ -33723,7 +33733,7 @@
                                     >Collier</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-10-14T19:00:00" calendar="gregorian"><hi
+                                    when="1927-10-14T19:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">October 14, 1927—7
                             p.m.</hi></date></dateline></opener>
                         <p>52. Your 146, October 6th, 6 p.m. Please draft treaty on basis of treaty
@@ -33884,7 +33894,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-10-27T18:00:00" calendar="gregorian"><hi
+                                    when="1927-10-27T18:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">October 27, 1927—6
                             p.m.</hi></date></dateline></opener>
                         <p>56. Embassy’s telegram number 161, October 24, 4 p.m. Please cable
@@ -34141,8 +34151,8 @@
                         <closer><signed><hi rend="smallcaps">Collier</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d385" n="385" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-08-31T18:00:00-05:00"
-                        frus:doc-dateTime-max="1927-08-31T18:00:00-05:00">
+                        frus:doc-dateTime-min="1927-08-31T17:00:00-05:00"
+                        frus:doc-dateTime-max="1927-08-31T17:00:00-05:00">
                         <note rend="inline" type="source">825.85/42: Telegram</note>
                         <head><hi rend="italic">The Acting Secretary of State</hi> (<persName
                                 type="from"><hi rend="italic">Castle</hi></persName>) <hi
@@ -34151,7 +34161,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-08-31T18:00:00" calendar="gregorian"><hi
+                                    when="1927-08-31T18:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">August 31, 1927—6
                             p.m.</hi></date></dateline></opener>
                         <p>37. Embassy’s telegrams: No. 109, August 22, 11 a.m.; No. 111, August 25,
@@ -34279,8 +34289,8 @@
                     </div>
                     <pb n="531" xml:id="pg_531" facs="0617"/>
                     <div type="document" xml:id="d388" n="388" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-09-14T14:00:00-05:00"
-                        frus:doc-dateTime-max="1927-09-14T14:00:00-05:00">
+                        frus:doc-dateTime-min="1927-09-14T13:00:00-05:00"
+                        frus:doc-dateTime-max="1927-09-14T13:00:00-05:00">
                         <note rend="inline" type="source">825.85/42: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Ambassador in Chile</hi> (<persName type="to"><hi rend="italic"
@@ -34288,7 +34298,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-09-14T14:00:00" calendar="gregorian"><hi
+                                    when="1927-09-14T14:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">September 14, 1927—2
                                 p.m.</hi></date></dateline></opener>
                         <p>41. Department’s telegram No. 37, August 31, 6 p.m.</p>
@@ -34558,7 +34568,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-11-22T13:00:00" calendar="gregorian"><hi
+                                    when="1927-11-22T13:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">November 22, 1927—1
                                 p.m.</hi></date></dateline></opener>
                         <p>62. Department’s telegram No. 61, dated November 19, 1 p.m.<note n="25"
@@ -34680,7 +34690,7 @@
                                     >Collier</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-10-10T12:00:00" calendar="gregorian"><hi
+                                    when="1927-10-10T12:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">October 10,
                             1927—noon</hi></date>.</dateline></opener>
                         <p>50. Your despatch 1166, September 1st.<note n="29" xml:id="d397fn29">Not
@@ -34735,7 +34745,7 @@
                                     >Collier</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-11-01T19:00:00" calendar="gregorian"><hi
+                                    when="1927-11-01T19:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">November 1, 1927—7
                             p.m.</hi></date></dateline></opener>
                         <p>58. Department informed by American interests that Chilean Government is
@@ -34862,15 +34872,15 @@
                     <head>Representations to the Chilean Government regarding effects of proposed
                         insurance legislation on American interests</head>
                     <div type="document" xml:id="d403" n="403" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-05-05T10:00:00-05:00"
-                        frus:doc-dateTime-max="1927-05-05T10:00:00-05:00">
+                        frus:doc-dateTime-min="1927-05-05T09:00:00-05:00"
+                        frus:doc-dateTime-max="1927-05-05T09:00:00-05:00">
                         <note rend="inline" type="source">825.506/4: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Ambassador in Chile</hi> (<persName type="to"><hi rend="italic"
                                     >Collier</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-05-05T10:00:00" calendar="gregorian"><hi
+                                    when="1927-05-05T10:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">May 5, 1927—10
                             a.m.</hi></date></dateline></opener>
                         <p>19. Home Insurance Company of New York calls Department’s attention to a
@@ -35048,8 +35058,8 @@
                         <closer><signed><hi rend="smallcaps">Collier</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d406" n="406" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-08-08T12:00:00-05:00"
-                        frus:doc-dateTime-max="1927-08-08T12:00:00-05:00">
+                        frus:doc-dateTime-min="1927-08-08T11:00:00-05:00"
+                        frus:doc-dateTime-max="1927-08-08T11:00:00-05:00">
                         <note rend="inline" type="source">825.506/8: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Ambassador in Chile</hi> (<persName type="to"><hi rend="italic"
@@ -35057,7 +35067,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-08-08T12:00:00" calendar="gregorian"><hi
+                                    when="1927-08-08T12:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">August 8,
                             1927—noon</hi></date>.</dateline></opener>
                         <p>31. The Department has not yet received proposed Chilean law
@@ -35116,8 +35126,8 @@
                         <closer><signed><hi rend="smallcaps">Collier</hi></signed></closer>
                     </div>
                     <div type="document" xml:id="d408" n="408" subtype="historical-document"
-                        frus:doc-dateTime-min="1927-09-14T18:00:00-05:00"
-                        frus:doc-dateTime-max="1927-09-14T18:00:00-05:00">
+                        frus:doc-dateTime-min="1927-09-14T17:00:00-05:00"
+                        frus:doc-dateTime-max="1927-09-14T17:00:00-05:00">
                         <note rend="inline" type="source">825.506/13: Telegram</note>
                         <head><hi rend="italic">The <gloss type="from">Secretary of State</gloss> to
                                 the Ambassador in Chile</hi> (<persName type="to"><hi rend="italic"
@@ -35125,7 +35135,7 @@
                         <opener><seg rendition="#center">[Paraphrase]</seg></opener>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-09-14T18:00:00" calendar="gregorian"><hi
+                                    when="1927-09-14T18:00:00-04:00" calendar="gregorian"><hi
                                         rend="italic">September 14, 1927—6
                                 p.m.</hi></date></dateline></opener>
                         <p>42. Your telegram No. 129, September 12, noon. The Department can
@@ -35205,7 +35215,7 @@
                                 type="to"><hi rend="italic">Collier</hi></persName>)</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>, <date
-                                    when="1927-09-27T19:00:00" calendar="gregorian"><hi
+                                    when="1927-09-27T19:00:00-05:00" calendar="gregorian"><hi
                                         rend="italic">September 27, 1927—7
                                 p.m.</hi></date></dateline></opener>
                         <p>47. Your 138, September 21, 3 p.m. As there is no discrimination against
