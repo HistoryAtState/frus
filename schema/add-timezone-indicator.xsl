@@ -16318,7 +16318,7 @@
                 test=".[(xs:dateTime(.) &gt;= xs:dateTime('1800-01-01T00:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1917-01-24T00:00:00'))]">
                 <xsl:variable name="attribute-name" select="node-name(.)"/>
                 <xsl:attribute name="{$attribute-name}">
-                    <xsl:value-of select="concat(xs:string(.), '-04:49:')"/>
+                    <xsl:value-of select="concat(xs:string(.), '-04:49')"/>
                 </xsl:attribute>
             </xsl:when>
             <xsl:when
