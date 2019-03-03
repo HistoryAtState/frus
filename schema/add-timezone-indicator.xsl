@@ -25369,7 +25369,7 @@
 
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(N\p{P}Djamena)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(N\p{P}Djamena|NDjamena)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
 
         <xsl:choose>
 
