@@ -15,7 +15,7 @@
     <!-- Abu Dhabi and Dubai, United Arab Emirates -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Abu\s+ Dhabi|Dubai)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Abu\s+Dhabi|Dubai)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
@@ -7932,7 +7932,7 @@
     <!-- Brasilia and São Paulo, Brazil -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Brasilia|São\s+Paulo|Sao\s+Paulo)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Brasilia|S[ãa]o\s+Paulo)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
@@ -10078,7 +10078,7 @@
     <!-- Buenos Aires, Argentina -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Buenos Aires)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Buenos\s+Aires)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <!-- 1800 to 1894 -->
@@ -10503,7 +10503,7 @@
     <!-- Cairo, Egypt -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Canberra|Sydney)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Cairo)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
 
         <xsl:choose>
             <xsl:when
@@ -11769,7 +11769,7 @@
     <!-- Chisinau, Moldova -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Chi[sș]in[aă]u)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Chi[sș]in[aă]u|Kishinev|Kishinyov)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
 
         <xsl:choose>
 
@@ -17290,7 +17290,7 @@
     <!-- Khartoum, Sudan -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Khartoum)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Khartoum|Al-Khar[ṭt][ūu]m)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
@@ -25606,7 +25606,7 @@
     <!-- Moscow and Saint Petersburg, Russia -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Moscow|Moskva|Petrograd|Sankt\s+Peterburg|Sankt[-–—]Peterburg|Saint\s+Petersburg|Saint[-–—]Petersburg)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Moscow|Moskva|Petrograd|Sankt\s+Peterburg|Sankt[-–—]Peterburg|Saint\s+Petersburg|Saint[-–—]Peters?burg|St.?\s+Peters?burg|St.?[-–—]Petersburg)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
@@ -26021,7 +26021,7 @@
     <!-- Nairobi, Kenya -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Nassau)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Nairobi)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
@@ -26606,7 +26606,7 @@
 
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(N\p{P}Djamena|NDjamena)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(N.?Djamena|NDjamena)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
 
         <xsl:choose>
 
@@ -26637,7 +26637,7 @@
     <!-- New Delhi and Kolkata, India -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(New Delhi|Delhi|Calcutta|Kolkata)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(New\s+Delhi|Delhi|Calcutta|Kolkata)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
 
         <xsl:choose>
 
@@ -27112,7 +27112,7 @@
     <!-- Nouakchott, Mauritania -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Ottawa|Montréal|Montreal)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Nouakchott)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
 
         <xsl:choose>
 
@@ -27156,7 +27156,7 @@
     <!-- Nuku'alofa, Tonga -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Nuku\p{P}alofa|Nukualofa)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Nuku.?alofa|Nukualofa)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
 
         <xsl:choose>
 
@@ -28800,7 +28800,7 @@
     <!-- Ouagadougou, Burkina Faso -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Porto-Novo|Porto\s+Novo|Cotonou)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Ouagadougou)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
             <xsl:when
                 test=".[(xs:dateTime(.) &gt;= xs:dateTime('1800-01-01T00:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1912-01-01T00:00:00'))]">
@@ -32329,7 +32329,7 @@
     <!-- Riga, Latvia -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Rome|Roma)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Riga)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
@@ -33187,7 +33187,7 @@
     <!-- Saint George's, Grenada -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(St.*\s+George’*s|Saint\s+George’*s)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(St.?\s+George’*s|Saint\s+George’*s)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
@@ -33216,7 +33216,7 @@
     <!-- Saint John's, Antigua and Barbuda -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Saint\s+John’*s)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Saint\s+John’?s)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
@@ -35184,7 +35184,7 @@
     <!-- São Tomé, Sao Tome and Principe -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(S[ãa]o Tom[ée])', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(S[ãa]o\s+Tom[ée])', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
@@ -35706,7 +35706,7 @@
     <!-- Skopje, Macedonia -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Sofia)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Skopje)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
