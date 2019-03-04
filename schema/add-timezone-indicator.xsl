@@ -25606,7 +25606,7 @@
     <!-- Moscow and Saint Petersburg, Russia -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Moscow|Moskva|Petrograd|Sankt\s+Peterburg|Sankt[-–—]Peterburg|Saint\s+Petersburg|Saint[-–—]Peters?burg|St.?\s+Peters?burg|St.?[-–—]Petersburg)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Moscow|Moskva|Petrograd|Leningrad|Sankt\s+Peterburg|Sankt[-–—]Peterburg|Saint\s+Petersburg|Saint[-–—]Peters?burg|St.?\s+Peters?burg|St.?[-–—]Petersburg)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
