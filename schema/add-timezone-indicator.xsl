@@ -6472,10 +6472,10 @@
         </xsl:choose>
     </xsl:template>
 
-    <!-- Berlin, Bonn, and Weisbaden, Germany -->
+    <!-- Berlin, Bonn, and Wiesbaden, Germany -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bonn|Weisbaden)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bonn|Wiesbaden)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
