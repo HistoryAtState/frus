@@ -2021,10 +2021,10 @@
         </xsl:choose>
     </xsl:template>
 
-    <!-- Ankara and Istanbul, Turkey -->
+    <!-- Ankara and Istanbul (Constantinople), Turkey -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Ankara|Istanbul)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Ankara|Constantinople|Istanbul)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
@@ -25603,10 +25603,10 @@
         </xsl:choose>
     </xsl:template>
 
-    <!-- Moscow, Russia -->
+    <!-- Moscow and Saint Petersburg, Russia -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Moscow|Moskva)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Moscow|Moskva|Petrograd|Sankt\s+Peterburg|Sankt[-–—]Peterburg|Saint\s+Petersburg|Saint[-–—]Petersburg)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
             <xsl:when
@@ -37765,7 +37765,7 @@
     <!-- Tehran, Iran -->
 
     <xsl:template
-        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Tehran)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
+        match="tei:date/attribute::*[ancestor::tei:dateline//tei:placeName[matches(., '(Tehran|Teheran)', 'i')] and matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
             <xsl:when
                 test=".[(xs:dateTime(.) &gt;= xs:dateTime('1800-01-01T00:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1946-01-01T00:00:00'))]">
