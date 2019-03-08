@@ -959,7 +959,8 @@
                                     <item>A 03. Add div/@subtype="historical-document" OR
                                         "editorial-note"</item>
                                     <item>A 04. Add div/@subtype="referral"</item>
-                                    <item>A 05. Add timezone indicators to date attributes</item>
+                                    <item>A 05. Add timezone indicators to date attributes [initial
+                                        pass]</item>
                                     <item>A 06. Add FRUS documents dateTimes (min/max) [initial
                                         pass]</item>
                                 </list>
@@ -967,33 +968,37 @@
                             <item>Apply schema files and validate the file</item>
                             <item>Fix validation errors</item>
                             <item>Apply transformation for secondary pass [B]<list>
-                                    <item>B 07. Add/update FRUS documents dateTimes (min/max)
+                                    <item>B 07. Add timezone indicators to date attributes
+                                        [secondary pass]</item>
+                                    <item>B 08. Add/update FRUS documents dateTimes (min/max)
                                         [secondary pass]</item>
                                 </list>
                             </item>
                             <item>Review structure</item>
                             <item>Silent corrections vs. Errata</item>
                             <item>Apply transformations for tertiary pass [C]<list>
-                                    <item>C 08. Add date/@calendar="gregorian"</item>
-                                    <item>C 09. Add date/@calendar="us-republic"</item>
-                                    <item>C 10. Add rendition="#left" for closer//dateline without @
+                                    <item>C 09. Add date/@calendar="gregorian"</item>
+                                    <item>C 10. Add date/@calendar="us-republic"</item>
+                                    <item>C 11. Add rendition="#left" for closer//dateline without @
                                         rendition</item>
-                                    <item>C 11. Add div/@subtype to front matter</item>
-                                    <item>C 12. Add div/@subtype to back matter</item>
-                                    <item>C 13. Add/update FRUS documents dateTimes (min/max)
+                                    <item>C 12. Add div/@subtype to front matter</item>
+                                    <item>C 13. Add div/@subtype to back matter</item>
+                                    <item>C 14. Add timezone indicators to date attributes [tertiary
+                                        pass]</item>
+                                    <item>C 15. Add/update FRUS documents dateTimes (min/max)
                                         [tertiary pass]</item>
-                                    <item>C 14. Add FRUS compilations/chapter/subchapter dateTimes
+                                    <item>C 16. Add FRUS compilations/chapter/subchapter dateTimes
                                         (min/max)</item>
                                 </list>
                             </item>
                             <item>Apply transformations for penultimate pass [D]<list>
-                                    <item>D 15. Add FRUS volume dateTimes in
+                                    <item>D 17. Add FRUS volume dateTimes in
                                         xenoData/frus:coverage</item>
                                 </list>
                             </item>
                             <item>Apply transformations for final pass [E]<list>
-                                    <item>E 16. Add FRUS section/toc dateTimes (min/max)</item>
-                                    <item>E 17. Add FRUS editorial-notes dateTimes (min/max)</item>
+                                    <item>E 18. Add FRUS section/toc dateTimes (min/max)</item>
+                                    <item>E 19. Add FRUS editorial-notes dateTimes (min/max)</item>
                                 </list>
                             </item>
                         </list></item>
