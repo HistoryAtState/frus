@@ -10,6 +10,11 @@
         </xsl:copy>
     </xsl:template>
 
+    <!-- Delete any existing date[@type="content-date"] -->
+
+    <xsl:template
+        match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date[matches(attribute::type, 'content-date')]"/>
+
     <!-- Add descendant min/max dates as date[@type="content-date"]/@notBefore | @notAfter -->
 
     <xsl:template match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt">
@@ -41,6 +46,7 @@
         <!-- Add element date[@type="content-date"] -->
 
         <xsl:choose>
+
             <xsl:when test=".[not(tei:date[matches(attribute::type, 'content-date')])]">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
@@ -70,6 +76,7 @@
 
                 </xsl:copy>
             </xsl:when>
+
             <xsl:otherwise>
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
