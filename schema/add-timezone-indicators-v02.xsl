@@ -17,6 +17,16 @@
         match="tei:date/attribute::*[matches(xs:string(data(.)), '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}$')]">
         <xsl:choose>
 
+            <!-- Add Zulu time zone indicator (+00:00) to dateTime -->
+            <xsl:when test=".[ancestor::tei:date[matches(., '\d{4}Z', 'i')]]">
+
+                <xsl:variable name="attribute-name" select="node-name(.)"/>
+                <xsl:attribute name="{$attribute-name}">
+                    <xsl:value-of select="concat(xs:string(.), '+00:00')"/>
+                </xsl:attribute>
+
+            </xsl:when>
+
             <!-- Abu Dhabi and Dubai, United Arab Emirates -->
             <xsl:when
                 test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Abu\s+Dhabi|Dubai)', 'i')]]">
