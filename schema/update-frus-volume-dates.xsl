@@ -47,7 +47,9 @@
 
         <xsl:choose>
 
-            <xsl:when test=".[not(tei:date[matches(attribute::type, 'content-date')])]">
+            <!-- <xsl:when test=".[not(tei:date[matches(attribute::type, 'content-date')])]"> -->
+
+            <xsl:when test=".">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
                     <xsl:apply-templates select="node()"/>
