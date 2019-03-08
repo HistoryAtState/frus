@@ -267,9 +267,8 @@
                                 </titlePage>
                                 <pb n="[II]" xml:id="pg_II" facs="0003"/>
                                 <titlePage>
-                                    <docImprint>DEPARTMENT OF STATE PUBLICATION 11374<lb/>
-                                        Office of the Historian<lb/>
-                                        Bureau of Public Affairs</docImprint>
+                                    <docImprint>DEPARTMENT OF STATE PUBLICATION 11374<lb/> Office of
+                                        the Historian<lb/> Bureau of Public Affairs</docImprint>
                                     <milestone unit="section" rend="hr"/>
                                     <docImprint>For sale by the U.S. Government Printing Office<lb/>
                                         Superintendent of Documents, Mail Stop SSOP, Washington, DC
@@ -372,8 +371,9 @@
                                         <div xml:id="ch1" type="chapter">
                                             <head>October-November 1969</head>
                                             <div n="1" xml:id="d1" type="document">
-                                                <head>1. Memorandum of Conversation<note n="1" type="source"
-                                                  xml:id="d1fn1">Source: Nixon Library...</note></head>
+                                                <head>1. Memorandum of Conversation<note n="1"
+                                                  type="source" xml:id="d1fn1">Source: Nixon
+                                                  Library...</note></head>
                                                 <p>In my meeting today...</p>
                                             </div>
                                         </div>
@@ -383,8 +383,9 @@
                                         <div xml:id="ch4" type="chapter">
                                             <head>October-November 1969</head>
                                             <div n="50" xml:id="d50" type="document">
-                                                <head>1. Memorandum of Conversation<note n="1" type="source"
-                                                  xml:id="d1fn1">Source: Nixon Library...</note></head>
+                                                <head>1. Memorandum of Conversation<note n="1"
+                                                  type="source" xml:id="d1fn1">Source: Nixon
+                                                  Library...</note></head>
                                                 <p>In my meeting today...</p>
                                             </div>
                                         </div>
@@ -958,40 +959,41 @@
                                     <item>A 03. Add div/@subtype="historical-document" OR
                                         "editorial-note"</item>
                                     <item>A 04. Add div/@subtype="referral"</item>
-                                    <item>A 05. Add FRUS documents dateTimes (min/max) [initial
+                                    <item>A 05. Add timezone indicators to date attributes</item>
+                                    <item>A 06. Add FRUS documents dateTimes (min/max) [initial
                                         pass]</item>
                                 </list>
                             </item>
                             <item>Apply schema files and validate the file</item>
                             <item>Fix validation errors</item>
                             <item>Apply transformation for secondary pass [B]<list>
-                                    <item>B 06. Add/update FRUS documents dateTimes (min/max)
+                                    <item>B 07. Add/update FRUS documents dateTimes (min/max)
                                         [secondary pass]</item>
                                 </list>
                             </item>
                             <item>Review structure</item>
                             <item>Silent corrections vs. Errata</item>
                             <item>Apply transformations for tertiary pass [C]<list>
-                                    <item>C 07. Add date/@calendar="gregorian"</item>
-                                    <item>C 08. Add date/@calendar="us-republic"</item>
-                                    <item>C 09. Add rendition="#left" for closer//dateline without @
+                                    <item>C 08. Add date/@calendar="gregorian"</item>
+                                    <item>C 09. Add date/@calendar="us-republic"</item>
+                                    <item>C 10. Add rendition="#left" for closer//dateline without @
                                         rendition</item>
-                                    <item>C 10. Add div/@subtype to front matter</item>
-                                    <item>C 11. Add div/@subtype to back matter</item>
-                                    <item>C 12. Add/update FRUS documents dateTimes (min/max)
+                                    <item>C 11. Add div/@subtype to front matter</item>
+                                    <item>C 12. Add div/@subtype to back matter</item>
+                                    <item>C 13. Add/update FRUS documents dateTimes (min/max)
                                         [tertiary pass]</item>
-                                    <item>C 13. Add FRUS compilations/chapter/subchapter dateTimes
+                                    <item>C 14. Add FRUS compilations/chapter/subchapter dateTimes
                                         (min/max)</item>
                                 </list>
                             </item>
                             <item>Apply transformations for penultimate pass [D]<list>
-                                    <item>D 14. Add FRUS volume dateTimes in
+                                    <item>D 15. Add FRUS volume dateTimes in
                                         xenoData/frus:coverage</item>
                                 </list>
                             </item>
                             <item>Apply transformations for final pass [E]<list>
-                                    <item>E 15. Add FRUS section/toc dateTimes (min/max)</item>
-                                    <item>E 16. Add FRUS editorial-notes dateTimes (min/max)</item>
+                                    <item>E 16. Add FRUS section/toc dateTimes (min/max)</item>
+                                    <item>E 17. Add FRUS editorial-notes dateTimes (min/max)</item>
                                 </list>
                             </item>
                         </list></item>
