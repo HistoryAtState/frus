@@ -10171,7 +10171,7 @@
             <!-- Buenos Aires, Argentina -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Buenos\s+Aires)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Buenos\s+Aires|Buenos\s+Ayres)', 'i')]]">
 
                 <xsl:choose>
 
@@ -19008,10 +19008,10 @@
             </xsl:when>
 
 
-            <!-- La Paz and Sucre, Bolivia -->
+            <!-- La Paz, Chorillos, and Sucre, Bolivia -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(La\s+Paz|Sucre)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(La\s+Paz|Chorillos|Sucre)', 'i')]]">
 
                 <xsl:choose>
 
@@ -20639,7 +20639,8 @@
 
             <!-- London, England -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(London)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(London|Great\s+Cumberland\s+Place)', 'i')]]">
 
                 <xsl:choose>
 
@@ -23466,9 +23467,10 @@
             </xsl:when>
 
 
-            <!-- Madrid, Spain -->
+            <!-- Madrid and Barcelona, Spain -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Madrid)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Madrid|Barcelona)', 'i')]]">
 
                 <xsl:choose>
 
@@ -24570,9 +24572,10 @@
             </xsl:when>
 
 
-            <!-- Mexico City, Mexico -->
+            <!-- Mexico City and Guadalajara, Mexico -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Mexico)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Mexico|Guadalajara)', 'i')]]">
 
                 <xsl:choose>
 
@@ -36420,10 +36423,10 @@
             </xsl:when>
 
 
-            <!-- Shanghai and Beijing/Peking, China -->
+            <!-- Shanghai, Beijing/Peking, Amoy/Xiamen, Chefoo, Guangzhou/Canton, and Tianjin/Tientsin, China -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Shanghai|Beijing|Peking)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Shanghai|Beijing|Peking|Amoy|Xiamen|Chefoo|Guangzhou|Canton|Tianjin|Tientsin|Tien[-–—]tsin)', 'i')]]">
 
                 <xsl:choose>
 
