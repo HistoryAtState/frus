@@ -24,6 +24,7 @@
                 <idno type="frus">frus1872p2v2</idno>
                 <idno type="oclc"/>
 
+
                 <date type="content-date" calendar="gregorian" notBefore="1803-05-04T00:00:00-05:00"
                     notAfter="1873-03-06T23:59:59-05:00">1803 to 1873</date>
             </publicationStmt>
@@ -40450,16 +40451,16 @@
                         </closer>
                     </div>
                     <div type="document" xml:id="d195" n="195" subtype="historical-document"
-                        frus:doc-dateTime-min="1872-05-25T15:00:00-05:00"
-                        frus:doc-dateTime-max="1872-05-25T15:00:00-05:00">
+                        frus:doc-dateTime-min="1872-05-25T10:00:00-05:00"
+                        frus:doc-dateTime-max="1872-05-25T10:00:00-05:00">
                         <head>No. 60.<lb/><hi rend="italic">Earl <persName type="from"
                                     >Granville</persName> to Sir <persName type="to">E.
                                     Thornton</persName>.</hi></head>
                         <opener>
                             <dateline rendition="#right"><placeName><hi rend="smallcaps">Foreign
-                                        Office</hi></placeName>, <date when="1872-05-25T15:00:00"
-                                    calendar="gregorian"><hi rend="italic">May</hi> 25, 1872—3
-                                    p.m.</date></dateline>
+                                        Office</hi></placeName>, <date
+                                    when="1872-05-25T15:00:00+00:00" calendar="gregorian"><hi
+                                        rend="italic">May</hi> 25, 1872—3 p.m.</date></dateline>
                         </opener>
                         <p rend="center">[From British Blue Book “North America,” No. 9, (1872,) p.
                             23.]</p>
@@ -42026,9 +42027,10 @@
                             <opener>
                                 <dateline rendition="#right"><placeName>58 <hi rend="smallcaps"
                                             >Great Cumberland Place, Hyde Park,
-                                        W</hi>.</placeName>,<lb/><date when="1872-05-31T02:45:00"
-                                        calendar="gregorian"><hi rend="italic">Friday</hi>, 2.45 <hi
-                                            rend="italic">a.m., May</hi> 31, 1872</date>.</dateline>
+                                        W</hi>.</placeName>,<lb/><date
+                                        when="1872-05-31T02:45:00+00:00" calendar="gregorian"><hi
+                                            rend="italic">Friday</hi>, 2.45 <hi rend="italic">a.m.,
+                                            May</hi> 31, 1872</date>.</dateline>
                             </opener>
                             <p><hi rend="smallcaps">My Lord</hi>: I have just been called from my
                                 bed to receive your note, dated the 30th, putting me in possession
@@ -42055,7 +42057,7 @@
                             <opener>
                                 <dateline rendition="#right"><placeName>58 <hi rend="smallcaps"
                                             >Great Cumberland Place</hi></placeName>,<lb/><date
-                                        when="1872-05-31T00:00:00" calendar="gregorian"><hi
+                                        when="1872-05-31T00:00:00+00:00" calendar="gregorian"><hi
                                             rend="italic">May</hi> 31, 1872, <hi rend="italic"
                                             >midnight</hi></date>.</dateline>
                             </opener>
