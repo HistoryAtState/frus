@@ -8012,10 +8012,10 @@
             </xsl:when>
 
 
-            <!-- Brasilia, Rio de Janeiro, São Paulo, Brazil -->
+            <!-- Brasilia, Petrópolis, Rio de Janeiro, and São Paulo, Brazil -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Brasilia|Rio\s+de\s+Janeiro|S[ãa]o\s+Paulo)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Brasilia|Petr[óo]polis|Rio\s+de\s+Janeiro|S[ãa]o\s+Paulo)', 'i')]]">
 
                 <xsl:choose>
 
@@ -24215,9 +24215,9 @@
             </xsl:when>
 
 
-            <!-- Managua, Nicaragua -->
+            <!-- Managua and Bluefields, Nicaragua -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Managua)', 'i')]]">
+            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Managua|Bluefields)', 'i')]]">
 
                 <xsl:choose>
 
@@ -29742,9 +29742,10 @@
             </xsl:when>
 
 
-            <!-- Panama [City], Panama -->
+            <!-- Panama [City] and Colón, Panama -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Panama)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Panama|Col[óo]n)', 'i')]]">
 
                 <xsl:choose>
 
@@ -32510,10 +32511,10 @@
             </xsl:when>
 
 
-            <!-- Quito and Guayaquil, Ecuador -->
+            <!-- Quito, Guayaquil, and Portoviejo, Ecuador -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Quito|Guayaquil)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Quito|Guayaquil|Portoviejo|Porto\s+Viejo)', 'i')]]">
 
                 <xsl:choose>
 
