@@ -7367,10 +7367,10 @@
             </xsl:when>
 
 
-            <!-- Bogota, Colombia -->
+            <!-- Bogota and Barranquilla, Colombia -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Bogot[aá]|Santaf[eé]|Santa\s+F[eé]\s+de\s+Bogot[aá])', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Bogot[aá]|Santaf[eé]|Santa\s+F[eé]\s+de\s+Bogot[aá]|Barr?anquilla)', 'i')]]">
 
                 <xsl:choose>
 
@@ -11798,9 +11798,10 @@
             </xsl:when>
 
 
-            <!-- Caracas, Venezuela -->
+            <!-- Caracas and Cumaná, Venezuela -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Caracas)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Caracas|Cuman[áa])', 'i')]]">
 
                 <xsl:choose>
 
@@ -12438,10 +12439,10 @@
             </xsl:when>
 
 
-            <!-- Cophenhagen, Denmark -->
+            <!-- Cophenhagen, Denmark [including Hotel d’Angleterre]-->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Copenhagen|K[øo]benhavn)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Copenhagen|K[øo]benhavn|Hotel\s+d’Angleterre)', 'i')]]">
 
                 <xsl:choose>
 
@@ -24217,7 +24218,8 @@
 
             <!-- Managua and Bluefields, Nicaragua -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Managua|Bluefields)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Managua|Bluefields)', 'i')]]">
 
                 <xsl:choose>
 
