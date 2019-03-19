@@ -21,8 +21,7 @@
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1864p4</idno>
                 <idno type="oclc">http://www.worldcat.org/oclc/22598936</idno>
-
-                <date type="content-date" calendar="gregorian" notBefore="1863-05-21T00:00:00-05:00"
+<date type="content-date" calendar="gregorian" notBefore="1863-05-21T00:00:00-05:00"
                     notAfter="1884-04-20T23:59:59-05:00">1863 to 1884</date>
             </publicationStmt>
             <sourceDesc>
@@ -84,7 +83,7 @@
                 <pb n="[III]" xml:id="pg_III" facs="0009"/>
             </titlePage>
             <div type="section" xml:id="papers1" frus:doc-dateTime-min="1863-05-21T00:00:00-05:00"
-                frus:doc-dateTime-max="1884-04-20T23:59:59-05:00">
+                frus:doc-dateTime-max="1884-04-20T23:59:59-05:00" subtype="index">
                 <head>Papers relating to foreign affairs.</head>
                 <p rend="center">SPAIN.</p>
                 <table cols="5">

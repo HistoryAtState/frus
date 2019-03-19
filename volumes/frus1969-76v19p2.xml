@@ -19,8 +19,7 @@
                 <pubPlace>Washington</pubPlace>
                 <date type="publication-date" calendar="gregorian">2018</date>
                 <idno type="frus">frus1969-76v19p2</idno>
-
-                <date type="content-date" calendar="gregorian" notBefore="1969-01-14T06:25:00-05:00"
+<date type="content-date" calendar="gregorian" notBefore="1969-01-14T06:25:00-05:00"
                     notAfter="1972-10-18T10:00:00-05:00">1969 to 1972</date>
             </publicationStmt>
             <sourceDesc>
@@ -69,7 +68,7 @@
                     20402-0001</docImprint>
             </titlePage>
             <div type="section" xml:id="preface" frus:doc-dateTime-min="1969-01-14T11:25:00-05:00"
-                frus:doc-dateTime-max="1972-10-18T10:00:00-05:00">
+                frus:doc-dateTime-max="1972-10-18T10:00:00-05:00" subtype="preface">
                 <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
@@ -338,7 +337,7 @@
                 <pb n="X" facs="0011" xml:id="pg_X"/>
             </div>
             <div type="section" xml:id="toc" frus:doc-dateTime-min="1969-01-14T11:25:00-05:00"
-                frus:doc-dateTime-max="1972-10-18T10:00:00-05:00">
+                frus:doc-dateTime-max="1972-10-18T10:00:00-05:00" subtype="table-of-contents">
                 <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Contents</head>
                 <list type="toc">
@@ -387,7 +386,7 @@
                 <pb n="pg_XII" facs="0013" xml:id="pg_XII"/>
             </div>
             <div type="section" xml:id="sources" frus:doc-dateTime-min="1969-01-14T11:25:00-05:00"
-                frus:doc-dateTime-max="1972-10-18T10:00:00-05:00">
+                frus:doc-dateTime-max="1972-10-18T10:00:00-05:00" subtype="sources">
                 <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
@@ -727,7 +726,7 @@
                 </list>
             </div>
             <div type="section" xml:id="terms" frus:doc-dateTime-min="1969-01-14T11:25:00-05:00"
-                frus:doc-dateTime-max="1972-10-18T10:00:00-05:00">
+                frus:doc-dateTime-max="1972-10-18T10:00:00-05:00" subtype="index">
                 <head>Abbreviations and Terms</head>
                 <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <list>
@@ -1110,7 +1109,7 @@
                 </list>
             </div>
             <div type="section" xml:id="persons" frus:doc-dateTime-min="1969-01-14T11:25:00-05:00"
-                frus:doc-dateTime-max="1972-10-18T10:00:00-05:00">
+                frus:doc-dateTime-max="1972-10-18T10:00:00-05:00" subtype="index">
                 <pb n="XXIII" facs="0024" xml:id="pg_XXIII"/>
                 <head>Persons</head>
                 <list>

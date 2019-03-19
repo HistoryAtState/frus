@@ -26142,13 +26142,13 @@
                 </xsl:choose>
 
             </xsl:when>
-            
-            
+
+
             <!-- Monterrey and Durango, Mexico -->
-            
+
             <xsl:when
                 test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Monterrey|Durango)', 'i')]]">
-                
+
                 <xsl:choose>
                     <xsl:when
                         test=".[(xs:dateTime(.) &gt;= xs:dateTime('1800-01-01T00:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1921-12-31T23:18:00'))]">
@@ -26234,16 +26234,16 @@
                             <xsl:value-of select="concat(xs:string(.), '-06:00')"/>
                         </xsl:attribute>
                     </xsl:when>
-                    
+
                     <xsl:otherwise>
                         <xsl:copy>
                             <xsl:apply-templates select="."/>
                         </xsl:copy>
                     </xsl:otherwise>
                 </xsl:choose>
-                
+
             </xsl:when>
-                    
+
 
             <!-- Montevideo and Punta del Este, Uruguay -->
 
