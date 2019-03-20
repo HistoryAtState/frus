@@ -12430,15 +12430,15 @@
                 </xsl:choose>
 
             </xsl:when>
-            
-            
+
+
             <!-- Chongqing (Chungking), China -->
 
             <xsl:when
                 test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Chongqing|Chungking)', 'i')]]">
-                
+
                 <xsl:choose>
-                    
+
                     <xsl:when
                         test=".[(xs:dateTime(.) &gt;= xs:dateTime('1800-01-01T00:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1928-01-01T00:00:00'))]">
                         <xsl:variable name="attribute-name" select="node-name(.)"/>
@@ -12544,14 +12544,14 @@
                             <xsl:value-of select="concat(xs:string(.), '+08:00')"/>
                         </xsl:attribute>
                     </xsl:when>
-                    
+
                     <xsl:otherwise>
                         <xsl:copy>
                             <xsl:apply-templates select="."/>
                         </xsl:copy>
                     </xsl:otherwise>
                 </xsl:choose>
-                
+
             </xsl:when>
 
             <!-- Colombo and Sri Jayewardenepura Kotte, Sri Lanka -->
@@ -30348,9 +30348,10 @@
             </xsl:when>
 
 
-            <!-- Paris, France -->
+            <!-- Paris, Bordeaux, and Vichy, France -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Bordeaux|Vichy)', 'i')]]">
 
                 <xsl:choose>
 
