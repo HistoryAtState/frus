@@ -17328,9 +17328,9 @@
             </xsl:when>
 
 
-            <!-- Jakarta, Indonesia -->
+            <!-- Jakarta (Batavia), Indonesia -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Jakarta)', 'i')]]">
+            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Jakarta|Batavia)', 'i')]]">
 
                 <xsl:choose>
 
