@@ -36946,7 +36946,7 @@
             <!-- Shanghai, Beijing/Peking, Amoy/Xiamen, Chefoo, Guangzhou/Canton, Nanjing/Nanking and Tianjin/Tientsin, China -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Shanghai|Beijing|Peking|Amoy|Xiamen|Chefoo|Guangzhou|Canton|Nanjing|Nanking?|Jiangning|Kiangning|Tianjin|Tientsin|Tien[-–—]tsin)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Shanghai|Beijing|Beiping|Peking|Peiping|Amoy|Xiamen|Chefoo|Guangzhou|Canton|Nanjing|Nanking?|Jiangning|Kiangning|Tianjin|Tientsin|Tien[-–—]tsin)', 'i')]]">
 
                 <xsl:choose>
 
