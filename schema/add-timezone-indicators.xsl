@@ -15880,8 +15880,8 @@
                 </xsl:choose>
 
             </xsl:when>
-            
-            
+
+
             <!-- Harbin, China -->
 
 
@@ -44259,8 +44259,8 @@
                 </xsl:choose>
 
             </xsl:when>
-            
-            
+
+
             <!-- Vladivostok, Russia -->
 
 
