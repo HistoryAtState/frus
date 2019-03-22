@@ -81,10 +81,10 @@
                 contain a date element</assert>
         </rule>
         <!-- Tentative rule -->
-        <!-- <rule
-            context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]"> -->
         <rule
-            context="tei:date[ancestor::tei:dateline][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
+            context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
+        <!-- <rule
+            context="tei:date[ancestor::tei:dateline][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]"> -->
             <assert
                 test="(@notBefore and @notAfter and @ana) or (@when and @ana) or (@from and @to and @ana)"
                 >Undated documents must be tagged with @when/@ana --OR-- @from/@to/@ana --OR--
@@ -95,10 +95,10 @@
                 fuzzy dateTime range (such as an unknown date/time between two documents or
                 events).</assert>
         </rule>
-        <!-- <rule
-            context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]"> -->
         <rule
-            context="tei:date[ancestor::tei:dateline][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]">
+            context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]">
+            <!-- <rule
+            context="tei:date[ancestor::tei:dateline][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]"> -->
             <assert
                 test="@when or (@from and @to) or (@notBefore and @notAfter and @ana) or (@when and @notBefore and @notAfter and @ana)"
                 >Supplied dates must have @when (for single dates) or @from/@to (for supplied date
