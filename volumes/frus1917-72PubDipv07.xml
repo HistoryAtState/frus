@@ -64,7 +64,7 @@
             </titlePage>
             <pb n="III" facs="0004" xml:id="pg_III"/>
             <div type="section" xml:id="about" frus:doc-dateTime-min="1963-11-25T00:00:00-05:00"
-                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00">
+                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00" subtype="about-frus-series">
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -226,7 +226,7 @@
                 </closer>
             </div>
             <div type="section" xml:id="preface" frus:doc-dateTime-min="1963-11-25T00:00:00-05:00"
-                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00">
+                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00" subtype="preface">
                 <pb n="VII" facs="0008" xml:id="pg_VII"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">Focus of Research and Principles of Selection for Foreign
@@ -302,7 +302,7 @@
             </div>
             <pb n="IX" facs="0010" xml:id="pg_IX"/>
             <div type="section" xml:id="toc" frus:doc-dateTime-min="1963-11-25T00:00:00-05:00"
-                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00">
+                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00" subtype="table-of-contents">
                 <head>Contents</head>
                 <list>
                     <item>
@@ -363,7 +363,7 @@
             <pb n="X" facs="0011" xml:id="pg_X"/>
             <pb n="XI" facs="0012" xml:id="pg_XI"/>
             <div type="section" xml:id="sources" frus:doc-dateTime-min="1963-11-25T00:00:00-05:00"
-                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00">
+                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00" subtype="sources">
                 <head>Sources</head>
                 <p>The National Archives and Records Administration is the key repository for the
                     majority of the important documents related to the Johnson administrations
@@ -724,7 +724,7 @@
                 </list>
             </div>
             <div type="section" xml:id="terms" frus:doc-dateTime-min="1963-11-25T00:00:00-05:00"
-                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00">
+                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00" subtype="index">
                 <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
@@ -1555,7 +1555,7 @@
                 </list>
             </div>
             <div type="section" xml:id="persons" frus:doc-dateTime-min="1963-11-25T00:00:00-05:00"
-                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00">
+                frus:doc-dateTime-max="1968-12-06T23:59:59-05:00" subtype="index">
                 <pb n="XXV" facs="0026" xml:id="pg_XXV"/>
                 <head>Persons</head>
                 <list>
@@ -35244,7 +35244,7 @@
         <back>
             <div type="section" xml:id="appendix-a"
                 frus:doc-dateTime-min="1964-01-01T00:00:00-05:00"
-                frus:doc-dateTime-max="1967-12-31T23:59:59-05:00">
+                frus:doc-dateTime-max="1967-12-31T23:59:59-05:00" subtype="appendix">
                 <pb n="620" facs="0661" xml:id="pg_620"/>
                 <head>Appendix A</head>
                 <div type="section" xml:id="appendix-1" subtype="historical-document"
