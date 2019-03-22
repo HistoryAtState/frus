@@ -36212,7 +36212,7 @@
             <!-- Santo Domingo and Puerto Plata, Dominican Republic -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Santo\s+Domingo|Puerto\s+Plato)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Santo\s+Domingo|Puerto\s+Plata)', 'i')]]">
 
                 <xsl:choose>
                     <xsl:when
