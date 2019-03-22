@@ -17395,18 +17395,18 @@
                 </xsl:choose>
 
             </xsl:when>
-            
+
             <!-- Chicago and Kansas City -->
-            
-            
+
+
             <!-- Indianapolis and Terre Haute, United States -->
-            
-            
+
+
             <xsl:when
                 test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Indianapolis|Terre\s+Haute)', 'i')]]">
-                
+
                 <xsl:choose>
-                    
+
                     <xsl:when
                         test=".[(xs:dateTime(.) &gt;= xs:dateTime('1800-01-01T00:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1883-11-18T12:15:00'))]">
                         <xsl:variable name="attribute-name" select="node-name(.)"/>
@@ -17484,13 +17484,13 @@
                             <xsl:value-of select="concat(xs:string(.), '-05:00')"/>
                         </xsl:attribute>
                     </xsl:when>
-                     <xsl:when
-                         test=".[(xs:dateTime(.) &gt;= xs:dateTime('1946-09-29T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1947-04-2702:00:00'))]">
-                         <xsl:variable name="attribute-name" select="node-name(.)"/>
-                         <xsl:attribute name="{$attribute-name}">
-                             <xsl:value-of select="concat(xs:string(.), '-06:00')"/>
-                         </xsl:attribute>
-                     </xsl:when>
+                    <xsl:when
+                        test=".[(xs:dateTime(.) &gt;= xs:dateTime('1946-09-29T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1947-04-2702:00:00'))]">
+                        <xsl:variable name="attribute-name" select="node-name(.)"/>
+                        <xsl:attribute name="{$attribute-name}">
+                            <xsl:value-of select="concat(xs:string(.), '-06:00')"/>
+                        </xsl:attribute>
+                    </xsl:when>
                     <xsl:when
                         test=".[(xs:dateTime(.) &gt;= xs:dateTime('1947-04-2702:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1947-09-28T02:00:00'))]">
                         <xsl:variable name="attribute-name" select="node-name(.)"/>
@@ -17589,16 +17589,16 @@
                             <xsl:value-of select="concat(xs:string(.), '-06:00')"/>
                         </xsl:attribute>
                     </xsl:when>
-                    
+
                     <xsl:otherwise>
                         <xsl:copy>
                             <xsl:apply-templates select="."/>
                         </xsl:copy>
                     </xsl:otherwise>
                 </xsl:choose>
-                
+
             </xsl:when>
-                    
+
 
 
             <!-- Islamabad, Karachi, and Rawalpindi, Pakistan -->
