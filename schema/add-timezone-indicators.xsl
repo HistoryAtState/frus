@@ -25205,10 +25205,10 @@
             </xsl:when>
 
 
-            <!-- Mexico City, Veracruz, San Luis Potosí, Guadalajara, and Acapulco, Mexico -->
+            <!-- Mexico City, Acapulco, Aguascalientes, Guadalajara, San Luis Potosí, and Veracruz, Mexico -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Mexico|Veracruz|Vera\s+Cruz|San\s+Luis\s+Potos[íi]|Guadalajara|Acapulco)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Mexico|Acapulco|Aguascalientes|Guadalajara|San\s+Luis\s+Potos[íi]|Veracruz|Vera\s+Cruz)', 'i')]]">
 
                 <xsl:choose>
 
