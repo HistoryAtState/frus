@@ -11865,7 +11865,7 @@
                 <xsl:choose>
 
                     <xsl:when
-                        test=".[(xs:dateTime(.) &gt;= xs:dateTime('1800-01-01T00:00:00')) and (xs:dateTime(.) &lt; xs:dateTime(''))]">
+                        test=".[(xs:dateTime(.) &gt;= xs:dateTime('1800-01-01T00:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1883-11-18T12:09:00'))]">
                         <xsl:variable name="attribute-name" select="node-name(.)"/>
                         <xsl:attribute name="{$attribute-name}">
                             <xsl:value-of select="concat(xs:string(.), '-05:50')"/>
@@ -17622,14 +17622,14 @@
                         </xsl:attribute>
                     </xsl:when>
                     <xsl:when
-                        test=".[(xs:dateTime(.) &gt;= xs:dateTime('1946-09-29T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1947-04-2702:00:00'))]">
+                        test=".[(xs:dateTime(.) &gt;= xs:dateTime('1946-09-29T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1947-04-27T02:00:00'))]">
                         <xsl:variable name="attribute-name" select="node-name(.)"/>
                         <xsl:attribute name="{$attribute-name}">
                             <xsl:value-of select="concat(xs:string(.), '-06:00')"/>
                         </xsl:attribute>
                     </xsl:when>
                     <xsl:when
-                        test=".[(xs:dateTime(.) &gt;= xs:dateTime('1947-04-2702:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1947-09-28T02:00:00'))]">
+                        test=".[(xs:dateTime(.) &gt;= xs:dateTime('1947-04-27T02:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1947-09-28T02:00:00'))]">
                         <xsl:variable name="attribute-name" select="node-name(.)"/>
                         <xsl:attribute name="{$attribute-name}">
                             <xsl:value-of select="concat(xs:string(.), '-05:00')"/>
@@ -29009,9 +29009,9 @@
             </xsl:when>
 
 
-            <!-- Oslo, Norway -->
+            <!-- Oslo (Christiania), Norway -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Oslo)', 'i')]]">
+            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Oslo|Christiania|Kristiania)', 'i')]]">
 
                 <xsl:choose>
 
