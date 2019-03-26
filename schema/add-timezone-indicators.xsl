@@ -29011,7 +29011,8 @@
 
             <!-- Oslo (Christiania), Norway -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Oslo|Christiania|Kristiania)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Oslo|Christiania|Kristiania)', 'i')]]">
 
                 <xsl:choose>
 
