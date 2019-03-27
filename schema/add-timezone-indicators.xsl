@@ -36136,10 +36136,10 @@
             </xsl:when>
 
 
-            <!-- San José, Costa Rica -->
+            <!-- San José and (Port/Puerto) Limón, Costa Rica -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(San\s+Jose|San\s+José)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(San\s+Jos[eé]|Lim[óo]n)', 'i')]]">
 
                 <xsl:choose>
 
