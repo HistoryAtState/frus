@@ -24359,7 +24359,7 @@
 
             <!-- Luanda, Angola -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Luanda)', 'i')]]">
+            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(L[uo]anda)', 'i')]]">
 
                 <xsl:choose>
                     <xsl:when
