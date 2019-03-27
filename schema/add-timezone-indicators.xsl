@@ -24359,7 +24359,8 @@
 
             <!-- Luanda, Angola -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(L[uo]anda)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(L[uo]anda)', 'i')]]">
 
                 <xsl:choose>
                     <xsl:when
@@ -45889,7 +45890,7 @@
             <!-- Washington, D.C., Boston, Camp David, Glassboro (N.J.), Key Biscayne, New York, Niagara Falls (N.Y.), and Windsor (V.T.), United States -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Washington|Boston|Camp\s+David|Glassboro||Key\s+Biscayne|New\s+York|Niagara\s+Falls,?\s+N|Windsor,?\s+V)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Washington|Boston|Camp\s+David|Glassboro|Key\s+Biscayne|New\s+York|Niagara\s+Falls,?\s+N|Windsor,?\s+V)', 'i')]]">
 
                 <xsl:choose>
 
