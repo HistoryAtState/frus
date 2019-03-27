@@ -30487,7 +30487,7 @@
             <!-- Ottawa and Montréal/Montreal Canada -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Ottawa|Montréal|Montreal)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Ottawa|Montr[ée]al)', 'i')]]">
 
                 <xsl:choose>
                     <xsl:when
