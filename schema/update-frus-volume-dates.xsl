@@ -14,6 +14,9 @@
 
     <xsl:template
         match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date[matches(attribute::type, 'content-date')]"/>
+
+    <!-- Delete any whitespace from position of removed date[@type="content-date"] -->
+
     <xsl:template
         match="text()[following-sibling::node()[1][self::tei:date[matches(attribute::type, 'content-date')]]]"/>
 
