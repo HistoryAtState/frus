@@ -25,7 +25,6 @@
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1914-20v02</idno>
                 <idno type="oclc"/>
-
                 <date type="content-date" calendar="gregorian" notBefore="1914-06-16T00:00:00-05:00"
                     notAfter="1921-10-03T23:59:59-05:00">1914 to 1921</date>
             </publicationStmt>
@@ -38565,7 +38564,7 @@
                             <dateline rendition="#right">
                                 <placeName>
                                     <hi rend="smallcaps">Windsor, Vt.</hi></placeName>, <date
-                                    when="1915-08-11T10:00:00" calendar="gregorian">
+                                    when="1915-08-11T10:00:00-05:00" calendar="gregorian">
                                     <hi rend="italic">August 11, 1915—10 a. m.</hi>
                                 </date>
                                 <lb/>[Received 10:23 a. m.]</dateline>
