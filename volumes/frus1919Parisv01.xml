@@ -23,7 +23,6 @@
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1919Parisv01</idno>
                 <idno type="oclc"/>
-
                 <date type="content-date" calendar="gregorian" notBefore="1917-08-04T00:00:00-05:00"
                     notAfter="1919-11-19T23:59:59-05:00">1917 to 1919</date>
             </publicationStmt>
@@ -25661,8 +25660,8 @@
                     frus:doc-dateTime-max="1918-12-14T23:59:59-05:00">
                     <head>Scandinavian countries</head>
                     <div type="document" xml:id="d256" n="256" subtype="historical-document"
-                        frus:doc-dateTime-min="1918-11-21T20:00:00-05:00"
-                        frus:doc-dateTime-max="1918-11-21T20:00:00-05:00">
+                        frus:doc-dateTime-min="1918-11-21T14:00:00-05:00"
+                        frus:doc-dateTime-max="1918-11-21T14:00:00-05:00">
                         <note rend="inline" type="source">763.72119/2726: Telegram</note>
                         <head>
                             <hi rend="italic">The Minister in Norway</hi> (<persName type="from"
@@ -25676,8 +25675,8 @@
                             <dateline rendition="#right">
                                 <placeName>
                                     <hi rend="smallcaps">Christiania</hi>
-                                </placeName>, <date when="1918-11-21T20:00:00" calendar="gregorian"
-                                    >November 21, 1918—8 p.m.</date>
+                                </placeName>, <date when="1918-11-21T20:00:00+01:00"
+                                    calendar="gregorian">November 21, 1918—8 p.m.</date>
                                 <lb/>[Received November 22—1:55 a.m.]</dateline>
                         </opener>
                         <p>1363. I am reliably informed that the Norwegian Government hopes that its
