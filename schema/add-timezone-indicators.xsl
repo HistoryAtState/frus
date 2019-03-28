@@ -3347,9 +3347,9 @@
 
             </xsl:when>
 
-            <!-- Asunci[óo]n, Paraguay -->
+            <!-- Asunción, Paraguay -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Asuncion)', 'i')]]">
+            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Asunc[íi][óo]n)', 'i')]]">
 
                 <xsl:choose>
 
@@ -3735,9 +3735,9 @@
             </xsl:when>
 
 
-            <!-- Athens, Greece -->
+            <!-- Athens and Corfu, Greece -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Athens)', 'i')]]">
+            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Athens|Corfu)', 'i')]]">
 
                 <xsl:choose>
 
@@ -25504,10 +25504,10 @@
             </xsl:when>
 
 
-            <!-- Madrid and Barcelona, Spain -->
+            <!-- Madrid, Barcelona, San Sebastián, and Sevilla/Seville, Spain -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Madrid|Barcelona)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Madrid|Barcelona|San\s+Sebasti[áa]n|Sevill[ae])', 'i')]]">
 
                 <xsl:choose>
 
@@ -32059,10 +32059,10 @@
             </xsl:when>
 
 
-            <!-- Paris, Bordeaux, and Vichy, France -->
+            <!-- Paris, Bordeaux, Jassy, Le Havre, and Vichy, France -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Bordeaux|Vichy)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Bordeaux|Jassy|(Le\s+)?Havre|Vichy)', 'i')]]">
 
                 <xsl:choose>
 
