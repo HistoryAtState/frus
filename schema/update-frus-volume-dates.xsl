@@ -18,7 +18,7 @@
     <!-- Delete any whitespace from position of removed date[@type="content-date"] -->
 
     <xsl:template
-        match="text()[following-sibling::node()[1][self::tei:date[matches(attribute::type, 'content-date')]]]"/>
+        match="text()[following-sibling::node()[1][self::tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date[matches(attribute::type, 'content-date')]]]"/>
 
     <!-- Add descendant min/max dates as date[@type="content-date"]/@notBefore | @notAfter -->
 
