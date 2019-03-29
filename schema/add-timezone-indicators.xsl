@@ -3736,10 +3736,10 @@
             </xsl:when>
 
 
-            <!-- Athens and Corfu, Greece -->
+            <!-- Athens, Corfu, and Thessaloniki, Greece -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Athens|Corfu)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Athens|Corfu|Thessaloniki)', 'i')]]">
 
                 <xsl:choose>
 
@@ -6207,10 +6207,10 @@
             </xsl:when>
 
 
-            <!-- Berlin, Bonn, Frankfurt, and Wiesbaden, Germany -->
+            <!-- Berlin, Bonn [including Bad Godesberg], Frankfurt, and Wiesbaden, Germany -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bonn|Frankfurt|Wiesbaden)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bad\s+Godesberg|Bonn|Frankfurt|Wiesbaden)', 'i')]]">
 
                 <xsl:choose>
 
@@ -19698,10 +19698,10 @@
             </xsl:when>
 
 
-            <!-- Islamabad, Karachi, and Rawalpindi, Pakistan -->
+            <!-- Islamabad, Karachi, Murree, and Rawalpindi, Pakistan -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Islamabad|Karachi|Kar[āa]c[īi]|Sindh|Rawalpindi)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Islamabad|Karachi|Kar[āa]c[īi]|Sindh|Murree|Rawalpindi)', 'i')]]">
 
                 <xsl:choose>
 
@@ -19754,7 +19754,7 @@
             <!-- Jakarta (Batavia), Indonesia -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Jakarta|Batavia)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Jakarta|Djar?karta|Batavia)', 'i')]]">
 
                 <xsl:choose>
 
@@ -21182,7 +21182,7 @@
             <!-- Kinshasa, Democratic Republic of Congo -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Kinshasa|L[ée]opoldville)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Kinshasa|L[ée]o?poldville)', 'i')]]">
 
                 <xsl:choose>
 
@@ -23278,10 +23278,10 @@
             </xsl:when>
 
 
-            <!-- London, England -->
+            <!-- London and Salisbury, England -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(London|Great\s+Cumberland\s+Place)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(London|Great\s+Cumberland\s+Place|Salisbury)', 'i')]]">
 
                 <xsl:choose>
 
@@ -25290,6 +25290,38 @@
 
             </xsl:when>
 
+
+
+            <!-- Lubumbashi/Elisabethville, Democratic Republic of Congo -->
+
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Lubumbashi|[ÉE]lisabethville|Elisabethstad)', 'i')]]">
+
+                <xsl:choose>
+
+                    <xsl:when
+                        test=".[(xs:dateTime(.) &gt;= xs:dateTime('1800-01-01T00:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1897-11-09T00:00:00'))]">
+                        <xsl:variable name="attribute-name" select="node-name(.)"/>
+                        <xsl:attribute name="{$attribute-name}">
+                            <xsl:value-of select="concat(xs:string(.), '+01:49')"/>
+                        </xsl:attribute>
+                    </xsl:when>
+                    <xsl:when
+                        test=".[(xs:dateTime(.) &gt;= xs:dateTime('1897-11-09T00:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('2030-01-01T00:00:00'))]">
+                        <xsl:variable name="attribute-name" select="node-name(.)"/>
+                        <xsl:attribute name="{$attribute-name}">
+                            <xsl:value-of select="concat(xs:string(.), '+02:00')"/>
+                        </xsl:attribute>
+                    </xsl:when>
+
+                    <xsl:otherwise>
+                        <xsl:copy>
+                            <xsl:apply-templates select="."/>
+                        </xsl:copy>
+                    </xsl:otherwise>
+                </xsl:choose>
+
+            </xsl:when>
 
             <!-- Lusaka, Zambia -->
 
@@ -36230,10 +36262,10 @@
             </xsl:when>
 
 
-            <!-- Riyadh and Jeddah, Saudi Arabia -->
+            <!-- Riyadh, Dhahran, and Jeddah, Saudi Arabia -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Riyadh|Jeddah?|Jiddah?)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Riyadh|Dhahran|J[ei]ddah?)', 'i')]]">
 
                 <xsl:choose>
 
@@ -38096,9 +38128,10 @@
             </xsl:when>
 
 
-            <!-- Sana and Aden, Yemen -->
+            <!-- Sana, Aden, and Taiz, Yemen -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Aden|Sanaa?)')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Aden|Sanaa?|Ta[‘’]?izz?)')]]">
 
                 <xsl:choose>
 
@@ -38733,10 +38766,10 @@
             </xsl:when>
 
 
-            <!-- Santo Domingo and Puerto Plata, Dominican Republic -->
+            <!-- Santo Domingo/Trujillo and Puerto Plata, Dominican Republic -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Santo\s+Domingo|Puerto\s+Plata)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Santo\s+Domingo|Trujillo|Puerto\s+Plata)', 'i')]]">
 
                 <xsl:choose>
                     <xsl:when
@@ -41481,9 +41514,10 @@
             </xsl:when>
 
 
-            <!-- Tbilisi, Georgia -->
+            <!-- Tbilisi and Pitsunda/Bichvinta, Georgia -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tbilisi)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tbilisi|P[ei]tsunda|Bichvinta)', 'i')]]">
 
                 <xsl:choose>
 
@@ -42978,10 +43012,10 @@
             </xsl:when>
 
 
-            <!-- Tokyo, Kyoto, and Nagasaki, Japan -->
+            <!-- Tokyo, Hakone, Kyoto, and Nagasaki, Japan -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tokyo|Kyoto|Nagasaki)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tokyo|Hakone|Kyoto|Nagasaki)', 'i')]]">
 
                 <xsl:choose>
 
@@ -43066,10 +43100,10 @@
             </xsl:when>
 
 
-            <!-- Tripoli, Libya -->
+            <!-- Tripoli and Benghazi, Libya -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tripoli|[TṬ]ar[aā]bulus|[TṬ]ar[aā]blus|Trablus)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tripoli|[TṬ]ar[aā]bulus|[TṬ]ar[aā]blus|Trablus|Benghazi)', 'i')]]">
 
                 <xsl:choose>
 
@@ -47011,10 +47045,10 @@
             </xsl:when>
 
 
-            <!-- Washington (D.C.), Boston (Massachusetts), Camp David (Maryland), Glassboro (New Jersey), Key Biscayne (Florida), New York (New York), Newport (Rhode Island), Niagara Falls (New York), and Windsor (Vermont), United States -->
+            <!-- Washington (D.C.), Boston (Massachusetts), Camp David (Maryland), Glassboro (New Jersey), Hyannis Port (Massachusetts), Key Biscayne (Florida), New York (New York), Newport (Rhode Island), Niagara Falls (New York), Palm Beach (Florida), and Windsor (Vermont), United States -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Washington|Boston|Camp\s+David|Glassboro|Key\s+Biscayne|New\s+York|Newport|Niagara\s+Falls|Windsor,?\s+V)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Washington|Boston|Camp\s+David|Glassboro|Hyannis\s+Port|Key\s+Biscayne|New\s+York|Newport|Niagara\s+Falls|Palm\s+Beach|Windsor,?\s+V)', 'i')]]">
 
                 <xsl:choose>
 
