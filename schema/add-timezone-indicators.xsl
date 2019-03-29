@@ -11859,10 +11859,10 @@
             </xsl:when>
 
 
-            <!-- Chicago and Kansas City, United States -->
+            <!-- Chicago (Illinois), Kansas City (Kansas and Missouri), LBJ Ranch, and San Antonio (Texas), United States -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Chicago|Kansas\s+City)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Chicago|Kansas\s+City|L.?B.?J.?\s+Ranch|San\s+Antonio)', 'i')]]">
 
                 <xsl:choose>
 
@@ -14857,7 +14857,7 @@
             </xsl:when>
 
 
-            <!-- Denver and El Paso, United States -->
+            <!-- Denver (Colorado) and El Paso (Texas), United States -->
 
             <xsl:when
                 test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Denver|El\s+Paso)', 'i')]]">
@@ -47011,7 +47011,7 @@
             </xsl:when>
 
 
-            <!-- Washington, D.C., Boston, Camp David, Glassboro (New Jersey), Key Biscayne, New York, Newport (Rhode Island), Niagara Falls (New York), and Windsor (Vermont), United States -->
+            <!-- Washington (D.C.), Boston (Massachusetts), Camp David (Maryland), Glassboro (New Jersey), Key Biscayne (Florida), New York (New York), Newport (Rhode Island), Niagara Falls (New York), and Windsor (Vermont), United States -->
 
             <xsl:when
                 test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Washington|Boston|Camp\s+David|Glassboro|Key\s+Biscayne|New\s+York|Newport|Niagara\s+Falls|Windsor,?\s+V)', 'i')]]">
