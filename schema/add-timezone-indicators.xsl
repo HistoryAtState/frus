@@ -34085,10 +34085,10 @@
             </xsl:when>
 
 
-            <!-- Port-au-Prince, Haiti -->
+            <!-- Port-au-Prince and Cape Haitian, Haiti -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Port[-–—]au[-–—]Prince|Port\s+au\s+Prince)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Port[-–—]au[-–—]Prince|Port\s+au\s+Prince|Cape[-–—\s+]Ha[ïi]tian|Cap[-–—\s+]Ha[ïi]tien)', 'i')]]">
 
                 <xsl:choose>
 
