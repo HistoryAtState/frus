@@ -11859,10 +11859,10 @@
             </xsl:when>
 
 
-            <!-- Chicago (Illinois), Kansas City (Kansas and Missouri), Laredo (Texas), LBJ Ranch (Texas), and San Antonio (Texas), United States -->
+            <!-- Chicago (Illinois), Austin (Texas), Kansas City (Kansas and Missouri), Laredo (Texas), LBJ Ranch (Texas), and San Antonio (Texas), United States -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Chicago|Kansas\s+City|L.?B.?J.?\s+Ranch|Laredo|San\s+Antonio)', 'i') and not(matches(., 'Nuevo\s+Laredo'))]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Chicago|Austin|Kansas\s+City|L.?B.?J.?\s+Ranch|Laredo|San\s+Antonio)', 'i') and not(matches(., 'Nuevo\s+Laredo'))]]">
 
                 <xsl:choose>
 
@@ -34262,7 +34262,7 @@
             <!-- Port-au-Prince and Cape Haitian, Haiti -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Port[-–—]au[-–—]Prince|Port\s+au\s+Prince|Cape[-–—\s+]Ha[ïi]tian|Cap[-–—\s+]Ha[ïi]tien)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Port[-–—]au[-–—]Prince|Port\s+au\s+Prince|Cape?[-–—\s+]Ha[ïi]tian|Cape?[-–—\s+]Ha[ïi]tien)', 'i')]]">
 
                 <xsl:choose>
 
