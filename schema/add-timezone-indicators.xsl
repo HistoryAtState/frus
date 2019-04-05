@@ -29752,10 +29752,10 @@
             </xsl:when>
 
 
-            <!-- Moscow, Arkhangelsk, Kandalaksha, Murmansk, Saint Petersburg, and Vologda, Russia -->
+            <!-- Moscow, Arkhangelsk/Archangel, Kandalaksha, Murmansk, Saint Petersburg, and Vologda, Russia -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Moscow|Moskva|Petrograd|Leningrad|Arkhangelsk|Arkangelsk|Kandalaksha|Murmansk|Sankt\s+Peterburg|Sankt[-–—]Peterburg|Saint\s+Petersburg|Saint[-–—]Peters?burg|St.?\s+Peters?burg|St.?[-–—]Petersburg|Vologda)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Moscow|Moskva|Petrograd|Leningrad|Arkhangelsk|Arkangelsk|Archangel|Kandalaksha|Murmansk|Sankt\s+Peterburg|Sankt[-–—]Peterburg|Saint\s+Petersburg|Saint[-–—]Peters?burg|St.?\s+Peters?burg|St.?[-–—]Petersburg|Vologda)', 'i')]]">
 
                 <xsl:choose>
 
