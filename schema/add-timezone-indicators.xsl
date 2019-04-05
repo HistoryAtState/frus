@@ -17471,7 +17471,7 @@
             <!-- Harbin, China -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Habana|Havana)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Harbin)', 'i')]]">
 
                 <xsl:choose>
 
