@@ -50822,7 +50822,8 @@
             <!-- Willemstad, Curaçao -->
 
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Windhoek)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Willemstad)', 'i')]]">
 
                 <xsl:choose>
 
