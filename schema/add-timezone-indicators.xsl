@@ -39290,10 +39290,10 @@
             </xsl:when>
 
 
-            <!-- Santiago and Valparaiso, Chile -->
+            <!-- Santiago, Arica, Iquique, and Valparaiso, Chile -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Santiago|Valparaiso)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Santiago|Arica|Iquique|Valparaiso)', 'i')]]">
 
                 <xsl:choose>
 
