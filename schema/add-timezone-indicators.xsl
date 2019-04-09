@@ -8017,7 +8017,7 @@
             <!-- Brasilia, Petrópolis, Porto Alegre, Rio de Janeiro, and São Paulo, Brazil -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Brasilia|Petr[óo]polis|Porto\s+Alegre|Rio\s+de\s+Janeiro|Rio\s+de\s+Janiero|S[ãa]o\s+Paulo)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Brasilia|Petr[óo]polis|Porto\s+Alegre|Rio\s+de\s+(Janeiro|Janiero|Janerio)|S[ãa]o\s+Paulo)', 'i')]]">
 
                 <xsl:choose>
 
@@ -25046,10 +25046,10 @@
             </xsl:when>
 
 
-            <!-- London, Chequers, Liverpool, and Salisbury, England -->
+            <!-- London, Chequers, Liverpool, Salisbury, and Southampton, England -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(London|Great\s+Cumberland\s+Place|Chequers|Liverpool|Salisbury)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(London|Great\s+Cumberland\s+Place|Chequers|Liverpool|Salisbury|Southampton)', 'i')]]">
 
                 <xsl:choose>
 
@@ -27896,10 +27896,10 @@
             </xsl:when>
 
 
-            <!-- Madrid, Barcelona, San Sebastián, and Sevilla/Seville, Spain -->
+            <!-- Madrid, Barcelona, Palma (Majorca), San Sebastián, and Sevilla/Seville, Spain -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Madrid|Barcelona|San\s+Sebasti[áa]n|Sevill[ae])', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Madrid|Barcelona|Palma|San\s+Sebasti[áa]n|Sevill[ae])', 'i')]]">
 
                 <xsl:choose>
 
@@ -33374,10 +33374,10 @@
             </xsl:when>
 
 
-            <!-- Oslo (Christiania), Norway -->
+            <!-- Oslo (Christiania) and Bergen/Bjørgvin, Norway -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Oslo|Christiania|Kristiania)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Oslo|Christiania|Kristiania|Bergen|Bj[øo]rgvin)', 'i')]]">
 
                 <xsl:choose>
 
@@ -35118,10 +35118,10 @@
             </xsl:when>
 
 
-            <!-- Paris, Abbeville, Bordeaux, Jassy, Le Havre, Lyon, Nice, and Vichy, France -->
+            <!-- Paris, Abbeville, Bordeaux, Cherbourg-Octeville, Jassy, Le Havre, Lyon, Nice, and Vichy, France -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Bordeaux|Jassy|(Le\s+)?Havre|Lyons?|Nice|Vichy)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Bordeaux|Cherbourg[-–—\s+]Octeville|Cherbourg|Jassy|(Le\s+)?Havre|Lyons?|Nice|Vichy)', 'i')]]">
 
                 <xsl:choose>
 
@@ -38729,10 +38729,10 @@
             </xsl:when>
 
 
-            <!-- Rome, Genoa, and San Remo, Italy -->
+            <!-- Rome, Genoa, San Remo, and Trieste, Italy -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Rom[ea]|Genoa|San\s+Remo)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Rom[ea]|Genoa|San\s+Remo|Trieste)', 'i')]]">
 
                 <xsl:choose>
 
