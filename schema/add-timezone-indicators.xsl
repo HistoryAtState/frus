@@ -2042,10 +2042,10 @@
 
             </xsl:when>
 
-            <!-- Ankara, Beyoğlu/Pera, and Istanbul/Constantinople, Turkey -->
+            <!-- Ankara, Beyoğlu/Pera, Istanbul/Constantinople, and İzmir/Smyrna, Turkey -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Ankara|Beyoğlu|Pera|Constantinople|Istanbul)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Ankara|Beyoğlu|Pera|Constantinople|Istanbul|[İI]zmir|Smyrna)', 'i')]]">
 
                 <xsl:choose>
 
