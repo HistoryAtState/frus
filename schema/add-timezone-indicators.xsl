@@ -42989,10 +42989,10 @@
             </xsl:when>
 
 
-            <!-- Tehran, Iran -->
+            <!-- Tehran and Qazvin/Casvin, Iran -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tehran|Teheran)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tehran|Teheran|Qaz[vw][iī]n|Cas[vp]in|Ghazvin)', 'i')]]">
 
                 <xsl:choose>
                     <xsl:when
