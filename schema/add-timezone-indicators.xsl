@@ -22175,9 +22175,9 @@
             </xsl:when>
 
 
-            <!-- Lima, Peru -->
+            <!-- Lima and Tacna, Peru -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Lima)', 'i')]]">
+            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Lima|Tacna)', 'i')]]">
 
                 <xsl:choose>
 
