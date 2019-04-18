@@ -6207,10 +6207,10 @@
             </xsl:when>
 
 
-            <!-- Berlin, Bonn [including Bad Godesberg], Bremen, Frankfurt, Koblenz/Coblenz, and Wiesbaden, Germany -->
+            <!-- Berlin, Bonn [including Bad Godesberg], Bremen, Frankfurt, Hamburg, Koblenz/Coblenz, and Wiesbaden, Germany -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bad\s+Godesberg|Bonn|Bremen|Frankfurt|Koblenz|Coblenz|Wiesbaden)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bad\s+Godesberg|Bonn|Bremen|Frankfurt|Hamburg|Koblenz|Coblenz|Wiesbaden)', 'i')]]">
 
                 <xsl:choose>
 
@@ -11791,10 +11791,10 @@
             </xsl:when>
 
 
-            <!-- Caracas and Cumaná, Venezuela -->
+            <!-- Caracas, Cumaná, and Valencia, Venezuela -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Caracas|Cuman[áa])', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Caracas|Cuman[áa]|Valencia)', 'i')]]">
 
                 <xsl:choose>
 
@@ -19706,9 +19706,10 @@
             </xsl:when>
 
 
-            <!-- Harbin, China -->
+            <!-- Harbin and Dalian/Dairen, China -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Harbin)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Harbin|Dalian|Dalniy|Dairen)', 'i')]]">
 
                 <xsl:choose>
 
@@ -28019,7 +28020,7 @@
             <!-- Luxembourg, Luxembourg -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Luxembourg)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Luxembo?urg)', 'i')]]">
 
                 <xsl:choose>
 
@@ -28790,10 +28791,10 @@
             </xsl:when>
 
 
-            <!-- Madrid, Barcelona, Bilbao, Palma (Majorca), San Sebastián, Sevilla/Seville, and Vigo, Spain and Hendaye, France-->
+            <!-- Madrid, Barcelona, Bilbao, Málaga, Mataró, Palma (Majorca), San Sebastián, Santander, Sevilla/Seville, and Vigo, Spain and Hendaye, France-->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Madrid|Barcelona|Bilbao|Palma|San\s+Sebasti[áa]n|Sevill[ae]|Vigo|Hendaye)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Madrid|Barcelona|Bilbao|M[áa]laga|Matar[óo]|Palma|San\s+Sebasti[áa]n|Santander|Sevill[ae]|Vigo|Hendaye)', 'i')]]">
 
                 <xsl:choose>
 
@@ -36421,10 +36422,10 @@
             </xsl:when>
 
 
-            <!-- Panama [City], Balboa, and Colón, Panama -->
+            <!-- Panamá [City], Balboa, and Colón, Panama -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Panama|Balboa|Col[óo]n)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Panam[áa]|Balboa|Col[óo]n)', 'i')]]">
 
                 <xsl:choose>
 
@@ -36499,10 +36500,10 @@
             </xsl:when>
 
 
-            <!-- Paris, Abbeville, Bordeaux, Cherbourg-Octeville, Jassy, Le Havre, Lyon, Nice, Saint-Jean-de-Luz/San Juan de Luz, and Vichy, France -->
+            <!-- Paris, Abbeville, Bordeaux, Cherbourg-Octeville, Jassy, Le Havre, Lyon, Marseille, Perpignan, Nice, Saint-Jean-de-Luz/San Juan de Luz, and Vichy, France -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Bordeaux|Cherbourg[-–—\s+]Octeville|Cherbourg|Jassy|(Le\s+)?Havre|Lyons?|Nice|(Saint|St.?)[-–—\s+]Jean[-–—\s+]de[-–—\s+]Luz||San\s+Juan\s+de\s+Luz|Vichy)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Bordeaux|Cherbourg[-–—\s+]Octeville|Cherbourg|Jassy|(Le\s+)?Havre|Lyons?|Marseille|Nice|Perpignan|(Saint|St.?)[-–—\s+]Jean[-–—\s+]de[-–—\s+]Luz||San\s+Juan\s+de\s+Luz|Vichy)', 'i')]]">
 
                 <xsl:choose>
 
@@ -42769,10 +42770,10 @@
             </xsl:when>
 
 
-            <!-- Santiago, Arica, Iquique, and Valparaiso, Chile -->
+            <!-- Santiago, Antofagasta, Arica, Iquique, and Valparaiso, Chile -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Santiago|Arica|Iquique|Valparaiso)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Santiago|Antofagasta|Arica|Iquique|Valparaiso)', 'i')]]">
 
                 <xsl:choose>
 
@@ -44116,10 +44117,10 @@
             </xsl:when>
 
 
-            <!-- Shanghai, Beijing/Peking, Amoy/Xiamen, Chefoo, Fuzhou/Foochow, Guangzhou/Canton, Hankou/Hankow, Jinan/Tsinan, Nanjing/Nanking, Qingdao/Tsingtao, Shamian/Shameen, Shantou/Swatow, Shenyang/Mukden, and Tianjin/Tientsin, China -->
+            <!-- Shanghai, Beijing/Peking, Amoy/Xiamen, Chefoo, Fuzhou/Foochow, Guangzhou/Canton, Hankou/Hankow, Jinan/Tsinan, Kiukiang, Nanjing/Nanking, Qingdao/Tsingtao, Shamian/Shameen, Shantou/Swatow, Shenyang/Mukden, and Tianjin/Tientsin, China -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Shanghai|Beijing|Beiping|Peking|Peiping|Pieping|Amoy|Xiamen|Chefoo|Fuzhou|Foo([-–—])?chow|Fuchow|F[ūu]tsu|Guangzhou|Canton|Jinan|Tsinan(\s+Fu)?|Hanko[uow]|Nanjing|Nanking?|Jiangning|Kiangning|Qing?(\s+)?dao|Shamian|Shameen|Shamin|Shantou|Swatow|Santow|Shenyang|Mukden|Tsing(\s+)?ta[ou]|Tianjin|Tientsin|Tien[-–—]tsin)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Shanghai|Beijing|Beiping|Peking|Peiping|Pieping|Amoy|Xiamen|Chefoo|Fuzhou|Foo([-–—])?chow|Fuchow|F[ūu]tsu|Guangzhou|Canton|Jinan|Tsinan(\s+Fu)?|Hanko[uow]|Kiukiang|Nanjing|Nanking?|Jiangning|Kiangning|Qing?(\s+)?dao|Shamian|Shameen|Shamin|Shantou|Swatow|Santow|Shenyang|Mukden|Tsing(\s+)?ta[ou]|Tianjin|Tientsin|Tien[-–—]tsin)', 'i')]]">
 
                 <xsl:choose>
 
@@ -49303,10 +49304,10 @@
             </xsl:when>
 
 
-            <!-- Tokyo, Hakone, Kyoto, Nagasaki, and Yokohama, Japan -->
+            <!-- Tokyo, Hakone, Kobe, Kyoto, Nagasaki, and Yokohama, Japan -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tokyo|Toyko|Hakone|Kyoto|Nagasaki|Yokohama)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tokyo|Toyko|Hakone|Kobe|Kyoto|Nagasaki|Yokohama)', 'i')]]">
 
                 <xsl:choose>
 
@@ -53100,10 +53101,10 @@
             </xsl:when>
 
 
-            <!-- Warsaw and Gdańsk/Danzig, Poland -->
+            <!-- Warsaw, Gdańsk/Danzig, and Krzemieniec, Poland -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Warsaw|Warszawa|Gda[ńn]sk|Danzig)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Warsaw|Warszawa|Gda[ńn]sk|Danzig|Krzemieniec)', 'i')]]">
 
                 <xsl:choose>
 
