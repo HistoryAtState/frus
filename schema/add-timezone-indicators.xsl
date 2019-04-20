@@ -38440,7 +38440,7 @@
             <!-- Paris, Abbeville, Bordeaux, Cherbourg-Octeville, Jassy, La Bourboule, Le Havre, Lyon, Marseille, Perpignan, Nice, Saint-Jean-de-Luz/San Juan de Luz, Tours, and Vichy, France -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Bordeaux|Cherbourg[-–—\s+]Octeville|Cherbourg|Jassy|La\s+Bourboule|(Le\s+)?Havre|Lyons?|Marseille|Nice|Perpignan|(Saint|St.?)[-–—\s+]Jean[-–—\s+]de[-–—\s+]Luz||San\s+Juan\s+de\s+Luz|Tours|Vichy)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Bordeaux|Cherbourg[-–—\s+]Octeville|Cherbourg|Jassy|La\s+Bourboule|(Le\s+)?Havre|Lyons?|Marseille|Nice|Perpignan|(Saint|St.?)[-–—\s+]Jean[-–—\s+]de[-–—\s+]Luz|San\s+Juan\s+de\s+Luz|Tours|Vichy)', 'i')]]">
 
                 <xsl:choose>
 
