@@ -7235,10 +7235,10 @@
             </xsl:when>
 
 
-            <!-- Berlin, Bonn [including Bad Godesberg], Bremen, Frankfurt, Hamburg, Koblenz/Coblenz, and Wiesbaden, Germany -->
+            <!-- Berlin, Bonn [including Bad Godesberg], Bremen, Frankfurt [including Höchst], Hamburg, Koblenz/Coblenz, Potsdam [including Babelsberg], and Wiesbaden, Germany -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bad\s+Godesberg|Bonn|Bremen|Frankfurt|Hamburg|Koblenz|Coblenz|Wiesbaden)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bad\s+Godesberg|Bonn|Bremen|Frankfurt|Hamburg|H[öo]e?chst|Koblenz|Coblenz|Potsdam|Babelsberg|Wiesbaden)', 'i')]]">
 
                 <xsl:choose>
 
@@ -42049,10 +42049,10 @@
             </xsl:when>
 
 
-            <!-- Rome, Caserta, Firenze/Florence, Genoa, Naples, Salerno, San Remo, and Trieste, Italy -->
+            <!-- Rome, Caserta, Firenze/Florence, Genoa, Naples, Salerno, San Remo, Trieste, and Verona, Italy -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Rom[ea]|Caserta|Firenze|Fiorenza|Florence|Genoa|Naples|Salerno|San\s+Remo|Trieste)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Rom[ea]|Caserta|Firenze|Fiorenza|Florence|Genoa|Naples|Salerno|San\s+Remo|Trieste|Verona)', 'i')]]">
 
                 <xsl:choose>
 
