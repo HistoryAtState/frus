@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1977-80v09">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1977-80v09">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +18,9 @@
                 <pubPlace>Washington</pubPlace>
                 <date type="publication-date" calendar="gregorian">2014</date>
                 <idno type="frus">frus1977-80v09</idno>
-            <date type="content-date" calendar="gregorian" notBefore="2014-12-18T00:00:00-05:00" notAfter="2014-12-18T23:59:59-05:00">2014</date></publicationStmt>
+                <date type="content-date" calendar="gregorian" notBefore="2014-12-18T00:00:00-05:00"
+                    notAfter="2014-12-18T23:59:59-05:00">2014</date>
+            </publicationStmt>
             <sourceDesc>
                 <p>Released in 2014 as print volume and PDF online at history.state.gov</p>
             </sourceDesc>
@@ -52,15 +56,20 @@
                     <publisher>United States Government Printing Office</publisher>
                     <pubPlace>Washington</pubPlace>
                     <docDate>2014</docDate>
-                    <pb n="II" facs="0003" xml:id="pg_II"/>DEPARTMENT OF STATE O<hi rend="smallcaps">ffice</hi>
+                    <pb n="II" facs="0003" xml:id="pg_II"/>DEPARTMENT OF STATE O<hi rend="smallcaps"
+                        >ffice</hi>
                     <hi rend="smallcaps">of</hi>
-                    <hi rend="smallcaps">the</hi> H<hi rend="smallcaps">istorian</hi> B<hi rend="smallcaps">ureau</hi>
-                    <hi rend="smallcaps">of</hi> P<hi rend="smallcaps">ublic</hi> A<hi rend="smallcaps">ffairs</hi> For sale by the Superintendent of Documents,
+                    <hi rend="smallcaps">the</hi> H<hi rend="smallcaps">istorian</hi> B<hi
+                        rend="smallcaps">ureau</hi>
+                    <hi rend="smallcaps">of</hi> P<hi rend="smallcaps">ublic</hi> A<hi
+                        rend="smallcaps">ffairs</hi> For sale by the Superintendent of Documents,
                     U.S. Government Printing Office Internet: bookstore.gpo.gov Phone: toll free
                     (866) 512-1800; DC area (202) 512-1800 Fax: (202) 512-2250 Mail: Stop IDCC,
                     Washington, DC 20402-0001 </docImprint>
             </titlePage>
-            <div xml:id="pressrelease" type="section" subtype="press-release" frus:doc-dateTime-min="2014-12-18T00:00:00-05:00" frus:doc-dateTime-max="2014-12-18T23:59:59-05:00">
+            <div xml:id="pressrelease" type="section" subtype="press-release"
+                frus:doc-dateTime-min="2014-12-18T00:00:00-05:00"
+                frus:doc-dateTime-max="2014-12-18T23:59:59-05:00">
                 <head>Press Release</head>
                 <p rend="right">
                     <hi rend="strong">Office of the Historian<lb/>Bureau of Public
@@ -93,11 +102,15 @@
                     Lebanon, and addressing the series of resolutions related to the Arab-Israeli
                     dispute brought before the United Nations.</p>
                 <p>This volume was compiled and edited by Alexander R. Wieland. The volume and this
-                    press release are available on the Office of the Historian website at <ref target="http://history.state.gov/historicaldocuments/frus1977-80v09">http://history.state.gov/historicaldocuments/frus1977-80v09</ref>. Copies
+                    press release are available on the Office of the Historian website at <ref
+                        target="http://history.state.gov/historicaldocuments/frus1977-80v09"
+                        >http://history.state.gov/historicaldocuments/frus1977-80v09</ref>. Copies
                     of the volume will be available for purchase from the U.S. Government Printing
-                    Office online at <ref target="http://bookstore.gpo.gov">http://bookstore.gpo.gov</ref> (GPO S/N 044-000-02669-4; ISBN
+                    Office online at <ref target="http://bookstore.gpo.gov"
+                        >http://bookstore.gpo.gov</ref> (GPO S/N 044-000-02669-4; ISBN
                     978-0-16-09-2659-4), or by calling toll-free 1-866-512-1800 (D.C. area
-                    202-512-1800). For further information, contact <ref target="mailto:history@state.gov">history@state.gov</ref>. </p>
+                    202-512-1800). For further information, contact <ref
+                        target="mailto:history@state.gov">history@state.gov</ref>. </p>
             </div>
             <!--<div xml:id="preface" type="section"/>
                 <div xml:id="sources" type="section"/>
