@@ -18257,7 +18257,7 @@
             <!-- Fort-de-France, Martinique -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Fort[-–—\s+]de[-–—\s+]France|Martinique)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Fort([-–—]|\s+)de([-–—]|\s+)France|Martinique)', 'i')]]">
 
                 <xsl:choose>
 
@@ -38440,7 +38440,7 @@
             <!-- Paris, Abbeville, Bordeaux, Cherbourg-Octeville, Jassy, La Bourboule, Le Havre, Lyon, Marseille, Perpignan, Nice, Saint-Jean-de-Luz/San Juan de Luz, Tours, and Vichy, France -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Bordeaux|Cherbourg[-–—\s+]Octeville|Cherbourg|Jassy|La\s+Bourboule|(Le\s+)?Havre|Lyons?|Marseille|Nice|Perpignan|Jean([-–—]|\s+)de([-–—]|\s+)Luz|San\s+Juan\s+de\s+Luz|Tours|Vichy)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Bordeaux|Cherbourg([-–—]|\s+)Octeville|Cherbourg|Jassy|La\s+Bourboule|(Le\s+)?Havre|Lyons?|Marseille|Nice|Perpignan|Jean([-–—]|\s+)de([-–—]|\s+)Luz|San\s+Juan\s+de\s+Luz|Tours|Vichy)', 'i')]]">
 
                 <xsl:choose>
 
@@ -39874,7 +39874,7 @@
             <!-- Port-au-Prince and Cape Haitian, Haiti -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Port[-–—]au[-–—]Prince|Port\s+au\s+Prince|Cape?[-–—\s+]Ha[ïi]tian|Cape?[-–—\s+]Ha[ïi]tien)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Port[-–—]au[-–—]Prince|Port\s+au\s+Prince|Cape?([-–—]|\s+)Ha[ïi]tian|Cape?([-–—]|\s+)Ha[ïi]tien)', 'i')]]">
 
                 <xsl:choose>
 
@@ -42830,7 +42830,7 @@
             <!-- Saint-Pierre, Saint Pierre and Miquelon -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Saint[-–—\s+]Pierre|St.?\s+Pierre)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Saint([-–—]|\s+)Pierre|St.?\s+Pierre)', 'i')]]">
 
                 <xsl:choose>
                     <xsl:when
