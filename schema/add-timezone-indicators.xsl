@@ -2043,10 +2043,10 @@
             </xsl:when>
 
 
-            <!-- Angra do Heroísmo (Azores) and Ponta Delgada (Azores), Portugal -->
+            <!-- Angra do Heroísmo (Azores), Horta (Azores), and Ponta Delgada (Azores), Portugal -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Angra\s+do\s+Hero[íi]smo|Ponta\s+Delgada)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Angra\s+do\s+Hero[íi]smo|Horta|Ponta\s+Delgada)', 'i')]]">
 
                 <xsl:choose>
 
@@ -9045,7 +9045,7 @@
             <!-- Brasilia, Petrópolis, Porto Alegre, Rio de Janeiro, and São Paulo, Brazil -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Brasilia|Petr[óo]polis|Porto\s+Alegre|Rio\s+de\s+(Janeiro|Janiero|Janerio)|S[ãa]o\s+Paulo)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Brasilia|Petr[óo]polis|Porto\s+Alegre|R[íi]o\s+de\s+(Janeiro|Janiero|Janerio)|S[ãa]o\s+Paulo)', 'i')]]">
 
                 <xsl:choose>
 
@@ -30305,7 +30305,7 @@
             <!-- Madrid, Barcelona, Bilbao, Málaga, Mataró, Palma (Majorca), San Sebastián, Santander, Sevilla/Seville, and Vigo, Spain and Hendaye, France-->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Madrid|Barcelona|Bilbao|M[áa]laga|Matar[óo]|Palma|San\s+Sebasti[áa]n|Santander|Sevill[ae]|Vigo|Hendaye)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Madrid|Barcelona|Bilbao|M[áa]laga|Matar[óo]|Palma|San\s+Sebast[íi][áa]n|Santander|Sevill[ae]|Vigo|Hendaye)', 'i')]]">
 
                 <xsl:choose>
 
@@ -54139,9 +54139,9 @@
             </xsl:when>
 
 
-            <!-- Vienna, Austria -->
+            <!-- Vienna and Salzburg, Austria -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Vienna)', 'i')]]">
+            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Vienna|Salzburg)', 'i')]]">
 
                 <xsl:choose>
 
