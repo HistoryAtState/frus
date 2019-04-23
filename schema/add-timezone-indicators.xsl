@@ -7729,10 +7729,10 @@
             </xsl:when>
 
 
-            <!-- Bern, Basel, Geneva, Lausanne, and Zürich, Switzerland -->
+            <!-- Bern, Basel, Geneva, Lausanne, Montreux, and Zürich, Switzerland -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berne?|Basel|Geneva|Lausanne|Z[üu]rich)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berne?|Basel|Geneva|Lausanne|Montreux|Z[üu]rich)', 'i')]]">
 
                 <xsl:choose>
 
@@ -38437,10 +38437,10 @@
             </xsl:when>
 
 
-            <!-- Paris, Abbeville, Bordeaux, Cherbourg-Octeville, Jassy, La Bourboule, Le Havre, Lyon, Marseille, Perpignan, Nice, Saint-Jean-de-Luz/San Juan de Luz, Tours, and Vichy, France -->
+            <!-- Paris, Abbeville, Angers, Bordeaux, Cherbourg-Octeville, Évian-les-Bains, Jassy, La Bourboule, Le Havre, Lyon, Marseille, Perpignan, Nice, Saint-Jean-de-Luz/San Juan de Luz, Tours, and Vichy, France -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Bordeaux|Cherbourg([-–—]|\s+)Octeville|Cherbourg|Jassy|La\s+Bourboule|(Le\s+)?Havre|Lyons?|Marseille|Nice|Perpignan|Jean([-–—]|\s+)de([-–—]|\s+)Luz|San\s+Juan\s+de\s+Luz|Tours|Vichy)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Angers|Bordeaux|Cherbourg([-–—]|\s+)Octeville|Cherbourg|[ÉE]vian|Jassy|La\s+Bourboule|(Le\s+)?Havre|Lyons?|Marseille|Nice|Perpignan|Jean([-–—]|\s+)de([-–—]|\s+)Luz|San\s+Juan\s+de\s+Luz|Tours|Vichy)', 'i')]]">
 
                 <xsl:choose>
 
