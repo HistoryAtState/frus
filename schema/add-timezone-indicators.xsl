@@ -15061,10 +15061,10 @@
 
             </xsl:when>
 
-            <!-- Colombo and Sri Jayewardenepura Kotte, Sri Lanka -->
+            <!-- Colombo, Kandy, and Sri Jayewardenepura Kotte, Sri Lanka -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Colombo|Sri\s+Jayewardenepura\s+Kotte)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Colombo|Kandy|Sri\s+Jayewardenepura\s+Kotte)', 'i')]]">
 
                 <xsl:choose>
 
@@ -34237,10 +34237,10 @@
             </xsl:when>
 
 
-            <!-- Moscow, Arkhangelsk/Archangel, Kandalaksha, Murmansk, Saint Petersburg, and Vologda, Russia -->
+            <!-- Moscow [including the Kremlin], Arkhangelsk/Archangel, Kandalaksha, Murmansk, Saint Petersburg, and Vologda, Russia -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Moscow|Moskva|Petrograd|Leningrad|Arkhangelsk|Arkangelsk|Archangel|Kandalaksha|Murmansk|Sankt\s+Peterburg|Sankt[-–—]Peterburg|Saint\s+Petersburg|Saint[-–—]Peters?burg|St.?\s+Peters?burg|St.?[-–—]Petersburg|Vologda)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Moscow|Moskva|Petrograd|Leningrad|Kremlin|Arkhangelsk|Arkangelsk|Archangel|Kandalaksha|Murmansk|Sankt\s+Peterburg|Sankt[-–—]Peterburg|Saint\s+Petersburg|Saint[-–—]Peters?burg|St.?\s+Peters?burg|St.?[-–—]Petersburg|Vologda)', 'i')]]">
 
                 <xsl:choose>
 
@@ -46348,7 +46348,7 @@
             <!-- Shanghai, Beijing/Peking, Amoy/Xiamen, Chefoo, Fuzhou/Foochow, Guangzhou/Canton, Hankou/Hankow, Jinan/Tsinan, Kiukiang, Nanjing/Nanking, Qingdao/Tsingtao, Shamian/Shameen, Shantou/Swatow, Shenyang/Mukden, and Tianjin/Tientsin, China -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Shanghai|Beijing|Beiping|Peking|Peiping|Pieping|Amoy|Xiamen|Chefoo|Fuzhou|Foo([-–—])?chow|Fuchow|F[ūu]tsu|Guangzhou|Canton|Jinan|Tsinan(\s+Fu)?|Hanko[uow]|Kiukiang|Nanjing|Nanking?|Jiangning|Kiangning|Qing?(\s+)?dao|Shamian|Shameen|Shamin|Shantou|Swatow|Santow|Shenyang|Mukden|Tsing(\s+)?ta[ou]|Tianjin|Tientsin|Tien[-–—]tsin)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Shanghai|Beijing|Beiping|Peking|Peiping|Pieping|Amoy|Xiamen|Chefoo|Fuzhou|Foo([-–—])?chow|Fuchow|F[ūu]tsu|Guangzhou|Canton|Jinan|Tsinan(\s+Fu)?|Hanko[uow]|Kiukiang|Nanjing|Nanking?|Jiangning|Kiangning|Qing?(\s+)?dao|Shamian|Shameen|Shamin|Shantou|Swatow|Santow|Shenyang|Mukden|Tsing(\s+)?ta[ou]|Tianjin|T(ie|ei)ntsin|Tien[-–—]tsin)', 'i')]]">
 
                 <xsl:choose>
 
