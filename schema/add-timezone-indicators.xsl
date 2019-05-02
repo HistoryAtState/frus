@@ -21105,10 +21105,10 @@
             </xsl:when>
 
 
-            <!-- Hanoi and Ho Chi Minh/Saigon, Vietnam -->
+            <!-- Hanoi and Ho Chi Minh/Saigon and Huế, Vietnam -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Hanoi|H[oồ]\s+Ch[ií]\s+Minh|Saigon)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Hanoi|H[oồ]\s+Ch[ií]\s+Minh|Saigon|Hu[ếe])', 'i')]]">
 
                 <xsl:choose>
 
@@ -31050,10 +31050,10 @@
             </xsl:when>
 
 
-            <!-- Managua, Bluefields, and Corinto, Nicaragua -->
+            <!-- Managua, Bluefields, Corinto, and Puerto Cabezas, Nicaragua -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Managua|Bluefields|Corinto)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Managua|Bluefields|Corinto|Puerto\s+Cabezas)', 'i')]]">
 
                 <xsl:choose>
 
@@ -54141,7 +54141,8 @@
 
             <!-- Vienna and Salzburg, Austria -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Vienna|Salzburg)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Vienna|Salzburg)', 'i')]]">
 
                 <xsl:choose>
 
@@ -55957,10 +55958,10 @@
             </xsl:when>
 
 
-            <!-- Washington (D.C.) (including Department of State), Augusta (Georgia), Boston (Massachusetts), Camp David (Maryland), Glassboro (New Jersey), Hyannis Port (Massachusetts), Key Biscayne (Florida), Miami/Miami Beach (Florida), New York (New York), Newport (Rhode Island), Niagara Falls (New York), Palm Beach (Florida), and Windsor (Vermont), United States -->
+            <!-- Washington (D.C.) (including Department of State), Augusta (Georgia), Boston (Massachusetts), Camp David (Maryland), Glassboro (New Jersey), Hyannis Port (Massachusetts), Key Biscayne (Florida), Miami/Miami Beach (Florida), New York (New York), Newport (Rhode Island), Niagara Falls (New York), Norfolk (Virginia), Palm Beach (Florida), and Windsor (Vermont), United States -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Washington|Department\s+of\s+State|Augusta|Boston|Camp\s+David|Glassboro|Hyannis\s+Port|Key\s+Biscayne|Miami|New\s+York|Newport|Niagara\s+Falls|Palm\s+Beach|Windsor,?\s+V)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Washington|Department\s+of\s+State|Augusta|Boston|Camp\s+David|Glassboro|Hyannis\s+Port|Key\s+Biscayne|Miami|New\s+York|Newport|Niagara\s+Falls|Norfolk|Palm\s+Beach|Windsor,?\s+V)', 'i')]]">
 
                 <xsl:choose>
 
