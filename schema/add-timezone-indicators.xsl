@@ -16822,9 +16822,10 @@
             </xsl:when>
 
 
-            <!-- Dhaka, Bangladesh -->
+            <!-- Dhaka/Dacca, Bangladesh -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Dhaka)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Dhaka|Dacca)', 'i')]]">
                 <xsl:choose>
 
                     <xsl:when
@@ -31175,10 +31176,10 @@
             </xsl:when>
 
 
-            <!-- Manila and Fort Mills (Corregidor Island), Philippines -->
+            <!-- Manila, Baguio City, and Fort Mills (Corregidor Island), Philippines -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Manila|Corregidor|Fort\s+Mills)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Manila|Baguio|Corregidor|Fort\s+Mills)', 'i')]]">
 
                 <xsl:choose>
 
@@ -50057,7 +50058,7 @@
             <!-- Tel Aviv, Israel -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tel\s+A.?viv)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tele?\s+A.?viv)', 'i')]]">
 
                 <xsl:choose>
 
@@ -51532,10 +51533,10 @@
             </xsl:when>
 
 
-            <!-- Tokyo, Hakone, Kobe, Kyoto, Nagasaki, Osaka, and Yokohama, Japan -->
+            <!-- Tokyo, Hakone, Kobe, Kyoto, Nagasaki, Naha (Okinawa), Osaka, and Yokohama, Japan -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tokyo|Toyko|Hakone|Kobe|Kyoto|Nagasaki|Osaka|Yokohama)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tokyo|Toyko|Hakone|Kobe|Kyoto|Nagasaki|Naha|Okinawa|Osaka|Yokohama)', 'i')]]">
 
                 <xsl:choose>
 
