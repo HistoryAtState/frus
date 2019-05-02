@@ -7235,10 +7235,10 @@
             </xsl:when>
 
 
-            <!-- Berlin, Bonn [including Bad Godesberg], Bremen, Frankfurt [including Höchst], Hamburg, Koblenz/Coblenz, Potsdam [including Babelsberg], and Wiesbaden, Germany -->
+            <!-- Berlin, Bonn [including Bad Godesberg], Bremen, Frankfurt [including Höchst], Hamburg, Heidelberg, Koblenz/Coblenz, Potsdam [including Babelsberg], and Wiesbaden, Germany -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bad\s+Godesberg|Bonn|Bremen|Frankfurt|Hamburg|H[öo]e?chst|Koblenz|Coblenz|Potsdam|Babelsberg|Wiesbaden)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bad\s+Godesberg|Bonn|Bremen|Frankfurt|H[öo]e?chst|Hamburg|Heidelberg|Koblenz|Coblenz|Potsdam|Babelsberg|Wiesbaden)', 'i')]]">
 
                 <xsl:choose>
 
@@ -21362,10 +21362,10 @@
             </xsl:when>
 
 
-            <!-- Havana/Habana, Cuba -->
+            <!-- Havana/Habana and Guantánamo, Cuba -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Habana|Havana)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Habana|Havana|Guant[áa]namo)', 'i')]]">
 
                 <xsl:choose>
 
@@ -27453,10 +27453,10 @@
             </xsl:when>
 
 
-            <!-- London, Chequers, Liverpool, Salisbury, and Southampton, England -->
+            <!-- London, Chequers, Liverpool, Salisbury, Southampton, and Sussex, England -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(London|Great\s+Cumberland\s+Place|Chequers|Liverpool|Salisbury|Southampton)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(London|Great\s+Cumberland\s+Place|Chequers|Liverpool|Salisbury|Southampton|Sussex)', 'i')]]">
 
                 <xsl:choose>
 
@@ -34238,10 +34238,10 @@
             </xsl:when>
 
 
-            <!-- Moscow [including the Kremlin], Arkhangelsk/Archangel, Kandalaksha, Murmansk, Saint Petersburg, and Vologda, Russia -->
+            <!-- Moscow [including the Kremlin], Arkhangelsk/Archangel, Kandalaksha, Murmansk, Novo-Ogaryovo/Novo-Ogarevo/Ogorevo, Saint Petersburg, and Vologda, Russia -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Moscow|Moskva|Petrograd|Leningrad|Kremlin|Arkhangelsk|Arkangelsk|Archangel|Kandalaksha|Murmansk|Sankt\s+Peterburg|Sankt[-–—]Peterburg|Saint\s+Petersburg|Saint[-–—]Peters?burg|St.?\s+Peters?burg|St.?[-–—]Petersburg|Vologda)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Moscow|Moskva|Petrograd|Leningrad|Kremlin|Arkhangelsk|Arkangelsk|Archangel|Kandalaksha|Murmansk|Og[ao]ry?[eo]vo|Sankt\s+Peterburg|Sankt[-–—]Peterburg|Saint\s+Petersburg|Saint[-–—]Peters?burg|St.?\s+Peters?burg|St.?[-–—]Petersburg|Vologda)', 'i')]]">
 
                 <xsl:choose>
 
@@ -38438,10 +38438,10 @@
             </xsl:when>
 
 
-            <!-- Paris, Abbeville, Angers, Bordeaux, Cherbourg-Octeville, Évian-les-Bains, Jassy, La Bourboule, Le Havre, Lyon, Marseille, Perpignan, Nice, Saint-Jean-de-Luz/San Juan de Luz, Tours, and Vichy, France -->
+            <!-- Paris, Abbeville, Angers, Bordeaux, Cherbourg-Octeville, Évian-les-Bains, Jassy, La Bourboule, Le Havre, Lyon, Marseille, Nice, Perpignan, Rambouillet, Saint-Jean-de-Luz/San Juan de Luz, Tours, and Vichy, France -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Angers|Bordeaux|Cherbourg([-–—]|\s+)Octeville|Cherbourg|[ÉE]vian|Jassy|La\s+Bourboule|(Le\s+)?Havre|Lyons?|Marseille|Nice|Perpignan|Jean([-–—]|\s+)de([-–—]|\s+)Luz|San\s+Juan\s+de\s+Luz|Tours|Vichy)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Angers|Bordeaux|Cherbourg([-–—]|\s+)Octeville|Cherbourg|[ÉE]vian|Jassy|La\s+Bourboule|(Le\s+)?Havre|Lyons?|Marseille|Nice|Perpignan|Rambouillet|Jean([-–—]|\s+)de([-–—]|\s+)Luz|San\s+Juan\s+de\s+Luz|Tours|Vichy)', 'i')]]">
 
                 <xsl:choose>
 
@@ -55959,10 +55959,10 @@
             </xsl:when>
 
 
-            <!-- Washington (D.C.) (including Department of State), Augusta (Georgia), Boston (Massachusetts), Camp David (Maryland), Glassboro (New Jersey), Hyannis Port (Massachusetts), Key Biscayne (Florida), Miami/Miami Beach (Florida), New York (New York), Newport (Rhode Island), Niagara Falls (New York), Norfolk (Virginia), Palm Beach (Florida), and Windsor (Vermont), United States -->
+            <!-- Washington (D.C.) (including Department of State), Augusta (Georgia), Boston (Massachusetts), Camp David (Maryland), Gettysburg (Pennsylvania), Glassboro (New Jersey), Hyannis Port (Massachusetts), Key Biscayne (Florida), Miami/Miami Beach (Florida), New York (New York), Newport (Rhode Island), Niagara Falls (New York), Norfolk (Virginia), Palm Beach (Florida), and Windsor (Vermont), United States -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Washington|Department\s+of\s+State|Augusta|Boston|Camp\s+David|Glassboro|Hyannis\s+Port|Key\s+Biscayne|Miami|New\s+York|Newport|Niagara\s+Falls|Norfolk|Palm\s+Beach|Windsor,?\s+V)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Washington|Department\s+of\s+State|Augusta|Boston|Camp\s+David|Gettysburg|Glassboro|Hyannis\s+Port|Key\s+Biscayne|Miami|New\s+York|Newport|Niagara\s+Falls|Norfolk|Palm\s+Beach|Windsor,?\s+V)', 'i')]]">
 
                 <xsl:choose>
 
@@ -58241,9 +58241,10 @@
             </xsl:when>
 
 
-            <!-- Zagreb, Croatia -->
+            <!-- Zagreb and Brijuni Islands [including Vanga], Croatia -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Zagreb)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Zagreb|Brijuni|Vanga)', 'i')]]">
 
                 <xsl:choose>
                     <xsl:when
