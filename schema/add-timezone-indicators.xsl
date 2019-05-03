@@ -8400,7 +8400,7 @@
             <!-- Bogota, Barranquilla, and Cartagena, Colombia -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Bogot[aá]|Santaf[eé]|Santa\s+F[eé]\s+de\s+Bogot[aá]|Barr?anquilla|Cartagena)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Bog[oa]t[aá]|Santaf[eé]|Santa\s+F[eé]\s+de\s+Bogot[aá]|Barr?anquilla|Cartagena)', 'i')]]">
 
                 <xsl:choose>
 
@@ -42050,10 +42050,10 @@
             </xsl:when>
 
 
-            <!-- Rome, Caserta, Firenze/Florence, Genoa, Naples, Salerno, San Remo, Trieste, and Verona, Italy -->
+            <!-- Rome, Caserta, Firenze/Florence, Genoa, Livorno/Leghorn, Naples, Salerno, San Remo, Trieste, and Verona, Italy -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Rom[ea]|Caserta|Firenze|Fiorenza|Florence|Genoa|Naples|Salerno|San\s+Remo|Trieste|Verona)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Rom[ea]|Caserta|Firenze|Fiorenza|Florence|Genoa|Livorno|Leghorn|Naples|Salerno|San\s+Remo|Trieste|Verona)', 'i')]]">
 
                 <xsl:choose>
 
