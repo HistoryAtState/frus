@@ -7238,7 +7238,7 @@
             <!-- Berlin, Bonn [including Bad Godesberg], Bremen, Frankfurt [including Höchst], Hamburg, Heidelberg, Koblenz/Coblenz, Munich, Potsdam [including Babelsberg], and Wiesbaden, Germany -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bad\s+Godesberg|Bonn|Bremen|Frankfurt|H[öo]e?chst|Hamburg|Heidelberg|Koblenz|Coblenz|Munich|Potsdam|Babelsberg|Wiesbaden)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bad\s+Godesberg|Bonn|Bremen|Frankf[uo]rt|H[öo]e?chst|Hamburg|Heidelberg|Koblenz|Coblenz|Munich|Potsdam|Babelsberg|Wiesbaden)', 'i')]]">
 
                 <xsl:choose>
 
@@ -27453,10 +27453,10 @@
             </xsl:when>
 
 
-            <!-- London, Chequers, Liverpool, Salisbury, Southampton, and Sussex, England -->
+            <!-- London, Chequers, Liverpool, Salisbury, Southampton, Sussex, and Torquay, England -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(London|Great\s+Cumberland\s+Place|Chequers|Liverpool|Salisbury|Southampton|Sussex)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(London|Great\s+Cumberland\s+Place|Chequers|Liverpool|Salisbury|Southampton|Sussex|Torquay)', 'i')]]">
 
                 <xsl:choose>
 
@@ -46119,9 +46119,10 @@
             </xsl:when>
 
 
-            <!-- Seoul and Busan/Pusan, South Korea -->
+            <!-- Seoul, Busan/Pusan, Suwon, Taegu, and Taejŏn, South Korea -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Seoul|[BP]usan)', 'i')]]">
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Seoul|[BP]usan|Suwon|Taegu|Taej[ŏo]n)', 'i')]]">
 
                 <xsl:choose>
 
