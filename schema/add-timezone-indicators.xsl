@@ -7235,10 +7235,10 @@
             </xsl:when>
 
 
-            <!-- Berlin, Bonn [including Bad Godesberg], Bremen, Frankfurt [including Höchst], Hamburg, Heidelberg, Koblenz/Coblenz, Potsdam [including Babelsberg], and Wiesbaden, Germany -->
+            <!-- Berlin, Bonn [including Bad Godesberg], Bremen, Frankfurt [including Höchst], Hamburg, Heidelberg, Koblenz/Coblenz, Munich, Potsdam [including Babelsberg], and Wiesbaden, Germany -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bad\s+Godesberg|Bonn|Bremen|Frankfurt|H[öo]e?chst|Hamburg|Heidelberg|Koblenz|Coblenz|Potsdam|Babelsberg|Wiesbaden)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Berlin|Bad\s+Godesberg|Bonn|Bremen|Frankfurt|H[öo]e?chst|Hamburg|Heidelberg|Koblenz|Coblenz|Munich|Potsdam|Babelsberg|Wiesbaden)', 'i')]]">
 
                 <xsl:choose>
 
@@ -22440,10 +22440,10 @@
             </xsl:when>
 
 
-            <!-- Honolulu (Hawaii) and Pearl Harbor (Hawaii), United States -->
+            <!-- Honolulu (Hawaii), Kaneohe, and Pearl Harbor (Hawaii), United States -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Honolulu|Pearl\s+Harbor)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Honolulu|Kaneohe|Pearl\s+Harbor)', 'i')]]">
 
                 <xsl:choose>
 
@@ -35280,7 +35280,7 @@
             <!-- New Delhi, Chennai/Madras, Kolkata/Calcutta, and Mumbai/Bombay, India -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(New\s+Delhi|Delhi|Calcutta|Kolkata|Chennai|Madras|Mumbai|Bombay)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(New\s+Delhi|Delhi|Dehli|Calcutta|Kolkata|Chennai|Madras|Mumbai|Bombay)', 'i')]]">
 
                 <xsl:choose>
 
@@ -38438,10 +38438,10 @@
             </xsl:when>
 
 
-            <!-- Paris, Abbeville, Angers, Bordeaux, Cherbourg-Octeville, Évian-les-Bains, Jassy, La Bourboule, Le Havre, Lyon, Marseille, Nice, Perpignan, Rambouillet, Saint-Jean-de-Luz/San Juan de Luz, Tours, and Vichy, France -->
+            <!-- Paris, Abbeville, Angers, Bordeaux, Cherbourg-Octeville, Évian-les-Bains, Jassy, La Bourboule, Le Havre, Lyon, Marseille, Nice, Perpignan, Rambouillet, Saint-Jean-de-Luz/San Juan de Luz, Strasbourg, Tours, and Vichy, France -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Angers|Bordeaux|Cherbourg([-–—]|\s+)Octeville|Cherbourg|[ÉE]vian|Jassy|La\s+Bourboule|(Le\s+)?Havre|Lyons?|Marseille|Nice|Perpignan|Rambouillet|Jean([-–—]|\s+)de([-–—]|\s+)Luz|San\s+Juan\s+de\s+Luz|Tours|Vichy)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Paris|Abbeville|Angers|Bordeaux|Cherbourg([-–—]|\s+)Octeville|Cherbourg|[ÉE]vian|Jassy|La\s+Bourboule|(Le\s+)?Havre|Lyons?|Marseille|Nice|Perpignan|Rambouillet|Jean([-–—]|\s+)de([-–—]|\s+)Luz|San\s+Juan\s+de\s+Luz|Strasbourg|Tours|Vichy)', 'i')]]">
 
                 <xsl:choose>
 
@@ -41092,10 +41092,10 @@
             </xsl:when>
 
 
-            <!-- Pyongyang, North Korea -->
+            <!-- Pyongyang and Munsan, North Korea -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Pyongyang|P.?y[ŏo]ngyang|Pyeongyang)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Pyongyang|P.?y[ŏo]ngyang|Pyeongyang|Munsan)', 'i')]]">
 
                 <xsl:choose>
 
@@ -46119,9 +46119,9 @@
             </xsl:when>
 
 
-            <!-- Seoul, South Korea -->
+            <!-- Seoul and Busan/Pusan, South Korea -->
 
-            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Seoul)', 'i')]]">
+            <xsl:when test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Seoul|[BP]usan)', 'i')]]">
 
                 <xsl:choose>
 
