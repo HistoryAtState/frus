@@ -23645,7 +23645,7 @@
             <!-- Jakarta (Batavia), Indonesia -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Jakarta|Djar?karta|Batavia)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Jakarta|Djar?kara?ta|Batavia)', 'i')]]">
 
                 <xsl:choose>
 
@@ -51533,10 +51533,10 @@
             </xsl:when>
 
 
-            <!-- Tokyo, Hakone, Kobe, Kyoto, Nagasaki, Naha (Okinawa), Osaka, and Yokohama, Japan -->
+            <!-- Tokyo, Camp Zama, Hakone, Kobe, Kyoto, Nagasaki, Naha (Okinawa), Osaka, and Yokohama, Japan -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tokyo|Toyko|Hakone|Kobe|Kyoto|Nagasaki|Naha|Okinawa|Osaka|Yokohama)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tokyo|Toyko|Camp\s+Zama|Hakone|Kobe|Kyoto|Nagasaki|Naha|Okinawa|Osaka|Yokohama)', 'i')]]">
 
                 <xsl:choose>
 
