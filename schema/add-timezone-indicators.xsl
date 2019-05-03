@@ -4763,10 +4763,10 @@
             </xsl:when>
 
 
-            <!-- Athens, Corfu, Rhodes, Saloníki, and Thessaloniki, Greece -->
+            <!-- Athens, Corfu, Rhodes, Saloníki, and Thessaloniki/Salonika, Greece -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Athens|Corfu|Rhodes|Salon[íi]ki|Thessaloniki)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Athens|Corfu|Rhodes|Salon[íi]k[ia]|Thessaloniki)', 'i')]]">
 
                 <xsl:choose>
 
@@ -8397,10 +8397,10 @@
             </xsl:when>
 
 
-            <!-- Bogota and Barranquilla, Colombia -->
+            <!-- Bogota, Barranquilla, and Cartagena, Colombia -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Bogot[aá]|Santaf[eé]|Santa\s+F[eé]\s+de\s+Bogot[aá]|Barr?anquilla)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Bogot[aá]|Santaf[eé]|Santa\s+F[eé]\s+de\s+Bogot[aá]|Barr?anquilla|Cartagena)', 'i')]]">
 
                 <xsl:choose>
 
@@ -21218,10 +21218,10 @@
             </xsl:when>
 
 
-            <!-- Harbin and Dalian/Dairen, China -->
+            <!-- Harbin, Changchun, and Dalian/Dairen, China -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Harbin|Dalian|Dalniy|Dairen)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Harbin|Ch[áa]ngch[ūu]n|Dalian|Dalniy|Dairen)', 'i')]]">
 
                 <xsl:choose>
 
@@ -42828,6 +42828,38 @@
             </xsl:when>
 
 
+            <!-- Saint Thomas and Saint Croix, Virgin Islands -->
+
+            <xsl:when
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Saint([-–—]|\s+)Thomas|St.?\s+Thomas|Saint([-–—]|\s+)Croix|St.?\s+Croix)', 'i')]]">
+
+                <xsl:choose>
+
+                    <xsl:when
+                        test=".[(xs:dateTime(.) &gt;= xs:dateTime('1800-01-01T00:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('1911-07-01T00:00:00'))]">
+                        <xsl:variable name="attribute-name" select="node-name(.)"/>
+                        <xsl:attribute name="{$attribute-name}">
+                            <xsl:value-of select="concat(xs:string(.), '-04:19')"/>
+                        </xsl:attribute>
+                    </xsl:when>
+                    <xsl:when
+                        test=".[(xs:dateTime(.) &gt;= xs:dateTime('1911-07-01T00:00:00')) and (xs:dateTime(.) &lt; xs:dateTime('2030-01-01T00:00:00'))]">
+                        <xsl:variable name="attribute-name" select="node-name(.)"/>
+                        <xsl:attribute name="{$attribute-name}">
+                            <xsl:value-of select="concat(xs:string(.), '-04:00')"/>
+                        </xsl:attribute>
+                    </xsl:when>
+
+                    <xsl:otherwise>
+                        <xsl:copy>
+                            <xsl:apply-templates select="."/>
+                        </xsl:copy>
+                    </xsl:otherwise>
+                </xsl:choose>
+
+            </xsl:when>
+
+
             <!-- Saint-Pierre, Saint Pierre and Miquelon -->
 
             <xsl:when
@@ -49843,10 +49875,10 @@
             </xsl:when>
 
 
-            <!-- Tehran and Qazvin/Casvin, Iran -->
+            <!-- Tehran, Qazvin/Casvin, and Tabriz, Iran -->
 
             <xsl:when
-                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tehran|Teheran|Qaz[vw][iī]n|Cas[vp]in|Ghazvin)', 'i')]]">
+                test=".[ancestor::tei:dateline//tei:placeName[matches(., '(Tehran|Teheran|Qaz[vw][iī]n|Cas[vp]in|Ghazvin|Tabriz)', 'i')]]">
 
                 <xsl:choose>
                     <xsl:when
