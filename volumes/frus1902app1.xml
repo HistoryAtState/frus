@@ -67,6 +67,7 @@
             </editorialDecl>
             <classDecl>
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+                <xi:include href="../shared/frus-heads.xml" xpointer="frus-heads"/>
             </classDecl>
         </encodingDesc>
         <revisionDesc>
@@ -3407,13 +3408,14 @@
                     <frus:attachment>
                         <head>EXHIBIT I.</head>
                         <opener><seg rendition="#center">[Translation.]</seg></opener>
-                        <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Ministry of Foreign Affairs,<lb/>Asiatic
-                                    Department</hi></placeName>, <date when="1893-06-12"
-                                    calendar="gregorian"><hi rend="italic">June 12</hi> (<hi
-                                        rend="italic">24</hi>), <hi rend="italic"
-                                >1893.</hi></date></dateline>
-                            <seg rendition="#left">No. 2187.]</seg></opener>
+                        <opener>
+                            <seg rendition="#left">No. 2187.]</seg>
+                            <dateline rendition="#right"><placeName><hi rend="smallcaps">Ministry of
+                                        Foreign Affairs,<lb/>Asiatic Department</hi></placeName>,
+                                    <date when="1893-06-12" calendar="gregorian"><hi rend="italic"
+                                        >June 12</hi> (<hi rend="italic">24</hi>), <hi rend="italic"
+                                        >1893.</hi></date></dateline>
+                        </opener>
                         <p>Mr. <hi rend="smallcaps">Envoy</hi>: In reply to the letter which you had
                             the goodness to address me, dated May 3 (15) last, I have the honor to
                             communicate to you the following data upon the inquiry, made by a
@@ -3589,12 +3591,14 @@
                     <frus:attachment>
                         <head>EXHIBIT L.</head>
                         <opener><seg rendition="#center">[Translation.]</seg></opener>
-                        <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Ministry of Foreign Affairs,<lb/>Asiatic
+                        <opener>
+                            <seg rendition="#left">No. 3466.]</seg>
+                            <dateline rendition="#right"><placeName><hi rend="smallcaps">Ministry of
+                                        Foreign Affairs,<lb/>Asiatic
                                     Department</hi></placeName>,<lb/><date when="1892-09-19"
                                     calendar="gregorian"><hi rend="italic">September 19,
                                     1892</hi>.</date></dateline>
-                            <seg rendition="#left">No. 3466.]</seg></opener>
+                        </opener>
                         <p rend="flushleft">Mr. <hi rend="smallcaps">Chargé d’Affaires</hi>:</p>
                         <p>In reply to the note which you have had the goodness to address to me,
                             dated 9/21 of the current month, I hasten to inform you that the gerant
@@ -4480,12 +4484,14 @@
                     <frus:attachment>
                         <head>EXHIBIT S.</head>
                         <opener><seg rendition="#center">[Translation.]</seg></opener>
-                        <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Ministry of Foreign Affairs,<lb/>Asiatic
+                        <opener>
+                            <seg rendition="#left">No. 4038.]</seg>
+                            <dateline rendition="#right"><placeName><hi rend="smallcaps">Ministry of
+                                        Foreign Affairs,<lb/>Asiatic
                                     Department</hi></placeName>,<lb/><date when="1895-10-12"
                                     calendar="gregorian"><hi rend="italic">October 12,
                                     1895</hi></date>.</dateline>
-                            <seg rendition="#left">No. 4038.]</seg></opener>
+                        </opener>
                         <p>Mr. <hi rend="smallcaps">Chargé d’Affaires</hi>: The Imperial Ministry of
                             Foreign Affairs has had the honor to receive the letter you had the
                             goodness to address to it on September 27/October 9, of the current
@@ -4694,12 +4700,14 @@
                     <frus:attachment>
                         <head>EXHIBIT U.</head>
                         <opener><seg rendition="#center">[Translation.]</seg></opener>
-                        <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Ministry of Foreign Affairs,<lb/>First
+                        <opener>
+                            <seg rendition="#left">No. 157.]</seg>
+                            <dateline rendition="#right"><placeName><hi rend="smallcaps">Ministry of
+                                        Foreign Affairs,<lb/>First
                                     Department</hi></placeName>,<lb/><date when="1899-03-13"
                                     calendar="gregorian"><hi rend="italic">March 13,
                                     1899.</hi></date></dateline>
-                            <seg rendition="#left">No. 157.]</seg></opener>
+                        </opener>
                         <p>Mr. <hi rend="smallcaps">Ambassador</hi>: I have not failed to transmit
                             to the competent authorities the contents of the note of the Embassy
                             dated January 27 (February 8), of the current year, on the subject of
@@ -13078,12 +13086,13 @@
                     <frus:attachment>
                         <head>EXHIBIT E E.</head>
                         <opener><seg rendition="#center">[Translation.]</seg></opener>
-                        <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Ministry of Foreign Affairs</hi>,<lb/><hi rend="italic"
-                                        >Asiatic Department</hi></placeName>, <date
-                                    when="1882-05-08" calendar="gregorian">May 8,
-                                1882</date>.</dateline>
-                            <seg rendition="#left">No. 1912.]</seg></opener>
+                        <opener>
+                            <seg rendition="#left">No. 1912.]</seg>
+                            <dateline rendition="#right"><placeName><hi rend="smallcaps">Ministry of
+                                        Foreign Affairs</hi>,<lb/><hi rend="italic">Asiatic
+                                        Department</hi></placeName>, <date when="1882-05-08"
+                                    calendar="gregorian">May 8, 1882</date>.</dateline>
+                        </opener>
                         <p><hi rend="smallcaps">Mr. Chargé d’ Affaires</hi>: In continuation of the
                             exchange of communications which has taken place between us on the
                             subject of a notification published by our consul at Yokohama relative
@@ -13122,12 +13131,14 @@
                     <frus:attachment>
                         <head>EXHIBIT F F.</head>
                         <opener><seg rendition="#center">[Translation.]</seg></opener>
-                        <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Ministry of Foreign Affairs</hi>,<lb/><hi rend="italic"
-                                        >Asiatic Department</hi></placeName>, <date
-                                    when="1882-06-01" calendar="gregorian"><hi rend="italic">June 1,
-                                        1882</hi></date>.</dateline>
-                            <seg rendition="#left">No. 2218.]</seg></opener>
+                        <opener>
+                            <seg rendition="#left">No. 2218.]</seg>
+                            <dateline rendition="#right"><placeName><hi rend="smallcaps">Ministry of
+                                        Foreign Affairs</hi>,<lb/><hi rend="italic">Asiatic
+                                        Department</hi></placeName>, <date when="1882-06-01"
+                                    calendar="gregorian"><hi rend="italic">June 1,
+                                1882</hi></date>.</dateline>
+                        </opener>
                         <p><hi rend="smallcaps">Mr. Chargé d’Affaires</hi>: In reply to the note
                             which you had the goodness to address me on May 13/25 relative to
                             fishing and hunting in our waters of the Pacific, and in which you have
@@ -20218,12 +20229,14 @@
                     <frus:attachment>
                         <head>EXHIBIT H.</head>
                         <opener><seg rendition="#center">[Translation.]</seg></opener>
-                        <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Ministry for Foreign Affairs,<lb/>Asiatic
-                                    Department</hi></placeName>, <date when="1896-05-18"
+                        <opener>
+                            <seg rendition="#left">No. 1999.]</seg>
+                            <dateline rendition="#right"><placeName><hi rend="smallcaps">Ministry
+                                        for Foreign Affairs,<lb/>Asiatic
+                                Department</hi></placeName>, <date when="1896-05-18"
                                     calendar="gregorian"><hi rend="italic">May 18,
                                 1896</hi></date>.</dateline>
-                            <seg rendition="#left">No. 1999.]</seg></opener>
+                        </opener>
                         <p><hi rend="smallcaps">Mr. Envoy</hi>: As I had the honor to inform the
                             legation of the United States under date of October 12, 1895, the
                             Imperial ministry did not fail to transmit in due time to the ministry
@@ -21530,12 +21543,14 @@
                     <frus:attachment>
                         <head>EXHIBIT N.</head>
                         <opener><seg rendition="#center">[Translation]</seg></opener>
-                        <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Ministry for Foreign Affairs, First
+                        <opener>
+                            <seg rendition="#left">No. 4587.]</seg>
+                            <dateline rendition="#right"><placeName><hi rend="smallcaps">Ministry
+                                        for Foreign Affairs, First
                                     Department</hi></placeName>,<lb/><date when="1898-10-19"
                                     calendar="gregorian"><hi rend="italic">October 19,
                                     1898</hi></date>.</dateline>
-                            <seg rendition="#left">No. 4587.]</seg></opener>
+                        </opener>
                         <p><hi rend="smallcaps">Mr. Chargé d’Affaires</hi>: Having received the note
                             of the embassy of the United States dated July 23 (August 4) of this
                             year, relative to the affair of the American schooner <hi rend="italic"
@@ -28678,12 +28693,14 @@
                     <frus:attachment>
                         <head>EXHIBIT I.</head>
                         <opener><seg rendition="#center">[Translation.]</seg></opener>
-                        <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                        >Ministry for Foreign Affairs,<lb/>Asiatic
+                        <opener>
+                            <seg rendition="#left">No. 3498.]</seg>
+                            <dateline rendition="#right"><placeName><hi rend="smallcaps">Ministry
+                                        for Foreign Affairs,<lb/>Asiatic
                                     Department</hi></placeName>,<lb/><date when="1895-08-26"
                                     calendar="gregorian"><hi rend="italic">August 26,
                                     1895</hi></date>.</dateline>
-                            <seg rendition="#left">No. 3498.]</seg></opener>
+                        </opener>
                         <p>Mr. <hi rend="smallcaps">Envoy</hi>: I did not fail to report to the
                             competent quarter the contents of your note of November 9/21, 1894,
                             relative to the affair of the confiscation by the Russian war cruiser
@@ -31941,12 +31958,13 @@
                     frus:doc-dateTime-max="1896-03-17T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Olney</persName> to Mr.
                                 <persName type="to">de Kotzebue</persName>.</hi></head>
-                    <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
-                                    of State</hi>,<lb/><hi rend="italic"
-                            >Washington</hi></placeName>, <date when="1896-03-17"
-                                calendar="gregorian"><hi rend="italic">March 17,
-                            1896</hi></date>.</dateline>
-                        <seg rendition="#left">No. 42.]</seg></opener>
+                    <opener>
+                        <seg rendition="#left">No. 42.]</seg>
+                        <dateline rendition="#right"><placeName><hi rend="smallcaps">Department of
+                                    State</hi>,<lb/><hi rend="italic">Washington</hi></placeName>,
+                                <date when="1896-03-17" calendar="gregorian"><hi rend="italic">March
+                                    17, 1896</hi></date>.</dateline>
+                    </opener>
                     <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge the receipt of
                         the copy of the complaint of Capt. G. I. Dahlberg, of the Russian bark <hi
                             rend="italic">Hans</hi>, alleging that in contravention of his treaty
@@ -31994,12 +32012,14 @@
                     <head><hi rend="italic">Mr. <persName type="from">Kotzebue</persName> to Mr.
                                 <persName type="to">Olney</persName></hi>.</head>
                     <opener><seg rendition="#center">[Translation.]</seg></opener>
-                    <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Russian
+                    <opener>
+                        <seg rendition="#left">No. 233.]</seg>
+                        <dateline rendition="#right"><placeName><hi rend="smallcaps">Russian
                                     Legation</hi>,<lb/><hi rend="italic"
                             >Washington</hi></placeName>, <date when="1896-04-10"
                                 calendar="gregorian"><hi rend="italic">April 10, 1896</hi></date>.
                                 (<hi rend="italic">Received Apr. 11, 8.09 p.m.</hi>)</dateline>
-                        <seg rendition="#left">No. 233.]</seg></opener>
+                    </opener>
                     <p><hi rend="smallcaps">Mr. Secretary of State</hi>: Referring to the note dated
                         the 17th of March last, whereby your excellency was pleased to inform me
                         that the case of Mr. Dahlberg, <pb n="332" xml:id="pg_332" facs="0356"
@@ -32564,12 +32584,13 @@
                     frus:doc-dateTime-max="1896-04-18T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Olney</persName> to Mr.
                                 <persName type="to">de Kotzebue</persName></hi>.</head>
-                    <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
-                                    of State</hi>,<lb/><hi rend="italic"
-                            >Washington</hi></placeName>, <date when="1896-04-18"
-                                calendar="gregorian"><hi rend="italic">April 18,
-                            1896</hi></date>.</dateline>
-                        <seg rendition="#left">No. 48.]</seg></opener>
+                    <opener>
+                        <seg rendition="#left">No. 48.]</seg>
+                        <dateline rendition="#right"><placeName><hi rend="smallcaps">Department of
+                                    State</hi>,<lb/><hi rend="italic">Washington</hi></placeName>,
+                                <date when="1896-04-18" calendar="gregorian"><hi rend="italic">April
+                                    18, 1896</hi></date>.</dateline>
+                    </opener>
                     <p><hi rend="smallcaps">Sir</hi>: Referring to your note of the 10th instant and
                         previous correspondence relative to the arrest and detention of Captain
                         Dahlberg, of the Russian vessel <hi rend="italic">Hans</hi>, on process
@@ -32708,12 +32729,13 @@
                     frus:doc-dateTime-max="1896-05-01T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Olney</persName> to Mr.
                                 <persName type="to">de Kotzebue</persName>.</hi></head>
-                    <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
-                                    of State</hi>,<lb/><hi rend="italic"
-                            >Washington</hi></placeName>, <date when="1896-05-01"
-                                calendar="gregorian"><hi rend="italic">May 1,
-                            1896</hi></date>.</dateline>
-                        <seg rendition="#left">No. 53.]</seg></opener>
+                    <opener>
+                        <seg rendition="#left">No. 53.]</seg>
+                        <dateline rendition="#right"><placeName><hi rend="smallcaps">Department of
+                                    State</hi>,<lb/><hi rend="italic">Washington</hi></placeName>,
+                                <date when="1896-05-01" calendar="gregorian"><hi rend="italic">May
+                                    1, 1896</hi></date>.</dateline>
+                    </opener>
                     <p><hi rend="smallcaps">Sir</hi>: Referring to your note of the 10th ultimo, in
                         regard to the complaint of Captain Dahlberg, of the Russian bark <hi
                             rend="italic">Hans</hi>, I have the honor to say that the Department of
@@ -32888,12 +32910,13 @@
                     frus:doc-dateTime-max="1896-05-23T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Olney</persName> to Mr.
                                 <persName type="to">de Kotzebue</persName>.</hi></head>
-                    <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
-                                    of State</hi>,<lb/><hi rend="italic"
-                            >Washington</hi></placeName>, <date when="1896-05-23"
-                                calendar="gregorian"><hi rend="italic">May 23,
-                            1896</hi></date>.</dateline>
-                        <seg rendition="#left">No. 59.]</seg></opener>
+                    <opener>
+                        <seg rendition="#left">No. 59.]</seg>
+                        <dateline rendition="#right"><placeName><hi rend="smallcaps">Department of
+                                    State</hi>,<lb/><hi rend="italic">Washington</hi></placeName>,
+                                <date when="1896-05-23" calendar="gregorian"><hi rend="italic">May
+                                    23, 1896</hi></date>.</dateline>
+                    </opener>
                     <p><hi rend="smallcaps">Sir</hi>: In my note of the 1st instant I informed you
                         that the Department of Justice had appointed an examiner to collect the
                         evidence necessary to ascertain whether Captain Dahlberg was unlawfully
@@ -33025,12 +33048,13 @@
                     frus:doc-dateTime-max="1897-07-08T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Sherman</persName> to Mr.
                                 <persName type="to">de Wollant</persName>.</hi></head>
-                    <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
-                                    of State</hi>,<lb/><hi rend="italic"
-                            >Washington</hi></placeName>, <date when="1897-07-08"
-                                calendar="gregorian"><hi rend="italic">July 8,
-                            1897</hi></date>.</dateline>
-                        <seg rendition="#left">No. 114.]</seg></opener>
+                    <opener>
+                        <seg rendition="#left">No. 114.]</seg>
+                        <dateline rendition="#right"><placeName><hi rend="smallcaps">Department of
+                                    State</hi>,<lb/><hi rend="italic">Washington</hi></placeName>,
+                                <date when="1897-07-08" calendar="gregorian"><hi rend="italic">July
+                                    8, 1897</hi></date>.</dateline>
+                    </opener>
                     <p><hi rend="smallcaps">Sir</hi>: Referring to your recent visit to the
                         Department, I have now the honor to say that since that time I have had the
                         case of Capt. Gustav Isak Dahlberg, master and principal owner of the
@@ -33061,12 +33085,14 @@
                     frus:doc-dateTime-max="1897-11-20T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">de Wollant</persName> to Mr.
                                 <persName type="to">Sherman</persName>.</hi></head>
-                    <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                    >Washington</hi></placeName>, <date when="1897-11-20"
+                    <opener>
+                        <seg rendition="#left">No. 520.]</seg>
+                        <dateline rendition="#right"><placeName><hi rend="smallcaps"
+                                >Washington</hi></placeName>, <date when="1897-11-20"
                                 calendar="gregorian"><hi rend="italic">November 20</hi> (<hi
                                     rend="italic">December 2</hi>), <hi rend="italic"
                                 >1897.</hi></date></dateline>
-                        <seg rendition="#left">No. 520.]</seg></opener>
+                    </opener>
                     <p><hi rend="smallcaps">Sir</hi>: Referring to the case of Capt. Gustaf Isak
                         Dahlberg, master and principal owner of the Russian bark <hi rend="italic"
                             >Hans</hi>, who was arrested while at anchor at Ship Island,
@@ -33102,12 +33128,13 @@
                     frus:doc-dateTime-max="1897-12-18T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Sherman</persName> to Mr.
                                 <persName type="to">de Wollant</persName>.</hi></head>
-                    <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
-                                    of State</hi>,<lb/><hi rend="italic"
-                            >Washington</hi></placeName>, <date when="1897-12-18"
-                                calendar="gregorian"><hi rend="italic">December 18,
-                            1897</hi></date>.</dateline>
-                        <seg rendition="#left">No. 138.]</seg></opener>
+                    <opener>
+                        <seg rendition="#left">No. 138.]</seg>
+                        <dateline rendition="#right"><placeName><hi rend="smallcaps">Department of
+                                    State</hi>,<lb/><hi rend="italic">Washington</hi></placeName>,
+                                <date when="1897-12-18" calendar="gregorian"><hi rend="italic"
+                                    >December 18, 1897</hi></date>.</dateline>
+                    </opener>
                     <p><hi rend="smallcaps">Sir</hi>: I have the honor to acknowledge the receipt of
                         your note of the 2d instant in regard to the claim for damages presented by
                         Captain Dahlberg, master and principal owner of the Russian bark <hi
@@ -33124,13 +33151,15 @@
                     frus:doc-dateTime-max="1898-03-27T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">de Wollant</persName> to Mr.
                                 <persName type="to">Day</persName>.</hi></head>
-                    <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Russian
+                    <opener>
+                        <seg rendition="#left">No. 148.]</seg>
+                        <dateline rendition="#right"><placeName><hi rend="smallcaps">Russian
                                     Imperial Legation</hi>,<lb/><hi rend="italic"
                                 >Washington</hi></placeName>, <date when="1898-03-27"
                                 calendar="gregorian"><hi rend="italic">March 27</hi> (<hi
                                     rend="italic">April 8</hi>), <hi rend="italic"
                             >1898</hi></date>.</dateline>
-                        <seg rendition="#left">No. 148.]</seg></opener>
+                    </opener>
                     <p><hi rend="smallcaps">My Dear Mr. Day</hi>: Referring to our yesterday’s
                         conversation in regard to the claim of Capt. G. E. Dahlberg and to your
                         proposal of recommending to Congress an indemnity of $5,000 for Captain
@@ -33144,12 +33173,13 @@
                     frus:doc-dateTime-max="1898-04-14T23:59:59-05:00">
                     <head><hi rend="italic">Mr. <persName type="from">Day</persName> to Mr.
                                 <persName type="to">de Wollant</persName>.</hi></head>
-                    <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Department
-                                    of State</hi>,<lb/><hi rend="italic"
-                            >Washington</hi></placeName>, <date when="1898-04-14"
-                                calendar="gregorian"><hi rend="italic">April 14,
-                            1898</hi></date>.</dateline>
-                        <seg rendition="#left">Personal.]</seg></opener>
+                    <opener>
+                        <seg rendition="#left">Personal.]</seg>
+                        <dateline rendition="#right"><placeName><hi rend="smallcaps">Department of
+                                    State</hi>,<lb/><hi rend="italic">Washington</hi></placeName>,
+                                <date when="1898-04-14" calendar="gregorian"><hi rend="italic">April
+                                    14, 1898</hi></date>.</dateline>
+                    </opener>
                     <p><hi rend="smallcaps">My Dear Sir</hi>: I have to acknowledge the receipt of
                         your note of the 8th instant, stating that you are authorized by your
                         Government to accept the proposal made by the Department to transmit to
@@ -33994,10 +34024,12 @@
                         </frus:attachment>
                         <pb n="359" xml:id="pg_359" facs="0385"/>
                         <frus:attachment>
-                            <opener><dateline rendition="#right"><placeName><hi rend="smallcaps"
-                                            >United States of America</hi>, <hi rend="italic"
-                                            >Department of State</hi></placeName>.</dateline>
-                                <seg rendition="#left">No. 5644.]</seg></opener>
+                            <opener>
+                                <seg rendition="#left">No. 5644.]</seg>
+                                <dateline rendition="#right"><placeName><hi rend="smallcaps">United
+                                            States of America</hi>, <hi rend="italic">Department of
+                                            State</hi></placeName>.</dateline>
+                            </opener>
                             <p>To all to whom these presents shall come, greeting:</p>
                             <p>I certify that the document hereunto annexed is under the seal of the
                                 Treasury Department and is entitled to full faith and credit.</p>
