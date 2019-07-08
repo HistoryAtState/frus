@@ -34,7 +34,7 @@
         </xsl:variable>
 
         <xsl:choose>
-            <xsl:when test=".[not(@frus:doc-dateTime-min)]">
+            <xsl:when test=".[not(@frus:doc-dateTime-min)] and descendant::tei:div/@frus:doc-dateTime-min and descendant::tei:div/@frus:doc-dateTime-max">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
                     <xsl:attribute name="frus:doc-dateTime-min">
@@ -79,7 +79,7 @@
         </xsl:variable>
 
         <xsl:choose>
-            <xsl:when test=".[not(@frus:doc-dateTime-min)]">
+            <xsl:when test=".[not(@frus:doc-dateTime-min) and descendant::tei:div/@frus:doc-dateTime-min and descendant::tei:div/@frus:doc-dateTime-max]">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
                     <xsl:attribute name="frus:doc-dateTime-min">
@@ -124,7 +124,7 @@
         </xsl:variable>
 
         <xsl:choose>
-            <xsl:when test=".[not(@frus:doc-dateTime-min)]">
+            <xsl:when test=".[not(@frus:doc-dateTime-min) and descendant::tei:div/@frus:doc-dateTime-min and descendant::tei:div/@frus:doc-dateTime-max]">
                 <xsl:copy>
                     <xsl:apply-templates select="@*"/>
                     <xsl:attribute name="frus:doc-dateTime-min">
