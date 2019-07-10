@@ -236,17 +236,24 @@
                     node-type="attribute" select="frus:normalize-high($date-max, $timezone)"/>
             </sqf:fix>
         </rule>
+    </pattern>
+    
+    <pattern id="errant-or-empty-doc-dateTime-values">
+        <title>Div dateTime Attribute Value Checks</title>
         <rule context="tei:div[@frus:doc-dateTime-min]">
-            <assert role="error" test="./@frus:doc-dateTime-min castable as xs:dateTime"
-                >@frus:doc-dateTime-min must be castable as dateTime</assert>
-            <assert role="error" test="./@frus:doc-dateTime-max">div must have both
-                @frus:doc-dateTime-min and @frus:doc-dateTime-max</assert>
+            <assert role="error" test="./@frus:doc-dateTime-min castable as xs:dateTime">The value
+                of @frus:doc-dateTime-min is not a valid dateTime for this div.
+                @frus:doc-dateTime-min must be a valid ISO dateTime.</assert>
+            <assert role="error" test="./@frus:doc-dateTime-max">This div has a
+                @frus:doc-dateTime-min attribute but not a @frus:doc-dateTime-max
+                attribute.</assert>
         </rule>
         <rule context="tei:div[@frus:doc-dateTime-max]">
-            <assert role="error" test="./@frus:doc-dateTime-max castable as xs:dateTime"
-                >@frus:doc-dateTime-max must be castable as dateTime</assert>
-            <assert role="error" test="./@frus:doc-dateTime-min">div must have both
-                @frus:doc-dateTime-min and @frus:doc-dateTime-max</assert>
+            <assert role="error" test="./@frus:doc-dateTime-max castable as xs:dateTime">The value
+                of @frus:doc-dateTime-max is not a valid dateTime for this div.
+                @frus:doc-dateTime-max must be a valid ISO dateTime.</assert>
+            <assert role="error" test="./@frus:doc-dateTime-min">This div has a
+                @frus:doc-dateTime-max attribute but not a @frus:doc-dateTime-min attribute</assert>
         </rule>
     </pattern>
 

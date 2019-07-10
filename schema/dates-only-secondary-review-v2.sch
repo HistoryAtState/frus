@@ -83,7 +83,7 @@
         <!-- Tentative rule -->
         <rule
             context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
-        <!-- <rule
+            <!-- <rule
             context="tei:date[ancestor::tei:dateline][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]"> -->
             <assert
                 test="(@notBefore and @notAfter and @ana) or (@when and @ana) or (@from and @to and @ana)"
@@ -242,17 +242,24 @@
                     node-type="attribute" select="frus:normalize-high($date-max, $timezone)"/>
             </sqf:fix>
         </rule>
+    </pattern>
+
+    <pattern id="errant-or-empty-doc-dateTime-values">
+        <title>Div dateTime Attribute Value Checks</title>
         <rule context="tei:div[@frus:doc-dateTime-min]">
-            <assert role="error" test="./@frus:doc-dateTime-min castable as xs:dateTime"
-                >@frus:doc-dateTime-min must be castable as dateTime</assert>
-            <assert role="error" test="./@frus:doc-dateTime-max">div must have both
-                @frus:doc-dateTime-min and @frus:doc-dateTime-max</assert>
+            <assert role="error" test="./@frus:doc-dateTime-min castable as xs:dateTime">The value
+                of @frus:doc-dateTime-min is not a valid dateTime for this div.
+                @frus:doc-dateTime-min must be a valid ISO dateTime.</assert>
+            <assert role="error" test="./@frus:doc-dateTime-max">This div has a
+                @frus:doc-dateTime-min attribute but not a @frus:doc-dateTime-max
+                attribute.</assert>
         </rule>
         <rule context="tei:div[@frus:doc-dateTime-max]">
-            <assert role="error" test="./@frus:doc-dateTime-max castable as xs:dateTime"
-                >@frus:doc-dateTime-max must be castable as dateTime</assert>
-            <assert role="error" test="./@frus:doc-dateTime-min">div must have both
-                @frus:doc-dateTime-min and @frus:doc-dateTime-max</assert>
+            <assert role="error" test="./@frus:doc-dateTime-max castable as xs:dateTime">The value
+                of @frus:doc-dateTime-max is not a valid dateTime for this div.
+                @frus:doc-dateTime-max must be a valid ISO dateTime.</assert>
+            <assert role="error" test="./@frus:doc-dateTime-min">This div has a
+                @frus:doc-dateTime-max attribute but not a @frus:doc-dateTime-min attribute</assert>
         </rule>
     </pattern>
 
@@ -266,7 +273,7 @@
                 verify correctness of: <value-of select="."/></assert>
         </rule>
     </pattern>
-    
+
     <!-- Post-Publication Run Dates Check -->
     <pattern id="date-2030">
         <title>Post-Publication Run Dates Check</title>
@@ -277,7 +284,7 @@
                 documents, date attributes should be less than or equal to the year 2030. Please
                 verify correctness of: <value-of select="."/></assert>
         </rule>
-    </pattern> 
+    </pattern>
 
     <!-- Non-Gregorian Date Checks -->
     <pattern id="non-gregorian-calendars">
@@ -460,7 +467,9 @@
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Masonic calendar reference.</assert>
 
-            <sqf:group use-when=".[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')]" id="add-calendar-attributes">
+            <sqf:group
+                use-when=".[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')]"
+                id="add-calendar-attributes">
                 <sqf:fix id="add-calendar-attribute-masonic-anno-lucis">
                     <sqf:description>
                         <sqf:title>Add @calendar="masonic"</sqf:title>

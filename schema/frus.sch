@@ -620,11 +620,30 @@
         </rule>
     </pattern>
 
+    <pattern id="errant-or-empty-doc-dateTime-values">
+        <title>Div dateTime Attribute Value Checks</title>
+        <rule context="tei:div[@frus:doc-dateTime-min]">
+            <assert role="error" test="./@frus:doc-dateTime-min castable as xs:dateTime">The value
+                of @frus:doc-dateTime-min is not a valid dateTime for this div.
+                @frus:doc-dateTime-min must be a valid ISO dateTime.</assert>
+            <assert role="error" test="./@frus:doc-dateTime-max">This div has a
+                @frus:doc-dateTime-min attribute but not a @frus:doc-dateTime-max
+                attribute.</assert>
+        </rule>
+        <rule context="tei:div[@frus:doc-dateTime-max]">
+            <assert role="error" test="./@frus:doc-dateTime-max castable as xs:dateTime">The value
+                of @frus:doc-dateTime-max is not a valid dateTime for this div.
+                @frus:doc-dateTime-max must be a valid ISO dateTime.</assert>
+            <assert role="error" test="./@frus:doc-dateTime-min">This div has a
+                @frus:doc-dateTime-max attribute but not a @frus:doc-dateTime-min attribute</assert>
+        </rule>
+    </pattern>
+
     <pattern id="ref-to-page-footnote-check">
         <title>Ref to Page Footnote Check</title>
         <rule context="tei:ref[contains(@target, '#pg_')]">
-            <assert test="not(following-sibling::node()[1]/self::tei:hi = 'n')">Please italicize
-                'n' inside the ref.</assert>
+            <assert test="not(following-sibling::node()[1]/self::tei:hi = 'n')">Please italicize 'n'
+                inside the ref.</assert>
         </rule>
     </pattern>
 
@@ -657,29 +676,33 @@
                 empty.</assert>
         </rule>
     </pattern>
-    
+
     <pattern id="source-note-checks">
         <title>Source Note checks</title>
         <!-- limit this rule to volumes covering post-1950 or published after 1995, when source note conventions begin to conform to these rules -->
-        <rule context="tei:div[@subtype eq 'historical-document'][root(.)/tei:TEI/tei:teiHeader[.//tei:date[@type eq 'content-date']/@notBefore ge '1950' or .//tei:date[@type eq 'publication-date'] gt '1995']]">
+        <rule
+            context="tei:div[@subtype eq 'historical-document'][root(.)/tei:TEI/tei:teiHeader[.//tei:date[@type eq 'content-date']/@notBefore ge '1950' or .//tei:date[@type eq 'publication-date'] gt '1995']]">
             <let name="source-note"
                 value="(tei:note[@type eq 'source' and @rend eq 'inline'], tei:head/tei:note[@type eq 'source'], tei:head/tei:note//tei:seg[@type eq 'source'])[1]"/>
             <let name="source-note-content"
                 value="
-                    (
-                        if ($source-note/tei:p) then
-                            $source-note/tei:p[1]
-                        else
-                            $source-note
-                    )[1] => normalize-space()"/>
+                    (if ($source-note/tei:p) then
+                        $source-note/tei:p[1]
+                    else
+                        $source-note)[1] => normalize-space()"/>
             <assert test="exists($source-note)">Source note is missing</assert>
             <!-- if the source note is the 1st element in the div, it's a pre-1955 document, before the "Source:" convention was present/consistent -->
             <assert
-                test="if (./element()[1] is $source-note) then true() else (starts-with($source-note-content, 'Source:') or matches($source-note-content, '^\[Source:(.+)\]$'))"
-                >Source note doesn't begin with 'Source:' or '[Source:...]': <value-of select="$source-note-content"/></assert>
+                test="
+                    if (./element()[1] is $source-note) then
+                        true()
+                    else
+                        (starts-with($source-note-content, 'Source:') or matches($source-note-content, '^\[Source:(.+)\]$'))"
+                >Source note doesn't begin with 'Source:' or '[Source:...]': <value-of
+                    select="$source-note-content"/></assert>
         </rule>
     </pattern>
-    
+
     <pattern id="image-url-checks">
         <title>Image Checks</title>
         <rule context="tei:graphic">
