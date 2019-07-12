@@ -29,6 +29,24 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <styleDefDecl scheme="css" schemeVersion="2.1"/>
+            <tagsDecl>
+                <rendition xml:id="top">vertical-align: top;</rendition>
+                <rendition xml:id="bottom">vertical-align: bottom;</rendition>
+                <rendition xml:id="middle">vertical-align: middle;</rendition>
+                <rendition xml:id="nowrap">white-space: nowrap !important;</rendition>
+                <rendition xml:id="nopad">padding-right: 0.5em !important;</rendition>
+                <rendition xml:id="border-top">border-top: 1px black solid;</rendition>
+                <rendition xml:id="border-bottom">border-bottom: 1px black solid;</rendition>
+                <rendition xml:id="border-left">border-left: 1px black solid;</rendition>
+                <rendition xml:id="border-right">border-right: 1px black solid;</rendition>
+                <rendition xml:id="center">display: block; text-align: center;</rendition>
+                <rendition xml:id="center-block">margin-left: auto; margin-right: auto;</rendition>
+                <rendition xml:id="underline">text-decoration: underline;</rendition>
+                <rendition xml:id="hanging">padding-left:1.5em; text-indent:-1.5em;</rendition>
+                <rendition xml:id="left">display: inline; float: left;</rendition>
+                <rendition xml:id="right">display: inline; float: right;</rendition>
+            </tagsDecl>
             <editorialDecl>
                 <correction>
                     <p>The following errors in the original edition have been corrected:</p>
@@ -97,7 +115,7 @@
                     Public Law 102-138, the <hi rend="italic">Foreign Relations</hi> Authorization
                     Act, Fiscal Years 1992 and 1993, which was signed by President <persName>George
                         Bush</persName> on October 28, 1991. Section 198 of P.L. 102-138 added a new
-                    Title IV to the Department of State's Basic Authorities Act of 1956 (22 USC
+                    Title IV to the Department of State’s Basic Authorities Act of 1956 (22 USC
                     4351, et seq.).</p>
                 <p>The statute requires that the <hi rend="italic">Foreign Relations</hi> series be
                     a thorough, accurate, and reliable record of major United States foreign policy
@@ -127,7 +145,7 @@
                         corresp="#p_KJF2">John F. Kennedy</persName>. (See the list on page XIII.)
                     The subseries presents in 25 print volumes and 5 microfiche supplements a
                     documentary record of major foreign policy decisions and actions of President
-                        <persName corresp="#p_KRF1">Kennedy</persName>'s administration. In planning
+                        <persName corresp="#p_KRF1">Kennedy</persName>’s administration. In planning
                     and preparing the 1961-1963 triennium, the editors chose to present the official
                     record of U.S. foreign affairs with respect to Europe, Canada, and the Soviet
                     Union in six print volumes and one microfiche supplement.</p>
@@ -177,7 +195,7 @@
                 <p>The editors had complete access to all the records and papers of the Department
                     of State they deemed necessary to prepare this volume: the central files of the
                     Department; the special decentralized files ("lot files") of the Department at
-                    the bureau, office, and division levels; the files of the Department's Executive
+                    the bureau, office, and division levels; the files of the Department’s Executive
                     Secretariat, which contain the records of international conferences and
                     high-level official visits, correspondence with foreign leaders by the President
                     and Secretary of State, and memoranda of conversations between the President and
@@ -208,9 +226,9 @@
                     the Chairman through an intermediary and reduced to a written record as well as
                     the earliest exchanges between President-elect <persName>Kennedy</persName> and
                     Chairman <persName corresp="#p_KNS2">Khrushchev</persName> and
-                        Mrs.<persName>Kennedy</persName>'s personal message to the Chairman after
+                        Mrs.<persName>Kennedy</persName>’s personal message to the Chairman after
                     the assassination of the President.</p>
-                <p>All of Chairman <persName corresp="#p_KNS2">Khrushchev</persName>'s
+                <p>All of Chairman <persName corresp="#p_KNS2">Khrushchev</persName>’s
                     Russian-language messages are presented in the original contemporary English
                     translations, except for the April 1, 1963, message, which was obtained from the
                     Russian Foreign Ministry in 1995 and translated at that time. The editors have
@@ -236,7 +254,7 @@
                     the source text, and a list of abbreviations is included in the front matter of
                     each volume. All brackets that appear in the source text are so identified by
                     footnotes.</p>
-                <p>An unnumbered source note to each document indicates the document's source,
+                <p>An unnumbered source note to each document indicates the document’s source,
                     original classification, distribution, and drafting information.</p>
                 <p rend="flushleft"><hi rend="italic">Advisory Committee on Historical Diplomatic
                         Documentation</hi></p>
@@ -368,7 +386,7 @@
                 <p>In <ref target="frus1961-63v05">Volume V</ref>, Soviet Union, scheduled for
                     publication in 1997, the editors sought to bring together the main strands of
                     U.S.-Soviet relations during President <persName corresp="#p_KRF1"
-                        >Kennedy</persName>'s administration, but without printing there the
+                        >Kennedy</persName>’s administration, but without printing there the
                     complete record. The record of the major aspects and negotiations in U.S.-Soviet
                     relations during the <persName>Kennedy</persName> administration as collected by
                         <pb n="X" xml:id="pg_X" facs="0010"/>the editors of the <hi rend="italic"
@@ -431,7 +449,7 @@
                     translation. Some of these texts were hastily translated and many contain
                     inaccuracies or errors. The editors have in a few cases indicated a more
                     accurate translation of words or phrases. The exception among these contemporary
-                    translations is Chairman <persName corresp="#p_KNS2">Khrushchev</persName>'s
+                    translations is Chairman <persName corresp="#p_KNS2">Khrushchev</persName>’s
                     message of April 1, 1963, unavailable in U.S. sources, which was obtained from
                     the Russian Foreign Ministry in 1995 and translated in the Office of the
                     Historian at that time. The editors have also identified, to the extent
@@ -448,13 +466,13 @@
                     the two leaders but were communications passed through “back channels" by Soviet
                     Ambassador <persName corresp="#p_DAF1">Anatoly Dobrynin</persName> or other
                     Soviet officials to other members of President <persName corresp="#p_KRF1"
-                        >Kennedy</persName>'s official family. Eight of the communications were oral
+                        >Kennedy</persName>’s official family. Eight of the communications were oral
                     messages of which a written record was made only after the fact. The editors
                     made every effort to find and include here all messages that passed between
                     President <persName corresp="#p_KRF1">Kennedy</persName> and Chairman <persName
                         corresp="#p_KNS2">Khrushchev</persName>, but considering the sometimes
                     informal and indirect nature of the channel, there may be others. The final
-                    document in the volume is the message from the President's widow to Chairman
+                    document in the volume is the message from the President’s widow to Chairman
                         <persName corresp="#p_KNS2">Khrushchev</persName>.</p>
                 <p>Portions of some of the messages exchanged between the President and the Chairman
                     and printed in <ref target="frus1961-63v06">Volume VI</ref> are included in
@@ -670,7 +688,7 @@
                                         Correspondence, and <persName>Kennedy</persName>-<persName
                                             corresp="#p_KNS2">Khrushchev</persName> Letters</item>
                                 </list></item>
-                            <item>President's Appointment Books</item>
+                            <item>President’s Appointment Books</item>
                         </list>
                     </item>
                     <item><hi rend="strong"><persName corresp="#p_JLB1">Lyndon B. Johnson</persName>
@@ -695,7 +713,7 @@
                             <persName corresp="#p_KNS2">Khrushchev</persName>, 1960-1963. New York:
                         HarperCollins, 1991.</item>
                     <item>Claflin, Edward B., ed. The President Wants To Know: Memos from the
-                        President's Office, 1961-1963. New York: Morrow, 1991.</item>
+                        President’s Office, 1961-1963. New York: Morrow, 1991.</item>
                     <item>Manchester, William. The Death of a President, November 20-November 25,
                         1963. New York: Harper-Row, 1967.</item>
                     <item>Schlesinger, Arthur M., Jr., <persName corresp="#p_KRF1">Robert
@@ -773,7 +791,7 @@
                             Conrad</persName>,</hi> Chancellor of the Federal Republic of Germany
                         until October 1963</item>
                     <item><hi rend="strong"><persName xml:id="p_AAI1">Adzhubei, Aleksei
-                                I.</persName>,</hi> Editor in Chief of Izvestia and Khrushchev's
+                                I.</persName>,</hi> Editor in Chief of Izvestia and Khrushchev’s
                         son-in-law</item>
                     <item><hi rend="strong"><persName xml:id="p_AHL1">Anderson, Harry
                             L.</persName>,</hi> Bureau of European Affairs, Department of
@@ -899,7 +917,7 @@
                     <item><hi rend="strong"><persName xml:id="p_RD3">Rusk, Dean</persName>,</hi>
                         Secretary of State</item>
                     <item><hi rend="strong"><persName xml:id="p_SPEG1">Salinger,
-                            Pierre</persName>,</hi> President's Press Secretary</item>
+                            Pierre</persName>,</hi> President’s Press Secretary</item>
                     <item><hi rend="strong"><persName xml:id="p_SPN1">Sihanouk, Prince
                                 Norodom</persName>,</hi> Cambodian Chief of State</item>
                     <item><hi rend="strong"><persName xml:id="p_SBK1">Smith,
@@ -956,8 +974,9 @@
                                 >Source:<hi rend="italic">American Foreign Policy: Current
                                 Documents, 1960</hi>, p. 476. No classification
                         marking.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1960-11-09"
-                            calendar="gregorian">November 9, 1960</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1960-11-09" calendar="gregorian">November 9,
+                            1960</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Esteemed Mr.<persName>Kennedy</persName></hi>, Allow me
                         to congratulate you on the occasion of your election to the high post of the
                         President of the United States.</p>
@@ -996,8 +1015,8 @@
                                 >Source:<hi rend="italic">American Foreign Policy: Current
                                 Documents, 1960</hi>, p. 476. No classification
                         marking.</note></head>
-                    <dateline><date when="1960-11-10" calendar="gregorian">November 10,
-                        1960</date>.</dateline>
+                    <opener><dateline rendition="#right"><date when="1960-11-10"
+                                calendar="gregorian">November 10, 1960</date>.</dateline></opener>
                     <p>I am most appreciative of your courtesy in sending me a message of
                             congratulations.<note n="1" xml:id="d2fn1"><ref target="#d1">Document
                                 1</ref>.</note> The achievement of a just and lasting peace will
@@ -1022,8 +1041,9 @@
                                 the United States:<persName corresp="#p_KJF2">John F.
                                     Kennedy</persName>, 1961, p. 3, and American Foreign Policy:
                                 Current Documents, 1961</hi>, p. 559.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1961-01-20"
-                            calendar="gregorian">January 20, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1961-01-20" calendar="gregorian">January 20,
+                            1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: We congratulate you on the
                         occasion of your inauguration. Availing ourselves of this opportunity we
                         wish to express the hope that by our joint efforts we shall succeed in
@@ -1068,9 +1088,9 @@
                                     States:<persName corresp="#p_KJF2">John F. Kennedy</persName>,
                                 1961, p. 3, and American Foreign Policy: Current Documents,
                                 1961</hi>, p. 560.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1961-01-21T18:34:00-05:00" calendar="gregorian">January 21, 1961,
-                            6:34 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1961-01-21T18:34:00-05:00" calendar="gregorian">January 21,
+                                1961, 6:34 p.m.</date></dateline></opener>
                     <p>1174. For Ambassador. Please pass following Presidential message to <persName
                             corresp="#p_KNS2">Khrushchev</persName> and <persName corresp="#p_BLI1"
                             >Brezhnev</persName>.</p>
@@ -1112,8 +1132,9 @@
                                 corresp="#p_KNS2">Khrushchev</persName> Correspondence, and
                             Department of State, Presidential Correspondence: Lot 66 D
                         204.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-02-13"
-                            calendar="gregorian">February 13, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1961-02-13" calendar="gregorian">February 13,
+                            1961</date>.</dateline></opener>
                     <p>I wish to extend my congratulations and those of the American people for the
                         impressive scientific achievement represented by the launching of your space
                         vehicle to Venus. We shall watch its progress with interest and wish you
@@ -1135,8 +1156,9 @@
                                 corresp="#p_KNS2">Khrushchev</persName> Correspondence, and
                             Department of State, Central Files, 761.13/2-1561. The transliterated
                             Russian text is ibid.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1961-02-15"
-                            calendar="gregorian">February 15, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1961-02-15" calendar="gregorian">February 15,
+                            1961</date>.</dateline></opener>
                     <p>Received your telegram of congratulations on the occasion of the launching of
                         the Soviet cosmic spaceship to the planet Venus.<note n="1" xml:id="d6fn1"
                                 ><ref target="#d5">Document 5</ref>.</note> I express gratitude to
@@ -1196,9 +1218,9 @@
                             vol. V, <ref target="frus1961-63v05#d28">Document 28</ref>. Printed in
                             part in Claflin, <hi rend="italic">The President Wants To Know</hi>, pp.
                             50-51.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-02-22"
-                            type="conversation-or-meeting-date" calendar="gregorian">February 22,
-                            1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1961-02-22" type="conversation-or-meeting-date"
+                                calendar="gregorian">February 22, 1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I have had an opportunity, due
                         to the return of Ambassador <persName corresp="#p_TLET1"
                         >Thompson</persName>, to have an extensive review of all aspects of our
@@ -1261,9 +1283,9 @@
                             Also printed in <hi rend="italic">Public Papers of the Presidents of the
                                 United States:<persName corresp="#p_KJF2">John F.
                                 Kennedy</persName>, 1961</hi>, p. 257.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1961-04-12T13:24:00-05:00" calendar="gregorian">April 12, 1961,
-                            1:24 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1961-04-12T13:24:00-05:00" calendar="gregorian">April 12,
+                                1961, 1:24 p.m.</date></dateline></opener>
                     <p>1724. Deliver following message to <persName corresp="#p_KNS2"
                             >Khrushchev</persName> from the President. Message being released 2:00
                         p.m. April 12 Washington time.</p>
@@ -1295,8 +1317,9 @@
                                 1961</hi>, p. 295. The Russian-language text was transmitted as an
                             enclosure to despatch 747 from Moscow, May 3. (Department of State,
                             Central Files, 611.37/5-361)</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1961-04-18T14:00:00+03:00"
-                            calendar="gregorian">April 18, 1961, 2 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1961-04-18T14:00:00+03:00" calendar="gregorian">April 18,
+                                1961, 2 p.m.</date></dateline></opener>
                     <p>2550. Following letter to President <persName corresp="#p_KRF1"
                             >Kennedy</persName> from <persName corresp="#p_KNS2"
                             >Khrushchev</persName> handed me by Acting Foreign Minister Semenov at
@@ -1363,8 +1386,9 @@
                                 Current Documents, 1961</hi>, pp. 296-297; and Claflin, <hi
                                 rend="italic">The President Wants To Know</hi>, pp.
                         59-60.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-04-18"
-                            calendar="gregorian">April 18, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1961-04-18" calendar="gregorian">April 18,
+                            1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Mr. Chairman</hi>: You are under a serious
                         misapprehension in regard to events in Cuba. For months there has been
                         evident and growing resistance to the <persName corresp="#p_CRF1"
@@ -1434,8 +1458,9 @@
                             (Department of State, Central Files, 611.37/5-361) A slightly different
                             text is printed in Department of State <hi rend="italic">Bulletin</hi>,
                             May 8, 1961, pp. 664-667.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1961-04-22"
-                            calendar="gregorian">April 22, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1961-04-22" calendar="gregorian">April 22,
+                            1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Mr. President</hi>, I have received your reply of April
                             18.<note n="1" xml:id="d11fn1"><ref target="#d10">Document
                             10</ref>.</note> You write that the United States intends no military
@@ -1723,8 +1748,9 @@
                             No classification marking. The source text is a Department of State
                             translation of a commercial telegram from Moscow. The transliterated
                             Russian text is ibid.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1961-04-30"
-                            calendar="gregorian">April 30, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1961-04-30" calendar="gregorian">April 30,
+                            1961</date>.</dateline></opener>
                     <p>Excellency: Allow me to express to the people of the United States and to you
                         personally gratitude for congratulations on the occasion of the
                         unprecedented exploit of the Soviet people—the successful launching of the
@@ -1750,8 +1776,9 @@
                                 >Khrushchev</persName> Correspondence. A slightly different
                             translation is in Department of State, Presidential Correspondence: Lot
                             66 D 204. The Russian-language text is ibid.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1961-05-06"
-                            calendar="gregorian">May 6, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1961-05-06" calendar="gregorian">May 6,
+                            1961</date>.</dateline></opener>
                     <p>Dear Mr. President:</p>
                     <p>On behalf of the people of the Soviet Union and on my own behalf I send you
                         and all the American people sincere congratulations on the occasion of the
@@ -1779,9 +1806,9 @@
                                 >S/AE</gloss>), and <persName corresp="#p_MCRJ1"
                                 >McCloskey</persName> (P). The source text, titled “Suggested
                             Reply,” is double spaced.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-05-06"
-                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
-                            >undated</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-05-06" ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">undated</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: The American people and I
                         sincerely thank you for your <note n="1" xml:id="d14fn1">The word “kind” is
                             crossed out at this point in the source text.</note> message conveying
@@ -1808,9 +1835,9 @@
                             Another copy is in Department of State, Central Files, 761.13/5-1661. A
                             copy of the Russian-language text is ibid., Presidential Correspondence:
                             Lot 66 D 204.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1961-05-16T13:33:00-04:00" calendar="gregorian">May 16, 1961, 1:33
-                            p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1961-05-16T13:33:00-04:00" calendar="gregorian">May 16, 1961,
+                                1:33 p.m.</date></dateline></opener>
                     <p>Tosec 121. Eyes only Secretary and Ambassador <persName corresp="#p_TLET1"
                             >Thompson</persName>. Following is unofficial translation letter from
                             <persName corresp="#p_KNS2">Khrushchev</persName> which Menshikov handed
@@ -1952,8 +1979,9 @@
                             Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-06-10"
-                            calendar="gregorian">June 10, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1961-06-10" calendar="gregorian">June 10,
+                            1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: Many thanks for your kindness in
                         presenting me with a case of beverages during our recent meeting in
                             Vienna.<note n="1" xml:id="d16fn1">Regarding these meetings June 3-4,
@@ -1974,8 +2002,9 @@
                             >Khrushchev</persName><note n="0" xml:id="d17fn0" type="source">Source:
                             Department of State, Presidential Correspondence: Lot 66 D 204. No
                             classification marking.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-06-21"
-                            calendar="gregorian">June 21, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1961-06-21" calendar="gregorian">June 21,
+                            1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I want to express to you my very
                         great appreciation for your thoughtfulness in sending to me the model of an
                         American whaler, which we discussed while in Vienna. It now rests in my
@@ -2008,8 +2037,9 @@
                                 Kennedy</persName>, 1962</hi>, p. 493, and <hi rend="italic"
                                 >American Foreign Policy: Current Documents, 1961</hi>, p.
                             593.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1961-07-03"
-                            calendar="gregorian">July 3, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1961-07-03" calendar="gregorian">July 3,
+                            1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, Personally and on behalf of the
                         Soviet people we send to the American people, and to you personally, our
                         sincere congratulations on the occasion of this important date in the life
@@ -2060,8 +2090,9 @@
                                     States:<persName corresp="#p_KJF2">John F. Kennedy</persName>,
                                 1961</hi>, p. 493, and <hi rend="italic">American Foreign Policy:
                                 Current Documents, 1961</hi>, p. 594.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-07-04"
-                            calendar="gregorian">July 4, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1961-07-04" calendar="gregorian">July 4,
+                            1961</date>.</dateline></opener>
                     <p>I wish to thank you personally and on behalf of the American people for your
                         greetings on the occasion of the 185th Anniversary of the Independence of
                         the United States.<note n="1" xml:id="d19fn1"><ref target="#d18">Document
@@ -2126,8 +2157,9 @@
                                 <persName>Kennedy</persName> and <persName corresp="#p_KNS2"
                                 >Khrushchev</persName>, transmitted through special emissaries, that
                             subsequently became known as the “Pen Pal Correspondence.”</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1961-09-29"
-                            calendar="gregorian">September 29, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1961-09-29" calendar="gregorian">September 29,
+                            1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, At present I am on the shore of
                         the Black Sea. When they write in the press that <persName corresp="#p_KNS2"
                             >Khrushchev</persName> is resting on the Black Sea it may be said that
@@ -2688,8 +2720,9 @@
                                 >Khrushchev</persName> Correspondence. Top Secret. No drafting
                             information appears on the source text. Another copy is in Department of
                             State, Presidential Correspondence: Lot 77 D 163.</note></head>
-                    <dateline><placeName>Hyannis Port</placeName>, <date when="1961-10-16"
-                            calendar="gregorian">October 16, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Hyannis Port</placeName>, <date
+                                when="1961-10-16" calendar="gregorian">October 16,
+                            1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I regret that the press of
                         events has made it impossible for me to reply earlier to your very important
                         letter of last month.<note n="1" xml:id="d22fn1"><ref target="#d21">Document
@@ -2981,8 +3014,9 @@
                             Kennedy Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1961-11-09"
-                            calendar="gregorian">November 9, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1961-11-09" calendar="gregorian">November 9,
+                            1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I have read your letter of
                         October 16 <note n="1" xml:id="d23fn1"><ref target="#d22">Document
                             22</ref>.</note> with great attention. It is good that you had an
@@ -3582,8 +3616,9 @@
                             Files, Countries Series, <gloss target="#t_USSR1">USSR</gloss>,
                                 <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1961-11-10"
-                            calendar="gregorian">November 10, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1961-11-10" calendar="gregorian">November 10,
+                            1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, As you know, I devoted my
                         latest letter entirely to the German problem, <note n="1" xml:id="d24fn1"
                                 ><ref target="#d23">Document 23</ref>.</note> and did not touch upon
@@ -3745,8 +3780,9 @@
                             Countries Series, <gloss target="#t_USSR1">USSR</gloss>, <persName
                                 corresp="#p_KNS2">Khrushchev</persName>
                         Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-11-16"
-                            calendar="gregorian">November 16, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1961-11-16" calendar="gregorian">November 16,
+                            1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I have now had a chance to study
                         your most recent two letters on the German problem and on Laos and
                             Vietnam.<note n="1" xml:id="d25fn1"><ref target="#d23">Documents
@@ -3898,8 +3934,9 @@
                             Security Files, Countries Series,<gloss target="#t_USSR1">USSR</gloss>,
                                 <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-12-02"
-                            calendar="gregorian">December 2, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1961-12-02" calendar="gregorian">December 2,
+                            1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I enjoyed very much my talk with
                         your son-in-law, Mr.<persName corresp="#p_AAI1">Adzhubei</persName>.<note
                             n="1" xml:id="d26fn1">A transcript of this interview on November 25 is
@@ -4082,8 +4119,9 @@
                             National Security Files, Countries Series, <gloss target="#t_USSR1"
                                 >USSR</gloss>, <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1961-12-13"
-                            calendar="gregorian">December 13, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1961-12-13" calendar="gregorian">December 13,
+                            1961</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, Within a short period of time I
                         had an opportunity to read two [of] your messages—one addressed to our
                         country and the other, a confidential one, to me personally.<note n="1"
@@ -4537,8 +4575,9 @@
                                     States:<persName corresp="#p_KJF2">John F. Kennedy</persName>,
                                 1961</hi>, p. 819. The transliterated Russian text is in Department
                             of State, Central Files, 711.11-KE/12-2961.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-12-29"
-                            calendar="gregorian">December 29, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1961-12-29" calendar="gregorian">December 29,
+                            1961</date>.</dateline></opener>
                     <p>1537. Following is unofficial translation of message sent by <persName
                             corresp="#p_KNS2">Khrushchev</persName> and <persName corresp="#p_BLI1"
                             >Brezhnev</persName> via commercial cable December 29 to President
@@ -4585,8 +4624,9 @@
                             in <hi rend="italic">Public Papers of the Presidents of the United
                                 States, 1961</hi>, p. 819, and in Claflin, <hi rend="italic">The
                                 President Wants To Know</hi>, p. 141.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1961-12-30"
-                            calendar="gregorian">December 30, 1961</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1961-12-30" calendar="gregorian">December 30,
+                            1961</date>.</dateline></opener>
                     <p>1538. Following message sent December 30 by commercial telegram from
                         President <persName corresp="#p_KRF1">Kennedy</persName> to President
                             <persName corresp="#p_BLI1">Brezhnev</persName> and Chairman <persName
@@ -4643,11 +4683,11 @@
                             President <persName corresp="#p_KRF1">Kennedy</persName> referred to the
                             source text as “the message which you sent me through my
                             brother.”</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date
-                            notBefore="1961-12-30T00:00:00-05:00"
-                            notAfter="1962-01-18T23:59:59+03:00"
-                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            calendar="gregorian">undated</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                notBefore="1961-12-30T00:00:00-05:00"
+                                notAfter="1962-01-18T23:59:59+03:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                calendar="gregorian">undated</date></dateline></opener>
                     <p><persName corresp="#p_KNS2">N.S. Khrushchev</persName>, the Chairman of the
                             <gloss target="#t_USSR1">USSR</gloss> Council of Ministers, received a
                         communication from <persName corresp="#p_KRF1">Robert F.
@@ -4821,9 +4861,9 @@
                                 Kennedy</persName>, 1962</hi>, pp. 128-129, and <hi rend="italic"
                                 >Documents on Disarmament, 1962</hi>, vol. I, pp.
                         25-26.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1962-02-06T18:42:00-05:00" calendar="gregorian">February 6, 1962,
-                            6:42 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-02-06T18:42:00-05:00" calendar="gregorian">February 6,
+                                1962, 6:42 p.m.</date></dateline></opener>
                     <p>1827. You should concert immediately with UK Ambassador to ask for joint
                         appointment on Wednesday, February 7, with <persName corresp="#p_GAA1"
                             >Gromyko</persName> in order to deliver text following message to
@@ -4921,8 +4961,9 @@
                                 <persName corresp="#p_KNS2">Khrushchev</persName> Correspondence.
                             Also printed in <hi rend="italic">Documents on Disarmament, 1962</hi>,
                             vol. I, p. 32.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-02-10"
-                            calendar="gregorian">February 10, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-02-10" calendar="gregorian">February 10,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I am addressing you on a
                         question which, as is evident from your message of February 7 last, <note
                             n="1" xml:id="d32fn1">See <ref target="#d31">Document 31</ref>.</note>
@@ -5093,8 +5134,9 @@
                                 >Documents on Disarmament, 1962</hi>, vol. I, pp. 36-38; and
                             Claflin, <hi rend="italic">The President Wants To Know</hi>, pp.
                             146-147.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-02-14"
-                            calendar="gregorian">February 14, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-02-14" calendar="gregorian">February 14,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: In reading your letter of
                         February 10, 1962 <note n="1" xml:id="d33fn1"><ref target="#d32">Document
                                 32</ref>.</note> I was gratified to see that you have been thinking
@@ -5171,8 +5213,9 @@
                             Kennedy Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-02-15"
-                            calendar="gregorian">February 15, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-02-15" calendar="gregorian">February 15,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: In order to permit the further
                         development of the conversations between Ambassador <persName
                             corresp="#p_TLET1">Thompson</persName> and Foreign Minister <persName
@@ -5328,8 +5371,9 @@
                                 >Khrushchev</persName> Correspondence. Also printed in Department of
                             State <hi rend="italic">Bulletin</hi>, March 12, 1962, p. 411, and <hi
                                 rend="italic">Pravda</hi>, February 24, 1962.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-02-21"
-                            calendar="gregorian">February 21, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-02-21" calendar="gregorian">February 21,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: On behalf of the people of the
                         Soviet Union and myself personally I congratulate you and the American
                         people on the occasion of the successful launching of a spaceship with a man
@@ -5370,9 +5414,9 @@
                                     States:<persName corresp="#p_KJF2">John F. Kennedy</persName>,
                                 1962</hi>, p. 158, and Department of State <hi rend="italic"
                                 >Bulletin</hi>, March 12, 1962, p. 411.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1962-02-21T19:49:00-05:00" calendar="gregorian">February 21, 1962,
-                            7:49 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-02-21T19:49:00-05:00" calendar="gregorian">February 21,
+                                1962, 7:49 p.m.</date></dateline></opener>
                     <p>1940. Please deliver following message immediately to Foreign Office for
                             <persName corresp="#p_KNS2">Khrushchev</persName>. Advise date time
                         delivery. Message being released here 8 p.m., EST, February 21.</p>
@@ -5415,9 +5459,9 @@
                             Department of State on February 22; for a memorandum of conversation,
                             see <ref target="frus1961-63v07#pg_324">vol. VII, pp. 324</ref>–<ref
                                 target="frus1961-63v07#pg_325">325</ref>.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-02-21"
-                            type="conversation-or-meeting-date" calendar="gregorian">February 21,
-                            1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-02-21" type="conversation-or-meeting-date"
+                                calendar="gregorian">February 21, 1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I have received your reply
                             <note n="1" xml:id="d37fn1"><ref target="#d33">Document 33</ref>.</note>
                         to the proposal of the Soviet Government that the work of the 18 Nation
@@ -5787,9 +5831,9 @@
                                     States:<persName corresp="#p_KJF2">John F. Kennedy</persName>,
                                 1962</hi>, p. 160, and in <hi rend="italic">Documents on
                                 Disarmament, 1962</hi>, vol. I, p. 61.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1962-02-24T13:14:00-05:00" calendar="gregorian">February 24, 1962,
-                            1:14 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-02-24T13:14:00-05:00" calendar="gregorian">February 24,
+                                1962, 1:14 p.m.</date></dateline></opener>
                     <p>1959. You should deliver following reply from <persName>Kennedy</persName> to
                             <persName corresp="#p_KNS2">Khrushchev</persName>’s letter of February
                         21.</p>
@@ -5912,8 +5956,9 @@
                                 target="#t_USSR1">USSR</gloss>. A different translation is printed
                             in <hi rend="italic">Documents on Disarmament, 1962</hi>, vol. I, pp.
                             75-81.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-03-03"
-                            calendar="gregorian">March 3, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-03-03" calendar="gregorian">March 3,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I have carefully studied your
                         message of February 25 last.<note n="1" xml:id="d39fn1">See <ref
                                 target="#d38">Document 38</ref>.</note> Having thought about the
@@ -6171,8 +6216,9 @@
                             Also printed in <hi rend="italic">Public Papers of the Presidents of the
                                 United States:<persName corresp="#p_KJF2">John F.
                                 Kennedy</persName>, 1962</hi>, pp. 193-194.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-03-05"
-                            calendar="gregorian">March 5, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-03-05" calendar="gregorian">March 5,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I have received your message of
                         March 3, <note n="1" xml:id="d40fn1"><ref target="#d39">Document
                             39</ref>.</note> and I am glad to know of your agreement that the
@@ -6214,8 +6260,9 @@
                                     States:<persName corresp="#p_KJF2">John F. Kennedy</persName>,
                                 1962</hi>, pp. 244-245, and Claflin, <hi rend="italic">The President
                                 Wants To Know</hi>, pp. 154-157.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-03-07"
-                            calendar="gregorian">March 7, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-03-07" calendar="gregorian">March 7,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: On February twenty-second [21]
                         last <note n="1" xml:id="d41fn1">See <ref target="#d36">Document
                             36</ref>.</note> I wrote you that I was instructing appropriate officers
@@ -6342,8 +6389,9 @@
                             National Security Files, Countries Series, <gloss target="#t_USSR1"
                                 >USSR</gloss>, <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-03-10"
-                            calendar="gregorian">March 10, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-03-10" calendar="gregorian">March 10,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, I have received your message on
                         the German affairs <note n="1" xml:id="d42fn1"><ref target="#d34">Document
                                 34</ref>.</note> and have closely studied the U.S. Government’s
@@ -6722,8 +6770,9 @@
                             Countries Series, <gloss target="#t_USSR1">USSR</gloss>, <persName
                                 corresp="#p_KNS2">Khrushchev</persName>
                         Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-03-20"
-                            calendar="gregorian">March 20, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-03-20" calendar="gregorian">March 20,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: Having carefully familiarized
                         myself with your message of March 7 <note n="1" xml:id="d43fn1"><ref
                                 target="#d41">Document 41</ref>.</note> of this year, I note with
@@ -6927,9 +6976,9 @@
                                 corresp="#p_KNS2">Khrushchev</persName> Correspondence. Also printed
                             in <hi rend="italic">Documents on Disarmament</hi>, 1962, vol. I, pp.
                             292-293.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1962-04-07T17:16:00-05:00" calendar="gregorian">April 7, 1962,
-                            5:16 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-04-07T17:16:00-05:00" calendar="gregorian">April 7, 1962,
+                                5:16 p.m.</date></dateline></opener>
                     <p>2296. You should concert with British Embassy delivery on April 9 to Soviet
                         Foreign Ministry final agreed text quoted below:</p>
                     <p>“Joint US/UK Statement on Nuclear Testing”</p>
@@ -7012,8 +7061,9 @@
                             Other copies are in Department of State, Presidential Correspondence:
                             Lot 66 D 204, and ibid., Central Files, 761.13/6-762. Also printed in
                             part in Beschloss, The Crisis Years, p. 395.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-06-05"
-                            calendar="gregorian">June 5, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-06-05" calendar="gregorian">June 5,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I owe you a letter of thanks for
                         the generous hospitality which you and your associates offered to <persName
                             corresp="#p_SPEG1">Pierre Salinger</persName> while he was in the Soviet
@@ -7070,8 +7120,9 @@
                                 >Khrushchev</persName> Correspondence. Also printed in Department of
                             State <hi rend="italic">Bulletin</hi>, July 2, 1962, p.
                         12.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-06-12"
-                            calendar="gregorian">June 12, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-06-12" calendar="gregorian">June 12,
+                            1962</date>.</dateline></opener>
                     <p>Dear Mr. President, Good news has come from Laos. As a result of the
                         successful completion of negotiations between the three political forces of
                         Laos, it has been possible to form a coalition Government of National Unity
@@ -7119,9 +7170,9 @@
                                 rend="italic">Bulletin</hi>, July 2, 1962, p. 12; and Claflin, <hi
                                 rend="italic">The President Wants To Know</hi>, pp.
                         175-176.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1962-06-12T21:41:00-04:00" calendar="gregorian">June 12, 1962,
-                            9:41 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-06-12T21:41:00-04:00" calendar="gregorian">June 12, 1962,
+                                9:41 p.m.</date></dateline></opener>
                     <p>2825. Ambassador requested deliver following Presidential message to
                             <persName corresp="#p_KNS2">Khrushchev</persName> first thing Wednesday
                         morning Moscow time.</p>
@@ -7163,8 +7214,9 @@
                             Files, Countries Series, <gloss target="#t_USSR1">USSR</gloss>,
                                 <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-07-04"
-                            calendar="gregorian">July 4, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-07-04" calendar="gregorian">July 4,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Esteemed Mr. President</hi>: On the occasion of the
                         national holiday of the U.S.A.—Independence Day—we send you and the entire
                         American people sincere congratulations and best wishes from the people of
@@ -7207,11 +7259,11 @@
                             Kennedy Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date
-                            notBefore="1962-07-04T00:00:00+03:00"
-                            notAfter="1962-07-05T23:59:59+03:00"
-                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            calendar="gregorian">undated</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                notBefore="1962-07-04T00:00:00+03:00"
+                                notAfter="1962-07-05T23:59:59+03:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                calendar="gregorian">undated</date>.</dateline></opener>
                     <p>We are following with great attention the development of the Soviet-American
                         exchange of opinions on German peace treaty and normalization on its basis
                         of the situation in West Berlin and we are carefully weighing considerations
@@ -7424,9 +7476,9 @@
                             Countries Series, <gloss target="#t_USSR1">USSR</gloss>, <persName
                                 corresp="#p_KNS2">Khrushchev</persName>
                         Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1962-07-12T20:15:00-04:00" calendar="gregorian">July 12, 1962,
-                            8:15 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-07-12T20:15:00-04:00" calendar="gregorian">July 12, 1962,
+                                8:15 p.m.</date></dateline></opener>
                     <p>81. Please deliver following message from the President to President
                             <persName corresp="#p_BLI1">Brezhnev</persName> and Chairman <persName
                             corresp="#p_KNS2">Khrushchev</persName>:</p>
@@ -7453,8 +7505,9 @@
                                 >Khrushchev</persName> Correspondence. No classification marking.
                             Another copy is in Department of State, Presidential Correspondence: Lot
                             66 D 204.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-07-17"
-                            calendar="gregorian">July 17, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-07-17" calendar="gregorian">July 17,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I am responding to the
                         communication received through Ambassador <persName corresp="#p_DAF1"
                             >Dobrynin</persName> on July 5, 1962.<note n="1" xml:id="d51fn1"><ref
@@ -7691,8 +7744,9 @@
                                 <persName corresp="#p_KNS2">Khrushchev</persName> Correspondence.
                             Also printed in Claflin, The President Wants To Know, p.
                         192.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-08-15"
-                            calendar="gregorian">August 15, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-08-15" calendar="gregorian">August 15,
+                            1962</date>.</dateline></opener>
                     <p>Will you please have the following message sent in the fastest way possible,
                         and notify my office of the approximate time of delivery.</p>
                     <p>"Dear Mr. Chairman:</p>
@@ -7721,8 +7775,9 @@
                                 corresp="#p_BMG2">Bundy</persName>,Fisher (<gloss target="#t_ACDA1"
                                 >ACDA</gloss>), <persName corresp="#p_TWR2">Tyler</persName>, and
                                 <persName corresp="#p_RD3">Rusk</persName>.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-09-04"
-                            calendar="gregorian">September 4, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-09-04" calendar="gregorian">September 4,
+                            1962</date>.</dateline></opener>
                     <p>We have familiarized ourselves with the statement which you and the Prime
                         Minister of Great Britain Mr.<persName corresp="#p_MHS2"
                             >Macmillan</persName> made August 27, <note n="1" xml:id="d53fn1"
@@ -7799,8 +7854,9 @@
                             Kennedy Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-09-04"
-                            calendar="gregorian">September 4, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-09-04" calendar="gregorian">September 4,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I wish to thank you for the
                         felicitations which you sent on behalf of the people and the government of
                         the United States of America to the Soviet people on the occasion of the
@@ -7828,8 +7884,9 @@
                                 >Khrushchev</persName> Correspondence. Secret; Eyes Only. Also
                             printed in Claflin, <hi rend="italic">The President Wants To Know</hi>,
                             pp. 201-203.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-09-15"
-                            calendar="gregorian">September 15, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-09-15" calendar="gregorian">September 15,
+                            1962</date>.</dateline></opener>
                     <p>I am happy to note your suggestion that you are prepared to negotiate a
                         treaty banning nuclear tests in the atmosphere, in outer space and under
                         water in the immediate future.<note n="1" xml:id="d55fn1">See <ref
@@ -7903,8 +7960,9 @@
                             National Security Files, Countries Series, <gloss target="#t_USSR1"
                                 >USSR</gloss>, <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-09-28"
-                            calendar="gregorian">September 28, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-09-28" calendar="gregorian">September 28,
+                            1962</date>.</dateline></opener>
                     <p>I studied with interest your reply to my considerations forwarded through
                         Ambassador <persName corresp="#p_DAF1">Dobrynin</persName> on the question
                         of cessation of nuclear weapon tests.<note n="1" xml:id="d56fn1"><ref
@@ -8322,8 +8380,9 @@
                                 rend="italic">in Public Papers of the Presidents of the United
                                     States:<persName corresp="#p_KJF2">John F. Kennedy</persName>,
                                 1962</hi>, p. 433.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-10-04"
-                            calendar="gregorian">October 4, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-10-04" calendar="gregorian">October 4,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Esteemed Mr. President</hi>, On behalf of the Soviet
                         people and myself personally, I am happy to congratulate you and the
                         American people on the occasion of the successful completion of the flight
@@ -8348,9 +8407,9 @@
                             Lot 66 D 204. Also printed in <hi rend="italic">Public Papers of the
                                 Presidents of the United States:<persName corresp="#p_KJF2">John F.
                                     Kennedy</persName>, 1962</hi>, p. 433.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1962-10-06T12:25:00-04:00" calendar="gregorian">October 6, 1962,
-                            12:25 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-10-06T12:25:00-04:00" calendar="gregorian">October 6,
+                                1962, 12:25 p.m.</date></dateline></opener>
                     <p>826. Following message for delivery soonest to <persName corresp="#p_KNS2"
                             >Khrushchev</persName> from the President:</p>
                     <p><hi rend="italic">Begin Verbatim Text:</hi></p>
@@ -8377,8 +8436,9 @@
                             Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-10-08"
-                            calendar="gregorian">October 8, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-10-08" calendar="gregorian">October 8,
+                            1962</date>.</dateline></opener>
                     <p>I am giving careful consideration to your communication of September
                             28th,<note n="1" xml:id="d59fn1"><ref target="#d56">Document
                             56</ref>.</note> and I am glad that we can continue to use this channel
@@ -8468,8 +8528,9 @@
                             were published in English and Russian in United States Information
                             Agency, <hi rend="italic">Problems of Communism</hi>, Special Edition,
                             Spring 1992.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-10-22"
-                            calendar="gregorian">October 22, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-10-22" calendar="gregorian">October 22,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: A copy of the statement I am
                         making tonight concerning developments in Cuba and the reaction of my
                         Government thereto has been handed to your Ambassador in Washington.<note
@@ -8539,8 +8600,9 @@
                             with the Russian-language text. Also printed in Department of State <hi
                                 rend="italic">Bulletin</hi>, November 19, 1973, pp.
                         636-637.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-10-23T17:00:00+03:00"
-                            calendar="gregorian">October 23, 1962, 5 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-10-23T17:00:00+03:00" calendar="gregorian">October 23,
+                                1962, 5 p.m.</date></dateline></opener>
                     <p>1042. Policy. Embtel 1041.<note n="1" xml:id="d61fn1">Dated October 23.
                             (Department of State, Central Files, 611.3722/10-2362)</note> Embassy
                         translation follows of <persName corresp="#p_KNS2">Khrushchev</persName>’s
@@ -8599,9 +8661,9 @@
                                 <persName corresp="#p_KNS2">Khrushchev</persName> Correspondence.
                             Also printed in Department of State <hi rend="italic">Bulletin</hi>,
                             November 19, 1973, p. 636.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1962-10-23T18:51:00-04:00" calendar="gregorian">October 23, 1962,
-                            6:51 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-10-23T18:51:00-04:00" calendar="gregorian">October 23,
+                                1962, 6:51 p.m.</date></dateline></opener>
                     <p>985. You should deliver following letter addressed by the President to
                         Chairman <persName corresp="#p_KNS2">Khrushchev</persName> immediately. This
                         replaces message contained Deptel 982.<note n="1" xml:id="d62fn1">Not
@@ -8639,8 +8701,9 @@
                             Presidential Correspondence: Lot 66 D 304) are printed in Department of
                             State <hi rend="italic">Bulletin</hi>, November 19, 1973, pp.
                             637-639.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-10-24"
-                            calendar="gregorian">October 24, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-10-24" calendar="gregorian">October 24,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I have received your letter of
                         October 23, <note n="1" xml:id="d63fn1">See <ref target="#d62">Document
                                 62</ref>.</note> have studied it, and am answering you.</p>
@@ -8733,9 +8796,9 @@
                                 >Khrushchev</persName> Correspondence. Also printed in Department of
                             State <hi rend="italic">Bulletin</hi>, November 19, 1973, p.
                         639.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1962-10-25T01:59:00-04:00" calendar="gregorian">October 25, 1962,
-                            1:59 a.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-10-25T01:59:00-04:00" calendar="gregorian">October 25,
+                                1962, 1:59 a.m.</date></dateline></opener>
                     <p>997. Ref Embtel 1070.<note n="1" xml:id="d64fn1">See the source note, <ref
                                 target="#d63">Document 63</ref>.</note> Signed original following
                         message from President to <persName corresp="#p_KNS2">Khrushchev</persName>
@@ -8788,8 +8851,9 @@
                             “informal translation” and an “official translation” prepared by the
                             Department of State are printed in Department of State <hi rend="italic"
                                 >Bulletin</hi>, November 19, 1973, pp. 640-645.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-10-26T19:00:00+03:00"
-                            calendar="gregorian">October 26, 1962, 7 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-10-26T19:00:00+03:00" calendar="gregorian">October 26,
+                                1962, 7 p.m.</date></dateline></opener>
                     <p>1101. Policy. Embassy translation follows of letter from <persName
                             corresp="#p_KNS2">Khrushchev</persName> to President delivered to
                         Embassy by messenger 4:43 p.m. Moscow time October 26, under cover of letter
@@ -9061,8 +9125,9 @@
                                 Communism</hi> reports that this message was broadcast over Moscow
                             radio at 5 p.m., the same time the Russian text was delivered to the
                             Embassy.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-10-27"
-                            calendar="gregorian">October 27, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-10-27" calendar="gregorian">October 27,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, I have studied with great
                         satisfaction your reply to Mr. Thant concerning measures that should be
                         taken to avoid contact between our vessels and thereby avoid irreparable and
@@ -9221,9 +9286,9 @@
                                 Documents on Disarmament, 1962</hi>, vol. II, pp. 990-991; and
                             Claflin, <hi rend="italic">The President Wants To Know</hi>, pp.
                             209-210.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1962-10-27T20:05:00-04:00" calendar="gregorian">October 27, 1962,
-                            8:05 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-10-27T20:05:00-04:00" calendar="gregorian">October 27,
+                                1962, 8:05 p.m.</date></dateline></opener>
                     <p>1015. Following message from President to <persName corresp="#p_KNS2"
                             >Khrushchev</persName> should be delivered as soon as possible to
                         highest available Soviet official. Text has been handed Soviet Embassy in
@@ -9301,8 +9366,9 @@
                             broadcast in English over Moscow radio at 5 p.m. Moscow time, October
                             28, and a Russian text delivered to the Embassy at 5:10 p.m. the same
                             day.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-10-28"
-                            calendar="gregorian">October 28, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-10-28" calendar="gregorian">October 28,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I have received your message of
                         October 27.<note n="1" xml:id="d68fn1">See <ref target="#d67">Document
                                 67</ref>.</note> I express my satisfaction and thank you for the
@@ -9498,9 +9564,9 @@
                                 654-655;<hi rend="italic">Documents on Disarmament, 1962</hi>, vol.
                             II, pp. 654-655; and Claflin, <hi rend="italic">The President Wants To
                                 Know</hi>, pp. 211-212.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1962-10-28T17:03:00-05:00" calendar="gregorian">October 28, 1962,
-                            5:03 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-10-28T17:03:00-05:00" calendar="gregorian">October 28,
+                                1962, 5:03 p.m.</date></dateline></opener>
                     <p>1020. Following is text President’s reply to <persName corresp="#p_KNS2"
                             >Khrushchev</persName> letter of October 28 for delivery to highest
                         available Soviet official. Text has been handed to Soviet Embassy and
@@ -9577,8 +9643,9 @@
                             letter printed here is an unofficial translation prepared by the Russian
                             Embassy for publication in <hi rend="italic">Problems of
                             Communism</hi>.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-10-28"
-                            calendar="gregorian">October 28, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-10-28" calendar="gregorian">October 28,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, Ambassador <persName
                             corresp="#p_DAF1">Dobrynin</persName> has apprised me of his
                         conversation with <persName corresp="#p_KRF1">Robert Kennedy</persName>
@@ -9648,8 +9715,9 @@
                                 <persName corresp="#p_KNS2">Khrushchev</persName> Correspondence.
                             The source text appears to be a translation by the Soviet Embassy in
                             Washington.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-10-30"
-                            calendar="gregorian">October 30, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-10-30" calendar="gregorian">October 30,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, I want to convey to you
                         confidentially some considerations which, if you agree with them, could
                         serve, in my opinion, our common cause, that is, prompt elimination of the
@@ -9994,8 +10062,9 @@
                                 >Khrushchev</persName> Correspondence. Secret. Another copy is in
                             the Department of State, Presidential Correspondence: Lot 77 D
                             163.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-11-03"
-                            calendar="gregorian">November 3, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-11-03" calendar="gregorian">November 3,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I wish to thank you for your
                         letter of October 30.<note n="1" xml:id="d72fn1"><ref target="#d71">Document
                                 71</ref>.</note> I am commenting now only on a problem raised in
@@ -10041,9 +10110,9 @@
                             it was received on November 5. Other copies are in Department of State,
                             Presidential Correspondence: Lot 77 D 163, and ibid.: Lot 66 D
                             204.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-11-04"
-                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
-                            >undated</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-11-04" ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">undated</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, I have just received
                         information from Mr.<persName corresp="#p_KVV2">V. Kuznetsov</persName>, our
                         representative at the negotiations in New York for liquidation of the tense
@@ -10118,8 +10187,9 @@
                             Secretary. Another copy is in Department of State, Presidential
                             Correspondence: Lot 77 D 163. Also printed in Claflin, <hi rend="italic"
                                 >The President Wants To Know</hi>, pp. 217-221.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-11-06"
-                            calendar="gregorian">November 6, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-11-06" calendar="gregorian">November 6,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I am surprised that in your
                         letter, which I received yesterday, <note n="1" xml:id="d74fn1"><ref
                                 target="#d73">Document 73</ref>.</note> you suggest that in giving
@@ -10291,9 +10361,9 @@
                             National Security Files, Countries Series, <gloss target="#t_USSR1"
                                 >USSR</gloss>, <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-11-11"
-                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
-                            >undated</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-11-11" ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">undated</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, I would like to express my
                         satisfaction that the mutual obligations taken in accordance with the
                         exchange of messages <pb n="205" xml:id="pg_205" facs="0227"/>between us are
@@ -10515,8 +10585,9 @@
                                 corresp="#p_KRF1">Robert Kennedy</persName>. The source text is
                             apparently a Soviet translation. Another copy is in Department of State,
                             Presidential Correspondence: Lot 77 D 163.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-11-14"
-                            calendar="gregorian">November 14, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-11-14" calendar="gregorian">November 14,
+                            1962</date>.</dateline></opener>
                     <p>I have read with great satisfaction the reply of the President of the United
                         States <note n="1" xml:id="d77fn1">Apparent reference to <ref target="#d74"
                                 >Document 74</ref>.</note> and I agree with the considerations
@@ -10647,8 +10718,9 @@
                             message went to <persName corresp="#p_TLET1">Thompson</persName>,
                                 <persName corresp="#p_MNRS1">McNamara</persName>, and <persName
                                 corresp="#p_MCJA1">McCone</persName>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-11-15"
-                            calendar="gregorian">November 15, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-11-15" calendar="gregorian">November 15,
+                            1962</date>.</dateline></opener>
                     <p>I am glad to learn of your assurance of agreement that the IL-28s should be
                             withdrawn.<note n="1" xml:id="d78fn1">See <ref target="#d77">Document
                                 77</ref>.</note> All that remains is to reach understanding on the
@@ -10787,8 +10859,9 @@
                                 >Robert Kennedy</persName> and His Times, p. 550. Another copy is in
                             Department of State, Presidential Correspondence: Lot 77 D
                         163.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-11-20"
-                            calendar="gregorian">November 20, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-11-20" calendar="gregorian">November 20,
+                            1962</date>.</dateline></opener>
                     <p>I have studied attentively your considerations which were forwarded through
                         our Ambassador in Washington in the evening of November 15.<note n="1"
                             xml:id="d79fn1"><ref target="#d78">Document 78</ref>.</note> I wish
@@ -11107,8 +11180,9 @@
                                 <persName corresp="#p_KNS2">Khrushchev</persName> Correspondence.
                             Also printed in Claflin, The President Wants To Know, p.
                         222.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-11-21"
-                            calendar="gregorian">November 21, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-11-21" calendar="gregorian">November 21,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I have been glad to get your
                         letter of November 20, <note n="1" xml:id="d81fn1"><ref target="#d79"
                                 >Document 79</ref>.</note> which arrived in good time yesterday. As
@@ -11144,8 +11218,9 @@
                             Another copy is in Department of State, Presidential Correspondence: Lot
                             77 D 163. The Russian-language text is ibid. The source text is
                             apparently a Soviet translation.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-11-22"
-                            calendar="gregorian">November 22, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-11-22" calendar="gregorian">November 22,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, I have received your
                             message.<note n="1" xml:id="d82fn1"><ref target="#d81">Document
                             81</ref>.</note> I express great satisfaction. I fully trust the
@@ -11256,8 +11331,9 @@
                             but the Department of State classified the message Top Secret and Eyes
                             Only. (Department of State, Presidential Correspondence: Lot 77 D
                             163)</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-12-11"
-                            calendar="gregorian">December 11, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-12-11" calendar="gregorian">December 11,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, It would seem that you and we
                         have come now to a final stage in the elimination of tension around Cuba.
                         Our relations are already entering now their normal course since all those
@@ -11285,7 +11361,7 @@
                         the text proposed by us <note n="1" xml:id="d83fn1">Transmitted in telegram
                             2179 from <gloss target="#t_USUN1">USUN</gloss>, December 6; see <ref
                                 target="frus1961-63v11#d234">vol. XI, Document 234</ref>.</note> of
-                        a brief declaration of the Soviet Government in which the Soviet s'Union
+                        a brief declaration of the Soviet Government in which the Soviet s’Union
                         main commitments resulting from the exchange of messages between us are
                         formulated. We proceed from the assumption that an analogous brief
                         declaration should be made by the U.S. Government and that the main U.S.
@@ -11368,7 +11444,7 @@
                     <p>You, Mr. President, do not want to agree with the five conditions put forward
                         by Prime Minister of the Republic of Cuba <persName corresp="#p_CRF1">Fidel
                             Castro</persName>.<note n="2" xml:id="d83fn2">In Prime Minister
-                                <persName corresp="#p_CRF1">Castro</persName>'s October 28 letter to
+                                <persName corresp="#p_CRF1">Castro</persName>’s October 28 letter to
                             U Thant; for text, see <hi rend="italic">American Foreign Policy:
                                 Current Documents, 1962</hi>, pp. 447-448.</note> But, indeed, these
                         five principles correspond fully to the provisions of the United Nations
@@ -11457,8 +11533,9 @@
                                 <persName corresp="#p_KNS2">Khrushchev</persName> Correspondence.
                             Printed in part in Claflin, <hi rend="italic">The President Wants To
                                 Know</hi>, pp. 227-229.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-12-14"
-                            calendar="gregorian">December 14, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-12-14" calendar="gregorian">December 14,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I was glad to have your message
                         of December 11th <note n="1" xml:id="d84fn1"><ref target="#d83">Document
                                 83</ref>.</note> and to know that you believe, as we do, that we
@@ -11586,8 +11663,9 @@
                             Also printed in <hi rend="italic">Documents on Disarmament</hi>, 1962,
                             vol. II, pp. 1239-1242, and <hi rend="italic">American Foreign Policy:
                                 Current Documents, 1962</hi>, pp. 1306-1308.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-12-19"
-                            calendar="gregorian">December 19, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-12-19" calendar="gregorian">December 19,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, In our recent correspondence
                         related to the events in the Caribbean area we have touched on the question
                         of cessation of nuclear weapon tests. Today I would like to come back again
@@ -11608,7 +11686,7 @@
                         stride across seas and oceans within minutes. Thermonuclear catastrophe will
                         bring enormous losses and sufferings to the American people as well as to
                         other peoples on earth. To prevent this we must, on the basis of complete
-                        equality and with just regard for each other's interests, develop between
+                        equality and with just regard for each other’s interests, develop between
                         ourselves peaceful relations and solve all issues through negotiations and
                         mutual concessions.</p>
                     <p>One of such questions with which the governments of our countries have been
@@ -11682,7 +11760,7 @@
                         representative Ambassador <persName corresp="#p_RD3">Dean</persName> stated
                         that, in the opinion of the U.S. Government, it would be sufficient to carry
                         on 2-4 on-site inspections each year on the territory of the Soviet Union.
-                        According to Ambassador <persName corresp="#p_RD3">Dean</persName>'s
+                        According to Ambassador <persName corresp="#p_RD3">Dean</persName>’s
                         statement, the United States would also be prepared to work out measures
                         which would rule out any possibility of carrying on espionage under the
                         cover of these inspection trips including such measures as the use of Soviet
@@ -11693,7 +11771,7 @@
                         arrive at least at a mutually acceptable agreement, we would agree, in those
                         cases when it would be considered necessary, to 2-3 inspections a year on
                         the territory of each of the nuclear powers in the seismic areas where some
-                        suspicious earth's tremors might occur. It goes without saying that the
+                        suspicious earth’s tremors might occur. It goes without saying that the
                         basis of control over an agreement on underground nuclear test ban would be
                         the national means of detection in combination with automatic seismic
                         stations. On-site inspections could be carried on with the precautions
@@ -11704,7 +11782,7 @@
                         of nuclear explosions. The peoples are waiting for this—this is what the
                             <gloss target="#t_UN1">UN</gloss> General Assembly has called for. With
                         the elimination of the Cuban crisis we relieved mankind of the direct menace
-                        of combat use of lethal nuclear weapons that impended over the world. Can't
+                        of combat use of lethal nuclear weapons that impended over the world. Can’t
                         we solve a far simpler question—that of cessation of experimental explosions
                         of nuclear weapons in the peaceful conditions? I think that we can and must
                         do it. Here lies now our duty before the peoples of not only our countries
@@ -11725,8 +11803,9 @@
                             >Source: Department of State, Presidential Correspondence: Lot 77 D 163.
                             Secret. Prepared by <persName corresp="#p_TLET1"
                             >Thompson</persName>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-12-22"
-                            calendar="gregorian">December 22, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-12-22" calendar="gregorian">December 22,
+                            1962</date>.</dateline></opener>
                     <p>By direction of the President, I made the following statement to Ambassador
                             <persName corresp="#p_DAF1">Dobrynin</persName> today: <quote
                             rend="blockquote">
@@ -11734,7 +11813,7 @@
                                 that the Polaris missiles which he has agreed to make available for
                                 a small British submarine force to be assigned to <gloss
                                     target="#t_NATO1">NATO</gloss> will become operational before
-                                1969 or 1970. The President's chief concern in making these missiles
+                                1969 or 1970. The President’s chief concern in making these missiles
                                 available was to prevent, or at least delay, the development of
                                 national nuclear capabilities. Failure on his part to provide a
                                 substitute for Skybolt missile would have meant a serious rift in
@@ -11767,8 +11846,9 @@
                                 rend="italic">Documents on Disarmament</hi>, 1962, vol. II, pp.
                             1277-1279, and in <hi rend="italic">American Foreign Policy: Current
                                 Documents, 1962</hi>, pp. 1310-1212.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1962-12-28"
-                            calendar="gregorian">December 28, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-12-28" calendar="gregorian">December 28,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I was very glad to receive your
                         letter of December 19, 1962, <note n="1" xml:id="d87fn1"><ref target="#d85"
                                 >Document 85</ref>.</note> setting forth your views on nuclear
@@ -11890,8 +11970,9 @@
                             Series, <gloss target="#t_USSR1">USSR</gloss>, <persName
                                 corresp="#p_KNS2">Khrushchev</persName>
                         Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-12-29"
-                            calendar="gregorian">December 29, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-12-29" calendar="gregorian">December 29,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, I am grateful to you for your
                         wish to clarify the considerations by which, as you tell us, the U.S.
                         Government was guided in taking the decision regarding making Polaris
@@ -11900,7 +11981,7 @@
                         Polaris missiles will be given to small British submarine forces which will
                         be assigned to <gloss target="#t_NATO1">NATO</gloss> and that these missiles
                         are not expected to be operational before 1969-70.</p>
-                    <p>I took notice of your words that the President's chief concern in making the
+                    <p>I took notice of your words that the President’s chief concern in making the
                         decision on availability for transfer of the Polaris missiles was to prevent
                         or at least delay the development of national nuclear capabilities and that
                         you seek to gain time for further efforts in the field of disarmament. I
@@ -11939,7 +12020,7 @@
                     <p>I was informed that you consider interesting the proposal concerning nuclear
                         test ban which was contained in my recent message to you. This makes me
                         hopeful.</p>
-                    <p>I send you, your wife and your entire family good wishes and New Year's
+                    <p>I send you, your wife and your entire family good wishes and New Year’s
                         greetings from myself and my family.<note n="2" xml:id="d88fn2">Printed from
                             an unsigned copy.</note></p>
                 </div>
@@ -11958,10 +12039,11 @@
                             Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1962-12-30"
-                            calendar="gregorian">December 30, 1962</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1962-12-30" calendar="gregorian">December 30,
+                            1962</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: On the eve of the new year we
-                        extend to the American people and also to you and your family New Year's
+                        extend to the American people and also to you and your family New Year’s
                         congratulations and very best wishes from the Soviet people and from us
                         personally. The year of 1962 now passing into history witnessed events, the
                         fatal development of which it was possible to avert thanks to the fact that
@@ -11997,9 +12079,9 @@
                             in the Kennedy Library, National Security Files, Countries Series,
                                 <gloss target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1962-12-30T22:46:00-05:00" calendar="gregorian">December 30, 1962,
-                            10:46 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1962-12-30T22:46:00-05:00" calendar="gregorian">December 30,
+                                1962, 10:46 p.m.</date></dateline></opener>
                     <p>1367. Please deliver following message from President:</p>
                     <p>“Dear Chairman <persName corresp="#p_KNS2">Khrushchev</persName> and Chairman
                             <persName corresp="#p_BLI1">Brezhnev</persName>:</p>
@@ -12027,8 +12109,9 @@
                             Series, <gloss target="#t_USSR1">USSR</gloss>, <persName
                                 corresp="#p_KNS2">Khrushchev</persName>
                         Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-01-04"
-                            calendar="gregorian">January 4, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-01-04" calendar="gregorian">January 4,
+                            1963</date>.</dateline></opener>
                     <p>Upon his return from the <gloss target="#t_USA1">USA</gloss>, <persName
                             corresp="#p_MAI1">A.I. Mikoyan</persName> told me that during your talk
                         with him you took up, among other problems, the question of Laos.</p>
@@ -12066,19 +12149,19 @@
                         accumulated that to remove it will require time and appropriate efforts and
                         not only on the part of the Laotians.</p>
                     <pb n="245" xml:id="pg_245" facs="0267"/>
-                    <p>You implied that the Democratic People's Republic of Viet-Nam had not
+                    <p>You implied that the Democratic People’s Republic of Viet-Nam had not
                         withdrawn all its troops from Laos. But the Government of the Democratic
-                        People's Republic of Viet-Nam informed us that all the Vietnamese personnel
+                        People’s Republic of Viet-Nam informed us that all the Vietnamese personnel
                         had been completely withdrawn from Laos and that there are no Vietnamese
                         troops there now. In this connection, I should like also to call your
                         attention to the joint Laos-Viet-Nam communique, issued after the stay in
                         Hanoi of the Laos Government delegation, headed by General Nosavan. In this
                         communique it was stated that, in accordance with the Geneva agreement, the
-                        Government of the Democratic People's Republic of Viet-Nam had withdrawn
+                        Government of the Democratic People’s Republic of Viet-Nam had withdrawn
                         from Laos all of its military personnel which was sent there at the request
                         of the government of Prince <persName corresp="#p_SP2">Souvanna
                             Phouma</persName>. The Laos Government delegation declared its
-                        satisfaction with the policy of the Government of the Democratic People's
+                        satisfaction with the policy of the Government of the Democratic People’s
                         Republic of Viet-Nam, as outlined above, and expressed its trust in it.</p>
                     <p>At the same time, our friends say that up to now the <gloss target="#t_USA1"
                             >USA</gloss> has by no means removed all of its military personnel from
@@ -12092,7 +12175,7 @@
                     <p>The absence of a settlement of a series of internal problems and the distrust
                         still prevailing engender undesirable incidents such as, for example, the
                         loss of an American airplane in the Plaine des Jarres. Certainly, that was a
-                        sad incident, it cost men's lives, it brought sorrow to their families. It
+                        sad incident, it cost men’s lives, it brought sorrow to their families. It
                         demonstrates once more the necessity of creating in Laos a situation in
                         which such incidents could not take place.</p>
                     <p>I think that a great deal in this connection depends on all the countries
@@ -12118,7 +12201,7 @@
                         Government of Laos and decided to grant it certain economic assistance in
                         accordance with the principles of the Geneva agreements. You undoubtedly are
                         aware that we transferred to the coalition Government of Laos our planes
-                        which carried freight from the Democratic People's Republic of Viet-Nam to
+                        which carried freight from the Democratic People’s Republic of Viet-Nam to
                         Laos.</p>
                     <p>I think that you will agree that the strengthening of peace in Laos is
                         indissolubly bound up with the situation in the neighboring countries. But I
@@ -12159,13 +12242,14 @@
                             Also printed in <hi rend="italic">Documents on Disarmament, 1963</hi>,
                             pp. 1-4, and <hi rend="italic">American Foreign Policy: Current
                                 Documents, 1963</hi>, pp. 940-942.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-01-07"
-                            calendar="gregorian">January 7, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-01-07" calendar="gregorian">January 7,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, I received your reply to my
                         message of December 19, 1962.<note n="1" xml:id="d92fn1">See <ref
                                 target="#d87">Documents 87</ref> and <ref target="#d85"
                             >85</ref>.</note> I am satisfied that you have appraised correctly the
-                        Soviet Government's proposals set forth in that message as directed to
+                        Soviet Government’s proposals set forth in that message as directed to
                         securing in the very near future a ban on all tests of nuclear weapons.</p>
                     <p>We understand your answer as meaning that you do not object that national
                         means of detection together with automatic seismic stations should be the
@@ -12308,8 +12392,9 @@
                                 corresp="#p_KRF1">Robert Kennedy</persName>, it was clearly intended
                             that he pass it along to President <persName corresp="#p_KRF1"
                                 >Kennedy</persName>.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-04-01"
-                            calendar="gregorian">April 1 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-04-01" calendar="gregorian">April 1
+                            1963</date>.</dateline></opener>
                     <p>You should meet with <persName corresp="#p_KRF1">R. Kennedy</persName> and,
                         referring to your last conversations with him on [date left blank], <note
                             n="1" xml:id="d93fn1">Brackets in the source text.</note> give voice to
@@ -12333,7 +12418,7 @@
                                     this theme, a few words about recent incidents along the Cuban
                                     coast—attacks on Cuban ports by armed vessels of emigrant Cuban
                                     riff-raff and gunfire from these vessels aimed at the Soviet
-                                    merchant ships L'gov and Baku.</p>
+                                    merchant ships L’gov and Baku.</p>
                                 <p>The Soviet Government has already expressed in diplomatic notes
                                     its views on these piratic attacks. It is nevertheless
                                     appropriate to dwell on this question in our present discussion,
@@ -12351,10 +12436,10 @@
                                         facs="0273"/>Department of State in this regard. We are of
                                     course already aware of them. But what is the primary idea
                                     behind these statements? Apparently that the <gloss
-                                        target="#t_USA1">USA</gloss> is against 'brief attacks on
-                                    Cuba' because they are said to be 'ineffective.' Those who have
+                                        target="#t_USA1">USA</gloss> is against ’brief attacks on
+                                    Cuba’ because they are said to be ’ineffective.’ Those who have
                                     read these documents could interpret them to mean that if the
-                                    attacks on Cuba were more solidly prepared and more 'effective,'
+                                    attacks on Cuba were more solidly prepared and more ’effective,’
                                     that would not be at all bad.</p>
                                 <p>We also cannot fail to point out that all statements and
                                     explanations made by representatives of the Government of the
@@ -12369,7 +12454,7 @@
                                     political ground for these bandit-like strikes is prepared by
                                     calls similar to those that rang out, in particular, during a
                                     parade by traitors to the Cuban people last December in Miami.
-                                    The attacks on the Soviet vessels L'gov and Baku have revealed,
+                                    The attacks on the Soviet vessels L’gov and Baku have revealed,
                                     more than anything else in the recent past, the grave danger
                                     these policies pose for world peace.</p>
                                 <p>As one who is embroiled on a daily basis with the political life
@@ -12405,10 +12490,10 @@
                                     and if these measures are those that should be carried out to
                                     prevent new tensions in the Caribbean.</p>
                                 <p>In our previous discussions you touched on several aspects of the
-                                    Cuban question which you said complicated the President's
+                                    Cuban question which you said complicated the President’s
                                     situation in light of the approaching election campaign. You
                                     know that we take into account, to the degree we can, the
-                                    President's situation, and in a number of instances we have
+                                    President’s situation, and in a number of instances we have
                                     accommodated his wishes. The Soviet Government not only
                                     faithfully and strictly is carrying out the agreement on the
                                     Caribbean crisis, but has undertaken steps which go even further
@@ -12440,7 +12525,7 @@
                                     which announces that its objective is to remove, by any means
                                     necessary, overt or covert, the new social structure which has
                                     established itself in Cuba, although the right to establish
-                                    order in one's own home belongs only to the people of that
+                                    order in one’s own home belongs only to the people of that
                                     nation and to no one else.</p>
                                 <p>On the one hand, we hear assurances that the President of the
                                     U.S. intends to uphold the agreement reached during resolution
@@ -12460,7 +12545,7 @@
                                         >Eisenhower</persName> experienced substantial difficulties
                                     both domestically and in the international arena. And what was
                                     the primary cause of <persName corresp="#p_EDD1"
-                                        >Eisenhower</persName>'s ‘difficulties’? If he had not
+                                        >Eisenhower</persName>’s ‘difficulties’? If he had not
                                     dispatched American aircraft on spy flights over the territory
                                     of a sovereign nation—in this instance the Soviet Union—he would
                                     have been spared the ‘difficulties’ of that time.</p>
@@ -12469,7 +12554,7 @@
                                     debate with you, by dint of your position the top lawyer in the
                                     U.S., matters of flexibility or precision in statements of this
                                     nature. What I wish to do is to emphasize a fairly simple idea,
-                                    that the truest path to ensuring that no 'complications' arise
+                                    that the truest path to ensuring that no ’complications’ arise
                                     in connection with Cuba is strict and conscientious
                                     implementation of the United Nations Charter; that is, carrying
                                     out a policy of non-interference in the affairs of other states
@@ -12547,7 +12632,7 @@
                                     April to suit the bad mood of a Senator from Connecticut and in
                                     May that of a Senator from Arizona? We have in that way already
                                     conceded a great deal to the U.S. on verification of a test ban,
-                                    taking into account the President's comments that were passed to
+                                    taking into account the President’s comments that were passed to
                                     us confidentially. But you must understand that in international
                                     negotiations it is states that participate, not individuals
                                     whose views for some reason may differ from the point of view of
@@ -12589,7 +12674,7 @@
                                     activities are not at all made necessary by the requirements for
                                     inspections. No, these demands are dictated by completely
                                     different intentions—the same ones that governed President
-                                        <persName corresp="#p_KRF1">Kennedy</persName>'s
+                                        <persName corresp="#p_KRF1">Kennedy</persName>’s
                                     predecessor, <persName corresp="#p_EDD1">Eisenhower</persName>,
                                     when he demanded the right to flights around the borders of the
                                     Soviet Union and to send U-2 spy planes into our air space.</p>
@@ -12720,11 +12805,11 @@
                                     this evaluation but on the contrary have brought new
                                     confirmation of the danger these plans pose to peace. Whatever
                                     label is pasted on these planned nuclear forces of <gloss
-                                        target="#t_NATO1">NATO</gloss>—'multilateral' or
-                                    'multinational', or both at the same time—the fact of the matter
+                                        target="#t_NATO1">NATO</gloss>—’multilateral’ or
+                                    ’multinational’, or both at the same time—the fact of the matter
                                     does not change. Whether the <gloss target="#t_USA1">USA</gloss>
                                     wants that to be the case or not, that is the nature of any
-                                    plans that allow the 'unconsecrated' to get their hands on
+                                    plans that allow the ’unconsecrated’ to get their hands on
                                     nuclear weapons; their implementation prepares the ground for
                                     other <gloss target="#t_NATO1">NATO</gloss> members, and
                                     especially West German revanchists, to break their way into the
@@ -12765,7 +12850,7 @@
                                     of the latest model aimed at us from the seas that wash the
                                     shores of that land. That is how it will be if the
                                     Mediterranean, as is now being planned, is filled with nuclear
-                                    submarines and surface vessels, armed with 'Polaris' missiles
+                                    submarines and surface vessels, armed with ’Polaris’ missiles
                                     and cruising along the coasts of Italy and Turkey.</p>
                             </item>
                             <item>
@@ -12791,7 +12876,7 @@
                                 <pb n="259" xml:id="pg_259" facs="0281"/>
                                 <p>Why are your troops scattered throughout the world and you regard
                                     that as your right and obligation? Why do you consider that
-                                    locating one country's military instructors in another country
+                                    locating one country’s military instructors in another country
                                     is a violation of international norms? On what right does that
                                     understanding turn? In any case not on the <gloss
                                         target="#t_UN1">UN</gloss> Charter, and not on international
@@ -12985,8 +13070,9 @@
                             Top Secret. The source text indicates that <persName corresp="#p_RD3"
                                 >Rusk</persName> saw it. A copy was sent to <persName
                                 corresp="#p_BMG2">McGeorge Bundy</persName>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-04-03"
-                            calendar="gregorian">April 3, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-04-03" calendar="gregorian">April 3,
+                            1963</date>.</dateline></opener>
                     <p>Mr. Markov of the Russian Embassy <note n="1" xml:id="d94fn1">Petr I.Markov,
                             Attache, Soviet Embassy.</note> called this morning and said that the
                         Russian Ambassador wished to come by and see me. I arranged for him to come
@@ -12996,7 +13082,7 @@
                             it.<note n="2" xml:id="d94fn2"> Editor of the <hi rend="italic">Saturday
                                 Review</hi> who met with <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> on April 12 to discuss the nuclear test ban
-                            treaty.</note> What was Cousins' relationship to the President? Then, as
+                            treaty.</note> What was Cousins’ relationship to the President? Then, as
                         is his custom, he handed me a so-called “talking paper.”<note n="3"
                             xml:id="d94fn3">See <ref target="#d93">Document 93</ref>.</note> This
                         document was particularly long—approximately 25 pages. It was ostensibly to
@@ -13038,7 +13124,7 @@
                         document.)</p>
                     <p>Another point that was made was a sharp and bitter criticism about the raids
                         that had taken place against Russian ships. These were piratical acts and
-                        the United States must take responsibility for them. It isn't possible to
+                        the United States must take responsibility for them. It isn’t possible to
                         believe that if we really wanted to stop these raids that we could not do
                         so. They were glad to hear of the steps that are being taken lately but in
                         the last analysis the specific acts, namely, the arrests that we made would
@@ -13048,7 +13134,7 @@
                         clear implication was that if the raids had been effective they would have
                         had our approval.</p>
                     <p>Further, our efforts to isolate Cuba, to build a virtual wall around it, was
-                        a barbaric act. Our actions to stifle Cuba's commerce and to create <pb
+                        a barbaric act. Our actions to stifle Cuba’s commerce and to create <pb
                             n="264" xml:id="pg_264" facs="0286"/>economic difficulties and isolate
                         her from her neighbors in Latin America were completely unwarranted. The
                         support given to counter-revolutionaries and the statements to the barbaric
@@ -13076,9 +13162,9 @@
                     <p>The document then returned to the theme that we were treating the Soviet
                         Union as inferiors; that this could not be continued; that the statements
                             <persName corresp="#p_MNRS1">McNamara</persName> and Malinovski were
-                        making were not contributing to peaceful understanding; that Malinovski's
+                        making were not contributing to peaceful understanding; that Malinovski’s
                         statements were brought about by <persName corresp="#p_MNRS1"
-                            >McNamara</persName>'s warlike pronouncements. The United States was
+                            >McNamara</persName>’s warlike pronouncements. The United States was
                         interested only in making profits from munitions, building up their efforts
                         to dominate the world through counterrevolutionary activity. We were run by
                         capitalists and we should understand that we could not push the Soviet Union
@@ -13119,7 +13205,7 @@
                                 corresp="#p_TLET1">Llewellyn Thompson</persName> prepared an April 3
                             memorandum to <persName corresp="#p_RD3">Rusk</persName>, suggesting
                             possible causes and motives for <persName corresp="#p_KNS2"
-                                >Khrushchev</persName>'s message of April 3. (Department of State,
+                                >Khrushchev</persName>’s message of April 3. (Department of State,
                             Presidential Correspondence: Lot 77 D 163)</note></p>
                 </div>
                 <div type="document" xml:id="d95" n="95" subtype="historical-document"
@@ -13133,8 +13219,9 @@
                             Security Files, Countries Series, <gloss target="#t_USSR1">USSR</gloss>,
                                 <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-04-11"
-                            calendar="gregorian">April 11, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-04-11" calendar="gregorian">April 11,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: It has been some time since I
                         have written you directly, and I think it may be helpful to have some
                         exchange of views in this private channel. As we have both earlier agreed,
@@ -13261,9 +13348,9 @@
                             Series, <gloss target="#t_USSR1">USSR</gloss>, <persName
                                 corresp="#p_KNS2">Khrushchev</persName>
                         Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1963-04-15T21:00:00-05:00" calendar="gregorian">April 15, 1963, 9
-                            p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-04-15T21:00:00-05:00" calendar="gregorian">April 15,
+                                1963, 9 p.m.</date></dateline></opener>
                     <p>2191. Following is text of joint letter from President and Prime Minister
                             <persName corresp="#p_MHS2">Macmillan</persName>:</p>
                     <p>Begin verbatim text.</p>
@@ -13390,9 +13477,9 @@
                             Kennedy Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1963-04-23T15:24:00-05:00" calendar="gregorian">April 23, 1963,
-                            3:24 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-04-23T15:24:00-05:00" calendar="gregorian">April 23,
+                                1963, 3:24 p.m.</date></dateline></opener>
                     <p>2273. Eyes only Ambassador and <persName corresp="#p_HWA2"
                             >Harriman</persName>. Following is text of message for <persName
                             corresp="#p_HWA2">Harriman</persName> to deliver to <persName
@@ -13408,12 +13495,12 @@
                             corresp="#p_HWA2">Harriman</persName> to make a special trip to confer
                         with you as my representative on this particular aspect of our
                             relations.<note n="1" xml:id="d97fn1">For a memorandum of <persName
-                                corresp="#p_HWA2">Harriman</persName>'s conversation with
+                                corresp="#p_HWA2">Harriman</persName>’s conversation with
                             Khrushchev, see <ref target="frus1961-63v24#pg_1000">vol. XXIV, pp.
                                 1000</ref>–<ref target="frus1961-63v24#pg_1005">1005</ref>.</note>
                         You and your colleagues have known him well and I put great hope in the
                         results of his discussions with you. I will be awaiting Governor <persName
-                            corresp="#p_HWA2">Harriman</persName>'s report with keen interest.</p>
+                            corresp="#p_HWA2">Harriman</persName>’s report with keen interest.</p>
                     <p>Sincerely”</p>
                     <closer><signed><persName corresp="#p_RD3"><hi rend="strong"
                                 >Rusk</hi></persName></signed></closer>
@@ -13432,11 +13519,11 @@
                             conversations at that time are in the Kennedy Library, National Security
                             Files, Countries Series, <gloss target="#t_USSR1">USSR</gloss>,
                                 <persName corresp="#p_DAF1">Dobrynin</persName> Talks.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date
-                            notBefore="1963-04-23T15:24:00-05:00"
-                            notAfter="1963-04-29T23:59:59-04:00"
-                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            calendar="gregorian">undated</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                notBefore="1963-04-23T15:24:00-05:00"
+                                notAfter="1963-04-29T23:59:59-04:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                calendar="gregorian">undated</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I have with interest acquainted
                         myself with your message of April 11.<note n="1" xml:id="d98fn1"><ref
                                 target="#d95">Document 95</ref>.</note> If my impression is correct
@@ -13598,8 +13685,8 @@
                         weapons which the Secretary of State, <persName corresp="#p_RD3">D.
                             Rusk</persName>, recently handed Ambassador <persName corresp="#p_DAF1"
                             >A.F. Dobrynin</persName>.<note n="5" xml:id="d98fn5">A memorandum of
-                                <persName corresp="#p_RD3">Rusk</persName>'s conversation on April
-                            12 is in Department of State, Secretary's Memoranda of Conversation: Lot
+                                <persName corresp="#p_RD3">Rusk</persName>’s conversation on April
+                            12 is in Department of State, Secretary’s Memoranda of Conversation: Lot
                             65 D 330.</note> But it is already possible to say that unfortunately
                         this draft does not bring us any closer to the achievement of agreement. It
                         is impossible not to note that it contains in reality the same positions
@@ -13778,8 +13865,9 @@
                             Security Files, Countries Series, <gloss target="#t_USSR1">USSR</gloss>,
                                 <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-05-08"
-                            calendar="gregorian">May 8, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-05-08" calendar="gregorian">May 8,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I have carefully studied your
                         message on the question of the cessation of nuclear tests, which was
                         transmitted to me by Ambassador <persName corresp="#p_KFD1"
@@ -13870,7 +13958,7 @@
                         regard the demand of the Western Powers for international inspection
                         otherwise than as a policy to charge the Soviet Union for the cessation of
                         the nuclear weapons tests a certain additional price in the form of the
-                        admission of <gloss target="#t_NATO1">NATO</gloss>'s intelligence men to
+                        admission of <gloss target="#t_NATO1">NATO</gloss>’s intelligence men to
                         Soviet territory, where, of course, there are many objects of interest to
                         the military intelligence of the states of this bloc. Sometimes, however,
                         the matter is presented in such a way as if equality is ensured by the fact
@@ -13907,7 +13995,7 @@
                         seen from your letter that you interpret them in a somewhat different way, I
                         feel that it would be better if we clarify our position once more.</p>
                     <p>We consented to inspections not because we came to the conclusion that they
-                        were necessary for verification of the states' carrying out their
+                        were necessary for verification of the states’ carrying out their
                         obligations under a treaty for discontinuance of nuclear weapons tests. No,
                         we agreed to this only because we ascribed a definite meaning to your
                         statements, Mr. President, that without a minimum number of on-site
@@ -14004,7 +14092,7 @@
                         powers is judged by their proposals, then one comes to the conclusion that
                         they really have no serious attitude toward negotiation. And it seems to me
                         that if the Western powers would seriously consider their own proposals and
-                        realistically evaluate their partner's position, then they themselves would
+                        realistically evaluate their partner’s position, then they themselves would
                         come to understand that these proposals are unacceptable to us.</p>
                     <p>If the question is now approached in a businesslike manner, then it must be
                         admitted that the establishment of automatic seismic stations, the so-called
@@ -14056,7 +14144,7 @@
                         disarmament discussions at Geneva there has been, as before, no evidence of
                         any accomplishments except the multiplication of the number of minutes. Such
                         a situation cannot but give rise to anxiety.</p>
-                    <p>In your and Mr.<persName corresp="#p_MHS2">Macmillan</persName>'s messages
+                    <p>In your and Mr.<persName corresp="#p_MHS2">Macmillan</persName>’s messages
                         you propose sending to Moscow high-ranking representatives who would have
                         full powers to carry on, in your name, discussions about the cessation of
                         nuclear weapons tests. So be it; we are even prepared to try this method of
@@ -14100,8 +14188,9 @@
                             Series, <gloss target="#t_USSR1">USSR</gloss>, <persName
                                 corresp="#p_KNS2">Khrushchev</persName>
                         Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-05-13"
-                            calendar="gregorian">May 13, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-05-13" calendar="gregorian">May 13,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I thank you for your message of
                         April twenty-ninth <note n="1" xml:id="d100fn1"><ref target="#d98">Document
                                 98</ref>.</note> and appreciate the frankness with which you
@@ -14115,7 +14204,7 @@
                     <p>I am more than ever of the opinion that a visit to Moscow by a personal
                         representative would be useful, and I have asked the Secretary of State, who
                         has long desired to accept Mr.<persName corresp="#p_GAA1"
-                        >Gromyko</persName>'s invitation to return his visit to this country, to
+                        >Gromyko</persName>’s invitation to return his visit to this country, to
                         undertake this task. Unfortunately, for a number of reasons, including the
                         fact that he has some long outstanding commitments, the date of ten to
                         twelve June, which you have suggested, is a <pb n="287" xml:id="pg_287"
@@ -14138,8 +14227,9 @@
                             Files, Countries Series, <gloss target="#t_USSR1">USSR</gloss>,
                                 <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-05-15"
-                            calendar="gregorian">May 15, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-05-15" calendar="gregorian">May 15,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I have received your message of
                         May 13, 1963.<note n="1" xml:id="d101fn1"><ref target="#d100">Document
                                 100</ref>.</note> I was pleased to learn from it that as your
@@ -14175,8 +14265,9 @@
                             Kennedy Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-05-17"
-                            calendar="gregorian">May 17, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-05-17" calendar="gregorian">May 17,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: Accept our cordial
                         congratulations on the successful flight of Cosmonaut G. Cooper on the
                         spaceship “Faith-7” which made a new contribution to the exploration of the
@@ -14207,17 +14298,17 @@
                             Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1963-05-19T11:15:00-04:00" calendar="gregorian">May 19, 1963,
-                            11:15 a.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-05-19T11:15:00-04:00" calendar="gregorian">May 19, 1963,
+                                11:15 a.m.</date></dateline></opener>
                     <p>2508. The following message dated May 19 for delivery soonest to <persName
                             corresp="#p_KNS2">Khrushchev</persName> from the President. Begin
                         Verbatim Text:</p>
                     <p>Dear Mr. Chairman:</p>
                     <p>Thank you for your cordial message of congratulations on the successful
-                        completion of astronaut L. Gordon Cooper's orbital flight.<note n="1"
+                        completion of astronaut L. Gordon Cooper’s orbital flight.<note n="1"
                             xml:id="d103fn1"><ref target="#d102">Document 102</ref>.</note></p>
-                    <p>All of Major Cooper's countrymen share a deep sense of satisfaction at his
+                    <p>All of Major Cooper’s countrymen share a deep sense of satisfaction at his
                         achievement.</p>
                     <pb n="289" xml:id="pg_289" facs="0311"/>
                     <p>They know it represents not an American accomplishment alone, but the result
@@ -14244,8 +14335,9 @@
                             Security Files, Countries Series, <gloss target="#t_USSR1">USSR</gloss>,
                                 <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-05-29"
-                            calendar="gregorian">May 29, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-05-29" calendar="gregorian">May 29,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I am happy to inform you that
                         the date of July 28, 1963, which you suggest for the arrival of Secretary
                             <persName corresp="#p_RD3">Rusk</persName> in Moscow, is satisfactory. I
@@ -14269,9 +14361,9 @@
                             Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1963-05-30T17:56:00-04:00" calendar="gregorian">May 30, 1963, 5:56
-                            p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-05-30T17:56:00-04:00" calendar="gregorian">May 30, 1963,
+                                5:56 p.m.</date></dateline></opener>
                     <p>2590. Following is final revised text to which we have agreed with the
                         British. Request you compare it with text which Trevelyan receiving
                         separately, and concert with him on immediate delivery to <persName
@@ -14394,7 +14486,7 @@
                             >Source: Department of State, Presidential Correspondence: Lot 66 D 204.
                             No classification marking. The source text is a Department of State
                             translation. The Russian-language text is ibid. Another copy of this
-                            message is in the Kennedy Library, President's Office Files, <gloss
+                            message is in the Kennedy Library, President’s Office Files, <gloss
                                 target="#t_USSR1">USSR</gloss>. An Embassy translation was
                             transmitted in telegram 3104 from Moscow, June 8; see <ref
                                 target="frus1961-63v07#pg_714">vol. VII, pp. 714</ref>–<ref
@@ -14403,8 +14495,9 @@
                             handed this letter to <persName corresp="#p_KFD1">Kohler</persName> at 4
                             p.m. that day. (Department of State, Central Files, US-<gloss
                                 target="#t_USSR1">USSR</gloss>)</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-06-08"
-                            calendar="gregorian">June 8, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-06-08" calendar="gregorian">June 8,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I have received your message of
                         May 31 <note n="1" xml:id="d106fn1">See <ref target="#d105">Document
                                 105</ref>.</note> on the question of cessation of nuclear tests and,
@@ -14439,7 +14532,7 @@
                         some kind of bonus for the cessation of nuclear-weapons tests. It is not
                         possible otherwise to understand their stubborn attempt to obtain our
                         consent to the conduct of inspections which would open up the possibility of
-                        peeping into the places at which the stranger's eye should not look.</p>
+                        peeping into the places at which the stranger’s eye should not look.</p>
                     <p>The fact that the Soviet Union will not consent to the conducting of
                         espionage inspections has been mentioned in nearly everyone of our documents
                         on the question of the cessation of tests, and this question, it would seem,
@@ -14499,7 +14592,7 @@
                         universities of the <gloss target="#t_USA1">USA</gloss> known the world
                         over. I think that you read it too. What did these American scientists have
                         to say, what ideas did they come out with, these American scientists who, as
-                        they say, know what they're talking about, if one takes into account that it
+                        they say, know what they’re talking about, if one takes into account that it
                         is precisely the <gloss target="#t_USA1">USA</gloss> which has great
                         experience in carrying out of underground nuclear explosions? They declare
                         that, given contemporary means of detection, it is impossible to conceal a
@@ -14607,9 +14700,9 @@
                             Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1963-06-19T23:14:00-04:00" calendar="gregorian">June 19, 1963,
-                            11:14 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-06-19T23:14:00-04:00" calendar="gregorian">June 19, 1963,
+                                11:14 p.m.</date></dateline></opener>
                     <p>2818. Deliver following message to <persName corresp="#p_KNS2"
                             >Khrushchev</persName> from the President.</p>
                     <quote rend="blockquote">
@@ -14638,8 +14731,9 @@
                             Files, Countries Series, <gloss target="#t_USSR1">USSR</gloss>,
                                 <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-07-04"
-                            calendar="gregorian">July 4, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-07-04" calendar="gregorian">July 4,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>, On the occasion of the national
                         holiday of the United States of America—Independence Day—we send to you and
                         the American people our warm congratulations and best wishes for peace and
@@ -14676,9 +14770,9 @@
                             Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1963-07-04T18:29:00-04:00" calendar="gregorian">July 4, 1963, 6:29
-                            p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-07-04T18:29:00-04:00" calendar="gregorian">July 4, 1963,
+                                6:29 p.m.</date></dateline></opener>
                     <p>54. For Ambassador. Please deliver following message to <persName
                             corresp="#p_KNS2">Khru-shchev</persName>/<persName corresp="#p_BLI1"
                             >Brezhnev</persName> from the President: <quote rend="blockquote">
@@ -14713,8 +14807,9 @@
                             Security Files, Countries Series, <gloss target="#t_USSR1">USSR</gloss>,
                                 <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-07-08"
-                            calendar="gregorian">July 8, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-07-08" calendar="gregorian">July 8,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I thank you for the
                         felicitations in connection with the successful protracted flight of
                         Cosmonaut Valeri Bykovski and the first of its kind in the world for a
@@ -14744,9 +14839,9 @@
                             text of telegram 306 is printed in <ref target="frus1961-63v07#pg_797"
                                 >vol. VII, pp. 797</ref>–<ref target="frus1961-63v07#pg_798"
                                 >798</ref>.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date
-                            when="1963-07-12T20:11:00-04:00" calendar="gregorian">July 12, 1963,
-                            8:11 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-07-12T20:11:00-04:00" calendar="gregorian">July 12, 1963,
+                                8:11 p.m.</date></dateline></opener>
                     <p>306. For <persName corresp="#p_HWA2">Harriman</persName> from Bundy.</p>
                     <p>[Here follow two paragraphs concerning a test ban agreement.]</p>
                     <p>3. Presidential letter to <persName corresp="#p_KNS2">Khrushchev</persName>
@@ -14787,7 +14882,7 @@
                             this and other questions, but will merely repeat my conviction that we
                             are at a moment in which it is important to make progress together. For
                             this reason we attach great importance to Mr.<persName corresp="#p_HWA2"
-                                >Harriman</persName>'s visit.</p>
+                                >Harriman</persName>’s visit.</p>
                         <p>My wife joins me in sending our good wishes to you, to Mrs. <persName
                                 corresp="#p_KNS2">Khrushchev</persName>, and to all your family.</p>
                         <p>Sincerely, <persName corresp="#p_KJF2">John F. Kennedy</persName>”</p>
@@ -14807,8 +14902,9 @@
                             Kennedy Library, National Security Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-07-27T01:00:00+03:00"
-                            calendar="gregorian">July 27, 1963, 1 a.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-07-27T01:00:00+03:00" calendar="gregorian">July 27, 1963,
+                                1 a.m.</date></dateline></opener>
                     <p>364. Following is text Embassy translation of letter addressed to President
                         handed by <persName corresp="#p_KNS2">Khrushchev</persName> to <persName
                             corresp="#p_HWA2">Harriman</persName> this afternoon (original being
@@ -14822,7 +14918,7 @@
                                 corresp="#p_HWA2">Harriman</persName> and Lord Hailsham, British
                             Minister of Science and Lord President of the Council, had been in
                             Moscow since July 14 to negotiate a nuclear test ban treaty. For text of
-                            the President's message of July 12, see <ref target="#d111">Document
+                            the President’s message of July 12, see <ref target="#d111">Document
                                 111</ref>; a report on the meeting on July 15 is in <ref
                                 target="frus1961-63v07#pg_799">vol. VII, pp. 799</ref>–<ref
                                 target="frus1961-63v07#pg_801">801</ref>.</note></p>
@@ -14914,8 +15010,9 @@
                             State</gloss><note n="0" xml:id="d113fn0" type="source">Source:
                             Department of State, Presidential Correspondence: Lot 66 D 204.
                             Confidential; Priority; Eyes Only.</note></head>
-                    <dateline><placeName>Bonn</placeName>, <date when="1963-08-10T14:00:00+01:00"
-                            calendar="gregorian">August 10, 1963, 2 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Bonn</placeName>, <date
+                                when="1963-08-10T14:00:00+01:00" calendar="gregorian">August 10,
+                                1963, 2 p.m.</date></dateline></opener>
                     <p>Secto 55. Personal for the President from the Secretary. No other
                         distribution. Just before my departure Chairman <persName corresp="#p_KNS2"
                             >Khrushchev</persName> telephoned from Sochi and asked me to convey his
@@ -14933,8 +15030,9 @@
                             >Khrushchev</persName><note n="0" xml:id="d114fn0" type="source">Source:
                             Department of State, Presidential Correspondence: Lot 66 D 204. No
                             classification marking.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-08-16"
-                            calendar="gregorian">August 16, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-08-16" calendar="gregorian">August 16,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman</hi>: I send you many thanks for your
                         generous message of sympathy.<note n="1" xml:id="d114fn1">See <ref
                                 target="#d113">Document 113</ref>.</note> You were very kind to
@@ -14957,8 +15055,9 @@
                             National Security Files, Countries Series, <gloss target="#t_USSR1"
                                 >USSR</gloss>, <persName corresp="#p_KNS2">Khrushchev</persName>
                             Correspondence.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-08-17"
-                            calendar="gregorian">August 17, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-08-17" calendar="gregorian">August 17,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: Availing myself of the return
                         of our Ambassador <persName corresp="#p_DAF1">A. Dobrynin</persName> to
                         Washington I would like to express some of my thoughts in connection with
@@ -14986,7 +15085,7 @@
                     <p>So far as I can judge by your statements, Mr. President, as well as by what
                         your Secretary of State Mr.<persName corresp="#p_RD3">Rusk</persName> said
                         here, <note n="1" xml:id="d115fn1">For documentation on <persName
-                                corresp="#p_RD3">Rusk</persName>'s visit to the Soviet Union, see
+                                corresp="#p_RD3">Rusk</persName>’s visit to the Soviet Union, see
                                 <ref target="frus1961-63v05">volume V</ref>.</note> you share our
                         conviction that it is important now not to stop at what has been achieved
                         but to make further steps from the good start taken by us. Of course the way
@@ -15006,7 +15105,7 @@
                         remain.</p>
                     <p>Mr.<persName corresp="#p_RD3">Rusk</persName> has certainly had time to
                         inform you about his stay in the Soviet Union and about our talks with him.
-                        We consider the Secretary of State's visit to us to be useful. In a short
+                        We consider the Secretary of State’s visit to us to be useful. In a short
                         period of time Mr.<persName corresp="#p_RD3">Rusk</persName> in addition to
                         Moscow had a chance to visit Leningrad—the city of great historic
                         traditions, and also to visit the Black Sea shore. As I understood him, he
@@ -15046,9 +15145,9 @@
                             Another copy is in the Kennedy Library, National Security Files,
                             Countries Series, <gloss target="#t_USSR1">USSR</gloss>, <persName
                                 corresp="#p_DAF1">Dobrynin</persName> Talks.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-09-10"
-                            type="conversation-or-meeting-date" calendar="gregorian">September 10,
-                            1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-09-10" type="conversation-or-meeting-date"
+                                calendar="gregorian">September 10, 1963</date>.</dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>United States Actions in Cuba</item>
@@ -15118,10 +15217,10 @@
                                 <persName corresp="#p_TLET1">Thompson</persName> made the oral
                             statement to <persName corresp="#p_DAF1">Dobrynin</persName> on
                             September 13.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-09-13"
-                            ana="#date_undated-inferred-from-document-content"
-                            type="conversation-or-meeting-date" calendar="gregorian"
-                        >undated</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-09-13" ana="#date_undated-inferred-from-document-content"
+                                type="conversation-or-meeting-date" calendar="gregorian"
+                                >undated</date>.</dateline></opener>
                     <p>The President wishes Mr.<persName corresp="#p_KNS2">Khrushchev</persName> to
                         know that he shares his view that the signing of the Test Ban Treaty and the
                         recent exchange of views with the Soviet Government is encouraging, and he
@@ -15159,7 +15258,7 @@
                         Hemisphere from whose territory we have information indicating that flights
                         were originating against Cuba, but, in all candor, we must point out that
                         such consultation would be greatly complicated by the increasing sense of
-                        outrage among the governments of this Hemisphere about Cuba's deliberate
+                        outrage among the governments of this Hemisphere about Cuba’s deliberate
                         stimulations and support of subversive activities throughout the Hemisphere
                         in direct violation of international norms. This is not simply a matter of
                         speeches or words by <persName corresp="#p_CRF1">Castro</persName>, as has
@@ -15223,8 +15322,9 @@
                             slightly different version is printed in <hi rend="italic">American
                                 Foreign Policy: Current Documents, 1963</hi>, pp.
                         1034-1035.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-10-10T18:00:00+03:00"
-                            calendar="gregorian">October 10, 1963, 6 p.m.</date></dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-10-10T18:00:00+03:00" calendar="gregorian">October 10,
+                                1963, 6 p.m.</date></dateline></opener>
                     <p>1203. Verbatim text. Following is Emb translation letter from <persName
                             corresp="#p_KNS2">Khrushchev</persName> to President handed me by
                             <persName>Zorin</persName> (Acting for <persName corresp="#p_KVV2"
@@ -15232,7 +15332,7 @@
                         ceremony today. Similar letter to <persName corresp="#p_MHS2"
                             >Macmillan</persName> given British Charge. According
                             <persName>Zorin</persName>, text letter will be broadcast Moscow radio
-                        beginning 0600 Oct 11 Moscow time and published first issue tomorrow's
+                        beginning 0600 Oct 11 Moscow time and published first issue tomorrow’s
                         Pravda:</p>
                     <pb n="310" xml:id="pg_310" facs="0332"/>
                     <p><hi rend="italic">Begin Text:</hi> Dear Mr. President: Today in the three
@@ -15306,8 +15406,9 @@
                             Confidential. The source text is marked “unofficial translation.”
                             President <persName corresp="#p_KRF1">Kennedy</persName> was
                             assassinated in Dallas, Texas, on November 22.</note></head>
-                    <dateline><placeName>Moscow</placeName>, <date when="1963-11-24"
-                            calendar="gregorian">November 24, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Moscow</placeName>, <date
+                                when="1963-11-24" calendar="gregorian">November 24,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. President</hi>: I am writing this message to
                         you at a moment that holds a special place in the history of your country.
                         The villainous assassination of Head of the American State <persName
@@ -15342,7 +15443,7 @@
                         the United States of America in whom is vested a high responsibility to your
                         people. I do not know how you will react to these words of mine, but let me
                         say outright that in you we saw a comrade-in-arms of the late President, a
-                        man who always stood at the President's side and supported his line in
+                        man who always stood at the President’s side and supported his line in
                         foreign policy. This, I believe, gives us grounds to express the hope that
                         the basis, which dictated to the leaders of both countries the need not to
                         permit the outbreak of a new war and to keep the peace, will continue to be
@@ -15363,7 +15464,7 @@
                         Roosevelt. We have always believed that, being a representative of one and
                         the same political party, the late President <persName corresp="#p_KJF2"
                             >John F. Kennedy</persName> to a certain extent continued in foreign
-                        policy Roosevelt's traditions which were based on recognition of the fact
+                        policy Roosevelt’s traditions which were based on recognition of the fact
                         that the coinciding interests of the U.S.S.R. and the U.S. prevail over all
                         that divides them.</p>
                     <p>And it is to you Mr. President, as to a representative of the same trend of
@@ -15418,7 +15519,7 @@
                             “Important: Mrs. <persName>Lincoln</persName>/This is my letter to
                                 <persName corresp="#p_KNS2">Khrushchev</persName> to be delivered to
                             him by Ambassador <persName corresp="#p_TLET1">Thompson</persName>.”
-                            (Kennedy Library, President's Office Files, Countries Series, <gloss
+                            (Kennedy Library, President’s Office Files, Countries Series, <gloss
                                 target="#t_USSR1">USSR</gloss>, <persName corresp="#p_KNS2"
                                 >Khrushchev</persName> Correspondence) According to Manchester, the
                             handwritten letter was forwarded to <persName corresp="#p_KNS2"
@@ -15432,11 +15533,12 @@
                             in the second typed draft. (Bundy Files, Chron) In the final version,
                             one phrase in the second typed draft was reworded and one sentence
                             added.</note></head>
-                    <dateline><placeName>Washington</placeName>, <date when="1963-12-01"
-                            calendar="gregorian">December 1, 1963</date>.</dateline>
+                    <opener><dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                when="1963-12-01" calendar="gregorian">December 1,
+                            1963</date>.</dateline></opener>
                     <p><hi rend="smallcaps">Dear Mr. Chairman President</hi>, I would like to thank
                         you for sending Mr.<persName corresp="#p_MAI1">Mikoyan</persName> as your
-                        representative to my husband's funeral.</p>
+                        representative to my husband’s funeral.</p>
                     <pb n="314" xml:id="pg_314" facs="0336"/>
                     <p>He looked so upset when he came through the line, and I was very moved.</p>
                     <p>I tried to give him a message for you that day—but as it was such a terrible
@@ -15506,7 +15608,7 @@
                     </item>
                     <item><persName corresp="#p_BJD1">Beam, Jacob D.,</persName>
                         <ref target="#pg_131">131<hi rend="italic">n</hi></ref></item>
-                    <item>Berlin issue: <list>
+                    <item xml:id="in4">Berlin issue: <list>
                             <item><persName>Kennedy</persName> on, <ref target="#pg_42"
                                     >42</ref>–<ref target="#pg_43">43</ref>, <ref target="#pg_65"
                                     >65</ref>–<ref target="#pg_68">68</ref>, <ref target="#pg_133"
@@ -15575,7 +15677,7 @@
                     <item><persName corresp="#p_JJ3">Chiang Kai-shek,</persName>
                         <ref target="#pg_160">160</ref>–<ref target="#pg_161">161</ref>, <ref
                             target="#pg_245">245</ref></item>
-                    <item>China, People's Republic of, <ref target="#pg_13">13</ref>, <ref
+                    <item>China, People’s Republic of, <ref target="#pg_13">13</ref>, <ref
                             target="#pg_160">160</ref>
                         <list>
                             <item>U.N. membership, <persName corresp="#p_KNS2">Khrushchev</persName>
@@ -15651,9 +15753,9 @@
                                     target="#pg_159">159</ref></item>
                         </list>
                     </item>
-                    <item>Cuban missile crisis: <list>
+                    <item xml:id="in1">Cuban missile crisis: <list>
                             <item>Cuban perspective, <persName corresp="#p_KNS2"
-                                    >Khrushchev</persName>'s discussion of, <ref target="#pg_224"
+                                    >Khrushchev</persName>’s discussion of, <ref target="#pg_224"
                                     >224</ref>–<ref target="#pg_225">225</ref></item>
                             <item>Formalization of Soviet-U.S. agreement, <persName
                                     corresp="#p_KNS2">Khrushchev</persName> on, <ref
@@ -15677,10 +15779,10 @@
                                             >222</ref></item>
                                 </list>
                             </item>
-                            <item><persName>Kennedy</persName>'s assessment of, <ref
+                            <item><persName>Kennedy</persName>’s assessment of, <ref
                                     target="#pg_202">202</ref>–<ref target="#pg_203"
                                 >203</ref></item>
-                            <item><persName corresp="#p_KNS2">Khrushchev</persName>'s assessment of,
+                            <item><persName corresp="#p_KNS2">Khrushchev</persName>’s assessment of,
                                     <ref target="#pg_197">197</ref>–<ref target="#pg_198"
                                 >198</ref></item>
                             <item>Lower state of alert for U.S. armed forces, <ref target="#pg_222"
@@ -15858,11 +15960,11 @@
                     </item>
                     <item>Geneva Accords (1954), <ref target="#pg_63">63</ref>–<ref target="#pg_64"
                             >64</ref></item>
-                    <item>Geneva disarmament negotiations: <list>
+                    <item xml:id="in2">Geneva disarmament negotiations: <list>
                             <item>Course of action for negotiators, <persName>Kennedy</persName> and
                                     <persName corresp="#p_MHS2">Macmillan</persName> on, <ref
                                     target="#pg_85">85</ref>–<ref target="#pg_87">87</ref></item>
-                            <item>Foreign Ministers' involvement: <list>
+                            <item>Foreign Ministers’ involvement: <list>
                                     <item><persName>Kennedy</persName> and <persName
                                             corresp="#p_MHS2">Macmillan</persName> on, <ref
                                             target="#pg_86">86</ref>–<ref target="#pg_87"
@@ -15983,12 +16085,12 @@
                     <item>Humphrey, Hubert H., <ref target="#pg_77">77</ref></item>
                     <item>Iceland <ref target="#pg_195">195</ref></item>
                     <item>Independence Day (U.S.): <list>
-                            <item><persName corresp="#p_KNS2">Khrushchev</persName>'s and <persName
-                                    corresp="#p_BLI1">Brezhnev</persName>'s messages, <ref
+                            <item><persName corresp="#p_KNS2">Khrushchev</persName>’s and <persName
+                                    corresp="#p_BLI1">Brezhnev</persName>’s messages, <ref
                                     target="#pg_23">23</ref>, <ref target="#pg_136">136</ref>, <ref
                                     target="#pg_297">297</ref>–<ref target="#pg_298">298</ref>
                                 <list>
-                                    <item><persName>Kennedy</persName>'s replies, <ref
+                                    <item><persName>Kennedy</persName>’s replies, <ref
                                             target="#pg_24">24</ref>, <ref target="#pg_142"
                                             >142</ref>, <ref target="#pg_298">298</ref></item>
                                 </list></item>
@@ -16014,7 +16116,7 @@
                             <ref target="#pg_303">303</ref>
                         <list>
                             <item>Letter to <persName corresp="#p_KNS2">Khrushchev</persName>
-                                following <persName>Kennedy</persName>'s assassination, <ref
+                                following <persName>Kennedy</persName>’s assassination, <ref
                                     target="#pg_313">313</ref>–<ref target="#pg_314"
                                 >314</ref></item>
                         </list>
@@ -16049,17 +16151,17 @@
                     </item>
                     <item><persName>Kennedy</persName>-<persName corresp="#p_KNS2"
                             >Khrushchev</persName> meeting (Vienna 1961): <list>
-                            <item><persName>Kennedy</persName>'s assessment of, <ref target="#pg_39"
+                            <item><persName>Kennedy</persName>’s assessment of, <ref target="#pg_39"
                                     >39</ref>–<ref target="#pg_40">40</ref></item>
-                            <item><persName>Kennedy</persName>'s thanks for <persName
-                                    corresp="#p_KNS2">Khrushchev</persName>'s gifts, <ref
+                            <item><persName>Kennedy</persName>’s thanks for <persName
+                                    corresp="#p_KNS2">Khrushchev</persName>’s gifts, <ref
                                     target="#pg_22">22</ref></item>
-                            <item><persName>Kennedy</persName>'s proposal for, <ref target="#pg_6"
+                            <item><persName>Kennedy</persName>’s proposal for, <ref target="#pg_6"
                                     >6</ref></item>
-                            <item><persName corresp="#p_KNS2">Khrushchev</persName>'s acceptance of
-                                    <persName>Kennedy</persName>'s proposal, <ref target="#pg_18"
+                            <item><persName corresp="#p_KNS2">Khrushchev</persName>’s acceptance of
+                                    <persName>Kennedy</persName>’s proposal, <ref target="#pg_18"
                                     >18</ref>–<ref target="#pg_21">21</ref></item>
-                            <item><persName corresp="#p_KNS2">Khrushchev</persName>'s assessment of,
+                            <item><persName corresp="#p_KNS2">Khrushchev</persName>’s assessment of,
                                     <ref target="#pg_25">25</ref>–<ref target="#pg_26"
                                 >26</ref></item>
                         </list>
@@ -16068,19 +16170,19 @@
                             >Khrushchev</persName> meeting, proposed (1963), <ref target="#pg_261"
                             >261</ref>–<ref target="#pg_262">262</ref></item>
                     <item><persName>Kennedy</persName>, assassination of: <list>
-                            <item><persName>Jacqueline Kennedy</persName>'s letter to <persName
+                            <item><persName>Jacqueline Kennedy</persName>’s letter to <persName
                                     corresp="#p_KNS2">Khrushchev</persName>, <ref target="#pg_313"
                                     >313</ref>–<ref target="#pg_314">314</ref></item>
-                            <item><persName corresp="#p_KNS2">Khrushchev</persName>'s condolences to
+                            <item><persName corresp="#p_KNS2">Khrushchev</persName>’s condolences to
                                     <persName>Johnson</persName>, <ref target="#pg_311"
                                     >311</ref>–<ref target="#pg_313">313</ref></item>
                         </list>
                     </item>
-                    <item><persName>Kennedy</persName>'s election: <list>
-                            <item><persName>Kennedy</persName>'s response to <persName
-                                    corresp="#p_KNS2">Khrushchev</persName>'s congratulations, <ref
+                    <item><persName>Kennedy</persName>’s election: <list>
+                            <item><persName>Kennedy</persName>’s response to <persName
+                                    corresp="#p_KNS2">Khrushchev</persName>’s congratulations, <ref
                                     target="#pg_2">2</ref></item>
-                            <item><persName corresp="#p_KNS2">Khrushchev</persName>'s
+                            <item><persName corresp="#p_KNS2">Khrushchev</persName>’s
                                 congratulations, <ref target="#pg_1">1</ref></item>
                         </list>
                     </item>
@@ -16180,8 +16282,8 @@
                     <item>Military forces stationed abroad, <persName corresp="#p_KNS2"
                             >Khrushchev</persName> on, <ref target="#pg_258">258</ref>–<ref
                             target="#pg_259">259</ref></item>
-                    <item>Mongolian People's Republic, <ref target="#pg_55">55</ref></item>
-                    <item>New Year's messages: <list>
+                    <item>Mongolian People’s Republic, <ref target="#pg_55">55</ref></item>
+                    <item>New Year’s messages: <list>
                             <item><persName>Kennedy</persName> to <persName corresp="#p_KNS2"
                                     >Khrushchev</persName> and <persName corresp="#p_BLI1"
                                     >Brezhnev</persName>, <ref target="#pg_80">80</ref>, <ref
@@ -16203,7 +16305,7 @@
                     <item><persName corresp="#p_NR8">Nobbe, Richard</persName>, <ref
                             target="#pg_298">298<hi rend="italic">n</hi></ref></item>
                     <item>Non-aggression treaty between <gloss target="#t_NATO1">NATO</gloss> and
-                        Warsaw Pact, <persName corresp="#p_KNS2">Khrushchev</persName>'s proposal
+                        Warsaw Pact, <persName corresp="#p_KNS2">Khrushchev</persName>’s proposal
                         for, <ref target="#pg_193">193</ref>, <ref target="#pg_206">206</ref>, <ref
                             target="#pg_301">301</ref>–<ref target="#pg_302">302</ref></item>
                     <item>Non-proliferation. <hi rend="italic">See</hi> Nuclear
@@ -16212,7 +16314,7 @@
                             <ref target="#pg_120">120</ref>, <ref target="#pg_121">121</ref>, <ref
                             target="#pg_122">122</ref>, <ref target="#pg_189">189</ref>,<list>
                             <item>Non-aggression treaty with Warsaw Pact, <persName
-                                    corresp="#p_KNS2">Khrushchev</persName>'s proposal for, <ref
+                                    corresp="#p_KNS2">Khrushchev</persName>’s proposal for, <ref
                                     target="#pg_193">193</ref>, <ref target="#pg_206">206</ref>,
                                     <ref target="#pg_301">301</ref>–<ref target="#pg_302"
                                 >302</ref></item>
@@ -16236,7 +16338,7 @@
                                 >275</ref></item>
                         </list>
                     </item>
-                    <item>Nuclear test ban: <list>
+                    <item xml:id="in3">Nuclear test ban: <list>
                             <item>Espionage issue: <list>
                                     <item><persName>Kennedy</persName> on, <ref target="#pg_291"
                                             >291</ref>–<ref target="#pg_292">292</ref></item>
@@ -16253,15 +16355,15 @@
                                             target="#pg_150">150</ref></item>
                                 </list>
                             </item>
-                            <item><persName>Kennedy</persName>'s proposal, <ref target="#pg_108"
+                            <item><persName>Kennedy</persName>’s proposal, <ref target="#pg_108"
                                     >108</ref></item>
-                            <item><persName corresp="#p_KNS2">Khrushchev</persName>'s response to
-                                    <persName>Kennedy</persName>'s proposal, <ref target="#pg_125"
+                            <item><persName corresp="#p_KNS2">Khrushchev</persName>’s response to
+                                    <persName>Kennedy</persName>’s proposal, <ref target="#pg_125"
                                     >125</ref>–<ref target="#pg_126">126</ref></item>
                             <item>Multilateral interest, <persName corresp="#p_KNS2"
                                     >Khrushchev</persName> on, <ref target="#pg_304"
                                 >304</ref></item>
-                            <item>Soviet policy, <persName corresp="#p_KNS2">Khrushchev</persName>'s
+                            <item>Soviet policy, <persName corresp="#p_KNS2">Khrushchev</persName>’s
                                 assessment of, <ref target="#pg_279">279</ref>–<ref target="#pg_280"
                                     >280</ref></item>
                             <item>"Three environments" prohibitions: <list>
@@ -16290,7 +16392,7 @@
                                     <item><persName>Kennedy</persName>/Macmillan proposal, <ref
                                             target="#pg_268">268</ref>–<ref target="#pg_270"
                                             >270</ref></item>
-                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>'s
+                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>’s
                                         response, <ref target="#pg_283">283</ref>–<ref
                                             target="#pg_286">286</ref>, <ref target="#pg_292"
                                             >292</ref></item>
@@ -16481,67 +16583,67 @@
                         >76</ref></item>
                     <item>Space exploration: <list>
                             <item>Bykovsky/Tereshkova flight: <list>
-                                    <item><persName>Kennedy</persName>'s congratulations, <ref
+                                    <item><persName>Kennedy</persName>’s congratulations, <ref
                                             target="#pg_297">297</ref></item>
-                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>'s
-                                        response to <persName>Kennedy</persName>'s congratulations,
+                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>’s
+                                        response to <persName>Kennedy</persName>’s congratulations,
                                             <ref target="#pg_299">299</ref></item>
                                 </list>
                             </item>
-                            <item>Cooper's flight: <list>
-                                    <item><persName>Kennedy</persName>'s response to <persName
-                                            corresp="#p_KNS2">Khrushchev</persName>'s
+                            <item>Cooper’s flight: <list>
+                                    <item><persName>Kennedy</persName>’s response to <persName
+                                            corresp="#p_KNS2">Khrushchev</persName>’s
                                         congratulations, <ref target="#pg_288">288</ref>–<ref
                                             target="#pg_289">289</ref></item>
-                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>'s
+                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>’s
                                         congratulations, <ref target="#pg_288">288</ref></item>
                                 </list>
                             </item>
                             <item>Disarmament and space exploration, <persName corresp="#p_KNS2"
                                     >Khrushchev</persName> on, <ref target="#pg_130">130</ref>–<ref
                                     target="#pg_131">131</ref></item>
-                            <item>Glenn's flight: <list>
-                                    <item><persName>Kennedy</persName>'s response to Khrushchev's
+                            <item>Glenn’s flight: <list>
+                                    <item><persName>Kennedy</persName>’s response to Khrushchev’s
                                         congratulations, <ref target="#pg_97">97</ref></item>
-                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>'s
+                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>’s
                                         congratulations, <ref target="#pg_96">96</ref></item>
                                 </list>
                             </item>
                             <item>Nikolayev/Popovich flight: <list>
-                                    <item><persName>Kennedy</persName>'s congratulations, <ref
+                                    <item><persName>Kennedy</persName>’s congratulations, <ref
                                             target="#pg_148">148</ref></item>
-                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>'s
-                                        response to <persName>Kennedy</persName>'s congratulations,
+                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>’s
+                                        response to <persName>Kennedy</persName>’s congratulations,
                                             <ref target="#pg_150">150</ref></item>
                                 </list>
                             </item>
-                            <item>Schirra's flight: <list>
-                                    <item><persName>Kennedy</persName>'s response to Khrushchev's
+                            <item>Schirra’s flight: <list>
+                                    <item><persName>Kennedy</persName>’s response to Khrushchev’s
                                         congratulations, <ref target="#pg_162">162</ref></item>
-                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>'s
+                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>’s
                                         congratulations, <ref target="#pg_162">162</ref></item>
                                 </list>
                             </item>
-                            <item>Shepard's flight: <list>
-                                    <item><persName>Kennedy</persName>'s response to Khrushchev's
+                            <item>Shepard’s flight: <list>
+                                    <item><persName>Kennedy</persName>’s response to Khrushchev’s
                                         congratulations, <ref target="#pg_18">18</ref></item>
-                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>'s
+                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>’s
                                         congratulations, <ref target="#pg_17">17</ref></item>
                                 </list>
                             </item>
-                            <item>Soviets' first manned flight: <list>
-                                    <item><persName>Kennedy</persName>'s congratulations, <ref
+                            <item>Soviets’ first manned flight: <list>
+                                    <item><persName>Kennedy</persName>’s congratulations, <ref
                                             target="#pg_7">7</ref></item>
-                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>'s
-                                        response to <persName>Kennedy</persName>'s congratulations,
+                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>’s
+                                        response to <persName>Kennedy</persName>’s congratulations,
                                             <ref target="#pg_17">17</ref></item>
                                 </list>
                             </item>
                             <item>Soviet space vehicle to Venus: <list>
-                                    <item><persName>Kennedy</persName>'s congratulations, <ref
+                                    <item><persName>Kennedy</persName>’s congratulations, <ref
                                             target="#pg_4">4</ref></item>
-                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>'s
-                                        response to <persName>Kennedy</persName>'s congratulations,
+                                    <item><persName corresp="#p_KNS2">Khrushchev</persName>’s
+                                        response to <persName>Kennedy</persName>’s congratulations,
                                             <ref target="#pg_4">4</ref></item>
                                 </list>
                             </item>
@@ -16634,8 +16736,8 @@
                             <item>Disarmament and, <ref target="#pg_91">91</ref>, <ref
                                     target="#pg_241">241</ref>–<ref target="#pg_242"
                                 >242</ref></item>
-                            <item><persName>Kennedy</persName>'s speech to General Assembly (Sept.
-                                1961), <persName corresp="#p_KNS2">Khrushchev</persName>'s response
+                            <item><persName>Kennedy</persName>’s speech to General Assembly (Sept.
+                                1961), <persName corresp="#p_KNS2">Khrushchev</persName>’s response
                                 to, <ref target="#pg_35">35</ref>–<ref target="#pg_36"
                                 >36</ref></item>
                             <item>Observation posts in Caribbean, <persName corresp="#p_KNS2"
@@ -16663,7 +16765,7 @@
                     <item><persName corresp="#p_VNA2">Veliotes, Nicholas A.</persName>, <ref
                             target="#pg_3">3<hi rend="italic">n</hi></ref></item>
                     <item>Venezuela, <ref target="#pg_309">309</ref></item>
-                    <item>Vietnam, Democratic People's Republic of, <ref target="#pg_245"
+                    <item>Vietnam, Democratic People’s Republic of, <ref target="#pg_245"
                         >245</ref></item>
                     <item>Vietnam conflict: <list>
                             <item><persName>Kennedy</persName> on, <ref target="#pg_44">44</ref>,
@@ -16677,7 +16779,7 @@
                     <item>Warsaw Pact, <ref target="#pg_120">120</ref>
                         <list>
                             <item>Non-aggression treaty with <gloss target="#t_NATO1">NATO</gloss>,
-                                    <persName corresp="#p_KNS2">Khrushchev</persName>'s proposal
+                                    <persName corresp="#p_KNS2">Khrushchev</persName>’s proposal
                                 for, <ref target="#pg_193">193</ref>, <ref target="#pg_206"
                                     >206</ref>, <ref target="#pg_301">301</ref>–<ref
                                     target="#pg_302">302</ref></item>
@@ -16685,7 +16787,7 @@
                     </item>
                     <item><persName corresp="#p_WB1">Weiner, Benjamin</persName>, <ref
                             target="#pg_297">297<hi rend="italic">n</hi></ref></item>
-                    <item>Western leaders, <persName corresp="#p_KNS2">Khrushchev</persName>'s
+                    <item>Western leaders, <persName corresp="#p_KNS2">Khrushchev</persName>’s
                         meetings with <ref target="#pg_27">27</ref></item>
                     <item>World Meteorological Organization, <ref target="#pg_116">116</ref></item>
                     <item>Yepishev, A.A., <ref target="#pg_33">33<hi rend="italic"
