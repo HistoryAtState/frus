@@ -9,7 +9,8 @@
 
     <p>This schematron file contains date-related rules from and augmenting frus.sch. This
         schematron imports the dates-only-initial-review.sch</p>
-    <p>This current version is geared towards secondary review of legacy volumes.</p>
+    <p>This current version is oriented towards secondary review of legacy volumes but is also
+        valuable for contemporary publishing.</p>
 
     <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
     <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
