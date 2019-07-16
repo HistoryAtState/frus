@@ -24,7 +24,7 @@
     <extends href="dates-only-secondary-review.sch"/>
 
     <pattern id="div-doc-dateTime">
-        <title>Div doc-dateTime Checks</title>
+        <title>Div-level doc-dateTime Checks</title>
         <rule context="tei:div">
             <assert role="warn" test="(@frus:doc-dateTime-min and @frus:doc-dateTime-min)">To be
                 ready for online publication and date indexing, all divs should have
