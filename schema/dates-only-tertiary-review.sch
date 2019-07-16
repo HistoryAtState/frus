@@ -7,8 +7,8 @@
     xmlns:historyatstate="https://history.state.gov/historyatstate">
     <title>FRUS TEI Rules - Date Rules for Tertiary/Pre-Publication Review</title>
 
-    <p>This schematron file contains date-related rules from and augmenting frus.sch. This
-        schematron imports the dates-only-tertiary-review.sch, which in turn imports the
+    <p>This schematron file contains date-related rules augmenting frus.sch. This schematron imports
+        the dates-only-tertiary-review.sch, which in turn imports the
         dates-only-initial-review.sch.</p>
     <p>This current version is geared towards tertiary review of legacy and contemporary volumes, in
         preparation for online publication and indexing.</p>

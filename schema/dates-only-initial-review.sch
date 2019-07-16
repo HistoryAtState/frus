@@ -2,7 +2,7 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt3">
     <title>FRUS TEI Rules - Date Rules for Initial Review</title>
 
-    <p>This schematron file contains date-related rules from and augmenting frus.sch. This file is
+    <p>This schematron file contains date-related rules augmenting frus.sch. This file is
         appropriate for evaluating vendor deliveries and first review of a volume for date encoding
         and values.</p>
 
