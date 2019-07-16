@@ -19,6 +19,15 @@
     <ns prefix="functx" uri="http://www.functx.com"/>
     <ns prefix="historyatstate" uri="https://history.state.gov/historyatstate"/>
 
-    <extends href="dates-only-secondary-review-v2.sch"/>
+    <extends href="dates-only-secondary-review.sch"/>
+
+    <pattern id="div-doc-dateTime">
+        <title>Div doc-dateTime Checks</title>
+        <rule context="tei:div">
+            <assert role="warn" test="(@frus:doc-dateTime-min and @frus:doc-dateTime-min)">To be
+                ready for publishing and date indexing, all divs should have @frus:doc-dateTime-min
+                and @frus:doc-dateTime-max attributes.</assert>
+        </rule>
+    </pattern>
 
 </schema>
