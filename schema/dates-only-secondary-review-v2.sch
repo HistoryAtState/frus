@@ -7,8 +7,8 @@
     xmlns:historyatstate="https://history.state.gov/historyatstate">
     <title>FRUS TEI Rules - Date Rules</title>
 
-    <p>This schematron file contains date-related rules from and augmenting frus.sch. This current
-        version is geared towards secondary-review of legacy volumes.</p>
+    <p>This schematron file contains date-related rules from and augmenting frus.sch.  This schematron imports the dates-only-initial-review.sch</p>
+    <p>This current version is geared towards secondary review of legacy volumes.</p>
 
     <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
     <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
@@ -20,49 +20,13 @@
 
     <extends href="dates-only-initial-review.sch"/>
 
-    <let name="category-ids" value="//tei:category/@xml:id"/>
-
-    <pattern id="dateline-date-checks">
-        <title>Dateline Date Checks</title>
-        <rule
-            context="tei:dateline[not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
-            <assert test="exists(.//tei:date)">Please tag "undated" phrase in this document dateline
-                with a &lt;date&gt; element.</assert>
-        </rule>
-        <rule
-            context="tei:dateline[ancestor::frus:attachment][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
-            <assert role="warn" test="exists(.//tei:date)">Please tag "undated" phrase in this
-                attachment dateline with a &lt;date&gt; element.</assert>
-        </rule>
-        <!--
-        <rule context="tei:dateline[not(ancestor::frus:attachment)]">
-            <assert test=".//tei:date">Document datelines must contain a date element</assert>
-        </rule>
-        -->
-        <rule
-            context="tei:dateline[not(ancestor::frus:attachment)][ancestor::tei:div[attribute::subtype eq 'historical-document'][not(descendant::tei:dateline[not(ancestor::frus:attachment)]//tei:date)]]">
-            <assert test=".//tei:date">Within historical documents, at least one dateline must
-                contain a date element</assert>
-        </rule>
-        <!--
-        <rule context="tei:dateline[ancestor::frus:attachment]">
-            <assert role="warn" test=".//tei:date">Attachment datelines should contain a date
-                element if this information is present</assert>
-        </rule>
-        -->
-        <rule
-            context="tei:dateline[ancestor::frus:attachment[not(descendant::tei:dateline//tei:date)]]">
-            <assert role="warn" test=".//tei:date">Within attachments, at least one dateline must
-                contain a date element</assert>
-        </rule>
-        <!-- Tentative rule -->
+    <pattern id="dateline-date-checks-secondary-review">
+        <title>Dateline Date Checks - Secondary Review</title>
         <rule
             context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
-            <!-- <rule
-            context="tei:date[ancestor::tei:dateline][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]"> -->
             <assert
                 test="(@notBefore and @notAfter and @ana) or (@when and @ana) or (@from and @to and @ana)"
-                >Undated documents must be tagged with @when/@ana --OR-- @from/@to/@ana --OR--
+                >Undated documents must be tagged with @when/@ana –OR– @from/@to/@ana –OR–
                 @notBefore/@notAfter/@ana. &#10; Use @when/@ana for a single date/dateTime that can
                 be inferred concretely (such as a date listed in the original document). &#10; Use
                 @from/@to/@ana for a date/dateTime range that can be inferred concretely (such as a
@@ -72,57 +36,11 @@
         </rule>
         <rule
             context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]">
-            <!-- <rule
-            context="tei:date[ancestor::tei:dateline][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]"> -->
             <assert
                 test="@when or (@from and @to) or (@notBefore and @notAfter and @ana) or (@when and @notBefore and @notAfter and @ana)"
                 >Supplied dates must have @when (for single dates) or @from/@to (for supplied date
                 ranges) or @notBefore/@notAfter/@ana/(/@when) (for imprecise year or year-month only
                 dates)</assert>
-        </rule>
-        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)]">
-            <assert role="warn" test="normalize-space(.) ne ''">Dateline date should not be
-                empty.</assert>
-            <assert test="(@from and @to) or (not(@from) and not(@to))">Dateline date @from must
-                have a corresponding @to.</assert>
-            <assert test="(@notBefore and @notAfter) or (not(@notBefore) and not(@notAfter))"
-                >Dateline date @notBefore must have a corresponding @notAfter.</assert>
-            <assert role="warn"
-                test="(@notBefore and @notAfter and @ana) or (not(@notBefore) and not(@notAfter))"
-                >Missing @ana explaining the analysis used to determine @notBefore and
-                @notAfter.</assert>
-            <assert
-                test="
-                    every $date in @when
-                        satisfies ((matches($date, '^\d{4}$') and ($date || '-01-01') castable as xs:date) or (matches($date, '^\d{4}-\d{2}$') and ($date || '-01') castable as xs:date) or $date castable as xs:date or $date castable as xs:dateTime)"
-                >Dateline date @when values must be YYYY, YYYY-MM, or xs:date or
-                xs:dateTime</assert>
-            <assert
-                test="
-                    every $date in (@from, @to, @notBefore, @notAfter)
-                        satisfies ($date castable as xs:date or $date castable as xs:dateTime)"
-                >Dateline date @from/@to/@notBefore/@notAfter must be valid xs:date or xs:dateTime
-                values.</assert>
-            <assert
-                test="
-                    every $attribute in @*
-                        satisfies not(matches($attribute, '[A-Z]$'))"
-                >Please use timezone offset instead of military time zone (e.g., replace Z with
-                +00:00).</assert>
-            <assert
-                test="
-                    if (@from and @to) then
-                        (@from le @to)
-                    else
-                        true()"
-                >Dateline date @from must come before @to.</assert>
-            <assert
-                test="
-                    if (@notBefore and @notAfter) then
-                        (@notBefore le @notAfter)
-                    else
-                        true()"
-                >Dateline date @notBefore must come before @notAfter.</assert>
         </rule>
     </pattern>
 
