@@ -5,7 +5,7 @@
     xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:functx="http://www.functx.com"
     xmlns:fn="http://www.w3.org/2005/xpath-functions"
     xmlns:historyatstate="https://history.state.gov/historyatstate">
-    <title>FRUS TEI Rules - Date Rules</title>
+    <title>FRUS TEI Rules - Date Rules for Secondary Review</title>
 
     <p>This schematron file contains date-related rules from and augmenting frus.sch. This
         schematron imports the dates-only-initial-review.sch</p>
