@@ -186,7 +186,7 @@
         <!-- Chinese Era/Lunisolar Calendar Checks/Fixes -->
         <rule context="tei:date[not(matches(@calendar, 'chinese-era'))]">
             <assert role="info"
-                test="not(.[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung\s+Chi|Guangxu|Kuanghsü|Kuang\s+Hsü|Kuang\s+Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')])"
+                test="not(.[matches(., 'Qi[áa]nl[óo]ng|G[āa]oz[ōo]ng|H[óo]nglì|Ji[āa]q[ìi]ng|R[ée]nzōng|Y[óo]ngy[ǎa]n|D[àa]ogu[āa]ng|Xu[āa]nz[ōo]ng|M[íi]nn[íi]ng|Xianfeng|W[ée]nz[o]ōng|Wenzong|Y[ìi]zh[ǔu]|Dongzhi|M[ùu]z[ōo]ng|Muzong|Z[ǎa]ich[úu]n|Tongzhi|Tungchi|T&#8217;ung\s+Chi|Guangxu|Kuanghs[üu]|Kuang\s+Hs[üu]|Kuang\s+S[üu]|Dézōng|Tezong|Z[ǎa]iti[áa]n|Xuantong|Gongz[ōo]ng|Pui', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Chinese era/reign-based calendar reference.</assert>
 
