@@ -2,12 +2,16 @@
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt3">
     <title>FRUS TEI Rules - Date Rules for Initial Review</title>
 
-    <p>This schematron file contains certain rules from dates-only.sch - the rules most relevant to
-        a first pass through a volume for dates.</p>
+    <p>This schematron file contains date-related rules from and augmenting frus.sch. This file is
+        appropriate for evaluating vendor deliveries and first review of a volume for date encoding
+        and values.</p>
 
     <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
     <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
     <ns prefix="xml" uri="http://www.w3.org/XML/1998/namespace"/>
+    <ns prefix="xi" uri="http://www.w3.org/2001/XInclude"/>
+    <ns prefix="fn" uri="http://www.w3.org/2005/xpath-functions"/>
+    <ns prefix="functx" uri="http://www.functx.com"/>
 
     <let name="category-ids" value="//tei:category/@xml:id"/>
 
@@ -20,7 +24,7 @@
         </rule>
         <rule context="tei:date[@type]">
             <assert role="warn"
-                test="./@type = ('conversation-or-meeting-date', 'content-date', 'creation-date', 'received-date')"
+                test="./@type = ('content-date', 'conversation-or-meeting-date', 'creation-date', 'publication-date', 'received-date')"
                     >date/@type='<value-of select="@type"/>' is an invalid value. Only the following
                 values are allowed: conversation-or-meeting-date, content-date, creation-date,
                 received-date</assert>
@@ -33,8 +37,8 @@
                 chinese-republic, ethiopian-geez, gregorian, haitian-republic, hijri,
                 iranian-persian, japanese-nengō, julian, korean-era, korean-lunisolar,
                 masonic-anno-lucis, papal-era, roman, rumi, thai-era, tibetan-phugpa, us-republic.
-                If you need to add additional calendar value(s), please add to frus.sch,
-                dates-only.sch, and dates-only-initial-review.sch</assert>
+                If you need to add additional calendar value(s), please add to frus.odd and
+                frus.sch.</assert>
         </rule>
     </pattern>
 
