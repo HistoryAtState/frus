@@ -7,7 +7,8 @@
     xmlns:historyatstate="https://history.state.gov/historyatstate">
     <title>FRUS TEI Rules - Date Rules</title>
 
-    <p>This schematron file contains date-related rules from and augmenting frus.sch.  This schematron imports the dates-only-initial-review.sch</p>
+    <p>This schematron file contains date-related rules from and augmenting frus.sch. This
+        schematron imports the dates-only-initial-review.sch</p>
     <p>This current version is geared towards secondary review of legacy volumes.</p>
 
     <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
