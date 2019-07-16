@@ -110,14 +110,15 @@
                         (@from le @to)
                     else
                         true()"
-                >Dateline date @from must come before @to.</assert>
+                >Dateline date/@from dateTime value must come before @to dateTime value.</assert>
             <assert
                 test="
                     if (@notBefore and @notAfter) then
                         (@notBefore le @notAfter)
                     else
                         true()"
-                >Dateline date @notBefore must come before @notAfter.</assert>
+                >Dateline date/@notBefore dateTime value must come before @notAfter dateTime
+                value.</assert>
         </rule>
     </pattern>
 
