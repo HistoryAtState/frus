@@ -37,8 +37,8 @@
                 chinese-republic, ethiopian-geez, gregorian, haitian-republic, hijri,
                 iranian-persian, japanese-nengō, julian, korean-era, korean-lunisolar,
                 masonic-anno-lucis, papal-era, roman, rumi, thai-era, tibetan-phugpa, us-republic.
-                If you need to add additional calendar value(s), please add to frus.odd and
-                frus.sch.</assert>
+                If you need to add additional calendar value(s), please add to frus.odd as
+                well.</assert>
         </rule>
     </pattern>
 
