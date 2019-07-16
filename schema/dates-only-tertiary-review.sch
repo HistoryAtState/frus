@@ -7,9 +7,11 @@
     xmlns:historyatstate="https://history.state.gov/historyatstate">
     <title>FRUS TEI Rules - Date Rules</title>
 
-    <p>This schematron file contains date-related rules from and augmenting frus.sch. This current
-        version is geared towards tertiary review of legacy and contemporary volumes, in preparation
-        for online publication and indexing.</p>
+    <p>This schematron file contains date-related rules from and augmenting frus.sch. This
+        schematron imports the dates-only-tertiary-review.sch, which in turn imports the
+        dates-only-initial-review.sch.</p>
+    <p>This current version is geared towards tertiary review of legacy and contemporary volumes, in
+        preparation for online publication and indexing.</p>
 
     <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
     <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
@@ -25,8 +27,8 @@
         <title>Div doc-dateTime Checks</title>
         <rule context="tei:div">
             <assert role="warn" test="(@frus:doc-dateTime-min and @frus:doc-dateTime-min)">To be
-                ready for publishing and date indexing, all divs should have @frus:doc-dateTime-min
-                and @frus:doc-dateTime-max attributes.</assert>
+                ready for online publication and date indexing, all divs should have
+                @frus:doc-dateTime-min and @frus:doc-dateTime-max attributes.</assert>
         </rule>
     </pattern>
 
