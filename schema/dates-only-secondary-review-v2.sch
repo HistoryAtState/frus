@@ -18,34 +18,9 @@
     <ns prefix="functx" uri="http://www.functx.com"/>
     <ns prefix="historyatstate" uri="https://history.state.gov/historyatstate"/>
 
-    <let name="category-ids" value="//tei:category/@xml:id"/>
+    <extends href="dates-only-initial-review.sch"/>
 
-    <pattern id="pointer-checks">
-        <title>Ref and Pointer Checks</title>
-        <rule context="tei:date[@ana]">
-            <assert test="substring-after(@ana, '#') = $category-ids">date/@ana='<value-of
-                    select="@ana"/>' is an invalid value. No category has been defined with an
-                @xml:id corresponding to this value.</assert>
-        </rule>
-        <rule context="tei:date[@type]">
-            <assert role="warn"
-                test="./@type = ('content-date', 'conversation-or-meeting-date', 'creation-date', 'publication-date', 'received-date')"
-                    >date/@type='<value-of select="@type"/>' is an invalid value. Only the following
-                values are allowed: conversation-or-meeting-date, content-date, creation-date,
-                received-date</assert>
-        </rule>
-        <rule context="tei:date[@calendar]">
-            <assert role="warn"
-                test="tokenize(./@calendar) = ('brazilian-republic', 'chinese-era', 'chinese-lunisolar', 'chinese-republic', 'ethiopian-geez', 'gregorian', 'haitian-republic', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunisolar', 'masonic-anno-lucis', 'papal-era', 'roman', 'rumi', 'thai-era', 'tibetan-phugpa', 'us-republic')"
-                    >date/@calendar='<value-of select="@calendar"/>' is an invalid value. Only the
-                following values are allowed: brazilian-republic, chinese-era, chinese-lunisolar,
-                chinese-republic, ethiopian-geez, gregorian, haitian-republic, hijri,
-                iranian-persian, japanese-nengō, julian, korean-era, korean-lunisolar,
-                masonic-anno-lucis, papal-era, roman, rumi, thai-era, tibetan-phugpa, us-republic.
-                If you need to add additional calendar value(s), please add to frus.odd, frus.sch,
-                dates-only.sch, and dates-only-initial-review.sch</assert>
-        </rule>
-    </pattern>
+    <let name="category-ids" value="//tei:category/@xml:id"/>
 
     <pattern id="dateline-date-checks">
         <title>Dateline Date Checks</title>
