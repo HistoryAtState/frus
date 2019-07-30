@@ -8976,10 +8976,12 @@
                             Intelligence Rufus Taylor, and concurred in by the U.S. Intelligence
                             Board on January 18.</note>
                     </head>
-                    <opener><dateline rendition="#right">
+                    <opener>
+                        <seg rendition="#left">SNIE 11-9-68</seg>
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1968-01-18"
                                 calendar="gregorian">January 18, 1968</date>.</dateline>
-                        <seg rendition="#left">SNIE 11-9-68</seg></opener>
+                    </opener>
                     <p rend="center">SOVIET INTERESTS AND ACTIVITIES IN ARAB STATES</p>
                     <p rend="center">The Problem</p>
                     <p>To assess Soviet policy toward Middle East since the June war, and to
@@ -19352,10 +19354,12 @@
                                 Helms</persName>, and concurred in by the U.S. Intelligence Board on
                             April 11.</note>
                     </head>
-                    <opener><dateline rendition="#right">
+                    <opener>
+                        <seg rendition="#left">NIE 35-68</seg>
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1968-04-11"
                                 calendar="gregorian">April 11, 1968</date>.</dateline>
-                        <seg rendition="#left">NIE 35-68</seg></opener>
+                    </opener>
                     <p rend="center">ISRAEL</p>
                     <p rend="center">Note</p>
                     <p>This estimate assesses Israel’s situation with particular reference to its
@@ -19673,10 +19677,12 @@
                                 Helms</persName>, and concurred in by the U.S. Intelligence Board on
                             April 18.</note>
                     </head>
-                    <opener><dateline rendition="#right">
+                    <opener>
+                        <seg rendition="#left">SNIE 30-1-68</seg>
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1968-04-18"
                                 calendar="gregorian">April 18, 1968</date>.</dateline>
-                        <seg rendition="#left">SNIE 30-1-68</seg></opener>
+                    </opener>
                     <p rend="center">TERRORISM AND INTERNAL SECURITY IN ISRAEL AND JORDAN</p>
                     <p rend="center">Scope Note</p>
                     <p>This estimate deals with the likely course of fedayeen<note n="2"
@@ -20061,10 +20067,12 @@
                             London, Rabat, Tel Aviv, Tripoli, Tunis, and <gloss target="#t_USUN1"
                                 >USUN</gloss>.</note>
                     </head>
-                    <opener><dateline rendition="#right">
+                    <opener>
+                        <seg rendition="#left">A-942</seg>
+                        <dateline rendition="#right">
                             <placeName>Beirut</placeName>, <date when="1968-04-19"
                                 calendar="gregorian">April 19, 1968</date>.</dateline>
-                        <seg rendition="#left">A-942</seg></opener>
+                    </opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>President <persName corresp="#p_HC1">Helou</persName>’s Views on
@@ -25231,12 +25239,14 @@
                                 >Rusk</persName> headed the U.S. Delegation to the North Atlantic
                             Council Ministerial Meeting June 24-25.</note>
                     </head>
-                    <opener><dateline rendition="#right">
+                    <opener>
+                        <seg rendition="#left">US/MC/4</seg>
+                        <dateline rendition="#right">
                             <placeName>Reykjavik</placeName>, <date when="1968-06-23T16:30:00+00:00"
                                 type="conversation-or-meeting-date" calendar="gregorian">June 23,
                                 1968, 4:30 p.m.</date>
                         </dateline>
-                        <seg rendition="#left">US/MC/4</seg></opener>
+                    </opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>
@@ -33735,11 +33745,13 @@
                             Security File, Country File, United Arab Republic, Vol. VII, Cables and
                             Memos, 6/68-1/69. Secret; Routine; No Foreign Dissem.</note>
                     </head>
-                    <opener><dateline rendition="#right">
+                    <opener>
+                        <seg rendition="#left">[<hi rend="italic">document number not
+                                declassified</hi>]</seg>
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1968-09-25"
                                 calendar="gregorian">September 25, 1968</date>.</dateline>
-                        <seg rendition="#left">[<hi rend="italic">document number not
-                                declassified</hi>]</seg></opener>
+                    </opener>
                     <list>
                         <head>COUNTRY</head>
                         <item>
@@ -35204,12 +35216,14 @@
                                 <gloss target="#t_USUN1">USUN</gloss>, October 7. (Ibid., Central
                             Files 1967-69, POL 27-14 ARAB/ISR)</note>
                     </head>
-                    <opener><dateline rendition="#right">
+                    <opener>
+                        <seg rendition="#left">SecDel/MC/16</seg>
+                        <dateline rendition="#right">
                             <placeName>New York</placeName>, <date from="1968-10-06T19:30:00-04:00"
                                 to="1968-10-06T22:45:00-04:00" type="conversation-or-meeting-date"
                                 calendar="gregorian">October 6, 1968, 19:30-22:45 p.m.</date>
                         </dateline>
-                        <seg rendition="#left">SecDel/MC/16</seg></opener>
+                    </opener>
                     <p rend="center">SECRETARY’S DELEGATION TO THE TWENTY-THIRD SESSION OF THE
                         UNITED NATIONS GENERAL ASSEMBLY</p>
                     <p rend="center">New York, September-October 1968</p>
@@ -47541,7 +47555,7 @@
                             <persName corresp="#p_AY1">Allon</persName>
                         </ref> plan), <ref target="#d247">247</ref>, <ref target="#d250">250</ref>
                     </item>
-                    <item>
+                    <item xml:id="in1">
                         <persName corresp="#p_AY1">Allon</persName> plan, <ref target="#d213"
                             >213</ref>, <ref target="#d217">217</ref>, <ref target="#d268"
                         >268</ref>, <ref target="#d328">328</ref>
@@ -47956,7 +47970,7 @@
                             target="#d176">176</ref>, <ref target="#d245">245</ref>, <ref
                             target="#d274">274</ref>
                     </item>
-                    <item>Border incidents (<hi rend="italic">see also</hi>
+                    <item xml:id="in2">Border incidents (<hi rend="italic">see also</hi>
                         <ref target="#in8">Terrorism</ref>), <ref target="#d192">192</ref>, <ref
                             target="#d259">259</ref>, <ref target="#d267">267</ref>
                         <list>
@@ -48976,7 +48990,7 @@
                             </item>
                         </list>
                     </item>
-                    <item>Israel-Jordan bilateral negotiations: <list>
+                    <item xml:id="in4">Israel-Jordan bilateral negotiations: <list>
                             <item>
                                 <persName corresp="#p_BGW1">Ball</persName>-<persName
                                     corresp="#p_SJJ1">Sisco</persName> mission and, <ref
@@ -50829,7 +50843,7 @@
                     <item>Senior Interdepartmental Group (<gloss target="#t_SIG1">SIG</gloss>), <ref
                             target="#d276">276</ref>
                     </item>
-                    <item>Settlement possibilities (<hi rend="italic">see also</hi>
+                    <item xml:id="in3">Settlement possibilities (<hi rend="italic">see also</hi>
                         <ref target="#in4">Israel-Jordan bilateral negotiations</ref>; <ref
                             target="#in17">
                             <persName corresp="#p_JG1">Jarring</persName> mission</ref>; <ref
