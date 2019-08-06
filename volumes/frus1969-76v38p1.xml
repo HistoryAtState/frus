@@ -27,6 +27,24 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <styleDefDecl scheme="css" schemeVersion="2.1"/>
+            <tagsDecl>
+                <rendition xml:id="top">vertical-align: top;</rendition>
+                <rendition xml:id="bottom">vertical-align: bottom;</rendition>
+                <rendition xml:id="middle">vertical-align: middle;</rendition>
+                <rendition xml:id="nowrap">white-space: nowrap !important;</rendition>
+                <rendition xml:id="nopad">padding-right: 0.5em !important;</rendition>
+                <rendition xml:id="border-top">border-top: 1px black solid;</rendition>
+                <rendition xml:id="border-bottom">border-bottom: 1px black solid;</rendition>
+                <rendition xml:id="border-left">border-left: 1px black solid;</rendition>
+                <rendition xml:id="border-right">border-right: 1px black solid;</rendition>
+                <rendition xml:id="center">display: block; text-align: center;</rendition>
+                <rendition xml:id="center-block">margin-left: auto; margin-right: auto;</rendition>
+                <rendition xml:id="underline">text-decoration: underline;</rendition>
+                <rendition xml:id="hanging">padding-left:1.5em; text-indent:-1.5em;</rendition>
+                <rendition xml:id="left">display: inline; float: left;</rendition>
+                <rendition xml:id="right">display: inline; float: right;</rendition>
+            </tagsDecl>
             <classDecl>
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
@@ -2695,9 +2713,9 @@
                             1969–1974, Box 4, Memos—January 1973. No classification marking. Printed
                             from an uninitialed copy.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-01-25"
-                            calendar="gregorian">January 25, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1973-01-25"
+                                calendar="gregorian">January 25, 1973</date>.</dateline></opener>
                     <p>In talking to <persName corresp="#p_KHA_1">Kissinger</persName>, <persName
                             corresp="#p_CCW_1">Colson</persName>, et al with regard to the Vietnam
                         peace settlement<note n="2" xml:id="d1fn2">On January 23, <persName
@@ -2985,9 +3003,9 @@
                                 >NSC</gloss> Files, Box 526, Country Files—Far East, People’s
                             Republic of China, Vol. 6, Jan–Apr 1973 [1 of 3].</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-03-02"
-                            calendar="gregorian">March 2, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1973-03-02"
+                                calendar="gregorian">March 2, 1973</date>.</dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>My Trip to China</item>
@@ -3321,9 +3339,9 @@
                                 >Public Papers: <persName corresp="#p_NRM_1">Nixon</persName>,
                                 1973</hi>, pp. 169–171.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-03-06"
-                            calendar="gregorian">March 6, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1973-03-06"
+                                calendar="gregorian">March 6, 1973</date>.</dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Department of State Luncheon with Secretary <persName
@@ -3414,9 +3432,9 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1969–1976, volume XXXI,
                                 Foreign Economic Policy, 1973–1976, Document 169</ref>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-03-22"
-                            calendar="gregorian">March 22, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1973-03-22"
+                                calendar="gregorian">March 22, 1973</date>.</dateline></opener>
                     <p>
                         <hi rend="italic">To the Congress of the United States:</hi>
                     </p>
@@ -3512,9 +3530,9 @@
                             Office. His address was broadcast live on nationwide radio and
                             television networks.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-03-29"
-                            calendar="gregorian">March 29, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1973-03-29"
+                                calendar="gregorian">March 29, 1973</date>.</dateline></opener>
                     <p>
                         <hi rend="italic">Good evening:</hi>
                     </p>
@@ -3696,9 +3714,9 @@
                                 <persName corresp="#p_NRM_1">Nixon</persName> has made our foremost
                             national goal.” (Ibid., p. 545)</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-04-19"
-                            calendar="gregorian">April 19, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1973-04-19"
+                                calendar="gregorian">April 19, 1973</date>.</dateline></opener>
                     <p rend="center">1973—A YEAR OF BUILDING</p>
                     <p>1973 will be a year of building in American foreign policy—for in 1973 we
                         will be initiating new negotiations and developing new relationships which
@@ -3842,9 +3860,9 @@
                             Europe. (<hi rend="italic">Years of Upheaval</hi>, pp. 101 and
                             153)</note>
                     </head>
-                    <dateline>
-                        <placeName>New York</placeName>, <date when="1973-04-23"
-                            calendar="gregorian">April 23, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>New York</placeName>, <date when="1973-04-23"
+                                calendar="gregorian">April 23, 1973</date>.</dateline></opener>
                     <p rend="center">The Year of Europe</p>
                     <p>This year has been called the year of Europe, but not because Europe was less
                         important in 1972 or in 1969. The alliance between the United States and
@@ -4234,9 +4252,9 @@
                             President’s Annual Review of Foreign Policy 1972 (Agency Submissions)
                             Vol I)</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-05-03"
-                            calendar="gregorian">May 3, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1973-05-03"
+                                calendar="gregorian">May 3, 1973</date>.</dateline></opener>
                     <p>[Omitted here is the table of contents.]</p>
                     <p rend="center">INTRODUCTION</p>
                     <p>In January 1969, America needed to change the philosophy and practice of its
@@ -4744,9 +4762,9 @@
                                 corresp="#p_BDKE_1">Bruce</persName> presented his credentials in
                             Beijing on May 14.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-05-03"
-                            calendar="gregorian">May 3, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1973-05-03"
+                                calendar="gregorian">May 3, 1973</date>.</dateline></opener>
                     <p>[Omitted here is <persName corresp="#p_NRM_1">Nixon</persName> and <persName
                             corresp="#p_BDKE_1">Bruce</persName>’s meeting with reporters.]</p>
                     <p>
@@ -5207,11 +5225,11 @@
                             35, <gloss target="#t_HAK_1">HAK</gloss> Trip Files, Paris Trip May 17,
                                 1973—<gloss target="#t_Tohak_1">Tohak</gloss> 1–100 [1 of 2])</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-05-18T08:30:00-04:00"
-                            type="conversation-or-meeting-date" calendar="gregorian">May 18, 1973,
-                            8:30 a.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                when="1973-05-18T08:30:00-04:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">May 18, 1973, 8:30 a.m.</date>
+                        </dateline></opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>President <persName corresp="#p_NRM_1">Nixon</persName>
@@ -5374,9 +5392,9 @@
                                 >Nixon</persName>’s recollections of the events, see <hi
                                 rend="italic">RN</hi>, pp. 859–869.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-05-24"
-                            calendar="gregorian">May 24, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1973-05-24"
+                                calendar="gregorian">May 24, 1973</date>.</dateline></opener>
                     <p>[Omitted here are introductory comments.]</p>
                     <p>Now, let me come to the briefing and why I decided to have a briefing.
                         Incidentally, we had first thought it would be a classified briefing, but
@@ -5775,9 +5793,9 @@
                             financier <persName corresp="#p_RD_1">David Rockefeller</persName> to
                             promote hemispheric free trade and open markets.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-06-07"
-                            calendar="gregorian">June 7, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1973-06-07"
+                                calendar="gregorian">June 7, 1973</date>.</dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Meeting with Board of Trustees of the Council of the Americas on
@@ -6064,11 +6082,11 @@
                             omissions in the original. The luncheon conversation took place aboard
                             the Presidential yacht <hi rend="italic">Sequoia</hi>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-08-03T12:30:00-04:00"
-                            type="conversation-or-meeting-date" calendar="gregorian">August 3, 1973,
-                            12:30 p.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                when="1973-08-03T12:30:00-04:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">August 3, 1973, 12:30 p.m.</date>
+                        </dateline></opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>Dr. <persName corresp="#p_KHA_1">Henry A. Kissinger</persName>,
@@ -6290,9 +6308,9 @@
                                 <gloss target="#t_HAK_1">HAK</gloss> Confirmation Material [1 of
                             4].</note>
                     </head>
-                    <dateline>
-                        <placeName>New York</placeName>, <date when="1973-09-24"
-                            calendar="gregorian">September 24, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>New York</placeName>, <date when="1973-09-24"
+                                calendar="gregorian">September 24, 1973</date>.</dateline></opener>
                     <p rend="center">A Just Consensus, A Stable Order, A Durable Peace</p>
                     <p>I come before you today—confirmed in office but two days ago—as probably the
                         world’s most junior Foreign Minister. That President <persName
@@ -6599,9 +6617,9 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1969–1976, volume E–11,
                                 Documents on American Republics, 1973–1976</ref>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-10-06"
-                            calendar="gregorian">October 6, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1973-10-06"
+                                calendar="gregorian">October 6, 1973</date>.</dateline></opener>
                     <p rend="center">LATIN AMERICA: U.S. POLICY AND MAJOR OPERATIONAL PROBLEMS</p>
                     <p rend="sectiontitleital">I. U.S.-Latin American Relations: The Need For A New
                         Conceptual Framework</p>
@@ -6742,9 +6760,9 @@
                             Institutions. The conference’s title is in reference to Pope John
                             XXIII’s 1963 papal encyclical.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-10-08"
-                            calendar="gregorian">October 8, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1973-10-08"
+                                calendar="gregorian">October 8, 1973</date>.</dateline></opener>
                     <p rend="center">Moral Purposes and Policy Choices</p>
                     <p>This is an important anniversary. A year ago today, on October 8, came the
                         breakthrough in the Paris negotiations which led soon afterward to the end
@@ -7193,9 +7211,9 @@
                                 <ref target="frus1969-76v31#d191">volume XXXI, Foreign Economic
                                 Policy, 1973–1976, Document 191</ref>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-10-18"
-                            calendar="gregorian">October 18, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1973-10-18"
+                                calendar="gregorian">October 18, 1973</date>.</dateline></opener>
                     <p>
                         <persName corresp="#p_SGP_1">Shultz</persName>: <persName corresp="#p_BLI_1"
                             >Brezhnev</persName> and <persName corresp="#p_KAN_1">Kosygin</persName>
@@ -7443,10 +7461,11 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1969–1976, volume XXV,
                                 Arab-Israeli Crisis and War, 1973, Document 360</ref>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-11-27T08:30:00-05:00"
-                            calendar="gregorian">November 27, 1973, 8:30 a.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                when="1973-11-27T08:30:00-05:00" calendar="gregorian">November 27,
+                                1973, 8:30 a.m.</date>
+                        </dateline></opener>
                     <p>President <persName corresp="#p_NRM_1">Nixon</persName>: Henry will give you
                         a review of the Middle East.</p>
                     <p>Secretary <persName corresp="#p_KHA_1">Kissinger</persName>: I will summarize
@@ -7814,11 +7833,11 @@
                                 corresp="#p_SWJJ_1">Stoessel</persName>. The conversation took place
                             in the Secretary’s office.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1973-11-28T15:00:00-05:00"
-                            type="conversation-or-meeting-date" calendar="gregorian">November 28,
-                            1973, 3 p.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                when="1973-11-28T15:00:00-05:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">November 28, 1973, 3 p.m.</date>
+                        </dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>
@@ -8549,9 +8568,9 @@
                                 (<persName corresp="#p_LW_1">Winston Lord</persName>) 1969–77, Lot
                             77D112, Box 346, DEC 1973.</note>
                     </head>
-                    <dateline>
-                        <placeName>London</placeName>, <date when="1973-12-12" calendar="gregorian"
-                            >December 12, 1973</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>London</placeName>, <date when="1973-12-12"
+                                calendar="gregorian">December 12, 1973</date>.</dateline></opener>
                     <p rend="center">The United States and a Unifying Europe: The Necessity for
                         Partnership</p>
                     <p>I am grateful for the opportunity to speak to you this evening because, like
@@ -8918,11 +8937,11 @@
                             State of the Union address, the Geneva Conference, and developments in
                             the Middle East.</note>
                     </head>
-                    <dateline>
-                        <placeName>San Clemente, California</placeName>, <date
-                            when="1974-01-02T08:30:00-08:00" type="conversation-or-meeting-date"
-                            calendar="gregorian">January 2, 1974, 8:30 a.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>San Clemente, California</placeName>, <date
+                                when="1974-01-02T08:30:00-08:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">January 2, 1974, 8:30 a.m.</date>
+                        </dateline></opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>Robert Pierpoint, <gloss target="#t_CBS_1">CBS</gloss>-<gloss
@@ -9292,11 +9311,11 @@
                                     <gloss target="#t_SALT_1">SALT</gloss> II,
                             1972–1979</ref>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date from="1974-01-24T15:00:00-04:00"
-                            to="1974-01-24T17:30:00-04:00" calendar="gregorian">January 24, 1974,
-                            3:00–5:30 p.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                from="1974-01-24T15:00:00-04:00" to="1974-01-24T17:30:00-04:00"
+                                calendar="gregorian">January 24, 1974, 3:00–5:30 p.m.</date>
+                        </dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>
@@ -9819,9 +9838,9 @@
                             Tlatelolco, Memoranda to the President and <persName corresp="#p_KHA_1"
                                 >Kissinger</persName>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Mexico City</placeName>, <date when="1974-02-21"
-                            calendar="gregorian">February 21, 1974</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Mexico City</placeName>, <date when="1974-02-21"
+                                calendar="gregorian">February 21, 1974</date>.</dateline></opener>
                     <p>We owe our host country and its leaders a profound debt of gratitude for
                         sponsoring this meeting. Personally, I have spent many happy days in this
                         great country. And I have had the privilege of the advice, wisdom, and on
@@ -10218,11 +10237,12 @@
                                 target="#t_Nodis_1">Nodis</gloss>. The meeting took place at the
                             Pentagon.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date from="1974-03-11T15:10:00-04:00"
-                            to="1974-03-11T16:45:00-04:00" type="conversation-or-meeting-date"
-                            calendar="gregorian">March 11, 1974, 3:10–4:45 p.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                from="1974-03-11T15:10:00-04:00" to="1974-03-11T16:45:00-04:00"
+                                type="conversation-or-meeting-date" calendar="gregorian">March 11,
+                                1974, 3:10–4:45 p.m.</date>
+                        </dateline></opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>Dr. <persName corresp="#p_KHA_1">Henry A. Kissinger</persName>,
@@ -10459,10 +10479,10 @@
                             The meeting was held at the <hi rend="italic">Washington Post</hi>
                             building.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1974-03-13"
-                            type="conversation-or-meeting-date" calendar="gregorian">March 13,
-                            1974</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1974-03-13"
+                                type="conversation-or-meeting-date" calendar="gregorian">March 13,
+                                1974</date>.</dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>
@@ -11035,9 +11055,9 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1969–1976, volume XXXI,
                                 Foreign Economic Policy, 1973–1976, Document 257</ref>.</note>
                     </head>
-                    <dateline>
-                        <placeName>New York</placeName>, <date when="1974-04-15"
-                            calendar="gregorian">April 15, 1974</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>New York</placeName>, <date when="1974-04-15"
+                                calendar="gregorian">April 15, 1974</date>.</dateline></opener>
                     <p rend="center">The Challenge of Interdependence</p>
                     <p>We are gathered here in a continuing venture to realize mankind’s hopes for a
                         more prosperous, humane, just, and cooperative world.</p>
@@ -11496,10 +11516,10 @@
                                 Friedersdorf</persName> attended the meeting. (Ibid., White House
                             Central Files)</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1974-04-24"
-                            type="conversation-or-meeting-date" calendar="gregorian">April 24,
-                            1974</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1974-04-24"
+                                type="conversation-or-meeting-date" calendar="gregorian">April 24,
+                                1974</date>.</dateline></opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>President <persName corresp="#p_NRM_1">Nixon</persName>
@@ -11805,10 +11825,10 @@
                             President <persName corresp="#p_PDN_1">David Parker</persName>. (Ibid.,
                             White House Central Files)</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1974-05-28"
-                            type="conversation-or-meeting-date" calendar="gregorian">May 28,
-                            1974</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1974-05-28"
+                                type="conversation-or-meeting-date" calendar="gregorian">May 28,
+                                1974</date>.</dateline></opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>President <persName corresp="#p_NRM_1">Nixon</persName>
@@ -11940,9 +11960,9 @@
                                 corresp="#p_NRM_1">Nixon</persName>’s address was made before the
                             graduating class of the U.S. Naval Academy.</note>
                     </head>
-                    <dateline>
-                        <placeName>Annapolis, Maryland</placeName>, <date when="1974-06-05"
-                            calendar="gregorian">June 5, 1974</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Annapolis, Maryland</placeName>, <date when="1974-06-05"
+                                calendar="gregorian">June 5, 1974</date>.</dateline></opener>
                     <p rend="center">Pragmatism and Moral Force in American Foreign Policy</p>
                     <p>[Omitted here are <persName corresp="#p_NRM_1">Nixon</persName>’s
                         introductory remarks.]</p>
@@ -12261,11 +12281,11 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1969–1976, volume XV,
                                 Soviet Union, June 1972–August 1974, Document 200</ref>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1974-07-10T08:30:00-04:00"
-                            type="conversation-or-meeting-date" calendar="gregorian">July 10, 1974,
-                            8:30 a.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                when="1974-07-10T08:30:00-04:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">July 10, 1974, 8:30 a.m.</date>
+                        </dateline></opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>President <persName corresp="#p_NRM_1">Nixon</persName>
@@ -12728,11 +12748,11 @@
                             Files—Meetings, Washington Special Actions Group Meeting,
                             8/9/74—Transition)</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date from="1974-08-09T10:47:00-04:00"
-                            to="1974-08-09T11:10:00-04:00" calendar="gregorian">August 9, 1974,
-                            10:47–11:10 a.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                from="1974-08-09T10:47:00-04:00" to="1974-08-09T11:10:00-04:00"
+                                calendar="gregorian">August 9, 1974, 10:47–11:10 a.m.</date>
+                        </dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Transition</item>
@@ -13069,9 +13089,9 @@
                                 target="#t_AEC_1">AEC</gloss>, and the Executive Director of the
                             CIEA.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1974-08-09"
-                            calendar="gregorian">August 9, 1974</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1974-08-09"
+                                calendar="gregorian">August 9, 1974</date>.</dateline></opener>
                     <list>
                         <head>TO</head>
                         <item>The Secretary of State</item>
@@ -13143,11 +13163,11 @@
                                 >NSC</gloss> Meeting, 8/10/74—<gloss target="#t_NSC_1">NSC</gloss>
                             System)</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date from="1974-08-10T11:15:00-04:00"
-                            to="1974-08-10T11:35:00-04:00" calendar="gregorian">August 10, 1974,
-                            11:15–11:35 a.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                from="1974-08-10T11:15:00-04:00" to="1974-08-10T11:35:00-04:00"
+                                calendar="gregorian">August 10, 1974, 11:15–11:35 a.m.</date>
+                        </dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Presidential Transition</item>
@@ -13495,9 +13515,9 @@
                             The President’s speech was broadcast live on nationwide radio and
                             television networks.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1974-08-12"
-                            calendar="gregorian">August 12, 1974</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1974-08-12"
+                                calendar="gregorian">August 12, 1974</date>.</dateline></opener>
                     <p>[Omitted here are <persName corresp="#p_FGR_1">Ford</persName>’s introductory
                         remarks and a discussion of domestic policy.]</p>
                     <p>Successful foreign policy is an extension of the hopes of the whole American
@@ -13604,10 +13624,10 @@
                                 >Nodis</gloss>. Drafted by Robert Anderson (<gloss
                                 target="#t_SPRS_1">S/PRS</gloss>) and retyped on September 6.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1974-08-13"
-                            type="conversation-or-meeting-date" calendar="gregorian">August 13,
-                            1974</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1974-08-13"
+                                type="conversation-or-meeting-date" calendar="gregorian">August 13,
+                                1974</date>.</dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Highlights of Secretary <persName corresp="#p_KHA_1"
@@ -13843,9 +13863,9 @@
                                 rend="italic">Public Papers: <persName corresp="#p_FGR_1"
                                     >Ford</persName>, 1974</hi>, p. 155)</note>
                     </head>
-                    <dateline>
-                        <placeName>New York</placeName>, <date when="1974-09-18"
-                            calendar="gregorian">September 18, 1974</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>New York</placeName>, <date when="1974-09-18"
+                                calendar="gregorian">September 18, 1974</date>.</dateline></opener>
                     <p rend="center">A Framework of International Cooperation</p>
                     <p>In 1946 President <persName corresp="#p_THS_1">Harry Truman</persName>
                         welcomed representatives of 55 nations to the first General Assembly of the
@@ -14088,9 +14108,9 @@
                                 (<persName corresp="#p_LW_1">Winston Lord</persName>) 1969–77, Lot
                             77D112, Box 349, SEPT 1974.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1974-09-19"
-                            calendar="gregorian">September 19, 1974</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1974-09-19"
+                                calendar="gregorian">September 19, 1974</date>.</dateline></opener>
                     <p rend="center">Détente With the Soviet Union: The Reality of Competition and
                         the Imperative of Cooperation</p>
                     <p rend="sectiontitleital">I. The Challenge</p>
@@ -14285,9 +14305,9 @@
                                 (<persName corresp="#p_LW_1">Winston Lord</persName>) 1969–77, Lot
                             77D112, Box 369, WL Sensitive Non-China)</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1974-10-06"
-                            calendar="gregorian">October 6, 1974</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1974-10-06"
+                                calendar="gregorian">October 6, 1974</date>.</dateline></opener>
                     <p>MR. RESTON: You have been sounding rather pessimistic in the last few weeks.
                         Are you worried about the state of the West?</p>
                     <p>SECRETARY KISSINGER: I don’t mean to sound pessimistic. I think that there
@@ -15031,10 +15051,10 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1969–1976, volume XVI,
                                 Soviet Union, August 1974–December 1976, Document 88</ref>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1974-11-16"
-                            type="conversation-or-meeting-date" calendar="gregorian">November 16,
-                            1974</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1974-11-16"
+                                type="conversation-or-meeting-date" calendar="gregorian">November
+                                16, 1974</date>.</dateline></opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>President <persName corresp="#p_FGR_1">Ford</persName>
@@ -15263,10 +15283,11 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1969–1976, volume E–3,
                                 Documents on Global Issues, 1973–1976, Document 245</ref>.</note>
                     </head>
-                    <dateline>
-                        <date when="1974-12-17T17:00:00-05:00" type="conversation-or-meeting-date"
-                            calendar="gregorian">December 17, 1974, 5 p.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <date when="1974-12-17T17:00:00-05:00"
+                                type="conversation-or-meeting-date" calendar="gregorian">December
+                                17, 1974, 5 p.m.</date>
+                        </dateline></opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>The Secretary</item>
@@ -15637,11 +15658,11 @@
                             Chairperson <persName corresp="#p_SML_1">Mary Louise Smith</persName>.
                             (Ibid., Staff Secretary’s Office, White House Daily Diary)</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1975-01-08T11:00:00-05:00"
-                            type="conversation-or-meeting-date" calendar="gregorian">January 8,
-                            1975, 11 a.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                when="1975-01-08T11:00:00-05:00" type="conversation-or-meeting-date"
+                                calendar="gregorian">January 8, 1975, 11 a.m.</date>
+                        </dateline></opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>President <persName corresp="#p_FGR_1">Gerald Ford</persName>
@@ -15716,9 +15737,9 @@
                             address at 1:06 p.m. in the House Chamber at the Capitol. His remarks
                             were broadcast live on nationwide radio and television networks.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1975-01-15"
-                            calendar="gregorian">January 15, 1975</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1975-01-15"
+                                calendar="gregorian">January 15, 1975</date>.</dateline></opener>
                     <p>[Omitted here is discussion of domestic policy.]</p>
                     <p>Now let me turn, if I might, to the international dimension of the present
                         crisis. At no time in our peacetime history has the state of the Nation
@@ -15849,11 +15870,12 @@
                                 target="#t_Nodis_1">Nodis</gloss>. Drafted by William B. Richardson
                             (H) on March 12 and approved by David C. Gompert on May 11.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date from="1975-02-28T18:15:00-04:00"
-                            to="1975-02-28T19:30:00-04:00" type="conversation-or-meeting-date"
-                            calendar="gregorian">February 28, 1975, 6:15–7:30 p.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                from="1975-02-28T18:15:00-04:00" to="1975-02-28T19:30:00-04:00"
+                                type="conversation-or-meeting-date" calendar="gregorian">February
+                                28, 1975, 6:15–7:30 p.m.</date>
+                        </dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Secretary’s Meeting with House and Senate Wednesday Groups, February
@@ -16552,9 +16574,9 @@
                             discuss soonest.” Notations in the upper right hand corner of the first
                             page read: “direct to C” and “Secto 3.”</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1975-04-04"
-                            calendar="gregorian">April 4, 1975</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1975-04-04"
+                                calendar="gregorian">April 4, 1975</date>.</dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Foreign Policy in the Next Phase<note n="2" xml:id="d54fn2">We have
@@ -16835,9 +16857,9 @@
                                 >Kissinger</persName>, <gloss target="#t_TV_1">TV</gloss> Network
                             Representatives)</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1975-04-10"
-                            calendar="gregorian">April 10, 1975</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1975-04-10"
+                                calendar="gregorian">April 10, 1975</date>.</dateline></opener>
                     <p>
                         <hi rend="italic">Mr. Speaker, Mr. President, distinguished guests, my very
                             good friends in the Congress, and fellow Americans:</hi>
@@ -17505,9 +17527,9 @@
                                 >Scowcroft</persName> indicates <persName corresp="#p_KHA_1"
                                 >Kissinger</persName> saw it.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1975-04-15"
-                            calendar="gregorian">April 15, 1975</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1975-04-15"
+                                calendar="gregorian">April 15, 1975</date>.</dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>
@@ -17615,9 +17637,9 @@
                             Agenda for America’s Third Century,” at 8:07 p.m. in the Tulane
                             University Fieldhouse.</note>
                     </head>
-                    <dateline>
-                        <placeName>New Orleans</placeName>, <date when="1975-04-23"
-                            calendar="gregorian">April 23, 1975</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>New Orleans</placeName>, <date when="1975-04-23"
+                                calendar="gregorian">April 23, 1975</date>.</dateline></opener>
                     <p>[Omitted here are introductory remarks.]</p>
                     <p>Today, America can regain the sense of pride that existed before Vietnam. But
                         it cannot be achieved by refighting a war that is finished as far as America
@@ -17827,9 +17849,10 @@
                             Selected Papers, Vol. 8 (global, new multilateral issues, and
                             miscellany), 1974–76)</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1975-05-15T00:21:00+00:00"
-                            calendar="gregorian">May 15, 1975, 0021Z</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                when="1975-05-15T00:21:00+00:00" calendar="gregorian">May 15, 1975,
+                                0021Z</date>.</dateline></opener>
                     <p>113000. Subject: The <gloss target="#t_US_1">US</gloss> Response to Recent
                         Developments in Southeast Asia and Elsewhere.</p>
                     <p>1. I want to share with each of you my thoughts on where we stand and how we
@@ -18015,9 +18038,9 @@
                             entitled “The Global Challenge and International Cooperation,” is ibid.,
                             pp. 149–157.</note>
                     </head>
-                    <dateline>
-                        <placeName>Bloomington, Minnesota</placeName>, <date when="1975-07-15"
-                            calendar="gregorian">July 15, 1975</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Bloomington, Minnesota</placeName>, <date when="1975-07-15"
+                                calendar="gregorian">July 15, 1975</date>.</dateline></opener>
                     <p rend="center">THE MORAL FOUNDATIONS OF FOREIGN POLICY</p>
                     <p>Distinguished Guests, Ladies and Gentlemen: I have long looked forward to
                         coming to Minnesota because it is the home of a man I admire enormously, the
@@ -18516,9 +18539,9 @@
                             he was “not sure this is precisely on the mark. We have assumed that it
                             is strictly for internal consumption.”</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1975-07-18"
-                            calendar="gregorian">July 18, 1975</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1975-07-18"
+                                calendar="gregorian">July 18, 1975</date>.</dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Foreign Policy in Your First Year in Office</item>
@@ -18852,11 +18875,11 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1969–1976, volume XVI,
                                 Soviet Union, August 1974–December 1976, Document 171</ref>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Helsinki</placeName>, <date when="1975-07-30T09:35:00+02:00"
-                            type="conversation-or-meeting-date" calendar="gregorian">July 30, 1975,
-                            9:35 a.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Helsinki</placeName>, <date when="1975-07-30T09:35:00+02:00"
+                                type="conversation-or-meeting-date" calendar="gregorian">July 30,
+                                1975, 9:35 a.m.</date>
+                        </dateline></opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>
@@ -19240,9 +19263,9 @@
                                 European Security, Documents 319</ref>–<ref
                                 target="frus1969-76v39#d339">339</ref>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Helsinki</placeName>, <date when="1975-08-01"
-                            calendar="gregorian">August 1, 1975</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Helsinki</placeName>, <date when="1975-08-01"
+                                calendar="gregorian">August 1, 1975</date>.</dateline></opener>
                     <p>[Omitted here are the President’s introductory remarks.]</p>
                     <p>I have not come across the Atlantic to say what all of us already know—that
                         nations now have the capacity to destroy civilization and, therefore, all
@@ -19527,9 +19550,9 @@
                             354, SEPT 16–30 1975. Confidential; <gloss target="#t_Exdis_1"
                                 >Exdis</gloss>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1975-09-19"
-                            calendar="gregorian">September 19, 1975</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1975-09-19"
+                                calendar="gregorian">September 19, 1975</date>.</dateline></opener>
                     <p rend="sectiontitleital">The Lesson of the New Dialogue</p>
                     <p>We face a curious paradox: our relations with Latin America have improved
                         significantly in the past 18 months—yet the renewed “inter-<pb n="345"
@@ -19817,9 +19840,9 @@
                                 Southeast Asia, 1973–1976, Documents 141</ref> and <ref
                                 target="frus1969-76ve12#d341">341</ref>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Honolulu</placeName>, <date when="1975-12-07"
-                            calendar="gregorian">December 7, 1975</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Honolulu</placeName>, <date when="1975-12-07"
+                                calendar="gregorian">December 7, 1975</date>.</dateline></opener>
                     <p>[Omitted here are introductory remarks.]</p>
                     <p>But it is good to be home again in the United States. I have just completed,
                         as many of you know, a 7-day trip to the State of Alaska, to the People’s
@@ -20039,9 +20062,9 @@
                             World—Hard Choices: American Foreign Policy 1976,” which was shown on
                             the <gloss target="#t_NBC_1">NBC</gloss> network on January 5.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1976-01-03"
-                            calendar="gregorian">January 3, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1976-01-03"
+                                calendar="gregorian">January 3, 1976</date>.</dateline></opener>
                     <p>Tom Brokaw: Mr. President, do you think that it is possible for you to make
                         decisions in the name of national security if those decisions do not reflect
                         the popular will of the people?</p>
@@ -20267,9 +20290,9 @@
                             statement was made before the Subcommittee on African Affairs of the
                             Senate Committee on Foreign Relations.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1976-01-29"
-                            calendar="gregorian">January 29, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1976-01-29"
+                                calendar="gregorian">January 29, 1976</date>.</dateline></opener>
                     <p rend="center">Implications of Angola for Future U.S. Foreign Policy</p>
                     <p>I appear before you not to score debating points in an abstract contest over
                         executive-legislative prerogative. What faces us is a congressional decision
@@ -20667,9 +20690,10 @@
                             and Allan W. Otto (<gloss target="#t_SS_1">S/S</gloss>–O); and approved
                             by <persName corresp="#p_KHA_1">Kissinger</persName>.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1976-02-01T21:39:00+00:00"
-                            calendar="gregorian">February 1, 1976, 2139Z</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                when="1976-02-01T21:39:00+00:00" calendar="gregorian">February 1,
+                                1976, 2139Z</date>.</dateline></opener>
                     <p>24976. For Ambassador. Subject: U.S. Policy Toward <gloss target="#t_USSR_1"
                             >USSR</gloss> and Eastern Europe.</p>
                     <p>1. Following is a non-verbatim summary of the Counselor’s discussion of this
@@ -21000,9 +21024,9 @@
                             of <persName corresp="#p_ELS_1">Lawrence S. Eagleburger</persName>, Lot
                             84D204, Chron—February 1976. Confidential; Eyes Only.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1976-02-24"
-                            calendar="gregorian">February 24, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1976-02-24"
+                                calendar="gregorian">February 24, 1976</date>.</dateline></opener>
                     <p>
                         <gloss target="#t_HAK_1">HAK</gloss>:</p>
                     <p rend="center">Subject: The Future</p>
@@ -21257,9 +21281,9 @@
                             that speech is in Department of State <hi rend="italic">Bulletin</hi>,
                             May 10, 1976, pp. 597–603.</note>
                     </head>
-                    <dateline>
-                        <placeName>Boston</placeName>, <date when="1976-03-11" calendar="gregorian"
-                            >March 11, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Boston</placeName>, <date when="1976-03-11"
+                                calendar="gregorian">March 11, 1976</date>.</dateline></opener>
                     <p rend="center">America’s Permanent Interests</p>
                     <p>I deeply appreciate the honor you bestow upon me today, not only because it
                         is given me by old Massachusetts friends but also for the name it bears.
@@ -21744,9 +21768,9 @@
                             Subcommittee on Future Foreign Policy Research and Development of the
                             House Committee on International Relations.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1976-03-23"
-                            calendar="gregorian">March 23, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1976-03-23"
+                                calendar="gregorian">March 23, 1976</date>.</dateline></opener>
                     <p rend="center">The Triangular Relationship of the United States, the U.S.S.R.,
                         and the People’s Republic of China</p>
                     <p>I appreciate this opportunity to participate in your committee’s examination
@@ -21991,9 +22015,9 @@
                             81D286, Box 3, <persName corresp="#p_SH_1">Sonnenfeldt</persName>
                             Doctrine—Classified. Confidential. The date is handwritten.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1976-03-31"
-                            calendar="gregorian">March 31, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1976-03-31"
+                                calendar="gregorian">March 31, 1976</date>.</dateline></opener>
                     <p rend="center">SONNENFELDT ON EUROPE</p>
                     <p>Hal <persName corresp="#p_SH_1">Sonnenfeldt</persName>, Counselor of the
                         Department of State, addressed the CEP’s Political-Military Sub-Panel on 31
@@ -22139,9 +22163,9 @@
                             intra-regional rivalries and antagonisms—some with a Soviet
                             dimension—from which we might derive leverage.”</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1976-04-12"
-                            calendar="gregorian">April 12, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1976-04-12"
+                                calendar="gregorian">April 12, 1976</date>.</dateline></opener>
                     <p rend="center">Strategy for Southern Africa</p>
                     <p>
                         <gloss target="#t_AF_1">AF</gloss> and <gloss target="#t_ARA_1">ARA</gloss>
@@ -22238,11 +22262,12 @@
                             Oval Office. All brackets, except those indicating omitted material, are
                             in the original.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date from="1976-04-15T09:31:00-05:00"
-                            to="1976-04-15T10:19:00-05:00" type="conversation-or-meeting-date"
-                            calendar="gregorian">April 15, 1976, 9:31–10:19 a.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                from="1976-04-15T09:31:00-05:00" to="1976-04-15T10:19:00-05:00"
+                                type="conversation-or-meeting-date" calendar="gregorian">April 15,
+                                1976, 9:31–10:19 a.m.</date>
+                        </dateline></opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>President <persName corresp="#p_FGR_1">Ford</persName>
@@ -22375,9 +22400,9 @@
                             in an earlier address to the Chicago Council of Foreign Relations, March
                             12. (Ibid., Book I, pp. 643–652)</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1976-04-21"
-                            calendar="gregorian">April 21, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1976-04-21"
+                                calendar="gregorian">April 21, 1976</date>.</dateline></opener>
                     <p>
                         <hi rend="italic">Thank you very much Mrs. Smith,</hi>
                         <note n="2" xml:id="d76fn2">Jane Farwell Smith, President General of the
@@ -22645,9 +22670,9 @@
                                 (<persName corresp="#p_KHA_1">Kissinger</persName>, <hi
                                 rend="italic">Years of Renewal</hi>, p. 925)</note>
                     </head>
-                    <dateline>
-                        <placeName>Lusaka</placeName>, <date when="1976-04-27" calendar="gregorian"
-                            >April 27, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Lusaka</placeName>, <date when="1976-04-27"
+                                calendar="gregorian">April 27, 1976</date>.</dateline></opener>
                     <p rend="center">United States Policy on Southern Africa</p>
                     <p>President <persName corresp="#p_FGR_1">Ford</persName> has sent me here with
                         a message of commitment and cooperation.</p>
@@ -23123,9 +23148,9 @@
                             receiving the Chizuk Amuno Synagogue Distinguished Achievement
                             Award.</note>
                     </head>
-                    <dateline>
-                        <placeName>Baltimore</placeName>, <date when="1976-05-09"
-                            calendar="gregorian">May 9, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Baltimore</placeName>, <date when="1976-05-09"
+                                calendar="gregorian">May 9, 1976</date>.</dateline></opener>
                     <p rend="center">American Resolve and the Security of Israel</p>
                     <p>I want to take a few moments this evening to recall some of our basic
                         objectives and opportunities in the world—the permanent interests and
@@ -23496,9 +23521,9 @@
                             attending an <gloss target="#t_OECD_1">OECD</gloss> summit in Paris, in
                             an unnumbered June 22 telegram. (Ibid., Box 3, CWR—Telegrams)</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1976-06-22"
-                            calendar="gregorian">June 22, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1976-06-22"
+                                calendar="gregorian">June 22, 1976</date>.</dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>North-South Challenge</item>
@@ -23668,9 +23693,9 @@
                             arrived in London on June 24 for meetings with British Prime Minister
                             James Callaghan and Foreign Secretary Anthony Crosland.</note>
                     </head>
-                    <dateline>
-                        <placeName>London</placeName>, <date when="1976-06-25" calendar="gregorian"
-                            >June 25, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>London</placeName>, <date when="1976-06-25"
+                                calendar="gregorian">June 25, 1976</date>.</dateline></opener>
                     <p rend="center">The Western Alliance: Peace and Moral Purpose</p>
                     <p>[Omitted here are <persName corresp="#p_KHA_1">Kissinger</persName>’s
                         introductory remarks focusing on the life and legacy of Alistair Buchan,
@@ -24309,9 +24334,9 @@
                             August 16–19. The Democratic National Convention was held in New York
                             July 12–15.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1976-07-21"
-                            calendar="gregorian">July 21, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1976-07-21"
+                                calendar="gregorian">July 21, 1976</date>.</dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Foreign Policy Issues for Election Year 1976</item>
@@ -24709,9 +24734,9 @@
                             361, SEPT 1–15 1976. Confidential. Drafted by Luigi Einaudi (<gloss
                                 target="#t_SP_1">S/P</gloss>) on August 31.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1976-09-01"
-                            calendar="gregorian">September 1, 1976</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1976-09-01"
+                                calendar="gregorian">September 1, 1976</date>.</dateline></opener>
                     <p rend="center">Latin America: A Deceptive Calm?</p>
                     <p>This has been a good year in our relations with Latin America. Your two
                             trips<note n="2" xml:id="d82fn2">
@@ -25071,11 +25096,12 @@
                                 Papers: <persName corresp="#p_FGR_1">Ford</persName>, 1976–77</hi>,
                             Book III, pp. 2408–2436.</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date from="1976-10-03T14:18:00-04:00"
-                            to="1976-10-03T16:18:00-04:00" type="conversation-or-meeting-date"
-                            calendar="gregorian">October 3, 1976, 2:18–4:18 p.m.</date>
-                    </dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date
+                                from="1976-10-03T14:18:00-04:00" to="1976-10-03T16:18:00-04:00"
+                                type="conversation-or-meeting-date" calendar="gregorian">October 3,
+                                1976, 2:18–4:18 p.m.</date>
+                        </dateline></opener>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>President <persName corresp="#p_FGR_1">Ford</persName>
@@ -25430,10 +25456,11 @@
                             Eight Years in Washington Evaluated,” <hi rend="italic">New York
                                 Times</hi>, January 20, 1977, p. 16)</note>
                     </head>
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1977-01-20"
-                            ana="#date_undated-inferred-from-document-content"
-                            type="publication-date" calendar="gregorian">undated</date>.</dateline>
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1977-01-20"
+                                ana="#date_undated-inferred-from-document-content"
+                                type="publication-date" calendar="gregorian"
+                            >undated</date>.</dateline></opener>
                     <p>Q. <hi rend="italic">A number of serious charges have been made against you,
                             and the Times thought you should have the opportunity to answer them.
                             The first charge is that in a solemn world you tried to be funny.</hi>
@@ -25857,9 +25884,9 @@
                                             target="#d84">84</ref></item>
                                     <item>French aid proposal for, <ref target="#d80">80</ref>
                                     </item>
-                                    <item>Kissinger's visits to, <ref target="#d77">77</ref>, <ref
+                                    <item>Kissinger’s visits to, <ref target="#d77">77</ref>, <ref
                                             target="#d78">78</ref></item>
-                                    <item>Nixon Doctrine's effect on, <ref target="#d9">9</ref>
+                                    <item>Nixon Doctrine’s effect on, <ref target="#d9">9</ref>
                                     </item>
                                     <item>Oil embargo, <ref target="#d22">22</ref>, <ref
                                             target="#d23">23</ref></item>
@@ -26215,7 +26242,7 @@
                             </item>
                             <item>Blair, William M., <ref target="#d46">46</ref>
                             </item>
-                            <item>B'nai B'rith, <ref target="#d83">83</ref>
+                            <item>B’nai B’rith, <ref target="#d83">83</ref>
                             </item>
                             <item>Boggs, Thomas Hale, <ref target="#d40">40</ref>
                             </item>
@@ -26256,21 +26283,21 @@
                                     </item>
                                     <item>Détente, <ref target="#d61">61</ref>
                                     </item>
-                                    <item>Ford's meeting with (Vladivostok, Nov. <hi rend="italic"
+                                    <item>Ford’s meeting with (Vladivostok, Nov. <hi rend="italic"
                                             >1974</hi>), <ref target="#d48">48</ref>, <ref
                                             target="#d60">60</ref>, <ref target="#d62"
                                         >62</ref></item>
-                                    <item>Ford's relationship with, <ref target="#d48">48</ref>
+                                    <item>Ford’s relationship with, <ref target="#d48">48</ref>
                                     </item>
                                     <item>Helsinki Summit, <ref target="#d61">61</ref>, <ref
                                             target="#d62">62</ref></item>
                                     <item>Jackson-Vanik Amendment, <ref target="#d20">20</ref>
                                     </item>
-                                    <item>Nixon's Moscow talks with, <ref target="#d35">35</ref>,
+                                    <item>Nixon’s Moscow talks with, <ref target="#d35">35</ref>,
                                             <ref target="#d36">36</ref></item>
-                                    <item>Nixon's relationship with, <ref target="#d22">22</ref>,
+                                    <item>Nixon’s relationship with, <ref target="#d22">22</ref>,
                                             <ref target="#d29">29</ref></item>
-                                    <item>People's Republic of China military strength, <ref
+                                    <item>People’s Republic of China military strength, <ref
                                             target="#d26">26</ref>
                                     </item>
                                     <item>Strategic Arms Limitation Talks, <ref target="#d26"
@@ -26322,7 +26349,7 @@
                                     <item>Difficulties in foreign policy implementation, <ref
                                             target="#d53">53</ref>
                                     </item>
-                                    <item>Nixon's talks with, <ref target="#d10">10</ref>
+                                    <item>Nixon’s talks with, <ref target="#d10">10</ref>
                                     </item>
                                 </list>
                             </item>
@@ -26492,7 +26519,7 @@
                             <item>Chile, <ref target="#d49">49</ref>, <ref target="#d63">63</ref>,
                                     <ref target="#d81">81</ref>, <ref target="#d82">82</ref>, <ref
                                     target="#d83">83</ref></item>
-                            <item>China, People's Republic of (<hi rend="italic">see also</hi>
+                            <item>China, People’s Republic of (<hi rend="italic">see also</hi>
                                 Sino-Soviet dispute): <list>
                                     <item>As U.S. election issue, <ref target="#d81">81</ref>, <ref
                                             target="#d83">83</ref></item>
@@ -26504,7 +26531,7 @@
                                     </item>
                                     <item>Japan, relations with, <ref target="#d3">3</ref>, <ref
                                             target="#d10">10</ref></item>
-                                    <item>Kissinger's views on, <ref target="#d3">3</ref>, <ref
+                                    <item>Kissinger’s views on, <ref target="#d3">3</ref>, <ref
                                             target="#d15">15</ref></item>
                                     <item>Latin America, relations with, <ref target="#d82">82</ref>
                                     </item>
@@ -26528,22 +26555,22 @@
                                                   target="#d12">12</ref>, <ref target="#d35"
                                                   >35</ref>, <ref target="#d55">55</ref>, <ref
                                                   target="#d65">65</ref></item>
-                                            <item>Ford's re-affirmation of, <ref target="#d41"
+                                            <item>Ford’s re-affirmation of, <ref target="#d41"
                                                   >41</ref>, <ref target="#d55">55</ref></item>
                                             <item>In the early Cold War era, <ref target="#d9"
                                                   >9</ref>
                                             </item>
-                                            <item>Kissinger's visits, <ref target="#d3">3</ref>,
+                                            <item>Kissinger’s visits, <ref target="#d3">3</ref>,
                                                   <ref target="#d84">84</ref></item>
                                             <item>Maintenance of, <ref target="#d50">50</ref>, <ref
                                                   target="#d60">60</ref></item>
-                                            <item>Nixon's approach to, <ref target="#d2">2</ref>,
+                                            <item>Nixon’s approach to, <ref target="#d2">2</ref>,
                                                   <ref target="#d9">9</ref></item>
-                                            <item>Republic of China's role in, <ref target="#d25"
+                                            <item>Republic of China’s role in, <ref target="#d25"
                                                   >25</ref>, <ref target="#d50">50</ref></item>
                                             <item>Sino-Soviet dispute and, <ref target="#d3"
                                                 >3</ref>, <ref target="#d10">10</ref></item>
-                                            <item>Turkish aid cut-off's effect on, <ref
+                                            <item>Turkish aid cut-off’s effect on, <ref
                                                   target="#d52">52</ref>
                                             </item>
                                             <item>U.S. leverage in, <ref target="#d52">52</ref>
@@ -26592,7 +26619,7 @@
                             <item>Clements, William P.: <list>
                                     <item>Cabinet meetings, <ref target="#d20">20</ref>
                                     </item>
-                                    <item>Kissinger's trip to Moscow (Mar. <hi rend="italic"
+                                    <item>Kissinger’s trip to Moscow (Mar. <hi rend="italic"
                                             >1974</hi>), <ref target="#d29">29</ref>
                                     </item>
                                     <item>NSC meetings, <ref target="#d26">26</ref>
@@ -26613,13 +26640,13 @@
                             <item>Cohen, William S., <ref target="#d52">52</ref>
                             </item>
                             <item>Colby, William E.: <list>
-                                    <item>Allende's overthrow, <ref target="#d49">49</ref>
+                                    <item>Allende’s overthrow, <ref target="#d49">49</ref>
                                     </item>
                                     <item>
                                         <hi rend="italic">Hughes Glomar Explorer</hi> mission, <ref
                                             target="#d40">40</ref>
                                     </item>
-                                    <item>Kissinger's meetings with, <ref target="#d25">25</ref>,
+                                    <item>Kissinger’s meetings with, <ref target="#d25">25</ref>,
                                             <ref target="#d30">30</ref></item>
                                     <item>NSC meetings, <ref target="#d26">26</ref>
                                     </item>
@@ -26651,7 +26678,7 @@
                             </item>
                             <item>Communications, <ref target="#d32">32</ref>
                             </item>
-                            <item>Communism's weaknesses, <ref target="#d46">46</ref>
+                            <item>Communism’s weaknesses, <ref target="#d46">46</ref>
                             </item>
                             <item>Community, <ref target="#d17">17</ref>
                             </item>
@@ -26667,7 +26694,7 @@
                                             target="#d36">36</ref></item>
                                     <item>Final Act, <ref target="#d62">62</ref>
                                     </item>
-                                    <item>Ford's participation in, <ref target="#d60">60</ref>, <ref
+                                    <item>Ford’s participation in, <ref target="#d60">60</ref>, <ref
                                             target="#d62">62</ref></item>
                                     <item>Soviet position, <ref target="#d36">36</ref>
                                     </item>
@@ -26764,12 +26791,12 @@
                                     <item>Energy conservation and development, <ref target="#d55"
                                             >55</ref>
                                     </item>
-                                    <item>Ford's meetings with leaders of, <ref target="#d22"
+                                    <item>Ford’s meetings with leaders of, <ref target="#d22"
                                             >22</ref>, <ref target="#d33">33</ref>, <ref
                                             target="#d57">57</ref></item>
-                                    <item>Ford's relations with, <ref target="#d66">66</ref>
+                                    <item>Ford’s relations with, <ref target="#d66">66</ref>
                                     </item>
-                                    <item>Ford's speeches to joint session, <ref target="#d48"
+                                    <item>Ford’s speeches to joint session, <ref target="#d48"
                                             >48</ref>, <ref target="#d55">55</ref>, <ref
                                             target="#d58">58</ref></item>
                                     <item>Foreign policy role of, <ref target="#d58">58</ref>
@@ -26785,20 +26812,20 @@
                                     </item>
                                     <item>Isolationism in, <ref target="#d13">13</ref>
                                     </item>
-                                    <item>Kissinger's meetings with leaders of, <ref target="#d22"
+                                    <item>Kissinger’s meetings with leaders of, <ref target="#d22"
                                             >22</ref>, <ref target="#d33">33</ref>, <ref
                                             target="#d49">49</ref></item>
-                                    <item>Nixon's meetings with leaders of, <ref target="#d22"
+                                    <item>Nixon’s meetings with leaders of, <ref target="#d22"
                                             >22</ref>, <ref target="#d33">33</ref>, <ref
                                             target="#d36">36</ref></item>
-                                    <item>Nixon's messages to, <ref target="#d5">5</ref>, <ref
+                                    <item>Nixon’s messages to, <ref target="#d5">5</ref>, <ref
                                             target="#d9">9</ref></item>
                                     <item>Panama Canal Treaty, <ref target="#d75">75</ref>
                                     </item>
                                     <item>Presidential foreign policy decisions restricted by, <ref
                                             target="#d51">51</ref>
                                     </item>
-                                    <item>Rogers's Annual Reports on U.S. Foreign Policy, <ref
+                                    <item>Rogers’s Annual Reports on U.S. Foreign Policy, <ref
                                             target="#d7">7</ref>
                                     </item>
                                     <item>Southern Africa, <ref target="#d74">74</ref>
@@ -26875,7 +26902,7 @@
                                             target="#d36">36</ref></item>
                                     <item>Economic sanctions against, <ref target="#d82">82</ref>
                                     </item>
-                                    <item>Reagan's charges of U.S. weakness in, <ref target="#d75"
+                                    <item>Reagan’s charges of U.S. weakness in, <ref target="#d75"
                                             >75</ref>
                                     </item>
                                     <item>Southern African role of, <ref target="#d74">74</ref>
@@ -26959,12 +26986,12 @@
                                             </item>
                                             <item>Increases requested in, <ref target="#d26"
                                                   >26</ref>, <ref target="#d76">76</ref></item>
-                                            <item>Kissinger's input on, <ref target="#d4">4</ref>,
+                                            <item>Kissinger’s input on, <ref target="#d4">4</ref>,
                                                   <ref target="#d25">25</ref></item>
                                             <item>Nixon-State Department meeting on, <ref
                                                   target="#d4">4</ref>
                                             </item>
-                                            <item>Nixon's speeches on, <ref target="#d6">6</ref>
+                                            <item>Nixon’s speeches on, <ref target="#d6">6</ref>
                                             </item>
                                         </list>
                                     </item>
@@ -27021,26 +27048,26 @@
                                     <item>Increasing Soviet military strength and, <ref
                                             target="#d68">68</ref>
                                     </item>
-                                    <item>Jackson-Vanik Amendment's effect on, <ref target="#d19"
+                                    <item>Jackson-Vanik Amendment’s effect on, <ref target="#d19"
                                             >19</ref>
                                     </item>
-                                    <item>MFN status' effect on, <ref target="#d19">19</ref>, <ref
+                                    <item>MFN status’ effect on, <ref target="#d19">19</ref>, <ref
                                             target="#d29">29</ref>, <ref target="#d60"
                                         >60</ref></item>
                                     <item>Nixon-Kissinger talks on, <ref target="#d25">25</ref>
                                     </item>
                                     <item>In the post-Vietnam War era, <ref target="#d58">58</ref>
                                     </item>
-                                    <item>Reagan's view of, <ref target="#d69">69</ref>
+                                    <item>Reagan’s view of, <ref target="#d69">69</ref>
                                     </item>
-                                    <item>Solzhenitsyn's deportation's effect on, <ref target="#d35"
+                                    <item>Solzhenitsyn’s deportation’s effect on, <ref target="#d35"
                                             >35</ref>
                                     </item>
                                     <item>Soviet role in Angola and, <ref target="#d64">64</ref>
                                     </item>
                                     <item>Soviet view of, <ref target="#d20">20</ref>
                                     </item>
-                                    <item>Trade Reform Bill's effect on, <ref target="#d19"
+                                    <item>Trade Reform Bill’s effect on, <ref target="#d19"
                                         >19</ref>, <ref target="#d31">31</ref></item>
                                     <item>U.S. view of, <ref target="#d9">9</ref>, <ref
                                             target="#d13">13</ref>, <ref target="#d22">22</ref>,
@@ -27121,7 +27148,7 @@
                                     <item>Foreign policy issues for election year, <ref
                                             target="#d81">81</ref>
                                     </item>
-                                    <item>Kissinger's status in Washington, <ref target="#d70"
+                                    <item>Kissinger’s status in Washington, <ref target="#d70"
                                             >70</ref>
                                     </item>
                                 </list>
@@ -27233,7 +27260,7 @@
                             <item>Energy Action Group, <ref target="#d24">24</ref>, <ref
                                     target="#d27">27</ref></item>
                             <item>Energy conservation and development: <list>
-                                    <item>Arab oil embargo's effect on, <ref target="#d21">21</ref>,
+                                    <item>Arab oil embargo’s effect on, <ref target="#d21">21</ref>,
                                             <ref target="#d23">23</ref>, <ref target="#d27"
                                         >27</ref></item>
                                     <item>Congressional action on, <ref target="#d55">55</ref>
@@ -27304,19 +27331,19 @@
                                             target="#d46">46</ref></item>
                                     <item>Isolationism in, <ref target="#d2">2</ref>
                                     </item>
-                                    <item>Kissinger's speech on the Year of, <ref target="#d8"
+                                    <item>Kissinger’s speech on the Year of, <ref target="#d8"
                                             >8</ref>, <ref target="#d23">23</ref>, <ref
                                             target="#d24">24</ref>, <ref target="#d30">30</ref>,
                                             <ref target="#d36">36</ref>, <ref target="#d46"
                                         >46</ref></item>
-                                    <item>Kissinger's view of, <ref target="#d30">30</ref>
+                                    <item>Kissinger’s view of, <ref target="#d30">30</ref>
                                     </item>
                                     <item>MBFR talks, <ref target="#d23">23</ref>, <ref
                                             target="#d24">24</ref>, <ref target="#d36"
                                         >36</ref></item>
-                                    <item>Nixon Doctrine's effect on, <ref target="#d9">9</ref>
+                                    <item>Nixon Doctrine’s effect on, <ref target="#d9">9</ref>
                                     </item>
-                                    <item>People's Republic of China, relations with, <ref
+                                    <item>People’s Republic of China, relations with, <ref
                                             target="#d3">3</ref>
                                     </item>
                                     <item>Soviet trade with, <ref target="#d36">36</ref>, <ref
@@ -27450,7 +27477,7 @@
                                     </item>
                                     <item>Arab-Israeli dispute, <ref target="#d22">22</ref>
                                     </item>
-                                    <item>Brezhnev's relationship with, <ref target="#d48">48</ref>
+                                    <item>Brezhnev’s relationship with, <ref target="#d48">48</ref>
                                     </item>
                                     <item>Cambodia, <ref target="#d55">55</ref>
                                     </item>
@@ -27559,14 +27586,14 @@
                                         >41</ref></item>
                                     <item>Peace through strength, <ref target="#d43">43</ref>
                                     </item>
-                                    <item>People's Republic of China-U.S. relations, <ref
+                                    <item>People’s Republic of China-U.S. relations, <ref
                                             target="#d41">41</ref>, <ref target="#d55"
                                         >55</ref></item>
                                     <item>Presidential transition, <ref target="#d37">37</ref>, <ref
                                             target="#d38">38</ref>, <ref target="#d40">40</ref>,
                                             <ref target="#d41">41</ref>, <ref target="#d42"
                                         >42</ref></item>
-                                    <item>Reagan's charges answered by, <ref target="#d69">69</ref>
+                                    <item>Reagan’s charges answered by, <ref target="#d69">69</ref>
                                     </item>
                                     <item>Reconciliation in the post-Vietnam War era, <ref
                                             target="#d57">57</ref>
@@ -27670,14 +27697,14 @@
                                                   target="#d51">51</ref>, <ref target="#d55"
                                                   >55</ref>, <ref target="#d60">60</ref>, <ref
                                                   target="#d65">65</ref></item>
-                                            <item>People's Republic of China, Philippines, Indonesia
+                                            <item>People’s Republic of China, Philippines, Indonesia
                                                 (Dec. <hi rend="italic">1975</hi>), <ref
                                                   target="#d65">65</ref>
                                             </item>
-                                            <item>People's Republic of China (<hi rend="italic"
+                                            <item>People’s Republic of China (<hi rend="italic"
                                                   >1972</hi>), <ref target="#d41">41</ref>
                                             </item>
-                                            <item>People's Republic of China (Dec. <hi rend="italic"
+                                            <item>People’s Republic of China (Dec. <hi rend="italic"
                                                   >1975</hi>), <ref target="#d55">55</ref>, <ref
                                                   target="#d60">60</ref></item>
                                             <item>Poland (July <hi rend="italic">1975</hi>), <ref
@@ -27710,7 +27737,7 @@
                                             target="#d71">71</ref>, <ref target="#d75">75</ref>,
                                             <ref target="#d81">81</ref>, <ref target="#d83"
                                         >83</ref>, <ref target="#d84">84</ref></item>
-                                    <item>Assessment of Ford's first year in office, <ref
+                                    <item>Assessment of Ford’s first year in office, <ref
                                             target="#d60">60</ref>
                                     </item>
                                     <item>Congressional role in, <ref target="#d58">58</ref>
@@ -27723,13 +27750,13 @@
                                     <item>Issues for <hi rend="italic">1975</hi>, <ref target="#d50"
                                             >50</ref>
                                     </item>
-                                    <item>Nixon's annual reports on, <ref target="#d9">9</ref>
+                                    <item>Nixon’s annual reports on, <ref target="#d9">9</ref>
                                     </item>
                                     <item>Paris Peace Accords as major achievement in, <ref
                                             target="#d7">7</ref>, <ref target="#d26">26</ref></item>
                                     <item>Role in Latin America of, <ref target="#d82">82</ref>
                                     </item>
-                                    <item>Watergate's effect on, <ref target="#d15">15</ref>, <ref
+                                    <item>Watergate’s effect on, <ref target="#d15">15</ref>, <ref
                                             target="#d38">38</ref>, <ref target="#d46"
                                         >46</ref></item>
                                 </list>
@@ -27840,7 +27867,7 @@
                                     <item>Agreement on the Prevention of Nuclear War (<hi
                                             rend="italic">1973</hi>), <ref target="#d23">23</ref>
                                     </item>
-                                    <item>Ford's visit to, <ref target="#d62">62</ref>
+                                    <item>Ford’s visit to, <ref target="#d62">62</ref>
                                     </item>
                                     <item>GDR agreement with, <ref target="#d62">62</ref>
                                     </item>
@@ -27854,7 +27881,7 @@
                                     <item>Quadripartite Agreement on Berlin (<hi rend="italic"
                                             >1972</hi>), <ref target="#d7">7</ref>, <ref
                                             target="#d62">62</ref></item>
-                                    <item>Solzhenitsyn's exile to, <ref target="#d35">35</ref>
+                                    <item>Solzhenitsyn’s exile to, <ref target="#d35">35</ref>
                                     </item>
                                     <item>United States, relations with, <ref target="#d30">30</ref>
                                     </item>
@@ -27872,7 +27899,7 @@
                             </item>
                             <item>Gilliam, Jerry, <ref target="#d75">75</ref>
                             </item>
-                            <item>Giscard d'Estaing, Valéry, <ref target="#d36">36</ref>, <ref
+                            <item>Giscard d’Estaing, Valéry, <ref target="#d36">36</ref>, <ref
                                     target="#d80">80</ref>, <ref target="#d83">83</ref></item>
                             <item>Gladstone, William, <ref target="#d78">78</ref>
                             </item>
@@ -27956,12 +27983,12 @@
                                     </item>
                                     <item>Jackson-Vanik Amendment, <ref target="#d19">19</ref>
                                     </item>
-                                    <item>Kissinger's meetings with, <ref target="#d34">34</ref>
+                                    <item>Kissinger’s meetings with, <ref target="#d34">34</ref>
                                     </item>
                                     <item>Middle East diplomacy of, <ref target="#d30">30</ref>
                                     </item>
                                     <pb n="493" facs="0000" xml:id="pg_493"/>
-                                    <item>Nixon's talks with, <ref target="#d33">33</ref>
+                                    <item>Nixon’s talks with, <ref target="#d33">33</ref>
                                     </item>
                                 </list>
                             </item>
@@ -28055,7 +28082,7 @@
                             <item>House of Representatives, U.S.: <list>
                                     <item>Appropriations Committee, <ref target="#d40">40</ref>,
                                             <ref target="#d76">76</ref></item>
-                                    <item>Ford's speeches before, <ref target="#d41">41</ref>, <ref
+                                    <item>Ford’s speeches before, <ref target="#d41">41</ref>, <ref
                                             target="#d51">51</ref></item>
                                     <item>Future Foreign Policy Research and Development
                                         Subcommittee (International Relations Committee), <ref
@@ -28128,7 +28155,7 @@
                                     </item>
                                     <item>Pakistan, relations with, <ref target="#d17">17</ref>
                                     </item>
-                                    <item>People's Republic of China, relations with, <ref
+                                    <item>People’s Republic of China, relations with, <ref
                                             target="#d10">10</ref>
                                     </item>
                                     <item>Seen as Soviet satellite, <ref target="#d3">3</ref>, <ref
@@ -28422,7 +28449,7 @@
                                     </item>
                                     <item>Nuclear weapons development, <ref target="#d13">13</ref>
                                     </item>
-                                    <item>People's Republic of China, relations with, <ref
+                                    <item>People’s Republic of China, relations with, <ref
                                             target="#d3">3</ref>, <ref target="#d10">10</ref></item>
                                     <item>as seen by Kissinger, <ref target="#d15">15</ref>, <ref
                                             target="#d48">48</ref></item>
@@ -28434,7 +28461,7 @@
                                             target="#d55">55</ref>, <ref target="#d84"
                                         >84</ref></item>
                                     <item>United States, relations with: <list>
-                                            <item>Ford's visit (Nov. <hi rend="italic">1974</hi>),
+                                            <item>Ford’s visit (Nov. <hi rend="italic">1974</hi>),
                                                   <ref target="#d48">48</ref>, <ref target="#d51"
                                                   >51</ref>, <ref target="#d55">55</ref>, <ref
                                                   target="#d60">60</ref>, <ref target="#d65"
@@ -28492,10 +28519,10 @@
                             <item>Johnson, U. Alexis, <ref target="#d4">4</ref>, <ref target="#d26"
                                     >26</ref></item>
                             <item>Joint Chiefs of Staff (JCS): <list>
-                                    <item>Kissinger's trip to Moscow (Mar. <hi rend="italic"
+                                    <item>Kissinger’s trip to Moscow (Mar. <hi rend="italic"
                                             >1974</hi>), <ref target="#d29">29</ref>
                                     </item>
-                                    <item>Nixon's meetings with, <ref target="#d2">2</ref>, <ref
+                                    <item>Nixon’s meetings with, <ref target="#d2">2</ref>, <ref
                                             target="#d25">25</ref>, <ref target="#d38"
                                         >38</ref></item>
                                 </list>
@@ -28592,11 +28619,11 @@
                                             target="#d3">3</ref>, <ref target="#d14">14</ref></item>
                                     <item>British-U.S. relations, <ref target="#d24">24</ref>
                                     </item>
-                                    <item>Carter's relationship with, <ref target="#d83">83</ref>
+                                    <item>Carter’s relationship with, <ref target="#d83">83</ref>
                                     </item>
-                                    <item>Colson's view of, <ref target="#d52">52</ref>
+                                    <item>Colson’s view of, <ref target="#d52">52</ref>
                                     </item>
-                                    <item>Communism's weaknesses, <ref target="#d46">46</ref>
+                                    <item>Communism’s weaknesses, <ref target="#d46">46</ref>
                                     </item>
                                     <item>Congressional-White House relations, <ref target="#d1"
                                             >1</ref>
@@ -28643,7 +28670,7 @@
                                     <item>Food scarcity, <ref target="#d44">44</ref>, <ref
                                             target="#d46">46</ref>, <ref target="#d47"
                                         >47</ref></item>
-                                    <item>Foreign policy assessment of Ford's first year in office,
+                                    <item>Foreign policy assessment of Ford’s first year in office,
                                             <ref target="#d60">60</ref>
                                     </item>
                                     <item>Foreign policy issues for <hi rend="italic">1975</hi>,
@@ -28762,15 +28789,15 @@
                                         >32</ref></item>
                                     <item>Morality in foreign policy, <ref target="#d70">70</ref>
                                     </item>
-                                    <item>Nixon's annual review of foreign policy, <ref target="#d9"
+                                    <item>Nixon’s annual review of foreign policy, <ref target="#d9"
                                             >9</ref>
                                     </item>
-                                    <item>Nixon's relationship with, <ref target="#d25">25</ref>,
+                                    <item>Nixon’s relationship with, <ref target="#d25">25</ref>,
                                             <ref target="#d30">30</ref>, <ref target="#d52"
                                         >52</ref></item>
-                                    <item>Nixon's resignation, <ref target="#d42">42</ref>
+                                    <item>Nixon’s resignation, <ref target="#d42">42</ref>
                                     </item>
-                                    <item>Nixon's views on, <ref target="#d52">52</ref>
+                                    <item>Nixon’s views on, <ref target="#d52">52</ref>
                                     </item>
                                     <item>Nonintervention, <ref target="#d28">28</ref>
                                     </item>
@@ -28789,7 +28816,7 @@
                                     </item>
                                     <item>Peace through strength, <ref target="#d43">43</ref>, <ref
                                             target="#d78">78</ref></item>
-                                    <item>People's Republic of China, <ref target="#d3">3</ref>,
+                                    <item>People’s Republic of China, <ref target="#d3">3</ref>,
                                             <ref target="#d15">15</ref>, <ref target="#d84"
                                         >84</ref></item>
                                     <item>Permanent interests of the United States, <ref
@@ -28810,13 +28837,13 @@
                                     </item>
                                     <item>SALT I treaty, <ref target="#d25">25</ref>, <ref
                                             target="#d84">84</ref></item>
-                                    <item>Saudi Arabia's role in oil embargo, <ref target="#d52"
+                                    <item>Saudi Arabia’s role in oil embargo, <ref target="#d52"
                                             >52</ref>
                                     </item>
-                                    <item>Schlesinger's Overseas Press Club speech as critiqued by
+                                    <item>Schlesinger’s Overseas Press Club speech as critiqued by
                                         Scowcroft, <ref target="#d56">56</ref>
                                     </item>
-                                    <item>Schlesinger's relationship with, <ref target="#d30"
+                                    <item>Schlesinger’s relationship with, <ref target="#d30"
                                             >30</ref>
                                     </item>
                                     <item>Science and technology, <ref target="#d17">17</ref>, <ref
@@ -28978,13 +29005,13 @@
                                             <item>Moscow (Mar. <hi rend="italic">1974</hi>), <ref
                                                   target="#d29">29</ref>, <ref target="#d30"
                                                   >30</ref></item>
-                                            <item>People's Republic of China (July <hi rend="italic"
+                                            <item>People’s Republic of China (July <hi rend="italic"
                                                   >1971</hi>), <ref target="#d3">3</ref>, <ref
                                                   target="#d84">84</ref></item>
-                                            <item>People's Republic of China (June <hi rend="italic"
+                                            <item>People’s Republic of China (June <hi rend="italic"
                                                   >1972</hi>), <ref target="#d3">3</ref>
                                             </item>
-                                            <item>People's Republic of China (Feb. <hi rend="italic"
+                                            <item>People’s Republic of China (Feb. <hi rend="italic"
                                                   >1973</hi>), <ref target="#d3">3</ref>
                                             </item>
                                             <item>Paris (May <hi rend="italic">1973</hi>), <ref
@@ -28994,7 +29021,7 @@
                                     </item>
                                 </list>
                             </item>
-                            <item>Korea, Democratic People's Republic of (DPRK): <list>
+                            <item>Korea, Democratic People’s Republic of (DPRK): <list>
                                     <item>ROK, relations with, <ref target="#d17">17</ref>
                                     </item>
                                     <item>U.N. membership for, <ref target="#d17">17</ref>
@@ -29007,7 +29034,7 @@
                             <item>Korea, Republic of (ROK): <list>
                                     <item>DPRK, relations with, <ref target="#d17">17</ref>
                                     </item>
-                                    <item>Ford's visit (Nov. <hi rend="italic">1974</hi>), <ref
+                                    <item>Ford’s visit (Nov. <hi rend="italic">1974</hi>), <ref
                                             target="#d48">48</ref>, <ref target="#d51">51</ref>,
                                             <ref target="#d55">55</ref>, <ref target="#d60"
                                         >60</ref>, <ref target="#d65">65</ref></item>
@@ -29078,16 +29105,16 @@
                                     </item>
                                     <item>Japan, relations with, <ref target="#d82">82</ref>
                                     </item>
-                                    <item>Kissinger's meeting with Foreign Ministers of, <ref
+                                    <item>Kissinger’s meeting with Foreign Ministers of, <ref
                                             target="#d63">63</ref>
                                     </item>
                                     <item>MFM Working Groups, <ref target="#d63">63</ref>
                                     </item>
                                     <item>New Dialogue meetings, <ref target="#d63">63</ref>, <ref
                                             target="#d82">82</ref></item>
-                                    <item>Nixon Doctrine's effect on, <ref target="#d9">9</ref>
+                                    <item>Nixon Doctrine’s effect on, <ref target="#d9">9</ref>
                                     </item>
-                                    <item>People's Republic of China, relations with, <ref
+                                    <item>People’s Republic of China, relations with, <ref
                                             target="#d82">82</ref>
                                     </item>
                                     <item>Regionalism in, <ref target="#d18">18</ref>
@@ -29213,9 +29240,9 @@
                                 </list>
                             </item>
                             <item>Mao Zedong: <list>
-                                    <item>Ford's talks with, <ref target="#d65">65</ref>
+                                    <item>Ford’s talks with, <ref target="#d65">65</ref>
                                     </item>
-                                    <item>Kissinger's talks with, <ref target="#d3">3</ref>, <ref
+                                    <item>Kissinger’s talks with, <ref target="#d3">3</ref>, <ref
                                             target="#d29">29</ref></item>
                                     <item>Succession issues, <ref target="#d10">10</ref>
                                     </item>
@@ -29321,7 +29348,7 @@
                                     >8</ref>, <ref target="#d27">27</ref>, <ref target="#d28"
                                     >28</ref>, <ref target="#d32">32</ref>, <ref target="#d80"
                                     >80</ref></item>
-                            <item>Montgomery Ward's, <ref target="#d84">84</ref>
+                            <item>Montgomery Ward’s, <ref target="#d84">84</ref>
                             </item>
                             <item>Moore, George C., <ref target="#d4">4</ref>
                             </item>
@@ -29338,7 +29365,7 @@
                                     </item>
                                     <item>Israeli security and, <ref target="#d78">78</ref>
                                     </item>
-                                    <item>Kissinger's failure to place emphasis on, <ref
+                                    <item>Kissinger’s failure to place emphasis on, <ref
                                             target="#d70">70</ref>
                                     </item>
                                     <item>Pragmatism vs., <ref target="#d19">19</ref>, <ref
@@ -29523,16 +29550,16 @@
                                     </item>
                                     <item>Arab oil embargo, <ref target="#d21">21</ref>, <ref
                                             target="#d27">27</ref></item>
-                                    <item>Brezhnev's relationship with, <ref target="#d22">22</ref>,
+                                    <item>Brezhnev’s relationship with, <ref target="#d22">22</ref>,
                                             <ref target="#d29">29</ref></item>
-                                    <item>Brezhnev's talks in Moscow with, <ref target="#d35"
+                                    <item>Brezhnev’s talks in Moscow with, <ref target="#d35"
                                             >35</ref>, <ref target="#d36">36</ref></item>
-                                    <item>Brezhnev's visit (June <hi rend="italic">1973</hi>), <ref
+                                    <item>Brezhnev’s visit (June <hi rend="italic">1973</hi>), <ref
                                             target="#d10">10</ref>, <ref target="#d11">11</ref>,
                                             <ref target="#d12">12</ref>, <ref target="#d14"
                                         >14</ref>, <ref target="#d30">30</ref>, <ref target="#d36"
                                             >36</ref></item>
-                                    <item>Bruce's talks with, <ref target="#d10">10</ref>
+                                    <item>Bruce’s talks with, <ref target="#d10">10</ref>
                                     </item>
                                     <item>Congressional-White House relations, <ref target="#d1"
                                             >1</ref>
@@ -29576,7 +29603,7 @@
                                             >9</ref>, <ref target="#d12">12</ref>, <ref
                                             target="#d13">13</ref>, <ref target="#d35"
                                         >35</ref></item>
-                                    <item>Israel's influence in U.S. politics, <ref target="#d11"
+                                    <item>Israel’s influence in U.S. politics, <ref target="#d11"
                                             >11</ref>
                                     </item>
                                     <item>Jackson-Vanik Amendment, <ref target="#d20">20</ref>
@@ -29586,10 +29613,10 @@
                                     <item>Kissinger appointed as Secretary of State by, <ref
                                             target="#d16">16</ref>
                                     </item>
-                                    <item>Kissinger's relationship with, <ref target="#d25"
+                                    <item>Kissinger’s relationship with, <ref target="#d25"
                                         >25</ref>, <ref target="#d30">30</ref>, <ref target="#d52"
                                             >52</ref></item>
-                                    <item>Kissinger's U.N. speech (Sept. <hi rend="italic"
+                                    <item>Kissinger’s U.N. speech (Sept. <hi rend="italic"
                                         >1973</hi>), <ref target="#d17">17</ref>
                                     </item>
                                     <item>Latin America, <ref target="#d2">2</ref>
@@ -29655,7 +29682,7 @@
                                             target="#d1">1</ref>, <ref target="#d26">26</ref></item>
                                     <item>Peacekeeping, <ref target="#d33">33</ref>
                                     </item>
-                                    <item>People's Republic of China: <list>
+                                    <item>People’s Republic of China: <list>
                                             <item>Military strength of, <ref target="#d26">26</ref>
                                             </item>
                                             <item>Succession issue, <ref target="#d3">3</ref>, <ref
@@ -29663,7 +29690,7 @@
                                             <item>United States, relations with: <list>
                                                   <item>Establishment of, <ref target="#d7">7</ref>,
                                                   <ref target="#d12">12</ref></item>
-                                                  <item>Nixon's approach to, <ref target="#d2"
+                                                  <item>Nixon’s approach to, <ref target="#d2"
                                                   >2</ref>, <ref target="#d9">9</ref></item>
                                                   <item>Vietnam War and, <ref target="#d3">3</ref>
                                                   </item>
@@ -29687,7 +29714,7 @@
                                     <item>Soviet Union: <list>
                                             <item>MFN for, <ref target="#d11">11</ref>
                                             </item>
-                                            <item>Solzhenitsyn's deportation's effect on, <ref
+                                            <item>Solzhenitsyn’s deportation’s effect on, <ref
                                                   target="#d35">35</ref>
                                             </item>
                                             <item>United States, relations with, <ref target="#d2"
@@ -29763,7 +29790,7 @@
                                             <item>Moscow (May <hi rend="italic">1972</hi>), <ref
                                                   target="#d7">7</ref>, <ref target="#d36"
                                                 >36</ref></item>
-                                            <item>People's Republic of China (Feb. <hi rend="italic"
+                                            <item>People’s Republic of China (Feb. <hi rend="italic"
                                                   >1972</hi>), <ref target="#d3">3</ref>, <ref
                                                   target="#d17">17</ref></item>
                                             <item>Poland (May–June <hi rend="italic">1972</hi>),
@@ -29819,7 +29846,7 @@
                                     <item>Harmel Report (Dec. <hi rend="italic">1967</hi>), <ref
                                             target="#d80">80</ref>
                                     </item>
-                                    <item>People's Republic of China's position, <ref target="#d10"
+                                    <item>People’s Republic of China’s position, <ref target="#d10"
                                             >10</ref>, <ref target="#d29">29</ref></item>
                                     <item>Portuguese exclusion from, <ref target="#d54">54</ref>
                                     </item>
@@ -29889,7 +29916,7 @@
                                     </item>
                                     <item>Peaceful use of, <ref target="#d36">36</ref>
                                     </item>
-                                    <item>People's Republic of China development of, <ref
+                                    <item>People’s Republic of China development of, <ref
                                             target="#d36">36</ref>
                                     </item>
                                     <item>Possession of forbidden to Germany, <ref target="#d13"
@@ -29970,7 +29997,7 @@
                                     </item>
                                 </list>
                             </item>
-                            <item>O'Neill, Thomas P., <ref target="#d22">22</ref>, <ref
+                            <item>O’Neill, Thomas P., <ref target="#d22">22</ref>, <ref
                                     target="#d33">33</ref>, <ref target="#d49">49</ref></item>
                             <item>Operation Condor, <ref target="#d82">82</ref>
                             </item>
@@ -30063,7 +30090,7 @@
                                         >56</ref></item>
                                     <item>First anniversary of, <ref target="#d19">19</ref>
                                     </item>
-                                    <item>Ford's re-affirmation of, <ref target="#d40">40</ref>,
+                                    <item>Ford’s re-affirmation of, <ref target="#d40">40</ref>,
                                             <ref target="#d41">41</ref></item>
                                     <item>Laos as affected by, <ref target="#d1">1</ref>, <ref
                                             target="#d6">6</ref>, <ref target="#d7">7</ref></item>
@@ -30131,7 +30158,7 @@
                                     </item>
                                     <item>Food security, <ref target="#d26">26</ref>
                                     </item>
-                                    <item>Kissinger's visit (Feb. <hi rend="italic">1976</hi>), <ref
+                                    <item>Kissinger’s visit (Feb. <hi rend="italic">1976</hi>), <ref
                                             target="#d82">82</ref>
                                     </item>
                                     <item>United States, relations with, <ref target="#d28">28</ref>
@@ -30220,7 +30247,7 @@
                                     target="#d38">38</ref>, <ref target="#d39">39</ref>, <ref
                                     target="#d40">40</ref>, <ref target="#d41">41</ref>, <ref
                                     target="#d42">42</ref></item>
-                            <item>President's Foreign Intelligence Advisory Board (PFIAB), <ref
+                            <item>President’s Foreign Intelligence Advisory Board (PFIAB), <ref
                                     target="#d15">15</ref>
                             </item>
                             <item>Price, Raymond K., Jr., <ref target="#d20">20</ref>
@@ -30277,7 +30304,7 @@
                             <item>Ray, Dixie Lee, <ref target="#d39">39</ref>
                             </item>
                             <item>
-                                <hi rend="italic">Reader's Digest</hi>, <ref target="#d61">61</ref>
+                                <hi rend="italic">Reader’s Digest</hi>, <ref target="#d61">61</ref>
                             </item>
                             <item>Reagan, Ronald W., <ref target="#d69">69</ref>, <ref target="#d75"
                                     >75</ref></item>
@@ -30333,12 +30360,12 @@
                                     </item>
                                     <item>Demonstrations against, <ref target="#d11">11</ref>
                                     </item>
-                                    <item>Nixon's meetings with, <ref target="#d4">4</ref>
+                                    <item>Nixon’s meetings with, <ref target="#d4">4</ref>
                                     </item>
-                                    <item>People's Republic of China's succession issue, <ref
+                                    <item>People’s Republic of China’s succession issue, <ref
                                             target="#d3">3</ref>
                                     </item>
-                                    <item>President's annual review of foreign policy, <ref
+                                    <item>President’s annual review of foreign policy, <ref
                                             target="#d9">9</ref>
                                     </item>
                                     <item>Reports on U.S. Foreign Policy, <ref target="#d7">7</ref>
@@ -30355,7 +30382,7 @@
                                 <list>
                                     <item>As U.S. election issue, <ref target="#d83">83</ref>
                                     </item>
-                                    <item>Ford's and Nixon's visits to, <ref target="#d80">80</ref>,
+                                    <item>Ford’s and Nixon’s visits to, <ref target="#d80">80</ref>,
                                             <ref target="#d83">83</ref></item>
                                     <item>MBFR talks, <ref target="#d23">23</ref>
                                     </item>
@@ -30417,10 +30444,10 @@
                                     <item>Foreign policy issues for <hi rend="italic">1975</hi>,
                                             <ref target="#d50">50</ref>
                                     </item>
-                                    <item>Kissinger's relationship with, <ref target="#d30">30</ref>
+                                    <item>Kissinger’s relationship with, <ref target="#d30">30</ref>
                                     </item>
                                     <pb n="504" facs="0000" xml:id="pg_504"/>
-                                    <item>Kissinger's trip to Moscow (Mar. <hi rend="italic"
+                                    <item>Kissinger’s trip to Moscow (Mar. <hi rend="italic"
                                             >1974</hi>), <ref target="#d29">29</ref>
                                     </item>
                                     <item>Meetings: <list>
@@ -30436,7 +30463,7 @@
                                     </item>
                                     <item>Overseas Press Club speech, <ref target="#d56">56</ref>
                                     </item>
-                                    <item>People's Republic of China visit by, <ref target="#d83"
+                                    <item>People’s Republic of China visit by, <ref target="#d83"
                                             >83</ref>
                                     </item>
                                     <item>Presidential transition, <ref target="#d38">38</ref>, <ref
@@ -30453,7 +30480,7 @@
                             <item>Schmidt, Helmut: <list>
                                     <item>Ford talks with, <ref target="#d62">62</ref>
                                     </item>
-                                    <item>Nixon's talks with, <ref target="#d36">36</ref>
+                                    <item>Nixon’s talks with, <ref target="#d36">36</ref>
                                     </item>
                                     <item>Political role of, <ref target="#d23">23</ref>
                                     </item>
@@ -30484,7 +30511,7 @@
                                     <item>Foreign policy issues for <hi rend="italic">1975</hi>,
                                             <ref target="#d50">50</ref>
                                     </item>
-                                    <item>Kissinger's trip to Moscow (Mar. <hi rend="italic"
+                                    <item>Kissinger’s trip to Moscow (Mar. <hi rend="italic"
                                             >1974</hi>), <ref target="#d29">29</ref>
                                     </item>
                                     <item>Meetings: <list>
@@ -30506,7 +30533,7 @@
                                     </item>
                                     <item>Memorandum to Nixon, <ref target="#d2">2</ref>
                                     </item>
-                                    <item>Nixon's relationship with Kissinger, <ref target="#d25"
+                                    <item>Nixon’s relationship with Kissinger, <ref target="#d25"
                                             >25</ref>
                                     </item>
                                     <item>NSC meetings, <ref target="#d26">26</ref>, <ref
@@ -30515,7 +30542,7 @@
                                     </item>
                                     <item>Rockefeller nomination, <ref target="#d48">48</ref>
                                     </item>
-                                    <item>Schlesinger's Overseas Press Club speech as critiqued by,
+                                    <item>Schlesinger’s Overseas Press Club speech as critiqued by,
                                             <ref target="#d56">56</ref>
                                     </item>
                                     <item>Soviet use of radiation at U.S. Embassy Moscow, <ref
@@ -30611,7 +30638,7 @@
                                     target="#d38">38</ref>
                             </item>
                             <item>Sino-Soviet dispute (<hi rend="italic">see also</hi> China,
-                                People's Republic of; Soviet Union): <list>
+                                People’s Republic of; Soviet Union): <list>
                                     <item>U.S. approach to, <ref target="#d46">46</ref>, <ref
                                             target="#d54">54</ref>, <ref target="#d72">72</ref>,
                                             <ref target="#d84">84</ref></item>
@@ -30690,7 +30717,7 @@
                                     </item>
                                     <item>As U.S. election issue, <ref target="#d75">75</ref>, <ref
                                             target="#d81">81</ref></item>
-                                    <item>Attack on People's Republic of China by, possible, <ref
+                                    <item>Attack on People’s Republic of China by, possible, <ref
                                             target="#d15">15</ref>
                                     </item>
                                     <item>Communist Party Congress (<hi rend="italic">25</hi>th, <hi
@@ -30747,10 +30774,10 @@
                                     <item>October <hi rend="italic">1973</hi> War, <ref
                                             target="#d20">20</ref>, <ref target="#d22">22</ref>,
                                             <ref target="#d31">31</ref></item>
-                                    <item>People's Republic of China alliance with, possible, <ref
+                                    <item>People’s Republic of China alliance with, possible, <ref
                                             target="#d26">26</ref>
                                     </item>
-                                    <item>People's Republic of China-U.S. relations, <ref
+                                    <item>People’s Republic of China-U.S. relations, <ref
                                             target="#d3">3</ref>, <ref target="#d72">72</ref></item>
                                     <item>Quadripartite Agreement on Berlin (<hi rend="italic"
                                             >1972</hi>), <ref target="#d7">7</ref>
@@ -30777,7 +30804,7 @@
                                             </item>
                                             <item>Establishment of, <ref target="#d59">59</ref>
                                             </item>
-                                            <item>Ford's re-affirmation of, <ref target="#d41"
+                                            <item>Ford’s re-affirmation of, <ref target="#d41"
                                                   >41</ref>
                                             </item>
                                             <item>
@@ -30793,7 +30820,7 @@
                                             <item>Incidents at Sea Agreement (<hi rend="italic"
                                                   >1972</hi>), <ref target="#d35">35</ref>
                                             </item>
-                                            <item>Jackson-Vanik Amendment's effect on, <ref
+                                            <item>Jackson-Vanik Amendment’s effect on, <ref
                                                   target="#d19">19</ref>, <ref target="#d20"
                                                   >20</ref>, <ref target="#d50">50</ref></item>
                                             <item>Linkage concept, <ref target="#d20">20</ref>, <ref
@@ -30801,12 +30828,12 @@
                                             <item>Moscow Summit (May <hi rend="italic">1972</hi>),
                                                   <ref target="#d7">7</ref>, <ref target="#d36"
                                                   >36</ref></item>
-                                            <item>Nixon's approach to, <ref target="#d2">2</ref>,
+                                            <item>Nixon’s approach to, <ref target="#d2">2</ref>,
                                                   <ref target="#d9">9</ref></item>
-                                            <item>People's Republic of China-U.S. relations as
+                                            <item>People’s Republic of China-U.S. relations as
                                                 affected by, <ref target="#d3">3</ref>, <ref
                                                   target="#d72">72</ref></item>
-                                            <item>Solzhenitsyn's deportation's effect on, <ref
+                                            <item>Solzhenitsyn’s deportation’s effect on, <ref
                                                   target="#d35">35</ref>
                                             </item>
                                             <item>Soviet use of radiation at U.S. Embassy Moscow,
@@ -30915,7 +30942,7 @@
                                     </item>
                                     <item>Phases of, <ref target="#d30">30</ref>
                                     </item>
-                                    <item>Reagan's view of, <ref target="#d69">69</ref>
+                                    <item>Reagan’s view of, <ref target="#d69">69</ref>
                                     </item>
                                     <item>Resumption of, <ref target="#d29">29</ref>, <ref
                                             target="#d36">36</ref></item>
@@ -31121,7 +31148,7 @@
                                     </item>
                                     <item>Korean membership issue, <ref target="#d17">17</ref>
                                     </item>
-                                    <item>Latin America's importance to U.S. in, <ref target="#d13"
+                                    <item>Latin America’s importance to U.S. in, <ref target="#d13"
                                             >13</ref>
                                     </item>
                                     <item>Weaknesses of, <ref target="#d71">71</ref>
@@ -31155,7 +31182,7 @@
                                     <item>Ford speech (Sept. <hi rend="italic">1974</hi>), <ref
                                             target="#d44">44</ref>
                                     </item>
-                                    <item>Kissinger's speeches before: <list>
+                                    <item>Kissinger’s speeches before: <list>
                                             <item>(Sept. <hi rend="italic">1973</hi>), <ref
                                                   target="#d17">17</ref>, <ref target="#d19"
                                                   >19</ref>, <ref target="#d28">28</ref>, <ref
@@ -31329,11 +31356,11 @@
                                         >48</ref></item>
                                     <item>Need for peace, <ref target="#d9">9</ref>
                                     </item>
-                                    <item>People's Republic of China role in, <ref target="#d29"
+                                    <item>People’s Republic of China role in, <ref target="#d29"
                                             >29</ref>
                                     </item>
                                     <pb n="508" facs="0000" xml:id="pg_508"/>
-                                    <item>People's Republic of China-U.S. relations and, <ref
+                                    <item>People’s Republic of China-U.S. relations and, <ref
                                             target="#d3">3</ref>, <ref target="#d26">26</ref></item>
                                     <item>POWs, <ref target="#d1">1</ref>, <ref target="#d6"
                                         >6</ref>, <ref target="#d12">12</ref>, <ref target="#d29"
@@ -31421,7 +31448,7 @@
                                     </item>
                                     <item>Negativism as a result of, <ref target="#d48">48</ref>,
                                             <ref target="#d60">60</ref></item>
-                                    <item>Nixon's resignation resulting from, <ref target="#d36"
+                                    <item>Nixon’s resignation resulting from, <ref target="#d36"
                                             >36</ref>, <ref target="#d42">42</ref>, <ref
                                             target="#d49">49</ref></item>
                                     <item>U.S. foreign policy as affected by, <ref target="#d15"
@@ -31525,11 +31552,11 @@
                             <item>Zambia, <ref target="#d67">67</ref>, <ref target="#d77"
                                 >77</ref></item>
                             <item>Zhou Enlai: <list>
-                                    <item>Kissinger's talks with, <ref target="#d3">3</ref>
+                                    <item>Kissinger’s talks with, <ref target="#d3">3</ref>
                                     </item>
                                     <item>Succession issues, <ref target="#d10">10</ref>
                                     </item>
-                                    <item>U.S.-People's Republic of China relations, <ref
+                                    <item>U.S.-People’s Republic of China relations, <ref
                                             target="#d7">7</ref>
                                     </item>
                                     <item>Visit to the United States, possible, <ref target="#d25"
