@@ -15,8 +15,8 @@
     <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
     <ns prefix="ckbk" uri="http://www.oreilly.com/XSLTCookbook"/>
     <ns prefix="xml" uri="http://www.w3.org/XML/1998/namespace"/>
-    
-    <extends href="dates-only-tertiary-review.sch"/>
+
+    <extends href="dates-only-initial-review.sch"/>
 
     <!-- Define variables used by other patterns -->
     <let name="xml-ids" value="//*/@xml:id"/>
