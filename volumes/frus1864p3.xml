@@ -21,8 +21,8 @@
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1864p3</idno>
                 <idno type="oclc"/>
-                <date type="content-date" calendar="gregorian" notBefore="1846-08-09T00:00:00-05:00"
-                    notAfter="1864-12-05T23:59:59-05:00">1846 to 1864</date>
+                <date type="content-date" calendar="gregorian" notBefore="1863-01-05T00:00:00-05:00"
+                    notAfter="1864-12-05T23:59:59-05:00">1863 to 1864</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 1865 as printed book and adapted to TEI-XML based on scans provided
@@ -83,7 +83,7 @@
             <pb n="" xml:id="pg-seq-2" facs="0002"/>
             <pb n="[III]" xml:id="pg_III" facs="0003"/>
             <div type="section" xml:id="papers" subtype="index"
-                frus:doc-dateTime-min="1846-08-09T00:00:00-05:00"
+                frus:doc-dateTime-min="1863-01-05T00:00:00-05:00"
                 frus:doc-dateTime-max="1864-12-05T23:59:59-05:00">
                 <head>Papers relating to foreign affairs.</head>
                 <p rend="center">FRANCE.</p>
@@ -4777,10 +4777,10 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1846-08-09T00:00:00-05:00"
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1863-01-05T00:00:00-05:00"
                 frus:doc-dateTime-max="1864-12-05T23:59:59-05:00">
                 <head>Correspondence.</head>
-                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1846-08-09T00:00:00-05:00"
+                <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1863-11-19T00:00:00-05:00"
                     frus:doc-dateTime-max="1864-12-05T23:59:59-05:00">
                     <head>France</head>
                     <div type="document" xml:id="d1" n="1" subtype="historical-document"
@@ -15451,16 +15451,18 @@
                         </postscript>
                     </div>
                     <div type="document" xml:id="d186" n="186" subtype="historical-document"
-                        frus:doc-dateTime-min="1846-08-09T00:00:00-05:00"
-                        frus:doc-dateTime-max="1846-08-09T23:59:59-05:00">
+                        frus:doc-dateTime-min="1864-08-09T00:00:00-05:00"
+                        frus:doc-dateTime-max="1864-08-09T23:59:59-05:00">
                         <head><persName type="from">Mr. Dayton</persName> to <persName type="to">Mr.
                                 Seward</persName></head>
                         <opener>
                             <seg rendition="#left">No. 520.]</seg>
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">Paris,</hi></placeName>
-                                <date when="1846-08-09" calendar="gregorian"><hi rend="italic"
-                                        >August</hi> 9, 1846.</date></dateline></opener>
+                                <date when="1864-08-09"
+                                    ana="#date_apparent-typo-based-on-sibling-dates"
+                                    calendar="gregorian"><hi rend="italic">August</hi> 9,
+                                    1846.</date></dateline></opener>
                         <p><hi rend="smallcaps">Sir</hi>: I have the honor to report to you the
                             arrival of the American war steamer Iroquois at Brest on the 29th of
                             July last. Captain Rogers immediately communicated his presence in
