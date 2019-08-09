@@ -25,8 +25,8 @@
                 <idno type="isbn-10"/>
                 <idno type="isbn-13"/>
                 <idno type="frus">frus1961-63v10-12mSupp</idno>
-                <date type="content-date" calendar="gregorian" notBefore="1953-02-01T00:00:00-05:00"
-                    notAfter="1963-12-20T23:59:59-05:00">1953 to 1963</date>
+                <date type="content-date" calendar="gregorian" notBefore="1960-11-18T00:00:00-05:00"
+                    notAfter="1963-12-20T23:59:59-05:00">1960 to 1963</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released 1998 as microfiche</p>
@@ -48,15 +48,11 @@
         <revisionDesc>
             <change>2012-10-04 PA/HO JW: Completed conversion of preview edition to TEI</change>
         </revisionDesc>
-        <!-- <xenoData>
-            <frus:coverage notBefore="1953-02-01T00:00:00-05:00"
-                notAfter="1963-12-20T23:59:59-05:00"/>
-        </xenoData> -->
     </teiHeader>
     <text>
         <front>
             <div type="section" xml:id="about-this-preview-edition" subtype="about-frus-series"
-                frus:doc-dateTime-min="1953-02-01T00:00:00-05:00"
+                frus:doc-dateTime-min="1960-11-18T00:00:00-05:00"
                 frus:doc-dateTime-max="1963-12-20T23:59:59-05:00">
                 <head>About this Preview Edition</head>
                 <p>This is a preview of the electronic edition of <hi rend="italic">Foreign
@@ -109,7 +105,7 @@
                 </p>
             </div>
             <div type="section" subtype="related-materials" xml:id="front-matter"
-                frus:doc-dateTime-min="1953-02-01T00:00:00-05:00"
+                frus:doc-dateTime-min="1960-11-18T00:00:00-05:00"
                 frus:doc-dateTime-max="1963-12-20T23:59:59-05:00">
                 <head>Front Matter</head>
                 <p>The booklet accompanying this volume can be downloaded as a <ref
@@ -130,7 +126,7 @@
             </div>
         </front>
         <body>
-            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1953-02-01T00:00:00-05:00"
+            <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1961-01-25T00:00:00-05:00"
                 frus:doc-dateTime-max="1963-11-27T23:59:59-05:00">
                 <head>American Republics</head>
                 <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1961-02-09T00:00:00-05:00"
@@ -2326,7 +2322,7 @@
                         <frus:pdf bytes="164780" readable="165 KB"/>
                     </div>
                 </div>
-                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1953-02-01T00:00:00-05:00"
+                <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1961-04-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1963-11-27T23:59:59-05:00">
                     <head>Guatemala</head>
                     <div type="document" n="124" xml:id="d124" subtype="historical-document"
@@ -2507,15 +2503,15 @@
                         <frus:pdf bytes="248382" readable="248 KB"/>
                     </div>
                     <div type="document" n="134" xml:id="d134" subtype="historical-document"
-                        frus:doc-dateTime-min="1953-02-01T00:00:00-05:00"
-                        frus:doc-dateTime-max="1953-02-28T23:59:59-05:00">
+                        frus:doc-dateTime-min="1963-02-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1963-02-28T23:59:59-05:00">
                         <head>134. DOS Guidelines for Policy and Operations: Guatemala, February
-                            1953. Secret. 23 pp. DOS, S/P Files: Lot 67 D 396.</head>
+                            1963. Secret. 23 pp. DOS, S/P Files: Lot 67 D 396.</head>
                         <dateline>
-                            <date notBefore="1953-02-01T00:00:00-05:00"
-                                notAfter="1953-02-28T23:59:59-05:00"
-                                ana="#date_undated-inferred-from-document-head" when="1953-02"
-                                calendar="gregorian">February 1953</date>
+                            <date notBefore="1963-02-01T00:00:00-05:00"
+                                notAfter="1963-02-28T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-scan" when="1963-02"
+                                calendar="gregorian">February 1963</date>
                         </dateline>
                         <frus:page-count-according-to-citation>23</frus:page-count-according-to-citation>
                         <frus:file id="0590" path="0007/0029.tif"/>
