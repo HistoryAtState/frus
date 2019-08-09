@@ -22,7 +22,7 @@
                 <idno type="frus">frus1864p4</idno>
                 <idno type="oclc">http://www.worldcat.org/oclc/22598936</idno>
                 <date type="content-date" calendar="gregorian" notBefore="1863-05-21T00:00:00-05:00"
-                    notAfter="1884-04-20T23:59:59-05:00">1863 to 1884</date>
+                    notAfter="1864-12-02T23:59:59-05:00">1863 to 1864</date>
             </publicationStmt>
             <sourceDesc>
                 <p>Released in 1866 as printed book and adapted to TEI-XML based on scans provided
@@ -82,8 +82,9 @@
                 <pb n="" xml:id="pg-seq-8" facs="0008"/>
                 <pb n="[III]" xml:id="pg_III" facs="0009"/>
             </titlePage>
-            <div type="section" xml:id="papers1" frus:doc-dateTime-min="1863-05-21T00:00:00-05:00"
-                frus:doc-dateTime-max="1884-04-20T23:59:59-05:00" subtype="index">
+            <div type="section" xml:id="papers1" subtype="index"
+                frus:doc-dateTime-min="1863-05-21T00:00:00-05:00"
+                frus:doc-dateTime-max="1864-12-02T23:59:59-05:00">
                 <head>Papers relating to foreign affairs.</head>
                 <p rend="center">SPAIN.</p>
                 <table cols="5">
@@ -4047,7 +4048,7 @@
         <body>
             <pb n="[1]" xml:id="pg_1" facs="0025"/>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1863-05-21T00:00:00-05:00"
-                frus:doc-dateTime-max="1884-04-20T23:59:59-05:00">
+                frus:doc-dateTime-max="1864-12-02T23:59:59-05:00">
                 <head>Correspondence.</head>
                 <div type="chapter" xml:id="ch1" frus:doc-dateTime-min="1863-10-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1864-12-02T23:59:59-05:00">
@@ -18273,7 +18274,7 @@
                     </div>
                 </div>
                 <div type="chapter" xml:id="ch4" frus:doc-dateTime-min="1863-09-21T00:00:00-05:00"
-                    frus:doc-dateTime-max="1884-04-20T23:59:59-05:00">
+                    frus:doc-dateTime-max="1864-10-05T23:59:59-05:00">
                     <head>Prussia.</head>
                     <div type="document" subtype="historical-document" xml:id="d143" n="143"
                         frus:doc-dateTime-min="1863-09-21T00:00:00-05:00"
@@ -19951,8 +19952,8 @@
                         </postscript>
                     </div>
                     <div type="document" subtype="historical-document" xml:id="d171" n="171"
-                        frus:doc-dateTime-min="1884-04-20T00:00:00-05:00"
-                        frus:doc-dateTime-max="1884-04-20T23:59:59-05:00">
+                        frus:doc-dateTime-min="1864-04-20T00:00:00-05:00"
+                        frus:doc-dateTime-max="1864-04-20T23:59:59-05:00">
                         <head><persName type="from">Mr. Judd</persName> to <persName type="to">Mr.
                                 Seward</persName>.</head>
                         <opener>
@@ -19960,7 +19961,7 @@
                             <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States Legation</hi>, <hi
                                         rend="italic">Berlin,</hi></placeName>
-                                <date when="1884-04-20" calendar="gregorian"><hi rend="italic"
+                                <date when="1864-04-20" calendar="gregorian"><hi rend="italic"
                                         >April</hi> 20, 1884</date>.</dateline></opener>
                         <p><hi rend="smallcaps">Sir:</hi> I have the honor to acknowledge the
                             receipt of your despatch No. 71 dated April 5, 1864.</p>
