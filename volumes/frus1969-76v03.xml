@@ -3012,10 +3012,12 @@
                                 Willis that indicated the paper was discussed at a February 28
                                 meeting.</note>
                         </head>
-                        <opener><dateline rendition="#right">
+                        <opener>
+                            <seg rendition="#left">VG/LIM/69-50</seg>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-06"
                                     calendar="gregorian">February 6, 1969</date>.</dateline>
-                            <seg rendition="#left">VG/LIM/69-50</seg></opener>
+                        </opener>
                         <p rend="center">ALTERNATIVES FOR A SOMEWHAT RELAXED AND REVISED<lb/>1969
                             BALANCE-OF-PAYMENTS PROGRAM</p>
                         <p>
@@ -19591,13 +19593,15 @@
                                     corresp="#p_VPA1">Volcker</persName> Group’s February 3 meeting.
                                 No record of the discussion was found.</note>
                         </head>
-                        <opener><dateline rendition="#right">
+                        <opener>
+                            <seg rendition="#left">VG/LIM/69-2</seg>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     notBefore="1969-01-21T00:00:00-05:00"
                                     notAfter="1969-01-30T23:59:59-05:00"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                     calendar="gregorian">undated</date>.</dateline>
-                            <seg rendition="#left">VG/LIM/69-2</seg></opener>
+                        </opener>
                         <p rend="center">LONG-TERM ASPECTS OF U.S. INTERNATIONAL MONETARY AND
                             EXCHANGE POLICIES</p>
                         <p>This subject is discussed in this memorandum under these headings: <list>
@@ -20280,10 +20284,12 @@
                                 found. Regarding their final meeting on March 2, see <ref
                                     target="#d7">Document 7</ref>.</note>
                         </head>
-                        <opener><dateline rendition="#right">
+                        <opener>
+                            <seg rendition="#left">VG/LIM/69-18</seg>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-19"
                                     calendar="gregorian">February 19, 1969</date>.</dateline>
-                            <seg rendition="#left">VG/LIM/69-18</seg></opener>
+                        </opener>
                         <p rend="center">PRESIDENT <persName corresp="#p_NRM1">NIXON</persName>’S
                             TRIP TO EUROPE</p>
                         <p rend="center">February-March 1969</p>
@@ -20572,10 +20578,12 @@
                                     >Volcker</persName> Group meeting; see <ref target="#d118"
                                     >Document 118</ref>.</note>
                         </head>
-                        <opener><dateline rendition="#right">
+                        <opener>
+                            <seg rendition="#left">VG/LIM/69-48</seg>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-03-17"
                                     calendar="gregorian">March 17, 1969</date>.</dateline>
-                            <seg rendition="#left">VG/LIM/69-48</seg></opener>
+                        </opener>
                         <p rend="center">SUMMARY OF A POSSIBLE U.S. APPROACH TO IMPROVING
                             INTERNATIONAL MONETARY ARRANGEMENTS</p>
                         <list>
@@ -23315,10 +23323,12 @@
                                 of the <gloss target="#t_G101">G-10</gloss> Deputies in Paris July
                                 23-24.</note>
                         </head>
-                        <opener><dateline rendition="#right">
+                        <opener>
+                            <seg rendition="#left">VG/WG II/69-24</seg>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-07-16"
                                     calendar="gregorian">July 16, 1969</date>.</dateline>
-                            <seg rendition="#left">VG/WG II/69-24</seg></opener>
+                        </opener>
                         <p rend="center">DRAFT SUMMARY OF ALTERNATIVE U.S. POSITIONS FOR DISCUSSION
                             AT <persName corresp="#p_VPA1">VOLCKER</persName> MEETING</p>
                         <p rend="center">July 17, 1969</p>
@@ -24753,12 +24763,14 @@
                                     >USEC</gloss> and the Embassies in Brussels, The Hague, Bern,
                                 Stockholm, and Ottawa.</note>
                         </head>
-                        <opener><dateline rendition="#right">
+                        <opener>
+                            <seg rendition="#left">CA-6044</seg>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-11-06T17:17:00-05:00" calendar="gregorian">November
                                     6, 1969, 17:17 p.m.</date>
                             </dateline>
-                            <seg rendition="#left">CA-6044</seg></opener>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Meeting of Deputies of Group of Ten, Paris, Oct. 31, 1969, on
@@ -26425,10 +26437,12 @@
                                 between the August 26 and the September 10 versions of the
                                 paper.</note>
                         </head>
-                        <opener><dateline rendition="#right">
+                        <opener>
+                            <seg rendition="#left">VG/LIM/70-24</seg>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-09-10"
                                     calendar="gregorian">September 10, 1970</date>.</dateline>
-                            <seg rendition="#left">VG/LIM/70-24</seg></opener>
+                        </opener>
                         <p rend="center">POSITION PAPER ON LIMITED EXCHANGE FLEXIBILITY</p>
                         <p rend="center">(For meeting of Group of Ten and <gloss target="#t_IMF1"
                                 >IMF</gloss> Annual Meeting)</p>
@@ -34945,47 +34959,41 @@
                             would be politically disastrous.</p>
                         <p>Tab C of the <gloss target="#t_OMB1">OMB</gloss> paper, “An Outline of a
                             Possible Statement on International Monetary Negotiations,” contains the
-                            following: <list>
-                                <item>
-                                    <p>“A. If our principal trading partners (Japan, Canada and the
-                                            <gloss target="#t_EC1">EC</gloss>) will meet our minimum
-                                        trade and burden-sharing requirements and if they are
-                                        prepared to revalue as follows: <table rows="5" cols="2">
-                                            <row>
-                                                <cell>Japan</cell>
-                                                <cell>15%</cell>
-                                            </row>
-                                            <row>
-                                                <cell>Canada</cell>
-                                                <cell>Maintain float</cell>
-                                            </row>
-                                            <row>
-                                                <cell>Germany</cell>
-                                                <cell>10%</cell>
-                                            </row>
-                                            <row>
-                                                <cell>France</cell>
-                                                <cell>5%</cell>
-                                            </row>
-                                            <row>
-                                                <cell cols="2">etc.,</cell>
-                                            </row>
-                                        </table>
-                                    </p>
-                                    <p>“then we will immediately lift the surcharge as to all
-                                        countries.</p>
-                                </item>
-                                <item>“B. For the present we will only consider lifting the
-                                    surcharge on an MFN basis. But we recognize that this policy
-                                    permits one country to hold up surcharge lifting as to all
-                                    countries (including <gloss target="#t_LDC1">LDC</gloss>s).
-                                    Hence: 1. We may be forced to consider whether selective lifting
-                                    may not be the only way to reach final elimination of the
-                                    surcharge. 2. We will entertain proposals from any country as to
-                                    how recalcitrant countries can be induced to take part in the
-                                    global settlement.”</item>
-                            </list>
+                            following:</p>
+                        <p>“A. If our principal trading partners (Japan, Canada and the <gloss
+                                target="#t_EC1">EC</gloss>) will meet our minimum trade and
+                            burden-sharing requirements and if they are prepared to revalue as
+                            follows: <table rows="5" cols="2">
+                                <row>
+                                    <cell>Japan</cell>
+                                    <cell>15%</cell>
+                                </row>
+                                <row>
+                                    <cell>Canada</cell>
+                                    <cell>Maintain float</cell>
+                                </row>
+                                <row>
+                                    <cell>Germany</cell>
+                                    <cell>10%</cell>
+                                </row>
+                                <row>
+                                    <cell>France</cell>
+                                    <cell>5%</cell>
+                                </row>
+                                <row>
+                                    <cell cols="2">etc.,</cell>
+                                </row>
+                            </table>
                         </p>
+                        <p>“then we will immediately lift the surcharge as to all countries.</p>
+                        <p>“B. For the present we will only consider lifting the surcharge on an MFN
+                            basis. But we recognize that this policy permits one country to hold up
+                            surcharge lifting as to all countries (including <gloss target="#t_LDC1"
+                                >LDC</gloss>s). Hence: 1. We may be forced to consider whether
+                            selective lifting may not be the only way to reach final elimination of
+                            the surcharge. 2. We will entertain proposals from any country as to how
+                            recalcitrant countries can be induced to take part in the global
+                            settlement.”</p>
                         <p>The Treasury paper contains the following: “An average exchange rate
                             depreciation of the dollar vis-à-vis <gloss target="#t_G101"
                                 >G-10</gloss> countries of 10% (11% in terms of <gloss
@@ -38725,10 +38733,12 @@
                                 “Methods of Inducing Surplus Countries To Adjust,” was circulated as
                                 VGA/72-26 on April 5. (Both ibid.)</note>
                         </head>
-                        <opener><dateline rendition="#right">
+                        <opener>
+                            <seg rendition="#left">VGA/72-40</seg>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-04-27"
                                     calendar="gregorian">April 27, 1972</date>.</dateline>
-                            <seg rendition="#left">VGA/72-40</seg></opener>
+                        </opener>
                         <p rend="flushleft">
                             <hi rend="italic">Recommendations</hi>
                         </p>
@@ -38789,10 +38799,12 @@
                                 discussion in London. See <ref target="#d227fn2">footnote 2,
                                     Document 227</ref>.</note>
                         </head>
-                        <opener><dateline rendition="#right">
+                        <opener>
+                            <seg rendition="#left">VGA/72-50 Rev.</seg>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-05-10"
                                     calendar="gregorian">May 10, 1972</date>.</dateline>
-                            <seg rendition="#left">VGA/72-50 Rev.</seg></opener>
+                        </opener>
                         <p rend="center">MINUTES OF THE DISCUSSION IN LONDON CONCERNING PROCEDURES
                             FOR PREPARING MONETARY REFORM</p>
                         <p rend="center">(April 23, 1972)</p>
@@ -38917,10 +38929,12 @@
                                 Reserve on April 5 (VGA/72-27). (All ibid.,
                                 VGA/72-1-VGA/72-50)</note>
                         </head>
-                        <opener><dateline rendition="#right">
+                        <opener>
+                            <seg rendition="#left">VGA/72-64</seg>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-06-05"
                                     calendar="gregorian">June 5, 1972</date>.</dateline>
-                            <seg rendition="#left">VGA/72-64</seg></opener>
+                        </opener>
                         <p rend="center">RECOMMENDED PREMISES AND OBJECTIVES OF THE U.S. IN
                             FORTHCOMING REFORM NEGOTIATIONS</p>
                         <p rend="flushleft">

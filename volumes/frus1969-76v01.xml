@@ -18644,11 +18644,13 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1969-1976, Moscow
                                 Summit</ref>.</note>
                     </head>
-                    <opener><dateline rendition="#right">
+                    <opener>
+                        <seg rendition="#left">CPD-203-72.</seg>
+                        <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date
                                 when="1972-04-23T19:45:00+00:00" calendar="gregorian">April 23,
                                 1972, 1945Z</date>.</dateline>
-                        <seg rendition="#left">CPD-203-72.</seg></opener>
+                    </opener>
                     <p rend="flushleft">
                         <hi rend="italic">Memorandum for <persName corresp="#p_KHA1">Henry
                                 Kissinger</persName> From the President</hi>
@@ -21092,7 +21094,7 @@
                     </item>
                     <item>Arends, Leslie, <ref target="#d38">38</ref>
                     </item>
-                    <item>Arms control (<hi rend="italic">see also</hi>
+                    <item xml:id="in14">Arms control (<hi rend="italic">see also</hi>
                         <ref target="#in1">Détente with Soviet Union</ref>; <ref target="#in2"
                             >Military aid/issues, U.S.</ref>; <ref target="#in3">Nuclear
                             energy/weapons</ref>): <list>
@@ -21556,7 +21558,8 @@
                     </item>
                     <item>Dissent. <hi rend="italic">See</hi>
                         <ref target="#in4">Anti-war sentiment/demonstrations</ref>
-                        <hi rend="italic">under</hi> Vietnam war.</item>
+                        <hi rend="italic">under</hi>
+                        <ref target="#in26">Vietnam war</ref>.</item>
                     <item>
                         <persName corresp="#p_DAF1">Dobrynin, Anatoly</persName>, <ref target="#d10"
                             >10</ref>, <ref target="#d40">40</ref>, <ref target="#d55">55</ref>,
@@ -21658,7 +21661,7 @@
                     </item>
                     <item>Ford, Gerald, <ref target="#d38">38</ref>
                     </item>
-                    <item>Foreign assistance, U.S. (<hi rend="italic">see also</hi>
+                    <item xml:id="in19">Foreign assistance, U.S. (<hi rend="italic">see also</hi>
                         <ref target="#in2">Military aid/issues, U.S.</ref>): <list>
                             <item>Annual Report on Foreign Policy, <ref target="#d85">85</ref>
                             </item>
@@ -22987,7 +22990,7 @@
                             </item>
                         </list>
                     </item>
-                    <item>
+                    <item xml:id="in8">
                         <persName corresp="#p_NRM1">Nixon</persName> Doctrine, <ref target="#d46"
                             >46</ref>, <ref target="#d50">50</ref>, <ref target="#d70">70</ref>
                         <list>
@@ -23072,7 +23075,7 @@
                     <item>
                         <gloss target="#t_NSC1">NSC</gloss>. <hi rend="italic">See</hi>
                         <ref target="#in18">National Security Council</ref>.</item>
-                    <item>Nuclear energy/weapons: <list>
+                    <item xml:id="in3">Nuclear energy/weapons: <list>
                             <item>Flexible response in defense of Western Alliance, <ref
                                     target="#d15">15</ref>
                             </item>
@@ -23556,9 +23559,10 @@
                     <item>Tower, <persName corresp="#p_SJA1">John</persName>, <ref target="#d38"
                             >38</ref>
                     </item>
-                    <item>Trade, <ref target="#d19">19</ref>, <ref target="#d35">35</ref>, <ref
-                            target="#d4">4</ref>, <ref target="#d76">76</ref>, <ref target="#d77"
-                            >77</ref>, <ref target="#d120">120</ref>, <ref target="#d121">121</ref>
+                    <item xml:id="in51">Trade, <ref target="#d19">19</ref>, <ref target="#d35"
+                            >35</ref>, <ref target="#d4">4</ref>, <ref target="#d76">76</ref>, <ref
+                            target="#d77">77</ref>, <ref target="#d120">120</ref>, <ref
+                            target="#d121">121</ref>
                     </item>
                     <item>Trend, Burke, <ref target="#d102">102</ref>
                     </item>
@@ -23621,10 +23625,11 @@
                             <item>Annual Foreign Policy Reports, <ref target="#d59">59</ref>, <ref
                                     target="#d60">60</ref>
                             </item>
-                            <item>Anti-war sentiment/demonstrations, <ref target="#d45">45</ref>,
-                                    <ref target="#d65">65</ref>, <ref target="#d66">66</ref>, <ref
-                                    target="#d69">69</ref>, <ref target="#d80">80</ref>, <ref
-                                    target="#d88">88</ref>, <ref target="#d109">109</ref>
+                            <item xml:id="in4">Anti-war sentiment/demonstrations, <ref target="#d45"
+                                    >45</ref>, <ref target="#d65">65</ref>, <ref target="#d66"
+                                    >66</ref>, <ref target="#d69">69</ref>, <ref target="#d80"
+                                    >80</ref>, <ref target="#d88">88</ref>, <ref target="#d109"
+                                    >109</ref>
                             </item>
                             <item>Blockade of North Vietnamese ports, <ref target="#d112">112</ref>,
                                     <ref target="#d113">113</ref>
@@ -23713,7 +23718,8 @@
                     <item>West European Union (<gloss target="#t_WEU1">WEU</gloss>), <ref
                             target="#d4">4</ref>
                     </item>
-                    <item>Western Alliance, U.S. support for (<hi rend="italic">see also</hi>
+                    <item xml:id="in6">Western Alliance, U.S. support for (<hi rend="italic">see
+                            also</hi>
                         <ref target="#in25">North Atlantic Treaty Organization</ref>), <ref
                             target="#d12">12</ref>, <ref target="#d15">15</ref>, <ref target="#d18"
                             >18</ref>, <ref target="#d56">56</ref>, <ref target="#d103">103</ref>,
