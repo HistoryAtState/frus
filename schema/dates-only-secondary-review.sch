@@ -5,10 +5,12 @@
     xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:functx="http://www.functx.com"
     xmlns:fn="http://www.w3.org/2005/xpath-functions"
     xmlns:historyatstate="https://history.state.gov/historyatstate">
-    <title>FRUS TEI Rules - Date Rules</title>
+    <title>FRUS TEI Rules - Date Rules for Secondary Review</title>
 
-    <p>This schematron file contains date-related rules from and augmenting frus.sch. This current
-        version is geared towards secondary-review of legacy volumes.</p>
+    <p>This schematron file contains date-related rules augmenting frus.sch. This schematron imports
+        the dates-only-initial-review.sch.</p>
+    <p>This current version is oriented towards secondary review of legacy volumes but is also
+        valuable for contemporary publishing.</p>
 
     <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
     <ns prefix="frus" uri="http://history.state.gov/frus/ns/1.0"/>
@@ -18,76 +20,15 @@
     <ns prefix="functx" uri="http://www.functx.com"/>
     <ns prefix="historyatstate" uri="https://history.state.gov/historyatstate"/>
 
-    <let name="category-ids" value="//tei:category/@xml:id"/>
+    <extends href="dates-only-initial-review.sch"/>
 
-    <pattern id="pointer-checks">
-        <title>Ref and Pointer Checks</title>
-        <rule context="tei:date[@ana]">
-            <assert test="substring-after(@ana, '#') = $category-ids">date/@ana='<value-of
-                    select="@ana"/>' is an invalid value. No category has been defined with an
-                @xml:id corresponding to this value.</assert>
-        </rule>
-        <rule context="tei:date[@type]">
-            <assert role="warn"
-                test="./@type = ('content-date', 'conversation-or-meeting-date', 'creation-date', 'publication-date', 'received-date')"
-                    >date/@type='<value-of select="@type"/>' is an invalid value. Only the following
-                values are allowed: conversation-or-meeting-date, content-date, creation-date,
-                received-date</assert>
-        </rule>
-        <rule context="tei:date[@calendar]">
-            <assert role="warn"
-                test="tokenize(./@calendar) = ('brazilian-republic', 'chinese-era', 'chinese-lunisolar', 'chinese-republic', 'ethiopian-geez', 'gregorian', 'haitian-republic', 'hijri', 'iranian-persian', 'japanese-nengō', 'julian', 'korean-era', 'korean-lunisolar', 'masonic-anno-lucis', 'papal-era', 'roman', 'rumi', 'thai-era', 'tibetan-phugpa', 'us-republic')"
-                    >date/@calendar='<value-of select="@calendar"/>' is an invalid value. Only the
-                following values are allowed: brazilian-republic, chinese-era, chinese-lunisolar,
-                chinese-republic, ethiopian-geez, gregorian, haitian-republic, hijri,
-                iranian-persian, japanese-nengō, julian, korean-era, korean-lunisolar,
-                masonic-anno-lucis, papal-era, roman, rumi, thai-era, tibetan-phugpa, us-republic.
-                If you need to add additional calendar value(s), please add to frus.odd, frus.sch,
-                dates-only.sch, and dates-only-initial-review.sch</assert>
-        </rule>
-    </pattern>
-
-    <pattern id="dateline-date-checks">
-        <title>Dateline Date Checks</title>
+    <pattern id="dateline-date-checks-secondary-review">
+        <title>Dateline Date Checks - Secondary Review</title>
         <rule
-            context="tei:dateline[not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
-            <assert test="exists(.//tei:date)">Please tag "undated" phrase in this document dateline
-                with a &lt;date&gt; element.</assert>
-        </rule>
-        <rule
-            context="tei:dateline[ancestor::frus:attachment][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
-            <assert role="warn" test="exists(.//tei:date)">Please tag "undated" phrase in this
-                attachment dateline with a &lt;date&gt; element.</assert>
-        </rule>
-        <!--
-        <rule context="tei:dateline[not(ancestor::frus:attachment)]">
-            <assert test=".//tei:date">Document datelines must contain a date element</assert>
-        </rule>
-        -->
-        <rule
-            context="tei:dateline[not(ancestor::frus:attachment)][ancestor::tei:div[attribute::subtype eq 'historical-document'][not(descendant::tei:dateline[not(ancestor::frus:attachment)]//tei:date)]]">
-            <assert test=".//tei:date">Within historical documents, at least one dateline must
-                contain a date element</assert>
-        </rule>
-        <!--
-        <rule context="tei:dateline[ancestor::frus:attachment]">
-            <assert role="warn" test=".//tei:date">Attachment datelines should contain a date
-                element if this information is present</assert>
-        </rule>
-        -->
-        <rule
-            context="tei:dateline[ancestor::frus:attachment[not(descendant::tei:dateline//tei:date)]]">
-            <assert role="warn" test=".//tei:date">Within attachments, at least one dateline must
-                contain a date element</assert>
-        </rule>
-        <!-- Tentative rule -->
-        <!-- <rule
-            context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]"> -->
-        <rule
-            context="tei:date[ancestor::tei:dateline][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
+            context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][matches(., 'undated|not\s+dated|not\s+declassified', 'i')]">
             <assert
                 test="(@notBefore and @notAfter and @ana) or (@when and @ana) or (@from and @to and @ana)"
-                >Undated documents must be tagged with @when/@ana --OR-- @from/@to/@ana --OR--
+                >Undated documents must be tagged with @when/@ana –OR– @from/@to/@ana –OR–
                 @notBefore/@notAfter/@ana. &#10; Use @when/@ana for a single date/dateTime that can
                 be inferred concretely (such as a date listed in the original document). &#10; Use
                 @from/@to/@ana for a date/dateTime range that can be inferred concretely (such as a
@@ -95,59 +36,13 @@
                 fuzzy dateTime range (such as an unknown date/time between two documents or
                 events).</assert>
         </rule>
-        <!-- <rule
-            context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]"> -->
         <rule
-            context="tei:date[ancestor::tei:dateline][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]">
+            context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)][. ne '' and not(matches(., 'undated|not\s+dated|not\s+declassified', 'i'))]">
             <assert
                 test="@when or (@from and @to) or (@notBefore and @notAfter and @ana) or (@when and @notBefore and @notAfter and @ana)"
                 >Supplied dates must have @when (for single dates) or @from/@to (for supplied date
                 ranges) or @notBefore/@notAfter/@ana/(/@when) (for imprecise year or year-month only
                 dates)</assert>
-        </rule>
-        <rule context="tei:date[ancestor::tei:dateline and not(ancestor::frus:attachment)]">
-            <assert role="warn" test="normalize-space(.) ne ''">Dateline date should not be
-                empty.</assert>
-            <assert test="(@from and @to) or (not(@from) and not(@to))">Dateline date @from must
-                have a corresponding @to.</assert>
-            <assert test="(@notBefore and @notAfter) or (not(@notBefore) and not(@notAfter))"
-                >Dateline date @notBefore must have a corresponding @notAfter.</assert>
-            <assert role="warn"
-                test="(@notBefore and @notAfter and @ana) or (not(@notBefore) and not(@notAfter))"
-                >Missing @ana explaining the analysis used to determine @notBefore and
-                @notAfter.</assert>
-            <assert
-                test="
-                    every $date in @when
-                        satisfies ((matches($date, '^\d{4}$') and ($date || '-01-01') castable as xs:date) or (matches($date, '^\d{4}-\d{2}$') and ($date || '-01') castable as xs:date) or $date castable as xs:date or $date castable as xs:dateTime)"
-                >Dateline date @when values must be YYYY, YYYY-MM, or xs:date or
-                xs:dateTime</assert>
-            <assert
-                test="
-                    every $date in (@from, @to, @notBefore, @notAfter)
-                        satisfies ($date castable as xs:date or $date castable as xs:dateTime)"
-                >Dateline date @from/@to/@notBefore/@notAfter must be valid xs:date or xs:dateTime
-                values.</assert>
-            <assert
-                test="
-                    every $attribute in @*
-                        satisfies not(matches($attribute, '[A-Z]$'))"
-                >Please use timezone offset instead of military time zone (e.g., replace Z with
-                +00:00).</assert>
-            <assert
-                test="
-                    if (@from and @to) then
-                        (@from le @to)
-                    else
-                        true()"
-                >Dateline date @from must come before @to.</assert>
-            <assert
-                test="
-                    if (@notBefore and @notAfter) then
-                        (@notBefore le @notAfter)
-                    else
-                        true()"
-                >Dateline date @notBefore must come before @notAfter.</assert>
         </rule>
     </pattern>
 
@@ -242,17 +137,24 @@
                     node-type="attribute" select="frus:normalize-high($date-max, $timezone)"/>
             </sqf:fix>
         </rule>
+    </pattern>
+
+    <pattern id="errant-or-empty-doc-dateTime-values">
+        <title>Div dateTime Attribute Value Checks</title>
         <rule context="tei:div[@frus:doc-dateTime-min]">
-            <assert role="error" test="./@frus:doc-dateTime-min castable as xs:dateTime"
-                >@frus:doc-dateTime-min must be castable as dateTime</assert>
-            <assert role="error" test="./@frus:doc-dateTime-max">div must have both
-                @frus:doc-dateTime-min and @frus:doc-dateTime-max</assert>
+            <assert role="error" test="./@frus:doc-dateTime-min castable as xs:dateTime">The value
+                of @frus:doc-dateTime-min is not a valid dateTime for this div.
+                @frus:doc-dateTime-min must be a valid ISO dateTime.</assert>
+            <assert role="error" test="./@frus:doc-dateTime-max">This div has a
+                @frus:doc-dateTime-min attribute but not a @frus:doc-dateTime-max
+                attribute.</assert>
         </rule>
         <rule context="tei:div[@frus:doc-dateTime-max]">
-            <assert role="error" test="./@frus:doc-dateTime-max castable as xs:dateTime"
-                >@frus:doc-dateTime-max must be castable as dateTime</assert>
-            <assert role="error" test="./@frus:doc-dateTime-min">div must have both
-                @frus:doc-dateTime-min and @frus:doc-dateTime-max</assert>
+            <assert role="error" test="./@frus:doc-dateTime-max castable as xs:dateTime">The value
+                of @frus:doc-dateTime-max is not a valid dateTime for this div.
+                @frus:doc-dateTime-max must be a valid ISO dateTime.</assert>
+            <assert role="error" test="./@frus:doc-dateTime-min">This div has a
+                @frus:doc-dateTime-max attribute but not a @frus:doc-dateTime-min attribute</assert>
         </rule>
     </pattern>
 
@@ -282,87 +184,15 @@
     <!-- Non-Gregorian Date Checks -->
     <pattern id="non-gregorian-calendars">
 
-        <rule context="tei:date[not(@calendar)]">
-            <!-- Calendar Checks -->
-
-            <!-- Chinese Era -->
+        <!-- Chinese Era/Lunisolar Calendar Checks/Fixes -->
+        <rule context="tei:date[not(matches(@calendar, 'chinese-era'))]">
             <assert role="info"
-                test="not(.[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung\s+Chi|Guangxu|Kuanghsü|Kuang\s+Hsü|Kuang\s+Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')])"
+                test="not(.[matches(., 'Qi[áa]nl[óo]ng|G[āa]oz[ōo]ng|H[óo]nglì|Ji[āa]q[ìi]ng|R[ée]nzōng|Y[óo]ngy[ǎa]n|D[àa]ogu[āa]ng|Xu[āa]nz[ōo]ng|M[íi]nn[íi]ng|Xianfeng|W[ée]nz[o]ōng|Wenzong|Y[ìi]zh[ǔu]|Dongzhi|M[ùu]z[ōo]ng|Muzong|Z[ǎa]ich[úu]n|Tongzhi|Tungchi|T&#8217;ung\s+Chi|Guangxu|Kuanghs[üu]|Kuang\s+Hs[üu]|Kuang\s+S[üu]|Dézōng|Tezong|Z[ǎa]iti[áa]n|Xuantong|Gongz[ōo]ng|Pui', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Chinese era/reign-based calendar reference.</assert>
 
-            <!-- Ethiopian Ge’ez -->
-            <assert role="info"
-                test="not(.[matches(., 'Mäskäräm|Maskaram|Ṭəqəmt|Teqemt|Ṭəqəmti|Teqemti|Ḫədar|Hedar|Taḫśaś|Tahsas|Tehsass|Yäkatit|Yakatit|Läkatit|Lakatit|Mägabit|Magabit|Miyazya|Mazia|Gənbo|Genbo|Gənbot|Genbot|Säne|Sane|Ḥamle|Hamle|Nähase|Nahase|Ṗagʷəmen|Pagwemen|Ṗagume|Pagume', 'i')])"
-                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating a Ethopian ge’ez calendar reference.</assert>
-
-            <!-- Hijri -->
-            <assert role="info"
-                test="not(.[matches(., 'Muḥarram|Muharram|Moharram|Ṣafar|Safar|Sefer|Rabī&#8217;\s+al-awwal|Rebbi-al-ewel|Rabih|Rabī&#8216;\s+ath-thānī|Rabī&#8216;\s+al-Thānī|Rabī&#8216;\s+al-Tānī|Rabī’\s+al-Ākhir|Rabi\s+el\s+tami|Rabee\s+El\s+Thani|Rabi&#8217;Tani|Rebbi-ul-Akbir|Rebi-ul-Ewel|Rabih|Jumādá\s+al-ūlá|Ǧumādā\s+al-Awwal|Jumada\s+al-awwal|Jumada\s+al-ula|Jumada\s+al-Ula|Jumada|Jumada\s+I|Jamadi-ol-Aval|Jumada\s+al-Oola|Jamad-el-Ewel|Jumadil\s+Awwal|Djémazi-ul-ewel|Djemazi-ul-evvel|Youmada|Youmada\s+I|Youmada\s+1st|Jamadi-es-Sani|Jumādá\s+al-ākhirah|Ǧumādā\s+al-Āḫir|Ǧumādā\s+aṮ-Ṯānī|Iamadi|Jumaada\s+al-Akhir|Jumada\s+al-Akhira|Jumādā\s+al-āḵir|Jumada\s+II|Rajab|Rajah|Sha&#8217;bān|Sha&#8216;ban|Sha&#8216;bān|Sha&#8216;ban|Shaaban|Chaban|Ramaḍān|Ramadan|Ramadhan|Ramazam|Shawwāl|Shawwal|Shawal|Dhū\s+al-Qa&#8216;dah|Dhu[:punct:]l-Qi[:punct:]dah|Dhu.?l-Qa[:punct:]dah|Ḏū\s+l-Qa[:punct:]dah|Zulqida|Zeekadeh|Zee\s+Radah|Zee\s+Kadah|Dhū\s+al-Ḥijjah|Dhu\s+al-Hijjah|Dhu[:punct:]l-Hijjah|Zulhijja|Zi\s+El-Hidjah|Zil-Hajj', 'i')])"
-                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating a hijri calendar reference.</assert>
-
-            <!-- Iranian/Persian/Solar Hijri -->
-            <assert role="info"
-                test="not(.[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|[^A-z]dey[^A-z]|[^A-z]Dey[^A-z]|bahman|Bahman|esfand|Esfand|Espand', 'i')])"
-                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating an Iranian/Persian (Solar Hijri) calendar reference.</assert>
-
-            <!-- Japanese Nengō -->
-            <assert role="info"
-                test="not(.[matches(., 'An&#8217;ei|Kōkaku|Kokaku|Tenmei|Kansei|Kyōwa|Kyowa|Bunka|Ninkō|Ninko|Bunsei|Tenpō|Tenpo|Tenhō|Tenho|Kōka|Koka|Kōmei|Komei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Keiō|Keio|Meiji|Taishō|Taisho|Shōwa|Showa|Heisei|Akihito', 'i')])"
-                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating a Japanese nengō calendar reference.</assert>
-
-            <!-- Korean Era -->
-            <assert role="info"
-                test="not(.[matches(., 'Yi\s+Geum|Gunjin|Songheon|Taejo|Emperor\s+Go|Yi\s+San|Hyeongun|Hongjae|Jeongjo|Yi\s+Gong|Gongbo|Sunjae|Sunjo|Yi\s+Hwan|Muneung|Wonheon|\s+Heonjong|Yi\s+Byeon|Doseung|Daeyongjae|Cheoljong|Yi\s+Myeong-bok|Yi\s+Hui|Seongrim|Juyeon|Gojong|Kojong|Emperor\s+Tae|Gaeguk|Geonyang|Gwangmu|Kwangmu|Kwang\s+Mu|Gwangmuje|Kwangmuje|Yi\s+Cheok|Gundang|Jeongheon|Sunjong|Emperor\s+Hyo|Emperor\s+Yunghui|Yunghui|Yunghuije|Yunghŭije|Lyung\s+Heni', 'i')])"
-                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating a Korean era calendar reference.</assert>
-
-            <!-- Masonic Anno Lucis -->
-            <assert role="info"
-                test="not(.[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')])"
-                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating a Masonic calendar reference.</assert>
-
-            <!-- Papal Era -->
-            <assert role="info" test="not(.[matches(., 'pontif*', 'i')])"
-                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating a papal era calendar reference.</assert>
-
-            <!-- Roman -->
-            <assert role="info" test="not(.[matches(., 'nones|ides|kalends', 'i')])"
-                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating a Roman calendar reference.</assert>
-
-            <!-- Rumi -->
-            <assert role="info"
-                test="not(.[matches(., 'Kânûn-ı\s+Sânî|Kanun-i Sani|Şubat|Subat|[^A-z]Mart[^A-z]|Nisan|Mayıs|Mayis|Haziran|Temmuz|Ağustos|Agustos|Eylül|EylulTeşrin-i\s+Evvel|Tesrin-i\s+Evvel|Teşrin-i\s+Sânî|Tesrin-i Sani|Kânûn-ı\s+Evvel|Kanun-i\s+Evvel', 'i')])"
-                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating a Rumi calendar reference.</assert>
-
-            <!-- Tibetan Phugpa -->
-            <assert role="info"
-                test="not(.[matches(., 'Rabbit|Dragon|Snake|Horse|Goat|Monkey|Rooster|Dog|Pig|Rat|Ox|Tiger', 'i') and matches(., 'Fire|Earth|Iron|Water|Wood', 'i')])"
-                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating a Tibetan phugpa calendar reference.</assert>
-
-            <!-- US Republic -->
-            <assert role="info"
-                test="not(.[matches(., 'of\s+the\s+Independence\s+of\s+the\s+United\s+States', 'i')])"
-                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating reference to United States independence/republic.</assert>
-
-
-            <!-- Calendar Quick Fixes -->
             <sqf:group id="add-calendar-attributes">
-
-                <!-- Chinese Era/Lunisolar -->
-                <sqf:fix
-                    use-when=".[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung Chi|Guangxu|Kuanghsü|Kuang Hsü|Kuang Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')][matches(., 'moon')]"
-                    id="add-chinese-era-chinese-lunisolar">
+                <sqf:fix use-when=".[matches(., 'moon')]" id="add-chinese-era-chinese-lunisolar">
                     <sqf:description>
                         <sqf:title>Add @calendar="chinese-era chinese-lunisolar"</sqf:title>
                     </sqf:description>
@@ -370,8 +200,7 @@
                         chinese-lunisolar</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix
-                    use-when=".[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung Chi|Guangxu|Kuanghsü|Kuang Hsü|Kuang Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')][matches(., 'moon')]"
+                <sqf:fix use-when=".[matches(., 'moon')]"
                     id="add-chinese-era-chinese-lunisolar-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="chinese-era chinese-lunisolar
@@ -381,141 +210,184 @@
                         gregorian</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix
-                    use-when=".[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung\s+Chi|Guangxu|Kuanghsü|Kuang\s+Hsü|Kuang\s+Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')][not(matches(., 'moon'))]"
-                    id="add-chinese-era">
+                <sqf:fix id="add-chinese-era">
                     <sqf:description>
                         <sqf:title>Add @calendar="chinese-era"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">chinese-era</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix
-                    use-when=".[matches(., 'Qianlong|Qiánlóng|Gāozōng|Hónglì|Jiaqing|Rénzōng|Jiāqìng|Yóngyǎn|Daoguang|Dàoguāng|Xuānzōng|Mínníng|Xianfeng|Wénzōng|Wenzong|Yìzhǔ|Dongzhi|Mùzōng|Muzong|Zǎichún|Tongzhi|Tungchi|T&#8217;ung\s+Chi|Guangxu|Kuanghsü|Kuang\s+Hsü|Kuang\s+Sü|Dézōng|Tezong|Zǎitián|Xuantong|Gongzōng|Pui', 'i')][not(matches(., 'moon'))]"
-                    id="add-chinese-era-gregorian">
+                <sqf:fix id="add-chinese-era-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="chinese-era gregorian"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">chinese-era gregorian</sqf:add>
                 </sqf:fix>
 
-                <!-- Ethiopian Ge’ez -->
-                <sqf:fix
-                    use-when=".[matches(., 'Mäskäräm|Maskaram|Ṭəqəmt|Teqemt|Ṭəqəmti|Teqemti|Ḫədar|Hedar|Taḫśaś|Tahsas|Tehsass|Yäkatit|Yakatit|Läkatit|Lakatit|Mägabit|Magabit|Miyazya|Mazia|Gənbo|Genbo|Gənbot|Genbot|Säne|Sane|Ḥamle|Hamle|Nähase|Nahase|Ṗagʷəmen|Pagwemen|Ṗagume|Pagume', 'i')]"
-                    id="add-calendar-attribute-ethiopian-geez">
-                    <sqf:description>
-                        <sqf:title>Add @calendar="ethopian-geez"</sqf:title>
-                    </sqf:description>
-                    <sqf:add node-type="attribute" target="calendar">ethopian-geez</sqf:add>
-                </sqf:fix>
+            </sqf:group>
+        </rule>
 
-                <sqf:fix
-                    use-when=".[matches(., 'Mäskäräm|Maskaram|Ṭəqəmt|Teqemt|Ṭəqəmti|Teqemti|Ḫədar|Hedar|Taḫśaś|Tahsas|Tehsass|Yäkatit|Yakatit|Läkatit|Lakatit|Mägabit|Magabit|Miyazya|Mazia|Gənbo|Genbo|Gənbot|Genbot|Säne|Sane|Ḥamle|Hamle|Nähase|Nahase|Ṗagʷəmen|Pagwemen|Ṗagume|Pagume', 'i')]"
-                    id="add-calendar-attribute-ethiopian-geez-gregorian">
+        <!-- Ethiopian Ge’ez Calendar Checks/Fixes -->
+        <rule context="tei:date[not(matches(@calendar, 'ethiopian-geez'))]">
+
+            <assert role="info"
+                test="not(.[matches(., 'Mäskäräm|Maskaram|Ṭəqəmt|Teqemt|Ṭəqəmti|Teqemti|Ḫədar|Hedar|Taḫśaś|Tahsas|Tehsass|Yäkatit|Yakatit|Läkatit|Lakatit|Mägabit|Magabit|Miyazya|Mazia|Gənbo|Genbo|Gənbot|Genbot|Säne|Sane|Ḥamle|Hamle|Nähase|Nahase|Ṗagʷəmen|Pagwemen|Ṗagume|Pagume', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Ethopian ge’ez calendar reference.</assert>
+
+            <sqf:group id="add-calendar-attributes">
+                <sqf:fix id="add-calendar-attribute-ethiopian-geez">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="ethopian-ge’ez"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">ethopian-ge’ez</sqf:add>
+                </sqf:fix>
+                <sqf:fix id="add-calendar-attribute-ethiopian-geez-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="ethopian-geez gregorian"</sqf:title>
                     </sqf:description>
-                    <sqf:add node-type="attribute" target="calendar">ethopian-geez
-                        gregorian</sqf:add>
+                    <sqf:add node-type="attribute" target="calendar">ethopian-geez</sqf:add>
                 </sqf:fix>
+            </sqf:group>
 
-                <!-- Hijri -->
-                <sqf:fix
-                    use-when=".[matches(., 'Muḥarram|Muharram|Moharram|Ṣafar|Safar|Sefer|Rabī&#8217;\s+al-awwal|Rebbi-al-ewel|Rabih|Rabī&#8216;\s+ath-thānī|Rabī&#8216;\s+al-Thānī|Rabī&#8216;\s+al-Tānī|Rabī’\s+al-Ākhir|Rabi\s+el\s+tami|Rabee\s+El\s+Thani|Rabi&#8217;Tani|Rebbi-ul-Akbir|Rebi-ul-Ewel|Rabih|Jumādá\s+al-ūlá|Ǧumādā\s+al-Awwal|Jumada\s+al-awwal|Jumada\s+al-ula|Jumada\s+al-Ula|Jumada|Jumada\s+I|Jamadi-ol-Aval|Jumada\s+al-Oola|Jamad-el-Ewel|Jumadil\s+Awwal|Djémazi-ul-ewel|Djemazi-ul-evvel|Youmada|Youmada\s+I|Youmada\s+1st|Jamadi-es-Sani|Jumādá\s+al-ākhirah|Ǧumādā\s+al-Āḫir|Ǧumādā\s+aṮ-Ṯānī|Iamadi|Jumaada\s+al-Akhir|Jumada\s+al-Akhira|Jumādā\s+al-āḵir|Jumada\s+II|Rajab|Rajah|Sha&#8217;bān|Sha&#8216;ban|Sha&#8216;bān|Sha&#8216;ban|Shaaban|Chaban|Ramaḍān|Ramadan|Ramadhan|Ramazam|Shawwāl|Shawwal|Shawal|Dhū\s+al-Qa&#8216;dah|Dhu[:punct:]l-Qi[:punct:]dah|Dhu.?l-Qa[:punct:]dah|Ḏū\s+l-Qa[:punct:]dah|Zulqida|Zeekadeh|Zee\s+Radah|Zee\s+Kadah|Dhū\s+al-Ḥijjah|Dhu\s+al-Hijjah|Dhu[:punct:]l-Hijjah|Zulhijja|Zi\s+El-Hidjah|Zil-Hajj', 'i')]"
-                    id="add-calendar-attribute-hijri">
+        </rule>
+
+        <!-- Hijri Calendar Checks/Fixes -->
+        <rule context="tei:date[not(matches(@calendar, 'hijri'))]">
+            <assert role="info"
+                test="not(.[matches(., 'Muḥarram|Muharram|Moharram|Ṣafar|Safar|Sefer|Rabī&#8217;\s+al-awwal|Rebbi-al-ewel|Rabih|Rabī&#8216;\s+ath-thānī|Rabī&#8216;\s+al-Thānī|Rabī&#8216;\s+al-Tānī|Rabī’\s+al-Ākhir|Rabi\s+el\s+tami|Rabee\s+El\s+Thani|Rabi&#8217;Tani|Rebbi-ul-Akbir|Rebi-ul-Ewel|Rabih|Jumādá\s+al-ūlá|Ǧumādā\s+al-Awwal|Jumada\s+al-awwal|Jumada\s+al-ula|Jumada\s+al-Ula|Jumada|Jumada\s+I|Jamadi-ol-Aval|Jumada\s+al-Oola|Jamad-el-Ewel|Jumadil\s+Awwal|Djémazi-ul-ewel|Djemazi-ul-evvel|Youmada|Youmada\s+I|Youmada\s+1st|Jamadi-es-Sani|Jumādá\s+al-ākhirah|Ǧumādā\s+al-Āḫir|Ǧumādā\s+aṮ-Ṯānī|Iamadi|Jumaada\s+al-Akhir|Jumada\s+al-Akhira|Jumādā\s+al-āḵir|Jumada\s+II|Rajab|Rajah|Sha&#8217;bān|Sha&#8216;ban|Sha&#8216;bān|Sha&#8216;ban|Shaaban|Chaban|Ramaḍān|Ramadan|Ramadhan|Ramazam|Shawwāl|Shawwal|Shawal|Dhū\s+al-Qa&#8216;dah|Dhu[:punct:]l-Qi[:punct:]dah|Dhu.?l-Qa[:punct:]dah|Ḏū\s+l-Qa[:punct:]dah|Zulqida|Zeekadeh|Zee\s+Radah|Zee\s+Kadah|Dhū\s+al-Ḥijjah|Dhu\s+al-Hijjah|Dhu[:punct:]l-Hijjah|Zulhijja|Zi\s+El-Hidjah|Zil-Hajj', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a hijri calendar reference.</assert>
+
+            <sqf:group id="add-calendar-attributes">
+
+                <sqf:fix id="add-calendar-attribute-hijri">
                     <sqf:description>
                         <sqf:title>Add @calendar="hijri"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">hijri</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix
-                    use-when=".[matches(., 'Muḥarram|Muharram|Moharram|Ṣafar|Safar|Sefer|Rabī&#8217;\s+al-awwal|Rebbi-al-ewel|Rabih|Rabī&#8216;\s+ath-thānī|Rabī&#8216;\s+al-Thānī|Rabī&#8216;\s+al-Tānī|Rabī’\s+al-Ākhir|Rabi\s+el\s+tami|Rabee\s+El\s+Thani|Rabi&#8217;Tani|Rebbi-ul-Akbir|Rebi-ul-Ewel|Rabih|Jumādá\s+al-ūlá|Ǧumādā\s+al-Awwal|Jumada\s+al-awwal|Jumada\s+al-ula|Jumada\s+al-Ula|Jumada|Jumada\s+I|Jamadi-ol-Aval|Jumada\s+al-Oola|Jamad-el-Ewel|Jumadil\s+Awwal|Djémazi-ul-ewel|Djemazi-ul-evvel|Youmada|Youmada\s+I|Youmada\s+1st|Jamadi-es-Sani|Jumādá\s+al-ākhirah|Ǧumādā\s+al-Āḫir|Ǧumādā\s+aṮ-Ṯānī|Iamadi|Jumaada\s+al-Akhir|Jumada\s+al-Akhira|Jumādā\s+al-āḵir|Jumada\s+II|Rajab|Rajah|Sha&#8217;bān|Sha&#8216;ban|Sha&#8216;bān|Sha&#8216;ban|Shaaban|Chaban|Ramaḍān|Ramadan|Ramadhan|Ramazam|Shawwāl|Shawwal|Shawal|Dhū\s+al-Qa&#8216;dah|Dhu[:punct:]l-Qi[:punct:]dah|Dhu.?l-Qa[:punct:]dah|Ḏū\s+l-Qa[:punct:]dah|Zulqida|Zeekadeh|Zee\s+Radah|Zee\s+Kadah|Dhū\s+al-Ḥijjah|Dhu\s+al-Hijjah|Dhu[:punct:]l-Hijjah|Zulhijja|Zi\s+El-Hidjah|Zil-Hajj', 'i')]"
-                    id="add-calendar-attribute-hijri-gregorian">
+                <sqf:fix id="add-calendar-attribute-hijri-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="hijri gregorian"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">hijri gregorian</sqf:add>
                 </sqf:fix>
+            </sqf:group>
+        </rule>
 
-                <!-- Iranian/Persian/Solar Hijri -->
-                <sqf:fix
-                    use-when=".[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|[^A-z]dey[^A-z]|[^A-z]Dey[^A-z]|bahman|Bahman|esfand|Esfand|Espand', 'i')]"
-                    id="add-calendar-attribute-iranian-persian">
+        <!-- Iranian/Persian/Solar Hijri Calendar Checks/Fixes -->
+        <rule context="tei:date[not(matches(@calendar, 'iranian-persian'))]">
+
+            <assert role="info"
+                test="not(.[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|[^A-z]dey[^A-z]|[^A-z]Dey[^A-z]|bahman|Bahman|esfand|Esfand|Espand', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating an Iranian/Persian (Solar Hijri) calendar reference.</assert>
+
+            <sqf:group id="add-calendar-attributes">
+
+                <sqf:fix id="add-calendar-attribute-iranian-persian">
                     <sqf:description>
                         <sqf:title>Add @calendar="iranian-persian"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">iranian-persian</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix
-                    use-when=".[matches(., 'farvardin|Farvardin|Farvardīn|ordibehešt|Ordibehesht|Ordībehešt|xordâd|Khordad|Khordād|[^A-z]tir[^A-z]|[^A-z]Tir[^A-z]|mordâd|Mordad|A-Mordād|šahrivar|Shahrivar|Shahrīvar|[^A-z]mehr[^A-z]|[^A-z]Mehr[^A-z]|Mehrmah|[^A-z]âbân[^A-z]|[^A-z]Aban[^A-z]|[^A-z]Ābān[^A-z]|[^A-z]âzar[^A-z]|[^A-z]Azar[^A-z]|[^A-z]Āzar[^A-z]|[^A-z]dey[^A-z]|[^A-z]Dey[^A-z]|bahman|Bahman|esfand|Esfand|Espand', 'i')]"
-                    id="add-calendar-attribute-iranian-persian-gregorian">
+                <sqf:fix id="add-calendar-attribute-iranian-persian-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="iranian-persian gregorian"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">iranian-persian
-                        gregorian</sqf:add>
+                        greogrian</sqf:add>
                 </sqf:fix>
+            </sqf:group>
+        </rule>
 
-                <!-- Japanese Nengō -->
-                <sqf:fix
-                    use-when=".[matches(., 'An&#8217;ei|Kōkaku|Kokaku|Tenmei|Kansei|Kyōwa|Kyowa|Bunka|Ninkō|Ninko|Bunsei|Tenpō|Tenpo|Tenhō|Tenho|Kōka|Koka|Kōmei|Komei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Keiō|Keio|Meiji|Taishō|Taisho|Shōwa|Showa|Heisei|Akihito', 'i')]"
-                    id="add-calendar-attribute-japanese-nengo">
+        <!-- Japanese Nengō Calendar Checks/Fixes -->
+        <rule context="tei:date[not(matches(@calendar, 'japanese-nengō'))]">
+            <assert role="info"
+                test="not(.[matches(., 'An&#8217;ei|Kōkaku|Kokaku|Tenmei|Kansei|Kyōwa|Kyowa|Bunka|Ninkō|Ninko|Bunsei|Tenpō|Tenpo|Tenhō|Tenho|Kōka|Koka|Kōmei|Komei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Keiō|Keio|Meiji|Taishō|Taisho|Shōwa|Showa|Heisei|Akihito', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Japanese nengō calendar reference.</assert>
+
+            <sqf:group id="add-calendar-attributes">
+                <sqf:fix id="add-calendar-attribute-japanese-nengo">
                     <sqf:description>
                         <sqf:title>Add @calendar="japanese-nengō"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">japanese-nengō</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix
-                    use-when=".[matches(., 'An&#8217;ei|Kōkaku|Kokaku|Tenmei|Kansei|Kyōwa|Kyowa|Bunka|Ninkō|Ninko|Bunsei|Tenpō|Tenpo|Tenhō|Tenho|Kōka|Koka|Kōmei|Komei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Keiō|Keio|Meiji|Taishō|Taisho|Shōwa|Showa|Heisei|Akihito', 'i')]"
-                    id="add-calendar-attribute-japanese-nengo-gregorian">
+                <sqf:fix id="add-calendar-attribute-japanese-nengo-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="japanese-nengō gregorian"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">japanese-nengō
                         gregorian</sqf:add>
                 </sqf:fix>
+            </sqf:group>
+        </rule>
 
-                <!-- Korean Era -->
-                <sqf:fix
-                    use-when=".[matches(., 'Yi\s+Geum|Gunjin|Songheon|Taejo|Emperor\s+Go|Yi\s+San|Hyeongun|Hongjae|Jeongjo|Yi\s+Gong|Gongbo|Sunjae|Sunjo|Yi\s+Hwan|Muneung|Wonheon|\s+Heonjong|Yi\s+Byeon|Doseung|Daeyongjae|Cheoljong|Yi\s+Myeong-bok|Yi\s+Hui|Seongrim|Juyeon|Gojong|Kojong|Emperor\s+Tae|Gaeguk|Geonyang|Gwangmu|Kwangmu|Kwang\s+Mu|Gwangmuje|Kwangmuje|Yi\s+Cheok|Gundang|Jeongheon|Sunjong|Emperor\s+Hyo|Emperor\s+Yunghui|Yunghui|Yunghuije|Yunghŭije|Lyung\s+Heni', 'i')]"
-                    id="add-calendar-attribute-korean-era">
+        <!-- Korean Era Calendar Checks/Fixes -->
+        <rule context="tei:date[not(matches(@calendar, 'korean-era'))]">
+            <assert role="info"
+                test="not(.[matches(., 'Yi\s+Geum|Gunjin|Songheon|Taejo|Emperor\s+Go|Yi\s+San|Hyeongun|Hongjae|Jeongjo|Yi\s+Gong|Gongbo|Sunjae|Sunjo|Yi\s+Hwan|Muneung|Wonheon|\s+Heonjong|Yi\s+Byeon|Doseung|Daeyongjae|Cheoljong|Yi\s+Myeong-bok|Yi\s+Hui|Seongrim|Juyeon|Gojong|Kojong|Emperor\s+Tae|Gaeguk|Geonyang|Gwangmu|Kwangmu|Kwang\s+Mu|Gwangmuje|Kwangmuje|Yi\s+Cheok|Gundang|Jeongheon|Sunjong|Emperor\s+Hyo|Emperor\s+Yunghui|Yunghui|Yunghuije|Yunghŭije|Lyung\s+Heni', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Korean era calendar reference.</assert>
+
+            <sqf:group id="add-calendar-attributes">
+                <sqf:fix id="add-calendar-attribute-korean-era">
                     <sqf:description>
                         <sqf:title>Add @calendar="korean-era"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">korean-era</sqf:add>
                 </sqf:fix>
-                <sqf:fix
-                    use-when=".[matches(., 'Yi\s+Geum|Gunjin|Songheon|Taejo|Emperor\s+Go|Yi\s+San|Hyeongun|Hongjae|Jeongjo|Yi\s+Gong|Gongbo|Sunjae|Sunjo|Yi\s+Hwan|Muneung|Wonheon|\s+Heonjong|Yi\s+Byeon|Doseung|Daeyongjae|Cheoljong|Yi\s+Myeong-bok|Yi\s+Hui|Seongrim|Juyeon|Gojong|Kojong|Emperor\s+Tae|Gaeguk|Geonyang|Gwangmu|Kwangmu|Kwang\s+Mu|Gwangmuje|Kwangmuje|Yi\s+Cheok|Gundang|Jeongheon|Sunjong|Emperor\s+Hyo|Emperor\s+Yunghui|Yunghui|Yunghuije|Yunghŭije|Lyung\s+Heni', 'i')]"
-                    id="add-calendar-attribute-korean-era-gregorian">
+
+                <sqf:fix id="add-calendar-attribute-korean-era-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="korean-era gregorian"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">korean-era gregorian</sqf:add>
                 </sqf:fix>
+            </sqf:group>
 
-                <!-- Masonic Anno Lucis -->
-                <sqf:fix
-                    use-when=".[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')]"
-                    id="add-calendar-attribute-masonic-anno-lucis">
+        </rule>
+
+        <!-- Masonic Calendar Checks/Fixes -->
+        <rule context="tei:date[not(matches(@calendar, 'masonic-anno-lucis'))]">
+
+            <assert role="info"
+                test="not(.[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Masonic calendar reference.</assert>
+
+            <sqf:group
+                use-when=".[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')]"
+                id="add-calendar-attributes">
+                <sqf:fix id="add-calendar-attribute-masonic-anno-lucis">
                     <sqf:description>
                         <sqf:title>Add @calendar="masonic"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">masonic-anno-lucis</sqf:add>
                 </sqf:fix>
-                <sqf:fix
-                    use-when=".[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')]"
-                    id="add-calendar-attribute-masonic-anno-lucis-gregorian">
+                <sqf:fix id="add-calendar-attribute-masonic-anno-lucis-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="masonic gregorian"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">masonic-anno-lucis
                         gregorian</sqf:add>
                 </sqf:fix>
+            </sqf:group>
 
-                <!-- Papal Era -->
+        </rule>
+
+        <!-- Papal Era Calendar Checks/Fixes -->
+        <rule context="tei:date[not(matches(@calendar, 'papal-era'))]">
+            <assert role="info" test="not(.[matches(., 'pontif*', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a papal era calendar reference.</assert>
+            <sqf:group id="add-calendar-attributes">
                 <sqf:fix use-when=".[matches(., 'pontif*', 'i')]"
                     id="add-calendar-attribute-papal-era">
                     <sqf:description>
@@ -523,6 +395,7 @@
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">papal-era</sqf:add>
                 </sqf:fix>
+
                 <sqf:fix use-when=".[matches(., 'pontif*', 'i')]"
                     id="add-calendar-attribute-papal-era-gregorian">
                     <sqf:description>
@@ -530,78 +403,100 @@
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">papal-era gregorian</sqf:add>
                 </sqf:fix>
+            </sqf:group>
+        </rule>
 
-                <!-- Roman -->
-                <sqf:fix use-when=".[matches(., 'nones|ides|kalends', 'i')]"
-                    id="add-calendar-attribute-roman">
+        <!-- Roman Calendar Checks/Fixes -->
+        <rule context="tei:date[not(matches(@calendar, 'roman'))]">
+            <assert role="info" test="not(.[matches(., 'nones|ides|kalends', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Roman calendar reference.</assert>
+            <sqf:group id="add-calendar-attributes">
+                <sqf:fix id="add-calendar-attribute-roman">
                     <sqf:description>
                         <sqf:title>Add @calendar="roman"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">roman</sqf:add>
                 </sqf:fix>
-                <sqf:fix use-when=".[matches(., 'nones|ides|kalends', 'i')]"
-                    id="add-calendar-attribute-roman-gregorian">
+
+                <sqf:fix id="add-calendar-attribute-roman-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="roman gregorian"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">roman gregorian</sqf:add>
                 </sqf:fix>
+            </sqf:group>
+        </rule>
 
-                <!-- Rumi -->
-                <sqf:fix
-                    use-when=".[matches(., 'Kânûn-ı\s+Sânî|Kanun-i Sani|Şubat|Subat|[^A-z]Mart[^A-z]|Nisan|Mayıs|Mayis|Haziran|Temmuz|Ağustos|Agustos|Eylül|EylulTeşrin-i\s+Evvel|Tesrin-i\s+Evvel|Teşrin-i\s+Sânî|Tesrin-i Sani|Kânûn-ı\s+Evvel|Kanun-i\s+Evvel', 'i')]"
-                    id="add-calendar-attribute-rumi">
+        <!-- Rumi Calendar Checks/Fixes -->
+        <rule context="tei:date[not(matches(@calendar, 'rumi'))]">
+            <assert role="info"
+                test="not(.[matches(., 'Kânûn-ı\s+Sânî|Kanun-i Sani|Şubat|Subat|[^A-z]Mart[^A-z]|Nisan|Mayıs|Mayis|Haziran|Temmuz|Ağustos|Agustos|Eylül|EylulTeşrin-i\s+Evvel|Tesrin-i\s+Evvel|Teşrin-i\s+Sânî|Tesrin-i Sani|Kânûn-ı\s+Evvel|Kanun-i\s+Evvel', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Rumi calendar reference.</assert>
+            <sqf:group id="add-calendar-attributes">
+                <sqf:fix id="add-calendar-attribute-rumi">
                     <sqf:description>
                         <sqf:title>Add @calendar="rumi"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">rumi</sqf:add>
                 </sqf:fix>
-                <sqf:fix
-                    use-when=".[matches(., 'Kânûn-ı\s+Sânî|Kanun-i Sani|Şubat|Subat|[^A-z]Mart[^A-z]|Nisan|Mayıs|Mayis|Haziran|Temmuz|Ağustos|Agustos|Eylül|EylulTeşrin-i\s+Evvel|Tesrin-i\s+Evvel|Teşrin-i\s+Sânî|Tesrin-i Sani|Kânûn-ı\s+Evvel|Kanun-i\s+Evvel', 'i')]"
-                    id="add-calendar-attribute-rumi-gregorian">
+
+                <sqf:fix id="add-calendar-attribute-rumi-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="rumi gregorian"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">rumi gregorian</sqf:add>
                 </sqf:fix>
+            </sqf:group>
+        </rule>
 
-                <!-- Tibetan Phugpa -->
-                <sqf:fix
-                    use-when=".[matches(., 'Rabbit|Dragon|Snake|Horse|Goat|Monkey|Rooster|Dog|Pig|Rat|Ox|Tiger', 'i') and matches(., 'Fire|Earth|Iron|Water|Wood', 'i')]"
-                    id="add-calendar-attribute-tibetan-phugpa">
+        <!-- Tibetan Phugpa Calendar Checks/Fixes -->
+        <rule context="tei:date[not(matches(@calendar, 'tibetan-phugpa'))]">
+            <assert role="info"
+                test="not(.[matches(., 'Rabbit|Dragon|Snake|Horse|Goat|Monkey|Rooster|Dog|Pig|Rat|Ox|Tiger', 'i') and matches(., 'Fire|Earth|Iron|Water|Wood', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Tibetan phugpa calendar reference.</assert>
+
+            <sqf:group id="add-calendar-attributes">
+                <sqf:fix id="add-calendar-attribute-tibetan-phugpa">
                     <sqf:description>
                         <sqf:title>Add @calendar="tibetan-phugpa"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">tibetan-phugpa</sqf:add>
                 </sqf:fix>
-                <sqf:fix
-                    use-when=".[matches(., 'Rabbit|Dragon|Snake|Horse|Goat|Monkey|Rooster|Dog|Pig|Rat|Ox|Tiger', 'i') and matches(., 'Fire|Earth|Iron|Water|Wood', 'i')]"
-                    id="add-calendar-attribute-tibetan-phugpa-gregorian">
+
+                <sqf:fix id="add-calendar-attribute-tibetan-phugpa-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="tibetan-phugpa gregorian"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">tibetan-phugpa
                         gregorian</sqf:add>
                 </sqf:fix>
+            </sqf:group>
+        </rule>
 
-                <!-- US Republic -->
-                <sqf:fix
-                    use-when=".[matches(., 'of\s+the\s+Independence\s+of\s+the\s+United\s+States', 'i')]"
-                    id="add-calendar-attribute-us-republic">
+        <!-- US Republic/Independence Calendar Checks/Quick Fixes -->
+        <rule context="tei:date[not(matches(@calendar, 'us-republic'))]">
+            <assert role="info"
+                test="not(.[matches(., 'of\s+the\s+Independence\s+of\s+the\s+United\s+States', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating reference to United States independence/republic.</assert>
+
+            <sqf:group id="add-calendar-attributes">
+                <sqf:fix id="add-calendar-attribute-us-republic">
                     <sqf:description>
                         <sqf:title>Add @calendar="us-republic"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">us-republic</sqf:add>
                 </sqf:fix>
-                <sqf:fix
-                    use-when=".[matches(., 'of\s+the\s+Independence\s+of\s+the\s+United\s+States', 'i')]"
-                    id="add-calendar-attribute-us-republic-gregorian">
+
+                <sqf:fix id="add-calendar-attribute-us-republic-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="gregorian us-republic"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">gregorian us-republic</sqf:add>
                 </sqf:fix>
-
             </sqf:group>
         </rule>
     </pattern>
@@ -708,12 +603,10 @@
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
 
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian"
-                            where appropriate)</sqf:title>
+                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
-                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
-                        target="calendar">gregorian</sqf:add>
+                    <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
 
@@ -733,12 +626,10 @@
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian"
-                            where appropriate)</sqf:title>
+                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
-                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
-                        target="calendar">gregorian</sqf:add>
+                    <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
                 <!-- Fix 3: month-day-range-year-regex-eng -->
@@ -761,13 +652,11 @@
                     <let name="to" value="concat($year, '-', $month-digit, '-', $date-to)"/>
 
                     <sqf:description>
-                        <sqf:title>Add @from and @to attributes to &lt;date&gt; (and
-                            @calendar="gregorian" where appropriate)</sqf:title>
+                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="from" select="$from"/>
                     <sqf:add match="." node-type="attribute" target="to" select="$to"/>
-                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
-                        target="calendar">gregorian</sqf:add>
+                    <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
                 <!-- Fix 4: date-spelled-out-regex-eng -->
@@ -928,12 +817,10 @@
                     <let name="when"
                         value="concat($year-combined, '-', $month-digit, '-', $date-digit)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian"
-                            where appropriate)</sqf:title>
+                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
-                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
-                        target="calendar">gregorian</sqf:add>
+                    <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
                 <!-- Fix 5: day-month-year-partially-spelled-out-regex-eng -->
@@ -1053,12 +940,10 @@
                     <let name="when"
                         value="concat($year-combined, '-', $month-digit, '-', $date-digit)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian"
-                            where appropriate)</sqf:title>
+                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
-                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
-                        target="calendar">gregorian</sqf:add>
+                    <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
                 <!-- Fix 6: month-day-year-regex-fr -->
@@ -1077,12 +962,10 @@
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian"
-                            where appropriate)</sqf:title>
+                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
-                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
-                        target="calendar">gregorian</sqf:add>
+                    <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
 
@@ -1103,12 +986,10 @@
 
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
                     <sqf:description>
-                        <sqf:title>Add @when attribute to &lt;date&gt; (and @calendar="gregorian"
-                            where appropriate)</sqf:title>
+                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
-                    <sqf:add match="." use-when=".[not(@calendar)]" node-type="attribute"
-                        target="calendar">gregorian</sqf:add>
+                    <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
             </sqf:group>
