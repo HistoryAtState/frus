@@ -166,7 +166,7 @@
             context="tei:date[not(ancestor::tei:publicationStmt)][@from castable as xs:dateTime and @to castable as xs:dateTime]">
             <let name="from-to-duration" value="xs:dateTime(./@to) - xs:dateTime(./@from)"/>
             <assert role="warn"
-                test="xs:dayTimeDuration($from-to-duration) &lt; xs:dayTimeDuration('P30D')">For the
+                test="xs:dayTimeDuration($from-to-duration) &lt; xs:dayTimeDuration('P32D')">For the
                 majority of FRUS documents, the duration between @from and @to attributes would
                 likely be less than one month. Please verify the correctness of: @from="<value-of
                     select="./@from"/>" and @to="<value-of select="./@to"/>"</assert>
