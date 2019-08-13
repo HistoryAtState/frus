@@ -30,6 +30,19 @@
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
+                <rendition xml:id="top">vertical-align: top;</rendition>
+                <rendition xml:id="bottom">vertical-align: bottom;</rendition>
+                <rendition xml:id="middle">vertical-align: middle;</rendition>
+                <rendition xml:id="nowrap">white-space: nowrap !important;</rendition>
+                <rendition xml:id="nopad">padding-right: 0.5em !important;</rendition>
+                <rendition xml:id="border-top">border-top: 1px black solid;</rendition>
+                <rendition xml:id="border-bottom">border-bottom: 1px black solid;</rendition>
+                <rendition xml:id="border-left">border-left: 1px black solid;</rendition>
+                <rendition xml:id="border-right">border-right: 1px black solid;</rendition>
+                <rendition xml:id="center">display: block; text-align: center;</rendition>
+                <rendition xml:id="center-block">margin-left: auto; margin-right: auto;</rendition>
+                <rendition xml:id="underline">text-decoration: underline;</rendition>
+                <rendition xml:id="hanging">padding-left:1.5em; text-indent:-1.5em;</rendition>
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
@@ -1392,9 +1405,9 @@
                         <note rend="inline"><hi rend="strong">Tab A</hi></note>
                         <head>Talking Points<note n="3" xml:id="d2fn3">Secret; <gloss
                                     target="#t_Exdis_1">Exdis</gloss>.</note></head>
-                        <dateline><date when="1973-01-17"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">Undated</date>.</dateline>
+                        <opener><dateline rendition="#right"><date when="1973-01-17"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">Undated</date>.</dateline></opener>
                         <p>After an encouraging start in mid-1971 followed by a year of relative
                             inactivity, the Panama Canal Treaty negotiations retrogressed when the
                             Panamanians presented to Ambassador <persName corresp="#p_ARB_1"
@@ -1507,9 +1520,9 @@
                         <head><hi rend="strong">Comparison of Positions<note n="6" xml:id="d2fn6"
                                     >Secret; <gloss target="#t_Exdis_1"
                             >Exdis</gloss>.</note></hi></head>
-                        <dateline><date when="1973-01-17"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">Undated</date>.</dateline>
+                        <opener><dateline rendition="#right"><date when="1973-01-17"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">Undated</date>.</dateline></opener>
                         <p>1. <hi rend="italic">Duration.</hi> In response to our position to drop
                             perpetuity and operate the lock canal for fifty years and a sea-level
                             canal for forty additional years, Panama offers 22 years on the lock
@@ -1902,7 +1915,7 @@
                         Foreign Minister <persName corresp="#p_TJA_1">Tack</persName>.<note n="4"
                             xml:id="d5fn4">Neither is attached. Regarding the December negotiations,
                             see <ref target="#d2fn4">footnote 4, Document 2</ref>. <persName
-                                corresp="#p_ARB_1">Anderson</persName>'s reply to the December
+                                corresp="#p_ARB_1">Anderson</persName>’s reply to the December
                             proposals is dated February 23; see <ref target="#d10fn2">footnote 2,
                                 Document 10</ref>.</note></p>
                     <p>During the year 1972, neither General <persName corresp="#p_THOE_1"
@@ -3049,8 +3062,9 @@
                                     Panama Canal Zone—Mar 1973–Dec 1973. Confidential. The undated
                                     translation was done in the Division of Language Services in the
                                     Department of State.</note></hi></head>
-                        <dateline><placeName>Kingston</placeName>, <date when="1973-05-28"
-                                calendar="gregorian">May 28, 1973</date>, 1530Z.</dateline>
+                        <opener><dateline rendition="#right"><placeName>Kingston</placeName>, <date
+                                    when="1973-05-28" calendar="gregorian">May 28, 1973</date>,
+                                1530Z.</dateline></opener>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Sec Visit LA—Bilateral with Fon.Min. <persName corresp="#p_TJA_1"
@@ -5536,9 +5550,9 @@
                                 Governor of the Panama Canal Zone (<persName corresp="#p_PDS_1"
                                     >Parker</persName>)</hi><note n="6" xml:id="d31fn6">No
                                 classification marking.</note></head>
-                        <dateline><date when="1974-02-05"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">Undated</date>.</dateline>
+                        <opener><dateline rendition="#right"><date when="1974-02-05"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">Undated</date>.</dateline></opener>
                         <p rend="flushleft">Dear Governor <persName corresp="#p_PDS_1"
                                 >Parker</persName>:</p>
                         <p>The signing of a Joint Statement of Principles by the Governments of the
@@ -11676,10 +11690,11 @@
                     <frus:attachment>
                         <note rend="inline"><hi rend="strong">Attachment 1</hi><note n="4"
                                 xml:id="d75fn4">Confidential.</note></note>
-                        <dateline><date notBefore="1975-04-22T12:21:00-04:00"
-                                notAfter="1975-05-02T23:59:59-04:00"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">Undated</date>.</dateline>
+                        <opener><dateline rendition="#right"><date
+                                    notBefore="1975-04-22T12:21:00-04:00"
+                                    notAfter="1975-05-02T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">Undated</date>.</dateline></opener>
                         <p rend="center">UNILATERAL ACTIONS WHICH REQUIRE NO CONGRESSIONAL
                             ACTION</p>
                         <p>1. Expand current Canal Zone practice of flying jointly Panamanian and US
@@ -11694,10 +11709,11 @@
                     <frus:attachment>
                         <note rend="inline"><hi rend="strong">Attachment 2</hi><note n="5"
                                 xml:id="d75fn5">Confidential.</note></note>
-                        <dateline><date notBefore="1975-04-22T12:21:00-04:00"
-                                notAfter="1975-05-02T23:59:59-04:00"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">Undated</date>.</dateline>
+                        <opener><dateline rendition="#right"><date
+                                    notBefore="1975-04-22T12:21:00-04:00"
+                                    notAfter="1975-05-02T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">Undated</date>.</dateline></opener>
                         <p rend="center">UNILATERAL ACTIONS REQUIRING CONGRESSIONAL APPROVAL</p>
                         <p>1. Increase substantially the existing monetary annuity to Panama.</p>
                         <p>2. Offer Panama civil and criminal jurisdiction over matters arising in
@@ -12352,11 +12368,10 @@
                             33.3–2/Jurisdiction, 1975. Secret; Sensitive; <gloss
                                 target="#t_Stadis_1">Stadis</gloss>; <gloss target="#t_Nodis_1"
                                 >Nodis</gloss>.</note></head>
-
-                    <dateline>
-                        <placeName>Washington</placeName>, <date when="1975-05-20"
-                            calendar="gregorian">May 20, 1975</date>.</dateline>
-
+                    <opener><dateline rendition="#right">
+                            <placeName>Washington</placeName>, <date when="1975-05-20"
+                                calendar="gregorian">May 20, 1975</date>.</dateline>
+                    </opener>
                     <p rend="center">Panama: State of Play</p>
                     <p>The <gloss target="#t_NSC_1">NSC</gloss> staff has decided not to issue any
                         guidance to Defense or State as a result of the meeting with the
@@ -15510,8 +15525,7 @@
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-12-29"
-                                calendar="gregorian">December 29, 1975</date>.</dateline>
-                    </opener>
+                                calendar="gregorian">December 29, 1975</date>.</dateline></opener>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>December 1975 Negotiating Round, Panama Canal Negotiations (U)</item>
@@ -15667,9 +15681,7 @@
                         of:</p>
                     <p>(1) The <hi rend="italic">primary</hi> right of the US to guarantee the
                         permanent neutrality of the Canal.</p>
-
                     <p>(2) Whether US military vessels should be allowed toll-free transit.</p>
-
                     <p>(3) Whether there would be a bonding, or insurance, arrangement for
                         transiting nuclear powered or armed vessels.</p>
                     <p>8. <hi rend="italic">Expansion.</hi> The Panamanian position on expansion
@@ -15784,7 +15796,6 @@
                     <p>(4) Our new position on expansion (TAB F).</p>
                     <p>b. In response, the Panamanian Team said it “took note of the conditional US
                         offer, and that the offer seems “workable.”</p>
-
                     <p>15. <hi rend="italic">Summary.</hi> In summary, this negotiating session
                         succeeded in clarifying the remaining issues. The Panamanian conceptual
                         proposal for handling the lands and waters issue seems to be workable with
@@ -15811,10 +15822,11 @@
                     <frus:attachment>
                         <note rend="inline"><hi rend="strong">Tab A<note n="8" xml:id="d108fn8"
                                     >Secret.</note></hi></note>
-                        <dateline><date notBefore="1975-11-25T00:00:00-05:00"
-                                notAfter="1975-12-16T23:59:59-05:00"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">Undated</date>.</dateline>
+                        <opener><dateline rendition="#right"><date
+                                    notBefore="1975-11-25T00:00:00-05:00"
+                                    notAfter="1975-12-16T23:59:59-05:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">Undated</date>.</dateline></opener>
                         <pb n="290" facs="0315" xml:id="pg_290"/>
                         <table cols="4">
                             <row>
@@ -16219,7 +16231,7 @@
                     <p>5. The Cuba visit received minimal press coverage in this country.</p>
                     <p>6. The Congress was not, of course, in session. Presumably treaty opponents,
                         and possibly Governor <persName corresp="#p_RRW_1">Reagan</persName>, will
-                        exploit <persName corresp="#p_THOE_1">Torrijos'</persName> “Cuba
+                        exploit <persName corresp="#p_THOE_1">Torrijos’</persName> “Cuba
                         connection”.</p>
                     <p>7. <persName corresp="#p_JJK_1">Javits</persName> talked with <persName
                             corresp="#p_THOE_1">Torrijos</persName> in Panama the day before he left
@@ -16746,9 +16758,9 @@
                         <note rend="inline"><hi rend="strong">Enclosure</hi><note n="3"
                                 xml:id="d115fn3">Secret. Drafted by Bell on March 19; cleared by
                                     <persName corresp="#p_BE_1">Bunker</persName>.</note></note>
-                        <dateline><date when="1976-03-19"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">Undated</date>.</dateline>
+                        <opener><dateline rendition="#right"><date when="1976-03-19"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">Undated</date>.</dateline></opener>
                         <p rend="center">SCENARIO FOR THE UNITED STATES-PANAMA TREATY NEGOTIATIONS
                             IN THE COMING MONTHS</p>
                         <p>Since the resolution of the State/Defense differences and the resulting
