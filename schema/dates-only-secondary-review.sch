@@ -158,6 +158,96 @@
         </rule>
     </pattern>
 
+    <!-- Date Attributes Duration Checks -->
+    <pattern id="date-attribute-durations">
+        <title>Date Attributes Duration Checks</title>
+        <!-- @from and @to -->
+        <rule
+            context="tei:date[not(ancestor::tei:publicationStmt)][@from castable as xs:dateTime and @to castable as xs:dateTime]">
+            <let name="from-to-duration" value="xs:dateTime(./@to) - xs:dateTime(./@from)"/>
+            <assert role="warn"
+                test="xs:dayTimeDuration($from-to-duration) &lt; xs:dayTimeDuration('P32D')">For the
+                majority of FRUS documents, the duration between @from and @to attributes would
+                likely be less than one month. Please verify the correctness of: @from="<value-of
+                    select="./@from"/>" and @to="<value-of select="./@to"/>"</assert>
+        </rule>
+        <rule
+            context="tei:date[not(ancestor::tei:publicationStmt)][@from castable as xs:date and @to castable as xs:date]">
+            <let name="from-to-duration"
+                value="xs:dateTime(xs:date(./@to)) - xs:dateTime(xs:date(./@from))"/>
+            <assert role="warn"
+                test="xs:dayTimeDuration($from-to-duration) &lt; xs:dayTimeDuration('P32D')">For the
+                majority of FRUS documents, the duration between @from and @to attributes would
+                likely be less than one month. Please verify the correctness of: @from="<value-of
+                    select="./@from"/>" and @to="<value-of select="./@to"/>"</assert>
+        </rule>
+        <rule
+            context="tei:date[not(ancestor::tei:publicationStmt)][@from castable as xs:dateTime and @to castable as xs:date]">
+            <let name="from-to-duration" value="xs:dateTime(xs:date(./@to)) - xs:dateTime(./@from)"/>
+            <assert role="warn"
+                test="xs:dayTimeDuration($from-to-duration) &lt; xs:dayTimeDuration('P32D')">For the
+                majority of FRUS documents, the duration between @from and @to attributes would
+                likely be less than one month. Please verify the correctness of: @from="<value-of
+                    select="./@from"/>" and @to="<value-of select="./@to"/>"</assert>
+        </rule>
+        <rule
+            context="tei:date[not(ancestor::tei:publicationStmt)][@from castable as xs:date and @to castable as xs:dateTime]">
+            <let name="from-to-duration" value="xs:dateTime(./@to) - xs:dateTime(xs:date(./@from))"/>
+            <assert role="warn"
+                test="xs:dayTimeDuration($from-to-duration) &lt; xs:dayTimeDuration('P32D')">For the
+                majority of FRUS documents, the duration between @from and @to attributes would
+                likely be less than one month. Please verify the correctness of: @from="<value-of
+                    select="./@from"/>" and @to="<value-of select="./@to"/>"</assert>
+        </rule>
+
+        <!-- @notBefore and @notAfter -->
+        <rule
+            context="tei:date[not(ancestor::tei:publicationStmt)][@notBefore castable as xs:dateTime and @notAfter castable as xs:dateTime]">
+            <let name="duration-between-notBefore-and-notAfter"
+                value="xs:dateTime(./@notAfter) - xs:dateTime(./@notBefore)"/>
+            <assert role="warn"
+                test="xs:dayTimeDuration($duration-between-notBefore-and-notAfter) &lt; xs:dayTimeDuration('P365D')"
+                >For the majority of FRUS documents, the duration between @notBefore and @notAfter
+                attributes would likely be less than one year. Please verify the correctness of:
+                    @from="<value-of select="./@notBefore"/>" and @to="<value-of
+                    select="./@notAfter"/>"</assert>
+        </rule>
+        <rule
+            context="tei:date[not(ancestor::tei:publicationStmt)][@notBefore castable as xs:date and @notAfter castable as xs:date]">
+            <let name="duration-between-notBefore-and-notAfter"
+                value="xs:dateTime(xs:date(./@notAfter)) - xs:dateTime(xs:date(./@notBefore))"/>
+            <assert role="warn"
+                test="xs:dayTimeDuration($duration-between-notBefore-and-notAfter) &lt; xs:dayTimeDuration('P365D')"
+                >For the majority of FRUS documents, the duration between @notBefore and @notAfter
+                attributes would likely be less than one year. Please verify the correctness of:
+                    @notBefore="<value-of select="./@notBefore"/>" and @notAfter="<value-of
+                    select="./@notAfter"/>"</assert>
+        </rule>
+        <rule
+            context="tei:date[not(ancestor::tei:publicationStmt)][@notBefore castable as xs:dateTime and @notAfter castable as xs:date]">
+            <let name="duration-between-notBefore-and-notAfter"
+                value="xs:dateTime(xs:date(./@notAfter)) - xs:dateTime(./@notBefore)"/>
+            <assert role="warn"
+                test="xs:dayTimeDuration($duration-between-notBefore-and-notAfter) &lt; xs:dayTimeDuration('P365D')"
+                >For the majority of FRUS documents, the duration between @notBefore and @notAfter
+                attributes would likely be less than one year. Please verify the correctness of:
+                    @notBefore="<value-of select="./@notBefore"/>" and @notAfter="<value-of
+                    select="./@notAfter"/>"</assert>
+        </rule>
+        <rule
+            context="tei:date[not(ancestor::tei:publicationStmt)][@notBefore castable as xs:date and @notAfter castable as xs:dateTime]">
+            <let name="duration-between-notBefore-and-notAfter"
+                value="xs:dateTime(./@notAfter) - xs:dateTime(xs:date(./@notBefore))"/>
+            <assert role="warn"
+                test="xs:dayTimeDuration($duration-between-notBefore-and-notAfter) &lt; xs:dayTimeDuration('P365D')"
+                >For the majority of FRUS documents, the duration between @notBefore and @notAfter
+                attributes would likely be less than one year. Please verify the correctness of:
+                    @notBefore="<value-of select="./@notBefore"/>" and @notAfter="<value-of
+                    select="./@notAfter"/>"</assert>
+        </rule>
+
+    </pattern>
+
     <!-- Pre-U.S. Independence Dates Check -->
     <pattern id="date-1776">
         <title>Pre-U.S. Independence Dates Check</title>

@@ -32,4 +32,17 @@
         </rule>
     </pattern>
 
+    <pattern id="volume-duration">
+        <title>Volume Duration Check</title>
+        <rule context="tei:publicationStmt/tei:date[attribute::type = 'content-date']">
+            <let name="volume-duration" value="xs:dateTime(./@notAfter) - xs:dateTime(./@notBefore)"/>
+            <assert role="warn"
+                test="xs:dayTimeDuration($volume-duration) &lt; xs:dayTimeDuration('P3650D')">For
+                the majority of FRUS volumes, the duration between the earliest documents and the
+                latest would likely be less than 10 years. Please verify the correctness of:
+                    @notBefore="<value-of select="./@notBefore"/>" and @to="<value-of
+                    select="./@notAfter"/>"</assert>
+        </rule>
+    </pattern>
+
 </schema>
