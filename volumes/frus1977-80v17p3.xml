@@ -28,6 +28,19 @@
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
+                <rendition xml:id="top">vertical-align: top;</rendition>
+                <rendition xml:id="bottom">vertical-align: bottom;</rendition>
+                <rendition xml:id="middle">vertical-align: middle;</rendition>
+                <rendition xml:id="nowrap">white-space: nowrap !important;</rendition>
+                <rendition xml:id="nopad">padding-right: 0.5em !important;</rendition>
+                <rendition xml:id="border-top">border-top: 1px black solid;</rendition>
+                <rendition xml:id="border-bottom">border-bottom: 1px black solid;</rendition>
+                <rendition xml:id="border-left">border-left: 1px black solid;</rendition>
+                <rendition xml:id="border-right">border-right: 1px black solid;</rendition>
+                <rendition xml:id="center">display: block; text-align: center;</rendition>
+                <rendition xml:id="center-block">margin-left: auto; margin-right: auto;</rendition>
+                <rendition xml:id="underline">text-decoration: underline;</rendition>
+                <rendition xml:id="hanging">padding-left:1.5em; text-indent:-1.5em;</rendition>
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
@@ -35,7 +48,10 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
-
+        <!-- <xenoData>
+            <frus:coverage notBefore="1977-01-12T10:43:00-05:00"
+                notAfter="1981-01-06T23:59:59-05:00"/>
+        </xenoData> -->
     </teiHeader>
     <text>
         <front>
@@ -15998,8 +16014,8 @@
 
                     <pb n="285" facs="0306" xml:id="pg_285"/>
                     <div type="document" n="116" xml:id="d116" subtype="historical-document"
-                        frus:doc-dateTime-min="1979-12-15T00:00:00-05:00"
-                        frus:doc-dateTime-max="1979-12-19T23:59:59-05:00">
+                        frus:doc-dateTime-min="1979-11-30T00:00:00-05:00"
+                        frus:doc-dateTime-max="1979-12-15T23:59:59-05:00">
                         <head>116. Memorandum Prepared by the National Security Council Staff<note
                                 n="1" xml:id="d116fn1" type="source">Source: Carter Library,
                                 National Security Affairs, Staff Material, Middle East, Subject
@@ -16008,10 +16024,9 @@
                                     >Brzezinski</persName>.</note></head>
                         <opener>
                             <dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date
-                                    notBefore="1979-12-15T00:00:00-05:00"
-                                    notAfter="1979-12-19T23:59:59-05:00"
-                                    ana="#date_imprecise-inferred-from-document-content-and-sibling-dates"
+                                <placeName>Washington</placeName>, <date notBefore="1979-11-30"
+                                    notAfter="1979-12-15"
+                                    ana="#date_imprecise-inferred-from-document-content"
                                     calendar="gregorian">undated</date></dateline>
                         </opener>
                         <p><hi rend="italic">Nov 30</hi>—SCC. Mexico refuses the Shah.<note n="2"
