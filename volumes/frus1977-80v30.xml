@@ -28,6 +28,19 @@
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
+                <rendition xml:id="top">vertical-align: top;</rendition>
+                <rendition xml:id="bottom">vertical-align: bottom;</rendition>
+                <rendition xml:id="middle">vertical-align: middle;</rendition>
+                <rendition xml:id="nowrap">white-space: nowrap !important;</rendition>
+                <rendition xml:id="nopad">padding-right: 0.5em !important;</rendition>
+                <rendition xml:id="border-top">border-top: 1px black solid;</rendition>
+                <rendition xml:id="border-bottom">border-bottom: 1px black solid;</rendition>
+                <rendition xml:id="border-left">border-left: 1px black solid;</rendition>
+                <rendition xml:id="border-right">border-right: 1px black solid;</rendition>
+                <rendition xml:id="center">display: block; text-align: center;</rendition>
+                <rendition xml:id="center-block">margin-left: auto; margin-right: auto;</rendition>
+                <rendition xml:id="underline">text-decoration: underline;</rendition>
+                <rendition xml:id="hanging">padding-left:1.5em; text-indent:-1.5em;</rendition>
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
@@ -6853,10 +6866,10 @@
                                     marking.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-02-01"
-                                calendar="gregorian">February 1977</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1977-02-01"
+                                    calendar="gregorian">February 1977</date>
+                            </dateline></opener>
                         <p rend="center">
                             <hi rend="italic">
                                 <gloss target="#t_CU_1">CU</gloss> Program Objectives</hi>
@@ -7063,10 +7076,10 @@
                                     marking.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-02-18"
-                                calendar="gregorian">February 18, 1977</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1977-02-18"
+                                    calendar="gregorian">February 18, 1977</date>
+                            </dateline></opener>
                         <p rend="center">
                             <hi rend="italic">Foreign Media Reaction: Selected Foreign Affairs
                                 Issues</hi>
@@ -9419,10 +9432,10 @@
                                     marking.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-03-30"
-                                calendar="gregorian">March 30, 1977</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1977-03-30"
+                                    calendar="gregorian">March 30, 1977</date>
+                            </dateline></opener>
                         <p rend="center">NOTES FROM DIRECTOR’S STAFF MEETING</p>
                         <p rend="center">March 30, 1977</p>
                         <p>I am delighted to be here for the first time. This time three months ago
@@ -10491,10 +10504,10 @@
                                     classification marking.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-04-11"
-                                calendar="gregorian">April 11, 1977</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1977-04-11"
+                                    calendar="gregorian">April 11, 1977</date>
+                            </dateline></opener>
                         <p>Now that the hurdle of my confirmation has been cleared,<note n="5"
                                 xml:id="d35fn5">See <ref target="#d21fn2">footnote 2, Document
                                     21</ref> and <ref target="#d29">Document 29</ref>.</note> I
@@ -12512,10 +12525,10 @@
                                     classification marking.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-04-29"
-                                calendar="gregorian">April 29, 1977</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1977-04-29"
+                                    calendar="gregorian">April 29, 1977</date>
+                            </dateline></opener>
                         <p rend="center">FOREIGN PUBLIC OPINION ON U.S. ADVOCACY OF HUMAN RIGHTS</p>
                         <p>In mid-April, a majority in Germany (63%) and roughly half of the general
                             public in four other major industrial democracies were aware of
@@ -15123,10 +15136,10 @@
                                     >Confidential.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-06-17"
-                                calendar="gregorian">June 17, 1977</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1977-06-17"
+                                    calendar="gregorian">June 17, 1977</date>
+                            </dateline></opener>
                         <p>Dear <gloss target="#t_PAO_1">PAO</gloss>:</p>
                         <p>I am enclosing, for your information and comments, the <gloss
                                 target="#t_USIA_1">USIA</gloss> Human Rights Action Proposals which
@@ -15216,13 +15229,13 @@
                                     Agency<note n="5" xml:id="d67fn5">Confidential.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                notBefore="1977-05-30T00:00:00-04:00"
-                                notAfter="1977-06-16T23:59:59-04:00"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1977-05-30T00:00:00-04:00"
+                                    notAfter="1977-06-16T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline></opener>
                         <p rend="center">
                             <gloss target="#t_USIA_1">USIA</gloss> HUMAN RIGHTS ACTION PROPOSALS</p>
                         <p rend="center">—objectives, themes, treatment—</p>
@@ -15904,13 +15917,13 @@
                                     marking.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                notBefore="1977-06-15T00:00:00-04:00"
-                                notAfter="1977-06-17T23:59:59-04:00"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1977-06-15T00:00:00-04:00"
+                                    notAfter="1977-06-17T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline></opener>
                         <p rend="center">INTRODUCTION</p>
                         <p>The following is a report on a series of meetings that the Director and
                             the Deputy Director held with all <gloss target="#t_USIA_1">USIA</gloss>
@@ -21980,10 +21993,10 @@
                                     1977)</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-11-16"
-                                calendar="gregorian">November 16, 1977</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1977-11-16"
+                                    calendar="gregorian">November 16, 1977</date>
+                            </dateline></opener>
                         <p>As the end of the <persName corresp="#p_CJE_1">Carter</persName>
                             administration’s first year in office approaches, I have engaged in some
                             preliminary New Year’s ruminations and reflections on the experiences of
@@ -22258,11 +22271,11 @@
                                     xml:id="d110fn2">No classification marking.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-11-19"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1977-11-19"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline></opener>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>
@@ -24339,11 +24352,11 @@
                                     action.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-03-26"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1978-03-26"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline></opener>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>North-South Scholars: A Tribute to Senator <persName
@@ -25496,13 +25509,13 @@
                                     marking.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                notBefore="1978-04-17T00:00:00-05:00"
-                                notAfter="1978-04-22T23:59:59-05:00"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1978-04-17T00:00:00-05:00"
+                                    notAfter="1978-04-22T23:59:59-05:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline></opener>
                         <p rend="sectiontitleital">Option #4: Specialized Education for the Public
                             Service</p>
                         <p>We take it as given that our purposes (as articulated in the April 17
@@ -25961,11 +25974,11 @@
                                     classification marking.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-06-01"
-                                calendar="gregorian">June 1, 1978</date>
-                        </dateline>
-
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1978-06-01"
+                                    calendar="gregorian">June 1, 1978</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>New Guidelines for <gloss target="#t_VOA_1">VOA</gloss>
@@ -26338,11 +26351,11 @@
                                     the memorandum, indicating that they saw it.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-01-23"
-                                calendar="gregorian">January 23, 1978</date>
-                        </dateline>
-
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1978-01-23"
+                                    calendar="gregorian">January 23, 1978</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>International Arts Policy</item>
@@ -29327,10 +29340,10 @@
                                     memorandum.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-10-05"
-                                calendar="gregorian">October 5, 1978</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1978-10-05"
+                                    calendar="gregorian">October 5, 1978</date>
+                            </dateline></opener>
                         <p>Since October 1 marked the end of the first six months of the
                             International Communication Agency’s existence, this seems an
                             appropriate time to give you the first of the periodic accountings
@@ -30414,10 +30427,10 @@
                                     7/1/78–1/20/81)</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-12-14"
-                                calendar="gregorian">December 14, 1978</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1978-12-14"
+                                    calendar="gregorian">December 14, 1978</date>
+                            </dateline></opener>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Expansion of <gloss target="#t_ICA_1">ICA</gloss> Exchange
@@ -31947,11 +31960,11 @@
                                     wrote “Attached to July 13 memo” at the top of the plan.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-07-13"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1979-07-13"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline></opener>
                         <p>[Omitted here is the Table of Contents.]</p>
                         <p rend="center">
                             <hi rend="italic">RATIONALE</hi>
@@ -33652,11 +33665,11 @@
                                     Drafted by <persName corresp="#p_RL_1">Reddy</persName>.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-09-12"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1979-09-12"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline></opener>
                         <p rend="center">
                             <hi rend="italic">Why Study the General Public</hi>?</p>
                         <p>The current discussion within <gloss target="#t_ICA_1">USICA</gloss> over
@@ -37465,11 +37478,11 @@
                                     >Villarreal</persName>.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1980-07-11"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1980-07-11"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline></opener>
                         <p rend="center">AN ASSESSMENT OF <gloss target="#t_ICA_1">USICA</gloss>’S
                             ROLE IN “BOOKS AND BROADCASTING FOR CHILDREN”—AN INTERNATIONAL
                             SYMPOSIUM</p>
