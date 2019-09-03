@@ -62,7 +62,6 @@
         <revisionDesc>
             <change>2008-12-29 PA/HO JW: Created volume shell for HCL</change>
         </revisionDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -11957,9 +11956,9 @@
                             </signed>
                         </closer>
                         <frus:attachment>
+                            <note rend="inline">
+                                <hi rend="strong">Enclosure 1</hi></note>
                             <head>
-                                <hi rend="strong">Enclosure 1</hi>
-                                <lb/>
                                 <hi rend="strong">Letter From the President’s Special Assistant for
                                     Telecommunications (O’Connell) to the Acting Chairman of the
                                     Federal Communications Commission (<persName corresp="#p_HRH1"
@@ -14630,17 +14629,12 @@
                             </signed>
                         </closer>
                         <frus:attachment>
-                            <head>
+                            <note rend="inline">
                                 <hi rend="strong">Attachment</hi>
-                            </head>
-                            <opener><dateline rendition="#right">
-                                    <placeName>Washington</placeName>, <date when="1968-09-27"
-                                        calendar="gregorian">September 27, 1968.</date>
-                                </dateline></opener>
-                            <p rend="center">Action Memorandum From the Assistant Secretary of State
-                                for Economic Affairs (<persName corresp="#p_SAM4"
-                                >Solomon</persName>) to Secretary of State <persName
-                                    corresp="#p_RD3">Rusk</persName>
+                            </note>
+                            <head>Action Memorandum From the Assistant Secretary of State for
+                                Economic Affairs (<persName corresp="#p_SAM4">Solomon</persName>) to
+                                Secretary of State <persName corresp="#p_RD3">Rusk</persName>
                                 <note n="6" xml:id="d108fn6">Confidential. Drafted by
                                         <persName>Stephen E. Doyle</persName> (E), <persName>Thomas
                                         E. Nelson</persName> (E), and <persName corresp="#p_MWK1"
@@ -14649,7 +14643,11 @@
                                         target="#t_IO1">IO</gloss>), Barnett (EA), Springsteen
                                         (<gloss target="#t_EUR1">EUR</gloss>), Belman (L), and
                                     Schnee (H).</note>
-                            </p>
+                            </head>
+                            <opener><dateline rendition="#right">
+                                    <placeName>Washington</placeName>, <date when="1968-09-27"
+                                        calendar="gregorian">September 27, 1968.</date>
+                                </dateline></opener>
                             <list type="subject">
                                 <head>SUBJECT</head>
                                 <item>Membership in <gloss target="#t_INTELSAT1">INTELSAT</gloss>

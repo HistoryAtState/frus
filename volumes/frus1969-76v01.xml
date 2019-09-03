@@ -8480,12 +8480,8 @@
                         your Administration, you may well gain some converts among those who now
                         seem irretrievable.</p>
                     <frus:attachment>
-                        <head>Tab A</head>
-                        <opener><dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1969-11-13"
-                                    calendar="gregorian">November 13,
-                            1969</date>.</dateline></opener>
-                        <p rend="center">
+                        <note rend="inline">Tab A</note>
+                        <head>
                             <hi rend="strong">Memorandum From the President’s Assistant for Urban
                                 Affairs (<persName corresp="#p_MDP1">Moynihan</persName>) to
                                 President <persName corresp="#p_NRM1">Nixon</persName>
@@ -8495,7 +8491,11 @@
                                 handwritten note on the memorandum and sent it to <persName
                                     corresp="#p_KHA1">Kissinger</persName>: “K—Return to me with
                                 your comment.”</note>
-                        </p>
+                        </head>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-11-13"
+                                    calendar="gregorian">November 13,
+                            1969</date>.</dateline></opener>
                         <p>Last night Teddy White related to me your hopes for reviving the
                                 Eisenhower-<persName corresp="#p_NRM1">Nixon</persName> majority.
                             This seems to me altogether a worthy goal, and a perfectly feasible one.

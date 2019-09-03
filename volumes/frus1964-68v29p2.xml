@@ -62,7 +62,6 @@
         <revisionDesc>
             <change>2008-11-06 PA/HO JW:Created volume shell for HCL</change>
         </revisionDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -6345,17 +6344,17 @@
                     </closer>
                     <pb n="64" xml:id="pg_64" facs="0100"/>
                     <frus:attachment>
-                        <head>Tab A</head>
-                        <opener><dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1965-01-11"
-                                    calendar="gregorian">January 11, 1965.</date>
-                            </dateline></opener>
-                        <p rend="center">
+                        <note rend="inline">Tab A</note>
+                        <head>
                             <hi rend="strong">Memorandum From <persName>James C. Thomson</persName>,
                                 Jr., of the National Security Council Staff to President <persName
                                     corresp="#p_JLB1">Johnson</persName>
                             </hi>
-                        </p>
+                        </head>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1965-01-11"
+                                    calendar="gregorian">January 11, 1965.</date>
+                            </dateline></opener>
                         <p rend="center">Your Meeting with Prime Minister <persName corresp="#p_SE3"
                                 >Sato</persName>
                         </p>
@@ -12033,12 +12032,8 @@
                     </closer>
                     <pb n="167" xml:id="pg_167" facs="0203"/>
                     <frus:attachment>
-                        <head>Attachment</head>
-                        <opener><dateline rendition="#right">
-                                <placeName>Tokyo</placeName>, <date when="1967-03-01T09:30:00+00:00"
-                                    calendar="gregorian">March 1, 1967,
-                            0930Z</date>.</dateline></opener>
-                        <p>
+                        <note rend="inline">Attachment</note>
+                        <head>
                             <hi rend="strong">Telegram From the Embassy in Japan to the Department
                                 of State</hi>
                             <note n="2" xml:id="d84fn2">Secret; Exdis. The cable was retyped for the
@@ -12049,7 +12044,11 @@
                                 National Archives and Records Administration, RG 59, Central Files
                                 1967–69, <gloss target="#t_POL1">POL</gloss> 7 US/<persName
                                     corresp="#p_GAJ1">GOLDBERG</persName>.</note>
-                        </p>
+                        </head>
+                        <opener><dateline rendition="#right">
+                                <placeName>Tokyo</placeName>, <date when="1967-03-01T09:30:00+00:00"
+                                    calendar="gregorian">March 1, 1967,
+                            0930Z</date>.</dateline></opener>
                         <p rend="flushleft">
                             <hi rend="italic">Copy of Tokyo 6126 From <persName corresp="#p_JUA1"
                                     >Alexis Johnson</persName>, March 1, 1967</hi>
@@ -13551,15 +13550,15 @@
                     </p>
                     <pb n="191" xml:id="pg_191" facs="0227"/>
                     <frus:attachment>
-                        <head>Tab A</head>
-                        <p rend="center">
+                        <note rend="inline">Tab A</note>
+                        <head>
                             <hi rend="strong">Draft Action Memorandum for President <persName
                                     corresp="#p_JLB1">Johnson</persName>
                             </hi>
                             <note n="7" xml:id="d91fn7">President <persName corresp="#p_JLB1"
                                     >Johnson</persName> apparently received the final version of
                                 this memorandum; it has not been found.</note>
-                        </p>
+                        </head>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Reversion to Japan of the Ryukyus, Bonins and other Western
@@ -14992,12 +14991,8 @@
                         </p>
                     </postscript>
                     <frus:attachment>
-                        <head>Tab A</head>
-                        <opener><dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1967-10-27"
-                                    calendar="gregorian">October 27,
-                            1967</date>.</dateline></opener>
-                        <p rend="center">
+                        <note rend="inline">Tab A</note>
+                        <head>
                             <hi rend="strong">Memorandum from Secretary of State <persName
                                     corresp="#p_RD3">Rusk</persName> to President <persName
                                     corresp="#p_JLB1">Johnson</persName>
@@ -15009,7 +15004,11 @@
                                     >Halperin</persName>. (National Archives and Records
                                 Administration, RG 59, Central Files 1967–69, <gloss
                                     target="#t_POL1">POL</gloss> 7 JAPAN)</note>
-                        </p>
+                        </head>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1967-10-27"
+                                    calendar="gregorian">October 27,
+                            1967</date>.</dateline></opener>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Visit of Prime Minister <persName corresp="#p_SE3">Sato</persName>
@@ -15270,17 +15269,17 @@
                         <p rend="flushleft">See me</p>
                     </postscript>
                     <frus:attachment>
-                        <head>Tab A</head>
-                        <opener><dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1967-11-03"
-                                    calendar="gregorian">November 3,
-                            1967</date>.</dateline></opener>
-                        <p rend="center">
+                        <note rend="inline">Tab A</note>
+                        <head>
                             <hi rend="strong">Memorandum From Secretary <persName corresp="#p_RD3"
                                     >Rusk</persName> to President <persName corresp="#p_JLB1"
                                     >Johnson</persName>
                             </hi>
-                        </p>
+                        </head>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1967-11-03"
+                                    calendar="gregorian">November 3,
+                            1967</date>.</dateline></opener>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>United States Position on Reversion of the Bonins</item>
@@ -19085,11 +19084,11 @@
                         </signed>
                     </closer>
                     <frus:attachment>
-                        <head>Attachment</head>
-                        <p rend="center">
+                        <note rend="inline">Attachment</note>
+                        <head>
                             <hi rend="strong">Paper Prepared by the East Asian and
                                 Pacific<lb/>Interdepartmental Regional Group</hi>
-                        </p>
+                        </head>
                         <p rend="center">RYUKYU ELECTIONS</p>
                         <p rend="center">Conclusions and Recommendations<note n="4" xml:id="d127fn4"
                                 >The “Conclusions and Recommendations” portion of this paper was

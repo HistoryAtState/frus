@@ -9272,16 +9272,16 @@
                         </p>
                         <pb n="117" xml:id="pg_117" facs="0145"/>
                         <frus:attachment>
-                            <head>Tab A</head>
+                            <note rend="inline">Tab A</note>
+                            <head>
+                                <hi rend="strong">Memorandum From Acting Secretary of State Irwin to
+                                    President <persName corresp="#p_NRM1">Nixon</persName>
+                                </hi>
+                            </head>
                             <opener><dateline rendition="#right">
                                     <placeName>Washington</placeName>, <date when="1970-10-29"
                                         calendar="gregorian">October 29,
                                 1970</date>.</dateline></opener>
-                            <p rend="center">
-                                <hi rend="strong">Memorandum From Acting Secretary of State Irwin to
-                                    President <persName corresp="#p_NRM1">Nixon</persName>
-                                </hi>
-                            </p>
                             <list type="subject">
                                 <head>SUBJECT</head>
                                 <item>US-<gloss target="#t_EC1">EC</gloss> Consultation October
@@ -15970,17 +15970,17 @@
                         </list>
                         <pb n="228" xml:id="pg_228" facs="0256"/>
                         <frus:attachment>
-                            <head>Attachment 2</head>
-                            <opener><dateline rendition="#right">
-                                    <placeName>Brussels</placeName>, <date when="1972-06-01"
-                                        calendar="gregorian">June 1,
-                                1972</date>.</dateline></opener>
-                            <p rend="flushleft">
+                            <note rend="inline">Attachment 2</note>
+                            <head>
                                 <hi rend="italic">Conversation with <gloss target="#t_EC1"
                                         >EC</gloss> Commission President <persName corresp="#p_MSL2"
                                         >Sicco Mansholt</persName>
                                 </hi>
-                            </p>
+                            </head>
+                            <opener><dateline rendition="#right">
+                                    <placeName>Brussels</placeName>, <date when="1972-06-01"
+                                        calendar="gregorian">June 1,
+                                1972</date>.</dateline></opener>
                             <p>After a discussion of the President’s trip to Moscow, I concluded by
                                 expressing my conviction that, despite our satisfaction with the
                                 progress we were making in improving Soviet-American relations, it
@@ -21544,11 +21544,8 @@
                         </list>
                         <pb n="327" xml:id="pg_327" facs="0355"/>
                         <frus:attachment>
-                            <head>Attachment</head>
-                            <opener><dateline rendition="#right">
-                                    <placeName>Washington</placeName>, <date when="1969-05-01"
-                                        calendar="gregorian">May 1, 1969</date>.</dateline></opener>
-                            <p rend="strong">
+                            <note rend="inline">Attachment</note>
+                            <head>
                                 <hi rend="strong">Memorandum From Secretary of the Treasury
                                         <persName corresp="#p_KDM1">Kennedy</persName> to President
                                         <persName corresp="#p_NRM1">Nixon</persName>
@@ -21566,7 +21563,10 @@
                                     for International Affairs: <gloss target="#t_FRC1">FRC</gloss>
                                     56 83 26, Contingency Planning, Current Problems and Contingency
                                     Planning 4-10/69)</note>
-                            </p>
+                            </head>
+                            <opener><dateline rendition="#right">
+                                    <placeName>Washington</placeName>, <date when="1969-05-01"
+                                        calendar="gregorian">May 1, 1969</date>.</dateline></opener>
                             <p>The unsettling effects of the French election on the exchange markets
                                 were greatly aggravated yesterday by statements of German Finance
                                 Minister <persName corresp="#p_SFJ1">Strauss</persName> openly
@@ -23035,19 +23035,19 @@
                             </list>
                         </p>
                         <frus:attachment>
-                            <head>Tab B</head>
-                            <opener><dateline rendition="#right">
-                                    <placeName>Washington</placeName>, <date when="1969-06-25"
-                                        calendar="gregorian">June 25, 1969.</date>
-                                </dateline></opener>
-                            <p rend="center">
+                            <note rend="inline">Tab B</note>
+                            <head>
                                 <hi rend="strong">Memorandum From the Chairman of the Council of
                                     Economic Advisers (<persName corresp="#p_MCPW1"
                                         >McCracken</persName>) to President <persName
                                         corresp="#p_NRM1">Nixon</persName>
                                 </hi>
                                 <note n="5" xml:id="d131fn5">Confidential.</note>
-                            </p>
+                            </head>
+                            <opener><dateline rendition="#right">
+                                    <placeName>Washington</placeName>, <date when="1969-06-25"
+                                        calendar="gregorian">June 25, 1969.</date>
+                                </dateline></opener>
                             <list type="subject">
                                 <head>SUBJECT</head>
                                 <item>“Basic Options in International Monetary Affairs”</item>
@@ -27052,16 +27052,16 @@
                             virtue of international agreement—might not be so wholly
                             unrealistic.</p>
                         <frus:attachment>
-                            <head>Attachment</head>
-                            <p rend="center">A Rationale for a Major Exchange Rate Realignment<note
-                                    n="3" xml:id="d150fn3">A substantially expanded version of this
-                                    paper, dated January 28, 1971, entitled “Scenario III—Exchange
-                                    Rate Realignment and Related Matters,” is in the Washington
-                                    National Records Center, Department of the Treasury, Files of
-                                    Under Secretary <persName corresp="#p_VPA1">Volcker</persName>:
-                                        <gloss target="#t_FRC1">FRC</gloss> 56 79 15, 1971
-                                    Contingency Planning Papers.</note>
-                            </p>
+                            <note rend="inline">Attachment</note>
+                            <head>A Rationale for a Major Exchange Rate Realignment<note n="3"
+                                    xml:id="d150fn3">A substantially expanded version of this paper,
+                                    dated January 28, 1971, entitled “Scenario III—Exchange Rate
+                                    Realignment and Related Matters,” is in the Washington National
+                                    Records Center, Department of the Treasury, Files of Under
+                                    Secretary <persName corresp="#p_VPA1">Volcker</persName>: <gloss
+                                        target="#t_FRC1">FRC</gloss> 56 79 15, 1971 Contingency
+                                    Planning Papers.</note>
+                            </head>
                             <p>The relationship between the stock of total U.S. international
                                 reserve assets and the stock of U.S. reserve liabilities is not
                                 satisfactory, either for the United States or for the international
