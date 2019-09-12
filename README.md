@@ -7,7 +7,7 @@ in print and online editions at the U.S. Department of State [Office of the Hist
 website.  
 
 In keeping with the spirit of the
-[Digital Government Strategy's goals](http://www.whitehouse.gov/sites/default/files/omb/egov/digital-government/digital-government.html)
+[Digital Government Strategy's goals](https://www.cio.gov/fed-it-topics/modernization/digital-strategy/)
 to provide the public with access to high-quality digital government information and services 
 and help unlock the power of government data to spur innovation, the Office of the Historian 
 is releasing the digital master source files for [the online edition of the *Foreign Relations* series](https://history.state.gov/historicaldocuments).  
@@ -17,10 +17,11 @@ Organization and Format
 The digital master source files for the *Foreign Relations* series have been prepared according to the 
 [Text Encoding Initiative](http://www.tei-c.org/) (TEI) P5 Guidelines.  Our project-specific encoding guidelines and
 conformance requirements can be found in the `schema` directory, where we have supplied a 
-TEI [ODD](http://www.tei-c.org/Guidelines/Customization/odds.xml) file, as well as Schematron 
-and RelaxNG files used for additional conformance checks.  The volumes are stored in the `volumes` 
-directory, one file per volume.  Bibliographic information about all volumes in the series, including those volumes 
-not yet available in full text TEI, is stored in the `bibliography` directory.
+TEI [ODD](http://www.tei-c.org/Guidelines/Customization/odds.xml) file, `frus.odd`, as well as Schematron 
+and RelaxNG files used for additional conformance checks (see especially `frus.sch`, as `frus.rng` is generated from 
+`frus.odd`).  The volumes are stored in the `volumes` directory, one file per volume.  Bibliographic information 
+about all volumes in the series, including those volumes not yet available in full text TEI, is stored in the 
+`bibliography` directory.
 
 Locating the Source for a URL from history.state.gov
 ----------------------------------------------------
@@ -52,9 +53,40 @@ For example, to locate the source data for `https://history.state.gov/historical
 
 Not all information found at a given URL from history.state.gov necessarily comes from the element identifier in the URL. For example, in this [Document 176](https://history.state.gov/historicaldocuments/frus1969-76v24/d176), the left sidebar contains a table of contents for the entire volume (derived from the compilation and chapter `<div>` elements), and the right sidebar contains a listing of the people and terms & abbreviations used in the document (derived from the `persons` and `terms` glossaries in the front matter).
 
+Canonical Identifiers
+---------------------
+Once a volume has been released on history.state.gov and the HistoryAtState GitHub repository, the 
+following identifiers are considered canonical and will not be altered:
+
+- Volume identifiers found in volume filenames and in the `@xml:id` attribute of each volume's root `<TEI>` element
+- Document identifiers found in the `@xml:id` attribute of each FRUS document's TEI `<div>` element
+
+Very rarely, after we have digitized and released a volume in which documents were originally 
+printed without document numbers, we may discover a problem in the way a document's boundary was encoded.
+To correct the boundary while respecting this policy, our practice is as follows:
+
+- Case 1: Document "d1" is discovered to contain 2 documents. Solution: The 2nd document is assigned a 
+document identifier "d1a". No other documents' identifiers are altered.
+- Case 2: Document "d2" is discovered to belong to document "d1". Solution: The "d2" content is moved 
+to "d1", but the "d2" div is not deleted; instead, placeholder text is supplied explaining what happened.
+An errata statement is appended to the volume too.
+
+If any changes to document identifiers are made in the future, it will be to enhance their global uniqueness, 
+e.g., to prepend the volume identifier to the document identifier, frus1969-76v18_d1. Any such changes will be 
+announced via GitHub issue.
+
+Other identifiers, such as person, and term identifiers (on `<persName>`, and `<term>` elements), are not yet
+considered canonical and are subject to alteration. At present, these identifiers are useful only for 
+single-volume reference purposes. The Office plans to consolidate these per-volume identifiers into
+series-wide resources to aid in research and analysis. 
+
+Similarly, page break identifiers (on `<pb>` elements) are not considered canonical and will be corrected 
+if errors are found.
+
 Release Schedule
 ----------------
-We plan to release updates to this repository on a quarterly basis. Releases will include fixes to already published volumes, new publications, and digitized legacy volumes.  
+Updates to this repository are posted as soon as they are posted to history.state.gov. Releases will 
+include fixes to already published volumes, new publications, and digitized legacy volumes. 
 
 Feedback
 --------
@@ -64,4 +96,4 @@ at history@state.gov.
 License
 -------
 The files in this repository are in the public domain and may be copied and distributed without permission. For 
-more information, see http://www.state.gov/misc/87529.htm#copyright.
+more information, see https://www.state.gov/copyright-information/#copyright.
