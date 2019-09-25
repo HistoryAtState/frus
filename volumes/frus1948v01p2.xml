@@ -2837,9 +2837,7 @@
                         </list>
                     </p>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex]</seg>
-                        </opener>
+                        <note rend="inline" type="source">[Annex]</note>
                         <head>
                             <hi rend="italic">Mr. <persName type="from">John Foster
                                     Dulles</persName> to the Director of the Office of United
@@ -4458,9 +4456,7 @@
                     </p>
                 </frus:attachment>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Annex B]</seg>
-                    </opener>
+                    <note rend="inline" type="source">[Annex B]</note>
                     <head>
                         <hi rend="italic">Memorandum by the Secretary of the Army</hi> (<persName
                             type="from"><hi rend="italic">Royall</hi></persName>) <hi rend="italic"
@@ -5323,14 +5319,12 @@
                     <hi rend="italic">Executive Secretary</hi>
                 </closer>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Enclosure]</seg>
-                    </opener>
-                    <head>
+                    <head>[Enclosure]</head>
+                    <p rend="center">
                         <hi rend="smallcaps">Report by the National Security Council on the Position
                             of the United States With Respect to Providing Military Assistance to
                             Nations of the Non-Soviet World</hi>
-                    </head>
+                    </p>
                     <p rend="center">
                         <hi rend="smallcaps">the problem</hi>
                     </p>
@@ -5574,9 +5568,7 @@
                     <hi rend="italic">Executive Secretary</hi>
                 </closer>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Annex]</seg>
-                    </opener>
+                    <note rend="inline" type="source">[Annex]</note>
                     <head>
                         <hi rend="italic">Memorandum by the Secretary of Defense</hi> (<persName
                             type="from"><hi rend="italic">Forrestal</hi></persName>) <hi
@@ -5738,9 +5730,7 @@
                     </closer>
                 </frus:attachment>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Subannex]</seg>
-                    </opener>
+                    <note rend="inline" type="source">[Subannex]</note>
                     <head>
                         <hi rend="italic">The Secretary of Defense</hi> (<persName type="from"><hi
                                 rend="italic">Forrestal</hi></persName>) <hi rend="italic">to the
@@ -5832,13 +5822,11 @@
                     subject under reference or on any particular aspect of this subject as it
                     relates to conditions in the country to which he is accredited.</p>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Enclosure 1]</seg>
-                    </opener>
-                    <head>
+                    <head>[Enclosure 1]</head>
+                    <p rend="center">
                         <hi rend="smallcaps">United States Information Policy With Regard to
                             Anti-American Propaganda</hi>
-                    </head>
+                    </p>
                     <p>The objectives of U.S. information policy with regard to anti-American
                         propaganda are: <list>
                             <label>1.</label>
@@ -5869,15 +5857,13 @@
                     </p>
                 </frus:attachment>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Enclosure 2]</seg>
-                    </opener>
-                    <head>
+                    <head>[Enclosure 2]</head>
+                    <p rend="center">
                         <hi rend="smallcaps">Guidance por the Selection and Preparation of
                             Information Materials To Implement the Objectives of</hi> U.S. <hi
                             rend="smallcaps">Information Policy With Regard to Anti-American
                             Propaganda</hi>
-                    </head>
+                    </p>
                     <list>
                         <label>1.</label>
                         <item>We should continue to report the truth about U.S. life, institutions,
@@ -6284,10 +6270,8 @@
                     </signed>
                 </closer>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Annex]</seg>
-                    </opener>
-                    <head>Brief on <gloss target="#t_NSC1">NSC</gloss> 20</head>
+                    <head>[Annex]</head>
+                    <p rend="center">Brief on <gloss target="#t_NSC1">NSC</gloss> 20</p>
                     <p rend="flushleft">Draft</p>
                     <p>The problem posed by Mr. Forrestal appears to call for the preparation of
                         three inter-related studies: <list>
@@ -6673,14 +6657,14 @@
                         Defense</hi>
                 </head>
                 <opener>
+                    <seg rendition="#left">
+                        <gloss target="#t_NSC1">NSC</gloss> 25</seg>
                     <dateline rendition="#right">
                         <placeName>
                             <hi rend="smallcaps">Washington</hi></placeName>, <date
                             when="1948-08-12" calendar="gregorian">August 12,
                         1948</date>.</dateline>
                 </opener>
-                <p rend="flushleft">
-                    <gloss target="#t_NSC1">NSC</gloss> 25</p>
                 <p rend="center">
                     <hi rend="smallcaps">Note by The Executive Secretary to the National Security
                         Council on Interim Terms of Reference of <gloss target="#t_SANACC1"
@@ -6717,9 +6701,7 @@
                     </signed>
                 </closer>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Enclosure]</seg>
-                    </opener>
+                    <note rend="inline" type="source">[Enclosure]</note>
                     <head>
                         <hi rend="smallcaps">Interim Terms of Reference of the State–Army–Navy–Air
                             Force Coordinating Committee</hi>
@@ -7388,14 +7370,12 @@
                     </signed>
                 </closer>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Enclosure]</seg>
-                    </opener>
-                    <head>
+                    <head>[Enclosure]</head>
+                    <p rend="center">
                         <hi rend="smallcaps">Factors Affecting the Nature of the</hi> U.S. <hi
                             rend="smallcaps">Defense Arrangements in the Light of Soviet
                             Policies</hi>
-                    </head>
+                    </p>
                     <p>The following report is designed to clarify the factors bearing on the
                         question as to the nature which the U.S. defense effort should assume in the
                         light of Soviet policies and attitudes (with particular relation to the
@@ -8647,9 +8627,7 @@
                     </signed>
                 </closer>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Annex]</seg>
-                    </opener>
+                    <note rend="inline" type="source">[Annex]</note>
                     <head>
                         <hi rend="italic">The Chairman of the National Security Resources Board</hi>
                             (<persName type="from"><hi rend="italic">Hill</hi></persName>) <hi
@@ -9115,9 +9093,7 @@
                     </signed>
                 </closer>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Enclosure]</seg>
-                    </opener>
+                    <note rend="inline" type="source">[Enclosure]</note>
                     <head>
                         <hi rend="italic">Memorandum Enclosure for Letter to Secretary of State</hi>
                     </head>
@@ -9755,9 +9731,7 @@
                     </signed>
                 </closer>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Annex]</seg>
-                    </opener>
+                    <note rend="inline" type="source">[Annex]</note>
                     <head>
                         <hi rend="italic">Memorandum by the <gloss type="from">Joint Chiefs of
                                 Staff</gloss> to the Secretary of Defense</hi> (<persName type="to"
@@ -10211,14 +10185,12 @@
                 </closer>
                 <pb n="663" xml:id="pg_663" facs="0173"/>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Enclosure]</seg>
-                    </opener>
-                    <head>
+                    <head>[Enclosure]</head>
+                    <p rend="center">
                         <hi rend="smallcaps">Report by the National Security Council on U.S.
                             Objectives With Respect to the USSR To Counter Soviet Threats to U.S.
                             Security</hi>
-                    </head>
+                    </p>
                     <p rend="center">
                         <hi rend="smallcaps">the problem</hi>
                     </p>
@@ -11501,9 +11473,7 @@
                     </closer>
                     <pb n="683" xml:id="pg_683" facs="0193"/>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex A]</seg>
-                        </opener>
+                        <note rend="inline" type="source">[Annex A]</note>
                         <head>
                             <hi rend="italic">Draft Agreement Between the Governments of the United
                                 States, the United Kingdom, and Canada</hi>
@@ -11650,9 +11620,7 @@
                         </list>
                     </frus:attachment>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex B]</seg>
-                        </opener>
+                        <note rend="inline" type="source">[Annex B]</note>
                         <head>
                             <hi rend="italic">Draft Agreement Between the Governments of the United
                                 States, the United Kingdom, and Canada</hi>
@@ -11759,9 +11727,7 @@
                         </list>
                     </frus:attachment>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex C]</seg>
-                        </opener>
+                        <note rend="inline" type="source">[Annex C]</note>
                         <head>
                             <hi rend="italic">Statement Submitted by the United Kingdom Members</hi>
                         </head>
@@ -12506,18 +12472,14 @@
                         renouncing the effort. Mr. Bohlen said that if there was any way in which
                         the Department could help, it would be glad to do so.</p>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex 1]</seg>
-                        </opener>
+                        <head>[Annex 1]</head>
                         <p>[Here follows a memorandum by Gullion to Marshall headed “Part A” and
                             dated March 9. Its text is identical with that of “Part A” of Gullion’s
                             memorandum to Marshall, <hi rend="italic">supra</hi>.]</p>
                     </frus:attachment>
                     <pb n="699" xml:id="pg_699" facs="0209"/>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex 2]</seg>
-                        </opener>
+                        <note rend="inline" type="source">[Annex 2]</note>
                         <head>
                             <hi rend="italic">Memorandum by Mr. <persName type="from">Edmund A.
                                     Gullion</persName>, Special Assistant to the Under Secretary of
@@ -14184,9 +14146,7 @@
                         <p>These minutes were approved by the Committee on September 20, 1949.</p>
                     </postscript>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex G]</seg>
-                        </opener>
+                        <head>[Annex G]</head>
                         <opener>
                             <dateline rendition="#right">[<placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>,] <date when="1948-07-06"
@@ -14452,9 +14412,7 @@
                     </closer>
                     <pb n="731" xml:id="pg_731" facs="0241"/>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Enclosure]</seg>
-                        </opener>
+                        <note rend="inline" type="source">[Enclosure]</note>
                         <head>
                             <hi rend="italic">Memorandum Prepared in the United States Embassy in
                                 Sweden</hi>
@@ -17016,13 +16974,11 @@
                         for an official reply.</p>
                     <pb n="773" xml:id="pg_773" facs="0283"/>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex]</seg>
-                        </opener>
-                        <head>
+                        <head>[Annex]</head>
+                        <p rend="center">
                             <hi rend="smallcaps">Note for the Ambassador’s Talk With Mr. Lovett on
                                 Atomic Energy</hi>
-                        </head>
+                        </p>
                         <list>
                             <label>1.</label>
                             <item>The Official Committee on Atomic Energy in London has been
@@ -18448,9 +18404,7 @@
                         was confident that an eminently satisfactory reply would be forthcoming from
                         his Government in due course.</p>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex]</seg>
-                        </opener>
+                        <note rend="inline" type="source">[Annex]</note>
                         <head>
                             <hi rend="italic">The Netherlands Ambassador</hi> (<persName type="from"
                                     ><hi rend="italic">van Kleffens</hi></persName>) <hi
@@ -18597,13 +18551,11 @@
                         </signed>
                     </closer>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Enclosure]</seg>
-                        </opener>
-                        <head>
+                        <head>[Enclosure]</head>
+                        <p rend="center">
                             <hi rend="smallcaps">Typical Names To Be Submitted as Usual to the
                                 President for Approval</hi>
-                        </head>
+                        </p>
                         <p>1. Permanent Representatives and Alternates to inter-governmental
                             organizations as required by law.</p>
                         <p>Example: The United Nations.</p>
@@ -22081,9 +22033,7 @@
                         discussions if your efforts are to be of any avail for the <gloss
                             target="#t_GATT1">GATT</gloss> meeting.</p>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Attachment]</seg>
-                        </opener>
+                        <note rend="inline" type="source">[Attachment]</note>
                         <head>
                             <hi rend="italic">Preliminary Draft Position Paper</hi>
                         </head>
@@ -22468,17 +22418,15 @@
                     <p>We feel strongly that we are entitled to know what the British reasons are
                         for taking the position they have.</p>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex]</seg>
-                        </opener>
-                        <head>
+                        <head>[Annex]</head>
+                        <p rend="center">
                             <hi rend="smallcaps">Memorandum for Lord Inverchapel</hi>
                             <note n="3" xml:id="d157fn3">The memorandum was prepared by Mr. Brown,
                                 the Acting Director of the Office of International Trade Policy on
                                 January 30, 1948; it was presumably given to Lord Inverchapel by Mr.
                                 Clayton in the conversation noted in the Clayton memorandum of
                                 February 11, <ref target="#pg_855">p. 855</ref>.</note>
-                        </head>
+                        </p>
                         <p>A situation has arisen at Habana which causes my Government great
                             concern. The United States Delegation has proposed an amendment to the
                             draft Charter for an International Trade Organization which would
@@ -28393,9 +28341,7 @@
                             </signed>
                         </closer>
                         <frus:attachment>
-                            <opener>
-                                <seg rendition="#center">[Enclosure]</seg>
-                            </opener>
+                            <head>[Enclosure]</head>
                             <opener>
                                 <dateline rendition="#right">[<placeName><hi rend="smallcaps"
                                             >Washington</hi></placeName>,] <date when="1948-08-11"
@@ -30714,9 +30660,7 @@
                 </div>
                 <pb n="984" xml:id="pg_984" facs="0494"/>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Enclosure]</seg>
-                    </opener>
+                    <note rend="inline" type="source">[Enclosure]</note>
                     <head>
                         <hi rend="italic">Draft Agreement Prepared by the Department of State</hi>
                     </head>
@@ -31152,9 +31096,7 @@
                 </closer>
                 <pb n="991" xml:id="pg_991" facs="0501"/>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Enclosure]</seg>
-                    </opener>
+                    <note rend="inline" type="source">[Enclosure]</note>
                     <head>
                         <hi rend="italic">Memorandum by the Joint Chiefs of Staff for the Secretary
                             of Defense</hi> (<hi rend="italic">Forrestal</hi>)</head>
@@ -31552,9 +31494,7 @@
                             when="1948-08-09" calendar="gregorian">August 9, 1948</date>.</dateline>
                 </closer>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Enclosure]</seg>
-                    </opener>
+                    <note rend="inline" type="source">[Enclosure]</note>
                     <head>
                         <hi rend="italic">Draft Agreement Prepared by the Department of State</hi>
                         <note n="2" xml:id="d247fn2">This Draft Agreement is a redraft of the
@@ -31757,9 +31697,7 @@
                 </closer>
                 <pb n="1001" xml:id="pg_1001" facs="0511"/>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Enclosure]</seg>
-                    </opener>
+                    <note rend="inline" type="source">[Enclosure]</note>
                     <head>
                         <hi rend="italic">Paper Prepared by the Department of State</hi>
                     </head>
@@ -32221,9 +32159,7 @@
                 <p>He said he would not discuss this with any other Embassy here. I agreed this was
                     best but I saw no objection if he wanted to talk to the British about it.</p>
                 <frus:attachment>
-                    <opener>
-                        <seg rendition="#center">[Annex]</seg>
-                    </opener>
+                    <note rend="inline" type="source">[Annex]</note>
                     <head>
                         <hi rend="italic">Copy of Notes Prepared by the South African Embassy</hi>
                         <note n="2" xml:id="d255fn2">South African Chargé Eustace spoke from these

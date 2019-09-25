@@ -1499,9 +1499,7 @@
                     </closer>
                     <pb n="4" xml:id="pg_4" facs="0024"/>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Enclosure]</seg>
-                        </opener>
+                        <note rend="inline" type="source">[Enclosure]</note>
                         <head>
                             <hi rend="italic">Memorandum Prepared in the Department of State</hi>
                             <note n="3" xml:id="d3fn4">Text from <hi rend="italic">Structure of the
@@ -7447,9 +7445,8 @@
                         </p>
                         <pb n="101" xml:id="pg_101" facs="0121"/>
                         <frus:attachment>
+                            <head>[Attachment]</head>
                             <opener>
-                                <seg rendition="#center">[Attachment]</seg>
-                                <lb/>
                                 <seg rendition="#left">
                                     <hi rend="smallcaps">confidential</hi>
                                 </seg>
@@ -16447,16 +16444,14 @@
                             wherever feasible consultations should take place among them concerning
                             important decisions to be taken by the Security Council.</p>
                         <frus:attachment>
-                            <opener>
-                                <seg rendition="#center">[Attachment]</seg>
-                            </opener>
-                            <head>
+                            <head>[Attachment]</head>
+                            <p rend="center">
                                 <hi rend="smallcaps">Provisional List of Categories of Security
                                     Council Decisions Which the United States Proposed Should Be
                                     Made by an Affirmative Vote of Seven Members, Whether or Not
                                     Such Categories Are Regarded as Procedural or
                                     Non-procedural</hi>
-                            </head>
+                            </p>
                             <list>
                                 <label>1.</label>
                                 <item>Decisions with respect to admission of States to membership in
@@ -18279,12 +18274,10 @@
                                 actually on November 29.</note>
                         </p>
                         <frus:attachment>
-                            <opener>
-                                <seg rendition="#center">[Attachment]</seg>
-                            </opener>
-                            <head>
+                            <head>[Attachment]</head>
+                            <p rend="center">
                                 <hi rend="smallcaps">Draft Resolution on the Veto</hi>
-                            </head>
+                            </p>
                             <p rend="flushleft">
                                 <hi rend="italic">The General Assembly</hi>
                             </p>
@@ -19755,12 +19748,10 @@
                             ff.</note>
                     </p>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex]</seg>
-                        </opener>
-                        <head>
+                        <head>[Annex]</head>
+                        <p rend="center">
                             <hi rend="smallcaps">Question of South West Africa</hi>
-                        </head>
+                        </p>
                         <p>
                             <hi rend="smallcaps">Whereas</hi> in its resolutions 65 (I) of 14
                             December 1946 and 141 (II) of November 1, 1947 the General Assembly
@@ -21288,16 +21279,16 @@
                     </p>
                     <pb n="316" xml:id="pg_316" facs="0336"/>
                     <frus:attachment>
-                        <head>Annex 1</head>
+                        <note rend="inline" type="source">Annex 1</note>
+                        <head>
+                            <hi rend="italic">Memorandum of Conversation, by the Appointed Deputy
+                                United States Representative to the Commission for Conventional
+                                Armaments</hi> (<hi rend="italic">Osborn</hi>)</head>
                         <opener>
                             <dateline rendition="#right">[<placeName><hi rend="smallcaps">New
                                         York</hi></placeName>,] <date when="1948-01-27"
                                     calendar="gregorian">January 27, 1948</date>.</dateline>
                         </opener>
-                        <p rend="flushleft">
-                            <hi rend="italic">Memorandum of Conversation, by the Appointed Deputy
-                                United States Representative to the Commission for Conventional
-                                Armaments</hi> (<hi rend="italic">Osborn</hi>)</p>
                         <p>Mr. Leith and Mr. Osborn called on General McNaughton Tuesday afternoon,
                             January 27, 1948. George Ignatieff, General McNaughton’s top
                             assistant,-was present.</p>
@@ -21332,16 +21323,16 @@
                     </frus:attachment>
                     <pb n="317" xml:id="pg_317" facs="0337"/>
                     <frus:attachment>
-                        <head>Annex 2</head>
+                        <note rend="inline" type="source">Annex 2</note>
+                        <head>
+                            <hi rend="italic">Memorandum of Telephone Conversation, by Mr. Donald M.
+                                Leith of the Division of International Security Affairs</hi>
+                        </head>
                         <opener>
                             <dateline rendition="#right">[<placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>,] <date when="1948-01-30"
                                     calendar="gregorian">January 30, 1948</date>.</dateline>
                         </opener>
-                        <p rend="center">
-                            <hi rend="italic">Memorandum of Telephone Conversation, by Mr. Donald M.
-                                Leith of the Division of International Security Affairs</hi>
-                        </p>
                         <p>Mr. Osborn called me Friday afternoon January 30, 1948, to report on his
                             conversation with Baron de la Tournelle of the French Delegation
                             regarding the subject of future activities in the <gloss
@@ -23071,10 +23062,8 @@
                         </signed>
                     </closer>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex]</seg>
-                        </opener>
-                        <head>
+                        <head>[Annex]</head>
+                        <p rend="center">
                             <hi rend="smallcaps">Aide-Mémoire</hi>
                             <note n="3" xml:id="d199fn3">In an <hi rend="italic">aide-mémoire</hi>
                                 to the British Embassy, May 25, the Department of State acknowledged
@@ -23082,7 +23071,7 @@
                                 nature of the action which the British Government would hope the
                                 General Assembly would take regarding the subjects under reference
                                     (501.<gloss target="#t_BC1">BC</gloss>/5–1848).</note>
-                        </head>
+                        </p>
                         <p>The British Foreign Secretary has been reviewing the stage now reached in
                             the work of the Atomic Energy Commission, the Commission for
                             Conventional Armaments, and of the Military Staff Committee on the
@@ -23976,15 +23965,13 @@
                         subject.</p>
                     <pb n="357" xml:id="pg_357" facs="0377"/>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex]</seg>
-                        </opener>
-                        <head>
+                        <head>[Annex]</head>
+                        <p rend="center">
                             <hi rend="smallcaps">Extract From Telegram From British Foreign Office
                                 Suggesting Action in the Commission for Conventional Armaments and a
                                 Suggested Resolution To Be Brought Forward in the Next General
                                 Assembly</hi>
-                        </head>
+                        </p>
                         <p>2. At the worst the kind of resolution which would be required would be
                             one which, whilst regretting the lack of progress hitherto made, urged
                             the redoubling of efforts. Whether something more constructive can be
@@ -24108,22 +24095,18 @@
                     </closer>
                     <pb n="359" xml:id="pg_359" facs="0379"/>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Annex]</seg>
-                        </opener>
+                        <note rend="inline" type="source">[Annex]</note>
                         <head>
                             <hi rend="italic">Report by the Policy Planning Staff</hi>
                         </head>
                         <opener>
                             <seg rendition="#left">
-                                <hi rend="smallcaps">secret</hi>
-                            </seg>
+                                <hi rend="smallcaps">secret</hi><lb/><gloss target="#t_PPS1"
+                                    >PPS</gloss>/34 </seg>
                             <dateline rendition="#right">[<placeName><hi rend="smallcaps"
                                         >Washington</hi></placeName>,] <date when="1948-06-29"
                                     calendar="gregorian">June 29, 1948</date>.</dateline>
                         </opener>
-                        <p rend="flushleft">
-                            <gloss target="#t_PPS1">PPS</gloss>/34</p>
                         <p rend="center">
                             <hi rend="smallcaps">Armed Forces To Be Furnished Under Article</hi> 43
                                 <hi rend="smallcaps">of the United Nations Charter</hi>
@@ -26671,13 +26654,11 @@
                         </signed>
                     </closer>
                     <frus:attachment>
-                        <opener>
-                            <seg rendition="#center">[Enclosure]</seg>
-                        </opener>
-                        <head>
+                        <head>[Enclosure]</head>
+                        <p rend="center">
                             <hi rend="smallcaps">Paraphrase of Telegram Received From the Foreign
                                 Office</hi>, <hi rend="smallcaps">Dated August</hi> 19<hi
-                                rend="smallcaps">th</hi>, 1948</head>
+                                rend="smallcaps">th</hi>, 1948</p>
                         <p>We recognise and share the desire of the State Department to secure the
                             widest possible measure of acceptance in the General Assembly of the
                             majority decisions of the Atomic Energy Commission. Suppose, for the
