@@ -6937,9 +6937,7 @@
                                         target="frus1944v01#pg_343"><hi rend="italic">ibid.</hi>, p.
                                         343</ref>.</note></p>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Attachment 1]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Attachment 1]</note>
                                 <head><hi rend="italic">Memorandum by the Committee on Post-War
                                         Programs</hi><note n="4" xml:id="d73fn4">The source text
                                         indicates that the original draft of this memorandum (<gloss
@@ -7251,9 +7249,7 @@
                                     </list></p>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Attachment 2]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Attachment 2]</note>
                                 <head><hi rend="italic">Memorandum by the Committee on Post-War
                                         Programs</hi><note n="5" xml:id="d73fn5">The source text
                                         indicates that the original draft of this memorandum (<gloss
@@ -8270,9 +8266,7 @@
                             </frus:attachment>
                             <pb n="73" xml:id="pg_73" facs="0127"/>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Attachment 3]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Attachment 3]</note>
                                 <head><hi rend="italic">Memorandum by the Division of Central
                                         European Affairs</hi><note n="11" xml:id="d73fn11">This
                                         attachment was an abridgement of a memorandum of August 22,
@@ -8495,9 +8489,7 @@
                             <closer><signed><hi rend="smallcaps">John J.
                                 McCloy</hi></signed></closer>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Enclosure]</seg>
-                                </opener>
+                                <head>[Enclosure]</head>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">secret</hi></seg>
                                     <dateline rendition="#right"><date when="1944-08-28"
@@ -8789,9 +8781,7 @@
                                 Riddleberger</hi></signed></closer>
                             <pb n="81" xml:id="pg_81" facs="0135"/>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Attachment]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Attachment]</note>
                                 <head><hi rend="italic">Memorandum by the Chief of the Division of
                                         Central European Affairs</hi> (<hi rend="italic"
                                         >Riddleberger</hi>)</head>
@@ -10088,9 +10078,7 @@
                             <p>Sincerely yours,</p>
                             <closer><signed><hi rend="smallcaps">Henry</hi></signed></closer>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Enclosure]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Enclosure]</note>
                                 <head><hi rend="italic">The Secretary of the Treasury</hi>
                                         (<persName type="from"><hi rend="italic"
                                         >Morgenthau</hi></persName>) <hi rend="italic">to the <gloss
@@ -10668,34 +10656,30 @@
                                 McCloy</hi></signed></closer>
                             <pb n="110" xml:id="pg_110" facs="0166"/>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Attachment]<note n="5" xml:id="d88fn5"
-                                            >Not filed with the ribbon copy of McCloy’s letter to
-                                            Matthews, above; sup plied from Roosevelt Papers. McCloy
-                                            also sent a copy of this draft to Hopkins on September
-                                            6, 1944 (Hopkins Papers), and another copy is in the
-                                            Morgenthau Diary, vol. 768 (see <hi rend="italic"
-                                                >Morgenthau Diary</hi> (<hi rend="italic"
-                                                >Germany</hi>), vol. <hi rend="smallcaps">i</hi>, p.
-                                            509).</note></seg>
-                                </opener>
-                                <head><hi rend="italic">Draft of an Interim Directive to the Supreme
-                                        Commander, Allied Expeditionary Force</hi> (<hi
-                                        rend="italic">Eisenhower</hi>)<note n="6" xml:id="d88fn6"
-                                            ><p>At the same time that this draft directive was in
-                                            preparation, a draft <hi rend="italic">Hand-hook of
-                                                Military Government in Germany</hi>, prepared to
-                                            provide guidance to military government officers on the
-                                            objectives of military government, was under discussion
-                                            in Washington. Morgenthau called Roosevelt’s attention
-                                            to the <hi rend="italic">Handbook</hi> and in a
-                                            memorandum for the President dated August 25, 1944,
-                                            quoted extracts which he considered particularly
-                                            objectionable. Using the Morgenthau memorandum as a
-                                            basis, Roosevelt instructed Stimson on August 26 to
-                                            withdraw the <hi rend="italic">Handbook</hi>.
-                                            Roosevelt’s memorandum to Stimson stated: <quote
-                                                rend="blockquote">
+                                <head>[Attachment]<note n="5" xml:id="d88fn5">Not filed with the
+                                        ribbon copy of McCloy’s letter to Matthews, above; supplied
+                                        from Roosevelt Papers. McCloy also sent a copy of this draft
+                                        to Hopkins on September 6, 1944 (Hopkins Papers), and
+                                        another copy is in the Morgenthau Diary, vol. 768 (see <hi
+                                            rend="italic">Morgenthau Diary</hi> (<hi rend="italic"
+                                            >Germany</hi>), vol. <hi rend="smallcaps">i</hi>, p.
+                                        509).</note><lb/><hi rend="italic">Draft of an Interim
+                                        Directive to the Supreme Commander, Allied Expeditionary
+                                        Force</hi> (<hi rend="italic">Eisenhower</hi>)<note n="6"
+                                        xml:id="d88fn6"><p>At the same time that this draft
+                                            directive was in preparation, a draft <hi rend="italic"
+                                                >Hand-hook of Military Government in Germany</hi>,
+                                            prepared to provide guidance to military government
+                                            officers on the objectives of military government, was
+                                            under discussion in Washington. Morgenthau called
+                                            Roosevelt’s attention to the <hi rend="italic"
+                                                >Handbook</hi> and in a memorandum for the President
+                                            dated August 25, 1944, quoted extracts which he
+                                            considered particularly objectionable. Using the
+                                            Morgenthau memorandum as a basis, Roosevelt instructed
+                                            Stimson on August 26 to withdraw the <hi rend="italic"
+                                                >Handbook</hi>. Roosevelt’s memorandum to Stimson
+                                            stated: <quote rend="blockquote">
                                                 <p>“It is of the utmost importance that every person
                                                   in Germany should realize that this time Germany
                                                   is a defeated nation. I do not want them to starve
@@ -11449,9 +11433,7 @@
                             <closer><signed>C[<hi rend="smallcaps">ordell</hi>] H[<hi
                                         rend="smallcaps">ull</hi>]</signed></closer>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Attachment]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Attachment]</note>
                                 <head><hi rend="italic">The <gloss type="from">Secretary of
                                             State</gloss> to the <gloss type="to"
                                         >President</gloss></hi></head>
@@ -11489,9 +11471,7 @@
                                             rend="smallcaps">ull</hi>]</signed></closer>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Annex 4]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Annex 4]</note>
                                 <head><hi rend="italic">Department of State Briefing
                                     Paper</hi></head>
                                 <opener>
@@ -11546,9 +11526,7 @@
                                     and two-thirds of the population of Germany.</p>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Annex 5]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Annex 5]</note>
                                 <head><hi rend="italic">Department of State Briefing
                                     Paper</hi></head>
                                 <opener>
@@ -11672,9 +11650,7 @@
                             <closer><signed><hi rend="smallcaps">Henry L
                                 Stimson</hi></signed></closer>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Enclosure 1]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Enclosure 1]</note>
                                 <head><hi rend="italic">Memorandum by the Secretary of War</hi> (<hi
                                         rend="italic">Stimson</hi>)</head>
                                 <opener>
@@ -11850,9 +11826,7 @@
                             </frus:attachment>
                             <pb n="127" xml:id="pg_127" facs="0183"/>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Enclosure 2]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Enclosure 2]</note>
                                 <head><hi rend="italic">Memorandum by the Secretary of War</hi> (<hi
                                         rend="italic">Stimson</hi>)</head>
                                 <opener>
@@ -12143,11 +12117,9 @@
                             <p>Under this program United States troops could be withdrawn within a
                                 relatively short time.</p>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Section 2]</seg>
-                                </opener>
-                                <head><hi rend="smallcaps">Reparations Mean a Powerful
-                                    Germany</hi></head>
+                                <head>[Section 2]</head>
+                                <p rend="center"><hi rend="smallcaps">Reparations Mean a Powerful
+                                        Germany</hi></p>
                                 <p>If we were to expect Germany to pay recurring reparations,
                                     whether in the form of money or goods, we would be forced at the
                                     very beginning to start a rehabilitation and reconstruction
@@ -12242,11 +12214,9 @@
                                     first World War.</p>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Section 3]</seg>
-                                </opener>
-                                <head><hi rend="smallcaps">Economic Restitution by Germany to United
-                                        Nations</hi></head>
+                                <head>[Section 3]</head>
+                                <p rend="center"><hi rend="smallcaps">Economic Restitution by
+                                        Germany to United Nations</hi></p>
                                 <p>In lieu of recurring reparations payments the nation entitled to
                                     such payments will receive from Germany a lump sum payment in
                                     the form of German material resources, German human resources
@@ -12296,11 +12266,9 @@
                                     and U.K. enjoy expanded foreign post-war markets.</p>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Section 4]</seg>
-                                </opener>
-                                <head><hi rend="smallcaps">It Is a Fallacy That Europe Needs a
-                                        Strong Industrial Germany</hi></head>
+                                <head>[Section 4]</head>
+                                <p rend="center"><hi rend="smallcaps">It Is a Fallacy That Europe
+                                        Needs a Strong Industrial Germany</hi></p>
                                 <p>1. The assumption sometimes made that Germany is an indispensable
                                     source of industrial supplies for the rest of Europe is not
                                     valid.</p>
@@ -12453,11 +12421,9 @@
                                     the United Nations as a whole.</p>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Section 5]</seg>
-                                </opener>
-                                <head><hi rend="smallcaps">Why the Resources of the Ruhr Should Be
-                                        Locked Up and the Equipment Removed</hi></head>
+                                <head>[Section 5]</head>
+                                <p rend="center"><hi rend="smallcaps">Why the Resources of the Ruhr
+                                        Should Be Locked Up and the Equipment Removed</hi></p>
                                 <p>During the last hundred years the basis of modern German
                                     militarism has been the industrial capacity of the Ruhr. Very
                                     large resources of high quality coal that lends itself
@@ -12499,11 +12465,9 @@
                                     barrier to the reindustrialization of the Ruhr.</p>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Section 6]</seg>
-                                </opener>
-                                <head><hi rend="smallcaps">How British Industry Would Benefit by
-                                        Proposed Program</hi></head>
+                                <head>[Section 6]</head>
+                                <p rend="center"><hi rend="smallcaps">How British Industry Would
+                                        Benefit by Proposed Program</hi></p>
                                 <list>
                                     <label>1.</label>
                                     <item><hi rend="italic">The British coal industry would recover
@@ -12560,12 +12524,10 @@
                                 </list>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Section 7]</seg>
-                                </opener>
-                                <head><hi rend="smallcaps">The Well-Being of the German Economy Is
-                                        the Responsibility of the Germans and Not of the Allied
-                                        Military Authorities</hi></head>
+                                <head>[Section 7]</head>
+                                <p rend="center"><hi rend="smallcaps">The Well-Being of the German
+                                        Economy Is the Responsibility of the Germans and Not of the
+                                        Allied Military Authorities</hi></p>
                                 <p>The economic rehabilitation of Germany is the problem of the
                                     German people and not of the Allied Military authorities. The
                                     German people must bear the consequences of their own acts.</p>
@@ -12601,11 +12563,9 @@
                                     they can.</p>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Section 8]</seg>
-                                </opener>
-                                <head><hi rend="smallcaps">Controls Over Development of German
-                                        Economy</hi></head>
+                                <head>[Section 8]</head>
+                                <p rend="center"><hi rend="smallcaps">Controls Over Development of
+                                        German Economy</hi></p>
                                 <p>A long range program should be put into effect for the purpose of
                                     controlling the strategic elements in the German economy for a
                                     prolonged period, at least 20 years. The elements which should
@@ -12641,11 +12601,9 @@
                                     trade wars throughout the 1920’s and 30’s.</p>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Section 9]</seg>
-                                </opener>
-                                <head><hi rend="smallcaps">What To Do About German
-                                    Education</hi></head>
+                                <head>[Section 9]</head>
+                                <p rend="center"><hi rend="smallcaps">What To Do About German
+                                        Education</hi></p>
                                 <p>The militaristic spirit which pervades the German people has been
                                     deliberately fostered by all educational institutions in Germany
                                     for many decades. Schools, Colleges and Universities were used
@@ -12680,11 +12638,9 @@
                                     have to remain closed for a number of years.</p>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Section 10]</seg>
-                                </opener>
-                                <head><hi rend="smallcaps">German Militarism Cannot Be Destroyed by
-                                        Destroying Nazism Alone</hi></head>
+                                <head>[Section 10]</head>
+                                <p rend="center"><hi rend="smallcaps">German Militarism Cannot Be
+                                        Destroyed by Destroying Nazism Alone</hi></p>
                                 <list>
                                     <label>(1)</label>
                                     <item><hi rend="italic">The Nazi regime is essentially the
@@ -12747,11 +12703,9 @@
                                 </list>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Section 11]</seg>
-                                </opener>
-                                <head><hi rend="smallcaps">Punishment of Certain War Crimes and
-                                        Treatment of Special Groups</hi></head>
+                                <head>[Section 11]</head>
+                                <p rend="center"><hi rend="smallcaps">Punishment of Certain War
+                                        Crimes and Treatment of Special Groups</hi></p>
                                 <p>[Paragraphs A and B of this section are identical with paragraphs
                                     A and B of appendix B to Morgenthau’s memorandum of September 5,
                                     1944, <hi rend="italic">ante</hi>, <ref target="#pg_105">p.
@@ -12773,9 +12727,7 @@
                                         >ante</hi>, <ref target="#pg_107">p. 107</ref>.]</p>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Section 12]</seg>
-                                </opener>
+                                <head>[Section 12]</head>
                                 <p>[An appendix to the briefing book includes (1) a map (not printed
                                     herein, but reproduced in <hi rend="italic">Morgenthau
                                         Diary</hi> (<hi rend="italic">Germany</hi>), vol. I, facing
@@ -15337,7 +15289,9 @@
                                     Conference.</item>
                             </list>
                             <frus:attachment>
-                                <head>Enclosure</head>
+                                <note rend="inline" type="source">Enclosure</note>
+                                <head><hi rend="italic">Memorandum by the British Chiefs of
+                                        Staff</hi></head>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
@@ -15345,8 +15299,6 @@
                                             ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                             calendar="gregorian">Undated</date>.]</dateline>
                                 </opener>
-                                <p rend="center"><hi rend="italic">Memorandum by the British Chiefs
-                                        of Staff</hi></p>
                                 <p rend="center"><hi rend="smallcaps">Proposed Combined Committee in
                                         Moscow</hi></p>
                                 <list>
@@ -15549,9 +15501,7 @@
                                     xml:id="d117fn3">Bohlen’s initials were written on his behalf by
                                     a secretary.</note></closer>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Attachment]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Attachment]</note>
                                 <head><hi rend="italic">Memorandum by the Polish Ambassador</hi>
                                         (<hi rend="italic">Ciechanowski</hi>)</head>
                                 <opener>
@@ -16179,9 +16129,7 @@
                                     Matthews</hi></signed><lb/><hi rend="italic">Deputy Director
                                     Office of European Affairs</hi></closer>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Enclosure—Telegram]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Enclosure—Telegram]</note>
                                 <head><hi rend="italic">The British Foreign Secretary</hi>
                                         (<persName type="from"><hi rend="italic"
                                         >Eden</hi></persName>) <hi rend="italic">to the British
@@ -19335,9 +19283,7 @@
                             <closer><signed>H F[<hi rend="smallcaps">reeman</hi>] M[<hi
                                         rend="smallcaps">atthews</hi>]</signed></closer>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Attachment]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Attachment]</note>
                                 <head><hi rend="italic">The <gloss type="from">British
                                             Embassy</gloss> to the <gloss type="to">Department of
                                             State</gloss></hi></head>
@@ -20369,9 +20315,7 @@
                             <closer><signed>C[<hi rend="smallcaps">ordell</hi>] H[<hi
                                         rend="smallcaps">ull</hi>]</signed></closer>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Attachment]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Attachment]</note>
                                 <head><hi rend="italic">The <gloss type="from">Secretary of
                                             State</gloss> to the <gloss type="to"
                                         >President</gloss></hi></head>
@@ -29342,9 +29286,7 @@
                             <closer><signed>C[<hi rend="smallcaps">ordell</hi>] H[<hi
                                         rend="smallcaps">ull</hi>]</signed></closer>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Enclosure 1]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Enclosure 1]</note>
                                 <head><hi rend="italic">The Ambassador in the United Kingdom</hi>
                                         (<persName type="from"><hi rend="italic"
                                         >Winant</hi></persName>) <hi rend="italic">to the Secretary
@@ -29416,16 +29358,13 @@
                                 <closer><signed><hi rend="smallcaps">Winant</hi></signed></closer>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Enclosure 2]<note n="5"
-                                            xml:id="d213fn5">The text of this enclosure was
-                                            forwarded to the Department of State under cover of
-                                            Winant’s despatch No. 17782, August 31, 1944, not
-                                            printed (740.00119 <gloss target="#t_EAC1"
-                                            >EAC</gloss>/8–3144).</note></seg>
-                                </opener>
-                                <head><hi rend="italic">Draft Protocol on the Zones of Occupation in
-                                        Germany and the Administration of Greater Berlin</hi></head>
+                                <head>[Enclosure 2]<note n="5" xml:id="d213fn5">The text of this
+                                        enclosure was forwarded to the Department of State under
+                                        cover of Winant’s despatch No. 17782, August 31, 1944, not
+                                        printed (740.00119 <gloss target="#t_EAC1"
+                                        >EAC</gloss>/8–3144).</note><lb/><hi rend="italic">Draft
+                                        Protocol on the Zones of Occupation in Germany and the
+                                        Administration of Greater Berlin</hi></head>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">secret</hi><lb/>
                                         P9/26/44</seg>
@@ -30318,9 +30257,7 @@
                                         rend="smallcaps">McFarland</hi></signed><lb/><hi
                                     rend="italic">Brigadier General, U.S.A. Secretary</hi></closer>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Enclosure 1—Telegram]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Enclosure 1—Telegram]</note>
                                 <head><hi rend="italic">The Combined Chiefs of Staff to the Chiefs
                                         of the United States and British Military Missions to the
                                         Soviet Union</hi> (<hi rend="italic">Deane and
@@ -30422,9 +30359,7 @@
                                 </list>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Enclosure 2—Telegram]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Enclosure 2—Telegram]</note>
                                 <head><hi rend="italic">The Combined Chiefs of Staff to the Chiefs
                                         of the United States and British Military Missions to the
                                         Soviet Union</hi> (<hi rend="italic">Deane and
@@ -30477,9 +30412,7 @@
                                 </list>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Enclosure 3—Telegram]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Enclosure 3—Telegram]</note>
                                 <head><hi rend="italic">The <gloss type="from">Joint Chiefs of
                                             Staff</gloss> to the Chief of the Military Mission in
                                         the Soviet Union</hi> (<persName type="to"><hi rend="italic"
@@ -31047,9 +30980,7 @@
                             <closer><signed>C[<hi rend="smallcaps">ordell</hi>] H[<hi
                                         rend="smallcaps">ull</hi>]</signed></closer>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Enclosure]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Enclosure]</note>
                                 <head><hi rend="italic">Memorandum Prepared in the Department of
                                         State</hi></head>
                                 <opener>
@@ -31256,9 +31187,7 @@
                             <closer><signed>H[<hi rend="smallcaps">arry</hi>] L. H[<hi
                                         rend="smallcaps">opkins</hi>]</signed></closer>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Attachment]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Attachment]</note>
                                 <head><hi rend="italic">Memorandum Prepared in the Department of
                                         State</hi><note n="3" xml:id="d240fn3">Neither the copy of
                                         this memorandum in the Hopkins Papers nor the Department of
@@ -33133,9 +33062,7 @@
                             </list>
                             <pb n="439" xml:id="pg_439" facs="0501"/>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">Enclosure</seg>
-                                </opener>
+                                <note rend="inline" type="source">Enclosure</note>
                                 <head><hi rend="italic">The <gloss type="from">Combined Chiefs of
                                             Staff</gloss> to the Supreme Allied Commander,
                                         Mediterranean Theater</hi> (<persName type="to"><hi
@@ -33798,8 +33725,8 @@
                                         <hi rend="smallcaps">Cornwall-Jones</hi>
                                 </signed><lb/><hi rend="italic">Combined Secretariat</hi></closer>
                             <frus:attachment>
+                                <note rend="inline" type="source">[Enclosure]</note>
                                 <opener>
-                                    <seg rendition="#center">[Enclosure]</seg><lb/>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
                                 </opener>
@@ -34393,9 +34320,7 @@
                                         calendar="gregorian">15th September, 1944</date>.</dateline>
                             </closer>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">[Enclosure]</seg>
-                                </opener>
+                                <note rend="inline" type="source">[Enclosure]</note>
                                 <head><hi rend="smallcaps">Draft Minute to the President and Prime
                                         Minister</hi></head>
                                 <p>The Combined Chiefs of Staff desire to place on record that the
@@ -34779,18 +34704,18 @@
                                         <hi rend="smallcaps">Cornwall-Jones</hi>
                                 </signed><lb/><hi rend="italic">Combined Secretariat</hi></closer>
                             <frus:attachment>
-                                <head>Enclosure “A”</head>
+                                <note rend="inline" type="source">Enclosure “A”</note>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
                                 </opener>
-                                <p rend="center"><hi rend="smallcaps">Draft Message From the
-                                        President and the Prime Minister to Generalissimo Chiang
-                                        Kai-shek</hi><note n="2" xml:id="d277fn2">The draft message
-                                        itself and the preceding message concerning its delivery
-                                        were both indicated for transmission via the war Department
-                                        to the Commanding General, U.S. Army Forces in
-                                        China–Burma–India, Forward Echelon, Chungking.</note></p>
+                                <head><hi rend="smallcaps">Draft Message From the President and the
+                                        Prime Minister to Generalissimo Chiang Kai-shek</hi><note
+                                        n="2" xml:id="d277fn2">The draft message itself and the
+                                        preceding message concerning its delivery were both
+                                        indicated for transmission via the war Department to the
+                                        Commanding General, U.S. Army Forces in China–Burma–India,
+                                        Forward Echelon, Chungking.</note></head>
                                 <p>From Admiral Leahy, Chief of Staff to the President.</p>
                                 <p>My immediately following message is top secret and should be seen
                                     only by General Stilwell, a decoder appointed by him, and the
@@ -34860,9 +34785,7 @@
                                 </postscript>
                             </frus:attachment>
                             <frus:attachment>
-                                <opener>
-                                    <seg rendition="#center">Enclosure “B”</seg>
-                                </opener>
+                                <note rend="inline" type="source">Enclosure “B”</note>
                                 <head><hi rend="italic">Draft Message From President <persName
                                             type="from">Roosevelt</persName> and Prime Minister
                                         Churchill to Generalissimo <persName type="to"
