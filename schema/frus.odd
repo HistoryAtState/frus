@@ -961,7 +961,7 @@
                                     <item>A 04. Add div/@subtype="referral"</item>
                                     <item>A 05. Add timezone indicators to date attributes [initial
                                         pass]</item>
-                                    <item>A 06. Add FRUS documents dateTimes (min/max) [initial
+                                    <item>A 06. Add FRUS document dateTimes (min/max) [initial
                                         pass]</item>
                                 </list>
                             </item>
@@ -987,18 +987,18 @@
                                         pass]</item>
                                     <item>C 15. Add/update FRUS documents dateTimes (min/max)
                                         [tertiary pass]</item>
-                                    <item>C 16. Add FRUS compilations/chapter/subchapter dateTimes
-                                        (min/max)</item>
                                 </list>
                             </item>
-                            <item>Apply transformations for penultimate pass [D]<list>
-                                    <item>D 17. Add FRUS volume dateTimes in
+                            <item>Apply transformations for penultimate pass [D and E]<list>
+                                    <item>D 16. Add FRUS compilations/chapter/subchapter dateTimes
+                                        (min/max)</item>
+                                    <item>E 17. Add FRUS volume dateTimes in
                                         xenoData/frus:coverage</item>
                                 </list>
                             </item>
-                            <item>Apply transformations for final pass [E]<list>
-                                    <item>E 18. Add FRUS section/toc dateTimes (min/max)</item>
-                                    <item>E 19. Add FRUS editorial-notes dateTimes (min/max)</item>
+                            <item>Apply transformations for final pass [F and G]<list>
+                                    <item>F 18. Add FRUS section/toc dateTimes (min/max)</item>
+                                    <item>G 19. Add FRUS editorial-notes dateTimes (min/max)</item>
                                 </list>
                             </item>
                         </list></item>
