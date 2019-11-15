@@ -13915,9 +13915,12 @@
                     <frus:attachment>
                         <opener><seg rendition="#center">[Inclosure 1 in No. 66.]</seg></opener>
                         <head><hi rend="smallcaps">Appendix VI.</hi></head>
-                        <dateline rend="center"><hi rend="italic">British order in council of</hi>
-                            <date when="1881-10-25" calendar="gregorian"><hi rend="italic"
-                                    >October</hi> 25, 1881</date>.</dateline>
+                        <opener>
+                            <dateline rend="center"><hi rend="italic">British order in council
+                                    of</hi>
+                                <date when="1881-10-25" calendar="gregorian"><hi rend="italic"
+                                        >October</hi> 25, 1881</date>.</dateline>
+                        </opener>
                         <p>At the court at Balmoral, the 25th day of October, 1881.</p>
                         <p>Present, the Queen’s Most Excellent Majesty in Council.</p>
                         <p>Whereas Her Majesty the Queen has power and jurisdiction in relation to
@@ -14956,10 +14959,12 @@
                         <head><hi rend="italic">Memorandum of a conversation had by Mr. Arendt with
                                 His Excellency Wang, the only minister present at the Tsungli Yamên,
                                 on February</hi> 15, 1882.</head>
-                        <dateline>[<date ana="#date_undated-inferred-from-document-head"
-                                when="1882-02-15" calendar="gregorian"
-                                type="conversation-or-meeting-date">February 15,
-                            1882</date>]</dateline>
+                        <opener>
+                            <dateline>[<date ana="#date_undated-inferred-from-document-head"
+                                    when="1882-02-15" calendar="gregorian"
+                                    type="conversation-or-meeting-date">February 15,
+                                1882</date>]</dateline>
+                        </opener>
                         <p>I. What do the characters tsze hsiang “this class” of uncertificated
                             produce mean?</p>
                         <p><hi rend="smallcaps">Wang</hi>. The words “this class” have no special
