@@ -10403,7 +10403,7 @@
                         <closer>
                             <signed>
                                 <hi rend="smallcaps">Frank E. Anderson</hi>
-                            </signed>
+                            </signed><lb/>
                             <dateline rendition="#left">
                                 <placeName>
                                     <hi rend="smallcaps">Washington</hi>
@@ -14875,11 +14875,13 @@
                             <note n="8" xml:id="d115fn1">This paper bears the notation: “Handed me
                                 at Cabinet Oct 1/18 R L.”</note>
                         </head>
-                        <dateline>
-                            <date when="1918-10-01"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1918-10-01"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">undated</date>
+                            </dateline>
+                        </opener>
                         <p>Gov’t of U. S. cannot be [<hi rend="italic">but</hi>] regard every
                             question that concerns any one of the Balkan States as an essential part
                             of the general peace settlement, inasmuch as there is no part of Europe
@@ -23397,11 +23399,13 @@
                                 >Bakhmeteff</hi></persName>), <hi rend="italic">April 2 and April 6,
                             1915</hi>
                     </head>
-                    <dateline>
-                        <date from="1915-04-02" to="1915-04-06"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >April 2 and April 6, 1915</date>
-                    </dateline>
+                    <opener>
+                        <dateline>
+                            <date from="1915-04-02" to="1915-04-06"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >April 2 and April 6, 1915</date>
+                        </dateline>
+                    </opener>
                     <p>The Ambassador called and showed me two small volumes entitled “When a Man
                         Comes to Himself,” President Wilson being the author. On pages 26 and 27 of
                         these volumes appeared certain comments upon Russia and the Czar, which the
@@ -25405,7 +25409,7 @@
                             is now convulsing the World.</p>
                         <closer>
                             <signed><hi rend="smallcaps">The United States Railway Advisory
-                                    Commission to Russia</hi></signed>
+                                    Commission to Russia</hi></signed><lb/>
                             <dateline rendition="#left">
                                 <placeName>
                                     <hi rend="smallcaps">Petrograd</hi>
@@ -26263,11 +26267,13 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1918, Russia, vol. <hi
                                     rend="smallcaps">ii</hi>, p. 68</ref>.</note>
                     </head>
-                    <dateline>
-                        <date when="1918-03-01T12:00:00-05:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >undated</date>
-                    </dateline>
+                    <opener>
+                        <dateline>
+                            <date when="1918-03-01T12:00:00-05:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >undated</date>
+                        </dateline>
+                    </opener>
                     <p>The Government of the United States is made constantly aware at every turn of
                         events that it is the desire of the people of the United States that, while
                         cooperating with all its energy with its associates in the war in every
@@ -26504,10 +26510,13 @@
                         <note n="48" xml:id="d190fn1">This paper bears the notation: “Handed me by
                             Japanese Amb. May 18/18 RL.”</note>
                     </head>
-                    <dateline>
-                        <date when="1918-05-18" ana="#date_undated-inferred-from-document-content"
-                            calendar="gregorian">May 18, 1918</date>
-                    </dateline>
+                    <opener>
+                        <dateline>
+                            <date when="1918-05-18"
+                                ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">May 18, 1918</date>
+                        </dateline>
+                    </opener>
                     <p rend="center">
                         <hi rend="smallcaps">Substance of the Note Exchanged Between the Japanese
                             and Chinese Governments on the 25th of March, 1918</hi>
@@ -31204,10 +31213,13 @@
                                     <hi rend="italic">Foreign Relations</hi>, 1917, pp. 258</ref>
                                 ff.</note>
                         </head>
-                        <dateline>
-                            <date when="1917-09-06" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">September 6, 1917</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1917-09-06"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">September 6, 1917</date>
+                            </dateline>
+                        </opener>
                         <p>The Special Ambassador and I conferred this afternoon for an hour and a
                             half at the Department.</p>
                         <p>During the first part of the conference the subject discussed was to what
@@ -31354,10 +31366,13 @@
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">September 22, 1917</hi>
                         </head>
-                        <dateline>
-                            <date when="1917-09-22" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">September 22, 1917</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1917-09-22"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">September 22, 1917</date>
+                            </dateline>
+                        </opener>
                         <p>Viscount Ishii called at 3:00 p. m. by appointment, and after some
                             preliminary remarks he introduced the subject of the “Open Door” and the
                             suggestion that a redeclaration at this time would be advantageous.</p>
@@ -31523,10 +31538,13 @@
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">September 26, 1917</hi>
                         </head>
-                        <dateline>
-                            <date when="1917-09-26" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">September 26, 1917</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1917-09-26"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">September 26, 1917</date>
+                            </dateline>
+                        </opener>
                         <p>Early this morning I sent to Viscount Ishii a draft of a note,<note n="5"
                                 xml:id="d265fn1">This draft not printed.</note> embodying the
                             formula which I had said in our previous conference I would prepare, and
@@ -31670,10 +31688,13 @@
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 8, 1917</hi>
                         </head>
-                        <dateline>
-                            <date when="1917-10-08" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">October 8, 1917</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1917-10-08"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 8, 1917</date>
+                            </dateline>
+                        </opener>
                         <p>Viscount Ishii called this afternoon and submitted to me a counterdraft
                             of the proposed note relative to a redeclaration of the “Open Door”
                                 policy.<note n="6" xml:id="d266fn1">Counterdraft not printed.</note>
@@ -31690,10 +31711,13 @@
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 10, 1917</hi>
                         </head>
-                        <dateline>
-                            <date when="1917-10-10" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">October 10, 1917</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1917-10-10"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 10, 1917</date>
+                            </dateline>
+                        </opener>
                         <p>On the 8th Viscount Ishii left with me a draft of the proposed note from
                             this Government to Japan, showing in lead pencil the changes desired by
                             his Government in the note. (The document is hereto attached.)<note
@@ -31778,10 +31802,13 @@
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 20, 1917</hi>
                         </head>
-                        <dateline>
-                            <date when="1917-10-20" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">October 20, 1917</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1917-10-20"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 20, 1917</date>
+                            </dateline>
+                        </opener>
                         <p>Viscount Ishii called at the Department by appointment this morning.</p>
                         <p>He first said that I probably knew that the Japanese Naval Commissioner
                             had arranged with our naval authorities to take over certain patrol duty
@@ -31925,10 +31952,13 @@
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 22, 1917</hi>
                         </head>
-                        <dateline>
-                            <date when="1917-10-22" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">October 22, 1917</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1917-10-22"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 22, 1917</date>
+                            </dateline>
+                        </opener>
                         <p>The Viscount called at the Department by request and I told him that the
                             note as finally agreed upon on the 20th was acceptable in <pb n="446"
                                 xml:id="pg_446" facs="0492"/>itself, but that the President was
@@ -32009,10 +32039,13 @@
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 27, 1917</hi>
                         </head>
-                        <dateline>
-                            <date when="1917-10-27" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">October 27, 1917</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1917-10-27"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 27, 1917</date>
+                            </dateline>
+                        </opener>
                         <p>The Viscount called this morning by appointment and said that he had
                             heard from his Government as to the proposed memorandum submitted on the
                             24th [<hi rend="italic">22d</hi>] by me, that he wished to repeat that
@@ -32085,10 +32118,13 @@
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 29, 1917</hi>
                         </head>
-                        <dateline>
-                            <date when="1917-10-29" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">October 29, 1917</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1917-10-29"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 29, 1917</date>
+                            </dateline>
+                        </opener>
                         <p>At my request the Viscount called this afternoon and I informed him that
                             I had given careful consideration to the proposed protocol which he had
                             handed me on the 27th<note n="23" xml:id="d273fn1">See footnote 21, <ref
@@ -32124,10 +32160,13 @@
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">October 31, 1917</hi>
                         </head>
-                        <dateline>
-                            <date when="1917-10-31" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">October 31, 1917</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1917-10-31"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 31, 1917</date>
+                            </dateline>
+                        </opener>
                         <p>The Viscount came to the Department this afternoon by appointment and
                             said that he was happy to state the suggested amendments in the
                             confidential protocol were entirely acceptable to his Government, and he
@@ -32163,10 +32202,13 @@
                                 With the Japanese Ambassador on Special Mission</hi> (<hi
                                 rend="italic">Ishii</hi>), <hi rend="italic">November 2, 1917</hi>
                         </head>
-                        <dateline>
-                            <date when="1917-11-02" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">November 2, 1917</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1917-11-02"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">November 2, 1917</date>
+                            </dateline>
+                        </opener>
                         <p>This morning the Viscount called at the Department and we read over the
                             notes to be exchanged and the confidential protocol accompanying <pb
                                 n="450" xml:id="pg_450" facs="0496"/>them.<note n="26"
@@ -32228,7 +32270,7 @@
                                 <hi rend="smallcaps">Robert Lansing</hi>
                                 <lb/>
                                 <hi rend="smallcaps">K. Ishii</hi>
-                            </signed>
+                            </signed><lb/>
                             <dateline rendition="#left">Done in Duplicate at<lb/>
                                 <placeName>
                                     <hi rend="smallcaps">Washington</hi>
@@ -32268,10 +32310,13 @@
                                 With the Chinese Minister</hi> (<hi rend="italic">Koo</hi>), <hi
                                 rend="italic">November 12, 1917</hi>
                         </head>
-                        <dateline>
-                            <date when="1917-11-12" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">November 12, 1917</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1917-11-12"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">November 12, 1917</date>
+                            </dateline>
+                        </opener>
                         <p>The Chinese Minister called upon me this afternoon and delivered a
                                 memorandum<note n="29" xml:id="d278fn1">
                                 <ref target="frus1917#pg_270">
@@ -34265,7 +34310,7 @@
                         <closer>
                             <signed>
                                 <hi rend="smallcaps">E. M. House</hi>
-                            </signed>
+                            </signed><lb/>
                             <dateline rendition="#left">
                                 <placeName>
                                     <hi rend="smallcaps">New York</hi>
@@ -34436,7 +34481,7 @@
                         <closer>
                             <signed>
                                 <hi rend="smallcaps">E. M. House</hi>
-                            </signed>
+                            </signed><lb/>
                             <dateline rendition="#left">
                                 <placeName>
                                     <hi rend="smallcaps">New York</hi>
@@ -35259,11 +35304,13 @@
                             <note n="3" xml:id="d325fn1">This paper bears the notation: “Recd from
                                 Danish Minister Dec. 1, 1915 RL.”</note>
                         </head>
-                        <dateline>
-                            <date when="1915-12-01"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">December 1, 1915</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1915-12-01"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">December 1, 1915</date>
+                            </dateline>
+                        </opener>
                         <p rend="center">
                             <hi rend="smallcaps">Paraphrase of Cablegram Received on November 25th
                                 From the Danish Minister of Foreign Affairs</hi>
@@ -38927,12 +38974,14 @@
                             <hi rend="italic">Memorandum by the Secretary of State of a Conversation
                                 With Mr. Arredondo, March 9, 1916, 4 p. m.</hi>
                         </head>
-                        <dateline>
-                            <date when="1916-03-09T16:00:00-05:00"
-                                type="conversation-or-meeting-date"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >March 9, 1916, 4 p.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date when="1916-03-09T16:00:00-05:00"
+                                    type="conversation-or-meeting-date"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">March 9, 1916, 4 p.m.</date>
+                            </dateline>
+                        </opener>
                         <p>Mr. Arredondo called to ask in regard to the reports of the attack upon
                             Columbus, New Mexico by Villista troops. I read to him the despatches
                             from Cobb and Carothers, sent today.<note n="24" xml:id="d399fn1">
@@ -39360,12 +39409,14 @@
                             <note n="36" xml:id="d406fn1">This undated memorandum bears the
                                 notation: “Prepared to use with Prest. RL.”</note>
                         </head>
-                        <dateline>
-                            <date notBefore="1916-06-21T00:00:00-05:00"
-                                notAfter="1916-07-03T23:59:59-05:00"
-                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
-                                >undated</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <date notBefore="1916-06-21T00:00:00-05:00"
+                                    notAfter="1916-07-03T23:59:59-05:00"
+                                    ana="#date_undated-inferred-from-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline>
+                        </opener>
                         <p>The announced policy of the United States in its relations with Mexico
                             has been and still is one of non-intervention. In using the words
                             “intervention” and “non-intervention” the meaning of intervention should
