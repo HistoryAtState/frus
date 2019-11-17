@@ -10,7 +10,7 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="tei:dateline[ancestor::tei:closer]">
+    <xsl:template match="tei:dateline[ancestor::tei:closer][not(attribute::rend eq 'inline')]">
         <xsl:choose>
             <xsl:when test=".[not(attribute::rendition)]">
                 <xsl:copy>
