@@ -7000,11 +7000,13 @@
                                 Report Summary Prepared in the United States Information
                                 Agency</hi><note n="3" xml:id="d31fn3">Confidential. No drafting
                                 information appears on the conference report summary.</note></head>
-                        <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date from="1969-05-09"
-                                to="1969-05-09" type="conversation-or-meeting-date"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">undated</date></dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date from="1969-05-09"
+                                    to="1969-05-09" type="conversation-or-meeting-date"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">undated</date></dateline>
+                        </opener>
                         <p rend="center"><hi rend="italic"><gloss target="#t_USIA_1">USIA</gloss>
                                 EAST AND PACIFIC <gloss target="#t_PAO_1">PAO</gloss> CONFERENCE
                                 Manila, May 9–11, 1969</hi></p>
@@ -7614,13 +7616,15 @@
                                 on Astronaut Travel</hi><note n="4" xml:id="d33fn4">No
                                 classification marking. No drafting information appears on the
                                 paper.</note></head>
-                        <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date
-                                notBefore="1969-08-15T00:00:00-04:00"
-                                notAfter="1969-08-16T23:59:59-04:00"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1969-08-15T00:00:00-04:00"
+                                    notAfter="1969-08-16T23:59:59-04:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline>
+                        </opener>
                         <p rend="center"><hi rend="italic">Suggestions</hi></p>
                         <p rend="sectiontitleital">Itinerary</p>
                         <p>1. We suggest the New York appearance be limited if possible to the
@@ -9880,13 +9884,15 @@
                                 United States Information Agency</hi><note n="3" xml:id="d56fn3">No
                                 classification marking. No drafting information appears on the
                                 paper.</note></head>
-                        <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date
-                                notBefore="1969-11-18T00:00:00-05:00"
-                                notAfter="1969-12-05T23:59:59-05:00"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1969-11-18T00:00:00-05:00"
+                                    notAfter="1969-12-05T23:59:59-05:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline>
+                        </opener>
                         <p rend="center"><hi rend="italic"><gloss target="#t_USIA_1">USIA</gloss>’s
                                 Role in Respect to American Revolution Bicentennial
                             Celebration</hi></p>
@@ -11110,9 +11116,11 @@
                                 Agency</hi><note n="5" xml:id="d66fn5">Top Secret. No drafting
                                 information appears on the assessment, which is entitled “Assessment
                                 of Psychological Operations Programs in Viet-Nam.”</note></head>
-                        <dateline rendition="#right">
-                            <placeName>Washington</placeName>, <date when="1970-01"
-                                calendar="gregorian">January 1970</date></dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-01"
+                                    calendar="gregorian">January 1970</date></dateline>
+                        </opener>
                         <p>[Omitted here are the title page and the table of contents.]</p>
                         <p rend="center"><hi rend="italic">SUMMARY</hi></p>
                         <p>The <gloss target="#t_ChieuHoi_1">Chieu Hoi</gloss> (Open Arms)
@@ -20818,10 +20826,12 @@
                         <head>
                             <hi rend="strong">Paper</hi><note n="3" xml:id="d131fn3"
                                 >Unclassified.</note></head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-04-21"
-                                calendar="gregorian">April 21, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline>
+                                <placeName>Washington</placeName>, <date when="1971-04-21"
+                                    calendar="gregorian">April 21, 1971</date>
+                            </dateline>
+                        </opener>
                         <p rend="sectiontitleital">Theme I</p>
                         <p rend="center"><hi rend="italic">The Essence of American Institutions is
                                 Freedom</hi></p>
