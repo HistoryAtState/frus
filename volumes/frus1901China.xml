@@ -1612,8 +1612,9 @@
                     frus:doc-dateTime-max="1900-09-25T23:59:59-05:00">
                     <head><hi rend="italic">Imperial edict of September 25, 1900.</hi></head>
                     <opener>
-                        <dateline>[<date when="1900-09-25" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">September 25, 1900</date>]</dateline>
+                        <dateline>[<date when="1900-09-25"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >September 25, 1900</date>]</dateline>
                     </opener>
                     <p>The Secretary of State received on October 2, 1900, from the Chinese minister
                         a memorandum informing him that a cablegram had been received from
@@ -23556,10 +23557,9 @@
                     <head><hi rend="italic">Minutes of the third conference with the Chinese
                             plenipotentiaries, held September 7, 1901.</hi></head>
                     <opener>
-                        <dateline>
-                            <date when="1901-09-07" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">September 7, 1901</date>
-                        </dateline>
+                        <dateline>[<date when="1901-09-07"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >September 7, 1901</date>]</dateline>
                     </opener>
                     <p>The diplomatic corps, comprising the ministers of Germany, Austria-Hungary,
                         Belgium, Spain, France, Great Britain, Italy, Japan, Holland, Russia, and
