@@ -2176,13 +2176,13 @@
                                 with despatch No.199 October 3, 1941, from the Ambassador in
                                 Uruguay; received October 11.</note>
                         </head>
-                        <dateline>
-                            <placeName>Montevideo</placeName>, <date
-                                notBefore="1941-09-19T00:00:00-03:00"
-                                notAfter="1941-10-03T23:59:59-03:00"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener>
+                            <dateline>[<placeName>Montevideo</placeName>, <date
+                                    notBefore="1941-09-19T00:00:00-03:00"
+                                    notAfter="1941-10-03T23:59:59-03:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>]</dateline>
+                        </opener>
                         <p rend="flushleft">
                             <hi rend="italic">Argentina—June 27</hi>
                         </p>
@@ -8330,10 +8330,11 @@
                             <hi rend="italic">Press Release Issued by the Department of State,
                                 December 10, 1941</hi>
                         </head>
-                        <dateline>
-                            <date when="1941-12-10" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">December 10, 1941</date>
-                        </dateline>
+                        <opener>
+                            <dateline>[<date when="1941-12-10"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">December 10, 1941</date>]</dateline>
+                        </opener>
                         <p>This morning the Secretary of State proposed to the Governing Board of
                             the Pan American Union, through a communication addressed to Dr. Leo S.
                             Rowe, Director General of the Pan American Union, that there be held at
@@ -11920,10 +11921,11 @@
                                 rend="italic">Welles</hi>) <hi rend="italic">at the Meeting of the
                                 Inter-American Financial and Economic Advisory Committee, October
                                 30, 1941</hi></head>
-                        <dateline>
-                            <date when="1941-10-30" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">October 30, 1941</date>
-                        </dateline>
+                        <opener>
+                            <dateline>[<date when="1941-10-30"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 30, 1941</date>]</dateline>
+                        </opener>
                         <p>Two or three months ago the American republics were faced with a shortage
                             in tank ships that made a severe reduction in oil supplies to the
                             Atlantic Coast of the United States and to the other American republics
@@ -15161,12 +15163,10 @@
                                     Ambassador in Peru as enclosure to his despatch No. 1752,
                                     September 16, 1941; received September 20.</note>
                             </head>
-                            <dateline>
-                                <placeName>Lima</placeName>, <date when="1941-09-13"
-                                    ana="#date_undated-inferred-from-document-head"
-                                    calendar="gregorian">September 13, 1941</date>
-                            </dateline>
                             <opener>
+                                <dateline>[<placeName>Lima</placeName>, <date when="1941-09-13"
+                                        ana="#date_undated-inferred-from-document-head"
+                                        calendar="gregorian">September 13, 1941</date>]</dateline><lb/>
                                 <seg rendition="#center">[Translation]</seg>
                             </opener>
                             <list>
@@ -17478,10 +17478,11 @@
                             <hi rend="italic">Press Release Issued by the Department of State, July
                                 17, 1941</hi>
                         </head>
-                        <dateline>
-                            <date when="1941-07-17" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">July 17, 1941</date>
-                        </dateline>
+                        <opener>
+                            <dateline>[<date when="1941-07-17"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">July 17, 1941</date>]</dateline>
+                        </opener>
                         <p>As a further step in view of the unlimited national emergency declared by
                             the President, he has today issued a proclamation<note n="1"
                                 xml:id="d313fn1">55 Stat. (pt. 2) 1657.</note> authorizing the
@@ -23296,10 +23297,11 @@
                                 by the Chargé in his despatch No. 2599, June 18, 1941; received June
                                 27.</note>
                         </head>
-                        <dateline>
-                            <date when="1941-06-18" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">June 18, 1941</date>
-                        </dateline>
+                        <opener>
+                            <dateline>[<date when="1941-06-18"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">June 18, 1941</date>]</dateline>
+                        </opener>
                         <p>The Metals Reserve Company, hereinafter called the “Buyer”, is prepared
                             to grant the following terms in the purchase of, receipt, and payment
                             for the total Argentine production of ores and/or concentrates of
@@ -25396,10 +25398,11 @@
                                 States-Argentine Trade-Agreement Delegations, Signed October 14,
                                 1941</hi>
                         </head>
-                        <dateline>
-                            <date when="1941-10-14" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">October 14, 1941</date>
-                        </dateline>
+                        <opener>
+                            <dateline>[<date when="1941-10-14"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 14, 1941</date>]</dateline>
+                        </opener>
                         <p>With a view to recording the understanding which the Delegations of the
                             United States of America and the Argentine Republic reached with respect
                             to certain provisions of the Trade Agreement signed <pb n="401"
@@ -27006,11 +27009,11 @@
                             <hi rend="italic">Lend-Lease Agreement Between the United States and
                                 Bolivia, Signed at Washington, December 6, 1941</hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1941-12-06"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >December 6, 1941</date>
-                        </dateline>
+                        <opener>
+                            <dateline>[<placeName>Washington</placeName>, <date when="1941-12-06"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">December 6, 1941</date>]</dateline>
+                        </opener>
                         <p><hi rend="smallcaps">Whereas</hi> the United States of America and the
                             Republic of Bolivia declare that in conformity with the principles set
                             forth in the Declaration of Lima, approved at the Eighth International
@@ -33413,11 +33416,11 @@
                             <hi rend="italic">Lend-Lease Agreement Between the United States and
                                 Brazil, Signed at Washington, October 1, 1941</hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1941-10-01"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >October 1, 1941</date>
-                        </dateline>
+                        <opener>
+                            <dateline>[<placeName>Washington</placeName>, <date when="1941-10-01"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 1, 1941</date>]</dateline>
+                        </opener>
                         <p><hi rend="smallcaps">Whereas</hi> the United States of America and the
                             United States of Brazil declare that in conformity with the principles
                             set forth in the Declaration of Lima, approved at the Eighth
