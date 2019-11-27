@@ -3638,11 +3638,13 @@
                                     rend="italic">to the <gloss type="to">Secretary of State</gloss>
                                 </hi>
                             </head>
-                            <dateline>
-                                <placeName>
-                                    <hi rend="smallcaps">Paris</hi></placeName>, <date
-                                    when="1949-06-06" calendar="gregorian">June 6, 1949.</date>
-                            </dateline>
+                            <opener>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Paris</hi></placeName>, <date
+                                        when="1949-06-06" calendar="gregorian">June 6, 1949.</date>
+                                </dateline>
+                            </opener>
                             <p>2308. Today’s press carries text Auriol message to Bao Dai informing
                                 him of promulgation of law for union Cochin-China with Vietnam.
                                 “France has thus carried out its commitments; independence and unity
@@ -5343,11 +5345,13 @@
                                     >to the <gloss type="to">Secretary of State</gloss>
                                 </hi>
                             </head>
-                            <dateline>
-                                <placeName>
-                                    <hi rend="smallcaps">Hanoi</hi></placeName>, <date
-                                    when="1949-06-23" calendar="gregorian">June 23, 1949.</date>
-                            </dateline>
+                            <opener>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Hanoi</hi></placeName>, <date
+                                        when="1949-06-23" calendar="gregorian">June 23, 1949.</date>
+                                </dateline>
+                            </opener>
                             <p>61. Official announcement by Buu Loc confirms following developments:
                                     Xuan<note n="1" xml:id="d53fn1">General Xuan’s government had
                                     resigned as of June 20 but had been requested by Bao Dai to
@@ -5911,11 +5915,14 @@
                                     rend="italic">to the <gloss type="to">Secretary of State</gloss>
                                 </hi>
                             </head>
-                            <dateline>
-                                <placeName>
-                                    <hi rend="smallcaps">Paris</hi></placeName>, <date
-                                    when="1949-08-10" calendar="gregorian">August 10, 1949.</date>
-                            </dateline>
+                            <opener>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Paris</hi></placeName>, <date
+                                        when="1949-08-10" calendar="gregorian">August 10,
+                                        1949.</date>
+                                </dateline>
+                            </opener>
                             <p>3322. Following is translation of Auriol’s letter of July 27 which
                                 Coste-Floret delivered to Bao Dai. Letter was counter-signed by
                                 Queuille, Schuman, Coste-Floret and Ramadier.<note n="1"
@@ -6149,11 +6156,14 @@
                                             (751<gloss target="#t_G1">G</gloss>.00/10–549).</p>
                                 </note>
                             </head>
-                            <dateline>
-                                <placeName>
-                                    <hi rend="smallcaps">Saigon</hi></placeName>, <date
-                                    when="1949-08-31" calendar="gregorian">August 31, 1949.</date>
-                            </dateline>
+                            <opener>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Saigon</hi></placeName>, <date
+                                        when="1949-08-31" calendar="gregorian">August 31,
+                                        1949.</date>
+                                </dateline>
+                            </opener>
                             <p rend="center">[<hi rend="smallcaps">Translation</hi>
                                 <hi rend="superscript">2</hi>]</p>
                             <p>
@@ -8540,11 +8550,14 @@
                             <p>President Truman wishes to congratulate M. Vincent Auriol, President
                                 of the French Union, on the conclusion of these agreements and to
                                 extend his best wishes for their successful implementation.</p>
-                            <dateline>
-                                <placeName>
-                                    <hi rend="smallcaps">Washington</hi></placeName>, <date
-                                    when="1949-12-17" calendar="gregorian">December 17, 1949.</date>
-                            </dateline>
+                            <closer>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Washington</hi></placeName>, <date
+                                        when="1949-12-17" calendar="gregorian">December 17,
+                                        1949.</date>
+                                </dateline>
+                            </closer>
                         </div>
                         <div type="document" xml:id="d88" n="88" subtype="historical-document"
                             frus:doc-dateTime-min="1949-12-19T02:00:00-05:00"
@@ -11892,7 +11905,7 @@
                             </closer>
                         </div>
                         <div type="document" xml:id="d121" n="121" subtype="historical-document"
-                            frus:doc-dateTime-min="1949-01-14T10:15:00-05:00"
+                            frus:doc-dateTime-min="1949-01-17T00:00:00-05:00"
                             frus:doc-dateTime-max="1949-01-17T23:59:59-05:00">
                             <note rend="inline" type="source">501.BC Indonesia/1–1749</note>
                             <head>
@@ -11903,12 +11916,11 @@
                                     Netherlands Embassy (Schiff) to the Deputy Director of the
                                     Office of European Affairs (Thompson) on January 17.</note>
                             </head>
-                            <dateline>
-                                <date notBefore="1949-01-14T10:15:00-05:00"
-                                    notAfter="1949-01-17T23:59:59-05:00"
-                                    ana="#date_undated-inferred-from-document-content"
-                                    calendar="gregorian">undated</date>
-                            </dateline>
+                            <opener>
+                                <dateline>[<date when="1949-01-17" type="received-date"
+                                        ana="#date_undated-inferred-from-document-content"
+                                        calendar="gregorian">undated</date>]</dateline>
+                            </opener>
                             <p>Adoption of the United States working paper<note n="2"
                                     xml:id="d121fn2">See footnote 1, <ref target="#pg_146">p.
                                         146</ref>.</note> would mean increased intervention by the
@@ -14854,9 +14866,11 @@
                                     February 11 by Mr. Hickerson, <ref target="#pg_224">p.
                                     224</ref>.</note>
                             </head>
-                            <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,
-                                    <date when="1949-02-01" calendar="gregorian">February 1,
-                                    1949.</date>]</dateline>
+                            <opener>
+                                <dateline>[<placeName><hi rend="smallcaps"
+                                        >Washington</hi></placeName>, <date when="1949-02-01"
+                                        calendar="gregorian">February 1, 1949.</date>]</dateline>
+                            </opener>
                             <p>In the situation which now confronts the Security Council as a result
                                 of the resolution of 28th January, it is the opinion of His
                                 Majesty’s Government that the following considerations will have to
@@ -15836,11 +15850,14 @@
                                 <note n="1" xml:id="d161fn1">Repeated in telegram 111, February 9, 7
                                     p. m., to The Hague.</note>
                             </head>
-                            <dateline>
-                                <placeName>
-                                    <hi rend="smallcaps">Batavia</hi></placeName>, <date
-                                    when="1949-02-09" calendar="gregorian">February 9, 1949.</date>
-                            </dateline>
+                            <opener>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Batavia</hi></placeName>, <date
+                                        when="1949-02-09" calendar="gregorian">February 9,
+                                        1949.</date>
+                                </dateline>
+                            </opener>
                             <p>152. <gloss target="#t_Gocus1">Gocus</gloss> 582. <gloss
                                     target="#t_RepubDel1">RepDel</gloss> delivered to <gloss
                                     target="#t_UNCFIN1">UNCFI</gloss> following three letters. First
@@ -16526,11 +16543,14 @@
                                     rend="italic">to the <gloss type="to">Secretary of State</gloss>
                                 </hi>
                             </head>
-                            <dateline>
-                                <placeName>
-                                    <hi rend="smallcaps">Batavia</hi></placeName>, <date
-                                    when="1949-02-10" calendar="gregorian">February 10, 1949.</date>
-                            </dateline>
+                            <opener>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Batavia</hi></placeName>, <date
+                                        when="1949-02-10" calendar="gregorian">February 10,
+                                        1949.</date>
+                                </dateline>
+                            </opener>
                             <p>159. <gloss target="#t_Gocus1">Gocus</gloss> 585. <gloss
                                     target="#t_UNCFIN1">UNCFI</gloss> today sent following letter to
                                     <gloss target="#t_NethDel1">NethDel</gloss> and <gloss
@@ -16562,10 +16582,12 @@
                                     of Far Eastern Affairs (Butterworth) and the Deputy Director of
                                     the Office of European Affairs (Thompson).</note>
                             </head>
-                            <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]
-                                    <date when="1949-02-11" calendar="gregorian">February 11,
-                                    1949.</date>
-                            </dateline>
+                            <opener>
+                                <dateline>[<placeName><hi rend="smallcaps"
+                                        >Washington</hi></placeName>,] <date when="1949-02-11"
+                                        calendar="gregorian">February 11, 1949.</date>
+                                </dateline>
+                            </opener>
                             <p>After the conversation with the Secretary yesterday on the Atlantic
                                 Pact, Sir Oliver Franks of the British Embassy handed Mr. Acheson
                                 the attached memorandum on Indonesia<note n="2" xml:id="d164fn2">See
@@ -16720,11 +16742,14 @@
                                     rend="italic">to the <gloss type="to">Secretary of State</gloss>
                                 </hi>
                             </head>
-                            <dateline>
-                                <placeName>
-                                    <hi rend="smallcaps">The Hague</hi></placeName>, <date
-                                    when="1949-02-12" calendar="gregorian">February 12, 1949.</date>
-                            </dateline>
+                            <opener>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">The Hague</hi></placeName>, <date
+                                        when="1949-02-12" calendar="gregorian">February 12,
+                                        1949.</date>
+                                </dateline>
+                            </opener>
                             <p>142. Morning issue ANP Aneta carries following translation official
                                 communiqué issued late last night:</p>
                             <quote rend="blockquote">
@@ -23368,9 +23393,11 @@
                                     rend="italic">to the <gloss type="to">Secretary of State</gloss>
                                 </hi>
                             </head>
-                            <dateline>[<placeName><hi rend="smallcaps">Washington</hi></placeName>,]
-                                    <date when="1949-03-18" calendar="gregorian">March 18,
-                                    1949</date>.</dateline>
+                            <opener>
+                                <dateline>[<placeName><hi rend="smallcaps"
+                                        >Washington</hi></placeName>,] <date when="1949-03-18"
+                                        calendar="gregorian">March 18, 1949</date>.</dateline>
+                            </opener>
                             <p>
                                 <hi rend="smallcaps">My Dear Mr. Secretary</hi>, It was my hope that
                                 you would be able to see me to-day in view of the latest
@@ -42243,11 +42270,13 @@
                                     rend="italic">to the <gloss type="to">Secretary of State</gloss>
                                 </hi>
                             </head>
-                            <dateline>
-                                <placeName>
-                                    <hi rend="smallcaps">Manila</hi></placeName>, <date
-                                    when="1949-05-23" calendar="gregorian">May 23,
-                                1949</date>.<lb/>[Received June 6.]</dateline>
+                            <opener>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Manila</hi></placeName>, <date
+                                        when="1949-05-23" calendar="gregorian">May 23,
+                                    1949</date>.<lb/>[Received June 6.]</dateline>
+                            </opener>
                             <p rend="flushleft">No. 502</p>
                             <p>
                                 <hi rend="smallcaps">Sir</hi>: I have the honor to refer to the
@@ -42349,11 +42378,13 @@
                                     rend="italic">to the <gloss type="to">Secretary of State</gloss>
                                 </hi>
                             </head>
-                            <dateline>
-                                <placeName>
-                                    <hi rend="smallcaps">Manila</hi></placeName>, <date
-                                    when="1949-08-08" calendar="gregorian">August 8,
-                                1949</date>.</dateline>
+                            <opener>
+                                <dateline>
+                                    <placeName>
+                                        <hi rend="smallcaps">Manila</hi></placeName>, <date
+                                        when="1949-08-08" calendar="gregorian">August 8,
+                                    1949</date>.</dateline>
+                            </opener>
                             <p rend="flushleft">
                                 <gloss target="#t_niact1">
                                     <hi rend="smallcaps">niact</hi>
