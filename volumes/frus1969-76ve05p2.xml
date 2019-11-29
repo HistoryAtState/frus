@@ -899,7 +899,7 @@
                     <item>Subject Files <list>
                             <item>Items to Discuss with the President</item>
                             <item>Morocco, Attempted Coup D’Etat</item>
-                            <item>>National Intelligence Estimates</item>
+                            <item>&gt;National Intelligence Estimates</item>
                             <item>National Security Study Memoranda</item>
                             <item>VIP Visits</item>
                         </list></item>
@@ -3371,7 +3371,7 @@
                                 for U.S. interests in the region.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-03-19"
                                     calendar="gregorian">March 19, 1969</date>.</dateline>
                         </opener>
@@ -3487,7 +3487,7 @@
                                 of Saudi Arabia.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-09-29"
                                     calendar="gregorian">September 29, 1969</date>
                             </dateline>
@@ -3601,7 +3601,7 @@
                         </head>
                         <pb n="1" xml:id="d3-01" facs="d3-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-12-24"
                                     calendar="gregorian">December 24, 1969</date>
                             </dateline>
@@ -3696,7 +3696,7 @@
                         </head>
                         <pb n="1" xml:id="d4-01" facs="d4-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-19"
                                     calendar="gregorian">January 19, 1970</date>
                             </dateline>
@@ -3762,7 +3762,7 @@
                                 Group.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-22"
                                     calendar="gregorian">January 22, 1970</date>
                             </dateline>
@@ -3832,7 +3832,7 @@
                                 Free World position in North Africa was deteriorating.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-02-04"
                                     calendar="gregorian">February 4, 1970</date>
                             </dateline>
@@ -3887,7 +3887,7 @@
                                 request.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-02-23"
                                     calendar="gregorian">February 23, 1970</date>
                             </dateline>
@@ -3909,8 +3909,8 @@
                             <head>Information Memorandum to the Acting Secretary of the National
                                 Security Council </head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1970-02-14"
-                                        >February 14, 1970</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-02-14">February 14, 1970</date></dateline>
                             </opener>
                             <pb n="2" xml:id="d7-02" facs="d7-02"/>
                             <p>SUBJECT: Possible Consequences in North Africa of U.S. Response to
@@ -4026,7 +4026,7 @@
                                 stability.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-03-12"
                                     calendar="gregorian">March 12, 1970</date>
                             </dateline>
@@ -4888,7 +4888,7 @@
                                 then put forth a strategy for protecting those interests.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-04-17"
                                     calendar="gregorian">April 17, 1970</date>
                             </dateline>
@@ -5302,7 +5302,7 @@
                                 interests.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-05-11"
                                     calendar="gregorian">May 11, 1970</date>
                             </dateline>
@@ -5397,7 +5397,7 @@
                                 which U.S. policymakers viewed with ambivalence.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-06-12"
                                     calendar="gregorian">June 12, 1970</date>
                             </dateline>
@@ -5523,7 +5523,7 @@
                         </head>
                         <pb n="1" xml:id="d12-01" facs="d12-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-12-09"
                                     calendar="gregorian">December 9, 1971</date>
                             </dateline>
@@ -5643,8 +5643,8 @@
                                 nearly even.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Algiers</placeName>, <date when="1969-04-07"
-                                    calendar="gregorian">April 7, 1969</date>
+                            <dateline rendition="#right"><placeName>Algiers</placeName>, <date
+                                    when="1969-04-07" calendar="gregorian">April 7, 1969</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -5726,8 +5726,8 @@
                                 Algerian Government.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Algiers</placeName>, <date when="1969-04-14"
-                                    calendar="gregorian">April 14, 1969</date>
+                            <dateline rendition="#right"><placeName>Algiers</placeName>, <date
+                                    when="1969-04-14" calendar="gregorian">April 14, 1969</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -5850,7 +5850,7 @@
                                 favor of closer relations with Moscow.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-08-19"
                                     calendar="gregorian">August 19, 1969</date>
                             </dateline>
@@ -6271,7 +6271,7 @@
                                 new economic programs would follow.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-10-15T19:01:00-05:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">October
                                     15, 1969, 1901Z</date>
@@ -6417,7 +6417,7 @@
                                 Middle East.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>New York</placeName>, <date when="1969-10-20"
                                     type="conversation-or-meeting-date" calendar="gregorian">October
                                     20, 1969</date>
@@ -6630,7 +6630,7 @@
                                 economic and financial situation in order.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-27"
                                     calendar="gregorian">October 27, 1969</date>
                             </dateline>
@@ -6652,8 +6652,8 @@
                             <note rend="inline" type="source">Enclosure:</note>
                             <head>Memorandum Prepared in the Department of State</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1969-10-24"
-                                        >October 24, 1969</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1969-10-24">October 24, 1969</date></dateline>
                             </opener>
                             <pb n="2" xml:id="d18-02" facs="d18-02"/>
                             <list type="subject">
@@ -6744,7 +6744,7 @@
                                 hoped to extend economic ties with the United States.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Algiers</placeName>, <date
+                            <dateline rendition="#right"><placeName>Algiers</placeName>, <date
                                     when="1970-02-05T18:30:00+00:00" calendar="gregorian">February
                                     5, 1970, 1830Z</date>
                             </dateline>
@@ -6981,7 +6981,7 @@
                                 Israel’s expansionism.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Addis Ababa</placeName>, <date
+                            <dateline rendition="#right"><placeName>Addis Ababa</placeName>, <date
                                     when="1970-02-11T21:30:00+00:00" calendar="gregorian">February
                                     11, 1970, 2130Z</date>
                             </dateline>
@@ -7093,7 +7093,7 @@
                                 and American individuals and corporations.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1970-04-30T01:38:00+00:00" calendar="gregorian">April 30,
                                     1970, 0138Z</date>
                             </dateline>
@@ -7218,7 +7218,7 @@
                                 in more depth.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-10-14"
                                     calendar="gregorian">October 14, 1970</date>
                             </dateline>
@@ -7362,7 +7362,7 @@
                                 differences.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1970-12-17T00:12:00+00:00" calendar="gregorian">December
                                     17, 1970, 0012Z</date>
                             </dateline>
@@ -7496,7 +7496,7 @@
                                 liquefied natural gas.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1971-04-07T19:55:00+00:00" calendar="gregorian">April 7,
                                     1971, 1955Z</date>
                             </dateline>
@@ -7652,7 +7652,7 @@
                                     >NSC</gloss> Interdepartmental Group for Africa.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1971-06-16T11:23:00-05:00" calendar="gregorian">June 16,
                                     1971, 11:23 a.m.</date>
                             </dateline>
@@ -7683,8 +7683,8 @@
                             <pb n="2" xml:id="d25-02" facs="d25-02"/>
                             <head>Policy Planning Paper</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1971-06"
-                                        >June 1971</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1971-06">June 1971</date></dateline>
                             </opener>
                             <p rend="center">
                                 <hi rend="underline">ALGERIA:</hi> Policy Planning Paper</p>
@@ -7847,8 +7847,8 @@
                                 property.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1971-07-13"
-                                    calendar="gregorian">July 13, 1971</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-07-13" calendar="gregorian">July 13, 1971</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -7871,8 +7871,8 @@
                                 Affairs (<persName corresp="#p_KHA1" type="from"
                                     >Kissinger</persName>) to President Nixon</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -8011,7 +8011,7 @@
                                 projects the Government had undertaken.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-07-31"
                                     calendar="gregorian">July 31, 1971</date>
                             </dateline>
@@ -8941,7 +8941,7 @@
                                 Algeria.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Algiers</placeName>, <date
+                            <dateline rendition="#right"><placeName>Algiers</placeName>, <date
                                     when="1972-01-21T14:20:00+00:00" calendar="gregorian">January
                                     21, 1972, 1420Z</date>
                             </dateline>
@@ -9049,7 +9049,7 @@
                                 to Algeria.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-03-01"
                                     ana="#date_undated-inferred-from-document-content"
                                     calendar="gregorian">undated</date></dateline>
@@ -9142,7 +9142,7 @@
                                     corresp="#p_NDD1">David Newsom</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-03-11"
                                     calendar="gregorian">March 11, 1972</date>
                             </dateline>
@@ -9186,8 +9186,8 @@
                             <head>Letter From President Nixon to Algerian President
                                 Boumediene</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1972-03-13"
-                                        >March 13, 1972</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1972-03-13">March 13, 1972</date></dateline>
                             </opener>
                             <pb n="2" xml:id="d30-02" facs="d30-02"/>
                             <p>Dear Mr. President:</p>
@@ -9246,7 +9246,7 @@
                                 resumed.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Algiers</placeName>, <date
+                            <dateline rendition="#right"><placeName>Algiers</placeName>, <date
                                     when="1972-03-28T13:33:00+00:00" calendar="gregorian">March 28,
                                     1972, 1333Z</date>
                             </dateline>
@@ -9449,7 +9449,7 @@
                                 announcement.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Algiers</placeName>, <date
+                            <dateline rendition="#right"><placeName>Algiers</placeName>, <date
                                     when="1972-07-02T12:45:00+00:00" calendar="gregorian">July 2,
                                     1972, 1245Z</date>
                             </dateline>
@@ -9549,7 +9549,7 @@
                                 Panthers, who had been paid a million-dollar ransom.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-07-31"
                                     type="conversation-or-meeting-date" calendar="gregorian">July
                                     31, 1972</date>
@@ -9775,7 +9775,7 @@
                                 and hijacking.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1972-10-14T19:33:00+00:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">October
                                     14, 1972, 1933Z</date>
@@ -9951,7 +9951,7 @@
                                 hijacking, the Middle East, Vietnam, and the El Paso deal.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1972-10-20T15:00:00-04:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">October
                                     20, 1972, 3 p.m.</date>
@@ -10163,7 +10163,7 @@
                                 maintaining a positive relationship with the new Prince.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Tripoli</placeName>, <date when="1969-03-27"
                                     calendar="gregorian">March 27, 1969</date>
                             </dateline>
@@ -10248,7 +10248,7 @@
                                 possible U.S. strategies in dealing with the new government.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-09-02"
                                     calendar="gregorian">September 2, 1969</date>
                             </dateline>
@@ -10332,7 +10332,7 @@
                                 British.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-09-04"
                                     calendar="gregorian">September 4, 1969</date>
                             </dateline>
@@ -10419,7 +10419,7 @@
                                 larger Arab world.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-09-16"
                                     calendar="gregorian">September 16, 1969</date>
                             </dateline>
@@ -10634,7 +10634,7 @@
                                 reaction to the Libyan coup.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-09-17T21:04:00+00:00" calendar="gregorian">September
                                     17, 1969, 2104Z</date>
                             </dateline>
@@ -10737,7 +10737,7 @@
                                 information.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-01"
                                     calendar="gregorian">October 1, 1969</date>
                             </dateline>
@@ -10772,7 +10772,7 @@
                                 terminate the American presence at Wheelus.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Benghazi</placeName>, <date
+                            <dateline rendition="#right"><placeName>Benghazi</placeName>, <date
                                     when="1969-10-30T17:50:00+00:00" calendar="gregorian">October
                                     30, 1969, 1750Z</date>
                             </dateline>
@@ -10864,7 +10864,7 @@
                                 that training could meanwhile resume.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-11-17"
                                     calendar="gregorian">November 17, 1969</date>
                             </dateline>
@@ -10933,7 +10933,7 @@
                                 and analyzes options both for and against those strategies.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-11-20"
                                     calendar="gregorian">November 20, 1969</date>
                             </dateline>
@@ -11097,8 +11097,8 @@
                             <note rend="inline" type="source">Attachment</note>
                             <head>Paper Prepared in the National Security Council</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1969-11-10"
-                                        >November 10, 1969</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1969-11-10">November 10, 1969</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>Subject:</head>
@@ -11507,7 +11507,7 @@
                                 at Wheelus, and possible covert intervention.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     from="1969-11-24T15:03:00-05:00" to="1969-11-24T17:18:00-05:00"
                                     calendar="gregorian">November 24, 1969, 3:03–5:18 p.m.</date>
@@ -11985,7 +11985,7 @@
                                 coup leaders had help from Washington and London.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Tripoli</placeName>, <date
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
                                     when="1969-12-11T10:10:00+00:00" calendar="gregorian">December
                                     11, 1969, 1010Z</date>
                             </dateline>
@@ -12117,7 +12117,7 @@
                                 Defense.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-12-11"
                                     calendar="gregorian">December 11, 1969</date>
                             </dateline>
@@ -12159,8 +12159,8 @@
                                 the President’s Assistant for National Security Affairs (<persName
                                     corresp="#p_KHA1" type="to">Kissinger</persName>)</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1969-12-11"
-                                        >December 11, 1969</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1969-12-11">December 11, 1969</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>Subject:</head>
@@ -12188,7 +12188,7 @@
                                 <head>Draft Telegram From the Department of State to the Embassy in
                                     Libya</head>
                                 <opener>
-                                    <dateline><placeName>Washington</placeName>,
+                                    <dateline rendition="#right"><placeName>Washington</placeName>,
                                             <date>undated</date></dateline>
                                 </opener>
                                 <pb n="3" xml:id="d47-03" facs="d47-03"/>
@@ -12365,7 +12365,7 @@
                                 one of the coup plotters should be exposed.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Tripoli</placeName>, <date
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
                                     when="1969-12-13T13:55:00+00:00" calendar="gregorian">December
                                     13, 1969, 1355Z</date>
                             </dateline>
@@ -12467,7 +12467,7 @@
                                 at a time when ties were growing between Libya and Egypt.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-12-23"
                                     calendar="gregorian">December 23, 1969</date>
                             </dateline>
@@ -12548,7 +12548,7 @@
                                 Arab-Israeli “matters.”</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-12-30"
                                     calendar="gregorian">December 30, 1969</date>
                             </dateline>
@@ -13064,7 +13064,7 @@
                                 contention.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Tripoli</placeName>, <date
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
                                     when="1970-01-26T13:46:00+00:00" calendar="gregorian">January
                                     26, 1970, 1346Z</date>
                             </dateline>
@@ -13296,7 +13296,7 @@
                                 possible future instability in the region.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-02-12"
                                     ana="#date_undated-inferred-from-document-content"
                                     calendar="gregorian">undated</date></dateline>
@@ -13383,7 +13383,7 @@
                                 leaders appeared to be moving.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-02-13"
                                     calendar="gregorian">February 13, 1970</date>
                             </dateline>
@@ -13595,8 +13595,8 @@
                                 minimize those policies inimical to them.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1970-03-20"
-                                    calendar="gregorian">March 20, 1970</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1970-03-20" calendar="gregorian">March 20, 1970</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -13675,7 +13675,7 @@
                                 off.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Tripoli</placeName>, <date
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
                                     when="1970-04-13T14:28:00+00:00" calendar="gregorian">April 13,
                                     1970, 1428Z</date>
                             </dateline>
@@ -13812,7 +13812,7 @@
                                 the group concluded it would be best to defer delivery.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-04-16"
                                     calendar="gregorian">April 16, 1970</date>
                             </dateline>
@@ -13917,7 +13917,7 @@
                                 pilots for F–5 training.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1970-05-09T17:48:00+00:00" calendar="gregorian">May 9,
                                     1970, 1748Z</date>
                             </dateline>
@@ -14090,7 +14090,7 @@
                                 as a whole was unlikely.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-05-27"
                                     calendar="gregorian">May 27, 1970</date>
                             </dateline>
@@ -14198,7 +14198,7 @@
                                 use of the Wheelus base.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-06-02"
                                     calendar="gregorian">June 2, 1970</date>
                             </dateline>
@@ -14307,7 +14307,7 @@
                                 commander had turned over the base to the Libyan Air Force.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-06-12"
                                     calendar="gregorian">June 12, 1970</date>
                             </dateline>
@@ -14327,8 +14327,8 @@
                             <head>Information Memorandum Prepared in the Bureau of African Affairs,
                                 Department of State, for Secretary of State Rogers</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -14402,7 +14402,7 @@
                                 admit to owing further payments for Wheelus.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-06-26"
                                     calendar="gregorian">June 26, 1970</date>
                             </dateline>
@@ -14458,7 +14458,7 @@
                                 force.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-07-02"
                                     calendar="gregorian">July 2, 1970</date>
                             </dateline>
@@ -14635,7 +14635,7 @@
                                 revolution.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-07-31"
                                     calendar="gregorian">July 31, 1970</date>
                             </dateline>
@@ -14893,7 +14893,7 @@
                                 Libya.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-08-05"
                                     calendar="gregorian">August 5, 1970</date>
                             </dateline>
@@ -14970,7 +14970,7 @@
                                     <persName corresp="#p_PJAII1">Joseph Palmer</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-08-12"
                                     calendar="gregorian">August 12, 1970</date>
                             </dateline>
@@ -15028,7 +15028,8 @@
                                 and examined certain aspects of Option 1A.</note>
                         </head>
                         <opener>
-                            <dateline>[<placeName>Washington</placeName>, <date when="1970-08-19"
+                            <dateline rendition="#right">[<placeName>Washington</placeName>, <date
+                                    when="1970-08-19"
                                     ana="#date_undated-inferred-from-document-head"
                                     calendar="gregorian">August 19, 1970</date>]</dateline>
                         </opener>
@@ -15171,7 +15172,8 @@
                             <note rend="inline" type="source">Attachment</note>
                             <head>Status Report</head>
                             <opener>
-                                <dateline><date when="1970-07-07">July 7, 1970</date></dateline>
+                                <dateline rendition="#right"><date when="1970-07-07">July 7,
+                                        1970</date></dateline>
                             </opener>
                             <pb n="4" xml:id="d66-04" facs="d66-04"/>
                             <list type="subject">
@@ -15258,7 +15260,7 @@
                                 Palmer</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-08-20"
                                     calendar="gregorian">August 20, 1970</date>
                             </dateline>
@@ -15281,8 +15283,8 @@
                                     (<persName corresp="#p_KTH1" type="to"
                                 >Karamessines</persName>)</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -15417,7 +15419,7 @@
                                 exiles to release Idriss loyalists from prison.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-08-28"
                                     calendar="gregorian">August 28, 1970</date>
                             </dateline>
@@ -15473,7 +15475,7 @@
                                 Libya.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-12-31"
                                     calendar="gregorian">December 31, 1970</date>
                             </dateline>
@@ -15502,8 +15504,8 @@
                             <head>Action Memorandum From the Assistant Secretary of State for
                                 African Affairs (Newsom) to Secretary of State Rogers</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1970-12-04"
-                                        >December 4, 1970</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-12-04">December 4, 1970</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -15672,7 +15674,7 @@
                                 approaching.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-02-23"
                                     calendar="gregorian">February 23, 1971</date>
                             </dateline>
@@ -15794,7 +15796,7 @@
                                 Arab-Israel dispute.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Tripoli</placeName>, <date
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
                                     when="1971-02-24T11:47:00+00:00" calendar="gregorian">February
                                     24, 1971, 1147Z</date>
                             </dateline>
@@ -16053,7 +16055,7 @@
                                 be unfriendly no matter what Washington did.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-03-18"
                                     calendar="gregorian">March 18, 1971</date>
                             </dateline>
@@ -16093,8 +16095,8 @@
                                 to the President’s Assistant for National Security Affairs
                                     (<persName corresp="#p_KHA1">Kissinger</persName>)</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1971-03-19"
-                                        >March 19, 1971</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1971-03-19">March 19, 1971</date></dateline>
                             </opener>
                             <p>HAK:<lb/>I sympathize with Hal’s view but (1) the F–5’s can’t do any
                                 significant harm in the Arab-Israeli contest, (2) if we don’t sell
@@ -16126,7 +16128,7 @@
                                 on the oil negotiations with Libya.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-03-27"
                                     calendar="gregorian">March 27, 1971</date>
                             </dateline>
@@ -16186,7 +16188,7 @@
                                 affairs.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-04-30"
                                     calendar="gregorian">April 30, 1971</date>
                             </dateline>
@@ -17102,7 +17104,7 @@
                                 delivered.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-05-08"
                                     calendar="gregorian">May 8, 1971</date>
                             </dateline>
@@ -17192,7 +17194,7 @@
                                 internal plot against the Libyan regime.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-05-17"
                                     calendar="gregorian">May 17, 1971</date>
                             </dateline>
@@ -17277,7 +17279,7 @@
                                 developments.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-05-17"
                                     calendar="gregorian">May 17, 1971</date>
                             </dateline>
@@ -17566,7 +17568,7 @@
                             <note rend="inline" type="source">Attachment</note>
                             <head>Memorandum</head>
                             <opener>
-                                <dateline><date>January 1971</date></dateline>
+                                <dateline rendition="#right"><date>January 1971</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -17636,8 +17638,8 @@
                                 Africa.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1971-06-16"
-                                    calendar="gregorian">June 16, 1971</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-06-16" calendar="gregorian">June 16, 1971</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -17939,8 +17941,8 @@
                                 States allow a Spanish firm to sell F–5Bs to Libya.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1971-12-02"
-                                    calendar="gregorian">December 2, 1971</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-12-02" calendar="gregorian">December 2, 1971</date>
                             </dateline>
                         </opener>
                         <p>Dear Bill:</p>
@@ -18005,7 +18007,7 @@
                                 Petroleum, which shared a concession with an American firm.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-12-07"
                                     calendar="gregorian">December 7, 1971</date>
                             </dateline>
@@ -18070,7 +18072,7 @@
                                 permitting a Spanish firm to sell F–5Bs to Libya.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-12-15"
                                     calendar="gregorian">December 15, 1971</date>
                             </dateline>
@@ -18152,7 +18154,7 @@
                                 former British Petroleum concession.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>
+                            <dateline rendition="#right"><placeName>Washington</placeName>
                                 <date when="1971-12-18" calendar="gregorian">December 18,
                                     1971</date>
                             </dateline>
@@ -18259,7 +18261,7 @@
                                 U.S. postponement of a decision on military sales to Libya.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Tripoli</placeName>, <date when="1971-12-22"
                                     calendar="gregorian">December 22, 1971</date>
                             </dateline>
@@ -18457,7 +18459,7 @@
                                 of a decision would not.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-01-07"
                                     calendar="gregorian">January 7, 1972</date>
                             </dateline>
@@ -18559,7 +18561,7 @@
                                 Islam.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-02-03"
                                     calendar="gregorian">February 3, 1972</date>
                             </dateline>
@@ -18622,7 +18624,7 @@
                                 regime.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-02-08"
                                     calendar="gregorian">February 8, 1972</date>
                             </dateline>
@@ -18671,7 +18673,7 @@
                                 Libya.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-03-01"
                                     calendar="gregorian">March 1, 1972</date>
                             </dateline>
@@ -18746,7 +18748,7 @@
                                 sales to Libya.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-04-07"
                                     calendar="gregorian">April 7, 1972</date>
                             </dateline>
@@ -18797,7 +18799,7 @@
                                 to fourteen from thirty-five.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-05-31"
                                     calendar="gregorian">May 31, 1972</date>
                             </dateline>
@@ -18851,7 +18853,7 @@
                                 protect American oil investments.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-07-28"
                                     calendar="gregorian">July 28, 1972</date>
                             </dateline>
@@ -18884,8 +18886,8 @@
                             <head>Memorandum From Secretary of State Rogers to President
                                 Nixon</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>Subject:</head>
@@ -19134,7 +19136,7 @@
                                 which remained a major irritant in U.S.-Libyan relations.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-08-09"
                                     calendar="gregorian">August 9, 1972</date>
                             </dateline>
@@ -19251,7 +19253,7 @@
                                 there should be no change in U.S. arms policy towards Libya.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-09-01"
                                     calendar="gregorian">September 1, 1972</date>
                             </dateline>
@@ -19329,7 +19331,7 @@
                                 aircraft.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1972-10-17T21:14:00+00:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">October
                                     17, 1972, 2114Z</date>
@@ -19509,7 +19511,7 @@
                                 President.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Tripoli</placeName>, <date
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
                                     when="1972-10-30T16:00:00+00:00" calendar="gregorian">October
                                     30, 1972, 1600Z</date>
                             </dateline>
@@ -19829,7 +19831,7 @@
                                 its policy of support for Israel.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Tripoli</placeName>, <date
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
                                     when="1972-12-07T14:56:00+00:00" calendar="gregorian">December
                                     7, 1972, 1456Z</date>
                             </dateline>
@@ -19977,7 +19979,7 @@
                                 Tripoli’s doubts over the benefits of terrorist tactics.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-12-13"
                                     calendar="gregorian">December 13, 1972</date>
                             </dateline>
@@ -20014,8 +20016,8 @@
                             <head>Airgram A–176 From the Embassy in Libya to the Department of
                                 State</head>
                             <opener>
-                                <dateline><placeName>Tripoli</placeName>, <date when="1972-11-23"
-                                        >November 23, 1972</date></dateline>
+                                <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
+                                        when="1972-11-23">November 23, 1972</date></dateline>
                             </opener>
                             <pb n="2" xml:id="d96-02" facs="d96-02"/>
                             <p>DEPT PASS: Other Interested Posts</p>
@@ -20188,8 +20190,8 @@
                                 >GOM</gloss>.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Rabat</placeName>, <date when="1969-02-17"
-                                    calendar="gregorian">February 17, 1969</date>
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
+                                    when="1969-02-17" calendar="gregorian">February 17, 1969</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -20631,7 +20633,7 @@
                                 damage confidence between Washington and Rabat.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Rabat</placeName>, <date
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
                                     when="1969-05-18T16:26:00+00:00" calendar="gregorian">May 18,
                                     1969, 1626Z</date>
                             </dateline>
@@ -20774,7 +20776,7 @@
                                 Mediterranean.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-10-07T11:30:00-04:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">October
@@ -20882,7 +20884,7 @@
                                 posed by the new radical regime in Libya.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-07"
                                     calendar="gregorian">January 7, 1970</date>
                             </dateline>
@@ -20966,7 +20968,7 @@
                                 especially, peace in the Middle East.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Tunis</placeName>, <date
+                            <dateline rendition="#right"><placeName>Tunis</placeName>, <date
                                     when="1970-02-10T15:45:00+00:00" calendar="gregorian">February
                                     10, 1970, 1545Z</date>
                             </dateline>
@@ -21154,7 +21156,7 @@
                                 especially, peace in the Middle East.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Tunis</placeName>, <date
+                            <dateline rendition="#right"><placeName>Tunis</placeName>, <date
                                     when="1970-02-10T21:05:00+00:00" calendar="gregorian">February
                                     10, 1970, 2105Z</date>
                             </dateline>
@@ -21287,7 +21289,7 @@
                         </head>
                         <pb n="1" xml:id="d103-01" facs="d103-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1970-02-28T00:17:00+00:00" calendar="gregorian">February
                                     28, 1970, 0017Z</date>
                             </dateline>
@@ -21350,7 +21352,7 @@
                                 settlement.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-06-03"
                                     calendar="gregorian">June 3, 1970</date>
                             </dateline>
@@ -21518,7 +21520,7 @@
                                     <persName corresp="#p_NRM1">Nixon</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-06-08"
                                     calendar="gregorian">June 8, 1970</date>
                             </dateline>
@@ -21540,8 +21542,8 @@
                             <head>Draft Telegram From the Department of State to the Embassy in
                                 Morocco</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1970-06-05"
-                                        >June 5, 1970</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-06-05">June 5, 1970</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJ:</head>
@@ -21625,7 +21627,7 @@
                                 allow elections to a new unicameral parliament.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-07-14"
                                     calendar="gregorian">July 14, 1970</date>
                             </dateline>
@@ -21754,7 +21756,7 @@
                                 political and economic advantage.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-11-03"
                                     calendar="gregorian">November 3, 1970</date>
                             </dateline>
@@ -21929,7 +21931,7 @@
                                 usage.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Rabat</placeName>, <date
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
                                     when="1970-11-04T17:55:00+00:00" calendar="gregorian">November
                                     4, 1970, 1755Z</date>
                             </dateline>
@@ -22093,7 +22095,7 @@
                                     target="#t_GOM1">GOM</gloss>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-11-30"
                                     calendar="gregorian">November 30, 1970</date>
                             </dateline>
@@ -22179,7 +22181,7 @@
                                 desire for additional U.S. aid.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-01-25"
                                     calendar="gregorian">January 25, 1971</date>
                             </dateline>
@@ -22291,7 +22293,7 @@
                                 manageable, but it hoped to avoid a quid pro quo.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1971-03-27T20:34:00+00:00" calendar="gregorian">March 27,
                                     1971, 2034Z</date>
                             </dateline>
@@ -22518,7 +22520,7 @@
                                     <persName corresp="#p_HII1">Hassan</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-03-29"
                                     calendar="gregorian">March 29, 1971</date>
                             </dateline>
@@ -22666,7 +22668,7 @@
                                 Summit.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1971-04-15T11:00:00-05:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">April
@@ -22757,8 +22759,8 @@
                                 overcommitted and that radical change was inevitable.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Rabat</placeName>, <date when="1971-06-09"
-                                    calendar="gregorian">June 9, 1971</date>
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
+                                    when="1971-06-09" calendar="gregorian">June 9, 1971</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -22931,8 +22933,8 @@
                                 years.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1971-06-16"
-                                    calendar="gregorian">June 16, 1971</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-06-16" calendar="gregorian">June 16, 1971</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -22960,8 +22962,8 @@
                             <note rend="inline" type="source">Enclosure</note>
                             <head>Policy Planning Paper</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date>June
-                                    1971</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>June 1971</date></dateline>
                             </opener>
                             <p>MOROCCO: Policy Planning Paper</p>
                             <pb n="2" xml:id="d115-02" facs="d115-02"/>
@@ -23192,8 +23194,8 @@
                         </head>
                         <pb n="1" xml:id="d116-01" facs="d116-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1971-07-16"
-                                    calendar="gregorian">July 10, 1971</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-07-16" calendar="gregorian">July 10, 1971</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -23254,7 +23256,7 @@
                                 restoring order.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-07-11"
                                     calendar="gregorian">July 11, 1971</date>
                             </dateline>
@@ -23339,7 +23341,7 @@
                                 jeopardy from civilian and military discontent.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-07-15"
                                     calendar="gregorian">July 15, 1971</date>
                             </dateline>
@@ -23469,7 +23471,7 @@
                                 looked dim.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Rabat</placeName>, <date
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
                                     when="1971-07-23T11:15:00+00:00" calendar="gregorian">July 23,
                                     1971, 1115Z</date>
                             </dateline>
@@ -23683,7 +23685,7 @@
                                 to King <persName corresp="#p_HII1">Hassan</persName>.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1971-07-23T22:59:00+00:00" calendar="gregorian">July 23,
                                     1971, 2259Z</date>
                             </dateline>
@@ -23732,7 +23734,7 @@
                                 promote closer cooperation and coordination with Washington.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Rabat</placeName>, <date
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
                                     when="1971-08-19T16:05:00+00:00" calendar="gregorian">August 19,
                                     1971, 1605Z</date>
                             </dateline>
@@ -23920,7 +23922,7 @@
                                 stability.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1971-09-29T10:00:00-04:00"
                                     type="conversation-or-meeting-date" calendar="gregorian"
@@ -24096,7 +24098,7 @@
                                 systems, civic action, and increased advisory effort.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1971-10-12T15:49:00+00:00" calendar="gregorian">October
                                     12, 1971, 1549Z</date>
                             </dateline>
@@ -24231,7 +24233,7 @@
                                 question” which would require a two-thirds majority vote.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     from="1971-10-23T11:59:00-04:00" to="1971-10-23T12:08:00-04:00"
                                     calendar="gregorian">October 23, 1971, 11:59 a.m.–12:08
                                     p.m.</date>
@@ -24314,7 +24316,7 @@
                                 radicalize the political scene.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-06-15"
                                     calendar="gregorian">June 15, 1972</date>
                             </dateline>
@@ -24967,7 +24969,7 @@
                                 >Hassan</persName>.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Rabat</placeName>, <date
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
                                     when="1972-08-17T00:20:00+00:00" calendar="gregorian">August 17,
                                     1972, 0020Z</date>
                             </dateline>
@@ -25046,7 +25048,7 @@
                                 opposition.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-08-17"
                                     calendar="gregorian">August 17, 1972</date>
                             </dateline>
@@ -25157,7 +25159,7 @@
                                 military dependence on the communications facilities there.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-08-29"
                                     calendar="gregorian">August 29, 1972</date>
                             </dateline>
@@ -25206,8 +25208,8 @@
                             <head>Memorandum to Secretary of Defense <persName corresp="#p_LMR1"
                                     >Laird</persName></head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -25364,7 +25366,7 @@
                                 assassination attempt and presented 3 options for the future.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-09-05"
                                     calendar="gregorian">September 5, 1972</date>
                             </dateline>
@@ -25455,7 +25457,7 @@
                                 future plans for restoring order.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Rabat</placeName>, <date
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
                                     when="1972-09-08T16:00:00+00:00" calendar="gregorian">September
                                     8, 1972, 1600Z</date>
                             </dateline>
@@ -25690,8 +25692,8 @@
                                 succeed.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1972-09-14"
-                                    calendar="gregorian">September 14, 1972</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1972-09-14" calendar="gregorian">September 14, 1972</date>
                             </dateline>
                         </opener>
                         <pb n="2" xml:id="d131-02" facs="d131-02"/>
@@ -26147,7 +26149,7 @@
                                 options for protecting them.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-09-14"
                                     calendar="gregorian">September 14, 1972</date>
                             </dateline>
@@ -26215,7 +26217,7 @@
                                 order to placate the Moroccan opposition.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>New York</placeName>, <date
+                            <dateline rendition="#right"><placeName>New York</placeName>, <date
                                     when="1972-10-12T17:44:00+00:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">October
                                     12, 1972, 1744Z</date>
@@ -26371,7 +26373,7 @@
                                 National Security Study Memorandum 160.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-11-28"
                                     calendar="gregorian">November 28, 1972</date>
                             </dateline>
@@ -26740,7 +26742,7 @@
                                 reduce its presence at Kenitra.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     from="1972-11-30T15:38:00-05:00" to="1972-11-30T15:55:00-05:00"
                                     calendar="gregorian">November 30, 1972, 3:38–3:55 p.m.</date>
@@ -26996,7 +26998,7 @@
                                 attempts against him.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-12-29"
                                     calendar="gregorian">December 29, 1972</date>
                             </dateline>
@@ -27140,7 +27142,7 @@
                                 Morocco.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1973-01-05"
                                     calendar="gregorian">January 5, 1973</date>
                             </dateline>
@@ -27206,7 +27208,7 @@
                                 region.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-03-20"
                                     calendar="gregorian">March 20, 1969</date>
                             </dateline>
@@ -27328,7 +27330,7 @@
                                 assistance.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-04-03T11:30:00-05:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">April
@@ -27535,7 +27537,7 @@
                                 effort was likely.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-04-23T23:13:00+00:00" calendar="gregorian">April 23,
                                     1969, 2313Z</date>
                             </dateline>
@@ -27718,7 +27720,7 @@
                                 disengagement.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-09-15T11:00:00-04:00"
                                     type="conversation-or-meeting-date" calendar="gregorian"
@@ -27923,7 +27925,7 @@
                                 currently under review, was likely to cause.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>New York</placeName>, <date
                                     when="1969-09-18T14:25:00-04:00"
                                     type="conversation-or-meeting-date" calendar="gregorian"
@@ -28092,7 +28094,7 @@
                                 and military assessment of the country.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-12-02T17:22:00-05:00" calendar="gregorian">December
                                     2, 1969, 5:22 p.m.</date>
                             </dateline>
@@ -28241,9 +28243,9 @@
                                 about the situations in the Middle East and Libya.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1970-02-13"
-                                    type="conversation-or-meeting-date" calendar="gregorian"
-                                    >February 13, 1970</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1970-02-13" type="conversation-or-meeting-date"
+                                    calendar="gregorian">February 13, 1970</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -28310,7 +28312,7 @@
                                 Third World countries.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-08-24"
                                     calendar="gregorian">August 24, 1970</date>
                             </dateline>
@@ -28331,8 +28333,8 @@
                             <head>Information Memorandum Prepared in the Bureau for African Affairs,
                                 Department of State</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -28410,7 +28412,7 @@
                                 Tunisian development and security.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-10-07"
                                     calendar="gregorian">October 7, 1970</date>
                             </dateline>
@@ -28486,8 +28488,8 @@
                                 development.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1970-10-29"
-                                    calendar="gregorian">October 29, 1970</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1970-10-29" calendar="gregorian">October 29, 1970</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -28614,7 +28616,7 @@
                                 achieving a Middle East settlement.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-10-29"
                                     type="conversation-or-meeting-date" calendar="gregorian">October
                                     29, 1970</date>
@@ -28735,7 +28737,7 @@
                                 Jan—. Secret</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1970-11-12T15:00:00-05:00"
                                     type="conversation-or-meeting-date" calendar="gregorian"
@@ -28770,7 +28772,7 @@
                                 potential requests to the U.S. Government for assistance.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Tunis</placeName>, <date
+                            <dateline rendition="#right"><placeName>Tunis</placeName>, <date
                                     when="1971-01-01T18:00:00+00:00" calendar="gregorian">January 1,
                                     1971, 1800Z</date>
                             </dateline>
@@ -28944,7 +28946,7 @@
                                 health.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Tunis</placeName>, <date
+                            <dateline rendition="#right"><placeName>Tunis</placeName>, <date
                                     when="1971-01-03T02:00:00+00:00" calendar="gregorian">January 3,
                                     1971, 0200Z</date>
                             </dateline>
@@ -29087,7 +29089,7 @@
                                 political scene.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-03-04"
                                     calendar="gregorian">March 4, 1971</date>
                             </dateline>
@@ -29195,7 +29197,7 @@
                                 1971.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-04-13"
                                     calendar="gregorian">April 13, 1971</date>
                             </dateline>
@@ -29274,8 +29276,8 @@
                                 future budgetary projections.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1971-06-22"
-                                    calendar="gregorian">June 22, 1971</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-06-22" calendar="gregorian">June 22, 1971</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -29301,8 +29303,8 @@
                             <note rend="inline" type="source">Enclosure</note>
                             <head>Policy Planning Paper for Tunisia</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date>June
-                                    1971</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>June 1971</date></dateline>
                             </opener>
                             <pb n="2" xml:id="d154-02" facs="d154-02"/>
                             <p rend="center">TUNISIA: Policy Planning Paper</p>
@@ -29542,7 +29544,7 @@
                                 United States would consent to any further assistance.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>New York</placeName>, <date
+                            <dateline rendition="#right"><placeName>New York</placeName>, <date
                                     when="1971-10-02T22:31:00+00:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">October
                                     2, 1971, 2231Z</date>
@@ -29659,7 +29661,7 @@
                                 successors.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-12-08"
                                     calendar="gregorian">December 8, 1971</date>
                             </dateline>
@@ -30216,7 +30218,7 @@
                                 were exaggerated.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-12-23"
                                     calendar="gregorian">December 23, 1971</date>
                             </dateline>
@@ -30362,7 +30364,7 @@
                                 the requested internal security assistance.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-02-17"
                                     type="conversation-or-meeting-date" calendar="gregorian"
                                     >February 17, 1972</date>
@@ -30473,7 +30475,7 @@
                                 request for internal security assistance.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-02-29"
                                     type="conversation-or-meeting-date" calendar="gregorian"
                                     >February 29, 1972</date>
@@ -30631,7 +30633,7 @@
                                 development assistance as resources allowed.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-03-14"
                                     calendar="gregorian">March 14, 1972</date>
                             </dateline>
@@ -30688,7 +30690,7 @@
                                 councils.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Tunis</placeName>, <date
+                            <dateline rendition="#right"><placeName>Tunis</placeName>, <date
                                     when="1972-04-24T10:15:00+00:00" calendar="gregorian">April 24,
                                     1972, 1015Z</date>
                             </dateline>
@@ -30891,7 +30893,7 @@
                                 position.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>New York</placeName>, <date
                                     when="1972-10-13T17:00:00-04:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">October
@@ -31001,7 +31003,7 @@
                                 letter by reassuring him of U.S. interest in Tunisia.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-12-11"
                                     calendar="gregorian">December 11, 1972</date>
                             </dateline>

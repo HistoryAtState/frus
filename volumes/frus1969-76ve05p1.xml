@@ -2312,7 +2312,7 @@
                         </head>
                         <pb n="1" xml:id="d1-01" facs="d1-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-03-13"
                                     calendar="gregorian">March 13, 1969</date>
                             </dateline>
@@ -2600,7 +2600,7 @@
                         </head>
                         <pb n="1" xml:id="d2-01" facs="d2-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-04-17T16:45:00-05:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">April
@@ -2697,7 +2697,7 @@
                         </head>
                         <pb n="1" xml:id="d3-01" facs="d3-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-04-23"
                                     calendar="gregorian">April 23, 1969</date>
                             </dateline>
@@ -2847,7 +2847,7 @@
                         </head>
                         <pb n="1" xml:id="d4-01" facs="d4-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-05-13"
                                     calendar="gregorian">May 13, 1969</date>
                             </dateline>
@@ -3006,7 +3006,7 @@
                         </head>
                         <pb n="1" xml:id="d5-01" facs="d5-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-06-20"
                                     calendar="gregorian">June 20, 1969</date>
                             </dateline>
@@ -3367,7 +3367,7 @@
                                 declassified.]</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-07-08"
                                     calendar="gregorian">July 8, 1969</date>
                             </dateline>
@@ -3389,7 +3389,7 @@
                         </head>
                         <pb n="1" xml:id="d7-01" facs="d7-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-02-18"
                                     calendar="gregorian">February 18, 1970</date>
                             </dateline>
@@ -3671,7 +3671,7 @@
                         </head>
                         <pb n="1" xml:id="d8-01" facs="d8-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-02-24"
                                     calendar="gregorian">February 24, 1970</date>
                             </dateline>
@@ -3757,8 +3757,8 @@
                         <frus:attachment>
                             <head>Tab B<lb/>Paper</head>
                             <opener>
-                                <dateline><date when="1970-02-25">February 25,
-                                    1970</date></dateline>
+                                <dateline rendition="#right"><date when="1970-02-25">February 25,
+                                        1970</date></dateline>
                             </opener>
                             <pb n="3" xml:id="d8-03" facs="d8-03"/>
                             <p rend="center">
@@ -3842,9 +3842,10 @@
                         </head>
                         <pb n="1" xml:id="d9-01" facs="d9-01"/>
                         <opener>
-                            <dateline><placeName>Abidjan, Ivory Coast</placeName>, <date
-                                    when="1970-02-24" type="conversation-or-meeting-date"
-                                    calendar="gregorian">February 24, 1970</date>
+                            <dateline rendition="#right"><placeName>Abidjan, Ivory
+                                Coast</placeName>, <date when="1970-02-24"
+                                    type="conversation-or-meeting-date" calendar="gregorian"
+                                    >February 24, 1970</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -4106,7 +4107,7 @@
                         </head>
                         <pb n="1" xml:id="d10-01" facs="d10-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-03-02"
                                     calendar="gregorian">March 2, 1970</date>
                             </dateline>
@@ -4216,7 +4217,7 @@
                                 classification marking.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-03-26"
                                     calendar="gregorian">March 26, 1970</date>
                             </dateline>
@@ -4262,8 +4263,8 @@
                         <frus:attachment>
                             <head>Enclosure<lb/>Policy Statement</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <p rend="center">
                                 <hi rend="underline">U.S. AND AFRICA IN THE 70ʼS</hi>
@@ -4872,7 +4873,7 @@
                         </head>
                         <pb n="1" xml:id="d12-01" facs="d12-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-03-26"
                                     calendar="gregorian">March 26, 1970</date>
                             </dateline>
@@ -4919,7 +4920,7 @@
                         </head>
                         <pb n="1" xml:id="d13-01" facs="d13-01"/>
                         <opener>
-                            <dateline><placeName>Belgrade</placeName>, <date
+                            <dateline rendition="#right"><placeName>Belgrade</placeName>, <date
                                     when="1970-10-04T06:00:00+00:00" calendar="gregorian">October 4,
                                     1970, 0600Z</date>
                             </dateline>
@@ -5070,7 +5071,7 @@
                         </head>
                         <pb n="1" xml:id="d14-01" facs="d14-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-02-25"
                                     calendar="gregorian">February 25, 1971</date>
                             </dateline>
@@ -5328,7 +5329,7 @@
                         </head>
                         <pb n="1" xml:id="d15-01" facs="d15-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-03-23"
                                     calendar="gregorian">March 23, 1971</date>
                             </dateline>
@@ -6293,7 +6294,7 @@
                         </head>
                         <pb n="1" xml:id="d16-01" facs="d16-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-06-18"
                                     type="conversation-or-meeting-date" calendar="gregorian">June
                                     18, 1971, 9:30 a.m.</date>
@@ -6560,7 +6561,7 @@
                         </head>
                         <pb n="1" xml:id="d17-01" facs="d17-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-10-07"
                                     calendar="gregorian">October 7, 1971</date>
                             </dateline>
@@ -7402,8 +7403,8 @@
                         </head>
                         <pb n="1" xml:id="d18-01" facs="d18-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1972-02-09"
-                                    calendar="gregorian">February 9, 1972</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1972-02-09" calendar="gregorian">February 9, 1972</date>
                             </dateline>
                         </opener>
                         <pb n="2" xml:id="d18-02" facs="d18-02"/>
@@ -7707,7 +7708,7 @@
                         </head>
                         <pb n="1" xml:id="d19-01" facs="d19-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1972-03-06"
                                     to="1972-03-07" type="conversation-or-meeting-date"
                                     calendar="gregorian">March 6–7, 1972</date>
@@ -7853,7 +7854,7 @@
                         </head>
                         <pb n="1" xml:id="d20-01" facs="d20-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1972-03-06"
                                     to="1972-03-07" type="conversation-or-meeting-date"
                                     calendar="gregorian">March 6–7, 1972</date>
@@ -8111,7 +8112,7 @@
                         </head>
                         <pb n="1" xml:id="d21-01" facs="d21-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Paris</placeName>, <date from="1972-05-02"
                                     to="1972-05-02" type="conversation-or-meeting-date"
                                     calendar="gregorian">May 2, 1972</date>
@@ -8385,7 +8386,7 @@
                         </head>
                         <pb n="1" xml:id="d22-01" facs="d22-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Paris</placeName>, <date when="1972-05-02"
                                     type="conversation-or-meeting-date" calendar="gregorian">May 2,
                                     1972</date>
@@ -8613,7 +8614,7 @@
                         </head>
                         <pb n="1" xml:id="d23-01" facs="d23-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-01-11T20:50:00+00:00" calendar="gregorian">January
                                     11, 1969, 2050Z</date>
                             </dateline>
@@ -8791,7 +8792,7 @@
                         </head>
                         <pb n="1" xml:id="d24-01" facs="d24-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-01-14T15:30:00+00:00" calendar="gregorian">January
                                     14, 1969, 1530Z</date>
                             </dateline>
@@ -8993,7 +8994,7 @@
                         </head>
                         <pb n="1" xml:id="d25-01" facs="d25-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-01-28"
                                     calendar="gregorian">January 28, 1969</date>
                             </dateline>
@@ -9299,8 +9300,8 @@
                         <frus:attachment>
                             <head> Tab A<lb/>Paper Prepared by the National Security Council Staff </head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <p rend="center">
                                 <hi rend="underline">BASIC REALITIES</hi>
@@ -9359,8 +9360,8 @@
                         <frus:attachment>
                             <head> Tab B<lb/>Paper Prepared by the National Security Council Staff </head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <p rend="center">
                                 <hi rend="underline">RELIEF OPTIONS</hi>
@@ -9552,7 +9553,7 @@
                         </head>
                         <pb n="1" xml:id="d26-01" facs="d26-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-01-28"
                                     calendar="gregorian">January 28, 1969</date>
                             </dateline>
@@ -9603,7 +9604,7 @@
                         </head>
                         <pb n="1" xml:id="d27-01" facs="d27-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-01-29"
                                     calendar="gregorian">January 29, 1969</date>
                             </dateline>
@@ -9843,7 +9844,7 @@
                         </head>
                         <pb n="1" xml:id="d28-01" facs="d28-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     notBefore="1969-01-29T00:00:00-05:00"
                                     notAfter="1969-02-03T15:11:00+00:00"
@@ -9977,7 +9978,7 @@
                         </head>
                         <pb n="1" xml:id="d29-01" facs="d29-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-02-03T15:11:00+00:00" calendar="gregorian">February
                                     3, 1969, 1511Z</date>
@@ -10058,7 +10059,7 @@
                         </head>
                         <pb n="1" xml:id="d30-01" facs="d30-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-04"
                                     calendar="gregorian">February 4, 1969</date>
                             </dateline>
@@ -10641,7 +10642,7 @@
                         </head>
                         <pb n="1" xml:id="d31-01" facs="d31-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-04"
                                     calendar="gregorian">February 4, 1969</date>
                             </dateline>
@@ -11543,7 +11544,7 @@
                         </head>
                         <pb n="1" xml:id="d32-01" facs="d32-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-06"
                                     calendar="gregorian">February 6, 1969</date>
                             </dateline>
@@ -11595,8 +11596,8 @@
                         <frus:attachment>
                             <head>Tab A<lb/>Talking Points</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1969-02-06"
-                                        >February 6, 1969</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1969-02-06">February 6, 1969</date></dateline>
                             </opener>
                             <pb n="2" xml:id="d32-02" facs="d32-02"/>
                             <list>
@@ -11727,7 +11728,7 @@
                         </head>
                         <pb n="1" xml:id="d33-01" facs="d33-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-07"
                                     calendar="gregorian">February 7, 1969</date>
                             </dateline>
@@ -11954,7 +11955,7 @@
                         </head>
                         <pb n="1" xml:id="d34-01" facs="d34-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-02-09T17:10:00+00:00" calendar="gregorian">February
                                     9, 1969, 1710Z</date>
                             </dateline>
@@ -12168,7 +12169,7 @@
                         </head>
                         <pb n="1" xml:id="d35-01" facs="d35-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-10"
                                     calendar="gregorian">February 10, 1969</date>
                             </dateline>
@@ -12480,8 +12481,8 @@
                         <frus:attachment>
                             <head>Appendix</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1969-02-10"
-                                        >February 10, 1969</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1969-02-10">February 10, 1969</date></dateline>
                             </opener>
                             <pb n="8" xml:id="d35-08" facs="d35-08"/>
                             <list type="subject">
@@ -12586,7 +12587,7 @@
                         </head>
                         <pb n="1" xml:id="d36-01" facs="d36-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-02-11T17:25:00-05:00"
                                     type="conversation-or-meeting-date" calendar="gregorian"
@@ -12637,7 +12638,7 @@
                         </head>
                         <pb n="1" xml:id="d37-01" facs="d37-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-02-12T01:01:00+00:00" calendar="gregorian">February
                                     12, 1969, 0101Z</date>
                             </dateline>
@@ -12725,7 +12726,7 @@
                         </head>
                         <pb n="1" xml:id="d38-01" facs="d38-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-12"
                                     calendar="gregorian">February 12, 1969</date>
                             </dateline>
@@ -12879,7 +12880,7 @@
                         </head>
                         <pb n="1" xml:id="d39-01" facs="d39-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-13"
                                     calendar="gregorian">February 13, 1969</date>
                             </dateline>
@@ -12921,8 +12922,8 @@
                         <frus:attachment>
                             <head>Attachment<lb/>Composite Statements</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <p>(17 July and 10 September 1968)</p>
                             <p rend="center">AFRICA</p>
@@ -12993,7 +12994,7 @@
                         </head>
                         <pb n="1" xml:id="d40-01" facs="d40-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-14"
                                     calendar="gregorian">February 14, 1969</date>
                             </dateline>
@@ -13060,7 +13061,7 @@
                         </head>
                         <pb n="1" xml:id="d41-01" facs="d41-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-14"
                                     calendar="gregorian">February 14, 1969</date>
                             </dateline>
@@ -13129,8 +13130,8 @@
                             <head>Attachment<lb/>Letter From Chairman of the Supreme Military
                                 Council of Nigeria Gowon to President Nixon</head>
                             <opener>
-                                <dateline><date when="1969-01-16">16th January,
-                                    1969</date></dateline>
+                                <dateline rendition="#right"><date when="1969-01-16">16th January,
+                                        1969</date></dateline>
                             </opener>
                             <p>Dear Mr. President,</p>
                             <p>I have great pleasure in conveying to you, Mr. President, my sincere
@@ -13199,7 +13200,7 @@
                         </head>
                         <pb n="1" xml:id="d42-01" facs="d42-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-14"
                                     calendar="gregorian">February 14, 1969</date>
                             </dateline>
@@ -13280,7 +13281,7 @@
                         </head>
                         <pb n="1" xml:id="d43-01" facs="d43-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-20"
                                     type="conversation-or-meeting-date" calendar="gregorian"
                                     >February 20, 1969, noon</date>
@@ -13312,7 +13313,7 @@
                         </head>
                         <pb n="1" xml:id="d44-01" facs="d44-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-21"
                                     calendar="gregorian">February 21, 1969</date>
                             </dateline>
@@ -13391,7 +13392,7 @@
                         </head>
                         <pb n="1" xml:id="d45-01" facs="d45-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-21"
                                     calendar="gregorian">February 21, 1969</date>
                             </dateline>
@@ -13458,8 +13459,8 @@
                             <head>Tab A<lb/>Letter From President Nixon to Chairman of the Supreme
                                 Military Council of Nigeria Gowon</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1969-02-22"
-                                        >February 22, 1969</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1969-02-22">February 22, 1969</date></dateline>
                             </opener>
                             <p>Dear General <persName corresp="#p_GGYJ1">Gowon</persName>:</p>
                             <p>I much appreciated your thoughtful letter on the occasion of my
@@ -13540,7 +13541,7 @@
                                 Nigerian victory as best suited to U.S. interests.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-02-22"
                                     calendar="gregorian">February 22, 1969</date>
                             </dateline>
@@ -13561,8 +13562,8 @@
                         <frus:attachment>
                             <head>Attachment<lb/>List of Actions</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <pb n="2" xml:id="d46-02" facs="d46-02"/>
                             <p rend="center">Actions Resulting from the National Security Council
@@ -13612,7 +13613,7 @@
                         </head>
                         <pb n="1" xml:id="d47-01" facs="d47-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>New York</placeName>, <date when="1969-02-26"
                                     calendar="gregorian">February 26, 1969</date>
                             </dateline>
@@ -13688,7 +13689,7 @@
                         </head>
                         <pb n="1" xml:id="d48-01" facs="d48-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Paris</placeName>, <date when="1969-03-01T10:00:00+01:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">March
                                     1, 1969, 10 a.m.</date>
@@ -14035,7 +14036,7 @@
                         </head>
                         <pb n="1" xml:id="d49-01" facs="d49-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-03-06T15:00:00+00:00" calendar="gregorian">March 6,
                                     1969, 1500Z</date>
                             </dateline>
@@ -14121,7 +14122,7 @@
                                 issuances.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-03-08T19:54:00+00:00" calendar="gregorian">March 8,
                                     1969, 1954Z</date>
                             </dateline>
@@ -14303,7 +14304,7 @@
                                 time for publication.]</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-03-20"
                                     calendar="gregorian">March 20, 1969</date>
                             </dateline>
@@ -14340,7 +14341,7 @@
                         </head>
                         <pb n="1" xml:id="d52-01" facs="d52-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-03-26T11:50:00+00:00" calendar="gregorian">March 26,
                                     1969, 1150Z</date>
                             </dateline>
@@ -14501,7 +14502,7 @@
                         </head>
                         <pb n="1" xml:id="d53-01" facs="d53-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-04-02"
                                     calendar="gregorian">April 2, 1969</date>
                             </dateline>
@@ -14731,7 +14732,7 @@
                         </head>
                         <pb n="1" xml:id="d54-01" facs="d54-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-04-08"
                                     calendar="gregorian">April 8, 1969</date>
                             </dateline>
@@ -14904,7 +14905,7 @@
                                 time for publication.]</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-04-09"
                                     calendar="gregorian">April 9, 1969</date>
                             </dateline>
@@ -14936,7 +14937,7 @@
                         </head>
                         <pb n="1" xml:id="d56-01" facs="d56-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-04-15"
                                     calendar="gregorian">April 15, 1969</date>
                             </dateline>
@@ -14959,7 +14960,7 @@
                             <note rend="inline" type="source">Enclosure</note>
                             <head>Conversation with Ambassador Ahoua of the Ivory Coast</head>
                             <opener>
-                                <dateline><date>undated</date></dateline>
+                                <dateline rendition="#right"><date>undated</date></dateline>
                             </opener>
                             <p>Mr. Ahoua came to see me at the request of President Houphouet-Boigny
                                 whom he saw a few days ago in Geneva. He wanted to bring me up to
@@ -15056,7 +15057,7 @@
                         </head>
                         <pb n="1" xml:id="d57-01" facs="d57-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-04-16T23:43:00+00:00" calendar="gregorian">April 16,
                                     1969, 2343Z</date>
                             </dateline>
@@ -15162,7 +15163,7 @@
                         </head>
                         <pb n="1" xml:id="d58-01" facs="d58-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-04-18"
                                     calendar="gregorian">April 18, 1969</date>
                             </dateline>
@@ -15237,7 +15238,7 @@
                         </head>
                         <pb n="1" xml:id="d59-01" facs="d59-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-04-21"
                                     type="conversation-or-meeting-date" calendar="gregorian">April
                                     21, 1969</date>
@@ -15353,7 +15354,7 @@
                         </head>
                         <pb n="1" xml:id="d60-01" facs="d60-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-04-24"
                                     calendar="gregorian">April 24, 1969</date>
                             </dateline>
@@ -15409,7 +15410,7 @@
                         </head>
                         <pb n="1" xml:id="d61-01" facs="d61-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-04-25T15:18:00+00:00" calendar="gregorian">April 25,
                                     1969, 1518Z</date>
                             </dateline>
@@ -15481,7 +15482,7 @@
                         </head>
                         <pb n="1" xml:id="d62-01" facs="d62-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-04-29T16:00:00-04:00" calendar="gregorian">April 29,
                                     1969, 4:00 p.m.</date>
                             </dateline>
@@ -15527,7 +15528,7 @@
                         </head>
                         <pb n="1" xml:id="d63-01" facs="d63-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-05-05"
                                     type="conversation-or-meeting-date" calendar="gregorian">May 5,
                                     1969</date>
@@ -15647,7 +15648,7 @@
                         </head>
                         <pb n="1" xml:id="d64-01" facs="d64-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-05-05T16:00:00+00:00" calendar="gregorian">May 5,
                                     1969, 1600Z</date>
                             </dateline>
@@ -15766,7 +15767,7 @@
                         </head>
                         <pb n="1" xml:id="d65-01" facs="d65-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-05-15"
                                     calendar="gregorian">May 15, 1969</date>
                             </dateline>
@@ -15931,7 +15932,7 @@
                         </head>
                         <pb n="1" xml:id="d66-01" facs="d66-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-05-15"
                                     calendar="gregorian">May 15, 1969</date>
                             </dateline>
@@ -16024,7 +16025,7 @@
                         </head>
                         <pb n="1" xml:id="d67-01" facs="d67-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-05-16"
                                     calendar="gregorian">May 16, 1969</date>
                             </dateline>
@@ -16084,7 +16085,7 @@
                         </head>
                         <pb n="1" xml:id="d68-01" facs="d68-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-05-26"
                                     calendar="gregorian">May 26, 1969</date>
                             </dateline>
@@ -16197,7 +16198,7 @@
                         </head>
                         <pb n="1" xml:id="d69-01" facs="d69-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-06-02"
                                     calendar="gregorian">June 2, 1969</date>
                             </dateline>
@@ -16285,7 +16286,7 @@
                         </head>
                         <pb n="1" xml:id="d70-01" facs="d70-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-06-04T15:40:00+00:00" calendar="gregorian">June 4,
                                     1969, 1540Z</date>
                             </dateline>
@@ -16338,7 +16339,7 @@
                         </head>
                         <pb n="1" xml:id="d71-01" facs="d71-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-06-06T16:00:00-04:00" calendar="gregorian">June 6,
                                     1969, 4 p.m.</date>
@@ -16397,7 +16398,7 @@
                                 flights and a land corridor.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-06-06"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                     calendar="gregorian">undated</date></dateline>
@@ -16481,7 +16482,7 @@
                         </head>
                         <pb n="1" xml:id="d73-01" facs="d73-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-07-07T20:29:00+00:00" calendar="gregorian">June 7,
                                     1969, 2029Z</date>
                             </dateline>
@@ -16566,7 +16567,7 @@
                         </head>
                         <pb n="1" xml:id="d74-01" facs="d74-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Geneva</placeName>, <date
                                     when="1969-06-09T15:34:00+00:00" calendar="gregorian">June 9,
                                     1969, 1534Z</date>
@@ -16736,7 +16737,7 @@
                         </head>
                         <pb n="1" xml:id="d75-01" facs="d75-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-06-10T15:25:00+00:00" calendar="gregorian">June 10,
                                     1969, 1525Z</date>
                             </dateline>
@@ -16830,7 +16831,7 @@
                         </head>
                         <pb n="1" xml:id="d76-01" facs="d76-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-06-11T16:29:00+00:00" calendar="gregorian">June 11,
                                     1969, 1629Z</date>
                             </dateline>
@@ -16973,7 +16974,7 @@
                         </head>
                         <pb n="1" xml:id="d77-01" facs="d77-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-06-13"
                                     calendar="gregorian">June 13, 1969</date>
                             </dateline>
@@ -17190,7 +17191,7 @@
                         </head>
                         <pb n="1" xml:id="d78-01" facs="d78-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-06-13T16:53:00+00:00" calendar="gregorian">June 13,
                                     1969, 1653Z</date>
                             </dateline>
@@ -17337,7 +17338,7 @@
                         </head>
                         <pb n="1" xml:id="d79-01" facs="d79-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-06-18T21:31:00+00:00" calendar="gregorian">June 18,
                                     1969, 2131Z</date>
                             </dateline>
@@ -17450,7 +17451,7 @@
                         </head>
                         <pb n="1" xml:id="d80-01" facs="d80-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-07-01"
                                     calendar="gregorian">July 1, 1969</date>
                             </dateline>
@@ -17541,7 +17542,7 @@
                         </head>
                         <pb n="1" xml:id="d81-01" facs="d81-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-07-02T23:16:00+00:00" calendar="gregorian">July 2,
                                     1969, 2316Z</date>
                             </dateline>
@@ -17701,7 +17702,7 @@
                         </head>
                         <pb n="1" xml:id="d82-01" facs="d82-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-07-07"
                                     calendar="gregorian">July 7, 1969</date>
                             </dateline>
@@ -17895,7 +17896,7 @@
                         </head>
                         <pb n="1" xml:id="d83-01" facs="d83-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-07-07T12:30:00+00:00" calendar="gregorian">July 7,
                                     1969, 1230Z</date>
                             </dateline>
@@ -18022,7 +18023,7 @@
                         </head>
                         <pb n="1" xml:id="d84-01" facs="d84-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-07-07"
                                     calendar="gregorian">July 71969</date>
                             </dateline>
@@ -18257,7 +18258,7 @@
                         </head>
                         <pb n="1" xml:id="d85-01" facs="d85-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-07-10T22:39:00+00:00" calendar="gregorian">July 10,
                                     1969, 2239Z</date>
                             </dateline>
@@ -18369,7 +18370,7 @@
                         </head>
                         <pb n="1" xml:id="d86-01" facs="d86-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-07-14"
                                     calendar="gregorian">July 14, 1969</date>
                             </dateline>
@@ -18425,7 +18426,7 @@
                         </head>
                         <pb n="1" xml:id="d87-01" facs="d87-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     ana="#date_apparent-typo-based-on-document-content"
                                     when="1969-07-15T03:17:00+00:00" calendar="gregorian">July 15,
                                     1969, 0317Z</date>
@@ -18502,7 +18503,7 @@
                         </head>
                         <pb n="1" xml:id="d88-01" facs="d88-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-07-15T03:21:00+00:00" calendar="gregorian">July 15,
                                     1969, 0321Z</date>
                             </dateline>
@@ -18596,7 +18597,7 @@
                         </head>
                         <pb n="1" xml:id="d89-01" facs="d89-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-07-15T03:13:00+00:00" calendar="gregorian">July 15,
                                     1969, 0313Z</date>
                             </dateline>
@@ -18675,7 +18676,7 @@
                         </head>
                         <pb n="1" xml:id="d90-01" facs="d90-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-07-18T22:15:00-05:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">July
@@ -18734,7 +18735,7 @@
                         </head>
                         <pb n="1" xml:id="d91-01" facs="d91-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Geneva</placeName>, <date
                                     when="1969-07-23T17:50:00+00:00" calendar="gregorian">July 23,
                                     1969,1750Z</date>
@@ -18834,7 +18835,7 @@
                         </head>
                         <pb n="1" xml:id="d92-01" facs="d92-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-07-31T17:00:00-04:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">July
@@ -19074,7 +19075,7 @@
                         </head>
                         <pb n="1" xml:id="d93-01" facs="d93-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-08-01T17:30:00-04:00" calendar="gregorian">August 1,
                                     1969, 5:30 p.m.</date>
@@ -19160,7 +19161,7 @@
                         </head>
                         <pb n="1" xml:id="d94-01" facs="d94-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Geneva</placeName>, <date
                                     when="1969-08-01T12:56:00+00:00" calendar="gregorian">August 1,
                                     1969, 1256Z</date>
@@ -19269,7 +19270,7 @@
                         </head>
                         <pb n="1" xml:id="d95-01" facs="d95-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-08-02T01:06:00+00:00" calendar="gregorian">August 2,
                                     1969, 0106Z</date>
                             </dateline>
@@ -19346,7 +19347,7 @@
                         </head>
                         <pb n="1" xml:id="d96-01" facs="d96-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-08-02T14:30:00+00:00" calendar="gregorian">August 2,
                                     1969, 1430Z</date>
                             </dateline>
@@ -19436,7 +19437,7 @@
                         </head>
                         <pb n="1" xml:id="d97-01" facs="d97-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-08-02T21:22:00+00:00" calendar="gregorian">August 2,
                                     1969, 2122Z</date>
                             </dateline>
@@ -19545,7 +19546,7 @@
                         </head>
                         <pb n="1" xml:id="d98-01" facs="d98-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Geneva</placeName>, <date
                                     when="1969-08-04T17:30:00+00:00" calendar="gregorian">August 4,
                                     1969, 1730Z</date>
@@ -19748,7 +19749,7 @@
                         </head>
                         <pb n="1" xml:id="d99-01" facs="d99-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-08-05T17:25:00+00:00" calendar="gregorian">August 5,
                                     1969, 1725Z</date>
                             </dateline>
@@ -19849,7 +19850,7 @@
                                 federal forces did overrun the Biafran enclave.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-08-05"
                                     calendar="gregorian">August 5, 1969</date>
                             </dateline>
@@ -20029,7 +20030,7 @@
                                 in the probe.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-08-10"
                                     calendar="gregorian">August 10, 1969</date>
                             </dateline>
@@ -20088,7 +20089,7 @@
                                     <persName corresp="#p_NRM1">Nixon</persName> approved.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-08-11"
                                     calendar="gregorian">August 11, 1969</date>
                             </dateline>
@@ -20292,7 +20293,7 @@
                                 neither party would be any more willing to compromise.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-08-12"
                                     calendar="gregorian">August 12, 1969</date>
                             </dateline>
@@ -20541,7 +20542,8 @@
                                 Intelligence Agency Files. Top Secret; Umbra.</note>
                         </head>
                         <opener>
-                            <dateline>[<placeName>Washington</placeName>, <date when="1969-08-12"
+                            <dateline rendition="#right">[<placeName>Washington</placeName>, <date
+                                    when="1969-08-12"
                                     ana="#date_undated-inferred-from-document-head"
                                     calendar="gregorian">August 12, 1969</date>]</dateline>
                         </opener>
@@ -20564,7 +20566,7 @@
                                 steps to be taken if a full-scale initiative began to work.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-08-21"
                                     calendar="gregorian">August 21, 1969</date>
                             </dateline>
@@ -20628,7 +20630,7 @@
                                 persevere.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>New York</placeName>, <date when="1969-08-25"
                                     calendar="gregorian">August 25, 1969</date>
                             </dateline>
@@ -20813,7 +20815,7 @@
                                 participation.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-08-21"
                                     calendar="gregorian">August 21, 1969</date>
                             </dateline>
@@ -20942,8 +20944,8 @@
                                 African Affairs (Newsom) to Secretary of State Rogers</head>
                             <pb n="4" xml:id="d107-04" facs="d107-04"/>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -21141,7 +21143,7 @@
                                     >Rogers</persName>ʼ intentions in the Nigerian problem.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-08-23"
                                     calendar="gregorian">August 23, 1969</date>
                             </dateline>
@@ -21322,7 +21324,7 @@
                                 relief business altogether.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-08-30"
                                     calendar="gregorian">August 30, 1969</date>
                             </dateline>
@@ -21397,7 +21399,7 @@
                                 extraordinary inability to coordinate internal matters.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-09-01"
                                     calendar="gregorian">September 1, 1969</date>
                             </dateline>
@@ -21481,7 +21483,7 @@
                                 areas of agreement.</note>
                         </head>
                         <opener>
-                            <dateline>[<placeName>Washington</placeName>, <date
+                            <dateline rendition="#right">[<placeName>Washington</placeName>, <date
                                     when="1969-09-02T09:25:00-05:00"
                                     ana="#date_undated-inferred-from-document-head"
                                     type="conversation-or-meeting-date" calendar="gregorian"
@@ -21542,7 +21544,7 @@
                                 positively.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-09-03"
                                     calendar="gregorian">September 3, 1969</date>
                             </dateline>
@@ -21600,7 +21602,7 @@
                                 opposition.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-09-04"
                                     calendar="gregorian">September 4, 1969</date>
                             </dateline>
@@ -21646,7 +21648,7 @@
                                 an official position until there was some hope.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-09-09T21:25:00-05:00"
                                     type="conversation-or-meeting-date" calendar="gregorian"
@@ -21699,7 +21701,7 @@
                                 because they wanted a guarantee against Nigerian violations.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-09-12"
                                     calendar="gregorian">September 12, 1969</date>
                             </dateline>
@@ -21804,7 +21806,7 @@
                                 adopted.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-09-16T11:11:00+00:00" calendar="gregorian">September
                                     16, 1969, 1111Z</date>
                             </dateline>
@@ -21887,7 +21889,7 @@
                                     >Nixon</persName> initialed “Approve.”</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-09-20"
                                     calendar="gregorian">September 20, 1969</date>
                             </dateline>
@@ -21975,7 +21977,7 @@
                                 agreement.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-09-20"
                                     calendar="gregorian">September 20, 1969</date>
                             </dateline>
@@ -22066,7 +22068,7 @@
                                 Nigeria concept.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-09-22"
                                     type="conversation-or-meeting-date" calendar="gregorian"
                                     >September 22, 1969</date>
@@ -22318,7 +22320,7 @@
                                     Newsom</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-09-22"
                                     calendar="gregorian">September 22, 1969</date>
                             </dateline>
@@ -22351,7 +22353,7 @@
                             <head>Telegram 8488 From the Embassy in Nigeria to the Department of
                                 State</head>
                             <opener>
-                                <dateline><placeName>Lagos</placeName>, <date
+                                <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                         when="1969-09-22T14:12:00-05:00">September 22, 1969,
                                         1412Z</date></dateline>
                             </opener>
@@ -22419,7 +22421,7 @@
                             <head>Telegram 8484 From the Embassy in Nigeria to the Department of
                                 State</head>
                             <opener>
-                                <dateline><placeName>Lagos</placeName>, <date
+                                <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                         when="1969-09-21T11:25:00-05:00">September 21, 1969,
                                         1125Z</date></dateline>
                             </opener>
@@ -22498,7 +22500,7 @@
                                     Kissinger</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>New York</placeName>, <date when="1969-09-25"
                                     type="conversation-or-meeting-date" calendar="gregorian"
                                     >September 25, 1969, 2–6:30 p.m.</date>
@@ -22862,7 +22864,7 @@
                                     Ferguson</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>New York</placeName>, <date
                                     when="1969-09-26T10:00:00-05:00"
                                     type="conversation-or-meeting-date" calendar="gregorian"
@@ -22968,7 +22970,7 @@
                                 churches.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>New York</placeName>, <date when="1969-10-02"
                                     type="conversation-or-meeting-date" calendar="gregorian">October
                                     2, 1969</date>
@@ -23193,7 +23195,7 @@
                                 must be precise.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-06"
                                     calendar="gregorian">October 6, 1969</date>
                             </dateline>
@@ -23317,7 +23319,7 @@
                                 policy.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-06"
                                     calendar="gregorian">October 6, 1969</date>
                             </dateline>
@@ -23438,7 +23440,7 @@
                                 “further steps.”</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-06"
                                     calendar="gregorian">October 6, 1969</date>
                             </dateline>
@@ -23571,7 +23573,7 @@
                                 U.S. interest in the conflict.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-10-12T13:04:00-04:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">October
@@ -23804,7 +23806,7 @@
                                 “decided” to get moving on peace probing.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-15"
                                     calendar="gregorian">October 15, 1969</date>
                             </dateline>
@@ -23894,7 +23896,7 @@
                                     corresp="#p_REL1">Richardson</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-24"
                                     calendar="gregorian">October 24, 1969</date>
                             </dateline>
@@ -23966,8 +23968,8 @@
                             <head>Draft Memorandum from the Assistant Secretary of State for African
                                 Affairs (Newsom) to Secretary of State Rogers</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <pb n="3" xml:id="d130-03" facs="d130-03"/>
                             <list type="subject">
@@ -24184,7 +24186,7 @@
                                 flights in daylight hours.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-10-24T04:43:00+00:00" calendar="gregorian">October
                                     24, 1969, 0443Z</date>
                             </dateline>
@@ -24260,7 +24262,7 @@
                                 Military Government (<gloss target="#t_FMG1">FMG</gloss>).</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Abidjan</placeName>, <date
+                            <dateline rendition="#right"><placeName>Abidjan</placeName>, <date
                                     when="1969-10-24T16:50:00+00:00" calendar="gregorian">October
                                     24, 1969, 1650Z</date>
                             </dateline>
@@ -24390,7 +24392,7 @@
                                 policy discussions.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-27"
                                     calendar="gregorian">October 27, 1969</date>
                             </dateline>
@@ -24525,7 +24527,7 @@
                                     >Eliot</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-11-01"
                                     calendar="gregorian">November 1, 1969</date>
                             </dateline>
@@ -24548,8 +24550,8 @@
                             <head>Draft Presidential Statement On Relief In Nigerian Civil
                                 War</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <pb n="2" xml:id="d134-02" facs="d134-02"/>
                             <p rend="center">PROPOSED PRESIDENTIAL STATEMENT ON RELIEF IN NIGERIAN
@@ -24635,7 +24637,7 @@
                                 fairness.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-11-06"
                                     calendar="gregorian">November 6, 1969</date>
                             </dateline>
@@ -24697,8 +24699,8 @@
                             <note rend="inline" type="source">Tab A</note>
                             <head>FBIS 24</head>
                             <opener>
-                                <dateline><date when="1969-11-06T11:28:00-05:00">November 6, 1969,
-                                        1128Z</date></dateline>
+                                <dateline rendition="#right"><date when="1969-11-06T11:28:00-05:00"
+                                        >November 6, 1969, 1128Z</date></dateline>
                             </opener>
                             <pb n="3" xml:id="d135-03" facs="d135-03"/>
                             <p>Ojukwu Criticism of U.S.</p>
@@ -24753,8 +24755,8 @@
                                 Council Staff to the President’s Assistant for National Security
                                 Affairs (Kissinger)</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1969-11-05"
-                                        >November 5, 1969</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1969-11-05">November 5, 1969</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -24783,7 +24785,7 @@
                                 <head>Memorandum From the President’s Assistant for National
                                     Security Affairs (Kissinger) to President Nixon</head>
                                 <opener>
-                                    <dateline><placeName>Washington</placeName>,
+                                    <dateline rendition="#right"><placeName>Washington</placeName>,
                                             <date>undated</date></dateline>
                                 </opener>
                                 <p rend="center">Attachment</p>
@@ -24952,7 +24954,7 @@
                                 Biafrans, but he was not optimistic of a favorable result.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-11-06"
                                     type="conversation-or-meeting-date" calendar="gregorian"
                                     >November 6, 1969</date>
@@ -25020,7 +25022,7 @@
                                 desire for an active peace probe.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-11-07"
                                     calendar="gregorian">November 7, 1969</date>
                             </dateline>
@@ -25098,7 +25100,7 @@
                                 Cross agencies operating out of Sao Tome and Libreville.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-11-11"
                                     calendar="gregorian">November 11, 1969</date>
                             </dateline>
@@ -25150,7 +25152,7 @@
                                 could substitute for relief flights due to a low water level.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-11-12"
                                     calendar="gregorian">November 12, 1969</date>
                             </dateline>
@@ -25286,7 +25288,7 @@
                                     corresp="#p_REL1">Richardson</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-11-14"
                                     calendar="gregorian">November 14, 1969</date>
                             </dateline>
@@ -25381,7 +25383,7 @@
                                 force concessions.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-11-14"
                                     calendar="gregorian">November 14, 1969</date>
                             </dateline>
@@ -25464,7 +25466,7 @@
                                 believed a military solution was most likely.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-11-26"
                                     calendar="gregorian">November 26, 1969</date>
                             </dateline>
@@ -25595,7 +25597,7 @@
                                 supplies.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-12-04"
                                     calendar="gregorian">December 4, 1969</date>
                             </dateline>
@@ -25840,7 +25842,7 @@
                                 strengthen the Presidentʼs position for the coming tragedy. </note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-12-05"
                                     calendar="gregorian">December 5, 1969</date>
                             </dateline>
@@ -25903,7 +25905,7 @@
                                 night would meet minimum needs.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-12-09"
                                     calendar="gregorian">December 9, 1969</date>
                             </dateline>
@@ -26037,7 +26039,7 @@
                                     <gloss target="#t_AID1">AID</gloss>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-12-10"
                                     calendar="gregorian">December 10, 1969</date>
                             </dateline>
@@ -26148,7 +26150,7 @@
                                 for positive public relations.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-12-16T21:15:00+00:00" calendar="gregorian">December
                                     16, 1969, 2115Z</date>
                             </dateline>
@@ -26235,7 +26237,7 @@
                                 exercises.”</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1969-12-17T11:08:00+00:00" calendar="gregorian">December
                                     17, 1969, 1108Z</date>
                             </dateline>
@@ -26304,7 +26306,7 @@
                                 delegation was departing.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Addis Ababa</placeName>, <date
+                            <dateline rendition="#right"><placeName>Addis Ababa</placeName>, <date
                                     when="1969-12-18T14:00:00+00:00" calendar="gregorian">December
                                     18, 1969, 1400Z</date>
                             </dateline>
@@ -26381,7 +26383,7 @@
                                 States would suggest involvement.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1969-12-23T16:45:00-05:00" calendar="gregorian">December
                                     23, 1969, 4:45 p.m.</date>
@@ -26442,7 +26444,7 @@
                         </head>
                         <pb n="1" xml:id="d151-01" facs="d151-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-09"
                                     calendar="gregorian">January 9, 1970</date>
                             </dateline>
@@ -26622,7 +26624,7 @@
                         </head>
                         <pb n="1" xml:id="d152-01" facs="d152-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-09"
                                     calendar="gregorian">January 9, 1970</date>
                             </dateline>
@@ -26779,8 +26781,8 @@
                         </head>
                         <pb n="1" xml:id="d153-01" facs="d153-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1970-01-10"
-                                    calendar="gregorian">January 10, 1970</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1970-01-10" calendar="gregorian">January 10, 1970</date>
                             </dateline>
                         </opener>
                         <list type="subject">
@@ -26843,7 +26845,7 @@
                         </head>
                         <pb n="1" xml:id="d154-01" facs="d154-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-10"
                                     calendar="gregorian">January 10, 1970</date>
                             </dateline>
@@ -26909,7 +26911,7 @@
                         </head>
                         <pb n="1" xml:id="d155-01" facs="d155-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-10"
                                     calendar="gregorian">January 10, 1970</date>
                             </dateline>
@@ -26972,7 +26974,7 @@
                         </head>
                         <pb n="1" xml:id="d156-01" facs="d156-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1970-01-10T22:45:00+00:00" calendar="gregorian">January
                                     10, 1970, 2245Z</date>
                             </dateline>
@@ -27044,7 +27046,7 @@
                         </head>
                         <pb n="1" xml:id="d157-01" facs="d157-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-12"
                                     calendar="gregorian">January 12, 1970</date>
                             </dateline>
@@ -27236,7 +27238,7 @@
                         </head>
                         <pb n="1" xml:id="d158-01" facs="d158-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-12"
                                     calendar="gregorian">January 12, 1970</date>
                             </dateline>
@@ -27348,7 +27350,7 @@
                         </head>
                         <pb n="1" xml:id="d159-01" facs="d159-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1970-01-14T17:40:00-05:00" calendar="gregorian">January
                                     14, 1970, 5:40 p.m.</date>
                             </dateline>
@@ -27436,7 +27438,7 @@
                         </head>
                         <pb n="1" xml:id="d160-01" facs="d160-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1970-01-14T20:26:00+00:00" calendar="gregorian">January
                                     14, 1970, 2026Z</date>
@@ -27525,7 +27527,7 @@
                         </head>
                         <pb n="1" xml:id="d161-01" facs="d161-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-14"
                                     calendar="gregorian">January 14, 1970</date>
                             </dateline>
@@ -27584,7 +27586,7 @@
                         </head>
                         <pb n="1" xml:id="d162-01" facs="d162-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-14"
                                     calendar="gregorian">January 14, 1970</date>
                             </dateline>
@@ -27813,7 +27815,7 @@
                         </head>
                         <pb n="1" xml:id="d163-01" facs="d163-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1970-01-15T20:10:00+00:00" calendar="gregorian">January
                                     15, 1970, 2010Z</date>
                             </dateline>
@@ -27921,7 +27923,7 @@
                         </head>
                         <pb n="1" xml:id="d164-01" facs="d164-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-15"
                                     calendar="gregorian">January 15, 1970</date>
                             </dateline>
@@ -27947,8 +27949,8 @@
                             <note rend="inline" type="source">Attachment</note>
                             <head>Note</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1970-01-15"
-                                        >January 15, 1970</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-01-15">January 15, 1970</date></dateline>
                             </opener>
                             <pb n="2" xml:id="d164-02" facs="d164-02"/>
                             <p>Per <persName corresp="#p_MR2">Roger Morris</persName>:</p>
@@ -27979,7 +27981,7 @@
                         </head>
                         <pb n="1" xml:id="d165-01" facs="d165-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <date when="1970-01-15T16:20:00-05:00" calendar="gregorian">January
                                     15, 1970, 4:20 p.m.</date>
                             </dateline>
@@ -28054,7 +28056,7 @@
                         </head>
                         <pb n="1" xml:id="d166-01" facs="d166-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1970-01-15T18:10:00-05:00" calendar="gregorian">January
                                     15, 1970, 6:10 p.m.</date>
@@ -28117,7 +28119,7 @@
                         </head>
                         <pb n="1" xml:id="d167-01" facs="d167-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1970-01-15T17:03:00+00:00" calendar="gregorian">January
                                     15, 1970, 1703Z</date>
                             </dateline>
@@ -28224,7 +28226,7 @@
                         </head>
                         <pb n="1" xml:id="d168-01" facs="d168-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1970-01-16T14:40:00-05:00" calendar="gregorian">January
                                     16, 1970, 2:40 p.m.</date>
@@ -28302,7 +28304,7 @@
                         </head>
                         <pb n="1" xml:id="d169-01" facs="d169-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1970-01-17T10:30:00-05:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">January
@@ -28437,7 +28439,7 @@
                         </head>
                         <pb n="1" xml:id="d170-01" facs="d170-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-19"
                                     calendar="gregorian">January 19, 1970</date>
                             </dateline>
@@ -28631,8 +28633,8 @@
                             <head>Memorandum From Secretary of State Rogers to President
                                 Nixon</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1970-01-16"
-                                        >January 16, 1970</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-01-16">January 16, 1970</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>Subject:</head>
@@ -28827,7 +28829,7 @@
                         </head>
                         <pb n="1" xml:id="d171-01" facs="d171-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-19"
                                     calendar="gregorian">January 19, 1970</date>
                             </dateline>
@@ -28911,7 +28913,7 @@
                         </head>
                         <pb n="1" xml:id="d172-01" facs="d172-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1970-01-20T14:43:00-05:00" calendar="gregorian">January
                                     20, 1970, 2:43 p.m.</date>
@@ -29010,7 +29012,7 @@
                         </head>
                         <pb n="1" xml:id="d173-01" facs="d173-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-19"
                                     calendar="gregorian">January 19, 1970</date>
                             </dateline>
@@ -29246,7 +29248,7 @@
                         </head>
                         <pb n="1" xml:id="d174-01" facs="d174-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-20"
                                     calendar="gregorian">January 20, 1970</date>
                             </dateline>
@@ -29278,8 +29280,8 @@
                                     (<persName corresp="#p_KHA1" type="from"
                                 >Kissinger</persName>)</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1970-01-20"
-                                        >January 20, 1970</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-01-20">January 20, 1970</date></dateline>
                             </opener>
                             <pb n="2" xml:id="d174-02" facs="d174-02"/>
                             <list type="subject">
@@ -29378,7 +29380,7 @@
                         </head>
                         <pb n="1" xml:id="d175-01" facs="d175-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1970-01-21T21:01:00+00:00" calendar="gregorian">January
                                     21, 1970, 2101Z</date>
                             </dateline>
@@ -29476,7 +29478,7 @@
                         </head>
                         <pb n="1" xml:id="d176-01" facs="d176-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1970-01-22T20:05:00-05:00" calendar="gregorian">January
                                     22, 1970, 8:05 p.m.</date>
@@ -29583,7 +29585,7 @@
                         </head>
                         <pb n="1" xml:id="d177-01" facs="d177-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1970-01-22T17:33:00+00:00" calendar="gregorian">January
                                     22, 1970, 1733Z</date>
                             </dateline>
@@ -29710,7 +29712,7 @@
                         </head>
                         <pb n="1" xml:id="d178-01" facs="d178-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-01-23"
                                     calendar="gregorian">January 23, 1970</date>
                             </dateline>
@@ -29836,7 +29838,7 @@
                         </head>
                         <pb n="1" xml:id="d179-01" facs="d179-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1970-01-27"
                                     to="1970-01-28" type="conversation-or-meeting-date"
                                     calendar="gregorian">January 27–28, 1970</date>
@@ -29933,7 +29935,7 @@
                         </head>
                         <pb n="1" xml:id="d180-01" facs="d180-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1970-01-30T16:59:00+00:00" calendar="gregorian">January
                                     30, 1970, 1659Z</date>
@@ -30035,7 +30037,7 @@
                         </head>
                         <pb n="1" xml:id="d181-01" facs="d181-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1970-01-29T12:55:00+00:00" calendar="gregorian">January
                                     29, 1970, 1255Z</date>
                             </dateline>
@@ -30178,7 +30180,7 @@
                         </head>
                         <pb n="1" xml:id="d182-01" facs="d182-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-02-04"
                                     calendar="gregorian">February 4, 1970</date>
                             </dateline>
@@ -30229,7 +30231,7 @@
                         </head>
                         <pb n="1" xml:id="d183-01" facs="d183-01"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1970-02-10T02:03:00+00:00" calendar="gregorian">February
                                     10, 1970, 0203Z</date>
                             </dateline>
@@ -30336,7 +30338,7 @@
                         </head>
                         <pb n="1" xml:id="d184-01" facs="d184-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-02-15"
                                     calendar="gregorian">February 15, 1970</date>
                             </dateline>
@@ -30555,7 +30557,7 @@
                         </head>
                         <pb n="1" xml:id="d185-01" facs="d185-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1970-02-15T09:55:00+00:00" calendar="gregorian">February
                                     15, 1970, 0955Z</date>
                             </dateline>
@@ -30631,7 +30633,7 @@
                         </head>
                         <pb n="1" xml:id="d186-01" facs="d186-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-02-16"
                                     calendar="gregorian">February 16, 1970</date>
                             </dateline>
@@ -30667,8 +30669,8 @@
                             <note rend="inline" type="source">Attachment</note>
                             <head>Report Prepared in the Central Intelligence Agency</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1970-02-14"
-                                        >February 14, 1970</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-02-14">February 14, 1970</date></dateline>
                             </opener>
                             <pb n="2" xml:id="d186-02" facs="d186-02"/>
                             <list type="subject">
@@ -30759,7 +30761,7 @@
                         </head>
                         <pb n="1" xml:id="d187-01" facs="d187-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-02-17"
                                     calendar="gregorian">February 17, 1970</date>
                             </dateline>
@@ -30867,7 +30869,7 @@
                         </head>
                         <pb n="1" xml:id="d188-01" facs="d188-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-02-24"
                                     calendar="gregorian">February 24, 1970</date>
                             </dateline>
@@ -30924,7 +30926,7 @@
                             <head>Telegram 146 From the Embassy in Liberia to the Department of
                                 State</head>
                             <opener>
-                                <dateline><placeName>Monrovia</placeName>, <date
+                                <dateline rendition="#right"><placeName>Monrovia</placeName>, <date
                                         when="1970-02-22T09:27:00-05:00"/>February 22, 1970,
                                     0927Z</dateline>
                             </opener>
@@ -31030,7 +31032,7 @@
                         </head>
                         <pb n="1" xml:id="d189-01" facs="d189-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-03-14"
                                     calendar="gregorian">March 14, 1970</date>
                             </dateline>
@@ -31102,8 +31104,8 @@
                             <head>Memorandum From the Under Secretary of State (Richardson) to
                                 President Nixon</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1970-03-10"
-                                        >March 10, 1970</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-03-10">March 10, 1970</date></dateline>
                             </opener>
                             <pb n="3" xml:id="d189-03" facs="d189-03"/>
                             <list type="subject">
@@ -31223,7 +31225,7 @@
                         </head>
                         <pb n="1" xml:id="d190-01" facs="d190-01"/>
                         <opener>
-                            <dateline><placeName>Lagos</placeName>, <date
+                            <dateline rendition="#right"><placeName>Lagos</placeName>, <date
                                     when="1970-03-26T15:41:00+00:00" calendar="gregorian">March 26,
                                     1970, 1541Z</date>
                             </dateline>
@@ -31340,7 +31342,7 @@
                         </head>
                         <pb n="1" xml:id="d191-01" facs="d191-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-03-30"
                                     ana="#date_undated-inferred-from-document-content"
                                     calendar="gregorian">undated</date></dateline>
@@ -31417,7 +31419,7 @@
                         </head>
                         <pb n="1" xml:id="d192-01" facs="d192-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-04-07"
                                     calendar="gregorian">April 7, 1970</date>
                             </dateline>
@@ -31483,7 +31485,7 @@
                         </head>
                         <pb n="1" xml:id="d193-01" facs="d193-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-04-14"
                                     type="conversation-or-meeting-date" calendar="gregorian">April
                                     14, 1970</date>
@@ -31585,7 +31587,7 @@
                         </head>
                         <pb n="1" xml:id="d194-01" facs="d194-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-05-28"
                                     calendar="gregorian">May 28, 1970</date>
                             </dateline>
@@ -31915,7 +31917,7 @@
                         </head>
                         <pb n="1" xml:id="d195-01" facs="d195-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-06-01"
                                     calendar="gregorian">June 1, 1970</date>
                             </dateline>
@@ -31973,8 +31975,8 @@
                             <head>Memorandum From Secretary of State Rogers to President
                                 Nixon</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1970-05-01"
-                                        >May 1, 1970</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-05-01">May 1, 1970</date></dateline>
                             </opener>
                             <pb n="3" xml:id="d195-03" facs="d195-03"/>
                             <list type="subject">
@@ -32146,7 +32148,7 @@
                         </head>
                         <pb n="1" xml:id="d196-01" facs="d196-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-06-12"
                                     calendar="gregorian">June 12, 1970</date>
                             </dateline>
@@ -32198,8 +32200,8 @@
                         </head>
                         <pb n="1" xml:id="d197-01" facs="d197-01"/>
                         <opener>
-                            <dateline><placeName>[<hi rend="italic">text not
-                                    declassified</hi>]</placeName>, <date when="1970-07-31"
+                            <dateline rendition="#right"><placeName>[<hi rend="italic">text not
+                                        declassified</hi>]</placeName>, <date when="1970-07-31"
                                     calendar="gregorian">July 31, 1970</date>
                             </dateline>
                         </opener>
@@ -32336,7 +32338,7 @@
                         </head>
                         <pb n="1" xml:id="d198-01" facs="d198-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-08-17"
                                     type="conversation-or-meeting-date" calendar="gregorian">August
                                     17, 1970</date>
@@ -32528,7 +32530,7 @@
                         </head>
                         <pb n="1" xml:id="d199-01" facs="d199-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-08-20"
                                     ana="#date_undated-inferred-from-document-content"
                                     calendar="gregorian">undated</date></dateline>
@@ -32558,8 +32560,8 @@
                             <head>Memorandum From Secretary of State Rogers to President
                                 Nixon</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1970-08-14"
-                                        >August 14, 1970</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-08-14">August 14, 1970</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>Subject:</head>
@@ -32669,7 +32671,7 @@
                                 with Nigeria.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1970-10-29T06:06:00-05:00" calendar="gregorian">October
                                     29, 1970, 0606Z</date>
@@ -32715,7 +32717,7 @@
                                 indication of U.S. support for, and interest in, Nigeria.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-11-02"
                                     calendar="gregorian">November 2, 1970</date>
                             </dateline>
@@ -33418,7 +33420,7 @@
                                 to former top leaders of the Biafran regime.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-02-02"
                                     type="conversation-or-meeting-date" calendar="gregorian"
                                     >February 2, 1971</date>
@@ -33517,7 +33519,7 @@
                                 State could do about it.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-02-09"
                                     type="conversation-or-meeting-date" calendar="gregorian"
                                     >February 9, 1971</date>
@@ -33612,8 +33614,8 @@
                         </head>
                         <pb n="1" xml:id="d204-02" facs="d204-02"/>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1971-03-10"
-                                    >March 10, 1971</date></dateline>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-03-10">March 10, 1971</date></dateline>
                         </opener>
                         <list type="subject">
                             <head>Subject:</head>
@@ -33667,8 +33669,8 @@
                             <note rend="inline" type="source">Enclosure 2</note>
                             <head>Presidential Determination No. 71-11</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1971-04-07"
-                                        >April 7, 1971</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1971-04-07">April 7, 1971</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -33713,7 +33715,7 @@
                                 Government (<gloss target="#t_FMG1">FMG</gloss>).</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-04-08"
                                     calendar="gregorian">April 8, 1971</date>
                             </dateline>
@@ -33831,7 +33833,7 @@
                                     corresp="#p_MCC1">C.C. Mojekwu</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Lagos</placeName>, <date when="1971-04-29T16:24:00-05:00"
                                     >April 29, 1971, 1624Z</date>
                             </dateline>
@@ -33919,7 +33921,7 @@
                                 encouraged to focus primarily on the purchase of training.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-04-30"
                                     calendar="gregorian">April 30, 1971</date>
                             </dateline>
@@ -33963,7 +33965,7 @@
                                     target="#t_AID1">AID</gloss>ʼs image in Nigeria.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-05-27"
                                     type="conversation-or-meeting-date" calendar="gregorian">May 27,
                                     1971</date>
@@ -34165,7 +34167,7 @@
                                 recommended courses of action.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1971-06-21T16:11:00-05:00" calendar="gregorian">June 22,
                                     1971, 4:11 p.m.</date>
@@ -34195,8 +34197,8 @@
                             <note rend="inline" type="source">Enclosure</note>
                             <head>Paper</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1971-06"
-                                        >June 1971</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1971-06">June 1971</date></dateline>
                             </opener>
                             <pb n="3" xml:id="d209-03" facs="d209-03"/>
                             <p rend="center">NIGERIA: Policy Planning Paper</p>
@@ -34325,7 +34327,7 @@
                                 1972.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Lagos</placeName>, <date when="1971-09-18"
                                     calendar="gregorian">September 18, 1971</date>
                             </dateline>
@@ -34388,7 +34390,7 @@
                                 open for 1972.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-10-29"
                                     calendar="gregorian">October 29, 1971</date>
                             </dateline>
@@ -34428,7 +34430,7 @@
                                     corresp="#p_GGYJ1">Gowon</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-11-08"
                                     type="conversation-or-meeting-date" calendar="gregorian"
                                     >November 8, 1971</date>
@@ -34561,7 +34563,7 @@
                                 and U.S., British, and French relations with Nigeria.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date from="1972-03-06"
                                     to="1972-03-07" type="conversation-or-meeting-date"
                                     calendar="gregorian">March 6–7, 1972</date>
@@ -34788,7 +34790,7 @@
                                 disapproved it.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-04-11"
                                     calendar="gregorian">April 11, 1972</date>
                             </dateline>
@@ -34819,8 +34821,8 @@
                             <head>Memorandum From Secretary of State Rogers to President
                                 Nixon</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1972-04-06"
-                                        >April 6, 1972</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1972-04-06">April 6, 1972</date></dateline>
                             </opener>
                             <pb n="2" xml:id="d214-02" facs="d214-02"/>
                             <list type="subject">
@@ -34879,7 +34881,7 @@
                                 a farewell call.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-07-11"
                                     calendar="gregorian">July 11, 1972</date>
                             </dateline>
@@ -34921,8 +34923,8 @@
                                     (<persName corresp="#p_KHA1" type="to"
                                 >Kissinger</persName>)</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1972-07-07"
-                                        >July 7, 1972</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1972-07-07">July 7, 1972</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>Subject:</head>
@@ -35008,7 +35010,7 @@
                                 penchant to take Nigeria for granted.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Lagos</placeName>, <date when="1972-10-18T13:46:00-05:00"
                                     calendar="gregorian">October 18, 1972, 1346Z</date>
                             </dateline>
@@ -35296,7 +35298,7 @@
                                 Nigerian priorities on aid.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Lagos</placeName>, <date when="1972-12-11T09:18:00-05:00"
                                     calendar="gregorian">December 11, 1972, 0918Z</date>
                             </dateline>
@@ -35446,7 +35448,7 @@
                         </head>
                         <pb n="1" xml:id="d219-01" facs="d219-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-05-03"
                                     calendar="gregorian">May 3, 1972</date>
                             </dateline>
@@ -35498,7 +35500,7 @@
                         </head>
                         <pb n="1" xml:id="d220-01" facs="d220-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-06-26"
                                     calendar="gregorian">June 26, 1972</date>
                             </dateline>
@@ -35573,7 +35575,7 @@
                         </head>
                         <pb n="1" xml:id="d221-01" facs="d221-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1972-08-18T14:30:00+00:00" calendar="gregorian">August 18,
                                     1972, 1430Z</date>
@@ -35653,7 +35655,7 @@
                         </head>
                         <pb n="1" xml:id="d222-01" facs="d222-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-09-20"
                                     calendar="gregorian">September 20, 1972</date>
                             </dateline>
@@ -35747,7 +35749,7 @@
                                 stopped.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Camp David</placeName>, <date
+                            <dateline rendition="#right"><placeName>Camp David</placeName>, <date
                                     from="1972-09-23T16:50:00-04:00" to="1972-09-23T17:10:00-04:00"
                                     calendar="gregorian">September 23, 1972, 4:50–5:10 p.m.</date>
                             </dateline>
@@ -35861,7 +35863,7 @@
                         </head>
                         <pb n="1" xml:id="d225-01" facs="d225-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-09-24"
                                     calendar="gregorian">September 24, 1972</date>
                             </dateline>
@@ -36002,7 +36004,7 @@
                         </head>
                         <pb n="1" xml:id="d226-01" facs="d226-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-09-29"
                                     calendar="gregorian">September 29, 1972</date>
                             </dateline>
@@ -36061,7 +36063,7 @@
                         </head>
                         <pb n="1" xml:id="d227-01" facs="d227-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-10-03"
                                     calendar="gregorian">October 3, 1972</date>
                             </dateline>
@@ -36140,7 +36142,7 @@
                         </head>
                         <pb n="1" xml:id="d228-01" facs="d228-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-10-10"
                                     calendar="gregorian">October 10, 1972</date>
                             </dateline>
@@ -36196,8 +36198,8 @@
                             <head>Draft Memorandum From the Presidentʼs Assistant for National
                                 Security Affairs (Kissinger) to Secretary of State Rogers</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date>.</dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date>.</dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -36228,8 +36230,8 @@
                                 (Eliot) to the Presidentʼs Assistant for National Security Affairs
                                 (Kissinger)</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1972-10-07"
-                                        >October 7, 1972</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1972-10-07">October 7, 1972</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>Subject:</head>
@@ -36252,8 +36254,9 @@
                                 <head>Memorandum From the Ambassador to Burundi (Yost) to the
                                     Assistant Secretary of State for African Affairs (Newsom)</head>
                                 <opener>
-                                    <dateline><placeName>Washington</placeName>, <date
-                                            when="1972-10-06">October 6, 1972</date></dateline>
+                                    <dateline rendition="#right"><placeName>Washington</placeName>,
+                                            <date when="1972-10-06">October 6,
+                                        1972</date></dateline>
                                 </opener>
                                 <list type="subject">
                                     <head>SUBJECT:</head>
@@ -36334,7 +36337,7 @@
                         </head>
                         <pb n="1" xml:id="d229-01" facs="d229-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-10-30"
                                     calendar="gregorian">October 30, 1972</date>
                             </dateline>
@@ -36423,7 +36426,7 @@
                         </head>
                         <pb n="1" xml:id="d230-01" facs="d230-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-12-02"
                                     calendar="gregorian">December 2, 1972</date>
                             </dateline>
@@ -36451,8 +36454,8 @@
                             <head>Memorandum From Secretary of State Rogers to President
                                 Nixon</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1972-12-01"
-                                        >December 1, 1972</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1972-12-01">December 1, 1972</date></dateline>
                             </opener>
                             <pb n="2" xml:id="d230-02" facs="d230-02"/>
                             <list type="subject">
@@ -36508,7 +36511,7 @@
                         </head>
                         <pb n="1" xml:id="d231-01" facs="d231-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-12-14"
                                     calendar="gregorian">December 14, 1972</date>
                             </dateline>
@@ -36556,7 +36559,7 @@
                         </head>
                         <pb n="1" xml:id="d232-01" facs="d232-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Kinshasa</placeName>, <date when="1969-06-19"
                                     calendar="gregorian">June 19, 1969</date>
                             </dateline>
@@ -36840,7 +36843,7 @@
                         </head>
                         <pb n="1" xml:id="d233-01" facs="d233-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-07-22"
                                     calendar="gregorian">July 22, 1970</date>
                             </dateline>
@@ -37304,7 +37307,7 @@
                         </head>
                         <pb n="1" xml:id="d234-01" facs="d234-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-07-29"
                                     calendar="gregorian">July 29, 1970</date>
                             </dateline>
@@ -37529,7 +37532,7 @@
                         </head>
                         <pb n="1" xml:id="d235-01" facs="d235-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-08-04"
                                     type="conversation-or-meeting-date" calendar="gregorian">August
                                     4, 1970</date>
@@ -37811,7 +37814,7 @@
                         </head>
                         <pb n="1" xml:id="d236-01" facs="d236-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-08-05"
                                     calendar="gregorian">August 5, 1970</date>
                             </dateline>
@@ -37862,7 +37865,7 @@
                         </head>
                         <pb n="1" xml:id="d237-01" facs="d237-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-08-07"
                                     calendar="gregorian">August 7, 1970</date>
                             </dateline>
@@ -37921,7 +37924,7 @@
                         </head>
                         <pb n="1" xml:id="d238-01" facs="d238-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-04-01"
                                     calendar="gregorian">April 1, 1972</date>
                             </dateline>
@@ -38002,7 +38005,7 @@
                                 declassified]</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-05-10"
                                     calendar="gregorian">May 10, 1972</date>
                             </dateline>
@@ -38035,7 +38038,7 @@
                         </head>
                         <pb n="1" xml:id="d240-01" facs="d240-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-01-25"
                                     calendar="gregorian">January 25, 1971</date>
                             </dateline>
@@ -38110,7 +38113,7 @@
                         </head>
                         <pb n="1" xml:id="d241-01" facs="d241-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1971-01-27T17:21:00+00:00" calendar="gregorian">January
                                     27, 1971, 1721Z</date></dateline>
@@ -38203,7 +38206,7 @@
                         </head>
                         <pb n="1" xml:id="d242-01" facs="d242-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>London</placeName>, <date
                                     when="1971-01-28T18:12:00+00:00" calendar="gregorian">January
                                     28, 1971, 1812Z</date></dateline>
@@ -38311,7 +38314,7 @@
                         </head>
                         <pb n="1" xml:id="d243-01" facs="d243-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-02-02"
                                     calendar="gregorian">February 2, 1971</date>
                             </dateline>
@@ -38449,7 +38452,7 @@
                         </head>
                         <pb n="1" xml:id="d244-01" facs="d244-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Kampala</placeName>, <date
                                     when="1971-02-17T11:05:00+00:00" calendar="gregorian">February
                                     17, 1971, 1105Z</date></dateline>
@@ -38522,7 +38525,7 @@
                         </head>
                         <pb n="1" xml:id="d245-01" facs="d245-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1971-02-17T01:26:00+00:00" calendar="gregorian">February
                                     17, 1971, 0126Z</date></dateline>
@@ -38607,7 +38610,7 @@
                         </head>
                         <pb n="1" xml:id="d246-01" facs="d246-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1971-02-27T20:07:00+00:00" calendar="gregorian">February
                                     27, 1971, 2007Z</date>
@@ -38693,7 +38696,7 @@
                         </head>
                         <pb n="1" xml:id="d247-01" facs="d247-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1971-03-06T03:13:00+00:00" calendar="gregorian">March 6,
                                     1971, 0313Z</date>
@@ -38768,7 +38771,7 @@
                         </head>
                         <pb n="1" xml:id="d248-01" facs="d248-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-03-13"
                                     calendar="gregorian">March 13, 1971</date>
                             </dateline>
@@ -38815,8 +38818,8 @@
                             <head>Draft Telegram From the Department of State to the Embassy in
                                 Uganda</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <p>JOINT STATE/<gloss target="#t_AID1">AID</gloss> MESSAGE</p>
                             <list type="subject">
@@ -38874,7 +38877,7 @@
                         </head>
                         <pb n="1" xml:id="d249-01" facs="d249-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Kampala</placeName>, <date
                                     when="1972-04-21T06:57:00+00:00" calendar="gregorian">April 21,
                                     1972, 0657Z</date>
@@ -38967,7 +38970,7 @@
                         </head>
                         <pb n="1" xml:id="d250-01" facs="d250-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-07-20"
                                     calendar="gregorian">July 20, 1972</date>
                             </dateline>
@@ -39029,7 +39032,7 @@
                         </head>
                         <pb n="1" xml:id="d251-01" facs="d251-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Kampala</placeName>, <date
                                     when="1972-08-25T11:55:00+00:00" calendar="gregorian">August 25,
                                     1972, 1155Z</date>
@@ -39117,7 +39120,7 @@
                         </head>
                         <pb n="1" xml:id="d252-01" facs="d252-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1972-08-28T22:51:00+00:00" calendar="gregorian">August 28,
                                     1972, 2251Z</date>
@@ -39175,7 +39178,7 @@
                         </head>
                         <pb n="1" xml:id="d253-01" facs="d253-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <date from="1972-09-14T16:15:00-04:00"
                                     to="1972-09-14T17:15:00-04:00"
                                     type="conversation-or-meeting-date" calendar="gregorian"
@@ -39251,7 +39254,7 @@
                         </head>
                         <pb n="1" xml:id="d254-01" facs="d254-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-09-20"
                                     calendar="gregorian">September 20, 1972</date>
                             </dateline>
@@ -39289,7 +39292,7 @@
                         </head>
                         <pb n="1" xml:id="d255-01" facs="d255-01"/>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-09-20"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                     calendar="gregorian">undated</date></dateline>
@@ -39398,7 +39401,7 @@
                                 >Melady</persName>.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     from="1972-09-21T19:42:00-04:00" to="1972-09-21T19:43:00-04:00"
                                     calendar="gregorian">September 21, 1972, 7:42–7:43 p.m.</date>
                             </dateline>
@@ -39493,7 +39496,7 @@
                                 published.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-09-22"
                                     type="conversation-or-meeting-date" calendar="gregorian"
                                     >September 22, 1972, 12:03–12:35 p.m.</date>
@@ -39639,7 +39642,7 @@
                                 American and British citizens from Uganda.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Camp David</placeName>, <date
                                     from="1972-09-24T11:37:00-04:00" to="1972-09-24T11:52:00-04:00"
                                     calendar="gregorian">September 24, 1972, 11:37-11:52 a.m.</date>
@@ -40167,7 +40170,7 @@
                                 1,000 Ugandan Asians.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-09-29"
                                     calendar="gregorian">September 29, 1972</date>
                             </dateline>
@@ -40223,7 +40226,7 @@
                                 into the United States.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <date when="1972-09-30T18:38:00+00:00" calendar="gregorian"
                                     >September 30, 1972, 1838Z</date>
                             </dateline>
@@ -40268,7 +40271,7 @@
                                 “raw tribalism at work.”</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-11-01"
                                     calendar="gregorian">November 1, 1972</date>
                             </dateline>
@@ -40380,8 +40383,8 @@
                             <note rend="inline" type="source">Attachment</note>
                             <head>Intelligence Information Cable TDCS DB-315/08804-72</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1972-10-19"
-                                        >October 19, 1972</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1972-10-19">October 19, 1972</date></dateline>
                             </opener>
                             <list>
                                 <head>Country</head>
@@ -40542,7 +40545,7 @@
                                     corresp="#p_ETLJ1">Eliot</persName>.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-11-11"
                                     calendar="gregorian">November 11, 1972</date>
                             </dateline>
@@ -40625,7 +40628,7 @@
                                 President approved both recommendations.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-12-04"
                                     calendar="gregorian">December 4, 1972</date>
                             </dateline>
@@ -40746,7 +40749,7 @@
                                 memorandum.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-12-03"
                                     calendar="gregorian">December 3, 1972</date>
                             </dateline>
@@ -40788,7 +40791,7 @@
                                 sites for the activities at Kagnew.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-01-13"
                                     calendar="gregorian">January 13, 1969</date>
                             </dateline>
@@ -40860,7 +40863,7 @@
                                 possible.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-01-14"
                                     calendar="gregorian">January 14, 1969</date>
                             </dateline>
@@ -40939,7 +40942,7 @@
                                     target="#t_FY1">FY</gloss> 70.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-01-17T20:55:00+00:00" calendar="gregorian">January
                                     17, 1969, 2055Z</date>
                             </dateline>
@@ -41051,8 +41054,8 @@
                                 activities.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Asmara</placeName>, <date when="1969-04-10"
-                                    calendar="gregorian">April 10, 1969</date>
+                            <dateline rendition="#right"><placeName>Asmara</placeName>, <date
+                                    when="1969-04-10" calendar="gregorian">April 10, 1969</date>
                             </dateline>
                         </opener>
                         <pb n="1" xml:id="d268-01" facs="d268-01"/>
@@ -41282,8 +41285,8 @@
                                 African developments and Ethiopiaʼs economic development.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1969-05-16"
-                                    calendar="gregorian">May 16, 1969</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1969-05-16" calendar="gregorian">May 16, 1969</date>
                             </dateline>
                         </opener>
                         <pb n="1" xml:id="d269-01" facs="d269-01"/>
@@ -41381,8 +41384,8 @@
                                 feasible.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Addis Ababa</placeName>, <date when="1969-06-18"
-                                    calendar="gregorian">June 18, 1969</date>
+                            <dateline rendition="#right"><placeName>Addis Ababa</placeName>, <date
+                                    when="1969-06-18" calendar="gregorian">June 18, 1969</date>
                             </dateline>
                         </opener>
                         <pb n="1" xml:id="d270-01" facs="d270-01"/>
@@ -41591,7 +41594,7 @@
                                 Morehouse College.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-06-28"
                                     calendar="gregorian">June 28, 1969</date>
                             </dateline>
@@ -41712,7 +41715,7 @@
                                 the stop with the Ethiopians.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-07-03"
                                     calendar="gregorian">July 3, 1969</date>
                             </dateline>
@@ -41880,7 +41883,7 @@
                                 States operated Kagnew communications center.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-07-06"
                                     calendar="gregorian">July 6, 1969</date>
                             </dateline>
@@ -42028,8 +42031,8 @@
                             <note rend="inline" type="source">Tab A</note>
                             <head>Talking Points</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <p>Opening</p>
                             <p>—You last saw the Emperor in Addis in 1967.<lb/>—Invite him to give
@@ -42127,7 +42130,7 @@
                                 to Ethiopian military forces.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1969-07-07T09:00:00-04:00"
                                     ana="#date_imprecise-inferred-from-sibling-dates"
                                     calendar="gregorian">July 7, 1969</date>
@@ -42218,8 +42221,8 @@
                             <note rend="inline" type="source">Tab D</note>
                             <head>Talking Points</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <p rend="center">VISIT OF EMPEROR HAILE SELASSIE I OF ETHIOPIA<lb/>JULY
                                 7–9, 1969<lb/>MILITARY ASSISTANCE AND KAGNEW STATION<lb/>RESUME AND
@@ -42322,7 +42325,7 @@
                                 situation in Nigeria and the Middle East.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-07-08"
                                     type="conversation-or-meeting-date" calendar="gregorian">July 8,
                                     1969</date>
@@ -42575,7 +42578,7 @@
                                 the Ethiopian government from a total of 3,400 acres.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-07-17"
                                     calendar="gregorian">July 17, 1969</date>
                             </dateline>
@@ -42761,8 +42764,8 @@
                                     >Abdirashid Ali Shermarke</persName> on October 15.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1969-10-15"
-                                    calendar="gregorian">October 15, 1969</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1969-10-15" calendar="gregorian">October 15, 1969</date>
                             </dateline>
                         </opener>
                         <pb n="1" xml:id="d277-01" facs="d277-01"/>
@@ -42816,7 +42819,7 @@
                                 Shermarke were pro-Western.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-20"
                                     calendar="gregorian">October 20, 1969</date>
                             </dateline>
@@ -42866,7 +42869,7 @@
                                 including Kenya and Ethiopia.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-21"
                                     calendar="gregorian">October 21, 1969</date>
                             </dateline>
@@ -42946,8 +42949,8 @@
                                 in Somalia—its motivation, leadership, and implications.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date when="1969-10-21"
-                                    calendar="gregorian">October 21, 1969</date>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1969-10-21" calendar="gregorian">October 21, 1969</date>
                             </dateline>
                         </opener>
                         <pb n="1" xml:id="d280-01" facs="d280-01"/>
@@ -43045,7 +43048,7 @@
                                 Somalia.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-28"
                                     calendar="gregorian">October 28, 1969</date>
                             </dateline>
@@ -43087,8 +43090,8 @@
                             <head>Draft Telegram From the Department of State to the Embassy in
                                 Somalia</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1969-10-28"
-                                        >October 28, 1969</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1969-10-28">October 28, 1969</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -43130,7 +43133,7 @@
                                 intentions.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1969-10-28"
                                     calendar="gregorian">October 28, 1969</date>
                             </dateline>
@@ -43192,7 +43195,7 @@
                                 assistance programs.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Mogadiscio</placeName>, <date
+                            <dateline rendition="#right"><placeName>Mogadiscio</placeName>, <date
                                     when="1970-01-27T11:15:00-05:00" calendar="gregorian">January
                                     27, 1970, 1115Z.</date>
                             </dateline>
@@ -43304,7 +43307,7 @@
                                 indefinitely and assignments left unchanged.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-03-19"
                                     calendar="gregorian">March 19, 1970</date>
                             </dateline>
@@ -43370,7 +43373,7 @@
                                 to aid to countries engaged in such trade.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1970-04-02T16:00:00-05:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">April
@@ -43481,7 +43484,7 @@
                                 Somalia would counsel moderation.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1970-04-16T22:41:00+00:00" calendar="gregorian">April 16,
                                     1970, 2241Z</date>
                             </dateline>
@@ -43545,7 +43548,7 @@
                                 minimal. Soviet interest in the area was growing.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-05-21"
                                     calendar="gregorian">May 21, 1970</date>
                             </dateline>
@@ -44412,7 +44415,7 @@
                                 believed this would further strain U.S.-Somali relations.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Mogadiscio</placeName>, <date
                                     when="1970-05-28T11:15:00+00:00" calendar="gregorian">May 28,
                                     1970, 1115Z</date>
@@ -44523,7 +44526,7 @@
                                 relations.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-06-06"
                                     calendar="gregorian">June 6, 1970</date>
                             </dateline>
@@ -44571,8 +44574,8 @@
                             <head>Memorandum From Acting Secretary of State Richardson to President
                                 Nixon</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1970-05-29"
-                                        >May 29, 1970</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-05-29">May 29, 1970</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>Subject:</head>
@@ -44618,7 +44621,7 @@
                                 practicable.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Mogadiscio</placeName>, <date
+                            <dateline rendition="#right"><placeName>Mogadiscio</placeName>, <date
                                     when="1970-06-15T11:00:00+00:00" calendar="gregorian">June 15,
                                     1970, 1100Z</date>
                             </dateline>
@@ -44694,7 +44697,7 @@
                                 appropriate Somali officials.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-06-26"
                                     calendar="gregorian">June 26, 1970</date>
                             </dateline>
@@ -44772,7 +44775,7 @@
                                 the The Midnight Sun.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Mogadiscio</placeName>, <date
+                            <dateline rendition="#right"><placeName>Mogadiscio</placeName>, <date
                                     when="1970-06-28T09:40:00+00:00" calendar="gregorian">June 28,
                                     1970, 0940Z</date>
                             </dateline>
@@ -44857,7 +44860,7 @@
                                 reason to believe they had intercepted an American spy ship.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-07-02"
                                     calendar="gregorian">July 2, 1970</date>
                             </dateline>
@@ -44940,7 +44943,7 @@
                                 lack of funds.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1970-07-13T22:08:00+00:00" calendar="gregorian">July 13,
                                     1970, 2208Z</date>
@@ -44995,7 +44998,7 @@
                                 Africa.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-07-31"
                                     calendar="gregorian">July 31, 1970</date>
                             </dateline>
@@ -45051,7 +45054,7 @@
                                 and territorial waters.”</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Mogadiscio</placeName>, <date
+                            <dateline rendition="#right"><placeName>Mogadiscio</placeName>, <date
                                     when="1970-08-04T09:20:00+00:00" calendar="gregorian">August 4,
                                     1970, 0920Z</date>
                             </dateline>
@@ -45121,7 +45124,7 @@
                                 a general policy.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-08-05"
                                     calendar="gregorian">August 5, 1970</date>
                             </dateline>
@@ -45185,8 +45188,8 @@
                             <head>Memorandum From the Presidentʼs Assistant for National Security
                                 Affairs (Kissinger) to President Nixon</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <pb n="3" xml:id="d297-03" facs="d297-03"/>
                             <list type="subject">
@@ -45233,7 +45236,7 @@
                                 <pb n="5" xml:id="d297-05" facs="d297-05"/>
                                 <head>Draft National Security Study Memorandum</head>
                                 <opener>
-                                    <dateline><placeName>Washington</placeName>,
+                                    <dateline rendition="#right"><placeName>Washington</placeName>,
                                             <date>undated</date></dateline>
                                 </opener>
                                 <list type="to">
@@ -45290,7 +45293,7 @@
                                 consolidation on the basis of the Navy plan.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-08-11"
                                     calendar="gregorian">August 11, 1970</date>
                             </dateline>
@@ -45347,7 +45350,7 @@
                                 coding machines did not function properly.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-08-12"
                                     calendar="gregorian">August 12, 1970</date>
                             </dateline>
@@ -45394,7 +45397,7 @@
                                 diminished.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1970-08-24T23:44:00+00:00" calendar="gregorian">August 24,
                                     1970, 2344Z</date>
                             </dateline>
@@ -45460,7 +45463,7 @@
                                 reductions at Kagnew Station.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Addis Ababa</placeName>, <date
+                            <dateline rendition="#right"><placeName>Addis Ababa</placeName>, <date
                                     when="1970-09-03T09:00:00+00:00" calendar="gregorian">September
                                     3, 1970, 0900Z</date>
                             </dateline>
@@ -45504,7 +45507,7 @@
                                 Selassieʼs statements.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
                                     when="1970-10-25T14:00:00-05:00"
                                     type="conversation-or-meeting-date" calendar="gregorian">October
@@ -45608,7 +45611,7 @@
                                 September 16, 1970.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1970-10-27"
                                     calendar="gregorian">October 27, 1970</date>
                             </dateline>
@@ -45669,7 +45672,7 @@
                                 to subvert the freedom of African states.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Mogadiscio</placeName>, <date
+                            <dateline rendition="#right"><placeName>Mogadiscio</placeName>, <date
                                     when="1970-11-03T11:10:00+00:00" calendar="gregorian">November
                                     3, 1970, 1110Z</date>
                             </dateline>
@@ -45740,7 +45743,7 @@
                                 it was not possible to make any promises.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1970-12-24T01:30:00+00:00" calendar="gregorian">December
                                     24, 1970, 0130Z</date>
                             </dateline>
@@ -45808,8 +45811,8 @@
                                 ties to the West.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Mogadiscio</placeName>, <date when="1971-01-17"
-                                    calendar="gregorian">January 17, 1971</date>
+                            <dateline rendition="#right"><placeName>Mogadiscio</placeName>, <date
+                                    when="1971-01-17" calendar="gregorian">January 17, 1971</date>
                             </dateline>
                         </opener>
                         <pb n="1" xml:id="d306-01" facs="d306-01"/>
@@ -45885,7 +45888,7 @@
                                 resources available for military assistance to Africa.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-01-20"
                                     calendar="gregorian">January 20, 1971</date>
                             </dateline>
@@ -45949,8 +45952,8 @@
                                     >Kissinger</persName>) to President <persName corresp="#p_NRM1"
                                     type="to">Nixon</persName></head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
                             </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -46131,7 +46134,7 @@
                                 Ethiopian Security Situation.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-01-21"
                                     calendar="gregorian">January 21, 1971</date>
                             </dateline>
@@ -46260,7 +46263,7 @@
                                 and the French Territory of Afar and Issa (FTAI).</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-01-25"
                                     calendar="gregorian">January 25, 1971</date>
                             </dateline>
@@ -46328,7 +46331,7 @@
                                 communications open.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-02-24"
                                     type="conversation-or-meeting-date" calendar="gregorian"
                                     >February 24, 1971</date>
@@ -46427,7 +46430,7 @@
                                 Republic.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-03-08"
                                     type="conversation-or-meeting-date" calendar="gregorian">March
                                     8, 1971</date>
@@ -46541,7 +46544,7 @@
                                 interests as compared to Somalia.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-03-15"
                                     calendar="gregorian">March 15, 1971</date>
                             </dateline>
@@ -46818,7 +46821,7 @@
                                 some Kagnew Station functions to that location.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-03-18"
                                     calendar="gregorian">March 18, 1971</date>
                             </dateline>
@@ -46947,7 +46950,7 @@
                                 and restriction of Soviet efforts in the area.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     notBefore="1971-05-01T00:00:00-04:00"
                                     notAfter="1971-05-31T23:59:59-04:00"
                                     ana="#date_imprecise-inferred-from-date-rules" when="1971-05"
@@ -47078,7 +47081,7 @@
                                 for harming U.S.-Somali relations.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-06-19"
                                     calendar="gregorian">June 19, 1971</date>
                             </dateline>
@@ -47179,7 +47182,7 @@
                                 who, in turn, had contacted the Department of State.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-06-22"
                                     calendar="gregorian">June 22, 1971</date>
                             </dateline>
@@ -47234,7 +47237,7 @@
                                 might be released.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-07-02"
                                     calendar="gregorian">July 2, 1971</date>
                             </dateline>
@@ -47313,7 +47316,7 @@
                                 becoming less interested in resolving the problem.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1971-07-07T00:51:00+00:00" calendar="gregorian">July 7,
                                     1971, 0051Z</date>
                             </dateline>
@@ -47393,7 +47396,7 @@
                                 definitive assurance of action.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Mogadiscio</placeName>, <date
+                            <dateline rendition="#right"><placeName>Mogadiscio</placeName>, <date
                                     when="1971-07-14T16:50:00-05:00" calendar="gregorian">July 14,
                                     1971, 1650Z</date>
                             </dateline>
@@ -47447,7 +47450,7 @@
                                 resolved.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1971-07-14T22:24:00+00:00" calendar="gregorian">July 14,
                                     1971, 2224Z</date>
                             </dateline>
@@ -47515,7 +47518,7 @@
                                 the ships should depart on July 18.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Mogadiscio</placeName>, <date
+                            <dateline rendition="#right"><placeName>Mogadiscio</placeName>, <date
                                     when="1971-07-15T15:45:00+00:00" calendar="gregorian">July 15,
                                     1971, 1545Z</date>
                             </dateline>
@@ -47595,7 +47598,7 @@
                                 feasible.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1971-07-22"
                                     calendar="gregorian">July 22, 1971</date>
                             </dateline>
@@ -47647,7 +47650,7 @@
                                 Station by June 30, 1972.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-01-04"
                                     calendar="gregorian">January 4, 1972</date>
                             </dateline>
@@ -47701,7 +47704,7 @@
                                 Kagnew operation was a likely candidate for economy.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1972-01-06T18:50:00+00:00" calendar="gregorian">January 6,
                                     1972, 1850Z</date>
                             </dateline>
@@ -47774,7 +47777,7 @@
                                 forward its assessment of the Ethiopian Government reaction.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1972-01-12T00:54:00+00:00" calendar="gregorian">January
                                     12, 1972, 0054Z</date>
                             </dateline>
@@ -47855,7 +47858,8 @@
                                     declassified</hi>].</note>
                         </head>
                         <opener>
-                            <dateline>[<placeName>Washington</placeName>, <date when="1972-02-18"
+                            <dateline rendition="#right">[<placeName>Washington</placeName>, <date
+                                    when="1972-02-18"
                                     ana="#date_undated-inferred-from-document-head"
                                     calendar="gregorian">February 18, 1972</date>]</dateline>
                         </opener>
@@ -47884,7 +47888,7 @@
                                 inform the Ethiopian Government.</note>
                         </head>
                         <opener>
-                            <dateline><placeName>Washington</placeName>, <date
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
                                     when="1972-02-25T01:10:00+00:00" calendar="gregorian">February
                                     25, 1972, 0110Z</date>
                             </dateline>
@@ -47960,7 +47964,7 @@
                                 to discuss U.S. assistance to Ethiopia.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-03-20"
                                     calendar="gregorian">March 20, 1972</date>
                             </dateline>
@@ -48051,7 +48055,7 @@
                                 program.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-04-25"
                                     calendar="gregorian">April 25, 1972</date>
                             </dateline>
@@ -48098,8 +48102,8 @@
                             <note rend="inline" type="source">Tab 1</note>
                             <head>Letter From President Nixon to Emperor Selassie of Ethiopia</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1972-04-25"
-                                        >April 25, 1972</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1972-04-25">April 25, 1972</date></dateline>
                             </opener>
                             <p>Your Imperial Majesty:</p>
                             <p>Even before I received your letter of March 15, Ambassador <persName
@@ -48153,7 +48157,7 @@
                                     target="#t_MAP1">MAP</gloss>) cuts.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-07-18"
                                     calendar="gregorian">July 18, 1972</date>
                             </dateline>
@@ -48205,7 +48209,7 @@
                                 Sudan and his gratification at the resumption of relations.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-07-27"
                                     calendar="gregorian">July 27, 1972</date>
                             </dateline>
@@ -48243,8 +48247,8 @@
                             <note rend="inline" type="source">Attachment</note>
                             <head>Letter From President Nixon to President Nimeri</head>
                             <opener>
-                                <dateline><placeName>Washington</placeName>, <date when="1972-07-29"
-                                        >July 29, 1972</date></dateline>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1972-07-29">July 29, 1972</date></dateline>
                             </opener>
                             <p>Dear Mr. President:</p>
                             <p>I would like to express to you my deep gratification in the
@@ -48289,7 +48293,7 @@
                                 the most important country in the Horn</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-10-04"
                                     calendar="gregorian">October 4, 1972</date>
                             </dateline>
@@ -49138,7 +49142,7 @@
                                 in the Horn, and prospects for Somali-Soviet relations.</note>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1972-12-20"
                                     calendar="gregorian">December 20, 1972</date>
                             </dateline>
