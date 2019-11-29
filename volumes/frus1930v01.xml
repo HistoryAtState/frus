@@ -28371,7 +28371,7 @@
                         <head><hi rend="italic">Press Release Issued by the Department of State on
                                 September 17, 1930</hi></head>
                         <opener>
-                            <dateline>[<date when="1930-09-17"
+                            <dateline rendition="#right">[<date when="1930-09-17"
                                     ana="#date_undated-inferred-from-document-head"
                                     calendar="gregorian">September 17, 1930</date>]</dateline>
                         </opener>
@@ -30310,7 +30310,7 @@
                                 Department of State, <hi rend="italic">Press Releases</hi>, July 5,
                                 1930, p. 1.</note></head>
                         <opener>
-                            <dateline>[<date when="1930-06-30"
+                            <dateline rendition="#right">[<date when="1930-06-30"
                                     ana="#date_undated-inferred-from-document-head"
                                     calendar="gregorian">June 30, 1930</date>]</dateline>
                         </opener>
@@ -31624,7 +31624,7 @@
                         <head><hi rend="italic">Press Release Issued by the Department of State on
                                 October 23, 1930</hi></head>
                         <opener>
-                            <dateline>[<date when="1930-10-23"
+                            <dateline rendition="#right">[<date when="1930-10-23"
                                     ana="#date_undated-inferred-from-document-head"
                                     calendar="gregorian">October 23, 1930</date>]</dateline>
                         </opener>
@@ -32133,7 +32133,8 @@
                                 xml:id="d477fn14">This undated telegram was received on November 8,
                                 1930.</note></head>
                         <opener>
-                            <dateline>[<date notBefore="1930-11-07T17:00:00-05:00"
+                            <dateline rendition="#right">[<date
+                                    notBefore="1930-11-07T17:00:00-05:00"
                                     notAfter="1930-11-08T23:59:59-05:00"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                     calendar="gregorian">undated</date>]</dateline>
@@ -36687,8 +36688,9 @@
                                 Conference on Aviation Radio Held at U. S. Customs House, New York
                                 City, April 10–11, 1930</hi></head>
                         <opener>
-                            <dateline>[<placeName>New York</placeName>, <date from="1930-04-10"
-                                    to="1930-04-11" ana="#date_undated-inferred-from-document-head"
+                            <dateline rendition="#right">[<placeName>New York</placeName>, <date
+                                    from="1930-04-10" to="1930-04-11"
+                                    ana="#date_undated-inferred-from-document-head"
                                     type="conversation-or-meeting-date" calendar="gregorian">April
                                     10–11, 1930</date>]</dateline>
                         </opener>
