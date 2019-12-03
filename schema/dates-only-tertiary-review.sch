@@ -23,6 +23,35 @@
 
     <extends href="dates-only-secondary-review.sch"/>
 
+    <pattern id="nested-datelines">
+        <title>Datelines Within Opener or Closer Checks</title>
+        <rule context="tei:dateline">
+            <assert role="error" test=".[ancestor::tei:opener or ancestor::tei:closer]"
+                sqf:fix="wrap-dateline-in-opener wrap-dateline-in-closer">All datelines should be
+                nested in either an opener or closer element.</assert>
+            <sqf:fix id="wrap-dateline-in-opener">
+                <sqf:description>
+                    <sqf:title>Wrap dateline in opener element</sqf:title>
+                </sqf:description>
+                <sqf:replace match=".">
+                    <opener xmlns="http://www.tei-c.org/ns/1.0">
+                        <sqf:copy-of select="."/>
+                    </opener>
+                </sqf:replace>
+            </sqf:fix>
+            <sqf:fix id="wrap-dateline-in-closer">
+                <sqf:description>
+                    <sqf:title>Wrap dateline in closer element</sqf:title>
+                </sqf:description>
+                <sqf:replace match=".">
+                    <closer xmlns="http://www.tei-c.org/ns/1.0">
+                        <sqf:copy-of select="."/>
+                    </closer>
+                </sqf:replace>
+            </sqf:fix>
+        </rule>
+    </pattern>
+
     <pattern id="div-doc-dateTime">
         <title>Div-level doc-dateTime Checks</title>
         <rule context="tei:div">
