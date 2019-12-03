@@ -38,6 +38,23 @@
             <classDecl>
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
+            <tagsDecl>
+                <rendition xml:id="top">vertical-align: top;</rendition>
+                <rendition xml:id="bottom">vertical-align: bottom;</rendition>
+                <rendition xml:id="middle">vertical-align: middle;</rendition>
+                <rendition xml:id="nowrap">white-space: nowrap !important;</rendition>
+                <rendition xml:id="nopad">padding-right: 0.5em !important;</rendition>
+                <rendition xml:id="border-top">border-top: 1px black solid;</rendition>
+                <rendition xml:id="border-bottom">border-bottom: 1px black solid;</rendition>
+                <rendition xml:id="border-left">border-left: 1px black solid;</rendition>
+                <rendition xml:id="border-right">border-right: 1px black solid;</rendition>
+                <rendition xml:id="center">display: block; text-align: center;</rendition>
+                <rendition xml:id="center-block">margin-left: auto; margin-right: auto;</rendition>
+                <rendition xml:id="underline">text-decoration: underline;</rendition>
+                <rendition xml:id="hanging">padding-left:1.5em; text-indent:-1.5em;</rendition>
+                <rendition xml:id="left">display: inline; float: left;</rendition>
+                <rendition xml:id="right">display: inline; float: right;</rendition>
+            </tagsDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2008-12-18 PA/HO JW: Created volume shell based on Document List and
