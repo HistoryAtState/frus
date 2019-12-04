@@ -34,9 +34,9 @@
                     <sqf:title>Wrap dateline in opener element</sqf:title>
                 </sqf:description>
                 <sqf:replace match=".">
-                    <opener xmlns="http://www.tei-c.org/ns/1.0">
-                        <sqf:copy-of select="."/>
-                    </opener>
+                    <opener xmlns="http://www.tei-c.org/ns/1.0"><xsl:text>
+                    </xsl:text><sqf:copy-of select="."/><xsl:text>
+                    </xsl:text></opener>
                 </sqf:replace>
             </sqf:fix>
             <sqf:fix id="wrap-dateline-in-closer">
@@ -44,9 +44,9 @@
                     <sqf:title>Wrap dateline in closer element</sqf:title>
                 </sqf:description>
                 <sqf:replace match=".">
-                    <closer xmlns="http://www.tei-c.org/ns/1.0">
-                        <sqf:copy-of select="."/>
-                    </closer>
+                    <closer xmlns="http://www.tei-c.org/ns/1.0"><xsl:text>
+                    </xsl:text><sqf:copy-of select="."/><xsl:text>
+                    </xsl:text></closer>
                 </sqf:replace>
             </sqf:fix>
         </rule>
