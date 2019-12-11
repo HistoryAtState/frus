@@ -1,6 +1,7 @@
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
 namespace frus = "http://history.state.gov/frus/ns/1.0"
-namespace ns1 = "http://www.isocat.org/ns/dcr"
+namespace ns1 = "http://www.w3.org/1999/xhtml"
+namespace ns2 = "http://www.isocat.org/ns/dcr"
 namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 default namespace tei = "http://www.tei-c.org/ns/1.0"
@@ -8,10 +9,10 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-12-07T17:56:23Z. .
-# TEI Edition: Version 3.4.0. Last updated on
-#	23rd July 2018, revision 1fa0b54
-# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
+# Schema generated from ODD source 2019-11-25T21:09:38Z. .
+# TEI Edition: Version 3.5.0. Last updated on
+#	29th January 2019, revision 3c0c64ec4
+# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
 #  FRUS TEI Schema Spec 
 
 #
@@ -24,7 +25,8 @@ macro.paraContent =
    | lg
    | model.lLike)*
 macro.limitedContent = (text | model.limitedPhrase | model.inter)*
-macro.phraseSeq = (text | model.gLike | model.phrase | model.global)*
+macro.phraseSeq =
+  (text | model.gLike | model.qLike | model.phrase | model.global)*
 macro.specialPara =
   (text
    | model.gLike
@@ -32,7 +34,6 @@ macro.specialPara =
    | model.inter
    | model.divPart
    | model.global)*
-data.pointer = xsd:anyURI
 att.ascribed.attributes = att.ascribed.attribute.who
 att.ascribed.attribute.who =
   
@@ -91,8 +92,15 @@ att.ranging.attribute.max =
     | xsd:decimal
   }?
 att.ranging.attribute.confidence =
-  
-  ## specifies the degree of statistical confidence (between zero and one) that a value falls within the range specified by min and max, or the proportion of observed values that fall within that range.
+  [
+    a:documentation [
+      "specifies the degree of statistical confidence (between zero and one) that a value falls within the range specified by "
+      ns1:code [ "@min" ]
+      " and "
+      ns1:code [ "@max" ]
+      ", or the proportion of observed values that fall within that range."
+    ]
+  ]
   attribute confidence { xsd:double }?
 att.dimensions.attributes =
   att.ranging.attributes,
@@ -101,7 +109,7 @@ att.dimensions.attributes =
 att.dimensions.attribute.unit =
   
   ## names the unit used for the measurement
-  ## Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inches) ; 4] lines; 5] chars (characters) 
+  ## Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inches); 4] lines; 5] chars (characters)
   attribute unit {
     
     ## (centimetres) 
@@ -130,13 +138,23 @@ att.dimensions.attribute.quantity =
   }?
 att.written.attributes = att.written.attribute.hand
 att.written.attribute.hand =
-  
-  ## points to a handNote element describing the hand considered responsible for the content of the element concerned.
+  [
+    a:documentation [
+      "points to a "
+      ns1:code [ "<handNote>" ]
+      " element describing the hand considered responsible for the content of the element concerned."
+    ]
+  ]
   attribute hand { xsd:anyURI }?
 att.cReferencing.attributes = att.cReferencing.attribute.cRef
 att.cReferencing.attribute.cRef =
-  
-  ## (canonical reference) specifies the destination of the pointer by supplying a canonical reference expressed using the scheme defined in a refsDecl element in the TEI header
+  [
+    a:documentation [
+      "(canonical reference) specifies the destination of the pointer by supplying a canonical reference expressed using the scheme defined in a "
+      ns1:code [ "<refsDecl>" ]
+      " element in the TEI header"
+    ]
+  ]
   attribute cRef { xsd:string }?
 att.datable.w3c.attributes =
   att.datable.w3c.attribute.when,
@@ -307,13 +325,13 @@ att.datcat.attributes =
 att.datcat.attribute.datcat =
   
   ## contains a PID (persistent identifier) that aligns the given element with the appropriate Data Category (or categories) in ISOcat.
-  attribute ns1:datcat {
+  attribute ns2:datcat {
     list { xsd:anyURI+ }
   }?
 att.datcat.attribute.valueDatcat =
   
   ## contains a PID (persistent identifier) that aligns the content of the given element or the value of the given attribute with the appropriate simple Data Category (or categories) in ISOcat.
-  attribute ns1:valueDatcat {
+  attribute ns2:valueDatcat {
     list { xsd:anyURI+ }
   }?
 att.divLike.attributes = empty
@@ -395,8 +413,16 @@ att.global.attribute.n =
   ## (number) gives a number (or other label) for an element, which is not necessarily unique within the document.
   attribute n { xsd:string }?
 att.global.attribute.xmllang =
-  
-  ## (language) indicates the language of the element content using a tag generated according to BCP 47.
+  [
+    a:documentation [
+      "(language) indicates the language of the element content using a tag generated according to "
+      ns1:a [
+        href = "http://www.rfc-editor.org/rfc/bcp/bcp47.txt"
+        "BCP 47"
+      ]
+      "."
+    ]
+  ]
   attribute xml:lang {
     xsd:language
     | (
@@ -549,8 +575,18 @@ att.pointing.attributes =
   att.pointing.attribute.target,
   att.pointing.attribute.evaluate
 att.pointing.attribute.targetLang =
-  
-  ## specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.
+  [
+    a:documentation [
+      "specifies the language of the content to be found at the destination referenced by "
+      ns1:code [ "@target" ]
+      ", using a language tag generated according to "
+      ns1:a [
+        href = "http://www.rfc-editor.org/rfc/bcp/bcp47.txt"
+        "BCP 47"
+      ]
+      "."
+    ]
+  ]
   attribute targetLang {
     xsd:language
     | (
@@ -678,8 +714,13 @@ att.styleDef.attribute.scheme =
       "other"
   }?
 att.styleDef.attribute.schemeVersion =
-  
-  ## supplies a version number for the style language provided in scheme.
+  [
+    a:documentation [
+      "supplies a version number for the style language provided in "
+      ns1:code [ "@scheme" ]
+      "."
+    ]
+  ]
   attribute schemeVersion {
     xsd:token { pattern = "[\d]+[a-z]*[\d]*(\.[\d]+[a-z]*[\d]*){0,3}" }
   }?
@@ -704,32 +745,6 @@ sch:pattern [
   "\x{a}" ~
   "   "
 ]
-att.tableDecoration.attributes =
-  att.tableDecoration.attribute.role,
-  att.tableDecoration.attribute.rows,
-  att.tableDecoration.attribute.cols
-att.tableDecoration.attribute.role =
-  
-  ## indicates the kind of information held in this cell or in each cell of this row.
-  ## Suggested values include: 1] label; 2] data
-  [ a:defaultValue = "data" ]
-  attribute role {
-    
-    ## labelling or descriptive information only.
-    "label"
-    | 
-      ## data values.
-      "data"
-    | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
-  }?
-att.tableDecoration.attribute.rows =
-  
-  ## indicates the number of rows occupied by this cell or row.
-  [ a:defaultValue = "1" ] attribute rows { xsd:nonNegativeInteger }?
-att.tableDecoration.attribute.cols =
-  
-  ## (columns) indicates the number of columns occupied by this cell or row.
-  [ a:defaultValue = "1" ] attribute cols { xsd:nonNegativeInteger }?
 att.transcriptional.attributes =
   att.written.attributes,
   att.transcriptional.attribute.status,
@@ -1306,7 +1321,7 @@ name =
   }
 date =
   
-  ## contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]
+  ## contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.7. Dates and Times]
   element date {
     (text | model.gLike | model.phrase | model.global)*,
     att.global.attribute.xmlid,
@@ -1323,6 +1338,7 @@ date =
     att.global.responsibility.attribute.cert,
     att.global.responsibility.attribute.resp,
     att.global.source.attribute.source,
+    att.canonical.attributes,
     att.datable.attribute.period,
     att.datable.w3c.attribute.when,
     att.datable.w3c.attribute.notBefore,
@@ -1481,79 +1497,7 @@ date =
     }?,
     
     ## Restrict @calendar values for tei:date elements
-    ## Suggested values include: 1] brazilian-republic(Official documents such as treaties may include a
-    ##                                             parallel date phrase referring to the year in relation
-    ##                                             to the establishment of the republic of Brazil.) ; 2] chinese-era(Prior to 1912, the Chinese dating system often
-    ##                                             referred to the reign or era of particular rulers of
-    ##                                             China.) ; 3] chinese-lunisolar(The Chinese calendar is a lunisolar calendar. While
-    ##                                             it has been supplanted by the Gregorian calendar for
-    ##                                             civil purposes, the Chinese calendar is still used in
-    ##                                             the determination of community events such as
-    ##                                             festivals.) ; 4] chinese-republic(Official documents such as treaties may include a
-    ##                                             parallel date phrase referring to the year in relation
-    ##                                             to the establishment of the republic of China.) ; 5] ethiopian-geez(The Ethiopian Ge’ez calendar is used in Ethiopia's
-    ##                                             civil society as well as the Orthodox Church in Ethiopia
-    ##                                             and Eritrea. The solar-based Ethiopian calendar is
-    ##                                             related to the Coptic and Julian calendars.) ; 6] gregorian(The Gregorian calendar is widely used worldwide and
-    ##                                             is the calendar system used in the international
-    ##                                             standard for dates and times (ISO 8601). The solar-based
-    ##                                             Gregorian calendar is also known as the Western calendar
-    ##                                             or Christian calendar. Because the U.S. Department of
-    ##                                             State is headquartered in the United States, the
-    ##                                             majority of datelines in FRUS refer to the Gregorian
-    ##                                             calendar or have parallel date statements.) ; 7] haitian-republic(Official documents such as treaties may include a
-    ##                                             parallel date phrase referring to the year in relation
-    ##                                             to the establishment of the republic of Haiti
-    ##                                             (originally Hayti).) ; 8] hijri(The Islamic calendar, or Hijri or Muslim calendar, is
-    ##                                             a lunar calendar, whose time reckoning is tied to the
-    ##                                             phases of the Earth's moon. The Hijri calendar is used
-    ##                                             by many Muslim-majority countries and by Muslims around
-    ##                                             the world to determine the dates of religious events and
-    ##                                             observances.) ; 9] iranian-persian(The Solar Hijri calendar, or Persian or Iranian
-    ##                                             calendar, is a solar calendar, whose time reckoning is
-    ##                                             tied to the Earth's movements around its sun. The
-    ##                                             Persian calendar is officially used in Iran and
-    ##                                             Afghanistan.) ; 10] japanese-nengō(The Japanese nengō is a periodization system that,
-    ##                                             during the FRUS timeframe, is based on the reign of
-    ##                                             Japanese emperors.) ; 11] julian(Reforming the lunar-based Roman calendar, the Julian
-    ##                                             calendar was solar-based and tied to the Earth's
-    ##                                             rotation around the sun. Proposed by Julius Ceasar, the
-    ##                                             Julian calendar was widely used throughout the Roman
-    ##                                             Empire and in Christian churches and gained dominance in
-    ##                                             Europe and European-sponsored settlements. While the
-    ##                                             Gregorian calendar was first introduced in 1582, the
-    ##                                             Julian calendar was maintained in some countries even
-    ##                                             through the 1930s. The Julian calendar is still used by
-    ##                                             the Russian Orthodox Church, the Berber people of North
-    ##                                             Africa, and on Mount Athos.) ; 12] korean-era(Korean dating systems often referred to the reign or
-    ##                                             era of particular rulers of Korea.) ; 13] korean-lunisolar(Derived from the Chinese calendar, the traditional
-    ##                                             Korean calendar is a lunisolar calendar.) ; 14] liberian-republic(Official documents such as treaties may include a
-    ##                                             parallel date phrase referencing the year of the
-    ##                                             republic of Liberia.) ; 15] masonic-anno-lucis(Among the different Masonic calendars, Anno Lucis
-    ##                                             (A.L. or A:.L:. or the year of light) is used by
-    ##                                             Freemasons in Scotland, England, Ireland, France,
-    ##                                             Germany, and the United States. The “year of light”
-    ##                                             refers to a particular Biblical interpretation of the
-    ##                                             creation of the world (~4000 BCE).) ; 16] papal-era(Papal era dates referred to the year in relation to
-    ##                                             the term of the current Catholic pope.) ; 17] roman(The Roman calendar was used by the Roman Kingdom and
-    ##                                             Roman Republic. Roman dates were referenced by their
-    ##                                             duration from one of three key days: the nones (fifth or
-    ##                                             seventh, depending on the length of the month), the ides
-    ##                                             (the thirteenth or fifteenth of a month), and the
-    ##                                             kalends (the first of the next month).) ; 18] rumi(The Rumi calendar (Rumi takvim), a hsolar calendar
-    ##                                             based on the Julian calendar but with year one
-    ##                                             corresponding to 622 A.D., This calendar was used by the
-    ##                                             Ottoman Empire and its successor, the Republic of
-    ##                                             Turkey, from 1839 to 1926. ) ; 19] thai-era(Official documents such as treaties may include a
-    ##                                             parallel date phrase referring to the year in relation
-    ##                                             to the 1782 establishment of the Rattanakosin Kingdom
-    ##                                             (Siam and, later, the Kingdom of Thailand).) ; 20] tibetan-phugpa(Introduced in 1447, the lunisolar Tibetan phugpa
-    ##                                             calendar is modified from Indian calendar systems and
-    ##                                             based on the Kālacakra Tantra. In the phugpa calendar,
-    ##                                             each year is associated with an element and an animal;
-    ##                                             pairings recur in 60-year cycles.) ; 21] us-republic(Official documents such as treaties may include a
-    ##                                             parallel date phrase referring to the year in relation
-    ##                                             to the independence of the United States (1776).) 
+    ## Suggested values include: 1] brazilian-republic (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of Brazil.); 2] chinese-era (Prior to 1912, the Chinese dating system often referred to the reign or era of particular rulers of China.); 3] chinese-lunisolar (The Chinese calendar is a lunisolar calendar. While it has been supplanted by the Gregorian calendar for civil purposes, the Chinese calendar is still used in the determination of community events such as festivals.); 4] chinese-republic (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of China.); 5] ethiopian-geez (The Ethiopian Ge’ez calendar is used in Ethiopia's civil society as well as the Orthodox Church in Ethiopia and Eritrea. The solar-based Ethiopian calendar is related to the Coptic and Julian calendars.); 6] gregorian (The Gregorian calendar is widely used worldwide and is the calendar system used in the international standard for dates and times (ISO 8601). The solar-based Gregorian calendar is also known as the Western calendar or Christian calendar. Because the U.S. Department of State is headquartered in the United States, the majority of datelines in FRUS refer to the Gregorian calendar or have parallel date statements.); 7] haitian-republic (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the establishment of the republic of Haiti (originally Hayti).); 8] hijri (The Islamic calendar, or Hijri or Muslim calendar, is a lunar calendar, whose time reckoning is tied to the phases of the Earth's moon. The Hijri calendar is used by many Muslim-majority countries and by Muslims around the world to determine the dates of religious events and observances.); 9] iranian-persian (The Solar Hijri calendar, or Persian or Iranian calendar, is a solar calendar, whose time reckoning is tied to the Earth's movements around its sun. The Persian calendar is officially used in Iran and Afghanistan.); 10] japanese-nengō (The Japanese nengō is a periodization system that, during the FRUS timeframe, is based on the reign of Japanese emperors.); 11] julian (Reforming the lunar-based Roman calendar, the Julian calendar was solar-based and tied to the Earth's rotation around the sun. Proposed by Julius Ceasar, the Julian calendar was widely used throughout the Roman Empire and in Christian churches and gained dominance in Europe and European-sponsored settlements. While the Gregorian calendar was first introduced in 1582, the Julian calendar was maintained in some countries even through the 1930s. The Julian calendar is still used by the Russian Orthodox Church, the Berber people of North Africa, and on Mount Athos.); 12] korean-era (Korean dating systems often referred to the reign or era of particular rulers of Korea.); 13] korean-lunisolar (Derived from the Chinese calendar, the traditional Korean calendar is a lunisolar calendar.); 14] liberian-republic (Official documents such as treaties may include a parallel date phrase referencing the year of the republic of Liberia.); 15] masonic-anno-lucis (Among the different Masonic calendars, Anno Lucis (A.L. or A:.L:. or the year of light) is used by Freemasons in Scotland, England, Ireland, France, Germany, and the United States. The “year of light” refers to a particular Biblical interpretation of the creation of the world (~4000 BCE).); 16] papal-era (Papal era dates referred to the year in relation to the term of the current Catholic pope.); 17] roman (The Roman calendar was used by the Roman Kingdom and Roman Republic. Roman dates were referenced by their duration from one of three key days: the nones (fifth or seventh, depending on the length of the month), the ides (the thirteenth or fifteenth of a month), and the kalends (the first of the next month).); 18] rumi (The Rumi calendar (Rumi takvim), a hsolar calendar based on the Julian calendar but with year one corresponding to 622 A.D., This calendar was used by the Ottoman Empire and its successor, the Republic of Turkey, from 1839 to 1926. ); 19] thai-era (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the 1782 establishment of the Rattanakosin Kingdom (Siam and, later, the Kingdom of Thailand).); 20] tibetan-phugpa (Introduced in 1447, the lunisolar Tibetan phugpa calendar is modified from Indian calendar systems and based on the Kālacakra Tantra. In the phugpa calendar, each year is associated with an element and an animal; pairings recur in 60-year cycles.); 21] us-republic (Official documents such as treaties may include a parallel date phrase referring to the year in relation to the independence of the United States (1776).)
     attribute calendar {
       
       ## (Official documents such as treaties may include a
@@ -1918,9 +1862,19 @@ pb =
   element pb {
     empty,
     att.global.attributes,
-    att.typed.attributes,
+    att.typed.attribute.subtype,
     att.edition.attributes,
     att.spanning.attributes,
+    
+    ## Restrict @type values for tei:pb elements
+    attribute type {
+      
+      ## (Typeset) 
+      "typeset"
+      | 
+        ## (Facsimile) 
+        "facsimile"
+    }?,
     empty
   }
 lb =
@@ -1952,7 +1906,7 @@ title =
     att.datable.attributes,
     
     ## classifies the title according to some convenient typology.
-    ## Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] short; 5] desc (descriptive) 
+    ## Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] short; 5] desc (descriptive)
     attribute type {
       xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
@@ -2142,8 +2096,17 @@ idno =
     ## categorizes the identifier, for example as an ISBN, Social Security number, etc.
     ## Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7] OCLC
     attribute type {
-      
-      ## International Standard Book Number: a 13- or (if assigned prior to 2007) 10-digit identifying number assigned by the publishing industry to a published book or similar item, registered with the International ISBN Agency.
+      [
+        a:documentation [
+          "International Standard Book Number: a 13- or (if assigned prior to 2007) 10-digit identifying number assigned by the publishing industry to a published book or similar item, registered with the "
+          ns1:a [
+            href = "https://www.isbn-international.org"
+            " International ISBN Agency."
+          ]
+          "\x{a}" ~
+          "                  "
+        ]
+      ]
       "ISBN"
       | 
         ## International Standard Serial Number: an eight-digit number to uniquely identify a serial publication.
@@ -2233,8 +2196,13 @@ tagsDecl =
   element tagsDecl {
     rendition*,
     att.global.attributes,
-    
-    ## indicates whether the element types listed exhaustively include all those found within text, or represent only a subset.
+    [
+      a:documentation [
+        "indicates whether the element types listed exhaustively include all those found within "
+        ns1:code [ "<text>" ]
+        ", or represent only a subset."
+      ]
+    ]
     attribute partial { xsd:boolean }?,
     empty
   }
@@ -2251,8 +2219,13 @@ rendition =
     attribute scope {
       xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
-    
-    ## contains a selector or series of selectors specifying the elements to which the contained style description applies, expressed in the language specified in the scheme attribute.
+    [
+      a:documentation [
+        "contains a selector or series of selectors specifying the elements to which the contained style description applies, expressed in the language specified in the "
+        ns1:code [ "@scheme" ]
+        " attribute."
+      ]
+    ]
     attribute selector { xsd:string }?,
     empty
   }
@@ -2286,8 +2259,13 @@ category =
     empty
   }
 catDesc =
-  
-  ## (category description) describes some category within a taxonomy or text typology, either in the form of a brief prose description or in terms of the situational parameters used by the TEI formal textDesc. [2.3.7. The Classification Declaration]
+  [
+    a:documentation [
+      "(category description) describes some category within a taxonomy or text typology, either in the form of a brief prose description or in terms of the situational parameters used by the TEI formal "
+      ns1:code [ "<textDesc>" ]
+      ". [2.3.7. The Classification Declaration]"
+    ]
+  ]
   element catDesc {
     (text | model.limitedPhrase | model.catDescPart)*,
     att.global.attributes,
@@ -2316,8 +2294,15 @@ change =
     empty
   }
 TEI =
-  
-  ## (TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resourceLike class. Multiple TEI elements may be combined to form a teiCorpus element. [4. Default Text Structure 15.1. Varieties of Composite Text]
+  [
+    a:documentation [
+      "(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resourceLike class. Multiple "
+      ns1:code [ "<TEI>" ]
+      " elements may be combined to form a "
+      ns1:code [ "<teiCorpus>" ]
+      " element. [4. Default Text Structure 15.1. Varieties of Composite Text]"
+    ]
+  ]
   element TEI {
     (teiHeader, model.resourceLike+)
     >> sch:ns [ prefix = "tei" uri = "http://www.tei-c.org/ns/1.0" ]
@@ -2639,7 +2624,7 @@ titlePart =
     att.global.attributes,
     
     ## specifies the role of this subdivision of the title.
-    ## Suggested values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] short; 5] desc (descriptive) 
+    ## Suggested values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] short; 5] desc (descriptive)
     [ a:defaultValue = "main" ]
     attribute type {
       
@@ -2781,8 +2766,13 @@ att.datable.custom.attribute.datingPoint =
   ## supplies a pointer to some location defining a named point in time with reference to which the datable item is understood to have occurred
   attribute datingPoint { xsd:anyURI }?
 att.datable.custom.attribute.datingMethod =
-  
-  ## supplies a pointer to a calendar element or other means of interpreting the values of the custom dating attributes.
+  [
+    a:documentation [
+      "supplies a pointer to a "
+      ns1:code [ "<calendar>" ]
+      " element or other means of interpreting the values of the custom dating attributes."
+    ]
+  ]
   attribute datingMethod { xsd:anyURI }?
 model.persNamePart = notAllowed
 model.persNamePart_alternation = notAllowed
@@ -2913,6 +2903,32 @@ affiliation =
     }?,
     empty
   }
+att.tableDecoration.attributes =
+  att.tableDecoration.attribute.role,
+  att.tableDecoration.attribute.rows,
+  att.tableDecoration.attribute.cols
+att.tableDecoration.attribute.role =
+  
+  ## indicates the kind of information held in this cell or in each cell of this row.
+  ## Suggested values include: 1] label; 2] data
+  [ a:defaultValue = "data" ]
+  attribute role {
+    
+    ## labelling or descriptive information only.
+    "label"
+    | 
+      ## data values.
+      "data"
+    | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+  }?
+att.tableDecoration.attribute.rows =
+  
+  ## indicates the number of rows occupied by this cell or row.
+  [ a:defaultValue = "1" ] attribute rows { xsd:nonNegativeInteger }?
+att.tableDecoration.attribute.cols =
+  
+  ## (columns) indicates the number of columns occupied by this cell or row.
+  [ a:defaultValue = "1" ] attribute cols { xsd:nonNegativeInteger }?
 table =
   
   ## contains text displayed in tabular form, in rows and columns. [14.1.1. TEI Tables]
@@ -2999,8 +3015,13 @@ att.global.facs.attribute.facs =
   }?
 att.global.change.attributes = att.global.change.attribute.change
 att.global.change.attribute.change =
-  
-  ## points to one or more change elements documenting a state or revision campaign to which the element bearing this attribute and its children have been assigned by the encoder.
+  [
+    a:documentation [
+      "points to one or more "
+      ns1:code [ "<change>" ]
+      " elements documenting a state or revision campaign to which the element bearing this attribute and its children have been assigned by the encoder."
+    ]
+  ]
   attribute change {
     list { xsd:anyURI+ }
   }?
@@ -3052,8 +3073,13 @@ space =
   }
 att.global.analytic.attributes = att.global.analytic.attribute.ana
 att.global.analytic.attribute.ana =
-  
-  ## (analysis) indicates one or more elements containing interpretations of the element on which the ana attribute appears.
+  [
+    a:documentation [
+      "(analysis) indicates one or more elements containing interpretations of the element on which the "
+      ns1:code [ "@ana" ]
+      " attribute appears."
+    ]
+  ]
   attribute ana {
     list { xsd:anyURI+ }
   }?
@@ -3109,7 +3135,7 @@ attachment =
     fallback?,
     
     ## pointer to the resource being included
-    attribute href { data.pointer }?,
+    attribute href { text }?,
     
     ##
     [ a:defaultValue = "xml" ]

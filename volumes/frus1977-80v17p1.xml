@@ -29,6 +29,19 @@
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
             <tagsDecl>
+                <rendition xml:id="top">vertical-align: top;</rendition>
+                <rendition xml:id="bottom">vertical-align: bottom;</rendition>
+                <rendition xml:id="middle">vertical-align: middle;</rendition>
+                <rendition xml:id="nowrap">white-space: nowrap !important;</rendition>
+                <rendition xml:id="nopad">padding-right: 0.5em !important;</rendition>
+                <rendition xml:id="border-top">border-top: 1px black solid;</rendition>
+                <rendition xml:id="border-bottom">border-bottom: 1px black solid;</rendition>
+                <rendition xml:id="border-left">border-left: 1px black solid;</rendition>
+                <rendition xml:id="border-right">border-right: 1px black solid;</rendition>
+                <rendition xml:id="center">display: block; text-align: center;</rendition>
+                <rendition xml:id="center-block">margin-left: auto; margin-right: auto;</rendition>
+                <rendition xml:id="underline">text-decoration: underline;</rendition>
+                <rendition xml:id="hanging">padding-left:1.5em; text-indent:-1.5em;</rendition>
                 <rendition xml:id="left">display: inline; float: left;</rendition>
                 <rendition xml:id="right">display: inline; float: right;</rendition>
             </tagsDecl>
@@ -4268,10 +4281,10 @@
                                     corresp="#p_BZ_1">Brzezinski</persName>)</hi>
                             <note n="3" xml:id="d12fn3">Secret. The note is handwritten.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-04-19"
-                                calendar="gregorian">April 19, 1977</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1977-04-19"
+                                    calendar="gregorian">April 19, 1977</date>
+                            </dateline></opener>
                         <p>To <persName corresp="#p_VCR_1">Cy</persName> &amp; <persName
                                 corresp="#p_BZ_1">Zbig</persName> &amp; <persName corresp="#p_BH_1"
                                 >Harold</persName>
@@ -5888,11 +5901,11 @@
                             <note n="3" xml:id="d30fn3">Limited Official Use. The memorandum of
                                 conversation is marked “Draft.”</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-09-26"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1977-09-26"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline></opener>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Djibouti: Views on Ogaden Conflict; Development Needs; Refugee
@@ -6320,10 +6333,10 @@
                                 the message. (National Archives, RG 59, Central Foreign Policy File,
                                 D770436–0774)</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1977-11-12"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>. </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1977-11-12"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>. </dateline></opener>
                         <p rend="sectiontitleital">SUGGESTED LETTER TO <persName corresp="#p_SBM_1"
                                 >SIAD</persName>:</p>
                         <p>Dear President <persName corresp="#p_SBM_1">Siad</persName>:</p>
@@ -7414,11 +7427,11 @@
                                 telegram is in the National Archives, RG 59, Central Foreign Policy
                                 File, D780035–0227.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                when="1978-01-24T02:33:00+00:00" calendar="gregorian">January 24,
-                                1978, 0233Z</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    when="1978-01-24T02:33:00+00:00" calendar="gregorian">January
+                                    24, 1978, 0233Z</date>
+                            </dateline></opener>
                         <p>18370. Subject: Five Power Meeting on the Horn of Africa.</p>
                         <p>1. Begin summary: Representatives of five Western states met in
                             Washington on January 21, 1978 to discuss the conflict in the Horn of
@@ -8926,11 +8939,11 @@
                                     Staff<note n="2" xml:id="d55fn2">Secret.</note>
                             </hi>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1978-02-10"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1978-02-10"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline></opener>
                         <p rend="center">
                             <hi rend="italic">POLICY TOWARD THE HORN</hi>
                         </p>
@@ -17142,10 +17155,10 @@
                                 Files. Secret; [<hi rend="italic">handling restriction not
                                     declassified</hi>].</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1979-07-31"
-                                calendar="gregorian">July 31, 1979</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1979-07-31"
+                                    calendar="gregorian">July 31, 1979</date>
+                            </dateline></opener>
                         <p rend="center">Djibouti: Prospects for Stability and Implications of US
                             use of Facilities</p>
                         <p>[Omitted here are a title page and table of contents.]</p>
@@ -18366,13 +18379,13 @@
                             <hi rend="strong">Presidential Finding</hi>
                             <note n="5" xml:id="d104fn5">Secret; Sensitive.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                notBefore="1980-04-07T00:00:00-05:00"
-                                notAfter="1980-04-11T23:59:59-05:00"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1980-04-07T00:00:00-05:00"
+                                    notAfter="1980-04-11T23:59:59-05:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline></opener>
                         <p rend="sectiontitleital">Finding Pursuant to Section 662 of the Foreign
                             Assistance Act of 1961, As Amended, Concerning Operations Undertaken by
                             the Central Intelligence Agency in Foreign Countries, Other Than Those
@@ -19045,13 +19058,13 @@
                                 Special Coordination Committee</hi>
                             <note n="5" xml:id="d110fn5">Secret.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                notBefore="1980-11-07T00:00:00-04:00"
-                                notAfter="1980-11-25T23:59:59-05:00"
-                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener><dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    notBefore="1980-11-07T00:00:00-04:00"
+                                    notAfter="1980-11-25T23:59:59-05:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>
+                            </dateline></opener>
                         <list type="subject">
                             <head>SUBJECT</head>
                             <item>Expanded Support to Ethiopian Oppositionists</item>

@@ -241,7 +241,7 @@
                 in square brackets: "[]". Only use in the rare circumstance that the volume has a
                 block of unnumbered documents outside the normal stream of numbered
                 documents.</assert>
-            <assert test="matches(./@n, '^\[.+?\]$') or ./@n castable as xs:integer">Non-number
+            <assert test="matches(./@n, '^\[.+?\]$') or ./@n castable as xs:integer" role="warning">Non-number
                 component found in document number "<value-of select="@n"/>"</assert>
         </rule>
         <rule context="tei:body">

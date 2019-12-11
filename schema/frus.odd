@@ -961,7 +961,7 @@
                                     <item>A 04. Add div/@subtype="referral"</item>
                                     <item>A 05. Add timezone indicators to date attributes [initial
                                         pass]</item>
-                                    <item>A 06. Add FRUS documents dateTimes (min/max) [initial
+                                    <item>A 06. Add FRUS document dateTimes (min/max) [initial
                                         pass]</item>
                                 </list>
                             </item>
@@ -987,18 +987,18 @@
                                         pass]</item>
                                     <item>C 15. Add/update FRUS documents dateTimes (min/max)
                                         [tertiary pass]</item>
-                                    <item>C 16. Add FRUS compilations/chapter/subchapter dateTimes
-                                        (min/max)</item>
                                 </list>
                             </item>
-                            <item>Apply transformations for penultimate pass [D]<list>
-                                    <item>D 17. Add FRUS volume dateTimes in
+                            <item>Apply transformations for penultimate pass [D and E]<list>
+                                    <item>D 16. Add FRUS compilations/chapter/subchapter dateTimes
+                                        (min/max)</item>
+                                    <item>E 17. Add FRUS volume dateTimes in
                                         xenoData/frus:coverage</item>
                                 </list>
                             </item>
-                            <item>Apply transformations for final pass [E]<list>
-                                    <item>E 18. Add FRUS section/toc dateTimes (min/max)</item>
-                                    <item>E 19. Add FRUS editorial-notes dateTimes (min/max)</item>
+                            <item>Apply transformations for final pass [F and G]<list>
+                                    <item>F 18. Add FRUS section/toc dateTimes (min/max)</item>
+                                    <item>G 19. Add FRUS editorial-notes dateTimes (min/max)</item>
                                 </list>
                             </item>
                         </list></item>
@@ -1013,7 +1013,7 @@
                 says what element(s) are allowed as the root element of documents 
                 conforming to this schema. There is no official default, but Roma 
                 behave as if the default is "teiCorpus TEI".-->
-                <schemaSpec ident="frus" start="TEI" source="tei:3.4.0">
+                <schemaSpec ident="frus" start="TEI" source="tei:3.5.0">
 
 
 
@@ -1486,6 +1486,25 @@
                         </attList>
                     </elementSpec>
 
+                    <!-- 
+                    constrain tei:pb/@type
+                    -->
+                    <elementSpec ident="pb" module="core" mode="change">
+                        <attList>
+                            <attDef ident="type" usage="opt" mode="replace">
+                                <desc>Restrict @type values for tei:pb elements</desc>
+                                <valList type="closed">
+                                    <valItem ident="typeset">
+                                        <gloss>Typeset</gloss>
+                                    </valItem>
+                                    <valItem ident="facsimile">
+                                        <gloss>Facsimile</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                        </attList>
+                    </elementSpec>
+                    
                     <!-- 
                     constrain tei:date/@ana | @calendar
                     -->

@@ -2574,8 +2574,8 @@
                         </closer>
                     </div>
                     <div type="document" xml:id="d5" n="5" subtype="historical-document"
-                        frus:doc-dateTime-min="1969-04-01T00:00:00-05:00"
-                        frus:doc-dateTime-max="1969-04-01T23:59:59-05:00">
+                        frus:doc-dateTime-min="1969-04-01T12:24:00-05:00"
+                        frus:doc-dateTime-max="1969-04-01T12:41:00-05:00">
                         <head>5. Memorandum of Conversation<note n="1" xml:id="d5fn1" type="source"
                                 >Source: National Archives, <persName corresp="#p_NRM1"
                                     >Nixon</persName> Presidential Materials, White House Special
@@ -2591,7 +2591,9 @@
                                 died on March 28.</note>
                         </head>
                         <opener><dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1969-04-01"
+                                <placeName>Washington</placeName>, <date
+                                    from="1969-04-01T12:24:00-05:00" to="1969-04-01T12:41:00-05:00"
+                                    ana="#date_imprecise-inferred-from-editorial-annotation"
                                     type="conversation-or-meeting-date" calendar="gregorian">April
                                     1, 1969</date>.</dateline></opener>
                         <list type="participants">
@@ -4935,8 +4937,8 @@
                     </div>
                     <pb n="47" xml:id="pg_47" facs="0074"/>
                     <div type="document" xml:id="d21" n="21" subtype="historical-document"
-                        frus:doc-dateTime-min="1969-05-01T00:00:00-05:00"
-                        frus:doc-dateTime-max="1969-05-01T23:59:59-05:00">
+                        frus:doc-dateTime-min="1969-05-01T10:29:00-05:00"
+                        frus:doc-dateTime-max="1969-05-01T11:26:00-05:00">
                         <head>21. Memorandum of Conversation<note n="1" xml:id="d21fn1"
                                 type="source">Source: National Archives, <persName corresp="#p_NRM1"
                                     >Nixon</persName> Presidential Materials, White House Special
@@ -4958,7 +4960,9 @@
                                 Box 540, Far East, Korea, Vol. I, to 9–69)</note>
                         </head>
                         <opener><dateline rendition="#right">
-                                <placeName>Washington</placeName>, <date when="1969-05-01"
+                                <placeName>Washington</placeName>, <date
+                                    from="1969-05-01T11:29:00-04:00" to="1969-05-01T12:26:00-04:00"
+                                    ana="#date_imprecise-inferred-from-editorial-annotation"
                                     type="conversation-or-meeting-date" calendar="gregorian">May 1,
                                     1969</date>.</dateline></opener>
                         <list type="participants">
