@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <app>
+        <name>frus</name>
+        <url>http://history.state.gov/ns/data/frus</url>
+        <title>FRUS (data)</title>
+        <version>0.5.0</version>
+    </app>
+    <trigger>
+        <provider-url>
+            <dev>failover:tcp://10.0.1.114:61616</dev>
+            <prod>failover:tcp://10.0.1.131:61616</prod>
+        </provider-url>
+        <destination>
+            <dev>dynamicTopics/hsg-replication</dev>
+            <prod>dynamicTopics/hsg-replication</prod>
+        </destination>
+    </trigger>
+</root>
