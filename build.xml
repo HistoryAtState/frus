@@ -6,6 +6,10 @@
     <target name="clean">
         <echo message="Deleting xar files..."/>
         <delete dir="${build.dir}"/>
+    </target>
+    
+    <target name="prepare">
+        <echo message="Creating build folder..."/>
         <mkdir dir="${build.dir}"/>
     </target>
     
@@ -18,8 +22,8 @@
         </copy>
     </target>
     
-    <target name="apply-filters">
-        <echo message="Apply values to expath-pgk.xml..."/>
+    <target name="apply-filters-to-expath-pkg">
+        <echo message="Apply values to expath-pkg.xml..."/>
         <copy todir="${build.dir}/${app.name}-${app.version}" overwrite="true" verbose="true">
             <fileset file="expath-pkg.xml.tmpl"/>
             <filterset>
@@ -70,11 +74,11 @@
         </copy>
     </target>
     
-    <target name="xar-dev" depends="clean" description="target to create application XAR files for DEV environment">
+    <target name="xar-dev" depends="clean,prepare" description="create xar files for DEV environment">
         <antcall target="copy"/>
-        <antcall target="apply-filters"/>
+        <antcall target="apply-filters-to-expath-pkg"/>
         <echo message="------------------------------------------------------------"/>
-        <echo message="Creating DEV 'consumer' xar package..."/>
+        <echo message="Creating DEV 'consumer' xar file..."/>
         <echo message="------------------------------------------------------------"/>
         
         <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}-consumer-dev.xar">
@@ -85,7 +89,7 @@
         <antcall target="apply-filters-to-producer-dev"/>
         
         <echo message="------------------------------------------------------------"/>
-        <echo message="Creating DEV 'producer' xar package containing triggers..."/>
+        <echo message="Creating DEV 'producer' xar file containing triggers..."/>
         <echo message="------------------------------------------------------------"/>
         
         <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}-producer-dev.xar">
@@ -94,12 +98,12 @@
         <delete dir="${build.dir}/${app.name}-${app.version}"/>
     </target>
     
-    <target name="xar-prod" depends="clean" description="target to create application XAR files for PROD environment">
+    <target name="xar-prod" depends="clean,prepare" description="create xar files for PROD environment">
         <antcall target="copy"/>
-        <antcall target="apply-filters"/>
+        <antcall target="apply-filters-to-expath-pkg"/>
         
         <echo message="------------------------------------------------------------"/>
-        <echo message="Creating PROD 'consumer' xar package..."/>
+        <echo message="Creating PROD 'consumer' xar file..."/>
         <echo message="------------------------------------------------------------"/>
         
         <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}-consumer.xar">
@@ -110,7 +114,7 @@
         <antcall target="apply-filters-to-producer-prod"/>
         
         <echo message="------------------------------------------------------------"/>
-        <echo message="Creating PROD 'producer' xar package containing triggers..."/>
+        <echo message="Creating PROD 'producer' xar file containing triggers..."/>
         <echo message="------------------------------------------------------------"/>
         
         <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}-producer.xar">
@@ -120,11 +124,11 @@
         <delete dir="${build.dir}/${app.name}-${app.version}"/>
     </target>
     
-    <target name="xar" depends="clean" description="main target to create application XAR files">
+    <target name="xar" depends="clean,prepare" description="create xar file">
         <antcall target="copy"/>
-        <antcall target="apply-filters"/>
+        <antcall target="apply-filters-to-expath-pkg"/>
         <echo message="------------------------------------------------------------"/>
-        <echo message="Creating xar package..."/>
+        <echo message="Creating xar file..."/>
         <echo message="------------------------------------------------------------"/>
         
         <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}.xar">
