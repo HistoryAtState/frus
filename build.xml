@@ -18,18 +18,6 @@
         </copy>
     </target>
     
-    <target name="copy-with-replication-trigger">
-        <echo message="Copying the files to the build folder..."/>
-        <copy todir="${build.dir}/${app.name}-${app.version}">
-            <fileset dir="${basedir}">
-                <exclude name="${build.dir}/**"/>
-                <exclude name="code-tables.xconf"/>
-                <exclude name="bibliography.xconf"/>
-                <exclude name="volumes.xconf"/>
-            </fileset>
-        </copy>
-    </target>
-    
     <target name="apply-filters">
         <echo message="Apply values to expath-pgk.xml..."/>
         <copy todir="${build.dir}/${app.name}-${app.version}" overwrite="true" verbose="true">
@@ -89,19 +77,18 @@
         <echo message="Creating DEV 'consumer' xar package..."/>
         <echo message="------------------------------------------------------------"/>
         
-        <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}-consumer.xar">
+        <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}-consumer-dev.xar">
             <exclude name="${build.dir}/**"/>
             <exclude name="**/*.tmpl"/>
         </zip>
         
-        <antcall target="copy-with-replication-trigger"/>
         <antcall target="apply-filters-to-producer-dev"/>
         
         <echo message="------------------------------------------------------------"/>
         <echo message="Creating DEV 'producer' xar package containing triggers..."/>
         <echo message="------------------------------------------------------------"/>
         
-        <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}-producer.xar">
+        <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}-producer-dev.xar">
             <exclude name="**/*.tmpl"/>
         </zip>
         <delete dir="${build.dir}/${app.name}-${app.version}"/>
@@ -120,7 +107,6 @@
             <exclude name="**/*.tmpl"/>
         </zip>
         
-        <antcall target="copy-with-replication-trigger"/>
         <antcall target="apply-filters-to-producer-prod"/>
         
         <echo message="------------------------------------------------------------"/>
