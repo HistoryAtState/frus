@@ -276,8 +276,8 @@
     <pattern id="undated-analytics-mismatch">
         <rule context="tei:date[matches(., '(undated|no date|not dated)')]/@ana">
             <assert test=".[contains(., 'undated')]" role="warn">This undated date has been given an
-                @ana value of <value-of select="."/>. Please verify that the @ana value should not
-                start with "#date_undated-..." instead.</assert>
+                @ana value of <value-of select="."/>. Please verify that the date/@ana value should
+                not start with "#date_undated-..." instead.</assert>
         </rule>
     </pattern>
 
