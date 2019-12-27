@@ -49,19 +49,4 @@
                 our dates, there's no point in using this range index. -->
         </range>
     </index>
-		<!-- Replication -->
-<!-- 
-    <triggers>
-        <trigger class="org.exist.jms.replication.publish.ReplicationTrigger">
-
-            <parameter name="java.naming.factory.initial" value="org.apache.activemq.jndi.ActiveMQInitialContextFactory"/>
-
-            <parameter name="java.naming.provider.url" value="failover:(tcp://10.0.1.131:61616,tcp://10.0.2.236:61616)"/>
-
-            <parameter name="connection-factory" value="ConnectionFactory"/>
-
-            <parameter name="destination" value="dynamicTopics/hsg-replication"/>
-        </trigger>
-		</triggers>
--->
 </collection>
