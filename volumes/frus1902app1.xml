@@ -592,7 +592,9 @@
                     finally released without trial.</head>
                 <pb n="[10]" xml:id="pg_10" facs="0020"/>
                 <pb n="11" xml:id="pg_11" facs="0021"/>
-                <div type="chapter" xml:id="ch01a">
+                <div type="chapter" subtype="historical-document" xml:id="ch01a"
+                    frus:doc-dateTime-min="1891-12-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1900-09-01T23:59:59-05:00">
                     <head>The Cape Horn Pigeon, American whaling bark, arrested and seized in the
                         Sea of Okhotsk by an armed vessel of the Imperial Russian Government, taken
                         to Vladivostok, detained there until the end of the whaling season, and
@@ -3305,14 +3307,23 @@
                                         seventieth.</cell>
                                 </row>
                             </table>
-                            <p rend="right"><hi rend="smallcaps">District and Port of San
-                                    Francisco,<lb/>Collector’s Office</hi>,<lb/><hi rend="italic"
-                                    >February 28, 1893.</hi></p>
-                            <p>I hereby certify the above to be a true copy of the original on file
-                                in this office.</p>
-                            <closer><signed><hi rend="smallcaps">M. Webber</hi>, <hi rend="italic"
-                                        >Deputy Collector</hi>.</signed><lb/>(Initialed) <signed>A.
-                                    W. B.</signed></closer>
+                            <postscript>
+                                <opener>
+                                    <dateline rendition="#right"><hi rend="smallcaps">District and
+                                            Port of <placeName>San
+                                            Francisco</placeName>,<lb/>Collector’s Office</hi>,<lb/>
+                                        <date when="1893-02-28" calendar="gregorian"><hi
+                                                rend="italic">February 28,
+                                        1893</hi></date>.</dateline>
+                                </opener>
+                                <p>I hereby certify the above to be a true copy of the original on
+                                    file in this office.</p>
+                                <closer>
+                                    <signed><hi rend="smallcaps">M. Webber</hi>, <hi rend="italic"
+                                            >Deputy Collector</hi>.</signed><lb/>(Initialed)
+                                        <signed>A. W. B.</signed>
+                                </closer>
+                            </postscript>
                         </frus:attachment>
                     </div>
                     <div type="document" xml:id="d5" n="5" subtype="historical-document"
@@ -8145,7 +8156,7 @@
                         </frus:attachment>
                         <pb n="74" xml:id="pg_74" facs="0086"/>
                         <frus:attachment>
-                            <head>Exhibit V<lb/>
+                            <head ana="#head_untitled-inferred-from-preceding-sibling-head">EXHIBIT V.<lb/>
                                 <hi rend="smallcaps">Annex</hi> 5.</head>
                             <p rend="center"><hi rend="italic">Bark Cape Horn Pigeon—Owners’ outward
                                     account, 1891, inward account, and interest account to February
@@ -9442,7 +9453,7 @@
                             <p>(Initialed) W. F. C.</p>
                         </frus:attachment>
                         <frus:attachment>
-                            <head ana="#head_untitled-inferred-from-preceding-sibling-head">Exhibit V<lb/>
+                            <head ana="#head_untitled-inferred-from-preceding-sibling-head">EXHIBIT V.<lb/>
                                 <hi rend="smallcaps">Annex</hi> 6.</head>
                             <p rend="center"><hi rend="italic">Bark Cape Horn Pigeon—Owners’ outward
                                     account, 1892, inward account, and interest account to January
@@ -10555,7 +10566,7 @@
                                 R. Wing.<lb/> Exhibit 7.<lb/> (Initialed) W. F. C. </closer>
                         </frus:attachment>
                         <frus:attachment>
-                            <head ana="#head_untitled-inferred-from-preceding-sibling-head">EXHIBIT V<lb/>
+                            <head ana="#head_untitled-inferred-from-preceding-sibling-head">EXHIBIT V.<lb/>
                                 <hi rend="smallcaps">Annex</hi> 7.</head>
                             <p rend="center"><hi rend="italic">Bark Cape Horn Pigeon and owners.
                                     Outward account, 1893, inward account, and interest account to
@@ -11680,7 +11691,7 @@
                                         1893</hi></date>.</dateline></closer>
                         </frus:attachment>
                         <frus:attachment>
-                            <head ana="#head_untitled-inferred-from-preceding-sibling-head">EXHIBIT V<lb/>
+                            <head ana="#head_untitled-inferred-from-preceding-sibling-head">EXHIBIT V.<lb/>
                                 <hi rend="smallcaps">Annex</hi> 8.</head>
                             <p rend="center">Captain and owners <hi rend="italic">Cape Horn
                                     Pigeon</hi> in account with the undersigned:</p>
@@ -18962,7 +18973,8 @@
                         <lb/>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">John
                                 Hay.</hi></signed></closer>
                     <frus:attachment>
-                        <opener><seg rendition="#center">[Copy.]</seg></opener>
+                        <opener>
+                            <seg rendition="#center">[Copy.]</seg></opener>
                         <head><hi rend="smallcaps">United States of America.</hi></head>
                         <p rend="flushleft"><hi rend="italic">To the Secretary of State:</hi></p>
                         <p>On behalf of the owners, master, and crew of the American schooner <hi
