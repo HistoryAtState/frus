@@ -4729,15 +4729,15 @@
                         </postscript>
                     </div>
                     <div type="document" subtype="historical-document" n="26" xml:id="d26"
-                        frus:doc-dateTime-min="1899-01-21T00:00:00-05:00"
-                        frus:doc-dateTime-max="1899-01-21T23:59:59-05:00">
+                        frus:doc-dateTime-min="1899-02-08T00:00:00-05:00"
+                        frus:doc-dateTime-max="1899-02-08T23:59:59-05:00">
                         <head>EXHIBIT T.</head>
                         <opener><dateline rendition="#right"><placeName><hi rend="smallcaps">Embassy
                                         of the United States</hi>,<lb/><hi rend="italic">St.
-                                        Petersburg</hi></placeName>, <date when="1899-01-21"
-                                    calendar="gregorian"><hi rend="italic">January 21</hi> (<hi
-                                        rend="italic">February 8</hi>), <hi rend="italic"
-                                    >1899</hi></date>.</dateline></opener>
+                                        Petersburg</hi></placeName>, <date when="1899-02-08"
+                                    calendar="julian gregorian"><hi rend="italic">January 21</hi>
+                                        (<hi rend="italic">February 8</hi>), <hi rend="italic"
+                                        >1899</hi></date>.</dateline></opener>
                         <p><hi rend="smallcaps">Your Excellency</hi>: The seizure of certain
                             American vessels, namely, the <hi rend="italic">Cape Horn Pigeon</hi>,
                             the <hi rend="italic">James Hamilton Lewis</hi>, the <hi rend="italic"
@@ -4890,8 +4890,16 @@
                                         Secretary United States Embassy.</hi></signed></closer>
                         </frus:attachment>
                     </div>
-                    <div type="document" subtype="historical-document" n="28" xml:id="d28">
+                    <div type="document" subtype="historical-document" n="28" xml:id="d28"
+                        frus:doc-dateTime-min="1892-09-10T00:00:00-05:00"
+                        frus:doc-dateTime-max="1892-09-10T23:59:59-05:00">
                         <head>EXHIBIT V.</head>
+                        <opener>
+                            <dateline>[<date when="1892-09-10" type="content-date"
+                                    calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content">September 10,
+                                    1892</date>]</dateline>
+                        </opener>
                         <p rend="flushleft">In the matter of the claim of the United States of
                             America against the Empire of Russia on account of the claim of J. and
                             W. R. Wing, agents and managing owners of the bark <hi rend="italic"
@@ -22373,20 +22381,41 @@
                                 the confiscation and sale of the schooner in question.</p>
                         </frus:attachment>
                     </div>
-                    <div type="document" subtype="historical-document" n="68" xml:id="d68">
+                    <div type="document" subtype="historical-document" n="68" xml:id="d68"
+                        frus:doc-dateTime-min="1900-11-23T00:00:00-05:00"
+                        frus:doc-dateTime-max="1900-11-23T23:59:59-05:00">
                         <head>EXHIBIT O.</head>
                         <note type="inline" rendition="#left">Identical with Exhibit C C, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1900-11-23" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content">November 23,
+                                    1900</date>]</dateline>
+                        </opener>
                     </div>
-                    <div type="document" subtype="historical-document" n="69" xml:id="d69">
+                    <div type="document" subtype="historical-document" n="69" xml:id="d69"
+                        frus:doc-dateTime-min="1882-05-08T00:00:00-05:00"
+                        frus:doc-dateTime-max="1882-05-08T23:59:59-05:00">
                         <head>EXHIBIT P.</head>
                         <note type="inline" rendition="#left">Identical with Exhibit E E, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1882-05-08" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content">May 8,
+                                    1882</date>]</dateline>
+                        </opener>
                     </div>
-                    <div type="document" subtype="historical-document" n="70" xml:id="d70">
+                    <div type="document" subtype="historical-document" n="70" xml:id="d70"
+                        frus:doc-dateTime-min="1882-06-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1882-06-01T23:59:59-05:00">
                         <head>EXHIBIT Q.</head>
                         <note type="inline" rendition="#left">Identical with Exhibit F F., <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1882-06-01" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content">June 1,
+                                    1882</date>]</dateline>
+                        </opener>
                     </div>
                     <pb n="202" xml:id="pg_202" facs="0222"/>
                     <div type="document" subtype="historical-document" n="71" xml:id="d71"
@@ -24967,7 +24996,8 @@
                                     >Master.</hi></signed></closer>
                         <closer>
                             <dateline rendition="#left">Sworn to before me <date when="1892-05-06"
-                                    >this 6th day of May, 1892</date>.</dateline>
+                                    calendar="gregorian">this 6th day of May,
+                                1892</date>.</dateline>
                             <signed><hi rend="smallcaps">John T. Dare</hi>,<lb/><hi rend="italic"
                                     >Deputy Collector of Customs.</hi></signed>
                         </closer>
@@ -25238,8 +25268,8 @@
                             <closer>
                                 <dateline rendition="#left">Subscribed and sworn to by the said
                                     Johan H. C. Prien, known to me to be a credible witness, before
-                                    me <date when="1892-11-03">this 3d day of
-                                    November</date>.</dateline><lb/>
+                                    me <date when="1892-11-03" calendar="gregorian">this 3d day of
+                                        November</date>.</dateline><lb/>
                                 <signed><hi rend="smallcaps">Harry J. Lask</hi>,<lb/><hi
                                         rend="italic">Notary Public in and for the City and County
                                         of San Francisco, State of California.</hi></signed>
@@ -25355,7 +25385,8 @@
                         <closer>
                             <dateline>Subscribed and sworn to by the said Lawrence M. Furman, known
                                 to me to be a credible witness, before me <date when="1892-11-03"
-                                    >this 3d day of November, A. D. 1892</date>.</dateline><lb/>
+                                    calendar="gregorian">this 3d day of November, A. D.
+                                1892</date>.</dateline><lb/>
                             <signed><hi rend="smallcaps">Harry J. Lask</hi>,<lb/><hi rend="italic"
                                     >Notary Public in and for the City and County of San Francisco,
                                     State of California.</hi></signed>
@@ -25580,8 +25611,8 @@
                             <closer>
                                 <dateline rendition="#left">Subscribed and sworn to before me by the
                                     said Lawrence M. Furman, known to me to be a credible witness,
-                                        <date when="1893-01-24">this 24th day of January, A. D.
-                                        1893</date>.</dateline><lb/>
+                                        <date when="1893-01-24" calendar="gregorian">this 24th day
+                                        of January, A. D. 1893</date>.</dateline><lb/>
                                 <seg rendition="#left">[<hi rend="smallcaps">seal.</hi>]</seg>
                                 <signed rendition="#right"><hi rend="smallcaps">Harry J.
                                         Lask</hi>,<lb/><hi rend="italic">Notary Public in and for
@@ -25815,8 +25846,8 @@
                             <closer>
                                 <dateline rendition="#left">Subscribed and sworn to before me by the
                                     said Andrew Roning, known to me to be a credible witness, <date
-                                        when="1893-01-24">this 24th day of January, A. D.
-                                        1893</date>.</dateline><lb/>
+                                        when="1893-01-24" calendar="gregorian">this 24th day of
+                                        January, A. D. 1893</date>.</dateline><lb/>
                                 <seg rendition="#left">[<hi rend="smallcaps">seal.</hi>]</seg>
                                 <signed rendition="#right"><hi rend="smallcaps">Harry J.
                                         Lask</hi>,<lb/><hi rend="italic">Notary Public in and for
@@ -26125,9 +26156,9 @@
                                 <dateline rendition="#left">Subscribed and sworn to before me by the
                                     said Niels Wolfgang, known to me to be a credible witness, <date
                                         when="1893-01-24"
-                                        ana="#date_apparent-typo-based-on-document-content">this
-                                        24th day of January, A. D. 1892 [<hi rend="italic"
-                                        >sic</hi>]</date>.</dateline><lb/>
+                                        ana="#date_apparent-typo-based-on-document-content"
+                                        calendar="gregorian">this 24th day of January, A. D. 1892
+                                            [<hi rend="italic">sic</hi>]</date>.</dateline><lb/>
                                 <seg rendition="#left">[<hi rend="smallcaps">seal.</hi>]</seg>
                                 <signed rendition="#right"><hi rend="smallcaps">Harry J.
                                         Lask</hi>,<lb/><hi rend="italic">Notary Public in and for
@@ -26136,7 +26167,9 @@
                             </closer>
                         </frus:attachment>
                     </div>
-                    <div type="document" subtype="historical-document" n="97" xml:id="d97">
+                    <div type="document" subtype="historical-document" n="97" xml:id="d97"
+                        frus:doc-dateTime-min="1892-09-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1892-09-01T23:59:59-05:00">
                         <head>EXHIBIT K.</head>
                         <p>[Stamp.]</p>
                         <p rend="center">[James G. Swan, Port Townsend, Jefferson County, Wash.]</p>
@@ -26274,18 +26307,21 @@
                                 xml:id="pg_244" facs="0264"/>obligations, so that no part of any
                             losses, damages, injuries, or expenses already incurred Or hereafter to
                             be incurred do fall on him, the said master, his officers, or crew.</p>
-                        <p>Thus done and protested in Port Townsend this 1st day of September. A. D.
-                            1892.</p>
-                        <p>In testimony whereof, as well as the said appearers, I, the notary, have
-                            subscribed these presents, and I have also caused my seal of office to
-                            be hereunto affixed the day and year before written.</p>
-                        <closer>[<hi rend="smallcaps">seal.</hi>] <signed><hi rend="smallcaps">James
-                                    G. Swan</hi>, <hi rend="italic">Notary
-                            Public.</hi></signed><lb/>Signatures of appearers:<lb/><signed><hi
-                                    rend="smallcaps">L. M. Furman</hi>, <hi rend="italic"
-                                    >Master</hi>.<lb/><hi rend="smallcaps">Andrews Romney</hi>, <hi
-                                    rend="italic">Mate</hi>.<lb/><hi rend="smallcaps">Niels
-                                    Wolfgang</hi>, <hi rend="italic">Hunter.</hi></signed></closer>
+                        <closer>
+                            <dateline rendition="#left">Thus done and protested in Port Townsend
+                                    <date when="1892-09-01" calendar="gregorian">this 1st day of
+                                    September. A. D. 1892</date>.</dateline><lb/> In testimony
+                            whereof, as well as the said appearers, I, the notary, have subscribed
+                            these presents, and I have also caused my seal of office to be hereunto
+                            affixed the day and year before written. <seg rendition="#left">[<hi
+                                    rend="smallcaps">seal.</hi>]</seg>
+                            <signed rendition="#right"><hi rend="smallcaps">James G. Swan</hi>, <hi
+                                    rend="italic">Notary Public.</hi></signed><lb/> Signatures of
+                                    appearers:<lb/><signed><hi rend="smallcaps">L. M. Furman</hi>,
+                                    <hi rend="italic">Master</hi>.<lb/><hi rend="smallcaps">Andrews
+                                    Romney</hi>, <hi rend="italic">Mate</hi>.<lb/><hi
+                                    rend="smallcaps">Niels Wolfgang</hi>, <hi rend="italic"
+                                    >Hunter.</hi></signed></closer>
                         <frus:attachment>
                             <p rend="flushleft"><hi rend="smallcaps">State of
                                     Washington</hi>,<lb/><hi rend="italic">County of Jefferson, City
@@ -26300,12 +26336,20 @@
                                         Townsend.</hi></signed></closer>
                         </frus:attachment>
                     </div>
-                    <div type="document" subtype="historical-document" n="98" xml:id="d98">
+                    <div type="document" subtype="historical-document" n="98" xml:id="d98"
+                        frus:doc-dateTime-min="1892-09-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1894-12-26T23:59:59-05:00">
                         <pb n="[Map 7]" xml:id="pg-seq-0265-map-7" facs="0265"/>
                         <figure>
                             <graphic url="figure_0265"/>
                         </figure>
                         <head>EXHIBIT L.</head>
+                        <opener>
+                            <dateline>[<date notBefore="1892-09-01T00:00:00-05:00"
+                                    notAfter="1894-12-26T23:59:59-05:00" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-sibling-dates"
+                                >undated</date>]</dateline>
+                        </opener>
                         <p>Chart T of the United States Coast Survey.</p>
                     </div>
                     <div type="document" subtype="historical-document" n="99" xml:id="d99"
@@ -26414,30 +26458,78 @@
                                         Embassy.</hi></signed></closer>
                         </frus:attachment>
                     </div>
-                    <div type="document" subtype="historical-document" n="100" xml:id="d100">
+                    <div type="document" subtype="historical-document" n="100" xml:id="d100"
+                        frus:doc-dateTime-min="1895-10-12T00:00:00-05:00"
+                        frus:doc-dateTime-max="1895-10-12T23:59:59-05:00">
                         <head>EXHIBIT N.</head>
-                        <p>Identical with Exhibit S, <hi rend="italic">Cape Horn Pigeon.</hi></p>
+                        <note type="inline" rendition="#left">Identical with Exhibit S, <hi
+                                rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1895-10-12" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content">October 12,
+                                    1895</date>]</dateline>
+                        </opener>
                     </div>
-                    <div type="document" subtype="historical-document" n="101" xml:id="d101">
+                    <div type="document" subtype="historical-document" n="101" xml:id="d101"
+                        frus:doc-dateTime-min="1899-02-08T00:00:00-05:00"
+                        frus:doc-dateTime-max="1899-02-08T23:59:59-05:00">
                         <head>EXHIBIT O.</head>
-                        <p>Identical with Exhibit T, <hi rend="italic">Cape Horn Pigeon.</hi></p>
+                        <note type="inline" rendition="#left">Identical with Exhibit T, <hi
+                                rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1899-02-08" calendar="julian gregorian"
+                                    ana="#date_undated-inferred-from-document-content">January 21
+                                        (<hi rend="italic">February 8</hi>), 1899</date>]</dateline>
+                        </opener>
                     </div>
-                    <div type="document" subtype="historical-document" n="102" xml:id="d102">
+                    <div type="document" subtype="historical-document" n="102" xml:id="d102"
+                        frus:doc-dateTime-min="1899-03-13T00:00:00-05:00"
+                        frus:doc-dateTime-max="1899-03-13T23:59:59-05:00">
                         <head>EXHIBIT P.</head>
-                        <p>Identical with Exhibit U, <hi rend="italic">Cape Horn Pigeon.</hi></p>
+                        <note type="inline" rendition="#left">Identical with Exhibit U, <hi
+                                rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1899-03-13" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content"><hi
+                                        rend="italic">March 13, 1899.</hi></date>]</dateline>
+                        </opener>
                     </div>
-                    <div type="document" subtype="historical-document" n="103" xml:id="d103">
+                    <div type="document" subtype="historical-document" n="103" xml:id="d103"
+                        frus:doc-dateTime-min="1900-11-23T00:00:00-05:00"
+                        frus:doc-dateTime-max="1900-11-23T23:59:59-05:00">
                         <head>EXHIBIT Q.</head>
-                        <p>Identical with Exhibit C C, <hi rend="italic">Cape Horn Pigeon.</hi></p>
+                        <note type="inline" rendition="#left">Identical with Exhibit C C, <hi
+                                rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1900-11-23" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content">November 23,
+                                    1900</date>]</dateline>
+                        </opener>
                     </div>
-                    <div type="document" subtype="historical-document" n="104" xml:id="d104">
+                    <div type="document" subtype="historical-document" n="104" xml:id="d104"
+                        frus:doc-dateTime-min="1882-05-08T00:00:00-05:00"
+                        frus:doc-dateTime-max="1882-05-08T23:59:59-05:00">
                         <head>EXHIBIT R.</head>
-                        <p>Identical with Exhibit E E, <hi rend="italic">Cape Horn Pigeon.</hi></p>
+                        <note type="inline" rendition="#left">Identical with Exhibit E E, <hi
+                                rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1882-05-08" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content">May 8,
+                                    1882</date>]</dateline>
+                        </opener>
                     </div>
                     <pb n="246" xml:id="pg_246" facs="0268"/>
-                    <div type="document" subtype="historical-document" n="105" xml:id="d105">
+                    <div type="document" subtype="historical-document" n="105" xml:id="d105"
+                        frus:doc-dateTime-min="1882-06-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1882-06-01T23:59:59-05:00">
                         <head>EXHIBIT S.</head>
-                        <p>Identical with Exhibit F F, <hi rend="italic">Cape Horn Pigeon.</hi></p>
+                        <note type="inline" rendition="#left">Identical with Exhibit F F, <hi
+                                rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1882-06-01" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content">June 1,
+                                    1882</date>]</dateline>
+                        </opener>
                     </div>
                     <div type="document" subtype="historical-document" n="106" xml:id="d106"
                         frus:doc-dateTime-min="1900-11-20T00:00:00-05:00"
@@ -26476,8 +26568,8 @@
                             Prien</hi>.</signed></closer>
                         <closer>
                             <dateline rendition="#left">Subscribed and sworn to before me <date
-                                    when="1900-11-20">this 20th day of November,
-                                1900</date>.</dateline><lb/>
+                                    when="1900-11-20" calendar="gregorian">this 20th day of
+                                    November, 1900</date>.</dateline><lb/>
                             <signed><hi rend="smallcaps">W. T. Hess</hi>,<lb/><hi rend="italic"
                                     >Notary Public in and for the City and County of San Francisco,
                                     State of California.</hi></signed><lb/>
@@ -26569,8 +26661,8 @@
                         </closer>
                         <closer>
                             <dateline rendition="#left">Subscribed and sworn to before me <date
-                                    when="1900-11-20">this 20th day of November,
-                                1900</date>.</dateline><lb/>
+                                    when="1900-11-20" calendar="gregorian">this 20th day of
+                                    November, 1900</date>.</dateline><lb/>
                             <seg rendition="#left">[Seal of notary.]</seg>
                             <signed rendition="#right"><hi rend="smallcaps">W. T. Hess</hi>,<lb/>
                                 <hi rend="italic">Notary Public in and for the City and County of
@@ -26665,8 +26757,8 @@
                         <closer><signed><hi rend="smallcaps">Jas. Boyes.</hi></signed></closer>
                         <closer>
                             <dateline rendition="#left">Subscribed and sworn to before me <date
-                                    when="1900-11-19">this 19th day of November,
-                                1900</date>.</dateline>
+                                    when="1900-11-19" calendar="gregorian">this 19th day of
+                                    November, 1900</date>.</dateline>
                             <seg rendition="#left">[Seal of notary.]</seg>
                             <signed rendition="#right"><hi rend="smallcaps">W. T. Hess</hi>,<lb/><hi
                                     rend="italic">Notary Public in and for the City and County of
@@ -26912,8 +27004,8 @@
                         <closer><signed><hi rend="smallcaps">W. H. Grodt.</hi></signed></closer>
                         <closer>
                             <dateline rendition="#left">Subscribed and sworn to before me <date
-                                    when="1894-04-10">this 10th day of April,
-                                1894</date>.</dateline><lb/>
+                                    when="1894-04-10" calendar="gregorian">this 10th day of April,
+                                    1894</date>.</dateline><lb/>
                             <seg rendition="#left">[<hi rend="smallcaps">seal.</hi>]</seg>
                             <signed rendition="#right"><hi rend="smallcaps">John C.
                                     Hughes</hi>,<lb/><hi rend="italic">Notary Public in and for the
@@ -26956,8 +27048,16 @@
                             <signed rendition="#right"><hi rend="smallcaps">M. C. Haley</hi>, <hi
                                     rend="italic">Clerk.</hi></signed></closer>
                     </div>
-                    <div type="document" subtype="historical-document" n="113" xml:id="d113">
+                    <div type="document" subtype="historical-document" n="113" xml:id="d113"
+                        frus:doc-dateTime-min="1898-03-05T00:00:00-05:00"
+                        frus:doc-dateTime-max="1898-03-05T23:59:59-05:00">
                         <head>EXHIBIT Z.</head>
+                        <opener>
+                            <dateline>[<placeName>San Francisco</placeName>, <date when="1898-03-05"
+                                    calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content">March 5,
+                                    1898</date>]</dateline>
+                        </opener>
                         <p rend="flushleft">Minor.]</p>
                         <p rend="center"><hi rend="italic">Certified copy of act of
                                 naturalization.—No. 823.</hi></p>
@@ -27047,8 +27147,8 @@
                         <closer><signed><hi rend="smallcaps">Andrew Olson.</hi></signed></closer>
                         <closer>
                             <dateline rendition="#left">Subscribed and sworn to before me <date
-                                    when="1894-04-10">this 10th day of April,
-                                1894</date>.</dateline><lb/>
+                                    when="1894-04-10" calendar="gregorian">this 10th day of April,
+                                    1894</date>.</dateline><lb/>
                             <signed><hi rend="smallcaps">John C. Hughes</hi>,<lb/><hi rend="italic"
                                     >Notary Public in and for the City and County of San Francisco,
                                     State of California, Rooms 4 and 5, Fourth Floor, Mills
@@ -27109,8 +27209,8 @@
                         <closer><signed><hi rend="smallcaps">Martin Olsen.</hi></signed></closer>
                         <closer>
                             <dateline rendition="#left">Subscribed and sworn to before me <date
-                                    when="1894-04-10">this 10th day of April,
-                                1894</date>.</dateline><lb/>
+                                    when="1894-04-10" calendar="gregorian">this 10th day of April,
+                                    1894</date>.</dateline><lb/>
                             <seg rendition="#left">[<hi rend="smallcaps">seal.</hi>]</seg>
                             <signed rendition="#right"><hi rend="smallcaps">John C.
                                 Hughes</hi></signed>,<lb/><hi rend="italic">Notary Public in and for
@@ -27156,9 +27256,17 @@
                                 and 5, Fourth Floor, Mills Building, San Francisco,
                             Cal.</hi></closer>
                     </div>
-                    <div type="document" subtype="historical-document" n="117" xml:id="d117">
+                    <div type="document" subtype="historical-document" n="117" xml:id="d117"
+                        frus:doc-dateTime-min="1898-01-14T00:00:00-05:00"
+                        frus:doc-dateTime-max="1898-01-14T23:59:59-05:00">
                         <head>EXHIBIT D D.</head>
-                        <p>Identical with Exhibit D D, <hi rend="italic">Cape Horn Pigeon.</hi></p>
+                        <note type="inline" rendition="#left">Identical with Exhibit D D, <hi
+                                rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1898-01-14" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content"><hi
+                                        rend="italic">January 14, 1898</hi></date>]</dateline>
+                        </opener>
                     </div>
                 </div>
             </div>
@@ -29750,28 +29858,62 @@
                     <pb n="279" xml:id="pg_279" facs="0301"/>
                     <frus:attachment>
                         <head>EXHIBIT J.</head>
-                        <p>Identical with Exhibit T, <hi rend="italic">Cape Horn Pigeon.</hi></p>
+                        <note type="inline" rendition="#left">Identical with Exhibit T, <hi
+                                rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1899-02-08" calendar="julian gregorian"
+                                    ana="#date_undated-inferred-from-document-content">January 21
+                                        (<hi rend="italic">February 8</hi>), 1899</date>]</dateline>
+                        </opener>
                     </frus:attachment>
                     <frus:attachment>
                         <head>EXHIBIT K.</head>
-                        <p>Identical with Exhibit V, <hi rend="italic">Cape Horn Pigeon.</hi></p>
+                        <note type="inline" rendition="#left">Identical with Exhibit V, <hi
+                                rend="italic">Cape Horn Pigeon.</hi></note>
+                        <dateline>[<date when="1892-09-10" type="content-date" calendar="gregorian"
+                                ana="#date_undated-inferred-from-document-content">September 10,
+                                1892</date>]</dateline>
                     </frus:attachment>
                     <frus:attachment>
                         <head>EXHIBIT L.</head>
-                        <p>Chart of Bering Sea—Identical with Exhibit L, <hi rend="italic">C. H.
-                                White</hi>.</p>
+                        <note type="inline" rendition="#left">Chart of Bering Sea—Identical with
+                            Exhibit L, <hi rend="italic">C. H. White</hi>.</note>
+                        <opener>
+                            <dateline>[<date notBefore="1892-09-01T00:00:00-05:00"
+                                    notAfter="1894-12-26T23:59:59-05:00" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-sibling-dates"
+                                >undated</date>]</dateline>
+                        </opener>
                     </frus:attachment>
                     <frus:attachment>
                         <head>EXHIBIT M.</head>
-                        <p>Identical with Exhibit C C, <hi rend="italic">Cape Horn Pigeon.</hi></p>
+                        <note type="inline" rendition="#left">Identical with Exhibit C C, <hi
+                                rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1900-11-23" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content">November 23,
+                                    1900</date>]</dateline>
+                        </opener>
                     </frus:attachment>
                     <frus:attachment>
                         <head>EXHIBIT N.</head>
-                        <p>Identical with Exhibit E E, <hi rend="italic">Cape Horn Pigeon.</hi></p>
+                        <note type="inline" rendition="#left">Identical with Exhibit E E, <hi
+                                rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1882-05-08" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content">May 8,
+                                    1882</date>]</dateline>
+                        </opener>
                     </frus:attachment>
                     <frus:attachment>
                         <head>EXHIBIT O.</head>
-                        <p>Identical with Exhibit F F, <hi rend="italic">Cape Horn Pigeon.</hi></p>
+                        <note type="inline" rendition="#left">Identical with Exhibit F F, <hi
+                                rend="italic">Cape Horn Pigeon.</hi></note>
+                        <opener>
+                            <dateline>[<date when="1882-06-01" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content">June 1,
+                                    1882</date>]</dateline>
+                        </opener>
                     </frus:attachment>
                     <frus:attachment>
                         <head>EXHIBIT P.</head>
@@ -37299,7 +37441,12 @@
                         <opener><seg rendition="#center">[Inclosure.]</seg></opener>
                         <head><hi rend="italic">Draft of an agreement between the United States and
                                 Russia in relation to seal hunting</hi>.</head>
-                        <p>(Identical with Exhibit B.)</p>
+                        <note type="inline" rendition="#left">(Identical with Exhibit B.)</note>
+                        <opener>
+                            <dateline>[<date when="1894-05-12" calendar="gregorian"
+                                    ana="#date_undated-inferred-from-document-content">May 12,
+                                    1894</date>]</dateline>
+                        </opener>
                     </frus:attachment>
                     <frus:attachment>
                         <head>EXHIBIT H H.</head>
