@@ -1998,9 +1998,9 @@
                         frus:doc-dateTime-max="1891-12-07T23:59:59-05:00">
                         <head>EXHIBIT C.</head>
                         <opener>
-                            <dateline>[<date when="1891-12-07"
+                            <dateline rendition="#right">[<date when="1891-12-07"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                    >December 7, 1891</date>]</dateline>
+                                    calendar="gregorian">December 7, 1891</date>]</dateline>
                         </opener>
                         <p rend="center"><hi rend="smallcaps">United States of America.</hi></p>
                         <p rend="center">[Sections 4573, 4574, and 4575, Revised Statutes—Cat. No.
@@ -2655,8 +2655,8 @@
                         frus:doc-dateTime-max="1891-12-07T23:59:59-05:00">
                         <head>EXHIBIT D.</head>
                         <opener>
-                            <dateline>[<date from="1891-11-07" to="1891-12-07" type="content-date"
-                                    calendar="gregorian"
+                            <dateline rendition="#right">[<date from="1891-11-07" to="1891-12-07"
+                                    type="content-date" calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">November
                                     7–December 7, 1891</date>]</dateline>
                         </opener>
@@ -3423,8 +3423,9 @@
                             Collector.</hi></signed></closer>
                         <frus:attachment>
                             <opener>
-                                <dateline><hi rend="smallcaps">District and Port of <placeName>San
-                                            Francisco</placeName>, Collector’s Office</hi>,<lb/>
+                                <dateline rendition="#right"><hi rend="smallcaps">District and Port
+                                        of <placeName>San Francisco</placeName>, Collector’s
+                                        Office</hi>,<lb/>
                                     <date when="1898-02-28" calendar="gregorian"><hi rend="italic"
                                             >February 28, 1898</hi></date>.</dateline>
                             </opener>
@@ -3439,7 +3440,8 @@
                         frus:doc-dateTime-max="1891-12-07T23:59:59-05:00">
                         <head>EXHIBIT G.</head>
                         <opener>
-                            <dateline>[<date when="1891-12-07" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1891-12-07"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">December 7,
                                     1891</date>]</dateline>
                         </opener>
@@ -3762,7 +3764,8 @@
                         frus:doc-dateTime-min="1893-01-21T00:00:00-05:00"
                         frus:doc-dateTime-max="1893-01-21T23:59:59-05:00">
                         <opener>
-                            <dateline>[<date when="1893-01-21" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1893-01-21"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                     >January 21, 1893</date>]</dateline>
                         </opener>
@@ -3852,7 +3855,8 @@
                         frus:doc-dateTime-max="1893-01-27T23:59:59-05:00">
                         <head>EXHIBIT N.</head>
                         <opener>
-                            <dateline>[<date when="1893-01-27" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1893-01-27"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                     >January 27, 1893</date>]</dateline>
                         </opener>
@@ -3929,7 +3933,8 @@
                         frus:doc-dateTime-min="1893-02-14T00:00:00-05:00"
                         frus:doc-dateTime-max="1893-02-14T23:59:59-05:00">
                         <opener>
-                            <dateline>[<date when="1893-02-14" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1893-02-14"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                     >February 14, 1893</date>]</dateline>
                         </opener>
@@ -4047,10 +4052,13 @@
                                     F. Caswell</hi>,<lb/><hi rend="italic">Notary
                                 Public.</hi></signed></closer>
                     </div>
-                    <div type="document" subtype="historical-document" n="21" xml:id="d21">
+                    <div type="document" subtype="historical-document" n="21" xml:id="d21"
+                        frus:doc-dateTime-min="1892-12-14T00:00:00-05:00"
+                        frus:doc-dateTime-max="1892-12-14T23:59:59-05:00">
                         <head>EXHIBIT H.</head>
                         <opener>
-                            <dateline>[<date when="1892-12-14" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1892-12-14"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                     >December 14, 1892</date>]</dateline>
                         </opener>
@@ -4361,7 +4369,7 @@
                         </frus:attachment>
                         <frus:attachment>
                             <opener>
-                                <dateline rend="flushleft">
+                                <dateline rend="flushleft" rendition="#right">
                                     <hi rend="smallcaps">United States of America</hi>, <placeName>
                                         <hi rend="smallcaps">Commonwealth of Massachusetts</hi>
                                         <placeName type="venue"><hi rend="italic">Bristol,
@@ -4948,8 +4956,8 @@
                         frus:doc-dateTime-max="1892-09-10T23:59:59-05:00">
                         <head>EXHIBIT V.</head>
                         <opener>
-                            <dateline>[<date when="1892-09-10" type="content-date"
-                                    calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1892-09-10"
+                                    type="content-date" calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">September 10,
                                     1892</date>]</dateline>
                         </opener>
@@ -5220,8 +5228,8 @@
                         <head>EXHIBIT V.<lb/>
                             <hi rend="smallcaps">Annex</hi> 1.</head>
                         <opener>
-                            <dateline>[<date from="1891-12-07" to="1892-11-05" type="content-type"
-                                    calendar="gregorian"
+                            <dateline rendition="#right">[<date from="1891-12-07" to="1892-11-05"
+                                    type="content-type" calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">December 7,
                                     1891 to November 5, 1892</date>]</dateline>
                         </opener>
@@ -6479,7 +6487,8 @@
                         <head ana="#head_untitled-inferred-from-preceding-sibling-head">EXHIBIT V.<lb/>
                             <hi rend="smallcaps">Annex</hi> 4.</head>
                         <opener>
-                            <dateline>[<date when="1890-01-30" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1890-01-30"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">January 30,
                                     1890</date>]</dateline>
                         </opener>
@@ -11626,9 +11635,9 @@
                         <head>EXHIBIT V.<lb/>
                             <hi rend="smallcaps">Annex</hi> 9. </head>
                         <opener>
-                            <dateline rend="center">[Copied from New Bedford Whalemen’s Shipping
-                                List of <date when="1875-12-07" calendar="gregorian">December 7,
-                                    1875</date>.]</dateline>
+                            <dateline rend="center" rendition="#right">[Copied from New Bedford
+                                Whalemen’s Shipping List of <date when="1875-12-07"
+                                    calendar="gregorian">December 7, 1875</date>.]</dateline>
                         </opener>
                         <p>“Important to whalers: Captain Spencer, of the British whaling bark <hi
                                 rend="italic">Faraway</hi>, at Shantan Bay, September 1, was boarded
@@ -11671,8 +11680,8 @@
                         frus:doc-dateTime-max="1892-08-01T23:59:59-05:00">
                         <head>EXHIBIT W.</head>
                         <opener>
-                            <dateline>[<date from="1892-06-29" to="1892-08-01" type="content-date"
-                                    calendar="gregorian"
+                            <dateline rendition="#right">[<date from="1892-06-29" to="1892-08-01"
+                                    type="content-date" calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">June
                                     29–August 1, 1892</date>]</dateline>
                         </opener>
@@ -12031,10 +12040,10 @@
                         <pb n="85" xml:id="pg_85" facs="0101"/>
                         <head>EXHIBIT AA.</head>
                         <opener>
-                            <dateline>[<date notBefore="1844-01-13T00:00:00"
+                            <dateline rendition="#right">[<date notBefore="1844-01-13T00:00:00"
                                     notAfter="1845-01-12T23:59:59" when="1844" type="julian"
                                     ana="#date_undated-inferred-from-document-scan"
-                                >1844</date>]</dateline>
+                                    calendar="gregorian">1844</date>]</dateline>
                         </opener>
                         <p rend="center">Russian chart of the Sea of Okhotsk.</p>
                     </div>
@@ -12143,9 +12152,10 @@
                         frus:doc-dateTime-max="1875-06-04T23:59:59-05:00">
                         <head>EXHIBIT C C.</head>
                         <opener><seg rendition="#center">[Translation.]</seg><lb/>
-                            <dateline>[<date when="1875-06-04" type="content-date"
+                            <dateline rendition="#right">[<date when="1875-06-04"
+                                    type="content-date"
                                     ana="#date_undated-inferred-from-document-content"
-                                    >undated</date>]</dateline>
+                                    calendar="gregorian">undated</date>]</dateline>
                         </opener>
                         <p>Report of Vice-Admiral Wevel von Kruger, director of the hydrographic
                             department, for the year 1875, page 91, lines 9 to 21 inclusive:</p>
@@ -15109,7 +15119,8 @@
                         frus:doc-dateTime-max="1892-09-10T23:59:59-05:00">
                         <head>EXHIBIT D.</head>
                         <opener>
-                            <dateline>[<date from="1892-07-12" to="1892-09-10" type="content-date"
+                            <dateline rendition="#right">[<date from="1892-07-12" to="1892-09-10"
+                                    type="content-date"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                     calendar="gregorian">undated</date>]</dateline>
                         </opener>
@@ -15121,7 +15132,8 @@
                         frus:doc-dateTime-max="1892-09-10T23:59:59-05:00">
                         <head>EXHIBIT E.</head>
                         <opener>
-                            <dateline>[<date from="1892-07-12" to="1892-09-10" type="content-date"
+                            <dateline rendition="#right">[<date from="1892-07-12" to="1892-09-10"
+                                    type="content-date"
                                     ana="#date_apparent-typo-based-on-document-scan"
                                     calendar="gregorian">July 12 to September 10,
                                 1892</date>]</dateline>
@@ -15134,8 +15146,8 @@
                         frus:doc-dateTime-max="1892-02-29T23:59:59-05:00">
                         <head>EXHIBIT F.</head>
                         <opener>
-                            <dateline>[<date when="1892-02-29" calendar="gregorian">February 29,
-                                    1892</date>]</dateline>
+                            <dateline rendition="#right">[<date when="1892-02-29"
+                                    calendar="gregorian">February 29, 1892</date>]</dateline>
                         </opener>
                         <p rend="flushleft"><hi rend="italic">Extracts from “Fur-seal Arbitration:
                                 Appendix to the case of the United States before the tribunal of
@@ -19813,7 +19825,7 @@
                         frus:doc-dateTime-max="1891-03-07T23:59:59-05:00">
                         <head ana="#head_untitled-missing-head-in-printed-volume">[Untitled]</head>
                         <opener>
-                            <dateline>[<date when="1891-03-07"
+                            <dateline rendition="#right">[<date when="1891-03-07"
                                     ana="#date_undated-inferred-from-document-content"
                                     calendar="gregorian">March 7, 1891</date>]</dateline>
                         </opener>
@@ -20324,7 +20336,7 @@
                         frus:doc-dateTime-max="1891-08-12T23:59:59-05:00">
                         <head>[Copy of protest given to the commander of the man-of-war <hi
                                 rend="italic">Aleut</hi>, 12th of August, 1891.]</head>
-                        <opener><dateline>[<date when="1891-08-12"
+                        <opener><dateline rendition="#right">[<date when="1891-08-12"
                                     ana="#date_undated-inferred-from-document-head"
                                     calendar="gregorian">August 12, 1891</date>]</dateline></opener>
                         <p>I, the undersigned, do hereby protest in behalf of the schooner <hi
@@ -20351,9 +20363,11 @@
                         frus:doc-dateTime-max="1891-08-02T23:59:59-05:00">
                         <head><hi rend="italic">Schooner “J. H. Lewis”—Sealing account.</hi></head>
                         <opener>
-                            <dateline>[<date from="1891-02-16" to="1891-08-02" type="content-date"
-                                    ana="#date_undated-inferred-from-document-content">February
-                                    16–August 2, 1891</date>]</dateline>
+                            <dateline rendition="#right">[<date from="1891-02-16" to="1891-08-02"
+                                    type="content-date"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">February 16–August 2,
+                                1891</date>]</dateline>
                         </opener>
                         <table rows="52" cols="7">
                             <row>
@@ -20842,11 +20856,11 @@
                         <head><hi rend="italic">Statement of the illegal seizure by master and
                                 crew.</hi></head>
                         <opener>
-                            <dateline>[<placeName>San Francisco</placeName>, <date
-                                    notBefore="1891-08-02T00:00:00-08:00"
+                            <dateline rendition="#right">[<placeName>San Francisco</placeName>,
+                                    <date notBefore="1891-08-02T00:00:00-08:00"
                                     notAfter="1896-05-18T23:59:59-08:00"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                    >undated</date>]</dateline>
+                                    calendar="gregorian">undated</date>]</dateline>
                         </opener>
                         <p>We, the undersigned, crew of the American schooner <hi rend="italic"
                                 >James Hamilton Lewis</hi>, of San Francisco, Cal., do hereby
@@ -22500,7 +22514,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit C C, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1900-11-23" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1900-11-23"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">November 23,
                                     1900</date>]</dateline>
                         </opener>
@@ -22512,7 +22527,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit E E, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1882-05-08" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1882-05-08"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">May 8,
                                     1882</date>]</dateline>
                         </opener>
@@ -22524,7 +22540,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit F F., <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1882-06-01" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1882-06-01"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">June 1,
                                     1882</date>]</dateline>
                         </opener>
@@ -25120,8 +25137,8 @@
                         frus:doc-dateTime-max="1892-04-26T23:59:59-05:00">
                         <head>EXHIBIT E.</head>
                         <opener>
-                            <dateline>[<placeName>San Francisco</placeName>, <date when="1892-04-26"
-                                    calendar="gregorian"
+                            <dateline rendition="#right">[<placeName>San Francisco</placeName>,
+                                    <date when="1892-04-26" calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">April 26,
                                     1892</date>]</dateline>
                         </opener>
@@ -26465,7 +26482,8 @@
                         </figure>
                         <head>EXHIBIT L.</head>
                         <opener>
-                            <dateline>[<date notBefore="1892-09-01T00:00:00-05:00"
+                            <dateline rendition="#right">[<date
+                                    notBefore="1892-09-01T00:00:00-05:00"
                                     notAfter="1894-12-26T23:59:59-05:00" calendar="gregorian"
                                     ana="#date_undated-inferred-from-sibling-dates"
                                 >undated</date>]</dateline>
@@ -26585,7 +26603,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit S, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1895-10-12" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1895-10-12"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">October 12,
                                     1895</date>]</dateline>
                         </opener>
@@ -26597,7 +26616,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit T, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1899-02-08" calendar="julian gregorian"
+                            <dateline rendition="#right">[<date when="1899-02-08"
+                                    calendar="julian gregorian"
                                     ana="#date_undated-inferred-from-document-content">January 21
                                         (<hi rend="italic">February 8</hi>), 1899</date>]</dateline>
                         </opener>
@@ -26609,7 +26629,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit U, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1899-03-13" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1899-03-13"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content"><hi
                                         rend="italic">March 13, 1899.</hi></date>]</dateline>
                         </opener>
@@ -26621,7 +26642,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit C C, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1900-11-23" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1900-11-23"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">November 23,
                                     1900</date>]</dateline>
                         </opener>
@@ -26633,7 +26655,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit E E, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1882-05-08" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1882-05-08"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">May 8,
                                     1882</date>]</dateline>
                         </opener>
@@ -26646,7 +26669,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit F F, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1882-06-01" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1882-06-01"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">June 1,
                                     1882</date>]</dateline>
                         </opener>
@@ -27173,8 +27197,8 @@
                         frus:doc-dateTime-max="1898-03-05T23:59:59-05:00">
                         <head>EXHIBIT Z.</head>
                         <opener>
-                            <dateline>[<placeName>San Francisco</placeName>, <date when="1898-03-05"
-                                    calendar="gregorian"
+                            <dateline rendition="#right">[<placeName>San Francisco</placeName>,
+                                    <date when="1898-03-05" calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">March 5,
                                     1898</date>]</dateline>
                         </opener>
@@ -27383,7 +27407,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit D D, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1898-01-14" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1898-01-14"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content"><hi
                                         rend="italic">January 14, 1898</hi></date>]</dateline>
                         </opener>
@@ -28044,9 +28069,9 @@
                         <pb n="266" xml:id="pg_266" facs="0288"/>
                         <frus:attachment>
                             <opener>
-                                <dateline><hi rend="smallcaps">District of <placeName>San
-                                            Francisco</placeName>, Port of San Francisco,
-                                        Collector’s Office</hi>[, <date when="1892-10-18"
+                                <dateline rendition="#right"><hi rend="smallcaps">District of
+                                            <placeName>San Francisco</placeName>, Port of San
+                                        Francisco, Collector’s Office</hi>[, <date when="1892-10-18"
                                         calendar="gregorian"
                                         ana="#date_undated-inferred-from-document-content">October
                                         18, 1892</date>].</dateline>
@@ -28259,7 +28284,8 @@
                         frus:doc-dateTime-max="1873-09-29T23:59:59-05:00">
                         <head>EXHIBIT D.</head>
                         <opener>
-                            <dateline>[<date when="1873-09-29" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1873-09-29"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">September 29,
                                     1873</date>]</dateline>
                         </opener>
@@ -29184,7 +29210,8 @@
                         frus:doc-dateTime-max="1892-10-18T23:59:59-05:00">
                         <head>EXHIBIT F.</head>
                         <opener>
-                            <dateline>[<placeName>San Francisco</placeName>, <date when="1892-10-18"
+                            <dateline rendition="#right">[<placeName>San Francisco</placeName>,
+                                    <date when="1892-10-18"
                                     ana="#date_undated-inferred-from-document-content"
                                     calendar="gregorian">October 18, 1892</date>]</dateline>
                         </opener>
@@ -29662,7 +29689,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit T, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1899-02-08" calendar="julian gregorian"
+                            <dateline rendition="#right">[<date when="1899-02-08"
+                                    calendar="julian gregorian"
                                     ana="#date_undated-inferred-from-document-content">January 21
                                         (<hi rend="italic">February 8</hi>), 1899</date>]</dateline>
                         </opener>
@@ -29684,7 +29712,8 @@
                         <note type="inline" rendition="#left">Chart of Bering Sea—Identical with
                             Exhibit L, <hi rend="italic">C. H. White</hi>.</note>
                         <opener>
-                            <dateline>[<date notBefore="1892-09-01T00:00:00-05:00"
+                            <dateline rendition="#right">[<date
+                                    notBefore="1892-09-01T00:00:00-05:00"
                                     notAfter="1894-12-26T23:59:59-05:00" calendar="gregorian"
                                     ana="#date_undated-inferred-from-sibling-dates"
                                 >undated</date>]</dateline>
@@ -29697,7 +29726,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit C C, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1900-11-23" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1900-11-23"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">November 23,
                                     1900</date>]</dateline>
                         </opener>
@@ -29709,7 +29739,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit E E, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1882-05-08" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1882-05-08"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">May 8,
                                     1882</date>]</dateline>
                         </opener>
@@ -29721,7 +29752,8 @@
                         <note type="inline" rendition="#left">Identical with Exhibit F F, <hi
                                 rend="italic">Cape Horn Pigeon.</hi></note>
                         <opener>
-                            <dateline>[<date when="1882-06-01" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1882-06-01"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">June 1,
                                     1882</date>]</dateline>
                         </opener>
@@ -30677,7 +30709,8 @@
                                 frus:doc-dateTime-min="1892-09-15T00:00:00-05:00"
                                 frus:doc-dateTime-max="1892-09-15T23:59:59-05:00">
                                 <head>EXHIBIT IV.</head>
-                                <opener><dateline>[<date when="1892-09-15" calendar="gregorian"
+                                <opener><dateline rendition="#right">[<date when="1892-09-15"
+                                            calendar="gregorian"
                                             ana="#date_undated-inferred-from-document-content"
                                             >September 15, 1892</date>]</dateline></opener>
                                 <p rend="flushleft"><hi rend="smallcaps">Report of the Commander of
@@ -31019,7 +31052,8 @@
                                 frus:doc-dateTime-max="1891-08-03T23:59:59-05:00">
                                 <head>EXHIBIT I.</head>
                                 <opener>
-                                    <dateline>[<date when="1891-08-03" calendar="gregorian"
+                                    <dateline rendition="#right">[<date when="1891-08-03"
+                                            calendar="gregorian"
                                             ana="#date_undated-inferred-from-document-content"
                                             >August 3, 1891</date>]</dateline>
                                 </opener>
@@ -31079,7 +31113,8 @@
                                 frus:doc-dateTime-max="1891-08-11T23:59:59-05:00">
                                 <head>EXHIBIT II.</head>
                                 <opener>
-                                    <dateline>[<date when="1891-08-11" calendar="julian gregorian"
+                                    <dateline rendition="#right">[<date when="1891-08-11"
+                                            calendar="julian gregorian"
                                             ana="#date_undated-inferred-from-document-content">July
                                             30/August 11, 1891</date>]</dateline>
                                 </opener>
@@ -31287,7 +31322,8 @@
                                 frus:doc-dateTime-max="1891-07-23T23:59:59-05:00">
                                 <head>EXHIBIT IV.</head>
                                 <opener>
-                                    <dateline>[<date when="1891-07-23" calendar="gregorian"
+                                    <dateline rendition="#right">[<date when="1891-07-23"
+                                            calendar="gregorian"
                                             ana="#date_undated-inferred-from-document-content">July
                                             23, 1891</date>]</dateline>
                                 </opener>
@@ -31327,7 +31363,8 @@
                                 frus:doc-dateTime-max="1891-10-20T23:59:59-05:00">
                                 <head>EXHIBIT V.</head>
                                 <opener>
-                                    <dateline>[<date when="1891-10-20" calendar="gregorian"
+                                    <dateline rendition="#right">[<date when="1891-10-20"
+                                            calendar="gregorian"
                                             ana="#date_undated-inferred-from-document-content"
                                             >October 20, 1891</date>]</dateline>
                                 </opener>
@@ -31366,7 +31403,8 @@
                                 frus:doc-dateTime-max="1891-07-21T23:59:59-05:00">
                                 <head>EXHIBIT VI.</head>
                                 <opener>
-                                    <dateline>[<date when="1891-07-21" calendar="gregorian"
+                                    <dateline rendition="#right">[<date when="1891-07-21"
+                                            calendar="gregorian"
                                             ana="#date_undated-inferred-from-document-content">July
                                             21, 1891</date>]</dateline>
                                 </opener>
@@ -31778,7 +31816,8 @@
                                 frus:doc-dateTime-max="1892-07-15T23:59:59-05:00">
                                 <head>EXHIBIT I.</head>
                                 <opener>
-                                    <dateline>[<date when="1892-07-15" calendar="julian gregorian"
+                                    <dateline rendition="#right">[<date when="1892-07-15"
+                                            calendar="julian gregorian"
                                             ana="#date_undated-inferred-from-document-content">July
                                             3/15, 1892</date>]</dateline>
                                 </opener>
@@ -37428,7 +37467,8 @@
                                 Russia in relation to seal hunting</hi>.</head>
                         <note type="inline" rendition="#left">(Identical with Exhibit B.)</note>
                         <opener>
-                            <dateline>[<date when="1894-05-12" calendar="gregorian"
+                            <dateline rendition="#right">[<date when="1894-05-12"
+                                    calendar="gregorian"
                                     ana="#date_undated-inferred-from-document-content">May 12,
                                     1894</date>]</dateline>
                         </opener>
