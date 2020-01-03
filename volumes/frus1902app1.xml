@@ -6469,7 +6469,9 @@
                             <p>(Initialed) W. F. C.</p>
                         </postscript>
                     </div>
-                    <div type="document" subtype="historical-document" n="31" xml:id="d31">
+                    <div type="document" subtype="historical-document" n="31" xml:id="d31"
+                        frus:doc-dateTime-min="1890-01-30T03:00:00-05:00"
+                        frus:doc-dateTime-max="1892-11-06T02:59:59-05:00">
                         <pb n="[Map 1]" xml:id="pg-seq-0081-map-1" facs="0081"/>
                         <figure>
                             <graphic url="figure_0081"/>
@@ -6480,6 +6482,13 @@
                         </figure>
                         <pb n="71" xml:id="pg_71" facs="0083"/>
                         <head>EXHIBIT V.<lb/> (Annex 2 and Annex 3, charts.)</head>
+                        <opener>
+                            <dateline>[<date notBefore="1890-01-30T00:00:00-08:00"
+                                    notAfter="1892-11-05T23:59:59-08:00" type="content-type"
+                                    calendar="gregorian"
+                                    ana="#date_undated-inferred-from-sibling-dates"
+                                >undated</date>]</dateline>
+                        </opener>
                     </div>
                     <div type="document" subtype="historical-document" n="32" xml:id="d32"
                         frus:doc-dateTime-min="1890-01-30T00:00:00-05:00"
@@ -30581,8 +30590,17 @@
                                                 >September 7, 1892</hi></date>.</dateline>
                                 </closer>
                             </div>
-                            <div type="document" subtype="historical-document" n="139" xml:id="d139">
+                            <div type="document" subtype="historical-document" n="139" xml:id="d139"
+                                frus:doc-dateTime-min="1892-07-07T00:00:00-05:00"
+                                frus:doc-dateTime-max="1892-09-23T23:59:59-05:00">
                                 <head>EXHIBIT III.</head>
+                                <opener>
+                                    <dateline>[<date from="1892-07-07" to="1892-09-23"
+                                            type="content-date"
+                                            ana="#date_undated-inferred-from-document-content"
+                                            calendar="gregorian">June 22/July 7–September 11/23,
+                                            1892</date>]</dateline>
+                                </opener>
                                 <p>In conformity with order No. 160 of the commander of the Pacific
                                     Squadron dated the 11th September, 1892, the commission
                                     appointed by that order, and composed of the Ship’s Captain
@@ -31222,8 +31240,15 @@
                                 </frus:attachment>
                             </div>
                             <pb n="303" xml:id="pg_303" facs="0325"/>
-                            <div type="document" subtype="historical-document" n="143" xml:id="d143">
+                            <div type="document" subtype="historical-document" n="143" xml:id="d143"
+                                frus:doc-dateTime-min="1892-08-03T00:00:00-05:00"
+                                frus:doc-dateTime-max="1892-08-03T23:59:59-05:00">
                                 <head>EXHIBIT III.</head>
+                                <opener>
+                                    <dateline>[<date when="1892-08-03" calendar="julian gregorian"
+                                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                            >July 22/August 3, 1892</date>]</dateline>
+                                </opener>
                                 <p rend="center"><hi rend="smallcaps">Report of Lieutenant Lebedew
                                         to the Commander of the Screw Schooner Aleout.</hi></p>
                                 <p>On the 21st of July, as we sailed in sight of the island of
@@ -31463,8 +31488,16 @@
                                             >Tchernikow</hi>,<lb/><hi rend="italic">Officer of the
                                             Pilot Corps.</hi></signed></closer>
                             </div>
-                            <div type="document" subtype="historical-document" n="147" xml:id="d147">
+                            <div type="document" subtype="historical-document" n="147" xml:id="d147"
+                                frus:doc-dateTime-min="1891-10-20T00:00:00-05:00"
+                                frus:doc-dateTime-max="1891-10-20T23:59:59-05:00">
                                 <head>EXHIBIT VII.</head>
+                                <opener>
+                                    <dateline rendition="#right">[<date when="1891-10-20"
+                                            calendar="gregorian"
+                                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                            >October 20, 1891</date>]</dateline>
+                                </opener>
                                 <p rend="center"><hi rend="smallcaps">Annex to the Report No</hi>.
                                     489.</p>
                                 <list>
@@ -31884,8 +31917,15 @@
                                     White.</hi></signed></closer>
                             </div>
                             <pb n="312" xml:id="pg_312" facs="0336"/>
-                            <div type="document" subtype="historical-document" n="149" xml:id="d149">
+                            <div type="document" subtype="historical-document" n="149" xml:id="d149"
+                                frus:doc-dateTime-min="1892-07-16T00:00:00-05:00"
+                                frus:doc-dateTime-max="1892-07-16T23:59:59-05:00">
                                 <head>EXHIBIT II.</head>
+                                <opener>
+                                    <dateline>[<date when="1892-07-16" calendar="julian gregorian"
+                                            ana="#date_undated-inferred-from-document-content">July
+                                            4/16, 1892</date>]</dateline>
+                                </opener>
                                 <p rend="center"><hi rend="smallcaps">Decision Made on Board the
                                         Second-Class Cruiser Zabiaka on the Way to the Village of
                                         Nicolsk on Bering Island</hi>, No. 337.</p>
@@ -32140,8 +32180,15 @@
                             </list>
                             <p>The defendant party holds the originals of these documents at the
                                 disposal of the arbitrator.</p>
-                            <div type="document" subtype="historical-document" n="151" xml:id="d151">
+                            <div type="document" subtype="historical-document" n="151" xml:id="d151"
+                                frus:doc-dateTime-min="1892-08-23T00:00:00-05:00"
+                                frus:doc-dateTime-max="1892-08-23T23:59:59-05:00">
                                 <head>EXHIBIT I.</head>
+                                <opener>
+                                    <dateline>[<date when="1892-08-23" calendar="julian gregorian"
+                                            ana="#date_undated-inferred-from-document-content"
+                                            >August 11/23, 1892</date>]</dateline>
+                                </opener>
                                 <p rend="center"><hi rend="smallcaps">Extract from the Report of the
                                         Commander of the Second-Class Cruiser Zabiaka dated
                                         August</hi> 11, 1892, No. 354.</p>
@@ -32206,8 +32253,16 @@
                                             Jurisconsulate.</hi></signed></closer>
                                 </postscript>
                             </div>
-                            <div type="document" subtype="historical-document" n="152" xml:id="d152">
+                            <div type="document" subtype="historical-document" n="152" xml:id="d152"
+                                frus:doc-dateTime-min="1892-08-12T00:00:00-05:00"
+                                frus:doc-dateTime-max="1892-08-12T23:59:59-05:00">
                                 <head>EXHIBIT II.</head>
+                                <opener>
+                                    <dateline>[<date when="1892-08-12" type="content-date"
+                                            calendar="julian gregorian"
+                                            ana="#date_undated-inferred-from-document-content">July
+                                            31/August 12, 1892</date>]</dateline>
+                                </opener>
                                 <p rend="center"><hi rend="smallcaps">Extract from the Journal Kept
                                         on Board the Second-Class Cruiser Zabiaka, during the
                                         protective cruise off commander islands in</hi> 1892.</p>
@@ -32252,7 +32307,7 @@
                         hamilton lewis, c. h. white, and kate and anna.</hi></p>
                 <pb n="[318]" xml:id="pg_318" facs="0342"/>
                 <pb n="319" xml:id="pg_319" facs="0343"/>
-                <div type="section" subtype="historical-document" xml:id="d152" n="152"
+                <div type="section" subtype="historical-document" xml:id="d177" n="177"
                     frus:doc-dateTime-min="1892-05-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1896-03-16T23:59:59-05:00">
                     <head><hi rend="smallcaps">Rejoinder of the party claimant</hi>.</head>
