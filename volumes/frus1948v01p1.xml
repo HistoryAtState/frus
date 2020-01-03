@@ -1946,10 +1946,11 @@
                         <hi rend="italic">Press Release 513 Issued by the United States Mission to
                             the United Nations, September 7, 1948</hi>
                     </head>
-                    <dateline>
-                        <date when="1948-09-07" ana="#date_undated-inferred-from-document-head"
-                            calendar="gregorian">September 7, 1948</date>
-                    </dateline>
+                    <opener>
+                        <dateline rendition="#right">[<date when="1948-09-07"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >September 7, 1948</date>]</dateline>
+                    </opener>
                     <p rend="center">
                         <hi rend="smallcaps">United States Delegation to the Third Session of the
                             General Assembly of the United Nations</hi>
@@ -2778,10 +2779,11 @@
                                 date; reprinted from the Department of State <hi rend="italic"
                                     >Bulletin</hi>, May 16, 1948, pp. 623–625.</note>
                         </head>
-                        <dateline>
-                            <date when="1948-05-05" ana="#date_undated-inferred-from-document-head"
-                                calendar="gregorian">May 5, 1948</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date when="1948-05-05"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">May 5, 1948</date>]</dateline>
+                        </opener>
                         <p>
                             <hi rend="smallcaps">Mr. Chairman, Gentlemen</hi>: I will outline for
                             the Committee<note n="2" xml:id="d15fn2">The occasion for the
@@ -3926,11 +3928,12 @@
                             <hi rend="italic">United Nations Press Release M/373, Issued at Lake
                                 Success, New York, January 12, 1948</hi>
                         </head>
-                        <dateline>
-                            <placeName>New York</placeName>, <date when="1948-01-12"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >January 12, 1948</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">[<placeName>New York</placeName>, <date
+                                    when="1948-01-12"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">January 12, 1948</date>]</dateline>
+                        </opener>
                         <p rend="flushleft">
                             <hi rend="smallcaps">
                                 <gloss target="#t_UN1">UN</gloss> and US Representatives Reach
@@ -6989,12 +6992,11 @@
                         <hi rend="italic">Minutes of the Twentieth Meeting of the United States
                             Delegation, Paris, Hotel d’Iéna, October 21, 1948, 9:15 a.m.</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-10-21T09:15:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >October 21, 1948, 9:15 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-10-21T09:15:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >October 21, 1948, 9:15 a.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -10479,12 +10481,12 @@
                             <hi rend="italic">Minutes of the Second Meeting of the United States
                                 Delegation, Paris, Hotel d’Iéna, September 22, 1948, 9:15 a. m.</hi>
                         </head>
-                        <dateline>
-                            <placeName>Paris</placeName>, <date when="1948-09-22T09:15:00+01:00"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >September 22, 1948, 9:15 a.m.</date>
-                        </dateline>
                         <opener>
+                            <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                    when="1948-09-22T09:15:00+01:00"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">September 22, 1948, 9:15
+                                a.m.</date>]</dateline><lb/>
                             <seg rendition="#left">
                                 <hi rend="smallcaps">secret</hi>
                             </seg>
@@ -10626,12 +10628,12 @@
                             <hi rend="italic">Minutes of the Third Meeting of the United States
                                 Delegation, Paris Hotel d’Iéna, September 23, 1948, 9:15 a. m.</hi>
                         </head>
-                        <dateline>
-                            <placeName>Paris</placeName>, <date when="1948-09-23T09:15:00+01:00"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >September 23, 1948, 9:15 a.m.</date>
-                        </dateline>
                         <opener>
+                            <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                    when="1948-09-23T09:15:00+01:00"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">September 23, 1948, 9:15
+                                a.m.</date>]</dateline><lb/>
                             <seg rendition="#left">
                                 <hi rend="smallcaps">secret</hi>
                             </seg>
@@ -10861,12 +10863,12 @@
                             <hi rend="italic">Minutes of the Fifth Meeting of the United States
                                 Delegation, Paris, Hotel d’Iéna, September 25, 1948, 9:15 a.
                             m.</hi></head>
-                        <dateline>
-                            <placeName>Paris</placeName>, <date when="1948-09-25T09:00:00+01:00"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >September 25, 1948, 9 a.m.</date>
-                        </dateline>
                         <opener>
+                            <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                    when="1948-09-25T09:00:00+01:00"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">September 25, 1948, 9
+                                a.m.</date>]</dateline><lb/>
                             <seg rendition="#left">
                                 <hi rend="smallcaps">secret</hi>
                             </seg>
@@ -10924,12 +10926,11 @@
                             <hi rend="italic">Minutes of the Ninth Meeting of the United States
                                 Delegation, Paris, Hotel d’Iéna, September 30, 1948</hi>
                         </head>
-                        <dateline>
-                            <placeName>Paris</placeName>, <date when="1948-09-30"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >September 30, 1948</date>
-                        </dateline>
                         <opener>
+                            <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                    when="1948-09-30"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">September 30, 1948</date>]</dateline><lb/>
                             <seg rendition="#left">
                                 <hi rend="smallcaps">secret</hi>
                             </seg>
@@ -11031,12 +11032,12 @@
                             <hi rend="italic">Minutes of the Eleventh Meeting of the United States
                                 Delegation, Paris, Hotel d’Iéna, October 4, 1948, 9:15 a.
                             m.</hi></head>
-                        <dateline>
-                            <placeName>Paris</placeName>, <date when="1948-10-04T09:15:00+01:00"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >October 4, 1948, 9:15 a.m.</date>
-                        </dateline>
                         <opener>
+                            <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                    when="1948-10-04T09:15:00+01:00"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 4, 1948, 9:15
+                                a.m.</date>]</dateline><lb/>
                             <seg rendition="#left">
                                 <hi rend="smallcaps">secret</hi>
                             </seg>
@@ -11460,12 +11461,11 @@
                             <hi rend="italic">Minutes of the Twelfth Meeting of the United States
                                 Delegation, Paris, Hotel d’Iéna, October 7, 1948</hi>
                         </head>
-                        <dateline>
-                            <placeName>Paris</placeName>, <date when="1948-10-07"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >October 7, 1948</date>
-                        </dateline>
                         <opener>
+                            <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                    when="1948-10-07"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 7, 1948</date>]</dateline><lb/>
                             <seg rendition="#left">
                                 <hi rend="smallcaps">secret</hi>
                             </seg>
@@ -11732,12 +11732,11 @@
                                     type="from">United States Delegation</gloss> to the <gloss
                                     type="to">General Assembly</gloss>, Paris, October 14, 1948</hi>
                         </head>
-                        <dateline>
-                            <placeName>Paris</placeName>, <date when="1948-10-14"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >October 14, 1948</date>
-                        </dateline>
                         <opener>
+                            <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                    when="1948-10-14"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 14, 1948</date>]</dateline><lb/>
                             <seg rendition="#left">
                                 <hi rend="smallcaps">secret</hi>
                             </seg>
@@ -11834,12 +11833,11 @@
                                     type="to">General Assembly</gloss>, Paris, Hotel d’Iéna, October
                                 19, 1948</hi>
                         </head>
-                        <dateline>
-                            <placeName>Paris</placeName>, <date when="1948-10-19"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >October 19, 1948</date>
-                        </dateline>
                         <opener>
+                            <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                    when="1948-10-19"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 19, 1948</date>]</dateline><lb/>
                             <seg rendition="#left">
                                 <hi rend="smallcaps">secret</hi>
                             </seg>
@@ -17912,12 +17910,12 @@
                                     type="from">United States Delegation</gloss> to the <gloss
                                     type="to">Third Regular Session of the General Assembly</gloss>,
                                 Paris, Hotel d’Iéna, October 28, 1948, 9:15 a. m.</hi></head>
-                        <dateline>
-                            <placeName>Paris</placeName>, <date when="1948-10-28T09:15:00+01:00"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >October 28, 1948, 9:15 a.m.</date>
-                        </dateline>
                         <opener>
+                            <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                    when="1948-10-28T09:15:00+01:00"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">October 28, 1948, 9:15
+                                a.m.</date>]</dateline><lb/>
                             <seg rendition="#left">
                                 <hi rend="smallcaps">secret</hi>
                             </seg>
@@ -18726,12 +18724,11 @@
                                 Delegation to the Third Regular Session of the General Assembly,
                                 Paris, Hotel d’Iéna, September 24, 1948</hi>
                         </head>
-                        <dateline>
-                            <placeName>Paris</placeName>, <date when="1948-09-24"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >September 24, 1948</date>
-                        </dateline>
                         <opener>
+                            <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                    when="1948-09-24"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">September 24, 1948</date>]</dateline><lb/>
                             <seg rendition="#left">
                                 <hi rend="smallcaps">secret</hi>
                             </seg>
@@ -19136,12 +19133,11 @@
                                 n="1" xml:id="d177fn1">The third session of the General Assembly was
                                 convoked at Paris on September 21.</note> Paris, Hotel d’Iéna,
                             September 28, 1948, 9:15 a. m</hi>.</head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-09-28T09:15:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >September 28, 1948, 9:15 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-09-28T09:15:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >September 28, 1948, 9:15 a.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -19266,12 +19262,11 @@
                     <head>
                         <hi rend="italic">Minutes of the Eleventh Meeting of the United States
                             Delegation, Paris, Hotel d’Iéna, October 4, 1948, 9:15 a. m</hi>.</head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-10-04T09:15:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >October 4, 1948, 9:15 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-10-04T09:15:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >October 4, 1948, 9:15 a.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -19425,12 +19420,11 @@
                         <hi rend="italic">Minutes of the Twenty-fourth Meeting of the United States
                             Delegation to the General Assembly, Paris, Hotel d’Iéna, October 29,
                             1948, 9:15 a. m</hi>.</head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-10-29T09:15:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >October 29, 1948, 9:15 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-10-29T09:15:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >October 29, 1948, 9:15 a.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -19560,12 +19554,11 @@
                         <hi rend="italic">Minutes of the Twenty-fifth Meeting of the United States
                             Delegation to the Third Regular Session of the General Assembly, Paris,
                             Hotel d’Iéna, November 3, 1948, 9:15 a. m</hi>.</head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-11-03T09:15:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >November 3, 1948, 9:15 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-11-03T09:15:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >November 3, 1948, 9:15 a.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -19862,12 +19855,10 @@
                         <note n="2" xml:id="d183fn2">The General Assembly began its third regular
                             session on September 21.</note>
                         <hi rend="italic">9:15 a. m</hi>.</head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-09-24"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >September 24, 1948</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-09-24" ana="#date_undated-inferred-from-document-head"
+                                calendar="gregorian">September 24, 1948</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -20001,12 +19992,11 @@
                         <hi rend="italic">Minutes of the Fifth Meeting of the United States
                             Delegation, Paris, Hotel d’Iéna, September 25, 1948, 9:15 a.
                         m</hi>.</head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-09-25T09:15:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >September 25, 1948, 9:15 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-09-25T09:15:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >September 25, 1948, 9:15 a.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -20185,12 +20175,10 @@
                         <hi rend="italic">Minutes of the Ninth Meeting of the United States
                             Delegation, Paris, Hotel d’Iéna, September 30, 1948</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-09-30"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >September 30, 1948</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-09-30" ana="#date_undated-inferred-from-document-head"
+                                calendar="gregorian">September 30, 1948</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -21437,12 +21425,10 @@
                         <hi rend="italic">Minutes of Meeting at the Department of State, April 2,
                             1948, 4 p. m.</hi>
                     </head>
-                    <dateline>
-                        <date when="1948-04-02T16:00:00-05:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >April 2, 1948, 4 p.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<date when="1948-04-02T16:00:00-05:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >April 2, 1948, 4 p.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">top secret</hi>
                         </seg>
@@ -27058,11 +27044,10 @@
                         <hi rend="italic">Minutes of Meeting, Department of State, September 3,
                             1948</hi>
                     </head>
-                    <dateline>
-                        <date when="1948-09-03" ana="#date_undated-inferred-from-document-head"
-                            calendar="gregorian">September 3, 1948</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<date when="1948-09-03"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >September 3, 1948</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">top secret</hi>
                         </seg>
@@ -28668,12 +28653,11 @@
                             organization of the United States Delegation, see <ref target="#pg_1"
                                 >pp. 1</ref> ff.</note>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-09-29T09:15:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >September 29, 1948, 9:15 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-09-29T09:15:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >September 29, 1948, 9:15 a.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -29130,12 +29114,10 @@
                                 >United States Delegation</gloss> to the <gloss type="to">General
                                 Assembly</gloss>, Hotel d’léna, Paris, September 30, 1948</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-09-30"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >September 30, 1948</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-09-30" ana="#date_undated-inferred-from-document-head"
+                                calendar="gregorian">September 30, 1948</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -29301,12 +29283,11 @@
                             Delegation to the General Assembly, Hotel d’Iéna, Paris, October 1,
                             1948, 9:15 a. m.</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-10-01T09:15:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >October 1, 1948, 9:15 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-10-01T09:15:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >October 1, 1948, 9:15 a.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -29395,12 +29376,11 @@
                             Delegation to the General Assembly, Hotel d’Iéna, Paris, October 4,
                             1948, 9:15 a. m.</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-10-04T09:15:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >October 4, 1948, 9:15 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-10-04T09:15:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >October 4, 1948, 9:15 a.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -29812,12 +29792,10 @@
                             Delegation to the General Assembly, Hotel d’léna, Paris, October 7,
                             1948</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-10-07"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >October 7, 1948</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-10-07" ana="#date_undated-inferred-from-document-head"
+                                calendar="gregorian">October 7, 1948</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -29923,12 +29901,10 @@
                             Delegation to the General Assembly, Hotel d’léna, Paris, October 8,
                             1948</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-10-08"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >October 8, 1948</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-10-08" ana="#date_undated-inferred-from-document-head"
+                                calendar="gregorian">October 8, 1948</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -30299,12 +30275,11 @@
                             Delegation to the General Assembly, Hotel d’léna, Paris, October 11,
                             1948, 9:15 a. m.</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-10-11T09:15:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >October 11, 1948, 9:15 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-10-11T09:15:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >October 11, 1948, 9:15 a.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -30808,12 +30783,10 @@
                             Delegation to the General Assembly, Hotel d’Iéna, Paris, October 14,
                             1948</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-10-14"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >October 14, 1948</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-10-14" ana="#date_undated-inferred-from-document-head"
+                                calendar="gregorian">October 14, 1948</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -31045,12 +31018,11 @@
                             the First Committee, Palais de Chaillot, Paris, October 15, 1948, 10:30
                             a. m.</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-10-15T10:30:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >October 15, 1948, 10:30 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-10-15T10:30:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >October 15, 1948, 10:30 a.m.</date>]</dateline><lb/>
                         <seg rendition="#center">[Extract]</seg>
                     </opener>
                     <p rend="center">. . . . . . . . . . . . . .</p>
@@ -31240,12 +31212,11 @@
                             Delegation to the General Assembly, Hotel d’Iéna, Paris, October 18,
                             1948, 9:15 a. m.</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-10-18T09:15:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >October 18, 1948, 9:15 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-10-18T09:15:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >October 18, 1948, 9:15 a.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -31741,12 +31712,10 @@
                             Delegation to the General Assembly, Hotel d’Iéna, Paris, October 19,
                             1948</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-10-19"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >October 19, 1948</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-10-19" ana="#date_undated-inferred-from-document-head"
+                                calendar="gregorian">October 19, 1948</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -31987,12 +31956,11 @@
                             Delegation to the General Assembly, Hotel d’Iéna, Paris, October 21,
                             1948, 9:15 a. m.</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-10-21T09:15:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >October 21, 1948, 9:15 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-10-21T09:15:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >October 21, 1948, 9:15 a.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>
@@ -32763,12 +32731,11 @@
                             Delegation to the General Assembly, Hotel d’Iéna, Paris, November 18,
                             1948, 9:15 a. m.</hi>
                     </head>
-                    <dateline>
-                        <placeName>Paris</placeName>, <date when="1948-11-18T09:15:00+01:00"
-                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                            >November 18, 1948, 9:15 a.m.</date>
-                    </dateline>
                     <opener>
+                        <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                when="1948-11-18T09:15:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >November 18, 1948, 9:15 a.m.</date>]</dateline><lb/>
                         <seg rendition="#left">
                             <hi rend="smallcaps">secret</hi>
                         </seg>

@@ -23470,14 +23470,13 @@
                                         State</gloss></hi><note n="63" xml:id="d250fn63">Left at the
                                     Department by the Colombian Minister, Aug. 2,
                                 1927.</note></head>
-                            <dateline>
-                                <date when="1927-08-02"
-                                    ana="#date_undated-inferred-from-document-content"
-                                    calendar="gregorian">undated</date>
-                            </dateline>
-                            <opener><seg rendition="#center">[Translation<note n="64"
-                                        xml:id="d250fn64">Supplied by the
-                                editor.</note>]</seg></opener>
+                            <opener>
+                                <dateline rendition="#right">[<date when="1927-08-02"
+                                        ana="#date_undated-inferred-from-document-content"
+                                        calendar="gregorian">undated</date>]</dateline><lb/>
+                                <seg rendition="#center">[Translation<note n="64" xml:id="d250fn64"
+                                        >Supplied by the editor.</note>]</seg>
+                            </opener>
                             <p rend="center"><hi rend="smallcaps">The Colombia-Nicaraguan Matter and
                                     the Roncador, Quita Sueño and serranilla keys</hi></p>
                             <p>Possible formulas:</p>
@@ -29537,11 +29536,11 @@
                                 the <gloss type="to">Department of State</gloss></hi><note n="3"
                                 xml:id="d320fn3">Left at the Department by the British Ambassador
                                 and the Australian Commissioner Nov. 30, 1927.</note></head>
-                        <dateline>
-                            <date when="1927-11-30"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">undated</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date when="1927-11-30"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">undated</date>]</dateline>
+                        </opener>
                         <p rend="center"><hi rend="smallcaps">Memorandum re Entry of Australian
                                 Business Men Into the United States</hi></p>
                         <p>On December 30, 1926, the Prime Minister of Australia, The Eight
@@ -32581,11 +32580,12 @@
                                 rend="italic">Du Bois</hi>) <hi rend="italic">of a Conference Held
                                 May 12, 1927, Regarding Canadian Border Travel
                             Difficulties</hi></head>
-                        <dateline>
-                            <date when="1927-05-12" ana="#date_undated-inferred-from-document-head"
-                                type="conversation-or-meeting-date" calendar="gregorian">May 12,
-                                1927</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date when="1927-05-12"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    type="conversation-or-meeting-date" calendar="gregorian">May 12,
+                                    1927</date>]</dateline>
+                        </opener>
                         <p>At 10:30 a.m., by invitation of the Secretary, the following officials
                             met in the Diplomatic Room of the Department: <list>
                                 <item>The Secretary</item>

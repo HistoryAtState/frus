@@ -14560,11 +14560,11 @@
                             <note rend="inline" type="source">File No. 861.00/2568</note>
                             <head><hi rend="italic">The <gloss type="from">British Embassy</gloss>
                                     to the <gloss type="to">Department of State</gloss></hi></head>
-                            <dateline>
-                                <date when="1918-07-26"
-                                    ana="#date_undated-inferred-from-document-content"
-                                    calendar="gregorian">[July 26, 1918]</date>
-                            </dateline>
+                            <opener>
+                                <dateline rendition="#right">[<date when="1918-07-26"
+                                        ana="#date_undated-inferred-from-document-content"
+                                        calendar="gregorian">[July 26, 1918]</date>]</dateline>
+                            </opener>
                             <p>[A copy of the following paraphrase of a telegram was left at the
                                 Department of State on July 26, 1918:]</p>
                             <frus:attachment>
@@ -14716,10 +14716,12 @@
                                     1918. President called and told me to reply as I suggested in
                                     memorandum attached. <persName corresp="#p_PF1">F. L.
                                         P[olk]</persName>.”</note></head>
-                            <dateline>[<date notBefore="1918-07-25T00:00:00-04:00"
-                                    notAfter="1918-07-31T23:59:59-04:00"
-                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                                    calendar="gregorian">undated</date>]</dateline>
+                            <opener>
+                                <dateline>[<date notBefore="1918-07-25T00:00:00-04:00"
+                                        notAfter="1918-07-31T23:59:59-04:00"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        calendar="gregorian">undated</date>]</dateline>
+                            </opener>
                             <p>The United States Government appreciates the offer to cooperate on
                                 the part of the British Government. It is apparent, however, that
                                 the British Government believes the United States Government has in

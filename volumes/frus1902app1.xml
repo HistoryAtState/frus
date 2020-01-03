@@ -13191,10 +13191,12 @@
                     frus:doc-dateTime-min="1900-03-29T03:00:00-05:00"
                     frus:doc-dateTime-max="1900-10-10T23:59:59-05:00">
                     <head><hi rend="smallcaps">statement of the facts.</hi></head>
-                    <dateline>[<date notBefore="1900-03-29T00:00:00-08:00"
-                            notAfter="1900-10-10T23:59:59-05:00"
-                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            calendar="gregorian">undated</date>]</dateline>
+                    <opener>
+                        <dateline rendition="#right">[<date notBefore="1900-03-29T00:00:00-08:00"
+                                notAfter="1900-10-10T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                calendar="gregorian">undated</date>]</dateline>
+                    </opener>
                     <p>The <hi rend="italic">James Hamilton Lewis</hi> was an American schooner,
                         duly registered in accordance with the laws of the United States, at the
                         port of San Francisco, in the State of California. She was owned, officered,
@@ -31080,10 +31082,12 @@
                     frus:doc-dateTime-min="1892-05-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1896-03-16T23:59:59-05:00">
                     <head><hi rend="smallcaps">Rejoinder of the party claimant</hi>.</head>
-                    <dateline>[<date notBefore="1892-05-09T00:00:00-05:00"
-                            notAfter="1896-03-16T23:59:59-05:00"
-                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            calendar="gregorian">undated</date>]</dateline>
+                    <opener>
+                        <dateline rendition="#right">[<date notBefore="1892-05-09T00:00:00-05:00"
+                                notAfter="1896-03-16T23:59:59-05:00"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                calendar="gregorian">undated</date>]</dateline>
+                    </opener>
                     <p>The Government of the United States of America has the honor to submit to the
                         honorable arbitrator, Mr. Asser, the hereunto annexed rejoinder to the
                         counter-memorandum of the Imperial Government of Russia, in the cases of
@@ -31686,10 +31690,11 @@
                     frus:doc-dateTime-max="1896-03-16T23:59:59-05:00">
                     <head><hi rend="italic">Memorandum filed by Russian legation March 16,
                             1896.</hi></head>
-                    <dateline>
-                        <date when="1896-03-16" ana="#date_undated-inferred-from-document-head"
-                            calendar="gregorian">March 16, 1896</date>
-                    </dateline>
+                    <opener>
+                        <dateline rendition="#right">[<date when="1896-03-16"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >March 16, 1896</date>]</dateline>
+                    </opener>
                     <p rend="flushleft">Mr. <hi rend="smallcaps">Alexander de Somow</hi>,<lb/><hi
                             rend="italic">Chargé d’Affaires ad interim of His Majesty the Emperor of
                             Russia, at Washington, D. C.</hi></p>
@@ -34170,10 +34175,12 @@
                     frus:doc-dateTime-min="1900-09-07T16:30:00-05:00"
                     frus:doc-dateTime-max="1902-06-03T18:40:59-05:00">
                     <head><hi rend="smallcaps">Surrejoinder of the party defendant</hi>.</head>
-                    <dateline>[<date notBefore="1900-09-08T00:00:00+02:30"
-                            notAfter="1902-06-03T23:59:59+00:19"
-                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
-                            calendar="gregorian">undated</date>]</dateline>
+                    <opener>
+                        <dateline rendition="#right">[<date notBefore="1900-09-08T00:00:00+02:30"
+                                notAfter="1902-06-03T23:59:59+00:19"
+                                ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                calendar="gregorian">undated</date>]</dateline>
+                    </opener>
                     <p>The Imperial Russian Government having noted the rejoinder of the party
                         claimant to the Russian counter memorandum in the affairs of the American
                         vessels, <hi rend="italic">Cape Horn Pigeon, James Hamilton Lewis, C. H.

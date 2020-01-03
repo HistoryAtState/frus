@@ -9584,7 +9584,7 @@
                                         </quote></item>
                                 </list></p>
                             <closer>
-                                <signed>S[<hi rend="smallcaps">imon</hi>]</signed>
+                                <signed>S[<hi rend="smallcaps">imon</hi>]</signed><lb/>
                                 <dateline rendition="#left">[<placeName><hi rend="smallcaps"
                                             >London</hi></placeName>,] <date when="1944-09-04"
                                         calendar="gregorian">4th September, 1944</date>.</dateline>
@@ -21353,12 +21353,13 @@
                         frus:doc-dateTime-max="1944-09-21T07:00:00-05:00">
                         <note rend="inline" type="source">Roosevelt Papers</note>
                         <head><hi rend="italic">The Presidents Log</hi></head>
-                        <dateline>
-                            <date from="1944-09-09T22:10:00-04:00" to="1944-09-21T08:00:00-04:00"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">September 9, 1944, 10:10 p.m. to September 21,
-                                1944, 8 a.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date from="1944-09-09T22:10:00-04:00"
+                                    to="1944-09-21T08:00:00-04:00"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">September 9, 1944, 10:10 p.m. to September
+                                    21, 1944, 8 a.m.</date>]</dateline>
+                        </opener>
                         <p rend="center"><hi rend="smallcaps">Foreword</hi></p>
                         <p>The Quebec Conference in September 1944 marked the eleventh wartime
                             meeting of President Roosevelt and Prime Minister Churchill. They first
@@ -22624,18 +22625,18 @@
                                 frus:doc-dateTime-max="1944-09-12T11:00:00-05:00">
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
-                                <dateline>
-                                    <date when="1944-09-12T12:00:00-04:00"
-                                        ana="#date_undated-inferred-from-chapter-heading"
-                                        calendar="gregorian">September 12, 1944, noon</date>
-                                </dateline>
-                                <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
-                                <dateline>
-                                    <date when="1944-09-12"
-                                        ana="#date_undated-inferred-from-chapter-heading"
-                                        calendar="gregorian">September 12, 1944</date>
-                                </dateline>
                                 <opener>
+                                    <dateline rendition="#right">[<date
+                                            when="1944-09-12T12:00:00-04:00"
+                                            ana="#date_undated-inferred-from-chapter-heading"
+                                            calendar="gregorian">September 12, 1944,
+                                        noon</date>]</dateline>
+                                </opener>
+                                <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
+                                <opener><dateline rendition="#right">[<date when="1944-09-12"
+                                            ana="#date_undated-inferred-from-chapter-heading"
+                                            calendar="gregorian">September 12,
+                                        1944</date>]</dateline><lb/>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
                                 </opener>
@@ -23147,12 +23148,12 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
-                                <dateline>
-                                    <date when="1944-09-12T14:30:00-04:00"
-                                        ana="#date_undated-inferred-from-chapter-heading"
-                                        calendar="gregorian">September 12, 1944, 2:30 p.m.</date>
-                                </dateline>
                                 <opener>
+                                    <dateline rendition="#right">[<date
+                                            when="1944-09-12T14:30:00-04:00"
+                                            ana="#date_undated-inferred-from-chapter-heading"
+                                            calendar="gregorian">September 12, 1944, 2:30
+                                            p.m.</date>]</dateline><lb/>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
                                 </opener>
@@ -23624,12 +23625,12 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">McFarland Minutes</hi></head>
-                                <dateline>
-                                    <date when="1944-09-13T11:45:00-04:00"
-                                        ana="#date_undated-inferred-from-chapter-heading"
-                                        calendar="gregorian">September 13, 1944, 11:45 a.m.</date>
-                                </dateline>
                                 <opener>
+                                    <dateline rendition="#right">[<date
+                                            when="1944-09-13T11:45:00-04:00"
+                                            ana="#date_undated-inferred-from-chapter-heading"
+                                            calendar="gregorian">September 13, 1944, 11:45
+                                            a.m.</date>]</dateline><lb/>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
                                 </opener>
@@ -24132,12 +24133,12 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
-                                <dateline>
-                                    <date when="1944-09-13T14:30:00-04:00"
-                                        ana="#date_undated-inferred-from-chapter-heading"
-                                        calendar="gregorian">September 13, 1944, 2:30 p.m.</date>
-                                </dateline>
                                 <opener>
+                                    <dateline rendition="#right">[<date
+                                            when="1944-09-13T14:30:00-04:00"
+                                            ana="#date_undated-inferred-from-chapter-heading"
+                                            calendar="gregorian">September 13, 1944, 2:30
+                                            p.m.</date>]</dateline><lb/>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
                                 </opener>
@@ -24984,11 +24985,13 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
-                                <dateline>
-                                    <date when="1944-09-14T10:00:00-04:00"
-                                        ana="#date_undated-inferred-from-chapter-heading"
-                                        calendar="gregorian">September 14, 1944, 10 a.m.</date>
-                                </dateline>
+                                <opener>
+                                    <dateline rendition="#right">[<date
+                                            when="1944-09-14T10:00:00-04:00"
+                                            ana="#date_undated-inferred-from-chapter-heading"
+                                            calendar="gregorian">September 14, 1944, 10
+                                        a.m.</date>]</dateline>
+                                </opener>
                                 <opener>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
@@ -25891,12 +25894,12 @@
                                         contained an important garble—“32 billion dollars” instead
                                         of “3½ billion dollars”—in the second paragraph (740.0011
                                             <gloss target="#t_EW1">EW</gloss>/8–1843).</note></head>
-                                <dateline>
-                                    <date when="1944-09-14T11:30:00-04:00"
-                                        ana="#date_undated-inferred-from-chapter-heading"
-                                        calendar="gregorian">September 14, 1944, 11:30 a.m.</date>
-                                </dateline>
                                 <opener>
+                                    <dateline rendition="#right">[<date
+                                            when="1944-09-14T11:30:00-04:00"
+                                            ana="#date_undated-inferred-from-chapter-heading"
+                                            calendar="gregorian">September 14, 1944, 11:30
+                                            a.m.</date>]</dateline><lb/>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
                                 </opener>
@@ -26471,12 +26474,11 @@
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Minutes</hi><note n="1" xml:id="d193fn1"
                                         >Authorship not indicated.</note></head>
-                                <dateline>
-                                    <date when="1944-09-15"
-                                        ana="#date_undated-inferred-from-chapter-heading"
-                                        calendar="gregorian">September 15, 1944</date>
-                                </dateline>
                                 <opener>
+                                    <dateline rendition="#right">[<date when="1944-09-15"
+                                            ana="#date_undated-inferred-from-chapter-heading"
+                                            calendar="gregorian">September 15,
+                                        1944</date>]</dateline><lb/>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
                                 </opener>
@@ -26769,12 +26771,12 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
-                                <dateline>
-                                    <date when="1944-09-15T10:00:00-04:00"
-                                        ana="#date_undated-inferred-from-chapter-heading"
-                                        calendar="gregorian">September 15, 1944, 10 a.m.</date>
-                                </dateline>
                                 <opener>
+                                    <dateline rendition="#right">[<date
+                                            when="1944-09-15T10:00:00-04:00"
+                                            ana="#date_undated-inferred-from-chapter-heading"
+                                            calendar="gregorian">September 15, 1944, 10
+                                        a.m.</date>]</dateline><lb/>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
                                 </opener>
@@ -28348,12 +28350,12 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S</gloss> Files</note>
                                 <head><hi rend="italic">Joint Chiefs of Staff Minutes</hi></head>
-                                <dateline>
-                                    <date when="1944-09-16T10:15:00-04:00"
-                                        ana="#date_undated-inferred-from-chapter-heading"
-                                        calendar="gregorian">September 16, 1944, 10:15 a.m.</date>
-                                </dateline>
                                 <opener>
+                                    <dateline rendition="#right">[<date
+                                            when="1944-09-16T10:15:00-04:00"
+                                            ana="#date_undated-inferred-from-chapter-heading"
+                                            calendar="gregorian">September 16, 1944, 10:15
+                                            a.m.</date>]</dateline><lb/>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
                                 </opener>
@@ -28552,12 +28554,12 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">Combined Chiefs of Staff Minutes</hi></head>
-                                <dateline>
-                                    <date when="1944-09-16T10:15:00-04:00"
-                                        ana="#date_undated-inferred-from-chapter-heading"
-                                        calendar="gregorian">September 16, 1944, 10:15 a.m.</date>
-                                </dateline>
                                 <opener>
+                                    <dateline rendition="#right">[<date
+                                            when="1944-09-16T10:15:00-04:00"
+                                            ana="#date_undated-inferred-from-chapter-heading"
+                                            calendar="gregorian">September 16, 1944, 10:15
+                                            a.m.</date>]</dateline><lb/>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
                                 </opener>
@@ -28793,12 +28795,12 @@
                                 <note rend="inline" type="source"><gloss target="#t_JCS1"
                                         >J.C.S.</gloss> Files</note>
                                 <head><hi rend="italic">McFarland Minutes</hi></head>
-                                <dateline>
-                                    <date when="1944-09-16T10:15:00-04:00"
-                                        ana="#date_undated-inferred-from-chapter-heading"
-                                        calendar="gregorian">September 16, 1944, 10:15 a.m.</date>
-                                </dateline>
                                 <opener>
+                                    <dateline rendition="#right">[<date
+                                            when="1944-09-16T10:15:00-04:00"
+                                            ana="#date_undated-inferred-from-chapter-heading"
+                                            calendar="gregorian">September 16, 1944, 10:15
+                                            a.m.</date>]</dateline><lb/>
                                     <seg rendition="#left"><hi rend="smallcaps">top
                                         secret</hi></seg>
                                 </opener>
@@ -34387,7 +34389,7 @@
                                         <hi rend="italic">post</hi>, <ref target="#pg_477">p.
                                         477</ref>.</note></p>
                             <closer>
-                                <signed>H. L. <hi rend="smallcaps">Ismay</hi></signed>
+                                <signed>H. L. <hi rend="smallcaps">Ismay</hi></signed><lb/>
                                 <dateline rendition="#left">[<placeName><hi rend="smallcaps"
                                             >Quebec</hi></placeName>,] <date when="1944-09-15"
                                         calendar="gregorian">15th September, 1944</date>.</dateline>
@@ -36870,7 +36872,7 @@
                         </list>
                         <closer>
                             <signed>W[<hi rend="smallcaps">inston</hi>] S C[<hi rend="smallcaps"
-                                    >hurchill</hi>]</signed>
+                                    >hurchill</hi>]</signed><lb/>
                             <dateline rendition="#left">[<placeName><hi rend="smallcaps">Hyde
                                         Park</hi></placeName>,] <date when="1944-09-18"
                                     calendar="gregorian">September 18, 1944</date>.</dateline>

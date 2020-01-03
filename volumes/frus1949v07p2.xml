@@ -32076,9 +32076,11 @@
                             </frus:attachment>
                             <frus:attachment>
                                 <head>Enclosure</head>
-                                <dateline>[<date when="1949-06-23"
-                                        ana="#date_undated-inferred-from-document-content"
-                                        calendar="gregorian">June 23, 1949</date>]</dateline>
+                                <opener>
+                                    <dateline rendition="#right">[<date when="1949-06-23"
+                                            ana="#date_undated-inferred-from-document-content"
+                                            calendar="gregorian">June 23, 1949</date>]</dateline>
+                                </opener>
                                 <p rend="center">
                                     <hi rend="smallcaps">Memorandum for the Chief of Staff</hi>,
                                     U.S. <hi rend="smallcaps">Army</hi>
@@ -34444,11 +34446,11 @@
                                             target="frus1949v07p1#pg_34">p. 34</ref>.</p>
                                 </note>
                             </head>
-                            <dateline>
-                                <date when="1949-10-21"
-                                    ana="#date_undated-inferred-from-document-head"
-                                    calendar="gregorian">October 21, 1949</date>
-                            </dateline>
+                            <opener>
+                                <dateline rendition="#right">[<date when="1949-10-21"
+                                        ana="#date_undated-inferred-from-document-head"
+                                        calendar="gregorian">October 21, 1949</date>]</dateline>
+                            </opener>
                             <p rend="center">
                                 <hi rend="smallcaps">The Problem of the Independence of Korea</hi>
                             </p>

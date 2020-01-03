@@ -41,6 +41,23 @@
             <classDecl>
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
+            <tagsDecl>
+                <rendition xml:id="top">vertical-align: top;</rendition>
+                <rendition xml:id="bottom">vertical-align: bottom;</rendition>
+                <rendition xml:id="middle">vertical-align: middle;</rendition>
+                <rendition xml:id="nowrap">white-space: nowrap !important;</rendition>
+                <rendition xml:id="nopad">padding-right: 0.5em !important;</rendition>
+                <rendition xml:id="border-top">border-top: 1px black solid;</rendition>
+                <rendition xml:id="border-bottom">border-bottom: 1px black solid;</rendition>
+                <rendition xml:id="border-left">border-left: 1px black solid;</rendition>
+                <rendition xml:id="border-right">border-right: 1px black solid;</rendition>
+                <rendition xml:id="center">display: block; text-align: center;</rendition>
+                <rendition xml:id="center-block">margin-left: auto; margin-right: auto;</rendition>
+                <rendition xml:id="underline">text-decoration: underline;</rendition>
+                <rendition xml:id="hanging">padding-left:1.5em; text-indent:-1.5em;</rendition>
+                <rendition xml:id="left">display: inline; float: left;</rendition>
+                <rendition xml:id="right">display: inline; float: right;</rendition>
+            </tagsDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2009-01-15 PA/HO JW: Created volume shell for HCL</change>
@@ -899,7 +916,7 @@
                     <item>Subject Files <list>
                             <item>Items to Discuss with the President</item>
                             <item>Morocco, Attempted Coup D’Etat</item>
-                            <item>>National Intelligence Estimates</item>
+                            <item>&gt;National Intelligence Estimates</item>
                             <item>National Security Study Memoranda</item>
                             <item>VIP Visits</item>
                         </list></item>
@@ -3370,9 +3387,11 @@
                                 nations, the new relationship appeared to have potential drawbacks
                                 for U.S. interests in the region.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-03-19"
-                                calendar="gregorian">March 19, 1969</date>.</dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-03-19"
+                                    calendar="gregorian">March 19, 1969</date>.</dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>New Directions in the Maghreb</item>
@@ -3484,10 +3503,12 @@
                                     corresp="#p_HII1">Hassan</persName> and co-organizer King Faisal
                                 of Saudi Arabia.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-09-29"
-                                calendar="gregorian">September 29, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-09-29"
+                                    calendar="gregorian">September 29, 1969</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Islamic Summit Produces Moderate Consensus and the Makings of a
@@ -3596,10 +3617,12 @@
                                 proposals for an Israel-Jordan peace, had been well received.</note>
                         </head>
                         <pb n="1" xml:id="d3-01" facs="d3-01"/>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-12-24"
-                                calendar="gregorian">December 24, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-12-24"
+                                    calendar="gregorian">December 24, 1969</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>MIDDLE EAST: Arab Summit Ends in Disarray</item>
@@ -3689,10 +3712,12 @@
                                 in North Africa.</note>
                         </head>
                         <pb n="1" xml:id="d4-01" facs="d4-01"/>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-01-19"
-                                calendar="gregorian">January 19, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-01-19"
+                                    calendar="gregorian">January 19, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Study of Trends in North Africa</item>
@@ -3753,10 +3778,12 @@
                                 submission to the <gloss target="#t_NSC1">NSC</gloss> Review
                                 Group.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-01-22"
-                                calendar="gregorian">January 22, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-01-22"
+                                    calendar="gregorian">January 22, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="to">
                             <head>TO:</head>
                             <item>The Secretary of State</item>
@@ -3821,10 +3848,12 @@
                                 George Anderson’s impression, based on his recent visit, that the
                                 Free World position in North Africa was deteriorating.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-02-04"
-                                calendar="gregorian">February 4, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-02-04"
+                                    calendar="gregorian">February 4, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Admiral George Anderson’s Report on Mediterranean Trip</item>
@@ -3874,10 +3903,12 @@
                                 North Africa of a positive U.S. response to the Israeli arms
                                 request.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-02-23"
-                                calendar="gregorian">February 23, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-02-23"
+                                    calendar="gregorian">February 23, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Possible Consequences in North Africa of U.S. Response to Israeli
@@ -3894,8 +3925,10 @@
                             <note rend="inline" type="source">Enclosure</note>
                             <head>Information Memorandum to the Acting Secretary of the National
                                 Security Council </head>
-                            <dateline><placeName>Washington</placeName>, <date when="1970-02-14"
-                                    >February 14, 1970</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-02-14">February 14, 1970</date></dateline>
+                            </opener>
                             <pb n="2" xml:id="d7-02" facs="d7-02"/>
                             <p>SUBJECT: Possible Consequences in North Africa of U.S. Response to
                                 Israeli Arms Request</p>
@@ -4009,10 +4042,12 @@
                                 political and social ramifications of projected economic
                                 stability.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-03-12"
-                                calendar="gregorian">March 12, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-03-12"
+                                    calendar="gregorian">March 12, 1970</date>
+                            </dateline>
+                        </opener>
                         <pb n="2" xml:id="d8-02" facs="d8-02"/>
                         <p rend="center">THE OUTLOOK FOR NORTH AFRICA</p>
                         <p rend="flushleft">NOTE</p>
@@ -4869,10 +4904,12 @@
                                 nations and the possible influence on U.S. interests in the region,
                                 then put forth a strategy for protecting those interests.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-04-17"
-                                calendar="gregorian">April 17, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-04-17"
+                                    calendar="gregorian">April 17, 1970</date>
+                            </dateline>
+                        </opener>
                         <p rend="center">
                             <hi rend="underline">SUMMARY</hi>
                         </p>
@@ -5281,10 +5318,12 @@
                                 relationship with North Africa where it maintained appreciable
                                 interests.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-05-11"
-                                calendar="gregorian">May 11, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-05-11"
+                                    calendar="gregorian">May 11, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>NSSM 87</item>
@@ -5374,10 +5413,12 @@
                                 response to NSSM 90, discussed the role of France in North Africa,
                                 which U.S. policymakers viewed with ambivalence.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-06-12"
-                                calendar="gregorian">June 12, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-06-12"
+                                    calendar="gregorian">June 12, 1970</date>
+                            </dateline>
+                        </opener>
                         <p>[Omitted here is discussion unrelated to North Africa.]</p>
                         <pb n="2" xml:id="d11-02" facs="d11-02"/>
                         <p>Mediterranean region is vital to Europe’s interests. In fact, the
@@ -5498,10 +5539,12 @@
                                 the appropriate results and should be continued.</note>
                         </head>
                         <pb n="1" xml:id="d12-01" facs="d12-01"/>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-12-09"
-                                calendar="gregorian">December 9, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-12-09"
+                                    calendar="gregorian">December 9, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>
@@ -5616,9 +5659,11 @@
                                 diplomatic relations between the United States and Algeria were
                                 nearly even.</note>
                         </head>
-                        <dateline><placeName>Algiers</placeName>, <date when="1969-04-07"
-                                calendar="gregorian">April 7, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Algiers</placeName>, <date
+                                    when="1969-04-07" calendar="gregorian">April 7, 1969</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>US POLICY ASSESSMENT FOR ALGERIA–1969</item>
@@ -5697,9 +5742,11 @@
                                 accused of supporting Krim in his attempts to conspire against the
                                 Algerian Government.</note>
                         </head>
-                        <dateline><placeName>Algiers</placeName>, <date when="1969-04-14"
-                                calendar="gregorian">April 14, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Algiers</placeName>, <date
+                                    when="1969-04-14" calendar="gregorian">April 14, 1969</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>The Krim Belkacem Trial and its Impact on U.S.-Algerian
@@ -5819,10 +5866,12 @@
                                 then analyzed the ways in which a shift in that balance could end in
                                 favor of closer relations with Moscow.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-08-19"
-                                calendar="gregorian">August 19, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-08-19"
+                                    calendar="gregorian">August 19, 1969</date>
+                            </dateline>
+                        </opener>
                         <pb n="2" xml:id="d15-02" facs="d15-02"/>
                         <list type="subject">
                             <head>SUBJECT:</head>
@@ -6238,10 +6287,13 @@
                                 relationship with the other major powers and the possible course its
                                 new economic programs would follow.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1969-10-15T19:01:00-05:00" type="conversation-or-meeting-date"
-                                calendar="gregorian">October 15, 1969, 1901Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1969-10-15T19:01:00-05:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian">October
+                                    15, 1969, 1901Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJ:</head>
                             <item>Secretary’s Meeting with <persName corresp="#p_BAA1"
@@ -6381,11 +6433,13 @@
                                 role in the Maghreb, and the protection of the Palestinians in the
                                 Middle East.</note>
                         </head>
-                        <dateline>
-                            <placeName>New York</placeName>, <date when="1969-10-20"
-                                type="conversation-or-meeting-date" calendar="gregorian">October 20,
-                                1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>New York</placeName>, <date when="1969-10-20"
+                                    type="conversation-or-meeting-date" calendar="gregorian">October
+                                    20, 1969</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>U.S.-Algerian Relations</item>
@@ -6592,10 +6646,12 @@
                                     >Boumediene</persName>’s emphasis toward getting Algeria’s
                                 economic and financial situation in order.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-10-27"
-                                calendar="gregorian">October 27, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-10-27"
+                                    calendar="gregorian">October 27, 1969</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject :</head>
                             <item>President <persName corresp="#p_BH1">Boumediene</persName>’s
@@ -6612,8 +6668,10 @@
                         <frus:attachment>
                             <note rend="inline" type="source">Enclosure:</note>
                             <head>Memorandum Prepared in the Department of State</head>
-                            <dateline><placeName>Washington</placeName>, <date when="1969-10-24"
-                                    >October 24, 1969</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1969-10-24">October 24, 1969</date></dateline>
+                            </opener>
                             <pb n="2" xml:id="d18-02" facs="d18-02"/>
                             <list type="subject">
                                 <head>SUBJECT:</head>
@@ -6702,10 +6760,12 @@
                                 not prepared for full diplomatic relations, the Algerian Government
                                 hoped to extend economic ties with the United States.</note>
                         </head>
-                        <dateline><placeName>Algiers</placeName>, <date
-                                when="1970-02-05T18:30:00+00:00" calendar="gregorian">February 5,
-                                1970, 1830Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Algiers</placeName>, <date
+                                    when="1970-02-05T18:30:00+00:00" calendar="gregorian">February
+                                    5, 1970, 1830Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Meeting With Algerian Foreign Minister</item>
@@ -6937,10 +6997,12 @@
                                 relations with Algeria and emphasized the U.S. opposition to
                                 Israel’s expansionism.</note>
                         </head>
-                        <dateline><placeName>Addis Ababa</placeName>, <date
-                                when="1970-02-11T21:30:00+00:00" calendar="gregorian">February 11,
-                                1970, 2130Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Addis Ababa</placeName>, <date
+                                    when="1970-02-11T21:30:00+00:00" calendar="gregorian">February
+                                    11, 1970, 2130Z</date>
+                            </dateline>
+                        </opener>
                         <list>
                             <label>1.</label>
                             <item>This message summarizes high points of meeting held 9 Feb 1700
@@ -7047,10 +7109,12 @@
                                 progress was impeded by outstanding disputes between that country
                                 and American individuals and corporations.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1970-04-30T01:38:00+00:00" calendar="gregorian">April 30,
-                                1970, 0138Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1970-04-30T01:38:00+00:00" calendar="gregorian">April 30,
+                                    1970, 0138Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>REF:</head>
                             <item>Algiers 592, 595</item>
@@ -7170,10 +7234,12 @@
                                     >Kissinger</persName> goes on to discuss U.S.-Algerian relations
                                 in more depth.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-10-14"
-                                calendar="gregorian">October 14, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-10-14"
+                                    calendar="gregorian">October 14, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Letter to President <persName corresp="#p_BH1"
@@ -7312,10 +7378,12 @@
                                 stressed the common interests of both countries despite their policy
                                 differences.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1970-12-17T00:12:00+00:00" calendar="gregorian">December 17,
-                                1970, 0012Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1970-12-17T00:12:00+00:00" calendar="gregorian">December
+                                    17, 1970, 0012Z</date>
+                            </dateline>
+                        </opener>
                         <list>
                             <label>1.</label>
                             <item>Secretary received <persName corresp="#p_BA3"
@@ -7444,10 +7512,12 @@
                                 particularly interested in the U.S. importation of Algerian
                                 liquefied natural gas.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1971-04-07T19:55:00+00:00" calendar="gregorian">April 7, 1971,
-                                1955Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-04-07T19:55:00+00:00" calendar="gregorian">April 7,
+                                    1971, 1955Z</date>
+                            </dateline>
+                        </opener>
                         <list>
                             <label>1.</label>
                             <item>French Ambassador <persName corresp="#p_LC1">Lucet</persName>
@@ -7598,10 +7668,12 @@
                                 of action. The Paper was approved by the <gloss target="#t_NSC1"
                                     >NSC</gloss> Interdepartmental Group for Africa.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1971-06-16T11:23:00-05:00" calendar="gregorian">June 16, 1971,
-                                11:23 a.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-06-16T11:23:00-05:00" calendar="gregorian">June 16,
+                                    1971, 11:23 a.m.</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Policy Planning Paper</item>
@@ -7627,8 +7699,10 @@
                             <note rend="inline" type="source">Enclosure</note>
                             <pb n="2" xml:id="d25-02" facs="d25-02"/>
                             <head>Policy Planning Paper</head>
-                            <dateline><placeName>Washington</placeName>, <date when="1971-06">June
-                                    1971</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1971-06">June 1971</date></dateline>
+                            </opener>
                             <p rend="center">
                                 <hi rend="underline">ALGERIA:</hi> Policy Planning Paper</p>
                             <pb n="3" xml:id="d25-03" facs="d25-03"/>
@@ -7789,9 +7863,11 @@
                                 detailing the Algerian expropriation of United States and French
                                 property.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date when="1971-07-13"
-                                calendar="gregorian">July 13, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-07-13" calendar="gregorian">July 13, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>
@@ -7811,8 +7887,10 @@
                             <head>Memorandum From the President’s Assistant for National Security
                                 Affairs (<persName corresp="#p_KHA1" type="from"
                                     >Kissinger</persName>) to President Nixon</head>
-                            <dateline><placeName>Washington</placeName>,
-                                <date>undated</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
+                            </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
                                 <item>Natural Gas Imports from Algeria (El Paso)</item>
@@ -7949,10 +8027,12 @@
                                 gas reserves as a means for funding the expensive development
                                 projects the Government had undertaken.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-07-31"
-                                calendar="gregorian">July 31, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-07-31"
+                                    calendar="gregorian">July 31, 1971</date>
+                            </dateline>
+                        </opener>
                         <pb n="2" xml:id="d27-02" facs="d27-02"/>
                         <p rend="center">Algeria’s International Relations</p>
                         <p rend="flushleft">NOTE</p>
@@ -8877,10 +8957,12 @@
                                 slowing and that the delay could cause disillusionment in
                                 Algeria.</note>
                         </head>
-                        <dateline><placeName>Algiers</placeName>, <date
-                                when="1972-01-21T14:20:00+00:00" calendar="gregorian">January 21,
-                                1972, 1420Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Algiers</placeName>, <date
+                                    when="1972-01-21T14:20:00+00:00" calendar="gregorian">January
+                                    21, 1972, 1420Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>US/Algerian Relations</item>
@@ -8983,10 +9065,12 @@
                                 arguments for and against allowing Raytheon to sell radar equipment
                                 to Algeria.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-03-01"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">undated</date></dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>[, <date when="1972-03-01"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">undated</date>]</dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Air Defense Network for Algeria</item>
@@ -9074,10 +9158,12 @@
                                 Assistant Secretary of State for African Affairs <persName
                                     corresp="#p_NDD1">David Newsom</persName>.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-03-11"
-                                calendar="gregorian">March 11, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-03-11"
+                                    calendar="gregorian">March 11, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Letter to President <persName corresp="#p_BH1"
@@ -9116,8 +9202,10 @@
                             <note rend="inline" type="source">Tab A</note>
                             <head>Letter From President Nixon to Algerian President
                                 Boumediene</head>
-                            <dateline><placeName>Washington</placeName>, <date when="1972-03-13"
-                                    >March 13, 1972</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1972-03-13">March 13, 1972</date></dateline>
+                            </opener>
                             <pb n="2" xml:id="d30-02" facs="d30-02"/>
                             <p>Dear Mr. President:</p>
                             <p>On the occasion of his visit to Algeria, I have asked Assistant
@@ -9174,10 +9262,12 @@
                                 expressed the hope that diplomatic relations might soon be
                                 resumed.</note>
                         </head>
-                        <dateline><placeName>Algiers</placeName>, <date
-                                when="1972-03-28T13:33:00+00:00" calendar="gregorian">March 28,
-                                1972, 1333Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Algiers</placeName>, <date
+                                    when="1972-03-28T13:33:00+00:00" calendar="gregorian">March 28,
+                                    1972, 1333Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Meeting With <persName corresp="#p_BH1">Boumediene</persName>
@@ -9375,10 +9465,12 @@
                                 himself at the end of his current trip to make the
                                 announcement.</note>
                         </head>
-                        <dateline><placeName>Algiers</placeName>, <date
-                                when="1972-07-02T12:45:00+00:00" calendar="gregorian">July 2, 1972,
-                                1245Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Algiers</placeName>, <date
+                                    when="1972-07-02T12:45:00+00:00" calendar="gregorian">July 2,
+                                    1972, 1245Z</date>
+                            </dateline>
+                        </opener>
                         <p>For <persName corresp="#p_NDD1">Newsom</persName>
                         </p>
                         <list type="subject">
@@ -9473,11 +9565,13 @@
                                 hijacking of a Delta Airlines aircraft by members of the Black
                                 Panthers, who had been paid a million-dollar ransom.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-07-31"
-                                type="conversation-or-meeting-date" calendar="gregorian">July 31,
-                                1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-07-31"
+                                    type="conversation-or-meeting-date" calendar="gregorian">July
+                                    31, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="participants">
                             <head>PARTICIPANTS:</head>
                             <item>
@@ -9697,10 +9791,13 @@
                                 governments on matters of common interest, including the Middle East
                                 and hijacking.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1972-10-14T19:33:00+00:00" type="conversation-or-meeting-date"
-                                calendar="gregorian">October 14, 1972, 1933Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1972-10-14T19:33:00+00:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian">October
+                                    14, 1972, 1933Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subj:</head>
                             <item>MEmorandum of Conversation—The Secretary and <gloss
@@ -9870,10 +9967,13 @@
                                     >Newsom</persName> discussed a range of issues, notably
                                 hijacking, the Middle East, Vietnam, and the El Paso deal.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1972-10-20T15:00:00-04:00" type="conversation-or-meeting-date"
-                                calendar="gregorian">October 20, 1972, 3 p.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1972-10-20T15:00:00-04:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian">October
+                                    20, 1972, 3 p.m.</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>General Discussion of US-Algerian Relations</item>
@@ -10079,10 +10179,12 @@
                                     >Newsom</persName> went on to discuss the U.S. interest in
                                 maintaining a positive relationship with the new Prince.</note>
                         </head>
-                        <dateline>
-                            <placeName>Tripoli</placeName>, <date when="1969-03-27"
-                                calendar="gregorian">March 27, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Tripoli</placeName>, <date when="1969-03-27"
+                                    calendar="gregorian">March 27, 1969</date>
+                            </dateline>
+                        </opener>
                         <p>Dear <persName corresp="#p_RJF1">John</persName>:</p>
                         <p>Embassy Airgram A–72 forwards a conversation of significance which I had
                             with the Crown Prince on March 20.</p>
@@ -10162,10 +10264,12 @@
                                 new government, the Libyan monarchy’s response to the coup, and
                                 possible U.S. strategies in dealing with the new government.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-09-02"
-                                calendar="gregorian">September 2, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-09-02"
+                                    calendar="gregorian">September 2, 1969</date>
+                            </dateline>
+                        </opener>
                         <p>The import of the coup in Libya will be clearer in another 24–48 hours,
                             Following is to give you the best Washington appraisal as of the end of
                             the day (Monday).</p>
@@ -10244,10 +10348,12 @@
                                 new regime and coordinate the timing of recognition with the
                                 British.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-09-04"
-                                calendar="gregorian">September 4, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-09-04"
+                                    calendar="gregorian">September 4, 1969</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>U.S. Policy in the Wake of the Libyan Coup</item>
@@ -10329,10 +10435,12 @@
                                 and outlined the larger consequences this coup would have on the
                                 larger Arab world.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-09-16"
-                                calendar="gregorian">September 16, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-09-16"
+                                    calendar="gregorian">September 16, 1969</date>
+                            </dateline>
+                        </opener>
                         <p>Implications of the Libyan Coup: Some Initial Thoughts<note n="*"
                                 xml:id="d39fn3">This memorandum was prepared by the Office of
                                 National Estimates. It was discussed with representatives of the
@@ -10542,10 +10650,12 @@
                                 Arab states which had voiced concern over the lack of American
                                 reaction to the Libyan coup.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1969-09-17T21:04:00+00:00" calendar="gregorian">September 17,
-                                1969, 2104Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1969-09-17T21:04:00+00:00" calendar="gregorian">September
+                                    17, 1969, 2104Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Reaction to Libyan Coup</item>
@@ -10643,10 +10753,12 @@
                                 Country Files, Africa, Libya, Vol. I. Secret. Sent for
                                 information.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-10-01"
-                                calendar="gregorian">October 1, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-10-01"
+                                    calendar="gregorian">October 1, 1969</date>
+                            </dateline>
+                        </opener>
                         <p>[2 pages not declassified in time for publication]</p>
                     </div>
                     <pb n="1" xml:id="d42-01" facs="d42-01"/>
@@ -10676,10 +10788,12 @@
                                     >Joseph Palmer</persName> with a note calling for discussions to
                                 terminate the American presence at Wheelus.</note>
                         </head>
-                        <dateline><placeName>Benghazi</placeName>, <date
-                                when="1969-10-30T17:50:00+00:00" calendar="gregorian">October 30,
-                                1969, 1750Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Benghazi</placeName>, <date
+                                    when="1969-10-30T17:50:00+00:00" calendar="gregorian">October
+                                    30, 1969, 1750Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>
@@ -10766,10 +10880,12 @@
                                 to begin talks on withdrawal of U.S. military facilities, and hoped
                                 that training could meanwhile resume.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-11-17"
-                                calendar="gregorian">November 17, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-11-17"
+                                    calendar="gregorian">November 17, 1969</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Instructions on Wheelus Base</item>
@@ -10833,10 +10949,12 @@
                                 possible strategies to employ in discussions with the new regime;
                                 and analyzes options both for and against those strategies.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-11-20"
-                                calendar="gregorian">November 20, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-11-20"
+                                    calendar="gregorian">November 20, 1969</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Paper on Possible Alternative Pressures on the Present Libyan
@@ -10995,8 +11113,10 @@
                         <frus:attachment>
                             <note rend="inline" type="source">Attachment</note>
                             <head>Paper Prepared in the National Security Council</head>
-                            <dateline><placeName>Washington</placeName>, <date when="1969-11-10"
-                                    >November 10, 1969</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1969-11-10">November 10, 1969</date></dateline>
+                            </opener>
                             <list type="subject">
                                 <head>Subject:</head>
                                 <item>Possible Alternative Pressures on Present Libyan Regime</item>
@@ -11403,11 +11523,13 @@
                                 focusing specifically on the issues of U.S. oil interests, the base
                                 at Wheelus, and possible covert intervention.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                from="1969-11-24T15:03:00-05:00" to="1969-11-24T17:18:00-05:00"
-                                calendar="gregorian">November 24, 1969, 3:03–5:18 p.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    from="1969-11-24T15:03:00-05:00" to="1969-11-24T17:18:00-05:00"
+                                    calendar="gregorian">November 24, 1969, 3:03–5:18 p.m.</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>
                                 <hi rend="underline">Subject:</hi>
@@ -11879,10 +12001,12 @@
                                 al-Hawwaaz and Minister of the Interior al-Haasi, hinted that the
                                 coup leaders had help from Washington and London.</note>
                         </head>
-                        <dateline><placeName>Tripoli</placeName>, <date
-                                when="1969-12-11T10:10:00+00:00" calendar="gregorian">December 11,
-                                1969, 1010Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
+                                    when="1969-12-11T10:10:00+00:00" calendar="gregorian">December
+                                    11, 1969, 1010Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Abortive Coup Against New Libyan Military Regime</item>
@@ -12009,10 +12133,12 @@
                                 negotiating instructions on the Wheelus base prepared by State and
                                 Defense.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-12-11"
-                                calendar="gregorian">December 11, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-12-11"
+                                    calendar="gregorian">December 11, 1969</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Negotiating Instructions on Wheelus Base</item>
@@ -12049,8 +12175,10 @@
                                     (<persName corresp="#p_JUA1" type="to">Johnson</persName>) to
                                 the President’s Assistant for National Security Affairs (<persName
                                     corresp="#p_KHA1" type="to">Kissinger</persName>)</head>
-                            <dateline><placeName>Washington</placeName>, <date when="1969-12-11"
-                                    >December 11, 1969</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1969-12-11">December 11, 1969</date></dateline>
+                            </opener>
                             <list type="subject">
                                 <head>Subject:</head>
                                 <item>Wheelus Base Negotiations</item>
@@ -12076,8 +12204,10 @@
                                 <note rend="inline" type="source">Enclosure</note>
                                 <head>Draft Telegram From the Department of State to the Embassy in
                                     Libya</head>
-                                <dateline><placeName>Washington</placeName>,
-                                    <date>undated</date></dateline>
+                                <opener>
+                                    <dateline rendition="#right"><placeName>Washington</placeName>,
+                                            <date>undated</date></dateline>
+                                </opener>
                                 <pb n="3" xml:id="d47-03" facs="d47-03"/>
                                 <p>JOINT STATE/DEFENSE MESSAGE</p>
                                 <list type="subject">
@@ -12251,10 +12381,12 @@
                                 contingency statement in case the meetings of a U.S. official with
                                 one of the coup plotters should be exposed.</note>
                         </head>
-                        <dateline><placeName>Tripoli</placeName>, <date
-                                when="1969-12-13T13:55:00+00:00" calendar="gregorian">December 13,
-                                1969, 1355Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
+                                    when="1969-12-13T13:55:00+00:00" calendar="gregorian">December
+                                    13, 1969, 1355Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Contingency Statement re Hawwaaz Approach to <gloss
@@ -12351,10 +12483,12 @@
                                 criticism for the U.S. agreement to withdraw from Wheelus on June 30
                                 at a time when ties were growing between Libya and Egypt.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-12-23"
-                                calendar="gregorian">December 23, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-12-23"
+                                    calendar="gregorian">December 23, 1969</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Conclusion of Agreement Regarding Wheelus</item>
@@ -12430,10 +12564,12 @@
                                 oil policies, Libyan arms negotiations with the Soviet Union, and
                                 Arab-Israeli “matters.”</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-12-30"
-                                calendar="gregorian">December 30, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-12-30"
+                                    calendar="gregorian">December 30, 1969</date>
+                            </dateline>
+                        </opener>
                         <pb n="2" xml:id="d50-02" facs="d50-02"/>
                         <p>Short-Term Prospects For Libya</p>
                         <p rend="flushleft">NOTE</p>
@@ -12944,10 +13080,12 @@
                                     >Palmer</persName> tried to clarify some points of
                                 contention.</note>
                         </head>
-                        <dateline><placeName>Tripoli</placeName>, <date
-                                when="1970-01-26T13:46:00+00:00" calendar="gregorian">January 26,
-                                1970, 1346Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
+                                    when="1970-01-26T13:46:00+00:00" calendar="gregorian">January
+                                    26, 1970, 1346Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subj:</head>
                             <item>Future <gloss target="#t_USG1">USG</gloss> Military
@@ -13174,10 +13312,12 @@
                                 memorandum recommended a shift in the relationship to plan for
                                 possible future instability in the region.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-02-12"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">undated</date></dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>[, <date when="1970-02-12"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">undated</date>]</dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Future U.S. Relationship with the Libyan Air Force</item>
@@ -13259,10 +13399,12 @@
                                 power of the present regime and outlined the directions in which the
                                 leaders appeared to be moving.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-02-13"
-                                calendar="gregorian">February 13, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-02-13"
+                                    calendar="gregorian">February 13, 1970</date>
+                            </dateline>
+                        </opener>
                         <pb n="2" xml:id="d53-02" facs="d53-02"/>
                         <p>An Intelligence Assessment of Libya</p>
                         <p rend="center">
@@ -13469,9 +13611,11 @@
                                 Government to adopt policies consistent with U.S. objectives and
                                 minimize those policies inimical to them.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date when="1970-03-20"
-                                calendar="gregorian">March 20, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1970-03-20" calendar="gregorian">March 20, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Options for Possible [text not declassified] Action in
@@ -13547,10 +13691,12 @@
                                 that the United States was a “lost cause” and should be written
                                 off.</note>
                         </head>
-                        <dateline><placeName>Tripoli</placeName>, <date
-                                when="1970-04-13T14:28:00+00:00" calendar="gregorian">April 13,
-                                1970, 1428Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
+                                    when="1970-04-13T14:28:00+00:00" calendar="gregorian">April 13,
+                                    1970, 1428Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>“Signals” on US-Libyan Relations</item>
@@ -13682,10 +13828,12 @@
                                 delivery in the interests of the Option 1A operation. Ultimately,
                                 the group concluded it would be best to defer delivery.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-04-16"
-                                calendar="gregorian">April 16, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-04-16"
+                                    calendar="gregorian">April 16, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT :</head>
                             <item>The [<hi rend="italic">text not declassified</hi>] Libyan
@@ -13785,10 +13933,12 @@
                                 the F–5 sale, the United States was prepared to accept five Libyan
                                 pilots for F–5 training.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1970-05-09T17:48:00+00:00" calendar="gregorian">May 9, 1970,
-                                1748Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1970-05-09T17:48:00+00:00" calendar="gregorian">May 9,
+                                    1970, 1748Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJ:</head>
                             <item>Future US Relationship with Libyan Air Force</item>
@@ -13956,10 +14106,12 @@
                                 3 page report concluded that the nationalization of the oil industry
                                 as a whole was unlikely.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-05-27"
-                                calendar="gregorian">May 27, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-05-27"
+                                    calendar="gregorian">May 27, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Libya: Will the Government Move Against the Oil Companies?</item>
@@ -14062,10 +14214,12 @@
                                 indicated that the United States had in fact overpaid Libya for the
                                 use of the Wheelus base.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-06-02"
-                                calendar="gregorian">June 2, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-06-02"
+                                    calendar="gregorian">June 2, 1970</date>
+                            </dateline>
+                        </opener>
                         <p rend="flushleft">Dear Dave:</p>
                         <p>I am writing to request your review of the current State/Defense
                             instructions on termination of the <gloss target="#t_USG1"
@@ -14169,10 +14323,12 @@
                                 reporting that in an official ceremony on June 11, the Wheelus
                                 commander had turned over the base to the Libyan Air Force.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-06-12"
-                                calendar="gregorian">June 12, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-06-12"
+                                    calendar="gregorian">June 12, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Wheelus Air Force Base Closure</item>
@@ -14187,8 +14343,10 @@
                             <note rend="inline" type="source">Enclosure</note>
                             <head>Information Memorandum Prepared in the Bureau of African Affairs,
                                 Department of State, for Secretary of State Rogers</head>
-                            <dateline><placeName>Washington</placeName>,
-                                <date>undated</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
+                            </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
                                 <item>Wheelus Air Force Base Closure</item>
@@ -14260,10 +14418,12 @@
                                     <persName>Johnson</persName>’s suggestion that the United States
                                 admit to owing further payments for Wheelus.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-06-26"
-                                calendar="gregorian">June 26, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-06-26"
+                                    calendar="gregorian">June 26, 1970</date>
+                            </dateline>
+                        </opener>
                         <p>Dear Alex:</p>
                         <p>I am replying to your letter of June 2nd about possible payments due to
                             the Libyan Government, under the 1954 Economic Assistance Agreement, as
@@ -14314,10 +14474,12 @@
                                 given authority to terminate the U.S.-Libyan agreements currently in
                                 force.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-07-02"
-                                calendar="gregorian">July 2, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-07-02"
+                                    calendar="gregorian">July 2, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Circular 175 Authority for Termination of Outstanding <gloss
@@ -14489,10 +14651,12 @@
                                 arms supplies and suppliers to Libya since the 1969
                                 revolution.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-07-31"
-                                calendar="gregorian">July 31, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-07-31"
+                                    calendar="gregorian">July 31, 1970</date>
+                            </dateline>
+                        </opener>
                         <p>LIBYAN ARMS SUPPLIES SINCE THE 1969 REVOLUTION</p>
                         <p rend="center">
                             <hi rend="underline">Introduction</hi>
@@ -14745,10 +14909,12 @@
                                 to the implications of the introduction of Soviet weapons into
                                 Libya.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-08-05"
-                                calendar="gregorian">August 5, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-08-05"
+                                    calendar="gregorian">August 5, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Soviet Military Deliveries to Libya</item>
@@ -14820,10 +14986,12 @@
                                     >Rogers</persName>’ suggestion for a meeting with Ambassador
                                     <persName corresp="#p_PJAII1">Joseph Palmer</persName>.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-08-12"
-                                calendar="gregorian">August 12, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-08-12"
+                                    calendar="gregorian">August 12, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Appointment for Ambassador <persName corresp="#p_PJAII1"
@@ -14876,10 +15044,12 @@
                             <note n="2" xml:id="d66fn2" type="summary">This meeting discussed Libya
                                 and examined certain aspects of Option 1A.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date when="1970-08-19"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >August 19, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">[<placeName>Washington</placeName>, <date
+                                    when="1970-08-19"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">August 19, 1970</date>]</dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Minutes of the Meeting [<hi rend="italic">text not
@@ -15018,7 +15188,10 @@
                         <frus:attachment>
                             <note rend="inline" type="source">Attachment</note>
                             <head>Status Report</head>
-                            <dateline><date when="1970-07-07">July 7, 1970</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><date when="1970-07-07">July 7,
+                                        1970</date></dateline>
+                            </opener>
                             <pb n="4" xml:id="d66-04" facs="d66-04"/>
                             <list type="subject">
                                 <head>SUBJECT :</head>
@@ -15103,10 +15276,12 @@
                                 Ambassador <persName corresp="#p_PJAII1">Joseph
                                 Palmer</persName>.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-08-20"
-                                calendar="gregorian">August 20, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-08-20"
+                                    calendar="gregorian">August 20, 1970</date>
+                            </dateline>
+                        </opener>
                         <p>Dear <persName corresp="#p_LT1">Tom</persName>:</p>
                         <p>Because of the amount of detail involved, just for your background [text
                             not declassified] I am sending to you the attached draft of a memorandum
@@ -15124,8 +15299,10 @@
                                 the Deputy Director for Plans of the Central Intelligence Agency
                                     (<persName corresp="#p_KTH1" type="to"
                                 >Karamessines</persName>)</head>
-                            <dateline><placeName>Washington</placeName>,
-                                <date>undated</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
+                            </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
                                 <item>Libya—[<hi rend="italic">text not declassified</hi>] Option
@@ -15258,10 +15435,12 @@
                                     corresp="#p_KHA1">Kissinger</persName> to a plot by Libyan
                                 exiles to release Idriss loyalists from prison.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-08-28"
-                                calendar="gregorian">August 28, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-08-28"
+                                    calendar="gregorian">August 28, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Plot against Libyan Government</item>
@@ -15312,10 +15491,12 @@
                                 various views within the administration on F–5 sales to
                                 Libya.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-12-31"
-                                calendar="gregorian">December 31, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-12-31"
+                                    calendar="gregorian">December 31, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>F–5s for Libya—Your Meeting-of January 6, 1971, 11:00 a.m.</item>
@@ -15339,8 +15520,10 @@
                             <note rend="inline" type="source">Attachment</note>
                             <head>Action Memorandum From the Assistant Secretary of State for
                                 African Affairs (Newsom) to Secretary of State Rogers</head>
-                            <dateline><placeName>Washington</placeName>, <date when="1970-12-04"
-                                    >December 4, 1970</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-12-04">December 4, 1970</date></dateline>
+                            </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
                                 <item>F–5s for Libya</item>
@@ -15507,10 +15690,12 @@
                                 Parmenter that a critical point in relations with Libya might be
                                 approaching.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-02-23"
-                                calendar="gregorian">February 23, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-02-23"
+                                    calendar="gregorian">February 23, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>LIBYA</item>
@@ -15627,10 +15812,12 @@
                                 issues between Libya and the United States apart from the
                                 Arab-Israel dispute.</note>
                         </head>
-                        <dateline><placeName>Tripoli</placeName>, <date
-                                when="1971-02-24T11:47:00+00:00" calendar="gregorian">February 24,
-                                1971, 1147Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
+                                    when="1971-02-24T11:47:00+00:00" calendar="gregorian">February
+                                    24, 1971, 1147Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subj:</head>
                             <item>Tour d’Horizon With <persName corresp="#p_QW1">Qadhafi</persName>:
@@ -15884,10 +16071,12 @@
                                 the sale of F–5s to Libya, arguing that the Libyan Government would
                                 be unfriendly no matter what Washington did.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-03-18"
-                                calendar="gregorian">March 18, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-03-18"
+                                    calendar="gregorian">March 18, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>F–5 Aircraft for Libya</item>
@@ -15922,8 +16111,10 @@
                             <head>Note From Richard Kennedy of the National Security Council Staff
                                 to the President’s Assistant for National Security Affairs
                                     (<persName corresp="#p_KHA1">Kissinger</persName>)</head>
-                            <dateline><placeName>Washington</placeName>, <date when="1971-03-19"
-                                    >March 19, 1971</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1971-03-19">March 19, 1971</date></dateline>
+                            </opener>
                             <p>HAK:<lb/>I sympathize with Hal’s view but (1) the F–5’s can’t do any
                                 significant harm in the Arab-Israeli contest, (2) if we don’t sell
                                 them the French or the Russians will and (3) there may be a way we
@@ -15953,10 +16144,12 @@
                                     corresp="#p_NRM1">Nixon</persName> of the current state of play
                                 on the oil negotiations with Libya.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-03-27"
-                                calendar="gregorian">March 27, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-03-27"
+                                    calendar="gregorian">March 27, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>International Oil Situation—Libyan Phase</item>
@@ -16011,10 +16204,12 @@
                                 about likely developments in Libyan policy, particularly in foreign
                                 affairs.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-04-30"
-                                calendar="gregorian">April 30, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-04-30"
+                                    calendar="gregorian">April 30, 1971</date>
+                            </dateline>
+                        </opener>
                         <pb n="2" xml:id="d74-02" facs="d74-02"/>
                         <p rend="flushleft">NOTE</p>
                         <p>This Estimate assesses likely developments in Libyan policy, particularly
@@ -16925,10 +17120,12 @@
                                 Department’s willingness to provide support for those already
                                 delivered.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-05-08"
-                                calendar="gregorian">May 8, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-05-08"
+                                    calendar="gregorian">May 8, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>F–5s for Libya </item>
@@ -17013,10 +17210,12 @@
                                     corresp="#p_KHA1">Kissinger</persName> on the status of an
                                 internal plot against the Libyan regime.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-05-17"
-                                calendar="gregorian">May 17, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-05-17"
+                                    calendar="gregorian">May 17, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Plot Against the Libyan Government</item>
@@ -17096,10 +17295,12 @@
                                     >CIA</gloss> provided a status report on Libyan
                                 developments.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-05-17"
-                                calendar="gregorian">May 17, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-05-17"
+                                    calendar="gregorian">May 17, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Status Report on [<hi rend="italic">text not declassified</hi>],
@@ -17383,7 +17584,9 @@
                         <frus:attachment>
                             <note rend="inline" type="source">Attachment</note>
                             <head>Memorandum</head>
-                            <dateline><date>January 1971</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><date>January 1971</date></dateline>
+                            </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
                                 <item>[<hi rend="italic">text not declassified</hi>] Status Report
@@ -17451,9 +17654,11 @@
                                     target="#t_NSC1">NSC</gloss> Interdepartmental Group for
                                 Africa.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date when="1971-06-16"
-                                calendar="gregorian">June 16, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-06-16" calendar="gregorian">June 16, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Policy Planning Paper</item>
@@ -17752,9 +17957,11 @@
                                     <persName corresp="#p_RWP1">Rogers</persName> that the United
                                 States allow a Spanish firm to sell F–5Bs to Libya.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date when="1971-12-02"
-                                calendar="gregorian">December 2, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-12-02" calendar="gregorian">December 2, 1971</date>
+                            </dateline>
+                        </opener>
                         <p>Dear Bill:</p>
                         <p>As you know, our Ambassador to Libya has asked for guidance in explaining
                             the absence of a U.S. decision on Libya’s requests for major military
@@ -17816,10 +18023,12 @@
                                 Secretary that Libya had nationalized a subsidiary of British
                                 Petroleum, which shared a concession with an American firm.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-12-07"
-                                calendar="gregorian">December 7, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-12-07"
+                                    calendar="gregorian">December 7, 1971</date>
+                            </dateline>
+                        </opener>
                         <p>
                             <hi rend="underline">Nationalization of British Petroleum in Libya</hi>
                         </p>
@@ -17879,10 +18088,12 @@
                                     <persName corresp="#p_LMR1">Laird</persName>’s position on
                                 permitting a Spanish firm to sell F–5Bs to Libya.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-12-15"
-                                calendar="gregorian">December 15, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-12-15"
+                                    calendar="gregorian">December 15, 1971</date>
+                            </dateline>
+                        </opener>
                         <p rend="flushleft">Dear Mel:</p>
                         <p>Thank you for your letter of December 2, 1971 recommending that we permit
                             the Spanish firm (CASA) to sell five F–5’s to Libya.</p>
@@ -17959,9 +18170,12 @@
                                 oil-consuming countries, urging them not to purchase oil from the
                                 former British Petroleum concession.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>
-                            <date when="1971-12-18" calendar="gregorian">December 18, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>
+                                <date when="1971-12-18" calendar="gregorian">December 18,
+                                    1971</date>
+                            </dateline>
+                        </opener>
                         <p>
                             <hi rend="underline">British Request for US Support Regarding the Libyan
                                 Nationalization of British Petroleum (<gloss target="#t_BP1"
@@ -18063,10 +18277,12 @@
                                 <persName>Palmer</persName> conveyed his deepening concern at the
                                 U.S. postponement of a decision on military sales to Libya.</note>
                         </head>
-                        <dateline>
-                            <placeName>Tripoli</placeName>, <date when="1971-12-22"
-                                calendar="gregorian">December 22, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Tripoli</placeName>, <date when="1971-12-22"
+                                    calendar="gregorian">December 22, 1971</date>
+                            </dateline>
+                        </opener>
                         <p>Dear <persName>David</persName>:</p>
                         <p>I followed with great interest your recent trip and gather it was most
                             successful. Numeiri’s backtracking was disappointing, although he seems
@@ -18259,10 +18475,12 @@
                                 a negative decision could provoke a reaction from Libya, the absence
                                 of a decision would not.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-01-07"
-                                calendar="gregorian">January 7, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-01-07"
+                                    calendar="gregorian">January 7, 1972</date>
+                            </dateline>
+                        </opener>
                         <p rend="flushleft">Dear Joe:</p>
                         <p>Your letter of December 22 rings very sincerely with the frustration I am
                             sure you are encountering in the absence of decisions or further
@@ -18359,10 +18577,12 @@
                                 planned to loan three million dollars interest-free to the Nation of
                                 Islam.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-02-03"
-                                calendar="gregorian">February 3, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-02-03"
+                                    calendar="gregorian">February 3, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Possible Libyan Funding of the Nation of Islam</item>
@@ -18420,10 +18640,12 @@
                                 U.S.-Libyan bilateral agreements dating from the previous
                                 regime.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-02-08"
-                                calendar="gregorian">February 8, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-02-08"
+                                    calendar="gregorian">February 8, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Termination of Agreements in Libya</item>
@@ -18467,10 +18689,12 @@
                                 arguments in favor of State’s approval for the sale of aircraft to
                                 Libya.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-03-01"
-                                calendar="gregorian">March 1, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-03-01"
+                                    calendar="gregorian">March 1, 1972</date>
+                            </dateline>
+                        </opener>
                         <p>Dear Bill:</p>
                         <p>The imminent termination of the F–5A production line reduces and
                             complicates the possible options open to us in handling the Libyan F–5
@@ -18540,10 +18764,12 @@
                                 the Spanish Foreign Minister, who had requested approval of the
                                 sales to Libya.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-04-07"
-                                calendar="gregorian">April 7, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-04-07"
+                                    calendar="gregorian">April 7, 1972</date>
+                            </dateline>
+                        </opener>
                         <p rend="center">
                             <hi rend="underline">Sale of F–5s to Libya</hi>
                         </p>
@@ -18589,10 +18815,12 @@
                                 Government had requested a reduction of the size of the U.S. mission
                                 to fourteen from thirty-five.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-05-31"
-                                calendar="gregorian">May 31, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-05-31"
+                                    calendar="gregorian">May 31, 1972</date>
+                            </dateline>
+                        </opener>
                         <p rend="flushleft">
                             <hi rend="underline">Reduction of US Mission in Libya</hi>
                         </p>
@@ -18641,10 +18869,12 @@
                                 for the Secretary on ways to manage relations with Libya that would
                                 protect American oil investments.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-07-28"
-                                calendar="gregorian">July 28, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-07-28"
+                                    calendar="gregorian">July 28, 1972</date>
+                            </dateline>
+                        </opener>
                         <p rend="flushleft">
                             <hi rend="underline">Libya</hi>
                         </p>
@@ -18672,8 +18902,10 @@
                             <note rend="inline" type="source">Attachment</note>
                             <head>Memorandum From Secretary of State Rogers to President
                                 Nixon</head>
-                            <dateline><placeName>Washington</placeName>,
-                                <date>undated</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
+                            </opener>
                             <list type="subject">
                                 <head>Subject:</head>
                                 <item>US-Libyan Relations</item>
@@ -18920,10 +19152,12 @@
                                 companies was sufficient to warrant the sale of the F–5s to Libya,
                                 which remained a major irritant in U.S.-Libyan relations.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-08-09"
-                                calendar="gregorian">August 9, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-08-09"
+                                    calendar="gregorian">August 9, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Our Relationship with Libya</item>
@@ -19035,10 +19269,12 @@
                                 override <persName corresp="#p_RWP1">Rogers</persName>’ view that
                                 there should be no change in U.S. arms policy towards Libya.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-09-01"
-                                calendar="gregorian">September 1, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-09-01"
+                                    calendar="gregorian">September 1, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Arms for Libya</item>
@@ -19111,10 +19347,13 @@
                                 contracted F–5s by inquiring about Libyan plans for the
                                 aircraft.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1972-10-17T21:14:00+00:00" type="conversation-or-meeting-date"
-                                calendar="gregorian">October 17, 1972, 2114Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1972-10-17T21:14:00+00:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian">October
+                                    17, 1972, 2114Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Memorandum of Conversation:</head>
                             <item>
@@ -19288,10 +19527,12 @@
                                 conversation in which the Libyan leader sent a message to the
                                 President.</note>
                         </head>
-                        <dateline><placeName>Tripoli</placeName>, <date
-                                when="1972-10-30T16:00:00+00:00" calendar="gregorian">October 30,
-                                1972, 1600Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
+                                    when="1972-10-30T16:00:00+00:00" calendar="gregorian">October
+                                    30, 1972, 1600Z</date>
+                            </dateline>
+                        </opener>
                         <p>Department pass USINT CAIRO, other interested posts</p>
                         <list type="subject">
                             <head>Subject:</head>
@@ -19606,10 +19847,12 @@
                                 United States could expect overt discrimination from Libya due to
                                 its policy of support for Israel.</note>
                         </head>
-                        <dateline><placeName>Tripoli</placeName>, <date
-                                when="1972-12-07T14:56:00+00:00" calendar="gregorian">December 7,
-                                1972, 1456Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
+                                    when="1972-12-07T14:56:00+00:00" calendar="gregorian">December
+                                    7, 1972, 1456Z</date>
+                            </dateline>
+                        </opener>
                         <p>Lagos for <persName corresp="#p_NDD1">Newsom</persName>
                         </p>
                         <list type="subject">
@@ -19752,10 +19995,12 @@
                                 leaders and terrorism, while passing along a report that noted
                                 Tripoli’s doubts over the benefits of terrorist tactics.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-12-13"
-                                calendar="gregorian">December 13, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-12-13"
+                                    calendar="gregorian">December 13, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJ:</head>
                             <item>Libyan Ambassador’s Involvement with Terrorism</item>
@@ -19787,8 +20032,10 @@
                             <note rend="inline" type="source">Attachment</note>
                             <head>Airgram A–176 From the Embassy in Libya to the Department of
                                 State</head>
-                            <dateline><placeName>Tripoli</placeName>, <date when="1972-11-23"
-                                    >November 23, 1972</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Tripoli</placeName>, <date
+                                        when="1972-11-23">November 23, 1972</date></dateline>
+                            </opener>
                             <pb n="2" xml:id="d96-02" facs="d96-02"/>
                             <p>DEPT PASS: Other Interested Posts</p>
                             <list type="subject">
@@ -19959,9 +20206,11 @@
                                 conditioning factors toward the <gloss target="#t_GOM1"
                                 >GOM</gloss>.</note>
                         </head>
-                        <dateline><placeName>Rabat</placeName>, <date when="1969-02-17"
-                                calendar="gregorian">February 17, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
+                                    when="1969-02-17" calendar="gregorian">February 17, 1969</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT :</head>
                             <item>US Policy Assessment for Morocco</item>
@@ -20400,10 +20649,12 @@
                                 U.S. concern that Morocco’s warming relations with the Soviets could
                                 damage confidence between Washington and Rabat.</note>
                         </head>
-                        <dateline><placeName>Rabat</placeName>, <date
-                                when="1969-05-18T16:26:00+00:00" calendar="gregorian">May 18, 1969,
-                                1626Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
+                                    when="1969-05-18T16:26:00+00:00" calendar="gregorian">May 18,
+                                    1969, 1626Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subj:</head>
                             <item>Tour d’Horizon With General <persName corresp="#p_Medbouh1"
@@ -20541,11 +20792,14 @@
                                 emphasizing his regard for Morocco as a strong anchor in the
                                 Mediterranean.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                when="1969-10-07T11:30:00-04:00" type="conversation-or-meeting-date"
-                                calendar="gregorian">October 7, 1969, 11:30 a.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    when="1969-10-07T11:30:00-04:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian">October
+                                    7, 1969, 11:30 a.m.</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Time: 11:30 a.m.</item>
@@ -20646,10 +20900,12 @@
                                 Washington exercise influence in the Maghreb to offset the danger
                                 posed by the new radical regime in Libya.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-01-07"
-                                calendar="gregorian">January 7, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-01-07"
+                                    calendar="gregorian">January 7, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Message from King <persName corresp="#p_HII1">Hassan</persName> to
@@ -20728,10 +20984,12 @@
                                 focused their discussion on the Spanish Sahara, Algeria, and,
                                 especially, peace in the Middle East.</note>
                         </head>
-                        <dateline><placeName>Tunis</placeName>, <date
-                                when="1970-02-10T15:45:00+00:00" calendar="gregorian">February 10,
-                                1970, 1545Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Tunis</placeName>, <date
+                                    when="1970-02-10T15:45:00+00:00" calendar="gregorian">February
+                                    10, 1970, 1545Z</date>
+                            </dateline>
+                        </opener>
                         <p>Corrected copy (should read <gloss target="#t_Secto1">Secto</gloss> 27
                             and add Algiers, Tripoli, and Madrid as info addressees per
                             originator)<lb/>Fol msg received from Rabat repeated for your info with
@@ -20914,10 +21172,12 @@
                                 focused their discussion on the Spanish Sahara, Algeria, and,
                                 especially, peace in the Middle East.</note>
                         </head>
-                        <dateline><placeName>Tunis</placeName>, <date
-                                when="1970-02-10T21:05:00+00:00" calendar="gregorian">February 10,
-                                1970, 2105Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Tunis</placeName>, <date
+                                    when="1970-02-10T21:05:00+00:00" calendar="gregorian">February
+                                    10, 1970, 2105Z</date>
+                            </dateline>
+                        </opener>
                         <p>Following highlights private meeting between King <persName
                                 corresp="#p_HII1">Hassan</persName> and Secy preceding luncheon at
                             guest palace Mon, Feb 9.</p>
@@ -21045,10 +21305,12 @@
                                 student unrest continued.</note>
                         </head>
                         <pb n="1" xml:id="d103-01" facs="d103-01"/>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1970-02-28T00:17:00+00:00" calendar="gregorian">February 28,
-                                1970, 0017Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1970-02-28T00:17:00+00:00" calendar="gregorian">February
+                                    28, 1970, 0017Z</date>
+                            </dateline>
+                        </opener>
                         <p>For Assistant Secretary <persName corresp="#p_NDD1">Newsom</persName>
                             <gloss target="#t_AF1">AF</gloss> roundup</p>
                         <p>1. <hi rend="underline">Morocco</hi>. Although reports often conflicting,
@@ -21106,10 +21368,12 @@
                                 States was genuinely interested in assisting in a peace
                                 settlement.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-06-03"
-                                calendar="gregorian">June 3, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-06-03"
+                                    calendar="gregorian">June 3, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Your Talk with Moroccan Prime Minister <persName corresp="#p_LA1"
@@ -21272,10 +21536,12 @@
                                     <persName corresp="#p_LA1">Ahmed Laraki</persName> and President
                                     <persName corresp="#p_NRM1">Nixon</persName>.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-06-08"
-                                calendar="gregorian">June 8, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-06-08"
+                                    calendar="gregorian">June 8, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Summary of Conversation between Prime Minister <persName
@@ -21292,8 +21558,10 @@
                             <note rend="inline" type="source">Attachment</note>
                             <head>Draft Telegram From the Department of State to the Embassy in
                                 Morocco</head>
-                            <dateline><placeName>Washington</placeName>, <date when="1970-06-05"
-                                    >June 5, 1970</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date when="1970-06-05">June 5, 1970</date></dateline>
+                            </opener>
                             <list type="subject">
                                 <head>SUBJ:</head>
                                 <item>Summary of Conversation between Dr. <persName corresp="#p_LA1"
@@ -21375,10 +21643,12 @@
                                 end the “state of exception” he had ruled under since 1965, and
                                 allow elections to a new unicameral parliament.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-07-14"
-                                calendar="gregorian">July 14, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-07-14"
+                                    calendar="gregorian">July 14, 1970</date>
+                            </dateline>
+                        </opener>
                         <p rend="center">MOROCCO: <persName corresp="#p_HII1">HASSAN</persName>
                             MOVES TO END “STATE OF EXCEPTION”</p>
                         <p>This report was produced by the Bureau of intelligence and Research.
@@ -21502,10 +21772,12 @@
                                 future use of U.S. military facilities in Morocco as leverage for
                                 political and economic advantage.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-11-03"
-                                calendar="gregorian">November 3, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-11-03"
+                                    calendar="gregorian">November 3, 1970</date>
+                            </dateline>
+                        </opener>
                         <p rend="center">MOROCCO: KENITRA AND THE KING</p>
                         <p>Since the evacuation of Wheelus airbase in June 1970, the sole American
                             military facilities remaining in the Arab world are in Morocco: the US
@@ -21675,10 +21947,12 @@
                                 in Morocco to be a base, which required agreements to govern its
                                 usage.</note>
                         </head>
-                        <dateline><placeName>Rabat</placeName>, <date
-                                when="1970-11-04T17:55:00+00:00" calendar="gregorian">November 4,
-                                1970, 1755Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
+                                    when="1970-11-04T17:55:00+00:00" calendar="gregorian">November
+                                    4, 1970, 1755Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subj:</head>
                             <item>Kenitra Facilities</item>
@@ -21837,10 +22111,12 @@
                                 facilities, and possibly ratify new arrangements with the <gloss
                                     target="#t_GOM1">GOM</gloss>.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-11-30"
-                                calendar="gregorian">November 30, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-11-30"
+                                    calendar="gregorian">November 30, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Presidential Emissary to Discuss U.S. Communications Facilities in
@@ -21921,10 +22197,12 @@
                                 boiled down to <persName corresp="#p_HII1">Hassan</persName>’s
                                 desire for additional U.S. aid.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-01-25"
-                                calendar="gregorian">January 25, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-01-25"
+                                    calendar="gregorian">January 25, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Robert Murphy’s Trip to Morocco</item>
@@ -22031,10 +22309,12 @@
                                 access to Kenitra as long as the political and economic costs were
                                 manageable, but it hoped to avoid a quid pro quo.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1971-03-27T20:34:00+00:00" calendar="gregorian">March 27,
-                                1971, 2034Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-03-27T20:34:00+00:00" calendar="gregorian">March 27,
+                                    1971, 2034Z</date>
+                            </dateline>
+                        </opener>
                         <p>
                             <gloss target="#t_USG1">USG</gloss> REPLY TO KING <persName
                                 corresp="#p_HII1">HASSAN</persName> RE KENITRA</p>
@@ -22256,10 +22536,12 @@
                                 approach towards the Kenitra facilities negotiations with King
                                     <persName corresp="#p_HII1">Hassan</persName>.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-03-29"
-                                calendar="gregorian">March 29, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-03-29"
+                                    calendar="gregorian">March 29, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>U.S. Communications Facilities in Morocco</item>
@@ -22402,11 +22684,14 @@
                                 to the United States in order to attend the upcoming Arab
                                 Summit.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                when="1971-04-15T11:00:00-05:00" type="conversation-or-meeting-date"
-                                calendar="gregorian">April 15, 1971, 11 a.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    when="1971-04-15T11:00:00-05:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian">April
+                                    15, 1971, 11 a.m.</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Meeting Between the President, Moroccan Prime Minister <persName
@@ -22490,9 +22775,11 @@
                                 Djerejian’s two fundamental assumptions that the United States was
                                 overcommitted and that radical change was inevitable.</note>
                         </head>
-                        <dateline><placeName>Rabat</placeName>, <date when="1971-06-09"
-                                calendar="gregorian">June 9, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
+                                    when="1971-06-09" calendar="gregorian">June 9, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Comments on Djerejian Proposal for Reorientation of US Policy in
@@ -22662,9 +22949,11 @@
                                 that the U.S. Government should take over the course of the next 5
                                 years.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date when="1971-06-16"
-                                calendar="gregorian">June 16, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-06-16" calendar="gregorian">June 16, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT :</head>
                             <item>Policy Planning Paper</item>
@@ -22689,8 +22978,10 @@
                         <frus:attachment>
                             <note rend="inline" type="source">Enclosure</note>
                             <head>Policy Planning Paper</head>
-                            <dateline><placeName>Washington</placeName>, <date>June
-                                1971</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>June 1971</date></dateline>
+                            </opener>
                             <p>MOROCCO: Policy Planning Paper</p>
                             <pb n="2" xml:id="d115-02" facs="d115-02"/>
                             <pb n="3" xml:id="d115-03" facs="d115-03"/>
@@ -22919,9 +23210,11 @@
                                 the Moroccan military.</note>
                         </head>
                         <pb n="1" xml:id="d116-01" facs="d116-01"/>
-                        <dateline><placeName>Washington</placeName>, <date when="1971-07-16"
-                                calendar="gregorian">July 10, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-07-16" calendar="gregorian">July 10, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Coup Attempt in Morocco</item>
@@ -22979,10 +23272,12 @@
                                     corresp="#p_OGM1">Oufkir</persName> had been charged with
                                 restoring order.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-07-11"
-                                calendar="gregorian">July 11, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-07-11"
+                                    calendar="gregorian">July 11, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Coup Attempt in Morocco</item>
@@ -23062,10 +23357,12 @@
                                 speculated that, in the long term, the King’s throne remained in
                                 jeopardy from civilian and military discontent.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-07-15"
-                                calendar="gregorian">July 15, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-07-15"
+                                    calendar="gregorian">July 15, 1971</date>
+                            </dateline>
+                        </opener>
                         <p rend="center">MOROCCO: KING <persName corresp="#p_HII1"
                             >HASSAN</persName>, HIS ARMY, AND HIS FUTURE</p>
                         <p>The near-miss coup attempt of July 10 in Morocco—which resulted in a
@@ -23190,10 +23487,12 @@
                                     >Hassan</persName> embraced reform, his long term prospects
                                 looked dim.</note>
                         </head>
-                        <dateline><placeName>Rabat</placeName>, <date
-                                when="1971-07-23T11:15:00+00:00" calendar="gregorian">July 23, 1971,
-                                1115Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
+                                    when="1971-07-23T11:15:00+00:00" calendar="gregorian">July 23,
+                                    1971, 1115Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Future of the Regime</item>
@@ -23402,10 +23701,12 @@
                                     <gloss target="#t_CIA1">CIA</gloss> had not been behind the plot
                                 to King <persName corresp="#p_HII1">Hassan</persName>.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1971-07-23T22:59:00+00:00" calendar="gregorian">July 23, 1971,
-                                2259Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-07-23T22:59:00+00:00" calendar="gregorian">July 23,
+                                    1971, 2259Z</date>
+                            </dateline>
+                        </opener>
                         <p>TOVIP for the Vice President, Ambassador Hill, and Ambassador <persName
                                 corresp="#p_RSW1">Rockwell</persName> from the Secretary</p>
                         <p>1. Ambassador HILL should deliver following personal message from me to
@@ -23449,10 +23750,12 @@
                                 had informed the Moroccan-U.S. Liaison Office that he intended to
                                 promote closer cooperation and coordination with Washington.</note>
                         </head>
-                        <dateline><placeName>Rabat</placeName>, <date
-                                when="1971-08-19T16:05:00+00:00" calendar="gregorian">August 19,
-                                1971, 1605Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
+                                    when="1971-08-19T16:05:00+00:00" calendar="gregorian">August 19,
+                                    1971, 1605Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>General Oukfir on Moroccan Military Policy and US-Moroccan
@@ -23635,11 +23938,14 @@
                                 assistance in enacting crucial reforms in Morocco to restore
                                 stability.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                when="1971-09-29T10:00:00-04:00" type="conversation-or-meeting-date"
-                                calendar="gregorian">September 29, 1971, 10 a.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    when="1971-09-29T10:00:00-04:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian"
+                                    >September 29, 1971, 10 a.m.</date>
+                            </dateline>
+                        </opener>
                         <list type="participants">
                             <head>PARTICIPANTS:</head>
                             <item>
@@ -23808,10 +24114,12 @@
                                 dealing with issues of military organization, command and control
                                 systems, civic action, and increased advisory effort.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1971-10-12T15:49:00+00:00" calendar="gregorian">October 12,
-                                1971, 1549Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-10-12T15:49:00+00:00" calendar="gregorian">October
+                                    12, 1971, 1549Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>US Posture Toward Moroccan Military</item>
@@ -23941,10 +24249,13 @@
                                 resolution to designate the expulsion of Taiwan an “important
                                 question” which would require a two-thirds majority vote.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                from="1971-10-23T11:59:00-04:00" to="1971-10-23T12:08:00-04:00"
-                                calendar="gregorian">October 23, 1971, 11:59 a.m.–12:08 p.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    from="1971-10-23T11:59:00-04:00" to="1971-10-23T12:08:00-04:00"
+                                    calendar="gregorian">October 23, 1971, 11:59 a.m.–12:08
+                                    p.m.</date>
+                            </dateline>
+                        </opener>
                         <p>
                             <persName corresp="#p_NRM1">Nixon</persName>: Good Afternoon, Your
                             Majesty. I have disturbed you this afternoon to present to you my views
@@ -24021,10 +24332,12 @@
                                 in power for years, his long-term failure to reform would likely
                                 radicalize the political scene.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-06-15"
-                                calendar="gregorian">June 15, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-06-15"
+                                    calendar="gregorian">June 15, 1972</date>
+                            </dateline>
+                        </opener>
                         <pb n="2" xml:id="d125-02" facs="d125-02"/>
                         <p>THE OUTLOOK FOR MOROCCO</p>
                         <p>CONCLUSIONS</p>
@@ -24672,10 +24985,12 @@
                                 assassinate King <persName corresp="#p_HII1"
                                 >Hassan</persName>.</note>
                         </head>
-                        <dateline><placeName>Rabat</placeName>, <date
-                                when="1972-08-17T00:20:00+00:00" calendar="gregorian">August 17,
-                                1972, 0020Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
+                                    when="1972-08-17T00:20:00+00:00" calendar="gregorian">August 17,
+                                    1972, 0020Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Attempted Assassination of King <persName corresp="#p_HII1"
@@ -24749,10 +25064,12 @@
                                 States might possibly be assigned responsibility for supporting the
                                 opposition.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-08-17"
-                                calendar="gregorian">August 17, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-08-17"
+                                    calendar="gregorian">August 17, 1972</date>
+                            </dateline>
+                        </opener>
                         <p>MOROCCO: <persName corresp="#p_HII1">HASSAN</persName>’S MILITARY PROVES
                             UNTRUSTWORTHY</p>
                         <p>The attempt on August 16 by pilots of the Moroccan F–5 fighter squadron
@@ -24858,10 +25175,12 @@
                                 requested recommendations on how the United States could reduce its
                                 military dependence on the communications facilities there.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-08-29"
-                                calendar="gregorian">August 29, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-08-29"
+                                    calendar="gregorian">August 29, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>US Military Involvement in Morocco</item>
@@ -24905,8 +25224,10 @@
                             <note rend="inline" type="source">Attachment</note>
                             <head>Memorandum to Secretary of Defense <persName corresp="#p_LMR1"
                                     >Laird</persName></head>
-                            <dateline><placeName>Washington</placeName>,
-                                <date>undated</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
+                            </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
                                 <item>US Military Involvement in Morocco</item>
@@ -25061,10 +25382,12 @@
                                     >Rogers</persName>’ outlined U.S. actions following the
                                 assassination attempt and presented 3 options for the future.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-09-05"
-                                calendar="gregorian">September 5, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-09-05"
+                                    calendar="gregorian">September 5, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>MOROCCO: King <persName corresp="#p_HII1">Hassan</persName>’s
@@ -25150,10 +25473,12 @@
                                     >Hassan</persName> analyzed the coup attempt and described his
                                 future plans for restoring order.</note>
                         </head>
-                        <dateline><placeName>Rabat</placeName>, <date
-                                when="1972-09-08T16:00:00+00:00" calendar="gregorian">September 8,
-                                1972, 1600Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Rabat</placeName>, <date
+                                    when="1972-09-08T16:00:00+00:00" calendar="gregorian">September
+                                    8, 1972, 1600Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Audience With King <persName corresp="#p_HII1">Hassan</persName>
@@ -25383,9 +25708,11 @@
                                 been seriously weakened. Another attempt against him was liable to
                                 succeed.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date when="1972-09-14"
-                                calendar="gregorian">September 14, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1972-09-14" calendar="gregorian">September 14, 1972</date>
+                            </dateline>
+                        </opener>
                         <pb n="2" xml:id="d131-02" facs="d131-02"/>
                         <p rend="center">PROSPECTS FOR THE MOROCCAN MONARCHY</p>
                         <p rend="flushleft">SUMMARY NOTE</p>
@@ -25838,10 +26165,12 @@
                                 policy toward Morocco, which would examine U.S. interests and
                                 options for protecting them.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-09-14"
-                                calendar="gregorian">September 14, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-09-14"
+                                    calendar="gregorian">September 14, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="to">
                             <head>TO:</head>
                             <item>The Secretary of State</item>
@@ -25904,10 +26233,13 @@
                                 of issues, notably the need to reconsider U.S. bases in Morocco in
                                 order to placate the Moroccan opposition.</note>
                         </head>
-                        <dateline><placeName>New York</placeName>, <date
-                                when="1972-10-12T17:44:00+00:00" type="conversation-or-meeting-date"
-                                calendar="gregorian">October 12, 1972, 1744Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>New York</placeName>, <date
+                                    when="1972-10-12T17:44:00+00:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian">October
+                                    12, 1972, 1744Z</date>
+                            </dateline>
+                        </opener>
                         <p>
                             <gloss target="#t_FM1">FM</gloss>
                             <persName>Benhima</persName> (Morocco)<lb/>October 11, 1972, 3:00
@@ -26057,10 +26389,12 @@
                                 the paper on U.S. Policy Toward Morocco produced in response to
                                 National Security Study Memorandum 160.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-11-28"
-                                calendar="gregorian">November 28, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-11-28"
+                                    calendar="gregorian">November 28, 1972</date>
+                            </dateline>
+                        </opener>
                         <p rend="center">ANALYTICAL SUMMARY—NSSM 160<lb/>Policy toward Morocco</p>
                         <p>Following the second coup attempt in a little over one year against King
                                 <persName corresp="#p_HII1">Hassan</persName> of Morocco, NSSM 160
@@ -26424,11 +26758,13 @@
                                 authority, deserved support; and that the U.S. military should
                                 reduce its presence at Kenitra.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                from="1972-11-30T15:38:00-05:00" to="1972-11-30T15:55:00-05:00"
-                                calendar="gregorian">November 30, 1972, 3:38–3:55 p.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    from="1972-11-30T15:38:00-05:00" to="1972-11-30T15:55:00-05:00"
+                                    calendar="gregorian">November 30, 1972, 3:38–3:55 p.m.</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>U.S. Policy Toward Morocco, NSSM 160</item>
@@ -26678,10 +27014,12 @@
                                 continued to believe that the United States was involved in the coup
                                 attempts against him.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-12-29"
-                                calendar="gregorian">December 29, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-12-29"
+                                    calendar="gregorian">December 29, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Wrapping Up Several Actions on Morocco</item>
@@ -26820,10 +27158,12 @@
                                 reached at the Senior Review Group meeting on Policy Toward
                                 Morocco.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1973-01-05"
-                                calendar="gregorian">January 5, 1973</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1973-01-05"
+                                    calendar="gregorian">January 5, 1973</date>
+                            </dateline>
+                        </opener>
                         <list type="to">
                             <head>TO:</head>
                             <item>The Secretary of State</item>
@@ -26884,10 +27224,12 @@
                                 for the position produced concerns for U.S. interests in the
                                 region.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1969-03-20"
-                                calendar="gregorian">March 20, 1969</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1969-03-20"
+                                    calendar="gregorian">March 20, 1969</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>TUNISIA: Succession Question Again to the Fore</item>
@@ -27004,11 +27346,14 @@
                                     >Bourguiba</persName> then requested greater American military
                                 assistance.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                when="1969-04-03T11:30:00-05:00" type="conversation-or-meeting-date"
-                                calendar="gregorian">April 3, 1969, 11:30 a.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    when="1969-04-03T11:30:00-05:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian">April
+                                    3, 1969, 11:30 a.m.</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>US-Tunisian Relations</item>
@@ -27208,10 +27553,12 @@
                                 administration, but make clear that no greater American military
                                 effort was likely.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1969-04-23T23:13:00+00:00" calendar="gregorian">April 23,
-                                1969, 2313Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1969-04-23T23:13:00+00:00" calendar="gregorian">April 23,
+                                    1969, 2313Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>REF:</head>
                             <item>State 052187</item>
@@ -27389,11 +27736,14 @@
                                 Libyan coup and the perception of American global
                                 disengagement.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                when="1969-09-15T11:00:00-04:00" type="conversation-or-meeting-date"
-                                calendar="gregorian">September 15, 1969, 11 a.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    when="1969-09-15T11:00:00-04:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian"
+                                    >September 15, 1969, 11 a.m.</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Tunisian Security</item>
@@ -27591,11 +27941,14 @@
                                 to cope with the political difficulties which additional aid,
                                 currently under review, was likely to cause.</note>
                         </head>
-                        <dateline>
-                            <placeName>New York</placeName>, <date when="1969-09-18T14:25:00-04:00"
-                                type="conversation-or-meeting-date" calendar="gregorian">September
-                                18, 1969, 2:25 p.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>New York</placeName>, <date
+                                    when="1969-09-18T14:25:00-04:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian"
+                                    >September 18, 1969, 2:25 p.m.</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJBCT:</head>
                             <item>Review of U.S.-Tunisian Relations -Part II of II</item>
@@ -27757,10 +28110,12 @@
                                 State’s objectives in Tunisia, and offered a political, economic,
                                 and military assessment of the country.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date
-                                when="1969-12-02T17:22:00-05:00" calendar="gregorian">December 2,
-                                1969, 5:22 p.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1969-12-02T17:22:00-05:00" calendar="gregorian">December
+                                    2, 1969, 5:22 p.m.</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Instructions for Consultations on Tunisia</item>
@@ -27904,10 +28259,12 @@
                                 desire for close relations with the United States and voiced concern
                                 about the situations in the Middle East and Libya.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date when="1970-02-13"
-                                type="conversation-or-meeting-date" calendar="gregorian">February
-                                13, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1970-02-13" type="conversation-or-meeting-date"
+                                    calendar="gregorian">February 13, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Secretary <persName corresp="#p_RWP1">Rogers</persName>’ Report on
@@ -27971,10 +28328,12 @@
                                 standing and harmonized its foreign policy with that of the Arab and
                                 Third World countries.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-08-24"
-                                calendar="gregorian">August 24, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-08-24"
+                                    calendar="gregorian">August 24, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>“Straws in the Wind”—Changes in Tunisian Foreign Policy</item>
@@ -27990,8 +28349,10 @@
                             <note rend="inline" type="source">Enclosure:</note>
                             <head>Information Memorandum Prepared in the Bureau for African Affairs,
                                 Department of State</head>
-                            <dateline><placeName>Washington</placeName>,
-                                <date>undated</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>undated</date></dateline>
+                            </opener>
                             <list type="subject">
                                 <head>SUBJECT:</head>
                                 <item>“Straws in the Wind”—Changes in Tunisian Foreign Policy</item>
@@ -28067,10 +28428,12 @@
                                 assistance would be minimized in view of American interest in
                                 Tunisian development and security.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-10-07"
-                                calendar="gregorian">October 7, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-10-07"
+                                    calendar="gregorian">October 7, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Tunisian Concern over Relations with the U.S.</item>
@@ -28141,9 +28504,11 @@
                                 views of the Middle East crisis and domestic security and
                                 development.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date when="1970-10-29"
-                                calendar="gregorian">October 29, 1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1970-10-29" calendar="gregorian">October 29, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Your Meeting with Tunisian Foreign Minister <persName
@@ -28267,11 +28632,13 @@
                                 support in keeping the Soviets out of the Mediterranean and
                                 achieving a Middle East settlement.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1970-10-29"
-                                type="conversation-or-meeting-date" calendar="gregorian">October 29,
-                                1970</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1970-10-29"
+                                    type="conversation-or-meeting-date" calendar="gregorian">October
+                                    29, 1970</date>
+                            </dateline>
+                        </opener>
                         <list type="participants">
                             <head>PARTICIPANTS:</head>
                             <item>Tunisian Foreign Minister <persName corresp="#p_MM1">Mohammed
@@ -28386,11 +28753,14 @@
                                     target="#t_FRC1">FRC</gloss> 73-A-1975, Tunisia 1970, 000.1,
                                 Jan—. Secret</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date
-                                when="1970-11-12T15:00:00-05:00" type="conversation-or-meeting-date"
-                                calendar="gregorian">November 12, 1970, 3 p.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date
+                                    when="1970-11-12T15:00:00-05:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian"
+                                    >November 12, 1970, 3 p.m.</date>
+                            </dateline>
+                        </opener>
                         <p>[3 pages not declassified in time for publication]</p>
                     </div>
                     <pb n="1" xml:id="d150-01" facs="d150-01"/>
@@ -28418,10 +28788,12 @@
                                 mental state, the possibility for political succession, and
                                 potential requests to the U.S. Government for assistance.</note>
                         </head>
-                        <dateline><placeName>Tunis</placeName>, <date
-                                when="1971-01-01T18:00:00+00:00" calendar="gregorian">January 1,
-                                1971, 1800Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Tunis</placeName>, <date
+                                    when="1971-01-01T18:00:00+00:00" calendar="gregorian">January 1,
+                                    1971, 1800Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Illness of President Bourguiba</item>
@@ -28590,10 +28962,12 @@
                                 to improving <persName corresp="#p_BH2">Bourguiba</persName>’s
                                 health.</note>
                         </head>
-                        <dateline><placeName>Tunis</placeName>, <date
-                                when="1971-01-03T02:00:00+00:00" calendar="gregorian">January 3,
-                                1971, 0200Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Tunis</placeName>, <date
+                                    when="1971-01-03T02:00:00+00:00" calendar="gregorian">January 3,
+                                    1971, 0200Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Illness of President <persName corresp="#p_BH2"
@@ -28731,10 +29105,12 @@
                                 President <persName corresp="#p_BH2">Bourguiba</persName> from the
                                 political scene.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-03-04"
-                                calendar="gregorian">March 4, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-03-04"
+                                    calendar="gregorian">March 4, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Eventual Transfer of Power in Tunisia</item>
@@ -28837,10 +29213,12 @@
                                 million for their $3 million military assistance program for
                                 1971.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-04-13"
-                                calendar="gregorian">April 13, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-04-13"
+                                    calendar="gregorian">April 13, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Tunisian Military Assistance</item>
@@ -28914,9 +29292,11 @@
                                 Embassy in the preparation of policy statements, action plans, and
                                 future budgetary projections.</note>
                         </head>
-                        <dateline><placeName>Washington</placeName>, <date when="1971-06-22"
-                                calendar="gregorian">June 22, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Washington</placeName>, <date
+                                    when="1971-06-22" calendar="gregorian">June 22, 1971</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT :</head>
                             <item>Policy Planning Paper</item>
@@ -28939,8 +29319,10 @@
                         <frus:attachment>
                             <note rend="inline" type="source">Enclosure</note>
                             <head>Policy Planning Paper for Tunisia</head>
-                            <dateline><placeName>Washington</placeName>, <date>June
-                                1971</date></dateline>
+                            <opener>
+                                <dateline rendition="#right"><placeName>Washington</placeName>,
+                                        <date>June 1971</date></dateline>
+                            </opener>
                             <pb n="2" xml:id="d154-02" facs="d154-02"/>
                             <p rend="center">TUNISIA: Policy Planning Paper</p>
                             <pb n="3" xml:id="d154-03" facs="d154-03"/>
@@ -29178,10 +29560,13 @@
                                 highlighting the importance of an interim peace agreement before the
                                 United States would consent to any further assistance.</note>
                         </head>
-                        <dateline><placeName>New York</placeName>, <date
-                                when="1971-10-02T22:31:00+00:00" type="conversation-or-meeting-date"
-                                calendar="gregorian">October 2, 1971, 2231Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>New York</placeName>, <date
+                                    when="1971-10-02T22:31:00+00:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian">October
+                                    2, 1971, 2231Z</date>
+                            </dateline>
+                        </opener>
                         <p>Memorandum of Conversation:<lb/>
                             <gloss target="#t_FM1">FM</gloss> Mashoudi (Tunisia) Secretary’s October
                             1 Meeting With <gloss target="#t_FonMin1">FonMin</gloss>: Part I Middle
@@ -29292,10 +29677,12 @@
                                 change emerging within the power structure, and examined probable
                                 successors.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-12-08"
-                                calendar="gregorian">December 8, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-12-08"
+                                    calendar="gregorian">December 8, 1971</date>
+                            </dateline>
+                        </opener>
                         <p rend="center">Tunisia: The Hour of Separation Approaches</p>
                         <quote rend="blockquote">
                             <hi rend="italic">I feel that the hour of separation is soon going to
@@ -29847,10 +30234,12 @@
                                 that Tunisian claims of a heightened danger from Algeria and Libya
                                 were exaggerated.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1971-12-23"
-                                calendar="gregorian">December 23, 1971</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1971-12-23"
+                                    calendar="gregorian">December 23, 1971</date>
+                            </dateline>
+                        </opener>
                         <p rend="center">TUNISIAN SECURITY FEARS</p>
                         <p>In recently requesting security equipment from the US, Tunisian
                             authorities claimed they faced growing internal and external threats in
@@ -29991,11 +30380,13 @@
                                 and hoped that the evident good will towards Tunisia would produce
                                 the requested internal security assistance.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-02-17"
-                                type="conversation-or-meeting-date" calendar="gregorian">February
-                                17, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-02-17"
+                                    type="conversation-or-meeting-date" calendar="gregorian"
+                                    >February 17, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Tunisian-US Relations</item>
@@ -30100,11 +30491,13 @@
                                 that the United States would be unable to comply with Tunisia’s
                                 request for internal security assistance.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-02-29"
-                                type="conversation-or-meeting-date" calendar="gregorian">February
-                                29, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-02-29"
+                                    type="conversation-or-meeting-date" calendar="gregorian"
+                                    >February 29, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>U.S. Response to <gloss target="#t_GOT1">GOT</gloss> Request for
@@ -30256,10 +30649,12 @@
                                 of his talks in Peking and Moscow, and pledged as much Tunisian
                                 development assistance as resources allowed.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-03-14"
-                                calendar="gregorian">March 14, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-03-14"
+                                    calendar="gregorian">March 14, 1972</date>
+                            </dateline>
+                        </opener>
                         <p>Dear Mr. President:</p>
                         <p>With deepest appreciation, I wish to thank you for the warm sentiments
                             conveyed to me in your recent letter which was delivered personally by
@@ -30311,10 +30706,12 @@
                                 States and friendly voice in Arab, Mediterranean, and Third World
                                 councils.</note>
                         </head>
-                        <dateline><placeName>Tunis</placeName>, <date
-                                when="1972-04-24T10:15:00+00:00" calendar="gregorian">April 24,
-                                1972, 1015Z</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right"><placeName>Tunis</placeName>, <date
+                                    when="1972-04-24T10:15:00+00:00" calendar="gregorian">April 24,
+                                    1972, 1015Z</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subj:</head>
                             <item>Ambassador’s Overview on <gloss target="#t_PADM1">PADM</gloss> and
@@ -30512,11 +30909,14 @@
                                 wedded to the Israelis, leaving Washington’s friends in an untenable
                                 position.</note>
                         </head>
-                        <dateline>
-                            <placeName>New York</placeName>, <date when="1972-10-13T17:00:00-04:00"
-                                type="conversation-or-meeting-date" calendar="gregorian">October 13,
-                                1972, 5 p.m.</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>New York</placeName>, <date
+                                    when="1972-10-13T17:00:00-04:00"
+                                    type="conversation-or-meeting-date" calendar="gregorian">October
+                                    13, 1972, 5 p.m.</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>Subject:</head>
                             <item>Tunisian/US Relations</item>
@@ -30619,10 +31019,12 @@
                                 President <persName corresp="#p_BH2">Bourguiba</persName>’s recent
                                 letter by reassuring him of U.S. interest in Tunisia.</note>
                         </head>
-                        <dateline>
-                            <placeName>Washington</placeName>, <date when="1972-12-11"
-                                calendar="gregorian">December 11, 1972</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <placeName>Washington</placeName>, <date when="1972-12-11"
+                                    calendar="gregorian">December 11, 1972</date>
+                            </dateline>
+                        </opener>
                         <list type="subject">
                             <head>SUBJECT:</head>
                             <item>Letter to President <persName corresp="#p_BH2"

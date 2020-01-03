@@ -11061,12 +11061,10 @@
                                 <note n="1" xml:id="d100fn6">Reprinted from Department of State <hi
                                         rend="italic">Bulletin</hi>, June 13, 1948, p. 780.</note>
                             </head>
-                            <dateline>
-                                <date when="1948-05-28"
-                                    ana="#date_undated-inferred-from-document-head"
-                                    calendar="gregorian">May 28, 1948</date>
-                            </dateline>
                             <opener>
+                                <dateline rendition="#right">[<date when="1948-05-28"
+                                        ana="#date_undated-inferred-from-document-head"
+                                        calendar="gregorian">May 28, 1948</date>]</dateline><lb/>
                                 <seg rendition="#center">[Extracts]</seg>
                             </opener>
                             <p>A subcommittee of the Senate Appropriations Committee, under the
@@ -12445,11 +12443,11 @@
                                 <note n="1" xml:id="d118fn4">Reprinted from Department of State <hi
                                         rend="italic">Bulletin</hi>, August 15, 1948, p. 211.</note>
                             </head>
-                            <dateline>
-                                <date when="1948-07-29"
-                                    ana="#date_undated-inferred-from-document-head"
-                                    calendar="gregorian">July 29, 1948</date>
-                            </dateline>
+                            <opener>
+                                <dateline rendition="#right">[<date when="1948-07-29"
+                                        ana="#date_undated-inferred-from-document-head"
+                                        calendar="gregorian">July 29, 1948</date>]</dateline>
+                            </opener>
                             <p>An agreement under which the United States extended a credit to the
                                 Iranian Government for the purchase of 10,000,000 dollars’ worth of
                                 surplus military equipment and a credit not to exceed 16,000,000
@@ -19218,7 +19216,8 @@
                     </div>
                 </div>
                 <pb n="264" xml:id="pg_264" facs="0278"/>
-                <div type="chapter" xml:id="ch8" frus:doc-dateTime-min="1947-05-04T18:00:00-05:00"
+                <div type="chapter" subtype="referral" xml:id="ch8"
+                    frus:doc-dateTime-min="1947-05-04T18:00:00-05:00"
                     frus:doc-dateTime-max="1948-12-29T23:59:59-05:00">
                     <head>Turkey</head>
                     <p>[Documentation on United States economic and military aid to Turkey and

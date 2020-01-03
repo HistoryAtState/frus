@@ -1425,10 +1425,12 @@
                     frus:doc-dateTime-min="1872-10-11T23:56:00-05:00"
                     frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                     <head>Memorial.</head>
-                    <dateline>[<date notBefore="1872-10-12T00:00:00-04:56"
-                            notAfter="1872-12-02T23:59:59-04:56"
-                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
-                            >undated</date>]</dateline>
+                    <opener>
+                        <dateline rendition="#right">[<date notBefore="1872-10-12T00:00:00-04:56"
+                                notAfter="1872-12-02T23:59:59-04:56"
+                                ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">undated</date>]</dateline>
+                    </opener>
                     <p>The treaty of which the interpretation is referred to Your Majesty’s
                         arbitrament was ratified more than a quarter of a century ago. Of the
                         sixteen members of the British cabinet which framed and presented it for the
@@ -2524,10 +2526,13 @@
                         frus:doc-dateTime-min="1628-03-03T23:56:00-05:00"
                         frus:doc-dateTime-max="1663-03-24T23:55:59-05:00">
                         <head>[Untitled]</head>
-                        <dateline>[<date notBefore="1628-03-04T00:00:00-04:56"
-                                notAfter="1663-03-24T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
-                                >undated</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date
+                                    notBefore="1628-03-04T00:00:00-04:56"
+                                    notAfter="1663-03-24T23:59:59-04:56"
+                                    ana="#date_undated-inferred-from-sibling-dates"
+                                    calendar="gregorian">undated</date>]</dateline>
+                        </opener>
                         <p rend="center">*<hi rend="italic">Extract from the old patent for
                                 Connecticut</hi>.<seg type="margin">[7]</seg></p>
                         <p>* * * “Robert, Earl of Warwick,” * * “doth give” * * “the Space of forty
@@ -2903,9 +2908,12 @@
                         frus:doc-dateTime-min="1792-06-22T00:00:00-05:00"
                         frus:doc-dateTime-max="1792-06-22T23:59:59-05:00">
                         <head>No. 12.</head>
-                        <dateline>[<date when="1792-06-22" type="content-date"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">undated</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date when="1792-06-22"
+                                    type="content-date"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">undated</date>]</dateline>
+                        </opener>
                         <p rend="center">
                             <hi rend="italic">Extract from Vancouver’s “Voyage,” vol</hi>. 1, <hi
                                 rend="italic">page</hi> 312.</p>
@@ -3769,10 +3777,13 @@
                         frus:doc-dateTime-min="1845-04-25T23:56:00-05:00"
                         frus:doc-dateTime-max="1845-07-12T23:55:59-05:00">
                         <head> *No. 27.<seg type="margin">[31]</seg></head>
-                        <dateline>[<date notBefore="1845-04-26T00:00:00-04:56"
-                                notAfter="1845-07-12T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
-                                >undated</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date
+                                    notBefore="1845-04-26T00:00:00-04:56"
+                                    notAfter="1845-07-12T23:59:59-04:56"
+                                    ana="#date_undated-inferred-from-sibling-dates"
+                                    calendar="gregorian">undated</date>]</dateline>
+                        </opener>
                         <p rend="center"><hi rend="italic">Narrative of the United States exploring
                                 expedition during the years</hi> 1838, 1839, 1840, 1841, 1842, <hi
                                 rend="italic">by Charles Wilkes</hi>, <hi rend="italic">U</hi>. <hi
@@ -5009,11 +5020,13 @@
                         frus:doc-dateTime-min="1843-12-31T23:56:00-05:00"
                         frus:doc-dateTime-max="1844-12-31T23:55:59-05:00">
                         <head>No. 48.</head>
-                        <dateline>[<placeName>Paris</placeName>, <date
-                                notBefore="1844-01-01T00:00:00-04:56"
-                                notAfter="1844-12-31T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">1844</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<placeName>Paris</placeName>, <date
+                                    notBefore="1844-01-01T00:00:00-04:56"
+                                    notAfter="1844-12-31T23:59:59-04:56"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">1844</date>]</dateline>
+                        </opener>
                         <p rend="center">
                             <hi rend="italic">Extract from Exploration du territoire de l’Orégon,
                                 etc</hi>., <hi rend="italic">exécutée pendant les années</hi> 1840,
@@ -5040,10 +5053,13 @@
                         frus:doc-dateTime-min="1824-12-31T19:01:00-05:00"
                         frus:doc-dateTime-max="1825-12-31T19:00:59-05:00">
                         <head>*No. 49.<seg type="margin">[56]</seg></head>
-                        <dateline>[<date when="1825" notBefore="1825-01-01T00:00:00-00:01"
-                                notAfter="1825-12-31T23:59:59-00:01"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">1825</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date when="1825"
+                                    notBefore="1825-01-01T00:00:00-00:01"
+                                    notAfter="1825-12-31T23:59:59-00:01"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">1825</date>]</dateline>
+                        </opener>
                         <p rend="center"><hi rend="italic">Paley’s Works, edition of</hi> 1825, <hi
                                 rend="italic">vol</hi>. <hi rend="italic">iv, page</hi> 85.</p>
                         <p>II. In what sense promises are to be interpreted.</p>
@@ -5232,10 +5248,12 @@
                     frus:doc-dateTime-min="1871-05-07T23:56:00-05:00"
                     frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                     <head>Case of the government of Her Britannic Majesty.</head>
-                    <dateline>[<date notBefore="1871-05-08T00:00:00-04:56"
-                            notAfter="1872-12-02T23:59:59-04:56"
-                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
-                            >undated</date>]</dateline>
+                    <opener>
+                        <dateline rendition="#right">[<date notBefore="1871-05-08T00:00:00-04:56"
+                                notAfter="1872-12-02T23:59:59-04:56"
+                                ana="#date_undated-inferred-from-document-content"
+                                calendar="gregorian">undated</date>]</dateline>
+                    </opener>
                     <p>His Majesty the Emperor of Germany having consented to accept the office of
                         arbitrator between the Government of the United States of America and the
                         Government of Her Britannic Majesty, under the provisions of Article XXXIV
@@ -6538,10 +6556,13 @@
                         frus:doc-dateTime-min="1797-12-31T23:56:00-05:00"
                         frus:doc-dateTime-max="1798-12-31T23:55:59-05:00">
                         <head>No. III.</head>
-                        <dateline>[<date when="1978" notBefore="1798-01-01T00:00:00-04:56"
-                                notAfter="1798-12-31T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">1798</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date when="1978"
+                                    notBefore="1798-01-01T00:00:00-04:56"
+                                    notAfter="1798-12-31T23:59:59-04:56"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">1798</date>]</dateline>
+                        </opener>
                         <p rend="center">
                             <hi rend="italic">A Narrative of the Passage of His Britannic Majesty’s
                                 ships Discovery and Chatham</hi>, <hi rend="italic">under the
@@ -6728,10 +6749,13 @@
                         frus:doc-dateTime-min="1801-12-31T19:14:00-05:00"
                         frus:doc-dateTime-max="1802-12-31T19:13:59-05:00">
                         <head>No. IV.</head>
-                        <dateline>[<date when="1802" notBefore="1802-01-01T00:00:00-00:14"
-                                notAfter="1802-12-31T23:59:59-00:14"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">1802</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date when="1802"
+                                    notBefore="1802-01-01T00:00:00-00:14"
+                                    notAfter="1802-12-31T23:59:59-00:14"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">1802</date>]</dateline>
+                        </opener>
                         <p rend="center">
                             <hi rend="italic">A Narrative of the Voyages made by the Spanish Vessels
                                 Sutil and Mexicana, in the year</hi> 1792, <hi rend="italic">to
@@ -9244,10 +9268,13 @@
                         frus:doc-dateTime-min="1871-12-11T23:56:00-05:00"
                         frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                         <head>[Untitled]</head>
-                        <dateline>[<date notBefore="1871-12-12T00:00:00-04:56"
-                                notAfter="1872-12-02T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">undated</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date
+                                    notBefore="1871-12-12T00:00:00-04:56"
+                                    notAfter="1872-12-02T23:59:59-04:56"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">undated</date>]</dateline>
+                        </opener>
                         <p>The United States on the 12th of December last presented their Memorial,
                             on the Canal de Haro as the boundary line of the United States of
                             America, to the Imperial Arbitrator, and to the representative of Her
@@ -11728,9 +11755,10 @@
                         <head><persName type="from">Extracts from the Affidavit of William J.
                                 Waitt</persName>.</head>
                         <opener>
-                            <dateline><placeName><hi rend="smallcaps">United States of America</hi>,
-                                        <hi rend="italic">Territory of Washington</hi>, <hi
-                                        rend="italic">ss:</hi></placeName></dateline>
+                            <dateline rendition="#right"><placeName><hi rend="smallcaps">United
+                                        States of America</hi>, <hi rend="italic">Territory of
+                                        Washington</hi>, <hi rend="italic"
+                                >ss:</hi></placeName></dateline>
                         </opener>
 
                         <p>I, William J. Waitt, of the City of Olympia, County of Thurston, and
@@ -11812,7 +11840,7 @@
                             <hi rend="italic">Extracts from the Affidavit of Francis Tarbell.</hi>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States of America</hi>, <hi
                                         rend="italic">Territory of Washington</hi>, <hi
                                         rend="italic">ss:</hi></placeName>
@@ -11892,7 +11920,7 @@
                         <head>*<hi rend="italic"> Extracts from the Affidavit of Charles
                                 Willoughby.</hi><seg type="margin">[84]</seg></head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States of America</hi>, <hi
                                         rend="italic">Territory of Washington</hi>, <hi
                                         rend="italic">ss:</hi></placeName>
@@ -12086,7 +12114,7 @@
                             <hi rend="italic">Affidavit of Adam Benson.</hi>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States of America</hi>, <hi
                                         rend="italic">Territory of Washington</hi>, <hi
                                         rend="italic">ss:</hi></placeName>
@@ -12136,7 +12164,7 @@
                         frus:doc-dateTime-max="1872-03-30T23:59:59-05:00">
                         <head><hi rend="italic">Affidavit of William N. Horton</hi>.</head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States of America</hi>, <hi
                                         rend="italic">Territory of Washington</hi>, <hi
                                         rend="italic">ss:</hi></placeName>
@@ -12783,10 +12811,13 @@
                         frus:doc-dateTime-min="1797-12-31T23:56:00-05:00"
                         frus:doc-dateTime-max="1798-12-31T23:55:59-05:00">
                         <head>No. 63.</head>
-                        <dateline>[<date when="1798" notBefore="1798-01-01T00:00:00-04:56"
-                                notAfter="1798-12-31T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-outside-research"
-                                calendar="gregorian">undated</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date when="1798"
+                                    notBefore="1798-01-01T00:00:00-04:56"
+                                    notAfter="1798-12-31T23:59:59-04:56"
+                                    ana="#date_undated-inferred-from-outside-research"
+                                    calendar="gregorian">undated</date>]</dateline>
+                        </opener>
                         <p rend="italic">
                             <hi rend="italic">Extract from the Instructions to Commander George
                                 Vancouver</hi>, <hi rend="italic">by the Commissioners for executing
@@ -12823,10 +12854,13 @@
                         frus:doc-dateTime-min="1797-12-31T23:56:00-05:00"
                         frus:doc-dateTime-max="1798-12-31T23:55:59-05:00">
                         <head>No. 64.</head>
-                        <dateline>[<date when="1798" notBefore="1798-01-01T00:00:00-04:56"
-                                notAfter="1798-12-31T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-outside-research"
-                                calendar="gregorian">undated</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date when="1798"
+                                    notBefore="1798-01-01T00:00:00-04:56"
+                                    notAfter="1798-12-31T23:59:59-04:56"
+                                    ana="#date_undated-inferred-from-outside-research"
+                                    calendar="gregorian">undated</date>]</dateline>
+                        </opener>
                         <p rend="italic">
                             <hi rend="italic">Extract of Voyage of Captain Vancouver.</hi>
                         </p>
@@ -12872,10 +12906,13 @@
                         frus:doc-dateTime-min="1861-12-31T23:56:00-05:00"
                         frus:doc-dateTime-max="1862-12-31T23:55:59-05:00">
                         <head>No. 66.</head>
-                        <dateline>[<date when="1862" notBefore="1862-01-01T00:00:00-04:56"
-                                notAfter="1862-12-31T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">1862</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date when="1862"
+                                    notBefore="1862-01-01T00:00:00-04:56"
+                                    notAfter="1862-12-31T23:59:59-04:56"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">1862</date>]</dateline>
+                        </opener>
                         <p rend="italic"><hi rend="italic">Four Years in British Columbia and
                                 Vancouver Island. By Commander R. C. Mayne</hi>, <hi rend="italic"
                                 >R.</hi>
@@ -12896,10 +12933,13 @@
                         frus:doc-dateTime-min="1859-12-31T23:56:00-05:00"
                         frus:doc-dateTime-max="1860-12-31T23:55:59-05:00">
                         <head>[Untitled]</head>
-                        <dateline>[<date when="1860" notBefore="1860-01-01T00:00:00-04:56"
-                                notAfter="1860-12-31T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">1860</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date when="1860"
+                                    notBefore="1860-01-01T00:00:00-04:56"
+                                    notAfter="1860-12-31T23:59:59-04:56"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">1860</date>]</dateline>
+                        </opener>
                         <p rend="italic">
                             <hi rend="italic">Facts and Figures relating to Vancouver Island and
                                 British Columbia. By J. Despard Pemberton</hi>, <hi rend="italic"
@@ -13167,9 +13207,9 @@
                             the treaty.</p>
                         <frus:attachment>
                             <opener>
-                                <dateline><date when="1857-11-09" calendar="gregorian"><hi
-                                            rend="smallcaps">November</hi> 9,
-                                    1857</date>.</dateline>
+                                <dateline rendition="#right"><date when="1857-11-09"
+                                        calendar="gregorian"><hi rend="smallcaps">November</hi> 9,
+                                        1857</date>.</dateline>
                             </opener>
                             <p>The Canal de Haro, or Arro, is undoubtedly the navigable channel
                                 which, at its position, separates <hi rend="italic">Vancouver’s
@@ -13181,9 +13221,9 @@
                         </frus:attachment>
                         <frus:attachment>
                             <opener>
-                                <dateline>*<date when="1857-11-24" calendar="gregorian"><hi
-                                            rend="smallcaps">November</hi> 24, 1857</date>.<seg
-                                        type="margin">[109]</seg></dateline>
+                                <dateline rendition="#right">*<date when="1857-11-24"
+                                        calendar="gregorian"><hi rend="smallcaps">November</hi> 24,
+                                        1857</date>.<seg type="margin">[109]</seg></dateline>
                             </opener>
                             <p>7. With reference to your remarks upon the map drawn by “Charles
                                 Preuss,” * * I beg you to understand me that I do not bring this map
@@ -13260,12 +13300,12 @@
                                 Campbell on the channel of the treaty.</seg></p>
                         <frus:attachment>
                             <opener>
-                                <dateline>U. S. <hi rend="smallcaps">Northwest Boundary Commission
-                                        Camp</hi>, <placeName><hi rend="italic"
-                                        >Simiahmoo</hi></placeName>, <hi rend="italic">Forty-ninth
-                                        Parallel</hi>, <date when="1858-09-25" calendar="gregorian"
-                                            ><hi rend="italic">September</hi> 25,
-                                    1858</date>.</dateline>
+                                <dateline rendition="#right">U. S. <hi rend="smallcaps">Northwest
+                                        Boundary Commission Camp</hi>, <placeName><hi rend="italic"
+                                            >Simiahmoo</hi></placeName>, <hi rend="italic"
+                                        >Forty-ninth Parallel</hi>, <date when="1858-09-25"
+                                        calendar="gregorian"><hi rend="italic">September</hi> 25,
+                                        1858</date>.</dateline>
                             </opener>
                             <p>Practically it can make no difference whether the main channel be
                                 adopted as “<hi rend="italic">the</hi> channel” intended by the
@@ -13924,10 +13964,13 @@
                         frus:doc-dateTime-max="1872-12-02T23:55:59-05:00">
                         <head>Second and definitive statement on behalf of the government of Her
                             Britannic Majesty.</head>
-                        <dateline>[<date notBefore="1871-12-01T00:00:00-04:56"
-                                notAfter="1872-12-02T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">undated</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date
+                                    notBefore="1871-12-01T00:00:00-04:56"
+                                    notAfter="1872-12-02T23:59:59-04:56"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">undated</date>]</dateline>
+                        </opener>
                         <p>1. The Government of Her Britannic Majesty, in pursuance of Article XXXVI
                             of the Treaty of Washington of 1871, have drawn up and now lay before
                             His Majesty the Emperor of Germany, as Arbitrator, this their second and
@@ -15249,9 +15292,12 @@
                         frus:doc-dateTime-max="1846-08-13T23:59:59-05:00">
                         <head ana="#head_untitled-inferred-from-chapter-head">[Historical Note.—1818
                             to 1846.]</head>
-                        <dateline>[<date from="1818-10-20" to="1846-08-13" type="content-date"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">1818 to 1846</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date from="1818-10-20" to="1846-08-13"
+                                    type="content-date"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">1818 to 1846</date>]</dateline>
+                        </opener>
                         <p rend="center">1818.</p>
                         <p>In 1818 an agreement was come to between the Government of His Britannic
                             Majesty and that of the United States respecting the boundary line
@@ -17037,12 +17083,14 @@
                                 rend="superscript">1</hi>
                             <note n="6" xml:id="d124fn6"> Referred to in the Statement, page 2, note
                                 *.</note><seg type="margin">[xxiii]</seg></head>
-                        <dateline>
-                            <date when="1872" notBefore="1872-01-01T00:00:00-04:56"
-                                notAfter="1872-12-02T23:59:59-04:56"
-                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
-                                >[1872]</date>
-                        </dateline>
+                        <opener>
+                            <dateline rendition="#right">
+                                <date when="1872" notBefore="1872-01-01T00:00:00-04:56"
+                                    notAfter="1872-12-02T23:59:59-04:56"
+                                    ana="#date_undated-inferred-from-document-head"
+                                    calendar="gregorian">[1872]</date>
+                            </dateline>
+                        </opener>
                         <p rend="center">GREAT BRITAIN.</p>
                         <p><hi rend="smallcaps">northwest water boundary arbitration</hi>.</p>
                         <table cols="4">
@@ -17624,10 +17672,12 @@
                         frus:doc-dateTime-max="1868-12-31T23:59:59-05:00">
                         <head ana="#head_untitled-inferred-from-chapter-head">[Memorandum relative
                             to the origin and privileges of the Hudson’s Bay Company.]</head>
-                        <dateline>[<date notBefore="1669-05-02T00:00:00"
-                                notAfter="1868-12-31T23:59:59" type="content-date"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">undated</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date notBefore="1669-05-02T00:00:00"
+                                    notAfter="1868-12-31T23:59:59" type="content-date"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">undated</date>]</dateline>
+                        </opener>
                         <p>In 1669, certain British subjects formed themselves into a Company, for
                             the purpose of undertaking an expedition to Hudson’s Bay.</p>
                         <p>The object of this expedition was twofold:</p>
@@ -17810,7 +17860,7 @@
                         frus:doc-dateTime-max="1859-08-24T23:59:59-05:00">
                         <opener>
                             <seg rendition="#center">[Extract.]</seg>
-                            <dateline>[<date when="1859-08-24"
+                            <dateline rendition="#right">[<date when="1859-08-24"
                                     ana="#date_undated-inferred-from-document-head"
                                     calendar="gregorian">August 24, 1859</date>]</dateline>
                         </opener>
@@ -18318,9 +18368,11 @@
                         frus:doc-dateTime-min="1846-06-12T00:00:00-05:00"
                         frus:doc-dateTime-max="1846-06-12T23:59:59-05:00">
                         <head>No. 5.</head>
-                        <dateline>[<date when="1846-06-12"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">June 12, 1846</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<date when="1846-06-12"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">June 12, 1846</date>]</dateline>
+                        </opener>
                         <p rend="center">PROPOSED AMENDMENT OF ARTICLE II OF TREATY.</p>
                         <p>The following was moved in the Senate of the United States, on 12th June,
                             1846, as an addition to the Resolution advising the President to accept
@@ -18506,10 +18558,11 @@
                             <opener>
                                 <seg rendition="#center">[Inclosure No. 3.]</seg>
                             </opener>
-                            <dateline rendition="#right">[<date when="1871-05-08"
-                                    calendar="gregorian"
-                                    ana="#date_undated-inferred-from-document-content">May 8,
-                                    1871</date>]</dateline>
+                            <opener><dateline rendition="#right">[<date when="1871-05-08"
+                                        calendar="gregorian"
+                                        ana="#date_undated-inferred-from-document-content">May 8,
+                                        1871</date>]</dateline>
+                            </opener>
                             <p rend="center"><hi rend="italic">Extract, from the Treaty of
                                     Washington of May</hi> 8, 1871.</p>
                             <p rend="center"><hi rend="smallcaps">Article</hi> XXXIV.</p>
@@ -18875,9 +18928,10 @@
                                 <seg rendition="#center">[Inclosure.—Translation.]</seg>
                             </opener>
                             <opener>
-                                <dateline><placeName><hi rend="smallcaps">Berlin</hi></placeName>,
-                                        <date when="1871-12-20" calendar="gregorian"><hi
-                                            rend="italic">December</hi> 20, 1871</date>.</dateline>
+                                <dateline rendition="#right"><placeName><hi rend="smallcaps"
+                                            >Berlin</hi></placeName>, <date when="1871-12-20"
+                                        calendar="gregorian"><hi rend="italic">December</hi> 20,
+                                        1871</date>.</dateline>
                             </opener>
                             <p>The undersigned has the honor to acknowledge the receipt from the
                                 Envoy Extraordinary and Minister Plenipotentiary of the United
@@ -19820,11 +19874,13 @@
                         frus:doc-dateTime-min="1801-12-31T19:14:00-05:00"
                         frus:doc-dateTime-max="1802-12-31T19:13:59-05:00">
                         <head>No. I.</head>
-                        <dateline>[<placeName>Madrid</placeName>, <date when="1802"
-                                notBefore="1802-01-01T00:00:00-00:14"
-                                notAfter="1802-12-31T23:59:59-00:14"
-                                ana="#date_undated-inferred-from-document-content"
-                                calendar="gregorian">1802</date>]</dateline>
+                        <opener>
+                            <dateline rendition="#right">[<placeName>Madrid</placeName>, <date
+                                    when="1802" notBefore="1802-01-01T00:00:00-00:14"
+                                    notAfter="1802-12-31T23:59:59-00:14"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    calendar="gregorian">1802</date>]</dateline>
+                        </opener>
                         <p>Carta Esférica de los Reconocimientos hechos en la Costa N. O. de
                             America, en 1791 y 1792, por las goletas Sutil y Mexicana, y otros
                             buques de Su Magestad. (Published at Madrid, 1802.)</p>
