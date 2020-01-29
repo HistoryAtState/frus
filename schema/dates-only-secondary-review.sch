@@ -277,7 +277,7 @@
         <!-- Chinese Era/Lunisolar Calendar Checks/Fixes -->
         <rule context="tei:date[not(matches(@calendar, 'chinese-era'))]">
             <assert role="info"
-                test="not(.[matches(., 'Qi[áa]nl[óo]ng|G[āa]oz[ōo]ng|H[óo]nglì|Ji[āa]q[ìi]ng|R[ée]nzōng|Y[óo]ngy[ǎa]n|D[àa]ogu[āa]ng|Xu[āa]nz[ōo]ng|M[íi]nn[íi]ng|Xianfeng|W[ée]nz[o]ōng|Wenzong|Y[ìi]zh[ǔu]|Dongzhi|M[ùu]z[ōo]ng|Muzong|Z[ǎa]ich[úu]n|Tongzhi|Tungchi|T&#8217;ung\s+Chi|Guangxu|Kuanghs[üu]|Kuang\s+Hs[üu]|Kuang\s+S[üu]|Dézōng|Tezong|Z[ǎa]iti[áa]n|Xuantong|Gongz[ōo]ng|Pui', 'i')])"
+                test="not(.[matches(., 'Qi[áa]nl[óo]ng|G[āa]oz[ōo]ng|H[óo]nglì|Ji[āa]q[ìi]ng|R[ée]nzōng|Y[óo]ngy[ǎa]n|D[àa]ogu[āa]ng|Xu[āa]nz[ōo]ng|M[íi]nn[íi]ng|Xianfeng|W[ée]nz[o]ōng|Wenzong|Y[ìi]zh[ǔu]|Dongzhi|M[ùu]z[ōo]ng|Muzong|Z[ǎa]ich[úu]n|Tongzhi|Tungchi|T&#8217;ung\s+Chi|Guangxu|Kuanghs[üu]|Kuang(\s+|-)[Hh]s[üu]|Kuang(\s+|-)[Ss][üu]|Dézōng|Tezong|Z[ǎa]iti[áa]n|Xuantong|Gongz[ōo]ng|Pui', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Chinese era/reign-based calendar reference.</assert>
 
@@ -676,7 +676,7 @@
 
             <sqf:group id="add-when-attribute">
 
-                <!-- Fix 1: month-day-year-regex-eng -->
+                <!-- Fix 1a: month-day-year-regex-eng -->
                 <sqf:fix
                     use-when="matches(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)?,?\s+(\d{4}))', 'i')"
                     id="add-when-attribute-MMDDYYYY-eng">
@@ -693,15 +693,37 @@
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
 
                     <sqf:description>
-                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                    </sqf:description>
+                    <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                </sqf:fix>
+
+                <!-- Fix 1b: month-day-year-regex-eng-gregorian-calendar -->
+                <sqf:fix
+                    use-when="matches(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)?,?\s+(\d{4}))', 'i')"
+                    id="add-when-attribute-MMDDYYYY-eng-calendar">
+                    <let name="date-match"
+                        value="analyze-string(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(d|nd|rd|st|th)?,?\s+(\d{4}))', 'i')"/>
+
+                    <let name="date-match-1" value="$date-match/fn:match[1]"/>
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '2']"/>
+                    <let name="month-digit"
+                        value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
+                    <let name="date"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
+                    <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
+
+                    <sqf:description>
+                        <sqf:title>Add @when and @calendar="gregorian" attributes to
+                            &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
                     <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
 
-                <!-- Fix 2: day-month-year-regex-eng -->
-
+                <!-- Fix 2a: day-month-year-regex-eng -->
                 <sqf:fix
                     use-when="matches(., '((the\s+)?(\d{1,2})(d|nd|rd|st|th)?(\s+of)?\s+?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4}))', 'i')"
                     id="add-when-attribute-DDMMYYYY-eng">
@@ -716,14 +738,34 @@
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
                     <sqf:description>
-                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                    </sqf:description>
+                    <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                </sqf:fix>
+
+                <!-- Fix 2b: day-month-year-regex-eng-gregorian-calendar -->
+                <sqf:fix
+                    use-when="matches(., '((the\s+)?(\d{1,2})(d|nd|rd|st|th)?(\s+of)?\s+?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4}))', 'i')"
+                    id="add-when-attribute-DDMMYYYY-eng-calendar">
+                    <let name="date-match"
+                        value="analyze-string(., '((the\s+)?(\d{1,2})(d|nd|rd|st|th)?(\s+of)?\s+?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4}))', 'i')"/>
+                    <let name="date-match-1" value="$date-match/fn:match[1]"/>
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '7']"/>
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
+                    <let name="month-digit"
+                        value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
+                    <let name="date"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
+                    <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
+                    <sqf:description>
+                        <sqf:title>Add @when and @calendar="gregorian" attributes to
+                            &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
                     <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
-                <!-- Fix 3: month-day-range-year-regex-eng -->
-
+                <!-- Fix 3a: month-day-range-year-regex-eng -->
                 <sqf:fix
                     use-when="matches(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(?:st|d|nd|rd|th)?\s*[-–—]\s*(\d{1,2})(?:st|d|nd|rd|th)?,?\s+(\d{4}))', 'i')"
                     id="add-when-attribute-range-eng">
@@ -742,15 +784,40 @@
                     <let name="to" value="concat($year, '-', $month-digit, '-', $date-to)"/>
 
                     <sqf:description>
-                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                    </sqf:description>
+                    <sqf:add match="." node-type="attribute" target="from" select="$from"/>
+                    <sqf:add match="." node-type="attribute" target="to" select="$to"/>
+                </sqf:fix>
+
+                <!-- Fix 3b: month-day-range-year-regex-eng-gregorian-calendar -->
+                <sqf:fix
+                    use-when="matches(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(?:st|d|nd|rd|th)?\s*[-–—]\s*(\d{1,2})(?:st|d|nd|rd|th)?,?\s+(\d{4}))', 'i')"
+                    id="add-when-attribute-range-eng-gregorian-calendar">
+                    <let name="date-match"
+                        value="analyze-string(., '((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(?:st|d|nd|rd|th)?\s*[-–—]\s*(\d{1,2})(?:st|d|nd|rd|th)?,?\s+(\d{4}))', 'i')"/>
+                    <let name="date-match-1" value="$date-match/fn:match[1]"/>
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '2']"/>
+                    <let name="month-digit"
+                        value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
+                    <let name="date-from"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
+                    <let name="date-to"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '4'], '00')"/>
+                    <let name="from" value="concat($year, '-', $month-digit, '-', $date-from)"/>
+                    <let name="to" value="concat($year, '-', $month-digit, '-', $date-to)"/>
+
+                    <sqf:description>
+                        <sqf:title>Add @when and @calendar="gregorian" attributes to
+                            &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="from" select="$from"/>
                     <sqf:add match="." node-type="attribute" target="to" select="$to"/>
                     <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
-                <!-- Fix 4: date-spelled-out-regex-eng -->
-
+                <!-- Fix 4a: date-spelled-out-regex-eng -->
                 <sqf:fix
                     use-when="matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')"
                     id="add-when-attribute-spelled-out-eng">
@@ -761,27 +828,24 @@
                     <let name="year-thousands" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
                     <let name="year-thousands-digit"
                         value="
-                            if (matches($year-thousands, 'two thousand')) then
+                            if (matches($year-thousands, 'two\s+thousand')) then
                                 '2'
                             else
-                                if (matches($year-thousands, 'one thousand')) then
+                                if (matches($year-thousands, 'one\s+thousand')) then
                                     '1'
                                 else
-                                    if (matches($year-thousands, 'seven hundred')) then
-                                        'y'
-                                    else
-                                        ''"/>
+                                    ''"/>
 
                     <let name="year-hundreds" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
                     <let name="year-hundreds-digit"
                         value="
-                            if (matches($year-hundreds, 'nine hundred')) then
+                            if (matches($year-hundreds, 'nine\s+hundred')) then
                                 '9'
                             else
-                                if (matches($year-hundreds, 'eight hundred')) then
+                                if (matches($year-hundreds, 'eight\s+hundred')) then
                                     '8'
                                 else
-                                    if (matches($year-hundreds, 'seven hundred')) then
+                                    if (matches($year-hundreds, 'seven\s+hundred')) then
                                         '7'
                                     else
                                         ''"/>
@@ -876,7 +940,7 @@
                             if (matches($date-phrase, '(ninth$|nineteenth$)')) then
                                 '9'
                             else
-                                if (matches($date-phrase, '(eighth$|eighteenth)')) then
+                                if (matches($date-phrase, '(eighth$|eighteenth$)')) then
                                     '8'
                                 else
                                     if (matches($date-phrase, '(seventh$|seventeenth$)')) then
@@ -907,14 +971,173 @@
                     <let name="when"
                         value="concat($year-combined, '-', $month-digit, '-', $date-digit)"/>
                     <sqf:description>
-                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                    </sqf:description>
+                    <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                </sqf:fix>
+
+                <!-- Fix 4b: date-spelled-out-regex-eng-gregorian-calendar -->
+                <sqf:fix
+                    use-when="matches(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')"
+                    id="add-when-attribute-spelled-out-eng-gregorian-calendar">
+                    <let name="date-match"
+                        value="analyze-string(., '((?:(?:the|this)\s+)?((?:thirty|twenty)?(?:-|–)?(?:thirtieth|twentieth|nineteenth|eighteenth|seventeenth|sixteenth|fifteenth|fourteenth|thirteenth|twelfth|eleventh|tenth|ninth|eighth|seventh|sixth|fifth|fourth|third|second|first))\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')"/>
+                    <let name="date-match-1" value="$date-match/fn:match[1]"/>
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '4']"/>
+                    <let name="year-thousands" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
+                    <let name="year-thousands-digit"
+                        value="
+                            if (matches($year-thousands, 'two\s+thousand')) then
+                                '2'
+                            else
+                                if (matches($year-thousands, 'one\s+thousand')) then
+                                    '1'
+                                else
+                                    ''"/>
+
+                    <let name="year-hundreds" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
+                    <let name="year-hundreds-digit"
+                        value="
+                            if (matches($year-hundreds, 'nine\s+hundred')) then
+                                '9'
+                            else
+                                if (matches($year-hundreds, 'eight\s+hundred')) then
+                                    '8'
+                                else
+                                    if (matches($year-hundreds, 'seven\s+hundred')) then
+                                        '7'
+                                    else
+                                        ''"/>
+
+                    <let name="year-tens-ones" value="$date-match-1//fn:group[attribute::nr eq '8']"/>
+                    <let name="year-tens-digit"
+                        value="
+                            if (matches($year-tens-ones, 'ninety')) then
+                                '9'
+                            else
+                                if (matches($year-tens-ones, 'eighty')) then
+                                    '8'
+                                else
+                                    if (matches($year-tens-ones, 'seventy')) then
+                                        '7'
+                                    else
+                                        if (matches($year-tens-ones, 'sixty')) then
+                                            '6'
+                                        else
+                                            if (matches($year-tens-ones, 'fifty')) then
+                                                '5'
+                                            else
+                                                if (matches($year-tens-ones, 'forty')) then
+                                                    '4'
+                                                else
+                                                    if (matches($year-tens-ones, 'thirty')) then
+                                                        '3'
+                                                    else
+                                                        if (matches($year-tens-ones, 'twenty')) then
+                                                            '2'
+                                                        else
+                                                            if (matches($year-tens-ones, '(twelve$|eleven$|ten$|teen$)')) then
+                                                                '1'
+                                                            else
+                                                                '0'"/>
+
+                    <let name="year-ones-digit"
+                        value="
+                            if (matches($year-tens-ones, 'nine$|nineteen$')) then
+                                '9'
+                            else
+                                if (matches($year-tens-ones, 'eight$|eighteen$')) then
+                                    '8'
+                                else
+                                    if (matches($year-tens-ones, 'seven$|seventeen$')) then
+                                        '7'
+                                    else
+                                        if (matches($year-tens-ones, 'six$|sixteen$')) then
+                                            '6'
+                                        else
+                                            if (matches($year-tens-ones, 'five$|fifteen$')) then
+                                                '5'
+                                            else
+                                                if (matches($year-tens-ones, 'four$|fourteen$')) then
+                                                    '4'
+                                                else
+                                                    if (matches($year-tens-ones, 'three$|thirteen$')) then
+                                                        '3'
+                                                    else
+                                                        if (matches($year-tens-ones, 'two$|twelve')) then
+                                                            '2'
+                                                        else
+                                                            if (matches($year-tens-ones, 'one$|eleven')) then
+                                                                '1'
+                                                            else
+                                                                '0'"/>
+
+                    <let name="year-combined"
+                        value="concat($year-thousands-digit, $year-hundreds-digit, $year-tens-digit, $year-ones-digit)"/>
+
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '3']"/>
+                    <let name="month-digit"
+                        value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
+
+                    <let name="date-phrase" value="$date-match-1//fn:group[attribute::nr eq '2']"/>
+
+                    <let name="date-tens"
+                        value="
+                            if (matches($date-phrase, 'thirty')) then
+                                '3'
+                            else
+                                if (matches($date-phrase, 'twenty')) then
+                                    '2'
+                                else
+                                    if (matches($date-phrase, '(twelfth$|eleventh$|tenth$|teenth$)')) then
+                                        '1'
+                                    else
+                                        '0'"/>
+
+                    <let name="date-ones"
+                        value="
+                            if (matches($date-phrase, '(ninth$|nineteenth$)')) then
+                                '9'
+                            else
+                                if (matches($date-phrase, '(eighth$|eighteenth$)')) then
+                                    '8'
+                                else
+                                    if (matches($date-phrase, '(seventh$|seventeenth$)')) then
+                                        '7'
+                                    else
+                                        if (matches($date-phrase, '(sixth$|sixteenth$)')) then
+                                            '6'
+                                        else
+                                            if (matches($date-phrase, '(fifth$|fifteenth$)')) then
+                                                '5'
+                                            else
+                                                if (matches($date-phrase, '(fourth$|fourteenth$)')) then
+                                                    '4'
+                                                else
+                                                    if (matches($date-phrase, '(third$|thirteenth$)')) then
+                                                        '3'
+                                                    else
+                                                        if (matches($date-phrase, '(second$|twelfth$)')) then
+                                                            '2'
+                                                        else
+                                                            if (matches($date-phrase, '(first$|eleventh$)')) then
+                                                                '1'
+                                                            else
+                                                                '0'"/>
+
+                    <let name="date-digit" value="concat($date-tens, $date-ones)"/>
+
+                    <let name="when"
+                        value="concat($year-combined, '-', $month-digit, '-', $date-digit)"/>
+                    <sqf:description>
+                        <sqf:title>Add @when and @calendar="gregorian" attributes to
+                            &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
                     <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
-                <!-- Fix 5: day-month-year-partially-spelled-out-regex-eng -->
-
+                <!-- Fix 5a: day-month-year-partially-spelled-out-regex-eng -->
                 <sqf:fix
                     use-when="matches(., '((?:(?:the|this)\s+)?(\d{1,2})(?:st|d|nd|rd|th)?\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')"
                     id="add-when-attribute-partially-spelled-out-eng">
@@ -927,27 +1150,24 @@
                     <let name="year-thousands" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
                     <let name="year-thousands-digit"
                         value="
-                            if (matches($year-thousands, 'two thousand')) then
+                            if (matches($year-thousands, 'two\s+thousand')) then
                                 '2'
                             else
-                                if (matches($year-thousands, 'one thousand')) then
+                                if (matches($year-thousands, 'one\s+thousand')) then
                                     '1'
                                 else
-                                    if (matches($year-thousands, 'seven hundred')) then
-                                        'y'
-                                    else
-                                        ''"/>
+                                    ''"/>
 
                     <let name="year-hundreds" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
                     <let name="year-hundreds-digit"
                         value="
-                            if (matches($year-hundreds, 'nine hundred')) then
+                            if (matches($year-hundreds, 'nine\s+hundred')) then
                                 '9'
                             else
-                                if (matches($year-hundreds, 'eight hundred')) then
+                                if (matches($year-hundreds, 'eight\s+hundred')) then
                                     '8'
                                 else
-                                    if (matches($year-hundreds, 'seven hundred')) then
+                                    if (matches($year-hundreds, 'seven\s+hundred')) then
                                         '7'
                                     else
                                         ''"/>
@@ -1030,14 +1250,132 @@
                     <let name="when"
                         value="concat($year-combined, '-', $month-digit, '-', $date-digit)"/>
                     <sqf:description>
-                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                    </sqf:description>
+                    <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                </sqf:fix>
+
+                <!-- Fix 5b: day-month-year-partially-spelled-out-regex-eng-gregorian-calendar -->
+                <sqf:fix
+                    use-when="matches(., '((?:(?:the|this)\s+)?(\d{1,2})(?:st|d|nd|rd|th)?\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')"
+                    id="add-when-attribute-partially-spelled-out-eng-gregorian-calendar">
+                    <let name="date-match"
+                        value="analyze-string(., '((?:(?:the|this)\s+)?(\d{1,2})(?:st|d|nd|rd|th)?\s+day\s+of\s+(January|February|March|April|May|June|July|August|September|October|November|December),?\s+in\s+the\s+year\s+of\s+(?:our|the)\s+lord\s+(((?:one|two)\s+thousand)\s+((?:nine|eight)?\s+hundred)\s+(and\s+)?((?:ninety|eighty|seventy|sixty|fifty|forty|thirty|twenty)?(?:-|–)?\s*(?:nineteen|eighteen|seventeen|sixteen|fifteen|fourteen|thirteen|twelve|eleven|ten|nine|eight|seven|six|five|four|three|two|one)?)))', 'i')"/>
+                    <let name="date-match-1" value="$date-match/fn:match[1]"/>
+
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '4']"/>
+
+                    <let name="year-thousands" value="$date-match-1//fn:group[attribute::nr eq '5']"/>
+                    <let name="year-thousands-digit"
+                        value="
+                            if (matches($year-thousands, 'two\s+thousand')) then
+                                '2'
+                            else
+                                if (matches($year-thousands, 'one\s+thousand')) then
+                                    '1'
+                                else
+                                    ''"/>
+
+                    <let name="year-hundreds" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
+                    <let name="year-hundreds-digit"
+                        value="
+                            if (matches($year-hundreds, 'nine\s+hundred')) then
+                                '9'
+                            else
+                                if (matches($year-hundreds, 'eight\s+hundred')) then
+                                    '8'
+                                else
+                                    if (matches($year-hundreds, 'seven\s+hundred')) then
+                                        '7'
+                                    else
+                                        ''"/>
+
+                    <let name="year-tens-ones" value="$date-match-1//fn:group[attribute::nr eq '8']"/>
+
+                    <let name="year-tens-digit"
+                        value="
+                            if (matches($year-tens-ones, 'ninety')) then
+                                '9'
+                            else
+                                if (matches($year-tens-ones, 'eighty')) then
+                                    '8'
+                                else
+                                    if (matches($year-tens-ones, 'seventy')) then
+                                        '7'
+                                    else
+                                        if (matches($year-tens-ones, 'sixty')) then
+                                            '6'
+                                        else
+                                            if (matches($year-tens-ones, 'fifty')) then
+                                                '5'
+                                            else
+                                                if (matches($year-tens-ones, 'forty')) then
+                                                    '4'
+                                                else
+                                                    if (matches($year-tens-ones, 'thirty')) then
+                                                        '3'
+                                                    else
+                                                        if (matches($year-tens-ones, 'twenty')) then
+                                                            '2'
+                                                        else
+                                                            if (matches($year-tens-ones, '(twelve$|eleven$|ten$|teen$)')) then
+                                                                '1'
+                                                            else
+                                                                '0'"/>
+
+                    <let name="year-ones-digit"
+                        value="
+                            if (matches($year-tens-ones, 'nine$|nineteen$')) then
+                                '9'
+                            else
+                                if (matches($year-tens-ones, 'eight$|eighteen$')) then
+                                    '8'
+                                else
+                                    if (matches($year-tens-ones, 'seven$|seventeen$')) then
+                                        '7'
+                                    else
+                                        if (matches($year-tens-ones, 'six$|sixteen$')) then
+                                            '6'
+                                        else
+                                            if (matches($year-tens-ones, 'five$|fifteen$')) then
+                                                '5'
+                                            else
+                                                if (matches($year-tens-ones, 'four$|fourteen$')) then
+                                                    '4'
+                                                else
+                                                    if (matches($year-tens-ones, 'three$|thirteen$')) then
+                                                        '3'
+                                                    else
+                                                        if (matches($year-tens-ones, 'two$|twelve')) then
+                                                            '2'
+                                                        else
+                                                            if (matches($year-tens-ones, 'one$|eleven')) then
+                                                                '1'
+                                                            else
+                                                                '0'"/>
+
+                    <let name="year-combined"
+                        value="concat($year-thousands-digit, $year-hundreds-digit, $year-tens-digit, $year-ones-digit)"/>
+
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '3']"/>
+                    <let name="month-digit"
+                        value="functx:replace-multi(lower-case($month), $month-eng, $month-machine-readable-eng)"/>
+
+                    <let name="date" value="$date-match-1//fn:group[attribute::nr eq '2']"/>
+
+                    <let name="date-digit" value="format-number($date, '00')"/>
+
+                    <let name="when"
+                        value="concat($year-combined, '-', $month-digit, '-', $date-digit)"/>
+                    <sqf:description>
+                        <sqf:title>Add @when and @calendar="gregorian" attributes to
+                            &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
                     <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
-                <!-- Fix 6: month-day-year-regex-fr -->
-
+                <!-- Fix 6a: month-day-year-regex-fr -->
                 <sqf:fix
                     use-when="matches(., '((le\s+)?(\d{1,2})(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+(\d{4}))', 'i')"
                     id="add-when-attribute-MMDDYYYY-fr">
@@ -1052,15 +1390,34 @@
                         value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
                     <sqf:description>
-                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                    </sqf:description>
+                    <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                </sqf:fix>
+
+                <!-- Fix 6b: month-day-year-regex-fr-gregorian-calendar -->
+                <sqf:fix
+                    use-when="matches(., '((le\s+)?(\d{1,2})(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+(\d{4}))', 'i')"
+                    id="add-when-attribute-MMDDYYYY-fr-gregorian-calendar">
+                    <let name="date-match"
+                        value="analyze-string(., '((le\s+)?(\d{1,2})(eme|ème|re)?\s+(de\s+)?(janvier|février|fevrier|mart|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre),?\s+(\d{4}))', 'i')"/>
+                    <let name="date-match-1" value="$date-match/fn:match[1]"/>
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '7']"/>
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
+                    <let name="month-digit"
+                        value="functx:replace-multi(lower-case($month), $month-fr, $month-machine-readable-fr)"/>
+                    <let name="date"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
+                    <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
+                    <sqf:description>
+                        <sqf:title>Add @when and @calendar="gregorian" attributes to
+                            &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
                     <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
 
-
-                <!-- Fix 7: month-day-year-regex-sp -->
-
+                <!-- Fix 7a: month-day-year-regex-sp -->
                 <sqf:fix
                     use-when="matches(., '((el\s+)?(\d{1,2})\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?(\d{4}))', 'i')"
                     id="add-when-attribute-MMDDYYYY-sp">
@@ -1076,12 +1433,33 @@
 
                     <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
                     <sqf:description>
-                        <sqf:title>Add @when and @calendar attributes to &lt;date&gt;</sqf:title>
+                        <sqf:title>Add @when attribute to &lt;date&gt;</sqf:title>
+                    </sqf:description>
+                    <sqf:add match="." node-type="attribute" target="when" select="$when"/>
+                </sqf:fix>
+
+                <!-- Fix 7b: month-day-year-regex-sp-gregorian-calendar -->
+                <sqf:fix
+                    use-when="matches(., '((el\s+)?(\d{1,2})\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?(\d{4}))', 'i')"
+                    id="add-when-attribute-MMDDYYYY-sp-gregorian-calendar">
+                    <let name="date-match"
+                        value="analyze-string(., '((el\s+)?(\d{1,2})\s+((de|del)\s+)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre),?\s+((de|del)\s+)?(\d{4}))', 'i')"/>
+                    <let name="date-match-1" value="$date-match/fn:match[1]"/>
+                    <let name="year" value="$date-match-1//fn:group[attribute::nr eq '9']"/>
+                    <let name="month" value="$date-match-1//fn:group[attribute::nr eq '6']"/>
+                    <let name="month-digit"
+                        value="functx:replace-multi(lower-case($month), $month-sp, $month-machine-readable-sp)"/>
+                    <let name="date"
+                        value="format-number($date-match-1//fn:group[attribute::nr eq '3'], '00')"/>
+
+                    <let name="when" value="concat($year, '-', $month-digit, '-', $date)"/>
+                    <sqf:description>
+                        <sqf:title>Add @when and @calendar="gregorian" attributes to
+                            &lt;date&gt;</sqf:title>
                     </sqf:description>
                     <sqf:add match="." node-type="attribute" target="when" select="$when"/>
                     <sqf:add match="." node-type="attribute" target="calendar">gregorian</sqf:add>
                 </sqf:fix>
-
             </sqf:group>
         </rule>
 
