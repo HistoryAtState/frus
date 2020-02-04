@@ -790,7 +790,7 @@
                         </egXML>
                         <!-- Example 2: @when, parallel date statements, multiple @calendar values -->
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <date when="1904-03-09" calendar="chinese-era chinese-lunar gregorian"
+                            <date when="1904-03-09" calendar="chinese-era chinese-lunisolar gregorian"
                                 >Kuanghsü XXX year, first moon, 23d day. (March 9, 1904.)</date>
                         </egXML>
                         <!-- Example 3: @when, @calendar="hijri" only -->
