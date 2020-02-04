@@ -281,88 +281,13 @@
         </rule>
     </pattern>
 
-    <!-- Non-Gregorian Date Checks -->
-   
-    <pattern id="non-gregorian-calendars">
-        
-        <!-- US Republic/Independence Calendar Checks/Quick Fixes -->
-        <rule context="tei:date[not(matches(@calendar, 'us-republic'))]">
-            <assert role="info"
-                test="not(.[matches(., 'of\s+the\s+Independence\s+of\s+the\s+United\s+States', 'i')])"
-                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating reference to United States independence/republic.</assert>
-            
-            <sqf:group id="add-calendar-attributes">
-                <sqf:fix id="add-calendar-attribute-us-republic">
-                    <sqf:description>
-                        <sqf:title>Add @calendar="us-republic"</sqf:title>
-                    </sqf:description>
-                    <sqf:add node-type="attribute" target="calendar">us-republic</sqf:add>
-                </sqf:fix>
-                
-                <sqf:fix id="add-calendar-attribute-us-republic-gregorian">
-                    <sqf:description>
-                        <sqf:title>Add @calendar="gregorian us-republic"</sqf:title>
-                    </sqf:description>
-                    <sqf:add node-type="attribute" target="calendar">gregorian us-republic</sqf:add>
-                </sqf:fix>
-            </sqf:group>
-        </rule>
-        
-        <!-- Chinese Lunisolar Calendar Checks/Fixes -->
-        
-        <rule context="tei:date[not(matches(@calendar, 'chinese-lunisolar'))]">
-            <assert role="info" test="not(.[matches(., 'moon', 'i')])"
-                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
-                possibly indicating a Chinese lunisolar calendar reference.</assert>
-            
-            <let name="calendar-value" value="string(./@calendar)"/>
-            
-            <sqf:group id="add-calendar-attributes">
-                
-                <sqf:fix use-when=".[@calendar]" id="add-chinese-lunisolar-to-existing-calendar">
-                    <sqf:description>
-                        <sqf:title>Add "chinese-lunisolar" to existing @calendar</sqf:title>
-                    </sqf:description>
-                    <sqf:add node-type="attribute" target="calendar">
-                        <value-of select="concat('chinese-lunisolar ', $calendar-value)"/>
-                    </sqf:add>
-                </sqf:fix>
-                
-                <sqf:fix use-when=".[not(@calendar)]" id="add-chinese-lunisolar">
-                    <sqf:description>
-                        <sqf:title>Add @calendar="chinese-lunisolar"</sqf:title>
-                    </sqf:description>
-                    <sqf:add node-type="attribute" target="calendar">chinese-lunisolar</sqf:add>
-                </sqf:fix>
-                
-                <sqf:fix use-when=".[not(@calendar)]"
-                    id="add-chinese-lunisolar-gregorian">
-                    <sqf:description>
-                        <sqf:title>Add @calendar="chinese-lunisolar gregorian"</sqf:title>
-                    </sqf:description>
-                    <sqf:add node-type="attribute" target="calendar">chinese-lunisolar
-                        gregorian</sqf:add>
-                </sqf:fix>
-                
-                <sqf:fix use-when=".[not(@calendar)]"
-                    id="add-chinese-era-chinese-lunisolar-gregorian">
-                    <sqf:description>
-                        <sqf:title>Add @calendar="chinese-era chinese-lunisolar gregorian"</sqf:title>
-                    </sqf:description>
-                    <sqf:add node-type="attribute" target="calendar">chinese-era chinese-lunisolar
-                        gregorian</sqf:add>
-                </sqf:fix>
-                
-            </sqf:group>
-            
-        </rule>
+    <!-- Non-Gregorian Calendar Checks -->
 
-        <!-- Chinese Era/Reign-Based Calendar Checks/Fixes -->
-       
+    <!-- Chinese Era/Reign-Based Calendar Checks/Fixes -->
+    <pattern id="chinese-era-calendar-checks">
         <rule context="tei:date[not(matches(@calendar, 'chinese-era'))]">
             <assert role="info"
-                test="not(.[matches(., 'Qi[áa]nl[óo]ng|G[āa]oz[ōo]ng|H[óo]nglì|Ji[āa]q[ìi]ng|R[ée]nzōng|Y[óo]ngy[ǎa]n|D[àa]ogu[āa]ng|Xu[āa]nz[ōo]ng|M[íi]nn[íi]ng|Xianfeng|W[ée]nz[o]ōng|Wenzong|Y[ìi]zh[ǔu]|Dongzhi|M[ùu]z[ōo]ng|Muzong|Z[ǎa]ich[úu]n|Tongzhi|Tungchi|T&#8217;ung\s+Chi|Guangxu|Kuanghs[üu]|Kuang(\s+|-)[Hh]s[üu]|Kuang(\s+|-)[Ss][üu]|Dézōng|Tezong|Z[ǎa]iti[áa]n|Xuantong|Gongz[ōo]ng|Pui', 'i')])"
+                test="not(.[matches(., 'Qi[áa]nl[óo]ng|G[āa]oz[ōo]ng|H[óo]nglì|Ji[āa]q[ìi]ng|R[ée]nzōng|Y[óo]ngy[ǎa]n|D[àa]ogu[āa]ng|Xu[āa]nz[ōo]ng|M[íi]nn[íi]ng|Xianfeng|W[ée]nz[o]ōng|Wenzong|Y[ìi]zh[ǔu]|Dongzhi|M[ùu]z[ōo]ng|Muzong|Z[ǎa]ich[úu]n|Tongzhi|Tungchi|T&#8217;ung\s+Chi|Guangxu|K[uw]anghs[üu]|K[uw]ang(\s+|-)Hs[üu]|K[uw]ang(\s+|-)S[üu]|Dézōng|Tezong|Z[ǎa]iti[áa]n|Xuantong|Gongz[ōo]ng|Pui', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Chinese era/reign-based calendar reference.</assert>
 
@@ -370,17 +295,7 @@
 
             <sqf:group id="add-calendar-attributes">
 
-                <sqf:fix use-when=".[matches(., 'moon')][@calendar]"
-                    id="add-chinese-era-chinese-lunisolar-to-existing-calendar">
-                    <sqf:description>
-                        <sqf:title>Add "chinese-era chinese-lunisolar" to existing @calendar</sqf:title>
-                    </sqf:description>
-                    <sqf:add node-type="attribute" target="calendar">
-                        <value-of select="concat('chinese-era chinese-lunisolar ', $calendar-value)"
-                        />
-                    </sqf:add>
-                </sqf:fix>
-
+                <!-- Add to existing @calendar -->
                 <sqf:fix use-when=".[@calendar]" id="add-chinese-era-to-existing-calendar">
                     <sqf:description>
                         <sqf:title>Add "chinese-era" to existing @calendar</sqf:title>
@@ -390,14 +305,78 @@
                     </sqf:add>
                 </sqf:fix>
 
-                <sqf:fix use-when=".[matches(., 'moon')]" id="add-chinese-era">
+                <sqf:fix
+                    use-when=".[matches(., 'moon')][@calendar][not(matches(@calendar, 'chinese-lunisolar'))]"
+                    id="add-chinese-era-chinese-lunisolar-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "chinese-era chinese-lunisolar" to existing
+                            @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('chinese-era chinese-lunisolar ', $calendar-value)"
+                        />
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix
+                    use-when=".[matches(., 'moon')][@calendar][not(matches(@calendar, 'chinese-lunisolar'))][not(matches(@calendar, 'gregorian'))]"
+                    id="add-chinese-era-chinese-lunisolar-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "chinese-era chinese-lunisolar gregorian" to existing
+                            @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of
+                            select="concat('chinese-era chinese-lunisolar gregorian', $calendar-value)"
+                        />
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-chinese-era-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "chinese-era gregorian" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('chinese-era gregorian', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-chinese-era">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="chinese-era"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">chinese-era</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[matches(., 'moon')][@calendar]"
+                    id="replace-calendar-attribute-chinese-era-chinese-lunisolar-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="chinese-era chinese-lunisolar
+                            gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">chinese-era chinese-lunisolar
+                        gregorian</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[matches(., 'moon')][@calendar]"
+                    id="replace-calendar-attribute-chinese-era-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="chinese-era
+                            gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">chinese-era gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-chinese-era">
                     <sqf:description>
                         <sqf:title>Add @calendar="chinese-era"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">chinese-era</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix use-when=".[matches(., 'moon')]" id="add-chinese-era-chinese-lunisolar">
+                <sqf:fix use-when=".[not(@calendar)][matches(., 'moon')]"
+                    id="add-chinese-era-chinese-lunisolar">
                     <sqf:description>
                         <sqf:title>Add @calendar="chinese-era chinese-lunisolar"</sqf:title>
                     </sqf:description>
@@ -405,7 +384,7 @@
                         chinese-lunisolar</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix use-when=".[matches(., 'moon')]"
+                <sqf:fix use-when=".[not(@calendar)]"
                     id="add-chinese-era-chinese-lunisolar-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="chinese-era chinese-lunisolar
@@ -415,7 +394,7 @@
                         gregorian</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix id="add-chinese-era-gregorian">
+                <sqf:fix use-when=".[not(@calendar)]" id="add-chinese-era-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="chinese-era gregorian"</sqf:title>
                     </sqf:description>
@@ -425,8 +404,80 @@
             </sqf:group>
 
         </rule>
+    </pattern>
 
-        <!-- Ethiopian Ge’ez Calendar Checks/Fixes -->
+    <!-- Chinese Lunisolar Calendar Checks/Fixes -->
+    <pattern id="chinese-lunar-calendar-checks">
+        <rule context="tei:date[not(matches(@calendar, 'chinese-lunisolar'))]">
+            <assert role="info" test="not(.[matches(., 'moon', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Chinese lunisolar calendar reference.</assert>
+
+            <let name="calendar-value" value="string(./@calendar)"/>
+
+            <sqf:group id="add-calendar-attributes">
+
+                <!-- Add to existing @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="add-chinese-lunisolar-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "chinese-lunisolar" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('chinese-lunisolar ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-chinese-lunisolar-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "chinese-lunisolar gregorian" to existing
+                            @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('chinese-lunisolar gregorian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-chinese-lunisolar">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="chinese-lunisolar"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">chinese-lunisolar</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[@calendar]"
+                    id="replace-calendar-attribute-chinese-lunisolar-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="chinese-lunisolar
+                            gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">chinese-lunisolar
+                        gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-chinese-lunisolar">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="chinese-lunisolar"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">chinese-lunisolar</sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[not(@calendar)]" id="add-chinese-lunisolar-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="chinese-lunisolar gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">chinese-lunisolar
+                        gregorian</sqf:add>
+                </sqf:fix>
+
+            </sqf:group>
+
+        </rule>
+    </pattern>
+
+    <!-- Ethiopian Ge’ez Calendar Checks/Fixes -->
+    <pattern id="ethiopian-geez-calendar-checks">
         <rule context="tei:date[not(matches(@calendar, 'ethiopian-geez'))]">
 
             <assert role="info"
@@ -434,14 +485,57 @@
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Ethopian ge’ez calendar reference.</assert>
 
+            <let name="calendar-value" value="string(./@calendar)"/>
+
             <sqf:group id="add-calendar-attributes">
-                <sqf:fix id="add-calendar-attribute-ethiopian-geez">
+
+                <!-- Add to existing @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="add-ethiopian-geez-to-existing-calendar">
                     <sqf:description>
-                        <sqf:title>Add @calendar="ethopian-ge’ez"</sqf:title>
+                        <sqf:title>Add "ethiopian-geez" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('ethiopian-geez ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-ethiopian-geez-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "ethiopian-geez gregorian" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('ethiopian-geez gregorian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-ethiopian-geez">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="ethiopian-geez"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">ethiopian-geez</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[@calendar]"
+                    id="replace-calendar-attribute-ethiopian-geez-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="ethiopian-geez
+                            gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">ethiopian-geez
+                        gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-ethiopian-geez">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="ethopian-geez"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">ethopian-ge’ez</sqf:add>
                 </sqf:fix>
-                <sqf:fix id="add-calendar-attribute-ethiopian-geez-gregorian">
+
+                <sqf:fix use-when=".[not(@calendar)]"
+                    id="add-calendar-attribute-ethiopian-geez-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="ethopian-geez gregorian"</sqf:title>
                     </sqf:description>
@@ -450,24 +544,63 @@
             </sqf:group>
 
         </rule>
+    </pattern>
 
-        <!-- Hijri Calendar Checks/Fixes -->
+    <!-- Hijri Calendar Checks/Fixes -->
+    <pattern id="hijri-calendar-checks">
         <rule context="tei:date[not(matches(@calendar, 'hijri'))]">
             <assert role="info"
                 test="not(.[matches(., 'Muḥarram|Muharram|Moharram|Ṣafar|Safar|Sefer|Rabī&#8217;\s+al-awwal|Rebbi-al-ewel|Rabih|Rabī&#8216;\s+ath-thānī|Rabī&#8216;\s+al-Thānī|Rabī&#8216;\s+al-Tānī|Rabī’\s+al-Ākhir|Rabi\s+el\s+tami|Rabee\s+El\s+Thani|Rabi&#8217;Tani|Rebbi-ul-Akbir|Rebi-ul-Ewel|Rabih|Jumādá\s+al-ūlá|Ǧumādā\s+al-Awwal|Jumada\s+al-awwal|Jumada\s+al-ula|Jumada\s+al-Ula|Jumada|Jumada\s+I|Jamadi-ol-Aval|Jumada\s+al-Oola|Jamad-el-Ewel|Jumadil\s+Awwal|Djémazi-ul-ewel|Djemazi-ul-evvel|Youmada|Youmada\s+I|Youmada\s+1st|Jamadi-es-Sani|Jumādá\s+al-ākhirah|Ǧumādā\s+al-Āḫir|Ǧumādā\s+aṮ-Ṯānī|Iamadi|Jumaada\s+al-Akhir|Jumada\s+al-Akhira|Jumādā\s+al-āḵir|Jumada\s+II|Rajab|Rajah|Sha&#8217;bān|Sha&#8216;ban|Sha&#8216;bān|Sha&#8216;ban|Shaaban|Chaban|Ramaḍān|Ramadan|Ramadhan|Ramazam|Shawwāl|Shawwal|Shawal|Dhū\s+al-Qa&#8216;dah|Dhu[:punct:]l-Qi[:punct:]dah|Dhu.?l-Qa[:punct:]dah|Ḏū\s+l-Qa[:punct:]dah|Zulqida|Zeekadeh|Zee\s+Radah|Zee\s+Kadah|Dhū\s+al-Ḥijjah|Dhu\s+al-Hijjah|Dhu[:punct:]l-Hijjah|Zulhijja|Zi\s+El-Hidjah|Zil-Hajj', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a hijri calendar reference.</assert>
 
+            <let name="calendar-value" value="string(./@calendar)"/>
+
             <sqf:group id="add-calendar-attributes">
 
-                <sqf:fix id="add-calendar-attribute-hijri">
+                <!-- Add to existing @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="add-hijri-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "hijri" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('hijri ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-hijri-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "hijri gregorian" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('hijri gregorian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-hijri">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="hijri"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">hijri</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-hijri-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="hijri gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">hijri gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-hijri">
                     <sqf:description>
                         <sqf:title>Add @calendar="hijri"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">hijri</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix id="add-calendar-attribute-hijri-gregorian">
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-hijri-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="hijri gregorian"</sqf:title>
                     </sqf:description>
@@ -475,8 +608,10 @@
                 </sqf:fix>
             </sqf:group>
         </rule>
+    </pattern>
 
-        <!-- Iranian/Persian/Solar Hijri Calendar Checks/Fixes -->
+    <!-- Iranian/Persian/Solar Hijri Calendar Checks/Fixes -->
+    <pattern id="iranian-persian-calendar-checks">
         <rule context="tei:date[not(matches(@calendar, 'iranian-persian'))]">
 
             <assert role="info"
@@ -484,16 +619,58 @@
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating an Iranian/Persian (Solar Hijri) calendar reference.</assert>
 
+            <let name="calendar-value" value="string(./@calendar)"/>
+
             <sqf:group id="add-calendar-attributes">
 
-                <sqf:fix id="add-calendar-attribute-iranian-persian">
+                <!-- Add to existing @calendar  -->
+                <sqf:fix use-when=".[@calendar]" id="add-iranian-persian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "iranian-persian" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('iranian-persian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-iranian-persian-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "iranian-persian gregorian" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('iranian-persian gregorian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-iranian-persian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="iranian-persian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">iranian-persian</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[@calendar]"
+                    id="replace-calendar-attribute-iranian-persian-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="iranian-persian
+                            gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">iranian-persian
+                        gregorian</sqf:add>
+                </sqf:fix>
+
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-iranian-persian">
                     <sqf:description>
                         <sqf:title>Add @calendar="iranian-persian"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">iranian-persian</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix id="add-calendar-attribute-iranian-persian-gregorian">
+                <sqf:fix use-when=".[not(@calendar)]"
+                    id="add-calendar-attribute-iranian-persian-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="iranian-persian gregorian"</sqf:title>
                     </sqf:description>
@@ -502,23 +679,67 @@
                 </sqf:fix>
             </sqf:group>
         </rule>
+    </pattern>
 
-        <!-- Japanese Nengō Calendar Checks/Fixes -->
+    <!-- Japanese Nengō Calendar Checks/Fixes -->
+    <pattern id="japanese-nengō-calendar-checks">
         <rule context="tei:date[not(matches(@calendar, 'japanese-nengō'))]">
             <assert role="info"
                 test="not(.[matches(., 'An&#8217;ei|Kōkaku|Kokaku|Tenmei|Kansei|Kyōwa|Kyowa|Bunka|Ninkō|Ninko|Bunsei|Tenpō|Tenpo|Tenhō|Tenho|Kōka|Koka|Kōmei|Komei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Keiō|Keio|Meiji|Taishō|Taisho|Shōwa|Showa|Heisei|Akihito', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Japanese nengō calendar reference.</assert>
 
+            <let name="calendar-value" value="string(./@calendar)"/>
+
             <sqf:group id="add-calendar-attributes">
-                <sqf:fix id="add-calendar-attribute-japanese-nengo">
+
+                <!-- Add to existing @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="add-japanese-nengo-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "japanese-nengō" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('japanese-nengō ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-japanese-nengo-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "japanese-nengō gregorian" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('japanese-nengō gregorian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-japanese-nengo">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="japanese-nengō"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">japanese-nengō</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[@calendar]"
+                    id="replace-calendar-attribute-japanese-nengo-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="japanese-nengō
+                            gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">japanese-nengō
+                        gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-japanese-nengo">
                     <sqf:description>
                         <sqf:title>Add @calendar="japanese-nengō"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">japanese-nengō</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix id="add-calendar-attribute-japanese-nengo-gregorian">
+                <sqf:fix use-when=".[not(@calendar)]"
+                    id="add-calendar-attribute-japanese-nengo-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="japanese-nengō gregorian"</sqf:title>
                     </sqf:description>
@@ -527,33 +748,77 @@
                 </sqf:fix>
             </sqf:group>
         </rule>
+    </pattern>
 
-        <!-- Korean Era Calendar Checks/Fixes -->
+    <!-- Korean Era Calendar Checks/Fixes -->
+    <pattern id="korean-era-calendar-checks">
         <rule context="tei:date[not(matches(@calendar, 'korean-era'))]">
             <assert role="info"
                 test="not(.[matches(., 'Yi\s+Geum|Gunjin|Songheon|Taejo|Emperor\s+Go|Yi\s+San|Hyeongun|Hongjae|Jeongjo|Yi\s+Gong|Gongbo|Sunjae|Sunjo|Yi\s+Hwan|Muneung|Wonheon|\s+Heonjong|Yi\s+Byeon|Doseung|Daeyongjae|Cheoljong|Yi\s+Myeong-bok|Yi\s+Hui|Seongrim|Juyeon|Gojong|Kojong|Emperor\s+Tae|Gaeguk|Geonyang|Gwangmu|Kwangmu|Kwang\s+Mu|Gwangmuje|Kwangmuje|Yi\s+Cheok|Gundang|Jeongheon|Sunjong|Emperor\s+Hyo|Emperor\s+Yunghui|Yunghui|Yunghuije|Yunghŭije|Lyung\s+Heni', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Korean era calendar reference.</assert>
 
+            <let name="calendar-value" value="string(./@calendar)"/>
+
             <sqf:group id="add-calendar-attributes">
-                <sqf:fix id="add-calendar-attribute-korean-era">
+
+                <!-- Add to existing @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="add-korean-era-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "korean-era" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('korean-era ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-korean-era-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "korean-era gregorian" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('korean-era gregorian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-korean-era">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="korean-era"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">korean-era</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[@calendar]"
+                    id="replace-calendar-attribute-korean-era-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="korean-era
+                            gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">korean-era gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-korean-era">
                     <sqf:description>
                         <sqf:title>Add @calendar="korean-era"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">korean-era</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix id="add-calendar-attribute-korean-era-gregorian">
+                <sqf:fix use-when=".[not(@calendar)]"
+                    id="add-calendar-attribute-korean-era-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="korean-era gregorian"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">korean-era gregorian</sqf:add>
                 </sqf:fix>
             </sqf:group>
-
         </rule>
+    </pattern>
 
-        <!-- Masonic Calendar Checks/Fixes -->
+    <!-- Masonic Calendar Checks/Fixes -->
+    <pattern id="masonic-anno-lucis-calendar-checks">
         <rule context="tei:date[not(matches(@calendar, 'masonic-anno-lucis'))]">
 
             <assert role="info"
@@ -561,18 +826,57 @@
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Masonic calendar reference.</assert>
 
-            <sqf:group
-                use-when=".[matches(., '((in\s+the\s+year\s+of\s+light)|(anno\s+lucis))', 'i')]"
-                id="add-calendar-attributes">
-                <sqf:fix id="add-calendar-attribute-masonic-anno-lucis">
+            <let name="calendar-value" value="string(./@calendar)"/>
+
+            <sqf:group id="add-calendar-attributes">
+
+                <!-- Add to existing @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="add-masonic-anno-lucis-to-existing-calendar">
                     <sqf:description>
-                        <sqf:title>Add @calendar="masonic"</sqf:title>
+                        <sqf:title>Add "masonic-anno" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('masonic-anno ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-masonic-anno-lucis-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "masonic-anno gregorian" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('masonic-anno gregorian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-masonic-anno-lucis">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="masonic"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">masonic-anno-lucis</sqf:add>
                 </sqf:fix>
-                <sqf:fix id="add-calendar-attribute-masonic-anno-lucis-gregorian">
+                <sqf:fix use-when=".[@calendar]"
+                    id="replace-calendar-attribute-masonic-anno-lucis-gregorian">
                     <sqf:description>
-                        <sqf:title>Add @calendar="masonic gregorian"</sqf:title>
+                        <sqf:title>Replace @calendar with @calendar="masonic gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">masonic-anno-lucis
+                        gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-masonic-anno-lucis">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="masonic-anno-lucis"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">masonic-anno-lucis</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[not(@calendar)]"
+                    id="add-calendar-attribute-masonic-anno-lucis-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="masonic-anno-lucis gregorian"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">masonic-anno-lucis
                         gregorian</sqf:add>
@@ -580,22 +884,63 @@
             </sqf:group>
 
         </rule>
+    </pattern>
 
-        <!-- Papal Era Calendar Checks/Fixes -->
+    <!-- Papal Era Calendar Checks/Fixes -->
+    <pattern id="papal-era-calendar-checks">
         <rule context="tei:date[not(matches(@calendar, 'papal-era'))]">
             <assert role="info" test="not(.[matches(., 'pontif*', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a papal era calendar reference.</assert>
+
+            <let name="calendar-value" value="string(./@calendar)"/>
+
             <sqf:group id="add-calendar-attributes">
-                <sqf:fix use-when=".[matches(., 'pontif*', 'i')]"
-                    id="add-calendar-attribute-papal-era">
+
+                <!-- Add to existing @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="add-papal-era-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "papal-era" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('papal-era ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-papal-era-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "papal-era gregorian" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('papal-era gregorian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-papal-era">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="papal-era"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">papal-era</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-papal-era-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="papal-era
+                            gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">papal-era gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-papal-era">
                     <sqf:description>
                         <sqf:title>Add @calendar="papal-era"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">papal-era</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix use-when=".[matches(., 'pontif*', 'i')]"
+                <sqf:fix use-when=".[not(@calendar)]"
                     id="add-calendar-attribute-papal-era-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="papal-era gregorian"</sqf:title>
@@ -604,21 +949,62 @@
                 </sqf:fix>
             </sqf:group>
         </rule>
+    </pattern>
 
-        <!-- Roman Calendar Checks/Fixes -->
+    <!-- Roman Calendar Checks/Fixes -->
+    <pattern id="roman-calendar-checks">
         <rule context="tei:date[not(matches(@calendar, 'roman'))]">
             <assert role="info" test="not(.[matches(., 'nones|ides|kalends', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Roman calendar reference.</assert>
+
+            <let name="calendar-value" value="string(./@calendar)"/>
+
             <sqf:group id="add-calendar-attributes">
-                <sqf:fix id="add-calendar-attribute-roman">
+
+                <!-- Add to existing @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="add-roman-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "roman" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('roman ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-roman-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "roman gregorian" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('roman gregorian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-roman">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="roman"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">roman</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-papal-era-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="roman gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">roman gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-roman">
                     <sqf:description>
                         <sqf:title>Add @calendar="roman"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">roman</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix id="add-calendar-attribute-roman-gregorian">
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-roman-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="roman gregorian"</sqf:title>
                     </sqf:description>
@@ -626,22 +1012,63 @@
                 </sqf:fix>
             </sqf:group>
         </rule>
+    </pattern>
 
-        <!-- Rumi Calendar Checks/Fixes -->
+    <!-- Rumi Calendar Checks/Fixes -->
+    <pattern id="rumi-calendar-checks">
         <rule context="tei:date[not(matches(@calendar, 'rumi'))]">
             <assert role="info"
                 test="not(.[matches(., 'Kânûn-ı\s+Sânî|Kanun-i Sani|Şubat|Subat|[^A-z]Mart[^A-z]|Nisan|Mayıs|Mayis|Haziran|Temmuz|Ağustos|Agustos|Eylül|EylulTeşrin-i\s+Evvel|Tesrin-i\s+Evvel|Teşrin-i\s+Sânî|Tesrin-i Sani|Kânûn-ı\s+Evvel|Kanun-i\s+Evvel', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Rumi calendar reference.</assert>
+
+            <let name="calendar-value" value="string(./@calendar)"/>
+
             <sqf:group id="add-calendar-attributes">
-                <sqf:fix id="add-calendar-attribute-rumi">
+
+                <!-- Add to existing @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="add-rumi-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "rumi" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('rumi ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-rumi-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "rumi gregorian" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('rumi gregorian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-rumi">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="rumi"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">rumi</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-rumi-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="rumi gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">rumi gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-rumi">
                     <sqf:description>
                         <sqf:title>Add @calendar="rumi"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">rumi</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix id="add-calendar-attribute-rumi-gregorian">
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-rumi-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="rumi gregorian"</sqf:title>
                     </sqf:description>
@@ -649,23 +1076,67 @@
                 </sqf:fix>
             </sqf:group>
         </rule>
+    </pattern>
 
-        <!-- Tibetan Phugpa Calendar Checks/Fixes -->
+    <!-- Tibetan Phugpa Calendar Checks/Fixes -->
+    <pattern id="tibetan-phugpa-calendar-checks">
         <rule context="tei:date[not(matches(@calendar, 'tibetan-phugpa'))]">
             <assert role="info"
                 test="not(.[matches(., 'Rabbit|Dragon|Snake|Horse|Goat|Monkey|Rooster|Dog|Pig|Rat|Ox|Tiger', 'i') and matches(., 'Fire|Earth|Iron|Water|Wood', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Tibetan phugpa calendar reference.</assert>
 
+            <let name="calendar-value" value="string(./@calendar)"/>
+
             <sqf:group id="add-calendar-attributes">
-                <sqf:fix id="add-calendar-attribute-tibetan-phugpa">
+
+                <!-- Add to existing @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="add-tibetan-phugpa-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "tibetan-phugpa" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('tibetan-phugpa ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-tibetan-phugpa-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "tibetan-phugpa gregorian" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('tibetan-phugpa gregorian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-tibetan-phugpa">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="tibetan-phugpa"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">tibetan-phugpa</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[@calendar]"
+                    id="replace-calendar-attribute-tibetan-phugpa-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="tibetan-phugpa
+                            gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">tibetan-phugpa
+                        gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-tibetan-phugpa">
                     <sqf:description>
                         <sqf:title>Add @calendar="tibetan-phugpa"</sqf:title>
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">tibetan-phugpa</sqf:add>
                 </sqf:fix>
 
-                <sqf:fix id="add-calendar-attribute-tibetan-phugpa-gregorian">
+                <sqf:fix use-when=".[not(@calendar)]"
+                    id="add-calendar-attribute-tibetan-phugpa-gregorian">
                     <sqf:description>
                         <sqf:title>Add @calendar="tibetan-phugpa gregorian"</sqf:title>
                     </sqf:description>
@@ -674,8 +1145,73 @@
                 </sqf:fix>
             </sqf:group>
         </rule>
+    </pattern>
 
-        
+    <!-- US Republic/Independence Calendar Checks/Quick Fixes -->
+    <pattern id="us-republic-calendar-checks">
+        <rule context="tei:date[not(matches(@calendar, 'us-republic'))]">
+            <assert role="info"
+                test="not(.[matches(., 'of\s+the\s+Independence\s+of\s+the\s+United\s+States', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating reference to United States independence/republic.</assert>
+
+            <let name="calendar-value" value="string(./@calendar)"/>
+
+            <sqf:group id="add-calendar-attributes">
+
+                <!-- Add to existing @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="add-us-republic-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "us-republic" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat($calendar-value, ' us-republic')"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-us-republic-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "gregorian us-republic" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat($calendar-value, ' gregorian us-republic')"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-us-republic">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="us-republic"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">us-republic</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[@calendar]"
+                    id="replace-calendar-attribute-us-republic-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="gregorian
+                            us-republic"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">gregorian us-republic</sqf:add>
+                </sqf:fix>
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-us-republic">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="us-republic"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">us-republic</sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[not(@calendar)]"
+                    id="add-calendar-attribute-us-republic-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="gregorian us-republic"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">gregorian us-republic</sqf:add>
+                </sqf:fix>
+            </sqf:group>
+        </rule>
     </pattern>
 
     <!-- Unencoded Date Checks -->
