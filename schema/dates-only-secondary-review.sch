@@ -725,7 +725,7 @@
     <pattern id="japanese-nengō-calendar-checks">
         <rule context="tei:date[not(matches(@calendar, 'japanese-nengō'))]">
             <assert role="info"
-                test="not(.[matches(., 'An&#8217;ei|Kōkaku|Kokaku|Tenmei|Kansei|Kyōwa|Kyowa|Bunka|Ninkō|Ninko|Bunsei|Tenpō|Tenpo|Tenhō|Tenho|Kōka|Koka|Kōmei|Komei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Keiō|Keio|Meiji|Taishō|Taisho|Shōwa|Showa|Heisei|Akihito', 'i')])"
+                test="not(.[matches(., 'An&#8217;ei|K[ōo]kaku|Tenmei|Kansei|Ky[ōo]waBunka|Nink[ōo]|Bunsei|Tenpō|Tenpo|Tenh[ōo]|Kōka|Koka|K[ōo]mei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Kei[ōo]|Meiji|Taishō|Taisho|Sh[ōo]wa|Heisei|Akihito', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Japanese nengō calendar reference.</assert>
 
