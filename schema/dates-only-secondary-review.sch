@@ -1335,7 +1335,7 @@
         <rule
             context="(tei:div[attribute::subtype eq 'historical-document'] | frus:attachment)[not(descendant::tei:date) and not(descendant::tei:quote)]/tei:closer[not(descendant::tei:dateline)]">
             <assert role="info"
-                test="not(.[matches(., '(the\s+)?(\d{1,2})(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4})|((January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(st|d|nd|rd|th)?,?\s+(\d{4}))', 'i')])"
+                test="not(.[matches(., '(the\s+)?(\d{1,2})(st|d|nd|rd|th)?\s+(of\s+)?(January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{4})|((January|February|March|April|May|June|July|August|September|October|November|December),?\s+(\d{1,2})(st|d|nd|rd|th)?,?\s+(\d{4}))', 'i')])"
                 >[FYI] This closer possibly contains an unencoded dateline/date.</assert>
 
             <assert role="info"
