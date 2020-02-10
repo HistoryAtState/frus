@@ -11728,9 +11728,10 @@
                         <head><persName type="from">Extracts from the Affidavit of William J.
                                 Waitt</persName>.</head>
                         <opener>
-                            <dateline><placeName><hi rend="smallcaps">United States of America</hi>,
-                                        <hi rend="italic">Territory of Washington</hi>, <hi
-                                        rend="italic">ss:</hi></placeName></dateline>
+                            <dateline rendition="#right"><placeName><hi rend="smallcaps">United
+                                        States of America</hi>, <hi rend="italic">Territory of
+                                        Washington</hi>, <hi rend="italic"
+                                >ss:</hi></placeName></dateline>
                         </opener>
 
                         <p>I, William J. Waitt, of the City of Olympia, County of Thurston, and
@@ -11812,7 +11813,7 @@
                             <hi rend="italic">Extracts from the Affidavit of Francis Tarbell.</hi>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States of America</hi>, <hi
                                         rend="italic">Territory of Washington</hi>, <hi
                                         rend="italic">ss:</hi></placeName>
@@ -11892,7 +11893,7 @@
                         <head>*<hi rend="italic"> Extracts from the Affidavit of Charles
                                 Willoughby.</hi><seg type="margin">[84]</seg></head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States of America</hi>, <hi
                                         rend="italic">Territory of Washington</hi>, <hi
                                         rend="italic">ss:</hi></placeName>
@@ -12086,7 +12087,7 @@
                             <hi rend="italic">Affidavit of Adam Benson.</hi>
                         </head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States of America</hi>, <hi
                                         rend="italic">Territory of Washington</hi>, <hi
                                         rend="italic">ss:</hi></placeName>
@@ -12136,7 +12137,7 @@
                         frus:doc-dateTime-max="1872-03-30T23:59:59-05:00">
                         <head><hi rend="italic">Affidavit of William N. Horton</hi>.</head>
                         <opener>
-                            <dateline>
+                            <dateline rendition="#right">
                                 <placeName><hi rend="smallcaps">United States of America</hi>, <hi
                                         rend="italic">Territory of Washington</hi>, <hi
                                         rend="italic">ss:</hi></placeName>
@@ -13167,9 +13168,9 @@
                             the treaty.</p>
                         <frus:attachment>
                             <opener>
-                                <dateline><date when="1857-11-09" calendar="gregorian"><hi
-                                            rend="smallcaps">November</hi> 9,
-                                    1857</date>.</dateline>
+                                <dateline rendition="#right"><date when="1857-11-09"
+                                        calendar="gregorian"><hi rend="smallcaps">November</hi> 9,
+                                        1857</date>.</dateline>
                             </opener>
                             <p>The Canal de Haro, or Arro, is undoubtedly the navigable channel
                                 which, at its position, separates <hi rend="italic">Vancouver’s
@@ -13181,9 +13182,9 @@
                         </frus:attachment>
                         <frus:attachment>
                             <opener>
-                                <dateline>*<date when="1857-11-24" calendar="gregorian"><hi
-                                            rend="smallcaps">November</hi> 24, 1857</date>.<seg
-                                        type="margin">[109]</seg></dateline>
+                                <dateline rendition="#right">*<date when="1857-11-24"
+                                        calendar="gregorian"><hi rend="smallcaps">November</hi> 24,
+                                        1857</date>.<seg type="margin">[109]</seg></dateline>
                             </opener>
                             <p>7. With reference to your remarks upon the map drawn by “Charles
                                 Preuss,” * * I beg you to understand me that I do not bring this map
@@ -13260,12 +13261,12 @@
                                 Campbell on the channel of the treaty.</seg></p>
                         <frus:attachment>
                             <opener>
-                                <dateline>U. S. <hi rend="smallcaps">Northwest Boundary Commission
-                                        Camp</hi>, <placeName><hi rend="italic"
-                                        >Simiahmoo</hi></placeName>, <hi rend="italic">Forty-ninth
-                                        Parallel</hi>, <date when="1858-09-25" calendar="gregorian"
-                                            ><hi rend="italic">September</hi> 25,
-                                    1858</date>.</dateline>
+                                <dateline rendition="#right">U. S. <hi rend="smallcaps">Northwest
+                                        Boundary Commission Camp</hi>, <placeName><hi rend="italic"
+                                            >Simiahmoo</hi></placeName>, <hi rend="italic"
+                                        >Forty-ninth Parallel</hi>, <date when="1858-09-25"
+                                        calendar="gregorian"><hi rend="italic">September</hi> 25,
+                                        1858</date>.</dateline>
                             </opener>
                             <p>Practically it can make no difference whether the main channel be
                                 adopted as “<hi rend="italic">the</hi> channel” intended by the
@@ -17810,7 +17811,7 @@
                         frus:doc-dateTime-max="1859-08-24T23:59:59-05:00">
                         <opener>
                             <seg rendition="#center">[Extract.]</seg>
-                            <dateline>[<date when="1859-08-24"
+                            <dateline rendition="#right">[<date when="1859-08-24"
                                     ana="#date_undated-inferred-from-document-head"
                                     calendar="gregorian">August 24, 1859</date>]</dateline>
                         </opener>
@@ -18875,9 +18876,10 @@
                                 <seg rendition="#center">[Inclosure.—Translation.]</seg>
                             </opener>
                             <opener>
-                                <dateline><placeName><hi rend="smallcaps">Berlin</hi></placeName>,
-                                        <date when="1871-12-20" calendar="gregorian"><hi
-                                            rend="italic">December</hi> 20, 1871</date>.</dateline>
+                                <dateline rendition="#right"><placeName><hi rend="smallcaps"
+                                            >Berlin</hi></placeName>, <date when="1871-12-20"
+                                        calendar="gregorian"><hi rend="italic">December</hi> 20,
+                                        1871</date>.</dateline>
                             </opener>
                             <p>The undersigned has the honor to acknowledge the receipt from the
                                 Envoy Extraordinary and Minister Plenipotentiary of the United
