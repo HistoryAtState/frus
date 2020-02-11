@@ -725,7 +725,7 @@
     <pattern id="japanese-nengō-calendar-checks">
         <rule context="tei:date[not(matches(@calendar, 'japanese-nengō'))]">
             <assert role="info"
-                test="not(.[matches(., 'An&#8217;ei|K[ōo]kaku|Tenmei|Kansei|Ky[ōo]waBunka|Nink[ōo]|Bunsei|Tenpō|Tenpo|Tenh[ōo]|Kōka|Koka|K[ōo]mei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Kei[ōo]|Meiji|Taishō|Taisho|Sh[ōo]wa|Heisei|Akihito', 'i')])"
+                test="not(.[matches(., 'An&#8217;ei|K[ōo]kaku|Tenmei|Kansei|Ky[ōo]waBunka|Nink[ōo]|Bunsei|Tenpō|Tenpo|Tenh[ōo]|Kōka|Koka|K[ōo]mei|Kaei|Ansei|Man&#8217;en|Bunkyū|Bunkyu|Genji|Kei[ōo]|Meiji|Taishō|Taisho|Sh[ōo]wa(\s+|,)|Heisei|Akihito', 'i')])"
                 sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
                 possibly indicating a Japanese nengō calendar reference.</assert>
 
@@ -1187,6 +1187,131 @@
                     </sqf:description>
                     <sqf:add node-type="attribute" target="calendar">rumi gregorian</sqf:add>
                 </sqf:fix>
+            </sqf:group>
+        </rule>
+    </pattern>
+
+    <!-- Thai Calendar Checks/Fixes -->
+    <pattern id="thai-era-calendar-checks">
+        <rule context="tei:date[not(matches(@calendar, 'thai-era'))]">
+            <assert role="info"
+                test="not(.[matches(., 'Thai|Rama\s+IV|Phrabat\s+Somdet\s+Phra\s+Paramenthra|Maha\s+Mongkut|Phra\s+Chom\s+Klao\s+Chao\s+Yu\s+Hua|Rama\s+V|Phrabat\s+Somdet\s+Phra\s+Paraminthra|Maha\s+Chulalongkorn|Phra\s+Chulachomklao\s+Chao\s+Yu\s+Hua|Phra\s+Piya\s+Maharaj|Rama\s+VI|Phrabat\s+Somdet\s+Phra\s+Paramenthra|Maha\s+Vajiravudh|Phra\s+Mongkut\s+Klao\s+Chao\s+Yu\s+Hua|Phra\s+Maha\s+Dhiraraj\s+Chao|Rama\s+VII|Phrabat\s+Somdet\s+Phra\s+Paraminthra|Maha\s+Prajadhipok|Phra\s+Pok\s+Klao\s+Chao\s+Yu\s+Hua|Rama VIII|Phrabat\s+Somdet\s+Phra\s+Paramenthra|Maha\s+Ananda\s+Mahidol|Phra\s+Atthama\s+Ramathibodin|Rama\s+IX|Phrabat\s+Somdet\s+Phra\s+Paraminthra|Maha\s+Bhumibol\s+Adulyadej|Siamindradhiraj\s+Borommanathbobitra|Somdet\s+Phra\s+Phatthara\s+Maharat|Rama\s+X|Somdet\s+Phra\s+Chao\s+Yu\s+Hua|Maha\s+Vajiralongkorn|Bodindradebayavarangkun', 'i')])"
+                sqf:fix="add-calendar-attributes">[FYI] This &lt;date&gt; has a word or phrase
+                possibly indicating a Thai era calendar reference.</assert>
+
+            <let name="calendar-value" value="string(./@calendar)"/>
+
+            <sqf:group id="add-calendar-attributes">
+
+                <!-- Add to existing @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="add-thai-era-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "thai-era" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('thai-era ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][matches(., 'moon', 'i')]"
+                    id="add-thai-era-thai-lunisolar-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "thai-era thai-lunisolar" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('thai-era thai-lunisolar ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][not(matches(@calendar, 'gregorian'))]"
+                    id="add-thai-era-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "thai-era gregorian" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of select="concat('thai-era gregorian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <sqf:fix
+                    use-when=".[@calendar][not(matches(@calendar, 'gregorian'))][matches(., 'moon', 'i')]"
+                    id="add-thai-era-thai-lunisolar-gregorian-to-existing-calendar">
+                    <sqf:description>
+                        <sqf:title>Add "thai-era thai-lunisolar" to existing @calendar</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">
+                        <value-of
+                            select="concat('thai-era thai-lunisolar gregorian ', $calendar-value)"/>
+                    </sqf:add>
+                </sqf:fix>
+
+                <!-- Replace @calendar -->
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-thai-era">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="thai-era"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">thai-era</sqf:add>
+                </sqf:fix>
+                <sqf:fix use-when=".[@calendar]" id="replace-calendar-attribute-thai-era-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="thai-era gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">thai-era gregorian</sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][matches(., 'moon', 'i')]"
+                    id="replace-calendar-attribute-thai-era-thai-lunisolar">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="thai-era
+                            thai-lunisolar"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">thai-era
+                        thai-lunisolar</sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[@calendar][matches(., 'moon', 'i')]"
+                    id="replace-calendar-attribute-thai-era-thai-lunisolar-gregorian">
+                    <sqf:description>
+                        <sqf:title>Replace @calendar with @calendar="thai-era thai-lunisolar
+                            gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">thai-era thai-lunisolar
+                        gregorian</sqf:add>
+                </sqf:fix>
+
+                <!-- Add new @calendar -->
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-thai-era">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="thai-era"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">thai-era</sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[not(@calendar)]" id="add-calendar-attribute-thai-era-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="thai-era gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">thai-era gregorian</sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[not(@calendar)][matches(., 'moon', 'i')]"
+                    id="add-calendar-attribute-thai-era-thai-lunisolar">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="thai-era thai-lunisolar"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">thai-era
+                        thai-lunisolar</sqf:add>
+                </sqf:fix>
+
+                <sqf:fix use-when=".[not(@calendar)][matches(., 'moon', 'i')]"
+                    id="add-calendar-attribute-thai-era-thai-lunisolar-gregorian">
+                    <sqf:description>
+                        <sqf:title>Add @calendar="thai-era thai-lunisolar gregorian"</sqf:title>
+                    </sqf:description>
+                    <sqf:add node-type="attribute" target="calendar">thai-era thai-lunisolar
+                        gregorian</sqf:add>
+                </sqf:fix>
+
             </sqf:group>
         </rule>
     </pattern>
