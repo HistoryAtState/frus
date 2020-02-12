@@ -790,8 +790,9 @@
                         </egXML>
                         <!-- Example 2: @when, parallel date statements, multiple @calendar values -->
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                            <date when="1904-03-09" calendar="chinese-era chinese-lunar gregorian"
-                                >Kuanghsü XXX year, first moon, 23d day. (March 9, 1904.)</date>
+                            <date when="1904-03-09"
+                                calendar="chinese-era chinese-lunisolar gregorian">Kuanghsü XXX
+                                year, first moon, 23d day. (March 9, 1904.)</date>
                         </egXML>
                         <!-- Example 3: @when, @calendar="hijri" only -->
                         <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -1504,7 +1505,7 @@
                             </attDef>
                         </attList>
                     </elementSpec>
-                    
+
                     <!-- 
                     constrain tei:date/@ana | @calendar
                     -->
@@ -1546,8 +1547,7 @@
                                         <gloss>The recorded date was determined to be an error by
                                             the FRUS compiler/editor, who indicated the corrected
                                             date at the time of original publication. Date value(s)
-                                            were corrected based on compiler/editor
-                                            notation</gloss>
+                                            were corrected based on compiler/editor notation</gloss>
                                     </valItem>
                                     <valItem ident="#date_imprecise-inferred-from-date-rules">
                                         <gloss>Imprecise date value(s) augmented with @notBefore and
@@ -1837,6 +1837,17 @@
                                             (Siam and, later, the Kingdom of Thailand).</gloss>
                                         <desc>FRUS example(s): “the 31st day of March, Ratanakosindr
                                             Sok, 123”</desc>
+                                    </valItem>
+                                    <valItem ident="thai-lunisolar">
+                                        <gloss>The Thai lunar calendar is a Buddhist lunisolar
+                                            calendar. In 1888, the Thai lunar calendar was replaced
+                                            by the Thai solar calendar as the legal calendar in
+                                            Thailand. It is currently used for calculating holy days
+                                            and other religious and traditional events.</gloss>
+                                        <desc>FRUS example(s): “Sunday, 6 of waxing moon, 11th
+                                            month, year of Rallit, 1st of the decade, 1241 of civil
+                                            era, corresponding to September 21, 1879, of Christian
+                                            era”</desc>
                                     </valItem>
                                     <valItem ident="tibetan-phugpa">
                                         <gloss>Introduced in 1447, the lunisolar Tibetan phugpa
