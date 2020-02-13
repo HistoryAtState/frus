@@ -23817,9 +23817,15 @@
                 <head>Case No. 3: The “C. H. White.”</head>
                 <pb n="[210]" xml:id="pg_210" facs="0230"/>
                 <pb n="211" xml:id="pg_211" facs="0231"/>
-                <div type="section" subtype="historical-document" xml:id="s03">
+                <div type="section" subtype="historical-document" xml:id="s03"
+                    frus:doc-dateTime-min="1892-05-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1899-03-26T23:59:59-05:00">
                     <opener>
-                        <seg rendition="#center">CASE No. 3.<lb/>The “C. H. White.”</seg>
+                        <seg rendition="#center">CASE No. 3.<lb/>The “C. H. White.”</seg><lb/>
+                        <dateline>[<date notBefore="1821-01-01T00:00:00"
+                                notAfter="1899-03-26T23:59:59" type="content-date"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>]</dateline>
                     </opener>
                     <head><hi rend="smallcaps">statement of the case.</hi></head>
                     <p>The <hi rend="italic">C. H. White</hi> was an American schooner, duly
@@ -27434,9 +27440,15 @@
                 <head>Case No. 4: The “Kate and Anna.”</head>
                 <pb n="[256]" xml:id="pg_256" facs="0278"/>
                 <pb n="257" xml:id="pg_257" facs="0279"/>
-                <div type="section" subtype="historical-document" xml:id="s04">
+                <div type="section" subtype="historical-document" xml:id="s04"
+                    frus:doc-dateTime-min="1820-12-31T16:30:00-05:00"
+                    frus:doc-dateTime-max="1899-03-25T16:29:59-05:00">
                     <opener>
-                        <seg rendition="#center">CASE NO. 4.<lb/>The “Kate and Anna.”</seg>
+                        <seg rendition="#center">CASE NO. 4.<lb/>The “Kate and Anna.”</seg><lb/>
+                        <dateline>[<date notBefore="1821-01-01T00:00:00+02:30"
+                                notAfter="1899-03-25T23:59:59+02:30" type="content-date"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>]</dateline>
                     </opener>
                     <head><hi rend="smallcaps">statement of the case.</hi></head>
                     <p>The <hi rend="italic">Kate and Anna</hi> was an American schooner owned and
@@ -30007,8 +30019,16 @@
                             anna</hi></hi></p>
                 <pb n="[284]" xml:id="pg_284" facs="0306"/>
                 <pb n="285" xml:id="pg_285" facs="0307"/>
-                <div type="section" subtype="historical-document" xml:id="s05">
+                <div type="section" subtype="historical-document" xml:id="s05"
+                    frus:doc-dateTime-min="1866-12-31T16:30:00-05:00"
+                    frus:doc-dateTime-max="1892-05-31T23:59:59-05:00">
                     <head>COUNTER MEMORANDUM.</head>
+                    <opener>
+                        <dateline>[<date notBefore="1867-01-01T00:00:00+02:30"
+                                notAfter="1892-05-31T23:59:59-05:00" type="content-date"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>]</dateline>
+                    </opener>
                     <p>The Imperial Russian Government, having taken cognizance of the data
                         contained in the memorandum presented by the United States Government to the
                         honorable arbitrator, Mr. Asser, has the honor to formulate the following
@@ -30108,8 +30128,16 @@
                         frus:doc-dateTime-min="1892-07-07T00:00:00-05:00"
                         frus:doc-dateTime-max="1892-09-29T23:59:59-05:00">
                         <head>FIRST CASE.</head>
-                        <div type="section" subtype="historical-document" xml:id="s05sub01">
+                        <div type="section" subtype="historical-document" xml:id="s05sub01"
+                            frus:doc-dateTime-min="1892-09-09T12:30:00-05:00"
+                            frus:doc-dateTime-max="1899-02-02T09:29:59-05:00">
                             <head>Seizure of the American whaling bark Cape Horn Pigeon.</head>
+                            <opener>
+                                <dateline>[<date notBefore="1892-09-10T03:00:00+09:30"
+                                        notAfter="1899-02-02T23:59:59+09:30" type="content-type"
+                                        ana="#date_undated-inferred-from-document-content"
+                                        >undated</date>]</dateline>
+                            </opener>
                             <p>The American whaler <hi rend="italic">Cape Horn Pigeon</hi> was
                                 seized in the Okhotsk Sea, and released at Vladivostok under the
                                 following circumstances:</p>
@@ -30761,9 +30789,17 @@
                         frus:doc-dateTime-min="1891-07-21T00:00:00-05:00"
                         frus:doc-dateTime-max="1892-08-03T23:59:59-05:00">
                         <head>SECOND CASE.</head>
-                        <div type="section" subtype="historical-document" xml:id="s05sub02">
+                        <div type="section" subtype="historical-document" xml:id="s05sub02"
+                            frus:doc-dateTime-min="1891-06-18T13:06:00-05:00"
+                            frus:doc-dateTime-max="1898-12-31T23:59:59-05:00">
                             <head>Seizure and confiscation of the schooner James Hamilton
                                 Lewis.</head>
+                            <opener>
+                                <dateline>[<date notBefore="1891-06-19T04:40:00+10:34"
+                                        notAfter="1898-12-31T23:59:59-05:00" type="content-date"
+                                        ana="#date_undated-inferred-from-document-content"
+                                        >undated</date>]</dateline>
+                            </opener>
                             <p>The American schooner <hi rend="italic">James Hamilton Lewis</hi> was
                                 detained and confiscated under the following circumstances:</p>
                             <p>On the 21st of July (August 2), at 4.40 a.m., from on board the screw
@@ -31538,9 +31574,17 @@
                         frus:doc-dateTime-min="1892-07-15T00:00:00-05:00"
                         frus:doc-dateTime-max="1901-03-24T23:59:59-05:00">
                         <head>THIRD CASE.</head>
-                        <div type="section" subtype="historical-document" xml:id="s05sub03">
+                        <div type="section" subtype="historical-document" xml:id="s05sub03"
+                            frus:doc-dateTime-min="1866-12-31T16:30:00-05:00"
+                            frus:doc-dateTime-max="1894-05-04T17:21:00-05:00">
                             <head>Detention and confiscation of the American schooner C. H.
                                 White.</head>
+                            <opener>
+                                <dateline>[<date notBefore="1867-01-01T00:00:00+02:30"
+                                        notAfter="1894-05-04T22:30:00+00:09" type="content-date"
+                                        ana="#date_undated-inferred-from-document-content"
+                                        >undated</date>]</dateline>
+                            </opener>
                             <p>The American schooner <hi rend="italic">C. H. White</hi> was detained
                                 and confiscated under the following circumstances:</p>
                             <p>On the 3d (15th) of July, 1892, at 10.30 p.m., the Russian cruiser
@@ -32039,9 +32083,17 @@
                         frus:doc-dateTime-min="1892-08-12T00:00:00-05:00"
                         frus:doc-dateTime-max="1892-08-23T23:59:59-05:00">
                         <head>FOURTH CASE.</head>
-                        <div type="section" subtype="historical-document" xml:id="s05sub04">
+                        <div type="document" subtype="historical-document" xml:id="s05sub04"
+                            frus:doc-dateTime-min="1892-08-10T08:26:00-05:00"
+                            frus:doc-dateTime-max="1893-12-31T08:25:59-05:00">
                             <head>Confiscation of sealskins from the American schooner Kate and
                                 Anna, detained in her course by the Russian cruiser Zabiaka.</head>
+                            <opener>
+                                <dateline>[<date notBefore="1892-08-11T00:00:00+10:34"
+                                        notAfter="1893-12-31T23:59:59+10:34" type="content-type"
+                                        ana="#date_undated-inferred-from-document-content"
+                                        >undated</date>]</dateline>
+                            </opener>
                             <p rend="center"><hi rend="smallcaps">statement of case.</hi></p>
                             <p>The American schooner <hi rend="italic">Kate and Anna</hi> was
                                 detained and afterwards permitted to continue her course under the
@@ -33559,15 +33611,14 @@
                                 <closer><signed><hi rend="smallcaps">C. S. Mereiwether</hi>, <hi
                                             rend="italic">Proctor for
                                     Libellant.</hi></signed></closer>
-                                <postscript>
-                                    <p>Filed February 18, 1896.</p>
-                                    <closer>
-                                        <signed><hi rend="smallcaps">L. B. Moseley</hi>, <hi
-                                                rend="italic">Clerk</hi>,<lb/>Per <hi
-                                                rend="smallcaps">C. Phelps</hi>, <hi rend="italic"
-                                                >Deputy Clerk.</hi></signed>
-                                    </closer>
-                                </postscript>
+                                <closer>
+                                    <dateline>Filed <date when="1896-02-18" calendar="gregorian"
+                                            >February 18, 1896</date>.</dateline><lb/>
+                                    <signed><hi rend="smallcaps">L. B. Moseley</hi>, <hi
+                                            rend="italic">Clerk</hi>,<lb/>Per <hi rend="smallcaps"
+                                            >C. Phelps</hi>, <hi rend="italic">Deputy
+                                        Clerk.</hi></signed>
+                                </closer>
                             </frus:attachment>
                             <frus:attachment>
                                 <p rend="center">United States of America, southern division of the
@@ -34586,8 +34637,16 @@
                 <pb n="345" xml:id="pg_345" facs="0369"/>
                 <div type="chapter" xml:id="ch5">
                     <head>FIRST CASE</head>
-                    <div type="section" subtype="historical-document" xml:id="s07">
+                    <div type="section" subtype="historical-document" xml:id="s07"
+                        frus:doc-dateTime-min="1873-12-31T23:56:00-05:00"
+                        frus:doc-dateTime-max="1892-09-21T16:29:59-05:00">
                         <head>The Cape Horn Pigeon.</head>
+                        <opener>
+                            <dateline>[<date notBefore="1874-01-01T00:00:00-04:56"
+                                    notAfter="1892-09-21T23:59:59+02:30" type="content-date"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>]</dateline>
+                        </opener>
                         <p>As the defendant party in the case of the seizure and detention of this
                             vessel recognizes that an indemnity is due, there remains but to settle
                             the amount of damage interest to be paid to the party claimant.</p>
@@ -34743,8 +34802,16 @@
                 <div type="chapter" xml:id="ch6" frus:doc-dateTime-min="1901-06-17T00:00:00-05:00"
                     frus:doc-dateTime-max="1901-06-17T23:59:59-05:00">
                     <head>SECOND CASE.</head>
-                    <div type="section" subtype="historical-document" xml:id="s08">
+                    <div type="section" subtype="historical-document" xml:id="s08"
+                        frus:doc-dateTime-min="1894-07-10T16:30:00-05:00"
+                        frus:doc-dateTime-max="1898-10-19T16:29:59-05:00">
                         <head>The James Hamilton Lewis.</head>
+                        <opener>
+                            <dateline>[<date notBefore="1894-07-11T00:00:00+02:30"
+                                    notAfter="1898-10-19T23:59:59+02:30" type="content-type"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>]</dateline>
+                        </opener>
                         <p>On the 18th (30th) of May, 1896, the Imperial Russian Government
                             presented to the United States diplomatic representative at St.
                             Petersburg a memorandum emanating from the imperial minister of the
@@ -35163,8 +35230,16 @@
                 <div type="chapter" xml:id="ch7" frus:doc-dateTime-min="1900-09-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1901-08-05T23:59:59-05:00">
                     <head>THIRD CASE.</head>
-                    <div type="section" subtype="historical-document" xml:id="s09">
+                    <div type="section" subtype="historical-document" xml:id="s09"
+                        frus:doc-dateTime-min="1892-07-15T06:56:00-05:00"
+                        frus:doc-dateTime-max="1892-07-15T06:56:00-05:00">
                         <head>The C. H. White.</head>
+                        <opener>
+                            <dateline>[<date notBefore="1892-07-15T22:30:00+10:34"
+                                    notAfter="1892-07-15T22:30:00+10:34" type="content-date"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>]</dateline>
+                        </opener>
                         <p>The exact position of the <hi rend="italic">C. H. White</hi> at the
                             moment of seizure is of small consequence. That is to say, it matters
                             little whether it was in 54° 10’or 54° 18’ latitude, since it is
@@ -35459,8 +35534,16 @@
                 <pb n="360" xml:id="pg_360" facs="0386"/>
                 <div type="chapter" xml:id="ch8">
                     <head>FOURTH CASE.</head>
-                    <div type="section" subtype="historical-document" xml:id="s10">
+                    <div type="section" subtype="historical-document" xml:id="s10"
+                        frus:doc-dateTime-min="1892-08-11T08:26:00-05:00"
+                        frus:doc-dateTime-max="1892-08-12T08:25:59-05:00">
                         <head>The Kate and Anna.</head>
+                        <opener>
+                            <dateline>[<date notBefore="1892-08-12T00:00:00+10:34"
+                                    notAfter="1892-08-12T23:59:59+10:34" type="content-date"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>]</dateline>
+                        </opener>
                         <p>In this case the defendant party does not dispute that an indemnity is
                             due to the owner of the vessel for the seal skins confiscated, but it
                             disagrees with the party claimant upon the price of the skins.</p>
@@ -35562,8 +35645,16 @@
                 <p rend="center">ST. PETERSBURG.</p>
                 <pb n="[364]" xml:id="pg_364" facs="0390"/>
                 <pb n="365" xml:id="pg_365" facs="0391"/>
-                <div type="section" subtype="historical-document" xml:id="s11">
+                <div type="section" subtype="historical-document" xml:id="s11"
+                    frus:doc-dateTime-min="1866-12-31T23:56:00-05:00"
+                    frus:doc-dateTime-max="1900-09-08T16:29:59-05:00">
                     <head><hi rend="smallcaps">Surrejoinder of the party defendant</hi>.</head>
+                    <opener>
+                        <dateline>[<date notBefore="1867-01-01T00:00:00-04:56"
+                                notAfter="1900-09-08T23:59:59+02:30" type="content-type"
+                                ana="#date_undated-inferred-from-document-content"
+                            >undated</date>]</dateline>
+                    </opener>
                     <p>The Imperial Russian Government having noted the rejoinder of the party
                         claimant to the Russian counter memorandum in the affairs of the American
                         vessels, <hi rend="italic">Cape Horn Pigeon, James Hamilton Lewis, C. H.
@@ -36009,9 +36100,16 @@
                         memorandum, rejecting the other parts of the demands formulated in the
                         American memorandum, and again submits itself it this respect to the
                         equitable judgment of the arbitrator.</p>
-                    <div type="document" subtype="historical-document" n="161" xml:id="d161">
+                    <div type="document" subtype="historical-document" n="161" xml:id="d161"
+                        frus:doc-dateTime-min="1893-08-14T18:51:00-05:00"
+                        frus:doc-dateTime-max="1894-05-12T23:59:59-05:00">
                         <head>EXHIBIT A.</head>
-                        <opener><seg rendition="#center">[English version.]</seg></opener>
+                        <opener><seg rendition="#center">[English version.]</seg><lb/>
+                            <dateline>[<date notBefore="1893-08-15T00:00:00+00:09"
+                                    notAfter="1894-05-12T23:59:59-05:00"
+                                    ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                    calendar="gregorian">undated</date>]</dateline>
+                        </opener>
                         <p rend="flushleft"><hi rend="smallcaps">Award of the Tribunal of
                                 Arbitration Constituted under the Treaty Concluded at Washington,
                                 the</hi> 29<hi rend="smallcaps">th of February</hi>, 1892, <hi
@@ -36610,11 +36708,13 @@
                                 Gregers Gram, the respective minorities not withdrawing their votes,
                                 do declare this to be the final decision and award in writing of
                                 this tribunal in accordance with the treaty.</p>
-                            <p>Made in duplicate at Paris and signed by us the fifteenth day of
-                                August, in the year 1893.</p>
-                            <p>And we do certify this English version thereof to be true and
-                                accurate.</p>
-                            <closer><signed>
+                            <closer>
+                                <dateline rendition="#left">Made in duplicate at
+                                        <placeName>Paris</placeName> and signed by us <date
+                                        when="1893-08-15" calendar="gregorian">the fifteenth day of
+                                        August, in the year 1893</date>.</dateline><lb/> And we do
+                                certify this English version thereof to be true and accurate.<lb/>
+                                <signed>
                                     <list>
                                         <item><hi rend="smallcaps">Alph. de Courcel</hi>.</item>
                                         <item><hi rend="smallcaps">John M. Harlan.</hi></item>
@@ -37212,8 +37312,15 @@
                                 an agreement of this nature are not terminated.</p>
                         </frus:attachment>
                     </div>
-                    <div type="document" subtype="historical-document" n="166" xml:id="d166">
+                    <div type="document" subtype="historical-document" n="166" xml:id="d166"
+                        frus:doc-dateTime-min="1893-02-24T00:00:00-05:00"
+                        frus:doc-dateTime-max="1893-02-24T23:59:59-05:00">
                         <head>EXHIBIT A A.</head>
+                        <opener>
+                            <dateline>[<date when="1893-02-24" calendar="julian"
+                                    ana="#date_undated-inferred-from-document-content">February 12,
+                                    1893</date>]</dateline>
+                        </opener>
                         <p rend="center"><hi rend="smallcaps">Copy of a Note from the Privy
                                 Counselor Chichkine to the British Ambassador at St. Petersburg
                                 dated February</hi> 12, 1893, No. 509.</p>
@@ -38096,10 +38203,19 @@
                     </div>
                 </div>
                 <pb n="396" xml:id="pg_396" facs="0422"/>
-                <div type="chapter" xml:id="ch9">
+                <div type="chapter" xml:id="ch9" frus:doc-dateTime-min="1880-12-31T10:13:00-05:00"
+                    frus:doc-dateTime-max="1881-12-31T10:12:59-05:00">
                     <head>CASE I.</head>
-                    <div type="section" subtype="historical-document" xml:id="s12">
+                    <div type="document" subtype="historical-document" xml:id="s12"
+                        frus:doc-dateTime-min="1881-01-01T00:00:00-05:00"
+                        frus:doc-dateTime-max="1892-09-27T10:12:59-05:00">
                         <head>The “Cape Horn Pigeon.”</head>
+                        <opener>
+                            <dateline>[<date notBefore="1881-01-01T00:00:00"
+                                    notAfter="1892-09-27T23:59:59+08:47" type="content-type"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>]</dateline>
+                        </opener>
                         <p>In the first case, as in those following, the defendant party refers to
                             the arguments submitted above to the honorable arbitrator in the present
                             rejoinder and its annexes and maintains the same conclusions developed
@@ -38167,8 +38283,16 @@
                             claimant can not do otherwise than recognize; consequently the defendant
                             party invokes in this place the adage, qui jure suo utitur, neminem
                             loedit.</p>
-                        <div type="document" subtype="historical-document" n="174" xml:id="d174">
+                        <div type="document" subtype="historical-document" n="174" xml:id="d174"
+                            frus:doc-dateTime-min="1880-12-31T16:30:00-05:00"
+                            frus:doc-dateTime-max="1881-12-31T10:12:59-05:00">
                             <head>EXHIBIT F.</head>
+                            <opener>
+                                <dateline>[<date notBefore="1881-01-01T00:00:00+02:30"
+                                        notAfter="1881-12-31T23:59:59+08:47"
+                                        ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                                        calendar="gregorian">undated</date>]</dateline>
+                            </opener>
                             <p rend="center"><hi rend="smallcaps">Notice.</hi></p>
                             <p>The Russian Imperial Government hereby publishes for general
                                 knowledge the following: <list>
@@ -38211,8 +38335,16 @@
                 <div type="chapter" xml:id="ch10" frus:doc-dateTime-min="1889-03-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1889-06-08T23:59:59-05:00">
                     <head>CASE II.</head>
-                    <div type="section" subtype="historical-document" xml:id="s13">
+                    <div type="section" subtype="historical-document" xml:id="s13"
+                        frus:doc-dateTime-min="1868-12-31T23:56:00-05:00"
+                        frus:doc-dateTime-max="1893-12-31T18:59:59-05:00">
                         <head>The “James Hamilton Lewis.”</head>
+                        <opener>
+                            <dateline>[<date notBefore="1869-01-01T00:00:00-04:56"
+                                    notAfter="1893-12-31T23:59:59+00:00" type="content-date"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>]</dateline>
+                        </opener>
                         <p>With regard to the second case, the defendant party states, first, that
                             the party claimant insists upon the distance from the coast at which the
                             seizure occurred. But it is a point which the defendant party believes
@@ -38471,8 +38603,16 @@
                 <pb n="402" xml:id="pg_402" facs="0428"/>
                 <div type="chapter" xml:id="ch11">
                     <head>CASE III.</head>
-                    <div type="section" subtype="historical-document" xml:id="s14">
+                    <div type="section" subtype="historical-document" xml:id="s14"
+                        frus:doc-dateTime-min="1880-12-31T16:30:00-05:00"
+                        frus:doc-dateTime-max="1889-12-31T23:55:59-05:00">
                         <head>The “C. H. White.’</head>
+                        <opener>
+                            <dateline>[<date notBefore="1881-01-01T00:00:00+02:30"
+                                    notAfter="1889-12-31T23:59:59-04:56" type="content-type"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>]</dateline>
+                        </opener>
                         <p>With reference to the third case, the defendant party also sets forth
                             that the affair presents itself as a difference arising between the two
                             Governments in opposition to the bilateral understandings entered upon
@@ -38548,8 +38688,16 @@
                 <pb n="404" xml:id="pg_404" facs="0430"/>
                 <div type="chapter" xml:id="ch12">
                     <head>CASE IV.</head>
-                    <div type="section" subtype="historical-document" xml:id="s15">
+                    <div type="section" subtype="historical-document" xml:id="s15"
+                        frus:doc-dateTime-min="1899-03-24T16:30:00-05:00"
+                        frus:doc-dateTime-max="1899-03-25T16:29:59-05:00">
                         <head>“Kate and Anna.”</head>
+                        <opener>
+                            <dateline>[<date notBefore="1899-03-25T00:00:00+02:30"
+                                    notAfter="1899-03-25T23:59:59+02:30" type="content-date"
+                                    ana="#date_undated-inferred-from-document-content"
+                                    >undated</date>]</dateline>
+                        </opener>
                         <p>The defendant party in its counter memorandum set forth the reasons why
                             it feels obliged to pay for the 124 seal skins confiscated from, the <hi
                                 rend="italic">Kate and Anna</hi> a sum of $1,240, with interest at 6
