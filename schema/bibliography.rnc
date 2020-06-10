@@ -95,8 +95,14 @@ start =
               ## Reagan
               "reagan"
             | 
-              ## Bush
+              ## Bush, G.H.W.
               "bush-41"
+            | 
+              ## Clinton
+              "clinton"
+            | 
+              ## Bush, G.W.
+              "bush-43"
         }+,
         element grouping {
             attribute administration {
@@ -126,8 +132,14 @@ start =
                        ## Reagan
                        "reagan"
                      | 
-                       ## Bush
-                       "bush-41")+
+                       ## Bush, G.H.W.
+                       "bush-41"
+                     | 
+                       ## Clinton
+                       "clinton"
+                     | 
+                       ## Bush, G.W.
+                       "bush-43")+
                 }
             },
             xsd:NCName
