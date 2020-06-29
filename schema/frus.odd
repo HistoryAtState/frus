@@ -1507,7 +1507,7 @@
                     </elementSpec>
 
                     <!-- 
-                    constrain tei:date/@ana | @calendar
+                    constrain tei:date/@ana | @calendar | @type
                     -->
                     <elementSpec ident="date" module="core" mode="change">
                         <attList>
@@ -1873,9 +1873,63 @@
                                     </valItem>
                                 </valList>
                             </attDef>
+
+                            <attDef ident="type" usage="opt" mode="replace">
+                                <desc>Restrict @type values for tei:date elements</desc>
+                                <valList type="closed">
+                                    <valItem ident="content-date">
+                                        <gloss>When a document is undated and the creation date
+                                            cannot be adequately determined, the content date or
+                                            date ranges (exact or estimated) may be used. Content
+                                            dates may also be used for documents such as travel
+                                            logs, as well as for editorial notes.</gloss>
+                                        <desc>FRUS example(s): &lt;dateline&gt;[&lt;date
+                                            from="1908-05-01" to="1908-05-25"
+                                            ana="#date_undated-inferred-from-document-content"
+                                            type="content-date" calendar="gregorian"
+                                            &gt;undated&lt;/date&gt;]&lt;/dateline&gt;</desc>
+                                    </valItem>
+                                    <valItem ident="conversation-or-meeting-date">
+                                        <gloss>For memcons [memoranda of conversation], meeting
+                                            notes, and undated aides-memoires, the date of the
+                                            conversation or meeting should be used, when
+                                            determined.</gloss>
+                                        <desc>FRUS example(s): &lt;date when="1958-03-17"
+                                            type="conversation-or-meeting-date"
+                                            calendar="gregorian"&gt;&lt;hi rend="italic"&gt;March
+                                            17, 1958&lt;/hi&gt;&lt;/date&gt;</desc>
+                                    </valItem>
+                                    <valItem ident="creation-date">
+                                        <gloss/>
+                                        <desc/>
+                                    </valItem>
+                                    <valItem ident="publication-date">
+                                        <gloss>For published works such as newspaper articles,
+                                            periodicals, or monograph excerpts, the date of
+                                            publication can be used and specified.</gloss>
+                                        <desc>FRUS example(s): &lt;date when="1977-01-20"
+                                            ana="#date_undated-inferred-from-document-content"
+                                            type="publication-date"
+                                            calendar="gregorian"&gt;undated&lt;/date&gt;</desc>
+                                    </valItem>
+                                    <valItem ident="received-date">
+                                        <gloss>For certain documents in the backlog (chiefly
+                                            attachments), the explicitly stated received date may be
+                                            the most precise date that can be applied and should be
+                                            specified as such.</gloss>
+                                        <desc>FRUS example(s): &lt;dateline
+                                            rendition="#center"&gt;[Copy of a telegram from the
+                                            minister of foreign affairs at &lt;placeName&gt;The
+                                            Hague&lt;/placeName&gt;, received &lt;date
+                                            when="1898-02-17"
+                                            type="received-date"=calendar="gregorian"&gt;February
+                                            17, 1898&lt;/date&gt;, by the minister of the
+                                            Netherlands, at Washington.]&lt;/dateline&gt;</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
                         </attList>
                     </elementSpec>
-
 
                     <!-- 
                     constrain tei:head/@ana
