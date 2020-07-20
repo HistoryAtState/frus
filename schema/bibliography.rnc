@@ -71,75 +71,171 @@ start =
         element published-date { xsd:date? },
         element administration {
             
-            ## pre-Truman
+            ## Legacy value used for Foreign Relations volumes from the pre-Truman Period
             "pre-truman"
             | 
-              ## Truman
+              ## Abraham Lincoln Administration (1861–1865)
+              "lincoln"
+            | 
+              ## Andrew Johnson Administration (1865–1869)
+              "johnson-a"
+            | 
+              ## Ulysses S. Grant Administration (1869–1877)
+              "grant"
+            | 
+              ## Rutherford B. Hayes Administration (1877–1881)
+              "hayes"
+            | 
+              ## James A. Garfield Administration (1881)
+              "garfield"
+            | 
+              ## Chester A. Arthur Administration (1881–1885)
+              "arthur"
+            | 
+              ## Grover Cleveland Administration (1885–1889)
+              "cleveland-22"
+            | 
+              ## Benjamin Harrison Administration (1889–1893)
+              "harrison"
+            | 
+              ## Grover Cleveland Administration (1893–1897)
+              "cleveland-24"
+            | 
+              ## William McKinley Administration (1897–1901)
+              "mckinley"
+            | 
+              ## Theodore Roosevelt Administration (1901–1909)
+              "roosevelt-t"
+            | 
+              ## William H. Taft Administration (1909–1913)
+              "taft"
+            | 
+              ## Woodrow Wilson Administration (1913–1921)
+              "wilson"
+            | 
+              ## Warren G. Harding Administration (1921–1923)
+              "harding"
+            | 
+              ## Calvin Coolidge Administration (1923–1929)
+              "coolidge"
+            | 
+              ## Herbert C. Hoover Administration (1929–1933)
+              "hoover"
+            | 
+              ## Franklin D. Roosevelt Administration (1933–1945)
+              "roosevelt-fd"
+            | 
+              ## Harry S. Truman Administration (1945–1952)
               "truman"
             | 
-              ## Eisenhower
+              ## Dwight D. Eisenhower Administration (1953–1960)
               "eisenhower"
             | 
-              ## Kennedy
+              ## John F. Kennedy Administration (1961–1963)
               "kennedy"
             | 
-              ## Johnson
+              ## Lyndon B. Johnson Administration (1964–1968)
               "johnson"
             | 
-              ## Nixon-Ford
+              ## Richard M. Nixon and Gerald R. Ford Administrations (1969–1976)
               "nixon-ford"
             | 
-              ## Carter
+              ## Jimmy Carter Administration (1977–1980)
               "carter"
             | 
-              ## Reagan
+              ## Ronald Reagan Administration (1981–1988)
               "reagan"
             | 
-              ## Bush, G.H.W.
-              "bush-41"
+              ## George H.W. Bush Administration (1989–1992)
+              "bush-ghw"
             | 
-              ## Clinton
+              ## William J. Clinton Administration (1993–2000)
               "clinton"
-            | 
-              ## Bush, G.W.
-              "bush-43"
         }+,
         element grouping {
             attribute administration {
                 list {
                     (
-                     ## pre-Truman
+                     ## Legacy value used for Foreign Relations volumes from the pre-Truman Period
                      "pre-truman"
                      | 
-                       ## Truman
+                       ## Abraham Lincoln Administration (1861–1865)
+                       "lincoln"
+                     | 
+                       ## Andrew Johnson Administration (1865–1869)
+                       "johnson-a"
+                     | 
+                       ## Ulysses S. Grant Administration (1869–1877)
+                       "grant"
+                     | 
+                       ## Rutherford B. Hayes Administration (1877–1881)
+                       "hayes"
+                     | 
+                       ## James A. Garfield Administration (1881)
+                       "garfield"
+                     | 
+                       ## Chester A. Arthur Administration (1881–1885)
+                       "arthur"
+                     | 
+                       ## Grover Cleveland Administration (1885–1889)
+                       "cleveland-22"
+                     | 
+                       ## Benjamin Harrison Administration (1889–1893)
+                       "harrison"
+                     | 
+                       ## Grover Cleveland Administration (1893–1897)
+                       "cleveland-24"
+                     | 
+                       ## William McKinley Administration (1897–1901)
+                       "mckinley"
+                     | 
+                       ## Theodore Roosevelt Administration (1901–1909)
+                       "roosevelt-t"
+                     | 
+                       ## William H. Taft Administration (1909–1913)
+                       "taft"
+                     | 
+                       ## Woodrow Wilson Administration (1913–1921)
+                       "wilson"
+                     | 
+                       ## Warren G. Harding Administration (1921–1923)
+                       "harding"
+                     | 
+                       ## Calvin Coolidge Administration (1923–1929)
+                       "coolidge"
+                     | 
+                       ## Herbert C. Hoover Administration (1929–1933)
+                       "hoover"
+                     | 
+                       ## Franklin D. Roosevelt Administration (1933–1945)
+                       "roosevelt-fd"
+                     | 
+                       ## Harry S. Truman Administration (1945–1952)
                        "truman"
                      | 
-                       ## Eisenhower
+                       ## Dwight D. Eisenhower Administration (1953–1960)
                        "eisenhower"
                      | 
-                       ## Kennedy
+                       ## John F. Kennedy Administration (1961–1963)
                        "kennedy"
                      | 
-                       ## Johnson
+                       ## Lyndon B. Johnson Administration (1964–1968)
                        "johnson"
                      | 
-                       ## Nixon-Ford
+                       ## Richard M. Nixon and Gerald R. Ford Administrations (1969–1976)
                        "nixon-ford"
                      | 
-                       ## Carter
+                       ## Jimmy Carter Administration (1977–1980)
                        "carter"
                      | 
-                       ## Reagan
+                       ## Ronald Reagan Administration (1981–1988)
                        "reagan"
                      | 
-                       ## Bush, G.H.W.
-                       "bush-41"
+                       ## George H.W. Bush Administration (1989–1992)
+                       "bush-ghw"
                      | 
-                       ## Clinton
-                       "clinton"
-                     | 
-                       ## Bush, G.W.
-                       "bush-43")+
+                       ## William J. Clinton Administration (1993–2000)
+                       "clinton")+
                 }
             },
             xsd:NCName
