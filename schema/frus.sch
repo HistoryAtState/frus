@@ -463,6 +463,29 @@
                     select="$source-note-content"/></assert>
         </rule>
     </pattern>
+    
+    <pattern id="milestone-checks">
+        <title>Milestone checks</title>
+        <rule
+            context="(tei:pb | tei:lb)[parent::element()/local-name() = ('div','p','table','cell','item','quote','signed','attachment')]">
+            <assert
+                test="count(preceding-sibling::element()) ge 1 or normalize-space(string-join(preceding-sibling::node())) ne ''"
+                >An lb or pb may not be the first element in a div, p, table, cell, item, quote, signed, or frus:attachment.</assert>
+            <assert
+                test="count(following-sibling::element()) ge 1 or normalize-space(string-join(following-sibling::node())) ne ''"
+                >An lb or pb may not be the last element in a div, p, table, cell, item, quote, signed, or frus:attachment.</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="footnote-whitespace-checks">
+        <title>Footnote whitespace checks</title>
+        <rule context="tei:note[not(@rend eq 'inline')]">
+            <let name="first-preceding-sibling-node" value="preceding-sibling::node()[1]"/>
+            <assert
+                test="if ($first-preceding-sibling-node instance of text()) then normalize-space($first-preceding-sibling-node) ne '' else true()"
+                >Whitespace is not allowed before a footnote</assert>
+        </rule>
+    </pattern>
 
     <pattern id="image-url-checks">
         <title>Image Checks</title>
