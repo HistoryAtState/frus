@@ -486,6 +486,21 @@
                 >Whitespace is not allowed before a footnote</assert>
         </rule>
     </pattern>
+    
+    <pattern id="curly-quote-checks">
+        <title>Curly quote checks</title>
+        <rule context="text()">
+            <assert role="warn" test="not(matches(., '[“‘] '))">Check the curly open quotation mark
+                in "<value-of
+                    select="analyze-string(normalize-space(.), '.{0,10}[“‘] .{0,10}')/fn:match"/>".
+                It may be incorrectly oriented or have an extra trailing space.</assert>
+            <!-- note that we do not raise warnings for abbreviated numbers, like ’70s -->
+            <assert role="warn" test="not(matches(., ' [”’][^\d]'))">Check the curly close quotation
+                mark in "<value-of
+                    select="analyze-string(normalize-space(.), '.{0,10} [”’][^\d].{0,10}')/fn:match"
+                />". It may be incorrectly oriented or have an extra leading space.</assert>
+        </rule>
+    </pattern>
 
     <pattern id="image-url-checks">
         <title>Image Checks</title>
