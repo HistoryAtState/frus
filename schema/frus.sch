@@ -467,13 +467,13 @@
     <pattern id="milestone-checks">
         <title>Milestone checks</title>
         <rule
-            context="(tei:pb | tei:lb)[parent::element()/local-name() = ('div','p','table','cell','item','quote','signed','attachment')]">
+            context="(tei:pb | tei:lb)[parent::element()/local-name() = ('div','head','p','table','cell','list','item','quote','signed','attachment')]">
             <assert
                 test="count(preceding-sibling::element()) ge 1 or normalize-space(string-join(preceding-sibling::node())) ne ''"
-                >An lb or pb may not be the first element in a div, p, table, cell, item, quote, signed, or frus:attachment.</assert>
+                >An lb or pb may not be the first element in a div, head, p, table, cell, list, item, quote, signed, or frus:attachment.</assert>
             <assert
                 test="count(following-sibling::element()) ge 1 or normalize-space(string-join(following-sibling::node())) ne ''"
-                >An lb or pb may not be the last element in a div, p, table, cell, item, quote, signed, or frus:attachment.</assert>
+                >An lb or pb may not be the last element in a div, head, p, table, cell, list, item, quote, signed, or frus:attachment.</assert>
         </rule>
     </pattern>
     
