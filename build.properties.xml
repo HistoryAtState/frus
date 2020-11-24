@@ -6,14 +6,4 @@
         <title>FRUS (data)</title>
         <version>0.5.1</version>
     </app>
-    <trigger>
-        <provider-url>
-            <dev>failover:tcp://10.0.1.114:61616</dev>
-            <prod>failover:tcp://10.0.1.131:61616</prod>
-        </provider-url>
-        <destination>
-            <dev>dynamicTopics/hsg-replication</dev>
-            <prod>dynamicTopics/hsg-replication</prod>
-        </destination>
-    </trigger>
 </root>
