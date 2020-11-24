@@ -19,14 +19,20 @@
         <echo message="Apply values to expath-pkg.xml..."/>
         <copy todir="${basedir}" overwrite="true" verbose="true">
             <fileset file="*.xml.tmpl"/>
-            <filterset>
-                <filter token="name" value="${app.name}"/>
-                <filter token="version" value="${app.version}"/>
-                <filter token="url" value="${app.url}"/>
-                <filter token="title" value="${app.title}"/>
-                <filter token="commit-id" value="${git.revision}"/>
-                <filter token="commit-time" value="${git.time}"/>
-            </filterset>
+            <filterchain>
+                <replacetokens>
+                    <token key="name" value="${app.name}"/>
+                    <token key="version" value="${app.version}"/>
+                    <token key="url" value="${app.url}"/>
+                    <token key="title" value="${app.title}"/>
+                    <token key="commit-id" value="${git.revision}"/>
+                    <token key="commit-time" value="${git.time}"/>
+                </replacetokens>
+                <tokenfilter>
+                    <!-- until we move template processing to XSLT, take care with reserved characters -->
+                    <replacestring from="&amp;" to="&amp;amp;"/>
+                </tokenfilter>
+            </filterchain>
             <globmapper from="*.tmpl" to="*"/>
         </copy>
 
