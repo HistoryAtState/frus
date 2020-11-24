@@ -77,6 +77,15 @@ return
         
         (: 5. move leading/trailing pb/lb element outside of block, text-bearing elements :)
         
+        (: <p><pb/></p> -> <pb/><p/> :)
+        for $elem in $vol//(tei:item|tei:quote|tei:p|tei:table|frus:attachment|tei:div|tei:signed)[node()[1][. instance of element(tei:lb) or . instance of element(tei:pb)]]
+        return
+            (
+                insert node $elem/node()[1] before $elem,
+                delete node $elem/node()[1]
+            )
+        ,
+        (: <p> <pb/></p> -> <pb/><p/> :)
         for $elem in $vol//(tei:item|tei:quote|tei:p|tei:table|frus:attachment|tei:div|tei:signed)[node()[1][. instance of text() and normalize-space(.) eq ""] and node()[2][. instance of element(tei:lb) or . instance of element(tei:pb)]]
         return
             (
@@ -84,6 +93,15 @@ return
                 delete node $elem/node()[2]
             )
         ,
+        (: <p>hello<pb/></p> -> <p>hello</p><pb/> :)
+        for $elem in $vol//(tei:item|tei:quote|tei:p|tei:table|frus:attachment|tei:div|tei:signed)[count(node()) gt 1 and node()[last()][. instance of element(tei:lb) or . instance of element(tei:pb)]]
+        return
+            (
+                insert node $elem/node()[position() eq last()] after $elem,
+                delete node $elem/node()[position() eq last()]
+            )
+        ,
+        (: <p>hello<pb/> </p> -> <p>hello</p><pb/> :)
         for $elem in $vol//(tei:item|tei:quote|tei:p|tei:table|frus:attachment|tei:div|tei:signed)[count(node()) gt 2 and node()[last()][. instance of text() and normalize-space(.) eq ""]][node()[position() eq last() - 1][. instance of element(tei:lb) or . instance of element(tei:pb)]]
         return
             (
