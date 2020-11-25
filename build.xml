@@ -1,140 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="xar" name="frus">
+<project default="xar" name="frus" basedir=".">
     <xmlproperty file="build.properties.xml" semanticAttributes="true" keepRoot="false"/>
     <property name="build.dir" value="build"/>
-    
+    <property name="git.repo.path" value="${basedir}/.git"/>
+    <available file="${git.repo.path}" type="dir" property="git.present"/>
+
     <target name="clean">
         <echo message="Deleting xar files..."/>
-        <delete dir="${build.dir}"/>
+        <delete dir="${build.dir}" failonerror="false"/>
+        <delete file="${basedir}/expath-pkg.xml" failonerror="false"/>
+        <delete file="${basedir}/repo.xml" failonerror="false"/>
     </target>
     
-    <target name="prepare">
+    <target name="xar" depends="clean,git.revision" description="create xar file">
         <echo message="Creating build folder..."/>
         <mkdir dir="${build.dir}"/>
-    </target>
-    
-    <target name="copy">
-        <echo message="Copying the files to the build folder..."/>
-        <copy todir="${build.dir}/${app.name}-${app.version}">
-            <fileset dir="${basedir}">
-                <exclude name="${build.dir}/**"/>
-            </fileset>
-        </copy>
-    </target>
-    
-    <target name="apply-filters-to-expath-pkg">
+
         <echo message="Apply values to expath-pkg.xml..."/>
-        <copy todir="${build.dir}/${app.name}-${app.version}" overwrite="true" verbose="true">
-            <fileset file="expath-pkg.xml.tmpl"/>
-            <filterset>
-                <filter token="name" value="${app.name}"/>
-                <filter token="version" value="${app.version}"/>
-                <filter token="url" value="${app.url}"/>
-                <filter token="title" value="${app.title}"/>
-            </filterset>
+        <copy todir="${basedir}" overwrite="true" verbose="true">
+            <fileset file="*.xml.tmpl"/>
+            <filterchain>
+                <replacetokens>
+                    <token key="name" value="${app.name}"/>
+                    <token key="version" value="${app.version}"/>
+                    <token key="url" value="${app.url}"/>
+                    <token key="title" value="${app.title}"/>
+                    <token key="commit-id" value="${git.revision}"/>
+                    <token key="commit-time" value="${git.time}"/>
+                </replacetokens>
+                <tokenfilter>
+                    <!-- until we move template processing to XSLT, take care with reserved characters -->
+                    <replacestring from="&amp;" to="&amp;amp;"/>
+                </tokenfilter>
+            </filterchain>
             <globmapper from="*.tmpl" to="*"/>
         </copy>
-    </target>
-    
-    <target name="apply-filters-to-producer-dev">
-        <echo message="Apply DEV values to code-tables.xconf, bibliography.xconf and volumes.xconf..."/>
-        <copy todir="${build.dir}/${app.name}-${app.version}" overwrite="true" verbose="true">
-            <fileset file="code-tables.xconf.tmpl"/>
-            <fileset file="bibliography.xconf.tmpl"/>
-            <fileset file="volumes.xconf.tmpl"/>
-            <fileset file="expath-pkg.xml.tmpl"/>
-            <filterset>
-                <filter token="provider-url" value="${trigger.provider-url.dev}"/>
-                <filter token="destination" value="${trigger.destination.dev}"/>
-                <filter token="name" value="${app.name}"/>
-                <filter token="version" value="${app.version}"/>
-                <filter token="url" value="${app.url}"/>
-                <filter token="title" value="${app.title}"/>
-            </filterset>
-            <globmapper from="*.tmpl" to="*"/>
-        </copy>
-    </target>
-    
-    <target name="apply-filters-to-producer-prod">
-        <echo message="Apply PROD values to code-tables.xconf, bibliography.xconf and volumes.xconf..."/>
-        <copy todir="${build.dir}/${app.name}-${app.version}" overwrite="true" verbose="true">
-            <fileset file="code-tables.xconf.tmpl"/>
-            <fileset file="bibliography.xconf.tmpl"/>
-            <fileset file="volumes.xconf.tmpl"/>
-            <fileset file="expath-pkg.xml.tmpl"/>
-            <filterset>
-                <filter token="provider-url" value="${trigger.provider-url.prod}"/>
-                <filter token="destination" value="${trigger.destination.prod}"/>
-                <filter token="name" value="${app.name}"/>
-                <filter token="version" value="${app.version}"/>
-                <filter token="url" value="${app.url}"/>
-                <filter token="title" value="${app.title}"/>
-            </filterset>
-            <globmapper from="*.tmpl" to="*"/>
-        </copy>
-    </target>
-    
-    <target name="xar-dev" depends="clean,prepare" description="create xar files for DEV environment">
-        <antcall target="copy"/>
-        <antcall target="apply-filters-to-expath-pkg"/>
-        <echo message="------------------------------------------------------------"/>
-        <echo message="Creating DEV 'consumer' xar file..."/>
-        <echo message="------------------------------------------------------------"/>
-        
-        <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}-consumer-dev.xar">
-            <exclude name="${build.dir}/**"/>
-            <exclude name="**/*.tmpl"/>
-        </zip>
-        
-        <antcall target="apply-filters-to-producer-dev"/>
-        
-        <echo message="------------------------------------------------------------"/>
-        <echo message="Creating DEV 'producer' xar file containing triggers..."/>
-        <echo message="------------------------------------------------------------"/>
-        
-        <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}-producer-dev.xar">
-            <exclude name="**/*.tmpl"/>
-        </zip>
-        <delete dir="${build.dir}/${app.name}-${app.version}"/>
-    </target>
-    
-    <target name="xar-prod" depends="clean,prepare" description="create xar files for PROD environment">
-        <antcall target="copy"/>
-        <antcall target="apply-filters-to-expath-pkg"/>
-        
-        <echo message="------------------------------------------------------------"/>
-        <echo message="Creating PROD 'consumer' xar file..."/>
-        <echo message="------------------------------------------------------------"/>
-        
-        <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}-consumer.xar">
-            <exclude name="${build.dir}/**"/>
-            <exclude name="**/*.tmpl"/>
-        </zip>
-        
-        <antcall target="apply-filters-to-producer-prod"/>
-        
-        <echo message="------------------------------------------------------------"/>
-        <echo message="Creating PROD 'producer' xar file containing triggers..."/>
-        <echo message="------------------------------------------------------------"/>
-        
-        <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}-producer.xar">
-            <exclude name="${build.dir}/**"/>
-            <exclude name="**/*.tmpl"/>
-        </zip>
-        <delete dir="${build.dir}/${app.name}-${app.version}"/>
-    </target>
-    
-    <target name="xar" depends="clean,prepare" description="create xar file">
-        <antcall target="copy"/>
-        <antcall target="apply-filters-to-expath-pkg"/>
+
         <echo message="------------------------------------------------------------"/>
         <echo message="Creating xar file..."/>
         <echo message="------------------------------------------------------------"/>
         
-        <zip basedir="${build.dir}/${app.name}-${app.version}" destfile="${build.dir}/${app.name}-${app.version}.xar">
+        <zip basedir="${basedir}" destfile="${build.dir}/${app.name}-${app.version}.xar">
             <exclude name="${build.dir}/**"/>
-            <exclude name="**/*.tmpl"/>
-        </zip>
-        <delete dir="${build.dir}/${app.name}-${app.version}"/>
+            <exclude name="*.tmpl"/>
+        </zip>        
     </target>
+
+    <target name="git.revision" description="Store git revision in ${repository.version}" if="git.present">
+        <exec executable="git" outputproperty="git.revision" failifexecutionfails="false" errorproperty="">
+            <arg value="--git-dir=${git.repo.path}"/>
+            <arg value="rev-parse"/>            
+            <arg value="HEAD"/>
+        </exec>
+        <condition property="repository.version" value="${git.revision}" else="unknown">
+            <and>
+                <isset property="git.revision"/>
+                <length string="${git.revision}" trim="yes" length="0" when="greater"/>
+            </and>
+        </condition>
+        <echo>Git repo: ${repository.version}</echo>
+        
+        <exec executable="git" outputproperty="git.time" failifexecutionfails="false" errorproperty="">
+            <arg value="--git-dir=${git.repo.path}"/>
+            <arg value="show"/>
+            <arg value="-s"/>
+            <arg value="--format=%ct"/>
+            <arg value="${git.revision}"/>
+        </exec>
+        <echo>Git time: ${git.time}</echo>
+    </target>  
 </project>
