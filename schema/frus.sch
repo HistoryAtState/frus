@@ -436,6 +436,15 @@
             <assert test="string-length(normalize-space(.)) gt 0">Head elements cannot be
                 empty.</assert>
         </rule>
+        <rule context="tei:lb|tei:pb">
+            <assert test="empty(./node())" sqf:fix="delete-child-content"><value-of select="./name()"/> elements must be empty (no child content).</assert>
+            <sqf:fix id="delete-child-content">
+                <sqf:description>
+                    <sqf:title>Delete child content</sqf:title>
+                </sqf:description>
+                <sqf:delete match="./node()"/>
+            </sqf:fix>
+        </rule>
     </pattern>
 
     <pattern id="source-note-checks">
