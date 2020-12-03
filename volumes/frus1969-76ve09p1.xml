@@ -30,7 +30,6 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -55,11 +54,10 @@
                     <gap quantity="1" unit="pages" reason="convenience"/>
                 </docImprint>
             </titlePage>
-
+            <pb n="III" facs="0004" xml:id="pg_III"/>
             <div type="section" xml:id="preface" subtype="preface"
                 frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
                 frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
-                <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -323,11 +321,10 @@
                     <lb/>September 2014<lb/>
                 </closer>
             </div>
-
+            <pb n="IX" facs="0010" xml:id="pg_IX"/>
             <div type="section" xml:id="toc" subtype="table-of-contents"
                 frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
                 frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
-                <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
                     <item>
@@ -369,11 +366,10 @@
                 <pb n="X" facs="0011" xml:id="pg_X"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
+            <pb n="XI" facs="0012" xml:id="pg_XI"/>
             <div type="section" xml:id="sources" subtype="sources"
                 frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
                 frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
-                <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
                     Series</p>
@@ -584,11 +580,10 @@
                     </item>
                 </list>
             </div>
-
+            <pb n="XV" facs="0016" xml:id="pg_XV"/>
             <div type="section" xml:id="terms" subtype="index"
                 frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
                 frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
-                <pb n="XV" facs="0016" xml:id="pg_XV"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_AFB_1">AFB</term>,</hi> Air Force
@@ -750,11 +745,10 @@
                         Special Actions Group</item>
                 </list>
             </div>
-
+            <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
             <div type="section" xml:id="persons" subtype="index"
                 frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
                 frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
-                <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
                 <head>Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AR_1">Anderson,
@@ -974,11 +968,10 @@
                 <pb n="XX" facs="0021" xml:id="pg_XX"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
+            <pb n="XXI" facs="0022" xml:id="pg_XXI"/>
             <div type="section" subtype="note-on-covert-actions" xml:id="notes"
                 frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
                 frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
-                <pb n="XXI" facs="0022" xml:id="pg_XXI"/>
                 <head>Note on U.S. Covert Actions</head>
                 <p>In compliance with the <hi rend="italic">Foreign Relations of the United
                         States</hi> statute that requires inclusion in the <hi rend="italic">Foreign
@@ -1239,7 +1232,6 @@
                         12, No. 8, February 23, 1976.</note></p>
             </div>
         </front>
-
         <body>
             <pb n="1" facs="0028" xml:id="pg_1"/>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
@@ -1249,7 +1241,6 @@
                     frus:doc-dateTime-min="1974-04-30T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-10-15T23:59:59-05:00">
                     <head>Algeria, 1973–1976</head>
-
                     <div type="document" n="1" xml:id="d1" subtype="historical-document"
                         frus:doc-dateTime-min="1974-04-30T00:00:00-05:00"
                         frus:doc-dateTime-max="1974-04-30T23:59:59-05:00">
@@ -1322,7 +1313,6 @@
                         <p>“I am flying to Alexandria for meetings with <persName corresp="#p_SA_1"
                                 >Sadat</persName> and will report to you from there tomorrow.”</p>
                     </div>
-
                     <div type="document" n="2" xml:id="d2" subtype="historical-document"
                         frus:doc-dateTime-min="1974-05-21T09:48:00-05:00"
                         frus:doc-dateTime-max="1974-05-21T09:48:00-05:00">
@@ -1367,7 +1357,6 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="3" xml:id="d3" subtype="historical-document"
                         frus:doc-dateTime-min="1974-06-08T17:53:00-05:00"
                         frus:doc-dateTime-max="1974-06-08T17:53:00-05:00">
@@ -1435,7 +1424,6 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="4" xml:id="d4" subtype="historical-document"
                         frus:doc-dateTime-min="1974-06-29T05:50:00-05:00"
                         frus:doc-dateTime-max="1974-06-29T05:50:00-05:00">
@@ -1549,11 +1537,10 @@
                             <signed>Eagleton</signed>
                         </closer>
                     </div>
-
+                    <pb n="7" facs="0034" xml:id="pg_7"/>
                     <div type="document" n="5" xml:id="d5" subtype="historical-document"
                         frus:doc-dateTime-min="1974-07-15T10:11:00-05:00"
                         frus:doc-dateTime-max="1974-07-15T10:11:00-05:00">
-                        <pb n="7" facs="0034" xml:id="pg_7"/>
                         <head>5. Telegram 152114 From the Department of State to the Interests
                             Section in Algeria<note n="1" xml:id="d5fn1"><p><seg type="summary"
                                         >Summary: <persName corresp="#p_KHA_1">Kissinger</persName>
@@ -1603,11 +1590,10 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="8" facs="0035" xml:id="pg_8"/>
                     <div type="document" n="6" xml:id="d6" subtype="historical-document"
                         frus:doc-dateTime-min="1974-07-22T06:50:00-05:00"
                         frus:doc-dateTime-max="1974-07-22T06:50:00-05:00">
-                        <pb n="8" facs="0035" xml:id="pg_8"/>
                         <head>6. Telegram 3429 From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d6fn1"><p><seg type="summary">Summary:
                                             <persName corresp="#p_NRG_1">Neumann</persName>
@@ -1656,11 +1642,10 @@
                                     >Neumann</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="9" facs="0036" xml:id="pg_9"/>
                     <div type="document" n="7" xml:id="d7" subtype="historical-document"
                         frus:doc-dateTime-min="1974-10-15T00:00:00-05:00"
                         frus:doc-dateTime-max="1974-10-15T23:59:59-05:00">
-                        <pb n="9" facs="0036" xml:id="pg_9"/>
                         <head>7. Memorandum From the President’s Deputy Assistant for National
                             Security Affairs (<persName corresp="#p_SBC_1">Scowcroft</persName>) to
                             President <persName corresp="#p_FGR_1">Ford</persName><note n="1"
@@ -1769,13 +1754,11 @@
                             back to Washington.”</p>
                     </div>
                 </div>
-
+                <pb n="11" facs="0038" xml:id="pg_11"/>
                 <div type="chapter" n="2" xml:id="ch2"
                     frus:doc-dateTime-min="1973-03-29T17:30:00-05:00"
                     frus:doc-dateTime-max="1976-12-02T11:30:00-05:00">
-                    <pb n="11" facs="0038" xml:id="pg_11"/>
                     <head>Libya, 1973–1976</head>
-
                     <div type="document" n="8" xml:id="d8" subtype="historical-document"
                         frus:doc-dateTime-min="1973-03-29T17:30:00-05:00"
                         frus:doc-dateTime-max="1973-03-29T17:30:00-05:00">
@@ -1834,7 +1817,6 @@
                                     >Rogers</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="9" xml:id="d9" subtype="historical-document"
                         frus:doc-dateTime-min="1973-04-05T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-04-05T23:59:59-05:00">
@@ -1960,11 +1942,10 @@
                                     Clements</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="15" facs="0042" xml:id="pg_15"/>
                     <div type="document" n="10" xml:id="d10" subtype="historical-document"
                         frus:doc-dateTime-min="1973-04-05T10:29:00-05:00"
                         frus:doc-dateTime-max="1973-04-05T10:29:00-05:00">
-                        <pb n="15" facs="0042" xml:id="pg_15"/>
                         <head>10. Telegram 62911 From the Department of State to the Embassy in
                                 Libya<note n="1" xml:id="d10fn1"><p><seg type="summary">Summary: The
                                         Embassy was instructed to deliver a note to Minister of
@@ -2021,11 +2002,10 @@
                                     >Rogers</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="16" facs="0043" xml:id="pg_16"/>
                     <div type="document" n="11" xml:id="d11" subtype="historical-document"
                         frus:doc-dateTime-min="1973-04-11T09:10:00-05:00"
                         frus:doc-dateTime-max="1973-04-11T09:10:00-05:00">
-                        <pb n="16" facs="0043" xml:id="pg_16"/>
                         <head>11. Telegram 460 From the Embassy in Libya to the Department of
                                 State<note n="1" xml:id="d11fn1"><p><seg type="summary">Summary:
                                         Chargé <persName corresp="#p_JHG_1">Harold G.
@@ -2133,7 +2113,6 @@
                                 >Josif</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="12" xml:id="d12" subtype="historical-document"
                         frus:doc-dateTime-min="1973-04-12T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-04-12T23:59:59-05:00">
@@ -2236,7 +2215,6 @@
                         <p>That you approve armed escort of a reconnaissance flight off Libya on 17
                             April, with the Libyan Government to be notified in advance.</p>
                     </div>
-
                     <div type="document" n="13" xml:id="d13" subtype="historical-document"
                         frus:doc-dateTime-min="1973-04-16T10:03:00-05:00"
                         frus:doc-dateTime-max="1973-04-16T11:45:00-05:00">
@@ -2623,11 +2601,10 @@
                             pending U.N. Security Council vote.</p>
                         <p>[Omitted here is discussion unrelated to Libya.]</p>
                     </div>
-
+                    <pb n="27" facs="0054" xml:id="pg_27"/>
                     <div type="document" n="14" xml:id="d14" subtype="historical-document"
                         frus:doc-dateTime-min="1973-04-17T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-04-17T23:59:59-05:00">
-                        <pb n="27" facs="0054" xml:id="pg_27"/>
                         <head>14. Memorandum From <persName corresp="#p_SHH_1">Harold
                                 Saunders</persName> and <persName corresp="#p_KRT_1">Richard
                                 Kennedy</persName> of the National Security Council Staff to the
@@ -2758,11 +2735,10 @@
                             citizens from Libya, as they might well become targets for radical Arab
                             attacks.</p>
                     </div>
-
+                    <pb n="30" facs="0057" xml:id="pg_30"/>
                     <div type="document" n="15" xml:id="d15" subtype="historical-document"
                         frus:doc-dateTime-min="1973-04-19T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-04-19T23:59:59-05:00">
-                        <pb n="30" facs="0057" xml:id="pg_30"/>
                         <head>15. Memorandum From Director of Central Intelligence <persName
                                 corresp="#p_SJ_1">Schlesinger</persName> to the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_KHA_1"
@@ -2876,7 +2852,6 @@
                         <p>—[<hi rend="italic">1 paragraph (3½ lines) not declassified</hi>]</p>
                         <p>[<hi rend="italic">3 pages not declassified</hi>]</p>
                     </div>
-
                     <div type="document" n="16" xml:id="d16" subtype="historical-document"
                         frus:doc-dateTime-min="1973-04-20T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-04-20T23:59:59-05:00">
@@ -2890,11 +2865,10 @@
                             Administration Intelligence Files, Subject Files, Libya, Box 9, February
                             10, 1970–June 26, 1973. Secret. 2 pages not declassified.]</note>
                     </div>
-
+                    <pb n="33" facs="0060" xml:id="pg_33"/>
                     <div type="document" n="17" xml:id="d17" subtype="historical-document"
                         frus:doc-dateTime-min="1973-05-10T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-05-10T23:59:59-05:00">
-                        <pb n="33" facs="0060" xml:id="pg_33"/>
                         <head>17. Memorandum From the Under Secretary of State for Political Affairs
                                 (<persName corresp="#p_PWJ_1">Porter</persName>) to Secretary of
                             State <persName corresp="#p_RWP_1">Rogers</persName><note n="1"
@@ -3020,11 +2994,10 @@
                                 >Qadhafi</persName> might enhance the prospects for any such
                             missions, and to submit its further recommendations to me.</p>
                     </div>
-
+                    <pb n="36" facs="0063" xml:id="pg_36"/>
                     <div type="document" n="18" xml:id="d18" subtype="historical-document"
                         frus:doc-dateTime-min="1973-05-22T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-05-22T23:59:59-05:00">
-                        <pb n="36" facs="0063" xml:id="pg_36"/>
                         <head>18. Memorandum From the Executive Secretary of the 40 Committee
                                 (<persName corresp="#p_RRR_1">Ratliff</persName>) to the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_KHA_1"
@@ -3187,11 +3160,10 @@
                                     Colby</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="39" facs="0066" xml:id="pg_39"/>
                     <div type="document" n="19" xml:id="d19" subtype="historical-document"
                         frus:doc-dateTime-min="1973-06-05T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-06-05T23:59:59-05:00">
-                        <pb n="39" facs="0066" xml:id="pg_39"/>
                         <head>19. National Security Study Memorandum 185<note n="1" xml:id="d19fn1"
                                         ><p><seg type="summary">Summary: <persName
                                             corresp="#p_KHA_1">Kissinger</persName> tasked the
@@ -3251,11 +3223,10 @@
                                     Kissinger</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="40" facs="0067" xml:id="pg_40"/>
                     <div type="document" n="20" xml:id="d20" subtype="historical-document"
                         frus:doc-dateTime-min="1973-06-22T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-06-22T23:59:59-05:00">
-                        <pb n="40" facs="0067" xml:id="pg_40"/>
                         <head>20. Information Memorandum From the Assistant Secretary of State for
                             African Affairs (<persName corresp="#p_NDD_1">Newsom</persName>) to
                             Acting Secretary of State <persName corresp="#p_RK_1"
@@ -3328,7 +3299,6 @@
                             of hardship for our citizens resulting from our refusal to yield on the
                             language problem.</p>
                     </div>
-
                     <div type="document" n="21" xml:id="d21" subtype="historical-document"
                         frus:doc-dateTime-min="1973-07-06T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-07-06T23:59:59-05:00">
@@ -4618,7 +4588,6 @@
                         <p>5. Libya could continue to get many of the arms it seeks from countries
                             other than the <gloss target="#t_US_1">US</gloss>.</p>
                     </div>
-
                     <div type="document" n="22" xml:id="d22" subtype="historical-document"
                         frus:doc-dateTime-min="1973-08-14T14:08:00-05:00"
                         frus:doc-dateTime-max="1973-08-14T14:58:00-05:00">
@@ -5092,7 +5061,6 @@
                             If it serves no useful purpose, we will consider the political
                             implications and might cut down on it.</p>
                     </div>
-
                     <div type="document" n="23" xml:id="d23" subtype="historical-document"
                         frus:doc-dateTime-min="1973-08-24T10:09:00-05:00"
                         frus:doc-dateTime-max="1973-08-24T10:09:00-05:00">
@@ -5152,7 +5120,6 @@
                                 >Rush</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="24" xml:id="d24" subtype="historical-document"
                         frus:doc-dateTime-min="1973-08-30T08:27:00-05:00"
                         frus:doc-dateTime-max="1973-08-30T08:27:00-05:00">
@@ -5304,7 +5271,6 @@
                                 >Josif</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="25" xml:id="d25" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-17T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-09-17T23:59:59-05:00">
@@ -5592,7 +5558,6 @@
                             Washington; and possible nationalization of the remaining <gloss
                                 target="#t_US_1">US</gloss> oil company assets in Libya.</p>
                     </div>
-
                     <div type="document" n="26" xml:id="d26" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-20T19:42:00-05:00"
                         frus:doc-dateTime-max="1973-09-20T19:42:00-05:00">
@@ -5666,11 +5631,10 @@
                                 >Rush</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="87" facs="0114" xml:id="pg_87"/>
                     <div type="document" n="27" xml:id="d27" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-24T08:59:00-05:00"
                         frus:doc-dateTime-max="1973-09-24T08:59:00-05:00">
-                        <pb n="87" facs="0114" xml:id="pg_87"/>
                         <head>27. Telegram 1231 From the Embassy in Libya to the Department of
                                 State<note n="1" xml:id="d27fn1"><p><seg type="summary">Summary: The
                                         Embassy questioned the continuation of the U.S. Mission in
@@ -5745,7 +5709,6 @@
                                 >Josif</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="28" xml:id="d28" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-30T10:00:00-05:00"
                         frus:doc-dateTime-max="1973-09-30T10:00:00-05:00">
@@ -5822,11 +5785,10 @@
                                 >Josif</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="90" facs="0117" xml:id="pg_90"/>
                     <div type="document" n="29" xml:id="d29" subtype="historical-document"
                         frus:doc-dateTime-min="1973-11-23T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-11-23T23:59:59-05:00">
-                        <pb n="90" facs="0117" xml:id="pg_90"/>
                         <head>29. Briefing Memorandum From the Assistant Secretary of State for
                             African Affairs (<persName corresp="#p_NDD_1">Newsom</persName>) to
                             Secretary of State <persName corresp="#p_KHA_1"
@@ -5938,7 +5900,6 @@
                             however, is likely to have much effect on the policy of the present
                             Libyan government.</p>
                     </div>
-
                     <div type="document" n="30" xml:id="d30" subtype="historical-document"
                         frus:doc-dateTime-min="1974-06-21T11:50:00-05:00"
                         frus:doc-dateTime-max="1974-06-21T11:50:00-05:00">
@@ -5996,7 +5957,6 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="31" xml:id="d31" subtype="historical-document"
                         frus:doc-dateTime-min="1974-07-22T09:30:00-05:00"
                         frus:doc-dateTime-max="1974-07-22T09:30:00-05:00">
@@ -6053,7 +6013,6 @@
                                 >Stein</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="32" xml:id="d32" subtype="historical-document"
                         frus:doc-dateTime-min="1974-08-19T00:00:00-05:00"
                         frus:doc-dateTime-max="1974-08-19T23:59:59-05:00">
@@ -6430,11 +6389,10 @@
                             severe and long-lasting. Almost every Arab nation could be expected to
                             condemn an open confrontation.</p>
                     </div>
-
+                    <pb n="102" facs="0129" xml:id="pg_102"/>
                     <div type="document" n="33" xml:id="d33" subtype="historical-document"
                         frus:doc-dateTime-min="1974-09-11T00:00:00-05:00"
                         frus:doc-dateTime-max="1974-09-11T23:59:59-05:00">
-                        <pb n="102" facs="0129" xml:id="pg_102"/>
                         <head>33. Memorandum From the Deputy Director for Operations, Central
                             Intelligence Agency (<persName corresp="#p_NWE_1">Nelson</persName>) to
                             the Executive Secretary of the 40 Committee (<persName
@@ -6481,11 +6439,10 @@
                                     Nelson</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="103" facs="0130" xml:id="pg_103"/>
                     <div type="document" n="34" xml:id="d34" subtype="historical-document"
                         frus:doc-dateTime-min="1974-10-08T15:53:00-05:00"
                         frus:doc-dateTime-max="1974-10-08T15:53:00-05:00">
-                        <pb n="103" facs="0130" xml:id="pg_103"/>
                         <head>34. Telegram 221657 From the Department of State to the Embassy in
                                 Libya<note n="1" xml:id="d34fn1"><p><seg type="summary">Summary: The
                                         Department reported on a meeting between <persName
@@ -6575,7 +6532,6 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="35" xml:id="d35" subtype="historical-document"
                         frus:doc-dateTime-min="1974-10-10T09:25:00-05:00"
                         frus:doc-dateTime-max="1974-10-10T09:25:00-05:00">
@@ -6654,11 +6610,10 @@
                                 >Stein</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="106" facs="0133" xml:id="pg_106"/>
                     <div type="document" n="36" xml:id="d36" subtype="historical-document"
                         frus:doc-dateTime-min="1975-01-10T12:05:00-05:00"
                         frus:doc-dateTime-max="1975-01-10T12:05:00-05:00">
-                        <pb n="106" facs="0133" xml:id="pg_106"/>
                         <head>36. Telegram 38 From the Embassy in Libya to the Department of
                                 State<note n="1" xml:id="d36fn1"><p><seg type="summary">Summary: The
                                         Embassy informed the Department of a note from the Ministry
@@ -6749,11 +6704,10 @@
                                 >Stein</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="108" facs="0135" xml:id="pg_108"/>
                     <div type="document" n="37" xml:id="d37" subtype="historical-document"
                         frus:doc-dateTime-min="1975-01-14T11:06:00-05:00"
                         frus:doc-dateTime-max="1975-01-14T11:06:00-05:00">
-                        <pb n="108" facs="0135" xml:id="pg_108"/>
                         <head>37. Telegram 8469 From the Department of State to the Embassy in
                                 Libya<note n="1" xml:id="d37fn1"><p><seg type="summary">Summary: The
                                         Embassy was instructed to deliver a note from <persName
@@ -6811,11 +6765,10 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="109" facs="0136" xml:id="pg_109"/>
                     <div type="document" n="38" xml:id="d38" subtype="historical-document"
                         frus:doc-dateTime-min="1975-04-15T05:20:00-05:00"
                         frus:doc-dateTime-max="1975-04-15T05:20:00-05:00">
-                        <pb n="109" facs="0136" xml:id="pg_109"/>
                         <head>38. Telegram 442 From the Embassy in Libya to the Department of
                                 State<note n="1" xml:id="d38fn1"><p><seg type="summary">Summary: The
                                         Embassy informed the Department of the Libyan Government’s
@@ -6882,7 +6835,6 @@
                                 >Stein</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="39" xml:id="d39" subtype="historical-document"
                         frus:doc-dateTime-min="1975-05-03T09:55:00-05:00"
                         frus:doc-dateTime-max="1975-05-03T09:55:00-05:00">
@@ -6921,11 +6873,10 @@
                             grumbled, but commented GOE would find ways of handling the matter
                             itself.</p>
                     </div>
-
+                    <pb n="111" facs="0138" xml:id="pg_111"/>
                     <div type="document" n="40" xml:id="d40" subtype="historical-document"
                         frus:doc-dateTime-min="1975-06-04T16:42:00-05:00"
                         frus:doc-dateTime-max="1975-06-04T16:42:00-05:00">
-                        <pb n="111" facs="0138" xml:id="pg_111"/>
                         <head>40. Telegram 130498 From the Department of State to the Embassy in
                                 Egypt<note n="1" xml:id="d40fn1"><p><seg type="summary">Summary:
                                             <persName corresp="#p_EHF_1">Eilts</persName> was
@@ -7006,7 +6957,6 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="41" xml:id="d41" subtype="historical-document"
                         frus:doc-dateTime-min="1975-06-07T05:10:00-05:00"
                         frus:doc-dateTime-max="1975-06-07T05:10:00-05:00">
@@ -7108,7 +7058,6 @@
                                 >Eilts</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="42" xml:id="d42" subtype="historical-document"
                         frus:doc-dateTime-min="1975-06-07T05:23:00-05:00"
                         frus:doc-dateTime-max="1975-06-07T05:23:00-05:00">
@@ -7163,11 +7112,10 @@
                                 >Eilts</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="115" facs="0142" xml:id="pg_115"/>
                     <div type="document" n="43" xml:id="d43" subtype="historical-document"
                         frus:doc-dateTime-min="1975-06-18T06:00:00-05:00"
                         frus:doc-dateTime-max="1975-06-18T06:00:00-05:00">
-                        <pb n="115" facs="0142" xml:id="pg_115"/>
                         <head>43. Telegram 711 From the Embassy in Libya to the Department of
                                 State<note n="1" xml:id="d43fn1"><p><seg type="summary">Summary: The
                                         Embassy submitted its annual policy assessment for
@@ -7417,11 +7365,10 @@
                                 >Stein</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="119" facs="0146" xml:id="pg_119"/>
                     <div type="document" n="44" xml:id="d44" subtype="historical-document"
                         frus:doc-dateTime-min="1975-07-07T00:00:00-05:00"
                         frus:doc-dateTime-max="1975-07-07T23:59:59-05:00">
-                        <pb n="119" facs="0146" xml:id="pg_119"/>
                         <head>44. Memorandum From Robert B. Oakley of the National Security Council
                             Staff to the President’s Deputy Assistant for National Security Affairs
                                 (<persName corresp="#p_SBC_1">Scowcroft</persName>)<note n="1"
@@ -7611,11 +7558,10 @@
                             study to move to a more active defensive approach toward Libya.</p>
                         <p>[<hi rend="italic">3 paragraphs (21 lines) not declassified</hi>]</p>
                     </div>
-
+                    <pb n="123" facs="0150" xml:id="pg_123"/>
                     <div type="document" n="45" xml:id="d45" subtype="historical-document"
                         frus:doc-dateTime-min="1975-08-01T17:54:00-05:00"
                         frus:doc-dateTime-max="1975-08-01T17:54:00-05:00">
-                        <pb n="123" facs="0150" xml:id="pg_123"/>
                         <head>45. Telegram 182532/Tosec 80271 From the Department of State to
                             Secretary of State <persName corresp="#p_KHA_1">Kissinger</persName> at
                                 Helsinki<note n="1" xml:id="d45fn1"><p><seg type="summary">Summary:
@@ -7736,7 +7682,6 @@
                             <signed>Ingersoll</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="46" xml:id="d46" subtype="historical-document"
                         frus:doc-dateTime-min="1975-08-02T10:58:00-05:00"
                         frus:doc-dateTime-max="1975-08-02T10:58:00-05:00">
@@ -7799,7 +7744,6 @@
                             <signed>Ingersoll</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="47" xml:id="d47" subtype="historical-document"
                         frus:doc-dateTime-min="1975-08-18T07:08:00-05:00"
                         frus:doc-dateTime-max="1975-08-18T07:08:00-05:00">
@@ -7883,11 +7827,10 @@
                                 >Stein</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="128" facs="0155" xml:id="pg_128"/>
                     <div type="document" n="48" xml:id="d48" subtype="historical-document"
                         frus:doc-dateTime-min="1976-01-08T15:36:00-05:00"
                         frus:doc-dateTime-max="1976-01-08T15:36:00-05:00">
-                        <pb n="128" facs="0155" xml:id="pg_128"/>
                         <head>48. Telegram 4568 From the Department of State to the Embassy in
                                 Libya<note n="1" xml:id="d48fn1"><p><seg type="summary">Summary: The
                                         Embassy was informed of the decision to lift restrictions on
@@ -7941,11 +7884,10 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="129" facs="0156" xml:id="pg_129"/>
                     <div type="document" n="49" xml:id="d49" subtype="historical-document"
                         frus:doc-dateTime-min="1976-04-06T20:53:00-05:00"
                         frus:doc-dateTime-max="1976-04-06T20:53:00-05:00">
-                        <pb n="129" facs="0156" xml:id="pg_129"/>
                         <head>49. Telegram 83386 From the Department of State to the Embassy in
                                 Libya<note n="1" xml:id="d49fn1"><p><seg type="summary">Summary: The
                                         Department transmitted the text of a diplomatic note from
@@ -8040,11 +7982,10 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="131" facs="0158" xml:id="pg_131"/>
                     <div type="document" n="50" xml:id="d50" subtype="historical-document"
                         frus:doc-dateTime-min="1976-04-14T17:41:00-05:00"
                         frus:doc-dateTime-max="1976-04-14T17:41:00-05:00">
-                        <pb n="131" facs="0158" xml:id="pg_131"/>
                         <head>50. Telegram 90244 From the Department of State to the Embassy in
                                 Libya<note n="1" xml:id="d50fn1"><p><seg type="summary">Summary: The
                                         Department instructed Carle to deliver the U.S. response to
@@ -8129,7 +8070,6 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="51" xml:id="d51" subtype="historical-document"
                         frus:doc-dateTime-min="1976-04-24T17:06:00-05:00"
                         frus:doc-dateTime-max="1976-04-24T17:06:00-05:00">
@@ -8210,11 +8150,10 @@
                             <signed>Eagleburger</signed>
                         </closer>
                     </div>
-
+                    <pb n="134" facs="0161" xml:id="pg_134"/>
                     <div type="document" n="52" xml:id="d52" subtype="historical-document"
                         frus:doc-dateTime-min="1976-06-02T08:18:00-05:00"
                         frus:doc-dateTime-max="1976-06-02T09:00:00-05:00">
-                        <pb n="134" facs="0161" xml:id="pg_134"/>
                         <head>52. Memorandum of Conversation<note n="1" xml:id="d52fn1"><p><seg
                                         type="summary">Summary: <persName corresp="#p_KHA_1"
                                             >Kissinger</persName> informed <persName
@@ -8251,7 +8190,6 @@
                             with the Sixth Fleet. They don’t. . . .</p>
                         <p>[Omitted here is discussion unrelated to Libya.]</p>
                     </div>
-
                     <div type="document" n="53" xml:id="d53" subtype="historical-document"
                         frus:doc-dateTime-min="1976-08-14T16:00:00-05:00"
                         frus:doc-dateTime-max="1976-08-14T16:00:00-05:00">
@@ -8688,11 +8626,10 @@
                                 >Eilts</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="143" facs="0170" xml:id="pg_143"/>
                     <div type="document" n="54" xml:id="d54" subtype="historical-document"
                         frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
                         frus:doc-dateTime-max="1976-09-01T23:59:59-05:00">
-                        <pb n="143" facs="0170" xml:id="pg_143"/>
                         <head>54. Intelligence Report No. 578 Prepared in the Bureau of Intelligence
                             and Research<note n="1" xml:id="d54fn1"><p><seg type="summary">Summary:
                                         This report summarized <persName corresp="#p_QM_1"
@@ -9089,11 +9026,10 @@
                             terrorist and subversive capabilities to attack his foreign
                             opponents.</p>
                     </div>
-
+                    <pb n="151" facs="0178" xml:id="pg_151"/>
                     <div type="document" n="55" xml:id="d55" subtype="historical-document"
                         frus:doc-dateTime-min="1976-09-03T09:38:00-05:00"
                         frus:doc-dateTime-max="1976-09-03T09:38:00-05:00">
-                        <pb n="151" facs="0178" xml:id="pg_151"/>
                         <head>55. Telegram 219041 From the Department of State to the Embassy in
                                 Egypt<note n="1" xml:id="d55fn1"><p><seg type="summary">Summary:
                                             <persName corresp="#p_KHA_1">Kissinger</persName>
@@ -9134,11 +9070,10 @@
                             <signed>Robinson</signed>
                         </closer>
                     </div>
-
+                    <pb n="152" facs="0179" xml:id="pg_152"/>
                     <div type="document" n="56" xml:id="d56" subtype="historical-document"
                         frus:doc-dateTime-min="1976-10-05T03:38:00-05:00"
                         frus:doc-dateTime-max="1976-10-05T03:38:00-05:00">
-                        <pb n="152" facs="0179" xml:id="pg_152"/>
                         <head>56. Backchannel Message 147 From the Ambassador to Egypt (<persName
                                 corresp="#p_EHF_1">Eilts</persName>) to the President’s Assistant
                             for National Security Affairs (<persName corresp="#p_SBC_1"
@@ -9173,11 +9108,10 @@
                             request.</p>
                         <p>4. Warm regards.</p>
                     </div>
-
+                    <pb n="153" facs="0180" xml:id="pg_153"/>
                     <div type="document" n="57" xml:id="d57" subtype="historical-document"
                         frus:doc-dateTime-min="1976-12-02T12:30:00-05:00"
                         frus:doc-dateTime-max="1976-12-02T12:30:00-05:00">
-                        <pb n="153" facs="0180" xml:id="pg_153"/>
                         <head>57. Memorandum of Conversation<note n="1" xml:id="d57fn1"><p><seg
                                         type="summary">Summary: <persName corresp="#p_KHA_1"
                                             >Kissinger</persName> and Libyan Ambassador Mansur
@@ -9372,13 +9306,11 @@
                         <p>End of Conversation</p>
                     </div>
                 </div>
-
+                <pb n="157" facs="0184" xml:id="pg_157"/>
                 <div type="chapter" n="3" xml:id="ch3"
                     frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-11-29T23:59:59-05:00">
-                    <pb n="157" facs="0184" xml:id="pg_157"/>
                     <head>Morocco, 1973–1976</head>
-
                     <div type="document" n="58" xml:id="d58" subtype="historical-document"
                         frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-01-05T23:59:59-05:00">
@@ -9431,11 +9363,10 @@
                                     Kissinger</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="158" facs="0185" xml:id="pg_158"/>
                     <div type="document" n="59" xml:id="d59" subtype="historical-document"
                         frus:doc-dateTime-min="1973-01-05T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-01-05T23:59:59-05:00">
-                        <pb n="158" facs="0185" xml:id="pg_158"/>
                         <head>59. Memorandum From Secretary of State <persName corresp="#p_RWP_1"
                                 >Rogers</persName> to President <persName corresp="#p_NRM_1"
                                 >Nixon</persName><note n="1" xml:id="d59fn1"><p><seg type="summary"
@@ -9531,11 +9462,10 @@
                                     Rogers</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="160" facs="0187" xml:id="pg_160"/>
                     <div type="document" n="60" xml:id="d60" subtype="historical-document"
                         frus:doc-dateTime-min="1973-02-01T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-02-01T23:59:59-05:00">
-                        <pb n="160" facs="0187" xml:id="pg_160"/>
                         <head>60. Letter From Robert Murphy to Secretary of State <persName
                                 corresp="#p_RWP_1">Rogers</persName><note n="1" xml:id="d60fn1"
                                         ><p><seg type="summary">Summary: Murphy reported on his
@@ -9733,7 +9663,6 @@
                             <signed>Robert Murphy</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="61" xml:id="d61" subtype="historical-document"
                         frus:doc-dateTime-min="1973-03-06T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-03-06T23:59:59-05:00">
@@ -9747,7 +9676,6 @@
                             Office of the Director of Central Intelligence, Job 80M01048A, OPI 10,
                             Box 5. Secret. 2 pages not declassified.]</note>
                     </div>
-
                     <div type="document" n="62" xml:id="d62" subtype="historical-document"
                         frus:doc-dateTime-min="1973-03-30T14:30:00-05:00"
                         frus:doc-dateTime-max="1973-03-30T14:50:00-05:00">
@@ -9914,7 +9842,6 @@
                                     Saunders</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="63" xml:id="d63" subtype="historical-document"
                         frus:doc-dateTime-min="1973-04-12T07:00:00-05:00"
                         frus:doc-dateTime-max="1973-04-12T07:00:00-05:00">
@@ -10067,7 +9994,6 @@
                             <signed>Rockwell</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="64" xml:id="d64" subtype="historical-document"
                         frus:doc-dateTime-min="1973-10-05T14:45:00-05:00"
                         frus:doc-dateTime-max="1973-10-05T15:15:00-05:00">
@@ -10268,7 +10194,6 @@
                             point.</p>
                         <p>[Omitted here is discussion of the Arab-Israeli dispute.]</p>
                     </div>
-
                     <div type="document" n="65" xml:id="d65" subtype="historical-document"
                         frus:doc-dateTime-min="1974-04-13T00:00:00-05:00"
                         frus:doc-dateTime-max="1974-04-13T23:59:59-05:00">
@@ -10311,11 +10236,10 @@
                                     Jordan</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="175" facs="0202" xml:id="pg_175"/>
                     <div type="document" n="66" xml:id="d66" subtype="historical-document"
                         frus:doc-dateTime-min="1974-04-18T00:00:00-05:00"
                         frus:doc-dateTime-max="1974-04-18T23:59:59-05:00">
-                        <pb n="175" facs="0202" xml:id="pg_175"/>
                         <head>66. Memorandum From the Acting Assistant Secretary of Defense for
                             International Security Affairs (<persName corresp="#p_JAA_2"
                                 >Jordan</persName>) to the Deputy Secretary of Defense (<persName
@@ -10397,7 +10321,6 @@
                                     Jordan</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="67" xml:id="d67" subtype="historical-document"
                         frus:doc-dateTime-min="1974-06-06T15:31:00-05:00"
                         frus:doc-dateTime-max="1974-06-06T15:31:00-05:00">
@@ -10560,7 +10483,6 @@
                                     >Neumann</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="68" xml:id="d68" subtype="historical-document"
                         frus:doc-dateTime-min="1974-12-07T00:00:00-05:00"
                         frus:doc-dateTime-max="1974-12-07T23:59:59-05:00">
@@ -10574,11 +10496,10 @@
                             Office of the Director of Central Intelligence, Job 80M01048A, OPI 10,
                             Box 5. Secret. 3 pages not declassified.]</note>
                     </div>
-
+                    <pb n="180" facs="0207" xml:id="pg_180"/>
                     <div type="document" n="69" xml:id="d69" subtype="historical-document"
                         frus:doc-dateTime-min="1975-01-27T12:00:00-05:00"
                         frus:doc-dateTime-max="1975-01-27T12:40:00-05:00">
-                        <pb n="180" facs="0207" xml:id="pg_180"/>
                         <head>69. Memorandum of Conversation<note n="1" xml:id="d69fn1"><p><seg
                                         type="summary">Summary: <persName corresp="#p_CWP_1"
                                             >Clements</persName> discussed Moroccan concerns over
@@ -10713,7 +10634,6 @@
                                 corresp="#p_CWP_1">Clements</persName> then summarized the
                             understanding that we would provide answers by the end of the week.</p>
                     </div>
-
                     <div type="document" n="70" xml:id="d70" subtype="historical-document"
                         frus:doc-dateTime-min="1975-07-11T12:30:00-05:00"
                         frus:doc-dateTime-max="1975-07-11T13:20:00-05:00">
@@ -10971,7 +10891,6 @@
                             warships.</p>
                         <p>The meeting concluded with pleasantries and an exchange of gifts.</p>
                     </div>
-
                     <div type="document" n="71" xml:id="d71" subtype="historical-document"
                         frus:doc-dateTime-min="1975-10-20T00:00:00-05:00"
                         frus:doc-dateTime-max="1975-10-20T23:59:59-05:00">
@@ -11016,7 +10935,6 @@
                             refusal until after the visit of Assistant Secretary <persName
                                 corresp="#p_AAL_1">Atherton</persName> to Morocco on October 23.</p>
                     </div>
-
                     <div type="document" n="72" xml:id="d72" subtype="historical-document"
                         frus:doc-dateTime-min="1975-12-09T05:50:00-05:00"
                         frus:doc-dateTime-max="1975-12-09T05:50:00-05:00">
@@ -11118,7 +11036,6 @@
                                     >Neumann</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="73" xml:id="d73" subtype="historical-document"
                         frus:doc-dateTime-min="1976-01-19T11:55:00-05:00"
                         frus:doc-dateTime-max="1976-01-19T11:55:00-05:00">
@@ -11166,11 +11083,10 @@
                                     >Neumann</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="191" facs="0218" xml:id="pg_191"/>
                     <div type="document" n="74" xml:id="d74" subtype="historical-document"
                         frus:doc-dateTime-min="1976-01-24T18:51:00-05:00"
                         frus:doc-dateTime-max="1976-01-24T18:51:00-05:00">
-                        <pb n="191" facs="0218" xml:id="pg_191"/>
                         <head>74. Telegram 18890/Tosec 10259 From the Department of State to
                             Secretary of State <persName corresp="#p_KHA_1">Kissinger</persName> in
                                 Madrid<note n="1" xml:id="d74fn1"><p><seg type="summary">Summary:
@@ -11308,7 +11224,6 @@
                             <signed>Ingersoll</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="75" xml:id="d75" subtype="historical-document"
                         frus:doc-dateTime-min="1976-01-28T00:00:00-05:00"
                         frus:doc-dateTime-max="1976-01-28T23:59:59-05:00">
@@ -11375,7 +11290,6 @@
                         <p>That you concur in notification to Congress of the sale of F–5s and
                             DRAGON missiles to Morocco; following the February recess.</p>
                     </div>
-
                     <div type="document" n="76" xml:id="d76" subtype="historical-document"
                         frus:doc-dateTime-min="1976-02-08T13:42:00-05:00"
                         frus:doc-dateTime-max="1976-02-08T13:42:00-05:00">
@@ -11480,7 +11394,6 @@
                                     >Pickering</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="77" xml:id="d77" subtype="historical-document"
                         frus:doc-dateTime-min="1976-02-08T13:48:00-05:00"
                         frus:doc-dateTime-max="1976-02-08T13:48:00-05:00">
@@ -11552,11 +11465,10 @@
                                     >Pickering</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="198" facs="0225" xml:id="pg_198"/>
                     <div type="document" n="78" xml:id="d78" subtype="historical-document"
                         frus:doc-dateTime-min="1976-02-10T00:00:00-05:00"
                         frus:doc-dateTime-max="1976-02-10T23:59:59-05:00">
-                        <pb n="198" facs="0225" xml:id="pg_198"/>
                         <head>78. Action Memorandum From the Assistant Secretary of State for Near
                             Eastern and South Asian Affairs (<persName corresp="#p_AAL_1"
                                 >Atherton</persName>) to Secretary of State <persName
@@ -11983,11 +11895,10 @@
                             can make available the aircraft to transport the equipment to
                             Morocco.</p>
                     </div>
-
+                    <pb n="207" facs="0234" xml:id="pg_207"/>
                     <div type="document" n="79" xml:id="d79" subtype="historical-document"
                         frus:doc-dateTime-min="1976-02-14T18:52:00-05:00"
                         frus:doc-dateTime-max="1976-02-14T18:52:00-05:00">
-                        <pb n="207" facs="0234" xml:id="pg_207"/>
                         <head>79. Telegram 37574/Tosec 30081 From the Department of State to
                             Secretary of State <persName corresp="#p_KHA_1">Kissinger</persName> at
                                 Aqaba<note n="1" xml:id="d79fn1"><p><seg type="summary">Summary: The
@@ -12181,11 +12092,10 @@
                         <p>That we do not notify the Arab mediators prior to the <gloss
                                 target="#t_NPW_1">NPW</gloss> visit.</p>
                     </div>
-
+                    <pb n="211" facs="0238" xml:id="pg_211"/>
                     <div type="document" n="80" xml:id="d80" subtype="historical-document"
                         frus:doc-dateTime-min="1976-02-14T18:53:00-05:00"
                         frus:doc-dateTime-max="1976-02-14T18:53:00-05:00">
-                        <pb n="211" facs="0238" xml:id="pg_211"/>
                         <head>80. Telegram 37575 From the Department of State to the Embassy in
                                 Iran<note n="1" xml:id="d80fn1"><p><seg type="summary">Summary: The
                                         Department informed the Embassy of complications and general
@@ -12329,7 +12239,6 @@
                             <signed>Ingersoll</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="81" xml:id="d81" subtype="historical-document"
                         frus:doc-dateTime-min="1976-02-14T18:55:00-05:00"
                         frus:doc-dateTime-max="1976-02-14T18:55:00-05:00">
@@ -12492,7 +12401,6 @@
                             <signed>Ingersoll</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="82" xml:id="d82" subtype="historical-document"
                         frus:doc-dateTime-min="1976-02-25T15:47:00-05:00"
                         frus:doc-dateTime-max="1976-02-25T15:47:00-05:00">
@@ -12575,11 +12483,10 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="218" facs="0245" xml:id="pg_218"/>
                     <div type="document" n="83" xml:id="d83" subtype="historical-document"
                         frus:doc-dateTime-min="1976-02-26T00:00:00-05:00"
                         frus:doc-dateTime-max="1976-02-26T23:59:59-05:00">
-                        <pb n="218" facs="0245" xml:id="pg_218"/>
                         <head>83. Memorandum From Robert Oakley of the National Security Council
                             Staff to the President’s Assistant for National Security Affairs
                                 (<persName corresp="#p_SBC_1">Scowcroft</persName>)<note n="1"
@@ -12768,11 +12675,10 @@
                                 target="#t_US_1">US</gloss> and the <gloss target="#t_USSR_1"
                                 >USSR</gloss>. This will be ready by March 1.</p>
                     </div>
-
+                    <pb n="222" facs="0249" xml:id="pg_222"/>
                     <div type="document" n="84" xml:id="d84" subtype="historical-document"
                         frus:doc-dateTime-min="1976-03-11T03:17:00-05:00"
                         frus:doc-dateTime-max="1976-03-11T03:17:00-05:00">
-                        <pb n="222" facs="0249" xml:id="pg_222"/>
                         <head>84. Telegram 1377 From the Embassy in Morocco to the Department of
                                 State<note n="1" xml:id="d84fn1"><p><seg type="summary">Summary:
                                             <persName corresp="#p_NRG_1">Neumann</persName> offered
@@ -12907,11 +12813,10 @@
                                     >Neumann</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="225" facs="0252" xml:id="pg_225"/>
                     <div type="document" n="85" xml:id="d85" subtype="historical-document"
                         frus:doc-dateTime-min="1976-08-26T00:00:00-05:00"
                         frus:doc-dateTime-max="1976-08-26T23:59:59-05:00">
-                        <pb n="225" facs="0252" xml:id="pg_225"/>
                         <head>85. Memorandum From the Acting Assistant Secretary of Defense for
                             International Security Affairs (Poor) to the Deputy Secretary of Defense
                                 (<persName corresp="#p_CWP_1">Clements</persName>)<note n="1"
@@ -13149,7 +13054,6 @@
                             <signed>James G. Poor</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="86" xml:id="d86" subtype="historical-document"
                         frus:doc-dateTime-min="1976-11-29T00:00:00-05:00"
                         frus:doc-dateTime-max="1976-11-29T23:59:59-05:00">
@@ -13426,13 +13330,11 @@
                             this information to King Hassan.</p>
                     </div>
                 </div>
-
+                <pb n="235" facs="0262" xml:id="pg_235"/>
                 <div type="chapter" n="4" xml:id="ch4"
                     frus:doc-dateTime-min="1974-09-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
-                    <pb n="235" facs="0262" xml:id="pg_235"/>
                     <head>Spanish Sahara, 1973–1976</head>
-
                     <div type="document" n="87" xml:id="d87" subtype="historical-document"
                         frus:doc-dateTime-min="1974-09-06T00:00:00-05:00"
                         frus:doc-dateTime-max="1974-09-06T23:59:59-05:00">
@@ -14150,7 +14052,6 @@
                             other Third World countries for which the option of self-determination
                             is of the greatest importance.</p>
                     </div>
-
                     <div type="document" n="88" xml:id="d88" subtype="historical-document"
                         frus:doc-dateTime-min="1974-10-09T06:45:00-05:00"
                         frus:doc-dateTime-max="1974-10-09T08:00:00-05:00">
@@ -14258,7 +14159,6 @@
                             impossible—I will let you know. We won’t change our policy.</p>
                         <p>[Omitted here is discussion of Gibraltar and base negotiations.]</p>
                     </div>
-
                     <div type="document" n="89" xml:id="d89" subtype="historical-document"
                         frus:doc-dateTime-min="1974-10-14T15:35:00-05:00"
                         frus:doc-dateTime-max="1974-10-14T18:30:00-05:00">
@@ -14373,7 +14273,6 @@
                             the International Court, the Hague. We said we have no objection.</p>
                         <p>[Omitted here is discussion unrelated to Spanish Sahara.]</p>
                     </div>
-
                     <div type="document" n="90" xml:id="d90" subtype="historical-document"
                         frus:doc-dateTime-min="1974-10-15T08:15:00-05:00"
                         frus:doc-dateTime-max="1974-10-15T08:15:00-05:00">
@@ -14530,7 +14429,6 @@
                         <p>Hassan: To do so would be a great service to peace.</p>
                         <p>[Omitted here is discussion unrelated to Spanish Sahara.]</p>
                     </div>
-
                     <div type="document" n="91" xml:id="d91" subtype="historical-document"
                         frus:doc-dateTime-min="1975-05-14T19:23:00-05:00"
                         frus:doc-dateTime-max="1975-05-14T19:23:00-05:00">
@@ -14618,11 +14516,10 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="263" facs="0290" xml:id="pg_263"/>
                     <div type="document" n="92" xml:id="d92" subtype="historical-document"
                         frus:doc-dateTime-min="1975-07-19T18:28:00-05:00"
                         frus:doc-dateTime-max="1975-07-19T18:28:00-05:00">
-                        <pb n="263" facs="0290" xml:id="pg_263"/>
                         <head>92. Telegram 170882 From the Department of State to the Mission to the
                             United Nations<note n="1" xml:id="d92fn1"><p><seg type="summary"
                                         >Summary: <persName corresp="#p_KHA_1">Kissinger</persName>
@@ -14734,11 +14631,10 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="265" facs="0292" xml:id="pg_265"/>
                     <div type="document" n="93" xml:id="d93" subtype="historical-document"
                         frus:doc-dateTime-min="1975-10-03T00:00:00-05:00"
                         frus:doc-dateTime-max="1975-10-03T23:59:59-05:00">
-                        <pb n="265" facs="0292" xml:id="pg_265"/>
                         <head>93. Memorandum From Director of Central Intelligence <persName
                                 corresp="#p_CWE_1">Colby</persName> to the President’s Assistant for
                             National Security Affairs (<persName corresp="#p_KHA_1"
@@ -14884,7 +14780,6 @@
                             decisive role in support of Algeria’s ground forces, which are about the
                             same size as Morocco’s, but better trained and equipped.</p>
                     </div>
-
                     <div type="document" n="94" xml:id="d94" subtype="historical-document"
                         frus:doc-dateTime-min="1975-10-04T01:56:00-05:00"
                         frus:doc-dateTime-max="1975-10-04T01:56:00-05:00">
@@ -14967,11 +14862,10 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="270" facs="0297" xml:id="pg_270"/>
                     <div type="document" n="95" xml:id="d95" subtype="historical-document"
                         frus:doc-dateTime-min="1975-10-04T15:15:00-05:00"
                         frus:doc-dateTime-max="1975-10-04T15:15:00-05:00">
-                        <pb n="270" facs="0297" xml:id="pg_270"/>
                         <head>95. Memorandum of Conversation<note n="1" xml:id="d95fn1"><p><seg
                                         type="summary">Summary: <persName corresp="#p_KHA_1"
                                             >Kissinger</persName> and Cortina discussed a possible
@@ -15051,11 +14945,10 @@
                             United Nations of our decolonization plans, but I explained to him that
                             we had to do that.</p>
                     </div>
-
+                    <pb n="272" facs="0299" xml:id="pg_272"/>
                     <div type="document" n="96" xml:id="d96" subtype="historical-document"
                         frus:doc-dateTime-min="1975-10-17T00:00:00-05:00"
                         frus:doc-dateTime-max="1975-10-17T23:59:59-05:00">
-                        <pb n="272" facs="0299" xml:id="pg_272"/>
                         <head>96. Memorandum of Conversation<note n="1" xml:id="d96fn1"><p><seg
                                         type="summary">Summary: <persName corresp="#p_KHA_1"
                                             >Kissinger</persName> and Boutaleb discussed Morocco’s
@@ -15201,11 +15094,10 @@
                             will be Mr. <persName corresp="#p_AAL_1">Atherton</persName>. He should
                             be in Morocco in about a week.</p>
                     </div>
-
+                    <pb n="275" facs="0302" xml:id="pg_275"/>
                     <div type="document" n="97" xml:id="d97" subtype="historical-document"
                         frus:doc-dateTime-min="1975-10-19T17:23:00-05:00"
                         frus:doc-dateTime-max="1975-10-19T17:23:00-05:00">
-                        <pb n="275" facs="0302" xml:id="pg_275"/>
                         <head>97. Telegram 248532 From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d97fn1"><p><seg type="summary">Summary:
                                         The Embassy was instructed to deliver a message from
@@ -15277,7 +15169,6 @@
                             <signed>Ingersoll</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="98" xml:id="d98" subtype="historical-document"
                         frus:doc-dateTime-min="1975-10-26T16:49:00-05:00"
                         frus:doc-dateTime-max="1975-10-26T16:49:00-05:00">
@@ -15367,11 +15258,10 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="278" facs="0305" xml:id="pg_278"/>
                     <div type="document" n="99" xml:id="d99" subtype="historical-document"
                         frus:doc-dateTime-min="1975-10-29T18:29:00-05:00"
                         frus:doc-dateTime-max="1975-10-29T18:29:00-05:00">
-                        <pb n="278" facs="0305" xml:id="pg_278"/>
                         <head>99. Telegram 5445 From the Mission to the United Nations to the
                             Department of State<note n="1" xml:id="d99fn1"><p><seg type="summary"
                                         >Summary: <persName corresp="#p_SJJ_1">Sisco</persName>
@@ -15485,7 +15375,6 @@
                             <signed>Moynihan</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="100" xml:id="d100" subtype="historical-document"
                         frus:doc-dateTime-min="1975-10-30T13:55:00-05:00"
                         frus:doc-dateTime-max="1975-10-30T13:55:00-05:00">
@@ -15588,7 +15477,6 @@
                                     >Parker</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="101" xml:id="d101" subtype="historical-document"
                         frus:doc-dateTime-min="1975-10-30T20:43:00-05:00"
                         frus:doc-dateTime-max="1975-10-30T20:43:00-05:00">
@@ -15658,7 +15546,6 @@
                             <signed>Ingersoll</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="102" xml:id="d102" subtype="historical-document"
                         frus:doc-dateTime-min="1975-10-31T13:25:00-05:00"
                         frus:doc-dateTime-max="1975-10-31T13:25:00-05:00">
@@ -15800,7 +15687,6 @@
                                     >Parker</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="103" xml:id="d103" subtype="historical-document"
                         frus:doc-dateTime-min="1975-11-02T06:11:00-05:00"
                         frus:doc-dateTime-max="1975-11-02T06:11:00-05:00">
@@ -15886,11 +15772,10 @@
                             <signed>Stabler</signed>
                         </closer>
                     </div>
-
+                    <pb n="288" facs="0315" xml:id="pg_288"/>
                     <div type="document" n="104" xml:id="d104" subtype="historical-document"
                         frus:doc-dateTime-min="1975-11-02T18:55:00-05:00"
                         frus:doc-dateTime-max="1975-11-02T18:55:00-05:00">
-                        <pb n="288" facs="0315" xml:id="pg_288"/>
                         <head>104. Telegram 259602 From the Department of State to the Embassy in
                                 Morocco<note n="1" xml:id="d104fn1"><p><seg type="summary">Summary:
                                         The Embassy was instructed to deliver a message from
@@ -15956,7 +15841,6 @@
                             <signed>Robinson</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="105" xml:id="d105" subtype="historical-document"
                         frus:doc-dateTime-min="1975-11-02T20:44:00-05:00"
                         frus:doc-dateTime-max="1975-11-02T20:44:00-05:00">
@@ -16013,7 +15897,6 @@
                                 <affiliation>King of Morocco”</affiliation></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="106" xml:id="d106" subtype="historical-document"
                         frus:doc-dateTime-min="1975-11-02T22:11:00-05:00"
                         frus:doc-dateTime-max="1975-11-02T22:11:00-05:00">
@@ -16043,11 +15926,10 @@
                             <signed>Robinson</signed>
                         </closer>
                     </div>
-
+                    <pb n="291" facs="0318" xml:id="pg_291"/>
                     <div type="document" n="107" xml:id="d107" subtype="historical-document"
                         frus:doc-dateTime-min="1975-11-06T15:35:00-05:00"
                         frus:doc-dateTime-max="1975-11-06T15:35:00-05:00">
-                        <pb n="291" facs="0318" xml:id="pg_291"/>
                         <head>107. Telegram 3286 From the Embassy in Algeria to the Department of
                                 State<note n="1" xml:id="d107fn1"><p><seg type="summary">Summary:
                                         The Embassy informed the Department of a meeting with
@@ -16173,7 +16055,6 @@
                                     >Parker</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="108" xml:id="d108" subtype="historical-document"
                         frus:doc-dateTime-min="1975-11-07T16:54:00-05:00"
                         frus:doc-dateTime-max="1975-11-07T16:54:00-05:00">
@@ -16255,11 +16136,10 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="295" facs="0322" xml:id="pg_295"/>
                     <div type="document" n="109" xml:id="d109" subtype="historical-document"
                         frus:doc-dateTime-min="1975-11-08T00:00:00-05:00"
                         frus:doc-dateTime-max="1975-11-08T23:59:59-05:00">
-                        <pb n="295" facs="0322" xml:id="pg_295"/>
                         <head>109. Memorandum From Director of Central Intelligence <persName
                                 corresp="#p_CWE_1">Colby</persName> to the President’s Assistant for
                             National Security Affairs (<persName corresp="#p_KHA_1"
@@ -16371,7 +16251,6 @@
                                     Colby</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="110" xml:id="d110" subtype="historical-document"
                         frus:doc-dateTime-min="1975-12-17T14:05:00-05:00"
                         frus:doc-dateTime-max="1975-12-17T15:25:00-05:00">
@@ -16643,7 +16522,6 @@
                         <p><persName corresp="#p_BA_1">Bouteflika</persName>: If you can.</p>
                         <p>[Omitted here is discussion of Angola and the Middle East.]</p>
                     </div>
-
                     <div type="document" n="111" xml:id="d111" subtype="historical-document"
                         frus:doc-dateTime-min="1976-01-29T17:00:00-05:00"
                         frus:doc-dateTime-max="1976-01-29T17:00:00-05:00">
@@ -16876,7 +16754,6 @@
                         <p>Mr. Lamrani: I again express my appreciation for this meeting and will
                             faithfully report our conversation to His Majesty.</p>
                     </div>
-
                     <div type="document" n="112" xml:id="d112" subtype="historical-document"
                         frus:doc-dateTime-min="1976-03-02T15:45:00-05:00"
                         frus:doc-dateTime-max="1976-03-02T15:45:00-05:00">
@@ -17137,7 +17014,6 @@
                                     >Neumann</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="113" xml:id="d113" subtype="historical-document"
                         frus:doc-dateTime-min="1976-04-07T22:04:00-05:00"
                         frus:doc-dateTime-max="1976-04-07T22:04:00-05:00">
@@ -17177,11 +17053,10 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
+                    <pb n="313" facs="0340" xml:id="pg_313"/>
                     <div type="document" n="114" xml:id="d114" subtype="historical-document"
                         frus:doc-dateTime-min="1976-09-08T08:43:00-05:00"
                         frus:doc-dateTime-max="1976-09-08T08:43:00-05:00">
-                        <pb n="313" facs="0340" xml:id="pg_313"/>
                         <head>114. Telegram 6832 From the Embassy in Spain to the Department of
                                 State<note n="1" xml:id="d114fn1"><p><seg type="summary">Summary:
                                             <persName corresp="#p_AR_1">Anderson</persName> and
@@ -17407,7 +17282,6 @@
                             <signed>Eaton</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="115" xml:id="d115" subtype="historical-document"
                         frus:doc-dateTime-min="1976-10-26T14:48:00-05:00"
                         frus:doc-dateTime-max="1976-10-26T14:48:00-05:00">
@@ -17459,7 +17333,6 @@
                                     >Kissinger</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="116" xml:id="d116" subtype="historical-document"
                         frus:doc-dateTime-min="1977-01-06T00:00:00-05:00"
                         frus:doc-dateTime-max="1977-01-06T23:59:59-05:00">
@@ -17910,13 +17783,11 @@
                             prospects for early settlement.</p>
                     </div>
                 </div>
-
+                <pb n="329" facs="0356" xml:id="pg_329"/>
                 <div type="chapter" n="5" xml:id="ch5"
                     frus:doc-dateTime-min="1974-05-13T15:00:00-05:00"
                     frus:doc-dateTime-max="1976-11-04T23:59:59-05:00">
-                    <pb n="329" facs="0356" xml:id="pg_329"/>
                     <head>Tunisia, 1973–1976</head>
-
                     <div type="document" n="117" xml:id="d117" subtype="historical-document"
                         frus:doc-dateTime-min="1974-05-13T14:00:00-05:00"
                         frus:doc-dateTime-max="1974-05-13T14:50:00-05:00">
@@ -18017,11 +17888,10 @@
                             the possibility of buying new A–4M’s rather than rehabilitated A–4C’s.
                             (We will look into the spare parts problems.)</p>
                     </div>
-
+                    <pb n="331" facs="0358" xml:id="pg_331"/>
                     <div type="document" n="118" xml:id="d118" subtype="historical-document"
                         frus:doc-dateTime-min="1974-05-14T00:00:00-05:00"
                         frus:doc-dateTime-max="1974-05-14T23:59:59-05:00">
-                        <pb n="331" facs="0358" xml:id="pg_331"/>
                         <head>118. Letter From the Acting Coordinator for Security Assistance of the
                             Department of State (<persName corresp="#p_VGS_1">Vest</persName>) to
                             the Director of the Defense Security Assistance Agency (Peet)<note n="1"
@@ -18200,11 +18070,10 @@
                         <p>We do not anticipate that there will be any Congressional problems over
                             the provision of this credit.</p>
                     </div>
-
+                    <pb n="335" facs="0362" xml:id="pg_335"/>
                     <div type="document" n="119" xml:id="d119" subtype="historical-document"
                         frus:doc-dateTime-min="1974-12-13T07:20:00-05:00"
                         frus:doc-dateTime-max="1974-12-13T07:20:00-05:00">
-                        <pb n="335" facs="0362" xml:id="pg_335"/>
                         <head>119. Telegram 7659 From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d119fn1"><p><seg type="summary">Summary:
                                         Seelye reported on the Tunisian Government’s request for
@@ -18409,7 +18278,6 @@
                             <signed>Seelye</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="120" xml:id="d120" subtype="historical-document"
                         frus:doc-dateTime-min="1974-12-16T04:22:00-05:00"
                         frus:doc-dateTime-max="1974-12-16T04:22:00-05:00">
@@ -18462,7 +18330,6 @@
                                 >Stein</persName></signed>
                         </closer>
                     </div>
-
                     <div type="document" n="121" xml:id="d121" subtype="historical-document"
                         frus:doc-dateTime-min="1975-05-01T09:30:00-05:00"
                         frus:doc-dateTime-max="1975-05-01T10:30:00-05:00">
@@ -18653,11 +18520,10 @@
                             years—from 20 percent to 45 percent.</p>
                         <p>[The meeting ended]</p>
                     </div>
-
+                    <pb n="344" facs="0371" xml:id="pg_344"/>
                     <div type="document" n="122" xml:id="d122" subtype="historical-document"
                         frus:doc-dateTime-min="1975-09-29T15:40:00-05:00"
                         frus:doc-dateTime-max="1975-09-29T16:05:00-05:00">
-                        <pb n="344" facs="0371" xml:id="pg_344"/>
                         <head>122. Memorandum of Conversation<note n="1" xml:id="d122fn1"><p><seg
                                         type="summary">Summary: <persName corresp="#p_KHA_1"
                                             >Kissinger</persName> and Foreign Minister Chatti
@@ -18776,11 +18642,10 @@
                             delegation has precise instructions for the meeting in Tunis.</p>
                         <p>[Omitted here is discussion of the Middle East.]</p>
                     </div>
-
+                    <pb n="346" facs="0373" xml:id="pg_346"/>
                     <div type="document" n="123" xml:id="d123" subtype="historical-document"
                         frus:doc-dateTime-min="1976-02-03T07:00:00-05:00"
                         frus:doc-dateTime-max="1976-02-03T07:00:00-05:00">
-                        <pb n="346" facs="0373" xml:id="pg_346"/>
                         <head>123. Telegram 747 From the Embassy in Tunisia to the Department of
                                 State<note n="1" xml:id="d123fn1"><p><seg type="summary">Summary:
                                         Seelye informed the Department of Tunisia’s growing concern
@@ -18952,7 +18817,6 @@
                             <signed>Seelye</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="124" xml:id="d124" subtype="historical-document"
                         frus:doc-dateTime-min="1976-06-24T00:24:00-05:00"
                         frus:doc-dateTime-max="1976-06-24T00:24:00-05:00">
@@ -19077,11 +18941,10 @@
                             <signed>Robinson</signed>
                         </closer>
                     </div>
-
+                    <pb n="352" facs="0379" xml:id="pg_352"/>
                     <div type="document" n="125" xml:id="d125" subtype="historical-document"
                         frus:doc-dateTime-min="1976-07-02T09:15:00-05:00"
                         frus:doc-dateTime-max="1976-07-02T09:45:00-05:00">
-                        <pb n="352" facs="0379" xml:id="pg_352"/>
                         <head>125. Memorandum of Conversation<note n="1" xml:id="d125fn1"><p><seg
                                         type="summary">Summary: Habib Bourguiba, Jr., and <persName
                                             corresp="#p_FGR_1">Ford</persName> discussed Tunisian
@@ -19175,11 +19038,10 @@
                         <p>Bourguiba: We are the only practicing democracy in the Mediterranean.</p>
                         <p>[Describes from Turkey around the sea what problems are being faced.]</p>
                     </div>
-
+                    <pb n="354" facs="0381" xml:id="pg_354"/>
                     <div type="document" n="126" xml:id="d126" subtype="historical-document"
                         frus:doc-dateTime-min="1976-07-23T21:23:00-05:00"
                         frus:doc-dateTime-max="1976-07-23T21:23:00-05:00">
-                        <pb n="354" facs="0381" xml:id="pg_354"/>
                         <head>126. Telegram 184120/Tosec 190110 From the Department of State to
                             Secretary of State <persName corresp="#p_KHA_1">Kissinger</persName> in
                                 Portland<note n="1" xml:id="d126fn1"><p><seg type="summary">Summary:
@@ -19356,7 +19218,6 @@
                             <signed>Robinson</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="127" xml:id="d127" subtype="historical-document"
                         frus:doc-dateTime-min="1976-10-22T12:00:00-05:00"
                         frus:doc-dateTime-max="1976-10-22T12:00:00-05:00">
@@ -19476,11 +19337,10 @@
                         <p>The Secretary: Yes I am, and we shall do what we can. I suggest that we
                             now go upstairs and join the others.</p>
                     </div>
-
+                    <pb n="360" facs="0387" xml:id="pg_360"/>
                     <div type="document" n="128" xml:id="d128" subtype="historical-document"
                         frus:doc-dateTime-min="1976-11-04T00:00:00-05:00"
                         frus:doc-dateTime-max="1976-11-04T23:59:59-05:00">
-                        <pb n="360" facs="0387" xml:id="pg_360"/>
                         <head>128. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_SBC_1">Scowcroft</persName>) to President
                                 <persName corresp="#p_FGR_1">Ford</persName><note n="1"

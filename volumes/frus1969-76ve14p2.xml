@@ -16,7 +16,6 @@
                 <editor role="primary">Chris Tudda</editor>
                 <editor role="general">Adam M. Howard</editor>
             </titleStmt>
-
             <publicationStmt>
                 <publisher>United States Government Publishing Office</publisher>
                 <pubPlace>Washington</pubPlace>
@@ -25,7 +24,6 @@
                 <date type="content-date" calendar="gregorian" notBefore="1973-01-23T00:00:00-05:00"
                     notAfter="1976-12-29T23:59:59-05:00">1973 to 1976</date>
             </publicationStmt>
-
             <sourceDesc>
                 <p>Released in 2015 as printed book.</p>
             </sourceDesc>
@@ -40,9 +38,7 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
-
     </teiHeader>
-
     <text>
         <front>
             <titlePage type="main">
@@ -76,11 +72,10 @@
                     <gap quantity="1" unit="pages" reason="convenience"/>
                 </docImprint>
             </titlePage>
-
+            <pb n="III" facs="0004" xml:id="pg_III"/>
             <div type="section" xml:id="preface" subtype="preface"
                 frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                 frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
-                <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -266,11 +261,10 @@
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
+            <pb n="IX" facs="0010" xml:id="pg_IX"/>
             <div type="section" xml:id="toc" subtype="table-of-contents"
                 frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                 frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
-                <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
                     <item>
@@ -298,11 +292,10 @@
                 <pb n="X" facs="0011" xml:id="pg_X"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
+            <pb n="XI" facs="0012" xml:id="pg_XI"/>
             <div type="section" xml:id="sources" subtype="sources"
                 frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                 frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
-                <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
                     Series</p>
@@ -607,7 +600,6 @@
                 <pb n="XVI" facs="0017" xml:id="pg_XVI"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
             <div type="section" xml:id="terms" subtype="index"
                 frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                 frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
@@ -1495,11 +1487,10 @@
                 <pb n="XXII" facs="0023" xml:id="pg_XXII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
+            <pb n="XXIII" facs="0024" xml:id="pg_XXIII"/>
             <div type="section" xml:id="persons" subtype="index"
                 frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                 frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
-                <pb n="XXIII" facs="0024" xml:id="pg_XXIII"/>
                 <head>Persons</head>
                 <list type="simple">
                     <item>
@@ -2838,13 +2829,11 @@
                 </list>
             </div>
         </front>
-
         <body>
             <pb n="1" facs="0035" xml:id="pg_1"/>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                 frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
                 <head>Documents on Arms Control and Nonproliferation, 1973–1976</head>
-
                 <div type="document" n="1" xml:id="d1" subtype="historical-document"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-01-23T23:59:59-05:00">
@@ -2897,7 +2886,6 @@
                         <head>SUBJECT</head>
                         <item>Non-Proliferation Treaty</item>
                     </list>
-
                     <p>The momentum for adherence to the nuclear Non-Proliferation Treaty has
                         slowed. We believe it is important that the United States reaffirm the high
                         priority it attaches to the Treaty. While Australia is expected to become a
@@ -2930,7 +2918,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="3" facs="0037" xml:id="pg_3"/>
                 <div type="document" n="2" xml:id="d2" subtype="historical-document"
                     frus:doc-dateTime-min="1973-01-26T00:00:00-05:00"
@@ -3170,7 +3157,6 @@
                         experts might be made available by appropriate government agencies. Annual
                         costs for the second model would be roughly $1–1.5 million.</p>
                 </div>
-
                 <div type="document" n="3" xml:id="d3" subtype="historical-document"
                     frus:doc-dateTime-min="1973-03-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-03-09T23:59:59-05:00">
@@ -3264,7 +3250,6 @@
                         is somewhat technical but this must be carefully drawn in view of the
                         widespread production of chemicals for peaceful use.</p>
                 </div>
-
                 <pb n="9" facs="0043" xml:id="pg_9"/>
                 <div type="document" n="4" xml:id="d4" subtype="historical-document"
                     frus:doc-dateTime-min="1973-03-19T16:42:00-05:00"
@@ -3410,7 +3395,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="5" xml:id="d5" subtype="historical-document"
                     frus:doc-dateTime-min="1973-04-04T20:31:00-05:00"
                     frus:doc-dateTime-max="1973-04-04T20:31:00-05:00">
@@ -3561,7 +3545,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="14" facs="0048" xml:id="pg_14"/>
                 <div type="document" n="6" xml:id="d6" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
@@ -3608,7 +3591,6 @@
                             target="#t_ACDA_1">ACDA</gloss>’s 1972 annual report, see <hi
                             rend="italic">Documents on Disarmament, 1972,</hi> pages 871–905.</p>
                 </div>
-
                 <pb n="15" facs="0049" xml:id="pg_15"/>
                 <div type="document" n="7" xml:id="d7" subtype="historical-document"
                     frus:doc-dateTime-min="1973-04-26T00:00:00-05:00"
@@ -3988,7 +3970,6 @@
                             >Nomura</persName> said he agreed with Mr. <persName corresp="#p_NAF_1"
                             >Neidle</persName>’s points.</p>
                 </div>
-
                 <div type="document" n="8" xml:id="d8" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
@@ -4025,15 +4006,14 @@
                         to exclude the outbreak of nuclear war between them and between either of
                         the Parties and other countries.” (Ibid., page 160)</p>
                 </div>
-
                 <pb n="22" facs="0056" xml:id="pg_22"/>
                 <div type="document" n="9" xml:id="d9" subtype="historical-document"
                     frus:doc-dateTime-min="1973-06-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-06-28T23:59:59-05:00">
                     <head>9. Memorandum From the Chairman of the National Security Council Under
                         Secretaries Committee (<persName corresp="#p_RKW_1">Rush</persName>) to
-                        President <persName corresp="#p_NRM_1">Nixon</persName>
-                        <note n="1" xml:id="d9fn1">
+                        President <persName corresp="#p_NRM_1">Nixon</persName><note n="1"
+                            xml:id="d9fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_RKW_1"
                                         >Rush</persName> recommended that <persName
                                         corresp="#p_NRM_1">Nixon</persName> direct the National
@@ -4102,7 +4082,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="10" xml:id="d10" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
@@ -4184,7 +4163,6 @@
                             <hi rend="italic">Foreign Relations,</hi> 1969–1976, volume E–12,
                             Documents on East and Southeast Asia, 1973–1976, Document 179</ref>.</p>
                 </div>
-
                 <pb n="25" facs="0059" xml:id="pg_25"/>
                 <div type="document" n="11" xml:id="d11" subtype="historical-document"
                     frus:doc-dateTime-min="1973-08-25T00:00:00-05:00"
@@ -4288,7 +4266,6 @@
                             regarding the meaning and purpose of this agreement.</p>
                     </quote>
                 </div>
-
                 <pb n="27" facs="0061" xml:id="pg_27"/>
                 <div type="document" n="12" xml:id="d12" subtype="historical-document"
                     frus:doc-dateTime-min="1973-09-12T00:00:00-05:00"
@@ -4400,15 +4377,14 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="29" facs="0063" xml:id="pg_29"/>
                 <div type="document" n="13" xml:id="d13" subtype="historical-document"
                     frus:doc-dateTime-min="1973-09-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-09-13T23:59:59-05:00">
                     <head>13. Information Memorandum From the Department of State Deputy Legal
                         Adviser (<persName corresp="#p_AGH_1">Aldrich</persName>) to Acting
-                        Secretary of State <persName corresp="#p_RKW_1">Rush</persName>
-                        <note n="1" xml:id="d13fn1">
+                        Secretary of State <persName corresp="#p_RKW_1">Rush</persName><note n="1"
+                            xml:id="d13fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_AGH_1"
                                         >Aldrich</persName> informed <persName corresp="#p_RKW_1"
                                         >Rush</persName> that the Bureau of Politico-Military
@@ -4525,8 +4501,8 @@
                         anticipate as a result of <gloss target="#t_CW_1">CW</gloss> use.</p>
                     <p rend="sectiontitleital">Conclusions</p>
                     <p>The conclusions we draw from this analysis are basically as follows:</p>
+                    <pb n="31" facs="0065" xml:id="pg_31"/>
                     <quote>
-                        <pb n="31" facs="0065" xml:id="pg_31"/>
                         <p>First, it is in the interests of the United States to seek the
                             establishment of an internationally agreed legal prohibition on the
                             stockpiling, as well as the production and transfer, of chemical
@@ -4559,15 +4535,14 @@
                         considered, we would want an opportunity to explain to you our objections to
                         the use of such a procedure.</p>
                 </div>
-
                 <pb n="32" facs="0066" xml:id="pg_32"/>
                 <div type="document" n="14" xml:id="d14" subtype="historical-document"
                     frus:doc-dateTime-min="1973-09-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-09-13T23:59:59-05:00">
                     <head>14. Action Memorandum From the Deputy Director of the Bureau of
                         Politico-Military Affairs (<persName corresp="#p_SL_1">Sloss</persName>) to
-                        Acting Secretary of State <persName corresp="#p_RKW_1">Rush</persName>
-                        <note n="1" xml:id="d14fn1">
+                        Acting Secretary of State <persName corresp="#p_RKW_1">Rush</persName><note
+                            n="1" xml:id="d14fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_SL_1"
                                         >Sloss</persName> submitted to <persName corresp="#p_RKW_1"
                                         >Rush</persName> the Department’s proposed approach to
@@ -4717,7 +4692,6 @@
                             >Kissinger</persName> incorporating this new <gloss target="#t_CW_1"
                             >CW</gloss> initiative.</p>
                 </div>
-
                 <div type="document" n="15" xml:id="d15" subtype="historical-document"
                     frus:doc-dateTime-min="1973-09-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-09-20T23:59:59-05:00">
@@ -4788,7 +4762,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="36" facs="0070" xml:id="pg_36"/>
                 <div type="document" n="16" xml:id="d16" subtype="historical-document"
                     frus:doc-dateTime-min="1973-09-28T20:10:00-05:00"
@@ -4846,15 +4819,13 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="37" facs="0071" xml:id="pg_37"/>
                 <div type="document" n="17" xml:id="d17" subtype="historical-document"
                     frus:doc-dateTime-min="1973-10-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-10-01T23:59:59-05:00">
                     <head>17. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>) to President
-                            <persName corresp="#p_NRM_1">Nixon</persName>
-                        <note n="1" xml:id="d17fn1">
+                            <persName corresp="#p_NRM_1">Nixon</persName><note n="1" xml:id="d17fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> recommended that <persName
                                         corresp="#p_NRM_1">Nixon</persName> approve the policy of
@@ -4966,7 +4937,6 @@
                         the above mentioned constraints and considerations as outlined in the
                         proposed implementing memorandum at Tab A.</p>
                 </div>
-
                 <pb n="39" facs="0073" xml:id="pg_39"/>
                 <div type="document" n="18" xml:id="d18" subtype="historical-document"
                     frus:doc-dateTime-min="1973-10-04T00:00:00-05:00"
@@ -5065,7 +5035,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="19" xml:id="d19" subtype="historical-document"
                     frus:doc-dateTime-min="1973-10-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-10-05T23:59:59-05:00">
@@ -5125,7 +5094,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="20" xml:id="d20" subtype="historical-document"
                     frus:doc-dateTime-min="1973-10-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-10-24T23:59:59-05:00">
@@ -5257,8 +5225,8 @@
                             bill prohibited authorization for research, development, testing and
                             evaluation or procurement of <hi rend="italic">any</hi> chemical or
                             biological weapon, <hi rend="italic">including those for incapacitating,
-                                defoliation, or other military operations.</hi>
-                            <note n="4" xml:id="d20fn4">
+                                defoliation, or other military operations.</hi><note n="4"
+                                xml:id="d20fn4">
                                 <gloss target="#t_HRpt_1">H. Rpt.</gloss> 91–607, note 1 supra., at
                                 23 (emphasis added). [Footnote is in the original.]</note>
                         </p>
@@ -5328,7 +5296,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="46" facs="0080" xml:id="pg_46"/>
                 <div type="document" n="21" xml:id="d21" subtype="historical-document"
                     frus:doc-dateTime-min="1973-11-01T00:00:00-05:00"
@@ -5336,8 +5303,7 @@
                     <head>21. Action Memorandum From the Director of the Office of International
                         Scientific and Technological Affairs (<persName corresp="#p_PH_1"
                             >Pollack</persName>) to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d21fn1">
+                            >Kissinger</persName><note n="1" xml:id="d21fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_PH_1"
                                         >Pollack</persName> provided <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> with background on correspondence
@@ -5482,14 +5448,12 @@
                     <p>That you sign the letter to Senator <persName corresp="#p_PCDB_1"
                             >Pell</persName> at Tab A.</p>
                 </div>
-
                 <div type="document" n="22" xml:id="d22" subtype="historical-document"
                     frus:doc-dateTime-min="1973-11-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-11-05T23:59:59-05:00">
                     <head>22. Letter From Secretary of State <persName corresp="#p_KHA_1"
                             >Kissinger</persName> to Senator <persName corresp="#p_PCDB_1"
-                            >Pell</persName>
-                        <note n="1" xml:id="d22fn1">
+                            >Pell</persName><note n="1" xml:id="d22fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> informed <persName corresp="#p_PCDB_1"
                                         >Pell</persName> that he intended to take seriously
@@ -5533,15 +5497,14 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="49" facs="0083" xml:id="pg_49"/>
                 <div type="document" n="23" xml:id="d23" subtype="historical-document"
                     frus:doc-dateTime-min="1973-11-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-11-05T23:59:59-05:00">
                     <head>23. Action Memorandum From the Director of the Bureau of Politico-Military
                         Affairs (<persName corresp="#p_WS_1">Weiss</persName>) to Deputy Secretary
-                        of State <persName corresp="#p_RKW_1">Rush</persName>
-                        <note n="1" xml:id="d23fn1">
+                        of State <persName corresp="#p_RKW_1">Rush</persName><note n="1"
+                            xml:id="d23fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_WS_1"
                                         >Weiss</persName> sent <persName corresp="#p_RKW_1"
                                         >Rush</persName> a comprehensive review of the Arms Control
@@ -5716,7 +5679,6 @@
                             >Kissinger</persName> incorporating the proposed <gloss target="#t_CW_1"
                             >CW</gloss> initiative.</p>
                 </div>
-
                 <pb n="52" facs="0086" xml:id="pg_52"/>
                 <div type="document" n="24" xml:id="d24" subtype="historical-document"
                     frus:doc-dateTime-min="1973-11-08T00:00:00-05:00"
@@ -5724,8 +5686,7 @@
                     <head>24. Memorandum <gloss target="#t_JCSM_1">JCSM</gloss>–487–73 From the
                         Chairman of the Joint Chiefs of Staff (<persName corresp="#p_MTH_1"
                             >Moorer</persName>) to Secretary of Defense <persName corresp="#p_SJR_1"
-                            >Schlesinger</persName>
-                        <note n="1" xml:id="d24fn1">
+                            >Schlesinger</persName><note n="1" xml:id="d24fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_MTH_1"
                                         >Moorer</persName> recommended that the <gloss
                                         target="#t_US_1">U.S.</gloss> military be authorized to use
@@ -5820,7 +5781,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="54" facs="0088" xml:id="pg_54"/>
                 <div type="document" n="25" xml:id="d25" subtype="historical-document"
                     frus:doc-dateTime-min="1973-11-12T00:00:00-05:00"
@@ -5999,7 +5959,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="26" xml:id="d26" subtype="historical-document"
                     frus:doc-dateTime-min="1973-11-26T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-11-26T23:59:59-05:00">
@@ -6082,7 +6041,6 @@
                     <p>That you sign the memorandum to Mr. <persName corresp="#p_KHA_1"
                             >Kissinger</persName> at Tab A.</p>
                 </div>
-
                 <pb n="59" facs="0093" xml:id="pg_59"/>
                 <div type="document" n="27" xml:id="d27" subtype="historical-document"
                     frus:doc-dateTime-min="1973-11-28T00:00:00-05:00"
@@ -6147,16 +6105,15 @@
                             <persName corresp="#p_RKW_1">Kenneth Rush</persName>
                         </signed>
                     </closer>
-
-                    <pb n="60" facs="0094" xml:id="pg_60"/>
                 </div>
+                <pb n="60" facs="0094" xml:id="pg_60"/>
                 <div type="document" n="28" xml:id="d28" subtype="historical-document"
                     frus:doc-dateTime-min="1974-01-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-01-25T23:59:59-05:00">
                     <head>28. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>) to Secretary of
-                        Defense <persName corresp="#p_SJR_1">Schlesinger</persName>
-                        <note n="1" xml:id="d28fn1">
+                        Defense <persName corresp="#p_SJR_1">Schlesinger</persName><note n="1"
+                            xml:id="d28fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> informed <persName corresp="#p_SJR_1"
                                         >Schlesinger</persName> of President <persName
@@ -6198,7 +6155,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="61" facs="0095" xml:id="pg_61"/>
                 <div type="document" n="29" xml:id="d29" subtype="historical-document"
                     frus:doc-dateTime-min="1974-02-07T00:00:00-05:00"
@@ -6284,7 +6240,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="30" xml:id="d30" subtype="historical-document"
                     frus:doc-dateTime-min="1974-02-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-02-20T23:59:59-05:00">
@@ -6373,7 +6328,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="64" facs="0098" xml:id="pg_64"/>
                 <div type="document" n="31" xml:id="d31" subtype="historical-document"
                     frus:doc-dateTime-min="1974-03-01T00:00:00-05:00"
@@ -6600,14 +6554,12 @@
                         information, with any recommendations for further action.</p>
                     <p>[Omitted here are the remainder of the paper and the appendices.]</p>
                 </div>
-
                 <div type="document" n="32" xml:id="d32" subtype="historical-document"
                     frus:doc-dateTime-min="1974-03-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-03-12T23:59:59-05:00">
                     <head>32. Memorandum From <persName corresp="#p_LJM_1">Jan Lodal</persName> of
                         the National Security Council Staff to Secretary of State <persName
-                            corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" xml:id="d32fn1">
+                            corresp="#p_KHA_1">Kissinger</persName><note n="1" xml:id="d32fn1">
                             <p><seg type="summary">Summary: In advance of <persName
                                         corresp="#p_KHA_1">Kissinger</persName>’s trip to Moscow and
                                     discussions with <persName corresp="#p_BL_1"
@@ -7058,7 +7010,6 @@
                     <p>Hal Sonnenfeldt and <persName corresp="#p_HWG_1">Bill Hyland</persName>
                         concur.</p>
                 </div>
-
                 <pb n="76" facs="0110" xml:id="pg_76"/>
                 <div type="document" n="33" xml:id="d33" subtype="historical-document"
                     frus:doc-dateTime-min="1974-03-12T00:00:00-05:00"
@@ -7153,7 +7104,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="34" xml:id="d34" subtype="historical-document"
                     frus:doc-dateTime-min="1974-03-20T11:30:00-05:00"
                     frus:doc-dateTime-max="1974-03-20T11:30:00-05:00">
@@ -7353,7 +7303,6 @@
                         bilaterals; we don’t really need that one.</p>
                     <p>[Omitted here is discussion unrelated to arms control.]</p>
                 </div>
-
                 <pb n="81" facs="0115" xml:id="pg_81"/>
                 <div type="document" n="35" xml:id="d35" subtype="historical-document"
                     frus:doc-dateTime-min="1974-03-21T00:00:00-05:00"
@@ -7361,8 +7310,7 @@
                     <head>35. Memorandum From <persName corresp="#p_LJM_1">Jan Lodal</persName> of
                         the National Security Council Staff and the Counselor of the Department of
                         State (Sonnefeldt) to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d35fn1">
+                            >Kissinger</persName><note n="1" xml:id="d35fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_LJM_1"
                                         >Lodal</persName> and Sonnenfeldt examined the implications
                                     of a threshold test ban and addressed <persName
@@ -7631,7 +7579,6 @@
                     <p>
                         <persName corresp="#p_HWG_1">Bill Hyland</persName> concurs.</p>
                 </div>
-
                 <div type="document" n="36" xml:id="d36" subtype="historical-document"
                     frus:doc-dateTime-min="1974-03-21T18:12:00-05:00"
                     frus:doc-dateTime-max="1974-03-21T18:12:00-05:00">
@@ -7694,7 +7641,6 @@
                         transmit the aide mémoire to his authorities and that a reply would be
                         provided in due course.</p>
                 </div>
-
                 <div type="document" n="37" xml:id="d37" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
@@ -7785,7 +7731,6 @@
                             target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File, [no film
                         number])</p>
                 </div>
-
                 <div type="document" n="38" xml:id="d38" subtype="historical-document"
                     frus:doc-dateTime-min="1974-03-29T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-03-29T23:59:59-05:00">
@@ -7871,15 +7816,13 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="39" xml:id="d39" subtype="historical-document"
                     frus:doc-dateTime-min="1974-04-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-04-05T23:59:59-05:00">
                     <head>39. Memorandum <gloss target="#t_NSC_1">NSC</gloss>–U/DM–122 From the
                         Chairman of the National Security Council Under Secretaries Committee
                             (<persName corresp="#p_RKW_1">Rush</persName>) to President <persName
-                            corresp="#p_NRM_1">Nixon</persName>
-                        <note n="1" xml:id="d39fn1">
+                            corresp="#p_NRM_1">Nixon</persName><note n="1" xml:id="d39fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_RKW_1"
                                         >Rush</persName> submitted an action program prepared by the
                                     National Security Council Under Secretaries Committee on steps
@@ -7973,7 +7916,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="91" facs="0125" xml:id="pg_91"/>
                 <div type="document" n="40" xml:id="d40" subtype="historical-document"
                     frus:doc-dateTime-min="1974-04-12T13:15:00-05:00"
@@ -8158,7 +8100,6 @@
                         will let you know by May 1.</p>
                     <p>[Omitted here is discussion unrelated to weather modification.]</p>
                 </div>
-
                 <pb n="94" facs="0128" xml:id="pg_94"/>
                 <div type="document" n="41" xml:id="d41" subtype="historical-document"
                     frus:doc-dateTime-min="1974-04-16T00:00:00-05:00"
@@ -8361,7 +8302,6 @@
                         the Committee could eventually result in effective controls over these
                         weapons to the general benefit.</p>
                 </div>
-
                 <div type="document" n="42" xml:id="d42" subtype="historical-document"
                     frus:doc-dateTime-min="1974-04-19T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-04-19T23:59:59-05:00">
@@ -8507,15 +8447,13 @@
                     <p>[Omitted here are the remainder of the study and three technical
                         annexes.]</p>
                 </div>
-
                 <pb n="101" facs="0135" xml:id="pg_101"/>
                 <div type="document" n="43" xml:id="d43" subtype="historical-document"
                     frus:doc-dateTime-min="1974-04-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-04-24T23:59:59-05:00">
                     <head>43. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>) to President
-                            <persName corresp="#p_NRM_1">Nixon</persName>
-                        <note n="1" xml:id="d43fn1">
+                            <persName corresp="#p_NRM_1">Nixon</persName><note n="1" xml:id="d43fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> recommended that <persName
                                         corresp="#p_NRM_1">Nixon</persName> approve the National
@@ -8598,7 +8536,6 @@
                         and fuel. Subject to your approval, I will sign the necessary implementing
                         directive at Tab A.</p>
                 </div>
-
                 <div type="document" n="44" xml:id="d44" subtype="historical-document"
                     frus:doc-dateTime-min="1974-04-26T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-04-26T23:59:59-05:00">
@@ -8684,15 +8621,13 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="104" facs="0138" xml:id="pg_104"/>
                 <div type="document" n="45" xml:id="d45" subtype="historical-document"
                     frus:doc-dateTime-min="1974-05-16T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-05-16T23:59:59-05:00">
                     <head>45. Memorandum From <persName corresp="#p_GMA_1">Michael Guhin</persName>
                         of the National Security Council Staff to Secretary of State <persName
-                            corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" xml:id="d45fn1">
+                            corresp="#p_KHA_1">Kissinger</persName><note n="1" xml:id="d45fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_GMA_1"
                                         >Guhin</persName> sent <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> a summary of the action program
@@ -8812,7 +8747,6 @@
                     <p>2. If he approves, that you issue the <gloss target="#t_NSDM_1">NSDM</gloss>
                         (Tab A).</p>
                 </div>
-
                 <pb n="106" facs="0140" xml:id="pg_106"/>
                 <div type="document" n="46" xml:id="d46" subtype="historical-document"
                     frus:doc-dateTime-min="1974-05-17T00:00:00-05:00"
@@ -8948,7 +8882,6 @@
                         but would probably not concur in <persName corresp="#p_IFC_1"
                             >Iklé</persName>’s suggested way to resolve the Protocol issue.</p>
                 </div>
-
                 <pb n="108" facs="0142" xml:id="pg_108"/>
                 <div type="document" n="47" xml:id="d47" subtype="historical-document"
                     frus:doc-dateTime-min="1974-05-18T01:00:00-05:00"
@@ -9010,7 +8943,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="109" facs="0143" xml:id="pg_109"/>
                 <div type="document" n="48" xml:id="d48" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
@@ -9033,7 +8965,6 @@
                         Government.” (<hi rend="italic">Documents on Disarmament, 1974,</hi> page
                         152)</p>
                 </div>
-
                 <div type="document" n="49" xml:id="d49" subtype="historical-document"
                     frus:doc-dateTime-min="1974-05-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-05-22T23:59:59-05:00">
@@ -9107,7 +9038,6 @@
                         banning their first use in war.</p>
                     <p>We should have a package staffed ready for decision sometime next week.</p>
                 </div>
-
                 <pb n="111" facs="0145" xml:id="pg_111"/>
                 <div type="document" n="50" xml:id="d50" subtype="historical-document"
                     frus:doc-dateTime-min="1974-05-23T00:00:00-05:00"
@@ -9199,14 +9129,12 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="51" xml:id="d51" subtype="historical-document"
                     frus:doc-dateTime-min="1974-05-29T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-05-29T23:59:59-05:00">
                     <head>51. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>) to President
-                            <persName corresp="#p_NRM_1">Nixon</persName>
-                        <note n="1" xml:id="d51fn1">
+                            <persName corresp="#p_NRM_1">Nixon</persName><note n="1" xml:id="d51fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> recommended that the President approve
                                     the attached National Security Decision Memorandum implementing
@@ -9299,7 +9227,6 @@
                     <p rend="sectiontitleital">Recommendation:</p>
                     <p>That you approve the <gloss target="#t_NSDM_1">NSDM</gloss> at Tab A.</p>
                 </div>
-
                 <pb n="114" facs="0148" xml:id="pg_114"/>
                 <div type="document" n="52" xml:id="d52" subtype="historical-document"
                     frus:doc-dateTime-min="1974-05-30T00:00:00-05:00"
@@ -9526,7 +9453,6 @@
                         traditional opposition to big power assurances.</p>
                     <p>[Omitted here is the body of the paper.]</p>
                 </div>
-
                 <div type="document" n="53" xml:id="d53" subtype="historical-document"
                     frus:doc-dateTime-min="1974-06-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-06-03T23:59:59-05:00">
@@ -9621,7 +9547,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="120" facs="0154" xml:id="pg_120"/>
                 <div type="document" n="54" xml:id="d54" subtype="historical-document"
                     frus:doc-dateTime-min="1974-06-10T00:00:00-05:00"
@@ -9703,7 +9628,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="55" xml:id="d55" subtype="historical-document"
                     frus:doc-dateTime-min="1974-06-14T14:52:00-05:00"
                     frus:doc-dateTime-max="1974-06-14T14:52:00-05:00">
@@ -9783,7 +9707,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="123" facs="0157" xml:id="pg_123"/>
                 <div type="document" n="56" xml:id="d56" subtype="historical-document"
                     frus:doc-dateTime-min="1974-06-20T14:10:00-05:00"
@@ -10182,7 +10105,6 @@
                         to wrestle on this issue in Moscow.</p>
                     <p>[Omitted here is discussion of matters unrelated to a test ban.]</p>
                 </div>
-
                 <div type="document" n="57" xml:id="d57" subtype="historical-document"
                     frus:doc-dateTime-min="1974-06-21T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-06-21T23:59:59-05:00">
@@ -10930,7 +10852,6 @@
                         Damage From the Indian Development and Containing the <gloss
                             target="#t_PNE_1">PNE</gloss> Problem.]</p>
                 </div>
-
                 <div type="document" n="58" xml:id="d58" subtype="historical-document"
                     frus:doc-dateTime-min="1974-06-28T08:00:00-05:00"
                     frus:doc-dateTime-max="1974-06-28T09:30:00-05:00">
@@ -11398,7 +11319,6 @@
                         possible then the goals themselves become more possible and that is what we
                         intend as a step in the test ban.</p>
                 </div>
-
                 <div type="document" n="59" xml:id="d59" subtype="historical-document"
                     frus:doc-dateTime-min="1974-06-29T01:30:00-05:00"
                     frus:doc-dateTime-max="1974-06-29T02:10:00-05:00">
@@ -11804,7 +11724,6 @@
                     <p>[The meeting then ended, to give time for preparation for the plenary meeting
                         at 11:00.]</p>
                 </div>
-
                 <div type="document" n="60" xml:id="d60" subtype="historical-document"
                     frus:doc-dateTime-min="1974-06-29T03:12:00-05:00"
                     frus:doc-dateTime-max="1974-06-29T05:10:00-05:00">
@@ -12172,7 +12091,6 @@
                         <persName corresp="#p_BL_1">Brezhnev</persName>: Agreed.</p>
                     <p>[Omitted here is the remainder of the memorandum of conversation.]</p>
                 </div>
-
                 <pb n="163" facs="0197" xml:id="pg_163"/>
                 <div type="document" n="61" xml:id="d61" subtype="historical-document"
                     frus:doc-dateTime-min="1974-07-01T09:10:00-05:00"
@@ -13494,7 +13412,6 @@
                         <persName corresp="#p_GAA_2">Gromyko</persName>: Please.</p>
                     <p>[Omitted here is discussion of <gloss target="#t_SALT_1">SALT</gloss>.]</p>
                 </div>
-
                 <div type="document" n="62" xml:id="d62" subtype="historical-document"
                     frus:doc-dateTime-min="1974-07-02T04:45:00-05:00"
                     frus:doc-dateTime-max="1974-07-02T07:15:00-05:00">
@@ -14001,7 +13918,6 @@
                         <persName corresp="#p_DA_1">Dobrynin</persName>: All purified in Geneva.</p>
                     <p>[Omitted here is discussion related to the communiqué.]</p>
                 </div>
-
                 <div type="document" n="63" xml:id="d63" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
@@ -14052,7 +13968,6 @@
                         of nuclear and thermonuclear explosions in the world.” (Ibid., pages
                         579–580)</p>
                 </div>
-
                 <pb n="190" facs="0224" xml:id="pg_190"/>
                 <div type="document" n="64" xml:id="d64" subtype="historical-document"
                     frus:doc-dateTime-min="1974-07-03T12:50:00-05:00"
@@ -14093,7 +14008,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="191" facs="0225" xml:id="pg_191"/>
                 <div type="document" n="65" xml:id="d65" subtype="historical-document"
                     frus:doc-dateTime-min="1974-07-12T15:05:00-05:00"
@@ -14906,7 +14820,6 @@
                     <p>Well, why don’t we proceed on this basis and meet again within two weeks.</p>
                     <p>(Whereupon at 4:50 p.m. the meeting was adjourned.)</p>
                 </div>
-
                 <div type="document" n="66" xml:id="d66" subtype="historical-document"
                     frus:doc-dateTime-min="1974-07-15T11:54:00-05:00"
                     frus:doc-dateTime-max="1974-07-15T11:54:00-05:00">
@@ -15157,7 +15070,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="212" facs="0246" xml:id="pg_212"/>
                 <div type="document" n="67" xml:id="d67" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-05T00:00:00-05:00"
@@ -15165,8 +15077,7 @@
                     <head>67. Memorandum From <persName corresp="#p_LJM_1">Jan Lodal</persName> of
                         the National Security Council Staff and the Counselor of the Department of
                         State (Sonnenfeldt) to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d67fn1">
+                            >Kissinger</persName><note n="1" xml:id="d67fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_LJM_1"
                                         >Lodal</persName> and Sonnenfeldt reviewed a Soviet proposal
                                     to begin negotiations in late September on nuclear explosions
@@ -15276,15 +15187,13 @@
                         have been identified which warrant alterations in the course of action
                         proposed by the Soviets.</p>
                 </div>
-
                 <pb n="214" facs="0248" xml:id="pg_214"/>
                 <div type="document" n="68" xml:id="d68" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-08-06T23:59:59-05:00">
                     <head>68. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>) to President
-                            <persName corresp="#p_NRM_1">Nixon</persName>
-                        <note n="1" xml:id="d68fn1">
+                            <persName corresp="#p_NRM_1">Nixon</persName><note n="1" xml:id="d68fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> summarized interagency views
                                     concerning restraints on environmental modification for warfare
@@ -15392,7 +15301,6 @@
                         supported by <gloss target="#t_OSD_1">OSD</gloss> and the <gloss
                             target="#t_JCS_1">JCS</gloss>.</p>
                 </div>
-
                 <pb n="216" facs="0250" xml:id="pg_216"/>
                 <div type="document" n="69" xml:id="d69" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-06T17:48:00-05:00"
@@ -15514,7 +15422,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="218" facs="0252" xml:id="pg_218"/>
                 <div type="document" n="70" xml:id="d70" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-17T07:46:00-05:00"
@@ -15614,7 +15521,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="220" facs="0254" xml:id="pg_220"/>
                 <div type="document" n="71" xml:id="d71" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-23T00:00:00-05:00"
@@ -15803,7 +15709,6 @@
                         they had no intention of going on to fabricate weapons.</p>
                     <p>[Omitted here is the body of the estimate.]</p>
                 </div>
-
                 <pb n="224" facs="0258" xml:id="pg_224"/>
                 <div type="document" n="72" xml:id="d72" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-26T00:00:00-05:00"
@@ -15812,8 +15717,7 @@
                         Disarmament Agency (<persName corresp="#p_IFC_1">Iklé</persName>) and the
                         Director of the Policy Planning Staff (<persName corresp="#p_LWP_1"
                             >Lord</persName>) to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d72fn1">
+                            >Kissinger</persName><note n="1" xml:id="d72fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_IFC_1"
                                         >Iklé</persName> and <persName corresp="#p_LWP_1"
                                         >Lord</persName> sent <persName corresp="#p_KHA_1"
@@ -16098,15 +16002,13 @@
                     <p>—or a more highly publicized conference expanded to include other nuclear
                         industrial states, with Indian participation.</p>
                 </div>
-
                 <pb n="229" facs="0263" xml:id="pg_229"/>
                 <div type="document" n="73" xml:id="d73" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-27T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-08-27T23:59:59-05:00">
                     <head>73. Memorandum From <persName corresp="#p_GMA_1">Michael Guhin</persName>
                         of the National Security Council Staff to Secretary of State <persName
-                            corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" xml:id="d73fn1">
+                            corresp="#p_KHA_1">Kissinger</persName><note n="1" xml:id="d73fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_GMA_1"
                                         >Guhin</persName> summarized agency views concerning
                                     restraints on environmental warfare, stating that all agencies
@@ -16333,7 +16235,6 @@
                             >U.S.</gloss> approach to exploratory discussions with the Soviets will
                         be consistent with the OSD/JCS position).</p>
                 </div>
-
                 <pb n="233" facs="0267" xml:id="pg_233"/>
                 <div type="document" n="74" xml:id="d74" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-27T00:00:00-05:00"
@@ -16765,7 +16666,6 @@
                         controversial. However, this problem should prove manageable until such time
                         as we need address the question of broader restraints.</p>
                 </div>
-
                 <div type="document" n="75" xml:id="d75" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-28T09:37:00-05:00"
                     frus:doc-dateTime-max="1974-08-28T09:57:00-05:00">
@@ -17074,7 +16974,6 @@
                         really won’t face the <gloss target="#t_UN_1">UN</gloss> problem. Okay,
                         thank you.</p>
                 </div>
-
                 <div type="document" n="76" xml:id="d76" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-31T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-08-31T23:59:59-05:00">
@@ -17302,18 +17201,18 @@
                             capability consists of mustard agent which is less effective than nerve
                             agent; and about half the stockpile is stored in bulk agent, which could
                             not be loaded into munitions today on a timely basis.</p>
-                        <p>—<hi rend="italic">Limited forward deployment.</hi>
-                            <note n="2" xml:id="d76fn2">If stocks were moved during strategic
-                                warning time or any time prior to an adversary’s use of <gloss
-                                    target="#t_CW_1">CW</gloss>, then limited forward deployment in
-                                peacetime is not a major deficiency. If they were not moved
-                                beforehand, however, it would take at least 5–7 days before stocks
-                                could begin to arrive from <gloss target="#t_CONUS_1">CONUS</gloss>,
-                                and this could require 25% of the Air Force’s strategic airlift
-                                capability (although a significantly lesser percentage of our
-                                national airlift capability). [Footnote is in the original.]</note>
-                            It is doubtful that the prepositioned stocks (440 agent tons) in the
-                                <gloss target="#t_FRG_1">FRG</gloss> could support local tactical
+                        <p>—<hi rend="italic">Limited forward deployment.</hi><note n="2"
+                                xml:id="d76fn2">If stocks were moved during strategic warning time
+                                or any time prior to an adversary’s use of <gloss target="#t_CW_1"
+                                    >CW</gloss>, then limited forward deployment in peacetime is not
+                                a major deficiency. If they were not moved beforehand, however, it
+                                would take at least 5–7 days before stocks could begin to arrive
+                                from <gloss target="#t_CONUS_1">CONUS</gloss>, and this could
+                                require 25% of the Air Force’s strategic airlift capability
+                                (although a significantly lesser percentage of our national airlift
+                                capability). [Footnote is in the original.]</note> It is doubtful
+                            that the prepositioned stocks (440 agent tons) in the <gloss
+                                target="#t_FRG_1">FRG</gloss> could support local tactical
                             operations for 4–7 divisions for as much as a week, and no air munitions
                             are prepositioned. Moreover, there are stocks <hi rend="italic">at only
                                 one site.</hi>
@@ -17658,15 +17557,13 @@
                         existing stocks would be controversial in Congress and with some
                         allies.]</p>
                 </div>
-
                 <pb n="256" facs="0290" xml:id="pg_256"/>
                 <div type="document" n="77" xml:id="d77" subtype="historical-document"
                     frus:doc-dateTime-min="1974-09-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-09-05T23:59:59-05:00">
                     <head>77. Memorandum From <persName corresp="#p_EDD_1">David Elliott</persName>
                         of the National Security Council Staff to Secretary of State <persName
-                            corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" xml:id="d77fn1">
+                            corresp="#p_KHA_1">Kissinger</persName><note n="1" xml:id="d77fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_EDD_1"
                                         >Elliott</persName> reviewed the current status of the
                                     Limited Test Ban Treaty and recommended that <persName
@@ -17775,7 +17672,6 @@
                     <p>That you sign the memorandum to the <gloss target="#t_USC_1">USC</gloss> at
                         Tab A.</p>
                 </div>
-
                 <pb n="258" facs="0292" xml:id="pg_258"/>
                 <div type="document" n="78" xml:id="d78" subtype="historical-document"
                     frus:doc-dateTime-min="1974-09-05T00:00:00-05:00"
@@ -17793,7 +17689,6 @@
                                 77</ref>.</seg></p>
                         </note>
                     </head>
-
                     <opener>
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1974-09-05"
@@ -17950,7 +17845,6 @@
                         amendment may, therefore, not leave an acceptable margin of safety compared
                         to our own standards.</p>
                 </div>
-
                 <pb n="261" facs="0295" xml:id="pg_261"/>
                 <div type="document" n="79" xml:id="d79" subtype="historical-document"
                     frus:doc-dateTime-min="1974-09-05T00:00:00-05:00"
@@ -17997,7 +17891,6 @@
                         <head>SUBJECT</head>
                         <item>Policy on the Development of Future Uranium Enrichment Capacity</item>
                     </list>
-
                     <p>The President has directed that the issues associated with a shift to private
                         ownership of part of our future uranium enrichment capacity be reexamined.
                         The study should consider but not be limited to the following:</p>
@@ -18048,7 +17941,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="80" xml:id="d80" subtype="historical-document"
                     frus:doc-dateTime-min="1974-09-04T23:00:00-05:00"
                     frus:doc-dateTime-max="1974-09-09T22:59:59-05:00">
@@ -18267,8 +18159,8 @@
                             depth, others could interpret this as a diversion from more important
                             arms control problems. [Footnote is in the original.]</note>
                     </p>
+                    <pb n="266" facs="0300" xml:id="pg_266"/>
                     <quote>
-                        <pb n="266" facs="0300" xml:id="pg_266"/>
                         <p>—any climate modification;</p>
                         <p>—any significant ocean modification (such as efforts to alter ocean
                             currents);</p>
@@ -18279,7 +18171,6 @@
                         <p>—continuous and extended precipitation modification (for example, causing
                             extensive flooding or drought).</p>
                     </quote>
-
                     <p>With respect to the foregoing, <hi rend="italic">the <gloss target="#t_US_1"
                                 >U.S.</gloss> side</hi> would point out that preparations—or
                         operations—to carry out such activities on any significant scale might prove
@@ -18356,7 +18247,6 @@
                             these talks. [Footnote is in the original.]</note>
                     </p>
                 </div>
-
                 <pb n="268" facs="0302" xml:id="pg_268"/>
                 <div type="document" n="81" xml:id="d81" subtype="historical-document"
                     frus:doc-dateTime-min="1974-09-13T00:00:00-05:00"
@@ -18364,8 +18254,7 @@
                     <head>81. Memorandum <gloss target="#t_NSC_1">NSC</gloss>–U/DM–128 From the
                         Chairman of the National Security Council Under Secretaries Committee
                             (<persName corresp="#p_IRS_1">Ingersoll</persName>) to President
-                            <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d81fn1">
+                            <persName corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d81fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_IRS_1"
                                         >Ingersoll</persName> informed President <persName
                                         corresp="#p_FGR_1">Ford</persName> of the report prepared by
@@ -18437,7 +18326,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="82" xml:id="d82" subtype="historical-document"
                     frus:doc-dateTime-min="1974-09-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-09-13T23:59:59-05:00">
@@ -18465,7 +18353,6 @@
                             <placeName>Washington</placeName>, <date when="1974-09-13"
                                 calendar="gregorian">September 13, 1974</date>.</dateline>
                     </opener>
-
                     <p>
                         <hi rend="italic">MODIFICATION OF THE LIMITED TEST BAN TREATY TO ALLOW
                             PEACEFUL NUCLEAR EXPLOSIONS FOR EXCAVATION PROJECTS<note n="2"
@@ -18604,8 +18491,8 @@
                             corresp="#p_SGT_1">Seaborg</persName> indicated that a detectability
                         standard would apply in determining whether an underground explosion
                         resulted in a violation of the Treaty. He said:</p>
+                    <pb n="272" facs="0306" xml:id="pg_272"/>
                     <quote>
-                        <pb n="272" facs="0306" xml:id="pg_272"/>
                         <p>“The Treaty would prohibit a test which resulted in a quantity of
                             radioactive debris delivered outside of the country’s territorial limits
                             in amounts sufficient to establish that such contamination resulted from
@@ -18655,11 +18542,10 @@
                         to 600 <gloss target="#t_KT_1">KT</gloss>. Resulting radioactive fallout
                         would be readily detectable in Japan and the <gloss target="#t_PRC_1"
                             >PRC</gloss> and at lower radiation levels in the <gloss
-                            target="#t_US_1">U.S.</gloss>
-                        <note n="5" xml:id="d82fn5">The increase in radiation exposure would be only
-                            a small fraction of that resulting from normal background radiation;
-                            however, adverse reaction would be likely. [Footnote is in the
-                            original.]</note>
+                            target="#t_US_1">U.S.</gloss><note n="5" xml:id="d82fn5">The increase in
+                            radiation exposure would be only a small fraction of that resulting from
+                            normal background radiation; however, adverse reaction would be likely.
+                            [Footnote is in the original.]</note>
                     </p>
                     <pb n="273" facs="0307" xml:id="pg_273"/>
                     <p>The Soviet Union’s technical preparations for this project have been
@@ -19190,7 +19076,6 @@
                         ratification if we had not assisted in promoting the amendment idea or in
                         efforts to line up a majority of the parties.</p>
                 </div>
-
                 <div type="document" n="83" xml:id="d83" subtype="historical-document"
                     frus:doc-dateTime-min="1974-09-21T11:15:00-05:00"
                     frus:doc-dateTime-max="1974-09-21T11:39:00-05:00">
@@ -19328,7 +19213,6 @@
                         a big power very quickly.</p>
                     <p>[Omitted here is discussion unrelated to nonproliferation issues.]</p>
                 </div>
-
                 <pb n="284" facs="0318" xml:id="pg_284"/>
                 <div type="document" n="84" xml:id="d84" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
@@ -19429,15 +19313,13 @@
                         control the future.” (Department of State <hi rend="italic">Bulletin,</hi>
                         October 14, 1974, pages 498, 501–502)</p>
                 </div>
-
                 <div type="document" n="85" xml:id="d85" subtype="historical-document"
                     frus:doc-dateTime-min="1974-09-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-09-25T23:59:59-05:00">
                     <head>85. Memorandum From <persName corresp="#p_LJM_1">Jan Lodal</persName> of
                         the National Security Council Staff and the Counselor of the Department of
                         State (Sonnenfeldt) to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d85fn1">
+                            >Kissinger</persName><note n="1" xml:id="d85fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_LJM_1"
                                         >Lodal</persName> and Sonnenfeldt provided <persName
                                         corresp="#p_KHA_1">Kissinger</persName> with an overview of
@@ -20102,7 +19984,6 @@
                     <p>Tab J—<gloss target="#t_US_1">U.S.</gloss> Note of 9/20/74 on Agenda for
                         October <gloss target="#t_PNE_1">PNE</gloss> Talks</p>
                 </div>
-
                 <div type="document" n="86" xml:id="d86" subtype="historical-document"
                     frus:doc-dateTime-min="1974-09-28T09:10:00-05:00"
                     frus:doc-dateTime-max="1974-09-28T09:50:00-05:00">
@@ -20201,15 +20082,13 @@
                         <persName corresp="#p_KHA_1">Kissinger</persName>: Only underground. We have
                         never discussed this in any other context.</p>
                 </div>
-
                 <div type="document" n="87" xml:id="d87" subtype="historical-document"
                     frus:doc-dateTime-min="1974-10-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-10-04T23:59:59-05:00">
                     <head>87. Memorandum From <persName corresp="#p_EDD_1">David Elliott</persName>
                         of the National Security Council Staff and the Counselor of the Department
                         of State (Sonnenfeldt) to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d87fn1">
+                            >Kissinger</persName><note n="1" xml:id="d87fn1">
                             <p><seg type="summary">Summary: Referencing the pending action on the
                                     environmental warfare package, <persName corresp="#p_EDD_1"
                                         >Elliott</persName> and Sonnenfeldt indicated that <persName
@@ -20313,7 +20192,6 @@
                     <p rend="sectiontitleital">Recommendation:</p>
                     <p>That you respond to the above request for guidance.</p>
                 </div>
-
                 <pb n="300" facs="0334" xml:id="pg_300"/>
                 <div type="document" n="88" xml:id="d88" subtype="historical-document"
                     frus:doc-dateTime-min="1974-10-07T00:00:00-05:00"
@@ -20416,7 +20294,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="302" facs="0336" xml:id="pg_302"/>
                 <div type="document" n="89" xml:id="d89" subtype="historical-document"
                     frus:doc-dateTime-min="1974-10-08T03:45:00-05:00"
@@ -20516,15 +20393,13 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="304" facs="0338" xml:id="pg_304"/>
                 <div type="document" n="90" xml:id="d90" subtype="historical-document"
                     frus:doc-dateTime-min="1974-10-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-10-09T23:59:59-05:00">
                     <head>90. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>) to President
-                            <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d90fn1">
+                            <persName corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d90fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> informed President <persName
                                         corresp="#p_FGR_1">Ford</persName> that as a result of the
@@ -20646,14 +20521,12 @@
                     <p rend="sectiontitleital">Recommendation:</p>
                     <p>That you approve the <gloss target="#t_NSDM_1">NSDM</gloss> at Tab A.</p>
                 </div>
-
                 <div type="document" n="91" xml:id="d91" subtype="historical-document"
                     frus:doc-dateTime-min="1974-10-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-10-09T23:59:59-05:00">
                     <head>91. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>) to President
-                            <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d91fn1">
+                            <persName corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d91fn1">
                             <p><seg type="summary">Summary: Following review of the National
                                     Security Council Under Secretaries Committee report on uranium
                                     tails disposition, <persName corresp="#p_KHA_1"
@@ -20749,7 +20622,6 @@
                         approach being taken in <gloss target="#t_COCOM_1">COCOM</gloss> and any
                         changes that may prove necessary.</p>
                 </div>
-
                 <pb n="308" facs="0342" xml:id="pg_308"/>
                 <div type="document" n="92" xml:id="d92" subtype="historical-document"
                     frus:doc-dateTime-min="1974-10-10T00:00:00-05:00"
@@ -20823,7 +20695,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="309" facs="0343" xml:id="pg_309"/>
                 <div type="document" n="93" xml:id="d93" subtype="historical-document"
                     frus:doc-dateTime-min="1974-10-12T11:40:00-05:00"
@@ -20898,7 +20769,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="94" xml:id="d94" subtype="historical-document"
                     frus:doc-dateTime-min="1974-10-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-10-15T23:59:59-05:00">
@@ -20963,7 +20833,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="95" xml:id="d95" subtype="historical-document"
                     frus:doc-dateTime-min="1974-10-21T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-10-21T23:59:59-05:00">
@@ -21322,14 +21191,12 @@
                         generations from a world of many nuclear powers and unrestrained nuclear
                         arms competition.</p>
                 </div>
-
                 <div type="document" n="96" xml:id="d96" subtype="historical-document"
                     frus:doc-dateTime-min="1974-10-29T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-10-29T23:59:59-05:00">
                     <head>96. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>) to President
-                            <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d96fn1">
+                            <persName corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d96fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> called President <persName
                                         corresp="#p_FGR_1">Ford</persName>’s attention to agency
@@ -21529,7 +21396,6 @@
                     <p rend="sectiontitleital">Recommendation:</p>
                     <p>That you approve the <gloss target="#t_NSDM_1">NSDM</gloss> at Tab A.</p>
                 </div>
-
                 <pb n="322" facs="0356" xml:id="pg_322"/>
                 <div type="document" n="97" xml:id="d97" subtype="historical-document"
                     frus:doc-dateTime-min="1974-11-02T00:00:00-05:00"
@@ -21620,7 +21486,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="98" xml:id="d98" subtype="historical-document"
                     frus:doc-dateTime-min="1974-11-05T02:37:00-05:00"
                     frus:doc-dateTime-max="1974-11-05T02:37:00-05:00">
@@ -21687,7 +21552,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="99" xml:id="d99" subtype="historical-document"
                     frus:doc-dateTime-min="1974-11-06T12:15:00-05:00"
                     frus:doc-dateTime-max="1974-11-06T12:15:00-05:00">
@@ -21853,7 +21717,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="100" xml:id="d100" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
@@ -21951,14 +21814,13 @@
                         November 24 is printed in <hi rend="italic">Public Papers: <persName
                                 corresp="#p_FGR_1">Ford</persName>, 1974</hi>, pages 658–662.</p>
                 </div>
-
                 <div type="document" n="101" xml:id="d101" subtype="historical-document"
                     frus:doc-dateTime-min="1974-12-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-12-04T23:59:59-05:00">
                     <head>101. Memorandum From the Chairman of the National Security Council Under
                         Secretaries Committee (<persName corresp="#p_IRS_1">Ingersoll</persName>) to
-                        President <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d101fn1">
+                        President <persName corresp="#p_FGR_1">Ford</persName><note n="1"
+                            xml:id="d101fn1">
                             <p><seg type="summary">Summary: As a corollary to the <gloss
                                         target="#t_NSSM_1">NSSM</gloss> 202 study and the updated
                                         <gloss target="#t_NSSM_1">NSSM</gloss> 156 study, the
@@ -22204,15 +22066,13 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="334" facs="0368" xml:id="pg_334"/>
                 <div type="document" n="102" xml:id="d102" subtype="historical-document"
                     frus:doc-dateTime-min="1974-12-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-12-06T23:59:59-05:00">
                     <head>102. Memorandum From the Director of the Arms Control and Disarmament
                         Agency (<persName corresp="#p_IFC_1">Iklé</persName>) to President <persName
-                            corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d102fn1">
+                            corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d102fn1">
                             <p><seg type="summary">Summary: In response to <gloss target="#t_NSDM_1"
                                         >NSDM</gloss> 279, <persName corresp="#p_IFC_1"
                                         >Iklé</persName> indicated he had renewed discussions with
@@ -22344,7 +22204,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="336" facs="0370" xml:id="pg_336"/>
                 <div type="document" n="103" xml:id="d103" subtype="historical-document"
                     frus:doc-dateTime-min="1974-12-09T00:00:00-05:00"
@@ -22413,7 +22272,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="337" facs="0371" xml:id="pg_337"/>
                 <div type="document" n="104" xml:id="d104" subtype="historical-document"
                     frus:doc-dateTime-min="1974-12-10T00:00:00-05:00"
@@ -22586,7 +22444,6 @@
                         have already given up. And we would deny 109 other countries the benefit of
                         a treaty that they have already signed.</p>
                 </div>
-
                 <div type="document" n="105" xml:id="d105" subtype="historical-document"
                     frus:doc-dateTime-min="1974-12-16T10:00:00-05:00"
                     frus:doc-dateTime-max="1974-12-16T10:45:00-05:00">
@@ -22811,7 +22668,6 @@
                     <p>President: I know of nothing else.</p>
                     <p>[The meeting then ended.]</p>
                 </div>
-
                 <pb n="344" facs="0378" xml:id="pg_344"/>
                 <div type="document" n="106" xml:id="d106" subtype="historical-document"
                     frus:doc-dateTime-min="1974-12-19T00:00:00-05:00"
@@ -23663,7 +23519,6 @@
                         corporation).</p>
                     <p>3. Foregoes advantages of private sector, free enterprise approach.</p>
                 </div>
-
                 <pb n="361" facs="0395" xml:id="pg_361"/>
                 <div type="document" n="107" xml:id="d107" subtype="historical-document"
                     frus:doc-dateTime-min="1975-01-06T12:15:00-05:00"
@@ -23823,7 +23678,6 @@
                             >Henry</persName> or <persName corresp="#p_SBA_1">Brent</persName> and
                         I’ll see you at the next <gloss target="#t_NSC_1">NSC</gloss> meeting.</p>
                 </div>
-
                 <pb n="364" facs="0398" xml:id="pg_364"/>
                 <div type="document" n="108" xml:id="d108" subtype="historical-document"
                     frus:doc-dateTime-min="1975-01-08T00:00:00-05:00"
@@ -24118,7 +23972,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="370" facs="0404" xml:id="pg_370"/>
                 <div type="document" n="109" xml:id="d109" subtype="historical-document"
                     frus:doc-dateTime-min="1975-01-13T00:00:00-05:00"
@@ -24188,15 +24041,13 @@
                     <p>1. That you initial the memorandum to the President (Tab I).</p>
                     <p>2. If he approves, that you sign the study directive (Tab A).</p>
                 </div>
-
                 <pb n="371" facs="0405" xml:id="pg_371"/>
                 <div type="document" n="110" xml:id="d110" subtype="historical-document"
                     frus:doc-dateTime-min="1975-01-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-01-15T23:59:59-05:00">
                     <head>110. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>) to President
-                            <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d110fn1">
+                            <persName corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d110fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> recommended that President <persName
                                         corresp="#p_FGR_1">Ford</persName> sign the attached
@@ -24242,7 +24093,6 @@
                     <p>That you approve the issuance of the memorandum at Tab A directing the
                         preparation of the required reports to Congress on nuclear safeguards.</p>
                 </div>
-
                 <pb n="372" facs="0406" xml:id="pg_372"/>
                 <div type="document" n="111" xml:id="d111" subtype="historical-document"
                     frus:doc-dateTime-min="1975-01-15T00:00:00-05:00"
@@ -24335,7 +24185,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="112" xml:id="d112" subtype="historical-document"
                     frus:doc-dateTime-min="1975-01-16T11:00:00-05:00"
                     frus:doc-dateTime-max="1975-01-16T11:00:00-05:00">
@@ -24543,7 +24392,6 @@
                         <signed>Bruce</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="113" xml:id="d113" subtype="historical-document"
                     frus:doc-dateTime-min="1975-01-17T19:12:00-05:00"
                     frus:doc-dateTime-max="1975-01-17T19:12:00-05:00">
@@ -24627,7 +24475,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="114" xml:id="d114" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
@@ -24683,7 +24530,6 @@
                         “Renunciation of certain uses in war of chemical herbicides and riot control
                         agents,” on April 8.</p>
                 </div>
-
                 <pb n="380" facs="0414" xml:id="pg_380"/>
                 <div type="document" n="115" xml:id="d115" subtype="historical-document"
                     frus:doc-dateTime-min="1975-01-27T10:50:00-05:00"
@@ -25167,15 +25013,14 @@
                         on the level of the <gloss target="#t_SALT_1">SALT</gloss> people? Well,
                         let’s get this stuff together.</p>
                 </div>
-
                 <div type="document" n="116" xml:id="d116" subtype="historical-document"
                     frus:doc-dateTime-min="1975-02-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-02-07T23:59:59-05:00">
                     <head>116. Memorandum From the Counselor of the Department of State
                         (Sonnenfeldt) and the Director of the Bureau of Intelligence and Research
                             (<persName corresp="#p_HWG_1">Hyland</persName>) to Secretary of State
-                            <persName corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" xml:id="d116fn1">
+                            <persName corresp="#p_KHA_1">Kissinger</persName><note n="1"
+                            xml:id="d116fn1">
                             <p><seg type="summary">Summary: In preparation for <persName
                                         corresp="#p_KHA_1">Kissinger</persName>’s upcoming meeting
                                     with <persName corresp="#p_GAA_2">Gromyko</persName> in Geneva,
@@ -25398,7 +25243,6 @@
                     <p>[Omitted here are Section III. <hi rend="italic">Trade/Emigration</hi> and
                         Section IV. <hi rend="italic">Bilateral Cooperation.</hi>]</p>
                 </div>
-
                 <div type="document" n="117" xml:id="d117" subtype="historical-document"
                     frus:doc-dateTime-min="1975-02-08T11:14:00-05:00"
                     frus:doc-dateTime-max="1975-02-08T12:07:00-05:00">
@@ -25461,9 +25305,9 @@
                                 </item>
                             </list>
                         </item>
+                        <pb n="392" facs="0426" xml:id="pg_392"/>
                         <item>
                             <list>
-                                <pb n="392" facs="0426" xml:id="pg_392"/>
                                 <head>
                                     <hi rend="italic">Defense</hi>
                                 </head>
@@ -25953,7 +25797,6 @@
                     <p>Secretary <persName corresp="#p_KHA_1">Kissinger</persName>: Yes, we should
                         do that.</p>
                 </div>
-
                 <div type="document" n="118" xml:id="d118" subtype="historical-document"
                     frus:doc-dateTime-min="1975-02-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-02-09T23:59:59-05:00">
@@ -26067,7 +25910,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="119" xml:id="d119" subtype="historical-document"
                     frus:doc-dateTime-min="1975-02-14T09:47:00-05:00"
                     frus:doc-dateTime-max="1975-02-14T09:47:00-05:00">
@@ -26159,15 +26001,13 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="403" facs="0437" xml:id="pg_403"/>
                 <div type="document" n="120" xml:id="d120" subtype="historical-document"
                     frus:doc-dateTime-min="1975-02-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-02-18T23:59:59-05:00">
                     <head>120. Memorandum From the Director of the Arms Control and Disarmament
                         Agency (<persName corresp="#p_IFC_1">Iklé</persName>) to President <persName
-                            corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d120fn1">
+                            corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d120fn1">
                             <p><seg type="summary">Summary: In light of <gloss target="#t_US_1"
                                         >U.S.</gloss> intelligence reports on the status of nuclear
                                     weapons development abroad, <persName corresp="#p_IFC_1"
@@ -26301,7 +26141,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="406" facs="0440" xml:id="pg_406"/>
                 <div type="document" n="121" xml:id="d121" subtype="historical-document"
                     frus:doc-dateTime-min="1975-03-01T12:04:00-05:00"
@@ -26500,14 +26339,12 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="122" xml:id="d122" subtype="historical-document"
                     frus:doc-dateTime-min="1975-03-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-03-04T23:59:59-05:00">
                     <head>122. Memorandum From <persName corresp="#p_LJM_1">Jan Lodal</persName> of
                         the National Security Council Staff to Secretary of State <persName
-                            corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" xml:id="d122fn1">
+                            corresp="#p_KHA_1">Kissinger</persName><note n="1" xml:id="d122fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_LJM_1"
                                         >Lodal</persName> updated <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> on the status of the TTBT/PNE talks
@@ -26630,7 +26467,6 @@
                         forget <gloss target="#t_CTB_1">CTB</gloss> for now.</p>
                     <p>__________ Other.</p>
                 </div>
-
                 <div type="document" n="123" xml:id="d123" subtype="historical-document"
                     frus:doc-dateTime-min="1975-03-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-03-04T23:59:59-05:00">
@@ -26931,7 +26767,6 @@
                         for the largest share of world military expenditures, cannot be considered
                         concurrently. I plan to return to this subject in a later intervention.</p>
                 </div>
-
                 <div type="document" n="124" xml:id="d124" subtype="historical-document"
                     frus:doc-dateTime-min="1975-03-05T13:00:00-05:00"
                     frus:doc-dateTime-max="1975-03-05T13:00:00-05:00">
@@ -27163,7 +26998,6 @@
                         <signed>Dale</signed>
                     </closer>
                 </div>
-
                 <pb n="422" facs="0456" xml:id="pg_422"/>
                 <div type="document" n="125" xml:id="d125" subtype="historical-document"
                     frus:doc-dateTime-min="1975-03-06T00:00:00-05:00"
@@ -27171,8 +27005,8 @@
                     <head>125. Memorandum I–21040/75 From the Assistant Secretary of Defense for
                         International Security Affairs (<persName corresp="#p_ERF_1"
                             >Ellsworth</persName>) and the Director of the Joint Staff (Ginsburgh)
-                        to Secretary of Defense <persName corresp="#p_SJR_1">Schlesinger</persName>
-                        <note n="1" xml:id="d125fn1">
+                        to Secretary of Defense <persName corresp="#p_SJR_1"
+                            >Schlesinger</persName><note n="1" xml:id="d125fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_ERF_1"
                                         >Ellsworth</persName> noted that he had received a copy of
                                         <gloss target="#t_ACDA_1">ACDA</gloss> Director <persName
@@ -27259,7 +27093,6 @@
                         <signed>Robert N. Ginsburgh</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="126" xml:id="d126" subtype="historical-document"
                     frus:doc-dateTime-min="1975-03-14T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-03-14T23:59:59-05:00">
@@ -27332,7 +27165,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="127" xml:id="d127" subtype="historical-document"
                     frus:doc-dateTime-min="1975-03-24T15:16:00-05:00"
                     frus:doc-dateTime-max="1975-03-24T15:16:00-05:00">
@@ -27363,11 +27195,9 @@
                                     D750078–0226.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1975-03-24T20:16:00+00:00"
                             calendar="gregorian">March 24, 1975, 2016Z</date>.</dateline>
-
                     <p>66020. Subject: West German Nuclear Exports to Brazil. <gloss
                             target="#t_REFReftel_1">Ref</gloss>: State 48844 (<gloss
                             target="#t_Notal_1">Notal</gloss>).</p>
@@ -27444,15 +27274,13 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="426" facs="0460" xml:id="pg_426"/>
                 <div type="document" n="128" xml:id="d128" subtype="historical-document"
                     frus:doc-dateTime-min="1975-03-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-03-24T23:59:59-05:00">
                     <head>128. Memorandum From Secretary of Defense <persName corresp="#p_SJR_1"
                             >Schlesinger</persName> to Secretary of State <persName
-                            corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" xml:id="d128fn1">
+                            corresp="#p_KHA_1">Kissinger</persName><note n="1" xml:id="d128fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_SJR_1"
                                         >Schlesinger</persName> indicated to <persName
                                         corresp="#p_KHA_1">Kissinger</persName> that he agreed with
@@ -27510,7 +27338,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="427" facs="0461" xml:id="pg_427"/>
                 <div type="document" n="129" xml:id="d129" subtype="historical-document"
                     frus:doc-dateTime-min="1975-03-24T00:00:00-05:00"
@@ -28104,7 +27931,6 @@
                             accord, such as assurances that adequate physical security would
                             apply.</p>
                     </quote>
-
                     <p>
                         <hi rend="italic">CONS</hi>
                     </p>
@@ -28171,7 +27997,6 @@
                             with other suppliers.</p>
                     </quote>
                 </div>
-
                 <div type="document" n="130" xml:id="d130" subtype="historical-document"
                     frus:doc-dateTime-min="1975-03-27T10:49:00-05:00"
                     frus:doc-dateTime-max="1975-03-27T10:49:00-05:00">
@@ -28216,7 +28041,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="439" facs="0473" xml:id="pg_439"/>
                 <div type="document" n="131" xml:id="d131" subtype="historical-document"
                     frus:doc-dateTime-min="1975-03-27T16:59:00-05:00"
@@ -28332,7 +28156,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="441" facs="0475" xml:id="pg_441"/>
                 <div type="document" n="132" xml:id="d132" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-03T00:00:00-05:00"
@@ -28340,8 +28163,7 @@
                     <head>132. Memorandum From <persName corresp="#p_EDD_1">David Elliott</persName>
                         of the National Security Council Staff and the Counselor of the Department
                         of State (Sonnenfeldt) to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d132fn1">
+                            >Kissinger</persName><note n="1" xml:id="d132fn1">
                             <p><seg type="summary">Summary: In light of the 1974 summit commitments
                                     on possible international restraints on chemical weapons,
                                         <persName corresp="#p_EDD_1">Elliott</persName> and
@@ -28428,7 +28250,6 @@
                         environmental warfare. This convention has been cleared by you before, and
                         has recently been coordinated in <gloss target="#t_NATO_1">NATO</gloss>.</p>
                 </div>
-
                 <div type="document" n="133" xml:id="d133" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-04T19:09:00-05:00"
                     frus:doc-dateTime-max="1975-04-04T19:09:00-05:00">
@@ -28590,7 +28411,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="134" xml:id="d134" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-07T15:16:00-05:00"
                     frus:doc-dateTime-max="1975-04-07T15:16:00-05:00">
@@ -28610,11 +28430,9 @@
                                     to Bonn is <ref target="#d131">Document 131</ref>.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Bonn</placeName>, <date when="1975-04-07T20:16:00+00:00"
                             calendar="gregorian">April 7, 1975, 2016Z</date>.</dateline>
-
                     <p>5604. Subject: <gloss target="#t_FRG_1">FRG</gloss> Nuclear Sales to Brazil.
                             <gloss target="#t_REFReftel_1">Refs</gloss>: (A) State 073723, (B) State
                         069772.</p>
@@ -28669,7 +28487,6 @@
                         <signed>Cash</signed>
                     </closer>
                 </div>
-
                 <pb n="447" facs="0481" xml:id="pg_447"/>
                 <div type="document" n="135" xml:id="d135" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-11T03:45:00-05:00"
@@ -28707,7 +28524,6 @@
                     <dateline>
                         <placeName>Geneva</placeName>, <date when="1975-04-11T08:45:00+00:00"
                             calendar="gregorian">April 11, 1975, 0845Z</date>.</dateline>
-
                     <p>2490. <gloss target="#t_Disto_1">Disto</gloss>. Subject: <gloss
                             target="#t_CCD_1">CCD</gloss>: Review of Spring Session.</p>
                     <p>1. During the spring session, which concluded on April 10, the <gloss
@@ -28852,7 +28668,6 @@
                         <signed>Abrams</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="136" xml:id="d136" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-17T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-04-17T23:59:59-05:00">
@@ -29094,7 +28909,6 @@
                             >PNE</gloss> program significantly to meet domestic needs.</p>
                     <p>[Omitted here is the body of the report.]</p>
                 </div>
-
                 <div type="document" n="137" xml:id="d137" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-04-18T23:59:59-05:00">
@@ -29102,8 +28916,7 @@
                         (Sonnenfeldt) and <persName corresp="#p_LJM_1">Jan Lodal</persName> and
                             <persName corresp="#p_EDD_1">David Elliott</persName> of the National
                         Security Council Staff to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d137fn1">
+                            >Kissinger</persName><note n="1" xml:id="d137fn1">
                             <p><seg type="summary">Summary: In preparation for the April 19
                                     Verification Panel meeting, Sonnenfeldt, <persName
                                         corresp="#p_LJM_1">Lodal</persName>, and <persName
@@ -29534,7 +29347,6 @@
                         <p>—The correspondence with the French (Tab K)</p>
                     </quote>
                 </div>
-
                 <pb n="462" facs="0496" xml:id="pg_462"/>
                 <div type="document" n="138" xml:id="d138" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-19T09:21:00-05:00"
@@ -29566,7 +29378,6 @@
                     </list>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
-
                         <item>
                             <list>
                                 <head>
@@ -29969,7 +29780,6 @@
                         instructions on how to deal with this problem.</p>
                     <p>Secretary <persName corresp="#p_KHA_1">Kissinger</persName>: Okay.</p>
                 </div>
-
                 <pb n="468" facs="0502" xml:id="pg_468"/>
                 <div type="document" n="139" xml:id="d139" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-22T00:00:00-05:00"
@@ -30054,7 +29864,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="140" xml:id="d140" subtype="historical-document"
                     frus:doc-dateTime-min="1975-05-02T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-05-02T23:59:59-05:00">
@@ -30183,7 +29992,6 @@
                         receive from <persName corresp="#p_RDH_1">Rumsfeld</persName> for comment
                         before it goes to the President.</p>
                 </div>
-
                 <div type="document" n="141" xml:id="d141" subtype="historical-document"
                     frus:doc-dateTime-min="1975-05-02T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-05-02T23:59:59-05:00">
@@ -30334,7 +30142,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="474" facs="0508" xml:id="pg_474"/>
                 <div type="document" n="142" xml:id="d142" subtype="historical-document"
                     frus:doc-dateTime-min="1975-05-06T07:33:00-05:00"
@@ -30481,7 +30288,6 @@
                         <signed>Abrams</signed>
                     </closer>
                 </div>
-
                 <pb n="477" facs="0511" xml:id="pg_477"/>
                 <div type="document" n="143" xml:id="d143" subtype="historical-document"
                     frus:doc-dateTime-min="1975-05-06T00:00:00-05:00"
@@ -30549,8 +30355,8 @@
                             that the cooperative undertaking to create a more stable world community
                             is well underway.</p>
                     </quote>
+                    <pb n="478" facs="0512" xml:id="pg_478"/>
                     <quote>
-                        <pb n="478" facs="0512" xml:id="pg_478"/>
                         <p>I take this occasion therefore to rededicate the United States to the
                             support of the Nonproliferation Treaty and to the high purpose of a
                             stable peace which animates it.</p>
@@ -30740,7 +30546,6 @@
                         to provide the support and forward movement that are needed to enable the
                         treaty to fulfill its great promise.</p>
                 </div>
-
                 <pb n="483" facs="0517" xml:id="pg_483"/>
                 <div type="document" n="144" xml:id="d144" subtype="historical-document"
                     frus:doc-dateTime-min="1975-05-12T07:00:00-05:00"
@@ -30912,7 +30717,6 @@
                         <signed>Abrams</signed>
                     </closer>
                 </div>
-
                 <pb n="486" facs="0520" xml:id="pg_486"/>
                 <div type="document" n="145" xml:id="d145" subtype="historical-document"
                     frus:doc-dateTime-min="1975-05-15T00:00:00-05:00"
@@ -30920,8 +30724,7 @@
                     <head>145. Memorandum From <persName corresp="#p_EDD_1">David Elliott</persName>
                         and <persName corresp="#p_LJM_1">Jan Lodal</persName> of the National
                         Security Council Staff to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d145fn1">
+                            >Kissinger</persName><note n="1" xml:id="d145fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_EDD_1"
                                         >Elliott</persName> and <persName corresp="#p_LJM_1"
                                         >Lodal</persName> recommended that in advance of the next
@@ -31014,7 +30817,6 @@
                         a view that the provisions in this paper constitute a good basis for a
                         consensus understanding at that meeting.</p>
                 </div>
-
                 <pb n="488" facs="0522" xml:id="pg_488"/>
                 <div type="document" n="146" xml:id="d146" subtype="historical-document"
                     frus:doc-dateTime-min="1975-05-14T23:00:00-05:00"
@@ -31271,7 +31073,6 @@
                         instability of nations, groups of nations or regions under particular
                         tension.</p>
                 </div>
-
                 <div type="document" n="147" xml:id="d147" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
@@ -31326,7 +31127,6 @@
                         about.” (<hi rend="italic">Public Papers: <persName corresp="#p_FGR_1"
                                 >Ford</persName>, 1975,</hi> Book I, pp. 716–717)</p>
                 </div>
-
                 <div type="document" n="148" xml:id="d148" subtype="historical-document"
                     frus:doc-dateTime-min="1975-06-06T18:24:00-05:00"
                     frus:doc-dateTime-max="1975-06-06T18:24:00-05:00">
@@ -31418,15 +31218,13 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="496" facs="0530" xml:id="pg_496"/>
                 <div type="document" n="149" xml:id="d149" subtype="historical-document"
                     frus:doc-dateTime-min="1975-06-11T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-06-11T23:59:59-05:00">
                     <head>149. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>) to President
-                            <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d149fn1">
+                            <persName corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d149fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> requested that President <persName
                                         corresp="#p_FGR_1">Ford</persName> authorize instructions
@@ -31531,7 +31329,6 @@
                             >PNE</gloss> negotiations and pass the note at Tab 2 to Ambassador
                             <persName corresp="#p_DA_1">Dobrynin</persName>.</p>
                 </div>
-
                 <pb n="498" facs="0532" xml:id="pg_498"/>
                 <div type="document" n="150" xml:id="d150" subtype="historical-document"
                     frus:doc-dateTime-min="1975-06-12T00:00:00-05:00"
@@ -31650,7 +31447,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="500" facs="0534" xml:id="pg_500"/>
                 <div type="document" n="151" xml:id="d151" subtype="historical-document"
                     frus:doc-dateTime-min="1975-06-11T23:00:00-05:00"
@@ -32097,7 +31893,6 @@
                                 open.</hi>
                         </p>
                     </quote>
-
                     <p>
                         <hi rend="italic">PROS</hi>
                     </p>
@@ -32124,7 +31919,6 @@
                                 West.</hi>
                         </p>
                     </quote>
-
                     <p>
                         <hi rend="italic">PROS</hi>
                     </p>
@@ -32138,7 +31932,6 @@
                         <p>—Provides material benefits to West Berlin, and political benefits to the
                             West.</p>
                     </quote>
-
                     <p>
                         <hi rend="italic">CONS</hi>
                     </p>
@@ -32158,7 +31951,6 @@
                                 programs.</hi>
                         </p>
                     </quote>
-
                     <p>
                         <hi rend="italic">PROS</hi>
                     </p>
@@ -32209,7 +32001,6 @@
                         attract charges of anti-<gloss target="#t_NNWS_1">NNWS</gloss>
                         discrimination.</p>
                 </div>
-
                 <pb n="509" facs="0543" xml:id="pg_509"/>
                 <div type="document" n="152" xml:id="d152" subtype="historical-document"
                     frus:doc-dateTime-min="1975-06-14T00:00:00-05:00"
@@ -32284,7 +32075,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="510" facs="0544" xml:id="pg_510"/>
                 <div type="document" n="153" xml:id="d153" subtype="historical-document"
                     frus:doc-dateTime-min="1975-06-13T23:00:00-05:00"
@@ -32320,7 +32110,6 @@
                                 ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                 calendar="gregorian">undated</date>.</dateline>
                     </opener>
-
                     <p rend="sectiontitleital">SAFEGUARDS AND NON-PROLIFERATION IMPLICATIONS OF
                         PROPOSAL TO HAVE NEXT ENRICHMENT PLANTS BUILT BY PRIVATE INDUSTRY</p>
                     <p>This paper attempts to review the safeguard and non-proliferation aspects of
@@ -32516,7 +32305,6 @@
                         primarily by the growth in the industry and technological advances, rather
                         than the mode of facility ownership.</p>
                 </div>
-
                 <pb n="515" facs="0549" xml:id="pg_515"/>
                 <div type="document" n="154" xml:id="d154" subtype="historical-document"
                     frus:doc-dateTime-min="1975-07-01T00:00:00-05:00"
@@ -32598,7 +32386,6 @@
                         control of the non-proliferation policy process at this time. Hal
                         Sonnenfeldt and Dick Smyser concur in this action.</p>
                 </div>
-
                 <div type="document" n="155" xml:id="d155" subtype="historical-document"
                     frus:doc-dateTime-min="1975-07-07T14:13:00-05:00"
                     frus:doc-dateTime-max="1975-07-07T14:13:00-05:00">
@@ -32621,7 +32408,6 @@
                                 148</ref>.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1975-07-07T19:13:00+00:00"
                             calendar="gregorian">July 7, 1975, 1913Z</date>.</dateline>
@@ -32651,7 +32437,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="517" facs="0551" xml:id="pg_517"/>
                 <div type="document" n="156" xml:id="d156" subtype="historical-document"
                     frus:doc-dateTime-min="1975-07-08T00:00:00-05:00"
@@ -32659,8 +32444,7 @@
                     <head>156. Memorandum From <persName corresp="#p_LJM_1">Jan Lodal</persName> and
                             <persName corresp="#p_EDD_1">David Elliott</persName> of the National
                         Security Council Staff to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d156fn1">
+                            >Kissinger</persName><note n="1" xml:id="d156fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_LJM_1"
                                         >Lodal</persName> and <persName corresp="#p_EDD_1"
                                         >Elliott</persName> informed <persName corresp="#p_KHA_1"
@@ -32813,7 +32597,6 @@
                     <p>_______ That we wait for an <gloss target="#t_ROK_1">ROK</gloss> response to
                         our aide-mémoire.</p>
                 </div>
-
                 <pb n="520" facs="0554" xml:id="pg_520"/>
                 <div type="document" n="157" xml:id="d157" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
@@ -32871,7 +32654,6 @@
                         of the statement, see Department of State <hi rend="italic">Bulletin,</hi>
                         August 4, 1975, pages 188–189.</p>
                 </div>
-
                 <pb n="521" facs="0555" xml:id="pg_521"/>
                 <div type="document" n="158" xml:id="d158" subtype="historical-document"
                     frus:doc-dateTime-min="1975-07-24T00:00:00-05:00"
@@ -32879,8 +32661,7 @@
                     <head>158. Memorandum From <persName corresp="#p_LJM_1">Jan Lodal</persName> and
                             <persName corresp="#p_EDD_1">David Elliott</persName> of the National
                         Security Council Staff to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d158fn1">
+                            >Kissinger</persName><note n="1" xml:id="d158fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_LJM_1"
                                         >Lodal</persName> and <persName corresp="#p_EDD_1"
                                         >Elliott</persName> briefed <persName corresp="#p_KHA_1"
@@ -33045,15 +32826,13 @@
                         controls to ensure that they do not develop nuclear weapons.</p>
                     <p>Jack Froebe concurs.</p>
                 </div>
-
                 <div type="document" n="159" xml:id="d159" subtype="historical-document"
                     frus:doc-dateTime-min="1975-09-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-09-04T23:59:59-05:00">
                     <head>159. Memorandum From <persName corresp="#p_LJM_1">Jan Lodal</persName> of
                         the National Security Council Staff and the Counselor of the Department of
                         State (Sonnenfeldt) to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d159fn1">
+                            >Kissinger</persName><note n="1" xml:id="d159fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_LJM_1"
                                         >Lodal</persName> and Sonnenfeldt presented an updated set
                                     of topics to be raised by the <gloss target="#t_US_1"
@@ -33264,7 +33043,6 @@
                         informing him of the status of the negotiations and the contents of this
                             <gloss target="#t_NSDM_1">NSDM</gloss>.</p>
                 </div>
-
                 <pb n="528" facs="0562" xml:id="pg_528"/>
                 <div type="document" n="160" xml:id="d160" subtype="historical-document"
                     frus:doc-dateTime-min="1975-09-06T00:00:00-05:00"
@@ -33272,8 +33050,7 @@
                     <head>160. Memorandum From <persName corresp="#p_EDD_1">David Elliott</persName>
                         and <persName corresp="#p_LJM_1">Jan Lodal</persName> of the National
                         Security Council Staff to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d160fn1">
+                            >Kissinger</persName><note n="1" xml:id="d160fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_EDD_1"
                                         >Elliott</persName> and <persName corresp="#p_LJM_1"
                                         >Lodal</persName> provided <persName corresp="#p_KHA_1"
@@ -33561,7 +33338,6 @@
                     <p>That you approve the instructions for the <gloss target="#t_US_1"
                             >U.S.</gloss>-French talks on bilateral nuclear issues at Tab B.</p>
                 </div>
-
                 <div type="document" n="161" xml:id="d161" subtype="historical-document"
                     frus:doc-dateTime-min="1975-09-08T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-09-08T23:59:59-05:00">
@@ -33660,7 +33436,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="535" facs="0569" xml:id="pg_535"/>
                 <div type="document" n="162" xml:id="d162" subtype="historical-document"
                     frus:doc-dateTime-min="1975-09-10T11:40:00-05:00"
@@ -33706,7 +33481,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="536" facs="0570" xml:id="pg_536"/>
                 <div type="document" n="163" xml:id="d163" subtype="historical-document"
                     frus:doc-dateTime-min="1975-09-11T08:31:00-05:00"
@@ -33855,7 +33629,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="539" facs="0573" xml:id="pg_539"/>
                 <div type="document" n="164" xml:id="d164" subtype="historical-document"
                     frus:doc-dateTime-min="1975-10-29T13:43:00-05:00"
@@ -34030,7 +33803,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="542" facs="0576" xml:id="pg_542"/>
                 <div type="document" n="165" xml:id="d165" subtype="historical-document"
                     frus:doc-dateTime-min="1975-11-18T00:00:00-05:00"
@@ -34159,7 +33931,6 @@
                     <p>We will review this issue in the context of this week’s sessions in Moscow
                         and provide our recommendations in a subsequent memorandum.</p>
                 </div>
-
                 <div type="document" n="166" xml:id="d166" subtype="historical-document"
                     frus:doc-dateTime-min="1975-12-10T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-12-10T23:59:59-05:00">
@@ -34242,15 +34013,13 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="546" facs="0580" xml:id="pg_546"/>
                 <div type="document" n="167" xml:id="d167" subtype="historical-document"
                     frus:doc-dateTime-min="1975-12-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-12-22T23:59:59-05:00">
                     <head>167. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_SBA_1">Scowcroft</persName>) to President
-                            <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d167fn1">
+                            <persName corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d167fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_SBA_1"
                                         >Scowcroft</persName> recommended that <persName
                                         corresp="#p_FGR_1">Ford</persName> certify compliance with
@@ -34326,7 +34095,6 @@
                     <p rend="sectiontitleital">Recommendation:</p>
                     <p>That you approve my signing the memorandum at Tab A.</p>
                 </div>
-
                 <div type="document" n="168" xml:id="d168" subtype="historical-document"
                     frus:doc-dateTime-min="1975-12-23T17:49:00-05:00"
                     frus:doc-dateTime-max="1975-12-23T17:49:00-05:00">
@@ -34350,11 +34118,9 @@
                                         target="#d155">155</ref>.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1975-12-23T22:49:00+00:00"
                             calendar="gregorian">December 23, 1975, 2249Z</date>.</dateline>
-
                     <p>301860. Subject: Venting Démarche to Soviets.</p>
                     <p>1. On December 23 Assistant Secretary <persName corresp="#p_HAA_1"
                             >Hartman</persName> called in Soviet Minister Counselor <persName
@@ -34414,7 +34180,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="549" facs="0583" xml:id="pg_549"/>
                 <div type="document" n="169" xml:id="d169" subtype="historical-document"
                     frus:doc-dateTime-min="1976-01-19T00:00:00-05:00"
@@ -34497,7 +34262,6 @@
                         a policy decision not to export chemical reprocessing technology in the
                         future, apparently including a reversal of their planned sale to Korea.</p>
                 </div>
-
                 <div type="document" n="170" xml:id="d170" subtype="historical-document"
                     frus:doc-dateTime-min="1976-01-23T01:34:00-05:00"
                     frus:doc-dateTime-max="1976-01-23T03:45:00-05:00">
@@ -34702,7 +34466,6 @@
                         successful conclusion.</p>
                     <p>[Omitted here is discussion unrelated to arms control.]</p>
                 </div>
-
                 <pb n="553" facs="0587" xml:id="pg_553"/>
                 <div type="document" n="171" xml:id="d171" subtype="historical-document"
                     frus:doc-dateTime-min="1976-01-30T00:00:00-05:00"
@@ -34950,7 +34713,6 @@
                         foreign policy should be shaped by domestic considerations, and you may want
                         to address this problem.</p>
                 </div>
-
                 <div type="document" n="172" xml:id="d172" subtype="historical-document"
                     frus:doc-dateTime-min="1976-02-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-02-04T23:59:59-05:00">
@@ -35076,7 +34838,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="173" xml:id="d173" subtype="historical-document"
                     frus:doc-dateTime-min="1976-02-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-02-09T23:59:59-05:00">
@@ -35139,7 +34900,6 @@
                         <item>
                             <gloss target="#t_NSC_1">NSC</gloss>–U/SM–79L</item>
                     </list>
-
                     <p>The President has requested that a study be prepared, including agency
                         recommendations, delineating those actions that are required or are
                         advisable in implementing <gloss target="#t_US_1">U.S.</gloss> obligations
@@ -35165,7 +34925,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="561" facs="0595" xml:id="pg_561"/>
                 <div type="document" n="174" xml:id="d174" subtype="historical-document"
                     frus:doc-dateTime-min="1976-02-13T10:24:00-05:00"
@@ -35221,7 +34980,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="562" facs="0596" xml:id="pg_562"/>
                 <div type="document" n="175" xml:id="d175" subtype="historical-document"
                     frus:doc-dateTime-min="1976-02-18T06:48:00-05:00"
@@ -35257,11 +35015,9 @@
                                     385–388.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Geneva</placeName>, <date when="1976-02-18T11:48:00+00:00"
                             calendar="gregorian">February 18, 1976, 1148Z</date>.</dateline>
-
                     <p>1126. <gloss target="#t_Disto_1">Disto</gloss>. Subject: <gloss
                             target="#t_CCD_1">CCD</gloss>—688th Plenary Meeting, February 17,
                         1976.</p>
@@ -35376,14 +35132,12 @@
                         <signed>Dale</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="176" xml:id="d176" subtype="historical-document"
                     frus:doc-dateTime-min="1976-02-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-02-23T23:59:59-05:00">
                     <head>176. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_SBA_1">Scowcroft</persName>) to President
-                            <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d176fn1">
+                            <persName corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d176fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_SBA_1"
                                         >Scowcroft</persName> recommended that <persName
                                         corresp="#p_FGR_1">Ford</persName> approve a proposal for a
@@ -35494,14 +35248,13 @@
                         the increased visibility of a special budget request is worthwhile but is
                         basically neutral on the budgetary question.</p>
                 </div>
-
                 <div type="document" n="177" xml:id="d177" subtype="historical-document"
                     frus:doc-dateTime-min="1975-02-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-03-05T09:30:00-05:00">
                     <head>177. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_SBA_1">Scowcroft</persName>) to Secretary of
-                        State <persName corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" xml:id="d177fn1">
+                        State <persName corresp="#p_KHA_1">Kissinger</persName><note n="1"
+                            xml:id="d177fn1">
                             <p><seg type="summary">Summary: In advance of a March 5 Verification
                                     Panel meeting on peaceful nuclear explosions, <persName
                                         corresp="#p_SBA_1">Scowcroft</persName> briefed <persName
@@ -35906,7 +35659,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="178" xml:id="d178" subtype="historical-document"
                     frus:doc-dateTime-min="1976-03-04T12:47:00-05:00"
                     frus:doc-dateTime-max="1976-03-04T12:47:00-05:00">
@@ -36031,7 +35783,6 @@
                         <signed>Dale</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="179" xml:id="d179" subtype="historical-document"
                     frus:doc-dateTime-min="1976-03-08T18:00:00-05:00"
                     frus:doc-dateTime-max="1976-03-08T18:30:00-05:00">
@@ -36323,13 +36074,11 @@
                         briefing book and go over my statement again.</p>
                     <p>Sonnenfeldt: You might also read the Pakistani package and act on it.</p>
                 </div>
-
                 <div type="document" n="180" xml:id="d180" subtype="historical-document"
                     frus:doc-dateTime-min="1976-03-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-03-09T23:59:59-05:00">
                     <head>180. Statement by Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d180fn1">
+                            >Kissinger</persName><note n="1" xml:id="d180fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                         >Kissinger</persName>, speaking before the Senate Committee
                                     on Government Operations, addressed a variety of
@@ -36782,7 +36531,6 @@
                         the recognition that our overall foreign objectives can reinforce our
                         nonproliferation goals as we work to create a more stable world order.</p>
                 </div>
-
                 <pb n="589" facs="0623" xml:id="pg_589"/>
                 <div type="document" n="181" xml:id="d181" subtype="historical-document"
                     frus:doc-dateTime-min="1976-03-11T00:00:00-05:00"
@@ -36807,7 +36555,6 @@
                                         <ref target="#d192">Document 192</ref>.</seg></p>
                         </note>
                     </head>
-
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-03-11"
@@ -36891,15 +36638,14 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="591" facs="0625" xml:id="pg_591"/>
                 <div type="document" n="182" xml:id="d182" subtype="historical-document"
                     frus:doc-dateTime-min="1976-03-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-03-15T23:59:59-05:00">
                     <head>182. Memorandum From the Administrator of the Energy Research and
                         Development Administration (<persName corresp="#p_SRC_1">Seamans</persName>)
-                        to President <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d182fn1">
+                        to President <persName corresp="#p_FGR_1">Ford</persName><note n="1"
+                            xml:id="d182fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_SRC_1"
                                         >Seamans</persName> informed <persName corresp="#p_FGR_1"
                                         >Ford</persName> of his and Under Secretary of State for
@@ -37119,7 +36865,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="595" facs="0629" xml:id="pg_595"/>
                 <div type="document" n="183" xml:id="d183" subtype="historical-document"
                     frus:doc-dateTime-min="1976-03-24T00:00:00-05:00"
@@ -37203,7 +36948,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="184" xml:id="d184" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
@@ -37241,7 +36985,6 @@
                             <hi rend="italic">Foreign Relations,</hi> 1969–1976, volume XVI, Soviet
                             Union, August 1974–November 1976, as Document 276</ref>.</p>
                 </div>
-
                 <pb n="597" facs="0631" xml:id="pg_597"/>
                 <div type="document" n="185" xml:id="d185" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-03T06:30:00-05:00"
@@ -37290,7 +37033,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="598" facs="0632" xml:id="pg_598"/>
                 <div type="document" n="186" xml:id="d186" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-08T06:36:00-05:00"
@@ -37568,7 +37310,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="603" facs="0637" xml:id="pg_603"/>
                 <div type="document" n="187" xml:id="d187" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-13T00:11:00-05:00"
@@ -37656,7 +37397,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="188" xml:id="d188" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-15T06:50:00-05:00"
                     frus:doc-dateTime-max="1976-04-15T06:50:00-05:00">
@@ -37683,11 +37423,9 @@
                                     April 6, is ibid., D760128–0656.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Geneva</placeName>, <date when="1976-04-15T11:50:00+00:00"
                             calendar="gregorian">April 15, 1976, 1150Z</date>.</dateline>
-
                     <p>2926. Subject: <gloss target="#t_CCD_1">CCD</gloss>: Informal Meetings on New
                         Mass Destruction Weapons (<gloss target="#t_MDW_1">MDW</gloss>) April 7–8,
                         1976. <gloss target="#t_REFReftel_1">Ref</gloss>: State 81986 (<gloss
@@ -37929,7 +37667,6 @@
                         <signed>Abrams</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="189" xml:id="d189" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-16T13:12:00-05:00"
                     frus:doc-dateTime-max="1976-04-16T13:12:00-05:00">
@@ -37959,11 +37696,9 @@
                                         <ref target="#d168">Document 168</ref>.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1976-04-16T18:12:00+00:00"
                             calendar="gregorian">April 16, 1976, 1812Z</date>.</dateline>
-
                     <p>92577. Subject: Soviet Note on Nuclear Venting.</p>
                     <p>1. Soviet Chargé <persName corresp="#p_VY_1">Vorontsov</persName> called on
                         Deputy Assistant Secretary <persName corresp="#p_AJA_1">Armitage</persName>,
@@ -38039,14 +37774,12 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="190" xml:id="d190" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-19T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-04-19T23:59:59-05:00">
                     <head>190. Memorandum from the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_SBA_1">Scowcroft</persName>) to President
-                            <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d190fn1">
+                            <persName corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d190fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_SBA_1"
                                         >Scowcroft</persName> summarized recent discussions among
                                         <gloss target="#t_ERDA_1">ERDA</gloss>, Department of State,
@@ -38165,7 +37898,6 @@
                         implementing memorandum at Tab A.</p>
                     <p>The Domestic Council concurs.</p>
                 </div>
-
                 <div type="document" n="191" xml:id="d191" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-04-20T23:59:59-05:00">
@@ -38265,7 +37997,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="615" facs="0649" xml:id="pg_615"/>
                 <div type="document" n="192" xml:id="d192" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-20T20:18:00-05:00"
@@ -38292,11 +38023,9 @@
                                     information to Moscow.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1976-04-21T01:18:00+00:00"
                             calendar="gregorian">April 21, 1976, 0118Z</date>.</dateline>
-
                     <p>95986. Subject: <gloss target="#t_PNE_1">PNE</gloss> Treaty.</p>
                     <p>1. <hi rend="italic">For <gloss target="#t_USNATO_1">USNATO</gloss>.</hi>
                         Text of briefing paper on <gloss target="#t_PNE_1">PNE</gloss> treaty,
@@ -38448,14 +38177,12 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="193" xml:id="d193" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-04-22T23:59:59-05:00">
                     <head>193. Memorandum From Secretary of State <persName corresp="#p_KHA_1"
                             >Kissinger</persName> to President <persName corresp="#p_FGR_1"
-                            >Ford</persName>
-                        <note n="1" xml:id="d193fn1">
+                            >Ford</persName><note n="1" xml:id="d193fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> informed <persName corresp="#p_FGR_1"
                                         >Ford</persName> that the Soviet negotiators stated that
@@ -38537,7 +38264,6 @@
                     <p>Desired timing of signature _______</p>
                     <p>Disapprove _______</p>
                 </div>
-
                 <pb n="620" facs="0654" xml:id="pg_620"/>
                 <div type="document" n="194" xml:id="d194" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-23T10:14:00-05:00"
@@ -38572,11 +38298,9 @@
                                     from Geneva, April 15, 1976. (Ibid., D760143–0213)</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Geneva</placeName>, <date when="1976-04-23T15:14:00+00:00"
                             calendar="gregorian">April 23, 1976, 1514Z</date>.</dateline>
-
                     <p>3110. <gloss target="#t_Disto_1">Disto</gloss>. Subj: <gloss
                             target="#t_CCD_1">CCD</gloss>—Wrap-up of Spring 1976 Session.</p>
                     <p>
@@ -38736,7 +38460,6 @@
                         <signed>Dale</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="195" xml:id="d195" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-26T10:04:00-05:00"
                     frus:doc-dateTime-max="1976-04-26T10:04:00-05:00">
@@ -38758,11 +38481,9 @@
                                     (Ibid., D760149–1018)</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Moscow</placeName>, <date when="1976-04-26T15:04:00+00:00"
                             calendar="gregorian">April 26, 1976, 1504Z</date>.</dateline>
-
                     <p>6464. Subj: <persName corresp="#p_IV_1">Israelyan</persName> on <gloss
                             target="#t_CTB_1">CTB</gloss>. <gloss target="#t_REFReftel_1"
                             >Ref</gloss>: State 95642.</p>
@@ -38932,7 +38653,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="627" facs="0661" xml:id="pg_627"/>
                 <div type="document" n="196" xml:id="d196" subtype="historical-document"
                     frus:doc-dateTime-min="1976-05-27T00:00:00-05:00"
@@ -39029,7 +38749,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="197" xml:id="d197" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-12-29T23:59:59-05:00">
@@ -39098,15 +38817,14 @@
                         statement are printed in the Department of State <hi rend="italic"
                             >Bulletin,</hi> June 28, 1976; pp. 802–812.</p>
                 </div>
-
                 <pb n="630" facs="0664" xml:id="pg_630"/>
                 <div type="document" n="198" xml:id="d198" subtype="historical-document"
                     frus:doc-dateTime-min="1976-06-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-06-09T23:59:59-05:00">
                     <head>198. Letter From the Administrator of the Energy Research and Development
                         Administration (<persName corresp="#p_SRC_1">Seamans</persName>) to
-                        President <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d198fn1">
+                        President <persName corresp="#p_FGR_1">Ford</persName><note n="1"
+                            xml:id="d198fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_SRC_1"
                                         >Seamans</persName> recommended that the United States
                                     pursue a “major initiative” regarding the nuclear fuel cycle,
@@ -39239,7 +38957,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="199" xml:id="d199" subtype="historical-document"
                     frus:doc-dateTime-min="1976-06-10T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-06-10T23:59:59-05:00">
@@ -39311,7 +39028,6 @@
                     <p rend="sectiontitleital">Recommendation:</p>
                     <p>That you sign the memorandum at Tab A.</p>
                 </div>
-
                 <pb n="634" facs="0668" xml:id="pg_634"/>
                 <div type="document" n="200" xml:id="d200" subtype="historical-document"
                     frus:doc-dateTime-min="1976-06-22T00:00:00-05:00"
@@ -39320,8 +39036,7 @@
                         Affairs (<persName corresp="#p_SBA_1">Scowcroft</persName>) and the
                         President’s Assistant for Domestic Affairs (<persName corresp="#p_CJM_1"
                             >Cannon</persName>) to President <persName corresp="#p_FGR_1"
-                            >Ford</persName>
-                        <note n="1" xml:id="d200fn1">
+                            >Ford</persName><note n="1" xml:id="d200fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_SBA_1"
                                         >Scowcroft</persName> and <persName corresp="#p_CJM_1"
                                         >Cannon</persName> sent <gloss target="#t_ERDA_1"
@@ -39414,7 +39129,6 @@
                         necessary work, in cooperation with <gloss target="#t_OMB_1">OMB</gloss>,
                         the ERC, and all of the agencies concerned.</p>
                 </div>
-
                 <pb n="636" facs="0670" xml:id="pg_636"/>
                 <div type="document" n="201" xml:id="d201" subtype="historical-document"
                     frus:doc-dateTime-min="1976-06-22T00:00:00-05:00"
@@ -39707,7 +39421,6 @@
                             target="#t_US_1">U.S.</gloss> contribution announced by the President on
                         February 26, 1976.</p>
                 </div>
-
                 <div type="document" n="202" xml:id="d202" subtype="historical-document"
                     frus:doc-dateTime-min="1976-07-26T07:09:00-05:00"
                     frus:doc-dateTime-max="1976-07-26T07:09:00-05:00">
@@ -39813,15 +39526,13 @@
                         for it.</p>
                     <p>[Omitted here is discussion unrelated to nuclear reprocessing.]</p>
                 </div>
-
                 <pb n="643" facs="0677" xml:id="pg_643"/>
                 <div type="document" n="203" xml:id="d203" subtype="historical-document"
                     frus:doc-dateTime-min="1976-08-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-08-05T23:59:59-05:00">
                     <head>203. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_SBA_1">Scowcroft</persName>) to President
-                            <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d203fn1">
+                            <persName corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d203fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_SBA_1"
                                         >Scowcroft</persName> informed <persName corresp="#p_FGR_1"
                                         >Ford</persName> that the Soviet Union had conducted
@@ -39907,7 +39618,6 @@
                         to the Soviets reaffirming our intention to observe the TTB/PNE yield limits
                         and reminding them that we expect parallel compliance on their part.</p>
                 </div>
-
                 <div type="document" n="204" xml:id="d204" subtype="historical-document"
                     frus:doc-dateTime-min="1976-08-06T20:31:00-05:00"
                     frus:doc-dateTime-max="1976-08-06T20:31:00-05:00">
@@ -39932,11 +39642,9 @@
                                     remains classified.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1976-08-07T01:31:00+00:00"
                             calendar="gregorian">August 7, 1976, 0131Z</date>.</dateline>
-
                     <p>196181. <gloss target="#t_Exdis_1">Exdis</gloss> for the Ambassador only.
                         Subject: TTBT/PNE: Démarche to <persName corresp="#p_DA_1"
                             >Dobrynin</persName>.</p>
@@ -39968,7 +39676,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="205" xml:id="d205" subtype="historical-document"
                     frus:doc-dateTime-min="1976-08-11T08:23:00-05:00"
                     frus:doc-dateTime-max="1976-08-11T08:23:00-05:00">
@@ -39986,11 +39693,9 @@
                                     Leningrad.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Moscow</placeName>, <date when="1976-08-11T13:23:00+00:00"
                             calendar="gregorian">August 11, 1976, 1323Z</date>.</dateline>
-
                     <p>12672. Subj: Soviet Nuclear Explosions.</p>
                     <p>1. During brief conversation at dinner August 10, Political Counselor asked
                         Ambassador <persName corresp="#p_TRM_1">Roland Timerbayev</persName>, Deputy
@@ -40367,15 +40072,13 @@
                         the diplomatic and foreign policy elements of <gloss target="#t_US_1"
                             >U.S.</gloss> nuclear policies.</p>
                 </div>
-
                 <pb n="653" facs="0687" xml:id="pg_653"/>
                 <div type="document" n="207" xml:id="d207" subtype="historical-document"
                     frus:doc-dateTime-min="1976-09-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-09-06T23:59:59-05:00">
                     <head>207. Memorandum From Secretary of State <persName corresp="#p_KHA_1"
                             >Kissinger</persName> to President <persName corresp="#p_FGR_1"
-                            >Ford</persName>
-                        <note n="1" xml:id="d207fn1">
+                            >Ford</persName><note n="1" xml:id="d207fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                         >Kissinger</persName> presented the Department of State’s
                                     positions on nuclear policy and nonproliferation initiatives as
@@ -40599,7 +40302,6 @@
                         with your decisions on the recommendations of the nuclear policy review
                         group.</p>
                 </div>
-
                 <pb n="658" facs="0692" xml:id="pg_658"/>
                 <div type="document" n="208" xml:id="d208" subtype="historical-document"
                     frus:doc-dateTime-min="1976-09-15T00:00:00-05:00"
@@ -40609,8 +40311,7 @@
                         Assistant for Domestic Affairs (<persName corresp="#p_CJM_1"
                             >Cannon</persName>), and the Director of the Office of Management and
                         Budget (<persName corresp="#p_LJT_1">Lynn</persName>) to President <persName
-                            corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d208fn1">
+                            corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d208fn1">
                             <p><seg type="summary">Summary: In light of the Nuclear Policy Review
                                     Group’s recent report, <persName corresp="#p_SBA_1"
                                         >Scowcroft</persName>, <persName corresp="#p_CJM_1"
@@ -40807,8 +40508,8 @@
                         nuclear industry would welcome the commitment to reprocessing and the plan
                         to resolve uncertainties.</p>
                     <p>• Principal arguments for this approach are:</p>
+                    <pb n="662" facs="0696" xml:id="pg_662"/>
                     <quote>
-                        <pb n="662" facs="0696" xml:id="pg_662"/>
                         <p>—Recognizes that reprocessing will likely be pursued abroad in any event
                             and that there will be strong pressures for reprocessing
                             domestically.</p>
@@ -40956,8 +40657,7 @@
                         <row>
                             <cell>_______Commerce, <persName corresp="#p_FML_1"
                                     >Friedersdorf</persName>, <persName corresp="#p_MJO_1"
-                                    >Marsh</persName>
-                                <note n="2" xml:id="d208fn2">
+                                    >Marsh</persName><note n="2" xml:id="d208fn2">
                                     <persName corresp="#p_MJO_1">Marsh</persName> prefers Alt. #2
                                     but would settle for Alt. #3. [Footnote is in the
                                     original.]</note>
@@ -41000,14 +40700,12 @@
                             <persName corresp="#p_FRW_1">Fri</persName> Report are at Appendix
                         II.</p>
                 </div>
-
                 <div type="document" n="209" xml:id="d209" subtype="historical-document"
                     frus:doc-dateTime-min="1976-09-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-09-23T23:59:59-05:00">
                     <head>209. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_SBA_1">Scowcroft</persName>) to President
-                            <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d209fn1">
+                            <persName corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d209fn1">
                             <p><seg type="summary">Summary: <persName corresp="#p_SBA_1"
                                         >Scowcroft</persName> summarized for <persName
                                         corresp="#p_FGR_1">Ford</persName> the proposed nuclear
@@ -41245,7 +40943,6 @@
                         (i.e., any of the above alternatives but the last), you should sign the
                         decision memorandum at Tab A.</p>
                 </div>
-
                 <pb n="670" facs="0704" xml:id="pg_670"/>
                 <div type="document" n="210" xml:id="d210" subtype="historical-document"
                     frus:doc-dateTime-min="1976-09-28T19:53:00-05:00"
@@ -41278,11 +40975,9 @@
                                     D760366–0669)</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>New York</placeName>, <date when="1976-09-29T00:53:00+00:00"
                             calendar="gregorian">September 29, 1976, 0053Z</date>.</dateline>
-
                     <p>4005. Subject: <gloss target="#t_UNGA_1">UNGA</gloss> Disarmament: Soviet
                         Memorandum on Disarmament.</p>
                     <p>1. <gloss target="#t_USSR_1">USSR</gloss> introduced Sept 28, in conjunction
@@ -41458,7 +41153,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="674" facs="0708" xml:id="pg_674"/>
                 <div type="document" n="211" xml:id="d211" subtype="historical-document"
                     frus:doc-dateTime-min="1976-10-15T11:09:00-05:00"
@@ -41487,11 +41181,9 @@
                                         >Document 210</ref>.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Moscow</placeName>, <date when="1976-10-15T16:09:00+00:00"
                             calendar="gregorian">October 15, 1976, 1609Z</date>.</dateline>
-
                     <p>16290. Subj: Soviet Assessment of <persName corresp="#p_GAA_2"
                             >Gromyko</persName> Proposals: <gloss target="#t_CTB_1">CTB</gloss>,
                             <gloss target="#t_CW_1">CW</gloss>, Indian Ocean. <gloss
@@ -41590,7 +41282,6 @@
                         <signed>Matlock</signed>
                     </closer>
                 </div>
-
                 <pb n="676" facs="0710" xml:id="pg_676"/>
                 <div type="document" n="212" xml:id="d212" subtype="historical-document"
                     frus:doc-dateTime-min="1976-10-18T07:10:00-05:00"
@@ -41625,7 +41316,6 @@
                         <placeName>Washington</placeName>, <date when="1976-10-18T08:10:00-04:00"
                             calendar="gregorian">October 18, 1976, 8:10 a.m.</date>
                     </dateline>
-
                     <p>[Omitted here is a list of attendees.]</p>
                     <p rend="center">
                         <hi rend="italic">PROCEEDINGS</hi>
@@ -41883,7 +41573,6 @@
                     <p>Mr. <persName corresp="#p_VGS_1">Vest</persName>: That’s right, sir.</p>
                     <p>[Omitted here is discussion unrelated to nuclear nonproliferation.]</p>
                 </div>
-
                 <div type="document" n="213" xml:id="d213" subtype="historical-document"
                     frus:doc-dateTime-min="1976-10-19T10:02:00-05:00"
                     frus:doc-dateTime-max="1976-10-19T10:02:00-05:00">
@@ -41905,11 +41594,9 @@
                                     October 15, is <ref target="#d211">Document 211</ref>.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Moscow</placeName>, <date when="1976-10-19T15:02:00+00:00"
                             calendar="gregorian">October 19, 1976, 1502Z</date>.</dateline>
-
                     <p>16455. Subject: Soviet Priorities in Disarmament; <gloss target="#t_CTB_1"
                             >CTB</gloss> Gets High Rating. <gloss target="#t_REFReftel_1"
                             >Ref</gloss>: Moscow 16290.</p>
@@ -41992,13 +41679,11 @@
                         <signed>Matlock</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="214" xml:id="d214" subtype="historical-document"
                     frus:doc-dateTime-min="1976-10-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-10-28T23:59:59-05:00">
                     <head>214. Statement on Nuclear Policy by President <persName corresp="#p_FGR_1"
-                            >Ford</persName>
-                        <note n="1" xml:id="d214fn1">
+                            >Ford</persName><note n="1" xml:id="d214fn1">
                             <p><seg type="summary">Summary: The statement provided an overview of
                                     nonproliferation and other arms control initiatives undertaken
                                     during <persName corresp="#p_FGR_1">Ford</persName>’s Presidency
@@ -42015,11 +41700,9 @@
                                     2763–2778.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1976-10-28"
                             calendar="gregorian">October 28, 1976</date>.</dateline>
-
                     <p>We have known since the age of nuclear energy began more than 30 years ago
                         that this source of energy had the potential for tremendous benefits for
                         mankind and the potential for unparalleled destruction.</p>
@@ -42635,7 +42318,6 @@
                         of construction rather than consume them in increasingly dangerous
                         rivalry.</p>
                 </div>
-
                 <div type="document" n="215" xml:id="d215" subtype="historical-document"
                     frus:doc-dateTime-min="1976-12-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-12-15T23:59:59-05:00">
@@ -42721,7 +42403,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="699" facs="0733" xml:id="pg_699"/>
                 <div type="document" n="216" xml:id="d216" subtype="historical-document"
                     frus:doc-dateTime-min="1976-12-15T00:00:00-05:00"
@@ -42890,7 +42571,6 @@
                         enter into an acceptable agreement along the lines outlined with the Soviets
                         even if there were no other states party thereto.</p>
                 </div>
-
                 <pb n="702" facs="0736" xml:id="pg_702"/>
                 <div type="document" n="217" xml:id="d217" subtype="historical-document"
                     frus:doc-dateTime-min="1976-12-29T00:00:00-05:00"
@@ -43335,7 +43015,6 @@
                         restraints on <gloss target="#t_CW_1">CW</gloss>, it would serve our
                         national security purposes to have such a standby facility.)</p>
                 </div>
-
                 <pb n="710" facs="0744" xml:id="pg_710"/>
                 <div type="document" n="218" xml:id="d218" subtype="historical-document"
                     frus:doc-dateTime-min="1976-12-29T15:07:00-05:00"
@@ -43357,13 +43036,11 @@
                                         128</ref>.</seg></p>
                         </note>
                     </head>
-
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1976-12-29T15:07:00-05:00"
                             to="1976-12-29T16:03:00-05:00" calendar="gregorian">December 29, 1976,
                             3:07–4:03 p.m.</date>
                     </dateline>
-
                     <p>Meeting began at 3:07</p>
                     <p>
                         <persName corresp="#p_HWG_1">Hyland</persName>: The problem as I understand

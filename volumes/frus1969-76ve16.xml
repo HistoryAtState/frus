@@ -14,7 +14,6 @@
                 <editor role="primary">James Siekmeier</editor>
                 <editor role="general">Adam M. Howard</editor>
             </titleStmt>
-
             <publicationStmt>
                 <publisher/>
                 <pubPlace>Washington</pubPlace>
@@ -23,11 +22,9 @@
                 <date type="content-date" calendar="gregorian" notBefore="1969-01-28T00:00:00-05:00"
                     notAfter="1974-06-12T23:59:59-05:00">1969 to 1974</date>
             </publicationStmt>
-
             <sourceDesc>
                 <p>Released in 2015 as online volume.</p>
             </sourceDesc>
-
         </fileDesc>
         <encodingDesc>
             <styleDefDecl scheme="css" schemeVersion="2.1"/>
@@ -39,10 +36,8 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
-
     </teiHeader>
     <text>
-
         <front>
             <titlePage type="main">
                 <pb n="I" facs="0002" xml:id="pg_I"/>
@@ -96,7 +91,6 @@
                     and detail to formal records on President Nixon’s posture toward President
                     Allende, as well as several documents on human rights violations in the
                     aftermath of the Pinochet coup d’état. </p>
-
                 <p>This volume was compiled and edited by James McElveen and James Siekmeier , and
                     is available exclusively on the Office of the Historian website at <ref
                         target="http://history.state.gov/historicaldocuments/frus1969-76ve16"
@@ -105,10 +99,10 @@
                     Relations series, at (202) 955–0202 or by e-mail to <ref
                         target="mailto:history@state.gov">history@state.gov</ref>.</p>
             </div>
+            <pb n="III" facs="0004" xml:id="pg_III"/>
             <div type="section" xml:id="preface" subtype="preface"
                 frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
                 frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
-                <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -416,11 +410,10 @@
                 <pb n="X" facs="0011" xml:id="pg_X"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
+            <pb n="XI" facs="0012" xml:id="pg_XI"/>
             <div type="section" xml:id="toc" subtype="table-of-contents"
                 frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
                 frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
-                <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Contents</head>
                 <list>
                     <item>
@@ -439,7 +432,6 @@
                         <ref target="#persons">Persons</ref>
                         <ref target="#pg_XXV">XXV</ref>
                     </item>
-
                     <item>
                         <ref target="#notes">Notes on U.S. Covert Actions</ref>
                         <ref target="#pg_XXXIII">XXXIII</ref>
@@ -478,11 +470,10 @@
                 <pb n="XII" facs="0013" xml:id="pg_XII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
+            <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
             <div type="section" xml:id="sources" subtype="sources"
                 frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
                 frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
-                <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
                     Series</p>
@@ -825,11 +816,10 @@
                 <p>Kissinger, Henry. <hi rend="italic">The White House Years.</hi> Boston: Little,
                     Brown, 1979.</p>
             </div>
-
+            <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
             <div type="section" xml:id="terms" subtype="index"
                 frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
                 frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
-                <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
                     <item>
@@ -1693,11 +1683,10 @@
                 <pb n="XXIV" facs="0025" xml:id="pg_XXIV"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
+            <pb n="XXV" facs="0026" xml:id="pg_XXV"/>
             <div type="section" xml:id="persons" subtype="index"
                 frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
                 frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
-                <pb n="XXV" facs="0026" xml:id="pg_XXV"/>
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -2565,11 +2554,10 @@
                 <pb n="XXXII" facs="0033" xml:id="pg_XXXII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
+            <pb n="XXXIII" facs="0034" xml:id="pg_XXXIII"/>
             <div type="section" subtype="note-on-covert-actions" xml:id="notes"
                 frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
                 frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
-                <pb n="XXXIII" facs="0034" xml:id="pg_XXXIII"/>
                 <head>Note on U.S. Covert Actions</head>
                 <p>In compliance with the <hi rend="italic">Foreign Relations of the United States
                     </hi>statute that requires inclusion in the <hi rend="italic">Foreign Relations
@@ -2896,24 +2884,20 @@
                 </p>
             </div>
         </front>
-
         <body>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
                 frus:doc-dateTime-max="1974-06-12T23:59:59-05:00">
-
                 <head>Foreign Relations, 1969–1976, Volume E–16, Documents on Chile,
                     1969–1973</head>
-
                 <div type="chapter" n="1" xml:id="ch1"
                     frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1969-08-15T23:59:59-05:00">
                     <head>A “Noisy Democracy”: The Decline of <persName corresp="#p_FME_1">Eduardo
                             Frei</persName>, January–December 1969</head>
-
+                    <pb n="1" facs="0041" xml:id="pg_1"/>
                     <div type="document" n="1" xml:id="d1" subtype="historical-document"
                         frus:doc-dateTime-min="1969-01-28T00:00:00-05:00"
                         frus:doc-dateTime-max="1969-01-28T23:59:59-05:00">
-                        <pb n="1" facs="0041" xml:id="pg_1"/>
                         <head>1. National Intelligence Estimate<note n="1" xml:id="d1fn1">
                                 <p><seg type="summary">Summary: This estimate provided a
                                         comprehensive assessment of Chilean President <persName
@@ -3268,7 +3252,6 @@
                             <figure xml:id="d1_fig01">
                                 <graphic url="frus1969-76ve16_d1_fig01"/>
                                 <p>CHILE: Drought Area and Population Distribution</p>
-
                             </figure>
                             <pb n="9" facs="0049" xml:id="pg_9"/>expected to include 14,000 families
                             by the end of 1968, representing perhaps four percent of the rural
@@ -3605,7 +3588,6 @@
                             <figure xml:id="d1_fig02">
                                 <graphic url="frus1969-76ve16_d1_fig02"/>
                                 <p>Chilean Political Parties</p>
-
                             </figure>
                             <pb n="17" facs="0057" xml:id="pg_17"/>the orthodox Socialists may
                             attract some voters who normally support Communist candidates but were
@@ -3825,7 +3807,6 @@
                             run nationalistic, political grounds—rather than economic—will almost
                             certainly be the crucial factors in deciding this question.</p>
                     </div>
-
                     <div type="document" n="2" xml:id="d2" subtype="historical-document"
                         frus:doc-dateTime-min="1969-03-25T14:45:00-05:00"
                         frus:doc-dateTime-max="1969-03-25T14:45:00-05:00">
@@ -4015,7 +3996,6 @@
                             </signed>
                         </closer>
                     </div>
-
                     <div type="document" n="3" xml:id="d3" subtype="historical-document"
                         frus:doc-dateTime-min="1969-03-25T16:05:00-05:00"
                         frus:doc-dateTime-max="1969-03-25T16:05:00-05:00">
@@ -4066,11 +4046,10 @@
                             </signed>
                         </closer>
                     </div>
-
+                    <pb n="26" facs="0066" xml:id="pg_26"/>
                     <div type="document" n="4" xml:id="d4" subtype="historical-document"
                         frus:doc-dateTime-min="1969-04-23T00:00:00-05:00"
                         frus:doc-dateTime-max="1969-04-23T23:59:59-05:00">
-                        <pb n="26" facs="0066" xml:id="pg_26"/>
                         <head>4. Memorandum From <persName corresp="#p_NA_1">Arnold
                                 Nachmanoff</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -4222,11 +4201,10 @@
                             say. <persName corresp="#p_VVP_1">Pete Vaky</persName> or I will keep
                             you posted.</p>
                     </div>
-
+                    <pb n="29" facs="0069" xml:id="pg_29"/>
                     <div type="document" n="5" xml:id="d5" subtype="historical-document"
                         frus:doc-dateTime-min="1969-05-03T00:00:00-05:00"
                         frus:doc-dateTime-max="1969-05-03T23:59:59-05:00">
-                        <pb n="29" facs="0069" xml:id="pg_29"/>
                         <head>5. Memorandum From <persName corresp="#p_VVP_1">Viron P.
                                 Vaky</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -4284,11 +4262,10 @@
                             political repercussions of this issue, I would like to talk to you about
                             it should he make such a request.</p>
                     </div>
-
+                    <pb n="30" facs="0070" xml:id="pg_30"/>
                     <div type="document" n="6" xml:id="d6" subtype="historical-document"
                         frus:doc-dateTime-min="1969-07-01T00:00:00-05:00"
                         frus:doc-dateTime-max="1969-07-01T23:59:59-05:00">
-                        <pb n="30" facs="0070" xml:id="pg_30"/>
                         <head>6. Memorandum From the Acting Executive Secretary of the Department of
                             State (<persName corresp="#p_WJP_1">Walsh</persName>) to the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_KHA_1"
@@ -4538,11 +4515,10 @@
                             <affiliation>Acting Executive Secretary</affiliation>
                         </closer>
                     </div>
-
+                    <pb n="35" facs="0075" xml:id="pg_35"/>
                     <div type="document" n="7" xml:id="d7" subtype="historical-document"
                         frus:doc-dateTime-min="1969-08-06T00:00:00-05:00"
                         frus:doc-dateTime-max="1969-08-06T23:59:59-05:00">
-                        <pb n="35" facs="0075" xml:id="pg_35"/>
                         <head>7. Memorandum Prepared in the Office of National Estimates, Central
                             Intelligence Agency<note n="1" xml:id="d7fn1">
                                 <p><seg type="summary">Summary: This report assessed the strengths
@@ -4998,11 +4974,10 @@
                             soon find out that the estate had changed considerably since Don Jorge
                             turned over the keys five years ago.</p>
                     </div>
-
+                    <pb n="44" facs="0084" xml:id="pg_44"/>
                     <div type="document" n="8" xml:id="d8" subtype="historical-document"
                         frus:doc-dateTime-min="1969-08-15T00:00:00-05:00"
                         frus:doc-dateTime-max="1969-08-15T23:59:59-05:00">
-                        <pb n="44" facs="0084" xml:id="pg_44"/>
                         <head>8. Central Intelligence Agency Weekly Review Special Report<note n="1"
                                 xml:id="d8fn1">
                                 <p><seg type="summary">Summary: This Special Report, prepared in the
@@ -5104,13 +5079,10 @@
                             has been increasing its internal security capability, but it is still
                             likely to rely more on firepower than on less drastic riot-control
                             techniques.</p>
-
                         <figure xml:id="d8_fig01">
                             <graphic url="frus1969-76ve16_d8_fig01"/>
                             <p>Chilean Army Troops</p>
-
                         </figure>
-
                         <p>Although the armed forces have remained out of the political mainstream,
                             they are very much a part of Chilean life. They are entitled by law to a
                             percentage of the revenues from the copper industry. Many military
@@ -5176,19 +5148,15 @@
                             leftist government to avoid the threat of Argentine action, which would
                             consolidate public support for whatever government was in power in Chile
                             at the time.</p>
-
                         <pb n="48" facs="0088" xml:id="pg_48"/>
                         <figure xml:id="d8_fig02">
                             <graphic url="frus1969-76ve16_d8_fig02"/>
                             <p>Carabineros Arresting Demonstrators</p>
-
                         </figure>
                         <figure xml:id="d8_fig03">
                             <graphic url="frus1969-76ve16_d8_fig03"/>
                             <p>Strikers Repelling Carabineros With Stones</p>
-
                         </figure>
-
                         <p>Many military officers believe that former president <persName
                                 corresp="#p_ARJ_1">Jorge Alessandri</persName> would be an excellent
                             person to head a military backed government. Alessandri is presently in
@@ -5256,14 +5224,12 @@
                         </p>
                     </div>
                 </div>
-
+                <pb n="50" facs="0090" xml:id="pg_50"/>
                 <div type="chapter" n="2" xml:id="ch2"
                     frus:doc-dateTime-min="1970-07-17T11:20:00-05:00"
                     frus:doc-dateTime-max="1970-08-31T23:59:59-05:00">
-                    <pb n="50" facs="0090" xml:id="pg_50"/>
                     <head>A Spoiling Operation: The 1970 Chilean Presidential Election, January
                         1–September 4, 1970</head>
-
                     <div type="document" n="9" xml:id="d9" subtype="historical-document"
                         frus:doc-dateTime-min="1970-07-17T11:20:00-05:00"
                         frus:doc-dateTime-max="1970-07-17T11:20:00-05:00">
@@ -5446,7 +5412,6 @@
                             </signed>
                         </closer>
                     </div>
-
                     <div type="document" n="10" xml:id="d10" subtype="historical-document"
                         frus:doc-dateTime-min="1970-07-17T18:34:00-05:00"
                         frus:doc-dateTime-max="1970-07-17T18:34:00-05:00">
@@ -5748,7 +5713,6 @@
                             </signed>
                         </closer>
                     </div>
-
                     <div type="document" n="11" xml:id="d11" subtype="historical-document"
                         frus:doc-dateTime-min="1970-07-30T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-07-30T23:59:59-05:00">
@@ -6403,8 +6367,10 @@
                                 <cell>Cerro/Andina</cell>
                                 <cell>30%</cell>
                                 <cell cols="4">—(Being Developed)—</cell>
-                                <cell>58.4<hi rend="superscript">a</hi>
-                                </cell>
+                                <cell>58.4<note n="a" xml:id="d11fna1"> Does not include higher tax
+                                        rates on “excess profits” (when copper exceeds $.40 a pound)
+                                        which probably will be applied to these companies as
+                                        well.</note></cell>
                             </row>
                             <row>
                                 <cell cols="2">Weighted average rate</cell>
@@ -6415,11 +6381,6 @@
                                 <cell>84.6</cell>
                             </row>
                         </table>
-                        <p>
-                            <hi rend="superscript">a</hi>Does not include higher tax rates on
-                            “excess profits” (when copper exceeds $.40 a pound) which probably will
-                            be applied to these companies as well.</p>
-
                         <pb n="71" facs="0111" xml:id="pg_71"/>
                         <table cols="11">
                             <head>TABLE II CHILE’S NET FOREIGN EXCHANGE EARNINGS FROM THE OPERATIONS
@@ -6432,7 +6393,13 @@
                                 <cell/>
                                 <cell/>
                                 <cell/>
-                                <cell cols="6">Projected<hi rend="superscript">a</hi>
+                                <cell cols="6">Projected<note n="a" xml:id="d11fna2">Assuming
+                                        average copper prices of 65¢ a pound in 1970, 58¢ in 1971,
+                                        50¢ in 1972 and 1973, and 55¢ in 1974 and 1975, that the
+                                        rest of Anaconda’s holdings are nationalized in 1972—the
+                                        earliest option date permitted under the 1969 agreement—and
+                                        that the payment terms included in this agreement are
+                                        adhered to.</note>
                                 </cell>
                             </row>
                             <row>
@@ -6526,19 +6493,11 @@
                                 <cell>−70</cell>
                                 <cell>−63</cell>
                             </row>
-                            <note>
-                                <hi rend="superscript">a</hi> Assuming average copper prices of 65¢
-                                a pound in 1970, 58¢ in 1971, 50¢ in 1972 and 1973, and 55¢ in 1974
-                                and 1975, that the rest of Anaconda’s holdings are nationalized in
-                                1972—the earliest option date permitted under the 1969 agreement—and
-                                that the payment terms included in this agreement are adhered
-                                to.</note>
                         </table>
-
                         <pb n="72" facs="0112" xml:id="pg_72"/>
                         <table cols="6">
-                            <head>TABLE III<lb/> AGRARIAN REFORM IN CHILE<lb/> Acres
-                                Expropriated<lb/> (in 000’s)</head>
+                            <head>TABLE III <lb/>AGRARIAN REFORM IN CHILE <lb/>Acres Expropriated
+                                <lb/>(in 000’s)</head>
                             <row>
                                 <cell/>
                                 <cell>Number of Farms Expropriated</cell>
@@ -6556,7 +6515,8 @@
                                 <cell>1,159</cell>
                             </row>
                             <row>
-                                <cell>1965<hi rend="superscript">a</hi>
+                                <cell>1965<note n="a" xml:id="d11fna3">Including several large
+                                        holdings taken over from state entities.</note>
                                 </cell>
                                 <cell>85</cell>
                                 <cell>93</cell>
@@ -6565,8 +6525,8 @@
                                 <cell>0</cell>
                             </row>
                             <row>
-                                <cell>1966<hi rend="superscript">b</hi>
-                                </cell>
+                                <cell>1966<note n="b" xml:id="d11fnb1">Provisional
+                                    figure.</note></cell>
                                 <cell>262</cell>
                                 <cell>141</cell>
                                 <cell>1,263</cell>
@@ -6594,51 +6554,34 @@
                                 <cell>332</cell>
                                 <cell>141</cell>
                                 <cell>2,524</cell>
-                                <cell>5,612<hi rend="superscript">b</hi>
+                                <cell>5,612<note n="b" xml:id="d11fnb2">Provisional figure.</note>
                                 </cell>
-                                <cell>1,700<hi rend="superscript">c</hi>
-                                </cell>
+                                <cell>1,700<note n="c" xml:id="d11fnc1">Permanent communal rights
+                                        only.</note></cell>
                             </row>
-                            <note>
-                                <p>
-                                    <hi rend="superscript">a</hi>Including several large holdings
-                                    taken over from state entities.</p>
-                            </note>
-                            <note>
-                                <p>
-                                    <hi rend="superscript">b</hi>Provisional figure.</p>
-                            </note>
-                            <note>
-                                <p>
-                                    <hi rend="superscript">c</hi>Permanent communal rights only.</p>
-                            </note>
                         </table>
                         <pb n="73" facs="0113" xml:id="pg_73"/>
                         <figure xml:id="d11_fig01">
                             <graphic url="frus1969-76ve16_d11_fig01"/>
                             <p>The Role of Copper in Chilean Exports</p>
-
                         </figure>
                         <pb n="74" facs="0114" xml:id="pg_74"/>
                         <figure xml:id="d11_fig02">
                             <graphic url="frus1969-76ve16_d11_fig02"/>
                             <p>Real Wages and Rates on Inflation in Chile using different
                                 deflators</p>
-
                         </figure>
                         <pb n="75" facs="0115" xml:id="pg_75"/>
                         <figure xml:id="d11_fig03">
                             <graphic url="frus1969-76ve16_d11_fig03"/>
                             <p>Growth of Consumption, Investment and Gross Domestic Product in
                                 Chile</p>
-
                         </figure>
                     </div>
-
+                    <pb n="76" facs="0116" xml:id="pg_76"/>
                     <div type="document" n="12" xml:id="d12" subtype="historical-document"
                         frus:doc-dateTime-min="1970-08-13T11:20:00-05:00"
                         frus:doc-dateTime-max="1970-08-13T11:20:00-05:00">
-                        <pb n="76" facs="0116" xml:id="pg_76"/>
                         <head>12. Telegram From the Embassy in Chile to the Department of State<note
                                 n="1" xml:id="d12fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KEM_1"
@@ -6711,7 +6654,6 @@
                             </signed>
                         </closer>
                     </div>
-
                     <div type="document" n="13" xml:id="d13" subtype="historical-document"
                         frus:doc-dateTime-min="1970-08-18T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-08-18T23:59:59-05:00">
@@ -6768,8 +6710,8 @@
                             Political Affairs.</p>
                         <frus:attachment>
                             <note rend="inline">
-                                <hi rend="strong">Attachment</hi>
-                                <note n="2" xml:id="d13fn2">Secret; Sensitive.</note>
+                                <hi rend="strong">Attachment</hi><note n="2" xml:id="d13fn2">Secret;
+                                    Sensitive.</note>
                             </note>
                             <dateline>
                                 <placeName>Washington</placeName>, <date
@@ -7512,7 +7454,6 @@
                                 governments.</p>
                         </frus:attachment>
                     </div>
-
                     <div type="document" n="14" xml:id="d14" subtype="historical-document"
                         frus:doc-dateTime-min="1970-08-18T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-08-18T23:59:59-05:00">
@@ -7643,7 +7584,6 @@
                             cut off for years from most other political forces in the country,
                             including the Alessandri and Christian Democrat groups.</p>
                     </div>
-
                     <div type="document" n="15" xml:id="d15" subtype="historical-document"
                         frus:doc-dateTime-min="1970-08-28T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-08-28T23:59:59-05:00">
@@ -7883,11 +7823,10 @@
                             during the weekend. I believe judgments expressed in my message to
                                 <persName corresp="#p_MCA_1">Meyer</persName> prevail.</p>
                     </div>
-
+                    <pb n="98" facs="0138" xml:id="pg_98"/>
                     <div type="document" n="16" xml:id="d16" subtype="historical-document"
                         frus:doc-dateTime-min="1970-08-31T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-08-31T23:59:59-05:00">
-                        <pb n="98" facs="0138" xml:id="pg_98"/>
                         <head>16. Memorandum for the 40 Committee<note n="1" xml:id="d16fn1">
                                 <p><seg type="summary">Summary: This memorandum discussed options
                                         available to the U.S. Government to influence the outcome of
@@ -8178,11 +8117,10 @@
                             intelligence required to plan and to implement a political action
                             program?</p>
                     </div>
-
+                    <pb n="103" facs="0143" xml:id="pg_103"/>
                     <div type="document" n="17" xml:id="d17" subtype="historical-document"
                         frus:doc-dateTime-min="1970-08-31T15:45:00-05:00"
                         frus:doc-dateTime-max="1970-08-31T15:45:00-05:00">
-                        <pb n="103" facs="0143" xml:id="pg_103"/>
                         <head>17. Telegram From the Embassy in Chile to the Department of State<note
                                 n="1" xml:id="d17fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KEM_1"
@@ -8460,14 +8398,12 @@
                         </closer>
                     </div>
                 </div>
-
+                <pb n="108" facs="0148" xml:id="pg_108"/>
                 <div type="chapter" n="3" xml:id="ch3"
                     frus:doc-dateTime-min="1970-09-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1970-11-05T23:59:59-05:00">
-                    <pb n="108" facs="0148" xml:id="pg_108"/>
                     <head>Two Tracks: U.S. Intervention in the Confirmation of the Chilean
                         President, September 5–November 4, 1970</head>
-
                     <div type="document" n="18" xml:id="d18" subtype="historical-document"
                         frus:doc-dateTime-min="1970-09-07T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-09-07T23:59:59-05:00">
@@ -8888,11 +8824,10 @@
                             represent a definite psychological set-back to the U.S. and a definite
                             psychological advance for the Marxist idea.</p>
                     </div>
-
+                    <pb n="115" facs="0155" xml:id="pg_115"/>
                     <div type="document" n="19" xml:id="d19" subtype="historical-document"
                         frus:doc-dateTime-min="1970-09-14T23:00:00-05:00"
                         frus:doc-dateTime-max="1970-09-19T22:59:59-05:00">
-                        <pb n="115" facs="0155" xml:id="pg_115"/>
                         <head>19. Memorandum Prepared in the Central Intelligence Agency<note n="1"
                                 xml:id="d19fn1">
                                 <p><seg type="summary">Summary: This memorandum recounted the
@@ -9022,7 +8957,6 @@
                                 corresp="#p_AGS_1">Allende</persName> government from coming into
                             power.</p>
                     </div>
-
                     <div type="document" n="20" xml:id="d20" subtype="historical-document"
                         frus:doc-dateTime-min="1970-09-19T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-09-19T23:59:59-05:00">
@@ -9082,7 +9016,6 @@
                         <p>Ambassador will see <persName corresp="#p_OPS_1">Ossa</persName> evening
                             19 or 20 Sept.</p>
                     </div>
-
                     <div type="document" n="21" xml:id="d21" subtype="historical-document"
                         frus:doc-dateTime-min="1970-09-19T16:03:00-05:00"
                         frus:doc-dateTime-max="1970-09-19T16:03:00-05:00">
@@ -9211,7 +9144,6 @@
                             </signed>
                         </closer>
                     </div>
-
                     <div type="document" n="22" xml:id="d22" subtype="historical-document"
                         frus:doc-dateTime-min="1970-09-21T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-09-21T23:59:59-05:00">
@@ -9287,11 +9219,10 @@
                         <p>8. [<hi rend="italic">1 paragraph (1½ lines) not declassified</hi>]</p>
                         <p>End of message.</p>
                     </div>
-
+                    <pb n="122" facs="0162" xml:id="pg_122"/>
                     <div type="document" n="23" xml:id="d23" subtype="historical-document"
                         frus:doc-dateTime-min="1970-09-21T17:04:00-05:00"
                         frus:doc-dateTime-max="1970-09-21T17:04:00-05:00">
-                        <pb n="122" facs="0162" xml:id="pg_122"/>
                         <head>23. <gloss target="#t_Backchannel_1">Backchannel</gloss> Message From
                             the Ambassador to Chile (<persName corresp="#p_KEM_1">Korry</persName>)
                             to the Assistant Secretary of State for Inter-American Affairs
@@ -9467,11 +9398,10 @@
                             civil war and that the majority of the Chilean people preferred
                             tranquility at any price.</p>
                     </div>
-
+                    <pb n="125" facs="0165" xml:id="pg_125"/>
                     <div type="document" n="24" xml:id="d24" subtype="historical-document"
                         frus:doc-dateTime-min="1970-09-22T11:15:00-05:00"
                         frus:doc-dateTime-max="1970-09-22T11:15:00-05:00">
-                        <pb n="125" facs="0165" xml:id="pg_125"/>
                         <head>24. Telegram From the Embassy in Chile to the Department of State<note
                                 n="1" xml:id="d24fn1">
                                 <p><seg type="summary">Summary: In this telegram, <persName
@@ -9659,7 +9589,6 @@
                             </signed>
                         </closer>
                     </div>
-
                     <div type="document" n="25" xml:id="d25" subtype="historical-document"
                         frus:doc-dateTime-min="1970-09-24T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-09-24T23:59:59-05:00">
@@ -9833,7 +9762,6 @@
                         <p>h. Try to have business downturn affect provinces since for the time
                             being only Santiago area really feeling pinch.</p>
                     </div>
-
                     <div type="document" n="26" xml:id="d26" subtype="historical-document"
                         frus:doc-dateTime-min="1970-09-26T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-09-26T23:59:59-05:00">
@@ -10139,7 +10067,6 @@
                             clear message on how to fulfill the Department’s long held goal of
                             getting along with <persName corresp="#p_AGS_1">Allende</persName>.</p>
                     </div>
-
                     <div type="document" n="27" xml:id="d27" subtype="historical-document"
                         frus:doc-dateTime-min="1970-10-01T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-10-01T23:59:59-05:00">
@@ -10296,7 +10223,6 @@
                             are factors militating against a communist take-over in Chile.</p>
                         <p>[Omitted here is the body of the paper.]</p>
                     </div>
-
                     <div type="document" n="28" xml:id="d28" subtype="historical-document"
                         frus:doc-dateTime-min="1970-10-01T03:00:00-05:00"
                         frus:doc-dateTime-max="1970-10-16T11:30:00-05:00">
@@ -10685,11 +10611,10 @@
                             </signed>
                         </closer>
                     </div>
-
+                    <pb n="147" facs="0187" xml:id="pg_147"/>
                     <div type="document" n="29" xml:id="d29" subtype="historical-document"
                         frus:doc-dateTime-min="1970-10-26T11:30:00-05:00"
                         frus:doc-dateTime-max="1970-10-26T11:30:00-05:00">
-                        <pb n="147" facs="0187" xml:id="pg_147"/>
                         <head>29. Telegram From the Embassy in Chile to the Department of State<note
                                 n="1" xml:id="d29fn1">
                                 <p><seg type="summary">Summary: In this telegram <persName
@@ -10844,19 +10769,18 @@
                             </signed>
                         </closer>
                     </div>
-
+                    <pb n="150" facs="0190" xml:id="pg_150"/>
                     <div type="document" n="30" xml:id="d30" subtype="historical-document"
                         frus:doc-dateTime-min="1970-10-28T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-10-28T23:59:59-05:00">
-                        <pb n="150" facs="0190" xml:id="pg_150"/>
                         <head>30. Memorandum From the National Security Council Staff Secretary
                                 (<persName corresp="#p_DJW_1">Davis</persName>) to the Deputy
                             Secretary of Defense (<persName corresp="#p_PD_1">Packard</persName>),
                             the Under Secretary of State (<persName corresp="#p_IJN_1"
                                 >Irwin</persName>), the Chairman of the Joint Chiefs of Staff
                                 (<persName corresp="#p_MTH_1">Moorer</persName>), and Director of
-                            Central Intelligence <persName corresp="#p_HR_1">Helms</persName>
-                            <note n="1" xml:id="d30fn1">
+                            Central Intelligence <persName corresp="#p_HR_1">Helms</persName><note
+                                n="1" xml:id="d30fn1">
                                 <p><seg type="summary">Summary: The attached options paper was
                                         prepared in the Department of State, in conjunction with the
                                         Department of Defense and the <gloss target="#t_CIA_1"
@@ -10903,14 +10827,13 @@
                         <closer rendition="#right">
                             <hi rend="strong">
                                 <persName corresp="#p_DJW_1">Jeanne W. Davis</persName>
-                            </hi><lb/>
-                            <hi rend="italic">Staff Secretary</hi>
+                            </hi>
+                            <lb/><hi rend="italic">Staff Secretary</hi>
                         </closer>
                         <frus:attachment>
                             <note rend="inline">
-                                <hi rend="strong">Attachment</hi>
-                                <note n="2" xml:id="d30fn2">Secret; <gloss target="#t_Nodis_1"
-                                        >Nodis</gloss>.</note>
+                                <hi rend="strong">Attachment</hi><note n="2" xml:id="d30fn2">Secret;
+                                        <gloss target="#t_Nodis_1">Nodis</gloss>.</note>
                             </note>
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1970-10-16"
@@ -11362,9 +11285,8 @@
                                     <persName corresp="#p_CFM_1">Frank Chapin</persName> for
                                 retention.</p>
                         </frus:attachment>
-                        <pb n="159" facs="0199" xml:id="pg_159"/>
                     </div>
-
+                    <pb n="159" facs="0199" xml:id="pg_159"/>
                     <div type="document" n="31" xml:id="d31" subtype="historical-document"
                         frus:doc-dateTime-min="1970-10-29T19:26:00-05:00"
                         frus:doc-dateTime-max="1970-10-29T19:26:00-05:00">
@@ -11518,7 +11440,6 @@
                             furnished copies of this report:</p>
                         <p>[Omitted here is the list of officers in footnote 1.]</p>
                     </div>
-
                     <div type="document" n="32" xml:id="d32" subtype="historical-document"
                         frus:doc-dateTime-min="1970-10-30T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-10-30T23:59:59-05:00">
@@ -11626,9 +11547,8 @@
                             which Chile might request substantial Soviet assistance are
                             unpredictable, Moscow might find it very difficult to refuse Chilean
                             overtures given its commitment to advancing world “socialism.”</p>
-                        <pb n="163" facs="0203" xml:id="pg_163"/>
                     </div>
-
+                    <pb n="163" facs="0203" xml:id="pg_163"/>
                     <div type="document" n="33" xml:id="d33" subtype="historical-document"
                         frus:doc-dateTime-min="1970-11-03T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-11-03T23:59:59-05:00">
@@ -12307,7 +12227,6 @@
                                 target="#t_IADB_1">IADB</gloss> and in hemispheric military
                             conferences and exercises.</p>
                     </div>
-
                     <div type="document" n="34" xml:id="d34" subtype="historical-document"
                         frus:doc-dateTime-min="1970-11-03T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-11-03T23:59:59-05:00">
@@ -12683,13 +12602,11 @@
                             To maintain a correct relationship, moreover, we may have to forego some
                             kinds of pressure in given instances.</p>
                     </div>
-
                     <div type="document" n="35" xml:id="d35" subtype="historical-document"
                         frus:doc-dateTime-min="1970-11-05T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-11-05T23:59:59-05:00">
                         <head>35. Briefing by Director of Central Intelligence <persName
-                                corresp="#p_HR_1">Helms</persName>
-                            <note n="1" xml:id="d35fn1">
+                                corresp="#p_HR_1">Helms</persName><note n="1" xml:id="d35fn1">
                                 <p><seg type="summary">Summary: In this briefing prepared for the
                                         November 6 <gloss target="#t_NSC_1">NSC</gloss> meeting,
                                             <persName corresp="#p_HR_1">Helms</persName> argued that
@@ -12997,11 +12914,10 @@
                             use this for leverage with the new Marxist government.</p>
                     </div>
                 </div>
-
+                <pb n="189" facs="0229" xml:id="pg_189"/>
                 <div type="chapter" n="4" xml:id="ch4"
                     frus:doc-dateTime-min="1970-11-06T08:10:00-05:00"
                     frus:doc-dateTime-max="1972-12-01T23:59:59-05:00">
-                    <pb n="189" facs="0229" xml:id="pg_189"/>
                     <head>Cool and Correct: The U.S. Response to the <persName corresp="#p_AGS_1"
                             >Allende</persName> Administration, November 5, 1970–December 31,
                         1972</head>
@@ -13282,7 +13198,6 @@
                             </signed>
                         </closer>
                     </div>
-
                     <div type="document" n="37" xml:id="d37" subtype="historical-document"
                         frus:doc-dateTime-min="1970-11-08T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-11-08T23:59:59-05:00">
@@ -13805,14 +13720,12 @@
                         <p>23. (Sept 13 to present does not include any other pertinent material
                             relevant to this subject.)</p>
                     </div>
-
                     <div type="document" n="38" xml:id="d38" subtype="historical-document"
                         frus:doc-dateTime-min="1970-11-12T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-11-12T23:59:59-05:00">
                         <head>38. Memorandum From Director of Central Intelligence <persName
                                 corresp="#p_HR_1">Helms</persName> to President <persName
-                                corresp="#p_NRM_1">Nixon</persName>
-                            <note n="1" xml:id="d38fn1">
+                                corresp="#p_NRM_1">Nixon</persName><note n="1" xml:id="d38fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_HR_1"
                                             >Helms</persName> offered a post-mortem on the Chilean
                                         election and suggested that even with the risks inherent
@@ -14160,9 +14073,8 @@
                             favorable and worth the candle, particularly considering the problems
                             and alternatives with which the U.S. Government has been faced by an
                                 <persName corresp="#p_AGS_1">Allende</persName> victory.</p>
-                        <pb n="210" facs="0250" xml:id="pg_210"/>
                     </div>
-
+                    <pb n="210" facs="0250" xml:id="pg_210"/>
                     <div type="document" n="39" xml:id="d39" subtype="historical-document"
                         frus:doc-dateTime-min="1970-11-18T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-11-18T23:59:59-05:00">
@@ -14596,16 +14508,15 @@
                             unused. In any event, the opportunity for a coup soon passed; and,
                                 <persName corresp="#p_AGS_1">Allende</persName> was easily elected
                             by Congress on 24 October and quietly inaugurated on 3 November.</p>
-                        <pb n="218" facs="0258" xml:id="pg_218"/>
                     </div>
-
+                    <pb n="218" facs="0258" xml:id="pg_218"/>
                     <div type="document" n="40" xml:id="d40" subtype="historical-document"
                         frus:doc-dateTime-min="1970-11-30T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-11-30T23:59:59-05:00">
                         <head>40. Memorandum From the President’s Assistant for National Security
                             Affairs (<persName corresp="#p_KHA_1">Kissinger</persName>) to President
-                                <persName corresp="#p_NRM_1">Nixon</persName>
-                            <note n="1" xml:id="d40fn1">
+                                <persName corresp="#p_NRM_1">Nixon</persName><note n="1"
+                                xml:id="d40fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_KHA_1"
                                             >Kissinger</persName> summarized the differences between
                                         the Department of State and <gloss target="#t_CIA_1"
@@ -14679,8 +14590,8 @@
                             serious problems we now face in dealing with a Marxist Government in
                             Chile could have been postponed for perhaps six years.</p>
                         <p>
-                            <hi rend="strong">Tab A</hi>
-                            <note n="2" xml:id="d40fn2">Secret; Sensitive; Eyes Only.</note>
+                            <hi rend="strong">Tab A</hi><note n="2" xml:id="d40fn2">Secret;
+                                Sensitive; Eyes Only.</note>
                         </p>
                         <p rend="center">SUMMARY OF HELMS’ MEMORANDUM OF 12 NOVEMBER 1970</p>
                         <p>The possibility of an <persName corresp="#p_AGS_1">Allende</persName>
@@ -14766,9 +14677,8 @@
                             activities, and arranged for funds from U.S. business interests to be
                             passed to the Alessandri camp. This action was taken without reference
                             to the State Department.</p>
-                        <pb n="221" facs="0261" xml:id="pg_221"/>
                     </div>
-
+                    <pb n="221" facs="0261" xml:id="pg_221"/>
                     <div type="document" n="41" xml:id="d41" subtype="historical-document"
                         frus:doc-dateTime-min="1970-12-18T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-12-18T23:59:59-05:00">
@@ -14813,8 +14723,8 @@
                             support.</p>
                         <frus:attachment>
                             <note rend="inline">
-                                <hi rend="strong">Attachment</hi>
-                                <note n="2" xml:id="d41fn2">Secret; Eyes Only.</note>
+                                <hi rend="strong">Attachment</hi><note n="2" xml:id="d41fn2">Secret;
+                                    Eyes Only.</note>
                             </note>
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1970-12-18"
@@ -14958,7 +14868,6 @@
                                 and support.</p>
                         </frus:attachment>
                     </div>
-
                     <div type="document" n="42" xml:id="d42" subtype="historical-document"
                         frus:doc-dateTime-min="1970-12-18T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-12-18T23:59:59-05:00">
@@ -15010,19 +14919,18 @@
                             subversive groups.</p>
                         <p>3. The fact that Chile has a Marxist government will be potentially
                             useful to both Soviet and Cuban subversive activities throughout Latin </p>
-                        <p>
-                            <pb n="225" facs="0265" xml:id="pg_225"/>America. [<hi rend="italic"
-                                >less than 1 line not declassified</hi>] Cuban [<hi rend="italic"
-                                >less than 1 line not declassified</hi>] already has several
-                            representatives in Chile, and the pro-Cuban sympathies of many officials
-                            in the <persName corresp="#p_AGS_1">Allende</persName> government
-                            indicate that these Cubans’ activities will not be circumscribed. The
-                            Soviets will probably attempt to influence Cuban activity in Chile to
-                            fit Soviet strategy. They will have the aid of the Communist Party of
-                            Chile (<gloss target="#t_PCCh_1">PCCh</gloss>), but the fact that most
-                            Chilean security organizations are controlled by Socialists and other
-                                pro-<persName corresp="#p_CF_1">Fidel Castro</persName> groups will
-                            assist the Cubans.</p>
+                        <pb n="225" facs="0265" xml:id="pg_225"/>
+                        <p> America. [<hi rend="italic">less than 1 line not declassified</hi>]
+                            Cuban [<hi rend="italic">less than 1 line not declassified</hi>] already
+                            has several representatives in Chile, and the pro-Cuban sympathies of
+                            many officials in the <persName corresp="#p_AGS_1">Allende</persName>
+                            government indicate that these Cubans’ activities will not be
+                            circumscribed. The Soviets will probably attempt to influence Cuban
+                            activity in Chile to fit Soviet strategy. They will have the aid of the
+                            Communist Party of Chile (<gloss target="#t_PCCh_1">PCCh</gloss>), but
+                            the fact that most Chilean security organizations are controlled by
+                            Socialists and other pro-<persName corresp="#p_CF_1">Fidel
+                                Castro</persName> groups will assist the Cubans.</p>
                         <p rend="sectiontitleital">B. Support for Guerrilla Activites by Chile and
                             Cuba</p>
                         <p>1. <persName corresp="#p_CF_1">Fidel Castro</persName> long has
@@ -15251,11 +15159,10 @@
                                 >Corvalan</persName>’s remarks on the importance of the Chilean
                             example for other countries.</p>
                     </div>
-
+                    <pb n="230" facs="0270" xml:id="pg_230"/>
                     <div type="document" n="43" xml:id="d43" subtype="historical-document"
                         frus:doc-dateTime-min="1970-12-19T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-12-19T23:59:59-05:00">
-                        <pb n="230" facs="0270" xml:id="pg_230"/>
                         <head>43. Memorandum From the Acting Chairman of the Ad Hoc Interagency
                             Working Group on Chile (<persName corresp="#p_CJH_1"
                             >Crimmins</persName>) to the President’s Assistant for National Security
@@ -15304,9 +15211,8 @@
                                 Chile</hi>
                         </p>
                         <p>
-                            <hi rend="strong">Enclosure 1</hi>
-                            <note n="2" xml:id="d43fn2">Secret; <gloss target="#t_Nodis_1"
-                                    >Nodis</gloss>.</note>
+                            <hi rend="strong">Enclosure 1</hi><note n="2" xml:id="d43fn2">Secret;
+                                    <gloss target="#t_Nodis_1">Nodis</gloss>.</note>
                         </p>
                         <p rend="center">OPTIONS FOR THE UNITED STATES IN THE EVENT OF EXPROPRIATION
                             OF U.S. BUSINESS INTERESTS BY CHILE</p>
@@ -15717,11 +15623,10 @@
                             is coddling a Communist regime.</p>
                         <p>—It would protract the flow of assistance.</p>
                     </div>
-
+                    <pb n="239" facs="0279" xml:id="pg_239"/>
                     <div type="document" n="44" xml:id="d44" subtype="historical-document"
                         frus:doc-dateTime-min="1971-01-05T16:54:00-05:00"
                         frus:doc-dateTime-max="1971-01-05T16:54:00-05:00">
-                        <pb n="239" facs="0279" xml:id="pg_239"/>
                         <head>44. Telegram From the Embassy in Chile to the Department of State<note
                                 n="1" xml:id="d44fn1">
                                 <p><seg type="summary">Summary: In the first of four related
@@ -15851,7 +15756,6 @@
                             </signed>
                         </closer>
                     </div>
-
                     <div type="document" n="45" xml:id="d45" subtype="historical-document"
                         frus:doc-dateTime-min="1971-01-05T18:24:00-05:00"
                         frus:doc-dateTime-max="1971-01-05T18:24:00-05:00">
@@ -16010,7 +15914,6 @@
                             </signed>
                         </closer>
                     </div>
-
                     <div type="document" n="46" xml:id="d46" subtype="historical-document"
                         frus:doc-dateTime-min="1971-01-06T11:50:00-05:00"
                         frus:doc-dateTime-max="1971-01-06T11:50:00-05:00">
@@ -16234,7 +16137,6 @@
                             </signed>
                         </closer>
                     </div>
-
                     <div type="document" n="47" xml:id="d47" subtype="historical-document"
                         frus:doc-dateTime-min="1971-01-06T15:59:00-05:00"
                         frus:doc-dateTime-max="1971-01-06T15:59:00-05:00">
@@ -16523,11 +16425,10 @@
                             </signed>
                         </closer>
                     </div>
-
+                    <pb n="254" facs="0294" xml:id="pg_254"/>
                     <div type="document" n="48" xml:id="d48" subtype="historical-document"
                         frus:doc-dateTime-min="1971-01-29T17:56:00-05:00"
                         frus:doc-dateTime-max="1971-01-29T17:56:00-05:00">
-                        <pb n="254" facs="0294" xml:id="pg_254"/>
                         <head>48. <gloss target="#t_Backchannel_1">Backchannel</gloss> Message From
                             the Ambassador to Chile (<persName corresp="#p_KEM_1">Korry</persName>)
                             to the President’s Assistant for National Security Affairs (<persName
@@ -16586,11 +16487,10 @@
                             representative. I suggest you read the Anaconda cable and I would
                             appreciate your comments. Warmest regards.</p>
                     </div>
-
+                    <pb n="255" facs="0295" xml:id="pg_255"/>
                     <div type="document" n="49" xml:id="d49" subtype="historical-document"
                         frus:doc-dateTime-min="1971-02-09T12:20:00-05:00"
                         frus:doc-dateTime-max="1971-02-09T12:20:00-05:00">
-                        <pb n="255" facs="0295" xml:id="pg_255"/>
                         <head>49. Telegram From the Embassy in Chile to the Department of State<note
                                 n="1" xml:id="d49fn1">
                                 <p><seg type="summary">Summary: In this telegram, <persName
@@ -16755,11 +16655,10 @@
                             </signed>
                         </closer>
                     </div>
-
+                    <pb n="258" facs="0298" xml:id="pg_258"/>
                     <div type="document" n="50" xml:id="d50" subtype="historical-document"
                         frus:doc-dateTime-min="1971-02-01T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-02-01T23:59:59-05:00">
-                        <pb n="258" facs="0298" xml:id="pg_258"/>
                         <head>50. Intelligence Memorandum<note n="1" xml:id="d50fn1">
                                 <p><seg type="summary">Summary: This memorandum provided an overview
                                         of the Chilean economy and discussed the impending conflicts
@@ -16933,7 +16832,7 @@
                             difficult to sell. However, such items may not be available for export,
                             because of disruptions from agrarian reform.</p>
                         <table cols="3">
-                            <head>Table 1<lb/> Chile: Direction of Trade<lb/>1969</head>
+                            <head>Table 1 <lb/>Chile: Direction of Trade<lb/>1969</head>
                             <row>
                                 <cell/>
                                 <cell cols="2">Percent of Total</cell>
@@ -16979,9 +16878,8 @@
                                 <cell>3.1</cell>
                             </row>
                         </table>
-
                         <table cols="8">
-                            <head>Table 2<lb/> Chile: Copper Exports, by Destination</head>
+                            <head>Table 2 <lb/>Chile: Copper Exports, by Destination</head>
                             <row>
                                 <cell/>
                                 <cell/>
@@ -17109,8 +17007,7 @@
                                 </cell>
                             </row>
                         </table>
-                        <p>
-                            <note>a</note>Estimated from data for first nine months.</p>
+                        <p><note>a</note>Estimated from data for first nine months.</p>
                         <pb n="262" facs="0302" xml:id="pg_262"/>
                         <p>11. A US prohibition against imports of products containing Chilean
                             copper, similar to the action taken against Cuban nickel, undoubtedly
@@ -17336,7 +17233,6 @@
                             rapidly to strengthen its ties with the Soviet Union and Eastern
                             Europe.</p>
                     </div>
-
                     <div type="document" n="51" xml:id="d51" subtype="historical-document"
                         frus:doc-dateTime-min="1971-02-12T17:15:00-05:00"
                         frus:doc-dateTime-max="1971-02-12T17:15:00-05:00">
@@ -17506,7 +17402,6 @@
                             </signed>
                         </closer>
                     </div>
-
                     <div type="document" n="52" xml:id="d52" subtype="historical-document"
                         frus:doc-dateTime-min="1971-02-12T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-02-12T23:59:59-05:00">
@@ -17753,11 +17648,10 @@
                             and complicate the adjudication of disputes under investment guarantee
                             contracts.</p>
                     </div>
-
+                    <pb n="274" facs="0314" xml:id="pg_274"/>
                     <div type="document" n="53" xml:id="d53" subtype="historical-document"
                         frus:doc-dateTime-min="1971-02-16T08:10:00-05:00"
                         frus:doc-dateTime-max="1971-02-16T08:10:00-05:00">
-                        <pb n="274" facs="0314" xml:id="pg_274"/>
                         <head>53. Telegram From the Embassy in Chile to the Department of State<note
                                 n="1" xml:id="d53fn1">
                                 <p><seg type="summary">Summary: This telegram reported on a meeting
@@ -18032,11 +17926,10 @@
                             </signed>
                         </closer>
                     </div>
-
+                    <pb n="279" facs="0319" xml:id="pg_279"/>
                     <div type="document" n="54" xml:id="d54" subtype="historical-document"
                         frus:doc-dateTime-min="1971-02-16T08:10:00-05:00"
                         frus:doc-dateTime-max="1971-03-15T23:59:59-05:00">
-                        <pb n="279" facs="0319" xml:id="pg_279"/>
                         <head>54. Paper Prepared in the Department of Defense<note n="1"
                                 xml:id="d54fn1">
                                 <p><seg type="summary">Summary: In view of the request by the
@@ -18224,11 +18117,10 @@
                             a Marxist government.</p>
                         <p>—Would probably evoke some adverse press and Congressional comment.</p>
                     </div>
-
+                    <pb n="282" facs="0322" xml:id="pg_282"/>
                     <div type="document" n="55" xml:id="d55" subtype="historical-document"
                         frus:doc-dateTime-min="1971-02-16T08:10:00-05:00"
                         frus:doc-dateTime-max="1971-03-15T23:59:59-05:00">
-                        <pb n="282" facs="0322" xml:id="pg_282"/>
                         <head>55. Paper Prepared in the Department of Defense<note n="1"
                                 xml:id="d55fn1">
                                 <p><seg type="summary">Summary: This paper recommended that the
@@ -18278,11 +18170,10 @@
                         <p>Recommend that the <gloss target="#t_SRG_1">SRG</gloss> approve delivery
                             of the 20 remaining M–41 tanks to Chile.</p>
                     </div>
-
+                    <pb n="283" facs="0323" xml:id="pg_283"/>
                     <div type="document" n="56" xml:id="d56" subtype="historical-document"
                         frus:doc-dateTime-min="1971-03-15T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-03-15T23:59:59-05:00">
-                        <pb n="283" facs="0323" xml:id="pg_283"/>
                         <head>56. Memorandum for the 40 Committee<note n="1" xml:id="d56fn1">
                                 <p><seg type="summary">Summary: This progress report summarized
                                         actions taken in Chile since January 1971 when the 40
@@ -18543,7 +18434,6 @@
                             electoral support to [<hi rend="italic">dollar amount not
                                 declassified</hi>].</p>
                     </div>
-
                     <div type="document" n="57" xml:id="d57" subtype="historical-document"
                         frus:doc-dateTime-min="1971-03-18T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-04-02T23:59:59-05:00">
@@ -19093,7 +18983,6 @@
                             has established a cadre school to train other Latin American Communists,
                             probably in organizational techniques.</p>
                     </div>
-
                     <div type="document" n="58" xml:id="d58" subtype="historical-document"
                         frus:doc-dateTime-min="1971-04-02T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-04-02T23:59:59-05:00">
@@ -19292,7 +19181,6 @@
                             others. A Chilean Government Agency has requested copies.</p>
                         <p>[<hi rend="italic">1 paragraph (11½ lines) not declassified</hi>]</p>
                     </div>
-
                     <div type="document" n="59" xml:id="d59" subtype="historical-document"
                         frus:doc-dateTime-min="1971-04-06T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-04-06T23:59:59-05:00">
@@ -19469,9 +19357,8 @@
                                 corresp="#p_FPM_1">Flanigan</persName> to find any post that he can,
                             preferably one in Asia.</p>
                         <p>[Omitted here is discussion unrelated to Chile.]</p>
-                        <pb n="303" facs="0343" xml:id="pg_303"/>
                     </div>
-
+                    <pb n="303" facs="0343" xml:id="pg_303"/>
                     <div type="document" n="60" xml:id="d60" subtype="historical-document"
                         frus:doc-dateTime-min="1971-04-12T17:05:00-05:00"
                         frus:doc-dateTime-max="1971-04-12T17:05:00-05:00">
@@ -19660,7 +19547,6 @@
                             </signed>
                         </closer>
                     </div>
-
                     <div type="document" n="61" xml:id="d61" subtype="historical-document"
                         frus:doc-dateTime-min="1971-04-16T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-04-16T23:59:59-05:00">
@@ -19783,9 +19669,8 @@
                         <p>The Foreign Minister referred to Ambassador <persName corresp="#p_LSO_1"
                                 >Letelier</persName>’s invitation to the Secretary to visit Chile
                             and reaffirmed that invitation to visit at an opportune time.</p>
-                        <pb n="309" facs="0349" xml:id="pg_309"/>
                     </div>
-
+                    <pb n="309" facs="0349" xml:id="pg_309"/>
                     <div type="document" n="62" xml:id="d62" subtype="historical-document"
                         frus:doc-dateTime-min="1971-04-21T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-04-21T23:59:59-05:00">
@@ -19915,13 +19800,13 @@
                             <row>
                                 <cell>TOTALS</cell>
                                 <cell>48.90%</cell>
-                                <cell>(923 councilmen)</cell>
+                                <cell>(923 councilmen)<note n="2" xml:id="d62fn2">These are the
+                                        official figures released by the Ministry of Interior, but
+                                        the Ministry obviously has made an error since only 1,653
+                                        (rather than the 1,689 listed) can be given seats. [Footnote
+                                        is in the original.]</note></cell>
                             </row>
                         </table>
-                        <note n="2" xml:id="d62fn2">These are the official figures released by the
-                            Ministry of Interior, but the Ministry obviously has made an error since
-                            only 1,653 (rather than the 1,689 listed) can be given seats. [Footnote
-                            is in the original.]</note>
                         <p>D. The above figures warrant the conclusion that the opposition ran a
                             well-targeted and reasonably successful campaign by virtue of getting
                             more individual municipal candidates elected than did the <gloss
@@ -20120,7 +20005,6 @@
                             haste slowly but implacably” in carrying out his revolution, but at the
                             least the opposition is buying time and remaining viable.</p>
                     </div>
-
                     <div type="document" n="63" xml:id="d63" subtype="historical-document"
                         frus:doc-dateTime-min="1971-04-23T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-04-23T23:59:59-05:00">
@@ -20213,9 +20097,8 @@
                                 <hi rend="italic">Foreign Relations</hi>, 1969–1976, vol. XIII,
                                 Soviet Union, October 1970–October 1971; and as Document 190</ref>,
                             ibid., vol. VII, Vietnam, July 1970–January 1972.]</p>
-                        <pb n="315" facs="0355" xml:id="pg_315"/>
                     </div>
-
+                    <pb n="315" facs="0355" xml:id="pg_315"/>
                     <div type="document" n="64" xml:id="d64" subtype="historical-document"
                         frus:doc-dateTime-min="1971-04-27T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-04-27T23:59:59-05:00">
@@ -20255,9 +20138,8 @@
                             Annex to “Options Paper on Chile” (<gloss target="#t_NSSM_1"
                                 >NSSM</gloss> 97).</p>
                         <p>[<hi rend="italic">3 paragraphs (30 lines) not declassified</hi>]</p>
-                        <pb n="316" facs="0356" xml:id="pg_316"/>
                     </div>
-
+                    <pb n="316" facs="0356" xml:id="pg_316"/>
                     <div type="document" n="65" xml:id="d65" subtype="historical-document"
                         frus:doc-dateTime-min="1971-04-28T14:35:00-05:00"
                         frus:doc-dateTime-max="1971-04-28T14:35:00-05:00">
@@ -20358,9 +20240,8 @@
                                 <persName corresp="#p_KEM_1">Korry</persName>
                             </signed>
                         </closer>
-                        <pb n="318" facs="0358" xml:id="pg_318"/>
                     </div>
-
+                    <pb n="318" facs="0358" xml:id="pg_318"/>
                     <div type="document" n="66" xml:id="d66" subtype="historical-document"
                         frus:doc-dateTime-min="1971-05-05T18:30:00-05:00"
                         frus:doc-dateTime-max="1971-05-05T18:30:00-05:00">
@@ -20639,7 +20520,7 @@
                             could be forced to lose money, I said, but Ford wished to stay in Chile
                             if a transitional or long-term alternative could be arranged. If not,
                             they would reluctantly shut down.</p>
-                        <p>18. I noted that <gloss target="#t_ITT_1">ITT</gloss> ’s problem was
+                        <p>18. I noted that <gloss target="#t_ITT_1">ITT</gloss>’s problem was
                             coming to a head but that Telco President Holmes was handling the matter
                             and I hoped it would not require <gloss target="#t_USG_1">USG</gloss>
                             involvement because of our insurance policy. “A good friend of mine,”
@@ -20662,9 +20543,8 @@
                                 <persName corresp="#p_KEM_1">Korry</persName>
                             </signed>
                         </closer>
-                        <pb n="324" facs="0364" xml:id="pg_324"/>
                     </div>
-
+                    <pb n="324" facs="0364" xml:id="pg_324"/>
                     <div type="document" n="67" xml:id="d67" subtype="historical-document"
                         frus:doc-dateTime-min="1971-05-20T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-05-20T23:59:59-05:00">
@@ -20766,7 +20646,6 @@
                                 target="#t_PDC_1">PDC</gloss>, will be submitted for the Committee’s
                             consideration in the near future.</p>
                     </div>
-
                     <div type="document" n="68" xml:id="d68" subtype="historical-document"
                         frus:doc-dateTime-min="1971-05-20T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-05-20T23:59:59-05:00">
@@ -20860,9 +20739,8 @@
                                 rend="italic">dollar amount not declassified</hi>] requested by
                                 <persName corresp="#p_KEM_1">Korry</persName> at an early meeting of
                             the 40 Committee.</p>
-                        <pb n="327" facs="0367" xml:id="pg_327"/>
                     </div>
-
+                    <pb n="327" facs="0367" xml:id="pg_327"/>
                     <div type="document" n="69" xml:id="d69" subtype="historical-document"
                         frus:doc-dateTime-min="1971-05-26T13:35:00-05:00"
                         frus:doc-dateTime-max="1971-05-26T13:35:00-05:00">
@@ -20982,9 +20860,8 @@
                                 <persName corresp="#p_KEM_1">Korry</persName>
                             </signed>
                         </closer>
-                        <pb n="329" facs="0369" xml:id="pg_329"/>
                     </div>
-
+                    <pb n="329" facs="0369" xml:id="pg_329"/>
                     <div type="document" n="70" xml:id="d70" subtype="historical-document"
                         frus:doc-dateTime-min="1971-05-29T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-05-29T23:59:59-05:00">
@@ -21832,7 +21709,6 @@
                             increase Chilean expectations for additional Eximbank and <gloss
                                 target="#t_AID_1">AID</gloss> inputs.</p>
                     </div>
-
                     <div type="document" n="71" xml:id="d71" subtype="historical-document"
                         frus:doc-dateTime-min="1971-06-01T13:15:00-05:00"
                         frus:doc-dateTime-max="1971-06-01T13:15:00-05:00">
@@ -22021,9 +21897,8 @@
                                 <persName corresp="#p_KEM_1">Korry</persName>
                             </signed>
                         </closer>
-                        <pb n="349" facs="0389" xml:id="pg_349"/>
                     </div>
-
+                    <pb n="349" facs="0389" xml:id="pg_349"/>
                     <div type="document" n="72" xml:id="d72" subtype="historical-document"
                         frus:doc-dateTime-min="1971-06-01T13:15:00-05:00"
                         frus:doc-dateTime-max="1971-06-03T14:09:00-05:00">
@@ -22449,9 +22324,8 @@
                             U.S. act, winning sympathy for <persName corresp="#p_AGS_1"
                                 >Allende</persName> and undercutting credibility of U.S.
                             representations to other governments on Chilean matters.</p>
-                        <pb n="356" facs="0396" xml:id="pg_356"/>
                     </div>
-
+                    <pb n="356" facs="0396" xml:id="pg_356"/>
                     <div type="document" n="73" xml:id="d73" subtype="historical-document"
                         frus:doc-dateTime-min="1971-06-03T14:09:00-05:00"
                         frus:doc-dateTime-max="1971-06-03T15:06:00-05:00">
@@ -22632,7 +22506,7 @@
                             that by fall there will be other expropriation cases under way?</p>
                         <p>Mr. <persName corresp="#p_MCA_1">Meyer</persName>: The Chileans’
                             intentions are to take over all American investments. They have just
-                            announced plans to expropriate <gloss target="#t_ITT_1">ITT</gloss> ’s
+                            announced plans to expropriate <gloss target="#t_ITT_1">ITT</gloss>’s
                             properties.</p>
                         <p>Mr. <persName corresp="#p_PJR_1">Petty</persName>: Then we will still
                             have a snootful of problems in the fall.</p>
@@ -23248,7 +23122,6 @@
                         <p>Dr. <persName corresp="#p_KHA_1">Kissinger</persName>: Anytime he wants
                             to say we are to blame, he will find a reason for doing so.</p>
                     </div>
-
                     <div type="document" n="74" xml:id="d74" subtype="historical-document"
                         frus:doc-dateTime-min="1971-06-07T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-06-07T23:59:59-05:00">
@@ -23381,11 +23254,10 @@
                             that this is a well-worn sales pressure technique which the Bank
                             encounters and discounts daily.</p>
                     </div>
-
+                    <pb n="372" facs="0412" xml:id="pg_372"/>
                     <div type="document" n="75" xml:id="d75" subtype="historical-document"
                         frus:doc-dateTime-min="1971-06-11T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-06-11T23:59:59-05:00">
-                        <pb n="372" facs="0412" xml:id="pg_372"/>
                         <head>75. Conversation Among President <persName corresp="#p_NRM_1"
                                 >Nixon</persName>, Secretary of the Treasury <persName
                                 corresp="#p_CJB_1">Connally</persName>, and the President’s
@@ -24242,9 +24114,8 @@
                         <p>[Omitted here is a brief exchange on instructions for <persName
                                 corresp="#p_CJB_1">Connally</persName> and the President’s
                             schedule.]</p>
-                        <pb n="385" facs="0425" xml:id="pg_385"/>
                     </div>
-
+                    <pb n="385" facs="0425" xml:id="pg_385"/>
                     <div type="document" n="76" xml:id="d76" subtype="historical-document"
                         frus:doc-dateTime-min="1971-06-16T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-06-16T23:59:59-05:00">
@@ -24316,7 +24187,6 @@
                         <p>That you sign the memo at Tab I to the members of the <gloss
                                 target="#t_SRG_1">SRG</gloss>.</p>
                     </div>
-
                     <div type="document" n="77" xml:id="d77" subtype="historical-document"
                         frus:doc-dateTime-min="1971-07-01T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-07-01T23:59:59-05:00">
@@ -24380,7 +24250,6 @@
                             <figure xml:id="d77_fig01">
                                 <graphic url="frus1969-76ve16_d77_fig01"/>
                                 <p>CHILE: Cost of Living Indexes</p>
-
                             </figure> A strict price freeze and wage increases ranging from 35% to
                             45% for most employees have sharply increased consumer demand from its
                             initial post-election slump. Although inflationary pressures are
@@ -24609,9 +24478,8 @@
                             extending the customary economic development loans. Such assistance,
                             however, probably would help only partly to meet Chile’s pressing need
                             for large amounts of relatively untied capital.</p>
-                        <pb n="393" facs="0433" xml:id="pg_393"/>
                     </div>
-
+                    <pb n="393" facs="0433" xml:id="pg_393"/>
                     <div type="document" n="78" xml:id="d78" subtype="historical-document"
                         frus:doc-dateTime-min="1971-08-04T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-08-04T23:59:59-05:00">
@@ -25640,9 +25508,8 @@
                             which will widen the gulf between the US and Latin American states, and
                             Chilean attitudes in these matters may reinforce the tendency of other
                             nations to turn away from close relations with the US.</p>
-                        <pb n="413" facs="0453" xml:id="pg_413"/>
                     </div>
-
+                    <pb n="413" facs="0453" xml:id="pg_413"/>
                     <div type="document" n="79" xml:id="d79" subtype="historical-document"
                         frus:doc-dateTime-min="1971-08-11T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-08-11T23:59:59-05:00">
@@ -25934,9 +25801,8 @@
                                 <gloss target="#t_USG_1">USG</gloss> might do to achieve its
                             interests and those of its citizens, and that there would undoubtedly be
                             further opportunity for contact on this important subject.</p>
-                        <pb n="418" facs="0458" xml:id="pg_418"/>
                     </div>
-
+                    <pb n="418" facs="0458" xml:id="pg_418"/>
                     <div type="document" n="80" xml:id="d80" subtype="historical-document"
                         frus:doc-dateTime-min="1971-09-03T09:40:00-05:00"
                         frus:doc-dateTime-max="1971-09-03T09:40:00-05:00">
@@ -26007,11 +25873,10 @@
                             </signed>
                         </closer>
                     </div>
-
+                    <pb n="419" facs="0459" xml:id="pg_419"/>
                     <div type="document" n="81" xml:id="d81" subtype="historical-document"
                         frus:doc-dateTime-min="1971-09-07T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-09-07T23:59:59-05:00">
-                        <pb n="419" facs="0459" xml:id="pg_419"/>
                         <head>81. Paper Prepared by the Ad Hoc Interagency Working Group on
                                 Chile<note n="1" xml:id="d81fn1">
                                 <p><seg type="summary">Summary: This paper outlined a strategy to
@@ -26531,12 +26396,10 @@
                                     October 16.</cell>
                             </row>
                         </table>
-
                         <pb n="428" facs="0468" xml:id="pg_428"/>
                         <p>
-                            <hi rend="strong">Annex 2</hi>
-                            <note n="4" xml:id="d81fn4">Secret; <gloss target="#t_Nodis_1"
-                                    >Nodis</gloss>.</note>
+                            <hi rend="strong">Annex 2</hi><note n="4" xml:id="d81fn4">Secret; <gloss
+                                    target="#t_Nodis_1">Nodis</gloss>.</note>
                         </p>
                         <table cols="4">
                             <head>Proposed Major Loans from Western Sources<lb/>of Possible Interest
@@ -26639,11 +26502,10 @@
                             </row>
                         </table>
                     </div>
-
+                    <pb n="429" facs="0469" xml:id="pg_429"/>
                     <div type="document" n="82" xml:id="d82" subtype="historical-document"
                         frus:doc-dateTime-min="1971-09-08T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-09-08T23:59:59-05:00">
-                        <pb n="429" facs="0469" xml:id="pg_429"/>
                         <head>82. Memorandum for the 40 Committee<note n="1" xml:id="d82fn1">
                                 <p><seg type="summary">Summary: This memorandum outlined the
                                         pressing situation facing the “bulwark against the regime of
@@ -26817,11 +26679,10 @@
                             These funds would have to come from the Agency Reserve for
                             Contingencies.</p>
                     </div>
-
+                    <pb n="432" facs="0472" xml:id="pg_432"/>
                     <div type="document" n="83" xml:id="d83" subtype="historical-document"
                         frus:doc-dateTime-min="1971-09-21T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-09-21T23:59:59-05:00">
-                        <pb n="432" facs="0472" xml:id="pg_432"/>
                         <head>83. Memorandum From <persName corresp="#p_NA_1">Arnold
                                 Nachmanoff</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -26876,12 +26737,12 @@
                             </note>
                             <head>
                                 <hi rend="strong">Memorandum Prepared in the Central Intelligence
-                                    Agency</hi>
-                                <note n="2" xml:id="d83fn2">Secret; No Foreign Dissem.</note>
+                                    Agency</hi><note n="2" xml:id="d83fn2">Secret; No Foreign
+                                    Dissem.</note>
                             </head>
                             <opener>
-                                <seg>2070/71</seg><lb/>
-                                <dateline>
+                                <seg>2070/71</seg>
+                                <lb/><dateline>
                                     <placeName>Washington</placeName>, <date when="1971-09-20"
                                         calendar="gregorian">September 20, 1971.</date>
                                 </dateline>
@@ -27036,11 +26897,10 @@
                                 antagonize the military.</p>
                         </frus:attachment>
                     </div>
-
+                    <pb n="436" facs="0476" xml:id="pg_436"/>
                     <div type="document" n="84" xml:id="d84" subtype="historical-document"
                         frus:doc-dateTime-min="1971-09-30T15:50:00-05:00"
                         frus:doc-dateTime-max="1971-09-30T15:50:00-05:00">
-                        <pb n="436" facs="0476" xml:id="pg_436"/>
                         <head>84. Telegram From the Embassy in Chile to the Department of State<note
                                 n="1" xml:id="d84fn1">
                                 <p><seg type="summary">Summary: This telegram recounted <persName
@@ -27254,11 +27114,10 @@
                             </signed>
                         </closer>
                     </div>
-
+                    <pb n="440" facs="0480" xml:id="pg_440"/>
                     <div type="document" n="85" xml:id="d85" subtype="historical-document"
                         frus:doc-dateTime-min="1971-10-05T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-10-05T23:59:59-05:00">
-                        <pb n="440" facs="0480" xml:id="pg_440"/>
                         <head>85. Conversation Among President <persName corresp="#p_NRM_1"
                                 >Nixon</persName>, Secretary of the Treasury <persName
                                 corresp="#p_CJB_1">Connally</persName>, the White House Chief of
@@ -27454,7 +27313,6 @@
                             ass. Okay?” <persName corresp="#p_KHA_1">Kissinger</persName>:
                             “Right.”]</p>
                     </div>
-
                     <div type="document" n="86" xml:id="d86" subtype="historical-document"
                         frus:doc-dateTime-min="1971-10-01T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-10-01T23:59:59-05:00">
@@ -27636,7 +27494,7 @@
                             in the Chilean Telephone Company (<gloss target="#t_C_1"
                                 >Chitelco</gloss>), upcoming claims against <gloss
                                 target="#t_OPIC_1">OPIC</gloss> could be even higher. <gloss
-                                target="#t_ITT_1">ITT</gloss> ’s current coverage on its <gloss
+                                target="#t_ITT_1">ITT</gloss>’s current coverage on its <gloss
                                 target="#t_C_1">Chitelco</gloss> investments alone totals $108
                             million.</p>
                         <p rend="sectiontitleital">Domestic Economic Developments</p>
@@ -27996,7 +27854,6 @@
                             </row>
                         </table>
                     </div>
-
                     <div type="document" n="87" xml:id="d87" subtype="historical-document"
                         frus:doc-dateTime-min="1971-10-14T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-10-14T23:59:59-05:00">
@@ -28125,11 +27982,10 @@
                             then exploit the issue to rally all Chileans behind his government,
                             coalition, and program.</p>
                     </div>
-
+                    <pb n="455" facs="0495" xml:id="pg_455"/>
                     <div type="document" n="88" xml:id="d88" subtype="historical-document"
                         frus:doc-dateTime-min="1971-10-29T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-10-29T23:59:59-05:00">
-                        <pb n="455" facs="0495" xml:id="pg_455"/>
                         <head>88. Memorandum for the 40 Committee<note n="1" xml:id="d88fn1">
                                 <p><seg type="summary">Summary: This memorandum proposed additional
                                         funds for the three political parties opposed to the Unidad
@@ -28581,11 +28437,10 @@
                                 not declassified</hi>] for the <gloss target="#t_MRII_1"
                                 >MRII</gloss>.</p>
                     </div>
-
+                    <pb n="463" facs="0503" xml:id="pg_463"/>
                     <div type="document" n="89" xml:id="d89" subtype="historical-document"
                         frus:doc-dateTime-min="1971-11-01T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-11-01T23:59:59-05:00">
-                        <pb n="463" facs="0503" xml:id="pg_463"/>
                         <head>89. Airgram From the Embassy in Chile to the Department of State<note
                                 n="1" xml:id="d89fn1">
                                 <p><seg type="summary">Summary: This airgram summarized the Chilean
@@ -28784,7 +28639,7 @@
                             clear that the $3.7 billion figure used by <persName corresp="#p_AGS_1"
                                 >Allende</persName> (for the period 1930–1969) was both highly
                             exaggerated and misleading.</p>
-                        <p rend="center">TERMS OF THE ORIGINAL BILL—<lb/> MODIFICATIONS BY THE
+                        <p rend="center">TERMS OF THE ORIGINAL BILL— <lb/>MODIFICATIONS BY THE
                             CONGRESS</p>
                         <p>The original bill, so introduced by <persName corresp="#p_AGS_1"
                                 >Allende</persName>, provided for immediate nationalization of five
@@ -29117,7 +28972,6 @@
                             <signed>Davis</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="90" xml:id="d90" subtype="historical-document"
                         frus:doc-dateTime-min="1971-11-03T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-11-03T23:59:59-05:00">
@@ -29191,7 +29045,6 @@
                         <p>4. Field dissem: State, Army, Navy, Air, <gloss target="#t_CINCSO_1"
                                 >CINSO</gloss>, CINCLANT.</p>
                     </div>
-
                     <div type="document" n="91" xml:id="d91" subtype="historical-document"
                         frus:doc-dateTime-min="1971-11-15T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-11-15T23:59:59-05:00">
@@ -29472,7 +29325,6 @@
                                 corresp="#p_AGS_1">Allende</persName> would be apt to emerge as
                             victim, not villain.</p>
                     </div>
-
                     <div type="document" n="92" xml:id="d92" subtype="historical-document"
                         frus:doc-dateTime-min="1971-11-23T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-11-23T23:59:59-05:00">
@@ -29514,9 +29366,9 @@
                                         <list>
                                             <item>Characteristics of the Option</item>
                                             <item>Advantages and Disadvantages</item>
-                                            <pb n="480" facs="0520" xml:id="pg_480"/>
                                         </list>
                                     </item>
+                                    <pb n="480" facs="0520" xml:id="pg_480"/>
                                     <item>Option B. <hi rend="italic">Formal, Comprehensive
                                             Application of the <persName corresp="#p_HBB_1"
                                                 >Hickenlooper</persName> Amendment</hi>
@@ -30039,7 +29891,6 @@
                                 >Allende</persName> regime in determining when our relations with
                             Chile enter a new phase.</p>
                     </div>
-
                     <div type="document" n="93" xml:id="d93" subtype="historical-document"
                         frus:doc-dateTime-min="1971-12-10T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-12-10T23:59:59-05:00">
@@ -30320,7 +30171,6 @@
                                 [<hi rend="italic">dollar amount not declassified</hi>] to support
                             the two opposition candidates in the 16 January by-elections.</p>
                     </div>
-
                     <div type="document" n="94" xml:id="d94" subtype="historical-document"
                         frus:doc-dateTime-min="1971-12-01T00:00:00-05:00"
                         frus:doc-dateTime-max="1971-12-01T23:59:59-05:00">
@@ -30404,11 +30254,10 @@
                                 >Nachmanoff</persName> and Mr. Hewitt did not comment further on
                             this question.</p>
                     </div>
-
+                    <pb n="496" facs="0536" xml:id="pg_496"/>
                     <div type="document" n="95" xml:id="d95" subtype="historical-document"
                         frus:doc-dateTime-min="1972-01-04T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-01-12T23:59:59-05:00">
-                        <pb n="496" facs="0536" xml:id="pg_496"/>
                         <head>95. Attachments to a Memorandum From the Chairman of the Interagency
                             Committee on Debt Renegotiation (<persName corresp="#p_WS_1"
                                 >Weintraub</persName>) to the Senior Review Group<note n="1"
@@ -30490,11 +30339,9 @@
                                 <cell>Tables</cell>
                             </row>
                         </table>
-
                         <pb n="497" facs="0537" xml:id="pg_497"/>
                         <p>
-                            <hi rend="strong">Annex A</hi>
-                            <note n="2" xml:id="d95fn2">Secret.</note>
+                            <hi rend="strong">Annex A</hi><note n="2" xml:id="d95fn2">Secret.</note>
                         </p>
                         <p rend="center">Analysis of the Chilean Request for Debt
                             Rescheduling:<lb/>Assumptions and Issues</p>
@@ -31305,11 +31152,10 @@
                         <p>The attached Table XIII shows the level of debt relief which Chile could
                             obtain under various rescheduling assumptions.</p>
                     </div>
-
+                    <pb n="514" facs="0554" xml:id="pg_514"/>
                     <div type="document" n="96" xml:id="d96" subtype="historical-document"
                         frus:doc-dateTime-min="1972-01-15T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-01-15T23:59:59-05:00">
-                        <pb n="514" facs="0554" xml:id="pg_514"/>
                         <head>96. Central Intelligence Agency Intelligence Information Cable<note
                                 n="1" xml:id="d96fn1">
                                 <p><seg type="summary">Summary: This cable reported that Chilean
@@ -31504,7 +31350,6 @@
                             immediate future.)</p>
                         <p>9. Field dissem: Embassy (Ambassador only) at Santiago.</p>
                     </div>
-
                     <div type="document" n="97" xml:id="d97" subtype="historical-document"
                         frus:doc-dateTime-min="1972-01-17T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-01-17T23:59:59-05:00">
@@ -31751,7 +31596,6 @@
                             but that’s all right, too.</p>
                         <p>[Omitted here is discussion unrelated to Chile.]</p>
                     </div>
-
                     <div type="document" n="98" xml:id="d98" subtype="historical-document"
                         frus:doc-dateTime-min="1972-01-20T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-01-20T23:59:59-05:00">
@@ -31907,11 +31751,10 @@
                             you’re going to screw us in Vietnam—.” We’ve got to do it that way;
                             that’s the way we’re going to play. Why don’t you do that?</p>
                     </div>
-
+                    <pb n="523" facs="0563" xml:id="pg_523"/>
                     <div type="document" n="99" xml:id="d99" subtype="historical-document"
                         frus:doc-dateTime-min="1972-01-21T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-01-21T23:59:59-05:00">
-                        <pb n="523" facs="0563" xml:id="pg_523"/>
                         <head>99. Memorandum for the 40 Committee<note n="1" xml:id="d99fn1">
                                 <p><seg type="summary">Summary: This status report to the 40
                                         Committee on U.S. covert funding of opposition political
@@ -32119,7 +31962,6 @@
                                 <persName corresp="#p_AGS_1">Allende</persName> government and to
                             the opposition parties during this critical period.</p>
                     </div>
-
                     <div type="document" n="100" xml:id="d100" subtype="historical-document"
                         frus:doc-dateTime-min="1972-01-24T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-01-24T23:59:59-05:00">
@@ -32330,7 +32172,6 @@
                             <persName corresp="#p_FPM_1">Flanigan</persName>: Good.</p>
                         <p>[Omitted here is discussion unrelated to Chile.]</p>
                     </div>
-
                     <div type="document" n="101" xml:id="d101" subtype="historical-document"
                         frus:doc-dateTime-min="1972-01-27T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-01-27T23:59:59-05:00">
@@ -32420,11 +32261,10 @@
                                 corresp="#p_FJW_1">John Fisher</persName>, 623–3023, by c.o.b.
                             February 4, your decision or comments on this proposal. </p>
                     </div>
-
+                    <pb n="531" facs="0571" xml:id="pg_531"/>
                     <div type="document" n="102" xml:id="d102" subtype="historical-document"
                         frus:doc-dateTime-min="1972-02-03T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-02-03T23:59:59-05:00">
-                        <pb n="531" facs="0571" xml:id="pg_531"/>
                         <head>102. Memorandum From the Deputy Director for Coordination, Bureau of
                             Intelligence and Research (<persName corresp="#p_MW_1"
                             >McAfee</persName>) to the Director of the Bureau of Intelligence and
@@ -32500,14 +32340,12 @@
                             The consensus was that we leave this one for the future.</p>
                         <p>[Omitted here is discussion of unrelated matters.]</p>
                     </div>
-
                     <div type="document" n="103" xml:id="d103" subtype="historical-document"
                         frus:doc-dateTime-min="1972-02-08T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-02-08T23:59:59-05:00">
                         <head>103. Conversation Between President <persName corresp="#p_NRM_1"
                                 >Nixon</persName> and Secretary of the Treasury <persName
-                                corresp="#p_CJB_1">Connally</persName>
-                            <note n="1" xml:id="d103fn1">
+                                corresp="#p_CJB_1">Connally</persName><note n="1" xml:id="d103fn1">
                                 <p><seg type="summary">Summary: <persName corresp="#p_NRM_1"
                                             >Nixon</persName> and <persName corresp="#p_CJB_1"
                                             >Connally</persName> discussed the Chilean
@@ -32615,9 +32453,8 @@
                             chance.</p>
                         <p>[Omitted here is further discussion of Argentina, U.S. foreign economic
                             policy, and other matters unrelated to Chile.]</p>
-                        <pb n="534" facs="0574" xml:id="pg_534"/>
                     </div>
-
+                    <pb n="534" facs="0574" xml:id="pg_534"/>
                     <div type="document" n="104" xml:id="d104" subtype="historical-document"
                         frus:doc-dateTime-min="1972-03-21T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-03-21T23:59:59-05:00">
@@ -32908,7 +32745,6 @@
                         <p>—[<hi rend="italic">1 paragraph (11½ lines) not declassified</hi>]</p>
                         <p>[<hi rend="italic">Attachment (4 pages) not declassified</hi>]</p>
                     </div>
-
                     <div type="document" n="105" xml:id="d105" subtype="historical-document"
                         frus:doc-dateTime-min="1972-04-04T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-04-04T23:59:59-05:00">
@@ -33106,7 +32942,6 @@
                             constitutional arrangement surviving intact over the next several years
                             are poor.</p>
                     </div>
-
                     <div type="document" n="106" xml:id="d106" subtype="historical-document"
                         frus:doc-dateTime-min="1972-04-04T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-04-04T23:59:59-05:00">
@@ -33586,9 +33421,8 @@
                         <p>3) Treasury believes that the other creditors are only unlikely to accept
                             a clause which makes it a precondition for the Chilean Government to
                             agree to repay its public debt or guaranteed debt to U.S. companies.</p>
-                        <pb n="553" facs="0593" xml:id="pg_553"/>
                     </div>
-
+                    <pb n="553" facs="0593" xml:id="pg_553"/>
                     <div type="document" n="107" xml:id="d107" subtype="historical-document"
                         frus:doc-dateTime-min="1972-04-06T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-04-06T23:59:59-05:00">
@@ -33738,9 +33572,8 @@
                             contingencies. No security problems have arisen in connection with any
                             funds passed to date.</p>
                         <p>[Omitted here are Sections III and IV.]</p>
-                        <pb n="556" facs="0596" xml:id="pg_556"/>
                     </div>
-
+                    <pb n="556" facs="0596" xml:id="pg_556"/>
                     <div type="document" n="108" xml:id="d108" subtype="historical-document"
                         frus:doc-dateTime-min="1972-04-10T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-04-10T23:59:59-05:00">
@@ -34035,8 +33868,8 @@
                             paragraph IV above.</p>
                         <frus:attachment>
                             <note rend="inline">
-                                <hi rend="strong">Tab A</hi>
-                                <note n="2" xml:id="d108fn2">Secret; Sensitive; Eyes Only.</note>
+                                <hi rend="strong">Tab A</hi><note n="2" xml:id="d108fn2">Secret;
+                                    Sensitive; Eyes Only.</note>
                             </note>
                             <dateline>
                                 <placeName>Washington</placeName>, <date
@@ -34051,8 +33884,8 @@
                         </frus:attachment>
                         <frus:attachment>
                             <note rend="inline">
-                                <hi rend="strong">Tab B</hi>
-                                <note n="3" xml:id="d108fn3">Secret; Sensitive; Eyes Only.</note>
+                                <hi rend="strong">Tab B</hi><note n="3" xml:id="d108fn3">Secret;
+                                    Sensitive; Eyes Only.</note>
                             </note>
                             <dateline>
                                 <placeName>Washington</placeName>, <date
@@ -34134,11 +33967,10 @@
                             <p>[<hi rend="italic">attachment (2 pages) not declassified</hi>]</p>
                         </frus:attachment>
                     </div>
-
+                    <pb n="563" facs="0603" xml:id="pg_563"/>
                     <div type="document" n="109" xml:id="d109" subtype="historical-document"
                         frus:doc-dateTime-min="1972-04-14T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-04-14T23:59:59-05:00">
-                        <pb n="563" facs="0603" xml:id="pg_563"/>
                         <head>109. Memorandum From Michael Kozak of the Office of the Assistant
                             Legal Adviser for Inter-American Affairs to the Assistant Legal Adviser
                             for Inter-American Affairs (<persName corresp="#p_FMB_1"
@@ -34457,7 +34289,6 @@
                                 facs="0610" xml:id="pg_570"/>and resolution of the issues without
                             prejudicing either party’s legal position.</p>
                     </div>
-
                     <div type="document" n="110" xml:id="d110" subtype="historical-document"
                         frus:doc-dateTime-min="1972-04-19T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-04-19T23:59:59-05:00">
@@ -34759,11 +34590,10 @@
                             October 1972.</p>
                         <p>[<hi rend="italic">1 attachment (1 page) not declassified</hi>]</p>
                     </div>
-
+                    <pb n="575" facs="0615" xml:id="pg_575"/>
                     <div type="document" n="111" xml:id="d111" subtype="historical-document"
                         frus:doc-dateTime-min="1972-05-11T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-05-11T23:59:59-05:00">
-                        <pb n="575" facs="0615" xml:id="pg_575"/>
                         <head>111. Memorandum for the 40 Committee<note n="1" xml:id="d111fn1">
                                 <p><seg type="summary">Summary: This memorandum examined the
                                         elections held at the University of Chile in April 1972. The
@@ -34978,11 +34808,10 @@
                             </row>
                         </table>
                     </div>
-
+                    <pb n="578" facs="0618" xml:id="pg_578"/>
                     <div type="document" n="112" xml:id="d112" subtype="historical-document"
                         frus:doc-dateTime-min="1972-05-18T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-05-18T23:59:59-05:00">
-                        <pb n="578" facs="0618" xml:id="pg_578"/>
                         <head>112. Memorandum From <persName corresp="#p_JWJ_1">William J.
                                 Jorden</persName> of the National Security Council Staff to the
                             President’s Assistant for National Security Affairs (<persName
@@ -35060,7 +34889,6 @@
                             of violence in Chile and President <persName corresp="#p_NRM_1"
                                 >Nixon</persName>’s departure for Moscow.</p>
                     </div>
-
                     <div type="document" n="113" xml:id="d113" subtype="historical-document"
                         frus:doc-dateTime-min="1972-05-18T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-05-18T23:59:59-05:00">
@@ -35135,7 +34963,6 @@
                         <p rend="sectiontitleital">Recommendation</p>
                         <p>That you sign the memo at Tab A.</p>
                     </div>
-
                     <div type="document" n="114" xml:id="d114" subtype="historical-document"
                         frus:doc-dateTime-min="1972-06-12T17:43:00-05:00"
                         frus:doc-dateTime-max="1972-06-12T17:43:00-05:00">
@@ -35145,7 +34972,7 @@
                                         between Davis and <persName corresp="#p_AGS_1"
                                             >Allende</persName>. During the discussion <persName
                                             corresp="#p_AGS_1">Allende</persName> presented a sharp
-                                        critique of <gloss target="#t_ITT_1">ITT</gloss> ’s actions
+                                        critique of <gloss target="#t_ITT_1">ITT</gloss>’s actions
                                         in Chile, even hinting that <gloss target="#t_ITT_1"
                                             >ITT</gloss> had been lucky to avoid a full-scale
                                         confiscation of its property, offered “private” support in
@@ -35171,7 +34998,7 @@
                                 >Allende</persName> as instructed <gloss target="#t_reftel_1"
                                 >reftel</gloss>. <persName corresp="#p_AGS_1">Allende</persName>
                             responded to my presentation by sharply criticizing <gloss
-                                target="#t_ITT_1">ITT</gloss> ’s action in Chile. He said that only
+                                target="#t_ITT_1">ITT</gloss>’s action in Chile. He said that only
                             with difficulty had he been able to overcome strong pressures within
                                 <gloss target="#t_GOC_1">GOC</gloss> to confiscate <gloss
                                 target="#t_ITT_1">ITT</gloss> assets. He offered “private” support
@@ -35196,7 +35023,7 @@
                             completed my own presentation, making statements contained paragraph
                             5.</p>
                         <p>3. <persName corresp="#p_AGS_1">Allende</persName> began his answer by
-                            citing <gloss target="#t_ITT_1">ITT</gloss> ’s “improper and
+                            citing <gloss target="#t_ITT_1">ITT</gloss>’s “improper and
                             inadmissible” activities. He said any other country whose dignity had
                             been so assaulted would have confiscated Chiltelco outright. He said
                             that Chilean public opinion has been a continuous limiting factor on his
@@ -35349,7 +35176,6 @@
                             <signed>Davis</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="115" xml:id="d115" subtype="historical-document"
                         frus:doc-dateTime-min="1972-06-12T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-06-12T23:59:59-05:00">
@@ -35782,7 +35608,6 @@
                             make Chile into an irreversibly Socialist state.</p>
                         <p>[<hi rend="italic">attachment (1 page) not declassified</hi>]</p>
                     </div>
-
                     <div type="document" n="116" xml:id="d116" subtype="historical-document"
                         frus:doc-dateTime-min="1972-06-29T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-06-29T23:59:59-05:00">
@@ -35824,11 +35649,6 @@
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1972-06-29"
                                 calendar="gregorian">June 29, 1972</date>.</dateline>
-                        <note>*The Chamber has a normal membership of 150, but a Communist Party
-                            Deputy died on 5 May 1972. His seat will be filled in a by-election in
-                            July. Two other Communist deputies resigned their seats in June to join
-                            the Cabinet. It is unclear whether these seats will remain vacant until
-                            the March 1973 election. [Footnote is in the original.]</note>
                         <p>[Omitted here are the Table of Contents and a map of Chile.]</p>
                         <p rend="center">CHILE: THE ALTERNATIVES FACING THE ALLENDE REGIME</p>
                         <p rend="center">CONCLUSIONS</p>
@@ -36619,7 +36439,7 @@
                             pressures from within the <gloss target="#t_UP_1">UP</gloss> to continue
                             a hard line on such matters were recently demonstrated by the proposed
                             legislation <persName corresp="#p_AGS_1">Allende</persName> sent to
-                            Congress for expropriation of <gloss target="#t_ITT_1">ITT</gloss> ’s
+                            Congress for expropriation of <gloss target="#t_ITT_1">ITT</gloss>’s
                             Chilean holdings; the terms appear likely to exclude satisfactory <pb
                                 n="607" facs="0647" xml:id="pg_607"/>compensation. To demonstrate
                             Chilean reasonableness, however, <persName corresp="#p_AGS_1"
@@ -37071,7 +36891,6 @@
                         <p rend="sectiontitleital">I. <hi rend="italic">Composition of Chilean
                                 Congress</hi>
                         </p>
-
                         <table cols="3">
                             <row>
                                 <cell/>
@@ -37212,11 +37031,16 @@
                             </row>
                             <row>
                                 <cell>TOTAL MEMBERSHIP</cell>
-                                <cell>147*</cell>
+                                <cell>147<note n="*" xml:id="d116fn9">The Chamber has a normal
+                                        membership of 150, but a Communist Party Deputy died on 5
+                                        May 1972. His seat will be filled in a by-election in July.
+                                        Two other Communist deputies resigned their seats in June to
+                                        join the Cabinet. It is unclear whether these seats will
+                                        remain vacant until the March 1973 election. [Footnote is in
+                                        the original.]</note></cell>
                                 <cell>50</cell>
                             </row>
                         </table>
-
                         <p rend="sectiontitleital">
                             <hi rend="roman">II.</hi> Other Political Groups</p>
                         <p>Among the political organizations unrepresented in congress the most
@@ -37234,11 +37058,10 @@
                             attempting to depose <persName corresp="#p_AGS_1">Allende</persName> by
                             promoting military intervention.</p>
                     </div>
-
+                    <pb n="617" facs="0657" xml:id="pg_617"/>
                     <div type="document" n="117" xml:id="d117" subtype="historical-document"
                         frus:doc-dateTime-min="1972-08-15T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-08-15T23:59:59-05:00">
-                        <pb n="617" facs="0657" xml:id="pg_617"/>
                         <head>117. Memorandum for the 40 Committee<note n="1" xml:id="d117fn1">
                                 <p><seg type="summary">Summary: This fourth status report to the 40
                                         Committee on U.S. financial aid to opposition parties in
@@ -37658,11 +37481,10 @@
                             operation of the <gloss target="#t_PIR_1">PIR</gloss>. [<hi
                                 rend="italic">5½ lines not declassified</hi>]</p>
                     </div>
-
+                    <pb n="624" facs="0664" xml:id="pg_624"/>
                     <div type="document" n="118" xml:id="d118" subtype="historical-document"
                         frus:doc-dateTime-min="1972-08-24T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-08-24T23:59:59-05:00">
-                        <pb n="624" facs="0664" xml:id="pg_624"/>
                         <head>118. Memorandum for the 40 Committee<note n="1" xml:id="d118fn1">
                                 <p><seg type="summary">Summary: This memorandum outlined a proposal
                                         for funding private-sector organizations, which would allow
@@ -37800,11 +37622,10 @@
                         <p>[<hi rend="italic">1 paragraph (4 lines) not declassified</hi>]</p>
                         <p>[<hi rend="italic">2 attachments (10 pages) not declassified</hi>]</p>
                     </div>
-
+                    <pb n="627" facs="0667" xml:id="pg_627"/>
                     <div type="document" n="119" xml:id="d119" subtype="historical-document"
                         frus:doc-dateTime-min="1972-10-04T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-10-04T23:59:59-05:00">
-                        <pb n="627" facs="0667" xml:id="pg_627"/>
                         <head>119. Memorandum of Conversation<note n="1" xml:id="d119fn1">
                                 <p><seg type="summary">Summary: Officers of the Departments of State
                                         and Treasury, and the Kennecott Copper Corporation discussed
@@ -37976,11 +37797,10 @@
                             usefulness of maintaining such contacts and promised to keep in
                             touch.</p>
                     </div>
-
+                    <pb n="630" facs="0670" xml:id="pg_630"/>
                     <div type="document" n="120" xml:id="d120" subtype="historical-document"
                         frus:doc-dateTime-min="1972-10-12T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-10-12T23:59:59-05:00">
-                        <pb n="630" facs="0670" xml:id="pg_630"/>
                         <head>120. Memorandum From the Executive Secretary of the Department of
                             State (<persName corresp="#p_ETL_1">Eliot</persName>) to the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_KHA_1"
@@ -38057,9 +37877,7 @@
                             </signed>
                             <affiliation>Executive Secretary</affiliation>
                         </closer>
-
                     </div>
-
                     <div type="document" n="121" xml:id="d121" subtype="historical-document"
                         frus:doc-dateTime-min="1972-10-13T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-10-13T23:59:59-05:00">
@@ -38173,11 +37991,10 @@
                                 <hi rend="strong">Attachment</hi>
                             </note>
                             <head>
-                                <hi rend="strong">Memorandum for the 40 Committee</hi>
-                                <note n="2" xml:id="d121fn2">Secret; Sensitive; Eyes Only. A
-                                    handwritten note at the bottom of the pages reads,
-                                    “Telephonically approved by the 40 Committee on 26 October
-                                    1972.”</note>
+                                <hi rend="strong">Memorandum for the 40 Committee</hi><note n="2"
+                                    xml:id="d121fn2">Secret; Sensitive; Eyes Only. A handwritten
+                                    note at the bottom of the pages reads, “Telephonically approved
+                                    by the 40 Committee on 26 October 1972.”</note>
                             </head>
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1972-10-13"
@@ -38532,15 +38349,15 @@
                                     <cell/>
                                 </row>
                                 <row>
-                                    <cell>[<hi rend="italic">less than 1 line not <lb/>
-                                            declassified</hi>]</cell>
+                                    <cell>[<hi rend="italic">less than 1 line not
+                                            <lb/>declassified</hi>]</cell>
                                     <cell>[<hi rend="italic">dollar amount not
                                         declassified</hi>]</cell>
                                     <cell/>
                                 </row>
                                 <row>
-                                    <cell>[<hi rend="italic">less than 1 line not <lb/>
-                                            declassified</hi>]</cell>
+                                    <cell>[<hi rend="italic">less than 1 line not
+                                            <lb/>declassified</hi>]</cell>
                                     <cell>[<hi rend="italic">dollar amount not
                                         declassified</hi>]</cell>
                                     <cell/>
@@ -38592,11 +38409,10 @@
                             <p>[<hi rend="italic">5 annexes (13 pages) not declassified</hi>]</p>
                         </frus:attachment>
                     </div>
-
+                    <pb n="640" facs="0680" xml:id="pg_640"/>
                     <div type="document" n="122" xml:id="d122" subtype="historical-document"
                         frus:doc-dateTime-min="1972-10-18T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-10-18T23:59:59-05:00">
-                        <pb n="640" facs="0680" xml:id="pg_640"/>
                         <head>122. Intelligence Note Prepared in the Bureau of Intelligence and
                                 Research<note n="1" xml:id="d122fn1">
                                 <p><seg type="summary">Summary: This <gloss target="#t_INR_1"
@@ -38619,7 +38435,6 @@
                                 <idno type="document-identifier">RAAN–45</idno>
                             </seg>
                         </opener>
-
                         <dateline>
                             <placeName>Washington</placeName>, <date when="1972-10-18"
                                 calendar="gregorian">October 18, 1972</date>.</dateline>
@@ -38709,11 +38524,10 @@
                             Forces—to operate within the democratic framework as the March 1973
                             elections approach.</p>
                     </div>
-
+                    <pb n="642" facs="0682" xml:id="pg_642"/>
                     <div type="document" n="123" xml:id="d123" subtype="historical-document"
                         frus:doc-dateTime-min="1972-10-30T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-10-30T23:59:59-05:00">
-                        <pb n="642" facs="0682" xml:id="pg_642"/>
                         <head>123. Paper Prepared for the Ad Hoc Interagency Working Group on
                                 Chile<note n="1" xml:id="d123fn1">
                                 <p><seg type="summary">Summary: This contingency paper, titled
@@ -39255,11 +39069,10 @@
                             great part be determined by the commitments on compensation that Chile
                             would be prepared to make.</p>
                     </div>
-
+                    <pb n="653" facs="0693" xml:id="pg_653"/>
                     <div type="document" n="124" xml:id="d124" subtype="historical-document"
                         frus:doc-dateTime-min="1972-11-06T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-11-06T23:59:59-05:00">
-                        <pb n="653" facs="0693" xml:id="pg_653"/>
                         <head>124. Intelligence Note Prepared in the Bureau of Intelligence and
                                 Research<note n="1" xml:id="d124fn1">
                                 <p><seg type="summary">Summary: This report, titled “Chile: Cabinet
@@ -39378,11 +39191,10 @@
                             use the <gloss target="#t_UN_1">UN</gloss> General Assembly as his
                             forum.</p>
                     </div>
-
+                    <pb n="655" facs="0695" xml:id="pg_655"/>
                     <div type="document" n="125" xml:id="d125" subtype="historical-document"
                         frus:doc-dateTime-min="1972-11-22T20:01:00-05:00"
                         frus:doc-dateTime-max="1972-11-22T20:01:00-05:00">
-                        <pb n="655" facs="0695" xml:id="pg_655"/>
                         <head>125. Telegram From the Embassy in Chile to the Department of
                                 State<note n="1" xml:id="d125fn1">
                                 <p><seg type="summary">Summary: This telegram reported on a meeting
@@ -39592,7 +39404,6 @@
                             <signed>Davis</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="126" xml:id="d126" subtype="historical-document"
                         frus:doc-dateTime-min="1972-11-30T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-11-30T23:59:59-05:00">
@@ -39730,7 +39541,6 @@
                             with the US through wide-ranging discussions now scheduled to begin in
                             December.</p>
                     </div>
-
                     <div type="document" n="127" xml:id="d127" subtype="historical-document"
                         frus:doc-dateTime-min="1972-12-01T00:00:00-05:00"
                         frus:doc-dateTime-max="1972-12-01T23:59:59-05:00">
@@ -39900,11 +39710,10 @@
                             foregoing framework in more detail at this time.</p>
                     </div>
                 </div>
-
+                <pb n="664" facs="0704" xml:id="pg_664"/>
                 <div type="chapter" n="5" xml:id="ch5"
                     frus:doc-dateTime-min="1970-03-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-06-12T23:59:59-05:00">
-                    <pb n="664" facs="0704" xml:id="pg_664"/>
                     <head>“That Chilean Guy May Have Some Problems”: The Downfall of <persName
                             corresp="#p_AGS_1">Salvador Allende</persName>, January–September
                         1973</head>
@@ -40010,9 +39819,8 @@
                             inaccessible to political parties; it is his understanding that funds
                             for this purpose will not be diverted from financing of political
                             parties.</p>
-                        <pb n="666" facs="0706" xml:id="pg_666"/>
                     </div>
-
+                    <pb n="666" facs="0706" xml:id="pg_666"/>
                     <div type="document" n="129" xml:id="d129" subtype="historical-document"
                         frus:doc-dateTime-min="1973-01-11T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-01-11T23:59:59-05:00">
@@ -40095,7 +39903,6 @@
                             would be singled out by the government for attack as to its source of
                             funding.</p>
                     </div>
-
                     <div type="document" n="130" xml:id="d130" subtype="historical-document"
                         frus:doc-dateTime-min="1973-02-08T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-02-08T23:59:59-05:00">
@@ -40467,11 +40274,10 @@
                             the opposition parties for the purposes outlined in Section IV
                             above.</p>
                     </div>
-
+                    <pb n="673" facs="0713" xml:id="pg_673"/>
                     <div type="document" n="131" xml:id="d131" subtype="historical-document"
                         frus:doc-dateTime-min="1973-03-19T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-03-19T23:59:59-05:00">
-                        <pb n="673" facs="0713" xml:id="pg_673"/>
                         <head>131. Memorandum From the Director of Operations Policy, Bureau of
                             Intelligence and Research (<persName corresp="#p_GJR_1"
                                 >Gardner</persName>) to the Deputy Director for Coordination, Bureau
@@ -40828,7 +40634,6 @@
                                 target="#t_CIA_1">CIA</gloss> based on those that had been asked
                             during this informal, off-the-record inquiry.</p>
                     </div>
-
                     <div type="document" n="132" xml:id="d132" subtype="historical-document"
                         frus:doc-dateTime-min="1973-03-28T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-03-28T23:59:59-05:00">
@@ -41007,9 +40812,8 @@
                         <p>You may wish to wait to see the results of the study you requested from
                             Jim Schlesinger before directing further White House research by your
                             office or <persName corresp="#p_JWJ_1">Jorden</persName>.</p>
-                        <pb n="682" facs="0722" xml:id="pg_682"/>
                     </div>
-
+                    <pb n="682" facs="0722" xml:id="pg_682"/>
                     <div type="document" n="133" xml:id="d133" subtype="historical-document"
                         frus:doc-dateTime-min="1973-04-06T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-04-06T23:59:59-05:00">
@@ -41519,9 +41323,8 @@
                                 >UP</gloss> from electing or imposing its presidential candidate in
                             1976. It is, however, too early to estimate what opposition needs will
                             be for any significant time frame.</p>
-                        <pb n="689" facs="0729" xml:id="pg_689"/>
                     </div>
-
+                    <pb n="689" facs="0729" xml:id="pg_689"/>
                     <div type="document" n="134" xml:id="d134" subtype="historical-document"
                         frus:doc-dateTime-min="1973-05-24T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-05-24T23:59:59-05:00">
@@ -41578,11 +41381,10 @@
                             implementation of its plans. END SUMMARY.</p>
                         <p>[Omitted here is the body of the memorandum]</p>
                     </div>
-
+                    <pb n="690" facs="0730" xml:id="pg_690"/>
                     <div type="document" n="135" xml:id="d135" subtype="historical-document"
                         frus:doc-dateTime-min="1973-05-31T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-05-31T23:59:59-05:00">
-                        <pb n="690" facs="0730" xml:id="pg_690"/>
                         <head>135. Memorandum From the Director of the Office of Operations Policy,
                             Bureau of Intelligence and Research (<persName corresp="#p_GJR_1"
                                 >Gardner</persName>) to the Deputy Director of the Bureau of
@@ -41772,7 +41574,6 @@
                                 corresp="#p_SH_2">Shlaudeman</persName> at 4 pm on the afternoon of
                             11 June.</p>
                     </div>
-
                     <div type="document" n="136" xml:id="d136" subtype="historical-document"
                         frus:doc-dateTime-min="1973-06-14T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-06-14T23:59:59-05:00">
@@ -42280,7 +42081,6 @@
                             of the candidates and how—in a new situation—the political forces were
                             arrayed.</p>
                     </div>
-
                     <div type="document" n="137" xml:id="d137" subtype="historical-document"
                         frus:doc-dateTime-min="1973-07-09T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-07-09T23:59:59-05:00">
@@ -42367,11 +42167,10 @@
                         <p>That you approve the course of action described above for the coming
                             meetings of the Paris Club.</p>
                     </div>
-
+                    <pb n="704" facs="0744" xml:id="pg_704"/>
                     <div type="document" n="138" xml:id="d138" subtype="historical-document"
                         frus:doc-dateTime-min="1973-07-13T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-07-13T23:59:59-05:00">
-                        <pb n="704" facs="0744" xml:id="pg_704"/>
                         <head>138. Memorandum for the 40 Committee<note n="1" xml:id="d138fn1">
                                 <p><seg type="summary">Summary: This memorandum, titled “Chile:
                                         Request for Funds to Support Opposition Political Parties
@@ -42668,7 +42467,6 @@
                                 [<hi rend="italic">dollar amount not declassified</hi>] from 1 July
                             1973 through 30 June 1974.</p>
                     </div>
-
                     <div type="document" n="139" xml:id="d139" subtype="historical-document"
                         frus:doc-dateTime-min="1973-08-01T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-08-01T23:59:59-05:00">
@@ -42978,11 +42776,10 @@
                             greatly reduced powers in a military-dominated government of national
                             reconciliation.</p>
                     </div>
-
+                    <pb n="715" facs="0755" xml:id="pg_715"/>
                     <div type="document" n="140" xml:id="d140" subtype="historical-document"
                         frus:doc-dateTime-min="1973-08-24T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-08-24T23:59:59-05:00">
-                        <pb n="715" facs="0755" xml:id="pg_715"/>
                         <head>140. Contingency Paper Prepared for the Interagency Ad Hoc Working
                             Group on Chile<note n="1" xml:id="d140fn1">
                                 <p><seg type="summary">Summary: This paper, titled “Possible Chilean
@@ -43619,9 +43416,8 @@
                             we have applied to debt rescheduling for the <persName
                                 corresp="#p_AGS_1">Allende</persName> regime immediately after a
                             successor regime assumes power.</p>
-                        <pb n="728" facs="0768" xml:id="pg_728"/>
                     </div>
-
+                    <pb n="728" facs="0768" xml:id="pg_728"/>
                     <div type="document" n="141" xml:id="d141" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-12T00:00:00-05:00"
                         frus:doc-dateTime-max="1974-06-12T23:59:59-05:00">
@@ -43646,8 +43442,8 @@
                                 to="1974-06-12" type="content-date"
                                 ana="#date_undated-inferred-from-document-content"
                                 calendar="gregorian">undated</date>.</dateline>
-                        <p rend="center">EXCERPTS FROM TESTIMONY BEFORE THE CONGRESS<lb/> BY
-                            ASSISTANT SECRETARY KUBISCH AND DEPUTY<lb/> ASSISTANT SECRETARY
+                        <p rend="center">EXCERPTS FROM TESTIMONY BEFORE THE CONGRESS <lb/>BY
+                            ASSISTANT SECRETARY KUBISCH AND DEPUTY <lb/>ASSISTANT SECRETARY
                                 <persName corresp="#p_SH_2">SHLAUDEMAN</persName>
                         </p>
                         <p>Before the Subcommittee on Western Hemisphere Affairs, Committee on
@@ -43810,9 +43606,8 @@
                             nonintervention in Chile’s internal affairs during the <persName
                                 corresp="#p_AGS_1">Allende</persName> period. That policy remains in
                             force today. (p. 6)</p>
-                        <pb n="732" facs="0772" xml:id="pg_732"/>
                     </div>
-
+                    <pb n="732" facs="0772" xml:id="pg_732"/>
                     <div type="document" n="142" xml:id="d142" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-13T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-09-13T23:59:59-05:00">
@@ -43947,7 +43742,6 @@
                                 agreed to put off consideration of two loan rollovers.</p>
                         </frus:attachment>
                     </div>
-
                     <div type="document" n="143" xml:id="d143" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-13T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-09-13T23:59:59-05:00">
@@ -44000,16 +43794,15 @@
                         <pb n="735" facs="0775" xml:id="pg_735"/>
                         <frus:attachment>
                             <note rend="inline">
-                                <hi rend="strong">Attachment</hi>
-                                <note n="2" xml:id="d143fn2">Secret; <gloss target="#t_Exdis_1"
-                                        >Exdis</gloss>.</note>
+                                <hi rend="strong">Attachment</hi><note n="2" xml:id="d143fn2"
+                                    >Secret; <gloss target="#t_Exdis_1">Exdis</gloss>.</note>
                             </note>
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1973-09-13"
                                     ana="#date_undated-inferred-from-document-content-and-sibling-dates"
                                     calendar="gregorian">undated</date>.</dateline>
-                            <p rend="center">ECONOMIC ASSISTANCE NEEDS OF THE NEW CHILEAN<lb/>
-                                GOVERNMENT AND POSSIBLE RESPONSES</p>
+                            <p rend="center">ECONOMIC ASSISTANCE NEEDS OF THE NEW CHILEAN
+                                <lb/>GOVERNMENT AND POSSIBLE RESPONSES</p>
                             <p rend="sectiontitleital">
                                 <hi rend="roman">I.</hi> Nature and Dimensions of Need</p>
                             <p>A. <hi rend="italic">The Chilean Economy at the Time of the Coup
@@ -44332,7 +44125,6 @@
                                 stabilization and development programs.</p>
                         </frus:attachment>
                     </div>
-
                     <div type="document" n="144" xml:id="d144" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-13T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-09-13T23:59:59-05:00">
@@ -44407,7 +44199,6 @@
                             </signed>
                         </closer>
                     </div>
-
                     <div type="document" n="145" xml:id="d145" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-16T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-09-16T23:59:59-05:00">
@@ -44496,8 +44287,8 @@
                         <pb n="744" facs="0784" xml:id="pg_744"/>
                         <frus:attachment>
                             <note rend="inline">
-                                <hi rend="strong">Attachment</hi>
-                                <note n="2" xml:id="d145fn2">Secret; Sensitive; Eyes Only.</note>
+                                <hi rend="strong">Attachment</hi><note n="2" xml:id="d145fn2"
+                                    >Secret; Sensitive; Eyes Only.</note>
                             </note>
                             <dateline>
                                 <placeName>Washington</placeName>, <date
@@ -44817,9 +44608,8 @@
                                 down by recipient. This is because some funds were not needed. [<hi
                                     rend="italic">4½ lines not declassified</hi>]</p>
                         </frus:attachment>
-                        <pb n="747" facs="0787" xml:id="pg_747"/>
                     </div>
-
+                    <pb n="747" facs="0787" xml:id="pg_747"/>
                     <div type="document" n="146" xml:id="d146" subtype="historical-document"
                         frus:doc-dateTime-min="1970-08-05T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-10-09T23:59:59-05:00">
@@ -45160,7 +44950,6 @@
                             Latin America. There was no basis, he said, for any hope that there was
                             a reasonable chance of success for any action program.</p>
                     </div>
-
                     <div type="document" n="147" xml:id="d147" subtype="historical-document"
                         frus:doc-dateTime-min="1970-03-25T00:00:00-05:00"
                         frus:doc-dateTime-max="1970-10-09T23:59:59-05:00">
@@ -45185,7 +44974,6 @@
                                 ana="#date_undated-inferred-from-document-content"
                                 calendar="gregorian">undated</date>.</dateline>
                         <p rend="center">CHILE: CHRONOLOGY FROM DDC FILES—1970</p>
-
                         <p>March 25—Minutes of 40 Committee Meeting. The 40 Committee approved a
                             proposal that [<hi rend="italic">dollar amount not declassified</hi>] be
                             committed to <pb n="753" facs="0793" xml:id="pg_753"/>the Chilean
@@ -45742,9 +45530,8 @@
                             told U.S. businessmen at meeting Oct 9 that US prepared maintain
                             pragmatic relations with <persName corresp="#p_AGS_1"
                             >Allende</persName>, and businessmen agreed.</p>
-                        <pb n="762" facs="0802" xml:id="pg_762"/>
                     </div>
-
+                    <pb n="762" facs="0802" xml:id="pg_762"/>
                     <div type="document" n="148" xml:id="d148" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-14T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-09-14T23:59:59-05:00">
@@ -45797,8 +45584,8 @@
                         </closer>
                         <frus:attachment>
                             <note rend="inline">
-                                <hi rend="strong">Attachment 1</hi>
-                                <note n="2" xml:id="d148fn2">Confidential.</note>
+                                <hi rend="strong">Attachment 1</hi><note n="2" xml:id="d148fn2"
+                                    >Confidential.</note>
                             </note>
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1973-09-14"
@@ -46200,7 +45987,6 @@
                                 Media quote third parties charging U.S. complicity.</p>
                         </frus:attachment>
                     </div>
-
                     <div type="document" n="149" xml:id="d149" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-16T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-09-16T23:59:59-05:00">
@@ -46600,8 +46386,8 @@
                         </frus:attachment>
                         <frus:attachment>
                             <note rend="inline">
-                                <hi rend="strong">Attachment</hi>
-                                <note n="5" xml:id="d149fn5">No classification marking.</note>
+                                <hi rend="strong">Attachment</hi><note n="5" xml:id="d149fn5">No
+                                    classification marking.</note>
                             </note>
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1973-09-16"
@@ -46655,8 +46441,8 @@
                         </frus:attachment>
                         <frus:attachment>
                             <note rend="inline">
-                                <hi rend="strong">Attachment</hi>
-                                <note n="6" xml:id="d149fn6">No classification marking.</note>
+                                <hi rend="strong">Attachment</hi><note n="6" xml:id="d149fn6">No
+                                    classification marking.</note>
                             </note>
                             <dateline>
                                 <placeName>Washington</placeName>, <date when="1973-09-16"
@@ -46740,16 +46526,14 @@
                             </table>
                         </frus:attachment>
                     </div>
-
+                    <pb n="779" facs="0819" xml:id="pg_779"/>
                     <div type="document" n="150" xml:id="d150" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-20T09:23:00-05:00"
                         frus:doc-dateTime-max="1973-09-20T09:23:00-05:00">
-                        <pb n="779" facs="0819" xml:id="pg_779"/>
                         <head>150. Transcript of a Telephone Conversation Between the President’s
                             Assistant for National Security Affairs (<persName corresp="#p_KHA_1"
                                 >Kissinger</persName>) and Senator <persName corresp="#p_CF_1">Frank
-                                Church</persName>
-                            <note n="1" xml:id="d150fn1">
+                                Church</persName><note n="1" xml:id="d150fn1">
                                 <p><seg type="summary">Summary: During this telephone conversation
                                         with <persName corresp="#p_KHA_1">Kissinger</persName>,
                                         Church expressed concern for the plight of Chilean citizens
@@ -46823,7 +46607,6 @@
                         <p>C: Thank you Henry.</p>
                         <p>K: Goodbye.</p>
                     </div>
-
                     <div type="document" n="151" xml:id="d151" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-20T00:00:00-05:00"
                         frus:doc-dateTime-max="1973-09-20T23:59:59-05:00">
@@ -46975,11 +46758,10 @@
                             Well, alright. If I get other things I’ll pass them along.</p>
                         <p>K: Good, wonderful. Bye.</p>
                     </div>
-
+                    <pb n="784" facs="0824" xml:id="pg_784"/>
                     <div type="document" n="152" xml:id="d152" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-20T15:55:00-05:00"
                         frus:doc-dateTime-max="1973-09-20T15:55:00-05:00">
-                        <pb n="784" facs="0824" xml:id="pg_784"/>
                         <head>152. Telegram From the Department of State to the Embassy in
                                 Chile<note n="1" xml:id="d152fn1">
                                 <p><seg type="summary">Summary: After the daily news briefing on
@@ -47017,11 +46799,10 @@
                             <signed>Rush</signed>
                         </closer>
                     </div>
-
+                    <pb n="785" facs="0825" xml:id="pg_785"/>
                     <div type="document" n="153" xml:id="d153" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-20T19:04:00-05:00"
                         frus:doc-dateTime-max="1973-09-20T19:04:00-05:00">
-                        <pb n="785" facs="0825" xml:id="pg_785"/>
                         <head>153. Telegram From the Department of State to the Embassy in
                                 Chile<note n="1" xml:id="d153fn1">
                                 <p><seg type="summary">Summary: During the daily news briefing on
@@ -47253,7 +47034,6 @@
                             <signed>Rush</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="154" xml:id="d154" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-20T19:36:00-05:00"
                         frus:doc-dateTime-max="1973-09-20T19:36:00-05:00">
@@ -47300,7 +47080,6 @@
                             <signed>Davis</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="155" xml:id="d155" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-21T12:15:00-05:00"
                         frus:doc-dateTime-max="1973-09-21T12:15:00-05:00">
@@ -47357,7 +47136,6 @@
                             <signed>Davis</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="156" xml:id="d156" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-23T16:54:00-05:00"
                         frus:doc-dateTime-max="1973-09-23T16:54:00-05:00">
@@ -47410,7 +47188,6 @@
                             <signed>Thompson</signed>
                         </closer>
                     </div>
-
                     <div type="document" n="157" xml:id="d157" subtype="historical-document"
                         frus:doc-dateTime-min="1973-09-24T17:16:00-05:00"
                         frus:doc-dateTime-max="1973-09-24T17:16:00-05:00">
@@ -47446,9 +47223,7 @@
                         </closer>
                     </div>
                 </div>
-
             </div>
-
         </body>
     </text>
 </TEI>
