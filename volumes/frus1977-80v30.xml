@@ -48,7 +48,6 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -78,11 +77,10 @@
                     DC area (202) 512-1800 Fax: (202) 512-2250 Mail: Stop IDCC, Washington, DC
                     20402-0001</docImprint>
             </titlePage>
-
+            <pb n="III" facs="0004" xml:id="pg_III"/>
             <div type="section" xml:id="AbouttheSeries" subtype="about-frus-series"
                 frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
                 frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
-                <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -272,10 +270,10 @@
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
+            <pb n="IX" facs="0010" xml:id="pg_IX"/>
             <div type="section" xml:id="preface" subtype="preface"
                 frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
                 frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
-                <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">
                     <hi rend="italic">Structure and Scope of the</hi> Foreign Relations <hi
@@ -378,11 +376,10 @@
                     </affiliation>
                 </closer>
             </div>
-
+            <pb n="XI" facs="0012" xml:id="pg_XI"/>
             <div type="section" xml:id="toc" subtype="table-of-contents"
                 frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
                 frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
-                <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Contents</head>
                 <list>
                     <item>
@@ -417,11 +414,10 @@
                 <pb n="XII" facs="0013" xml:id="pg_XII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
+            <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
             <div type="section" xml:id="sources" subtype="sources"
                 frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
                 frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
-                <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <hi rend="roman">Foreign Relations</hi>,
                     1977–1980, Volume XXX, Public Diplomacy</p>
@@ -503,7 +499,6 @@
                     available on the Internet. The Office of the Historian maintains a list of these
                     Internet resources on its website and encourages readers to consult that site on
                     a regular basis.</p>
-
                 <p rend="center">
                     <hi rend="strong">Unpublished Sources</hi>
                 </p>
@@ -883,10 +878,10 @@
                 <pb n="XX" facs="0021" xml:id="pg_XX"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
+            <pb n="XXI" facs="0022" xml:id="pg_XXI"/>
             <div type="section" xml:id="terms" subtype="index"
                 frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
                 frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
-                <pb n="XXI" facs="0022" xml:id="pg_XXI"/>
                 <head>Abbreviations and Terms</head>
                 <list>
                     <item>
@@ -2531,11 +2526,10 @@
                 <pb n="XXX" facs="0031" xml:id="pg_XXX"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
+            <pb n="XXXI" facs="0032" xml:id="pg_XXXI"/>
             <div type="section" xml:id="persons" subtype="index"
                 frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
                 frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
-                <pb n="XXXI" facs="0032" xml:id="pg_XXXI"/>
                 <head>Persons</head>
                 <list>
                     <item>
@@ -4885,7 +4879,6 @@
                                 calendar="gregorian">November 3, 1976</date>
                         </dateline>
                     </opener>
-
                     <p rend="sectiontitleital">Introduction</p>
                     <p>Those of us who have endorsed this statement speak only for ourselves. We
                         believe our views are shared by many of our colleagues in the Washington
@@ -5163,8 +5156,8 @@
                     <p>We believe the national interest is best served by a public diplomacy based
                         on dialogue. And we believe the considerable energy and talent of the
                         Agency’s personnel should be directed toward this end.</p>
+                    <pb n="7" facs="0056" xml:id="pg_7"/>
                     <table rows="54" cols="3">
-                        <pb n="7" facs="0056" xml:id="pg_7"/>
                         <row>
                             <cell>
                                 <hi rend="strong">Kenneth Adler</hi>
@@ -5231,7 +5224,6 @@
                                 <hi rend="strong">Paul J. Rappaport</hi>
                             </cell>
                         </row>
-
                         <row>
                             <cell>
                                 <hi rend="strong">
@@ -5891,7 +5883,6 @@
                         We are dealing here with gut issues rather than some of the frothier aspects
                         of cultural exchange.</p>
                 </div>
-
                 <div type="document" n="3" xml:id="d3" subtype="editorial-note"
                     frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1980-12-16T23:59:59-05:00">
@@ -6086,7 +6077,6 @@
                                 corresp="#p_MGR_1">Monsen</persName>’s office. P.S.”</note>
                     </p>
                 </div>
-
                 <div type="document" n="5" xml:id="d5" subtype="historical-document"
                     frus:doc-dateTime-min="1977-01-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-01-28T23:59:59-05:00">
@@ -6225,7 +6215,6 @@
                         America’s Future Standing As the World’s Strongest Power (<gloss
                             target="#t_USIA_1">USIA</gloss> Report, July 1973).]</p>
                 </div>
-
                 <div type="document" n="6" xml:id="d6" subtype="historical-document"
                     frus:doc-dateTime-min="1977-02-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-02-03T23:59:59-05:00">
@@ -6302,35 +6291,34 @@
                     frus:doc-dateTime-max="1977-02-10T23:59:59-05:00">
                     <head>7. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d7fn1" type="source">Source: Carter Library, Office of
-                            the Staff Secretary, Handwriting File, Presidential File, Box 9,
-                            2/24/77. No classification marking. Under an undated covering
-                            memorandum, which <persName corresp="#p_ADL_1">Aaron</persName>
-                            initialed, <persName corresp="#p_BZ_1">Brzezinski</persName> sent the
-                            President a copy of <persName corresp="#p_VCR_1">Vance</persName>’s
-                            memorandum. (Ibid.) The President wrote: “<gloss target="#t_Cc_1"
-                                >cc</gloss>: <persName corresp="#p_CR_1">Rosalynn</persName>” in the
-                            top right-hand corner of <persName corresp="#p_BZ_1"
-                                >Brzezinski</persName>’s memorandum. Attached to these memoranda are
-                            a February 24 note from <persName corresp="#p_HRG_1"
-                                >Hutcheson</persName> to <persName corresp="#p_BZ_1"
-                                >Brzezinski</persName> indicating that the copies of both memoranda
-                            were forwarded to <persName corresp="#p_BZ_1">Brzezinski</persName> for
-                            his information and a handwritten note by <persName corresp="#p_IKF_1"
-                                >Inderfurth</persName>: “<gloss target="#t_Cc_1">cc</gloss> Brz also
-                                <gloss target="#t_RSC_1">RSC</gloss>—if we haven’t already sent her
-                            one—I believe we have.” (Ibid.) Copies of both <persName
-                                corresp="#p_BZ_1">Brzezinski</persName>’s and <persName
-                                corresp="#p_VCR_1">Vance</persName>’s memoranda are also in the
-                            Carter Library, White House Central Files, Subject File, Foreign
-                            Affairs, Information-Exchange Activities, Executive, Box FO–35, FO–5
-                            1/20/77–9/30/77. A notation on the copy of <persName corresp="#p_BZ_1"
-                                >Brzezinski</persName>’s memorandum in this file indicates that the
-                                <persName corresp="#p_VCR_1">Vance</persName> memorandum and the
-                                <persName corresp="#p_BZ_1">Brzezinski</persName> covering
-                            memorandum were sent to <persName corresp="#p_CJE_1">Carter</persName>
-                            on February 22.</note>
+                            >Carter</persName><note n="1" xml:id="d7fn1" type="source">Source:
+                            Carter Library, Office of the Staff Secretary, Handwriting File,
+                            Presidential File, Box 9, 2/24/77. No classification marking. Under an
+                            undated covering memorandum, which <persName corresp="#p_ADL_1"
+                                >Aaron</persName> initialed, <persName corresp="#p_BZ_1"
+                                >Brzezinski</persName> sent the President a copy of <persName
+                                corresp="#p_VCR_1">Vance</persName>’s memorandum. (Ibid.) The
+                            President wrote: “<gloss target="#t_Cc_1">cc</gloss>: <persName
+                                corresp="#p_CR_1">Rosalynn</persName>” in the top right-hand corner
+                            of <persName corresp="#p_BZ_1">Brzezinski</persName>’s memorandum.
+                            Attached to these memoranda are a February 24 note from <persName
+                                corresp="#p_HRG_1">Hutcheson</persName> to <persName
+                                corresp="#p_BZ_1">Brzezinski</persName> indicating that the copies
+                            of both memoranda were forwarded to <persName corresp="#p_BZ_1"
+                                >Brzezinski</persName> for his information and a handwritten note by
+                                <persName corresp="#p_IKF_1">Inderfurth</persName>: “<gloss
+                                target="#t_Cc_1">cc</gloss> Brz also <gloss target="#t_RSC_1"
+                                >RSC</gloss>—if we haven’t already sent her one—I believe we have.”
+                            (Ibid.) Copies of both <persName corresp="#p_BZ_1"
+                            >Brzezinski</persName>’s and <persName corresp="#p_VCR_1"
+                                >Vance</persName>’s memoranda are also in the Carter Library, White
+                            House Central Files, Subject File, Foreign Affairs, Information-Exchange
+                            Activities, Executive, Box FO–35, FO–5 1/20/77–9/30/77. A notation on
+                            the copy of <persName corresp="#p_BZ_1">Brzezinski</persName>’s
+                            memorandum in this file indicates that the <persName corresp="#p_VCR_1"
+                                >Vance</persName> memorandum and the <persName corresp="#p_BZ_1"
+                                >Brzezinski</persName> covering memorandum were sent to <persName
+                                corresp="#p_CJE_1">Carter</persName> on February 22.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -6777,7 +6765,6 @@
                         unit. He has worked for <hi rend="italic">Der Spiegel</hi>, which would be
                         ideal background from which to handle West European media reaction.</p>
                 </div>
-
                 <div type="document" n="10" xml:id="d10" subtype="historical-document"
                     frus:doc-dateTime-min="1977-02-17T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-02-17T23:59:59-05:00">
@@ -6928,7 +6915,6 @@
                             citizenry.</p>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="11" xml:id="d11" subtype="historical-document"
                     frus:doc-dateTime-min="1977-02-17T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-02-17T23:59:59-05:00">
@@ -7460,7 +7446,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="14" xml:id="d14" subtype="historical-document"
                     frus:doc-dateTime-min="1977-03-02T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-03-02T23:59:59-05:00">
@@ -7614,8 +7599,8 @@
                         this.</p>
                     <p>We now are in the final phases of significantly strengthening our programming
                         capabilities at all the Middle Eastern posts. We are providing <gloss
-                            target="#t_WirelessFile_1">Wireless File</gloss>
-                        <note n="3" xml:id="d15fn3">Reference is to the news file transmitted from
+                            target="#t_WirelessFile_1">Wireless File</gloss><note n="3"
+                            xml:id="d15fn3">Reference is to the news file transmitted from
                             Washington to post, via shortwave wireless transmitters, which included
                             official statements of U.S. policy, in addition to news articles, and
                             press summaries prepared by the Department of State. The <gloss
@@ -7749,7 +7734,6 @@
                         intensive U.S. diplomatic efforts concomitant to 1977 peace negotiations. We
                         will welcome your comments, cautions, and guidance in this regard.</p>
                 </div>
-
                 <div type="document" n="16" xml:id="d16" subtype="historical-document"
                     frus:doc-dateTime-min="1977-03-04T21:16:00-05:00"
                     frus:doc-dateTime-max="1977-03-04T21:16:00-05:00">
@@ -7859,8 +7843,8 @@
                     <p>I submit that the advocacy of human rights is part of <hi rend="italic"
                             >our</hi> ideology. When President <persName corresp="#p_CJE_1"
                             >Carter</persName> or <gloss target="#t_VOA_1">VOA</gloss> support the
-                        activities of Mr. <persName corresp="#p_SAD_1">Sakharov</persName>
-                        <note n="2" xml:id="d17fn2">Reference is to Soviet physicist and dissident
+                        activities of Mr. <persName corresp="#p_SAD_1">Sakharov</persName><note
+                            n="2" xml:id="d17fn2">Reference is to Soviet physicist and dissident
                                 <persName corresp="#p_SAD_1">Andrei Sakharov</persName>, who, in
                             early 1977, engaged in an exchange of letters with <persName
                                 corresp="#p_CJE_1">Carter</persName>. For additional information,
@@ -7900,7 +7884,6 @@
                         and practical steps toward improving our bi-lateral relationship just as
                         they do not link “peaceful co-existence” and ideological conflict.</p>
                 </div>
-
                 <div type="document" n="18" xml:id="d18" subtype="historical-document"
                     frus:doc-dateTime-min="1977-03-10T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-03-10T23:59:59-05:00">
@@ -8185,21 +8168,20 @@
                     frus:doc-dateTime-max="1977-03-14T23:59:59-05:00">
                     <head>19. Memorandum From the Chief of Staff (<persName corresp="#p_JH_1"
                             >Jordan</persName>) to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d19fn1" type="source">Source: Carter Library, National
-                            Security Affairs, <persName corresp="#p_BZ_1">Brzezinski</persName>
-                            Material, Subject File, Box 9, Board for International Broadcasting
-                            (RFE, <gloss target="#t_RL_1">RL</gloss>, <gloss target="#t_VOA_1"
-                                >VOA</gloss>): 2–12/77. No classification marking. A stamped
-                            notation indicates that the President saw it. In the top right-hand
-                            corner of the memorandum, <persName corresp="#p_CJE_1">Carter</persName>
-                            wrote: “<gloss target="#t_Cc_1">cc</gloss>: Ham Zbig. What are key
-                            elements of the <persName corresp="#p_SF_1">Stanton</persName> report?
-                            J.” An attached March 15 note from Hutchenson indicates that the copy
-                            was returned in the President’s outbox and forwarded to <persName
-                                corresp="#p_BZ_1">Brzezinski</persName> and <persName
-                                corresp="#p_JH_1">Jordan</persName> “for appropriate handling.”
-                            (Ibid.)</note>
+                            >Carter</persName><note n="1" xml:id="d19fn1" type="source">Source:
+                            Carter Library, National Security Affairs, <persName corresp="#p_BZ_1"
+                                >Brzezinski</persName> Material, Subject File, Box 9, Board for
+                            International Broadcasting (RFE, <gloss target="#t_RL_1">RL</gloss>,
+                                <gloss target="#t_VOA_1">VOA</gloss>): 2–12/77. No classification
+                            marking. A stamped notation indicates that the President saw it. In the
+                            top right-hand corner of the memorandum, <persName corresp="#p_CJE_1"
+                                >Carter</persName> wrote: “<gloss target="#t_Cc_1">cc</gloss>: Ham
+                            Zbig. What are key elements of the <persName corresp="#p_SF_1"
+                                >Stanton</persName> report? J.” An attached March 15 note from
+                            Hutchenson indicates that the copy was returned in the President’s
+                            outbox and forwarded to <persName corresp="#p_BZ_1"
+                                >Brzezinski</persName> and <persName corresp="#p_JH_1"
+                                >Jordan</persName> “for appropriate handling.” (Ibid.)</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -8501,21 +8483,20 @@
                             >NSC</gloss> vantage point and assert ourselves on key issues.</p>
                     <p>[Omitted here is material unrelated to public diplomacy.]</p>
                 </div>
-
                 <div type="document" n="22" xml:id="d22" subtype="historical-document"
                     frus:doc-dateTime-min="1977-03-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-03-18T23:59:59-05:00">
                     <head>22. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d22fn1" type="source">Source: Carter Library, National
-                            Security Affairs, <persName corresp="#p_BZ_1">Brzezinski</persName>
-                            Material, Subject File, Box 9, Board for International Broadcasting
-                            (RFE, <gloss target="#t_RL_1">RL</gloss>, <gloss target="#t_VOA_1"
-                                >VOA</gloss>): 2–12/77. Confidential; Outside System. Sent for
-                            information. A stamped notation indicates the President saw it. Another
-                            copy is in the Carter Library, National Security Affairs, Staff
-                            Material, Office, Outside the System File, Box 47, Chron: 3/77.</note>
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d22fn1" type="source">Source: Carter Library, National Security
+                            Affairs, <persName corresp="#p_BZ_1">Brzezinski</persName> Material,
+                            Subject File, Box 9, Board for International Broadcasting (RFE, <gloss
+                                target="#t_RL_1">RL</gloss>, <gloss target="#t_VOA_1">VOA</gloss>):
+                            2–12/77. Confidential; Outside System. Sent for information. A stamped
+                            notation indicates the President saw it. Another copy is in the Carter
+                            Library, National Security Affairs, Staff Material, Office, Outside the
+                            System File, Box 47, Chron: 3/77.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -8575,7 +8556,6 @@
                         and his ideas would make it very difficult for us to get real improvements
                         in U.S. broadcasting and other information efforts.</p>
                 </div>
-
                 <div type="document" n="23" xml:id="d23" subtype="historical-document"
                     frus:doc-dateTime-min="1977-03-18T21:25:00-05:00"
                     frus:doc-dateTime-max="1977-03-18T21:25:00-05:00">
@@ -8983,7 +8963,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="27" xml:id="d27" subtype="historical-document"
                     frus:doc-dateTime-min="1977-03-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-03-25T23:59:59-05:00">
@@ -10206,19 +10185,18 @@
                         Said no one he talked to in Congress raised it with him as an issue.</p>
                     <p>Meanwhile, <hi rend="italic">State/<gloss target="#t_INR_1">INR</gloss> has
                             done very interesting short paper on Communist attacks on western
-                            radios</hi>
-                        <note n="5" xml:id="d32fn5">Not found and not further identified.</note> and
-                        finds that all the major ones—<gloss target="#t_VOA_1">VOA</gloss>, <gloss
-                            target="#t_BBC_1">BBC</gloss>, Deutsche Welle as well as <gloss
-                            target="#t_RFERL_1">RFE/RL</gloss>—have been under stepped-up attack for
-                        several weeks. Attacks began when they realized President <persName
-                            corresp="#p_CJE_1">Carter</persName> was going to push human rights and
-                        long before program for expansion of transmitter strength of the American
-                        radios was announced.<note n="6" xml:id="d32fn6">See <ref target="#d14fn3"
-                                >footnote 3, Document 14</ref>.</note> In early February, e.g.,
-                            <gloss target="#t_TASS_1">TASS</gloss> lambasted <gloss
-                            target="#t_VOA_1">VOA</gloss> as “one of the most powerful mouthpieces
-                        of American imperialism.” Attacks on <gloss target="#t_RFERL_1"
+                            radios</hi><note n="5" xml:id="d32fn5">Not found and not further
+                            identified.</note> and finds that all the major ones—<gloss
+                            target="#t_VOA_1">VOA</gloss>, <gloss target="#t_BBC_1">BBC</gloss>,
+                        Deutsche Welle as well as <gloss target="#t_RFERL_1">RFE/RL</gloss>—have
+                        been under stepped-up attack for several weeks. Attacks began when they
+                        realized President <persName corresp="#p_CJE_1">Carter</persName> was going
+                        to push human rights and long before program for expansion of transmitter
+                        strength of the American radios was announced.<note n="6" xml:id="d32fn6"
+                            >See <ref target="#d14fn3">footnote 3, Document 14</ref>.</note> In
+                        early February, e.g., <gloss target="#t_TASS_1">TASS</gloss> lambasted
+                            <gloss target="#t_VOA_1">VOA</gloss> as “one of the most powerful
+                        mouthpieces of American imperialism.” Attacks on <gloss target="#t_RFERL_1"
                             >RFE/RL</gloss> intensified in mid-February and seem to have been
                         initially centered on these radios’ support of dissenters.<note n="7"
                             xml:id="d32fn7">See <ref target="#d8">Document 8</ref>.</note> Moscow
@@ -10325,7 +10303,6 @@
                     <p>Since time is of the essence, I look forward to your early response to this
                         proposal.</p>
                 </div>
-
                 <div type="document" n="34" xml:id="d34" subtype="historical-document"
                     frus:doc-dateTime-min="1977-04-14T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-04-14T23:59:59-05:00">
@@ -10354,9 +10331,8 @@
                         <head>SUBJECT</head>
                         <item>Letter of March 31, 1977, from <persName corresp="#p_MLH_1">Leonard
                                 Marks</persName> to Dr. <persName corresp="#p_BZ_1"
-                                >Brzezinski</persName>
-                            <note n="2" xml:id="d34fn2">See <ref target="#d31">Document
-                                31</ref>.</note>
+                                >Brzezinski</persName><note n="2" xml:id="d34fn2">See <ref
+                                    target="#d31">Document 31</ref>.</note>
                         </item>
                     </list>
                     <p>We have read with interest <persName corresp="#p_MLH_1">Leonard
@@ -10604,9 +10580,9 @@
                             the local television stations. When <persName corresp="#p_CJE_1">Jimmy
                                 Carter</persName> became President, the leadership in many countries
                             already was familiar with his philosophy of government through his
-                            interview with <persName corresp="#p_MB_2">Bill Moyers</persName>
-                            <note n="11" xml:id="d35fn11">According to the December 26, 1976, issue
-                                of <hi rend="italic">Chicago Tribune</hi>, <persName
+                            interview with <persName corresp="#p_MB_2">Bill Moyers</persName><note
+                                n="11" xml:id="d35fn11">According to the December 26, 1976, issue of
+                                    <hi rend="italic">Chicago Tribune</hi>, <persName
                                     corresp="#p_MB_2">Moyers</persName> planned to interview
                                     <persName corresp="#p_CJE_1">Carter</persName> for an hour-long
                                     <hi rend="italic">
@@ -10651,7 +10627,6 @@
                             you to discuss how we might do this.</p>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="36" xml:id="d36" subtype="historical-document"
                     frus:doc-dateTime-min="1977-04-16T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-04-16T23:59:59-05:00">
@@ -10828,18 +10803,17 @@
                         audiences, this not insignificant body of work will be forever denied to
                         Americans.</p>
                 </div>
-
                 <div type="document" n="38" xml:id="d38" subtype="historical-document"
                     frus:doc-dateTime-min="1977-04-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-04-18T23:59:59-05:00">
                     <head>38. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d38fn1" type="source">Source: Carter Library, National
-                            Security Affairs, Staff Material, Office, Outside the System File, Box
-                            47, Chron: 4/77. No classification marking. A stamped notation on the
-                            memorandum indicates that <persName corresp="#p_CJE_1">Carter</persName>
-                            saw it. <persName corresp="#p_CJE_1">Carter</persName> wrote in the top
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d38fn1" type="source">Source: Carter Library, National Security
+                            Affairs, Staff Material, Office, Outside the System File, Box 47, Chron:
+                            4/77. No classification marking. A stamped notation on the memorandum
+                            indicates that <persName corresp="#p_CJE_1">Carter</persName> saw it.
+                                <persName corresp="#p_CJE_1">Carter</persName> wrote in the top
                             right hand corner: Zbig Good idea to explore. J.” Hutchenson sent a copy
                             of the memorandum to <persName corresp="#p_MEF_1">Mondale</persName>,
                                 <persName corresp="#p_BZ_1">Brzezinski</persName>, <persName
@@ -10910,7 +10884,6 @@
                     <p>The two together would pack potentially a powerful wallop and could have an
                         important effect not only domestically but also abroad.</p>
                 </div>
-
                 <div type="document" n="39" xml:id="d39" subtype="historical-document"
                     frus:doc-dateTime-min="1977-04-19T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-04-19T23:59:59-05:00">
@@ -11085,14 +11058,13 @@
                     <p>1. <hi rend="italic">Press Conference, <gloss target="#t_USA_1">USA</gloss>
                         </hi>. This program has been operated effectively by <gloss
                             target="#t_VOA_1">VOA</gloss> for years, and permits a <hi rend="italic"
-                            >Meet The Press</hi>
-                        <note n="4" xml:id="d39fn4">Reference is to the <gloss target="#t_NBC_1"
-                                >NBC</gloss> News political affairs program.</note> format to be
-                        adapted to foreign policy needs by inviting guests and panelists who have
-                        our overseas audiences primarily in mind. We have worked out an <pb n="105"
-                            facs="0154" xml:id="pg_105"/>arrangement with <gloss target="#t_VOA_1"
-                            >VOA</gloss> to conduct <hi rend="italic">Press Conference, <gloss
-                                target="#t_USA_1">USA</gloss>
+                            >Meet The Press</hi><note n="4" xml:id="d39fn4">Reference is to the
+                                <gloss target="#t_NBC_1">NBC</gloss> News political affairs
+                            program.</note> format to be adapted to foreign policy needs by inviting
+                        guests and panelists who have our overseas audiences primarily in mind. We
+                        have worked out an <pb n="105" facs="0154" xml:id="pg_105"/>arrangement with
+                            <gloss target="#t_VOA_1">VOA</gloss> to conduct <hi rend="italic">Press
+                            Conference, <gloss target="#t_USA_1">USA</gloss>
                         </hi> in our television studios up to 15 times each year. This arrangement
                         provides a vehicle for major governmental policy spokesmen to reach overseas
                         audiences by radio and television, both broadcast and closed circuit, in a
@@ -11538,8 +11510,8 @@
                     <p>Sincerely,</p>
                     <closer>
                         <signed corresp="#p_NJSJ_1">
-                            <persName corresp="#p_NJSJ_1">Joseph S. Nye</persName>
-                            <note n="5" xml:id="d40fn5">
+                            <persName corresp="#p_NJSJ_1">Joseph S. Nye</persName><note n="5"
+                                xml:id="d40fn5">
                                 <persName corresp="#p_NJSJ_1">Nye</persName> signed “<persName
                                     corresp="#p_NJSJ_1">Joe Nye</persName>” above this typed
                                 signature.</note>
@@ -11553,17 +11525,16 @@
                     <head>41. Memorandum From the Chair of the United States Advisory Commission on
                         International Educational and Cultural Affairs (<persName corresp="#p_MLH_1"
                             >Marks</persName>) to Secretary of State <persName corresp="#p_VCR_1"
-                            >Vance</persName>
-                        <note n="1" xml:id="d41fn1" type="source">Source: Carter Library, White
-                            House Central Files, Subject File, Foreign Affairs, Information-Exchange
-                            Activities, Executive, Box FO–35, FO–5 1/20/77–9/30/77. No
-                            classification marking. Copies were sent to the President, <persName
-                                corresp="#p_DJD_1">Duffey</persName>, the U.S. Embassy in Ottawa,
-                            the Canadian Embassy in Washington, <persName corresp="#p_SJJ_2"
-                                >Sparkman</persName>, and <persName corresp="#p_ZCJ_1"
-                                >Zablocki</persName>. <persName corresp="#p_MLH_1">Marks</persName>
-                            sent a copy of the memorandum printed here to the President under an
-                            April 26 covering memorandum. (Ibid.)</note>
+                            >Vance</persName><note n="1" xml:id="d41fn1" type="source">Source:
+                            Carter Library, White House Central Files, Subject File, Foreign
+                            Affairs, Information-Exchange Activities, Executive, Box FO–35, FO–5
+                            1/20/77–9/30/77. No classification marking. Copies were sent to the
+                            President, <persName corresp="#p_DJD_1">Duffey</persName>, the U.S.
+                            Embassy in Ottawa, the Canadian Embassy in Washington, <persName
+                                corresp="#p_SJJ_2">Sparkman</persName>, and <persName
+                                corresp="#p_ZCJ_1">Zablocki</persName>. <persName corresp="#p_MLH_1"
+                                >Marks</persName> sent a copy of the memorandum printed here to the
+                            President under an April 26 covering memorandum. (Ibid.)</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -11697,8 +11668,8 @@
                     <p>Respectfully yours,</p>
                     <closer>
                         <signed corresp="#p_MLH_1">
-                            <persName corresp="#p_MLH_1">Leonard H. Marks</persName>
-                            <note n="5" xml:id="d41fn5">Printed from a copy that bears this typed
+                            <persName corresp="#p_MLH_1">Leonard H. Marks</persName><note n="5"
+                                xml:id="d41fn5">Printed from a copy that bears this typed
                                 signature.</note>
                         </signed>
                     </closer>
@@ -11851,7 +11822,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="44" xml:id="d44" subtype="historical-document"
                     frus:doc-dateTime-min="1977-05-02T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-05-02T23:59:59-05:00">
@@ -12076,7 +12046,6 @@
                         whole should have on its communications for the 1980s—which are only two and
                         a half years away.</p>
                 </div>
-
                 <div type="document" n="45" xml:id="d45" subtype="historical-document"
                     frus:doc-dateTime-min="1977-05-04T15:22:00-05:00"
                     frus:doc-dateTime-max="1977-05-04T15:22:00-05:00">
@@ -12172,7 +12141,6 @@
                         <signed>Hayne</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="46" xml:id="d46" subtype="historical-document"
                     frus:doc-dateTime-min="1977-05-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-05-01T23:59:59-05:00">
@@ -12480,14 +12448,13 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="48" xml:id="d48" subtype="historical-document"
                     frus:doc-dateTime-min="1977-05-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-05-04T23:59:59-05:00">
                     <head>48. Memorandum From the Director of the United States Information Agency
                             (<persName corresp="#p_RJE_1">Reinhardt</persName>) to Secretary of
-                        State <persName corresp="#p_VCR_1">Vance</persName>
-                        <note n="1" xml:id="d48fn1" type="source">Source: National Archives, <gloss
+                        State <persName corresp="#p_VCR_1">Vance</persName><note n="1"
+                            xml:id="d48fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File,
                             P770087–1535. No classification marking. There is no indication that
                                 <persName corresp="#p_VCR_1">Vance</persName> saw the
@@ -12543,7 +12510,6 @@
                         <p rend="center">
                             <hi rend="italic">Approval of U.S. Statements on Human Rights</hi>
                         </p>
-
                         <table cols="5">
                             <row>
                                 <cell>Britain</cell>
@@ -12560,7 +12526,6 @@
                                 <cell>55%</cell>
                             </row>
                         </table>
-
                         <p>Only in Britain did an appreciable proportion (30%) disapprove.</p>
                         <p>Similar large majorities of the more informed in the Western
                             democracies—ranging from 61% in Canada to 78% in Germany—thought
@@ -12937,8 +12902,8 @@
                         helped or has actually encouraged the people pushing the <persName
                             corresp="#p_PC_1">Pell</persName> (&amp; <persName corresp="#p_MGS_1"
                             >McGovern</persName>) amendment. The <persName corresp="#p_PC_1"
-                            >Pell</persName>/<persName corresp="#p_MGS_1">McGovern</persName>
-                        <note n="2" xml:id="d51fn2">
+                            >Pell</persName>/<persName corresp="#p_MGS_1">McGovern</persName><note
+                            n="2" xml:id="d51fn2">
                             <persName corresp="#p_BZ_1">Brzezinski</persName> underlined “<persName
                                 corresp="#p_PC_1">Pell</persName>/<persName corresp="#p_MGS_1"
                                 >McGovern</persName>.”</note> initiative abolishes the <gloss
@@ -13058,7 +13023,6 @@
                     </p>
                     <p>[Omitted here is material unrelated to public diplomacy.]</p>
                 </div>
-
                 <div type="document" n="52" xml:id="d52" subtype="historical-document"
                     frus:doc-dateTime-min="1977-05-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-05-18T23:59:59-05:00">
@@ -13134,7 +13098,6 @@
                         cooperation with <gloss target="#t_USIA_1">USIA</gloss> and their role in
                         not intruding on the policy process.</p>
                 </div>
-
                 <div type="document" n="53" xml:id="d53" subtype="historical-document"
                     frus:doc-dateTime-min="1977-05-19T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-05-19T23:59:59-05:00">
@@ -13254,12 +13217,12 @@
                     <p>6. Mrs. <persName corresp="#p_CR_1">Carter</persName>’s instincts are
                         accurate in avoiding the “lady bountiful” image by down playing emphasis on
                         children’s hospitals and other “women’s things”. The attempt to allow Mrs.
-                            <persName corresp="#p_VCR_1">Vance</persName>
-                        <note n="3" xml:id="d53fn3">Reference is to Grace Vance, who accompanied the
-                            First Lady on her trip. </note> to show the flag in this fashion, so as
-                        not to offend the hosts, is a wise decision, we believe, though too much
-                        should not be expected of it since Mrs. <persName corresp="#p_VCR_1"
-                            >Vance</persName> is not the star attraction.</p>
+                            <persName corresp="#p_VCR_1">Vance</persName><note n="3" xml:id="d53fn3"
+                            >Reference is to Grace Vance, who accompanied the First Lady on her
+                            trip. </note> to show the flag in this fashion, so as not to offend the
+                        hosts, is a wise decision, we believe, though too much should not be
+                        expected of it since Mrs. <persName corresp="#p_VCR_1">Vance</persName> is
+                        not the star attraction.</p>
                     <p>7. We should not be deceived that there will be any reticence on the part of
                         reporters, either foreign or domestic, to try to nail Mrs. <persName
                             corresp="#p_CR_1">Carter</persName> on just what sort of “substantive”
@@ -13279,7 +13242,6 @@
                         being visited, <gloss target="#t_USIA_1">USIA</gloss> needs to be given an
                         opportunity to provide it.</p>
                 </div>
-
                 <div type="document" n="54" xml:id="d54" subtype="historical-document"
                     frus:doc-dateTime-min="1977-05-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-05-23T23:59:59-05:00">
@@ -13343,11 +13305,10 @@
                     frus:doc-dateTime-max="1977-05-23T23:59:59-05:00">
                     <head>55. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d55fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 37, State Department Evening Reports, 5/77.
-                            Secret. There is no indication that the President saw the
-                            memorandum.</note>
+                            >Carter</persName><note n="1" xml:id="d55fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 37, State Department
+                            Evening Reports, 5/77. Secret. There is no indication that the President
+                            saw the memorandum.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -13495,7 +13456,6 @@
                             and wrote: “I know him <hi rend="italic">well</hi>.”</note> Sounds
                         good.</p>
                 </div>
-
                 <div type="document" n="57" xml:id="d57" subtype="historical-document"
                     frus:doc-dateTime-min="1977-05-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-05-28T23:59:59-05:00">
@@ -13743,14 +13703,13 @@
                         />effort to communicate to others, at home and abroad, a sense of what <hi
                             rend="italic">could</hi> be, if enough care to make it so.</p>
                 </div>
-
                 <div type="document" n="58" xml:id="d58" subtype="historical-document"
                     frus:doc-dateTime-min="1977-06-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-06-01T23:59:59-05:00">
                     <head>58. Action Memorandum From the Assistant Secretary of State for
                         Congressional Relations (<persName corresp="#p_BDJJ_1">Bennet</persName>) to
-                        Secretary of State <persName corresp="#p_VCR_1">Vance</persName>
-                        <note n="1" xml:id="d58fn1" type="source">Source: National Archives, <gloss
+                        Secretary of State <persName corresp="#p_VCR_1">Vance</persName><note n="1"
+                            xml:id="d58fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File,
                             P770102–1421. Confidential. Sent through <persName corresp="#p_CWM_1"
                                 >Christopher</persName> and <persName corresp="#p_MRM_1"
@@ -13880,7 +13839,6 @@
                                 <ref target="#d72">Document 72</ref>.</note>
                     </p>
                 </div>
-
                 <div type="document" n="59" xml:id="d59" subtype="historical-document"
                     frus:doc-dateTime-min="1977-06-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-06-01T23:59:59-05:00">
@@ -13938,7 +13896,6 @@
                             found.</note>
                     </p>
                 </div>
-
                 <div type="document" n="60" xml:id="d60" subtype="historical-document"
                     frus:doc-dateTime-min="1977-06-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-06-07T23:59:59-05:00">
@@ -14246,7 +14203,6 @@
                             disapprove the recommendation.</note>
                     </p>
                 </div>
-
                 <div type="document" n="62" xml:id="d62" subtype="historical-document"
                     frus:doc-dateTime-min="1977-06-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-06-09T23:59:59-05:00">
@@ -14735,23 +14691,22 @@
                         people of the world. It is a vital instrument in the conduct of American
                         foreign policy.</p>
                 </div>
-
                 <div type="document" n="64" xml:id="d64" subtype="historical-document"
                     frus:doc-dateTime-min="1977-06-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-06-13T23:59:59-05:00">
                     <head>64. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d64fn1" type="source">Source: Carter Library, National
-                            Security Affairs, <persName corresp="#p_BZ_1">Brzezinski</persName>
-                            Material, Agency File, Box 17, State: 6/77. No classification marking.
-                            An attached <gloss target="#t_NSC_1">NSC</gloss> Correspondence Profile
-                            indicates that <persName corresp="#p_BZ_1">Brzezinski</persName>
-                            received the memorandum on June 20 and that the memorandum was forwarded
-                            to the President for his decision on June 21. (Ibid.) For <persName
-                                corresp="#p_BZ_1">Brzezinski</persName>’s June 21 memorandum
-                            transmitting <persName corresp="#p_VCR_1">Vance</persName>’s memorandum,
-                            see <ref target="#d71">Document 71</ref>. <persName corresp="#p_BZ_1"
+                            >Carter</persName><note n="1" xml:id="d64fn1" type="source">Source:
+                            Carter Library, National Security Affairs, <persName corresp="#p_BZ_1"
+                                >Brzezinski</persName> Material, Agency File, Box 17, State: 6/77.
+                            No classification marking. An attached <gloss target="#t_NSC_1"
+                                >NSC</gloss> Correspondence Profile indicates that <persName
+                                corresp="#p_BZ_1">Brzezinski</persName> received the memorandum on
+                            June 20 and that the memorandum was forwarded to the President for his
+                            decision on June 21. (Ibid.) For <persName corresp="#p_BZ_1"
+                                >Brzezinski</persName>’s June 21 memorandum transmitting <persName
+                                corresp="#p_VCR_1">Vance</persName>’s memorandum, see <ref
+                                target="#d71">Document 71</ref>. <persName corresp="#p_BZ_1"
                                 >Brzezinski</persName> returned a copy of the June 13 memorandum to
                                 <persName corresp="#p_VCR_1">Vance</persName> under a June 21
                             memorandum, commenting: “Please note the President’s comment on page 4.”
@@ -15006,7 +14961,6 @@
                                 >Inderfurth</persName>’s initials.</note>
                     </p>
                 </div>
-
                 <div type="document" n="66" xml:id="d66" subtype="historical-document"
                     frus:doc-dateTime-min="1977-06-16T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-06-16T23:59:59-05:00">
@@ -15030,9 +14984,9 @@
                     <opener>
                         <salute>Zbig,</salute>
                     </opener>
-                    <p>This memo from <persName corresp="#p_VCR_1">Vance</persName>
-                        <note n="2" xml:id="d66fn2">See <ref target="#d64">Document 64</ref>.</note>
-                        gives me real heartburn. It misses the entire point of the problem of <gloss
+                    <p>This memo from <persName corresp="#p_VCR_1">Vance</persName><note n="2"
+                            xml:id="d66fn2">See <ref target="#d64">Document 64</ref>.</note> gives
+                        me real heartburn. It misses the entire point of the problem of <gloss
                             target="#t_USIA_1">USIA</gloss>, which is that its information programs
                         are totally out of date, obsolete and overstaffed.</p>
                     <p>On the cultural side, I disagree with <persName corresp="#p_HPB_1">Paul
@@ -15065,13 +15019,12 @@
                         we are just going to recreate the old monster.</p>
                     <closer>
                         <signed corresp="#p_ADL_1">
-                            <persName corresp="#p_ADL_1">David Aaron</persName>
-                            <note n="4" xml:id="d66fn4">Printed from a copy that bears this typed
+                            <persName corresp="#p_ADL_1">David Aaron</persName><note n="4"
+                                xml:id="d66fn4">Printed from a copy that bears this typed
                                 signature.</note>
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="67" xml:id="d67" subtype="historical-document"
                     frus:doc-dateTime-min="1977-06-16T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-06-16T23:59:59-05:00">
@@ -16557,11 +16510,11 @@
                             >CU</gloss> with it, etc.<note n="3" xml:id="d69fn3">See <ref
                                 target="#d64">Document 64</ref>.</note> Have worked out procedures
                         this morning for consolidating various inputs, including excellent memo from
-                            <persName corresp="#p_JB_1">Barry Jagoda</persName>
-                        <note n="4" xml:id="d69fn4">Reference is to a June 16 memorandum from
-                                <persName corresp="#p_JB_1">Jagoda</persName> to the President, sent
-                            through <persName corresp="#p_BZ_1">Brzezinski</persName>. (Carter
-                            Library, National Security Affairs, <persName corresp="#p_BZ_1"
+                            <persName corresp="#p_JB_1">Barry Jagoda</persName><note n="4"
+                            xml:id="d69fn4">Reference is to a June 16 memorandum from <persName
+                                corresp="#p_JB_1">Jagoda</persName> to the President, sent through
+                                <persName corresp="#p_BZ_1">Brzezinski</persName>. (Carter Library,
+                            National Security Affairs, <persName corresp="#p_BZ_1"
                                 >Brzezinski</persName> Material, Agency File, Box 17, State,
                             6/77)</note> and <persName corresp="#p_LTB_1">Lance</persName> position
                         (which we have not yet received), which Greg Treverton will do.<note n="5"
@@ -16585,7 +16538,6 @@
                         activities if they know their mission is regarded as important by the White
                         House.</p>
                 </div>
-
                 <div type="document" n="70" xml:id="d70" subtype="historical-document"
                     frus:doc-dateTime-min="1977-06-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-06-18T23:59:59-05:00">
@@ -16668,9 +16620,8 @@
                         consolidated agency. <persName corresp="#p_VCR_1">Vance</persName> argues
                         for an <gloss target="#t_AID_1">AID</gloss> relationship to State; <persName
                             corresp="#p_HPB_1">Henze</persName> and <persName corresp="#p_JB_1"
-                            >Jagoda</persName>
-                        <note n="6" xml:id="d70fn6">In his June 16 memorandum (see <ref
-                                target="#d69fn4">footnote 4, Document 69</ref>), <persName
+                            >Jagoda</persName><note n="6" xml:id="d70fn6">In his June 16 memorandum
+                            (see <ref target="#d69fn4">footnote 4, Document 69</ref>), <persName
                                 corresp="#p_JB_1">Jagoda</persName> wrote: “I urge that the <gloss
                                 target="#t_USIA_1">USIA</gloss> structure be left independent
                             (subject to informal State Department policy guidance) rather than be
@@ -16726,10 +16677,10 @@
                     frus:doc-dateTime-max="1977-06-21T23:59:59-05:00">
                     <head>71. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d71fn1" type="source">Source: Carter Library, National
-                            Security Affairs, <persName corresp="#p_BZ_1">Brzezinski</persName>
-                            Material, Agency File, Box 17, State: 6/77. Confidential.</note>
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d71fn1" type="source">Source: Carter Library, National Security
+                            Affairs, <persName corresp="#p_BZ_1">Brzezinski</persName> Material,
+                            Agency File, Box 17, State: 6/77. Confidential.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -17006,7 +16957,6 @@
                             6/77)</note>
                     </p>
                 </div>
-
                 <div type="document" n="73" xml:id="d73" subtype="historical-document"
                     frus:doc-dateTime-min="1977-06-27T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-06-27T23:59:59-05:00">
@@ -17608,7 +17558,6 @@
                         Commission in 1976–77; Section V: The Future of the Commission; and five
                         Appendices.]</p>
                 </div>
-
                 <div type="document" n="77" xml:id="d77" subtype="historical-document"
                     frus:doc-dateTime-min="1977-07-06T16:02:00-05:00"
                     frus:doc-dateTime-max="1977-07-06T16:02:00-05:00">
@@ -17863,8 +17812,8 @@
                     frus:doc-dateTime-max="1977-07-22T23:59:59-05:00">
                     <head>80. Memorandum From the Director of the United States Information Agency
                             (<persName corresp="#p_RJE_1">Reinhardt</persName>) to Secretary of
-                        State <persName corresp="#p_VCR_1">Vance</persName>
-                        <note n="1" xml:id="d80fn1" type="source">Source: National Archives, <gloss
+                        State <persName corresp="#p_VCR_1">Vance</persName><note n="1"
+                            xml:id="d80fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 306, Office of the Director, Executive
                             Secretariat, Secretariat Staff, Correspondence Files, 1973–1980, Entry
                             P–104, Box 131, 7702930–7702939. Confidential. Drafted by <persName
@@ -18065,7 +18014,6 @@
                         speech. Reports of early reactions have already been sent to your
                         office.</p>
                 </div>
-
                 <div type="document" n="83" xml:id="d83" subtype="historical-document"
                     frus:doc-dateTime-min="1977-08-01T03:30:00-05:00"
                     frus:doc-dateTime-max="1977-08-01T03:30:00-05:00">
@@ -18270,11 +18218,10 @@
                     </p>
                     <p>11. The mandate governing <gloss target="#t_USIA_1">USIA</gloss> operations
                         which was issued by President <persName corresp="#p_KJF_1"
-                            >Kennedy</persName>
-                        <note n="10" xml:id="d84fn10">Reference is presumably to a January 25, 1963,
-                            memorandum from <persName corresp="#p_KJF_1">Kennedy</persName> to
-                                <persName corresp="#p_MER_1">Murrow</persName>, printed in <ref
-                                target="frus1961-63v25#d144">
+                            >Kennedy</persName><note n="10" xml:id="d84fn10">Reference is presumably
+                            to a January 25, 1963, memorandum from <persName corresp="#p_KJF_1"
+                                >Kennedy</persName> to <persName corresp="#p_MER_1"
+                                >Murrow</persName>, printed in <ref target="frus1961-63v25#d144">
                                 <hi rend="italic">Foreign Relations,</hi> 1961–1963, vol. XXV,
                                 Organization of Foreign Policy; Information Policy; United Nations;
                                 Scientific Matters, Document 144</ref>. In it, the President stated:
@@ -18312,21 +18259,21 @@
                     frus:doc-dateTime-max="1977-08-26T23:59:59-05:00">
                     <head>85. Memorandum From the Director of the Office of Management and Budget
                             (<persName corresp="#p_LTB_1">Lance</persName>) to President <persName
-                            corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d85fn1" type="source">Source: Carter Library, White
-                            House Central Files, Subject File, Foreign Affairs, Information-Exchange
-                            Activities, Box FO–35, FO–5 1/20/77–9/30/77. No classification marking.
-                                <persName corresp="#p_LTB_1">Lance</persName> sent the memorandum to
-                            the President under an August 26 covering memorandum. (Ibid.) In his
-                            August 29 Evening Report to <persName corresp="#p_BZ_1"
-                                >Brzezinski</persName>, <persName corresp="#p_HPB_1"
-                                >Henze</persName> stated: “<gloss target="#t_USIA_1">USIA</gloss>’s
-                            reorganization plan was carried in directly to President and acted upon
-                            by him without any further <gloss target="#t_NSC_1">NSC</gloss> or other
-                            White House Staff coordination. President’s decisions were very much in
-                            line with what we expected and it is good that he acted fast. Manner in
-                            which this was handled has left a number of loose ends, however, which I
-                            have been discussing during day with David [<persName corresp="#p_ADL_1"
+                            corresp="#p_CJE_1">Carter</persName><note n="1" xml:id="d85fn1"
+                            type="source">Source: Carter Library, White House Central Files, Subject
+                            File, Foreign Affairs, Information-Exchange Activities, Box FO–35, FO–5
+                            1/20/77–9/30/77. No classification marking. <persName corresp="#p_LTB_1"
+                                >Lance</persName> sent the memorandum to the President under an
+                            August 26 covering memorandum. (Ibid.) In his August 29 Evening Report
+                            to <persName corresp="#p_BZ_1">Brzezinski</persName>, <persName
+                                corresp="#p_HPB_1">Henze</persName> stated: “<gloss
+                                target="#t_USIA_1">USIA</gloss>’s reorganization plan was carried in
+                            directly to President and acted upon by him without any further <gloss
+                                target="#t_NSC_1">NSC</gloss> or other White House Staff
+                            coordination. President’s decisions were very much in line with what we
+                            expected and it is good that he acted fast. Manner in which this was
+                            handled has left a number of loose ends, however, which I have been
+                            discussing during day with David [<persName corresp="#p_ADL_1"
                                 >Aaron</persName>], <persName corresp="#p_GRM_1">Bob
                                 Gates</persName>, and <persName corresp="#p_DC_1"
                                 >Christine</persName> [<persName corresp="#p_DC_1"
@@ -18626,8 +18573,8 @@
                     frus:doc-dateTime-min="1977-08-29T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-08-29T23:59:59-05:00">
                     <head>86. Letter From <persName corresp="#p_SF_1">Frank Stanton</persName> to
-                        Secretary of State <persName corresp="#p_VCR_1">Vance</persName>
-                        <note n="1" xml:id="d86fn1" type="source">Source: National Archives, <gloss
+                        Secretary of State <persName corresp="#p_VCR_1">Vance</persName><note n="1"
+                            xml:id="d86fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File,
                             P770154–1421. No classification marking. Under a September 12 covering
                             action memorandum, <persName corresp="#p_HWK_1">Hitchcock</persName>
@@ -19174,10 +19121,9 @@
                     frus:doc-dateTime-max="1977-09-14T23:59:59-05:00">
                     <head>89. Letter From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to <persName corresp="#p_SF_1">Frank
-                            Stanton</persName>
-                        <note n="1" xml:id="d89fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File,
-                            P770154–1420. No classification marking.</note>
+                            Stanton</persName><note n="1" xml:id="d89fn1" type="source">Source:
+                            National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central
+                            Foreign Policy File, P770154–1420. No classification marking.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -19376,7 +19322,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="92" xml:id="d92" subtype="historical-document"
                     frus:doc-dateTime-min="1977-10-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-10-05T23:59:59-05:00">
@@ -19569,8 +19514,8 @@
                     <p>b. The Constitutional commemoration will not lend itself to the mass hoopla
                         of the Revolution Bicentennial but rather to the selective and focussed
                         programming with which the Agency is doctrinally most comfortable.</p>
-                    <p>c. Establishing a successor to <gloss target="#t_ARBA_1">ARBA</gloss>
-                        <note n="8" xml:id="d92fn8">On January 26, 1983, <persName corresp="#p_HO_1"
+                    <p>c. Establishing a successor to <gloss target="#t_ARBA_1">ARBA</gloss><note
+                            n="8" xml:id="d92fn8">On January 26, 1983, <persName corresp="#p_HO_1"
                                 >Hatch</persName> introduced a bill (S. 118), co-sponsored by eight
                             senators, proposing the establishment of a Presidential Commission on
                             the Bicentennial of the United States Constitution. On September 29,
@@ -19911,7 +19856,6 @@
                     </p>
                     <p>[Omitted here is the text of Reorganization Plan No. 2 of 1977.]</p>
                 </div>
-
                 <div type="document" n="94" xml:id="d94" subtype="historical-document"
                     frus:doc-dateTime-min="1977-10-11T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-10-11T23:59:59-05:00">
@@ -20034,7 +19978,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="96" xml:id="d96" subtype="historical-document"
                     frus:doc-dateTime-min="1977-10-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-10-12T23:59:59-05:00">
@@ -20469,7 +20412,6 @@
                             <gloss target="#t_PAO_1">PAO</gloss> Conference.</p>
                     <p>I would be happy to involve myself in any way you believe useful.</p>
                 </div>
-
                 <div type="document" n="98" xml:id="d98" subtype="historical-document"
                     frus:doc-dateTime-min="1977-10-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-10-24T23:59:59-05:00">
@@ -20686,15 +20628,14 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="100" xml:id="d100" subtype="historical-document"
                     frus:doc-dateTime-min="1977-10-31T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-10-31T23:59:59-05:00">
                     <head>100. Memorandum From the Acting Director of the Office of Management and
                         Budget (<persName corresp="#p_MJT_1">McIntyre</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d100fn1" type="source">Source: Carter Library, White
-                            House Central Files, Subject File, Federal Government, Agency for
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d100fn1" type="source">Source: Carter Library, White House
+                            Central Files, Subject File, Federal Government, Agency for
                             International Communications (Reorganization Plan No. 2 of 1977,
                             10/11/77), Box FG–236, FG 999–7 1/20/77–1/20/81. No classification
                             marking. <persName corresp="#p_MJT_1">McIntyre</persName> sent the
@@ -21472,7 +21413,6 @@
                         programing of any sort is difficult. In Paraguay, that should be extended
                         back to the end of November.</p>
                 </div>
-
                 <div type="document" n="103" xml:id="d103" subtype="historical-document"
                     frus:doc-dateTime-min="1977-11-10T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-11-10T23:59:59-05:00">
@@ -21713,7 +21653,6 @@
                         opportunity to communicate with peoples whose ideas and actions are
                         important to advancing American interests.</p>
                 </div>
-
                 <div type="document" n="105" xml:id="d105" subtype="historical-document"
                     frus:doc-dateTime-min="1977-11-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-11-18T23:59:59-05:00">
@@ -21838,7 +21777,6 @@
                         priorities are incorporated into <gloss target="#t_USIA_1">USIA</gloss>
                         programs.</p>
                 </div>
-
                 <div type="document" n="106" xml:id="d106" subtype="historical-document"
                     frus:doc-dateTime-min="1977-11-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-11-23T23:59:59-05:00">
@@ -22073,7 +22011,6 @@
                             meeting.</p>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="108" xml:id="d108" subtype="historical-document"
                     frus:doc-dateTime-min="1977-11-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-11-25T23:59:59-05:00">
@@ -22182,7 +22119,6 @@
                         leap national boundaries. Evoke from Americans and foreign peoples a
                         disposition to come together to seek solutions to common concerns.</p>
                 </div>
-
                 <div type="document" n="110" xml:id="d110" subtype="historical-document"
                     frus:doc-dateTime-min="1977-11-29T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-11-29T23:59:59-05:00">
@@ -22433,7 +22369,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="112" xml:id="d112" subtype="historical-document"
                     frus:doc-dateTime-min="1977-12-02T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-12-02T23:59:59-05:00">
@@ -22498,7 +22433,6 @@
                         academic community, and to demonstrate tangibly his commitment to the value
                         of these programs.</p>
                 </div>
-
                 <div type="document" n="113" xml:id="d113" subtype="historical-document"
                     frus:doc-dateTime-min="1977-12-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-12-09T23:59:59-05:00">
@@ -22981,7 +22915,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="115" xml:id="d115" subtype="historical-document"
                     frus:doc-dateTime-min="1977-12-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-12-15T23:59:59-05:00">
@@ -23213,17 +23146,16 @@
                         Europeans are more likely to score the magazine lower than readers in the
                             <gloss target="#t_LDC_1">LDCs</gloss>. The opposite is true of <hi
                             rend="italic">Dialogue</hi>. On the other hand, the Agency regional
-                        magazines, like <hi rend="italic">al-Majal</hi>
-                        <note n="3" xml:id="d115fn3">Published monthly in Arabic for distribution in
-                            North Africa and the Middle East.</note> and <hi rend="italic"
-                            >Topic</hi>,<note n="4" xml:id="d115fn4">Published bi-monthly in French
-                            and English for distribution in sub-Saharan Africa.</note> could be
-                        regarded as competitive with similar magazines available to the readers on
-                        such criteria as being <hi rend="italic">serious</hi> or <hi rend="italic"
-                            >“thought provoking.” Economic Impact</hi> was rated highly even in West
-                        Germany and Japan for providing “sophisticated discussion of economic
-                        subjects,” although the rating on that score was somewhat better in
-                        Colombia.</p>
+                        magazines, like <hi rend="italic">al-Majal</hi><note n="3" xml:id="d115fn3"
+                            >Published monthly in Arabic for distribution in North Africa and the
+                            Middle East.</note> and <hi rend="italic">Topic</hi>,<note n="4"
+                            xml:id="d115fn4">Published bi-monthly in French and English for
+                            distribution in sub-Saharan Africa.</note> could be regarded as
+                        competitive with similar magazines available to the readers on such criteria
+                        as being <hi rend="italic">serious</hi> or <hi rend="italic">“thought
+                            provoking.” Economic Impact</hi> was rated highly even in West Germany
+                        and Japan for providing “sophisticated discussion of economic subjects,”
+                        although the rating on that score was somewhat better in Colombia.</p>
                     <p>There is also ample evidence that <gloss target="#t_VOA_1">VOA</gloss>
                         strikes a satisfactory level for most of its audience—though this may be a
                         case of circular demonstration, since unsatisfied listeners would tend to
@@ -23444,7 +23376,6 @@
                             >Fascell</persName> approved the plan after discussing it with Mr.
                             <persName corresp="#p_MLH_1">Marks</persName>.</p>
                 </div>
-
                 <div type="document" n="117" xml:id="d117" subtype="historical-document"
                     frus:doc-dateTime-min="1977-12-27T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-12-27T23:59:59-05:00">
@@ -23557,14 +23488,13 @@
                         the country, the source of much of Japan’s leadership in government and
                         politics, business and industry, and media.</p>
                 </div>
-
                 <div type="document" n="118" xml:id="d118" subtype="historical-document"
                     frus:doc-dateTime-min="1977-12-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-12-28T23:59:59-05:00">
                     <head>118. Action Memorandum From the Under Secretary of State for Management
                             (<persName corresp="#p_RBM_1">Read</persName>) to Acting Secretary of
-                        State <persName corresp="#p_CWM_1">Christopher</persName>
-                        <note n="1" xml:id="d118fn1" type="source">Source: National Archives, <gloss
+                        State <persName corresp="#p_CWM_1">Christopher</persName><note n="1"
+                            xml:id="d118fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File,
                             P780040–2606. No classification marking. Drafted by <persName
                                 corresp="#p_RBM_1">Read</persName> and <persName corresp="#p_MDN_1"
@@ -23672,9 +23602,6 @@
                     <p>2) That you assign the staffing responsibility to <gloss target="#t_MMO_1"
                             >M/MO</gloss>.</p>
                 </div>
-
-
-
                 <div type="document" n="119" xml:id="d119" subtype="historical-document"
                     frus:doc-dateTime-min="1978-01-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-01-18T23:59:59-05:00">
@@ -23756,7 +23683,6 @@
                                 “<gloss target="#t_ZB_1">ZB</gloss> signed 1–24–78.]</note>
                     </p>
                 </div>
-
                 <div type="document" n="120" xml:id="d120" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-02-06T23:59:59-05:00">
@@ -24146,7 +24072,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="122" xml:id="d122" subtype="historical-document"
                     frus:doc-dateTime-min="1978-03-16T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-03-16T23:59:59-05:00">
@@ -24347,8 +24272,8 @@
                         <head>
                             <hi rend="strong">Memorandum From the President’s Assistant for National
                                 Security Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>)
-                                to President <persName corresp="#p_CJE_1">Carter</persName>
-                                <note n="5" xml:id="d123fn5">No classification marking. Sent for
+                                to President <persName corresp="#p_CJE_1">Carter</persName><note
+                                    n="5" xml:id="d123fn5">No classification marking. Sent for
                                     action.</note>
                             </hi>
                         </head>
@@ -24705,7 +24630,6 @@
                         Section V: Other Suggestions Affecting the Commission; and two
                         Appendices.]</p>
                 </div>
-
                 <div type="document" n="125" xml:id="d125" subtype="historical-document"
                     frus:doc-dateTime-min="1978-04-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-04-03T23:59:59-05:00">
@@ -25316,7 +25240,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="127" xml:id="d127" subtype="editorial-note"
                     frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1980-12-16T23:59:59-05:00">
@@ -25382,7 +25305,6 @@
                             >Brzezinski</persName>’s signed letter to the agency heads is printed as
                             <ref target="#d128">Document 128</ref>.</p>
                 </div>
-
                 <div type="document" n="128" xml:id="d128" subtype="historical-document"
                     frus:doc-dateTime-min="1978-04-17T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-04-17T23:59:59-05:00">
@@ -25448,7 +25370,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="129" xml:id="d129" subtype="historical-document"
                     frus:doc-dateTime-min="1978-04-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-04-22T23:59:59-05:00">
@@ -25589,7 +25510,6 @@
                             program.</p>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="130" xml:id="d130" subtype="historical-document"
                     frus:doc-dateTime-min="1978-05-19T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-05-19T23:59:59-05:00">
@@ -25740,8 +25660,8 @@
                     frus:doc-dateTime-max="1978-06-05T23:59:59-05:00">
                     <head>131. Memorandum From the Director of the International Communication
                         Agency (<persName corresp="#p_RJE_1">Reinhardt</persName>) to Secretary of
-                        State <persName corresp="#p_VCR_1">Vance</persName>
-                        <note n="1" xml:id="d131fn1" type="source">Source: National Archives, <gloss
+                        State <persName corresp="#p_VCR_1">Vance</persName><note n="1"
+                            xml:id="d131fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File,
                             P780125–0505. No classification marking. <persName corresp="#p_RBM_1"
                                 >Read</persName> sent a copy of the memorandum to <persName
@@ -25865,7 +25785,6 @@
                         future of detente. Recognizing the delicacy of the matter, there may be some
                         utility in accentuating these concerns.</p>
                 </div>
-
                 <div type="document" n="133" xml:id="d133" subtype="historical-document"
                     frus:doc-dateTime-min="1978-06-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-06-06T23:59:59-05:00">
@@ -25953,14 +25872,12 @@
                             House Central Files, Subject File, Federal Government, Voice of America,
                             Executive, Box FG–218, FG 298–1 1/20/77–12/31/78)</note>
                     </p>
-
                     <table cols="2">
                         <row>
                             <cell>AGREE _______</cell>
                             <cell>DISAGREE _______</cell>
                         </row>
                     </table>
-
                     <frus:attachment>
                         <note rend="inline">
                             <hi rend="strong">Tab A</hi>
@@ -26262,7 +26179,6 @@
                         locality, will inevitably take additional time. All such arrangements,
                         however, should be effective by October 1, 1978.</p>
                 </div>
-
                 <div type="document" n="136" xml:id="d136" subtype="historical-document"
                     frus:doc-dateTime-min="1978-07-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-07-05T23:59:59-05:00">
@@ -26537,7 +26453,6 @@
                     <p>The next meeting of the committee is tentatively scheduled for the latter
                         part of the week of July 10.</p>
                 </div>
-
                 <div type="document" n="138" xml:id="d138" subtype="historical-document"
                     frus:doc-dateTime-min="1978-07-07T12:45:00-05:00"
                     frus:doc-dateTime-max="1978-07-07T12:45:00-05:00">
@@ -26697,7 +26612,6 @@
                         recognizing that Washington already considering standard activities such as
                         seminars and <gloss target="#t_VTR_1">VTRs</gloss>.</p>
                 </div>
-
                 <div type="document" n="139" xml:id="d139" subtype="historical-document"
                     frus:doc-dateTime-min="1978-07-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-07-13T23:59:59-05:00">
@@ -26786,7 +26700,6 @@
                         prestigious <gloss target="#t_VOA_1">VOA</gloss> Forum, to arms control
                         questions.)</p>
                 </div>
-
                 <div type="document" n="140" xml:id="d140" subtype="historical-document"
                     frus:doc-dateTime-min="1978-07-17T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-07-17T23:59:59-05:00">
@@ -26869,7 +26782,6 @@
                             <gloss target="#t_POC_1">POC</gloss>
                         </hi> has its relevance for this effort, too.</p>
                 </div>
-
                 <div type="document" n="141" xml:id="d141" subtype="historical-document"
                     frus:doc-dateTime-min="1978-07-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-07-18T23:59:59-05:00">
@@ -27135,7 +27047,6 @@
                         stimulate <gloss target="#t_NSC_1">NSC</gloss> consideration of problems and
                         opportunities in policy formulation and implementation?</p>
                 </div>
-
                 <div type="document" n="144" xml:id="d144" subtype="historical-document"
                     frus:doc-dateTime-min="1978-07-31T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-07-31T23:59:59-05:00">
@@ -27199,14 +27110,13 @@
                         becomes even better.</p>
                     <closer>
                         <signed corresp="#p_BZ_1">
-                            <persName corresp="#p_BZ_1">Zbigniew Brzezinski</persName>
-                            <note n="2" xml:id="d144fn2">
+                            <persName corresp="#p_BZ_1">Zbigniew Brzezinski</persName><note n="2"
+                                xml:id="d144fn2">
                                 <persName corresp="#p_BZ_1">Brzezinski</persName> wrote “Zbig” above
                                 his typed signature.</note>
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="145" xml:id="d145" subtype="historical-document"
                     frus:doc-dateTime-min="1978-07-31T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-07-31T23:59:59-05:00">
@@ -27262,7 +27172,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="146" xml:id="d146" subtype="historical-document"
                     frus:doc-dateTime-min="1978-08-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-08-01T23:59:59-05:00">
@@ -27674,7 +27583,6 @@
                             >ICA</gloss>’s marching order, but a meeting of principals may be
                         unnecessary.</p>
                 </div>
-
                 <div type="document" n="148" xml:id="d148" subtype="historical-document"
                     frus:doc-dateTime-min="1978-08-14T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-08-14T23:59:59-05:00">
@@ -28120,8 +28028,8 @@
                                 target="#t_B1_1">B–1</gloss>, and I am directing that we discontinue
                             plans for production of this weapons system.” (<hi rend="italic">Public
                                 Papers: Carter, 1977</hi>, Book I, p. 1197)</note> and delaying
-                        decisions on <gloss target="#t_ERW_1">ERW</gloss>
-                        <note n="7" xml:id="d149fn7">See <ref target="#d143fn4">footnote 4, Document
+                        decisions on <gloss target="#t_ERW_1">ERW</gloss><note n="7"
+                            xml:id="d149fn7">See <ref target="#d143fn4">footnote 4, Document
                                 143</ref>.</note> and the MX mobile missile.<note n="8"
                             xml:id="d149fn8">On June 8, 1979, White House Deputy Press Secretary Rex
                             Granum announced that Carter “had decided that we will pursue a
@@ -28695,7 +28603,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="151" xml:id="d151" subtype="historical-document"
                     frus:doc-dateTime-min="1978-09-25T19:48:00-05:00"
                     frus:doc-dateTime-max="1978-09-25T19:48:00-05:00">
@@ -28800,7 +28707,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="152" xml:id="d152" subtype="historical-document"
                     frus:doc-dateTime-min="1978-10-03T21:41:00-05:00"
                     frus:doc-dateTime-max="1978-10-03T21:41:00-05:00">
@@ -29035,8 +28941,8 @@
                             target="#t_CTB_1">CTB</gloss> efforts.</p>
                     <closer>
                         <signed corresp="#p_BZ_1">
-                            <persName corresp="#p_BZ_1">Zbigniew Brzezinski</persName>
-                            <note n="4" xml:id="d153fn4">
+                            <persName corresp="#p_BZ_1">Zbigniew Brzezinski</persName><note n="4"
+                                xml:id="d153fn4">
                                 <persName corresp="#p_ADL_1">Aaron</persName> signed for <persName
                                     corresp="#p_BZ_1">Brzezinski</persName> above <persName
                                     corresp="#p_BZ_1">Brzezinski</persName>’s typed
@@ -29044,7 +28950,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="447" facs="0496" xml:id="pg_447"/>
                 <div type="document" n="154" xml:id="d154" subtype="historical-document"
                     frus:doc-dateTime-min="1978-10-20T00:00:00-05:00"
@@ -29243,21 +29148,20 @@
                         on a library; books could be stored in a warehouse or garage, each affording
                         a non-public <hi rend="italic">place</hi> from which we could reach out.</p>
                 </div>
-
                 <div type="document" n="155" xml:id="d155" subtype="historical-document"
                     frus:doc-dateTime-min="1978-10-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-10-24T23:59:59-05:00">
                     <head>155. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d155fn1" type="source">Source: Carter Library, National
-                            Security Affairs, <persName corresp="#p_BZ_1">Brzezinski</persName>
-                            Material, Agency File, Box 9, International Communication Agency:
-                            9–12/78. No classification marking. Sent for action. <persName
-                                corresp="#p_CJE_1">Carter</persName> initialed the top right-hand
-                            corner of the memorandum, indicating that he saw it. <persName
-                                corresp="#p_DC_1">Dodson</persName> sent a copy of the memorandum to
-                                <persName corresp="#p_RJE_1">Reinhardt</persName> under a November 2
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d155fn1" type="source">Source: Carter Library, National Security
+                            Affairs, <persName corresp="#p_BZ_1">Brzezinski</persName> Material,
+                            Agency File, Box 9, International Communication Agency: 9–12/78. No
+                            classification marking. Sent for action. <persName corresp="#p_CJE_1"
+                                >Carter</persName> initialed the top right-hand corner of the
+                            memorandum, indicating that he saw it. <persName corresp="#p_DC_1"
+                                >Dodson</persName> sent a copy of the memorandum to <persName
+                                corresp="#p_RJE_1">Reinhardt</persName> under a November 2
                             memorandum, indicating that <persName corresp="#p_CJE_1"
                                 >Carter</persName> had reviewed <persName corresp="#p_RJE_1"
                                 >Reinhardt</persName>’s October 5 memorandum (attached and printed
@@ -29333,11 +29237,10 @@
                             <hi rend="strong">Memorandum From the Director of the International
                                 Communication Agency (<persName corresp="#p_RJE_1"
                                     >Reinhardt</persName>) to President <persName corresp="#p_CJE_1"
-                                    >Carter</persName>
-                                <note n="4" xml:id="d155fn4">No classification marking. A copy was
-                                    sent to <persName corresp="#p_VCR_1">Vance</persName>. The
-                                    President wrote “good J” in the top right-hand corner of the
-                                    memorandum.</note>
+                                    >Carter</persName><note n="4" xml:id="d155fn4">No classification
+                                    marking. A copy was sent to <persName corresp="#p_VCR_1"
+                                        >Vance</persName>. The President wrote “good J” in the top
+                                    right-hand corner of the memorandum.</note>
                             </hi>
                         </head>
                         <opener><dateline rendition="#right">
@@ -29421,7 +29324,6 @@
                             position of strength and confidence.</p>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="156" xml:id="d156" subtype="historical-document"
                     frus:doc-dateTime-min="1978-11-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-11-01T23:59:59-05:00">
@@ -29532,7 +29434,6 @@
                         these to the Agency as they develop. Slug telegrams for <gloss
                             target="#t_ECAA_1">ECA/A</gloss>.</p>
                 </div>
-
                 <div type="document" n="157" xml:id="d157" subtype="historical-document"
                     frus:doc-dateTime-min="1978-11-01T19:34:00-05:00"
                     frus:doc-dateTime-max="1978-11-01T19:34:00-05:00">
@@ -29580,7 +29481,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="158" xml:id="d158" subtype="historical-document"
                     frus:doc-dateTime-min="1978-11-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-11-03T23:59:59-05:00">
@@ -30144,8 +30044,8 @@
                     frus:doc-dateTime-max="1978-11-30T23:59:59-05:00">
                     <head>159. Memorandum From the Director of the International Communication
                         Agency (<persName corresp="#p_RJE_1">Reinhardt</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d159fn1" type="source">Source: National Archives, <gloss
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d159fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Office of the Deputy Secretary:
                             Records of <persName corresp="#p_CWM_1">Warren Christopher</persName>,
                             1977–1980: Lot 81D113, Box 18, Memoranda to the Secretary–1978. No
@@ -30319,11 +30219,10 @@
                         beginning in <gloss target="#t_FY_1">FY</gloss> 1980 or defer until <gloss
                             target="#t_FY_1">FY</gloss> 1981.</p>
                     <p>Begin in <gloss target="#t_FY_1">FY</gloss> 1980 Begin in <gloss
-                            target="#t_FY_1">FY</gloss> 1981 <note n="11" xml:id="d159fn11">The
+                            target="#t_FY_1">FY</gloss> 1981<note n="11" xml:id="d159fn11">The
                             President did not approve or disapprove the recommendation.</note>
                     </p>
                 </div>
-
                 <div type="document" n="160" xml:id="d160" subtype="historical-document"
                     frus:doc-dateTime-min="1978-12-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-12-13T23:59:59-05:00">
@@ -30416,8 +30315,8 @@
                         <head>
                             <hi rend="strong">Memorandum From the President’s Assistant for National
                                 Security Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>)
-                                to President <persName corresp="#p_CJE_1">Carter</persName>
-                                <note n="5" xml:id="d160fn5">No classification marking. Sent for
+                                to President <persName corresp="#p_CJE_1">Carter</persName><note
+                                    n="5" xml:id="d160fn5">No classification marking. Sent for
                                     action. <persName corresp="#p_BZ_1">Brzezinski</persName> sent a
                                     copy of the memorandum to <persName corresp="#p_RJE_1"
                                         >Reinhardt</persName> under a December 15 memorandum in
@@ -30483,7 +30382,6 @@
                         <p>AGREE _______ DISAGREE _______</p>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="161" xml:id="d161" subtype="historical-document"
                     frus:doc-dateTime-min="1979-01-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-01-20T23:59:59-05:00">
@@ -30702,10 +30600,10 @@
                         preparation for the recent <gloss target="#t_UNESCO_1">UNESCO</gloss>
                         general conference. It was quickly apparent that although only limited
                         attention had been devoted to the policy issues in international
-                        communications, a <gloss target="#t_PRM_1">PRM</gloss>
-                        <note n="2" xml:id="d161fn2">Presumable reference to PRM/NSC–35,
-                            “International Communication Policy,” issued on April 28, 1978. It is
-                            scheduled for publication in <ref target="frus1977-80v25">
+                        communications, a <gloss target="#t_PRM_1">PRM</gloss><note n="2"
+                            xml:id="d161fn2">Presumable reference to PRM/NSC–35, “International
+                            Communication Policy,” issued on April 28, 1978. It is scheduled for
+                            publication in <ref target="frus1977-80v25">
                                 <hi rend="italic">Foreign Relations</hi>, 1977–1980, vol. XXV,
                                 Global Issues; United Nations</ref>.</note> had been developed and
                             <persName corresp="#p_RH_1">Henry Richardson</persName> was involved in
@@ -30748,7 +30646,6 @@
                         person should be assigned to spend full time on global information resources
                         and the other matters discussed in this report.</p>
                 </div>
-
                 <div type="document" n="162" xml:id="d162" subtype="historical-document"
                     frus:doc-dateTime-min="1979-01-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-01-25T23:59:59-05:00">
@@ -30910,7 +30807,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="164" xml:id="d164" subtype="historical-document"
                     frus:doc-dateTime-min="1979-02-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-02-13T23:59:59-05:00">
@@ -31279,7 +31175,6 @@
                             version of the memorandum, see <ref target="#d167">Document
                             167</ref>.</note> (U)</p>
                 </div>
-
                 <div type="document" n="167" xml:id="d167" subtype="historical-document"
                     frus:doc-dateTime-min="1979-03-14T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-03-14T23:59:59-05:00">
@@ -31456,7 +31351,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="169" xml:id="d169" subtype="historical-document"
                     frus:doc-dateTime-min="1979-03-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-03-22T23:59:59-05:00">
@@ -31507,7 +31401,6 @@
                         and others that may be involved in developing the details of the proposed
                         visits.</p>
                 </div>
-
                 <div type="document" n="170" xml:id="d170" subtype="historical-document"
                     frus:doc-dateTime-min="1979-04-30T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-04-30T23:59:59-05:00">
@@ -31780,7 +31673,6 @@
                         of the plan you present will be central to my determination of how we
                         proceed in fiscal year 1980.</p>
                 </div>
-
                 <div type="document" n="173" xml:id="d173" subtype="historical-document"
                     frus:doc-dateTime-min="1979-07-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-07-09T23:59:59-05:00">
@@ -31829,7 +31721,6 @@
                         at your earliest convenience. I will call Pat<note n="3" xml:id="d173fn3"
                             >Reference is to Siemien.</note> about an appointment.</p>
                 </div>
-
                 <div type="document" n="174" xml:id="d174" subtype="historical-document"
                     frus:doc-dateTime-min="1979-07-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-07-13T23:59:59-05:00">
@@ -32072,7 +31963,6 @@
                             Arts.”]</p>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="175" xml:id="d175" subtype="historical-document"
                     frus:doc-dateTime-min="1979-07-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-07-20T23:59:59-05:00">
@@ -32169,7 +32059,6 @@
                         opportunities, or seizing opportunities such as the above, coordination can
                         be an effective way to lead.</p>
                 </div>
-
                 <div type="document" n="176" xml:id="d176" subtype="historical-document"
                     frus:doc-dateTime-min="1979-07-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-07-23T23:59:59-05:00">
@@ -32414,7 +32303,6 @@
                         convey my appreciation to all those who have been involved. I shall, of
                         course, be delighted to answer any questions you may have.</p>
                 </div>
-
                 <div type="document" n="178" xml:id="d178" subtype="historical-document"
                     frus:doc-dateTime-min="1979-08-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-08-06T23:59:59-05:00">
@@ -32945,7 +32833,6 @@
                         capabilities. I am already working with <persName corresp="#p_NJ_1">Jan
                             Nowak</persName> on this. (C)</p>
                 </div>
-
                 <div type="document" n="181" xml:id="d181" subtype="historical-document"
                     frus:doc-dateTime-min="1979-09-11T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-09-11T23:59:59-05:00">
@@ -33132,18 +33019,17 @@
                     <p rend="sectiontitleital">ANOTHER NEW NAME</p>
                     <p>Then came the reorganization of 1978, erasing <gloss target="#t_USIA_1"
                             >USIA</gloss> (the overall designation) and, generally, <gloss
-                            target="#t_USIS_1">USIS</gloss>
-                        <note n="4" xml:id="d181fn4">The elements of <gloss target="#t_USIA_1"
-                                >USIA</gloss> operating overseas were designated <gloss
-                                target="#t_USIS_1">USIS</gloss> (United States Information Service).
-                            [Footnote is in the original.]</note> (though long habit still keeps
-                        this latter acronym alive here and there), and creating the U.S.
-                        International Communication Agency. In the opinion of some senior officers
-                        and <pb n="527" facs="0576" xml:id="pg_527"/>observers, the Agency found
-                        itself set back in its concern with identification, forced all over again to
-                        win confidence for its title. This time too the task is complicated by a
-                        slightly ambiguous term: “communication” (singular) tends in certain minds
-                        to have technical, rather than social, implications.</p>
+                            target="#t_USIS_1">USIS</gloss><note n="4" xml:id="d181fn4">The elements
+                            of <gloss target="#t_USIA_1">USIA</gloss> operating overseas were
+                            designated <gloss target="#t_USIS_1">USIS</gloss> (United States
+                            Information Service). [Footnote is in the original.]</note> (though long
+                        habit still keeps this latter acronym alive here and there), and creating
+                        the U.S. International Communication Agency. In the opinion of some senior
+                        officers and <pb n="527" facs="0576" xml:id="pg_527"/>observers, the Agency
+                        found itself set back in its concern with identification, forced all over
+                        again to win confidence for its title. This time too the task is complicated
+                        by a slightly ambiguous term: “communication” (singular) tends in certain
+                        minds to have technical, rather than social, implications.</p>
                     <p>There has apparently been little controversy over the name in the history of
                             <gloss target="#t_ICA_1">ICA</gloss>’s predecessors. <gloss
                             target="#t_USIS_1">USIS</gloss> as a title had appeared out of World War
@@ -33560,7 +33446,6 @@
                         Assignments; Chapter 6: New Programs at the Price of Old; and Chapter 7:
                         Maintenance of Quality in Exchange.]</p>
                 </div>
-
                 <div type="document" n="182" xml:id="d182" subtype="historical-document"
                     frus:doc-dateTime-min="1979-09-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-09-12T23:59:59-05:00">
@@ -33851,14 +33736,13 @@
                         </quote>
                         <p>It might be added that a recurring theme in <persName corresp="#p_WT_1"
                                 >Theodore White</persName>’s thoughtful series on <hi rend="italic"
-                                >The Making of the President</hi>
-                            <note n="14" xml:id="d182fn14">The series covered the presidential
-                                elections of 1960, 1964, 1968, and 1972. White later published a
-                                synopsis of the 1984 election, entitled <hi rend="italic">The
-                                    Shaping of the Presidency: 1984</hi>, as an article in <hi
-                                    rend="italic">TIME</hi> magazine, November 19, 1984.</note> is
-                            that foreign policy issues, not domestic issues, have been the most
-                            critical factor in Presidential elections.</p>
+                                >The Making of the President</hi><note n="14" xml:id="d182fn14">The
+                                series covered the presidential elections of 1960, 1964, 1968, and
+                                1972. White later published a synopsis of the 1984 election,
+                                entitled <hi rend="italic">The Shaping of the Presidency: 1984</hi>,
+                                as an article in <hi rend="italic">TIME</hi> magazine, November 19,
+                                1984.</note> is that foreign policy issues, not domestic issues,
+                            have been the most critical factor in Presidential elections.</p>
                         <p>A brief list of just a few of the international developments in the
                             postwar period in which public opinion played a notable role illustrates
                             the impact of the general public on foreign policy:</p>
@@ -34265,7 +34149,6 @@
                         of the specifics of all projects (questionnaires, methodology, etc.), even
                         when approval has tentatively been given to a research concept.</p>
                 </div>
-
                 <div type="document" n="184" xml:id="d184" subtype="historical-document"
                     frus:doc-dateTime-min="1979-09-19T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-09-19T23:59:59-05:00">
@@ -34750,7 +34633,6 @@
                         U.S., as exemplified in exhibit visitors’ ceaseless drawing of comparisons
                         between the two societies in every area imaginable.</p>
                 </div>
-
                 <div type="document" n="185" xml:id="d185" subtype="historical-document"
                     frus:doc-dateTime-min="1979-09-26T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-09-26T23:59:59-05:00">
@@ -35300,12 +35182,12 @@
                     frus:doc-dateTime-max="1979-11-15T23:59:59-05:00">
                     <head>190. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d190fn1" type="source">Source: Carter Library, National
-                            Security Affairs, <persName corresp="#p_BZ_1">Brzezinski</persName>
-                            Material, Country File, Box 46, Latin America: 10/15–31/79.
-                            Confidential. Printed from an unsigned copy. There is no indication that
-                            the President saw the version of the memorandum printed here.</note>
+                            >Carter</persName><note n="1" xml:id="d190fn1" type="source">Source:
+                            Carter Library, National Security Affairs, <persName corresp="#p_BZ_1"
+                                >Brzezinski</persName> Material, Country File, Box 46, Latin
+                            America: 10/15–31/79. Confidential. Printed from an unsigned copy. There
+                            is no indication that the President saw the version of the memorandum
+                            printed here.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -35416,14 +35298,14 @@
                     frus:doc-dateTime-max="1979-11-16T23:59:59-05:00">
                     <head>191. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d191fn1" type="source">Source: Carter Library, National
-                            Security Affairs, Staff Material, North/South <persName
-                                corresp="#p_PRA_1">Pastor</persName> Files, Country Files, Box 6,
-                            Caribbean: People-to-People, 11/79. Unclassified with Confidential
-                            attachment. Although the memorandum is undated, <persName
-                                corresp="#p_BZ_1">Brzezinski</persName> wrote “Nov. 16 ‛79” in the
-                            top right-hand corner of the memorandum.</note>
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d191fn1" type="source">Source: Carter Library, National Security
+                            Affairs, Staff Material, North/South <persName corresp="#p_PRA_1"
+                                >Pastor</persName> Files, Country Files, Box 6, Caribbean:
+                            People-to-People, 11/79. Unclassified with Confidential attachment.
+                            Although the memorandum is undated, <persName corresp="#p_BZ_1"
+                                >Brzezinski</persName> wrote “Nov. 16 ‛79” in the top right-hand
+                            corner of the memorandum.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -35641,7 +35523,6 @@
                         helpful reminders in any current efforts to assess the present extent of
                         anti-Americanism throughout the Free World.</p>
                 </div>
-
                 <div type="document" n="194" xml:id="d194" subtype="historical-document"
                     frus:doc-dateTime-min="1979-12-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-12-03T23:59:59-05:00">
@@ -35822,7 +35703,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="196" xml:id="d196" subtype="historical-document"
                     frus:doc-dateTime-min="1979-12-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-12-12T23:59:59-05:00">
@@ -36066,8 +35946,8 @@
                         proposals are well conceived, workable and worthy of their enthusiasm.</p>
                     <closer>
                         <signed corresp="#p_TPR_1">
-                            <persName corresp="#p_TPR_1">Peter Tarnoff</persName>
-                            <note n="5" xml:id="d196fn5">
+                            <persName corresp="#p_TPR_1">Peter Tarnoff</persName><note n="5"
+                                xml:id="d196fn5">
                                 <persName corresp="#p_BLP_1">Bremer</persName> signed for <persName
                                     corresp="#p_TPR_1">Tarnoff</persName> above <persName
                                     corresp="#p_TPR_1">Tarnoff</persName>’s typed signature.</note>
@@ -36076,7 +35956,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="197" xml:id="d197" subtype="historical-document"
                     frus:doc-dateTime-min="1979-12-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-12-13T23:59:59-05:00">
@@ -36128,17 +36007,16 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="198" xml:id="d198" subtype="historical-document"
                     frus:doc-dateTime-min="1979-12-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-12-13T23:59:59-05:00">
                     <head>198. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d198fn1" type="source">Source: Carter Library, National
-                            Security Affairs, Staff Material, North/South <persName
-                                corresp="#p_PRA_1">Pastor</persName> Files, Country Files, Box 6,
-                            Caribbean: People-to-People, 12/79. No classification marking. Sent for
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d198fn1" type="source">Source: Carter Library, National Security
+                            Affairs, Staff Material, North/South <persName corresp="#p_PRA_1"
+                                >Pastor</persName> Files, Country Files, Box 6, Caribbean:
+                            People-to-People, 12/79. No classification marking. Sent for
                             information. The President wrote “Zbig J” in the top right-hand corner
                             of the memorandum. <persName corresp="#p_PRA_1">Pastor</persName> sent
                             the December 13 memorandum to <persName corresp="#p_BZ_1"
@@ -36175,7 +36053,7 @@
                         you feel the effort should be directed at Central America and the Caribbean,
                         and should to the extent possible, involve other basin countries like
                         Venezuela, Colombia, and Mexico in the exchanges.<note n="3"
-                            xml:id="d198fn3">The President wrote “<hi rend="italic">ok</hi> ” in the
+                            xml:id="d198fn3">The President wrote “<hi rend="italic">ok</hi>” in the
                             left-hand margin next to this paragraph.</note>
                     </p>
                     <p>The major issue discussed was the extent to which the <gloss target="#t_US_1"
@@ -36571,7 +36449,6 @@
                         mission in a timely manner. If we can avoid a 707 equivalent, we will. But I
                         am not sure that choice will be in our hand.</p>
                 </div>
-
                 <div type="document" n="202" xml:id="d202" subtype="historical-document"
                     frus:doc-dateTime-min="1980-02-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1980-02-07T23:59:59-05:00">
@@ -36662,7 +36539,6 @@
                             <gloss target="#t_WirelessFile_1">Wireless File</gloss> output is being
                         carried by all of its regional files.</p>
                 </div>
-
                 <div type="document" n="203" xml:id="d203" subtype="historical-document"
                     frus:doc-dateTime-min="1980-02-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1980-02-07T23:59:59-05:00">
@@ -36996,7 +36872,6 @@
                         achieves the objective of a constructive realism rather than a destructive
                         erosion of popular morale.</p>
                 </div>
-
                 <div type="document" n="205" xml:id="d205" subtype="historical-document"
                     frus:doc-dateTime-min="1980-04-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1980-04-07T23:59:59-05:00">
@@ -37415,7 +37290,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="209" xml:id="d209" subtype="historical-document"
                     frus:doc-dateTime-min="1980-07-11T00:00:00-05:00"
                     frus:doc-dateTime-max="1980-07-11T23:59:59-05:00">
@@ -38224,14 +38098,13 @@
                             <persName corresp="#p_ADL_1">Aaron</persName> approved the
                             recommendation.</note> (U)</p>
                 </div>
-
                 <div type="document" n="211" xml:id="d211" subtype="historical-document"
                     frus:doc-dateTime-min="1980-09-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1980-09-05T23:59:59-05:00">
                     <head>211. Briefing Memorandum From the Director of the Policy Planning Staff
                             (<persName corresp="#p_LWA_1">Lake</persName>) to Secretary of State
-                            <persName corresp="#p_MES_1">Muskie</persName>
-                        <note n="1" xml:id="d211fn1" type="source">Source: National Archives, <gloss
+                            <persName corresp="#p_MES_1">Muskie</persName><note n="1"
+                            xml:id="d211fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Policy and Planning Staff—Office of
                             the Director, Records of Anthony <persName corresp="#p_LWA_1"
                                 >Lake</persName>, Lot 82D298, Box 7, <gloss target="#t_TL_1"
@@ -38921,7 +38794,6 @@
                         by lessened respect and lessened confidence in U.S. wisdom in world
                         affairs.</p>
                 </div>
-
                 <div type="document" n="215" xml:id="d215" subtype="historical-document"
                     frus:doc-dateTime-min="1980-11-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1980-12-16T23:59:59-05:00">
@@ -39320,10 +39192,10 @@
             </div>
         </body>
         <back>
+            <pb n="651" facs="0700" xml:id="pg_651"/>
             <div type="section" xml:id="index" subtype="index"
                 frus:doc-dateTime-min="1976-11-03T00:00:00-05:00"
                 frus:doc-dateTime-max="1980-11-20T23:59:59-05:00">
-                <pb n="651" facs="0700" xml:id="pg_651"/>
                 <head>Index</head>
                 <p>
                     <hi rend="strong">References are to document numbers</hi>
@@ -39888,7 +39760,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>B–<hi rend="italic">1</hi> bombers, <ref target="#d8">8</ref>,
@@ -40591,7 +40462,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Caddell, Pat, <ref target="#d38">38</ref>
@@ -41678,7 +41548,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Dag Hammarskjold Foundation, <ref target="#d63">63</ref>
@@ -41884,7 +41753,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>East Asia, <ref target="#d61">61</ref>, <ref target="#d67"
@@ -42116,7 +41984,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Facsimiles (faxes), <ref target="#d44">44</ref>
@@ -42418,10 +42285,9 @@
                             </item>
                         </list>
                     </item>
-
+                    <pb n="665" facs="0714" xml:id="pg_665"/>
                     <item>
                         <list>
-                            <pb n="665" facs="0714" xml:id="pg_665"/>
                             <item>G–<hi rend="italic">7</hi> Economic Summit (Bonn, July <hi
                                     rend="italic">1978</hi>), <ref target="#d130">130</ref>, <ref
                                     target="#d155">155</ref>
@@ -42666,7 +42532,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Habib, Philip, <ref target="#d7">7</ref>, <ref target="#d27"
@@ -43149,7 +43014,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Iberoamerican University, <ref target="#d20">20</ref>
@@ -43856,7 +43720,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Jackson, John, <ref target="#d215">215</ref>
@@ -44034,7 +43897,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Kadar, Saleh Abdel, <ref target="#d209">209</ref>
@@ -44157,7 +44019,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Labor, U.S. Department of, <ref target="#d203">203</ref>
@@ -44358,7 +44219,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Macalester College, <ref target="#d63">63</ref>
@@ -44836,7 +44696,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Nagai, Michio, <ref target="#d158">158</ref>
@@ -45161,7 +45020,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>
@@ -45335,7 +45193,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Padilla, Antonio, <ref target="#d209">209</ref>
@@ -45778,7 +45635,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Quaid, Randy, <ref target="#d41">41</ref>
@@ -45793,7 +45649,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Rabin, Yitzhak, <ref target="#d15">15</ref>
@@ -46425,7 +46280,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Sadat, Anwar, <ref target="#d15">15</ref>, <ref target="#d112"
@@ -47200,7 +47054,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Tactical nuclear forces, <ref target="#d182">182</ref>
@@ -47396,7 +47249,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Ukrainians, <ref target="#d184">184</ref>
@@ -47984,7 +47836,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>V–E Day, <ref target="#d205">205</ref>
@@ -48387,7 +48238,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Walker, Jack, <ref target="#d182">182</ref>
@@ -48594,7 +48444,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Yadin, Gen. Yigael, <ref target="#d15">15</ref>
@@ -48633,7 +48482,6 @@
                             </item>
                         </list>
                     </item>
-
                     <item>
                         <list>
                             <item>Zablocki, Clement, <ref target="#d32">32</ref>, <ref target="#d41"

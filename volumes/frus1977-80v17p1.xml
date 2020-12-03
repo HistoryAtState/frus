@@ -13,7 +13,6 @@
                 <editor role="primary">Louise P. Woodroofe</editor>
                 <editor role="general">Adam M. Howard</editor>
             </titleStmt>
-
             <publicationStmt>
                 <publisher>United States Government Publishing Office</publisher>
                 <pubPlace>Washington</pubPlace>
@@ -49,10 +48,8 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
-
     </teiHeader>
     <text>
-
         <front>
             <titlePage type="main">
                 <pb n="I" facs="0002" xml:id="pg_I"/>
@@ -115,10 +112,10 @@
                     202-512-1800). For further information, contact <ref
                         target="mailto:history@state.gov">history@state.gov</ref>. </p>
             </div>
+            <pb n="III" facs="0004" xml:id="pg_III"/>
             <div type="section" xml:id="AbouttheSeries" subtype="about-frus-series"
                 frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
                 frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
-                <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>About the Series</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -299,13 +296,12 @@
                     <date when="2016-11" calendar="gregorian">November 2016</date>
                 </closer>
                 <gap quantity="1" unit="pages" reason="convenience"/>
-                <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
             </div>
-
+            <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
+            <pb n="IX" facs="0010" xml:id="pg_IX"/>
             <div type="section" xml:id="preface" subtype="preface"
                 frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
                 frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
-                <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Preface</head>
                 <p rend="sectiontitleital">Structure and Scope of the <hi rend="roman">Foreign
                         Relations</hi> Series</p>
@@ -377,11 +373,10 @@
                     <affiliation>Historian</affiliation>
                 </p>
             </div>
-
+            <pb n="XI" facs="0012" xml:id="XI"/>
             <div type="section" xml:id="toc" subtype="table-of-contents"
                 frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
                 frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
-                <pb n="XI" facs="0012" xml:id="XI"/>
                 <head>Contents</head>
                 <list>
                     <item>
@@ -418,13 +413,12 @@
                     </item>
                 </list>
                 <gap quantity="1" unit="pages" reason="convenience"/>
-                <pb n="XII" facs="0013" xml:id="pg_XII"/>
             </div>
-
+            <pb n="XII" facs="0013" xml:id="pg_XII"/>
+            <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
             <div type="section" xml:id="sources" subtype="sources"
                 frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
                 frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
-                <pb n="XIII" facs="0014" xml:id="pg_XIII"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for <ref target="frus1977-80v17p1">
                         <hi rend="roman">Foreign Relations</hi>, 1977–1980, Volume XVII, Part
@@ -558,8 +552,8 @@
                         <hi rend="strong">Washington National Records Center,</hi>
                         <hi rend="strong">Suitland, Maryland</hi>
                         <list>
-                            <item>RG 330, Records of the Department of Defense <list>
-                                    <pb n="XV" facs="0016" xml:id="pg_XV"/>
+                            <item>RG 330, Records of the Department of Defense <pb n="XV"
+                                    facs="0016" xml:id="pg_XV"/><list>
                                     <item>OSD Files: FRC 330–80–0017 <list>
                                             <item>Secret Records of the Office of the Secretary of
                                                 Defense, 1977</item>
@@ -589,7 +583,6 @@
                             </item>
                         </list>
                     </item>
-
                 </list>
                 <p rend="center">
                     <hi rend="strong">Published Sources</hi>
@@ -612,13 +605,12 @@
                             Foreign Policy.</hi> New York: Simon and Schuster, 1983.</item>
                 </list>
                 <gap quantity="1" unit="pages" reason="convenience"/>
-                <pb n="XVI" facs="0017" xml:id="pg_XVI"/>
             </div>
-
+            <pb n="XVI" facs="0017" xml:id="pg_XVI"/>
+            <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
             <div type="section" xml:id="terms" subtype="index"
                 frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
                 frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
-                <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
                 <head>Abbreviations and Terms</head>
                 <list>
                     <item>
@@ -1205,9 +1197,9 @@
                                 Liberation Front</item>
                         </list>
                     </item>
+                    <pb n="XX" facs="0021" xml:id="pg_XX"/>
                     <item>
                         <list>
-                            <pb n="XX" facs="0021" xml:id="pg_XX"/>
                             <item>
                                 <hi rend="strong">
                                     <term xml:id="t_Z_1">Z</term>,</hi> zulu time</item>
@@ -1222,11 +1214,10 @@
                     </item>
                 </list>
             </div>
-
+            <pb n="XXI" facs="0022" xml:id="pg_XXI"/>
             <div type="section" xml:id="persons" subtype="index"
                 frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
                 frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
-                <pb n="XXI" facs="0022" xml:id="pg_XXI"/>
                 <head>Persons</head>
                 <list>
                     <item>
@@ -1377,9 +1368,9 @@
                                 1979, until January 20, 1981</item>
                         </list>
                     </item>
+                    <pb n="XXII" facs="0023" xml:id="pg_XXII"/>
                     <item>
                         <list>
-                            <pb n="XXII" facs="0023" xml:id="pg_XXII"/>
                             <item>
                                 <hi rend="strong">
                                     <persName xml:id="p_EG_1">Erb, Guy</persName>,</hi>
@@ -1778,11 +1769,10 @@
                     </item>
                 </list>
             </div>
-
+            <pb n="XXV" facs="0026" xml:id="pg_XXV"/>
             <div type="section" subtype="note-on-covert-actions" xml:id="Notes"
                 frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
                 frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
-                <pb n="XXV" facs="0026" xml:id="pg_XXV"/>
                 <head>Note on U.S. Covert Actions</head>
                 <p>In compliance with the <hi rend="italic">Foreign Relations of the United
                         States</hi> statute that requires inclusion in the <hi rend="italic">Foreign
@@ -2260,7 +2250,6 @@
             <gap quantity="1" unit="pages" reason="convenience"/>
             <pb n="XXXIV" facs="0035" xml:id="pg_XXXIV"/>
         </front>
-
         <body>
             <pb n="1" facs="0036" xml:id="pg_1"/>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
@@ -2296,7 +2285,6 @@
                             corresp="#p_CJE_1">Carter</persName> administration entered office with
                         these issues unresolved.</p>
                 </div>
-
                 <pb n="2" facs="0037" xml:id="pg_2"/>
                 <div type="document" n="2" xml:id="d2" subtype="historical-document"
                     frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
@@ -2486,7 +2474,6 @@
                         <signed>Tienken</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="3" xml:id="d3" subtype="historical-document"
                     frus:doc-dateTime-min="1977-02-23T10:36:00-05:00"
                     frus:doc-dateTime-max="1977-02-23T10:36:00-05:00">
@@ -2590,7 +2577,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="4" xml:id="d4" subtype="historical-document"
                     frus:doc-dateTime-min="1977-03-17T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-03-17T23:59:59-05:00">
@@ -2693,7 +2679,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="5" xml:id="d5" subtype="historical-document"
                     frus:doc-dateTime-min="1977-03-21T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-03-21T23:59:59-05:00">
@@ -2778,18 +2763,16 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="11" facs="0046" xml:id="pg_11"/>
                 <div type="document" n="6" xml:id="d6" subtype="historical-document"
                     frus:doc-dateTime-min="1977-03-21T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-03-25T22:59:59-05:00">
                     <head>6. Memorandum From the President’s Assistant for National Security Affairs
                             (<persName corresp="#p_BZ_1">Brzezinski</persName>) to Secretary of
-                        Defense <persName corresp="#p_BH_1">Brown</persName>
-                        <note n="1" xml:id="d6fn1" type="source">Source: Carter Library, National
-                            Security Affairs, Staff Material, Horn/Special, Box 1, Chron File: 3/77.
-                            Secret. A copy was sent to <persName corresp="#p_VCR_1"
-                            >Vance</persName>.</note>
+                        Defense <persName corresp="#p_BH_1">Brown</persName><note n="1"
+                            xml:id="d6fn1" type="source">Source: Carter Library, National Security
+                            Affairs, Staff Material, Horn/Special, Box 1, Chron File: 3/77. Secret.
+                            A copy was sent to <persName corresp="#p_VCR_1">Vance</persName>.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -2826,23 +2809,21 @@
                         implement the closing of Kagnew.</p>
                     <closer>
                         <signed corresp="#p_BZ_1">
-                            <persName corresp="#p_BZ_1">Zbigniew Brzezinski</persName>
-                            <note n="4" xml:id="d6fn4">Printed from a copy with this typed
-                                signature.</note>
+                            <persName corresp="#p_BZ_1">Zbigniew Brzezinski</persName><note n="4"
+                                xml:id="d6fn4">Printed from a copy with this typed signature.</note>
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="12" facs="0047" xml:id="pg_12"/>
                 <div type="document" n="7" xml:id="d7" subtype="historical-document"
                     frus:doc-dateTime-min="1977-03-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-03-28T22:59:59-05:00">
                     <head>7. Memorandum From the President’s Assistant for National Security Affairs
                             (<persName corresp="#p_BZ_1">Brzezinski</persName>) to Vice President
-                            <persName corresp="#p_MWF_1">Mondale</persName>
-                        <note n="1" xml:id="d7fn1" type="source">Source: Carter Library, National
-                            Security Affairs, Staff Material, Horn/Special, Box 1, Chron File: 3/77.
-                            Secret. Sent for information.</note>
+                            <persName corresp="#p_MWF_1">Mondale</persName><note n="1"
+                            xml:id="d7fn1" type="source">Source: Carter Library, National Security
+                            Affairs, Staff Material, Horn/Special, Box 1, Chron File: 3/77. Secret.
+                            Sent for information.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -2922,7 +2903,6 @@
                     <p>I hope you will participate in the discussion which the PRM will
                         generate.</p>
                 </div>
-
                 <pb n="14" facs="0049" xml:id="pg_14"/>
                 <div type="document" n="8" xml:id="d8" subtype="historical-document"
                     frus:doc-dateTime-min="1977-03-28T00:00:00-05:00"
@@ -3016,7 +2996,6 @@
                         Israel.</p>
                     <p>[Omitted here is the Discussion section.]</p>
                 </div>
-
                 <pb n="16" facs="0051" xml:id="pg_16"/>
                 <div type="document" n="9" xml:id="d9" subtype="historical-document"
                     frus:doc-dateTime-min="1977-03-29T00:00:00-05:00"
@@ -3066,7 +3045,6 @@
                         centers.</p>
                     <p>[Omitted here is the body of the report.]</p>
                 </div>
-
                 <pb n="17" facs="0052" xml:id="pg_17"/>
                 <div type="document" n="10" xml:id="d10" subtype="historical-document"
                     frus:doc-dateTime-min="1977-03-29T00:00:00-05:00"
@@ -4010,7 +3988,6 @@
                         Kenya leadership which succeeds <persName corresp="#p_KJ_1"
                             >Kenyatta</persName> as we have been towards his government.</p>
                 </div>
-
                 <pb n="37" facs="0072" xml:id="pg_37"/>
                 <div type="document" n="11" xml:id="d11" subtype="historical-document"
                     frus:doc-dateTime-min="1977-04-11T16:00:00-05:00"
@@ -4233,17 +4210,15 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="12" xml:id="d12" subtype="historical-document"
                     frus:doc-dateTime-min="1977-04-19T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-04-19T23:59:59-05:00">
                     <head>12. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to Secretary of
                         State <persName corresp="#p_VCR_1">Vance</persName> and Secretary of Defense
-                            <persName corresp="#p_BH_1">Brown</persName>
-                        <note n="1" xml:id="d12fn1" type="source">Source: Carter Library, National
-                            Security Affairs, Brzezinski Material, Agency File, Box 17, State 4/77.
-                            Secret.</note>
+                            <persName corresp="#p_BH_1">Brown</persName><note n="1" xml:id="d12fn1"
+                            type="source">Source: Carter Library, National Security Affairs,
+                            Brzezinski Material, Agency File, Box 17, State 4/77. Secret.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -4278,8 +4253,8 @@
                                     corresp="#p_VCR_1">Vance</persName>, Secretary of Defense
                                     <persName corresp="#p_BH_1">Brown</persName>, and the
                                 President’s Assistant for National Security Affairs (<persName
-                                    corresp="#p_BZ_1">Brzezinski</persName>)</hi>
-                            <note n="3" xml:id="d12fn3">Secret. The note is handwritten.</note>
+                                    corresp="#p_BZ_1">Brzezinski</persName>)</hi><note n="3"
+                                xml:id="d12fn3">Secret. The note is handwritten.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-04-19"
@@ -4298,16 +4273,14 @@
                         </closer>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="13" xml:id="d13" subtype="historical-document"
                     frus:doc-dateTime-min="1977-04-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-04-22T23:59:59-05:00">
                     <head>13. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d13fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 12, State Department Evening Reports, 4/77.
-                            Secret.</note>
+                            >Carter</persName><note n="1" xml:id="d13fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 12, State Department
+                            Evening Reports, 4/77. Secret.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -4339,18 +4312,16 @@
                     </p>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <div type="document" n="14" xml:id="d14" subtype="historical-document"
                     frus:doc-dateTime-min="1977-04-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-04-23T23:59:59-05:00">
                     <head>14. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d14fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 12, State Department Evening Reports, 4/77.
-                            Secret. <persName corresp="#p_CJE_1">Carter</persName> initialed the
-                            memorandum and wrote, “<persName corresp="#p_VCR_1"
-                            >Cy</persName>.”</note>
+                            >Carter</persName><note n="1" xml:id="d14fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 12, State Department
+                            Evening Reports, 4/77. Secret. <persName corresp="#p_CJE_1"
+                                >Carter</persName> initialed the memorandum and wrote, “<persName
+                                corresp="#p_VCR_1">Cy</persName>.”</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -4401,7 +4372,6 @@
                     <p>6. We are informing leading members of Congress.</p>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <pb n="43" facs="0078" xml:id="pg_43"/>
                 <div type="document" n="15" xml:id="d15" subtype="historical-document"
                     frus:doc-dateTime-min="1977-04-25T00:00:00-05:00"
@@ -4519,18 +4489,16 @@
                         the Joint Commission at 8:30 a.m. Asmara time to negotiate the disposal of
                         residual Kagnew equipment.</p>
                 </div>
-
                 <div type="document" n="16" xml:id="d16" subtype="historical-document"
                     frus:doc-dateTime-min="1977-04-26T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-04-26T23:59:59-05:00">
                     <head>16. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d16fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 12, State Department Evening Reports, 4/77.
-                            Secret. <persName corresp="#p_CJE_1">Carter</persName> initialed the
-                            memorandum and wrote, “<persName corresp="#p_VCR_1"
-                            >Cy</persName>.”</note>
+                            >Carter</persName><note n="1" xml:id="d16fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 12, State Department
+                            Evening Reports, 4/77. Secret. <persName corresp="#p_CJE_1"
+                                >Carter</persName> initialed the memorandum and wrote, “<persName
+                                corresp="#p_VCR_1">Cy</persName>.”</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -4568,7 +4536,6 @@
                     </p>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <div type="document" n="17" xml:id="d17" subtype="historical-document"
                     frus:doc-dateTime-min="1977-05-03T19:39:00-05:00"
                     frus:doc-dateTime-max="1977-05-03T19:39:00-05:00">
@@ -4683,18 +4650,16 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="18" xml:id="d18" subtype="historical-document"
                     frus:doc-dateTime-min="1977-05-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-05-12T23:59:59-05:00">
                     <head>18. Memorandum From Vice President <persName corresp="#p_MWF_1"
                             >Mondale</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d18fn1" type="source">Source: Carter Library, National
-                            Security Affairs, Brzezinski Material, Country File, Box 69, Somalia:
-                            1/77–6/78. Secret. Sent for information. Copies were sent to <persName
-                                corresp="#p_VCR_1">Vance</persName> and <persName corresp="#p_BZ_1"
-                                >Brzezinski</persName>.</note>
+                            >Carter</persName><note n="1" xml:id="d18fn1" type="source">Source:
+                            Carter Library, National Security Affairs, Brzezinski Material, Country
+                            File, Box 69, Somalia: 1/77–6/78. Secret. Sent for information. Copies
+                            were sent to <persName corresp="#p_VCR_1">Vance</persName> and <persName
+                                corresp="#p_BZ_1">Brzezinski</persName>.</note>
                     </head>
                     <opener>
                         <seg rendition="#left">
@@ -4778,17 +4743,16 @@
                         meeting with you. <persName corresp="#p_AAA_1">Addou</persName> also hopes
                         to meet with you personally.</p>
                 </div>
-
                 <pb n="50" facs="0085" xml:id="pg_50"/>
                 <div type="document" n="19" xml:id="d19" subtype="historical-document"
                     frus:doc-dateTime-min="1977-05-16T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-05-16T23:59:59-05:00">
                     <head>19. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d19fn1" type="source">Source: Carter Library, National
-                            Security Affairs, Brzezinski Material, Country File, Box 69, Somalia:
-                            1/77–6/78. Secret.</note>
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d19fn1" type="source">Source: Carter Library, National Security
+                            Affairs, Brzezinski Material, Country File, Box 69, Somalia: 1/77–6/78.
+                            Secret.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -4819,7 +4783,6 @@
                             Berbera?”</note>
                     </p>
                 </div>
-
                 <pb n="51" facs="0086" xml:id="pg_51"/>
                 <div type="document" n="20" xml:id="d20" subtype="historical-document"
                     frus:doc-dateTime-min="1977-06-16T13:00:00-05:00"
@@ -4978,19 +4941,17 @@
                             corresp="#p_BZ_1">Brzezinski</persName> accompanied the Ambassador to
                         his car.</p>
                 </div>
-
                 <pb n="54" facs="0089" xml:id="pg_54"/>
                 <div type="document" n="21" xml:id="d21" subtype="historical-document"
                     frus:doc-dateTime-min="1977-07-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-07-09T23:59:59-05:00">
                     <head>21. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d21fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 12, State Department Evening Reports, 7/77.
-                            Secret. <persName corresp="#p_CJE_1">Carter</persName> initialed the
-                            memorandum and wrote, “<persName corresp="#p_VCR_1"
-                            >Cy</persName>.”</note>
+                            >Carter</persName><note n="1" xml:id="d21fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 12, State Department
+                            Evening Reports, 7/77. Secret. <persName corresp="#p_CJE_1"
+                                >Carter</persName> initialed the memorandum and wrote, “<persName
+                                corresp="#p_VCR_1">Cy</persName>.”</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -5099,18 +5060,16 @@
                     </p>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <div type="document" n="22" xml:id="d22" subtype="historical-document"
                     frus:doc-dateTime-min="1977-07-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-07-13T23:59:59-05:00">
                     <head>22. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d22fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 12, State Department Evening Reports, 7/77.
-                            Secret. <persName corresp="#p_CJE_1">Carter</persName> initialed the
-                            memorandum and wrote “<persName corresp="#p_VCR_1">Cy</persName>—” in
-                            the upper right corner.</note>
+                            >Carter</persName><note n="1" xml:id="d22fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 12, State Department
+                            Evening Reports, 7/77. Secret. <persName corresp="#p_CJE_1"
+                                >Carter</persName> initialed the memorandum and wrote “<persName
+                                corresp="#p_VCR_1">Cy</persName>—” in the upper right corner.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -5144,7 +5103,6 @@
                         spread to the units in the Ogaden.</p>
                     <p>[Omitted here are items unrelated to the Horn of Africa]</p>
                 </div>
-
                 <div type="document" n="23" xml:id="d23" subtype="historical-document"
                     frus:doc-dateTime-min="1977-07-25T07:38:00-05:00"
                     frus:doc-dateTime-max="1977-07-25T07:38:00-05:00">
@@ -5258,7 +5216,6 @@
                         <signed>Tienken</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="24" xml:id="d24" subtype="historical-document"
                     frus:doc-dateTime-min="1977-08-01T20:57:00-05:00"
                     frus:doc-dateTime-max="1977-08-01T20:57:00-05:00">
@@ -5276,18 +5233,16 @@
                             >PRC</gloss> 033 Horn of Africa, 8/25/77. Secret; Codeword. 2 pages not
                         declassified.]</note>
                 </div>
-
                 <pb n="60" facs="0095" xml:id="pg_60"/>
                 <div type="document" n="25" xml:id="d25" subtype="historical-document"
                     frus:doc-dateTime-min="1977-08-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-08-03T23:59:59-05:00">
                     <head>25. Memorandum From Acting Secretary of State <persName corresp="#p_CWM_1"
                             >Christopher</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d25fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 12, State Department Evening Reports, 8/77.
-                            Secret. In the upper right corner, <persName corresp="#p_CJE_1"
-                                >Carter</persName> initialed and wrote, “<persName
+                            >Carter</persName><note n="1" xml:id="d25fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 12, State Department
+                            Evening Reports, 8/77. Secret. In the upper right corner, <persName
+                                corresp="#p_CJE_1">Carter</persName> initialed and wrote, “<persName
                                 corresp="#p_CWM_1">Warren</persName>.”</note>
                     </head>
                     <opener>
@@ -5329,7 +5284,6 @@
                             Ogaden. (Ibid.)</note>
                     </p>
                 </div>
-
                 <pb n="61" facs="0096" xml:id="pg_61"/>
                 <div type="document" n="26" xml:id="d26" subtype="historical-document"
                     frus:doc-dateTime-min="1977-08-24T00:00:00-05:00"
@@ -5459,7 +5413,6 @@
                         that could ultimately benefit all the countries there. As an ultimate aim,
                         some sort of regional federation makes sense . . .</p>
                 </div>
-
                 <pb n="64" facs="0099" xml:id="pg_64"/>
                 <div type="document" n="27" xml:id="d27" subtype="historical-document"
                     frus:doc-dateTime-min="1977-08-25T09:00:00-05:00"
@@ -5607,7 +5560,6 @@
                         other Africans to feel a sense of responsibility for what is happening
                         between Ethiopia and Somalia.</p>
                 </div>
-
                 <div type="document" n="28" xml:id="d28" subtype="historical-document"
                     frus:doc-dateTime-min="1977-08-26T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-08-26T23:59:59-05:00">
@@ -5674,7 +5626,6 @@
                             option and wrote, “JC.”</note>
                     </p>
                 </div>
-
                 <pb n="67" facs="0102" xml:id="pg_67"/>
                 <div type="document" n="29" xml:id="d29" subtype="historical-document"
                     frus:doc-dateTime-min="1977-09-19T00:00:00-05:00"
@@ -5848,14 +5799,13 @@
                     <p>I will prepare a brief summary of conclusions from my entire trip for passing
                         on to the President if you wish.</p>
                 </div>
-
                 <div type="document" n="30" xml:id="d30" subtype="historical-document"
                     frus:doc-dateTime-min="1977-09-27T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-09-27T23:59:59-05:00">
                     <head>30. Memorandum from the Vice President’s Assistant for National Security
                         Affairs (<persName corresp="#p_CAD_1">Clift</persName>) to Vice President
-                            <persName corresp="#p_MWF_1">Mondale</persName>
-                        <note n="1" xml:id="d30fn1" type="source">Source: Carter Library, Papers of
+                            <persName corresp="#p_MWF_1">Mondale</persName><note n="1"
+                            xml:id="d30fn1" type="source">Source: Carter Library, Papers of
                                 <persName corresp="#p_MWF_1">Walter F. Mondale</persName>, Box 42,
                             Foreign Countries—Africa, 7–12/77 [2]. Confidential. Sent for
                             information.</note>
@@ -5897,9 +5847,9 @@
                             <hi rend="strong">Tab A</hi>
                         </note>
                         <head>
-                            <hi rend="strong">Memorandum of Conversation</hi>
-                            <note n="3" xml:id="d30fn3">Limited Official Use. The memorandum of
-                                conversation is marked “Draft.”</note>
+                            <hi rend="strong">Memorandum of Conversation</hi><note n="3"
+                                xml:id="d30fn3">Limited Official Use. The memorandum of conversation
+                                is marked “Draft.”</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date when="1977-09-26"
@@ -6062,18 +6012,17 @@
                         </p>
                     </frus:attachment>
                 </div>
-
                 <pb n="74" facs="0109" xml:id="pg_74"/>
                 <div type="document" n="31" xml:id="d31" subtype="historical-document"
                     frus:doc-dateTime-min="1977-10-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-10-12T23:59:59-05:00">
                     <head>31. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d31fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 13, State Department Evening Reports, 10/77.
-                            Secret. The President initialed in the upper right corner and wrote,
-                                “<persName corresp="#p_VCR_1">Cy</persName>.”</note>
+                            >Carter</persName><note n="1" xml:id="d31fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 13, State Department
+                            Evening Reports, 10/77. Secret. The President initialed in the upper
+                            right corner and wrote, “<persName corresp="#p_VCR_1"
+                            >Cy</persName>.”</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -6137,17 +6086,15 @@
                         French soundings in Gabon, Ivory Coast, Senegal and Cameroon.</p>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <div type="document" n="32" xml:id="d32" subtype="historical-document"
                     frus:doc-dateTime-min="1977-10-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-10-20T23:59:59-05:00">
                     <head>32. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d32fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 13, State Department Evening Reports, 10/77.
-                            Secret. In the upper right corner, <persName corresp="#p_CJE_1"
-                                >Carter</persName> initialed and wrote, “<persName
+                            >Carter</persName><note n="1" xml:id="d32fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 13, State Department
+                            Evening Reports, 10/77. Secret. In the upper right corner, <persName
+                                corresp="#p_CJE_1">Carter</persName> initialed and wrote, “<persName
                                 corresp="#p_VCR_1">Cy</persName>.”</note>
                     </head>
                     <opener>
@@ -6211,14 +6158,13 @@
                     </p>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <div type="document" n="33" xml:id="d33" subtype="historical-document"
                     frus:doc-dateTime-min="1977-10-27T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-10-27T23:59:59-05:00">
                     <head>33. Memorandum From the Vice President’s Assistant for National Security
                         Affairs (<persName corresp="#p_CAD_1">Clift</persName>) to Vice President
-                            <persName corresp="#p_MWF_1">Mondale</persName>
-                        <note n="1" xml:id="d33fn1" type="source">Source: Carter Library, Papers of
+                            <persName corresp="#p_MWF_1">Mondale</persName><note n="1"
+                            xml:id="d33fn1" type="source">Source: Carter Library, Papers of
                                 <persName corresp="#p_MWF_1">Walter F. Mondale</persName>, Box 42,
                             Foreign Countries—Africa, 7–12/77 [2]. Limited Official Use. Sent for
                             information.</note>
@@ -6262,18 +6208,16 @@
                         We intend to contribute an appropriate amount to any appeal the <gloss
                             target="#t_UNHCR_1">UNHCR</gloss> makes.</p>
                 </div>
-
                 <div type="document" n="34" xml:id="d34" subtype="historical-document"
                     frus:doc-dateTime-min="1977-11-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-11-12T23:59:59-05:00">
                     <head>34. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d34fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 13, State Department Evening Reports, 11/77.
-                            Secret. <persName corresp="#p_CJE_1">Carter</persName> initialed in the
-                            upper right corner and wrote, “<persName corresp="#p_VCR_1"
-                                >Cy</persName>.”</note>
+                            >Carter</persName><note n="1" xml:id="d34fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 13, State Department
+                            Evening Reports, 11/77. Secret. <persName corresp="#p_CJE_1"
+                                >Carter</persName> initialed in the upper right corner and wrote,
+                                “<persName corresp="#p_VCR_1">Cy</persName>.”</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -6318,8 +6262,7 @@
                             <hi rend="strong">Draft Letter From President <persName
                                     corresp="#p_CJE_1">Carter</persName> to Somali President
                                     <persName corresp="#p_SBM_1">Siad</persName>
-                            </hi>
-                            <note n="4" xml:id="d34fn4">No classification marking. In the upper
+                            </hi><note n="4" xml:id="d34fn4">No classification marking. In the upper
                                 right corner, <persName corresp="#p_CJE_1">Carter</persName>
                                 initialed and wrote, “ok.” In telegram 277991 to Mogadiscio,
                                 November 19, the Department transmitted <persName corresp="#p_CJE_1"
@@ -6379,25 +6322,23 @@
                         <p>Respectfully,</p>
                         <closer>
                             <signed corresp="#p_CJE_1">
-                                <persName corresp="#p_CJE_1">Jimmy Carter</persName>
-                                <note n="7" xml:id="d34fn7">The draft letter bears this typed
+                                <persName corresp="#p_CJE_1">Jimmy Carter</persName><note n="7"
+                                    xml:id="d34fn7">The draft letter bears this typed
                                     signature.</note>
                             </signed>
                         </closer>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="35" xml:id="d35" subtype="historical-document"
                     frus:doc-dateTime-min="1977-11-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-11-28T23:59:59-05:00">
                     <head>35. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d35fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 13, State Department Evening Reports, 11/77.
-                            Secret. <persName corresp="#p_CJE_1">Carter</persName> initialed in the
-                            upper right corner and wrote, “<persName corresp="#p_VCR_1"
-                                >Cy</persName>.”</note>
+                            >Carter</persName><note n="1" xml:id="d35fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 13, State Department
+                            Evening Reports, 11/77. Secret. <persName corresp="#p_CJE_1"
+                                >Carter</persName> initialed in the upper right corner and wrote,
+                                “<persName corresp="#p_VCR_1">Cy</persName>.”</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -6434,16 +6375,15 @@
                         Ogaden and northern Somalia.</p>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <div type="document" n="36" xml:id="d36" subtype="historical-document"
                     frus:doc-dateTime-min="1977-12-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-12-20T23:59:59-05:00">
                     <head>36. Memorandum From the Assistant Secretary of Defense for International
                         Security Affairs (<persName corresp="#p_MDE_1">McGiffert</persName>) to
-                        Secretary of Defense <persName corresp="#p_BH_1">Brown</persName>
-                        <note n="1" xml:id="d36fn1" type="source">Source: Library of Congress,
-                                <persName corresp="#p_BH_1">Harold Brown</persName> Papers, Box 8,
-                            Horn of Africa. No classification marking.</note>
+                        Secretary of Defense <persName corresp="#p_BH_1">Brown</persName><note n="1"
+                            xml:id="d36fn1" type="source">Source: Library of Congress, <persName
+                                corresp="#p_BH_1">Harold Brown</persName> Papers, Box 8, Horn of
+                            Africa. No classification marking.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -6475,8 +6415,8 @@
                         wallow.</p>
                     <p rend="right">
                         <hi rend="strong">
-                            <persName corresp="#p_MDE_1">David E. McGiffert</persName>
-                            <note n="3" xml:id="d36fn3">Printed from a copy that indicates <persName
+                            <persName corresp="#p_MDE_1">David E. McGiffert</persName><note n="3"
+                                xml:id="d36fn3">Printed from a copy that indicates <persName
                                     corresp="#p_MDE_1">McGiffert</persName> signed the
                                 original.</note>
                         </hi>
@@ -6487,8 +6427,8 @@
                             <hi rend="strong">Tab A</hi>
                         </note>
                         <head>
-                            <hi rend="strong">Memorandum</hi>
-                            <note n="4" xml:id="d36fn4">No classification marking.</note>
+                            <hi rend="strong">Memorandum</hi><note n="4" xml:id="d36fn4">No
+                                classification marking.</note>
                         </head>
                         <p>This memo addresses hypothetical courses of action to further our
                             policies on the Horn, including the full range of military options to
@@ -6609,7 +6549,6 @@
                             public.</p>
                     </frus:attachment>
                 </div>
-
                 <pb n="84" facs="0119" xml:id="pg_84"/>
                 <div type="document" n="37" xml:id="d37" subtype="historical-document"
                     frus:doc-dateTime-min="1977-12-21T15:30:00-05:00"
@@ -6753,18 +6692,16 @@
                         proposal would be deferred until the whole Horn situation was reviewed again
                         in January.</p>
                 </div>
-
                 <div type="document" n="38" xml:id="d38" subtype="historical-document"
                     frus:doc-dateTime-min="1977-12-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-12-23T23:59:59-05:00">
                     <head>38. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d38fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 13, State Department Evening Reports, 12/77.
-                            Secret. <persName corresp="#p_CJE_1">Carter</persName> initialed in the
-                            upper right corner and wrote, “Merry Christmas—<persName
-                                corresp="#p_VCR_1">Cy</persName>.”</note>
+                            >Carter</persName><note n="1" xml:id="d38fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 13, State Department
+                            Evening Reports, 12/77. Secret. <persName corresp="#p_CJE_1"
+                                >Carter</persName> initialed in the upper right corner and wrote,
+                            “Merry Christmas—<persName corresp="#p_VCR_1">Cy</persName>.”</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -6800,7 +6737,6 @@
                     </p>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <div type="document" n="39" xml:id="d39" subtype="historical-document"
                     frus:doc-dateTime-min="1978-01-05T08:00:00-05:00"
                     frus:doc-dateTime-max="1978-01-05T10:30:00-05:00">
@@ -7082,7 +7018,6 @@
                         France had taken in this direction.</p>
                     <p>[Omitted here is discussion unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <pb n="91" facs="0126" xml:id="pg_91"/>
                 <div type="document" n="40" xml:id="d40" subtype="historical-document"
                     frus:doc-dateTime-min="1978-01-11T05:39:00-05:00"
@@ -7119,15 +7054,14 @@
                         offers to Israel because he wishes to tidy up his eastern front in order to
                         concentrate on more pernicious dangers elsewhere.</p>
                 </div>
-
                 <pb n="92" facs="0127" xml:id="pg_92"/>
                 <div type="document" n="41" xml:id="d41" subtype="historical-document"
                     frus:doc-dateTime-min="1978-01-19T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-01-19T23:59:59-05:00">
                     <head>41. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d41fn1" type="source">Source: Carter Library, <persName
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d41fn1" type="source">Source: Carter Library, <persName
                                 corresp="#p_BZ_1">Brzezinski</persName> Donated Material, Box 2,
                             Ethiopia/Horn of Africa. Secret; Sensitive; Outside the System. Sent for
                             action.</note>
@@ -7222,14 +7156,13 @@
                             and wrote “J” beneath the options.</note>
                     </p>
                 </div>
-
                 <pb n="94" facs="0129" xml:id="pg_94"/>
                 <div type="document" n="42" xml:id="d42" subtype="historical-document"
                     frus:doc-dateTime-min="1978-01-19T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-01-19T23:59:59-05:00">
                     <head>42. Message From President <persName corresp="#p_CJE_1">Carter</persName>
-                        to Ethiopian Chairman <persName corresp="#p_MHM_1">Mengistu</persName>
-                        <note n="1" xml:id="d42fn1" type="source">Source: Carter Library, <persName
+                        to Ethiopian Chairman <persName corresp="#p_MHM_1">Mengistu</persName><note
+                            n="1" xml:id="d42fn1" type="source">Source: Carter Library, <persName
                                 corresp="#p_BZ_1">Brzezinski</persName> Donated Material, Box 2,
                             Ethiopia/Horn of Africa. No classification marking.</note>
                     </head>
@@ -7276,7 +7209,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="95" facs="0130" xml:id="pg_95"/>
                 <div type="document" n="43" xml:id="d43" subtype="historical-document"
                     frus:doc-dateTime-min="1978-01-19T00:00:00-05:00"
@@ -7359,7 +7291,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="97" facs="0132" xml:id="pg_97"/>
                 <div type="document" n="44" xml:id="d44" subtype="historical-document"
                     frus:doc-dateTime-min="1978-01-24T00:00:00-05:00"
@@ -7416,16 +7347,15 @@
                         </note>
                         <head>
                             <hi rend="strong">Telegram From the Department of State to Selected
-                                Diplomatic Posts</hi>
-                            <note n="4" xml:id="d44fn4">Confidential; Immediate; Exdis. Sent to
-                                Addis Ababa, Bonn, London, Lagos, Mogadiscio, Paris, and Rome.
-                                Repeated for information Priority to Antananarivo, Cairo, Damascus,
-                                Djibouti, <gloss target="#t_USINT_1">USINT</gloss> Havana,
-                                Islamabad, Jidda, Khartoum, Moscow, Nairobi, Sana, Tehran, <gloss
-                                    target="#t_USUN_1">USUN</gloss>, Amman, and <gloss
-                                    target="#t_USNATO_1">USNATO</gloss>. Another copy of the
-                                telegram is in the National Archives, RG 59, Central Foreign Policy
-                                File, D780035–0227.</note>
+                                Diplomatic Posts</hi><note n="4" xml:id="d44fn4">Confidential;
+                                Immediate; Exdis. Sent to Addis Ababa, Bonn, London, Lagos,
+                                Mogadiscio, Paris, and Rome. Repeated for information Priority to
+                                Antananarivo, Cairo, Damascus, Djibouti, <gloss target="#t_USINT_1"
+                                    >USINT</gloss> Havana, Islamabad, Jidda, Khartoum, Moscow,
+                                Nairobi, Sana, Tehran, <gloss target="#t_USUN_1">USUN</gloss>,
+                                Amman, and <gloss target="#t_USNATO_1">USNATO</gloss>. Another copy
+                                of the telegram is in the National Archives, RG 59, Central Foreign
+                                Policy File, D780035–0227.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
@@ -7721,20 +7651,18 @@
                         </closer>
                     </frus:attachment>
                 </div>
-
                 <pb n="104" facs="0139" xml:id="pg_104"/>
                 <div type="document" n="45" xml:id="d45" subtype="historical-document"
                     frus:doc-dateTime-min="1978-01-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-01-25T23:59:59-05:00">
                     <head>45. Memorandum From the Deputy Under Secretary of Defense for Policy
                         (Murphy) to Secretary of Defense <persName corresp="#p_BH_1"
-                            >Brown</persName>
-                        <note n="1" xml:id="d45fn1" type="source">Source: Library of Congress,
-                                <persName corresp="#p_BH_1">Harold Brown</persName> Papers, Box 50,
-                            1978 Africa, Horn of Africa. Secret; Noforn. Approved by <persName
-                                corresp="#p_MDE_1">McGiffert</persName>. A stamped notation
-                            indicates that <persName corresp="#p_BH_1">Brown</persName> saw this
-                            memorandum on February 1.</note>
+                            >Brown</persName><note n="1" xml:id="d45fn1" type="source">Source:
+                            Library of Congress, <persName corresp="#p_BH_1">Harold Brown</persName>
+                            Papers, Box 50, 1978 Africa, Horn of Africa. Secret; Noforn. Approved by
+                                <persName corresp="#p_MDE_1">McGiffert</persName>. A stamped
+                            notation indicates that <persName corresp="#p_BH_1">Brown</persName> saw
+                            this memorandum on February 1.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -7796,7 +7724,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="46" xml:id="d46" subtype="historical-document"
                     frus:doc-dateTime-min="1978-01-26T19:00:00-05:00"
                     frus:doc-dateTime-max="1978-01-26T20:45:00-05:00">
@@ -7950,17 +7877,16 @@
                     <p>• A determined effort will be made to avoid unnecessary publicity about the
                         Administration’s stance and actions in respect to the Horn.</p>
                 </div>
-
                 <div type="document" n="47" xml:id="d47" subtype="historical-document"
                     frus:doc-dateTime-min="1978-01-30T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-01-30T23:59:59-05:00">
                     <head>47. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d47fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 13, State Department Evening Reports, 1/78.
-                            Secret. <persName corresp="#p_CJE_1">Carter</persName> initialed and
-                            wrote, “<persName corresp="#p_VCR_1">Cy</persName>.”</note>
+                            >Carter</persName><note n="1" xml:id="d47fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 13, State Department
+                            Evening Reports, 1/78. Secret. <persName corresp="#p_CJE_1"
+                                >Carter</persName> initialed and wrote, “<persName
+                                corresp="#p_VCR_1">Cy</persName>.”</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -8007,7 +7933,7 @@
                         before February 13, at the earliest, and the freight forwarder will notify
                         us before any movement occurs, so we have a little time. We plan tomorrow to
                         instruct our Charge to inquire of the ruling military group about a response
-                        to your letter. <note n="4" xml:id="d47fn4">
+                        to your letter.<note n="4" xml:id="d47fn4">
                             <persName corresp="#p_CJE_1">Carter</persName> wrote “good” in the left
                             margin. In his response to <persName corresp="#p_CJE_1"
                                 >Carter</persName>’s message, <persName corresp="#p_MHM_1"
@@ -8018,30 +7944,29 @@
                     </p>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <pb n="109" facs="0144" xml:id="pg_109"/>
                 <div type="document" n="48" xml:id="d48" subtype="historical-document"
                     frus:doc-dateTime-min="1978-01-31T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-01-31T23:59:59-05:00">
                     <head>48. Letter From President <persName corresp="#p_CJE_1">Carter</persName>
-                        to Nigerian Head of State <persName corresp="#p_OO_1">Obasanjo</persName>
-                        <note n="1" xml:id="d48fn1" type="source">Source: Carter Library, Staff
+                        to Nigerian Head of State <persName corresp="#p_OO_1"
+                            >Obasanjo</persName><note n="1" xml:id="d48fn1" type="source">Source:
+                            Carter Library, Staff Office, Brzezinski Material, President’s
+                            Correspondence with Foreign Leaders, Box 14, Nigeria: <persName
+                                corresp="#p_OO_1">Obasanjo</persName>, 1/77–5/78. No classification
+                            marking. Similar letters were sent to <persName corresp="#p_GDV_1"
+                                >Giscard</persName> on January 27 (Carter Library, Staff Office,
+                            Brzezinski Material, President’s Correspondence with Foreign Leaders,
+                            Box 6, France: President <persName corresp="#p_GDV_1"
+                            >Giscard</persName>, 2/77–11/78); <persName corresp="#p_TJB_1"
+                                >Tito</persName> on January 31 (Carter Library, Staff Office,
+                            Brzezinski Material, President’s Correspondence with Foreign Leaders,
+                            Box 21, Yugoslavia: <persName corresp="#p_TJB_1">Tito</persName>); Pérez
+                            on February 1 (Carter Library, Staff Office, Brzezinski Material,
+                            President’s Correspondence with Foreign Leaders, Box 21, Venezuela:
+                            Perez, 2/77–5/78); and Desai on January 31 (Carter Library, Staff
                             Office, Brzezinski Material, President’s Correspondence with Foreign
-                            Leaders, Box 14, Nigeria: <persName corresp="#p_OO_1"
-                                >Obasanjo</persName>, 1/77–5/78. No classification marking. Similar
-                            letters were sent to <persName corresp="#p_GDV_1">Giscard</persName> on
-                            January 27 (Carter Library, Staff Office, Brzezinski Material,
-                            President’s Correspondence with Foreign Leaders, Box 6, France:
-                            President <persName corresp="#p_GDV_1">Giscard</persName>, 2/77–11/78);
-                                <persName corresp="#p_TJB_1">Tito</persName> on January 31 (Carter
-                            Library, Staff Office, Brzezinski Material, President’s Correspondence
-                            with Foreign Leaders, Box 21, Yugoslavia: <persName corresp="#p_TJB_1"
-                                >Tito</persName>); Pérez on February 1 (Carter Library, Staff
-                            Office, Brzezinski Material, President’s Correspondence with Foreign
-                            Leaders, Box 21, Venezuela: Perez, 2/77–5/78); and Desai on January 31
-                            (Carter Library, Staff Office, Brzezinski Material, President’s
-                            Correspondence with Foreign Leaders, Box 8, India: Desai,
-                            1–7/78).</note>
+                            Leaders, Box 8, India: Desai, 1–7/78).</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -8104,7 +8029,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="49" xml:id="d49" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-02T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-02-02T23:59:59-05:00">
@@ -8150,12 +8074,13 @@
                         Government directly in the action. State would like to see the publicizing
                         of this information stretched out over a longer period of time but also
                         points out that statements such as this seem to go contrary to the
-                        conclusions reached in last Thursday’s <gloss target="#t_SCC_1">SCC</gloss>
-                        <note n="3" xml:id="d49fn3">See <ref target="#d46">Document 46</ref>.</note>
-                        about not giving each increase in numbers of Cubans or Soviets so much
-                        publicity that the press continually concentrates on this subject and
-                        dramatizes the problem of the Horn in ways that can generate pressures on
-                        the Administration that may eventually become very uncomfortable.</p>
+                        conclusions reached in last Thursday’s <gloss target="#t_SCC_1"
+                            >SCC</gloss><note n="3" xml:id="d49fn3">See <ref target="#d46">Document
+                                46</ref>.</note> about not giving each increase in numbers of Cubans
+                        or Soviets so much publicity that the press continually concentrates on this
+                        subject and dramatizes the problem of the Horn in ways that can generate
+                        pressures on the Administration that may eventually become very
+                        uncomfortable.</p>
                     <p>As you know, I am not normally inclined toward passivity on topics such as
                         this, but here I think both <gloss target="#t_CIA_1">CIA</gloss> and State
                         have a point and the President’s tendency to want to see this sort of thing
@@ -8163,7 +8088,6 @@
                         unintended consequences as well as the longer-range results we wish to
                         achieve . . .</p>
                 </div>
-
                 <pb n="112" facs="0147" xml:id="pg_112"/>
                 <div type="document" n="50" xml:id="d50" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-02T00:00:00-05:00"
@@ -8213,16 +8137,15 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="113" facs="0148" xml:id="pg_113"/>
                 <div type="document" n="51" xml:id="d51" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-02-03T23:59:59-05:00">
                     <head>51. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to Secretary of
-                        Defense <persName corresp="#p_BH_1">Brown</persName>
-                        <note n="1" xml:id="d51fn1" type="source">Source: Carter Library, National
-                            Security Council, Institutional Files 1977–1981, Box 184, <gloss
+                        Defense <persName corresp="#p_BH_1">Brown</persName><note n="1"
+                            xml:id="d51fn1" type="source">Source: Carter Library, National Security
+                            Council, Institutional Files 1977–1981, Box 184, <gloss
                                 target="#t_SCC_1">SCC</gloss> 055 Horn of Africa, 1/26/78. Secret;
                             Sensitive.</note>
                     </head>
@@ -8267,7 +8190,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="114" facs="0149" xml:id="pg_114"/>
                 <div type="document" n="52" xml:id="d52" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-03T00:00:00-05:00"
@@ -8385,19 +8307,17 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="53" xml:id="d53" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-02-04T23:59:59-05:00">
                     <head>53. Briefing Memorandum From the Director of the Bureau of Intelligence
                         and Research (<persName corresp="#p_SHH_1">Saunders</persName>) to Secretary
-                        of State <persName corresp="#p_VCR_1">Vance</persName>
-                        <note n="1" xml:id="d53fn1" type="source">Source: Carter Library, National
-                            Security Affairs, Brzezinski Material, Country File, Box 21, Ethiopia:
-                                <persName corresp="#p_ADL_1">Aaron</persName> (<persName
-                                corresp="#p_ADL_1">David</persName>) trip, 2/78. Secret; Noforn.
-                            Drafted by Randall T. Elliott (<gloss target="#t_INR_1"
-                            >INR</gloss>/PMT).</note>
+                        of State <persName corresp="#p_VCR_1">Vance</persName><note n="1"
+                            xml:id="d53fn1" type="source">Source: Carter Library, National Security
+                            Affairs, Brzezinski Material, Country File, Box 21, Ethiopia: <persName
+                                corresp="#p_ADL_1">Aaron</persName> (<persName corresp="#p_ADL_1"
+                                >David</persName>) trip, 2/78. Secret; Noforn. Drafted by Randall T.
+                            Elliott (<gloss target="#t_INR_1">INR</gloss>/PMT).</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -8525,7 +8445,6 @@
                         to doubt their capability to get men and material to Somalia expeditiously,
                         should the political decisions be made to do so.</p>
                 </div>
-
                 <pb n="119" facs="0154" xml:id="pg_119"/>
                 <div type="document" n="54" xml:id="d54" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-10T00:00:00-05:00"
@@ -8890,7 +8809,6 @@
                             shipments of spare parts to Ethiopia, pending events.</note>
                     </p>
                 </div>
-
                 <pb n="125" facs="0160" xml:id="pg_125"/>
                 <div type="document" n="55" xml:id="d55" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-10T00:00:00-05:00"
@@ -9051,7 +8969,6 @@
                             percent.)</p>
                     </frus:attachment>
                 </div>
-
                 <pb n="128" facs="0163" xml:id="pg_128"/>
                 <div type="document" n="56" xml:id="d56" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-14T00:00:00-05:00"
@@ -9161,7 +9078,6 @@
                         within a definite time period, such as two weeks.</p>
                     <p>[Omitted here is discussion unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <div type="document" n="57" xml:id="d57" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-17T12:59:00-05:00"
                     frus:doc-dateTime-max="1978-02-17T12:59:00-05:00">
@@ -9228,7 +9144,6 @@
                         <signed>Matheron</signed>
                     </closer>
                 </div>
-
                 <pb n="131" facs="0166" xml:id="pg_131"/>
                 <div type="document" n="58" xml:id="d58" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-21T15:30:00-05:00"
@@ -10172,7 +10087,6 @@
                         call Senator Sparkman and Congressman <persName corresp="#p_ZCJ_1"
                             >Zablocki</persName> to report on his trip to Ethiopia.</p>
                 </div>
-
                 <pb n="144" facs="0179" xml:id="pg_144"/>
                 <div type="document" n="59" xml:id="d59" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-22T00:00:00-05:00"
@@ -10231,16 +10145,15 @@
                         RUFF/NOFORN/NOCONTRACT/ORCON/EXDIS)</p>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <div type="document" n="60" xml:id="d60" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-02-22T23:59:59-05:00">
                     <head>60. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d60fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 13, State Department Evening Reports, 2/78.
-                            Secret. The President initialed the memorandum.</note>
+                            >Carter</persName><note n="1" xml:id="d60fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 13, State Department
+                            Evening Reports, 2/78. Secret. The President initialed the
+                            memorandum.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -10306,7 +10219,6 @@
                         to cross the border.</p>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <div type="document" n="61" xml:id="d61" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-02-23T23:59:59-05:00">
@@ -10439,7 +10351,6 @@
                             Somalia? In Ethiopia? In Djibouti?</hi>
                     </p>
                 </div>
-
                 <pb n="149" facs="0184" xml:id="pg_149"/>
                 <div type="document" n="62" xml:id="d62" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-23T11:00:00-05:00"
@@ -11228,18 +11139,17 @@
                         <hi rend="italic">Secretary <persName corresp="#p_VCR_1">Vance</persName>
                         </hi> noted that this report was interesting, but highly unreliable.</p>
                 </div>
-
                 <div type="document" n="63" xml:id="d63" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-02-24T23:59:59-05:00">
                     <head>63. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d63fn1" type="source">Source: Carter Library, National
-                            Security Council, Institutional Files 1977–1981, Box 55, <gloss
-                                target="#t_NSC_1">NSC</gloss> 8, 2/23/78. Top Secret; Sensitive.
-                                <persName corresp="#p_CJE_1">Carter</persName> initialed in the
-                            upper right corner.</note>
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d63fn1" type="source">Source: Carter Library, National Security
+                            Council, Institutional Files 1977–1981, Box 55, <gloss target="#t_NSC_1"
+                                >NSC</gloss> 8, 2/23/78. Top Secret; Sensitive. <persName
+                                corresp="#p_CJE_1">Carter</persName> initialed in the upper right
+                            corner.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -11354,7 +11264,6 @@
                             objections. J.”</note>
                     </p>
                 </div>
-
                 <pb n="163" facs="0198" xml:id="pg_163"/>
                 <div type="document" n="64" xml:id="d64" subtype="historical-document"
                     frus:doc-dateTime-min="1978-02-24T00:00:00-05:00"
@@ -11452,7 +11361,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="165" facs="0200" xml:id="pg_165"/>
                 <div type="document" n="65" xml:id="d65" subtype="historical-document"
                     frus:doc-dateTime-min="1978-03-02T12:50:00-05:00"
@@ -12351,15 +12259,14 @@
                         <gloss target="#t_CV_1">CV</gloss>: We are going to have to move fast on
                         this.</p>
                 </div>
-
                 <div type="document" n="66" xml:id="d66" subtype="historical-document"
                     frus:doc-dateTime-min="1978-03-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-03-03T23:59:59-05:00">
                     <head>66. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d66fn1" type="source">Source: Carter Library, National
-                            Security Council, Institutional Files 1977–1981, Box 184, <gloss
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d66fn1" type="source">Source: Carter Library, National Security
+                            Council, Institutional Files 1977–1981, Box 184, <gloss
                                 target="#t_SCC_1">SCC</gloss> 061 Horn of Africa, 3/02/78. Top
                             Secret; Sensitive. <persName corresp="#p_CJE_1">Carter</persName>
                             initialed the memorandum and wrote, “I’m concerned, but we mustn’t
@@ -12559,7 +12466,6 @@
                         make the Soviets weigh to a greater extent the consequences of their
                         assertiveness for detente as a whole.</p>
                 </div>
-
                 <pb n="182" facs="0217" xml:id="pg_182"/>
                 <div type="document" n="67" xml:id="d67" subtype="historical-document"
                     frus:doc-dateTime-min="1978-03-06T00:00:00-05:00"
@@ -12664,7 +12570,6 @@
                         movements.</p>
                     <p>VII. [<hi rend="italic">5 lines not declassified</hi>]</p>
                 </div>
-
                 <div type="document" n="68" xml:id="d68" subtype="historical-document"
                     frus:doc-dateTime-min="1978-03-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-03-06T23:59:59-05:00">
@@ -12759,7 +12664,6 @@
                         privately, even if potential foreign donors stipulated that their assistance
                         could be used for defensive purposes only.</p>
                 </div>
-
                 <pb n="186" facs="0221" xml:id="pg_186"/>
                 <div type="document" n="69" xml:id="d69" subtype="historical-document"
                     frus:doc-dateTime-min="1978-03-06T09:07:00-05:00"
@@ -12811,7 +12715,6 @@
                         <signed>Matheron</signed>
                     </closer>
                 </div>
-
                 <pb n="187" facs="0222" xml:id="pg_187"/>
                 <div type="document" n="70" xml:id="d70" subtype="historical-document"
                     frus:doc-dateTime-min="1978-03-07T12:40:00-05:00"
@@ -12922,17 +12825,15 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="189" facs="0224" xml:id="pg_189"/>
                 <div type="document" n="71" xml:id="d71" subtype="historical-document"
                     frus:doc-dateTime-min="1978-03-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-03-07T23:59:59-05:00">
                     <head>71. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d71fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 13, State Department Evening Reports, 3/78.
-                            Secret.</note>
+                            >Carter</persName><note n="1" xml:id="d71fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 13, State Department
+                            Evening Reports, 3/78. Secret.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -12959,7 +12860,6 @@
                         Somalia’s territory is invaded.</p>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <pb n="190" facs="0225" xml:id="pg_190"/>
                 <div type="document" n="72" xml:id="d72" subtype="historical-document"
                     frus:doc-dateTime-min="1978-03-09T10:33:00-05:00"
@@ -13043,7 +12943,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="73" xml:id="d73" subtype="historical-document"
                     frus:doc-dateTime-min="1978-03-10T15:00:00-05:00"
                     frus:doc-dateTime-max="1978-03-10T16:15:00-05:00">
@@ -13098,9 +12997,9 @@
                                         Sec/<gloss target="#t_ISA_1">ISA</gloss>)</item>
                             </list>
                         </item>
+                        <pb n="192" facs="0227" xml:id="pg_192"/>
                         <item>
                             <list>
-                                <pb n="192" facs="0227" xml:id="pg_192"/>
                                 <head>
                                     <hi rend="italic">
                                         <gloss target="#t_JCS_1">JCS</gloss>
@@ -13251,17 +13150,16 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="74" xml:id="d74" subtype="historical-document"
                     frus:doc-dateTime-min="1978-03-14T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-03-14T23:59:59-05:00">
                     <head>74. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d74fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 13, State Department Evening Reports, 3/78.
-                            Secret. The President initialed and wrote “<persName corresp="#p_VCR_1"
-                                >Cy</persName>” in the upper right corner.</note>
+                            >Carter</persName><note n="1" xml:id="d74fn1" type="source">Source:
+                            Carter Library, Plains File, Subject File, Box 13, State Department
+                            Evening Reports, 3/78. Secret. The President initialed and wrote
+                                “<persName corresp="#p_VCR_1">Cy</persName>” in the upper right
+                            corner.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -13315,7 +13213,6 @@
                         on the Kenyans’ request for our security assistance.</p>
                     <p>[Omitted here are items unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <div type="document" n="75" xml:id="d75" subtype="historical-document"
                     frus:doc-dateTime-min="1978-03-16T17:00:00-05:00"
                     frus:doc-dateTime-max="1978-03-16T18:30:00-05:00">
@@ -13440,7 +13337,6 @@
                             </list>
                         </item>
                     </list>
-
                     <p rend="center">
                         <hi rend="italic">SUMMARY OF CONCLUSIONS</hi>
                     </p>
@@ -13563,7 +13459,6 @@
                     <p>• Cuba (and Savimbi)</p>
                     <p>• Eritrea</p>
                 </div>
-
                 <div type="document" n="76" xml:id="d76" subtype="historical-document"
                     frus:doc-dateTime-min="1978-03-27T16:00:00-05:00"
                     frus:doc-dateTime-max="1978-03-27T17:45:00-05:00">
@@ -13584,7 +13479,6 @@
                         <head>SUBJECT</head>
                         <item>Horn of Africa</item>
                     </list>
-
                     <list type="participants">
                         <item>
                             <list>
@@ -13616,9 +13510,9 @@
                                     (Ass’t. Secretary/<gloss target="#t_ISA_1">ISA</gloss>)</item>
                             </list>
                         </item>
+                        <pb n="199" facs="0234" xml:id="pg_199"/>
                         <item>
                             <list>
-                                <pb n="199" facs="0234" xml:id="pg_199"/>
                                 <head>
                                     <hi rend="italic">
                                         <gloss target="#t_JCS_1">JCS</gloss>
@@ -13667,7 +13561,6 @@
                             </list>
                         </item>
                     </list>
-
                     <p rend="center">
                         <hi rend="italic">SUMMARY OF CONCLUSIONS</hi>
                     </p>
@@ -13771,24 +13664,23 @@
                     </p>
                     <p>[Omitted here is discussion unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <pb n="201" facs="0236" xml:id="pg_201"/>
                 <div type="document" n="77" xml:id="d77" subtype="historical-document"
                     frus:doc-dateTime-min="1978-04-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-04-06T23:59:59-05:00">
                     <head>77. Memorandum From the Assistant Secretary of Defense for International
                         Security Affairs (<persName corresp="#p_MDE_1">McGiffert</persName>) to
-                        Secretary of Defense <persName corresp="#p_BH_1">Brown</persName>
-                        <note n="1" xml:id="d77fn1" type="source">Source: Library of Congress,
-                                <persName corresp="#p_BH_1">Harold Brown</persName> Papers, Box 50,
-                            1978 Africa; Horn of Africa. Secret; Sensitive. A stamped notation
-                            indicates that <persName corresp="#p_BH_1">Brown</persName> saw this
-                            memorandum. Beneath the notation, he wrote, “4/6, Save for meeting on
-                            Horn of Africa on 4/7. Ask D <gloss target="#t_McG_1">McG</gloss> to
-                            transform with a memo to <gloss target="#t_CV_1">CV</gloss>/<gloss
-                                target="#t_ZB_1">ZB</gloss> as he suggests in this written note.
-                                <gloss target="#t_HB_1">HB</gloss>.” See <ref target="#d77fn3"
-                                >footnote 3</ref> below.</note>
+                        Secretary of Defense <persName corresp="#p_BH_1">Brown</persName><note n="1"
+                            xml:id="d77fn1" type="source">Source: Library of Congress, <persName
+                                corresp="#p_BH_1">Harold Brown</persName> Papers, Box 50, 1978
+                            Africa; Horn of Africa. Secret; Sensitive. A stamped notation indicates
+                            that <persName corresp="#p_BH_1">Brown</persName> saw this memorandum.
+                            Beneath the notation, he wrote, “4/6, Save for meeting on Horn of Africa
+                            on 4/7. Ask D <gloss target="#t_McG_1">McG</gloss> to transform with a
+                            memo to <gloss target="#t_CV_1">CV</gloss>/<gloss target="#t_ZB_1"
+                                >ZB</gloss> as he suggests in this written note. <gloss
+                                target="#t_HB_1">HB</gloss>.” See <ref target="#d77fn3">footnote
+                                3</ref> below.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -13949,15 +13841,14 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="78" xml:id="d78" subtype="historical-document"
                     frus:doc-dateTime-min="1978-04-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-04-07T23:59:59-05:00">
                     <head>78. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d78fn1" type="source">Source: Carter Library, National
-                            Security Council, Institutional Files 1977–1981, Box 184, <gloss
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d78fn1" type="source">Source: Carter Library, National Security
+                            Council, Institutional Files 1977–1981, Box 184, <gloss
                                 target="#t_SCC_1">SCC</gloss> 068 Horn of Africa, Cuba’s Role in
                             Africa, 3/27/78. Secret; Sensitive. Sent for action. <persName
                                 corresp="#p_CJE_1">Carter</persName> wrote “C” in the upper right
@@ -14035,7 +13926,6 @@
                             violence and foreign military involvement. Let any foreign assistance to
                             insurgents continue without our involvement.”</note> _______</p>
                 </div>
-
                 <pb n="206" facs="0241" xml:id="pg_206"/>
                 <div type="document" n="79" xml:id="d79" subtype="historical-document"
                     frus:doc-dateTime-min="1978-04-07T14:30:00-05:00"
@@ -14248,7 +14138,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="209" facs="0244" xml:id="pg_209"/>
                 <div type="document" n="81" xml:id="d81" subtype="historical-document"
                     frus:doc-dateTime-min="1978-05-08T00:00:00-05:00"
@@ -14337,7 +14226,6 @@
                         banditry, isolated shootings, and general unrest, but may stem from ethnic
                         rivalries.</p>
                 </div>
-
                 <pb n="211" facs="0246" xml:id="pg_211"/>
                 <div type="document" n="82" xml:id="d82" subtype="historical-document"
                     frus:doc-dateTime-min="1978-05-15T14:03:00-05:00"
@@ -14559,7 +14447,6 @@
                         of only marginal significance.</p>
                     <p>[Omitted here is discussion unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <div type="document" n="83" xml:id="d83" subtype="historical-document"
                     frus:doc-dateTime-min="1978-05-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-05-18T23:59:59-05:00">
@@ -14865,7 +14752,6 @@
                         Washington for this purpose, a proposal which was welcomed by the US
                         side.</p>
                 </div>
-
                 <div type="document" n="84" xml:id="d84" subtype="historical-document"
                     frus:doc-dateTime-min="1978-05-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-05-22T23:59:59-05:00">
@@ -15517,7 +15403,6 @@
                         intervention in an internal Ethiopian affair.</p>
                     <p>[Omitted here are annexes A and B.]</p>
                 </div>
-
                 <pb n="234" facs="0269" xml:id="pg_234"/>
                 <div type="document" n="85" xml:id="d85" subtype="historical-document"
                     frus:doc-dateTime-min="1978-05-27T07:00:00-05:00"
@@ -15831,7 +15716,6 @@
                         or Cuban involvement there.</p>
                     <p>[Omitted here is discussion unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <pb n="240" facs="0275" xml:id="pg_240"/>
                 <div type="document" n="86" xml:id="d86" subtype="historical-document"
                     frus:doc-dateTime-min="1978-06-02T00:00:00-05:00"
@@ -15979,7 +15863,6 @@
                         pro-Soviet element in Somalia, has tried to go back and they won’t have
                         him.)</p>
                 </div>
-
                 <pb n="243" facs="0278" xml:id="pg_243"/>
                 <div type="document" n="87" xml:id="d87" subtype="historical-document"
                     frus:doc-dateTime-min="1978-07-27T00:00:00-05:00"
@@ -16290,7 +16173,6 @@
                         />recent months. We can now capitalize on the groundwork we have laid. But
                         we must be patient.</p>
                 </div>
-
                 <div type="document" n="88" xml:id="d88" subtype="historical-document"
                     frus:doc-dateTime-min="1978-07-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-07-28T23:59:59-05:00">
@@ -16315,10 +16197,10 @@
                             1978</item>
                     </list>
                     <p>This meeting has been <hi rend="italic">called at the initiative of <persName
-                                corresp="#p_VCR_1">Cy Vance</persName>.</hi>
-                        <note n="2" xml:id="d88fn2">See <ref target="#d89">Document 89</ref>.</note>
-                        Key questions are: Do we send a military survey team to Mogadiscio? Do we
-                        still consider military aid for Somalia a likely prospect?</p>
+                                corresp="#p_VCR_1">Cy Vance</persName>.</hi><note n="2"
+                            xml:id="d88fn2">See <ref target="#d89">Document 89</ref>.</note> Key
+                        questions are: Do we send a military survey team to Mogadiscio? Do we still
+                        consider military aid for Somalia a likely prospect?</p>
                     <p>
                         <hi rend="italic">State’s paper</hi> is attached at TAB A.<note n="3"
                             xml:id="d88fn3">Attached but not printed.</note> It is rigorously
@@ -16371,7 +16253,6 @@
                                 target="#d73fn2">footnote 2, Document 73</ref>.</note>
                     </p>
                 </div>
-
                 <div type="document" n="89" xml:id="d89" subtype="historical-document"
                     frus:doc-dateTime-min="1978-07-31T15:30:00-05:00"
                     frus:doc-dateTime-max="1978-07-31T15:45:00-05:00">
@@ -16542,7 +16423,6 @@
                         <gloss target="#t_ZB_1">ZB</gloss>: It has been one of the best meetings I
                         have ever attended.</p>
                 </div>
-
                 <pb n="253" facs="0288" xml:id="pg_253"/>
                 <div type="document" n="90" xml:id="d90" subtype="historical-document"
                     frus:doc-dateTime-min="1978-10-04T00:00:00-05:00"
@@ -16619,7 +16499,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="91" xml:id="d91" subtype="historical-document"
                     frus:doc-dateTime-min="1978-10-16T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-10-16T23:59:59-05:00">
@@ -16740,7 +16619,6 @@
                     <p>Meanwhile, you might want to talk informally about this to <persName
                             corresp="#p_NDD_1">Dave Newsom</persName>.</p>
                 </div>
-
                 <pb n="257" facs="0292" xml:id="pg_257"/>
                 <div type="document" n="92" xml:id="d92" subtype="historical-document"
                     frus:doc-dateTime-min="1978-12-11T10:40:00-05:00"
@@ -16900,17 +16778,16 @@
                         can be done to be as responsive as possible to the North Yemenis’ desire
                         that we expedite our assistance to them. (S)</p>
                 </div>
-
                 <pb n="259" facs="0294" xml:id="pg_259"/>
                 <div type="document" n="93" xml:id="d93" subtype="historical-document"
                     frus:doc-dateTime-min="1978-12-16T00:00:00-05:00"
                     frus:doc-dateTime-max="1978-12-16T23:59:59-05:00">
                     <head>93. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to Vice
-                        President <persName corresp="#p_MWF_1">Mondale</persName>
-                        <note n="1" xml:id="d93fn1" type="source">Source: Carter Library, National
-                            Security Affairs, Brzezinski Material, Country File, Box 69, Somalia:
-                            7/78–12/79. Secret. Sent for information.</note>
+                        President <persName corresp="#p_MWF_1">Mondale</persName><note n="1"
+                            xml:id="d93fn1" type="source">Source: Carter Library, National Security
+                            Affairs, Brzezinski Material, Country File, Box 69, Somalia: 7/78–12/79.
+                            Secret. Sent for information.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -16975,7 +16852,6 @@
                         little movement into this situation, but it is not easy. We do not think a
                         move back to the Soviets is imminent. (C)</p>
                 </div>
-
                 <div type="document" n="94" xml:id="d94" subtype="historical-document"
                     frus:doc-dateTime-min="1979-05-02T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-05-02T23:59:59-05:00">
@@ -17035,22 +16911,21 @@
                         need. (S)</p>
                     <p>The meeting reviewed our relationship and internal conditions in each Horn
                         country. In view of the President’s recent decisions on more aid for <hi
-                            rend="italic">Sudan</hi>
-                        <note n="3" xml:id="d94fn3">In a statement before the Subcommittee on Africa
-                            of the House Foreign Affairs Committee on February 14, <persName
-                                corresp="#p_MRM_1">Moose</persName> announced the administration’s
-                            request for $5 million for Foreign Military Sales for Sudan. For the
-                            full text of his statement, see Department of State <hi rend="italic"
-                                >Bulletin</hi>, April 1979, pp. 9–11.</note> we agreed that no new
-                        actions are necessary in the immediate future. State is trying to reallocate
-                        additional economic aid from FY79 funds for Egypt which have not been
-                        expended. Ambassador <persName corresp="#p_BDC_1">Bergus</persName> and
-                        Sudanese FM Permanent Secretary <persName corresp="#p_DFM_1">Francis
-                            Deng</persName> will be in Washington next week and we can take a
-                        further look, after talks with them, at how things are going in Khartoum.
-                        The consensus of the intelligence community was that political trends in
-                        Sudan, while not as positive as we would like, do not give cause for
-                        immediate alarm. (C)</p>
+                            rend="italic">Sudan</hi><note n="3" xml:id="d94fn3">In a statement
+                            before the Subcommittee on Africa of the House Foreign Affairs Committee
+                            on February 14, <persName corresp="#p_MRM_1">Moose</persName> announced
+                            the administration’s request for $5 million for Foreign Military Sales
+                            for Sudan. For the full text of his statement, see Department of State
+                                <hi rend="italic">Bulletin</hi>, April 1979, pp. 9–11.</note> we
+                        agreed that no new actions are necessary in the immediate future. State is
+                        trying to reallocate additional economic aid from FY79 funds for Egypt which
+                        have not been expended. Ambassador <persName corresp="#p_BDC_1"
+                            >Bergus</persName> and Sudanese FM Permanent Secretary <persName
+                            corresp="#p_DFM_1">Francis Deng</persName> will be in Washington next
+                        week and we can take a further look, after talks with them, at how things
+                        are going in Khartoum. The consensus of the intelligence community was that
+                        political trends in Sudan, while not as positive as we would like, do not
+                        give cause for immediate alarm. (C)</p>
                     <p>
                         <hi rend="italic">Kenya</hi> is assessed as being in excellent condition.
                         Kenyan-Somali tensions have eased slightly. Kenya is being cooperative about
@@ -17106,7 +16981,6 @@
                         conjunction with this memorandum.<note n="4" xml:id="d94fn4">Not
                             found.</note> (S)</p>
                 </div>
-
                 <pb n="263" facs="0298" xml:id="pg_263"/>
                 <div type="document" n="95" xml:id="d95" subtype="historical-document"
                     frus:doc-dateTime-min="1979-08-01T00:00:00-05:00"
@@ -17150,9 +17024,9 @@
                             <hi rend="strong">Attachment</hi>
                         </note>
                         <head>
-                            <hi rend="strong">Interagency Intelligence Memorandum</hi>
-                            <note n="2" xml:id="d95fn2">Central Intelligence Agency, History Staff
-                                Files. Secret; [<hi rend="italic">handling restriction not
+                            <hi rend="strong">Interagency Intelligence Memorandum</hi><note n="2"
+                                xml:id="d95fn2">Central Intelligence Agency, History Staff Files.
+                                Secret; [<hi rend="italic">handling restriction not
                                     declassified</hi>].</note>
                         </head>
                         <opener><dateline rendition="#right">
@@ -17521,7 +17395,6 @@
                                 declassified</hi>]</p>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="96" xml:id="d96" subtype="historical-document"
                     frus:doc-dateTime-min="1979-08-14T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-08-14T23:59:59-05:00">
@@ -17619,17 +17492,15 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="273" facs="0308" xml:id="pg_273"/>
                 <div type="document" n="97" xml:id="d97" subtype="historical-document"
                     frus:doc-dateTime-min="1979-10-27T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-10-27T23:59:59-05:00">
                     <head>97. Memorandum From Secretary of Defense <persName corresp="#p_BH_1"
                             >Brown</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d97fn1" type="source">Source: Carter Library, National
-                            Security Affairs, Brzezinski Material, Country File, Box 69, Somalia:
-                            7/78–12/79. Secret.</note>
+                            >Carter</persName><note n="1" xml:id="d97fn1" type="source">Source:
+                            Carter Library, National Security Affairs, Brzezinski Material, Country
+                            File, Box 69, Somalia: 7/78–12/79. Secret.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -17716,17 +17587,15 @@
                         </signed>
                     </closer>
                 </div>
-
                 <pb n="274" facs="0309" xml:id="pg_274"/>
                 <div type="document" n="98" xml:id="d98" subtype="historical-document"
                     frus:doc-dateTime-min="1979-10-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-10-28T23:59:59-05:00">
                     <head>98. Memorandum From Secretary of State <persName corresp="#p_VCR_1"
                             >Vance</persName> to President <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" xml:id="d98fn1" type="source">Source: Carter Library, National
-                            Security Affairs, Brzezinski Material, Country File, Box 69, Somalia:
-                            7/78–12/79. Secret.</note>
+                            >Carter</persName><note n="1" xml:id="d98fn1" type="source">Source:
+                            Carter Library, National Security Affairs, Brzezinski Material, Country
+                            File, Box 69, Somalia: 7/78–12/79. Secret.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -17768,18 +17637,17 @@
                             <persName corresp="#p_CJE_1">Carter</persName> wrote “ok.”</note>
                     </p>
                 </div>
-
                 <pb n="275" facs="0310" xml:id="pg_275"/>
                 <div type="document" n="99" xml:id="d99" subtype="historical-document"
                     frus:doc-dateTime-min="1979-11-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1979-11-09T23:59:59-05:00">
                     <head>99. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d99fn1" type="source">Source: Carter Library, National
-                            Security Affairs, Brzezinski Material, Country File, Box 69, Somalia:
-                            7/78–12/79. Secret. <persName corresp="#p_CJE_1">Carter</persName>
-                            initialed the memorandum.</note>
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d99fn1" type="source">Source: Carter Library, National Security
+                            Affairs, Brzezinski Material, Country File, Box 69, Somalia: 7/78–12/79.
+                            Secret. <persName corresp="#p_CJE_1">Carter</persName> initialed the
+                            memorandum.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -17825,7 +17693,6 @@
                             <persName corresp="#p_CJE_1">Carter</persName> checked the Approve
                             option.</note> (S)</p>
                 </div>
-
                 <pb n="276" facs="0311" xml:id="pg_276"/>
                 <div type="document" n="100" xml:id="d100" subtype="historical-document"
                     frus:doc-dateTime-min="1980-01-24T00:00:00-05:00"
@@ -17878,7 +17745,6 @@
                     <p>2. (Field comment: The same source said General Tesfaye made no response to
                         the troop decision announced by the senior Cuban officer.)</p>
                 </div>
-
                 <pb n="277" facs="0312" xml:id="pg_277"/>
                 <div type="document" n="101" xml:id="d101" subtype="historical-document"
                     frus:doc-dateTime-min="1980-02-27T00:00:00-05:00"
@@ -17942,7 +17808,6 @@
                             >Siad</persName> specified that type of support the Somali Government
                         would continue to provide the <gloss target="#t_WSLF_1">WSLF</gloss>.)</p>
                 </div>
-
                 <pb n="278" facs="0313" xml:id="pg_278"/>
                 <div type="document" n="102" xml:id="d102" subtype="historical-document"
                     frus:doc-dateTime-min="1980-04-04T00:00:00-05:00"
@@ -18134,7 +17999,6 @@
                         Free World as they work to disengage their country from its forced marriage
                         to Soviet socialism. (C)</p>
                 </div>
-
                 <div type="document" n="103" xml:id="d103" subtype="historical-document"
                     frus:doc-dateTime-min="1980-04-07T15:30:00-05:00"
                     frus:doc-dateTime-max="1980-04-07T16:30:00-05:00">
@@ -18179,9 +18043,9 @@
                                 <item>Robert Komer</item>
                             </list>
                         </item>
+                        <pb n="282" facs="0317" xml:id="pg_282"/>
                         <item>
                             <list>
-                                <pb n="282" facs="0317" xml:id="pg_282"/>
                                 <head>
                                     <hi rend="italic">
                                         <gloss target="#t_JCS_1">JCS</gloss>
@@ -18298,10 +18162,9 @@
                         but would look into it immediately.</p>
                     <p>Mr. Komer said that it was becoming increasingly clear that our efforts to
                         secure facilities in Somalia entailed the <hi rend="italic">danger of
-                            entanglement in the Ogaden War.</hi>
-                        <note n="2" xml:id="d103fn2">The <gloss target="#t_SCC_1">SCC</gloss>
-                            discussed basing rights in Somalia on April 14. See <ref
-                                target="frus1977-80v18#d73">
+                            entanglement in the Ogaden War.</hi><note n="2" xml:id="d103fn2">The
+                                <gloss target="#t_SCC_1">SCC</gloss> discussed basing rights in
+                            Somalia on April 14. See <ref target="frus1977-80v18#d73">
                                 <hi rend="italic">Foreign Relations</hi>, 1977–1980, vol. XVIII,
                                 Middle East Region; Arabian Peninsula, Document 73</ref>.</note>
                         Before we let this happen, he proposed that we take a longer look at the
@@ -18315,15 +18178,14 @@
                         of policy options for a more comprehensive approach.</p>
                     <p>[Omitted here is discussion unrelated to the Horn of Africa.]</p>
                 </div>
-
                 <div type="document" n="104" xml:id="d104" subtype="historical-document"
                     frus:doc-dateTime-min="1980-04-11T00:00:00-05:00"
                     frus:doc-dateTime-max="1980-04-11T23:59:59-05:00">
                     <head>104. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_BZ_1">Brzezinski</persName>) to President
-                            <persName corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d104fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 30, <gloss target="#t_NSC_1">NSC</gloss>/<gloss
+                            <persName corresp="#p_CJE_1">Carter</persName><note n="1"
+                            xml:id="d104fn1" type="source">Source: Carter Library, Plains File,
+                            Subject File, Box 30, <gloss target="#t_NSC_1">NSC</gloss>/<gloss
                                 target="#t_SCC_1">SCC</gloss> Minutes, 3/1/80–4/15/80. Secret;
                             Sensitive; Outside the System. The President wrote in the upper right
                             corner, “<persName corresp="#p_BZ_1">Zbig</persName>—I need either
@@ -18376,8 +18238,8 @@
                             <hi rend="strong">Tab B</hi>
                         </note>
                         <head>
-                            <hi rend="strong">Presidential Finding</hi>
-                            <note n="5" xml:id="d104fn5">Secret; Sensitive.</note>
+                            <hi rend="strong">Presidential Finding</hi><note n="5" xml:id="d104fn5"
+                                >Secret; Sensitive.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
@@ -18419,7 +18281,6 @@
                         </closer>
                     </frus:attachment>
                 </div>
-
                 <pb n="285" facs="0320" xml:id="pg_285"/>
                 <div type="document" n="105" xml:id="d105" subtype="historical-document"
                     frus:doc-dateTime-min="1980-05-19T06:40:00-05:00"
@@ -18553,7 +18414,6 @@
                         <signed>Petterson</signed>
                     </closer>
                 </div>
-
                 <pb n="288" facs="0323" xml:id="pg_288"/>
                 <div type="document" n="106" xml:id="d106" subtype="historical-document"
                     frus:doc-dateTime-min="1980-06-03T00:00:00-05:00"
@@ -18748,7 +18608,6 @@
                                 >Odom</persName> File, Box 48, Somalia/Horn of Africa:
                             2–10/80)</note> (C)</p>
                 </div>
-
                 <pb n="292" facs="0327" xml:id="pg_292"/>
                 <div type="document" n="107" xml:id="d107" subtype="historical-document"
                     frus:doc-dateTime-min="1980-06-07T00:00:00-05:00"
@@ -18824,23 +18683,22 @@
                         of greater US involvement in Somalia.</p>
                     <closer>
                         <signed corresp="#p_MDE_1">
-                            <persName corresp="#p_MDE_1">David E. McGiffert</persName>
-                            <note n="4" xml:id="d107fn4">
+                            <persName corresp="#p_MDE_1">David E. McGiffert</persName><note n="4"
+                                xml:id="d107fn4">
                                 <persName corresp="#p_MDE_1">McGiffert</persName> initiated “DEM”
                                 above this typed signature.</note>
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="108" xml:id="d108" subtype="historical-document"
                     frus:doc-dateTime-min="1980-07-26T00:00:00-05:00"
                     frus:doc-dateTime-max="1980-07-26T23:59:59-05:00">
                     <head>108. Memorandum From Acting Secretary of State <persName
                             corresp="#p_CWM_1">Christopher</persName> to President <persName
-                            corresp="#p_CJE_1">Carter</persName>
-                        <note n="1" xml:id="d108fn1" type="source">Source: Carter Library, Plains
-                            File, Subject File, Box 15, State Department Evening Reports, 7/80.
-                            Secret. <persName corresp="#p_CJE_1">Carter</persName> initialed the
+                            corresp="#p_CJE_1">Carter</persName><note n="1" xml:id="d108fn1"
+                            type="source">Source: Carter Library, Plains File, Subject File, Box 15,
+                            State Department Evening Reports, 7/80. Secret. <persName
+                                corresp="#p_CJE_1">Carter</persName> initialed the
                             memorandum.</note>
                     </head>
                     <opener>
@@ -18901,7 +18759,6 @@
                             October 1980, p. 19.</note>
                     </p>
                 </div>
-
                 <pb n="295" facs="0330" xml:id="pg_295"/>
                 <div type="document" n="109" xml:id="d109" subtype="historical-document"
                     frus:doc-dateTime-min="1980-09-05T00:00:00-05:00"
@@ -18973,19 +18830,18 @@
                     <p>—mobile navigation beacon.</p>
                     <p>—warehouse construction. (U)</p>
                 </div>
-
                 <div type="document" n="110" xml:id="d110" subtype="historical-document"
                     frus:doc-dateTime-min="1980-11-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
                     <head>110. Memorandum From the Deputy Director for Operations, Central
                         Intelligence Agency (<persName corresp="#p_MJN_1">McMahon</persName>) to the
                         Director of Central Intelligence <persName corresp="#p_TSM_1"
-                            >Turner</persName>
-                        <note n="1" xml:id="d110fn1" type="source">Source: Central Intelligence
-                            Agency, Office of Congressional Affairs, Job 82B00035R: Committee Files,
-                            Box 2, Folder 14: Presidential Finding-Ethiopia 16 Apr 80. Secret. Sent
-                            via Deputy <gloss target="#t_DCI_1">DCI</gloss> Carlucci. An unknown
-                            hand wrote “Ethiopia” at the top of the page.</note>
+                            >Turner</persName><note n="1" xml:id="d110fn1" type="source">Source:
+                            Central Intelligence Agency, Office of Congressional Affairs, Job
+                            82B00035R: Committee Files, Box 2, Folder 14: Presidential
+                            Finding-Ethiopia 16 Apr 80. Secret. Sent via Deputy <gloss
+                                target="#t_DCI_1">DCI</gloss> Carlucci. An unknown hand wrote
+                            “Ethiopia” at the top of the page.</note>
                     </head>
                     <opener>
                         <dateline rendition="#right">
@@ -19055,8 +18911,8 @@
                         </note>
                         <head>
                             <hi rend="strong">Memorandum of Notification to the Members of the
-                                Special Coordination Committee</hi>
-                            <note n="5" xml:id="d110fn5">Secret.</note>
+                                Special Coordination Committee</hi><note n="5" xml:id="d110fn5"
+                                >Secret.</note>
                         </head>
                         <opener><dateline rendition="#right">
                                 <placeName>Washington</placeName>, <date
@@ -19199,12 +19055,11 @@
                 </div>
             </div>
         </body>
-
         <back>
+            <pb n="301" facs="0336" xml:id="pg_301"/>
             <div type="section" xml:id="index" subtype="index"
                 frus:doc-dateTime-min="1977-02-08T10:35:00-05:00"
                 frus:doc-dateTime-max="1980-11-25T23:59:59-05:00">
-                <pb n="301" facs="0336" xml:id="pg_301"/>
                 <head>Index</head>
                 <p>
                     <hi rend="strong">References are to document numbers</hi>
@@ -23731,8 +23586,8 @@
                     </item>
                 </list>
                 <gap quantity="1" unit="pages" reason="convenience"/>
-                <pb n="320" facs="0355" xml:id="pg_320"/>
             </div>
+            <pb n="320" facs="0355" xml:id="pg_320"/>
         </back>
     </text>
 </TEI>
