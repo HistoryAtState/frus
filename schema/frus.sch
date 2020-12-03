@@ -486,13 +486,21 @@
         </rule>
     </pattern>
     
-    <pattern id="footnote-whitespace-checks">
-        <title>Footnote whitespace checks</title>
-        <rule context="tei:note[not(@rend eq 'inline')]">
+    <pattern id="unwanted-footnote-whitespace-checks">
+        <title>Prevent unwanted footnote whitespace checks</title>
+        <rule context="tei:note[not(@rend eq 'inline' or preceding-sibling::node()[2] instance of element(tei:note))]">
             <let name="first-preceding-sibling-node" value="preceding-sibling::node()[1]"/>
             <assert
                 test="if ($first-preceding-sibling-node instance of text()) then normalize-space($first-preceding-sibling-node) ne '' else true()"
-                >Whitespace is not allowed before a footnote</assert>
+                >Whitespace is not allowed before a footnote (except between consecutive footnotes)</assert>
+        </rule>
+    </pattern>
+    
+    <pattern id="required-footnote-whitespace-checks">
+        <title>Ensure required footnote whitespace checks</title>
+        <rule context="tei:note">
+            <assert test="not(preceding-sibling::node()[1] instance of element(tei:note))"
+                >Whitespace is required between consecutive footnotes</assert>
         </rule>
     </pattern>
     

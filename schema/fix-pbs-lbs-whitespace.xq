@@ -22,7 +22,7 @@ return
     (
         (: 1. strip whitespace preceding footnotes :)
         
-        for $note in $vol//tei:note[preceding-sibling::node()[1][. instance of text() and matches(., "\s+$")]][not(@rend eq "inline")]
+        for $note in $vol//tei:note[preceding-sibling::node()[1][. instance of text() and matches(., "\s+$")]][not(@rend eq "inline")][not(preceding-sibling::node()[2] instance of element(tei:note))]
         return
             replace value of node $note/preceding-sibling::text()[1] with replace($note/preceding-sibling::text()[1], "\s+$", "")
         ,
