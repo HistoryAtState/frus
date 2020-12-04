@@ -50,7 +50,6 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -80,11 +79,10 @@
                     DC area (202) 512-1800 Fax: (202) 512-2250 Mail: Stop IDCC, Washington, DC
                     20402-0001</docImprint>
             </titlePage>
-
+            <pb n="III" facs="0004" xml:id="pg_III"/>
             <div type="section" xml:id="preface" subtype="preface"
                 frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
                 frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
-                <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -333,21 +331,20 @@
                     supervision of Carl Ashley. Erin Cozens did the copy and technical editing. Do
                     Mi Stauber prepared the index.</p>
                 <closer>
-                    <signed>Dr. Stephen P. Randolph, Ph.D.</signed><lb/>
-                    <affiliation>
-                        <hi rend="italic">The Historian</hi><lb/>
-                    </affiliation>
+                    <signed>Dr. Stephen P. Randolph, Ph.D.</signed>
+                    <lb/><affiliation>
+                        <hi rend="italic">The Historian</hi>
+                        <lb/></affiliation>
                     <signed>
-                        <orgName>Bureau of Public Affairs</orgName><lb/>
-                        <date when="2015-09" calendar="gregorian">September 2015</date>
+                        <orgName>Bureau of Public Affairs</orgName>
+                        <lb/><date when="2015-09" calendar="gregorian">September 2015</date>
                     </signed>
                 </closer>
             </div>
-
+            <pb n="IX" facs="0010" xml:id="pg_IX"/>
             <div type="section" xml:id="toc" subtype="table-of-contents"
                 frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
                 frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
-                <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
                     <item>
@@ -378,7 +375,6 @@
                 <pb n="X" facs="0011" xml:id="pg_X"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
             <div type="section" xml:id="sources" subtype="sources"
                 frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
                 frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
@@ -664,11 +660,10 @@
                 <pb n="XVI" facs="0017" xml:id="pg_XVI"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
-
+            <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
             <div type="section" xml:id="terms" subtype="index"
                 frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
                 frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
-                <pb n="XVII" facs="0018" xml:id="pg_XVII"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
                     <item><hi rend="strong"><term xml:id="t_ARA_1">ARA</term>,</hi> Bureau of
@@ -807,11 +802,10 @@
                         Mission to the United Nations</item>
                 </list>
             </div>
-
+            <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
             <div type="section" xml:id="persons" subtype="index"
                 frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
                 frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
-                <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Persons</head>
                 <list type="names">
                     <item><hi rend="strong"><persName xml:id="p_AD_1">Aaron, David</persName>,</hi>
@@ -1321,13 +1315,11 @@
                 </list>
             </div>
         </front>
-
         <body>
+            <pb n="1" facs="0026" xml:id="pg_1"/>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
                 frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
-                <pb n="1" facs="0026" xml:id="pg_1"/>
                 <head>Panama, 1973–1976</head>
-
                 <div type="document" n="1" xml:id="d1" subtype="historical-document"
                     frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
                     frus:doc-dateTime-max="1973-01-15T11:45:00-05:00">
@@ -1376,11 +1368,10 @@
                         <signed>McClintock</signed>
                     </closer>
                 </div>
-
+                <pb n="2" facs="0027" xml:id="pg_2"/>
                 <div type="document" n="2" xml:id="d2" subtype="historical-document"
                     frus:doc-dateTime-min="1973-01-17T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-01-17T23:59:59-05:00">
-                    <pb n="2" facs="0027" xml:id="pg_2"/>
                     <head>2. Briefing Memorandum From the Assistant Secretary of State for
                         Inter-American Affairs (<persName corresp="#p_MA_1">Meyer</persName>) to
                         Secretary of State <persName corresp="#p_RWP_1">Rogers</persName><note n="1"
@@ -1563,11 +1554,10 @@
                             to build it where the present canal is now located.</p>
                     </frus:attachment>
                 </div>
-
+                <pb n="6" facs="0031" xml:id="pg_6"/>
                 <div type="document" n="3" xml:id="d3" subtype="historical-document"
                     frus:doc-dateTime-min="1973-02-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-02-23T23:59:59-05:00">
-                    <pb n="6" facs="0031" xml:id="pg_6"/>
                     <head>3. Memorandum From <persName corresp="#p_JWJ_1">William J.
                             Jorden</persName> of the National Security Council Staff to the
                         President’s Assistant for National Security Affairs (<persName
@@ -1783,11 +1773,10 @@
                                 target="#t_NSC_1">NSC</gloss> Unified Material, 1973 [9 of
                             12])</note></p>
                 </div>
-
+                <pb n="10" facs="0035" xml:id="pg_10"/>
                 <div type="document" n="4" xml:id="d4" subtype="historical-document"
                     frus:doc-dateTime-min="1973-02-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-02-28T23:59:59-05:00">
-                    <pb n="10" facs="0035" xml:id="pg_10"/>
                     <head>4. Memorandum From <persName corresp="#p_JWJ_1">William J.
                             Jorden</persName> of the National Security Council Staff to the
                         President’s Assistant for National Security Affairs (<persName
@@ -1827,7 +1816,7 @@
                         residents and no contrived incidents designed to embarrass the United
                         States.</p>
                     <p>—He has commented in private that he was very pleased by the visit of “the
-                        representative of Dr. <persName corresp="#p_KHA_1">Kissinger</persName> ”
+                        representative of Dr. <persName corresp="#p_KHA_1">Kissinger</persName>”
                         which he believes “has advanced relations between Panama and the US by sixty
                         years”.</p>
                     <p>—While he thinks that all Canal Zone facilities and installations could be
@@ -1866,20 +1855,18 @@
                         invitation to the members of the UNSC to visit the Canal installations be
                         issued jointly by Panama and the US.</p>
                 </div>
-
+                <pb n="12" facs="0037" xml:id="pg_12"/>
                 <div type="document" n="5" xml:id="d5" subtype="historical-document"
                     frus:doc-dateTime-min="1973-03-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-03-12T23:59:59-05:00">
-                    <pb n="12" facs="0037" xml:id="pg_12"/>
                     <head>5. Letter From the Special Representative for Interoceanic Canal
                         Negotiations (<persName corresp="#p_ARB_1">Anderson</persName>) to President
-                            <persName corresp="#p_NRM_1">Nixon</persName>
-                        <note n="1" xml:id="d5fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Ambassador <persName
-                                corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
-                            Box 1, <persName corresp="#p_NRM_1">Nixon</persName>-<persName
-                                corresp="#p_ARB_1">Anderson</persName> Correspondence.
-                            Confidential.</note></head>
+                            <persName corresp="#p_NRM_1">Nixon</persName><note n="1" xml:id="d5fn1"
+                            type="source">Source: National Archives, <gloss target="#t_RG_1"
+                                >RG</gloss> 59, Ambassador <persName corresp="#p_BE_1"
+                                >Bunker</persName>’s Correspondence, Lot 78D300, Box 1, <persName
+                                corresp="#p_NRM_1">Nixon</persName>-<persName corresp="#p_ARB_1"
+                                >Anderson</persName> Correspondence. Confidential.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1973-03-12"
@@ -2105,7 +2092,6 @@
                                 typed signature.</note></signed>
                     </closer>
                 </div>
-
                 <div type="document" n="6" xml:id="d6" subtype="historical-document"
                     frus:doc-dateTime-min="1973-03-18T22:07:00-05:00"
                     frus:doc-dateTime-max="1973-03-18T22:07:00-05:00">
@@ -2243,11 +2229,10 @@
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="20" facs="0045" xml:id="pg_20"/>
                 <div type="document" n="7" xml:id="d7" subtype="historical-document"
                     frus:doc-dateTime-min="1973-03-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-03-22T23:59:59-05:00">
-                    <pb n="20" facs="0045" xml:id="pg_20"/>
                     <head>7. Memorandum From <persName corresp="#p_JWJ_1">William J.
                             Jorden</persName> of the National Security Council Staff to the
                         President’s Assistant for National Security Affairs (<persName
@@ -2345,7 +2330,6 @@
                         future when one or another member wants to use it to win support for its
                         purely selfish purposes.</p>
                 </div>
-
                 <div type="document" n="8" xml:id="d8" subtype="historical-document"
                     frus:doc-dateTime-min="1973-04-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-04-06T23:59:59-05:00">
@@ -2538,14 +2522,13 @@
                     <p>Sincerely,</p>
                     <closer>
                         <signed corresp="#p_SRM_1"><persName corresp="#p_SRM_1">Robert M.
-                                Sayre</persName>
-                            <note n="5" xml:id="d8fn5"><persName corresp="#p_SRM_1">Sayre</persName>
-                                signed “Bob” above this typed signature. </note><lb/>
-                            <affiliation>Ambassador</affiliation>
+                                Sayre</persName><note n="5" xml:id="d8fn5"><persName
+                                    corresp="#p_SRM_1">Sayre</persName> signed “Bob” above this
+                                typed signature. </note>
+                            <lb/><affiliation>Ambassador</affiliation>
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="9" xml:id="d9" subtype="historical-document"
                     frus:doc-dateTime-min="1973-04-11T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-04-11T23:59:59-05:00">
@@ -2673,11 +2656,10 @@
                         estimate relative to the above topics. I will advise you as to the problem
                         when I see you in Washington.</p>
                 </div>
-
+                <pb n="29" facs="0054" xml:id="pg_29"/>
                 <div type="document" n="10" xml:id="d10" subtype="historical-document"
                     frus:doc-dateTime-min="1973-05-26T14:26:00-05:00"
                     frus:doc-dateTime-max="1973-05-26T14:26:00-05:00">
-                    <pb n="29" facs="0054" xml:id="pg_29"/>
                     <head>10. Telegram From Secretary of State Rogers to the Department of
                             State<note n="1" xml:id="d10fn1" type="source">Source: National
                             Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Files 1970–73,
@@ -2803,7 +2785,6 @@
                         <signed>Rogers</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="11" xml:id="d11" subtype="historical-document"
                     frus:doc-dateTime-min="1973-06-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-06-06T23:59:59-05:00">
@@ -2891,19 +2872,18 @@
                         legislative action the Administration will have to be ready to make a
                         concerted effort to get it.</p>
                 </div>
-
                 <div type="document" n="12" xml:id="d12" subtype="historical-document"
                     frus:doc-dateTime-min="1973-06-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-06-20T23:59:59-05:00">
                     <head>12. Letter From the Special Representative for Interoceanic Canal
                         Negotiations (<persName corresp="#p_ARB_1">Anderson</persName>) to President
-                            <persName corresp="#p_NRM_1">Nixon</persName>
-                        <note n="1" xml:id="d12fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Ambassador <persName
-                                corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
-                            Box 1, <persName corresp="#p_NRM_1">Nixon</persName>-<persName
-                                corresp="#p_ARB_1">Anderson</persName> Correspondence. No
-                            classification marking.</note></head>
+                            <persName corresp="#p_NRM_1">Nixon</persName><note n="1" xml:id="d12fn1"
+                            type="source">Source: National Archives, <gloss target="#t_RG_1"
+                                >RG</gloss> 59, Ambassador <persName corresp="#p_BE_1"
+                                >Bunker</persName>’s Correspondence, Lot 78D300, Box 1, <persName
+                                corresp="#p_NRM_1">Nixon</persName>-<persName corresp="#p_ARB_1"
+                                >Anderson</persName> Correspondence. No classification
+                            marking.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1973-06-20"
@@ -2936,7 +2916,6 @@
                     <p>During this period of negotiating effort, as you know, I have served without
                         monetary compensation but have contributed my efforts as a public
                         service.</p>
-
                     <p>I do not know what the future holds for the relations between our country and
                         Panama, but I do believe that it is highly desirable to <pb n="34"
                             facs="0059" xml:id="pg_34"/>arrive at new treaty relationships on all of
@@ -2962,17 +2941,15 @@
                     <p>Sincerely,</p>
                     <closer>
                         <signed corresp="#p_ARB_1"><persName corresp="#p_ARB_1">Robert B.
-                                Anderson</persName>
-                            <note n="4" xml:id="d12fn4"><persName corresp="#p_ARB_1"
-                                    >Anderson</persName> signed “Bob” above this typed
-                                signature.</note></signed>
+                                Anderson</persName><note n="4" xml:id="d12fn4"><persName
+                                    corresp="#p_ARB_1">Anderson</persName> signed “Bob” above this
+                                typed signature.</note></signed>
                     </closer>
                 </div>
-
+                <pb n="35" facs="0060" xml:id="pg_35"/>
                 <div type="document" n="13" xml:id="d13" subtype="historical-document"
                     frus:doc-dateTime-min="1973-06-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-06-28T23:59:59-05:00">
-                    <pb n="35" facs="0060" xml:id="pg_35"/>
                     <head>13. Action Memorandum From the Assistant Secretary of State for
                         Inter-American Affairs (<persName corresp="#p_KJB_1">Kubisch</persName>) to
                         Secretary of State <persName corresp="#p_RWP_1">Rogers</persName><note n="1"
@@ -3470,7 +3447,6 @@
                         </table>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="14" xml:id="d14" subtype="historical-document"
                     frus:doc-dateTime-min="1973-07-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-07-05T23:59:59-05:00">
@@ -3583,11 +3559,10 @@
                         present situation at least holds out hope for a less stormy period in
                         US-Panamanian relations.</p>
                 </div>
-
+                <pb n="48" facs="0073" xml:id="pg_48"/>
                 <div type="document" n="15" xml:id="d15" subtype="historical-document"
                     frus:doc-dateTime-min="1973-07-31T19:31:00-05:00"
                     frus:doc-dateTime-max="1973-07-31T19:31:00-05:00">
-                    <pb n="48" facs="0073" xml:id="pg_48"/>
                     <head>15. Telegram From the Mission to the United Nations to the Department of
                             State<note n="1" xml:id="d15fn1" type="source">Source: National
                             Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Foreign Policy
@@ -3638,11 +3613,10 @@
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="49" facs="0074" xml:id="pg_49"/>
                 <div type="document" n="16" xml:id="d16" subtype="historical-document"
                     frus:doc-dateTime-min="1973-08-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-08-06T23:59:59-05:00">
-                    <pb n="49" facs="0074" xml:id="pg_49"/>
                     <head>16. Letter From Secretary of State <persName corresp="#p_RWP_1"
                             >Rogers</persName> to Panamanian Foreign Minister <persName
                             corresp="#p_TJA_1">Tack</persName><note n="1" xml:id="d16fn1"
@@ -3720,7 +3694,6 @@
                                 Rogers</persName></signed>
                     </closer>
                 </div>
-
                 <div type="document" n="17" xml:id="d17" subtype="historical-document"
                     frus:doc-dateTime-min="1973-08-17T11:04:00-05:00"
                     frus:doc-dateTime-max="1973-08-17T11:04:00-05:00">
@@ -3807,7 +3780,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="18" xml:id="d18" subtype="historical-document"
                     frus:doc-dateTime-min="1973-08-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-08-23T23:59:59-05:00">
@@ -3935,11 +3907,10 @@
                         recognized that the Security Council events have not caused a change in our
                         perception of how this matter can best be settled.</p>
                 </div>
-
+                <pb n="55" facs="0080" xml:id="pg_55"/>
                 <div type="document" n="19" xml:id="d19" subtype="historical-document"
                     frus:doc-dateTime-min="1973-10-02T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-10-02T23:59:59-05:00">
-                    <pb n="55" facs="0080" xml:id="pg_55"/>
                     <head>19. Briefing Memorandum From the Assistant Secretary of State for
                         Inter-American Affairs (<persName corresp="#p_KJB_1">Kubisch</persName>) to
                         the Chairman of the National Security Council Under Secretaries Committee
@@ -4067,7 +4038,7 @@
                         Commerce, and the <gloss target="#t_NSC_1">NSC</gloss>. Accordingly, the
                         proposed Memorandum to the President from the Under Secretaries Committee
                         recommended that</p>
-                    <quote>“ . . . when a successor to the present Governor is considered, attention
+                    <quote>“. . . when a successor to the present Governor is considered, attention
                         be given to the possibility of appointing a qualified civilian as his
                         successor.”</quote>
                     <p>When queried last week the Department of Commerce, while concurring with
@@ -4131,11 +4102,10 @@
                             H–266, Under Secretaries Committee Memorandum Files, Under Secretaries
                             Study Memoranda U/SM 136 [2 of 2])</note></p>
                 </div>
-
+                <pb n="59" facs="0084" xml:id="pg_59"/>
                 <div type="document" n="20" xml:id="d20" subtype="historical-document"
                     frus:doc-dateTime-min="1973-10-04T09:20:00-05:00"
                     frus:doc-dateTime-max="1973-10-04T09:20:00-05:00">
-                    <pb n="59" facs="0084" xml:id="pg_59"/>
                     <head>20. Memorandum of Conversation<note n="1" xml:id="d20fn1" type="source"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 59,
                             Ambassador <persName corresp="#p_BE_1">Bunker</persName>’s
@@ -4211,7 +4181,6 @@
                         well require several treaties. It will also require a number of unilateral
                         executive actions and most certainly a packet of legislation.</p>
                 </div>
-
                 <div type="document" n="21" xml:id="d21" subtype="historical-document"
                     frus:doc-dateTime-min="1973-10-05T15:30:00-05:00"
                     frus:doc-dateTime-max="1973-10-05T15:30:00-05:00">
@@ -4396,11 +4365,10 @@
                         a stalemate.</p>
                     <p>(parting courtesies).</p>
                 </div>
-
+                <pb n="64" facs="0089" xml:id="pg_64"/>
                 <div type="document" n="22" xml:id="d22" subtype="historical-document"
                     frus:doc-dateTime-min="1973-10-11T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-10-11T23:59:59-05:00">
-                    <pb n="64" facs="0089" xml:id="pg_64"/>
                     <head>22. Memorandum of Conversation<note n="1" xml:id="d22fn1" type="source"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 59,
                             Ambassador <persName corresp="#p_BE_1">Bunker</persName>’s
@@ -4473,7 +4441,6 @@
                         concluded, and offered his assistance and that of his SubCommittee to the
                         Ambassador.</p>
                 </div>
-
                 <div type="document" n="23" xml:id="d23" subtype="historical-document"
                     frus:doc-dateTime-min="1973-11-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-11-06T23:59:59-05:00">
@@ -4524,11 +4491,10 @@
                         economic importance, and that the U.S. posture there is no longer
                         appropriate.</p>
                 </div>
-
+                <pb n="66" facs="0091" xml:id="pg_66"/>
                 <div type="document" n="24" xml:id="d24" subtype="historical-document"
                     frus:doc-dateTime-min="1973-11-13T16:35:00-05:00"
                     frus:doc-dateTime-max="1973-11-13T16:35:00-05:00">
-                    <pb n="66" facs="0091" xml:id="pg_66"/>
                     <head>24. Telegram From the Embassy in Panama to the Department of State<note
                             n="1" xml:id="d24fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File,
@@ -4690,19 +4656,18 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="25" xml:id="d25" subtype="historical-document"
                     frus:doc-dateTime-min="1973-11-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-11-20T23:59:59-05:00">
                     <head>25. Memorandum From the Deputy U.S. Negotiator (<persName
                             corresp="#p_BSM_1">Bell</persName>) to Ambassador at Large <persName
-                            corresp="#p_BE_1">Bunker</persName>
-                        <note n="1" xml:id="d25fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Ambassador <persName
-                                corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
-                            Box 3, DOA–<gloss target="#t_DOD_1">DOD</gloss>, Liaison With.
-                            Confidential; <gloss target="#t_Stadis_1">Stadis</gloss>; <gloss
-                                target="#t_Nodis_1">Nodis</gloss>.</note></head>
+                            corresp="#p_BE_1">Bunker</persName><note n="1" xml:id="d25fn1"
+                            type="source">Source: National Archives, <gloss target="#t_RG_1"
+                                >RG</gloss> 59, Ambassador <persName corresp="#p_BE_1"
+                                >Bunker</persName>’s Correspondence, Lot 78D300, Box 3, DOA–<gloss
+                                target="#t_DOD_1">DOD</gloss>, Liaison With. Confidential; <gloss
+                                target="#t_Stadis_1">Stadis</gloss>; <gloss target="#t_Nodis_1"
+                                >Nodis</gloss>.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-11-20"
@@ -4790,7 +4755,7 @@
                         go with it.</p>
                     <p>(d) And, basically, <hi rend="italic">it is the trappings that drive the
                             Panamanians up the wall</hi>—and into international fora, possibly into
-                        direct action against our presence in the Zone. <note n="6" xml:id="d25fn6"
+                        direct action against our presence in the Zone.<note n="6" xml:id="d25fn6"
                             >In his memoir, <persName corresp="#p_JWJ_1">Jorden</persName> described
                             the meeting between <persName corresp="#p_SJR_1">Schlesinger</persName>
                             and <persName corresp="#p_BE_1">Bunker</persName>: “He [<persName
@@ -4806,7 +4771,6 @@
                                 typed signature.</note></signed>
                     </closer>
                 </div>
-
                 <div type="document" n="26" xml:id="d26" subtype="historical-document"
                     frus:doc-dateTime-min="1973-12-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-12-04T23:59:59-05:00">
@@ -4919,11 +4883,10 @@
                         significant step toward breaking the long-standing impasse in Canal treaty
                         negotiations.</p>
                 </div>
-
+                <pb n="74" facs="0099" xml:id="pg_74"/>
                 <div type="document" n="27" xml:id="d27" subtype="historical-document"
                     frus:doc-dateTime-min="1973-12-19T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-12-19T23:59:59-05:00">
-                    <pb n="74" facs="0099" xml:id="pg_74"/>
                     <head>27. Telegram From the Embassy in Panama to the Mission in Geneva and the
                         Department of State<note n="1" xml:id="d27fn1" type="source">Source:
                             National Archives, <gloss target="#t_RG_1">RG</gloss> 84, American
@@ -5074,7 +5037,6 @@
                         <signed>Daniels</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="28" xml:id="d28" subtype="historical-document"
                     frus:doc-dateTime-min="1973-12-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-12-24T23:59:59-05:00">
@@ -5152,11 +5114,10 @@
                     <p>I recommend that you:</p>
                     <p>1. Approve submission of the legislation mentioned above.</p>
                     <p>2. Authorize issuance of a White House press statement announcing in the
-                        period December 26–29 your intention to seek such legislation. <note n="5"
+                        period December 26–29 your intention to seek such legislation.<note n="5"
                             xml:id="d28fn5">The President initialed his approval of both
                             recommendations.</note></p>
                 </div>
-
                 <div type="document" n="29" xml:id="d29" subtype="historical-document"
                     frus:doc-dateTime-min="1974-01-08T12:00:00-05:00"
                     frus:doc-dateTime-max="1974-01-08T12:00:00-05:00">
@@ -5390,14 +5351,13 @@
                             >Sayre</persName></signed>
                     </closer>
                 </div>
-
                 <div type="document" n="30" xml:id="d30" subtype="historical-document"
                     frus:doc-dateTime-min="1974-01-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-01-23T23:59:59-05:00">
                     <head>30. Action Memorandum From the Assistant Secretary of State for
                         Inter-American Affairs (<persName corresp="#p_KJB_1">Kubisch</persName>) to
-                        Secretary of State <persName corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" xml:id="d30fn1" type="source">Source: National Archives, <gloss
+                        Secretary of State <persName corresp="#p_KHA_1">Kissinger</persName><note
+                            n="1" xml:id="d30fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File,
                             P820043–1526. Secret; <gloss target="#t_Nodis_1">Nodis</gloss>. Drafted
                             by Bell and <persName corresp="#p_BWG_1">Bowdler</persName>; concurred
@@ -5466,7 +5426,7 @@
                             P820043–1518.</note></p>
                     <pb n="86" facs="0111" xml:id="pg_86"/>
                     <p rend="sectiontitleital">Recommendations:</p>
-                    <p>1. That you approve the Joint Statement of Principles (Tab A). <note n="7"
+                    <p>1. That you approve the Joint Statement of Principles (Tab A).<note n="7"
                             xml:id="d30fn7"><persName corresp="#p_KHA_1">Kissinger</persName>
                             initialed his approval of the first recommendation on January
                         25.</note></p>
@@ -5478,19 +5438,17 @@
                                 corresp="#p_TJA_1">Tack</persName>. See <ref target="#d32">Document
                                 32</ref>.</note></p>
                 </div>
-
                 <div type="document" n="31" xml:id="d31" subtype="historical-document"
                     frus:doc-dateTime-min="1974-02-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-02-05T23:59:59-05:00">
                     <head>31. Action Memorandum From Ambassador at Large <persName corresp="#p_BE_1"
                             >Bunker</persName> to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d31fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Ambassador <persName
-                                corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
-                            Box 4, Employees. Confidential. Drafted by <persName corresp="#p_MPF_1"
-                                >Morris</persName>; Bell and <persName corresp="#p_BWG_1"
-                                >Bowdler</persName> concurred.</note></head>
+                            >Kissinger</persName><note n="1" xml:id="d31fn1" type="source">Source:
+                            National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Ambassador
+                                <persName corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot
+                            78D300, Box 4, Employees. Confidential. Drafted by <persName
+                                corresp="#p_MPF_1">Morris</persName>; Bell and <persName
+                                corresp="#p_BWG_1">Bowdler</persName> concurred.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-02-05"
@@ -5568,7 +5526,7 @@
                             that their rights and interests are safeguarded. Whatever the changes
                             agreed upon in the final treaty that will affect <pb n="88" facs="0113"
                                 xml:id="pg_88"/>employees, they will take place over a period long
-                            enough to obviate or minimize personal hardship. <note n="7"
+                            enough to obviate or minimize personal hardship.<note n="7"
                                 xml:id="d31fn7">In backchannel message PNA 104 to <persName
                                     corresp="#p_KHLT_1">Koren</persName>, February 12, <persName
                                     corresp="#p_PDS_1">Parker</persName> stated that “Ambassador
@@ -5589,7 +5547,6 @@
                         </closer>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="32" xml:id="d32" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
                     frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
@@ -5649,17 +5606,16 @@
                         Treaty Negotiation Files, Lot 81F1, Box 124, Secretary <persName
                             corresp="#p_KHA_1">Kissinger</persName>’s Visit)</p>
                 </div>
-
                 <div type="document" n="33" xml:id="d33" subtype="historical-document"
                     frus:doc-dateTime-min="1974-02-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-02-13T23:59:59-05:00">
                     <head>33. Memorandum From the Vice Director of the Joint Staff (<persName
                             corresp="#p_CMG_1">Colladay</persName>) to Secretary of Defense
-                            <persName corresp="#p_SJR_1">Schlesinger</persName>
-                        <note n="1" xml:id="d33fn1" type="source">Source: Washington National
-                            Records Center, <gloss target="#t_RG_1">RG</gloss> 330, <gloss
-                                target="#t_OSD_1">OSD</gloss> Files, FRC 330–78–0011, Panama 821
-                            1974. Secret.</note></head>
+                            <persName corresp="#p_SJR_1">Schlesinger</persName><note n="1"
+                            xml:id="d33fn1" type="source">Source: Washington National Records
+                            Center, <gloss target="#t_RG_1">RG</gloss> 330, <gloss target="#t_OSD_1"
+                                >OSD</gloss> Files, FRC 330–78–0011, Panama 821 1974.
+                        Secret.</note></head>
                     <opener>
                         <seg rendition="#left">
                             <idno type="document-identifier">JCSM–46–74</idno>
@@ -5706,20 +5662,19 @@
                     <p rend="right">For the Joint Chiefs of Staff:</p>
                     <closer>
                         <signed corresp="#p_CMG_1"><persName corresp="#p_CMG_1">Martin G.
-                                Colladay</persName>
-                            <note n="5" xml:id="d33fn5"><persName corresp="#p_CMG_1"
-                                    >Colladay</persName> signed “<persName corresp="#p_CMG_1">MG
-                                    Colladay</persName> ” above this typed signature.</note><lb/>
-                            <affiliation>Major General, <gloss target="#t_USAF_1">USAF</gloss> Vice
-                                Director, Joint Staff</affiliation>
+                                Colladay</persName><note n="5" xml:id="d33fn5"><persName
+                                    corresp="#p_CMG_1">Colladay</persName> signed “<persName
+                                    corresp="#p_CMG_1">MG Colladay</persName>” above this typed
+                                signature.</note>
+                            <lb/><affiliation>Major General, <gloss target="#t_USAF_1">USAF</gloss>
+                                Vice Director, Joint Staff</affiliation>
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="91" facs="0116" xml:id="pg_91"/>
                 <div type="document" n="34" xml:id="d34" subtype="historical-document"
                     frus:doc-dateTime-min="1974-03-14T14:15:00-05:00"
                     frus:doc-dateTime-max="1974-03-14T14:15:00-05:00">
-                    <pb n="91" facs="0116" xml:id="pg_91"/>
                     <head>34. Memorandum of Conversation<note n="1" xml:id="d34fn1" type="source"
                             >Source: Ford Library, Staff Secretary’s Office, Presidential
                             Handwriting File, Box 23, Documents Annotated by the President, 1974–77,
@@ -5787,7 +5742,6 @@
                             <persName corresp="#p_JWJ_1">Jorden</persName> expressed a high
                         regard.</p>
                 </div>
-
                 <div type="document" n="35" xml:id="d35" subtype="historical-document"
                     frus:doc-dateTime-min="1974-03-21T13:00:00-05:00"
                     frus:doc-dateTime-max="1974-03-21T13:00:00-05:00">
@@ -5861,7 +5815,6 @@
                     <p>In response to a question, <persName corresp="#p_BE_1">Bunker</persName> said
                         that the present canal is breaking even financially.</p>
                 </div>
-
                 <div type="document" n="36" xml:id="d36" subtype="historical-document"
                     frus:doc-dateTime-min="1974-03-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-03-22T23:59:59-05:00">
@@ -5935,11 +5888,10 @@
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="95" facs="0120" xml:id="pg_95"/>
                 <div type="document" n="37" xml:id="d37" subtype="historical-document"
                     frus:doc-dateTime-min="1974-04-15T09:45:00-05:00"
                     frus:doc-dateTime-max="1974-04-15T10:15:00-05:00">
-                    <pb n="95" facs="0120" xml:id="pg_95"/>
                     <head>37. Memorandum of Conversation<note n="1" xml:id="d37fn1" type="source"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 84,
                             American Embassy, Panama, Panama Canal Treaty Negotiation Files, Lot
@@ -6103,18 +6055,16 @@
                     <p>The Minister: It has been a great pleasure for me to see you and I hope to
                         have an opportunity to see you again whenever you are in my country.</p>
                 </div>
-
                 <div type="document" n="38" xml:id="d38" subtype="historical-document"
                     frus:doc-dateTime-min="1974-04-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-04-22T23:59:59-05:00">
                     <head>38. Memorandum From Secretary of State <persName corresp="#p_KHA_1"
                             >Kissinger</persName> to President <persName corresp="#p_NRM_1"
-                            >Nixon</persName>
-                        <note n="1" xml:id="d38fn1" type="source">Source: National Archives, Nixon
-                            Presidential Materials, <gloss target="#t_NSC_1">NSC</gloss> Files, Box
-                            791, Country Files, Latin America, Panama, Vol. 3, January 1972–August
-                            1974. Secret; Eyes Only; Completely Outside the System. Sent for
-                            action.</note></head>
+                            >Nixon</persName><note n="1" xml:id="d38fn1" type="source">Source:
+                            National Archives, Nixon Presidential Materials, <gloss
+                                target="#t_NSC_1">NSC</gloss> Files, Box 791, Country Files, Latin
+                            America, Panama, Vol. 3, January 1972–August 1974. Secret; Eyes Only;
+                            Completely Outside the System. Sent for action.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-04-22"
@@ -6194,14 +6144,13 @@
                             memorandum to <persName corresp="#p_NRM_1">Nixon</persName>, <ref
                                 target="#d28">Document 28</ref>.</note></p>
                 </div>
-
+                <pb n="100" facs="0125" xml:id="pg_100"/>
                 <div type="document" n="39" xml:id="d39" subtype="historical-document"
                     frus:doc-dateTime-min="1974-04-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-04-22T23:59:59-05:00">
-                    <pb n="100" facs="0125" xml:id="pg_100"/>
                     <head>39. Letter From President <persName corresp="#p_NRM_1">Nixon</persName> to
-                        Senator <persName corresp="#p_TJS_1">Strom Thurmond</persName>
-                        <note n="1" xml:id="d39fn1" type="source">Source: National Archives, Nixon
+                        Senator <persName corresp="#p_TJS_1">Strom Thurmond</persName><note n="1"
+                            xml:id="d39fn1" type="source">Source: National Archives, Nixon
                             Presidential Materials, <gloss target="#t_NSC_1">NSC</gloss> Files, Box
                             791, Country Files, Latin America, Panama, Vol. 3, January 1972–August
                             1974. Confidential; Eyes Only.</note></head>
@@ -6254,7 +6203,6 @@
                         <signed>Dick </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="40" xml:id="d40" subtype="historical-document"
                     frus:doc-dateTime-min="1974-04-23T17:00:00-05:00"
                     frus:doc-dateTime-max="1974-04-23T17:30:00-05:00">
@@ -6572,11 +6520,10 @@
                         see you. <persName corresp="#p_ER_1">Ellsworth</persName>, will you see to
                         that?”</p>
                 </div>
-
+                <pb n="108" facs="0133" xml:id="pg_108"/>
                 <div type="document" n="41" xml:id="d41" subtype="historical-document"
                     frus:doc-dateTime-min="1974-05-10T09:45:00-05:00"
                     frus:doc-dateTime-max="1974-05-10T10:30:00-05:00">
-                    <pb n="108" facs="0133" xml:id="pg_108"/>
                     <head>41. Memorandum of Conversation<note n="1" xml:id="d41fn1" type="source"
                             >Source: Washington National Records Center, <gloss target="#t_RG_1"
                                 >RG</gloss> 330, <gloss target="#t_OSD_1">OSD</gloss> Files, FRC
@@ -6806,10 +6753,9 @@
                     <p>—Dr. Lucier would appreciate a call to Deputy Secretary Rush by Mr. <persName
                             corresp="#p_CWP_1">Clements</persName> suggesting a similar briefing for
                         selected State Department personnel as the State Department should also be
-                        aware of Congressional positions. <note n="8" xml:id="d41fn8">No record of a
+                        aware of Congressional positions.<note n="8" xml:id="d41fn8">No record of a
                             call has been found.</note></p>
                 </div>
-
                 <div type="document" n="42" xml:id="d42" subtype="historical-document"
                     frus:doc-dateTime-min="1974-05-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-05-22T23:59:59-05:00">
@@ -6900,11 +6846,10 @@
                             corresp="#p_JWJ_1">Jorden</persName>’s meeting with <persName
                             corresp="#p_TJA_1">Tack</persName> are known. Warm regards.</p>
                 </div>
-
+                <pb n="114" facs="0139" xml:id="pg_114"/>
                 <div type="document" n="43" xml:id="d43" subtype="historical-document"
                     frus:doc-dateTime-min="1974-05-28T16:00:00-05:00"
                     frus:doc-dateTime-max="1974-05-28T16:00:00-05:00">
-                    <pb n="114" facs="0139" xml:id="pg_114"/>
                     <head>43. Transcript of a Briefing by the Deputy U.S. Negotiator (Bell)<note
                             n="1" xml:id="d43fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 84, American Embassy, Panama, Panama
@@ -7300,7 +7245,6 @@
                         that depends upon the art and skill of the negotiators.</p>
                     <p>Answer: I fear it does. Wish us luck.</p>
                 </div>
-
                 <div type="document" n="44" xml:id="d44" subtype="historical-document"
                     frus:doc-dateTime-min="1974-06-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-06-06T23:59:59-05:00">
@@ -7548,7 +7492,6 @@
                             canal.</p>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="45" xml:id="d45" subtype="historical-document"
                     frus:doc-dateTime-min="1974-06-20T13:10:00-05:00"
                     frus:doc-dateTime-max="1974-06-20T13:10:00-05:00">
@@ -7615,18 +7558,17 @@
                         reaffirmed his intent to keep Senator <persName corresp="#p_TJS_1"
                             >Thurmond</persName> informed. The meeting adjourned at 2:20 p.m.</p>
                 </div>
-
+                <pb n="130" facs="0155" xml:id="pg_130"/>
                 <div type="document" n="46" xml:id="d46" subtype="historical-document"
                     frus:doc-dateTime-min="1974-06-28T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-06-28T23:59:59-05:00">
-                    <pb n="130" facs="0155" xml:id="pg_130"/>
                     <head>46. Memorandum From the Director of the Joint Staff (<persName
                             corresp="#p_THD_1">Train</persName>) to Secretary of Defense <persName
-                            corresp="#p_SJR_1">Schlesinger</persName>
-                        <note n="1" xml:id="d46fn1" type="source">Source: Washington National
-                            Records Center, <gloss target="#t_RG_1">RG</gloss> 330, <gloss
-                                target="#t_OSD_1">OSD</gloss> Files, FRC 330–78–0011, Panama 821
-                            1974. Secret.</note></head>
+                            corresp="#p_SJR_1">Schlesinger</persName><note n="1" xml:id="d46fn1"
+                            type="source">Source: Washington National Records Center, <gloss
+                                target="#t_RG_1">RG</gloss> 330, <gloss target="#t_OSD_1"
+                                >OSD</gloss> Files, FRC 330–78–0011, Panama 821 1974.
+                        Secret.</note></head>
                     <opener>
                         <seg rendition="#left">
                             <idno type="document-identifier">JCSM–272–74</idno>
@@ -7706,11 +7648,10 @@
                         would take no action that would hamper the efficient operation of the
                         waterway.</p>
                 </div>
-
+                <pb n="132" facs="0157" xml:id="pg_132"/>
                 <div type="document" n="47" xml:id="d47" subtype="historical-document"
                     frus:doc-dateTime-min="1974-06-30T09:20:00-05:00"
                     frus:doc-dateTime-max="1974-06-30T09:20:00-05:00">
-                    <pb n="132" facs="0157" xml:id="pg_132"/>
                     <head>47. Telegram From the Embassy in Panama to the Department of State<note
                             n="1" xml:id="d47fn1" type="source">Source: National Archives, Nixon
                             Presidential Materials, Box 791, Country Files, Latin America, Panama,
@@ -7800,7 +7741,7 @@
                         of August, and on resuming we would have only the issues of compensation to
                         Panama and of land areas to take up before we reach the final, critical
                         issues of the new treaty’s <pb n="134" facs="0159" xml:id="pg_134"/>duration
-                        and of an option for the United States to expand Canal capacity. <note n="2"
+                        and of an option for the United States to expand Canal capacity.<note n="2"
                             xml:id="d47fn2">In telegram 3777 from Panama City, July 2, <persName
                                 corresp="#p_BE_1">Bunker</persName> stated that part of telegram
                             3750 from Panama was inadvertently not transmitted. He reported that
@@ -7825,7 +7766,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="48" xml:id="d48" subtype="historical-document"
                     frus:doc-dateTime-min="1974-07-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-07-03T23:59:59-05:00">
@@ -7868,11 +7808,10 @@
                         United States during that period of transition essentially the same rights
                         we have today.</p>
                     <p>Paul Runnestrand has put these ideas together in a paper called “New Treaty
-                        Concept.” <note n="2" xml:id="d48fn2">Attached but not printed.</note> I am
-                        forwarding a copy of the paper for your information. I support it and think
-                        this is the way we should go.</p>
+                            Concept.”<note n="2" xml:id="d48fn2">Attached but not printed.</note> I
+                        am forwarding a copy of the paper for your information. I support it and
+                        think this is the way we should go.</p>
                 </div>
-
                 <div type="document" n="49" xml:id="d49" subtype="historical-document"
                     frus:doc-dateTime-min="1974-07-09T13:35:00-05:00"
                     frus:doc-dateTime-max="1974-07-09T14:20:00-05:00">
@@ -8222,7 +8161,7 @@
                         has depreciated. Mr. <persName corresp="#p_ER_1">Ellsworth</persName>
                         observed <pb n="141" facs="0166" xml:id="pg_141"/>that it was probable that
                         the longer the duration of the new treaty, the more Senate votes for
-                        ratification would result. <note n="6" xml:id="d49fn6">A July 12 memorandum
+                        ratification would result.<note n="6" xml:id="d49fn6">A July 12 memorandum
                             of conversation prepared by <persName corresp="#p_WRR_1"
                                 >Wyrough</persName> described the conversation between <persName
                                 corresp="#p_BE_1">Bunker</persName> and <persName corresp="#p_SJR_1"
@@ -8255,13 +8194,12 @@
                                 (<hi rend="italic">Panama Odyssey</hi>, pp. 251–252)</note></p>
                     <closer>
                         <signed corresp="#p_ER_1"><persName corresp="#p_ER_1">Robert
-                                Ellsworth</persName><lb/>
-                            <affiliation>Assistant Secretary of Defense International Security
+                                Ellsworth</persName>
+                            <lb/><affiliation>Assistant Secretary of Defense International Security
                                 Affairs</affiliation>
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="50" xml:id="d50" subtype="historical-document"
                     frus:doc-dateTime-min="1974-07-25T09:30:00-05:00"
                     frus:doc-dateTime-max="1974-07-25T09:45:00-05:00">
@@ -8295,8 +8233,8 @@
                                         corresp="#p_WRR_1">Richard Wyrough</persName>
                                 </item>
                             </list></item>
+                        <pb n="142" facs="0167" xml:id="pg_142"/>
                         <item><list>
-                                <pb n="142" facs="0167" xml:id="pg_142"/>
                                 <head><hi rend="italic">Office of the Assistant Secretary of
                                         Defense</hi></head>
                                 <item>Assistant Secretary of Defense (<gloss target="#t_ISA_1"
@@ -8441,7 +8379,6 @@
                         has not yet been made concerning <gloss target="#t_SOUTHCOM_1"
                             >SOUTHCOM</gloss>’s possible disestablishment.</p>
                 </div>
-
                 <div type="document" n="51" xml:id="d51" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-09T12:27:00-05:00"
                     frus:doc-dateTime-max="1974-08-09T12:27:00-05:00">
@@ -8481,19 +8418,18 @@
                     <p>4. I would appreciate your conveying the substance of this message also to
                         President <persName corresp="#p_LBDB_1">Lakas</persName> and General
                             <persName corresp="#p_THOE_1">Torrijos</persName> so that they also will
-                        have no doubts whatsoever about our continued adherence to our commitment.
-                            <note n="3" xml:id="d51fn3">In telegram 4628 from Panama City, August 9,
-                            the Embassy reported that <persName corresp="#p_BE_1">Bunker</persName>
-                            delivered the message to <persName corresp="#p_TJA_1">Tack</persName>.
-                            (National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central
-                            Foreign Policy File, D740219–0112)</note> Warmest regards. Henry. End
-                        text.</p>
+                        have no doubts whatsoever about our continued adherence to our
+                            commitment.<note n="3" xml:id="d51fn3">In telegram 4628 from Panama
+                            City, August 9, the Embassy reported that <persName corresp="#p_BE_1"
+                                >Bunker</persName> delivered the message to <persName
+                                corresp="#p_TJA_1">Tack</persName>. (National Archives, <gloss
+                                target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File,
+                            D740219–0112)</note> Warmest regards. Henry. End text.</p>
                     <closer>
                         <signed corresp="#p_KHA_1"><persName corresp="#p_KHA_1"
                             >Kissinger</persName></signed>
                     </closer>
                 </div>
-
                 <div type="document" n="52" xml:id="d52" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-08-23T23:59:59-05:00">
@@ -8501,11 +8437,11 @@
                             corresp="#p_BE_1">Bunker</persName> and the Deputy Assistant Secretary
                         of State for Inter-American Affairs (<persName corresp="#p_BWG_1"
                             >Bowdler</persName>) to Secretary <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d52fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File,
-                            P860119–0832. Secret; <gloss target="#t_Nodis_1">Nodis</gloss>. Drafted
-                            by <persName corresp="#p_BWG_1">Bowdler</persName>.</note></head>
+                            >Kissinger</persName><note n="1" xml:id="d52fn1" type="source">Source:
+                            National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central
+                            Foreign Policy File, P860119–0832. Secret; <gloss target="#t_Nodis_1"
+                                >Nodis</gloss>. Drafted by <persName corresp="#p_BWG_1"
+                                >Bowdler</persName>.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-08-23"
@@ -8578,24 +8514,22 @@
                         breakdown in the negotiations with all the complications that would bring in
                         our bilateral and hemispheric relations.</p>
                 </div>
-
+                <pb n="147" facs="0172" xml:id="pg_147"/>
                 <div type="document" n="53" xml:id="d53" subtype="historical-document"
                     frus:doc-dateTime-min="1974-09-11T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-09-11T23:59:59-05:00">
-                    <pb n="147" facs="0172" xml:id="pg_147"/>
                     <head>53. Letter From Senator <persName corresp="#p_TJS_1">Strom
                             Thurmond</persName> to President <persName corresp="#p_FGR_1"
-                            >Ford</persName>
-                        <note n="1" xml:id="d53fn1" type="source">Source: Ford Library, Staff
-                            Secretary’s Office, Presidential Handwriting File, Documents Annotated
-                            by the President, 1974–1977, Box 7, Countries—Panama. No classification
-                            marking. Sent to <persName corresp="#p_FGR_1">Ford</persName> under an
-                            October 18 covering memorandum from Timmons. In an October 23 covering
-                            memorandum to <persName corresp="#p_SB_1">Scowcroft</persName>, Jones
-                            wrote: “The attached memorandum was returned in the President’s outbox
-                            with the following comment to you:— ‘He talked with me about this. In
-                            answer indicate appreciation of his concern and interest,
-                        etc.”’</note></head>
+                            >Ford</persName><note n="1" xml:id="d53fn1" type="source">Source: Ford
+                            Library, Staff Secretary’s Office, Presidential Handwriting File,
+                            Documents Annotated by the President, 1974–1977, Box 7,
+                            Countries—Panama. No classification marking. Sent to <persName
+                                corresp="#p_FGR_1">Ford</persName> under an October 18 covering
+                            memorandum from Timmons. In an October 23 covering memorandum to
+                                <persName corresp="#p_SB_1">Scowcroft</persName>, Jones wrote: “The
+                            attached memorandum was returned in the President’s outbox with the
+                            following comment to you:— ‘He talked with me about this. In answer
+                            indicate appreciation of his concern and interest, etc.”’</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1974-09-11"
@@ -8654,18 +8588,16 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="54" xml:id="d54" subtype="historical-document"
                     frus:doc-dateTime-min="1974-09-26T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-09-26T23:59:59-05:00">
                     <head>54. Letter From the Ambassador to Panama (<persName corresp="#p_JWJ_1"
                             >Jorden</persName>) to Ambassador at Large <persName corresp="#p_BE_1"
-                            >Bunker</persName>
-                        <note n="1" xml:id="d54fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Ambassador <persName
-                                corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
-                            Box 3, General. Official–Informal; Confidential. A copy was sent to
-                            Bell.</note></head>
+                            >Bunker</persName><note n="1" xml:id="d54fn1" type="source">Source:
+                            National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Ambassador
+                                <persName corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot
+                            78D300, Box 3, General. Official–Informal; Confidential. A copy was sent
+                            to Bell.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1974-09-26"
@@ -8786,19 +8718,17 @@
                     <p>Sincerely,</p>
                     <closer>
                         <signed corresp="#p_JWJ_1"><persName corresp="#p_JWJ_1">William J.
-                                Jorden</persName>
-                            <note n="6" xml:id="d54fn6"><persName corresp="#p_JWJ_1"
-                                    >Jorden</persName> signed “Bill” above this typed
-                                signature.</note><lb/>
-                            <affiliation>Ambassador</affiliation>
+                                Jorden</persName><note n="6" xml:id="d54fn6"><persName
+                                    corresp="#p_JWJ_1">Jorden</persName> signed “Bill” above this
+                                typed signature.</note>
+                            <lb/><affiliation>Ambassador</affiliation>
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="151" facs="0176" xml:id="pg_151"/>
                 <div type="document" n="55" xml:id="d55" subtype="historical-document"
                     frus:doc-dateTime-min="1974-10-11T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-10-11T23:59:59-05:00">
-                    <pb n="151" facs="0176" xml:id="pg_151"/>
                     <head>55. Memorandum From the Deputy U.S. Negotiator (Bell) to the Chairman of
                         the Department of Defense Panama Canal Negotiations Working Group (<persName
                             corresp="#p_KHLT_1">Koren</persName>)<note n="1" xml:id="d55fn1"
@@ -8928,18 +8858,17 @@
                         closely held.</p>
                     <closer>
                         <signed corresp="#p_BSM_1"><persName corresp="#p_BSM_1">S. Morey
-                                Bell</persName>
-                            <note n="5" xml:id="d55fn5"><persName corresp="#p_BSM_1">Bell</persName>
-                                initialed “SMB” above this typed signature.</note>
+                                Bell</persName><note n="5" xml:id="d55fn5"><persName
+                                    corresp="#p_BSM_1">Bell</persName> initialed “SMB” above this
+                                typed signature.</note>
                             <affiliation>Deputy U.S. Negotiator</affiliation>
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="154" facs="0179" xml:id="pg_154"/>
                 <div type="document" n="56" xml:id="d56" subtype="historical-document"
                     frus:doc-dateTime-min="1974-10-29T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-10-29T23:59:59-05:00">
-                    <pb n="154" facs="0179" xml:id="pg_154"/>
                     <head>56. Presidential Determination No. 75–4<note n="1" xml:id="d56fn1"
                             type="source">Source: National Archives, Ford Library, National Security
                             Adviser, <gloss target="#t_NSC_1">NSC</gloss> Latin American Affairs
@@ -9011,7 +8940,6 @@
                         reasonable assurances that future violations of U.S. fishing rights will not
                         occur.</p>
                 </div>
-
                 <div type="document" n="57" xml:id="d57" subtype="historical-document"
                     frus:doc-dateTime-min="1974-11-07T12:58:00-05:00"
                     frus:doc-dateTime-max="1974-11-07T12:58:00-05:00">
@@ -9178,18 +9106,17 @@
                     <p>Following are the texts of the three “Threshold Agreements.”<note n="6"
                             xml:id="d57fn6">Not found.</note></p>
                 </div>
-
+                <pb n="159" facs="0184" xml:id="pg_159"/>
                 <div type="document" n="58" xml:id="d58" subtype="historical-document"
                     frus:doc-dateTime-min="1974-11-21T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-11-21T23:59:59-05:00">
-                    <pb n="159" facs="0184" xml:id="pg_159"/>
                     <head>58. Memorandum From the Deputy U.S. Negotiator (<persName
                             corresp="#p_BSM_1">Bell</persName>) to Ambassador at Large <persName
-                            corresp="#p_BE_1">Bunker</persName>
-                        <note n="1" xml:id="d58fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 84, American Embassy, Panama, Panama
-                            Canal Treaty Negotiation Files, Lot 81F1, Box 124, Treaty Negotiations,
-                            Nov–Dec 1974. Secret; <gloss target="#t_Nodis_1">Nodis</gloss>; <gloss
+                            corresp="#p_BE_1">Bunker</persName><note n="1" xml:id="d58fn1"
+                            type="source">Source: National Archives, <gloss target="#t_RG_1"
+                                >RG</gloss> 84, American Embassy, Panama, Panama Canal Treaty
+                            Negotiation Files, Lot 81F1, Box 124, Treaty Negotiations, Nov–Dec 1974.
+                            Secret; <gloss target="#t_Nodis_1">Nodis</gloss>; <gloss
                                 target="#t_Stadis_1">Stadis</gloss>. Copies were sent to Rogers,
                                 <persName corresp="#p_BWG_1">Bowdler</persName>, <persName
                                 corresp="#p_FMB_1">Feldman</persName>, <persName corresp="#p_LS_2"
@@ -9307,25 +9234,23 @@
                         members.</p>
                     <closer>
                         <signed corresp="#p_BSM_1"><persName corresp="#p_BSM_1">S. Morey
-                                Bell</persName>
-                            <note n="4" xml:id="d58fn4"><persName corresp="#p_BSM_1">Bell</persName>
-                                initialed “SMB“ above this typed signature.</note><lb/>
-                            <affiliation>Deputy U.S. Negotiator</affiliation>
+                                Bell</persName><note n="4" xml:id="d58fn4"><persName
+                                    corresp="#p_BSM_1">Bell</persName> initialed “SMB” above this
+                                typed signature.</note>
+                            <lb/><affiliation>Deputy U.S. Negotiator</affiliation>
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="162" facs="0187" xml:id="pg_162"/>
                 <div type="document" n="59" xml:id="d59" subtype="historical-document"
                     frus:doc-dateTime-min="1974-12-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-12-03T23:59:59-05:00">
-                    <pb n="162" facs="0187" xml:id="pg_162"/>
                     <head>59. Memorandum From Ambassador at Large <persName corresp="#p_BE_1"
                             >Bunker</persName> to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d59fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Ambassador <persName
-                                corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
-                            Box 4, Key Documents. Confidential; <gloss target="#t_Stadis_1"
+                            >Kissinger</persName><note n="1" xml:id="d59fn1" type="source">Source:
+                            National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Ambassador
+                                <persName corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot
+                            78D300, Box 4, Key Documents. Confidential; <gloss target="#t_Stadis_1"
                                 >Stadis</gloss>; <gloss target="#t_Nodis_1"
                         >Nodis</gloss>.</note></head>
                     <opener>
@@ -9448,11 +9373,10 @@
                         clear to them that the President is fully informed and clearly committed to
                         the new treaty.</p>
                 </div>
-
+                <pb n="165" facs="0190" xml:id="pg_165"/>
                 <div type="document" n="60" xml:id="d60" subtype="historical-document"
                     frus:doc-dateTime-min="1974-12-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-12-06T23:59:59-05:00">
-                    <pb n="165" facs="0190" xml:id="pg_165"/>
                     <head>60. Memorandum of Conversations by the Ambassador to Panama (<persName
                             corresp="#p_JWJ_1">Jorden</persName>)<note n="1" xml:id="d60fn1"
                             type="source">Source: National Archives, <gloss target="#t_RG_1"
@@ -9620,11 +9544,10 @@
                         system. (COMMENT: reasonable, rational, intelligent. Can be influenced by
                         thoughtful argument.)</p>
                 </div>
-
+                <pb n="169" facs="0194" xml:id="pg_169"/>
                 <div type="document" n="61" xml:id="d61" subtype="historical-document"
                     frus:doc-dateTime-min="1974-12-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-12-13T23:59:59-05:00">
-                    <pb n="169" facs="0194" xml:id="pg_169"/>
                     <head>61. Backchannel Message From the Governor of the Panama Canal Zone
                             (<persName corresp="#p_PDS_1">Parker</persName>) to the Deputy Under
                         Secretary of the Army (<persName corresp="#p_KHLT_1">Koren</persName>)<note
@@ -9679,14 +9602,13 @@
                         managerial judgments which should be left to those with the experience and
                         responsibility. Warm regards.</p>
                 </div>
-
                 <div type="document" n="62" xml:id="d62" subtype="historical-document"
                     frus:doc-dateTime-min="1974-12-17T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-12-17T23:59:59-05:00">
                     <head>62. Letter From the Chairman of the Department of Defense Panama Canal
                         Negotiations Working Group (<persName corresp="#p_KHLT_1">Koren</persName>)
-                        to Ambassador at Large <persName corresp="#p_BE_1">Bunker</persName>
-                        <note n="1" xml:id="d62fn1" type="source">Source: National Archives, <gloss
+                        to Ambassador at Large <persName corresp="#p_BE_1">Bunker</persName><note
+                            n="1" xml:id="d62fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Ambassador <persName
                                 corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
                             Box 4, Employees. Confidential.</note></head>
@@ -9779,34 +9701,32 @@
                     <p>Sincerely,</p>
                     <closer>
                         <signed corresp="#p_KHLT_1"><persName corresp="#p_KHLT_1">Henry L.T.
-                                Koren</persName><lb/>
-                            <affiliation>Chairman, Panama Canal Negotiations Working
+                                Koren</persName>
+                            <lb/><affiliation>Chairman, Panama Canal Negotiations Working
                                 Group</affiliation>
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="63" xml:id="d63" subtype="historical-document"
                     frus:doc-dateTime-min="1975-01-10T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-01-10T23:59:59-05:00">
                     <head>63. Paper Prepared for Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d63fn1" type="source">Source: Library of Congress,
-                            Manuscript Division, <persName corresp="#p_KHA_1">Kissinger</persName>
-                            Papers, Box CL 2 04, Panama Chronological File, Sept 1973–June 1973.
-                            Secret; <gloss target="#t_Nodis_1">Nodis</gloss>; <gloss
-                                target="#t_Stadis_1">Stadis</gloss>. Drafted by Bell on December 13;
-                                <persName corresp="#p_BE_1">Bunker</persName>, <persName
-                                corresp="#p_BWG_1">Bowdler</persName>, <persName corresp="#p_FMB_1"
-                                >Feldman</persName>, and <persName corresp="#p_RWB_1"
-                                >Richardson</persName> concurred. Sent to <persName
-                                corresp="#p_KHA_1">Kissinger</persName> under a January 10 covering
-                            memorandum from <persName corresp="#p_BE_1">Bunker</persName> who wrote:
-                            “Attached is the ‘Issues Paper’ referred to in my memorandum to you of
-                            December 3. I thought you might wish to discuss this with the President
-                            prior to my return from Panama January 20.” <persName corresp="#p_BE_1"
-                                >Bunker</persName>’s December 3 memorandum is <ref target="#d59"
-                                >Document 59</ref>.</note></head>
+                            >Kissinger</persName><note n="1" xml:id="d63fn1" type="source">Source:
+                            Library of Congress, Manuscript Division, <persName corresp="#p_KHA_1"
+                                >Kissinger</persName> Papers, Box CL 2 04, Panama Chronological
+                            File, Sept 1973–June 1973. Secret; <gloss target="#t_Nodis_1"
+                                >Nodis</gloss>; <gloss target="#t_Stadis_1">Stadis</gloss>. Drafted
+                            by Bell on December 13; <persName corresp="#p_BE_1">Bunker</persName>,
+                                <persName corresp="#p_BWG_1">Bowdler</persName>, <persName
+                                corresp="#p_FMB_1">Feldman</persName>, and <persName
+                                corresp="#p_RWB_1">Richardson</persName> concurred. Sent to
+                                <persName corresp="#p_KHA_1">Kissinger</persName> under a January 10
+                            covering memorandum from <persName corresp="#p_BE_1">Bunker</persName>
+                            who wrote: “Attached is the ‘Issues Paper’ referred to in my memorandum
+                            to you of December 3. I thought you might wish to discuss this with the
+                            President prior to my return from Panama January 20.” <persName
+                                corresp="#p_BE_1">Bunker</persName>’s December 3 memorandum is <ref
+                                target="#d59">Document 59</ref>.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-01-10"
@@ -9965,16 +9885,15 @@
                     <p>—will be willing to consider changing the outdated presidential instructions
                         in order to obtain a treaty</p>
                     <p>—has no problem with the timing suggested</p>
-                    <p>—approves of an “educational” effort in the Congress and private sector.
-                            <note n="6" xml:id="d63fn6">In a January 20 memorandum to Rogers,
-                                <persName corresp="#p_GSR_1">Gammon</persName> indicated that
-                            President <persName corresp="#p_FGR_1">Ford</persName> had read the
-                            issues paper “with great interest” and requested more information.
-                            (National Archives, <gloss target="#t_RG_1">RG</gloss> 59, <gloss
-                                target="#t_SS_1">S/S</gloss> Principal Memos, Lot 77D149, Box 16,
-                            1975 <gloss target="#t_SS_1">S/S</gloss> Memos, Jan–May)</note></p>
+                    <p>—approves of an “educational” effort in the Congress and private sector.<note
+                            n="6" xml:id="d63fn6">In a January 20 memorandum to Rogers, <persName
+                                corresp="#p_GSR_1">Gammon</persName> indicated that President
+                                <persName corresp="#p_FGR_1">Ford</persName> had read the issues
+                            paper “with great interest” and requested more information. (National
+                            Archives, <gloss target="#t_RG_1">RG</gloss> 59, <gloss target="#t_SS_1"
+                                >S/S</gloss> Principal Memos, Lot 77D149, Box 16, 1975 <gloss
+                                target="#t_SS_1">S/S</gloss> Memos, Jan–May)</note></p>
                 </div>
-
                 <div type="document" n="64" xml:id="d64" subtype="historical-document"
                     frus:doc-dateTime-min="1975-01-31T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-01-31T23:59:59-05:00">
@@ -10026,25 +9945,23 @@
                                 with this typed signature.</note></signed>
                     </closer>
                 </div>
-
                 <div type="document" n="65" xml:id="d65" subtype="historical-document"
                     frus:doc-dateTime-min="1975-02-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-02-12T15:30:00-05:00">
                     <head>65. Memorandum From Secretary of State <persName corresp="#p_KHA_1"
                             >Kissinger</persName> to President <persName corresp="#p_FGR_1"
-                            >Ford</persName>
-                        <note n="1" xml:id="d65fn1" type="source">Source: Library of Congress,
-                            Manuscript Division, <persName corresp="#p_KHA_1">Kissinger</persName>
-                            Papers, Box CL 204, Geopolitical, Panama Chronological, Sept 1973–1975.
-                            Secret; <gloss target="#t_Exdis_1">Exdis</gloss>. In a February 6
-                            covering memorandum to <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>, <persName corresp="#p_BE_1">Bunker</persName> and
-                            Rogers urged him to forward the memorandum, as well as a public
-                            relations strategy, to the President. <persName corresp="#p_KHA_1"
-                                >Kissinger</persName> wrote: “This should be discussed
-                            interdepartmentally including Defense. Let Brent start urgently.”
-                            Regarding the coordination with the Defense Department, see <ref
-                                target="#d66fn1">footnote 1, Document 66</ref>.</note></head>
+                            >Ford</persName><note n="1" xml:id="d65fn1" type="source">Source:
+                            Library of Congress, Manuscript Division, <persName corresp="#p_KHA_1"
+                                >Kissinger</persName> Papers, Box CL 204, Geopolitical, Panama
+                            Chronological, Sept 1973–1975. Secret; <gloss target="#t_Exdis_1"
+                                >Exdis</gloss>. In a February 6 covering memorandum to <persName
+                                corresp="#p_KHA_1">Kissinger</persName>, <persName corresp="#p_BE_1"
+                                >Bunker</persName> and Rogers urged him to forward the memorandum,
+                            as well as a public relations strategy, to the President. <persName
+                                corresp="#p_KHA_1">Kissinger</persName> wrote: “This should be
+                            discussed interdepartmentally including Defense. Let Brent start
+                            urgently.” Regarding the coordination with the Defense Department, see
+                                <ref target="#d66fn1">footnote 1, Document 66</ref>.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date
@@ -10288,7 +10205,7 @@
                     <pb n="182" facs="0207" xml:id="pg_182"/>
                     <p rend="sectiontitleital">Recommendation:</p>
                     <p>That you issue the attached new negotiating instructions as a National
-                        Security Decision Memorandum. <note n="3" xml:id="d65fn3">Attached but not
+                        Security Decision Memorandum.<note n="3" xml:id="d65fn3">Attached but not
                             printed. <persName corresp="#p_FGR_1">Ford</persName> did not approve or
                             disapprove the recommendation. In a February 7 meeting with <persName
                                 corresp="#p_FGR_1">Ford</persName>, <persName corresp="#p_KHA_1"
@@ -10305,7 +10222,6 @@
                             was issued until August 18; see <ref target="#d95">Document
                             95</ref>.</note></p>
                 </div>
-
                 <div type="document" n="66" xml:id="d66" subtype="historical-document"
                     frus:doc-dateTime-min="1975-02-12T14:30:00-05:00"
                     frus:doc-dateTime-max="1975-02-12T15:00:00-05:00">
@@ -10546,7 +10462,6 @@
                         that getting a modernized treaty was important whether this occurred in
                         1975, or in three years or ten years.</p>
                 </div>
-
                 <div type="document" n="67" xml:id="d67" subtype="historical-document"
                     frus:doc-dateTime-min="1975-02-21T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-02-21T23:59:59-05:00">
@@ -10681,11 +10596,10 @@
                         treaty before the Congress they would want to see a treaty supportive of our
                         security.</p>
                 </div>
-
+                <pb n="189" facs="0214" xml:id="pg_189"/>
                 <div type="document" n="68" xml:id="d68" subtype="historical-document"
                     frus:doc-dateTime-min="1975-02-27T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-02-27T23:59:59-05:00">
-                    <pb n="189" facs="0214" xml:id="pg_189"/>
                     <head>68. Memorandum From the Deputy Secretary of Defense (<persName
                             corresp="#p_CWP_1">Clements</persName>) to the President’s Assistant for
                         National Security Affairs (<persName corresp="#p_KHA_1"
@@ -10730,17 +10644,18 @@
                         this Department considers that the period of treaty duration for Canal
                         defense should not be less than 50 <pb n="190" facs="0215" xml:id="pg_190"
                         />years, and that existing Presidential guidance on this point should remain
-                        as cited in <gloss target="#t_NSDM_1">NSDM</gloss> 131 (13 September 1971).
-                            <note n="3" xml:id="d68fn3">For <gloss target="#t_NSDM_1">NSDM</gloss>
-                            131, see <ref target="frus1969-76ve10#d555"><hi rend="italic">Foreign
-                                    Relations</hi>, 1969–1976, vol. E–10, Documents on American
-                                Republics, 1969–1972, Document 555</ref>. In a February 27 letter to
-                                <persName corresp="#p_SJR_1">Schlesinger</persName>, <persName
-                                corresp="#p_CHH_1">Callaway</persName> expressed similar concerns
-                            about changing the Presidential guidance in regard to treaty duration.
-                            (Washington National Records Center, <gloss target="#t_RG_1">RG</gloss>
-                            330, <gloss target="#t_OSD_1">OSD</gloss> Files, FRC 330–78–0058, Panama
-                            821 Jan–July 1975)</note></p>
+                        as cited in <gloss target="#t_NSDM_1">NSDM</gloss> 131 (13 September
+                            1971).<note n="3" xml:id="d68fn3">For <gloss target="#t_NSDM_1"
+                                >NSDM</gloss> 131, see <ref target="frus1969-76ve10#d555"><hi
+                                    rend="italic">Foreign Relations</hi>, 1969–1976, vol. E–10,
+                                Documents on American Republics, 1969–1972, Document 555</ref>. In a
+                            February 27 letter to <persName corresp="#p_SJR_1"
+                                >Schlesinger</persName>, <persName corresp="#p_CHH_1"
+                                >Callaway</persName> expressed similar concerns about changing the
+                            Presidential guidance in regard to treaty duration. (Washington National
+                            Records Center, <gloss target="#t_RG_1">RG</gloss> 330, <gloss
+                                target="#t_OSD_1">OSD</gloss> Files, FRC 330–78–0058, Panama 821
+                            Jan–July 1975)</note></p>
                     <p>(S) It is urged that any concession on duration of Canal operation, as
                         distinguished from Canal defense, be accompanied by major concessions by
                         Panama on compensation, lands and waters, and Status of Forces Agreement
@@ -10757,7 +10672,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="69" xml:id="d69" subtype="historical-document"
                     frus:doc-dateTime-min="1975-03-21T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-03-21T23:59:59-05:00">
@@ -10844,7 +10758,6 @@
                             target="#t_OAS_1">OAS</gloss> and UN blessing, would not be an
                         insignificant achievement.</p>
                 </div>
-
                 <div type="document" n="70" xml:id="d70" subtype="historical-document"
                     frus:doc-dateTime-min="1975-03-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-03-24T23:59:59-05:00">
@@ -10852,19 +10765,18 @@
                             Michelsen</persName>, Costa Rican President <persName corresp="#p_OQD_1"
                             >Oduber</persName>, and Venezuelan President <persName
                             corresp="#p_PCA_1">Andres Perez</persName> to President <persName
-                            corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d70fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Ambassador <persName
-                                corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
-                            Box 6, Third Country Matters. No classification marking. A public joint
-                            declaration reiterating the statements made in the letter is attached.
-                            The public declaration, issued in Panama City on March 25, was in the
-                            form of a letter to <persName corresp="#p_FGR_1">Ford</persName> and the
-                            other chiefs of state in the Western Hemisphere signed by the three
-                            Presidents and General <persName corresp="#p_THOE_1"
-                            >Torrijos</persName>. (“Latin Leaders Urge U.S. To Yield Canal,” <hi
-                                rend="italic">The New York Times,</hi> March 26, 1975, p.
-                        24)</note></head>
+                            corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d70fn1"
+                            type="source">Source: National Archives, <gloss target="#t_RG_1"
+                                >RG</gloss> 59, Ambassador <persName corresp="#p_BE_1"
+                                >Bunker</persName>’s Correspondence, Lot 78D300, Box 6, Third
+                            Country Matters. No classification marking. A public joint declaration
+                            reiterating the statements made in the letter is attached. The public
+                            declaration, issued in Panama City on March 25, was in the form of a
+                            letter to <persName corresp="#p_FGR_1">Ford</persName> and the other
+                            chiefs of state in the Western Hemisphere signed by the three Presidents
+                            and General <persName corresp="#p_THOE_1">Torrijos</persName>. (“Latin
+                            Leaders Urge U.S. To Yield Canal,” <hi rend="italic">The New York
+                                Times,</hi> March 26, 1975, p. 24)</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Panama City</placeName>, <date when="1975-03-24"
@@ -11019,7 +10931,7 @@
                         exploit, on its own, its natural resources.</p>
                     <pb n="196" facs="0221" xml:id="pg_196"/>
                     <p>Please accept, Mr. President, the assurances of our highest and most
-                        distinguished consideration, <note n="6" xml:id="d70fn6">In June 17 letters
+                        distinguished consideration,<note n="6" xml:id="d70fn6">In June 17 letters
                             to each of the three Presidents, <persName corresp="#p_FGR_1"
                                 >Ford</persName> thanked them for sharing their views and wrote:
                             “Since the negotiations for a new treaty with Panama on the Canal are
@@ -11031,31 +10943,30 @@
                             1974–77, Box 5, Panama—Correspondence Relating to [1])</note></p>
                     <closer>
                         <signed corresp="#p_LMA_1"><persName corresp="#p_LMA_1">Alfonso López
-                                Michelsen</persName><lb/>
-                            <affiliation>President of Colombia</affiliation>
+                                Michelsen</persName>
+                            <lb/><affiliation>President of Colombia</affiliation>
                         </signed>
                         <signed>Daniel Odúber<lb/>
                             <affiliation>President of Costa Rica</affiliation>
                         </signed>
                         <signed>Carlos Andrés Pérez<note n="7" xml:id="d70fn7">Printed from a copy
-                                with these typed signatures.</note><lb/>
-                            <affiliation>President of Venezuela</affiliation>
+                                with these typed signatures.</note>
+                            <lb/><affiliation>President of Venezuela</affiliation>
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="71" xml:id="d71" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-04-03T23:59:59-05:00">
                     <head>71. Action Memorandum From Ambassador at Large <persName corresp="#p_BE_1"
                             >Bunker</persName> to Secretary <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d71fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Records of Secretary of State
-                                <persName corresp="#p_KHA_1">Henry Kissinger</persName>, Entry 5403,
-                            Box 1, <gloss target="#t_Nodis_1">Nodis</gloss> Msc Documents, Tels,
-                            Etc, 1974–1977 (3). Secret; <gloss target="#t_Nodis_1">Nodis</gloss>.
-                            Drafted by <persName corresp="#p_BE_1">Bunker</persName>.</note></head>
+                            >Kissinger</persName><note n="1" xml:id="d71fn1" type="source">Source:
+                            National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Records of
+                            Secretary of State <persName corresp="#p_KHA_1">Henry
+                                Kissinger</persName>, Entry 5403, Box 1, <gloss target="#t_Nodis_1"
+                                >Nodis</gloss> Msc Documents, Tels, Etc, 1974–1977 (3). Secret;
+                                <gloss target="#t_Nodis_1">Nodis</gloss>. Drafted by <persName
+                                corresp="#p_BE_1">Bunker</persName>.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-04-03"
@@ -11110,11 +11021,10 @@
                     <p rend="sectiontitleital">Recommendation:</p>
                     <p>That this matter be given priority consideration.</p>
                 </div>
-
+                <pb n="198" facs="0223" xml:id="pg_198"/>
                 <div type="document" n="72" xml:id="d72" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-14T07:15:00-05:00"
                     frus:doc-dateTime-max="1975-04-14T07:15:00-05:00">
-                    <pb n="198" facs="0223" xml:id="pg_198"/>
                     <head>72. Minutes of Secretary of State <persName corresp="#p_KHA_1"
                             >Kissinger</persName>’s Principals and Regionals Staff Meeting<note
                             n="1" xml:id="d72fn1" type="source">Source: National Archives, <gloss
@@ -11215,7 +11125,6 @@
                         understand.</p>
                     <p>[Omitted here is discussion of unrelated matters.]</p>
                 </div>
-
                 <div type="document" n="73" xml:id="d73" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-22T10:55:00-05:00"
                     frus:doc-dateTime-max="1975-04-22T11:21:00-05:00">
@@ -11512,11 +11421,10 @@
                         decision.</p>
                     <p>Mr. <persName corresp="#p_CWP_1">Clements</persName>: Good.</p>
                 </div>
-
+                <pb n="205" facs="0230" xml:id="pg_205"/>
                 <div type="document" n="74" xml:id="d74" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-04-25T23:59:59-05:00">
-                    <pb n="205" facs="0230" xml:id="pg_205"/>
                     <head>74. Central Intelligence Agency Intelligence Information Cable<note n="1"
                             xml:id="d74fn1" type="source">Source: Central Intelligence Agency,
                                 <gloss target="#t_DCI_1">DCI</gloss> Files, National Intelligence
@@ -11642,11 +11550,10 @@
                         would be “signed” during 1975. He did not mean “signed and ratified.”)</p>
                     <p>11. Field dissem: [<hi rend="italic">2½ lines not declassified</hi>].</p>
                 </div>
-
+                <pb n="207" facs="0232" xml:id="pg_207"/>
                 <div type="document" n="75" xml:id="d75" subtype="historical-document"
                     frus:doc-dateTime-min="1975-05-02T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-05-02T23:59:59-05:00">
-                    <pb n="207" facs="0232" xml:id="pg_207"/>
                     <head>75. Memorandum From the Chairman of the Department of Defense Panama Canal
                         Negotiations Working Group (<persName corresp="#p_KHLT_1">Koren</persName>)
                         and Ambassador at Large <persName corresp="#p_BE_1">Bunker</persName> to the
@@ -11755,13 +11662,12 @@
                             Zone.</p>
                     </frus:attachment>
                 </div>
-
                 <div type="document" n="76" xml:id="d76" subtype="historical-document"
                     frus:doc-dateTime-min="1975-05-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-05-12T23:59:59-05:00">
                     <head>76. Memorandum From the Deputy U.S. Negotiator (Bell) to Ambassador at
-                        Large <persName corresp="#p_BE_1">Bunker</persName>
-                        <note n="1" xml:id="d76fn1" type="source">Source: National Archives, <gloss
+                        Large <persName corresp="#p_BE_1">Bunker</persName><note n="1"
+                            xml:id="d76fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 84, Lot 81F1, American Embassy, Panama,
                             Panama Canal Treaty Negotiations Files, Box 125, POL
                             33.3–2/Jurisdiction, 1975. Secret; Sensitive; <gloss target="#t_Nodis_1"
@@ -11802,7 +11708,6 @@
                     <p><gloss target="#t_HAK_1">HAK</gloss>: Could he really? How long?</p>
                     <p>WSM: He told me he could hold off for a year or so on ratification. He even
                         said he could stand not signing the treaty until late this year.</p>
-
                     <p>SMB: I doubt the latter. The former is pretty definite—all signs we get say
                         he could stand a ratification delay.</p>
                     <p><gloss target="#t_HAK_1">HAK</gloss>: That’s my inclination: get it, then
@@ -11855,14 +11760,12 @@
                     <p><gloss target="#t_HAK_1">HAK</gloss>: That’s enough. I’ll smile.</p>
                     <closer>
                         <signed corresp="#p_BSM_1"><persName corresp="#p_BSM_1">S. Morey
-                                Bell</persName>
-                            <note n="4" xml:id="d76fn4">Bell signed “SM Bell” above his typed
-                                signature.</note>
-                            <affiliation>Minister<lb/> Deputy U.S. Negotiator</affiliation>
+                                Bell</persName><note n="4" xml:id="d76fn4">Bell signed “SM Bell”
+                                above his typed signature.</note>
+                            <affiliation>Minister <lb/>Deputy U.S. Negotiator</affiliation>
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="77" xml:id="d77" subtype="historical-document"
                     frus:doc-dateTime-min="1975-05-15T15:30:00-05:00"
                     frus:doc-dateTime-max="1975-05-15T16:30:00-05:00">
@@ -12353,7 +12256,6 @@
                     <p>President: Let’s get the materials and facts and then we can make an
                         assessment of where we stand.</p>
                 </div>
-
                 <div type="document" n="78" xml:id="d78" subtype="historical-document"
                     frus:doc-dateTime-min="1975-05-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-05-20T23:59:59-05:00">
@@ -12460,9 +12362,8 @@
                         Tokyo.</p>
                     <closer>
                         <signed corresp="#p_BSM_1"><persName corresp="#p_BSM_1">S. Morey
-                                Bell</persName>
-                            <note n="8" xml:id="d78fn8">Bell initialed “SMB” above his typed
-                                signature.</note>
+                                Bell</persName><note n="8" xml:id="d78fn8">Bell initialed “SMB”
+                                above his typed signature.</note>
                             <affiliation>Minister</affiliation>
                         </signed>
                     </closer>
@@ -12564,7 +12465,6 @@
                                 Clements</persName>, Jr.</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="80" xml:id="d80" subtype="historical-document"
                     frus:doc-dateTime-min="1975-06-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-06-09T23:59:59-05:00">
@@ -12662,11 +12562,10 @@
                         long-range issue.</p>
                     <p>[Omitted here is discussion of unrelated matters.]</p>
                 </div>
-
+                <pb n="227" facs="0252" xml:id="pg_227"/>
                 <div type="document" n="81" xml:id="d81" subtype="historical-document"
                     frus:doc-dateTime-min="1975-06-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-06-13T23:59:59-05:00">
-                    <pb n="227" facs="0252" xml:id="pg_227"/>
                     <head>81. Letter From the Governor of the Panama Canal Zone (<persName
                             corresp="#p_PHR_1">Parfitt</persName>) to the Secretary of the Army
                             (<persName corresp="#p_CHH_1">Callaway</persName>)<note n="1"
@@ -12731,33 +12630,31 @@
                     <p>Sincerely yours,</p>
                     <closer>
                         <signed corresp="#p_PHR_1"><persName corresp="#p_PHR_1">H.R.
-                                Parfitt</persName>
-                            <note n="4" xml:id="d81fn4">Printed from a copy with this typed
-                                signature.</note><lb/>
-                            <affiliation>Governor</affiliation>
+                                Parfitt</persName><note n="4" xml:id="d81fn4">Printed from a copy
+                                with this typed signature.</note>
+                            <lb/><affiliation>Governor</affiliation>
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="82" xml:id="d82" subtype="historical-document"
                     frus:doc-dateTime-min="1975-06-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-06-20T23:59:59-05:00">
                     <head>82. Memorandum From the Deputy Secretary of Defense (<persName
                             corresp="#p_CWP_1">Clements</persName>) to President <persName
-                            corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d82fn1" type="source">Source: Washington National
-                            Records Center, <gloss target="#t_RG_1">RG</gloss> 330, <gloss
-                                target="#t_OSD_1">OSD</gloss> Files, FRC 330–80–0044, Box 13,
-                            NEG—Panama and Panama Canal Zone April 1975–Oct 1975. Secret. The
-                            memorandum was forwarded to <persName corresp="#p_CWP_1"
-                                >Clements</persName> for his signature on June 19 under a covering
-                            memorandum from <persName corresp="#p_ER_1">Ellsworth</persName> which
-                            requested permission to distribute copies of the memorandum to <persName
-                                corresp="#p_KHA_1">Kissinger</persName>, <persName corresp="#p_BE_1"
-                                >Bunker</persName>, <persName corresp="#p_CHH_1"
-                            >Callaway</persName>, and <persName corresp="#p_BGS_1">Brown</persName>.
-                                <persName corresp="#p_CWP_1">Clements</persName> approved the
-                            distribution on June 20.</note></head>
+                            corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d82fn1"
+                            type="source">Source: Washington National Records Center, <gloss
+                                target="#t_RG_1">RG</gloss> 330, <gloss target="#t_OSD_1"
+                                >OSD</gloss> Files, FRC 330–80–0044, Box 13, NEG—Panama and Panama
+                            Canal Zone April 1975–Oct 1975. Secret. The memorandum was forwarded to
+                                <persName corresp="#p_CWP_1">Clements</persName> for his signature
+                            on June 19 under a covering memorandum from <persName corresp="#p_ER_1"
+                                >Ellsworth</persName> which requested permission to distribute
+                            copies of the memorandum to <persName corresp="#p_KHA_1"
+                                >Kissinger</persName>, <persName corresp="#p_BE_1"
+                            >Bunker</persName>, <persName corresp="#p_CHH_1">Callaway</persName>,
+                            and <persName corresp="#p_BGS_1">Brown</persName>. <persName
+                                corresp="#p_CWP_1">Clements</persName> approved the distribution on
+                            June 20.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-06-20"
@@ -12816,11 +12713,10 @@
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="230" facs="0255" xml:id="pg_230"/>
                 <div type="document" n="83" xml:id="d83" subtype="historical-document"
                     frus:doc-dateTime-min="1975-06-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-06-20T23:59:59-05:00">
-                    <pb n="230" facs="0255" xml:id="pg_230"/>
                     <head>83. Memorandum From the Deputy U.S. Negotiator (Bell) to the Assistant
                         Secretary of State for Inter-American Affairs (Rogers)<note n="1"
                             xml:id="d83fn1" type="source">Source: National Archives, <gloss
@@ -12863,29 +12759,28 @@
                         friends.</p>
                     <closer>
                         <signed corresp="#p_BSM_1"><persName corresp="#p_BSM_1">S. Morey
-                                Bell</persName>
-                            <note n="2" xml:id="d83fn2"><persName corresp="#p_BSM_1">Bell</persName>
-                                initialed “SMB” above his typed signature.</note><lb/>
-                            <affiliation>Minister</affiliation>
+                                Bell</persName><note n="2" xml:id="d83fn2"><persName
+                                    corresp="#p_BSM_1">Bell</persName> initialed “SMB” above his
+                                typed signature.</note>
+                            <lb/><affiliation>Minister</affiliation>
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="231" facs="0256" xml:id="pg_231"/>
                 <div type="document" n="84" xml:id="d84" subtype="historical-document"
                     frus:doc-dateTime-min="1975-06-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-06-25T23:59:59-05:00">
-                    <pb n="231" facs="0256" xml:id="pg_231"/>
                     <head>84. Briefing Memorandum From Ambassador at Large <persName
                             corresp="#p_BE_1">Bunker</persName> to Secretary of State <persName
-                            corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" xml:id="d84fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Ambassador <persName
-                                corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
-                            Box 4, Key Documents. Secret; Sensitive; <gloss target="#t_Exdis_1"
-                                >Exdis</gloss>; <gloss target="#t_Stadis_1">Stadis</gloss>. Drafted
-                            by Bell; Rogers and <persName corresp="#p_FMB_1">Feldman, Mark
-                                B.</persName> concurred. Sent through <persName corresp="#p_IRS_1"
-                                >Ingersoll</persName>.</note></head>
+                            corresp="#p_KHA_1">Kissinger</persName><note n="1" xml:id="d84fn1"
+                            type="source">Source: National Archives, <gloss target="#t_RG_1"
+                                >RG</gloss> 59, Ambassador <persName corresp="#p_BE_1"
+                                >Bunker</persName>’s Correspondence, Lot 78D300, Box 4, Key
+                            Documents. Secret; Sensitive; <gloss target="#t_Exdis_1">Exdis</gloss>;
+                                <gloss target="#t_Stadis_1">Stadis</gloss>. Drafted by Bell; Rogers
+                            and <persName corresp="#p_FMB_1">Feldman, Mark B.</persName> concurred.
+                            Sent through <persName corresp="#p_IRS_1"
+                        >Ingersoll</persName>.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-06-25"
@@ -12937,14 +12832,13 @@
                         lines.</p>
                     <p>Furthermore, we believe it is time to halt this skirmishing. It is now 4½
                         months since I have been in truly substantive negotiation with Panama—and 1½
-                        months since you renewed the commitment to negotiate at the OASGA. <note
+                        months since you renewed the commitment to negotiate at the OASGA.<note
                             n="3" xml:id="d84fn3">See <ref target="#d76fn2">footnote 2, Document
                                 76</ref>.</note> The supply of credibility—the President’s, yours,
                         the Negotiators’—is running out.</p>
                     <p>And the President certainly has all the choices before him, now that Defense
                         has in effect recommended a no-treaty choice.</p>
                 </div>
-
                 <div type="document" n="85" xml:id="d85" subtype="historical-document"
                     frus:doc-dateTime-min="1975-06-26T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-06-26T23:59:59-05:00">
@@ -12995,12 +12889,10 @@
                     <p>Sincerely,</p>
                     <closer>
                         <signed corresp="#p_KHA_1"><persName corresp="#p_KHA_1">Henry A.
-                                Kissinger</persName>
-                            <note n="3" xml:id="d85fn3">Printed from a copy that bears this typed
-                                signature.</note></signed>
+                                Kissinger</persName><note n="3" xml:id="d85fn3">Printed from a copy
+                                that bears this typed signature.</note></signed>
                     </closer>
                 </div>
-
                 <div type="document" n="86" xml:id="d86" subtype="historical-document"
                     frus:doc-dateTime-min="1975-06-27T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-06-27T23:59:59-05:00">
@@ -13088,7 +12980,6 @@
                     <p>Secretary <persName corresp="#p_KHA_1">Kissinger</persName>: This is
                         crazy.</p>
                     <p>Mr. Rogers: It is.</p>
-
                     <p>Now, the issue comes up. It’s going to come up in the Senate—there’s no
                         question about it. They sustain the amendment or amend <pb n="235"
                             facs="0260" xml:id="pg_235"/>it. There’s no way to avoid the issue
@@ -13145,7 +13036,6 @@
                     <p>Mr. Rogers: I’ll get your signature this morning. I’ll talk to him.</p>
                     <p>[Omitted here is discussion of unrelated matters.]</p>
                 </div>
-
                 <div type="document" n="87" xml:id="d87" subtype="historical-document"
                     frus:doc-dateTime-min="1975-07-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-07-07T23:59:59-05:00">
@@ -13234,19 +13124,17 @@
                         here.</p>
                     <p>[Omitted here is discussion of unrelated matters.]</p>
                 </div>
-
+                <pb n="238" facs="0263" xml:id="pg_238"/>
                 <div type="document" n="88" xml:id="d88" subtype="historical-document"
                     frus:doc-dateTime-min="1975-07-08T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-07-08T23:59:59-05:00">
-                    <pb n="238" facs="0263" xml:id="pg_238"/>
                     <head>88. Letter From Senator <persName corresp="#p_HHH_1">Hubert H.
                             Humphrey</persName> and Senator <persName corresp="#p_MGGW_1">Gale W.
                             McGee</persName> to President <persName corresp="#p_FGR_1"
-                            >Ford</persName>
-                        <note n="1" xml:id="d88fn1" type="source">Source: Ford Library, White House
-                            Central Files, Subject Files, Box 13, 3–1/Panama Canal 8/1/75–8/31/75.
-                            No classification marking. Both Senators were on the Senate Foreign
-                            Relations Committee.</note></head>
+                            >Ford</persName><note n="1" xml:id="d88fn1" type="source">Source: Ford
+                            Library, White House Central Files, Subject Files, Box 13, 3–1/Panama
+                            Canal 8/1/75–8/31/75. No classification marking. Both Senators were on
+                            the Senate Foreign Relations Committee.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-07-08"
@@ -13287,8 +13175,8 @@
                             xml:id="pg_239"/>in establishing a unified position on the treaty within
                         the Executive Branch, we believe our efforts will be fruitless.</p>
                     <p>Again, we stand ready to assist you in this vital matter and would appreciate
-                        meeting with you or your representatives if you should so desire. <note
-                            n="2" xml:id="d88fn2">In August 23 letters to both <persName
+                        meeting with you or your representatives if you should so desire.<note n="2"
+                            xml:id="d88fn2">In August 23 letters to both <persName
                                 corresp="#p_HHH_1">Humphrey</persName> and <persName
                                 corresp="#p_MGGW_1">McGee</persName>, <persName corresp="#p_FGR_1"
                                 >Ford</persName> promised to “give our careful attention to the
@@ -13304,7 +13192,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="89" xml:id="d89" subtype="historical-document"
                     frus:doc-dateTime-min="1975-07-17T17:56:00-05:00"
                     frus:doc-dateTime-max="1975-07-17T17:56:00-05:00">
@@ -13395,20 +13282,19 @@
                         the Canal issue and has been consistently pushed by hardliners who oppose
                         any significant compromise in the negotiation. It is based upon the belief
                         that time and the thrust of history works to Panama’s favor (see Panama
-                        3766). <note n="2" xml:id="d89fn2">In telegram 3766 from Panama City, June
-                            24, the Embassy provided a background paper on the “pure nationalist”
-                            position held by certain Panamanian officials, asserting that advocates
-                            of such a position believed that reason, time, and intransigence
-                            intelligently applied would benefit the Panamanians on the Canal issue.
-                            (National Archives, <gloss target="#t_RG_1">RG</gloss> 84, American
-                            Embassy, Panama, Panama Canal Treaty Negotiation Files, Lot 81F1, Box
-                            125, POL 33.3–2 Negotiations—1975—Local Politics and
-                        Reaction)</note></p>
+                            3766).<note n="2" xml:id="d89fn2">In telegram 3766 from Panama City,
+                            June 24, the Embassy provided a background paper on the “pure
+                            nationalist” position held by certain Panamanian officials, asserting
+                            that advocates of such a position believed that reason, time, and
+                            intransigence intelligently applied would benefit the Panamanians on the
+                            Canal issue. (National Archives, <gloss target="#t_RG_1">RG</gloss> 84,
+                            American Embassy, Panama, Panama Canal Treaty Negotiation Files, Lot
+                            81F1, Box 125, POL 33.3–2 Negotiations—1975—Local Politics and
+                            Reaction)</note></p>
                     <closer>
                         <signed>Gonzalez</signed>
                     </closer>
                 </div>
-
                 <div type="document" n="90" xml:id="d90" subtype="historical-document"
                     frus:doc-dateTime-min="1975-07-23T15:50:00-05:00"
                     frus:doc-dateTime-max="1975-07-23T16:45:00-05:00">
@@ -13741,11 +13627,10 @@
                         We won’t do anything until they get together—we won’t tell <persName
                             corresp="#p_THOE_1">Torrijos</persName> anything.</p>
                 </div>
-
+                <pb n="248" facs="0273" xml:id="pg_248"/>
                 <div type="document" n="91" xml:id="d91" subtype="historical-document"
                     frus:doc-dateTime-min="1975-07-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-07-24T23:59:59-05:00">
-                    <pb n="248" facs="0273" xml:id="pg_248"/>
                     <head>91. Memorandum of Meeting<note n="1" xml:id="d91fn1" type="source">Source:
                             Central Intelligence Agency, Office of the Director of Central
                             Intelligence, Job 80M01066A:<gloss target="#t_ER_1">ER</gloss>Subject
@@ -13850,25 +13735,24 @@
                     <p>5. Discuss operation of Canal.</p>
                     <closer>
                         <signed corresp="#p_WVA_1"><persName corresp="#p_WVA_1">Vernon A.
-                                Walters</persName><lb/>
-                            <affiliation>Lieutenant General, <gloss target="#t_USA_1"
-                                >USA</gloss><lb/> Deputy Director of Central
+                                Walters</persName>
+                            <lb/><affiliation>Lieutenant General, <gloss target="#t_USA_1"
+                                    >USA</gloss><lb/> Deputy Director of Central
                                 Intelligence</affiliation>
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="250" facs="0275" xml:id="pg_250"/>
                 <div type="document" n="92" xml:id="d92" subtype="historical-document"
                     frus:doc-dateTime-min="1975-08-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-08-05T23:59:59-05:00">
-                    <pb n="250" facs="0275" xml:id="pg_250"/>
                     <head>92. Memorandum From the Deputy Secretary of State (<persName
                             corresp="#p_IRS_1">Ingersoll</persName>) to Secretary of State <persName
-                            corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" xml:id="d92fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File,
-                            P760137–1359. Confidential. Sent through <gloss target="#t_SS_1"
-                                >S/S</gloss>.</note></head>
+                            corresp="#p_KHA_1">Kissinger</persName><note n="1" xml:id="d92fn1"
+                            type="source">Source: National Archives, <gloss target="#t_RG_1"
+                                >RG</gloss> 59, Central Foreign Policy File, P760137–1359.
+                            Confidential. Sent through <gloss target="#t_SS_1"
+                        >S/S</gloss>.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-08-05"
@@ -13901,11 +13785,10 @@
                         he strongly opposes any give but he has been overruled by <persName
                             corresp="#p_CWP_1">Clements</persName>.</p>
                 </div>
-
+                <pb n="251" facs="0276" xml:id="pg_251"/>
                 <div type="document" n="93" xml:id="d93" subtype="historical-document"
                     frus:doc-dateTime-min="1975-08-07T07:00:00-05:00"
                     frus:doc-dateTime-max="1975-08-07T07:00:00-05:00">
-                    <pb n="251" facs="0276" xml:id="pg_251"/>
                     <head>93. Minutes of Secretary of State <persName corresp="#p_KHA_1"
                             >Kissinger</persName>’s Principals and Regionals Staff Meeting<note
                             n="1" xml:id="d93fn1" type="source">Source: National Archives, <gloss
@@ -14021,19 +13904,18 @@
                         strategy, we are not going to start picking up the pace now.</p>
                     <p>[Omitted here is discussion of unrelated matters.]</p>
                 </div>
-
+                <pb n="253" facs="0278" xml:id="pg_253"/>
                 <div type="document" n="94" xml:id="d94" subtype="historical-document"
                     frus:doc-dateTime-min="1975-08-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-08-07T23:59:59-05:00">
-                    <pb n="253" facs="0278" xml:id="pg_253"/>
                     <head>94. Memorandum From the Deputy Secretary of State (<persName
                             corresp="#p_IRS_1">Ingersoll</persName>) and the Deputy Secretary of
                         Defense (<persName corresp="#p_CWP_1">Clements</persName>) to President
-                            <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" xml:id="d94fn1" type="source">Source: Washington National
-                            Records Center, <gloss target="#t_RG_1">RG</gloss> 330, <gloss
-                                target="#t_OSD_1">OSD</gloss> Files, FRC 330–78–0058, Panama 821
-                            (Aug–Dec) 1975. Secret.</note></head>
+                            <persName corresp="#p_FGR_1">Ford</persName><note n="1" xml:id="d94fn1"
+                            type="source">Source: Washington National Records Center, <gloss
+                                target="#t_RG_1">RG</gloss> 330, <gloss target="#t_OSD_1"
+                                >OSD</gloss> Files, FRC 330–78–0058, Panama 821 (Aug–Dec) 1975.
+                            Secret.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-08-07"
@@ -14145,11 +14027,10 @@
                         have to convince his people that he has not “sold out” to the United States
                         in the new treaty.</p>
                 </div>
-
+                <pb n="256" facs="0281" xml:id="pg_256"/>
                 <div type="document" n="95" xml:id="d95" subtype="historical-document"
                     frus:doc-dateTime-min="1975-08-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-08-18T23:59:59-05:00">
-                    <pb n="256" facs="0281" xml:id="pg_256"/>
                     <head>95. National Security Decision Memorandum 302<note n="1" xml:id="d95fn1"
                             type="source">Source: Ford Library, National Security Adviser, National
                             Security Study Memoranda and National Security Decision Memoranda,
@@ -14247,11 +14128,10 @@
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="258" facs="0283" xml:id="pg_258"/>
                 <div type="document" n="96" xml:id="d96" subtype="historical-document"
                     frus:doc-dateTime-min="1975-08-29T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-08-29T23:59:59-05:00">
-                    <pb n="258" facs="0283" xml:id="pg_258"/>
                     <head>96. Memorandum From <persName corresp="#p_LS_2">Stephen Low</persName> of
                         the National Security Council Staff to the President’s Deputy Assistant for
                         National Security Affairs (<persName corresp="#p_SB_1"
@@ -14300,7 +14180,7 @@
                     <p>If the appropriate occasion arises, you may want to reinforce with the
                         Secretary the importance of acceding to one or the other of Defense’s <pb
                             n="259" facs="0284" xml:id="pg_259"/>suggestions, i.e., replace the
-                        Deputy or add a second from Defense. <note n="2" xml:id="d96fn2"><persName
+                        Deputy or add a second from Defense.<note n="2" xml:id="d96fn2"><persName
                                 corresp="#p_KHA_1">Kissinger</persName> did not immediately remove
                             Bell, who remained on the Ambassador’s staff until August 1977. (<hi
                                 rend="italic">Panama Odyssey</hi>, p. 427) In an October 30 letter
@@ -14317,17 +14197,15 @@
                             1974–Dec 1975)</note> (<persName corresp="#p_BE_1">Bunker</persName>
                         would be strongly opposed to the first of these.)</p>
                 </div>
-
                 <div type="document" n="97" xml:id="d97" subtype="historical-document"
                     frus:doc-dateTime-min="1975-09-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-09-05T23:59:59-05:00">
                     <head>97. Memorandum From <persName corresp="#p_LS_2">Stephen Low</persName> of
                         the National Security Council Staff to Secretary of State <persName
-                            corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" xml:id="d97fn1" type="source">Source: Ford Library, National
-                            Security Adviser, Presidential Country Files for Latin America, Box 6,
-                            Panama (3). Secret; Outside the System. Sent for
-                        information.</note></head>
+                            corresp="#p_KHA_1">Kissinger</persName><note n="1" xml:id="d97fn1"
+                            type="source">Source: Ford Library, National Security Adviser,
+                            Presidential Country Files for Latin America, Box 6, Panama (3). Secret;
+                            Outside the System. Sent for information.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-09-05"
@@ -14404,17 +14282,15 @@
                         some middle-level people who look at things his way and are willing to spend
                         full-time working with State on this problem.</p>
                 </div>
-
+                <pb n="261" facs="0286" xml:id="pg_261"/>
                 <div type="document" n="98" xml:id="d98" subtype="historical-document"
                     frus:doc-dateTime-min="1975-09-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-09-18T23:59:59-05:00">
-                    <pb n="261" facs="0286" xml:id="pg_261"/>
                     <head>98. Memorandum by Ambassador at Large <persName corresp="#p_BE_1"
-                            >Bunker</persName>
-                        <note n="1" xml:id="d98fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Ambassador <persName
-                                corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
-                            Box 3, Congress. No classification marking. </note></head>
+                            >Bunker</persName><note n="1" xml:id="d98fn1" type="source">Source:
+                            National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Ambassador
+                                <persName corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot
+                            78D300, Box 3, Congress. No classification marking. </note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-09-18"
@@ -14445,7 +14321,6 @@
                                 initials.</note></signed>
                     </closer>
                 </div>
-
                 <div type="document" n="99" xml:id="d99" subtype="historical-document"
                     frus:doc-dateTime-min="1975-09-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-09-23T23:59:59-05:00">
@@ -14521,7 +14396,7 @@
                     <pb n="263" facs="0288" xml:id="pg_263"/>
                     <p>As you know, the Panamanians released a statement on September 20 outlining
                         the substance of the conceptual agreements reached thus far as well as most
-                        of the remaining major issues. <note n="7" xml:id="d99fn7">In a
+                        of the remaining major issues.<note n="7" xml:id="d99fn7">In a
                             question-and-answer session following a September 16 speech before the
                             Southern Governors Conference in Orlando, Florida, <persName
                                 corresp="#p_KHA_1">Kissinger</persName> responded to a question from
@@ -14557,7 +14432,6 @@
                         recent weeks I believe that we can proceed in a constructive manner when the
                         Panamanian negotiating team comes to Washington.</p>
                 </div>
-
                 <div type="document" n="100" xml:id="d100" subtype="historical-document"
                     frus:doc-dateTime-min="1975-09-25T10:17:00-05:00"
                     frus:doc-dateTime-max="1975-09-25T10:17:00-05:00">
@@ -14636,7 +14510,7 @@
                         we can give up more, but if we have to do it all now and with publicity, the
                         Congress will stop it. We must have time. We sent a different team down
                         there and we found we can give up a lot. We can give up a little at a time
-                        so that over the<pb n="265" facs="0290" xml:id="pg_265"/> period they will
+                        so that over the <pb n="265" facs="0290" xml:id="pg_265"/>period they will
                         get what they need. But we need to maneuver. The House just voted again to
                         take away our ability to negotiate.<note n="3" xml:id="d100fn3">On September
                             24, the House rejected a conference committee compromise on the language
@@ -14676,11 +14550,10 @@
                         what the attitudes are.</p>
                     <p>[Omitted here is discussion of developmental assistance and drugs.]</p>
                 </div>
-
+                <pb n="266" facs="0291" xml:id="pg_266"/>
                 <div type="document" n="101" xml:id="d101" subtype="historical-document"
                     frus:doc-dateTime-min="1975-10-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-10-05T23:59:59-05:00">
-                    <pb n="266" facs="0291" xml:id="pg_266"/>
                     <head>101. Memorandum for the Record Prepared in the Headquarters, 470th
                         Military Intelligence Group, Department of the Army<note n="1"
                             xml:id="d101fn1" type="source">Source: National Archives, <gloss
@@ -14760,19 +14633,18 @@
                             negotiations.]</hi></p>
                     <closer><signed>[name not declassified]</signed></closer>
                 </div>
-
+                <pb n="268" facs="0293" xml:id="pg_268"/>
                 <div type="document" n="102" xml:id="d102" subtype="historical-document"
                     frus:doc-dateTime-min="1975-10-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-10-20T23:59:59-05:00">
-                    <pb n="268" facs="0293" xml:id="pg_268"/>
                     <head>102. Briefing Memorandum From the Assistant Secretary of State for
                         Inter-American Affairs (Rogers) to Secretary of State <persName
-                            corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" xml:id="d102fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 84, American Embassy, Panama, Panama
-                            Canal Treaty Negotiation Files, Lot 81F1, Box 125, POL 33.3–2/Canal
-                            Treaty Negotiations/General, July–Dec 1975. Confidential. Drafted by
-                                <persName corresp="#p_HRB_1">Howard</persName>; cleared by <persName
+                            corresp="#p_KHA_1">Kissinger</persName><note n="1" xml:id="d102fn1"
+                            type="source">Source: National Archives, <gloss target="#t_RG_1"
+                                >RG</gloss> 84, American Embassy, Panama, Panama Canal Treaty
+                            Negotiation Files, Lot 81F1, Box 125, POL 33.3–2/Canal Treaty
+                            Negotiations/General, July–Dec 1975. Confidential. Drafted by <persName
+                                corresp="#p_HRB_1">Howard</persName>; cleared by <persName
                                 corresp="#p_BE_1">Bunker</persName>.</note></head>
                     <opener>
                         <dateline rendition="#right">
@@ -14926,7 +14798,6 @@
                         in the coming months. To blunt such efforts we will pursue our Congressional
                         consultations.</p>
                 </div>
-
                 <div type="document" n="103" xml:id="d103" subtype="historical-document"
                     frus:doc-dateTime-min="1975-11-10T14:45:00-05:00"
                     frus:doc-dateTime-max="1975-11-10T14:45:00-05:00">
@@ -14961,7 +14832,6 @@
                         on the remaining issues.</p>
                     <p>(c) That objective can only be reached by the negotiators of both parties
                         proceeding into “hard, methodical bargaining”.</p>
-
                     <p>(d) The basis for such bargaining has now been established by the
                         presentation of Panama’s counter-offer of October 29 to the United States’
                         offer of September 5.<note n="2" xml:id="d103fn2">See <ref target="#d102fn3"
@@ -14970,7 +14840,6 @@
                         complex to handle as a “package”. Accordingly the United <pb n="272"
                             facs="0297" xml:id="pg_272"/>States would be quite willing to break out
                         components of them to deal with, one after the other.</p>
-
                     <p>(e) In any case, no “breakthrough” or dramatic negotiating progress should be
                         expected from the next round.</p>
                     <p>(f) Finally and most importantly, the United States’ offer represented a
@@ -14996,11 +14865,10 @@
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="273" facs="0298" xml:id="pg_273"/>
                 <div type="document" n="104" xml:id="d104" subtype="historical-document"
                     frus:doc-dateTime-min="1975-11-10T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-11-10T23:59:59-05:00">
-                    <pb n="273" facs="0298" xml:id="pg_273"/>
                     <head>104. Memorandum of Conversation<note n="1" xml:id="d104fn1" type="source"
                             >Source: Washington National Records Center, <gloss target="#t_RG_1"
                                 >RG</gloss> 330, USD/P Files, FRC 330–87–0068, 1975–1977 Memcons Re:
@@ -15185,11 +15053,10 @@
                         groups imply for <persName corresp="#p_THOE_1">Torrijos</persName> appears
                         fairly accurate.</p>
                 </div>
-
+                <pb n="277" facs="0302" xml:id="pg_277"/>
                 <div type="document" n="105" xml:id="d105" subtype="historical-document"
                     frus:doc-dateTime-min="1975-11-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-11-18T23:59:59-05:00">
-                    <pb n="277" facs="0302" xml:id="pg_277"/>
                     <head>105. Memorandum of Conversation<note n="1" xml:id="d105fn1" type="source"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 84,
                             American Embassy, Panama, Panama Canal Treaty Negotiation Files, Lot
@@ -15279,11 +15146,10 @@
                         as gains only those parcels of land that are to be turned over to Panama
                         without restrictions.</p>
                 </div>
-
+                <pb n="279" facs="0304" xml:id="pg_279"/>
                 <div type="document" n="106" xml:id="d106" subtype="historical-document"
                     frus:doc-dateTime-min="1975-12-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-12-09T23:59:59-05:00">
-                    <pb n="279" facs="0304" xml:id="pg_279"/>
                     <head>106. Memorandum of Conversation<note n="1" xml:id="d106fn1" type="source"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 59,
                             Ambassador <persName corresp="#p_BE_1">Bunker</persName>’s
@@ -15351,7 +15217,7 @@
                     <p>I asked if the Senator noticed any changes in perception of the Canal issue
                         on the Hill. He responded that <persName corresp="#p_BHF_1"
                         >Byrd</persName>’s decision to withdraw his amendment to the State
-                        Appropriations Bill reflected some change. <note n="4" xml:id="d106fn4"
+                        Appropriations Bill reflected some change.<note n="4" xml:id="d106fn4"
                                 ><persName corresp="#p_BHF_1">Byrd</persName> announced his decision
                             on September 3. (“U.S. Feuding on Panama Treaty Eases,” <hi
                                 rend="italic">Washington Post,</hi> September 3, 1975, p. A3)</note>
@@ -15387,7 +15253,6 @@
                             >Bunker</persName> and Deputies Bell and <persName corresp="#p_DWG_1"
                             >Dolvin</persName>. Refs: <persName corresp="#p_JWJ_1"
                         >Jorden</persName>-Bell Telecon.</p>
-
                     <p>1. After talk with <persName corresp="#p_THOE_1">Torrijos</persName> on
                         proposed <gloss target="#t_GN_1">GN</gloss> visit to Washington, reported
                         septel (see Panama 7658),<note n="2" xml:id="d107fn2">Dated December 12.
@@ -15496,8 +15361,8 @@
                         not really been clear before. If a message from the Ambassador to <pb
                             n="283" facs="0308" xml:id="pg_283"/><persName corresp="#p_TJA_1"
                             >Tack</persName> is not on its way, I urge one be sent as quickly as
-                        possible. <note n="7" xml:id="d107fn7">Telegram 5337 to Panama City, January
-                            9, 1976, transmitted a message from <persName corresp="#p_BE_1"
+                            possible.<note n="7" xml:id="d107fn7">Telegram 5337 to Panama City,
+                            January 9, 1976, transmitted a message from <persName corresp="#p_BE_1"
                                 >Bunker</persName> to <persName corresp="#p_TJA_1">Tack</persName>
                             concerning the next round of negotiations. (National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Central Foreign Policy File,
@@ -15508,7 +15373,6 @@
                         </signed>
                     </closer>
                 </div>
-
                 <div type="document" n="108" xml:id="d108" subtype="historical-document"
                     frus:doc-dateTime-min="1975-12-29T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-12-29T23:59:59-05:00">
@@ -15570,7 +15434,6 @@
                         together with the remaining approved fallbacks as of that time, is shown in
                         summary form at TAB A. The results of this round are discussed below,
                         relative to each issue.</p>
-
                     <p>3. <hi rend="italic">Land and Water Areas.</hi> This is an area in which the
                         Panamanian negotiating position evidenced marked movement during the
                         December 1975 round. At the first meeting of the negotiating teams, Panama
@@ -16071,11 +15934,10 @@
                         </table>
                     </frus:attachment>
                 </div>
-
+                <pb n="294" facs="0319" xml:id="pg_294"/>
                 <div type="document" n="109" xml:id="d109" subtype="historical-document"
                     frus:doc-dateTime-min="1976-01-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-01-15T23:59:59-05:00">
-                    <pb n="294" facs="0319" xml:id="pg_294"/>
                     <head>109. Memorandum for the Record<note n="1" xml:id="d109fn1" type="source"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 59,
                             Inter-American Country Files, Lot 92D281, Box 2, Panama Canal Neg. Lands
@@ -16180,11 +16042,10 @@
                         were to follow this course. Ambassador <persName corresp="#p_BE_1"
                             >Bunker</persName> said he would have in mind doing so.</p>
                 </div>
-
+                <pb n="296" facs="0321" xml:id="pg_296"/>
                 <div type="document" n="110" xml:id="d110" subtype="historical-document"
                     frus:doc-dateTime-min="1976-01-20T16:25:00-05:00"
                     frus:doc-dateTime-max="1976-01-20T16:25:00-05:00">
-                    <pb n="296" facs="0321" xml:id="pg_296"/>
                     <head>110. Telegram From the Department of State to Secretary of State <persName
                             corresp="#p_KHA_1">Kissinger</persName> and the Embassy in Panama<note
                             n="1" xml:id="d110fn1" type="source">Source: National Archives, <gloss
@@ -16247,7 +16108,7 @@
                             >Torrijos</persName> has just settled a serious squabble with United
                         Brands on equitable terms instead of moving toward expropriation. Also he
                         has just signed with Texas Gulf for <pb n="297" facs="0322" xml:id="pg_297"
-                        />a huge copper exploitation. <note n="3" xml:id="d110fn3">Telegram 247 from
+                        />a huge copper exploitation.<note n="3" xml:id="d110fn3">Telegram 247 from
                             Panama City, January 16, reported that the Government of Panama and
                             United Brands had reached an agreement on January 8. Telegram 101 from
                             Panama City, January 7, reported the joint announcement by Texas Gulf
@@ -16262,7 +16123,6 @@
                         <signed corresp="#p_SJJ_1"><persName corresp="#p_SJJ_1">Sisco</persName>
                         </signed>
                     </closer>
-
                 </div>
                 <div type="document" n="111" xml:id="d111" subtype="historical-document"
                     frus:doc-dateTime-min="1976-02-04T00:00:00-05:00"
@@ -16281,11 +16141,10 @@
                         Sensitive. Drafted by <persName corresp="#p_BJP_1">Barkley</persName>. Three
                         pages not declassified.]</note>
                 </div>
-
+                <pb n="298" facs="0323" xml:id="pg_298"/>
                 <div type="document" n="112" xml:id="d112" subtype="historical-document"
                     frus:doc-dateTime-min="1976-02-16T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-02-16T23:59:59-05:00">
-                    <pb n="298" facs="0323" xml:id="pg_298"/>
                     <head>112. Memorandum From the President’s Assistant for National Security
                         Affairs (<persName corresp="#p_SB_1">Scowcroft</persName>) to the White
                         House Chief of Staff (<persName corresp="#p_CR_1">Cheney</persName>)<note
@@ -16370,11 +16229,10 @@
                         negotiations. Specific guidance for negotiations of this kind are
                         established by the President.</p>
                 </div>
-
+                <pb n="300" facs="0325" xml:id="pg_300"/>
                 <div type="document" n="113" xml:id="d113" subtype="historical-document"
                     frus:doc-dateTime-min="1976-02-24T12:40:00-05:00"
                     frus:doc-dateTime-max="1976-02-24T13:10:00-05:00">
-                    <pb n="300" facs="0325" xml:id="pg_300"/>
                     <head>113. Memorandum of Conversation<note n="1" xml:id="d113fn1" type="source"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 59,
                             Central Foreign Policy File, P820117–1124. Secret; <gloss
@@ -16708,19 +16566,17 @@
                             negotiations. (Ibid.)</note></p>
                     <pb n="307" facs="0332" xml:id="pg_307"/>
                     <p>The minutes of the negotiating sessions are attached. You may want to scan
-                        some of them to obtain a sensation of how they went. <note n="3"
+                        some of them to obtain a sensation of how they went.<note n="3"
                             xml:id="d114fn3">Not attached, but copies are in the National Archives,
                                 <gloss target="#t_RG_1">RG</gloss> 84, Lot 81F1, American Embassy,
                             Panama, Panama Canal Treaty Negotiation Files, Box 126, Binders February
                             1976.</note></p>
                     <closer>
                         <signed corresp="#p_BE_1"><persName corresp="#p_BE_1">Ellsworth
-                                Bunker</persName>
-                            <note n="4" xml:id="d114fn4">Printed from a copy that indicates
-                                    <persName corresp="#p_BE_1">Bunker</persName> signed the
-                                original.</note></signed>
+                                Bunker</persName><note n="4" xml:id="d114fn4">Printed from a copy
+                                that indicates <persName corresp="#p_BE_1">Bunker</persName> signed
+                                the original.</note></signed>
                     </closer>
-
                 </div>
                 <div type="document" n="115" xml:id="d115" subtype="historical-document"
                     frus:doc-dateTime-min="1976-03-19T00:00:00-05:00"
@@ -16742,14 +16598,12 @@
                         how the negotiating process may go in coming months. Ambassador <persName
                             corresp="#p_BE_1">Bunker</persName> concurred in forwarding the
                         attached.</p>
-
-                    <closer><signed><persName corresp="#p_BSM_1">S. Morey Bell</persName>
-                            <note n="2" xml:id="d115fn2">Bell initialed “SMB” above this typed
+                    <closer><signed><persName corresp="#p_BSM_1">S. Morey Bell</persName><note n="2"
+                                xml:id="d115fn2">Bell initialed “SMB” above this typed
                                 signature.</note>
                         </signed>
-                        <hi rend="italic">Minister</hi><lb/>
-                        <hi rend="italic">Deputy U.S. Negotiator</hi></closer>
-
+                        <hi rend="italic">Minister</hi>
+                        <lb/><hi rend="italic">Deputy U.S. Negotiator</hi></closer>
                     <pb n="308" facs="0333" xml:id="pg_308"/>
                     <frus:attachment>
                         <note rend="inline"><hi rend="strong">Enclosure</hi><note n="3"
@@ -16845,9 +16699,9 @@
                         <p>One visit is essential. Senator <persName corresp="#p_GB_1"
                                 >Goldwater</persName>, having announced a change of heart on the
                             merit of negotiating a new treaty, wishes a briefing from the
-                            Ambassador. <note n="7" xml:id="d115fn7">No record of a meeting has been
-                                found.</note> Another is not essential but useful: a freshman Member
-                            of the House has asked the Ambassador to brief a group of his
+                                Ambassador.<note n="7" xml:id="d115fn7">No record of a meeting has
+                                been found.</note> Another is not essential but useful: a freshman
+                            Member of the House has asked the Ambassador to brief a group of his
                             colleagues.</p>
                         <p>Over the months ahead we can anticipate a number of requests for the
                             Ambassador’s appearance before congressional committees and
@@ -16862,12 +16716,10 @@
                                 Security Adviser, Presidential Country Files for Latin America,
                                 1974–77, Box 6, Panama [3])</note></p>
                     </frus:attachment>
-
                 </div>
                 <div type="document" n="116" xml:id="d116" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-01T08:00:00-05:00"
                     frus:doc-dateTime-max="1976-04-01T08:00:00-05:00">
-
                     <head>116. Memorandum of Conversation<note n="1" xml:id="d116fn1" type="source"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 59,
                             Ambassador <persName corresp="#p_BE_1">Bunker</persName>’s
@@ -16996,11 +16848,10 @@
                     <p>Senator Stone: There’d be no debate.</p>
                     <p>[<hi rend="roman">Omitted here is discussion of unrelated matters.</hi>]</p>
                 </div>
-
+                <pb n="313" facs="0338" xml:id="pg_313"/>
                 <div type="document" n="117" xml:id="d117" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-09T16:40:00-05:00"
                     frus:doc-dateTime-max="1976-04-09T16:40:00-05:00">
-                    <pb n="313" facs="0338" xml:id="pg_313"/>
                     <head>117. Telegram from the Embassy in Panama to the Department of State<note
                             n="1" xml:id="d117fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 84, American Embassy, Panama,
@@ -17265,11 +17116,10 @@
                         Panama. They fear <persName corresp="#p_THOE_1">Torrijos</persName> would
                         sacrifice this for short-term political gains.</p>
                 </div>
-
+                <pb n="318" facs="0343" xml:id="pg_318"/>
                 <div type="document" n="119" xml:id="d119" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-14T04:30:00-05:00"
                     frus:doc-dateTime-max="1976-04-14T17:10:00-05:00">
-                    <pb n="318" facs="0343" xml:id="pg_318"/>
                     <head>119. Memorandum of Conversation<note n="1" xml:id="d119fn1" type="source"
                             >Source: Ford Library, National Security Adviser, Memoranda of
                             Conversations, Box 19, April 14, 1976—<persName corresp="#p_FGR_1"
@@ -17330,11 +17180,10 @@
                         President.</p>
                     <p>[<hi rend="roman">Omitted here is discussion of the Middle East.]</hi></p>
                 </div>
-
+                <pb n="319" facs="0344" xml:id="pg_319"/>
                 <div type="document" n="120" xml:id="d120" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-04-15T23:59:59-05:00">
-                    <pb n="319" facs="0344" xml:id="pg_319"/>
                     <head>120. Minutes of Secretary of State <persName corresp="#p_KHA_1"
                             >Kissinger</persName>’s Principals and Regionals Staff Meeting<note
                             n="1" xml:id="d120fn1" type="source">Source: National Archives, <gloss
@@ -17483,17 +17332,15 @@
                         (Laughter.)</p>
                     <p>[<hi rend="roman">Omitted here is discussion of unrelated matters.]</hi></p>
                 </div>
-
+                <pb n="322" facs="0347" xml:id="pg_322"/>
                 <div type="document" n="121" xml:id="d121" subtype="historical-document"
                     frus:doc-dateTime-min="1976-05-11T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-05-11T23:59:59-05:00">
-                    <pb n="322" facs="0347" xml:id="pg_322"/>
                     <head>121. Memorandum From <persName corresp="#p_ESE_1">Stuart
                             Eizenstat</persName> to Governor <persName corresp="#p_CJE_1"
-                            >Carter</persName>
-                        <note n="1" type="source" xml:id="d121fn1">Source: <persName
-                                corresp="#p_CJE_1">Carter</persName> Library, Campaign Issues
-                            Office, Box 26, Folder 5. No classification marking. <persName
+                            >Carter</persName><note n="1" type="source" xml:id="d121fn1">Source:
+                                <persName corresp="#p_CJE_1">Carter</persName> Library, Campaign
+                            Issues Office, Box 26, Folder 5. No classification marking. <persName
                                 corresp="#p_ESE_1">Eizenstat</persName> was the Policy Director for
                             Governor <persName corresp="#p_CJE_1">Carter</persName>’s Presidential
                             campaign.</note></head>
@@ -17525,11 +17372,10 @@
                         counterproductive than to have guerilla warfare or a continuing irritant in
                         our relations with the country in which the Canal is located.</p>
                 </div>
-
+                <pb n="323" facs="0348" xml:id="pg_323"/>
                 <div type="document" n="122" xml:id="d122" subtype="historical-document"
                     frus:doc-dateTime-min="1976-05-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-05-13T23:59:59-05:00">
-                    <pb n="323" facs="0348" xml:id="pg_323"/>
                     <head>122. Memorandum From <persName corresp="#p_LS_2">Stephen Low</persName> of
                         the National Security Council Staff to the President’s Assistant for
                         National Security Affairs (<persName corresp="#p_SB_1"
@@ -17612,19 +17458,19 @@
                         want to do so and have now convinced <persName corresp="#p_CWP_1"
                             >Clements</persName> of this.</p>
                     <p>In the meantime, I think <persName corresp="#p_BE_1">Bunker</persName> will
-                        probably go to <persName corresp="#p_BPW_1">Buchen</persName>
-                        <note n="4" xml:id="d122fn4">White House Counsel <persName
-                                corresp="#p_BPW_1">Philip W. Buchen</persName>.</note> and others,
-                        including perhaps yourself, to express his concern at the new <persName
-                            corresp="#p_CWP_1">Clements</persName> position. The question,
-                        therefore, has now become whether or not to continue the negotiations. My
-                        own recommendation remains what it was in my May 13 memo.<note n="5"
-                            xml:id="d122fn5">Not found.</note> However, I do not know whether it
-                        would now be adequate to talk to Admiral Holcolmb.<note n="6"
-                            xml:id="d122fn6">Admiral M. Staser Holcomb was Secretary of Defense
-                            Donald Rumsfeld’s military assistant.</note> I would suggest you talk
-                        either to <persName corresp="#p_CWP_1">Clements</persName> or Secretary
-                        Rumsfeld. Alternatively, we could put it up to the President.</p>
+                        probably go to <persName corresp="#p_BPW_1">Buchen</persName><note n="4"
+                            xml:id="d122fn4">White House Counsel <persName corresp="#p_BPW_1">Philip
+                                W. Buchen</persName>.</note> and others, including perhaps yourself,
+                        to express his concern at the new <persName corresp="#p_CWP_1"
+                            >Clements</persName> position. The question, therefore, has now become
+                        whether or not to continue the negotiations. My own recommendation remains
+                        what it was in my May 13 memo.<note n="5" xml:id="d122fn5">Not found.</note>
+                        However, I do not know whether it would now be adequate to talk to Admiral
+                            Holcolmb.<note n="6" xml:id="d122fn6">Admiral M. Staser Holcomb was
+                            Secretary of Defense Donald Rumsfeld’s military assistant.</note> I
+                        would suggest you talk either to <persName corresp="#p_CWP_1"
+                            >Clements</persName> or Secretary Rumsfeld. Alternatively, we could put
+                        it up to the President.</p>
                     <p>I suggest two things: that you confirm my understanding of our guidance as
                         stated in the recommendation below and that you ask Admiral Holcolmb to
                         clarify the matter with the Army in terms of the talking points below.</p>
@@ -17669,11 +17515,10 @@
                     <p>—I wanted to be sure that all parties, including particularly the Army,
                         understood this.</p>
                 </div>
-
+                <pb n="326" facs="0351" xml:id="pg_326"/>
                 <div type="document" n="123" xml:id="d123" subtype="historical-document"
                     frus:doc-dateTime-min="1976-05-14T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-05-14T23:59:59-05:00">
-                    <pb n="326" facs="0351" xml:id="pg_326"/>
                     <head>123. Memorandum From the Deputy Department of Defense Negotiator
                             (<persName corresp="#p_DWG_1">Dolvin</persName>) to the Deputy Secretary
                         of Defense (<persName corresp="#p_CWP_1">Clements</persName>), the Secretary
@@ -17856,11 +17701,10 @@
                                 Defense for the Panama Canal Negotiations</affiliation></signed>
                     </closer>
                 </div>
-
+                <pb n="330" facs="0355" xml:id="pg_330"/>
                 <div type="document" n="124" xml:id="d124" subtype="historical-document"
                     frus:doc-dateTime-min="1976-05-21T23:00:00-05:00"
                     frus:doc-dateTime-max="1976-06-11T09:04:00-05:00">
-                    <pb n="330" facs="0355" xml:id="pg_330"/>
                     <head>124. Memorandum From the Deputy Director for Operations, Central
                         Intelligence Agency (<persName corresp="#p_WWWD_1">Wells</persName>) to
                         Multiple Recipients<note n="1" xml:id="d124fn1" type="source">Source:
@@ -17946,16 +17790,14 @@
                         made.</p>
                     <closer>
                         <signed corresp="#p_WWWD_1"><persName corresp="#p_WWWD_1">William W.
-                                Wells</persName>
-                            <note n="2" xml:id="d124fn2">Printed from a copy with this typed
-                                signature.</note></signed>
+                                Wells</persName><note n="2" xml:id="d124fn2">Printed from a copy
+                                with this typed signature.</note></signed>
                     </closer>
                 </div>
-
+                <pb n="332" facs="0357" xml:id="pg_332"/>
                 <div type="document" n="125" xml:id="d125" subtype="historical-document"
                     frus:doc-dateTime-min="1976-06-11T09:04:00-05:00"
                     frus:doc-dateTime-max="1976-06-11T09:04:00-05:00">
-                    <pb n="332" facs="0357" xml:id="pg_332"/>
                     <head>125. Telegram From the Embassy in Colombia to the Department of State<note
                             n="1" xml:id="d125fn1" type="source">Source: Ford Library, National
                             Security Adviser, Presidential Country Files for Latin America, Box 3,
@@ -18051,11 +17893,10 @@
                         <signed>Vaky</signed>
                     </closer>
                 </div>
-
+                <pb n="334" facs="0359" xml:id="pg_334"/>
                 <div type="document" n="126" xml:id="d126" subtype="historical-document"
                     frus:doc-dateTime-min="1976-06-11T08:30:00-05:00"
                     frus:doc-dateTime-max="1976-06-11T09:30:00-05:00">
-                    <pb n="334" facs="0359" xml:id="pg_334"/>
                     <head>126. Memorandum of Conversation<note n="1" xml:id="d126fn1" type="source"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 59,
                             Central Foreign Policy File, P820118–1374. Secret; <gloss
@@ -18246,7 +18087,6 @@
                         and constructive.</p>
                     <p>End of the conversation.</p>
                 </div>
-
                 <div type="document" n="127" xml:id="d127" subtype="historical-document"
                     frus:doc-dateTime-min="1976-06-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-06-25T23:59:59-05:00">
@@ -18331,7 +18171,7 @@
                         position.</p>
                     <p>Several remarks he made in the course of the conversation led me to infer
                         that we should not expect all sweetness and light from Panama during this
-                        waiting period. <note n="5" xml:id="d127fn5">In a June 23 memorandum to
+                        waiting period.<note n="5" xml:id="d127fn5">In a June 23 memorandum to
                                 <persName corresp="#p_WRR_1">Wyrough</persName>, Bell remarked that
                             Panama was ready to “(a) declare publicly that an impasse in the
                             negotiations exists and (b) substitute an openly aggressive policy
@@ -18349,13 +18189,11 @@
                         round will likely occur.</p>
                     <closer>
                         <signed corresp="#p_BSM_1"><persName corresp="#p_BSM_1">S. Morey
-                                Bell</persName>
-                            <note n="6" xml:id="d127fn6">Bell initialed “SMB” above his typed
-                                signature.</note>
+                                Bell</persName><note n="6" xml:id="d127fn6">Bell initialed “SMB”
+                                above his typed signature.</note>
                             <affiliation>Minister</affiliation>
                         </signed>
                     </closer>
-
                 </div>
                 <div type="document" n="128" xml:id="d128" subtype="historical-document"
                     frus:doc-dateTime-min="1976-07-14T00:00:00-05:00"
@@ -18447,10 +18285,9 @@
                     <p>Sincerely,</p>
                     <closer>
                         <signed corresp="#p_BE_1"><persName corresp="#p_BE_1">Ellsworth
-                                Bunker</persName>
-                            <note n="3" xml:id="d128fn3"><persName corresp="#p_BE_1"
-                                    >Bunker</persName> signed “Ellsworth” above this typed
-                                signature.</note></signed>
+                                Bunker</persName><note n="3" xml:id="d128fn3"><persName
+                                    corresp="#p_BE_1">Bunker</persName> signed “Ellsworth” above
+                                this typed signature.</note></signed>
                     </closer>
                 </div>
                 <div type="document" n="129" xml:id="d129" subtype="historical-document"
@@ -18638,11 +18475,10 @@
                         against an adverse contingency which they apparently perceive as possible
                         but also see themselves as unable otherwise to prevent. END COMMENT.</p>
                 </div>
-
+                <pb n="345" facs="0370" xml:id="pg_345"/>
                 <div type="document" n="130" xml:id="d130" subtype="historical-document"
                     frus:doc-dateTime-min="1976-08-04T14:30:00-05:00"
                     frus:doc-dateTime-max="1976-08-04T14:30:00-05:00">
-                    <pb n="345" facs="0370" xml:id="pg_345"/>
                     <head>130. Memorandum of Conversation<note n="1" xml:id="d130fn1" type="source"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 59,
                             Ambassador <persName corresp="#p_BE_1">Bunker</persName>’s
@@ -18817,9 +18653,7 @@
                             Bush</persName> at 1:00, as they thought you might be, there is a note
                         from George [Aldrich] that you should read.</p>
                     <p>[The Secretary left for another appointment.]</p>
-
                 </div>
-
                 <div type="document" n="132" xml:id="d132" subtype="historical-document"
                     frus:doc-dateTime-min="1976-09-20T17:45:00-05:00"
                     frus:doc-dateTime-max="1976-09-20T17:45:00-05:00">
@@ -18893,13 +18727,11 @@
                         Nevertheless, in view of the seriousness of the allegations in that Note, I
                         take this opportunity officially to give Your Excellency certain information
                         on those persons:</p>
-
                     <p>1. Hector L. Downs, 20 years of age, is a Panamanian national. He once lived
                         in the Canal Zone as the dependent step-son of a civilian employee of the
                         United States Government, but insofar as my Government has been able to
                         determine, he has for some months lived in Panama City. He has never been
                         employed by the United States Armed Forces in any capacity whatsoever.</p>
-
                     <p>2. Pvt. [<hi rend="italic">name not declassified</hi>], whose military
                         identification number is [<hi rend="italic">number not declassified</hi>] is
                         a private in the United States Army. He is 18 years old, joined the United
@@ -19005,13 +18837,11 @@
                         <signed corresp="#p_JWJ_1"><persName corresp="#p_JWJ_1">Jorden</persName>
                         </signed>
                     </closer>
-
                 </div>
-
+                <pb n="352" facs="0377" xml:id="pg_352"/>
                 <div type="document" n="133" xml:id="d133" subtype="historical-document"
                     frus:doc-dateTime-min="1976-10-06T14:30:00-05:00"
                     frus:doc-dateTime-max="1976-10-06T15:30:00-05:00">
-                    <pb n="352" facs="0377" xml:id="pg_352"/>
                     <head>133. Memorandum of Conversation</head>
                     <opener>
                         <dateline rendition="#right">
@@ -19025,9 +18855,7 @@
                             target="#t_DCI_1">DCI</gloss> (<persName corresp="#p_BGHW_1"
                             >Bush</persName>) Files on Noreiga. Secret. Three pages not
                         declassified.]</note>
-
                 </div>
-
                 <div type="document" n="134" xml:id="d134" subtype="historical-document"
                     frus:doc-dateTime-min="1976-10-07T08:45:00-05:00"
                     frus:doc-dateTime-max="1976-10-07T08:45:00-05:00">
@@ -19314,7 +19142,6 @@
                         Scranton remain behind for a brief discussion following the meeting with the
                         Minister.)</p>
                 </div>
-
                 <div type="document" n="135" xml:id="d135" subtype="historical-document"
                     frus:doc-dateTime-min="1976-10-12T07:15:00-05:00"
                     frus:doc-dateTime-max="1976-10-12T07:15:00-05:00">
@@ -19410,24 +19237,23 @@
                             20.</note></p>
                     <p>[<hi rend="roman">Omitted here is discussion of unrelated matters.</hi>]</p>
                 </div>
-
+                <pb n="360" facs="0385" xml:id="pg_360"/>
                 <div type="document" n="136" xml:id="d136" subtype="historical-document"
                     frus:doc-dateTime-min="1976-10-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-10-15T23:59:59-05:00">
-                    <pb n="360" facs="0385" xml:id="pg_360"/>
-                    <head>136. Memorandum by <persName corresp="#p_LS_1">Sol Linowitz</persName>
-                        <note n="1" xml:id="d136fn1" type="source">Source: Library of Congress,
-                            Papers of <persName corresp="#p_LS_1">Sol M. Linowitz</persName>,
-                            Government Service, Box 117, Pan. Canal Treaties, General
-                            Correspondence, 1975–1976. No classification marking. Copies were sent
-                            to <persName corresp="#p_HR_1">Richard Holbrooke</persName>, Jack
-                            Watson, Anthony Lake, and <persName corresp="#p_VCR_1">Cyrus
-                                Vance</persName>, all on Governor <persName corresp="#p_CJE_1"
-                                >Carter</persName>’s staff. <persName corresp="#p_LS_1"
-                                >Linowitz</persName>, Chairman of the Commission on U.S.-Latin
-                            American Relations, became President <persName corresp="#p_CJE_1"
-                                >Carter</persName>’s chief negotiator for the Canal
-                        treaty.</note></head>
+                    <head>136. Memorandum by <persName corresp="#p_LS_1">Sol
+                            Linowitz</persName><note n="1" xml:id="d136fn1" type="source">Source:
+                            Library of Congress, Papers of <persName corresp="#p_LS_1">Sol M.
+                                Linowitz</persName>, Government Service, Box 117, Pan. Canal
+                            Treaties, General Correspondence, 1975–1976. No classification marking.
+                            Copies were sent to <persName corresp="#p_HR_1">Richard
+                                Holbrooke</persName>, Jack Watson, Anthony Lake, and <persName
+                                corresp="#p_VCR_1">Cyrus Vance</persName>, all on Governor <persName
+                                corresp="#p_CJE_1">Carter</persName>’s staff. <persName
+                                corresp="#p_LS_1">Linowitz</persName>, Chairman of the Commission on
+                            U.S.-Latin American Relations, became President <persName
+                                corresp="#p_CJE_1">Carter</persName>’s chief negotiator for the
+                            Canal treaty.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1976-10-15"
@@ -19588,7 +19414,6 @@
                         missing text] light of our conversation—if there were comments during the
                         next couple of weeks which were adverse to Governor <persName
                             corresp="#p_CJE_1">Carter</persName>, and he said he understood.</p>
-
                     <p>The Foreign Minister again thanked me for telephoning, and repeated his
                         statement that he thought that the conversation had been very helpful and he
                         appreciated it.</p>
@@ -19622,12 +19447,10 @@
                             Correspondence, December 1, 1976)</note></p>
                     <closer>
                         <signed corresp="#p_LS_1"><persName corresp="#p_LS_1">Sol M.
-                                Linowitz</persName>
-                            <note n="6" xml:id="d136fn6">Printed from a copy with this typed
-                                signature.</note></signed>
+                                Linowitz</persName><note n="6" xml:id="d136fn6">Printed from a copy
+                                with this typed signature.</note></signed>
                     </closer>
                 </div>
-
                 <pb n="364" facs="0389" xml:id="pg_364"/>
                 <div type="document" n="137" xml:id="d137" subtype="historical-document"
                     frus:doc-dateTime-min="1976-10-24T00:00:00-05:00"
@@ -19669,7 +19492,6 @@
                                 <item><persName corresp="#p_EBR_1">Romulo Escobar</persName>
                                     Bethancourt</item>
                             </list></item>
-
                         <item>*October 24 meeting</item>
                     </list>
                     <p>On three different occasions during the dates indicated, <persName
@@ -19756,7 +19578,6 @@
                         Accordingly, he sees little point in arguing with us further and has
                         resigned himself to the consequences of an impasse.</p>
                 </div>
-
                 <div type="document" n="138" xml:id="d138" subtype="historical-document"
                     frus:doc-dateTime-min="1976-10-27T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-10-27T23:59:59-05:00">
@@ -19905,11 +19726,10 @@
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="370" facs="0395" xml:id="pg_370"/>
                 <div type="document" n="139" xml:id="d139" subtype="historical-document"
                     frus:doc-dateTime-min="1976-11-02T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-11-02T23:59:59-05:00">
-                    <pb n="370" facs="0395" xml:id="pg_370"/>
                     <head>139. Memorandum of Conversation<note n="1" xml:id="d139fn1" type="source"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 84,
                             American Embassy, Panama, Panama Canal Treaty Negotiations, Lot 81F1,
@@ -20017,21 +19837,20 @@
                         pessimistic about the future public order situation, the negotiations and
                         the economy.</p>
                 </div>
-
+                <pb n="372" facs="0397" xml:id="pg_372"/>
                 <div type="document" n="140" xml:id="d140" subtype="historical-document"
                     frus:doc-dateTime-min="1976-11-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-11-04T23:59:59-05:00">
-                    <pb n="372" facs="0397" xml:id="pg_372"/>
                     <head>140. Memorandum From the Chief of the Latin America Division, Directorate
                         of Operations, Central Intelligence Agency (<persName corresp="#p_WR_1"
                             >Raymond A. Warren</persName>) to Director of Central Intelligence
-                            <persName corresp="#p_BGHW_1">Bush</persName>
-                        <note n="1" xml:id="d140fn1" type="source">Source: Central Intelligence
-                            Agency, Office of the Director of Central Intelligence, Job 79M00467A:
-                            Subject Files and Correspondence, Box 23, Folder 17: P–17: Panama.
-                            Secret. Sent through <persName corresp="#p_WWWD_1">Wells</persName> who
-                            concurred on November 6. A copy was sent to the Deputy <gloss
-                                target="#t_DCI_1">DCI</gloss>.</note></head>
+                            <persName corresp="#p_BGHW_1">Bush</persName><note n="1"
+                            xml:id="d140fn1" type="source">Source: Central Intelligence Agency,
+                            Office of the Director of Central Intelligence, Job 79M00467A: Subject
+                            Files and Correspondence, Box 23, Folder 17: P–17: Panama. Secret. Sent
+                            through <persName corresp="#p_WWWD_1">Wells</persName> who concurred on
+                            November 6. A copy was sent to the Deputy <gloss target="#t_DCI_1"
+                                >DCI</gloss>.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-11-04"
@@ -20112,17 +19931,17 @@
                         <signed>[<hi rend="italic">name not declassified</hi>]</signed>
                     </closer>
                 </div>
+                <pb n="374" facs="0399" xml:id="pg_374"/>
                 <div type="document" n="141" xml:id="d141" subtype="historical-document"
                     frus:doc-dateTime-min="1976-11-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-11-04T23:59:59-05:00">
-                    <pb n="374" facs="0399" xml:id="pg_374"/>
                     <head>141. Memorandum From the Senior U.S. Treaty Adviser (<persName
                             corresp="#p_WRR_1">Wyrough</persName>) to Ambassador at Large <persName
-                            corresp="#p_BE_1">Bunker</persName>
-                        <note n="1" xml:id="d141fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Ambassador <persName
-                                corresp="#p_BE_1">Bunker</persName>’s Correspondence, Lot 78D300,
-                            Box 3, Congress. Confidential.</note></head>
+                            corresp="#p_BE_1">Bunker</persName><note n="1" xml:id="d141fn1"
+                            type="source">Source: National Archives, <gloss target="#t_RG_1"
+                                >RG</gloss> 59, Ambassador <persName corresp="#p_BE_1"
+                                >Bunker</persName>’s Correspondence, Lot 78D300, Box 3, Congress.
+                            Confidential.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-11-04"
@@ -20134,10 +19953,9 @@
                     </list>
                     <p>Dick McCall of Senator <persName corresp="#p_MGGW_1">McGee</persName>’s staff
                         made the following points when <persName corresp="#p_GDK_1">Keith
-                            Guthrie</persName>
-                        <note n="2" xml:id="d141fn2"><persName corresp="#p_GDK_1">Guthrie</persName>
-                            was serving in the Office of Panamanian Affairs.</note> and I met with
-                        him this morning:</p>
+                            Guthrie</persName><note n="2" xml:id="d141fn2"><persName
+                                corresp="#p_GDK_1">Guthrie</persName> was serving in the Office of
+                            Panamanian Affairs.</note> and I met with him this morning:</p>
                     <p>—Two key issues are critical to winning Senate acceptance of a new canal
                         treaty: (1) convincing Senators of the need for a revised relationship, and
                         (2) adequate Canal defense arrangements that are endorsed by the Defense
@@ -20154,17 +19972,15 @@
                         staffers in both the Senate and the House in the pre-inaugural period. (We
                         intend to do this and will start within the next week to ten days.)</p>
                     <closer>
-                        <signed>Richard <persName corresp="#p_WRR_1">Wyrough</persName>
-                            <note n="3" xml:id="d141fn3"><persName corresp="#p_WRR_1"
-                                    >Wyrough</persName> initialed “RW” above this typed
-                                signature.</note></signed>
+                        <signed>Richard <persName corresp="#p_WRR_1">Wyrough</persName><note n="3"
+                                xml:id="d141fn3"><persName corresp="#p_WRR_1">Wyrough</persName>
+                                initialed “RW” above this typed signature.</note></signed>
                     </closer>
                 </div>
-
+                <pb n="375" facs="0400" xml:id="pg_375"/>
                 <div type="document" n="142" xml:id="d142" subtype="historical-document"
                     frus:doc-dateTime-min="1976-11-08T19:56:00-05:00"
                     frus:doc-dateTime-max="1976-11-08T19:56:00-05:00">
-                    <pb n="375" facs="0400" xml:id="pg_375"/>
                     <head>142. Telegram From the Department of State to the Embassy in Panama<note
                             n="1" xml:id="d142fn1" type="source">Source: Ford Library, National
                             Security Adviser, Presidential Country Files for Latin America, Box 6,
@@ -20262,11 +20078,10 @@
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="377" facs="0402" xml:id="pg_377"/>
                 <div type="document" n="143" xml:id="d143" subtype="historical-document"
                     frus:doc-dateTime-min="1976-12-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-12-07T23:59:59-05:00">
-                    <pb n="377" facs="0402" xml:id="pg_377"/>
                     <head>143. Memorandum of Conversation<note n="1" xml:id="d143fn1" type="source"
                             >Source: Washington National Records Center, <gloss target="#t_RG_1"
                                 >RG</gloss> 330, USD/P Files, FRC 330–87–0068, 1975–1977 Memcons Re:
@@ -20453,21 +20268,20 @@
                         </signed>
                     </closer>
                 </div>
-
+                <pb n="381" facs="0406" xml:id="pg_381"/>
                 <div type="document" n="145" xml:id="d145" subtype="historical-document"
                     frus:doc-dateTime-min="1976-12-21T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-12-21T23:59:59-05:00">
-                    <pb n="381" facs="0406" xml:id="pg_381"/>
                     <head>145. Briefing Memorandum From Ambassador at Large <persName
                             corresp="#p_BE_1">Bunker</persName> and the Assistant Secretary of State
                         for Inter-American Affairs (<persName corresp="#p_SHW_1"
                             >Shlaudeman</persName>) to Secretary <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" xml:id="d145fn1" type="source">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 84, American Embassy, Panama, Panama
-                            Canal Treaty Negotiation Files, Lot 81F1, Box 126, POL 33.3–2/Treaty
-                            Negotiations, July–Dec 1976. Confidential. Drafted by <persName
-                                corresp="#p_WRR_1">Wyrough</persName>.</note></head>
+                            >Kissinger</persName><note n="1" xml:id="d145fn1" type="source">Source:
+                            National Archives, <gloss target="#t_RG_1">RG</gloss> 84, American
+                            Embassy, Panama, Panama Canal Treaty Negotiation Files, Lot 81F1, Box
+                            126, POL 33.3–2/Treaty Negotiations, July–Dec 1976. Confidential.
+                            Drafted by <persName corresp="#p_WRR_1"
+                        >Wyrough</persName>.</note></head>
                     <opener>
                         <dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-12-21"
@@ -20512,7 +20326,6 @@
                         seize the opportunity presented by this apparent flexibility and present a
                         package offer that covers all remaining issues.</p>
                 </div>
-
                 <div type="document" n="146" xml:id="d146" subtype="historical-document"
                     frus:doc-dateTime-min="1976-12-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
@@ -20626,22 +20439,18 @@
                         Ambassador to Panama. No further distribution is being made.</p>
                     <closer>
                         <signed corresp="#p_WWWD_1"><persName corresp="#p_WWWD_1">William W.
-                                Wells</persName>
-                            <note n="3" xml:id="d146fn3">Printed from a copy that indicates [<hi
-                                    rend="italic">name not declassified</hi>] signed for <persName
-                                    corresp="#p_WWWD_1">Wells</persName>.</note></signed>
+                                Wells</persName><note n="3" xml:id="d146fn3">Printed from a copy
+                                that indicates [<hi rend="italic">name not declassified</hi>] signed
+                                for <persName corresp="#p_WWWD_1">Wells</persName>.</note></signed>
                     </closer>
                 </div>
-
             </div>
-
         </body>
-
         <back>
+            <pb n="385" facs="0410" xml:id="pg_385"/>
             <div type="section" xml:id="index" subtype="index"
                 frus:doc-dateTime-min="1973-01-15T11:45:00-05:00"
                 frus:doc-dateTime-max="1976-12-24T23:59:59-05:00">
-                <pb n="385" facs="0410" xml:id="pg_385"/>
                 <head>Index</head>
                 <p><hi rend="strong">References are to document numbers</hi></p>
                 <list type="index">
@@ -20671,7 +20480,6 @@
                                     target="#d120">120</ref></item>
                             <item>Ayala, Darien, <ref target="#d118">118</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Bagley, Adm. Worth H., <ref target="#d67">67</ref></item>
                             <item>Barbian, Paul, <ref target="#d86">86</ref>, <ref target="#d87"
@@ -20975,7 +20783,6 @@
                             <item>Byrd, Harry, <ref target="#d85">85</ref>, <ref target="#d98"
                                     >98</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Callaway, Howard H. (Bo): <list>
                                     <item>Bunker status reports, <ref target="#d66">66</ref></item>
@@ -21190,7 +20997,6 @@
                                             >4</ref></item>
                                 </list></item>
                         </list></item>
-
                     <item><list>
                             <item>Dawkins, Lt. Col. Peter M., <ref target="#d41">41</ref></item>
                             <item>Defense, U.S. Department of (DOD). <hi rend="italic">See</hi>
@@ -21274,7 +21080,6 @@
                             <item>Dubs, Adolph, <ref target="#d135">135</ref></item>
                             <item>Duemling, Robert, <ref target="#d91">91</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Eisenhower, Dwight D., <ref target="#d8">8</ref></item>
                             <pb n="389" facs="0414" xml:id="pg_389"/>
@@ -21291,7 +21096,6 @@
                                     target="#d123">123</ref>, <ref target="#d137">137</ref>, <ref
                                     target="#d139">139</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Fabrega, Edwin, <ref target="#d54">54</ref>, <ref target="#d64"
                                     >64</ref>, <ref target="#d108">108</ref>, <ref target="#d123"
@@ -21356,7 +21160,6 @@
                             <item>Funseth, Robert L., <ref target="#d80">80</ref>, <ref
                                     target="#d120">120</ref>, <ref target="#d135">135</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Gammon, Samuel R., III, <ref target="#d63">63</ref></item>
                             <item>Garcia Garcia, Rogelio Antolin, <ref target="#d132"
@@ -21403,7 +21206,6 @@
                             <item>Grojean, Rear Adm. C.D., <ref target="#d49">49</ref></item>
                             <item>Guthrie, Donald Keith, <ref target="#d141">141</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Habib, Philip C., <ref target="#d72">72</ref>, <ref target="#d86"
                                     >86</ref>, <ref target="#d87">87</ref>, <ref target="#d93"
@@ -21434,7 +21236,6 @@
                                     target="#d86">86</ref>, <ref target="#d87">87</ref>, <ref
                                     target="#d93">93</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Illueca, Jorge Enrique, <ref target="#d2">2</ref>, <ref
                                     target="#d134">134</ref></item>
@@ -21466,7 +21267,6 @@
                                     >14</ref></item>
                             <item>Itoh, William H., <ref target="#d106">106</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Jaen, Omar, <ref target="#d129">129</ref></item>
                             <item>Javits, Jacob K., <ref target="#d110">110</ref>, <ref
@@ -21532,7 +21332,6 @@
                                         </list></item>
                                 </list></item>
                         </list></item>
-
                     <item><list>
                             <item>Katz, Julius L., <ref target="#d72">72</ref>, <ref target="#d120"
                                     >120</ref>, <ref target="#d135">135</ref></item>
@@ -21693,7 +21492,6 @@
                                             <ref target="#d32">32</ref></item>
                                 </list></item>
                         </list></item>
-
                     <item><list>
                             <item>Lakas, Demetrio “Jimmy,” <ref target="#d32">32</ref>, <ref
                                     target="#d118">118</ref>, <ref target="#d129">129</ref>, <ref
@@ -21789,7 +21587,6 @@
                             <item>Luers, William H., <ref target="#d115">115</ref>, <ref
                                     target="#d142">142</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>McAuliffe, Eugene V., <ref target="#d123">123</ref>, <ref
                                     target="#d130">130</ref>, <ref target="#d138">138</ref></item>
@@ -21833,7 +21630,6 @@
                             <item>Mulcahy, Edward W., <ref target="#d86">86</ref>, <ref
                                     target="#d93">93</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>National Security Council (NSC): <list>
                                     <item>Meetings, <ref target="#d77">77</ref>, <ref target="#d90"
@@ -21869,7 +21665,6 @@
                                     target="#d118">118</ref>, <ref target="#d140">140</ref></item>
                             <item>Nunn, Sam, <ref target="#d60">60</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Odúber, Daniel, <ref target="#d70">70</ref></item>
                             <item>O’Leary, Jeremiah, <ref target="#d2">2</ref></item>
@@ -21877,7 +21672,6 @@
                                 >40</ref>, <ref target="#d126">126</ref>, <ref target="#d127"
                                     >127</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Panama Canal Company, <ref target="#d54">54</ref>, <ref
                                     target="#d64">64</ref></item>
@@ -21956,7 +21750,6 @@
                             <item>Pitty, Nander, <ref target="#d21">21</ref>, <ref target="#d126"
                                     >126</ref>, <ref target="#d134">134</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Rabasa, Emilio Óscar, <ref target="#d7">7</ref></item>
                             <item>Reagan, Ronald, <ref target="#d119">119</ref>, <ref target="#d122"
@@ -22019,7 +21812,6 @@
                             <item>Rush, Kenneth, <ref target="#d8">8</ref>, <ref target="#d19"
                                     >19</ref>, <ref target="#d26">26</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Saunders, Harold H., <ref target="#d120">120</ref>, <ref
                                     target="#d124">124</ref>, <ref target="#d146">146</ref></item>
@@ -22122,7 +21914,6 @@
                                     target="#d50">50</ref>, <ref target="#d57">57</ref>, <ref
                                     target="#d66">66</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Tack, Juan Antonio: <list>
                                     <item>Anderson communications, <ref target="#d5">5</ref></item>
@@ -22246,7 +22037,6 @@
                             <item>Train, Vice Adm. Harry D., II, <ref target="#d46">46</ref>, <ref
                                     target="#d67">67</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>U.N. General Assembly discussions of Panama, <ref target="#d17"
                                     >17</ref>, <ref target="#d130">130</ref></item>
@@ -22483,9 +22273,8 @@
                                             >19</ref></item>
                                 </list></item>
                         </list></item>
-
+                    <pb n="396" facs="0421" xml:id="pg_396"/>
                     <item><list>
-                            <pb n="396" facs="0421" xml:id="pg_396"/>
                             <item>Vaky, Viron P., <ref target="#d125">125</ref></item>
                             <item>Vallimarescu, Serban, <ref target="#d19">19</ref></item>
                             <item>Vance, Cyrus, <ref target="#d136">136</ref>, <ref target="#d144"
@@ -22503,7 +22292,6 @@
                             <item>Villa, Capt. Jose, <ref target="#d3">3</ref>, <ref target="#d4"
                                     >4</ref></item>
                         </list></item>
-
                     <item><list>
                             <item>Waldheim, Kurt, <ref target="#d70">70</ref></item>
                             <item>Wallace, George, <ref target="#d99">99</ref></item>

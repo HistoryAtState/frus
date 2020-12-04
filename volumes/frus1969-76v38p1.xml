@@ -49,7 +49,6 @@
                 <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
             </classDecl>
         </encodingDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -78,7 +77,7 @@
                     <publisher>United States Government Printing Office</publisher>
                     <pubPlace>Washington</pubPlace>
                     <docDate>2012</docDate>
-                    <pb n="II" facs="0003" xml:id="pg_II"/>DEPARTMENT OF STATE<lb/> O<hi
+                    <pb n="II" facs="0003" xml:id="pg_II"/>DEPARTMENT OF STATE <lb/>O<hi
                         rend="smallcaps">ffice</hi>
                     <hi rend="smallcaps">of</hi>
                     <hi rend="smallcaps">the</hi> H<hi rend="smallcaps">istorian</hi>
@@ -86,14 +85,14 @@
                     <hi rend="smallcaps">of</hi> P<hi rend="smallcaps">ublic</hi> A<hi
                         rend="smallcaps">ffairs</hi>
                     <lb/> For sale by the Superintendent of Documents, U.S. Government Printing
-                    Office<lb/> Internet: bookstore.gpo.gov Phone: toll free (866) 512-1800; DC area
-                    (202) 512-1800<lb/> Fax: (202) 512-2250 Mail: Stop IDCC, Washington, DC
+                    Office <lb/>Internet: bookstore.gpo.gov Phone: toll free (866) 512-1800; DC area
+                    (202) 512-1800 <lb/>Fax: (202) 512-2250 Mail: Stop IDCC, Washington, DC
                     20402-0001</docImprint>
             </titlePage>
+            <pb n="III" facs="0004" xml:id="pg_III"/>
             <div type="section" xml:id="preface" subtype="preface"
                 frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
                 frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
-                <pb n="III" facs="0004" xml:id="pg_III"/>
                 <head>Preface</head>
                 <p>The <hi rend="italic">Foreign Relations of the United States</hi> series presents
                     the official documentary historical record of major foreign policy decisions and
@@ -336,10 +335,10 @@
                 <pb n="VIII" facs="0009" xml:id="pg_VIII"/>
                 <gap quantity="1" unit="pages" reason="convenience"/>
             </div>
+            <pb n="IX" facs="0010" xml:id="pg_IX"/>
             <div type="section" xml:id="toc" subtype="table-of-contents"
                 frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
                 frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
-                <pb n="IX" facs="0010" xml:id="pg_IX"/>
                 <head>Contents</head>
                 <list>
                     <item>
@@ -370,10 +369,10 @@
             </div>
             <pb n="X" facs="0011" xml:id="pg_X"/>
             <gap quantity="1" unit="pages" reason="convenience"/>
+            <pb n="XI" facs="0012" xml:id="pg_XI"/>
             <div type="section" xml:id="sources" subtype="sources"
                 frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
                 frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
-                <pb n="XI" facs="0012" xml:id="pg_XI"/>
                 <head>Sources</head>
                 <p rend="sectiontitleital">Sources for the <hi rend="roman">Foreign Relations</hi>
                     Series</p>
@@ -619,10 +618,10 @@
                         Government Printing Office, 1975, 1977, 1979.</item>
                 </list>
             </div>
+            <pb n="XV" facs="0016" xml:id="pg_XV"/>
             <div type="section" xml:id="terms" subtype="index"
                 frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
                 frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
-                <pb n="XV" facs="0016" xml:id="pg_XV"/>
                 <head>Abbreviations and Terms</head>
                 <list type="terms">
                     <item>
@@ -1278,10 +1277,10 @@
                             <term xml:id="t_WW2_1">WWII</term>,</hi> World War II</item>
                 </list>
             </div>
+            <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
             <div type="section" xml:id="persons" subtype="index"
                 frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
                 frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
-                <pb n="XIX" facs="0020" xml:id="pg_XIX"/>
                 <head>Persons</head>
                 <list type="names">
                     <item>
@@ -2694,9 +2693,9 @@
             </div>
         </front>
         <body>
+            <pb n="1" facs="0032" xml:id="pg_1"/>
             <div type="compilation" xml:id="comp1" frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
                 frus:doc-dateTime-max="1977-01-20T23:59:59-05:00">
-                <pb n="1" facs="0032" xml:id="pg_1"/>
                 <head>Foundations of Foreign Policy, 1973–1976</head>
                 <div type="document" n="1" xml:id="d1" subtype="historical-document"
                     frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
@@ -2976,17 +2975,17 @@
                     frus:doc-dateTime-max="1973-03-02T23:59:59-05:00">
                     <head>3. Memorandum From the President’s Assistant for National Security Affairs
                             (<persName corresp="#p_KHA_1">Kissinger</persName>) to President
-                            <persName corresp="#p_NRM_1">Nixon</persName>
-                        <note n="1" type="source" xml:id="d3fn1">Source: National Archives,
-                                <persName corresp="#p_NRM_1">Nixon</persName> Presidential
-                            Materials, <gloss target="#t_NSC_1">NSC</gloss> Files, <persName
-                                corresp="#p_KHA_1">Kissinger</persName> Office Files, Box 98,
-                            Country Files—Far East, <gloss target="#t_HAK_1">HAK</gloss> China
-                            Trip—February 1973, Memcons &amp; Reports (Originals) [<gloss
-                                target="#t_TS_1">TS</gloss> 1 of 2]. Top Secret; Sensitive;
-                            Exclusively Eyes Only. The date is handwritten. There is no indication
-                            that <persName corresp="#p_NRM_1">Nixon</persName> saw the memorandum.
-                            Printed in full in <ref target="frus1969-76v18#d18">
+                            <persName corresp="#p_NRM_1">Nixon</persName><note n="1" type="source"
+                            xml:id="d3fn1">Source: National Archives, <persName corresp="#p_NRM_1"
+                                >Nixon</persName> Presidential Materials, <gloss target="#t_NSC_1"
+                                >NSC</gloss> Files, <persName corresp="#p_KHA_1"
+                                >Kissinger</persName> Office Files, Box 98, Country Files—Far East,
+                                <gloss target="#t_HAK_1">HAK</gloss> China Trip—February 1973,
+                            Memcons &amp; Reports (Originals) [<gloss target="#t_TS_1">TS</gloss> 1
+                            of 2]. Top Secret; Sensitive; Exclusively Eyes Only. The date is
+                            handwritten. There is no indication that <persName corresp="#p_NRM_1"
+                                >Nixon</persName> saw the memorandum. Printed in full in <ref
+                                target="frus1969-76v18#d18">
                                 <hi rend="italic">Foreign Relations</hi>, 1969–1976, volume XVIII,
                                 China, 1973–1976, Document 18</ref>. <persName corresp="#p_KHA_1"
                                 >Kissinger</persName> visited Beijing February 15–19 and met with
@@ -3042,35 +3041,33 @@
                             target="#t_PRC_1">PRC</gloss> was ready to move toward normalization. On
                         the other hand, Chou presented his quota of rhetoric and our policies
                         clashed on most major issues.</p>
-                    <p>—<hi rend="italic">In October 1971</hi>
-                        <note n="3" xml:id="d3fn3">See ibid., <ref target="frus1969-76v17#d162"
-                                >Documents 162</ref>–<ref target="frus1969-76v17#d165"
-                            >165</ref>.</note> we established the framework for your trip, including
-                        the outlines of the joint communiqué. The Taiwan issue remained hanging in
-                        the communiqué, however, and our policies continued to conflict in many
-                        areas.</p>
-                    <p>—<hi rend="italic">Your February 1972 visit</hi>
-                        <note n="4" xml:id="d3fn4">See ibid., <ref target="frus1969-76v17#d194"
-                                >Documents 194</ref>–<ref target="frus1969-76v17#d204"
-                            >204</ref>.</note> was the watershed. It stamped your and Mao’s personal
-                        imprints on the move toward normalization. The Shanghai Communiqué contained
-                        joint principles in international affairs, finessed the Taiwan problem
-                        through mutual and ambiguous compromise, set in motion bilateral trade and
-                        exchanges, established the public Paris channel, and accelerated the private
-                        New York <pb n="8" facs="0039" xml:id="pg_8"/>channel.<note n="5"
-                            xml:id="d3fn5">The Shanghai Communiqué was issued February 27, 1972, at
-                            the end of <persName corresp="#p_NRM_1">Nixon</persName>’s visit. For
-                            the text, see ibid., <ref target="frus1969-76v17#d203">Document
-                                203</ref>.</note> However, as the communiqué publicly, and your
-                        conversations privately demonstrated, we were improving our relations <hi
-                            rend="italic">despite</hi> different world outlooks.</p>
-                    <p>—<hi rend="italic">My June 1972 trip</hi>
-                        <note n="6" xml:id="d3fn6">See ibid., <ref target="frus1969-76v17#d231"
-                                >Documents 231</ref>–<ref target="frus1969-76v17#d234"
-                            >234</ref>.</note> marked substantial evolution toward our views in the
-                        Chinese private positions on international issues. But the Vietnam war
-                        continued to inhibit the Chinese, and publicly all we could register was a
-                        modest increase in exchanges and trade.</p>
+                    <p>—<hi rend="italic">In October 1971</hi><note n="3" xml:id="d3fn3">See ibid.,
+                                <ref target="frus1969-76v17#d162">Documents 162</ref>–<ref
+                                target="frus1969-76v17#d165">165</ref>.</note> we established the
+                        framework for your trip, including the outlines of the joint communiqué. The
+                        Taiwan issue remained hanging in the communiqué, however, and our policies
+                        continued to conflict in many areas.</p>
+                    <p>—<hi rend="italic">Your February 1972 visit</hi><note n="4" xml:id="d3fn4"
+                            >See ibid., <ref target="frus1969-76v17#d194">Documents 194</ref>–<ref
+                                target="frus1969-76v17#d204">204</ref>.</note> was the watershed. It
+                        stamped your and Mao’s personal imprints on the move toward normalization.
+                        The Shanghai Communiqué contained joint principles in international affairs,
+                        finessed the Taiwan problem through mutual and ambiguous compromise, set in
+                        motion bilateral trade and exchanges, established the public Paris channel,
+                        and accelerated the private New York <pb n="8" facs="0039" xml:id="pg_8"
+                            />channel.<note n="5" xml:id="d3fn5">The Shanghai Communiqué was issued
+                            February 27, 1972, at the end of <persName corresp="#p_NRM_1"
+                                >Nixon</persName>’s visit. For the text, see ibid., <ref
+                                target="frus1969-76v17#d203">Document 203</ref>.</note> However, as
+                        the communiqué publicly, and your conversations privately demonstrated, we
+                        were improving our relations <hi rend="italic">despite</hi> different world
+                        outlooks.</p>
+                    <p>—<hi rend="italic">My June 1972 trip</hi><note n="6" xml:id="d3fn6">See
+                            ibid., <ref target="frus1969-76v17#d231">Documents 231</ref>–<ref
+                                target="frus1969-76v17#d234">234</ref>.</note> marked substantial
+                        evolution toward our views in the Chinese private positions on international
+                        issues. But the Vietnam war continued to inhibit the Chinese, and publicly
+                        all we could register was a modest increase in exchanges and trade.</p>
                     <p>—<hi rend="italic">On this trip in February 1973,</hi> the flood gates opened
                         privately and publicly for the reasons stated. The Chinese leaders are among
                         the very few in the world with a global and longer term perspective—and it
@@ -3387,14 +3384,14 @@
                         <persName corresp="#p_RWP_1">Rogers</persName> said that he had spent two
                         days on the Hill and he didn’t detect opposition. The President said,
                         “That’s combat pay now,”—referring to a trip to the Hill.</p>
-                    <p>The President said that <persName corresp="#p_SHD_1">Scott</persName>
-                        <note n="3" xml:id="d4fn3">Senate Minority Leader <persName
-                                corresp="#p_SHD_1">Hugh Scott</persName> (R–Pennsylvania).</note>
-                        had told him in the morning that we would lose our Foreign Assistance Bill
-                        65–34, and was talking about how your leaders are supposed to come in and
-                        build you up when you’ve had a hard day. And, referring to <persName
-                            corresp="#p_SHD_1">Scott</persName>’s comment, the President said, “I’ve
-                        had a helluva hard day!”</p>
+                    <p>The President said that <persName corresp="#p_SHD_1">Scott</persName><note
+                            n="3" xml:id="d4fn3">Senate Minority Leader <persName corresp="#p_SHD_1"
+                                >Hugh Scott</persName> (R–Pennsylvania).</note> had told him in the
+                        morning that we would lose our Foreign Assistance Bill 65–34, and was
+                        talking about how your leaders are supposed to come in and build you up when
+                        you’ve had a hard day. And, referring to <persName corresp="#p_SHD_1"
+                            >Scott</persName>’s comment, the President said, “I’ve had a helluva
+                        hard day!”</p>
                     <p>“The U.S. must play a world role but a different world role. We can’t call
                         all the shots; we can’t dominate; but, we can’t let the world be shaped in a
                         way that would be counter to our interests.”</p>
@@ -3404,10 +3401,10 @@
                         a sense of direction; this country needs a sense of pride; this country
                         needs a positive attitude,” the President said.</p>
                 </div>
+                <pb n="15" facs="0046" xml:id="pg_15"/>
                 <div type="document" n="5" xml:id="d5" subtype="historical-document"
                     frus:doc-dateTime-min="1973-03-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-03-22T23:59:59-05:00">
-                    <pb n="15" facs="0046" xml:id="pg_15"/>
                     <head>5. Message to the Congress Transmitting President <persName
                             corresp="#p_NRM_1">Nixon</persName>’s First Annual International
                         Economic Report<note n="1" type="source" xml:id="d5fn1">Source: <hi
@@ -3516,12 +3513,12 @@
                         </signed>
                     </closer>
                 </div>
+                <pb n="17" facs="0048" xml:id="pg_17"/>
                 <div type="document" n="6" xml:id="d6" subtype="historical-document"
                     frus:doc-dateTime-min="1973-03-29T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-03-29T23:59:59-05:00">
-                    <pb n="17" facs="0048" xml:id="pg_17"/>
-                    <head>6. Address by President <persName corresp="#p_NRM_1">Nixon</persName>
-                        <note n="1" type="source" xml:id="d6fn1">Source: <hi rend="italic">Public
+                    <head>6. Address by President <persName corresp="#p_NRM_1">Nixon</persName><note
+                            n="1" type="source" xml:id="d6fn1">Source: <hi rend="italic">Public
                                 Papers: <persName corresp="#p_NRM_1">Nixon</persName>, 1973</hi>,
                             pp. 234–238. The President spoke at 9:01 p.m. from the White House Oval
                             Office. His address was broadcast live on nationwide radio and
@@ -4228,10 +4225,10 @@
                         how, in the 1970’s, the Atlantic nations can truly serve our peoples and the
                         cause of peace.</p>
                 </div>
+                <pb n="33" facs="0064" xml:id="pg_33"/>
                 <div type="document" n="9" xml:id="d9" subtype="historical-document"
                     frus:doc-dateTime-min="1973-05-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-05-03T23:59:59-05:00">
-                    <pb n="33" facs="0064" xml:id="pg_33"/>
                     <head>9. President <persName corresp="#p_NRM_1">Nixon</persName>’s Fourth Annual
                         Report to the Congress on U.S. Foreign Policy<note n="1" type="source"
                             xml:id="d9fn1">Source: <hi rend="italic">Public Papers: <persName
@@ -4740,24 +4737,23 @@
                         an international structure which could silence the sounds of war for the
                         remainder of this century.</p>
                 </div>
+                <pb n="44" facs="0075" xml:id="pg_44"/>
                 <div type="document" n="10" xml:id="d10" subtype="historical-document"
                     frus:doc-dateTime-min="1973-05-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-05-03T23:59:59-05:00">
-                    <pb n="44" facs="0075" xml:id="pg_44"/>
                     <head>10. Conversation Between President <persName corresp="#p_NRM_1"
                             >Nixon</persName> and Ambassador <persName corresp="#p_BDKE_1">David
-                            K.E. Bruce</persName>
-                        <note n="1" type="source" xml:id="d10fn1">Source: National Archives,
-                                <persName corresp="#p_NRM_1">Nixon</persName> Presidential
-                            Materials, White House Tapes, Conversation 911–9. No classification
-                            marking. The editor transcribed the portion of the conversation printed
-                            here specifically for this volume. According to the President’s Daily
-                            Diary, <persName corresp="#p_BDKE_1">Bruce</persName> and <persName
-                                corresp="#p_NRM_1">Nixon</persName> met in the White House Oval
-                            Office from 9:48 until 10:12 a.m. (Ibid., White House Central Files)
-                            Appointed on March 15 as Chief of the new U.S. Liaison Office, <persName
-                                corresp="#p_BDKE_1">Bruce</persName> presented his credentials in
-                            Beijing on May 14.</note>
+                            K.E. Bruce</persName><note n="1" type="source" xml:id="d10fn1">Source:
+                            National Archives, <persName corresp="#p_NRM_1">Nixon</persName>
+                            Presidential Materials, White House Tapes, Conversation 911–9. No
+                            classification marking. The editor transcribed the portion of the
+                            conversation printed here specifically for this volume. According to the
+                            President’s Daily Diary, <persName corresp="#p_BDKE_1">Bruce</persName>
+                            and <persName corresp="#p_NRM_1">Nixon</persName> met in the White House
+                            Oval Office from 9:48 until 10:12 a.m. (Ibid., White House Central
+                            Files) Appointed on March 15 as Chief of the new U.S. Liaison Office,
+                                <persName corresp="#p_BDKE_1">Bruce</persName> presented his
+                            credentials in Beijing on May 14.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-05-03"
@@ -5198,10 +5194,10 @@
                         <persName corresp="#p_BDKE_1">Bruce</persName>: All right, sir.</p>
                     <p>[Omitted here is discussion of Cambodia and South Vietnam.]</p>
                 </div>
+                <pb n="51" facs="0082" xml:id="pg_51"/>
                 <div type="document" n="11" xml:id="d11" subtype="historical-document"
                     frus:doc-dateTime-min="1973-05-18T07:38:00-05:00"
                     frus:doc-dateTime-max="1973-05-18T09:11:00-05:00">
-                    <pb n="51" facs="0082" xml:id="pg_51"/>
                     <head>11. Memorandum of Conversation<note n="1" type="source" xml:id="d11fn1"
                             >Source: National Archives, <persName corresp="#p_NRM_1"
                                 >Nixon</persName> Presidential Materials, <gloss target="#t_NSC_1"
@@ -5375,21 +5371,21 @@
                         because of the legal processes. Just say you don’t believe the President is
                         involved. Express confidence in the judicial system.</p>
                 </div>
+                <pb n="54" facs="0085" xml:id="pg_54"/>
                 <div type="document" n="12" xml:id="d12" subtype="historical-document"
                     frus:doc-dateTime-min="1973-05-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-05-24T23:59:59-05:00">
-                    <pb n="54" facs="0085" xml:id="pg_54"/>
-                    <head>12. Remarks by President <persName corresp="#p_NRM_1">Nixon</persName>
-                        <note n="1" type="source" xml:id="d12fn1">Source: <hi rend="italic">Public
-                                Papers: <persName corresp="#p_NRM_1">Nixon</persName>, 1973</hi>,
-                            pp. 555–563. <persName corresp="#p_NRM_1">Nixon</persName> delivered his
-                            remarks at an afternoon reception for returned prisoners of war held at
-                            the Department of State. The White House invited POWs, their family
-                            members, members of Congress, and Cabinet officers, totaling 1,300
-                            people, to attend several receptions, lectures, and a formal White House
-                            dinner the evening of May 24. For <persName corresp="#p_NRM_1"
-                                >Nixon</persName>’s recollections of the events, see <hi
-                                rend="italic">RN</hi>, pp. 859–869.</note>
+                    <head>12. Remarks by President <persName corresp="#p_NRM_1"
+                            >Nixon</persName><note n="1" type="source" xml:id="d12fn1">Source: <hi
+                                rend="italic">Public Papers: <persName corresp="#p_NRM_1"
+                                    >Nixon</persName>, 1973</hi>, pp. 555–563. <persName
+                                corresp="#p_NRM_1">Nixon</persName> delivered his remarks at an
+                            afternoon reception for returned prisoners of war held at the Department
+                            of State. The White House invited POWs, their family members, members of
+                            Congress, and Cabinet officers, totaling 1,300 people, to attend several
+                            receptions, lectures, and a formal White House dinner the evening of May
+                            24. For <persName corresp="#p_NRM_1">Nixon</persName>’s recollections of
+                            the events, see <hi rend="italic">RN</hi>, pp. 859–869.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1973-05-24"
@@ -5774,10 +5770,10 @@
                         got some allies, and I will appreciate your help.</p>
                     <p>Thank you.</p>
                 </div>
+                <pb n="63" facs="0094" xml:id="pg_63"/>
                 <div type="document" n="13" xml:id="d13" subtype="historical-document"
                     frus:doc-dateTime-min="1973-06-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-06-07T23:59:59-05:00">
-                    <pb n="63" facs="0094" xml:id="pg_63"/>
                     <head>13. Memorandum for the President’s File by <persName corresp="#p_JWJ_1"
                             >William J. Jorden</persName> of the National Security Council
                             Staff<note n="1" type="source" xml:id="d13fn1">Source: National
@@ -6067,10 +6063,10 @@
                         consider that one of the best signs that a peaceful world is coming into
                         being.” (Ibid., page 149)</p>
                 </div>
+                <pb n="69" facs="0100" xml:id="pg_69"/>
                 <div type="document" n="15" xml:id="d15" subtype="historical-document"
                     frus:doc-dateTime-min="1973-08-03T11:30:00-05:00"
                     frus:doc-dateTime-max="1973-08-03T11:30:00-05:00">
-                    <pb n="69" facs="0100" xml:id="pg_69"/>
                     <head>15. Memorandum of Conversation<note n="1" type="source" xml:id="d15fn1"
                             >Source: National Archives, <persName corresp="#p_NRM_1"
                                 >Nixon</persName> Presidential Materials, <gloss target="#t_NSC_1"
@@ -6099,11 +6095,11 @@
                     </list>
                     <p>
                         <persName corresp="#p_KHA_1">Kissinger</persName>: <persName
-                            corresp="#p_AJ_1">Jack Anderson</persName>
-                        <note n="2" xml:id="d15fn2">Syndicated newspaper columnist.</note> writes
-                        implying that not everything the Board does goes to the President. Every
-                        report of the Board does go to the President. Don’t judge your influence by
-                        the frequency of meeting with us.</p>
+                            corresp="#p_AJ_1">Jack Anderson</persName><note n="2" xml:id="d15fn2"
+                            >Syndicated newspaper columnist.</note> writes implying that not
+                        everything the Board does goes to the President. Every report of the Board
+                        does go to the President. Don’t judge your influence by the frequency of
+                        meeting with us.</p>
                     <p>I think what is going on is an unmitigated disaster in foreign policy. In
                         April our foreign policy was in excellent shape. The Chinese-Soviet triangle
                         was operating for us. Everyone wanted to be associated with us. Now people
@@ -6294,18 +6290,17 @@
                     frus:doc-dateTime-min="1973-09-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-09-24T23:59:59-05:00">
                     <head>17. Address by Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d17fn1">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, October 15, 1973, pp. 469–473.
-                                <persName corresp="#p_KHA_1">Kissinger</persName> spoke before the
-                            opening plenary session of the United Nations General Assembly. Drafts
-                            of <persName corresp="#p_KHA_1">Kissinger</persName>’s address are in
-                            the National Archives, <persName corresp="#p_NRM_1">Nixon</persName>
-                            Presidential Materials, <gloss target="#t_NSC_1">NSC</gloss> Files,
-                                <persName corresp="#p_KHA_1">Kissinger</persName> Office Files, Box
-                            12, <gloss target="#t_HAK_1">HAK</gloss> Administrative and Staff Files,
-                                <gloss target="#t_HAK_1">HAK</gloss> Confirmation Material [1 of
-                            4].</note>
+                            >Kissinger</persName><note n="1" type="source" xml:id="d17fn1">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, October 15, 1973,
+                            pp. 469–473. <persName corresp="#p_KHA_1">Kissinger</persName> spoke
+                            before the opening plenary session of the United Nations General
+                            Assembly. Drafts of <persName corresp="#p_KHA_1">Kissinger</persName>’s
+                            address are in the National Archives, <persName corresp="#p_NRM_1"
+                                >Nixon</persName> Presidential Materials, <gloss target="#t_NSC_1"
+                                >NSC</gloss> Files, <persName corresp="#p_KHA_1"
+                                >Kissinger</persName> Office Files, Box 12, <gloss target="#t_HAK_1"
+                                >HAK</gloss> Administrative and Staff Files, <gloss
+                                target="#t_HAK_1">HAK</gloss> Confirmation Material [1 of 4].</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>New York</placeName>, <date when="1973-09-24"
@@ -6587,10 +6582,10 @@
                         ourselves to this noblest of all possible goals and achieve at last what has
                         so long eluded us: true understanding and tolerance among mankind.</p>
                 </div>
+                <pb n="80" facs="0111" xml:id="pg_80"/>
                 <div type="document" n="18" xml:id="d18" subtype="historical-document"
                     frus:doc-dateTime-min="1973-10-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-10-06T23:59:59-05:00">
-                    <pb n="80" facs="0111" xml:id="pg_80"/>
                     <head>18. Paper Prepared in the Bureau of Inter-American Affairs<note n="1"
                             type="source" xml:id="d18fn1">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Records of <persName
@@ -6750,11 +6745,10 @@
                     frus:doc-dateTime-min="1973-10-08T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-10-08T23:59:59-05:00">
                     <head>19. Address by Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d19fn1">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, October 29, 1973, pp. 525–531.
-                                <persName corresp="#p_KHA_1">Kissinger</persName> delivered his
-                            address at the Sheraton Park Hotel before the Third Pacem in Terris
+                            >Kissinger</persName><note n="1" type="source" xml:id="d19fn1">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, October 29, 1973,
+                            pp. 525–531. <persName corresp="#p_KHA_1">Kissinger</persName> delivered
+                            his address at the Sheraton Park Hotel before the Third Pacem in Terris
                             Conference, sponsored by the Center for the Study of Democratic
                             Institutions. The conference’s title is in reference to Pope John
                             XXIII’s 1963 papal encyclical.</note>
@@ -7160,10 +7154,10 @@
                         eternal goal of a Pacem in Terris—peace abroad, peace at home, and peace
                         within ourselves.</p>
                 </div>
+                <pb n="93" facs="0124" xml:id="pg_93"/>
                 <div type="document" n="20" xml:id="d20" subtype="historical-document"
                     frus:doc-dateTime-min="1973-10-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-10-18T23:59:59-05:00">
-                    <pb n="93" facs="0124" xml:id="pg_93"/>
                     <head>20. Minutes of a Cabinet Meeting<note n="1" type="source" xml:id="d20fn1"
                             >Source: Library of Congress, Manuscript Division, <persName
                                 corresp="#p_KHA_1">Kissinger</persName> Papers, Box <gloss
@@ -7818,10 +7812,10 @@
                             <persName corresp="#p_KHA_1">Kissinger</persName> are to be
                         commended.</p>
                 </div>
+                <pb n="105" facs="0136" xml:id="pg_105"/>
                 <div type="document" n="23" xml:id="d23" subtype="historical-document"
                     frus:doc-dateTime-min="1973-11-28T15:00:00-05:00"
                     frus:doc-dateTime-max="1973-11-28T15:00:00-05:00">
-                    <pb n="105" facs="0136" xml:id="pg_105"/>
                     <head>23. Memorandum of Conversation<note n="1" type="source" xml:id="d23fn1"
                             >Source: National Archives, <persName corresp="#p_NRM_1"
                                 >Nixon</persName> Presidential Materials, <gloss target="#t_NSC_1"
@@ -8363,8 +8357,8 @@
                         problem is of long-range importance to all consumer countries and he would
                         tell the Europeans this. We are prepared to discuss with <pb n="116"
                             facs="0147" xml:id="pg_116"/>them a common policy covering research and
-                        other matters. Mr. <persName corresp="#p_DWH_1">Donaldson</persName>
-                        <note n="9" xml:id="d23fn9">Presumable reference to Under Secretary of State
+                        other matters. Mr. <persName corresp="#p_DWH_1">Donaldson</persName><note
+                            n="9" xml:id="d23fn9">Presumable reference to Under Secretary of State
                             for Security Assistance <persName corresp="#p_DWH_1">William H.
                                 Donaldson</persName>. During his October 12 news conference,
                                 <persName corresp="#p_KHA_1">Kissinger</persName> announced
@@ -8549,15 +8543,14 @@
                         December 5.</p>
                     <p>The meeting terminated at 5:15 p.m.</p>
                 </div>
+                <pb n="120" facs="0151" xml:id="pg_120"/>
                 <div type="document" n="24" xml:id="d24" subtype="historical-document"
                     frus:doc-dateTime-min="1973-12-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1973-12-12T23:59:59-05:00">
-                    <pb n="120" facs="0151" xml:id="pg_120"/>
                     <head>24. Address by Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d24fn1">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, December 31, 1973, pp. 777–782.
-                            Brackets are in the original. <persName corresp="#p_KHA_1"
+                            >Kissinger</persName><note n="1" type="source" xml:id="d24fn1">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, December 31, 1973,
+                            pp. 777–782. Brackets are in the original. <persName corresp="#p_KHA_1"
                                 >Kissinger</persName> delivered his speech to a gathering of the
                             Pilgrims of Great Britain held at the Europa Hotel. Another copy of
                                 <persName corresp="#p_KHA_1">Kissinger</persName>’s address is in
@@ -9292,10 +9285,10 @@
                         President Monday.<note n="10" xml:id="d25fn10">December 31, 1973.</note>
                     </p>
                 </div>
+                <pb n="135" facs="0166" xml:id="pg_135"/>
                 <div type="document" n="26" xml:id="d26" subtype="historical-document"
                     frus:doc-dateTime-min="1974-01-24T14:00:00-05:00"
                     frus:doc-dateTime-max="1974-01-24T16:30:00-05:00">
-                    <pb n="135" facs="0166" xml:id="pg_135"/>
                     <head>26. Minutes of a National Security Council Meeting<note n="1"
                             type="source" xml:id="d26fn1">Source: National Archives, <persName
                                 corresp="#p_NRM_1">Nixon</persName> Presidential Materials, <gloss
@@ -9550,18 +9543,17 @@
                         some point in the future, and the Chinese. Thus, central to our policy is
                         what happens in China. Suppose there <pb n="139" facs="0170" xml:id="pg_139"
                         />were a Soviet-Chinese détente or alliance. Dr. <persName corresp="#p_JW_1"
-                            >Judd</persName>
-                        <note n="5" xml:id="d26fn5">Reference is to former Representative Dr.
-                                <persName corresp="#p_JW_1">Walter H. Judd</persName> (R–Minnesota).
-                            Prior to serving in the House, <persName corresp="#p_JW_1"
-                                >Judd</persName> worked as a medical missionary in China during the
-                            1920s and 1930s. Defeated for his seat in 1962 as a result of
-                            redistricting, <persName corresp="#p_JW_1">Judd</persName> eventually
-                            assumed the chairmanship of the Committee for a Free China.</note> was
-                        unhappy with our opening to China and I was not terribly happy about what it
-                        did to our friends in Taiwan. Also, we can’t forget that it was not an
-                        anti-Soviet move—at least that is what we say; we see good relations with
-                        both sides.</p>
+                            >Judd</persName><note n="5" xml:id="d26fn5">Reference is to former
+                            Representative Dr. <persName corresp="#p_JW_1">Walter H. Judd</persName>
+                            (R–Minnesota). Prior to serving in the House, <persName
+                                corresp="#p_JW_1">Judd</persName> worked as a medical missionary in
+                            China during the 1920s and 1930s. Defeated for his seat in 1962 as a
+                            result of redistricting, <persName corresp="#p_JW_1">Judd</persName>
+                            eventually assumed the chairmanship of the Committee for a Free
+                            China.</note> was unhappy with our opening to China and I was not
+                        terribly happy about what it did to our friends in Taiwan. Also, we can’t
+                        forget that it was not an anti-Soviet move—at least that is what we say; we
+                        see good relations with both sides.</p>
                     <p>And without that, the U.S. ten years from now would be in a very dangerous
                         position. Within ten years, as <persName corresp="#p_BLI_1"
                             >Brezhnev</persName> says, or within twenty to twenty-five years, it
@@ -9811,13 +9803,12 @@
                     frus:doc-dateTime-min="1974-02-21T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-02-21T23:59:59-05:00">
                     <head>28. Address by Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d28fn1">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, March 18, 1974, pp. 257–262. <persName
-                                corresp="#p_KHA_1">Kissinger</persName> delivered his address at the
-                            Conference of Tlatelolco. The conference, held February 18–23, brought
-                            together the Foreign Ministers of 25 Western Hemisphere nations to
-                            discuss the outlines of a “New Dialogue” that <persName
+                            >Kissinger</persName><note n="1" type="source" xml:id="d28fn1">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, March 18, 1974, pp.
+                            257–262. <persName corresp="#p_KHA_1">Kissinger</persName> delivered his
+                            address at the Conference of Tlatelolco. The conference, held February
+                            18–23, brought together the Foreign Ministers of 25 Western Hemisphere
+                            nations to discuss the outlines of a “New Dialogue” that <persName
                                 corresp="#p_KHA_1">Kissinger</persName> had proposed at the United
                             Nations in October 1973 (see <ref target="#d18fn1">footnote 1, Document
                                 18</ref>). <persName corresp="#p_KHA_1">Kissinger</persName> sent a
@@ -10222,10 +10213,10 @@
                             262–264.</note>
                     </p>
                 </div>
+                <pb n="153" facs="0184" xml:id="pg_153"/>
                 <div type="document" n="29" xml:id="d29" subtype="historical-document"
                     frus:doc-dateTime-min="1974-03-11T14:10:00-05:00"
                     frus:doc-dateTime-max="1974-03-11T15:45:00-05:00">
-                    <pb n="153" facs="0184" xml:id="pg_153"/>
                     <head>29. Memorandum of Conversation<note n="1" type="source" xml:id="d29fn1"
                             >Source: <persName corresp="#p_FGR_1">Ford</persName> Library, National
                             Security Adviser, Memoranda of Conversations, 1973–1977, Box 3,
@@ -10394,11 +10385,11 @@
                         <persName corresp="#p_SJR_1">Schlesinger</persName>: An excellent
                         formulation. We must have a common outlook on Europe and on the world as a
                         whole.</p>
-                    <p>I think on <gloss target="#t_SALT_1">SALT</gloss>
-                        <note n="6" xml:id="d29fn6">The <gloss target="#t_SALT_1">SALT</gloss> talks
-                            resumed in Geneva on February 19.</note> we understand that we must not
-                        use too-tough words now. Essential equivalence we need for a permanent
-                        agreement; but we know we need maneuvering room now.</p>
+                    <p>I think on <gloss target="#t_SALT_1">SALT</gloss><note n="6" xml:id="d29fn6"
+                            >The <gloss target="#t_SALT_1">SALT</gloss> talks resumed in Geneva on
+                            February 19.</note> we understand that we must not use too-tough words
+                        now. Essential equivalence we need for a permanent agreement; but we know we
+                        need maneuvering room now.</p>
                     <p>
                         <persName corresp="#p_KHA_1">Kissinger</persName>: There is no differences
                         between us on equivalence. We have had words on tactics, but not on the
@@ -10464,10 +10455,10 @@
                         <persName corresp="#p_KHA_1">Kissinger</persName>: There is nothing going on
                         in any channel of which you are not aware.</p>
                 </div>
+                <pb n="157" facs="0188" xml:id="pg_157"/>
                 <div type="document" n="30" xml:id="d30" subtype="historical-document"
                     frus:doc-dateTime-min="1974-03-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-03-13T23:59:59-05:00">
-                    <pb n="157" facs="0188" xml:id="pg_157"/>
                     <head>30. Memorandum of Conversation<note n="1" type="source" xml:id="d30fn1"
                             >Source: National Archives, <persName corresp="#p_NRM_1"
                                 >Nixon</persName> Presidential Materials, <gloss target="#t_NSC_1"
@@ -10784,22 +10775,21 @@
                         Syrian emissary, and then hope for vacation.</p>
                     <p>Question: What about subpoenas, and this talk of more wire taps?</p>
                     <p>The Secretary: I have not been subpoenaed in connection with <persName
-                            corresp="#p_EJD_1">Ehrlichman</persName>
-                        <note n="12" xml:id="d30fn12">During September 1973, former Assistant to the
-                            President for Domestic Affairs <persName corresp="#p_EJD_1">John
-                                Ehrlichman</persName> was indicted on burglary conspiracy charges in
-                            California in connection with the 1971 burglary of Dr. <persName
-                                corresp="#p_LSW_1">Lewis</persName> Fielding’s office. Fielding was
-                            Dr. Daniel Ellsberg’s psychiatrist. See Anthony Ripley, “Several ‘Major’
-                            Criminal Indictments In Next 2 Months Hinted by <persName
-                                corresp="#p_JL_1">Jaworski</persName>,” <hi rend="italic">New York
-                                Times</hi>, January 1, 1974, p. 17.</note> or any other case and can
-                        only be asked questions in connection with the situation in 1970. It would
-                        reveal that I took a very dim view of the theft of the Pentagon papers or of
-                        unauthorized revelations concerning the China trip or the <gloss
-                            target="#t_SALT_1">SALT</gloss> negotiations. But to go from there to a
-                        connection with the burglaries of a psychiatrist’s office is a big step. I
-                        think it would be a double-edged sword.</p>
+                            corresp="#p_EJD_1">Ehrlichman</persName><note n="12" xml:id="d30fn12"
+                            >During September 1973, former Assistant to the President for Domestic
+                            Affairs <persName corresp="#p_EJD_1">John Ehrlichman</persName> was
+                            indicted on burglary conspiracy charges in California in connection with
+                            the 1971 burglary of Dr. <persName corresp="#p_LSW_1">Lewis</persName>
+                            Fielding’s office. Fielding was Dr. Daniel Ellsberg’s psychiatrist. See
+                            Anthony Ripley, “Several ‘Major’ Criminal Indictments In Next 2 Months
+                            Hinted by <persName corresp="#p_JL_1">Jaworski</persName>,” <hi
+                                rend="italic">New York Times</hi>, January 1, 1974, p. 17.</note> or
+                        any other case and can only be asked questions in connection with the
+                        situation in 1970. It would reveal that I took a very dim view of the theft
+                        of the Pentagon papers or of unauthorized revelations concerning the China
+                        trip or the <gloss target="#t_SALT_1">SALT</gloss> negotiations. But to go
+                        from there to a connection with the burglaries of a psychiatrist’s office is
+                        a big step. I think it would be a double-edged sword.</p>
                     <p>Will the President go to the Middle East in May? There is talk of it, but no
                         date. It depends on progress on Syrian disengagement. As for a trip to
                         Europe, we have not made a decision.</p>
@@ -10870,10 +10860,10 @@
                                 rend="italic">Bulletin</hi>, May 13, 1974, pp. 509–515.</note>
                     </p>
                 </div>
+                <pb n="165" facs="0196" xml:id="pg_165"/>
                 <div type="document" n="31" xml:id="d31" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-01-20T23:59:59-05:00">
-                    <pb n="165" facs="0196" xml:id="pg_165"/>
                     <head>31. Editorial Note</head>
                     <p>The <persName corresp="#p_NRM_1">Nixon</persName> administration’s trade
                         bill, sent to Congress in April 1973 (see <ref target="#d5fn1">footnote 1,
@@ -11035,16 +11025,15 @@
                     frus:doc-dateTime-min="1974-04-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-04-15T23:59:59-05:00">
                     <head>32. Address by Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d32fn1">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, May 6, 1974, pp. 477–483. <persName
-                                corresp="#p_KHA_1">Kissinger</persName> gave the address to the
-                            Sixth Special Session of the United Nations General Assembly. The
-                            Algerian Representative to the United Nations, Abdellatif Rahal,
-                            proposed the session, held April 9–May 2, in the interest of furthering
-                            discussion and action on development and raw materials issues. The
-                            General Assembly approved two resolutions at the session: U.N.
-                            Resolution 3201 (S–VI), Declaration on the Establishment of a New
+                            >Kissinger</persName><note n="1" type="source" xml:id="d32fn1">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, May 6, 1974, pp.
+                            477–483. <persName corresp="#p_KHA_1">Kissinger</persName> gave the
+                            address to the Sixth Special Session of the United Nations General
+                            Assembly. The Algerian Representative to the United Nations, Abdellatif
+                            Rahal, proposed the session, held April 9–May 2, in the interest of
+                            furthering discussion and action on development and raw materials
+                            issues. The General Assembly approved two resolutions at the session:
+                            U.N. Resolution 3201 (S–VI), Declaration on the Establishment of a New
                             International Economic Order and U.N. Resolution 3202 (S–VI), Programme
                             of Action on the Establishment of a New International Economic Order.
                                 (<hi rend="italic">Yearbook of the United Nations, 1974</hi>, pp.
@@ -11467,10 +11456,10 @@
                         record that this was the year that mankind at last began to conquer its
                         noblest and most humane challenge.</p>
                 </div>
+                <pb n="179" facs="0210" xml:id="pg_179"/>
                 <div type="document" n="33" xml:id="d33" subtype="historical-document"
                     frus:doc-dateTime-min="1974-04-24T07:38:00-05:00"
                     frus:doc-dateTime-max="1974-04-24T08:50:00-05:00">
-                    <pb n="179" facs="0210" xml:id="pg_179"/>
                     <head>33. Memorandum of Conversation<note n="1" type="source" xml:id="d33fn1"
                             >Source: National Archives, <persName corresp="#p_NRM_1"
                                 >Nixon</persName> Presidential Materials, <gloss target="#t_NSC_1"
@@ -11957,11 +11946,11 @@
                 <div type="document" n="35" xml:id="d35" subtype="historical-document"
                     frus:doc-dateTime-min="1974-06-05T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-06-05T23:59:59-05:00">
-                    <head>35. Address by President <persName corresp="#p_NRM_1">Nixon</persName>
-                        <note n="1" type="source" xml:id="d35fn1">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, July 1, 1974, pp. 1–5. <persName
-                                corresp="#p_NRM_1">Nixon</persName>’s address was made before the
-                            graduating class of the U.S. Naval Academy.</note>
+                    <head>35. Address by President <persName corresp="#p_NRM_1"
+                            >Nixon</persName><note n="1" type="source" xml:id="d35fn1">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, July 1, 1974, pp.
+                            1–5. <persName corresp="#p_NRM_1">Nixon</persName>’s address was made
+                            before the graduating class of the U.S. Naval Academy.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Annapolis, Maryland</placeName>, <date when="1974-06-05"
@@ -12263,10 +12252,10 @@
                         America can and will save herself by her exertions and will, we trust, by
                         our example, save the cause of peace and freedom for the world.</p>
                 </div>
+                <pb n="195" facs="0226" xml:id="pg_195"/>
                 <div type="document" n="36" xml:id="d36" subtype="historical-document"
                     frus:doc-dateTime-min="1974-07-10T07:30:00-05:00"
                     frus:doc-dateTime-max="1974-07-10T07:30:00-05:00">
-                    <pb n="195" facs="0226" xml:id="pg_195"/>
                     <head>36. Memorandum of Conversation<note n="1" type="source" xml:id="d36fn1"
                             >Source: Library of Congress, Manuscript Division, <persName
                                 corresp="#p_KHA_1">Kissinger</persName> Papers, Box <gloss
@@ -12693,10 +12682,10 @@
                         is on technical exchange. The development of energy resources is private.
                         This is totally separate.</p>
                 </div>
+                <pb n="203" facs="0234" xml:id="pg_203"/>
                 <div type="document" n="37" xml:id="d37" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-01-20T23:59:59-05:00">
-                    <pb n="203" facs="0234" xml:id="pg_203"/>
                     <head>37. Editorial Note</head>
                     <p>President <persName corresp="#p_NRM_1">Richard Nixon</persName> resigned the
                         Presidency at 11:35 a.m. on August 9, 1974, as a result of the Watergate
@@ -12727,10 +12716,10 @@
                             rend="italic">Public Papers: <persName corresp="#p_FGR_1"
                                 >Ford</persName>, 1974</hi>, pages 1–3)</p>
                 </div>
+                <pb n="204" facs="0235" xml:id="pg_204"/>
                 <div type="document" n="38" xml:id="d38" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-09T09:47:00-05:00"
                     frus:doc-dateTime-max="1974-08-09T10:10:00-05:00">
-                    <pb n="204" facs="0235" xml:id="pg_204"/>
                     <head>38. Minutes of a Washington Special Actions Group Meeting<note n="1"
                             type="source" xml:id="d38fn1">Source: <persName corresp="#p_FGR_1"
                                 >Ford</persName> Library, National Security Council, Institutional
@@ -13071,10 +13060,10 @@
                     <p>Secretary <persName corresp="#p_KHA_1">Kissinger</persName>: Let me have what
                         you can Monday morning and the rest Monday night.</p>
                 </div>
+                <pb n="210" facs="0241" xml:id="pg_210"/>
                 <div type="document" n="39" xml:id="d39" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-08-09T23:59:59-05:00">
-                    <pb n="210" facs="0241" xml:id="pg_210"/>
                     <head>39. National Security Decision Memorandum 265<note n="1" type="source"
                             xml:id="d39fn1">Source: <persName corresp="#p_FGR_1">Ford</persName>
                             Library, National Security Adviser, National Security Decision Memoranda
@@ -13141,10 +13130,10 @@
                         </signed>
                     </closer>
                 </div>
+                <pb n="211" facs="0242" xml:id="pg_211"/>
                 <div type="document" n="40" xml:id="d40" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-10T10:15:00-05:00"
                     frus:doc-dateTime-max="1974-08-10T10:35:00-05:00">
-                    <pb n="211" facs="0242" xml:id="pg_211"/>
                     <head>40. Minutes of a National Security Council Meeting<note n="1"
                             type="source" xml:id="d40fn1">Source: Library of Congress, Manuscript
                             Division, <persName corresp="#p_KHA_1">Kissinger</persName> Papers, Box
@@ -13510,8 +13499,8 @@
                 <div type="document" n="41" xml:id="d41" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-08-12T23:59:59-05:00">
-                    <head>41. Address by President <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" type="source" xml:id="d41fn1">Source: <hi rend="italic">Public
+                    <head>41. Address by President <persName corresp="#p_FGR_1">Ford</persName><note
+                            n="1" type="source" xml:id="d41fn1">Source: <hi rend="italic">Public
                                 Papers: <persName corresp="#p_FGR_1">Ford</persName>, 1974</hi>, pp.
                             6–13. <persName corresp="#p_FGR_1">Ford</persName> addressed a joint
                             session of Congress at 9:06 p.m. in the House Chamber at the Capitol.
@@ -13615,10 +13604,10 @@
                         to negotiate.”</p>
                     <p>[Omitted here are general concluding remarks.]</p>
                 </div>
+                <pb n="220" facs="0251" xml:id="pg_220"/>
                 <div type="document" n="42" xml:id="d42" subtype="historical-document"
                     frus:doc-dateTime-min="1974-08-13T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-08-13T23:59:59-05:00">
-                    <pb n="220" facs="0251" xml:id="pg_220"/>
                     <head>42. Memorandum of Conversation<note n="1" type="source" xml:id="d42fn1"
                             >Source: Library of Congress, Manuscript Division, <persName
                                 corresp="#p_KHA_1">Kissinger</persName> Papers, Box <gloss
@@ -13670,8 +13659,8 @@
                             <persName corresp="#p_ZR_1">Ziegler</persName>, for example, thought
                         they might cause a little furor which would soon die down. During the past
                         week I had no legal discussions on Watergate with the White House and did
-                        not talk to <persName corresp="#p_SCJD_1">St. Clair</persName>
-                        <note n="3" xml:id="d42fn3">
+                        not talk to <persName corresp="#p_SCJD_1">St. Clair</persName><note n="3"
+                            xml:id="d42fn3">
                             <persName corresp="#p_SCJD_1">James D. St. Clair</persName>, Special
                             Counsel to <persName corresp="#p_NRM_1">Nixon</persName> during the
                             Watergate period, argued the case of <hi rend="italic">United States v.
@@ -13848,8 +13837,8 @@
                 <div type="document" n="44" xml:id="d44" subtype="historical-document"
                     frus:doc-dateTime-min="1974-09-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-09-18T23:59:59-05:00">
-                    <head>44. Address by President <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" type="source" xml:id="d44fn1">Source: Department of State <hi
+                    <head>44. Address by President <persName corresp="#p_FGR_1">Ford</persName><note
+                            n="1" type="source" xml:id="d44fn1">Source: Department of State <hi
                                 rend="italic">Bulletin</hi>, October 7, 1974, pp. 465–468. All
                             brackets are in the original. <persName corresp="#p_FGR_1"
                                 >Ford</persName>’s address was made before the U.N. General
@@ -14094,19 +14083,18 @@
                         to promote social progress and better standards, better standards of life in
                         a larger freedom.</p>
                 </div>
+                <pb n="230" facs="0261" xml:id="pg_230"/>
                 <div type="document" n="45" xml:id="d45" subtype="historical-document"
                     frus:doc-dateTime-min="1974-09-19T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-09-19T23:59:59-05:00">
-                    <pb n="230" facs="0261" xml:id="pg_230"/>
                     <head>45. Statement by Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d45fn1">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, October 14, 1974, pp. 505–519.
-                                <persName corresp="#p_KHA_1">Kissinger</persName> made his statement
-                            before the Senate Committee on Foreign Relations during the Committee’s
-                            hearings on U.S. relations with Communist countries. A copy is in the
-                            National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Policy
-                            Planning Council (<gloss target="#t_SPC_1">S/PC</gloss>), Policy
+                            >Kissinger</persName><note n="1" type="source" xml:id="d45fn1">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, October 14, 1974,
+                            pp. 505–519. <persName corresp="#p_KHA_1">Kissinger</persName> made his
+                            statement before the Senate Committee on Foreign Relations during the
+                            Committee’s hearings on U.S. relations with Communist countries. A copy
+                            is in the National Archives, <gloss target="#t_RG_1">RG</gloss> 59,
+                            Policy Planning Council (<gloss target="#t_SPC_1">S/PC</gloss>), Policy
                             Planning Staff (<gloss target="#t_SP_1">S/P</gloss>), Director’s Files
                                 (<persName corresp="#p_LW_1">Winston Lord</persName>) 1969–77, Lot
                             77D112, Box 349, SEPT 1974.</note>
@@ -14285,15 +14273,14 @@
                     frus:doc-dateTime-min="1974-10-06T00:00:00-05:00"
                     frus:doc-dateTime-max="1974-10-06T23:59:59-05:00">
                     <head>46. Interview With Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d46fn1">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Policy Planning Council (<gloss
-                                target="#t_SPC_1">S/PC</gloss>), Policy Planning Staff (<gloss
-                                target="#t_SP_1">S/P</gloss>), Director’s Files (<persName
-                                corresp="#p_LW_1">Winston Lord</persName>) 1969–77, Lot 77D112, Box
-                            348, OCT 1974. No classification marking. <hi rend="italic">New York
-                                Times</hi> columnist <persName corresp="#p_RJ_1">James “Scotty”
-                                Reston</persName> conducted the interview with <persName
+                            >Kissinger</persName><note n="1" type="source" xml:id="d46fn1">Source:
+                            National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Policy
+                            Planning Council (<gloss target="#t_SPC_1">S/PC</gloss>), Policy
+                            Planning Staff (<gloss target="#t_SP_1">S/P</gloss>), Director’s Files
+                                (<persName corresp="#p_LW_1">Winston Lord</persName>) 1969–77, Lot
+                            77D112, Box 348, OCT 1974. No classification marking. <hi rend="italic"
+                                >New York Times</hi> columnist <persName corresp="#p_RJ_1">James
+                                “Scotty” Reston</persName> conducted the interview with <persName
                                 corresp="#p_KHA_1">Kissinger</persName>. <persName corresp="#p_RJ_1"
                                 >Reston</persName>’s article and a partial transcript of the
                             interview were published as “<persName corresp="#p_KHA_1"
@@ -14944,10 +14931,10 @@
                         to be interpreted as a swan song?</p>
                     <p>A Yes.</p>
                 </div>
+                <pb n="250" facs="0281" xml:id="pg_250"/>
                 <div type="document" n="47" xml:id="d47" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-01-20T23:59:59-05:00">
-                    <pb n="250" facs="0281" xml:id="pg_250"/>
                     <head>47. Editorial Note</head>
                     <p>The United Nations World Food Conference commenced in Rome on November 5,
                         1974. Secretary of State <persName corresp="#p_KHA_1">Henry
@@ -15037,10 +15024,10 @@
                         printed in full ibid., <ref target="frus1969-76v31#d280">Document
                         280</ref>.</p>
                 </div>
+                <pb n="252" facs="0283" xml:id="pg_252"/>
                 <div type="document" n="48" xml:id="d48" subtype="historical-document"
                     frus:doc-dateTime-min="1974-11-16T10:50:00-05:00"
                     frus:doc-dateTime-max="1974-11-16T12:10:00-05:00">
-                    <pb n="252" facs="0283" xml:id="pg_252"/>
                     <head>48. Memorandum of Conversation<note n="1" type="source" xml:id="d48fn1"
                             >Source: <persName corresp="#p_FGR_1">Ford</persName> Library, National
                             Security Adviser, Memoranda of Conversations, 1973–1977, Box 7,
@@ -15120,8 +15107,7 @@
                         decent idea we put forth—not simple negativism, nor did we want partisan
                         support.</p>
                     <p>
-                        <persName corresp="#p_BM_1">Bundy</persName>
-                        <note n="4" xml:id="d48fn4">
+                        <persName corresp="#p_BM_1">Bundy</persName><note n="4" xml:id="d48fn4">
                             <persName corresp="#p_BM_1">McGeorge Bundy</persName>, former
                             President’s Special Assistant for National Security Affairs
                             (1961–1966).</note> called to say the energy speech could be a rallying
@@ -15271,10 +15257,10 @@
                         the objective but this is a monumental issue. I will write out some
                         questions for you to give him.</p>
                 </div>
+                <pb n="256" facs="0287" xml:id="pg_256"/>
                 <div type="document" n="49" xml:id="d49" subtype="historical-document"
                     frus:doc-dateTime-min="1974-12-17T17:00:00-05:00"
                     frus:doc-dateTime-max="1974-12-17T17:00:00-05:00">
-                    <pb n="256" facs="0287" xml:id="pg_256"/>
                     <head>49. Memorandum of Conversation<note n="1" type="source" xml:id="d49fn1"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 59,
                             Records of <persName corresp="#p_KHA_1">Henry A. Kissinger</persName>,
@@ -15629,10 +15615,10 @@
                     <p>The Secretary: I’m firmly in support of your position on Rhodesian chrome but
                         I know nothing of the President’s letter. I will check with him tonight.</p>
                 </div>
+                <pb n="263" facs="0294" xml:id="pg_263"/>
                 <div type="document" n="50" xml:id="d50" subtype="historical-document"
                     frus:doc-dateTime-min="1975-01-08T11:11:00-05:00"
                     frus:doc-dateTime-max="1975-01-08T12:14:00-05:00">
-                    <pb n="263" facs="0294" xml:id="pg_263"/>
                     <head>50. Memorandum of Conversation<note n="1" type="source" xml:id="d50fn1"
                             >Source: <persName corresp="#p_FGR_1">Ford</persName> Library, National
                             Security Adviser, Memoranda of Conversations, 1973–1977, Box 8,
@@ -15733,12 +15719,12 @@
                         look back on this period on the structural side as having been an historic
                         period of American foreign policy.</p>
                 </div>
+                <pb n="265" facs="0296" xml:id="pg_265"/>
                 <div type="document" n="51" xml:id="d51" subtype="historical-document"
                     frus:doc-dateTime-min="1975-01-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-01-15T23:59:59-05:00">
-                    <pb n="265" facs="0296" xml:id="pg_265"/>
-                    <head>51. Address by President <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" type="source" xml:id="d51fn1">Source: <hi rend="italic">Public
+                    <head>51. Address by President <persName corresp="#p_FGR_1">Ford</persName><note
+                            n="1" type="source" xml:id="d51fn1">Source: <hi rend="italic">Public
                                 Papers: <persName corresp="#p_FGR_1">Ford</persName>, 1975,</hi>
                             Book I, pp. 36–46. The President delivered his State of the Union
                             address at 1:06 p.m. in the House Chamber at the Capitol. His remarks
@@ -15867,10 +15853,10 @@
                         that pledge to the new Members of this Congress.</p>
                     <p>[Omitted here are general concluding remarks.]</p>
                 </div>
+                <pb n="268" facs="0299" xml:id="pg_268"/>
                 <div type="document" n="52" xml:id="d52" subtype="historical-document"
                     frus:doc-dateTime-min="1975-02-28T17:15:00-05:00"
                     frus:doc-dateTime-max="1975-02-28T18:30:00-05:00">
-                    <pb n="268" facs="0299" xml:id="pg_268"/>
                     <head>52. Memorandum of Conversation<note n="1" type="source" xml:id="d52fn1"
                             >Source: National Archives, <gloss target="#t_RG_1">RG</gloss> 59,
                             Central Foreign Policy Files, P820123–0961. Secret; <gloss
@@ -16375,10 +16361,10 @@
                         deliver, and let them read cables so that they form a partnership.
                         Congressman Anderson agreed that there was a vacuum of leadership.</p>
                 </div>
+                <pb n="278" facs="0309" xml:id="pg_278"/>
                 <div type="document" n="53" xml:id="d53" subtype="editorial-note"
                     frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-01-20T23:59:59-05:00">
-                    <pb n="278" facs="0309" xml:id="pg_278"/>
                     <head>53. Editorial Note</head>
                     <p>On March 31, 1975, Secretary of State Henry <persName corresp="#p_KHA_1"
                             >Kissinger</persName> met with <persName corresp="#p_RD_2">Dean
@@ -16563,23 +16549,23 @@
                         Files, Box 9, Institutional Files—Meetings, <gloss target="#t_NSC_1"
                             >NSC</gloss> Meeting 3/28/75—Middle East Policy (2))</p>
                 </div>
+                <pb n="282" facs="0313" xml:id="pg_282"/>
                 <div type="document" n="54" xml:id="d54" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-04T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-04-04T23:59:59-05:00">
-                    <pb n="282" facs="0313" xml:id="pg_282"/>
                     <head>54. Memorandum From the Counselor of the Department of State (<persName
                             corresp="#p_SH_1">Sonnenfeldt</persName>) and the Director of the Bureau
                         of Intelligence and Research (<persName corresp="#p_HWG_1"
                         >Hyland</persName>) to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d54fn1">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Records of the Office of the
-                            Counselor <persName corresp="#p_SH_1">Helmut Sonnenfeldt</persName>, Lot
-                            81D286, Box 3, HS Chron, Official—Apr–June, 1975. Secret; Sensitive.
-                                <persName corresp="#p_KHA_1">Kissinger</persName>’s initials appear
-                            on the memorandum alongside his handwritten comment: “Excellent—Let’s
-                            discuss soonest.” Notations in the upper right hand corner of the first
-                            page read: “direct to C” and “Secto 3.”</note>
+                            >Kissinger</persName><note n="1" type="source" xml:id="d54fn1">Source:
+                            National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Records of the
+                            Office of the Counselor <persName corresp="#p_SH_1">Helmut
+                                Sonnenfeldt</persName>, Lot 81D286, Box 3, HS Chron,
+                            Official—Apr–June, 1975. Secret; Sensitive. <persName corresp="#p_KHA_1"
+                                >Kissinger</persName>’s initials appear on the memorandum alongside
+                            his handwritten comment: “Excellent—Let’s discuss soonest.” Notations in
+                            the upper right hand corner of the first page read: “direct to C” and
+                            “Secto 3.”</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-04-04"
@@ -16839,8 +16825,8 @@
                 <div type="document" n="55" xml:id="d55" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-10T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-04-10T23:59:59-05:00">
-                    <head>55. Address by President <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" type="source" xml:id="d55fn1">Source: <hi rend="italic">Public
+                    <head>55. Address by President <persName corresp="#p_FGR_1">Ford</persName><note
+                            n="1" type="source" xml:id="d55fn1">Source: <hi rend="italic">Public
                                 Papers: <persName corresp="#p_FGR_1">Ford</persName>, 1975</hi>,
                             Book I, pp. 459–473. The President delivered his address reporting on
                             U.S. foreign policy to a joint session of Congress at 9:04 p.m. The
@@ -17519,10 +17505,10 @@
                     <p>And may God ever guide us to do what is right.</p>
                     <p>Thank you.</p>
                 </div>
+                <pb n="303" facs="0334" xml:id="pg_303"/>
                 <div type="document" n="56" xml:id="d56" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-04-15T23:59:59-05:00">
-                    <pb n="303" facs="0334" xml:id="pg_303"/>
                     <head>56. Memorandum From the President’s Deputy Assistant for National Security
                         Affairs (<persName corresp="#p_SBA_1">Scowcroft</persName>) to the
                         President’s Assistant for National Security Affairs (<persName
@@ -17633,12 +17619,12 @@
                         warheads from Europe and general purpose forces from many other locations,
                         it becomes downright disgusting.</p>
                 </div>
+                <pb n="305" facs="0336" xml:id="pg_305"/>
                 <div type="document" n="57" xml:id="d57" subtype="historical-document"
                     frus:doc-dateTime-min="1975-04-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-04-23T23:59:59-05:00">
-                    <pb n="305" facs="0336" xml:id="pg_305"/>
-                    <head>57. Address by President <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" type="source" xml:id="d57fn1">Source: <hi rend="italic">Public
+                    <head>57. Address by President <persName corresp="#p_FGR_1">Ford</persName><note
+                            n="1" type="source" xml:id="d57fn1">Source: <hi rend="italic">Public
                                 Papers: <persName corresp="#p_FGR_1">Ford</persName>, 1975</hi>,
                             Book I, pp. 568–573. The President delivered his remarks, entitled “An
                             Agenda for America’s Third Century,” at 8:07 p.m. in the Tulane
@@ -18029,17 +18015,16 @@
                     frus:doc-dateTime-min="1975-07-15T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-07-15T23:59:59-05:00">
                     <head>59. Address by Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d59fn1">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Policy Planning Council (<gloss
-                                target="#t_SPC_1">S/PC</gloss>), Policy Planning Staff (<gloss
-                                target="#t_SP_1">S/P</gloss>), Director’s Files (<persName
-                                corresp="#p_LW_1">Winston Lord</persName>) 1969–77, Lot 77D112, Box
-                            355, JUL 1–15 1975. No classification marking. All brackets are in the
-                            original. <persName corresp="#p_KHA_1">Kissinger</persName> delivered
-                            his address to the Upper Midwest Council. The speech is printed in
-                            Department of State <hi rend="italic">Bulletin</hi>, August 4, 1975, pp.
-                            161–168. The previous day, <persName corresp="#p_KHA_1"
+                            >Kissinger</persName><note n="1" type="source" xml:id="d59fn1">Source:
+                            National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Policy
+                            Planning Council (<gloss target="#t_SPC_1">S/PC</gloss>), Policy
+                            Planning Staff (<gloss target="#t_SP_1">S/P</gloss>), Director’s Files
+                                (<persName corresp="#p_LW_1">Winston Lord</persName>) 1969–77, Lot
+                            77D112, Box 355, JUL 1–15 1975. No classification marking. All brackets
+                            are in the original. <persName corresp="#p_KHA_1">Kissinger</persName>
+                            delivered his address to the Upper Midwest Council. The speech is
+                            printed in Department of State <hi rend="italic">Bulletin</hi>, August
+                            4, 1975, pp. 161–168. The previous day, <persName corresp="#p_KHA_1"
                                 >Kissinger</persName> addressed a dinner meeting of the University
                             of Wisconsin Institute of World Affairs in Milwaukee. The speech,
                             entitled “The Global Challenge and International Cooperation,” is ibid.,
@@ -18521,30 +18506,30 @@
                     <p>So let us come together for the tasks that our time demands. We have before
                         us an opportunity to bring peace to a world that awaits our leadership.</p>
                 </div>
+                <pb n="325" facs="0356" xml:id="pg_325"/>
                 <div type="document" n="60" xml:id="d60" subtype="historical-document"
                     frus:doc-dateTime-min="1975-07-18T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-07-18T23:59:59-05:00">
-                    <pb n="325" facs="0356" xml:id="pg_325"/>
                     <head>60. Draft Memorandum From Secretary of State <persName corresp="#p_KHA_1"
                             >Kissinger</persName> to President <persName corresp="#p_FGR_1"
-                            >Ford</persName>
-                        <note n="1" type="source" xml:id="d60fn1">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Policy Planning Council (<gloss
-                                target="#t_SPC_1">S/PC</gloss>), Policy Planning Staff (<gloss
-                                target="#t_SP_1">S/P</gloss>), Director’s Files (<persName
-                                corresp="#p_LW_1">Winston Lord</persName>) 1969–77, Lot 77D112, Box
-                            355, JUL 16–31, 1975. Confidential; <gloss target="#t_Nodis_1"
-                                >Nodis</gloss>. Drafted by <persName corresp="#p_BR_1"
-                                >Bartholomew</persName> and <persName corresp="#p_LW_1"
-                                >Lord</persName> on July 18. The memorandum is not marked as a draft
-                            but there is no indication that either <persName corresp="#p_KHA_1"
-                                >Kissinger</persName> or <persName corresp="#p_FGR_1"
-                                >Ford</persName> saw it. <persName corresp="#p_LW_1">Lord</persName>
-                            sent it to <persName corresp="#p_SBA_1">Scowcroft</persName> under a
-                            July 18 covering memorandum. Lord offered to “rework this for you
-                                [<persName corresp="#p_SBA_1">Scowcroft</persName>] in any way,” as
-                            he was “not sure this is precisely on the mark. We have assumed that it
-                            is strictly for internal consumption.”</note>
+                            >Ford</persName><note n="1" type="source" xml:id="d60fn1">Source:
+                            National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Policy
+                            Planning Council (<gloss target="#t_SPC_1">S/PC</gloss>), Policy
+                            Planning Staff (<gloss target="#t_SP_1">S/P</gloss>), Director’s Files
+                                (<persName corresp="#p_LW_1">Winston Lord</persName>) 1969–77, Lot
+                            77D112, Box 355, JUL 16–31, 1975. Confidential; <gloss
+                                target="#t_Nodis_1">Nodis</gloss>. Drafted by <persName
+                                corresp="#p_BR_1">Bartholomew</persName> and <persName
+                                corresp="#p_LW_1">Lord</persName> on July 18. The memorandum is not
+                            marked as a draft but there is no indication that either <persName
+                                corresp="#p_KHA_1">Kissinger</persName> or <persName
+                                corresp="#p_FGR_1">Ford</persName> saw it. <persName
+                                corresp="#p_LW_1">Lord</persName> sent it to <persName
+                                corresp="#p_SBA_1">Scowcroft</persName> under a July 18 covering
+                            memorandum. Lord offered to “rework this for you [<persName
+                                corresp="#p_SBA_1">Scowcroft</persName>] in any way,” as he was “not
+                            sure this is precisely on the mark. We have assumed that it is strictly
+                            for internal consumption.”</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-07-18"
@@ -18604,10 +18589,9 @@
                         responsible American role abroad.</p>
                     <p>With this said, your leadership has been a critical element in recreating the
                         conditions for effective American leadership. <hi rend="italic"
-                            >Mayaguez</hi>
-                        <note n="2" xml:id="d60fn2">Cambodian patrol boats seized the crew of the SS
-                                <hi rend="italic">Mayaguez</hi>, en route from Hong Kong to
-                            Thailand, on May 12. In response, U.S. ships and planes attacked
+                            >Mayaguez</hi><note n="2" xml:id="d60fn2">Cambodian patrol boats seized
+                            the crew of the SS <hi rend="italic">Mayaguez</hi>, en route from Hong
+                            Kong to Thailand, on May 12. In response, U.S. ships and planes attacked
                             Cambodian bases and ships. The Cambodians released the <hi rend="italic"
                                 >Mayaguez</hi> and its sailors on May 14. See <ref
                                 target="frus1969-76v10#d284">
@@ -18858,10 +18842,10 @@
                         momentum, validating the overall structure of our foreign policy, and laying
                         the foundation for future accomplishments.</p>
                 </div>
+                <pb n="332" facs="0363" xml:id="pg_332"/>
                 <div type="document" n="61" xml:id="d61" subtype="historical-document"
                     frus:doc-dateTime-min="1975-07-30T02:35:00-05:00"
                     frus:doc-dateTime-max="1975-07-30T02:35:00-05:00">
-                    <pb n="332" facs="0363" xml:id="pg_332"/>
                     <head>61. Memorandum of Conversation<note n="1" type="source" xml:id="d61fn1"
                             >Source: <persName corresp="#p_FGR_1">Ford</persName> Library, National
                             Security Adviser, <persName corresp="#p_KHA_1">Kissinger</persName>
@@ -19243,12 +19227,12 @@
                         agree with you on that.</p>
                     <p>[Omitted here is discussion of upcoming meetings.]</p>
                 </div>
+                <pb n="338" facs="0369" xml:id="pg_338"/>
                 <div type="document" n="62" xml:id="d62" subtype="historical-document"
                     frus:doc-dateTime-min="1975-08-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-08-01T23:59:59-05:00">
-                    <pb n="338" facs="0369" xml:id="pg_338"/>
-                    <head>62. Address by President <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" type="source" xml:id="d62fn1">Source: <hi rend="italic">Public
+                    <head>62. Address by President <persName corresp="#p_FGR_1">Ford</persName><note
+                            n="1" type="source" xml:id="d62fn1">Source: <hi rend="italic">Public
                                 Papers: <persName corresp="#p_FGR_1">Ford</persName>, 1975</hi>,
                             Book II, pp. 1074–1081. <persName corresp="#p_FGR_1">Ford</persName>
                             addressed the delegates to the Conference on Security and Cooperation in
@@ -19548,14 +19532,13 @@
                             (<persName corresp="#p_LW_1">Lord</persName>) and the Assistant
                         Secretary of State for Inter-American Affairs (<persName corresp="#p_RWP_1"
                             >Rogers</persName>) to Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d63fn1">Source: National Archives, <gloss
-                                target="#t_RG_1">RG</gloss> 59, Policy Planning Council (<gloss
-                                target="#t_SPC_1">S/PC</gloss>), Policy Planning Staff (<gloss
-                                target="#t_SP_1">S/P</gloss>), Director’s Files (<persName
-                                corresp="#p_LW_1">Winston Lord</persName>) 1969–77, Lot 77D112, Box
-                            354, SEPT 16–30 1975. Confidential; <gloss target="#t_Exdis_1"
-                                >Exdis</gloss>.</note>
+                            >Kissinger</persName><note n="1" type="source" xml:id="d63fn1">Source:
+                            National Archives, <gloss target="#t_RG_1">RG</gloss> 59, Policy
+                            Planning Council (<gloss target="#t_SPC_1">S/PC</gloss>), Policy
+                            Planning Staff (<gloss target="#t_SP_1">S/P</gloss>), Director’s Files
+                                (<persName corresp="#p_LW_1">Winston Lord</persName>) 1969–77, Lot
+                            77D112, Box 354, SEPT 16–30 1975. Confidential; <gloss
+                                target="#t_Exdis_1">Exdis</gloss>.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1975-09-19"
@@ -19828,8 +19811,8 @@
                 <div type="document" n="65" xml:id="d65" subtype="historical-document"
                     frus:doc-dateTime-min="1975-12-07T00:00:00-05:00"
                     frus:doc-dateTime-max="1975-12-07T23:59:59-05:00">
-                    <head>65. Address by President <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" type="source" xml:id="d65fn1">Source: <hi rend="italic">Public
+                    <head>65. Address by President <persName corresp="#p_FGR_1">Ford</persName><note
+                            n="1" type="source" xml:id="d65fn1">Source: <hi rend="italic">Public
                                 Papers: <persName corresp="#p_FGR_1">Ford</persName>, 1975</hi>,
                             Book II, pp. 1950–1955. The President delivered his remarks at 11:05
                             a.m. at the East-West Center at the University of Hawaii. Congress
@@ -20061,13 +20044,14 @@
                 <div type="document" n="66" xml:id="d66" subtype="historical-document"
                     frus:doc-dateTime-min="1976-01-03T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-01-03T23:59:59-05:00">
-                    <head>66. Interview With President <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" type="source" xml:id="d66fn1">Source: <hi rend="italic">Public
-                                Papers: <persName corresp="#p_FGR_1">Ford</persName>, 1976–77</hi>,
-                            Book I, pp. 7–11. The interview began at 11:36 a.m. in the Library at
-                            the White House. It was broadcast during a portion of the program “New
-                            World—Hard Choices: American Foreign Policy 1976,” which was shown on
-                            the <gloss target="#t_NBC_1">NBC</gloss> network on January 5.</note>
+                    <head>66. Interview With President <persName corresp="#p_FGR_1"
+                            >Ford</persName><note n="1" type="source" xml:id="d66fn1">Source: <hi
+                                rend="italic">Public Papers: <persName corresp="#p_FGR_1"
+                                    >Ford</persName>, 1976–77</hi>, Book I, pp. 7–11. The interview
+                            began at 11:36 a.m. in the Library at the White House. It was broadcast
+                            during a portion of the program “New World—Hard Choices: American
+                            Foreign Policy 1976,” which was shown on the <gloss target="#t_NBC_1"
+                                >NBC</gloss> network on January 5.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-01-03"
@@ -20286,16 +20270,15 @@
                         answering that question.</p>
                     <p>The President: Thank you, John.</p>
                 </div>
+                <pb n="361" facs="0392" xml:id="pg_361"/>
                 <div type="document" n="67" xml:id="d67" subtype="historical-document"
                     frus:doc-dateTime-min="1976-01-29T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-01-29T23:59:59-05:00">
-                    <pb n="361" facs="0392" xml:id="pg_361"/>
                     <head>67. Statement by Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d67fn1">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, February 16, 1976, pp. 174–182. The
-                            statement was made before the Subcommittee on African Affairs of the
-                            Senate Committee on Foreign Relations.</note>
+                            >Kissinger</persName><note n="1" type="source" xml:id="d67fn1">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, February 16, 1976,
+                            pp. 174–182. The statement was made before the Subcommittee on African
+                            Affairs of the Senate Committee on Foreign Relations.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1976-01-29"
@@ -20683,10 +20666,10 @@
                         oppression. Together we will hearten the friends of liberty and peace
                         everywhere.</p>
                 </div>
+                <pb n="370" facs="0401" xml:id="pg_370"/>
                 <div type="document" n="68" xml:id="d68" subtype="historical-document"
                     frus:doc-dateTime-min="1976-02-01T16:39:00-05:00"
                     frus:doc-dateTime-max="1976-02-01T16:39:00-05:00">
-                    <pb n="370" facs="0401" xml:id="pg_370"/>
                     <head>68. Telegram From the Department of State to All European Diplomatic
                             Posts<note n="1" type="source" xml:id="d68fn1">Source: National
                             Archives, <gloss target="#t_RG_1">RG</gloss> 59, Central Foreign Policy
@@ -21020,15 +21003,15 @@
                             Papers: <persName corresp="#p_FGR_1">Ford</persName>, 1976–77</hi>, Book
                         I, page 552)</p>
                 </div>
+                <pb n="377" facs="0408" xml:id="pg_377"/>
                 <div type="document" n="70" xml:id="d70" subtype="historical-document"
                     frus:doc-dateTime-min="1976-02-24T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-02-24T23:59:59-05:00">
-                    <pb n="377" facs="0408" xml:id="pg_377"/>
                     <head>70. Memorandum From the Secretary of State’s Executive Assistant
                             (<persName corresp="#p_ELS_1">Eagleburger</persName>) to Secretary of
-                        State <persName corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" type="source" xml:id="d70fn1">Source: Department of State, Files
-                            of <persName corresp="#p_ELS_1">Lawrence S. Eagleburger</persName>, Lot
+                        State <persName corresp="#p_KHA_1">Kissinger</persName><note n="1"
+                            type="source" xml:id="d70fn1">Source: Department of State, Files of
+                                <persName corresp="#p_ELS_1">Lawrence S. Eagleburger</persName>, Lot
                             84D204, Chron—February 1976. Confidential; Eyes Only.</note>
                     </head>
                     <opener><dateline rendition="#right">
@@ -21263,30 +21246,29 @@
                         include the first page of that memo in the cable I sent you.</p>
                     <closer>
                         <signed corresp="#p_ELS_1">
-                            <gloss target="#t_LSE_1">LSE</gloss>
-                            <note n="11" xml:id="d70fn11">Printed from a copy that bears these typed
-                                initials.</note>
+                            <gloss target="#t_LSE_1">LSE</gloss><note n="11" xml:id="d70fn11"
+                                >Printed from a copy that bears these typed initials.</note>
                         </signed>
                     </closer>
                 </div>
+                <pb n="382" facs="0413" xml:id="pg_382"/>
                 <div type="document" n="71" xml:id="d71" subtype="historical-document"
                     frus:doc-dateTime-min="1976-03-11T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-03-11T23:59:59-05:00">
-                    <pb n="382" facs="0413" xml:id="pg_382"/>
                     <head>71. Address by Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d71fn1">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, April 5, 1976, pp. 425–432. <persName
-                                corresp="#p_KHA_1">Kissinger</persName> made the address before the
-                            Boston World Affairs Council upon receiving the Christian A. Herter
-                            Memorial Award. <persName corresp="#p_ELS_1">Eagleburger</persName>’s
-                            February 24 memorandum to <persName corresp="#p_KHA_1"
-                                >Kissinger</persName> suggested a strategy for this speech (<ref
-                                target="#d70">Document 70</ref> and <ref target="#d70fn8">footnote
-                                8</ref> thereto). <persName corresp="#p_KHA_1">Kissinger</persName>
-                            made similar remarks during a speech in Phoenix April 16. The text of
-                            that speech is in Department of State <hi rend="italic">Bulletin</hi>,
-                            May 10, 1976, pp. 597–603.</note>
+                            >Kissinger</persName><note n="1" type="source" xml:id="d71fn1">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, April 5, 1976, pp.
+                            425–432. <persName corresp="#p_KHA_1">Kissinger</persName> made the
+                            address before the Boston World Affairs Council upon receiving the
+                            Christian A. Herter Memorial Award. <persName corresp="#p_ELS_1"
+                                >Eagleburger</persName>’s February 24 memorandum to <persName
+                                corresp="#p_KHA_1">Kissinger</persName> suggested a strategy for
+                            this speech (<ref target="#d70">Document 70</ref> and <ref
+                                target="#d70fn8">footnote 8</ref> thereto). <persName
+                                corresp="#p_KHA_1">Kissinger</persName> made similar remarks during
+                            a speech in Phoenix April 16. The text of that speech is in Department
+                            of State <hi rend="italic">Bulletin</hi>, May 10, 1976, pp.
+                            597–603.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Boston</placeName>, <date when="1976-03-11"
@@ -21324,8 +21306,8 @@
                         and alternatives, the likely costs, opportunities, and risks.</p>
                     <p>America has come through a difficult time—when our institutions have been
                         under challenge, our purposes doubted, and our will questioned. The time has
-                        come, as <persName corresp="#p_SAE3_1">Adlai Stevenson</persName>
-                        <note n="3" xml:id="d71fn3">Former Governor of Illinois <persName
+                        come, as <persName corresp="#p_SAE3_1">Adlai Stevenson</persName><note n="3"
+                            xml:id="d71fn3">Former Governor of Illinois <persName
                                 corresp="#p_SAE3_1">Adlai E. Stevenson II</persName> was the
                             Democratic Presidential candidate in 1952 and 1956. He also served as
                             Ambassador to the United Nations from 1961 until 1965.</note> said, to
@@ -21763,10 +21745,10 @@
                         Let us have a clear vision of what is before us—glory and danger alike—and
                         go forward together to meet it.</p>
                 </div>
+                <pb n="394" facs="0425" xml:id="pg_394"/>
                 <div type="document" n="72" xml:id="d72" subtype="historical-document"
                     frus:doc-dateTime-min="1976-03-23T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-03-23T23:59:59-05:00">
-                    <pb n="394" facs="0425" xml:id="pg_394"/>
                     <head>72. Statement by the Director of the Policy Planning Staff (<persName
                             corresp="#p_LW_1">Lord</persName>)<note n="1" type="source"
                             xml:id="d72fn1">Source: Department of State <hi rend="italic"
@@ -22010,10 +21992,10 @@
                         resiliency and once again achieve peace at home so that we can better
                         promote peace in the world.</p>
                 </div>
+                <pb n="400" facs="0431" xml:id="pg_400"/>
                 <div type="document" n="73" xml:id="d73" subtype="historical-document"
                     frus:doc-dateTime-min="1976-03-31T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-03-31T23:59:59-05:00">
-                    <pb n="400" facs="0431" xml:id="pg_400"/>
                     <head>73. Notes of an Address by the Counselor of the Department of State
                             (<persName corresp="#p_SH_1">Sonnenfeldt</persName>)<note n="1"
                             type="source" xml:id="d73fn1">Source: National Archives, <gloss
@@ -22139,14 +22121,14 @@
                         European communist parties are not subservient to Moscow, but neither are
                         they as independent as they claim.</p>
                 </div>
+                <pb n="403" facs="0434" xml:id="pg_403"/>
                 <div type="document" n="74" xml:id="d74" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-12T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-04-12T23:59:59-05:00">
-                    <pb n="403" facs="0434" xml:id="pg_403"/>
                     <head>74. Briefing Memorandum From the Director of the Policy Planning Staff
                             (<persName corresp="#p_LW_1">Lord</persName>) to Secretary of State
-                            <persName corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" type="source" xml:id="d74fn1">Source: National Archives, <gloss
+                            <persName corresp="#p_KHA_1">Kissinger</persName><note n="1"
+                            type="source" xml:id="d74fn1">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Policy Planning Council (<gloss
                                 target="#t_SPC_1">S/PC</gloss>), Policy Planning Staff (<gloss
                                 target="#t_SP_1">S/P</gloss>), Director’s Files (<persName
@@ -22397,8 +22379,8 @@
                 <div type="document" n="76" xml:id="d76" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-21T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-04-21T23:59:59-05:00">
-                    <head>76. Address by President <persName corresp="#p_FGR_1">Ford</persName>
-                        <note n="1" type="source" xml:id="d76fn1">Source: <hi rend="italic">Public
+                    <head>76. Address by President <persName corresp="#p_FGR_1">Ford</persName><note
+                            n="1" type="source" xml:id="d76fn1">Source: <hi rend="italic">Public
                                 Papers: <persName corresp="#p_FGR_1">Ford</persName>, 1976–77</hi>,
                             Book II, pp. 1139–1145. <persName corresp="#p_FGR_1">Ford</persName>
                             delivered the address to the 85th Continental Congress of the Daughters
@@ -22411,9 +22393,9 @@
                             <placeName>Washington</placeName>, <date when="1976-04-21"
                                 calendar="gregorian">April 21, 1976</date>.</dateline></opener>
                     <p>
-                        <hi rend="italic">Thank you very much Mrs. Smith,</hi>
-                        <note n="2" xml:id="d76fn2">Jane Farwell Smith, President General of the
-                            Daughters of the American Revolution.</note>
+                        <hi rend="italic">Thank you very much Mrs. Smith,</hi><note n="2"
+                            xml:id="d76fn2">Jane Farwell Smith, President General of the Daughters
+                            of the American Revolution.</note>
                         <hi rend="italic">members and guests of the Daughters of the American
                             Revolution:</hi>
                     </p>
@@ -22653,29 +22635,29 @@
                         of America and proud to be Americans.</p>
                     <p>Thank you very much.</p>
                 </div>
+                <pb n="413" facs="0444" xml:id="pg_413"/>
                 <div type="document" n="77" xml:id="d77" subtype="historical-document"
                     frus:doc-dateTime-min="1976-04-27T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-04-27T23:59:59-05:00">
-                    <pb n="413" facs="0444" xml:id="pg_413"/>
                     <head>77. Address by Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d77fn1">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, May 31, 1976, pp. 672–679. <persName
-                                corresp="#p_KHA_1">Kissinger</persName> delivered the address at a
-                            luncheon hosted by Zambian President Kenneth Kaunda. All brackets are in
-                            the original. <persName corresp="#p_KHA_1">Kissinger</persName> arrived
-                            in Lusaka on April 26 for talks with Kaunda on the political situation
-                            in Rhodesia, the third stop of a two-week visit to Africa. Between April
-                            24 and May 6, <persName corresp="#p_KHA_1">Kissinger</persName> traveled
-                            to Kenya, Tanzania, Zambia, Zaire, Liberia, and Senegal for meetings
-                            with the leaders of those countries, and attended the <gloss
-                                target="#t_UNCTAD_1">UNCTAD</gloss> conference in Nairobi May 3–6.
-                            In his memoirs, <persName corresp="#p_KHA_1">Kissinger</persName>
-                            recalled that the “principal purpose” of the Lusaka speech and the
-                            entire African trip, his first to the continent, was to “place the
-                            United States squarely behind majority rule in Southern Africa.”
-                                (<persName corresp="#p_KHA_1">Kissinger</persName>, <hi
-                                rend="italic">Years of Renewal</hi>, p. 925)</note>
+                            >Kissinger</persName><note n="1" type="source" xml:id="d77fn1">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, May 31, 1976, pp.
+                            672–679. <persName corresp="#p_KHA_1">Kissinger</persName> delivered the
+                            address at a luncheon hosted by Zambian President Kenneth Kaunda. All
+                            brackets are in the original. <persName corresp="#p_KHA_1"
+                                >Kissinger</persName> arrived in Lusaka on April 26 for talks with
+                            Kaunda on the political situation in Rhodesia, the third stop of a
+                            two-week visit to Africa. Between April 24 and May 6, <persName
+                                corresp="#p_KHA_1">Kissinger</persName> traveled to Kenya, Tanzania,
+                            Zambia, Zaire, Liberia, and Senegal for meetings with the leaders of
+                            those countries, and attended the <gloss target="#t_UNCTAD_1"
+                                >UNCTAD</gloss> conference in Nairobi May 3–6. In his memoirs,
+                                <persName corresp="#p_KHA_1">Kissinger</persName> recalled that the
+                            “principal purpose” of the Lusaka speech and the entire African trip,
+                            his first to the continent, was to “place the United States squarely
+                            behind majority rule in Southern Africa.” (<persName corresp="#p_KHA_1"
+                                >Kissinger</persName>, <hi rend="italic">Years of Renewal</hi>, p.
+                            925)</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Lusaka</placeName>, <date when="1976-04-27"
@@ -23143,17 +23125,16 @@
                             (Ibid., August 23, 1976, pp. 257–265)</note>
                     </p>
                 </div>
+                <pb n="424" facs="0455" xml:id="pg_424"/>
                 <div type="document" n="78" xml:id="d78" subtype="historical-document"
                     frus:doc-dateTime-min="1976-05-09T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-05-09T23:59:59-05:00">
-                    <pb n="424" facs="0455" xml:id="pg_424"/>
                     <head>78. Address by Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d78fn1">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, June 7, 1976, pp. 720–725. <persName
-                                corresp="#p_KHA_1">Kissinger</persName> delivered the address upon
-                            receiving the Chizuk Amuno Synagogue Distinguished Achievement
-                            Award.</note>
+                            >Kissinger</persName><note n="1" type="source" xml:id="d78fn1">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, June 7, 1976, pp.
+                            720–725. <persName corresp="#p_KHA_1">Kissinger</persName> delivered the
+                            address upon receiving the Chizuk Amuno Synagogue Distinguished
+                            Achievement Award.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Baltimore</placeName>, <date when="1976-05-09"
@@ -23513,13 +23494,13 @@
                         our generation of Americans that they have had a rendezvous with peace and
                         with progress.</p>
                 </div>
+                <pb n="433" facs="0464" xml:id="pg_433"/>
                 <div type="document" n="79" xml:id="d79" subtype="historical-document"
                     frus:doc-dateTime-min="1976-06-22T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-06-22T23:59:59-05:00">
-                    <pb n="433" facs="0464" xml:id="pg_433"/>
                     <head>79. Memorandum From the Deputy Secretary of State (Robinson) to Secretary
-                        of State <persName corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" type="source" xml:id="d79fn1">Source: National Archives, <gloss
+                        of State <persName corresp="#p_KHA_1">Kissinger</persName><note n="1"
+                            type="source" xml:id="d79fn1">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Records of Deputy Secretary of State
                                 <persName corresp="#p_RCW_1">Charles W. Robinson</persName>,
                             1976–1977, Lot 77D117, Box 6, CWR—Memos to the Secretary, April
@@ -23690,15 +23671,15 @@
                     frus:doc-dateTime-min="1976-06-25T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-06-25T23:59:59-05:00">
                     <head>80. Address by Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d80fn1">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, July 26, 1976, pp. 105–115. All
-                            brackets, except those indicating the omission of unrelated material,
-                            are in the original. <persName corresp="#p_KHA_1">Kissinger</persName>
-                            delivered the address before the International Institute for Strategic
-                            Studies, inaugurating the Alastair Buchan memorial lecture series. He
-                            arrived in London on June 24 for meetings with British Prime Minister
-                            James Callaghan and Foreign Secretary Anthony Crosland.</note>
+                            >Kissinger</persName><note n="1" type="source" xml:id="d80fn1">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, July 26, 1976, pp.
+                            105–115. All brackets, except those indicating the omission of unrelated
+                            material, are in the original. <persName corresp="#p_KHA_1"
+                                >Kissinger</persName> delivered the address before the International
+                            Institute for Strategic Studies, inaugurating the Alastair Buchan
+                            memorial lecture series. He arrived in London on June 24 for meetings
+                            with British Prime Minister James Callaghan and Foreign Secretary
+                            Anthony Crosland.</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>London</placeName>, <date when="1976-06-25"
@@ -24726,14 +24707,14 @@
                         with an increasingly nervous White House over the Secretary’s level of
                         partisanship.</p>
                 </div>
+                <pb n="459" facs="0490" xml:id="pg_459"/>
                 <div type="document" n="82" xml:id="d82" subtype="historical-document"
                     frus:doc-dateTime-min="1976-09-01T00:00:00-05:00"
                     frus:doc-dateTime-max="1976-09-01T23:59:59-05:00">
-                    <pb n="459" facs="0490" xml:id="pg_459"/>
                     <head>82. Briefing Memorandum From the Director of the Policy Planning Staff
                             (<persName corresp="#p_LW_1">Lord</persName>) to Secretary of State
-                            <persName corresp="#p_KHA_1">Kissinger</persName>
-                        <note n="1" type="source" xml:id="d82fn1">Source: National Archives, <gloss
+                            <persName corresp="#p_KHA_1">Kissinger</persName><note n="1"
+                            type="source" xml:id="d82fn1">Source: National Archives, <gloss
                                 target="#t_RG_1">RG</gloss> 59, Policy Planning Council (<gloss
                                 target="#t_SPC_1">S/PC</gloss>), Policy Planning Staff (<gloss
                                 target="#t_SP_1">S/P</gloss>), Director’s Files (<persName
@@ -24767,8 +24748,8 @@
                         Ascendance</p>
                     <p>Recent events suggest that <gloss target="#t_US_1">US</gloss> prestige is
                         again rising in Latin America:</p>
-                    <p>—the Santiago <gloss target="#t_OASGA_1">OASGA</gloss>
-                        <note n="3" xml:id="d82fn3">Held June 7–9.</note> went very well for us;</p>
+                    <p>—the Santiago <gloss target="#t_OASGA_1">OASGA</gloss><note n="3"
+                            xml:id="d82fn3">Held June 7–9.</note> went very well for us;</p>
                     <p>—official relations with major countries have improved noticeably; and</p>
                     <p>—except for parts of the Caribbean, anti-American posturings—and with them
                         the Cubans—seem to have lost most of their appeal.</p>
@@ -25077,10 +25058,10 @@
                         The watchwords are similar for both audiences: cooperation, not imposition
                         or withdrawal; discrimination, not frustrated overreaction.</p>
                 </div>
+                <pb n="467" facs="0498" xml:id="pg_467"/>
                 <div type="document" n="83" xml:id="d83" subtype="historical-document"
                     frus:doc-dateTime-min="1976-10-03T13:18:00-05:00"
                     frus:doc-dateTime-max="1976-10-03T15:18:00-05:00">
-                    <pb n="467" facs="0498" xml:id="pg_467"/>
                     <head>83. Memorandum of Conversation<note n="1" type="source" xml:id="d83fn1"
                             >Source: <persName corresp="#p_FGR_1">Ford</persName> Library, National
                             Security Adviser, Memoranda of Conversations, 1973–1977, Box 21,
@@ -25450,18 +25431,17 @@
                     frus:doc-dateTime-min="1977-01-20T00:00:00-05:00"
                     frus:doc-dateTime-max="1977-01-20T23:59:59-05:00">
                     <head>84. Interview With Secretary of State <persName corresp="#p_KHA_1"
-                            >Kissinger</persName>
-                        <note n="1" type="source" xml:id="d84fn1">Source: Department of State <hi
-                                rend="italic">Bulletin</hi>, February 7, 1977, pp. 102–107. All
-                            brackets are in the original. <persName corresp="#p_KHA_1"
-                                >Kissinger</persName> was interviewed by <persName corresp="#p_RJ_1"
-                                >James Reston</persName>, Hedrick Smith, and Bernard Gwertzman of
-                            the <hi rend="italic">New York Times</hi>. The interview appeared in the
-                                <hi rend="italic">Times</hi> on President <persName
-                                corresp="#p_CJ_1">Carter</persName>’s inauguration day. (“Excerpts
-                            From Interview With <persName corresp="#p_KHA_1">Kissinger</persName>:
-                            Eight Years in Washington Evaluated,” <hi rend="italic">New York
-                                Times</hi>, January 20, 1977, p. 16)</note>
+                            >Kissinger</persName><note n="1" type="source" xml:id="d84fn1">Source:
+                            Department of State <hi rend="italic">Bulletin</hi>, February 7, 1977,
+                            pp. 102–107. All brackets are in the original. <persName
+                                corresp="#p_KHA_1">Kissinger</persName> was interviewed by <persName
+                                corresp="#p_RJ_1">James Reston</persName>, Hedrick Smith, and
+                            Bernard Gwertzman of the <hi rend="italic">New York Times</hi>. The
+                            interview appeared in the <hi rend="italic">Times</hi> on President
+                                <persName corresp="#p_CJ_1">Carter</persName>’s inauguration day.
+                            (“Excerpts From Interview With <persName corresp="#p_KHA_1"
+                                >Kissinger</persName>: Eight Years in Washington Evaluated,” <hi
+                                rend="italic">New York Times</hi>, January 20, 1977, p. 16)</note>
                     </head>
                     <opener><dateline rendition="#right">
                             <placeName>Washington</placeName>, <date when="1977-01-20"
@@ -25871,10 +25851,10 @@
             </div>
         </body>
         <back>
+            <pb n="483" facs="0000" xml:id="pg_483"/>
             <div type="section" xml:id="index" subtype="index"
                 frus:doc-dateTime-min="1973-01-25T00:00:00-05:00"
                 frus:doc-dateTime-max="1976-10-03T16:18:00-05:00">
-                <pb n="483" facs="0000" xml:id="pg_483"/>
                 <head>Index</head>
                 <p>
                     <hi rend="strong">References are to document numbers</hi>
